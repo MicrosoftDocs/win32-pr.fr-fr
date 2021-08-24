@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80fcc6e7ed3ccb630b500179d7273bdd09a21477
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 509ab80a8f7b33d3ac7f9d40157152ce5aa693376e4e61edc4581f8d375f1c77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825479"
 ---
 # <a name="mdm_reporting_enterprisedataprotection01_retrievebycount02-class"></a>\_ \_ Classe RetrieveByCount02 EnterpriseDataProtection01 de création de rapports MDM \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ EnterpriseDataProtection01 \_ RetrieveByCount02 de rapports MDM** est utilisée pour récupérer un nombre spécifié de journaux à partir de StartTime. L’heure de début est exprimée au format ISO 8601. Vous pouvez définir le nombre de journaux requis en définissant LogCount et StartTime. Elle retourne le nombre spécifié de journaux ou moins, si le nombre total de journaux est inférieur à LogCount.
 
@@ -86,7 +86,7 @@ Type d’accès : lecture/écriture
 
 </dd> <dt>
 
-[Journaux](/windows/client-management/mdm/reporting-csp#logs)
+[Journaux d’activité](/windows/client-management/mdm/reporting-csp#logs)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -141,7 +141,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

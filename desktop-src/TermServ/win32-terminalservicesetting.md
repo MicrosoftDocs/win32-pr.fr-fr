@@ -70,16 +70,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc03f02028a331a3688152a1ce8c57ada7269d07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a4d7aefdd3f0a684c91fda3ab73d17de32327f34e8d20d5a7f844ea07e21906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769889"
 ---
 # <a name="win32_terminalservicesetting-class"></a>\_Classe TerminalServiceSetting Win32
 
-La classe WMI **\_ TerminalServiceSetting** WMI représente la configuration d’un serveur hôte de session Bureau à distance (hôte de session Bureau à distance). Les paramètres incluent des fonctionnalités telles que le mode serveur hôte de session Bureau à distance, la licence, le bureau actif, les autorisations, la suppression de dossiers temporaires et les répertoires temporaires pour les sessions.
+La classe WMI **\_ TerminalServiceSetting** WMI représente la configuration d’un serveur hôte de session Bureau à distance (hôte de session Bureau à distance). Paramètres inclure des fonctionnalités telles que le mode serveur hôte de Session bureau à distance, la licence, le bureau actif, les autorisations, la suppression de dossiers temporaires et les répertoires temporaires pour les sessions.
 
 La syntaxe suivante est simplifiée à partir du code MOF et comprend toutes les propriétés définies et héritées, par ordre alphabétique. Pour obtenir des informations de référence sur les méthodes, consultez le tableau des méthodes plus loin dans cette rubrique.
 
@@ -433,7 +433,7 @@ Type d’accès : lecture/écriture
 
 Indique si la planification de partage de foire dynamique (DFSS) est activée ou désactivée. Il peut s’agir de l’une des valeurs suivantes.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 <dt>
 
@@ -542,7 +542,7 @@ activé
 
 </dd> </dl>
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -1098,7 +1098,7 @@ Stratégie de groupe
 
 </dd> </dl>
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -1129,7 +1129,7 @@ Stratégie de groupe
 
 </dd> </dl>
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -1824,15 +1824,15 @@ Des répertoires temporaires sont créés et supprimés pour chaque session.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Win32 \_ TerminalServiceSetting** est associé à [**Win32 \_ TerminalService**](win32-terminalservice.md) en tant que propriété de **paramètre** de l’Association [**Win32 \_ TerminalServiceToSetting**](win32-terminalservicetosetting.md) .
 
 [**Win32 \_ TerminalSetting**](win32-terminalsetting.md) est associé au [**\_ Terminal Win32**](win32-terminal.md) en tant que propriété de **paramètre** de l’Association [**Win32 \_ TerminalTerminalSetting**](win32-terminalterminalsetting.md) .
 
-Pour se connecter à l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de six.
+Pour se connecter à l' \\ \\ espace de noms licences TS cimv2 racine, le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**. pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de six.
 
-L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -1843,7 +1843,7 @@ Set objServices = GetObject( _
 
 
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

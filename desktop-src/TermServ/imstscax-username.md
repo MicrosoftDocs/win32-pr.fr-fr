@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a94a7f7d9fe5d6532de55f36a50094205fe1d4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 609619a012c9eea865a275bc6ee86cfc06c798ba27902636f9d5f792b8cb0dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770879"
 ---
 # <a name="imstscaxusername-property"></a>IMsTscAx :: UserName, propriété
 
@@ -100,13 +100,13 @@ Nouveau nom d’utilisateur.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La définition de la propriété **username** est facultative. Si elle n’est pas spécifiée, l’utilisateur peut fournir un nom d’utilisateur lorsque la boîte de dialogue d’ouverture de session Windows s’affiche pendant la connexion.
+La définition de la propriété **username** est facultative. si elle n’est pas spécifiée, l’utilisateur peut fournir un nom d’utilisateur lorsque la boîte de dialogue Windows Logon s’affiche pendant la connexion.
 
 Cette propriété ne peut être définie que si le contrôle n’est pas dans l’état connecté. Elle retourne **E \_ Fail** si elle est appelée lorsque le contrôle est connecté. Vous pouvez vérifier si le contrôle est connecté en répondant aux événements de connexion dans [**IMsTscAxEvents**](imstscaxevents-interface.md) ou en examinant la propriété [**Connected**](imstscax-connected.md) .
 
-La méthode de propriété **obtenir le \_ nom d’utilisateur** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pVersion* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Cela n’est pas nécessaire pour les Visual Basic et les clients de script.
+La méthode de propriété **obtenir le \_ nom d’utilisateur** alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pVersion* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . cela n’est pas nécessaire pour les Visual Basic et les clients de script.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

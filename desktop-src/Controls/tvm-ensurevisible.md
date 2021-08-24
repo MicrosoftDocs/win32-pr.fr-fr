@@ -3,7 +3,7 @@ title: Message TVM_ENSUREVISIBLE (commctrl. h)
 description: Garantit qu’un élément d’arborescence est visible, en développant l’élément parent ou en faisant défiler le contrôle d’arborescence, si nécessaire. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro EnsureVisible TreeView.
 ms.assetid: 7053438a-f9ca-4c4c-9da6-46b99fe1e4f8
 keywords:
-- TVM_ENSUREVISIBLE les contrôles de message Windows
+- TVM_ENSUREVISIBLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06100ee33106736076608aa216d2aebc03b76ebe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1072c7213eb2172896980662bcd7a22a3c41fccf34eea2f7a107ab7ff894b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797249"
 ---
 # <a name="tvm_ensurevisible-message"></a>TVM \_ ENSUREVISIBLE message
 
@@ -43,7 +43,7 @@ Handle de l’élément.
 
 Retourne une valeur différente de zéro si le système a fait défiler les éléments dans le contrôle Tree-View et qu’aucun élément n’a été développé. Dans le cas contraire, le message retourne la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le \_ message TVM ENSUREVISIBLE développe l’élément parent, la fenêtre parente reçoit les codes de notification [TVN \_ ITEMEXPANDING](tvn-itemexpanding.md) et [TVN \_ ITEMEXPANDED](tvn-itemexpanded.md) .
 
@@ -53,8 +53,8 @@ Si le \_ message TVM ENSUREVISIBLE développe l’élément parent, la fenêtre 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Fournit des instructions et des conventions pour implémenter l’i
 ms.assetid: 428540BB-5CC0-4F49-8384-0FFC130FBB38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97cc6524585f3ddd7ec764a791141fce9daa3c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4499f5b031b5b5a9391f0c0078cb64c4c2715b61052c324cc2c2b19ccb2f5d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899553"
 ---
 # <a name="customnavigation-control-pattern"></a>Modèle de contrôle CustomNavigation
 
@@ -49,7 +49,7 @@ Les propriétés suivantes sont requises pour implémenter l’interface **ICust
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement.
 
@@ -72,9 +72,9 @@ Ce modèle de contrôle n’est associé à aucune méthode ou aucun événement
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

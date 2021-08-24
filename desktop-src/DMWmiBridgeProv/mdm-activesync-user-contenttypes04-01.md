@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef158daf25c6dc1c084966673f71c5907c4df1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90ee020573f8f7d0e01250d844bcb546a399b5b2a6c73e79b8ad5b98df154dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769109"
 ---
 # <a name="mdm_activesync_user_contenttypes04_01-class"></a>\_ \_ \_ \_ Classe ContentTypes04 01 de l’utilisateur MDM ActiveSync
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ User \_ ContentTypes04 \_ 01 de MDM ActiveSync** définit le type de contenu qui doit être activé ou désactivé individuellement pour la synchronisation.
 
@@ -57,7 +57,7 @@ La **classe \_ \_ utilisateur \_ ContentTypes04 \_ 01 de MDM ActiveSync** a ces 
 
 <dl> <dt>
 
-[Enabled](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-enabled)
+[Activé](/windows/client-management/mdm/activesync-csp#options-contenttypes-content-type-guid-enabled)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -117,7 +117,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e73de4d6d1762e87aa05e72b6cb6b3fbb228b80d
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: b44744d7ac7d158bd7d00423396681fef1499c94d61b5cb74a1dee48dad5c784
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103842861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898669"
 ---
 # <a name="uri-prefixes"></a>Préfixes d’URI
 
@@ -23,7 +23,7 @@ Le préfixe [*URI de ressource*](windows-remote-management-glossary.md) diffère
 
 ## <a name="prefixes"></a>Préfixes
 
-Si vous accédez à une classe [*cim*](windows-remote-management-glossary.md) 2,1, par exemple un [**fichier de \_ fichier CIM**](/windows/desktop/CIMWin32Prov/cim-datafile), le préfixe de l’URI diffère du préfixe d’une classe CIM 2,9, par exemple **CIM \_ AdminDomain**. Les classes CIM 2,1 sont documentées dans la section des [classes CIM](/windows/desktop/WmiSdk/cimclas) de Windows Management Instrumentation (WMI).
+Si vous accédez à une classe [*cim*](windows-remote-management-glossary.md) 2,1, par exemple un [**fichier de \_ fichier CIM**](/windows/desktop/CIMWin32Prov/cim-datafile), le préfixe de l’URI diffère du préfixe d’une classe CIM 2,9, par exemple **CIM \_ AdminDomain**. les classes cim 2,1 sont documentées dans la section des [classes cim](/windows/desktop/WmiSdk/cimclas) de Windows Management Instrumentation (WMI).
 
 La plupart des [classes WMI](/windows/desktop/WmiSdk/wmi-classes) se trouvent dans l’espace de noms WMI **\\ cimv2 racine** . Les classes pour le fournisseur de l’interface de gestion de plateforme intelligente ([IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)) Microsoft se trouvent dans le **\\ matériel racine**.
 
@@ -41,13 +41,13 @@ La liste suivante contient les préfixes d’URI de ressource pour les schémas 
 
     "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/hardware/"
 
-Pour plus d’informations, consultez [URI de ressource](resource-uris.md) et [chaînes URLPrefix](/windows/desktop/Http/urlprefix-strings). Pour plus d’informations sur la génération d’un URI pour une méthode ou une classe WMI, consultez [Windows Remote Management et WMI](windows-remote-management-and-wmi.md).
+Pour plus d’informations, consultez [URI de ressource](resource-uris.md) et [chaînes URLPrefix](/windows/desktop/Http/urlprefix-strings). pour plus d’informations sur la génération d’un URI pour une méthode ou une classe wmi, consultez [Windows Remote Management et wmi](windows-remote-management-and-wmi.md).
 
 ## <a name="prefix-aliases"></a>Alias de préfixe
 
 Un alias de préfixe est un raccourci qui représente le préfixe URI de ressource long. Vous pouvez également utiliser des alias dans la ligne de commande **WinRM** . Pour afficher la liste des alias disponibles, tapez **WinRM Help aliases**.
 
-N’oubliez pas qu’un alias ne peut pas être utilisé dans une référence de point de terminaison (EPR) lors de la spécification d’un URI de ressource. Windows Remote Management ne peut pas développer l’alias lorsqu’il est incorporé en XML.
+N’oubliez pas qu’un alias ne peut pas être utilisé dans une référence de point de terminaison (EPR) lors de la spécification d’un URI de ressource. Windows La gestion à distance ne peut pas développer l’alias lorsqu’il est incorporé en XML.
 
 Dans l’exemple de code suivant, l’alias WinRM est utilisé dans un EPR à la place de l’URI de ressource complet, qui est `http://schemas.microsoft.com/wbem/wsman/1/config/Listener` . Dans ce cas, WinRM retourne une erreur qui indique que le service ne peut pas traiter la demande.
 
@@ -113,10 +113,10 @@ La liste suivante répertorie les alias et les URI de ressource pour lesquels el
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Windows Remote Management et WMI](windows-remote-management-and-wmi.md)
+[Windows Gestion à distance et WMI](windows-remote-management-and-wmi.md)
 </dt> <dt>
 
 [URI de ressource](resource-uris.md)

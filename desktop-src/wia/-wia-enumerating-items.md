@@ -1,19 +1,19 @@
 ---
-description: Quand un appareil est créé, Windows Image Acquisition (WIA) crée une arborescence hiérarchique des éléments WIA qui représentent l’appareil et les dossiers et images associés à cet appareil.
+description: quand un appareil est créé, Windows acquisition d’images (wia) crée une arborescence hiérarchique des éléments WIA qui représentent l’appareil et les dossiers et images associés à cet appareil.
 ms.assetid: ab7246e8-47bb-4b94-8d91-1c22010ebd9f
 title: Énumération d’éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c216e658b7105f6b3d88d01bd55a3200af7e45c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5438e5cb65b701fcbc24d61aa888ac6c88347cacdaca8fa0a861f8c452a1ebc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772879"
 ---
 # <a name="enumerating-items"></a>Énumération d’éléments
 
-Quand un appareil est créé, Windows Image Acquisition (WIA) crée une arborescence hiérarchique des éléments WIA qui représentent l’appareil et les dossiers et images associés à cet appareil. Utilisez la méthode de l’élément racine (élément à la racine de l’arborescence qui représente le périphérique) [**IWiaItem :: EnumChildItems**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems) (ou [**IWiaItem2 :: EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) pour créer un objet énumérateur et obtenir un pointeur vers son interface [**IEnumWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem) (ou [**IEnumWiaItem2**](-wia-ienumwiaitem2.md)), qui est utilisée pour naviguer dans l’arborescence d’éléments et accéder aux images ou aux lits d’analyse associés à l’appareil.
+quand un appareil est créé, Windows acquisition d’images (wia) crée une arborescence hiérarchique des éléments WIA qui représentent l’appareil et les dossiers et images associés à cet appareil. Utilisez la méthode de l’élément racine (élément à la racine de l’arborescence qui représente le périphérique) [**IWiaItem :: EnumChildItems**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumchilditems) (ou [**IWiaItem2 :: EnumChildItems**](-wia-iwiaitem2-enumchilditems.md)) pour créer un objet énumérateur et obtenir un pointeur vers son interface [**IEnumWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-ienumwiaitem) (ou [**IEnumWiaItem2**](-wia-ienumwiaitem2.md)), qui est utilisée pour naviguer dans l’arborescence d’éléments et accéder aux images ou aux lits d’analyse associés à l’appareil.
 
 L’exemple suivant illustre une fonction qui énumère de manière récursive tous les éléments d’une arborescence, en commençant par un élément racine passé à la fonction.
 

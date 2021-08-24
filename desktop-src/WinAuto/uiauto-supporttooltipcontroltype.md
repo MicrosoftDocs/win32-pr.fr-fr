@@ -21,12 +21,12 @@ keywords:
 - types de contrôle, info-bulle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc3c9f227faf5dd9844f809dac43cf160371490d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 31a20e6d4b61851e57bd2609d58075477b8e62999f5e10e34f02d86e010797a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899289"
 ---
 # <a name="tooltip-control-type"></a>ToolTip (type de contrôle)
 
@@ -77,7 +77,7 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
- 
+ 
 
 Les contrôles ToolTip apparaissent uniquement dans l’affichage de contenu de l’arborescence UI Automation s’ils peuvent recevoir le focus clavier. Sinon, toutes les informations de l’info-bulle sont disponibles à partir de la propriété [**IUIAutomationElement :: CurrentHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_currenthelptext) (ou [**CachedHelpText**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-get_cachedhelptext)) sur l’élément auquel l’info-bulle fait référence.
 
@@ -104,7 +104,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -119,7 +119,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -146,7 +146,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -161,9 +161,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

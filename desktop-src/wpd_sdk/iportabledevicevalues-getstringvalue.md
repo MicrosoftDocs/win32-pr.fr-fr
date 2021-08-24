@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: fdb4741c36445af686b7721e1f5f04dd3e45f1e9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d8a9703a359a2de13ec96ff3faf46ea9e49fb1fc467cdade56d799503f1b8cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806959"
 ---
 # <a name="iportabledevicevaluesgetstringvalue-method"></a>IPortableDeviceValues :: GetStringValue, méthode
 
@@ -57,7 +57,7 @@ Pointeur vers la valeur **LPWStr** récupérée. L’appelant est chargé d’ap
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de0601ac64ab0ca55f3d92ec460861a4347f70b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dc03fb9cff3a99d77006989b7adade40a15ad4bb4d63e6f940092b765b1e250f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771059"
 ---
 # <a name="imstscaxsecuredsettingsenabled-property"></a>IMsTscAx :: SecuredSettingsEnabled, propriété
 
@@ -86,7 +86,7 @@ La valeur de ce paramètre est **true** si l’interface est disponible ; sinon
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour demander si l’interface [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md) est disponible avant de récupérer la propriété [**SecuredSettings**](imstscax-securedsettings.md) .
 

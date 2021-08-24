@@ -3,7 +3,7 @@ title: Message MM_MCISIGNAL (mmsystem. h)
 description: Le \_ message mm MCISIGNAL est envoyé à une fenêtre pour avertir une application qu’un périphérique MCI a atteint une position définie dans une commande de signal précédente ( \_ signal MCI).
 ms.assetid: 12512d23-9a89-4e38-9ec5-88845766f4f6
 keywords:
-- Message MM_MCISIGNAL Windows Multimedia
+- message MM_MCISIGNAL Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d42d4d39f31b82c7461a5bd8d8561b0da1b6bf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb54b56d35ad34d10d95c2a34b52b370fb856d9c958dd42223c7f0a08ddbdfb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807439"
 ---
 # <a name="mm_mcisignal-message"></a>MM \_ message MCISIGNAL
 
@@ -60,7 +60,7 @@ Valeur transmise dans le membre **dwUserParm** de la structure de **paramètre d
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 
@@ -74,7 +74,7 @@ Valeur transmise dans le membre **dwUserParm** de la structure de **paramètre d
 [Messages MCI](mci-messages.md)
 </dt> <dt>
 
-[**témoin**](signal.md)
+[**signal**](signal.md)
 </dt> </dl>
 
  

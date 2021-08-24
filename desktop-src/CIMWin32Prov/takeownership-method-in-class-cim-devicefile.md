@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4e7c745df18e1725199c4027d22882a00f6143a1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 03d629a3b547074c6543635646a5335e6e5b13bddabc539be6918641e19dc536
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751849"
 ---
 # <a name="takeownership-method-of-the-cim_devicefile-class"></a>Méthode TakeOwnerShip de la \_ classe CIM DeviceFile
 
@@ -45,7 +45,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

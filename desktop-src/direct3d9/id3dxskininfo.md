@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: afb93a0513bef7de1b0815b8b1f50179e2cba41d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0d7bfeddb5cb34bb9b5d0372f424c40248f06e55fa7263e1e884e71fb82dafcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727759"
 ---
 # <a name="id3dxskininfo-interface"></a>Interface ID3DXSkinInfo
 
@@ -68,7 +68,7 @@ L’interface **ID3DXSkinInfo** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Créez une interface **ID3DXSkinInfo** avec [**D3DXCreateSkinInfo**](d3dxcreateskininfo.md), [**D3DXCreateSkinInfoFromBlendedMesh**](d3dxcreateskininfofromblendedmesh.md)ou [**D3DXCreateSkinInfoFVF**](d3dxcreateskininfofvf.md).
 

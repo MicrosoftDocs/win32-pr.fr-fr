@@ -3,19 +3,19 @@ title: Opérations de réseau DRM
 description: Opérations de réseau DRM
 ms.assetid: 4a10c811-2aa1-4b97-8a72-61e8b04075a8
 keywords:
-- SDK Windows Media format, opérations de réseau DRM
+- Windows Media Format SDK, DRM Network Operations
 - ASF (Advanced Systems Format), opérations de réseau DRM
 - ASF (format de systèmes avancés), opérations de réseau DRM
 - gestion des droits numériques (DRM), opérations réseau
 - DRM (gestion des droits numériques), opérations réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 875186e43e066d71847da014468e9b1764b60cf2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7f026ed972b88a1e6290bdd513012c2fab758da2c5b4b91a6a1162df5d258207
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771749"
 ---
 # <a name="drm-network-operations"></a>Opérations de réseau DRM
 
@@ -26,7 +26,7 @@ Comme pour toute transaction réseau, votre application doit prendre en compte d
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -35,9 +35,9 @@ Comme pour toute transaction réseau, votre application doit prendre en compte d
 [**Activation de la prise en charge de DRM**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

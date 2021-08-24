@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 245d36d3f6c907260e3e4858a5873309d2638530
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f763286a6db8430514cd70bc05eb160935e0fdc7ae8b5c452e8c09a113c0af5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882409"
 ---
 # <a name="iscanprofileisdefault-method"></a>IScanProfile :: IsDefault, méthode
 
@@ -42,9 +42,9 @@ HRESULT IsDefault(
 *pbDefault* \[ à\]
 </dt> <dd>
 
-Type : **bool \** _
+Type : **bool \***
 
-Pointeur vers un _ * BOOL * *.
+Pointeur vers un **booléen**.
 
 <dt>
 
@@ -76,7 +76,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 *pbDefault* a la **valeur true** si le profil contient un `<Default>` élément. La **valeur est false** si aucun élément de ce type n’est présent. L’élément n’a pas de valeur.
 
@@ -86,8 +86,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c6d94906fa8c0debfa1ee49d95f5acd47aea2526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d35f09a10cc88ae3873a507b6fa7000812503890240ce0b808ffecc84f23fd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883949"
 ---
 # <a name="foldertype-element-library-schema"></a>Élément folderType (schéma de bibliothèque)
 
@@ -48,9 +48,9 @@ L' <folderType> élément spécifie un GUID pour le type de dossier. Cet éléme
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La définition d’un type de dossier détermine les colonnes et les détails qui s’affichent dans l’Explorateur Windows par défaut. Les identificateurs de type de dossier ([**FOLDERTYPEID**](foldertypeid.md)) sont des GUID définis dans shlguid. h. Le tableau suivant répertorie les GUID des types de dossiers courants.
+la définition d’un type de dossier détermine les colonnes et les détails qui s’affichent dans Windows Explorer par défaut. Les identificateurs de type de dossier ([**FOLDERTYPEID**](foldertypeid.md)) sont des GUID définis dans shlguid. h. Le tableau suivant répertorie les GUID des types de dossiers courants.
 
 
 
@@ -62,7 +62,7 @@ La définition d’un type de dossier détermine les colonnes et les détails qu
 | Dossier images  | {B3690E58-E961-423B-B687-386EBFD83239} |
 | Dossier vidéos    | {5fa96407-7e77-483c-ac93-691d05850de8} |
 | Dossier Games     | {b689b0d0-76d3-4cbb-87f7-585d0e0ce070} |
-| Dossier musique     | {94d6ddcc-4a68-4175-a374-bd584a510b78} |
+| Musique Répertoire     | {94d6ddcc-4a68-4175-a374-bd584a510b78} |
 | Contacts         | {DE2B70EC-9BF7-4A93-BD3D-243F7881D492} |
 
 

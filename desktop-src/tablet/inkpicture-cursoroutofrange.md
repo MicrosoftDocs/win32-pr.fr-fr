@@ -4,12 +4,12 @@ ms.assetid: 0c71a4ad-3c09-4134-b0e7-82f29e8913ed
 title: InkPicture. CursorOutOfRange, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d80584eafb7f1e5222316507f08bd73efb12fae
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0a4645ce06e25b9145af5efaca193bf7c3dc21931095887a1a24116c2e0ad635
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883978"
 ---
 # <a name="inkpicturecursoroutofrange-event"></a>InkPicture. CursorOutOfRange, événement
 
@@ -37,11 +37,11 @@ Objet d' [**interface IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-ii
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICECursorOutOfRange.
 
@@ -53,7 +53,7 @@ L’événement **CursorOutOfRange** est déclenché même en mode SELECT ou Era
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

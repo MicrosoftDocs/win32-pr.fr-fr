@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c4e16b40a394bc9b808386d3cbdc3abf9b3d928
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd057a1ced7c2f594b9e4a7a2c67abe963caa270e770eebecd2f36b50f309aef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769919"
 ---
 # <a name="tab-control-extended-styles"></a>Styles étendus de contrôle onglet
 

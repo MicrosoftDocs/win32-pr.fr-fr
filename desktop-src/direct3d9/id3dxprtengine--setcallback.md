@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e9c2cfe710bc41ff71267e381fa0bf576688f9df
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e1ed2570c45380ce4faa0be42ddb9231d6420940dd9a6d669d6f2540154dc644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847358"
 ---
 # <a name="id3dxprtenginesetcallback-method"></a>ID3DXPRTEngine :: SetCallBack, méthode
 

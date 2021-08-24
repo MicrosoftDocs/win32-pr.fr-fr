@@ -4,12 +4,12 @@ ms.assetid: be31e98f-5114-4693-a9ef-37fea334875b
 title: Stratégie de métadonnées de photo System. GPS. MapDatum
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7a279c79da3d2b1dd20563af35bd34233a1a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8bbd3671ec9e025dd2c5ea98fc36f4937abab315b09a2227fb6249d74e577da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882339"
 ---
 # <a name="systemgpsmapdatum-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. MapDatum
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. MapDat
 
 \_MapDatum GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire lit, écrit et supprime les do
 
 
 
-| Commande | Chemin d’accès                          | Format de disque | Obligatoire |
+| Commande | Chemin                          | Format de disque | Obligatoire |
 |-------|-------------------------------|-------------|----------|
 | 1     | /xmp/exif:GPSMapDatum         | Unicode     | Oui      |
 | 2     | /App1/IFD/GPS/ \\ {UShort = 18 \\ } | ASCII       | Non       |
@@ -60,7 +60,7 @@ Si le fichier est au format TIFF, le gestionnaire lit, écrit et supprime les do
 
 
 
-| Commande | Chemin d’accès                      | Format de disque | Obligatoire |
+| Commande | Chemin                      | Format de disque | Obligatoire |
 |-------|---------------------------|-------------|----------|
 | 1     | /ifd/xmp/exif:GPSMapDatum | Unicode     | Oui      |
 | 2     | /IFD/GPS/ \\ {UShort = 18 \\ }  | ASCII       | Non       |

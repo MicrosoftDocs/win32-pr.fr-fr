@@ -10,12 +10,12 @@ keywords:
 - lecteurs synchrones, récupération d’exemples de médias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fd341ea9616b18a5e65cfa8c1134e0f1be44b5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2e1ec4fc7e8a894de304ea828cef9d8e019f4cdedfd2fbd851a427382ba741a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807429"
 ---
 # <a name="to-retrieve-media-samples-with-the-synchronous-reader"></a>Pour récupérer des exemples de médias avec le lecteur synchrone
 
@@ -28,7 +28,7 @@ Par défaut, le lecteur synchrone récupère tous les échantillons des sorties 
 > [!Note]  
 > Pour vous assurer que le lecteur synchrone fournit des durées d’échantillonnage correctes pour les flux vidéo, vous devez d’abord configurer la sortie du flux. Appelez la méthode [**IWMSyncReader :: SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting) pour définir le \_ paramètre g wszVideoSampleDurations sur **true**.
 
- 
+ 
 
 Exemple de code
 
@@ -76,9 +76,9 @@ while (SUCCEEDED(hr));
 [**Lecture des fichiers avec le lecteur synchrone**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

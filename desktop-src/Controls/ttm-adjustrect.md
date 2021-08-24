@@ -3,7 +3,7 @@ title: Message TTM_ADJUSTRECT (commctrl. h)
 description: Calcule le rectangle d’affichage du texte d’un contrôle ToolTip à partir du rectangle de la fenêtre, ou le rectangle de la fenêtre d’info-bulle nécessaire pour afficher un rectangle d’affichage de texte spécifié.
 ms.assetid: b848c16f-9f41-4ed2-918a-9c03aebe535c
 keywords:
-- TTM_ADJUSTRECT les contrôles de message Windows
+- TTM_ADJUSTRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af89374161d5e3f9d9ab6affc2b3b498a39cbf68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bba5a6719bcbd820d94b6d736a12644f8b2539cc81064f942616c62bce55823f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769529"
 ---
 # <a name="ttm_adjustrect-message"></a>\_Message atténuation ADJUSTRECT
 
@@ -47,7 +47,7 @@ La structure **Rect** pour contenir un rectangle de fenêtre d’info-bulle ou u
 
 Retourne une valeur différente de zéro si le rectangle est correctement ajusté et retourne zéro si une erreur se produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est particulièrement utile lorsque vous souhaitez utiliser un contrôle ToolTip pour afficher le texte intégral d’une chaîne habituellement tronquée. Elle est couramment utilisée avec les contrôles ListView et TreeView. En général, vous envoyez ce message en réponse à un code de notification [ttn \_ Show](ttn-show.md) afin que vous puissiez positionner le contrôle ToolTip correctement.
 
@@ -82,8 +82,8 @@ if (MyStringIsTruncated) {
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

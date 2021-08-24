@@ -3,9 +3,9 @@ title: Méthode IWMPStringCollection2 getItemInfobyType
 description: La méthode getItemInfoByType retourne la valeur correspondant à l’index de l’élément de collection de chaînes, au nom, à la langue et à l’index d’attributs spécifiés.
 ms.assetid: 51035fed-51ce-4cd2-a936-4c99802128f2
 keywords:
-- méthode getItemInfobyType lecteur Windows Media
-- méthode getItemInfobyType lecteur Windows Media, interface IWMPStringCollection2
-- Interface IWMPStringCollection2 lecteur Windows Media, méthode getItemInfobyType
+- Lecteur Windows Media de la méthode getItemInfobyType
+- méthode getItemInfobyType Lecteur Windows Media, interface IWMPStringCollection2
+- Lecteur Windows Media de l’interface IWMPStringCollection2, méthode getItemInfobyType
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e227d6471ecf41c8f48420ded61c6f4e7eaac8cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc2894faedc8e2573fad5beaa7744216fbb53fbd1b090e4be2122a3194827f43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899759"
 ---
 # <a name="iwmpstringcollection2getiteminfobytype-method"></a>IWMPStringCollection2 :: getItemInfobyType, méthode
 
@@ -91,7 +91,7 @@ Implements IWMPStringCollection2.getItemInfobyType
 
 **System. Object** qui est l’élément de collection de chaînes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode prend en charge des attributs avec plusieurs valeurs et attributs avec des valeurs complexes. La méthode **getItemInfo** ne prend pas en charge les attributs avec plusieurs valeurs ou attributs avec des valeurs complexes.
 

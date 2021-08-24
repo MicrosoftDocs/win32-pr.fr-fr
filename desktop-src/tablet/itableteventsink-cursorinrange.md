@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: eec2b4f309480ecaecd50de2120d701c916b6fff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c9878b4c3cd28727c5d54e59a52f3fe85a44832203f70b6ff042c6beeb579dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883479"
 ---
 # <a name="itableteventsinkcursorinrange-method"></a>ITabletEventSink :: CursorInRange, méthode
 
@@ -63,7 +63,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
@@ -76,7 +76,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -1,24 +1,24 @@
 ---
 title: Structures WMDM
-description: Cet article contient des Articles de référence sur les structures définies par Windows Media Gestionnaire de périphériques, telles que _BITMAPINFOHEADER et MTP_COMMAND_DATA_IN.
+description: cet article contient des articles de référence sur les structures définies par Windows Gestionnaire de périphériques de média, comme _BITMAPINFOHEADER et MTP_COMMAND_DATA_IN.
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
-- Gestionnaire de périphériques Windows Media, structures
+- Windows Gestionnaire de périphériques de média, structures
 - Gestionnaire de périphériques, structures
 - Référence de programmation, structures
-- informations de référence sur les Gestionnaire de périphériques Windows Media, structures
+- référence pour Windows Gestionnaire de périphériques de média, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cc49deb3f4dd28695f5e0e7c3a871c53fa96300
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5fd0048a7cf3b87f09bb46ef6f6db74531b4b67a7364acd28099feed04bb8dec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865539"
 ---
 # <a name="wmdm-structures"></a>Structures WMDM
 
-Windows Media Gestionnaire de périphériques définit les structures suivantes.
+Windows Le Gestionnaire de périphériques de média définit les structures suivantes.
 
 
 
@@ -27,7 +27,7 @@ Windows Media Gestionnaire de périphériques définit les structures suivantes.
 | [**\_BITMAPINFOHEADER**](-bitmapinfoheader.md)             | Définit le format de l’image vidéo.                                                                                                                                                                                                                       |
 | [**\_ \_ données de commande MTP \_ dans**](/windows/desktop/api/MtpExt/ns-mtpext-mtp_command_data_in)       | Contient des commandes personnalisées MTP (Media Transport Protocol) qui sont envoyées à l’appareil à l’aide de la méthode [**IWMDMDevice3 ::D eviceiocontrol**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol) .                                                                           |
 | [**\_ \_ sortie des données de commande MTP \_**](/windows/desktop/api/MtpExt/ns-mtpext-mtp_command_data_out)     | Contient les réponses MTP (Media Transport Protocol) qui sont remplies par le pilote de périphérique.                                                                                                                                                                  |
-| [**OPAQUECOMMAND**](opaquecommand.md)                      | Contient des données pour les commandes qui sont transmises par le biais de Windows Media Gestionnaire de périphériques à un appareil, mais qui ne sont pas destinées à être traitées par Windows Media Gestionnaire de périphériques.                                                                                       |
+| [**OPAQUECOMMAND**](opaquecommand.md)                      | contient des données pour les commandes qui sont transmises via Windows Gestionnaire de périphériques multimédia à un appareil, mais qui ne sont pas censées être traitées par Windows Gestionnaire de périphériques de média.                                                                                       |
 | [**\_VIDEOINFOHEADER**](-videoinfoheader.md)               | Définit le format d’un flux vidéo.                                                                                                                                                                                                                    |
 | [**\_WAVEFORMATEX**](-waveformatex.md)                     | Définit le format des données Waveform-Audio.                                                                                                                                                                                                               |
 | [**\_fonction de format WMDM \_**](wmdm-format-capability.md)  | Décrit les fonctionnalités d’un appareil pour un format particulier. Cette structure contient un ensemble de configurations de propriétés dans un tableau de structures de configuration [**WMDM \_ prop \_**](wmdm-prop-config.md) .                                                       |

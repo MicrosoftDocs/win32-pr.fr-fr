@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser une zone de liste déroulant
 ms.assetid: D866DE82-9734-4E8A-A366-5870C25B7C7B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5355dd33fe0067165308e9e6e5885b76edbe7ceb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e90d82192e485e4f833157a1c3ab75e8e39446e1e80f7f9cc27baf5444b4e0bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826463"
 ---
 # <a name="how-to-create-an-owner-drawn-combo-box"></a>Comment créer une zone de liste déroulante Owner-Drawn
 
@@ -19,16 +19,16 @@ Cette rubrique montre comment utiliser une zone de liste déroulante owner-drawn
 
 La boîte de dialogue contient également une zone de liste (IDLIST) et deux boutons : **OK** (IDOK) et **Annuler** (IDCANCEL). Les constantes IDOK et IDCANCEL sont définies par les fichiers d’en-tête du kit de développement logiciel (SDK). La constante IDLIST est définie dans le fichier d’en-tête de l’application, comme l’identificateur de contrôle, IDCOMBO. Pour plus d’informations sur les boîtes de dialogue, consultez [boîtes de dialogue](/windows/desktop/dlgbox/dialog-boxes).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -589,6 +589,6 @@ void DeleteIconBitmaps(void)
 [Utilisation de zones de liste déroulante](using-combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

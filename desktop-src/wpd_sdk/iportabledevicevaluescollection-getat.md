@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 2ad10a7b9cc3c252a0cee4cb71df05cb108e0a18
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 089c6c5c523b6f05f91efb5524904c942a539a7ebbb3cd863c1c07d413cdf1a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704629"
 ---
 # <a name="iportabledevicevaluescollectiongetat-method"></a>IPortableDeviceValuesCollection :: GetAt, méthode
 
@@ -55,9 +55,9 @@ Adresse d’une variable qui reçoit un pointeur vers une interface [**IPortable
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -72,7 +72,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Toutes les modifications apportées aux valeurs dans l’interface récupérée seront apportées à la version stockée dans la collection.
 

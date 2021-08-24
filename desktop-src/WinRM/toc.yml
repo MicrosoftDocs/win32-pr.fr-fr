@@ -1,24 +1,24 @@
 - name: gestion à distance de Windows
   href: portal.md
   items:
-    - name: À propos de Windows Remote Management
+    - name: à propos de Windows Remote Management
       href: about-windows-remote-management.md
       items:
         - name: 'Nouveautés de WinRM 2,0'
           href: whats-new-in-winrm.md
         - name: Installation et configuration de Windows Remote Management
           href: installation-and-configuration-for-windows-remote-management.md
-        - name: Architecture Windows Remote Management
+        - name: Windows Architecture de gestion à distance
           href: windows-remote-management-architecture.md
         - name: Protocole Gestion des services web
           href: ws-management-protocol.md
-        - name: Scripts dans Windows Remote Management
+        - name: scripts dans Windows Remote Management
           href: scripting-in-windows-remote-management.md
         - name: Authentification des connexions à distance
           href: authentication-for-remote-connections.md
         - name: Serveurs proxy et WinRM
           href: proxy-servers-and-winrm.md
-        - name: Windows Remote Management et WMI
+        - name: Windows Gestion à distance et WMI
           href: windows-remote-management-and-wmi.md
         - name: Découverte de profil DMTF par traversée d’association
           href: dmtf-association-traversal.md
@@ -44,7 +44,7 @@
           href: remote-hardware-management.md
         - name: Événements
           href: events.md
-    - name: Utilisation de Windows Remote Management
+    - name: utilisation de Windows Remote Management
       href: using-windows-remote-management.md
       items:
         - name: Bonnes pratiques WinRM
@@ -61,7 +61,7 @@
           href: querying-for-specific-instances-of-a-resource.md
         - name: Affichage de la sortie XML des scripts WinRM
           href: displaying-xml-output-from-winrm-scripts.md
-    - name: Référence Windows Remote Management
+    - name: Windows Informations de référence sur la gestion à distance
       href: windows-remote-management-reference.md
       items:
         - name: API du shell client WinRM
@@ -609,5 +609,5 @@
                   href: /windows/win32/api/WSManDisp/ne-wsmandisp-wsmanproxyauthenticationflags
         - name: Référence managée pour les classes de commandes Windows PowerShell WinRM
           href: winrm-powershell-commandlets.md
-    - name: Glossaire Windows Remote Management
+    - name: Windows Glossaire de la gestion à distance
       href: windows-remote-management-glossary.md

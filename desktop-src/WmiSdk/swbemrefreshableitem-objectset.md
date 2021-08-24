@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0cbc611bb9e1a72f53e2178039b0ad76411e39a8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 02d3af940691b5afbdbd11f5e653630603948797b026dd0c3eac4b469646d556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897579"
 ---
 # <a name="swbemrefreshableitemobjectset-property"></a>SWbemRefreshableItem. ObjectSet, propriété
 
@@ -43,7 +43,7 @@ SWbemRefreshableItem.ObjectSet As Object
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété a la **valeur null** , sauf si [**SWbemRefreshableItem. isset**](swbemrefreshableitem-isset.md) a la **valeur true**.
 

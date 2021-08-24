@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 74cfdf1a3db4f6843a5f12522b688e889e156f33
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 554874c19054f4b2ee46fbfe29fb4dfb8149e476ff96d040ffdbdd9b39de4612
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847579"
 ---
 # <a name="streamselectoperationcompleted-property"></a>StreamSelectOperation. Completed, propriété
 
@@ -33,11 +33,11 @@ Cette propriété est en lecture/écriture.
 
 ```C++
 HRESULT put_Completed(
-  [in]  IStreamSelectCompletedHandler *value
+  [in]  IStreamSelectCompletedHandler *value
 );
 
 HRESULT get_Completed(
-  [out] IStreamSelectCompletedHandler **value
+  [out] IStreamSelectCompletedHandler **value
 );
 ```
 
@@ -54,6 +54,6 @@ Gestionnaire d'événements.
 [**StreamSelectOperation**](streamselectoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

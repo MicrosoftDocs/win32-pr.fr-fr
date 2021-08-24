@@ -4,12 +4,12 @@ ms.assetid: 67f33645-d57a-48bd-9f0c-9e816f528204
 title: Déconnexion du serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6abf7754da39a891b3d29c69f6c835706debd36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f644b8727898a9d77ab5aa5fb10b0a0ae5b58cdf88a3beb1b9642215d142b6b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898359"
 ---
 # <a name="disconnecting-the-server"></a>Déconnexion du serveur
 
@@ -33,7 +33,7 @@ Une fois que le serveur a terminé de recevoir les données du client et de renv
 
 2.  Lorsque l’application cliente reçoit des données, la fonction [**opération closesocket**](/windows/desktop/api/winsock/nf-winsock-closesocket) est appelée pour fermer le Socket.
 
-    Lorsque l’application cliente est terminée à l’aide de la DLL Windows Sockets, la fonction [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) est appelée pour libérer des ressources.
+    lorsque l’application cliente est exécutée à l’aide de la DLL Windows sockets, la fonction [**WSACleanup**](/windows/desktop/api/winsock/nf-winsock-wsacleanup) est appelée pour libérer des ressources.
 
     ```C++
     // cleanup

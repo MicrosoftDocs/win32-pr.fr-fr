@@ -1,6 +1,6 @@
 ---
 title: Interface IMsTscNonScriptable
-description: Contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle ActiveX Bureau à distance.
+description: contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle Bureau à distance ActiveX.
 ms.assetid: b4a68e02-cce6-4fbe-98b4-0627c10f3f37
 ms.tgt_platform: multiple
 keywords:
@@ -16,18 +16,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92372f7ea9479f7fcdd632546a0bd7dd2f0b465e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86ce3b1e921635850e9ffa713c55a812a806ac4e757e772569e7db817410ad3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770649"
 ---
 # <a name="imstscnonscriptable-interface"></a>Interface IMsTscNonScriptable
 
-Contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle ActiveX Bureau à distance.
+contient des propriétés et des méthodes qui sont liées à l’application d’un mot de passe au contrôle Bureau à distance ActiveX.
 
-La principale utilisation de l’interface **IMsTscNonScriptable** consiste à configurer l’accès à la connexion automatique par mot de passe aux serveurs Bureau à distance hôte de session (hôte de session Bureau à distance) dans les scénarios où le contrôle ActiveX Bureau à distance est hébergé dans un conteneur écrit personnalisé. Lorsque l’ouverture de session automatique est configurée, l’utilisateur ne reçoit pas la boîte de dialogue d’ouverture de session Windows au moment de la connexion.
+la principale utilisation de l’interface **IMsTscNonScriptable** consiste à configurer l’accès à la connexion automatique par mot de passe aux serveurs Bureau à distance hôte de session (hôte de session bureau à distance) dans les scénarios où l’Bureau à distance ActiveX contrôle est hébergé dans un conteneur écrit personnalisé. lorsque l’ouverture de session automatique est configurée, l’utilisateur ne reçoit pas la boîte de dialogue d’ouverture de session Windows au moment de la connexion.
 
 Sur certaines plateformes, les méthodes de l’interface **IMsTscNonScriptable** peuvent être utilisées pour spécifier des mots de passe dans l’un des trois formats pris en charge :
 
@@ -77,7 +77,7 @@ L’interface **IMsTscNonScriptable** possède les propriétés suivantes.
 |:------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------|
 | [**BinaryPassword**](imstscnonscriptable-binarypassword.md)<br/>       | Lecture/écriture<br/> | Cette propriété n'est pas prise en charge.<br/>                                   |
 | [**BinarySalt**](imstscnonscriptable-binarysalt.md)<br/>               | Lecture/écriture<br/> | Cette propriété n'est pas prise en charge.<br/>                                   |
-| [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/> | Écriture seule<br/> | Le mot de passe du contrôle ActiveX Bureau à distance, au format texte en clair.<br/> |
+| [**ClearTextPassword**](imstscnonscriptable-cleartextpassword.md)<br/> | Écriture seule<br/> | Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br/> |
 | [**PortablePassword**](imstscnonscriptable-portablepassword.md)<br/>   | Lecture/écriture<br/> | Cette propriété n'est pas prise en charge.<br/>                                   |
 | [**PortableSalt**](imstscnonscriptable-portablesalt.md)<br/>           | Lecture/écriture<br/> | Cette propriété n'est pas prise en charge.<br/>                                   |
 
@@ -85,9 +85,9 @@ L’interface **IMsTscNonScriptable** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le fait de fournir un mot de passe au contrôle ActiveX Bureau à distance est facultatif. Si vous fournissez un mot de passe au contrôle, vous devez appliquer un seul des trois formats précédents au contrôle avant d’initialiser la connexion avec un appel à la méthode [**Connect**](imstscax-connect.md) .
+l’ajout d’un mot de passe au contrôle Bureau à distance ActiveX est facultatif. si vous fournissez un mot de passe au contrôle, vous devez appliquer un seul des trois formats précédents au contrôle avant d’initialiser la connexion avec un appel à la méthode [**Connecter**](imstscax-connect.md) .
 
 > [!Note]  
 > Vous pouvez également activer l’ouverture de session automatique sur le serveur avec l’outil de configuration Services Bureau à distance (TSCC. msc). un administrateur peut utiliser cet outil pour attribuer un mot de passe spécifique à une connexion dans une situation où une ouverture de session automatisée est nécessaire.
@@ -126,7 +126,7 @@ L’interface **IMsTscNonScriptable** a été étendue par les interfaces suivan
 [Référence Connexion Bureau à distance par le Web](remote-desktop-web-connection-reference.md)
 </dt> <dt>
 
-[**IMsTscAx :: Connect**](imstscax-connect.md)
+[**IMsTscAx :: Connecter**](imstscax-connect.md)
 </dt> </dl>
 
  

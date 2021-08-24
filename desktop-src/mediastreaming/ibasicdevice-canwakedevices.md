@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 08a893ac880a426f604f2dc1c73173585e507cc0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3ebd0cfe9bf773d78297454d4a7643a74c3d6ea23aea01eeb54cd5c014ce73e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847669"
 ---
 # <a name="ibasicdevicecanwakedevices-method"></a>IBasicDevice :: CanWakeDevices, méthode
 
@@ -50,7 +50,7 @@ Reçoit un pointeur vers une valeur booléenne qui est **true** si l’appareil 
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

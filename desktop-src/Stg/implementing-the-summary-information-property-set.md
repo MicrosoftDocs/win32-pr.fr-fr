@@ -1,21 +1,21 @@
 ---
 title: Implémentation du jeu de propriétés d’informations de résumé
-description: Il existe des instructions à suivre lors de l’implémentation d’un jeu de propriétés d’informations de synthèse pour le stockage structuré.
+description: il existe des instructions à suivre lors de l’implémentation d’un jeu de propriétés d’informations de synthèse pour des Stockage structurées.
 ms.assetid: e1204de5-b712-4bd5-bffb-6a12ec8d7052
 keywords:
 - Implémentation du jeu de propriétés d’informations de résumé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69e5ae6208aa5cb7a325d1cccf77f17e969c5b75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dbe847d9a7353074727c94250d0f1ec1fec2194b5b7d250099464a86667861f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796909"
 ---
 # <a name="implementing-the-summary-information-property-set"></a>Implémentation du jeu de propriétés d’informations de résumé
 
-Il existe des instructions à suivre lors de l’implémentation d’un jeu de propriétés d’informations de synthèse pour le stockage structuré.
+il existe des instructions à suivre lors de l’implémentation d’un jeu de propriétés d’informations de synthèse pour des Stockage structurées.
 
 Voici les instructions à suivre pour implémenter [le jeu de propriétés d’informations de résumé](the-summary-information-property-set.md):
 
@@ -31,7 +31,7 @@ Voici les instructions à suivre pour implémenter [le jeu de propriétés d’i
 
 | Niveau de sécurité         | Valeur |
 |------------------------|-------|
-| Aucune                   | 0     |
+| None                   | 0     |
 | Protégé par mot de passe     | 1     |
 | Lecture seule recommandée  | 2     |
 | En lecture seule forcé     | 4     |
@@ -39,11 +39,11 @@ Voici les instructions à suivre pour implémenter [le jeu de propriétés d’i
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,27 +4,27 @@ description: Cette rubrique montre comment utiliser la fonction ImageList \_ Cre
 ms.assetid: 6092C555-B5B6-49DB-B07B-684EDB890761
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c81ff3a46138c210474a1b00ddd2ba647d1368
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e04e3e22894546e887e1a4ca5348518b4e4a35c45f4a26b5b6125b81f9323bed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826479"
 ---
 # <a name="how-to-create-an-image-list"></a>Comment créer une liste d’images
 
 Cette rubrique montre comment utiliser la fonction [**ImageList \_ Create**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create) pour créer une liste d’images.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

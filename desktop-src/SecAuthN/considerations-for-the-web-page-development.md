@@ -1,23 +1,23 @@
 ---
-description: Le Service Broker d’authentification Web est basé sur les technologies qui alimentent Internet Explorer dans Windows.
+description: Le Service Broker d’authentification Web est basé sur les technologies qui alimentent Internet Explorer Windows.
 ms.assetid: 4BBAE30F-63AB-4AB0-9C99-016EF05220E8
 title: Considérations sur le développement de pages web
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbe7e738616589afc4f7ba4f03d92a12207d189c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22932f40d5268059fc30e97817de0b3671cee7447974b038ea4be12eedd76ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883250"
 ---
 # <a name="considerations-for-the-web-page-development"></a>Considérations sur le développement de pages web
 
-Le Service Broker d’authentification Web est basé sur les technologies qui alimentent Internet Explorer dans Windows. Toutefois, en raison d’un objectif très spécial de ce composant, certaines fonctionnalités d’Internet Explorer ont été désactivées ou verrouillées à une configuration spécifique. En outre, le Service Broker d’authentification Web fournit un canal de journalisation des événements dédié pour aider à résoudre les problèmes liés aux pages qu’il traite.
+Le Service Broker d’authentification Web est basé sur les technologies qui alimentent Internet Explorer Windows. Toutefois, en raison d’un objectif très spécial de ce composant, certaines fonctionnalités d’Internet Explorer ont été désactivées ou verrouillées à une configuration spécifique. En outre, le Service Broker d’authentification Web fournit un canal de journalisation des événements dédié pour aider à résoudre les problèmes liés aux pages qu’il traite.
 
-## <a name="internet-explorer-10-standard-document-mode"></a>Mode de document standard d’Internet Explorer 10
+## <a name="internet-explorer-10-standard-document-mode"></a>Internet Explorer 10 le mode de document standard
 
-Le Service Broker d’authentification Web affiche toutes les pages en « IE10 standard mode ». Vous pouvez utiliser les outils de développement dans Internet Explorer pour voir comment votre page fonctionne dans différents modes de document. Pour plus d’informations sur la compatibilité d’Internet Explorer 10, consultez les rubriques MSDN pour [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
+Le Service Broker d’authentification Web affiche toutes les pages en « IE10 standard mode ». Vous pouvez utiliser les outils de développement dans Internet Explorer pour voir comment votre page fonctionne dans différents modes de document. pour plus d’informations sur la compatibilité de Internet Explorer 10, consultez les rubriques MSDN pour [Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/dev-guides/hh673527(v=vs.85)).
 
 ## <a name="disabled-and-locked-down-features"></a>Fonctionnalités désactivées et verrouillées
 
@@ -46,13 +46,13 @@ La première URL qu’une application doit utiliser pour communiquer avec le fou
 
 ## <a name="dimension-for-different-window-sizes"></a>Dimension pour différentes tailles de fenêtre
 
-Une application Windows 8 peut apparaître dans différentes tailles, par exemple plein écran, une fenêtre redimensionnée ou une icône de partage. En fonction de la disposition de fenêtre affichée par le répartiteur d’authentification Web, la taille avec laquelle les pages Web doivent fonctionner peut être différente. Pour plus d’informations, consultez la rubrique [instructions pour le redimensionnement des dispositions étroites](/previous-versions/windows/hh465371(v=win.10)) et la rubrique [instructions de partage de contenu](/previous-versions/windows/hh465251(v=win.10)) .
+une application Windows 8 peut apparaître dans différentes tailles, par exemple plein écran, une fenêtre redimensionnée ou une icône de partage. En fonction de la disposition de fenêtre affichée par le répartiteur d’authentification Web, la taille avec laquelle les pages Web doivent fonctionner peut être différente. Pour plus d’informations, consultez la rubrique [instructions pour le redimensionnement des dispositions étroites](/previous-versions/windows/hh465371(v=win.10)) et la rubrique [instructions de partage de contenu](/previous-versions/windows/hh465251(v=win.10)) .
 
 La page Web doit utiliser des requêtes de média CSS pour vérifier la taille à laquelle elle doit travailler et se présenter en conséquence. Toutefois, la page ne doit pas être conçue en fonction des pixels exacts décrits ici et doit être en mesure de s’adapter à différentes tailles. Les tailles spécifiées dans ce document sont susceptibles d’être modifiées dans les versions ultérieures du système d’exploitation.
 
 Si une page ne peut pas contenir toutes les informations de l’espace alloué (par exemple, une longue liste d’autorisations demandées par une application), le répartiteur d’authentification Web fournit des barres de défilement pour permettre à l’utilisateur de faire défiler la page en fonction des besoins. Le zoom est également fourni par pincer pour les appareils tactiles et CTRL + roulette de la souris pour les PC de bureau et les ordinateurs portables.
 
-Pour tester différents facteurs de mise à l’échelle, utilisez l ['exemple d’application du kit de développement logiciel (SDK) Web Authentication Broker](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) chargée dans Microsoft Visual Studio Professional 2012 qui permet de simuler les États en plein écran et redimensionnés.
+pour tester différents facteurs de mise à l’échelle, utilisez l ['exemple d’application du kit de développement logiciel (SDK) Web authentication Broker](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker) chargée dans Microsoft Visual Studio Professional 2012 qui permet de simuler les états en plein écran et redimensionnés.
 
 Outre les différentes dispositions documentées ci-dessus, veillez à tester votre page dans une autre orientation d’écran (par exemple, portrait et paysage), ainsi que des paramètres régionaux et des langages différents, ainsi que des fonctionnalités d’accessibilité telles que l’option « rendre tout le plus grand » activée.
 

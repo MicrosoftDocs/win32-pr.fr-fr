@@ -4,12 +4,12 @@ ms.assetid: b675fc3c-4d50-429d-9e00-42160d409a2b
 title: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6f7c65cad838ded52471b5e0dd8dfad325fb1ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2ae0e50ad2fad9967252d9a21c1e864d056338a3e3a2b82f4c29d951a722953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806309"
 ---
 # <a name="wpd_command_mtp_ext_execute_command_with_data_to_write-command"></a>Commande \_ wpd \_ MTP \_ ext \_ Execute Command Execute \_ \_ avec les \_ données \_ à \_ écrire, commande
 
@@ -41,10 +41,10 @@ Le pilote retourne les résultats suivants.
 
 
 
-| Résultats                                                       | VarType    | Description                                                                        |
+| Résultat                                                       | VarType    | Description                                                                        |
 |--------------------------------------------------------------|------------|------------------------------------------------------------------------------------|
 | **\_taille de \_ la \_ \_ \_ \_ mémoire tampon de transfert optimal ext \_ de la propriété wpd** | VT \_ UI4    | Obligatoire. Spécifie la taille optimale de la mémoire tampon de transfert.                       |
-| **\_contexte de \_ \_ transfert ext \_ MTP \_ de la propriété wpd**               | \_LPWStr VT | Optionnel. Identificateur de contexte utilisé par le pilote pour les transferts de données suivants. |
+| **\_contexte de \_ \_ transfert ext \_ MTP \_ de la propriété wpd**               | \_LPWStr VT | Facultatif. Identificateur de contexte utilisé par le pilote pour les transferts de données suivants. |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a7f02e92-a747-4ac6-aa83-60897acb2bc5
 title: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aa67f58c7246b50292f4b34711e0149eb8f3377
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 491f84ee2dee752cccc251187c43bd497723a64ae6601954051f2aebab34ef85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848062"
 ---
 # <a name="mft_message_notify_begin_streaming"></a>\_notification de \_ début \_ de \_ diffusion de message MFT
 
@@ -35,8 +35,8 @@ Aucune table MFT n’est requise pour répondre à ce message.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

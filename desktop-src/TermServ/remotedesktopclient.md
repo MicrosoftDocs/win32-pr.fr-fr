@@ -1,6 +1,6 @@
 ---
 title: RemoteDesktopClient, classe
-description: Implémente l’application Microsoft Windows Store Bureau à distance le contrôle client-version 1.
+description: implémente l’application Microsoft Windows Store Bureau à distance le contrôle Client-version 1.
 ms.assetid: 0910883A-BD49-4908-8423-1FC280E0FE0C
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb10b23f52f53e2d89fd5a81449818a8fe374116
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad76c8c189854a28709765c5677d047590216ae8ab6271d44c595f7b24fdd88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865898"
 ---
 # <a name="remotedesktopclient-class"></a>RemoteDesktopClient, classe
 
-Implémente l’application Microsoft Windows Store Bureau à distance le contrôle client-version 1
+implémente l’application Microsoft Windows Store Bureau à distance le contrôle Client-version 1
 
 Cette classe implémente les interfaces suivantes.
 
@@ -46,7 +46,7 @@ La classe **RemoteDesktopClient** possède ces méthodes.
 | Méthode                                                                                      | Description                                                                                                                                                        |
 |:--------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent)                                     | Attache un gestionnaire d’événements à un événement.<br/>                                                                                                                  |
-| [**Se connecter**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle client du conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).<br/>                         |
+| [**Connecter**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect)                                             | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle client du conteneur d’applications protocole RDP (Remote Desktop Protocol) (RDP).<br/>                         |
 | [**DeleteSavedCredentials**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials)               | Supprime les informations d’identification enregistrées pour l’ordinateur distant spécifié.<br/>                                                                                            |
 | [**detachEvent**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-detachevent)                                     | Détache un gestionnaire d’événements d’un événement.<br/>                                                                                                                |
 | [**Déconnecter**](/windows/win32/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-disconnect)                                       | Déconnecte la connexion active.<br/>                                                                                                                      |
@@ -105,7 +105,7 @@ La classe **RemoteDesktopClient** possède les propriétés suivantes.
 
 <dl> <dt>
 
-[Classes de contrôles ActiveX Bureau à distance](remote-desktop-activex-control-classes.md)
+[Bureau à distance ActiveX les classes de contrôle](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 
  

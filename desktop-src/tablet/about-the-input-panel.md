@@ -1,21 +1,21 @@
 ---
-description: Depuis la version 1,0 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet PC Edition, le panneau de saisie Tablet PC au niveau du système fournit un mécanisme universel permettant d’entrer du texte sur l’ensemble de la plate-forme Windows, même s’il ne fournit pas d’accès par programme. L’objet PenInputPanel du kit de développement logiciel Tablet PC version 1,5 intègre les outils d’entrée de texte dans les applications.
+description: à compter de la version 1,0 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet pc Edition, le panneau de saisie Tablet pc au niveau du système fournit un mécanisme universel permettant d’effectuer des entrées de texte sur la plateforme Windows, bien qu’il n’offre pas d’accès par programme. L’objet PenInputPanel du kit de développement logiciel Tablet PC version 1,5 intègre les outils d’entrée de texte dans les applications.
 ms.assetid: 14fe4963-ab9b-4c78-9f17-791c68378ef0
 title: À propos du panneau de saisie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7db733e49e49d428b5ff8072a1315787d9fafd25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 044e8c3a43127bd765fd5004329352956e4be8bb9f214f8dda8896fa318832a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844409"
 ---
 # <a name="about-the-input-panel"></a>À propos du panneau de saisie
 
 \[[**PenInputPanel**](peninputpanel-class.md) a été remplacé par [**TextInput**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel). Pour plus d’informations, consultez [programmation du panneau de saisie de texte](programming-the-text-input-panel.md).\]
 
-Depuis la version 1,0 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet PC Edition, le panneau de saisie Tablet PC au niveau du système fournit un mécanisme universel permettant d’entrer du texte sur l’ensemble de la plate-forme Windows, même s’il ne fournit pas d’accès par programme. L’objet [**PenInputPanel**](peninputpanel-class.md) du kit de développement logiciel Tablet PC version 1,5 intègre les outils d’entrée de texte dans les applications.
+à compter de la version 1,0 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet pc Edition, le panneau de saisie Tablet pc au niveau du système fournit un mécanisme universel permettant d’effectuer des entrées de texte sur la plateforme Windows, bien qu’il n’offre pas d’accès par programme. L’objet [**PenInputPanel**](peninputpanel-class.md) du kit de développement logiciel Tablet PC version 1,5 intègre les outils d’entrée de texte dans les applications.
 
 Le graphique suivant montre le panneau de saisie du stylet affiché sur l’exemple d’exemple de [formulaire de déclaration automatique](auto-claims-form-sample.md) .
 
@@ -73,7 +73,7 @@ Le panneau de saisie du stylet fournit un mode clavier pour les situations où l
 
 ## <a name="recognizer-support"></a>Prise en charge du module de reconnaissance
 
-L’objet [**PenInputPanel**](peninputpanel-class.md) prend en charge les détecteurs d’expédition pour Windows XP Édition Tablet pc version 1,0 et le kit de développement logiciel (SDK) Tablet pc version 1,5.
+l’objet [**PenInputPanel**](peninputpanel-class.md) prend en charge les détecteurs d’expédition pour Windows XP édition Tablet pc version 1,0 et le kit de développement logiciel (SDK) tablet pc version 1,5.
 
 ## <a name="automatic-positioning"></a>Positionnement automatique
 

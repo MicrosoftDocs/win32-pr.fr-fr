@@ -1,5 +1,5 @@
 ---
-title: Nombres (Windows Multimedia)
+title: nombres (Windows multimédia)
 description: Nombres
 ms.assetid: d416c4c2-a3e1-45a2-9ae1-82050a5e471b
 keywords:
@@ -16,14 +16,14 @@ keywords:
 - contrôle non signé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f02c4ffd40f1058fae51af3798135840394be918
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 21c9e1bacdea3f52129d78eea2f0bc7134df08b7077c83510bd8de824777e524
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806619"
 ---
-# <a name="numbers-windows-multimedia"></a>Nombres (Windows Multimedia)
+# <a name="numbers-windows-multimedia"></a>nombres (Windows multimédia)
 
 Les contrôles Number permettent à l’utilisateur d’entrer des données numériques associées à une ligne. Les données numériques sont exprimées en tant qu’entiers signés, entiers non signés ou valeurs de décibels entières. Ces contrôles utilisent les structures [**\_ non signées**](/previous-versions//dd757298(v=vs.85)) [**MIXERCONTROLDETAILS \_ signées**](/previous-versions//dd757297(v=vs.85)) et MIXERCONTROLDETAILS pour récupérer et définir des propriétés de contrôle. Le tableau suivant décrit les types de contrôles Number.
 

@@ -4,12 +4,12 @@ ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
 title: MFT_MESSAGE_SET_D3D_MANAGER (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef8ecb5db474935bb25138a960b6df1c2109c16c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a0e7ccbf9f28615b17e6acded6ecc932334b4fb0fa4a607d6fd6213ba2cd214
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848063"
 ---
 # <a name="mft_message_set_d3d_manager"></a>\_ \_ Gestionnaire D3D des jeux de messages MFT \_ \_
 
@@ -19,7 +19,7 @@ Définit ou efface le [Gestionnaire de périphériques Direct3D](direct3d-device
 
 Lors du démarrage de la diffusion en continu, le paramètre *ulParam* contient un pointeur **IUnknown** . La table MFT interroge ce pointeur sur l’interface [**IDirect3DDeviceManager9**](/windows/desktop/api/dxva2api/nn-dxva2api-idirect3ddevicemanager9) pour Direct3D 9 et l’interface [**IMFDXGIDeviceManager**](/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager) pour Direct3D 11. Lorsque la diffusion en continu s’arrête, le *ulParameter* contient la valeur **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour envoyer ce message, appelez [**IMFTransform ::P rocessmessage**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processmessage).
 
@@ -43,8 +43,8 @@ Pour plus d’informations, voir [MFTS compatible Direct3D](direct3d-aware-mfts.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

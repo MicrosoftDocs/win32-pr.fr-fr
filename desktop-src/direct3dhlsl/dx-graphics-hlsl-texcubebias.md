@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0129c20db1da320e9cb85aacfc4490124be28f8a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 645a1a39ef567e4ddb3272a8b38415abdb517ce9433705ddb88cb5003fb10057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846049"
 ---
 # <a name="texcubebias"></a>texCUBEbias
 
@@ -56,8 +56,8 @@ Valeur des données de texture.
 
 | Nom | Entrée/Sortie | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille |
 |------|--------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
-| s    | in     | [**object**](dx-graphics-hlsl-intrinsic-functions.md) | [samplerCUBE](dx-graphics-hlsl-sampler.md)                    | 1    |
-| t    | in     | [**graphiques**](dx-graphics-hlsl-intrinsic-functions.md) | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
+| s    | commencer     | [**dessin**](dx-graphics-hlsl-intrinsic-functions.md) | [samplerCUBE](dx-graphics-hlsl-sampler.md)                    | 1    |
+| t    | commencer     | [**graphiques**](dx-graphics-hlsl-intrinsic-functions.md) | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
 | Av  | out    | [**graphiques**](dx-graphics-hlsl-intrinsic-functions.md) | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | 4    |
 
 
@@ -70,7 +70,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge               |
+| Modèle de nuanceur                                              | Pris en charge               |
 |-----------------------------------------------------------|-------------------------|
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui (nuanceur de pixels uniquement) |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Oui (nuanceur de pixels uniquement) |

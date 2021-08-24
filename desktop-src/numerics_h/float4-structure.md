@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c4a2a4721e3ab7e5520545b42367d2432ba967f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4eb1af9bee9a571abf58fb20539945effc3ff1ee81cbb48a4d90c1510aebcd4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825279"
 ---
 # <a name="float4-structure"></a>float4, structure
 
@@ -105,7 +105,7 @@ Ce type est disponible uniquement en C++. Son équivalent .NET est [System. Nume
 
 | Condition requise | Valeur |
 |-|-|
-| Espace de noms | Windows :: Foundation :: Numerics |
+| Espace de noms | Windows :: Foundation :: numerics |
 | En-tête | <dl> <dt>Windowsnumerics. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi

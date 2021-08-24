@@ -57,12 +57,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ab4039ce110af9fa023a662c31d1f9962b080e5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0e4ec4f65b04489c5f34fe64e2eea0d4622b914e16944e55395a9efce26f83b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789139"
 ---
 # <a name="msvm_vsscomponent-class"></a>MSVM \_ VssComponent, classe
 
@@ -136,7 +136,7 @@ La classe **MSVM \_ VssComponent** possède ces méthodes.
 | **OnlineDevice**                                                   | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                  | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-vsscomponent-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-vsscomponent-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-vsscomponent-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                              | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                 | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                  | Cette méthode n'est pas prise en charge.<br/> |
@@ -856,7 +856,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ VssComponent** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -866,8 +866,8 @@ L’accès à la classe **MSVM \_ VssComponent** peut être limité par le filtr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

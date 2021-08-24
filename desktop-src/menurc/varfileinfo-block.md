@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09645801618de130439bdf1998b92183e4791783
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4e15b4bf57a14d6bae6dd5b83c8ea86e38830113fbcfbbaa27b143bf02bb130e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846969"
 ---
 # <a name="varfileinfo-block-statement"></a>VarFileInfo bloc (instruction)
 
@@ -45,7 +45,7 @@ Un des identificateurs de jeu de caractères spécifiés dans la section Notes.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs paires d’identificateurs peuvent être fournies, mais chaque paire doit être séparée de la paire précédente par une virgule.
 
@@ -81,7 +81,7 @@ Le paramètre *LangID* spécifie l’un des codes de langue suivants.
 
 
 
- 
+ 
 
 Le paramètre *charsetID* spécifie l’un des identificateurs de jeu de caractères suivants :
 
@@ -104,11 +104,11 @@ Le paramètre *charsetID* spécifie l’un des identificateurs de jeu de caract�
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

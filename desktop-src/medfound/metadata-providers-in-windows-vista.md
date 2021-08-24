@@ -1,19 +1,19 @@
 ---
-description: Dans Windows Vista, Microsoft Media Foundation expose les métadonnées par le biais de l’interface IMFMetadata.
+description: dans Windows Vista, Microsoft Media Foundation expose des métadonnées par le biais de l’interface IMFMetadata.
 ms.assetid: a26e40c2-1717-4a13-8bf0-e41376a8d317
-title: Fournisseurs de métadonnées dans Windows Vista
+title: fournisseurs de métadonnées dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1726e04058a7b15e387fca4f3faa94fce7c91c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1edf65b59e0f47e603b057f49a76d8721b8733849937cb29fd0afbe0b9b44920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827069"
 ---
-# <a name="metadata-providers-in-windows-vista"></a>Fournisseurs de métadonnées dans Windows Vista
+# <a name="metadata-providers-in-windows-vista"></a>fournisseurs de métadonnées dans Windows Vista
 
-Dans Windows Vista, Microsoft Media Foundation expose les métadonnées par le biais de l’interface [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .
+dans Windows Vista, Microsoft Media Foundation expose des métadonnées par le biais de l’interface [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .
 
 ## <a name="reading-metadata"></a>Lecture des métadonnées
 

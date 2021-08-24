@@ -4,12 +4,12 @@ ms.assetid: ee25da96-982f-475e-8957-e24ef7721b78
 title: Stratégie de métadonnées de photo System. photo. LensManufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6696e7113a14a9b5b26a26f38258f30a5ba82cf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f6beebc06ce690b05da62c023480bec25b675a7a9ec6093cec1752ac3a0e343
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881981"
 ---
 # <a name="systemphotolensmanufacturer-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. LensManufacturer
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Lens
 
 \_Photo \_ LensManufacturer
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire utilise le chemin d’accès s
 
 
 
-| Commande | Chemin d’accès                                 | Format de disque | Obligatoire |
+| Commande | Chemin                                 | Format de disque | Obligatoire |
 |-------|--------------------------------------|-------------|----------|
 | 1     | /xmp/MicrosoftPhoto:LensManufacturer | Unicode     | Oui      |
 
@@ -59,7 +59,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
 
 
-| Commande | Chemin d’accès                                     | Format de disque | Obligatoire |
+| Commande | Chemin                                     | Format de disque | Obligatoire |
 |-------|------------------------------------------|-------------|----------|
 | 1     | /ifd/xmp/MicrosoftPhoto:LensManufacturer | Unicode     | Oui      |
 
@@ -67,7 +67,7 @@ Si le fichier est au format TIFF, le gestionnaire utilise l’ordre de priorité
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

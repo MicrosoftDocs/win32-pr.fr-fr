@@ -4,12 +4,12 @@ ms.assetid: 952f33b6-ca52-40a2-b914-52c1c62ae0e0
 title: Utilisation de la police de secours
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9afb073a01cc1c5b90d4a4861a973846d3ae9ae1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9a4e9b329e2c3257ae9fad02f1fb4774a63dc1d4b4e804c0dca8e690cbf4d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787869"
 ---
 # <a name="using-font-fallback"></a>Utilisation de la police de secours
 

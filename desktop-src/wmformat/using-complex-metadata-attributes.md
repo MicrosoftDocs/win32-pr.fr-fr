@@ -10,16 +10,16 @@ keywords:
 - attributs de métadonnées complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cd03c656a8cba5342d21e41932365455daa8bfa
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 8245d2fbc07878a73e304cfc573e05e93b605185ece93655dae7a8bdeff0d9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807249"
 ---
 # <a name="using-complex-metadata-attributes"></a>Utilisation d’attributs de métadonnées complexes
 
-Le kit de développement logiciel (SDK) Windows Media format prend en charge des attributs de métadonnées complexes, qui sont des attributs qui ont des valeurs représentées par une structure Étant donné que tous les attributs doivent avoir un type de données défini dans l’énumération de type de données de l’attribut [**WMT \_ \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) , tous les attributs de métadonnées complexes sont traités comme un **\_ \_ binaire de type WMT**. Lors de l’écriture d’un attribut complexe, effectuez un cast du pointeur vers la structure comme un pointeur d’octet. Lorsque vous récupérez un attribut complexe, effectuez un cast du tableau d’octets défini par [**IWMHeaderInfo3 :: GetAttributeByIndexEx**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) en tant que structure appropriée.
+le Windows Media Format SDK prend en charge des attributs de métadonnées complexes, qui sont des attributs qui ont des valeurs représentées par une structure. Étant donné que tous les attributs doivent avoir un type de données défini dans l’énumération de type de données de l’attribut [**WMT \_ \_**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_attr_datatype) , tous les attributs de métadonnées complexes sont traités comme un **\_ \_ binaire de type WMT**. Lors de l’écriture d’un attribut complexe, effectuez un cast du pointeur vers la structure comme un pointeur d’octet. Lorsque vous récupérez un attribut complexe, effectuez un cast du tableau d’octets défini par [**IWMHeaderInfo3 :: GetAttributeByIndexEx**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-getattributebyindexex) en tant que structure appropriée.
 
 Les exemples de code suivants montrent comment définir et récupérer un attribut de métadonnées complexe. La première fonction ajoute un attribut de texte utilisateur, la deuxième fonction en récupère une. Pour plus d’informations sur l’utilisation de ces exemples, consultez [utilisation des exemples de code](using-the-code-examples.md).
 
@@ -136,9 +136,9 @@ Exit:
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

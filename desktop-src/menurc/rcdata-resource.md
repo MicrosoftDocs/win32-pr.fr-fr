@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44de0e71e3ba744f668535950224129b91bc3653
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 62f813bde1195d8adcad708c40857cc11b1e7b70f696455168e174a4bf2f6cf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847039"
 ---
 # <a name="rcdata-resource"></a>Ressource RCDATA
 
@@ -53,14 +53,14 @@ Ce paramètre peut être égal à zéro ou plusieurs des instructions suivantes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
 <span id="raw-data"></span><span id="RAW-DATA"></span>*données brutes*
 </dt> <dd>
 
-Données brutes constituées d’un ou plusieurs entiers ou chaînes de caractères. Les entiers peuvent être spécifiés au format décimal, octal ou hexadécimal. Pour être compatible avec Windows 16 bits, les entiers sont stockés sous la forme de valeurs **Word** . Vous pouvez stocker un entier comme valeur **DWORD** en qualifiant l’entier avec le suffixe « L ».
+Données brutes constituées d’un ou plusieurs entiers ou chaînes de caractères. Les entiers peuvent être spécifiés au format décimal, octal ou hexadécimal. pour être compatible avec les Windows 16 bits, les entiers sont stockés en tant que valeurs de **mot** . Vous pouvez stocker un entier comme valeur **DWORD** en qualifiant l’entier avec le suffixe « L ».
 
 Les chaînes sont placées entre guillemets. RC n’ajoute pas automatiquement un caractère null de fin à une chaîne. Chaque chaîne est une séquence de caractères ANSI spécifiée, sauf si vous la qualifiez comme une chaîne de caractères larges avec le préfixe L.
 
@@ -105,12 +105,12 @@ resname RCDATA
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> <dt>
 
-[**Version**](version-statement.md)
+[**VERSION**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

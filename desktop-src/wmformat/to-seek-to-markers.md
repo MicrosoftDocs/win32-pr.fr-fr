@@ -15,12 +15,12 @@ keywords:
 - marqueurs, lecteurs asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16cb4fef99a5c735a12f03f8d2e962d6caf9c2a
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 3361546f4087e0c2104809435d9d75e8711560ec4f3c55855d14b05ef4dfb8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106511672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807349"
 ---
 # <a name="to-seek-to-markers"></a>Pour rechercher des marqueurs
 
@@ -46,9 +46,9 @@ Un marqueur est un emplacement nommé dans un fichier ASF. Vous pouvez démarrer
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

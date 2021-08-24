@@ -3,17 +3,17 @@ title: lecteur XML
 description: Le lecteur XML est un curseur sur une source d’entrée de XML. À son cœur, un lecteur XML lit un nœud XML à la fois, mais il existe des API d’assistance supplémentaires pour faciliter la lecture d’une séquence de nœuds.
 ms.assetid: 1f99e45c-64ba-42fb-9bf0-35e27f1c5ef2
 keywords:
-- Services Web du lecteur XML pour Windows
+- Services Web Reader XML pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d9d9c91b6594ec569536751751a3efca4c32e08
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6a03ef961cd49c481564b6bad1ad86603c9cb576f0c8aeda1a7cd2d6d18aaeef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770869"
 ---
 # <a name="xml-reader"></a>lecteur XML
 

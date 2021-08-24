@@ -4,12 +4,12 @@ ms.assetid: cc5a4a7b-02b5-4ecd-967c-de0656f00846
 title: Clés de registre d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee2e42febe7516060dd61a7b751a33dcf62cb9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3c245cdb27a0d661e7e6df82ed0d1d0ed35a59ea05bf74bf98ebd39ba3dc791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883679"
 ---
 # <a name="authentication-registry-keys"></a>Clés de registre d’authentification
 
