@@ -4,12 +4,12 @@ description: L’implémentation des meilleures pratiques décrites dans cette s
 ms.assetid: ef694361-49b7-424c-a583-1eadc2519db7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38d9f70828610d04255b61ad3ee533d23c514867
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58f596378c55b5f99af5b24fa60a23d980407392298fe2ad656579730fbab709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327869"
 ---
 # <a name="accessibility-best-practices"></a>Meilleures pratiques d'accessibilité
 
@@ -21,7 +21,7 @@ Cette rubrique contient les sections suivantes.
     -   [Activer l'accès par programmation à tous les éléments de l'interface utilisateur et le texte](#enable-programmatic-access-to-all-ui-elements-and-text)
     -   [Placer des noms, titres et descriptions sur les objets, les cadres et les pages de l'interface utilisateur](#place-names-titles-and-descriptions-on-ui-objects-frames-and-pages)
     -   [Vérifier que les événements par programmation sont déclenchés par toutes les activités de l'interface utilisateur](#ensure-programmatic-events-are-triggered-by-all-ui-activities)
--   [Paramètres utilisateur](#user-settings)
+-   [Paramètres de l’utilisateur](#user-settings)
     -   [Respecter tous les paramètres au niveau du système et ne pas interférer avec les fonctions d'accessibilité](#respect-all-system-wide-settings-and-do-not-interfere-with-accessibility-functions)
 -   [Conception de l'interface utilisateur visuelle](#visual-ui-design)
     -   [Ne pas Hard-Code les couleurs](#do-not-hard-code-colors)
@@ -44,7 +44,7 @@ Les meilleures pratiques décrites dans cette section Enure que les produits de 
 
 ### <a name="enable-programmatic-access-to-all-ui-elements-and-text"></a>Activer l'accès par programmation à tous les éléments de l'interface utilisateur et le texte
 
-Les éléments d’interface utilisateur de votre application doivent être accessibles par programmation aux produits de technologie d’assistance. Tous les éléments d’interface utilisateur doivent avoir des étiquettes, ils doivent exposer toutes les valeurs de propriété et doivent déclencher tous les événements appropriés. Pour les contrôles Windows standard, la majeure partie de ce travail est déjà effectuée par le biais des objets Microsoft UI Automation et Microsoft Active Accessibility proxy. Toutefois, les contrôles personnalisés nécessitent un travail supplémentaire pour s’assurer qu’ils sont entièrement exposés afin que les fournisseurs de technologie d’assistance puissent identifier et manipuler les éléments de l’interface utilisateur de votre application.
+Les éléments d’interface utilisateur de votre application doivent être accessibles par programmation aux produits de technologie d’assistance. Tous les éléments d’interface utilisateur doivent avoir des étiquettes, ils doivent exposer toutes les valeurs de propriété et doivent déclencher tous les événements appropriés. pour les contrôles de Windows standard, la majeure partie de ce travail est déjà effectuée par le biais des objets de proxy microsoft UI Automation et microsoft Active Accessibility. Toutefois, les contrôles personnalisés nécessitent un travail supplémentaire pour s’assurer qu’ils sont entièrement exposés afin que les fournisseurs de technologie d’assistance puissent identifier et manipuler les éléments de l’interface utilisateur de votre application.
 
 Suivre cette meilleure pratique permet aux fournisseurs de technologies d’assistance d’identifier et de manipuler les éléments de l’interface utilisateur de votre produit.
 
@@ -151,12 +151,12 @@ Les appels indépendants du périphérique garantissent que tous les périphéri
 
 <dl> <dt>
 
-[Vue d’ensemble de l’API Windows Automation](windows-automation-api-overview.md)
+[Windows Vue d’ensemble de l’API Automation](windows-automation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

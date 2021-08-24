@@ -4,12 +4,12 @@ ms.assetid: eea6cb12-7ec9-4ea4-b2b2-9c812dc4b4d9
 title: Propriété de résumé de la page de codes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b83b60bb6aaabadb2ee0dcd201000ea32eccef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01f9f33a0ba1a6423fc91a8cf5ae1ec7988ec537b5b20071ddb7534ad0655cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118145588"
 ---
 # <a name="codepage-summary-property"></a>Propriété de résumé de la page de codes
 

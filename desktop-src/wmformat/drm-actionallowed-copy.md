@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea4a890ae03d3adf3b28bb2dce03e2eac5578abe
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 437dba087a336322fe1574112dce0b6b5805d05778613924f577c16343d33604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106509636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704780"
 ---
 # <a name="drm_actionallowed_copy"></a>\_Copie DRM ActionAllowed \_
 
@@ -31,9 +31,9 @@ L’attribut de **\_ \_ copie DRM ActionAllowed** indique si le contenu peut êt
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans Windows Media DRM 10, toutes les opérations de copie sont restreintes à l’aide de l’action de copie.
+dans Windows Media DRM 10, toutes les opérations de copie sont restreintes à l’aide de l’action de copie.
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -44,9 +44,9 @@ Il s’agit d’une propriété en lecture seule qui est récupérée à l’aid
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -267,7 +267,7 @@ Stratégie de groupe
 2
 </dt> <dd>
 
-Default
+Par défaut
 
 </dd> </dl>
 

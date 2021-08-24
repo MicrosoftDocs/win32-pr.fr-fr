@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c809d40f1f155ece19c7044bb794e464b7bd8ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd0f9a963e93cf57a6d93f3f95abc20642a5f2d31026984df13f831d7c049087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117895108"
 ---
 # <a name="jet_dbidequals-method-object"></a>JET_DBID. Equals, méthode (Object)
 

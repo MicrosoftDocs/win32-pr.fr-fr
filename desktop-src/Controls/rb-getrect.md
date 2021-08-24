@@ -3,7 +3,7 @@ title: Message RB_GETRECT (commctrl. h)
 description: Récupère le rectangle englobant pour une bande donnée dans un contrôle rebar.
 ms.assetid: e272b090-1e4d-4cff-87f0-557ad8116e7e
 keywords:
-- RB_GETRECT les contrôles de message Windows
+- RB_GETRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b9d5de00b638a3767df461595ff01316b23183
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 43d2f085fa7c6f413700156999f1325879f91affc2c8984fb33d08cb6cc90b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169295"
 ---
 # <a name="rb_getrect-message"></a>\_Message GETRECT RB
 
@@ -53,8 +53,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

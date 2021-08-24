@@ -1,29 +1,29 @@
 ---
 title: Module SHV
-description: 'Remarque : la plateforme de protection d’accès réseau n’est pas disponible à partir de Windows 10 configure un module du programme de validation d’intégrité système (SHV), y compris l’inscription et l’annulation de l’inscription avec le système NAP.'
+description: 'remarque : la plateforme de Protection d’accès réseau n’est pas disponible à partir de Windows 10 configure un module du programme de validation d’intégrité système (SHV), y compris l’inscription et l’annulation de l’inscription avec le système NAP.'
 ms.assetid: 0f2edd23-d44a-4a01-ae33-f7eef0e4b27f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b95784d05f4bf377f356a91fe5b0c1811fb9671d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 344b3a6d74acee0e06e3d2a9fedd4784b1c9d76ac8ba84c68ed4b7ef8ceebc56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133428"
 ---
 # <a name="shv-module"></a>Module SHV
 
 > [!Note]  
 > La plate-forme de protection d’accès réseau n’est pas disponible à partir de Windows 10
 
- 
+ 
 
 Configure un module du programme de validation d’intégrité système (SHV), y compris l’inscription et l’annulation de l’inscription avec le système NAP.
 
 > [!Note]  
 > Le kit de développement logiciel (SDK) NAP contient également un jeu complet d’exemples de code qui se trouve dans le... \\ Exemples de \\ NetDS \\ NAP... Répertoire de votre installation du kit de développement logiciel (SDK). Cet exemple de jeu comprend un agent d’intégrité système (SHA), un SHV et un client de contrainte (EC). Il dispose de scénarios de protection d’accès réseau complets qui configurent la communication entre SHA-SHV et SHA-EC.
 
- 
+ 
 
 
 ```C++
@@ -104,9 +104,9 @@ void FreeComponentRegistration(NapComponentRegistrationInfo *shvInfo)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

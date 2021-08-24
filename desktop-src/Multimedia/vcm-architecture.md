@@ -7,12 +7,12 @@ keywords:
 - VFW (vidéo pour Windows), architecture VCM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b672c86053086f63127aae586517fac4906326
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7676fe7786b8674ddca957a75c33336294b65a9df18d53fe4b9c7f493092b66f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135597"
 ---
 # <a name="vcm-architecture"></a>Architecture VCM
 
@@ -22,9 +22,9 @@ Lorsqu’une application effectue un appel à VCM, VCM convertit l’appel en me
 
 Si une macro est définie pour un message, la macro se développe en un appel de fonction **ICSendMessage** fournissant les paramètres appropriés pour ce message. Si une macro est définie pour un message, votre application doit l’utiliser plutôt que le message. Dans cette vue d’ensemble, ces macros suivent des messages entre parenthèses.
 
- 
+ 
 
- 
+ 
 
 
 

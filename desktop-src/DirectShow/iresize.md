@@ -1,5 +1,5 @@
 ---
-description: 'L’interface IResize doit être prise en charge par n’importe quel filtre de redimensionnement vidéo personnalisé pour les services de modification DirectShow (DES). Pour définir un filtre de redimensionnement personnalisé, appelez la méthode IRenderEngine2 :: SetResizerGUID sur le moteur de rendu.'
+description: 'l’interface IResize doit être prise en charge par n’importe quel filtre de redimensionnement vidéo personnalisé pour les Services d’édition DirectShow (DES). Pour définir un filtre de redimensionnement personnalisé, appelez la méthode IRenderEngine2 :: SetResizerGUID sur le moteur de rendu.'
 ms.assetid: 4740dbff-0881-45e8-b382-98ed9d055403
 title: Interface IResize (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 1b9684ed6f2d2901159dde5a79bb4563ca0b2bda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 19aabd7c04cb5350ef3da87e1a20db6b75f6546f0fbcf5af3422c152bcafcf5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818068"
 ---
 # <a name="iresize-interface"></a>Interface IResize
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IResize` interface doit être prise en charge par n’importe quel filtre de redimensionnement vidéo personnalisé pour les services d’édition DirectShow (des). Pour définir un filtre de redimensionnement personnalisé, appelez la méthode [**IRenderEngine2 :: SetResizerGUID**](irenderengine2-setresizerguid.md) sur le moteur de rendu.
+l' `IResize` interface doit être prise en charge par n’importe quel filtre de redimensionnement vidéo personnalisé pour les Services d’édition DirectShow (DES). Pour définir un filtre de redimensionnement personnalisé, appelez la méthode [**IRenderEngine2 :: SetResizerGUID**](irenderengine2-setresizerguid.md) sur le moteur de rendu.
 
 ## <a name="members"></a>Membres
 
@@ -54,7 +54,7 @@ L’interface **IResize** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -62,7 +62,7 @@ L’interface **IResize** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

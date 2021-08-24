@@ -4,12 +4,12 @@ description: Les propriétés réelles suivent la table des valeurs de jeu de pr
 ms.assetid: 8523458b-8b1b-4e9f-8f96-d7601e57675c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8383a860f07e908b72a7b25091f3cc2e280e4407
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e6372db4d3f1d7bfee9b6c9d2435f9c8d5a7be6d7cce123c5b8b2185ac092c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117959550"
 ---
 # <a name="type-indicators"></a>Indicateurs de type
 
@@ -38,13 +38,13 @@ Une valeur de propriété avec l’indicateur de type **VT \_ I2** \| **VT \_ Ve
 > [!IMPORTANT]
 > Tout nombre 32 bits ou type de propriété qui sont stockés dans le cadre d’un élément de propriété Vector doit également être aligné sur 32 bits.
 
- 
+ 
 
 Une valeur de propriété de type identificateur **VT \_ LPSTR** VT \| **\_ vecteur** inclut les éléments suivants :
 
--   Nombre d’éléments **DWORD** (**DWORD** *cElems*).
--   Séquence de chaînes (**char** *RGCH \[ \]*), chacune précédée d’un **DWORD** de longueur-nombre et éventuellement suivie d’un remplissage null pour arrondir à une limite de 32 bits.
+-   Nombre d’éléments **DWORD** (**DWORD** *cElems*).
+-   Séquence de chaînes (**char** *RGCH \[ \]*), chacune précédée d’un **DWORD** de longueur-nombre et éventuellement suivie d’un remplissage null pour arrondir à une limite de 32 bits.
 
- 
+ 
 
- 
+ 

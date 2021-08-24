@@ -4,12 +4,12 @@ description: IAgentCommand SetVoice
 ms.assetid: bee06616-26bf-4e1e-89da-6765dd77fb02
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36bed7e86cb93824fc26c770c1d01336077fda39
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e45af753dea18e9fda7b613e3b800ac886d949eb6494fd969cd8b7ceb488dfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477239"
 ---
 # <a name="iagentcommandsetvoice"></a>IAgentCommand::SetVoice
 
@@ -80,13 +80,13 @@ La définition de la propriété [**Voice**](voice-property.md) pour une [**comm
 > [!Note]  
 > Les fonctionnalités grammaticales disponibles peuvent dépendre du moteur de reconnaissance vocale. Vous pouvez consulter le fournisseur du moteur pour déterminer les options grammaticales prises en charge. Utilisez [**IAgentCharacterEx :: SRModeID**](https://www.bing.com/search?q=**IAgentCharacterEx::SRModeID**) pour spécifier un moteur.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCommand :: GetVoice**](iagentcommand--getvoice.md), [**IAgentCommand :: SetCaption**](iagentcommand--setcaption.md), [**IAgentCommand :: SetEnabled**](iagentcommand--setenabled.md), [**IAgentCommands :: Add**](iagentcommands--add.md), [**IAgentCommands :: Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

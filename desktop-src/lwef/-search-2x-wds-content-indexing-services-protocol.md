@@ -5492,7 +5492,7 @@ Le message CPMGetQueryStatusOut répond à un message CPMGetQueryStatusIn avec l
 
 1
 
-\_Statut
+\_État
 
 
 
@@ -5683,7 +5683,7 @@ Le message CPMGetQueryStatusExOut répond à un message CPMGetQueryStatusExIn av
 
 1
 
-\_Statut
+\_État
 
 \_cFilteredDocuments
 

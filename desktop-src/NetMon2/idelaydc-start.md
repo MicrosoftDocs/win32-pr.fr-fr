@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 25bf778d9cccce20c736c5f8b83e6af9754ac933
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 750a33241358aee924ed3f91491185117a77a548a87bdfc5514d59fe4798a42c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365864"
 ---
 # <a name="idelaydcstart-method"></a>IDelaydC :: Start, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers le nom du [*fichier de capture*](c.md) utilisé pour stocker les d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -59,16 +59,16 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ suspendue**</dt> </dl> | La capture est dans un état suspendu et doit être arrêtée avant de pouvoir être redémarrée. Appelez [**IDelaydC :: Stop**](idelaydc-stop.md) pour arrêter la capture. Pour plus d’informations, consultez la section Notes de cette rubrique.<br/> |
 | <dl> <dt>**\_capture NMERR**</dt> </dl>       | La capture a déjà démarré.<br/>                                                                                                                                                                                 |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. Appelez [**IDelaydC :: Connect**](idelaydc-connect.md) pour vous connecter au réseau.<br/>                                                                                          |
-| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>    | Le NPP est connecté au réseau, mais pas avec la méthode [**IDelaydC :: Connect**](idelaydc-connect.md) .<br/>                                                                                                      |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>  | Le NPP n’est pas connecté au réseau. appelez [**IDelaydC :: Connecter**](idelaydc-connect.md) pour vous connecter au réseau.<br/>                                                                                          |
+| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>    | le NPP est connecté au réseau, mais pas avec la méthode [**IDelaydC :: Connecter**](idelaydc-connect.md) .<br/>                                                                                                      |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
-L’emplacement du [*fichier de capture*](c.md) est spécifié dans le Registre Windows, mais vous pouvez utiliser Moniteur réseau pour modifier l’emplacement du fichier.
+l’emplacement du [*fichier de capture*](c.md) est spécifié dans votre registre Windows, mais vous pouvez utiliser Moniteur réseau pour modifier l’emplacement du fichier.
 
 Pour redémarrer la capture à l’aide de **IDelaydC :: Start** et [**IDelaydC :: Stop**](idelaydc-stop.md), vous devez appeler la méthode [**IDelaydC :: configure**](idelaydc-configure.md) pour reconfigurer la connexion chaque fois que vous appelez la méthode **IDelaydC :: Start** pour redémarrer la capture des données. Lorsque vous démarrez et arrêtez la capture à l’aide de ces trois méthodes, un nouveau fichier de capture est créé chaque fois que la capture est démarrée.
 
@@ -100,7 +100,7 @@ Pour redémarrer la capture à l’aide de **IDelaydC :: Start** et [**IDelaydC
 [**IDelaydC :: configure**](idelaydc-configure.md)
 </dt> <dt>
 
-[**IDelaydC :: Connect**](idelaydc-connect.md)
+[**IDelaydC :: Connecter**](idelaydc-connect.md)
 </dt> <dt>
 
 [**IDelaydC ::P ause**](idelaydc-pause.md)

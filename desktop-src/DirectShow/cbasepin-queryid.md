@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fa14fb933c89da0b0b6d2eebfab480b5508a3666
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ac4f7448b27e1780e2d44a512693f3a59113055d66f1b46a85038f04f87f045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118158141"
 ---
 # <a name="cbasepinqueryid-method"></a>CBasePin. QueryId, méthode
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                   | Description                           |
 |-----------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                   |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>       |
 | <dl> <dt>**\_pointeur E**</dt> </dl>     | Argument de pointeur **null** .<br/> |
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne une copie de la variable membre [**CBasePin :: m \_ pname**](cbasepin-m-pname.md) .
 
@@ -75,7 +75,7 @@ Cette méthode retourne une copie de la variable membre [**CBasePin :: m \_ pna
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

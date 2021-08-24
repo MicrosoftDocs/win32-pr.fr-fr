@@ -3,7 +3,7 @@ title: Message EM_INSERTTABLE (RichEdit. h)
 description: Insère une ou plusieurs lignes de table identiques avec des cellules vides.
 ms.assetid: 7F9B2F28-1035-44AA-9DF6-57BC62886A4E
 keywords:
-- EM_INSERTTABLE les contrôles de message Windows
+- EM_INSERTTABLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fea5de278df98e412f219d246164221cfea75255
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a015ae2b9a886ddfa24591944f3f70eca8cb192af771c821df9e4a403c837d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413057"
 ---
 # <a name="em_inserttable-message"></a>\_Message INSERTTABLE em
 
@@ -54,7 +54,7 @@ Pointeur vers une structure [**TABLECELLPARMS**](/windows/desktop/api/Richedit/n
 
 Retourne S \_ OK si la table est insérée ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le membre **cpStartRow** du [**TABLEROWPARMS**](/windows/desktop/api/Richedit/ns-richedit-tablerowparms) est 1, ce message supprime le texte sélectionné (le cas échéant), puis insère les lignes de table vides avec les paramètres de ligne et de cellule donnés par *wParam* et *lParam*. Elle laisse la sélection pointant vers le début de la première cellule de la première ligne. Le client peut ensuite remplir les cellules de la table en pointant la sélection (ou un [**ITextRange**](/windows/desktop/api/Tom/nn-tom-itextrange)) sur les différentes marques de fin de cellule et en insérant et en mettant en forme le texte souhaité. Ce type de texte peut inclure des lignes de table imbriquée. Sinon, si le membre **cpStartRow** du **TABLEROWPARMS** est supérieur ou égal à 0, les lignes de la table sont insérées à la position de caractère donnée par **cpStartRow**. Cela modifie uniquement la sélection actuelle si la table est insérée à l’intérieur du texte sélectionné.
 
@@ -66,8 +66,8 @@ Une table RichEdit Microsoft se compose d’une séquence de lignes de table qui
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Structure MCI_OVLY_WINDOW_PARMS (Mciapi. h)
 description: La \_ structure PARMS de la fenêtre OVLY MCI \_ contient des \_ informations de fenêtre pour la \_ commande de fenêtre MCI pour les périphériques de superposition vidéo.
 ms.assetid: 1189f31e-6e54-4279-a23d-b4e21c6cd276
 keywords:
-- Structure de MCI_OVLY_WINDOW_PARMS Windows multimédia
+- structure MCI_OVLY_WINDOW_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a554c9ed4e4869eab333b93736a0400ef93053cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd19580dacdc819f35bc36ed8f0070a5fc1b9fc4b745c78711c4fc312611e3c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118138283"
 ---
 # <a name="mci_ovly_window_parms-structure"></a>\_OVLY \_ fenêtre PARMS des fenêtres MCI \_
 
@@ -71,7 +71,7 @@ Titre de la fenêtre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

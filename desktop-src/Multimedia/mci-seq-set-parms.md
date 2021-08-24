@@ -3,7 +3,7 @@ title: Structure MCI_SEQ_SET_PARMS (Mciapi. h)
 description: La \_ structure MCI Seq \_ Set \_ PARMS contient des informations pour la \_ commande MCI Set pour les périphériques MIDI Sequencer.
 ms.assetid: 71638a92-c1d6-474b-bc97-ea63ca586aaa
 keywords:
-- Structure de MCI_SEQ_SET_PARMS Windows multimédia
+- structure MCI_SEQ_SET_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 879dd575918a33676e3ba73bd2a8f6212e3dc412
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ffb96cfd2f652bf989673bad68c95c6765034d2105fa554efee057faf099a9c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374967"
 ---
 # <a name="mci_seq_set_parms-structure"></a>MCI \_ Seq \_ définir la \_ structure des PARMS
 
@@ -103,7 +103,7 @@ Décalage des données.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

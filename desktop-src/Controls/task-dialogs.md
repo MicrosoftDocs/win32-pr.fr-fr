@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\taskdialogs\taskdialogs.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f115531b9f872c824e9d1822be07777b2bc439
-ms.sourcegitcommit: 0c786b1682063d0cae0fc43180945183fa2c7981
+ms.openlocfilehash: 6797314b75fff46ddf8a4f64638fefb5ea0181d2353bd1a1d3caa57325d28e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "103842881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168549"
 ---
 # <a name="task-dialog"></a>Boîte de dialogue de tâches
 

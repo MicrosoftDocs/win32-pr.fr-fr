@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_LIST_PARMS (VCR. h)
 description: La structure de la \_ liste des magnétoscopes MCI \_ contient des \_ paramètres pour la \_ commande de liste MCI pour les enregistreurs de cassettes vidéo.
 ms.assetid: 88725599-8057-4787-96e6-49b4a651c894
 keywords:
-- Structure de MCI_VCR_LIST_PARMS Windows multimédia
+- structure MCI_VCR_LIST_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d3e7a2eae67ebc7148b7ff424361f16554a435c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8eeb74aeee254ab050d394dbf250c037d00d10d51fe872052dd5d36164b2c3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118137980"
 ---
 # <a name="mci_vcr_list_parms-structure"></a>\_Liste des magnétoscopes MCI \_ \_ structure PARMS
 
@@ -63,7 +63,7 @@ Nombre d’entrées vidéo ou audio du magnétoscope.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

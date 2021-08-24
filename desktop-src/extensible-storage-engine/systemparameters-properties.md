@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.syst
 ms:contentKeyID: 55104035
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 12e18b6c045758c8e9fd7ffb91f728c78dcf2e24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13b2735f699fe2943dcb63bf262c8c708e61df754ed6799f2fb948119755d2e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890677"
 ---
 # <a name="systemparameters-properties"></a>Propriétés SystemParameters
 
@@ -60,7 +60,7 @@ Le type [SystemParameters](./systemparameters-class.md) expose les membres suiva
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn351218(v=exchg.10).md">Configuration</a></td>
-<td>Obtient ou définit une valeur qui spécifie les valeurs par défaut pour l’ensemble des paramètres système. Quand ce paramètre est défini sur une configuration spécifique, toutes les valeurs des paramètres système sont réinitialisées à leurs valeurs par défaut pour cette configuration. Si la configuration est définie pour une instance spécifique, les valeurs par défaut des paramètres système globaux ne sont pas réinitialisées. Petite configuration (0) : le moteur de base de données est optimisé pour l’utilisation de la mémoire. Configuration héritée (1) : le moteur de base de données a ses valeurs par défaut traditionnelles. Pris en charge sur Windows Vista et les autres. Ignoré sur Windows XP et Windows Server 2003.</td>
+<td>Obtient ou définit une valeur qui spécifie les valeurs par défaut pour l’ensemble des paramètres système. Quand ce paramètre est défini sur une configuration spécifique, toutes les valeurs des paramètres système sont réinitialisées à leurs valeurs par défaut pour cette configuration. Si la configuration est définie pour une instance spécifique, les valeurs par défaut des paramètres système globaux ne sont pas réinitialisées. Petite configuration (0) : le moteur de base de données est optimisé pour l’utilisation de la mémoire. Configuration héritée (1) : le moteur de base de données a ses valeurs par défaut traditionnelles. pris en charge sur Windows Vista et les autres. ignoré sur Windows XP et Windows Server 2003.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
@@ -70,7 +70,7 @@ Le type [SystemParameters](./systemparameters-class.md) expose les membres suiva
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn351221(v=exchg.10).md">EnableAdvanced</a></td>
-<td>Obtient ou définit une valeur indiquant si le moteur de base de données accepte ou rejette les modifications apportées à un sous-ensemble des paramètres système. Ce paramètre est utilisé conjointement avec la <a href="dn351218(v=exchg.10).md">configuration</a> pour empêcher la définition de certains paramètres système à partir des valeurs par défaut de la configuration sélectionnée. Pris en charge sur Windows Vista et les autres. Ignoré sur Windows XP et Windows Server 2003.</td>
+<td>Obtient ou définit une valeur indiquant si le moteur de base de données accepte ou rejette les modifications apportées à un sous-ensemble des paramètres système. Ce paramètre est utilisé conjointement avec la <a href="dn351218(v=exchg.10).md">configuration</a> pour empêcher la définition de certains paramètres système à partir des valeurs par défaut de la configuration sélectionnée. pris en charge sur Windows Vista et les autres. ignoré sur Windows XP et Windows Server 2003.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Propriété publique" alt="Public property" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>

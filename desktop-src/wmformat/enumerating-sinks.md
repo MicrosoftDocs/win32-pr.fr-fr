@@ -10,12 +10,12 @@ keywords:
 - récepteurs, énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff35124a8c88108082544b270aa4d9813ff67ea9
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 4b51b46f3efdf95902b1ca5b359227da845292c4b0f23dbf0bd52039fba151cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103724031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118029070"
 ---
 # <a name="enumerating-sinks"></a>Énumération des récepteurs
 
@@ -26,7 +26,7 @@ L’exemple de code dans l' [obtention de messages d’erreur à partir d’un r
 > [!Note]  
 > Lors de l’énumération des récepteurs, le récepteur de fichiers par défaut créé en réponse à un appel à [**IWMWriter :: SetOutputFilename**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-setoutputfilename) est énuméré avec tout autre récepteur que vous avez ajouté. Si vous utilisez uniquement le récepteur de fichiers par défaut, vous pouvez y accéder en appelant **GetSink** pour l’index de récepteur 0.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -38,9 +38,9 @@ L’exemple de code dans l' [obtention de messages d’erreur à partir d’un r
 [**Utilisation des récepteurs d’écriture**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

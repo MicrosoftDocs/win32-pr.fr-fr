@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: eb8714dfc652cd1ba1a581b99cf5a4066159fb1e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3a16710adafaf3c9a4d04658f556592c485fd3ce1fa5b88c198b8913dadda543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146719"
 ---
 # <a name="requeststatechange-method-of-the-msvm_synthetickeyboard-class"></a>Méthode RequestStateChange de la \_ classe MSVM SyntheticKeyboard
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 En cas de réussite, retourne 0 ; Sinon, retourne une erreur.
 
@@ -159,7 +159,7 @@ En cas de réussite, retourne 0 ; Sinon, retourne une erreur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

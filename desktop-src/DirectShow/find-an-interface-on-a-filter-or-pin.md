@@ -4,18 +4,18 @@ ms.assetid: 546f5b7d-3bcd-4e97-a012-daca6ae7bca1
 title: Rechercher une interface sur un filtre ou un code PIN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d264a35e0c33ba53f6a8df7f69113f3358a9737
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 17314f7e44e4b2c4f412dd0d152e038203268c29d585cd684ddde9eb34992a2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819561"
 ---
 # <a name="find-an-interface-on-a-filter-or-pin"></a>Rechercher une interface sur un filtre ou un code PIN
 
-Pour de nombreuses opérations dans DirectShow, l’application appelle des méthodes sur le gestionnaire de graphique de filtre. Toutefois, dans certains cas, l’application doit appeler une méthode directement sur un filtre ou un code PIN. Par exemple, de nombreux filtres exposent des interfaces spécialisées utilisées pour configurer le filtre.
+pour de nombreuses opérations dans DirectShow, l’application appelle des méthodes sur le gestionnaire de Graph de filtre. Toutefois, dans certains cas, l’application doit appeler une méthode directement sur un filtre ou un code PIN. Par exemple, de nombreux filtres exposent des interfaces spécialisées utilisées pour configurer le filtre.
 
-Dans le cas d’une interface de filtre, vous disposez peut-être déjà d’un pointeur vers l’interface [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) du filtre. Dans ce cas, utilisez simplement **QueryInterface** pour accéder à l’autre interface. Toutefois, certains filtres peuvent être ajoutés au graphique par le gestionnaire de graphes de filtre. (Pour plus d’informations, consultez [connexion intelligente](intelligent-connect.md).) Dans ce cas, utilisez l’interface [**IEnumFilters**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) pour parcourir tous les filtres du graphique, puis interrogez-les chaque fois. La fonction suivante illustre ce qui suit :
+Dans le cas d’une interface de filtre, vous disposez peut-être déjà d’un pointeur vers l’interface [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) du filtre. Dans ce cas, utilisez simplement **QueryInterface** pour accéder à l’autre interface. toutefois, certains filtres peuvent être ajoutés au graphique par le gestionnaire de Graph de filtre. (Pour plus d’informations, consultez [Intelligent connecter](intelligent-connect.md).) Dans ce cas, utilisez l’interface [**IEnumFilters**](/windows/desktop/api/Strmif/nn-strmif-ienumfilters) pour parcourir tous les filtres du graphique, puis interrogez-les chaque fois. La fonction suivante illustre ce qui suit :
 
 
 ```C++

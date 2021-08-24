@@ -23,12 +23,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a3e7cb617514e2ed7c8692a866cc80dfc639391
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad2a9b0317c6e842558f771dcd10ec7707602e17510ffc20c3a9684fc94bf7d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163143"
 ---
 # <a name="microsoftdns_soatype-class"></a>MicrosoftDNS \_ SOAType, classe
 

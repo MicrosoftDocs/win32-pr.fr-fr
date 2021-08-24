@@ -4,12 +4,12 @@ ms.assetid: fdcad3c2-7e36-4194-83c7-dccbd50762d5
 title: Définition de la fréquence de rappel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e03c260b6d289e473f27bb3ae6b84a3f42d0878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f235377865583e48d6a4b9c16abce4209e6449f74ed3cf42688dfa417287bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118363245"
 ---
 # <a name="setting-the-callback-frequency"></a>Définition de la fréquence de rappel
 

@@ -8,12 +8,12 @@ keywords:
 - CAPSTATUS, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6019009c8510abe3429c1043527156c55f0c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 367d35c3869adb6f4e960fa472e0cd6a22483c37fa981e886b3a78f0b7410029
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375285"
 ---
 # <a name="capture-window-status"></a>État de la fenêtre de capture
 
@@ -21,9 +21,9 @@ Vous pouvez récupérer l’état actuel d’une fenêtre de capture à l’aide
 
 La modification des dimensions de la fenêtre de capture n’a aucun effet sur les dimensions du flux vidéo capturé réel. La boîte de dialogue Format affichée par le pilote de périphérique de capture vidéo contrôle les dimensions du flux vidéo capturé.
 
- 
+ 
 
- 
+ 
 
 
 

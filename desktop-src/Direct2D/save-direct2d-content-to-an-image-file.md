@@ -4,24 +4,24 @@ description: Cette rubrique montre comment utiliser IWICImageEncoder pour enregi
 ms.assetid: F0D8BFC7-723A-4577-B2DF-4D656A18E2FC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b19146d838474046fd634cb5524ddf2367fd1d6c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4c6020b29be3771575919ccb0200718e8e608afded584471625cfa922aee8da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160365"
 ---
 # <a name="how-to-save-direct2d-content-to-an-image-file"></a>Guide pratique pour enregistrer le contenu Direct2D dans un fichier image
 
-Cette rubrique montre comment utiliser [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) pour enregistrer du contenu sous la forme d’un [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) dans un fichier image encodé comme JPEG. Si vous écrivez une application Windows Store, vous pouvez demander à l’utilisateur de sélectionner un fichier de destination à l’aide de [**Windows :: Storage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker).
+Cette rubrique montre comment utiliser [**IWICImageEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder) pour enregistrer du contenu sous la forme d’un [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) dans un fichier image encodé comme JPEG. si vous écrivez une application Windows Store, vous pouvez demander à l’utilisateur de sélectionner un fichier de destination à l’aide de [**Windows :: Stockage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
 -   [Direct2D](./direct2d-portal.md)
 -   [Effets Direct2D](effects-overview.md)
--   [**Windows :: Storage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
+-   [**Windows :: Stockage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker)
 
 ### <a name="prerequisites"></a>Prérequis
 
@@ -33,7 +33,7 @@ Cette rubrique montre comment utiliser [**IWICImageEncoder**](/windows/desktop/a
 
 Si vous souhaitez autoriser l’utilisateur à sélectionner un fichier de destination, vous pouvez utiliser [**FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker), ouvrir le fichier retourné et obtenir un [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) à utiliser avec WIC.
 
-Créez un fichier [**Windows :: Storage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) et définissez ses paramètres pour les fichiers image. Appelez la méthode [**PickSaveFileAsync**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) .
+créez un [**Windows :: Stockage ::P ickers :: FileSavePicker**](/uwp/api/Windows.Storage.Pickers.FileSavePicker) et définissez ses paramètres pour les fichiers image. Appelez la méthode [**PickSaveFileAsync**](/uwp/api/windows.storage.pickers.filesavepicker.picksavefileasync) .
 
 
 ```C++
@@ -81,7 +81,7 @@ Obtenez un [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)) en a
 
 
 
-Enfin, utilisez la méthode [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) pour convertir le flux de fichier. Les API Windows Runtime représentent des flux avec [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), tandis que WIC consomme [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
+Enfin, utilisez la méthode [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) pour convertir le flux de fichier. Windows Les API de Runtime représentent des flux avec [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85)), tandis que WIC consomme [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream).
 
 
 ```C++
@@ -96,7 +96,7 @@ Enfin, utilisez la méthode [**CreateStreamOverRandomAccessStream**](/windows/de
 > [!Note]  
 > Pour utiliser la fonction [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) , vous devez inclure **shCore. h** dans votre projet.
 
- 
+ 
 
 ### <a name="step-2-get-the-wic-bitmap-and-frame-encoder"></a>Étape 2 : obtenir la bitmap WIC et l’encodeur de trame
 
@@ -194,7 +194,7 @@ Appelez [**IWICImagingFactory2 :: CreateImageEncoder**](/windows/desktop/api/wi
 > [!Note]  
 > Le paramètre [**ID2D1Image**](/windows/win32/api/d2d1/nn-d2d1-id2d1image) doit avoir été créé sur le [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device) qui a été passé dans [**IWICImagingFactory2 :: CreateImageEncoder**](/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory2-createimageencoder).
 
- 
+ 
 
 Validez le WIC et les ressources de flux pour finaliser l’opération.
 
@@ -219,7 +219,7 @@ Validez le WIC et les ressources de flux pour finaliser l’opération.
 > [!Note]  
 > Certaines implémentations de [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) n’implémentent pas la méthode [**Commit**](/windows/desktop/api/objidl/nf-objidl-istream-commit) et retournent **E \_ NOTIMPL**.
 
- 
+ 
 
 Vous avez maintenant un fichier qui contient l’image [Direct2D](./direct2d-portal.md) .
 
@@ -365,6 +365,6 @@ void SaveAsImageFile::SaveBitmapToStream(
 
 
 
- 
+ 
 
- 
+ 

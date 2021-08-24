@@ -10,12 +10,12 @@ keywords:
 - pixels, Portage à partir de IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fd484efa031bd12af59cb729c8fa20b68fe88e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc67a4c9224dbe6544c60cb205f8a192517af7f3ab16ba64134b4d55d1c8676f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118132378"
 ---
 # <a name="porting-pixel-operations"></a>Portage des opérations de pixels
 

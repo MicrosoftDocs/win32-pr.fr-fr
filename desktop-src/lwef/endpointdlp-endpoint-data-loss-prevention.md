@@ -3,12 +3,12 @@ description: Les API de protection contre la perte de données (DLP) du point de
 title: Protection contre la perte de données de point de terminaison
 ms.topic: article
 ms.date: 03/18/2021
-ms.openlocfilehash: 3b8576f9eadd0037eca56c0ba183ea1d1825679a
-ms.sourcegitcommit: 8b543a86e551cb5b4270a3cc3590ad0758fb6156
+ms.openlocfilehash: fcbe17d30addb86e37330b210d224720f9b50e525e2b8d41d07d349ea5819c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107526087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479430"
 ---
 # <a name="endpoint-data-loss-prevention"></a>Protection contre la perte de données de point de terminaison
 
@@ -16,12 +16,12 @@ Windows 10 implémente des mécanismes qui permettent d’éviter la perte de do
 
 ## <a name="location-of-the-dlp-dll"></a>Emplacement de la dll DLP
 
-Étant donné que la dll DLP du point de terminaison n’est pas regroupée avec le SDK Windows, les applications doivent charger la dll manuellement au moment de l’exécution. Le chemin d’accès à l’emplacement de la dll est stocké dans le registre. Le tableau suivant répertorie les clés de Registre et les valeurs qui stockent ces informations. Ces chemins d’accès sont définis en tant que constantes dans l’exemple de code endpointdlp. h fourni ci-dessous pour les développeurs.
+étant donné que la dll DLP du point de terminaison n’est pas regroupée avec le SDK Windows, les applications doivent charger la dll manuellement au moment de l’exécution. Le chemin d’accès à l’emplacement de la dll est stocké dans le registre. Le tableau suivant répertorie les clés de Registre et les valeurs qui stockent ces informations. Ces chemins d’accès sont définis en tant que constantes dans l’exemple de code endpointdlp. h fourni ci-dessous pour les développeurs.
 
 | Constante | Valeur | Description   |
 |----------|-------|---------------|
 | ENDPOINTDLP_DLL_NAME | « EndpointDlp.dll » | Nom de la DLL DLP de point de terminaison qui fournit l’API |
-| ENDPOINTDLP_WINDOWS_DEFENDER_REGKEY | « LOGICIEL \\ Microsoft \\ Windows Defender » | Clé de Registre Windows Defender sous HKLM où certains paramètres DLP de point de terminaison sont stockés |
+| ENDPOINTDLP_WINDOWS_DEFENDER_REGKEY | « logiciel \\ Microsoft \\ Windows Defender » | Windows Defender clé de registre sous HKLM où certains paramètres DLP de point de terminaison sont stockés |
 | ENDPOINTDLP_DLL_INSTALL_LOCATION_REGKEY | Valeur de ENDPOINTDLP_WINDOWS_DEFENDER_REGKEY |  Chemin d’accès au Registre sous la clé HKLM à partir de laquelle l’emplacement d’installation de EndpointDlp.dll peut être obtenu |
 | ENDPOINTDLP_DLL_INSTALL_LOCATION_REGVALUE | INSTALLLOCATION | Valeur de Registre sous ENDPOINTDLP_DLL_INSTALL_LOCATION_REGKEY dans laquelle l’emplacement d’installation du EndpointDlp.dll est stocké |
 | ENDPOINTDLP_DLL_WOW64_X86_INSTALL_LOCATION_SUFFIX | systèmes | Sur les plateformes x64, concaténez ce répertoire pour obtenir la version x86 de EndpointDlp.dll |
@@ -97,7 +97,7 @@ Les tableaux suivants répertorient les API fournies par la dll DLP de point de 
 
 ## <a name="endpoint-dlp-example-header"></a>En-tête d’exemple DLP de point de terminaison
 
-Étant donné que l’en-tête DLP de point de terminaison n’est pas inclus dans la SDK Windows, vous devez créer vous-même le fichier d’en-tête pour pouvoir utiliser les signatures d’API dans votre implémentation. Pour votre commodité, nous fournissons un exemple de code que vous pouvez copier et coller dans votre application. En plus des déclarations de fonction, cette liste de code définit également des constantes utiles telles que les informations de contrôle de version et les chemins de clés de registre.
+étant donné que l’en-tête DLP de point de terminaison n’est pas inclus dans la SDK Windows, vous devez créer vous-même le fichier d’en-tête pour pouvoir utiliser les signatures d’API dans votre implémentation. Pour votre commodité, nous fournissons un exemple de code que vous pouvez copier et coller dans votre application. En plus des déclarations de fonction, cette liste de code définit également des constantes utiles telles que les informations de contrôle de version et les chemins de clés de registre.
 
 ```cpp
 //

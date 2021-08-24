@@ -3,7 +3,7 @@ title: Message EM_SETBKGNDCOLOR (RichEdit. h)
 description: Le \_ message SETBKGNDCOLOR em définit la couleur d’arrière-plan d’un contrôle RichEdit.
 ms.assetid: 0ad191cd-6370-493e-bfe2-5aa8d81ed999
 keywords:
-- EM_SETBKGNDCOLOR les contrôles de message Windows
+- EM_SETBKGNDCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 091f04909e2660498f1380628439c067b5438b6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1173c2da9f3c04e49211224bd269d79c0634e1cb3f8ea959f6b58e354fdf0dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412653"
 ---
 # <a name="em_setbkgndcolor-message"></a>\_Message SETBKGNDCOLOR em
 
@@ -53,8 +53,8 @@ Ce message retourne la couleur d’arrière-plan d’origine.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

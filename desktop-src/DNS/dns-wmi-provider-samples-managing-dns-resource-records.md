@@ -4,12 +4,12 @@ description: 'Exemples de fournisseur WMI DNS : gestion des enregistrements de 
 ms.assetid: 4b038c74-eec8-459c-9e3f-3be2a244d313
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b6494168ef6a5ee4aa035879468e2c1a92d4e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 089cf567452666db54ad0e0d784b2bf3b2566e0e986ba94a9e9d498a387468c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163838"
 ---
 # <a name="dns-wmi-provider-samplesmanaging-dns-resource-records"></a>Exemples de fournisseur WMI DNS : gestion des enregistrements de ressources DNS
 
@@ -19,7 +19,7 @@ Cette section décrit les tâches de script associées à la gestion des enregis
 -   [Ajouter un enregistrement de ressource](#add-a-resource-record)
 -   [Supprimer un enregistrement de ressource](#delete-a-resource-record)
 -   [Modifier un enregistrement de ressource](#modify-a-resource-record)
--   [Se connecter au fournisseur WMI DNS](#connect-to-the-dns-wmi-provider)
+-   [Connecter au fournisseur WMI DNS](#connect-to-the-dns-wmi-provider)
 
 L’implémentation générale du script est la suivante :
 
@@ -5183,7 +5183,7 @@ End Function
 
 
 
-## <a name="connect-to-the-dns-wmi-provider"></a>Se connecter au fournisseur WMI DNS
+## <a name="connect-to-the-dns-wmi-provider"></a>Connecter au fournisseur WMI DNS
 
 Cet exemple de code montre les tâches associées à la connexion à un fournisseur WMI DNS.
 
@@ -5417,9 +5417,9 @@ End Function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

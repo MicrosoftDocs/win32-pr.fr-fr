@@ -9,12 +9,12 @@ keywords:
 - flux, copie de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8b38a1675ac79630371fe4d3fda66d44b4b2990
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e2fe8369a8e3ebef6bca191ceffdac7c284889b0afdb4145fbec9c44702a1a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705074"
 ---
 # <a name="copying-data-from-one-file-to-another"></a>Copie de données d’un fichier vers un autre
 
@@ -26,12 +26,12 @@ Les sections suivantes décrivent la copie de flux.
 
 | Section                                                                                              | Descripiton                                                                                    |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [Copie de flux sans décompression des données](copying-streams-without-decompressing-the-data.md) | Décrit comment copier des flux à l’aide d’échantillons compressés pour préserver la qualité du contenu. |
-| [Copie de flux à l’aide d’exemples décompressés](copying-streams-using-decompressed-samples.md)         | Décrit les difficultés liées à la copie des flux à l’aide d’exemples décompressés.                      |
+| [copie Flux sans décompression des données](copying-streams-without-decompressing-the-data.md) | Décrit comment copier des flux à l’aide d’échantillons compressés pour préserver la qualité du contenu. |
+| [copie Flux à l’aide d’exemples décompressés](copying-streams-using-decompressed-samples.md)         | Décrit les difficultés liées à la copie des flux à l’aide d’exemples décompressés.                      |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,9 +49,9 @@ Les sections suivantes décrivent la copie de flux.
 [**Auteur, objet**](writer-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

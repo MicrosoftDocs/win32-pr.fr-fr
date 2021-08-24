@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 451bb21822d1b56e4c7a45f1587df04761b67690
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6e0efcc63d0d14934abe1f6be1444bf5b7eeaed2bfa0b0cd46efefed3f1bba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117993021"
 ---
 # <a name="locationdispcivicaddressreportfactory-object"></a>LocationDisp. CivicAddressReportFactory, objet
 
-\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l’API [**Windows. Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l' [**Windows. API Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Gère les rapports d’adresse postale.
 
@@ -59,7 +59,7 @@ L’objet **LocationDisp. CivicAddressReportFactory** possède ces propriétés.
 | [**CivicAddressReport**](locationdisp-dispcivicaddressreport-civicaddressreport.md)<br/> | Lecture seule<br/>  | [**LocationDisp. DispCivicAddressReport**](locationdisp-dispcivicaddressreport.md)actuel.<br/> |
 | [**DesiredAccuracy**](locationdisp-civicaddressreportfactory-desiredaccuracy.md)<br/>    | Lecture/écriture<br/> | Paramètre de précision souhaité.<br/>                                                           |
 | [**ReportInterval**](locationdisp-civicaddressreportfactory-reportinterval.md)<br/>      | Lecture/écriture<br/> | Intervalle d’événements de rapport d’adresse postale actuel, en millisecondes.<br/>                                |
-| [**Statu**](locationdisp-civicaddressreportfactory-status.md)<br/>                      | Lecture seule<br/>  | État actuel du rapport.<br/>                                                                      |
+| [**État**](locationdisp-civicaddressreportfactory-status.md)<br/>                      | Lecture seule<br/>  | État actuel du rapport.<br/>                                                                      |
 
 
 
@@ -79,7 +79,7 @@ L’exemple de code suivant montre comment créer cet objet dans du code HTML.
 
 
 
-L’exemple de code suivant montre comment créer cet objet dans JScript à l’aide de Windows Script Host.
+l’exemple de code suivant montre comment créer cet objet dans JScript à l’aide de Windows Script Host.
 
 
 ```JScript
@@ -88,7 +88,7 @@ var civicfactory = WScript.CreateObject("LocationDisp.CivicAddressReportFactory"
 
 
 
-L’exemple de code suivant montre comment créer cet objet dans VBScript à l’aide de Windows Script Host.
+l’exemple de code suivant montre comment créer cet objet dans VBScript à l’aide de Windows Script Host.
 
 
 ```VB
@@ -98,13 +98,13 @@ Set civicfactory = WScript.CreateObject("LocationDisp.CivicAddressReportFactory"
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                  |
 
 

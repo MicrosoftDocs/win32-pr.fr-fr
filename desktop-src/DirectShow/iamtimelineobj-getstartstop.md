@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: aa4204f2bd41d72a6d3ef67f633f8b64a58051b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d808d7ac2ee3b6c1cbeddc39c730fc38b7032bde86ce726af03379d71241679c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118400785"
 ---
 # <a name="iamtimelineobjgetstartstop-method"></a>IAMTimelineObj :: GetStartStop, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -64,11 +64,11 @@ Reçoit l’heure d’arrêt, en unités de 100 nanosecondes.
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les compositions, les groupes et les suivis ont toujours une heure de début égale à 0.
 
-Pendant le rendu, DES arrondit les heures de début et de fin d’un objet à la limite d’image la plus proche. Toutefois, les ne remplacent pas les heures de l’objet. Si vous modifiez la fréquence d’images de groupe, les temps arrondis sont toujours calculés à partir des heures d’origine. Pour plus d’informations, retrouvez le [temps dans les services de modification DirectShow](time-in-directshow-editing-services.md).
+Pendant le rendu, DES arrondit les heures de début et de fin d’un objet à la limite d’image la plus proche. Toutefois, les ne remplacent pas les heures de l’objet. Si vous modifiez la fréquence d’images de groupe, les temps arrondis sont toujours calculés à partir des heures d’origine. pour plus d’informations, [reDirectShow les Services d’édition](time-in-directshow-editing-services.md).
 
 Pour déterminer les heures de début et de fin dans le projet rendu, transmettez les valeurs retournées par `GetStartStop` à la méthode [**IAMTimelineObj :: FixTimes**](iamtimelineobj-fixtimes.md) .
 
@@ -78,7 +78,7 @@ Pour déterminer les heures de début et de fin dans le projet rendu, transmette
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

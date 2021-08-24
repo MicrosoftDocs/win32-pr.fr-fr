@@ -49,12 +49,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f8d4a1345395b5b5843872df256fe7a113094e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2786146c974860d540db041943791b3fb81c4f3687f40285f0c570eba85bcdf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352954"
 ---
 # <a name="imsrdpclientadvancedsettings2enableautoreconnect-property"></a>IMsRdpClientAdvancedSettings2 :: EnableAutoReconnect, propriété
 
@@ -85,7 +85,7 @@ Affectez la valeur **Variant \_ true** pour activer la reconnexion automatique e
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété ne peut pas être définie lorsque le contrôle est connecté.
 

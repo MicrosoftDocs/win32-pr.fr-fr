@@ -4,12 +4,12 @@ ms.assetid: 7b2267c3-79f5-4ada-a7ce-78dd514f8487
 title: Constantes AUDCLNT_STREAMFLAGS_XXX (Audiosessiontypes. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65faf887c35b4ce1110cecb7d7509eb3dfda1d57
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 84817607092c179286f47eb35ef51f5e0f82d44211bcd2345ca3d27ee06b0e13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407362"
 ---
 # <a name="audclnt_streamflags_xxx-constants"></a>AUDCLNT \_ STREAMFLAGS \_ xxx, constantes
 
@@ -23,13 +23,13 @@ Spécifie les caractéristiques qu’un client peut assigner à un flux audio pe
 | <span id="AUDCLNT_STREAMFLAGS_LOOPBACK"></span><span id="audclnt_streamflags_loopback"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS de \_ bouclage**</dt> <dt>0x00020000</dt> </dl>                                                   | Le flux audio fonctionne en mode de bouclage. Pour plus d'informations, consultez la section Notes.<br/>                                                                                                                                                                                                                                                      |
 | <span id="AUDCLNT_STREAMFLAGS_EVENTCALLBACK"></span><span id="audclnt_streamflags_eventcallback"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ EventCallback suivante**</dt> <dt>0x00040000</dt> </dl>                                    | Le traitement de la mémoire tampon audio par le client est piloté par les événements. Pour plus d'informations, consultez la section Notes. <br/>                                                                                                                                                                                                                                  |
 | <span id="AUDCLNT_STREAMFLAGS_NOPERSIST"></span><span id="audclnt_streamflags_nopersist"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ NoPersist**</dt> <dt>0x00080000</dt> </dl>                                                | Les paramètres de volume et de sourdine pour une session audio ne sont pas conservés au cours des redémarrages de l’application. Pour plus d'informations, consultez la section Notes.<br/>                                                                                                                                                                                                           |
-| <span id="AUDCLNT_STREAMFLAGS_RATEADJUST"></span><span id="audclnt_streamflags_rateadjust"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ RATEADJUST**</dt> <dt>0x00100000</dt> </dl>                                             | Cette constante est une nouveauté de Windows 7. Le taux d’échantillonnage du flux est ajusté à la fréquence spécifiée par une application. Pour plus d'informations, consultez la section Notes. <br/>                                                                                                                                                                                 |
+| <span id="AUDCLNT_STREAMFLAGS_RATEADJUST"></span><span id="audclnt_streamflags_rateadjust"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ RATEADJUST**</dt> <dt>0x00100000</dt> </dl>                                             | cette constante est une nouveauté de Windows 7. Le taux d’échantillonnage du flux est ajusté à la fréquence spécifiée par une application. Pour plus d'informations, consultez la section Notes. <br/>                                                                                                                                                                                 |
 | <span id="AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM"></span><span id="audclnt_streamflags_autoconvertpcm"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ AUTOCONVERTPCM**</dt> <dt>0x80000000</dt> </dl>                                 | Une matrice de canaux et un exemple de convertisseur de taux sont insérés si nécessaire pour effectuer une conversion entre le format non compressé fourni à [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) et le format de combinaison de moteurs audio.<br/>                                                                                                            |
 | <span id="AUDCLNT_STREAMFLAGS_SRC_DEFAULT_QUALITY"></span><span id="audclnt_streamflags_src_default_quality"></span><dl> <dt>**AUDCLNT \_ STREAMFLAGS \_ src \_ default \_ Quality**</dt> <dt>0x08000000</dt> </dl>                | Lorsqu’il est utilisé avec **AUDCLNT \_ STREAMFLAGS \_ AUTOCONVERTPCM**, un convertisseur de taux d’échantillonnage avec une meilleure qualité que la conversion par défaut, mais avec un coût de performances supérieur, est utilisé. Cette valeur doit être utilisée si l’audio est finalement destiné à être entendu par des humains, par opposition à d’autres scénarios tels que le silence de pompage ou le remplissage d’un compteur.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) et la structure [**des \_ \_ \_ paramètres d’activation audio DirectX**](/windows/win32/api/mmdeviceapi/ns-mmdeviceapi-directx_audio_activation_params) utilisent les \_ constantes AUDCLNT STREAMFLAGS \_ xxx.
 
@@ -49,8 +49,8 @@ L' \_ indicateur AUDCLNT STREAMFLAGS \_ RATEADJUST permet à une application d�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Audiosessiontypes. h</dt> </dl> |
 
 

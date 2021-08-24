@@ -4,19 +4,19 @@ ms.assetid: 0ea1de35-34ea-4e94-b90d-0f89503cb3fb
 title: Mémoire dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcc54a1b85f4fc39bf6383e05a2e6e535edd1d4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 408e54aa1a1d238a98bb0eff8af2dd76862b32b77c26b3d3812d8707bc0099f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329851"
 ---
 # <a name="dynamic-memory"></a>Mémoire dynamique
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients (s’exécutant en tant qu’ordinateurs virtuels)** -Windows Vista \| Windows 7  
-**Serveurs** -Windows Server 2008 R2 Hyper-V SP1  
+**serveurs** -Windows Server 2008 R2 Hyper-V SP1  
 
 
 ## <a name="feature-impact"></a>Impact sur les fonctionnalités
@@ -31,7 +31,7 @@ ms.locfileid: "108088467"
 
 ## <a name="description"></a>Description
 
-À un niveau élevé, Hyper-V Mémoire dynamique est une amélioration de la gestion de la mémoire pour le rôle Hyper-V inclus dans Windows Server 2008 R2 SP1. Il est conçu pour une utilisation en production et permet aux clients d’obtenir des ratios plus élevés de densité de machines virtuelles et de consolidation tout en optimisant l’utilisation de la mémoire sur l’ordinateur physique. L’allocation de mémoire statique est réduite et la mémoire supplémentaire est allouée en fonction des besoins. Mémoire dynamique a un impact sur les développeurs de logiciels qui souhaitent s’assurer que leurs logiciels fonctionnent correctement dans un environnement de machine virtuelle.
+à un niveau élevé, hyper-v Mémoire dynamique est une amélioration de la gestion de la mémoire pour le rôle Hyper-v inclus dans Windows Server 2008 R2 SP1. Il est conçu pour une utilisation en production et permet aux clients d’obtenir des ratios plus élevés de densité de machines virtuelles et de consolidation tout en optimisant l’utilisation de la mémoire sur l’ordinateur physique. L’allocation de mémoire statique est réduite et la mémoire supplémentaire est allouée en fonction des besoins. Mémoire dynamique a un impact sur les développeurs de logiciels qui souhaitent s’assurer que leurs logiciels fonctionnent correctement dans un environnement de machine virtuelle.
 
 ## <a name="usage-scenario"></a>Scénario d'utilisation
 
@@ -39,7 +39,7 @@ Il existe deux scénarios d’utilisation de la clé où Mémoire dynamique entr
 
 **Applications côté hôte (outils de gestion)**
 
-Les anciens outils qui gèrent un nouveau serveur Windows Server 2008 R2 SP1 ne seront pas en mesure d’accéder aux nouveaux paramètres de Mémoire dynamique. De nouvelles API WMI et des compteurs de performances ont été développés pour gérer les nouveaux paramètres de Mémoire dynamique pour les machines virtuelles Hyper-V. Les développeurs de logiciels qui travaillent sur des outils de gestion doivent tirer parti de ces API et compteurs pour une utilisation avec Windows Server 2008 R2 SP1 avec le rôle Hyper-V installé. Des détails sur ces nouvelles API seront disponibles via [la documentation du fournisseur WMI Hyper-V sur MSDN](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider).
+les anciens outils qui gèrent un nouveau serveur Windows server 2008 R2 SP1 ne seront pas en mesure d’accéder aux nouveaux paramètres de Mémoire dynamique. De nouvelles API WMI et des compteurs de performances ont été développés pour gérer les nouveaux paramètres de Mémoire dynamique pour les machines virtuelles Hyper-V. les développeurs de logiciels qui travaillent sur des outils de gestion doivent tirer parti de ces api et compteurs pour une utilisation avec Windows Server 2008 R2 SP1 avec le rôle Hyper-V installé. Des détails sur ces nouvelles API seront disponibles via [la documentation du fournisseur WMI Hyper-V sur MSDN](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider).
 
 **Applications côté invité**
 
@@ -49,7 +49,7 @@ Les allocations et les désallocations de mémoire continuent de fonctionner nor
 
 ## <a name="solutions"></a>Solutions
 
-Les machines virtuelles doivent disposer d’une version mise à jour d’Integration Services (SP1) pour pouvoir tirer parti de Mémoire dynamique. Assurez-vous que tous les ordinateurs utilisés dans la gestion des ordinateurs virtuels Hyper-V utilisent la dernière version de Windows Server 2008 R2 SP1.
+Les machines virtuelles doivent disposer d’une version mise à jour d’Integration Services (SP1) pour pouvoir tirer parti de Mémoire dynamique. assurez-vous que tous les ordinateurs utilisés dans la gestion des ordinateurs virtuels Hyper-V utilisent la dernière version de Windows Server 2008 R2 SP1.
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 

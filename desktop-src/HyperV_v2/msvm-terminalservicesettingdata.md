@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 27d98971c847eab5042823e8a1524051a15fd679
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ec87429a70236d1e35b593c959880fa0937c3fc44daf22e834290158e83aab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118146698"
 ---
 # <a name="msvm_terminalservicesettingdata-class"></a>MSVM \_ TerminalServiceSettingData, classe
 
@@ -76,7 +76,7 @@ Type d'accès : Lecture seule
 
 Liste des algorithmes de hachage acceptés pour vérifier la signature des jetons d’authentification fédérée.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -185,7 +185,7 @@ Type d'accès : Lecture seule
 
 Liste des hachages de certificat de l’émetteur approuvé pour vérifier la signature des jetons d’authentification fédérés.
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> </dl>
 
@@ -195,8 +195,8 @@ Liste des hachages de certificat de l’émetteur approuvé pour vérifier la si
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

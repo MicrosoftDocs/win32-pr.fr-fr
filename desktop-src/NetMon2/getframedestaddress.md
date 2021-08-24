@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: afec32f0e0fc66ccd5a1d78cc9769b0e742f1e6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7719392794027567521ce3e9c1bd1caf8ecbf76110f76ad0e54e0dd6549aae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366624"
 ---
 # <a name="getframedestaddress-function"></a>GetFrameDestAddress fonction)
 
@@ -98,7 +98,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’adresse Rechercher le type d’adresse le **\_ \_ \_ plus élevé** est autorisé. Lorsque ce type d’adresse est utilisé, la fonction recherche l’adresse IP IPX, XNS, IP ou VINEs avant de renvoyer l’adresse ETHERNET, TOKENRING ou FDDI. Cette approche est utile pour les protocoles et dans les environnements où deux cartes réseau peuvent être multiplexées sous une seule adresse de serveur.
 
