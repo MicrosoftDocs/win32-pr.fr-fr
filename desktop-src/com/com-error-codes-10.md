@@ -172,12 +172,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a5d9f33a9658b917d787f326d2daec8124bc36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4490a6738d5b732ba62d2a7337fb8a01bd0b98cc9e14ae3b079873769af4b985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048647"
 ---
 # <a name="com-error-codes-ui-audio-directx-codec"></a>Codes d’erreur COM (UI, audio, DirectX, codec)
 
@@ -572,7 +572,7 @@ Le pilote demande que le runtime DXGI n’utilise pas de ressources partagées p
 
 
 
-L’opération actuelle n’est pas visible, car la session Windows a basculé vers un autre bureau (par exemple, Ctrl-Alt-Suppr).
+l’opération actuelle n’est pas visible, car la session de Windows a basculé vers un autre bureau (par exemple, ctrl-alt-suppr).
 
 
 </dt> </dl> </dd> <dt>
@@ -845,7 +845,7 @@ La valeur du délai d’attente s’est écoulée et la ressource n’est pas en
 
 
 
-La duplication de sortie a été désactivée, car la session Windows s’est terminée ou a été déconnectée. Cela se produit lorsqu’un utilisateur distant se déconnecte, ou lorsque l’option « changer d’utilisateur » est utilisée localement.
+la duplication de sortie a été désactivée, car la session de Windows s’est terminée ou a été déconnectée. Cela se produit lorsqu’un utilisateur distant se déconnecte, ou lorsque l’option « changer d’utilisateur » est utilisée localement.
 
 
 </dt> </dl> </dd> <dt>
@@ -1651,7 +1651,7 @@ Indique une erreur dans un fichier d’entrée, tel qu’un fichier de polices.
 
 
 
-Indique une erreur provenant du code DirectWrite, qui n’est pas censée se produire, mais qui peut être récupérée en toute sécurité à partir de.
+indique une erreur provenant d’DirectWrite code, qui n’est pas censée se produire, mais qui peut être récupérée en toute sécurité à partir de.
 
 
 </dt> </dl> </dd> <dt>
@@ -1742,7 +1742,7 @@ Le cache de polices contient des données non valides.
 
 
 
-Un fichier de cache de polices correspond à une autre version de DirectWrite.
+Un fichier de cache de polices correspond à une version différente de DirectWrite.
 
 
 </dt> </dl> </dd> <dt>
@@ -2262,7 +2262,7 @@ La chaîne de requête contient un caractère non valide.
 
 
 
-Les codecs Windows ont reçu une erreur du système Win32.
+Windows Les codecs ont reçu une erreur du système Win32.
 
 
 </dt> </dl> </dd> <dt>

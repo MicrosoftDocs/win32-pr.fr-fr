@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre ServiceParameters COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235de1052df72e88e2093647928ed68ab67451cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 103b55269b700beaf5c85e3408e3597e63fb9140e4dc79fe4bb895ff6767bfc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129961"
 ---
 # <a name="serviceparameters"></a>ServiceParameters
 
@@ -21,11 +21,11 @@ Spécifie les paramètres de ligne de commande à passer à un objet installé p
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      ServiceParameters = parameter
+   {AppID_GUID}
+      ServiceParameters = parameter
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** . Cette chaîne est transmise au service sous la forme d’un argument de ligne de commande lors de son lancement.
 
@@ -39,9 +39,9 @@ Il s’agit d’une valeur de **reg \_ SZ** . Cette chaîne est transmise au ser
 [Inscription des serveurs COM](registering-com-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

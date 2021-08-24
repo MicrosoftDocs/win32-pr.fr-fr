@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d7c7f1a14aea58c06f03f3ba97e9c9a2f27985d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f49cfe563058f5bb15004a7e65940faada7f5d9282b6f19776e11bb7165db9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119298099"
 ---
 # <a name="ms-dfsr-stagingpath-attribute"></a>attribut ms-DFSR-StagingPath
 
@@ -43,7 +43,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,7 +56,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -77,7 +77,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -98,7 +98,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -119,7 +119,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
 | System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
+| Est de valeur unique       | True                                                             |
 | Est indexé             | Faux                                                            |
 | Dans le catalogue global      | Faux                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
@@ -131,7 +131,7 @@ Contient le chemin d’accès complet du répertoire intermédiaire.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-StagingPath** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

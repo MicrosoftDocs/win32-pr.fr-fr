@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’une connexion à un espace de noms WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce0e1caeef15709742704570c008012feeaf8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2587024d7f581cd28a8fdaf339db9567b17c509599c01aca0599b701186fb786
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412139"
 ---
 # <a name="creating-a-connection-to-a-wmi-namespace"></a>Création d’une connexion à un espace de noms WMI
 
@@ -58,7 +58,7 @@ La procédure suivante décrit comment créer une connexion à un espace de noms
 
     
 
-    -   Connectez-vous à WMI via un appel à la méthode [**IWbemLocator :: ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) .
+    -   Connecter à WMI via un appel à la méthode [**IWbemLocator :: ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) .
 
         La méthode [**ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver) retourne un proxy à une interface [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) qui utilise pour accéder à l’espace de noms WMI local ou distant spécifié dans votre appel à **ConnectServer**.
 

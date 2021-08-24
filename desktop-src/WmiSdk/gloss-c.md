@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: C (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 490ad6a54b09d9b8d12e508601e7484cc422b2e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59d064d45e4a9e52df0af6ca1e84755ec3a36e729f7565e50507b9a807728783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050837"
 ---
 # <a name="c-wmi"></a>C (WMI)
 

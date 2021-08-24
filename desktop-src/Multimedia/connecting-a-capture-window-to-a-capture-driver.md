@@ -14,12 +14,12 @@ keywords:
 - capDriverDisconnect macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c189ad3ea5631e269ffbe85f20a143b074486f22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bf74b5dc7cda0fdb73c8f9bd73f61de5ecefc157c20816c110d71e04bba6c196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144902"
 ---
 # <a name="connecting-a-capture-window-to-a-capture-driver"></a>Connexion d’une fenêtre de capture à un pilote de capture
 
@@ -35,9 +35,9 @@ Vous pouvez déconnecter une fenêtre de capture d’un pilote de capture à l�
 
 Quand une fenêtre de capture est détruite, tous les pilotes de périphérique de capture vidéo connectés sont automatiquement déconnectés.
 
- 
+ 
 
- 
+ 
 
 
 

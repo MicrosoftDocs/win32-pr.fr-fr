@@ -7,12 +7,12 @@ keywords:
 - VCM (Video Compression Manager), ouverture de compresseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b51e0221c495d5e2d0782f4e56e0778c0d2462
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1969748949aeb023f889bc651ccd028f19c3e18fe6cf1ba088b4f4ec29292f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144992"
 ---
 # <a name="compressor-and-decompressor-basics"></a>Concepts de base du compresseur et du décompresseur
 
@@ -27,11 +27,11 @@ En outre, votre application peut énumérer les compresseurs ou les décompresse
 > [!Note]  
 > L’en-tête de flux d’un fichier AVI contient des informations sur le type de flux et le gestionnaire spécifique pour ce flux. Dans l’en-tête de flux, les membres **fccType** et **fccHandler** identifient le type de flux et le gestionnaire de flux spécifiés pour le flux.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

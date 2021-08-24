@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: FormatMessageW, méthodes (ChString. h)'
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: a4f6be83c2cec8f3ae02cdbafac8a6c10ab72578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53f8a9663994ffbc6b50aebddc7d9877c17c1067a074bcdddbe2fc79bc525e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050937"
 ---
 # <a name="chstringformatmessagew-methods"></a>CHString :: FormatMessageW, méthodes
 
@@ -37,7 +37,7 @@ La méthode **FormatMessageW** surchargée met en forme une chaîne de message.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                                                                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                                                                                                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008<br/>                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>ChString. h (inclure FwCommon. h)</dt> </dl>                                                    |
 | Bibliothèque<br/>                  | <dl> <dt>FrameDyn. lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll ; </dt> <dt>FrameDyn.dll</dt> </dl> |

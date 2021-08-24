@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 46153dd152ed5a45a65de50ca214fbb24a6dc2ac
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3580eb86deba77bcc214cf69fbd21f65fee2735ef3a5ff73319b415d2c814d88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119538029"
 ---
 # <a name="rtlunicodetoutf8n-function"></a>RtlUnicodeToUTF8N fonction)
 
@@ -96,7 +96,7 @@ Spécifie le nombre d’octets dans la chaîne source Unicode vers laquelle poin
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que *UTF8StringActualByteCount* soit facultatif et peut avoir la **valeur null**, les appelants doivent fournir un stockage pour celui-ci, car la longueur reçue peut être utilisée pour déterminer si la conversion a réussi. Cette routine ne modifie pas la chaîne source. Elle retourne une chaîne UTF-8 terminée par le caractère NULL si le *UnicodeStringSource* donné a inclus un terminateur null et si le *UTF8StringMaxByteCount* donné n’a pas provoqué la troncation.
 
@@ -112,8 +112,8 @@ Les appelants de **RtlUnicodeToUTF8N** doivent être exécutés au niveau IRQL <
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>WDM. h</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 

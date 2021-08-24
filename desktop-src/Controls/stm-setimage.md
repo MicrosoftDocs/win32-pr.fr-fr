@@ -3,7 +3,7 @@ title: Message STM_SETIMAGE (winuser. h)
 description: Une application envoie un \_ message STM SETIMAGE pour associer une nouvelle image à un contrôle statique.
 ms.assetid: d3e7c5d4-f621-40f6-9558-7fb699e8b489
 keywords:
-- STM_SETIMAGE les contrôles de message Windows
+- STM_SETIMAGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c4f9c216d2e987727a1e2fa9bc6de12a823d52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d48cc8aeb5e28ac67a6bbe25636be1a2f6f9b89f225568be02e517e1ad04dc55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078453"
 ---
 # <a name="stm_setimage-message"></a>\_Message SETIMAGE STM
 
@@ -60,7 +60,7 @@ Handle de l’image à associer au contrôle statique.
 
 La valeur de retour est un handle vers l’image précédemment associée au contrôle statique, le cas échéant ; dans le cas contraire, la **valeur est null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour associer une image à un contrôle statique, le contrôle doit avoir le style approprié. Le tableau suivant indique le style requis pour chaque type d’image.
 
@@ -81,7 +81,7 @@ Pour associer une image à un contrôle statique, le contrôle doit avoir le sty
 >
 > Dans la version 6 des contrôles Microsoft Win32, une image bitmap transmise à un contrôle statique à l’aide du message **\_ SETIMAGE STM** était la même bitmap que celle retournée par un message **\_ SETIMAGE STM** suivant. Le client est chargé de supprimer toute bitmap envoyée à un contrôle statique.
 >
-> Avec Windows XP, si la bitmap transmise dans le message **STM \_ SETIMAGE** contient des pixels avec une valeur alpha différente de zéro, le contrôle statique prend une copie de l’image bitmap. Cette bitmap copiée est retournée par le prochain message **\_ SETIMAGE STM** . Le code client peut suivre indépendamment les bitmaps transmises au contrôle statique, mais s’il ne vérifie pas et ne libère pas les bitmaps retournées par les messages **STM \_ SETIMAGE** , les bitmaps sont divulguées.
+> avec Windows XP, si la bitmap transmise dans le message **STM \_ SETIMAGE** contient des pixels avec une valeur alpha différente de zéro, le contrôle statique prend une copie de l’image bitmap. Cette bitmap copiée est retournée par le prochain message **\_ SETIMAGE STM** . Le code client peut suivre indépendamment les bitmaps transmises au contrôle statique, mais s’il ne vérifie pas et ne libère pas les bitmaps retournées par les messages **STM \_ SETIMAGE** , les bitmaps sont divulguées.
 
  
 
@@ -91,8 +91,8 @@ Pour associer une image à un contrôle statique, le contrôle doit avoir le sty
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

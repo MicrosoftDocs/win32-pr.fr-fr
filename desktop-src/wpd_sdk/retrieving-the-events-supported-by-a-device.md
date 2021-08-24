@@ -4,12 +4,12 @@ ms.assetid: 951b300f-03de-4a3d-9356-e3a7b5b17fdb
 title: Récupération des événements pris en charge par un appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a542a34d0938c7e2ff86118818714f18b1224f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e0e24b5a4424d03c916ca73fd0192f9b6de0a80b6a2e2e67a129deb832f7bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119263119"
 ---
 # <a name="retrieving-the-events-supported-by-a-device"></a>Récupération des événements pris en charge par un appareil
 
@@ -28,7 +28,7 @@ Une application peut surveiller dix événements prédéfinis. Ils sont décrits
 | Objet supprimé              | Se produit après la suppression d’un objet de l’appareil.                                                                               |
 | Transfert d’objets demandé   | Indique qu’une demande a été effectuée pour transférer un objet.                                                                          |
 | Objet mis à jour              | Se produit après la mise à jour d’un objet ou de ses enfants. (Les clients connectés doivent ensuite mettre à jour leur vue de l’objet donné.) |
-| Format de stockage en cours  | Se produit lorsque le stockage de l’appareil est mis en forme.                                                                                     |
+| format de Stockage en cours  | Se produit lorsque le stockage de l’appareil est mis en forme.                                                                                     |
 
 
 

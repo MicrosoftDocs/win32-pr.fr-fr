@@ -4,12 +4,12 @@ ms.assetid: 80375170-d0d6-4371-abe3-078703e158b1
 title: Exemple DVApp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86653781d08921bf638e7798fb34f3a86e8d34a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 72067c04e108354c1706690bc71e8b339ad5af071c46cc0e4102ae10e9a3643f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148722"
 ---
 # <a name="dvapp-sample"></a>Exemple DVApp
 
@@ -19,7 +19,7 @@ Application de capture vidéo numérique (DV).
 
 Cet exemple montre comment créer différents types de graphiques de filtre pour contrôler les caméscopes DV. Il montre également comment effectuer des captures, des aperçus, des transmissions et des contrôles d’appareil avec un caméscope DV.
 
-### <a name="usage"></a>Utilisation
+### <a name="usage"></a>Usage
 
 L’application DVApp prend en charge les modes suivants :
 
@@ -31,12 +31,12 @@ L’application DVApp prend en charge les modes suivants :
 
 Les modes capture et transmission effectuent également une préversion. Chacun de ces modes n’a **pas** d’option d’aperçu, ce qui désactive la version préliminaire. La capture sans aperçu est plus efficace et peut réduire le nombre d’images supprimées.
 
-L’application démarre en mode aperçu. Pour sélectionner un autre mode, choisissez un mode dans le menu **mode du graphique** . Pour chaque mode, DVApp génère un graphique de filtre qui prend en charge les fonctionnalités de ce mode. Pour enregistrer le graphique en tant que fichier GraphEdit (. GRF), sélectionnez **enregistrer le graphique dans un fichier** dans le menu **fichier** . Quittez DVApp avant d’ouvrir le fichier dans GraphEdit.
+L’application démarre en mode aperçu. pour sélectionner un autre mode, choisissez un mode dans le menu **Graph mode** . Pour chaque mode, DVApp génère un graphique de filtre qui prend en charge les fonctionnalités de ce mode. pour enregistrer le graphique en tant que fichier GraphEdit (. grf), sélectionnez **enregistrer Graph dans un fichier** dans le menu **fichier** . Quittez DVApp avant d’ouvrir le fichier dans GraphEdit.
 
 Pour capturer dans un fichier :
 
 1.  Dans le menu **fichier** , choisissez **définir le fichier de sortie** et entrez un nom de fichier.
-2.  Dans le menu **mode du graphique** , sélectionnez un mode *DV vers fichier* (tapez 1 ou tapez 2, avec ou sans aperçu).
+2.  dans le menu **Graph mode** , sélectionnez un mode *DV vers fichier* (tapez 1 ou tapez 2, avec ou sans aperçu).
 3.  Cliquez sur **Enregistrer**.
 4.  Si le caméscope est en mode VTR, cliquez sur **lire**.
 5.  Pour arrêter la capture, cliquez sur **arrêter**.
@@ -44,7 +44,7 @@ Pour capturer dans un fichier :
 Pour transmettre un fichier au caméscope, procédez comme suit :
 
 1.  Dans le menu **fichier** , cliquez sur **définir le fichier d’entrée** et sélectionnez un fichier DV. Le fichier doit correspondre au mode sélectionné (type 1 ou type 2).
-2.  Dans le menu **mode du graphique** , sélectionnez un fichier en mode *DV* (tapez 1 ou tapez 2, avec ou sans aperçu).
+2.  dans le menu du **mode Graph** , sélectionnez un fichier en mode *DV* (tapez 1 ou tapez 2, avec ou sans aperçu).
 3.  Cliquez sur **Lire**.
 4.  Pour enregistrer les données sur bande, cliquez sur **Enregistrer**.
 5.  Pour arrêter la transmission, cliquez sur **arrêter**.
@@ -81,9 +81,9 @@ L’exemple d’application n’effectue pas de capture de précision de trame. 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ \\ \\ \\ capture DirectShow \\ DVApp.
+cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ \\ \\ DirectShow \\ capturer les \\ DVApp.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -92,10 +92,10 @@ Cet exemple est installé sous le chemin d’accès suivant : exemples *\[ raci
 [Contrôle d’un caméscope DV](controlling-a-dv-camcorder.md)
 </dt> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

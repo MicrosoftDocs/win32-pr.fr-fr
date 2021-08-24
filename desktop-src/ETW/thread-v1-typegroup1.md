@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 13c419b417b614eb9022d1cb7c09a84ca705b3dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90d8f4afe9d78cc774dea3159a728ccc6d4db52314e692594d026f7e4fe2161c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069439"
 ---
 # <a name="thread_v1_typegroup1-class"></a>\_ \_ Classe TypeGroup1 de thread v1
 
@@ -212,7 +212,7 @@ Adresse de début de la fonction à exécuter par ce thread.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

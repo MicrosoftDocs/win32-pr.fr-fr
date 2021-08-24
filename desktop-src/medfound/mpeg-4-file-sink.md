@@ -4,12 +4,12 @@ ms.assetid: 069b8e72-d081-466e-ac8d-c3f81c8a6f35
 title: Récepteur de fichiers MPEG-4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c27517463bca7dfa88fdbc09d77f7a6512c896d
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 92e0175a5c21cc9f7c0186f70b37a5f94f5bf12151e606a2a441b4c75919d7e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106538231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102109"
 ---
 # <a name="mpeg-4-file-sink"></a>Récepteur de fichiers MPEG-4
 
@@ -97,12 +97,12 @@ Le récepteur de fichiers MPEG-4 crée la variante MPEG-4 de la zone de descript
 
 ## <a name="limitations"></a>Limites
 
--   La taille maximale du fichier créé est de 4 Go. Dans Windows 8, les fichiers de taille supérieure à 4 GBGB sont pris en charge.
+-   La taille maximale du fichier créé est de 4 Go. dans Windows 8, les fichiers de taille supérieure à 4 GBGB sont pris en charge.
 -   Le récepteur de fichiers MPEG-4 ne prend pas en charge les listes de modifications (zones « Edts » et « Elst »).
 
-## <a name="windows-8-updates-to-mpeg-4-source-and-sink"></a>Mises à jour de Windows 8 pour la source et le récepteur MPEG-4
+## <a name="windows-8-updates-to-mpeg-4-source-and-sink"></a>Windows 8 les mises à jour de la source et du récepteur MPEG-4
 
--   Prise en charge de la lecture et de l’écriture de rotation ajoutée dans la source et le récepteur MPEG-4 Windows 8. Cela n’est pas pris en charge dans la source et le récepteur Windows 7 MPEG-4.
+-   prise en charge de la lecture et de l’écriture de Rotation ajoutée dans Windows 8 source et le récepteur MPEG-4. cela n’est pas pris en charge dans la source et le récepteur Windows 7 MPEG-4.
 
     La source MPEG-4 lit l’angle de rotation pour une piste vidéo active en tant que somme de l’angle de rotation à partir de’mvhd’et de’tkhd'.
 
@@ -112,16 +112,16 @@ Le récepteur de fichiers MPEG-4 crée la variante MPEG-4 de la zone de descript
 
     IPropertyStore écrit l’angle de rotation uniquement pour la première piste vidéo dans « tkhd » une fois que l’angle de rotation est ajusté en fonction de l’angle de rotation dans « mvhd », s’il existe.
 
--   Les fragments de film (« moof ») sont pris en charge dans la source et le récepteur MPEG-4 de Windows 8, mais « mfra » n’est pas.
--   H. 263 est pris en charge dans la source MPEG-4 de Windows 8.
+-   les fragments de film (« moof ») sont pris en charge dans Windows 8 source et le récepteur MPEG-4, mais « mfra » n’est pas.
+-   H. 263 est pris en charge dans Windows 8 source MPEG-4.
 
     La source MPEG-4 mappe désormais deux FourCC de « H263 » et 263» au format de fichier MPEG-4 sur le type de média de **MFVideoFormat \_ H263**.
 
--   Plus de prise en charge de FourCC ajoutée pour MJPEG dans la source MPEG-4 Windows 8.
+-   plus de prise en charge de fourcc ajoutée pour MJPEG dans Windows 8 source MPEG-4.
 
     Le mappage source MPEG-4 foucc de’DMB1 'au type de média de **MFVideoFormat \_ MJPG**.
 
--   La prise en charge des métadonnées Furigana a été ajoutée dans la source MPEG-4 Windows 8.
+-   prise en charge des métadonnées Furigana ajoutées dans Windows 8 source MPEG-4.
 
     La source MPEG-4 lit les métadonnées Furigana à partir de « SOAL », « décoller », « SOAA », « sonm » et « SOCO ». IPropertyStore lit les métadonnées Furignana à travers l’ensemble des PKEYs correspondantes.
 
@@ -131,21 +131,21 @@ Le récepteur de fichiers MPEG-4 crée la variante MPEG-4 de la zone de descript
 
     | Champ                                | Clé de propriété                         | ID de balise/zone |
     |--------------------------------------|--------------------------------------|------------|
-    | System. Music. AlbumTitleSortOverride  | AlbumTitleSortOverride de la \_ musique \_  | soal       |
-    | System. Music. ArtistSortOverride      | ArtistSortOverride de la \_ musique \_      | soar       |
-    | System. Music. AlbumArtistSortOverride | AlbumArtistSortOverride de la \_ musique \_ | soaa       |
+    | Requise. Musique. AlbumTitleSortOverride  | Musique de la \_ \_ AlbumTitleSortOverride  | soal       |
+    | Requise. Musique. ArtistSortOverride      | Musique de la \_ \_ ArtistSortOverride      | Tu       |
+    | Requise. Musique. AlbumArtistSortOverride | Musique de la \_ \_ AlbumArtistSortOverride | soaa       |
     | System. TitleSortOverride             | TitleSortOverride de la \_             | sonm       |
-    | System. Music. ComposerSortOverride    | ComposerSortOverride de la \_ musique \_    | soco       |
+    | Requise. Musique. ComposerSortOverride    | Musique de la \_ \_ ComposerSortOverride    | soco       |
 
     
 
      
 
--   Prise en charge stéréo 3D Atom ajoutée dans la source MPEG-4 Windows 8.
+-   prise en charge stéréo 3d atom ajoutée dans Windows 8 source MPEG-4.
 
--   AC3 et DD + prennent en charge ajoutés dans la source et le récepteur MPEG-4 Windows 8.
--   Les fichiers dont la taille est supérieure à 4 Go sont pris en charge dans le récepteur MPEG-4 Windows 8 pour MP4 non fragmenté.
--   Le nettoyage a été optimisé dans la source MPEG-4 de Windows 8.
+-   AC3 et DD + prennent en charge ajoutés dans Windows 8 source et le récepteur MPEG-4.
+-   les fichiers dont la taille est supérieure à 4 go sont pris en charge dans Windows 8 récepteur MPEG-4 pour MP4 non fragmenté.
+-   le nettoyage a été optimisé dans Windows 8 source MPEG-4.
 
     Pour réduire la latence, les informations relatives aux deux images clés les plus proches pour une position de recherche particulière sont exposées par le biais de [**IMFSeekInfo :: GetNearestKeyFrames**](/windows/desktop/api/mfidl/nf-mfidl-imfseekinfo-getnearestkeyframes). Étant donné que l’image clé n’a pas de frames dépendants, elle présente le frame après le décodage d’une seule trame. Utilisez [**IMFGetService :: GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) pour obtenir cette interface via la source du média, le pipeline ou l’application.
 
@@ -153,7 +153,7 @@ Le récepteur de fichiers MPEG-4 crée la variante MPEG-4 de la zone de descript
 
 -   SPS et PPS peuvent être stockés dans des exemples de données dans un récepteur MPEG-4.
 
-    [MF \_ L' \_ attribut \_ passthrough MPEG4SINK SPSPPS](mf-mpeg4sink-spspps-passthrough.md) sur le récepteur MPEG-4 est défini pour permettre l’enregistrement des SP et des PPS avec des exemples d’entrée (données vidéo H. 264). Les clips MP4 générés sont capables d’être lus par la source MPEG-4 de Windows 7 et d’autres.
+    [MF \_ L' \_ attribut \_ passthrough MPEG4SINK SPSPPS](mf-mpeg4sink-spspps-passthrough.md) sur le récepteur MPEG-4 est défini pour permettre l’enregistrement des SP et des PPS avec des exemples d’entrée (données vidéo H. 264). les clips mp4 générés sont en mesure de lire Windows 7 MPEG-4 source et d’autres.
 
 -   SPS et PPS peuvent être extraits des exemples d’entrée du récepteur MPEG-4.
 
@@ -172,8 +172,8 @@ Le récepteur de fichiers MPEG-4 crée la variante MPEG-4 de la zone de descript
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

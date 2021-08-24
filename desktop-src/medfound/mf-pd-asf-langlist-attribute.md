@@ -4,12 +4,12 @@ ms.assetid: 07b8a991-b392-47c1-a6d7-a1f5dcc82e5c
 title: Attribut MF_PD_ASF_LANGLIST (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecac5eac178c7fb315e0ca4cfdbd540a27eeac28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba22004001df2ba6be8fb7a173a3ea9bed1b0a73863ae111e61d36efa853e079
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119103701"
 ---
 # <a name="mf_pd_asf_langlist-attribute"></a>\_ \_ Attribut LANGLIST MF PD ASF \_
 
@@ -19,7 +19,7 @@ Spécifie une liste d’identificateurs de langue qui spécifie les langues cont
 
 Tableau d’octets
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -29,7 +29,7 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Champ de l’objet de liste de langues | Type de données    | Taille    | Description                            |
 |----------------------------|--------------|---------|----------------------------------------|
-| Nombre d’enregistrements de l’ID de langue  | **GRANDE**    | 4 octets | Nombre de langues                    |
+| Nombre d’enregistrements de l’ID de langue  | **DWORD**    | 4 octets | Nombre de langues                    |
 | Enregistrements d’ID de langue        | **POIDS**\[\] | Variable  | Tableau de chaînes de langage (voir ci-dessous). |
 
 
@@ -42,7 +42,7 @@ Le premier **DWORD** est le nombre de langages, suivi d’un tableau de chaînes
 
 | Champ de l’objet de liste de langues | Type de données     | Taille    | Description                                                                               |
 |----------------------------|---------------|---------|-------------------------------------------------------------------------------------------|
-| Longueur de l’ID de langue         | **GRANDE**     | 4 octets | Longueur de la chaîne en octets, y compris la taille du caractère **null** de fin. |
+| Longueur de l’ID de langue         | **DWORD**     | 4 octets | Longueur de la chaîne en octets, y compris la taille du caractère **null** de fin. |
 | ID de langue                | **WCHAR**\[\] | Variable  | Chaîne terminée par le caractère null qui contient le nom du langage RFC 1766.                           |
 
 
@@ -203,8 +203,8 @@ private:
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

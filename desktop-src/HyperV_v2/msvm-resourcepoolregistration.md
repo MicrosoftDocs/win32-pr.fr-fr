@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6eecfefc8c542eeb3a06c509533060f8036d447e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbcb0f2e3d5b0dfad884572c90f889d28e47fcffaf328b39d78f02d4c2baa3a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119535469"
 ---
 # <a name="msvm_resourcepoolregistration-class"></a>MSVM \_ ResourcePoolRegistration, classe
 
@@ -76,7 +76,7 @@ Référence à une instance de qui décrit un type de ressource pris en charge p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ ResourcePoolRegistration** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -86,8 +86,8 @@ L’accès à la classe **MSVM \_ ResourcePoolRegistration** peut être limité 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 8.1<br/>                                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2012 R2<br/>                                                                       |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |

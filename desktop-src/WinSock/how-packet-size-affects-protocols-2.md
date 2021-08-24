@@ -4,12 +4,12 @@ ms.assetid: 7f0643b8-6bb2-4dbb-b306-d9b2e0d0e03c
 title: Impact de la taille des paquets sur les protocoles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c778ee6c75cd558d19cdf1cbb76052065e03c427
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa654e8884f56ae8079375fa32764ad240f0c870229d07e50623f6e18e42958b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051637"
 ---
 # <a name="how-packet-size-affects-protocols"></a>Impact de la taille des paquets sur les protocoles
 
@@ -40,7 +40,7 @@ SPXII comprend une grande négociation de paquets Internet pour maintenir une ta
 
 
 
-| Protocol     | Multimédia      | Type        | Taille des paquets de données |
+| Protocol     | Média      | Type        | Taille des paquets de données |
 |--------------|------------|-------------|------------------|
 | \_IPX NSPROTO | Ethernet   | Ethernet II |                  |
 |              |            | 802.3       |                  |

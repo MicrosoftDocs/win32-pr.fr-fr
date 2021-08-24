@@ -1,19 +1,19 @@
 ---
-title: Journalisation (plateforme de filtrage Windows)
-description: La plateforme de filtrage Windows (WFP) fournit la journalisation des rejets de paquets et des échecs IKE/AuthIP.
+title: journalisation (Windows la plateforme de filtrage)
+description: Windows La plateforme de filtrage (WFP) fournit la journalisation des rejets de paquets et des échecs IKE/AuthIP.
 ms.assetid: 607b7664-6be4-4ae6-991b-58ac9175405a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a27868c76a643a8e1b7b478152c100a2026bfc20
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1500be04837126e6907b663e4496c58c05380d313a1465b9c8db05b5ea39d832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106512539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068909"
 ---
-# <a name="logging-windows-filtering-platform"></a>Journalisation (plateforme de filtrage Windows)
+# <a name="logging-windows-filtering-platform"></a>journalisation (Windows la plateforme de filtrage)
 
-La plateforme de filtrage Windows (WFP) fournit la journalisation des rejets de paquets et des échecs IKE/AuthIP.
+la plateforme de filtrage de Windows (WFP) fournit la journalisation des rejets de paquets et des échecs IKE/AuthIP.
 
 Les événements journalisés sont définis dans le type énuméré [**FWPM \_ NET \_ Event \_ type**](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_net_event_type) et sont les suivants.
 

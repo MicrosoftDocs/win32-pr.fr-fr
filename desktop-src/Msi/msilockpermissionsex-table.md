@@ -4,12 +4,12 @@ ms.assetid: c642f02d-07fa-463f-8151-769c28a71a5c
 title: Table MsiLockPermissionsEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63d7c63e27d7a9c390e6015eb0ebe5f663de5b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bff3d97bc6cd6003470b1be7d1feb20b385701d332ba852a660aa4ff6c57271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119294799"
 ---
 # <a name="msilockpermissionsex-table"></a>Table MsiLockPermissionsEx
 
@@ -17,7 +17,7 @@ La table MsiLockPermissionsEx peut être utilisée pour sécuriser les services,
 
 Un package ne doit pas contenir à la fois la table MsiLockPermissionsEx et la [table LockPermissions](lockpermissions-table.md).
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Ce tableau est recommandé pour les packages destinés à une installation avec Windows Installer 5,0 ou version ultérieure.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. ce tableau est recommandé pour les packages destinés à une installation avec Windows Installer 5,0 ou version ultérieure.
 
 La table MsiLockPermissionsEx contient les colonnes suivantes.
 
@@ -27,7 +27,7 @@ La table MsiLockPermissionsEx contient les colonnes suivantes.
 |----------------------|--------------------------------------------|-----|----------|
 | MsiLockPermissionsEx | [Text](text.md)                           | O   | N        |
 | LockObject           | [Identificateur](identifier.md)               | N   | N        |
-| Table de charge de travail                | [Text](text.md)                           | N   | N        |
+| Table                | [Text](text.md)                           | N   | N        |
 | SDDLText             | [FormattedSDDLText](formattedsddltext.md) | N   | N        |
 | Condition            | [Condition](condition.md)                 | N   | O        |
 
@@ -76,21 +76,21 @@ Cette colonne contient une expression conditionnelle utilisée pour déterminer 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la sécurisation des services, des fichiers, des clés de Registre et des dossiers créés, consultez [sécurisation des ressources](securing-resources-.md).
 
 Utilisez la table MsiLockPermissionsEx pour sécuriser les objets d’un compte d’utilisateur en cours de création au cours de l’installation. Le compte d’utilisateur doit déjà exister lorsque l’installation sécurise l’objet. Créez le compte d’utilisateur avant d’installer le fichier, la clé de Registre, le dossier ou le service sécurisé.
 
-Si une paire LockObject et table dans cette table possède plusieurs expressions conditionnelles qui ont la valeur true, l’installation échoue et Windows Installer retourne un message d’erreur 1942.
+si une paire LockObject et Table dans cette table possède plusieurs expressions conditionnelles qui ont la valeur true, l’installation échoue et Windows Installer retourne un message d’erreur 1942.
 
-Si la chaîne [FormattedSDDLText](formattedsddltext.md) dans le champ SDDLText ne peut pas être résolue en une chaîne SDDL valide, l’installation échoue et Windows Installer retourne un message d’erreur 1943.
+si la chaîne [FormattedSDDLText](formattedsddltext.md) dans le champ SDDLText ne peut pas être résolue en une chaîne SDDL valide, l’installation échoue et Windows Installer retourne un message d’erreur 1943.
 
-Si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur un fichier ou un dossier, l’installation échoue et Windows Installer renvoie un message d’erreur 1926.
+si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur un fichier ou un dossier, l’installation échoue et Windows Installer renvoie un message d’erreur 1926.
 
-Si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur une clé de Registre, l’installation échoue et Windows Installer renvoie un message d’erreur 1401.
+si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur une clé de registre, l’installation échoue et Windows Installer renvoie un message d’erreur 1401.
 
-Si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur un service, l’installation échoue et Windows Installer renvoie un message d’erreur 1944.
+si l’utilisateur ne dispose pas de privilèges suffisants pour définir le descripteur de sécurité spécifié par le champ SDDLText sur un service, l’installation échoue et Windows Installer renvoie un message d’erreur 1944.
 
 ## <a name="validation"></a>Validation
 

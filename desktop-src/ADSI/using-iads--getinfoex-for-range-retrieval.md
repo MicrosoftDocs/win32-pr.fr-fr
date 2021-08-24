@@ -8,12 +8,12 @@ keywords:
 - IADs GetInfoEx ADSI, utilisation pour la récupération de plage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50681facd811adf26a89754fecb5490ee059eed6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 218f6cf8c0b0346a5b5554f870f5729bd55f8b221a3ebe0e425305333ee00cf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082193"
 ---
 # <a name="using-iadsgetinfoex-for-range-retrieval"></a>Utilisation de IADs :: GetInfoEx pour la récupération de plages
 
@@ -209,9 +209,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

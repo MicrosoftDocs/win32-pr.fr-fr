@@ -4,12 +4,12 @@ ms.assetid: 00E87398-2584-48B0-9618-87B057A12D0C
 title: Attribut MFT_ENUM_ADAPTER_LUID (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 835f254da5ed8cc16da24048e4b9623efdbff21b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0f273d8479a0fcffd48d5482d0a24415994248602fcf44a52d70386d008b431
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102159"
 ---
 # <a name="mft_enum_adapter_luid-attribute"></a>\_Attribut LUID de l’adaptateur d’énumération MFT \_ \_
 
@@ -25,8 +25,8 @@ Spécifie l’identificateur unique d’une carte vidéo. Utilisez cet attribut 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

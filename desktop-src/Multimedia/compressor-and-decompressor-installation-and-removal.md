@@ -9,16 +9,16 @@ keywords:
 - ICRemove fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd65f0fc06dc1d5e90cb136f5cf4ea429c220d77
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 82a34f1818f9a60226c0f3cead8186ae3fa163ebe1782c0c83e7cfb5b633c1b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144979"
 ---
 # <a name="compressor-and-decompressor-installation-and-removal"></a>Installation et suppression du compresseur et du décompresseur
 
-Une application peut utiliser des compresseurs et des décompresseurs qui sont déjà installés sur un système exécutant le système d’exploitation Microsoft Windows. Une application peut également installer des compresseurs et des décompresseurs pour des utilisations générales ou spéciales. La plupart des applications n’ont pas besoin d’installer ou de supprimer des compresseurs ou des décompresseurs, car ils sont généralement installés par un programme d’installation. Toutefois, une application peut installer un compresseur directement ou installer une fonction en tant que compresseur.
+une application peut utiliser des compresseurs et des décompresseurs qui sont déjà installés sur un système exécutant le système d’exploitation Microsoft Windows. Une application peut également installer des compresseurs et des décompresseurs pour des utilisations générales ou spéciales. La plupart des applications n’ont pas besoin d’installer ou de supprimer des compresseurs ou des décompresseurs, car ils sont généralement installés par un programme d’installation. Toutefois, une application peut installer un compresseur directement ou installer une fonction en tant que compresseur.
 
 Une application peut installer un compresseur ou un décompresseur (ou une fonction utilisée comme compresseur ou décompresseur) à l’aide de la fonction [**ICInstall**](/windows/desktop/api/Vfw/nf-vfw-icinstall) . Cette fonction crée une entrée dans le registre identifiant le compresseur ou le décompresseur. Votre application ou une autre application peut effectuer des recherches dans le registre pour déterminer si le système contient un compresseur ou un décompresseur adapté à ses données. Utilisez **ICInstall** pour installer tous les pilotes de compression et de décompression.
 
@@ -35,8 +35,8 @@ La structure interne d’une fonction utilisée comme compresseur ou décompress
 > [!Note]  
 > Une application qui installe une fonction en tant que compresseur ou décompresseur doit supprimer la fonction avant la fermeture de l’application afin que d’autres applications n’essaient pas d’utiliser la fonction. Lors de la suppression d’une fonction, l’application doit l’identifier avec le code à quatre caractères utilisé pour l’installer.
 
- 
+ 
 
- 
+ 
 
- 
+ 

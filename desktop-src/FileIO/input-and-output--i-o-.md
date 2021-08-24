@@ -1,20 +1,20 @@
 ---
-description: Windows offre la possibilité d’effectuer des opérations d’entrée et de sortie (e/s) sur les composants de stockage situés sur des ordinateurs locaux et distants.
+description: Windows permet d’effectuer des opérations d’entrée et de sortie (e/s) sur des composants de stockage situés sur des ordinateurs locaux et distants.
 ms.assetid: 338869fa-d246-4c94-8ee8-afde6470acaf
 title: Entrée et sortie (e/s)
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: 729c4eac6ce074c9d2d34e96d313a780058922e2
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: adbf2d512d99fbf38c51bb8887e2cbc51f5d81a5f6a17bdeef21be189fc8a053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106540957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068689"
 ---
 # <a name="input-and-output-io"></a>Entrée et sortie (e/s)
 
-Windows offre la possibilité d’effectuer des opérations d’entrée et de sortie (e/s) sur les composants de stockage situés sur des ordinateurs locaux et distants.
+Windows permet d’effectuer des opérations d’entrée et de sortie (e/s) sur des composants de stockage situés sur des ordinateurs locaux et distants.
 
 Consultez également [les exemples d’applications liées aux e/s](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winbase/io).
 

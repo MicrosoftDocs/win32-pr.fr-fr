@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5103e90ec84a20ff4c04d9036a744919d9b1fd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 613acaabc017b9e673d2cba6a64f84db054a4cdc0d73a0639fcf8455edff8298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104101281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119528829"
 ---
 # <a name="fragment"></a>Fragment
 
@@ -90,7 +90,7 @@ N’envoyez pas cet en-tête si le type d’encodage est Identity. Le serveur BI
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fragment est une plage d’octets envoyés dans le corps du paquet. Le client envoie les fragments dans l’ordre séquentiel, en commençant par le décalage zéro ; le serveur n’effectue pas le suivi des plages non contiguës. Si le client envoie des plages non contiguës, le serveur renvoie un code de retour HTTP 416 (satisfaisante) dans l' [**accusé de réception de**](ack-for-fragment.md) la réponse du fragment.
 
@@ -109,9 +109,9 @@ Les en-têtes Content-*xxxx* sont des en-têtes HTTP 1,1 standard. Pour plus d�
 [**Créer une session**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

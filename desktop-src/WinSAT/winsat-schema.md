@@ -1,21 +1,21 @@
 ---
 title: Schéma WinSAT
-description: Vous pouvez utiliser le schéma Windows System Assessment Tool (WinSAT) pour déterminer les requêtes XPath valides à exécuter.
+description: vous pouvez utiliser le schéma de l’outil d’évaluation du système (winsat) Windows pour déterminer les requêtes XPath valides à exécuter.
 ms.assetid: da497f3b-f5a2-401e-8230-937362ecf4f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e18cd775d8dab59bbe9b7f23392242f7eca1e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 57e3096e9ad514740c409933ce60418def7e5704d0e284b2ad83ef6502fdee6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412219"
 ---
 # <a name="winsat-schema"></a>Schéma WinSAT
 
 \[Les énumérations WinSAT peuvent être modifiées ou non disponibles pour les mises en production après Windows 8.1.\]
 
-Vous pouvez utiliser le schéma Windows System Assessment Tool (WinSAT) pour déterminer les requêtes XPath valides à exécuter. Pour exécuter une requête XPath, consultez l’une des méthodes suivantes :
+vous pouvez utiliser le schéma de l’outil d’évaluation du système (winsat) Windows pour déterminer les requêtes XPath valides à exécuter. Pour exécuter une requête XPath, consultez l’une des méthodes suivantes :
 
 -   [**IQueryAllWinSATAssessments :: obtient \_ AllXML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryallwinsatassessments-get_allxml)
 -   [**IQueryRecentWinSATAssessment :: obtient \_ XML**](/windows/desktop/api/Winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml)
@@ -1235,9 +1235,9 @@ Voici le schéma WinSAT que vous pouvez utiliser pour déterminer le XPath.
 
 
 
- 
+ 
 
- 
+ 
 
 
 

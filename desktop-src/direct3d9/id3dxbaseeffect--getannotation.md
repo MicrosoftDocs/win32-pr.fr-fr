@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: aad446e436478c8c7673a1919879983437fd9602
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c35deeb04e7cf21be429976c102fdf7c3126b1691b3f63725fc994ef79f7ad42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279009"
 ---
 # <a name="id3dxbaseeffectgetannotation-method"></a>ID3DXBaseEffect :: GetAnnotation, méthode
 
@@ -65,7 +65,7 @@ Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne le handle de l’annotation spécifiée, ou **null** si l’index n’est pas valide. Consultez [Handles (Direct3D 9)](handles.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les annotations sont des données spécifiques à l’utilisateur qui peuvent être attachées à n’importe quelle technique, passe ou paramètre. Consultez [Handles (Direct3D 9)](handles.md).
 

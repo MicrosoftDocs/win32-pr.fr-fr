@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d37551293f5444e5194083bb6c9a8f620f2ee6bd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 42238d1571a15632b8b436c646d0c5697b8360b03a46db67dbf7ddd2dc36a1e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081553"
 ---
 # <a name="msrassavedframedipaddress-attribute"></a>attribut msRASSavedFramedIPAddress
 
@@ -35,7 +35,7 @@ L’attribut **msRASSavedFramedIPAddress** est utilisé en interne. Ne modifiez 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1190              |
 | System-ID-GUID    | db0c90c6-c1f2-11d1-bbc5-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -44,7 +44,7 @@ L’attribut **msRASSavedFramedIPAddress** est utilisé en interne. Ne modifiez 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

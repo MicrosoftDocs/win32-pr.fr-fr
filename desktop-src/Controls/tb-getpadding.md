@@ -3,7 +3,7 @@ title: Message TB_GETPADDING (commctrl. h)
 description: Récupère le remplissage pour un contrôle de barre d’outils.
 ms.assetid: dde0f44d-5d22-4cab-a7f8-48d84b8995d3
 keywords:
-- TB_GETPADDING les contrôles de message Windows
+- TB_GETPADDING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b15babf2fd5d97377991d1827ea8947e9d794600
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f342e3322c0db60f46b0de353c2bbd2f6abe28717aa8ee23db8a3a9f26473113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078323"
 ---
 # <a name="tb_getpadding-message"></a>TO \_ GETPADDING message
 
@@ -45,8 +45,8 @@ Retourne une valeur **DWORD** qui contient la marge intérieure horizontale dans
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

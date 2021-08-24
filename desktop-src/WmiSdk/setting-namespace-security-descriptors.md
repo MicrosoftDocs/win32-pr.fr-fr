@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Définition des descripteurs de sécurité des espaces de noms
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877b1dfc0ae1a9467b1beb7d169bfa31fdf7395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccc112376a960c3760bc51450cc30b8da3a38c24fa52e985321b2662ae319a37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050297"
 ---
 # <a name="setting-namespace-security-descriptors"></a>Définition des descripteurs de sécurité des espaces de noms
 
@@ -68,14 +68,14 @@ Obtient le descripteur de sécurité qui contrôle l’accès à l’espace de n
 <span id="Get9XUserList"></span><span id="get9xuserlist"></span><span id="GET9XUSERLIST"></span>[**Get9XUserList**](--systemsecurity-get9xuserlist.md)
 </dt> <dd>
 
-Obtient les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès via les descripteurs de sécurité Windows n’est pas disponible.
+obtient les droits d’accès à distance pour une liste d’utilisateurs individuels sur les ordinateurs qui exécutent des versions obsolètes de Windows, où le contrôle d’accès via Windows descripteurs de sécurité n’est pas disponible.
 
 </dd> <dt>
 
 <span id="Set9XUserList"></span><span id="set9xuserlist"></span><span id="SET9XUSERLIST"></span>[**Set9XUserList**](--systemsecurity-set9xuserlist.md)
 </dt> <dd>
 
-Définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès via les descripteurs de sécurité Windows n’est pas disponible.
+définit les droits d’accès à distance pour une liste d’utilisateurs individuels sur des ordinateurs exécutant des versions obsolètes de Windows, où le contrôle d’accès via Windows descripteurs de sécurité n’est pas disponible.
 
 </dd> </dl>
 
@@ -83,7 +83,7 @@ Si vous écrivez des scripts, utilisez [**GetSecurityDescriptor**](getsecurityde
 
 Si vous programmez en C++, vous pouvez manipuler le descripteur de sécurité binaire à l’aide du [langage SDDL (Security Descriptor Definition Language)](/windows/desktop/SecAuthZ/security-descriptor-definition-language)et des méthodes de conversion [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) et [**convertstringsecuritydescriptortosecuritydescriptor a**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).
 
-Sachez que, à partir de Windows Vista, le contrôle de compte d’utilisateur (UAC, [User Account Control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) ) affecte l’accès aux données WMI et ce qui peut être configuré avec le [*contrôle WMI*](gloss-w.md). Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
+n’oubliez pas que, à partir de Windows Vista, le contrôle de compte d’utilisateur (UAC, [User Account control](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) ) affecte l’accès aux données wmi et ce qui peut être configuré avec le [*contrôle wmi*](gloss-w.md). Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

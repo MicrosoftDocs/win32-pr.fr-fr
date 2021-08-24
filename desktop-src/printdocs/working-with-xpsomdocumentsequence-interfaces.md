@@ -4,12 +4,12 @@ ms.assetid: e7d01f21-0b5d-4385-89e8-14021800e234
 title: Utilisation des interfaces IXpsOMDocumentSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f108cbadf735b334f758102915abbda239a4e974
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: edac74809de63c1ae4e688bb99214d11b091ee4e877c921e9280abc9c6868121
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098661"
 ---
 # <a name="working-with-ixpsomdocumentsequence-interfaces"></a>Utilisation des interfaces IXpsOMDocumentSequence
 

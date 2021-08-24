@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8086d60d0936dcf56738afadea4244a5fff758b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ffebc5907072f7fdfc539bbc2b06bf1e4ad9fb667826c6c3c5a96121b106326e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067339"
 ---
 # <a name="defaultvtable-attribute"></a>defaultvtable (attribut)
 
@@ -59,7 +59,7 @@ Liste des interfaces pour la classe.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une interface vtable par défaut ne peut pas être une dispinterface ; il doit s’agir d’une interface double ou vtable ou d’une interface. Si l’interface est une interface double, les récepteurs peuvent supposer qu’ils recevront des événements via vtable.
 
@@ -127,6 +127,6 @@ interface IFormEvents: IDispatch
 [**universel**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

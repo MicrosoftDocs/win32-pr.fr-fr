@@ -1,5 +1,5 @@
 ---
-description: Définit le numéro de réseau virtuel IPX sur le système de l’ordinateur cible.
+description: définit Exchange le numéro de réseau virtuel (IPX) du réseau virtuel sur le système de l’ordinateur cible.
 ms.assetid: 52064250-b94f-4dc0-bf1a-8601cd135a90
 ms.tgt_platform: multiple
 title: Méthode SetIPXVirtualNetworkNumber de la classe Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: ed6e6802a17ef6ec4393d2ae0c5ec43f0e21d247
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 37af763450eab2fdba373fe21bfde5c0b4e1e38fda1f42aff59c425ba6b10000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079773"
 ---
 # <a name="setipxvirtualnetworknumber-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetIPXVirtualNetworkNumber de la \_ classe Win32 NetworkAdapterConfiguration
 
-Définit le numéro de réseau virtuel IPX sur le système de l’ordinateur cible. Windows 2000 et Windows NT 3,51 ou version ultérieure utilisent un numéro de réseau interne pour le routage interne. Le numéro de réseau interne est également appelé « numéro de réseau virtuel ». Il identifie de façon unique le système informatique sur le réseau. La méthode retourne une valeur entière qui peut être interprétée comme suit :
+définit Exchange le numéro de réseau virtuel (IPX) du réseau virtuel sur le système de l’ordinateur cible. Windows 2000 et Windows NT 3,51 ou version ultérieure utilise un numéro de réseau interne pour le routage interne. Le numéro de réseau interne est également appelé « numéro de réseau virtuel ». Il identifie de façon unique le système informatique sur le réseau. La méthode retourne une valeur entière qui peut être interprétée comme suit :
 
 ## <a name="syntax"></a>Syntaxe
 

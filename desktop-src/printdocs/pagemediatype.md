@@ -4,12 +4,12 @@ ms.assetid: 29d7ae65-9dd3-4a29-8e5e-79708638a3bb
 title: PageMediaType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3ca2299d9358e606648263ea5861f46c9be6419
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 50e7da5d4cdad5b17324e5e628b5b9e8d0cac1c0ebfaded11379c836d5245a0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098843"
 ---
 # <a name="pagemediatype"></a>PageMediaType
 
@@ -27,7 +27,7 @@ Décrit les options de MediaType et les caractéristiques de chaque option.
 
 | Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Composant<br/> |
+| Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

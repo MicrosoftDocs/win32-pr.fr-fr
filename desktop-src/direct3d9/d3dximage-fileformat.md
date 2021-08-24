@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9tex.h
-ms.openlocfilehash: 3b1195e7503ff32e92cdbafde941b811dcf86427
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 715b9f0f6d8c56153d51c9c19b70ba253e508619229f52201a28f23c1902d26e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123165"
 ---
 # <a name="d3dximage_fileformat-enumeration"></a>D3DXIMAGE \_ FILEFORMAT, énumération
 
@@ -51,7 +51,7 @@ typedef enum D3DXIMAGE_FILEFORMAT {
 <span id="D3DXIFF_BMP"></span><span id="d3dxiff_bmp"></span>**D3DXIFF \_ BMP**
 </dt> <dd>
 
-Format de fichier bitmap Windows (BMP).
+format de fichier BMP (Windows bitmap).
 
 </dd> <dt>
 
@@ -86,14 +86,14 @@ Format de fichier de la surface DirectDraw (DDS).
 <span id="D3DXIFF_PPM"></span><span id="d3dxiff_ppm"></span>**D3DXIFF \_ ppm**
 </dt> <dd>
 
-Format de fichier pixmap portable (PPM).
+format de fichier pixmap Portable (PPM).
 
 </dd> <dt>
 
 <span id="D3DXIFF_DIB"></span><span id="d3dxiff_dib"></span>**D3DXIFF \_ DIB**
 </dt> <dd>
 
-Format de fichier DIB (Device-Independent Bitmap) Windows.
+Windows format de fichier DIB (device-independent bitmap).
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions qui commencent par D3DXLoadxxx prennent en charge tous les formats listés. Les fonctions qui commencent par D3DXSavexxx prennent en charge tous les formats énumérés, à l’exception des formats Truevision (. TGA) et portable pixmap (. ppm).
 
@@ -128,9 +128,9 @@ Le tableau suivant répertorie les formats d’entrée et de sortie disponibles.
 
 | Extension de fichier | Description                                                                                                                                                                                                                                                                                                                                        |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| .bmp           | Format bitmap Windows. Contient un en-tête qui décrit la résolution du périphérique sur lequel le rectangle de pixels a été créé, les dimensions du rectangle, la taille du tableau de bits, une palette logique et un tableau de bits qui définit la relation entre les pixels de l’image bitmap et les entrées de la palette logique. |
+| .bmp           | format bitmap Windows. Contient un en-tête qui décrit la résolution du périphérique sur lequel le rectangle de pixels a été créé, les dimensions du rectangle, la taille du tableau de bits, une palette logique et un tableau de bits qui définit la relation entre les pixels de l’image bitmap et les entrées de la palette logique. |
 | .dds           | Format de fichier de surface DirectDraw. Stocke les textures, les textures de volume et les mappages d’environnement cubique, avec ou sans niveaux de mipmap, avec ou sans compression de pixels. Voir [DDS](../direct3ddds/dx-graphics-dds.md).                                                                                                                                       |
-| .dib           | DIB Windows. Contient un tableau de bits associés à des structures qui spécifient la largeur et la hauteur de l’image bitmap, le format de couleur de l’appareil sur lequel l’image a été créée et la résolution de l’appareil utilisé pour créer cette image.                                                                                                              |
+| .dib           | Windows Bitmap. Contient un tableau de bits associés à des structures qui spécifient la largeur et la hauteur de l’image bitmap, le format de couleur de l’appareil sur lequel l’image a été créée et la résolution de l’appareil utilisé pour créer cette image.                                                                                                              |
 | . HDR           | Format HDR. Encode chaque pixel sous la forme d’une couleur RGBE 32 bits, avec 8 bits de mantisse pour le rouge, le vert et le bleu, et un exposant 8 bits partagé. Chaque canal est compressé séparément avec l’encodage de longueur d’exécution (RLE).                                                                                                                                       |
 | .jpg           | Norme JPEG. Spécifie la compression des variables des fichiers de document image TIFF (Tagged Image File Format) de 24 bits et de 8 bits.                                                                                                                                                                                                       |
 | . PFM           | Format de carte à virgule flottante portable. Format d’image à virgule flottante brut, sans compression. L’en-tête de fichier spécifie la largeur de l’image, la hauteur, le monochrome ou la couleur et l’ordre des mots de l’ordinateur. Les données de pixels sont stockées en tant que valeurs à virgule flottante 32 bits, avec 3 valeurs par pixel pour la couleur et une valeur par pixel pour monochrome.                                |

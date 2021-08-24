@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 816d093512f7fcba1b694e63d99ef054a3c10fc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b486a5e0fc336ca766e33b6e50f2abd9e32197786f7e10ed9627d7613a512ea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119266373"
 ---
 # <a name="groupnodetype-complex-type"></a>Type complexe GroupNodeType
 
@@ -33,7 +33,7 @@ Définit le type qui contient un jeu de contenu groupé dans une note du journal
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

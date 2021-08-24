@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Actualisation des données WMI dans les scripts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0f17ce718fcf5b57e4f3204337634af4129d24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 969a97c6300ac256e08c79e4f4aaeaa8d05bda072a2c310812ce3b2061c791fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050447"
 ---
 # <a name="refreshing-wmi-data-in-scripts"></a>Actualisation des données WMI dans les scripts
 
@@ -30,7 +30,7 @@ La procédure suivante décrit comment actualiser des données dans des scripts.
 
     
 
-2.  Connectez-vous à l’espace de noms WMI. Pour utiliser les classes de performances de [**\_ performances Win32**](/windows/desktop/CIMWin32Prov/win32-perf) préinstallées, connectez-vous à la **racine \\ cimv2**.
+2.  Connecter à l’espace de noms WMI. Pour utiliser les classes de performances de [**\_ performances Win32**](/windows/desktop/CIMWin32Prov/win32-perf) préinstallées, connectez-vous à la **racine \\ cimv2**.
 
     ```VB
     Set objServicesCimv2 = GetObject("winmgmts:\\" _

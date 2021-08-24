@@ -1,19 +1,19 @@
 ---
-description: Le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les applications de bureau.
+description: le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les applications de bureau.
 ms.assetid: F9113BEA-E383-48BE-BD17-72DC1D20DF47
 title: API Windows Runtime 8.x pour les applications de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a962950f7bc936c25d94c4cdaed44bfd16a26091
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c810195a2ff33547a431b357eca94a7f8468e6c0d44e1f009b1646e475ceb7f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130281"
 ---
 # <a name="windows-runtime-8x-apis-for-desktop-apps"></a>API Windows Runtime 8.x pour les applications de bureau
 
-Le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les applications de bureau.
+le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les applications de bureau.
 
 -   [**Accéléromètre (classe)**](/uwp/api/Windows.Devices.Sensors.Accelerometer?view=winrt-19041)
 -   [**AccelerometerReading, classe**](/uwp/api/Windows.Devices.Sensors.AccelerometerReading?view=winrt-19041)
@@ -29,7 +29,7 @@ Le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les
 -   [**AudioEffect, classe**](/uwp/api/Windows.Media.Effects.AudioEffect?view=winrt-19041)
 -   [**AudioEncodingProperties, classe**](/uwp/api/Windows.Media.MediaProperties.AudioEncodingProperties?view=winrt-19041)
 -   [**AudioStreamDescriptor, classe**](/uwp/api/Windows.Media.Core.AudioStreamDescriptor?view=winrt-19041)
--   [**Classe de calendrier**](/uwp/api/Windows.Globalization.Calendar?view=winrt-19041)
+-   [**Classe Calendar**](/uwp/api/Windows.Globalization.Calendar?view=winrt-19041)
 -   [**CalendarIdentifiers, classe**](/uwp/api/Windows.Globalization.CalendarIdentifiers?view=winrt-19041)
 -   [**CallControl, classe**](/uwp/api/Windows.Media.Devices.CallControl?view=winrt-19041)
 -   [**CapturedFrame, classe**](/uwp/api/Windows.Media.Capture.CapturedFrame?view=winrt-19041)
@@ -65,7 +65,7 @@ Le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les
 -   [**CryptographicBuffer, classe**](/uwp/api/Windows.Security.Cryptography.CryptographicBuffer?view=winrt-19041)
 -   [**CryptographicEngine, classe**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicEngine?view=winrt-19041)
 -   [**CryptographicHash, classe**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicHash?view=winrt-19041)
--   [**CryptographicKey, classe**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicKey?view=winrt-19041)
+-   [**Classe CryptographicKey**](/uwp/api/Windows.Security.Cryptography.Core.CryptographicKey?view=winrt-19041)
 -   [**CurrencyFormatter, classe**](/uwp/api/Windows.Globalization.NumberFormatting.CurrencyFormatter?view=winrt-19041)
 -   [**CurrencyIdentifiers, classe**](/uwp/api/Windows.Globalization.CurrencyIdentifiers?view=winrt-19041)
 -   [**CustomDevice, classe**](/uwp/api/Windows.Devices.Custom.CustomDevice?view=winrt-19041)
@@ -330,7 +330,7 @@ Le sous-ensemble suivant de Windows Runtime classes peut être utilisé dans les
 -   [**StreamWebSocket, classe**](/uwp/api/Windows.Networking.Sockets.StreamWebSocket?view=winrt-19041)
 -   [**StreamWebSocketControl, classe**](/uwp/api/Windows.Networking.Sockets.StreamWebSocketControl?view=winrt-19041)
 -   [**StreamWebSocketInformation, classe**](/uwp/api/Windows.Networking.Sockets.StreamWebSocketInformation?view=winrt-19041)
--   [**SymmetricAlgorithmNames, classe**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricAlgorithmNames?view=winrt-19041)
+-   [**Classe SymmetricAlgorithmNames**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricAlgorithmNames?view=winrt-19041)
 -   [**SymmetricKeyAlgorithmProvider, classe**](/uwp/api/Windows.Security.Cryptography.Core.SymmetricKeyAlgorithmProvider?view=winrt-19041)
 -   [**SyndicationAttribute, classe**](/uwp/api/Windows.Web.Syndication.SyndicationAttribute?view=winrt-19041)
 -   [**SyndicationCategory, classe**](/uwp/api/Windows.Web.Syndication.SyndicationCategory?view=winrt-19041)

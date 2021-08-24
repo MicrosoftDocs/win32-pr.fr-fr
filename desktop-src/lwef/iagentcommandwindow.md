@@ -4,12 +4,12 @@ description: IAgentCommandWindow
 ms.assetid: 315b24b4-110e-4373-a1ee-0317531e6008
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 517f43bf482d043b4ca36ff749e3f496ba2988b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 80509efbe4f9d6391b3ac6ffbdf5cb02580826fd1aa7a94f1536ba5706322606
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105177"
 ---
 # <a name="iagentcommandwindow"></a>IAgentCommandWindow
 
@@ -26,15 +26,15 @@ ms.locfileid: "106509807"
 | [**SetVisible**](iagentcommandwindow--setvisible.md)   | Définit la valeur de la propriété [**visible**](visible-property.md) de la fenêtre commandes vocales.    |
 | [**GetVisible**](iagentcommandwindow--getvisible.md)   | Retourne la valeur de la propriété [**visible**](visible-property.md) de la fenêtre commandes vocales. |
 | [**GetPosition**](iagentcommandwindow--getposition.md) | Retourne la position de la fenêtre commandes vocales.                                                  |
-| [**GetSize,**](iagentcommandwindow--getsize.md)         | Retourne la taille de la fenêtre de commandes vocales.                                                      |
+| [**GetSize**](iagentcommandwindow--getsize.md)         | Retourne la taille de la fenêtre de commandes vocales.                                                      |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

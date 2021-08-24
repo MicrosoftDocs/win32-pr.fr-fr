@@ -4,16 +4,16 @@ ms.assetid: b2f9ec6a-4b5b-e618-759b-d7dbc0d97ac4
 title: 'Procédure : Ajouter ou supprimer dynamiquement des voix d’un graphique audio'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdb26150b5614ec53e4cc4de5af74e9a14ee2a94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a49cfc88e89884b63484b7bd58f7f5d96020cd21f8d1147794b840f00258fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082933"
 ---
 # <a name="how-to-dynamically-add-or-remove-voices-from-an-audio-graph"></a>Procédure : Ajouter ou supprimer dynamiquement des voix d’un graphique audio
 
-Vous pouvez modifier les graphiques audio à tout moment pour ajouter ou supprimer des voix ou des sous-graphiques entiers. Cette rubrique vous montre comment ajouter ou supprimer des voix de mixage secondaire d’un graphique qui a été créé en suivant les étapes décrites dans [Comment : générer un graphique de traitement audio de base](how-to--build-a-basic-audio-processing-graph.md). Une seule voix peut envoyer sa sortie à plusieurs voix ou à une longue chaîne de voix. La suppression ou l’ajout d’une seule voix peut avoir un impact important sur un graphique audio.
+Vous pouvez modifier les graphiques audio à tout moment pour ajouter ou supprimer des voix ou des sous-graphiques entiers. Cette rubrique vous montre comment ajouter ou supprimer des voix de mixage secondaire d’un graphique qui a été créé en suivant les étapes décrites dans [Comment : générer un traitement audio de base Graph](how-to--build-a-basic-audio-processing-graph.md). Une seule voix peut envoyer sa sortie à plusieurs voix ou à une longue chaîne de voix. La suppression ou l’ajout d’une seule voix peut avoir un impact important sur un graphique audio.
 
 ## <a name="to-dynamically-change-an-audio-graph"></a>Pour modifier dynamiquement un graphique audio
 

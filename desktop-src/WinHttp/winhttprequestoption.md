@@ -1,5 +1,5 @@
 ---
-description: Comprend des options qui peuvent être définies ou récupérées pour la session active des services HTTP Microsoft Windows (WinHTTP).
+description: comprend des options qui peuvent être définies ou récupérées pour la session Microsoft Windows HTTP Services (WinHTTP) actuelle.
 ms.assetid: 8464d794-b4a8-4c83-9e26-69257000102a
 title: Énumération WinHttpRequestOption
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - IDLDef
 api_location:
 - HttpRequest.idl
-ms.openlocfilehash: 32ae65f43cd04027027e43d29c49ed0f68f29c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff4112538aff4c76c02e251f45e9dc78e6778633de6a5d93f6892dd87ff70c43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051877"
 ---
 # <a name="winhttprequestoption-enumeration"></a>Énumération WinHttpRequestOption
 
-L’énumération **WinHttpRequestOption** comprend des options qui peuvent être définies ou récupérées pour la session active des services http Microsoft Windows (WinHTTP).
+l’énumération **WinHttpRequestOption** comprend des options qui peuvent être définies ou récupérées pour la session Microsoft Windows HTTP Services (WinHTTP) actuelle.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -92,7 +92,7 @@ Définit ou récupère un **Variant** qui indique les erreurs de certificat de s
 
 
 
-| Error                                                  | Valeur  |
+| Erreur                                                  | Valeur  |
 |--------------------------------------------------------|--------|
 | Autorité de certification inconnue ou racine non approuvée | 0x0100 |
 | Utilisation incorrecte                                            | 0x0200 |
@@ -159,7 +159,7 @@ La valeur par défaut de cette option est 0x0028, ce qui indique que SSL 2,0 ou 
 <span id="WinHttpRequestOption_EnableTracing"></span><span id="winhttprequestoption_enabletracing"></span><span id="WINHTTPREQUESTOPTION_ENABLETRACING"></span>**WinHttpRequestOption \_ EnableTracing,**
 </dt> <dd>
 
-Définit ou récupère une valeur de **type Variant** qui indique si le traçage est actuellement activé. Pour plus d’informations sur la fonction de trace dans les services HTTP Microsoft Windows (WinHTTP), consultez [WinHTTP trace Facility](winhttptracecfg-exe--a-trace-configuration-tool.md).
+Définit ou récupère une valeur de **type Variant** qui indique si le traçage est actuellement activé. pour plus d’informations sur la fonction de trace dans Microsoft Windows HTTP Services (winhttp), consultez [winhttp trace facility](winhttptracecfg-exe--a-trace-configuration-tool.md).
 
 </dd> <dt>
 
@@ -189,7 +189,7 @@ Active ou désactive la prise en charge de l’authentification Passport. Par d�
 
 Définit ou récupère le nombre maximal de redirections que WinHTTP suit ; la valeur par défaut est 10. Cette limite empêche les sites non autorisés de mettre le blocage du client WinHTTP à la suite d’un grand nombre de redirections.
 
-**Windows XP avec SP1 et windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
+**Windows XP avec SP1 et Windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ Définit ou récupère le nombre maximal de redirections que WinHTTP suit ; la 
 
 Définit ou récupère un jeu lié sur la taille maximale de la partie en-tête de la réponse du serveur. Cette liaison protège le client contre un serveur malveillant tentant de bloquer le client en envoyant une réponse avec une quantité infinie de données d’en-tête. La valeur par défaut est 64 Ko.
 
-**Windows XP avec SP1 et windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
+**Windows XP avec SP1 et Windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -207,7 +207,7 @@ Définit ou récupère un jeu lié sur la taille maximale de la partie en-tête 
 
 Définit ou récupère une limite sur la quantité de données qui seront vidées des réponses afin de réutiliser une connexion. La valeur par défaut est 1 Mo.
 
-**Windows XP avec SP1 et windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
+**Windows XP avec SP1 et Windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -216,7 +216,7 @@ Définit ou récupère une limite sur la quantité de données qui seront vidée
 
 Définit ou récupère une valeur booléenne qui indique si HTTP/1.1 ou HTTP/1.0 doit être utilisé. La valeur par défaut est **true**, de sorte que http/1.1 est utilisé par défaut.
 
-**Windows XP avec SP1 et windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
+**Windows XP avec SP1 et Windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -225,16 +225,16 @@ Définit ou récupère une valeur booléenne qui indique si HTTP/1.1 ou HTTP/1.0
 
 Active la vérification de la révocation des certificats du serveur pendant la négociation SSL. Lorsque le serveur présente un certificat, une vérification est effectuée pour déterminer si le certificat a été révoqué par son émetteur. Si le certificat est effectivement révoqué ou si la vérification de la révocation échoue parce que la liste de révocation de certificats (CRL) ne peut pas être téléchargée, la demande échoue ; ces erreurs de révocation ne peuvent pas être supprimées.
 
-**Windows XP avec SP1 et windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
+**Windows XP avec SP1 et Windows 2000 avec SP3 :** Cette valeur d’énumération n’est pas prise en charge.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez une option en spécifiant l’une des constantes précédentes comme paramètre de la propriété [**option**](iwinhttprequest-option.md) .
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHttp.
 
  
 
@@ -244,8 +244,8 @@ Définissez une option en spécifiant l’une des constantes précédentes comme
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 

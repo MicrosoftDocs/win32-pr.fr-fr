@@ -4,22 +4,22 @@ ms.assetid: 8f540ac6-1c1e-43d8-a0dd-bba3b5983b02
 title: Objet DVDRect
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55d53bd821380ac9078346e99dde92d617359cbc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f796b729d9cb6a57569ed9fc859ec40ce17cf49ecec12f8cdbaf28873387d591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119148582"
 ---
 # <a name="dvdrect-object"></a>Objet DVDRect
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
 > [!Note]  
-> Cette API est déconseillée. Pour plus d’informations sur la lecture et la navigation sur DVD dans DirectShow, consultez [applications DVD](dvd-applications.md).
+> Cette API est déconseillée. pour plus d’informations sur la lecture et la navigation des dvd dans DirectShow, consultez [Applications dvd](dvd-applications.md).
 
  
 
@@ -31,8 +31,8 @@ Les propriétés de l' `DVDRect` objet permettent à une application de script d
 |-----------------------------------|------------------------------------------------------------------------|
 | [**x**](x-property.md)           | Définit ou récupère la position x du coin supérieur gauche du rectangle. |
 | [**y**](y-property.md)           | Définit ou récupère la position y de l’angle supérieur gauche du rectangle. |
-| [**Width**](width-property.md)   | Définit ou récupère la largeur du rectangle, en pixels.               |
-| [**Height**](height-property.md) | Définit ou récupère la hauteur du rectangle, en pixels.              |
+| [**Largeur**](width-property.md)   | Définit ou récupère la largeur du rectangle, en pixels.               |
+| [**Hauteur**](height-property.md) | Définit ou récupère la hauteur du rectangle, en pixels.              |
 
 
 
@@ -42,7 +42,7 @@ Les propriétés de l' `DVDRect` objet permettent à une application de script d
 
 <dl> <dt>
 
-[Contrôle ActiveX MSWebDVD](mswebdvd-activex-control.md)
+[contrôle de ActiveX MSWebDVD](mswebdvd-activex-control.md)
 </dt> </dl>
 
  

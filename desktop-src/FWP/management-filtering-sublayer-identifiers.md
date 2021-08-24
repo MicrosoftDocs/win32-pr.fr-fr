@@ -22,16 +22,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e015d590c19395987bbd47d1c3c4b918296ab5f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d597fa1b75f6c965da9cf8d71bcc3e729d0b0b2f4f4220c984a1be8c94c09d39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068879"
 ---
 # <a name="filtering-sublayer-identifiers"></a>Filtrage des identificateurs de sous-couche
 
-Les identificateurs de sous-couche WFP (Windows Filtering Platform) sont tous représentés par un GUID.
+les identificateurs de sous-couche WFP (Windows filtering Platform) sont tous représentés par un GUID.
 
 Ces identificateurs sont définis comme suit.
 
@@ -45,7 +45,7 @@ Ces identificateurs sont définis comme suit.
 Les filtres de parcours Edge sont ajoutés à cette sous-couche.
 
 > [!Note]  
-> Pour Windows 7 et versions ultérieures, utilisez la **\_ \_ \_ traversée latérale** de la sous-couche FWPM.
+> pour Windows 7 et versions ultérieures, utilisez la **\_ \_ \_ traversée latérale** de la sous-couche FWPM.
 
  
 
@@ -70,7 +70,7 @@ Il s’agit de la sous-couche la moins pondérée. Elle est utilisée uniquement
 Les filtres de protection DoS IPsec sont ajoutés à cette sous-couche.
 
 > [!Note]  
-> Disponible uniquement sur Windows Vista avec SP1, Windows Server 2008 et versions ultérieures.
+> disponible uniquement sur Windows Vista avec SP1, Windows Server 2008 et versions ultérieures.
 
  
 
@@ -85,7 +85,7 @@ Les filtres de protection DoS IPsec sont ajoutés à cette sous-couche.
 Les filtres de tunnel sortant IPsec sont ajoutés à cette sous-couche.
 
 > [!Note]  
-> Disponible uniquement sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
+> disponible uniquement sur Windows 7, Windows Server 2008 R2 et versions ultérieures.
 
  
 
@@ -150,7 +150,7 @@ Les filtres de déchargement TCP Chimney sont ajoutés à cette sous-couche.
 Les filtres de modèle TCP sont ajoutés à cette sous-couche.
 
 > [!Note]  
-> Disponible uniquement sur Windows 8, Windows Server 2012 et versions ultérieures.
+> disponible uniquement sur Windows 8, Windows Server 2012 et versions ultérieures.
 
  
 
@@ -173,8 +173,8 @@ Cette sous-couche héberge tous les filtres qui ne sont affectés à aucune des 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 

@@ -34,12 +34,12 @@ keywords:
 - menus, owner-drawn
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed5d42eb42aaaaa16eef0b5b118adcfe0f91156e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 34d35ddf55ad31ed27cc12c6adffa5517e0081db6d70b4d01d3b88780a8797bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034490"
 ---
 # <a name="about-menus"></a>À propos des menus
 
@@ -143,7 +143,7 @@ Le système est conçu pour fonctionner avec ou sans souris ou autre dispositif 
 
 
 
- 
+ 
 
 ### <a name="menu-access-keys"></a>Touches d’accès au menu
 
@@ -174,7 +174,7 @@ Les rubriques suivantes décrivent la création de menus en détail :
 
 La plupart des applications créent des menus à l’aide des ressources de modèle de menu. Un *modèle de menu* définit un menu, y compris les éléments de la barre de menus et tous les menus. Pour plus d’informations sur la création d’une ressource de modèle de menu, consultez la documentation fournie avec vos outils de développement.
 
-Après avoir créé une ressource de modèle de menu et l’avoir ajoutée au fichier exécutable (. exe) de votre application, vous pouvez utiliser la fonction [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua) pour charger la ressource en mémoire. Cette fonction retourne un handle au menu, que vous pouvez ensuite assigner à une fenêtre à l’aide de la fonction [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) . Vous pouvez assigner un menu à n’importe quelle fenêtre qui n’est pas une fenêtre enfant.
+Après avoir créé une ressource de modèle de menu et l’avoir ajoutée au fichier exécutable de votre application (.exe), vous pouvez utiliser la fonction [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua) pour charger la ressource en mémoire. Cette fonction retourne un handle au menu, que vous pouvez ensuite assigner à une fenêtre à l’aide de la fonction [**SetMenu**](/windows/desktop/api/Winuser/nf-winuser-setmenu) . Vous pouvez assigner un menu à n’importe quelle fenêtre qui n’est pas une fenêtre enfant.
 
 L’implémentation de menus en tant que ressources rend une application plus facile à localiser pour une utilisation dans plusieurs pays/régions. Seul le fichier de définition de ressource doit être localisé pour chaque langue, et non le code source de l’application.
 
@@ -333,6 +333,6 @@ Lorsqu’un menu déroulant ou un sous-menu a été détruit, le système envoie
 
 Si un menu est affecté à une fenêtre et que cette fenêtre est détruite, le système détruit automatiquement le menu et ses sous-menus, libérant ainsi la poignée du menu et la mémoire occupée par le menu. Le système ne détruit pas automatiquement un menu qui n’est pas assigné à une fenêtre. Une application doit détruire le menu non assigné en appelant la fonction [**DestroyMenu**](/windows/desktop/api/Winuser/nf-winuser-destroymenu) . Dans le cas contraire, le menu continue d’exister en mémoire même après la fermeture de l’application. Pour terminer le menu actif du thread appelant, utilisez [**EndMenu**](/windows/desktop/api/Winuser/nf-winuser-endmenu). Si une plateforme ne prend pas en charge **EndMenu**, envoyez au propriétaire du menu actif un message [**WM \_ CANCELMODE**](/windows/desktop/winmsg/wm-cancelmode) .
 
- 
+ 
 
- 
+ 

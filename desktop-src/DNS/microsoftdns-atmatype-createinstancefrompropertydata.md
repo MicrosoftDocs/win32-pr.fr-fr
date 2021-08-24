@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39fada3759e6384ae6f42a78bd132b9b8ad16f35
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44edf3428087da73f5ba89c32232af0ae589bc0d865642ec04953c62e16404e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539319"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_atmatype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS ATMAType
 

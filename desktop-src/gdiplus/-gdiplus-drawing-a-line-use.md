@@ -4,20 +4,20 @@ ms.assetid: 2e7444f8-94a6-40d6-b243-0764e245eec4
 title: Dessin d’une ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5284a178baab624633dd427cad84b35933a72fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a1e2a330f24cd0d1771458d02b264cdaa493835477b40c95d05ca4bf71c8a1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119036807"
 ---
 # <a name="drawing-a-line"></a>Dessin d’une ligne
 
 Cette rubrique montre comment dessiner une ligne à l’aide de GDI plus.
 
-Pour dessiner une ligne dans GDI+ Windows, vous avez besoin d’un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) , d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) et d’un objet [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) . L’objet **Graphics** fournit la méthode [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) et l’objet **Pen** contient les attributs de la ligne, tels que la couleur et la largeur. L’adresse de l’objet **Pen** est passée comme argument à la méthode **DrawLine** .
+pour dessiner une ligne dans Windows GDI+ vous avez besoin d’un objet [**graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) , d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) et d’un objet [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) . L’objet **Graphics** fournit la méthode [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) et l’objet **Pen** contient les attributs de la ligne, tels que la couleur et la largeur. L’adresse de l’objet **Pen** est passée comme argument à la méthode **DrawLine** .
 
-Le programme suivant, qui dessine une ligne de (0,0) à (200, 100), se compose de trois fonctions : **WinMain**, **WndProc** et **OnPaint**. Les fonctions **WinMain** et **WndProc** fournissent le code fondamental commun à la plupart des applications Windows. Il n’y a aucun code GDI+ dans la fonction **WndProc** . La fonction **WinMain** a une petite quantité de code GDI+, à savoir les appels requis à [**GdiplusStartup**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusstartup) et [**GdiplusShutdown**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown). Le code GDI+ qui crée réellement un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et dessine une ligne se trouve dans la fonction **OnPaint** .
+Le programme suivant, qui dessine une ligne de (0,0) à (200, 100), se compose de trois fonctions : **WinMain**, **WndProc** et **OnPaint**. les fonctions **WinMain** et **WndProc** fournissent le code fondamental commun à la plupart des applications Windows. il n’y a pas de code GDI+ dans la fonction **WndProc** . la fonction **WinMain** a une petite quantité de GDI+ code, à savoir les appels requis à [**GdiplusStartup**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusstartup) et [**GdiplusShutdown**](/windows/win32/api/Gdiplusinit/nf-gdiplusinit-gdiplusshutdown). le GDI+ le code qui crée réellement un objet [**graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et dessine une ligne dans la fonction **OnPaint** .
 
 La fonction **OnPaint** reçoit un handle vers un contexte de périphérique et passe ce handle à un constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . L’argument passé au constructeur [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) est une référence à un objet [**Color**](/windows/win32/api/gdipluscolor/nl-gdipluscolor-color) . Les quatre nombres passés au constructeur Color représentent les composants alpha, rouge, vert et bleu de la couleur. Le composant alpha détermine la transparence de la couleur ; 0 est entièrement transparent et 255 est entièrement opaque. Les quatre nombres passés à la méthode [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) représentent le point de départ (0, 0) et le point de fin (200, 100) de la ligne.
 

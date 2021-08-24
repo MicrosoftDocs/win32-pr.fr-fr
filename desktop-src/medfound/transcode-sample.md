@@ -1,19 +1,19 @@
 ---
-description: Montre comment recoder un fichier multimédia au format Windows Media.
+description: montre comment recoder un fichier multimédia au format Windows media.
 ms.assetid: 1e958f26-3ac1-4b20-abf5-d8a65ba38112
 title: Exemple de transcodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 528ef8dbed6d6ae18f534210caa5a2cc57516c75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b2d185d5a486493053d0b85ae48257cc6a7a2640aea9cd5cfc839616cd7e690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034617"
 ---
 # <a name="transcode-sample"></a>Exemple de transcodage
 
-Montre comment recoder un fichier multimédia au format Windows Media.
+montre comment recoder un fichier multimédia au format Windows media.
 
 ## <a name="apis-demonstrated"></a>API illustrées
 
@@ -38,7 +38,7 @@ Cet exemple illustre les API suivantes.
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Transcode).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/Transcode).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

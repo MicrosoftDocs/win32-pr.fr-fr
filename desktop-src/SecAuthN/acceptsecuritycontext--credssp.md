@@ -4,12 +4,12 @@ ms.assetid: a53f733e-b646-4431-b021-a2c446308849
 title: AcceptSecurityContext (CredSSP) (fonction)
 ms.topic: article
 ms.date: 07/25/2019
-ms.openlocfilehash: 681e03ea15729cc8726d63551e8b7b0a2b39ecac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df4c87274c3a19d9e4a028cde813801688ce1927d1a0b89dbe3a7e8633ce8b57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119141692"
 ---
 # <a name="acceptsecuritycontext-credssp-function"></a>AcceptSecurityContext (CredSSP) (fonction)
 
@@ -113,7 +113,7 @@ Cette fonction retourne l’une des valeurs suivantes.
 | SEC_I_CONTINUE_NEEDED <br/> 0x00090312L             | La fonction a réussi. Le serveur doit envoyer le jeton de sortie au client et attendre un jeton retourné. Le jeton retourné doit être passé dans *pInput* pour un autre appel à [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md).
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcceptSecurityContext (CredSSP)** est l’équivalent serveur de la fonction [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) .
 
@@ -132,8 +132,8 @@ Une fois le contexte de sécurité établi, l’application serveur peut utilise
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows Vista uniquement\]       |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2008 \[ uniquement\] |
+| Client minimal pris en charge | applications de \[ bureau Windows Vista uniquement\]       |
+| Serveur minimal pris en charge | Windows Serveur 2008 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

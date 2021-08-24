@@ -1,19 +1,19 @@
 ---
-title: Énumérations (informations de référence sur les animations Windows)
-description: Documentation de référence pour les énumérations définies par le gestionnaire d’animations Windows.
+title: énumérations (Windows référence d’Animation)
+description: documentation de référence pour les énumérations définies par le gestionnaire d’animations Windows.
 ms.assetid: 4b075b30-6faa-42e5-9e72-550e81d9309c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55671555cf8483a0f7b8db95da27f87acc9662fa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 811abd2f62227359050c5214d057bcf036133b00ca9734a3b30b1f9c8f985aed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419122"
 ---
-# <a name="enumerations-windows-animation-reference"></a>Énumérations (informations de référence sur les animations Windows)
+# <a name="enumerations-windows-animation-reference"></a>énumérations (Windows référence d’Animation)
 
-Documentation de référence pour les énumérations définies par le gestionnaire d’animations Windows.
+documentation de référence pour les énumérations définies par le gestionnaire d’animations Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -42,7 +42,7 @@ Documentation de référence pour les énumérations définies par le gestionnai
 
 <dl> <dt>
 
-[Informations de référence sur les animations Windows](windows-animation-reference.md)
+[Windows Référence d’animation](windows-animation-reference.md)
 </dt> </dl>
 
  

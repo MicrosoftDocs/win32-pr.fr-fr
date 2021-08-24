@@ -9,7 +9,7 @@
         - name: Toutes les classes
           href: classes-all.md
           items:
-            - name: compte Azure
+            - name: account
               href: c-account.md
             - name: ACS-Policy
               href: c-acspolicy.md
@@ -27,7 +27,7 @@
               href: c-applicationprocess.md
             - name: Application-Settings
               href: c-applicationsettings.md
-            - name: Application-site-paramètres
+            - name: Application-Site-Paramètres
               href: c-applicationsitesettings.md
             - name: Application-Version
               href: c-applicationversion.md
@@ -89,7 +89,7 @@
               href: c-document.md
             - name: documentSeries
               href: c-documentseries.md
-            - name: Domain
+            - name: Domaine
               href: c-domain.md
             - name: Domain-DNS
               href: c-domaindns.md
@@ -99,7 +99,7 @@
               href: c-domainrelatedobject.md
             - name: DSA
               href: c-dsa.md
-            - name: DS-UI-paramètres
+            - name: DS-UI-Paramètres
               href: c-dsuisettings.md
             - name: Dynamic-Object
               href: c-dynamicobject.md
@@ -159,7 +159,7 @@
               href: c-ipservice.md
             - name: Feuille
               href: c-leaf.md
-            - name: Gestion des licences-site-paramètres
+            - name: licences-Site-Paramètres
               href: c-licensingsitesettings.md
             - name: Link-Track-Object-Move-table
               href: c-linktrackobjectmovetable.md
@@ -217,7 +217,7 @@
               href: c-msdfsr-subscription.md
             - name: MS-DFSR-topologie
               href: c-msdfsr-topology.md
-            - name: MS-DNS-Server-paramètres
+            - name: ms-DNS-Server-Paramètres
               href: c-msdns-serversettings.md
             - name: ms-DS-App-configuration
               href: c-msds-app-configuration.md
@@ -255,9 +255,9 @@
               href: c-msds-managedserviceaccount.md
             - name: ms-DS-optional-Feature
               href: c-msds-optionalfeature.md
-            - name: ms-DS-Password-paramètres
+            - name: ms-DS-mot de passe-Paramètres
               href: c-msds-passwordsettings.md
-            - name: ms-DS-Password-Settings-Container
+            - name: ms-DS-Password-Paramètres-Container
               href: c-msds-passwordsettingscontainer.md
             - name: ms-DS-quota-Container
               href: c-msds-quotacontainer.md
@@ -291,7 +291,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-personnalisé-destinataire
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-Enterprise-paramètres
+            - name: MSMQ-Enterprise-Paramètres
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -307,7 +307,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: MS-net-IEEE-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: MS-PKI-Enterprise-OID
+            - name: ms-PKI-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: MS-PKI-Key-Recovery-agent
               href: c-mspki-key-recovery-agent.md
@@ -399,7 +399,7 @@
               href: c-ntdsdsaro.md
             - name: NTDS-Service
               href: c-ntdsservice.md
-            - name: NTDS-site-paramètres
+            - name: NTDS-Site-Paramètres
               href: c-ntdssitesettings.md
             - name: NTFRS-Member
               href: c-ntfrsmember.md
@@ -441,7 +441,7 @@
               href: c-querypolicy.md
             - name: Destinataire de la messagerie à distance
               href: c-remotemailrecipient.md
-            - name: Point de service de stockage distant
+            - name: Point de Service Stockage à distance
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -509,7 +509,7 @@
               href: c-sitescontainer.md
             - name: Stockage
               href: c-storage.md
-            - name: Subnet
+            - name: Sous-réseau
               href: c-subnet.md
             - name: Subnet-Container
               href: c-subnetcontainer.md
@@ -528,7 +528,7 @@
         - name: Classes structurelles
           href: classes-structural.md
           items:
-            - name: compte Azure
+            - name: account
               href: c-account.md
             - name: ACS-Policy
               href: c-acspolicy.md
@@ -602,7 +602,7 @@
               href: c-domainpolicy.md
             - name: DSA
               href: c-dsa.md
-            - name: DS-UI-paramètres
+            - name: DS-UI-Paramètres
               href: c-dsuisettings.md
             - name: Suivi des liens de fichiers
               href: c-filelinktracking.md
@@ -650,7 +650,7 @@
               href: c-ipsecpolicy.md
             - name: ipService
               href: c-ipservice.md
-            - name: Gestion des licences-site-paramètres
+            - name: licences-Site-Paramètres
               href: c-licensingsitesettings.md
             - name: Link-Track-Object-Move-table
               href: c-linktrackobjectmovetable.md
@@ -706,7 +706,7 @@
               href: c-msdfsr-subscription.md
             - name: MS-DFSR-topologie
               href: c-msdfsr-topology.md
-            - name: MS-DNS-Server-paramètres
+            - name: ms-DNS-Server-Paramètres
               href: c-msdns-serversettings.md
             - name: ms-DS-App-configuration
               href: c-msds-app-configuration.md
@@ -738,9 +738,9 @@
               href: c-msds-managedserviceaccount.md
             - name: ms-DS-optional-Feature
               href: c-msds-optionalfeature.md
-            - name: ms-DS-Password-paramètres
+            - name: ms-DS-mot de passe-Paramètres
               href: c-msds-passwordsettings.md
-            - name: ms-DS-Password-Settings-Container
+            - name: ms-DS-Password-Paramètres-Container
               href: c-msds-passwordsettingscontainer.md
             - name: ms-DS-quota-Container
               href: c-msds-quotacontainer.md
@@ -774,7 +774,7 @@
               href: c-msmqconfiguration.md
             - name: MSMQ-personnalisé-destinataire
               href: c-msmq-custom-recipient.md
-            - name: MSMQ-Enterprise-paramètres
+            - name: MSMQ-Enterprise-Paramètres
               href: c-msmqenterprisesettings.md
             - name: MSMQ-Group
               href: c-msmq-group.md
@@ -790,7 +790,7 @@
               href: c-ms-net-ieee-80211-grouppolicy.md
             - name: MS-net-IEEE-8023-GroupPolicy
               href: c-ms-net-ieee-8023-grouppolicy.md
-            - name: MS-PKI-Enterprise-OID
+            - name: ms-PKI-Enterprise-Oid
               href: c-mspki-enterprise-oid.md
             - name: MS-PKI-Key-Recovery-agent
               href: c-mspki-key-recovery-agent.md
@@ -882,7 +882,7 @@
               href: c-ntdsdsaro.md
             - name: NTDS-Service
               href: c-ntdsservice.md
-            - name: NTDS-site-paramètres
+            - name: NTDS-Site-Paramètres
               href: c-ntdssitesettings.md
             - name: NTFRS-Member
               href: c-ntfrsmember.md
@@ -916,7 +916,7 @@
               href: c-querypolicy.md
             - name: Destinataire de la messagerie à distance
               href: c-remotemailrecipient.md
-            - name: Point de service de stockage distant
+            - name: Point de Service Stockage à distance
               href: c-remotestorageservicepoint.md
             - name: Residential-Person
               href: c-residentialperson.md
@@ -970,7 +970,7 @@
               href: c-sitescontainer.md
             - name: Stockage
               href: c-storage.md
-            - name: Subnet
+            - name: Sous-réseau
               href: c-subnet.md
             - name: Subnet-Container
               href: c-subnetcontainer.md
@@ -989,7 +989,7 @@
           items:
             - name: Application-Settings
               href: c-applicationsettings.md
-            - name: Application-site-paramètres
+            - name: Application-Site-Paramètres
               href: c-applicationsitesettings.md
             - name: Connection-Point
               href: c-connectionpoint.md
@@ -997,7 +997,7 @@
               href: c-country.md
             - name: Appareil
               href: c-device.md
-            - name: Domain
+            - name: Domaine
               href: c-domain.md
             - name: Groupes de noms
               href: c-groupofnames.md
@@ -1086,7 +1086,7 @@
               href: a-acsidentityname.md
             - name: ACS-Max-Aggregate-pic-Rate-Per-User
               href: a-acsmaxaggregatepeakrateperuser.md
-            - name: ACS-Max-Duration par Flow
+            - name: ACS-Max-Duration-per-Flow
               href: a-acsmaxdurationperflow.md
             - name: ACS-maximum-SDU-Size
               href: a-acsmaximumsdusize.md
@@ -1096,15 +1096,15 @@
               href: a-acsmaxnooflogfiles.md
             - name: ACS-Max-pic-bande passante
               href: a-acsmaxpeakbandwidth.md
-            - name: ACS-Max-pic-bande passante par Flow
+            - name: ACS-Max-pic-Bandwidth-per-Flow
               href: a-acsmaxpeakbandwidthperflow.md
             - name: ACS-Max-size-of-RSVP-Account-file
               href: a-acsmaxsizeofrsvpaccountfile.md
             - name: ACS-Max-size-of-RSVP-log-file
               href: a-acsmaxsizeofrsvplogfile.md
-            - name: ACS-Max-Token-Bucket par Flow
+            - name: ACS-Max-Token-seau-per-Flow
               href: a-acsmaxtokenbucketperflow.md
-            - name: ACS-Max-Token-DEBIT-per-Flow
+            - name: ACS-Max-Token-rate-per-Flow
               href: a-acsmaxtokenrateperflow.md
             - name: ACS-minimum-Delay-variation
               href: a-acsminimumdelayvariation.md
@@ -1358,7 +1358,7 @@
               href: a-defaultsecuritydescriptor.md
             - name: Delta-Revocation-List
               href: a-deltarevocationlist.md
-            - name: department
+            - name: Service
               href: a-department.md
             - name: departmentNumber
               href: a-departmentnumber.md
@@ -2206,7 +2206,7 @@
               href: a-msds-disableforinstancesbl.md
             - name: ms-DS-DnsRootAlias
               href: a-msds-dnsrootalias.md
-            - name: ms-DS-sortie-revendications-transformation-stratégie
+            - name: ms-DS-Egress-revendications-Transformation-stratégie
               href: a-msds-egressclaimstransformationpolicy.md
             - name: Fonctionnalité ms-DS-Enabled
               href: a-msds-enabledfeature.md
@@ -2368,7 +2368,7 @@
               href: a-msds-optionalfeatureflags.md
             - name: ms-DS-facultatif-Feature-GUID
               href: a-msds-optionalfeatureguid.md
-            - name: ms-DS-Other-Settings
+            - name: ms-DS-Other-Paramètres
               href: a-msds-other-settings.md
             - name: ms-DS-mot de passe-compatible avec la complexité
               href: a-msds-passwordcomplexityenabled.md
@@ -2376,7 +2376,7 @@
               href: a-msds-passwordhistorylength.md
             - name: ms-DS-mot de passe-réversible-activé pour le chiffrement
               href: a-msds-passwordreversibleencryptionenabled.md
-            - name: ms-DS-Password-Settings-précédence
+            - name: ms-DS-Password-Paramètres-précédence
               href: a-msds-passwordsettingsprecedence.md
             - name: MS-DS-per-utilisateur-quota de confiance
               href: a-msds-perusertrustquota.md
@@ -2402,7 +2402,7 @@
               href: a-msds-primarycomputer.md
             - name: ms-DS-principal-name
               href: a-msds-principalname.md
-            - name: ms-DS-promotion-paramètres
+            - name: ms-DS-Promotion-Paramètres
               href: a-msds-promotionsettings.md
             - name: ms-DS-PSO-appliqué
               href: a-msds-psoapplied.md
@@ -2466,7 +2466,7 @@
               href: a-msds-serviceaccountbl.md
             - name: ms-DS-service-account-DNS-Domain
               href: a-msds-serviceaccountdnsdomain.md
-            - name: ms-DS-paramètres
+            - name: ms-DS-Paramètres
               href: a-msds-settings.md
             - name: ms-DS-site-Affinity
               href: a-msds-site-affinity.md
@@ -2486,7 +2486,7 @@
               href: a-msds-tasksforaztask.md
             - name: ms-DS-tâches-pour-AZ-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: ms-DS-TDO-sortie-BL
+            - name: ms-DS-TDO-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: ms-DS-TDO-entrée-BL
               href: a-msds-tdoingressbl.md
@@ -2870,11 +2870,11 @@
               href: a-msspp-installationid.md
             - name: MS-SPP-émission-licence
               href: a-msspp-issuancelicense.md
-            - name: MS-SPP-KMS-IDS
+            - name: ms-SPP-KMS-id
               href: a-msspp-kmsids.md
             - name: MS-SPP-Online-licence
               href: a-msspp-onlinelicense.md
-            - name: MS-SPP-Phone-licence
+            - name: ms-SPP-Téléphone-licence
               href: a-msspp-phonelicense.md
             - name: Alias MS-SQL
               href: a-ms-sql-alias.md
@@ -2890,21 +2890,21 @@
               href: a-ms-sql-allowsnapshotfilesftpdownloading.md
             - name: MS-SQL-AppleTalk
               href: a-ms-sql-appletalk.md
-            - name: MS-SQL-applications
+            - name: MS-SQL-Applications
               href: a-ms-sql-applications.md
             - name: MS-SQL-Build
               href: a-ms-sql-build.md
             - name: MS-SQL-CharacterSet
               href: a-ms-sql-characterset.md
-            - name: MS-SQL-Clustered
+            - name: MS-SQL-cluster
               href: a-ms-sql-clustered.md
             - name: MS-SQL-ConnectionURL
               href: a-ms-sql-connectionurl.md
-            - name: Contact MS-SQL
+            - name: MS-SQL-Contact
               href: a-ms-sql-contact.md
             - name: MS-SQL-CreationDate
               href: a-ms-sql-creationdate.md
-            - name: Base de données MS-SQL
+            - name: MS-SQL-base de données
               href: a-ms-sql-database.md
             - name: Description de MS-SQL
               href: a-ms-sql-description.md
@@ -2918,9 +2918,9 @@
               href: a-ms-sql-informationdirectory.md
             - name: MS-SQL-InformationURL
               href: a-ms-sql-informationurl.md
-            - name: MS-SQL-Mots clés
+            - name: MS-SQL-mots clés
               href: a-ms-sql-keywords.md
-            - name: Langage MS-SQL
+            - name: MS-SQL-langage
               href: a-ms-sql-language.md
             - name: MS-SQL-LastBackupDate
               href: a-ms-sql-lastbackupdate.md
@@ -2928,7 +2928,7 @@
               href: a-ms-sql-lastdiagnosticdate.md
             - name: MS-SQL-LastUpdatedDate
               href: a-ms-sql-lastupdateddate.md
-            - name: Emplacement MS-SQL-
+            - name: emplacement MS-SQL
               href: a-ms-sql-location.md
             - name: MS-SQL-mémoire
               href: a-ms-sql-memory.md
@@ -2940,7 +2940,7 @@
               href: a-ms-sql-namedpipe.md
             - name: MS-SQL-PublicationURL
               href: a-ms-sql-publicationurl.md
-            - name: MS-SQL-serveur de publication
+            - name: MS-SQL-Publisher
               href: a-ms-sql-publisher.md
             - name: MS-SQL-RegisteredOwner
               href: a-ms-sql-registeredowner.md
@@ -2952,7 +2952,7 @@
               href: a-ms-sql-sortorder.md
             - name: MS-SQL-SPX
               href: a-ms-sql-spx.md
-            - name: MS-SQL-État
+            - name: MS-SQL-état
               href: a-ms-sql-status.md
             - name: MS-SQL-TCPIP
               href: a-ms-sql-tcpip.md
@@ -2962,9 +2962,9 @@
               href: a-ms-sql-type.md
             - name: MS-SQL-UnicodeSortOrder
               href: a-ms-sql-unicodesortorder.md
-            - name: MS-SQL-version
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
-            - name: MS-SQL-Vines
+            - name: MS-SQL-vines
               href: a-ms-sql-vines.md
             - name: MS-TAPI-Conference-BLOB
               href: a-mstapi-conferenceblob.md
@@ -2988,9 +2988,9 @@
               href: a-mstsallowlogon.md
             - name: MS-TS-Broken-Connection-action
               href: a-mstsbrokenconnectionaction.md
-            - name: MS-TS-Connect-client-lecteurs
+            - name: ms-TS-Connecter-clients-lecteurs
               href: a-mstsconnectclientdrives.md
-            - name: MS-TS-Connect-imprimantes-lecteurs
+            - name: ms-TS-Connecter-imprimantes-lecteurs
               href: a-mstsconnectprinterdrives.md
             - name: MS-TS-par défaut-à-imprimante
               href: a-mstsdefaulttomainprinter.md
@@ -3304,29 +3304,29 @@
               href: a-personaltitle.md
             - name: Téléphone-télécopie-autre
               href: a-otherfacsimiletelephonenumber.md
-            - name: Téléphone-bureau-autre
+            - name: Téléphone-à-soi-autre
               href: a-otherhomephone.md
-            - name: Téléphone-privé-principal
+            - name: Téléphone-page d’hébergement principal
               href: a-homephone.md
-            - name: Téléphone-IP-autre
+            - name: Téléphone-Ip-autre
               href: a-otheripphone.md
-            - name: Téléphone-IP-principal
+            - name: Téléphone-Ip-principal
               href: a-ipphone.md
-            - name: Téléphone-RNIS-principal
+            - name: Téléphone-rnis-principal
               href: a-primaryinternationalisdnnumber.md
-            - name: Téléphone-mobile-autre
+            - name: Téléphone-Mobile-autres
               href: a-othermobile.md
-            - name: Téléphone-mobile-principal
+            - name: Téléphone-Mobile-principal
               href: a-mobile.md
-            - name: Téléphone-bureau-autre
+            - name: Téléphone-Office-autre
               href: a-othertelephone.md
-            - name: Téléphone-radiomessagerie-autre
+            - name: Téléphone-téléavertisseur-autre
               href: a-otherpager.md
-            - name: Téléphone-récepteur de radiomessagerie principal
+            - name: Téléphone-page de récepteur-principal
               href: a-pager.md
             - name: photos
               href: a-photo.md
-            - name: Physical-Delivery-Office-Name
+            - name: Physical-delivery-Office-Name
               href: a-physicaldeliveryofficename.md
             - name: Physical-location-Object
               href: a-physicallocationobject.md
@@ -3366,7 +3366,7 @@
               href: a-postaladdress.md
             - name: Postal-Code
               href: a-postalcode.md
-            - name: Boîte postale
+            - name: boîte de Office
               href: a-postofficebox.md
             - name: Méthode de remise par défaut
               href: a-preferreddeliverymethod.md
@@ -3454,7 +3454,7 @@
               href: a-printstarttime.md
             - name: Print-Status
               href: a-printstatus.md
-            - name: Priority
+            - name: Priorité
               href: a-priority.md
             - name: Au préalable-à l’heure définie
               href: a-priorsettime.md
@@ -3518,7 +3518,7 @@
               href: a-remotesource.md
             - name: Remote-source-type
               href: a-remotesourcetype.md
-            - name: Remote-Storage-GUID
+            - name: GUID Stockage à distance
               href: a-remotestorageguid.md
             - name: Replica-Source
               href: a-replicasource.md
@@ -3762,7 +3762,7 @@
               href: a-timerefresh.md
             - name: Temps-vol-modification
               href: a-timevolchange.md
-            - name: Intitulé
+            - name: Titre
               href: a-title.md
             - name: Token-Groups
               href: a-tokengroups.md
@@ -3971,7 +3971,7 @@
               href: a-msds-disableforinstances.md
             - name: ms-DS-Disable-for-instances-BL
               href: a-msds-disableforinstancesbl.md
-            - name: ms-DS-sortie-revendications-transformation-stratégie
+            - name: ms-DS-Egress-revendications-Transformation-stratégie
               href: a-msds-egressclaimstransformationpolicy.md
             - name: Fonctionnalité ms-DS-Enabled
               href: a-msds-enabledfeature.md
@@ -4067,7 +4067,7 @@
               href: a-msds-tasksforaztask.md
             - name: ms-DS-tâches-pour-AZ-Task-BL
               href: a-msds-tasksforaztaskbl.md
-            - name: ms-DS-TDO-sortie-BL
+            - name: ms-DS-TDO-Egress-BL
               href: a-msds-tdoegressbl.md
             - name: ms-DS-TDO-entrée-BL
               href: a-msds-tdoingressbl.md
@@ -4266,15 +4266,15 @@
               href: a-mssfu30ordernumber.md
             - name: msSFU-30-YP-serveurs
               href: a-mssfu30ypservers.md
-            - name: MS-SPP-KMS-IDS
+            - name: ms-SPP-KMS-id
               href: a-msspp-kmsids.md
             - name: Alias MS-SQL
               href: a-ms-sql-alias.md
-            - name: Base de données MS-SQL
+            - name: MS-SQL-base de données
               href: a-ms-sql-database.md
             - name: MS-SQL-nom
               href: a-ms-sql-name.md
-            - name: MS-SQL-version
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
             - name: ms-TPM-SRK-pub-empreinte
               href: a-mstpm-srkpubthumbprint.md
@@ -4328,7 +4328,7 @@
               href: a-ou.md
             - name: Package-Flags
               href: a-packageflags.md
-            - name: Physical-Delivery-Office-Name
+            - name: Physical-delivery-Office-Name
               href: a-physicaldeliveryofficename.md
             - name: Physical-location-Object
               href: a-physicallocationobject.md
@@ -4549,11 +4549,11 @@
               href: a-msrrasattribute.md
             - name: Alias MS-SQL
               href: a-ms-sql-alias.md
-            - name: Base de données MS-SQL
+            - name: MS-SQL-base de données
               href: a-ms-sql-database.md
             - name: MS-SQL-nom
               href: a-ms-sql-name.md
-            - name: MS-SQL-version
+            - name: MS-SQL-Version
               href: a-ms-sql-version.md
             - name: Netboot-GUID
               href: a-netbootguid.md
@@ -4579,11 +4579,11 @@
               href: a-partialattributedeletionlist.md
             - name: Partial-attribute-set
               href: a-partialattributeset.md
-            - name: Téléphone-privé-principal
+            - name: Téléphone-page d’hébergement principal
               href: a-homephone.md
-            - name: Téléphone-IP-autre
+            - name: Téléphone-Ip-autre
               href: a-otheripphone.md
-            - name: Téléphone-IP-principal
+            - name: Téléphone-Ip-principal
               href: a-ipphone.md
             - name: PKI-Critical-extensions
               href: a-pkicriticalextensions.md
@@ -4738,7 +4738,7 @@
               href: a-msds-phoneticfirstname.md
             - name: ms-DS-phonétique-Last-Name
               href: a-msds-phoneticlastname.md
-            - name: Physical-Delivery-Office-Name
+            - name: Physical-delivery-Office-Name
               href: a-physicaldeliveryofficename.md
             - name: Proxy-Addresses
               href: a-proxyaddresses.md
@@ -4761,7 +4761,7 @@
           href: s-enumeration-export-information-level.md
         - name: Énumération (par défaut-Delivery-Method)
           href: s-enumeration-preferred-delivery-method.md
-        - name: Integer
+        - name: Entier
           href: s-integer.md
         - name: Intervalle
           href: s-interval.md

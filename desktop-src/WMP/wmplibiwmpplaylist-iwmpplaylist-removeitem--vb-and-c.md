@@ -3,9 +3,9 @@ title: IWMPPlaylist removeItem, méthode
 description: La méthode removeItem supprime l’élément multimédia spécifié de la sélection.
 ms.assetid: 8b5a4c34-863d-4963-97c8-cc5aa2223ab5
 keywords:
-- méthode removeItem lecteur Windows Media
-- méthode removeItem lecteur Windows Media, interface IWMPPlaylist
-- Interface IWMPPlaylist lecteur Windows Media, removeItem, méthode
+- removeItem, méthode Lecteur Windows Media
+- removeItem, méthode Lecteur Windows Media, IWMPPlaylist, interface
+- Lecteur Windows Media de l’interface IWMPPlaylist, méthode removeItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec845b7657e04f17c47119dd169032ebe5815786
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 01ea9250cc7e368699a916b4c87f419fc5b0b66001a4d7ca12afd5587a0adda7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246426"
 ---
 # <a name="iwmpplaylistremoveitem-method"></a>IWMPPlaylist :: removeItem, méthode
 
@@ -64,7 +64,7 @@ Interface **wmplib. IWMPMedia** qui représente l’élément multimédia à sup
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément supprimé est la piste en cours de lecture, la lecture s’arrête et l’élément suivant dans la sélection devient le suivi actuel.
 

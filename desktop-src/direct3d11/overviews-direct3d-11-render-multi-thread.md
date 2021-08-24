@@ -4,12 +4,12 @@ description: Direct3D 11 implémente la prise en charge de la création et du re
 ms.assetid: 1bf50927-268b-4471-b059-819adf2189a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4de7ca3e7e00ffba0c728aef334f21efc18899
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 718d80d9b70db0d6102d746168f338ddd8099339cee349724d87036714b16580
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124324"
 ---
 # <a name="multithreading"></a>MultiThreading
 
