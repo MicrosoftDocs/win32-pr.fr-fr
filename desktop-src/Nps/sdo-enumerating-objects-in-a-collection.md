@@ -5,19 +5,19 @@ ms.assetid: 664e4d99-48ed-4948-b816-e92ad1ca3ece
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f3c543e01f3c8f154628c6e204aff53c6ad210
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77b0399a75e9301fcdb5e88e6f30b7e0b2ef66160fa05136ed43b51fa8e80eca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742109"
 ---
 # <a name="enumerating-objects-in-a-collection"></a>Énumération d’objets dans une collection
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 Le code suivant énumère les protocoles de la collection de protocoles NPS.
 
@@ -122,7 +122,7 @@ Le code suivant énumère les protocoles de la collection de protocoles NPS.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les variables vtName et vtProtocol sont de type [ \_ Variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)). Un objet [ \_ Variant \_ t](/previous-versions/visualstudio/visual-studio-6.0/aa278648(v=vs.60)) encapsule, ou encadre, le type de données **Variant** . La classe gère l’allocation et la désallocation des ressources et effectue des appels de fonction vers [**VariantInit**](/windows/win32/api/oleauto/nf-oleauto-variantinit) et [**VariantClear**](/windows/win32/api/oleauto/nf-oleauto-variantclear) , selon le cas.
 
@@ -157,6 +157,6 @@ Les variables vtName et vtProtocol sont de type [ \_ Variant \_ t](/previous-ver
 [**DIFFÉRENT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

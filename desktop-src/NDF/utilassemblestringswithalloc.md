@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dae121b1d5f2d968f696190c64828be91adc71da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38473f45e2bd4c53b964bb38ec285cdf3eea091a96d72684c1d801b949f4d0a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801729"
 ---
 # <a name="utilassemblestringswithalloc-function"></a>UtilAssembleStringsWithAlloc fonction)
 
@@ -48,9 +48,9 @@ HRESULT UtilAssembleStringsWithAlloc(
 *Mémoire tampon* \[ à\]
 </dt> <dd>
 
-Tapez : **LPWStr \** _
+Type : **LPWStr \***
 
-Emplacement où la chaîne qui vient d’être allouée sera placée. Lorsque la chaîne n’est plus nécessaire, elle doit être libérée avec [_ *CoTaskMemFree* *](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
+Emplacement où la chaîne qui vient d’être allouée sera placée. Lorsque la chaîne n’est plus nécessaire, elle doit être libérée avec [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree).
 
 </dd> <dt>
 
@@ -129,8 +129,8 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

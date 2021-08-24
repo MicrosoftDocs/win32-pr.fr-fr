@@ -4,12 +4,12 @@ ms.assetid: e23894ca-edc7-49e6-bcc4-c82f357ecedf
 title: Boîtes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6886e8d6f08206c6104db22c050aa6bb9859f96f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f72a4bc50c2cb563894ce9b7c616f9ae86cd9ae6e4abb966c78475c504c75f54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716829"
 ---
 # <a name="mailslots"></a>Boîtes
 
@@ -19,7 +19,7 @@ Un *mailslot* est un mécanisme de communication interprocessus (IPC) unidirecti
 -   [Utilisation de mailslots](using-mailslots.md)
 -   [Référence mailslot](mailslot-reference.md)
 
-Vous pouvez choisir d’utiliser des [canaux nommés](named-pipes.md) ou des [sockets Windows](/windows/desktop/WinSock/windows-sockets-start-page-2) au lieu de mailslots pour les communications entre processus. Les canaux nommés sont un moyen simple pour deux processus d’échanger des messages. Les mailslots, quant à eux, sont un moyen simple pour un processus de diffuser des messages à plusieurs processus. Un point important à prendre en compte est que les messages MailSlots diffusent des messages à l’aide de datagrammes. Un *datagramme* est un petit paquet d’informations que le réseau envoie le long du câble. À l’instar d’une diffusion de radio ou de télévision, un datagramme n’offre aucune confirmation de réception. Il n’existe aucun moyen de garantir qu’un datagramme a été reçu. Tout comme les montagnes, les grands bâtiments ou les signaux interférants peuvent entraîner la perte d’un signal de radio ou de télévision, il existe des éléments qui peuvent empêcher un datagramme d’atteindre une destination particulière. Les canaux nommés sont similaires aux appels téléphoniques : vous communiquez uniquement à un tiers, mais vous savez que le message est reçu.
+vous pouvez choisir d’utiliser des [canaux nommés](named-pipes.md) ou [Windows des sockets](/windows/desktop/WinSock/windows-sockets-start-page-2) au lieu de mailslots pour les communications entre processus. Les canaux nommés sont un moyen simple pour deux processus d’échanger des messages. Les mailslots, quant à eux, sont un moyen simple pour un processus de diffuser des messages à plusieurs processus. Un point important à prendre en compte est que les messages MailSlots diffusent des messages à l’aide de datagrammes. Un *datagramme* est un petit paquet d’informations que le réseau envoie le long du câble. À l’instar d’une diffusion de radio ou de télévision, un datagramme n’offre aucune confirmation de réception. Il n’existe aucun moyen de garantir qu’un datagramme a été reçu. Tout comme les montagnes, les grands bâtiments ou les signaux interférants peuvent entraîner la perte d’un signal de radio ou de télévision, il existe des éléments qui peuvent empêcher un datagramme d’atteindre une destination particulière. Les canaux nommés sont similaires aux appels téléphoniques : vous communiquez uniquement à un tiers, mais vous savez que le message est reçu.
 
  
 

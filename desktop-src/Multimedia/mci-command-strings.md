@@ -7,12 +7,12 @@ keywords:
 - Informations de référence sur MCI, chaînes de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7298a1ad4d571446532f7198e5bd41ae988194e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cc2934f8770c7a68db7f1706705424d554bbd5f4840a7e19b0c57b695a9bad90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784609"
 ---
 # <a name="mci-command-strings"></a>Chaînes de commande MCI
 
@@ -35,7 +35,7 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**chargera**](load.md)
 -   [**marque**](mark.md)
 -   [**socle**](monitor.md)
--   [**afficher**](open.md)
+-   [**ouvert**](open.md)
 -   [**coller**](paste.md)
 -   [**suspen**](pause.md)
 -   [**répétition**](play.md)
@@ -53,7 +53,7 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 -   [**settimecode**](settimecode.md)
 -   [**settuner**](settuner.md)
 -   [**setvideo**](setvideo.md)
--   [**témoin**](signal.md)
+-   [**signal**](signal.md)
 -   [**toupie**](spin.md)
 -   [**status**](status.md)
 -   [**première**](step.md)
@@ -72,6 +72,6 @@ Les chaînes de commande suivantes sont utilisées avec MCI.
 [Référence MCI](mci-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

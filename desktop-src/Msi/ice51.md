@@ -4,12 +4,12 @@ ms.assetid: 5a57ba6e-d1fe-44ab-b72d-52b1f212c322
 title: ICE51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38082d754564eead6d60a62e3b4cdcf9b1f0f94f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1187ad79aa23ca26ade28ecf92e6cde60beb9c8cc56540bec85f2ab1ae467f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763889"
 ---
 # <a name="ice51"></a>ICE51
 
@@ -19,11 +19,11 @@ Vous devez fournir un titre pour une ressource de police qui n’a pas de nom in
 
 **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** ICE51 ne vérifie pas les fichiers de ressources de police. otf.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE51 publie une erreur s’il existe des fichiers de ressources de police. TTC,. ttf et. OTF avec des titres. ICE51 publie un avertissement s’il existe d’autres fichiers de ressources de police sans titre.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE51 signale l’avertissement suivant pour l’exemple indiqué.
 

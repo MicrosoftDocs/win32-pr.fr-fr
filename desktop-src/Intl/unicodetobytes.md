@@ -34,12 +34,12 @@ api_name:
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 66ed21768c3acef7f2aa2128df057da8552b2ad2
-ms.sourcegitcommit: 1f6a1bfc1c4bb2641bc3ba44beb1f2727c94681b
+ms.openlocfilehash: 01109763644dc04aeb398e5fc64e221cd5f3d18870df2654fa5348bc163a277c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "103679502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764724"
 ---
 # <a name="unicodetobytes-function"></a>UnicodeToBytes fonction)
 
@@ -47,7 +47,7 @@ ms.locfileid: "103679502"
 
 Action déconseillée. Convertit les caractères Unicode en octets GB18030.
 
-**Remarque**  Lors de la conversion de caractères Unicode en octets GB18030, une application à exécuter sur Windows Vista et les versions ultérieures doit utiliser la fonction [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) .
+**Remarque**  lors de la conversion de caractères Unicode en octets GB18030, une application à exécuter sur Windows Vista et versions ultérieures doit utiliser la fonction [WideCharToMultiByte](/windows/desktop/api/stringapiset/nf-stringapiset-widechartomultibyte) .
 
 ```cpp
 DWORD UnicodeToBytes(
@@ -82,7 +82,7 @@ Si *cchMultiByte* est égal à 0, le nombre d’octets du résultat GB18030 est 
 
 Retourne le nombre d’octets des caractères multioctets qui sont générés, en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="see-also"></a>Voir aussi
 

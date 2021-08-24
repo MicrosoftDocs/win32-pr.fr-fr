@@ -3,19 +3,19 @@ title: Exemple de section Trackbars
 description: Exemple de section Trackbars
 ms.assetid: b336a034-12ad-480e-8ec8-9c6d2bd9196f
 keywords:
-- Windows Media Player Mobile Skins, trackbars
+- Lecteur Windows Media Skins mobiles, trackbars
 - habillages, trackbars
 - informations de référence sur les habillages, trackbars
 - trackbars dans les habillages, section Trackbars
 - fichiers de définition d’apparence, section Trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 042f99c6696b756b6c2c86a5694f8469ea90cb9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 74bcdaf1049c7a022a0231c80e0f91df9f42e7bc55e64f1222ad2f3614940ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763849"
 ---
 # <a name="sample-trackbars-section"></a>Exemple de section Trackbars
 
@@ -42,9 +42,9 @@ L’exemple précédent définit un TrackBar qui permet à l’utilisateur de re
 [**Trackbars**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

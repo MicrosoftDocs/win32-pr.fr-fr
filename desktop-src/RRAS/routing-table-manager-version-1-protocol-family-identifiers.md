@@ -7,16 +7,16 @@ keywords:
 - Gestionnaire de routage de la version 1 RRAS, identificateurs de famille de protocole
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0b297bc0b5d1b6f669df19e069c08216cdb998
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bb5187c66a5caaf2c36b1bd1cbd886b1f80cf826444f1d4137c6b45c3e72397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740978"
 ---
 # <a name="routing-table-manager-version-1-protocol-family-identifiers"></a>Identificateurs de famille de protocole du gestionnaire de tables de routage version 1
 
-**Windows Server 2003 :** Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
+**Windows Server 2003 :** cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
 
 Les identificateurs de transport suivants sont répertoriés dans RTM. h. Utilisez ces identificateurs avec l’API RTMv1.
 
@@ -29,7 +29,7 @@ Les identificateurs de transport suivants sont répertoriés dans RTM. h. Utilis
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -38,9 +38,9 @@ Les identificateurs de transport suivants sont répertoriés dans RTM. h. Utilis
 [Référence de la version 1 du gestionnaire de tables de routage](routing-table-manager-version-1-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

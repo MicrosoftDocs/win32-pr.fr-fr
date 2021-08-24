@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be4e236254486cd512eed480b380058048061fd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 186f6c3da7371c82f7771261adbf09814ad16481a97050753b23ea8b3b5226cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836728"
 ---
 # <a name="server-state-attribute"></a>Attribut Server-State
 
@@ -27,7 +27,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |-------------------|--------------------------------------|
 | CN                | Server-State                         |
 | LDAP-Display-Name | serverState                          |
@@ -36,7 +36,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 | Fréquence des mises à jour  | Lorsque la stratégie d’un utilisateur change.  |
 | Attribute-Id      | 1.2.840.113556.1.4.154               |
 | System-ID-GUID    | bf967a34-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -53,7 +53,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -74,7 +74,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -95,7 +95,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -116,7 +116,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -137,7 +137,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -158,7 +158,7 @@ Indique si le serveur est activé ou désactivé. La valeur 1 indique que le ser
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|-------------------------------------------------------|
 | ID de lien                | \-                                                    |
 | MAPI-Id                | \-                                                    |

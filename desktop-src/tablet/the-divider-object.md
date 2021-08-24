@@ -4,12 +4,12 @@ ms.assetid: 979b5a8d-9311-478e-976b-9b3c27a199bc
 title: Objet de séparateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11bc1961100544de6bae9de7fabe547344690d74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8e65757021b6374f823f88d02c441bdceb8536cb2f68fdd37eaa7cde099895f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119819779"
 ---
 # <a name="the-divider-object"></a>Objet de séparateur
 

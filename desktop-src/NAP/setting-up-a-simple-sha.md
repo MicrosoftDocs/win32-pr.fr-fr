@@ -4,26 +4,26 @@ description: L’exemple suivant configure un simple agent d’intégrité syst�
 ms.assetid: 7c96e1ca-f9b2-40e6-bd89-c8ef77b48dfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef60b7ab9e390289a9bc1a2c3a00dd81ccf46240
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 94625e99f604fd282a5b1177992f6e9e413b30d35f61767ad7231315dddfab53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119780739"
 ---
 # <a name="setting-up-a-simple-sha"></a>Configuration d’un SHA simple
 
 > [!Note]  
 > La plate-forme de protection d’accès réseau n’est pas disponible à partir de Windows 10
 
- 
+ 
 
 L’exemple suivant configure un simple agent d’intégrité système (SHA) et affiche deux actions facultatives : notification de modification de déclaration d’intégrité (SoH) et vidage du cache SoH. Notez que le traitement des erreurs n’est pas inclus dans la fonction main () pour des raisons de simplicité dans cet exemple.
 
 > [!Note]  
 > Le kit de développement logiciel (SDK) NAP contient également un ensemble complet d’exemples de code, qui se trouvent dans le... \\ Exemples de \\ NetDS \\ NAP... Répertoire de votre installation du kit de développement logiciel (SDK). Cet exemple de jeu comprend un SHA, un programme de validation d’intégrité système (SHV) et un client de contrainte (EC). Il dispose de scénarios de protection d’accès réseau complets qui configurent la communication entre SHA-SHV et SHA-EC.
 
- 
+ 
 
 
 ```C++
@@ -221,9 +221,9 @@ STDMETHODIMP ShaCallback::GetFixupInfo(FixupInfo** ppStatus)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

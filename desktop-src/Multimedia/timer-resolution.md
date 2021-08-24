@@ -16,16 +16,16 @@ keywords:
 - timeEndPeriod fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e96f1b410f2e18203af794ea124bb6b83bccce
-ms.sourcegitcommit: a0b531d335bc691100149830b256d5af7e136c24
+ms.openlocfilehash: 948e81228acec27e41d43d41de7393ad64345acce25a450e91c815b1bbbf5164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "103670861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781829"
 ---
 # <a name="timer-resolution"></a>Résolution de la minuterie
 
-Pour déterminer les résolutions minimale et maximale des minuteries prises en charge par les services du minuteur, utilisez la fonction [**timeGetDevCaps**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetdevcaps) . Cette fonction remplit les membres **wPeriodMin** et **wPeriodMax** de la structure [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps) avec les résolutions minimale et maximale. Cette plage peut varier entre les ordinateurs et les plateformes Windows.
+Pour déterminer les résolutions minimale et maximale des minuteries prises en charge par les services du minuteur, utilisez la fonction [**timeGetDevCaps**](/windows/desktop/api/TimeAPI/nf-timeapi-timegetdevcaps) . Cette fonction remplit les membres **wPeriodMin** et **wPeriodMax** de la structure [**TIMECAPS**](/windows/desktop/api/TimeAPI/ns-timeapi-timecaps) avec les résolutions minimale et maximale. cette plage peut varier d’un ordinateur à l’autre Windows plateformes.
 
 Une fois que vous avez déterminé les résolutions minimale et maximale disponibles du minuteur, vous devez définir la résolution minimale que votre application doit utiliser. Utilisez les fonctions [**timeBeginPeriod**](/windows/desktop/api/TimeAPI/nf-timeapi-timebeginperiod) et [**timeEndPeriod**](/windows/desktop/api/TimeAPI/nf-timeapi-timeendperiod) pour définir et effacer cette résolution. Vous devez faire correspondre chaque appel à **timeBeginPeriod** avec un appel à **timeEndPeriod**, en spécifiant la même résolution minimale dans les deux appels. Une application peut effectuer plusieurs appels **timeBeginPeriod** , à condition que chaque appel corresponde à un appel à **timeEndPeriod**.
 
@@ -38,9 +38,9 @@ Dans [**timeBeginPeriod**](/windows/desktop/api/TimeAPI/nf-timeapi-timebeginperi
 [À propos des minuteurs multimédias](about-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,21 +4,21 @@ description: FillType VML (attribut)
 ms.assetid: c6870100-8fb9-4589-9b83-cd46cc17eeb3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e880f7d13c7db647c586431f492a301ccf1aba0b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0264fe6cd8cd3dfb7592aea25ef855fda01632647b23f0ab2cffe84c4c504918
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119680799"
 ---
 # <a name="vml-filltype-attribute"></a>FillType VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit le type de remplissage utilisé pour l’arrière-plan d’un trait. En lecture/écriture. **VgFillType**.
 
@@ -51,7 +51,7 @@ Ces valeurs comprennent :
 
 
 
- 
+ 
 
 *Attribut standard VML*
 
@@ -71,6 +71,6 @@ Le trait de la forme a une texture en mosaïque créée à partir de l’image c
 
 
 
- 
+ 
 
- 
+ 

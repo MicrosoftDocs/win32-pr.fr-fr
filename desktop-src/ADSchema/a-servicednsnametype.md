@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 369bf644cac226788332cb4a2935973a5d5ffeae
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: df79e8b7a0f6034e52c56c420777602994ba0adbcc7c535340d36f3e975027ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836629"
 ---
 # <a name="service-dns-name-type-attribute"></a>Attribut de type nom-DNS du service
 
@@ -45,7 +45,7 @@ Type d’enregistrement DNS à rechercher pour ce service. Par exemple, A ou SRV
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a310daf30127aec5069efcf7ca4fd5ead9277e6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be3968f52065259cb69ad35721dffd3ac606da98e4189edaad1b762120f5a008
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681579"
 ---
 # <a name="msvm_ethernetportallocationsettingdata-class"></a>MSVM \_ EthernetPortAllocationSettingData, classe
 
@@ -188,7 +188,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **MaxLen** (64)
 </dt> </dl>
 
-Brève description de l’objet. Cette propriété est héritée de [**CIM \_ propriété ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres de port de commutateur Ethernet ».
+Brève description de l’objet. cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Port de commutateur Ethernet Paramètres ».
 
 </dd> <dt>
 
@@ -245,7 +245,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Description de l'objet . Cette propriété est héritée de [**CIM \_ propriété ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres de port de commutateur Ethernet ».
+Description de l'objet . cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Port de commutateur Ethernet Paramètres ».
 
 </dd> <dt>
 
@@ -567,8 +567,8 @@ Plage : 0 1000
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

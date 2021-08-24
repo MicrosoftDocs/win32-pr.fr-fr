@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS_END (VFW. h)
-description: Le message de fin de compression ICM \_ \_ indique à un pilote de compression vidéo d’arrêter la compression et les ressources gratuites allouées pour la compression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressEnd.
+description: le \_ message ICM compresser la \_ fin indique à un pilote de compression vidéo d’arrêter la compression et les ressources gratuites allouées à la compression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressEnd.
 ms.assetid: 5d4b5962-c4f0-44eb-a3a9-36026f167a5a
 keywords:
-- Message ICM_COMPRESS_END Windows Multimedia
+- message ICM_COMPRESS_END Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 320cc99ed4223b7919b85d2b39e15d4d9b76aa90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c320190da37d286db1c20329a849ea09ac6d915087e9d3bdbb2333d31cec3e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785039"
 ---
-# <a name="icm_compress_end-message"></a>Message de fin de \_ compression ICM \_
+# <a name="icm_compress_end-message"></a>ICM \_ Compresser le \_ message de fin
 
-Le message de **\_ \_ fin** de compression ICM indique à un pilote de compression vidéo d’arrêter la compression et les ressources gratuites allouées pour la compression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) .
+le message **ICM \_ compresser la \_ fin** indique à un pilote de compression vidéo d’arrêter la compression et les ressources gratuites allouées à la compression. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressEnd**](/windows/desktop/api/Vfw/nf-vfw-iccompressend) .
 
 
 ```C++
@@ -38,9 +38,9 @@ lParam = 0;
 
 Retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-VCM enregistre les paramètres du message de début de la [**\_ \_ compression ICM**](icm-compress-begin.md) le plus récent. **ICM \_ Les \_** **\_ \_ terminaisons** de compression Begin et ICM ne sont pas imbriquées. Si votre pilote reçoit la compression ICM avant que la compression soit arrêtée avec la **\_ \_ terminaison** de compression ICM, il doit redémarrer la compression avec les nouveaux paramètres. **\_ \_**
+VCM enregistre les paramètres du message de [**début de \_ compression \_ ICM**](icm-compress-begin.md) le plus récent. **ICM \_ les \_** **\_ \_ terminaisons** de compression BEGIN et ICM ne sont pas imbriquées. si votre pilote reçoit **ICM la compression \_ \_ commencent** avant l’arrêt de la compression avec **ICM \_ \_ fin** de compression, il doit redémarrer la compression avec les nouveaux paramètres.
 
 ## <a name="requirements"></a>Configuration requise
 

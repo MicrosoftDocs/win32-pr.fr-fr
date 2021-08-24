@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 97d0b8ee90407efd94ac46cc1df6b084b9dcc54d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2851ae779bf1693d44642f87d33a71c17000e9dc0b68eeb8daab83972b37457d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800329"
 ---
 # <a name="globalflags-wlanpolicy-element"></a>Élément globalFlags (WLANPolicy)
 
@@ -57,7 +57,7 @@ L’élément **globalFlags** est défini par l’élément [**WLANPolicy**](wla
 |----------------------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------|
 | [**allowEveryoneToCreateAllUserProfiles**](wlan-policyschema-alloweveryonetocreatealluserprofiles-globalflags-element.md) | boolean | Spécifie si un utilisateur peut créer un profil tous les utilisateurs. <br/>                                                               |
 | [**enableAutoConfig**](wlan-policyschema-enableautoconfig-globalflags-element.md)                                         | boolean | Spécifie si les ordinateurs utilisent le service de configuration automatique intégré (AutoConfig) pour gérer les connexions sans fil. <br/> |
-| [**showDeniedNetwork**](wlan-policyschema-showdeniednetwork-globalflags-element.md)                                       | boolean | Spécifie si les réseaux refusés s’affichent dans l’Assistant **connexion à un réseau** . <br/>                                         |
+| [**showDeniedNetwork**](wlan-policyschema-showdeniednetwork-globalflags-element.md)                                       | boolean | spécifie si les réseaux refusés s’affichent dans le **Connecter à un assistant réseau** . <br/>                                         |
 
 
 
@@ -67,8 +67,8 @@ L’élément **globalFlags** est défini par l’élément [**WLANPolicy**](wla
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

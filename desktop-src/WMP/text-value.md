@@ -3,7 +3,7 @@ title: TEXT. Value
 description: L’attribut value spécifie ou récupère le texte affiché dans le contrôle de texte.
 ms.assetid: dbc50be2-ee18-4661-a343-9e906879aba0
 keywords:
-- TEXT. Value lecteur Windows Media
+- TEXT. value Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d87f688f7afffeb588a37ac13ebff4cdc7cc105
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8eef6b17428831a52a0e3cf5b8f8ec3dd7f795d5d4b78e2c4700a6274b877820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762859"
 ---
 # <a name="textvalue"></a>TEXT. Value
 
@@ -31,7 +31,7 @@ L’attribut **value** spécifie ou récupère le texte affiché dans le contrô
 
 Cet attribut est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la largeur du contrôle de texte est insuffisante pour contenir le texte fourni, le texte est rogné et des points de suspension s’affichent pour illustrer le fait. Si l’attribut **ToolTip** n’a pas été défini, le texte complet s’affiche alors sous la forme d’une info-bulle lorsque le curseur pointe sur le contrôle.
 

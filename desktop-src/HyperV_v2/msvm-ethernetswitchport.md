@@ -80,12 +80,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 76c43cbe8dd053808085346b1874781f354b20dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2c7e5921694eef7f0b18b4668b8d0034c49f7fbb31c898fea1f25216944dd3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119681519"
 ---
 # <a name="msvm_ethernetswitchport-class"></a>MSVM \_ EthernetSwitchPort, classe
 
@@ -182,7 +182,7 @@ La classe **MSVM \_ EthernetSwitchPort** possède ces méthodes.
 | **OnlineDevice**                                                         | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                                        | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-ethernetswitchport-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-ethernetswitchport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-ethernetswitchport-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                                    | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                                       | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                                        | Cette méthode n'est pas prise en charge.<br/> |
@@ -1043,7 +1043,7 @@ Dernier État demandé ou souhaité pour l’élément. Cette propriété est h�
 
 </dd> <dt>
 
-**Vitesse**
+**Temps**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt64**
@@ -1225,8 +1225,8 @@ La file d’attente d’ordinateurs virtuels actuelle déchargement de l’utili
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

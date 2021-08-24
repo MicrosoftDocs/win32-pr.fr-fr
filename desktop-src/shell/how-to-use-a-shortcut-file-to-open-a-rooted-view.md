@@ -3,12 +3,12 @@ description: Vous pouvez lancer une vue enracinée d’un point de jonction par 
 title: Comment ouvrir une vue enracinée d’un point de jonction à l’aide d’un fichier de raccourci
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52096f0dbbcebadb60e2612f0304ed497199b2ed
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 9337caa955164dad36456feb7d58efd8768928429c06d22e90d9fbbf28e68bd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714889"
 ---
 # <a name="how-to-open-a-rooted-view-of-a-junction-point-through-a-shortcut-file"></a>Comment ouvrir une vue enracinée d’un point de jonction à l’aide d’un fichier de raccourci
 

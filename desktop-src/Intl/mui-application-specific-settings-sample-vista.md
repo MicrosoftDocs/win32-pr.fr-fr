@@ -1,19 +1,19 @@
 ---
-description: 'MUI : exemple de paramètres Application-Specific (Windows Vista)'
+description: 'MUI : exemple de Paramètres Application-Specific (Windows Vista)'
 ms.assetid: 348a51fb-aad1-4255-a5a2-224d5c94d762
-title: 'MUI : exemple de paramètres Application-Specific (Windows Vista)'
+title: 'MUI : exemple de Paramètres Application-Specific (Windows Vista)'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9583e606a0f9023d02a4ef804fee22c56818a75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 664b87af02e9c24a0eacd9191f9e007804672429d433c5d832dc0fbdd98e359b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765019"
 ---
-# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI : exemple de paramètres Application-Specific (Windows Vista)
+# <a name="mui-application-specific-settings-sample-windows-vista"></a>MUI : exemple de Paramètres Application-Specific (Windows Vista)
 
-L’exemple d’application décrit dans cette rubrique est une autre application Hello MUI qui prend en charge les paramètres spécifiques à l’application pour ses langages d’interface utilisateur et s’exécute sur Windows Vista et versions ultérieures.
+l’exemple d’application décrit dans cette rubrique est une autre application Hello MUI qui prend en charge les paramètres spécifiques à l’application pour ses langues d’interface utilisateur et s’exécute sur Windows Vista et versions ultérieures.
 
 Cette application commence par analyser une liste de langues délimitée dans un fichier texte et la convertit en une liste de langues à plusieurs chaînes pour définir les préférences linguistiques spécifiques à l’application. Les délimiteurs pris en charge dans l’exemple sont « , », « ; », «  : » et «». Après l’analyse de la liste, le code recherche et charge les ressources dans le langage identifié, comme le fait l’exemple des paramètres système. Ce code charge et libère les fichiers de ressources à l’aide d’appels aux fonctions de chargeur de ressources [**LoadLibraryEx**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryexa) et [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary).
 

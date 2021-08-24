@@ -4,16 +4,16 @@ ms.assetid: 22b1eb48-e1ef-4694-a1dc-b2de326989c8
 title: 'ITMediaCollection :: get__NewEnum, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6683ce0a00f0128cb959dd5a2c39e8b06382f65d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 759ac5a36324e80e4f2ef3ab49f7e8617aa5d3f5faecb61ca7f8c2de82827354
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682679"
 ---
 # <a name="itmediacollectionget__newenum-method"></a>ITMediaCollection :: obtient la \_ \_ méthode NewEnum
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ \_ NewEnum** retourne un énumérateur pour la collection.
 
@@ -43,7 +43,7 @@ Pour plus d'informations, consultez la section Notes qui suit.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -61,7 +61,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est interchangeable avec la méthode [**\_ EnumerationIf**](itmediacollection-get-enumerationif.md) , sauf qu’elle retourne **IUnknown** au lieu de [**IEnumMedia**](ienummedia.md).
 

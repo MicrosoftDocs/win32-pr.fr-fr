@@ -4,12 +4,12 @@ ms.assetid: 7c05639d-7324-4132-9d8d-f6bdd38b8e88
 title: System. AcquisitionID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7b391509a62f1685f1277754d6cef4ef9c85906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cfcc7651ed449dcd4c6b70fb0cb4a17f30c42c2e28aa1b219e0d531aa5ae36d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119718009"
 ---
 # <a name="systemacquisitionid"></a>System. AcquisitionID
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Int32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

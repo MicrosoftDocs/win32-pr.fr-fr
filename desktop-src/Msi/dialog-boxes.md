@@ -1,23 +1,23 @@
 ---
 description: Les boîtes de dialogue sont spécifiées dans la colonne boîte de dialogue de la table boîte de dialogue. Pour plus d’informations sur l’ajout d’une boîte de dialogue ou d’un tableau blanc à une interface utilisateur, consultez Utilisation de l’interface utilisateur.
 ms.assetid: 7cecb1c6-3dc3-48a1-94b9-1976c72b7764
-title: Boîtes de dialogue (Windows Installer)
+title: boîtes de dialogue (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5695a8d936d0933983407ba52a531ea839137c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a38da0e4d562854abc32064eee06a303747c2587591a5526ae98177a13e0462a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764059"
 ---
-# <a name="dialog-boxes-windows-installer"></a>Boîtes de dialogue (Windows Installer)
+# <a name="dialog-boxes-windows-installer"></a>boîtes de dialogue (Windows Installer)
 
 Les boîtes de dialogue sont spécifiées dans la colonne boîte de dialogue de la [table boîte de dialogue](dialog-table.md). Pour plus d’informations sur l’ajout d’une boîte de dialogue ou d’un tableau blanc à une interface utilisateur, consultez [utilisation de l’interface utilisateur](using-the-user-interface.md).
 
 ## <a name="reserved-dialog-box-names"></a>Noms de boîte de dialogue réservés
 
-Les noms de boîte de dialogue suivants sont réservés par Windows Installer et ne doivent pas être utilisés pour les boîtes de dialogue personnalisées créées par l’utilisateur. Le programme d’installation requiert que ces boîtes de dialogue soient listées dans la [table de boîte de dialogue](dialog-table.md) en utilisant les noms réservés suivants. Chaque boîte de dialogue et chaque nom ne peuvent être listés qu’une seule fois. Les développeurs doivent créer ces boîtes de dialogue dans l’interface utilisateur. Pour plus d’informations sur l’aperçu des boîtes de dialogue, consultez [importation de l’interface utilisateur](importing-the-user-interface.md).
+les noms de boîte de dialogue suivants sont réservés par Windows Installer et ne doivent pas être utilisés pour les boîtes de dialogue personnalisées créées par l’utilisateur. Le programme d’installation requiert que ces boîtes de dialogue soient listées dans la [table de boîte de dialogue](dialog-table.md) en utilisant les noms réservés suivants. Chaque boîte de dialogue et chaque nom ne peuvent être listés qu’une seule fois. Les développeurs doivent créer ces boîtes de dialogue dans l’interface utilisateur. Pour plus d’informations sur l’aperçu des boîtes de dialogue, consultez [importation de l’interface utilisateur](importing-the-user-interface.md).
 
 
 
@@ -33,7 +33,7 @@ Les noms de boîte de dialogue suivants sont réservés par Windows Installer et
 
 ## <a name="required-dialog-boxes"></a>Boîtes de dialogue obligatoires
 
-Au cours de l’installation, certains événements entraînent l’Windows Installer à vérifier les tables de séquence de l' [interface utilisateur](using-a-sequence-table.md) dans le package et à afficher la boîte de dialogue spécifiée. Par exemple, dans le cas d’une erreur irrécupérable, Windows Installer affiche la boîte de dialogue qui est indiquée avec un numéro de séquence-3 dans la table séquence de l’interface utilisateur, quelle que soit la boîte de dialogue nommée dans la [table boîte de dialogue](dialog-table.md). Le tableau suivant répertorie les événements spécifiques et leur numéro de séquence correspondant dans la table de séquence de l’interface utilisateur :
+au cours de l’installation, certains événements entraînent l’Windows Installer à vérifier les tables de séquence de l' [interface utilisateur](using-a-sequence-table.md) dans le package et à afficher la boîte de dialogue spécifiée. par exemple, dans le cas d’une erreur irrécupérable, Windows Installer affiche la boîte de dialogue qui est indiquée avec un numéro de séquence-3 dans la table séquence de l’interface utilisateur, quelle que soit la boîte de dialogue nommée dans la [table boîte de dialogue](dialog-table.md). Le tableau suivant répertorie les événements spécifiques et leur numéro de séquence correspondant dans la table de séquence de l’interface utilisateur :
 
 
 
@@ -47,7 +47,7 @@ Au cours de l’installation, certains événements entraînent l’Windows Inst
 
  
 
-En outre, l’auteur du package doit créer une boîte de dialogue générique pour afficher Windows Installer des messages d' [erreur](error-dialog.md) . Cette boîte de dialogue peut être nommée tout, mais ce nom doit être spécifié dans la propriété **ErrorDialog** .
+en outre, l’auteur du package doit créer une boîte de dialogue générique pour afficher Windows Installer des messages d' [erreur](error-dialog.md) . Cette boîte de dialogue peut être nommée tout, mais ce nom doit être spécifié dans la propriété **ErrorDialog** .
 
 ## <a name="typical-dialog-boxes"></a>Boîtes de dialogue classiques
 

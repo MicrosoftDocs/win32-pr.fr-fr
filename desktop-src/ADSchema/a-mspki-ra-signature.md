@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 170793e46095e16a62d8e025ec16b67bf2be7131
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 870e10809d346fa8776da7a101bb406041be75822c62ded19f1c1f9823ffce7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761769"
 ---
 # <a name="ms-pki-ra-signature-attribute"></a>MS-PKI-RA-attribut de signature
 
@@ -36,7 +36,7 @@ Spécifie le nombre de signatures de l’autorité d’inscription d’inscripti
 | Fréquence des mises à jour  | Lorsque l’objet modèle de certificat (MS-PKI-Certificate-template) est modifié, créé ou cloné. |
 | Attribute-Id      | 1.2.840.113556.1.4.1429                                                                           |
 | System-ID-GUID    | fe17e04b-937d-4f7e-8e0e-9292c8d5683e                                                              |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)                                                              |
+| Syntaxe            | [**Énumération**](s-enumeration.md)                                                              |
 
 
 
@@ -44,7 +44,7 @@ Spécifie le nombre de signatures de l’autorité d’inscription d’inscripti
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

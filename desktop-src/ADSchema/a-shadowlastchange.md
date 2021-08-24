@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eeb8e7b75d6b1ba3b6751dc27774caf5d04935b5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 07d50e5f6ec31d950609c9503d40ede80ad7d019c649c1a26e026758fb919c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802289"
 ---
 # <a name="shadowlastchange-attribute"></a>attribut shadowLastChange
 
@@ -35,14 +35,14 @@ Contient la dernière modification des informations sur les ombres.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.3.6.1.1.1.1.5                      |
 | System-ID-GUID    | f8f2689c-29e8-4843-8177-e8b98e15eeac |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

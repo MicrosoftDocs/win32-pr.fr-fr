@@ -3,7 +3,7 @@ title: Événement StringCollectionChange de l’objet AxWindowsMediaPlayer
 description: L’événement StringCollectionChange se produit lorsqu’une collection de chaînes change. | Événement StringCollectionChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 21b66882-bff9-4482-b56c-32c9df0bc02f
 keywords:
-- Événement StringCollectionChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement StringCollectionChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5182352f7f18727a1c11e9a0ef49e8141000d299
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ceeba7942be4180d02a44ff19d63c10f9bc9df0bba745fdf69bcf10e97c3052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764658"
 ---
 # <a name="stringcollectionchange-event-of-the-axwindowsmediaplayer-object"></a>Événement StringCollectionChange de l’objet AxWindowsMediaPlayer
 
@@ -71,7 +71,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPStringCollection (VB et C#)**](iwmpstringcollection--vb-and-c.md)

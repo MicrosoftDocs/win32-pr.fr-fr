@@ -3,23 +3,23 @@ title: Appel de fonctions
 description: Appel de fonctions
 ms.assetid: c5a675f2-86fc-4f53-8d09-604ab4752d7b
 keywords:
-- Apparences du lecteur Windows Media, appel de fonctions dans JScript
+- Lecteur Windows Media des apparences, appel de fonctions dans JScript
 - apparences, appeler des fonctions dans JScript
 - appel de fonctions dans JScript
-- Fichiers JScript pour les apparences, appels de fonctions
-- Apparences du lecteur Windows Media, attribut scriptFile en JScript
+- fichiers JScript pour les apparences, appels de fonctions
+- Lecteur Windows Media skins, attribut scriptFile dans JScript
 - Skins, attribut scriptFile dans JScript
-- attributs, scriptFile en JScript
+- attributs, scriptFile dans JScript
 - attribut scriptFile dans JScript
-- Fichiers JScript pour les apparences, attribut scriptFile
+- fichiers JScript pour les apparences, attribut scriptFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9450c8ca09b75f66f6206c850a656192bb1bb9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e41b5fdfd6109292a1a42cae43e42e8424348090541fd50a8d83f04d23b8329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764269"
 ---
 # <a name="calling-functions"></a>Appel de fonctions
 
@@ -44,9 +44,9 @@ onclick = "JScript: myfunction()"
 
 
 > [!Note]  
-> Si vous avez plusieurs vues, seules les fonctions des fichiers chargés dans l’affichage actuel sont disponibles pour le code XML et JScript s’exécutant avec la vue actuelle. Les fichiers chargés dans d’autres vues ne sont pas dans la portée de l’affichage actuel.
+> si vous avez plusieurs vues, seules les fonctions des fichiers chargés dans l’affichage actuel sont disponibles dans le XML et JScript code s’exécutant avec la vue actuelle. Les fichiers chargés dans d’autres vues ne sont pas dans la portée de l’affichage actuel.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -55,9 +55,9 @@ onclick = "JScript: myfunction()"
 [**Utilisation de JScript**](using-jscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

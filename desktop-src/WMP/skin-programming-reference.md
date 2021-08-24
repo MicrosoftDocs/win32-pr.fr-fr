@@ -3,24 +3,24 @@ title: Référence de programmation de l’apparence
 description: Référence de programmation de l’apparence
 ms.assetid: 914f6045-7252-4a06-a514-d31ef6d2d03b
 keywords:
-- Lecteur Windows Media, habillages
-- Apparences du lecteur Windows Media, informations de référence sur la programmation
+- Lecteur Windows Media, apparences
+- apparences de Lecteur Windows Media, référence de programmation
 - Skins, informations de référence sur la programmation
 - référence pour les apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30194f0048f4ef66cf32b7c5f3f94c2bd4e190ab
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52803582ffa02cd4a25cbc0099bdf026e2af8ece17a08b7927669bb6df0d6cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763529"
 ---
 # <a name="skin-programming-reference"></a>Référence de programmation de l’apparence
 
 La référence de programmation de l’apparence documente les éléments suivants et leurs attributs, méthodes et événements associés.
 
-Les éléments et les attributs de cette section nécessitent le lecteur Windows Media 7,0 ou une version ultérieure, sauf indication contraire.
+les éléments et les attributs de cette section nécessitent Lecteur Windows Media 7,0 ou une version ultérieure, sauf indication contraire.
 
 
 
@@ -28,7 +28,7 @@ Les éléments et les attributs de cette section nécessitent le lecteur Windows
 |----------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [Attributs ambiants](ambient-attributes.md)             | Attributs qui s’appliquent à tous les éléments d’apparence avec des exceptions notées.                   |
 | [Gestionnaires d’événements ambiants](ambient-event-handlers.md)     | Gestionnaires d’événements qui peuvent être implémentés par la plupart des éléments d’apparence.                       |
-| [Attributs d’événement ambiant](ambient-event-attributes.md) | Attributs détaillant l’état du lecteur Windows Media lorsqu’un événement est déclenché.      |
+| [Attributs d’événement ambiant](ambient-event-attributes.md) | attributs détaillant l’état de Lecteur Windows Media lors du déclenchement d’un événement.      |
 | [MENU contextuel](automenu-element.md)                         | Offre un moyen d’afficher le panneau d’accès rapide dans une apparence.                         |
 | [BOUTON](button-element.md)                             | Bouton autonome.                                                                |
 | [BUTTONELEMENT](buttonelement-element.md)               | Bouton dans un groupe de boutons.                                                     |
@@ -45,7 +45,7 @@ Les éléments et les attributs de cette section nécessitent le lecteur Windows
 | [PLAYLIST](playlist-element.md)                         | Élément permettant de contrôler l’apparence d’une sélection dans une apparence.              |
 | [MESSAGES](popup-element.md)                               | Offre aux utilisateurs la possibilité de sélectionner des éléments dans une liste.                               |
 | [PROGRESSBAR](progressbar-element.md)                   | Fournit un moyen d’afficher des informations de progression dans un contrôle horizontal ou vertical. |
-| [PARAMÈTRES](settings-element.md)                         | Fournit l’accès à l’objet de [paramètres](settings-object.md) à partir d’une apparence.   |
+| [PARAMÈTRES](settings-element.md)                         | fournit l’accès à l’objet [Paramètres](settings-object.md) à partir d’une apparence.   |
 | [CURSEUR](slider-element.md)                             | Contrôle Slider.                                                                   |
 | [SOUS](subview-element.md)                           | Sous-sections d’une vue qui peuvent être déplacées ou masquées.                              |
 | [FINANCIÈRE](text-element.md)                                 | Contrôle contenant du texte.                                                          |
@@ -57,18 +57,18 @@ Les éléments et les attributs de cette section nécessitent le lecteur Windows
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Apparences du lecteur Windows Media**](windows-media-player-skins.md)
+[**Lecteur Windows Media Apparences**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

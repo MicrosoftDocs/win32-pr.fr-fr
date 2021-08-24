@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f0dcfb44fdcd035ca47cbe3056da2a081ef2ae07
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cfdf044adf5623a7fafd424f6051105bf83d3d0f5f4338b16b7bf3a7fe07126c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820969"
 ---
 # <a name="cim_nfs-class"></a>\_Classe NFS CIM
 
@@ -343,7 +343,7 @@ Cette propriété est héritée [**du \_ système de fichiers CIM**](cim-filesys
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**Code UNIX étendu** (6)
+**Code de UNIX étendu** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -813,7 +813,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **classe \_ NFS CIM** est dérivée de la [**\_ RemoteFileSystem CIM**](cim-remotefilesystem.md).
 

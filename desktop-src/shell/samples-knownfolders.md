@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8d3784e64986a338f6554534199852191bd06ca7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c189b315387bfbd5e6051ecc382d2ea354d18925c15b11763c28602d2015c482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820309"
 ---
 # <a name="known-folders-sample"></a>Dossiers connus, exemple
 
@@ -23,7 +23,7 @@ Montre comment définir, inscrire, énumérer et rechercher le chemin d’accès
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -33,7 +33,7 @@ Cette rubrique contient les sections suivantes.
 
 Cet exemple comprend un fichier de Registre qui montre comment inscrire un dossier connu en écrivant des clés et des valeurs de Registre communes pour les développeurs qui préfèrent l’accès au registre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

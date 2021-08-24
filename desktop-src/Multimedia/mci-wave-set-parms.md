@@ -3,7 +3,7 @@ title: Structure MCI_WAVE_SET_PARMS (Mciapi. h)
 description: La structure de l' \_ ensemble des sons MCI Wave \_ contient des \_ informations pour la \_ commande MCI Set pour les périphériques audio Waveform.
 ms.assetid: 24c26124-274f-457e-ab87-887f3bcffce3
 keywords:
-- Structure de MCI_WAVE_SET_PARMS Windows multimédia
+- structure MCI_WAVE_SET_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11446eda931da1a645b9bb6218c93898862b59bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85508ec493ecdc38825b90877e608683fe6c0bb7c099365c187a434890c605d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783749"
 ---
 # <a name="mci_wave_set_parms-structure"></a>Définition de la \_ \_ structure des PARMS MCI Wave \_
 
@@ -159,7 +159,7 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

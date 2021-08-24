@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b5e9b047dd44d637b56cae8ded9e0991c46025
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8747bddccdfa65222072592b7f418fd35529d987f9903d71cddf5e01556fec53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763259"
 ---
 # <a name="ms-ds-user-account-control-computed-attribute"></a>attribut calculé ms-DS-User-Account-Control
 
@@ -51,7 +51,7 @@ La liste complète des bits utilisés par le contrôle de [**compte**](a-useracc
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1460              |
 | System-ID-GUID    | 2cc4b836-b63f-4940-8d23-ea7acf06af56 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -60,7 +60,7 @@ La liste complète des bits utilisés par le contrôle de [**compte**](a-useracc
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
