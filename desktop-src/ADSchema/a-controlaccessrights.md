@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3ee9075cfaf4c5bbfbf17e8e2cfef6166be032
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ce45f41d97c202b0836ff3537357b1d822a330210886d87bd0de1e8f0e104923
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706829"
 ---
 # <a name="control-access-rights-attribute"></a>Attribut Control-Access-Rights
 
@@ -45,7 +45,7 @@ Utilisé par la sécurité DS pour déterminer quels utilisateurs peuvent effect
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

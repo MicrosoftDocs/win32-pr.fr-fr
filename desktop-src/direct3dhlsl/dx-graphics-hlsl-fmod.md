@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9dc4367e3aa80484098e88926567953fc8e9a90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0e35f4de2c935f88c92aa1ebde2b4fcf9e8987c7f0824b38e260b727d9d34150
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789719"
 ---
 # <a name="fmod"></a>fmod
 
@@ -51,7 +51,7 @@ Retourne le reste à virgule flottante de x/y.
 
 Reste à virgule flottante du paramètre *x* divisé par le paramètre *y* .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le reste à virgule flottante est calculé de telle sorte que x = i \* y + f, où i est un entier, f a le même signe que x, et la valeur absolue de f est inférieure à la valeur absolue de y.
 
@@ -75,16 +75,16 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui       |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | vs \_ 1 \_ 1  |
 
 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b4f035df97de2645983862dd68aa7ec80fc22d4b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce5f842f44e915d3f3240618261b501f2240c3636227f930538e1bbcbe0d9367
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726559"
 ---
 # <a name="def---ps"></a>def-PS
 
@@ -29,14 +29,14 @@ Définit des constantes à virgule flottante de nuanceur de pixels.
 
 
 
- 
+ 
 
 Où :
 
 -   l’heure d’été est le registre de destination.
 -   fValue1 à fValue4 sont des valeurs à virgule flottante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ Où :
 
 
 
- 
+ 
 
 Il existe deux façons de définir une constante à virgule flottante dans un nuanceur de pixels.
 
@@ -68,6 +68,6 @@ def définit une constante de nuanceur dont la valeur est chargée à chaque foi
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

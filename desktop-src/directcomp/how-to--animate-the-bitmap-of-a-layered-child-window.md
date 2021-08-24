@@ -4,21 +4,21 @@ description: Cette rubrique explique comment créer et animer un visuel qui util
 ms.assetid: 8912CCF9-C343-45CB-AB31-55D26C118AF2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038ae3d32fd49a8f795a35f35c6c87889e4c9406
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b882d1be2642f341e74a193605b217a9b7e2d0cc295370c7a5ec8bee4a844f03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119670969"
 ---
 # <a name="how-to-animate-the-bitmap-of-a-layered-child-window"></a>Comment animer l’image bitmap d’une fenêtre enfant en couches
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique explique comment créer et animer un visuel qui utilise l’image bitmap d’une fenêtre enfant en couches comme contenu du visuel. L’exemple décrit dans cette rubrique utilise une transformation d’échelle animée pour « agrandir » la bitmap d’une fenêtre enfant de la taille du curseur à la taille maximale. Pour plus d’informations sur les fenêtres superposées, consultez [bitmaps de fenêtre](bitmap-surfaces.md).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -1287,6 +1287,6 @@ HRESULT DemoApp::LoadResourceD2DBitmap(
 [Exemple de fenêtre enfant en couches DirectComposition](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DirectCompositionLayeredChildWindow)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 77174e06-a25b-440a-9e9c-4fd5979c433c
 title: Message WM_SETTINGCHANGE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1c3d1360b5e4cc5de2dbd23b09b8f2ad034948f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 302f156da905263ed7f3d1d331d4dbb25af5b3e81d9df6136281c7dbc7b3914c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710039"
 ---
 # <a name="wm_settingchange-message"></a>\_Message WM SETTINGCHANGE
 
@@ -65,7 +65,7 @@ Type : **LRESULT**
 
 Si vous traitez ce message, retournez zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *lParam* indique quelle mesure système a changé, par exemple « ConvertibleSlateMode » si l’indicateur ConvertibleSlateMode a été activé ou « SystemDockMode » si l’indicateur ancré a été activé.
 

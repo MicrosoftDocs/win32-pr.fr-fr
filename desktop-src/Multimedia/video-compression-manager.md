@@ -3,16 +3,16 @@ title: Gestionnaire de compression vidéo
 description: Gestionnaire de compression vidéo
 ms.assetid: df876309-68d3-43a3-9d83-6fdb8f345fdc
 keywords:
-- Video for Windows (VFW), Video Compression Manager (VCM)
+- video for Windows (VFW), video compression manager (VCM)
 - VFW (vidéo pour Windows), gestionnaire de compression vidéo (VCM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e5dd7176abde5d23bae02fdd86dfb14b5c00d98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 174ee74bd273164011ede289bb443c7207722aebaba3a578908103589e614b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687489"
 ---
 # <a name="video-compression-manager"></a>Gestionnaire de compression vidéo
 
@@ -29,9 +29,9 @@ Cette présentation couvre les rubriques suivantes.
 -   [Utilisation du gestionnaire de compression vidéo](using-the-video-compression-manager.md)
 -   [Référence du gestionnaire de compression vidéo](video-compression-manager-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

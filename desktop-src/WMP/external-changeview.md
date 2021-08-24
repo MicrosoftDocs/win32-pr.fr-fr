@@ -1,11 +1,11 @@
 ---
 title: External. changeView, méthode
-description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La méthode changeView modifie la vue dans le lecteur Windows Media.
+description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. la méthode changeView modifie la vue dans Lecteur Windows Media.
 ms.assetid: bd9d7d4b-ee4c-4d7c-92ef-dd0b8ab46d9d
 keywords:
-- méthode changeView lecteur Windows Media
-- méthode changeView lecteur Windows Media, classe externe
-- Classe externe lecteur Windows Media, méthode changeView
+- Lecteur Windows Media de la méthode changeView
+- méthode changeView Lecteur Windows Media, classe externe
+- Lecteur Windows Media de classe externe, méthode changeView
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35adb253d5dd14d755353c29f9278b1c122133d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa982e87e0a25fa8ae6cc80b428524844f60e2ec76f50d246e7b2a76b3ca942a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649369"
 ---
 # <a name="externalchangeview-method"></a>External. changeView, méthode
 
@@ -30,7 +30,7 @@ ms.locfileid: "106532507"
 
  
 
-La méthode **changeView** modifie la vue dans le lecteur Windows Media.
+la méthode **changeView** modifie la vue dans Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -74,7 +74,7 @@ External.changeView(
 *ViewParams* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant les paramètres que le lecteur Windows Media met à disposition dans la nouvelle page de découverte qui s’affiche avec la nouvelle vue. Ces paramètres ne sont pas interprétés par le lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
+**chaîne** contenant les paramètres que Lecteur Windows Media met à la disposition de la nouvelle page de découverte qui s’affiche avec la nouvelle vue. ces paramètres ne sont pas interprétés par Lecteur Windows Media. Ils sont créés par le magasin en ligne et ont une signification uniquement pour le magasin en ligne.
 
 </dd> </dl>
 
@@ -82,11 +82,11 @@ External.changeView(
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans certains cas, il est logique de définir le paramètre *LibraryLocationID* sur une chaîne vide. Par exemple, si vous définissez le paramètre *LibraryLocationType* sur AllCPAlbumIDs, la nouvelle vue représentera tous les albums. Aucun album individuel n’est l’objectif de la nouvelle vue. il n’est donc pas nécessaire de fournir un ID d’album dans le paramètre *LibraryLocationID* .
 
-Le paramètre *ViewParams* permet à une page de découverte de communiquer avec une autre page de découverte. Lorsque le script sur une page de découverte appelle **changeView**, le lecteur Windows Media ajuste son interface utilisateur. Cet ajustement fait en sorte que le lecteur appelle la méthode [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) du plug-in pour obtenir l’URL d’une nouvelle page de découverte. La chaîne que la page de découverte d’origine transmet dans le paramètre *ViewParams* n’est pas passée à **GetTemplate**. Toutefois, la nouvelle page de découverte peut récupérer la chaîne *ViewParams* en appelant [External. viewParameters](external-viewparameters.md).
+Le paramètre *ViewParams* permet à une page de découverte de communiquer avec une autre page de découverte. lorsque le script sur une page de découverte appelle **changeView**, Lecteur Windows Media ajuste son interface utilisateur. Cet ajustement fait en sorte que le lecteur appelle la méthode [IWMPContentPartner :: GetTemplate](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-gettemplate) du plug-in pour obtenir l’URL d’une nouvelle page de découverte. La chaîne que la page de découverte d’origine transmet dans le paramètre *ViewParams* n’est pas passée à **GetTemplate**. Toutefois, la nouvelle page de découverte peut récupérer la chaîne *ViewParams* en appelant [External. viewParameters](external-viewparameters.md).
 
 ## <a name="requirements"></a>Configuration requise
 

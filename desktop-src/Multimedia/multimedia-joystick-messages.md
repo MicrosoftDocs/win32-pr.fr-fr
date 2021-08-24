@@ -3,7 +3,7 @@ title: Messages de manette de jeu multimédia
 description: Messages de manette de jeu multimédia
 ms.assetid: 43904426-a5db-44cf-b094-cca87131b7c5
 keywords:
-- Multimédia Windows, messages de la manette de jeu
+- Windows multimédia, messages de la manette de jeu
 - multimédia, messages de manette de jeu
 - entrée multimédia, messages de manette de jeu
 - manettes, messages
@@ -11,12 +11,12 @@ keywords:
 - Référence de la manette de jeu, messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f53ec6c2414fad3e13fac129438be55426fb22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e04ec9bc942e735016c9c233a8957e05323819f0a71525d6e7c0d8bab3c77a4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806739"
 ---
 # <a name="multimedia-joystick-messages"></a>Messages de manette de jeu multimédia
 
@@ -38,9 +38,9 @@ Les messages suivants sont utilisés avec les joysticks multimédias.
 [Référence de la manette de jeu](joystick-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

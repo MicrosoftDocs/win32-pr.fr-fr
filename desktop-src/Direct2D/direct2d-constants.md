@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 09/19/2019
-ms.openlocfilehash: bc25bf1055b923a383fc580a622e96d787ed13e6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd8adfa3d6fa3c59a05331c82ea12100918a4697d9478097a890eedff039d5e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768729"
 ---
 # <a name="direct2d-constants"></a>Constantes Direct2D
 
@@ -51,7 +51,7 @@ Nombre de nits utilisés par l’espace de couleurs sRVB ou ScRVB pour les valeu
 
 | Condition requise | Valeur |
 |-|-|
-| Client minimal pris en charge | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista, applications \[ \| UWP\] |
-| Serveur minimal pris en charge | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 pour applications \[ \| UWP\] |
+| Client minimal pris en charge | Windows 7, Windows vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ desktop apps \|\] |
+| Serveur minimal pris en charge | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[ desktop apps \|\] |
 | Téléphone minimal pris en charge | Windows Phone 8,1 \[ Windows Phone silverlight 8,1 et les applications Windows Runtime \] , Windows Phone 8,1 \[ Windows Phone silverlight 8,1 et Windows Runtime apps\] |
 | En-tête | d2d1effectauthor. h, d2d1. h, d2d1_1. h, d2d1effects_2. h |

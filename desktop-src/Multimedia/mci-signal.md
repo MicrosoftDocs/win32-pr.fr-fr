@@ -3,7 +3,7 @@ title: Commande MCI_SIGNAL (mmsystem. h)
 description: La \_ commande de signal MCI définit une position spécifiée dans l’espace de travail. Les périphériques vidéo numériques reconnaissent cette commande. MCIAVI ne prend en charge qu’un seul signal actif à la fois.
 ms.assetid: 32ca21a0-e2df-47f1-8e13-67c9d8f149db
 keywords:
-- Commande MCI_SIGNAL Windows multimédia
+- commande MCI_SIGNAL Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 711238d73ee40f5809f15a2d6df93183fb17bf67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fda7585ad63415f888f5971397df2b27c23710864ea21a8ed5e6ebce1a7c66f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689839"
 ---
 # <a name="mci_signal-command"></a>\_Commande de signal MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de valeur de [**\_ \_ signal \_ DGV MCI**](/windows/
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre dont vous spécifiez le descripteur dans le membre **dwCallback** de la structure de [**\_ \_ signal \_ MCI DGV**](/windows/desktop/api/Digitalv/ns-digitalv-mci_dgv_signal_parms) reçoit le \_ message mm MCISIGNAL.
 
@@ -100,14 +100,14 @@ Une valeur signal-period est incluse dans le membre **dwPeriod** de la structure
 <span id="MCI_DGV_SIGNAL_POSITION"></span><span id="mci_dgv_signal_position"></span>\_position du \_ signal MCI DGV \_
 </dt> <dd>
 
-L’appareil enverra la valeur de position avec le message Windows au lieu de la valeur spécifiée par l’utilisateur.
+l’appareil enverra la valeur de position avec le message de Windows au lieu de la valeur spécifiée par l’utilisateur.
 
 </dd> <dt>
 
 <span id="MCI_DGV_SIGNAL_USERVAL"></span><span id="mci_dgv_signal_userval"></span>MCI \_ DGV \_ signal \_ USERVAL
 </dt> <dd>
 
-Une valeur de données est incluse dans le membre **dwUserParm** de la structure identifiée par *lpSignal*. La valeur de données associée à cette demande est reportée avec le message Windows.
+Une valeur de données est incluse dans le membre **dwUserParm** de la structure identifiée par *lpSignal*. la valeur de données associée à cette demande est reportée avec le message de Windows.
 
 </dd> </dl>
 
@@ -119,7 +119,7 @@ Une valeur de données est incluse dans le membre **dwUserParm** de la structure
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

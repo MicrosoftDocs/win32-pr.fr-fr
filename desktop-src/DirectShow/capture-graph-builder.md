@@ -1,19 +1,19 @@
 ---
-description: Générateur de graphiques de capture
+description: générateur de Graph de Capture
 ms.assetid: df59afcf-6e11-463f-80ac-8b1fcc496d5b
-title: Générateur de graphiques de capture
+title: générateur de Graph de Capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c94ef389ab7183ba44e3296e70cf3459c67ef1e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 925b2a2a7c7aee991a10fa2975106d7693ec6d01b3321f060a4777ccb9944b97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768299"
 ---
-# <a name="capture-graph-builder"></a>Générateur de graphiques de capture
+# <a name="capture-graph-builder"></a>générateur de Graph de Capture
 
-Le générateur de graphiques de capture est un objet d’assistance pour la création de graphiques de capture vidéo et audio. Les applications de capture et de modification peuvent utiliser ce composant pour construire des graphiques de filtres. Créez cet objet en appelant **CoCreateInstance**.
+le générateur de Graph de capture est un objet d’assistance pour la création de graphiques de capture vidéo et audio. Les applications de capture et de modification peuvent utiliser ce composant pour construire des graphiques de filtres. Créez cet objet en appelant **CoCreateInstance**.
 
 
 
@@ -33,7 +33,7 @@ Le générateur de graphiques de capture est un objet d’assistance pour la cr�
 [Capture audio](audio-capture.md)
 </dt> <dt>
 
-[Objets DirectShow](directshow-objects.md)
+[DirectShow Objets](directshow-objects.md)
 </dt> <dt>
 
 [Capture vidéo](video-capture.md)

@@ -3,7 +3,7 @@ title: External. libraryLocationID
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. libraryLocationID
 ms.assetid: 9a9bea89-c05c-4759-be22-86588bbeca2c
 keywords:
-- External. libraryLocationID Windows Media Player
+- External. libraryLocationID Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89f411ad8575bc7419cf9300d1aab46073ee869c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65119db42e8a4d6a06414f1c7790fb8716c0f9423391ed0a58f74a6913cb3b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649129"
 ---
 # <a name="externallibrarylocationid"></a>External. libraryLocationID
 
@@ -39,11 +39,11 @@ window.external.libraryLocationID
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété fonctionne en association avec la propriété [External. libraryLocationType](external-librarylocationtype.md) . Par exemple, supposons que **libraryLocationType** est égal à CPAlbumID et que **libraryLocationID** est égal à 3. Cela signifie que la vue actuelle dans le lecteur Windows Media affiche l’album dont l’ID est 3. Pour plus d’informations sur la façon dont le lecteur Windows Media caractérise les vues du contenu de la boutique en ligne, consultez [emplacement et élément sélectionné](location-and-selected-item.md).
+Cette propriété fonctionne en association avec la propriété [External. libraryLocationType](external-librarylocationtype.md) . Par exemple, supposons que **libraryLocationType** est égal à CPAlbumID et que **libraryLocationID** est égal à 3. cela signifie que la vue actuelle dans Lecteur Windows Media affiche l’album dont l’ID est 3. pour plus d’informations sur la façon dont Lecteur Windows Media caractérise les vues du contenu du magasin en ligne, consultez [emplacement et élément sélectionné](location-and-selected-item.md).
 
-Certains affichages du lecteur Windows Media sont associés à un élément multimédia particulier. Par exemple, si la vue actuelle représente un album individuel, **libraryLocationType** est égal à CPAlbumID et **LIBRARYLOCATIONID** est l’ID de l’album. Les autres vues ne sont pas associées à un élément multimédia particulier. Par exemple, si la vue actuelle représente tous les albums, **libraryLocationType** est égal à AllCPAlbumIDs, mais il n’existe aucune valeur significative pouvant être assignée à **libraryLocationID**. Dans les cas où la propriété **libraryLocationID** n’a aucune valeur significative, elle est égale à la chaîne vide.
+certaines vues de Lecteur Windows Media sont associées à un élément multimédia particulier. Par exemple, si la vue actuelle représente un album individuel, **libraryLocationType** est égal à CPAlbumID et **LIBRARYLOCATIONID** est l’ID de l’album. Les autres vues ne sont pas associées à un élément multimédia particulier. Par exemple, si la vue actuelle représente tous les albums, **libraryLocationType** est égal à AllCPAlbumIDs, mais il n’existe aucune valeur significative pouvant être assignée à **libraryLocationID**. Dans les cas où la propriété **libraryLocationID** n’a aucune valeur significative, elle est égale à la chaîne vide.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -1,6 +1,6 @@
 ---
-description: Par défaut, les éléments du panneau de configuration de Windows Vista ne sont pas affichés lorsque Windows est exécuté en mode sans échec.
-title: Accès au panneau de configuration en mode sans échec
+description: par défaut, à partir de Windows les éléments du panneau de configuration Vista ne sont pas affichés lorsque Windows est exécuté en mode sans échec.
+title: accès au panneau de configuration en Mode Coffre
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: f37bcb0f-9417-4cc4-a57d-4f67a9ccda19
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 0f7a401bbc22a7f8de3618f844bfe463fa3baa50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 777a44c7fe30b0481096a1c5d62c98410277a3bc76169925aff4ae5e59e549d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119710789"
 ---
-# <a name="accessing-the-control-panel-in-safe-mode"></a>Accès au panneau de configuration en mode sans échec
+# <a name="accessing-the-control-panel-in-safe-mode"></a>accès au panneau de configuration en Mode Coffre
 
-Par défaut, les éléments du panneau de configuration de Windows Vista ne sont pas affichés lorsque Windows est exécuté en mode sans échec. Pour permettre l’affichage d’un nouvel élément du panneau de configuration en mode sans échec, les valeurs de Registre appropriées au type d’élément peuvent être définies. Les valeurs sont interprétées comme suit :
+par défaut, à partir de Windows les éléments du panneau de configuration Vista ne sont pas affichés lorsque Windows est exécuté en mode sans échec. Pour permettre l’affichage d’un nouvel élément du panneau de configuration en mode sans échec, les valeurs de Registre appropriées au type d’élément peuvent être définies. Les valeurs sont interprétées comme suit :
 
 
 
@@ -32,7 +32,7 @@ Par défaut, les éléments du panneau de configuration de Windows Vista ne sont
 
  
 
-Cet exemple montre les entrées requises pour un élément implémenté sous la forme d’un fichier. cpl ou. dll. Il spécifie que l’élément doit apparaître en mode sans échec avec mise en réseau.
+Cet exemple montre les entrées requises pour un élément implémenté sous la forme d’un fichier .cpl ou .dll. Il spécifie que l’élément doit apparaître en mode sans échec avec mise en réseau.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -46,7 +46,7 @@ HKEY_LOCAL_MACHINE
                         %ProgramFiles%\MyCorp\MyApp\MyCpl.cpl = [REG_DWORD] 2
 ```
 
-Cet exemple montre les entrées requises pour un élément implémenté sous la forme d’un fichier. exe. Il spécifie que l’élément doit apparaître dans n’importe quelle forme de mode sans échec.
+Cet exemple montre les entrées requises pour un élément implémenté sous la forme d’un fichier de .exe. Il spécifie que l’élément doit apparaître dans n’importe quelle forme de mode sans échec.
 
 ```
 HKEY_CLASSES_ROOT

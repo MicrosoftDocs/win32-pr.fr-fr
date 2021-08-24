@@ -4,12 +4,12 @@ ms.assetid: dd55c570-68b5-4dc5-9fd0-a6e3277c318b
 title: Structures de gestion des disques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6521e116bf3002bc21d97136af2eaf3397ee82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3533e60e9199d3d3ed3d13aa79a689f9e90866c408d57220c5d53aa7edb5c86c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755099"
 ---
 # <a name="disk-management-structures"></a>Structures de gestion des disques
 
@@ -84,7 +84,7 @@ La liste suivante identifie les structures utilisées dans gestion des disques.
 | [**descripteur des données de protocole de stockage \_ \_ \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_data_descriptor)<br/>                | Cette structure est utilisée conjointement avec la [**\_ propriété de \_ requête \_ de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) pour retourner des données spécifiques au protocole à partir d’un périphérique de stockage ou d’un adaptateur. <br/>                                                                                    |
 | [**TYPE de données du protocole de stockage \_ \_ NVME \_ \_**](/windows/desktop/api/WinIoCtl/ne-winioctl-storage_protocol_nvme_data_type)<br/>                 | Décrit le type de données spécifiques au protocole NVMe à interroger pendant une demande de [**propriété de \_ \_ requête de \_ stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) .<br/>                                                                                                         |
 | [**\_ \_ données spécifiques au protocole de stockage \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data)<br/>                    | Décrit les données de périphérique spécifiques au protocole, fournies dans le tampon d’entrée et de sortie d’une demande de [**\_ propriété de \_ requête \_ de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) .<br/>                                                                                                   |
-| [**\_version des spécifications de stockage \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_spec_version)<br/>                                         | Version de la spécification de stockage.<br/>                                                                                                                                                                                                                                            |
+| [**\_version des spécifications de stockage \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_spec_version)<br/>                                         | version de la spécification Stockage.<br/>                                                                                                                                                                                                                                            |
 | [**descripteur des données de température de stockage \_ \_ \_**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor)<br/>          | Cette structure est utilisée conjointement avec la [**\_ propriété de \_ requête \_ de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) pour retourner les données de température d’un appareil de stockage ou d’un adaptateur. <br/>                                                                                          |
 | [**\_informations sur la température de stockage \_**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info)<br/>                                 | Décrit les données de température de l’appareil. Renvoyé dans le cadre [**du \_ \_ \_ descripteur des données de température de stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor) lors de l’interrogation des données de température avec une demande de [**\_ \_ \_ propriété de requête de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) . <br/> |
 | [**\_seuil de température de stockage \_**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_threshold)<br/>                       | Cette structure est utilisée pour définir le seuil de température supérieur ou inférieur d’un dispositif de stockage (via le [**seuil de température du \_ jeu de stockage \_ \_ \_ IOCTL**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold)).<br/>                                                                           |

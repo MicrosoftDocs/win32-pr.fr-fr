@@ -1,6 +1,6 @@
 ---
 title: Traçage
-description: Le suivi utilise Suivi d’v nements pour Windows (ETW).
+description: le suivi utilise Suivi d’v nements pour Windows (ETW).
 ms.assetid: b008bae2-9423-4e72-ae03-9cd50f73d812
 keywords:
 - Suivi des services Web pour Windows
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82c660884667cefae8067376075a30cbc41f70d4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: da2bcd5c07c2c5ebf3a28620e39efe3034d3c2bc024ac487caaec38e3c69fca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119707259"
 ---
 # <a name="tracing"></a>Traçage
 
-Le suivi utilise Suivi d’v nements pour Windows (ETW). Pour tirer parti des outils de suivi disponibles avec Windows Server 2008 R2, installez le Microsoft Windows SDK à partir du site de [téléchargement MSDN](https://www.microsoft.com/download/details.aspx?id=8279) .
+le suivi utilise Suivi d’v nements pour Windows (ETW). pour tirer parti des outils de suivi disponibles avec Windows Server 2008 R2, installez le Microsoft Windows SDK à partir du site de [téléchargement MSDN](https://www.microsoft.com/download/details.aspx?id=8279) .
 
 
 Trois niveaux de suivi sont pris en charge :
@@ -31,17 +31,17 @@ Les événements suivants sont suivis :
 -   Toutes les erreurs (niveau = erreur, niveau = info ou niveau = détaillé).
 -   Entrée/sortie d’une API (Level = info ou level = verbose).
 -   Début et fin de toutes les e/s (niveau = info ou niveau = détaillé)
--   Messages SOAP échangés (niveau = verbose, disponible sur Windows 2003 SP1 et versions ultérieures)
+-   messages SOAP échangés (niveau = verbose, disponible sur Windows 2003 SP1 et versions ultérieures)
 
 ## <a name="generating-and-viewing-wwsapi-traces"></a>Génération et affichage des traces WWSAPI
 
-WWSAPI utilise les événements basés sur le manifeste sur Windows Vista et versions ultérieures. Par conséquent, l’expérience de suivi présente des différences en fonction de la version du système d’exploitation. La génération de suivis ETW peut être effectuée à l’aide des outils ETW intégrés sur toutes les plateformes prises en charge. Toutefois, l’affichage des suivis ETW dans un format attrayant nécessite des outils personnalisés sur Windows XP SP2 et Windows 2003 SP1. Il existe plusieurs façons de collecter et d’afficher les suivis d’événements ETW WWSAPI en fonction de la version du système d’exploitation.
+WWSAPI utilise les événements basés sur le manifeste sur Windows Vista et versions ultérieures. Par conséquent, l’expérience de suivi présente des différences en fonction de la version du système d’exploitation. La génération de suivis ETW peut être effectuée à l’aide des outils ETW intégrés sur toutes les plateformes prises en charge. toutefois, l’affichage des suivis ETW dans un format attrayant nécessite des outils personnalisés sur Windows XP SP2 et Windows 2003 SP1. Il existe plusieurs façons de collecter et d’afficher les suivis d’événements ETW WWSAPI en fonction de la version du système d’exploitation.
 
-## <a name="enabling-and-viewing-wwsapi-traces-in-event-viewer-works-on-windows-vista-and-above"></a>Activation et affichage des traces WWSAPI dans observateur d’événements (fonctionne sur Windows Vista et versions ultérieures)
+## <a name="enabling-and-viewing-wwsapi-traces-in-event-viewer-works-on-windows-vista-and-above"></a>activation et affichage des traces WWSAPI dans observateur d’événements (fonctionne sur Windows Vista et versions ultérieures)
 
 -   Exécutez eventvwr. msc à partir de la ligne de commande ou du menu exécuter.
 -   Cliquez sur le lien Afficher dans le volet actions à droite, puis activez l’option Afficher les journaux d’analyse et de débogage.
--   Accédez à la fenêtre journaux des applications et des services \\ \\ fournisseurs Microsoft Windows \\ WebServices dans le volet gauche.
+-   accédez aux journaux des applications et des services \\ Microsoft \\ Windows \\ les fournisseurs webservices dans le volet gauche.
 -   Cliquez avec le bouton droit sur le fournisseur de suivi et sélectionnez Activer le journal.
 -   Exécutez votre scénario.
 -   Quand vous actualisez la page de l’observateur d’événements, vous devez commencer à voir les entrées de suivi WWSAPI.
@@ -84,7 +84,7 @@ Les événements seront vidés dans le fichier CSV jusqu’à ce que CTRL-C soit
 
 ## <a name="tracing-file-format"></a>Format de fichier de suivi
 
-Les fichiers CSV créés par wstrace.bat sont des fichiers texte de variables séparées par des virgules simples. Ces fichiers peuvent être ouverts dans Excel, dans le bloc-notes, etc.
+Les fichiers CSV créés par wstrace.bat sont des fichiers texte de variables séparées par des virgules simples. ces fichiers peuvent être ouverts dans Excel, Bloc-notes, etc.
 
 Les colonnes du fichier sont les suivantes :
 
@@ -100,9 +100,9 @@ Les colonnes du fichier sont les suivantes :
 
 Activation du suivi ETW pour WWSAPI
 
-**logman start wstrace-BS 64-ft 1-RT-p Microsoft-Windows-WebServices \[ indicateurs \[ niveau \] \] \[ -o <EtlLogFileName> \] -ETS**
+**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-webservices \[ indicateurs \[ niveau \] \] \[ -o <EtlLogFileName> \] -ets**
 
-pour créer et démarrer la session de suivi ETW. Logman.exe est un outil ETW intégré disponible sur toutes les plateformes prises en charge. Notez que vous devez utiliser Microsoft \_ Windows \_ WebServices comme nom de fournisseur sur XPSP2 et Windows. Vous pouvez exécuter logman query providers pour afficher la liste des fournisseurs inscrits. Le fournisseur Microsoft-Windows-WebServices (ou Microsoft \_ Windows \_ WebServices) doit être répertorié, sauf s’il n’est pas inscrit. Le fournisseur est normalement inscrit au cours de l’installation. Toutefois, il peut également être inscrit manuellement en exécutant wevtutil.exe im <ManifestFileName> (sur Windows Vista et versions ultérieures) ou mofcomp.exe <MofFileName> (sur XPSP2 et Windows-version).
+pour créer et démarrer la session de suivi ETW. Logman.exe est un outil ETW intégré disponible sur toutes les plateformes prises en charge. notez que vous devez utiliser Microsoft \_ Windows \_ webservices comme nom de fournisseur sur XPSP2 et dans le sp2. Vous pouvez exécuter logman query providers pour afficher la liste des fournisseurs inscrits. le fournisseur microsoft-Windows-webservices (ou microsoft \_ Windows \_ webservices) doit être répertorié, sauf s’il n’est pas inscrit. Le fournisseur est normalement inscrit au cours de l’installation. toutefois, il peut également être inscrit manuellement en exécutant wevtutil.exe im <ManifestFileName> (sur Windows Vista et versions ultérieures) ou mofcomp.exe <MofFileName> (sur XPSP2 et dans le sp2).
 
 Les indicateurs peuvent être utilisés pour filtrer les traces par leur genre. Il peut s’agir d’une valeur ou d’un des genres de trace suivants. S’il n’est pas fourni, tous les types de suivi sont activés.
 
@@ -132,7 +132,7 @@ pour arrêter la session de suivi ETW. C’est à ce moment que ETW arrête l’
 
 Exemple de bout en bout utilisant les outils ETW :
 
-**logman start wstrace-BS 64-ft 1-RT-p Microsoft-Windows-WebServices-o mytrace. etl-ETS**
+**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-webservices-o mytrace. etl-ets**
 
 **echo.. Exécutez votre scénario.**
 
@@ -144,13 +144,13 @@ Exemple de bout en bout utilisant les outils ETW :
 
 **echo.. Utilisez mytrace.xml et wstrace. xsl dans la page ouverte..**
 
-## <a name="viewing-wwsapi-etw-trace-file-traces-using-wstracedumpexe-tool-works-on-windows-xp-and-above"></a>Affichage des traces du fichier de trace ETW WWSAPI à l’aide de l’outil wstracedump.exe (fonctionne sur Windows XP et versions ultérieures)
+## <a name="viewing-wwsapi-etw-trace-file-traces-using-wstracedumpexe-tool-works-on-windows-xp-and-above"></a>affichage des traces du fichier de Trace ETW WWSAPI à l’aide de l’outil wstracedump.exe (fonctionne sur Windows XP et versions ultérieures)
 
 Wstracedump.exe est un outil consommateur ETW développé personnalisé qui traite les événements dans le fichier de trace ETW WWSAPI et produit une sortie lisible par l’utilisateur. Il peut produire une sortie de toutes les plateformes prises en charge. Pour plus d’informations, consultez son utilisation (wstracedump.exe- ?).
 
-## <a name="viewing-wwsapi-etw-trace-file-traces-using-etw-tools-works-on-windows-vista-and-above"></a>Affichage des traces du fichier de trace ETW WWSAPI à l’aide des outils ETW (fonctionne sur Windows Vista et versions ultérieures)
+## <a name="viewing-wwsapi-etw-trace-file-traces-using-etw-tools-works-on-windows-vista-and-above"></a>affichage des traces du fichier de Trace etw WWSAPI à l’aide des outils etw (fonctionne sur Windows Vista et versions ultérieures)
 
-Tracerpt.exe est l’outil qui permet d’afficher le contenu d’un fichier journal d’événements ETW et est disponible sur toutes les plateformes prises en charge. Il peut être utilisé pour générer des fichiers de vidage CSV, EVTX ou XML à partir d’un fichier journal d’événements ETW. Toutefois, le fichier de sortie généré a des traces lisibles par les humains uniquement sur Windows Vista et versions ultérieures. Ces instructions décrivent comment générer le fichier de vidage XML et l’utiliser avec un fichier XSL pour afficher les traces dans un format attrayant (le fichier XSL est très trivial et peut être modifié si vous souhaitez des formats différents).
+Tracerpt.exe est l’outil qui permet d’afficher le contenu d’un fichier journal d’événements ETW et est disponible sur toutes les plateformes prises en charge. Il peut être utilisé pour générer des fichiers de vidage CSV, EVTX ou XML à partir d’un fichier journal d’événements ETW. toutefois, le fichier de sortie généré a des traces lisibles par les humains uniquement sur Windows Vista et versions ultérieures. Ces instructions décrivent comment générer le fichier de vidage XML et l’utiliser avec un fichier XSL pour afficher les traces dans un format attrayant (le fichier XSL est très trivial et peut être modifié si vous souhaitez des formats différents).
 
 -   Exécuter
 
@@ -162,7 +162,7 @@ Tracerpt.exe est l’outil qui permet d’afficher le contenu d’un fichier jou
 
 ## <a name="security"></a>Sécurité
 
-Lors de l’activation du suivi, les administrateurs doivent prendre en compte la consommation d’espace disque supplémentaire et de puissance de calcul. Un client ou une application malveillante peut épuiser les ressources système, sauf si les paramètres de suivi sont configurés avec des limites raisonnables. Lors de l’utilisation de la fonctionnalité de suivi des messages, les messages qui transportent des informations sensibles telles que des informations d’identification, des informations personnelles, etc., peuvent être conservés sur le disque ou être consultés par toute personne ayant accès à l’observateur d’événements système. Pour pallier ce problème, le suivi peut être activé par des utilisateurs système ou administrateur sur Windows 2003 et versions ultérieures. Le suivi des messages est désactivé sur Windows XP sur lequel n’importe quel utilisateur peut activer le suivi.
+Lors de l’activation du suivi, les administrateurs doivent prendre en compte la consommation d’espace disque supplémentaire et de puissance de calcul. Un client ou une application malveillante peut épuiser les ressources système, sauf si les paramètres de suivi sont configurés avec des limites raisonnables. Lors de l’utilisation de la fonctionnalité de suivi des messages, les messages qui transportent des informations sensibles telles que des informations d’identification, des informations personnelles, etc., peuvent être conservés sur le disque ou être consultés par toute personne ayant accès à l’observateur d’événements système. pour pallier ce problème, le suivi peut être activé par des utilisateurs système ou administrateur sur Windows 2003 et versions ultérieures. le suivi des messages est désactivé sur Windows XP sur lequel n’importe quel utilisateur peut activer le suivi.
 
 L’énumération suivante est utilisée avec le suivi :
 

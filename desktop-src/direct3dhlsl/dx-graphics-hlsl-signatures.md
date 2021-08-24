@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 37906222ec674c2c1bb5e1cdfea1cb2de2e1df3d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: HT
+ms.openlocfilehash: 5631dbe473b2e3eea0abb525e58621faf9c5137dd5dc3d743bde53b0ae258f25
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789579"
 ---
 # <a name="signatures"></a>Signatures
 
@@ -75,9 +75,9 @@ PSInWorks est un sous-ensemble compatible de VSOut (les deux premières entrées
 [Fonctions](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15be9b176680e8abb259d3d011da9d6cec0c2fa8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b7533e5d1e842e6794a9f9c386103b781afa0404ee181354c420770358f7e8a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751219"
 ---
 # <a name="win32_systemdriver-class"></a>\_Classe SystemDriver Win32
 
@@ -95,9 +95,9 @@ La classe **Win32 \_ SystemDriver** possède ces méthodes.
 
 | Méthode                                                                              | Description                                                                                     |
 |:------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| [**Modifiés**](change-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui modifie un service.<br/>                                                |
+| [**Modifier**](change-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui modifie un service.<br/>                                                |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-systemdriver.md)       | Méthode de classe qui modifie le mode de démarrage d’un service.<br/>                              |
-| [**Créés**](create-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui crée un nouveau service.<br/>                                             |
+| [**Créer**](create-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui crée un nouveau service.<br/>                                             |
 | [**Supprimer**](delete-method-in-class-win32-systemdriver.md)                         | Méthode de classe qui supprime un service existant.<br/>                                       |
 | [**InterrogateService**](interrogateservice-method-in-class-win32-systemdriver.md) | Méthode de classe qui demande que le service met à jour son État auprès du gestionnaire de service.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-systemdriver.md)             | Méthode de classe qui tente de placer le service dans l’état suspendu.<br/>                 |
@@ -333,7 +333,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| service structures \| [**\_ Status service**](/windows/win32/api/winsvc/ns-winsvc-service_status) \| dwWin32ExitCode"), [**DisplayName**](../wmisdk/standard-qualifiers.md) ("code de sortie")
 </dt> </dl>
 
-Code d’erreur Windows définissant tout problème rencontré lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété **ServiceSpecificExitCode** . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
+Windows code d’erreur qui définit les problèmes rencontrés lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété **ServiceSpecificExitCode** . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
 
 Cette propriété est héritée de [**Win32 \_ BaseService**](win32-baseservice.md).
 
@@ -484,7 +484,7 @@ Les valeurs sont :
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -839,7 +839,7 @@ Les balises sont uniquement évaluées pour les services du pilote du noyau et d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemDriver** est dérivée de [**Win32 \_ BaseService**](win32-baseservice.md).
 

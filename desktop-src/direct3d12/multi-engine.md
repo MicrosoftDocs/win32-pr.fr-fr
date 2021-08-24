@@ -5,12 +5,12 @@ ms.assetid: CC4C6594-D48F-40C1-93EE-9F98532BC038
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: d7d3985c880c4d1732a96b98ac6d3c6579dab8e6
-ms.sourcegitcommit: 9d530b0a2396f2274e9ed693c1f5f10556aadebb
+ms.openlocfilehash: e76c5c1295dab8858ff04830030efb479fe3ae8a09bcdb37ff8c4820f4fd08c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "104548503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119728813"
 ---
 # <a name="multi-adapter-systems"></a>Systèmes à plusieurs adaptateurs
 
@@ -96,4 +96,4 @@ Lors de l’appel des API [**ID3D12Device**](/windows/win32/api/d3d12/nn-d3d12-i
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Guide de programmation Direct3D 12](directx-12-programming-guide.md)
+[Guide de programmation de Direct3D 12](directx-12-programming-guide.md)

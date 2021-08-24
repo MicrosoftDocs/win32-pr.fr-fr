@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet Commands FontName. M
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 739fceae4e73788f408306f6af08713173c99843
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 9d1f8c9c66e7d205e79a3ac9b076fa4e01852df358657761f8792d42b764b270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725709"
 ---
 # <a name="fontname-property-commands-object"></a>Propriété FontName (objet Commands)
 

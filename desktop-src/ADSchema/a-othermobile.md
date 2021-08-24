@@ -1,10 +1,10 @@
 ---
-title: Téléphone-mobile-autre attribut
+title: Téléphone-Mobile-autre attribut
 description: Liste de numéros de téléphone mobile alternatifs.
 ms.assetid: c77e435c-e804-4730-ae8f-0365feeb153a
 ms.tgt_platform: multiple
 keywords:
-- Téléphone-mobile-autre schéma AD d’attribut
+- Téléphone-Mobile-autre schéma active directory
 - Schéma AD de l’attribut otherMobile
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4961c44660e99f11ffe3860fd6810175f8602c15
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af56ea1990e6a25653bfa356356744dec618b5df9411a1b7d1304aa75fe50065
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119648139"
 ---
-# <a name="phone-mobile-other-attribute"></a>Téléphone-mobile-autre attribut
+# <a name="phone-mobile-other-attribute"></a>Téléphone-Mobile-autre attribut
 
 Liste de numéros de téléphone mobile alternatifs.
 
@@ -29,7 +29,7 @@ Liste de numéros de téléphone mobile alternatifs.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-mobile-autre                                                               |
+| CN                | Téléphone-Mobile-autres                                                               |
 | LDAP-Display-Name | otherMobile                                                                      |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Liste de numéros de téléphone mobile alternatifs.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

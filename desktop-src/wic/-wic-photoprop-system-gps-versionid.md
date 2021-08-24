@@ -4,12 +4,12 @@ ms.assetid: d3c88243-8744-4bb3-ab47-38b5354f6f7e
 title: Stratégie de métadonnées de photo System. GPS. VersionID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48ca5bd1885f0ac5c3dc14dbb5e859de3f8a26cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 857ecb6b172dafa2a771d9e81f8b570a89f458c79b7630a2f231ce84dbec4f9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706359"
 ---
 # <a name="systemgpsversionid-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. VersionID
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. Versio
 
 La \_ \_ VersionId GPS
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 0} |             |
 | 2     | /xmp/exif:GPSVersionID   | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 0} |             |
 | 2     | /xmp/exif:GPSVersionID   | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 0} |
 | 2     | /xmp/exif:gpsversionid   |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 0}        |             |
 | 2     | /ifd/xmp/exif:GPSVersionID | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       | Format de disque |
+| Commande | Chemin                       | Format de disque |
 |-------|----------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 0}        |             |
 | 2     | /ifd/xmp/exif:GPSVersionID | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                       |
+| Commande | Chemin                       |
 |-------|----------------------------|
 | 1     | /IFD/GPS/{UShort = 0}        |
 | 2     | /ifd/xmp/exif:gpsversionid |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

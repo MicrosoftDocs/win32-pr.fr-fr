@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98063ddb45633dda6c897abf0f82f29a394c3f95
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 79e0247b424ebb6f72622565845c17b622ab715cd8860a83ce24ae58ac7420c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789479"
 ---
 # <a name="stream-output-object"></a>Objet Stream-Output
 
@@ -22,18 +22,18 @@ Un objet de sortie de flux est un objet basé sur un modèle qui diffuse en cont
 
 
 
-| INOUT *StreamOutputObject* < nom de *type de données* >  *;* |
+| INOUT *StreamOutputObject* < nom de *type de données* >  *;* |
 |------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Paramètres
 
 <dl> <dt>
 
-<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject*  <  *Type de données*  >    *Nom*
+<span id="StreamOutputObject___________________________DataType_________________________________________Name"></span><span id="streamoutputobject___________________________datatype_________________________________________name"></span><span id="STREAMOUTPUTOBJECT___________________________DATATYPE_________________________________________NAME"></span>*StreamOutputObject*  <  *Type de données*  >    *Nom*
 </dt> <dd>
 
 Déclaration de l’objet de sortie de flux (SO).
@@ -48,7 +48,7 @@ Déclaration de l’objet de sortie de flux (SO).
 
 
 
- 
+ 
 
 Type de données *DataType* -output ; peut être n’importe quel [type de données HLSL](dx-graphics-hlsl-data-types.md). Doit être entouré des crochets pointus.
 
@@ -102,7 +102,7 @@ Les méthodes suivantes sont implémentées.
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -110,13 +110,13 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
-| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -125,6 +125,6 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

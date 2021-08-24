@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad34a30086c4a6de8f96ae18e99c2f8a71682ef
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a7f18d14769f68cb062b01212ac1dfe0a36798a6e6114b229f0c8fa740f07463
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647519"
 ---
 # <a name="pki-overlap-period-attribute"></a>Attribut PKI-chevauchement-période
 
@@ -45,7 +45,7 @@ Période de renouvellement du certificat avant son expiration.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

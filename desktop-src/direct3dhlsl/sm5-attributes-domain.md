@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7a2f0bebcd0e5ea39d2ee981cff051d4f130ee04
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 47fc789e7b92d95a85a36d04bdb55a3bdf1fbb1937045362b0fa49fc8e5c93fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788559"
 ---
 # <a name="domain"></a>domaine
 
@@ -27,7 +27,7 @@ domain(X)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 X est de type **Tri**, **quadruple** ou **isoligne**.
 
@@ -35,13 +35,13 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,9 +53,9 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

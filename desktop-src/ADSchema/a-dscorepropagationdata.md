@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 324e3db3c71d11f47cb0a7afec875b9d129fa2d9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1b727b33360db9dfea377d958b23a2377716f5167e86ff78debdd20c0d9b4131
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706199"
 ---
 # <a name="ds-core-propagation-data-attribute"></a>Active Directory-Core-Propagate-attribut de données
 
@@ -46,7 +46,7 @@ L’attribut **DS-Core-Propagate-Data** est destiné à un usage interne uniquem
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

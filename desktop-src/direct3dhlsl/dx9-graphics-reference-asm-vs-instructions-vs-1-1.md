@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1b4def55dfaca19608599d9c79e20d3e0690832c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f980640009158c6c4dc684158836d1514ca47755fea700ac7cc619f6e7574409
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789089"
 ---
 # <a name="instructions---vs_1_1"></a>Instructions-vs \_ 1 \_ 1
 
@@ -31,7 +31,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 
 
 
-| Nom                                                                           | Description                                                                                                     | Emplacements des instructions | Programme d’installation | Arithmétique | Nouveau |
+| Name                                                                           | Description                                                                                                     | Emplacements des instructions | Installation | Arithmétique | Nouveau |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-------------------|-------|------------|-----|
 | [Ajouter-vs](add---vs.md)                                                       | Ajouter deux vecteurs                                                                                                 | 1                 |       | x          | x   |
 | [\_entrée d’utilisation DCL (SM1, SM2, SM3-vs ASM)](dcl-usage-input-register---vs.md) | Déclarer des registres de vertex d’entrée (voir [registres-vs \_ 1 \_ 1](dx9-graphics-reference-asm-vs-registers-vs-1-1.md)) | 0                 | x     |            | x   |
@@ -51,7 +51,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [m4x3-vs](m4x3---vs.md)                                                     | 4x3 multiplier                                                                                                    | 3                 |       | x          | x   |
 | [M4X4-vs](m4x4---vs.md)                                                     | 4 x 4                                                                                                    | 4                 |       | x          | x   |
 | [Mad-vs](mad---vs.md)                                                       | Multiplier et ajouter                                                                                                | 1                 |       | x          | x   |
-| [Max-vs](max---vs.md)                                                       | Maximale                                                                                                         | 1                 |       | x          | x   |
+| [Max-vs](max---vs.md)                                                       | Maximum                                                                                                         | 1                 |       | x          | x   |
 | [min-vs](min---vs.md)                                                       | Minimum                                                                                                         | 1                 |       | x          | x   |
 | [MOV-vs](mov---vs.md)                                                       | Déplacer                                                                                                            | 1                 |       | x          | x   |
 | [Mul-vs](mul---vs.md)                                                       | Multiplier                                                                                                        | 1                 |       | x          | x   |
@@ -65,7 +65,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -74,9 +74,9 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

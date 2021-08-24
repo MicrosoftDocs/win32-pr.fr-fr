@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b71ced14a6f92a3056ac4f42e55bc3858c578ff6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 376c2b292b0bdba9a79593c8264ecce17b916a88cfd49407638d637d1fbda6b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119767839"
 ---
 # <a name="csourceremovepin-method"></a>Méthode CSource. RemovePin
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                             | Description                                      |
 |-----------------------------------------------------------------------------------------|--------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                              |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                              |
 | <dl> <dt>**S \_ false**</dt> </dl> | Le filtre ne contient pas ce code confidentiel.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode de destructeur appelle cette méthode pour supprimer la broche de sortie du filtre.
 
@@ -74,7 +74,7 @@ La méthode de destructeur appelle cette méthode pour supprimer la broche de so
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

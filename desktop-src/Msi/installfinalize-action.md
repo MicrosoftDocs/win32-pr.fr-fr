@@ -4,12 +4,12 @@ ms.assetid: ed0e3c4f-d1ee-43b7-84a2-f4afe3ec28c6
 title: Action InstallFinalize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a96296c2241f5769296b7192ce89ab9f44364bb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4db8bd3ac9473fab868e5f7d83e760b39ca4dd6136faec987b5a7d2a3777bdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787039"
 ---
 # <a name="installfinalize-action"></a>Action InstallFinalize
 
@@ -23,7 +23,7 @@ L’action [InstallInitialize](installinitialize-action.md) doit précéder l’
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 S’il est détecté que le produit est marqué pour une suppression complète, les opérations sont automatiquement ajoutées au script pour supprimer l' **Ajout/suppression de programmes** dans les informations du **panneau de configuration** du produit, pour annuler l’inscription et annuler la publication du produit, et pour supprimer la base de données locale mise en cache de% Windows%, si elle existe.
 

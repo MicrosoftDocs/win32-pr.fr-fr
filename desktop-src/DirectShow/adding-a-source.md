@@ -4,12 +4,12 @@ ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: Ajout d’une source
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee583cd8971c183f2e03b92f68e2d6ba555c41db
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6ab2440ff50bbb4a3a610f9341405538a88dc6bf16ce2153a327f3b4578f3aec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690529"
 ---
 # <a name="adding-a-source"></a>Ajout d’une source
 
@@ -19,7 +19,7 @@ Créez un objet source de la même façon que vous créez d’autres objets Time
 
 -   Heures de début et de fin, par rapport à la chronologie. Appelez la méthode [**IAMTimelineObj :: SetStartStop**](iamtimelineobj-setstartstop.md) .
 -   Fichier multimédia à utiliser comme source. Appelez la méthode [**IAMTimelineSrc :: SetMediaName**](iamtimelinesrc-setmedianame.md) avec une chaîne de caractères larges représentant le nom du fichier.
--   Les heures de début et de fin des médias, qui sont relatives au fichier d’origine. Appelez la méthode [**IAMTimelineSrc :: SetMediaTimes**](iamtimelinesrc-setmediatimes.md) . Pour plus d’informations sur les temps de support, consultez [heure dans les services de modification DirectShow](time-in-directshow-editing-services.md).
+-   Les heures de début et de fin des médias, qui sont relatives au fichier d’origine. Appelez la méthode [**IAMTimelineSrc :: SetMediaTimes**](iamtimelinesrc-setmediatimes.md) . pour plus d’informations sur les temps de support, consultez [l’heure dans DirectShow Services d’édition](time-in-directshow-editing-services.md).
 
 Dans l’exemple suivant, l’élément source démarre quatre secondes dans le fichier. La durée du média est de 10 secondes, soit deux fois plus longue que la durée de la chronologie, ce qui signifie que la source est lue à deux fois la vitesse normale. Les unités constantes sont définies comme 10 millions (10 ^ 7) et sont égales à une seconde.
 

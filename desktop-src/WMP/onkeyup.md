@@ -3,7 +3,7 @@ title: OnKeyUp
 description: Le gestionnaire d’événements OnKeyUp gère un événement qui se produit lorsqu’une touche est relâchée.
 ms.assetid: 80a94856-4ee3-4219-be17-6cb804f0cd5e
 keywords:
-- Lecteur Windows Media OnKeyUp
+- onkeyup, Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 71f4a0e3df10cff6b2d3b3f4fc9ea2b618f5fc0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 680384b8b36bdbe1f22a6626e64a3347ddca091f4f88f74daae2c5ec13136e2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119647039"
 ---
 # <a name="onkeyup"></a>OnKeyUp
 
@@ -28,7 +28,7 @@ Le gestionnaire d’événements **onkeyup** gère un événement qui se produit
 onkeyup
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce gestionnaire d’événements n’est pas applicable à l’élément **playlist** , à l’élément **Effects** ou à l’élément **Video** when *Video*. **sans fenêtre** a la valeur false.
 
