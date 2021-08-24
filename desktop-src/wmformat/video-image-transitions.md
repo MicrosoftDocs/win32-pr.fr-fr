@@ -7,22 +7,22 @@ keywords:
 - ASF (Advanced Systems Format), transitions d’images vidéo
 - ASF (format des systèmes avancés), transitions d’images vidéo
 - transitions d’images vidéo
-- Codec image v2 Windows Media Video 9
-- codecs, codec Windows Media Video 9 image v2
-- flux vidéo, codec Windows Media Video 9 image v2
+- Windows Codec Media Video 9 image v2
+- codecs, codec Windows Media Video 9 Image v2
+- flux vidéo, codec Windows Media Video 9 Image v2
 - flux vidéo, transitions d’images
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbfd02628a78196a73750c2c0ff6b9e9c3d6729c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b0a915f34ac9a2dcc00f8bcec739d48051361c1744e8e455166d56238529d9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771239"
 ---
 # <a name="video-image-transitions"></a>Transitions d’images vidéo
 
-Le codec Windows Media Video 9 image v2 anime une série d’images, générant ainsi un flux vidéo. Le codec peut manipuler deux images en même temps, en les fusionnant et en créant une transition de l’une à l’autre, en fonction de la configuration que vous fournissez. Cette section décrit les transitions prises en charge et les paramètres dont elles ont besoin.
+le codec Windows Media Video 9 Image v2 anime une série d’images, générant ainsi un flux vidéo. Le codec peut manipuler deux images en même temps, en les fusionnant et en créant une transition de l’une à l’autre, en fonction de la configuration que vous fournissez. Cette section décrit les transitions prises en charge et les paramètres dont elles ont besoin.
 
 Les transitions sont répertoriées dans le tableau suivant par leurs identificateurs globaux.
 
@@ -50,7 +50,7 @@ Les transitions sont répertoriées dans le tableau suivant par leurs identifica
 
 
 
- 
+ 
 
 Chaque transition est entièrement décrite dans sa propre rubrique.
 
@@ -64,9 +64,9 @@ Chaque transition est entièrement décrite dans sa propre rubrique.
 [**\_VIDEOIMAGE WMT \_ SAMPLE2**](/previous-versions/windows/desktop/api/Wmsdkidl/ns-wmsdkidl-wmt_videoimage_sample2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

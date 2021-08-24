@@ -4,12 +4,12 @@ description: Événement ActivateInput
 ms.assetid: bc395750-5da0-4379-8eca-3195e936052c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0b4fdf83256d58dd247dee85b639f5499f013e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db21d605a014002063a7c5aa42554a06adb1ed35296242944de789daeb3155c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119610679"
 ---
 # <a name="activateinput-event"></a>Événement ActivateInput
 
@@ -37,11 +37,11 @@ Se produit lorsqu’un client devient en entrée-actif.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Le client d’entrée-actif reçoit des événements d’entrée de la souris et de la parole fournis par le serveur. Le serveur envoie cet événement uniquement au client qui devient en entrée-actif.
 
@@ -52,9 +52,9 @@ Cet événement peut se produire lorsque l’utilisateur bascule vers votre obje
 [Événement **DeactivateInput**](deactivateinput-event.md), [méthode **Activate**](activate-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

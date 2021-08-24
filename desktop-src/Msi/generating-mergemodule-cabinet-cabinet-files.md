@@ -4,12 +4,12 @@ ms.assetid: 884df249-977e-4e8e-8978-15331a7c1d8a
 title: Génération de fichiers CAB inet MergeModule.CAB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a26eb9bb3daf92d81e21267b2f56706b74d9179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 962cf46b95db1fe186878d23a7cc7fcd1b91d3b2d202a85741eee7ef1c2bc7e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649647"
 ---
 # <a name="generating-mergemodulecabinet-cabinet-files"></a>Génération de fichiers CAB inet MergeModule.CAB
 
@@ -21,7 +21,7 @@ Le programme d’installation ignore les fichiers supplémentaires inclus dans M
 
 Cela signifie qu’un seul fichier CAB peut contenir tous les fichiers nécessaires à un module de fusion pour prendre en charge plusieurs langues. Tous les fichiers de langue peuvent recevoir des numéros séquentiels uniques dans le fichier CAB, puis une transformation de langue peut être utilisée pour ajouter ou supprimer des fichiers dans la table file afin d’obtenir un module de fusion pour une langue particulière. Pour plus d’informations, consultez [création de modules de fusion multilingues](authoring-multiple-language-merge-modules.md).
 
-MergeModule.CABinet peut être ajouté au module de fusion en ouvrant une [ \_ table de flux](-streams-table.md)temporaire. Par exemple, l’outil Msidb.exe fourni avec le kit de développement logiciel (SDK) Windows Installer peut être utilisé pour ajouter le MergeModule.CABinet au module de fusion. Pour plus d’informations, consultez [inclusion d’un fichier cab dans une installation](including-a-cabinet-file-in-an-installation.md).
+MergeModule.CABinet peut être ajouté au module de fusion en ouvrant une [ \_ Table de Flux](-streams-table.md)temporaire. par exemple, l’outil Msidb.exe fourni avec le kit de développement logiciel (SDK) Windows Installer peut être utilisé pour ajouter le MergeModule.CABinet au module de fusion. Pour plus d’informations, consultez [inclusion d’un fichier cab dans une installation](including-a-cabinet-file-in-an-installation.md).
 
  
 

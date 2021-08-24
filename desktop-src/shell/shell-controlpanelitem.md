@@ -1,5 +1,5 @@
 ---
-description: Exécute l’application spécifiée du panneau de configuration ( \* . cpl).
+description: Exécute l’application du panneau de configuration ( \*.cpl) spécifiée.
 title: Shell. ControlPanelItem, méthode (shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,19 +13,19 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 54979bbd-b36b-4b5b-a8a0-5f63e9526fa5
-ms.openlocfilehash: 04d2493f5d0ec5b86d19689cb8e7c2a02a82e536
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: d78cb161f8d89de53d491d113f141d63c28ae58ab359cc0198ff4aaa54e6062f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119709799"
 ---
 # <a name="shellcontrolpanelitem-method"></a>Shell. ControlPanelItem, méthode
 
-Exécute l’application spécifiée du panneau de configuration ( \* . cpl). Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution.
+Exécute l’application du panneau de configuration ( \*.cpl) spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution.
 
 > [!Note]  
-> À compter de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :
+> à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :
 >
 > ``` syntax
 > control.exe /name Microsoft.Personalization
@@ -63,11 +63,11 @@ Shell.ControlPanelItem( _
 
 Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
-Nom de fichier de l’application du panneau de configuration. Toutes les applications du panneau de configuration ont l’extension. cpl.
+Nom de fichier de l’application du panneau de configuration. Toutes les applications du panneau de configuration ont l’extension .cpl.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -79,9 +79,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **ControlPanelItem** pour exécuter l’élément des **propriétés d’affichage** du panneau de configuration. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **ControlPanelItem** pour exécuter l’élément des **propriétés d’affichage** du panneau de configuration. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -131,13 +131,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

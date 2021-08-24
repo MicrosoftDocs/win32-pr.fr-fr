@@ -6,12 +6,12 @@ keywords:
 - Administration RAS RRAS, administration des utilisateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 742bf3e357ef813a60c67f991b6e5829879d3e1a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7860e4916a9cf6138ebb6c201e9301feacbe332649036e7eb18075df621512a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106512523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028639"
 ---
 # <a name="ras-user-administration"></a>Administration des utilisateurs RAS
 
@@ -36,8 +36,8 @@ Chaque compte d’utilisateur spécifie l’un des indicateurs suivants pour ind
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

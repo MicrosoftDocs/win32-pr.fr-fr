@@ -4,12 +4,12 @@ description: En savoir plus sur la fenêtre Options de caractères avancés, qui
 ms.assetid: c2f784e9-d1c5-4fa3-b3f7-5061c9b7e6d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd49ff2f3c948594756f8d02bd4417e4f4f684fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: d1b5ce1bc7cb42dc03fd35edbbaa6626f19389b0fd72bd507590ad1989d111c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715859"
 ---
 # <a name="advanced-character-options-window-voice-commands-window"></a>Fenêtre Options des caractères avancés (fenêtre commandes vocales)
 

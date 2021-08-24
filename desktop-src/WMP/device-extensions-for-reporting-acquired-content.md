@@ -3,32 +3,32 @@ title: Extensions d’appareil pour la création de rapports sur le contenu acqu
 description: Extensions d’appareil pour la création de rapports sur le contenu acquis
 ms.assetid: 597d872e-9105-4edb-afa3-9f4407de0f73
 keywords:
-- Windows Media Player, extensions d’appareils
-- Windows Media Player, extensions
+- Lecteur Windows Media, extensions de périphérique
+- Lecteur Windows Media, extensions
 - Lecteur Windows Media, création de rapports sur le contenu acquis
 - extensions d’appareils, création de rapports sur le contenu acquis
 - extensions, création de rapports sur le contenu acquis
 - création de rapports sur le contenu acquis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 831312457427cc9fe4ceed004772f3b174f77989
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3389f5b35cedc853d66e6f450836195497628972ea6ae15642d75155d8b83b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902059"
 ---
 # <a name="device-extensions-for-reporting-acquired-content"></a>Extensions d’appareil pour la création de rapports sur le contenu acquis
 
-Le lecteur Windows Media 11 introduit une nouvelle fonctionnalité qui permet aux appareils portables de notifier le lecteur du contenu ajouté à l’appareil depuis la dernière synchronisation. Le lecteur Windows Media 11 peut utiliser ces informations pour copier le contenu nouvellement acquis de l’appareil sur l’ordinateur de l’utilisateur. Les fabricants de périphériques doivent noter les exigences suivantes pour la prise en charge de cette fonctionnalité :
+Lecteur Windows Media 11 introduit une nouvelle fonctionnalité qui permet aux appareils portables de notifier le lecteur du contenu ajouté à l’appareil depuis la dernière synchronisation. Lecteur Windows Media 11 peut utiliser ces informations pour copier le contenu nouvellement acquis de l’appareil sur l’ordinateur de l’utilisateur. Les fabricants de périphériques doivent noter les exigences suivantes pour la prise en charge de cette fonctionnalité :
 
 -   Cette fonctionnalité est prise en charge uniquement pour les appareils compatibles MTP.
--   Cette fonctionnalité fonctionne uniquement avec les appareils qui ont un partenariat avec le lecteur Windows Media.
+-   cette fonctionnalité ne fonctionne qu’avec des appareils qui ont un partenariat avec Lecteur Windows Media.
 -   Les appareils doivent signaler uniquement le contenu que l’appareil a créé ou téléchargé. Cela comprend les photos prises par l’appareil ; enregistrements vocaux créés par l’appareil ; enregistrements de la messagerie vocale ; téléchargements à partir d’une carte de stockage ; et téléchargements à partir d’Internet. Le contenu qui a été stocké sur le périphérique suite à une synchronisation avec un autre appareil ou un autre partenariat ne doit pas être signalé.
 
-Le fichier d’en-tête nommé wmpdevices. h, qui est installé dans le cadre du kit de développement logiciel (SDK) du lecteur Windows Media, définit les structures et les constantes nécessaires à la prise en charge des extensions de périphérique du lecteur Windows Media.
+le fichier d’en-tête nommé wmpdevices. h, qui est installé dans le cadre du kit de développement logiciel (SDK) Lecteur Windows Media, définit les structures et les constantes nécessaires à la prise en charge des extensions d’appareils Lecteur Windows Media.
 
-Pour qu’un appareil soit reconnu comme prenant en charge la création de rapports de contenu acquis via le jeu d’extensions de périphérique MTP du lecteur Windows Media, il doit inclure les informations suivantes dans le jeu de données DeviceInfo. (Pour plus d’informations sur ce jeu de données, consultez la section 4.6.1 de la spécification MTP.)
+pour qu’un appareil soit reconnu comme prenant en charge la création de rapports de contenu acquis via le jeu d’extensions de périphérique MTP Lecteur Windows Media, il doit inclure les informations suivantes dans le jeu de données DeviceInfo. (Pour plus d’informations sur ce jeu de données, consultez la section 4.6.1 de la spécification MTP.)
 
 
 
@@ -40,7 +40,7 @@ Pour qu’un appareil soit reconnu comme prenant en charge la création de rappo
 
 
 
- 
+ 
 
 Le tableau suivant fournit des détails sur l’opération MTP pour la création de rapports sur le contenu acquis.
 
@@ -48,7 +48,7 @@ Le tableau suivant fournit des détails sur l’opération MTP pour la création
 
 | Élément                  | Description                                                                                                                                                                                                                     |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Code d’opération        | 0x9202                                                                                                                                                                                                                          |
+| Code d'opération        | 0x9202                                                                                                                                                                                                                          |
 | Paramètre d’opération 1 | L’ID de transaction fourni par l’appareil lors de la session précédente. Cette valeur est égale à zéro pour la première session.                                                                                                                |
 | Paramètre d’opération 2 | Index de départ. Cette valeur est toujours égale à zéro lors du premier appel d’une session. Lors des appels suivants au sein de la même session de synchronisation, cette valeur augmente en fonction du nombre d’éléments renvoyés par les données de la réponse précédente. |
 | Paramètre d’opération 3 | 0x10000. Cette constante, définie dans wmpdevices. h, est le nombre maximal de PUOIDs qui peuvent être retournés dans la réponse. Notez que la valeur de cette constante peut être révisée dans les versions ultérieures de ce fichier d’en-tête.              |
@@ -65,9 +65,9 @@ Le tableau suivant fournit des détails sur l’opération MTP pour la création
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’État est indiqué par le paramètre de réponse 3 dans un mode de bits à l’aide de l’indicateur suivant.
 
@@ -79,7 +79,7 @@ L’État est indiqué par le paramètre de réponse 3 dans un mode de bits à l
 
 
 
- 
+ 
 
 Les bits 1 à 31 sont réservés à une utilisation ultérieure. Ces bits doivent être définis sur zéro.
 
@@ -87,12 +87,12 @@ Les bits 1 à 31 sont réservés à une utilisation ultérieure. Ces bits doiven
 
 <dl> <dt>
 
-[**Lecteur Windows Media**](windows-media-player.md)
+[**Lecteur Windows Media**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

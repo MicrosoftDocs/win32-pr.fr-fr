@@ -4,12 +4,12 @@ ms.assetid: b66ea0e8-84c3-40be-bf02-765b9dd61f9f
 title: Création de la bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c12d296b1494cfcedcdfa823eb1a3dd4d408427a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89047e24fe61483b3ac807b59abc114206a00f9df18566b5fb02947268fbd792
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650449"
 ---
 # <a name="dynamic-link-library-creation"></a>Création de la bibliothèque de Dynamic-Link
 
@@ -17,9 +17,9 @@ Pour créer une bibliothèque de Dynamic-Link (DLL), vous devez créer un ou plu
 
 ## <a name="creating-source-files"></a>Création de fichiers sources
 
-Les fichiers sources d’une DLL contiennent des fonctions et des données exportées, des fonctions et des données internes, ainsi qu’une [fonction de point d’entrée](dynamic-link-library-entry-point-function.md) facultative pour la dll. Vous pouvez utiliser tous les outils de développement qui prennent en charge la création de dll Windows.
+Les fichiers sources d’une DLL contiennent des fonctions et des données exportées, des fonctions et des données internes, ainsi qu’une [fonction de point d’entrée](dynamic-link-library-entry-point-function.md) facultative pour la dll. vous pouvez utiliser tous les outils de développement qui prennent en charge la création de dll basées sur Windows.
 
-Si votre DLL peut être utilisée par une application multithread, vous devez rendre votre DLL « thread-safe ». Vous devez synchroniser l’accès à toutes les données globales de la DLL pour éviter l’endommagement des données. Vous devez également vous assurer que vous effectuez un lien uniquement avec des bibliothèques thread-safe. Par exemple, Microsoft Visual C++ contient plusieurs versions de la bibliothèque Runtime C, une qui n’est pas thread-safe et deux qui sont.
+Si votre DLL peut être utilisée par une application multithread, vous devez rendre votre DLL « thread-safe ». Vous devez synchroniser l’accès à toutes les données globales de la DLL pour éviter l’endommagement des données. Vous devez également vous assurer que vous effectuez un lien uniquement avec des bibliothèques thread-safe. par exemple, Microsoft Visual C++ contient plusieurs versions de la bibliothèque runtime C, une qui n’est pas thread-safe et deux qui sont.
 
 ## <a name="exporting-functions"></a>Exportation de fonctions
 

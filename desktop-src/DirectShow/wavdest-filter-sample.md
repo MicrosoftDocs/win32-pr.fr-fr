@@ -4,12 +4,12 @@ ms.assetid: b7102e39-b3c7-42fb-a89b-f05f3ee75df7
 title: Exemple de filtre WavDest
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a13a5b1ef3cf6189042db152a2c47d578d63147
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 845c2cea35fbe3c43a556cb7e047488597ce6192c3b577c55c5490f8db95c037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903239"
 ---
 # <a name="wavdest-filter-sample"></a>Exemple de filtre WavDest
 
@@ -19,15 +19,15 @@ Le filtre WavDes écrit un flux audio dans un fichier WAV. Il prend un seul flux
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ fichiers de \\ \\ \\ filtres DirectShow \\ Wavdest.
+cet exemple est installé sous le chemin d’accès suivant : exemples *\[ racine \] du kit de développement logiciel (SDK)* \\ \\ \\ \\ WavDest filtres de DirectShow \\ .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 67e1796c-02e5-4f81-8086-7c2ff3112ae0
 title: Message LINE_AGENTSPECIFIC (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ca03138ce00f11520e2e0f1df8e810e21d1186
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a87b0e6f5c6c96842f70ebe46c0b72e33e6767c996fa2cc5b4d8e95ff0f08cd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867159"
 ---
 # <a name="line_agentspecific-message"></a>\_Message AGENTSPECIFIC de ligne
 
@@ -65,7 +65,7 @@ Spécifique à l’extension du gestionnaire.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ AGENTSPECIFIC** n’est pas envoyé aux applications qui prennent en charge des versions antérieures de TAPI.
 

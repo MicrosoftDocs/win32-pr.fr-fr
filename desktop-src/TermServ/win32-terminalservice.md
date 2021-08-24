@@ -44,12 +44,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba5646c6ac9abf41fddc023ad39884e611681a71
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 735b033017958816e8e9a40caea935847104fdcbe3e9acf3128890d88685d09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867849"
 ---
 # <a name="win32_terminalservice-class"></a>\_Classe TerminalService Win32
 
@@ -109,9 +109,9 @@ La classe **Win32 \_ TerminalService** possède ces méthodes.
 
 | Méthode                                                                       | Description                                                                                          |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------|
-| [**Modifiés**](win32-terminalservice-change.md)                               | Modifie un service.<br/>                                                                       |
+| [**Modifier**](win32-terminalservice-change.md)                               | Modifie un service.<br/>                                                                       |
 | [**ChangeStartMode**](win32-terminalservice-changestartmode.md)             | Modifie le mode de démarrage d’un service.<br/>                                                     |
-| [**Créés**](win32-terminalservice-create.md)                               | Crée un nouveau service.<br/>                                                                    |
+| [**Créer**](win32-terminalservice-create.md)                               | Crée un nouveau service.<br/>                                                                    |
 | [**Supprimer**](win32-terminalservice-delete.md)                               | Supprime un service existant.<br/>                                                              |
 | [**GetSecurityDescriptor**](win32-terminalservice-getsecuritydescriptor.md) | Retourne le descripteur de sécurité qui contrôle l’accès au service.<br/>                      |
 | [**InterrogateService**](win32-terminalservice-interrogateservice.md)       | Demande qu’un service met à jour son état dans Service Manager.<br/>                          |
@@ -236,7 +236,7 @@ Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifie
 
 Si la **valeur est true**, le service est démarré après le démarrage d’autres services à démarrage automatique, plus un bref délai.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 Cette propriété est héritée [**du \_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service).
 
@@ -400,7 +400,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| service structures \| [**\_ Status service**](/windows/desktop/api/winsvc/ns-winsvc-service_status) \| dwWin32ExitCode"), [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) ("code de sortie")
 </dt> </dl>
 
-Code d’erreur Windows qui définit les erreurs rencontrées lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété [**ServiceSpecificExitCode**](/windows/desktop/CIMWin32Prov/win32-service) . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
+Windows code d’erreur qui définit les erreurs rencontrées lors du démarrage ou de l’arrêt du service. Cette propriété est définie sur **erreur \_ spécifique au service \_ \_** (1066) lorsque l’erreur est unique pour le service représenté par cette classe, et les informations sur l’erreur sont disponibles dans la propriété [**ServiceSpecificExitCode**](/windows/desktop/CIMWin32Prov/win32-service) . Le service définit cette valeur sur **aucune \_ erreur** lors de l’exécution, et à nouveau sur fin normale.
 
 Cette propriété est héritée de [**Win32 \_ BaseService**](/windows/desktop/CIMWin32Prov/win32-baseservice).
 
@@ -571,7 +571,7 @@ Cette propriété est héritée de [**Win32 \_ BaseService**](/windows/desktop/C
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -601,7 +601,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**DisplayName**](/windows/desktop/WmiSdk/standard-qualifiers) (« mode de démarrage »)
 </dt> </dl>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -758,7 +758,7 @@ Les valeurs sont :
 
 </dt> <dd></dd> </dl>
 
-**Windows Server 2008 et Windows Vista :** Cette propriété est en lecture seule avant Windows 7 et Windows Server 2008 R2.
+**Windows Server 2008 et Windows Vista :** cette propriété est en lecture seule avant Windows 7 et Windows Server 2008 R2.
 
 Cette propriété est héritée de [**Win32 \_ BaseService**](/windows/desktop/CIMWin32Prov/win32-baseservice).
 
@@ -959,7 +959,7 @@ Cette propriété est héritée [**du \_ service Win32**](/windows/desktop/CIMWi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que la classe **\_ TerminalService Win32** est une sous-classe de la classe de [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service) , la classe hérite de toutes les propriétés et méthodes du **\_ service Win32**.
 
@@ -967,7 +967,7 @@ Cette propriété est héritée [**du \_ service Win32**](/windows/desktop/CIMWi
 
 [**Win32 \_ TSSessionDirectory**](win32-tssessiondirectory.md) est associé à **Win32 \_ TerminalService** en tant que propriété de **paramètre** de l’Association [**Win32 \_ TSSessionDirectorySetting**](win32-tssessiondirectorysetting.md) .
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

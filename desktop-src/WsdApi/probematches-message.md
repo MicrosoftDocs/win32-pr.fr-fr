@@ -4,18 +4,18 @@ ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: Message messages ProbeMatches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd856cda51d558073585f41f3db23c75fea7f17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa395557aac7c67a82163066cf1bfbb854348e1c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518285"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627865"
 ---
 # <a name="probematches-message"></a>Message messages ProbeMatches
 
 Un message messages ProbeMatches est un message de WS-Discovery envoyé par un service en réponse au message de [sondage](probe-message.md) d’un client. Pour plus d’informations sur les messages messages ProbeMatches, consultez la section 5,3 de la [spécification WS-Discovery](https://specs.xmlsoap.org/ws/2005/04/discovery/ws-discovery.pdf).
 
-Un message messages ProbeMatches est envoyé par la monodiffusion UDP au port à partir duquel le message de [sondage](probe-message.md) du client a été envoyé. Messages ProbeMatches doit être envoyé dans les 4 secondes du message de sondage ; dans le cas contraire, le pare-feu Windows risque de supprimer le paquet.
+Un message messages ProbeMatches est envoyé par la monodiffusion UDP au port à partir duquel le message de [sondage](probe-message.md) du client a été envoyé. Messages ProbeMatches doit être envoyé dans les 4 secondes du message de sondage ; dans le cas contraire, Windows pare-feu peut supprimer le paquet.
 
 Si aucun XAddrs n’est inclus dans le message messages ProbeMatches, le client peut envoyer un message de [résolution](resolve-message.md) par multidiffusion UDP au port 3702. Le client envoie un message de résolution lorsqu’un message HTTP (par exemple, une demande d’échange de métadonnées ou un [message de service](get--metadata-exchange--http-request-and-message.md) ) est envoyé.
 
@@ -78,9 +78,9 @@ Un message messages ProbeMatches a les points de focalisation suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -137,7 +137,7 @@ Un message messages ProbeMatches a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Message de sondage](probe-message.md)

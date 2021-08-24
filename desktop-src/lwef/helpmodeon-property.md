@@ -4,12 +4,12 @@ description: Propriété HelpModeOn
 ms.assetid: 4a9b5fd3-12e2-489b-8ce0-9b66b01f517a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43662469c6461e92186a92daddb505b851f8740a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 489de1893e96bf2d4cc38ef9e788a726db8b9fd4dfbdc9ae3cd1b60f9bc02f91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962739"
 ---
 # <a name="helpmodeon-property"></a>Propriété HelpModeOn
 
@@ -27,7 +27,7 @@ Retourne ou définit une valeur indiquant si le mode d’aide contextuelle est a
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent. ***Caractères («*** CharacterID * * * »). HelpModeOn* *  \[  =  *booléen*\]
+*agents. ***caractères («**_CharacterID_*_»). HelpModeOn_ *  \[  =  *booléen*\]
 
 
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si le mode d’aide contextuelle est a
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous affectez la valeur **true** à cette propriété, le pointeur de la souris se transforme en image d’aide contextuelle lorsqu’il est déplacé sur le caractère ou sur le menu contextuel du caractère. Quand l’utilisateur clique ou fait glisser le caractère ou clique sur un élément dans le menu contextuel du caractère, le serveur déclenche l’événement [**HelpComplete**](helpcomplete-event.md) et quitte le mode d’aide.
 

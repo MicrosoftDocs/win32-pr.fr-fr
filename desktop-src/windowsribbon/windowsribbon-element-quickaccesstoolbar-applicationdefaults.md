@@ -3,7 +3,7 @@ title: QuickAccessToolbar. ApplicationDefaults, propriété
 description: Représente un conteneur pour les commandes par défaut dans la barre d’outils accès rapide (QAT).
 ms.assetid: 8f44d7c0-1a39-4a88-ae01-7d7d1bb6bf7e
 keywords:
-- Ruban Windows de la propriété QuickAccessToolbar. ApplicationDefaults
+- QuickAccessToolbar. ApplicationDefaults, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 084ea334441cb0cf545adaa3d1016f7d02da1b88
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 701a7c72e40b1efe9104d6794fa739c556b0fb4b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518066"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473745"
 ---
 # <a name="quickaccesstoolbarapplicationdefaults-property"></a>QuickAccessToolbar. ApplicationDefaults, propriété
 
@@ -39,68 +39,17 @@ Il n’y a pas d’attributs.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-element-button.md"><strong>Button</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-checkbox.md"><strong>CheckBox</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 et versions ultérieures.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 et versions ultérieures.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 et versions ultérieures.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/>
-<blockquote>
-[!Note]<br />
-Windows 8 et versions ultérieures.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br/></td>
-<td>Doit être présent au moins une fois.<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Élément | Description | 
+|---------|-------------|
+| <a href="windowsribbon-element-button.md"><strong>Button</strong></a><br /> | Doit être présent au moins une fois.<br /><br /> | 
+| <a href="windowsribbon-element-checkbox.md"><strong>Activé</strong></a><br /> | Doit être présent au moins une fois.<br /><br /> | 
+| <a href="windowsribbon-element-combobox.md"><strong>ComboBox</strong></a><br /> | Doit être présent au moins une fois.<br /><blockquote>[!Note]<br />Windows 8 et versions ultérieures.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-dropdowngallery.md"><strong>DropDownGallery</strong></a><br /> | Doit être présent au moins une fois.<br /><blockquote>[!Note]<br />Windows 8 et versions ultérieures.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-inribbongallery.md"><strong>InRibbonGallery</strong></a><br /> | Doit être présent au moins une fois.<br /><blockquote>[!Note]<br />Windows 8 et versions ultérieures.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-splitbuttongallery.md"><strong>SplitButtonGallery</strong></a><br /> | Doit être présent au moins une fois.<br /><blockquote>[!Note]<br />Windows 8 et versions ultérieures.</blockquote><br /><br /> | 
+| <a href="windowsribbon-element-togglebutton.md"><strong>ToggleButton</strong></a><br /> | Doit être présent au moins une fois.<br /><br /> | 
+
 
 
 
@@ -114,9 +63,9 @@ Windows 8 et versions ultérieures.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque [**QuickAccessToolbar**](windowsribbon-element-quickaccesstoolbar.md).
 
@@ -152,8 +101,8 @@ Cette section de code illustre la déclaration de contrôle **QuickAccessToolbar
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

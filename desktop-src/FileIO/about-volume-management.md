@@ -4,12 +4,12 @@ ms.assetid: 424ddbd9-5692-45ef-95fb-7b00b09e3205
 title: À propos de la gestion des volumes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0767d137eeecaa4ded060382b689b5ea3780dcbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5446726b7caf448eef74884e8b6afc9d27dc4d4fdc6ffadd4572e667aaeb2cf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766309"
 ---
 # <a name="about-volume-management"></a>À propos de la gestion des volumes
 
@@ -21,7 +21,7 @@ Les volumes sont implémentés par un pilote de périphérique appelé gestionna
 
 | Rubrique                                                                       | Description                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Reconnaissance du système de fichiers](file-system-recognition.md)<br/>           | L’objectif de la reconnaissance du système de fichiers est de permettre au système d’exploitation Windows d’avoir une option supplémentaire pour un système de fichiers valide mais non reconnu autre que « RAW ».<br/>                                                                                                         |
+| [Reconnaissance du système de fichiers](file-system-recognition.md)<br/>           | l’objectif de la reconnaissance du système de fichiers est de permettre au Windows système d’exploitation d’avoir une option supplémentaire pour un système de fichiers valide mais non reconnu autre que « RAW ».<br/>                                                                                                         |
 | [Attribution d’un nom à un volume](naming-a-volume.md)<br/>                           | Une étiquette est un nom convivial qui est affecté à un volume, généralement par un utilisateur final, pour faciliter sa reconnaissance. Un volume peut avoir une étiquette, une lettre de lecteur, les deux ou aucune des deux. Pour définir l’étiquette d’un volume, utilisez la fonction [**SetVolumeLabel**](/windows/desktop/api/WinBase/nf-winbase-setvolumelabela) .<br/> |
 | [Énumération des volumes](enumerating-volumes.md)<br/>                   | Pour obtenir une liste complète des volumes sur un ordinateur, ou pour manipuler chaque volume, vous pouvez énumérer les volumes.<br/>                                                                                                                                                       |
 | [Obtention d’informations sur le volume](obtaining-volume-information.md)<br/> | Avant d’accéder aux fichiers et aux répertoires d’un volume donné, vous devez déterminer les fonctionnalités du système de fichiers à l’aide de la fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) .<br/>                                                                              |

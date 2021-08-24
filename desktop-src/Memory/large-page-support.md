@@ -1,19 +1,19 @@
 ---
-description: La prise en charge de grandes pages permet aux applications serveur d’établir des régions de mémoire de grande page, ce qui est particulièrement utile sur Windows 64 bits.
+description: La prise en charge des pages de grande taille permet aux applications serveur d’établir des régions de mémoire de grande page, ce qui est particulièrement utile sur les Windowss de 64 bits.
 ms.assetid: 060115af-38d1-499c-b30c-47cd0cf42d20
 title: Support Large-Page
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ef4578b5127e6613f2ff4b6e0b8a7cffcc53c9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad61873c80d2d3fe8de6a915f5eb93f527049a437860deabedbe232cdf9cb885
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869679"
 ---
 # <a name="large-page-support"></a>Support Large-Page
 
-La prise en charge de grandes pages permet aux applications serveur d’établir des régions de mémoire de grande page, ce qui est particulièrement utile sur Windows 64 bits. Chaque traduction de grande page utilise un seul tampon de traduction à l’intérieur de l’UC. La taille de cette mémoire tampon est généralement de trois ordres de grandeur supérieurs à la taille de page native. Cela augmente l’efficacité de la mémoire tampon de traduction, ce qui peut améliorer les performances de la mémoire fréquemment utilisée.
+La prise en charge des pages de grande taille permet aux applications serveur d’établir des régions de mémoire de grande page, ce qui est particulièrement utile sur les Windowss de 64 bits. Chaque traduction de grande page utilise un seul tampon de traduction à l’intérieur de l’UC. La taille de cette mémoire tampon est généralement de trois ordres de grandeur supérieurs à la taille de page native. Cela augmente l’efficacité de la mémoire tampon de traduction, ce qui peut améliorer les performances de la mémoire fréquemment utilisée.
 
 La procédure suivante décrit comment utiliser la prise en charge des pages de grande taille.
 

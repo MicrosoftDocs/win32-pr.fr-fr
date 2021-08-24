@@ -62,12 +62,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 37c4faceb9072c1851868eb23c031e715cb6e1c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 527b69d83c512f622c4c34b9bb1ea510e269e0d062cae3972170b5ad98deb8d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522199"
 ---
 # <a name="msvm_keyboard-class"></a>\_Classe de clavier MSVM
 
@@ -149,7 +149,7 @@ La classe de **\_ clavier MSVM** possède ces méthodes.
 | **QuiesceDevice**                                              | Cette méthode n'est pas prise en charge.<br/>                      |
 | [**ReleaseKey**](releasekey-msvm-keyboard.md)                 | Simule une version de clé.<br/>                           |
 | [**RequestStateChange**](msvm-keyboard-requeststatechange.md) | Demande que l’état de l’élément soit modifié.<br/> |
-| [**Réinitialiser**](msvm-keyboard-reset.md)                           | Réinitialise le clavier virtuel.<br/>                       |
+| [**Initialisation**](msvm-keyboard-reset.md)                           | Réinitialise le clavier virtuel.<br/>                       |
 | **RestoreProperties**                                          | Cette méthode n'est pas prise en charge.<br/>                      |
 | **SaveProperties**                                             | Cette méthode n'est pas prise en charge.<br/>                      |
 | **SetPowerState**                                              | Cette méthode n'est pas prise en charge.<br/>                      |
@@ -392,7 +392,7 @@ Indique les États activés et désactivés d’un élément. Il peut également
 | Valeur                                                                                                                                                                                                                                                                       | Signification                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt>**Inconnu**</dt> <dt>0</dt> </dl>                                                 | Unknown<br/>                                                                                                                                                                                              |
-| <span id="Other"></span><span id="other"></span><span id="OTHER"></span><dl> <dt>**Autre**</dt> <dt>1</dt> </dl>                                                         | Autres<br/>                                                                                                                                                                                                |
+| <span id="Other"></span><span id="other"></span><span id="OTHER"></span><dl> <dt>**Autre**</dt> <dt>1</dt> </dl>                                                         | Autre<br/>                                                                                                                                                                                                |
 | <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <dt>**Activé**</dt> <dt>2</dt> </dl>                                                 | L’élément est ou peut exécuter des commandes, traite toutes les commandes mises en file d’attente et met en file d’attente les nouvelles requêtes.<br/>                                                                                            |
 | <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <dt>**Désactivé**</dt> <dt>3</dt> </dl>                                             | L’élément n’exécutera pas de commande et supprimera toutes les nouvelles demandes.<br/>                                                                                                                                |
 | <span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span><dl> <dt>**Arrêt**</dt> de <dt>4</dt> </dl>                         | L’élément est en cours de passage à un état désactivé.<br/>                                                                                                                                          |
@@ -935,7 +935,7 @@ Indique si le clavier virtuel prend en charge les caractères Unicode. Il peut s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe de **\_ clavier MSVM** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -945,8 +945,8 @@ L’accès à la classe de **\_ clavier MSVM** peut être limité par le filtrag
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -3,7 +3,7 @@ title: Scale, élément
 description: Représente la préférence de taille et de disposition d’un groupe de contrôles via une paire groupe, SizeDefinition.
 ms.assetid: feef3721-c779-4c64-96c6-9d951ac32277
 keywords:
-- Ruban Windows de l’élément de mise à l’échelle
+- élément Scale Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e3ba922b65525b92189673020f7155275bdf49f9
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 580cfad910a727f7e4392489adc8cb8baec9a0bc
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111445010"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630200"
 ---
 # <a name="scale-element"></a>Scale, élément
 
@@ -39,10 +39,10 @@ Représente la préférence de taille et de disposition d’un [**groupe**](wind
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,14 +56,14 @@ Représente la préférence de taille et de disposition d’un [**groupe**](wind
 <tr class="odd">
 <td><strong>Groupe</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Oui<br/></td>
+<td>Yes<br/></td>
 <td>Doit correspondre à un <em>CommandName</em>de <a href="windowsribbon-element-group.md"><strong>groupe</strong></a> existant.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne ou valeur entière comprise entre 2 et 59999, inclusive ou 0X2 et 0xea5f en hexadécimal, inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Taille</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Oui<br/></td>
+<td>Yes<br/></td>
 <td>Cette valeur doit correspondre à l’une des tailles valides de l’attribut <em>SizeDefinition</em> du <a href="windowsribbon-element-group.md"><strong>groupe</strong></a> associé de contrôles spécifié dans <em>Group</em>. <br/> Limité à l’une des valeurs suivantes : <br/> <br/>
 <dt><span></span><span></span><strong></strong> Messages<br/> </dt> <dd> Mise en page de contrôle identique à <code>Large</code> , mais hébergée dans un volet contextuel ou une liste déroulante.<br/> </dd> <dt><span></span><span></span><strong></strong> Small<br/> </dt> <dd> Petit modèle <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> .<br/> </dd> <dt><span></span><span></span><strong></strong> Médias<br/> </dt> <dd> Modèle de <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> moyen.<br/> </dd> <dt><span></span><span></span><strong></strong> Conséquent<br/> </dt> <dd> Modèle <a href="windowsribbon-element-sizedefinition.md"><strong>SizeDefinition</strong></a> volumineux.<br/> </dd> </dl></td>
 </tr>
@@ -89,7 +89,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) ou [**ScalingPolicy. IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md).
 
@@ -169,7 +169,7 @@ Le manifeste [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) dans ce
 
 
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

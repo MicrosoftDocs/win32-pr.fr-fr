@@ -4,12 +4,12 @@ ms.assetid: 8a2fd7b2-e37b-465a-ba83-a68877a2e0c3
 title: élément eventStubFunction
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80777a53d37e7651559a09b8e8445d4314aaca63
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 34e0b42416adc29c75fcafffedabf558bf6455df6cecf2bfebc344f747fff971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856718"
 ---
 # <a name="eventstubfunction-element"></a>élément eventStubFunction
 
@@ -49,7 +49,7 @@ Les valeurs valides pour cet élément sont 1 (TRUE/stub Function References inc
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

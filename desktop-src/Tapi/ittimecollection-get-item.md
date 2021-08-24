@@ -4,16 +4,16 @@ ms.assetid: 7401ae21-190d-479c-aebc-51bf8a953b94
 title: 'ITTimeCollection :: get_Item, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68b9dec40070ff3abddce0e425300f6d805c1cc9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 422e558c01172d80e97113f84745f86e8d304fba5bf5761ff9135fc9ee59c41b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012659"
 ---
 # <a name="ittimecollectionget_item-method"></a>ITTimeCollection :: obten, \_ méthode d’élément
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode d' **extraction d' \_ élément** obtient un élément de la collection à l’aide d’un index.
 
@@ -66,7 +66,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITTime**](ittime.md) retournée par I **TTimeCollection :: obten \_ Item**. L’application doit appeler **Release** sur l’interface **ITTime** pour libérer les ressources qui lui sont associées.
 

@@ -4,12 +4,12 @@ ms.assetid: a451988e-7026-4b3c-a7a3-366f9886aa02
 title: Annulation de l’inscription d’un nom d’homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd482cc9cfd8c32d7bc95edd00e866e2d87b7a55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6ee0bd03e881f93321c31dfccd03cc71459b323f1ed356a88f829489c578a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119675009"
 ---
 # <a name="unregistering-a-peer-name"></a>Annulation de l’inscription d’un nom d’homologue
 

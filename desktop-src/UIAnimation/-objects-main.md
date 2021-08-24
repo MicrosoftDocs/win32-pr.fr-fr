@@ -1,19 +1,19 @@
 ---
-title: Objets (gestionnaire d’animations Windows)
-description: Documentation de référence pour les objets définis par le gestionnaire d’animations Windows.
+title: objets (Windows gestionnaire d’animations)
+description: documentation de référence pour les objets définis par le gestionnaire d’animations Windows.
 ms.assetid: 9b1c3473-14f8-475f-bbf0-ee40c9359e7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9b68715e540fedb74ec43329873d7f81d6ea07a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0e652d7850ad1408594ef2c014908e4dd36eca8eb7e58e913cbf60078a255e88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867729"
 ---
-# <a name="objects-windows-animation-manager"></a>Objets (gestionnaire d’animations Windows)
+# <a name="objects-windows-animation-manager"></a>objets (Windows gestionnaire d’animations)
 
-Documentation de référence pour les objets définis par le gestionnaire d’animations Windows.
+documentation de référence pour les objets définis par le gestionnaire d’animations Windows.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -37,7 +37,7 @@ Documentation de référence pour les objets définis par le gestionnaire d’an
 
 <dl> <dt>
 
-[Informations de référence sur les animations Windows](windows-animation-reference.md)
+[Windows Référence d’animation](windows-animation-reference.md)
 </dt> </dl>
 
  

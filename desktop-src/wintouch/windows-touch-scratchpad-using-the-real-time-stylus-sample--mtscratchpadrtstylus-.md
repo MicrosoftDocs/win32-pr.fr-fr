@@ -1,29 +1,29 @@
 ---
-title: Bloc-notes Windows Touch utilisant l’exemple de stylet en temps réel (C++)
-description: Consultez un exemple C++ de bloc-notes Windows Touch (MTScratchpadRTStylus), qui montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
+title: Windows Touch bloc-notes utilisant l’exemple de stylet en temps réel (C++)
+description: passez en revue un exemple C++ Windows touch de bloc-notes (MTScratchpadRTStylus), qui montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Exemples tactiles Windows, bloc-notes
+- Windows Toucher, exemple de code
+- Windows Exemples tactiles, de bloc-notes
 - Exemples de bloc-notes
-- Interface tactile Windows, objet de stylet (RTS) en temps réel
+- Windows Touch, objet de stylet (RTS) en temps réel
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8ae407240b939f1afe70a976c995e244521cf51ed9103ac5601fdfa817ddf9e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089803"
 ---
-# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Bloc-notes Windows Touch utilisant l’exemple de stylet en temps réel (C++)
+# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Windows Touch bloc-notes utilisant l’exemple de stylet en temps réel (C++)
 
-L’exemple du bloc-notes Windows Touch ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) montre comment utiliser des messages tactiles Windows pour dessiner les traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. La capture d’écran suivante montre comment l’application peut se présenter lors de son exécution.
+l’exemple Windows touch du bloc-notes ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. La capture d’écran suivante montre comment l’application peut se présenter lors de son exécution.
 
 ![capture d’écran montrant l’exemple de bloc-notes tactile Windows utilisant le stylet en temps réel, avec un vert, un rouge, trois noirs et une ligne bleue à l’écran](images/mtscratchpadrtstylus.png)
 
-Pour cet exemple, l’objet de stylet (RTS) en temps réel est créé et la prise en charge de plusieurs points de contact est activée. Un plug-in DynamicRenderer est ajouté au RTS pour afficher le contenu. Un plug-in, **CSyncEventHandlerRTS**, est implémenté pour effectuer le suivi du nombre de doigts et pour modifier la couleur de dessin du convertisseur dynamique. Avec les deux plug-ins dans la pile de plug-in RTS, l’application Windows Touch du bloc-notes affiche le contact principal en noir et le reste des contacts dans les différentes couleurs.
+Pour cet exemple, l’objet de stylet (RTS) en temps réel est créé et la prise en charge de plusieurs points de contact est activée. Un plug-in DynamicRenderer est ajouté au RTS pour afficher le contenu. Un plug-in, **CSyncEventHandlerRTS**, est implémenté pour effectuer le suivi du nombre de doigts et pour modifier la couleur de dessin du convertisseur dynamique. avec les deux plug-ins dans la pile de plug-in RTS, l’application Windows Touch du bloc-notes affiche le contact principal en noir et le reste des contacts dans les différentes couleurs.
 
 Le code suivant illustre la création de l’objet RTS avec prise en charge de plusieurs points de contact.
 
@@ -186,4 +186,4 @@ Lorsque la valeur *m_nContacts* est incrémentée, elle modifie le jeu de couleu
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Application multipoint de bloc-notes (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [application de bloc-notes multipoint (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [exemples de fonctions tactiles Windows](windows-touch-samples.md)
+[application multipoint de bloc-notes (rts/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [application de bloc-notes multipoint (rts/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [exemples de touches tactiles Windows](windows-touch-samples.md)

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7e643d775d1fb8e0c19286bfb7a50d887644e99
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 167b097426e27785ad47b8295fb728d1537dbd47
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106527968"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479605"
 ---
 # <a name="jet_loginfo-structure"></a>Structure JET_LOGINFO
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_loginfo-structure"></a>Structure JET_LOGINFO
 
@@ -62,7 +62,7 @@ Préfixe utilisé pour nommer les fichiers du journal des transactions.
 
 La valeur retournée dans ce membre est toujours égale au paramètre de [JET_paramBaseName](./transaction-log-parameters.md) pour l’instance qui a généré ces informations.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Les fichiers journaux de transactions sont nommés en fonction du nom de base de l’instance et du numéro de génération du fichier journal. Le nom est au format BBBXXXXX. Sign. BBB correspond au nom de base du fichier journal et sa longueur est toujours de trois caractères. XXXXX correspond au numéro de génération du fichier journal en valeur hexadécimale de zéro et est toujours de cinq caractères. LOG est l’extension de fichier qui est toujours donnée aux fichiers journaux des transactions par le moteur.
 
@@ -70,30 +70,9 @@ L’utilisation de ces informations structurées est déconseillée, car elle pe
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté comme <strong>JET_LOGINFO_W</strong> (Unicode) et <strong>JET_LOGINFO_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_LOGINFO_W</strong> (Unicode) et <strong>JET_LOGINFO_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

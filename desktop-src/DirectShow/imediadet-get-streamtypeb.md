@@ -24,7 +24,7 @@ ms.locfileid: "120083709"
 # <a name="imediadetget_streamtypeb-method"></a>IMediaDet :: \_ StreamTypeB, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

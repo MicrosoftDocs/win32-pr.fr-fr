@@ -4,27 +4,27 @@ description: Cette rubrique explique comment utiliser une barre de progression p
 ms.assetid: 4CC25F3A-9CAF-4ADC-B29C-3FACDD73D5A0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c71ff33a14f2d2af5fa8735c5197c50acaa948b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: e65d47d6b41422853d401a1fb2686e03e3d3f5bc378b78b7ba762b86fc7ffe30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826419"
 ---
 # <a name="how-to-use-progress-bar-controls"></a>Comment utiliser les contrôles de barre de progression
 
 Cette rubrique explique comment utiliser une barre de progression pour indiquer la progression d’une opération longue d’analyse de fichiers.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -124,13 +124,13 @@ BOOL ParseALargeFile(HWND hwndParent, LPTSTR lpszFileName)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez veiller à utiliser la fonction [**ReadFile**](/windows/desktop/api/fileapi/nf-fileapi-readfile) correctement pour garantir la sécurité de votre application. Par exemple, dans l’exemple de code, vous devez vérifier que `ReadFile` lit réellement toutes les données demandées.
 
 Notez également que le quatrième paramètre de [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea)(( \_ attributs LPSECURITY)**null**) définit les valeurs de sécurité par défaut. Si vous avez besoin de paramètres de sécurité spécifiques, vous devez définir les valeurs appropriées dans les membres de la structure. Appelez **sizeof** pour définir la taille correcte de la structure d' **\_ attributs LPSECURITY** .
 
-Pour plus d’informations, consultez [Considérations sur la sécurité : contrôles Microsoft Windows](sec-comctls.md).
+pour plus d’informations, consultez [considérations sur la sécurité : contrôles Microsoft Windows](sec-comctls.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -139,9 +139,9 @@ Pour plus d’informations, consultez [Considérations sur la sécurité : cont
 [Utilisation des contrôles de barre de progression](using-progress-bar-controls.md)
 </dt> <dt>
 
-[Considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md)
+[considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

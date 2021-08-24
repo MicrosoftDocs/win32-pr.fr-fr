@@ -4,12 +4,12 @@ ms.assetid: d52c1299-0641-405c-8960-edd738b56823
 title: Encodeur vidéo Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c96db605586c6abf0f51537689a9365df2842c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c7f7b70b9a754aefda3158ae355eb84c24b71b7e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106543437"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474715"
 ---
 # <a name="microsoft-mpeg-2-video-encoder"></a>Encodeur vidéo Microsoft MPEG-2
 
@@ -66,7 +66,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’encodeur vidéo MPEG-2 peut générer les types de sortie suivants :
 
@@ -78,7 +78,7 @@ Il prend en charge les profils et niveaux MPEG-2 suivants :
 
 
 
-| Profil        | Niveaux                     | Notes                                            |
+| Profil        | Niveaux                     | Remarques                                            |
 |----------------|----------------------------|----------------------------------------------------|
 | Profil simple | Principal                       |                                                    |
 | Profil Main   | Faible, main, haute, haute-1440 |                                                    |
@@ -133,7 +133,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 | [**AVEncVideoOutputChromaResolution**](avencvideooutputchromaresolution-property.md)         | 4:2:0                                                            | **eAVEncVideoChromaResolution \_ 420** (4:2:0)<br/> **eAVEncVideoChromaResolution \_ SameAsSource**<br/>                                                                                                     |
 | [**AVEncVideoOutputFrameRate**](avencvideooutputframerate-property.md)                       |                                                                  | Doit être identique à la fréquence d’images d’entrée.                                                                                                                                                                            |
 | [**AVEncVideoOutputScanType**](avencvideooutputscantype-property.md)                         | Comme dans l’entrée                                                    | **eAVEncVideoOutputScan \_ SameAsInput**                                                                                                                                                                               |
-| [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md)                     | 1:1                                                              |                                                                                                                                                                                                                      |
+| [**AVEncVideoPixelAspectRatio**](avencvideopixelaspectratio-property.md)                     | Un-à-un (1:1)                                                              |                                                                                                                                                                                                                      |
 
 
 
@@ -177,37 +177,13 @@ Pour configurer le mode d’encodage, définissez les propriétés suivantes :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Mode</th>
-<th>Propriétés</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CBR</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_CBR</strong><br/> <a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-<tr class="even">
-<td>VBR basé sur la qualité</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_Quality</strong><br/> <a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/>
-<blockquote>
-[!Note]<br />
-Dans ce mode, les propriétés <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> et <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> ne sont pas utilisées. La vitesse de transmission minimale est supposée être égale à zéro.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>VBR avec un pic restreint</td>
-<td><a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br/> <a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br/> <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br/> <a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br/> <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br/></td>
-</tr>
-</tbody>
-</table>
+
+| Mode | Propriétés | 
+|------|------------|
+| CBR | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_CBR</strong><br /><a href="avenccommonqualityvsspeed-property.md"><strong>AVEncCommonQualityVsSpeed</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+| VBR basé sur la qualité | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_Quality</strong><br /><a href="avenccommonquality-property.md"><strong>AVEncCommonQuality</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br /><blockquote>[!Note]<br />Dans ce mode, les propriétés <a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a> et <a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a> ne sont pas utilisées. La vitesse de transmission minimale est supposée être égale à zéro.</blockquote><br /> | 
+| VBR avec un pic restreint | <a href="avenccommonratecontrolmode-property.md"><strong>AVEncCommonRateControlMode</strong></a>  =  <strong>eAVEncCommonRateControlMode_PeakConstrainedVBR</strong><br /><a href="avenccommonmultipassmode-property.md"><strong>AVEncCommonMultipassMode</strong></a> = 1<br /><a href="avenccommonminbitrate-property.md"><strong>AVEncCommonMinBitRate</strong></a><br /><a href="avenccommonmaxbitrate-property.md"><strong>AVEncCommonMaxBitRate</strong></a><br /><a href="avenccommonmeanbitrate-property.md"><strong>AVEncCommonMeanBitRate</strong></a><br /> | 
+
 
 
 
@@ -351,7 +327,7 @@ L’encodeur introduit une latence d’encodage d’au moins un groupe d’image
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, Windows 7 Édition familiale Premium, Windows 7 professionnel, Windows 7 entreprise, applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista Ultimate, Windows 7 Édition Familiale Premium, Windows 7 Professionnel, Windows 7 Entreprise, Windows 7 Édition Intégrale les \[ applications de bureau uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>                                                                                       |
 
@@ -361,7 +337,7 @@ L’encodeur introduit une latence d’encodage d’au moins un groupe d’image
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [**Types de média du démultiplexeur MPEG-2**](mpeg-2-demultiplexer-media-types.md)

@@ -4,12 +4,12 @@ ms.assetid: 5fa754d3-07b2-4b75-91ef-1bf961d9fef4
 title: Constantes LINEDEVSTATUSFLAGS_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70745b1a84119af2305cadabd0a39ab5954e5b7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6649dc39c787be7c0b7f027637f12ff7f5d028add09b9f7d568149c6e9f76c97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682006"
 ---
 # <a name="linedevstatusflags_-constants"></a>\_Constantes LINEDEVSTATUSFLAGS
 
@@ -57,7 +57,7 @@ Indique si la ligne a un message en attente. Si la **valeur est true**, un messa
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

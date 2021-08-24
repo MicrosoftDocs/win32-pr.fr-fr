@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1fd3a14e2ac4bd283a4e67724fbb42ac965ea707
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cb31c873bf3a4e38048f57d75a30cec70021716d2aab43b683cb29aef25f7f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104101081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726959"
 ---
 # <a name="cnd---ps"></a>CND-PS
 
@@ -29,7 +29,7 @@ Choisit de façon conditionnelle entre src1 et src2, en fonction de la comparais
 
 
 
- 
+ 
 
 where
 
@@ -38,7 +38,7 @@ where
 -   src1 est un registre source.
 -   src2 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -48,7 +48,7 @@ where
 
 
 
- 
+ 
 
 Pour les versions 1 \_ 1 à 1 \_ , src0 doit être R0. a.
 
@@ -131,9 +131,9 @@ cnd r0, r0.a, c0, c1  // r0 = ( A > B ? c0 : c1 )
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

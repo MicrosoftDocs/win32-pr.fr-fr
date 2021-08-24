@@ -4,12 +4,12 @@ ms.assetid: 832957ca-82fc-4600-b469-512621dde921
 title: Activation d’un assembly dans une application hébergeant une DLL, une extension ou un panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04dd19b18c2cdce4783be47333b9afe53dd1ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23ac528c10d7ca0de903c6b132e0349c16061d63f121c390483458b4ef422d66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885539"
 ---
 # <a name="enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel"></a>Activation d’un assembly dans une application hébergeant une DLL, une extension ou un panneau de configuration
 
@@ -60,7 +60,7 @@ La méthode suivante peut être utilisée pour ajouter un manifeste à une appli
     MANIFEST_RESOURCE_ID RT_MANIFEST "YourApp.manifest"
     ```
 
-3.  Compilez l’application avec l’indicateur compatible-DISOLATION \_ \_ , ou insérez cette instruction avant l' \# instruction include « Windows. h ». Dans le cas d’une application avec plusieurs modules, l’indicateur de prise en charge de DISOLATION \_ \_ est requis sur tous les modules.
+3.  compilez l’application avec l’indicateur compatible-DISOLATION \_ \_ , ou insérez cette instruction avant l' \# instruction include « Windows. h ». Dans le cas d’une application avec plusieurs modules, l’indicateur de prise en charge de DISOLATION \_ \_ est requis sur tous les modules.
 
     ``` syntax
     #define ISOLATION_AWARE_ENABLED 1

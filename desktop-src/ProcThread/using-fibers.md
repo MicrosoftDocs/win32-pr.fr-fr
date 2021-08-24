@@ -4,12 +4,12 @@ ms.assetid: b09c00ae-a498-499b-ba2b-735028e9fd8f
 title: Utilisation de fibres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c25c8d9d258853990bd200a01c77be85c1fdfaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ce5d33cfbe7e54d297366290587d14c282a2e8f2d008a92eba4427cfdd7a139
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101909"
 ---
 # <a name="using-fibers"></a>Utilisation de fibres
 

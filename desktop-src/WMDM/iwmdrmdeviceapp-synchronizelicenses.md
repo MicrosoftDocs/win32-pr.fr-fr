@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b08f3457fec55a0eb519419feddf4594a2cbfac0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91ec48743bf52d990c64ce1aecf30897a7ee2f51664e88695a181f9d4f758140
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031739"
 ---
 # <a name="iwmdrmdeviceappsynchronizelicenses-method"></a>IWMDRMDeviceApp :: SynchronizeLicenses, méthode
 
@@ -76,7 +76,7 @@ Heures restantes minimales facultatives sur une licence d’appareil.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -90,16 +90,16 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 | <dl> <dt>**\_NOXMLOPENTAG DRM E \_**</dt> </dl>                 | Le code XML de la licence est incorrect.<br/>                                                                                                           |
 | <dl> <dt>**\_OUTOFMEMORY DRM E \_**</dt> </dl>                  | Mémoire insuffisante.<br/>                                                                                                                                   |
 | <dl> <dt>**\_XMLNOTFOUND DRM E \_**</dt> </dl>                  | Impossible de trouver une balise XML obligatoire dans la licence.<br/>                                                                                                |
-| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl>    | L’appareil spécifié n’est pas un périphérique compatible DRM Windows Media.<br/>                                                                               |
-| <dl> <dt>**l' \_ \_ individualisation des droits de l’utilisateur NS E \_ a besoin \_**</dt> </dl> | La DRM requiert une boîte noire individualisée pour exécuter cette fonction. En d’autres termes, le kit de développement logiciel (SDK) du format Windows Media requiert une mise à niveau de sécurité.<br/> |
+| <dl> <dt>**appareil \_ NS \_ E \_ non \_ WMDRM \_**</dt> </dl>    | l’appareil spécifié n’est pas un appareil compatible avec DRM Windows Media.<br/>                                                                               |
+| <dl> <dt>**l' \_ \_ individualisation des droits de l’utilisateur NS E \_ a besoin \_**</dt> </dl> | La DRM requiert une boîte noire individualisée pour exécuter cette fonction. en d’autres termes, le kit de développement logiciel (SDK) Windows Media Format requiert une mise à niveau de sécurité.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet appel ne peut être effectué que sur un appareil qui prend en charge Windows Media DRM 10 pour les appareils mobiles. Vous devez spécifier au moins un paramètre de seuil.
+cet appel ne peut être effectué que sur un appareil qui prend en charge Windows Media DRM 10 pour les appareils mobiles. Vous devez spécifier au moins un paramètre de seuil.
 
 ## <a name="requirements"></a>Configuration requise
 

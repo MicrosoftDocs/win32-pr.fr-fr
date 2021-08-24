@@ -5,12 +5,12 @@ ms.assetid: cabec269-b8e5-406e-a608-5f3313c4e874
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a573898a21727c53f4586d483b58492573485f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cae14a57e8b8fedec45b261e142bfdbdbd1691f8df424b9076160f31baa287a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869989"
 ---
 # <a name="remote-desktop-connection-broker-classes"></a>Classes Connexion Bureau à distance Broker
 
@@ -91,13 +91,13 @@ Représente un plug-in Virtual Machine Manager (VMM) inscrit auprès d’un serv
 </dd> </dl>
 
 > [!Note]  
-> Dans Windows Server 2008 R2, le nom de session Broker TS (session Broker TS) a été modifié en service Broker pour les connexions Bureau à distance.
+> dans Windows Server 2008 R2, le nom de session broker TS (session broker TS) a été modifié en service broker pour les connexions bureau à distance.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

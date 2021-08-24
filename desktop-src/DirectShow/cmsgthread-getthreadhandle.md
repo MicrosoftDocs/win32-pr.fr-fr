@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b61d7bfb11f78be3c1d23275589c8cb1c62259bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ecb968156302c4fd1a8c48d1c6f3175977059298d2f6af5207abc376a6e107a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119585689"
 ---
 # <a name="cmsgthreadgetthreadhandle-method"></a>Méthode CMsgThread. GetThreadHandle
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne le handle de thread.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le descripteur de thread peut être passé aux fonctions d’attente, telles que [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects). Le handle de thread est signalé lorsque le thread s’est arrêté.
 
@@ -54,7 +54,7 @@ Le descripteur de thread peut être passé aux fonctions d’attente, telles que
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

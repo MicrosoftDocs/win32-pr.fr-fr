@@ -49,7 +49,7 @@ Le tableau suivant répertorie les fonctions des noms de paramètres régionaux,
 
  
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemples
 
 Vous trouverez un exemple d’utilisation de plusieurs fonctions basées sur les noms de paramètres régionaux dans l' [exemple d’API nls : basée](nls--name-based-apis-sample.md)sur des noms.
 

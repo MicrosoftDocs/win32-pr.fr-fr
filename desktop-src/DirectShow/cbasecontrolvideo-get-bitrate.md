@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 62f1feaed786b397801bbd17d2d2d41c0ccb813d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b33e3584bb0460b798101d8062c3647b983841c77653adcffd18580eade25c6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057269"
 ---
 # <a name="cbasecontrolvideoget_bitrate-method"></a>CBaseControlVideo. obtient la \_ méthode de débit binaire
 
@@ -53,7 +53,7 @@ Pointeur vers la vitesse de transmission, en bits par seconde.
 
 Retourne une erreur en cas de réussite ou E \_ OUTOFMEMORY si la mémoire disponible est insuffisante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode [**IBasicVideo :: obtient le \_ débit binaire**](/windows/desktop/api/Control/nf-control-ibasicvideo-get_bitrate) . Elle appelle la CBaseControlVideo virtuelle pure [**:: GetVideoFormat**](cbasecontrolvideo-getvideoformat.md) pour récupérer la structure [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) à partir de la classe dérivée.
 
@@ -63,7 +63,7 @@ Cette fonction membre implémente la méthode [**IBasicVideo :: obtient le \_ d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

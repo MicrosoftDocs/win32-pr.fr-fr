@@ -4,12 +4,12 @@ ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: Utilisation des listes de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ade6cba2807e87306aa9cacb3649499d9e5ffe1
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 72289612d61ebfb198ec0f2ee3d4a7d206209e91
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481914"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477395"
 ---
 # <a name="using-property-lists"></a>Utilisation des listes de propriétés
 
@@ -40,63 +40,17 @@ Une fois que vous avez défini une liste de propriétés, vous pouvez stocker ce
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>FullDetails</td>
-<td>Les propriétés s’affichent sous l’onglet <strong>Détails</strong> de la boîte de dialogue <strong>Propriétés</strong> . Il s’agit de la liste complète des propriétés prises en charge par le type de fichier.</td>
-</tr>
-<tr class="even">
-<td>PreviewDetails</td>
-<td>Les propriétés s’affichent dans le <strong>volet de visualisation</strong>.</td>
-</tr>
-<tr class="odd">
-<td>PreviewTitle</td>
-<td>Les propriétés s’affichent dans la zone de titre du <strong>volet de visualisation</strong> en regard de la miniature de l’élément. Le nombre maximal d’entrées est de 3. Si la liste de propriétés contient plus que le nombre maximal autorisé, les autres entrées sont ignorées.</td>
-</tr>
-<tr class="even">
-<td>TileInfo</td>
-<td>Les propriétés sont affichées lorsque l’affichage de liste est en mode <strong>mosaïques</strong> . Le nombre maximal d’entrées est de 3. Si la liste de propriétés contient plus que le nombre maximal autorisé, les autres entrées sont ignorées.
-<blockquote>
-[!Note]<br />
-cette valeur était présente dans Windows XP.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>ExtendedTileInfo</td>
-<td>Les propriétés sont affichées pour un élément lorsque l’affichage de la liste est en mode <strong>mosaïque étendue</strong> .</td>
-</tr>
-<tr class="even">
-<td>InfoTip</td>
-<td>Les propriétés sont affichées dans une info-bulle quand un utilisateur pointe sur un élément.
-<blockquote>
-[!Note]<br />
-cette valeur était présente dans Windows XP.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>QuickTip</td>
-<td>Les propriétés s’affichent lorsqu’il est difficile de récupérer des propriétés directement à partir d’un élément, par exemple lorsque l’élément doit être accessible via une connexion réseau lente. Il est recommandé que les propriétés nommées ici, telles que le type ou la taille, ne requièrent pas l’ouverture du flux de fichier pour déterminer leur valeur.
-<blockquote>
-[!Note]<br />
-cette valeur était présente dans Windows XP.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | 
+|-------|-------------|
+| FullDetails | Les propriétés s’affichent sous l’onglet <strong>Détails</strong> de la boîte de dialogue <strong>Propriétés</strong> . Il s’agit de la liste complète des propriétés prises en charge par le type de fichier. | 
+| PreviewDetails | Les propriétés s’affichent dans le <strong>volet de visualisation</strong>. | 
+| PreviewTitle | Les propriétés s’affichent dans la zone de titre du <strong>volet de visualisation</strong> en regard de la miniature de l’élément. Le nombre maximal d’entrées est de 3. Si la liste de propriétés contient plus que le nombre maximal autorisé, les autres entrées sont ignorées. | 
+| TileInfo | Les propriétés sont affichées lorsque l’affichage de liste est en mode <strong>mosaïques</strong> . Le nombre maximal d’entrées est de 3. Si la liste de propriétés contient plus que le nombre maximal autorisé, les autres entrées sont ignorées.<blockquote>[!Note]<br />cette valeur était présente dans Windows XP.</blockquote><br /> | 
+| ExtendedTileInfo | Les propriétés sont affichées pour un élément lorsque l’affichage de la liste est en mode <strong>mosaïque étendue</strong> . | 
+| InfoTip | Les propriétés sont affichées dans une info-bulle quand un utilisateur pointe sur un élément.<blockquote>[!Note]<br />cette valeur était présente dans Windows XP.</blockquote><br /> | 
+| QuickTip | Les propriétés s’affichent lorsqu’il est difficile de récupérer des propriétés directement à partir d’un élément, par exemple lorsque l’élément doit être accessible via une connexion réseau lente. Il est recommandé que les propriétés nommées ici, telles que le type ou la taille, ne requièrent pas l’ouverture du flux de fichier pour déterminer leur valeur.<blockquote>[!Note]<br />cette valeur était présente dans Windows XP.</blockquote><br /> | 
+
 
 
 

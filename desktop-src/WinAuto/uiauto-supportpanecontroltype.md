@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, volet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e4a7225869c0752e65aece7e4eca00a416614315c8d5af810bdeb57d29aae0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6b335496d8d40d20ccc68f6bc2b048c87ff608dd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825524"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474255"
 ---
 # <a name="pane-control-type"></a>Pane (type de contrôle)
 
@@ -51,28 +51,11 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Volet</li>
-</ul></td>
-<td><ul>
-<li>Volet</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Volet</li></ul> | <ul><li>Volet</li></ul> | 
+
 
 
 
@@ -86,7 +69,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                                                                                                                                                                                 |
+| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md)                       | Consultez les remarques. | Si une combinaison de touches spécifique donne le focus au volet, ces informations doivent être exposées via cette propriété.                                                                                                                                                                                                      |
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                          |
@@ -128,7 +111,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                      |
+| Événement UI Automation                                                                                                                                        | Notes                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AsyncContentLoadedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                            |
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                            |
@@ -154,50 +137,11 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arborescence UI Automation — vue contrôle</th>
-<th>Arborescence UI Automation — affichage du contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Volet
-<ul>
-<li>Tree (modèle Scroll)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>Volet
-<ul>
-<li>Modifier (modèle Scroll)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Volet
-<ul>
-<li>Tree (modèle Scroll)
-<ul>
-<li>TreeItem</li>
-<li>...</li>
-</ul></li>
-<li>Volet
-<ul>
-<li>Modifier (modèle Scroll)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Arborescence UI Automation — vue contrôle | Arborescence UI Automation — affichage du contenu | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Volet<ul><li>Tree (modèle Scroll)<ul><li>TreeItem</li><li>...</li></ul></li></ul></li><li>Volet<ul><li>Modifier (modèle Scroll)</li></ul></li></ul> | <ul><li>Volet<ul><li>Tree (modèle Scroll)<ul><li>TreeItem</li><li>...</li></ul></li><li>Volet<ul><li>Modifier (modèle Scroll)</li></ul></li></ul></li></ul> | 
+
 
 
 

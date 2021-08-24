@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7d24e19d49a8a96f91847892f519ef6c06d25ef5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dc609e742a4f780f3cb8c34e4dbc4cc40842ee51
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114436"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473655"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>D3DXGetPixelShaderProfile fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers l’appareil. Consultez [**IDirect3DDevice9**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **LPCSTR**](../winprog/windows-data-types.md)**
 
@@ -57,70 +57,24 @@ Nom du profil HLSL.
 
 Si l’appareil ne prend pas en charge les nuanceurs de pixels, la fonction retourne la **valeur null**.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Un profil de nuanceur spécifie la version du nuanceur d’assembly à utiliser et les fonctionnalités disponibles pour le compilateur HLSL lors de la compilation d’un nuanceur. Le tableau suivant répertorie les profils de nuanceur de pixels pris en charge.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Profil de nuanceur</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ps_1_1</td>
-<td>Compilez sur ps_1_1 version.</td>
-</tr>
-<tr class="even">
-<td>ps_1_2</td>
-<td>Compilez sur ps_1_2 version.</td>
-</tr>
-<tr class="odd">
-<td>ps_1_3</td>
-<td>Compilez sur ps_1_3 version.</td>
-</tr>
-<tr class="even">
-<td>ps_1_4</td>
-<td>Compilez sur ps_1_4 version.</td>
-</tr>
-<tr class="odd">
-<td>ps_2_0</td>
-<td>Compilez sur ps_2_0 version.</td>
-</tr>
-<tr class="even">
-<td>ps_2_a</td>
-<td>Identique au profil de ps_2_0, avec les fonctionnalités supplémentaires suivantes disponibles pour que le compilateur cible :
-<ul>
-<li>Le nombre de registres temporaires (r #) est supérieur ou égal à 22.</li>
-<li>Swizzle source arbitraire.</li>
-<li>Instructions de dégradé : DSX, DSY.</li>
-<li>Prédication.</li>
-<li>Aucune limite de lecture de texture dépendante.</li>
-<li>Aucune limite pour le nombre d’instructions de texture.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>ps_2_b</td>
-<td>Identique au profil de ps_2_0, avec les fonctionnalités supplémentaires suivantes disponibles pour que le compilateur cible :
-<ul>
-<li>Le nombre de registres temporaires (r #) est supérieur ou égal à 32.</li>
-<li>Aucune limite pour le nombre d’instructions de texture.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>ps_3_0</td>
-<td>Compilez sur ps_3_0 version.</td>
-</tr>
-</tbody>
-</table>
+
+| Profil de nuanceur | Description | 
+|----------------|-------------|
+| ps_1_1 | Compilez sur ps_1_1 version. | 
+| ps_1_2 | Compilez sur ps_1_2 version. | 
+| ps_1_3 | Compilez sur ps_1_3 version. | 
+| ps_1_4 | Compilez sur ps_1_4 version. | 
+| ps_2_0 | Compilez sur ps_2_0 version. | 
+| ps_2_a | Identique au profil de ps_2_0, avec les fonctionnalités supplémentaires suivantes disponibles pour que le compilateur cible :<ul><li>Le nombre de registres temporaires (r #) est supérieur ou égal à 22.</li><li>Swizzle source arbitraire.</li><li>Instructions de dégradé : DSX, DSY.</li><li>Prédication.</li><li>Aucune limite de lecture de texture dépendante.</li><li>Aucune limite pour le nombre d’instructions de texture.</li></ul> | 
+| ps_2_b | Identique au profil de ps_2_0, avec les fonctionnalités supplémentaires suivantes disponibles pour que le compilateur cible :<ul><li>Le nombre de registres temporaires (r #) est supérieur ou égal à 32.</li><li>Aucune limite pour le nombre d’instructions de texture.</li></ul> | 
+| ps_3_0 | Compilez sur ps_3_0 version. | 
+
 
 
 
