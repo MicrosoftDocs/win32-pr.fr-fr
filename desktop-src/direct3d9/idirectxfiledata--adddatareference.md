@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 44834af51380c3b8bdbb4e9a4b24bf911ea6a07f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4c291e4f5754975f7e564c8c579b3651b29f0e6b684ad474f2f8436875dbf078
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747259"
 ---
 # <a name="idirectxfiledataadddatareference-method"></a>IDirectXFileData :: AddDataReference, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes. DXFILEERR \_ BADALLOC DXFILEERR \_ BADVALUE
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que cette méthode aboutisse, le paramètre szRef ou pguidRef doit être non **null**.
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc2265b2d809b7a73cd19faace87473552471a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bd36fa89ab33ac7757ed4cf14673d33bc32fc1495f95102454fc918b8f21c4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762439"
 ---
 # <a name="msmq-out-routing-servers-attribute"></a>MSMQ-out-Routing-attribut serveurs
 
@@ -45,7 +45,7 @@ Les liens DN vers les serveurs de routage MSMQ par le biais desquels tout le tra
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

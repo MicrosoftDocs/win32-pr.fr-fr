@@ -1,19 +1,19 @@
 ---
 title: Architecture WFP
-description: Cette section fournit une brève vue d’ensemble de l’architecture de la plateforme de filtrage Windows.
+description: cette section fournit une brève vue d’ensemble de l’architecture de la plateforme de filtrage Windows.
 ms.assetid: 17a90f5c-ef82-4b14-b7f1-dd025d5f7303
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8740fed254aca97ab77566e2a7f0ace9a6679d56
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 41989a11ff5412b3185f6987f9588f0309c3fde3ca386c71e4613ab6bc8237f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104199193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766602"
 ---
 # <a name="wfp-architecture"></a>Architecture WFP
 
-L’illustration suivante montre l’architecture de base de la plateforme de filtrage Windows (WFP).
+l’illustration suivante montre l’architecture de base de la plateforme de filtrage Windows (WFP).
 
 ![architecture de base du diagramme de plateforme de filtrage Windows](images/wfp-architecture.png)
 
@@ -33,14 +33,14 @@ Le moteur de filtrage de base (BFE) est un service en mode utilisateur (bfe.dll 
 
 ## <a name="callout-drivers"></a>Pilotes de légende
 
-Les pilotes de légende offrent des fonctionnalités de filtrage supplémentaires en ajoutant des fonctions de légende personnalisées au moteur de filtre à une ou plusieurs couches de filtrage en mode noyau. Les légendes prennent en charge l’inspection détaillée et les paquets, ainsi que la modification de flux. Une fois qu’un pilote Callout a ajouté ses fonctions de légende au moteur de filtre, les filtres qui spécifient la fonction de légende d’un pilote donné peuvent être ajoutés au processus de filtrage. Ces filtres peuvent être ajoutés soit par une application de gestion en mode utilisateur, soit par le pilote de légende lui-même. L’interface en mode noyau, fournie dans le kit de développement Windows, ne doit être utilisée qu’en cas de besoin et non en remplacement de l’API en mode utilisateur.
+Les pilotes de légende offrent des fonctionnalités de filtrage supplémentaires en ajoutant des fonctions de légende personnalisées au moteur de filtre à une ou plusieurs couches de filtrage en mode noyau. Les légendes prennent en charge l’inspection détaillée et les paquets, ainsi que la modification de flux. Une fois qu’un pilote Callout a ajouté ses fonctions de légende au moteur de filtre, les filtres qui spécifient la fonction de légende d’un pilote donné peuvent être ajoutés au processus de filtrage. Ces filtres peuvent être ajoutés soit par une application de gestion en mode utilisateur, soit par le pilote de légende lui-même. l’interface en mode noyau, fournie dans le Kit de développement Windows, ne doit être utilisée qu’en cas de besoin et non en remplacement de l’API en mode utilisateur.
 
 > [!Note]  
-> Pour plus d’informations sur les pilotes de légende, consultez la section plateforme de filtrage Windows du [Kit de développement Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2).
+> pour plus d’informations sur les pilotes de légende, consultez la section Windows de la plateforme de filtrage dans le [Kit de développement Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2).
 
- 
+ 
 
-La plateforme de filtrage Windows comprend un certain nombre de fonctions de légende intégrées qui peuvent être utilisées pour la communication sécurisée des données IPsec, les paramètres de filtrage avec état et le filtrage en mode furtif. Pour obtenir la liste complète des fonctions de légende intégrées, consultez [**identificateurs de légende intégrés**](built-in-callout-identifiers.md) .
+la plateforme de filtrage Windows comprend un certain nombre de fonctions de légende intégrées qui peuvent être utilisées pour la communication sécurisée des données IPsec, les paramètres de filtrage avec état et le filtrage en mode furtif. Pour obtenir la liste complète des fonctions de légende intégrées, consultez [**identificateurs de légende intégrés**](built-in-callout-identifiers.md) .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,12 +52,12 @@ La plateforme de filtrage Windows comprend un certain nombre de fonctions de lé
 [Opération WFP](basic-operation.md)
 </dt> <dt>
 
-[Pilotes de la plateforme de filtrage Windows-Guide de conception](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2)
+[Windows Filtrage des pilotes de légende de plateforme-Guide de conception](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2)
 </dt> <dt>
 
-[Pilotes de la légende de la plateforme de filtrage Windows-référence](/windows-hardware/drivers/ddi/_netvista/)
+[Windows Filtrage des pilotes de légende de plateforme-référence](/windows-hardware/drivers/ddi/_netvista/)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

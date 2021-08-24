@@ -4,17 +4,17 @@ ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: Effet d’enveloppe de volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9364b88b1928e533a031f0700cb8a2c44bc9822d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4ecb66914063596849522a0e4bb340fc84f7d80e5ea1113bfdae2d32e855d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746949"
 ---
 # <a name="volume-envelope-effect"></a>Effet d’enveloppe de volume
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -36,7 +36,7 @@ Propriétés
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque objet dans une chronologie peut avoir un seul effet d’enveloppe de volume. Dans une composition ou un groupe, l’enveloppe de volume est appliquée en premier, avant tout autre effet audio, quelle que soit sa priorité. Dans une source ou une piste, l’effet de volume est appliqué en fonction de sa priorité.
 

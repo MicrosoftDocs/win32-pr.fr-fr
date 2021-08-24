@@ -4,12 +4,12 @@ ms.assetid: 326d4423-37f9-4c91-8201-a054ce8439f0
 title: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c1372401cb0cc49750efbfa25701ec6965b6dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690042a615596fe5370016e00a61524722cccfdd59d62440b451c4f30033b262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838959"
 ---
 # <a name="wpd_functional_category_audio_capture"></a>\_ \_ \_ capture audio de la catégorie fonctionnelle wpd \_
 
@@ -31,20 +31,20 @@ Un \_ \_ objet fonctionnel de capture audio de catégorie fonctionnelle wpd \_ \
 | [\_nom du \_ fichier d’origine de l’objet wpd \_ \_](object-properties.md)                              | Obligatoire si l’objet représente un fichier.                                                                                                              |
 | [\_objet wpd \_ non \_ utilisable](object-properties.md)                                       | Recommandé si l’objet n’est pas destiné à être consommé par l’appareil.                                                                                  |
 | [\_références d’objets wpd \_](object-properties.md)                                                | Obligatoire si l’objet a des références à d’autres objets.                                                                                                |
-| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Optionnel.                                                                                                                                              |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Optionnel.                                                                                                                                              |
+| [\_Mots clés d’objet wpd \_](object-properties.md)                                                    | Facultatif.                                                                                                                                              |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                     | Facultatif.                                                                                                                                              |
 | [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                  | Obligatoire si l’objet est protégé par la technologie DRM.                                                                                                 |
-| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                                        | Optionnel.                                                                                                                                              |
-| [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                                              | Optionnel.                                                                                                                                              |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Optionnel.                                                                                                                                              |
+| [ID de synchronisation de l' \_ objet wpd \_ \_](object-properties.md)                                                                        | Facultatif.                                                                                                                                              |
+| [l' \_ objet \_ wpd \_ est \_ protégé par DRM](object-properties.md)                                                              | Facultatif.                                                                                                                                              |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                           | Facultatif.                                                                                                                                              |
 | [Date de modification de l' \_ objet wpd \_ \_](object-properties.md)                                         | Recommandé.                                                                                                                                           |
-| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Optionnel.                                                                                                                                              |
+| [Date de création de l' \_ objet wpd \_ \_](object-properties.md)                                         | Facultatif.                                                                                                                                              |
 | [\_ \_ références arrière des objets wpd \_](object-properties.md)                                                                | Recommandé si l’objet est référencé par un autre objet.                                                                                             |
-| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Optionnel.                                                                                                                                              |
-| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Optionnel.                                                                                                                                              |
+| [\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_](object-properties.md)     | Facultatif.                                                                                                                                              |
+| [\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource](object-properties.md) | Facultatif.                                                                                                                                              |
 | [l' \_ objet wpd \_ peut \_ Supprimer](object-properties.md)                                                                     | Obligatoire si l’objet ne peut pas être supprimé.                                                                                                              |
-| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Optionnel.                                                                                                                                              |
-| [\_catégorie d' \_ objet \_ fonctionnel wpd](miscellaneous-properties.md)                      | Obligatoire. Consultez [**\_ \_ \_ \_ objet fonctionnel du type de contenu wpd**](wpd-content-type-functional-object.md) pour les catégories définies par les appareils mobiles Windows. |
+| [\_paramètres régionaux de la langue de l’objet wpd \_ \_](object-properties.md)                                                                | Facultatif.                                                                                                                                              |
+| [\_catégorie d' \_ objet \_ fonctionnel wpd](miscellaneous-properties.md)                      | Obligatoire. consultez [**\_ \_ \_ \_ objet fonctionnel du TYPE de contenu WPD**](wpd-content-type-functional-object.md) pour les catégories définies par Windows appareils mobiles. |
 
 
 

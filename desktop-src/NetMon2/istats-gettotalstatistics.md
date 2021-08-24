@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7c98d947ad81dd1f2dc3e0dd19de144729ea8a069aefc12a820548aaeac4d15d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742659"
 ---
 # <a name="istatsgettotalstatistics-method"></a>IStats :: GetTotalStatistics, méthode
 
@@ -55,7 +55,7 @@ Indicateur utilisé pour indiquer Moniteur réseau comment gérer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,15 +65,15 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                            | Description                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. Appelez la méthode [IStats :: Connect](istats-connect.md) pour connecter le NPP au réseau.<br/> |
-| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | Le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connect](istats-connect.md) .<br/>                                |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. appelez la méthode [IStats :: Connecter](istats-connect.md) pour connecter le NPP au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connecter](istats-connect.md) .<br/>                                |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl>   | Le NPP ne capture pas de données. Appelez la méthode [IStats :: Start](istats-start.md) pour commencer à capturer des données.<br/>                         |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne les données uniquement lorsqu’une capture est en cours, y compris pendant la suspension de la capture.
 
@@ -99,7 +99,7 @@ Moniteur réseau stocke également les [*statistiques de conversation*](c.md), q
 [IStats](istats.md)
 </dt> <dt>
 
-[IStats :: Connect](istats-connect.md)
+[IStats :: Connecter](istats-connect.md)
 </dt> <dt>
 
 [IStats::GetConversationStatistics](istats-getconversationstatistics.md)

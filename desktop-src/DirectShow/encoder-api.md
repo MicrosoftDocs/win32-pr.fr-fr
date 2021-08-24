@@ -4,22 +4,22 @@ ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: API d’encodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 386b964f44dc4dc69896ead34bbe0d0177b198a1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7b97dc2242cc718605a851186c726e3301493b7637b94e88b7987868741874a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823639"
 ---
 # <a name="encoder-api"></a>API d’encodeur
 
 L’API d’encodeur fournit une interface uniforme pour la configuration des encodeurs logiciels et matériels. Les applications peuvent utiliser l’API d’encodeur pour configurer un encodeur et stocker les paramètres de configuration. Les fournisseurs d’encodeurs peuvent utiliser l’API d’encodeur pour exposer les fonctionnalités d’un encodeur. Bien que l’API d’encodeur soit principalement conçue pour les encodeurs, il est assez général que les décodeurs puissent également le prendre en charge.
 
-L’API d’encodeur est exposée aux applications via l’interface [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) , qui est exposée par le filtre d’encodeur. Le filtre d’encodeur peut être un filtre DirectShow natif, un encodeur matériel ou un objet de média DirectX (DMO).
+L’API d’encodeur est exposée aux applications via l’interface [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) , qui est exposée par le filtre d’encodeur. le filtre d’encodeur peut être un filtre de DirectShow natif, un encodeur matériel ou un objet de média DirectX (DMO).
 
--   Filtres logiciels : un encodeur qui est implémenté en tant que filtre DirectShow natif doit exposer l' [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) directement.
+-   filtres logiciels : un encodeur qui est implémenté en tant que filtre de DirectShow natif doit exposer directement le [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) .
 -   Encodeurs matériels : l’appareil d’encodage est exposé via un ou plusieurs AVStream minipilotes, qui sont représentés en mode utilisateur par KSProxy. KSProxy convertit les appels de méthode [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) en jeux de propriétés KS. Pour plus d’informations, consultez la documentation du DDK.
--   DMOs : DMO doit exposer l’interface [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) . Les applications DirectShow peuvent interroger le filtre de wrappers DMO, qui expose l’interface en regroupant les DMO. Les applications non basées sur DirectShow peuvent interroger directement le DMO.
+-   DMOs : le DMO doit exposer l’interface [**ICodecAPI**](/windows/desktop/api/Strmif/nn-strmif-icodecapi) . DirectShow applications peuvent interroger le filtre de Wrapper DMO, qui expose l’interface en regroupant les DMO. les Applications qui ne sont pas basées sur DirectShow peuvent interroger directement le DMO.
 
 ### <a name="encoder-capabilties"></a>Fonctionnalité encodeur
 
@@ -30,7 +30,7 @@ Un encodeur peut inscrire une liste de fonctionnalités de haut niveau en les st
 3.  Appelez [**IGetCapabilitiesKey :: GetCapabilitiesKey**](/windows/desktop/api/Strmif/nf-strmif-igetcapabilitieskey-getcapabilitieskey). La méthode retourne un handle vers la clé de Registre qui contient la liste des fonctionnalités du filtre.
 4.  Appelez la fonction **RegEnumValue** pour énumérer les valeurs de la clé retournée.
 
-Si vous devloping un encodeur, créez les entrées de Registre pour les fonctionnalités lorsque le filtre est inscrit. Pour les filtres logiciels, créez une clé nommée **fonctionnalités** qui est adjacente aux clés **FilterData** et **FriendlyName** . En règle générale, vous ajoutez ces informations après avoir appelé [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) pour enregistrer les données de filtre standard. Pour plus d’informations, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md). Vous pouvez également créer une clé **CapabilitiesLocation** qui contient une chaîne indiquant l’emplacement de la clé de **fonctionnalités** dans le registre. La chaîne doit commencer par « HKLM \\ », « HKCR \\ » ou « HKCU \\ » pour indiquer la sous-arborescence du Registre. Pour les appareils Plug-and-Play, les fichiers d’installation du pilote doivent créer une clé de **fonctionnalités** adjacente à la clé **FriendlyName** du filtre, ou utiliser une clé **CapabilitiesLocation** comme décrit pour les filtres logiciels.
+Si vous devloping un encodeur, créez les entrées de Registre pour les fonctionnalités lorsque le filtre est inscrit. Pour les filtres logiciels, créez une clé nommée **fonctionnalités** qui est adjacente aux clés **FilterData** et **FriendlyName** . En règle générale, vous ajoutez ces informations après avoir appelé [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) pour enregistrer les données de filtre standard. pour plus d’informations, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md). Vous pouvez également créer une clé **CapabilitiesLocation** qui contient une chaîne indiquant l’emplacement de la clé de **fonctionnalités** dans le registre. La chaîne doit commencer par « HKLM \\ », « HKCR \\ » ou « HKCU \\ » pour indiquer la sous-arborescence du Registre. Pour les appareils Plug-and-Play, les fichiers d’installation du pilote doivent créer une clé de **fonctionnalités** adjacente à la clé **FriendlyName** du filtre, ou utiliser une clé **CapabilitiesLocation** comme décrit pour les filtres logiciels.
 
 Une fois que vous avez créé la clé de **fonctionnalités** , créez une valeur pour chaque GUID de fonctionnalité. Le nom de la valeur doit être la forme de chaîne du GUID, sous la forme `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}` . Chaque type de valeur doit être l’un des suivants :
 

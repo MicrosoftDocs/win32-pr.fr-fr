@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aafcd481fd4ea8a8cc6782a5dc50655fb9255c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 347265d4081216a227b5040fc73f272181bdccfe09ca7500b81078a6a57ed7bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838639"
 ---
 # <a name="policy-support"></a>Prise en charge des stratégies
 
@@ -248,7 +248,7 @@ Tableau suivant répertorie tous les types de modèles de liaison pris en charge
 
 
 
- 
+ 
 
 Par exemple, [**le \_ \_ type de \_ \_ modèle de \_ liaison SSL WS http**](/windows/desktop/api/WebServices/ne-webservices-ws_binding_template_type) indique que la stratégie d’entrée pour la liaison spécifie le transport http et la [**\_ \_ \_ \_ liaison de sécurité de transport WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). L’application doit remplir la structure du [**\_ modèle de liaison WS http \_ SSL \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_binding_template) avant d’appeler les routines d’assistance, et la description de la stratégie de correspondance est la description de la [**\_ stratégie WS http \_ SSL \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_http_ssl_policy_description). Plus précisément, la section de liaison dans WSDL contient les segments suivants :
 
@@ -330,9 +330,9 @@ Les structures suivantes font partie de la prise en charge des stratégies :
 -   [**Description de la \_ stratégie de liaison de sécurité de message WS username \_ \_ \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_policy_description)
 -   [**\_modèle de \_ liaison de sécurité de message WS username \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding_template)
 
- 
+ 
 
- 
+ 
 
 
 

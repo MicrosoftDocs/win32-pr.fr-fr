@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 897e683fd56ce3e7496dd945ee068a9e6f0c0f77
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: aab1e66dd4208817f854db88c57db5b6269a7a0b912242da649dffcf24cabab3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107492268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821369"
 ---
 # <a name="installeropendatabase-method"></a>Installer. OpenDatabase, méthode
 
@@ -86,7 +86,7 @@ Appelez toujours la méthode [**Commit**](database-commit.md) sur une base de do
 
 Si la méthode échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 54cc1efaf7da3434e1aff10d57c2e175481a3d2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45d85e0506b8adf084b65a13a117a9dea3856fcff2e73f65a229bdb31b283fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803159"
 ---
 # <a name="inapcomponentconfig2invokeuifromconfigblob-method"></a>INapComponentConfig2 :: InvokeUIFromConfigBlob, méthode
 
@@ -96,9 +96,9 @@ Pointeur vers un **booléen** dont la valeur est **true** si la configuration a 
 
 ## <a name="return-value"></a>Valeur retournée
 
-Retourne S \_ OK en cas de réussite, ou l’un des codes d’erreur Windows standard.
+retourne \_ la valeur OK si l’opération réussit ou l’un des codes d’erreur Windows standard.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 S’il est utilisé pour un ordinateur local, cette fonction peut être utilisée pour la configuration SHV de la stratégie. Il offre un moyen d’appeler une interface utilisateur SHV et de modifier une configuration SHV existante.
 
@@ -109,7 +109,7 @@ S’il est utilisé pour un ordinateur local, cette fonction peut être utilisé
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>NapCommon. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapCommon. idl</dt> </dl> |
 

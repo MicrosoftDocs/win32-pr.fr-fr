@@ -4,12 +4,12 @@ ms.assetid: 3aa2f81e-81a1-40a3-ad24-72781d36f713
 title: Rapport de sollicitation de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d380a4c9f88fca3d25eebfcfaf67759226ab040c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52dc0df8db30281c6f7225309bdca5edfdbd3759f21a9e61cdc848f534dcce41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119723769"
 ---
 # <a name="memory-pressure-reporting"></a>Rapport de sollicitation de la mémoire
 
@@ -20,7 +20,7 @@ La *sollicitation* de la mémoire est la demande placée sur le sous-système de
 -   La mémoire peut être expulsée du cache. Dans le pire des cas, cela peut se produire sur chaque image vidéo.
 -   Les allocations de mémoire peuvent être placées dans des segments de mémoire non optimaux.
 
-À compter de Windows 7, Direct3D peut signaler des statistiques sur la sollicitation de la mémoire vidéo :
+à partir de Windows 7, Direct3D peut signaler des statistiques sur la sollicitation de la mémoire vidéo :
 
 -   Nombre d’octets évincés par le processus sur un intervalle de temps.
 -   Quantité de mémoire placée dans des segments de mémoire non optimaux.

@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: b34f30425147057efe8039cc36514d699199c9a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64cefdf4cc2a2c522a8295ab44e1810f0364d706d378979637700a7a3b72343a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765439"
 ---
 # <a name="downlevelgetparentlocalelcid-function"></a>DownlevelGetParentLocaleLCID fonction)
 
 Récupère l' [identificateur de paramètres régionaux](locale-identifiers.md) pour le parent des paramètres régionaux fournis.
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) avec *LCTYPE* défini sur [locale \_ sParent](locale-sparent.md).
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetLocaleInfo**](/windows/desktop/api/Winnls/nf-winnls-getlocaleinfoa) avec *LCType* défini sur [locale \_ SPARENT](locale-sparent.md).
 
  
 
@@ -67,7 +67,7 @@ Retourne l’identificateur de paramètres régionaux parent en cas de réussite
 
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fichier d’en-tête et la DLL requis font partie du téléchargement des API de mappage de données Microsoft NLS, disponible dans le [Centre de téléchargement Microsoft](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
 
@@ -77,9 +77,9 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
-| Composant redistribuable<br/>          | API de mappage de données de niveau inférieur Microsoft NLS onWindows XPor Windows Vista<br/>     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
+| Composant redistribuable<br/>          | api de mappage de données de niveau inférieur Microsoft NLS onWindows XPor Windows Vista<br/>     |
 | En-tête<br/>                   | <dl> <dt>Nlsdl. h</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl> |
 

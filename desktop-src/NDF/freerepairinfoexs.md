@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 094c745486526caa870a500019de3aa819b6fe5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b75d3d3ee8ba710b0b0ed4755e5ee01309f955bcc1658145dc1d42fe3b9e1ed8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802419"
 ---
 # <a name="freerepairinfoexs-function"></a>FreeRepairInfoExs fonction)
 
@@ -45,13 +45,13 @@ VOID FreeRepairInfoExs(
 *pinfo* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex) \** _
+Type : **[ **RepairInfoEx**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfoex)\***
 
 Tableau de structures. La mémoire allouée pointée par ces structures sera libérée.
 
 </dd> <dt>
 
-_RepairCount * 
+*RepairCount* 
 </dt> <dd>
 
 Type : **ULong**
@@ -79,8 +79,8 @@ Cette fonction ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

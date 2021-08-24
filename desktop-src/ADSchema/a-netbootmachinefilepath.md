@@ -1,6 +1,6 @@
 ---
 title: Netboot-machine-attribut-file-path
-description: Cet attribut spécifie le serveur qui répond au client. Depuis le système d’exploitation Windows Server 2003, il peut indiquer le Startrom.com que le client obtient.
+description: Cet attribut spécifie le serveur qui répond au client. depuis le système d’exploitation Windows Server 2003, il peut indiquer le Startrom.com que le client obtient.
 ms.assetid: 8706bf38-8027-4260-b382-4d4c2a6e0f6e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d03ead4f307b7c0b524192d9c865ee437fbd9d2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5495a56a5673a1aa8e62a1f57af89cc12a3f5383dbe9139625fe27c77931e8a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703379"
 ---
 # <a name="netboot-machine-file-path-attribute"></a>Netboot-machine-attribut-file-path
 
-Cet attribut spécifie le serveur qui répond au client. Depuis le système d’exploitation Windows Server 2003, il peut indiquer le Startrom.com que le client obtient.
+Cet attribut spécifie le serveur qui répond au client. depuis le système d’exploitation Windows Server 2003, il peut indiquer le Startrom.com que le client obtient.
 
 
 
@@ -45,7 +45,7 @@ Cet attribut spécifie le serveur qui répond au client. Depuis le système d’
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

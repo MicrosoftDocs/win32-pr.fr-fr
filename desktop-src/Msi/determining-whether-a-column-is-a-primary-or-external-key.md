@@ -4,12 +4,12 @@ ms.assetid: 47ed59f7-914a-40a6-b982-59779a003a1c
 title: Déterminer si une colonne est une clé primaire ou externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877f8a90ca7cb6121005e7eb694ab057722d11a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4fd5ecfc6fb487e33edfd9a8e126ad70de89a80d4e6e9a6cca6e857cf25e45e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764189"
 ---
 # <a name="determining-whether-a-column-is-a-primary-or-external-key"></a>Déterminer si une colonne est une clé primaire ou externe
 

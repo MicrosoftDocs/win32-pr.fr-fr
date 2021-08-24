@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05215a00788927f8c5f87de13b8f49f5e9ff9d0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe50c77897d8e4a49a604235edc374a2cf48e986d0058abcaa12deb5475368a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703229"
 ---
 # <a name="nisnetgrouptriple-attribute"></a>attribut nisNetgroupTriple
 
@@ -42,7 +42,7 @@ Représente une entrée d’une carte de groupe netgroup.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

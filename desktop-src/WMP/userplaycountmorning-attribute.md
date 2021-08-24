@@ -3,7 +3,7 @@ title: Attribut UserPlaycountMorning
 description: L’attribut UserPlaycountMorning est le nombre de fois que l’élément a été lu entre 06 00 et 12 00 heure locale.
 ms.assetid: df942657-c40a-4632-8e43-e226609a95d3
 keywords:
-- Attribut UserPlaycountMorning lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountMorning
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8178b3f05fb61601a46932461c235088f0b14daa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e68fb15fca4425611be8a923dc37928789d1619f3923506a7a459fbc9c4b1c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762119"
 ---
 # <a name="userplaycountmorning-attribute"></a>Attribut UserPlaycountMorning
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountMorning** est le nombre de fois que l’élément a 
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

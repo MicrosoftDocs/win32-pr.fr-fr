@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7c2dc6123b84cc0acf97eb414daea408a72d2db1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22454fee7556f80bfbc9d969225ed6d6975ce4d3bd6a4365ce9838a245e9eb17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801139"
 ---
 # <a name="lan_policy-schema-elements"></a>\_Éléments du schéma de stratégie LAN
 

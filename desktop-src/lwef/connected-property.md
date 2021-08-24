@@ -4,12 +4,12 @@ description: Propriété Connected
 ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bba78358c7c42f0754da017aa0c188d41acd189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6af3a44e97236060733adc55ec6e44eddd0b1d8879250b2a28b54c0bca384cac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726090"
 ---
 # <a name="connected-property"></a>Propriété Connected
 
@@ -41,11 +41,11 @@ Retourne ou définit une valeur indiquant si le contrôle en cours est connecté
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans de nombreux cas, la spécification du contrôle crée automatiquement une connexion avec le serveur Microsoft Agent. Par exemple, la spécification du CLSID du contrôle Microsoft Agent dans la <OBJECT> balise d’une page Web ouvre automatiquement une connexion au serveur et la fermeture de la page ferme la connexion. De même, pour les Visual Basic ou d’autres langages qui vous permettent de supprimer un contrôle dans un formulaire, l’exécution automatique du programme ouvre une connexion et la fermeture du programme ferme la connexion. Si le serveur n’est pas en cours d’exécution, il démarre automatiquement.
+Dans de nombreux cas, la spécification du contrôle crée automatiquement une connexion avec le serveur Microsoft Agent. Par exemple, la spécification du CLSID du contrôle Microsoft Agent dans la <OBJECT> balise d’une page Web ouvre automatiquement une connexion au serveur et la fermeture de la page ferme la connexion. de même, pour les Visual Basic ou d’autres langages qui vous permettent de supprimer un contrôle dans un formulaire, l’exécution automatique du programme ouvre une connexion et la fermeture du programme ferme la connexion. Si le serveur n’est pas en cours d’exécution, il démarre automatiquement.
 
-Toutefois, si vous souhaitez créer un contrôle d’agent au moment de l’exécution, vous devrez peut-être également ouvrir explicitement une nouvelle connexion au serveur à l’aide de la propriété **Connected** . Par exemple, dans Visual Basic vous pouvez créer un objet ActiveX au moment de l’exécution à l’aide de l’instruction Set avec le mot clé **New** (ou la fonction CreateObject). Bien que cette opération crée l’objet, elle risque de ne pas créer la connexion au serveur. Vous pouvez utiliser la propriété **Connected** avant tout code qui appelle l’interface de programmation de Microsoft Agent, comme indiqué dans l’exemple suivant :
+Toutefois, si vous souhaitez créer un contrôle d’agent au moment de l’exécution, vous devrez peut-être également ouvrir explicitement une nouvelle connexion au serveur à l’aide de la propriété **Connected** . par exemple, dans Visual Basic vous pouvez créer un objet ActiveX au moment de l’exécution à l’aide de l’instruction Set avec le mot clé **New** (ou la fonction CreateObject). Bien que cette opération crée l’objet, elle risque de ne pas créer la connexion au serveur. Vous pouvez utiliser la propriété **Connected** avant tout code qui appelle l’interface de programmation de Microsoft Agent, comme indiqué dans l’exemple suivant :
 
 
 ```
@@ -67,7 +67,7 @@ Toutefois, si vous souhaitez créer un contrôle d’agent au moment de l’exé
 
 
 
-La création d’un contrôle à l’aide de cette technique n’expose pas les événements du contrôle de l’agent. Dans Visual Basic 5,0 (et versions ultérieures), vous pouvez accéder aux événements du contrôle en incluant le contrôle dans les références de votre projet, et utiliser le mot clé **WithEvents** dans votre déclaration de variable :
+La création d’un contrôle à l’aide de cette technique n’expose pas les événements du contrôle de l’agent. dans Visual Basic 5,0 (et versions ultérieures), vous pouvez accéder aux événements du contrôle en incluant le contrôle dans les références de votre projet, et utiliser le mot clé **WithEvents** dans votre déclaration de variable :
 
 
 ```
@@ -81,7 +81,7 @@ La création d’un contrôle à l’aide de cette technique n’expose pas les 
 
 L’utilisation de **WithEvents** pour créer une instance du contrôle de l’agent au moment de l’exécution ouvre automatiquement la connexion avec le serveur Microsoft Agent. Par conséquent, vous n’avez pas besoin d’inclure une instruction **connectée** .
 
-Vous pouvez fermer votre connexion au serveur en libérant toutes les références que vous avez créées aux objets de l’agent, par exemple IAgentCtlCharacterEx et IAgentCtlCommandEx. Vous devez également libérer votre référence au contrôle de l’agent lui-même. Dans Visual Basic, vous pouvez publier une référence à un objet en affectant à sa variable la valeur **Nothing**. Si vous avez chargé des caractères, déchargez-les avant de libérer l’objet caractère.
+Vous pouvez fermer votre connexion au serveur en libérant toutes les références que vous avez créées aux objets de l’agent, par exemple IAgentCtlCharacterEx et IAgentCtlCommandEx. Vous devez également libérer votre référence au contrôle de l’agent lui-même. dans Visual Basic, vous pouvez publier une référence à un objet en affectant à sa variable la valeur **Nothing**. Si vous avez chargé des caractères, déchargez-les avant de libérer l’objet caractère.
 
 
 ```
@@ -120,7 +120,7 @@ Vous pouvez fermer votre connexion au serveur en libérant toutes les référenc
 
 
 > [!Note]  
-> Vous ne pouvez pas fermer votre connexion au serveur en libérant les références où le composant a été ajouté. Par exemple, vous ne pouvez pas fermer votre connexion au serveur sur des pages Web où vous utilisez la <OBJECT> balise pour déclarer le contrôle ou dans une application de Visual Basic où vous déposez le contrôle sur un formulaire. Si la libération de toutes les références d’agent réduit la plage de travail de l’agent, la connexion est conservée jusqu’à ce que vous atteigniez la page suivante ou que vous quittiez l’application.
+> Vous ne pouvez pas fermer votre connexion au serveur en libérant les références où le composant a été ajouté. par exemple, vous ne pouvez pas fermer votre connexion au serveur sur des pages web où vous utilisez la <OBJECT> balise pour déclarer le contrôle ou dans une application de Visual Basic où vous déposez le contrôle sur un formulaire. Si la libération de toutes les références d’agent réduit la plage de travail de l’agent, la connexion est conservée jusqu’à ce que vous atteigniez la page suivante ou que vous quittiez l’application.
 
  
 

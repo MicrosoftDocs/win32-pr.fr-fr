@@ -3,38 +3,38 @@ title: Définition de métadonnées sur un fichier
 description: Définition de métadonnées sur un fichier
 ms.assetid: 478a5412-e8b4-41c8-802f-9c2748dbaeae
 keywords:
-- Gestionnaire de périphériques Windows Media, métadonnées
+- Windows Gestionnaire de périphériques de média, métadonnées
 - Gestionnaire de périphériques, métadonnées
 - Guide de programmation, métadonnées
 - applications de bureau, métadonnées
-- création d’applications Windows Media Gestionnaire de périphériques, de métadonnées
+- création d’applications de Gestionnaire de périphériques Windows Media, métadonnées
 - écriture de fichiers sur des appareils, métadonnées
 - metadata
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56a6fa7002d4fafffe0793ef91b00dd3f1f0e20c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d64bdd173258272801886b90dca2265425eb65fd8ec3e5a25d01db37453d7eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766270"
 ---
 # <a name="setting-metadata-on-a-file"></a>Définition de métadonnées sur un fichier
 
 Vous pouvez définir des métadonnées sur un fichier avant de l’écrire sur l’appareil (lors de l’utilisation de [**IWMDMStorageControl3 :: Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3)) ou sur un stockage existant (en appelant [**IWMDMStorage3 :: SetMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata)). Vous pouvez définir des attributs uniquement sur un stockage existant (en appelant [**IWMDMStorage :: SetAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes) ou [**IWMDMStorage2 :: SetAttributes2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-setattributes2)).
 
-La définition des métadonnées s’effectue en créant et en remplissant une interface [**IWMDMMetaData**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata) transmise dans [**IWMDMStorageControl3 :: Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3). Toutefois, cette méthode peut effacer toutes les métadonnées existantes sur le fichier, à l’exception des métadonnées codées en dur stockées dans le système de fichiers lui-même, telles que le nom ou la taille du fichier. Par conséquent, vous devez copier toutes les métadonnées existantes que vous souhaitez conserver dans l’interface IWMDMMetaData que vous envoyez. Étant donné que Windows Media Gestionnaire de périphériques ne peut pas être utilisé pour récupérer des métadonnées à partir de fichiers locaux, vous devez utiliser le kit de développement logiciel (SDK) au format Windows Media (ou tout autre outil) pour récupérer ces métadonnées.
+La définition des métadonnées s’effectue en créant et en remplissant une interface [**IWMDMMetaData**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata) transmise dans [**IWMDMStorageControl3 :: Insert3**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol3-insert3). Toutefois, cette méthode peut effacer toutes les métadonnées existantes sur le fichier, à l’exception des métadonnées codées en dur stockées dans le système de fichiers lui-même, telles que le nom ou la taille du fichier. Par conséquent, vous devez copier toutes les métadonnées existantes que vous souhaitez conserver dans l’interface IWMDMMetaData que vous envoyez. étant donné que Windows media Gestionnaire de périphériques ne peut pas être utilisé pour récupérer des métadonnées à partir de fichiers locaux, vous devez utiliser le kit de développement logiciel (SDK) de Format multimédia Windows (ou tout autre outil) pour récupérer ces métadonnées.
 
-Pour utiliser le kit de développement logiciel (SDK) de format Windows Media pour récupérer les propriétés des fichiers ASF, procédez comme suit :
+pour utiliser le kit de développement logiciel (SDK) Windows Media Format pour récupérer les propriétés des fichiers ASF, procédez comme suit :
 
 1.  Créez un objet d’éditeur de métadonnées en appelant **WMCreateEditor** et en demandant une interface **IWMMetadataEditor** .
 2.  Ouvrez le fichier pour la lecture des métadonnées en appelant **IWMMetadataEditor :: Open**.
 3.  Si le fichier est un fichier ASF valide et peut être ouvert, interrogez l’éditeur de l’interface **IWMHeaderInfo** .
-4.  Récupérez les propriétés de fichier en appelant **IWMHeaderInfo :: GetAttributeByName**, en passant la constante de propriété du kit de développement logiciel (SDK) du format Windows Media souhaitée. Le tableau suivant répertorie les constantes du kit de développement logiciel (SDK) de format avec les constantes Windows Media Gestionnaire de périphériques SDK équivalentes.
+4.  récupérez les propriétés de fichier en appelant **IWMHeaderInfo :: GetAttributeByName**, en passant la constante de propriété du kit de développement logiciel (SDK) du Format de média souhaité Windows. le tableau suivant répertorie les constantes du kit de développement logiciel (sdk) de Format correspondant aux constantes Windows Media Gestionnaire de périphériques sdk équivalentes.
 
 
 
-| Constante du kit de développement logiciel (SDK) Windows Media format    | Constante du kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques      |
+| Windows Constante SDK Media format    | Windows Constante SDK Media Gestionnaire de périphériques      |
 |--------------------------------------|------------------------------------------------|
 | \_wszWMTitle g                        | \_wszWMDMTitle g                                |
 | \_wszWMAuthor g                       | \_wszWMDMAuthor g                               |
@@ -59,9 +59,9 @@ Pour utiliser le kit de développement logiciel (SDK) de format Windows Media po
 
 
 
- 
+ 
 
-L’exemple de code C++ suivant illustre l’extraction de plusieurs propriétés de métadonnées d’un fichier ASF à l’aide du kit de développement logiciel (SDK) Windows Media format et leur conversion en valeurs de Gestionnaire de périphériques Windows Media équivalentes.
+l’exemple de code C++ suivant illustre l’extraction d’un certain nombre de propriétés de métadonnées d’un fichier ASF à l’aide du kit de développement logiciel (SDK) Windows media Format et leur conversion en équivalent Windows Gestionnaire de périphériques valeurs de média.
 
 
 ```C++
@@ -196,7 +196,7 @@ HRESULT GetFileMetadataFromFormatSDK(IWMDMMetaData* pMetadata, LPCWSTR file)
 
 
 
-L’exemple de fonction C++ suivant montre comment utiliser DirectShow pour récupérer des informations de fichier et les ajouter aux métadonnées.
+l’exemple de fonction C++ suivant montre comment utiliser DirectShow pour récupérer des informations de fichier et les ajouter aux métadonnées.
 
 
 ```C++
@@ -313,9 +313,9 @@ HRESULT GetFileMetadataFromDShow(IWMDMMetaData* pMetadata, LPCWSTR file)
 [**Écriture de fichiers sur l’appareil**](writing-files-to-the-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5b86587466517a10302b3109a521e902a66892c4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1298c695237ac40097b0c081d313769ee4e4e1190571b1bdd58137e25d53c10a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821019"
 ---
 # <a name="cim_mount-class"></a>\_Classe Mount CIM
 
@@ -91,7 +91,7 @@ Un [**\_ NFS CIM**](cim-nfs.md) décrivant le système de fichiers sur lequel le
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **CIM \_ Le montage** est dérivé de la [**\_ dépendance CIM**](cim-dependency.md).
 

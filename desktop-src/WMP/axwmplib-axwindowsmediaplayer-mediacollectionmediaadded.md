@@ -3,7 +3,7 @@ title: Événement MediaCollectionMediaAdded de l’objet AxWindowsMediaPlayer
 description: L’événement MediaCollectionMediaAdded se produit lorsqu’un élément multimédia est ajouté à la bibliothèque locale. | Événement MediaCollectionMediaAdded de l’objet AxWindowsMediaPlayer
 ms.assetid: ba1779f6-a212-44f4-b52a-c88e22aebcce
 keywords:
-- Événement MediaCollectionMediaAdded de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement MediaCollectionMediaAdded de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbb839fccf9a5048b5647480eca36fcfcaeb904e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb48a41970840a45344e2e6fdd578f4e84e23751fd8e337052e66ccd0a058d5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765099"
 ---
 # <a name="mediacollectionmediaadded-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaCollectionMediaAdded de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement se produit uniquement pour la bibliothèque locale.
 
@@ -73,7 +73,7 @@ Cet événement se produit uniquement pour la bibliothèque locale.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. mediaCollection (VB et C#)**](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)

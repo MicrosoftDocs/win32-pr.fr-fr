@@ -4,12 +4,12 @@ ms.assetid: 5a2a7a62-0bda-4a0d-93d2-25b4898871fd
 title: Fonctions de gestion de la mémoire
 ms.topic: article
 ms.date: 11/06/2018
-ms.openlocfilehash: a203583016a127a550f609068df8e86da384fa34
-ms.sourcegitcommit: 43aef65e6563a56f35c019c5202827ab65772186
+ms.openlocfilehash: 635fa59b6a5b6a549438d8bfed71781d6d9e6fa6a9d2c12524684ded28a0f3df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "103734773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822189"
 ---
 # <a name="memory-management-functions"></a>Fonctions de gestion de la mémoire
 
@@ -66,18 +66,18 @@ Ces fonctions sont utilisées dans le [mappage de fichiers](file-mapping.md).
 | [**CreateFileMappingA**](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié. |
 | [**CreateFileMappingW**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemappingw) | Crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié. |
 | [**CreateFileMapping2**](/windows/win32/api/memoryapi/nf-memoryapi-createfilemapping2) | Crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié. Vous pouvez spécifier un nœud NUMA préféré pour la mémoire physique en tant que paramètre étendu. consultez le paramètre *ExtendedParameters* . |
-| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | Crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié à partir d’une application du Windows Store. |
+| [**CreateFileMappingFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-createfilemappingfromapp) | crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié à partir d’une application Windows Store. |
 | [**CreateFileMappingNuma**](/windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa) | Crée ou ouvre un objet de mappage de fichier nommé ou sans nom pour un fichier spécifié et spécifie le nœud NUMA pour la mémoire physique. |
 | [**FlushViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-flushviewoffile) | Écrit sur le disque une plage d’octets dans une vue mappée d’un fichier. |
 | [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) | Vérifie si l’adresse spécifiée se trouve dans un fichier mappé en mémoire dans l’espace d’adressage du processus spécifié. Si c’est le cas, la fonction retourne le nom du fichier mappé en mémoire. |
-| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | Mappe une vue d’un mappage de fichier à l’espace d’adressage d’un processus appelant. |
-| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | Mappe une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
-| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Mappe une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
-| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Mappe une vue d’un mappage de fichier à l’espace d’adressage d’un processus appelant à partir d’une application du Windows Store. |
-| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | Mappe une vue d’un mappage de fichier à l’espace d’adressage d’un processus appelant. Un appelant peut éventuellement spécifier une adresse mémoire suggérée pour la vue. |
-| [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Mappe une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant et spécifie le nœud NUMA pour la mémoire physique. |
-| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Mappe une vue d’un mappage de fichier à l’espace d’adressage d’un processus appelant à partir d’une application du Windows Store. |
-| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Mappe une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
+| [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) | Cartes une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant. |
+| [**MapViewOfFile2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile2) | Cartes une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
+| [**MapViewOfFile3**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3) | Cartes une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
+| [**MapViewOfFile3FromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffile3fromapp) | Cartes une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant à partir d’une application Windows Store. |
+| [**MapViewOfFileEx**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffileex) | Cartes une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant. Un appelant peut éventuellement spécifier une adresse mémoire suggérée pour la vue. |
+| [**MapViewOfFileExNuma**](/windows/desktop/api/WinBase/nf-winbase-mapviewoffileexnuma) | Cartes une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant, et spécifie le nœud NUMA pour la mémoire physique. |
+| [**MapViewOfFileFromApp**](/windows/desktop/api/MemoryApi/nf-memoryapi-mapviewoffilefromapp) | Cartes une vue d’un mappage de fichier dans l’espace d’adressage d’un processus appelant à partir d’une application Windows Store. |
+| [**MapViewOfFileNuma2**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffilenuma2) | Cartes une vue d’un fichier ou d’une section de fichier de pagination dans l’espace d’adressage du processus spécifié. |
 | [**OpenFileMapping**](/windows/win32/api/winbase/nf-winbase-openfilemappinga) | Ouvre un objet de mappage de fichier nommé. |
 | [**OpenFileMappingFromApp**](/windows/win32/api/winbase/nf-winbase-openfilemappingafromapp) | Ouvre un objet de mappage de fichier nommé. |
 | [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) | Démappe une vue mappée d’un fichier à partir de l’espace d’adressage du processus appelant. |
@@ -93,8 +93,8 @@ Il s’agit des [fonctions AWE](address-windowing-extensions.md).
 | [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages) | Alloue des pages de mémoire physique à mapper et à démapper dans une région AWE du processus. |
 | [**AllocateUserPhysicalPagesNuma**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma) | Alloue des pages de mémoire physique à mapper et à démapper au sein d’une région AWE du processus, et spécifie le nœud NUMA pour la mémoire physique. |
 | [**FreeUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-freeuserphysicalpages) | Libère les pages de mémoire physique allouées précédemment avec [**AllocateUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-allocateuserphysicalpages). |
-| [**MapUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | Mappe les pages mémoire physique précédemment allouées à l’adresse spécifiée dans une région AWE. |
-| [**MapUserPhysicalPagesScatter**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | Mappe les pages mémoire physique précédemment allouées à l’adresse spécifiée dans une région AWE. |
+| [**MapUserPhysicalPages**](/windows/win32/api/memoryapi/nf-memoryapi-mapuserphysicalpages) | Cartes pages mémoire physique allouées précédemment à l’adresse spécifiée au sein d’une région AWE. |
+| [**MapUserPhysicalPagesScatter**](/windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter) | Cartes pages mémoire physique allouées précédemment à l’adresse spécifiée au sein d’une région AWE. |
 
 ## <a name="heap-functions"></a>Fonctions de segment de mémoire
 
@@ -148,7 +148,7 @@ Il s’agit des [fonctions de mémoire virtuelle](virtual-memory-functions.md).
 
 ## <a name="global-and-local-functions"></a>Fonctions globales et locales
 
-Consultez également [fonctions globales et locales](global-and-local-functions.md). Ces fonctions sont fournies à des fins de compatibilité avec Windows 16 bits et sont utilisées avec échange dynamique de données (DDE), les fonctions du presse-papiers et les objets de données OLE. À moins que la documentation stipule spécifiquement qu’une fonction globale ou locale doit être utilisée, les nouvelles applications doivent utiliser la [fonction de tas](heap-functions.md) correspondante avec le handle retourné par [**GetProcessHeap**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap). Pour obtenir des fonctionnalités équivalentes à la fonction globale ou locale, affectez la valeur 0 au paramètre *dwFlags* de la fonction Heap.
+Consultez également [fonctions globales et locales](global-and-local-functions.md). ces fonctions sont fournies à des fins de compatibilité avec les Windows 16 bits et sont utilisées avec échange dynamique de données (DDE), les fonctions du presse-papiers et les objets de données OLE. À moins que la documentation stipule spécifiquement qu’une fonction globale ou locale doit être utilisée, les nouvelles applications doivent utiliser la [fonction de tas](heap-functions.md) correspondante avec le handle retourné par [**GetProcessHeap**](/windows/desktop/api/HeapApi/nf-heapapi-getprocessheap). Pour obtenir des fonctionnalités équivalentes à la fonction globale ou locale, affectez la valeur 0 au paramètre *dwFlags* de la fonction Heap.
 
 | Fonction | Description | Fonction Heap correspondante |
 |-|-|-|

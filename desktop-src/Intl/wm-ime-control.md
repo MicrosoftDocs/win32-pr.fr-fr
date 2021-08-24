@@ -4,12 +4,12 @@ ms.assetid: 5d3b7f8a-57c9-41e3-8022-9a3f515fc32e
 title: Message WM_IME_CONTROL (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0adc534883bc0b31984c8d3e9b57a04b555987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 104ef8eb2a90c7c55eb0d4bca2fcdb1744dd9433f131b753e962fcfec571f43d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822469"
 ---
 # <a name="wm_ime_control-message"></a>Message WM_IME_CONTROL
 
@@ -34,7 +34,7 @@ SendMessage(
 *HWND* 
 </dt> <dd>
 
-Handle de la fenêtre.
+Handle vers la fenêtre.
 
 </dd> <dt>
 
@@ -78,7 +78,7 @@ Le message retourne une valeur spécifique à la commande.
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                                                                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                                                                                                      |
-| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h); </dt> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h);</dt> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

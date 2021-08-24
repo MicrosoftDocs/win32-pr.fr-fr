@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 824f46fd17eb51fddbf09c2f34569574c50c570a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e1daa3e31ccfb49e49842994d6203b58534d86c111cd98652e66079fa47322cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119745729"
 ---
 # <a name="databasecreatetransformsummaryinfo-method"></a>Database. CreateTransformSummaryInfo, méthode
 
@@ -146,7 +146,7 @@ Pour valider l’application de la transformation à un package ayant la [**Upgr
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer un flux d’informations de synthèse pour une transformation, les propriétés [**ProductCode**](productcode.md) et [**ProductVersion**](productversion.md) doivent être définies dans les tables de [Propriétés](property-table.md) des bases de données de base et de référence. Si msiTransformValidationUpgradeCode est utilisé, la propriété [**UpgradeCode**](upgradecode.md) doit être définie dans les deux bases de données.
 

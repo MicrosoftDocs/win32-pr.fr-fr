@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c58edd286f9390f19055f1006328424a6dfb0644
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6add47133a5d8b84c7a5b98f126c284225614407b3867a0a91e432b85e9d58ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802839"
 ---
 # <a name="msradiuscallbacknumber-attribute"></a>attribut msRADIUSCallbackNumber
 
@@ -44,7 +44,7 @@ L’attribut **msRADIUSCallbackNumber** est utilisé en interne. Ne modifiez pas
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

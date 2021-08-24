@@ -4,18 +4,18 @@ ms.assetid: f0a8ceac-084a-4693-b27d-f610eec4702a
 title: ICE79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9081297f2bf2f11283380c0f057bd0fbec417975
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f11ab5bcf0cd538005a5188559b0426e27004cb5a6d043852be3e361d10e509
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821569"
 ---
 # <a name="ice79"></a>ICE79
 
 ICE79 valide les références aux composants et aux fonctionnalités entrées dans les champs de la base de données à l’aide du type de données [condition](condition.md) .
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE79 publie deux avertissements.
 

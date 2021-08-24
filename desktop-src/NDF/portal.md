@@ -4,12 +4,12 @@ description: Network Diagnostics Framework (NDF) permet aux développeurs de com
 ms.assetid: 61dfb66b-4bc6-43a9-ad61-698f5cd67f4a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0342ee4cb285f0a0f1c76c74b3bdc5b412b07e2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2397331e76fb5aa85478b6ab516216f2e0b7fb05e115ccdbebd0daa6565c8674
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801909"
 ---
 # <a name="network-diagnostics-framework"></a>Infrastructure de diagnostics réseau
 
@@ -40,7 +40,7 @@ NDF est disponible pour les ordinateurs exécutant Windows Vista, Windows Server
 | [À propos de NDF](about-ndf.md)<br/>                                       | Fournit une synthèse générale de la technologie NDF.<br/>                                                                                                                                             |
 | [Utilisation d’NDF](using-ndf.md)<br/>                                       | Fournit des informations et des exemples sur l’utilisation des fonctionnalités NDF, ainsi que sur la façon d’étendre cette fonctionnalité.<br/>                                                                                    |
 | [Référence NDF](ndf-reference.md)<br/>                               | Fournit des informations sur les énumérations, les fonctions, les interfaces et les structures qui prennent en charge l’utilisation d’NDF, ainsi que des informations sur les classes d’assistance extensible fournies par Microsoft.<br/> |
-| [Traçage réseau dans Windows 7](network-tracing-in-windows-7.md)<br/> | Décrit le traçage réseau et les outils à utiliser pour la résolution des problèmes.<br/>                                                                                                                               |
+| [traçage réseau dans Windows 7](network-tracing-in-windows-7.md)<br/> | Décrit le traçage réseau et les outils à utiliser pour la résolution des problèmes.<br/>                                                                                                                               |
 
 
 

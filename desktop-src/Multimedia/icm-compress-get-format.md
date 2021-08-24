@@ -1,9 +1,9 @@
 ---
 title: Message ICM_COMPRESS_GET_FORMAT (VFW. h)
-description: Le \_ \_ \_ message de format d’extraction de la compression ICM demande le format de sortie des données compressées à partir d’un pilote de compression vidéo. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressGetFormat.
+description: le \_ message ICM compresser \_ obtenir \_ le format demande le format de sortie des données compressées à partir d’un pilote de compression vidéo. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICCompressGetFormat.
 ms.assetid: ac12d415-bad5-4838-b206-09c8097d3fd9
 keywords:
-- Message ICM_COMPRESS_GET_FORMAT Windows Multimedia
+- message ICM_COMPRESS_GET_FORMAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d096ceafa382bdbae5e4efe16975b3518735e773
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ac1bf9b3c9a3ae0535da008786bf8baef19c8b51e27446b84e4b95805a1c4a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785029"
 ---
-# <a name="icm_compress_get_format-message"></a>\_Message de \_ format d’extraction de la compression ICM \_
+# <a name="icm_compress_get_format-message"></a>ICM \_ \_Message de mise en forme de la compression \_
 
-Le message de format d’extraction de la **\_ compression \_ \_ ICM** demande le format de sortie des données compressées à partir d’un pilote de compression vidéo. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) .
+le message **ICM \_ compresser \_ obtenir le \_ format** demande le format de sortie des données compressées à partir d’un pilote de compression vidéo. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICCompressGetFormat**](/windows/desktop/api/Vfw/nf-vfw-iccompressgetformat) .
 
 
 ```C++
@@ -58,7 +58,7 @@ Si *lpbiOutput* est égal à zéro, retourne la taille de la structure.
 
 Si *lpbiOutput* est différent de zéro, retourne ICERR \_ OK en cas de réussite ou une erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si *lpbiOutput* est différent de zéro, le pilote doit remplir la structure [**BITMAPINFO,**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfo) avec le format de sortie par défaut correspondant au format d’entrée spécifié pour *lpbiInput*. Si le compresseur peut produire plusieurs formats, le format par défaut doit être celui qui conserve la plus grande quantité d’informations.
 

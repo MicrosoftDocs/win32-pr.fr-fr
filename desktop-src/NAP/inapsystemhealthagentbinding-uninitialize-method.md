@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a863e9d742610ab764a3b7a00966e8e112278317
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4eeefaad67130772a44103c721cc9f4efd02d3b43f54fc27c8d2f1bd40983522
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802759"
 ---
 # <a name="inapsystemhealthagentbindinguninitialize-method"></a>INapSystemHealthAgentBinding :: Uninitialize, méthode
 
@@ -63,7 +63,7 @@ D’autres codes d’erreur spécifiques à COM peuvent également être retourn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 NapAgent bloque l’exécution de cet appel de méthode jusqu’à ce que tous les appels existants sur les interfaces de liaison et de rappel se terminent.
 
@@ -75,8 +75,8 @@ L’algorithme SHA doit appeler [**Initialize**](inapsystemhealthagentbinding-in
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthAgent. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthAgent. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

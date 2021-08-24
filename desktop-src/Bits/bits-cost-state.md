@@ -25,12 +25,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/20/2019
-ms.openlocfilehash: 88fb0b949fb06a6e1eb6e14cdf55c8d54d9ab33c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecbe54966a54310af71a4c96a3d3c2423f524f9b8a8067b10350fba05675a54b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701979"
 ---
 # <a name="bits_cost_state"></a>\_État du coût des bits \_
 
@@ -174,8 +174,8 @@ Réservé.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>Bits5 \_ 0. h (inclure bits. h)</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>Bits5 \_ 0. idl</dt> </dl>                |
 

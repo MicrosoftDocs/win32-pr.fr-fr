@@ -4,12 +4,12 @@ ms.assetid: 6f83ab7e-8583-4872-b5d9-91ce227a7761
 title: System. Calendar. RequiredAttendeeNames
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bfc10fd4bd1daa15941c93230631d523f3b90f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8786ed8ec1604de12e533ed7177d9667c2196a27f37de631a07b0877bb39bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823469"
 ---
 # <a name="systemcalendarrequiredattendeenames"></a>System. Calendar. RequiredAttendeeNames
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

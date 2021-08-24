@@ -1,6 +1,6 @@
 ---
-title: Référence du mélangeur audio
-description: Référence du mélangeur audio
+title: référence de Mixer Audio
+description: référence de Mixer Audio
 ms.assetid: 9d8751b1-9c0b-4238-a961-27c09a869bb3
 keywords:
 - audio multimédia, mixages audio
@@ -12,14 +12,14 @@ keywords:
 - référence pour les mixages audio, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be1d86f305714d72631b56495753417699b1a146
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1602a9ac0631a3e81430285c8cd862215a437c72b03b41d87fad6cefa7e41827
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104199201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786219"
 ---
-# <a name="audio-mixer-reference"></a>Référence du mélangeur audio
+# <a name="audio-mixer-reference"></a>référence de Mixer Audio
 
 Cette section décrit les fonctions, les structures et les messages associés aux mixages audio. Ces éléments sont regroupés comme suit.
 
@@ -34,7 +34,7 @@ Cette section décrit les fonctions, les structures et les messages associés au
 -   [**mixerClose**](/windows/win32/api/mmeapi/nf-mmeapi-mixerclose)
 -   [**mixerOpen**](/windows/win32/api/mmeapi/nf-mmeapi-mixeropen)
 
-## <a name="retrieving-mixer-identifiers"></a>Récupération des identificateurs de mixage
+## <a name="retrieving-mixer-identifiers"></a>récupération des identificateurs de Mixer
 
 -   [**mixerGetID**](/windows/win32/api/mmeapi/nf-mmeapi-mixergetid)
 
@@ -69,9 +69,9 @@ Cette section décrit les fonctions, les structures et les messages associés au
 
 <dl> <dt>
 
-[Référence du mélangeur audio](audio-mixer-reference.md)
+[référence de Mixer Audio](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

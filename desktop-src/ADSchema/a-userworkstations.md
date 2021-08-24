@@ -1,6 +1,6 @@
 ---
 title: Attribut User-Workstations
-description: Contient les noms NetBIOS ou DNS des ordinateurs exécutant Windows NT Workstation ou Windows 2000 professionnel à partir desquels l’utilisateur peut ouvrir une session.
+description: contient les noms NetBIOS ou DNS des ordinateurs exécutant Windows NT Workstation ou Windows 2000 Professional à partir desquels l’utilisateur peut se connecter.
 ms.assetid: 92af070b-dadd-404d-8305-d85974639958
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cad59905dbf24c8baa13969d9a2ce5452767163
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dfe243275271088ed5634aa4a18ab053ecbad23ba6e844f8bbc18c5809cdfd72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702889"
 ---
 # <a name="user-workstations-attribute"></a>Attribut User-Workstations
 
-Contient les noms NetBIOS ou DNS des ordinateurs exécutant Windows NT Workstation ou Windows 2000 professionnel à partir desquels l’utilisateur peut ouvrir une session. Chaque nom NetBIOS est séparé par une virgule. Les noms multiples doivent être séparés par des virgules.
+contient les noms NetBIOS ou DNS des ordinateurs exécutant Windows NT Workstation ou Windows 2000 Professional à partir desquels l’utilisateur peut se connecter. Chaque nom NetBIOS est séparé par une virgule. Les noms multiples doivent être séparés par des virgules.
 
 >[!Note]
 >Cet attribut utilisateur ne doit plus être utilisé. Pour gérer les comptes qui peuvent ouvrir une session sur les stations de travail, nous vous recommandons d’utiliser les fonctionnalités « permettre l’ouverture d’une session locale » et « interdire l’ouverture d’une session locale » ou « autoriser l’ouverture d’une session via le Services Bureau à distance » et « interdire l’ouverture d’une session via Services Bureau à distance ».
@@ -46,7 +46,7 @@ Contient les noms NetBIOS ou DNS des ordinateurs exécutant Windows NT Workstati
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

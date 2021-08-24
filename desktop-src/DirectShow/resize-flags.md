@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 9e2ef2766f7f54fea4fad16fc26242a8c2ee08db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c38f4b1913eb7676832374e57e4d65e14dc87831c13f3cdb0de96edf9b83ebec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747103"
 ---
 # <a name="resize-flags"></a>Indicateurs de redimensionnement
 
-\[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+\[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
 Ces indicateurs spécifient le mode de rendu d’une source vidéo si sa taille ne correspond pas aux dimensions de sortie.
 
@@ -40,7 +40,7 @@ Ces indicateurs spécifient le mode de rendu d’une source vidéo si sa taille 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les images suivantes montrent les effets de ces indicateurs.
 

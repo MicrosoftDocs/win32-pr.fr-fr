@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101104
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 073e46073fa9367e86f9e7ff048c85df4b946aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f29d0b95b39a76588174ab1f0bd9a4d104f7450e37761394c0563832fb68345c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725235"
 ---
 # <a name="esentbadbookmarkexception-properties"></a>Propriétés EsentBadBookmarkException
 
@@ -49,7 +49,7 @@ Le type [EsentBadBookmarkException](./esentbadbookmarkexception-class.md) expose
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -1,30 +1,30 @@
 ---
-title: Nouveautés de la plateforme de filtrage Windows
-description: Windows 8 et Windows Server 2012 introduisent de nouveaux éléments de programmation de plateforme de filtrage Windows.
+title: nouveautés de la plateforme de filtrage des Windows
+description: Windows 8 et Windows Server 2012 introduire de nouveaux éléments de programmation de plate-forme de filtrage Windows.
 ms.assetid: 7529F155-3DBC-4C22-A780-B6311C455E85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85b5e441eff3242b530401235b085a1486527b98
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 77e12c1e7add7568b931aabe43f3ab91763df2d5ab12ad448d3683afe13baa3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104316926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766659"
 ---
-# <a name="whats-new-in-windows-filtering-platform"></a>Nouveautés de la plateforme de filtrage Windows
+# <a name="whats-new-in-windows-filtering-platform"></a>nouveautés de la plateforme de filtrage des Windows
 
-Windows 8 et Windows Server 2012 introduisent de nouveaux éléments de programmation de plateforme de filtrage Windows. Les nouvelles fonctionnalités incluent les éléments suivants :
+Windows 8 et Windows Server 2012 introduire de nouveaux éléments de programmation de plate-forme de filtrage Windows. Les nouvelles fonctionnalités incluent les éléments suivants :
 
 -   *Filtrage de couche 2*: permet d’accéder à la couche L2 (Mac), ce qui permet de filtrer le trafic au niveau de cette couche.
 -   *filtrage vswitch*: autorise l’inspection et/ou la modification des paquets traversant un vswitch. Des filtres ou des légendes WFP peuvent être utilisés au niveau de l’entrée et de la sortie du vSwitch.
 -   *Gestion* des conteneurs d’applications : permet d’accéder aux informations sur les conteneurs d’applications et les problèmes de connectivité d’isolement réseau.
 -   *Mises à jour IPSec*: fonctionnalités IPSec étendues, notamment la surveillance de l’état de connexion, la sélection des certificats et la gestion des clés.
 
-Le kit de pilotes Windows comprend également des informations sur [les modifications de WFP pour Windows 8](/windows-hardware/drivers/network/wfp-changes-for-windows-8).
+le Kit de pilotes Windows comprend également des informations sur [les modifications de la plateforme WFP pour Windows 8](/windows-hardware/drivers/network/wfp-changes-for-windows-8).
 
-## <a name="windows-8-api-updates"></a>Mises à jour de l’API Windows 8
+## <a name="windows-8-api-updates"></a>Windows 8 Mises à jour d’API
 
-De nombreuses nouvelles API ont été ajoutées pour Windows 8 et Windows Server 2012.
+de nombreuses nouvelles api ont été ajoutées pour Windows 8 et Windows Server 2012.
 
 ## <a name="new-functions"></a>Nouvelles fonctions
 
@@ -176,9 +176,9 @@ De nombreuses nouvelles API ont été ajoutées pour Windows 8 et Windows Server
 -   La \_ condition fwp \_ L2 \_ est un \_ \_ groupe de fragments IP \_
 -   \_Condition fwp \_ L2 \_ si le \_ connecteur est \_ présent
 
-## <a name="windows-7-updates-to-the-windows-filtering-platform"></a>Mises à jour de Windows 7 sur la plateforme de filtrage Windows
+## <a name="windows-7-updates-to-the-windows-filtering-platform"></a>Windows 7 mises à jour de la plateforme de filtrage des Windows
 
-Le document [Nouveautés de la plateforme de filtrage Windows]() détaille la plupart des mises à jour apportées à Windows 7. Les informations sont également disponibles dans le kit de pilotes Windows sur [les modifications de WFP pour Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).
+le document [nouveautés de Windows plateforme de filtrage]() détaille la plupart des mises à jour apportées pour Windows 7. les informations sont également disponibles dans le Kit de pilotes Windows sur [les modifications de la plateforme WFP pour Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).
 
  
 

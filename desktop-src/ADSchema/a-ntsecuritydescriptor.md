@@ -1,6 +1,6 @@
 ---
 title: Attribut de descripteur de sécurité NT
-description: Descripteur de sécurité Windows NT pour l’objet de schéma. Un descripteur de sécurité est une structure de données qui contient des informations de sécurité sur un objet, telles que la propriété et les autorisations de l’objet.
+description: Le Windows le descripteur de sécurité NT pour l’objet de schéma. Un descripteur de sécurité est une structure de données qui contient des informations de sécurité sur un objet, telles que la propriété et les autorisations de l’objet.
 ms.assetid: 3a17b584-97ea-441c-846e-3031aea171b2
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e951e28ce97b04380609774baf57e4c6bf8c545
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d33b5753429b63638f1f1c9a3103aa8d78bd8590b77ceebec4fff05b82e10dd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703009"
 ---
 # <a name="nt-security-descriptor-attribute"></a>Attribut de descripteur de sécurité NT
 
-Descripteur de sécurité Windows NT pour l’objet de schéma. Un descripteur de sécurité est une structure de données qui contient des informations de sécurité sur un objet, telles que la propriété et les autorisations de l’objet.
+Le Windows le descripteur de sécurité NT pour l’objet de schéma. Un descripteur de sécurité est une structure de données qui contient des informations de sécurité sur un objet, telles que la propriété et les autorisations de l’objet.
 
 Pour plus d’informations sur le format de cette valeur, consultez [format de chaîne du descripteur de sécurité (Windows)](https://msdn.microsoft.com/library(d=robot)/aa379570(d=robot,l=en-us,v=vs.85).aspx).
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur le format de cette valeur, consultez [format de c
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 50ab07967605f8a24ba330a3cb13f80c833cf542
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4d726b7500fd890dfe8c7fdc39f628c185dbe35f3a3bc14f0c05ab7f85cd673
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744679"
 ---
 # <a name="attachpropertyinstance-function"></a>AttachPropertyInstance fonction)
 
@@ -116,7 +116,7 @@ Si la fonction réussit, la valeur de retour est **true**.
 
 Si la fonction échoue, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AttachPropertyInstance** est appelée pendant l’implémentation de la fonction d’exportation [**AttachProperties**](attachproperties.md) . Quand une propriété est attachée aux données, Moniteur réseau crée une structure [**PROPERTYINST**](propertyinst.md) qui définit l’instance de la propriété jointe.
 

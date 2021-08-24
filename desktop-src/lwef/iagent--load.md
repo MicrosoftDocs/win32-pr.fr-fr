@@ -4,12 +4,12 @@ description: Charge IAgent
 ms.assetid: 8f25e6b6-a117-4b37-969a-d8f80c7be224
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ce2835d60f3edce6f45d181927437ba6e58b18
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ae718ee8c6566de42645c5c02c2efada90ef85ba0136a112bcf0420d18a7b511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725391"
 ---
 # <a name="iagentload"></a>IAgent :: Load
 
@@ -36,7 +36,7 @@ Un type de données Variant qui doit être l’un des suivants :
 
 
 
-| Value           | Description                                                                      |
+| Valeur           | Description                                                                      |
 |------------|-----------------------------------------------------------------------|
 | *filespec* | Emplacement du fichier de définition du caractère spécifié dans le fichier local. |
 | *URL*      | Adresse HTTP du fichier de définition du caractère.                 |

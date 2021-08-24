@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c59cc425c83fd7f1a85f41cd9d23e234115e0b55
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9a1194415d07fec5b5d6655c9721f843ebbb409441bae82fa845962e6b500489
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803589"
 ---
 # <a name="ms-ds-quota-used-attribute"></a>ms-DS-attribut quota-utilisé
 
@@ -36,7 +36,7 @@ Quota actuel consommé par un principal de sécurité dans la base de données d
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1849              |
 | System-ID-GUID    | b5a84308-615d-4bb7-b05f-2f1746aa439f |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Quota actuel consommé par un principal de sécurité dans la base de données d
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

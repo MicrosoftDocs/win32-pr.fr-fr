@@ -4,12 +4,12 @@ ms.assetid: be1551e6-861d-49cf-9050-9b98b7f79725
 title: System. Calendar. IsRecurring
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16133fff8d28eaeaf0344afd6bdc0844edf38f60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b7fc7fde036737ce4b4e2947ceae2378aaab062394c845d1d176437cd0a185
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823579"
 ---
 # <a name="systemcalendarisrecurring"></a>System. Calendar. IsRecurring
 
@@ -44,7 +44,7 @@ propertyDescription
       type = Boolean
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -3,7 +3,7 @@ title: Élément sourceFilter
 description: L’élément sourceFilter contient des éléments qui sélectionnent des éléments dans une bibliothèque.
 ms.assetid: c961990f-8c57-448d-b4dc-dcfe70300e5a
 keywords:
-- Élément sourceFilter lecteur Windows Media
+- élément sourceFilter Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb43a9577c5fe8857b63067db5be90d314037b84
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 14294f227e5ebe29e422d60a95734f7b93207880ea82ef9fb70ed3f7cf6dac4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763269"
 ---
 # <a name="sourcefilter-element"></a>Élément sourceFilter
 
@@ -53,7 +53,7 @@ GUID qui identifie de façon unique l’objet de filtre source. Les méthodes de
 
 | Valeur                                  | Description                                              |
 |----------------------------------------|----------------------------------------------------------|
-| {4202947A-A563-4B05-A754-A1B4B5989849} | GUID du filtre source « musique dans ma bibliothèque ».    |
+| {4202947A-A563-4B05-A754-A1B4B5989849} | GUID du filtre source « Musique dans ma bibliothèque ».    |
 | {B2D9BDDC-8E49-444B-9BA4-193ABF9C7870} | GUID du filtre source « vidéo dans ma bibliothèque ».    |
 | {CC823400-A8E4-4081-B073-D3B6D952FE69} | GUID du filtre source « images dans ma bibliothèque ». |
 | {E5415A66-7763-4BDE-B97F-5557CA73C303} | GUID du filtre source « émissions TV dans ma bibliothèque ». |
@@ -97,7 +97,7 @@ Nom de l’objet de filtre.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **sourceFilter** sélectionne des éléments de la bibliothèque sans tenir compte de la taille du jeu de résultats. L’élément **Filter** , en revanche, limite la taille du jeu de résultats.
 
@@ -145,7 +145,7 @@ L’élément **sourceFilter** sélectionne des éléments de la bibliothèque s
 [**Élément querySet**](queryset-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

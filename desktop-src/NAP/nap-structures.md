@@ -4,19 +4,19 @@ description: Structures NAP
 ms.assetid: 68048587-0f7e-48d4-9326-768a977ea3ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b31f217afc96a25a5f85166ebde4e13b483e4a0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd23e5f137592b24a2c1a1b15c4e2c969fa0e9b91ac9c80dcc7f8cb3fad3f2cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802609"
 ---
 # <a name="nap-structures"></a>Structures NAP
 
 > [!Note]  
 > La plate-forme de protection d’accès réseau n’est pas disponible à partir de Windows 10
 
- 
+ 
 
 Les structures de données suivantes prennent en charge l’API NAP :
 
@@ -38,9 +38,9 @@ Les structures de données suivantes prennent en charge l’API NAP :
 -   [**SoHAttributeValue**](sohattributevalue-union.md)
 -   [**SystemHealthAgentState**](/windows/win32/api/naptypes/ns-naptypes-systemhealthagentstate)
 
- 
+ 
 
- 
+ 
 
 
 

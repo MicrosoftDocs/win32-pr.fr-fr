@@ -4,12 +4,12 @@ ms.assetid: f88c64ce-af76-49fe-8ebd-029928506243
 title: Jeu de propriétés de modification du taux (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb222f8a2fe388d8ea582448d2ba5aa6c9d7e80
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 5299b744869a4c9a12b50a9e738104999aab5dcd19a800fc0ac3ddb3717e8617
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119747409"
 ---
 # <a name="rate-change-property-set"></a>Définition de la propriété change rate
 

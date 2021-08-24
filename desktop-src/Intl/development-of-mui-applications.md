@@ -4,12 +4,12 @@ ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: Développement d’applications MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4a3278b4cc70969c1aa968de895d99fd3363a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32cc647069577a2ff3b137573b85308aa66e685df2310c2ea01973d19d1dc0d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822769"
 ---
 # <a name="development-of-mui-applications"></a>Développement d’applications MUI
 
@@ -23,9 +23,9 @@ Votre application MUI peut s’exécuter dans n’importe quel langage ou param�
 
 ## <a name="supported-programming-environments"></a>Environnements de programmation pris en charge
 
-Vous pouvez ajouter une fonctionnalité MUI à une application de formulaires ou une application de console Win32 globalisée, comme décrit dans ce kit de développement logiciel (SDK). En outre, vous pouvez créer des applications gérées à l’aide de .NET Framework, qui est compatible avec MUI. Pour plus d’informations, consultez [développement .net](/previous-versions/ff361664(v=vs.100)).
+Vous pouvez ajouter une fonctionnalité MUI à une application de formulaires ou une application de console Win32 globalisée, comme décrit dans ce kit de développement logiciel (SDK). en outre, vous pouvez créer des applications gérées à l’aide de .NET Framework, qui est compatible avec MUI. Pour plus d’informations, consultez [développement .net](/previous-versions/ff361664(v=vs.100)).
 
-## <a name="user-interface-language-settings"></a>Paramètres de langue de l’interface utilisateur
+## <a name="user-interface-language-settings"></a>Paramètres de la langue de l’Interface utilisateur
 
 Lors de la planification de votre application MUI, vous devez d’abord déterminer les langues de l’interface utilisateur et la façon de les présenter à l’utilisateur. L’application peut prendre en charge les langues de l’une des manières suivantes :
 
@@ -37,13 +37,13 @@ Lors de la planification de votre application MUI, vous devez d’abord détermi
 Cette section décrit les possibilités de création des ressources de langue de l’interface utilisateur pour l’application. Pour plus d’informations, consultez [préparation des ressources](preparing-resources.md).
 
 > [!Note]  
-> Sur les systèmes d’exploitation antérieurs à Windows Vista, vous créez généralement des applications localisées en une seule langue, statiques et séparément, avec les langues prises en charge par les sections de ressources incluses dans les fichiers exécutables. Ce type d’implémentation est largement obsolète, et il est recommandé de choisir l’une des autres techniques de création de ressources décrites dans cette section, prises en charge pour Windows Vista et versions ultérieures. L’application peut ensuite être exécutée sur des systèmes d’exploitation antérieurs à Windows Vista à l’aide de [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya).
+> sur les systèmes d’exploitation antérieurs à Windows Vista, vous créez généralement des applications localisées en une seule langue, statiques et séparément, avec les langues prises en charge par les sections de ressources incluses dans les fichiers exécutables. ce type d’implémentation est largement obsolète, et il est recommandé de choisir l’une des autres techniques de création de ressources décrites dans cette section, prises en charge pour Windows Vista et versions ultérieures. l’application peut ensuite être exécutée sur les systèmes d’exploitation antérieurs à Windows Vista à l’aide de [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya).
 
  
 
 ### <a name="use-of-a-single-language-in-a-resource-dll-mui-resource-technology"></a>Utilisation d’une seule langue dans une DLL de ressource (technologie de ressources MUI)
 
-Une implémentation de ressource de DLL satellite standard est utilisée par de nombreuses applications Microsoft. Dans ce cas, un fichier exécutable principal est utilisé pour l’application MUI et une DLL de ressource est créée pour chaque langue prise en charge. L’utilisation d’une DLL satellite s’applique aux applications qui s’exécutent sur n’importe quel système d’exploitation Windows. Comme décrit dans [gestion des ressources MUI](mui-resource-management.md), la technologie de ressources MUI prend en charge une variante de l’implémentation de DLL satellite standard.
+Une implémentation de ressource de DLL satellite standard est utilisée par de nombreuses applications Microsoft. Dans ce cas, un fichier exécutable principal est utilisé pour l’application MUI et une DLL de ressource est créée pour chaque langue prise en charge. l’utilisation d’une DLL satellite s’applique aux applications qui s’exécutent sur tout système d’exploitation Windows. Comme décrit dans [gestion des ressources MUI](mui-resource-management.md), la technologie de ressources MUI prend en charge une variante de l’implémentation de DLL satellite standard.
 
 ### <a name="use-of-multiple-languages-in-a-resource-dll"></a>Utilisation de plusieurs langues dans une DLL de ressource
 
@@ -72,7 +72,7 @@ Pour prendre en charge les langues de l’interface utilisateur de votre applica
 
 <dl> <dt>
 
-[À propos de l’interface utilisateur multilingue](about-multilingual-user-interface.md)
+[à propos de interface utilisateur multilingue](about-multilingual-user-interface.md)
 </dt> </dl>
 
  

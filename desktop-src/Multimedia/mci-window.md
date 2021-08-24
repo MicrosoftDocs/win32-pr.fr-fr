@@ -3,7 +3,7 @@ title: Commande MCI_WINDOW (mmsystem. h)
 description: La \_ commande de fenêtre MCI spécifie la fenêtre et les caractéristiques de la fenêtre pour les périphériques graphiques. Les appareils vidéo et vidéo numériques reconnaissent cette commande.
 ms.assetid: 8b6c4d9a-ee72-4c64-aebe-6c8153167496
 keywords:
-- Commande MCI_WINDOW Windows multimédia
+- commande MCI_WINDOW Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41b4d630dbc9dbc7403e93cd0bda3de2eef1e5cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3270dce8b2127cce783c7c3b8bf21102590cd3e82d74a3e990a3117c59772381
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783689"
 ---
 # <a name="mci_window-command"></a>\_Commande de fenêtre MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les appareils graphiques doivent créer une fenêtre par défaut lorsqu’un appareil est ouvert, mais ne doivent pas l’afficher tant qu’ils n’ont pas reçu la commande [MCI \_ Play](mci-play.md) . La \_ commande de fenêtre MCI est utilisée pour fournir une fenêtre créée par l’application à l’appareil et pour modifier les caractéristiques d’affichage d’une fenêtre d’affichage définie par l’application ou par défaut. Si l’application fournit la fenêtre d’affichage, vous devez préparer la mise à jour d’un rectangle non valide dans la fenêtre.
 
@@ -148,7 +148,7 @@ Pour les périphériques de superposition vidéo, le paramètre *lpWindow* point
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

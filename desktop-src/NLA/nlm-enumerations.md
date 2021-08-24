@@ -4,12 +4,12 @@ description: Énumérations NLM
 ms.assetid: 15a65dd0-f088-4473-a2d2-757da413b6e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cb21ebabd1dddae23e4d8a9526bafeb3b2f620
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2c8bc60d3ed522217c6ee583be40f59bc8d252ac2ef3beb4b81cc5c9b5c0796
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801519"
 ---
 # <a name="nlm-enumerations"></a>Énumérations NLM
 
@@ -17,7 +17,7 @@ Voici les énumérations NLM.
 
 | Énumération                                                                 | Description                                                                                |
 |-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**\_coût de connexion NLM \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_cost)                        | Spécifie un ensemble de niveaux de coût et d’indicateurs de coût pris en charge dans les API de coût de Windows 8.            |
+| [**\_coût de connexion NLM \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_cost)                        | spécifie un ensemble de niveaux de coût et d’indicateurs de coût pris en charge dans Windows 8 api de coût.            |
 | [**modification de la \_ propriété de connexion NLM \_ \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connection_property_change) | Définit les modifications apportées aux propriétés d’une connexion réseau.                            |
 | [**\_connectivité NLM**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_connectivity)                               | Fournit une notification chaque fois que des paramètres liés à la connectivité ont été modifiés.               |
 | [**\_type de domaine NLM \_**](/windows/desktop/api/Netlistmgr/ne-netlistmgr-nlm_domain_type)                                | Spécifie le type de domaine d’un réseau.                                                    |
@@ -29,11 +29,11 @@ Voici les énumérations NLM.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

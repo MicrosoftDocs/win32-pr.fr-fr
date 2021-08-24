@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc6981b71b6ec251eb27af0e7570fe1558d1ff20
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8dd71048e35e4308ea7377727a5be4040eeae1ef7973f1e1dabc893bcee3b157
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837429"
 ---
 # <a name="reps-from-attribute"></a>Attribut Reps-From
 
@@ -46,7 +46,7 @@ Répertorie les serveurs à partir desquels l’annuaire accepte les modificatio
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

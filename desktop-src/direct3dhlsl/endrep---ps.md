@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4d33e85f5e34c69509350dda29a7f6703a8b52ec
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3d053e177a9378357289113a591ac2c5d3de01f549ab31757451478354467b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119744199"
 ---
 # <a name="endrep---ps"></a>endrep-PS
 
@@ -29,9 +29,9 @@ Terminer une [REP-PS](rep---ps.md)... bloc endrep.
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -41,7 +41,7 @@ Terminer une [REP-PS](rep---ps.md)... bloc endrep.
 
 
 
- 
+ 
 
 ## <a name="example"></a>Exemple
 
@@ -61,9 +61,9 @@ endrep
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

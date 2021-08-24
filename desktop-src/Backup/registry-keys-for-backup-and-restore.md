@@ -18,16 +18,16 @@ keywords:
 - Sauvegarde SYSVOL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7058378561072bdc0f51abb455c098a22a9ad5e
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 6d825c6588242dccd5df16778de9c590e51b7cdbf6696be4f1a5e40ff2d967c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702189"
 ---
 # <a name="registry-keys-and-values-for-backup-and-restore"></a>Clés et valeurs de Registre pour la sauvegarde et la restauration
 
-Les applications qui demandent ou effectuent des opérations de sauvegarde et de restauration doivent utiliser les clés et valeurs de Registre suivantes pour communiquer entre elles ou avec des fonctionnalités telles que le [service VSS (VSS)](/windows/desktop/VSS/volume-shadow-copy-service-portal) et la sauvegarde Windows :
+les Applications qui demandent ou effectuent des opérations de sauvegarde et de restauration doivent utiliser les clés et valeurs de registre suivantes pour communiquer entre elles ou avec des fonctionnalités telles que le [Service VSS (VSS)](/windows/desktop/VSS/volume-shadow-copy-service-portal) et Sauvegarde Windows :
 
 -   [CustomPerformanceSettings](#customperformancesettings)
 -   [DisableMonitoring](#disablemonitoring)
@@ -48,17 +48,17 @@ Consultez [OverallPerformanceSetting et CustomPerformanceSettings](#overallperfo
 
 ## <a name="disablemonitoring"></a>DisableMonitoring
 
-Sur les plateformes clientes Windows à compter de Windows 7, les utilisateurs sont automatiquement invités à configurer la fonctionnalité sauvegarde Windows, si ce n’est déjà fait. Ces notifications s’affichent au démarrage de l’ordinateur, à partir de sept jours après l’installation du système d’exploitation. Elles s’affichent également lorsque l’utilisateur se connecte à un disque dur ; dans ce cas, les notifications s’affichent immédiatement.
+sur Windows plateformes clientes à partir de Windows 7, les utilisateurs sont automatiquement invités à configurer la fonctionnalité Sauvegarde Windows, si ce n’est déjà fait. Ces notifications s’affichent au démarrage de l’ordinateur, à partir de sept jours après l’installation du système d’exploitation. Elles s’affichent également lorsque l’utilisateur se connecte à un disque dur ; dans ce cas, les notifications s’affichent immédiatement.
 
 Les OEM et les développeurs d’applications de sauvegarde tierces peuvent utiliser la valeur de Registre **DisableMonitoring** pour désactiver ces notifications automatiques.
 
 Cette valeur n’existe pas par défaut. elle doit donc être créée sous la clé de Registre suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **WindowsBackup**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **WindowsBackup**
 
 La valeur de Registre **DisableMonitoring** a le type de données reg \_ DWORD et est interprétée comme suit :
 
--   Si les données de la valeur sont définies sur 1 et que les utilisateurs n’ont pas déjà configuré la fonctionnalité sauvegarde Windows, les notifications automatiques sont désactivées. Si une notification automatique est déjà présente dans le centre de maintenance, la définition de cette valeur de Registre entraîne la suppression de la notification à 10:00 le matin suivant.
+-   si les données de la valeur sont définies sur 1 et que les utilisateurs n’ont pas déjà configuré la fonctionnalité Sauvegarde Windows, les notifications automatiques sont désactivées. Si une notification automatique est déjà présente dans le centre de maintenance, la définition de cette valeur de Registre entraîne la suppression de la notification à 10:00 le matin suivant.
 -   Si la valeur n’existe pas, si ses données ne sont pas définies, ou si ses données sont définies à zéro, les notifications automatiques ne sont pas désactivées.
 
 **Windows Vista et Windows XP :** Cette valeur de Registre n’est pas prise en charge.
@@ -81,7 +81,7 @@ Le tableau suivant présente quelques entrées typiques.
 |----------------------------------------|-------------------------------------------------------------------------------------------|
 | Internet Explorer                      | Fichiers temporaires                                                                           |
 | Fichier d’échange de mémoire                       | \\Pagefile.sys                                                                            |
-| MS Distributed Transaction Coordinator | C : \\ Windows \\ system32 \\ MSDTC MSDTC \\ . LOG C : \\ \\ \\ suivi MSDtc Windows \\ system32 \\ dtctrace. log |
+| MS Distributed Transaction Coordinator | C : \\ Windows \\ system32 msdtc msdtc \\ \\ . log C : \\ Windows \\ system32 \\ \\ suivi MSDtc \\ dtctrace. log |
 | Cache Fichiers hors connexion                    | % Systemroot% \\ CSC \\ \* /s                                                                  |
 | Gestion de l'alimentation                       | \\hiberfil.sys                                                                            |
 | Stockage d’instance simple                | \\SIS Common Store \\ \* . \* /s                                                              |
@@ -92,11 +92,11 @@ Le tableau suivant présente quelques entrées typiques.
  
 
 > [!Note]  
-> En règle générale, les applications qui effectuent des sauvegardes au niveau du volume en copiant l’ensemble du volume au niveau du bloc, de sorte qu’il ne peut pas honorer la clé de Registre **FilesNotToBackup** au moment de la sauvegarde. Au lieu de cela, ils attendent jusqu’à l’heure de la restauration de supprimer les fichiers qui n’étaient pas sauvegardés. Dans la plupart des cas, il s’agit d’une stratégie raisonnable. Toutefois, dans le cas de fichiers de stockage d’instance unique, les fichiers de stockage Common SIS ne doivent pas être supprimés au moment de la restauration.
+> En règle générale, les applications qui effectuent des sauvegardes au niveau du volume en copiant l’ensemble du volume au niveau du bloc, de sorte qu’il ne peut pas honorer la clé de Registre **FilesNotToBackup** au moment de la sauvegarde. Au lieu de cela, ils attendent jusqu’à l’heure de la restauration de supprimer les fichiers qui n’étaient pas sauvegardés. Dans la plupart des cas, il s’agit d’une stratégie raisonnable. toutefois, dans le cas de fichiers Stockage d’Instance unique, les fichiers de stockage Common SIS ne doivent pas être supprimés au moment de la restauration.
 
  
 
-Pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server et l’utilitaire Windows Wbadmin honorent la clé de Registre **FilesNotToBackup** en supprimant les fichiers appropriés au moment de la restauration. La restauration du système et la sauvegarde de l’état du système n’honorent pas la clé de Registre **FilesNotToBackup** .
+pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server et l’utilitaire Windows Wbadmin honorent la clé de registre **FilesNotToBackup** en supprimant les fichiers appropriés au moment de la restauration. La restauration du système et la sauvegarde de l’état du système n’honorent pas la clé de Registre **FilesNotToBackup** .
 
 **Windows XP :** La restauration du système honore la clé de Registre **FilesNotToBackup** .
 
@@ -106,7 +106,7 @@ VSS prend en charge la clé de Registre **FilesNotToSnapshot** . Les application
 
 **Windows Server 2003 et Windows XP :** Cette clé de Registre n’est pas prise en charge.
 
-Pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server honore la clé de Registre **FilesNotToSnapshot** en supprimant les fichiers appropriés au moment de la restauration.
+pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server honore la clé de registre **FilesNotToSnapshot** en supprimant les fichiers appropriés au moment de la restauration.
 
 ## <a name="idletimeout"></a>IdleTimeout
 
@@ -114,7 +114,7 @@ La valeur de Registre **IdleTimeout** spécifie la durée, en secondes, pendant 
 
 Cette valeur de Registre se trouve sous la clé de Registre suivante :
 
-**HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** VSS des services de CurrentControlSet de système d’ordinateur local
+**HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** VSS des Services système de l’ordinateur LOCAL
 
 Si cette valeur de Registre n’existe pas :
 
@@ -138,7 +138,7 @@ La clé de Registre **KeysNotToRestore** spécifie les noms des sous-clés et de
 
 **Windows Server 2003 et Windows XP :** Vous devez respecter la clé de Registre **KeysNotToRestore** .
 
-Pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server honore la clé de Registre **KeysNotToRestore** en supprimant les fichiers appropriés au moment de la restauration.
+pour les sauvegardes de volumes au niveau du bloc, Sauvegarde Windows Server honore la clé de registre **KeysNotToRestore** en supprimant les fichiers appropriés au moment de la restauration.
 
 La sauvegarde de l’état du système honore la clé de Registre **KeysNotToRestore** .
 
@@ -164,7 +164,7 @@ Créez une valeur avec le nom **LastRestoreId** et tapez reg \_ sz. La valeur do
 
 Les autres applications qui doivent surveiller les restaurations de l’état du système doivent stocker les données de cette valeur de registre. Ces données peuvent être comparées aux données actuelles de la valeur de Registre **LastRestoreId** pour déterminer si une nouvelle restauration de l’état du système a été effectuée.
 
-**Windows Vista, Windows Server 2003 et Windows XP :** Cette valeur de Registre n’est pas prise en charge tant que Windows Vista avec Service Pack 1 (SP1) et Windows Server 2008 ne sont pas pris en charge.
+**Windows Vista, Windows Server 2003 et Windows XP :** cette valeur de registre n’est pas prise en charge tant que Windows Vista avec Service Pack 1 (SP1) et Windows Server 2008.
 
 ## <a name="maxshadowcopies"></a>MaxShadowCopies
 
@@ -172,7 +172,7 @@ La valeur de Registre **MaxShadowCopies** spécifie le nombre maximal de [*clich
 
 Si la valeur de Registre **MaxShadowCopies** n’existe pas, l’application de sauvegarde peut la créer sous la clé de Registre suivante :
 
-**HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** VSS des services de CurrentControlSet de système d’ordinateur local
+**HKEY \_ \_** \\  \\  \\  \\  \\ **Paramètres** VSS des Services système de l’ordinateur LOCAL
 
 Créez une valeur avec le nom **MaxShadowCopies** et tapez DWORD. Les données par défaut de cette valeur sont 64. La valeur minimale est 1. La valeur maximale est 512.
 
@@ -181,9 +181,9 @@ Créez une valeur avec le nom **MaxShadowCopies** et tapez DWORD. Les données p
 
  
 
-**Remarque**  Le paramètre **MaxShadowCopies** est pris en charge sur Windows Server 2003 ou version ultérieure.
+**Remarque**  le paramètre **MaxShadowCopies** est pris en charge sur Windows Server 2003 ou version ultérieure.
 
-**Windows Server 2003 :** Sur les serveurs de cluster, les données de la valeur de Registre **MaxShadowCopies** devront peut-être être définies sur un nombre inférieur. Pour plus d’informations, consultez « lorsque vous utilisez la Service VSS sur des ordinateurs Windows Server 2003 qui exécutent de nombreuses opérations d’e/s, les volumes de disque sont plus longs à mettre en ligne » dans la base de connaissances de l’aide et du support à l’adresse [https://support.microsoft.com/kb/945058](https://support.microsoft.com/kb/945058) .
+**Windows Server 2003 :** Sur les serveurs de cluster, les données de la valeur de Registre **MaxShadowCopies** devront peut-être être définies sur un nombre inférieur. pour plus d’informations, consultez « lorsque vous utilisez l’Service VSS sur des ordinateurs Windows Server 2003 qui exécutent de nombreuses opérations d’e/s, les volumes de disque sont plus longs à mettre en ligne » dans la Base de connaissances de l’aide et du Support à l’adresse [https://support.microsoft.com/kb/945058](https://support.microsoft.com/kb/945058) .
 
 **Windows XP :** Cette valeur de Registre n’est pas prise en charge.
 
@@ -209,17 +209,17 @@ Les clichés instantanés peuvent ne pas fonctionner correctement si la valeur d
 
 ## <a name="overallperformancesetting-and-customperformancesettings"></a>OverallPerformanceSetting et CustomPerformanceSettings
 
-Les valeurs de Registre **OverallPerformanceSetting** et **CustomPerformanceSettings** sont utilisées pour spécifier les paramètres de performances de sauvegarde Windows Server. Ces valeurs de Registre sont prises en charge uniquement sur les systèmes d’exploitation Windows Server.
+les valeurs de registre **OverallPerformanceSetting** et **CustomPerformanceSettings** sont utilisées pour spécifier les paramètres de performances de Sauvegarde Windows Server. ces valeurs de registre sont prises en charge uniquement sur les systèmes d’exploitation Windows server.
 
 **Windows Server 2003 :** Ces valeurs de registre ne sont pas prises en charge.
 
 Si ces valeurs de Registre n’existent pas, l’application de sauvegarde peut les créer sous la clé de Registre suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows**- \\  \\ **sauvegarde au niveau du bloc Windows** CurrentVersion
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Windows bloc de sauvegarde**
 
 Pour spécifier les paramètres de performances de tous les volumes, créez une valeur avec le nom **OverallPerformanceSetting** et tapez reg \_ DWORD. Les données de la valeur doivent être définies sur l’une des valeurs suivantes.
 
-| Value | Signification                                                                                                                                                                                                                                   |
+| Valeur | Signification                                                                                                                                                                                                                                   |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1     | Performances de sauvegarde normales (à l’aide de sauvegardes complètes). Ce paramètre correspond au paramètre de performances de sauvegarde normal décrit dans [optimisation des performances de sauvegarde et de serveur](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).            |
 | 2     | Performances de sauvegarde plus rapides (à l’aide de sauvegardes incrémentielles). Ce paramètre correspond au paramètre de performances de sauvegarde plus rapide décrit dans [optimisation des performances de sauvegarde et de serveur](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).     |

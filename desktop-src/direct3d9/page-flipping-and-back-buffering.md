@@ -4,12 +4,12 @@ ms.assetid: b6824962-c7cb-4e7f-8731-2971b0d9a2b0
 title: Mise en mémoire tampon de basculement et de page (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bffad581c5d4250c7f36980ba1f278a9f770912
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 134f1797300a838e453abf6811ae35b8f576e46c89ca0e929d2326b43ffea274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746929"
 ---
 # <a name="page-flipping-and-back-buffering-direct3d-9"></a>Mise en mémoire tampon de basculement et de page (Direct3D 9)
 

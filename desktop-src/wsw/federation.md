@@ -8,19 +8,19 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a02744c9c0a5358da35f4c31c20633c420fee9
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: b9a902eb9469ad75e8c3c5a283284a009af11bb59b42470c91c39b1f16f83c61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104559898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703653"
 ---
 # <a name="federation"></a>Fédération
 
 La Fédération permet à la délégation de l’autorité d’autorisation à d’autres membres d’un intersociété. Par exemple, considérez le problème d’entreprise suivant : la société de fabrication de pièces auto contoso Ltd souhaite autoriser les employés autorisés de son client Fabrikam Inc à accéder en toute sécurité au service Web de commande des pièces de contoso. Une solution de sécurité pour ce scénario est que contoso peut configurer un mécanisme d’approbation avec Fabrikam pour déléguer la décision d’autorisation d’accès à fabrikam. Ce processus peut fonctionner comme suit :
 
 -   Fabrikam, lorsqu’il devient partenaire de contoso, configure un accord de confiance avec contoso. L’objectif de cette étape est d’accepter le type de jeton de sécurité et le contenu qui représenteront l’autorisation de Fabrikam et sera acceptable pour contoso. Par exemple, il peut être décidé qu’un certificat X. 509 approuvé avec le nom de sujet « CN = Fabrikam Inc Supplier STS » doit signer un jeton SAML pour que ce SAML soit accepté par le service Web contoso. En outre, il peut être décidé que la revendication de sécurité dans le jeton SAML émis doit être « https://schemas.contoso.com/claims/lookup » (pour l’autorisation de recherche de pièce) ou « https://schemas.contoso.com/claims/order » (pour l’autorisation de classement de pièces).
--   Lorsqu’un employé Fabrikam utilise l’application de classement des pièces internes, il contacte d’abord un service d’émission de jeton de sécurité (STS) au sein de fabrikam. Cet employé est authentifié à l’aide du mécanisme de sécurité Fabrikam interne (par exemple, nom d’utilisateur/mot de passe du domaine Windows), son autorisation de commander des pièces est vérifiée et il émet un jeton SAML de courte durée contenant les revendications appropriées et signé par le certificat X. 509 choisi ci-dessus. L’application de classement des pièces contacte ensuite le service Contoso présentant le jeton SAML émis pour authentifier et effectuer la tâche de tri.
+-   Lorsqu’un employé Fabrikam utilise l’application de classement des pièces internes, il contacte d’abord un service d’émission de jeton de sécurité (STS) au sein de fabrikam. cet employé est authentifié à l’aide du mécanisme de sécurité Fabrikam interne (par exemple, Windows nom d’utilisateur/mot de passe du domaine), son autorisation de commander des pièces est vérifiée et il émet un jeton SAML de courte durée contenant les revendications appropriées et signé par le certificat X. 509 choisi ci-dessus. L’application de classement des pièces contacte ensuite le service Contoso présentant le jeton SAML émis pour authentifier et effectuer la tâche de tri.
 
 Ici, le STS Fabrikam agit comme le « tiers émetteur » et le service de parties contoso agit comme « partie de confiance ». ![Diagramme montrant un tiers émetteur et une partie de confiance dans une Fédération.](images/stsmodel.png)
 
@@ -45,7 +45,7 @@ Un scénario de Fédération peut impliquer plusieurs émission formant une cha�
 
 Ici, L’LiveID STS, STS1, STS2 et S constituent la chaîne de Fédération. Les émission dans une chaîne de Fédération peuvent exécuter différents rôles pour le scénario d’application globale. Parmi ces rôles fonctionnels STS, citons le fournisseur d’identité, le décideur d’autorisation, Anonymizer et Resource Manager.
 
-## <a name="sts-request-parameters-and-metadata-exchange"></a>Paramètres de demande STS et échange de métadonnées
+## <a name="sts-request-parameters-and-metadata-exchange"></a>Paramètres de demande STS et métadonnées Exchange
 
 Pour que le client réussisse un appel [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken) , il doit connaître les paramètres de cet appel (tels que le type de jeton et les types de revendication requis), les spécifications de la description de la [**sécurité**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description) du canal de demande au STS et l’adresse du [point de terminaison](endpoint-address.md) du STS. L’application cliente peut utiliser l’une des techniques suivantes pour déterminer ces informations :
 
@@ -58,7 +58,7 @@ Pour illustrer l’utilisation de MEX dynamique avec la Fédération, considére
 Ainsi, les étapes MEX dynamiques s’effectuent dans l’ordre 4, 3, 2, 1 pour créer la chaîne de Fédération et les étapes de demande et de présentation du jeton sont effectuées dans l’ordre 1, 2, 3, 4 pour dérouler la chaîne de Fédération.
 
 > [!Note]  
-> Windows 7 et Windows Server 2008 R2 : WWSAPI prend uniquement en charge [WS-Trust](https://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) et [WS-SecureConversation](https://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) comme défini par [Lightweight Web Services Security Profile (LWSSP)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Pour plus d’informations sur l’implémentation de Microsoft, consultez la section relative à la [syntaxe du message](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) de LWSSP.
+> Windows 7 et Windows Server 2008 R2 : WWSAPI prend uniquement en charge [ws-Trust](https://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) et [ws-SecureConversation](https://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) comme défini par [Lightweight Web Services Security profile (LWSSP)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Pour plus d’informations sur l’implémentation de Microsoft, consultez la section relative à la [syntaxe du message](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) de LWSSP.
 
  
 

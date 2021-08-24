@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 803250911d5180e9242f8043dcde25a9548ac34c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5db77d341b302004d65a99a09df539d51f8308da2cbbeed8bff51a57e1d78714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803819"
 ---
 # <a name="ms-ds-optional-feature-flags-attribute"></a>ms-DS-option-Feature-Flags (attribut)
 
@@ -36,7 +36,7 @@ Valeur entière qui contient des indicateurs qui définissent le comportement d�
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2063              |
 | System-ID-GUID    | 8a0560c1-97b9-4811-9db7-dc061598965b |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

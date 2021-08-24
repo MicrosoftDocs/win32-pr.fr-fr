@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 7110dbe6c24d1189019fb242621c7e3c01253264
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f598cbb1d7122bb8597d5849778a833462b4e6d9de48942fdfabbc95bbc30898
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106531247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119724549"
 ---
 # <a name="imfmediakeysessionget_sessionid-method"></a>IMFMediaKeySession :: obtient \_ SessionID, méthode
 
@@ -57,7 +57,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                      |
 | MIDL<br/>                      | <dl> <dt>Mfmediaengine. idl</dt> </dl> |
 
 

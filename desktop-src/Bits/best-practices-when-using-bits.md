@@ -4,12 +4,12 @@ description: Cette section contient des informations que vous devez prendre en c
 ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
 ms.topic: article
 ms.date: 7/12/2019
-ms.openlocfilehash: bbf69e75b99994eea3e8986d1be9920ff1a12bc5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbc11365cde74e092ae179c8b41562a16de9a6c36f0d85e51787a979c9332863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702089"
 ---
 # <a name="best-practices-when-using-bits"></a>Meilleures pratiques lors de l’utilisation de BITS
 
@@ -31,7 +31,7 @@ Si vous n’appelez pas la méthode [**Complete**](/windows/desktop/api/Bits/nf-
 
 À moins que le travail soit critique dans le temps ou que l’utilisateur attende activement, vous devez toujours utiliser une priorité d’arrière-plan. Toutefois, il peut arriver que vous souhaitiez passer de la priorité d’arrière-plan à la priorité de premier plan, par exemple lorsque le proxy ou le serveur ne prend pas en charge l’en-tête Content-Range, ou que le logiciel antivirus sur le client supprime la demande d’en-tête Range. Le passage à la priorité de premier plan fonctionne uniquement pour les fichiers dont la taille de fichier est inférieure à 2 Go. Pour obtenir un exemple, consultez l’implémentation de la méthode [**IBackgroundCopyCallback :: JobError**](/windows/desktop/api/Bits/nn-bits-ibackgroundcopycallback) . Notez également que si la tâche de premier plan est ensuite interrompue en raison d’une déconnexion du réseau ou de la fermeture de session de l’utilisateur, le travail échouera car le service BITS enverra une demande de plage pour tenter de redémarrer le transfert à partir de là où il s’était arrêté.
 
-À compter de Windows 8, vous devez configurer les travaux de téléchargement avec le **\_ \_ \_ \_ contenu dynamique de propriété de travail bits** et le premier niveau de **\_ \_ priorité \_ du travail BG** lorsque vous ciblez des serveurs qui ne répondent pas aux [exigences http pour les téléchargements bits](http-requirements-for-bits-downloads.md). Gardez à l’esprit que cela entraînera le redémarrage du téléchargement par BITS s’il est interrompu (par exemple, en raison de problèmes de connectivité ou de redémarrage du système).
+à partir de Windows 8, vous devez configurer les travaux de téléchargement avec le **\_ \_ \_ \_ contenu dynamique de propriété de travail BITS** et le premier niveau de **\_ \_ priorité \_ de travail BG** lorsque vous ciblez des serveurs qui ne répondent pas aux [exigences HTTP pour les téléchargements BITS](http-requirements-for-bits-downloads.md). Gardez à l’esprit que cela entraînera le redémarrage du téléchargement par BITS s’il est interrompu (par exemple, en raison de problèmes de connectivité ou de redémarrage du système).
 
 Pour plus d’informations sur les priorités disponibles et la façon dont le service BITS utilise le niveau de priorité pour planifier des travaux, consultez la page [**\_ \_ priorité du travail BG**](/windows/desktop/api/Bits/ne-bits-bg_job_priority).
 
@@ -63,7 +63,7 @@ Les paramètres de proxy d’Internet Explorer ne s’appliquent pas aux comptes
 
 Le service BITS ne reconnaît pas les paramètres de proxy qui sont définis à l’aide du fichier Proxycfg.exe.
 
-À compter de la mise à jour 2018 de Windows 10 octobre (10,0 ; Build 17763), BITS utilise la même commande de proxy que celle utilisée par WinHttp avec AUTOMATIC_PROXY. BITS utilise ce classement plus compatible lorsque BG_JOB_PROXY_USAGE_PRECONFIG est spécifié. BG_JOB_PROXY_USAGE_PRECONFIG est la valeur par défaut pour la spécification du proxy HTTP.
+à partir du Mise à jour d’octobre 2018 de Windows 10 (10,0 ; Build 17763), BITS utilise la même commande de proxy que celle utilisée par WinHttp avec AUTOMATIC_PROXY. BITS utilise ce classement plus compatible lorsque BG_JOB_PROXY_USAGE_PRECONFIG est spécifié. BG_JOB_PROXY_USAGE_PRECONFIG est la valeur par défaut pour la spécification du proxy HTTP.
 
 ## <a name="specifying-user-specific-settings-for-authenticating-proxies"></a>Spécification de paramètres spécifiques à l’utilisateur pour l’authentification des proxies
 
@@ -71,7 +71,7 @@ Si vous utilisez BITS dans un environnement qui requiert l’authentification du
 
 Pour plus d’informations sur le fonctionnement de l’authentification dans ce scénario, consultez [authentification.](authentication.md)
 
-## <a name="scalability"></a>Extensibilité
+## <a name="scalability"></a>Scalabilité
 
 Si plus de 100 travaux se trouvent dans la file d’attente, les performances peuvent commencer à diminuer en fonction de la composition du travail. BITS utilise le paramètre de stratégie [MaxJobsPerMachine](group-policies.md) pour imposer une limite inconditionnelle du nombre de travaux dans la file d’attente. Les applications doivent limiter le nombre de leurs travaux à environ 10, de sorte que plusieurs applications auront moins de chance de dépasser les indications 100-Job. En règle générale, une application avec un grand nombre de tâches à soumettre commence par envoyer 10 tâches, puis envoie l’une après l’autre, à la fin de chaque travail.
 
@@ -83,4 +83,4 @@ Les normes HTTP ont toujours dit que les en-têtes HTTP doivent être traités c
 
 ## <a name="avoiding-personally-identifiable-information-pii"></a>Éviter les informations d’identification personnelle (PII)
 
-Les tâches BITS, y compris le nom d’affichage et la description et les noms de fichiers, sont visibles par tous les utilisateurs disposant de privilèges d’administrateur. Ils peuvent également être ajoutés à la télémétrie Windows. Vous devez éviter de placer des données sensibles (telles que le nom de l’utilisateur) dans les détails du travail.
+Les tâches BITS, y compris le nom d’affichage et la description et les noms de fichiers, sont visibles par tous les utilisateurs disposant de privilèges d’administrateur. elles peuvent également être ajoutées à Windows la télémétrie. Vous devez éviter de placer des données sensibles (telles que le nom de l’utilisateur) dans les détails du travail.

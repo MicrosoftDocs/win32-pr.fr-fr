@@ -3,7 +3,7 @@ title: Élément ButtonTip
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | Élément ButtonTip
 ms.assetid: 93e5d0c8-8d2d-45c1-9d47-bbd0b6eb8b88
 keywords:
-- Élément ButtonTip lecteur Windows Media
+- élément ButtonTip Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ab94794232ade6f924b87fd3f4d73d4452d544
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb7fb4a162a8e77fea7548265825af6c6cbda75dbafadf05fe32cb664c4d563f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764299"
 ---
 # <a name="buttontip-element"></a>Élément ButtonTip
 
@@ -45,18 +45,18 @@ Cet élément n’a pas d’attributs.
 | Hierarchy       | Élément                                              |
 |-----------------|------------------------------------------------------|
 | Éléments parents | **ServiceTask1**, **ServiceTask2**, **ServiceTask3** |
-| Éléments enfants  | Aucune                                                 |
+| Éléments enfants  | None                                                 |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément est facultatif pour chaque instance de **ServiceTask1**, **ServiceTask2** ou **ServiceTask3**. Si cet élément n’est pas fourni, le lecteur Windows Media utilise le texte du bouton comme valeur par défaut.
+Cet élément est facultatif pour chaque instance de **ServiceTask1**, **ServiceTask2** ou **ServiceTask3**. si cet élément n’est pas fourni, Lecteur Windows Media utilise le texte du bouton comme valeur par défaut.
 
 > [!Note]  
-> Le lecteur Windows Media 10 comporte trois volets de tâches où un magasin en ligne peut afficher ses pages Web. Le magasin en ligne peut choisir d’utiliser un, deux ou les trois volets de tâches. Le lecteur Windows Media 11 n’a qu’un seul volet de tâches, que l’utilisateur peut afficher en cliquant sur l’onglet **magasins en ligne** . le lecteur Windows Media 11 ignore les éléments **ServiceTask2** et **ServiceTask3** .
+> Lecteur Windows Media 10 comporte trois volets de tâches où un magasin en ligne peut afficher ses pages web. Le magasin en ligne peut choisir d’utiliser un, deux ou les trois volets de tâches. Lecteur Windows Media 11 n’a qu’un seul volet de tâches, que l’utilisateur peut afficher en cliquant sur l’onglet **magasins en ligne** . Lecteur Windows Media 11 ignore les éléments **ServiceTask2** et **ServiceTask3** .
 
  
 

@@ -1,19 +1,19 @@
 ---
 title: Implémentation d’une interface utilisateur
-description: Cette section décrit certaines des tâches associées à l’implémentation d’une interface utilisateur pour une application Windows.
+description: cette section décrit certaines des tâches associées à l’implémentation d’une interface utilisateur pour une application Windows.
 ms.assetid: 889791a7-d12c-4ec6-9b04-8fed14ecdb2c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0941458e046a85dc6e27a684d8aa3a7ea609e889
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7967474781e180ab29a42fce6884cc391515eef0211107852659eace3490e712
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702339"
 ---
 # <a name="implementing-a-user-interface"></a>Implémentation d’une interface utilisateur
 
-Cette section décrit certaines des tâches associées à l’implémentation d’une interface utilisateur pour une application Windows.
+cette section décrit certaines des tâches associées à l’implémentation d’une interface utilisateur pour une application Windows.
 
 -   [Prototype](#prototype)
 -   [Composer](#construct)
@@ -33,7 +33,7 @@ Essayez de limiter cette étape à deux ou trois prototypes au maximum. Les prot
 
 Montrez les prototypes et suivez les commentaires des utilisateurs pour identifier les tendances d’utilisation générale. Si possible, ignorez les prototypes les moins réussis et incorporez autant de commentaires utiles que possible dans un ou plusieurs des prototypes restants. Répétez ce processus à mesure que le temps et les ressources le permettent.
 
-Différents outils de prototypage sont disponibles, dont [SketchFlow](/previous-versions/visualstudio/design-tools/expression-studio-3/ee341458(v=expression.30)) dans Microsoft Expression Studio 3, l’éditeur de disposition dans Microsoft Visual Studio, et même Microsoft Paint.
+différents outils de prototypage sont disponibles, dont [SketchFlow](/previous-versions/visualstudio/design-tools/expression-studio-3/ee341458(v=expression.30)) dans Microsoft Expression Studio 3, l’éditeur de disposition dans Microsoft Visual Studio et même Microsoft Paint.
 
 ## <a name="construct"></a>Construction
 
@@ -41,23 +41,23 @@ Lorsque vous implémentez l’interface utilisateur pour une application, tenez 
 
 -   Structure de commande
 
-    Déterminez s’il faut implémenter une structure de commande traditionnelle basée sur des menus et des barres d’outils, ou une autre structure de commande basée sur l’infrastructure de ruban Windows. Pour plus d’informations, consultez [menus](../menurc/menus.md), [barres d’outils](../controls/toolbar-control-reference.md)et [infrastructure de ruban Windows](../windowsribbon/-uiplat-windowsribbon-entry.md).
+    déterminez s’il faut implémenter une structure de commande traditionnelle basée sur des menus et des barres d’outils, ou une autre structure de commande basée sur l’infrastructure de ruban Windows. pour plus d’informations, consultez [Menus](../menurc/menus.md), [barres d’outils](../controls/toolbar-control-reference.md)et [Windows infrastructure du ruban](../windowsribbon/-uiplat-windowsribbon-entry.md).
 
--   Fenêtres et boîtes de dialogue
+-   Windows et boîtes de dialogue
 
-    En fonction de la conception de l’interface utilisateur et du travail de prototypage, implémentez les fenêtres d’application, notamment la fenêtre principale, les fenêtres enfants, les boîtes de dialogue et les boîtes de message. Suivez les instructions de l’expérience utilisateur pour déterminer les styles et les contrôles à utiliser dans les fenêtres et les boîtes de dialogue. Pour plus d’informations, consultez [fenêtres](../winmsg/windows.md), [boîtes de dialogue](../dlgbox/dialog-boxes.md)et [contrôles Windows](../controls/window-controls.md).
+    En fonction de la conception de l’interface utilisateur et du travail de prototypage, implémentez les fenêtres d’application, notamment la fenêtre principale, les fenêtres enfants, les boîtes de dialogue et les boîtes de message. Suivez les instructions de l’expérience utilisateur pour déterminer les styles et les contrôles à utiliser dans les fenêtres et les boîtes de dialogue. pour plus d’informations, consultez [Windows](../winmsg/windows.md), [boîtes de dialogue](../dlgbox/dialog-boxes.md)et [Windows contrôles](../controls/window-controls.md).
 
 -   Contrôles personnalisés
 
-    Créez de nouveaux contrôles personnalisés uniquement si vous ne pouvez pas obtenir les fonctionnalités souhaitées à partir de l’un des contrôles Windows standard. Les nouveaux contrôles personnalisés sont très coûteux à développer et nécessitent un travail supplémentaire pour les rendre accessibles. Si votre application nécessite des contrôles personnalisés, assurez-vous qu’ils sont correctement exposés aux technologies d’assistance. Pour plus d’informations, consultez [contrôles personnalisés](../controls/user-controls-intro.md) et [API Windows Automation](../winauto/windows-automation-api-portal.md).
+    créez de nouveaux contrôles personnalisés uniquement si vous ne pouvez pas obtenir les fonctionnalités souhaitées à partir de l’un des contrôles de Windows standard. Les nouveaux contrôles personnalisés sont très coûteux à développer et nécessitent un travail supplémentaire pour les rendre accessibles. Si votre application nécessite des contrôles personnalisés, assurez-vous qu’ils sont correctement exposés aux technologies d’assistance. pour plus d’informations, consultez [contrôles personnalisés](../controls/user-controls-intro.md) et [API d’automatisation de Windows](../winauto/windows-automation-api-portal.md).
 
 -   Prise en charge des périphériques d’entrée utilisateur standard
 
-    La plupart des applications Windows doivent prendre en charge les entrées d’utilisateur par le biais du clavier et de la souris. La possibilité de naviguer et d’accéder à toutes les fonctionnalités de l’application par le biais du clavier est particulièrement importante pour les utilisateurs qui sont malvoyants ou qui présentent des problèmes de mobilité. Pour plus d’informations, consultez [entrée d’utilisateur](../inputdev/user-input.md) et le [logiciel d’ingénierie pour l’ebook d’accessibilité](https://www.microsoft.com/download/details.aspx?id=19262).
+    la plupart des applications Windows ont besoin de prendre en charge l’entrée d’utilisateur via le clavier et la souris. La possibilité de naviguer et d’accéder à toutes les fonctionnalités de l’application par le biais du clavier est particulièrement importante pour les utilisateurs qui sont malvoyants ou qui présentent des problèmes de mobilité. Pour plus d’informations, consultez [entrée d’utilisateur](../inputdev/user-input.md) et le [logiciel d’ingénierie pour l’ebook d’accessibilité](https://www.microsoft.com/download/details.aspx?id=19262).
 
 -   Styles visuels, animations et effets visuels
 
-    Windows comprend plusieurs technologies que vous pouvez utiliser pour ajouter un intérêt visuel et définir l’interface utilisateur en dehors de celle d’autres applications. Cela inclut la spécification des styles visuels des contrôles, l’ajout d’animations aux éléments d’interface utilisateur et l’implémentation de divers effets visuels dans l’interface utilisateur. Pour plus d’informations, consultez [styles visuels](../controls/themes-overview.md), [Gestionnaire d’animations Windows](../uianimation/-main-portal.md)et [Gestionnaire de fenêtrage](../dwm/dwm-overview.md).
+    Windows comprend plusieurs technologies que vous pouvez utiliser pour ajouter un intérêt visuel et définir l’interface utilisateur en dehors de celle d’autres applications. Cela inclut la spécification des styles visuels des contrôles, l’ajout d’animations aux éléments d’interface utilisateur et l’implémentation de divers effets visuels dans l’interface utilisateur. pour plus d’informations, consultez [Styles visuels](../controls/themes-overview.md), [Windows gestionnaire d’animations](../uianimation/-main-portal.md)et [Gestionnaire de fenêtrage](../dwm/dwm-overview.md).
 
 ## <a name="simplify"></a>Simplifier 
 
@@ -107,6 +107,6 @@ Pour prendre cette décision, il est important de disposer de bonnes données su
 
 La conception consiste à choisir l’échec : l’optimisation pour une seule chose signifie l’échec d’une autre. La clé de la bonne conception de l’interface utilisateur est de pouvoir décider quelles caractéristiques de l’application sont les plus importantes et celles qui peuvent être coupées.
 
- 
+ 
 
- 
+ 

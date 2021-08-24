@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f7589a67b9a3b1454e3c65b17ad6f584ce0e655
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f1c200e96024075d0c2880b294c197938a5ec0a6f3e1da4cb019d5ecd3ed32b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802769"
 ---
 # <a name="inapsystemhealthvalidatorvalidate-method"></a>INapSystemHealthValidator :: Validate, méthode
 
@@ -91,7 +91,7 @@ Si un autre code d’erreur est retourné, le système suppose que l’échec de
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour permettre la prise en charge de la détection d’intrusion, les validateurs d’intégrité système seront invités à valider l’ordinateur client, que le client ait envoyé un [**SoHRequest**](/windows/win32/api/naptypes/ns-naptypes-soh) destiné à l’intégrité du système.
 
@@ -122,7 +122,7 @@ Le SHV ne doit pas contenir de références à la *demande* ou au *rappel* une f
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                    |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthValidator. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthValidator. idl</dt> </dl> |
 

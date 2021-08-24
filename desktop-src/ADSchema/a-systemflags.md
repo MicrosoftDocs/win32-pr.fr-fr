@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d34bf4286cbdadc84bf340eea3f6cbec741c7920
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: be3e72f4b787f808531ed70de9a9198e08e873c50833ba426e0f52dd2a0b0872
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704119"
 ---
 # <a name="system-flags-attribute"></a>Attribut System-Flags
 
@@ -36,7 +36,7 @@ Valeur entière qui contient des indicateurs qui définissent des propriétés s
 | Fréquence des mises à jour  | Chaque fois que l’état de l’objet change.      |
 | Attribute-Id      | 1.2.840.113556.1.4.375                         |
 | System-ID-GUID    | e0fa1e62-9b45-11d0-afdd-00c04fd930c9           |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)           |
+| Syntaxe            | [**Énumération**](s-enumeration.md)           |
 
 
 
@@ -46,7 +46,7 @@ Valeur entière qui contient des indicateurs qui définissent des propriétés s
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -197,7 +197,7 @@ Valeur entière qui contient des indicateurs qui définissent des propriétés s
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs des valeurs suivantes.
 
