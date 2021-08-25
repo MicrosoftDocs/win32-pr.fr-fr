@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101617
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e1c91845c383f2f154698641fe6a908f9eada93d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00bc011e28ee36a48ebf8be13dfc1bdbe585740d67b7c3e37ac9432e7305b59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104552723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973999"
 ---
 # <a name="esentdirtyshutdownexception-members"></a>Membres EsentDirtyShutdownException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

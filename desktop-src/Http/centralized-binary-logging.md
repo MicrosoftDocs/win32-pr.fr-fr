@@ -4,12 +4,12 @@ description: La journalisation binaire centralisée est un type de journalisatio
 ms.assetid: 957a7bc4-9db3-4153-b0a9-e53b3cc514c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64bc7bdc6f7a5fce78ff66e58b4c50eac36be3f9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c2006270a6bdb2b06748214bff6170b369de791456577caeb62a9abc4b625bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047569"
 ---
 # <a name="centralized-binary-logging"></a>Journalisation binaire centralisée
 
@@ -36,6 +36,6 @@ Le fichier journal brut n’est pas lisible par l’utilisateur et ne peut pas �
 
 Pour plus d’informations, consultez [journalisation centralisée des fichiers binaires](/previous-versions/windows/it-pro/windows-server-2003/cc758733(v=ws.10)) sur Microsoft TechNet.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message EM_LINESCROLL (winuser. h)
 description: Fait défiler le texte dans un contrôle d’édition multiligne.
 ms.assetid: 5398082d-f1ef-4a3a-9e5a-83cf286adbf1
 keywords:
-- EM_LINESCROLL les contrôles de message Windows
+- EM_LINESCROLL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 646e225ef269ccddca2cdc29caf635d94c1671e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6da4adbd789a8d9ae3344a1a49d39c7f5fbe22b7ec1ca51fcc6cead98ea7780
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048639"
 ---
 # <a name="em_linescroll-message"></a>\_Message LINESCROLL em
 
@@ -51,7 +51,7 @@ Si le message est envoyé à un contrôle d’édition multiligne, la valeur de 
 
 Si le message est envoyé à un contrôle d’édition sur une seule ligne, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle ne défile pas verticalement après la dernière ligne de texte dans le contrôle d’édition. Si la ligne actuelle plus le nombre de lignes spécifié par le paramètre *lParam* dépasse le nombre total de lignes dans le contrôle d’édition, la valeur est ajustée de sorte que la dernière ligne du contrôle d’édition soit défilante en haut de la fenêtre Modifier-contrôle.
 
@@ -65,8 +65,8 @@ Le contrôle ne défile pas verticalement après la dernière ligne de texte dan
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

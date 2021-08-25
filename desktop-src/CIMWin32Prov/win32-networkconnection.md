@@ -1,5 +1,5 @@
 ---
-description: Représente une connexion réseau active dans un environnement Windows.
+description: représente une connexion réseau active dans un environnement basé sur Windows.
 ms.assetid: e16e5f13-ea28-4d75-9978-4ff2ef5e5506
 ms.tgt_platform: multiple
 title: Classe Win32_NetworkConnection
@@ -31,16 +31,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96d91008ff8ad2f947e6c9957d16c4f007d15e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4a8c712e8eb373730d24841133264e312694d79b593e83e89a1fc7387e7a77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972629"
 ---
 # <a name="win32_networkconnection-class"></a>\_Classe NetworkConnection Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkConnection** WMI représente une connexion réseau active dans un environnement Windows.
+la [classe WMI](../wmisdk/retrieving-a-class.md) **\_ NetworkConnection** WMI représente une connexion réseau active dans un environnement basé sur Windows.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -281,7 +281,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| *lpComment*")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| *lpComment*")
 </dt> </dl>
 
 Commentaire fourni par le fournisseur réseau.
@@ -357,7 +357,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwScope**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwScope**")
 </dt> </dl>
 
 Type de persistance de la connexion utilisée pour la connexion au réseau.
@@ -407,7 +407,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwDisplayType**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwDisplayType**")
 </dt> </dl>
 
 L’objet réseau doit s’afficher dans une interface utilisateur de navigation réseau.
@@ -471,7 +471,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpLocalName**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpLocalName**")
 </dt> </dl>
 
 Nom local du périphérique réseau connecté.
@@ -489,7 +489,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**remplacement**](../wmisdk/standard-qualifiers.md) ("nom"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) (" \| structures réseau Windows win32api \| [](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)")
+qualificateurs : [**key**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures resource \| [](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig)")
 </dt> </dl>
 
 Nom de la connexion réseau actuelle. Il s’agit de la combinaison des valeurs dans **nom_distant** et **LocalName**.
@@ -507,7 +507,7 @@ Type de données : **booléen**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Windows Networking Functions \| [**WNetEnumResource**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)»)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows fonctions réseau \| [**WNetEnumResource**](/windows/win32/api/winnetwk/nf-winnetwk-wnetenumresourcea)")
 </dt> </dl>
 
 La connexion sera reconnectée automatiquement par le système d’exploitation lors de la prochaine ouverture de session.
@@ -523,7 +523,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpProvider**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpProvider**")
 </dt> </dl>
 
 Nom du fournisseur propriétaire de la ressource. Cette propriété peut avoir la **valeur null** si le nom du fournisseur est inconnu.
@@ -539,7 +539,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**")
 </dt> </dl>
 
 Nom de ressource réseau distant pour une ressource réseau. Pour une connexion active ou persistante, **nom_distant** contient le nom réseau associé au nom de la valeur dans la propriété **LocalName** . Le nom dans **nom_distant** doit respecter les conventions d’affectation de noms du fournisseur réseau.
@@ -557,7 +557,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **lpRemoteName**")
 </dt> </dl>
 
 Chemin d’accès complet à la ressource réseau.
@@ -575,7 +575,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Networking structures \| [**Resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwType**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows networking Structures network \| [**resource**](/windows/win32/api/rrascfg/nn-rrascfg-ieapproviderconfig) \| **dwType**")
 </dt> </dl>
 
 Type de ressource à énumérer ou à laquelle se connecter.
@@ -722,7 +722,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Windows Networking Functions \| [**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)»)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows fonctions réseau \| [**WNetGetUser**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetusera)")
 </dt> </dl>
 
 Nom d’utilisateur ou nom d’utilisateur par défaut utilisé pour établir une connexion réseau.
@@ -731,7 +731,7 @@ Exemple : « système »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ NetworkConnection** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

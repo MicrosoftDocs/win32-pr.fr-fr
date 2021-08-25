@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3c829690572d55ea700d51124b99370f23e755a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69688bb011fc8a75b0ec52effaef3afd7972fb7a198a4cdedf20c07a40c4fa7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054379"
 ---
 # <a name="crendererpospassthruregistermediatime-method-ctlutilh"></a>Méthode CRendererPosPassThru. RegisterMediaTime (Ctlutil. h)
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                                  | Description                                |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                         | Opération réussie.<br/>                        |
+| <dl> <dt>**\_OK**</dt> </dl>                         | Réussite.<br/>                        |
 | <dl> <dt>**\_heure du média VFW E \_ \_ \_ non \_ définie**</dt> </dl> | L’exemple n’est pas horodaté.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode stocke les horodatages de l’échantillon actuel. La méthode [**CRendererPosPassThru :: GetMediaTime**](crendererpospassthru-getmediatime.md) récupère les mêmes valeurs.
 
@@ -76,7 +76,7 @@ Le filtre doit appeler cette méthode pour chaque exemple qu’il reçoit. La m�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

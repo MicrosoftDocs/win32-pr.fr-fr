@@ -3,7 +3,7 @@ title: Message EM_GETIMESTATUS (winuser. h)
 description: Obtient un jeu d’indicateurs d’État qui indiquent comment le contrôle d’édition interagit avec l’éditeur de méthode d’entrée (IME).
 ms.assetid: 56705aed-afab-4f4d-9e0b-dc533b516a15
 keywords:
-- EM_GETIMESTATUS les contrôles de message Windows
+- EM_GETIMESTATUS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a9b449053972db8101db7f5c01d1a03611cae67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01a8251a62aa9cf48bcc6476af27e4c3a5dbbb82dd0ce76ca21ae094225a3e46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048989"
 ---
 # <a name="em_getimestatus-message"></a>\_Message GETIMESTATUS em
 
@@ -69,7 +69,7 @@ Données spécifiques au type d’État à récupérer. Avec la valeur de **\_ C
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Modification riche :** Le **message \_ GETIMESTATUS em** n’est pas pris en charge.
 
@@ -79,8 +79,8 @@ Données spécifiques au type d’État à récupérer. Avec la valeur de **\_ C
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

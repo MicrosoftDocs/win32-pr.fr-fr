@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e1642cbd5cbdef162511185e9d2c05e849d78486b82e8219623286f33e39223
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a53a2953ba7d77f1969a7d5dabef3c17437e8bbb
+ms.sourcegitcommit: 8d7ce0c4827f8a4fd501cc6487f1a8360e944577
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118504934"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122767603"
 ---
 # <a name="waveactivecountbits-function"></a>WaveActiveCountBits fonction)
 
@@ -48,7 +48,7 @@ Variables booléennes à évaluer. La fourniture d’une valeur booléenne True 
 
 ## <a name="return-value"></a>Valeur retournée
 
-Nombre dont la valeur est true sur tous les couloirs actifs de l’onde actuelle.
+Nombre de couloirs pour lesquels la variable booléenne prend la valeur true, sur tous les couloirs actifs de l’onde actuelle.
 
 ## <a name="remarks"></a>Remarques
 

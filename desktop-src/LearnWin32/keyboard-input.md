@@ -1,17 +1,17 @@
 ---
-title: Entrée au clavier (prise en main de Win32 et C++)
+title: entrée au clavier (Prise en main avec Win32 et C++)
 description: Entrée au clavier
 ms.assetid: FC682E8B-8360-4D58-AC42-4CEFD9CB750F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82065d4024428b48d4d3061da31a5384cab417d2
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: e3ed8ac1e8d7cd8e6ea35c9e9f58c10fd516cca010b5e5dce667817b32028c5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "106540913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822349"
 ---
-# <a name="keyboard-input-get-started-with-win32-and-c"></a>Entrée au clavier (prise en main de Win32 et C++)
+# <a name="keyboard-input-get-started-with-win32-and-c"></a>entrée au clavier (Prise en main avec Win32 et C++)
 
 Le clavier est utilisé pour plusieurs types d’entrée distincts, notamment :
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb425b08b524b1d36b622bcfffcc9f311dccbbdf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d334111c18c2c94c79a8b49ed7c0601efabb2bd13922a68c292970d4d2c379bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824069"
 ---
 # <a name="cimagedisplaycountsetbits-method"></a>Méthode CImageDisplay. CountSetBits
 
@@ -59,7 +59,7 @@ Retourne le nombre de bits définis sur 1.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

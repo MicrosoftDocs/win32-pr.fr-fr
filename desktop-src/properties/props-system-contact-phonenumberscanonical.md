@@ -4,12 +4,12 @@ ms.assetid: 253cde36-2100-4f6b-9b4e-a82ab083aca9
 title: System. contact. PhoneNumbersCanonical
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab00a369a464436767e4f6eab6a709772991cc6b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 83128f68d050d6c5ba2eaf5dd41d8d6f560a33abe6a8057c4974bfc239b69359
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108101297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823149"
 ---
 # <a name="systemcontactphonenumberscanonical"></a>System. contact. PhoneNumbersCanonical
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

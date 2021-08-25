@@ -3,10 +3,10 @@ title: Rotation Single-Finger
 description: Cette section explique comment faire pivoter un objet à l’aide d’un point pivot.
 ms.assetid: b9c19009-8ac0-4168-bf26-393280fc589f
 keywords:
-- Tactile Windows, rotation
-- Tactile Windows, manipulations
-- Tactile Windows, rotation à un seul doigt
-- Tactile Windows, rotation de point pivot
+- Windows Toucher, rotation
+- Windows Toucher, manipulations
+- Windows Rotation à un seul doigt
+- Windows Toucher, rotation de point pivot
 - manipulations, rotation
 - rotation, points pivot
 - rotation, à un seul doigt
@@ -14,12 +14,12 @@ keywords:
 - rotation à un seul doigt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93d74263f502749e2aaf942c4bbec5aa0a284e76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 36fe7e92f6d68515e1d13b39c32ee4af5b6b03e675479242210fe302b84e6395
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110647"
 ---
 # <a name="single-finger-rotation"></a>Rotation Single-Finger
 
@@ -65,7 +65,7 @@ Dans l’exemple précédent, la distance au bord de l’objet (mise à l’éch
 > [!Note]  
 > La valeur [**PivotRadius**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius) ne doit jamais être comprise entre 0,0 et 1,0.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -83,9 +83,9 @@ Dans l’exemple précédent, la distance au bord de l’objet (mise à l’éch
 [**PivotPointY**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: Énumérations Windows Defender
+title: Windows Defender Énumérations
 description: Énumérations utilisées par les applications lors de l’appel de pour demander des analyses, des mises à jour de signature ou des informations de Windows Defender.
 ms.assetid: AC84ED57-6221-4A19-8A1D-E4E2811B027E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02400576ddeccf7ffb79f6aeceafba725be78516
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a3b2f054d09a13e5e749f3a2b72b7adb1d5e8f52a664bac8e937c717031a32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114469"
 ---
-# <a name="windows-defender-enumerations"></a>Énumérations Windows Defender
+# <a name="windows-defender-enumerations"></a>Windows Defender Énumérations
 
 Énumérations utilisées par les applications lors de l’appel de pour demander des analyses, des mises à jour de signature ou des informations de Windows Defender.
 

@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a1dc5fd89ee589aabda5da5f97632d86b39f6beb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 64611f35e08d9b816d990602b43c62330431e8afb65874cee284fac5778a898d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971574"
 ---
 # <a name="win32_registry-class"></a>\_Classe de Registre Win32
 
@@ -94,7 +94,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \|NTDLL.DLL\| [**NtQuerySystemInformation**](/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation) \| SystemRegistryQuotaInformation"), [**unités**](../wmisdk/standard-qualifiers.md) (« mégaoctets »)
 </dt> </dl>
 
-Taille physique actuelle du Registre Windows.
+taille physique actuelle du registre de Windows.
 
 Exemple : 10
 
@@ -148,7 +148,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \| RegistrySizeLimit"), [**Units**](../wmisdk/standard-qualifiers.md) ("mégaoctets")
 </dt> </dl>
 
-Taille maximale du Registre Windows. Si le système réussit à utiliser la propriété **proposedSize** , **MaximumSize** doit contenir la même valeur.
+taille maximale du registre de Windows. Si le système réussit à utiliser la propriété **proposedSize** , **MaximumSize** doit contenir la même valeur.
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry")
 </dt> </dl>
 
-Nom du Registre Windows. La longueur maximale est de 256 caractères.
+nom du registre de Windows. La longueur maximale est de 256 caractères.
 
 </dd> <dt>
 
@@ -180,7 +180,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \| RegistrySizeLimit"), [**Units**](../wmisdk/standard-qualifiers.md) ("mégaoctets")
 </dt> </dl>
 
-Taille proposée du Registre Windows. C’est le seul paramètre de Registre qui peut être modifié et sa proposition est tentée lors du prochain démarrage du système.
+taille proposée du registre de Windows. C’est le seul paramètre de Registre qui peut être modifié et sa proposition est tentée lors du prochain démarrage du système.
 
 </dd> <dt>
 
@@ -292,7 +292,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ Registre Win32** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

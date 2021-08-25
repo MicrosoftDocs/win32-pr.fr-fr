@@ -3,7 +3,7 @@ title: Message EM_GETREDONAME (RichEdit. h)
 description: Récupère le type de l’action suivante, le cas échéant, dans la file d’attente de restauration par progression du contrôle RichEdit.
 ms.assetid: 8649236f-32dc-45d3-847e-c9f65ffba44c
 keywords:
-- EM_GETREDONAME les contrôles de message Windows
+- EM_GETREDONAME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ea44257344b9ebdb8ffe91ad97e939aae0db9b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9687ae54223ec7cc0f908d747eff2504216b79469b5f285863f8c8ffdfe91b3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048819"
 ---
 # <a name="em_getredoname-message"></a>\_Message GETREDONAME em
 
@@ -49,7 +49,7 @@ Si la file d’attente de restauration par progression pour le contrôle n’est
 
 S’il n’y a pas d’actions rétablies ou si le type de l’action retablie suivante est inconnu, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les types d’actions qui peuvent être annulés ou réexécutés incluent les opérations de frappe, de suppression, de glisser-déplacer, de couper et de coller. Ces informations peuvent être utiles pour les applications qui fournissent une interface utilisateur étendue pour les opérations d’annulation et de rétablissement, telles qu’une zone de liste déroulante d’actions rétablies.
 
@@ -59,8 +59,8 @@ Les types d’actions qui peuvent être annulés ou réexécutés incluent les o
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

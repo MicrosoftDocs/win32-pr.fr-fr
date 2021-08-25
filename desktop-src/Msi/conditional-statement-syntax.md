@@ -4,12 +4,12 @@ ms.assetid: 6f1657f9-063b-4d57-ad76-95e3dbe25786
 title: Syntaxe d’instruction conditionnelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0548a71756faff654bfe2b49e14c0581a6248a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dfea7ec31cecbe9c72dee9c660b0e6ee9d07cee2f1818941d036a781c104a93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077959"
 ---
 # <a name="conditional-statement-syntax"></a>Syntaxe d’instruction conditionnelle
 
@@ -23,7 +23,7 @@ Ce tableau et la liste suivante résument la syntaxe à utiliser dans les expres
 
 | Élément                | Syntaxe                                                                                                          |
 |---------------------|-----------------------------------------------------------------------------------------------------------------|
-| value               | \|entier littéral de symbole \|                                                                                    |
+| valeur               | \|entier littéral de symbole \|                                                                                    |
 | opérateur de comparaison | < \| > \| <= \| >= \| = \| <>                                                                 |
 | terme                | \|Comparaison de valeurs de valeur-valeur d’opérateur \| (expression)\|                                                    |
 | Facteur booléen      | terme \| **non** terme                                                                                            |
@@ -45,7 +45,7 @@ Ce tableau et la liste suivante résument la syntaxe à utiliser dans les expres
 
 -   Les valeurs de propriété inexistantes sont traitées comme des chaînes vides.
 -   Les valeurs numériques à virgule flottante ne sont pas prises en charge.
--   Les opérateurs et la priorité sont les mêmes que dans les langages de base et SQL.
+-   les opérateurs et la priorité sont les mêmes que dans les langages de base et SQL.
 -   Les opérateurs arithmétiques ne sont pas pris en charge.
 -   Les parenthèses peuvent être utilisées pour substituer la priorité des opérateurs.
 -   Les opérateurs ne respectent pas la casse.
@@ -162,7 +162,7 @@ Le tableau suivant indique les valeurs d’état des fonctionnalités et des com
 
 
 
-| State                    | Valeur | Signification                                                         |
+| État                    | Valeur | Signification                                                         |
 |--------------------------|-------|-----------------------------------------------------------------|
 | INSTALLSTATE \_ inconnu    | -1    | Aucune action à effectuer sur la fonctionnalité ou le composant.              |
 | INSTALLSTATE \_ publié | 1     | Fonctionnalité publiée. Cet État n’est pas disponible pour les composants. |
@@ -178,7 +178,7 @@ Par exemple, l’expression conditionnelle « &MyFeature = 3 » prend la valeu
 
 Notez que vous ne devez pas dépendre de la condition $Component 1 = 3 pour vérifier si Composant1 est installé localement sur l’ordinateur. Cela peut échouer si Composant1 est installé par plusieurs produits. Une fois Composant1 installé localement par product1, le programme d’installation évalue la condition $Component 1 = 3 comme false pendant l’installation de Product2. Cela est dû au fait que le programme d’installation détermine la version du composant à l’aide du chemin d’accès de clé du composant et marque le composant pour l’installation si sa version est supérieure ou égale au composant installé.
 
-Notez que le programme d’installation n’effectuera pas de comparaisons directes du type de données [version](version.md) dans les instructions conditionnelles. Par exemple, vous ne pouvez pas utiliser des opérateurs comparatifs pour comparer des versions telles que « 01,10 » et « 1,010 » dans une instruction conditionnelle. Utilisez plutôt une méthode valide pour rechercher une version, comme décrit dans [recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md), puis définir une propriété.
+Notez que le programme d’installation n’effectuera pas de comparaisons directes du type de données [version](version.md) dans les instructions conditionnelles. Par exemple, vous ne pouvez pas utiliser des opérateurs comparatifs pour comparer des versions telles que « 01,10 » et « 1,010 » dans une instruction conditionnelle. Au lieu de cela, utilisez une méthode valide pour rechercher une version, comme décrit dans [recherche d’applications, de fichiers, d’entrées de registre ou de .ini entrées de Registre existantes](searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md), puis définir une propriété.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

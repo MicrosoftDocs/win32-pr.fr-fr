@@ -4,12 +4,12 @@ ms.assetid: 4fbd4229-f7ac-33b3-b4b7-f09150a60598
 title: Rappels XAudio2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee191ad8c15d238a065c837c6fb192befbe7a51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3377bd029cc2e21971748eaca7309dd44390a5bd3420d772c45264dfdbd075c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054289"
 ---
 # <a name="xaudio2-callbacks"></a>Rappels XAudio2
 

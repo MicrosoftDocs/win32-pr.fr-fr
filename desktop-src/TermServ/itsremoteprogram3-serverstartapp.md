@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1822fa98094870ebebe607528cdc69a8a201f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e162f220c59f8dfaca1d1f5666fb691ca02b8f53b5fcfe0476bf188d55b25d6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106545757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072229"
 ---
 # <a name="itsremoteprogram3serverstartapp-method"></a>ITSRemoteProgram3 :: ServerStartApp, méthode
 
@@ -64,7 +64,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                            |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                         |
 | Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |

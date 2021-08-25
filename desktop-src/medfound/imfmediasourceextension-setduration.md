@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: ae669bf19f531034eacafac7fb89f3c07fa1e0e9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: caad66946514eec91d1cac1dc9745b0d07d1546e32c9548297f01e76b921c46f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106538262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061209"
 ---
 # <a name="imfmediasourceextensionsetduration-method"></a>IMFMediaSourceExtension :: SetDuration, méthode
 
@@ -57,7 +57,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                      |
 | MIDL<br/>                      | <dl> <dt>Mfmediaengine. idl</dt> </dl> |
 
 

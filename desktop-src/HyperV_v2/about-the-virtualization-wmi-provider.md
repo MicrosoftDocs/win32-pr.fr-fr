@@ -4,20 +4,20 @@ ms.assetid: 773BB141-7B9C-4015-81A0-BD17B8233CCD
 title: À propos du fournisseur WMI Hyper-V
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e70c30b329f7e8a3fd3ae65b49f8467a8f712707
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1868560e3c82c5f97fb1bedb3979c16328a042a7b9cedf3eaf1162e45f172794
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046949"
 ---
 # <a name="about-the-hyper-v-wmi-provider"></a>À propos du fournisseur WMI Hyper-V
 
 Le fournisseur WMI pour Hyper-V permet aux développeurs et aux scripteurs de créer rapidement des outils personnalisés, des utilitaires et des améliorations pour la plate-forme de virtualisation. Les interfaces WMI peuvent gérer tous les aspects des services Hyper-V.
 
-## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>À propos de Microsoft Windows Server 2008 R2 Hyper-V
+## <a name="about-microsoft-windows-server-2008-r2-hyper-v"></a>à propos de Microsoft Windows Server 2008 R2 Hyper-V
 
-Microsoft Windows Server 2008 R2 Hyper-V permet aux administrateurs système de consolider des serveurs matériels distincts sur un seul serveur exécutant Microsoft Windows Server 2008 R2 en tant que système d’exploitation hôte.
+microsoft Windows Server 2008 R2 Hyper-V permet aux administrateurs système de consolider des serveurs matériels distincts sur un seul serveur exécutant Microsoft Windows Server 2008 R2 en tant que système d’exploitation hôte.
 
 Chacun des ordinateurs virtuels hébergés s’exécute dans son propre environnement virtuel distinct et isolé. Cela permet à l’administrateur de gérer, de fournir et de gérer facilement un grand nombre d’ordinateurs virtuels tout en réduisant le besoin d’exécuter plusieurs solutions matérielles pour utiliser différents produits et systèmes d’exploitation.
 

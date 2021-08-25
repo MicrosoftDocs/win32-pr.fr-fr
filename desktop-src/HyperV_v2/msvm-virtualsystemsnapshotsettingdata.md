@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 32ab52da97e9fcc943c3a70548bb6b1a6d7994a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d112e4109ed6d0ab899aadf59f0e991f52259eaf2c514c6d9215b04a8cafcab8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046249"
 ---
 # <a name="msvm_virtualsystemsnapshotsettingdata-class"></a>MSVM \_ VirtualSystemSnapshotSettingData, classe
 
@@ -101,7 +101,7 @@ Type d'accès : Lecture seule
 Type de sauvegarde à utiliser au sein de l’invité.
 
 > [!Note]  
-> Propriété ajoutée dans Windows 10, version 1703
+> propriété ajoutée dans Windows 10, version 1703
 
  
 
@@ -149,7 +149,7 @@ Spécifie si des disques non snapshottable comme les disques relais et les disqu
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

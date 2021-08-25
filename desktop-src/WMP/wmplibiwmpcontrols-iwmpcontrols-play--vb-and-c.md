@@ -3,9 +3,9 @@ title: IWMPControls Play, méthode
 description: La méthode Play commence la lecture de l’élément multimédia en cours ou reprend la lecture d’un élément suspendu.
 ms.assetid: 02e00df6-4dc1-44bb-9826-e69e8298ccaa
 keywords:
-- Play, méthode lecteur Windows Media
-- Play, méthode lecteur Windows Media, interface IWMPControls
-- Interface IWMPControls lecteur Windows Media, méthode Play
+- play, méthode Lecteur Windows Media
+- play, méthode Lecteur Windows Media, IWMPControls, interface
+- Lecteur Windows Media de l’interface IWMPControls, méthode play
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fd87a2e2ba3d53b119df328fa68668c91c78d6d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2823c5f9846ec2569da0ede6629a4b7e8c04c7b61e14060451c8d0cf3a02f71d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761019"
 ---
 # <a name="iwmpcontrolsplay-method"></a>IWMPControls ::p, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette méthode est appelée pendant le transfert rapide ou le rembobinage, la vitesse de lecture (la valeur de **IWMPSettings. rate**) est définie sur 1,0.
 

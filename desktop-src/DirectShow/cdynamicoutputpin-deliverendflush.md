@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c8b6952ff50dc2266655c58bd5c2e1ed13105598
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4cdd7e26b0c08b154c6cffd08066e8ae841a6aa849db4751ffa0cdf252848719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055949"
 ---
 # <a name="cdynamicoutputpindeliverendflush-method"></a>Méthode CDynamicOutputPin. DeliverEndFlush
 
@@ -40,11 +40,11 @@ HRESULT DeliverEndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBaseOutputPin ::D eliverendflush**](cbaseoutputpin-deliverendflush.md) . Il réinitialise l’événement [**CDynamicOutputPin :: m \_ hStopEvent**](cdynamicoutputpin-m-hstopevent.md) .
 
@@ -54,7 +54,7 @@ Cette méthode remplace la méthode [**CBaseOutputPin ::D eliverendflush**](cba
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: Message LM_SETITEM (commctrl. h)
 description: Définit les États et les attributs d’un élément.
 ms.assetid: 02a68a31-2541-480e-b768-449d40e5e9e0
 keywords:
-- LM_SETITEM les contrôles de message Windows
+- LM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11888a76b11ccec7e8e659ca3a33bb23a71667ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8dccdb37536352c8783f7dd6af6a9475f5bea69111e2f7f09e5395b0ebf25b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062799"
 ---
 # <a name="lm_setitem-message"></a>\_Message LM SETITEM
 
@@ -39,7 +39,7 @@ Définit les États et les attributs d’un élément.
 
 Retourne la **valeur true** si le message parvient à la définition des valeurs et des attributs spécifiés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec le message [**LM \_ GETITEM**](lm-getitem.md) , les liens sont accessibles uniquement par le biais de l’index numérique renvoyé dans le membre **iLink** de [**litem**](/windows/win32/api/commctrl/ns-commctrl-litem). L’accès au lien via le nom d’ID renvoyé dans **szID** n’est pas pris en charge.
 
@@ -54,8 +54,8 @@ Avec le message [**LM \_ GETITEM**](lm-getitem.md) , les liens sont accessibles 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

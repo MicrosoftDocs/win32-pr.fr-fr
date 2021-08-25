@@ -3,7 +3,7 @@ title: Message EM_FORMATRANGE (RichEdit. h)
 description: Met en forme une plage de texte dans un contrôle RichEdit pour un appareil spécifique.
 ms.assetid: 6d1e562b-d741-4d4a-a395-554083cb0dbb
 keywords:
-- EM_FORMATRANGE les contrôles de message Windows
+- EM_FORMATRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f235fb054643623510ea23e73001aaeb070be3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 941aceb8c8f91657c7f78aba3d83a627fc413ed20d71217c933c6fba9b6f39e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049349"
 ---
 # <a name="em_formatrange-message"></a>\_Message FormatRange em
 
@@ -47,7 +47,7 @@ Structure [**FormatRange**](/windows/desktop/api/Richedit/ns-richedit-formatrang
 
 Ce message retourne l’index du dernier caractère qui tient dans la région, plus 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est généralement utilisé pour mettre en forme le contenu d’un contrôle RichEdit pour un périphérique de sortie tel qu’une imprimante.
 
@@ -59,8 +59,8 @@ Après avoir utilisé ce message pour mettre en forme une plage de texte, il est
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

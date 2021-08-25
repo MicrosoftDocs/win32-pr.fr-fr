@@ -3,7 +3,7 @@ title: CBN_SELENDOK le code de notification (winuser. h)
 description: Envoyé lorsque l’utilisateur sélectionne un élément de liste, ou sélectionne un élément, puis ferme la liste. Elle indique que la sélection de l’utilisateur doit être traitée. La fenêtre parente de la zone de liste déroulante reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: ef0ac46f-2db9-40d6-ba82-7e90d71fdd37
 keywords:
-- Contrôles Windows de code de notification CBN_SELENDOK
+- CBN_SELENDOK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0b04fcce0ec2b3f6a2bf5b5e04fa4110ad6ceb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57ad6b8a7d8449a646e7b95fd154fb219a9a8087593dcd432da27b9703ebfd28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053989"
 ---
 # <a name="cbn_selendok-notification-code"></a>\_Code de notification CBN SELENDOK
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans une zone de liste modifiable avec le style [**CBS \_ simple**](combo-box-styles.md) , le \_ Code de notification CBN SELENDOK est envoyé immédiatement avant chaque code de notification [CBN \_ selChange](cbn-selchange.md) .
 
@@ -63,8 +63,8 @@ Dans une zone de liste modifiable avec le style [**CBS \_ simple**](combo-box-st
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

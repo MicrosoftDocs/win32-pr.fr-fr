@@ -4,12 +4,12 @@ ms.assetid: E37BC087-796A-4AFB-9E30-9C09D35E12B1
 title: Structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6f27c31c08b4e5e80cd67b418600b16e17f618
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4eabe65948361f48dcb704688de576c79a85cbba52cb3b4bb544089b0b79ba1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758519"
 ---
 # <a name="structures"></a>Structures
 
@@ -17,7 +17,7 @@ ms.locfileid: "106519302"
 
 -   [**\_ \_ cookie d’inscription d’arrêt cloisonné \_**](/previous-versions//jj219262(v=vs.85))
 -   [**EventRegistrationToken**](/windows/win32/api/eventtoken/ns-eventtoken-eventregistrationtoken)
--   [**DateTime**](/windows/win32/api/windows.foundation/ns-windows-foundation-datetime)
+-   [**Date/heure**](/windows/win32/api/windows.foundation/ns-windows-foundation-datetime)
 -   [**\_en-tête HSTRING**](/windows/win32/api/hstring/ns-hstring-hstring_header)
 -   [**IRoSimpleMetaDataBuilder**](/windows/win32/api/roparameterizediid/ns-roparameterizediid-irosimplemetadatabuilder)
 -   [**IRoMetaDataLocator**](/windows/win32/api/roparameterizediid/ns-roparameterizediid-irometadatalocator)

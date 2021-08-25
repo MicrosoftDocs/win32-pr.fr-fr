@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment impl�
 ms.assetid: 37e54a0f-3d41-4f47-ba73-7f1bf6c365e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62a0b32ae60d6364ea6eac18fae991d1d600e61c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d7623a21681bdb1765d96d89e19b4089b59ab042865dbe5fdd39c37c635e432
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955739"
 ---
 # <a name="how-to-create-a-client-side-proxy-ui-automation-provider"></a>Comment créer un fournisseur UI Automation Client-Side (proxy)
 
@@ -72,7 +72,7 @@ HRESULT GetProxyTable()
 
 ## <a name="example-2-implementing-a-simple-proxy-for-button-controls"></a>Exemple 2 : implémentation d’un proxy simple pour les contrôles Button
 
-L’exemple de code suivant implémente un proxy simple pour les contrôles qui ont le nom de classe « Button » et ajoute une entrée pour le proxy à la table de fabrique proxy. Cet exemple utilise la boîte de dialogue police du bloc-notes pour illustrer le proxy.
+L’exemple de code suivant implémente un proxy simple pour les contrôles qui ont le nom de classe « Button » et ajoute une entrée pour le proxy à la table de fabrique proxy. cet exemple utilise la boîte de dialogue police de Bloc-notes pour illustrer le proxy.
 
 
 ```C++
@@ -375,9 +375,9 @@ cleanup:
 [Rubriques de procédures pour les fournisseurs UI Automation](uiauto-howto-topics-for-uiautomation-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

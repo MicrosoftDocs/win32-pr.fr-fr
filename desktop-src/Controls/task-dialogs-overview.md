@@ -4,12 +4,12 @@ description: Une boîte de dialogue de tâche est une boîte de dialogue qui peu
 ms.assetid: vs|controls|~\controls\toolbar\taskdialogsoverview.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb5cafa452a4ed653c404d053e888c6de644236
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f2367e3cadff68f10af9d883d4ed7959e4e862a6f406a83361ea2f40b2f69c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061425"
 ---
 # <a name="about-task-dialogs"></a>À propos des boîtes de dialogue de tâche
 
@@ -18,7 +18,7 @@ Une boîte de dialogue de tâche est une boîte de dialogue qui peut être utili
 > [!Note]  
 > Les boîtes de dialogue de tâches requièrent le modèle STA (Single-Threaded Apartment).
 
- 
+ 
 
 ## <a name="parts-of-a-task-dialog"></a>Parties d’une boîte de dialogue de tâches
 
@@ -51,11 +51,11 @@ Les illustrations montrent les éléments suivants :
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

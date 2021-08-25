@@ -4,12 +4,12 @@ ms.assetid: f1b3fc87-16ec-485b-b659-fc7d975c4a22
 title: EC_SHUTTING_DOWN (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 471b746df3980afd96bbfc122a164ccd30561846
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 917a8f79b1a5201e50d0fcf2761a99b2801f75601f95ef866902492fb36065f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079109"
 ---
 # <a name="ec_shutting_down"></a>arrêt de l’EC \_ \_
 
@@ -54,7 +54,7 @@ Cet événement n’est pas envoyé à l’application. Le gestionnaire de graph
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: Cet article explique comment vous pouvez implémenter un contrôle 
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 195d3272c4051adbafc25d910f01ac98ec036cead314c7f7b04301528508a494
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8cb5869579da97aeea465b572082a23a963e9db
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118396415"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471965"
 ---
 # <a name="using-an-input-method-editor-in-a-game"></a>Utilisation d’un éditeur de méthode d’entrée dans un jeu
 
@@ -274,48 +274,14 @@ Le IMM envoie un \_ \_ message de notification de l’IME WM à l’application 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Commande IME</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a></td>
-<td>Cet attribut contient des informations telles que l’état de chaque caractère dans la chaîne de composition (par exemple, converti ou non converti). Ces informations sont nécessaires, car CDXUTIMEEditBox colore les caractères de la chaîne de composition différemment en fonction de leurs attributs.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>  /  <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a></td>
-<td>Envoyé à l’application lorsque la fenêtre candidate est sur le lieu d’être ouverte ou mise à jour, respectivement. La fenêtre candidate s’ouvre lorsqu’un utilisateur souhaite modifier le texte converti. La fenêtre est mise à jour lorsqu’un utilisateur déplace l’indicateur de sélection ou modifie la page. CDXUTIMEEditBox utilise un gestionnaire de messages pour ces deux commandes, car les tâches requises sont exactement les mêmes :<br/>
-<ol>
-<li>CDXUTIMEEditBox définit le membre bShowWindow de la structure candidat List s_CandList sur TRUE pour indiquer que la fenêtre candidate doit être dessinée lors du rendu de frame.</li>
-<li>CDXUTIMEEditBox récupère la liste des candidats en appelant <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, d’abord pour obtenir la taille de mémoire tampon requise, puis de nouveau pour obtenir les données réelles.</li>
-<li>La structure de liste de candidats privée s_CandList est initialisée avec les données candidates récupérées.</li>
-<li>Les chaînes candidates sont stockées sous la forme d’un tableau de chaînes.</li>
-<li>L’index de l’entrée sélectionnée, ainsi que l’index de la page, sont enregistrés.</li>
-<li>CDXUTIMEEditBox vérifie si le style de la fenêtre candidate est vertical ou horizontal. Si le style de fenêtre est horizontal, une mémoire tampon de chaîne supplémentaire, le membre HoriCand de s_CandList, doivent être initialisées avec toutes les chaînes candidates, avec des espaces insérés entre toutes les chaînes adjacentes. Lors du rendu d’une fenêtre candidate verticale, les chaînes de candidats individuelles sont dessinées l’une après l’autre, avec les coordonnées y incrémentées pour chaque chaîne. Toutefois, cette chaîne HoriCand doit être utilisée lors du rendu d’une fenêtre candidate horizontale, car le caractère espace est la meilleure façon de séparer deux chaînes adjacentes sur la même ligne.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a></td>
-<td>Envoyé à l’application lorsqu’une fenêtre candidate est sur le moment de se fermer. Cela se produit lorsqu’un utilisateur a effectué une sélection à partir de la liste de candidats. CDXUTIMEEditBox gère cette commande en affectant à l’indicateur visible de la fenêtre candidate la valeur FALSe, puis en effaçant la mémoire tampon de la chaîne candidate.</td>
-</tr>
-<tr class="even">
-<td>IMN_PRIVATE</td>
-<td>Envoyé à l’application lorsque l’IME a mis à jour sa chaîne de lecture suite à la saisie ou à la suppression de caractères par l’utilisateur. L’application doit récupérer la chaîne de lecture et l’enregistrer pour le rendu. CDXUTIMEEditBox a deux méthodes pour récupérer la chaîne de lecture, en fonction de la façon dont les chaînes de lecture sont prises en charge dans l’IME : <br/>
-<ul>
-<li>Si l’IME prend en charge la fonction GetReadingString, GetReadingString est appelé pour extraire la chaîne de lecture.</li>
-<li>Si l’IME n’implémente pas GetReadingString, CDXUTIMEEditBox récupère la chaîne de lecture à partir du contenu du contexte d’entrée.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Commande IME | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/Intl/imn-setopenstatus">IMN_SETOPENSTATUS</a> | Cet attribut contient des informations telles que l’état de chaque caractère dans la chaîne de composition (par exemple, converti ou non converti). Ces informations sont nécessaires, car CDXUTIMEEditBox colore les caractères de la chaîne de composition différemment en fonction de leurs attributs. | 
+| <a href="/windows/desktop/Intl/imn-opencandidate">IMN_OPENCANDIDATE</a>  /  <a href="/windows/desktop/Intl/imn-changecandidate">IMN_CHANGECANDIDATE</a> | Envoyé à l’application lorsque la fenêtre candidate est sur le lieu d’être ouverte ou mise à jour, respectivement. La fenêtre candidate s’ouvre lorsqu’un utilisateur souhaite modifier le texte converti. La fenêtre est mise à jour lorsqu’un utilisateur déplace l’indicateur de sélection ou modifie la page. CDXUTIMEEditBox utilise un gestionnaire de messages pour ces deux commandes, car les tâches requises sont exactement les mêmes :<br /><ol><li>CDXUTIMEEditBox définit le membre bShowWindow de la structure candidat List s_CandList sur TRUE pour indiquer que la fenêtre candidate doit être dessinée lors du rendu de frame.</li><li>CDXUTIMEEditBox récupère la liste des candidats en appelant <a href="/windows/desktop/api/imm/nf-imm-immgetcandidatelista"><strong>ImmGetCandidateList</strong></a>, d’abord pour obtenir la taille de mémoire tampon requise, puis de nouveau pour obtenir les données réelles.</li><li>La structure de liste de candidats privée s_CandList est initialisée avec les données candidates récupérées.</li><li>Les chaînes candidates sont stockées sous la forme d’un tableau de chaînes.</li><li>L’index de l’entrée sélectionnée, ainsi que l’index de la page, sont enregistrés.</li><li>CDXUTIMEEditBox vérifie si le style de la fenêtre candidate est vertical ou horizontal. Si le style de fenêtre est horizontal, une mémoire tampon de chaîne supplémentaire, le membre HoriCand de s_CandList, doivent être initialisées avec toutes les chaînes candidates, avec des espaces insérés entre toutes les chaînes adjacentes. Lors du rendu d’une fenêtre candidate verticale, les chaînes de candidats individuelles sont dessinées l’une après l’autre, avec les coordonnées y incrémentées pour chaque chaîne. Toutefois, cette chaîne HoriCand doit être utilisée lors du rendu d’une fenêtre candidate horizontale, car le caractère espace est la meilleure façon de séparer deux chaînes adjacentes sur la même ligne.</li></ol> | 
+| <a href="/windows/desktop/Intl/imn-closecandidate">IMN_CLOSECANDIDATE</a> | Envoyé à l’application lorsqu’une fenêtre candidate est sur le moment de se fermer. Cela se produit lorsqu’un utilisateur a effectué une sélection à partir de la liste de candidats. CDXUTIMEEditBox gère cette commande en affectant à l’indicateur visible de la fenêtre candidate la valeur FALSe, puis en effaçant la mémoire tampon de la chaîne candidate. | 
+| IMN_PRIVATE | Envoyé à l’application lorsque l’IME a mis à jour sa chaîne de lecture suite à la saisie ou à la suppression de caractères par l’utilisateur. L’application doit récupérer la chaîne de lecture et l’enregistrer pour le rendu. CDXUTIMEEditBox a deux méthodes pour récupérer la chaîne de lecture, en fonction de la façon dont les chaînes de lecture sont prises en charge dans l’IME : <br /><ul><li>Si l’IME prend en charge la fonction GetReadingString, GetReadingString est appelé pour extraire la chaîne de lecture.</li><li>Si l’IME n’implémente pas GetReadingString, CDXUTIMEEditBox récupère la chaîne de lecture à partir du contenu du contexte d’entrée.</li></ul> | 
+
 
 
 
@@ -390,7 +356,7 @@ Si aucune condition n’est remplie, la fenêtre de lecture est verticale.
 
 
 
-| Système d'exploitation           | Version de l’IME CHT |
+| Système d’exploitation           | Version de l’IME CHT |
 |----------------------------|-----------------|
 | Windows 98                 | 4,2             |
 | Windows 2000               | 4.3             |
@@ -463,7 +429,7 @@ Obtient les informations de chaîne de lecture.
 
 </dd> </dl>
 
-**Valeurs renvoyées**
+**Valeurs retournées**
 
 Longueur de la chaîne de lecture.
 
@@ -473,7 +439,7 @@ Si la valeur de retour est supérieure à la valeur de uReadingBufLen, tous les 
 
 Cette fonction est implémentée dans l’IME CHT 6,0 ou version ultérieure et peut être acquise par GetProcAddress sur un handle de module IME. le descripteur du module IME peut être obtenu par ImmGetIMEFileName et LoadLibrary.
 
-**Requirements**
+**Configuration requise**
 
 <dl> <dt>
 
@@ -513,13 +479,13 @@ Affichez (ou masquez) la fenêtre de lecture.
 
 </dd> </dl>
 
-**Valeurs renvoyées**
+**Valeurs retournées**
 
 **Remarques**
 
 Retourne la valeur TRUE en cas de réussite ou FALSe dans le cas contraire.
 
-**Requirements**
+**Configuration requise**
 
 <dl> <dt>
 

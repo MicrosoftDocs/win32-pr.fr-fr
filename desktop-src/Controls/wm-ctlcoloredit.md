@@ -3,7 +3,7 @@ title: Message WM_CTLCOLOREDIT (winuser. h)
 description: Un contrôle d’édition qui n’est pas en lecture seule ou qui est désactivé envoie le \_ message WM CTLCOLOREDIT à sa fenêtre parente lorsque le contrôle va être dessiné.
 ms.assetid: 2294e3b8-00a7-43ef-b20a-fe0e46764055
 keywords:
-- WM_CTLCOLOREDIT les contrôles de message Windows
+- WM_CTLCOLOREDIT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e100367f37018424fad33dc7cea30700183a0a2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: da7f1fd27c51cabc699cf945fd4701c36d2e9709d1654de45859777333b9b4bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053899"
 ---
 # <a name="wm_ctlcoloredit-message"></a>\_Message WM CTLCOLOREDIT
 
@@ -57,7 +57,7 @@ Handle du contrôle d’édition.
 
 Si une application traite ce message, elle doit retourner le handle d’un pinceau. Le système utilise le pinceau pour peindre l’arrière-plan du contrôle d’édition.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application retourne un pinceau qu’elle a créée (par exemple, à l’aide de la fonction [**CreateSolidBrush**](/windows/desktop/api/wingdi/nf-wingdi-createsolidbrush) ou [**CreateBrushIndirect**](/windows/desktop/api/wingdi/nf-wingdi-createbrushindirect) ), l’application doit libérer le pinceau. Si l’application retourne un pinceau système (par exemple, un pinceau qui a été récupéré par la fonction [**GetStockObject**](/windows/desktop/api/wingdi/nf-wingdi-getstockobject) ou [**GetSysColorBrush**](/windows/desktop/api/winuser/nf-winuser-getsyscolorbrush) ), l’application n’a pas besoin de libérer le pinceau.
 
@@ -77,8 +77,8 @@ Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 
