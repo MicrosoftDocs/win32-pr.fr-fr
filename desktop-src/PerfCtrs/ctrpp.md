@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: eacfbb83abd56becc579c6b9bbaedacda96f94b4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8c55e9f3b95d99feabac92574a4be59dacb8ffd7f3b55be07c2bd8fec576da86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033929"
 ---
 # <a name="ctrpp"></a>CTRPP
 
@@ -38,9 +38,9 @@ ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback]
 |**-** *préfixe* préfixe|Spécifie le préfixe à utiliser pour les variables et les fonctions définies dans le fichier d’en-tête généré.
 |**-NotificationCallback**|Modifie la signature par défaut de la fonction [**CounterInitialize**](counterinitialize.md) pour inclure des paramètres pour la spécification du nom des fonctions de rappel [*ControlCallback*](/windows/desktop/api/Perflib/nc-perflib-perflibrequest), [*AllocateMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc)et [*FreeMemory*](/windows/desktop/api/Perflib/nc-perflib-perf_mem_free) . Cet argument a le même effet que l’inclusion `callback` de l’attribut dans l’élément [**Provider**](/windows/desktop/PerfCtrs/performance-counters-provider--counters--element) .
 |**-migrer** *outputfile*|Au lieu de générer et de créer des `.h` `.rc` fichiers, met à niveau le manifeste *FichierEntrée* vers la dernière version et l’enregistre dans *FichierSortie*. Ce commutateur ne peut pas être utilisé avec d’autres commutateurs. Utilisation : `CTRPP -migrate NewFile.man OldFile.man`
-|**-Incompatibilité**     |**Déconseillé :** La prise en charge des fournisseurs en mode noyau a été ajoutée dans Windows 7. Par défaut, le code généré par CTRPP pour les fournisseurs en mode noyau est incompatible avec les versions antérieures de Windows (le pilote ne peut pas se charger en raison d’API manquantes `Pcw***` ). Défini `-BackCompat` pour activer la compatibilité avec les versions antérieures de Windows. Le pilote chargera dynamiquement les API nécessaires et le code généré désactivera silencieusement le fournisseur si les API ne sont pas disponibles.
+|**-Incompatibilité**     |**Déconseillé :** la prise en charge des fournisseurs en mode noyau a été ajoutée dans Windows 7. par défaut, le code généré par CTRPP pour les fournisseurs en mode noyau est incompatible avec les versions antérieures de Windows (le pilote ne peut pas se charger en raison d’api manquantes `Pcw***` ). Défini `-BackCompat` pour activer la compatibilité avec les versions antérieures de Windows. Le pilote chargera dynamiquement les API nécessaires et le code généré désactivera silencieusement le fournisseur si les API ne sont pas disponibles.
 |**-MemoryRoutines** |**Déconseillé :** En cas d’utilisation avec le `-Legacy` commutateur, comprend des modèles pour les routines de mémoire dans le code généré. Sinon, cet argument a le même effet que le `-NotificationCallback` commutateur.
-|**-Hérité**         |**Déconseillé :** Génère `*.h` des `*.c` fichiers,, `*.rc` et `*_r.h` à l’aide des modèles de code Windows Vista (génère PerfAutoInitialize et PerfAutoCleanup au lieu de CounterInitialize et CounterCleanup). Ce commutateur peut être utilisé avec **-MemoryRoutines** et **-NotificationCallback** , mais il ne peut pas être utilisé avec d’autres commutateurs. N’utilisez pas les commutateurs **-o** ou **-RC** avec ce commutateur. Les fichiers générés sont nommés en fonction du nom du manifeste et sont écrits dans le répertoire qui contenait le manifeste. Utilisation : `CTRPP -legacy OldFile.man`
+|**-Hérité**         |**Déconseillé :** génère `*.h` des `*.c` fichiers,, `*.rc` et `*_r.h` à l’aide des modèles de code Windows Vista (génère PerfAutoInitialize et PerfAutoCleanup au lieu de CounterInitialize et CounterCleanup). Ce commutateur peut être utilisé avec **-MemoryRoutines** et **-NotificationCallback** , mais il ne peut pas être utilisé avec d’autres commutateurs. N’utilisez pas les commutateurs **-o** ou **-RC** avec ce commutateur. Les fichiers générés sont nommés en fonction du nom du manifeste et sont écrits dans le répertoire qui contenait le manifeste. Utilisation : `CTRPP -legacy OldFile.man`
 
 ## <a name="remarks"></a>Remarques
 
@@ -98,9 +98,9 @@ Dans les noms de fonction, ***prefix*** fait référence à la valeur du `-prefi
 
 Si le paramètre **-ch** est spécifié sur la ligne de commande, l’outil ctrpp génère un `.h` fichier de symboles. Ce fichier contient les symboles C/C++ pour les noms et les GUID de chaque CounterSet dans le fournisseur. Les symboles peuvent être utilisés lors de l’écriture de programmes codés en dur pour consommer les données de ce CounterSet à l’aide des [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
-| Condition requise             | Value |
+| Condition requise             | Valeur |
 |-------------------------|-------|
-| Client minimal pris en charge| Applications de \[ Bureau Windows Vista uniquement\]
-| Serveur minimal pris en charge| Applications de bureau Windows Server 2008 \[ uniquement\]
+| Client minimal pris en charge| Windows \[Applications de bureau Vista uniquement\]
+| Serveur minimal pris en charge| Windows Serveur 2008 \[ applications de bureau uniquement\]

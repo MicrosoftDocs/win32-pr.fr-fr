@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPLibraryServices (VB et C) (WMP. h)
+title: interface IWMPLibraryServices (VB et C) (Wmp. h)
 description: Fournit des méthodes pour énumérer des bibliothèques.
 ms.assetid: f2a72731-6e61-4f78-b0ca-ae907004eb7d
 keywords:
-- IWMPLibraryServices (VB et C) interface Windows Media Player
-- Interface IWMPLibraryServices (VB et C), le lecteur Windows Media, décrit
+- interface IWMPLibraryServices (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPLibraryServices (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,26 +15,26 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3493d5c94dcbd9db1e4f281a8fddfadbd2e336f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd3b0b2829355d60a8748ccc7f035a1656e403acb5e32d337033b29484ef2236
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901859"
 ---
-# <a name="iwmplibraryservices-vb-and-c-interface"></a>Interface IWMPLibraryServices (VB et C#)
+# <a name="iwmplibraryservices-vb-and-c-interface"></a>interface IWMPLibraryServices (VB et C#)
 
 Fournit des méthodes pour énumérer des bibliothèques.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPLibraryServices (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPLibraryServices (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPLibraryServices (VB et C#)** possède ces méthodes.
+l’interface **IWMPLibraryServices (VB et C#)** possède ces méthodes.
 
 
 
@@ -63,7 +63,7 @@ Obtient une interface **IWMPLibraryServices** en effectuant un cast de l’objet
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPLibrary (VB et C#)**](iwmplibrary--vb-and-c.md)

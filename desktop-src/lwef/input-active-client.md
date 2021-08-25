@@ -4,12 +4,12 @@ description: Client Input-Active
 ms.assetid: b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3223ddc7bb412b333d628f93cc56b27efd0abb7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9555b614a30e73df0cc7d1d81cd8192480d49261a32e8be8d164bdb277e4c0f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943959"
 ---
 # <a name="input-active-client"></a>Client Input-Active
 
@@ -23,9 +23,9 @@ Lorsqu’un caractère est masqué, le client de ce caractère n’est plus en e
 
 Si plusieurs clients partagent le même caractère, le serveur désigne son *client actif* en tant que client d’entrée-actif. Le caractère actif est le plus haut dans l’ordre du client. Vous pouvez définir votre client comme client actif ou non actif à l’aide de la méthode [**Activate**](activate-method.md) . Vous pouvez également utiliser la méthode **Activate** pour rendre votre client en entrée-active de manière explicite ; mais pour éviter d’interrompre les autres clients du personnage, vous devez le faire uniquement lorsque votre application cliente est active. Par exemple, si l’utilisateur clique sur la fenêtre de votre application, en activant votre application, vous pouvez appeler la méthode **Activate** pour recevoir et traiter l’entrée de la souris et de la parole dirigée vers le caractère.
 
- 
+ 
 
- 
+ 
 
 
 

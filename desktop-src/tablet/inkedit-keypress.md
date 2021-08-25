@@ -4,12 +4,12 @@ ms.assetid: 8284ab41-dfac-4da2-b101-6968a43b15d7
 title: Événement InkEdit. KeyPress (Y2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e49264f82b2cfe3c6998666339f08340a540791
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 713100edeae3ce6b950433afb73d13f40aefb291047e98984cbd6908dde3ce2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935098"
 ---
 # <a name="inkeditkeypress-event"></a>Événement InkEdit. KeyPress
 
@@ -41,7 +41,7 @@ Entier qui retourne un code de KeyANSI numérique standard. Le paramètre *char*
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode d’événement est définie dans l’interface **\_ IInkEditEvents** . L’interface **\_ IInkEditEvents** implémente l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ IeeKeyPress.
 
@@ -51,7 +51,7 @@ Cette méthode d’événement est définie dans l’interface **\_ IInkEditEven
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>« Y2. h » (nécessite également l' \_ entrée i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

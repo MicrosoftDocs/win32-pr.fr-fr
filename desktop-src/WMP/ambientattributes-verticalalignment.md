@@ -3,7 +3,7 @@ title: AmbientAttributes. verticalAlignment
 description: L’attribut verticalAlignment spécifie ou récupère une valeur indiquant le positionnement vertical du contrôle lorsque la vue ou la sous-vue parente est étirée.
 ms.assetid: 08ef483a-58ee-4a35-9973-2567076d07f7
 keywords:
-- Lecteur Windows Media AmbientAttributes. verticalAlignment
+- AmbientAttributes. verticalAlignment Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88de2f5f54b95b14827fabb2bafb89ff6974966b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a116a8883fe1d591f5c68050e4a5ab738a3cf913322ae7c671c71a507f2c924d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956389"
 ---
 # <a name="ambientattributesverticalalignment"></a>AmbientAttributes. verticalAlignment
 
@@ -44,7 +44,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À moins que **VerticalAlignment** ne soit défini sur « Center », le contrôle conserve sa distance d’origine à partir du bord spécifié, ou à partir des deux bords si « Stretch » est spécifié et que le contrôle est redimensionnable. Si le contrôle n’est pas redimensionnable et que « Stretch » est spécifié, la zone cliquable est étirée à la place.
 

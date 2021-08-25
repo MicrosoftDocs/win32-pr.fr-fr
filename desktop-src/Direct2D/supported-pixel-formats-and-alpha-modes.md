@@ -8,12 +8,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 9a3777cac7cc0a258002d1475fb7b1c6dd2546ca
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: d5b260741cae6aebb447a11692f03dad6e35498a19f33221aa77ac8a8507144a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104102537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917159"
 ---
 # <a name="supported-pixel-formats-and-alpha-modes"></a>Formats de pixel et modes alpha pris en charge
 
@@ -60,7 +60,7 @@ En plus de ce qui précède, un [**ID2D1ImageSource**](/windows/win32/api/d2d1_3
 
 
 
- 
+ 
 
 ## <a name="specifying-a-pixel-format-for-a-render-target"></a>Spécification d’un format de pixel pour une cible de rendu
 
@@ -113,7 +113,7 @@ Les formats pris en charge pour un [**ID2D1HwndRenderTarget**](/windows/win32/ap
 > [!Note]  
 > Nous vous recommandons d’utiliser le format [**dxgi \_ \_ B8G8R8A8 \_ UNORM**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) comme format de pixel pour de meilleures performances. Cela s’avère particulièrement utile pour les cibles de rendu logicielles. Les cibles au format BGRA sont plus performantes que les formats RVBA.
 
- 
+ 
 
 Lorsque vous créez un [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget), vous utilisez la structure de propriétés de la [**\_ cible de rendu \_ \_ d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties) pour spécifier les options de rendu. Les options incluent le format de pixel, comme indiqué dans la section précédente. Le champ type de cette structure vous permet de spécifier si la cible de rendu est rendue sur le matériel ou les logiciels, ou si Direct2D doit déterminer automatiquement le mode de rendu.
 
@@ -134,7 +134,7 @@ Le tableau suivant répertorie les formats pris en charge pour les objets [**ID2
 
 
 
- 
+ 
 
 Pour forcer une cible de rendu à utiliser le rendu matériel, utilisez le paramètre [**matériel du type de \_ cible de rendu \_ \_ \_ d2d1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) . Le tableau suivant répertorie les formats pris en charge pour les objets [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) qui utilisent explicitement le rendu matériel.
 
@@ -154,7 +154,7 @@ Pour forcer une cible de rendu à utiliser le rendu matériel, utilisez le param
 
 
 
- 
+ 
 
 Pour forcer une cible de rendu à utiliser le rendu logiciel, utilisez le paramètre [**logiciel du type de \_ cible de rendu \_ \_ \_ d2d1**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_render_target_type) . Le tableau suivant répertorie les formats pris en charge pour les objets [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) qui utilisent explicitement le rendu logiciel.
 
@@ -171,13 +171,13 @@ Pour forcer une cible de rendu à utiliser le rendu logiciel, utilisez le param�
 
 
 
- 
+ 
 
 Que le [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) soit ou non une accélération matérielle, le [format \_ dxgi \_ inconnu](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) utilise le [format \_ dxgi \_ B8G8R8A8](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) par défaut et le mode Alpha [**\_ \_ \_ Unknown du mode d2d1**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) utilise le **mode Alpha d2d1 \_ \_ \_ ignore** par défaut.
 
 ## <a name="supported-formats-for-id2d1devicecontext"></a>Formats pris en charge pour ID2D1DeviceContext
 
-À compter de Windows 8, le [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) tire parti d’un plus grand nombre de [**formats de haute couleur Direct3D**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) tels que :
+à partir de Windows 8 le [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) tire parti de plus de formats de [**haute couleur Direct3D**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) tels que :
 
 -   DXGI \_ format \_ B8G8R8A8 \_ UNORM \_ sRVB
 -   DXGI \_ format \_ R8G8B8A8 \_ UNORM \_ sRVB
@@ -187,7 +187,7 @@ Que le [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrend
 
 Utilisez la méthode [**ID2D1DeviceContext :: IsDxgiFormatSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported) pour voir si un format fonctionne sur un contexte de périphérique particulier. Ces formats peuvent également fonctionner sur un [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget).
 
-Ces formats s’ajoutent aux formats pris en charge par l’interface [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) dans Windows 7. Pour plus d’informations [, consultez contextes d’appareils et](devices-and-device-contexts.md) de périphériques.
+ces formats s’ajoutent aux formats pris en charge par l’interface [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) dans Windows 7. Pour plus d’informations [, consultez contextes d’appareils et](devices-and-device-contexts.md) de périphériques.
 
 ## <a name="supported-formats-for-compatible-render-target"></a>Formats pris en charge pour la cible de rendu compatible
 
@@ -203,7 +203,7 @@ Une cible de rendu compatible (un [**ID2D1BitmapRenderTarget**](/windows/win32/a
 
 
 
- 
+ 
 
 Le [format \_ \_ inconnu au format dxgi](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) utilise le format de cible de rendu parent par défaut et le mode Alpha [**d2d1 \_ \_ \_ inconnu en mode**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) alpha utilise le mode Alpha **d2d1 \_ \_ \_ prémultiplié** par défaut.
 
@@ -226,12 +226,12 @@ Une cible de rendu DXGI est un [**ID2D1RenderTarget**](/windows/win32/api/d2d1/n
 
 
 
- 
+ 
 
 > [!Note]  
 > Le format doit correspondre au format de la surface DXGI sur laquelle la cible de rendu de la surface DXGI dessine.
 
- 
+ 
 
 Le [format \_ \_ inconnu au format dxgi](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) utilise le format de surface DXGI par défaut. N’utilisez pas le mode Alpha [**d2d1 \_ \_ \_ inconnu en mode Alpha**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) avec une cible de rendu de surface DXGI. Elle n’a pas de valeur par défaut et entraîne l’échec de la création de la cible de rendu de la surface DXGI.
 
@@ -255,7 +255,7 @@ Une cible de rendu de bitmap WIC est un [**ID2D1RenderTarget**](/windows/win32/a
 
 
 
- 
+ 
 
 Le format de pixel de la cible de bitmap WIC doit correspondre au format de pixel de la bitmap WIC.
 
@@ -274,7 +274,7 @@ Un [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget
 
 
 
- 
+ 
 
 N’utilisez pas le [format \_ dxgi \_ inconnu](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) ou le mode [**alpha \_ \_ \_ inconnu d2d1 en mode Alpha**](/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode) avec un [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget). Elle n’a pas de valeur par défaut et entraîne l’échec de la création de **ID2D1DCRenderTarget** .
 
@@ -295,20 +295,20 @@ En règle générale, les objets [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2
 | \_format dxgi \_ inconnu                                       | D2D1 \_ \_ mode Alpha \_ prémultiplié |
 | \_format dxgi \_ inconnu                                       | D2D1 \_ \_ mode Alpha \_ ignore        |
 | \_format dxgi \_ inconnu                                       | \_Mode Alpha \_ d2d1 \_ inconnu       |
-| DXGI \_ format \_ B8G8R8X8 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement) | D2D1 \_ \_ mode Alpha \_ ignore        |
-| DXGI \_ format \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
-| DXGI \_ format \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
-| DXGI \_ format \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
-| DXGI \_ format \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
-| DXGI \_ format \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
-| DXGI \_ format \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
-| DXGI \_ format \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
-| DXGI \_ format \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
-| DXGI \_ format \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
+| DXGI \_ FORMAT \_ B8G8R8X8 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement) | D2D1 \_ \_ mode Alpha \_ ignore        |
+| DXGI \_ FORMAT \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
+| DXGI \_ FORMAT \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
+| DXGI \_ FORMAT \_ BC1 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
+| DXGI \_ FORMAT \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
+| DXGI \_ FORMAT \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
+| DXGI \_ FORMAT \_ BC2 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
+| DXGI \_ FORMAT \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ prémultiplié |
+| DXGI \_ FORMAT \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | D2D1 \_ \_ mode Alpha \_ ignore        |
+| DXGI \_ FORMAT \_ BC3 \_ UNORM (Windows 8.1 et versions ultérieures, uniquement)      | \_Mode Alpha \_ d2d1 \_ inconnu       |
 
 
 
- 
+ 
 
 Quand vous utilisez la méthode [**ID2D1RenderTarget :: CreateSharedBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap) , vous utilisez le champ **PixelFormat** d’une structure de [**\_ \_ Propriétés de bitmap d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_bitmap_properties) pour spécifier le format de pixel de la nouvelle cible de rendu. Il doit correspondre au format de pixel de la source [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) .
 
@@ -317,7 +317,7 @@ Quand vous utilisez la méthode [**CreateBitmapFromWicBitmap**](/windows/win32/a
 > [!Note]  
 > Pour plus d’informations sur la prise en charge des formats de pixel Compressed Block (BCn), consultez [Block compression](block-compression.md).
 
- 
+ 
 
 ### <a name="supported-wic-formats"></a>Formats WIC pris en charge
 
@@ -334,7 +334,7 @@ Lorsque vous utilisez la méthode [**CreateBitmapFromWicBitmap**](/windows/win32
 
 
 
- 
+ 
 
 Pour obtenir un exemple qui montre comment convertir une bitmap WIC en un format pris en charge, consultez [Comment charger une image bitmap à partir d’un fichier](how-to-load-a-direct2d-bitmap-from-a-file.md).
 
@@ -390,6 +390,6 @@ Vous pouvez utiliser la méthode [**SetTextAntialiasMode**](/windows/win32/api/d
 [\_format dxgi](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

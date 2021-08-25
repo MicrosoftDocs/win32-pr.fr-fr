@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 4cedd7c039212b7bae3e681d7e0d594d3e1b8de3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8c008a77e11bd7803dfb09ed2e6ddf1f57ed8695f2de33655239eb73ac49a248
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879029"
 ---
 # <a name="capicom_oid-enumeration"></a>CAPICOM OID ( \_ énumération)
 
@@ -35,7 +35,7 @@ Cette énumération est utilisée par l' [**OID. Propriété Name**](oid-name.md
 | **CAPICOM \_ OID \_ autre**                                       | L’objet n’est pas l’un des types d’objet CAPICOM prédéfinis.<br/>                                                                                                                                                                       | 0     |
 | **EXTENSION de l' \_ \_ identificateur de \_ clé \_ de l’autorité de l’OID \_ CAPICOM**       | L’objet est une extension de certificat qui contient l’identificateur de clé publique de l’autorité de certification.<br/>                                                                                                                  | 1     |
 | **\_extension des attributs de \_ clé CAPICOM OID \_ \_**                  | L’objet est une extension de certificat qui contient des attributs facultatifs d’une clé publique.<br/>                                                                                                                                            | 2     |
-| **EXTENSION de stratégies de certificat de l' \_ OID capicom \_ \_ \_ 95 \_**               | L’objet est une extension de certificat qui contient des informations de stratégie de certificat Windows 95.<br/>                                                                                                                                      | 3     |
+| **EXTENSION de stratégies de certificat de l' \_ OID capicom \_ \_ \_ 95 \_**               | l’objet est une extension de certificat qui contient des informations de stratégie de certificat Windows 95.<br/>                                                                                                                                      | 3     |
 | **EXTENSION de restriction d’utilisation de la \_ clé CAPICOM OID \_ \_ \_ \_**          | L’objet est une extension de certificat qui contient des restrictions sur l’utilisation de la clé publique d’un certificat.<br/>                                                                                                                          | 4     |
 | **\_ \_ \_ extension des \_ mappages de stratégies héritées de CAPICOM OID \_**         | L’objet est une extension de certificat qui contient des informations de mappage de stratégie héritées.<br/>                                                                                                                                              | 5     |
 | **EXTENSION de nom de remplacement de l' \_ objet CAPICOM OID \_ \_ \_ \_**               | L’objet est une extension de certificat qui contient un autre nom pour le sujet du certificat.<br/>                                                                                                                         | 6     |
@@ -72,10 +72,10 @@ Cette énumération est utilisée par l' [**OID. Propriété Name**](oid-name.md
 | **\_ \_ \_ \_ utilisation améliorée du chiffrement par le serveur CAPICOM OID \_**                  | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le [*chiffrement SGC (Server-Gated Cryptography*](../secgloss/s-gly.md) ).<br/> | 110   |
 | **\_utilisation améliorée de la \_ EKU du \_ système de fichiers de chiffrement OID \_ \_**               | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le [*système de fichiers EFS*](../secgloss/e-gly.md) (EFS).<br/>      | 111   |
 | **\_utilisation améliorée de la \_ récupération EFS de CAPICOM OID EFS \_ \_**                          | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour la récupération du système de fichiers EFS.<br/>                                                                                                                 | 112   |
-| **\_utilisation améliorée de la \_ \_ EKU de chiffrement de CAPICOM OID WHQL \_**                           | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement WHQL (Windows Hardware Quality Labs).<br/>                                                                                   | 113   |
-| **\_Utilisation améliorée de la \_ \_ EKU crypto \_ OID de CAPICOM**                            | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement windows Server 2003 et Windows XP.<br/>                                                                                     | 114   |
+| **\_utilisation améliorée de la \_ \_ EKU de chiffrement de CAPICOM OID WHQL \_**                           | l’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour Windows le chiffrement WHQL (Hardware Quality Labs).<br/>                                                                                   | 113   |
+| **\_Utilisation améliorée de la \_ \_ EKU crypto \_ OID de CAPICOM**                            | l’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement Windows Server 2003 et Windows XP.<br/>                                                                                     | 114   |
 | **utilisation améliorée de la version \_ \_ \_ améliorée du \_ chiffrement \_ de l’OID de CAPICOM OEM WHQL**                      | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement WHQL du fabricant d’ordinateurs OEM (Original Equipment Manufacturers).<br/>                                                                            | 115   |
-| **\_utilisation améliorée de la \_ EKU de \_ \_ chiffrement \_ NT par l’OID de CAPICOM**                    | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour le chiffrement Windows NT Embedded.<br/>                                                                                                    | 116   |
+| **\_utilisation améliorée de la \_ EKU de \_ \_ chiffrement \_ NT par l’OID de CAPICOM**                    | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour Windows le chiffrement NT Embedded.<br/>                                                                                                    | 116   |
 | **\_utilisation améliorée de la \_ liste racine du signataire de la liste racine CAPICOM OID \_ \_ \_**                     | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour signer une liste racine.<br/>                                                                                                                     | 117   |
 | **\_ \_ EKU de subordination qualifiée d’OID \_ CAPICOM \_**               | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour la subordination qualifiée.<br/>                                                                                                             | 118   |
 | **\_utilisation améliorée de la \_ clé de récupération de clé OID OID \_ \_**                          | L’objet est un objet [**EKU**](eku.md) qui spécifie que le certificat peut être utilisé pour la récupération de clé.<br/>                                                                                                                        | 119   |
@@ -94,7 +94,7 @@ Cette énumération est utilisée par l' [**OID. Propriété Name**](oid-name.md
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

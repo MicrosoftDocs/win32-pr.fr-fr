@@ -4,12 +4,12 @@ description: Vue d’ensemble de l’interface de programmation Microsoft Agent
 ms.assetid: 8709441b-9739-4f11-a2de-40a5f5eefb72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad89249e064eb89d37f497fb79cb8982c79cb83c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73e4dc087064afb0e3beaaf97d987e496239d3fd378461acaf5601927ac6d929
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887919"
 ---
 # <a name="microsoft-agent-programming-interface-overview"></a>Vue d’ensemble de l’interface de programmation Microsoft Agent
 
@@ -19,9 +19,9 @@ L’API Microsoft Agent fournit des services qui prennent en charge l’affichag
 
 En tant que serveur COM, Microsoft Agent démarre automatiquement uniquement lorsqu’une application cliente utilise les interfaces COM et les demandes pour s’y connecter. Il reste en cours d’exécution jusqu’à ce que tous les clients ferment leurs connexions. Quand aucun client connecté n’est conservé, Microsoft Agent se ferme automatiquement.
 
-Bien que vous puissiez appeler les interfaces COM de Microsoft agent directement, Microsoft Agent comprend également un contrôle Microsoft ActiveX. Ce contrôle facilite l’accès aux services de Microsoft Agent à partir de langages de programmation qui prennent en charge l’interface de contrôle ActiveX.
+bien que vous puissiez appeler les interfaces COM de microsoft agent directement, microsoft agent comprend également un contrôle microsoft ActiveX. ce contrôle facilite l’accès aux services de Microsoft Agent à partir de langages de programmation qui prennent en charge l’interface de contrôle ActiveX.
 
-Outre la prise en charge des programmes autonomes écrits pour Windows, l’agent peut être écrit pour prendre en charge les pages Web, à condition que le navigateur prenne en charge l’interface ActiveX. Microsoft Internet Explorer prend en charge ActiveX ainsi que les langages de script que vous pouvez utiliser pour programmer l’agent. Si vous n’utilisez pas Internet Explorer, contactez votre fournisseur ou fournisseur à propos de la prise en charge d’ActiveX par le navigateur.
+outre la prise en charge des programmes autonomes écrits pour Windows, l’Agent peut être écrit pour prendre en charge les pages web, à condition que le navigateur prenne en charge l’interface ActiveX. Microsoft Internet Explorer prend en charge les ActiveX, ainsi que les langages de script que vous pouvez utiliser pour programmer l’Agent. Si vous n’utilisez pas Internet Explorer, contactez votre fournisseur ou fournisseur à propos de la prise en charge de ActiveX par le navigateur.
 
 Les informations suivantes fournissent une brève vue d’ensemble des interfaces de programmation pour le logiciel Microsoft Agent.
 
@@ -30,9 +30,9 @@ Les informations suivantes fournissent une brève vue d’ensemble des interface
 -   [Fenêtre commandes vocales](the-voice-commands-window.md)
 -   [Services de sortie](output-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

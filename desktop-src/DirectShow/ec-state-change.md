@@ -4,12 +4,12 @@ ms.assetid: f77b4c06-46a5-4912-adb0-0fa8cb7769aa
 title: EC_STATE_CHANGE (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf64cc62ba15f77370e52821c3335f9a22f573d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2b476c923f0b812196a5697444433ea0be65b8d3f46bd0388261b2a67a66881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905729"
 ---
 # <a name="ec_state_change"></a>\_changement d’État EC \_
 
@@ -38,7 +38,7 @@ Zéro.
 Aucune action par défaut. L’événement n’est pas envoyé à l’application.
 
 > [!Note]  
-> Cet événement peut se produire lorsque le graphique s’arrête. Si vous remplacez l’action par défaut et que vous écoutez cet événement, vous devez veiller à ne pas traiter les événements après avoir libéré le gestionnaire du graphique de filtres. Dans le cas contraire, votre application peut référencer un pointeur [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) non valide et se bloquer. Pour plus d’informations, consultez [réponse aux événements](responding-to-events.md).
+> Cet événement peut se produire lorsque le graphique s’arrête. si vous remplacez l’action par défaut et que vous écoutez cet événement, vous devez veiller à ne pas traiter les événements après avoir libéré le filtre Graph Manager. Dans le cas contraire, votre application peut référencer un pointeur [**IMediaEvent**](/windows/desktop/api/Control/nn-control-imediaevent) non valide et se bloquer. Pour plus d’informations, consultez [réponse aux événements](responding-to-events.md).
 
  
 
@@ -59,7 +59,7 @@ Aucune action par défaut. L’événement n’est pas envoyé à l’applicatio
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 152ded28e6158fb80d8157c751026091afb51f65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d178532a77e01bc724276b40881685e0ec44d5364617fd856ffc55acfd99cf98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952351"
 ---
 # <a name="mrmcreateresourceindexerfrompreviouspridata-function"></a>MrmCreateResourceIndexerFromPreviousPriData fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Crée un indexeur de ressource à partir de données PRI créées par un appel précédent à [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). Pour plus d’informations et pour obtenir des procédures pas à pas sur l’utilisation de ces API, consultez [API PRI (package Resource Indexing) et systèmes de génération personnalisés](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
@@ -77,9 +77,9 @@ Liste des qualificateurs de ressources par défaut. Par exemple, L « language-
 *priData* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur vers les données PRI créées par un appel précédent à [_ *MrmCreateResourceFileInMemory* *](mrmcreateresourcefileinmemory.md). Ne libérez pas *priData* tant que vous n’avez pas fini d’utiliser l’indexeur de ressource créé par cette fonction.
+Pointeur vers les données PRI créées par un appel précédent à [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). Ne libérez pas *priData* tant que vous n’avez pas fini d’utiliser l’indexeur de ressource créé par cette fonction.
 
 </dd> <dt>
 
@@ -95,7 +95,7 @@ Taille des données vers lesquelles pointe *priData*.
 *indexeur* \[ in, out\]
 </dt> <dd>
 
-Tapez : **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md) \** _
+Type : **[ **MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
 Pointeur vers un handle d’indexeur de ressource.
 
@@ -103,11 +103,11 @@ Pointeur vers un handle d’indexeur de ressource.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 \_OK si la fonction a réussi, sinon une autre valeur. Utilisez les macros SUCCEEDED () ou FAILed () (définies dans Winerror. h) pour déterminer la réussite ou l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ne libérez pas *priData* tant que vous n’avez pas fini d’utiliser l’indexeur de ressource créé par cette fonction.
 
@@ -117,8 +117,8 @@ Ne libérez pas *priData* tant que vous n’avez pas fini d’utiliser l’index
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de \[ Bureau Windows Server uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows \[Applications de bureau serveur uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>MrmResourceIndexer. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Mrmsupport. lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

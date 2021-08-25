@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 30e231f5bab278cef87d7d20ffee9e29fdd68cea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0616c726a5eb39c01dd8a1508248328203ae605774741018616e1276daa5f9cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851629"
 ---
 # <a name="esentrecordnotdeletedexception-constructor"></a>Constructeur EsentRecordNotDeletedException
 

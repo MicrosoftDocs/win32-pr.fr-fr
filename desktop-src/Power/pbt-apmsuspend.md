@@ -4,12 +4,12 @@ ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
 title: Événement PBT_APMSUSPEND (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc6982e00565329c85e06765879b9b72b07fe6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebb3634765e6c0f863beb0c7a1c16af29cadae18ef14796e9ef01a0c8edec36a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961669"
 ---
 # <a name="pbt_apmsuspend-event"></a>\_Événement PBT APMSUSPEND
 
@@ -71,7 +71,7 @@ Réservé doit être égal à zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter cet événement en effectuant toutes les tâches nécessaires pour enregistrer les données.
 
@@ -83,8 +83,8 @@ Le système autorise environ deux secondes à ce que l’application gère cette
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |
 
 

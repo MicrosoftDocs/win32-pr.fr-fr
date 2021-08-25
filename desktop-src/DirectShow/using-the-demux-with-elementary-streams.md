@@ -1,17 +1,17 @@
 ---
-description: Utilisation de demux avec des flux élémentaires
+description: Utilisation de demux avec des Flux élémentaires
 ms.assetid: dd98aada-8309-428e-9609-2542195bc6ec
-title: Utilisation de demux avec des flux élémentaires
+title: Utilisation de demux avec des Flux élémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b9004d6c99db96405797016b0d9854c96dae92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dec805b4c93432c6532edaefac50e9bd15ad8fac5a7d9672fd358c66e57363fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964669"
 ---
-# <a name="using-the-demux-with-elementary-streams"></a>Utilisation de demux avec des flux élémentaires
+# <a name="using-the-demux-with-elementary-streams"></a>Utilisation de demux avec des Flux élémentaires
 
 Lorsque le demux MPEG-2 fournit des charges utiles PES, il envoie le flux ES octets dans des lots d’exemples de supports. La taille par défaut de l’échantillon est de 8 Ko. Le demux démarre un nouvel exemple de support sur chaque limite PES, mais peut décomposer une seule charge PES en plusieurs échantillons. Par exemple, si une charge utile PES est de 20 000, elle sera fournie dans deux échantillons de 8 Ko, suivis d’un échantillon de 4 Ko. Demux n’examine pas le contenu du flux d’octets. Il revient au décodeur d’analyser les en-têtes de séquence et de rechercher les modifications de format.
 

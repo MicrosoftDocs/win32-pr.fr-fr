@@ -3,7 +3,7 @@ title: Élément MiniToolbar
 description: Représente une barre d’outils contextuelle.
 ms.assetid: bb50890d-554a-4add-a583-d4fd48b823bf
 keywords:
-- Ruban des fenêtres d’élément MiniToolbar
+- élément MiniToolbar Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ceea8ba1a220674f177e740411bf98a13d7bfc2e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e47fee9fbf2b6b0bc95153fd512f6484129dc7f3edebd56e1d97664ecc2bbef0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881739"
 ---
 # <a name="minitoolbar-element"></a>Élément MiniToolbar
 
 Représente une barre d’outils contextuelle.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <MiniToolbar
@@ -65,7 +65,7 @@ Représente une barre d’outils contextuelle.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque [**ContextPopup. MiniToolbars**](windowsribbon-element-contextpopup-minitoolbars.md).
 
@@ -173,7 +173,7 @@ Cette section de code illustre un ensemble de déclarations de contrôle **MiniT
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

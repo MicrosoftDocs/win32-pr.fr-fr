@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b16dc8f3f591ba3aaf5ac9883cdd3a15c85146d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 315ef898a101b3a86fa5a3085e4a171edd8efa28972cf62c006cc0eb87e354b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913139"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_keytype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe KeyType de MicrosoftDNS
 
@@ -99,7 +99,7 @@ Durée, en secondes, pendant laquelle l’enregistrement de ressource peut être
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Indicateurs utilisés pour spécifier le mappage, comme décrit dans la norme IETF RFC 2535.

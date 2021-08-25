@@ -4,12 +4,12 @@ description: Les fonctions de gestion de réseau fournissent divers niveaux d’
 ms.assetid: dc126431-57b0-467b-9f56-1e66a647c7b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1aa6ec8d7fed30d38d25adc67974d8bad8ab1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd3161bb4d689b70f85f6c20c7c302779d0f685e8bcace43cffdee68b2cda2d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912499"
 ---
 # <a name="changing-elements-of-user-information"></a>Modification des éléments des informations utilisateur
 
@@ -157,7 +157,7 @@ else
 
 Le fragment de code suivant montre comment définir des indicateurs utilisateur avec un appel à la fonction [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . La [**rubrique \_ informations utilisateur \_ 1008**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1008) contient une liste de valeurs valides pour les indicateurs et une description de chaque indicateur.
 
-Notez que l' \_ indicateur de script UF doit être défini pour les réseaux Windows NT, windows 2000, Windows XP et LAN Manager. Si vous tentez de définir d’autres indicateurs sans définir \_ le script UF sur ces réseaux, la fonction [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) échouera.
+notez que l' \_ indicateur de SCRIPT UF doit être défini pour les réseaux Windows NT, Windows 2000, Windows XP et LAN Manager. Si vous tentez de définir d’autres indicateurs sans définir \_ le script UF sur ces réseaux, la fonction [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) échouera.
 
 
 ```C++
@@ -180,7 +180,7 @@ else
 
 ## <a name="setting-the-user-script-path-level-1009"></a>Définition du chemin d’accès au script utilisateur, niveau 1009
 
-Le fragment de code suivant montre comment définir le chemin d’accès pour le fichier de script d’ouverture de session d’un utilisateur particulier à l’aide d’un appel à la fonction [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . Le fichier de script peut être. Fichier CMD,. Fichier EXE ou. Fichier BAT. La chaîne peut également avoir la valeur null. La [**rubrique \_ informations utilisateur \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009) contient des informations supplémentaires.
+Le fragment de code suivant montre comment définir le chemin d’accès pour le fichier de script d’ouverture de session d’un utilisateur particulier à l’aide d’un appel à la fonction [**NetUserSetInfo**](/windows/desktop/api/Lmaccess/nf-lmaccess-netusersetinfo) . Le fichier de script peut être. Fichier CMD, fichier .EXE ou .BAT. La chaîne peut également avoir la valeur null. La [**rubrique \_ informations utilisateur \_ 1009**](/windows/desktop/api/Lmaccess/ns-lmaccess-user_info_1009) contient des informations supplémentaires.
 
 
 ```C++
@@ -247,6 +247,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d417e188c72914f871df4b46dede204f6633a8b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d8bba8812882ac9d239b49589f089e8ed47c5f2b05102113c1e3270eb82a37b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977808"
 ---
 # <a name="apijetretrievecolumn-method-jet_sesid-jet_tableid-jet_columnid-byte--int32-int32-retrievecolumngrbit-jet_retinfo"></a>Méthode API. JetRetrieveColumn (JET_SESID, JET_TABLEID, JET_COLUMNID, Byte, Int32, Int32, RetrieveColumnGrbit, JET_RETINFO)
 
@@ -138,7 +138,7 @@ public static JET_wrn JetRetrieveColumn(
 Type : [Microsoft.ISAM.esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 Code d’avertissement ESENT.  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions RetrieveColumnAs fournissent des fonctions de récupération spécifiques au type de données.
 

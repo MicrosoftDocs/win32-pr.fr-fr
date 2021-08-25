@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cba14f7eea6ba4c726edbd7faab134795746373b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c3a4d255d36b52781670f156df183da2426c03a301f2e1a1acb5e9b73426d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867709"
 ---
 # <a name="ui_animation_repeat_indefinitely_conclude_at_start"></a>L’animation d’IU se \_ \_ répète \_ indéfiniment \_ \_ au \_ début
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 524dc66c7f4ed1d413f264a91ae9385d458d632b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d19c80715ca04965927bb0a50450213d707beeb124fd671fd8071e2cdd90e3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901759"
 ---
 # <a name="networkbufferingcount"></a>Network. bufferingCount
 
@@ -33,7 +33,7 @@ La propriété **bufferingCount** récupère le nombre de fois que la mise en m�
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est définie sur zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -41,7 +41,7 @@ La mise en mémoire tampon s’applique uniquement au contenu de diffusion en co
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **bufferingCount** pour afficher le nombre de fois que la mise en mémoire tampon se produit pendant la lecture. Les informations sont affichées dans une balise DIV HTML créée avec ID = "CB". L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **bufferingCount** pour afficher le nombre de fois que la mise en mémoire tampon se produit pendant la lecture. Les informations sont affichées dans une balise DIV HTML créée avec ID = "CB". L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

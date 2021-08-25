@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: adc8811c11f67b9fc92628740bd15df2086948d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bcbdf4d930b2a67c56572a9788592b943748f6e41c30483728f3cc24732ffa18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897482"
 ---
 # <a name="swbemservicesdeleteasync-method"></a>SWbemServices. DeleteAsync, méthode
 
@@ -161,7 +161,7 @@ L’élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet appel est retourné immédiatement. L’état de l’opération de suppression est retourné à l’appelant via un rappel remis au récepteur spécifié dans *objWbemSink*. Vous pouvez effectuer le traitement final dans votre implémentation de *objWbemSink*. Événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

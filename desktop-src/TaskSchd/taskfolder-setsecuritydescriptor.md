@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0854ee6485007e1465dd0a264c908d67443f248
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8416e14a5415de86f8ad3f4a1181ce231ecfbdc875e36e9e3fd14014de8c4935
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033789"
 ---
 # <a name="taskfoldersetsecuritydescriptor-property"></a>TaskFolder. SetSecurityDescriptor, propriété
 
@@ -41,7 +41,7 @@ TaskFolder.SetSecurityDescriptor( _
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez spécifier la liste de contrôle d’accès (ACL) dans le descripteur de sécurité d’un dossier de tâches afin d’autoriser ou de refuser à certains utilisateurs et groupes l’accès à un dossier de tâches.
 
@@ -51,8 +51,8 @@ Vous pouvez spécifier la liste de contrôle d’accès (ACL) dans le descripteu
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

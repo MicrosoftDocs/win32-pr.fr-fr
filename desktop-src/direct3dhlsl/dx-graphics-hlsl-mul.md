@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a2e9fe545cb16f8ac1fef1935b9d7e97075521b6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e6362c734cbbf30defa8fed75f28c6f39397d75977488d9efc170d2647a9b3d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950359"
 ---
 # <a name="mul"></a>mul
 
@@ -59,40 +59,40 @@ Il existe 9 versions surchargées de cette fonction ; les versions surchargées
 | Version | Nom | Objectif | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md) | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille                                                                     |
 |---------|------|---------|---------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------|
 | 1       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | scalaire                                                        | float, int                                                     | 1                                                                        |
-|         | y    | in      | scalaire                                                        | identique à l’entrée x                                                | 1                                                                        |
+|         | x    | commencer      | scalaire                                                        | float, int                                                     | 1                                                                        |
+|         | y    | commencer      | scalaire                                                        | identique à l’entrée x                                                | 1                                                                        |
 |         | Av  | out     | scalaire                                                        | identique à l’entrée x                                                | 1                                                                        |
 | 2       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | scalaire                                                        | float, int                                                     | 1                                                                        |
-|         | y    | in      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | x    | commencer      | scalaire                                                        | float, int                                                     | 1                                                                        |
+|         | y    | commencer      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
 |         | Av  | out     | vecteur                                                        | float, int                                                     | la ou les mêmes dimensions comme entrée y                                             |
 | 3       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | scalaire                                                        | float, int                                                     | 1                                                                        |
-|         | y    | in      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | x    | commencer      | scalaire                                                        | float, int                                                     | 1                                                                        |
+|         | y    | commencer      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
 |         | Av  | out     | matrice                                                        | identique à l’entrée y                                                | la ou les mêmes dimensions comme entrée y                                             |
 | 4       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | scalaire                                                        | float, int                                                     | 1                                                                        |
+|         | x    | commencer      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | scalaire                                                        | float, int                                                     | 1                                                                        |
 |         | Av  | out     | vecteur                                                        | float, int                                                     | la ou les mêmes dimensions comme entrée x                                             |
 | 5       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | vecteur                                                        | float, int                                                     | la ou les mêmes dimensions comme entrée x                                             |
+|         | x    | commencer      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | vecteur                                                        | float, int                                                     | la ou les mêmes dimensions comme entrée x                                             |
 |         | Av  | out     | scalaire                                                        | float, int                                                     | 1                                                                        |
 | 6       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | matrice                                                        | float, int                                                     | Rows = la ou les mêmes dimensions en entrée x, Columns = any                       |
+|         | x    | commencer      | vecteur                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | matrice                                                        | float, int                                                     | Rows = la ou les mêmes dimensions en entrée x, Columns = any                       |
 |         | Av  | out     | vecteur                                                        | float, int                                                     | la ou les mêmes dimensions en tant que colonnes d’entrée y                                     |
 | 7       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | scalaire                                                        | float, int                                                     | 1                                                                        |
+|         | x    | commencer      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | scalaire                                                        | float, int                                                     | 1                                                                        |
 |         | Av  | out     | matrice                                                        | float, int                                                     | la ou les mêmes dimensions comme entrée x                                             |
 | 8       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | vecteur                                                        | float, int                                                     | nombre de colonnes dans l’entrée x                                             |
+|         | x    | commencer      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | vecteur                                                        | float, int                                                     | nombre de colonnes dans l’entrée x                                             |
 |         | Av  | out     | vecteur                                                        | float, int                                                     | nombre de lignes dans l’entrée x                                                |
 | 9       |      |         |                                                               |                                                                |                                                                          |
-|         | x    | in      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
-|         | y    | in      | matrice                                                        | float, int                                                     | lignes = nombre de colonnes dans l’entrée x                                      |
+|         | x    | commencer      | matrice                                                        | float, int                                                     | n'importe laquelle                                                                      |
+|         | y    | commencer      | matrice                                                        | float, int                                                     | lignes = nombre de colonnes dans l’entrée x                                      |
 |         | Av  | out     | matrice                                                        | float, int                                                     | Rows = nombre de lignes dans l’entrée x, Columns = nombre de colonnes dans l’entrée y |
 
 
@@ -105,9 +105,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | oui       |
 
 
 

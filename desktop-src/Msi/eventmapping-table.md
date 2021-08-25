@@ -1,19 +1,19 @@
 ---
-description: Le tableau EventMapping répertorie les contrôles qui s’abonnent à certains événements de contrôle, et répertorie l’attribut à modifier lorsque l’événement est publié par un autre contrôle ou le Windows Installer.
+description: le tableau EventMapping répertorie les contrôles qui s’abonnent à certains événements de contrôle, et répertorie l’attribut à modifier lorsque l’événement est publié par un autre contrôle ou le Windows Installer.
 ms.assetid: 63c9ba3e-aa8a-475b-8360-4aec78ed19db
 title: Table EventMapping
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6e9a7b5b4283b5d70102123dcb11e3e9e844221
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f17380e3e91669926ef50532c36fec71f44d61eb2ed7273d053defe45fa874e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963109"
 ---
 # <a name="eventmapping-table"></a>Table EventMapping
 
-Le tableau EventMapping répertorie les contrôles qui s’abonnent à certains événements de contrôle, et répertorie l’attribut à modifier lorsque l’événement est publié par un autre contrôle ou le Windows Installer.
+le tableau EventMapping répertorie les contrôles qui s’abonnent à certains événements de contrôle, et répertorie l’attribut à modifier lorsque l’événement est publié par un autre contrôle ou le Windows Installer.
 
 La table EventMapping contient les colonnes suivantes.
 
@@ -21,7 +21,7 @@ La table EventMapping contient les colonnes suivantes.
 
 | Colonne    | Type                         | Clé | Nullable |
 |-----------|------------------------------|-----|----------|
-| Dialogue\_  | [Identificateur](identifier.md) | O   | N        |
+| Boîte de dialogue\_  | [Identificateur](identifier.md) | O   | N        |
 | contrôle\_ | [Identificateur](identifier.md) | O   | N        |
 | Événement     | [Identificateur](identifier.md) | O   | N        |
 | Attribut | [Identificateur](identifier.md) | N   | N        |
@@ -62,7 +62,7 @@ Nom de l’attribut de contrôle \_ défini lors de la réception de l’événe
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La [table ControlEvent,](controlevent-table.md) spécifie les événements de contrôle qui sont démarrés lorsqu’un utilisateur interagit avec un contrôle de [bouton](pushbutton-control.md)de commande, un [contrôle de case à cocher](checkbox-control.md)ou un [contrôle SelectionTree](selectiontree-control.md). Il s’agit des seuls contrôles qu’un utilisateur peut utiliser pour initier des événements de contrôle.
 
@@ -70,7 +70,7 @@ Plus d’un contrôle sur une boîte de dialogue peut s’abonner au même évé
 
 La liste suivante identifie les utilisations typiques de la table EventMapping :
 
--   Pour abonner un [contrôle de texte](text-control.md) à un [ControlEvent, ActionText](actiontext-controlevent.md), [ActionData ControlEvent,](actiondata-controlevent.md), [ScriptInProgress controlevent,](scriptinprogress-controlevent.md) ou [TimeRemaining ControlEvent,](timeremaining-controlevent.md) publié par le Windows Installer.
+-   pour abonner un [contrôle de texte](text-control.md) à un [controlevent, ActionText](actiontext-controlevent.md), [ActionData controlevent,](actiondata-controlevent.md), [ScriptInProgress controlevent,](scriptinprogress-controlevent.md) ou [TimeRemaining controlevent,](timeremaining-controlevent.md) publié par le Windows Installer.
 -   Pour abonner un contrôle [ProgressBar](progressbar-control.md) ou un [contrôle Billboard](billboard-control.md) à un [ControlEvent, SetProgress](setprogress-controlevent.md).
 -   Pour abonner un [contrôle DirectoryCombo](directorycombo-control.md) à un [ControlEvent, IgnoreChange](ignorechange-controlevent.md).
 -   Pour désactiver automatiquement un [contrôle PUSHBUTTON](pushbutton-control.md) situé dans la même boîte de dialogue avec un [contrôle SelectionTree](selectiontree-control.md). Pour désactiver le bouton de commande lorsque aucune fonctionnalité n’est répertoriée dans le [contrôle SelectionTree](selectiontree-control.md), utilisez la table EventMapping pour abonner le contrôle PUSHBUTTON à un [ControlEvent, SelectionNoItems](selectionnoitems-controlevent.md). Entrez **Enable** dans le champ attributs de la table EventMapping.

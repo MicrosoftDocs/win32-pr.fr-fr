@@ -4,12 +4,12 @@ ms.assetid: 47735fa1-9d75-4c6b-b14c-6c7483f43a5d
 title: Distinguished Encoding Rules
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e12429c7c2185fc4910abd00e4641e7cd9d2f2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4d592fdfbb2532f5c718aadaaf32e63f352ed6ab427e9908465fcb5998839f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883069"
 ---
 # <a name="distinguished-encoding-rules"></a>Distinguished Encoding Rules
 
@@ -22,7 +22,7 @@ Le préfixe ASN. 1 (Abstract Syntax Notation One) définit les ensembles de règ
 
 L’ensemble de règles d’origine a été défini par la spécification BER. CER et DER ont été développés plus tard en tant que sous-ensembles spécialisés de BER. PAR a été développé en réponse à formulées sur la quantité de bande passante requise pour transmettre des données à l’aide de BER ou de ses variantes. PER fournit des économies substantielles.
 
-DER a été créé pour répondre aux exigences de la spécification X. 509 pour un transfert de données sécurisé. L’API d’inscription de certificats utilise DER exclusivement. Pour plus d'informations, consultez les rubriques ci-dessous.
+DER a été créé pour répondre aux exigences de la spécification X. 509 pour un transfert de données sécurisé. L’API d’inscription de certificats utilise DER exclusivement. Pour plus d’informations, voir les rubriques suivantes :
 
 -   [Syntaxe de transfert DER](about-der-transfer-syntax.md)
 -   [Codage DER des types ASN. 1](about-der-encoding-of-asn-1-types.md)

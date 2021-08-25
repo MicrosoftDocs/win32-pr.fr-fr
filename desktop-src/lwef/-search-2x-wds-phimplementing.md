@@ -4,17 +4,17 @@ description: La création d’un gestionnaire de protocole implique l’impléme
 ms.assetid: d4bcf370-4152-4cfd-a92e-eb9196d23ab4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c5a88ca5137b012431fff75bf5975a8b4820121
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 32e33a7ebf6d5f14d0ec4d78031e25b17d59bac5fb99ee7ea6d20046fbe95c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963489"
 ---
 # <a name="implementing-a-protocol-handler-for-wds"></a>Implémentation d’un gestionnaire de protocole pour WDS
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
 La création d’un gestionnaire de protocole implique l’implémentation de [**ISearchProtocol**](/windows/desktop/api/searchapi/nn-searchapi-isearchprotocol) pour gérer des objets UrlAccessor, [**IUrlAccessor**](/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) pour générer des métadonnées sur et pour identifier les filtres appropriés pour les éléments dans le magasin de données, IProtocolHandlerSite pour instancier un objet SearchProtocol et identifier les filtres appropriés, et [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)pour filtrer des fichiers propriétaires ou pour énumérer et filtrer des fichiers stockés de manière hiérarchique. Le gestionnaire de protocole doit être multithread.
 
@@ -29,7 +29,7 @@ Cette section contient les rubriques suivantes :
 
 ## <a name="note-on-urls"></a>Remarque sur les URL
 
-Microsoft Windows Desktop Search (WDS) utilise des URL pour identifier de manière unique les éléments dans un système de fichiers, à l’intérieur d’un magasin de base de données ou sur le Web. Une URL qui définit un nœud d’entrée est appelée page de démarrage ; WDS commence à cette page de démarrage et analyse de manière récursive le magasin de données. La structure d’URL standard est la suivante :
+Microsoft Windows Desktop Search (WDS) utilise des url pour identifier de manière unique les éléments dans un système de fichiers, à l’intérieur d’un magasin de base de données ou sur le Web. Une URL qui définit un nœud d’entrée est appelée page de démarrage ; WDS commence à cette page de démarrage et analyse de manière récursive le magasin de données. La structure d’URL standard est la suivante :
 
 `protocol://host/path/name.extension`
 
@@ -37,7 +37,7 @@ Microsoft Windows Desktop Search (WDS) utilise des URL pour identifier de maniè
 >
 > Lorsque vous souhaitez ajouter un nouveau magasin de données, vous devez sélectionner un nom pour l’identifier, qui n’est pas en conflit avec les nouveaux. Nous recommandons cette Convention d’affectation de noms : companyName. Scheme.
 
- 
+ 
 
 ## <a name="protocol-handler-interfaces"></a>Interfaces du gestionnaire de protocole
 
@@ -53,7 +53,7 @@ Pour une URL spécifiée, l’interface [**IUrlAccessor**](/windows/desktop/api/
 >
 > Les heures de modification des répertoires sont ignorées. L’objet [**IUrlAccessor**](/windows/desktop/api/searchapi/nn-searchapi-iurlaccessor) doit énumérer les objets enfants pour déterminer s’il y a eu des modifications ou des suppressions.
 
- 
+ 
 
 Une grande partie de la conception de l’objet **UrlAccessor** dépend de l’ordre hiérarchique ou basé sur les liens de la structure. Pour les magasins de données hiérarchiques, l’objet **UrlAccessor** doit trouver un filtre qui peut énumérer son contenu. Une autre différence entre les gestionnaires de protocoles hiérarchiques et basés sur les liaisons est l’utilisation de la méthode IsDirectory. Dans les gestionnaires de protocole basés sur des liens, cette méthode doit retourner S \_ false. Les gestionnaires de protocole hiérarchiques doivent retourner S \_ OK pour les conteneurs.
 
@@ -87,9 +87,9 @@ L’exemple de code suivant montre comment créer le PID \_ GTHR \_ DIRLINK appr
 >
 > **CE CODE ET CES INFORMATIONS SONT FOURNIS « EN L’ÉTAT », SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE ET/OU D’ADÉQUATION À UN USAGE PARTICULIER.**
 >
-> Copyright (C) Microsoft. Tous droits réservés.
+> Copyright (C) Microsoft. All rights reserved.
 
- 
+ 
 
 
 ```
@@ -156,7 +156,7 @@ HRESULT GetPropVariantForUrlAndTime(PCWSTR pszUrl, const FILETIME &ftLastModifie
 >
 > Un composant [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)container doit toujours énumérer toutes les URL enfants, même si les URL enfants n’ont pas changé, car l’indexeur détecte les suppressions via le processus d’énumération. Si la sortie de date dans un répertoire de \_ liens \_ avec \_ l’heure indique que les données n’ont pas changé, l’indexeur ne met pas à jour les données de cette URL.
 
- 
+ 
 
 L’URL physique est l’URL que l’objet **UrlAccessor** traite. Si le filtre n’émet pas de DisplayUrl convivial, WDS affiche l’URL physique à l’utilisateur dans le cadre des résultats de la recherche. Le schéma WDS contient deux propriétés pour contrôler ce qui est affiché à l’utilisateur final, comme indiqué dans le tableau ci-dessous.
 
@@ -169,7 +169,7 @@ L’URL physique est l’URL que l’objet **UrlAccessor** traite. Si le filtre 
 
 
 
- 
+ 
 
 Si votre code n’émet pas de DisplayFolder ou NomDossier, ces valeurs sont calculées à partir du DisplayUrl. Les barres obliques dans l’URL désignent des conteneurs dans le magasin ou le système de fichiers.
 
@@ -178,7 +178,7 @@ Si votre code n’émet pas de DisplayFolder ou NomDossier, ces valeurs sont cal
 Pour que votre gestionnaire de protocole ait une page de démarrage par défaut (et une URL de nœud d’entrée), vous devez implémenter l’interface **ISearchProtocolOptions** . Dans les versions ultérieures de WDS, cette interface fournit des raccordements à la boîte de dialogue Options pour une expérience utilisateur améliorée. Cette interface fournit les fonctionnalités suivantes :
 
 -   Détermine si les exigences de votre gestionnaire de protocole sont satisfaites. Par exemple, le magasin de votre gestionnaire de protocole peut nécessiter l’accès à une application donnée pour indexer correctement les données de l’application, mais cette application n’est pas disponible.
--   Identifie la configuration minimale requise pour que votre gestionnaire de protocole doive traiter un élément. Les spécifications peuvent être exprimées dans une description conviviale et localisée, telle que « Microsoft Outlook 2000 ou une version ultérieure ».
+-   Identifie la configuration minimale requise pour que votre gestionnaire de protocole doive traiter un élément. les spécifications peuvent être exprimées dans une description conviviale et localisée, telle que « Microsoft Outlook 2000 ou plus ».
 -   Définit les URL que votre gestionnaire de protocole doit traiter par défaut.
 
 ### <a name="isearchprotocoloptions"></a>ISearchProtocolOptions
@@ -195,7 +195,7 @@ Le tableau suivant décrit les méthodes que vous devez implémenter pour l’in
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -213,6 +213,6 @@ Le tableau suivant décrit les méthodes que vous devez implémenter pour l’in
 [Installation et inscription de gestionnaires de protocole](-search-2x-wds-ph-install-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,19 +4,19 @@ ms.assetid: d438ffae-fc50-454f-8ce4-2d6676500fff
 title: MFTs asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a16950cf431eff16f2befb382a77910c49ccb2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0cab2ef683ef22fd22a911c045a1a744f1c0d561b3e8e66d46ca2cf6c6f0ee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959519"
 ---
 # <a name="asynchronous-mfts"></a>MFTs asynchrone
 
 Cette rubrique décrit le traitement asynchrone des données pour les transformations de Media Foundation (MFTs).
 
 > [!Note]  
-> Cette rubrique s’applique à Windows 7 ou version ultérieure.
+> cette rubrique s’applique à Windows 7 ou version ultérieure.
 
  
 
@@ -37,15 +37,15 @@ Cette rubrique décrit le traitement asynchrone des données pour les transforma
 
 ## <a name="about-asynchronous-mfts"></a>À propos des MFTs asynchrones
 
-Lorsque MFTs a été introduit dans Windows Vista, l’API a été conçue pour le traitement *synchrone* des données. Dans ce modèle, la MFT est toujours en attente d’obtenir une entrée ou en attente de production.
+lorsque MFTs a été introduit dans Windows Vista, l’API a été conçue pour le traitement *synchrone* des données. Dans ce modèle, la MFT est toujours en attente d’obtenir une entrée ou en attente de production.
 
 Prenons l’exemple d’un décodeur vidéo classique. Pour obtenir un frame décodé, le client appelle [**IMFTransform ::P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput). Si le décodeur a suffisamment de données pour décoder un frame, **ProcessOutput** se bloque pendant que la MFT décode le frame. Sinon, **ProcessOutput** retourne **MF_E_TRANSFORM_NEED_MORE_INPUT**, indiquant que le client doit appeler [**IMFTransform ::P rocessinput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput).
 
 Ce modèle fonctionne bien si le décodeur effectue toutes les opérations de décodage sur un thread. Mais supposons que le décodeur utilise plusieurs threads pour décoder des frames en parallèle. Pour des performances optimales, le décodeur doit recevoir une nouvelle entrée chaque fois qu’un thread de décodage devient inactif. Mais la vitesse à laquelle les threads achèvent les opérations de décodage ne s’aligne pas exactement avec les appels du client à [**ProcessInput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processinput) et [**ProcessOutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput), ce qui entraîne l’attente du travail par les threads.
 
-Windows 7 introduit le traitement *asynchrone* piloté par les événements pour MFTS. Dans ce modèle, chaque fois que la MFT a besoin d’une entrée ou d’une sortie, elle envoie un événement au client.
+Windows 7 présente le traitement *asynchrone* piloté par les événements pour MFTs. Dans ce modèle, chaque fois que la MFT a besoin d’une entrée ou d’une sortie, elle envoie un événement au client.
 
-## <a name="general-requirements"></a>Conditions générales requises
+## <a name="general-requirements"></a>Exigences générales
 
 Cette rubrique décrit la façon dont les MFTs asynchrones diffèrent de la MFT synchrone. Sauf indication contraire dans cette rubrique, les deux modèles de traitement sont les mêmes. (En particulier, la négociation de format est la même.)
 

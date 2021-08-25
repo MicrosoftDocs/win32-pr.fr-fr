@@ -1,17 +1,17 @@
 ---
 description: Lorsque vous créez vos propres assemblys côte à côte, suivez les instructions pour créer des assemblys côte à côte et créer n’importe quelle DLL à inclure dans l’assembly conformément aux instructions de création d’une DLL pour un assembly côte à côte.
 ms.assetid: 0e98bbcd-7e23-4a33-b0fa-1f936d0ef96b
-title: Création d’un stockage d’État pour des assemblys côte à côte
+title: Stockage d’état de création pour les assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eee388cf680ee3a186a225ca7e3bde8b6eae625d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91dd3b3dc62726c45a03fd388864faa7f359112687f0c03fb133276eef2280ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885519"
 ---
-# <a name="authoring-state-storage-for-side-by-side-assemblies"></a>Création d’un stockage d’État pour des assemblys côte à côte
+# <a name="authoring-state-storage-for-side-by-side-assemblies"></a>Stockage d’état de création pour les assemblys côte à côte
 
 Lorsque vous créez vos propres assemblys côte à côte, suivez les [instructions pour créer des assemblys côte à côte](guidelines-for-creating-side-by-side-assemblies.md) et créer n’importe quelle dll à inclure dans l’assembly conformément aux instructions de [création d’une dll pour un assembly côte à côte](authoring-a-dll-for-a-side-by-side-assembly.md).
 

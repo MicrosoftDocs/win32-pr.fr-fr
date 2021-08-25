@@ -4,23 +4,23 @@ ms.assetid: 13b5bc92-583d-4031-94f9-f84dbfbf7ee7
 title: Génération et test d’une DLL GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e6e4a00f15e6ced4827bbc3efeb3c459f5d6a8
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 31df8597ca9ad78b8c94efb5610e3c899f7834cb14c9112b15a410c72705a0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883529"
 ---
 # <a name="building-and-testing-a-gina-dll"></a>Génération et test d’une DLL GINA
 
 Toutes les fonctions, prototypes, structures et constantes sont définis dans le fichier d’en-tête Winwlx. h.
 
 > [!Note]  
-> Les DLL GINA sont ignorées dans Windows Vista.
+> les dll GINA sont ignorées dans Windows Vista.
 
  
 
-Pour tester une dll [*Gina*](/windows/desktop/SecGloss/g-gly) , utilisez le Winlogon.exe à partir d’une version vérifiée du système d’exploitation, qui est disponible avec le kit de développement de pilotes (DDK) Microsoft Windows. La version vérifiée de [*Winlogon*](/windows/desktop/SecGloss/w-gly) prend en charge le débogage de Ginas comme suit :
+pour tester une DLL [*GINA*](/windows/desktop/SecGloss/g-gly) , utilisez le Winlogon.exe à partir d’une version vérifiée du système d’exploitation, qui est disponible avec le kit de développement de pilotes (DDK) de Microsoft Windows. La version vérifiée de [*Winlogon*](/windows/desktop/SecGloss/w-gly) prend en charge le débogage de Ginas comme suit :
 
 -   Vous pouvez utiliser la syntaxe suivante pour créer une section dans Win.ini pour spécifier les options de débogage Winlogon.
 
@@ -39,11 +39,11 @@ Pour tester une dll [*Gina*](/windows/desktop/SecGloss/g-gly) , utilisez le Winl
     | Indicateur de débogage | Description                                                                                                                                                                |
     |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | CoolSwitch     | La combinaison de touches CTRL + ALT + MAJ + TAB entraîne une interruption de débogage dans Winlogon.                                                                                               |
-    | Error          | Erreurs d’impression.                                                                                                                                                              |
+    | Erreur          | Erreurs d’impression.                                                                                                                                                              |
     | Init           | Affichez les messages d’initialisation et de progression.                                                                                                                                |
     | Notifier         | Imprimer les messages du package de notification.                                                                                                                                       |
     | SAS            | Imprimer des informations sur les notifications de [*séquence de touches de sécurité*](/windows/desktop/SecGloss/s-gly) (SAS). |
-    | State          | Imprimer des messages lorsque Winlogon change d’État.                                                                                                                                |
+    | État          | Imprimer des messages lorsque Winlogon change d’État.                                                                                                                                |
     | Délai d'expiration        | Imprimer des messages quand une limite de temps est définie ou si une limite de temps est atteinte.                                                                                                        |
     | Trace          | Imprimer les informations de trace détaillées.                                                                                                                                           |
     | Avertir           | Afficher les avertissements.                                                                                                                                                            |
@@ -72,7 +72,7 @@ Pour tester une dll [*Gina*](/windows/desktop/SecGloss/g-gly) , utilisez le Winl
     ```
 
 > [!NOTE]
-> Vous devez utiliser le débogueur symbolique Windows (NTSD) pour déboguer Winlogon.
+> vous devez utiliser le débogueur symbolique Windows (NTSD) pour déboguer Winlogon.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

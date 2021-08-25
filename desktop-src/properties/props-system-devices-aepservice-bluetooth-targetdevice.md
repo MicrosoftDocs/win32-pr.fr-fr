@@ -1,19 +1,19 @@
 ---
-description: Périphérique parent Bluetooth pour la requête. Requis pour les requêtes qui ne sont pas mises en cache.
+description: Bluetooth périphérique parent de la requête. Requis pour les requêtes qui ne sont pas mises en cache.
 ms.assetid: ded2fc28-2a7e-4913-9828-331539accb4b
-title: System. Devices. AepService. Bluetooth. appareil cible
+title: System. Devices. AepService. Bluetooth. Appareil cible
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e1701d13e2ca488a9b4275f26022452c985fe1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fa5957adaafc6befef3d1a7ba13f2b500255b0c3023d5446c1d559222b533bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885589"
 ---
-# <a name="systemdevicesaepservicebluetoothtargetdevice"></a>System. Devices. AepService. Bluetooth. appareil cible
+# <a name="systemdevicesaepservicebluetoothtargetdevice"></a>System. Devices. AepService. Bluetooth. Appareil cible
 
-Périphérique parent Bluetooth pour la requête. Requis pour les requêtes qui ne sont pas mises en cache.
+Bluetooth périphérique parent de la requête. Requis pour les requêtes qui ne sont pas mises en cache.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607"></a>Windows 10, version 1703, Windows 10, version 1607
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db7c7484489ecbc87e908dc6eb1c3de156cda665
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9b012966b61f018656b61134b4f889b2ba38ac70ca7e56751c332b1eb16a1564
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973329"
 ---
 # <a name="win32_logicalprogramgroup-class"></a>\_Classe LogicalProgramGroup Win32
 
@@ -110,7 +110,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| CWbemProviderGlue, méthodes de classe \| [**GetAllInstances**](/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstances)")
 </dt> </dl>
 
-Nom du groupe de programmes Windows. Les groupes de programmes sont implémentés en tant que dossiers de fichiers dans Win32.
+nom du groupe de programmes Windows. Les groupes de programmes sont implémentés en tant que dossiers de fichiers dans Win32.
 
 Exemple : « \\ Outils système accessoires »
 
@@ -272,17 +272,17 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| CWbemProviderGlue, méthodes de classe \| [**GetAllInstances**](/windows/desktop/api/wbemglue/nf-wbemglue-cwbemproviderglue-getallinstances)")
 </dt> </dl>
 
-Utilisateurs qui peuvent accéder au groupe de programmes Windows. Les groupes de programmes sont implémentés en tant que dossiers de fichiers dans Win32.
+utilisateurs qui peuvent accéder au groupe de programmes Windows. Les groupes de programmes sont implémentés en tant que dossiers de fichiers dans Win32.
 
 Exemple : « tous les utilisateurs »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ LogicalProgramGroup** est dérivée de [**Win32 \_ ProgramGroupOrItem**](win32-programgrouporitem.md).
 
-Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
+le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="requirements"></a>Configuration requise
 

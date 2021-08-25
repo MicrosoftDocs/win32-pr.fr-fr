@@ -3,20 +3,20 @@ title: Réflexion du Registre
 description: Le redirecteur du Registre isole les applications 32 bits et 64 bits en fournissant des vues logiques distinctes de certaines parties du Registre sur WOW64. Toutefois, les valeurs de certaines clés de Registre doivent être identiques dans les vues 32 bits et 64 bits.
 ms.assetid: eac9038b-9f59-4ac7-8974-f94a4a62a257
 keywords:
-- réflexion du Registre, 64 bits, programmation Windows
-- la programmation Windows 64 bits de réflexion
+- réflexion du registre 64-bit Windows programmation
+- Windows la programmation de la réflexion 64 bits
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 523041004d9570bbdf101050e30f5d9139031913
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d9104ba6bf4d537a597a2a45bfd9034379ed1781dd893e23633c08e9e9c1149b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106518018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899039"
 ---
 # <a name="registry-reflection"></a>Réflexion du Registre
 
-\[Les informations contenues dans cette rubrique s’appliquent à Windows Server 2008, Windows Vista, Windows Server 2003 et Windows XP. À compter de Windows 7 et de Windows Server 2008 R2, WOW64 n’utilise plus la réflexion du Registre et les clés précédemment réfléchies sont partagées à la place. Pour plus d’informations, consultez [clés de Registre affectées par WOW64](shared-registry-keys.md).\]
+\[les informations contenues dans cette rubrique s’appliquent à Windows server 2008, Windows Vista, Windows server 2003 et Windows XP. à compter de Windows 7 et Windows Server 2008 R2, WOW64 n’utilise plus la réflexion du registre et les clés précédemment réfléchies sont partagées à la place. Pour plus d’informations, consultez [clés de Registre affectées par WOW64](shared-registry-keys.md).\]
 
 Le [redirecteur du Registre](registry-redirector.md) isole les applications 32 bits et 64 bits en fournissant des vues logiques distinctes de certaines parties du Registre sur WOW64. Toutefois, les valeurs de certaines clés de Registre doivent être identiques dans les vues 32 bits et 64 bits.
 
@@ -24,15 +24,15 @@ Le processus de *réflexion du Registre* copie les clés de Registre et les vale
 
 Une clé réfléchie est copiée quand une clé est fermée en appelant [**échec RegCloseKey**](/windows/desktop/api/winreg/nf-winreg-regclosekey). Notez que cela donne lieu à une situation de concurrence possible : si plusieurs processus modifient la clé réfléchie, le dernier appel **échec RegCloseKey** détermine la valeur finale de la clé.
 
-Le réflecteur copie les données d’activation COM pour les serveurs locaux entre les vues, mais il ne copie pas les données in-process, car le mixage de données in-process 32/64 n’est pas autorisé sur Windows 64 bits.
+Le réflecteur copie les données d’activation COM pour les serveurs locaux entre les vues, mais il ne copie pas les données in-process, car le mixage de données in-process 32/64 n’est pas autorisé sur les Windows 64 bits.
 
 La réflexion n’est pas activée pour les clés de Registre partagées ou pour les clés de Registre qui ne sont pas redirigées. Par exemple, la réflexion n’est pas activée pour la clé **\_ \_ \\ système HKEY local machine** . Pour obtenir la liste des clés de Registre qui sont redirigées, partagées ou reflétées, consultez [clés de Registre affectées par WOW64](shared-registry-keys.md).
 
 La réflexion du Registre utilise une stratégie « dernier enregistreur gagne », comme illustré dans l’exemple suivant :
 
--   Après une nouvelle installation de Windows 64 bits, le Wordpad.exe 64 bits est inscrit pour gérer les fichiers. doc. Le réflecteur copie l’inscription. doc à partir de la vue de Registre 64 bits dans la vue de Registre 32 bits.
--   Un administrateur installe le bureau 32 bits, qui inscrit le Winword.exe 32 bits pour gérer les fichiers. doc dans l’affichage du Registre 32 bits. Le réflecteur du Registre copie ces informations dans la vue de Registre 64 bits, de sorte que les applications 32 bits et 64 bits lancent la version 32 bits de Winword.exe pour les fichiers. doc.
--   Un administrateur installe le bureau 64 bits, qui inscrit le Winword.exe 64 bits pour gérer les fichiers. doc dans l’affichage du Registre 64 bits. Le réflecteur de Registre copie ces informations dans le registre 32 bits, de sorte que les applications 32 bits et 64 bits lancent la version 64 bits de Winword.exe pour les fichiers. doc.
+-   après une nouvelle installation de 64 bits Windows, le Wordpad.exe 64 bits est inscrit pour gérer les fichiers de .doc. Le réflecteur copie l’inscription de .doc à partir de la vue de Registre 64 bits dans la vue de Registre 32 bits.
+-   un administrateur installe le Office 32 bits, qui inscrit le Winword.exe 32 bits pour gérer les fichiers .doc dans la vue de registre 32 bits. Le réflecteur de Registre copie ces informations dans la vue de Registre 64 bits, de sorte que les applications 32 bits et 64 bits lancent la version 32 bits de Winword.exe pour les fichiers .doc.
+-   un administrateur installe le Office 64 bits, qui inscrit le Winword.exe 64 bits pour gérer les fichiers .doc dans la vue de registre 64 bits. Le réflecteur du Registre copie ces informations dans le registre 32 bits, de sorte que les applications 32 bits et 64 bits lancent la version 64 bits de Winword.exe pour les fichiers .doc.
 
 Par conséquent, les informations d’association de fichiers sont conservées pour l’application la plus récemment installée.
 
@@ -63,6 +63,6 @@ Les clés réfléchies ne doivent pas être utilisées dans les opérations de R
 [Clés de Registre affectées par WOW64](shared-registry-keys.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
