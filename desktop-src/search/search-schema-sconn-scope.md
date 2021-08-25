@@ -4,12 +4,12 @@ ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: Élément Scope (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f49041170db80de48d312596249d5c4dca835e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18d5fcdb3908f495d07199c61a2005a4f97ba5a01c641fb4e854961489e7abe0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944299"
 ---
 # <a name="scope-element-search-connector-schema"></a>Élément Scope (schéma du connecteur de recherche)
 
@@ -53,7 +53,7 @@ L' <scope> élément facultatif spécifie une collection d' <scopeItem> élémen
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez les <scope> <scopeItem> éléments et pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
 

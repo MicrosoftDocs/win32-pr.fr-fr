@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 Sauf spécification contraire, le contrôle ignore la valeur de retour de ce code de notification.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

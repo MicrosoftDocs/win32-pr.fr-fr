@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 3984153a0551de999563b8775ceb5acba1696e39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a915425900bccb15145546658d51d50dcaee14880f8f219bd1908efaa17bd3c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008409"
 ---
 # <a name="icontextnodereparentstrokebyidtonode-method"></a>IContextNode :: ReparentStrokeByIdToNode, méthode
 
@@ -58,7 +58,7 @@ Objet [**IContextNode**](icontextnode.md) vers lequel déplacer les données de 
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet [**IContextNode**](icontextnode.md) spécifié doit être l’un des types suivants des constantes de [type de nœud de contexte](context-node-types.md) : **InkWord**, **InkDrawing**, **InkBullet** ou **UnclassifiedInk**. Si vous tentez de déplacer un trait vers tout autre type d’objet **IContextNode** , la valeur de retour **E \_ INVALIDARG** est retournée.
 
@@ -79,7 +79,7 @@ Un nœud vide génère des erreurs s’il se trouve dans l’arborescence pendan
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

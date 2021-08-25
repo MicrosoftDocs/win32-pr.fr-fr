@@ -3,7 +3,7 @@ title: Message SBM_SETSCROLLINFO (winuser. h)
 description: Le \_ message SBM SETSCROLLINFO est envoyé pour définir les paramètres d’une barre de défilement.
 ms.assetid: e0e42a81-67be-4d40-88c8-77398b068617
 keywords:
-- SBM_SETSCROLLINFO les contrôles de message Windows
+- SBM_SETSCROLLINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e98abbca2d53d4b104caea22954472a17dfd5c1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5622371abb86301e1450c9fa0d6864e8db76c9837fca48fe8bcf11cb884f6b5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914289"
 ---
 # <a name="sbm_setscrollinfo-message"></a>\_Message SBM SETSCROLLINFO
 
@@ -64,7 +64,7 @@ Le membre **fmask** peut être une ou plusieurs des valeurs suivantes.
 
 La valeur de retour correspond à la position actuelle de la case de défilement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les messages qui indiquent la position de la barre de défilement, [**WM \_ HSCROLL**](wm-hscroll.md) et [**WM \_ VSCROLL**](wm-vscroll.md), fournissent uniquement 16 bits de données de position. Toutefois, la structure [**SCROLLINFO**](/windows/win32/api/winuser/ns-winuser-scrollinfo) utilisée par [**SBM \_ GETSCROLLINFO**](sbm-getscrollinfo.md), **SBM \_ SETSCROLLINFO**, [**GETSCROLLINFO**](/windows/desktop/api/Winuser/nf-winuser-getscrollinfo)et [**SETSCROLLINFO**](/windows/desktop/api/Winuser/nf-winuser-setscrollinfo) fournit 32 bits de données de position de la barre de défilement. Vous pouvez utiliser ces messages et ces fonctions lors du traitement des messages **WM \_ HSCROLL** ou **WM \_ VSCROLL** pour obtenir les données de position de la barre de défilement 32 bits.
 
@@ -74,8 +74,8 @@ Les messages qui indiquent la position de la barre de défilement, [**WM \_ HSCR
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

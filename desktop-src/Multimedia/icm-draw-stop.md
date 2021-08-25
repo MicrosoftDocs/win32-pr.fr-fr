@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DRAW_STOP (VFW. h)
-description: Le message d’arrêt de l’ICM de dessin \_ \_ indique à un pilote de rendu d’arrêter son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStop.
+description: le \_ message d' \_ arrêt de ICM trace informe un pilote de rendu d’arrêter son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDrawStop.
 ms.assetid: 9ffda595-e3d6-48f0-9487-69f7e95979c2
 keywords:
-- Message ICM_DRAW_STOP Windows Multimedia
+- message ICM_DRAW_STOP Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3bde99dfcf483e67aa6a601de2718814cc22439
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41bdb8fbc9a0cddf470733fa35b2f25dc62675175cbb40c427d0b160074c5409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038789"
 ---
-# <a name="icm_draw_stop-message"></a>Message d’arrêt du \_ dessin ICM \_
+# <a name="icm_draw_stop-message"></a>ICM \_ DESSINER un \_ message d’arrêt
 
-Le message d' **\_ \_ arrêt** de l’ICM de dessin indique à un pilote de rendu d’arrêter son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStop**](/windows/desktop/api/Vfw/nf-vfw-icdrawstop) .
+le message d' **\_ \_ arrêt de ICM trace** informe un pilote de rendu d’arrêter son horloge interne pour le minutage des frames de dessin. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDrawStop**](/windows/desktop/api/Vfw/nf-vfw-icdrawstop) .
 
 
 ```C++
@@ -38,7 +38,7 @@ lParam = 0;
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est utilisé par le matériel qui effectue sa propre décompression, son minutage et son dessin asynchrones.
 

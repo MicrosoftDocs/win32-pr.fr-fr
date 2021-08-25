@@ -1,19 +1,19 @@
 ---
-description: Le mode d’interpolation d’un objet Graphics influence la manière dont GDI+ met à l’échelle (étire et réduit) les images.
+description: le mode d’interpolation d’un objet graphics influe sur la façon dont Windows GDI+ met à l’échelle les images.
 ms.assetid: 3aeead47-78da-4ab3-9126-2fbe9e341e48
 title: Utilisation du mode d’interpolation pour contrôler la qualité d’image pendant la mise à l’échelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d34a829f2edf2f341f50bee771d909f7c4eef98e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92fefe314ef680a54f9d885bb185c77b3349e84cbe5f7bcf347cf9ff3fa0a4ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943699"
 ---
 # <a name="using-interpolation-mode-to-control-image-quality-during-scaling"></a>Utilisation du mode d’interpolation pour contrôler la qualité d’image pendant la mise à l’échelle
 
-Le mode d’interpolation d’un objet [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) influence la manière dont GDI+ met à l’échelle (étire et réduit) les images. L’énumération [**InterpolationMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) dans Gdiplusenums. h définit plusieurs modes d’interpolation, dont certains sont répertoriés dans la liste suivante :
+le mode d’interpolation d’un objet [**graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) influe sur la façon dont Windows GDI+ met à l’échelle les images. L’énumération [**InterpolationMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-interpolationmode) dans Gdiplusenums. h définit plusieurs modes d’interpolation, dont certains sont répertoriés dans la liste suivante :
 
 -   InterpolationModeNearestNeighbor
 -   InterpolationModeBilinear

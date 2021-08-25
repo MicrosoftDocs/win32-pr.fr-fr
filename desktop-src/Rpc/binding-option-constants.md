@@ -20,19 +20,19 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52152b5ddcc17abe5c698697e30f1f1a512ee4f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 147d36cf66bb3a45add61b8639ccd3fada31856e72fce8c1f96d7a021e1d5e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023119"
 ---
 # <a name="binding-option-constants"></a>Constantes d’option de liaison
 
 Les applications définissent les constantes d’option de liaison pour contrôler la façon dont la bibliothèque Runtime RPC traite les appels de procédure distante. Le tableau suivant répertorie chaque propriété de liaison et les valeurs de constante appropriées pour les propriétés de liaison.
 
 > [!Note]  
-> Toutes les options de file d’attente de messages (MQ) dans le tableau suivant ne sont valides que pour Windows 2000. Windows XP et les versions ultérieures ne prennent pas en charge Message Queuing. Les développeurs sont déconseillés d’utiliser Message Queuing.
+> toutes les options de file d’attente de messages (MQ) dans le tableau suivant sont valides pour Windows 2000 uniquement. Windows XP et les versions ultérieures ne prennent pas en charge Message Queuing. Les développeurs sont déconseillés d’utiliser Message Queuing.
 
  
 
@@ -51,7 +51,7 @@ Les applications définissent les constantes d’option de liaison pour contrôl
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, la bibliothèque Runtime RPC exécute les appels sur un handle de liaison donné à partir de chaque thread d’une application dans un ordre strict d’envoi. Cela ne garantit pas que les appels de différents threads sur le même handle de liaison sont sérialisés. Les applications multithread doivent sérialiser leurs appels RPC. Si ce comportement est trop restrictif, vous pouvez activer le classement non-causalité. Dans ce cas, la bibliothèque Runtime RPC exécute les appels indépendamment. Il n’impose aucun ordre d’envoi.
 

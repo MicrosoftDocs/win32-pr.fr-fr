@@ -4,12 +4,12 @@ ms.assetid: 28d48d59-abb2-4682-ab54-60b6aa7b31b1
 title: Inscription d’un abonnement temporaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3fc85f189d14fbe6220d6f3760509e1ba0248a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f93b543a4602b0b4ed7ed4177133f3eb8f543a0db02750af8657ab36f310993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990439"
 ---
 # <a name="registering-a-transient-subscription"></a>Inscription d’un abonnement temporaire
 
@@ -22,7 +22,7 @@ Les abonnements temporaires ne peuvent pas être définis à l’aide de l’out
 La procédure suivante décrit comment créer un abonnement temporaire à l’aide de Microsoft Visual Basic :
 
 1.  Spécifiez un abonnement transitoire en ajoutant une nouvelle entrée à la collection [**TransientSubscriptions**](transientsubscriptions.md) et en affectant à la propriété SubscriberInterface l’interface [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) de l’objet abonné. Les événements COM+ ne créent pas de nouvelle instance de l’objet d’abonné lors du déclenchement d’un événement, mais utilisent à la place l’instance que vous spécifiez. Les événements COM+ contiennent un décompte de références pour l’objet abonné jusqu’à ce que l’abonnement soit supprimé du système.
-2.  Créez une application serveur COM+ (fichier. exe,. dll ou. ocx) avec un objet qui implémente les interfaces ou les méthodes auxquelles vous voulez vous abonner.
+2.  Créez une application serveur COM+ (un .exe, un .dll ou un fichier. ocx) avec un objet qui implémente les interfaces ou les méthodes auxquelles vous voulez vous abonner.
 3.  Créez votre abonnement temporaire en utilisant le code suivant, en passant le CLSID de l’objet de [classe d’événements](the-com--event-class-object.md) et l’instance de l’objet d’abonné. À l’aide de l’outil d’administration Services de composants, vous pouvez obtenir la propriété EventCLSID en cliquant avec le bouton droit sur le composant COM+, en sélectionnant **Propriétés**, puis en sélectionnant l’onglet **général** .
 
     ``` syntax

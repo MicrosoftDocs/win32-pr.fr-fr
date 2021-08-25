@@ -4,16 +4,16 @@ ms.assetid: ba492503-90ff-45dd-a39f-6d4451e57339
 title: 'ITConferenceBlob :: Init, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81bdd512ffeb4b380da04e59deb17315d00b7285
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a4f7816d1de346e12b3fab799728f32fb146664846d9dcb6d7cd7df757d62e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991929"
 ---
 # <a name="itconferenceblobinit-method"></a>ITConferenceBlob :: Init, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **init** Initialise l’objet blob de conférence en fonction d’une chaîne textuelle. Si *pBlob* a la **valeur null**, les valeurs par défaut sont utilisées.
 
@@ -73,7 +73,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ITConferenceBlob :: init** retourne un échec si l’objet BLOB a déjà été initialisé.
 

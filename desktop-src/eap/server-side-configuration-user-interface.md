@@ -4,12 +4,12 @@ description: Implémentez une interface utilisateur de configuration pour le ser
 ms.assetid: b205c573-6694-42c0-b4f1-1480932dd644
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0904c90fea2bef3ccc00c00135be09a711d8454
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 92bf6a1f5b5f0e1302e68dd8ca9070771bfbc7714759a384f67782ffdad6e2ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021809"
 ---
 # <a name="server-side-configuration-user-interface"></a>Interface utilisateur de configuration de Server-Side
 
@@ -23,6 +23,6 @@ Quand l’utilisateur clique sur le bouton configurer pour un protocole d’auth
 
 Dans le cas où l’utilisateur est connecté simultanément à plusieurs ordinateurs, plusieurs objets d’interface utilisateur de configuration sont instanciés.
 
- 
+ 
 
- 
+ 

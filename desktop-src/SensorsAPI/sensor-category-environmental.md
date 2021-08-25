@@ -4,12 +4,12 @@ ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: SENSOR_CATEGORY_ENVIRONMENTAL (sensors. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5c41d4c117dc27a3303210a485b2233cf24cde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7cc2a6ca1d2832045a77f0a2ffa1902732e484700afaacd757719e99d667c55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126609"
 ---
 # <a name="sensor_category_environmental"></a>\_environnement de catégorie de capteur \_
 
@@ -57,7 +57,7 @@ Cette catégorie comprend les champs de données définis par la plateforme suiv
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Capteurs. h</dt> </dl> |
 

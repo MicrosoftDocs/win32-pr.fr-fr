@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9b0f6628d7bc75378915c1d9f3e20327478742df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b4cb426c245c73b6644a95e45d7e2577b4f85f6ed7a28980894183854c1b26e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942989"
 ---
 # <a name="extending-system-control-panel-items"></a>Extension des éléments du panneau de configuration système
 
@@ -46,37 +46,37 @@ Cela est similaire à la façon dont vous inscrivez une extension pour un objet 
 <tr class="header">
 <th>Élément du panneau de configuration</th>
 <th><em>name</em></th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Afficher</td>
+<td>Affichage</td>
 <td>Bureau</td>
 <td>Prend également en charge le remplacement de la page du <strong>Bureau</strong> .
 <blockquote>
 [!Note]<br />
-Cela n’est plus pris en charge sous Windows Vista.
+cela n’est plus pris en charge sous Windows Vista.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
-<td>Paramètres d’affichage avancés</td>
+<td>affichage Paramètres avancé</td>
 <td>Appareil</td>
 <td>Propriétés avancées spécifiques au non-hardisme.
 <blockquote>
 [!Note]<br />
-Cela n’est plus pris en charge sous Windows Vista.
+cela n’est plus pris en charge sous Windows Vista.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
-<td>Paramètres d’affichage avancés</td>
-<td>Afficher</td>
+<td>affichage Paramètres avancé</td>
+<td>Affichage</td>
 <td>Propriétés avancées spécifiques au matériel.
 <blockquote>
 [!Note]<br />
-Cela n’est plus pris en charge sous Windows Vista.
+cela n’est plus pris en charge sous Windows Vista.
 </blockquote>
 <br/></td>
 </tr>
@@ -97,7 +97,7 @@ Cela n’est plus pris en charge sous Windows Vista.
 </tr>
 <tr class="odd">
 <td>Options d’alimentation</td>
-<td>Power</td>
+<td>Alimentation</td>
 <td>Le nombre maximal de pages, y compris les pages standard, est 18.</td>
 </tr>
 <tr class="even">
@@ -106,7 +106,7 @@ Cela n’est plus pris en charge sous Windows Vista.
 <td>Le nombre maximal de pages d’extension est de 8.
 <blockquote>
 [!Note]<br />
-Cela n’est plus pris en charge sous Windows Vista.
+cela n’est plus pris en charge sous Windows Vista.
 </blockquote>
 <br/></td>
 </tr>
@@ -117,7 +117,7 @@ Cela n’est plus pris en charge sous Windows Vista.
 
  
 
-L’élément **Ajout/suppression de programmes** du panneau de configuration de Windows XP n’est pas une feuille de propriétés et ne peut donc pas être étendu par les méthodes présentées ici. Au lieu de cela, son contenu est obtenu à partir des éditeurs d’applications. Pour plus d’informations sur l’ajout de contenu à l' **Ajout ou** à la suppression de programmes, consultez [**IAppPublisher**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher), [**IEnumPublishedApps**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)et [**IPublishedApp**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp).
+l’élément **ajout/suppression de programmes** du panneau de configuration Windows XP n’est pas une feuille de propriétés et ne peut donc pas être étendu par les méthodes présentées ici. Au lieu de cela, son contenu est obtenu à partir des éditeurs d’applications. Pour plus d’informations sur l’ajout de contenu à l' **Ajout ou** à la suppression de programmes, consultez [**IAppPublisher**](/windows/desktop/api/Shappmgr/nn-shappmgr-iapppublisher), [**IEnumPublishedApps**](/windows/desktop/api/Shappmgr/nn-shappmgr-ienumpublishedapps)et [**IPublishedApp**](/windows/desktop/api/Shappmgr/nn-shappmgr-ipublishedapp).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -147,7 +147,7 @@ L’élément **Ajout/suppression de programmes** du panneau de configuration de
 [Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Accès au panneau de configuration en mode sans échec sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[accès au panneau de configuration en Mode Coffre sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

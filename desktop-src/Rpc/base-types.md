@@ -4,12 +4,12 @@ description: Pour éviter les problèmes que les types de données dépendants d
 ms.assetid: 0b2778c7-8cee-415f-bb5e-01f6c9eedc70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50ee57261aac1de6ea4bb15c9a4550721dd10282
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1aadc1ae5fedd73a01ce0fd7ed735689e043cff0d74910175cf2ab691c22eeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023279"
 ---
 # <a name="base-types"></a>Types de base
 
@@ -25,7 +25,7 @@ Pour éviter les problèmes que les types de données dépendants de l’implém
 | [**Cliquer**](/windows/desktop/Midl/double)         | Nombre à virgule flottante 64 bits.                                                                                                                                     |
 | [**dissocié**](/windows/desktop/Midl/float)           | Nombre à virgule flottante 32 bits.                                                                                                                                     |
 | [**handle \_ t**](/windows/desktop/Midl/handle-t)    | Handle primitif qui peut être utilisé pour la liaison RPC ou la sérialisation de données.                                                                                            |
-| [**consolidation**](/windows/desktop/Midl/hyper)           | Un entier 64 bits qui peut être déclaré comme étant [**signé**](/windows/desktop/Midl/signed) ou [**non signé**](/windows/desktop/Midl/unsigned) peut également être appelé **\_ Int64**.                  |
+| [**hyper**](/windows/desktop/Midl/hyper)           | Un entier 64 bits qui peut être déclaré comme étant [**signé**](/windows/desktop/Midl/signed) ou [**non signé**](/windows/desktop/Midl/unsigned) peut également être appelé **\_ Int64**.                  |
 | [**int**](/windows/desktop/Midl/int)               | Entier 32 bits qui peut être déclaré comme étant **signé** ou **non signé**.                                                                                         |
 | [**\_\_int3264**](/windows/desktop/Midl/--int3264) | Mot clé qui spécifie un type intégral qui a des propriétés 32 bits ou 64 bits.                                                                              |
 | [**long**](/windows/desktop/Midl/long)             | Modificateur pour **int** qui indique un entier 32 bits. Peut être déclarée comme **étant signed ou** **unsigned**.                                                       |
@@ -35,12 +35,12 @@ Pour éviter les problèmes que les types de données dépendants de l’implém
 
 
 
- 
+ 
 
 Le fichier d’en-tête Rpcndr. h fournit des définitions pour la plupart de ces types de données de base. Le mot clé **int** est reconnu et est transmissible sur les plateformes 32 bits. Sur les plateformes 16 bits, le type de données **int** requiert un modificateur, tel que **short** ou **long**, pour spécifier sa longueur.
 
 Bien **que \* \* void** soit reconnu comme un type pointeur générique par la norme C ANSI, MIDL restreint son utilisation. Chaque pointeur utilisé dans une opération distante ou de sérialisation doit pointer vers des types de base ou des types construits à partir de types de base. (Il existe une exception : les handles de contexte sont définis comme des types **void** . Pour plus d’informations, consultez [Handles de contexte](context-handles.md).)
 
- 
+ 
 
- 
+ 

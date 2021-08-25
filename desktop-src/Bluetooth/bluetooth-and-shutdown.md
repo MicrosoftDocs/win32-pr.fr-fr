@@ -1,6 +1,6 @@
 ---
 title: Bluetooth et arrêt
-description: Bluetooth utilise la fonction d’arrêt pour se déconnecter de la radio distante. Bluetooth n’a pas de prise en charge au niveau du protocole pour les mêmes fermetures ou demi-clôtures gracieuses que le protocole TCP/IP.
+description: Bluetooth utilise la fonction shutdown pour se déconnecter de la radio distante. Bluetooth n’a pas de prise en charge au niveau du protocole pour les mêmes fermetures ou demi-clôtures gracieuses que le protocole TCP/IP fournit.
 ms.assetid: 8b89ed57-7713-4e7d-b4f5-41837c7e560e
 keywords:
 - Bluetooth
@@ -8,16 +8,16 @@ keywords:
 - Bluetooth et arrêt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88d60b0b5e79c0f781cea5ca877df961ee363433
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3b1d45f59a2b25edce456ed43e906bfddef0dc6abd93cd295823b317fa633945
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004319"
 ---
 # <a name="bluetooth-and-shutdown"></a>Bluetooth et arrêt
 
-Bluetooth utilise la fonction d' [**arrêt**](/windows/desktop/api/winsock/nf-winsock-shutdown) pour se déconnecter de la radio distante. Bluetooth n’a pas de prise en charge au niveau du protocole pour les mêmes fermetures ou demi-clôtures gracieuses que le protocole TCP/IP.
+Bluetooth utilise la fonction [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) pour se déconnecter de la radio distante. Bluetooth n’a pas de prise en charge au niveau du protocole pour les mêmes fermetures ou demi-clôtures gracieuses que le protocole TCP/IP fournit.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -29,6 +29,6 @@ Bluetooth utilise la fonction d' [**arrêt**](/windows/desktop/api/winsock/nf-wi
 [**correct**](/windows/desktop/api/winsock/nf-winsock-shutdown)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

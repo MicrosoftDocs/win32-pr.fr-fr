@@ -3,7 +3,7 @@ title: ErrorItem. errorDescription
 description: La propriété errorDescription récupère une description de l’erreur.
 ms.assetid: 7fd16c3d-1460-41b5-81ca-2636d7a1d0d1
 keywords:
-- Lecteur Windows Media ErrorItem. errorDescription
+- ErrorItem. errorDescription Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0de19bb67a5846a82e87d091f95a18cd12c5c2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5740adcef0b6eb86290ea392d0659abb0ccc3d51b0b0b1b3203105de67fb692
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862789"
 ---
 # <a name="erroritemerrordescription"></a>ErrorItem. errorDescription
 
@@ -35,13 +35,13 @@ player.error.item(
 
 Cette propriété est une **chaîne** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous devez définir des *paramètres*. **enableErrorDialogs** sur false si vous choisissez d’afficher des messages d’erreur personnalisés.
+vous devez définir *Paramètres*. **enableErrorDialogs** sur false si vous choisissez d’afficher des messages d’erreur personnalisés.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *ErrorItem*. **errorDescription** dans un gestionnaire d’événements pour afficher le message d’erreur à l’utilisateur. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *ErrorItem*. **errorDescription** dans un gestionnaire d’événements pour afficher le message d’erreur à l’utilisateur. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

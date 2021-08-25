@@ -1,23 +1,23 @@
 ---
-title: Structures (entrée tactile Windows)
-description: Cette section contient des structures pour les entrées tactiles Windows.
+title: Structures (Windows entrée tactile)
+description: cette section contient des structures pour Windows entrée tactile.
 ms.assetid: 591c7218-bd4f-40c2-98e1-6442ede28600
 keywords:
-- Windows tactile, structures
+- Windows Toucher, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62595e9600474b3b3f1aca71dece1d81514daa91
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ce7d2178673fbf2d75b181875de14f0ad0087e80a6d424a497abcd39375235fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007369"
 ---
-# <a name="structures-windows-touch-input"></a>Structures (entrée tactile Windows)
+# <a name="structures-windows-touch-input"></a>Structures (Windows entrée tactile)
 
-Cette section contient des structures pour les entrées tactiles Windows.
+cette section contient des structures pour Windows entrée tactile.
 
-Les structures suivantes sont utilisées pour l’entrée tactile Windows.
+les structures suivantes sont utilisées pour Windows entrée tactile.
 
 
 
@@ -33,10 +33,10 @@ Les structures suivantes sont utilisées pour l’entrée tactile Windows.
 
 <dl> <dt>
 
-[Entrée tactile Windows](multi-touch-input.md)
+[Windows Entrée tactile](multi-touch-input.md)
 </dt> <dt>
 
-[Guide de programmation des entrées tactiles Windows](guide-multi-touch-input.md)
+[Windows Guide de programmation de l’entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
  

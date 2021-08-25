@@ -4,12 +4,12 @@ ms.assetid: 88924ba9-707b-41a7-9bca-c630b4a9c4c8
 title: EC_CODECAPI_EVENT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c24ece20a0c729b251c56b50b5b44fc9f7fa98f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5765c2a1156653e66c5d3685cacfdd551cd22032eea34463f5450dc6d4fbea3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965939"
 ---
 # <a name="ec_codecapi_event"></a>\_événement EC CODECAPI \_
 
@@ -54,7 +54,7 @@ Aucune action par défaut.
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

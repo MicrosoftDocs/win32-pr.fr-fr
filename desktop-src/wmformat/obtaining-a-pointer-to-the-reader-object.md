@@ -1,10 +1,10 @@
 ---
-title: Obtention d’un pointeur vers l’objet lecteur (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur l’obtention d’un pointeur vers l’objet lecteur du kit de développement logiciel (SDK) Windows Media format à l’aide de l’interface IWMReaderAdvanced2.
+title: obtention d’un pointeur vers l’objet lecteur (kit de développement logiciel (SDK) Windows Media Format 11)
+description: en savoir plus sur l’obtention d’un pointeur vers l’objet lecteur du kit de développement logiciel (SDK) Windows Media Format à l’aide de l’interface IWMReaderAdvanced2.
 ms.assetid: 70696ffc-2612-460d-b445-f200ba85d3c7
 keywords:
 - Windows Media Format SDK, DirectShow
-- Windows Media Format SDK, objets Reader
+- Windows Media Format SDK, Reader, objets
 - Windows Media Format SDK, interface IWMReaderAdvanced2
 - ASF (Advanced Systems Format), DirectShow
 - ASF (format avancé des systèmes), DirectShow
@@ -13,7 +13,7 @@ keywords:
 - ASF (Advanced Systems Format), interface IWMReaderAdvanced2
 - ASF (format des systèmes avancés), interface IWMReaderAdvanced2
 - DirectShow, objets Reader
-- DirectShow, pointeurs vers des objets de lecteur
+- DirectShow, pointeurs vers des objets Reader
 - DirectShow, interface IWMReaderAdvanced2
 - objets Reader, obtention de pointeurs
 - flux, objets lecteur
@@ -21,16 +21,16 @@ keywords:
 - IWMReaderAdvanced2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd31bd868365b87b38eefd0c0c81e8beafef51c
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 5e4b2829e56d08825234dcefdc4fb1012f48c894419e7c328f10afeb76cb6c4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808049"
 ---
-# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>Obtention d’un pointeur vers l’objet lecteur (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="obtaining-a-pointer-to-the-reader-object-windows-media-format-11-sdk"></a>obtention d’un pointeur vers l’objet lecteur (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Dans certains cas, par exemple, lorsque vous déterminez quelles extensions d’unité de données sont définies sur un flux donné, vous devrez peut-être accéder directement à l' [objet lecteur](reader-object.md) du kit de développement logiciel (SDK) du format Windows Media. La fonction suivante montre comment obtenir l’interface [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) sur l’objet lecteur lui-même :
+dans certains cas, par exemple, lorsque vous déterminez quelles extensions d’unité de données sont définies sur un flux donné, vous devrez peut-être accéder directement à l' [objet lecteur](reader-object.md) du kit de développement logiciel (SDK) de Format multimédia Windows. La fonction suivante montre comment obtenir l’interface [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) sur l’objet lecteur lui-même :
 
 
 ```C++

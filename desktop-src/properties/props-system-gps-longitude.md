@@ -4,12 +4,12 @@ ms.assetid: ef28141f-1b63-4694-b6df-fcc11ce7e50b
 title: System. GPS. Longitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e65431412b0d46ad7b68100febd4d6e8efd31a17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf12d65c2776c3740360c4cb298048621a877d58999eaddd6e219c682e5a0c9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010339"
 ---
 # <a name="systemgpslongitude"></a>System. GPS. Longitude
 
@@ -47,11 +47,11 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-La spécification d’une référence de chaîne indirecte spécifique pour l' `label` attribut de **labelInfo** a été ajoutée pour Windows Vista avec Service Pack 1 (SP1).
+la spécification d’une référence de chaîne indirecte spécifique pour l' `label` attribut de **labelInfo** a été ajoutée pour Windows Vista avec Service Pack 1 (SP1).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

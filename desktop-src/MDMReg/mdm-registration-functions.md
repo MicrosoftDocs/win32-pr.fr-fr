@@ -5,12 +5,12 @@ ms.assetid: 1b063a56-f59f-4b02-949f-c8b6bbf45a13
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/19/2020
-ms.openlocfilehash: 2ca04c3c28f3de289bad6f06feaab0aff9ef2909
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: f9149c4bd2f9f931a506dc35d05b5e1c641dc87445fbf88fd73ff9ad20ac514b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040369"
 ---
 # <a name="mdm-registration-functions"></a>Fonctions d’inscription MDM
 
@@ -28,7 +28,7 @@ Les fonctions suivantes sont déclarées dans `mdmregistration.h` , et sont util
 | [**IsDeviceRegisteredWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement) | Vérifie si l’appareil est inscrit auprès d’un service MDM. |
 | [**IsManagementRegistrationAllowed**](/windows/win32/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed) | Vérifie si l’inscription MDM est autorisée par la stratégie locale. |
 | [**RegisterDeviceWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement) | Inscrit un appareil auprès d’un service de gestion des appareils mobiles à l’aide du [ \[ protocole d’inscription MS-MDE \] : Mobile Device](/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267). |
-| [**RegisterDeviceWithManagementUsingAADCredentials**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials) | Inscrit un appareil auprès d’un service MDM, à l’aide des informations d’identification de Azure Active Directory (AAD). |
+| [**RegisterDeviceWithManagementUsingAADCredentials**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials) | inscrit un appareil auprès d’un service MDM, à l’aide des informations d’identification de Azure Active Directory (AAD). |
 | [**SetDeviceManagementConfigInfo**](/windows/win32/api/mdmregistration/nf-mdmregistration-setdevicemanagementconfiginfo) | Définit les informations de configuration associées à l’ID du fournisseur. |
 | [**SetManagedExternally**](/windows/win32/api/MDMRegistration/nf-mdmregistration-setmanagedexternally) | Indique à l’agent MDM que l’appareil est géré en externe et qu’il ne doit pas être inscrit auprès d’un service MDM. |
 | [**UnregisterDeviceWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement) | Annule l’inscription d’un appareil auprès du service MDM. |

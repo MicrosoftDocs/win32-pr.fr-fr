@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f13bfdec10f520a3044bcd8b2fc1dd5fd8cdca0
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: a43a66009f11e9c06e901917b84032b05646dcb112240f638ee2bbc0306e7407
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103841709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018829"
 ---
 # <a name="rpc-reference"></a>Référence RPC
 
@@ -21,9 +21,9 @@ La référence des programmeurs RPC contient les éléments suivants :
 -   [Fonctions RPC](function-reference.md)
 -   [Macros RPC](rpc-macros.md)
 
- 
+ 
 
- 
+ 
 
 
 

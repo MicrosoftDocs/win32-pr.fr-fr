@@ -15,12 +15,12 @@ keywords:
 - DRM (gestion des droits numériques), événements d’acquisition de licence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e31fd5b108f41d5b0925918fdf1c83764bcf7e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ff7eab9afe85d4e58ae422134e5268c5b411058cf5048f774994b0cc02b173fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006709"
 ---
 # <a name="handling-license-acquisition-events"></a>Gestion des événements d’acquisition de licence
 
@@ -60,7 +60,7 @@ L’événement d’acquisition de **\_ \_ licence WMT** est envoyé une fois qu
 
 Si **HR** est égal à \_ \_ la licence DRM de NS S \_ \_ acquise, la licence a été acquise et l’application peut tenter de lire le fichier, ou la copier sur un périphérique ou exécuter l’action pour laquelle il a demandé des droits.
 
-Sur Windows XP, un nouveau code d’erreur a été introduit \_ : \_ NOTACQUIRED de licence DRM E \_ \_ . Ce code d’erreur est généré chaque fois que les composants Windows Media Format Runtime sur Windows XP ne parviennent pas à acquérir une licence lors de l’acquisition d’une licence en mode silencieux ou non silencieuse. Sur les autres plateformes, une \_ \_ Erreur du magasin de licences DRM E \_ \_ \_ est généralement retournée lorsque l’acquisition de la licence échoue. Le nouveau code d’erreur est destiné à distinguer l’échec d’acquisition de licence des autres conditions d’échec où une \_ \_ erreur de magasin de licences DRM E \_ \_ \_ a été générée.
+sur Windows XP, un nouveau code d’erreur a été introduit \_ : \_ NOTACQUIRED de licence DRM E \_ \_ . ce code d’erreur est généré chaque fois que les composants Windows Media Format runtime sur Windows XP ne parviennent pas à acquérir une licence lors de l’acquisition d’une licence en mode silencieux ou non silencieuse. Sur les autres plateformes, une \_ \_ Erreur du magasin de licences DRM E \_ \_ \_ est généralement retournée lorsque l’acquisition de la licence échoue. Le nouveau code d’erreur est destiné à distinguer l’échec d’acquisition de licence des autres conditions d’échec où une \_ \_ erreur de magasin de licences DRM E \_ \_ \_ a été générée.
 
 La méthode recommandée pour gérer ces erreurs lorsqu’elles sont retournées après une tentative d’acquisition de licence en mode silencieux est indiquée dans l’extrait de code suivant :
 
@@ -90,7 +90,7 @@ else
 > [!Note]  
 > DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -99,9 +99,9 @@ else
 [**Lecture des fichiers protégés**](reading-protected-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

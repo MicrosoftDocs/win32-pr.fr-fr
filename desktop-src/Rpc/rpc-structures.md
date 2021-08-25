@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, référence, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94d03209af8b14f87cd8b15929389b6eb524833
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c59552f775b56519620e46c610bef234fba488d4d6e0a7dfe7d4266e7ae2c50e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018210"
 ---
 # <a name="rpc-structures"></a>Structures RPC
 
@@ -33,7 +33,7 @@ Cette section décrit les structures définies et utilisées par Microsoft RPC.
 -   [**\_Adresse locale d’appel RPC \_ \_ \_ v1**](/windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_local_address_v1)
 -   [**\_interface client \_ RPC**](/windows/win32/api/RpcdceP/ns-rpcdcep-rpc_client_interface)
 -   [**\_table de dispatch RPC \_**](/windows/win32/api/RpcdceP/ns-rpcdcep-rpc_dispatch_table)
--   [**\_ \_ param info RPC \_ EE**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_ee_info_param)
+-   [**\_PARAM EE \_ INFO \_ RPC**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_ee_info_param)
 -   [**\_modèle de point de terminaison RPC \_**](/windows/win32/api/Rpcdce/ns-rpcdce-rpc_endpoint_template)
 -   [**HANDLE de l' \_ énumération des erreurs RPC \_ \_**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_error_enum_handle)
 -   [**\_ \_ informations sur l’erreur étendue RPC \_**](/windows/win32/api/rpcasync/ns-rpcasync-rpc_extended_error_info)
@@ -55,6 +55,6 @@ Cette section décrit les structures définies et utilisées par Microsoft RPC.
 -   [**UUID**](./rpcdce/ns-rpcdce-uuid.md)
 -   [**\_vecteur UUID**](/windows/win32/api/rpcdce/ns-rpcdce-uuid_vector)
 
- 
+ 
 
- 
+ 

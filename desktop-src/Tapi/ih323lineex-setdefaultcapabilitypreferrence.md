@@ -4,16 +4,16 @@ ms.assetid: 0afcb25a-2499-4baa-82ad-0706164e2e72
 title: 'IH323LineEx :: SetDefaultCapabilityPreferrence, méthode (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5604348eb80a3f423f6902f0a9a6e57204280c83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64eb3385edb758529f27f9fb90eb0cce998eca60f202c72a28ba48a5318c6b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992079"
 ---
 # <a name="ih323lineexsetdefaultcapabilitypreferrence-method"></a>IH323LineEx :: SetDefaultCapabilityPreferrence, méthode
 
-\[**SetDefaultCapabilityPreferrence** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**SetDefaultCapabilityPreferrence** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SetDefaultCapabilityPreferrence** configure la préférence des fonctionnalités par défaut. Les capacités ont un poids par défaut de 100. Si l’application spécifie une pondération plus élevée pour une capacité, elle aura une priorité plus élevée au cours de la négociation H. 245. Si l’application définit le poids d’une capacité sur 0, elle n’est pas utilisée dans la négociation H. 245.
 

@@ -3,7 +3,7 @@ title: Macro MCI_HMS_SECOND (Mciapi. h)
 description: La \_ macro MCI HMS \_ second récupère le composant seconds à partir d’un paramètre contenant des informations sur les heures/minutes/secondes (HMS) compressées.
 ms.assetid: b6895bec-524f-4345-ae65-e75168855df2
 keywords:
-- MCI_HMS_SECOND macro multimédia Windows
+- MCI_HMS_SECOND macro Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 30b869141d6480ba0d986450ce950097ba240009
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bc61747d891d3c91afd5e4cb7f9a16eef44e13eb3de275bbf9575d8a4f584d40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039229"
 ---
 # <a name="mci_hms_second-macro"></a>HMS de la \_ \_ deuxième macro MCI
 
@@ -51,7 +51,7 @@ Heure au format HMS.
 
 Retourne le composant « secondes » des informations de HMS spécifiées.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’heure au format HMS est exprimée sous la forme d’une valeur **DWORD** avec l’octet le moins significatif contenant les heures, le prochain octet le moins significatif contenant les minutes et le prochain octet le moins significatif contenant les secondes. L’octet le plus significatif n’est pas utilisé.
 
