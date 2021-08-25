@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1afd78ba17e444520d8dec81eac05fffa103aede
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 45b8e95d1c29055c90046ae019a343b445a86f6629a8b190823e7c6a4f483e66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973189"
 ---
 # <a name="win32_logicalprogramgroupitem-class"></a>\_Classe LogicalProgramGroupItem Win32
 
@@ -126,7 +126,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 Instance au sein d’un système informatique. Les groupes de programmes sont implémentés en tant que dossiers de fichiers dans Win32. Les noms de chemin d’accès complets doivent être fournis.
 
-Exemple : « C : \\ Users \\ *quelqu’un* \\ AppData \\ Roaming \\ Microsoft \\ Windows \\ start menu \\ Program \\ Accessories \\ notepad. lnk »
+exemple : « C : \\ users \\ *quelqu’un* \\ AppData \\ roaming \\ Microsoft \\ Windows \\ Menu démarrer \\ programmes \\ accessoires \\ NotePad. Lnk »
 
 </dd> <dt>
 
@@ -238,11 +238,11 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ LogicalProgramGroupItem** est dérivée de [**Win32 \_ ProgramGroupOrItem**](win32-programgrouporitem.md).
 
-Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
+le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Par exemple, si vous énumérez cette classe sur l’ordinateur local, le compte sous lequel votre application s’exécute doit disposer de ce privilège. Pour plus d’informations, consultez [exécution d’opérations privilégiées](/windows/desktop/WmiSdk/executing-privileged-operations).
 
 ## <a name="requirements"></a>Configuration requise
 

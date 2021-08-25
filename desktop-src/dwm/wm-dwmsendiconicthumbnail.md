@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ded5b734278973afe35f5ed3d9fbb5b0aec9242b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3263f34cd59ba68ee895e5d5c77e297144cbadd6c8d8bbaa49ca6272248c2024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842649"
 ---
 # <a name="wm_dwmsendiconicthumbnail-message"></a>\_Message WM DWMSENDICONICTHUMBNAIL
 
@@ -47,7 +47,7 @@ Le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) de 
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 DWM envoie ce message à une fenêtre si toutes les situations suivantes sont vraies :
 
@@ -90,8 +90,8 @@ Pour obtenir un exemple complet, consultez les exemples de [miniatures Customize
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Dwmapi. h</dt> </dl> |
 
 

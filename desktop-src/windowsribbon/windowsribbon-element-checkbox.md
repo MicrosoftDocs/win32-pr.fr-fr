@@ -3,7 +3,7 @@ title: CheckBox, élément
 description: Représente un contrôle de case à cocher.
 ms.assetid: ebb44d6d-91fb-4a59-9b62-4a694fea8a4d
 keywords:
-- Ruban Windows de l’élément CheckBox
+- élément CheckBox Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4d9357337e569f43b14c34798c9c6e8da4b7b10b
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e1b4e1af322a573d5d51ddb35f11f51f6a873c60651e364cf81fc4d6adb5f082
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840939"
 ---
 # <a name="checkbox-element"></a>CheckBox, élément
 
 Représente un contrôle de case [à cocher](windowsribbon-controls-checkbox.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <CheckBox
@@ -136,7 +136,7 @@ Cette section de code montre les déclarations de contrôle **CheckBox** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

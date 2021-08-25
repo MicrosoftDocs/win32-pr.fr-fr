@@ -1,6 +1,6 @@
 ---
-title: Structures de mixage audio
-description: Structures de mixage audio
+title: Structures de Mixer Audio
+description: Structures de Mixer Audio
 ms.assetid: 82101519-6906-45fd-908f-137e51a56fb8
 keywords:
 - audio multimédia, structures de mixage audio
@@ -12,14 +12,14 @@ keywords:
 - référence pour les mixages audio, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2bc692aa00692376ce228a659e9c8f8d3a6e39a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 731932f5f84f21e17c6d0939a9bdd7c9bdc8f72729d3994d15eb5ab2e208c8b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808338"
 ---
-# <a name="audio-mixer-structures"></a>Structures de mixage audio
+# <a name="audio-mixer-structures"></a>Structures de Mixer Audio
 
 Les structures suivantes sont utilisées avec les mixages audio.
 
@@ -37,9 +37,9 @@ Les structures suivantes sont utilisées avec les mixages audio.
 
 <dl> <dt>
 
-[Référence du mélangeur audio](audio-mixer-reference.md)
+[référence de Mixer Audio](audio-mixer-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -34,12 +34,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: 6f5d35f8c3bdf556e188c2cab8ff2684449b226f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 031ae23301b78a9cced683551c9d7220aa66f7e0a48b504fe1a93721fd8d6a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849779"
 ---
 # <a name="d3dxshader-flags"></a>Indicateurs D3DXSHADER
 
@@ -102,7 +102,7 @@ Les indicateurs de l’assembleur sont utilisés par le système d’effet pour 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système Effect utilise les **indicateurs d’analyseur** lorsqu’il est appelé par les fonctions suivantes :
 

@@ -4,12 +4,12 @@ ms.assetid: bc7fdc74-be41-4d17-997c-27171ef73f0f
 title: Sources de l’événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2b408b76cdbc6e93e44099fea2842f9655a963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75c82c3328709a16ee7788025624a904ae7e25a21ddc83cecc9c41b27c283ab7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914789"
 ---
 # <a name="event-sources"></a>Sources de l’événement
 
@@ -78,7 +78,7 @@ Chaque source d’événement contient des informations (par exemple, un [fichie
 
  
 
-Lorsqu’une application utilise la fonction [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) ou [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) pour obtenir un handle vers un journal des événements, le service de journalisation des événements recherche la source d’événement spécifiée dans le registre. Par exemple, le journal des **applications** peut contenir des sources d’événements pour Microsoft SQL Server et Microsoft Excel. Si une application utilise [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) ou **OpenEventLog** avec un nom source d’application, SQL ou Excel, le service de journalisation des événements retourne un handle au journal des **applications** .
+Lorsqu’une application utilise la fonction [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) ou [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga) pour obtenir un handle vers un journal des événements, le service de journalisation des événements recherche la source d’événement spécifiée dans le registre. par exemple, le journal des **applications** peut contenir des sources d’événements pour Microsoft SQL Server et Microsoft Excel. si une application utilise [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) ou **OpenEventLog** avec le nom de source application, SQL ou Excel, le service de journalisation des événements retourne un handle au journal des **applications** .
 
 Une application peut utiliser le journal des **applications** sans ajouter une nouvelle source d’événement au registre. Si l’application appelle [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea) et transmet un nom de source qui est introuvable dans le registre, le service de journalisation des événements utilise par défaut le journal des **applications** . Toutefois, étant donné qu’il n’y a aucun fichier de message, les observateur d’événements ne peuvent pas mapper d’identificateurs d’événements ou de catégories d’événements à une chaîne de description, et affichent une erreur. Pour cette raison, vous devez ajouter une source d’événement unique au registre pour votre application et spécifier un fichier de message.
 

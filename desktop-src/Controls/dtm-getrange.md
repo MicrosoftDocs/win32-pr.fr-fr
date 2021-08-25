@@ -3,7 +3,7 @@ title: Message DTM_GETRANGE (commctrl. h)
 description: Obtient l’heure système actuelle minimale et maximale autorisée pour un contrôle de sélecteur de dates et d’heures (PAO). Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro DateTime GetRange.
 ms.assetid: 190cada6-49ee-483f-a464-d3d789127159
 keywords:
-- DTM_GETRANGE les contrôles de message Windows
+- DTM_GETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a50a2ae9fe4ca77198f9e63548f709e0f571fdb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d9c0c90780e4bcd35da2d410f7b4743547cbd8d31ac06293c411f2415e4e408
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877949"
 ---
 # <a name="dtm_getrange-message"></a>\_Message DTM GETRANGE
 
@@ -43,7 +43,7 @@ Pointeur vers un tableau à deux éléments de structures [**SystemTime**](/wind
 
 Retourne une valeur **DWORD** qui est une combinaison de GDTR \_ min ou GDTR \_ Max. Le premier élément du tableau [**SystemTime**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) contient l’heure minimale autorisée si GDTR \_ min est défini. Le deuxième élément du tableau **SystemTime** contient le temps maximal autorisé si GDTR \_ Max est défini.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le sélecteur de date et d’heure affiche uniquement les dates/heures qui se trouvent dans la plage spécifiée, ce qui empêche l’utilisateur de sélectionner une date et une heure situées en dehors de la plage. Si le message [**DTM \_ SETSYSTEMTIME**](dtm-setsystemtime.md) spécifie une date et une heure qui se situent en dehors de la plage, l’opération échoue.
 
@@ -53,8 +53,8 @@ Le sélecteur de date et d’heure affiche uniquement les dates/heures qui se tr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

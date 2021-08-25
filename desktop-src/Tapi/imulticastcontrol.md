@@ -4,16 +4,16 @@ ms.assetid: 9bdb4ab9-30b3-46fb-b13a-de9c294c8046
 title: Interface IMulticastControl (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98ad006ea41034d6d4da32359d1ecbcdd250ab6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e7469ca26a49bc25b36ae87727a1fdcf324bcf54e8a253805ed56f252c7f062
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905949"
 ---
 # <a name="imulticastcontrol-interface"></a>Interface IMulticastControl
 
-\[**IMulticastControl** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**IMulticastControl** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **IMulticastControl** est implémentée par le MSP ipconf et disponible uniquement sur les objets d’appel de multidiffusion. Cette interface expose des méthodes qui permettent la création et la manipulation de terminaux qui peuvent communiquer entre des clients H323 et SDP. L’interface **IMulticastControl** contrôle le mode de bouclage de multidiffusion.
 

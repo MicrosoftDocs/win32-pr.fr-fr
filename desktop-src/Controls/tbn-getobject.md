@@ -3,7 +3,7 @@ title: TBN_GETOBJECT le code de notification (commctrl. h)
 description: Envoyé par un contrôle ToolBar qui utilise le \_ style TBSTYLE REGISTERDROP pour demander un objet cible de déplacement lorsque le pointeur passe sur l’un de ses boutons. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 9fd8516d-fe2e-4f84-9035-e2246aba369a
 keywords:
-- Contrôles Windows de code de notification TBN_GETOBJECT
+- TBN_GETOBJECT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ed144245e351ca4e872128e68fe658bde7c0066
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c50f3d403089ca7db42ab89232e57d68121424c066914c534ba13a826adb8ea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876729"
 ---
 # <a name="tbn_getobject-notification-code"></a>\_Code de notification TBN GETOBJECT
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-
 
 L’application traitant ce code de notification doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour fournir un objet, une application doit définir des valeurs dans certains membres de la structure [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-commctrl-nmobjectnotify) au niveau de *lParam*. Le membre **pObject** doit être défini sur un pointeur d’objet valide et le membre **HRESULT** doit être défini sur un indicateur de réussite. Pour se conformer aux normes COM (Component Object Model), incrémentez toujours le nombre de références de l’objet lors de la fourniture d’un pointeur d’objet.
 
@@ -61,8 +61,8 @@ Si une application ne fournit pas d’objet, elle doit affecter la valeur **null
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

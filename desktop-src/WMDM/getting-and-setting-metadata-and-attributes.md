@@ -3,13 +3,13 @@ title: Obtention et définition des métadonnées et des attributs
 description: Obtention et définition des métadonnées et des attributs
 ms.assetid: 83534998-4e7d-49b6-a160-ef9a0ddea5db
 keywords:
-- Gestionnaire de périphériques Windows Media, attributs
+- Windows Gestionnaire de périphériques de média, attributs
 - Gestionnaire de périphériques, attributs
 - applications de bureau, attributs
 - fournisseurs de services, attributs
 - Guide de programmation, attributs
 - attributs
-- Gestionnaire de périphériques Windows Media, métadonnées
+- Windows Gestionnaire de périphériques de média, métadonnées
 - Gestionnaire de périphériques, métadonnées
 - applications de bureau, métadonnées
 - fournisseurs de services, métadonnées
@@ -17,18 +17,18 @@ keywords:
 - metadata
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8697f62dac44f5aab4b08aa4f6c516ac35a17e4e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d92c8311c3fff3c4785116604e53652c4f07b6b63b3a2c4389cc3dd4b6a5f35a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957559"
 ---
 # <a name="getting-and-setting-metadata-and-attributes"></a>Obtention et définition des métadonnées et des attributs
 
 Une application peut obtenir deux types d’informations sur un stockage ou un appareil : les attributs et les métadonnées. Les attributs sont des valeurs booléennes plus simples qui décrivent généralement les informations du système de fichiers, par exemple si un stockage a des objets enfants, s’il peut être renommé, lu ou supprimé, et ainsi de suite. Les attributs sont récupérés en tant que valeurs d’indicateurs en appelant [**IWMDMStorage :: GetAttributes**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-getattributes) ou [**IWMDMStorage2 :: GetAttributes2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2). Les attributs sont définis en appelant [**IWMDMStorage3 :: SetMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-setmetadata).
 
-Une application peut également demander des données plus complexes (numériques, de chaîne ou d’autres types de données) en tant que *métadonnées*. Les valeurs de métadonnées sont identifiées par des noms de chaîne uniques. Windows Media Gestionnaire de périphériques définit une liste de constantes de chaîne qui peuvent être utilisées pour demander des valeurs. ces valeurs définies sont répertoriées dans [constantes de métadonnées](metadata-constants.md). Un fournisseur de services peut définir ses propres constantes, mais une application appelante doit être consciente de ces définitions pour pouvoir demander ou définir ces valeurs de métadonnées personnalisées. L’application demande des métadonnées en appelant [**IWMDMStorage3 :: GetMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata) ou [**IWMDMStorage4 :: GetSpecifiedMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata).
+Une application peut également demander des données plus complexes (numériques, de chaîne ou d’autres types de données) en tant que *métadonnées*. Les valeurs de métadonnées sont identifiées par des noms de chaîne uniques. Windows Le Gestionnaire de périphériques de média définit une liste de constantes de chaîne qui peuvent être utilisées pour demander des valeurs. ces valeurs définies sont répertoriées dans [constantes de métadonnées](metadata-constants.md). Un fournisseur de services peut définir ses propres constantes, mais une application appelante doit être consciente de ces définitions pour pouvoir demander ou définir ces valeurs de métadonnées personnalisées. L’application demande des métadonnées en appelant [**IWMDMStorage3 :: GetMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage3-getmetadata) ou [**IWMDMStorage4 :: GetSpecifiedMetadata**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage4-getspecifiedmetadata).
 
 L’un des aspects importants de l’obtention et de la définition des métadonnées et des attributs est de savoir où proviennent les valeurs récupérées. Le fournisseur de services ou l’appareil peut récupérer ces valeurs à partir de différents emplacements, y compris les éléments suivants :
 
@@ -48,9 +48,9 @@ Pour plus d’informations sur l’obtention et la définition des valeurs, repo
 [**Tâches communes aux applications et aux fournisseurs de services**](tasks-common-to-applications-and-service-providers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

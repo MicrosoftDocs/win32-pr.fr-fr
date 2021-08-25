@@ -4,12 +4,12 @@ ms.assetid: 57d8164e-f587-4bb9-a0b1-6094037e584c
 title: Expert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf5fc0096b15d590bf70859443667f2d9969f1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c2f4c3e34a9f6b8b36fdc6aa4793acfa5b652b9fa2c2117afc62943c0947af6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890913"
 ---
 # <a name="expert"></a>Expert
 
@@ -38,7 +38,7 @@ Moniteur réseau appelle les fonctions suivantes pour gérer l’expert :
 
 -   [**DllMain**](dllmain-expert.md)
 -   [**Inscrire un expert**](register-expert.md)
--   [**Utilisez**](run.md)
+-   [**Exécuter**](run.md)
 -   [**Configurer**](configure.md)
 
 L’expert doit implémenter chacune des fonctions précédentes.

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b8545a697e672af7206a69ffa19618d5b70e055c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 41888a859b6b665390290ba66bed69418cbddd9b708355dc78cc2670ba4d240f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896079"
 ---
 # <a name="icontexttransactioninfogettxisolationlevelandtimeout-method"></a>IContextTransactionInfo :: GetTxIsolationLevelAndTimeout, méthode
 
@@ -64,7 +64,7 @@ Cette méthode peut retourner les valeurs de retour standard E \_ INVALIDARG, e 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
 
 
 

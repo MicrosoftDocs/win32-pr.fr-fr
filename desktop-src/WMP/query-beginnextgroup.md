@@ -3,9 +3,9 @@ title: Query. beginNextGroup, méthode
 description: La méthode beginNextGroup commence un nouveau groupe de conditions. | Query. beginNextGroup, méthode
 ms.assetid: e0c59bd0-0789-413e-ade8-8d53c6f3e19b
 keywords:
-- méthode beginNextGroup lecteur Windows Media
-- méthode beginNextGroup lecteur Windows Media, classe Query
-- Classe de requête lecteur Windows Media, méthode beginNextGroup
+- Lecteur Windows Media de la méthode beginNextGroup
+- méthode beginNextGroup Lecteur Windows Media, classe Query
+- Lecteur Windows Media de classe de requête, méthode beginNextGroup
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c043b9a0ea506e054877b4d8122304ced75e28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d12f8e37c32b83afb3e518deda09643033c7f396d8c52a2898893a01dc930d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861849"
 ---
 # <a name="querybeginnextgroup-method"></a>Query. beginNextGroup, méthode
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le démarrage d’un nouveau groupe de conditions implique que vous avez terminé le groupe de conditions actuel. Le nouveau groupe de conditions est toujours concaténé au groupe de conditions précédent à l’aide de ou de la logique.
 

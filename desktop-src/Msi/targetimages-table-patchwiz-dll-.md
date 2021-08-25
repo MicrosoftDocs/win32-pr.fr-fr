@@ -1,19 +1,19 @@
 ---
-description: La table TargetImages contient des informations sur les images cibles du produit. Un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau.
+description: La table TargetImages contient des informations sur les images cibles du produit. un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau.
 ms.assetid: 4681715e-9918-4d7b-8f33-1cca2bb34eb7
 title: Table TargetImages (Patchwiz.dll)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bbb8e7bae92fbc25b217808aaae709f079d65dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec35a9090f89e93e807cda9429ae48d8cc28d175acc4c83e97150e3a98ce5fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893589"
 ---
 # <a name="targetimages-table-patchwizdll"></a>Table TargetImages (Patchwiz.dll)
 
-La table TargetImages contient des informations sur les images cibles du produit. Un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau.
+La table TargetImages contient des informations sur les images cibles du produit. un package de correctifs Windows Installer met à jour une image cible en une image mise à niveau.
 
 Une table TargetImages contenant au moins un enregistrement est requise dans chaque base de données de création de correctif (fichier. PCP). Cette table est utilisée par la fonction [UiCreatePatchPackage](uicreatepatchpackage-patchwiz-dll-.md) .
 
@@ -49,7 +49,7 @@ Identificateur d’une image cible. Le package de correctifs met à jour l’ima
 <span id="MsiPath"></span><span id="msipath"></span><span id="MSIPATH"></span>MsiPath
 </dt> <dd>
 
-Ce champ spécifie le chemin d’accès complet, y compris le nom de fichier, à l’emplacement du fichier. msi de l’image cible. Il s’agit de l’emplacement des fichiers sources de l’image cible.
+Ce champ spécifie le chemin d’accès complet, y compris le nom de fichier, à l’emplacement du fichier .msi de l’image cible. Il s’agit de l’emplacement des fichiers sources de l’image cible.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Le champ ProductValidateFlags est utilisé pour spécifier la vérification du p
 <span id="IgnoreMissingSrcFiles"></span><span id="ignoremissingsrcfiles"></span><span id="IGNOREMISSINGSRCFILES"></span>IgnoreMissingSrcFiles
 </dt> <dd>
 
-Si ce champ est défini sur une valeur différente de zéro, les fichiers absents de l’image cible sont ignorés par le programme d’installation et restent inchangés lors de la mise à jour corrective. Cela permet d’effectuer des correctifs sans avoir besoin de l’intégralité de l’image. Seuls les fichiers modifiés du produit et le fichier. msi sont requis. Cela peut réduire le temps nécessaire pour générer le correctif.
+Si ce champ est défini sur une valeur différente de zéro, les fichiers absents de l’image cible sont ignorés par le programme d’installation et restent inchangés lors de la mise à jour corrective. Cela permet d’effectuer des correctifs sans avoir besoin de l’intégralité de l’image. Seuls les fichiers modifiés du produit et le fichier .msi sont requis. Cela peut réduire le temps nécessaire pour générer le correctif.
 
 > [!Note]  
 > N’utilisez pas la valeur IgnoreMissingSrcFiles avec TrustMsi défini sur 1 dans le [tableau des propriétés](properties-table-patchwiz-dll-.md).
@@ -93,7 +93,7 @@ Si ce champ est défini sur une valeur différente de zéro, les fichiers absent
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table accepte les variables d’environnement en tant que chemins d’accès commençant par la version 4,0 de Patchwiz.dll.
 

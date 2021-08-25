@@ -7,16 +7,16 @@ keywords:
 - Gestion matérielle à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68bbb470d513b49d2158865c4c42051cc16856ed
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: db94c1f50b05f5180504ecef68bf10b1a5a596c9a9f88b96e7c5efb9faaa89bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858729"
 ---
 # <a name="remote-hardware-management"></a>Gestion matérielle à distance
 
-Windows Remote Management la gestion du matériel est destinée à réduire les coûts d’administration informatique globaux en fournissant la surveillance et le contrôle des composants matériels distants, en particulier avant le démarrage du système et après une défaillance du système d’exploitation.
+Windows La gestion du matériel de gestion à distance vise à réduire les coûts globaux de l’administration informatique en fournissant la surveillance et le contrôle des composants matériels distants, en particulier avant le démarrage du système et après une défaillance du système d’exploitation.
 
 Les fabricants d’ordinateurs OEM ont développé une architecture commune pour répondre au besoin de gestion du matériel. Un élément important de cette architecture est le [*contrôleur BMC (Baseboard Management Controller*](windows-remote-management-glossary.md) ). Un contrôleur BMC est un appareil spécialisé qui surveille l’état de l’ordinateur serveur. Le BMC permet de contrôler à distance le matériel du serveur, récupère les données d’État et reçoit des notifications sur les erreurs critiques et les autres changements d’État du matériel. Un script ou une application qui analyse un serveur distant peut obtenir des données du serveur [*en interne*](windows-remote-management-glossary.md), via le système d’exploitation distant ou [*hors bande*](windows-remote-management-glossary.md), directement à partir du BMC.
 
@@ -33,9 +33,9 @@ Le contrôleur BMC possède également une base de données d’événements app
 [Protocole Gestion des services web](ws-management-protocol.md)
 </dt> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

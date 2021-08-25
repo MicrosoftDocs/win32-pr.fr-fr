@@ -4,18 +4,18 @@ description: Vous pouvez générer des scripts d’objets COM dans des applicati
 ms.assetid: 3a074360-8b6c-4cb6-813b-73863fe11c46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5d73244ce5bd6c56deeda9bf4e3e4986b3d4039
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b8ba1bbdd0729a8893b1c28d1a2347fc5ddea04c8d0de4e1ea413e765ab8df4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896198"
 ---
 # <a name="using-com-objects-in-active-server-pages"></a>Utilisation d’objets COM dans des pages Active Server
 
 Vous pouvez générer des scripts d’objets COM dans des applications ASP (Active Server Pages). Pour ce faire, vous devez d’abord créer une instance de l’objet à l’aide de la balise OBJECT ou en appelant la méthode CreateObject de l’objet serveur ASP. Une fois qu’un objet COM a été créé, vous pouvez l’utiliser dans les scripts suivants sur la page ASP.
 
-À l’aide d’ASP, vous pouvez travailler avec différents types de moteurs de script, chacun prenant en charge un langage de script différent. ASP est fourni avec les moteurs de script VBScript et JScript. Vous pouvez également intégrer des moteurs de script développés par d’autres entreprises pour prendre en charge des langages tels que PerlScript, PScript, Python et d’autres.
+À l’aide d’ASP, vous pouvez travailler avec différents types de moteurs de script, chacun prenant en charge un langage de script différent. ASP est fourni avec des moteurs de script VBScript et JScript. Vous pouvez également intégrer des moteurs de script développés par d’autres entreprises pour prendre en charge des langages tels que PerlScript, PScript, Python et d’autres.
 
 Si vous ne définissez pas le langage de script pour une page ASP, VBScript est la valeur par défaut. Pour spécifier un langage de script autre que VBScript, ajoutez une ligne telle que la suivante en haut de chaque page ASP :
 
@@ -69,9 +69,9 @@ Une fois que vous avez créé une instance de l’objet COM, vous pouvez l’uti
 [Écriture de scripts avec des objets COM](scripting-with-com-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

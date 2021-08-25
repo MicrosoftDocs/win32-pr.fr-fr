@@ -4,20 +4,20 @@ description: Les fonctions d’alerte de gestion de réseau notifient les progra
 ms.assetid: e131191b-7413-45ff-84cd-b3a873d33ca1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80fde863b27bebc8bf815c939f7edf96cd998442
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 411a9bab5f8b74b5dc6e83d9a3c09cdcaeebf66d34c265ad27639e7aab8d7c00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912459"
 ---
 # <a name="alert-functions"></a>Fonctions d’alerte
 
-\[Les fonctions d’alerte ne sont pas prises en charge à partir de Windows Vista, car les services alertes et Messenger ne sont pas pris en charge.\]
+\[les fonctions d’alerte ne sont pas prises en charge à partir de Windows Vista, car les services alertes et messenger ne sont pas pris en charge.\]
 
 Les fonctions d’alerte de gestion de réseau notifient les programmes de service réseau et les applications d’événements réseau. Un *événement* est une instance particulière d’un processus, d’une occurrence ou d’un état de matériel tel que défini par une application. Les fonctions d’alerte permettent aux applications d’indiquer quand des événements prédéfinis se produisent.
 
-**Windows Server 2003 :** Les services alertes et Messenger sont désactivés par défaut sur Windows Server 2003. Vous devez réactiver les services avant d’appeler les fonctions d’alerte de gestion de réseau ou les [fonctions de message](message-functions.md)de gestion de réseau.
+**Windows Server 2003 :** les services alertes et messenger sont désactivés par défaut sur Windows Server 2003. Vous devez réactiver les services avant d’appeler les fonctions d’alerte de gestion de réseau ou les [fonctions de message](message-functions.md)de gestion de réseau.
 
 Les fonctions d’alerte sont répertoriées ci-après.
 
@@ -30,7 +30,7 @@ Les fonctions d’alerte sont répertoriées ci-après.
 
 
 
- 
+ 
 
 Le service d’alerte doit être en cours d’exécution sur l’ordinateur client lorsque vous appelez la fonction **NetAlertRaise** ou la fonction **NetAlertRaiseEx** . Si le service n’est pas en cours d’exécution, les fonctions échouent avec le **fichier d’erreur \_ \_ \_ introuvable**. Le service d’alerte sur le client appelle la fonction [**NetMessageBufferSend**](/windows/desktop/api/Lmmsg/nf-lmmsg-netmessagebuffersend) pour envoyer des informations aux destinataires.
 
@@ -59,10 +59,10 @@ Les macros suivantes peuvent être utilisées avec des tampons de données d’a
 
 
 
- 
+ 
 
-Au lieu d’utiliser les fonctions d’alerte de gestion de réseau, vous pourrez peut-être utiliser le kit de développement logiciel (SDK) Windows Management Instrumentation (WMI) pour la notification d’événements. Pour plus d’informations sur les plateformes qui prennent en charge le modèle d’événement WMI, consultez [infrastructure WMI](/windows/desktop/WmiSdk/wmi-infrastructure) et [événements de surveillance](/windows/desktop/WmiSdk/monitoring-events) dans la documentation WMI.
+au lieu d’utiliser les fonctions d’alerte de gestion de réseau, vous pourrez peut-être utiliser le kit de développement logiciel (SDK) Windows Management Instrumentation (WMI) pour la notification d’événements. Pour plus d’informations sur les plateformes qui prennent en charge le modèle d’événement WMI, consultez [infrastructure WMI](/windows/desktop/WmiSdk/wmi-infrastructure) et [événements de surveillance](/windows/desktop/WmiSdk/monitoring-events) dans la documentation WMI.
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 388d62d1e9c8f529a51a798d445c9535989d908a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13b458a5d66d8d6fd90a58519ce57de03f625087be4123f2e51ca8c09534ed96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879839"
 ---
 # <a name="ms-ds-service-connection-point-publication-service-class"></a>ms-DS-Service-Connection-point-publication-service (classe)
 
@@ -86,14 +86,14 @@ Cette classe contient les attributs suivants pour ADAM :
 | [**Nom complet**](a-displayname.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/>                        |
-| [**Enabled**](a-enabled.md)                                                | Faux     | **ms-DS-Service-Connection-point-publication-service** |
+| [**Activé**](a-enabled.md)                                                | Faux     | **ms-DS-Service-Connection-point-publication-service** |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**FSMO-Role-owner**](a-fsmoroleowner.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**Type d’instance**](a-instancetype.md)                                     | Vrai      | [**Retour au début**](c-top.md)<br/>                        |
 | [**Is-Critical-System-Object**](a-iscriticalsystemobject.md)               | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**Est supprimé**](a-isdeleted.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**Is-Member-of-DL**](a-memberof.md)                                       | Faux     | [**Retour au début**](c-top.md)<br/>                        |
-| [**Mots clés**](a-keywords.md)                                              | Faux     | **ms-DS-Service-Connection-point-publication-service** |
+| [**Mot**](a-keywords.md)                                              | Faux     | **ms-DS-Service-Connection-point-publication-service** |
 | [**Dernier-parent connu**](a-lastknownparent.md)                              | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**Objets managés**](a-managedobjects.md)                                 | Faux     | [**Retour au début**](c-top.md)<br/>                        |
 | [**Masterisé-par**](a-masteredby.md)                                         | Faux     | [**Retour au début**](c-top.md)<br/>                        |

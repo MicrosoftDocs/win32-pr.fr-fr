@@ -1,19 +1,19 @@
 ---
-description: WMI (Windows Management Infrastructure), MI (Management Instrumentation) et OMI (Open Management Infrastructure) utilisent tous des fichiers MOF (Management Object Format) pour décrire les informations mises à disposition par leurs fournisseurs respectifs.
+description: Windows Management infrastructure (WMI), Management Instrumentation (MI) et Open Management infrastructure (OMI) utilisent tous des fichiers MOF (Management Object Format) pour décrire les informations mises à disposition par leurs fournisseurs respectifs.
 ms.assetid: 5ec3c6a2-df23-446d-a4da-b8e207eeb6f6
 title: Fournisseurs WMI/MI/OMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505a0853d9df7d9cf6f2371f6342b77f61f536b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 682629f72da94cd2210fb781284a7cb4cf7f85868ff405f22727e619d128ae65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992415"
 ---
 # <a name="wmimiomi-providers"></a>Fournisseurs WMI/MI/OMI
 
-WMI (Windows Management Infrastructure), MI (Management Instrumentation) et OMI (Open Management Infrastructure) utilisent tous des fichiers MOF (Management Object Format) pour décrire les informations mises à disposition par leurs fournisseurs respectifs.
+Windows Management infrastructure (WMI), Management Instrumentation (MI) et Open Management infrastructure (OMI) utilisent tous des fichiers MOF (Management Object Format) pour décrire les informations mises à disposition par leurs fournisseurs respectifs.
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ Le fournisseur Active Directory, également connu sous le nom de fournisseur des
 <span id="Application_Inventory"></span><span id="application_inventory"></span><span id="APPLICATION_INVENTORY"></span>[Inventaire des applications](/previous-versions/windows/desktop/appdevinvprov/applicationanddeviceinventory-portal)
 </dt> <dd>
 
-Les classes WMI pour l’inventaire des applications permettent la découverte des applications Win32 installées et des applications du Windows Store sur un système Windows.
+les classes WMI pour l’inventaire des applications permettent la découverte des applications Win32 installées et des applications de Windows store sur un système Windows.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ Fournit la configuration et la gestion d’une zone de stockage sur un lecteur d
 <span id="BITS"></span><span id="bits"></span>[BITS](/previous-versions/windows/desktop/bitsprov/bits-provider)
 </dt> <dd>
 
-Le serveur compact Service de transfert intelligent en arrière-plan (BITS) avec la gestion à distance BITS permet aux administrateurs authentifiés ou aux applications de contrôleur de créer, modifier et gérer des tâches de transfert BITS à distance sans utiliser le service Internet Information Services (IIS).
+le serveur Compact Service de transfert intelligent en arrière-plan (bits) avec la gestion à distance bits permet aux administrateurs authentifiés ou aux applications de contrôleur de créer, modifier et gérer des tâches de transfert bits à distance sans utiliser le Service Internet Information Services (IIS).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Le fournisseur Données de configuration de démarrage (BCD) (BCD) fournit un ma
 <span id="Boot_Event_Collector"></span><span id="boot_event_collector"></span><span id="BOOT_EVENT_COLLECTOR"></span>[Collecteur d’événements de démarrage](/windows/desktop/BEvtColProv/boot-event-collector-wmi-provider-portal)
 </dt> <dd>
 
-Le fournisseur WMI du collecteur d’événements de démarrage fournit l’accès aux informations de connexion et de configuration pour la fonctionnalité de collecte d’événements d’installation et de démarrage sur Windows Server.
+le fournisseur WMI du collecteur d’événements de démarrage fournit l’accès aux informations de connexion et de configuration pour la fonctionnalité de collecte d’événements d’installation et de démarrage sur Windows Server.
 
 </dd> <dt>
 
@@ -125,7 +125,7 @@ Le fournisseur [DhcpServerPSProvider](/previous-versions/windows/desktop/dhcpser
 <span id="Disk_Quota"></span><span id="disk_quota"></span><span id="DISK_QUOTA"></span>[Quota de disque](/previous-versions/windows/desktop/wmipdskq/disk-quota-provider)
 </dt> <dd>
 
-Le fournisseur de quotas de disque Windows permet aux administrateurs de contrôler la quantité de données que chaque utilisateur stocke sur un système de fichiers NTFS.
+le fournisseur de quotas de disque Windows permet aux administrateurs de contrôler la quantité de données que chaque utilisateur stocke sur un système de fichiers NTFS.
 
 </dd> <dt>
 
@@ -174,7 +174,7 @@ Le fournisseur du [Journal des événements](/previous-versions/windows/desktop/
 <span id="Event_Tracing_Management"></span><span id="event_tracing_management"></span><span id="EVENT_TRACING_MANAGEMENT"></span>[Gestion du suivi des événements](/previous-versions/windows/desktop/etwmgmt/event-tracing-management-wmi-provider-portal)
 </dt> <dd>
 
-Le fournisseur de gestion du suivi d’événements fournit l’accès aux configurations de session de journalisation automatique Suivi d’v nements pour Windows (ETW) et aux événements de trace.
+le fournisseur de gestion du suivi d’événements fournit l’accès aux configurations de session de journalisation automatique Suivi d’v nements pour Windows (ETW) et aux événements de trace.
 
 </dd> <dt>
 
@@ -192,10 +192,10 @@ Le fournisseur Hyper-V de clustering de basculement fournit la gestion et la cr�
 
 </dd> <dt>
 
-<span id="Failover_Clustering_Storage_QoS"></span><span id="failover_clustering_storage_qos"></span><span id="FAILOVER_CLUSTERING_STORAGE_QOS"></span>[QoS de stockage du clustering de basculement](/previous-versions/windows/desktop/clusstorageqosprov/failover-clustering-storage-qos-mi-provider-portal)
+<span id="Failover_Clustering_Storage_QoS"></span><span id="failover_clustering_storage_qos"></span><span id="FAILOVER_CLUSTERING_STORAGE_QOS"></span>[clustering de basculement Stockage QoS](/previous-versions/windows/desktop/clusstorageqosprov/failover-clustering-storage-qos-mi-provider-portal)
 </dt> <dd>
 
-Le fournisseur de qualité de service (QoS) de stockage du clustering de basculement fournit la gestion et la création de rapports des stratégies QoS de stockage de cluster.
+le clustering de basculement Stockage fournisseur de qualité de Service (qos) fournit la gestion et la création de rapports des stratégies qos de stockage du clustering.
 
 </dd> <dt>
 
@@ -213,10 +213,10 @@ Le fournisseur d’extensions de cluster de basculement fournit une gestion supp
 
 </dd> <dt>
 
-<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[Moniteur d’intégrité de la passerelle](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
+<span id="Gateway_Health_Monitor"></span><span id="gateway_health_monitor"></span><span id="GATEWAY_HEALTH_MONITOR"></span>[Health Monitor de la passerelle](/previous-versions/windows/desktop/gatewayhealthmonprov/gateway-health-monitor-wmi-provider-portal)
 </dt> <dd>
 
-Le fournisseur du moniteur d’intégrité de la passerelle gère les événements et les informations de surveillance de l’intégrité de la passerelle.
+le fournisseur de Health Monitor de passerelle gère les événements et les informations de surveillance de l’intégrité de la passerelle.
 
 </dd> <dt>
 
@@ -255,10 +255,10 @@ Expose des interfaces de programmation qui peuvent être utilisées pour interro
 
 </dd> <dt>
 
-<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[Serveur de gestion des adresses IP (IPAM)](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
+<span id="Internet_Protocol_Address_Management__IPAM__Server"></span><span id="internet_protocol_address_management__ipam__server"></span><span id="INTERNET_PROTOCOL_ADDRESS_MANAGEMENT__IPAM__SERVER"></span>[serveur de gestion des adresses ip (IPAM)](/previous-versions/windows/desktop/ipamserverpsprov/internet-protocol-address-management-server-wmi-provider-portal)
 </dt> <dd>
 
-Le fournisseur de serveur IPAM permet aux développeurs de gérer IPAM via WMI.
+le fournisseur IPAM Server permet aux développeurs de gérer des IPAM par le biais de WMI.
 
 </dd> <dt>
 
@@ -279,7 +279,7 @@ Fournit des données IPMI à partir des opérations du contrôleur BMC (Baseboar
 <span id="iSCSI_Target_Server"></span><span id="iscsi_target_server"></span><span id="ISCSI_TARGET_SERVER"></span>[Serveur cible iSCSI](/previous-versions/windows/desktop/iscsitarg/iscsi-software-target-api-portal)
 </dt> <dd>
 
-Le fournisseur de serveur cible iSCSI prend en charge une interface WMI pour la gestion du serveur cible Microsoft iSCSI, telle que la création de disques virtuels, et la présentation du client au client.
+le fournisseur Serveur cible iSCSI prend en charge une interface WMI pour la gestion des Serveur cible iSCSI Microsoft, telles que la création de disques virtuels et la présentation du client au client.
 
 </dd> <dt>
 
@@ -335,7 +335,7 @@ Le fournisseur de pont MDM active la gestion MDM d’un pont réseau.
 <span id="MDM_Settings"></span><span id="mdm_settings"></span><span id="MDM_SETTINGS"></span>[Paramètres MDM](/previous-versions/windows/desktop/mdmsettingsprov/mobile-device-management-settings-provider-portal)
 </dt> <dd>
 
-Le fournisseur de paramètres MDM permet de gérer les paramètres sur les appareils inscrits auprès d’un service MDM.
+le fournisseur de Paramètres mdm permet de gérer les paramètres sur les appareils inscrits auprès d’un service mdm.
 
 </dd> <dt>
 
@@ -440,7 +440,7 @@ Le fournisseur permet la gestion d’un serveur de contrôleur de réseau.
 <span id="NFS"></span><span id="nfs"></span>[NFS](/previous-versions/windows/desktop/nfswmi/wmi-provider-for-nfs-portal)
 </dt> <dd>
 
-Le fournisseur pour NFS vous permet de créer des outils et des scripts pour configurer et surveiller le système de fichiers réseau Windows.
+le fournisseur pour NFS vous permet de créer des outils et des scripts pour configurer et surveiller le Windows système de fichiers réseau.
 
 </dd> <dt>
 
@@ -489,7 +489,7 @@ Le fournisseur [RAServerPSProvider](/previous-versions/windows/desktop/raserverp
 <span id="ReliabilityMetricsProvider"></span><span id="reliabilitymetricsprovider"></span><span id="RELIABILITYMETRICSPROVIDER"></span>[ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes)
 </dt> <dd>
 
-Le fournisseur [ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes) expose les mesures de fiabilité du journal des événements système et Windows.
+le fournisseur [ReliabilityMetricsProvider](/previous-versions/windows/desktop/racwmiprov/reliabilitymetricsprovider-provider-classes) expose les mesures de fiabilité du journal des événements système et Windows.
 
 </dd> <dt>
 
@@ -566,18 +566,18 @@ L’API de gestion SMB fournit des classes et des méthodes pour gérer les part
 <span id="SNMP"></span><span id="snmp"></span>[SMTP](/windows/desktop/WmiSdk/snmp-provider)
 </dt> <dd>
 
-Mappe les objets SNMP (simple Network Management Protocol) définis dans les objets de schéma MIB (Management Information base) aux classes. Pour plus d’informations, consultez [configuration de l’environnement SNMP WMI](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment).
+Cartes Objets SNMP (simple Network Management Protocol) définis dans les objets de schéma MIB (Management Information base) aux classes. Pour plus d’informations, consultez [configuration de l’environnement SNMP WMI](/windows/desktop/WmiSdk/setting-up-the-wmi-snmp-environment).
 
 </dd> <dt>
 
 <span id="Software_Inventory_Logging"></span><span id="software_inventory_logging"></span><span id="SOFTWARE_INVENTORY_LOGGING"></span>[Journalisation de l’inventaire logiciel](/previous-versions/windows/desktop/sil/software-inventory-logging-portal)
 </dt> <dd>
 
-Le fournisseur de journalisation de l’inventaire logiciel recueille les données de licence relatives aux logiciels installés sur un serveur Windows et fournit un accès à distance aux données afin qu’elles puissent être agrégées facilement par un centre de données.
+le fournisseur de journalisation de l’inventaire logiciel recueille les données de licence relatives aux logiciels installés sur un serveur Windows et fournit un accès à distance aux données afin de pouvoir les agréger facilement à l’aide d’un centre de données.
 
 </dd> <dt>
 
-<span id="Software_Licensing_for_"></span><span id="software_licensing_for_"></span><span id="SOFTWARE_LICENSING_FOR_"></span>[Licences logicielles pour Windows Vista](/previous-versions/windows/desktop/slwmiprov/software-licensing-classes-for-windows-vista)
+<span id="Software_Licensing_for_"></span><span id="software_licensing_for_"></span><span id="SOFTWARE_LICENSING_FOR_"></span>[licences logicielles pour Windows Vista](/previous-versions/windows/desktop/slwmiprov/software-licensing-classes-for-windows-vista)
 </dt> <dd>
 
 [Classes de licences logicielles](/previous-versions/windows/desktop/sppwmi/software-license-provider-) utilisées pour Windows Vista.
@@ -591,14 +591,14 @@ Le fournisseur de licences logicielles récupère les données de licence logici
 
 </dd> <dt>
 
-<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[Volume de stockage](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
+<span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>[Stockage Agrégat](/previous-versions/windows/desktop/vdswmi/storage-volume-provider)
 </dt> <dd>
 
-Le fournisseur de volume de stockage fournit des fonctions de gestion de volume.
+le fournisseur de volume Stockage fournit des fonctions de gestion de volume.
 
 </dd> <dt>
 
-<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[Réplica de stockage](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
+<span id="Storage_Replica"></span><span id="storage_replica"></span><span id="STORAGE_REPLICA"></span>[Stockage Double](/previous-versions/windows/desktop/wvrcimprov/storage-replica-mi-provider-portal)
 </dt> <dd>
 
 Le fournisseur permet la gestion d’un réplica de stockage.
@@ -622,7 +622,7 @@ Fournit des classes qui configurent et utilisent la fonctionnalité de restaurat
 <span id="Trusted_Platform_Module"></span><span id="trusted_platform_module"></span><span id="TRUSTED_PLATFORM_MODULE"></span>[Module de plateforme sécurisée (TPM)](/windows/desktop/SecProv/trusted-platform-module-provider)
 </dt> <dd>
 
-Fournit l’accès aux données relatives à un appareil de sécurité, représenté par une instance de [**\_ TPM Win32**](/windows/desktop/SecProv/win32-tpm), qui est la racine de l’approbation pour un système informatique de plateforme sécurisée Microsoft Windows.
+fournit l’accès aux données relatives à un appareil de sécurité, représenté par une instance de [**\_ TPM Win32**](/windows/desktop/SecProv/win32-tpm), qui est la racine de l’approbation pour un système informatique de plateforme sécurisée Microsoft Windows.
 
 </dd> <dt>
 
@@ -636,14 +636,14 @@ Le fournisseur [TrustMon](/previous-versions/windows/desktop/trustmonprov/trustm
 <span id="User_Access_Logging"></span><span id="user_access_logging"></span><span id="USER_ACCESS_LOGGING"></span>[Journalisation des accès utilisateur](/previous-versions/windows/desktop/ual/user-access-logging)
 </dt> <dd>
 
-La journalisation des accès utilisateur est un Framework commun pour les rôles Windows Server afin de signaler leurs mesures de consommation respectives.
+la journalisation des accès utilisateur est un framework commun pour les rôles de serveur Windows pour signaler leurs mesures de consommation respectives.
 
 </dd> <dt>
 
 <span id="UserProfileProvider"></span><span id="userprofileprovider"></span><span id="USERPROFILEPROVIDER"></span>[UserProfileProvider](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes)
 </dt> <dd>
 
-Le fournisseur [UserProfileProvider](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes) expose des classes qui fournissent des informations sur un profil utilisateur sur un système Windows, ainsi que l’état d’intégrité d’un dossier utilisateur Redirigé.
+le fournisseur [UserProfileProvider](/previous-versions/windows/desktop/userprofileprov/userprofileprovider-provider-classes) expose des classes qui fournissent des informations sur un profil utilisateur sur un système Windows, ainsi que l’état d’intégrité d’un dossier utilisateur redirigé.
 
 </dd> <dt>
 
@@ -671,7 +671,7 @@ Le fournisseur [VPNClientPSProvider](/previous-versions/windows/desktop/vpnclien
 <span id="WDM"></span><span id="wdm"></span>[WDM](/windows/desktop/WmiCoreProv/wdm-provider)
 </dt> <dd>
 
-Permet d’accéder aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au Windows Driver Model (WDM).
+permet d’accéder aux classes, aux instances, aux méthodes et aux événements des pilotes matériels conformes au Windows Driver Model (WDM).
 
 </dd> <dt>
 
@@ -696,7 +696,7 @@ Le fournisseur [Win32ClockProvider](/previous-versions/windows/desktop/wmitimepp
 
 </dd> <dt>
 
-<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Composants WDAC (Windows Data Access Components)](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
+<span id="Windows_Data_Access_Components__WDAC_"></span><span id="windows_data_access_components__wdac_"></span><span id="WINDOWS_DATA_ACCESS_COMPONENTS__WDAC_"></span>[Windows Composants d’accès aux données (WDAC)](/previous-versions/windows/desktop/wdacwmiprov/windows-data-access-components-wmi-provider-portal)
 </dt> <dd>
 
 Fournit la gestion de WDAC.
@@ -706,49 +706,49 @@ Fournit la gestion de WDAC.
 <span id="Windows_Defender"></span><span id="windows_defender"></span><span id="WINDOWS_DEFENDER"></span>[Windows Defender](/previous-versions/windows/desktop/defender/windows-defender-wmiv2-apis-portal)
 </dt> <dd>
 
-Le fournisseur Windows Defender expose les fonctionnalités de sécurité de Windows Defender.
+le fournisseur Windows Defender expose Windows Defender fonctionnalités de sécurité.
 
 </dd> <dt>
 
-<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[Windows Installer](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
+<span id="Windows_Installer"></span><span id="windows_installer"></span><span id="WINDOWS_INSTALLER"></span>[Windows D'](/previous-versions/windows/desktop/msiprov/windows-installer-provider)
 </dt> <dd>
 
-Le fournisseur Windows Installer, également connu sous le nom de fournisseur MSI, permet aux applications d’accéder aux informations collectées à partir d’applications conformes Windows Installer.
+le fournisseur Windows Installer, également connu sous le nom de fournisseur MSI, permet aux applications d’accéder aux informations collectées à partir d’applications conformes Windows Installer.
 
 </dd> <dt>
 
-<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Activation de produit Windows](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
+<span id="Windows_Product_Activation"></span><span id="windows_product_activation"></span><span id="WINDOWS_PRODUCT_ACTIVATION"></span>[Windows Activation du produit](/previous-versions/windows/desktop/licwmiprov/windows-product-activation-provider)
 </dt> <dd>
 
-Le fournisseur d’activation de produit Windows (WPA) est une technologie anti-piratage visant à réduire la copie occasionnelle des logiciels.
+le fournisseur WPA (Windows Product Activation) est une technologie anti-piratage visant à réduire la copie occasionnelle des logiciels.
 
 </dd> <dt>
 
-<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[Gestionnaire de serveur Windows](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
+<span id="Windows_Server_Manager"></span><span id="windows_server_manager"></span><span id="WINDOWS_SERVER_MANAGER"></span>[Windows Gestionnaire de serveur](/previous-versions/windows/desktop/mgmtprovider/windows-server-manager-wmi-provider-portal)
 </dt> <dd>
 
 Le fournisseur permet l’accès et la gestion de la configuration contrôlée par l’application Gestionnaire de serveur.
 
 </dd> <dt>
 
-<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Gestion du stockage Windows Server (MsftStrgMan)](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
+<span id="Windows_Server_Storage_Management__MsftStrgMan_"></span><span id="windows_server_storage_management__msftstrgman_"></span><span id="WINDOWS_SERVER_STORAGE_MANAGEMENT__MSFTSTRGMAN_"></span>[Windows gestion des Stockage de serveur (MsftStrgMan)](/previous-versions/windows/desktop/msftstrgmanprov/windows-storage-management-wmi-provider-portal)
 </dt> <dd>
 
-Le fournisseur MsftStrgMan fournit la gestion des systèmes de stockage sur les produits Windows Server.
+le fournisseur MsftStrgMan fournit la gestion des systèmes de stockage sur les produits Windows Server.
 
 </dd> <dt>
 
-<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[Gestion du stockage Windows (StrgMgmt)](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
+<span id="Windows_Storage_Management__StrgMgmt_"></span><span id="windows_storage_management__strgmgmt_"></span><span id="WINDOWS_STORAGE_MANAGEMENT__STRGMGMT_"></span>[gestion de la Stockage Windows (StrgMgmt)](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)
 </dt> <dd>
 
 Le fournisseur StrgMgmt peut être utilisé pour gérer un large éventail de configurations de stockage, de tablettes à des groupes de stockage externes sur les serveurs.
 
 </dd> <dt>
 
-<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Outil d’évaluation système Windows](/windows/desktop/WinSAT/winsat-mof-classes)
+<span id="Windows_System_Assessment_Tool"></span><span id="windows_system_assessment_tool"></span><span id="WINDOWS_SYSTEM_ASSESSMENT_TOOL"></span>[Windows Outil d’évaluation du système](/windows/desktop/WinSAT/winsat-mof-classes)
 </dt> <dd>
 
-L’outil d’évaluation système Windows (WinSAT) expose un certain nombre de classes qui évaluent les caractéristiques de performances et les fonctionnalités d’un ordinateur.
+l’outil Windows System Assessment Tool (winsat) expose un certain nombre de classes qui évaluent les caractéristiques de performances et les fonctionnalités d’un ordinateur.
 
 </dd> <dt>
 

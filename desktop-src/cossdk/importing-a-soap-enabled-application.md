@@ -4,12 +4,12 @@ ms.assetid: 7f4783f7-4f53-4f0b-bb64-ae7903097d6c
 title: Importation d’une application SOAP-Enabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9faca91a726caea765d4b2ca227ddba0ff3a2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a41a60c2b5ca69197582a684920e9e935f28631779bc632810049f1a7d03945
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858919"
 ---
 # <a name="importing-a-soap-enabled-application"></a>Importation d’une application SOAP-Enabled
 
@@ -37,7 +37,7 @@ Non applicable.
 
 Non applicable.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les composants COM sont identifiés par un GUID, qui change si les composants sont recompilés. Si un composant COM configuré qui est exposé en tant que service Web XML est recompilé, les applications clientes qui l’utilisent s’arrêteront. Par conséquent, lorsqu’un composant qui est exposé en tant que service Web XML est recompilé, les clients doivent réimporter les applications qui utilisent le composant.
 

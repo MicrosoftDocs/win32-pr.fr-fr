@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acde97e19b02ad08b3833f1c1c4eb3e0dd4b147
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4b2ee4722825f0404d590d593a2c7f72c815f8cfd2ad4991b0a604c188bfbfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829869"
 ---
 # <a name="wm_rbuttondblclk-message"></a>\_Message WM RBUTTONDBLCLK
 
@@ -74,7 +74,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seules les fenêtres qui ont le style **cs \_ DBLCLKS** peuvent recevoir des messages **WM \_ RBUTTONDBLCLK** , que le système génère chaque fois que l’utilisateur appuie sur, relâche, puis appuie encore sur le bouton droit de la souris dans le délai imparti pour le double-clic du système. Le fait de double-cliquer sur le bouton droit de la souris génère en fait quatre messages : [**WM \_ RBUTTONDOWN**](wm-rbuttondown.md), [**WM \_ RBUTTONUP**](wm-rbuttonup.md), **WM \_ RBUTTONDBLCLK** et **WM \_ RBUTTONUP** .
 

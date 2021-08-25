@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7489dc7059f10e1a6f61d1a290f8f664a385f96c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 348092e079428e0b147d8143411cee7766365913115f968ed0e112b209383077
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862659"
 ---
 # <a name="wmdmmessage-enumeration"></a>Énumération WMDMMessage
 
@@ -47,28 +47,28 @@ enum WMDMMessage {
 <span id="WMDM_MSG_DEVICE_ARRIVAL"></span><span id="wmdm_msg_device_arrival"></span>**arrivée de l' \_ appareil WMDM MSG \_ \_**
 </dt> <dd>
 
-Un appareil Windows Media Gestionnaire de périphériques a été branché.
+un appareil Windows Media Gestionnaire de périphériques a été branché.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_DEVICE_REMOVAL"></span><span id="wmdm_msg_device_removal"></span>**suppression de l' \_ appareil WMDM MSG \_ \_**
 </dt> <dd>
 
-Un appareil Windows Media Gestionnaire de périphériques a été supprimé.
+un appareil Windows Media Gestionnaire de périphériques a été supprimé.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_ARRIVAL"></span><span id="wmdm_msg_media_arrival"></span>**\_arrivée du \_ support \_ MSG WMDM**
 </dt> <dd>
 
-Le média a été inséré sur un appareil Windows Media Gestionnaire de périphériques.
+le média a été inséré dans un appareil Windows media Gestionnaire de périphériques.
 
 </dd> <dt>
 
 <span id="WMDM_MSG_MEDIA_REMOVAL"></span><span id="wmdm_msg_media_removal"></span>**\_suppression du \_ support \_ MSG WMDM**
 </dt> <dd>
 
-Le média a été supprimé d’un appareil Windows Media Gestionnaire de périphériques.
+le média a été supprimé d’un appareil Windows media Gestionnaire de périphériques.
 
 </dd> </dl>
 

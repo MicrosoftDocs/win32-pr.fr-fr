@@ -4,16 +4,16 @@ ms.assetid: 8a23617e-92fe-4662-b602-47add5716358
 title: API de signature numérique XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c56485a532afbb148e62901c38db49ab81963c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f3903e1802d811e6166024132c0d983fff7a1b2d3fd015a91bce4c4e50d6911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119823649"
 ---
 # <a name="xps-digital-signature-api"></a>API de signature numérique XPS
 
-L’API de signature numérique XPS permet à un utilisateur de signer un document, de vérifier l’identité du signataire et d’indiquer si un document XPS a été modifié depuis sa signature. L’API de signature numérique XPS repose sur la technologie de signature numérique qui est utilisée dans les conventions Open Packaging, qui sont spécifiées dans la première édition, partie 2, « Open Packaging Conventions » de [Standard ECMA-376, Office Open XML file formats](https://www.ecma-international.org/publications/standards/Ecma-376.htm).
+L’API de signature numérique XPS permet à un utilisateur de signer un document, de vérifier l’identité du signataire et d’indiquer si un document XPS a été modifié depuis sa signature. l’API de signature numérique XPS repose sur la technologie de signature numérique qui est utilisée dans les conventions open packaging, qui sont spécifiées dans la première édition, partie 2, « open packaging conventions » de [Standard ECMA-376, Office Formats de fichiers open XML](https://www.ecma-international.org/publications/standards/Ecma-376.htm).
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -31,9 +31,9 @@ Cette section contient les rubriques suivantes :
 
 La [référence de l’API de signature numérique XPS](xps-digital-signatures-programming-reference.md) contient une liste complète des interfaces, des méthodes et des énumérateurs qui sont implémentés par l’API des signatures numériques XPS.
 
-## <a name="platform-update-for-windows-vista"></a>Mise à jour de plateforme pour Windows Vista
+## <a name="platform-update-for-windows-vista"></a>mise à jour de plateforme pour Windows Vista
 
-Les interfaces de signature numérique XPS qui sont décrites dans cette section ne sont pas prises en charge par la mise à jour de plateforme pour Windows Vista ou la mise à jour de plateforme pour Windows Server 2008. Une application qui requiert ces interfaces doit s’exécuter sur Windows 7 ou version ultérieure, ou sur Windows Server 2008 R2 ou version ultérieure. Dans le cas contraire, l’application peut ne pas fournir à l’utilisateur les fonctionnalités complètes de l’application.
+les interfaces de Signature numérique XPS qui sont décrites dans cette section ne sont pas prises en charge par la mise à jour de plateforme pour Windows Vista ou la mise à jour de plateforme pour Windows Server 2008. une application qui requiert ces interfaces doit s’exécuter sur Windows 7 ou version ultérieure, ou sur Windows Server 2008 R2 ou version ultérieure. Dans le cas contraire, l’application peut ne pas fournir à l’utilisateur les fonctionnalités complètes de l’application.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,7 +45,7 @@ Les interfaces de signature numérique XPS qui sont décrites dans cette section
 [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
-[Standard ECMA-376, formats de fichier Office Open XML](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
+[normes ECMA-376 Standard, Office Formats de fichier Open XML](https://www.ecma-international.org/publications/standards/Ecma-376.htm)
 </dt> </dl>
 
  

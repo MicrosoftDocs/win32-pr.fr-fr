@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 58c3aee63005010b9ed7366cfb63a69fcc7348b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8b6ad22b67df863e699649f22f513a98ca1306751a1d449a683f306c9cc2938
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910389"
 ---
 # <a name="ccmdqueuenew-method"></a>CCmdQueue. New, méthode
 
@@ -133,7 +133,7 @@ Valeur indiquant si le paramètre de *temps* est une valeur de flux de temps (**
 
 Retourne S \_ OK en cas de réussite. Retourne E \_ OUTOFMEMORY si *ppCmd* renvoie de la création du nouvel objet [**CDeferredCommand**](cdeferredcommand.md) avec la valeur **null**. Sinon, retourne un **HRESULT** qui indique une erreur lors de la tentative de création d’un nouvel objet **CDeferredCommand** . En cas d’erreur, aucun objet n’a été mis en file d’attente.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nouvel objet [**CDeferredCommand**](cdeferredcommand.md) sera initialisé avec les paramètres et sera ajouté à la file d’attente pendant la construction. Cette méthode est similaire à la méthode **IDispatch :: Invoke** .
 
@@ -158,7 +158,7 @@ Les valeurs du paramètre *wFlags* sont les suivantes :
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

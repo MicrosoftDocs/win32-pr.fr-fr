@@ -3,16 +3,16 @@ title: Fonctions de capture vidéo
 description: Fonctions de capture vidéo
 ms.assetid: 0fe87fa7-9f07-48f7-958b-da385d9ddaf0
 keywords:
-- Video for Windows (VFW), fonctions de capture vidéo
+- video for Windows (VFW), fonctions de capture vidéo
 - VFW (vidéo pour Windows), fonctions de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1bcbacbdc1a10221f9a9538e03ab22a17002bf7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e72987c4bd29747dca83cb718a2d22fa954ca7b3398d5b6446858da8fb2879a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892129"
 ---
 # <a name="video-capture-functions"></a>Fonctions de capture vidéo
 
@@ -34,9 +34,9 @@ Les fonctions suivantes sont utilisées avec la capture vidéo.
 [Référence de capture vidéo](video-capture-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

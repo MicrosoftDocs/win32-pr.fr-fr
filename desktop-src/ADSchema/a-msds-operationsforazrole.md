@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b916cc9ee9ad3914ef0b7e826fe0d0c390a8f11
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fa5dc7a5574598254d01e7309fa98f6c0b7e163c10dcf6e6265bc0c3bc7149df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803909"
 ---
 # <a name="ms-ds-operations-for-az-role-attribute"></a>ms-DS-Operations-for-AZ-attribut Role
 
@@ -44,7 +44,7 @@ Liste des opérations liées à AZ-Role.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

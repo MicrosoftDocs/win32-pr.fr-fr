@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9c233103330e9f8ae7318a613cbc5103315a74
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c83d5c4b19800f92e3080d3fb435ddd20d62e4b6fe76986869a0f4da86deabcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895069"
 ---
 # <a name="importlib-attribute"></a>importlib (attribut)
 
@@ -59,7 +59,7 @@ Nom et emplacement du fichier importé au moment de la compilation MIDL.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Toutes les directives **\[ importlib \]** doivent précéder les autres descriptions de type dans la bibliothèque. Notez que la bibliothèque importée, ainsi que la bibliothèque générée, doivent être distribuées avec l’application afin d’être disponibles au moment de l’exécution.
 
@@ -68,7 +68,7 @@ Dans la plupart des cas, vous devez utiliser la **\[** [](import.md) **\]** dire
 > [!Note]  
 > La directive **\[ importlib \]** rend tout type défini dans la bibliothèque importée accessible à partir de la bibliothèque en cours de compilation. Pour éviter toute ambiguïté lorsqu’il existe des références en double, nous vous recommandons de qualifier chaque référence avec le nom de bibliothèque approprié, comme suit :
 
- 
+ 
 
 ``` syntax
 library_name.type
@@ -115,6 +115,6 @@ library BrowseHelper
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

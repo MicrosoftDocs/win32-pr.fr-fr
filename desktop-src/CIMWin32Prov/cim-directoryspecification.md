@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6a7eb6ae627c8ed9b5639e573e1d2d89132698ff
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2464636b717d320c592cc007a8f0e688a9e3dfcd27e0eb49ae29e391b2a05cb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924209"
 ---
 # <a name="cim_directoryspecification-class"></a>\_Classe CIM DirectorySpecification
 
@@ -468,7 +468,7 @@ Mac OS
 
 </dt> <dd>
 
-ATT UNIX
+UNIX ATT
 
 </dd> <dt>
 
@@ -568,7 +568,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -650,7 +650,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -967,7 +967,7 @@ Cette propriété est héritée de la [**\_ vérification CIM**](cim-check.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de **CIM \_ DirectorySpecification**, consultez [classes Win32](win32-provider.md).
 

@@ -4,16 +4,16 @@ ms.assetid: e523339d-639e-4e8e-b0cb-0c9464eeee03
 title: Fonctions de stylet (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdf0164d70f6f240a47ecdfcb3a9e276fe19710a
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 07782154dc9bdc2e426ca4a0e35c38a1ce1901f835adfd2fa00bf8e082f257cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830749"
 ---
 # <a name="pen-functions-gdi"></a>Fonctions de stylet (GDI+)
 
-Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. Les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. Chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement. Pour plus d’informations sur l’utilisation de ces méthodes Wrapper, consultez l' [API plate GDI+](-gdiplus-flatapi-flat.md).
+Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h. les fonctions de l’API plate GDI+ sont encapsulées par une collection d’environ 40 classes C++. Il est recommandé de ne pas appeler directement les fonctions dans l’API plate. chaque fois que vous effectuez des appels à GDI+, vous devez le faire en appelant les méthodes et les fonctions fournies par les wrappers C++. Les services de support technique Microsoft ne fournissent pas de prise en charge du code qui appelle l’API plate directement. pour plus d’informations sur l’utilisation de ces méthodes wrapper, consultez [GDI+ l’API plate](-gdiplus-flatapi-flat.md).
 
 Les fonctions d’API plates suivantes sont encapsulées par la classe [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) C++.
 

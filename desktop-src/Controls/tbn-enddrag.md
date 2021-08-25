@@ -3,7 +3,7 @@ title: TBN_ENDDRAG le code de notification (commctrl. h)
 description: Avertit la fenêtre parente de la barre d’outils que l’utilisateur a cessé de faire glisser un bouton dans une barre d’outils. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 846ba42e-6e0d-45bb-88ce-7b4d2cb17e13
 keywords:
-- Contrôles Windows de code de notification TBN_ENDDRAG
+- TBN_ENDDRAG les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd493ac338e11716ea381e83102b200334a1eec4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fff6cfff7448f452223681ef1ebf720e0330c1fee52ba48862411978d53a0616
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876869"
 ---
 # <a name="tbn_enddrag-notification-code"></a>\_Code de notification TBN ENDDRAG
 
@@ -55,8 +55,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

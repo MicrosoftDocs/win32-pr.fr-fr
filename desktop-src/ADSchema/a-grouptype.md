@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1db8f102e7e56b38d15d74fedb7c5a5366ee47
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c05584576c96766d302170220411e165da9b14e89c81fb0bd9d0837c05c9aed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925569"
 ---
 # <a name="group-type-attribute"></a>Attribut Group-Type
 
@@ -36,7 +36,7 @@ Contient un jeu d’indicateurs qui définissent le type et la portée d’un ob
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.750               |
 | System-ID-GUID    | 9a9a021e-4a5b-11d1-a9c3-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Contient un jeu d’indicateurs qui définissent le type et la portée d’un ob
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -197,7 +197,7 @@ Contient un jeu d’indicateurs qui définissent le type et la portée d’un ob
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs des valeurs suivantes.
 
@@ -209,8 +209,8 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 | 2 (0x00000002)          | Spécifie un groupe avec une étendue globale.                                                         |
 | 4 (0x00000004)          | Spécifie un groupe avec une étendue de domaine local.                                                   |
 | 8 (0x00000008)          | Spécifie un groupe avec une étendue universelle.                                                      |
-| 16 (0x00000010)         | Spécifie un \_ groupe d’applications de base pour le gestionnaire d’autorisations Windows Server.                      |
-| 32 (0x00000020)         | Spécifie un \_ groupe de requêtes d’application pour le gestionnaire d’autorisations Windows Server.                      |
+| 16 (0x00000010)         | spécifie un \_ groupe d’applications de base pour Windows Server authorization Manager.                      |
+| 32 (0x00000020)         | spécifie un \_ groupe de requêtes d’application pour Windows Server authorization Manager.                      |
 | 2147483648 (0x80000000) | Spécifie un groupe de sécurité. Si cet indicateur n’est pas défini, le groupe est un groupe de distribution. |
 
 

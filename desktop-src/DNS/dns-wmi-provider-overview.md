@@ -1,21 +1,21 @@
 ---
 title: Vue d’ensemble du fournisseur WMI DNS
-description: Un fournisseur est un élément architectural de Windows Management Instrumentation (WMI).
+description: un fournisseur est un élément architectural de Windows Management Instrumentation (WMI).
 ms.assetid: e6ada7b5-dd46-4c47-8db8-55f910429e31
 keywords:
 - Domain Name System, fournisseur WMI, architecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6aed54d0d9cbac4070483e8e72e9917607e824c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea44103edba64a1f572beef9cff9b8aeb31f02344f172f42b2a7378a6fbf3677
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913159"
 ---
 # <a name="dns-wmi-provider-overview"></a>Vue d’ensemble du fournisseur WMI DNS
 
-Un fournisseur est un élément architectural de *Windows Management Instrumentation (WMI)*. WMI définit une architecture unifiée pour décrire, accéder et instrumenter des objets. Une partie de cette architecture est une base de données volumineuse de classes WMI utilisée pour effectuer des tâches de gestion à distance sur des objets spécifiques.
+un fournisseur est un élément architectural de *Windows Management Instrumentation (WMI)*. WMI définit une architecture unifiée pour décrire, accéder et instrumenter des objets. Une partie de cette architecture est une base de données volumineuse de classes WMI utilisée pour effectuer des tâches de gestion à distance sur des objets spécifiques.
 
 Les fournisseurs WMI jouent le rôle d’intermédiaires entre WMI et un ou plusieurs objets gérés. Lorsque WMI reçoit une demande d’une application de gestion pour les données qui ne sont pas disponibles dans le référentiel CIM ou pour les notifications d’événements que WMI ne prend pas en charge, il transfère la demande à un fournisseur. Les fournisseurs renvoient les données et les notifications d’événements pour les objets gérés qui sont spécifiques à leur domaine particulier. Un fournisseur étend le schéma WMI des classes pour permettre à WMI de fonctionner avec de nouveaux types d’objets. Le fournisseur WMI DNS définit des classes pour l’interrogation et la configuration d’un serveur DNS, ainsi que des zones DNS et des enregistrements DNS associés.
 
@@ -25,9 +25,9 @@ Le fournisseur WMI DNS expose un certain nombre d’objets DNS aux clients, y co
 
 Le fournisseur WMI DNS possède un ensemble de comportements uniques introuvables dans d’autres fournisseurs. Pour plus d’informations sur les classes, consultez la [Référence du fournisseur WMI DNS](dns-wmi-provider-reference.md) .
 
- 
+ 
 
- 
+ 
 
 
 

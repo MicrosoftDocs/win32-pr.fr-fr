@@ -4,21 +4,21 @@ description: À propos de l’objet MetadataPicture
 ms.assetid: 522f6491-e84a-4cde-98db-e55742ed50a2
 keywords:
 - Lecteur Windows Media, objet MetadataPicture
-- Modèle objet du lecteur Windows Media, objet MetadataPicture
+- Lecteur Windows Media modèle objet, objet MetadataPicture
 - modèle objet, objet MetadataPicture
-- Contrôle ActiveX du lecteur Windows Media, objet MetadataPicture
-- Contrôle ActiveX, objet MetadataPicture
-- Contrôle ActiveX Windows Media Player Mobile, objet MetadataPicture
-- Windows Media Player Mobile, objet MetadataPicture
+- Lecteur Windows Media ActiveX contrôle, objet MetadataPicture
+- contrôle ActiveX, objet MetadataPicture
+- Lecteur Windows Media contrôle Mobile ActiveX, objet MetadataPicture
+- Lecteur Windows Media Mobile, objet MetadataPicture
 - Objet MetadataPicture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ad7a96a856ffc4546d2cbd8f828c7c0ec904018
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae6f0002080b62c97f347f1679431adbc3450efef4d6563a5c606d257d4391c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956759"
 ---
 # <a name="about-the-metadatapicture-object"></a>À propos de l’objet MetadataPicture
 
@@ -34,9 +34,9 @@ L’attribut de métadonnées **WM/Picture** fournit des informations détaillé
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

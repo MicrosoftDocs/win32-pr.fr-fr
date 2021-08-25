@@ -4,12 +4,12 @@ ms.assetid: 375823c5-22c2-4010-bfb4-5b8b46141c72
 title: Message LINE_GENERATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b916dc95d1a6343b0f8ebc0eef9e589b04aa2112
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd3ab0d503d7515fec2cdbd1676eed235cced88e2adfa9fcc1dd354663929e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774239"
 ---
 # <a name="line_generate-message"></a>Message de génération de ligne \_
 
@@ -57,7 +57,7 @@ Inutilisé.
 *dwParam3* 
 </dt> <dd>
 
-« Nombre de cycles » (nombre de millisecondes écoulées depuis le démarrage de Windows) à partir duquel la génération de chiffre ou de tonalité est terminée. Pour les versions d’API antérieures à 2,0, ce paramètre n’est pas utilisé.
+« tick count » (nombre de millisecondes depuis Windows démarré) auquel la génération de chiffre ou de tonalité est terminée. Pour les versions d’API antérieures à 2,0, ce paramètre n’est pas utilisé.
 
 </dd> </dl>
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **\_ génération de ligne** est envoyé uniquement à l’application qui a demandé la génération de chiffres ou de tonalités.
 

@@ -4,12 +4,12 @@ ms.assetid: 8f9b9d3d-e7ea-4df2-82b1-2d4c3e0766c0
 title: Masques d’accès du gestionnaire de transactions (Winnt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efae6c0bac1fc2bfa117e74e38aff8d439eb2f25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cfa093f38898ec49a789699fc5c7230612ef744fec78f200021361327d9f714
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913899"
 ---
 # <a name="transaction-manager-access-masks"></a>Masques d’accès du gestionnaire de transactions
 

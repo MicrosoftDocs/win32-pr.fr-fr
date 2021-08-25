@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d022023142b38905067e30a4c1be3b133e49a86f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b3a30b6df2b4fea50022f047df42f04e3635b37d015e16fed50e2d971827b61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829649"
 ---
 # <a name="cim_allocationcapabilities-class"></a>\_Classe CIM AllocationCapabilities
 
@@ -301,14 +301,14 @@ Type de ressource affecté à ce paramètre d’allocation.
 
 <span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>
 
-**Extension de stockage** (19)
+**étendue du Stockage** (19)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Other_Storage_Device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>
 
-**Autre dispositif de stockage** (20)
+**autre appareil de Stockage** (20)
 
 
 </dt> <dd></dd> <dt>
@@ -392,7 +392,7 @@ Type de ressource affecté à ce paramètre d’allocation.
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**Volume de stockage** (32)
+**Volume de Stockage** (32)
 
 
 </dt> <dd></dd> <dt>

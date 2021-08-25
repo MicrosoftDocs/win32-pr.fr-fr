@@ -4,12 +4,12 @@ ms.assetid: edafb5f9-09fe-4f8e-9651-4002b6f622f4
 title: Fonctions Winsock
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: 9bf2205c970eeaaf4e64867565d58680b28298c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5057a2fa7ff113da3c8e5f9077f9dfb1df83c3a390546b9d49d2d4b94db3625e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860719"
 ---
 # <a name="winsock-functions"></a>Fonctions Winsock
 
@@ -64,7 +64,7 @@ La liste suivante fournit des descriptions concises de chaque fonction Winsock. 
 | [**InetNtop**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetntopw) | Convertit une adresse réseau Internet IPv4 ou IPv6 en une chaîne au format Internet standard. La version ANSI de cette fonction est [**inet \_ ntop**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetntopw). |
 | [**InetPton**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetptonw) | Convertit une adresse réseau Internet IPv4 ou IPv6 dans sa forme de présentation texte standard en sa forme binaire numérique. La version ANSI de cette fonction est [**inet \_ PTON**](/windows/win32/api/Ws2tcpip/nf-ws2tcpip-inetptonw). |
 | [**ioctlsocket**](/windows/win32/api/winsock/nf-winsock-ioctlsocket) | Contrôle le mode d’e/s d’un Socket. |
-| [**Journal**](/windows/win32/api/Winsock2/nf-winsock2-listen) | Place un socket dans un État où il écoute une connexion entrante. |
+| [**listen**](/windows/win32/api/Winsock2/nf-winsock2-listen) | Place un socket dans un État où il écoute une connexion entrante. |
 | [**ntohd**](/windows/win32/api/Winsock2/nf-winsock2-ntohd) | Convertit un **unsigned \_ \_ Int64** de l’ordre de réseau TCP/IP en ordre d’octet hôte (qui est Little-endian sur les processeurs Intel) et retourne un **double**. |
 | [**ntohf**](/windows/win32/api/Winsock2/nf-winsock2-ntohf) | Convertit un **unsigned \_ \_ Int32** de l’ordre de réseau TCP/IP en ordre d’octet hôte (qui est Little-endian sur les processeurs Intel) et retourne un **float**. |
 | [**ntohl**](/windows/win32/api/winsock/nf-winsock-ntohl) | Convertit une \_ valeur u de l’ordre de réseau TCP/IP en ordre d’octet hôte (ce qui est Little-endian sur les processeurs Intel). |
@@ -106,7 +106,7 @@ La liste suivante fournit des descriptions concises de chaque fonction Winsock. 
 | [**WSAAsyncGetProtoByNumber**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetprotobynumber) | Récupère de manière asynchrone les informations de protocole qui correspondent à un numéro de protocole. |
 | [**WSAAsyncGetServByName**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetservbyname) | Récupère de manière asynchrone les informations de service qui correspondent à un nom de service et à un port. |
 | [**WSAAsyncGetServByPort**](/windows/win32/api/winsock/nf-winsock-wsaasyncgetservbyport) | Récupère de manière asynchrone les informations de service qui correspondent à un port et à un protocole. |
-| [**WSAAsyncSelect**](/windows/win32/api/winsock/nf-winsock-wsaasyncselect) | Demande la notification basée sur les messages Windows des événements réseau pour un Socket. |
+| [**WSAAsyncSelect**](/windows/win32/api/winsock/nf-winsock-wsaasyncselect) | demande Windows notification basée sur les messages des événements réseau d’un socket. |
 | [**WSACancelAsyncRequest**](/windows/win32/api/winsock/nf-winsock-wsacancelasyncrequest) | Annule une opération asynchrone incomplète. |
 | [**WSACleanup**](/windows/win32/api/winsock/nf-winsock-wsacleanup) | Met fin à l’utilisation du \_32.DLL Ws2. |
 | [**WSACloseEvent**](/windows/win32/api/Winsock2/nf-winsock2-wsacloseevent) | Ferme un handle d’objet d’événement ouvert. |

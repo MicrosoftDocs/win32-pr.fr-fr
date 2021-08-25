@@ -4,12 +4,12 @@ description: Méthodes facultatives dans les interfaces de contrôle
 ms.assetid: a26f7078-9286-4b21-b924-4b03d3849909
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1409b1c8d22f85a48829c07155e03379fc79103c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e92303b9e4e6a5edd295d0895a9121eee70ea05ae2a8967a9346ea26b153e8b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859289"
 ---
 # <a name="optional-methods-in-control-interfaces"></a>Méthodes facultatives dans les interfaces de contrôle
 

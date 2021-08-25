@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: a2b7fedbaac2cc9c204d4691828d31794cea1f47
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b73ebc548031fd931cce0d34edfadf81a73d71d60edf649718875c52cfc992f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850223"
 ---
 # <a name="d3drectpatch_info-structure"></a>\_Structure d’informations D3DRECTPATCH
 
@@ -111,7 +111,7 @@ Membre du type énuméré [**D3DBASISTYPE**](./d3dbasistype.md) , définissant l
 
 
 
-| Valeur                 | Commande prise en charge            | Largeur et hauteur                  |
+| Value                 | Commande prise en charge            | Largeur et hauteur                  |
 |-----------------------|----------------------------|-----------------------------------|
 | D3DBASIS \_ Bézier      | Linéaire, cubique et quintaux | Width = hauteur = (DWORD) ordre + 1 |
 | D3DBASIS \_ BSPLINE     | Linéaire, cubique et quintaux | Width = hauteur > (DWORD) Order  |
@@ -134,7 +134,7 @@ Membre du type énuméré [**D3DDEGREETYPE**](./d3ddegreetype.md) , définissant
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le diagramme suivant identifie les paramètres qui spécifient un correctif de rectangle.
 
