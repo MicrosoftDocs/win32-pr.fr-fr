@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3d41d777b88f0e18ae1510c32b7e89024ea7bdd9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12e15b297f78b3386ae9ad31e749858bad14b87e59e938ac02a3cf3a9ca002a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872329"
 ---
 # <a name="cbaserenderergetmediapositioninterface-method"></a>Méthode CBaseRenderer. GetMediaPositionInterface
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                   | Description                         |
 |-----------------------------------------------------------------------------------------------|-------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                 |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                 |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>     |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | Interface non prise en charge.<br/> |
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre délègue toutes les commandes de recherche à un objet [**CRendererPosPassThru**](crendererpospassthru.md) , qui les transmet en amont. Cette méthode crée l’objet **CRendererPosPassThru** , s’il n’existe pas encore, et le interroge pour l’interface demandée.
 
@@ -85,7 +85,7 @@ La variable membre [**CBaseRenderer :: m \_ pPosition**](cbaserenderer-m-pposit
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

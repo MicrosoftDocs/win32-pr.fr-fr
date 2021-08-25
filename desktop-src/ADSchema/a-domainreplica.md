@@ -1,6 +1,6 @@
 ---
 title: Attribut Domain-Replica
-description: Attribut de chaîne Unicode, donne la liste des contrôleurs de domaine de réplication Windows NT 4,0.
+description: Attribut de chaîne Unicode, donne la liste des Windows contrôleurs de domaine de réplication NT 4,0.
 ms.assetid: 973fe504-0c3e-4a7f-9a9e-0e5274ac7817
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cfc5119c15047fc6d3b7c15947d996b7f387957
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62e532134b5bd78df6726eff15e84866b0c42e07aae3b473c76ce3abcade0fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804709"
 ---
 # <a name="domain-replica-attribute"></a>Attribut Domain-Replica
 
-Attribut de chaîne Unicode, donne la liste des contrôleurs de domaine de réplication Windows NT 4,0.
+Attribut de chaîne Unicode, donne la liste des Windows contrôleurs de domaine de réplication NT 4,0.
 
 
 
@@ -45,7 +45,7 @@ Attribut de chaîne Unicode, donne la liste des contrôleurs de domaine de répl
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

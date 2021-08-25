@@ -1,6 +1,6 @@
 ---
 title: Shell-Property-pages (attribut)
-description: Le numéro d’ordre et le GUID des pages de propriétés pour la gestion des objets Active Directory. Ces pages de propriétés sont accessibles à partir du shell Windows. Pour plus d’informations, consultez le document, extension de l’interface utilisateur pour les objets d’annuaire.
+description: Le numéro d’ordre et le GUID des pages de propriétés pour la gestion des objets Active Directory. ces pages de propriétés sont accessibles à partir de l’interpréteur de commandes Windows. Pour plus d’informations, consultez le document, extension de l’interface utilisateur pour les objets d’annuaire.
 ms.assetid: e0edd91b-bdb6-47aa-9be2-8a23a89adb26
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: befad2334a754843fa0ae412565db8c82260f7cd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb4ec36aa7738db5762f6cb1dc80e418f60b67c4529cd613cb4a2299d1d0fe37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836299"
 ---
 # <a name="shell-property-pages-attribute"></a>Shell-Property-pages (attribut)
 
-Le numéro d’ordre et le GUID des pages de propriétés pour la gestion des objets Active Directory. Ces pages de propriétés sont accessibles à partir du shell Windows. Pour plus d’informations, consultez le document, extension de l’interface utilisateur pour les objets d’annuaire.
+Le numéro d’ordre et le GUID des pages de propriétés pour la gestion des objets Active Directory. ces pages de propriétés sont accessibles à partir de l’interpréteur de commandes Windows. Pour plus d’informations, consultez le document, extension de l’interface utilisateur pour les objets d’annuaire.
 
 
 
@@ -45,7 +45,7 @@ Le numéro d’ordre et le GUID des pages de propriétés pour la gestion des ob
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

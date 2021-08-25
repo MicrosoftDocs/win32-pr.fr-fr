@@ -4,12 +4,12 @@ ms.assetid: 2c32eda1-e510-40eb-ae75-fc7b9e9953cd
 title: Constantes LINEADDRESSTYPE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d0a46eff2a7a0c38fa17aed4b831ef8701c565
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f6555ff934ffb8c1b40b8f35d279a2071cad32b80b754af19672108f5e318a17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873331"
 ---
 # <a name="lineaddresstype_-constants"></a>\_Constantes LINEADDRESSTYPE
 

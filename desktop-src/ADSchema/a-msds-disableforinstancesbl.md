@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 270d34d26117a7d615b133c46e00e913f1831500
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 664b5728d73aefc4a64d15e7ae444171e24b1b1e439eb04deb2b2e5cb57f5a22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804209"
 ---
 # <a name="ms-ds-disable-for-instances-bl-attribute"></a>attribut ms-DS-Disable-for-instances-BL
 

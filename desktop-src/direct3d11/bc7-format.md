@@ -4,12 +4,12 @@ description: Le format BC7 est un format de compression de texture utilisé pour
 ms.assetid: DF333106-293E-4B3E-A1EB-B0BF0ADBAC72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b9b64c3d4a8b5e960077a9f33de82ff08cd4bbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 0bd48826cc0c02be6d15a837c272442c0931e9660f507a90cb491acf4d5820ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858219"
 ---
 # <a name="bc7-format"></a>Format BC7
 
@@ -64,7 +64,7 @@ Le tableau suivant répertorie les composants de chaque type de bloc.
 
 
 
- 
+ 
 
 BC7 définit une palette de couleurs sur une ligne approximative entre deux points de terminaison. La valeur de mode détermine le nombre de paires de points de terminaison d’interpolation par bloc. BC7 stocke un index de palette par Texel.
 
@@ -233,6 +233,6 @@ bitcount get_color_bitcount(block, mode)
 [Compression de bloc de texture dans Direct3D 11](texture-block-compression-in-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: b30aba5e2b448df141d0c82e6ec5a2b0d9b3303f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd932a5330baf687d5578bac4e4bfac77ad4f5bad0560263ab7f1e8832e61fe6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890849"
 ---
 # <a name="expertallocmemory-function"></a>ExpertAllocMemory fonction)
 
@@ -68,7 +68,7 @@ Si la fonction réussit, la valeur de retour est un pointeur vers la mémoire al
 
 Si la fonction échoue, la valeur de retour est **null** et *perror* fournit un code d’erreur qui indique la raison de l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est important de noter qu’un expert doit utiliser les fonctions d’allocation de mémoire Moniteur réseau (y compris [ExpertReallocMemory](expertreallocmemory.md)) pour la gestion de la mémoire. Si votre expert échoue au moment de l’exécution, l’utilisation de ces fonctions permettra à Moniteur réseau de libérer la mémoire qu’il a allouée.
 

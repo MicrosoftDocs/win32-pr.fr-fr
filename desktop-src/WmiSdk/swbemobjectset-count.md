@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3154e22bbdbc75080ceebdf8b1eef602cf5c3be3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1305cc0119f002f8ac3229664227d5c21bea9d865eedb0a31fcb7eb77250424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857229"
 ---
 # <a name="swbemobjectsetcount-property"></a>Propriété SWbemObjectSet. Count
 
@@ -42,7 +42,7 @@ SWbemObjectSet.Count As Integer
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’une des points à prendre en compte lors de l’utilisation de Count est que WMI ne continue pas à s’exécuter avec le nombre d’éléments d’une collection. Si vous demandez un nombre pour une collection, WMI ne peut pas répondre instantanément avec un chiffre ; au lieu de cela, il doit littéralement compter les éléments, en énumérant l’ensemble de la collection. Pour une collection qui a relativement peu d’éléments, tels que des services, cette énumération prend probablement moins d’une seconde. Toutefois, le nombre d’événements dans une collection de journaux des événements peut prendre beaucoup plus de temps.
 

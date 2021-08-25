@@ -4,12 +4,12 @@ ms.assetid: 276c27ac-b6ee-42a7-8327-33dfd87e69bd
 title: Fournisseurs de services de téléphonie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c3c8887723cc74a1bf0d77bcdcfd06c8468a4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1e7ff98bfbc898a419e385be07ebdae56d2067061d2ac7951b8c0aff42dcd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872869"
 ---
 # <a name="telephony-service-providers"></a>Fournisseurs de services de téléphonie
 
@@ -21,7 +21,7 @@ Un TSP doit se conformer à l’interface TSPI (Telephony Service Provider Inter
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Vous pouvez écrire des applications compatibles TAPI dans de nombreux langages, notamment Java, Visual Basic et C/C++. L’expérience de développement précédente avec les télécommunications ou d’autres applications de téléphonie est utile, mais pas nécessaire.
+vous pouvez écrire des applications compatibles TAPI dans de nombreux langages, notamment Java, Visual Basic et C/C++. L’expérience de développement précédente avec les télécommunications ou d’autres applications de téléphonie est utile, mais pas nécessaire.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

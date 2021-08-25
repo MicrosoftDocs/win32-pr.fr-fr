@@ -4,18 +4,18 @@ ms.assetid: 1c34faa0-936a-433a-9280-a94033f3f815
 title: Confiance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90084a0b6bfc7f63db12b7f47eba335adc87239a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4e79bc49a4ffc93c87b040327a2c7626bc7d816e060cf4bfcd42a6bcab0d024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906959"
 ---
 # <a name="trustees"></a>Confiance
 
 Un tiers de confiance est le compte d’utilisateur, le compte de groupe ou la [*session*](/windows/desktop/SecGloss/l-gly) à laquelle une [*entrée de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACE) s’applique. Chaque ACE d’une [*liste de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACL) a un [*identificateur de sécurité*](/windows/desktop/SecGloss/s-gly) (SID) qui identifie un tiers de confiance.
 
-Les comptes d’utilisateur incluent les comptes que les utilisateurs ou les programmes humains, tels que les services Windows utilisent pour se connecter à l’ordinateur local.
+les comptes d’utilisateur incluent les comptes que les utilisateurs ou les programmes humains, tels que les Services Windows utilisent pour se connecter à l’ordinateur local.
 
 Les comptes de groupe ne peuvent pas être utilisés pour ouvrir une session sur un ordinateur, mais ils sont utiles dans les ACE pour autoriser ou refuser un ensemble de droits d’accès à un ou plusieurs comptes d’utilisateur.
 

@@ -1,19 +1,19 @@
 ---
-description: Un ensemble d’outils de débogage reposant sur l’API WSDAPI (Web Services on Devices) est disponible dans le SDK Windows et le kit WDK (Windows Driver Kit).
+description: un ensemble d’outils de débogage reposant sur l’API WSDAPI (Web Services on devices) est disponible dans le SDK Windows et le Kit WDK (Windows Driver Kit).
 ms.assetid: bd7efa8b-4f12-4b19-a7df-fa34c6a3444a
 title: Outils de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29965bb85ccfd2daf00612b09bb013ae170dddcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e744b37a5376d228ac9023ed7556ce63e26a7a1c20b23fb98aff090e7ae9616f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856779"
 ---
 # <a name="debugging-tools"></a>Outils de débogage
 
-Un ensemble d’outils de débogage reposant sur l’API WSDAPI (Web Services on Devices) est disponible dans le SDK Windows et le kit WDK (Windows Driver Kit). Ces outils peuvent être utilisés pour tester les fonctionnalités des applications personnalisées écrites sur WSDAPI, ou sur les périphériques et les clients écrits à l’aide d’autres piles Device Profile for Web Services (DPWS).
+un ensemble d’outils de débogage reposant sur l’API WSDAPI (Web Services on devices) est disponible dans le SDK Windows et le Kit WDK (Windows Driver Kit). Ces outils peuvent être utilisés pour tester les fonctionnalités des applications personnalisées écrites sur WSDAPI, ou sur les périphériques et les clients écrits à l’aide d’autres piles Device Profile for Web Services (DPWS).
 
 Les outils de débogage WSD (wsddebug \_host.exe) et client de débogage WSD (wsddebug \_client.exe) peuvent être utilisés pour inspecter les caractéristiques des ordinateurs hôtes ou des clients DPWS. Elles peuvent également être utilisées pour résoudre les problèmes de connectivité ou de configuration. Pour plus d’informations, consultez le [Guide de résolution des problèmes wsdapi](wsdapi-troubleshooting-guide.md). Ces outils sont uniquement disponibles dans le kit de développement logiciel (SDK). Les outils du kit de développement logiciel se trouvent dans le répertoire suivant : <Windows SDK Install Folder> \\ bin.
 
@@ -37,7 +37,7 @@ Le client de débogage WSD fonctionne dans l’un des trois modes suivants : mu
 
  
 
-Pour plus d’informations, consultez [utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées http](using-a-generic-host-and-client-for-http-metadata-exchange.md), [utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md)et [utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion](using-wsddebug-client-to-verify-multicast-traffic.md).
+pour plus d’informations, consultez [utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md), [utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md)et [utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion](using-wsddebug-client-to-verify-multicast-traffic.md).
 
 ## <a name="the-wsd-debug-host"></a>Hôte de débogage WSD
 
@@ -56,7 +56,7 @@ L’hôte de débogage WSD fonctionne dans l’un des deux modes suivants : dé
 
  
 
-Pour plus d’informations, consultez [utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées http](using-a-generic-host-and-client-for-http-metadata-exchange.md) et [utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).
+pour plus d’informations, consultez [utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md) et [utilisation d’un hôte et d’un client génériques pour UDP WS-Discovery](using-a-generic-host-and-client-for-udp-ws-discovery.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: 5f5d2506f66f89cd47ecf3f011c8071b79e64177
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 542610d586af084f4238e70cd0e6c848099e4d2153d0feab8d617475a50476e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "106538035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822099"
 ---
 # <a name="sh_socket-keyword"></a>\_mot clé de socket SH
 
@@ -34,7 +34,7 @@ Ce mot clé est un paramètre pour [**system_handle**](system-handle.md).
 
 La documentation [**system_handle**](system-handle.md) contient également des informations sur l’utilisation facultative du paramètre *Access-Rights* . Le comportement par défaut est défini `DUPLICATE_SAME_ACCESS` par les spécifications de [fonction **DuplicateHandle**](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour pouvoir utiliser ce mot clé avec l' `system_handle` attribut, l' `-target` indicateur doit avoir la valeur `NT100` (ou une version ultérieure) lors de l’exécution de midl.exe.
 
@@ -51,8 +51,8 @@ interface MyInterface : IUnknown
 
 | &nbsp; | &nbsp; |
 |-|-|
-| Client minimal pris en charge | Mise à jour anniversaire Windows 10 (version 1607, Build 14393) |
-| Serveur minimal pris en charge | Windows Server 2016 (Build 14393) |
+| Client minimal pris en charge | Windows 10 Mise à jour anniversaire (version 1607, Build 14393) |
+| Serveur minimal pris en charge | Windows Server 2016 (build 14393) |
 
 ## <a name="see-also"></a>Voir aussi
 

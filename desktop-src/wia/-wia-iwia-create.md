@@ -1,5 +1,5 @@
 ---
-description: La méthode Create de l’objet WIA établit une connexion à l’appareil WIA (Windows Image Acquisition) spécifié et retourne un objet Item qui représente l’appareil.
+description: la méthode create de l’objet wia établit une connexion à l’appareil Windows d’Acquisition d’images (wia) spécifié et retourne un objet Item qui représente l’appareil.
 ms.assetid: c33c635a-159c-4ac3-8ad5-6f21a1986702
 title: WIA. Create, méthode
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a4056354992010d3d213ed619b7460e12c800630ca38fb17acb6d7677fe842a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814049"
 ---
 # <a name="wiacreate-method"></a>WIA. Create, méthode
 
-La méthode **Create** de l’objet [**WIA**](-wia-wia.md) établit une connexion à l’appareil WIA (Windows Image Acquisition) spécifié et retourne un objet [**Item**](-wia-item.md) qui représente l’appareil.
+la méthode **create** de l’objet [**wia**](-wia-wia.md) établit une connexion à l’appareil Windows d’Acquisition d’images (wia) spécifié et retourne un objet [**Item**](-wia-item.md) qui représente l’appareil.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,13 +49,13 @@ Spécifie l’appareil WIA auquel se connecter.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **IWiaDispatchItem**
 
 En cas de réussite, cette méthode retourne un objet d' [**élément**](-wia-item.md) qui représente un périphérique matériel WIA (élément racine).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *Device* spécifie un objet [**DeviceInfo**](-wia-deviceinfo.md) en passant l’objet lui-même, son index d’un objet collection ou la valeur de sa propriété [**ID**](-wia-iwiadeviceinfo-id.md) . **Ne rien** faire pour afficher une boîte de dialogue qui permet à un utilisateur de sélectionner un appareil.
 
@@ -120,14 +120,14 @@ Set objWia = objWia.Create(Nothing)
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

@@ -1,5 +1,5 @@
 ---
-description: Définit le GUID de la catégorie d’élément WIA (Windows Image Acquisition) 2,0 à laquelle le profil est associé.
+description: définit le GUID de la catégorie d’Windows élément acquisition d’images (WIA) 2,0 à laquelle le profil est associé.
 ms.assetid: e359abcb-b5d5-45a4-b650-2b278ba1ff6a
 title: 'IScanProfile :: SetItem, méthode (Scanprofile. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: d4b20aae0740656b46dd26824947fc27513afcac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc4f79c44ff84bef1efbda4b09beee6b7dcf83f04023a5e2211e9f808b18446a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814069"
 ---
 # <a name="iscanprofilesetitem-method"></a>IScanProfile :: SetItem, méthode
 
-Définit le GUID de la catégorie d’élément WIA (Windows Image Acquisition) 2,0 à laquelle le profil est associé.
+définit le GUID de la catégorie d’Windows élément acquisition d’images (WIA) 2,0 à laquelle le profil est associé.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les utilisateurs peuvent modifier la catégorie avec la méthode [**ScanProfileDialog**](-wia-iscanprofileui-scanprofiledialog.md) .
 
@@ -68,8 +68,8 @@ Si deux applications créent des objets de profil d’analyse à partir du même
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>Scanprofile. h</dt> </dl>    |
 | MIDL<br/>                      | <dl> <dt>Scanprofiles. idl</dt> </dl> |
 

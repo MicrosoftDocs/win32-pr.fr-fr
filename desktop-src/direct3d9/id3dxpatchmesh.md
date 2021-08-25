@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f1f13e6abe3a164e8027ddcb6bb33e9f0ca618fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 44899ccee6f13aa25b01e284df5a892196d657610c3f89d546fc0b646eeaa069
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856279"
 ---
 # <a name="id3dxpatchmesh-interface"></a>Interface ID3DXPatchMesh
 
@@ -67,7 +67,7 @@ L’interface **ID3DXPatchMesh** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une maille de correctif est une maille qui se compose d’une série de correctifs.
 

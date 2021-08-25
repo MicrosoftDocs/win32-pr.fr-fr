@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b96fe47a3d818c382b35a93708ac51b60e891841
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 21801c2f4b8ef8dd2a34c9788b402128da4ce4fed33c3c38a08e61c35a847e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857389"
 ---
 # <a name="d3dxconcatenatemeshes-function"></a>D3DXConcatenateMeshes fonction)
 
@@ -125,7 +125,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est S \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si aucune [déclaration de vertex](vertex-declaration.md) n’est fournie dans le cadre du paramètre de création de maillage d’options, la méthode génère une Union de toutes les déclarations de vertex des sous-mailles, en promouvant les canaux et les types si nécessaire. La méthode crée une table d’attributs à partir des tables d’attributs des maillages d’entrée. Pour garantir la création d’une table d’attributs, appelez [**optimize**](id3dxmesh--optimize.md) avec les indicateurs définis sur D3DXMESHOPT \_ compact et D3DXMESHOPT \_ ATTRSORT (voir [**D3DXMESHOPT**](./d3dxmeshopt.md)).
 

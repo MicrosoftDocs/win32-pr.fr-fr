@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f3997aa38a7a97455b9f36d8afbee896ca9ae937
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 707a5b7b886ac9366733e1b17322ac61c7d9703cb6ef8ac1e095cf1300fd508d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857509"
 ---
 # <a name="d3ddeclusage-enumeration"></a>Énumération D3DDECLUSAGE
 
@@ -150,7 +150,7 @@ Les données de vertex contiennent des exemples de données. Utilisez \_ l’exe
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les données de vertex sont déclarées avec un tableau de structures [**D3DVERTEXELEMENT9**](d3dvertexelement9.md) . Chaque élément du tableau contient un type d’utilisation.
 

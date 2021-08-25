@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e64533615c780cd6e3703be85363684e537b784a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13f87abb5323289e60e3d29fa93d5e858a9a755224e7161ba28970ef5ccb186f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106540776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119771549"
 ---
 # <a name="imsrdpclientnonscriptable3negotiatesecuritylayer-property"></a>IMsRdpClientNonScriptable3 :: NegotiateSecurityLayer, propriété
 
@@ -76,12 +76,12 @@ HRESULT get_NegotiateSecurityLayer(
 
 Spécifie s’il faut activer la négociation de la couche de sécurité.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette propriété est définie sur **\_ false** et que authentification au niveau du réseau (NLA) est activé sur le système d’exploitation client, le client ne négociera pas la couche de sécurité et utilisera NLA pour sécuriser la connexion RDP. Si cette propriété a la valeur **Variant \_ true**, le client négocie entre NLA et la sécurité RDP de base.
 
 > [!Note]  
-> La désactivation de la négociation de la couche de sécurité est possible uniquement lors de la connexion à un serveur hôte de session Bureau à distance (hôte de session Bureau à distance) exécutant Windows Vista ou des systèmes d’exploitation ultérieurs. Si cette propriété est activée et que le client tente de se connecter à un serveur hôte de session Bureau à distance exécutant un système d’exploitation antérieur, la connexion échoue.
+> la désactivation de la négociation de la couche de sécurité n’est possible que lors de la connexion à un serveur hôte de session Bureau à distance (hôte de session bureau à distance) exécutant Windows Vista ou des systèmes d’exploitation ultérieurs. Si cette propriété est activée et que le client tente de se connecter à un serveur hôte de session Bureau à distance exécutant un système d’exploitation antérieur, la connexion échoue.
 
  
 

@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 36b3ba11148022c2265b6b2cd05e7c6ca25134ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d0eec15f2847a1be8de9f42489cf82c22fb75f837caa9f2b4eca5b33a41a2de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906759"
 ---
 # <a name="using-authorization-in-script"></a>Utilisation de l’autorisation dans le script
 
 Vous pouvez utiliser l’API du gestionnaire d’autorisations pour contrôler l’accès aux ressources de l’application.
 
-Les exemples de cette section sont écrits à l’aide de Visual Basic Scripting Edition (VBScript) et Active Server pages (ASP).
+les exemples de cette section sont écrits à l’aide de Visual Basic scripting Edition (VBScript) et Active Server Pages (ASP).
 
 Pour plus d’informations sur les autres tâches d’autorisation, consultez [prise en charge des tâches dans le script](supporting-tasks-for-authorization-in-script.md).
 

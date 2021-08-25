@@ -4,16 +4,16 @@ ms.assetid: 3F79CF5F-416D-4C06-AAAE-D935F36CD2E2
 title: Problèmes de compatibilité des applications lors de la migration vers Internet Explorer 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f24fb4b0cbfb946f2385ddbd13ddc697987e659d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b806f7ed33e3ebd9ae4508c14b7fd285979de4fb8c90dbbac665025c97ed78e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795889"
 ---
 # <a name="addressing-application-compatibility-when-migrating-to-internet-explorer-8"></a>Problèmes de compatibilité des applications lors de la migration vers Internet Explorer 8
 
-Cette section fournit une vue d’ensemble du test des problèmes de compatibilité des applications et de la résolution de ces problèmes dans les applications Web pour Windows Internet Explorer 8. Les rubriques suivantes décrivent les modifications apportées à Internet Explorer 8 et les outils et technologies pour garantir la compatibilité de votre application.
+cette section fournit une vue d’ensemble du test des problèmes de compatibilité des applications et de la résolution de ces problèmes dans les applications web pour Windows Internet Explorer 8. Les rubriques suivantes décrivent les modifications apportées à Internet Explorer 8 et les outils et technologies pour garantir la compatibilité de votre application.
 
 
 

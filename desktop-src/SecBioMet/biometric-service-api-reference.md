@@ -1,21 +1,21 @@
 ---
-title: Informations de référence sur l’API Windows Biometric Framework
+title: Windows Informations de référence sur l’API de Framework biométrique
 description: Description détaillée des fonctions, structures et fonctionnalités qui peuvent être utilisées pour créer des applications clientes et des plug-ins.
 ms.assetid: e495f3a5-64f5-4181-bf3a-c0c2bbe09016
 keywords:
-- API Windows Biometric Framework API Windows Biometric Framework, référence
+- Windows api de l’infrastructure biométrique Windows Biometric Framework, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bec69f85b345be81fa3ca61bae15e6c57975f0c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 168d0d17a27f5af62178ecc88702da8687bc427d9a337510e20d6ed9c0ec7276
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906679"
 ---
-# <a name="windows-biometric-framework-api-reference"></a>Informations de référence sur l’API Windows Biometric Framework
+# <a name="windows-biometric-framework-api-reference"></a>Windows Informations de référence sur l’API de Framework biométrique
 
-Windows Biometric Framework pages de référence de l’API contiennent des descriptions détaillées des fonctions, structures et fonctionnalités qui peuvent être utilisées pour créer des applications clientes et des plug-ins. Les pages de référence sont réparties dans les groupes suivants :
+Windows Les pages de référence de l’API de l’infrastructure biométrique contiennent des descriptions détaillées des fonctions, structures et fonctionnalités qui peuvent être utilisées pour créer des applications clientes et des plug-ins. Les pages de référence sont réparties dans les groupes suivants :
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -23,7 +23,7 @@ Windows Biometric Framework pages de référence de l’API contiennent des desc
 
 | Rubrique                                                                       | Description                                                                                                                                         |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Référence de l’application cliente](client-application-reference.md)<br/> | Fonctions, structures et autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework.<br/> |
+| [Référence de l’application cliente](client-application-reference.md)<br/> | fonctions, structures et autres types que vous pouvez utiliser pour générer des applications clientes qui interagissent avec l’Windows Biometric Framework.<br/> |
 | [Référence du plug-in](plug-in-reference.md)<br/>                       | Fonctions d’adaptateur, fonctions wrapper et structures pour créer des adaptateurs de plug-in personnalisés de trois types : le moteur, le capteur et le stockage.<br/>   |
 
 

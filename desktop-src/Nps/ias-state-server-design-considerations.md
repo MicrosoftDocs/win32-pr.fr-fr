@@ -5,19 +5,19 @@ ms.assetid: 2f8d268b-5518-4ad2-aed6-5971c913db6d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a0ef654f3641138075acc667d733b20c94c4840
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b39fa2460fbad5ffedd4a517da588cc0c951f734926c1219d750e28f71734c24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889479"
 ---
 # <a name="state-server-design-considerations"></a>Considérations relatives à la conception du serveur d’État
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 Selon votre conception, vous pouvez avoir besoin d’un serveur pour effectuer le suivi des utilisateurs qui sont actuellement connectés sur le réseau. Le principal défi avec le serveur d’État est de maintenir la synchronisation des informations de la base de données du serveur d’État avec celles qui sont actuellement connectées. Si les informations du serveur d’État ne sont pas synchronisées, les utilisateurs peuvent avoir plusieurs sessions lorsqu’ils ne sont pas autorisés à le faire. En outre, les utilisateurs qui n’ont pas plusieurs sessions peuvent être pénalisés par inadvertance.
 
@@ -32,9 +32,9 @@ Une conception possible consiste à implémenter à la fois une DLL d’extensio
 
 L’avantage de disposer de la DLL d’extension d’autorisation pour mettre à jour la base de données du serveur d’État est que la DLL d’extension d’autorisation a accès à des informations supplémentaires sur l’utilisateur authentifié. La DLL d’extension d’autorisation a accès à tous les attributs d’autorisation à partir du mécanisme d’autorisation du serveur NPS. Par exemple, certains utilisateurs peuvent avoir des autorisations qui leur permettent d’avoir plusieurs sessions. Le serveur d’État doit traiter ces utilisateurs comme un cas spécial.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - process.h
-ms.openlocfilehash: 1db69d51f3a46bbe219ef7f7bdea67e8e8970e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5df58ef86971fcf60e79fbae8e92313dbd0b0371e2311cc30b494950e4f37dd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890839"
 ---
 # <a name="dllmain-parser-callback-function"></a>Fonction de rappel de l’analyseur DllMain
 
@@ -77,7 +77,7 @@ Non utilisé maintenant.
 
 La DLL de l’analyseur retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système d’exploitation appelle **DllMain** pour charger et décharger la dll de l’analyseur. Cette fonction est basée sur la fonction [DllMain](/windows/desktop/Dlls/dllmain) de la bibliothèque de liens dynamiques.
 

@@ -524,7 +524,7 @@
               items:
                 - name: Configurer la méthode
                   href: idelaydc-configure.md
-                - name: Méthode Connect
+                - name: Connecter Méthode
                   href: idelaydc-connect.md
                 - name: Méthode Disconnect
                   href: idelaydc-disconnect.md
@@ -551,7 +551,7 @@
               items:
                 - name: Configurer la méthode
                   href: iesp-configure.md
-                - name: Méthode Connect
+                - name: Connecter Méthode
                   href: iesp-connect.md
                 - name: Méthode Disconnect
                   href: iesp-disconnect.md
@@ -574,7 +574,7 @@
               items:
                 - name: Configurer la méthode
                   href: irtc-configure.md
-                - name: Méthode Connect
+                - name: Connecter Méthode
                   href: irtc-connect.md
                 - name: Méthode Disconnect
                   href: irtc-disconnect.md
@@ -601,7 +601,7 @@
               items:
                 - name: Configurer la méthode
                   href: istats-configure.md
-                - name: Méthode Connect
+                - name: Connecter Méthode
                   href: istats-connect.md
                 - name: Méthode Disconnect
                   href: istats-disconnect.md
@@ -757,7 +757,7 @@
     - name: Glossaire
       href: glossary.md
       items:
-        - name: Un
+        - name: A
           href: a.md
         - name: B
           href: b.md

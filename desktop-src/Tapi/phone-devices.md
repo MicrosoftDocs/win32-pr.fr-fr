@@ -1,19 +1,19 @@
 ---
-description: La prise en charge des appareils téléphoniques est plus simple que de base, donc les fournisseurs de services ne sont pas tenus de prendre en charge les appareils téléphoniques.
+description: Téléphone la prise en charge des appareils est supplémentaire plutôt que basique, les fournisseurs de services ne sont donc pas tenus de prendre en charge les appareils téléphoniques.
 ms.assetid: 4d9f3b32-20d0-4550-9b3d-db97df8ea289
-title: Appareils téléphoniques
+title: Téléphone Appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f406442e43d8d4f31a89bfc0ccb1e59916d33e0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d11aa269e17d74fbaf74c701c954ced734ef33900198a7c9e30a044f5ebd32e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873279"
 ---
-# <a name="phone-devices"></a>Appareils téléphoniques
+# <a name="phone-devices"></a>Téléphone Appareil
 
-La prise en charge des appareils téléphoniques est plus simple que de base, donc les fournisseurs de services ne sont pas tenus de prendre en charge les appareils téléphoniques.
+Téléphone la prise en charge des appareils est supplémentaire plutôt que basique, les fournisseurs de services ne sont donc pas tenus de prendre en charge les appareils téléphoniques.
 
 Tout comme une classe de périphérique en ligne est une abstraction d’un périphérique de ligne physique, la classe de périphérique téléphonique représente une abstraction indépendante du périphérique d’un ensemble de téléphones. L’interface TAPI traite les appareils téléphoniques et de ligne comme des appareils indépendants les uns des autres. En d’autres termes, vous pouvez utiliser un téléphone (appareil) sans utiliser de ligne associée, et vous pouvez utiliser une ligne (appareil) sans utiliser de téléphone.
 
@@ -25,7 +25,7 @@ L’interface TAPI comprend des fonctions permettant de récupérer des fonction
 
 Cette section décrit les appareils téléphoniques et explique comment utiliser les fonctions de téléphonie TAPI pour accéder à ces appareils.
 
--   [Appareil téléphonique](phone-device-elements.md)
+-   [Téléphone Passerelle](phone-device-elements.md)
 -   [Initialisation et arrêt](initialization-and-shutdown.md)
 
  

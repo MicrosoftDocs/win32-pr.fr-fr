@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 030fafb4ccf041c2804179f8adf0088ca3fba845
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e76bad23d79e261a27df5b83a94d4e477b21cde5057bb2587ffb49c93382df0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890339"
 ---
 # <a name="istatsgetconversationstatistics-method"></a>IStats :: GetConversationStatistics, méthode
 
@@ -89,16 +89,16 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                                   | Description                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>          | Le NPP n’est pas connecté au réseau. Appelez [**IStats :: Connect**](istats-connect.md) pour connecter le NPP au réseau.<br/>                                                                                                      |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>          | Le NPP n’est pas connecté au réseau. appelez [**IStats :: Connecter**](istats-connect.md) pour connecter le NPP au réseau.<br/>                                                                                                      |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl>          | Le NPP ne capture pas de données. Appelez [**IStats :: Start**](istats-start.md) pour démarrer la capture.<br/>                                                                                                                                 |
-| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl>        | Le NPP est connecté au réseau, mais pas avec la méthode [**IStats :: Connect**](istats-connect.md) .<br/>                                                                                                                         |
+| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl>        | le NPP est connecté au réseau, mais pas avec la méthode [**IStats :: Connecter**](istats-connect.md) .<br/>                                                                                                                         |
 | <dl> <dt>**NMERR \_ aucune \_ statistique de conversation \_**</dt> </dl> | La configuration de cette connexion est définie de façon à ne pas enregistrer les statistiques de conversation. Pour enregistrer les statistiques de conversation, arrêtez la capture, définissez **NoConversationStats = Yes** dans l’objet blob de configuration, puis redémarrez la capture.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode peut être appelée uniquement lorsque la capture de données est en cours ; Lorsque la capture en cours est suspendue, un appel à cette méthode échoue.
 
@@ -130,7 +130,7 @@ Pour démarrer une capture, appelez la méthode [**IStats :: Start**](istats-st
 [**IStats :: Start**](istats-start.md)
 </dt> <dt>
 
-[**IStats :: Connect**](istats-connect.md)
+[**IStats :: Connecter**](istats-connect.md)
 </dt> <dt>
 
 [**SESSIONSTATS**](sessionstats.md)

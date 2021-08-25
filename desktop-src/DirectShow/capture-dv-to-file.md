@@ -4,19 +4,19 @@ ms.assetid: f7a8bcbb-a744-43c4-a226-354ae2d94df8
 title: Capturer le fichier DV dans un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 713e49eba3016b353362c541ba31ffd6a1ae5de7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d886b964502d705f5902c17de8e6e008a11a31699de40b3089033867873fa021
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814339"
 ---
 # <a name="capture-dv-to-file"></a>Capturer le fichier DV dans un fichier
 
 Cette section décrit comment capturer une vidéo numérique (DV) à partir d’une caméra DV ou d’une bande VTR.
 
 1.  Créez une instance du filtre de [pilote MSDV](msdv-driver.md) . Pour plus d’informations, consultez [sélection d’un périphérique de capture](selecting-a-capture-device.md).
-2.  Initialisez le générateur de graphiques de capture, comme décrit dans [à propos du générateur de graphiques de capture](about-the-capture-graph-builder.md).
+2.  initialisez le générateur de Graph de capture, comme décrit dans [à propos du générateur de Graph de capture](about-the-capture-graph-builder.md).
 3.  Générez le graphique de capture, en fonction du type de fichier cible :
     -   [Capturer un fichier DV de type 1](capture-a-type-1-dv-file.md)
     -   [Capturer un fichier DV de type 2](capture-a-type-2-dv-file.md)
@@ -34,7 +34,7 @@ La capture à partir d’une bande VTR fonctionne comme la capture de vidéos en
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
 [Types-1 et fichiers AVI DV type-2](type-1-vs--type-2-dv-avi-files.md)

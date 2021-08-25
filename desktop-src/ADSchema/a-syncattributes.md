@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e2885690f9661e2c92fd2d4c6b0a3ffb01aa9e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ab1df2bc030ae0313a0ca70bad5d2ddf9cc366729ba6e442102999ccd073485e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835899"
 ---
 # <a name="sync-attributes-attribute"></a>Attribut Sync-Attributes
 
@@ -36,7 +36,7 @@ Attributs qui contiennent des informations sur les objets de synchronisation.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.666               |
 | System-ID-GUID    | 037651e4-441d-11d1-a9c3-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Attributs qui contiennent des informations sur les objets de synchronisation.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: c73fb4c5-20ae-4873-afd2-4f40eb47bade
 title: Modèles de thread COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5f07b065861c042e68add633368a9c8b8ba41b2
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: cd0949a27291be43b5981f24f4985fac6911937b2c9fa85785b4d662bd1bf546
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103761114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793673"
 ---
 # <a name="com-threading-models"></a>Modèles de thread COM+
 
@@ -17,7 +17,7 @@ Les modèles de thread COM+ sont conçus autour d’une collection d’objets ap
 
 ![Diagramme qui montre une collection de contextes dans une activité, au sein d’un cloisonnement, au sein d’un processus.](images/6b86fe3b-262a-483a-a418-67d60f9a5d68.png)
 
-Les appels au sein d’un cloisonnement sont directs, tandis que les appels entre les Apartments (out-of-process) sont indirects et requièrent du code proxy et stub. Les Apartments autorisent les objets avec des propriétés de synchronisation et de réentrance différentes et ont deux catégories : à thread unique et multithread. Les objets dans un thread cloisonné (STA) s’exécutent sur le thread particulier dans lequel ils ont été créés. Les STA autorisent l’exécution d’une seule méthode à la fois. Ils sont conçus pour les interfaces utilisateur et s’appuient sur la file d’attente de messages Microsoft Windows pour traiter les appels entrants.
+Les appels au sein d’un cloisonnement sont directs, tandis que les appels entre les Apartments (out-of-process) sont indirects et requièrent du code proxy et stub. Les Apartments autorisent les objets avec des propriétés de synchronisation et de réentrance différentes et ont deux catégories : à thread unique et multithread. Les objets dans un thread cloisonné (STA) s’exécutent sur le thread particulier dans lequel ils ont été créés. Les STA autorisent l’exécution d’une seule méthode à la fois. ils sont conçus pour les interfaces utilisateur et s’appuient sur la file d’attente de messages Microsoft Windows pour traiter les appels entrants.
 
 Les objets d’un cloisonnement multithread (MTA) s’exécutent sur n’importe quel thread et permettent à un nombre quelconque de méthodes de se produire simultanément. Les MTA prennent en charge la réentrance implicitement.
 

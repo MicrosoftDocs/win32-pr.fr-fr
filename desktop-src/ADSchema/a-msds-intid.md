@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9af88c7f751243697c00bcba6a4483f22020b9ad
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1aa21dac2f456fc2a44169fae147e47469d20d654677e97308104073a251e300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804058"
 ---
 # <a name="ms-ds-intid-attribute"></a>ms-DS-IntId (attribut)
 
@@ -36,7 +36,7 @@ L’attribut **ms-DS-IntID** est destiné à un usage interne uniquement.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1716              |
 | System-ID-GUID    | bc60096a-1b47-4b30-8877-602c93f56532 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **ms-DS-IntID** est destiné à un usage interne uniquement.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

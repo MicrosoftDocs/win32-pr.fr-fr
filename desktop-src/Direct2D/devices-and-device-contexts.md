@@ -8,16 +8,16 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 2858861956a40bf969309be474105052e4692cde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 735ad81a5911b16c159ffb8c63173421a55295e20e34090eb483065e1a7d311c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104568440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119832993"
 ---
 # <a name="how-to-render-by-using-a-direct2d-device-context"></a>Comment effectuer le rendu à l’aide d’un contexte de périphérique Direct2D
 
-Dans cette rubrique, vous allez apprendre à créer un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) dans Windows 8. Ces informations s’appliquent si vous développez des applications du Windows Store ou une application de bureau à l’aide de Direct2D. Cette rubrique décrit l’objectif des objets de contexte de périphérique Direct2D, comment créer cet objet et un guide pas à pas sur le rendu et l’affichage des primitives et des images Direct2D. Vous apprendrez également à basculer les cibles de rendu et à ajouter des effets à votre application.
+Dans cette rubrique, vous allez apprendre à créer un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) [Direct2D](./direct2d-portal.md) dans Windows 8. ces informations s’appliquent si vous développez des applications Windows store ou une application de bureau à l’aide de Direct2D. Cette rubrique décrit l’objectif des objets de contexte de périphérique Direct2D, comment créer cet objet et un guide pas à pas sur le rendu et l’affichage des primitives et des images Direct2D. Vous apprendrez également à basculer les cibles de rendu et à ajouter des effets à votre application.
 
 -   [Qu’est-ce qu’un appareil Direct2D ?](#what-is-a-direct2d-device)
 -   [Qu’est-ce qu’un contexte de périphérique Direct2D ?](#what-is-a-direct2d-device-context)
@@ -37,13 +37,13 @@ Un [](./direct2d-portal.md) [**contexte de périphérique**](/windows/win32/api/
 
 ## <a name="rendering-with-direct2d-on-windows-8"></a>Rendu avec Direct2D sur Windows 8
 
-Sur Windows 7 et les versions antérieures, vous utilisez un [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) ou une autre interface cible de rendu pour effectuer un rendu dans une fenêtre ou une surface. À compter de Windows 8, nous ne recommandons pas le rendu à l’aide de méthodes qui reposent sur des interfaces comme **ID2D1HwndRenderTarget** , car elles ne fonctionnent pas avec les applications du Windows Store. Vous pouvez utiliser un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) pour effectuer un rendu sur un HWND si vous souhaitez créer une application de bureau tout en tirant parti des fonctionnalités supplémentaires du **contexte de périphérique** . Toutefois, le **contexte de périphérique** est nécessaire pour restituer le contenu d’une application du Windows Store avec [Direct2D](./direct2d-portal.md).
+sur Windows 7 et les versions antérieures, vous utilisez un [**ID2D1HwndRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1hwndrendertarget) ou une autre interface cible de rendu pour effectuer un rendu dans une fenêtre ou une surface. à partir de Windows 8, nous ne recommandons pas le rendu à l’aide de méthodes qui reposent sur des interfaces telles que **ID2D1HwndRenderTarget** , car elles ne fonctionnent pas avec les applications Windows store. Vous pouvez utiliser un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) pour effectuer un rendu sur un HWND si vous souhaitez créer une application de bureau tout en tirant parti des fonctionnalités supplémentaires du **contexte de périphérique** . toutefois, le **contexte de périphérique** est nécessaire pour restituer le contenu dans un Windows les applications du windows Store avec [Direct2D](./direct2d-portal.md).
 
 ## <a name="why-use-a-device-context-to-render"></a>Pourquoi utiliser un contexte de périphérique pour le rendu ?
 
--   Vous pouvez effectuer le rendu pour les applications du Windows Store.
+-   vous pouvez effectuer le rendu pour les applications du windows Store Windows.
 -   Vous pouvez modifier la cible de rendu à tout moment avant, pendant et après le rendu. Le contexte de périphérique garantit que les appels aux méthodes de dessin sont exécutés dans l’ordre et les applique lorsque vous changez la cible de rendu.
--   Vous pouvez utiliser plusieurs types de fenêtre avec un contexte de périphérique. Vous pouvez utiliser un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) et [**une chaîne de permutation dxgi**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) pour effectuer un rendu direct vers un [**Windows :: UI :: Core :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) ou un [**Windows :: UI :: XAML :: SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel).
+-   Vous pouvez utiliser plusieurs types de fenêtre avec un contexte de périphérique. vous pouvez utiliser un [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) et [**une chaîne de permutation DXGI**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1) pour effectuer un rendu direct vers un [**Windows :: ui :: Core :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) ou un [**Windows :: ui :: XAML :: SwapChainBackgroundPanel**](/uwp/api/Windows.UI.Xaml.Controls.SwapChainBackgroundPanel).
 -   Vous pouvez utiliser le [](./direct2d-portal.md) [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) Direct2D pour créer des [effets Direct2D](effects-overview.md) et restituer la sortie d’un graphique effet d’image ou d’effet sur une cible de rendu.
 -   Vous pouvez avoir plusieurs [**contextes d’appareil**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext), ce qui peut être utile pour améliorer les performances dans une application de thread. Pour plus d’informations, consultez [applications Direct2D multithread](multi-threaded-direct2d-apps.md) .
 -   Le [**contexte de périphérique**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) interagit étroitement avec Direct3D, ce qui vous donne davantage d’accès aux options Direct3D.
@@ -59,7 +59,7 @@ Voici un diagramme des appels de méthode et des interfaces que ce code utilise.
 > [!Note]  
 > Ce code suppose que vous disposez déjà d’un objet [**ID2D1Factory1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1factory1) , pour plus d’informations, consultez la [**page de référence ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory).
 
- 
+ 
 
 
 ```C++
@@ -132,7 +132,7 @@ Passons en revue les étapes de l’exemple de code précédent.
         > [!Note]  
         > [Direct3D](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) effectue une recherche dans votre liste jusqu’à ce qu’il trouve le niveau de fonctionnalité pris en charge par le système hôte.
 
-         
+         
 
     -   Utilisez la fonction [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice) pour créer un objet [**ID3D11Device**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1) , la fonction retournera également un objet [**ID3D11DeviceContext**](/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1) , mais cet objet n’est pas nécessaire pour cet exemple.
 
@@ -230,15 +230,15 @@ Passons en revue les étapes de l’exemple de code précédent.
 
 1.  Allouez une structure [**\_ DESC1 de \_ chaîne \_ de permutation dxgi**](/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) et définissez les paramètres de la [**chaîne de permutation**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain).
 
-    Ces paramètres montrent un exemple de création d’une chaîne de permutation qu’une application du Windows Store peut utiliser.
+    ces paramètres montrent un exemple de création d’une chaîne de permutation qu’une application Windows Store peut utiliser.
 
 2.  Récupérez l’adaptateur sur lequel l' [**appareil Direct3D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11device) et l' [**appareil dxgi**](/windows/desktop/api/dxgi/nn-dxgi-idxgidevice) sont exécutés et récupérez l’objet [**IDXGIFactory**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) qui leur est associé. Vous devez utiliser cette **fabrique dxgi** pour vous assurer que la [**chaîne de permutation**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain) est créée sur le même adaptateur.
 
-3.  Appelez la méthode [**IDXGIFactory2 :: CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) pour créer la chaîne de permutation. Utilisez la classe [**Windows :: UI :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) pour la fenêtre principale d’une application du Windows Store.
+3.  Appelez la méthode [**IDXGIFactory2 :: CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow) pour créer la chaîne de permutation. utilisez la classe [**Windows :: UI :: CoreWindow**](/uwp/api/Windows.UI.Core.CoreWindow) pour la fenêtre principale d’une application Windows Store.
 
     Veillez à définir la latence de trame maximale sur 1 pour réduire la consommation d’énergie.
 
-    Si vous souhaitez restituer du contenu Direct2D dans une application du Windows Store, consultez la méthode [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) .
+    si vous souhaitez restituer du contenu Direct2D dans une application Windows Store, consultez la méthode [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) .
 
 4.  Récupération de la mémoire tampon d’arrière-plan à partir de la [**chaîne de permutation**](/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain). La mémoire tampon d’arrière-plan expose une interface [**ID3D11Texture2D**](/windows/desktop/api/d3d11/nn-d3d11-id3d11texture2d) allouée par la **chaîne de permutation**
 
@@ -295,6 +295,6 @@ Passons en revue les étapes de l’exemple de code précédent.
 
 Vous pouvez maintenant utiliser le [**contexte de périphérique Direct2D**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) pour dessiner des primitives, des images, des effets d’images et du texte à l’écran.
 
- 
+ 
 
- 
+ 

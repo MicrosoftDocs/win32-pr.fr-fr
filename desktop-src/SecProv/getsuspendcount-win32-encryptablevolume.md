@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: eb28f019674f39946674399f8931fb63421ef982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 468bd6cdc8f3df7efba26997fd76b0724d3e4cc5da552275dad5201adc469f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906349"
 ---
 # <a name="getsuspendcount-method-of-the-win32_encryptablevolume-class"></a>Méthode GetSuspendCount de la \_ classe Win32 EncryptableVolume
 
@@ -61,7 +61,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’applique uniquement au volume du système d’exploitation, et uniquement si elle est effectivement suspendue à ce moment-là. Si le volume n’est pas suspendu ou n’est pas un volume du système d’exploitation, l' **erreur \_ non \_ prise en charge** est retournée.
 
@@ -71,8 +71,8 @@ Cette méthode s’applique uniquement au volume du système d’exploitation, e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 8 entreprise, applications de bureau Windows 8 professionnel \[ uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 Entreprise, Windows 8 Professionnel des \[ applications de bureau uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | Racine \\ de \\ sécurité cimv2 \\ MicrosoftVolumeEncryption<br/>                                             |
 | En-tête<br/>                   | <dl> <dt>Activdbg. h</dt> </dl>                   |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume. mof</dt> </dl> |

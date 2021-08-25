@@ -3,7 +3,7 @@ title: Message LB_GETITEMRECT (winuser. h)
 description: Obtient les dimensions du rectangle qui délimite un élément de zone de liste tel qu’il est actuellement affiché dans la zone de liste.
 ms.assetid: 84f94bc9-f7a4-4c2d-8c35-1bd291082af9
 keywords:
-- LB_GETITEMRECT les contrôles de message Windows
+- LB_GETITEMRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98b66c7c1a3e9f93e90beea40869cecb2081cb20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94e6fa6ed15f4d3a186800fd66e7c917e8620effa775c76f85b144e49207f12f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799479"
 ---
 # <a name="lb_getitemrect-message"></a>\_Message GETITEMRECT lb
 
@@ -34,7 +34,7 @@ Obtient les dimensions du rectangle qui délimite un élément de zone de liste 
 
 Index de base zéro de l'élément.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
 
 </dd> <dt>
 
@@ -55,8 +55,8 @@ Si une erreur se produit, la valeur de retour est LB \_ Err.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

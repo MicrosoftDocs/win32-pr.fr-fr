@@ -4,12 +4,12 @@ description: L’identité d’une application est le compte utilisé pour exéc
 ms.assetid: bd2e90d0-6d00-46e0-beac-8fdade52b797
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58d5ab55ab8440238c95ffe01198be2a34a707e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f05e82f6975959761e988ae6a8239ea51a1ecea8bc55e1c7bc750b9414fd2927
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793839"
 ---
 # <a name="application-identity"></a>Identité de l'application
 
@@ -22,9 +22,9 @@ Les rubriques suivantes décrivent chacun des quatre types d’identité d’app
 -   [Utilisateur spécifié](specified-user.md)
 -   [Identité du service](service-identity.md)
 
- 
+ 
 
- 
+ 
 
 
 

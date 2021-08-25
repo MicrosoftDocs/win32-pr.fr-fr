@@ -4,12 +4,12 @@ ms.assetid: 581de4ba-0f90-42d7-b7db-1324d42595e2
 title: Demande de droits d’accès à un objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb2e13bd5f5e51ed194b60c6ab63d1eda8eddfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a168a5c9aa97d95acb13cb1cfeb3e776ea1e7ae6e2e090df5c8395a4b61fabea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907539"
 ---
 # <a name="requesting-access-rights-to-an-object"></a>Demande de droits d’accès à un objet
 

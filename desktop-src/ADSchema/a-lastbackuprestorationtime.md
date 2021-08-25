@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9220d06a4cdd562599611d2ad19cf09fa279ef3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 507d19c03dada2430eee9eab5cfdc76cc043a5bc7385fdc9e17925a5dbd6e78c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804399"
 ---
 # <a name="last-backup-restoration-time-attribute"></a>Attribut Last-Backup-Restoring-Time
 
@@ -36,7 +36,7 @@ Lorsque la dernière restauration du système s’est produite.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.519               |
 | System-ID-GUID    | 1fbb0be8-ba63-11d0-afef-0000f80367c1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -46,7 +46,7 @@ Lorsque la dernière restauration du système s’est produite.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

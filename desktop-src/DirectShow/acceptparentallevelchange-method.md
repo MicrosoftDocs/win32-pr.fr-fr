@@ -4,17 +4,17 @@ ms.assetid: b3d58069-16dc-4598-90ea-6136c2f62ac7
 title: Méthode AcceptParentalLevelChange
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8b2e81d1d82c4ede14580ed65d88566738dac1b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: aea4742622ce9a2c65cdce660a8bae7fab6f84171d6bd61cdf88475c2bcd788c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119873589"
 ---
 # <a name="acceptparentallevelchange-method"></a>Méthode AcceptParentalLevelChange
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -50,7 +50,7 @@ Spécifie le nouveau niveau parental en tant que valeur booléenne.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode en réponse à une \_ notification d’événement de modification du niveau parental du DVD EC \_ \_ \_ pour spécifier si le navigateur DVD doit lire le contenu avec le nouveau niveau parental, ou créer une branche vers l’emplacement où le disque spécifie si le nouveau niveau est rejeté.
 

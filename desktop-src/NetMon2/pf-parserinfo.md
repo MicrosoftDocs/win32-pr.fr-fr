@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 28ebeaad31e6f40ceb961d8c303a22590966947f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 533e8dae6a009488998acd3232b062b423553b9df10f14ec97ef9ae2f8c55bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889939"
 ---
 # <a name="pf_parserinfo-structure"></a>PF \_ PARSERINFO, structure
 
@@ -94,7 +94,7 @@ Pointeur vers une [structure \_ HANDOFFSET de PF](pf-handoffset.md) qui réperto
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **structure \_ PARSERINFO PF** est utilisée dans la **structure \_ PARSERDLLINFO de PF** pour fournir une description d’un analyseur. Moniteur réseau utilise la description de l’analyseur pour mettre à jour le fichier [*Parser.ini*](p.md) et les fichiers ini des analyseurs qui précèdent et suivent le protocole décrit dans la structure **\_ PARSERINFO de PF** .
 

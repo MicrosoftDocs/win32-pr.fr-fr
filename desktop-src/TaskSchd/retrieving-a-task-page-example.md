@@ -6,12 +6,12 @@ keywords:
 - récupération de la page de tâches Planificateur de tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd570edf3309b9b9ff0eada291d02a10850885ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2d619f76b4de416fe2bef9faa679851c613df05e427d6203a6a91936644ad07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872269"
 ---
 # <a name="retrieving-a-task-page-example"></a>Exemple de récupération d’une page de tâche
 
@@ -20,7 +20,7 @@ Pour récupérer une page de tâche, vous devez appeler **ITask :: QueryInterfa
 > [!Note]  
 > Dans l’exemple de code suivant, toutes les interfaces sont libérées après qu’elles ne sont plus nécessaires.
 
- 
+ 
 
 La procédure suivante décrit comment créer un nouveau déclencheur.
 
@@ -39,7 +39,7 @@ La procédure suivante décrit comment créer un nouveau déclencheur.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,6 +48,6 @@ La procédure suivante décrit comment créer un nouveau déclencheur.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

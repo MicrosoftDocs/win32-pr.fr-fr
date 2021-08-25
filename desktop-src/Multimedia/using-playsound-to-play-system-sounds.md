@@ -12,12 +12,12 @@ keywords:
 - événements sonores
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1940ee9f207213c4337c9b6bb0a0d58b0f471000
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bf9978e9e33c049db82a033b2379ac9f52b5e2959fd9d8425deac180ba7a81e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804569"
 ---
 # <a name="using-playsound-to-play-system-sounds"></a>Utilisation de PlaySound pour lire des sons système
 
@@ -47,6 +47,6 @@ Si une application enregistre ses propres événements de son, l’utilisateur p
 
 La fonction [**sndPlaySound**](/previous-versions//dd798676(v=vs.85)) recherche toujours dans le registre un KeyName correspondant à *lpszSound* avant de tenter de charger un fichier portant ce nom. La fonction [**PlaySound**](/previous-versions//dd743680(v=vs.85)) accepte les indicateurs qui spécifient l’emplacement du son.
 
- 
+ 
 
- 
+ 

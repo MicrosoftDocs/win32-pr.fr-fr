@@ -1,21 +1,21 @@
 ---
-title: Interfaces (stockage structuré)
-description: Le stockage structuré définit les interfaces suivantes.
+title: Interfaces (Stockage structurées)
+description: structured Stockage définit les interfaces suivantes.
 ms.assetid: 068ca25f-8aca-450b-b9c9-cec07d515dac
 keywords:
-- Stockage structuré Strctd STG, référence, interfaces
+- structured Stockage Strctd Stg, référence, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d25caf7151dcd56d55b424950e03a68cde01900
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e81ea5e67c54f9ff89c6c02ce6c075e6f7300a9407de6b0479f76f9f3180bf22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906139"
 ---
-# <a name="interfaces-structured-storage"></a>Interfaces (stockage structuré)
+# <a name="interfaces-structured-storage"></a>Interfaces (Stockage structurées)
 
-Le stockage structuré définit les interfaces suivantes :
+structured Stockage définit les interfaces suivantes :
 
 -   [**IMemoryAllocator**](imemoryallocator.md)
 -   [**IDirectWriterLock**](/windows/desktop/api/Objidl/nn-objidl-idirectwriterlock)

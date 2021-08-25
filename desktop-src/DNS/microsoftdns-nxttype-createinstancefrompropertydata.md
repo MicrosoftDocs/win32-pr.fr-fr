@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fee00cd0afdb6ac629a981dbdb586a30252eac1d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1075574ec2e2fecceacc24701f67105ac9796a41a45e20c468a9021d7ff20899
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815669"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_nxttype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS NXTType
 
@@ -77,7 +77,7 @@ Classe de l’enregistrement de ressource. La valeur par défaut est 1. Les vale
 
 
 
-| Valeur                                                                                                | Signification                  |
+| Value                                                                                                | Signification                  |
 |------------------------------------------------------------------------------------------------------|--------------------------|
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | DANS (Internet)<br/> |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | CS (CSNET)<br/>    |
@@ -126,7 +126,7 @@ Cette méthode ne retourne pas de valeur.
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |

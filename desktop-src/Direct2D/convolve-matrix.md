@@ -6,12 +6,12 @@ keywords:
 - effet matrice conversion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27951f5b9145dc46188e6b3112892d1a61856236
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e3b988e0bd48fece4d767fad29b63fe021c82d49d07dae5ab3f1b10b3f9794f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104566142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833372"
 ---
 # <a name="convolve-matrix-effect"></a>Effet de matrice de convolution
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1ConvolveMatrix.
 -   [Modes de mise à l’échelle](#scale-modes)
 -   [Modes de bordure](#border-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -36,7 +36,7 @@ L’exemple ci-dessous montre l’entrée et la sortie de l’effet de matrice c
 | Avant                                                         |
 |----------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)     |
-| After                                                          |
+| Après                                                          |
 | ![image après la transformation.](images/6-convolvematrix.png) |
 
 
@@ -107,7 +107,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Nom                     | Description                                                                                                                                                                                                                                                              |
+| Name                     | Description                                                                                                                                                                                                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image d’entrée avec des pixels noirs transparents pour les échantillons en dehors des limites d’entrée lorsqu’elle applique le noyau de convolution. Cela crée une bordure douce pour l’image et, dans le processus, développe la bitmap de sortie de la taille du noyau.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet étend l’image d’entrée avec une transformation de bordure de type miroir pour les exemples en dehors des limites d’entrée. La taille de l’image bitmap de sortie est égale à la taille de l’image bitmap d’entrée.<br/>                                                                       |
@@ -126,8 +126,8 @@ La taille de la sortie de l’effet dépend de la taille du noyau de convolution
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

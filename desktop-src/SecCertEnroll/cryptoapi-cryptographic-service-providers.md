@@ -4,16 +4,16 @@ ms.assetid: 28c9d348-7a37-4346-8b75-396d1349b152
 title: Fournisseurs de services de chiffrement CryptoAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b3820a0d45534bc5c492d843352be038f7ffc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32c095fe4801cd57d4665fed0deec1649eb0a64420c13e4e5f486c7afc805447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906579"
 ---
 # <a name="cryptoapi-cryptographic-service-providers"></a>Fournisseurs de services de chiffrement CryptoAPI
 
-Les fournisseurs associés à l’API de chiffrement ([*CryptoAPI*](/windows/desktop/SecGloss/c-gly)) sont appelés fournisseurs de services de chiffrement (CSP) dans cette documentation. Les fournisseurs de services de chiffrement implémentent généralement des algorithmes cryptographiques et fournissent un stockage de clés. Les fournisseurs associés à CNG, en revanche, l’implémentation d’algorithme distincte du stockage de clés. Les fournisseurs de services de chiffrement Microsoft suivants sont distribués avec Windows Vista et Windows Server 2008.
+Les fournisseurs associés à l’API de chiffrement ([*CryptoAPI*](/windows/desktop/SecGloss/c-gly)) sont appelés fournisseurs de services de chiffrement (CSP) dans cette documentation. Les fournisseurs de services de chiffrement implémentent généralement des algorithmes cryptographiques et fournissent un stockage de clés. Les fournisseurs associés à CNG, en revanche, l’implémentation d’algorithme distincte du stockage de clés. les fournisseurs de services de chiffrement Microsoft suivants sont distribués avec Windows Vista et Windows Server 2008.
 
 ## <a name="microsoft-base-cryptographic-provider-v10"></a>Microsoft Base Cryptographic Provider v1.0
 
@@ -31,7 +31,7 @@ Implémente les algorithmes suivants pour hacher, signer et chiffrer du contenu.
 | Message Digest 5 (MD5)                          | Hashing      | Quelconque   | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement   | Bloquer | 40/40/56                   |
 | RSA Data Security 4 (RC4)                       | Chiffrement   | Bloquer | 40/40/56                   |
-| Échange de clés RSA                                | Échange de clés | RSA   | 512/384/1024               |
+| Exchange de clé RSA                                | Échange de clés | RSA   | 512/384/1024               |
 | Signature RSA                                   | Signature      | RSA   | 512/384/16384              |
 | Algorithme de hachage sécurisé (SHA1)                    | Hashing      | Quelconque   | 160/160/160                |
 | SHA (Secure Socket Layer 3) et MD5 (SSL3 SHAMD5) | Hashing      | Quelconque   | 288/288/288                |
@@ -50,12 +50,12 @@ Implémente les algorithmes suivants pour prendre en charge le hachage, la signa
 |---------------------------------------|--------------|----------------|----------------------------|
 | Algorithme de chiffrement de message CYLINK   | Chiffrement   | Bloquer          | 40/40/40                   |
 | Data Encryption Standard (DES)        | Chiffrement   | Bloquer          | 56/56/56                   |
-| Algorithme d’échange de clés Diffie-Hellman | Échange de clés | Diffie-Hellman | 512/512/1024               |
+| algorithme de Exchange de clé Diffie-Hellman | Échange de clés | Diffie-Hellman | 512/512/1024               |
 | Algorithme éphémère Diffie-Hellman    | Échange de clés | Diffie-Hellman | 512/512/1024               |
 | Algorithme de signature numérique (DSA)     | Signature      | NORME            | 1024/512/1024              |
 | Message Digest 5 (MD5)                | Hashing      | Quelconque            | 128/128/128                |
 | RSA Data Security 2 (RC2)             | Chiffrement   | Bloquer          | 40/40/56                   |
-| RSA Data Security 4 (RC4)             | Chiffrement   | Stream         | 40/40/56                   |
+| RSA Data Security 4 (RC4)             | Chiffrement   | STREAM         | 40/40/56                   |
 | Algorithme de hachage sécurisé (SHA1)          | Hashing      | Quelconque            | 160/160/160                |
 
 
@@ -96,8 +96,8 @@ Prend en charge les cartes à puce et implémente les algorithmes suivants pour 
 | Message condensé 4 (MD4)                          | Hashing      | Quelconque    | 128/128/128                |
 | Message Digest 5 (MD5)                          | Hashing      | Quelconque    | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement   | Bloquer  | 128/40/128                 |
-| RSA Data Security 4 (RC4)                       | Chiffrement   | Stream | 128/40/128                 |
-| Échange de clés RSA                                | Échange de clés | RSA    | 1024/1024/4096             |
+| RSA Data Security 4 (RC4)                       | Chiffrement   | STREAM | 128/40/128                 |
+| Exchange de clé RSA                                | Échange de clés | RSA    | 1024/1024/4096             |
 | Signature RSA                                   | Signature      | RSA    | 1024/1024/4096             |
 | Algorithme de hachage sécurisé (SHA1)                    | Hashing      | Quelconque    | 160/160/160                |
 | Algorithme de hachage sécurisé 256 (SHA256)              | Hashing      | Quelconque    | 256/256/256                |
@@ -121,12 +121,12 @@ Prend en charge le package de sécurité Secure Channel (SChannel) qui implémen
 | Data Encryption Standard (DES)         | Chiffrement         | Bloquer          | 56/56/56                   |
 | Triple clé DES                     | Chiffrement         | Bloquer          | 112/112/112                |
 | Triple clé DES                   | Chiffrement         | Bloquer          | 168/168/168                |
-| Algorithme d’échange de clés Diffie-Hellman  | Échange de clés       | Diffie-Hellman | 512/512/4096               |
+| algorithme de Exchange de clé Diffie-Hellman  | Échange de clés       | Diffie-Hellman | 512/512/4096               |
 | Algorithme éphémère Diffie-Hellman     | Échange de clés       | Diffie-Hellman | 512/512/4096               |
 | Algorithme de signature numérique (DSA)      | Signature            | NORME            | 1024/512/1024              |
 | Message Digest 5 (MD5)                 | Hashing            | Quelconque            | 128/128/128                |
 | RSA Data Security 2 (RC2)              | Chiffrement         | Bloquer          | 40/40/128                  |
-| RSA Data Security 4 (RC4)              | Chiffrement         | Stream         | 40/40/128                  |
+| RSA Data Security 4 (RC4)              | Chiffrement         | STREAM         | 40/40/128                  |
 | Algorithme de hachage sécurisé (SHA1)           | Hashing            | Quelconque            | 160/160/160                |
 | Clé de chiffrement Schannel                | Chiffrement         | Schannel       | 0/0/-1                     |
 | Clé MAC Schannel                       | Chiffrement/hachage | Schannel       | 0/0/-1                     |
@@ -155,8 +155,8 @@ Offre une sécurité renforcée par rapport au fournisseur de services de chiffr
 | Message condensé 4 (MD4)                          | Hashing      | Quelconque    | 128/128/128                |
 | Message Digest 5 (MD5)                          | Hashing      | Quelconque    | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement   | Bloquer  | 128/40/128                 |
-| RSA Data Security 4 (RC4)                       | Chiffrement   | Stream | 128/40/128                 |
-| Échange de clés RSA                                | Échange de clés | RSA    | 1024/384/16384             |
+| RSA Data Security 4 (RC4)                       | Chiffrement   | STREAM | 128/40/128                 |
+| Exchange de clé RSA                                | Échange de clés | RSA    | 1024/384/16384             |
 | Signature RSA                                   | Signature      | RSA    | 1024/384/16384             |
 | Algorithme de hachage sécurisé (SHA1)                     | Hashing      | Quelconque    | 160/160/160                |
 | SHA (Secure Socket Layer 3) et MD5 (SSL3 SHAMD5) | Hashing      | Quelconque    | 288/288/288                |
@@ -177,12 +177,12 @@ Offre une sécurité renforcée par rapport aux fournisseurs de services de chif
 | Data Encryption Standard (DES)        | Chiffrement   | Bloquer          | 56/56/56                   |
 | Triple clé DES                    | Chiffrement   | Bloquer          | 112/112/112                |
 | Triple clé DES                  | Chiffrement   | Bloquer          | 168/168/168                |
-| Algorithme d’échange de clés Diffie-Hellman | Échange de clés | Diffie-Hellman | 1024/512/4096              |
+| algorithme de Exchange de clé Diffie-Hellman | Échange de clés | Diffie-Hellman | 1024/512/4096              |
 | Algorithme éphémère Diffie-Hellman    | Échange de clés | Diffie-Hellman | 1024/512/4096              |
 | Algorithme de signature numérique (DSA)     | Signature      | NORME            | 1024/512/1024              |
 | Message Digest 5 (MD5)                | Hashing      | Quelconque            | 128/128/128                |
 | RSA Data Security 2 (RC2)             | Chiffrement   | Bloquer          | 128/128/128                |
-| RSA Data Security 4 (RC4)             | Chiffrement   | Stream         | 128/128/128                |
+| RSA Data Security 4 (RC4)             | Chiffrement   | STREAM         | 128/128/128                |
 | Algorithme de hachage sécurisé (SHA1)          | Hashing      | Quelconque            | 160/160/160                |
 
 
@@ -209,8 +209,8 @@ Implémente les algorithmes suivants pour signer, chiffrer et hacher du contenu.
 | Message condensé 4 (MD4)                          | Hashing      | Quelconque    | 128/128/128                |
 | Message Digest 5 (MD5)                          | Hashing      | Quelconque    | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement   | Bloquer  | 128/128/128                |
-| RSA Data Security 4 (RC4)                       | Chiffrement   | Stream | 128/128/128                |
-| Échange de clés RSA                                | Échange de clés | RSA    | 1024/384/16384             |
+| RSA Data Security 4 (RC4)                       | Chiffrement   | STREAM | 128/128/128                |
+| Exchange de clé RSA                                | Échange de clés | RSA    | 1024/384/16384             |
 | Signature RSA                                   | Signature      | RSA    | 1024/384/16384             |
 | Algorithme de hachage sécurisé (SHA1)                    | Hashing      | Quelconque    | 160/160/160                |
 | Algorithme de hachage sécurisé (SHA256)                  | Hashing      | Quelconque    | 256/256/256                |
@@ -239,8 +239,8 @@ Prend en charge le package de sécurité RSA Secure Channel (SChannel) qui impl�
 | Somme de contrôle d’authentification de message (MAC)           | Hashing            | Quelconque      | 0/0/0                      |
 | Message Digest 5 (MD5)                          | Hashing            | Quelconque      | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement         | Bloquer    | 128/128/128                |
-| RSA Data Security 4 (RC4)                       | Chiffrement         | Stream   | 128/128/128                |
-| Échange de clés RSA                                | Échange de clés       | RSA      | 1024/384/16384             |
+| RSA Data Security 4 (RC4)                       | Chiffrement         | STREAM   | 128/128/128                |
+| Exchange de clé RSA                                | Échange de clés       | RSA      | 1024/384/16384             |
 | Clé de chiffrement Schannel                         | Chiffrement         | Schannel | 0/0/-1                     |
 | Hachage principal Schannel                            | Chiffrement/hachage | Schannel | 0/0/-1                     |
 | Clé MAC Schannel                                | Chiffrement/hachage | Schannel | 0/0/-1                     |
@@ -271,8 +271,8 @@ Implémente les algorithmes suivants.
 | Message condensé 4 (MD4)                          | Hashing      | Quelconque    | 128/128/128                |
 | Message Digest 5 (MD5)                          | Hashing      | Quelconque    | 128/128/128                |
 | RSA Data Security 2 (RC2)                       | Chiffrement   | Bloquer  | 128/40/128                 |
-| RSA Data Security 4 (RC4)                       | Chiffrement   | Stream | 128/40/128                 |
-| Échange de clés RSA                                | Échange de clés | RSA    | 1024/384/16384             |
+| RSA Data Security 4 (RC4)                       | Chiffrement   | STREAM | 128/40/128                 |
+| Exchange de clé RSA                                | Échange de clés | RSA    | 1024/384/16384             |
 | Signature RSA                                   | Signature      | RSA    | 1024/384/16384             |
 | Algorithme de hachage sécurisé (SHA1)                    | Hashing      | Quelconque    | 160/160/160                |
 | SHA (Secure Socket Layer 3) et MD5 (SSL3 SHAMD5) | Hashing      | Quelconque    | 288/288/288                |

@@ -3,7 +3,7 @@ title: Message WM_CAP_DRIVER_DISCONNECT (VFW. h)
 description: Le \_ message de \_ déconnexion du pilote WM Cap \_ déconnecte un pilote de capture d’une fenêtre de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capDriverDisconnect.
 ms.assetid: a420f24a-aa7d-4788-9120-2c11e5e2c14c
 keywords:
-- Message WM_CAP_DRIVER_DISCONNECT Windows Multimedia
+- message WM_CAP_DRIVER_DISCONNECT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acad628cc61bbb50c56f68fda91ac87be4feb728
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6365366c6ea37b36734262d1d7a8412a7729406ff3fcc12e10ae9ba55d9ba84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803859"
 ---
 # <a name="wm_cap_driver_disconnect-message"></a>\_Message de \_ déconnexion du pilote WM Cap \_
 

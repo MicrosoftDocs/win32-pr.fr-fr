@@ -4,12 +4,12 @@ ms.assetid: 3c08e913-b47e-4ca7-b8bc-7b036e57db01
 title: élément hostBuilderDeclaration
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf3ddd474b4000b053b49157f1fc4b2eb399d34
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 172181313f4cc95500fe61a922b119bba1fc02515d0e912289eb6d9ac8f8fc86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119794219"
 ---
 # <a name="hostbuilderdeclaration-element"></a>élément hostBuilderDeclaration
 
@@ -57,7 +57,7 @@ interface+
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

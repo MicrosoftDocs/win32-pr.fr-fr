@@ -5,12 +5,12 @@ ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3040f462ce226ebd3018070abc818884cee6ad6
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 46127e27b0f0890e305fee65534b0cce743c086e9e89934797bf2b16b15e9f9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106522260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814599"
 ---
 # <a name="error-codes-specific-to-wcs"></a>Codes d’erreur spécifiques du WCS
 
@@ -18,7 +18,7 @@ La liste suivante répertorie les codes d’erreur qui sont spécifiquement lié
 
 <dl> <dt>
 
-<span id="ERROR_DELETING_ICM_XFORM"></span><span id="error_deleting_icm_xform"></span>ERREUR lors de \_ la suppression du \_ \_ XForm CCI
+<span id="ERROR_DELETING_ICM_XFORM"></span><span id="error_deleting_icm_xform"></span>erreur lors de \_ la suppression \_ ICM \_ XFORM
 </dt> <dd>
 
 La transformation de couleur spécifiée n’a pas pu être supprimée.
@@ -32,7 +32,7 @@ La balise d’élément de profil de couleurs spécifiée est déjà présente d
 
 </dd> <dt>
 
-<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>ERREUR \_ ICM \_ non \_ activée
+<span id="ERROR_ICM_NOT_ENABLED"></span><span id="error_icm_not_enabled"></span>erreur \_ ICM \_ non \_ activée
 </dt> <dd>
 
 La gestion des couleurs des images n’est pas activée actuellement.

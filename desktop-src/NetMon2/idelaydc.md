@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: cb87bc9f821e758b83a1bc3dee5d81a4b1b771d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b6b965990435dd7b9a1758cc9bf8ac8001c747ae800225a90123da862032ed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119890559"
 ---
 # <a name="idelaydc-interface"></a>Interface IDelaydC
 
@@ -42,7 +42,7 @@ L’interface **IDelaydC** possède ces méthodes.
 | Méthode                                                                  | Description                                                                                                                                             |
 |:------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Configurer**](idelaydc-configure.md)                                 | Envoie les informations de configuration utilisées pour une capture.<br/>                                                                                        |
-| [**Se connecter**](idelaydc-connect.md)                                     | Connecte le NPP au réseau.<br/>                                                                                                             |
+| [**Connecter**](idelaydc-connect.md)                                     | Connecte le NPP au réseau.<br/>                                                                                                             |
 | [**Déconnecter**](idelaydc-disconnect.md)                               | Déconnecte le NPP du réseau.<br/>                                                                                                        |
 | [**GetControlState**](idelaydc-getcontrolstate.md)                     | Récupère l’état de la [*capture*](c.md), qui indique si la capture est en cours d’exécution ou en pause.<br/>                      |
 | [**GetConversationStatistics**](idelaydc-getconversationstatistics.md) | Récupère les informations de [*session*](s.md) et de [*station*](s.md) pour la capture en cours.<br/> |
@@ -50,7 +50,7 @@ L’interface **IDelaydC** possède ces méthodes.
 | [**Suspendre**](idelaydc-pause.md)                                         | Arrête temporairement la capture en cours.<br/>                                                                                                       |
 | [**QueryStations**](idelaydc-querystations.md)                         | Récupère une liste de tous les ordinateurs qui utilisent Moniteur réseau pour capturer des données sur un sous-réseau.<br/>                                                      |
 | [**QueryStatus**](idelaydc-querystatus.md)                             | Récupère l’état du NPP.<br/>                                                                                                             |
-| [**Sort**](idelaydc-resume.md)                                       | Reprend une capture suspendue.<br/>                                                                                                                    |
+| [**Reprendre**](idelaydc-resume.md)                                       | Reprend une capture suspendue.<br/>                                                                                                                    |
 | [**Activer**](idelaydc-start.md)                                         | Démarre une capture et crée le [*fichier de capture*](c.md).<br/>                                                           |
 | [**Erreur**](idelaydc-stop.md)                                           | Arrête la capture en cours et ferme le [*fichier de capture*](c.md).<br/>                                                   |
 

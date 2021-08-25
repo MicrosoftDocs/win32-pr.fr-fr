@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b7be04c149e2ac10c1a3e905678bd2b5f663cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8ce72d7cc26dc3fd7b60b7f1d4f26d2737980dfde88a1b31c79a59fb4335f96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770999"
 ---
 # <a name="imstscaxserver-property"></a>IMsTscAx :: Server, propriété
 
@@ -100,13 +100,13 @@ Nouveau nom du serveur. Ce paramètre peut être un nom DNS ou une adresse IP.
 
 Si les méthodes sont correctement exécutées, la méthode **S \_ OK** est retournée. Toute autre valeur **HRESULT** indique que l’appel a échoué.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie avant d’appeler la méthode [**Connect**](imstscax-connect.md) . Il s’agit de la seule propriété qui doit être définie avant la connexion.
+cette propriété doit être définie avant d’appeler la méthode [**Connecter**](imstscax-connect.md) . Il s’agit de la seule propriété qui doit être définie avant la connexion.
 
 Cette propriété ne peut être définie que si le contrôle n’est pas dans l’état connecté. Cette propriété retourne **E \_ Fail** si elle est appelée lorsque le contrôle est connecté. Vous pouvez vérifier l’état connecté à l’aide de la propriété [**Connected**](imstscax-connected.md) .
 
-Cette méthode alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pserver* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . Cela n’est pas nécessaire pour les Visual Basic et les clients de script.
+Cette méthode alloue la mémoire requise pour la mémoire tampon vers laquelle pointe le paramètre *pserver* . L’appel d’applications C/C++ doit libérer la mémoire avec un appel à la fonction [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) . cela n’est pas nécessaire pour les Visual Basic et les clients de script.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

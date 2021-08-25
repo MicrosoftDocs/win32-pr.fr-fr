@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0d994c8a9b9e0af9d4bd884c89cd67280513c9f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db8df81e56db9967db46b88c0587af9b82a6281e7e732b8647059e8bf4f5457a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857379"
 ---
 # <a name="swbemobjectdelete_-method"></a>SWbemObject. Delete, \_ méthode
 
@@ -109,9 +109,9 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La **méthode \_ Delete** échoue si une nouvelle instance de [**SWbemObject**](swbemobject.md) est créée, mais aucune valeur n’est fournie pour la propriété Key. Windows Management Instrumentation (WMI) génère automatiquement une valeur d’identificateur global unique (GUID), mais une valeur GUID n’est pas acceptée par **SWbemObject. Delete \_**. Dans ce cas, [**SWbemServices. Delete**](swbemservices-delete.md), qui utilise le chemin d’accès de l’objet, fonctionne. Notez qu’un objet [**SWbemObjectPath**](swbemobjectpath.md) est retourné par la méthode [**SWbemObject. \_ put**](swbemobject-put-.md) après qu’un objet a été validé dans WMI.
+La **méthode \_ Delete** échoue si une nouvelle instance de [**SWbemObject**](swbemobject.md) est créée, mais aucune valeur n’est fournie pour la propriété Key. Windows WMI (Management Instrumentation) génère automatiquement une valeur d’identificateur global unique (GUID), mais une valeur GUID n’est pas acceptée par **SWbemObject. Delete \_**. Dans ce cas, [**SWbemServices. Delete**](swbemservices-delete.md), qui utilise le chemin d’accès de l’objet, fonctionne. Notez qu’un objet [**SWbemObjectPath**](swbemobjectpath.md) est retourné par la méthode [**SWbemObject. \_ put**](swbemobject-put-.md) après qu’un objet a été validé dans WMI.
 
 ## <a name="examples"></a>Exemples
 

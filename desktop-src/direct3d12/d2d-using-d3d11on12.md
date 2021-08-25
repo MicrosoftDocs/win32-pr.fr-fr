@@ -5,12 +5,12 @@ ms.assetid: FAEF1412-053C-4B5F-80FA-85396C2586B4
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d18399b85499787f74dab725d562b6a299878b35
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a84f935ba49df4910aa729c39ae6ac0ce08f3810bf3b0cd75752bbe4c00e9ef1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104548619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858013"
 ---
 # <a name="d2d-using-d3d11on12"></a>D2D à l’aide de D3D11on12
 
@@ -21,7 +21,7 @@ L’exemple **D3D1211on12** montre comment restituer du contenu D2D sur du conte
 -   [Créer une cible de rendu pour D2D](#create-a-render-target-for-d2d)
 -   [Créer des objets texte D2D de base](#create-basic-d2d-text-objects)
 -   [Mise à jour de la boucle de rendu principale](#updating-the-main-render-loop)
--   [Exécution de l'exemple](#run-the-sample)
+-   [Exécuter l’exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="create-an-id3d11on12device"></a>Créer un ID3D11On12Device
@@ -60,7 +60,7 @@ Dans la méthode **LoadPipeline** , configurez les appareils.
 
 
 
- 
+ 
 
 ## <a name="create-a-d2d-factory"></a>Créer une fabrique D2D
 
@@ -94,7 +94,7 @@ Ajoutez à la méthode **LoadAssets** .
 
 
 
- 
+ 
 
 ## <a name="create-a-render-target-for-d2d"></a>Créer une cible de rendu pour D2D
 
@@ -214,7 +214,7 @@ D3D12 est propriétaire de la chaîne de permutation. par conséquent, si vous s
 
 
 
- 
+ 
 
 ## <a name="create-basic-d2d-text-objects"></a>Créer des objets texte D2D de base
 
@@ -250,7 +250,7 @@ Nous avons maintenant un [**ID3D12Device**](/windows/desktop/api/d3d12/nn-d3d12-
 
 
 
- 
+ 
 
 ## <a name="updating-the-main-render-loop"></a>Mise à jour de la boucle de rendu principale
 
@@ -286,7 +286,7 @@ void D3D1211on12::OnRender()
 
 
 
- 
+ 
 
 La seule chose à faire pour notre boucle de rendu est l’appel **RenderUI** , qui utilisera D2D pour afficher l’interface utilisateur. Notez que nous exécutons tout d’abord toutes les listes de commandes D3D12 pour afficher notre scène 3D, puis nous rendons notre interface utilisateur au-dessus. Avant de plonger dans **RenderUI**, nous devons examiner une modification apportée à **PopulateCommandLists**. Dans d’autres exemples, nous plaçons généralement une barrière de ressources sur la liste de commandes avant de la fermer pour faire passer la mémoire tampon d’arrière-plan de l’état de la cible de rendu à l’état actuel. Toutefois, dans cet exemple, nous supprimons ce cloisonnement de ressources, car nous devons toujours afficher les mémoires tampons d’arrière-plan avec D2D. Notez que lorsque nous avons créé nos ressources encapsulées de la mémoire tampon d’arrière-plan, nous avons spécifié l’état de la cible du rendu comme « IN » et l’état actuel comme « OUT ».
 
@@ -343,7 +343,7 @@ void D3D1211on12::RenderUI()
 
 
 
- 
+ 
 
 ## <a name="run-the-sample"></a>Exécution de l'exemple
 
@@ -353,7 +353,7 @@ void D3D1211on12::RenderUI()
 
 <dl> <dt>
 
-[Guide pas à pas du code D3D12](d3d12-code-walk-throughs.md)
+[Walk-Throughs de code D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
 [Direct3D 11 sur 12](direct3d-11-on-12.md)
@@ -365,6 +365,6 @@ void D3D1211on12::RenderUI()
 [Référence 11on12](direct3d-11on12-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

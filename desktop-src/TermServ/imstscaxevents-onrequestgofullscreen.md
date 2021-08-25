@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c865cd27b447743f781b8563956e7fb2d7f5d703
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6d689469f635694357890c620866fff5783680f8e9e8d11a1a05c78f6e1e322
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770679"
 ---
 # <a name="imstscaxeventsonrequestgofullscreen-method"></a>IMsTscAxEvents :: OnRequestGoFullScreen, méthode
 
@@ -45,7 +45,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En mode plein écran géré par un conteneur, le conteneur doit passer en mode plein écran standard en réponse à cet événement.
 

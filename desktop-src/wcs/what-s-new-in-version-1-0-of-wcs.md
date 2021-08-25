@@ -1,48 +1,48 @@
 ---
 title: Nouveautés de la version 1.0 de WCS
-description: La version 1,0 de la gestion des couleurs ICM (Image Color Management) a été fournie dans Microsoft \ 160 ; Windows \ 160 ; 95, et fournit des fonctionnalités de base de gestion des couleurs dans les contextes de périphérique Windows.
+description: la Version 1,0 de la gestion des couleurs des images (ICM) a été fournie dans Microsoft \ 160 ; Windows \ 160 ; 95, et fournit des fonctionnalités de gestion des couleurs de base dans Windows contextes de périphérique.
 ms.assetid: edc5a6c2-ca7c-4cf4-a339-4f1875c60493
 keywords:
-- Windows Color System (WCS), nouvelles fonctionnalités
+- Windows Système de couleurs (WCS), nouvelles fonctionnalités
 - WCS (Windows Color System), nouvelles fonctionnalités
 - gestion des couleurs des images, nouvelles fonctionnalités
 - gestion des couleurs, nouvelles fonctionnalités
 - couleurs, nouvelles fonctionnalités
-- Windows Color System (WCS), nouveautés
+- Windows Système de couleurs (WCS), nouveautés
 - WCS (Windows Color System), nouveautés
 - gestion des couleurs des images, nouveautés
 - gestion des couleurs, nouveautés
 - couleurs, nouveautés
-- Windows Color System (WCS), Windows Vista
+- Windows système de couleurs (WCS), Windows Vista
 - WCS (Windows Color System), Windows Vista
 - gestion des couleurs des images, Windows Vista
 - gestion des couleurs, Windows Vista
 - couleurs, Windows Vista
-- Windows Color System (WCS), systèmes d’exploitation
-- WCS (système de couleurs Windows), systèmes d’exploitation
+- Windows Système de couleurs (WCS), systèmes d’exploitation
+- WCS (Windows Color System), systèmes d’exploitation
 - gestion des couleurs des images, systèmes d’exploitation
 - gestion des couleurs, systèmes d’exploitation
 - couleurs, systèmes d’exploitation
 - ICM (Image Color Management)
-- ICM (gestion des couleurs d’image)
-- Gestion des couleurs de Windows Vista
+- ICM (gestion des couleurs des images)
+- Windows Gestion des couleurs Vista
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88efb4807eb7bd9244cd20277c44809cec2e96df
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 8bdf3bb59d71cc08ffa5ffacecea3df0b02f2c303b8aa3034de98f710e44cc23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106520214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119814329"
 ---
 # <a name="whats-new-in-version-10-of-wcs"></a>Nouveautés de la version 1.0 de WCS
 
-La version 1,0 de la gestion des couleurs des images (ICM) a été fournie dans Microsoft Windows 95 et fournit des fonctionnalités de gestion des couleurs de base dans les contextes de périphérique Windows.
+la Version 1,0 de la gestion des couleurs des images (ICM) a été fournie dans Microsoft Windows 95, et fournit des fonctionnalités de gestion des couleurs de base dans Windows contextes de périphérique.
 
-ICM version 2,0 est inclus dans Windows 98, Windows Millennium Edition, Windows 2000 et Windows XP. il comprend une variété de nouvelles fonctions qui implémentent la gestion des couleurs en dehors des contextes de périphérique. Ces nouvelles fonctions conviennent pour des exigences de gestion des couleurs plus exigeantes et offrent aux applications un meilleur contrôle sur le processus de gestion des couleurs.
+la version 2,0 de ICM est incluse dans Windows 98, Windows Millennium Edition, Windows 2000 et Windows XP et inclut une variété de nouvelles fonctions qui implémentent la gestion des couleurs en dehors des contextes de périphérique. Ces nouvelles fonctions conviennent pour des exigences de gestion des couleurs plus exigeantes et offrent aux applications un meilleur contrôle sur le processus de gestion des couleurs.
 
-Des fonctionnalités supplémentaires sont incluses dans la version Windows Vista de Microsoft Windows.
+des fonctionnalités supplémentaires sont incluses dans la version Windows Vista de Microsoft Windows.
 
 -   choix du flux de travail de profil/de profil statique/monolithique et dynamique/modulaire
     -   statique fourni par HeidelbergerDruckmaschinen dans Win98 ICM2, dynamique fourni par Canon Inc. à l’aide de la technologie Kyuanos de Canon

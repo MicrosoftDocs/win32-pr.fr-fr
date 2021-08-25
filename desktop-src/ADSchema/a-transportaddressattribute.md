@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b49497ca48799827245af56e601a8a96fe65c5c3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 92b25a2067c57e4a72dcd23c2c59dbf3aa15aa3b21690229dcf8f215204359dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119835769"
 ---
 # <a name="transport-address-attribute-attribute"></a>Attribut transport-Address-Attribute
 
@@ -46,7 +46,7 @@ Nom du type d’adresse pour le transport.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
