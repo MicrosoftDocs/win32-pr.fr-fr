@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique fournit des informations sur le codec TIFF natif disponible via WIC (Windows Imaging Component).
+description: cette rubrique fournit des informations sur le codec TIFF natif disponible via le composant WIC (Windows Imaging Component).
 ms.assetid: 021AAF33-A89E-4336-AEB1-1A0D79A14C75
 title: Vue d’ensemble du format TIFF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b28dfcc85dac21e95e6c76118d2db57cb74a08
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 995b8635756a1cc807d3125240517ce5d1eef54d447540028408eb3048d6143a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841339"
 ---
 # <a name="tiff-format-overview"></a>Vue d’ensemble du format TIFF
 
-Cette rubrique fournit des informations sur le codec TIFF natif disponible via WIC (Windows Imaging Component).
+cette rubrique fournit des informations sur le codec TIFF natif disponible via le composant WIC (Windows Imaging Component).
 
 -   [Identité du codec](#codec-identity)
 -   [Encodage](#encoding)

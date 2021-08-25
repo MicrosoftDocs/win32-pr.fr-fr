@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Configuration de l’environnement WMI SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eeed470b1e38bf853bd6b023fa0f07b01c5df47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a090dab219c589fc8d9084c445e9a69c8d75afefb64400fe3029bfed66ab931
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860410"
 ---
 # <a name="setting-up-the-wmi-snmp-environment"></a>Configuration de l’environnement WMI SNMP
 
@@ -22,13 +22,13 @@ Les sections suivantes sont présentées dans cette rubrique :
 
 Le service SNMP n’est pas activé par défaut. Vous pouvez activer le service SNMP et le fournisseur SNMP WMI via le panneau de configuration. N’oubliez pas que le service SNMP doit être activé et en cours d’exécution pour que le fournisseur SNMP SNMP fonctionne.
 
-À compter de Windows Vista, utilisez la procédure suivante pour installer le fournisseur SNMP.
+à partir de Windows Vista, utilisez la procédure suivante pour installer le fournisseur SNMP.
 
 **Pour installer le fournisseur SNMP**
 
 1.  Dans le **panneau de configuration**, sélectionnez **programmes**.
-2.  Sous **programmes et fonctionnalités**, sélectionnez **activer ou désactiver des fonctionnalités Windows**.
-3.  Dans la liste des fonctionnalités Windows, faites défiler jusqu’à **fonctionnalité SNMP** , puis développez la liste pour voir le **fournisseur SNMP SNMP**.
+2.  sous **programmes et fonctionnalités**, sélectionnez **activer ou désactiver les fonctionnalités de Windows**.
+3.  dans la liste fonctionnalités de Windows, faites défiler jusqu’à **fonctionnalité snmp** , puis développez la liste pour voir le **fournisseur SNMP SNMP**.
 4.  Activez la case à cocher du **fournisseur SNMP WMI**. La case à cocher de la **fonctionnalité SNMP** est automatiquement activée, car le fournisseur requiert SNMP.
 5.  Cliquez sur **OK**.
 6.  À partir d’une invite de commandes ou du menu **Démarrer** , exécutez services. msc et vérifiez que le service SNMP est démarré.
@@ -91,7 +91,7 @@ Le compilateur s’exécute en mode de ligne de commande, en utilisant un fichie
 
 ## <a name="setting-up-snmp-communities"></a>Configuration des communautés SNMP
 
-En guise de mesure de sécurité, la communauté SNMP « public » n’est pas créée par défaut. Vous pouvez créer la communauté comme décrit dans [paramètres du registre des communautés](/previous-versions/windows/embedded/ms907028(v=msdn.10)). Si vous n’avez pas de communauté, créez la communauté « public » pour accéder au fournisseur SNMP.
+En guise de mesure de sécurité, la communauté SNMP « public » n’est pas créée par défaut. vous pouvez créer la communauté comme décrit dans la [Paramètres du registre des communautés](/previous-versions/windows/embedded/ms907028(v=msdn.10)). Si vous n’avez pas de communauté, créez la communauté « public » pour accéder au fournisseur SNMP.
 
 ## <a name="generating-mof-files-from-mib-files"></a>Génération de fichiers MOF à partir de fichiers MIB
 

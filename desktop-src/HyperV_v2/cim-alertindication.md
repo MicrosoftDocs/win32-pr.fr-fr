@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1a1916705ee696c949dba2a557f7077ade8db7ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4a5f175ba98165e1e13d86a638260871f9bab16de23b28a92144386f89a587f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829679"
 ---
 # <a name="cim_alertindication-class"></a>\_Classe CIM AlertIndication
 
@@ -338,7 +338,7 @@ Tableau qui contient le contenu dynamique du message pour l’indication d’ale
 
 </dd> <dt>
 
-**ID**
+**MessageID**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -873,7 +873,7 @@ Cause probable de la situation qui a entraîné l’indication de l’alerte.
 
 <span id="Storage_Capacity_Problem"></span><span id="storage_capacity_problem"></span><span id="STORAGE_CAPACITY_PROBLEM"></span>
 
-**Problème de capacité de stockage** (50)
+**Stockage problème de capacité** (50)
 
 
 </dt> <dd></dd> <dt>

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cardmod.h
-ms.openlocfilehash: 9879fa73f6bb45b56f433d7bca7765ab5fc0daef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8038179c7337edaff0138fc46c34191f99821250808c4ace16dc76cdfafd3b19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878959"
 ---
 # <a name="card_directory_access_condition-enumeration"></a>\_ \_ Énumération des conditions d’accès au répertoire des cartes \_
 
@@ -68,8 +68,8 @@ Les administrateurs peuvent lire, écrire et supprimer le répertoire.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, applications de \[ Bureau Windows XP uniquement\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows Server 2003 \[ Desktop Apps uniquement\]<br/>            |
+| Client minimal pris en charge<br/> | Windows xp, Windows xp, \[ applications de bureau uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows server 2003 \[ desktop apps uniquement\]<br/>            |
 | En-tête<br/>                   | <dl> <dt>Cardmod. h</dt> </dl> |
 
 

@@ -1,17 +1,17 @@
 ---
 title: Exemple de manipulation et d’inertie
-description: L’exemple de manipulation et d’inertie montre comment ajouter la prise en charge de Windows Touch aux applications Windows natives qui utilisent l’API tactile Windows.
+description: l’exemple de Manipulation et d’inertie montre comment ajouter une prise en charge de l’interface tactile Windows aux applications natives basées sur Windows qui utilisent l’API tactile Windows.
 ms.assetid: 6a6e2e39-026e-47a3-b936-16f6a740a3af
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Tactile Windows, manipulations
-- Tactile Windows, inertie
-- Exemple tactile Windows, manipulation et inertie
+- Windows Toucher, exemple de code
+- Windows Toucher, manipulations
+- Windows Toucher, inertie
+- Windows Exemple tactile, manipulation et inertie
 - Exemple de manipulation et d’inertie
-- Interface tactile Windows, _IManipulationEventSink interface
-- Tactile Windows, interface IManipulationProcessor
-- Tactile Windows, interface IInertiaProcessor
+- Windows Interface tactile, _IManipulationEventSink
+- Windows Interface tactile, IManipulationProcessor
+- Windows Interface tactile, IInertiaProcessor
 - manipulations, exemple de code
 - manipulations, exemples de code
 - manipulations, interface _IManipulationEventSink
@@ -26,24 +26,24 @@ keywords:
 - Interface IInertiaProcessor, exemple de code
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: a17b634fbe79d72e79fc5c9e03ef64a30cb46411
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b6471362d30b6efc9dfa0c4f07df70f014c8cb72866c92bbb04c9eb33463410
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104555870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840592"
 ---
 # <a name="manipulation-and-inertia-sample"></a>Exemple de manipulation et d’inertie
 
-L’exemple de manipulation et d’inertie montre comment ajouter la prise en charge de Windows Touch aux applications Windows natives qui utilisent l’API tactile Windows. L’exemple implémente les fonctionnalités de base de l’API pour permettre la traduction, la rotation et la mise à l’échelle des objets et l’application des propriétés d’inertie. L’exemple montre également comment fournir à votre application tactile Windows la prise en charge de base de la souris. L’illustration suivante montre l’apparence de l’exemple lorsqu’il s’exécute.
+l’exemple de Manipulation et d’inertie montre comment ajouter une prise en charge de l’interface tactile Windows aux applications natives basées sur Windows qui utilisent l’API tactile Windows. L’exemple implémente les fonctionnalités de base de l’API pour permettre la traduction, la rotation et la mise à l’échelle des objets et l’application des propriétés d’inertie. l’exemple montre également comment fournir à votre Windows des applications tactiles la prise en charge de base de la souris. L’illustration suivante montre l’apparence de l’exemple lorsqu’il s’exécute.
 
 ![capture d’écran montrant deux zones avec des dégradés dans l’exemple de manipulation et d’inertie](images/manip-inertia-sample.png)
 
-Les zones avec des dégradés peuvent être manipulées indépendamment par un utilisateur lorsqu’ils exécutent l’application à partir d’un ordinateur qui prend en charge Windows Touch.
+les zones avec des dégradés peuvent être manipulées indépendamment par un utilisateur lorsqu’ils exécutent l’application à partir d’un ordinateur qui prend en charge Windows Touch.
 
 ## <a name="register-the-touch-window"></a>Inscrire la fenêtre tactile
 
-Avant de pouvoir recevoir des entrées tactiles, vous devez d’abord informer le système que votre application est une application tactile Windows en appelant la fonction suivante :
+avant de pouvoir recevoir des entrées tactiles, vous devez d’abord informer le système que votre application est une application Windows touch en appelant la fonction suivante :
 
 ```C++
    RegisterTouchWindow(g_hWnd, 0);
@@ -351,4 +351,4 @@ CComTouchDriver::~CComTouchDriver(VOID) {
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Application de manipulation multipoint](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [exemple de manipulation et d’inertie](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [exemples tactiles Windows](windows-touch-samples.md)
+exemple d' [Application de manipulation multipoint](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulation/cpp), [de manipulation et d’inertie](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTManipulationInertia/cpp), [Windows exemples tactiles](windows-touch-samples.md)

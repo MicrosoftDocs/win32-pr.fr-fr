@@ -3,19 +3,19 @@ title: Fonctions multimédias
 description: Fonctions multimédias
 ms.assetid: a2520c4a-cce4-40ad-b8e7-3728b84d88ea
 keywords:
-- Windows Multimedia, fonctions
+- Windows multimédia, fonctions
 - multimédia, fonctions
 - Référence multimédia, fonctions
 - référence pour les fonctions multimédias, fonctions
 - fonctions multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc279a8fdbbeaee88dc3f83eb56d6eec7b7bae5e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a38a1e886e86e1a503e2e6398f5f339837554145683fbf478e21e9413508d69c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806949"
 ---
 # <a name="multimedia-functions"></a>Fonctions multimédias
 
@@ -313,6 +313,6 @@ Les fonctions suivantes sont utilisées avec le multimédia.
 -   [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader)
 -   [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite)
 
- 
+ 
 
- 
+ 

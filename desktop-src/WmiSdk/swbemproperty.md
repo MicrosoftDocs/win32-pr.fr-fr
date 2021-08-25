@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 9c71db4063f5de6b48b2e8213f21ca1320a880fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51f4b1b22849fc5a6ae22f49c5c30411563efb9d133cf2440c301eabfde18e0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898069"
 ---
 # <a name="swbemproperty-object"></a>Objet SWbemProperty
 
@@ -44,7 +44,7 @@ L’objet **SWbemProperty** a ces propriétés.
 | [**IsArray**](swbemproperty-isarray.md)<br/>          | Lecture seule<br/>  | Valeur booléenne qui indique si cette propriété a un type de tableau.<br/>                                                   |
 | [**IsLocal**](swbemproperty-islocal.md)<br/>          | Lecture seule<br/>  | Valeur booléenne qui indique si cette propriété est locale.<br/>                                                            |
 | [**Nom**](swbemproperty-name.md)<br/>                | Lecture seule<br/>  | Nom de cette propriété WMI.<br/>                                                                                         |
-| [**Origine**](swbemproperty-origin.md)<br/>            | Lecture seule<br/>  | Contient la classe d’origine de cette propriété.<br/>                                                                   |
+| [**Lancé**](swbemproperty-origin.md)<br/>            | Lecture seule<br/>  | Contient la classe d’origine de cette propriété.<br/>                                                                   |
 | [**Qualificateurs\_**](swbemproperty-qualifiers-.md)<br/> | Lecture seule<br/>  | Objet [**SWbemQualifierSet**](swbemqualifierset.md) , qui est la collection de qualificateurs pour cette propriété.<br/> |
 | [**Valeur**](swbemproperty-value.md)<br/>              | Lecture/écriture<br/> | Valeur réelle de cette propriété. Il s’agit de la propriété Automation par défaut de cet objet.<br/>                             |
 

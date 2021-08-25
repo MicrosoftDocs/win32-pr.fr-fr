@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fffaefa8a6f2cffb895cc18882ed8fc0c382a4bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e38ec1a8febbca4319a9c098eafee3705fe59602af81b3ec94e4e974892be771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909669"
 ---
 # <a name="ras_parameters-structure"></a>\_Structure des paramètres RAS
 
-\[La structure des **\_ paramètres RAS** n’est pas prise en charge par Windows Vista.\]
+\[la structure des **\_ paramètres RAS** n’est pas prise en charge à partir de Windows Vista.\]
 
 La structure des **\_ paramètres RAS** est utilisée par la fonction [**RasAdminPortGetInfo**](rasadminportgetinfo.md) pour retourner le nom et la valeur d’un paramètre spécifique au média associé à un port sur un serveur RAS.
 

@@ -1,19 +1,19 @@
 ---
-description: L’utilisation de GDI+ pour dessiner sur une imprimante est semblable à l’utilisation de GDI+ pour dessiner sur un écran d’ordinateur. Pour dessiner sur une imprimante, obtenez un handle de contexte de périphérique pour l’imprimante, puis transmettez ce handle à un constructeur Graphics.
+description: l’utilisation de Windows GDI+ pour dessiner sur une imprimante est semblable à l’utilisation de GDI+ pour dessiner sur un écran d’ordinateur. Pour dessiner sur une imprimante, obtenez un handle de contexte de périphérique pour l’imprimante, puis transmettez ce handle à un constructeur Graphics.
 ms.assetid: a76cca57-6ed8-44cd-a9f6-f2692d14b68a
 title: Envoi d’une sortie GDI+ vers une imprimante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96c1c4f6c05e4918663284e6d7747952040dcddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51116e27f3ef4e457d2d3cf8d39b26c1a5e2275da4b964bd4de58ec273db1e2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943779"
 ---
 # <a name="sending-gdi-output-to-a-printer"></a>Envoi d’une sortie GDI+ vers une imprimante
 
-L’utilisation de GDI+ pour dessiner sur une imprimante est semblable à l’utilisation de GDI+ pour dessiner sur un écran d’ordinateur. Pour dessiner sur une imprimante, obtenez un handle de contexte de périphérique pour l’imprimante, puis transmettez ce handle à un constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) .
+l’utilisation de Windows GDI+ pour dessiner sur une imprimante est semblable à l’utilisation de GDI+ pour dessiner sur un écran d’ordinateur. Pour dessiner sur une imprimante, obtenez un handle de contexte de périphérique pour l’imprimante, puis transmettez ce handle à un constructeur [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) .
 
 L’application console suivante dessine une ligne, un rectangle et une ellipse sur une imprimante nommée MyPrinter :
 
@@ -59,7 +59,7 @@ INT main()
 
 
 
-Dans le code précédent, les trois commandes de dessin GDI+ se trouvent entre les appels aux fonctions [StartDoc](/windows/win32/api/wingdi/nf-wingdi-startdocw) et [EndDoc](/windows/win32/api/wingdi/nf-wingdi-enddoc) , chacune recevant le handle de contexte de périphérique d’impression. Toutes les commandes graphiques entre StartDoc et EndDoc sont routées vers un métafichier temporaire. Après l’appel à EndDoc, le pilote d’imprimante convertit les données du métafichier au format requis par l’imprimante spécifique utilisée.
+dans le code précédent, les trois commandes de dessin GDI+ se trouvent entre les appels aux fonctions [StartDoc](/windows/win32/api/wingdi/nf-wingdi-startdocw) et [EndDoc](/windows/win32/api/wingdi/nf-wingdi-enddoc) , chacune recevant le handle de contexte de périphérique d’impression. Toutes les commandes graphiques entre StartDoc et EndDoc sont routées vers un métafichier temporaire. Après l’appel à EndDoc, le pilote d’imprimante convertit les données du métafichier au format requis par l’imprimante spécifique utilisée.
 
 > [!Note]  
 > Si la mise en file d’attente n’est pas activée pour l’imprimante en cours d’utilisation, la sortie graphique n’est pas acheminée vers un métafichier. Au lieu de cela, les commandes graphiques individuelles sont traitées par le pilote d’imprimante, puis envoyées à l’imprimante.
@@ -69,7 +69,7 @@ Dans le code précédent, les trois commandes de dessin GDI+ se trouvent entre l
 En règle générale, vous ne souhaitez pas coder en dur le nom d’une imprimante telle qu’elle a été effectuée dans l’application console précédente. Une alternative au codage en dur du nom consiste à appeler [GetDefaultPrinter](../printdocs/getdefaultprinter.md) pour obtenir le nom de l’imprimante par défaut. Avant d’appeler GetDefaultPrinter, vous devez allouer une mémoire tampon suffisamment grande pour contenir le nom de l’imprimante. Vous pouvez déterminer la taille de la mémoire tampon requise en appelant GetDefaultPrinter, en transmettant **null** comme premier argument.
 
 > [!Note]  
-> La fonction [GetDefaultPrinter](../printdocs/getdefaultprinter.md) est prise en charge uniquement sur Windows 2000 et versions ultérieures.
+> la fonction [GetDefaultPrinter](../printdocs/getdefaultprinter.md) est prise en charge uniquement sur Windows 2000 et versions ultérieures.
 
  
 

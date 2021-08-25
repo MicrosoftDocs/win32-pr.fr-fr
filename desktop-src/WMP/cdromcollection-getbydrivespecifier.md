@@ -3,9 +3,9 @@ title: Méthode CdromCollection. getByDriveSpecifier
 description: La méthode getByDriveSpecifier récupère l’objet cdrom associé à une lettre de lecteur particulière.
 ms.assetid: 60626ffc-3d10-435b-8827-c5d7b6e02607
 keywords:
-- méthode getByDriveSpecifier lecteur Windows Media
-- méthode getByDriveSpecifier lecteur Windows Media, classe CdromCollection
-- Classe CdromCollection lecteur Windows Media, méthode getByDriveSpecifier
+- Lecteur Windows Media de la méthode getByDriveSpecifier
+- méthode getByDriveSpecifier Lecteur Windows Media, classe CdromCollection
+- Lecteur Windows Media de la classe CdromCollection, méthode getByDriveSpecifier
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 807b44a7be97ac93b5b0f270c2d1723404887c9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fa5487b3a57fb1e7e4167561fcca08e10d6472182881fa221bd8e671bc814cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864089"
 ---
 # <a name="cdromcollectiongetbydrivespecifier-method"></a>Méthode CdromCollection. getByDriveSpecifier
 
@@ -53,7 +53,7 @@ retVal = CdromCollection.getByDriveSpecifier(
 
 Cette méthode retourne un objet **cdrom** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les lettres de lecteur doivent être indiquées sous la forme *x*:, où *x* représente la lettre de lecteur.
 
@@ -63,7 +63,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *CdromCollection*. **getByDriveSpecifier** pour récupérer l’objet **cdrom** qui correspond à une lettre de lecteur fournie par l’utilisateur. Un élément de texte HTML a été créé, avec NAME = "MyText", pour l’entrée utilisateur. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *CdromCollection*. **getByDriveSpecifier** pour récupérer l’objet **cdrom** qui correspond à une lettre de lecteur fournie par l’utilisateur. Un élément de texte HTML a été créé, avec NAME = "MyText", pour l’entrée utilisateur. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

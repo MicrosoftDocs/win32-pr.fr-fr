@@ -1,7 +1,7 @@
 - name: API de mastérisation d’image
   href: portal.md
   items:
-    - name: What's New
+    - name: Nouveautés
       href: what-s-new.md
     - name: À propos d’IMAPi
       href: about-imapi.md

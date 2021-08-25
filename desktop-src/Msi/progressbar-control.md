@@ -4,12 +4,12 @@ ms.assetid: 0d366a1b-3c7e-4590-8557-c6a7d1fcd426
 title: ProgressBar, contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2f04cb969708b849623bb3cbd130b77bc292cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c531a0edcf822c3a4cc75ec6516f1b871e2db6cb7122bb74178d59850710843
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913179"
 ---
 # <a name="progressbar-control"></a>ProgressBar, contrôle
 
@@ -37,7 +37,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe PROGRESS à \_ l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles **WS \_ Child** et **WS \_ Group** .
 

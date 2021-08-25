@@ -3,19 +3,19 @@ title: Objet Propriétés du média d’entrée
 description: Objet Propriétés du média d’entrée
 ms.assetid: e7aa6c99-b6b3-4e5b-869d-3387f70dad87
 keywords:
-- SDK Windows Media format, objets de propriétés de média d’entrée
+- Windows Media Format SDK, Input Media Properties Objects
 - ASF (Advanced Systems Format), objets de propriétés de média d’entrée
 - ASF (format de systèmes avancés), objets de propriétés de média d’entrée
 - objets, objets de propriétés de média d’entrée
 - objets de propriétés de média d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beddda23ab7be86c3cb522edb8e811978c0c9ed9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: fbf5fac14de1c0fdc6619ab0dfe61feb9fcf577acb5c22dc2243a96d943921c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103841881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809029"
 ---
 # <a name="input-media-properties-object"></a>Objet Propriétés du média d’entrée
 
@@ -31,7 +31,7 @@ Un objet de propriétés de média d’entrée créé par l’objet Writer prend
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -43,9 +43,9 @@ Un objet de propriétés de média d’entrée créé par l’objet Writer prend
 [**Auteur, objet**](writer-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

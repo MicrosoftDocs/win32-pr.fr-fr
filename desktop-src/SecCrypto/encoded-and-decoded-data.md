@@ -4,12 +4,12 @@ ms.assetid: ef8982dc-bbbc-466a-9afe-dd0425c23f1d
 title: Données encodées et décodées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b130232ac67503c6a20835c4c9b4e728b36f8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 063f18a4f58f2989e2bd0b890fd11a7ab6022a3de255385b1cf529afb5493485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874943"
 ---
 # <a name="encoded-and-decoded-data"></a>Données encodées et décodées
 
@@ -23,7 +23,7 @@ Un principe de conception de logiciels accepté consiste à utiliser l' *abstrac
 
 La plupart des [*protocoles de communication*](../secgloss/c-gly.md) impliquent une bonne abstraction. Les objets à des couches supérieures sont définis de façon abstraite et sont destinés à être implémentés à l’aide d’objets aux couches inférieures. Par exemple, un service sur une couche peut nécessiter le transfert de certains objets abstraits entre les ordinateurs. Une couche de niveau inférieur peut utiliser des règles de codage pour transformer les objets abstraits en chaînes de uns et de zéros.
 
-Une méthode courante de spécification d’objets abstraits destinés à être transmis en série est appelée ASN. 1 ( [*Abstract Syntax Notation One*](../secgloss/a-gly.md) ). ASN. 1 est défini dans la recommandation CCITT [*X. 208*](../secgloss/x-gly.md). Un ensemble de règles ASN. 1 pour représenter des objets de ce type en tant que chaînes de uns et de zéros est appelé le [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (der) et est défini dans la recommandation CCITT [*X. 509*](../secgloss/x-gly.md), section 8,7. Il s’agit des méthodes d’encodage actuellement utilisées par CryptoAPI.
+Une méthode courante de spécification d’objets abstraits destinés à être transmis en série est appelée ASN. 1 ( [*Abstract Syntax Notation One*](../secgloss/a-gly.md) ). ASN. 1 est défini dans la recommandation CCITT [*X. 208*](../secgloss/x-gly.md). un ensemble de règles ASN. 1 pour représenter des objets de ce type en tant que chaînes de uns et de zéros est appelé le [*Distinguished Encoding Rules*](../secgloss/d-gly.md) (DER) et est défini dans la recommandation CCITT [*X. 509*](../secgloss/x-gly.md), Section 8,7. Il s’agit des méthodes d’encodage actuellement utilisées par CryptoAPI.
 
 Pour plus d’informations sur les fonctions encoder/décoder, consultez [fonctions d’encodage et de décodage d’objets](cryptography-functions.md).
 

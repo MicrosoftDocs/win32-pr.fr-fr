@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79db82b3ae760c31d4e6fef80eb01469cb2bb41d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 36fa67d3d1ab60aa4af6c0be7269f068edaf42a64fa9cf1cfea68ca23d82ef7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913099"
 ---
 # <a name="microsoftdns_nxttype-class"></a>MicrosoftDNS \_ NXTType, classe
 

@@ -1,5 +1,5 @@
 ---
-description: La \_ méthode PutAsync de SWbemObject crée ou met à jour de manière asynchrone une instance ou un objet de classe à Windows Management Instrumentation (WMI).
+description: la \_ méthode PutAsync de SWbemObject crée ou met à jour de manière asynchrone une instance ou un objet de classe à Windows Management Instrumentation (WMI).
 ms.assetid: ff738412-fcca-4e4a-a178-0d1d391ec99b
 ms.tgt_platform: multiple
 title: Méthode SWbemObject.PutAsync_ (wbemdisp. h)
@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 3530c3883763773f53bec81aeee8b0d199170133
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b4b20e1a43de2b255184bd9283ba0a6ae0d98d5830dce006aa451343bb192ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860279"
 ---
 # <a name="swbemobjectputasync_-method"></a>SWbemObject. PutAsync, \_ méthode
 
-La **méthode \_ PutAsync** de [**SWbemObject**](swbemobject.md) crée ou met à jour de manière asynchrone une instance ou un objet de classe à Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans **SWbemObject**, et vos modifications sont écrites dans WMI.
+la **méthode \_ PutAsync** de [**SWbemObject**](swbemobject.md) crée ou met à jour de manière asynchrone une instance ou un objet de classe à Windows Management Instrumentation (WMI). Vous pouvez utiliser cette méthode après avoir modifié des propriétés ou des méthodes dans **SWbemObject**, et vos modifications sont écrites dans WMI.
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -271,7 +271,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet appel est retourné immédiatement, et le résultat de l’opération **put** est retourné à l’appelant via des rappels remis au récepteur spécifié dans *objWbemSink*. Implémentez *objWbemSink*. Méthode [**OnObjectPut**](swbemsink-onobjectput.md) pour obtenir le chemin d’accès de l’objet de l’instance ou de la classe écrite dans l’espace de stockage WMI. Pour plus d’informations sur les méthodes de récepteur, consultez [appel d’une méthode](calling-a-method.md).
 

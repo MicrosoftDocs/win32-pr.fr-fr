@@ -4,16 +4,16 @@ description: L’application de la couche application (ALE) est constituée de p
 ms.assetid: 3ac71787-2350-4a60-b0bf-b00b52d30b83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a96e3b2ae5092bf8cca014eb3603eea5efe8f71
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f2c9d13c7b5493171caa7216e8f2991e0350b79dd46dca612f241c9446cafa39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901009"
 ---
 # <a name="ale-layers"></a>Couches ALE
 
-L’application de la couche application (ALE) est constituée de plusieurs couches de filtrage et de nombreuses couches de rejet correspondantes. Toutes les couches du moteur de filtrage de la plateforme de filtrage Windows (WFP), y compris ALE, sont décrites dans [**filtrage des identificateurs de couche**](management-filtering-layer-identifiers-.md). Cette rubrique contient une description plus détaillée des couches de filtrage qui font partie de ALE.
+L’application de la couche application (ALE) est constituée de plusieurs couches de filtrage et de nombreuses couches de rejet correspondantes. toutes les couches du moteur de filtrage de la plateforme de filtrage Windows (WFP), y compris ALE, sont décrites dans [**filtrage des identificateurs de couche**](management-filtering-layer-identifiers-.md). Cette rubrique contient une description plus détaillée des couches de filtrage qui font partie de ALE.
 
 ## <a name="resource_assignment"></a>attribution de ressources \_
 
@@ -26,7 +26,7 @@ Si un filtre de cette couche est mis en correspondance pour autoriser la récept
 > [!Note]  
 > Il s’agit de la seule couche dans laquelle le mode de proximité peut être filtré.
 
- 
+ 
 
 Si aucun port n’est spécifié lors de la **liaison ()**, autrement dit, si le port est défini sur 0 (zéro), la pile TCP/IP sélectionne un port de la plage de ports dynamiques (19152 – 65535). Le port sélectionné sera classé à cette couche avec l’indicateur de [**condition fwp est un indicateur de \_ \_ \_ \_ \_ liaison de caractères génériques**](filtering-condition-flags-.md) .
 
@@ -43,7 +43,7 @@ Un filtre au niveau de la couche [**FWPM d' \_ authentification ALE de la couche
 > [!Note]  
 > Les protocoles qui ne sont pas TCP ou ICMP sont traités comme UDP.
 
- 
+ 
 
 Les paquets TCP reçus par les sockets bruts sont gérés de la même façon que le trafic UDP. Autrement dit, seul le premier TCP [**Send ()**](/windows/desktop/api/winsock2/nf-winsock2-send) et le premier TCP [**recv ()**](/windows/desktop/api/winsock/nf-winsock-recv) sur des sockets bruts seront filtrés.
 
@@ -54,7 +54,7 @@ Un filtre au niveau de la couche [**FWPM d' \_ \_ authentification ALE de couche
 > [!Note]  
 > Les protocoles qui ne sont pas TCP ou ICMP sont traités comme UDP.
 
- 
+ 
 
 Les paquets TCP envoyés par les sockets bruts sont gérés de la même façon que le trafic UDP. Autrement dit, seul le premier TCP [**Send ()**](/windows/desktop/api/winsock2/nf-winsock2-send) et le premier TCP [**recv ()**](/windows/desktop/api/winsock/nf-winsock-recv) sur des sockets bruts seront filtrés.
 
@@ -64,7 +64,7 @@ Un filtre au niveau de la couche FWPM de la couche [**\_ \_ ALE \_ \_ établie \
 
 Un filtre au niveau de cette couche ne doit pas retourner de bloc ou d’autorisation.
 
-Cette couche est utilisée par les pilotes de légende pour suivre l’état de la connexion, décrite en détail dans la documentation du [Kit de pilotes Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) .
+cette couche est utilisée par les pilotes de légende pour suivre l’état de la connexion, décrite en détail dans la documentation du [Kit de pilotes Windows](/windows-hardware/drivers/network/windows-filtering-platform-callout-drivers2) .
 
 ## <a name="resource_release"></a>version de la ressource \_
 
@@ -102,7 +102,7 @@ Pour chaque couche ALE décrite ci-dessus, le moteur de filtrage contient une co
 [Réautorisation ALE](ale-re-authorization.md)
 </dt> <dt>
 
-[Personnalisation du fluide ALE](ale-flow-customization.md)
+[personnalisation de la Flow ALE](ale-flow-customization.md)
 </dt> <dt>
 
 [Flux de paquets TCP](tcp-packet-flows.md)
@@ -120,6 +120,6 @@ Pour chaque couche ALE décrite ci-dessus, le moteur de filtrage contient une co
 [**Conditions de filtrage disponibles pour chaque couche de filtrage**](filtering-conditions-available-at-each-filtering-layer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

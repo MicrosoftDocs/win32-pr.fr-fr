@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75a8811a73515528981a8214caba3fe2778e2ea9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3caa5dd32257fb5d75bbf77cde4ae5e71c6e97574cd1c263ead47aacedccadc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895249"
 ---
 # <a name="helpcontext-attribute"></a>helpcontext (attribut)
 
@@ -81,7 +81,7 @@ Spécifie les instructions qui composent la définition de l’élément.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' \[ **attribut HelpContext** \] peut être appliqué aux éléments suivants : [**Library**](library.md), \[ [**importlib**](importlib.md) \] , [**interface**](interface.md), [**dispinterface**](dispinterface.md), [**module**](module.md), [**typedef**](typedef.md), **Method**, **Property** ou [**coclass**](coclass.md).
 
@@ -137,6 +137,6 @@ coclass Hello
 [**typedef**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

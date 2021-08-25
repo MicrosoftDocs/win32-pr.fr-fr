@@ -14,12 +14,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4e791941df681b2e46c4de6f0714b1290baecfde
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 90a6477235b6046fad2767cad35fe7aaad3fa4ae7003106b619e9d8b33150d2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973024"
 ---
 # <a name="win32_methodparameterclass-class"></a>\_Classe MethodParameterClass Win32
 

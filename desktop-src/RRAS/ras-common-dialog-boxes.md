@@ -4,12 +4,12 @@ description: Windows fournit un ensemble de fonctions qui affichent les boîtes 
 ms.assetid: 8231511a-7339-4fbb-8a39-f643ac575856
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3032da8b0647b48941d85fc4f085ddb8ced0125f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5be93db8e8d1819abe56d98bb293a7b6b027089be0648b00f7848d5204e911ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909719"
 ---
 # <a name="ras-common-dialog-boxes"></a>Boîtes de dialogue courantes RAS
 
@@ -23,6 +23,6 @@ Pour afficher la feuille de propriétés d' **accès réseau à distance** , app
 
 Vous pouvez appeler la fonction [**RasEntryDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasentrydlga) pour afficher une feuille de propriétés permettant de créer, de modifier ou de copier une entrée d’annuaire téléphonique. La fonction **RasEntryDlg** utilise une structure [**RasEntryDlg**](/previous-versions/windows/desktop/legacy/aa377260(v=vs.85)) pour spécifier des paramètres d’entrée et de sortie supplémentaires, tels que la position de la boîte de dialogue et le type d’opération de l’annuaire téléphonique.
 
- 
+ 
 
- 
+ 

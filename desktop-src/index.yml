@@ -1,19 +1,19 @@
 ### YamlMime:Landing
-title: Créer des applications Windows Desktop à l’aide de l’API Win32
-summary: Apprenez à créer des applications de bureau pour les PC Windows à l’aide de C++ et de l’API Win32.
+title: créer des applications de Windows de bureau à l’aide de l’API Win32
+summary: découvrez comment créer des applications de bureau pour les pc Windows à l’aide de C++ et de l’API Win32.
 metadata:
   author: mcleanbyron
-  description: Apprenez à créer des applications de bureau pour les PC Windows à l’aide de C++ et de l’API Win32.
+  description: découvrez comment créer des applications de bureau pour les pc Windows à l’aide de C++ et de l’API Win32.
   manager: jken
   ms.author: mcleans
   ms.date: 09/15/2019
   ms.topic: landing-page
-  ms.openlocfilehash: 99090d109a717c1008a11e6a9c9e6cf7a31f2b7c
-  ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+  ms.openlocfilehash: cc2d2b66adddba0b164f5f3eccae1e076fd91d451d9857ba901ec4a81ac6e9f0
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/19/2020
-  ms.locfileid: "104031078"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "119848949"
 landingContent:
 - title: Bien démarrer
   linkLists:
@@ -29,13 +29,13 @@ landingContent:
     links:
     - text: Outils de développement
       url: https://developer.microsoft.com/windows/downloads
-    - text: Exemples de code Windows
+    - text: exemples de code Windows
       url: https://developer.microsoft.com/windows/samples
 - title: Développer
   linkLists:
   - linkListType: overview
     links:
-    - text: Fonctionnalités et technologies Windows
+    - text: fonctionnalités et technologies de Windows
       url: desktop-app-technologies.md
     - text: Moderniser des applications pour Windows 10
       url: /windows/apps/desktop/modernize
@@ -79,7 +79,7 @@ landingContent:
       url: //docs.microsoft.com/dotnet/
     - text: Archives de documentation pour Windows 8.x et antérieur
       url: /previous-versions/windows/
-- title: Technologies associées
+- title: Technologies connexes
   linkLists:
   - linkListType: overview
     links:

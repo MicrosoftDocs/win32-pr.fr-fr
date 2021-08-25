@@ -1,7 +1,7 @@
 - name: Système de couleurs Windows
   href: windows-color-system.md
   items:
-    - name: "Considérations relatives à la sécurité\_: système de couleurs Windows"
+    - name: "considérations relatives à la sécurité\_: Windows système de couleurs"
       href: security-considerations--windows-color-system.md
     - name: Concepts de base de la gestion des couleurs
       href: basic-color-management-concepts.md
@@ -54,7 +54,7 @@
     - name: "À propos de Windows Color System version\_1.0"
       href: about-windows-color-system-version-1-0.md
       items:
-        - name: Nouveautés du WCS pour Windows Vista
+        - name: nouveautés du WCS pour Windows Vista
           href: what-s-new-in-windows-vista.md
         - name: "Nouveautés de la version\_1.0 de WCS"
           href: what-s-new-in-version-1-0-of-wcs.md
@@ -161,7 +161,7 @@
                   href: /windows/win32/api/icm/nf-icm-cmtranslatecolors
                 - name: CMTranslateRGB
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergb
-                - name: CMTranslateRGBs
+                - name: 'CMTranslateRGBs '
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergbs
                 - name: 'CMTranslateRGBsExt '
                   href: /windows/win32/api/icm/nf-icm-cmtranslatergbsext
@@ -407,9 +407,9 @@
               href: /windows/win32/api/icm/ns-icm-cmykcolor
             - name: COULEUR
               href: /windows/win32/api/icm/ns-icm-color
-            - name: COLORMATCHSETUPA
+            - name: 'COLORMATCHSETUPA '
               href: /windows/win32/api/icm/ns-icm-colormatchsetupw
-            - name: COLORMATCHSETUPW
+            - name: 'COLORMATCHSETUPW '
               href: /windows/win32/api/icm/ns-icm-colormatchsetupw
             - name: 'ENUMTYPEA '
               href: /windows/win32/api/icm/ns-icm-enumtypea
@@ -486,7 +486,7 @@
     - name: Glossaire WCS 1.0
       href: wcs-1-0-glossary.md
       items:
-        - name: Un
+        - name: A
           href: a.md
         - name: B
           href: b.md

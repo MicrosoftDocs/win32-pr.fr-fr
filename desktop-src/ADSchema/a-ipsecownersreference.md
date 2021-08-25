@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac0579e48db84e33c3eb2d47a7bbcef007847d67
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 05accf4346f35f9a543718cbee6d49256c8024b5e9fecb8c5895d3e2431236a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924979"
 ---
 # <a name="ipsec-owners-reference-attribute"></a>IPSec-propriétaires-attribut de référence
 
@@ -45,7 +45,7 @@ L’attribut de **référence de propriétaires IPSec** est destiné à un usage
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

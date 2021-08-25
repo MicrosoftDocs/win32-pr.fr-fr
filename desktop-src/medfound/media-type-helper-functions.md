@@ -4,12 +4,12 @@ ms.assetid: 7d4f3581-8cb9-4d31-b2f7-c8fbde24cf2a
 title: Fonctions d’assistance du type de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7e5edb9748bad8ee16903eb9ff1ada50c1c043b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b488eb706338926aaffd3c3c4e13a5da4d1d004bd21dbbd1f5871c6d4818dae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104530531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827359"
 ---
 # <a name="media-type-helper-functions"></a>Fonctions d’assistance du type de média
 

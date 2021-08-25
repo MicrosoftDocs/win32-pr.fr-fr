@@ -4,12 +4,12 @@ description: Réponse aux clics de souris
 ms.assetid: FED1CA3B-94C6-4780-B82D-C10171F36D98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c37903264ca638aeca1c0b28fb2ea7fa792660
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 947b50726e79fbf29c4f013d4ac0a449c009c1817b74b1a8063e63a68c4dd6c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897209"
 ---
 # <a name="responding-to-mouse-clicks"></a>Réponse aux clics de souris
 
@@ -30,7 +30,7 @@ Si l’utilisateur clique sur un bouton de la souris alors que le curseur se tro
 
 
 
- 
+ 
 
 Souvenez-vous que la zone cliente est la partie de la fenêtre qui exclut le frame. Pour plus d’informations sur les zones clientes, consultez [qu’est-ce qu’une fenêtre ?](what-is-a-window-.md)
 
@@ -48,7 +48,7 @@ int yPos = GET_Y_LPARAM(lParam);
 
 Ces macros sont définies dans le fichier d’en-tête WindowsX. h.
 
-Sur Windows 64 bits, *lParam* est une valeur de 64 bits. Les 32 bits supérieurs de *lParam* ne sont pas utilisés. La documentation MSDN mentionne le « mot de poids faible » et le « mot de poids fort » de *lParam*. Dans le cas 64 bits, cela signifie que les mots de poids fort et de poids fort des 32 bits inférieurs. Les macros extraient les valeurs correctes. par conséquent, si vous les utilisez, vous en êtes sûr.
+sur la Windows 64 bits, *lParam* est une valeur 64 bits. Les 32 bits supérieurs de *lParam* ne sont pas utilisés. La documentation MSDN mentionne le « mot de poids faible » et le « mot de poids fort » de *lParam*. Dans le cas 64 bits, cela signifie que les mots de poids fort et de poids fort des 32 bits inférieurs. Les macros extraient les valeurs correctes. par conséquent, si vous les utilisez, vous en êtes sûr.
 
 Les coordonnées de la souris sont exprimées en pixels, et non en pixels indépendants du périphérique (DIP). elles sont mesurées par rapport à la zone cliente de la fenêtre. Les coordonnées sont des valeurs signées. Les positions au-dessus et à gauche de la zone cliente ont des coordonnées négatives, ce qui est important si vous effectuez le suivi de la position de la souris en dehors de la fenêtre. Nous verrons comment le faire dans une rubrique ultérieure, en [capturant le mouvement de la souris en dehors de la fenêtre](mouse-movement.md).
 
@@ -70,7 +70,7 @@ Le paramètre *wParam* contient une opération or au niveau du bit, indiquant l�
 
 
 
- 
+ 
 
 L’absence d’un indicateur signifie que le bouton ou la touche correspondant n’a pas été enfoncé. Par exemple, pour tester si la touche CTRL est enfoncée :
 
@@ -129,7 +129,7 @@ Si vous définissez l’indicateur **cs \_ DBLCLKS** comme indiqué, la fenêtre
 
 En effet, le deuxième message [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) qui devrait normalement être généré devient un message [**WM \_ LBUTTONDBLCLK**](/windows/desktop/inputdev/wm-lbuttondblclk) . Des messages équivalents sont définis pour les boutons droit, moyen et XBUTTON.
 
-Tant que vous n’avez pas obtenu le message de double-clic, il n’existe aucun moyen de savoir que le premier clic de souris est le début d’un double-clic. Par conséquent, une action de double-clic doit continuer une action qui commence par le premier clic de souris. Par exemple, dans le shell Windows, un seul clic sélectionne un dossier, tandis qu’un double-clic ouvre le dossier.
+Tant que vous n’avez pas obtenu le message de double-clic, il n’existe aucun moyen de savoir que le premier clic de souris est le début d’un double-clic. Par conséquent, une action de double-clic doit continuer une action qui commence par le premier clic de souris. par exemple, dans le Shell Windows, un seul clic sélectionne un dossier, tandis qu’un double-clic ouvre le dossier.
 
 ## <a name="non-client-mouse-messages"></a>Messages de souris non-client
 
@@ -139,6 +139,6 @@ Un ensemble distinct de messages est défini pour les événements de souris qui
 
 [Mouvement de la souris](mouse-movement.md)
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: EDITBOX. textLimit
 description: L’attribut textLimit spécifie ou récupère le nombre maximal de caractères que l’utilisateur peut taper dans le contrôle de zone d’édition.
 ms.assetid: d05a1df4-6f02-4711-a952-963f034363f5
 keywords:
-- EDITBOX. textLimit Windows Media Player
+- EDITBOX. textLimit Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e700ce6b4556c42f3458404c7b23f892e16b6ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b1bec5b6548de0ee4712cde822a47dc0a884702e9298af97882fb7cc24c3439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863079"
 ---
 # <a name="editboxtextlimit"></a>EDITBOX. textLimit
 

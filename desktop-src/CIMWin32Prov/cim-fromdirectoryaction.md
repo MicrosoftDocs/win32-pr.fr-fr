@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f485fa32561e746afa16a899a1392b4fddc18f1f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2d9055b47448bf21543dd738f5378ac0e19d209ebb0a40346e07cd57e01c8f63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923729"
 ---
 # <a name="cim_fromdirectoryaction-class"></a>\_Classe CIM FromDirectoryAction
 
@@ -89,7 +89,7 @@ Référence au répertoire source.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

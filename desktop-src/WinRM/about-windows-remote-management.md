@@ -1,11 +1,11 @@
 ---
-title: À propos de Windows Remote Management
-description: Windows Remote Management est un composant des fonctionnalités de gestion de matériel de Windows qui gère le matériel serveur localement et à distance.
+title: à propos de Windows Remote Management
+description: Windows la gestion à distance est un composant de la Windows fonctionnalités de gestion matérielle qui gèrent le matériel serveur localement et à distance.
 ms.assetid: f58add53-0746-4423-9ab8-02ba05f82fa7
 ms.tgt_platform: multiple
 keywords:
-- À propos de Windows Remote Management
-- Windows Remote Management, à propos de
+- à propos de Windows Remote Management
+- Windows Gestion à distance, à propos de
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -13,16 +13,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9221676d3a9864e4fc88fc57c5bb6691512c220a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a83df38de4af354f826b9bbba59ddab76e1b656c72e1c3dc74301da883f875cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858909"
 ---
-# <a name="about-windows-remote-management"></a>À propos de Windows Remote Management
+# <a name="about-windows-remote-management"></a>à propos de Windows Remote Management
 
-Windows Remote Management est un composant des fonctionnalités de [gestion de matériel de Windows](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) qui gère le matériel serveur localement et à distance. Ces fonctionnalités incluent un service qui implémente le protocole [*WS-Management*](windows-remote-management-glossary.md) , le diagnostic matériel et le contrôle via les contrôleurs Baseboard Management Controllers ([*contrôleurs BMC*](windows-remote-management-glossary.md)), ainsi qu’une API com et des [objets de script](winrm-scripting-api.md) qui vous permettent d’écrire des applications qui communiquent à distance par le biais du protocole WS-Management. Pour plus d’informations sur la spécification publique du protocole WS-Management, consultez [gestion des services Web (WS-Management)](https://dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf).
+Windows la gestion à distance est un composant de la Windows fonctionnalités de [gestion matérielle](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) qui gèrent le matériel serveur localement et à distance. Ces fonctionnalités incluent un service qui implémente le protocole [*WS-Management*](windows-remote-management-glossary.md) , le diagnostic matériel et le contrôle via les contrôleurs Baseboard Management Controllers ([*contrôleurs BMC*](windows-remote-management-glossary.md)), ainsi qu’une API com et des [objets de script](winrm-scripting-api.md) qui vous permettent d’écrire des applications qui communiquent à distance par le biais du protocole WS-Management. Pour plus d’informations sur la spécification publique du protocole WS-Management, consultez [gestion des services Web (WS-Management)](https://dmtf.org/sites/default/files/standards/documents/DSP0226_1.2.0.pdf).
 
 ## <a name="components-of-winrm-and-hardware-management"></a>Composants de WinRM et gestion du matériel
 
@@ -34,7 +34,7 @@ La liste suivante répertorie les composants et les fonctionnalités fournis par
 
 -   **WinRM. cmd**
 
-    Cet outil de ligne de commande pour la gestion du système est implémenté dans un fichier de Visual Basic Scripting Edition (Winrm.vbs) écrit à l’aide de l’API de script WinRM. Cet outil permet à un administrateur de configurer WinRM et d’extraire des données ou de gérer des ressources. Pour plus d’informations, consultez l’aide en ligne fournie par la ligne de commande **WinRM** **/ ?**.
+    cet outil de ligne de commande pour la gestion du système est implémenté dans un fichier d’édition de script Visual Basic (Winrm.vbs) écrit à l’aide de l’API de script WinRM. Cet outil permet à un administrateur de configurer WinRM et d’extraire des données ou de gérer des ressources. Pour plus d’informations, consultez l’aide en ligne fournie par la ligne de commande **WinRM** **/ ?**.
 
 -   **Winrs.exe**
 
@@ -58,7 +58,7 @@ La liste suivante répertorie les composants et les fonctionnalités fournis par
 
 ## <a name="working-with-winrm"></a>Utilisation de WinRM
 
-Pour plus d’informations sur l’écriture de scripts WinRM, consultez [utilisation de Windows Remote Management](using-windows-remote-management.md).
+pour plus d’informations sur l’écriture de scripts WinRM, consultez [utilisation de Windows Remote Management](using-windows-remote-management.md).
 
 Le tableau suivant répertorie les rubriques qui fournissent des informations sur le protocole WS-Management, WinRM et WMI, sur la façon de spécifier des ressources de gestion, telles que des lecteurs de disque ou des processus.
 
@@ -66,20 +66,20 @@ Le tableau suivant répertorie les rubriques qui fournissent des informations su
 
 | Rubrique                                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md) | L' [*écouteur*](windows-remote-management-glossary.md) WinRM requiert une configuration sur les ordinateurs client et serveur.                                                                                                                                                                                                                               |
-| [Architecture Windows Remote Management](windows-remote-management-architecture.md)                                             | Diagramme illustrant les composants de WinRM et les composants qui se trouvent sur les ordinateurs clients et serveurs.                                                                                                                                                                                                                                                               |
+| [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md) | L' [*écouteur*](windows-remote-management-glossary.md) WinRM requiert une configuration sur les ordinateurs client et serveur.                                                                                                                                                                                                                               |
+| [Windows Architecture de gestion à distance](windows-remote-management-architecture.md)                                             | Diagramme illustrant les composants de WinRM et les composants qui se trouvent sur les ordinateurs clients et serveurs.                                                                                                                                                                                                                                                               |
 | [Protocole Gestion des services web](ws-management-protocol.md)                                                                             | Description du protocole WS-Management standard public pour l’envoi et la réception à distance de données de gestion sur tout périphérique d’ordinateur qui implémente le protocole.                                                                                                                                                                                                             |
-| [Scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)                                             | L’API de script WinRM est similaire aux actions du protocole WS-Management. Les données récupérées par les scripts sont au format XML, et non des objets.                                                                                                                                                                                                                                  |
+| [scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)                                             | L’API de script WinRM est similaire aux actions du protocole WS-Management. Les données récupérées par les scripts sont au format XML, et non des objets.                                                                                                                                                                                                                                  |
 | [Authentification des connexions à distance](authentication-for-remote-connections.md)                                               | WS-Management protocole maintient la sécurité pour le transfert de données entre les ordinateurs en prenant en charge plusieurs méthodes standard d’authentification et de chiffrement des messages.                                                                                                                                                                                                                |
-| [Windows Remote Management et WMI](windows-remote-management-and-wmi.md)                                                       | Comme WinRM est intégré à [Windows Management Instrumentation (WMI)](/windows/desktop/WmiSdk/wmi-start-page), vous pouvez obtenir des données WMI avec des scripts ou des applications qui utilisent l' [API de script WinRM](winrm-scripting-api.md) ou via l’outil en ligne de commande WinRM.                                                                                                                     |
+| [Windows Gestion à distance et WMI](windows-remote-management-and-wmi.md)                                                       | comme WinRM est intégré à [Windows Management Instrumentation (wmi)](/windows/desktop/WmiSdk/wmi-start-page), vous pouvez obtenir des données WMI avec des scripts ou des applications qui utilisent l' [API de script winrm](winrm-scripting-api.md) ou via l’outil en ligne de commande winrm.                                                                                                                     |
 | [URI de ressource](resource-uris.md)                                                                                               | Un [*URI de ressource*](windows-remote-management-glossary.md) est un identificateur pour une opération ou une valeur de gestion. Par exemple, les lecteurs de disque représentent un type de ressource.                                                                                                                                                                              |
 | [Gestion matérielle à distance](remote-hardware-management.md)                                                                     | Le [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) fournit des [classes](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) et des données qui décrivent le domaine de gestion du matériel du contrôleur BMC (Baseboard Management Controller), les systèmes informatiques BMC dans le domaine et les capteurs BMC. Les autres objets représentent le journal des événements système (SEL) BMC et les messages dans le journal. |
 | [Événements](events.md)                                                                                                             | Vous ne pouvez pas obtenir d’événements par le biais de scripts WinRM, mais vous pouvez utiliser l’outil de ligne de commande Wevtutil.exe pour afficher les événements du [collecteur d’événements](/previous-versions/windows/it-pro/windows-server-2003/cc785056(v=ws.10)) .                                                                                                                                                                                        |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

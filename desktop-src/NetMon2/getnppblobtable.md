@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: 883493215aaac0fa2568baec69232b379b8aa808
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49920df1be929eb9b35781aeabdcdf47167e82a94066e2d3237207dd00b08f74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910699"
 ---
 # <a name="getnppblobtable-function"></a>GetNPPBlobTable fonction)
 
@@ -73,7 +73,7 @@ Si la fonction échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet BLOB nommé par *hFilterBlob* peut également être un objet BLOB spécial.
 

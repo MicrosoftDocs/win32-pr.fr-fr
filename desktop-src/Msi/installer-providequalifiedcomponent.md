@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 73c830610b49976e3625dd333c57f39e43d4be14
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 534f0d29fed41a495c3432ff757d7e269c6b2a5d63c9bfabebe614849f3ab9f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828869"
 ---
 # <a name="installerprovidequalifiedcomponent-method"></a>Installer. ProvideQualifiedComponent, méthode
 

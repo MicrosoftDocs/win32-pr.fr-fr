@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9b664d7ee6f13801640f72a72b380d9ea4c159da
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6b5d5eb2bafc00b3989420b1c36230bb764a3c4d926964d39207c20afca0473f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106520277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863599"
 ---
 # <a name="inputtype-complex-type"></a>Type complexe InputType
 
@@ -78,9 +78,9 @@ Définit un type de données d’entrée.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La liste suivante répertorie les types d’entrées reconnus que vous pouvez utiliser dans votre manifeste. Les types sont définis dans le \\ fichier include \\Winmeta.xml inclus dans le SDK Windows. La colonne « format XML standard » indique le type canonique pour le type d’entrée spécifique. La colonne « type de sortie » répertorie les formats possibles dans lesquels les données peuvent être rendues. Si vous ne spécifiez pas de type de sortie pour l’élément de données, le service utilise le premier type de sortie listé pour restituer les données. Pour obtenir une description des types de sortie, consultez le type complexe [**OutputType**](eventmanifestschema-outputtype-complextype.md) .
+La liste suivante répertorie les types d’entrées reconnus que vous pouvez utiliser dans votre manifeste. les types sont définis dans le \\ fichier include \\Winmeta.xml inclus dans le SDK Windows. La colonne « format XML standard » indique le type canonique pour le type d’entrée spécifique. La colonne « type de sortie » répertorie les formats possibles dans lesquels les données peuvent être rendues. Si vous ne spécifiez pas de type de sortie pour l’élément de données, le service utilise le premier type de sortie listé pour restituer les données. Pour obtenir une description des types de sortie, consultez le type complexe [**OutputType**](eventmanifestschema-outputtype-complextype.md) .
 
 Le tableau suivant répertorie les valeurs définies dans le fichier Winmeta.xml.
 
@@ -122,8 +122,8 @@ Si vous utilisez Win : UInt32 pour stocker une adresse IPv4, la valeur doit êt
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

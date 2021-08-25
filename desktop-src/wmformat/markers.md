@@ -9,12 +9,12 @@ keywords:
 - marqueurs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d314b4e74aa05a08dfd4a297687662e10f045abc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58ddc013b2d8e09fa30ac6a8b7373aaf6733b669f2ccacec6350ee70e0800b20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808229"
 ---
 # <a name="markers"></a>Marqueurs
 
@@ -37,9 +37,9 @@ Les marqueurs sont manipulés par l’objet de l’éditeur de métadonnées. Vo
 [**Utilisation des marqueurs**](using-markers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

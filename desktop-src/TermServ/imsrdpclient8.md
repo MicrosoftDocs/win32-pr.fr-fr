@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6575e50bd85cfe96888f6c5924d1875b48d544ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63dbdffbad87f9860bc063ab7f83883e0f902ea1ef7e4d2e91d452b2b832a699
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871359"
 ---
 # <a name="imsrdpclient8-interface"></a>Interface IMsRdpClient8
 
@@ -49,10 +49,10 @@ L’interface **IMsRdpClient8** possède ces méthodes.
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                      | Récupère le texte d’État pour le code d’état spécifié.<br/>                                                                                                                         |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md) | Récupère les options définies pour un canal virtuel.<br/>                                                                                                                                 |
 | [**Reconnexion**](imsrdpclient8-reconnect.md)                              | Se reconnecte à la session à distance avec la largeur et la hauteur du nouveau bureau.<br/>                                                                                                          |
-| [**RequestClose**](imsrdpclient-requestclose.md)                         | Demande un arrêt approprié du contrôle ActiveX Bureau à distance.<br/>                                                                                                              |
+| [**RequestClose**](imsrdpclient-requestclose.md)                         | demande un arrêt approprié du contrôle de Bureau à distance ActiveX.<br/>                                                                                                              |
 | [**SendOnVirtualChannel**](imstscax-sendonvirtualchannel.md)             | Envoie des données au serveur hôte de session Bureau à distance via un canal virtuel qui a été créé précédemment à l’aide de la méthode [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) .<br/> |
 | [**SendRemoteAction**](imsrdpclient8-sendremoteaction.md)                | Entraîne l’exécution d’une action dans la session à distance.<br/>                                                                                                                          |
-| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md) | Définit les options de canal virtuel pour le contrôle ActiveX Bureau à distance.<br/>                                                                                                         |
+| [**SetVirtualChannelOptions**](imsrdpclient-setvirtualchanneloptions.md) | définit les options de canal virtuel pour le contrôle de ActiveX Bureau à distance.<br/>                                                                                                         |
 
 
 
@@ -85,7 +85,7 @@ L’interface **IMsRdpClient8** possède les propriétés suivantes.
 | [**DisconnectedText**](imstscax-disconnectedtext.md)<br/>                     | Lecture/écriture<br/> | Spécifie le texte qui apparaît centré dans le contrôle avant qu’une connexion ne soit terminée.<br/>                                                                                                                                                  |
 | [**Domaine**](imstscax-domain.md)<br/>                                         | Lecture/écriture<br/> | Spécifie le domaine auquel l’utilisateur actuel se connecte.<br/>                                                                                                                                                                                     |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/> | Lecture seule<br/>  | Contient des informations étendues sur la raison de la déconnexion du contrôle.<br/>                                                                                                                                                                 |
-| [**FullScreen**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                                                               |
+| [**Large**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Détermine si le contrôle client est en mode plein écran.<br/>                                                                                                                                                                               |
 | [**FullScreenTitle**](imstscax-fullscreentitle.md)<br/>                       | Écriture seule<br/> | Spécifie le titre de la fenêtre qui s’affiche lorsque le contrôle est en mode plein écran.<br/>                                                                                                                                                               |
 | [**HorizontalScrollBarVisible**](imstscax-horizontalscrollbarvisible.md)<br/> | Lecture seule<br/>  | Indique si le contrôle a affiché une barre de défilement horizontale.<br/>                                                                                                                                                                        |
 | [**MsRdpClientShell**](imsrdpclient5-msrdpclientshell.md)<br/>                | Lecture seule<br/>  | Récupère l’interface de paramètre client scriptable [**IMsRdpClientShell**](imsrdpclientshell.md).<br/>                                                                                                                                           |
@@ -108,7 +108,7 @@ L’interface **IMsRdpClient8** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient8** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETREPEAT (VFW. h)
 description: Le \_ message MCIWNDM SETREPEAT définit l’indicateur de répétition associé à la lecture continue.
 ms.assetid: 9a8da201-9ce8-4b6c-8b76-cd9e1356c75d
 keywords:
-- Message MCIWNDM_SETREPEAT Windows Multimedia
+- message MCIWNDM_SETREPEAT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeae2ac3cb57f8ddbb2343ee3f42d30fa8def370
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 158e0b52f01431886fd8a70e89efadfdd7335258c0808cdb6780bf06071e3280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807589"
 ---
 # <a name="mciwndm_setrepeat-message"></a>\_Message MCIWNDM SETREPEAT
 
@@ -49,7 +49,7 @@ Nouvel état de l’indicateur de répétition. Spécifiez **true** pour activer
 
 Retourne zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À l’heure actuelle, MCIAVI est le seul périphérique qui prend en charge la lecture continue.
 

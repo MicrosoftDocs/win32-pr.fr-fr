@@ -4,12 +4,12 @@ ms.assetid: 0dc871d2-79c4-4bf8-96ef-13c4d1ab4497
 title: Mode sans fenêtre VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b137fbc1351f2bbe5ed38673b681e45558675d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 193f672e0fc1e3dced4bdff16da0e85123079eb94f2ac3c5fdb302b67c9432b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830582"
 ---
 # <a name="vmr-windowless-mode"></a>Mode sans fenêtre VMR
 
@@ -31,15 +31,15 @@ Pour configurer VMR-7 en mode sans fenêtre, effectuez toutes les étapes suivan
 
 1.  Créez le filtre et ajoutez-le au graphique.
 2.  Appelez la méthode [**IVMRFilterConfig :: SetRenderingMode**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode) avec l' \_ indicateur sans fenêtre VMRMode.
-3.  Éventuellement, configurez le VMR pour plusieurs flux d’entrée en appelant [**IVMRFilterConfig :: SetNumberOfStreams**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams). VMR crée une broche d’entrée pour chaque flux. Utilisez l’interface [**IVMRMixerControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) pour définir l’ordre de plan et d’autres paramètres pour le flux. Pour plus d’informations, consultez [VMR avec plusieurs flux (mode de mixage)](vmr-with-multiple-streams--mixing-mode.md).
+3.  Éventuellement, configurez le VMR pour plusieurs flux d’entrée en appelant [**IVMRFilterConfig :: SetNumberOfStreams**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setnumberofstreams). VMR crée une broche d’entrée pour chaque flux. Utilisez l’interface [**IVMRMixerControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrmixercontrol) pour définir l’ordre de plan et d’autres paramètres pour le flux. pour plus d’informations, consultez [VMR avec plusieurs Flux (Mode de mixage)](vmr-with-multiple-streams--mixing-mode.md).
 
     Si vous n’appelez pas **SetNumberOfStreams**, VMR-7 est défini par défaut sur une seule broche d’entrée. Une fois les broches d’entrée connectées, le nombre de broches ne peut pas être modifié.
 
 4.  Appelez [**IVMRWindowlessControl :: SetVideoClippingWindow**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoclippingwindow) pour spécifier la fenêtre dans laquelle la vidéo rendue s’affichera.
 
-Une fois ces étapes terminées, vous pouvez connecter les broches d’entrée du filtre VMR. Il existe plusieurs façons de générer le graphique, par exemple en connectant des broches directement, à l’aide de méthodes Connect intelligentes telles que [**IGraphBuilder :: RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile), ou à l’aide de la méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) du générateur de graphique de capture. Pour plus d’informations, consultez [General Graph-Building techniques](general-graph-building-techniques.md).
+Une fois ces étapes terminées, vous pouvez connecter les broches d’entrée du filtre VMR. il existe plusieurs façons de générer le graphique, par exemple en connectant des broches directement, à l’aide de méthodes de Connecter intelligentes telles que [**IGraphBuilder :: RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile), ou à l’aide de la méthode [**ICaptureGraphBuilder2 :: RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) du générateur de Capture Graph. Pour plus d’informations, consultez [General Graph-Building techniques](general-graph-building-techniques.md).
 
-Pour définir la position de la vidéo dans la fenêtre de l’application, appelez la méthode [**IVMRWindowlessControl :: SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) . La méthode [**IVMRWindowlessControl :: GetNativeVideoSize**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize) retourne la taille de la vidéo native. Pendant la lecture, l’application doit notifier VMR des messages Windows suivants :
+Pour définir la position de la vidéo dans la fenêtre de l’application, appelez la méthode [**IVMRWindowlessControl :: SetVideoPosition**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-setvideoposition) . La méthode [**IVMRWindowlessControl :: GetNativeVideoSize**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-getnativevideosize) retourne la taille de la vidéo native. pendant la lecture, l’application doit notifier VMR des messages Windows suivants :
 
 -   WM \_ Paint : appelez [**IVMRWindowlessControl :: RepaintVideo**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-repaintvideo) pour redessiner l’image.
 -   WM \_ DISPLAYCHANGE : appelez [**IVMRWindowlessControl ::D isplaymodechanged**](/windows/desktop/api/Strmif/nf-strmif-ivmrwindowlesscontrol-displaymodechanged). VMR effectue toutes les actions nécessaires pour afficher la vidéo au niveau de la nouvelle résolution ou de la profondeur de couleurs.
@@ -56,7 +56,7 @@ Pour configurer VMR-9 en mode sans fenêtre, suivez les étapes décrites pour V
 
 **Exemple de code**
 
-Le code suivant montre comment créer un filtre VMR-7, l’ajouter au graphique de filtre DirectShow, puis mettre le VMR en mode sans fenêtre. Pour VMR-9, utilisez le CLSID \_ VideoMixingRenderer9 dans **CoCreateInstance** et les interfaces VMR-9 correspondantes.
+le code suivant montre comment créer un filtre vmr-7, l’ajouter au DirectShow graphique de filtre, puis mettre le VMR en mode sans fenêtre. Pour VMR-9, utilisez le CLSID \_ VideoMixingRenderer9 dans **CoCreateInstance** et les interfaces VMR-9 correspondantes.
 
 
 ```C++

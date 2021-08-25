@@ -4,12 +4,12 @@ ms.assetid: def96d52-c9fa-4fac-b575-f9de8eb82d1c
 title: Table ModuleComponents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ea2f47418b0387c7fa9d289d156fb0369f53adf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25216833022ada7592511091c6954222d8ebf354e732c95a54e8857948963541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926479"
 ---
 # <a name="modulecomponents-table"></a>Table ModuleComponents
 
@@ -23,7 +23,7 @@ La table ModuleComponents contient les colonnes suivantes.
 |-----------|------------------------------|-----|----------|
 | Composant | [Identificateur](identifier.md) | O   | N        |
 | ModuleID  | [Identificateur](identifier.md) | O   | N        |
-| Language  | [Integer](integer.md)       | O   | N        |
+| Langage  | [Integer](integer.md)       | O   | N        |
 
 
 
@@ -54,7 +54,7 @@ L’identificateur de langue décrit la langue par défaut pour le module de fus
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les transformations de langage doivent être en mesure de mettre à jour cette table si le module de fusion prend en charge plusieurs langues.
 

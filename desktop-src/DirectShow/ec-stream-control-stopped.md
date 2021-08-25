@@ -4,12 +4,12 @@ ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
 title: EC_STREAM_CONTROL_STOPPED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8c5488ba400d90623955c3e9adcba0dde07e04a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 69884ecc573b2bb775092529cb81e1b33a1514d4799af9f55c7bcebb5ebd2b24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119928419"
 ---
 # <a name="ec_stream_control_stopped"></a>\_le contrôle de flux EC s' \_ \_ est arrêté
 
@@ -62,7 +62,7 @@ Le paramètre *dwCookie* est spécifié par l’application dans la méthode [**
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

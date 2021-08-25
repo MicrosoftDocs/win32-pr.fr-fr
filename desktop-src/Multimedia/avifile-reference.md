@@ -4,12 +4,12 @@ description: Référence AVIFile
 ms.assetid: 73532d83-89c2-4911-8558-ce110e9f0f95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0291d0ac5864a9b370e79a98fa061770d05bca03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19b4bbda5374f5b1418c166aae5efcc06168b522b2cae0f3b6d2c8fe3c069c36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808319"
 ---
 # <a name="avifile-reference"></a>Référence AVIFile
 
@@ -43,7 +43,7 @@ Cette section décrit les fonctions, structures et macros pour les applications 
 -   [**AVIGetFromClipboard**](/windows/desktop/api/Vfw/nf-vfw-avigetfromclipboard)
 -   [**AVIClearClipboard**](/windows/desktop/api/Vfw/nf-vfw-aviclearclipboard)
 
-## <a name="opening-and-closing-streams"></a>Ouverture et fermeture de flux
+## <a name="opening-and-closing-streams"></a>Ouverture et fermeture de Flux
 
 -   [**AVIFileGetStream**](/windows/desktop/api/Vfw/nf-vfw-avifilegetstream)
 -   [**AVIStreamOpenFromFile**](/windows/desktop/api/Vfw/nf-vfw-avistreamopenfromfilea)
@@ -68,7 +68,7 @@ Cette section décrit les fonctions, structures et macros pour les applications 
 -   [**AVIStreamGetFrame**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframe)
 -   [**AVIStreamGetFrameClose**](/windows/desktop/api/Vfw/nf-vfw-avistreamgetframeclose)
 
-## <a name="creating-a-file-from-existing-streams"></a>Création d’un fichier à partir de flux existants
+## <a name="creating-a-file-from-existing-streams"></a>Création d’un fichier à partir d’un Flux existant
 
 -   [**AVISave**](/windows/desktop/api/Vfw/nf-vfw-avisavea)
 -   [**AVISaveV**](/windows/desktop/api/Vfw/nf-vfw-avisaveva)
@@ -76,7 +76,7 @@ Cette section décrit les fonctions, structures et macros pour les applications 
 -   [**GetSaveFileNamePreview**](/windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa)
 -   [**AVIMakeFileFromStreams**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams)
 
-## <a name="writing-individual-streams"></a>Écriture de flux individuels
+## <a name="writing-individual-streams"></a>Écriture d’Flux individuelles
 
 -   [**AVIFileCreateStream**](/windows/desktop/api/Vfw/nf-vfw-avifilecreatestream)
 -   [**AVIStreamSetFormat**](/windows/desktop/api/Vfw/nf-vfw-avistreamsetformat)
@@ -118,13 +118,13 @@ Cette section décrit les fonctions, structures et macros pour les applications 
 -   [**AVIStreamSampleToTime**](/windows/desktop/api/Vfw/nf-vfw-avistreamsampletotime)
 -   [**AVIStreamTimeToSample**](/windows/desktop/api/Vfw/nf-vfw-avistreamtimetosample)
 
-## <a name="creating-temporary-streams"></a>Création de flux temporaires
+## <a name="creating-temporary-streams"></a>Création d’un Flux temporaire
 
 -   [**AVIStreamCreate**](/windows/desktop/api/Vfw/nf-vfw-avistreamcreate)
 -   [**AVIMakeCompressedStream**](/windows/desktop/api/Vfw/nf-vfw-avimakecompressedstream)
 -   [**AVIStreamRelease**](/windows/desktop/api/Vfw/nf-vfw-avistreamrelease)
 
-## <a name="editing-avi-streams"></a>Modification des flux AVI
+## <a name="editing-avi-streams"></a>Modification des Flux AVI
 
 -   [**CreateEditableStream**](/windows/desktop/api/Vfw/nf-vfw-createeditablestream)
 -   [**EditStreamCut**](/windows/desktop/api/Vfw/nf-vfw-editstreamcut)
@@ -141,9 +141,9 @@ Cette section décrit les fonctions, structures et macros pour les applications 
 [Fonctions et macros AVIFile](avifile-functions-and-macros.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

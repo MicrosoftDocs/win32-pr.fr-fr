@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70a9d0424f7f7a7f89edde18273c5d1fa22fae28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f69e3bf66bcbad61e3d9bf676038f27511f756d7a3a473be2c513553862eb90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851153"
 ---
 # <a name="d3dx12serializeversionedrootsignature-function"></a>D3DX12SerializeVersionedRootSignature fonction)
 
@@ -86,9 +86,9 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Retourne **S \_ OK** en cas de réussite ; sinon, retourne l’un des [codes de retour Direct3D 12](d3d12-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction a été publiée pour coïncider avec la mise à jour anniversaire de Windows 10 (14393). Pour prendre en charge les versions de Windows 10 antérieures à cela, l’utilisation de cette fonction requiert que d3d12. lib soit configuré pour le *chargement différé*.
+cette fonction a été publiée pour coïncider avec la Windows 10 mise à jour anniversaire (14393). pour prendre en charge les versions de Windows 10 antérieures à, l’utilisation de cette fonction requiert que d3d12. lib soit configuré pour le *chargement différé*.
 
 ## <a name="requirements"></a>Configuration requise
 

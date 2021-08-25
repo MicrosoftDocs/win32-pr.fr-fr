@@ -3,7 +3,7 @@ title: Message MM_MCINOTIFY (mmsystem. h)
 description: Le \_ message mm MCINOTIFY avertit une application qu’un périphérique MCI a terminé une opération. Les appareils MCI envoient ce message uniquement lorsque l' \_ indicateur de notification MCI est utilisé.
 ms.assetid: a0840130-2969-4ce5-b098-3e45401eebb1
 keywords:
-- Message MM_MCINOTIFY Windows Multimedia
+- message MM_MCINOTIFY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ee62c4a2b6e17bf5ad6d719dcb7d6e992a2f2e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fc03ab0406542472871f35ca3ff619d4d9a6f35725b9322a4c11bc73bc29a5aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807509"
 ---
 # <a name="mm_mcinotify-message"></a>MM \_ message MCINOTIFY
 
@@ -69,7 +69,7 @@ Identificateur de l’appareil initialisant la fonction de rappel.
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l' \_ indicateur de notification MCI, consultez [l’indicateur Notify](the-notify-flag.md).
 
@@ -87,7 +87,7 @@ Lorsque votre application demande une notification pour une commande, vérifiez 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

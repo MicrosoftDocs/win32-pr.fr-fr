@@ -3,7 +3,7 @@ title: MpThreatEnumerate, fonction (MpClient. h)
 description: Retourne des informations sur la menace suivante dans la liste d’énumération. Cette fonction peut être appelée à plusieurs reprises jusqu’à ce que l’énumération de toutes les menaces soit terminée.
 ms.assetid: 33244F4F-4FB7-4FA7-BC56-B9A30ABC3644
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpThreatEnumerate
+- fonctionnalités d’environnement Windows hérités de la fonction MpThreatEnumerate
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: acdbb7971371015a401c1a951ace8c55869fd405
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9525ad44901bd62044721e634559e1c803b88b05e9250097d939b3a5a04d229a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943829"
 ---
 # <a name="mpthreatenumerate-function"></a>MpThreatEnumerate fonction)
 
@@ -53,9 +53,9 @@ Handle vers un contexte d’énumération des menaces retourné par [**MpThreatO
 *ppThreatInfo* \[ à\]
 </dt> <dd>
 
-Type : **PMPTHREAT \_ info \** _
+Type : **PMPTHREAT \_ info \***
 
-Retourne un pointeur vers une structure d’informations sur les menaces, [_ *MPTHREAT \_ info* *](mpthreat-info.md). La structure contient des informations telles que l’ID de menace, le nom et la gravité.
+Retourne un pointeur vers une structure d’informations sur les menaces, [**MPTHREAT \_ info**](mpthreat-info.md). La structure contient des informations telles que l’ID de menace, le nom et la gravité.
 
 </dd> </dl>
 
@@ -75,8 +75,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

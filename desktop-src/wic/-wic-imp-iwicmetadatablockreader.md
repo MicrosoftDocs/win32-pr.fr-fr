@@ -4,18 +4,18 @@ ms.assetid: 80ad8e20-a9d4-4503-94ba-1b7699e36111
 title: Implémentation de IWICMetadataBlockReader
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55bfe53e87dae52d004fa90d1104fb60f252085d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbb32ca6bf5ce0714c06a6f355c319908c6dd3a61b1ac27f6baf13f6285183ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772259"
 ---
 # <a name="implementing-iwicmetadatablockreader"></a>Implémentation de IWICMetadataBlockReader
 
 ## <a name="iwicmetadatablockreader"></a>IWICMetadataBlockReader
 
-Plusieurs blocs de métadonnées existent souvent dans une image, chacun exposant différents types d’informations dans différents formats. Dans le modèle WIC (Windows Imaging Component), les gestionnaires de métadonnées sont des composants distincts qui, comme les décodeurs, sont détectables au moment de l’exécution. Chaque format de métadonnées a un gestionnaire distinct, et chacun de ces gestionnaires de métadonnées peut être utilisé avec tout format d’image qui prend en charge le format de métadonnées qu’il gère. Par conséquent, si votre format d’image prend en charge EXIF, XMP, IPTC ou un autre format, vous pouvez tirer parti des gestionnaires de métadonnées standard pour ces formats fournis avec WIC, et vous n’avez pas besoin d’écrire le vôtre. Bien entendu, si vous créez un nouveau format de métadonnées, vous devez écrire un gestionnaire de métadonnées pour celui-ci, qui sera découvert et appelé au moment de l’exécution comme les valeurs standard.
+Plusieurs blocs de métadonnées existent souvent dans une image, chacun exposant différents types d’informations dans différents formats. dans le modèle WIC (Windows Imaging component), les gestionnaires de métadonnées sont des composants distincts qui, comme les décodeurs, sont détectables au moment de l’exécution. Chaque format de métadonnées a un gestionnaire distinct, et chacun de ces gestionnaires de métadonnées peut être utilisé avec tout format d’image qui prend en charge le format de métadonnées qu’il gère. Par conséquent, si votre format d’image prend en charge EXIF, XMP, IPTC ou un autre format, vous pouvez tirer parti des gestionnaires de métadonnées standard pour ces formats fournis avec WIC, et vous n’avez pas besoin d’écrire le vôtre. Bien entendu, si vous créez un nouveau format de métadonnées, vous devez écrire un gestionnaire de métadonnées pour celui-ci, qui sera découvert et appelé au moment de l’exécution comme les valeurs standard.
 
 > [!Note]  
 > Si votre format d’image est basé sur un conteneur TIFF (Tagged Image File Format) ou JPEG, vous n’avez pas besoin d’écrire de gestionnaires de métadonnées (sauf si vous développez un nouveau format de métadonnées propriétaire). Dans les conteneurs TIFF et JPEG, les blocs de métadonnées se trouvent dans IFD, et chaque conteneur a une structure IFD différente. WIC fournit des gestionnaires IFD pour ces deux formats de conteneur qui parcourent la structure IFD et délèguent aux gestionnaires de métadonnées standard pour accéder aux métadonnées qu’ils contiennent. Par conséquent, si votre format d’image est basé sur l’un de ces conteneurs, vous pouvez automatiquement tirer parti des gestionnaires IFD du WIC. Toutefois, si vous avez un format de conteneur propriétaire qui a sa propre structure de métadonnées de niveau supérieur unique, vous devez écrire un gestionnaire qui peut naviguer dans cette structure de niveau supérieur et déléguer aux gestionnaires de métadonnées appropriés, tout comme les gestionnaires IFD.)
@@ -156,7 +156,7 @@ Le paramètre *pIStream* est le flux réel que vous décodez. Avant de passer le
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

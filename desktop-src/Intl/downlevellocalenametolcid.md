@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: c41b82c59b63a5b324e15f89c1f77118d454e428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39a0a6b274ba141553d2ddda927f71754cc9639ff5fc3a0d3870a974e46526a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898729"
 ---
 # <a name="downlevellocalenametolcid-function"></a>DownlevelLocaleNameToLCID fonction)
 
 Convertit un [nom de paramètres régionaux](locale-names.md) en un [identificateur de paramètres régionaux](locale-identifiers.md) qui peut être utilisé pour obtenir des informations à partir du système d’exploitation.
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert un package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) pour récupérer un identificateur de paramètres régionaux.
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert un package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) pour récupérer un identificateur de paramètres régionaux.
 
  
 
@@ -68,10 +68,10 @@ La fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informations 
 -   ERREUR \_ : indicateurs non valides \_ . Les valeurs fournies pour les indicateurs ne sont pas valides.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> Cette fonction ne prend pas en charge les paramètres régionaux neutres. La fonction [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) équivalente prend en charge les [paramètres régionaux personnalisés](custom-locales.md), mais uniquement pour Windows Vista et versions ultérieures.
+> Cette fonction ne prend pas en charge les paramètres régionaux neutres. la fonction [**LocaleNameToLCID**](/windows/desktop/api/Winnls/nf-winnls-localenametolcid) équivalente prend en charge les [paramètres régionaux personnalisés](custom-locales.md), mais uniquement pour Windows Vista et versions ultérieures.
 
  
 
@@ -83,8 +83,8 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                |
 | Composant redistribuable<br/>          | API de mappage de données de niveau inférieur Microsoft NLS onWindows XP avec SP2 et laterorWindows Vista<br/> |
 | En-tête<br/>                   | <dl> <dt>Nlsdl. h</dt> </dl>                  |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl>               |

@@ -33,7 +33,7 @@ Shell.FindComputer()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -45,9 +45,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **FindComputer** en cours d’utilisation. Le résultat de ce code est le même que si vous appuyez sur le bouton **Démarrer** , sur **Rechercher**, sur l’option **imprimantes, ordinateurs ou personnes** , puis sur **un ordinateur sur le réseau**. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **FindComputer** en cours d’utilisation. Le résultat de ce code est le même que si vous appuyez sur le bouton **Démarrer** , sur **Rechercher**, sur l’option **imprimantes, ordinateurs ou personnes** , puis sur **un ordinateur sur le réseau**. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -105,7 +105,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fca9ccf9b815c406becea00b96a2f120e5dcaa3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 313dadc8d1c7ce48a40c852e899fde7e74626ebd27bf67c990a0bf12b6bfd4c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106513250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879429"
 ---
 # <a name="ms-spp-activation-object-class"></a>MS-SPP-activation-classe d’objets
 
@@ -64,7 +64,7 @@ Objet d’activation utilisé dans l’activation basée sur Active Directory
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -88,7 +88,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -143,7 +143,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -155,9 +155,9 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**MS-SPP-CSVLK-SKU-ID**](a-msspp-csvlkskuid.md)                                            | Vrai      | **MS-SPP-activation-objet**    |
 | [**MS-SPP-installation-ID**](a-msspp-installationid.md)                                     | Faux     | **MS-SPP-activation-objet**    |
 | [**MS-SPP-émission-licence**](a-msspp-issuancelicense.md)                                   | Faux     | **MS-SPP-activation-objet**    |
-| [**MS-SPP-KMS-IDS**](a-msspp-kmsids.md)                                                     | Vrai      | **MS-SPP-activation-objet**    |
+| [**ms-SPP-KMS-id**](a-msspp-kmsids.md)                                                     | Vrai      | **MS-SPP-activation-objet**    |
 | [**MS-SPP-Online-licence**](a-msspp-onlinelicense.md)                                       | Faux     | **MS-SPP-activation-objet**    |
-| [**MS-SPP-Phone-licence**](a-msspp-phonelicense.md)                                         | Faux     | **MS-SPP-activation-objet**    |
+| [**ms-SPP-Téléphone-licence**](a-msspp-phonelicense.md)                                         | Faux     | **MS-SPP-activation-objet**    |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Non-sécurité-membre-BL**](a-nonsecuritymemberbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Descripteur de sécurité NT**](a-ntsecuritydescriptor.md)                                     | Vrai      | [**Retour au début**](c-top.md)<br/> |

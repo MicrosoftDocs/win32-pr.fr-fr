@@ -3,9 +3,9 @@ title: PlaylistCollection. isDeleted, méthode
 description: La méthode isDeleted récupère une valeur indiquant si la sélection spécifiée se trouve dans le dossier éléments supprimés.
 ms.assetid: 5023927a-5d1a-4b61-8122-476947d537c4
 keywords:
-- isDeleted, méthode Windows Media Player
-- isDeleted, méthode lecteur Windows Media, classe PlaylistCollection
-- Classe PlaylistCollection lecteur Windows Media, méthode isDeleted
+- isDeleted, méthode Lecteur Windows Media
+- isDeleted, méthode Lecteur Windows Media, classe PlaylistCollection
+- PlaylistCollection, classe Lecteur Windows Media, méthode isDeleted
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fed3e7e8ff41f23d0f9f741ea99f3382d20532e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a59f6ad587740911d55ae2837607c651e3f3be875bfb24f8bfa765ba415e9bc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862199"
 ---
 # <a name="playlistcollectionisdeleted-method"></a>PlaylistCollection. isDeleted, méthode
 
@@ -53,7 +53,7 @@ Objet de la **sélection** à rechercher.
 
 Cette méthode retourne une **valeur booléenne**.
 
-**Windows Media Player 10 Mobile**: cette méthode retourne toujours la **valeur false**.
+**Lecteur Windows Media 10 Mobile**: cette méthode retourne toujours **false**.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -61,7 +61,7 @@ Cette méthode retourne une **valeur booléenne**.
 
 | Condition requise | Valeur |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Lecteur Windows Media version 7,0, lecteur Windows Media version 7,1 ou lecteur Windows Media pour Windows XP. Cette méthode n’est pas prise en charge pour le lecteur Windows Media série 9 ou version ultérieure.<br/> |
+| Version<br/> | Lecteur Windows Media version 7,0, Lecteur Windows Media version 7,1 ou Lecteur Windows Media pour Windows XP. cette méthode n’est pas prise en charge pour Lecteur Windows Media série 9 ou version ultérieure.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                                                              |
 
 

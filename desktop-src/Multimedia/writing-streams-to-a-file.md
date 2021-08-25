@@ -1,19 +1,19 @@
 ---
-title: Écriture de flux dans un fichier
-description: Écriture de flux dans un fichier
+title: écriture d’Flux dans un fichier
+description: écriture d’Flux dans un fichier
 ms.assetid: a3766f8c-aaa6-4fc5-a306-54aee71018f1
 keywords:
 - AVIFileCreateStream fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 370df08534bbdde870f6d28c828d47935abd80db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: baaedd4103d2141ecaccde78462b2290cf5d5d37813b224c20101eacbe580d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891759"
 ---
-# <a name="writing-streams-to-a-file"></a>Écriture de flux dans un fichier
+# <a name="writing-streams-to-a-file"></a>écriture d’Flux dans un fichier
 
 Vous pouvez également créer un fichier contenant des flux de données en écrivant un nouveau flux de données dans un fichier.
 
@@ -34,6 +34,6 @@ Vous pouvez fermer le flux une fois que vous avez fini d’écrire dans le nouve
 [Opérations de flux](stream-operations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

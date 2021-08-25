@@ -3,7 +3,7 @@ title: Élément RecentItems
 description: Représente le contrôle éléments récents dans le menu de l’application.
 ms.assetid: a3df0bb0-e0f8-413a-879d-8e39164535d0
 keywords:
-- Ruban des fenêtres d’élément RecentItems
+- élément RecentItems Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a433e2f04eae8607b0c14c5494c734ad0f0dd83a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 6ae49864fea057aa942b121f21813acfd0f26c6cc4411d4f1b3c59cda12014c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881559"
 ---
 # <a name="recentitems-element"></a>Élément RecentItems
 
 Représente le contrôle [éléments récents](windowsribbon-controls-recentitems.md) dans le [menu](windowsribbon-controls-applicationmenu.md)de l’application.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <RecentItems
@@ -131,7 +131,7 @@ L’exemple suivant illustre la déclaration de contrôles **RecentItems** assoc
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

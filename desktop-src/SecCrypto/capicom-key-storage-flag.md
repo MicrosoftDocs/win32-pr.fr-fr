@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 9edbc3a5ac3396e528ebbb5390c4b07c24770e58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb1c2c4761403223c8ed0eb225709fbd189127bc9d56d60b82a534e2bc15b8e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879089"
 ---
 # <a name="capicom_key_storage_flag-enumeration"></a>\_Énumération de l' \_ indicateur de stockage de clé CAPICOM \_
 
@@ -36,7 +36,7 @@ L’énumération de l' **\_ indicateur de \_ stockage \_ de clé CAPICOM** déf
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la méthode suivante :
 
@@ -49,7 +49,7 @@ Cette énumération est utilisée par la méthode suivante :
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

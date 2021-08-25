@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cf47eb63a6f9d8fe4921985bb64567de6678b44c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb11a7cac567bd645d0e3fd1c294636b5df9410fbc54012633ec0c0d161b43d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909699"
 ---
 # <a name="cmsgthreadthreadmessageproc-method"></a>Méthode CMsgThread. ThreadMessageProc
 
@@ -77,7 +77,7 @@ Pointeur facultatif vers un objet d’événement.
 
 Tout retour différent de zéro provoque la fermeture du thread. Retourne zéro sauf si une demande de sortie a été traitée récemment.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction virtuelle pure doit être substituée dans votre classe dérivée. Elle est appelée une fois pour chaque demande en file d’attente par un appel à la fonction membre [**CMsgThread ::P utthreadmsg**](cmsgthread-putthreadmsg.md) .
 
@@ -98,7 +98,7 @@ Un code de demande doit être mis de côté pour indiquer au thread de travail d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Msgthrd. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Msgthrd. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

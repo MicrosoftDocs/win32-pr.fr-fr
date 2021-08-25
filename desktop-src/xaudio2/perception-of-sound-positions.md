@@ -4,12 +4,12 @@ ms.assetid: 2c460e4a-c655-dcd1-fbd6-7c33e3b7343d
 title: Perception des positions sonores
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ca72ea4eb86f4328bd84ce53e1ff839e158a38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d49f91a1cdfbb9313384d37f2272c89b6b0f7ac13ace858ef4d8ab9e63657d29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926419"
 ---
 # <a name="perception-of-sound-positions"></a>Perception des positions sonores
 

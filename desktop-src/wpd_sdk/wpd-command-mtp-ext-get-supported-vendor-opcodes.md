@@ -4,12 +4,12 @@ ms.assetid: 397ae29c-f81c-410e-9670-db69c099a321
 title: Commande WPD_COMMAND_MTP_EXT_GET_SUPPORTED_VENDOR_OPCODES (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8713c739da98c179ecc2b7bf042905e4fd06ad7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 45b0ab00fc3ada963e56dced49f97d3c1dbca578dfc5c1cded4735f9df947ff1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927969"
 ---
 # <a name="wpd_command_mtp_ext_get_supported_vendor_opcodes-command"></a>Commande \_ wpd \_ MTP \_ MTP \_ afficher \_ les \_ OpCodes fournisseur pris en charge \_
 
@@ -29,7 +29,7 @@ Le pilote retourne les résultats suivants.
 
 
 
-| Résultats                                                | VarType | Description                                                                                              |
+| Résultat                                                | VarType | Description                                                                                              |
 |-------------------------------------------------------|---------|----------------------------------------------------------------------------------------------------------|
 | **\_codes d' \_ \_ opération du \_ fournisseur ext MTP \_ \_ de la propriété wpd** | VT \_ UI4 | Obligatoire. **IPortableDevicePropVariantCollection** qui contient tous les codes d’opération étendus par le fournisseur. |
 

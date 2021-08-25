@@ -1,17 +1,17 @@
 ---
-title: Isolement des processus
+title: Isolation des processus
 description: L’API du serveur HTTP version 2,0 offre la possibilité de créer un service plus sûr et plus fiable en isolant les processus de travail qui traitent les demandes sur la file d’attente des demandes.
 ms.assetid: 893741b7-025c-4642-aff4-a5d69244763f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efcfccc78bbef435aa0c74e918003383135bc4ed
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 025e0829e020740aeeaf0381849b68bfde8b8244e845f9b5f24347bfa6bec1d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "103869345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830073"
 ---
-# <a name="process-isolation"></a>Isolement des processus
+# <a name="process-isolation"></a>Isolation des processus
 
 L’API du serveur HTTP version 2,0 offre la possibilité de créer un service plus sûr et plus fiable en isolant les processus de travail qui traitent les demandes sur la file d’attente des demandes. La file d’attente des demandes est créée et administrée par un contrôleur ou un processus de création qui contrôle strictement l’accès à celle-ci. Le processus de contrôleur lance un ou plusieurs processus de travail distincts qui effectuent des e/s sur la file d’attente des demandes. Le processus du contrôleur s’exécute avec des privilèges d’administration et configure la file d’attente des demandes, tandis que le travail de moindre privilège traite les demandes d’accès et de service à partir de la file d’attente des demandes. Cette architecture prend en charge la stratégie des applications qui s’exécutent sous le « moindre privilège » et réduit le risque de failles de sécurité introduites par du code tiers qui peut s’exécuter dans les processus de travail.
 
