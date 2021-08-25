@@ -20,12 +20,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f7fde08721bb8bb62b93f72b792060b06c15dad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f82a6621e3dedacd5520c00b71c66bf0091c31135b70f27486ba43da63f393da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874759"
 ---
 # <a name="microsoftdns_wkstype-class"></a>MicrosoftDNS \_ WKSType, classe
 

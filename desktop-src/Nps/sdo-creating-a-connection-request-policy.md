@@ -5,21 +5,21 @@ ms.assetid: 659e7d1e-d985-4cb1-95ad-355c5b44d55a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f2ff388cf3448a4482d304fabf90fdbaa83d5d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69c12a8969e4e16495881a08a67550cb2052862126baecf5cc07c2ad6b129c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889329"
 ---
 # <a name="creating-a-connection-request-policy"></a>Création d’une stratégie de demande de connexion
 
-Le code Visual Basic suivant crée une stratégie de demande de connexion. Elle ajoute une condition à la stratégie qui correspond au nom de l’utilisateur qui demande l’accès. Elle lie la stratégie à un profil. Il configure ce profil pour utiliser RADIUS pour l’authentification et la gestion des comptes, et spécifie les groupes de serveurs que le profil doit utiliser pour l’authentification et la gestion des comptes.
+le code Visual Basic suivant crée une stratégie de demande de connexion. Elle ajoute une condition à la stratégie qui correspond au nom de l’utilisateur qui demande l’accès. Elle lie la stratégie à un profil. Il configure ce profil pour utiliser RADIUS pour l’authentification et la gestion des comptes, et spécifie les groupes de serveurs que le profil doit utiliser pour l’authentification et la gestion des comptes.
 
 > [!Note]  
 > Cet exemple de code en ligne a été créé sur des Visual Basic gérés.
 
- 
+ 
 
 
 ```VB
@@ -360,6 +360,6 @@ End Module
 [**PROFILEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

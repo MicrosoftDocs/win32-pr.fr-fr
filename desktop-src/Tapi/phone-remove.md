@@ -4,12 +4,12 @@ ms.assetid: 7c888976-65da-477a-b5a6-6e78d5f603b1
 title: Message PHONE_REMOVE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ab32ba8b8a8e003c5d87109dd2d0c9dbe98c236
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a26be60c55b16d0126d0b3be107a95af17dd490c9329343bb27ac6496403d46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773899"
 ---
 # <a name="phone_remove-message"></a>Message de suppression de téléphone \_
 
@@ -65,7 +65,7 @@ Réservé. Définit la valeur zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications TAPI version 2,0 ou ultérieure reçoivent un message de **\_ Suppression de téléphone** . Cela les informe que l’appareil a été supprimé du système. Le message de **\_ Suppression de téléphone** est précédé d’un message de [**\_ fermeture de téléphone**](phone-close.md) sur chaque descripteur téléphonique, si l’application a ouvert le téléphone. Ce message est envoyé à toutes les applications prenant en charge TAPI version 2,0 ou ultérieure qui ont appelé [**phoneInitializeEx**](/windows/desktop/api/Tapi/nf-tapi-phoneinitializeexa), y compris celles qui n’ont pas d’appareils téléphoniques ouverts à ce moment-là.
 

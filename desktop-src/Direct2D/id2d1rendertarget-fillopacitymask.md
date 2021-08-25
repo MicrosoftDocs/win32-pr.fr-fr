@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: e988994b849c193725dfdd75773f22a63fed6754
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 362043696e4cbd21dd64783f210cf2e24066645e7dac5e303a16cd83abb31307
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874079"
 ---
 # <a name="id2d1rendertargetfillopacitymask-methods"></a>ID2D1RenderTarget :: FillOpacityMask, méthodes
 
@@ -35,7 +35,7 @@ Applique le masque d’opacité décrit par l’image bitmap spécifiée à un p
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que cette méthode fonctionne correctement, la cible de rendu doit utiliser le mode d’anticrénelage [**\_ \_ \_ alias d2d1 mode**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_antialias_mode) anticrénelage. Vous pouvez définir le mode d’anticrénelage en appelant la méthode [**ID2D1RenderTarget :: SetAntialiasMode**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode) .
 

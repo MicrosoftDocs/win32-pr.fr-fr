@@ -4,16 +4,16 @@ ms.assetid: e8ca77b8-0322-43b4-9996-26f584cf878a
 title: 'IEnumTime :: Next, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1487136b0e3e41ba11a23ba92500d2aa0758df79
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6068d23fae96d5623ced72f44e6e8d185f861b6c49ff085f1b6e9e58bc489b89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905959"
 ---
 # <a name="ienumtimenext-method"></a>IEnumTime :: Next, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **suivante** obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.
 
@@ -55,7 +55,7 @@ Pointeur vers le nombre d’éléments réellement fournis. Peut avoir la **vale
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -71,7 +71,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITTime**](ittime.md) retournée par **IEnumTime :: Next**. L’application doit appeler **Release** sur l’interface **ITTime** pour libérer les ressources qui lui sont associées.
 

@@ -4,12 +4,12 @@ ms.assetid: 3551af9d-ce5e-4b98-a3c2-b4c00d61b7e4
 title: Propriété AVEncDDSurround3dBAttenuation (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc831fa8d53502aa725d20b8f21feae4e515271
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b71b6f5a540d18afadc656def4d64d17a00c35f92a7827bf9f4ab84ab591d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824426"
 ---
 # <a name="avencddsurround3dbattenuation-property"></a>Propriété AVEncDDSurround3dBAttenuation
 
@@ -31,8 +31,8 @@ Cette propriété est en lecture/écriture.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

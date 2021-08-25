@@ -4,12 +4,12 @@ ms.assetid: 149d1097-5f50-40ba-84f1-b815f54ba33d
 title: Encodage et décodage d’un contexte de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4168d15ad8db5d4711a18f2042106e7d6d46010
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f640e12034ebf4ec84e0e71013197f043453b62e1102018dcfe9ea887d6ada
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874885"
 ---
 # <a name="encoding-and-decoding-a-certificate-context"></a>Encodage et décodage d’un contexte de certificat
 

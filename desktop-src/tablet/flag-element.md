@@ -4,12 +4,12 @@ ms.assetid: 612f8814-ab3c-4a3e-9791-525788d4cc72
 title: Flag, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46508f9821379fbedb3291ba45d16dbdd0fb316f
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: df40874178ba998ae9c864036b7befbf85179680de92cb68595f394e370e4404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774079"
 ---
 # <a name="flag-element"></a>Flag, élément
 
@@ -23,7 +23,7 @@ Contient une bitmap encodée en base64 d’un indicateur associé à la section 
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Humidité**](content-element--journal-reader.md)
+[**Content**](content-element--journal-reader.md)
 
 [**, Nœud**](groupnode-element.md)
 

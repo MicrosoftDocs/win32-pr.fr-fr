@@ -1,6 +1,6 @@
 ---
 title: Attribut Template-Roots
-description: Cet attribut est utilisé sur le conteneur de configuration Exchange pour indiquer l’emplacement de stockage des conteneurs de modèles. Ces informations sont utilisées par le fournisseur MAPI Active Directory.
+description: cet attribut est utilisé sur le conteneur de configuration Exchange pour indiquer l’emplacement de stockage des conteneurs de modèles. Ces informations sont utilisées par le fournisseur MAPI Active Directory.
 ms.assetid: 1416ce4a-ca07-4ca9-8ea1-e1a6ad19e7ad
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 761c6d3d79bbf45e9a4d391b612956d6893cd314
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 06b037afe0e2489a2979e7d7b873e37cfc365643cb4728ab0411e4c56827a019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923039"
 ---
 # <a name="template-roots-attribute"></a>Attribut Template-Roots
 
-Cet attribut est utilisé sur le conteneur de configuration Exchange pour indiquer l’emplacement de stockage des conteneurs de modèles. Ces informations sont utilisées par le fournisseur MAPI Active Directory.
+cet attribut est utilisé sur le conteneur de configuration Exchange pour indiquer l’emplacement de stockage des conteneurs de modèles. Ces informations sont utilisées par le fournisseur MAPI Active Directory.
 
 
 
@@ -45,7 +45,7 @@ Cet attribut est utilisé sur le conteneur de configuration Exchange pour indiqu
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

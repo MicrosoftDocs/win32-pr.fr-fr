@@ -3,17 +3,17 @@ title: Référence de capture vidéo
 description: Référence de capture vidéo
 ms.assetid: 5356c575-2a59-4459-b4eb-76967deb6877
 keywords:
-- Video for Windows (VFW), référence de capture vidéo
+- video for Windows (VFW), référence de capture vidéo
 - VFW (vidéo pour Windows), référence de capture vidéo
 - AVICap, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cef19834e244f6070a1d8bb3383dcac017e4d161
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 166bdcf06e700023a197334b0e63f612398485affe21dc9ffbc6e7ac0800926a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804309"
 ---
 # <a name="video-capture-reference"></a>Référence de capture vidéo
 
@@ -27,7 +27,7 @@ Cette section décrit les fonctions, structures, messages et macros associés à
 -   [**séquence de l' \_ embout WM \_**](wm-cap-sequence.md)
 -   [**arrêt de l' \_ embout WM \_**](wm-cap-stop.md)
 
-## <a name="capture-windows"></a>Capturer des fenêtres
+## <a name="capture-windows"></a>Windows de capture
 
 -   [**CAPSTATUS**](/windows/win32/api/vfw/ns-vfw-capstatus)
 -   [**capGetDriverDescription**](/windows/desktop/api/Vfw/nf-vfw-capgetdriverdescriptiona)
@@ -66,7 +66,7 @@ Cette section décrit les fonctions, structures, messages et macros associés à
 -   [**AUDIOFORMAT WM- \_ \_ recevoir \_**](wm-cap-get-audioformat.md)
 -   [**WM \_ Cap \_ Set \_ AUDIOFORMAT**](wm-cap-set-audioformat.md)
 
-## <a name="video-capture-settings"></a>Paramètres de capture vidéo
+## <a name="video-capture-settings"></a>Paramètres de Capture vidéo
 
 -   [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms)
 -   [**\_configuration de \_ la \_ séquence \_ d’extraction de l’embout WM**](wm-cap-get-sequence-setup.md)
@@ -145,9 +145,9 @@ Cette section décrit les fonctions, structures, messages et macros associés à
 [Capture vidéo](video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

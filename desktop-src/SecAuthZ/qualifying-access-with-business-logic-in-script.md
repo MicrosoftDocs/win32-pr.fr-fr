@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 65ee69e0572c0f480cded2930ea81ac6da710b6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b77ff1d6d520780d30efab5619c3e9bc3c896ad88315fba56e3a19e05d3ae97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907549"
 ---
 # <a name="qualifying-access-with-business-logic-in-script"></a>Accès éligible avec la logique métier dans le script
 
 Utilisez des scripts de règle d’entreprise pour fournir une logique d’exécution pour la vérification de l’accès. Pour plus d’informations sur les règles d’entreprise, consultez [règles d’entreprise](business-rules.md).
 
-Pour affecter une règle d’entreprise à une tâche, commencez par définir la propriété [**BizRuleLanguage**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage) de l’objet [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) qui représente la tâche. Le script doit être écrit à l’aide du langage de programmation Visual Basic Scripting Edition (VBScript) ou du logiciel de développement JScript. Une fois que vous avez spécifié le langage de script, définissez la propriété [**BizRule**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule) de l’objet **IAzTask** avec une représentation sous forme de chaîne du script.
+Pour affecter une règle d’entreprise à une tâche, commencez par définir la propriété [**BizRuleLanguage**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrulelanguage) de l’objet [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) qui représente la tâche. le script doit être écrit à l’aide du langage de programmation VBScript (Visual Basic scripting Edition) ou JScript logiciel de développement. Une fois que vous avez spécifié le langage de script, définissez la propriété [**BizRule**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule) de l’objet **IAzTask** avec une représentation sous forme de chaîne du script.
 
 Lors de la vérification de l’accès à une opération contenue par une tâche associée à une règle d’entreprise, l’application doit créer deux tableaux de la même taille à transmettre en tant que paramètres *varParameterNames* et *varParameterValues* de la méthode [**AccessCheck**](/windows/desktop/api/Azroles/nf-azroles-iazclientcontext-accesscheck) d’un objet [**IAzClientContext**](/windows/desktop/api/Azroles/nn-azroles-iazclientcontext) . Pour plus d’informations sur la création d’un contexte client, consultez [établissement d’un contexte client dans un script](establishing-a-client-context-in-script.md).
 

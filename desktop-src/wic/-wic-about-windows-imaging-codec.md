@@ -1,27 +1,27 @@
 ---
-description: Le composant WIC (Windows Imaging Component) fournit une infrastructure extensible pour l’utilisation des images et des métadonnées d’image.
+description: le composant WIC (Windows Imaging Component) fournit une infrastructure extensible pour l’utilisation des images et des métadonnées d’image.
 ms.assetid: a05b496a-bd4c-4065-8060-df0f8930cde7
-title: Vue d’ensemble du composant Windows Imaging
+title: Windows Vue d’ensemble du composant de création d’images
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 764260dd9375f1372c1936c7dbd776295eb34433
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92f4276a70b94fd190b7254d8d3d2666581c0c9dbb991dee3ac6e0568b6ee649
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772509"
 ---
-# <a name="windows-imaging-component-overview"></a>Vue d’ensemble du composant Windows Imaging
+# <a name="windows-imaging-component-overview"></a>Windows Vue d’ensemble du composant de création d’images
 
-Le composant WIC (Windows Imaging Component) fournit une infrastructure extensible pour l’utilisation des images et des métadonnées d’image. WIC permet aux éditeurs de logiciels indépendants et aux fabricants de matériel indépendants (IHV) de développer leurs propres codecs d’image et d’obtenir la même prise en charge de plate-forme que les formats d’images standard (par exemple, TIFF, JPEG, PNG, GIF, BMP et HDPhoto). Un ensemble unique et cohérent d’interfaces est utilisé pour le traitement de tous les images, quel que soit le format d’image, de sorte que toute application utilisant le WIC obtient la prise en charge automatique des nouveaux formats d’image dès l’installation du codec. L’infrastructure de métadonnées extensible permet aux applications de lire et d’écrire leurs propres métadonnées propriétaires directement dans des fichiers image, de sorte que les métadonnées ne sont jamais perdues ou séparées de l’image.
+le composant WIC (Windows Imaging Component) fournit une infrastructure extensible pour l’utilisation des images et des métadonnées d’image. WIC permet aux éditeurs de logiciels indépendants et aux fabricants de matériel indépendants (IHV) de développer leurs propres codecs d’image et d’obtenir la même prise en charge de plate-forme que les formats d’images standard (par exemple, TIFF, JPEG, PNG, GIF, BMP et HDPhoto). Un ensemble unique et cohérent d’interfaces est utilisé pour le traitement de tous les images, quel que soit le format d’image, de sorte que toute application utilisant le WIC obtient la prise en charge automatique des nouveaux formats d’image dès l’installation du codec. L’infrastructure de métadonnées extensible permet aux applications de lire et d’écrire leurs propres métadonnées propriétaires directement dans des fichiers image, de sorte que les métadonnées ne sont jamais perdues ou séparées de l’image.
 
 Cette rubrique comprend les sections suivantes.
 
--   [Fonctionnalités du composant Windows Imaging](#windows-imaging-component-features)
+-   [Windows Fonctionnalités du composant de création d’images](#windows-imaging-component-features)
 -   [Codecs natifs](#native-codecs)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="windows-imaging-component-features"></a>Fonctionnalités du composant Windows Imaging
+## <a name="windows-imaging-component-features"></a>Windows Fonctionnalités du composant de création d’images
 
 Les principales fonctionnalités de WIC sont les suivantes :
 
@@ -37,13 +37,13 @@ WIC comprend plusieurs codecs intégrés. Les codecs standard suivants sont four
 
 | Codec                                                                                             | Types MIME                       | Décodeurs | Encodeurs |
 |---------------------------------------------------------------------------------------------------|----------------------------------|----------|----------|
-| BMP (format bitmap Windows), BMP Specification v5.                                                | image/bmp                        | Oui      | Oui      |
+| bmp (Windows Format Bitmap), bmp Specification v5.                                                | image/bmp                        | Oui      | Oui      |
 | GIF (Graphics Interchange format 89a), spécification GIF 89a/89m                                  | image/gif                        | Oui      | Oui      |
 | ICO (format d’icône)                                                                                 | image/ico                        | Oui      | Non       |
 | JPEG (Joint Photographic Experts Group), spécification d’JFIF 1,02                                  | image/JPEG, image/JPE, image/jpg | Oui      | Oui      |
 | PNG (Portable Network Graphics), spécification PNG 1,2                                            | image/png                        | Oui      | Oui      |
 | TIFF (Tagged Image File Format), spécification TIFF 6,0                                           | image/TIFF, image/TIF            | Oui      | Oui      |
-| Windows Media photo, [spécification de photo HD 1,0](https://www.microsoft.com/whdc/xps/wmphoto.mspx) | image/vnd. ms-phot                | Oui      | Oui      |
+| Windows Photo multimédia, [spécification de photo HD 1,0](https://www.microsoft.com/whdc/xps/wmphoto.mspx) | image/vnd. ms-phot                | Oui      | Oui      |
 | DDS (surface DirectDraw)                                                                          | image/vnd. ms-DDS                 | Oui      | Oui      |
 
 
