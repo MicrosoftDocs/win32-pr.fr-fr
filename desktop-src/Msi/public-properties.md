@@ -4,12 +4,12 @@ ms.assetid: 032aa55f-d97a-4455-bd32-571b0e05763b
 title: Propri&#233;t&#233;s publiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 822dfc55e0ab659e5580580edd04eb156540cb61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0138db2fcbe664ac9a4064379486c42c3d52a6896fc53a608b99192a8d70c75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828429"
 ---
 # <a name="public-properties"></a>Propri&#233;t&#233;s publiques
 

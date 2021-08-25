@@ -1,5 +1,5 @@
 ---
-description: La classe CBaseObject est une classe abstraite pour l’implémentation d’objets DirectShow. Pour implémenter des objets COM (Component Object Model), utilisez la classe CUnknown, qui dérive de CBaseObject.
+description: la classe CBaseObject est une classe abstraite pour l’implémentation d’objets DirectShow. Pour implémenter des objets COM (Component Object Model), utilisez la classe CUnknown, qui dérive de CBaseObject.
 ms.assetid: 4b651d43-b177-4081-8c76-f6615ff2830c
 title: CBaseObject, classe (ComBase. h)
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bbc3e072c31618dab6a7bc07048728f60dbcf0d2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7809ec53746730f02f9b095ede3ae00b53f1fe55c21116c22d854c3d4b193e97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910619"
 ---
 # <a name="cbaseobject-class"></a>CBaseObject, classe
 
-La classe **CBaseObject** est une classe abstraite pour l’implémentation d’objets DirectShow. Pour implémenter des objets COM (Component Object Model), utilisez la classe [**CUnknown**](cunknown.md) , qui dérive de **CBaseObject**.
+la classe **CBaseObject** est une classe abstraite pour l’implémentation d’objets DirectShow. Pour implémenter des objets COM (Component Object Model), utilisez la classe [**CUnknown**](cunknown.md) , qui dérive de **CBaseObject**.
 
 
 
@@ -39,9 +39,9 @@ La classe **CBaseObject** est une classe abstraite pour l’implémentation d’
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La plupart des classes de base DirectShow dérivent de **CBaseObject**. Cette classe fournit une assistance en matière de débogage en conservant le décompte de tous les objets DirectShow actifs au moment de l’exécution. Le nombre d’objets est stocké dans une variable membre statique de classe :
+la plupart des classes de base DirectShow dérivent de **CBaseObject**. cette classe fournit une assistance de débogage en réduisant le nombre de tous les objets DirectShow actifs au moment de l’exécution. Le nombre d’objets est stocké dans une variable membre statique de classe :
 
 
 ```
@@ -65,7 +65,7 @@ Le constructeur **CBaseObject** prend un argument, un nom de débogage pour l’
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
@@ -74,7 +74,7 @@ Le constructeur **CBaseObject** prend un argument, un nom de débogage pour l’
 
 <dl> <dt>
 
-[Classes de base DirectShow](directshow-base-classes.md)
+[DirectShow Classes de base](directshow-base-classes.md)
 </dt> </dl>
 
  

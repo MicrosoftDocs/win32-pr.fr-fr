@@ -4,12 +4,12 @@ ms.assetid: 0632D780-C56B-4FDB-8A76-B7A7DE414242
 title: Attribut MFSampleExtension_LongTermReferenceFrameInfo (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3af85ffa5876cdf58a21a6933c46f460c23e7456
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5642c246adf0e5e1c10249085201fba3dc430b6547516b79fe4929e9de4b998a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848119"
 ---
 # <a name="mfsampleextension_longtermreferenceframeinfo-attribute"></a>\_Attribut MFSampleExtension LongTermReferenceFrameInfo
 
@@ -19,7 +19,7 @@ Spécifie les informations de trame de référence à long terme et est retourn�
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Encodeurs H. 264/AVC :**
 
@@ -37,8 +37,8 @@ Le deuxième champ, bits \[ 16.. 31 \] , est une image bitmap composée de *MaxN
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 212d99dd-c80c-42ca-9dfa-819ae1813006
 title: Table PatchPackage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b13bf9fc03012ca54a0b2144e97c828c968c68da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da4027913854436072330a69a788ca9dc9b1365a71b82fd1727227e33d8a203b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926119"
 ---
 # <a name="patchpackage-table"></a>Table PatchPackage
 
@@ -22,7 +22,7 @@ La table PatchPackage contient les colonnes suivantes.
 | Colonne  | Type                   | Clé | Nullable |
 |---------|------------------------|-----|----------|
 | PatchId | [GUID](guid.md)       | O   | N        |
-| Multimédia\_ | [Integer](integer.md) | N   | N        |
+| Media\_ | [Integer](integer.md) | N   | N        |
 
 
 
@@ -46,7 +46,7 @@ Cette colonne est une clé étrangère de la colonne depatinages de la [table Me
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La table PatchPackage est requise dans chaque package correctif. Si la table est manquante, les tentatives d’installation du correctif échouent avec « erreur 2768 : la transformation dans le package correctif n’est pas valide. » Cette table est généralement ajoutée au package d’installation par une transformation à partir d’un package correctif. En général, il n’est pas directement créé dans un package d’installation.
 

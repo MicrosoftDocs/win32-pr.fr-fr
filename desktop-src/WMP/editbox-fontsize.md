@@ -3,7 +3,7 @@ title: EDITBOX. FontSize
 description: L’attribut FontSize spécifie ou récupère la taille de police du contrôle zone d’édition.
 ms.assetid: 9992651f-3423-4f44-8ad7-de11d850e30e
 keywords:
-- EDITBOX. fonts du lecteur Windows Media
+- EDITBOX. fontsize Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a6e5e0218b9509de67675545756a8506e2cfe43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b687dc34e96e73a2d9154d5178c9f8fc8d7a8f2f6a953e76d6806c185b9539ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863129"
 ---
 # <a name="editboxfontsize"></a>EDITBOX. FontSize
 

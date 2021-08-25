@@ -3,7 +3,7 @@ title: TDN_RADIO_BUTTON_CLICKED le code de notification (commctrl. h)
 description: Envoyé par une boîte de dialogue de tâche lorsque l’utilisateur sélectionne une case d’option ou un lien de commande dans la boîte de dialogue de tâche. Ce code de notification est reçu uniquement par le biais de la fonction de rappel de la boîte de dialogue de tâche, qui peut être inscrite à l’aide de la méthode TaskDialogIndirect.
 ms.assetid: d9a29874-6755-4754-bcaf-94746b218b47
 keywords:
-- Contrôles Windows de code de notification TDN_RADIO_BUTTON_CLICKED
+- TDN_RADIO_BUTTON_CLICKED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c8b16f738e4807c94a060b41b3932d0f3e07ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea1917a1523cdc3a106398d07912d3fff5295f7da18a59055f059a13007f98b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875759"
 ---
 # <a name="tdn_radio_button_clicked-notification-code"></a>\_Bouton radio \_ TDN \_ clic sur le code de notification
 
@@ -63,8 +63,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

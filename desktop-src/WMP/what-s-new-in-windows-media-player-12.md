@@ -1,35 +1,35 @@
 ---
 title: Nouveautés de Windows Media Player 12
-description: Cette rubrique répertorie les nouvelles fonctionnalités du lecteur Windows Media 12.
+description: cette rubrique répertorie les nouvelles fonctionnalités de Lecteur Windows Media 12.
 ms.assetid: 17f76963-c96d-46c9-82c0-3ed2d8a4e892
 keywords:
-- Windows Media Player, nouveautés
-- Windows Media Player, nouvelles fonctionnalités
-- Kit de développement logiciel (SDK), lecteur Windows Media 12
-- SDK (kit de développement logiciel), lecteur Windows Media 12
-- documentation, kit de développement logiciel (SDK) lecteur Windows Media 12
-- nouveautés, lecteur Windows Media 12
-- nouvelles fonctionnalités, lecteur Windows Media 12
-- interfaces, nouvelles fonctionnalités dans le lecteur Windows Media 12
-- attributs, nouvelles fonctionnalités dans le lecteur Windows Media 12
-- métadonnées, nouvelles fonctionnalités dans le lecteur Windows Media 12
-- énumérations, nouvelles fonctionnalités dans le lecteur Windows Media 12
-- indicateurs, nouvelles fonctionnalités dans le lecteur Windows Media 12
-- interfaces, déconseillées dans le lecteur Windows Media 12
-- méthodes, déconseillées dans le lecteur Windows Media 11 et non dans 12
-- versions de Windows Media Player, nouvelles fonctionnalités de la version 12
+- Lecteur Windows Media, nouveautés
+- Lecteur Windows Media, nouvelles fonctionnalités
+- kit de développement logiciel (SDK), Lecteur Windows Media 12
+- SDK (kit de développement logiciel), Lecteur Windows Media 12
+- documentation, Lecteur Windows Media 12 SDK
+- nouveautés, Lecteur Windows Media 12
+- nouvelles fonctionnalités, Lecteur Windows Media 12
+- interfaces, nouvelles fonctionnalités de Lecteur Windows Media 12
+- attributs, nouvelles fonctionnalités dans Lecteur Windows Media 12
+- métadonnées, nouvelles fonctionnalités de Lecteur Windows Media 12
+- énumérations, nouvelles fonctionnalités de Lecteur Windows Media 12
+- indicateurs, nouvelles fonctionnalités de Lecteur Windows Media 12
+- interfaces, dépréciées dans Lecteur Windows Media 12
+- méthodes, dépréciées dans Lecteur Windows Media 11 et non 12
+- versions de Lecteur Windows Media, nouvelles fonctionnalités de la version 12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16b21077df1f4a9c11edbfa20032ed473f872a0
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 976c9b0995188f9d6c6db6e7394ec0019047ff18b51940ada202c8c7ea713f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104101372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862279"
 ---
 # <a name="whats-new-in-windows-media-player-12"></a>Nouveautés de Windows Media Player 12
 
-Cette rubrique répertorie les nouvelles fonctionnalités du lecteur Windows Media 12.
+cette rubrique répertorie les nouvelles fonctionnalités de Lecteur Windows Media 12.
 
 ## <a name="new-interfaces"></a>Nouvelles interfaces
 
@@ -87,7 +87,7 @@ L’interface suivante est déconseillée.
 
 ## <a name="methods-that-are-no-longer-deprecated"></a>Méthodes qui ne sont plus dépréciées
 
-Les méthodes suivantes ont été déconseillées dans le kit de développement logiciel (SDK) du lecteur Windows Media 11, mais ne sont plus dépréciées.
+les méthodes suivantes ont été dépréciées dans le kit de développement logiciel (SDK) Lecteur Windows Media 11, mais ne sont plus dépréciées.
 
 -   [**IWMPGraphCreation::GraphCreationPreRender**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationprerender)
 -   [**IWMPGraphCreation::GraphCreationPostRender**](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpgraphcreation-graphcreationpostrender)
@@ -96,12 +96,12 @@ Les méthodes suivantes ont été déconseillées dans le kit de développement 
 
 <dl> <dt>
 
-[À propos du kit de développement logiciel (SDK) Windows Media Player](about-the-windows-media-player-sdk.md)
+[à propos du kit de développement logiciel (SDK) Lecteur Windows Media](about-the-windows-media-player-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

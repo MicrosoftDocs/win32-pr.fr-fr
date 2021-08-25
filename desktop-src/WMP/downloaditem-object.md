@@ -3,7 +3,7 @@ title: Objet DownloadItem
 description: Objet DownloadItem
 ms.assetid: 668ee632-0a3d-426b-baab-08e88b9fc607
 keywords:
-- Windows Media Player Online stores, objet DownloadItem
+- Lecteur Windows Media les magasins en ligne, objet DownloadItem
 - magasins en ligne, objet DownloadItem
 - types 2 magasins en ligne, objet DownloadItem
 - DownloadItem
@@ -14,21 +14,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c367eee37f2f4d8329d71f3d42a3c78771a50a6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6bfea6241e81352b8848304c3601650ef4dec2a8e5692874fa20995ccddcce38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863459"
 ---
 # <a name="downloaditem-object"></a>Objet DownloadItem
 
 > [!Note]  
 > Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge.
 
- 
+ 
 
-L’objet **DownloadItem** représente une demande de téléchargement de fichier. Il peut être utilisé par les pages Web qui sont hébergées dans le lecteur Windows Media en mode complet et qui ont accès à l’objet **externe** , tel que les services Premium.
+L’objet **DownloadItem** représente une demande de téléchargement de fichier. il peut être utilisé par les pages web qui sont hébergées en mode complet Lecteur Windows Media et qui ont accès à l’objet **externe** , telles que les services premium.
 
 L’objet **DownloadItem** prend en charge les propriétés suivantes.
 
@@ -44,7 +44,7 @@ L’objet **DownloadItem** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **DownloadItem** prend en charge les méthodes suivantes.
 
@@ -59,7 +59,7 @@ L’objet **DownloadItem** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **DownloadItem** est accessible par le biais de la propriété suivante.
 
@@ -71,7 +71,7 @@ L’objet **DownloadItem** est accessible par le biais de la propriété suivant
 
 
 
- 
+ 
 
 À des fins d’illustration, **downloadmanager**. **getDownloadCollection**(*le* biais). **Item**(*ItemId*) est utilisé dans les sections de syntaxe de référence.
 
@@ -82,9 +82,9 @@ L’objet **DownloadItem** est accessible par le biais de la propriété suivant
 [**Référence pour les magasins en ligne de type 2**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

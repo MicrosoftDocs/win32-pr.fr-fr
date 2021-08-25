@@ -4,12 +4,12 @@ description: Lecture et positionnement
 ms.assetid: fbf9294e-c644-45c7-ab60-dd903409a44f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1efbd6256fbd0d258f5d5c9d3da9b01c72a203dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9993c2ed4402184d2b15d5c3e54bb0137d1e7a3fe34f8cca36559ca329ada9d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892969"
 ---
 # <a name="playback-and-positioning"></a>Lecture et positionnement
 
@@ -19,9 +19,9 @@ De nombreuses commandes MCI, telles que [**Set**](set.md) ([**MCI \_ Set**](mci-
 
 Toutefois, il ne peut y avoir qu’une seule notification en attente. Par exemple, si une application demande une notification pour la **lecture** et suit la demande avec l' **État** « démarrer la notification de la position », la notification de **lecture** retourne « remplacé » et la notification pour la commande Status est renvoyée lorsqu’elle est terminée. Dans ce cas, toutefois, la commande de **lecture** est toujours réussie, même si l’application n’a pas reçu la notification.
 
- 
+ 
 
- 
+ 
 
 
 

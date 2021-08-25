@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientAdvancedSettings7
-description: Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
+description: expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
 ms.assetid: 2d6848b4-2ce6-4624-b46e-65e7daf2d0f1
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eed28c5d26ecf280507ce3cce835a6d0a71fc3bb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5df2990a257d8f7fa544c24e33dba6a2422d2db8bea878f2487ca131e5bd607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866559"
 ---
 # <a name="imsrdpclientadvancedsettings7-interface"></a>Interface IMsRdpClientAdvancedSettings7
 
-Expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
+expose des méthodes et des propriétés qui gèrent les paramètres avancés du contrôle ActiveX.
 
 Pour obtenir une instance de cette interface, utilisez la propriété [**IMsTscAx :: AdvancedSettings**](imstscax-advancedsettings.md) pour obtenir un pointeur d’interface [**IMsTscAdvancedSettings**](imstscadvancedsettings-interface.md) . Appelez ensuite [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur le pointeur **IMsTscAdvancedSettings** et transmettez **IID \_ IMsRdpClientAdvancedSettings7** à **QueryInterface**.
 

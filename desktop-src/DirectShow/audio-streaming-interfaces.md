@@ -4,17 +4,17 @@ ms.assetid: eaf510ef-a6a3-45e0-8f0a-281a44b0ff6f
 title: Interfaces de streaming audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68210beef0b05fcfc89ae5005c485fbc4b74d40f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1087ab127258fcd4f587cdd029d4604c35524689b5f0877476e1137e2ed924eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824469"
 ---
 # <a name="audio-streaming-interfaces"></a>Interfaces de streaming audio
 
 > [!Note]  
-> Ces API sont déconseillées. Les applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
+> Ces API sont déconseillées. les Applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25dc02d85c8b741a3fd38d06b8f25a78f3a54bff
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 47807c13b796e2c9bac9d33b07c63ba3b5083c7a57f7a5405591f1caa9fe1fdb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925689"
 ---
 # <a name="ms-ds-resultant-pso-attribute"></a>ms-DS-RESULTANT-PSO (attribut)
 
@@ -42,7 +42,7 @@ Objet des paramètres de mot de passe résultants appliqué à cet objet.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

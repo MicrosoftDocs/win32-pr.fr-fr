@@ -1,5 +1,5 @@
 ---
-title: Curseurs (Windows Multimedia)
+title: curseurs (Windows multimédia)
 description: Curseurs
 ms.assetid: cfd82672-5b22-4b59-82b5-15ca68a451fc
 keywords:
@@ -13,14 +13,14 @@ keywords:
 - Contrôle PAN QSound
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1d7644255e2fa9ee6384cbb5102df81c2a1eb0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6e902e3ead0416cb4b2a7d56d289f91779563109cb9494784635affc75069dfe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805349"
 ---
-# <a name="sliders-windows-multimedia"></a>Curseurs (Windows Multimedia)
+# <a name="sliders-windows-multimedia"></a>curseurs (Windows multimédia)
 
 Les contrôles Slider sont généralement des contrôles horizontaux qui peuvent être ajustés à gauche ou à droite. Ces contrôles utilisent la [**structure \_ signée MIXERCONTROLDETAILS**](/previous-versions//dd757297(v=vs.85)) pour récupérer et définir des propriétés de contrôle. Le tableau suivant décrit les types de curseurs.
 

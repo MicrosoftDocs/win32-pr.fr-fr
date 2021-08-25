@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 12accfcbc87877300b803ae90d8c924802410e9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e683597d78e568e6bfec9b59241fe45f922c5346ef83f427598ad0a7c59dcac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926529"
 ---
 # <a name="mergemergeex-method"></a>Merge. MergeEx, méthode
 
@@ -69,9 +69,9 @@ L’argument *pConfiguration* est une interface implémentée par le client. L�
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une fois la fusion terminée, les composants du module sont attachés à la fonctionnalité identifiée par la *fonctionnalité*. Cette fonctionnalité n’est pas créée et doit être une fonctionnalité existante. Le module peut être attaché à des fonctionnalités supplémentaires à l’aide de la méthode [**Connect**](merge-connect.md) .
+Une fois la fusion terminée, les composants du module sont attachés à la fonctionnalité identifiée par la *fonctionnalité*. Cette fonctionnalité n’est pas créée et doit être une fonctionnalité existante. le module peut être attaché à des fonctionnalités supplémentaires à l’aide de la méthode [**Connecter**](merge-connect.md) .
 
 Les modifications apportées à la base de données sont enregistrées si et seulement si la méthode [**FermerBase**](merge-closedatabase.md) est appelée avec *BCommit* défini sur **true**.
 

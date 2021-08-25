@@ -4,16 +4,16 @@ ms.assetid: edfa2037-3360-411d-8a12-cdb9680222f2
 title: COMMANDE dans la clause GROUP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b4a3a39ffeb2704a099389a6668a075fb4a24f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83b17981f6368b67852e393d38ef8c4b856601d73014d9bdce40292e7e4a499d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944649"
 ---
 # <a name="order-in-group-clause"></a>COMMANDE dans la clause GROUP
 
-La clause ORDER IN GROUP est utilisée conjointement avec l’instruction [Group on](-search-sql-group-on-over.md) , qui retourne des jeux de résultats dans des groupes. La clause ORDER IN GROUP vous permet de trier chaque groupe retourné d’une manière différente. Si vous regroupez sur System. genre, par exemple, vous pouvez trier tous les documents en System.Document. LastAuthor, tous les fichiers musicaux par System. Music. AlbumArtist et tous les messages électroniques par System. message. FromName.
+La clause ORDER IN GROUP est utilisée conjointement avec l’instruction [Group on](-search-sql-group-on-over.md) , qui retourne des jeux de résultats dans des groupes. La clause ORDER IN GROUP vous permet de trier chaque groupe retourné d’une manière différente. Si vous regroupez sur System. genre, par exemple, vous pouvez trier tous les documents en System.Document. LastAuthor, tous les fichiers musicaux par système. Musique. AlbumArtist et tous les courriers électroniques par System. message. FromName.
 
 ## <a name="syntax"></a>Syntaxe
 

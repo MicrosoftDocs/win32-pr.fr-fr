@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d843b62d273b28f7a694c37358742e4f3365be21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f32670883981abdac56d46424d8ff18d82cf9fbe0e8a3d2222efede797ffb43d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839329"
 ---
 # <a name="iportabledevicepropvariantcollectionchangetype-method"></a>IPortableDevicePropVariantCollection :: ChangeType, méthode
 
@@ -49,7 +49,7 @@ Spécifie le **VarType** vers lequel vous souhaitez convertir tous les élément
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -61,7 +61,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette méthode échoue, la collection peut être laissée dans un état intermédiaire, avec certains membres convertis et certains non convertis.
 

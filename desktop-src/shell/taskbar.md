@@ -1,22 +1,22 @@
 ---
-description: L’interface Windows comprend une barre d’outils de bureau d’application spéciale appelée barre des tâches. Vous pouvez utiliser la barre des tâches pour effectuer des tâches telles que le basculement entre des fenêtres ouvertes et le démarrage de nouvelles applications.
+description: l’interface Windows comprend une barre d’outils de bureau d’application spéciale appelée barre des tâches. Vous pouvez utiliser la barre des tâches pour effectuer des tâches telles que le basculement entre des fenêtres ouvertes et le démarrage de nouvelles applications.
 ms.assetid: 14d520e7-7c15-441d-9662-24b972d208ac
-title: La barre des tâches
+title: Barre des tâches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cce37991c6265f02ab92ece62dbae341031d272a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8a4943c242b0b3f0993a4cf542c8625e19cf25c32b71cb01e4ef8581d12d64c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773719"
 ---
-# <a name="the-taskbar"></a>La barre des tâches
+# <a name="the-taskbar"></a>Barre des tâches
 
-L’interface Windows comprend une [barre d’outils de bureau d’application](application-desktop-toolbars.md) spéciale appelée *barre des tâches*. Vous pouvez utiliser la barre des tâches pour effectuer des tâches telles que le basculement entre des fenêtres ouvertes et le démarrage de nouvelles applications.
+l’interface Windows comprend une [barre d’outils de bureau d’application](application-desktop-toolbars.md) spéciale appelée *barre des tâches*. Vous pouvez utiliser la barre des tâches pour effectuer des tâches telles que le basculement entre des fenêtres ouvertes et le démarrage de nouvelles applications.
 
 > [!Note]  
-> Pour plus d’informations sur les modifications apportées à la barre des tâches depuis Windows 7, consultez extensions de la [barre des tâches](taskbar-extensions.md).
+> pour plus d’informations sur les modifications apportées à la barre des tâches à partir de Windows 7, consultez Extensions de la [barre des tâches](taskbar-extensions.md).
 
  
 
@@ -37,40 +37,40 @@ Cette rubrique contient les sections suivantes.
 La barre des tâches comprend les éléments suivants :
 
 -   Menu **Démarrer**
--   Barre lancement rapide (Windows Vista et versions antérieures uniquement)
+-   barre lancement rapide (Windows Vista et versions antérieures uniquement)
 -   Boutons de la barre des tâches
 -   Barres d’outils (facultatif)
 -   Zone Notifications
 
 Le menu **Démarrer** contient des commandes qui peuvent accéder à des programmes, des documents et des paramètres. Ces commandes incluent **l’ensemble des programmes**, des **documents**, **le panneau de configuration**, les **jeux**, **l’aide et le support, l'** arrêt et **la** **recherche de programmes et fichiers**.
 
-Le **début** dans les versions antérieures de Windows contenait des éléments tels que la **recherche** et l' **exécution**, qui étaient inclus dans les **programmes et les fichiers de recherche** de Windows Vista et versions ultérieures.
+le **début** dans les versions antérieures de Windows des éléments contenus tels que la **recherche** et l' **exécution**, qui étaient inclus dans les **programmes et les fichiers de recherche** dans Windows Vista et versions ultérieures.
 
-La barre lancement rapide, disponible dans les versions de Windows antérieures à Windows 7, contient des raccourcis vers les applications. Windows fournit des entrées par défaut, telles que Windows Internet Explorer, et l’utilisateur peut ajouter les autres raccourcis qu’il choisit. Les icônes de cette zone répondent à un simple clic. Dans Windows 7 et versions ultérieures, cette fonctionnalité est incluse dans les boutons de la barre des tâches.
+la barre lancement rapide, disponible dans les versions de Windows antérieures à Windows 7, contient des raccourcis vers les applications. Windows fournit des entrées par défaut, telles que Windows Internet Explorer, et l’utilisateur peut ajouter les autres raccourcis qu’il choisit. Les icônes de cette zone répondent à un simple clic. dans Windows 7 et versions ultérieures, cette fonctionnalité est incluse dans les boutons de la barre des tâches.
 
-L’interpréteur de commandes place un bouton sur la barre des tâches chaque fois qu’une application crée une fenêtre sans propriétaire, autrement dit une fenêtre qui n’a pas de parent et qui possède les bits de style étendu appropriés (consultez [gestion des boutons de la barre des tâches](#managing-taskbar-buttons), ci-dessous). Pour basculer vers une fenêtre, l’utilisateur clique sur son bouton de fenêtre. Cette fonctionnalité a été développée à partir de Windows 7. Pour plus d’informations, consultez [extensions de la barre des tâches](taskbar-extensions.md).
+L’interpréteur de commandes place un bouton sur la barre des tâches chaque fois qu’une application crée une fenêtre sans propriétaire, autrement dit une fenêtre qui n’a pas de parent et qui possède les bits de style étendu appropriés (consultez [gestion des boutons de la barre des tâches](#managing-taskbar-buttons), ci-dessous). Pour basculer vers une fenêtre, l’utilisateur clique sur son bouton de fenêtre. cette fonctionnalité a été développée à partir de Windows 7. Pour plus d’informations, consultez [extensions de la barre des tâches](taskbar-extensions.md).
 
-Les applications peuvent placer des icônes dans la zone de notification pour indiquer l’état d’une opération ou pour notifier l’utilisateur d’un événement. Par exemple, une application peut placer une icône d’imprimante dans la zone de notification pour montrer qu’un travail d’impression est en cours. Toutefois, dans Windows 7 et versions ultérieures, certaines des informations fournies précédemment par la zone de notification doivent être fournies par le biais du bouton de la barre des tâches d’une application. La zone de notification se trouve sur le bord droit de la barre des tâches (si la barre des tâches est horizontale) ou en bas (si la barre des tâches est verticale). Pour plus d’informations, consultez [notifications et la zone de notification](notification-area.md).
+Les applications peuvent placer des icônes dans la zone de notification pour indiquer l’état d’une opération ou pour notifier l’utilisateur d’un événement. Par exemple, une application peut placer une icône d’imprimante dans la zone de notification pour montrer qu’un travail d’impression est en cours. toutefois, dans Windows 7 et versions ultérieures, certaines des informations fournies précédemment par la zone de notification doivent être fournies par le biais du bouton de la barre des tâches d’une application. La zone de notification se trouve sur le bord droit de la barre des tâches (si la barre des tâches est horizontale) ou en bas (si la barre des tâches est verticale). Pour plus d’informations, consultez [notifications et la zone de notification](notification-area.md).
 
 La zone de notification affiche également l’heure actuelle si cette option est sélectionnée. L’option se trouve comme suit :
 
--   **Windows 7 et versions ultérieures**: liste déroulante **horloge** dans la page **activer ou désactiver les icônes système** de la **zone de notification icône** de l’application panneau de configuration (également accessible via les propriétés de la zone de notification).
--   **Windows Vista**: case à cocher **horloge** dans la page **zone de notification** de la fenêtre Propriétés de la **barre des tâches et du menu Démarrer** .
--   **Windows XP**: la case à cocher **afficher l’horloge** dans la **barre des tâches et** la fenêtre Propriétés du menu Démarrer.
+-   **Windows 7 et versions ultérieures**: la liste déroulante **Clock** dans la page **activer ou désactiver les icônes système** de la **zone de notification icône** de l’application panneau de configuration (également accessible via les propriétés de la zone de notification).
+-   **Windows Vista**: case à cocher **horloge** dans la page **zone de Notification** de la fenêtre propriétés de la **barre des tâches et du Menu démarrer** .
+-   **Windows XP**: la case à cocher **afficher l’horloge** dans la **barre des tâches et** la fenêtre propriétés du Menu démarrer.
 
-L’utilisateur peut cliquer avec le bouton droit sur la barre des tâches pour afficher le menu contextuel. Le menu contextuel comprend des commandes pour les fenêtres en cascade, les fenêtres de pile, les fenêtres afficher côte à côte, afficher le bureau, démarrer le gestionnaire des tâches et définir les propriétés de la barre des tâches. Le menu contextuel offre également la possibilité d’ajouter ou de supprimer un ensemble de barres d’outils à partir de la barre des tâches. Vous pouvez ajouter de nouvelles barres d’outils à ce menu en les inscrivant sous la \_ catégorie DESKBAND CATID. Pour plus d’informations, consultez [Implementing Band Objects](band-objects.md). Notez que depuis Windows 7, la barre des tâches et la zone de notification ont des menus contextuels distincts. Ces menus contextuels partagent des options, telles que la disposition des fenêtres, et en ajouter d’autres.
+L’utilisateur peut cliquer avec le bouton droit sur la barre des tâches pour afficher le menu contextuel. Le menu contextuel comprend des commandes pour les fenêtres en cascade, les fenêtres de pile, les fenêtres afficher côte à côte, afficher le bureau, démarrer le gestionnaire des tâches et définir les propriétés de la barre des tâches. Le menu contextuel offre également la possibilité d’ajouter ou de supprimer un ensemble de barres d’outils à partir de la barre des tâches. Vous pouvez ajouter de nouvelles barres d’outils à ce menu en les inscrivant sous la \_ catégorie DESKBAND CATID. Pour plus d’informations, consultez [Implementing Band Objects](band-objects.md). notez que à partir de Windows 7, la barre des tâches et la zone de notification ont des menus contextuels distincts. Ces menus contextuels partagent des options, telles que la disposition des fenêtres, et en ajouter d’autres.
 
 ### <a name="taskbar-display-options"></a>Options d’affichage de la barre des tâches
 
-La barre des tâches prend en charge deux options d’affichage : Masquer automatiquement et, dans Windows Vista et les versions antérieures uniquement, Always On haut (la barre des tâches est toujours dans ce mode dans Windows 7 et versions ultérieures). Pour définir ces options, l’utilisateur doit ouvrir le menu contextuel de la barre des tâches, cliquer sur **Propriétés**, activer ou désactiver la case à cocher **Masquer automatiquement la barre des tâches** ou **conserver la barre des tâches au-dessus des autres fenêtres** . Pour récupérer l’état de ces options d’affichage, utilisez le message [**ABM \_ GETSTATE**](abm-getstate.md) . Si vous souhaitez être averti lorsque l’état de ces options d’affichage change, traitez le message de notification [**ABN \_ STATECHANGE**](abn-statechange.md) dans votre procédure de fenêtre. Pour modifier l’état de ces options d’affichage, utilisez le message [**ABM \_ SETSTATE**](abm-setstate.md) .
+la barre des tâches prend en charge deux options d’affichage : masquer automatiquement et, dans Windows Vista et les versions antérieures uniquement, Always On haut (la barre des tâches est toujours dans ce mode dans Windows 7 et versions ultérieures). Pour définir ces options, l’utilisateur doit ouvrir le menu contextuel de la barre des tâches, cliquer sur **Propriétés**, activer ou désactiver la case à cocher **Masquer automatiquement la barre des tâches** ou **conserver la barre des tâches au-dessus des autres fenêtres** . Pour récupérer l’état de ces options d’affichage, utilisez le message [**ABM \_ GETSTATE**](abm-getstate.md) . Si vous souhaitez être averti lorsque l’état de ces options d’affichage change, traitez le message de notification [**ABN \_ STATECHANGE**](abn-statechange.md) dans votre procédure de fenêtre. Pour modifier l’état de ces options d’affichage, utilisez le message [**ABM \_ SETSTATE**](abm-setstate.md) .
 
 La *zone de travail* est la partie de l’écran qui n’est pas masquée par la barre des tâches. Pour récupérer la taille de la zone de travail, appelez la fonction [**SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa) avec la valeur **SPI \_ GETWORKAREA** définie. Pour récupérer les coordonnées du rectangle qui décrivent l’emplacement de la barre des tâches, utilisez le message [**ABM \_ GETTASKBARPOS**](abm-gettaskbarpos.md) .
 
-Il est possible de couvrir la barre des tâches en définissant explicitement la taille du rectangle de la fenêtre sur la taille de l’écran avec [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos). Pour les systèmes Windows 2000 ou version ultérieure, la fenêtre ne doit pas avoir la valeur [**WS \_ Caption**](../winmsg/window-styles.md) ou [**WS \_ THICKFRAME**](../winmsg/window-styles.md), sinon la fenêtre doit être dimensionnée afin que la zone cliente couvre la totalité de l’écran. Plus particulièrement, si la barre des tâches est définie sur Always On Top, elle reste masquée uniquement lorsque l’application est l’application de premier plan.
+Il est possible de couvrir la barre des tâches en définissant explicitement la taille du rectangle de la fenêtre sur la taille de l’écran avec [**SetWindowPos**](/windows/win32/api/winuser/nf-winuser-setwindowpos). pour les systèmes Windows 2000 ou version ultérieure, la fenêtre ne doit pas avoir la valeur [**ws \_ CAPTION**](../winmsg/window-styles.md) ou [**ws \_ THICKFRAME**](../winmsg/window-styles.md), sinon la fenêtre doit être dimensionnée afin que la zone cliente couvre la totalité de l’écran. Plus particulièrement, si la barre des tâches est définie sur Always On Top, elle reste masquée uniquement lorsque l’application est l’application de premier plan.
 
 ### <a name="adding-shortcuts-to-the-start-menu"></a>Ajout de raccourcis au menu Démarrer
 
-Pour ajouter un élément au sous-menu **programmes** sur Microsoft Windows NT 4,0, Windows 2000 et versions ultérieures, ou Windows 95 ou version ultérieure, procédez comme suit.
+pour ajouter un élément au sous-menu **programmes** sur Microsoft Windows NT 4,0, Windows 2000 et versions ultérieures, ou Windows 95 ou version ultérieure, procédez comme suit.
 
 1.  Créez un [lien de Shell](./links.md) à l’aide de l’interface [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) .
 2.  Obtenez le PIDL du dossier programmes à l’aide de [**SHGetSpecialFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetspecialfolderlocation), en passant les [**\_ programmes CSIDL**](csidl.md).
@@ -123,12 +123,12 @@ En règle générale, si vous cliquez sur l’icône, l’application affiche un
 
 Pour obtenir un exemple de modification du texte info-bulle associé à une icône de zone de notification, consultez [info-bulles Info-bulles pour les icônes de barre d’État](../controls/tooltip-controls.md).
 
-Les versions 5,0 et ultérieures de l’interpréteur de commandes gèrent les événements de souris et de clavier de l' [**interpréteur \_**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) de commandes de manière différente des versions antérieures du shell qui se trouvaient sur Windows NT 4,0, Windows 95 et Windows 98. Les différences sont les suivantes :
+les versions 5,0 et ultérieures du shell gèrent les événements de souris et de clavier de l' [**interpréteur \_**](/windows/desktop/api/Shellapi/nf-shellapi-shell_notifyicona) de commandes de l’interpréteur de commandes de la même façon que les versions antérieures du shell détectées sur Windows NT 4,0, Windows 95 et Windows 98. Les différences sont les suivantes :
 
 -   Si un utilisateur demande le menu contextuel d’une icône de notification avec le clavier, la version 5,0 Shell envoie l’application associée à un message [**WM \_ CONTEXTMENU**](../menurc/wm-contextmenu.md) . Les versions antérieures envoient les messages [**WM \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) et [**WM \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) .
 -   Si un utilisateur sélectionne une icône de notification avec le clavier et l’active avec la barre d’espace ou la touche entrée, le shell version 5,0 envoie à l’application associée une notification **nDans \_ keyselect** . Les versions antérieures envoient les messages [**WM \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) et [**WM \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) .
 -   Si un utilisateur sélectionne une icône Notify avec la souris et l’active avec la touche entrée, le shell version 5,0 envoie à l’application associée une **notification \_ Select nDans** . Les versions antérieures envoient les messages [**WM \_ RBUTTONDOWN**](../inputdev/wm-rbuttondown.md) et [**WM \_ RBUTTONUP**](../inputdev/wm-rbuttonup.md) .
--   Si un utilisateur passe le pointeur de la souris sur une icône à laquelle une info-bulle est associée, le shell version 6,0 (Windows XP) envoie les messages suivants.
+-   si un utilisateur passe le pointeur de la souris sur une icône à laquelle une info-bulle est associée, la version 6,0 Shell (Windows XP) envoie les messages suivants.
     -   -   **NDans \_ BALLOONSHOW** : envoyé lorsque la bulle est affichée (les bulles sont mises en file d’attente).
         -   **NDans \_ BALLOONHIDE** : envoyé lorsque l’info-bulle disparaît, par exemple lorsque l’icône est supprimée. Ce message n’est pas envoyé si la bulle est fermée en raison d’un délai d’attente ou d’un clic de souris.
         -   **NDans \_ BALLOONTIMEOUT** : envoyé lorsque l’info-bulle est fermée en raison d’un dépassement de délai.
@@ -140,7 +140,7 @@ Vous pouvez sélectionner la façon dont l’interpréteur de commandes doit se 
 
 Avec Microsoft Internet Explorer 4,0 et versions ultérieures, l’interpréteur de commandes avertit les applications que la barre des tâches a été créée. Lorsque la barre des tâches est créée, elle enregistre un message avec la chaîne TaskbarCreated, puis diffuse ce message à toutes les fenêtres de niveau supérieur. Lorsque votre application de barre des tâches reçoit ce message, elle doit supposer que toutes les icônes de la barre des tâches qu’elle a ajoutées ont été supprimées et les rajouter. Cette fonctionnalité s’applique généralement uniquement aux services qui sont déjà en cours d’exécution au lancement de l’interpréteur de commandes. L’exemple suivant montre une méthode très simplifiée pour gérer ce cas.
 
-Sur Windows 10, la barre des tâches diffuse également ce message lorsque la résolution de l’affichage principal change.
+sur Windows 10, la barre des tâches diffuse également ce message lorsque la résolution de l’affichage principal change.
 
 ```
 LRESULT CALLBACK WndProc(HWND hWnd, 

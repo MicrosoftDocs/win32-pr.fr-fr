@@ -3,9 +3,9 @@ title: IWMPMediaCollection Add (méthode)
 description: La méthode Add ajoute un nouvel élément multimédia ou une nouvelle sélection à la bibliothèque. | IWMPMediaCollection Add (méthode)
 ms.assetid: a3539646-797b-4481-a31e-86771f3633a9
 keywords:
-- Ajouter une méthode lecteur Windows Media
-- Add, méthode lecteur Windows Media, interface IWMPMediaCollection
-- Interface IWMPMediaCollection lecteur Windows Media, méthode Add
+- ajouter une méthode Lecteur Windows Media
+- ajouter une méthode Lecteur Windows Media, IWMPMediaCollection, interface
+- Lecteur Windows Media de l’interface IWMPMediaCollection, méthode add
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7953067281e394df71a1a53c874cb80837a5f35d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 778850da4094d8ac745018b115248de9008d15339b7ffee75de177cf957d3fc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861159"
 ---
 # <a name="iwmpmediacollectionadd-method"></a>IWMPMediaCollection :: Add, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPMediaCollection.add
 
 Interface **wmplib. IWMPMedia** pour l’élément ajouté ou la sélection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode charge un élément multimédia existant ou une sélection dans la bibliothèque, en fonction d’un chemin d’accès. Cette méthode ne déplace pas ou ne modifie pas le fichier. Cette méthode échoue si le chemin d’accès local n’est pas valide, mais que la validité des éléments de média n’est pas vérifiée avant leur ajout à la bibliothèque.
 
@@ -74,7 +74,7 @@ Avant d’appeler cette méthode, vous devez disposer d’un accès complet à l
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant ajoute trois objets multimédias à la collection de supports du lecteur Windows Media. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
+l’exemple suivant ajoute trois objets multimédias à la collection de supports Lecteur Windows Media. L’objet AxWMPLib. AxWindowsMediaPlayer est représenté par la variable Player.
 
 
 ```CSharp
@@ -128,7 +128,7 @@ player.mediaCollection.add(&quot;C:\WMSDK\WMPSDK\samples\media\house.wma&quot;)
 [**Interface IWMPMediaCollection (VB et C#)**](iwmpmediacollection--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPMediaCollection. Remove (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md)
+[**IWMPMediaCollection. remove (VB et C#)**](wmplibiwmpmediacollection-iwmpmediacollection-remove--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection. importPlaylist (VB et C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-importplaylist--vb-and-c.md)

@@ -4,12 +4,12 @@ ms.assetid: 5d452b24-ae04-4c45-8b3b-48e81f13a21e
 title: Table MIME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca11c8596e8f3735872c88668211953fc2b18b52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9e8a8f83499e286b63bf24dffa8858329231e74eec1f641588230da51578007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913369"
 ---
 # <a name="mime-table"></a>Table MIME
 
@@ -54,7 +54,7 @@ Cette colonne contient le CLSID du serveur COM qui doit être associé au conten
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est référencée lorsque l' [action RegisterMIMEInfo](registermimeinfo-action.md) ou l' [action UnregisterMIMEInfo](unregistermimeinfo-action.md) est exécutée. En mode publication, l’action RegisterMIMEInfo enregistre toutes les informations MIME pour les serveurs à partir de la table MIME pour laquelle la fonctionnalité correspondante est activée. Dans le cas contraire, l’action enregistre les informations MIME pour les serveurs de la table MIME pour lesquels la fonctionnalité correspondante est actuellement sélectionnée pour être installée. L' [action UnregisterMIMEInfo](unregistermimeinfo-action.md) annule l’enregistrement des informations de Registre liées à MIME à partir du système. L’action annule l’enregistrement des informations MIME pour les serveurs de la table MIME pour lesquels la fonctionnalité correspondante est actuellement sélectionnée pour être désinstallée.
 

@@ -3,7 +3,7 @@ title: Message WM_CAP_PAL_SAVE (VFW. h)
 description: Le \_ message WM Cap \_ PAL \_ Save enregistre la palette actuelle dans un fichier palette. Les fichiers de palette utilisent généralement l’extension de nom de fichier. Adaptation. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capPaletteSave.
 ms.assetid: b1fa3978-9147-403f-aa08-db1a803aa5ac
 keywords:
-- Message WM_CAP_PAL_SAVE Windows Multimedia
+- message WM_CAP_PAL_SAVE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5ea36b2eaf50b2555fa849a176d12d0932eed2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ff8703eafcc3c612fbde5bac7d15433758aa3d6ee44ab47697ffb25f9324dfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891879"
 ---
 # <a name="wm_cap_pal_save-message"></a>\_Message d’enregistrement WM Cap \_ PAL \_
 

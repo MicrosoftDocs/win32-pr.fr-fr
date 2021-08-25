@@ -1,5 +1,5 @@
 ---
-Description : le programme exécutable qui interprète les packages et installe les produits est Msiexec.exe. Remarque Msiexec définit également un niveau d’erreur au retour qui correspond aux codes d’erreur système. Le tableau suivant identifie les options de ligne de commande standard pour ce programme. Les options de ligne de commande ne respectent pas la casse. Windows Installer 2,0 : les options de ligne de commande qui sont identifiées dans cette rubrique sont disponibles à partir de Windows Installer 3,0. Les options de Command-Line Windows Installer sont disponibles avec Windows Installer&\# 160 ; 3.0 et versions antérieures.
+Description : le programme exécutable qui interprète les packages et installe les produits est Msiexec.exe. Remarque Msiexec définit également un niveau d’erreur au retour qui correspond aux codes d’erreur système. Le tableau suivant identifie les options de ligne de commande standard pour ce programme. Les options de ligne de commande ne respectent pas la casse. Windows programme d’installation 2,0 : les options de ligne de commande qui sont identifiées dans cette rubrique sont disponibles à partir de Windows Installer 3,0. les Options de Command-Line Windows Installer sont disponibles avec Windows Installer&\# 160 ; 3.0 et versions antérieures.
 ms. AssetID : b1707c88-1cca-45ab-bb23-6002bfd5204e title : programme d’installation standard Command-Line options ms. topic : article ms. Date : 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ Le programme exécutable qui interprète les packages et installe les produits e
 
 Le tableau suivant identifie les options de ligne de commande standard pour ce programme. Les options de ligne de commande ne respectent pas la casse.
 
-**Windows Installer 2,0 :** Les options de ligne de commande qui sont identifiées dans cette rubrique sont disponibles à partir de Windows Installer 3,0. Les [options de ligne de commande](command-line-options.md) Windows Installer sont disponibles avec Windows Installer 3,0 et versions antérieures.
+**Windows Installer 2,0 :** les options de ligne de commande qui sont identifiées dans cette rubrique sont disponibles à partir de Windows Installer 3,0. les [Options de ligne de commande](command-line-options.md) Windows Installer sont disponibles avec Windows Installer 3,0 et versions antérieures.
 
 
 
@@ -38,17 +38,17 @@ Le tableau suivant identifie les options de ligne de commande standard pour ce p
 <td>Aide et aide-mémoire. Affiche l’utilisation correcte de la commande d’installation, y compris la liste de tous les commutateurs et comportements. La description de l’utilisation peut être affichée dans l’interface utilisateur. Une utilisation incorrecte de toute option appelle cette option d’aide.<br/> Exemple : <strong>msiexec/Help</strong><br/>
 <blockquote>
 [!Note]<br />
-L' <a href="command-line-options.md">option de ligne de commande</a> équivalente Windows Installer est <strong>/ ?</strong>.
+l' <a href="command-line-options.md">Option de ligne de commande</a> équivalente Windows Installer est <strong>/ ?</strong>.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>/quiet</strong></td>
 <td> </td>
-<td>Option Display quiet. Le programme d’installation exécute une installation sans afficher d’interface utilisateur. Aucune invite, aucun message ou boîte de dialogue n’est affiché à l’utilisateur. L’utilisateur ne peut pas annuler l’installation. Utilisez les options de ligne de commande <strong>/norestart</strong> ou <strong>/forcerestart</strong> standard pour contrôler les redémarrages. Si aucune option de redémarrage n’est spécifiée, le programme d’installation redémarre l’ordinateur chaque fois que nécessaire sans afficher d’invite ou d’avertissement à l’utilisateur.<br/> Exemples : <br/> <strong>msiexec/package Application.msi/quiet</strong><br/> <strong>Msiexec/Uninstall Application.msi/quiet</strong><br/> <strong>Msiexec/Update msipatch. msp/quiet</strong><br/> <strong>Msiexec/Uninstall msipatch. msp/package Application.msi/quiet</strong><br/>
+<td>Option Display quiet. Le programme d’installation exécute une installation sans afficher d’interface utilisateur. Aucune invite, aucun message ou boîte de dialogue n’est affiché à l’utilisateur. L’utilisateur ne peut pas annuler l’installation. Utilisez les options de ligne de commande <strong>/norestart</strong> ou <strong>/forcerestart</strong> standard pour contrôler les redémarrages. Si aucune option de redémarrage n’est spécifiée, le programme d’installation redémarre l’ordinateur chaque fois que nécessaire sans afficher d’invite ou d’avertissement à l’utilisateur.<br/> Exemples : <br/> <strong>msiexec/package Application.msi/quiet</strong><br/> <strong>Msiexec/Uninstall Application.msi/quiet</strong><br/> <strong>Msiexec/Update msipatch. msp/quiet</strong><br/> <strong>Msiexec/Uninstall msipatch. msp/package Application.msi/quiet</strong><br/>
 <blockquote>
 [!Note]<br />
-L’équivalent <a href="command-line-options.md">de l’option de ligne de commande</a> Windows Installer est <strong>/qn</strong>.
+l’équivalent <a href="command-line-options.md">de l’Option de ligne de commande</a> Windows Installer est <strong>/qn</strong>.
 </blockquote>
 <br/></td>
 </tr>
@@ -58,7 +58,7 @@ L’équivalent <a href="command-line-options.md">de l’option de ligne de comm
 <td>Option d’affichage passif. Le programme d’installation affiche une barre de progression à l’utilisateur qui indique qu’une installation est en cours, mais aucune invite ni aucun message d’erreur ne s’affiche pour l’utilisateur. L’utilisateur ne peut pas annuler l’installation. Utilisez les options de ligne de commande <strong>/norestart</strong> ou <strong>/forcerestart</strong> standard pour contrôler les redémarrages. Si aucune option de redémarrage n’est spécifiée, le programme d’installation redémarre l’ordinateur chaque fois que nécessaire sans afficher d’invite ou d’avertissement à l’utilisateur. <br/> Exemple : <strong>msiexec/package Application.msi/passive</strong> <br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de l' <a href="command-line-options.md">option de ligne de commande</a> Windows Installer est <strong>/qb !-</strong> with <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>= S défini sur la ligne de commande.
+l’équivalent de l' <a href="command-line-options.md">Option de ligne de commande</a> Windows Installer est <strong>/qb !-</strong> with <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>= S défini sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>
@@ -68,7 +68,7 @@ L’équivalent de l' <a href="command-line-options.md">option de ligne de comma
 <td>Option ne jamais redémarrer. Le programme d’installation ne redémarre jamais l’ordinateur après l’installation.<br/> Exemple : msiexec/package Application.msi <strong>/norestart</strong><br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de la ligne de commande Windows Installer a <a href="reboot.md"><strong>reboot</strong></a>= ReallySuppress défini sur la ligne de commande.
+l’équivalent de la ligne de commande Windows Installer a <a href="reboot.md"><strong>reboot</strong></a>= ReallySuppress défini sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>
@@ -78,7 +78,7 @@ L’équivalent de la ligne de commande Windows Installer a <a href="reboot.md">
 <td>Option Always restart. Le programme d’installation redémarre toujours l’ordinateur après chaque installation.<br/> Exemple : msiexec/package Application.msi <strong>/forcerestart</strong><br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de la ligne de commande Windows Installer est <a href="reboot.md"><strong>reboot</strong></a>= force définie sur la ligne de commande.
+l’équivalent de la ligne de commande Windows Installer est <a href="reboot.md"><strong>reboot</strong></a>= Force définie sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>
@@ -88,7 +88,7 @@ L’équivalent de la ligne de commande Windows Installer est <a href="reboot.md
 <td>Invite avant le redémarrage de l’option. Affiche un message indiquant qu’un redémarrage est nécessaire pour terminer l’installation et demande à l’utilisateur s’il faut redémarrer le système maintenant. Cette option ne peut pas être utilisée avec l’option <strong>/Quiet</strong> .<br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de la ligne de commande Windows Installer a <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>  =  &quot; &quot; sur la ligne de commande.
+l’équivalent de la ligne de commande Windows Installer a <a href="rebootprompt.md"><strong>REBOOTPROMPT</strong></a>  =  &quot; &quot; sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>
@@ -98,7 +98,7 @@ L’équivalent de la ligne de commande Windows Installer a <a href="rebootpromp
 <td>Option de désinstallation du produit. Désinstalle un produit.<br/>
 <blockquote>
 [!Note]<br />
-L’équivalent <a href="command-line-options.md">de l’option de ligne de commande</a> Windows Installer est <strong>/x</strong>.
+l’équivalent <a href="command-line-options.md">de l’Option de ligne de commande</a> Windows Installer est <strong>/x</strong>.
 </blockquote>
 <br/></td>
 </tr>
@@ -108,7 +108,7 @@ L’équivalent <a href="command-line-options.md">de l’option de ligne de comm
 <td>Option de désinstallation de mise à jour. Désinstalle un correctif de mise à jour.<br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de l' <a href="command-line-options.md">option de ligne de commande</a> Windows Installer est <strong>/i</strong> avec <a href="msipatchremove.md"><strong>MSIPATCHREMOVE</strong></a>= Update 1. msp | PatchGUID1[; Update2. msp | PatchGUID2] défini sur la ligne de commande.
+l’équivalent de l' <a href="command-line-options.md">Option de ligne de commande</a> Windows Installer est <strong>/i</strong> avec <a href="msipatchremove.md"><strong>MSIPATCHREMOVE</strong></a>= update 1. msp | PatchGUID1[; Update2. msp | PatchGUID2] défini sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>
@@ -130,12 +130,12 @@ L’équivalent de l' <a href="command-line-options.md">option de ligne de comma
 </ul>
 <blockquote>
 [!Note]<br />
-L’équivalent <a href="command-line-options.md">de l’option de ligne de commande</a> Windows Installer est <strong>/l *</strong>.
+l’équivalent <a href="command-line-options.md">de l’Option de ligne de commande</a> Windows Installer est <strong>/l *</strong>.
 </blockquote>
 <br/>
 <blockquote>
 [!Note]<br />
-Pour plus d’informations sur toutes les méthodes qui sont disponibles pour définir le mode de journalisation, consultez <a href="normal-logging.md">journalisation normale</a> dans la section <a href="windows-installer-logging.md">journalisation Windows Installer</a> .
+pour plus d’informations sur toutes les méthodes qui sont disponibles pour définir le mode de journalisation, consultez <a href="normal-logging.md">journalisation normale</a> dans la section <a href="windows-installer-logging.md">journalisation Windows Installer</a> .
 </blockquote>
 <br/></td>
 </tr>
@@ -145,7 +145,7 @@ Pour plus d’informations sur toutes les méthodes qui sont disponibles pour d�
 <td>Option d’installation du produit. Installe ou configure un produit.<br/>
 <blockquote>
 [!Note]<br />
-L’équivalent <a href="command-line-options.md">de l’option de ligne de commande</a> Windows Installer est <strong>/i</strong>.
+l’équivalent <a href="command-line-options.md">de l’Option de ligne de commande</a> Windows Installer est <strong>/i</strong>.
 </blockquote>
 <br/></td>
 </tr>
@@ -155,7 +155,7 @@ L’équivalent <a href="command-line-options.md">de l’option de ligne de comm
 <td>Option installer les correctifs. Installe un ou plusieurs correctifs. <br/>
 <blockquote>
 [!Note]<br />
-L’équivalent de la ligne de commande Windows Installer contient <a href="patch.md"><strong>patch</strong></a> = [msipatch. msp] < ; PatchGuid2> défini sur la ligne de commande.
+l’équivalent de la ligne de commande Windows Installer contient <a href="patch.md"><strong>PATCH</strong></a> = [msipatch. msp] < ; PatchGuid2> défini sur la ligne de commande.
 </blockquote>
 <br/></td>
 </tr>

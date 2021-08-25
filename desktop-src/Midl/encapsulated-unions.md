@@ -6,12 +6,12 @@ keywords:
 - types de données MIDL, unions encapsulées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4489a043ff3690ddb31a8acccf359dcd76940aa7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6bc8f8f830d49430551af7d6450b0174742b9436afcdba764e9fa6494c957d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895359"
 ---
 # <a name="encapsulated-unions"></a>Unions encapsulées
 
@@ -48,9 +48,9 @@ typedef struct _S1_TYPE
 
 Pour obtenir des informations connexes, consultez [types de base MIDL](midl-base-types.md), [**char**](char-idl.md), **\[** [**\_ descripteur de contexte**](context-handle.md) **\]** , [**enum**](enum.md), **\[** [**First \_ is**](first-is.md) **\]** , **\[** [**handle**](handle.md) **\]** , **\[** [**ignore**](ignore.md) **\]** [**int**](int.md), **\[** [**ignore**](ignore.md), **\]** **\[** [**Last \_ is**](last-is.md) **\]** , **\[** [**Length \_ is**](length-is.md) **\]** , **\[** [**Max \_ is**](max-is.md), **\]** **\[** [**MS \_ Union**](ms-union-attrib.md) **\]** , [unencapsulated unions](nonencapsulated-unions.md), **\[** [**ptr**](ptr.md) **\]** , **\[** [**ref**](ref.md) **\]** , **\[** [**size \_ is**](size-is.md), **\]** **\[** [**String**](string.md) **\]** , [**struct**](struct.md), [**switch**](switch.md), **\[** [**Switch \_ is**](switch-is.md) **\]** , **\[** [**Switch \_ type**](switch-type.md) **\]** , **\[** [**transmit \_ As**](transmit-as.md) **\]** , [**Union**](union.md)et **\[** [**unique**](unique.md)**\]**
 
- 
+ 
 
- 
+ 
 
 
 

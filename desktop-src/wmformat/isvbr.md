@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f83fbaebda6e4da3ae80379053bfa6d4a167c6d5
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0f5f1eb7ad35de25f89d47ac873bf592e3e473eb03c519b781051848bcf5239b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808709"
 ---
 # <a name="isvbr"></a>IsVBR
 
@@ -31,7 +31,7 @@ L’attribut **IsVBR** spécifie si le contenu d’un flux a été encodé à l�
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous pouvez ajouter ou modifier cette valeur. Dans d’autres objets (éditeur de métadonnées, lecteur et lecteur synchrone), cette valeur est en lecture seule.
 
@@ -45,9 +45,9 @@ Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous
 [**Attributs de station de multidiffusion**](multicast-station-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

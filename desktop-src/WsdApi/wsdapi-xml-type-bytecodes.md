@@ -4,12 +4,12 @@ ms.assetid: 33fc9af3-c5e9-444d-bc3e-101830772aac
 title: Bytecodes de type XML WSDAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 305cd6443ced95186a7cf2489e71c41f3ecaa56f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 647281a5a7078f353e816f2b3673ca1c8d03b118208555639d7cab15dfd6992f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860037"
 ---
 # <a name="wsdapi-xml-type-bytecodes"></a>Bytecodes de type XML WSDAPI
 

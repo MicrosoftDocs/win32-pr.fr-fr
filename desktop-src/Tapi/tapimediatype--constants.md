@@ -4,12 +4,12 @@ ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
 title: Constantes TAPIMEDIATYPE_ (Tapi3. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d71a7d7ffb411d84e99863bb89274e43200b319d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a702f5a061629f3fd8daa5ad742c65af12c43bbd92eec6896b143e4bd6a403c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866879"
 ---
 # <a name="tapimediatype_-constants"></a>\_Constantes TAPIMEDIATYPE
 
@@ -24,7 +24,7 @@ Les types de média suivants sont définis :
 | <span id="TAPIMEDIATYPE_DATAMODEM"></span><span id="tapimediatype_datamodem"></span><dl> <dt>**TAPIMEDIATYPE \_ DATAMODEM**</dt> <dt>0x10</dt> </dl>       | Flux de données multimédia qui est associé à un modem de données.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | <span id="TAPIMEDIATYPE_G3FAX"></span><span id="tapimediatype_g3fax"></span><dl> <dt>**TAPIMEDIATYPE \_ G3FAX**</dt> <dt>0x20</dt> </dl>                   | Flux de données multimédia associé à une télécopie de protocole G3.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="TAPIMEDIATYPE_MULTITRACK"></span><span id="tapimediatype_multitrack"></span><dl> <dt>**TAPIMEDIATYPE \_**</dt> <dt>0x10000</dt> multipiste </dl> | Un flux se trouve sur un terminal multipiste.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| <span id="MEDIATYPE_RTP_Single_Stream"></span><span id="mediatype_rtp_single_stream"></span><span id="MEDIATYPE_RTP_SINGLE_STREAM"></span><dl> <dt>**\_ \_ Flux unique de MediaType RTP \_**</dt> </dl>     | Ce GUID est utilisé entre un terminal fourni par une application et le flux du MSP. Si le code pin du terminal prend en charge ce type de média, le flux échangera des données RTP brutes avec le terminal. Ce mode est pris en charge uniquement par les flux vidéo sur le MSP H323 et IPConf MSP pour Windows 2000 SP1 ou version ultérieure.<br/> **En-tête :** Déclaré dans ipmsp. h. L’en-tête ipmsp. h n’est pas disponible dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. <br/> |
+| <span id="MEDIATYPE_RTP_Single_Stream"></span><span id="mediatype_rtp_single_stream"></span><span id="MEDIATYPE_RTP_SINGLE_STREAM"></span><dl> <dt>**\_ \_ Flux unique de MediaType RTP \_**</dt> </dl>     | Ce GUID est utilisé entre un terminal fourni par une application et le flux du MSP. Si le code pin du terminal prend en charge ce type de média, le flux échangera des données RTP brutes avec le terminal. ce mode est pris en charge uniquement par les flux vidéo sur le msp H323 et IPConf msp pour Windows 2000 SP1 ou version ultérieure.<br/> **En-tête :** Déclaré dans ipmsp. h. l’en-tête ipmsp. h n’est pas disponible dans dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. <br/> |
 
 
 

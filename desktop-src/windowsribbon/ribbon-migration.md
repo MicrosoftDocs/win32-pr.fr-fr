@@ -1,23 +1,23 @@
 ---
-title: Migration vers l’infrastructure de ruban Windows
-description: Une application qui s’appuie sur des menus, des barres d’outils et des boîtes de dialogue traditionnels peut être migrée vers l’interface utilisateur riche, dynamique et basée sur le contexte du système de commandes de l’infrastructure de ruban Windows.
+title: migration vers l’infrastructure de ruban Windows
+description: une application qui s’appuie sur des menus, des barres d’outils et des boîtes de dialogue traditionnels peut être migrée vers l’interface utilisateur riche, dynamique et basée sur le contexte de Windows système de commandes de l’infrastructure du ruban.
 ms.assetid: 3a8ca41e-18b3-4c9d-865b-5f4c5fcf7ceb
 keywords:
-- Ruban Windows, migration vers
+- Windows Ruban, migration vers
 - Ruban, migration vers
-- migration vers le ruban Windows
+- migration vers Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a74822781f891815c6eb30d9e15a7f7efaa983fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8a011e9b5dad52f6f71fab272f0fded39ec59eb71cc7311ab9cf5ffccb4dfbca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841119"
 ---
-# <a name="migrating-to-the-windows-ribbon-framework"></a>Migration vers l’infrastructure de ruban Windows
+# <a name="migrating-to-the-windows-ribbon-framework"></a>migration vers l’infrastructure de ruban Windows
 
-Une application qui s’appuie sur des menus, des barres d’outils et des boîtes de dialogue traditionnels peut être migrée vers l’interface utilisateur riche, dynamique et basée sur le contexte du système de commandes de l’infrastructure de ruban Windows. Il s’agit d’un moyen simple et efficace de moderniser et de revitaliser l’application tout en améliorant également l’accessibilité, la convivialité et la détectabilité de ses fonctionnalités.
+une application qui s’appuie sur des menus, des barres d’outils et des boîtes de dialogue traditionnels peut être migrée vers l’interface utilisateur riche, dynamique et basée sur le contexte de Windows système de commandes de l’infrastructure du ruban. Il s’agit d’un moyen simple et efficace de moderniser et de revitaliser l’application tout en améliorant également l’accessibilité, la convivialité et la détectabilité de ses fonctionnalités.
 
 ## <a name="introduction"></a>Introduction
 
@@ -30,7 +30,7 @@ En général, la migration d’une application existante vers l’infrastructure
 > [!Note]  
 > Les [instructions relatives à l’expérience utilisateur du ruban](https://msdn.microsoft.com/library/cc872782.aspx) doivent être examinées pour déterminer si l’application est un candidat approprié pour une interface ruban.
 
- 
+ 
 
 ## <a name="design-the-ribbon-layout"></a>Concevoir la disposition du ruban
 
@@ -64,7 +64,7 @@ Le tableau suivant répertorie un ensemble de commandes de base pour une applica
 
 
 
- 
+ 
 
 Regardez au-delà des menus et des barres d’outils existants lors de la création d’un inventaire des commandes. Prenez en compte toutes les façons dont un utilisateur peut interagir avec l’espace de travail. Même si toutes les commandes ne conviennent pas à l’inclusion dans le ruban, cet exercice peut très bien exposer des commandes qui ont été masquées par des couches d’interface utilisateur.
 
@@ -77,7 +77,7 @@ Toutes les commandes ne doivent pas être représentées dans l’interface ruba
 > [!Note]  
 > Prenez note de l’ID numérique qui peut être assigné à chaque commande. Certaines infrastructures d’interface utilisateur, telles que Microsoft Foundation Classes (MFC), définissent des ID pour les commandes telles que le menu fichier et Edition (0xE100 à 0xE200).
 
- 
+ 
 
 ### <a name="organize"></a>Organiser
 
@@ -108,7 +108,7 @@ La liste des commandes, ainsi que leur organisation et leur disposition, sont d�
 > [!Note]  
 > La plupart des étapes requises pour adapter une application existante sont similaires à celles requises pour démarrer une nouvelle application ruban. Pour plus d’informations, consultez le didacticiel [création d’une application de ruban](windowsribbon-stepbystep.md) pour une nouvelle application ruban.
 
- 
+ 
 
 Il existe deux sections principales pour le balisage du ruban. La première section est un manifeste de commandes et les ressources associées (chaînes et images). La deuxième section spécifie la structure et le positionnement des contrôles sur le ruban.
 
@@ -117,7 +117,7 @@ Le balisage de l’éditeur de texte simple peut se présenter comme dans l’ex
 > [!Note]  
 > Les ressources de type image et chaîne sont traitées plus loin dans cet article.
 
- 
+ 
 
 
 ```C++
@@ -241,7 +241,7 @@ Le remplacement des menus et barres d’outils standard par un ruban dans une ap
 > [!IMPORTANT]
 > La barre d’État et les tables de raccourcis clavier existantes doivent être conservées, car l’infrastructure du ruban ne remplace pas ces fonctionnalités.
 
- 
+ 
 
 L’exemple suivant montre comment initialiser l’infrastructure à l’aide de [**IUIFramework :: Initialize**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-initialize):
 
@@ -440,9 +440,9 @@ Quand le manifeste des commandes a été défini, que la structure du ruban a é
 > [!Note]  
 > Les ressources de type chaîne et image sont généralement fournies dans le fichier de balisage. Toutefois, elles peuvent être générées ou remplacées par programme en implémentant la méthode de rappel [**IUICommandHandler :: UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) .
 
- 
+ 
 
-### <a name="string-resources"></a>Ressources de type chaîne
+### <a name="string-resources"></a>Ressources de chaînes
 
 [**Command. LabelTitle**](windowsribbon-element-command-labeltitle.md) est la propriété de chaîne la plus courante définie pour une commande. Ils sont rendus sous la forme d’étiquettes de texte pour les onglets, les groupes et les contrôles individuels. Une chaîne d’étiquette d’un élément de menu hérité peut généralement être réutilisée pour une **commande. LabelTitle** sans modification importante.
 
@@ -459,7 +459,7 @@ En vous référant à l’exemple d’éditeur de texte, les chaînes suivantes 
 |------------------|-----------------|-------------------|---------------|
 | fichier d’ID \_ \_ nouveau    | &nouveau            | &nouveau              | N             |
 | \_enregistrement du fichier d’ID \_   | &enregistrer           | &enregistrer             | S             |
-| \_enregistrement du fichier d’ID \_ | Enregistrer &sous...       | Enregistrer &sous          | Un             |
+| \_enregistrement du fichier d’ID \_ | Enregistrer &sous...       | Enregistrer &sous          | A             |
 | fichier d’ID \_ \_ ouvert   | &ouvrir...          | &amp;Open             | O             |
 | \_sortie du fichier d’ID \_   | &Quitter           | &Quitter             | X             |
 | \_annuler la modification de l’ID \_   | &annuler           | Annuler              | Z             |
@@ -471,7 +471,7 @@ En vous référant à l’exemple d’éditeur de texte, les chaînes suivantes 
 
 
 
- 
+ 
 
 Voici une liste d’autres propriétés de chaîne qui doivent être définies sur la plupart des commandes :
 
@@ -525,14 +525,14 @@ L’exemple de balisage de ruban suivant illustre différentes ressources de typ
 
 L’infrastructure du ruban prend en charge les formats d’image qui offrent une apparence beaucoup plus riche que les formats d’image pris en charge par les composants de menu et de barre d’outils précédents.
 
-Pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network Graphics) avec transparence.
+pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network graphics) avec transparence.
 
-Pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
+pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
 
 > [!Note]  
 > Les fichiers image existants peuvent être convertis dans l’un ou l’autre format. Toutefois, les résultats peuvent être moins satisfaisants si les fichiers image ne prennent pas en charge l’anticrénelage et la transparence.
 
- 
+ 
 
 Il n’est pas possible de spécifier une taille par défaut unique pour les ressources d’image dans l’infrastructure du ruban. Toutefois, pour prendre en charge la [disposition adaptative](windowsribbon-templates.md) des contrôles, les images peuvent être spécifiées en deux tailles (grande et petite). Toutes les images de l’infrastructure du ruban sont mises à l’échelle en fonction de la résolution en points par pouce (dpi) de l’affichage avec la taille de rendu exacte dépendante de ce paramètre PPP. Pour plus d’informations, consultez [spécification des ressources d’image du ruban](windowsribbon-imageformats.md) .
 
@@ -567,6 +567,6 @@ L’exemple suivant montre comment un ensemble d’images spécifiques à PPP es
 [Spécification des ressources d’image du ruban](windowsribbon-imageformats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

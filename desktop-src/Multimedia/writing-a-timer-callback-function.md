@@ -10,19 +10,19 @@ keywords:
 - minuteries, écrire des fonctions de rappel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609cf2dda455897fb6cae0f3c48252016ba54cb9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f5b8680fc4d697c33514276276daaa2a4d75577bfbd78fa3caffc7f426ca9d70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891779"
 ---
 # <a name="writing-a-timer-callback-function"></a>Écriture d’une fonction de rappel de minuterie
 
 > [!Note]  
 > Cette rubrique décrit une fonction obsolète. Les nouvelles applications doivent utiliser la fonction [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) pour créer des minuteries.
 
- 
+ 
 
 La fonction de rappel suivante, OneShotTimer, invalide l’identificateur pour l’événement de minuterie unique et appelle une routine de minuterie pour gérer les tâches spécifiques à l’application. Pour plus d’informations, consultez [**TimeProc**](/previous-versions//dd757631(v=vs.85)).
 
@@ -47,6 +47,6 @@ void CALLBACK OneShotTimer(UINT wTimerID, UINT msg,
 [Utilisation de minuteurs multimédias](using-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

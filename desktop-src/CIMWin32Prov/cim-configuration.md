@@ -17,16 +17,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c069f5c7186d08f01b54fe02c0568dbb4ff43d26
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c6df2338d46438bf3e1af371ebbce8b36f1a337f26a4785064119cca45bece46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924929"
 ---
 # <a name="cim_configuration-class"></a>\_Classe de configuration CIM
 
-L’objet de **\_ configuration CIM** permet de regrouper des jeux de paramètres (définis dans les objets de [**\_ paramètre CIM**](cim-setting.md) ) et des dépendances pour un ou plusieurs éléments système gérés. Cet objet représente un certain comportement ou un état fonctionnel souhaité pour les éléments système gérés. L’état fonctionnel souhaité est généralement piloté par des exigences externes, telles que l’heure ou l’emplacement. Par exemple, pour se connecter à un système de messagerie à partir de chez vous, il existe une dépendance sur un modem. en revanche, il existe une dépendance sur une carte réseau au travail. Les paramètres des appareils logiques pertinents (dans cet exemple, modem POTS et carte réseau) peuvent être définis et regroupés par **\_ configuration CIM**. Par conséquent, deux configurations de « connexion à un message » peuvent être définies en regroupant les dépendances pertinentes et les objets de [**\_ paramètre CIM**](cim-setting.md) .
+L’objet de **\_ configuration CIM** permet de regrouper des jeux de paramètres (définis dans les objets de [**\_ paramètre CIM**](cim-setting.md) ) et des dépendances pour un ou plusieurs éléments système gérés. Cet objet représente un certain comportement ou un état fonctionnel souhaité pour les éléments système gérés. L’état fonctionnel souhaité est généralement piloté par des exigences externes, telles que l’heure ou l’emplacement. Par exemple, pour se connecter à un système de messagerie à partir de chez vous, il existe une dépendance sur un modem. en revanche, il existe une dépendance sur une carte réseau au travail. Paramètres pour les appareils logiques pertinents (dans cet exemple, modem POTS et carte réseau) peuvent être définis et regroupés par **\_ Configuration CIM**. par conséquent, deux configurations « Connecter à la messagerie » peuvent être définies en regroupant les dépendances pertinentes et les objets de [**\_ paramètre CIM**](cim-setting.md) .
 
 > [!IMPORTANT]
 > Les classes de la DMTF (Distributed Management Task Force) CIM (Common Information Model) sont les classes parentes sur lesquelles les classes WMI sont générées. WMI ne prend actuellement en charge que les [schémas de version CIM 2. x](https://dmtf.org/standards/cim/schemas).
@@ -104,7 +104,7 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**MaxLen**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

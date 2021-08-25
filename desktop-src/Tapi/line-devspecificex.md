@@ -4,12 +4,12 @@ ms.assetid: 137e91fd-a09e-430c-9d46-8e5be65f03d1
 title: Message LINE_DEVSPECIFICEX (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba25047858c641ea4c6cec7d15ba06df24e8ee39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0b65b322b265b6bbd9717a9fc5b3c0eccf46bb3802fef7684a58d2d69645cdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867069"
 ---
 # <a name="line_devspecificex-message"></a>\_Message DEVSPECIFICEX de ligne
 
@@ -65,7 +65,7 @@ Spécifique à l’appareil.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message de **ligne \_ DEVSPECIFICEX** est utilisé par un fournisseur de services conjointement avec la fonction [**lineDevSpecific**](/windows/desktop/api/Tapi/nf-tapi-linedevspecific) . Sa signification est spécifique à l’appareil.
 

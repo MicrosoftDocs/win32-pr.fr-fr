@@ -3,7 +3,7 @@ title: Message TDM_SET_PROGRESS_BAR_RANGE (commctrl. h)
 description: Définit les valeurs minimale et maximale de la barre de progression dans une boîte de dialogue de tâche.
 ms.assetid: ca8b48bc-cf56-4678-bb3d-7c730a96d98c
 keywords:
-- TDM_SET_PROGRESS_BAR_RANGE les contrôles de message Windows
+- TDM_SET_PROGRESS_BAR_RANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d17ebb6caa2c33282dccbb117980fc970cd45477
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54d94da64bd01b17addeb8f65def177e7e7e5d7daccbafb1629d1158f8c6636d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875909"
 ---
 # <a name="tdm_set_progress_bar_range-message"></a>Message de plage de la barre de progression de l' \_ ensemble TDM \_ \_ \_
 
@@ -53,8 +53,8 @@ Retourne les valeurs minimale et maximale précédentes, en cas de réussite, ou
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

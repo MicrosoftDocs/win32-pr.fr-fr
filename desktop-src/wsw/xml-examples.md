@@ -4,16 +4,16 @@ ms.assetid: c07f3577-954e-400f-9e93-8e40c0a0945e
 description: 'En savoir plus sur : exemples XML'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c7a8a095546cc001044f4c22f03fc1dff789686
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f313b83f638b00b2b6819b6d9b0fd2b29fda280772c68b22cc7c9afc936e439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880729"
 ---
 # <a name="xml-examples"></a>Exemples XML
 
-Les exemples suivants illustrent l’utilisation de XML avec l’API des services Web pour Windows :
+les exemples suivants illustrent l’utilisation de XML avec les Services Web pour Windows API :
 
 Exemple qui écrit et lit du code XML à l’aide d’une mémoire tampon XML [ReadWriteXmlExample](readwritexmlexample.md)
 

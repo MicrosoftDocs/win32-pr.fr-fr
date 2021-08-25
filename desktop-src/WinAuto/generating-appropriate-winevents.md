@@ -4,12 +4,12 @@ description: Les développeurs de serveurs doivent s’assurer que les WinEvents
 ms.assetid: 253e0162-20e6-4e89-b563-aae9cf7e53a9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af6273411115e908303e863a34908e15ef91b19c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7e148578f55f59d2827fd13a637baf5139c3f934ddf24059e437185c15349b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860389"
 ---
 # <a name="generating-appropriate-winevents"></a>Génération de WinEvents appropriée
 
@@ -21,7 +21,7 @@ Pour envoyer un événement, les serveurs appellent [**NotifyWinEvent**](/window
 
 ## <a name="general-events"></a>Événements généraux
 
-Les WinEvents générales peuvent être envoyés pour tous les éléments d’interface utilisateur. Il s’agit, entre autres, des suivantes :
+Les WinEvents générales peuvent être envoyés pour tous les éléments d’interface utilisateur. Ce sont, entre autres, les suivantes :
 
 -   [**Événement \_ \_Création d’objet**](event-constants.md) (lors de la création d’un objet)
 -   [**Événement \_ \_Destruction d’objet**](event-constants.md) (lorsqu’un objet est détruit)
@@ -38,9 +38,9 @@ Pour plus d’informations sur les événements attendus pour un type particulie
 -   [Constantes d’événement](event-constants.md). Cette rubrique contient des informations sur les événements générés par le système d’exploitation et les applications serveur.
 -   Observateur d’événements accessible (AccEvent.exe). Cet outil affiche les événements que l’utilisateur envoie pour un élément d’interface utilisateur particulier. Vous pouvez utiliser cet outil pour savoir quels événements vous pouvez attendre pour un élément d’interface utilisateur. Pour plus d’informations, consultez [Observateur d’événements accessible](accessible-event-watcher.md).
 
- 
+ 
 
- 
+ 
 
 
 

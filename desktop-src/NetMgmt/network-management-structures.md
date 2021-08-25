@@ -4,12 +4,12 @@ description: Les structures de gestion de réseau peuvent être regroupées comm
 ms.assetid: a4b05054-bef2-4cab-89f6-725d92ee75b8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 247dd9afc6fb38cbede332e90f2b648a0e2bbc26
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: e71d5e6b8244d8177d013653d4e102fece0eba8c18baa4a9918c3e6280eb8bdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104316709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891229"
 ---
 # <a name="network-management-structures"></a>Structures de gestion de réseau
 
@@ -26,7 +26,7 @@ Les structures de gestion de réseau peuvent être regroupées comme suit.
 [**\_autres \_ informations utilisateur**](/windows/desktop/api/Lmalert/ns-lmalert-user_other_info)  
 </dl>
 
-## <a name="azure-active-directory-join-information-structures"></a>Structures d’informations de jointure Azure Active Directory
+## <a name="azure-active-directory-join-information-structures"></a>Azure Active Directory Structures d’informations de jointure
 
 <dl>
 
@@ -259,6 +259,6 @@ Les structures de gestion de réseau peuvent être regroupées comme suit.
 [**\_Informations utilisateur \_ wksta \_ 1101**](/windows/desktop/api/Lmwksta/ns-lmwksta-wksta_user_info_1101)  
 </dl>
 
- 
+ 
 
- 
+ 

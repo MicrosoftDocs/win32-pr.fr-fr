@@ -3,7 +3,7 @@ title: EFFECTs. nextPreset
 description: La méthode nextPreset affiche la présélection suivante de la visualisation actuelle.
 ms.assetid: e17917c0-95b5-4799-8657-1f0d9bb7ec86
 keywords:
-- EFFECTs. nextPreset Windows Media Player
+- effects. nextPreset Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5650aa97906db2947d5d794c12edfb5be68e0057
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6d0afcd25ee1caa601fda8b98e28e8d5213b15f09e39f90e1f7e868196ed9f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863049"
 ---
 # <a name="effectsnextpreset"></a>EFFECTs. nextPreset
 
@@ -36,7 +36,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la présélection actuelle est la dernière de la liste pour la visualisation actuelle, la première présélection est définie en cours.
 

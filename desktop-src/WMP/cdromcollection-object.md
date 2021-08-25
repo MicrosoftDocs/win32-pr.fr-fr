@@ -3,7 +3,7 @@ title: Objet CdromCollection
 description: L’objet CdromCollection permet d’organiser et d’accéder à une collection de lecteurs de CD ou DVD.
 ms.assetid: 02429ba7-a053-42bf-9ed5-c05e13c964c0
 keywords:
-- Objet CdromCollection lecteur Windows Media
+- objet CdromCollection Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0d5367a6887290f06d36225f211f42048e98ba03
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0f8fe20bc138feb3eb1ad5bc937ef1f53f0e6b08e5757bbe03791177fe4c3531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104029980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863949"
 ---
 # <a name="cdromcollection-object"></a>Objet CdromCollection
 
@@ -34,7 +34,7 @@ L’objet **CdromCollection** prend en charge la propriété suivante.
 
 
 
- 
+ 
 
 L’objet **CdromCollection** prend en charge les méthodes suivantes.
 
@@ -47,7 +47,7 @@ L’objet **CdromCollection** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **CdromCollection** est accessible par le biais de la propriété suivante.
 
@@ -59,7 +59,7 @@ L’objet **CdromCollection** est accessible par le biais de la propriété suiv
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,9 +68,9 @@ L’objet **CdromCollection** est accessible par le biais de la propriété suiv
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

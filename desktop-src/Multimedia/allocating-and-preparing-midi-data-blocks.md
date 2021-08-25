@@ -16,12 +16,12 @@ keywords:
 - Services MIDI, blocs de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b23a72dfd46035a3d23743faa7228e5fe85aaf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 137556c1344e6f2e8db8557d45a70c5981fa7bab99e7452cc1f756b4a8ee159b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808489"
 ---
 # <a name="allocating-and-preparing-midi-data-blocks"></a>Allocation et préparation des blocs de données MIDI
 
@@ -42,7 +42,7 @@ Windows fournit les fonctions suivantes pour la préparation et le nettoyage des
 
 
 
- 
+ 
 
 Avant de passer un bloc de données MIDI à un pilote de périphérique, vous devez préparer la mémoire tampon en la transmettant à la fonction [**midiInPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midiinprepareheader) ou [**midiOutPrepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midioutprepareheader) . Lorsque le pilote de périphérique est terminé avec la mémoire tampon et le retourne, vous devez nettoyer cette préparation en passant la mémoire tampon à la fonction [**midiInUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midiinunprepareheader) ou [**midiOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-midioutunprepareheader) avant que toute mémoire allouée puisse être libérée.
 
@@ -53,6 +53,6 @@ Avant de passer un bloc de données MIDI à un pilote de périphérique, vous de
 [Services MIDI](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

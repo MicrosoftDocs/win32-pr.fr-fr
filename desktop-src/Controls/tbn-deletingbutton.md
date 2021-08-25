@@ -3,7 +3,7 @@ title: Message TBN_DELETINGBUTTON (commctrl. h)
 description: Envoyé par un contrôle de barre d’outils lorsqu’un bouton va être supprimé. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 08116071-36d6-456b-88f9-62a22cdb7ed9
 keywords:
-- TBN_DELETINGBUTTON les contrôles de message Windows
+- TBN_DELETINGBUTTON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 26337fd1abc6c67351fe2b38e83ee7d90a11f6e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a426d32af308d6d254a4221bbf35b103b401f07ab1ba6fa74801b6debd46ab70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876969"
 ---
 # <a name="tbn_deletingbutton-message"></a>\_Message TBN DELETINGBUTTON
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

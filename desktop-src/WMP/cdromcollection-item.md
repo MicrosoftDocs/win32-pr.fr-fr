@@ -3,9 +3,9 @@ title: CdromCollection. Item, méthode
 description: La méthode Item récupère l’objet cdrom à l’index donné.
 ms.assetid: c1efa972-736d-4fa0-9835-14ee594ae719
 keywords:
-- méthode Item lecteur Windows Media
-- méthode Item lecteur Windows Media, classe CdromCollection
-- Classe CdromCollection lecteur Windows Media, méthode Item
+- méthode item Lecteur Windows Media
+- méthode item Lecteur Windows Media, classe CdromCollection
+- Lecteur Windows Media de la classe CdromCollection, méthode item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a67dc58ae75819fa42940346b4f588b23a2f645a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5f700a17c29c382e96a5601bd9bbfabf3c4ede1b253d9f271b1d37ab1106ee2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864079"
 ---
 # <a name="cdromcollectionitem-method"></a>CdromCollection. Item, méthode
 
@@ -53,7 +53,7 @@ retVal = CdromCollection.item(
 
 Cette méthode retourne un objet **cdrom** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -61,7 +61,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *CdromCollection*. **élément** pour imprimer le nom de la sélection à partir de chaque CD disponible sur l’ordinateur. Si le lecteur contient réellement du contenu DVD, Windows XP ou version ultérieure est requis. Un élément TextArea HTML a été créé avec ID = "Playlists". L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *CdromCollection*. **élément** pour imprimer le nom de la sélection à partir de chaque CD disponible sur l’ordinateur. si le lecteur contient réellement du contenu DVD, Windows XP ou version ultérieure est requis. Un élément TextArea HTML a été créé avec ID = "Playlists". L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

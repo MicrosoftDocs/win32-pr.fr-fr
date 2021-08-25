@@ -12,17 +12,17 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 978cfb62458c2cbcecba8c8d7ba8d9e7df201d2a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a7b7460dcbadc82a0bb8acb647f2ffd03edea711610bd5827c7aff057babf1ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911873"
 ---
 # <a name="netserviceenum"></a>NetServiceEnum
 
 La fonction **NetServiceEnum** est obsolète. Il est inclus pour la compatibilité avec les versions 16 bits de Windows. D’autres applications doivent utiliser les [fonctions de service](/windows/desktop/Services/service-functions).
 
- 
+ 
 
- 
+ 

@@ -4,16 +4,16 @@ ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
 title: 'ITParticipantSubStreamControl :: SwitchTerminalToSubStream, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f10401b2cf1598c76537ebd3a7049d67bf0657
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41f211d4f3ff0f01801fb5497d36d81fa46e43397d8b69227180b022c9e74a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774649"
 ---
 # <a name="itparticipantsubstreamcontrolswitchterminaltosubstream-method"></a>ITParticipantSubStreamControl :: SwitchTerminalToSubStream, méthode
 
-\[**SwitchTerminalToSubStream** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**SwitchTerminalToSubStream** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SwitchTerminalToSubStream** définit un terminal sur le sous-flux du participant.
 
