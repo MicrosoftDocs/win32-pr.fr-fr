@@ -4,12 +4,12 @@ description: Les programmes serveur écoutent les points de terminaison pour les
 ms.assetid: 330bbe9f-b7e9-4a5b-86d8-824edec960d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb0a97df3408a4d3c24dff9de28553f9e4b2210d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 024a85704287db7e5f78bb67eee9b64a7c6dc84ce5724623450d36f743e5fa9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021279"
 ---
 # <a name="finding-endpoints"></a>Recherche de points de terminaison
 
@@ -26,7 +26,7 @@ Cette section traite des points de terminaison et présente des informations sur
 > [!Note]  
 > Les termes *statiques des points de terminaison* et des *points de terminaison connus* sont équivalents et utilisés indifféremment.
 
- 
+ 
 
 Il est possible que votre application cliente utilise le mappage de point de terminaison pour déterminer si un programme serveur est en cours d’exécution. Votre client peut appeler [**RpcMgmtInqIfIds**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqifids), [**RpcMgmtEpEltInqBegin**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin)et [**RpcMgmtEpEltInqDone**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone) pour voir si le serveur a inscrit l’interface particulière dont il a besoin dans le mappage de point de terminaison.
 
@@ -61,6 +61,6 @@ Il est possible de mélanger les deux approches de recherche des points de termi
 
 Cette approche permet un chemin de transition pour les applications qui ont démarré avec un point de terminaison connu, mais souhaitent migrer vers un point de terminaison dynamique sans nécessiter une mise à jour simultanée de tous les serveurs et clients.
 
- 
+ 
 
- 
+ 

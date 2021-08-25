@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: c0f941469983f2eaebf0363797fb54a81388bc51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9c3a5720ade42291037611c155c2cb9e834f0734e7af6e2c36277c409592143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904909"
 ---
 # <a name="iamtimelinesplittablesplitat2-method"></a>IAMTimelineSplittable :: SplitAt2, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -61,7 +61,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 | Code de retour                                                                                   | Description                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl>       | Rien à fractionner.<br/>                       |
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | L’objet n’existe pas pour l’instant.<br/> |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>                    |
 
@@ -69,7 +69,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -77,7 +77,7 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

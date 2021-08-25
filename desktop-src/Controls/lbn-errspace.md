@@ -3,7 +3,7 @@ title: LBN_ERRSPACE le code de notification (winuser. h)
 description: Indique à l’application que la zone de liste ne peut pas allouer suffisamment de mémoire pour répondre à une demande spécifique. La fenêtre parente de la zone de liste reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: ff716ad0-cbd8-4ac3-bcaf-d5be81355eaa
 keywords:
-- Contrôles Windows de code de notification LBN_ERRSPACE
+- LBN_ERRSPACE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d324b17a83e38a9b3592be71720486910e88689d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4161cf750995bca3755f11ab45148fd184e2bc13a127909a256333549b1e9258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104200569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085299"
 ---
 # <a name="lbn_errspace-notification-code"></a>\_Code de notification LBN ERRSPACE
 
@@ -59,8 +59,8 @@ Handle vers la zone de liste.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

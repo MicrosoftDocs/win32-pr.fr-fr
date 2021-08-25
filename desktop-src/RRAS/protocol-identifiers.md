@@ -1,19 +1,19 @@
 ---
 title: Identificateurs de protocole
-description: Les identificateurs de protocole suivants sont également répertoriés dans Routprot. h pour le SDK Windows, et iprtmib. h pour le kit de développement logiciel (SDK) de la plateforme.
+description: les identificateurs de protocole suivants sont également répertoriés dans Routprot. h pour le SDK Windows, et iprtmib. h pour le kit de développement logiciel (SDK) de la plateforme.
 ms.assetid: f67138b8-de5d-4907-a464-672d57864ebf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ac515eb4b5090c0b4f75fd923d8345538ff5e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dafcbcd028b5c8d4f58172565b34c93cff8d8f9ff766c055e3d8a956cfbb0aa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036469"
 ---
 # <a name="protocol-identifiers"></a>Identificateurs de protocole
 
-Les identificateurs de protocole suivants sont également répertoriés dans Routprot. h pour le SDK Windows, et iprtmib. h pour le kit de développement logiciel (SDK) de la plateforme.
+les identificateurs de protocole suivants sont également répertoriés dans Routprot. h pour le SDK Windows, et iprtmib. h pour le kit de développement logiciel (SDK) de la plateforme.
 
 ## <a name="ip-protocols"></a>Protocoles IP
 
@@ -21,7 +21,7 @@ Les protocoles de routage suivants sont associés au transport IP.
 
 
 
-| Protocol                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Protocole                                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_adresse IP proto \_ , autre \_ IPPROTO \_ MIB                        | Un autre protocole n’est pas spécifié dans le document RFC 1354.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | PROTO \_ IP \_ local, MIB \_ IPPROTO \_ local                        | Interface locale.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -39,13 +39,13 @@ Les protocoles de routage suivants sont associés au transport IP.
 | PROTO \_ IP \_ BGP, MIB \_ IPPROTO \_ BGP                            | Le Border Gateway Protocol (BGP) est un protocole de routage dynamique.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | PROTO \_ IP \_ BOOTP, MIB \_ IPPROTO \_ BOOTP                        | Protocole Bootstrap.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | PROTO \_ IPv6 \_ DHCPRELAY, MIB \_ IPV6PROTO \_ HDCPRELAY            | Protocole DHCPv6 Relay.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| PROTO \_ IP \_ NT \_ autostatique, MIB \_ IPNT \_ autostatic             | Entrée spécifique à Windows ajoutée à l’origine par un protocole de routage, mais qui est désormais statique.                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| PROTO \_ IP \_ NT \_ static, MIB \_ IPNT \_ static                     | Entrée spécifique à Windows ajoutée sous la forme d’un itinéraire statique à partir de l’interface utilisateur de routage ou d’une commande de routage.                                                                                                                                                                                                                                                                                                                                                                                                               |
-| PROTO \_ IP \_ NT \_ static \_ non \_ DOD, MIB \_ IPNT \_ static \_ non \_ DoD | Entrée spécifique à Windows ajoutée sous la forme d’un itinéraire statique à partir de l’interface utilisateur de routage ou d’une commande de routage, sauf que ces itinéraires n’entraînent pas de connexion à la demande (DOD).                                                                                                                                                                                                                                                                                                                                                        |
+| PROTO \_ IP \_ NT \_ autostatique, MIB \_ IPNT \_ autostatic             | une Windows entrée spécifique ajoutée à l’origine par un protocole de routage, mais qui est désormais statique.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| PROTO \_ IP \_ NT \_ static, MIB \_ IPNT \_ static                     | une Windows entrée spécifique ajoutée en tant qu’itinéraire statique à partir de l’interface utilisateur de routage ou d’une commande de routage.                                                                                                                                                                                                                                                                                                                                                                                                               |
+| PROTO \_ IP \_ NT \_ static \_ non \_ DOD, MIB \_ IPNT \_ static \_ non \_ DoD | une Windows entrée spécifique ajoutée en tant qu’itinéraire statique à partir de l’interface utilisateur de routage ou d’une commande de routage, sauf que ces itinéraires n’entraînent pas de connexion à la demande (DOD).                                                                                                                                                                                                                                                                                                                                                        |
 
 
 
- 
+ 
 
 Les itinéraires avec un identificateur de protocole PROTO \_ IP \_ local sont les suivants :
 
@@ -68,7 +68,7 @@ Les protocoles de routage suivants sont associés au transport IPX.
 
 
 
-| Protocol            | Description                          |
+| Protocole            | Description                          |
 |---------------------|--------------------------------------|
 | \_RIP de protocole IPX \_  | Protocole d’informations de routage pour IPX |
 | \_SAP de protocole IPX \_  | Protocole de publication de service       |
@@ -76,7 +76,7 @@ Les protocoles de routage suivants sont associés au transport IPX.
 
 
 
- 
+ 
 
 L’identificateur du gestionnaire de routage IPX est le suivant :
 
@@ -84,6 +84,6 @@ L’identificateur du gestionnaire de routage IPX est le suivant :
 
 Utilisez cet identificateur à la place d’un identificateur de protocole de routage pour les appels MIB avec le gestionnaire de routeur IPX.
 
- 
+ 
 
- 
+ 

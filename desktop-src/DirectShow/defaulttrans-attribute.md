@@ -4,17 +4,17 @@ ms.assetid: 94579bca-d519-47fa-a8b7-d3349a78d4b7
 title: Attribut defaulttrans
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c6545efdec88e996e066c5724093ffd53ce14c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5a7c813feadd15e16303869fc492cdb61fde0d274a13d08f37bacec11def11e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086849"
 ---
 # <a name="defaulttrans-attribute"></a>Attribut defaulttrans
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

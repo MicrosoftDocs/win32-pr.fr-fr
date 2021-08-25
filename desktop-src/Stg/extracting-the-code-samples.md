@@ -4,16 +4,16 @@ description: Bien que les exemples de code soient divisés en une série de leç
 ms.assetid: f8e20e40-cfef-4844-8b28-5a11fdcd691a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a593cf36b2fa235813c291eb35307153b28a2aa4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67093f4cfbbfab2a3c1681462627f02b504124ed15d1483b9f9d91ec5551d0e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034949"
 ---
 # <a name="extracting-the-code-samples"></a>Extraction des exemples de code
 
-Bien que les exemples de code soient divisés en une série de leçons du didacticiel, les exemples de regroupements appropriés peuvent être facilement extraits de la collection. La plupart des exemples de répertoires individuels sont conçus pour fonctionner conjointement avec au moins un autre répertoire d’exemples. Les exemples liés aux composants se composent d’une paire client/serveur, le serveur nécessitant l’utilisation de l’utilitaire REGISTER Sample. Voici un résumé des regroupements d’exemples et comment extraire chaque groupe comme une unité qui peut être générée. Pour chaque exemple de regroupement, copiez le contenu des répertoires affichés. Le \[ \] Répertoire de destination parent indiqué ne requiert aucun contenu de la branche Samples. Toutefois, les menus d’aide des exemples en cours d’exécution partent du principe que le didacticiel approprié est utilisé. Les fichiers d’aide HTM se trouvent dans ce \[ Répertoire de destination parent \] .
+Bien que les exemples de code soient divisés en une série de leçons du didacticiel, les exemples de regroupements appropriés peuvent être facilement extraits de la collection. La plupart des exemples de répertoires individuels sont conçus pour fonctionner conjointement avec au moins un autre répertoire d’exemples. Les exemples liés aux composants se composent d’une paire client/serveur, le serveur nécessitant l’utilisation de l’utilitaire REGISTER Sample. Voici un résumé des regroupements d’exemples et comment extraire chaque groupe comme une unité qui peut être générée. Pour chaque exemple de regroupement, copiez le contenu des répertoires affichés. Le \[ \] Répertoire de destination parent indiqué ne requiert aucun contenu de la branche Samples. Toutefois, les menus d’aide des exemples en cours d’exécution partent du principe que le didacticiel approprié .HTM fichiers d’aide se trouvent dans ce \[ Répertoire de destination parent \] .
 
 Pour l’application Win32 READTUT :
 
@@ -195,9 +195,9 @@ Pour obtenir des exemples de client/serveur de sécurité DCOM :
     DCOMDRAW
 ```
 
- 
+ 
 
- 
+ 
 
 
 

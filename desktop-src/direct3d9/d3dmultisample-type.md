@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: da8f9c1c8bb3aa74c0ab22a5cc701e7d835898de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e6173abf04f42b0632441b436706318796a5d0af758928e61dd3f19d30bda881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027969"
 ---
 # <a name="d3dmultisample_type-enumeration"></a>\_Énumération de type D3DMULTISAMPLE
 
@@ -182,7 +182,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus de l’activation de l’échantillonnage multiple de scène complète à [**IDirect3DDevice9 :: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset) Time, des États de rendu transforment différents aspects en fonction des niveaux affinés.
 

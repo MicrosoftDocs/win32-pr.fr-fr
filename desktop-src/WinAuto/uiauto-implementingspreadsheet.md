@@ -15,12 +15,12 @@ keywords:
 - interfaces, ISpreadsheetProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be34174745ccf91435db92665b98eb387f7241a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d7991937f1530e28ed85227fbe19be13b628f9722d5609367e2f483c86a2bb70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098279"
 ---
 # <a name="spreadsheet-control-pattern"></a>Spreadsheet (modèle de contrôle)
 
@@ -41,13 +41,13 @@ La méthode suivante est requise pour l’implémentation de l’interface [**IS
 
 
 
-| Membres nécessaires                                                       | Type de membre | Notes |
+| Membres nécessaires                                                       | Type de membre | Remarques |
 |------------------------------------------------------------------------|-------------|-------|
 | [**GetItemByName**](/windows/desktop/api/uiautomationcore/nf-uiautomationcore-ispreadsheetprovider-getitembyname) | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé aucun événement.
 
@@ -64,6 +64,6 @@ Ce modèle de contrôle n’est associé aucun événement.
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

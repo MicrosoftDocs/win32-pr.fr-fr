@@ -4,12 +4,12 @@ ms.assetid: 1a3de957-70ea-4b9d-94a0-9b0a74f15d78
 title: Exemple de ticker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecee7400d6a1cad71101359b0ce538077a25673
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31e91dfc8cbc0634cc319164b12939ed20555356a1e8ed92d78fc377af1d58e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049909"
 ---
 # <a name="ticker-sample"></a>Exemple de ticker
 
@@ -21,13 +21,13 @@ L’application crée une image bitmap avec une chaîne de texte par défaut et 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

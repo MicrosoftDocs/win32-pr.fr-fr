@@ -4,27 +4,27 @@ description: Cette rubrique montre comment ajouter des colonnes à un contrôle 
 ms.assetid: 9DBDFF56-7CD6-467C-AD2E-64213615E241
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75e478c57a31fdd7ad91e0089106e93c24c47d5c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: ee71065729502410d189493527af0e3e37663a4a2aaf541852454af7fa4a5aac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922079"
 ---
 # <a name="how-to-add-list-view-columns"></a>Comment ajouter des colonnes List-View
 
 Cette rubrique montre comment ajouter des colonnes à un contrôle List-View. Les colonnes sont utilisées pour afficher les éléments et les sous-éléments lorsqu’un contrôle de liste est en mode rapport (détails). Le texte des colonnes sélectionnées peut également être affiché en mode mosaïque.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

@@ -6,18 +6,18 @@ keywords:
 - Load, méthode-CPapFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fe70be7241fe1e1eaeb779317e11a76fb479f76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49eac23bcb79738a30b18eb87a4d8ef4598aba89de0748c58b433df28d614886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034889"
 ---
 # <a name="load-method---cpapfile"></a>Load, méthode-CPapFile
 
 Une fois ces opérations réussies, l’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) obtenue est libérée. Cela ferme le fichier et indique que le fichier n’est pas ouvert pendant d’autres opérations du client. Il sera rouvert à la demande.
 
-Cet exemple est la méthode de  **chargement** **CPapFile** à partir de Papfile. cpp.
+Cet exemple est la méthode de **chargement** **CPapFile** à partir de Papfile. cpp.
 
 
 ```C++
@@ -81,7 +81,7 @@ HRESULT CPapFile::Load(
 
 
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Comme avec la méthode [**Save**](save-method---cpapfile.md) , si la **valeur null** est transmise pour le paramètre *pszFileName* , le contenu stocké du membre **m \_ szCurFileName** est utilisé pour le nom de fichier. Étant donné qu’un fichier existant peut être ouvert, la fonction APPUTIL **FileExist** est d’abord utilisée pour vérifier que le fichier existe. S’il existe, la fonction de service [**StgIsStorageFile**](/windows/desktop/api/coml2api/nf-coml2api-stgisstoragefile) standard est appelée pour vérifier le format du fichier afin de déterminer s’il s’agit d’un fichier composé valide.
 
@@ -103,9 +103,9 @@ Dans ce cas, l’opération importante consiste à faire en sorte que l’objet 
 
 Lorsque ces opérations sont terminées avec succès, l’interface [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) obtenue est libérée. Cela ferme le fichier et signifie que le fichier n’est pas ouvert pendant d’autres opérations du client. Il sera rouvert à la demande.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b85e3896-56e1-4927-b22b-cc8e49ccc056
 title: Constructeurs XMFLOAT3 (Directxmath. h)
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: fb206e08bda8d93e288340939cabd51cb8218fe1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c55a06382a2dd1b457996a1a5d0945e93706054a08781d3d7105d7fff99b7440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021799"
 ---
 # <a name="xmfloat3-constructors"></a>Constructeurs XMFLOAT3
 

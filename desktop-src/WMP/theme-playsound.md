@@ -3,7 +3,7 @@ title: THEMe. playSound
 description: La méthode playSound lit le fichier son spécifié.
 ms.assetid: 42675a66-0139-4e74-9abe-1b42017fc6fe
 keywords:
-- THÈME. playSound Windows Media Player
+- theme. playSound Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8ceb30e5c47632a1358262019124fceae056294d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9e6ac0cb7bdf4f8951bafbc89a0a41bf368afcd1021666eb7875739d1cd912e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001749"
 ---
 # <a name="themeplaysound"></a>THEMe. playSound
 
@@ -43,9 +43,9 @@ La méthode **playSound** lit le fichier son spécifié.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode vous permet d’ajouter des effets sonores à une apparence, par exemple, en cas de clic sur les boutons. Le son est lu par le système d’exploitation directement et non par le lecteur Windows Media. Cela signifie que le son ne peut pas être contrôlé avec les paramètres et les méthodes du lecteur Windows Media, mais il peut être lu pendant que le lecteur Windows Media lit un autre fichier multimédia numérique.
+Cette méthode vous permet d’ajouter des effets sonores à une apparence, par exemple, en cas de clic sur les boutons. le son est lu par le système d’exploitation directement, et non par Lecteur Windows Media. cela signifie que le son ne peut pas être contrôlé avec les paramètres et méthodes Lecteur Windows Media, mais il peut être lu pendant que Lecteur Windows Media lit un autre fichier multimédia numérique.
 
 Cette méthode prend en charge uniquement les fichiers WAV.
 

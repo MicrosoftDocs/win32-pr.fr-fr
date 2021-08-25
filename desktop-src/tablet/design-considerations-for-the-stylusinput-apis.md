@@ -4,12 +4,12 @@ ms.assetid: cb68a6bb-dd38-4dfb-bbbb-b5d846e5aa0a
 title: Considérations relatives à la conception de l’API StylusInput
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff526d8e073f00156730d79ea2caf1a02c5e5af2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aabd97a5bad203dd23611acf3d6cb07bead1e1744a10b9ac39afe8a53e65597d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936629"
 ---
 # <a name="design-considerations-for-the-stylusinput-api"></a>Considérations relatives à la conception de l’API StylusInput
 

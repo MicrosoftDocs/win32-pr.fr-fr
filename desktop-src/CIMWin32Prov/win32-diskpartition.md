@@ -1,5 +1,5 @@
 ---
-description: Représente les capacités et la capacité de gestion d’une zone partitionnée d’un disque physique sur un système informatique exécutant Windows.
+description: Représente les capacités et la capacité de gestion d’une zone partitionnée d’un disque physique sur un système d’ordinateur exécutant Windows.
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
 ms.tgt_platform: multiple
 title: Classe Win32_DiskPartition
@@ -54,12 +54,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4f9a9c16f58d0119c8027848c481479985e7505e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b33b812def4c921d528942e3bc416aa8791b4b0faecaaaeaf9d8cf9ccd345959
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085809"
 ---
 # <a name="win32_diskpartition-class"></a>\_Classe DiskPartition Win32
 
@@ -131,7 +131,7 @@ La classe **Win32 \_ DiskPartition** possède ces méthodes.
 
 | Méthode                                                     | Description                                                                                                   |
 |:-----------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------|
-| [**Réinitialiser**](win32-diskpartition-reset.md)                 | Demande la réinitialisation de l’unité logique.<br/>                                                            |
+| [**Initialisation**](win32-diskpartition-reset.md)                 | Demande la réinitialisation de l’unité logique.<br/>                                                            |
 | [**SetPowerState**](win32-diskpartition-setpowerstate.md) | Définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.<br/> |
 
 
@@ -644,7 +644,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Code d’erreur Windows Configuration Manager.
+Windows Code d’erreur Configuration Manager.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -695,7 +695,7 @@ L’appareil n’est pas configuré correctement.
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd></dd> <dt>
@@ -751,7 +751,7 @@ L’appareil n’est pas configuré correctement.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd></dd> <dt>
@@ -835,14 +835,14 @@ L’appareil n’est pas configuré correctement.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd></dd> <dt>
@@ -877,7 +877,7 @@ L’appareil n’est pas configuré correctement.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd></dd> </dl>
@@ -1190,7 +1190,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Exemple : « \* PNP030b »
 
@@ -1615,7 +1615,7 @@ Type de la partition.
 
 Les valeurs sont :
 
-<dl> <dd>Inutilisé</dd> <dd>« FAT 12 bits »</dd> <dd>« XENIX type 1 »</dd> <dd>« XENIX type 2 »</dd> <dd>« FAT 16 bits »</dd> <dd>« Partition étendue »</dd> <dd>« Énorme de MS-DOS v4 »</dd> <dd>« Système de fichiers installable »</dd> <dd>« Plateforme de référence PowerPC »</dd> <dd>ENVIRONNEMENTS</dd> <dd>NTFS</dd> <dd>« Win95 avec l’extension int 13 »</dd> <dd>"Étendu avec extension int 13"</dd> <dd>« Gestionnaire de disque logique »</dd> <dd>Connue</dd> </dl>
+<dl> <dd>Inutilisé</dd> <dd>« FAT 12 bits »</dd> <dd>« XENIX type 1 »</dd> <dd>« XENIX type 2 »</dd> <dd>« FAT 16 bits »</dd> <dd>« Partition étendue »</dd> <dd>« Énorme de MS-DOS v4 »</dd> <dd>« Système de fichiers installable »</dd> <dd>« PowerPC la plateforme de référence »</dd> <dd>« UNIX »</dd> <dd>NTFS</dd> <dd>« Win95 avec l’extension int 13 »</dd> <dd>"Étendu avec extension int 13"</dd> <dd>« Gestionnaire de disque logique »</dd> <dd>Connue</dd> </dl>
 
 <dt>
 
@@ -1677,7 +1677,7 @@ L' **énorme de MS-DOS v4** (« MS-DOS v4 énorme »)
 
 <span id="PowerPC_Reference_Platform"></span><span id="powerpc_reference_platform"></span><span id="POWERPC_REFERENCE_PLATFORM"></span>
 
-**Plateforme de référence powerpc** (« plateforme de référence PowerPC »)
+**plateforme de référence PowerPC** (« plateforme de référence PowerPC »)
 
 
 </dt> <dd></dd> <dt>
@@ -1726,7 +1726,7 @@ L' **énorme de MS-DOS v4** (« MS-DOS v4 énorme »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ DiskPartition** est dérivée de [**CIM \_ DiskPartition**](cim-diskpartition.md).
 

@@ -3,7 +3,7 @@ title: Message ACM_OPEN (commctrl. h)
 description: Ouvre un clip AVI et affiche sa première image dans un contrôle d’animation. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro animer \_ ouvrir ou animer \_ OpenEx. Nous vous recommandons d’utiliser la version Unicode de ce message, ACM \_ OPENW.
 ms.assetid: 87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4
 keywords:
-- ACM_OPEN les contrôles de message Windows
+- ACM_OPEN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0588c0e321efe5cace63baf4016dbaa97f735252
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4c5af2bd996af159217c92d78102a97e5c530d34cf445d5ad34186cecb93ab85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922169"
 ---
 # <a name="acm_open-message"></a>\_Message d’ouverture ACM
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon qui contient le chemin d’accès du fichier A
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le fichier ou la ressource AVI spécifié par *lpszName* ne doit pas contenir de données audio.
 
@@ -65,8 +65,8 @@ Vous pouvez utiliser l' [**animation \_ Fermer**](/windows/desktop/api/Commctrl/
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **ACM \_ OPENW** (Unicode) et **ACM \_ Opena** (ANSI)<br/>                         |
 

@@ -5,12 +5,12 @@ ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 09/25/2019
-ms.openlocfilehash: d60704e411a1ba45dd4902ad9101a416391743dd
-ms.sourcegitcommit: 622d149edf775af5a9633c2d12ccfddf7000b8fd
+ms.openlocfilehash: 2d250133d8cacb26d933d3774f397de4c949c72b7b58114759791c103d374c3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "104548489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987547"
 ---
 # <a name="multi-engine-synchronization"></a>Synchronisation multi-moteur
 
@@ -153,12 +153,12 @@ Les trois types de liste de commandes utilisent l’interface [**ID3D12GraphicsC
 
 Les listes de commandes de copie et de calcul peuvent utiliser les méthodes suivantes.
 
--   [**Fermer**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
+-   [**Plus**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close)
 -   [**CopyBufferRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion)
 -   [**CopyResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource)
 -   [**CopyTextureRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion)
 -   [**CopyTiles**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles)
--   [**Réinitialiser**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
+-   [**Initialisation**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-reset)
 -   [**ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier)
 
 Les listes de commandes Compute peuvent également utiliser les méthodes suivantes.
@@ -335,14 +335,14 @@ Pour accéder à une ressource sur plusieurs files d’attente, une application 
     -   Un « type » de file d’attente est l’un des trois suivants : Compute, 3D et Copy.
     -   Une file d’attente « classe de type » est l’un des deux suivants : Compute/3D et Copy.
 
--   Les indicateurs de copie (copie \_ dest et \_ source de copie) utilisés comme États initiaux représentent les États de la classe de type 3D/Compute. Pour utiliser une ressource initialement sur une file d’attente de copie, elle doit démarrer dans un État commun. L’État commun peut être utilisé pour toutes les utilisations dans une file d’attente de copie à l’aide des transitions d’État implicites. 
+-   Les indicateurs de copie (copie \_ dest et \_ source de copie) utilisés comme États initiaux représentent les États de la classe de type 3D/Compute. Pour utiliser une ressource initialement sur une file d’attente de copie, elle doit démarrer dans un État commun. L’État commun peut être utilisé pour toutes les utilisations dans une file d’attente de copie à l’aide des transitions d’État implicites. 
 -   Bien que l’état des ressources soit partagé entre toutes les files d’attente de calcul et 3D, il n’est pas autorisé à écrire simultanément dans la ressource sur des files d’attente différentes. « Simultanément » signifie non synchronisé, en notant que l’exécution non synchronisée n’est pas possible sur un matériel. Les règles suivantes s’appliquent.
 
     -   Une seule file d’attente peut écrire dans une ressource à la fois.
     -   Plusieurs files d’attente peuvent lire à partir de la ressource tant qu’elles ne lisent pas les octets modifiés par le writer (la lecture simultanée d’octets génère des résultats non définis).
     -   Une clôture doit être utilisée pour la synchronisation après l’écriture avant qu’une autre file d’attente puisse lire les octets écrits ou n’avoir aucun accès en écriture.
 
--   Les mémoires tampons d’arrière-plan en cours de présentation doivent être dans l' \_ \_ État commun état de la ressource Direct3D 12 \_ . 
+-   Les mémoires tampons d’arrière-plan en cours de présentation doivent être dans l' \_ \_ État commun état de la ressource Direct3D 12 \_ . 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -350,4 +350,4 @@ Pour accéder à une ressource sur plusieurs files d’attente, une application 
 
 [Utilisation de barrières de ressources pour synchroniser les États des ressources dans Direct3D 12](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)
 
-[Gestion de la mémoire dans Direct3D 12](memory-management.md)
+[Gestion de la mémoire dans Direct3D 12](memory-management.md)

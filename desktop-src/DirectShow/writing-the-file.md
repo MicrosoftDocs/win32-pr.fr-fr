@@ -4,12 +4,12 @@ ms.assetid: d3dbe6ab-810c-4798-a769-c3f00c52a93a
 title: Écriture du fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bda23b144956ab5afca9dd733b29a6f9d639cddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cabb5575f371c6525e58cc8ede7d05c2701acc31be325af46e3b00e6e2d8d20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051398"
 ---
 # <a name="writing-the-file"></a>Écriture du fichier
 
@@ -18,7 +18,7 @@ Pour écrire le fichier, il vous suffit d’exécuter le graphique de filtre en 
 Pour afficher la progression de l’opération d’écriture de fichiers, interrogez le filtre MUX pour l’interface [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) . Appelez la méthode [**IMediaSeeking :: GetDuration**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getduration) pour récupérer la durée du fichier. Périodiquement, lorsque le graphique est en cours d’exécution, appelez la méthode [**IMediaSeeking :: getCurrentPosition**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcurrentposition) pour récupérer la position actuelle du graphique dans le flux. La position actuelle divisée par la durée indique que le pourcentage est terminé.
 
 > [!Note]  
-> Une application interroge généralement le gestionnaire de graphique de filtre pour **IMediaSeeking**, mais l’écriture de fichier est une exception à cette règle. Le gestionnaire de graphes de filtres calcule la position actuelle à partir de la position de départ et la durée d’exécution du graphique, ce qui est précis pour la lecture de fichier, mais pas pour l’écriture de fichier. Par conséquent, pour obtenir un résultat précis, vous devez récupérer la position à partir du filtre MUX.
+> une application interroge généralement le gestionnaire de Graph de filtre pour **IMediaSeeking**, mais l’écriture de fichier est une exception à cette règle. le gestionnaire de Graph de filtre calcule la position actuelle à partir de la position de départ et la durée d’exécution du graphique, ce qui est précis pour la lecture de fichier, mais pas pour l’écriture de fichier. Par conséquent, pour obtenir un résultat précis, vous devez récupérer la position à partir du filtre MUX.
 
  
 
@@ -70,7 +70,7 @@ void OnTimer(HWND hDlg, IMediaSeeking *pSeek)
 
 
 
-Lorsque l’application reçoit un événement d’achèvement DirectShow, elle doit arrêter le graphique, comme illustré dans le code suivant :
+lorsque l’application reçoit un événement d’achèvement DirectShow, elle doit arrêter le graphique, comme illustré dans le code suivant :
 
 
 ```C++

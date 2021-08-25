@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d6e1ddb3be21e227c4dad404a06113f5c50a49
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10d9ef69c2a6e89154cd6d931e05f9e52b4c51b214319bca8dffa9f86786a3da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022189"
 ---
 # <a name="wm_getdlgcode-message"></a>\_Message WM GETDLGCODE
 
@@ -39,7 +39,7 @@ Envoyé à la procédure de fenêtre associée à un contrôle. Par défaut, le 
 *wParam* 
 </dt> <dd>
 
-Touche virtuelle, appuyée par l’utilisateur, qui invite Windows à émettre cette notification. Le gestionnaire doit gérer ces clés de manière sélective. Par exemple, le gestionnaire peut accepter et traiter **le \_ retour VK** mais **l' \_ onglet VK** délégué à la fenêtre propriétaire. Pour obtenir la liste des valeurs, consultez [**la section codes de clé virtuelle**](/windows/desktop/inputdev/virtual-key-codes).
+touche virtuelle, appuyée par l’utilisateur, qui vous invite Windows à émettre cette notification. Le gestionnaire doit gérer ces clés de manière sélective. Par exemple, le gestionnaire peut accepter et traiter **le \_ retour VK** mais **l' \_ onglet VK** délégué à la fenêtre propriétaire. Pour obtenir la liste des valeurs, consultez [**la section codes de clé virtuelle**](/windows/desktop/inputdev/virtual-key-codes).
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ La valeur de retour est une ou plusieurs des valeurs suivantes, indiquant le typ
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) retourne toujours la valeur zéro en réponse au message **WM \_ GETDLGCODE** , la procédure de fenêtre pour les classes de contrôle prédéfinies retourne un code approprié pour chaque classe.
 

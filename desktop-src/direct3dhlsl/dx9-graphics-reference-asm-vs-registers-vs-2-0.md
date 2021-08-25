@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 156367ec08a5f1ecd94181be56558f4ba07005b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd31f4ce5cac538624fe736642b30cbee9ba54579ee50da9a2ccd027847e9ecc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067969"
 ---
 # <a name="registers---vs_2_0"></a>Registres-vs \_ 2 \_ 0
 
@@ -26,17 +26,17 @@ Cette section contient des informations de référence pour les registres d’en
 
 | S’inscrire | Nom                                                                                      | Count      | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut     | DCL obligatoire |
 |----------|-------------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|-----------|---------|--------------|--------------|
-| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | Illimité       | 4         | Non      | Voir la remarque 1   | Oui          |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 12         | R/W (Lecture/écriture) | 3             | Illimité       | 4         | Non      | None         | Non           |
+| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | illimitées       | 4         | Non      | Voir la remarque 1   | Oui          |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 12         | R/W (Lecture/écriture) | 3             | illimitées       | 4         | Non      | Aucun         | Non           |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md)     | Voir la remarque 2 | R   | 1             | 2               | 4         | a0/aL | (0, 0, 0, 0) | Non           |
-| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W (Lecture/écriture) | 1             | 2               | 4         | Non      | None         | Non           |
-| p\#      | [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | Non      | FALSE        | Non           |
+| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W (Lecture/écriture) | 1             | 2               | 4         | Non      | Aucun         | Non           |
+| b\#      | [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | Non      | FALSE        | Non           |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-vs-registers-constant-integer.md) | 16         | R   | 1             | 1               | 4         | Non      | (0, 0, 0, 0) | Non           |
-| &       | [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | 2               | 1         | Non      | None         | Non           |
+| &       | [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | 2               | 1         | Non      | Aucun         | Non           |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -49,15 +49,15 @@ Remarques :
 
 | S’inscrire | Nom                                                                                          | Count | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------------------|-------|-----|-----------|---------|----------|--------------|
-| oPos     | [Registre de position](dx9-graphics-reference-asm-vs-registers-position.md)                     | 1     | W   | 4         | Non      | None     | Non           |
-| oFog     | [Registre de brouillard](dx9-graphics-reference-asm-vs-registers-fog.md)                               | 1     | W   | 1         | Non      | None     | Non           |
-| Décide     | [Registre de la taille du point](dx9-graphics-reference-asm-vs-registers-point-size.md)                 | 1     | W   | 1         | Non      | None     | Non           |
-| Diamètre\#     | [Registre des couleurs](dx9-graphics-reference-asm-vs-registers-color.md); Voir la remarque 1               | 2     | W   | 4         | Non      | None     | Non           |
-| oT\#     | [Registre de coordonnées de texture](dx9-graphics-reference-asm-vs-registers-texture-coordinate.md) | 8     | W   | 4         | Non      | None     | Non           |
+| oPos     | [Registre de position](dx9-graphics-reference-asm-vs-registers-position.md)                     | 1     | W   | 4         | Non      | Aucun     | Non           |
+| oFog     | [Registre de brouillard](dx9-graphics-reference-asm-vs-registers-fog.md)                               | 1     | W   | 1         | Non      | Aucun     | Non           |
+| Décide     | [Registre de la taille du point](dx9-graphics-reference-asm-vs-registers-point-size.md)                 | 1     | W   | 1         | Non      | Aucun     | Non           |
+| Diamètre\#     | [Registre des couleurs](dx9-graphics-reference-asm-vs-registers-color.md); Voir la remarque 1               | 2     | W   | 4         | Non      | Aucun     | Non           |
+| oT\#     | [Registre de coordonnées de texture](dx9-graphics-reference-asm-vs-registers-texture-coordinate.md) | 8     | W   | 4         | Non      | Aucun     | Non           |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -70,9 +70,9 @@ Remarques :
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

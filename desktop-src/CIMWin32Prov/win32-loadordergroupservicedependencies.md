@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b95d1aa01def951802434e787931ce348d04ccb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55684bb5382c5e253c8f72b929674b9730ba7cab51a6c0cae9c27946fad5ff8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085789"
 ---
 # <a name="win32_loadordergroupservicedependencies-class"></a>\_Classe LoadOrderGroupServiceDependencies Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance de qui représente les propriétés du service de ba
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ LoadOrderGroupServiceDependencies** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

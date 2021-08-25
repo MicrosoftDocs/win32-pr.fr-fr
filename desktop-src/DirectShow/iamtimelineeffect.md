@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineEffect fournit des méthodes pour manipuler les effets audio et vidéo dans les services de modification DirectShow (DES).
+description: l’interface IAMTimelineEffect fournit des méthodes de manipulation des effets audio et vidéo dans les Services d’édition de DirectShow.
 ms.assetid: 3cc8a5f8-3f57-4e2b-82dd-827e04c771f7
 title: Interface IAMTimelineEffect (qedit. h)
 ms.topic: reference
@@ -14,25 +14,25 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 8b9936616b9c4487849053d36c6a63290bd16b5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f710693c967e1f0ac73c69534e8ac90a65d6603e749cd2aeae6a355ed8517415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052759"
 ---
 # <a name="iamtimelineeffect-interface"></a>Interface IAMTimelineEffect
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineEffect` interface fournit des méthodes pour manipuler les effets audio et vidéo dans les [services de modification DirectShow](directshow-editing-services.md) (des). Un effet peut être ajouté à n’importe quel objet Timeline qui expose l’interface [**IAMTimelineEffectable**](iamtimelineeffectable.md) . Pour définir des propriétés sur un effet, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
+l' `IAMTimelineEffect` interface fournit des méthodes de manipulation des effets audio et vidéo dans les [Services d’édition de DirectShow](directshow-editing-services.md) . Un effet peut être ajouté à n’importe quel objet Timeline qui expose l’interface [**IAMTimelineEffectable**](iamtimelineeffectable.md) . Pour définir des propriétés sur un effet, utilisez l’interface [**IPropertySetter**](ipropertysetter.md) .
 
 L’objet DES EFFETS DES est en fait un wrapper pour l’un des deux autres objets :
 
--   Pour les effets audio, n’importe quel filtre d’effet audio DirectShow.
+-   pour les effets audio, tout DirectShow filtre d’effet audio.
 -   Pour les effets vidéo, et 1-entrée de l’objet de transformation DirectX.
 
 Microsoft ne prend plus en charge le développement d’objets de transformation DirectX tiers.
@@ -61,7 +61,7 @@ L’interface **IAMTimelineEffect** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -69,7 +69,7 @@ L’interface **IAMTimelineEffect** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

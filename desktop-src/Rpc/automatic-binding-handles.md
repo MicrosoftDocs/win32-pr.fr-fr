@@ -4,12 +4,12 @@ description: Les handles de liaison automatiques sont utiles lorsque l’applica
 ms.assetid: ba049369-6c8b-4313-a266-e0364a30056e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fe83d3f9029e0384c87e5e409583ff70f1e91ac
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b619b17e44e79e623bcffa84f4938d1278a7d146d6de90547cd833e1bf091167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023439"
 ---
 # <a name="automatic-binding-handles"></a>Handles de liaison automatiques
 
@@ -20,7 +20,7 @@ Par exemple, une opération d’horodatage peut être implémentée à l’aide 
 > [!Note]  
 > Les handles automatiques ne sont pas pris en charge pour la plateforme Macintosh.
 
- 
+ 
 
 Vous spécifiez l’utilisation de handles auto en incluant l’attribut de \[ [**\_ gestion automatique**](/windows/desktop/Midl/auto-handle) \] dans le CCP. L’exemple d’horodatage utilise le ACF suivant :
 
@@ -54,6 +54,6 @@ interface autoh
 
 L’avantage du descripteur automatique est que le développeur n’a pas besoin d’écrire du code pour gérer le descripteur ; les stubs gèrent automatiquement la liaison. Cela est très différent de l' [exemple Hello, World](tutorial.md), où le client gère le handle primitif implicite défini dans le ACF et doit appeler plusieurs fonctions runtime pour établir le handle de liaison.
 
- 
+ 
 
- 
+ 

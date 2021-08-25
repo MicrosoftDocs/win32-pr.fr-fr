@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Pwm.h
-ms.openlocfilehash: 81cf7b658a0024c3280db1523af34aaf2ef17262
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d4c3103663ceac65deff7744b0cf45a21a787959cc6e866bde5ac8673f7f64a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984429"
 ---
 # <a name="pwm_pin_get_polarity_output-structure"></a>Structure de sortie de la polarité du \_ code confidentiel PWM \_ \_ \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Contient une valeur de polarité à retourner.
 
@@ -54,8 +54,8 @@ Polarité de la broche ou du canal en tant que valeur de [**\_ polarité PWM**](
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                             |
 | Version KMDF minimale<br/>     | 1,19<br/>                                                                                  |
 | Version UMDF minimale<br/>     | 2.19<br/>                                                                                  |
 | En-tête<br/>                   | <dl> <dt>PWM. h (include PWM. h)</dt> </dl> |

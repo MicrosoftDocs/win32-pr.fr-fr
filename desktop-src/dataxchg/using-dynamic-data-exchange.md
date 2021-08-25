@@ -3,25 +3,25 @@ title: Utilisation de échange dynamique de données
 description: Cette rubrique fournit des exemples de code relatifs à l’échange dynamique de données.
 ms.assetid: 6d94403b-64b4-4763-868a-3b94431dab79
 keywords:
-- Échange dynamique de données (DDE), conversations
+- échange dynamique de données (DDE), conversations
 - DDE (échange dynamique de données), conversations
 - échange de données, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), exemples
+- échange dynamique de données (DDE), exemples
 - DDE (échange dynamique de données), exemples
-- Échange dynamique de données (DDE), commandes dans les applications serveur
+- échange dynamique de données (DDE), commandes dans les applications serveur
 - DDE (échange dynamique de données), commandes dans les applications serveur
-- Échange dynamique de données (DDE), liaisons de données
+- échange dynamique de données (DDE), liaisons de données
 - DDE (échange dynamique de données), liaisons de données
-- Échange dynamique de données (DDE), éléments
+- échange dynamique de données (DDE), éléments
 - DDE (échange dynamique de données), éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe20c4dedc38303fe9bcb9c4b0fae42d03ee536
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ad3a279e02b65d5540e5494512a44eefdfecdb18607cb12731cf7daa0d8569de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953663"
 ---
 # <a name="using-dynamic-data-exchange"></a>Utilisation de échange dynamique de données
 
@@ -41,7 +41,7 @@ Cette section contient des exemples de code sur les tâches suivantes :
 
 ## <a name="initiating-a-conversation"></a>Initiation d’une conversation
 
-Pour initier une conversation d’échange dynamique de données (DDE), le client envoie un message de [**\_ \_ lancement DDE**](wm-dde-initiate.md) . En règle générale, le client diffuse ce message en appelant [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage), avec-1 comme premier paramètre. Si l’application possède déjà le handle de fenêtre pour l’application serveur, elle peut envoyer le message directement à cette fenêtre. Le client prépare les atomes pour le nom de l’application et le nom de la rubrique en appelant [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma). Le client peut demander des conversations avec toute application serveur potentielle et pour toute rubrique potentielle en fournissant des atomes **null** (caractère générique) pour l’application et la rubrique.
+pour initier une conversation d’échange dynamique de données (dde), le client envoie un message de [**\_ \_ lancement dde**](wm-dde-initiate.md) . En règle générale, le client diffuse ce message en appelant [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage), avec-1 comme premier paramètre. Si l’application possède déjà le handle de fenêtre pour l’application serveur, elle peut envoyer le message directement à cette fenêtre. Le client prépare les atomes pour le nom de l’application et le nom de la rubrique en appelant [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma). Le client peut demander des conversations avec toute application serveur potentielle et pour toute rubrique potentielle en fournissant des atomes **null** (caractère générique) pour l’application et la rubrique.
 
 L’exemple suivant illustre la façon dont le client initie une conversation, où l’application et la rubrique sont spécifiées.
 
@@ -73,7 +73,7 @@ L’exemple suivant illustre la façon dont le client initie une conversation, o
 > [!Note]  
 > Si votre application utilise des atomes **null** , vous n’avez pas besoin d’utiliser les fonctions [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma) et [**GlobalDeleteAtom**](/windows/desktop/api/Winbase/nf-winbase-globaldeleteatom) . Dans cet exemple, l’application cliente crée deux atomes globaux contenant le nom du serveur et le nom de la rubrique, respectivement.
 
- 
+ 
 
 L’application cliente envoie un message [**WM de \_ \_ lancement DDE**](wm-dde-initiate.md) avec ces deux atomes dans le paramètre *lParam* du message. Dans l’appel à la fonction [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) , le handle de fenêtre spécial – 1 indique au système d’envoyer ce message à toutes les autres applications actives. **SendMessage** ne retourne pas à l’application cliente tant que toutes les applications qui reçoivent le message n’ont pas retourné le contrôle au système. Cela signifie que tous les messages d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE qui sont envoyés en réponse par les applications serveur sont assurés d’être traités par le client au moment où l’appel **SendMessage** est retourné.
 
@@ -353,7 +353,7 @@ if (atomItem == 0)
 > [!Note]  
 > L’envoi de données à l’aide d’un message Colors de l' [**\_ échange \_**](wm-dde-poke.md) de données par l’intermédiaire de WM revient essentiellement à les envoyer à l’aide de [**\_ \_ données DDE WM**](wm-dde-data.md), à la différence que **WM \_ DDE \_** est envoyé du client au serveur.
 
- 
+ 
 
 Si le serveur est en mesure d’accepter la valeur de l’élément de données dans le format affiché par le client, le serveur traite la valeur de l’élément de manière appropriée et envoie au client un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE positif positif. S’il ne parvient pas à traiter la valeur de l’élément, en raison de son format ou pour d’autres raisons, le serveur envoie au client un message d' **\_ \_ accusé** de réception DDE négatif négatif.
 
@@ -463,7 +463,7 @@ Les applications qui prennent en charge les liaisons de données à chaud ou à 
 
 Une application serveur prend en charge le format de lien du presse-papiers en plaçant dans le presse-papiers une chaîne contenant les noms de l’application, de la rubrique et de l’élément lorsque l’utilisateur choisit la commande **copier** dans le menu **Edition** . Le format de lien standard est le suivant :
 
-*rubrique ***\\ 0 de l’application 0**** * * 0 ***\\ 0*** \\ \\**
+*application ***\\ 0**_rubrique_*_\\ 0 0_**_\\ \\_*
 
 Un caractère null unique sépare les noms et deux caractères null terminent la chaîne entière.
 
@@ -833,6 +833,6 @@ VOID SendTerminate(HWND hwndServerDDE, HWND hwndClientDDE)
 
 
 
- 
+ 
 
- 
+ 

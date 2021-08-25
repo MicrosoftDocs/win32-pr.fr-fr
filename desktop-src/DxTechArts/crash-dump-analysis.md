@@ -4,12 +4,12 @@ description: Cet article technique fournit des informations sur l’écriture et
 ms.assetid: 575c4716-18c2-7b11-7308-aa2e3d8efac7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7558e47d08cb0183b8d9cefa5f22f0750fd1c598
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a3c68891e2e20938036bd016e6e786a2cdad0096ae44af0e8974a88052963be0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075519"
 ---
 # <a name="crash-dump-analysis"></a>Analyse de vidage sur plantage 
 
@@ -29,7 +29,7 @@ Tous les bogues ne peuvent pas être détectés avant la mise en version, ce qui
 
 Les options de base pour l’écriture d’un minidump sont les suivantes :
 
--   Ne rien faire. Windows génère automatiquement un minidump chaque fois qu’un programme lève une exception non gérée. La génération automatique d’un minidump est disponible depuis Windows XP. Si l’utilisateur l’autorise, le Minidump sera envoyé à Microsoft, et non pas au développeur, via Rapport d’erreurs Windows (WER). Les développeurs peuvent accéder à ces minidumps via le [programme d’application de bureau Windows](../appxpkg/windows-desktop-application-program.md).
+-   Ne rien faire. Windows génère automatiquement un minidump chaque fois qu’un programme lève une exception non gérée. la génération automatique d’un minidump est disponible depuis Windows XP. si l’utilisateur l’autorise, le minidump sera envoyé à Microsoft, et non pas au développeur, via Rapport d’erreurs Windows (WER). les développeurs peuvent accéder à ces minidumps via le [programme d’Application de bureau Windows](../appxpkg/windows-desktop-application-program.md).
 
     L’utilisation de WER requiert les éléments suivants :
 
@@ -38,10 +38,10 @@ Les options de base pour l’écriture d’un minidump sont les suivantes :
 
     Si vous implémentez une routine personnalisée pour les exceptions non gérées, vous êtes fortement invité à utiliser la fonction [**ReportFault**](/windows/desktop/api/errorrep/nf-errorrep-reportfault) dans le gestionnaire d’exceptions pour envoyer également un minidump automatisé à wer. La fonction **ReportFault** gère tous les problèmes de connexion et d’envoi du Minidump à wer. Ne pas envoyer de minidumps à WER ne respecte pas les exigences des jeux pour Windows.
 
-    Pour plus d’informations sur le fonctionnement de WER, consultez fonctionnement de [rapport d’erreurs Windows](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). Pour obtenir une explication des détails de l’inscription, consultez [Présentation de rapport d’erreurs Windows](https://msdn.microsoft.com/) dans la [zone ISV](https://msdn.microsoft.com/)de MSDN.
+    pour plus d’informations sur le fonctionnement de WER, consultez fonctionnement de [Rapport d’erreurs Windows](https://www.microsoft.com/whdc/maintain/WER/WERWorks.mspx). pour obtenir une explication des détails de l’inscription, consultez [présentation de Rapport d’erreurs Windows](https://msdn.microsoft.com/) dans la [Zone ISV](https://msdn.microsoft.com/)de MSDN.
 
--   Utilisez un produit de la Microsoft Visual Studio Team System. Dans le menu **Déboguer** , cliquez sur **enregistrer le dump sous** pour enregistrer une copie d’un vidage. L’utilisation d’un vidage enregistré localement n’est qu’une option de test et de débogage interne.
--   Ajoutez du code à votre projet. Ajoutez la fonction [**entrée**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) et le code de gestion des exceptions approprié pour enregistrer et envoyer un minidump directement au développeur. Cet article montre comment implémenter cette option. Toutefois, Notez que **entrée** ne fonctionne pas actuellement avec du code managé et n’est disponible que sur Windows XP, Windows Vista, Windows 7.
+-   utilisez un produit de la Microsoft Visual Studio Team System. Dans le menu **Déboguer** , cliquez sur **enregistrer le dump sous** pour enregistrer une copie d’un vidage. L’utilisation d’un vidage enregistré localement n’est qu’une option de test et de débogage interne.
+-   Ajoutez du code à votre projet. Ajoutez la fonction [**entrée**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) et le code de gestion des exceptions approprié pour enregistrer et envoyer un minidump directement au développeur. Cet article montre comment implémenter cette option. toutefois, notez que **entrée** ne fonctionne pas actuellement avec du code managé et n’est disponible que sur Windows XP, Windows Vista, Windows 7.
 
 ## <a name="thread-safety"></a>Sécurité des threads
 
@@ -126,7 +126,7 @@ MSDN contient des informations plus détaillées sur la structure d’informatio
 
 Dumpchk.exe est un utilitaire de ligne de commande qui peut être utilisé pour vérifier qu’un fichier de vidage a été créé correctement. Si Dumpchk.exe génère une erreur, cela signifie que le fichier de vidage est endommagé et ne peut pas être analysé. Pour plus d’informations sur l’utilisation de Dumpchk.exe, consultez [comment utiliser Dumpchk.exe pour vérifier un fichier d’image mémoire](https://support.microsoft.com/kb/315271/).
 
-Dumpchk.exe est inclus sur le CD-ROM du produit Windows XP et peut être installé sur les outils de support des fichiers programme du lecteur système \\ \\ \\ en exécutant Setup.exe dans le \\ dossier Outils de support du \\ CD-ROM du produit Windows XP. Vous pouvez également vous procurer la dernière version de Dumpchk.exe en téléchargeant et en installant les outils de débogage disponibles à partir des outils de débogage [Windows](https://www.microsoft.com/whdc/devtools/debugging/) sur [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
+Dumpchk.exe est inclus sur le cd-rom du produit Windows XP et peut être installé sur les \\ outils de prise en charge des fichiers programme du lecteur système \\ \\ en exécutant Setup.exe dans le \\ dossier outils de support du \\ CD Windows XP. vous pouvez également vous procurer la dernière version de Dumpchk.exe en téléchargeant et en installant les outils de débogage disponibles à partir de [Windows outils de débogage](https://www.microsoft.com/whdc/devtools/debugging/) sur [Windows matériel developer Central](https://www.microsoft.com/whdc/).
 
 ## <a name="analyzing-a-minidump"></a>Analyse d’un minidump
 
@@ -135,7 +135,7 @@ L’ouverture d’un minidump pour l’analyse est aussi simple que d’en crée
 **Pour analyser un minidump**
 
 1.  Ouvrez Visual Studio.
-2.  Dans le menu **fichier** , cliquez sur **ouvrir un projet**.
+2.  Dans le menu **fichier** , cliquez sur **ouvrir Project**.
 3.  Définissez **fichiers de type** sur **fichiers dump**, accédez au fichier dump, sélectionnez-le, puis cliquez sur **Ouvrir.**
 4.  Exécutez le débogueur.
 
@@ -143,7 +143,7 @@ Le débogueur crée un processus simulé. Le processus simulé sera arrêté au 
 
 ### <a name="using-the-microsoft-public-symbol-server"></a>Utilisation du serveur de symboles publics Microsoft
 
-Pour obtenir la pile pour les pannes au niveau du pilote ou du système, il peut être nécessaire de configurer Visual Studio pour qu’il pointe vers le serveur de symboles publics Microsoft.
+pour obtenir la pile pour les pannes au niveau du pilote ou du système, il peut être nécessaire de configurer Visual Studio pour qu’il pointe vers le serveur de symboles publics Microsoft.
 
 **Pour définir un chemin d’accès au serveur de symboles Microsoft**
 
@@ -156,9 +156,9 @@ Pour obtenir la pile pour les pannes au niveau du pilote ou du système, il peut
 
 ### <a name="debugging-a-minidump-with-windbg"></a>Débogage d’un minidump avec WinDbg
 
-Vous pouvez également utiliser WinDbg, un débogueur qui fait partie des outils de débogage Windows, pour déboguer un minidump. WinDbg vous permet de déboguer sans avoir à utiliser Visual Studio. Pour télécharger les outils de débogage Windows, consultez [outils de débogage Windows](https://www.microsoft.com/whdc/devtools/debugging/) sur [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
+vous pouvez également utiliser WinDbg, un débogueur qui fait partie des outils de débogage Windows, pour déboguer un minidump. WinDbg vous permet de déboguer sans avoir à utiliser Visual Studio. pour télécharger Windows outils de débogage, consultez [Windows outils de débogage](https://www.microsoft.com/whdc/devtools/debugging/) sur [Windows matériel developer Central](https://www.microsoft.com/whdc/).
 
-Après avoir installé les outils de débogage Windows, vous devez entrer le chemin d’accès aux symboles dans WinDbg.
+après avoir installé Windows outils de débogage, vous devez entrer le chemin d’accès aux symboles dans WinDbg.
 
 **Pour entrer un chemin d’accès aux symboles dans WinDbg**
 
@@ -175,6 +175,6 @@ Les développeurs doivent également savoir comment leur schéma de protection c
 
 La fonction [**entrée**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) peut être un outil extrêmement utile pour la collecte et la résolution des bogues une fois que le produit a été publié. L’écriture d’un gestionnaire d’exceptions personnalisé qui utilise **entrée** permet au développeur de personnaliser la collection d’informations et d’améliorer le processus de débogage. La fonction est suffisamment flexible pour être utilisée dans n’importe quel projet basé sur C++ et doit être considérée comme faisant partie du processus de stabilité du projet.
 
- 
+ 
 
- 
+ 

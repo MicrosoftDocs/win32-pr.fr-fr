@@ -3,7 +3,7 @@ title: LVN_INSERTITEM le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View qu’un nouvel élément a été inséré. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 8d368fb2-e4fc-4dc4-a89e-872ba1278b75
 keywords:
-- Contrôles Windows de code de notification LVN_INSERTITEM
+- LVN_INSERTITEM les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba70ba806dea2725385badee4b5c57e927a9d42b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee1c706c7329e192559cb307962e293f0bbf02109c81fcde177eb36d8d39e37e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104479437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062149"
 ---
 # <a name="lvn_insertitem-notification-code"></a>\_Code de notification LVN INSERTITEM
 
@@ -55,8 +55,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

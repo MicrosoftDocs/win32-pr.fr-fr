@@ -4,16 +4,16 @@ ms.assetid: b668f1c3-eed0-44c5-921f-e92c016130f0
 title: GUID de format d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d69d941e8c644597fc182a9a0ed1207a88bad060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6737795e2315ae1d69790fbdb7a981dc976181e77f944a899047781070b707b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054939"
 ---
 # <a name="object-format-guids"></a>GUID de format d’objet
 
-Le format d’un fichier sur un appareil peut être décrit par une valeur **GUID** . Cette valeur est spécifiée par la **propriété \_ \_ format de l’objet wpd** . Les appareils mobiles Windows définissent les formats suivants :
+Le format d’un fichier sur un appareil peut être décrit par une valeur **GUID** . Cette valeur est spécifiée par la **propriété \_ \_ format de l’objet wpd** . Windows Les appareils mobiles définissent les formats suivants :
 
 
 
@@ -39,20 +39,20 @@ Le format d’un fichier sur un appareil peut être décrit par une valeur **GUI
 | \_ \_ fichier exécutable au format d’objet wpd \_            | Exécutable                                                                                                                                                   |
 | \_format d’objet wpd \_ \_ EXIF                  | Image (format de fichier Exchanger)                                                                                                                             |
 | \_format d’objet wpd \_ \_ FLAC                  | Audio (FLAC)                                                                                                                                                 |
-| \_format d’objet wpd \_ \_ FLASHPIX              | Image (format d’image de stockage structuré)                                                                                                                      |
+| \_format d’objet wpd \_ \_ FLASHPIX              | image (Format d’image Stockage structuré)                                                                                                                      |
 | \_ \_ gif format d’objet wpd \_                   | Image (GIF, format d’échange Graphics)                                                                                                                     |
 | \_ \_ format \_ HTML de l’objet wpd                  | HTML                                                                                                                                                         |
-| \_icône de \_ format d’objet wpd \_                  | Icône Windows (ICO)                                                                                                                                           |
+| \_icône de \_ format d’objet wpd \_                  | icône Windows (ICO)                                                                                                                                           |
 | \_format d’objet wpd \_ \_ JFIF                  | Image (format d’échange JPEG)                                                                                                                              |
 | \_Format d’objet wpd \_ \_ JP2                   | Image (format de fichier de base JPEG2000)                                                                                                                        |
 | \_format d’objet wpd \_ \_ JPEGXR                | Image (JPEGXR, également appelée photo HD)                                                                                                                 |
 | \_format d’objet wpd \_ \_ JPX                   | Image (format de fichier étendu JPEG2000)                                                                                                                        |
 | \_Format d’objet wpd \_ \_ M3UPLAYLIST           | Sélection (M3U)                                                                                                                                               |
 | format d’objet WPD fichier \_ \_ \_ \_ HTML compilé mht \_   | Format de fichier de document HTML compilé par MHT                                                                                                                       |
-| \_format d’objet wpd \_ \_ Microsoft \_ Excel      | Format de fichier de document Excel Microsoft Office                                                                                                                  |
-| \_format d’objet wpd \_ \_ Microsoft \_ PowerPoint | Format de fichier de document PowerPoint Microsoft Office                                                                                                             |
-| \_format d’objet wpd \_ \_ Microsoft \_ wfc        | Format de fichier Windows Connect Now                                                                                                                              |
-| \_format d’objet wpd \_ \_ Microsoft \_ Word       | Format de fichier de document Word Microsoft Office                                                                                                                   |
+| \_format d’objet wpd \_ \_ Microsoft \_ Excel      | Microsoft Office format de fichier de Document Excel                                                                                                                  |
+| \_format d’objet wpd \_ \_ Microsoft \_ PowerPoint | Microsoft Office format de fichier de Document PowerPoint                                                                                                             |
+| \_format d’objet wpd \_ \_ Microsoft \_ wfc        | format de fichier Windows Connect Now                                                                                                                              |
+| \_format d’objet wpd \_ \_ Microsoft \_ Word       | Microsoft Office Format de fichier de document Word                                                                                                                   |
 | \_Format d’objet wpd \_ \_ MP2                   | Format de fichier audio ou vidéo (MP2)                                                                                                                             |
 | FORMAT de l' \_ objet wpd \_ \_ mp3                   | Audio (MP3)                                                                                                                                                  |
 | \_Format d’objet wpd \_ \_ M4A                   | Fichier audio MPEG4                                                                                                                                             |
@@ -72,7 +72,7 @@ Le format d’un fichier sur un appareil peut être décrit par une valeur **GUI
 | \_TIFF ( \_ format d’objet wpd) \_                  | Image (format de fichier d’image de balise)                                                                                                                                |
 | \_format d’objet wpd \_ \_ TIFFEP                | Image (format de fichier d’image de balise pour photographie électronique)                                                                                                     |
 | \_format d’objet wpd \_ \_ TIFFIT                | Image (format de fichier d’image de balise pour la technologie d’information)                                                                                                   |
-| \_format d’objet wpd \_ \_ non spécifié           | Format d’objet non défini ou non spécifié sur l’appareil. Elle est utilisée pour les objets qui ne peuvent pas être spécifiés par les codes de format des appareils mobiles Windows définis. |
+| \_format d’objet wpd \_ \_ non spécifié           | Format d’objet non défini ou non spécifié sur l’appareil. elle est utilisée pour les objets qui ne peuvent pas être spécifiés par les codes de format de Windows appareils mobiles définis. |
 | \_Format d’objet wpd \_ \_ VCALENDAR1            | vCalendar format de fichier (vCalendar version 1)                                                                                                                  |
 | \_Format d’objet wpd \_ \_ VCARD2                | format de fichier vCard (vCard version 2)                                                                                                                          |
 | \_Format d’objet wpd \_ \_ VCARD3                | format de fichier vCard (vCard version 3)                                                                                                                          |

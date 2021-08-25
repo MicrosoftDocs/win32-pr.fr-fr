@@ -4,12 +4,12 @@ ms.assetid: 66b46a57-288b-49e5-bf97-90c6d61ccfaa
 title: AVEncDDLoRoSurroundMixLvl_x10, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ddac359d11b472eccea1e14158d29daa7adeb90
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 23286c8f36e9a303e7ea3f027773e02c0136299c0482491c4517fff25dbf2f0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087649"
 ---
 # <a name="avencddlorosurroundmixlvl_x10-property"></a>AVEncDDLoRoSurroundMixLvl \_ x10, propriété
 
@@ -35,8 +35,8 @@ La valeur est spécifiée comme décibels (dB) x 10.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

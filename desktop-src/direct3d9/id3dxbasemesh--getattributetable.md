@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7f5d27de884f72b46db900487e26f1099bf30949
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4933c3e15faee28448a653c5479be0d976abfd7bd913a7b50ef34acf4b52f6f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026499"
 ---
 # <a name="id3dxbasemeshgetattributetable-method"></a>ID3DXBaseMesh :: GetAttributeTable, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers le nombre d’entrées stockées dans pAttribTable ou une valeur �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Une table d’attributs est créée par [**ID3DXMesh :: Optimize**](id3dxmesh--optimize.md) et en passant D3DXMESHOPT \_ ATTRSORT pour le paramètre flags.
 

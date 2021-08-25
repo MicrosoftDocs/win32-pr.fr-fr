@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16d35f62713a3f4669db191891d2fb6b1694cabe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51bc4b56b9aa606892002fbef0eda8036c45442c06ce06b8561afba57620b7a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028429"
 ---
 # <a name="rasadminusersetinfo-function"></a>RasAdminUserSetInfo fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo) .\]
 
 La fonction **RasAdminUserSetInfo** définit les autorisations RAS et le numéro de téléphone de rappel pour un utilisateur spécifié.
 
@@ -85,7 +85,7 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes d’erre
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la définition des autorisations RAS pour un utilisateur, le membre **bfPrivilege** de la structure de l' [**\_ utilisateur RAS \_ 0**](ras-user-0-str.md) doit spécifier au moins l’un des indicateurs de rappel. Par exemple, pour définir les privilèges d’un utilisateur afin d’autoriser les droits d’accès à distance, mais aucun privilège de rappel, définissez **bfPrivilege** sur RASPRIV \_ DialinPrivilege \| RASPRIV \_ nocallback.
 

@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb63c4242ae8fa3cca5133a25d2742d07210ca1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d7b144153d94ba1c28234e38e3983eb4a1ab165f4bda26b97eac00799cb3e9ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972299"
 ---
 # <a name="win32_pagefile-class"></a>\_Classe du fichier d’échange Win32
 
@@ -990,7 +990,7 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe du **\_ fichier d’échange Win32** est dérivée du [**\_ répertoire CIM**](cim-directory.md).
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec13a7f29a06bab4f79ddb58932796f8363adadc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0491bfba7e5b739a2b46674cc2f6506017810d4f1e51693d4478720c67a4a4da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055069"
 ---
 # <a name="cpullpindisconnect-method"></a>CPullPin. Disconnect, méthode
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode interrompt toute connexion effectuée dans la méthode [**CPullPin :: Connect**](cpullpin-connect.md) . Appelez cette méthode à l’intérieur de votre méthode [**IPIN ::D éconnecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-disconnect) . (Si votre code confidentiel est dérivé de [**CBasePin**](cbasepin.md), remplacez [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) pour appeler cette méthode.)
+cette méthode interrompt toute connexion effectuée dans la méthode [**CPullPin :: Connecter**](cpullpin-connect.md) . Appelez cette méthode à l’intérieur de votre méthode [**IPIN ::D éconnecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-disconnect) . (Si votre code confidentiel est dérivé de [**CBasePin**](cbasepin.md), remplacez [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) pour appeler cette méthode.)
 
 ## <a name="requirements"></a>Configuration requise
 

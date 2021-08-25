@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bfb26f6c71d544e0c0a6a4d833b40a5d15ae5485
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c08e22ad44cb1eec461ebe70361a8ee4640a7fdf5a7eb7040b2774a520be7a05
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904359"
 ---
 # <a name="event-schema"></a>Schéma d’événement
 
@@ -26,11 +26,11 @@ Le schéma d’événement définit les éléments et types suivants qui identif
 
 La section éléments contient les noms des éléments que vous trouverez dans les événements journalisés. Toutefois, pour obtenir les détails de chaque élément, consultez le type complexe qui contient l’élément.
 
-Le SDK Windows inclut le schéma dans le \\ fichier include \\ Event. xsd.
+le SDK Windows inclut le schéma dans le \\ fichier include \\ Event. xsd.
 
 Vous pouvez utiliser ce schéma pour identifier les éléments et les attributs lors de l’appel de la fonction [**EvtRender**](/windows/desktop/api/WinEvt/nf-winevt-evtrender) pour afficher des sections ou des propriétés spécifiques de l’événement. Pour obtenir un exemple qui montre comment utiliser ce schéma lors du rendu des événements, consultez [rendu des événements](rendering-events.md).
 
-Outre le schéma d’événement, le journal des événements Windows définit également les schémas suivants :
+outre le schéma d’événement, Windows journal des événements définit également les schémas suivants :
 
 -   [Schéma EventManifest](eventmanifestschema-schema.md): définit les éléments et les types utilisés pour écrire un manifeste d’instrumentation.
 -   [Schéma de requête](queryschema-schema.md): définit les éléments et les types utilisés pour écrire une requête afin de récupérer des événements à partir d’un ou plusieurs canaux.

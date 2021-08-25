@@ -5,23 +5,23 @@ ms.assetid: 771e0bbf-bd73-4e87-aa1e-945c1287b517
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20680a32c8b35e3fa2f1ab15c732683d424550f0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82e1064638844039091dbe93aa1fedc75cb93f4aa1d012f8864e0154673c6cc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989079"
 ---
 # <a name="kernel-object-namespaces"></a>Espaces de noms d’objets de noyau
 
-Un serveur de Services Bureau à distance possède plusieurs espaces de noms pour les objets de noyau nommés suivants : événements, sémaphores, mutex, minuteries prédéfinies, objets de mappage de fichiers et objets de traitement. Il existe un espace de noms global utilisé principalement par les services dans les applications client/serveur. En outre, chaque session client dispose d’un espace de noms distinct pour ces objets, comme dans Windows Vista.
+Un serveur de Services Bureau à distance possède plusieurs espaces de noms pour les objets de noyau nommés suivants : événements, sémaphores, mutex, minuteries prédéfinies, objets de mappage de fichiers et objets de traitement. Il existe un espace de noms global utilisé principalement par les services dans les applications client/serveur. en outre, chaque session client dispose d’un espace de noms distinct pour ces objets, par exemple dans Windows Vista.
 
 Les espaces de noms de session client distincts permettent à plusieurs clients d’exécuter les mêmes applications sans interférer entre eux. Pour les processus démarrés dans le cadre d’une session cliente, le système utilise l’espace de noms de session par défaut. Toutefois, ces processus peuvent utiliser l’espace de noms global en ajoutant le \\ préfixe « global » au nom de l’objet. Par exemple, le code suivant appelle [**CreateEvent**](/windows/desktop/api/synchapi/nf-synchapi-createeventa) et crée un objet d’événement nommé CSAPP dans l’espace de noms global :
 
 > [!Note]  
-> L’espace de noms global n’est pas disponible pour les applications du Windows Store.
+> l’espace de noms global n’est pas disponible pour les applications du windows Store Windows.
 
- 
+ 
 
 `CreateEvent( NULL, FALSE, FALSE, "Global\\CSAPP" );`
 
@@ -41,6 +41,6 @@ Le changement rapide d’utilisateur est implémenté à l’aide de sessions de
 
 La création d’un objet de mappage de fichier dans l’espace de noms global, à l’aide de [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga), à partir d’une session autre que la session zéro est une opération privilégiée. Pour cette raison, [SeCreateGlobalPrivilege](/windows/desktop/SecAuthZ/authorization-constants) doit être activé pour qu’une application exécutée dans une session de serveur de l’hôte de session Bureau à distance arbitraire Bureau à distance soit activée afin de pouvoir créer un objet de mappage de fichiers dans l’espace de noms global. La vérification des privilèges est limitée à la création d’objets de mappage de fichiers et ne s’applique pas à l’ouverture de ceux qui existent déjà. Par exemple, si un service ou le système crée un objet de mappage de fichiers, tout processus en cours d’exécution dans une session peut accéder à cet objet de mappage de fichiers, à condition que l’utilisateur dispose de l’accès nécessaire.
 
- 
+ 
 
- 
+ 

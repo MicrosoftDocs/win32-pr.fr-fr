@@ -4,17 +4,17 @@ ms.assetid: 78fd0b80-baec-4174-9c55-f061627c3599
 title: ShowMenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53b78c2751a270b56f95bac223ab80b2e2143b04
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b56eb6767a8144bab3de832570db63bc4e2cdc012490f776f52b6c8977cce9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050449"
 ---
 # <a name="showmenu"></a>ShowMenu
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 

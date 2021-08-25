@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 5f1abd75d83fedf29da1bb5f67073dd74ca10816fdeb6ca43a61f40ad8ae26c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112588034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048609"
 ---
 # <a name="directwrite-interfaces"></a>Interfaces DirectWrite
 
@@ -27,14 +27,14 @@ DirectWrite définit les interfaces suivantes.
 | [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, qui peut être utilisé pour le rendu des glyphes. |
 | [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) | Cette interface permet à l’application d’énumérer les exécutions de glyphes de couleurs. |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | Énumérateur pour une collection ordonnée de glyphes de couleurs. |
-| [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Utilisé pour créer tous les objets DirectWrite suivants. Cette interface est l’interface de fabrique racine pour tous les objets DirectWrite. |
-| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | Interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory2**](idwritefactory2.md) | Interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | Interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
-| [**IDWriteFactory4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4) | Interface de fabrique racine pour tous les objets DirectWrite. |
-| [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) | Interface de fabrique racine pour tous les objets DirectWrite. |
-| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | Représente un objet de fabrique à partir duquel tous les objets DirectWrite sont créés. **IDWriteFactory6** ajoute de nouvelles fonctionnalités pour travailler avec les polices et les ressources de police. |
-| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | Cette interface représente un objet de fabrique à partir duquel tous les objets DirectWrite sont créés. **IDWriteFactory7** ajoute de nouvelles fonctionnalités pour travailler avec les polices système. |
+| [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | utilisé pour créer tous les objets DirectWrite suivants. cette interface est l’interface de fabrique racine pour tous les objets DirectWrite. |
+| [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1) | interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory2**](idwritefactory2.md) | interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory3) | interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) . |
+| [**IDWriteFactory4**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory4) | interface de fabrique racine pour tous les objets DirectWrite. |
+| [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) | interface de fabrique racine pour tous les objets DirectWrite. |
+| [**IDWriteFactory6**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory6) | il s’agit d’un objet de fabrique à partir duquel tous les objets DirectWrite sont créés. **IDWriteFactory6** ajoute de nouvelles fonctionnalités pour travailler avec les polices et les ressources de police. |
+| [**IDWriteFactory7**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory7) | cette interface représente un objet de fabrique à partir duquel tous les objets DirectWrite sont créés. **IDWriteFactory7** ajoute de nouvelles fonctionnalités pour travailler avec les polices système. |
 | [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) | Représente une police physique dans une collection de polices. Cette interface est utilisée pour créer des visages de polices à partir de polices physiques, ou pour récupérer des informations telles que les métriques de type police ou les noms de police des visages de police existants. |
 | [**IDWriteFont1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefont1) | Représente une police physique dans une collection de polices. |
 | [**IDWriteFont2**](idwritefont2.md) | Représente une police physique dans une collection de polices. |

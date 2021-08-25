@@ -1,6 +1,6 @@
 ---
-title: Constantes du collecteur d’événements Windows (Evcoll. h)
-description: Le kit de développement logiciel (SDK) du collecteur d’événements Windows contient les constantes suivantes.
+title: Windows Constantes du collecteur d’événements (Evcoll. h)
+description: le kit de développement logiciel (SDK) du collecteur d’événements Windows contient les constantes suivantes.
 ms.assetid: 2ba862f9-6849-43b3-8914-e18ede1d63c0
 ms.tgt_platform: multiple
 topic_type:
@@ -19,16 +19,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf6e7e99186e2148bf6ec3400aadf760a79a2331
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d168ecb16c293c524c4dffcb16aee7db2924e23219e42d402939ab26b4bbecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005979"
 ---
-# <a name="windows-event-collector-constants"></a>Constantes du collecteur d’événements Windows
+# <a name="windows-event-collector-constants"></a>Windows Constantes du collecteur d’événements
 
-Le kit de développement logiciel (SDK) du collecteur d’événements Windows contient les constantes suivantes.
+le kit de développement logiciel (SDK) du collecteur d’événements Windows contient les constantes suivantes.
 
 <dl> <dt>
 

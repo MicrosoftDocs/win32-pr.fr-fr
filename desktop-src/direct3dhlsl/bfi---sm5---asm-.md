@@ -4,12 +4,12 @@ description: En fonction d’une plage de bits du LSB d’un nombre, placez ce n
 ms.assetid: BA84C882-A141-4AD2-8FD9-C60F1483FC65
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14f8b9f6ef126ec3c6a31bf330dfd89cf0770c4
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1452b1f15525753738ee6f74a1bd43473f43033346c9b493cd72222eaab22cb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068529"
 ---
 # <a name="bfi-sm5---asm"></a>BFI (SM5-ASM)
 
@@ -38,7 +38,7 @@ En fonction d’une plage de bits du LSB d’un nombre, placez ce nombre de bits
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les LSB 5 bits de *src0* fournissent la largeur de champ de bits (0-31) à prendre de *src2*.
 
@@ -56,7 +56,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -70,9 +70,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

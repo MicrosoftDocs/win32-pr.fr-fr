@@ -3,7 +3,7 @@ title: Code de notification EN_REQUESTRESIZE (RichEdit. h)
 description: Avertit une fenêtre parente d’un contrôle RichEdit que le contenu du contrôle est plus petit ou plus grand que la taille de la fenêtre du contrôle. Un contrôle RichEdit envoie ce code de notification sous la forme d’un \_ message WM Notify.
 ms.assetid: 708c23b1-7b81-46f1-9595-46230693855d
 keywords:
-- Contrôles Windows de code de notification EN_REQUESTRESIZE
+- EN_REQUESTRESIZE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60214d8902297eb7cd77ded481b0604929e7adb1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b15c21b180c2843eda7947946f6dc98d42caab1bad90383d6afe4a4f8002739
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047579"
 ---
 # <a name="en_requestresize-notification-code"></a>\_Code de notification en REQUESTRESIZE
 
@@ -49,7 +49,7 @@ Structure [**REQRESIZE**](/windows/desktop/api/Richedit/ns-richedit-reqresize) q
 
 Ce code de notification ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour prendre en charge le comportement sans fin d’un contrôle RichEdit, la fenêtre parente doit redimensionner le contrôle lorsqu’il reçoit ce code de notification.
 
@@ -61,8 +61,8 @@ Pour recevoir les \_ codes de notification en REQUESTRESIZE, spécifiez [**ENM \
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 
