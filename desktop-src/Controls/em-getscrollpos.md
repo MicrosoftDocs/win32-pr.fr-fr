@@ -3,7 +3,7 @@ title: Message EM_GETSCROLLPOS (RichEdit. h)
 description: Obtient la position de défilement actuelle du contrôle d’édition.
 ms.assetid: 26e122da-f1b4-4694-978c-ff678dad5d9f
 keywords:
-- EM_GETSCROLLPOS les contrôles de message Windows
+- EM_GETSCROLLPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70458abca94e483f8e202f13ecaed3df04a68366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42bde137096ae3c13582017f91b82c1eb9100097bb76f0d1babb91fa47b52196
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119800029"
 ---
 # <a name="em_getscrollpos-message"></a>\_Message GETSCROLLPOS em
 
@@ -47,7 +47,7 @@ Pointeur vers une structure de [**points**](/previous-versions//dd162805(v=vs.85
 
 Ce message retourne toujours la valeur 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs retournées dans la structure [**point**](/previous-versions//dd162805(v=vs.85)) sont des valeurs 16 bits (même dans les champs de largeur 32 bits).
 
@@ -57,8 +57,8 @@ Les valeurs retournées dans la structure [**point**](/previous-versions//dd1628
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

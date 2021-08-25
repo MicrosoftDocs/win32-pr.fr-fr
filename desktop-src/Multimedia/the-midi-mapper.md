@@ -3,7 +3,7 @@ title: Le Mappeur MIDI
 description: Le Mappeur MIDI
 ms.assetid: 92cffc67-b4a4-4807-94d2-02fbbdba5abf
 keywords:
-- Windows Multimedia, Mappeur MIDI
+- Windows multimédia, mappeur MIDI
 - multimédia, Mappeur MIDI
 - audio multimédia, Mappeur MIDI
 - audio, Mappeur MIDI
@@ -14,12 +14,12 @@ keywords:
 - Mappeur MIDI, destination
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3b360148c994c0ee6434fdf097ca5f393b23d49
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a5becc117668964a584f29c311c3e3ac477f672085e837e28d7eecc595658d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805099"
 ---
 # <a name="the-midi-mapper"></a>Le Mappeur MIDI
 
@@ -32,14 +32,14 @@ Dans la discussion sur le Mappeur MIDI, le terme *source* fait référence à la
 -   [Le Mappeur MIDI et Windows](the-midi-mapper-and-windows.md)
 -   [Architecture du mappeur MIDI](the-midi-mapper-architecture.md)
 -   [Carte de canal](the-channel-map.md)
--   [Mappages de correctifs](patch-maps.md)
+-   [Cartes de correctifs](patch-maps.md)
 -   [Le volume scalaire](the-volume-scalar.md)
--   [Cartes clés](key-maps.md)
--   [Résumé des cartes et des messages MIDI](summary-of-maps-and-midi-messages.md)
+-   [Cartes de clé](key-maps.md)
+-   [résumé des Messages Cartes et MIDI](summary-of-maps-and-midi-messages.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2eab8bae322c7b19b5aada08801f752ad6bfaa93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4c794e07efd291ddbf75ce5ab697d61f9ebed0db5a3e5ce66aef561fe91fc26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889999"
 ---
 # <a name="jet_tableidequals-method-jet_tableid"></a>JET_TABLEID. Equals, méthode (JET_TABLEID)
 
@@ -57,7 +57,7 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     Instance de à comparer à cette instance.

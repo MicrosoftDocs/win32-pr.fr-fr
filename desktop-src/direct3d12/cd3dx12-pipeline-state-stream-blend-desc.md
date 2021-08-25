@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d251be9cc1423babc58e1d3c3be87c5345308874
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 300506d2c41be5a5380f4f0f64c93779185fd59ced2e0dd613d926f8397ea85c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752169"
 ---
 # <a name="cd3dx12_pipeline_state_stream_blend_desc-structure"></a>\_Structure de \_ \_ \_ mélange DESC du flux d’État du pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure [**CD3DX12 \_ Blend \_ desc**](cd3dx12-ble
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 CD3DX12 \_ pipeline \_ \_ Stream State \_ Blend \_ est une spécialisation typedef du modèle de sous-objet de [**\_ flux d' \_ état \_ \_ de pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 

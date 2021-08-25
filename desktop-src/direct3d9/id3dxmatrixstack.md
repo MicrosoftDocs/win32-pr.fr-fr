@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 62681c468fa7e78e6fd08c458798d98b467b992e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b8fa483be72d29cc869b2bd468cff25033a80187bef69317af4894fc05b096dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856449"
 ---
 # <a name="id3dxmatrixstack-interface"></a>Interface ID3DXMATRIXStack
 
@@ -52,14 +52,14 @@ L’interface **ID3DXMATRIXStack** possède ces méthodes.
 | [**RotateYawPitchRollLocal**](id3dxmatrixstack--rotateyawpitchrolllocal.md) | Pivote (par rapport à l’espace de coordonnées local de l’objet) autour d’un axe arbitraire.<br/>                                             |
 | [**Scale**](id3dxmatrixstack--scale.md)                                     | Mettre à l’échelle la matrice actuelle sur l’origine de la coordonnée universelle.<br/>                                                                     |
 | [**ScaleLocal**](id3dxmatrixstack--scalelocal.md)                           | Mettre à l’échelle la matrice actuelle sur l’origine de l’objet.<br/>                                                                               |
-| [**Translate**](id3dxmatrixstack--translate.md)                             | Détermine le produit de la matrice actuelle et la matrice de translation calculée déterminée par les facteurs donnés (x, y et z).<br/> |
+| [**Traduire**](id3dxmatrixstack--translate.md)                             | Détermine le produit de la matrice actuelle et la matrice de translation calculée déterminée par les facteurs donnés (x, y et z).<br/> |
 | [**TranslateLocal**](id3dxmatrixstack--translatelocal.md)                   | Détermine le produit de la matrice de traduction calculée, déterminé par les facteurs donnés (x, y et z) et la matrice actuelle.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 L’interface **ID3DXMATRIXStack** est obtenue en appelant la fonction [**D3DXCreateMatrixStack**](d3dxcreatematrixstack.md) .
 

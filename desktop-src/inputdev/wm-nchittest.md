@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf14e817831c099988e9fb3fee57ae0731ef621
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f54c397db10e8ecd6b2ed3c67a73affde4507ea59a265d502f28ada97b8a68e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119778639"
 ---
 # <a name="wm_nchittest-message"></a>\_Message WM NCHITTEST
 
@@ -93,7 +93,7 @@ La valeur de retour de la fonction [**DefWindowProc**](/windows/desktop/api/winu
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour obtenir la position horizontale et verticale :
 

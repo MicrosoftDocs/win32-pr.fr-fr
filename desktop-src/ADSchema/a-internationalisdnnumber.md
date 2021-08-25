@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c39686231462119a88ef2a502ea06e1072506c6d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f836ac4bba3565fac5c8b779029c56d539312525771e015a4be46d1c0177f21e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925239"
 ---
 # <a name="international-isdn-number-attribute"></a>Attribut international-RNIS-Number
 
@@ -46,7 +46,7 @@ Spécifie un numéro RNIS international associé à un objet.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

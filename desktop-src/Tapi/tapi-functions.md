@@ -4,12 +4,12 @@ ms.assetid: 555d6af2-b440-4636-b90e-da297a369753
 title: Fonctions TAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38532fa1c0b978e3e59e54b08fbc43152fa0bd64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f27ec2383f826efe5620ea44d3a643e46a90b08c7820548733238290bff26512
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872909"
 ---
 # <a name="tapi-functions"></a>Fonctions TAPI
 
@@ -18,7 +18,7 @@ Les sections suivantes contiennent une liste alphabétique des fonctions regroup
 -   [Fonctions de téléphonie assistée](assisted-telephony-functions.md)
 -   [Fonctions du centre d’appels](call-center-functions.md)
 -   [Fonctions du périphérique de ligne](line-device-functions.md)
--   [Fonctions des appareils téléphoniques](phone-device-functions.md)
+-   [Téléphone Fonctions de l’appareil](phone-device-functions.md)
 
 Pour les fonctions TAPI catégorisées par niveau de service et tâche, consultez [référence des fonctions rapides TAPI](tapi-quick-function-reference.md).
 

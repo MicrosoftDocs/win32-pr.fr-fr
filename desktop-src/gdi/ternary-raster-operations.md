@@ -4,12 +4,12 @@ ms.assetid: 538f3580-d6a7-4dae-8185-802eb9c96735
 title: Opérations raster ternaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c30411ff4e5a38f54b52baa086510cecb6168dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58a6dd0009a9be4a1fe062dbb2ab40766a7b01a565b80a7b866c0ce1af40ca48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119889009"
 ---
 # <a name="ternary-raster-operations"></a>Opérations raster ternaires
 

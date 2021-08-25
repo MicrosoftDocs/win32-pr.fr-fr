@@ -4,12 +4,12 @@ description: Le système traite automatiquement toutes les opérations de texte 
 ms.assetid: 9af3a1bc-4c87-4cc9-966d-50742be7c811
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9640616cf70b9a2933ef9d4c3fdb2accbfdcabf0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8698fbd38241a0e5c3f40e69f7ab401fc22e3982e2bc70001733bc71daf49689
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826369"
 ---
 # <a name="edit-control-text-operations"></a>Modifier les opérations de texte de contrôle
 
@@ -136,7 +136,7 @@ Pour déterminer le caractère le plus proche d’un point spécifié dans la zo
 
 ## <a name="autocompletion-of-strings"></a>Saisie semi-automatique de chaînes
 
-La saisie semi-automatique développe des chaînes qui ont été entrées partiellement dans un contrôle d’édition dans des chaînes complètes. Par exemple, lorsqu’un utilisateur commence à entrer une URL dans le contrôle d’édition d’adresse qui est incorporé dans la barre d’outils de Windows Internet Explorer, la saisie semi-automatique développe la chaîne en une ou plusieurs URL complètes qui sont cohérentes avec la chaîne partielle existante. Une chaîne d’URL partielle telle que « MIC » peut être développée en « https://www.microsoft.com » ou «» https://www.microsoft.com/windows . La saisie semi-automatique est généralement utilisée avec les contrôles d’édition ou avec les contrôles dotés d’un contrôle d’édition incorporé.
+La saisie semi-automatique développe des chaînes qui ont été entrées partiellement dans un contrôle d’édition dans des chaînes complètes. par exemple, lorsqu’un utilisateur commence à entrer une URL dans le contrôle d’édition d’adresse qui est incorporé dans la Windows barre d’outils Internet Explorer, la saisie semi-automatique développe la chaîne en une ou plusieurs url complètes qui sont cohérentes avec la chaîne partielle existante. Une chaîne d’URL partielle telle que « MIC » peut être développée en « https://www.microsoft.com » ou «» https://www.microsoft.com/windows . La saisie semi-automatique est généralement utilisée avec les contrôles d’édition ou avec les contrôles dotés d’un contrôle d’édition incorporé.
 
 Pour plus d’informations, consultez la documentation de l’interface [**IAutoComplete**](/windows/desktop/api/shldisp/nn-shldisp-iautocomplete) et [**IAutoComplete2**](/windows/desktop/api/shldisp/nn-shldisp-iautocomplete2) .
 
@@ -176,6 +176,6 @@ InvalidateRect(hWndEdit, NULL, FALSE);
 
 Uniscribe est un autre ensemble de fonctions qui permettent de contrôler précisément le traitement des scripts complexes. Pour plus d’informations, consultez [Uniscribe](/windows/desktop/Intl/uniscribe).
 
- 
+ 
 
- 
+ 

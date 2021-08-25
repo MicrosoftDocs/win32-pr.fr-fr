@@ -4,12 +4,12 @@ description: La DLL exporte les fonctions que le serveur RAS appelle chaque fois
 ms.assetid: 014ab85d-8924-4c7a-89ed-f83e75318ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0908032e0916f0937e964408b1551d3f1515dea
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 2f6be479d00175750fb4d6ffce73aab4439d2c7df9e6e07f97e9964f267ce82a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909919"
 ---
 # <a name="ras-administration-dll"></a>DLL d’administration RAS
 
@@ -28,7 +28,7 @@ Implémentez les fonctions suivantes lors du développement d’une DLL d’admi
 
 Une DLL d’administration RAS doit implémenter et exporter toutes les fonctions ci-dessus. Si l’une des fonctions n’est pas implémentée, le démarrage du service d’accès à distance échoue.
 
-Les fonctions [**RasAdminAcceptNewConnection**](rasadminacceptnewconnection.md) et [**RasAdminConnectionHangupNotification**](rasadminconnectionhangupnotification.md) permettent à la dll d’auditer les connexions utilisateur au serveur. Un serveur RAS Windows NT/Windows 2000 appelle la fonction **RasAdminAcceptNewConnection** chaque fois qu’un utilisateur tente de se connecter. La fonction peut empêcher l’utilisateur de se connecter. Vous pouvez également utiliser la fonction pour générer une entrée dans un journal pour la facturation ou l’audit. Lorsque l’utilisateur se déconnecte, le serveur RAS appelle la fonction **RasAdminConnectionHangupNotification** , qui peut consigner l’heure à laquelle l’utilisateur s’est déconnecté.
+Les fonctions [**RasAdminAcceptNewConnection**](rasadminacceptnewconnection.md) et [**RasAdminConnectionHangupNotification**](rasadminconnectionhangupnotification.md) permettent à la dll d’auditer les connexions utilisateur au serveur. un serveur RAS Windows NT/Windows 2000 appelle la fonction **RasAdminAcceptNewConnection** chaque fois qu’un utilisateur tente de se connecter. La fonction peut empêcher l’utilisateur de se connecter. Vous pouvez également utiliser la fonction pour générer une entrée dans un journal pour la facturation ou l’audit. Lorsque l’utilisateur se déconnecte, le serveur RAS appelle la fonction **RasAdminConnectionHangupNotification** , qui peut consigner l’heure à laquelle l’utilisateur s’est déconnecté.
 
 Une fois que le serveur RAS a authentifié un appelant, il appelle la fonction [**RasAdminGetIpAddressForUser**](rasadmingetipaddressforuser.md) pour obtenir une adresse IP pour le client distant. La DLL peut utiliser cette fonction pour fournir un autre schéma de mappage d’une adresse IP à un utilisateur d’accès à distance. Si **RasAdminGetIpAddressForUser** n’est pas implémenté, un serveur RAS connecte un utilisateur distant à une adresse IP sélectionnée à partir d’un pool statique d’adresses IP, ou une option sélectionnée par un serveur DHCP (Dynamic Host Configuration Protocol). La fonction **RasAdminGetIpAddressForUser** permet à la dll de remplacer cette adresse IP par défaut et de spécifier une adresse IP spécifique pour chaque utilisateur. La fonction **RasAdminGetIpAddressForUser** peut définir un indicateur qui force RAS à appeler la fonction [**RasAdminReleaseIpAddress**](rasadminreleaseipaddress.md) lorsque l’utilisateur se déconnecte. La DLL peut utiliser [**RasAdminReleaseIpAddress**](rasadminreleaseipaddress.md) pour mettre à jour son mappage utilisateur-adresse IP.
 
@@ -38,11 +38,11 @@ RAS exécute les fonctions permettant d’attribuer des adresses IP dans un proc
 
 Le serveur RAS consigne une erreur dans le journal des événements système si une erreur se produit lors de la tentative de chargement d’une DLL d’administration RAS ou lors de l’appel de l’une des fonctions de la DLL. Cela peut se produire, par exemple, si la DLL spécifiait un nom incorrect pour une fonction exportée, ou si elle n’incluait pas le nom de la fonction dans le fichier. def. L’entrée dans le journal des événements indique la raison de l’échec.
 
-**Windows 2000 Server et versions ultérieures :** Les dll d’administration RAS qui implémentent cette interface de fonction ne fonctionnent plus. Au lieu de cela, utilisez l’interface de fonction MprAdmin fournie avec les versions plus récentes de Windows. Pour plus d’informations, consultez les informations de référence sur l' [administration RAS](remote-access-service-administration-reference.md) dans la documentation routage et accès distant.
+**Windows serveur 2000 et versions ultérieures :** Les dll d’administration RAS qui implémentent cette interface de fonction ne fonctionnent plus. Au lieu de cela, utilisez l’interface de fonction MprAdmin fournie avec les versions les plus récentes de Windows. Pour plus d’informations, consultez les informations de référence sur l' [administration RAS](remote-access-service-administration-reference.md) dans la documentation routage et accès distant.
 
- 
+ 
 
- 
+ 
 
 
 

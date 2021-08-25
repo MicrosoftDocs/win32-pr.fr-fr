@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 5119da4e7efaf0c27db1065dacc56e3388a77474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d7d4daaec3d52b7aabafe61c5763304c400b6a36be1367e01b0a9163f2f9e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828679"
 ---
 # <a name="d3dauthenticatedquery_accessibilityattributes"></a>D3DAUTHENTICATEDQUERY \_ ACCESSIBILITYATTRIBUTES
 
@@ -26,7 +26,7 @@ Retourne le type de bus d’e/s utilisé pour envoyer des données au GPU.
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------|--------------------------------------------------------------------------------------------------------------|
 | GUID de la requête  | **D3DAUTHENTICATEDQUERY \_ ACCESSIBILITYATTRIBUTES**                                                           |
 | Données d’entrée  | [**\_Entrée de requête D3DAUTHENTICATEDCHANNEL \_**](d3dauthenticatedchannel-query-input.md)                         |
@@ -36,7 +36,7 @@ Retourne le type de bus d’e/s utilisé pour envoyer des données au GPU.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette requête retourne également des informations sur la façon dont le contenu est accessible lorsqu’il est placé dans la mémoire vidéo.
 
@@ -49,10 +49,10 @@ Les types de canaux suivants prennent en charge cette requête :
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Les tâches sont inscrites et exécutées dans un contexte de sécu
 ms.assetid: be86eb9f-f6ec-4dce-afe8-e3314a74062a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329f354518daeb11a5f330ae3fdc2c332b66d5c3
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bb6f49ef07818b1fe729fa96a2b5e0712979a17f300e4f411f96cefd2f3917f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738249"
 ---
 # <a name="security-contexts-for-tasks"></a>Contextes de sécurité pour les tâches
 
@@ -23,16 +23,16 @@ Vous spécifiez un compte d’utilisateur ou un groupe lors de l’inscription d
 
 Les tâches inscrites avec \_ l' \_ indicateur de mot de passe d’ouverture de session ou d’ouverture de session de tâche s’exécutent \_ \_ uniquement si le privilège ouvrir une session en tant que par lot est activé pour l’utilisateur spécifié. Les utilisateurs du groupe administrateurs et opérateurs de sauvegarde disposent de ce privilège activé par défaut.
 
-Quand vous appelez la méthode [**la :: Connect**](/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect) ([**TaskService. Connect**](taskservice-connect.md) pour l’écriture de scripts), tous les appels de méthode suivants au service Planificateur de tâches utilisent les informations d’identification qui ont été passées à la méthode **Connect** . Il est important de prendre en compte lors de l’enregistrement de tâches avec un type de connexion interactive. Lorsque vous enregistrez une tâche avec le type d’ouverture de session \_ jeton interactif d’ouverture de session \_ \_ et que la tâche n’a pas d’informations d’identification spécifiées dans la propriété [**principale**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal) de la définition de tâche, spécifiées dans les paramètres à [**RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition), ou spécifiées dans le XML transmis à [**RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask), la tâche est inscrite avec les informations d’identification de l’utilisateur qui a appelé la méthode **Connect** .
+quand vous appelez la méthode [**la :: Connecter**](/windows/desktop/api/taskschd/nf-taskschd-itaskservice-connect) ([**TaskService. Connecter**](taskservice-connect.md) pour la création de scripts), tous les appels de méthode suivants au service Planificateur de tâches utilisent les informations d’identification passées à la méthode **Connecter** . Il est important de prendre en compte lors de l’enregistrement de tâches avec un type de connexion interactive. lorsque vous enregistrez une tâche avec le type de connexion égal à \_ jeton interactif d’ouverture de session \_ \_ et que la tâche ne contient pas d’informations d’identification spécifiées dans la propriété [**principale**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_principal) de la définition de tâche, spécifiées dans les paramètres à [**RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition), ou spécifiées dans le XML transmis à [**RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask), la tâche est inscrite avec les informations d’identification de l’utilisateur qui a appelé la méthode **Connecter** .
 
 ## <a name="user-account-control-uac-security-for-tasks"></a>Sécurité du contrôle de compte d’utilisateur (UAC) pour les tâches
 
 [Le contrôle de compte d’utilisateur](https://www.microsoft.com/technet/windowsvista/security/uac.mspx) (UAC) permet aux utilisateurs d’exercer des fonctionnalités générales telles que l’exécution de programmes et l’enregistrement et la modification de données sans exposer de privilèges d’administrateur. Par défaut, une tâche s’exécute avec des privilèges de bas niveau lorsque le contrôle de compte d’utilisateur est activé. Les tâches peuvent spécifier qu’elles s’exécutent avec des privilèges élevés ou des privilèges faibles en définissant un niveau de privilège à partir de l’énumération de [**\_ \_ type tâche RUNLEVEL**](/windows/win32/api/taskschd/ne-taskschd-task_runlevel_type) pour la [**propriété RUNLEVEL de IPrincipal**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel) ([**principal. RUNLEVEL**](principal-runlevel.md) pour les scripts). La valeur de la propriété **runlevel** détermine le niveau de privilège à partir duquel les actions d’une tâche seront exécutées. Si les actions d’une tâche doivent avoir des privilèges élevés pour s’exécuter, vous devez définir la propriété **runlevel** sur la **tâche \_ runlevel la \_ plus élevée**. Si une tâche est inscrite à l’aide du groupe administrateurs pour le contexte de sécurité de la tâche, vous devez également définir la propriété **runlevel** sur la **tâche \_ runlevel la \_ plus élevée** si vous souhaitez exécuter la tâche. Si une tâche est inscrite à l’aide du \\ compte administrateur intégré ou des comptes système local ou service local, la propriété **runlevel** est ignorée. La valeur de propriété sera également ignorée si le contrôle de compte d’utilisateur (UAC) est désactivé. La valeur de la propriété **runlevel** n’affecte pas les autorisations nécessaires à l’exécution ou à la suppression d’une tâche.
 
 > [!Note]  
-> Après la mise à niveau d’un système d’exploitation de Windows XP vers Windows Vista, les tâches qui ont été inscrites à l’aide du \\ compte administrateur builtin sur Windows XP auront la propriété [**runlevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel) définie sur **Task \_ runlevel \_ LUA**. Cela peut entraîner l’échec de certaines tâches. Vous pouvez mettre à jour cette propriété manuellement pour vous assurer que toutes les tâches s’exécuteront.
+> après la mise à niveau d’un système d’exploitation de Windows xp vers Windows Vista, les tâches qui ont été inscrites à l’aide du \\ compte administrateur intégré sur Windows XP auront la propriété [**RunLevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel) définie sur **TASK \_ RunLevel \_ LUA**. Cela peut entraîner l’échec de certaines tâches. Vous pouvez mettre à jour cette propriété manuellement pour vous assurer que toutes les tâches s’exécuteront.
 
- 
+ 
 
 À partir d’un processus à faibles privilèges, vous ne pouvez pas inscrire une tâche avec la propriété [**runlevel**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_runlevel) égale à la **tâche \_ runlevel la \_ plus élevée**, mais vous pouvez inscrire une tâche avec la propriété **runlevel** égale à **Task \_ runlevel \_ LUA**. Les actions de tâche sont exécutées avec des privilèges faibles. Vous n’êtes pas autorisé à inscrire la tâche en tant que builtin/administrateur, système local ou pour un groupe.
 
@@ -84,9 +84,9 @@ Un utilisateur doit disposer de l’autorisation WriteDAC en plus des autorisati
 [**\_type de connexion à la tâche \_**](/windows/desktop/api/taskschd/ne-taskschd-task_logon_type)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

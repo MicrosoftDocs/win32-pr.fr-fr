@@ -4,12 +4,12 @@ ms.assetid: 361ae90c-a2cf-4107-a2da-80f561a82c56
 title: Constantes LINEOPENOPTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dee9182ff7a28627eebd695ce5d9c0877460b15e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0dc6a4780b366b2dce08110ecce40c7140ab1d0956d788dce5a67d5d0501b6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119739249"
 ---
 # <a name="lineopenoption_-constants"></a>\_Constantes LINEOPENOPTION
 
@@ -37,7 +37,7 @@ L’application doit être informée des nouveaux appels créés sur le périph�
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur le fonctionnement de ces options, consultez [**lineOpen**](/windows/desktop/api/Tapi/nf-tapi-lineopen) .
 

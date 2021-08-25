@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre CLSID COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9253446a039e47996366c7dfdb51c01f9b1993
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dd390fc6a1ccb15e128245c3b6a80e2b4ca57f41de9e9c21e93ebe4c708783d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854979"
 ---
 # <a name="clsid-key"></a>Clé CLSID
 
@@ -29,7 +29,7 @@ Un CLSID est un identificateur global unique qui identifie un objet de classe CO
 | [**AutoConvertTo**](autoconvertto.md)                       | Spécifie la conversion automatique d’une classe d’objets donnée en une nouvelle classe d’objets.                                                |
 | [**Traitement autotraité**](autotreatas.md)                           | Définit automatiquement le CLSID de la clé [**TreatAs**](treatas.md) sur la valeur spécifiée.                                              |
 | [**AuxUserType**](auxusertype.md)                           | Spécifie le nom complet et les noms d’application de l’application.                                                                     |
-| [**Contrôler**](control.md)                                   | Identifie un objet en tant que contrôle ActiveX.                                                                                              |
+| [**Contrôler**](control.md)                                   | identifie un objet en tant que contrôle ActiveX.                                                                                              |
 | [**Conversion**](conversion.md)                             | Utilisé par la boîte de dialogue **convertir** pour déterminer les formats qu’une application peut lire et écrire.                                           |
 | [**DataFormats**](dataformats.md)                           | Spécifie les formats de données par défaut et principaux pris en charge par une application.                                                                 |
 | [**DefaultIcon**](defaulticon.md)                           | Fournit des informations sur l’icône par défaut pour les présentations sous forme d’objets.                                                                   |
@@ -45,15 +45,15 @@ Un CLSID est un identificateur global unique qui identifie un objet de classe CO
 | [**ProgID**](progid.md)                                     | Associe un ProgID à un CLSID.                                                                                                        |
 | [**ToolBoxBitmap32**](toolboxbitmap32.md)                   | Identifie le nom de module et l’ID de ressource pour une image bitmap de 16 x 16 à utiliser pour la face d’un bouton de barre d’outils ou de boîte à outils.                      |
 | [**TreatAs**](treatas.md)                                   | Spécifie le CLSID d’une classe qui peut émuler la classe actuelle.                                                                       |
-| [**Verbe**](verb.md)                                         | Spécifie les verbes à inscrire pour une application.                                                                                 |
+| [**DoVerb**](verb.md)                                         | Spécifie les verbes à inscrire pour une application.                                                                                 |
 | [**Version**](version.md)                                   | Spécifie le numéro de version du contrôle.                                                                                             |
 | [**VersionIndependentProgID**](versionindependentprogid.md) | Associe un ProgID à un CLSID. Cette valeur est utilisée pour déterminer la version la plus récente d’une application d’objet.                           |
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La clé de classes de logiciels de l' **\_ \_ ordinateur \\ \\ local HKEY** correspond à la clé **\_ \_ racine HKEY classes** , qui a été conservée pour la compatibilité avec les versions antérieures de com.
 
@@ -70,9 +70,9 @@ Le CLSID est un nombre 128 bits, en hexadécimal, au sein d’une paire d’acco
 [**CoCreateGuid**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

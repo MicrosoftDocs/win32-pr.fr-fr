@@ -3,7 +3,7 @@ title: TDN_DESTROYED le code de notification (commctrl. h)
 description: Envoyé par une boîte de dialogue de tâche lorsqu’elle est détruite et que son handle de fenêtre n’est plus valide. Ce code de notification est reçu uniquement par le biais de la fonction de rappel de la boîte de dialogue de tâche, qui peut être inscrite à l’aide de la méthode TaskDialogIndirect.
 ms.assetid: bbebb77f-e078-46bf-a42d-65dab4f8a972
 keywords:
-- Contrôles Windows de code de notification TDN_DESTROYED
+- TDN_DESTROYED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d3da93435371e696de3d4dce8deeea43926b73b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cad0bb08d8d3693f7e9168454526306b3d1d8643431ba16d851e9c259cfd0580
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875799"
 ---
 # <a name="tdn_destroyed-notification-code"></a>\_Code de notification TDN détruit
 
@@ -63,8 +63,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

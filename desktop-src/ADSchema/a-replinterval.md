@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e681b01fbc60b775b0cb947007056dc1d3d3adbb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fb5cd02d3458684f6d70cff84435c7809fcd4c912befd65373a264f961cefd72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837439"
 ---
 # <a name="repl-interval-attribute"></a>Attribut Repl-Interval
 
@@ -36,7 +36,7 @@ Attribut des objets Site-Link qui définit l’intervalle, en minutes, entre les
 | Fréquence des mises à jour  | Lorsque l’intervalle de réplication doit être modifié. |
 | Attribute-Id      | 1.2.840.113556.1.4.1336                        |
 | System-ID-GUID    | 45ba9d1a-56fa-11d2-90d0-00c04fd91ab1           |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)           |
+| Syntaxe            | [**Énumération**](s-enumeration.md)           |
 
 
 
@@ -46,7 +46,7 @@ Attribut des objets Site-Link qui définit l’intervalle, en minutes, entre les
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

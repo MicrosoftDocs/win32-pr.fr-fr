@@ -4,12 +4,12 @@ description: Découvrez comment définir l’état de l’effet dans l’apparei
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 136d03f92957eaf1b3d501c0acd54aafde7e16d8
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 6b53eb5f60c80baf69199885f8036a9e92ac1572fe8339bd6d4a96454adb0121
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119792039"
 ---
 # <a name="apply-a-technique-direct3d-11"></a>Appliquer une technique (Direct3D 11)
 

@@ -1,19 +1,19 @@
 ---
-description: Pour qu’un protocole de transport soit accessible via Windows Sockets, il doit être correctement installé sur le système et enregistré auprès de Windows Sockets.
+description: pour qu’un protocole de transport soit accessible par le biais de Windows sockets, il doit être installé correctement sur le système et enregistré avec Windows sockets.
 ms.assetid: 0f0b22e4-81b7-43a7-bc2f-7124fa32d925
 title: Configuration et installation du transport
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea980740f727e39338c7568f4cc30a961b5484df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f1ec75810790df0d9373e8f3ee184f2dbd51d9bb5c37d7721097febe23a8aee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733239"
 ---
 # <a name="transport-configuration-and-installation"></a>Configuration et installation du transport
 
-Pour qu’un protocole de transport soit accessible via Windows Sockets, il doit être correctement installé sur le système et enregistré auprès de Windows Sockets. Lorsqu’un fournisseur de services de transport est installé en invoquant le programme d’installation d’un fournisseur, les informations de configuration doivent être ajoutées à une base de données de configuration pour fournir au \_ service Ws232.dll informations nécessaires concernant le fournisseur de services. L' \_32.dll Ws2 exporte plusieurs fonctions d’installation, [**WSCInstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider) et [**WSCInstallProviderAndChains**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains), pour que le programme d’installation du fournisseur fournisse les informations pertinentes sur le fournisseur de services à installer. Ces informations incluent, par exemple, le nom et le chemin d’accès à la DLL du fournisseur de services, ainsi qu’une liste de structures d' [**\_ informations WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) que ce fournisseur peut prendre en charge. Le \_32.dll Ws2 fournit également une fonction, [**WSCDeinstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider), pour le programme de désinstallation d’un fournisseur afin de supprimer toutes les informations pertinentes de la base de données de configuration gérée par le \_32.dll Ws2. L’emplacement et le format exacts de ces informations de configuration sont privés pour le \_32.dll Ws2 et ne peuvent être manipulés que par les fonctions mentionnées ci-dessus.
+pour qu’un protocole de transport soit accessible par le biais de Windows sockets, il doit être installé correctement sur le système et enregistré avec Windows sockets. Lorsqu’un fournisseur de services de transport est installé en invoquant le programme d’installation d’un fournisseur, les informations de configuration doivent être ajoutées à une base de données de configuration pour fournir au \_ service Ws232.dll informations nécessaires concernant le fournisseur de services. L' \_32.dll Ws2 exporte plusieurs fonctions d’installation, [**WSCInstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider) et [**WSCInstallProviderAndChains**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains), pour que le programme d’installation du fournisseur fournisse les informations pertinentes sur le fournisseur de services à installer. Ces informations incluent, par exemple, le nom et le chemin d’accès à la DLL du fournisseur de services, ainsi qu’une liste de structures d' [**\_ informations WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) que ce fournisseur peut prendre en charge. Le \_32.dll Ws2 fournit également une fonction, [**WSCDeinstallProvider**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider), pour le programme de désinstallation d’un fournisseur afin de supprimer toutes les informations pertinentes de la base de données de configuration gérée par le \_32.dll Ws2. L’emplacement et le format exacts de ces informations de configuration sont privés pour le \_32.dll Ws2 et ne peuvent être manipulés que par les fonctions mentionnées ci-dessus.
 
 Sur les plateformes 64 bits, il existe des fonctions similaires qui fonctionnent sur les catalogues 32 bits et 64 bits. Ces fonctions incluent [**WSCInstallProvider64 \_ 32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallprovider64_32), [**WSCInstallProviderAndChains64 \_ 32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscinstallproviderandchains64_32)et [**WSCDeinstallProvider32**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscdeinstallprovider32).
 

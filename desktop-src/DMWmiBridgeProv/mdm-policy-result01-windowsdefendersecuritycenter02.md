@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Policy_Result01_WindowsDefenderSecurityCenter02
-description: La \_ classe Result01 WindowsDefenderSecurityCenter02 de la stratégie MDM \_ \_ représente les stratégies Windows Defender Security Center.
+description: la \_ classe Result01 WindowsDefenderSecurityCenter02 de la stratégie MDM \_ \_ représente les stratégies de Security Center Windows Defender.
 ms.assetid: 59047e16-a188-4ec9-9d1b-db2b15c1109b
 keywords:
 - Classe MDM_Policy_Result01_WindowsDefenderSecurityCenter02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7739410347169637ca5f27fef5627e26f8347c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01edcf4d5f342ead0fdbf6932ce3bdc1655282770ce3c31017a7fafeb1eb5fd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833809"
 ---
 # <a name="mdm_policy_result01_windowsdefendersecuritycenter02-class"></a>\_Classe WindowsDefenderSecurityCenter02 de la stratégie MDM \_ Result01 \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La \_ classe Result01 WindowsDefenderSecurityCenter02 de la stratégie MDM \_ \_ représente les stratégies Windows Defender Security Center.
+la \_ classe Result01 WindowsDefenderSecurityCenter02 de la stratégie MDM \_ \_ représente les stratégies de Security Center Windows Defender.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -69,7 +69,7 @@ La **classe \_ \_ Result01 \_ WindowsDefenderSecurityCenter02 de la stratégie M
 
 <dl> <dt>
 
-[Prennent](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
+[CompanyName](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-companyname)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -168,7 +168,7 @@ Type d’accès : lecture/écriture
 
 </dd> <dt>
 
-[E-mail](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-email)
+[Courrier électronique](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-email)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -229,7 +229,7 @@ Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 
 </dd> <dt>
 
-[Numéros](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
+[Téléphone](/windows/client-management/mdm/policy-csp-windowsdefendersecuritycenter#windowsdefendersecuritycenter-phone)
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -257,7 +257,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

@@ -13,16 +13,16 @@ keywords:
 - redistribution, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d51f332f5b0e038293a1dbe1dbf59015931d67e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b933df9319c342d8ed3502fc66757df2e6d8fd6e8d60309023ced6ffa042d5b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807889"
 ---
 # <a name="software-redistribution"></a>Redistribution de logiciels
 
-L’inclusion du logiciel Windows Media format dans une installation d’application est appelée redistribution. Le kit de développement logiciel (SDK) Windows Media Format inclut un package d’installation qui peut être inclus dans le programme d’installation de votre application. Le package d’installation est un fichier exécutable nommé wmfdist95.exe. Lorsque vous installez le kit de développement logiciel (SDK) Windows Media format, le package d’installation est copié dans le \\ dossier Redist du répertoire d’installation (c : \\ WMSDK \\ wmfsdk par défaut).
+l’inclusion de Windows Media Format software dans une installation d’application est appelée redistribution. le kit de développement logiciel (SDK) Windows Media Format inclut un package d’installation qui peut être inclus dans le programme d’installation de votre application. Le package d’installation est un fichier exécutable nommé wmfdist95.exe. lorsque vous installez le kit de développement logiciel (SDK) Windows Media Format, le package d’installation est copié dans le \\ dossier redist du répertoire d’installation (c : \\ wmsdk \\ wmfsdk par défaut).
 
 Les sections suivantes fournissent des procédures et d’autres informations sur la configuration de la redistribution de logiciels.
 
@@ -36,18 +36,18 @@ Les sections suivantes fournissent des procédures et d’autres informations su
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Considérations relatives aux projets**](project-considerations.md)
+[**Project Raisons**](project-considerations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

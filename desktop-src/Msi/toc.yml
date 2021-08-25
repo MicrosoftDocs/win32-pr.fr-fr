@@ -1,34 +1,34 @@
 - name: Windows Installer
   href: windows-installer-portal.md
   items:
-    - name: Guide de la documentation Windows Installer
+    - name: guide de la Documentation Windows Installer
       href: roadmap-to-windows-installer-documentation.md
       items:
-        - name: Guide basé sur les rôles pour Windows Installer la documentation
+        - name: Guide basé sur les rôles pour Windows Installer la Documentation
           href: role-based-guide-to-windows-installer-documentation.md
-        - name: Autres sources d’informations sur les Windows Installer
+        - name: autres Sources d’informations sur les Windows Installer
           href: other-sources-of-windows-installer-information.md
-        - name: Meilleures pratiques en matière de Windows Installer
+        - name: Windows Meilleures pratiques pour le programme d’installation
           href: windows-installer-best-practices.md
-    - name: Nouveautés de Windows Installer
+    - name: nouveautés de Windows Installer
       href: what-s-new-in-windows-installer.md
       items:
-        - name: 'Nouveautés de Windows Installer 5,0'
+        - name: 'nouveautés de Windows Installer 5,0'
           href: what-s-new-in-windows-installer-5-0.md
-        - name: 'Non pris en charge dans Windows Installer 4,5'
+        - name: 'non pris en charge dans Windows Installer 4,5'
           href: not-supported-in-windows-installer-4-5.md
-        - name: 'Non pris en charge dans Windows Installer 4,0'
+        - name: 'non pris en charge dans Windows Installer 4,0'
           href: not-supported-in-windows-installer-4-0.md
-        - name: 'Non pris en charge dans Windows Installer 3,1'
+        - name: 'non pris en charge dans Windows Installer 3,1'
           href: not-supported-in-windows-installer-version-3-1.md
-        - name: 'Non pris en charge dans Windows Installer 3,0'
+        - name: 'non pris en charge dans Windows Installer 3,0'
           href: not-supported-in-windows-installer-version-3-0.md
-        - name: 'Non pris en charge dans Windows Installer 2,0'
+        - name: 'non pris en charge dans Windows Installer 2,0'
           href: not-supported-in-windows-installer-version-2-0.md
-    - name: À propos de Windows Installer
+    - name: à propos de Windows Installer
       href: about-windows-installer.md
       items:
-        - name: Vue d’ensemble de Windows Installer
+        - name: vue d’ensemble de Windows Installer
           href: overview-of-windows-installer.md
           items:
             - name: Package d'installation
@@ -36,9 +36,9 @@
             - name: Composants et fonctionnalités
               href: components-and-features.md
               items:
-                - name: Composants Windows Installer
+                - name: Windows Composants du programme d’installation
                   href: windows-installer-components.md
-                - name: Fonctionnalités de Windows Installer
+                - name: Windows Fonctionnalités du programme d’installation
                   href: windows-installer-features.md
             - name: Mécanisme d’installation
               href: installation-mechanism.md
@@ -61,7 +61,7 @@
           href: rollback-installation.md
         - name: Installation de maintenance
           href: maintenance-installation.md
-        - name: Windows Installer les extensions de nom de fichier
+        - name: Windows Extensions de nom de fichier du programme d’installation
           href: windows-installer-file-extensions.md
         - name: Options de la ligne de commande
           href: command-line-options.md
@@ -145,7 +145,7 @@
           items:
             - name: Stratégie de résilience source
               href: source-resiliency-policy-windows-installer-version-2-0.md
-        - name: Utilisation de Windows Installer et Protection des ressources Windows
+        - name: utilisation de Windows Installer et Protection des ressources Windows
           href: windows-resource-protection-on-windows-vista.md
         - name: Points de restauration système et Windows Installer
           href: system-restore-points-and-the-windows-installer.md
@@ -171,7 +171,7 @@
           href: merges-and-transforms.md
         - name: Composants qualifiés
           href: qualified-components.md
-        - name: Journalisation Windows Installer
+        - name: Windows Journalisation du programme d’installation
           href: windows-installer-logging.md
           items:
             - name: Journalisation normale
@@ -195,7 +195,7 @@
               href: removal-of-isolated-components.md
         - name: Contexte d’installation
           href: installation-context.md
-    - name: Utilisation de Windows Installer
+    - name: utilisation de Windows Installer
       href: using-windows-installer.md
       items:
         - name: Organisation des applications en composants
@@ -226,7 +226,7 @@
               href: '-msiexecute-mutex.md'
             - name: Mutex __MsiPromptForCD
               href: '--msipromptforcd-mutex.md'
-        - name: Configuration de l’ajout/suppression de programmes avec Windows Installer
+        - name: configuration de l’ajout/suppression de programmes avec Windows Installer
           href: configuring-add-remove-programs-with-windows-installer.md
         - name: Utilisation d’armoires et de sources compressées
           href: using-cabinets-and-compressed-sources.md
@@ -243,10 +243,10 @@
           href: using-qualified-components.md
         - name: Utilisation de composants transitifs
           href: using-transitive-components.md
-        - name: Localisation d’un package Windows Installer
+        - name: localisation d’un Package Windows Installer
           href: localizing-a-windows-installer-package.md
           items:
-            - name: Gestion des pages de codes (Windows Installer)
+            - name: gestion des pages de codes (Windows Installer)
               href: code-page-handling-windows-installer-.md
               items:
                 - name: Gestion des pages de codes des tables importées et exportées
@@ -263,9 +263,9 @@
               href: localizing-the-language-displayed-by-dialogs.md
             - name: Définition de la page de codes d’une base de données
               href: setting-the-code-page-of-a-database.md
-            - name: Préparation d’un package de Windows Installer pour la localisation
+            - name: préparation d’un Package de Windows Installer pour la localisation
               href: preparing-a-windows-installer-package-for-localization.md
-        - name: 'Recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier. ini existants'
+        - name: 'Recherche d’applications, de fichiers, d’entrées de registre ou d’entrées de fichier .ini existants'
           href: searching-for-existing-applications-files-registry-entries-or--ini-file-entries.md
           items:
             - name: Recherche d’un fichier sur tous les lecteurs fixes
@@ -303,7 +303,7 @@
               href: authoring-multiple-instances-with-instance-transforms.md
             - name: Installation de plusieurs instances à l’aide de transformations d’instance
               href: installing-multiple-instances-with-instance-transforms.md
-        - name: Utilisation de Windows Installer avec un Terminal Server
+        - name: utilisation de Windows Installer avec un Terminal Server
           href: using-windows-installer-with-a-terminal-server.md
         - name: Contrôle des États de sélection des fonctionnalités
           href: controlling-feature-selection-states.md
@@ -327,21 +327,21 @@
               href: make-a-com-component-in-an-existing-package-private.md
             - name: Rendre un composant non-COM dans un package existant privé
               href: make-a-non-com-component-in-an-existing-package-private.md
-        - name: Détermination de la version de Windows Installer
+        - name: détermination de la Version de Windows Installer
           href: determining-the-windows-installer-version.md
-        - name: Installation d’une application COM+ avec la Windows Installer
+        - name: installation d’une Application COM+ avec la Windows Installer
           href: installing-a-com--application-with-the-windows-installer.md
         - name: Ajout ou suppression de clés de registre lors de l’installation ou de la suppression de composants
           href: adding-or-removing-registry-keys-on-the-installation-or-removal-of-components.md
         - name: Ajout et suppression d’une application et absence de trace dans le registre
           href: adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md
-        - name: Réduction de la taille d’un fichier. msi
+        - name: Réduction de la taille d’un fichier .msi
           href: reducing-the-size-of-an--msi-file.md
         - name: Modification de l’emplacement cible d’un répertoire
           href: changing-the-target-location-for-a-directory.md
         - name: Masquage du bouton Annuler pendant une installation
           href: hiding-the-cancel-button-during-an-installation.md
-        - name: Utilisation de Windows Installer avec UAC
+        - name: utilisation de Windows Installer avec UAC
           href: using-windows-installer-with-uac.md
           items:
             - name: Instructions pour les packages
@@ -352,12 +352,12 @@
               href: installing-a-package-with-elevated-privileges-for-a-non-admin.md
             - name: Publication d’une application Per-User à installer avec des privilèges élevés
               href: advertising-a-per-user-application-to-be-installed-with-elevated-privileges.md
-        - name: Utilisation de Windows Installer avec le gestionnaire de redémarrage
+        - name: utilisation de Windows Installer avec le gestionnaire de redémarrage
           href: using-windows-installer-with-restart-manager.md
           items:
             - name: Utilisation du gestionnaire de redémarrage avec une interface utilisateur externe
               href: using-restart-manager-with-an-external-ui-.md
-        - name: Utilisation de Windows Installer avec WMI
+        - name: utilisation de Windows Installer avec WMI
           href: using-windows-installer-with-wmi.md
         - name: Énumération des composants
           href: enumerating-components-.md
@@ -365,7 +365,7 @@
           href: using-services-configuration.md
         - name: Création d’un package unique
           href: single-package-authoring.md
-    - name: Guide de Windows Installer
+    - name: Windows Guide du programme d’installation
       href: windows-installer-guide.md
       items:
         - name: Signatures numériques et Windows Installer
@@ -373,7 +373,7 @@
           items:
             - name: Signatures numériques et fichiers CAB externes
               href: digital-signatures-and-external-cabinet-files.md
-            - name: Windows Installer et stratégie de restriction logicielle
+            - name: Windows Programme d’installation et stratégie de restriction logicielle
               href: windows-installer-and-software-restriction-policy.md
             - name: Création d’une installation signée entièrement vérifiée
               href: authoring-a-fully-verified-signed-installation.md
@@ -397,9 +397,9 @@
                       href: private-assemblies.md
                     - name: Assemblys côte à côte
                       href: side-by-side-assemblies.md
-                    - name: Installation d’assemblys Win32 pour le partage côte à côte sur Windows XP
+                    - name: installation d’assemblys Win32 pour le partage côte à côte sur Windows XP
                       href: installing-win32-assemblies-for-side-by-side-sharing-on-windows-xp.md
-                    - name: Installation d’assemblys Win32 pour l’utilisation privée d’une application sur Windows XP
+                    - name: installation d’assemblys Win32 pour l’utilisation privée d’une Application sur Windows XP
                       href: installing-win32-assemblies-for-the-private-use-of-an-application-on-windows-xp.md
                 - name: Installation d’assemblys Common Language Runtime
                   href: installation-of-common-language-runtime-assemblies.md
@@ -414,7 +414,7 @@
               href: updating-assemblies.md
             - name: Modes de réinstallation des assemblys du Common Language Runtime
               href: reinstallation-modes-of-common-language-runtime-assemblies.md
-            - name: Clés de registre de l’assembly écrites par Windows Installer
+            - name: clés de registre de l’assembly écrites par Windows Installer
               href: assembly-registry-keys-written-by-windows-installer-.md
         - name: Interface utilisateur
           href: user-interface.md
@@ -463,9 +463,9 @@
                       href: handling-progress-messages-using-msisetexternalui.md
                     - name: Retour de valeurs à partir d’un gestionnaire d’interface utilisateur externe
                       href: returning-values-from-an-external-user-interface-handler.md
-                    - name: Analyse des messages de Windows Installer
+                    - name: analyse des Messages de Windows Installer
                       href: parsing-windows-installer-messages.md
-                - name: Envoi de messages à Windows Installer à l’aide de MsiProcessMessage
+                - name: envoi de Messages à Windows Installer à l’aide de MsiProcessMessage
                   href: sending-messages-to-windows-installer-using-msiprocessmessage.md
                 - name: Affichage des panneaux dans une boîte de dialogue non modale
                   href: displaying-billboards-on-a-modeless-dialog.md
@@ -530,7 +530,7 @@
                       href: usecustompalette-dialog-style-bit.md
                     - name: Bit de style de boîte de dialogue visible
                       href: visible-dialog-style-bit.md
-                - name: Commandes
+                - name: Contrôles
                   href: controls.md
                   items:
                     - name: Contrôle de tableau blanc
@@ -951,7 +951,7 @@
                   href: executable-files.md
                 - name: Bibliothèques Dynamic-Link
                   href: dynamic-link-libraries.md
-                - name: Scripts
+                - name: scripts ;
                   href: scripts.md
                 - name: Actions personnalisées du texte mis en forme
                   href: formatted-text-custom-actions.md
@@ -1071,7 +1071,7 @@
                   href: custom-action-return-processing-options.md
                 - name: Valeurs de retour de l’action personnalisée
                   href: custom-action-return-values.md
-                - name: Valeurs de retour des actions personnalisées JScript et VBScript
+                - name: valeurs de retour des Actions personnalisées JScript et VBScript
                   href: return-values-of-jscript-and-vbscript-custom-actions.md
         - name: Propriétés
           href: properties.md
@@ -1473,7 +1473,7 @@
                   href: terminalserver.md
                 - name: TextHeight
                   href: textheight.md
-                - name: Temps
+                - name: Heure
                   href: time.md
                 - name: TRANSFORMATIONS
                   href: transforms.md
@@ -1989,11 +1989,11 @@
                       href: authoring-user-interfaces-in-merge-modules.md
                     - name: Création de tables de registre de module de fusion
                       href: authoring-merge-module-registry-tables.md
-                    - name: Création de flux d’informations de résumé du module de fusion
+                    - name: Création des informations de synthèse du module de fusion Flux
                       href: authoring-merge-module-summary-information-streams.md
                     - name: Validation des modules de fusion
                       href: validating-merge-modules.md
-                    - name: Ajout de flux d’informations Lisez-moi à des modules de fusion
+                    - name: ajout d’informations lisez-moi Flux des Modules de fusion
                       href: adding-readme-information-streams-to-merge-modules.md
                 - name: Utilisation des modules de fusion 64 bits
                   href: using-64-bit-merge-modules.md
@@ -2113,7 +2113,7 @@
                               href: merge-closemodule.md
                             - name: Propriété ConfigurableItems
                               href: merge-configurableitems.md
-                            - name: Méthode Connect
+                            - name: Connecter Méthode
                               href: merge-connect.md
                             - name: Méthode CreateSourceImage
                               href: merge-createsourceimage.md
@@ -2214,7 +2214,7 @@
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closelog
                             - name: Méthode CloseModule
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closemodule
-                            - name: Méthode Connect
+                            - name: Connecter Méthode
                               href: /windows/desktop/api/mergemod/nf-mergemod-imsmmerge-connect
                             - name: Méthode CreateSourceImage
                               href: /windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-createsourceimage
@@ -2349,31 +2349,31 @@
                           href: arbitrary-bitfield-type.md
                 - name: Exemple de composant configurable
                   href: configurable-component-example.md
-        - name: Windows Installer l’amorçage
+        - name: Windows Programme d’amorçage du programme d’installation
           href: windows-installer-bootstrapping.md
           items:
             - name: Amorçage
               href: bootstrapping.md
             - name: Amorçage du téléchargement Internet
               href: internet-download-bootstrapping.md
-        - name: Windows Installer sur les systèmes d’exploitation 64 bits
+        - name: Windows Programme d’installation sur les systèmes d’exploitation 64 bits
           href: windows-installer-on-64-bit-operating-systems.md
           items:
-            - name: À propos des Windows Installer sur les systèmes d’exploitation 64 bits
+            - name: à propos des Windows Installer sur les systèmes d’exploitation 64 bits
               href: about-windows-installer-on-64-bit-operating-systems.md
               items:
                 - name: Packages de Windows Installer 32 bits
                   href: 32-bit-windows-installer-packages.md
                 - name: Packages de Windows Installer 64 bits
                   href: 64-bit-windows-installer-packages.md
-            - name: Utilisation de packages Windows Installers 64 bits
+            - name: utilisation de Packages Windows Installers 64 bits
               href: using-64-bit-windows-installer-packages.md
               items:
                 - name: Actions personnalisées 64 bits
                   href: 64-bit-custom-actions.md
-        - name: Exigences relatives au Windows Installer et au logo
+        - name: Windows Configuration requise pour le programme d’installation et le logo
           href: windows-installer-and-logo-requirements.md
-    - name: Exemples de Windows Installer
+    - name: Windows Exemples de programme d’installation
       href: windows-installer-examples.md
       items:
         - name: Exemple d’installation
@@ -2496,7 +2496,7 @@
               href: sign-setup-exe-and-mysetup-msi.md
             - name: Établissez une référence HTML à Setup.exe
               href: establish-an-html-reference-to-setup-exe.md
-        - name: Exemples de scripts Windows Installer
+        - name: Windows Exemples de scripts d’installation
           href: windows-installer-scripting-examples.md
           items:
             - name: 'Répertorier les produits, les propriétés, les fonctionnalités et les composants'
@@ -2507,7 +2507,7 @@
               href: export-files.md
             - name: Gérer les sous-stockages
               href: manage-substorages.md
-            - name: Gérer les flux binaires
+            - name: Gérer les Flux binaires
               href: manage-binary-streams.md
             - name: Fusionner deux bases de données
               href: merge-two-databases.md
@@ -2533,7 +2533,7 @@
               href: manage-file-sizes-and-versions.md
             - name: Générer un fichier CAB
               href: generate-file-cabinet.md
-            - name: Exécuter des instructions SQL
+            - name: exécuter des instructions SQL
               href: execute-sql-statements.md
             - name: Copier le fichier ANSI dans un champ de base de données
               href: copy-ansi-file-into-a-database-field.md
@@ -2545,7 +2545,7 @@
               href: preview-user-interface.md
         - name: Exemple de création de package unique
           href: single-package-authoring-example.md
-    - name: Référence Windows Installer
+    - name: Windows Référence du programme d’installation
       href: windows-installer-reference.md
       items:
         - name: Interface d’automatisation
@@ -3223,12 +3223,12 @@
                   items:
                     - name: Noms de tables
                       href: table-names.md
-                - name: Limitations OLE sur les flux
+                - name: Limitations OLE sur les Flux
                   href: ole-limitations-on-streams.md
                 - name: Utilisation des requêtes
                   href: working-with-queries.md
                   items:
-                    - name: Exemples de requêtes de base de données utilisant SQL et script
+                    - name: exemples de requêtes de base de données utilisant des SQL et des scripts
                       href: examples-of-database-queries-using-sql-and-script.md
                 - name: Utilisation des enregistrements
                   href: working-with-records.md
@@ -3259,7 +3259,7 @@
                   items:
                     - name: Syntaxe SQL
                       href: sql-syntax.md
-                    - name: Passage de NULL comme argument des fonctions Windows Installer
+                    - name: passage de null comme Argument des fonctions Windows Installer
                       href: passing-null-as-the-argument-of-windows-installer-functions.md
                     - name: MsiCreateRecord
                       href: /windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord
@@ -3397,7 +3397,7 @@
                           href: uppercase.md
                         - name: LowerCase
                           href: lowercase.md
-                        - name: Integer
+                        - name: Entier
                           href: integer.md
                         - name: DoubleInteger
                           href: doubleinteger.md
@@ -3411,7 +3411,7 @@
                           href: filename.md
                         - name: WildCardFilename
                           href: wildcardfilename.md
-                        - name: Chemin d’accès
+                        - name: Chemin
                           href: path.md
                         - name: Chemins
                           href: paths.md
@@ -3654,13 +3654,13 @@
         - name: 'Versions, outils et redistribuables publiés'
           href: released-versions-tools-and-redistributables.md
           items:
-            - name: Composants SDK Windows pour les développeurs Windows Installer
+            - name: Windows composants du kit de développement logiciel pour les développeurs Windows Installer
               href: platform-sdk-components-for-windows-installer-developers.md
             - name: Redistribuables Windows Installer
               href: windows-installer-redistributables.md
             - name: Versions commercialisées de Windows Installer
               href: released-versions-of-windows-installer.md
-            - name: Outils de développement Windows Installer
+            - name: Windows Outils de développement du programme d’installation
               href: windows-installer-development-tools.md
               items:
                 - name: Instmsi.exe
@@ -3733,14 +3733,14 @@
         - name: Référence des erreurs
           href: errors-reference.md
           items:
-            - name: Windows Installer des messages d’erreur
+            - name: Windows Messages d’erreur du programme d’installation
               href: windows-installer-error-messages.md
             - name: Messages d’erreur MsiExec.exe et InstMsi.exe
               href: error-codes.md
         - name: Glossaire
           href: glossary.md
           items:
-            - name: Un
+            - name: A
               href: a-gly.md
             - name: B
               href: b-gly.md

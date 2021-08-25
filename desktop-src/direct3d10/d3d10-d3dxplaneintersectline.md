@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1d32bb312c97b793f492f7a29bebe11529b79cf9
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9d70f588c9f4ec54fd5889f8effb503c62235441fe425d38ea9dbed620fd3e8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754159"
 ---
 # <a name="d3dxplaneintersectline-function-d3dx10mathh"></a>D3DXPlaneIntersectLine, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure D3DXVECTOR3 source, définissant un point de fin de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est l’intersection entre le plan et la ligne spécifiés.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Si la ligne est parallèle au plan, la **valeur null** est retournée.
 

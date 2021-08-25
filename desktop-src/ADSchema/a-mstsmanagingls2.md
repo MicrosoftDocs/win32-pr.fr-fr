@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31122c8ed57173c645ff63583f6d5615f84812b5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d4c181161e426188de204a04f7aab063a706d28ef6a4dec71f5232a186b6280d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924339"
 ---
 # <a name="ms-ts-managingls2-attribute"></a>Attribut MS-TS-ManagingLS2
 
@@ -42,7 +42,7 @@ Nom de l’émetteur du second serveur Terminal Server par licence d’accès cl
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

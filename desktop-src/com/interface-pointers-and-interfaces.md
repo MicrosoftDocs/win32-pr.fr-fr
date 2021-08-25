@@ -4,12 +4,12 @@ description: Pointeurs d’interface et interfaces
 ms.assetid: 8a8671fe-f0b2-4698-8c98-89753fffce0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa23d53f529c43fa7529d657108cc75cb6a23b15
-ms.sourcegitcommit: d482e4276cc06515e9fade2f253a257ffc418ce5
+ms.openlocfilehash: abeb6040c2e55168fee1aa2c73db0056de557d0ddafaed6499e7da048dfc56de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "106512630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854369"
 ---
 # <a name="interface-pointers-and-interfaces"></a>Pointeurs d’interface et interfaces
 
@@ -35,9 +35,9 @@ Pour résumer, il est important de comprendre ce qu’est une interface COM et n
 [Objets et interfaces COM](com-objects-and-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

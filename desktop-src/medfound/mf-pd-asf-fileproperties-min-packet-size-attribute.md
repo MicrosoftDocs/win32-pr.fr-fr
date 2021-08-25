@@ -4,12 +4,12 @@ ms.assetid: 8c62db36-1332-4565-9fc0-885b9fc148e1
 title: Attribut MF_PD_ASF_FILEPROPERTIES_MIN_PACKET_SIZE (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e7b9016184096696ffd74cde6bd51f305778e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da6a2f90e1f1f5c6b467710a931b7e741424dc0979dbdb8bf780dc9bb47a3723
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777059"
 ---
 # <a name="mf_pd_asf_fileproperties_min_packet_size-attribute"></a>\_Attribut de \_ \_ \_ taille minimale du \_ paquet \_ MF PD ASF FichierPropriétés
 
@@ -19,7 +19,7 @@ Spécifie la taille de paquet minimale, en octets, d’un fichier ASF (Advanced 
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -31,8 +31,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

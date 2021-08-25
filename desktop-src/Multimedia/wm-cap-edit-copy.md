@@ -3,7 +3,7 @@ title: Message WM_CAP_EDIT_COPY (VFW. h)
 description: Le \_ message WM Cap \_ Edit \_ Copy copie le contenu de la mémoire tampon de l’image vidéo et la palette associée dans le presse-papiers. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capEditCopy.
 ms.assetid: 16f1dd7d-af4d-4096-add8-eec5f0a0607f
 keywords:
-- Message WM_CAP_EDIT_COPY Windows Multimedia
+- message WM_CAP_EDIT_COPY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb81c21fc10846adaa113c02b6250bbb35cfff50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e944273ff8519aefa52803b2072199760a480e0fcb2a76dd314b578dcbcfdf4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892079"
 ---
 # <a name="wm_cap_edit_copy-message"></a>Message WM- \_ \_ modifier la \_ copie
 

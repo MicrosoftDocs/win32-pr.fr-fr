@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3bf8980fa29841d3c5341daeeccf26cea05db80c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58f95a62d17ccafd308666a5632a1f7a42ebfda6ca0a54dfb6dfa9d9eda9b684
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119715479"
 ---
 # <a name="cpl_getcount-message"></a>\_Message Cpl GETCOUNT
 
@@ -38,17 +38,17 @@ Envoyé à la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc
 
 La fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) retourne le nombre de boîtes de dialogue que l’application du panneau de configuration prend en charge.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est envoyé immédiatement après le message d' [**\_ initialisation de cpl**](cpl-init.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                      |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>Cpl. h</dt> </dl> |
 

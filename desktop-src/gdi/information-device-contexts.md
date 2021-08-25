@@ -4,12 +4,12 @@ ms.assetid: 8fd05c17-e8c9-4747-9a66-ce7d958edeb9
 title: Contextes de périphérique d’information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 002e9d5ebb6831f9e2251e76049e586ac3e84056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 974b861f47ffbd19566a5224d0c2705e9797e86abbe46005c6eb1687a9573378
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119779129"
 ---
 # <a name="information-device-contexts"></a>Contextes de périphérique d’information
 

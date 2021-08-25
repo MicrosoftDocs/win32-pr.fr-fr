@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6f8cc6d693b32b1bbe6f05e8d32ca31a48cfb29
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07453b707012c966fc298cc61973cb056b42d741d861a22204c17eec5265317f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119909599"
 ---
 # <a name="ras_params_value-union"></a>Union des valeurs des \_ paramètres RAS \_
 
-\[L’Union des **\_ \_ valeurs des paramètres RAS** n’est pas prise en charge par Windows Vista.\]
+\[l’union des **\_ \_ valeurs des paramètres RAS** n’est pas prise en charge à partir de Windows Vista.\]
 
 La **\_ \_ valeur** Union des paramètres RAS est utilisée dans la structure de [**\_ paramètres RAS**](ras-parameters-str.md) pour stocker les données associées à un paramètre spécifique au média. Le membre de **\_ type P** de la structure de **\_ paramètres RAS** utilise une valeur de l’énumération de [**\_ \_ format params**](ras-params-format-str.md) des paramètres d’accès distant pour indiquer le type de valeur actuellement stocké dans la **\_ \_ valeur** des paramètres RAS.
 

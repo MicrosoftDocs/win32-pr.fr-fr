@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e19a73b3ae3cf19745fc995a59c336b72d264e78
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c677e3f8f7c290dddc00b1754c611f68d778e6539086f3c5c6a0f2a0e9af8775
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836079"
 ---
 # <a name="supplemental-credentials-attribute"></a>Attribut Supplemental-Credentials
 
@@ -46,7 +46,7 @@ Informations d’identification stockées pour une utilisation lors de l’authe
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

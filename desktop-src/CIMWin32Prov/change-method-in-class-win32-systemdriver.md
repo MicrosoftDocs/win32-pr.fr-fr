@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: da814c8321e35189594bc350bd1e278a219bac59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 96ff327e84d3a5b6c66011506c162810f0fcc91d0cafe4053266aa8928f6e5a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925109"
 ---
 # <a name="change-method-of-the-win32_systemdriver-class"></a>Modifier la méthode de la \_ classe SystemDriver Win32
 
@@ -182,7 +182,7 @@ Le système tente de redémarrer avec une bonne configuration.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -387,7 +387,7 @@ Le **service d’État existe** (23)
 **Autre** (25 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour modifier un service à partir d’un service réseau sur le système local, utilisez les valeurs suivantes pour les paramètres *StartName* et *StartPassword* :
 

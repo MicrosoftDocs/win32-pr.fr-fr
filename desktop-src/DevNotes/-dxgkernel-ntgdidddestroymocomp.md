@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: b7bc5915fe43bd4d48495b2b1beda8ee38f05fe9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 414c9a5009a69d443189e39aecc2dda5601d819ff2beb8c1f523bc689007dc86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824919"
 ---
 # <a name="ntgdidddestroymocomp-function"></a>NtGdiDdDestroyMoComp fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ DESTROYMOCOMPDATA DD**](/windows/win32/api/ddr
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

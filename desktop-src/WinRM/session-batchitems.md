@@ -5,8 +5,8 @@ ms.assetid: 1675ba12-a0c7-4e59-a013-2109780e8afe
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la propriété BatchItems
-- Propriété BatchItems Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, propriété BatchItems
+- propriété BatchItems Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, propriété BatchItems
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb668b80a2fea8ec5c8683a7a85a20cfbb217a7f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59e395eb27be2b922cf9d53e40f1d8cea0fc13a5dcf7b62b95ac606ec8f3f96f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119795339"
 ---
 # <a name="sessionbatchitems-property"></a>Session.Batpropriété chItems
 
@@ -43,7 +43,7 @@ Session.BatchItems As long
 
 Spécifie le nombre maximal d’éléments retournés pour chaque appel réseau sous-jacent au service. Valeur par défaut : 20.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une fonctionnalité d’optimisation qui contrôle la fréquence des appels réseau entre le client et le serveur. Actuellement, elle est utilisée uniquement pour les énumérations. Pour plus d’informations sur l’énumération des ressources, consultez [**énumérer**](session-enumerate.md).
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: d235818130815c14cabf9a4f2ba51c0aa7d07f27
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: ee732a3cf67287790fd691cbf8b2b1592de31106abf08deb713bd6402afb971f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106533532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726700"
 ---
 # <a name="input-feedback-configuration-constants"></a>Constantes de configuration d’entrée de commentaires
 
@@ -44,8 +44,8 @@ Spécifie que la chaîne de fenêtre parente doit être vérifiée.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 

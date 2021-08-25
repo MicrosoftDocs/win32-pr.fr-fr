@@ -1,16 +1,16 @@
 - name: Services de déploiement Windows
   href: windows-deployment-services-portal.md
   items:
-    - name: À propos de l’API des services de déploiement Windows
+    - name: à propos de l’API Windows Deployment Services
       href: about-the-windows-deployment-services-api.md
     - name: Utilisation de l’API du serveur des Services de déploiement Windows
       href: using-the-windows-deployment-services-server-api.md
     - name: Utilisation de l’API du client des Services de déploiement Windows
       href: using-the-windows-deployment-services-client-api.md
-    - name: Informations de référence sur les services de déploiement Windows
+    - name: Windows Référence des services de déploiement
       href: windows-deployment-services-reference.md
       items:
-        - name: Fonctions du client des services de déploiement Windows
+        - name: Windows Fonctions du client des services de déploiement
           href: windows-deployment-services-client-functions.md
           items:
             - name: PFN_WdsCliCallback
@@ -83,7 +83,7 @@
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromfindhandle
             - name: WdsCliGetImageHandleFromTransferHandle
               href: /windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetimagehandlefromtransferhandle
-        - name: Fonctions du serveur des services de déploiement Windows
+        - name: Windows Fonctions du serveur des services de déploiement
           href: windows-deployment-services-server-functions.md
           items:
             - name: PxeAsyncRecvDone
@@ -154,7 +154,7 @@
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6parserelayforw
             - name: PxeDhcpv6CreateRelayRepl
               href: /windows/desktop/api/WdsPxe/nf-wdspxe-pxedhcpv6createrelayrepl
-        - name: Fonctions de transport des services de déploiement Windows
+        - name: Windows Fonctions de transport des services de déploiement
           href: windows-deployment-services-transport--functions.md
           items:
             - name: Fonctions du fournisseur de transport WDS
@@ -238,7 +238,7 @@
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientstartsession
                 - name: WdsTransportClientWaitForCompletion
                   href: /windows/desktop/api/Wdstci/nf-wdstci-wdstransportclientwaitforcompletion
-        - name: Énumérations des services de déploiement Windows
+        - name: Windows Énumérations des services de déploiement
           href: windows-deployment-services-enumerations.md
           items:
             - name: TRANSPORTCLIENT_CALLBACK_ID
@@ -249,7 +249,7 @@
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_2
             - name: WDS_LOG_TYPE_CLIENT
               href: /windows/desktop/api/wdsclientapi/ne-wdsclientapi-__unnamed_enum_1
-        - name: Structures des services de déploiement Windows
+        - name: Windows Structures des services de déploiement
           href: windows-deployment-services-structures.md
           items:
             - name: PXE_ADDRESS
@@ -280,7 +280,7 @@
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_init_params
             - name: WDS_TRANSPORTPROVIDER_SETTINGS
               href: /windows/win32/api/Wdstpdi/ns-wdstpdi-wds_transportprovider_settings
-        - name: API de gestion du transport des services de déploiement Windows
+        - name: Windows API de gestion du transport des services de déploiement
           href: windows-deployment-services-transport-management-api.md
           items:
             - name: Énumérations de la gestion du transport WDS
@@ -596,7 +596,7 @@
                   items:
                     - name: Méthode RetrieveTftpClients
                       href: /windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransporttftpmanager-retrievetftpclients
-        - name: Programme de démarrage réseau des services de déploiement Windows
+        - name: Windows Programme de démarrage réseau des services de déploiement
           href: windows-deployment-services-network-boot-program.md
           items:
             - name: WdsBpAddOption

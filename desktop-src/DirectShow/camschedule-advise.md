@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 70880243cef294ebe747463cd11737027faf9277
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0943479aaa7fe2e6d699bba147977a73f48fc31186fb64ea26a211e2ea31d8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119757789"
 ---
 # <a name="camscheduleadvise-method"></a>CAMSchedule. Advise, méthode
 
@@ -53,7 +53,7 @@ Valeur qui spécifie le temps de référence actuel.
 
 Retourne le temps de référence de la prochaine demande de notification planifiée, ou le \_ temps maximal s’il n’y en a aucun.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand l’horloge appelle cette méthode, elle spécifie le temps de référence actuel. Le planificateur détermine les demandes de notification qui ont expiré, le cas échéant, et les distribue. Si une demande d’une seule capture expire, le planificateur la supprime. En cas d’expiration d’une demande périodique, le planificateur la replanifie pour la prochaine notification. La méthode retourne l’heure de la demande en attente suivante.
 
@@ -65,7 +65,7 @@ Pour distribuer une demande de notification, le planificateur signale l’évén
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Dsschedule. h (include streams. h)</dt> </dl>                                                                                |
+| En-tête<br/>  | <dl> <dt>Dsschedule. h (inclure Flux. h)</dt> </dl>                                                                                |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

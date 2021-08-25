@@ -9,12 +9,12 @@ keywords:
 - durées de présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc88dbba93d1fc68905a4bfea92328a4ef600eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2dea9181552b42508745b256768b2c5ceb4443a057fc5d7d7a5a44410c788fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807909"
 ---
 # <a name="presentation-time"></a>Heure de présentation
 
@@ -27,15 +27,15 @@ Une heure de présentation est une mesure du temps à partir du premier exemple 
 [**Concepts**](concepts.md)
 </dt> <dt>
 
-[**Entrées, flux et sorties**](inputs-streams-and-outputs.md)
+[**entrées, Flux et sorties**](inputs-streams-and-outputs.md)
 </dt> <dt>
 
 [**Exemples de supports**](media-samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

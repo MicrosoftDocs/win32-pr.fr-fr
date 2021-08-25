@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 35e751fb583010402df53e1a85eca11f751eda24
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0e74a8880e446300ca142bfcf28633d267d184178a0c3572c3a8049667536978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910439"
 ---
 # <a name="cbasepinnotify-method"></a>CBasePin. Notify, méthode
 
@@ -57,11 +57,11 @@ Spécifie une structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La classe de base retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les broches de sortie doivent remplacer cette méthode pour accepter des messages de contrôle qualité.
 
@@ -73,7 +73,7 @@ Si un gestionnaire de qualité externe a été installé (voir [**CBasePin :: S
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

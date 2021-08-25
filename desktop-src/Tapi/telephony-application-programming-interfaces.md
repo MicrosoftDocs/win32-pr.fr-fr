@@ -4,12 +4,12 @@ ms.assetid: e7348296-ee2d-4e0a-b274-3563dccea841
 title: Interfaces de programmation d’applications de téléphonie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19fd6a520c8a53440967eeef753b7ed8c90ba5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50aee0711966c8ff7111a42576d4dfcb84d4da5088c736bf0cf29fe8a15c33b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773049"
 ---
 # <a name="telephony-application-programming-interfaces"></a>Interfaces de programmation d’applications de téléphonie
 

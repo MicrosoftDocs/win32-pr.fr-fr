@@ -4,16 +4,16 @@ ms.assetid: 632cecc6-6e34-43e5-992d-5fb3b066c8c7
 title: Fonctions utilitaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ab7599eee3984db53dc0c7f8874435639aac3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eff7764d69139a108330e5d46fb78f227d639ba496695aa004037ed0c28a95cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755849"
 ---
 # <a name="utility-functions"></a>Fonctions utilitaires
 
-Cette section contient des entrées de référence pour les fonctions et les macros de l’utilitaire Microsoft® DirectShow®. Pour utiliser ces fonctions, vous devez générer la bibliothèque de classes de base DirectShow.
+cette section contient des entrées de référence pour Microsoft® DirectShow fonctions et macros de l’utilitaire®. pour utiliser ces fonctions, vous devez générer la DirectShow bibliothèque de classes de base.
 
 -   [**Fonctions d’assistance COM**](com-helper-functions.md)
 -   [**Fonctions de configuration des DLL**](dll-setup-functions.md)
@@ -26,7 +26,7 @@ Cette section contient des entrées de référence pour les fonctions et les mac
 
 <dl> <dt>
 
-[Utilisation des classes de base DirectShow](using-the-directshow-base-classes.md)
+[utilisation des Classes de Base DirectShow](using-the-directshow-base-classes.md)
 </dt> </dl>
 
  

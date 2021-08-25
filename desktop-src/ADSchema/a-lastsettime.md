@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce123377fac6e67de1ba84b906c9498d0a064936
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7349535f4fbf17624b9cfc353627676988cdf4af63c742ad4c764f2d28e8e29b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804249"
 ---
 # <a name="last-set-time-attribute"></a>Attribut Last-Set-Time
 
@@ -36,7 +36,7 @@ Heure de la dernière modification de la clé secrète. Cette valeur est stocké
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.53                |
 | System-ID-GUID    | bf967998-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ Heure de la dernière modification de la clé secrète. Cette valeur est stocké
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

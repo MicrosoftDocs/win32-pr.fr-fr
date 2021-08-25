@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 623cc21591289f4c1fff33cabe1d504b3682708c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff19619b1f0ab46658d0876792248befd6940c525d5c7da1b3331f6ca1a8c12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813899"
 ---
 # <a name="iwiatransfer-interface"></a>Interface IWiaTransfer
 
@@ -42,13 +42,13 @@ L’interface **IWiaTransfer** possède ces méthodes.
 | [**Annuler**](-wia-iwiatransfer-cancel.md)                             | Annule l’opération de transfert en cours. <br/>                                         |
 | [**Télécharger**](-wia-iwiatransfer-download.md)                         | Lance un téléchargement de données vers l’appelant. <br/>                                        |
 | [**\_Informations de format EnumWIA \_**](-wia-iwiatransfer-enumwia-format-info.md) | Crée un énumérateur pour les formats de transfert pris en charge par l’appareil WIA 2,0.<br/> |
-| [**Télécharger**](-wia-iwiatransfer-upload.md)                             | Lance un chargement de données d’un élément unique à partir de l’appelant. <br/>                       |
+| [**Charger**](-wia-iwiatransfer-upload.md)                             | Lance un chargement de données d’un élément unique à partir de l’appelant. <br/>                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IWiaTransfer** , comme toutes les interfaces COM (Component Object Model), hérite des méthodes d’interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) .
 
@@ -70,8 +70,8 @@ L’interface **IWiaTransfer** , comme toutes les interfaces COM (Component Obje
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
-title: Configuration de flux vidéo pour la recherche de performances
-description: Configuration de flux vidéo pour la recherche de performances
+title: configuration de Flux vidéo pour la recherche de performances
+description: configuration de Flux vidéo pour la recherche de performances
 ms.assetid: 2df507f9-60a5-4489-b3db-7fe15604e625
 keywords:
 - flux, configuration de flux vidéo
@@ -10,14 +10,14 @@ keywords:
 - performances, flux vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b4fc68e0b3a91cf135d29dc7123d5af88db84c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9b7a21e6352d03375b680702a16190b4af9eef24ca7ba9d592adb79ab5794b5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840159"
 ---
-# <a name="configuring-video-streams-for-seeking-performance"></a>Configuration de flux vidéo pour la recherche de performances
+# <a name="configuring-video-streams-for-seeking-performance"></a>configuration de Flux vidéo pour la recherche de performances
 
 Certaines applications de lecture effectuent beaucoup de recherches sur des flux individuels. La recherche est une zone où les performances peuvent varier considérablement en fonction des paramètres du flux. Si vous savez que votre contenu doit être optimisé pour une recherche rapide, vous pouvez adapter la configuration de votre flux pour améliorer les performances.
 
@@ -36,7 +36,7 @@ Vous pouvez définir l’espacement maximal de l’image clé en appelant [**IWM
 
 
 
- 
+ 
 
 Pour plus d’informations sur l’obtention des meilleures performances lors de la recherche de fichiers vidéo, consultez [obtention de meilleures performances de recherche de vidéos](getting-the-best-video-seeking-performance.md).
 
@@ -44,12 +44,12 @@ Pour plus d’informations sur l’obtention des meilleures performances lors de
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

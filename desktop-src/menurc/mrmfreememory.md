@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6c255cb4d1c73e40b5636914d2bc70ae4e1efe3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8870281268ff9560d9c82455349f07c3df42e8ab1937b047c4aa9e431b02ed90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119825699"
 ---
 # <a name="mrmfreememory-function"></a>MrmFreeMemory fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Libère de la mémoire allouée par [**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.md), [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md), [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)et [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md). Pour plus d’informations et pour obtenir des procédures pas à pas sur l’utilisation de ces API, consultez [API PRI (package Resource Indexing) et systèmes de génération personnalisés](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
@@ -45,9 +45,9 @@ HRESULT HRESULT MrmFreeMemory(
 *données* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur vers la mémoire allouée et retournée par [_ *MrmCreateConfigInMemory* *](mrmcreateconfiginmemory.md), [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md), [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)ou [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md).
+Pointeur vers la mémoire allouée et retournée par [**MrmCreateConfigInMemory**](mrmcreateconfiginmemory.md), [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md), [**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)ou [**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md).
 
 </dd> </dl>
 
@@ -63,8 +63,8 @@ Type : **HRESULT**
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de \[ Bureau Windows Server uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows \[Applications de bureau serveur uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>MrmResourceIndexer. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Mrmsupport. lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

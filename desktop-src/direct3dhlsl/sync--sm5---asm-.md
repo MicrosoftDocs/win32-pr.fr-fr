@@ -4,12 +4,12 @@ description: Synchronisation de groupe de threads ou barrière de mémoire.
 ms.assetid: DCA637FE-8F5C-41D0-8B5E-F913463BA387
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be072b51b4a18d9f1408df0907ec0a55131c18d2
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: c5c64532669fc94d7d2109c39e501af0825e56434f66b79e20e1641c787a1a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852859"
 ---
 # <a name="sync-sm5---asm"></a>Sync (SM5-ASM)
 
@@ -22,9 +22,9 @@ Synchronisation de groupe de threads ou barrière de mémoire.
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **synchronisation** possède \_ les options Uglobal, \_ ugroup, \_ g et \_ t.
 
@@ -109,25 +109,25 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
 
 
- 
+ 
 
 Étant donné que les UAVs sont disponibles à toutes les étapes de nuanceur pour Direct3D 11,1, la variante **Sync \_ Uglobal** de cette instruction s’applique à toutes les étapes de nuanceur pour le runtime Direct3D 11,1, disponible à partir de Windows 8.
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -135,9 +135,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
@@ -146,7 +146,7 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -155,9 +155,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 [Assembly modèle 5 du nuanceur (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

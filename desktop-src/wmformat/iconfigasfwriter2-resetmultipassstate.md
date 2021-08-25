@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ed61e4f0517822a602f2bb88c944bba82fa1f943
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f10563ed716b6b33258fe57ff8129bff78b401170db1512566015d0b05d54dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119839869"
 ---
 # <a name="iconfigasfwriter2resetmultipassstate-method"></a>IConfigAsfWriter2 :: ResetMultiPassState, méthode
 
@@ -41,7 +41,7 @@ Cette méthode n’a aucun paramètre.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -54,7 +54,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée pour réinitialiser l’état interne du filtre chaque fois qu’un test d’encodage de prétraitement est annulé avant que le filtre ait reçu un événement de **\_ \_ fin de prétraitement EC** . Il n’est pas nécessaire d’appeler cette méthode si la réussite de l’encodage de prétraitement s’est terminée sans erreurs.
 

@@ -3,7 +3,7 @@ title: Traitement des données MIDI à partir de deux sources MIDI
 description: Traitement des données MIDI à partir de deux sources MIDI
 ms.assetid: d8b605d9-a12a-4830-8f29-ea700aefb41d
 keywords:
-- Multimédia Windows, traitement de données MIDI à partir de deux sources
+- Windows multimédia, traitement de données MIDI à partir de deux sources
 - multimédia, traitement de données MIDI à partir de deux sources
 - audio multimédia, traitement de données MIDI à partir de deux sources
 - audio, traitement des données MIDI à partir de deux sources
@@ -12,12 +12,12 @@ keywords:
 - traitement des données MIDI à partir de deux sources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 513dcd16036f6f833aec6813f75c6c082925f666
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9a5eb31c4c6b4b965321b7458d058a3547426b95236d6e0b52d6eb0f55b3e74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805789"
 ---
 # <a name="processing-midi-data-from-two-midi-sources"></a>Traitement des données MIDI à partir de deux sources MIDI
 
@@ -29,6 +29,6 @@ Envoyez le deuxième flux de données (généralement à partir d’un instrumen
 
 Chaque message bref envoyé avec **midiOutShortMsg** doit être un message MIDI complet, avec un octet d’État et le nombre approprié d’octets de données. Si l’octet d’État est omis, **midiOutShortMsg** retourne une erreur. (Toutefois, il n’y a pas d’État en cours d’exécution avec la sortie du flux.)
 
- 
+ 
 
- 
+ 

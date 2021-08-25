@@ -1,5 +1,5 @@
 ---
-description: L’acquisition d’images Windows (WIA) fournit des objets d’automatisation pour une utilisation dans les langages de script, tels que les logiciels de développement Microsoft JScript et Microsoft Visual Basic Scripting Edition (VBScript), ainsi que des langages de programmation de haut niveau tels que le système de développement Microsoft Visual Basic.
+description: Windows l’Acquisition d’images (WIA) fournit des objets d’automatisation pour une utilisation dans des langages de script, tels que microsoft JScript et microsoft Visual Basic scripting Edition (VBScript), ainsi que des langages de programmation de haut niveau tels que le système de développement microsoft Visual Basic.
 ms.assetid: 3d294db3-3349-4b26-aae1-1e3f588a0f0e
 title: Modèle de script WIA
 ms.topic: article
@@ -9,19 +9,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e70863e60e0d7aa6172bd9c93240f38cac27c6be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b558e84dd4095fd0d5dc3f1f14a7de76d9108c488cf3fc3613e3a09bc4830714
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119812849"
 ---
 # <a name="wia-scripting-model"></a>Modèle de script WIA
 
-L’acquisition d’images Windows (WIA) fournit des objets d’automatisation pour une utilisation dans les langages de script, tels que les logiciels de développement Microsoft JScript et Microsoft Visual Basic Scripting Edition (VBScript), ainsi que des langages de programmation de haut niveau tels que le système de développement Microsoft Visual Basic.
+Windows l’Acquisition d’images (WIA) fournit des objets d’automatisation pour une utilisation dans des langages de script, tels que microsoft JScript et microsoft Visual Basic scripting Edition (VBScript), ainsi que des langages de programmation de haut niveau tels que le système de développement microsoft Visual Basic.
 
 > [!Note]  
-> Ce système de script a été remplacé par la couche d’automatisation de l’acquisition d’images Windows (WIA). Voir [couche d’automatisation de l’acquisition d’image Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage).
+> ce système de script a été remplacé par la couche d’automatisation d’acquisition d’images Windows (WIA). consultez [Windows couche automatisation](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage)de l’Acquisition d’images.
 
  
 
