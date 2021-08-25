@@ -3,9 +3,9 @@ title: IWMPControls propriété currentPositionString
 description: La propriété currentPositionString obtient la position actuelle dans l’élément multimédia sous la forme d’une chaîne au format HH MM SS (heures, minutes et secondes).
 ms.assetid: cd28dafa-b6a4-4bed-aa5d-7e7be6af1426
 keywords:
-- propriété currentPositionString lecteur Windows Media
-- propriété currentPositionString lecteur Windows Media, interface IWMPControls
-- Interface IWMPControls lecteur Windows Media, propriété currentPositionString
+- Lecteur Windows Media de la propriété currentPositionString
+- Lecteur Windows Media de la propriété currentPositionString, interface IWMPControls
+- Lecteur Windows Media de l’interface IWMPControls, propriété currentPositionString
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85e941fceb61e4f00393b05f96489ec7ac8e950f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 61e3c98937a12c145742895979ccccb8118f8349f82b2840c902dfe625ad0472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861909"
 ---
 # <a name="iwmpcontrolscurrentpositionstring-property"></a>IWMPControls :: currentPositionString, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property currentPositionString As System.String
 
 **System. String** mis en forme qui correspond à la position actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément multimédia a une valeur inférieure à une heure, la position actuelle est au format MM : SS (minutes et secondes).
 

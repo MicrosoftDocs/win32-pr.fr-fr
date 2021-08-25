@@ -3,19 +3,19 @@ title: Source d’image secondaire faisant l’objet d’un push
 description: Source d’image secondaire faisant l’objet d’un push
 ms.assetid: f2a2380d-c876-456b-837b-01b3997d81f2
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6de50f72c8af34fa4f3e44507e172cae6890dc47
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37045da71b8417856ec72ac7e57a6a787426ba486993b9fef03910b4d32e663d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861829"
 ---
 # <a name="pushed-secondary-image-source"></a>Source d’image secondaire faisant l’objet d’un push
 
@@ -42,9 +42,9 @@ Les États secondaires ne peuvent pas avoir d’image désactivée. Les images s
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
