@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 83d603d2ec5fde00ef0b29d84368e04a1276f992
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9ede66e7250a1dec095bd03a72ea69e58afb59a60b43647fd49adfc958689cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748119"
 ---
 # <a name="id3dxloaduserdata-interface"></a>Interface ID3DXLoadUserData
 
@@ -47,7 +47,7 @@ L’interface **ID3DXLoadUserData** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le type LPD3DXLOADUSERDATA est défini en tant que pointeur vers cette interface.
 

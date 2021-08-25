@@ -8,12 +8,12 @@ keywords:
 - MCIWndOpenInterface macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac4191f18409a1fb1f23ba3a2128b4aaed1b30e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb9e388e4b7998a932cb22545c05509277f1f7fa705a81fbde02d4d5fb35cdd6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786262"
 ---
 # <a name="allowing-the-user-to-specify-devices-and-files"></a>Autoriser l’utilisateur à spécifier des appareils et des fichiers
 
@@ -32,11 +32,11 @@ Pour associer une fenêtre MCIWnd à une interface de fichier ou une interface d
 > [!Note]  
 > Avant d’associer un nouveau fichier ou un nouveau périphérique à une fenêtre MCIWnd, [**MCIWndOpenDialog**](/windows/desktop/api/Vfw/nf-vfw-mciwndopendialog) et [**MCIWndOpen**](/windows/desktop/api/Vfw/nf-vfw-mciwndopen) Fermez tout appareil actuellement associé à la fenêtre. Votre application n’a pas besoin de fermer les appareils ouverts avant d’utiliser ces macros.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

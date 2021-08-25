@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 6befc9a7e64fb0963d45257d68d6bb8d2ba7a2cb
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 620b8cf1671c18f2e4a79a798fac366d61c9e09f5a83ecda2c1ade531c6a558a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106509234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636031"
 ---
 # <a name="idodownloadfinalize-method"></a>IDODownload :: Finalize, méthode
 
@@ -39,6 +39,6 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | Do. h |

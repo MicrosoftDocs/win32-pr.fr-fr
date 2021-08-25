@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 54a140a892b0e9144ef23fc0290ca3bb3747e90a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e9889be841df54f6ae18b7ac52d7117f780af37662c5a1d4f6c29af858350345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104029958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743859"
 ---
 # <a name="groupmemorybarrier-function"></a>GroupMemoryBarrier fonction)
 
@@ -38,7 +38,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -46,25 +46,25 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -76,9 +76,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

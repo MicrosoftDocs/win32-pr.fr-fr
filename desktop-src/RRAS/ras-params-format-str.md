@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00065f3781fd2ada420f67367e84e0863fe3b446
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b798ef8a5257afcb4e4ad653801bda0d21691057abad970d6e8158f592146e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119673179"
 ---
 # <a name="ras_params_format-enumeration"></a>\_Énumération de format des paramètres RAS \_
 
-\[L’énumération de **\_ \_ format des paramètres RAS** n’est pas prise en charge par Windows Vista.\]
+\[l’énumération de **\_ \_ FORMAT des paramètres RAS** n’est pas prise en charge à partir de Windows Vista.\]
 
 Le type d’énumération de **\_ \_ format params RAS** est utilisé dans la structure de [**\_ paramètres RAS**](ras-parameters-str.md) pour indiquer le type de données associé à une clé spécifique au média.
 

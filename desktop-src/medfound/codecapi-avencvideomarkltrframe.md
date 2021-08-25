@@ -4,12 +4,12 @@ ms.assetid: D70A54D6-DA9B-40E5-B130-0AA9C5363DF0
 title: CODECAPI_AVEncVideoMarkLTRFrame, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a377f30aec049bc5cbc850ea03ace9dcc640bd6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62f7bed0fd913dd17e06055ad259f4c8ed7037d90df2ecc53100e14ec4e505a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119606429"
 ---
 # <a name="codecapi_avencvideomarkltrframe-property"></a>CODECAPI \_ propriété AVEncVideoMarkLTRFrame
 
@@ -23,7 +23,7 @@ Marque le frame actuel comme un cadre LTR.
 
 **CODECAPI \_ AVEncVideoMarkLTRFrame**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Encodeurs H. 264/AVC :**
 
@@ -39,8 +39,8 @@ La \_ propriété CODECAPI AVEncVideoMarkLTRFrame est dynamique et peut être d�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

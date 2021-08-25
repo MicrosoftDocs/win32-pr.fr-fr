@@ -3,7 +3,7 @@ title: Structure MCI_VD_ESCAPE_PARMS (Mciapi. h)
 description: La structure de l' \_ échappement MCI VD \_ \_ contient la commande envoyée à un appareil pour la \_ commande d’échappement MCI pour les appareils videodisc.
 ms.assetid: 7c735943-b67a-4be5-82b5-6a058349623e
 keywords:
-- Structure de MCI_VD_ESCAPE_PARMS Windows multimédia
+- structure MCI_VD_ESCAPE_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80712cd693e2c7ebe290be6b9827c1e051dd86a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f9a0fef0e60168d4539756c741527d751fd726ab3d2472cdbaf3b080784e70c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783844"
 ---
 # <a name="mci_vd_escape_parms-structure"></a>Structure de l' \_ échappement MCI VD \_ \_
 
@@ -55,7 +55,7 @@ Commande à envoyer à l’appareil.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

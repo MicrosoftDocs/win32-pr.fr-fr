@@ -4,19 +4,19 @@ ms.assetid: f12facdc-5a3f-4f89-8ae3-a322ef3389b2
 title: Interfaces Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81d7da07a9389dad1629e517c728488cb5b6bf9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 85e48620ea697a52f9e5da599c4455b6c8051154394870dc4cc6bde37ef454eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119791419"
 ---
 # <a name="direct3d-interfaces"></a>Interfaces Direct3D
 
 Cette section contient des informations de référence sur les interfaces COM (Component Object Model) fournies par Microsoft Direct3D 9.
 
 > [!Note]  
-> Les applications Direct3D du Windows Store ne peuvent pas utiliser l’API Direct3D 9. Utilisez plutôt l’API Microsoft Direct3D 11 ou version ultérieure avec le [niveau de fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x.
+> les applications direct3d Windows store ne peuvent pas utiliser l’API direct3d 9. Utilisez plutôt l’API Microsoft Direct3D 11 ou version ultérieure avec le [niveau de fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 \_ x.
 
  
 

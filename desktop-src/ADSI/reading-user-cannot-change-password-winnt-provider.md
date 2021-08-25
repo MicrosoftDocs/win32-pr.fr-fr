@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, utilisateur ne peut pas modifier le mot de passe, lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 761a1ef0a332f1cdfd7dad1b20426b749618ed2286832c7ff16b207cee57c176
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637549"
 ---
 # <a name="reading-user-cannot-change-password-winnt-provider"></a>La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)
 

@@ -4,12 +4,12 @@ ms.assetid: fc581da4-0a7b-4c31-8f73-0784066fcc56
 title: Exemple de test d’atteinte à l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d25e6cbc0ed471384bea0cc1977dd38d3ae4830
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 995bd6f14b4a0a014452ae9392fa744ab93f01f9047c79e5dc30652c243473db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119713079"
 ---
 # <a name="ink-hit-test-sample"></a>Exemple de test d’atteinte à l’encre
 
@@ -23,7 +23,7 @@ Les fonctionnalités suivantes sont utilisées dans cet exemple :
 
 ## <a name="accessing-the-ink-api"></a>Accès à l’API Ink
 
-Tout d’abord, référencez les classes Tablet PC, situées dans le kit de développement logiciel (SDK) Windows Vista ou Windows XP Tablet PC Edition.
+tout d’abord, référencez les classes Tablet pc, situées dans le kit de développement logiciel (SDK) Windows Vista ou Windows XP Tablet pc Edition.
 
 
 ```C++
@@ -32,7 +32,7 @@ using Microsoft.Ink;
 
 
 
-## <a name="handling-form-load-and-paint-events"></a>Gestion des événements de chargement et de peinture de formulaire
+## <a name="handling-form-load-and-paint-events"></a>gestion du chargement de formulaire et des événements de Paint
 
 Le gestionnaire d’événements Load du formulaire :
 
@@ -56,7 +56,7 @@ ic.Enabled = true;ic.AutoRedraw = true;
 
 
 
-Le gestionnaire d’événements Paint du formulaire vérifie le mode de l’application :
+le gestionnaire d’événements Paint du formulaire vérifie le mode de l’application :
 
 -   En mode HitTest, il peint un cercle autour du curseur. Le stylet actif est défini dans la méthode handleHitTest de l’application.
 -   En mode NearestPoint, il peint une ligne rouge entre le curseur et le point le plus proche du curseur. Le point le plus proche est calculé dans la méthode handleNearestPoint de l’application.

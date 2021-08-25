@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 0699eb16-d6ef-46e3-bd02-d35512536275
-ms.openlocfilehash: fa59a70c04e7f78a315955aeabb9477c6f28c80d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: a694ced28663a005bfdacd406adb3f6b3d6cd0300db2a101c9fdee4bf215a23d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821119"
 ---
 # <a name="webwizardhostfinalnext-method"></a>Méthode WebWizardHost. FinalNext
 
@@ -37,18 +37,18 @@ iRetVal = WebWizardHost.FinalNext()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’Assistant affiche la dernière page HTML côté serveur et que l’utilisateur clique sur le bouton **suivant** ou **Terminer** , le serveur appelle **FinalNext** dans le gestionnaire d’événements de ce bouton.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl> |
 

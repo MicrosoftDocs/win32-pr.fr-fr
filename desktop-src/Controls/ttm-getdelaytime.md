@@ -3,7 +3,7 @@ title: Message TTM_GETDELAYTIME (commctrl. h)
 description: Récupère les durées initiales, contextuelles et de réaffichages actuellement définies pour un contrôle ToolTip.
 ms.assetid: f89a75ed-ba80-4741-927f-c571f3b2efe7
 keywords:
-- TTM_GETDELAYTIME les contrôles de message Windows
+- TTM_GETDELAYTIME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff8c75f078465646333cae1f519049733a0c9f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0e63eca126477a6f602e6e23be75495319d30aa2814d2d72b8426a96c078326
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769259"
 ---
 # <a name="ttm_getdelaytime-message"></a>\_Message atténuation GETDELAYTIME
 
@@ -61,8 +61,8 @@ Retourne une valeur de type INT avec la durée spécifiée en millisecondes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

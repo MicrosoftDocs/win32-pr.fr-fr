@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: da8754add6e3f5997354c940c303c41d4588c7b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2451f8e0668e0064566511bbf5eeb05e65094967486142719629400cf8d97348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720269"
 ---
 # <a name="advanceddocumentproperties-function"></a>AdvancedDocumentProperties fonction)
 
@@ -86,7 +86,7 @@ Pointeur vers une structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-de
 
 Si la fonction [**DocumentProperties**](documentproperties.md) avec ces paramètres réussit, la valeur de retour de **AdvancedDocumentProperties** est 1. Sinon, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

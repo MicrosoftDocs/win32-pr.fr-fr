@@ -3,7 +3,7 @@ title: Structure MCI_WAVE_DELETE_PARMS (Mciapi. h)
 description: La \_ structure MCI Wave \_ Delete \_ PARMS contient des informations sur la position de la \_ commande MCI Delete pour les périphériques audio Waveform.
 ms.assetid: 5c0bf0ca-773b-4b96-8b55-9ef7b5a306d9
 keywords:
-- Structure de MCI_WAVE_DELETE_PARMS Windows multimédia
+- structure MCI_WAVE_DELETE_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 286c6443a229da266dae4992687c0e9ead5640bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11633a1b6b3876f0382669856cf5971767be325906b270c4d42417e8d3f9b51d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783826"
 ---
 # <a name="mci_wave_delete_parms-structure"></a>Structure de suppression des sons MCI \_ Wave \_ \_
 
@@ -63,7 +63,7 @@ Position à supprimer.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

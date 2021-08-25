@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: f59d6a2f1cabbbe7b072a87caa3e5d74d012fc49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb37cdd32673c385617d9c0c0ae8616c8dae0ab711d1253391ae2c1e6b2f8789
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703769"
 ---
 # <a name="wpd_focus_metering_modes-enumeration"></a>\_ \_ Énumération des modes de contrôle de focus wpd \_
 
@@ -62,7 +62,7 @@ Déterminez le focus en analysant plusieurs parties de la zone encadrée.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est spécifiée par la propriété du mode de contrôle de focus de l' [ \_ \_ image \_ \_ \_ wpd continue](still-image-properties.md) .
 

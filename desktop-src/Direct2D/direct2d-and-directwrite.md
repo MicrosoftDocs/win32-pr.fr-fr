@@ -1,19 +1,19 @@
 ---
 title: Rendu de texte avec Direct2D et DirectWrite
-description: Contrairement à d’autres API, telles que GDI, GDI+ ou WPF, Direct2D interagit avec une autre API, DirectWrite, pour manipuler et restituer le texte. Cette rubrique décrit les avantages et l’interopérabilité de ces composants distincts.
+description: contrairement à d’autres api, telles que GDI, GDI+ ou WPF, Direct2D interagit avec une autre api, DirectWrite, pour manipuler et restituer le texte. Cette rubrique décrit les avantages et l’interopérabilité de ces composants distincts.
 ms.assetid: 1d5b8deb-34e2-433c-8de3-4ef66fb4e49d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c49a8f341377bcf78a9a99699a3bd4852411dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3dd95e7644b5f429d4dd91d2276213d5b7ffb92b058d8e530bfcf47fee77fea3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104564779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698229"
 ---
 # <a name="text-rendering-with-direct2d-and-directwrite"></a>Rendu de texte avec Direct2D et DirectWrite
 
-Contrairement à d’autres API, telles que [GDI](/windows/desktop/gdi/windows-gdi), GDI+ ou WPF, [Direct2D](./direct2d-portal.md) interagit avec une autre API, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal), pour manipuler et restituer le texte. Cette rubrique décrit les avantages et l’interopérabilité de ces composants distincts.
+contrairement à d’autres api, telles que [GDI](/windows/desktop/gdi/windows-gdi), GDI+ ou WPF, [Direct2D](./direct2d-portal.md) interagit avec une autre api, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal), pour manipuler et restituer le texte. Cette rubrique décrit les avantages et l’interopérabilité de ces composants distincts.
 
 Cette rubrique contient les sections suivantes.
 
@@ -31,13 +31,13 @@ Cette rubrique contient les sections suivantes.
 
 Le déplacement d’une application d’une API Graphics vers une autre peut être difficile ou pas ce que vous souhaitez pour diverses raisons. Cela peut être dû au fait que vous devez prendre en charge les plug-ins qui utilisent toujours les interfaces plus anciennes, car l’application elle-même est trop volumineuse pour porter vers une nouvelle API dans une version ou parce qu’une partie de l’API plus récente est souhaitable mais que l’ancienne API fonctionne correctement pour d’autres parties de l’application.
 
-Étant donné que [Direct2D](./direct2d-portal.md) et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) sont implémentés en tant que composants distincts, vous pouvez mettre à niveau l’ensemble du système graphique 2D ou uniquement la partie texte de celui-ci. Par exemple, vous pouvez mettre à jour une application pour qu’elle utilise DirectWrite pour le texte tout en continuant à utiliser [GDI](/windows/desktop/gdi/windows-gdi) ou GDI+ pour le rendu.
+étant donné que [Direct2D](./direct2d-portal.md) et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) sont implémentés en tant que composants distincts, vous pouvez mettre à niveau l’ensemble de votre système graphique 2d ou simplement la partie texte de celui-ci. par exemple, vous pouvez mettre à jour une application pour qu’elle utilise DirectWrite pour le texte, tout en continuant à utiliser [GDI](/windows/desktop/gdi/windows-gdi) ou GDI+ pour le rendu.
 
 ## <a name="text-services-versus-text-rendering"></a>Services de texte et rendu de texte
 
 À mesure que les applications ont évolué, leurs exigences en matière de traitement du texte ont augmenté de plus en plus complexe. À première vue, le texte était généralement confiné à l’interface utilisateur disposée statiquement, et le texte était rendu dans une zone bien définie, telle qu’un bouton. À mesure que les applications commençaient à être disponibles dans un nombre croissant de langages, cette approche est devenue plus difficile à supporter, car la largeur et la hauteur du texte traduit peuvent varier considérablement d’un langage à l’autre. Pour s’adapter, les applications ont commencé à disposer de manière dynamique de leur interface utilisateur pour dépendre de la taille de rendu réelle du texte, plutôt que de l’inverse.
 
-Pour aider les applications à effectuer cette tâche, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) fournit l’interface [**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) . Cette API permet à une application de spécifier une partie de texte avec des caractéristiques complexes, telles que des polices et des tailles de police différentes, des soulignements, des strikethroughs, du texte bidirectionnel, des effets, des points de suspension et même des caractères non-glyphes incorporés (tels qu’une émoticône bitmap ou une icône). L’application peut ensuite modifier différentes caractéristiques du texte, car il détermine de manière itérative sa disposition d’interface utilisateur. L' [exemple de Hello World DirectWrite](/samples/browse/?redirectedfrom=MSDN-samples), qui est présenté dans l’illustration suivante et dans la rubrique [Didacticiel : prise en main avec DirectWrite](/windows/desktop/DirectWrite/getting-started-with-directwrite) , présente un grand nombre de ces effets.
+pour aider les applications à effectuer cette tâche, [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) fournit l’interface [**IDWriteTextLayout**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout) . Cette API permet à une application de spécifier une partie de texte avec des caractéristiques complexes, telles que des polices et des tailles de police différentes, des soulignements, des strikethroughs, du texte bidirectionnel, des effets, des points de suspension et même des caractères non-glyphes incorporés (tels qu’une émoticône bitmap ou une icône). L’application peut ensuite modifier différentes caractéristiques du texte, car il détermine de manière itérative sa disposition d’interface utilisateur. l' [exemple DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples), qui est présenté dans l’illustration suivante et dans la rubrique [didacticiel : Prise en main avec DirectWrite](/windows/desktop/DirectWrite/getting-started-with-directwrite) , présente un grand nombre de ces effets.
 
 ![capture d’écran de l’exemple « Hello World ».](images/dwrite-hello-world.png)
 
@@ -49,20 +49,20 @@ L’interface de disposition du texte est dissociée de l’API de rendu utilis�
 
 ![diagramme de disposition du texte et de l’API graphique.](images/direct2d-directwrite1.png)
 
-Cette séparation est possible car DirectWrite fournit une interface de rendu ([**IDWriteTextRenderer**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer)) que les applications peuvent implémenter pour afficher du texte à l’aide de l’API graphique de votre choix. L’application implémentée [**IDWriteTextRenderer ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) méthode de rappel est appelée par DirectWrite lors du rendu d’une disposition de texte. Il incombe à cette méthode d’effectuer les opérations de dessin ou de les passer.
+cette séparation est possible, car DirectWrite fournit une interface de rendu ([**IDWriteTextRenderer**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer)) que les applications peuvent implémenter pour afficher du texte à l’aide de l’API graphique de votre choix. l’application implémentée [**IDWriteTextRenderer ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) méthode de rappel est appelée par DirectWrite lors du rendu d’une disposition de texte. Il incombe à cette méthode d’effectuer les opérations de dessin ou de les passer.
 
-Pour dessiner des glyphes, [Direct2D](./direct2d-portal.md) fournit [**ID2D1RenderTarget ::D rawglyphrun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) pour le dessin sur une surface Direct2D et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) fournit [**IDWriteBitmapRenderTarget ::D RAWGLYPHRUN**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) pour le dessin sur une surface GDI qui peut ensuite être transférée à une fenêtre à l’aide de GDI. En pratique, les **DrawGlyphRun** dans Direct2D et DirectWrite ont des paramètres compatibles avec la méthode [**DrawGlyphRun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) que l’application implémente sur [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer).
+pour dessiner des glyphes, [Direct2D](./direct2d-portal.md) fournit [**ID2D1RenderTarget ::D rawglyphrun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) pour le dessin sur une surface Direct2D et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) fournit [**IDWriteBitmapRenderTarget ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) pour le dessin sur une surface GDI qui peut ensuite être transférée à une fenêtre à l’aide de GDI. en pratique, **DrawGlyphRun** à la fois dans Direct2D et DirectWrite avoir des paramètres compatibles avec la méthode [**DrawGlyphRun**](/windows/desktop/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun) que l’application implémente sur [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer).
 
-À la suite d’une séparation similaire, les fonctionnalités spécifiques au texte (telles que l’énumération et la gestion des polices, l’analyse des glyphes, etc.) sont gérées par [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) au lieu de [Direct2D](./direct2d-portal.md). Les objets DirectWrite sont acceptés directement par Direct2D. Pour aider les applications GDI existantes à tirer parti de DirectWrite, il fournit l’interface de méthode [**IDWriteGdiInterop**](/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop) avec des méthodes pour effectuer les opérations suivantes :
+à la suite d’une séparation similaire, les fonctionnalités spécifiques au texte (telles que l’énumération et la gestion des polices, l’analyse des glyphes, etc.) sont gérées par [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) au lieu de [Direct2D](./direct2d-portal.md). les objets DirectWrite sont acceptés directement par Direct2D. pour aider les applications GDI existantes à tirer parti de DirectWrite, elle fournit l’interface de méthode [**IDWriteGdiInterop**](/windows/desktop/api/dwrite/nn-dwrite-idwritegdiinterop) avec des méthodes pour effectuer les opérations suivantes :
 
--   Créez une police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à partir d’une police logique [GDI](/windows/desktop/gdi/windows-gdi) ([**CreateFontFromLOGFONT**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont)).
--   Conversion d’un type de police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) en une police logique [GDI](/windows/desktop/gdi/windows-gdi) ([**ConvertFontFaceToLOGFONT**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont)).
--   Récupérez le type de police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à partir de celui qui est sélectionné dans un HDC. ([**CreateFontFaceFromHdc**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc))
--   Créez une [](/windows/desktop/DirectWrite/direct-write-portal) [**cible de rendu de bitmap**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) DirectWrite dans la mémoire système ([**CreateBitmapRenderTarget**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)).
+-   créer une police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à partir d’une police logique [GDI](/windows/desktop/gdi/windows-gdi) ([**CreateFontFromLOGFONT**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfromlogfont)).
+-   convertit un type de police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) en une police logique [GDI](/windows/desktop/gdi/windows-gdi) ([**ConvertFontFaceToLOGFONT**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-convertfontfacetologfont)).
+-   récupérez le type de police [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à partir de celui qui est sélectionné dans un HDC. ([**CreateFontFaceFromHdc**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc))
+-   créer une [](/windows/desktop/DirectWrite/direct-write-portal) [**cible de rendu DirectWrite bitmap**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) dans la mémoire système ([**CreateBitmapRenderTarget**](/windows/desktop/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)).
 
 ## <a name="glyphs-versus-text"></a>Glyphes et texte
 
-Le texte est un ensemble de points de code Unicode (caractères), avec différents modificateurs stylistiques (polices, poids, soulignements, strikethroughs, etc.) disposés dans un rectangle. Un glyphe, en revanche, est un index particulier dans un fichier de police particulier. Un glyphe définit un ensemble de courbes qui peuvent être rendues, mais il n’a aucune signification textuelle. Il peut y avoir un mappage plusieurs-à-plusieurs entre des glyphes et des caractères. Une séquence de glyphes qui proviennent du même type de police et qui sont disposés de façon séquentielle sur une ligne de base est appelée [GlyphRun](/windows/desktop/DirectWrite/glyphs-and-glyph-runs). [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et [DIRECT2D](./direct2d-portal.md) appellent leurs API de rendu de glyphes les plus précises [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) et leurs signatures sont très similaires. Les éléments suivants proviennent de [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) dans Direct2D :
+Le texte est un ensemble de points de code Unicode (caractères), avec différents modificateurs stylistiques (polices, poids, soulignements, strikethroughs, etc.) disposés dans un rectangle. Un glyphe, en revanche, est un index particulier dans un fichier de police particulier. Un glyphe définit un ensemble de courbes qui peuvent être rendues, mais il n’a aucune signification textuelle. Il peut y avoir un mappage plusieurs-à-plusieurs entre des glyphes et des caractères. Une séquence de glyphes qui proviennent du même type de police et qui sont disposés de façon séquentielle sur une ligne de base est appelée [GlyphRun](/windows/desktop/DirectWrite/glyphs-and-glyph-runs). [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et [Direct2D](./direct2d-portal.md) appellent leurs API de rendu de glyphes les plus précises [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) et ont des signatures très similaires. Les éléments suivants proviennent de [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) dans Direct2D :
 
 
 ```
@@ -93,7 +93,7 @@ STDMETHOD(DrawGlyphRun)(
 
 
 
-La version [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) conserve l’origine de la ligne de base, le mode de mesure et les paramètres d’exécution du glyphe et comprend des paramètres supplémentaires.
+la version [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) conserve l’origine de la ligne de base, le mode de mesure et les paramètres d’exécution du glyphe, et comprend des paramètres supplémentaires.
 
 [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) vous permet également d’utiliser un convertisseur personnalisé pour les glyphes en implémentant l’interface [**IDWriteTextRenderer**](/windows/desktop/api/dwrite/nn-dwrite-idwritetextrenderer) . Cette interface a également une méthode **DrawGlyphRun** , comme le montre l’exemple de code suivant.
 
@@ -122,7 +122,7 @@ Chaque exécution de glyphe commence à une origine et est placée sur une ligne
 
 Par conséquent, [Direct2D](./direct2d-portal.md) fournit des API qui acceptent du texte au lieu de glyphes : [**ID2D1RenderTarget ::D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) et [**ID2D1RenderTarget ::D rawtext**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode)). Les deux méthodes sont rendues sur une surface Direct2D. Pour effectuer un rendu sur une surface GDI, [**IDWriteBitmapRenderTarget ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) est fourni. Toutefois, cette méthode requiert l’implémentation d’un convertisseur de texte personnalisé par l’application. (Pour plus d’informations, consultez la rubrique [rendu dans une surface GDI](/windows/desktop/DirectWrite/render-to-a-gdi-surface) .)
 
-L’utilisation d’une application de texte commence généralement par simple : put **OK** ou **Cancel** sur un bouton de disposition fixe, par exemple. Toutefois, au fil du temps, il devient plus complexe en tant qu’internationalisation et d’autres fonctionnalités sont ajoutées. Finalement, de nombreuses applications devront utiliser les objets de mise en page [de texte de DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et implémenter le convertisseur de texte.
+L’utilisation d’une application de texte commence généralement par simple : put **OK** ou **Cancel** sur un bouton de disposition fixe, par exemple. Toutefois, au fil du temps, il devient plus complexe en tant qu’internationalisation et d’autres fonctionnalités sont ajoutées. finalement, de nombreuses applications devront utiliser les objets de mise en page [de texte de DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et implémenter le convertisseur de texte.
 
 Par conséquent, [Direct2D](./direct2d-portal.md) fournit des API en couches qui permettent à une application de démarrer simplement et de croître plus sophistiquées sans devoir suivre ou abandonner son code de travail. Un affichage simplifié est illustré dans le diagramme suivant :
 
@@ -144,7 +144,7 @@ Pour obtenir un exemple d’implémentation d’un convertisseur de texte person
 
 ## <a name="glyph-rendering"></a>Rendu de glyphe
 
-L’ajout de [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à une application GDI existante permet à l’application d’utiliser l’API [**IDWriteBitmapRenderTarget**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) pour afficher les glyphes. La méthode [**IDWriteBitmapRenderTarget ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) fournie par DirectWrite s’affiche en couleur unie sur un contrôleur de périphérique de mémoire sans nécessiter d’API supplémentaires, telles que [Direct2D](./direct2d-portal.md).
+l’ajout d' [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) à une application GDI existante permet à l’application d’utiliser l’API [**IDWriteBitmapRenderTarget**](/windows/desktop/api/dwrite/nn-dwrite-idwritebitmaprendertarget) pour afficher les glyphes. la méthode [**IDWriteBitmapRenderTarget ::D rawglyphrun**](/windows/desktop/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) fournie par DirectWrite est rendue en couleur unie à un contrôleur de périphérique de mémoire sans nécessiter d’api supplémentaires, telles que [Direct2D](./direct2d-portal.md).
 
 Cela permet à l’application d’obtenir des fonctionnalités de rendu de texte avancées, telles que les suivantes :
 
@@ -162,8 +162,8 @@ Pour prendre en charge efficacement l’accélération matérielle, [Direct2D](.
 
 ## <a name="conclusion"></a>Conclusion
 
-Cette rubrique explique les différences et similarités entre [Direct2D](./direct2d-portal.md) et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et les motivations architecturales pour les fournir comme API coopératives distinctes.
+cette rubrique explique les différences et similarités entre [Direct2D](./direct2d-portal.md) et [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal) et les motivations architecturales pour les fournir comme api coopératives distinctes.
 
- 
+ 
 
- 
+ 

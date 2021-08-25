@@ -4,12 +4,12 @@ ms.assetid: eed6a323-b7eb-41a2-adb9-592f3f912884
 title: Récupération des données de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28fa4054170f9b66d73e3494928db312eb8aa9d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adf956a04c733883cb5fb374e4e75dc4e93e8029f9968deb90cc113cef460864
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717989"
 ---
 # <a name="retrieving-device-data"></a>Récupération des données de l’appareil
 

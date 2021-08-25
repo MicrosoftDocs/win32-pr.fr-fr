@@ -4,12 +4,12 @@ ms.assetid: d1f0bc92-37bc-4de2-876a-e6b8b09da58d
 title: Ce qui est répliqué
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd2739cb0ff615ddc38f30a7aa9b0a572be5e28a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d60b08151c14d0254bd856fe2ee5b7b83d85714d1b435a32817bf66cc11a1e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636649"
 ---
 # <a name="what-gets-replicated"></a>Ce qui est répliqué
 
@@ -29,7 +29,7 @@ L’administrateur est chargé de répliquer tout ce dont dépend une applicatio
 <span id="COM__preinstalled_applications"></span><span id="com__preinstalled_applications"></span><span id="COM__PREINSTALLED_APPLICATIONS"></span>Applications préinstallées par COM+
 </dt> <dd>
 
-Les applications qui sont utilisées en interne par COM+ et qui sont installées via le programme d’installation de COM+ ne sont pas répliquées. Ces options en question sont les suivantes :
+Les applications qui sont utilisées en interne par COM+ et qui sont installées via le programme d’installation de COM+ ne sont pas répliquées. Leurs thèmes sont les suivants :
 
 -   Application système
 -   Utilitaires COM+

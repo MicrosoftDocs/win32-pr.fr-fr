@@ -1,9 +1,9 @@
 ---
 title: Message ICM_ABOUT (VFW. h)
-description: Le \_ message ICM about notifie à un pilote de compression vidéo qu’il doit afficher sa boîte de dialogue à propos de ou interroge un pilote de compression vidéo pour déterminer s’il possède une boîte de dialogue à propos de. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICAbout.
+description: le ICM \_ à propos du message indique à un pilote de compression vidéo d’afficher la boîte de dialogue à propos de ou interroge un pilote de compression vidéo pour déterminer s’il possède une boîte de dialogue à propos de. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICAbout.
 ms.assetid: 6eca69a3-0463-48e6-befb-5003b7515e7d
 keywords:
-- Message ICM_ABOUT Windows Multimedia
+- message ICM_ABOUT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1e03e88993ba1e345a3ea32a9de7adb2d63abe9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bf47ff93ef1986d805b2cb37697fdf4d86876c5552fe6aeffb00ff172673018
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785069"
 ---
-# <a name="icm_about-message"></a>ICM \_ à propos du message
+# <a name="icm_about-message"></a>ICM \_ À propos du message
 
-Le message **ICM \_ about** notifie à un pilote de compression vidéo qu’il doit afficher sa boîte de dialogue à propos de ou interroge un pilote de compression vidéo pour déterminer s’il possède une boîte de dialogue à propos de. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICAbout**](/windows/desktop/api/Vfw/nf-vfw-icabout) .
+le **ICM \_ à propos** du message indique à un pilote de compression vidéo d’afficher la boîte de dialogue à propos de ou interroge un pilote de compression vidéo pour déterminer s’il possède une boîte de dialogue à propos de. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICAbout**](/windows/desktop/api/Vfw/nf-vfw-icabout) .
 
 
 ```C++

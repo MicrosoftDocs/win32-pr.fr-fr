@@ -1,23 +1,23 @@
 ---
-title: Rechercher à l’aide d’ActiveX Data Objects (ADO)
-description: Le modèle ADO (ActiveX Data Object) se compose d’objets listés dans le tableau suivant.
+title: rechercher à l’aide d’ActiveX Data Objects (ADO)
+description: le modèle d’objet de données ActiveX (ADO) se compose d’objets énumérés dans le tableau suivant.
 ms.assetid: 27298f53-a652-49f2-a6e6-d92c7c6022af
 ms.tgt_platform: multiple
 keywords:
-- ActiveX Data Objects ADSI, recherche avec ADO
-- Recherche avec ActiveX Data Objects ADSI
+- ActiveX Objets de données ADSI, recherche avec ADO
+- recherche avec ActiveX Data Objects ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e73f630892169c7086daf9bb1e7b6c13bfdf0a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 52eba3dd5bc9013500aa4def7a31104d1408d4818b78a35ff75f09f2454f4d21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106513556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770449"
 ---
-# <a name="searching-with-activex-data-objects-ado"></a>Rechercher à l’aide d’ActiveX Data Objects (ADO)
+# <a name="searching-with-activex-data-objects-ado"></a>rechercher à l’aide d’ActiveX Data Objects (ADO)
 
-Le modèle ADO (ActiveX Data Object) se compose d’objets listés dans le tableau suivant.
+le modèle d’objet de données ActiveX (ADO) se compose d’objets énumérés dans le tableau suivant.
 
 
 
@@ -26,7 +26,7 @@ Le modèle ADO (ActiveX Data Object) se compose d’objets listés dans le table
 | **Connection** | Connexion ouverte à une source de données OLE DB telle que ADSI.                                                                          |
 | **Commande**    | Définit une commande spécifique à exécuter sur la source de données.                                                                         |
 | **Paramètre**  | Collection facultative pour tous les paramètres à fournir à l’objet de commande.                                                        |
-| **RecordSet**  | Ensemble d’enregistrements d’une table, d’un objet de commande ou d’une syntaxe SQL. Un jeu d’enregistrements peut être créé sans objet de connexion sous-jacent. |
+| **RecordSet**  | ensemble d’enregistrements d’une table, d’un objet de commande ou d’une syntaxe de SQL. Un jeu d’enregistrements peut être créé sans objet de connexion sous-jacent. |
 | **Champ**      | Une seule colonne de données dans un jeu d’enregistrements.                                                                                            |
 | **Propriété**   | Collection de valeurs fournies par le fournisseur pour ADO.                                                                           |
 | **Error**      | Contient des données sur les erreurs d’accès aux données. Actualisation lorsqu’une erreur se produit en une seule opération.                                      |
@@ -37,7 +37,7 @@ Le modèle ADO (ActiveX Data Object) se compose d’objets listés dans le table
 
 Pour qu’ADO communique avec ADSI, il doit y avoir au moins deux objets ADO : **Connection** et **Recordset**. Ces objets ADO servent à authentifier les utilisateurs et à énumérer les résultats, respectivement. En règle générale, vous allez également utiliser un objet de **commande** pour maintenir une connexion active, spécifier des paramètres de requête, tels que la taille de page et l’étendue de recherche, et exécuter une requête. Pour plus d’informations sur la syntaxe de filtre de recherche, consultez [syntaxe de filtre de recherche](search-filter-syntax.md).
 
-L’objet de **connexion** charge le fournisseur OLE DB et valide les informations d’identification de l’utilisateur. Dans Visual Basic, appelez la fonction **CreateObject** avec «ADODB. Connexion» pour créer une instance d’un objet de **connexion** , puis définissez la propriété **Provider** de l’objet de **connexion** sur « ADSDSOObject ». ADODB. Connection» est le ProgID de l’objet **Connection** et « ADSDSOObject » est le nom du fournisseur OLE DB dans ADSI. Si aucune information d’identification n’est spécifiée, les informations d’identification de l’utilisateur actuellement connecté sont utilisées.
+L’objet de **connexion** charge le fournisseur OLE DB et valide les informations d’identification de l’utilisateur. dans Visual Basic, appelez la fonction **CreateObject** avec «ADODB. Connexion» pour créer une instance d’un objet de **connexion** , puis définissez la propriété **Provider** de l’objet de **connexion** sur « ADSDSOObject ». ADODB. Connection» est le ProgID de l’objet **Connection** et « ADSDSOObject » est le nom du fournisseur OLE DB dans ADSI. Si aucune information d’identification n’est spécifiée, les informations d’identification de l’utilisateur actuellement connecté sont utilisées.
 
 L’exemple de code suivant montre comment créer une instance d’un objet de **connexion** .
 
@@ -61,7 +61,7 @@ con.Provider = "ADsDSOObject"
 
 
 
-L’exemple de code suivant montre comment créer une instance d’un objet de **connexion** . N’oubliez pas que vous devez inclure la bibliothèque de types ADO (msadoXX.dll) comme l’une des références dans le projet Visual Basic.
+L’exemple de code suivant montre comment créer une instance d’un objet de **connexion** . n’oubliez pas que vous devez inclure la bibliothèque de types ADO (msadoXX.dll) comme l’une des références dans le projet Visual Basic.
 
 
 ```VB
@@ -100,7 +100,7 @@ oConnect.Open "DS Query", stUser, stPass
 
 
 
-Le deuxième objet ADO est l’objet **Command** . L’identificateur de programme (ProgID) de l’objet **Command** est « ADODB. Command ». Cet objet vous permet d’émettre des instructions de requête et d’autres commandes à ADSI à l’aide de la connexion active. L’objet **Command** utilise sa propriété **ActiveConnection** pour maintenir une connexion active. Elle gère également la propriété **CommandText** pour contenir des instructions de requête émises par un utilisateur. Les instructions de requête sont exprimées dans le dialecte [SQL](sql-dialect.md) ou le [dialecte LDAP](ldap-dialect.md).
+Le deuxième objet ADO est l’objet **Command** . L’identificateur de programme (ProgID) de l’objet **Command** est « ADODB. Command ». Cet objet vous permet d’émettre des instructions de requête et d’autres commandes à ADSI à l’aide de la connexion active. L’objet **Command** utilise sa propriété **ActiveConnection** pour maintenir une connexion active. Elle gère également la propriété **CommandText** pour contenir des instructions de requête émises par un utilisateur. les instructions de requête sont exprimées dans le dialecte [SQL](sql-dialect.md) ou dans le [dialecte LDAP](ldap-dialect.md).
 
 Les exemples de code suivants montrent comment créer un objet de **commande** .
 
@@ -234,7 +234,7 @@ Wend
 
 
 
-Pour plus d’informations sur le modèle objet ADO, consultez [Microsoft ActiveX Data Objects](/sql/ado/microsoft-activex-data-objects-ado?view=sql-server-ver15).
+pour plus d’informations sur le modèle objet ADO, consultez [Microsoft ActiveX Data Objects](/sql/ado/microsoft-activex-data-objects-ado?view=sql-server-ver15).
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: d20d374a-a259-4e89-8eeb-942bbe53e959
 title: Attribut MF_SD_ASF_EXTSTRMPROP_MAX_DATA_BITRATE (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85626be11afe2e9413852e8aec3533f987538473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa9bb445724c15604ab30e353315769f78a71c0d6dd94291392e4c34ee05a70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714359"
 ---
 # <a name="mf_sd_asf_extstrmprop_max_data_bitrate-attribute"></a>\_Attribut de \_ \_ \_ débit maximal de \_ données max. ASF EXTSTRMPROP ASF \_
 
@@ -19,7 +19,7 @@ Spécifie la vitesse de transmission maximale, en bits par seconde, d’un flux 
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de flux pour le contenu ASF. Elle correspond au champ autre vitesse de transmission de données dans l’objet de propriétés de flux étendu. Pour plus d’informations, reportez-vous à la spécification ASF.
 
@@ -31,8 +31,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

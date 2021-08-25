@@ -4,12 +4,12 @@ description: Il existe plusieurs façons d’accéder aux ressources.
 ms.assetid: 83950c4d-5df2-4ed1-9d8f-222a62791c18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e69ab7bffd22b2271c4d648c3a95ec8d98656973
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d5b66ae5ad0f3a49f51281d12ba5e3c2c52cd822aadd5097485b571533ae1a04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119677169"
 ---
 # <a name="accessing-resources"></a>Accès aux ressources
 
@@ -45,22 +45,22 @@ Cet exemple affecte les 4 valeurs float qui sont stockées au Texel situé à la
 > [!Note]  
 > La valeur par défaut pour accéder à une texture de cette façon est le niveau mipmap zéro (le niveau le plus détaillé).
 
- 
+ 
 
 > [!Note]  
 > La ligne « float4 myVar = myTexture \[ pos \] ; » équivaut à « float4 MyVar = MyTexture. Load (uint3 (POS, 0)); ». L’accès par index est une nouvelle amélioration de la syntaxe HLSL.
 
- 
+ 
 
 > [!Note]  
 > Le compilateur dans la version de juin 2010 du kit de développement logiciel (SDK) DirectX et ultérieur vous permet d’indexer tous les types de ressources, à l’exception des [mémoires tampons d’adresse d’octets](direct3d-11-advanced-stages-cs-resources.md).
 
- 
+ 
 
 > [!Note]  
 > Le compilateur 2010 de juin et les versions ultérieures vous permettent de déclarer des variables de ressource locales. Vous pouvez assigner des ressources globalement définies (comme *myTexture*) à ces variables et les utiliser de la même façon que leurs équivalents globaux.
 
- 
+ 
 
 ## <a name="access-by-mips-method"></a>Accès par méthode mips
 
@@ -84,6 +84,6 @@ Il s’agit d’une amélioration du compilateur 2010 de juin et versions ultér
 [Vue d’ensemble du nuanceur de calcul](direct3d-11-advanced-stages-compute-shader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

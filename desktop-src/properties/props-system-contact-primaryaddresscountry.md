@@ -4,12 +4,12 @@ ms.assetid: 40566ff8-0a83-4834-8c27-2794ef5fc0c0
 title: System. contact. PrimaryAddressCountry
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31adf66f6ef81ddc3001ab27077eba836bc36f9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e419ac526e6b969e22eca44ee875bad7d09528ba02bcc2c3230ca6e4ba94047c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119717506"
 ---
 # <a name="systemcontactprimaryaddresscountry"></a>System. contact. PrimaryAddressCountry
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

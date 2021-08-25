@@ -3,7 +3,7 @@ title: Commande MCI_UNDO (mmsystem. h)
 description: La commande d’annulation de la commande MCI annule \_ la dernière opération de collage MCI, de \_ copie MCI, de la \_ suppression MCI ou de la \_ \_ commande de collage MCI. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 1593457a-e680-4732-a89e-00f4eff7605a
 keywords:
-- Commande MCI_UNDO Windows multimédia
+- commande MCI_UNDO Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d099d95159afee8d91acb77eb64e8e80bee5425d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 44f69d39c7980cca3deb2c65226af8e95ce3e40f86e651356abd9f4b47410d64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784181"
 ---
 # <a name="mci_undo-command"></a>\_Commande d’annulation MCI
 
@@ -76,7 +76,7 @@ Retourne zéro en cas de réussite ou une erreur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

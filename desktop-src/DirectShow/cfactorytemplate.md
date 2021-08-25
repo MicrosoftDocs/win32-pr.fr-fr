@@ -16,22 +16,22 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: be5ca9b8319eeddf777cbf0071c1930f21524369
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f9fbc76fe65e1f1136fb44d22db36500c4d8870f97befa8e36fa08a108ada71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697619"
 ---
 # <a name="cfactorytemplate-class"></a>CFactoryTemplate, classe
 
 Fournit un modèle pour créer des fabriques de classes.
 
-Dans DirectShow, les fabriques de classes sont spécialisées à l’aide de la classe **CFactoryTemplate** , également appelée *modèle de fabrique*. Chaque fabrique de classe contient un pointeur vers un modèle de fabrique. Le modèle de fabrique contient des informations sur un objet COM, y compris l’identificateur de classe (CLSID) de l’objet et un pointeur vers une fonction qui crée l’objet.
+dans DirectShow, les fabriques de classes sont spécialisées à l’aide de la classe **CFactoryTemplate** , également appelée *modèle de fabrique*. Chaque fabrique de classe contient un pointeur vers un modèle de fabrique. Le modèle de fabrique contient des informations sur un objet COM, y compris l’identificateur de classe (CLSID) de l’objet et un pointeur vers une fonction qui crée l’objet.
 
 Dans votre DLL, déclarez un tableau global de modèles de fabrique nommés *g \_ Templates*. Incluez un modèle de fabrique pour chaque objet dans la DLL. Quand la fonction [**DllGetClassObject**](/windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject) crée une nouvelle fabrique de classes, elle recherche un modèle avec un CLSID correspondant dans le tableau. En supposant qu’il en trouve un, il crée une fabrique de classe qui contient un pointeur vers le modèle correspondant. Lorsque le client appelle **IClassFactory :: CreateInstance**, la fabrique de classe appelle la fonction d’instanciation définie dans le modèle.
 
-Pour plus d’informations, voir [How to Create a DirectShow Filter dll](how-to-create-a-dll.md).
+pour plus d’informations, voir [How to create a DirectShow Filter DLL](how-to-create-a-dll.md).
 
 
 
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [How to Create a DirectShow Filter dll](how-to-
 
 | Condition requise | Valeur |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                    |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib ; </dt> <dt>Strmbasd. lib</dt> </dl> |
 
 

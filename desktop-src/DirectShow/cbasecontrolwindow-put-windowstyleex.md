@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7ee04cf2d2b2dcaafdaf4e989fd1118abf447698
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 48bdfba6b388d4595af3ba886ed97567c12f080953e238c03d8a5fb36f7a6ce4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635539"
 ---
 # <a name="cbasecontrolwindowput_windowstyleex-method"></a>CBaseControlWindow. put \_ WindowStyleEx, méthode
 
@@ -53,7 +53,7 @@ Valeur qui spécifie le style de la fenêtre de contrôle.
 
 Retourne une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode utilise des styles de fenêtre étendus. Pour obtenir la liste complète des styles de fenêtre étendus, consultez la fonction Microsoft Win32 **CreateWindowEx** . Pour modifier le style de la fenêtre, récupérez le style de la fenêtre active, puis ajoutez ou supprimez les champs de bits nécessaires.
 
@@ -74,7 +74,7 @@ N’utilisez pas les styles de fenêtre suivants, car ils ne sont pas validés.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

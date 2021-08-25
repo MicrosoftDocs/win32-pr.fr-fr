@@ -3,7 +3,7 @@ title: Événement CdromBurnMediaError de l’objet AxWindowsMediaPlayer
 description: L’événement CdromBurnMediaError se produit lorsqu’une erreur se produit lors de la gravure d’un élément multimédia individuel sur un CD.
 ms.assetid: 0847a8a2-1fef-41a0-affb-9fa6bd10b925
 keywords:
-- Événement CdromBurnMediaError de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement CdromBurnMediaError de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d9fac8902fe8700171d2c909e8140c74c8cc3c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba161945edcda7409b842987ab97768c30a6e1f0ba011772cf7f3757d3f61c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765268"
 ---
 # <a name="cdromburnmediaerror-event-of-the-axwindowsmediaplayer-object"></a>Événement CdromBurnMediaError de l’objet AxWindowsMediaPlayer
 
@@ -54,7 +54,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour capturer des erreurs génériques, gérez AxWMPLib. \_ \_Événement WMPOCXEvents CdromBurnError.
 
@@ -74,10 +74,10 @@ Pour capturer des erreurs génériques, gérez AxWMPLib. \_ \_Événement WMPOCX
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
-[**Événement AxWindowsMediaPlayer. CdromBurnError (VB et C#)**](axwmplib-axwindowsmediaplayer-cdromburnerror.md)
+[**événement AxWindowsMediaPlayer. CdromBurnError (VB et C#)**](axwmplib-axwindowsmediaplayer-cdromburnerror.md)
 </dt> <dt>
 
 [**Interface IWMPCdromBurn (VB et C#)**](iwmpcdromburn--vb-and-c.md)

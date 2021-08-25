@@ -1,6 +1,6 @@
 ---
 title: Attribut non-Security-Member-BL
-description: Liste des membres non sécurisés pour une liste de distribution Exchange.
+description: liste de membres non sécurisés pour une liste de distribution Exchange.
 ms.assetid: 6f5044f5-3cab-4b92-9055-2d431efdd0f0
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2478b887e25bcdcb2ecfcb6b13b06feb50994fa
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 81b663f0f1acb546a4fbfac4fc90660ca1299fdb8e28c4d4ef7eef96e60a9bbb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703120"
 ---
 # <a name="non-security-member-bl-attribute"></a>Attribut non-Security-Member-BL
 
-Liste des membres non sécurisés pour une liste de distribution Exchange.
+liste de membres non sécurisés pour une liste de distribution Exchange.
 
 
 
@@ -45,7 +45,7 @@ Liste des membres non sécurisés pour une liste de distribution Exchange.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ description: L’effet Postérisation réduit le nombre de couleurs uniques dans
 ms.assetid: e6686998-1246-b3b7-6f4f-212568c3191c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c98c55154300f7b29c23c24e97570335c6e930f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21372ee43935441168609cc81ef053ac96fd3fdbbd7cd3c16578f13d1a47fda1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636102"
 ---
 # <a name="posterize-effect"></a>Effet Postérisation
 
@@ -20,7 +20,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Posterize.
 -   [Exemple d’image](#example-image)
 -   [Exemple de Code](#sample-code)
 -   [Propriétés d’effet](#effect-properties)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -58,8 +58,8 @@ Les propriétés de l’effet Postérisation sont définies par l’énumératio
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Applications de \[ Bureau Windows 10 \| applications du Windows Store\] |
+| Client minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
+| Serveur minimal pris en charge | Windows 10 \[ applications de bureau \| Windows applications du windows Store\] |
 | En-tête                   | d2d1effects \_ 2. h                                  |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                              |
 

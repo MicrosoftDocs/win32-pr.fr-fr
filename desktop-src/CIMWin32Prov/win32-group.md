@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8849ba149e0de570150682d3afbad3a4ee33f36
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f5c6a7feda436129e910b4db21cd3b7457f5a3d6a737e6a99b1c43244659495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699799"
 ---
 # <a name="win32_group-class"></a>\_Classe de groupe Win32
 
@@ -129,7 +129,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Domain"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32APId \| Network Management Functions \| nom_domaine")
 </dt> </dl>
 
-Nom du domaine Windows auquel appartient le compte de groupe.
+nom du domaine Windows auquel appartient le compte du groupe.
 
 Exemple : « NA-SALES »
 
@@ -183,7 +183,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| Network Management structures \| Name")
 </dt> </dl>
 
-Nom du compte de groupe Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
+nom du compte de groupe Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
 
 </dd> <dt>
 
@@ -199,7 +199,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api, \| identificateurs de sécurité (SID)")
 </dt> </dl>
 
-Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. Chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. Le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec la sécurité Windows. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
+Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec Windows la sécurité. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
 
 Cette propriété est héritée [**du \_ compte Win32**](win32-account.md).
 
@@ -396,7 +396,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ groupe Win32** est dérivée du [**\_ compte Win32**](win32-account.md).
 

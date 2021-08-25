@@ -4,12 +4,12 @@ ms.assetid: ea40ed1d-1ef9-44f3-8ae8-3d854e308a49
 title: Extraction d’informations sur les correctifs en tant que XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20e1e594d3ff2870ca1aaf87245c537045f95d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0574d953609b467c42467853f540dc85c9c24a31c07b3b3d006eaa6633472d53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119821679"
 ---
 # <a name="extracting-patch-information-as-xml"></a>Extraction d’informations sur les correctifs en tant que XML
 
@@ -17,7 +17,7 @@ Les informations de séquencement et d’applicabilité des correctifs retourné
 
 -   L’élément MsiPatch est l’élément supérieur de l’objet BLOB XML et contient des informations sur le correctif.
 
-    L’attribut SchemaVersion spécifie la version de la définition de schéma. Le schéma est spécifié par MSIPatchApplicability. xsd et la version de schéma actuelle est 1.0.0.0. La valeur de l’attribut PatchGUID est le code correctif GUID pour le package de correctifs obtenu à partir de la propriété [**Résumé du numéro de révision**](revision-number-summary.md) dans le flux d’informations de [synthèse](summary-information-stream.md) du correctif. MinMsiVersion est la version minimale de la Windows Installer requise pour installer le correctif obtenu à partir de la propriété [**Résumé du nombre de mots**](word-count-summary.md) .
+    L’attribut SchemaVersion spécifie la version de la définition de schéma. Le schéma est spécifié par MSIPatchApplicability. xsd et la version de schéma actuelle est 1.0.0.0. La valeur de l’attribut PatchGUID est le code correctif GUID pour le package de correctifs obtenu à partir de la propriété [**Résumé du numéro de révision**](revision-number-summary.md) dans le flux d’informations de [synthèse](summary-information-stream.md) du correctif. MinMsiVersion est la version minimale de la Windows Installer requise pour installer le correctif obtenu à partir de la propriété [**résumé du nombre de mots**](word-count-summary.md) .
 
 -   L’élément TargetProduct est un élément conteneur pour les informations relatives à une application ciblée par un correctif.
 
@@ -49,7 +49,7 @@ Les informations de séquencement et d’applicabilité des correctifs retourné
 
 ## <a name="extracting-applicability-information"></a>Extraction des informations d’applicabilité
 
-L’exemple suivant montre comment extraire les informations d’applicabilité d’un correctif logiciel Windows Installer (fichier. msp) à l’aide de [**MsiExtractPatchXMLData**](/windows/desktop/api/Msi/nf-msi-msiextractpatchxmldataa). L’objet BLOB XML extrait est basé sur la définition de schéma dans MSIPatchApplicability. xsd et est retourné à szXMLData.
+l’exemple suivant montre comment extraire les informations d’applicabilité d’un correctif logiciel Windows Installer (fichier. msp) à l’aide de [**MsiExtractPatchXMLData**](/windows/desktop/api/Msi/nf-msi-msiextractpatchxmldataa). L’objet BLOB XML extrait est basé sur la définition de schéma dans MSIPatchApplicability. xsd et est retourné à szXMLData.
 
 
 ```C++
@@ -93,7 +93,7 @@ void main()
 
 
 
-L’exemple suivant montre comment extraire les informations de mise en application d’un correctif Windows Installer (fichier. msp) au format XML. L’objet BLOB XML extrait est basé sur la définition de schéma dans MSIPatchApplicability. xsd et est retourné dans strPatchXML.
+l’exemple suivant montre comment extraire les informations de mise en application d’un correctif Windows Installer (fichier. msp) au format XML. L’objet BLOB XML extrait est basé sur la définition de schéma dans MSIPatchApplicability. xsd et est retourné dans strPatchXML.
 
 ``` syntax
 Dim installer
@@ -103,7 +103,7 @@ strPatchXML = installer.ExtractPatchXMLData("c:\example\patch.msp")
 
 ## <a name="patch-applicability-schema-definition"></a>Définition du schéma de mise en application des correctifs
 
-Copiez le texte suivant dans le bloc-notes ou dans un autre éditeur de texte pour créer le fichier de définition de schéma pour les informations de mise en application des correctifs dans l’objet BLOB XML. Nommez ce fichier MSIPatchApplicability. XSD.
+copiez le texte suivant dans Bloc-notes ou un autre éditeur de texte pour créer le fichier de définition de schéma pour les informations de mise en application des correctifs dans l’objet blob XML. Nommez ce fichier MSIPatchApplicability. XSD.
 
 ``` syntax
 <?xml version="1.0" encoding="utf-8" ?>

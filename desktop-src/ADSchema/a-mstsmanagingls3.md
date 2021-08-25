@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df9b0c92ca5f5eac822d5a62bd23af813842cdf6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4ea6cbd68b4925a23de66abdd03c29b9763fe405ad1608c67b01c113e3028d92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802659"
 ---
 # <a name="ms-ts-managingls3-attribute"></a>Attribut MS-TS-ManagingLS3
 
@@ -42,7 +42,7 @@ Nom de l’émetteur du troisième serveur Terminal Server par licence d’accè
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

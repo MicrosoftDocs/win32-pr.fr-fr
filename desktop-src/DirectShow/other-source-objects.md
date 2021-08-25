@@ -4,18 +4,18 @@ ms.assetid: 67482227-9df6-4e89-b16f-160a0bae6609
 title: Autres objets sources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0c76c8f6cb104e87630f178a82d613675b96723
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c8bbc1618cb7a76e87a4837fce3905a7c9ba7455b13297e779b8be8e80c40732
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790909"
 ---
 # <a name="other-source-objects"></a>Autres objets sources
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-En plus des sources audio et vidéo, les [services de modification DirectShow](directshow-editing-services.md) (des) prennent en charge les objets sources suivants.
+en plus des sources vidéo et audio, les [Services d’édition de DirectShow](directshow-editing-services.md) prennent en charge les objets sources suivants.
 
 **Images fixes**
 
@@ -48,10 +48,10 @@ L’objet [source de couleur vidéo](video-color-source.md) crée une image vid�
 
 **Filtres de source personnalisés**
 
-DES peut utiliser un filtre source DirectShow comme source de chronologie, si le filtre remplit les conditions suivantes :
+DES peut utiliser un filtre de source DirectShow comme source de chronologie, si le filtre remplit les conditions suivantes :
 
 -   Il prend en charge la recherche
--   Il produit un format pris en charge par. Le format peut être compressé tant que le système de l’utilisateur dispose d’un filtre DirectShow capable de le décoder.
+-   Il produit un format pris en charge par. le format peut être compressé tant que le système de l’utilisateur dispose d’un filtre DirectShow capable de le décoder.
 
 Pour utiliser une source personnalisée, spécifiez le CLSID du filtre en tant que GUID de sous-objet de l’objet source. Pour plus d’informations, consultez sous- [objets](subobjects.md). Pour prendre en charge les propriétés personnalisées, implémentez-les en tant que propriétés « put » **IDispatch** . Seules les propriétés statiques sont prises en charge sur les objets sources ; les propriétés dynamiques ne sont pas prises en charge.
 

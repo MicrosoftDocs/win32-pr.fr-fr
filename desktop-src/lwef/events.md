@@ -4,12 +4,12 @@ description: IAgentNotifySink
 ms.assetid: vs|msagent|~\paface_2xet.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2ccfd4acf4a64c229379aeea5847fbe044b7d5
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b43a092ddd9c50ff7aacb0254c4773a43005759ab23b6682aaf6484d5aef4839
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725779"
 ---
 # <a name="iagentnotifysink"></a>IAgentNotifySink
 
@@ -33,17 +33,17 @@ IAgentNotifySink notifie les clients lorsque certains changements d’État se p
 | [**RequestStart**](iagentnotifysink--requeststart.md)                | Se produit lorsque le serveur commence à traiter un objet de [**requête**](/windows/desktop/lwef/the-request-object) .    |
 | [**RequestComplete**](iagentnotifysink--requestcomplete.md)          | Se produit lorsque le serveur termine le traitement d’un objet de [**requête**](/windows/desktop/lwef/the-request-object) . |
 | [**Signet**](iagentnotifysink--bookmark.md)                        | Se produit lorsque le serveur traite un signet.                                             |
-| [**Périodes**](iagentnotifysink--idle.md)                                | Se produit lorsque le serveur démarre ou termine le traitement de l’inactivité.                                   |
+| [**Idle**](iagentnotifysink--idle.md)                                | Se produit lorsque le serveur démarre ou termine le traitement de l’inactivité.                                   |
 | [**Activer**](iagentnotifysink--move.md)                                | Se produit lorsqu’un caractère a été déplacé.                                                  |
-| [**Taille**](iagentnotifysink---size.md)                               | Se produit lorsqu’un caractère a été redimensionné.                                                |
+| [**Corps**](iagentnotifysink---size.md)                               | Se produit lorsqu’un caractère a été redimensionné.                                                |
 | [**BalloonVisibleState**](iagentnotifysink---balloonvisiblestate.md) | Se produit lorsque l’état de visibilité de la bulle de texte d’un caractère change.                  |
 
 
 
- 
+ 
 
 Les événements IAgentNotifySink :: restart et IAgentNotifySink :: Shutdown, pris en charge dans les versions antérieures de Microsoft Agent, sont désormais obsolètes. Bien qu’pris en charge pour la compatibilité descendante, le serveur n’envoie plus ces événements.
 
- 
+ 
 
- 
+ 

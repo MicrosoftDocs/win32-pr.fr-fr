@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wlantypes.h
-ms.openlocfilehash: fd1a8ef03d5c5cb897d95b768f8ab48705098d74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e4abde6192cf1be92b21df0c6a79125a198e0fde28e304cf583d76ea91689f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119801479"
 ---
 # <a name="dot11_auth_cipher_pair-structure"></a>\_Structure de \_ paire de chiffrement d’authentification DOT11 \_
 
@@ -54,7 +54,7 @@ Algorithme de chiffrement qui utilise un type énuméré de l' [**\_ \_ algorith
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La \_ structure de \_ paire de chiffrement d’authentification DOT11 \_ définit un algorithme d’authentification et de chiffrement qui peut être activé ensemble pour les connexions réseau BSS (Basic Service Set).
 
@@ -65,7 +65,7 @@ La \_ structure de \_ paire de chiffrement d’authentification DOT11 \_ défini
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                        |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wlantypes. h (inclure Windot11. h)</dt> </dl> |
 

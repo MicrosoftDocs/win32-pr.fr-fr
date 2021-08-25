@@ -4,12 +4,12 @@ description: Bien qu’un contrôle de barre de défilement fournisse une interf
 ms.assetid: 249D0077-6E61-479A-91D5-A4BD9752B82E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43b739638d95d9f3e530718f8e9b9e6168069420
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f25994639a40a6380bbf2f9cc0075e8a78b9e15787dbdf1babf0e6a15550faf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698739"
 ---
 # <a name="how-to-create-a-keyboard-interface-for-standard-scroll-bars"></a>Comment créer une interface clavier pour les barres de défilement standard
 
@@ -17,16 +17,16 @@ Bien qu’un contrôle de barre de défilement fournisse une interface clavier i
 
 Par exemple, quand l’utilisateur appuie sur la touche haut, la procédure de fenêtre reçoit un [**message \_ WM**](/windows/desktop/inputdev/wm-keydown) KeyOut avec *wParam* égal à VK \_ up. En réponse, la procédure de fenêtre s’envoie lui-même un message [**WM \_ VSCROLL**](wm-vscroll.md) avec le mot de poids faible de *wParam* défini sur le code de demande de la \_ programmation SB.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -83,9 +83,9 @@ L’exemple de code suivant montre comment inclure une interface clavier pour un
 [Utilisation des barres de défilement](using-scroll-bars.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

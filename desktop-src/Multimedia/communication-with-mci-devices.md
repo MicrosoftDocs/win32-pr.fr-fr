@@ -8,12 +8,12 @@ keywords:
 - mciSendCommand fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1b5bfb7909b94bf8e71745adeeaeda61cae20ae
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fd04187b948adf144a317a1d9eab80efb60bab8e7b05eaccffeb34722baa98a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119785903"
 ---
 # <a name="communication-with-mci-devices"></a>Communication avec les périphériques MCI
 
@@ -34,6 +34,6 @@ Vous pouvez récupérer l’alias de l’appareil MCI actuel à l’aide de la m
 
 Enfin, vous pouvez récupérer le nom de fichier utilisé par un périphérique MCI à l’aide de la macro [**MCIWndGetFileName**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetfilename) . Le nom de fichier identifie le contenu actuellement associé à une fenêtre MCIWnd. Votre application peut utiliser ce nom de fichier lors de la communication avec un périphérique MCI à l’aide de **mciSendCommand** ou **mciSendString**.
 
- 
+ 
 
- 
+ 

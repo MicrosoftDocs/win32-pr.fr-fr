@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7733e74c2f5d381aa6f52ea58bb03c377fab7cbe
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5b453a3f48da5af7564fdb79f81d22a15a5b72450a68f22112c59ebfb2a749ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106519156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803619"
 ---
 # <a name="ms-ds-quota-trustee-attribute"></a>attribut ms-DS-quota-tiers de confiance
 
@@ -45,7 +45,7 @@ SID du principal de sécurité pour lequel le quota est affecté.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

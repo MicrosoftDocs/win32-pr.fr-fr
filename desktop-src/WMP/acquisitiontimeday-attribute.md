@@ -3,7 +3,7 @@ title: Attribut AcquisitionTimeDay
 description: L’attribut AcquisitionTimeDay est la partie jour de la date et de l’heure à laquelle l’élément a été ajouté à la bibliothèque.
 ms.assetid: 0f050dd4-59af-4b50-810b-4265367ba819
 keywords:
-- Attribut AcquisitionTimeDay lecteur Windows Media
+- Lecteur Windows Media de l’attribut AcquisitionTimeDay
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38246e80b0e79cbab32d617d8051dbec340cf502
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fe6f8a2bb6745c8fb43d390be5d4fb8c477f189a204dc3d62201ac6fc88403f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765559"
 ---
 # <a name="acquisitiontimeday-attribute"></a>Attribut AcquisitionTimeDay
 
@@ -32,7 +32,7 @@ L’attribut **AcquisitionTimeDay** est la partie jour de la date et de l’heur
 -   [Éléments radio](radio-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

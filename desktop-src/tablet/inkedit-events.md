@@ -4,12 +4,12 @@ ms.assetid: 1b9c0587-5854-45b5-b6d3-97d736cf92aa
 title: Événements InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54727b4e582fa4133768269a8980ccbafe12975a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67be45ccf1c4afa782189267ea07dd0bff09df937ba6e3c17bd701d6dfe98be1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712929"
 ---
 # <a name="inkedit-events"></a>Événements InkEdit
 
@@ -19,7 +19,7 @@ Cette section contient les événements appartenant au contrôle InkEdit.
 
 | Événement                                                  | Description                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Modifiés**](inkedit-change.md)                       | Se produit lorsque le contenu du contrôle ou une valeur de propriété change.<br/>                                                                                                                                               |
+| [**Modifier**](inkedit-change.md)                       | Se produit lorsque le contenu du contrôle ou une valeur de propriété change.<br/>                                                                                                                                               |
 | [**Cliquez sur**](inkedit-click.md)                         | Se produit suite à un clic sur le contrôle.<br/>                                                                                                                                                                               |
 | [**Double**](inkedit-dblclick.md)                   | Se produit à la suite d'un double-clic sur le contrôle.<br/>                                                                                                                                                                        |
 | [**Mouvement**](inkedit-gesture.md)                     | Se produit lorsqu’un mouvement d’application est reconnu.<br/>                                                                                                                                                                 |

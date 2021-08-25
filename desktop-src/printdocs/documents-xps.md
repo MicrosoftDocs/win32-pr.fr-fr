@@ -1,21 +1,21 @@
 ---
-description: L’API de document XPS est une API Windows native qui permet aux programmes de créer, lire, modifier, enregistrer et imprimer des documents XPS.
+description: l’api de Document XPS est une api de Windows native qui permet aux programmes de créer, lire, modifier, enregistrer et imprimer des documents XPS.
 ms.assetid: 0f4ae4b3-7ca8-42bb-a18c-4d2f4dfcc0c8
 title: API de document XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc13c4545742d7fbf36a292a08b18bdea69d2ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f9e3156f6c57167c9bd44fc3d58cce7398786bb2db078692be1d2b0ae83fee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719359"
 ---
 # <a name="xps-document-api"></a>API de document XPS
 
-L’API de document XPS est une API Windows native qui permet aux programmes de créer, lire, modifier, enregistrer et imprimer des documents XPS. L’API de document XPS est prise en charge dans Windows 7 et les versions ultérieures de Windows et peut être utilisée dans les programmes en mode utilisateur et les pilotes d’imprimante XPSDrv.
+l’api de Document XPS est une api de Windows native qui permet aux programmes de créer, lire, modifier, enregistrer et imprimer des documents XPS. l’API de Document XPS est prise en charge dans Windows 7 et les versions ultérieures de Windows et peut être utilisée dans les programmes en mode utilisateur et les pilotes d’imprimante XPSDrv.
 
-L’API de document XPS prend à la fois en tant que XPS et OpenXPS, et est conçue pour les programmeurs C++ qui écrivent des applications Windows natives. Pour plus d’informations sur la spécification Open XPS, consultez [Open XML Paper Specification (en anglais) (OpenXPS)](https://www.ecma-international.org/publications/standards/Ecma-388.htm).
+l’API de Document xps prend à la fois en tant que xps et OpenXPS, et est conçue pour les programmeurs C++ qui écrivent des applications Windows natives. Pour plus d’informations sur la spécification Open XPS, consultez [Open XML Paper Specification (en anglais) (OpenXPS)](https://www.ecma-international.org/publications/standards/Ecma-388.htm).
 
 ### <a name="about-xps-document-api"></a>À propos de l’API de document XPS
 

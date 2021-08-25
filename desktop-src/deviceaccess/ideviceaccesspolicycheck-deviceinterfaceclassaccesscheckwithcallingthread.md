@@ -16,12 +16,12 @@ ms.topic: article
 ms.date: 02/11/2020
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 44eb44a83175cf8f735abfeb8cfec4de83f46bd2
-ms.sourcegitcommit: 01a4383738056cf3de4f45f36d98ef73d4dc694d
+ms.openlocfilehash: f279972c3b716f111fa37fc2dd01ef9184b2f804f07106f6b971358daf290c44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106527553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119635349"
 ---
 # <a name="ideviceaccesspolicycheckdeviceinterfaceclassaccesscheckwithcallingthread-method"></a>IDeviceAccessPolicyCheck ::D méthode eviceInterfaceClassAccessCheckWithCallingThread
 
@@ -34,8 +34,8 @@ Cette API déterminera si le jeton du contexte actuel a accès à la classe d’
 
 ```C++
 HRESULT DeviceInterfaceClassAccessCheckWithCallingThread(
-  [in] PCWSTR pszDeviceInterfaceClassGuid,
-  [in] DWORD  dwClientThreadId
+  [in] PCWSTR pszDeviceInterfaceClassGuid,
+  [in] DWORD  dwClientThreadId
 );
 ```
 

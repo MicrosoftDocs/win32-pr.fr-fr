@@ -9,12 +9,12 @@ keywords:
 - capCaptureSetSetup macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86cd9e59c23376a7aa201673ef71743c8a192b60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd9742edb1aa73c7b77a56ef3ab2a29a5ea14a1e70351bec1ecb49507bbd0bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119784679"
 ---
 # <a name="index-size"></a>Taille d'index
 
@@ -22,9 +22,9 @@ Chaque fichier AVI utilise un index d’une taille spécifiée pour localiser de
 
 Vous pouvez récupérer la taille actuelle de l’index à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-get-sequence-setup.md) de la séquence de l’aide de WM (ou de la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ). La taille actuelle de l’index est stockée dans le membre **dwIndexSize** de la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) . Vous pouvez spécifier une nouvelle taille d’index comme valeur de **dwIndexSize** , puis envoyer la structure **CAPTUREPARMS** mise à jour à la fenêtre de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-set-sequence-setup.md) de la séquence de la définition de l’embout WM (ou de la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ). La taille de l’index par défaut est de 34 952 entrées (ce qui permet d’obtenir des trames de 32 Ko et un nombre proportionnel de mémoires tampons audio).
 
- 
+ 
 
- 
+ 
 
 
 

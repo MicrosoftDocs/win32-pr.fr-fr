@@ -3,7 +3,7 @@ title: Message WM_CAP_DLG_VIDEODISPLAY (VFW. h)
 description: Le \_ message WM Cap \_ DLG \_ VIDEODISPLAY affiche une boîte de dialogue dans laquelle l’utilisateur peut définir ou ajuster la sortie vidéo.
 ms.assetid: 151056f5-a9d1-4594-a8d7-32d4675ae3d6
 keywords:
-- Message WM_CAP_DLG_VIDEODISPLAY Windows Multimedia
+- message WM_CAP_DLG_VIDEODISPLAY Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 378d80923f9c0b7eda65fac83809e30626d53406
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16afffbf1d3450670b99d26303627771aa4bd3399a252cd16a68bc690012f541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119803869"
 ---
 # <a name="wm_cap_dlg_videodisplay-message"></a>\_Message WM Cap \_ DLG \_ VIDEODISPLAY
 
@@ -38,7 +38,7 @@ lParam = 0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les contrôles de cette boîte de dialogue n’affectent pas les données vidéo numérisées ; elles affectent uniquement la sortie ou le réaffichage du signal vidéo.
 

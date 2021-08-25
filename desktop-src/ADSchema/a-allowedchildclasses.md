@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45c295036ad8b1c132e2dbf97d2e0d9ab38f9598
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 62d4e8e91a519a148acf84940a4220e1cfe35fc2b44a948a949d4e32d833caa2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656969"
 ---
 # <a name="allowed-child-classes-attribute"></a>Attribute allowed-classes enfants
 
@@ -46,7 +46,7 @@ Classes pouvant être contenues dans une classe.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

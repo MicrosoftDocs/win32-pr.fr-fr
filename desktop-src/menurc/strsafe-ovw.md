@@ -8,16 +8,16 @@ keywords:
 - Fonctions strsafe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9b993ccff6d085f3b1eb14c1920c4c633661df
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: fb5d50a6921e2775c64fd4db53393332c667aba975ffa366fb2eb49881b6beaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119720589"
 ---
 # <a name="about-strsafeh"></a>À propos de strsafe. h
 
-Une mauvaise gestion de la mémoire tampon est impliquée dans de nombreux problèmes de sécurité qui impliquent des dépassements de mémoire tampon. Les fonctions définies dans strsafe. h fournissent un traitement supplémentaire pour la gestion correcte de la mémoire tampon dans votre code. Pour cette raison, ils sont destinés à remplacer leurs équivalents C/C++ intégrés, ainsi que les implémentations de Windows spécifiques. Strsafe. h est disponible dans le SDK Windows à partir de Windows XP avec Service Pack 2 (SP2).
+Une mauvaise gestion de la mémoire tampon est impliquée dans de nombreux problèmes de sécurité qui impliquent des dépassements de mémoire tampon. Les fonctions définies dans strsafe. h fournissent un traitement supplémentaire pour la gestion correcte de la mémoire tampon dans votre code. pour cette raison, ils sont destinés à remplacer leurs équivalents C/C++ intégrés, ainsi que les implémentations de Windows spécifiques. Strsafe. h est disponible dans le SDK Windows à partir de Windows XP avec Service Pack 2 (SP2).
 
 Les avantages des fonctions strsafe sont les suivants :
 
@@ -57,7 +57,7 @@ Les fonctions suivantes utilisent un nombre de caractères plutôt qu’un nombr
 
 
 
- 
+ 
 
 ## <a name="byte-count-functions"></a>Fonctions de nombre d’octets
 
@@ -78,7 +78,7 @@ Les fonctions suivantes utilisent un nombre d’octets plutôt qu’un nombre de
 
 
 
- 
+ 
 
 ## <a name="using-strsafeh"></a>Utilisation de strsafe. h
 
@@ -93,7 +93,7 @@ Les fonctions suivantes utilisent un nombre d’octets plutôt qu’un nombre de
     > [!Note]  
     > : Les fonctions suivantes doivent être utilisées en tant que fonctions inline : [**StringCbGets**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsa), [**StringCbGetsEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcbgetsexa), [**StringCchGets**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsa)et [**StringCchGetsEx**](/windows/desktop/api/Strsafe/nf-strsafe-stringcchgetsexa).
 
-     
+     
 
 -   Lorsque vous incluez strsafe. h dans votre fichier, les fonctions antérieures remplacées par les fonctions strsafe. h seront dépréciées. Toute tentative d’utilisation de ces fonctions plus anciennes entraînera une erreur du compilateur vous indiquant d’utiliser les fonctions les plus récentes. Si vous souhaitez substituer ce comportement, incluez l’instruction suivante avant d’inclure strsafe. h.
 
@@ -110,7 +110,7 @@ Les fonctions suivantes utilisent un nombre d’octets plutôt qu’un nombre de
     > [!Note]  
     > Vous pouvez définir **strsafe \_ no \_ CB \_ Functions** ou **strsafe \_ no \_ CCH \_ Functions**, mais pas les deux.
 
-     
+     
 
 -   Certaines fonctions strsafe ont des versions prenant en charge les paramètres régionaux. Par défaut, l’en-tête ne déclare pas ces fonctions. Pour activer ces déclarations, incluez l’instruction de macro suivante avant d’inclure strsafe. h.
 
@@ -125,6 +125,6 @@ Les fonctions suivantes utilisent un nombre d’octets plutôt qu’un nombre de
 [Fonctions strsafe](string-overviews.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

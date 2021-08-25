@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 85f4c85d1d608ff97147a935806b090162f5a78a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5edc8bafb00d5444f18b61e0600fb075b6a7367c315c2ab1cfe38f911e9a84d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654609"
 ---
 # <a name="ctl3dautosubclass-function"></a>Ctl3dAutoSubclass fonction)
 
@@ -54,7 +54,7 @@ Retourne la **valeur true** , sauf si l’une des conditions suivantes existe, a
 -   CTL3D n’a pas d’espace disponible dans ses tables pour l’application actuelle. CTL3D peut traiter jusqu’à 32 applications en même temps.
 -   CTL3D ne peut pas installer son Hook CBT.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

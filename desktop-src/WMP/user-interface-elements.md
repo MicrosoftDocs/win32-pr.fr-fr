@@ -3,17 +3,17 @@ title: Éléments de l'interface utilisateur
 description: Éléments de l'interface utilisateur
 ms.assetid: cb2876fb-632e-4c3d-8a6e-f7c8c4878c3f
 keywords:
-- Windows Media Player Mobile Skins, interfaces utilisateur
-- Windows Media Player Mobile Skins, éléments
-- éléments, Skin mobile pour Windows Media Player
+- Lecteur Windows Media Skins mobiles, interfaces utilisateur
+- Lecteur Windows Media Skins mobiles, éléments
+- éléments, Lecteur Windows Media des habillages mobiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91819831d80235dd7f7c41cfcf98965c9fd61c35
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3a988598fede22fe041b102848855f21947501902b98f163c61ec6d9a00a79af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762179"
 ---
 # <a name="user-interface-elements"></a>Éléments de l'interface utilisateur
 
@@ -33,13 +33,13 @@ Les éléments suivants sont fournis.
 | [Trackbars](trackbars.md) | Vous pouvez fournir un contrôle linéaire par le biais de trackbars. Vous pouvez utiliser trackbars pour modifier le volume ou la position de lecture dans un élément multimédia.                                                                                                                         |
 | [Text](text.md)           | Les zones de texte peuvent être utilisées pour afficher du texte à l’utilisateur. Une zone de texte permet d’afficher le nom de la chanson en cours de visualisation.                                                                                                                                      |
 | [Chapiteau](marquee.md)     | Un texte défilant est une zone de texte déroulante que vous pouvez utiliser pour afficher du texte à partir de plusieurs catégories de texte. Par exemple, vous pouvez afficher la sélection, le nombre de pistes et le nombre de pistes de lecture. Utilisez un texte défilant lorsque vous n’avez pas beaucoup d’espace et que vous avez beaucoup à afficher. |
-| [État](status.md)       | Vous pouvez fournir un affichage de l’état que vous pouvez utiliser pour afficher automatiquement des messages texte qui informent l’utilisateur sur l’état actuel du lecteur Windows Media. Par exemple, l’affichage de l’État informe l’utilisateur lorsqu’un élément multimédia est mis en mémoire tampon.                     |
+| [État](status.md)       | vous pouvez fournir un affichage de l’état que vous pouvez utiliser pour afficher automatiquement les messages texte qui informent l’utilisateur de l’état actuel de Lecteur Windows Media. Par exemple, l’affichage de l’État informe l’utilisateur lorsqu’un élément multimédia est mis en mémoire tampon.                     |
 | [Vidéo](video.md)         | Vous pouvez fournir une zone d’affichage de vidéo rectangulaire dans votre apparence si vous souhaitez lire une vidéo.                                                                                                                                                                                |
-| [Évaluations](ratings.md)     | Vous pouvez afficher l’évaluation associée à tout contenu Windows Media Audio en cours de diffusion.                                                                                                                                                             |
+| [Évaluations](ratings.md)     | vous pouvez afficher l’évaluation associée à tout contenu Windows Media Audio en cours de diffusion.                                                                                                                                                             |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Les éléments suivants sont fournis.
 [**À propos des apparences**](about-skins-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Message TTM_ADDTOOL (commctrl. h)
 description: Inscrit un outil avec un contrôle ToolTip.
 ms.assetid: c974866b-20e7-45bc-914e-9dcf9af161e0
 keywords:
-- TTM_ADDTOOL les contrôles de message Windows
+- TTM_ADDTOOL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29dad3e297f8c3430f18286afa9a998eaf578a26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb66c43033e54ce51b396ff5bb11efe3b2a99e8eb2578a2e9fe4d4bc4487ccf0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769539"
 ---
 # <a name="ttm_addtool-message"></a>\_Message atténuation ADDTOOL
 
@@ -51,8 +51,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **Atténuation \_ ADDTOOLW** (Unicode) et **atténuation \_ ADDTOOLA** (ANSI)<br/>                   |
 

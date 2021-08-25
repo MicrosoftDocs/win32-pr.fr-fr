@@ -4,12 +4,12 @@ description: Préparer IAgentCharacter
 ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b383bf10330934379990693b75fe2908a432f8d5
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: de29c49960bbfd00a6e0d0e9ff1cb055a01cb930c414708fe9144ff0ff4b75af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725327"
 ---
 # <a name="iagentcharacterprepare"></a>IAgentCharacter ::P la même parenthèse
 
@@ -37,7 +37,7 @@ Valeur qui indique le type de données d’animation à charger qui doit être l
 
 
 
-| Value                                                           | Description                                                |
+| Valeur                                                           | Description                                                |
 |-----------------------------------------------------------------|------------------------------------------------------------|
 | **const non signed Short** **Prepare \_ animation = 0 ;**<br/> | Données d’animation d’un caractère.                              |
 | **const non signé Short** **Prepare \_ State = 1 ;**<br/>     | Données d’état d’un caractère.                                  |

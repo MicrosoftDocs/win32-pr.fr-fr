@@ -4,12 +4,12 @@ ms.assetid: 27ccaab7-ec89-489b-80dc-df9beb7969bc
 title: Défragmentation des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2d079f58ec98f320356a477531616788f84ccb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f04c0a3c961854b7e3ecab50d67db608178393113ca259b916db9623058e2f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696289"
 ---
 # <a name="defragmenting-files"></a>Défragmentation des fichiers
 
@@ -84,7 +84,7 @@ Types de flux pris en charge pour tout fichier ou répertoire.
 -   :: $EA
 -   :: $LOGGED \_ flux de l’utilitaire \_
 
-* * Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003 et Windows XP : * * :: $EA et :: $LOGGED \_ flux de l’utilitaire ne \_ sont pas pris en charge avant Windows 8 et windows server 2012
+* * Windows 7, Windows server 2008 R2, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP : * * :: $EA et :: $LOGGED \_ utilitaire \_ STREAM ne sont pas pris en charge avant Windows 8 et Windows Server 2012
 
 Types de flux pris en charge pour n’importe quel répertoire.
 

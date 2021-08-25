@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 152183ced46b55bcdf2038399583c1ecac8c5678
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fb9f0d33cea662f35cdbbfb0b414d0254883cd619d55832550abdec3668ef070
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103869714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119741379"
 ---
 # <a name="glmap2f-function"></a>glMap2f fonction)
 
@@ -157,7 +157,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les évaluateurs offrent un moyen d’utiliser le mappage polynomial polynomial ou Rational polynomial pour produire des vertex, des normales, des coordonnées de texture et des couleurs. Les valeurs produites par un évaluateur sont envoyées aux étapes supplémentaires du traitement OpenGL comme si elles avaient été présentées à l’aide de commandes [**glVertex**](glvertex-functions.md), [**glNormal**](glnormal-functions.md), [**glTexCoord**](gltexcoord-functions.md)et [**glColor**](glcolor-functions.md) , à ceci près que les valeurs générées ne mettent pas à jour la couleur, les coordonnées de texture ou la normale actuelles.
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 507c4211b9506e0635966e9541167d24495735ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f095272ee0d836e77542e20badbe5bb1169206cc6b0e87d742e3fbd235acd52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656179"
 ---
 # <a name="win32_sessionbrokerserviceproperties-class"></a>\_Classe SessionBrokerServiceProperties Win32
 
@@ -59,12 +59,12 @@ La classe **Win32 \_ SessionBrokerServiceProperties** possède ces méthodes.
 
 | Méthode                                                                                                | Description                                                                                                                                                                                                                          |
 |:------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**DeleteSBDbConnectionString**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | Supprime du registre les chaînes de connexion à la base de données (primaire et secondaire).<br/> **Windows server 2012 R2, Windows server 2012 et Windows server 2008 R2 :** Cette méthode n’est pas disponible avant Windows Server 2016<br/> |
+| [**DeleteSBDbConnectionString**](win32-sessionbrokerserviceproperties-deletesbdbconnectionstring.md) | Supprime du registre les chaînes de connexion à la base de données (primaire et secondaire).<br/> **Windows Server 2012 r2, Windows Server 2012 et Windows Server 2008 r2 :** Cette méthode n’est pas disponible avant Windows Server 2016<br/> |
 | [**InstallBrokerDatabase**](win32-sessionbrokerserviceproperties-installbrokerdatabase.md)           | Installe la base de gestion du Service Broker pour les connexions Bureau à distance sur le SQL Server central<br/>                                                                                                                                                                    |
 | [**IsDbReachable**](win32-sessionbrokerserviceproperties-isdbreachable.md)                           | Vérifie si la base de l’accès est accessible<br/>                                                                                                                                                                                                 |
-| [**SetBrokerHAMode**](win32-sessionbrokerserviceproperties-setbrokerhamode.md)                       | Migre les données de la base de données WID locale vers la nouvelle base de données SQL Server. Il configure également le serveur du Service Broker pour qu’il utilise le SQL Server central<br/>                                                                                        |
-| [**SetBrokerNonHAMode**](win32-sessionbrokerserviceproperties-setbrokernonhamode.md)                 | Migre les données du SQL Server central vers la base de données locale. Il configure également le serveur du Service Broker pour qu’il utilise la base de serveurs locale.<br/>                                                                                                              |
-| [**SetSBDbConnectionStrings**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | Enregistre les chaînes de connexion de la base de données (primaire et secondaire) dans le registre.<br/> **Windows server 2012 R2, Windows server 2012 et Windows server 2008 R2 :** Cette méthode n’est pas disponible avant Windows Server 2016<br/>     |
+| [**SetBrokerHAMode**](win32-sessionbrokerserviceproperties-setbrokerhamode.md)                       | migre les données de la base de données WID locale vers la nouvelle base de données SQL Server. Il configure également le serveur du Service Broker pour qu’il utilise le SQL Server central<br/>                                                                                        |
+| [**SetBrokerNonHAMode**](win32-sessionbrokerserviceproperties-setbrokernonhamode.md)                 | migre les données du SQL Server central vers la base de données locale. Il configure également le serveur du Service Broker pour qu’il utilise la base de serveurs locale.<br/>                                                                                                              |
+| [**SetSBDbConnectionStrings**](win32-sessionbrokerserviceproperties-setsbdbconnectionstrings.md)     | Enregistre les chaînes de connexion de la base de données (primaire et secondaire) dans le registre.<br/> **Windows Server 2012 r2, Windows Server 2012 et Windows Server 2008 r2 :** Cette méthode n’est pas disponible avant Windows Server 2016<br/>     |
 
 
 
@@ -100,9 +100,9 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Optionnel. Chaîne de connexion de base de données secondaire, utilisée par le service session Broker pour prendre en charge l’expiration du mot de passe.
+Facultatif. Chaîne de connexion de base de données secondaire, utilisée par le service session Broker pour prendre en charge l’expiration du mot de passe.
 
-**Windows server 2012 R2, Windows server 2012 et Windows server 2008 R2 :** Cette propriété n’est pas disponible avant Windows Server 2016
+**Windows Server 2012 r2, Windows Server 2012 et Windows Server 2008 r2 :** Cette propriété n’est pas disponible avant Windows Server 2016
 
 </dd> <dt>
 
