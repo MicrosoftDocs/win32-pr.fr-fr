@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c38e9e0b428a3922f84141ef855d8468b79b3bb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5035bc94051c61baaef7bcf474b4d6ebb4413b549dfff038bae7105f32d087b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808479"
 ---
 # <a name="iwmdrmsecuritygetrevocationdata-method"></a>IWMDRMSecurity :: GetRevocationData, méthode
 
@@ -56,7 +56,7 @@ GUID identifiant le type de liste de révocation à récupérer. Utilisez l’un
 |-------------------------------|----------------------------------------------------------------------------------|
 | \_application REVOCATIONTYPE \_ WMDRM    | Spécifie la liste de révocation des certificats d’application.                           |
 | \_appareil REVOCATIONTYPE \_ WMDRM | Spécifie la liste de révocation de certificats de l’appareil.                                |
-| \_REVOCATIONTYPE WMDRM \_ CARDEA | Spécifie la liste de révocation de certificats Windows Media DRM pour les périphériques réseau. |
+| \_REVOCATIONTYPE WMDRM \_ CARDEA | spécifie la Windows Media DRM pour les périphériques réseau liste de révocation de certificats. |
 
 
 
@@ -80,7 +80,7 @@ Taille, en octets, de la mémoire tampon. Si *f \_ pbCRL* a la valeur **null**, 
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

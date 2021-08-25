@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Core.h
-ms.openlocfilehash: fe71aeae91f8c43966e0fda2d2f430c7908f2855
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa92b0fd7efb9c6f457fd035fad28992d965a4cf2f6fdad39936292f7a70a996
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852369"
 ---
 # <a name="d3dx10createdeviceandswapchain-function"></a>D3DX10CreateDeviceAndSwapChain fonction)
 
@@ -72,12 +72,12 @@ Handle vers la DLL qui implémente un rastériseur logiciel. Doit avoir la **val
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 
-Optionnel. Indicateurs de création de l’appareil (voir [**D3D10 \_ créer un \_ \_ indicateur d’appareil**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag)) qui active les couches d' [API](d3d10-graphics-programming-guide-api-features-layers.md). Ces indicateurs peuvent être des opérateurs de bits or ensemble.
+Facultatif. Indicateurs de création de l’appareil (voir [**D3D10 \_ créer un \_ \_ indicateur d’appareil**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag)) qui active les couches d' [API](d3d10-graphics-programming-guide-api-features-layers.md). Ces indicateurs peuvent être des opérateurs de bits or ensemble.
 
 </dd> <dt>
 
@@ -114,14 +114,14 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Cette méthode retourne l’un des [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md)suivants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer le meilleur appareil, cette méthode implémente plusieurs options de création d’appareil. Tout d’abord, la méthode tente de créer un appareil 10,1 (et une chaîne de permutation). En cas d’échec, la méthode tente de créer un appareil 10,0. En cas d’échec, la méthode échoue. Si votre application doit créer uniquement un appareil 10,1 ou un appareil 10,0 uniquement, utilisez plutôt ces API :
 
 -   Utilisez [**D3D10CreateDeviceAndSwapChain**](/windows/desktop/api/D3D10Misc/nf-d3d10misc-d3d10createdeviceandswapchain) pour créer un appareil Direct3D 10,0 (uniquement) et une chaîne de permutation.
 -   Utilisez [**D3D10CreateDeviceAndSwapChain1**](/windows/desktop/api/D3D10_1/nf-d3d10_1-d3d10createdeviceandswapchain1) pour créer un appareil Direct3D 10,1 (uniquement) et une chaîne de permutation.
 
-Cette méthode nécessite Windows Vista Service Pack 1.
+cette méthode requiert Windows Vista Service Pack 1.
 
 ## <a name="requirements"></a>Configuration requise
 

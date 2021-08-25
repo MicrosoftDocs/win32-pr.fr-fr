@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8705de4becb175929f9bc6ab8bfe632540469638
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: a0c449fab732efb4ef39afb44edc7cd323f47b254929843158ac136a232e5634
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930389"
 ---
 # <a name="wmlyrics"></a>WM/paroles
 
@@ -31,7 +31,7 @@ L’attribut **WM/paroles** contient les paroles sous la forme d’une chaîne s
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour un stockage plus structuré des paroles, utilisez l’attribut [**\_ synchronisation WM/paroles**](wm-lyrics-synchronised.md) .
 
@@ -42,9 +42,9 @@ Pour un stockage plus structuré des paroles, utilisez l’attribut [**\_ synchr
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

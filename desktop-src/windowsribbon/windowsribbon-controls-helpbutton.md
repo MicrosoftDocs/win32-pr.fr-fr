@@ -4,12 +4,12 @@ description: Le bouton aide est un contrôle sur lequel l’utilisateur peut cli
 ms.assetid: 5f08a8b2-bc83-4256-bcc4-aecfbd07ea51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7afc44c9f9a03561f1627067849272509838d7a5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 295b3c7feae2aecada128dadbccd093f654c6a6660a68f4790975aee060aaf61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933382"
 ---
 # <a name="help-button"></a>Bouton aide
 
@@ -36,13 +36,13 @@ La méthode de rappel [**IUICommandHandler :: UpdateProperty**](/windows/deskto
 > [!Note]  
 > Dans certains cas, une propriété peut être récupérée par le biais de la méthode [**IUIFramework :: GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) et définie avec la méthode [**IUIFramework :: SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) .
 
- 
+ 
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle bouton d’aide.
 
 
 
-| Clé de propriété                                                                                     | Notes                                     |
+| Clé de propriété                                                                                     | Remarques                                     |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------|
 | [KeyTip de l’interface utilisateur \_ \_](windowsribbon-reference-properties-uipkey-keytip.md)                         | Peut uniquement être mis à jour par le biais d’une invalidation. |
 | [\_Étiquette de nom de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-label.md)                           | Peut uniquement être mis à jour par le biais d’une invalidation. |
@@ -51,18 +51,18 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément HelpButton**](windowsribbon-element-helpbutton.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc89e0aabf1d82a9b7171530c5d297c668dbcb99
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 385cbaaf35256f05c09469ac187b395fa42d4f1275c72358a9f22350998c6878
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925419"
 ---
 # <a name="ms-ds-reveal-ondemand-group-attribute"></a>attribut ms-DS-Reveal-OnDemand-Group
 
@@ -42,7 +42,7 @@ Utilisé avec les contrôleurs de domaine en lecture seule pour définir les uti
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: 2c82c023-4436-4f8a-b896-7f4765f989b3
 title: Mémoire tampon de surface DirectX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02211d268e23bd7185cd480bee4e4dff297293b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 746cff1489a644fd5c4144c8c0d923f11e5ca4555886e8defbce3b9b26a16a35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828269"
 ---
 # <a name="directx-surface-buffer"></a>Mémoire tampon de surface DirectX
 

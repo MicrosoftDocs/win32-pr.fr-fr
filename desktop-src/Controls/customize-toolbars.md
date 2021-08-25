@@ -1,24 +1,24 @@
 ---
 title: Comment personnaliser les barres d’outils
-description: La plupart des applications basées sur Windows utilisent des contrôles de barre d’outils pour fournir aux utilisateurs un accès pratique aux fonctionnalités du programme.
+description: la plupart des applications basées sur les Windows utilisent des contrôles de barre d’outils pour fournir aux utilisateurs un accès pratique aux fonctionnalités du programme.
 ms.assetid: 0CE2988E-D887-433B-BFB2-5F3442E8E1B7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 091451a139cf846b1106916f28c165d6640699eb
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: f098880676fc0404df2a68694dc80b8601c21926d94ff594029321bafb1528a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104030956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929543"
 ---
 # <a name="how-to-customize-toolbars"></a>Comment personnaliser les barres d’outils
 
-La plupart des applications basées sur Windows utilisent des contrôles de barre d’outils pour fournir aux utilisateurs un accès pratique aux fonctionnalités du programme. Toutefois, les barres d’outils statiques présentent quelques lacunes, par exemple un espace trop faible pour afficher efficacement tous les outils disponibles. La solution à ce problème consiste à rendre les barres d’outils de votre application personnalisables. Ensuite, les utilisateurs peuvent choisir d’afficher uniquement les outils dont ils ont besoin, et ils peuvent les organiser d’une manière adaptée à leur mode de traitement personnel.
+la plupart des applications basées sur les Windows utilisent des contrôles de barre d’outils pour fournir aux utilisateurs un accès pratique aux fonctionnalités du programme. Toutefois, les barres d’outils statiques présentent quelques lacunes, par exemple un espace trop faible pour afficher efficacement tous les outils disponibles. La solution à ce problème consiste à rendre les barres d’outils de votre application personnalisables. Ensuite, les utilisateurs peuvent choisir d’afficher uniquement les outils dont ils ont besoin, et ils peuvent les organiser d’une manière adaptée à leur mode de traitement personnel.
 
 > [!Note]  
 > Les barres d’outils des boîtes de dialogue ne peuvent pas être personnalisées.
 
- 
+ 
 
 Pour activer la personnalisation, incluez l’indicateur de style de contrôles communs [**CCS \_ ajustables**](common-control-styles.md) lors de la création du contrôle de barre d’outils. Il existe deux approches de base pour la personnalisation :
 
@@ -27,16 +27,16 @@ Pour activer la personnalisation, incluez l’indicateur de style de contrôles 
 
 Vous pouvez implémenter l’une ou l’autre approche, ou les deux, selon les besoins de l’application. Aucune de ces deux approches de la personnalisation ne fournit un mécanisme intégré, tel qu’un bouton Annuler ou annuler, pour ramener la barre d’outils à son état précédent. Vous devez utiliser explicitement l’API de contrôle ToolBar pour stocker l’état de prépersonnalisation de la barre d’outils. Si nécessaire, vous pouvez utiliser ces informations stockées ultérieurement pour rétablir l’état d’origine de la barre d’outils.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -169,7 +169,7 @@ Le premier code de notification d' [ \_ enregistrement TBN](tbn-save.md) est env
 
 
 
- 
+ 
 
 Si vous souhaitez ajouter des informations globales sur la barre d’outils, placez-la au début du flux de données. Avancez les **pCurrent** à la fin des données globales afin qu’elles pointent vers le début de la partie inutilisée du flux de données, et retournent.
 
@@ -187,7 +187,7 @@ Une fois chaque bouton enregistré, un code de notification d' [ \_ enregistreme
 
 
 
- 
+ 
 
 Lorsque vous recevez le code de notification, vous devez extraire toutes les informations spécifiques au bouton dont vous avez besoin à partir de [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton). N’oubliez pas que lorsque vous ajoutez un bouton, vous pouvez utiliser le membre **dwData** de **TBBUTTON** pour stocker des données spécifiques à l’application. Chargez vos données dans le flux de données sur **pCurrent**. Avancez les **pCurrent** à la fin de vos données, en pointant à nouveau sur le début de la partie inutilisée du flux et retournez.
 
@@ -277,12 +277,12 @@ switch( lpnmhdr->code)
 [**Valeurs d’index d’image du bouton standard de la barre d’outils**](toolbar-standard-button-image-index-values.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: Quelques étapes sont nécessaires pour initialiser l’étape de l
 ms.assetid: 84c0ca29-2356-4b7f-98ee-ff1758edc540
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 901b3facfef781e3f44acf75bee737f280dece55
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 513e7452eebf157a80d4239127bf1d04a014375f7bbaf06e4f5814199d7ba053
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858209"
 ---
 # <a name="getting-started-with-the-input-assembler-stage"></a>Prise en main avec l’étape de Input-Assembler
 
@@ -29,7 +29,7 @@ Les étapes de base nécessaires à la configuration de l’étape IA, présent�
 
 
 
- 
+ 
 
 Une fois que vous avez compris ces étapes, passez à [l’utilisation des valeurs System-Generated](d3d10-graphics-programming-guide-input-assembler-stage-using.md).
 
@@ -155,7 +155,7 @@ Une fois que les ressources d’entrée ont été liées au pipeline, une applic
 
 
 
- 
+ 
 
 Chaque méthode Draw restitue un type de topologie unique. Pendant le rendu, les primitives incomplètes (celles sans nombre de vertex suffisant, les primitives partielles, etc.) sont ignorées silencieusement.
 
@@ -166,6 +166,6 @@ Chaque méthode Draw restitue un type de topologie unique. Pendant le rendu, les
 [Étape assembleur d’entrée](d3d10-graphics-programming-guide-input-assembler-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

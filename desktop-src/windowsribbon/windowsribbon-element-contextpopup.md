@@ -3,7 +3,7 @@ title: Élément ContextPopup
 description: Représente le contrôle contextuel de contexte dans la vue ContextPopup.
 ms.assetid: b955be16-803e-47b5-a72d-f993180fbf14
 keywords:
-- Ruban des fenêtres d’élément ContextPopup
+- élément ContextPopup Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f779b0196d14fb42246c2a10d476352d835b6cf8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8fddda30a765eb314c7a29934c9fcdd12404647de9f1e480275f8fa685b50827
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840789"
 ---
 # <a name="contextpopup-element"></a>Élément ContextPopup
 
 Représente le contrôle [contextuel de contexte](windowsribbon-controls-contextpopup.md) dans la vue ContextPopup.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ContextPopup>
@@ -60,7 +60,7 @@ Il n’y a pas d’attributs.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**application. views**](windowsribbon-element-application-views.md).
 
@@ -155,7 +155,7 @@ L’exemple suivant illustre le balisage de base pour une vue **ContextPopup** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

@@ -4,12 +4,12 @@ ms.assetid: bfffe87d-8392-4b4a-8bbc-01b9c13fba47
 title: Concepts de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aad1528032c20c5492a98798f8a175ca331e462
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1909cf999bd5eb2f91bd5c7e0243b13969e692792c4ff32804e7c9a7d2940b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876153"
 ---
 # <a name="cryptography-concepts"></a>Concepts de chiffrement
 

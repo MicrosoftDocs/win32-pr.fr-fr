@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - Netmon.h
-ms.openlocfilehash: 9458ff74f29cd8eb7a75da0a3628a2dd1519ba43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb06ab6e08a674a186bcdb260140915c378db9affc13b17db33d9132109cec78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911219"
 ---
 # <a name="deregister-callback-function"></a>Annuler l’inscription de la fonction de rappel
 

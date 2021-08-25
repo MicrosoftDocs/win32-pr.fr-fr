@@ -1,17 +1,17 @@
 ---
 description: Profil d’appareil pour les hôtes de services Web (DPWS) et les clients communiquent sur le réseau à l’aide d’une série de messages SOAP sur UDP et HTTP.
 ms.assetid: 52282990-d993-4034-a791-2ee7c9c1663d
-title: Modèles de message d’échange de métadonnées et de découverte
+title: détection et schémas de Message Exchange de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e9a08852c5f25572daf9932afd2ce4b7e03858a
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: f1b41267e86358a9d6e263f4bc8971632f1061eb1c94d1e64cc76d65020ce255
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104211200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119856792"
 ---
-# <a name="discovery-and-metadata-exchange-message-patterns"></a>Modèles de message d’échange de métadonnées et de découverte
+# <a name="discovery-and-metadata-exchange-message-patterns"></a>détection et schémas de Message Exchange de métadonnées
 
 Profil d’appareil pour les hôtes de services Web (DPWS) et les clients communiquent sur le réseau à l’aide d’une série de messages SOAP sur UDP et HTTP.
 
@@ -28,7 +28,7 @@ La liste suivante indique la séquence typique de messages sur le réseau. Tous 
 1.  [Bonjour](hello-message.md)
 2.  [Sonde](probe-message.md)
 3.  [Messages ProbeMatches](probematches-message.md)
-4.  [Résolution](resolve-message.md)
+4.  [Résoudre](resolve-message.md)
 5.  [ResolveMatches](resolvematches-message.md)
 6.  [Obtenir](get--metadata-exchange--http-request-and-message.md) (demande d’échange de métadonnées)
 7.  [GetResponse](getresponse--metadata-exchange--message.md)

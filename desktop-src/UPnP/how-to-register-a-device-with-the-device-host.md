@@ -4,12 +4,12 @@ description: Vous pouvez inscrire un appareil en cours d’exécution ou un pér
 ms.assetid: 40e30881-d5fb-4cf9-8dd7-0d50d2621d5c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3be1561d82741ce33e7eb05e63b015d5cb38f52
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8425578dbd5ccc76685c2a142bee8d2167c4058341c32e4b03bcedca15041579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867579"
 ---
 # <a name="how-to-register-a-device-with-the-device-host"></a>Comment inscrire un appareil auprès de l’hôte de l’appareil
 
@@ -42,9 +42,9 @@ Pour inscrire un appareil par programme avec un objet de contrôle de périphér
 
 Les inscriptions des appareils non exécutés peuvent être configurées pour être conservées au cours des démarrages du système (les appareils ne sont pas publiés durant la phase d’arrêt). Par conséquent, s’ils sont configurés de cette façon, les appareils sont publiés et annoncés à chaque démarrage de l’ordinateur.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: ecdfd91c9ea4ab5202a72015f579d560b37fbffd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f7aaceff66cd817666dd05b92243239f860b2f59a993e4afca1831fc8085de0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929999"
 ---
 # <a name="iportabledevicevalues-interface"></a>Interface IPortableDeviceValues
 
@@ -47,7 +47,7 @@ L’interface **IPortableDeviceValues** possède ces méthodes.
 
 | Méthode                                                                                                                     | Description                                                                                                            |
 |:---------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| [**Effacé**](iportabledevicevalues-clear.md)                                                                               | Supprime tous les éléments de la collection.<br/>                                                                      |
+| [**Effacer**](iportabledevicevalues-clear.md)                                                                               | Supprime tous les éléments de la collection.<br/>                                                                      |
 | [**CopyValuesFromPropertyStore**](iportabledevicevalues-copyvaluesfrompropertystore.md)                                   | Copie le contenu d’un **IPropertyStore** dans la collection.<br/>                                           |
 | [**CopyValuesToPropertyStore**](iportabledevicevalues-copyvaluestopropertystore.md)                                       | Copie toutes les valeurs d’une collection dans une interface **IPropertyStore** .<br/>                               |
 | [**GetAt**](iportabledevicevalues-getat.md)                                                                               | Récupère une valeur de la collection à l’aide de l’index de base zéro fourni.<br/>                                  |

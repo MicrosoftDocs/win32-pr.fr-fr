@@ -4,12 +4,12 @@ ms.assetid: 8015682c-d84d-44e2-995d-dca68053c4fa
 title: Gestion des erreurs dans les composants en file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95752adf82d74e39a9c93f1ae54584e72007f1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 314ff367e656043746bb34bcb28b6c5a3dc8db9b86b58a482af45f684fb658c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991079"
 ---
 # <a name="handling-errors-in-queued-components"></a>Gestion des erreurs dans les composants en file d’attente
 
@@ -21,7 +21,7 @@ Non applicable.
 
 ## <a name="visual-basic"></a>Visual Basic
 
-L’exemple de code suivant montre comment créer un objet MessageMover, définir les propriétés requises et initialiser le transfert. Pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types des services COM+.
+L’exemple de code suivant montre comment créer un objet MessageMover, définir les propriétés requises et initialiser le transfert. pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+.
 
 > [!Note]  
 > Pour utiliser l’objet MessageMover, vous devez disposer d’Message Queuing installé sur votre ordinateur et l’application spécifiée par AppName doit avoir activé la mise en file d’attente. Pour plus d’informations sur l’installation de Message Queuing, consultez aide et support dans le menu **Démarrer** .
@@ -63,7 +63,7 @@ End Function
 
 
 
-Le code Visual Basic suivant montre comment appeler la fonction MyMessageMover.
+le code Visual Basic suivant montre comment appeler la fonction MyMessageMover.
 
 
 ```VB
@@ -203,7 +203,7 @@ Si les attributs de file d’attente le permettent, le Data Mover déplace les m
 
 Si les messages sont générés par des appels de composants en file d’attente COM+, l’utilitaire de déplacement de messages conserve l’identificateur de sécurité de l’appelant d’origine lorsqu’il déplace des messages entre les files d’attente. Si les files d’attente source et de destination sont transactionnelles, l’intégralité de l’opération est effectuée de façon transitoire. Si les files d’attente source ou de destination ne sont pas transactionnelles, l’opération ne s’exécute pas dans le cadre d’une transaction. Une défaillance inattendue (par exemple, un incident) et le redémarrage d’un déplacement non transactionnel peuvent dupliquer le message déplacé au moment de l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 COM+ gère les abandons côté serveur (joueur) en déplaçant le message qui échoue dans une file d’attente de « repos final » différente, afin de le récupérer. L’écouteur et le lecteur ne peuvent pas boucler continuellement sur un message qui s’interrompt. Dans de nombreux cas, la transaction abandonnée peut être corrigée en effectuant une action sur le serveur.
 

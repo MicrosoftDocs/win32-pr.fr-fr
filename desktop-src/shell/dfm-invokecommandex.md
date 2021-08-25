@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: dc96e9d0e4c27be8dee3ed7742874de4a3fb97e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b8a7fd63aa4269ee265a4ae147c99fe394e8aad725f7134f8d62daf8ee9984b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943169"
 ---
 # <a name="dfm_invokecommandex-message"></a>\_Message DFM INVOKECOMMANDEX
 
@@ -147,7 +147,7 @@ Pointeur vers une structure [**DFMICS**](/windows/desktop/api/shlobj_core/ns-shl
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À la réception de ce message, votre fonction doit retourner S \_ false si vous souhaitez que l’implémentation par défaut appelle le gestionnaire par défaut pour la commande. Retourne S \_ OK si le message a été géré. Sinon, retourne un code d’erreur HRESULT standard.
 
@@ -157,14 +157,14 @@ Les éléments sur lesquels la commande est appelée sont fournis dans un objet 
 
 [**DFM \_ COMMANDE INVOKECOMMAND**](dfm-invokecommand.md) est une version plus simple de ce message qui ne fournit pas autant d’informations que le rappel. Utilisez **DFM \_ commande InvokeCommand** si les informations supplémentaires fournies par **DFM \_ INVOKECOMMANDEX** ne sont pas nécessaires dans votre implémentation.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Shlobj. h</dt> </dl> |
 
 

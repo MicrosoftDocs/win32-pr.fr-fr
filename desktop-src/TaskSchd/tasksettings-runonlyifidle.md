@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8256b2a3d1dd96db9a8f29b49ce10f6c2fdb266d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed423dc4cd34a03bd3b76401284a4d6bfb98270e7c0d0feed0a45046a82e7d3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990819"
 ---
 # <a name="tasksettingsrunonlyifidle-property"></a>TaskSettings. RunOnlyIfIdle, propriété
 
@@ -42,7 +42,7 @@ TaskSettings.RunOnlyIfIdle As Boolean
 
 Si la valeur est true, la propriété indique que le Planificateur de tâches exécutera la tâche uniquement si l’ordinateur est dans une condition d’inactivité. La valeur par défaut est False.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [**RunOnlyIfIdle**](taskschedulerschema-runonlyifidle-settingstype-element.md) du schéma planificateur de tâches.
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, ce param
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

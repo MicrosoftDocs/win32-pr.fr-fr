@@ -3,7 +3,7 @@ title: Message LVM_GETVIEW (commctrl. h)
 description: Récupère la vue actuelle d’un contrôle List-View.
 ms.assetid: dd63e726-3a7f-40e7-8d46-4680816c02a3
 keywords:
-- LVM_GETVIEW les contrôles de message Windows
+- LVM_GETVIEW les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2da295fa5a5b335de60169ce06b777d9e355121
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 431b0a7b3fba9a45370c372347285489a56082c4a04396c273a45c4da41b05b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915509"
 ---
 # <a name="lvm_getview-message"></a>\_Message GETVIEW LVM
 
@@ -39,7 +39,7 @@ Récupère la vue actuelle d’un contrôle List-View.
 
 Retourne une **valeur DWORD** qui spécifie la vue actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les valeurs des vues.
 
@@ -60,8 +60,8 @@ Voici les valeurs des vues.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

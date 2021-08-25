@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8e105652108e74907375408f0bd8946c69194202
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb6e9a4e2c6adc411b7b043e35dc6dacf45dbb6a6ee4cf326a1c1953c559c16f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916129"
 ---
 # <a name="cimagepalettemakeidentitypalette-method"></a>Méthode CImagePalette. MakeIdentityPalette
 
@@ -69,7 +69,7 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 Retourne S \_ OK en cas de réussite ou S \_ false en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode compare les entrées réservées de la palette système aux entrées correspondantes dans le tableau *pEntry* . Si elles correspondent exactement, la méthode définit l' \_ indicateur NOcollapse du PC dans les entrées de palette restantes (non réservées) dans *pEntry*. Cet indicateur empêche GDI de tenter de mapper les entrées de palette logique aux entrées de la palette système.
 
@@ -81,7 +81,7 @@ La méthode [**CImagePalette :: MakePalette**](cimagepalette-makepalette.md) ap
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

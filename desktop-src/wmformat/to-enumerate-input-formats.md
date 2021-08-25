@@ -13,16 +13,16 @@ keywords:
 - codecs, énumérations de format d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18360d3172af785fd1c00648ba0c9e869fb7fbc6
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 09e1583c9331e9cfab26e7ac64064224111ea58858d32b876ece843b83df0d2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929249"
 ---
 # <a name="to-enumerate-input-formats"></a>Pour énumérer les formats d’entrée
 
-Chacun des codecs Windows Media accepte un ou plusieurs types de média d’entrée pour la compression. Le kit de développement logiciel (SDK) Windows Media format vous permet d’entrer une plus grande variété de formats que ceux pris en charge par les codecs. Le kit de développement logiciel (SDK) effectue cette opération en effectuant des transformations de prétraitement sur les entrées, le cas échéant, comme le redimensionnement des images vidéo ou le rééchantillonnage de l’audio. Dans tous les cas, vous devez vous assurer que les formats d’entrée pour les fichiers que vous écrivez correspondent aux données que vous envoyez au writer. Chaque codec a un format de média d’entrée par défaut qui est défini dans le writer lors du chargement du profil. Vous pouvez examiner le format d’entrée par défaut en appelant [**IWMWriter :: GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
+chacun des codecs multimédias Windows accepte un ou plusieurs types de média d’entrée pour la compression. le kit de développement logiciel (SDK) Windows Media Format vous permet d’entrer une plus grande variété de formats que ceux pris en charge par les codecs. Le kit de développement logiciel (SDK) effectue cette opération en effectuant des transformations de prétraitement sur les entrées, le cas échéant, comme le redimensionnement des images vidéo ou le rééchantillonnage de l’audio. Dans tous les cas, vous devez vous assurer que les formats d’entrée pour les fichiers que vous écrivez correspondent aux données que vous envoyez au writer. Chaque codec a un format de média d’entrée par défaut qui est défini dans le writer lors du chargement du profil. Vous pouvez examiner le format d’entrée par défaut en appelant [**IWMWriter :: GetInputProps**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops).
 
 Les codecs vidéo prennent en charge les formats suivants : IYUV, I420, YV12, YUY2, UYVY, YVYU, YVU9, RGB 32, RGB 24, RGB 565, RVB 555 et RVB 8. Les codecs audio prennent en charge le PCM audio.
 
@@ -126,9 +126,9 @@ Exit:
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 644cff9c94876fab11bc9fbe181ac0375d9444fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a48c9ce3a276f060ac90dd15100ca8612e35116e124588e27f4ee36c1a0b8a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930739"
 ---
 # <a name="wmt_rights-enumeration"></a>\_Énumération des droits WMT
 
@@ -60,7 +60,7 @@ Spécifie le droit de lire le contenu sans restriction.
 <span id="WMT_RIGHT_COPY_TO_NON_SDMI_DEVICE"></span><span id="wmt_right_copy_to_non_sdmi_device"></span>**\_copie appropriée \_ \_ de WMT vers un \_ \_ appareil non SDMI \_**
 </dt> <dd>
 
-Spécifie le droit de copier le contenu sur un appareil non conforme à l’initiative de Secure Digital Music (SDMI).
+spécifie le droit de copier le contenu sur un appareil non conforme à l’Initiative SDMI (secure Digital Musique Initiative).
 
 </dd> <dt>
 
@@ -120,11 +120,11 @@ Réservé pour un usage futur. Ne pas utiliser.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces valeurs sont des indicateurs binaires, donc un ou plusieurs peuvent être définis en les associant à **l’opérateur de bits or.**
 
-Si vous utilisez Windows Media DRM 10 **, \_ le \_ droit \_ de copie WMT sur un \_ \_ \_ appareil non-SDMI**, **\_ le droit \_ d’effectuer une copie de l’appareil WMT vers le \_ \_ \_ périphérique SDMI** et **le remplacement \_ d’WMT dans le \_ \_ \_ CD** sont remplacés par le droit de **\_ \_ copie de WMT**. Les limitations sur les appareils sur lesquels le contenu peut être copié sont spécifiées à l’aide de niveaux de protection de sortie (OPLs).
+lorsque vous utilisez Windows Media DRM 10 **, \_ le \_ droit \_ de copie wmt sur un \_ \_ \_ appareil NON-SDMI**, **\_ le droit \_ d’effectuer une copie de l’appareil wmt vers le \_ \_ \_ périphérique sdmi** et **le remplacement \_ d’wmt dans le \_ \_ \_ CD** sont remplacés par le droit de **\_ \_ copie de wmt**. Les limitations sur les appareils sur lesquels le contenu peut être copié sont spécifiées à l’aide de niveaux de protection de sortie (OPLs).
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -4,9 +4,9 @@ description: Supprime la ressource spécifiée dans l’URI de ressource.
 ms.assetid: 8803d35d-674c-483d-866b-37129102c7ce
 ms.tgt_platform: multiple
 keywords:
-- Supprimer la méthode Windows Remote Management
-- Delete, méthode Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode Delete
+- supprimer la méthode Windows Remote Management
+- Delete, méthode Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode Delete
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf4b46997a7e3cf50dbf50c2828de78a814a513
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 769ef3f462fa542e9afc6859b564e1a32ed87578894df4008fb6a19ad8aadad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858669"
 ---
 # <a name="sessiondelete-method"></a>Session. Delete, méthode
 
@@ -62,7 +62,7 @@ Réservé pour un usage futur. Doit avoir la valeur 0.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe suivante est utilisée pour appeler cette méthode.
 

@@ -4,12 +4,12 @@ ms.assetid: 663aaf7d-c701-4da8-ba92-7e0a6d0f35ba
 title: Propriétés IAutomaticUpdatesSettings
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2463fdc69fc93960ee45c0003a65894eaaf7399
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6995264aebed44e8cb21e3880268a1488157ed5085645e5232feaa94a8786eed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897149"
 ---
 # <a name="iautomaticupdatessettings-properties"></a>Propriétés IAutomaticUpdatesSettings
 

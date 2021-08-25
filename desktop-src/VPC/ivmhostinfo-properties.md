@@ -4,16 +4,16 @@ description: L’interface IVMHostInfo expose les propriétés suivantes.
 ms.assetid: 198166B3-5D98-4A34-A232-FE0A29877409
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d342e4724fcfac28cb144e92d5a0866d02934a8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90738dee57faf0eaecd2e012b1c7a2360b9f6f97a9521143428d6be16734fc4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867079"
 ---
 # <a name="ivmhostinfo-properties"></a>Propriétés IVMHostInfo
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 L’interface [**IVMHostInfo**](ivmhostinfo.md) expose les propriétés suivantes.
 
@@ -47,6 +47,6 @@ L’interface [**IVMHostInfo**](ivmhostinfo.md) expose les propriétés suivante
 -   [**Propriété ThreeDNow**](ivmhostinfo-threednow.md)
 -   [**Propriété UTCTime**](ivmhostinfo-utctime.md)
 
- 
+ 
 
- 
+ 

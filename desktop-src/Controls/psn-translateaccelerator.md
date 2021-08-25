@@ -3,7 +3,7 @@ title: PSN_TRANSLATEACCELERATOR le code de notification (Prsht. h)
 description: Avertit une feuille de propriétés qu’un message de clavier a été reçu. Elle offre la possibilité d’effectuer une traduction d’accélérateur de clavier privée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 04d67326-92f9-4b92-a27e-354815f3c1a8
 keywords:
-- Contrôles Windows de code de notification PSN_TRANSLATEACCELERATOR
+- PSN_TRANSLATEACCELERATOR les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dc86866be1154bbd0ef1cf76b3535b7b02496e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ca25ed7dd2a2fa2b11e0854f7fe9e4bb4afb9aa47ec52c21bc1c6e346ebf16d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914489"
 ---
 # <a name="psn_translateaccelerator-notification-code"></a>\_Code de notification PSN TRANSLATEACCELERATOR
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**PSHNOTIFY**](/windows/desktop/api/Prsht/ns-prsht-
 
 Retourne PSNRET \_ MESSAGEHANDLED pour indiquer qu’aucun traitement supplémentaire n’est nécessaire. Retourne une \_ erreur PSNRET pour demander un traitement normal.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir la valeur de retour, la procédure de la boîte de dialogue de la page doit utiliser la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec la valeur MSGRESULT de l’DWL \_ . La procédure de la boîte de dialogue doit retourner **true**.
 
@@ -59,8 +59,8 @@ Pour définir la valeur de retour, la procédure de la boîte de dialogue de la 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

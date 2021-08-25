@@ -4,12 +4,12 @@ ms.assetid: f08267cb-cbe3-4f26-a925-c26c9eb51fc1
 title: Propriétés IUpdate2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcdc74f62203d2754d91b05ccf15955d070524b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8556355cf15afc651c9ab5efba2d6ae3045bb6668a2dea2b396c7ecc6b324e84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896939"
 ---
 # <a name="iupdate2-properties"></a>Propriétés IUpdate2
 

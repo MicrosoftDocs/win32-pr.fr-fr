@@ -1,19 +1,19 @@
 ---
-description: Le hachage de fichier est disponible avec Windows Installer. Pour plus d’informations, consultez MsiGetFileHash et la table MsiFileHash. La table MsiFileHash peut uniquement être utilisée avec des fichiers sans version.
+description: le hachage de fichier est disponible avec Windows Installer. Pour plus d’informations, consultez MsiGetFileHash et la table MsiFileHash. La table MsiFileHash peut uniquement être utilisée avec des fichiers sans version.
 ms.assetid: 608859ac-6640-4c28-b4f0-34ab36d804d7
 title: Aucun fichier n’a une version avec contrôle de hachage de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 415019838ac29418b13b513b393a18af2131510f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb874cdc29c56f34be2d4ec8604c2436892744e44581258ec237f515600f9024
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869193"
 ---
 # <a name="neither-file-has-a-version-with-file-hash-check"></a>Aucun fichier n’a une version avec contrôle de hachage de fichier
 
-Le hachage de fichier est disponible avec Windows Installer. Pour plus d’informations, consultez [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha) et la [table MsiFileHash](msifilehash-table.md). La table MsiFileHash peut uniquement être utilisée avec des fichiers sans version.
+le hachage de fichier est disponible avec Windows Installer. Pour plus d’informations, consultez [**MsiGetFileHash**](/windows/desktop/api/Msi/nf-msi-msigetfilehasha) et la [table MsiFileHash](msifilehash-table.md). La table MsiFileHash peut uniquement être utilisée avec des fichiers sans version.
 
 Si le fichier de clé d’un composant en cours d’installation (Copy-A) porte le même nom qu’un fichier déjà installé à l’emplacement cible (Copy-B), le programme d’installation compare le numéro de version, la date et la langue des deux fichiers.
 

@@ -4,12 +4,12 @@ description: L’architecture UPnP est une architecture réseau dynamique qui pe
 ms.assetid: b89d9ec3-ce1a-4162-bf82-b08a49207d7d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5b8feebd430252b118353681a90ce4cd683ee7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccf5626f7d941d9e3fa73b6d3d46ef9f51ef256ee8371e7594c312d225bba865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867589"
 ---
 # <a name="finding-devices"></a>Recherche d’appareils
 
@@ -17,7 +17,7 @@ L’architecture UPnP est une architecture réseau dynamique qui permet aux appa
 
 Les éléments suivants sont des critères de recherche valides pour les périphériques basés sur UPnP :
 
--   Type d’appareil
+-   Type d'appareil
 -   Type de service
 -   Nom d’appareil unique (UDN)
 -   Tous les appareils racine
@@ -33,9 +33,9 @@ Les sections suivantes décrivent le processus de recherche d’appareils :
 -   [Recherche synchrone](synchronous-searching.md)
 -   [Regroupements de périphériques retournés par les recherches synchrones](device-collections-returned-by-synchronous-searches.md)
 
- 
+ 
 
- 
+ 
 
 
 

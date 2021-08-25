@@ -12,12 +12,12 @@ keywords:
 - roulette de la souris
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50b34f180aad6aec6120bf4e3ffa997eba13e760
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bc38105da1fbbe3bee1be9ca280f1f5573dbb41ba4b7b6aa2013d9c600b8ad00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829969"
 ---
 # <a name="using-mouse-input"></a>Utilisation de l’entrée de souris
 
@@ -441,25 +441,25 @@ LRESULT APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lPa
 
 ## <a name="using-a-mouse-wheel-in-a-document-with-embedded-objects"></a>Utilisation d’une roulette de souris dans un document avec des objets incorporés
 
-Cet exemple suppose un document Microsoft Word avec divers objets incorporés :
+cet exemple suppose qu’un document Microsoft Word avec différents objets incorporés :
 
--   Feuille de calcul Microsoft Excel
+-   feuille de calcul Microsoft Excel
 -   Contrôle de zone de liste incorporé qui fait défiler la réponse à la roulette
 -   Contrôle de zone de texte incorporé qui ne répond pas à la roulette
 
-Le message [MSH \_ MOUSEWHEEL](about-mouse-input.md) est toujours envoyé à la fenêtre principale de Microsoft Word. Cela est vrai même si la feuille de calcul incorporée est active. Le tableau suivant explique comment le \_ message MSH MOUSEWHEEL est géré en fonction du focus.
+Le message [MSH \_ MOUSEWHEEL](about-mouse-input.md) est toujours envoyé à la fenêtre principale dans Microsoft Word. Cela est vrai même si la feuille de calcul incorporée est active. Le tableau suivant explique comment le \_ message MSH MOUSEWHEEL est géré en fonction du focus.
 
 
 
 | Le focus est activé                | La gestion est la suivante :                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Document Word              | Word fait défiler la fenêtre de document.                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Feuille de calcul Excel incorporée | Word publie le message dans Excel. Vous devez décider si l’application incorporée doit répondre au message ou non.                                                                                                                                                                                                                                                                                                                                                            |
+| feuille de calcul Excel incorporée | Word publie le message dans Excel. Vous devez décider si l’application incorporée doit répondre au message ou non.                                                                                                                                                                                                                                                                                                                                                            |
 | Contrôle incorporé           | C’est à l’application d’envoyer le message à un contrôle incorporé qui a le focus et de vérifier le code de retour pour voir si le contrôle l’a géré. Si le contrôle ne l’a pas géré, l’application doit faire défiler la fenêtre de document. Par exemple, si l’utilisateur a cliqué sur une zone de liste, puis a reporté la roue, ce contrôle défilerait en réponse à une rotation de roulette. Si l’utilisateur a cliqué sur une zone de texte, puis a fait pivoter la roue, le document entier défilerait. |
 
 
 
- 
+ 
 
 L’exemple suivant montre comment une application peut gérer les deux messages de roulette.
 
@@ -652,6 +652,6 @@ UINT GetNumScrollLines(void)
 
 
 
- 
+ 
 
- 
+ 

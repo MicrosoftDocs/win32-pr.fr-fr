@@ -3,14 +3,14 @@ title: Obtention des fonctionnalités de format via IWMDMDevice3
 description: Obtention des fonctionnalités de format sur les appareils qui prennent en charge IWMDMDevice3
 ms.assetid: a431c3cb-e722-4d68-a82d-385fff067ea6
 keywords:
-- Gestionnaire de périphériques Windows Media, fonctionnalités de l’appareil
+- Windows Gestionnaire de périphériques de média, fonctionnalités de l’appareil
 - Gestionnaire de périphériques, fonctionnalités de l’appareil
 - Guide de programmation, fonctionnalités de l’appareil
 - applications de bureau, fonctionnalités de l’appareil
 - création d’applications Windows Media Gestionnaire de périphériques, fonctionnalités de l’appareil
 - écriture de fichiers sur des appareils, fonctionnalités de l’appareil
 - Méthode IWMDMDevice3
-- Gestionnaire de périphériques Windows Media, méthode IWMDMDevice3
+- Windows Gestionnaire de périphériques de média, méthode IWMDMDevice3
 - Gestionnaire de périphériques, méthode IWMDMDevice3
 - Guide de programmation, méthode IWMDMDevice3
 - applications de bureau, méthode IWMDMDevice3
@@ -18,12 +18,12 @@ keywords:
 - écriture de fichiers sur des appareils, méthode IWMDMDevice3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 734f674a5fc54aaec0df10d4db613fa067f9b505
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 1eadde80f957573563468375ea06cd64b95cf83815491a3f21775fb1ebcefc7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104030654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957523"
 ---
 # <a name="getting-format-capabilities-through-iwmdmdevice3"></a>Obtention des fonctionnalités de format via IWMDMDevice3
 
@@ -37,7 +37,7 @@ ms.locfileid: "104030654"
     -   Une valeur unique, WMDM \_ enum \_ prop \_ valeurs valides \_ \_ Any, indiquant la prise en charge de toutes les valeurs de cette propriété.
     -   Plage de valeurs, définie par une valeur maximale, une valeur minimale et un intervalle.
     -   Liste de valeurs discrètes.
-6.  Effacez les valeurs stockées. La mémoire pour ces valeurs est allouée par Windows Media Gestionnaire de périphériques ; votre appareil est responsable de la libération de la mémoire. La procédure à suivre est décrite à la fin de cette rubrique.
+6.  Effacez les valeurs stockées. la mémoire pour ces valeurs est allouée par Windows Gestionnaire de périphériques de média ; votre appareil est responsable de la libération de la mémoire. La procédure à suivre est décrite à la fin de cette rubrique.
 
 Lors de la réponse à **GetFormatCapability**, un appareil peut \_ signaler \_ \_ des valeurs valides de WMDM enum prop \_ pour la \_ **fonctionnalité de format WMDM \_ \_ . configuration de WMDM \_ prop \_ . WMDM \_ prop \_ desc. ValidValuesForm** pour revendiquer la prise en charge de toutes les valeurs pour la vitesse de transmission, les canaux, etc. Toutefois, vous devez traiter cette revendication avec précaution, car les appareils peuvent parfois signaler la prise en charge de toutes les valeurs lorsque, en fait, elles ne prennent pas en charge toutes les tailles d’image ou les vitesses de transmission. Vous pouvez envisager de faire en sorte que votre application transporte des fichiers de très grande taille ou de haut débit vers des versions plus petites ou moins gourmand en mémoire et des versions gourmandes en ressources processeur lors de leur envoi à des appareils destinés à lire ces fichiers.
 
@@ -224,9 +224,9 @@ e_Exit:
 [**Découverte des fonctionnalités de format des appareils**](discovering-device-format-capabilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

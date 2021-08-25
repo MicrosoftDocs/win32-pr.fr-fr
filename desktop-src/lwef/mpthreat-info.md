@@ -3,8 +3,8 @@ title: Structure MPTHREAT_INFO (MpClient. h)
 description: Contient des informations sur une menace.
 ms.assetid: ED2A0BDB-0E7C-479D-ADA1-95B9A259F57E
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFO
-- PMPTHREAT_INFO des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPTHREAT_INFO
+- PMPTHREAT_INFO des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa850a4293006a2f4b107a3f2579fdc14c1ea6e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7be9b1f38a2771d7c6e4831e7716552de34492b30429084f3e087e0a3b49602
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943919"
 ---
 # <a name="mpthreat_info-structure"></a>\_Structure d’informations MPTHREAT
 
@@ -220,11 +220,11 @@ Nombre de ressources dans **ResourceList**.
 **ResourceList**
 </dt> <dd>
 
-Type : **PMPRESOURCE \_ info \** _
+Type : **PMPRESOURCE \_ info \***
 
 </dd> <dd>
 
-Liste des ressources identifiées par la menace. Consultez [_ *MPRESOURCE \_ info* *](mpresource-info.md).
+Liste des ressources identifiées par la menace. Consultez [**MPRESOURCE \_ info**](mpresource-info.md).
 
 </dd> <dt>
 
@@ -571,8 +571,8 @@ Informations supplémentaires sur la détection des menaces.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

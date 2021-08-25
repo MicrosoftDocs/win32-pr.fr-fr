@@ -1,6 +1,6 @@
 ---
-title: Fonctions du client Microsoft Windows Media DRM
-description: Fonctions du client Microsoft Windows Media DRM
+title: fonctions du Client Microsoft Media DRM pour Microsoft Windows
+description: fonctions du Client Microsoft Media DRM pour Microsoft Windows
 ms.assetid: 5d726c56-d0f3-4eb8-829f-3a0c1a0e0802
 keywords:
 - Windows Media Format SDK, fonctions
@@ -10,16 +10,16 @@ keywords:
 - API étendues clientes, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20c1730413a4918b0f748099fbd55714339a7e9b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 73aaf5f3c536027801a85f8d38120e6e14c5d366a6d727498a5bc1d1200cb041
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106509487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931169"
 ---
-# <a name="microsoft-windows-media-drm-client-functions"></a>Fonctions du client Microsoft Windows Media DRM
+# <a name="microsoft-windows-media-drm-client-functions"></a>fonctions du Client Microsoft Media DRM pour Microsoft Windows
 
-Les fonctions suivantes sont implémentées dans le cadre des API étendues du client Microsoft Windows Media DRM.
+les fonctions suivantes sont implémentées dans le cadre des api étendues du Client Windows Microsoft Media DRM.
 
 
 

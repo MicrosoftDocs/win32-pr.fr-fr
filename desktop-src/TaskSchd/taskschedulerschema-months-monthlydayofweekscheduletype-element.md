@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76f13a5823e0154519dbdb093dd03ea36bbe77b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a963032a2d33f13158af249f2b867037cf50082be005efa579148031c8e30585
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959599"
 ---
 # <a name="months-monthlydayofweekscheduletype-element"></a>Élément months (monthlyDayOfWeekScheduleType)
 
@@ -48,7 +48,7 @@ L’élément **months** est défini par le type complexe [**monthlyDayOfWeekSch
 
 | Élément                                                               | Type | Description                                           |
 |-----------------------------------------------------------------------|------|-------------------------------------------------------|
-| [**Avril**](taskschedulerschema-april-monthstype-element.md)         |      | Spécifie que la tâche s’exécute en avril.<br/>     |
+| [**avril**](taskschedulerschema-april-monthstype-element.md)         |      | Spécifie que la tâche s’exécute en avril.<br/>     |
 | [**Août**](taskschedulerschema-august-monthstype-element.md)       |      | Spécifie que la tâche s’exécute en août.<br/>    |
 | [**Décembre**](taskschedulerschema-december-monthstype-element.md)   |      | Spécifie que la tâche s’exécute en décembre.<br/>  |
 | [**February**](taskschedulerschema-february-monthstype-element.md)   |      | Spécifie que la tâche s’exécute en février.<br/>  |
@@ -63,7 +63,7 @@ L’élément **months** est défini par le type complexe [**monthlyDayOfWeekSch
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, les mois d’une année pour une planification de jour de semaine mensuelle sont spécifiés à l’aide de la propriété [**MonthlyDOWTrigger. MonthsOfYear**](monthlydowtrigger-monthsofyear.md) .
 
@@ -109,8 +109,8 @@ Le code XML suivant définit un calendrier mensuel de jour de semaine qui démar
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

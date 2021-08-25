@@ -4,18 +4,18 @@ ms.assetid: fae1895e-9fed-45e3-8ecf-4c6cc67a6094
 title: Chargement de symboles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 705a7af3525c784b2bbcd512b267309a466a11c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1459f0fd05b490730739852b77edd29df38c04cbe246699552a53b7e30decf11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104392955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912356"
 ---
 # <a name="symbol-loading"></a>Chargement de symboles
 
 Le gestionnaire de symboles chargera les symboles quand vous appelez la fonction [**syminitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) avec le paramètre *FInvadeProcess* défini sur **true** ou lorsque vous appelez la fonction [**SymLoadModuleEx**](/windows/desktop/api/Dbghelp/nf-dbghelp-symloadmoduleex) pour spécifier un module. Dans les deux cas, le gestionnaire de symboles charge les symboles ou diffère le chargement de symboles jusqu’à ce que les symboles soient demandés, selon les options définies par la fonction [**SymSetOptions**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsetoptions) .
 
-Le gestionnaire de symboles peut être utilisé pour récupérer des informations symboliques pour n’importe quel module ; elle n’a pas besoin d’être associée à un processus spécifié dans l’appel [**syminitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) . Pour utiliser un module arbitraire, spécifiez le chemin d’accès complet à l’image de module dans le paramètre *ImageName* . Vous pouvez utiliser un chemin d’accès à n’importe quel module exécutable contenant des informations de débogage (. exe,. dll,. drv,. sys,. scr,. cpl ou. com). Utilisez le paramètre *BaseOfDll* pour spécifier une adresse de chargement, puis les adresses de symboles seront basées sur cette adresse.
+Le gestionnaire de symboles peut être utilisé pour récupérer des informations symboliques pour n’importe quel module ; elle n’a pas besoin d’être associée à un processus spécifié dans l’appel [**syminitialize**](/windows/desktop/api/Dbghelp/nf-dbghelp-syminitialize) . Pour utiliser un module arbitraire, spécifiez le chemin d’accès complet à l’image de module dans le paramètre *ImageName* . Vous pouvez utiliser un chemin d’accès à n’importe quel module exécutable contenant des informations de débogage (.exe, .dll,. drv, .sys,. scr, .cpl ou. com). Utilisez le paramètre *BaseOfDll* pour spécifier une adresse de chargement, puis les adresses de symboles seront basées sur cette adresse.
 
 Il n’est peut-être pas nécessaire de garder un module de symboles chargé pendant la durée d’une application. Pour libérer le module de symboles à partir de la liste des modules du gestionnaire de symboles, utilisez la fonction [**SymUnloadModule64**](/windows/desktop/api/Dbghelp/nf-dbghelp-symunloadmodule) . Cette fonction libère la mémoire allouée pour le module de symboles. Pour réutiliser les symboles de ce module, vous devez appeler la fonction [**SymLoadModuleEx**](/windows/desktop/api/Dbghelp/nf-dbghelp-symloadmoduleex) même si l’option de chargement différé des symboles est définie.
 

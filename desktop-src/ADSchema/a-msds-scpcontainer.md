@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e71ffe064fe84f9db37c3768ee910340bbe387a5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 98a1d46ab911c92488708472ef8e5e1bef544635c89d14f760bae8dfa0771234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925332"
 ---
 # <a name="ms-ds-scp-container-attribute"></a>attribut ms-DS-SCP-Container
 

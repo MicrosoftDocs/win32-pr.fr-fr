@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18e90cb5fd462fc75126b6ba80f10638826811d8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eea88a459064afdaf02854171eea093ee45837c227a90ca0b0ead8fcc9d2c5e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925727"
 ---
 # <a name="ms-ds-repl-value-meta-data-attribute"></a>attribut de métadonnées ms-DS-REPL-value-
 
@@ -45,7 +45,7 @@ Liste de métadonnées pour chaque valeur d’un attribut. Les métadonnées ind
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

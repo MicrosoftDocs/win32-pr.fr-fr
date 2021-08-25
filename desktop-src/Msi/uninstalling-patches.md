@@ -1,46 +1,46 @@
 ---
-description: À partir de Windows Installer 3,0, il est possible de désinstaller certains correctifs des applications.
+description: à partir de Windows Installer 3,0, il est possible de désinstaller certains correctifs des applications.
 ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: Désinstallation des correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff9418704bdeeb5ccc57839cbe2416faa5692265
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b10024d82bde0e902fb7f49f9af3bcfa041ca46efb1e6e19466c4acd09c805fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893359"
 ---
 # <a name="uninstalling-patches"></a>Désinstallation des correctifs
 
-À partir de Windows Installer 3,0, il est possible de désinstaller certains correctifs des applications. Le correctif doit être un [correctif](uninstallable-patches.md)qui peut être désinstallé. Lors de l’utilisation d’une version Windows Installer antérieure à la version 3,0, la [suppression des correctifs](removing-patches.md) nécessite la désinstallation du produit correctif et la réinstallation du produit sans appliquer le correctif logiciel.
+à partir de Windows Installer 3,0, il est possible de désinstaller certains correctifs des applications. Le correctif doit être un [correctif](uninstallable-patches.md)qui peut être désinstallé. lors de l’utilisation d’une version Windows Installer antérieure à la version 3,0, la [suppression des correctifs](removing-patches.md) nécessite la désinstallation du produit correctif et la réinstallation du produit sans appliquer le correctif logiciel.
 
-**Windows Installer 2,0 :** Non pris en charge. Les correctifs appliqués à l’aide d’une version de Windows Installer antérieure à Windows Installer 3,0 ne peuvent pas être installés.
+**Windows Installer 2,0 :** Non pris en charge. les correctifs appliqués à l’aide d’une version de Windows Installer antérieure à Windows Installer 3,0 ne peuvent pas être installés.
 
 Lorsque vous appelez une désinstallation d’un correctif à l’aide d’une des méthodes suivantes, le programme d’installation tente de supprimer le correctif du premier produit visible pour l’application ou l’utilisateur qui demande la désinstallation. Le programme d’installation recherche les produits corrigés dans l’ordre suivant : géré par utilisateur, non géré par utilisateur et par ordinateur.
 
 ## <a name="uninstalling-a-patch-using-msipatchremove-on-a-command-line"></a>Désinstallation d’un correctif à l’aide de MSIPATCHREMOVE sur une ligne de commande
 
-Vous pouvez désinstaller les correctifs à partir d’une commande à l’aide de msiexec.exe et des [options de ligne de commande](command-line-options.md). L’exemple de ligne de commande suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la propriété [**MSIPATCHREMOVE**](msipatchremove.md) et de l’option de ligne de commande/i. Lorsque vous utilisez/i, l’application corrigée peut être identifiée par le chemin d’accès au package de l’application (fichier. msi) ou le [Code du produit](product-codes.md)de l’application. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
+Vous pouvez désinstaller les correctifs à partir d’une commande à l’aide de msiexec.exe et des [options de ligne de commande](command-line-options.md). L’exemple de ligne de commande suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la propriété [**MSIPATCHREMOVE**](msipatchremove.md) et de l’option de ligne de commande/i. Lorsque vous utilisez/i, l’application corrigée peut être identifiée par le chemin d’accès au package de l’application (fichier .msi) ou le [Code de produit](product-codes.md)de l’application. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
 
 **Msiexec/I {0C9840E7-7F0B-C648-10F0-4641926FE463} MSIPATCHREMOVE = {EB8C947C-78B2-85A0-644D-86CEEF8E07C0}/QB**
 
 ## <a name="uninstalling-a-patch-using-the-standard-command-line-options"></a>Désinstallation d’un correctif à l’aide des options de ligne de commande standard
 
-À partir de Windows Installer version 3,0, vous pouvez utiliser les [options de ligne de commande standard](standard-installer-command-line-options.md) utilisées par les mises à jour du système d’exploitation Microsoft Windows (update.exe) pour désinstaller Windows Installer correctifs à partir d’une ligne de commande.
+à partir de Windows Installer version 3,0, vous pouvez utiliser les [options de ligne de commande standard](standard-installer-command-line-options.md) utilisées par Microsoft Windows les mises à jour du système d’exploitation (update.exe) pour désinstaller les correctifs Windows Installer à partir d’une ligne de commande.
 
-La ligne de commande suivante est l’équivalent de la ligne de commande standard de la ligne de commande Windows Installer utilisée pour désinstaller un correctif à l’aide de la propriété [**MSIPATCHREMOVE**](msipatchremove.md) . L’option/Uninstall utilisée avec l’option/package indique la désinstallation d’un correctif. Le correctif peut être référencé par le chemin d’accès complet au correctif ou par le GUID du code correctif.
+la ligne de commande suivante est l’équivalent de la ligne de commande standard de la ligne de commande Windows Installer utilisée pour désinstaller un correctif à l’aide de la propriété [**MSIPATCHREMOVE**](msipatchremove.md) . L’option/Uninstall utilisée avec l’option/package indique la désinstallation d’un correctif. Le correctif peut être référencé par le chemin d’accès complet au correctif ou par le GUID du code correctif.
 
 **Msiexec/package {0C9840E7-7F0B-C648-10F0-4641926FE463}/Uninstall {EB8C947C-78B2-85A0-644D-86CEEF8E07C0}/passive**
 
 > [!Note]  
-> L’option standard/passive n’est pas un équivalent exact de l’option Windows Installer/QB.
+> l’option standard/passive n’est pas un équivalent exact de l’option Windows Installer/qb.
 
  
 
 ## <a name="uninstalling-a-patch-using-the-removepatches-method"></a>Désinstallation d’un correctif à l’aide de la méthode RemovePatches
 
-Vous pouvez désinstaller les correctifs à partir d’un script à l’aide de l' [Interface Windows Installer Automation](automation-interface.md). L’exemple de script suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la méthode [**RemovePatches**](installer-removepatches.md) de l’objet [installer](installer-object.md) . Chaque correctif en cours de désinstallation peut être représenté soit par le chemin d’accès complet au package de correctifs, soit par le GUID du code correctif. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
+vous pouvez désinstaller les correctifs à partir d’un script à l’aide de l' [Interface Windows Installer Automation](automation-interface.md). L’exemple de script suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la méthode [**RemovePatches**](installer-removepatches.md) de l’objet [installer](installer-object.md) . Chaque correctif en cours de désinstallation peut être représenté soit par le chemin d’accès complet au package de correctifs, soit par le GUID du code correctif. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
 
 
 ```VB
@@ -58,11 +58,11 @@ installer.RemovePatches(PatchList, Product, msiInstallTypeSingleInstance, "")
 
 ## <a name="uninstalling-a-patch-using-addremove-programs"></a>Désinstallation d’un correctif à l’aide d’ajout/suppression de programmes
 
-Avec Windows XP, vous pouvez désinstaller les correctifs à l’aide de la fonction Ajout/suppression de programmes.
+avec Windows XP, vous pouvez désinstaller les correctifs à l’aide de la fonction ajout/suppression de programmes.
 
 ## <a name="uninstalling-a-patch-using-the-msiremovepatches-function"></a>Désinstallation d’un correctif à l’aide de la fonction MsiRemovePatches
 
-Vos applications peuvent désinstaller les correctifs d’autres applications à l’aide des [fonctions Windows Installer](installer-functions.md). L’exemple de code suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la fonction [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa) . Un correctif peut être référencé par le chemin d’accès complet au package correctif ou le GUID du code correctif. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
+vos applications peuvent désinstaller les correctifs d’autres applications à l’aide des [fonctions Windows Installer](installer-functions.md). L’exemple de code suivant supprime un [correctif logiciel](uninstallable-patches.md), example. msp, d’une application, example.msi à l’aide de la fonction [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa) . Un correctif peut être référencé par le chemin d’accès complet au package correctif ou le GUID du code correctif. Dans cet exemple, le package d’installation de l’application se trouve dans « \\ \\ Server \\ share \\ Products \\ example \\example.msi » et la propriété [**ProductCode**](productcode.md) de l’application est « {0C9840E7-7F0B-C648-10F0-4641926FE463} ». Le package de correctifs se trouve à l’emplacement suivant : « \\ \\ Server \\ share \\ Products \\ example \\ patchs example \\ . msp » et le GUID du code correctif est « {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} ».
 
 
 ```C++
@@ -79,7 +79,7 @@ Vos applications peuvent désinstaller les correctifs d’autres applications à
 
 Un seul correctif peut mettre à jour plusieurs produits sur l’ordinateur. Une application peut utiliser [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa) pour énumérer tous les produits sur l’ordinateur et déterminer si un correctif a été appliqué à une instance particulière du produit. L’application peut ensuite désinstaller le correctif à l’aide de [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa). Par exemple, un seul correctif peut mettre à jour plusieurs produits si le correctif met à jour un fichier dans un composant qui est partagé par plusieurs produits et le correctif est distribué pour mettre à jour les deux produits.
 
-L’exemple suivant montre comment une application peut utiliser le Windows Installer pour supprimer un correctif de toutes les applications qui sont disponibles pour l’utilisateur. Elle ne supprime pas le correctif logiciel des applications installées par utilisateur pour un autre utilisateur.
+l’exemple suivant montre comment une application peut utiliser le Windows Installer pour supprimer un correctif de toutes les applications qui sont disponibles pour l’utilisateur. Elle ne supprime pas le correctif logiciel des applications installées par utilisateur pour un autre utilisateur.
 
 
 ```C++

@@ -4,12 +4,12 @@ description: Cette rubrique décrit comment rendre votre code COM plus efficace 
 ms.assetid: 76aca556-b4d6-4e67-a2a3-4439900f0c39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a26143e5049c3db7efcbcc9353e74890fe0009c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 93febc4ee3dfd4f05f20fae8078bc2a5ebb7f9623a860f49ec9cd6ce4e69b95a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104102477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913888"
 ---
 # <a name="com-coding-practices"></a>Pratiques de codage COM
 
@@ -26,7 +26,7 @@ Lorsque vous générez votre programme, vous pouvez recevoir des erreurs de l’
 
 `unresolved external symbol "struct _GUID const IID_IDrawable"`
 
-Cette erreur signifie qu’une constante GUID a été déclarée avec une liaison externe (**extern**) et que l’éditeur de liens n’a pas pu trouver la définition de la constante. La valeur d’une constante GUID est généralement exportée à partir d’un fichier de bibliothèque statique. Si vous utilisez Microsoft Visual C++, vous pouvez éviter d’avoir à lier une bibliothèque statique à l’aide de l’opérateur **\_ \_ uuidof** . Cet opérateur est une extension de langage Microsoft. Elle retourne une valeur GUID à partir d’une expression. L’expression peut être un nom de type interface, un nom de classe ou un pointeur d’interface. À l’aide de **\_ \_ uuidof**, vous pouvez créer l’objet de boîte de dialogue d’élément commun comme suit :
+Cette erreur signifie qu’une constante GUID a été déclarée avec une liaison externe (**extern**) et que l’éditeur de liens n’a pas pu trouver la définition de la constante. La valeur d’une constante GUID est généralement exportée à partir d’un fichier de bibliothèque statique. si vous utilisez Microsoft Visual C++, vous pouvez éviter d’avoir à lier une bibliothèque statique à l’aide de l’opérateur **\_ \_ uuidof** . Cet opérateur est une extension de langage Microsoft. Elle retourne une valeur GUID à partir d’une expression. L’expression peut être un nom de type interface, un nom de classe ou un pointeur d’interface. À l’aide de **\_ \_ uuidof**, vous pouvez créer l’objet de boîte de dialogue d’élément commun comme suit :
 
 
 ```C++
@@ -42,7 +42,7 @@ Le compilateur extrait la valeur GUID de l’en-tête, aucune exportation de bib
 > [!Note]  
 > La valeur GUID est associée au nom de type en déclarant `__declspec(uuid( ... ))` dans l’en-tête. Pour plus d’informations, consultez la documentation relative à **\_ \_ declspec** dans la documentation Visual C++.
 
- 
+ 
 
 ## <a name="the-iid_ppv_args-macro"></a>La \_ macro IID PPV \_ args
 
@@ -70,7 +70,7 @@ Ce code demande l’interface [**IFileDialogCustomize**](/windows/desktop/api/sh
 > [!Note]  
 > Une table de méthodes virtuelles ( *vtable* ) est une table de pointeurs de fonction. La vtable est la manière dont COM lie un appel de méthode à son implémentation au moment de l’exécution. Par contre, les vtables sont la manière dont la plupart des compilateurs C++ implémentent des méthodes virtuelles.
 
- 
+ 
 
 La macro [**IID \_ PPV \_ args**](/windows/desktop/api/combaseapi/nf-combaseapi-iid_ppv_args) permet d’éviter cette classe d’erreur. Pour utiliser cette macro, remplacez le code suivant :
 
@@ -204,7 +204,7 @@ class SmartPointer
 
 
 
-La définition de classe présentée ici est incomplète et n’est pas utilisable comme indiqué. Au minimum, vous devez définir un constructeur de copie, un opérateur d’assignation et un moyen d’accéder au pointeur COM sous-jacent. Heureusement, vous n’avez pas besoin d’effectuer ce travail, car Microsoft Visual Studio fournit déjà une classe de pointeur intelligent dans le cadre de la Active Template Library (ATL).
+La définition de classe présentée ici est incomplète et n’est pas utilisable comme indiqué. Au minimum, vous devez définir un constructeur de copie, un opérateur d’assignation et un moyen d’accéder au pointeur COM sous-jacent. heureusement, vous n’avez pas besoin d’effectuer ce travail, car Microsoft Visual Studio fournit déjà une classe de pointeur intelligent dans le cadre de la Active Template Library (ATL).
 
 La classe de pointeur intelligent ATL est nommée **CComPtr**. (Il existe également une classe **CComQIPtr** , qui n’est pas abordée ici.) Voici l’exemple de [boîte de dialogue Ouvrir](example--the-open-dialog-box.md) réécrit pour utiliser **CComPtr**.
 
@@ -286,6 +286,6 @@ La méthode **CComPtr :: CoCreateInstance** est fournie à titre purement prati
 
 [Gestion des erreurs dans COM](error-handling-in-com.md)
 
- 
+ 
 
- 
+ 

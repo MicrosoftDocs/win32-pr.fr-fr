@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82364c6222f6b566ef6aacb5b71a72b49c213f5a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 24a4135fdcb38fbad9e41b04a136f69420da7455f68d38a0c507135892e2a00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895219"
 ---
 # <a name="idempotent-attribute"></a>idempotent (attribut)
 
@@ -65,7 +65,7 @@ Spécifie le type de retour de la fonction.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction à laquelle l’attribut **\[ idempotent \]** sera appliqué.
@@ -79,7 +79,7 @@ Liste des paramètres de la fonction.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 RPC prend en charge deux types de sémantiques d’appel à distance : les appels aux opérations avec l’attribut **\[ idempotent \]** et les appels aux opérations (opérations *idempotent* ) sans l’attribut **\[ idempotent \]** (opérations *non-idempotent* ). Une opération idempotent peut être exécutée plusieurs fois sans effet. À l’inverse, une opération non-idempotent ne peut pas être exécutée plus d’une fois, car elle retourne des résultats différents chaque fois ou car elle modifie un État.
 
@@ -98,9 +98,9 @@ Pour garantir la réexécution automatique d’une procédure si l’appel n’e
 [**environ**](maybe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

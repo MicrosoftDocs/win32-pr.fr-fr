@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f113b3df247765b958dfe47bb04fafb6c9a13bbe
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 543b6b40d3fe24f902eb999a9377b8dbf60e1baa31efb70febbd2c0261d47305
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857439"
 ---
 # <a name="d3dpresent_parameters-structure"></a>D3DPRESENT, \_ structure de paramètres
 
@@ -141,7 +141,7 @@ D3DSWAPEFFECT \_ Discard sera appliqué dans le runtime de débogage en rempliss
 
 Différences entre Direct3D9 et Direct3D9Ex :
 
-- Dans Direct3D9Ex, D3DSWAPEFFECT \_ FLIPEX est ajouté pour désigner le moment où une application adopte le mode Flip. Autrement dit, Whan le frame d’une application est passé en mode de fenêtre (au lieu d’être copié) au Gestionnaire de fenêtrage (DWM) pour la composition. Le mode Flip fournit une bande passante de mémoire plus efficace et permet à une application de tirer parti des statistiques de présentation plein écran. Elle ne modifie pas le comportement plein écran. Le comportement en mode Flip est disponible à partir de Windows 7.
+- Dans Direct3D9Ex, D3DSWAPEFFECT \_ FLIPEX est ajouté pour désigner le moment où une application adopte le mode Flip. Autrement dit, Whan le frame d’une application est passé en mode de fenêtre (au lieu d’être copié) au Gestionnaire de fenêtrage (DWM) pour la composition. Le mode Flip fournit une bande passante de mémoire plus efficace et permet à une application de tirer parti des statistiques de présentation plein écran. Elle ne modifie pas le comportement plein écran. le comportement en mode Flip est disponible à partir de Windows 7.
 
 
 
@@ -262,10 +262,10 @@ Vitesse maximale à laquelle les mémoires tampons d’arrière-plan de la chaî
 [**CreateAdditionalSwapChain**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createadditionalswapchain)
 </dt> <dt>
 
-[**Trouver**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
+[**Présent**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
 </dt> <dt>
 
-[**Réinitialiser**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)
+[**Initialisation**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)
 </dt> </dl>
 
  

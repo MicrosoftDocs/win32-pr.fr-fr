@@ -3,7 +3,7 @@ title: Message WM_CAP_FILE_SET_INFOCHUNK (VFW. h)
 description: Le \_ jeu de fichiers WM Cap définit les \_ \_ \_ jeux de messages INFOCHUNK et efface les segments d’informations.
 ms.assetid: 67d11a05-a2b4-45d2-ba66-83a198745303
 keywords:
-- Message WM_CAP_FILE_SET_INFOCHUNK Windows Multimedia
+- message WM_CAP_FILE_SET_INFOCHUNK Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 067ba00563a5ca511f13b23615fc4542090ba397
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06d64f88a87af63e5afc513e0e2cf2df53d64570bec099a2f8f2846d781fc0b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892069"
 ---
 # <a name="wm_cap_file_set_infochunk-message"></a>\_ \_ \_ Message INFOCHUNK du jeu de fichiers \_ de la casquette WM
 
@@ -51,7 +51,7 @@ Retourne la **valeur true** en cas de réussite ou **false** dans le cas contrai
 
 Si une erreur se produit et qu’une fonction de rappel d’erreur est définie à l’aide du message d' [**\_ erreur WM Cap \_ Set \_ callback \_**](wm-cap-set-callback-error.md) , la fonction de rappel d’erreur est appelée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs segments d’informations inscrits peuvent être ajoutés à un fichier AVI. Une fois qu’un segment d’informations est défini, il continue à être ajouté aux fichiers de capture suivants jusqu’à ce que l’entrée soit effacée ou que toutes les entrées de segment d’information soient effacées. Pour effacer une entrée unique, spécifiez le segment d’informations dans le membre **fccInfoID** et la **valeur null** dans le membre **lpData** de la structure [**CAPINFOCHUNK**](/windows/win32/api/vfw/ns-vfw-capinfochunk) . Pour effacer toutes les entrées, spécifiez **null** dans **fccInfoID**.
 
