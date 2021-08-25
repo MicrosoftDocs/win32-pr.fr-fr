@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d35407c171bdcd54eb44e9830f382c08a1e6c6c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 067fe72e2e00fc01b433dbda819d5e89336fc68c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484873"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467186"
 ---
 # <a name="jetprereadkeys-function"></a>JetPrereadKeys fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetprereadkeys-function"></a>JetPrereadKeys fonction)
 
@@ -80,67 +80,23 @@ Il doit s’agir d’JET_bitPrereadForward ou JET_bitPrereadBackward. Si Grbit e
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 Diverses erreurs d’e/s peuvent être retournées avec les erreurs d’utilisation de l’API suivantes :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Grbit n’était ni JET_bitPrereadForward ni JET_bitPrereadBackward.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBufferSize</p></td>
-<td><p>Une taille de clé incorrecte a été passée. Les clés ne peuvent pas être égales à 0 ni supérieure à la longueur de clé maximale pour la table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Un paramètre non valide a été passé. Cela peut être dû à une valeur null pour un paramètre obligatoire ou peut indiquer que le tableau de clés n’est pas correctement trié.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errInvalidGrbit</p> | <p>Grbit n’était ni JET_bitPrereadForward ni JET_bitPrereadBackward.</p> | 
+| <p>JET_errInvalidBufferSize</p> | <p>Une taille de clé incorrecte a été passée. Les clés ne peuvent pas être égales à 0 ni supérieure à la longueur de clé maximale pour la table.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Un paramètre non valide a été passé. Cela peut être dû à une valeur null pour un paramètre obligatoire ou peut indiquer que le tableau de clés n’est pas correctement trié.</p> | 
+
 
 
 **JetPrereadKeys** parcourt les pages internes de l’arbre b (b-Tree) pour déterminer quelles pages de feuille contiennent les clés spécifiées par RgpvKeys/rgcbKeys. La liste des pages feuille est triée, puis les prélectures sont émises pour les plages de pages. Le nombre de pages pouvant être prélues est limité. il est donc possible que toutes les clés ne soient pas prélues. Dans ce cas, le nombre de clés réellement prélues est retourné dans pckeysPreread.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requiert Windows 7.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 R2.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows 7.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008 R2.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+

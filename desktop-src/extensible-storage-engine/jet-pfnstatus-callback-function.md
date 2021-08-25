@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c5f3eb374580dc6bed752900434706b66c6623b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d10de8491379a3e19217bcdb4a28f3546ebc009f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203895"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482915"
 ---
 # <a name="jet_pfnstatus-callback-function"></a>JET_PFNSTATUS fonction de rappel
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_pfnstatus-callback-function"></a>JET_PFNSTATUS fonction de rappel
 
@@ -60,44 +60,27 @@ Pointeur facultatif vers une structure de type [JET_SNPROG](./jet-snprog-structu
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des [codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md). Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des [codes d’erreur du moteur d’Stockage Extensible](./extensible-storage-engine-error-codes.md). pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 En cas de réussite, l’opération qui a émis le rappel peut se poursuivre normalement. Dans certains cas, le rappel peut retourner un avertissement qui influence cette opération.
 
 En cas d’échec, l’opération qui a émis le rappel peut se poursuivre normalement ou échouer.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cette fonction de rappel sera utilisée dans une notification de progression dans laquelle la structure indiquera l’état actuel de la progression. Notez que la fonction de rappel peut être appelée plusieurs fois pour la progression de l’opération.
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi
 
-[Codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md)  
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
+[codes d’erreur du moteur de Stockage Extensible](./extensible-storage-engine-error-codes.md)  
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
 [JET_SESID](./jet-sesid.md)  
 [JET_SNP](./jet-snp.md)  
 [JET_SNPROG](./jet-snprog-structure.md)  

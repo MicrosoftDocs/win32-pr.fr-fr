@@ -4,12 +4,12 @@ ms.assetid: 37a07997-d073-4cd2-91e0-42125678bc11
 title: System. HighKeywords
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6c3c679b8ac603067b61e4151db34b94150442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78cde083bf5b6cdf6b8460ae678eeb828b11d255ad218d2e697d98d2255509b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945425"
 ---
 # <a name="systemhighkeywords"></a>System. HighKeywords
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

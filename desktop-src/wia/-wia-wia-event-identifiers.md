@@ -1,19 +1,19 @@
 ---
-description: Les identificateurs d’événements WIA sont des identificateurs globaux uniques (GUID) définis par le système WIA (Windows Image Acquisition).
+description: les identificateurs d’événements WIA sont des identificateurs globaux uniques (GUID) définis par le système d’Acquisition d’images Windows (WIA).
 ms.assetid: b94221b3-7cab-40d7-850a-fcc4ec8174b5
 title: Identificateurs d’événements WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252687b57b2c3ec8eb837be82aa07741149c6c66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec765d826f6c9a05a5ff33e4e2cbc140b9879cf4b2dacdd9ee3f2f07b7451dda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813099"
 ---
 # <a name="wia-event-identifiers"></a>Identificateurs d’événements WIA
 
-Les identificateurs d’événements WIA sont des identificateurs globaux uniques (GUID) définis par le système WIA (Windows Image Acquisition).
+les identificateurs d’événements WIA sont des identificateurs globaux uniques (GUID) définis par le système d’Acquisition d’images Windows (WIA).
 
 Une application WIA peut s’abonner à ces événements non persistants en utilisant [**IwiaDevMgr2 :: RegisterEventCallbackInterface**](-wia-iwiadevmgr2-registereventcallbackinterface.md) pour recevoir des notifications de changement d’état des appareils à partir de l’appareil WIA auquel la session d’application WIA en cours est connectée. Le mini-pilote WIA doit s’assurer que \_ l' \_ \_ État de gestion des documents DPS WIA \_ est correctement mis à jour avant que le pilote ne signale l’un de ces événements.
 

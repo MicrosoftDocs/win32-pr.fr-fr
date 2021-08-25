@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 38ddb306ee6fdcbd1eb792b2c29ca367adc0f4b88cc25dfcbdde22c2638258d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 546ace6b93328c3420a33c131250510d8421491b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118765037"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470835"
 ---
 # <a name="jet_ls"></a>JET_LS
 
@@ -51,60 +51,21 @@ Le descripteur de contexte peut être explicitement dissocié du type de donnée
 
 Les indicateurs suivants sont associés au type de données JET_LS.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Terme</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitLSReset</p></td>
-<td><p>Le handle de contexte est dissocié de l’objet.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitLSCursor</p></td>
-<td><p>Définissez ou récupérez le stockage local associé à un curseur de table.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitLSTable</p></td>
-<td><p>Définissez ou récupérez le stockage local associé à une table.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_LSNil</p></td>
-<td><p>Le descripteur de contexte n’est pas valide.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Terme</p> | <p>Description</p> | 
+|-------------|--------------------|
+| <p>JET_bitLSReset</p> | <p>Le handle de contexte est dissocié de l’objet.</p> | 
+| <p>JET_bitLSCursor</p> | <p>Définissez ou récupérez le stockage local associé à un curseur de table.</p> | 
+| <p>JET_bitLSTable</p> | <p>Définissez ou récupérez le stockage local associé à une table.</p> | 
+| <p>JET_LSNil</p> | <p>Le descripteur de contexte n’est pas valide.</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

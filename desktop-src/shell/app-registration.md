@@ -4,12 +4,12 @@ ms.assetid: F88AA3E6-6F7B-442d-935A-7D2CB4958E6B
 title: Inscription de l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cecac1c72614ce3241cbac6b880b0d9f5f84f9fbf85c8ee022d83574df6d86e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0b9647809f46c2147ab6ed464f0e8de1d7ef0df
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118224941"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122464856"
 ---
 # <a name="application-registration"></a>Inscription de l’application
 
@@ -90,49 +90,16 @@ L’utilisation de l’entrée DropTarget permet d’éviter ces problèmes pote
 
 2.  Consultez le tableau suivant pour plus d’informations sur les entrées de la sous-clé **paths** de l’application. 
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Entrée de Registre</th>
-    <th>Détails</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>(Par défaut)</td>
-    <td>Est le chemin d’accès complet à l’application. Le nom d’application fourni dans l’entrée (valeur par défaut) peut être indiqué avec ou sans son extension de .exe. Si nécessaire, la fonction <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> ajoute l’extension lors de la recherche de la sous-clé <strong>chemins d’accès</strong> de l’application. L’entrée est du type de <strong>REG_SZ</strong> .</td>
-    </tr>
-    <tr class="even">
-    <td>DontUseDesktopChangeRouter</td>
-    <td>est obligatoire pour les applications du débogueur afin d’éviter les blocages de boîtes de dialogue de fichier lors du débogage du processus Windows Explorer. Toutefois, la définition de l’entrée DontUseDesktopChangeRouter produit une gestion légèrement moins efficace des notifications de modification. L’entrée est du type de <strong>REG_DWORD</strong> et la valeur est 0x1.</td>
-    </tr>
-    <tr class="odd">
-    <td>DropTarget</td>
-    <td>Identificateur de classe (CLSID). L’entrée DropTarget contient le CLSID d’un objet (généralement un serveur local plutôt qu’un serveur in-process) qui implémente <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. Par défaut, lorsque la cible de déplacement est un fichier exécutable et qu’aucune valeur DropTarget n’est fournie, l’interpréteur de commandes convertit la liste des fichiers déplacés en un paramètre de ligne de commande et le transmet à <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> via <em>lpParameters</em>.</td>
-    </tr>
-    <tr class="even">
-    <td>Chemin</td>
-    <td>Fournit une chaîne (sous la forme d’une liste de répertoires séparés par des points-virgules) à ajouter à la variable d’environnement PATH quand une application est lancée en appelant <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>. Il s’agit du chemin d’accès complet au .exe. Elle est de <strong>REG_SZ</strong>. dans <strong>Windows 7 et versions ultérieures</strong>, le type peut être <strong>REG_EXPAND_SZ</strong>, et est généralement <strong>REG_EXPAND_SZ</strong> % ProgramFiles%.
-    <blockquote>
-    [!Note]<br />
-En plus des entrées (par défaut), path et DropTarget reconnues par l’interpréteur de commandes, une application peut également ajouter des valeurs personnalisées à la sous-clé <strong>chemins d’accès</strong> de l’application de son fichier exécutable. Nous encourageons les développeurs d’applications à utiliser la sous-clé <strong>paths</strong> de l’application pour fournir un chemin d’accès spécifique à l’application au lieu d’apporter des ajouts au chemin d’accès du système global.
-    </blockquote>
-    <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>SupportedProtocols</td>
-    <td>Crée une chaîne qui contient les schémas de protocole d’URL pour une clé donnée. Peut contenir plusieurs valeurs de Registre pour indiquer les schémas pris en charge. Cette chaîne suit le format <strong>scheme1 : scheme2</strong>. Si cette liste n’est pas vide, le <strong>fichier :</strong> sera ajouté à la chaîne. Ce protocole est pris en charge implicitement quand <em>SupportedProtocols</em> est défini. <br/></td>
-    </tr>
-    <tr class="even">
-    <td>UseUrl</td>
-    <td>Indique que votre application peut accepter une URL (au lieu d’un nom de fichier) sur la ligne de commande. Les applications qui peuvent ouvrir des documents directement à partir d’Internet, comme les navigateurs Web et les lecteurs multimédias, doivent définir cette entrée. <br/> Lorsque la fonction <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> démarre une application et que la valeur UseUrl = 1 n’est pas définie, <strong>ShellExecuteEx</strong> télécharge le document dans un fichier local et appelle le gestionnaire sur la copie locale.<br/> Par exemple, si cette entrée est définie pour l’application et qu’un utilisateur clique avec le bouton droit sur un fichier stocké sur un serveur Web, le verbe Open est rendu disponible. Si ce n’est pas le cas, l’utilisateur doit télécharger le fichier et ouvrir la copie locale. <br/> L’entrée UseUrl est de type <strong>REG_DWORD</strong> , et la valeur est 0x1.<br/> dans Windows Vista et les versions antérieures, cette entrée indique que l’URL doit être transmise à l’application avec un nom de fichier local, lorsqu’elle est appelée via ShellExecuteEx. dans Windows 7, il indique que l’application peut comprendre toute url http ou https qui lui est transmise, sans avoir à fournir également le nom du fichier cache. Cette clé de Registre est associée à la clé <em>SupportedProtocols</em> .<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Entrée de Registre | Détails | 
+|----------------|---------|
+| (Par défaut) | Est le chemin d’accès complet à l’application. Le nom d’application fourni dans l’entrée (valeur par défaut) peut être indiqué avec ou sans son extension de .exe. Si nécessaire, la fonction <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> ajoute l’extension lors de la recherche de la sous-clé <strong>chemins d’accès</strong> de l’application. L’entrée est du type de <strong>REG_SZ</strong> . | 
+| DontUseDesktopChangeRouter | est obligatoire pour les applications du débogueur afin d’éviter les blocages de boîtes de dialogue de fichier lors du débogage du processus Windows Explorer. Toutefois, la définition de l’entrée DontUseDesktopChangeRouter produit une gestion légèrement moins efficace des notifications de modification. L’entrée est du type de <strong>REG_DWORD</strong> et la valeur est 0x1. | 
+| DropTarget | Identificateur de classe (CLSID). L’entrée DropTarget contient le CLSID d’un objet (généralement un serveur local plutôt qu’un serveur in-process) qui implémente <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a>. Par défaut, lorsque la cible de déplacement est un fichier exécutable et qu’aucune valeur DropTarget n’est fournie, l’interpréteur de commandes convertit la liste des fichiers déplacés en un paramètre de ligne de commande et le transmet à <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> via <em>lpParameters</em>. | 
+| Chemin d’accès | Fournit une chaîne (sous la forme d’une liste de répertoires séparés par des points-virgules) à ajouter à la variable d’environnement PATH quand une application est lancée en appelant <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>. Il s’agit du chemin d’accès complet au .exe. Elle est de <strong>REG_SZ</strong>. dans <strong>Windows 7 et versions ultérieures</strong>, le type peut être <strong>REG_EXPAND_SZ</strong>, et est généralement <strong>REG_EXPAND_SZ</strong> % ProgramFiles%.    <blockquote>    [!Note]<br />    En plus des entrées (par défaut), path et DropTarget reconnues par l’interpréteur de commandes, une application peut également ajouter des valeurs personnalisées à la sous-clé <strong>chemins d’accès</strong> de l’application de son fichier exécutable. Nous encourageons les développeurs d’applications à utiliser la sous-clé <strong>paths</strong> de l’application pour fournir un chemin d’accès spécifique à l’application au lieu d’apporter des ajouts au chemin d’accès du système global.    </blockquote><br /> | 
+| SupportedProtocols | Crée une chaîne qui contient les schémas de protocole d’URL pour une clé donnée. Peut contenir plusieurs valeurs de Registre pour indiquer les schémas pris en charge. Cette chaîne suit le format <strong>scheme1 : scheme2</strong>. Si cette liste n’est pas vide, le <strong>fichier :</strong> sera ajouté à la chaîne. Ce protocole est pris en charge implicitement quand <em>SupportedProtocols</em> est défini. <br /> | 
+| UseUrl | Indique que votre application peut accepter une URL (au lieu d’un nom de fichier) sur la ligne de commande. Les applications qui peuvent ouvrir des documents directement à partir d’Internet, comme les navigateurs Web et les lecteurs multimédias, doivent définir cette entrée. <br /> Lorsque la fonction <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> démarre une application et que la valeur UseUrl = 1 n’est pas définie, <strong>ShellExecuteEx</strong> télécharge le document dans un fichier local et appelle le gestionnaire sur la copie locale.<br /> Par exemple, si cette entrée est définie pour l’application et qu’un utilisateur clique avec le bouton droit sur un fichier stocké sur un serveur Web, le verbe Open est rendu disponible. Si ce n’est pas le cas, l’utilisateur doit télécharger le fichier et ouvrir la copie locale. <br /> L’entrée UseUrl est de type <strong>REG_DWORD</strong> , et la valeur est 0x1.<br /> dans Windows Vista et les versions antérieures, cette entrée indique que l’URL doit être transmise à l’application avec un nom de fichier local, lorsqu’elle est appelée via ShellExecuteEx. dans Windows 7, il indique que l’application peut comprendre toute url http ou https qui lui est transmise, sans avoir à fournir également le nom du fichier cache. Cette clé de Registre est associée à la clé <em>SupportedProtocols</em> .<br /> | 
+
 
     
 

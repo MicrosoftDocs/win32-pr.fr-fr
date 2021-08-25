@@ -3,7 +3,7 @@ title: figer, commande
 description: La commande Freeze fige l’entrée vidéo ou la sortie vidéo sur un magnétoscope ou désactive l’acquisition vidéo dans la mémoire tampon de trame. Les appareils vidéo numérique, vidéo-superposition et VCR reconnaissent cette commande.
 ms.assetid: 49f3ab98-e893-402a-be78-6140af3b81df
 keywords:
-- commande figer Windows Multimedia
+- figer la commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7b63fbb2d888fc1ca315c0b511bcb18224c8168
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1261cc75575a5b59d200ff965a5325caef9fa966
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032332"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481555"
 ---
 # <a name="freeze-command"></a>figer, commande
 
@@ -53,43 +53,13 @@ Indicateur qui identifie les éléments à figer. Le tableau suivant répertorie
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td>au niveau du <em>rectangle</em></td>
-<td>extérieurs</td>
-</tr>
-<tr class="even">
-<td>superposition</td>
-<td>au niveau du <em>rectangle</em></td>
 
-</tr>
-<tr class="odd">
-<td>vidéo</td>
-<td><ul>
-<li>field</li>
-<li>frame</li>
-</ul></td>
-<td><ul>
-<li>entrée</li>
-<li>sortie</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+| Valeur | Signification | Signification | 
+|-------|---------|---------|
+| digitalvideo | au niveau du <em>rectangle</em> | extérieurs | 
+| superposition | au niveau du <em>rectangle</em> | 
+| vidéo | <ul><li>field</li><li>frame</li></ul> | <ul><li>entrée</li><li>sortie</li></ul> | 
+
 
 
 
@@ -125,7 +95,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisée avec les périphériques VCR, cette commande est destinée aux cartes de saisie de trame.
 

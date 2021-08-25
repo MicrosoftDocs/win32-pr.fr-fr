@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (arborescence) (commctrl. h)
 description: Envoyé par un contrôle Tree-View pour signaler à sa fenêtre parente les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: eafe2427-20eb-4f3b-9407-bece897ffe16
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (arborescence)
+- NM_CUSTOMDRAW (arborescence) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb3f7b44748c2ac9c5b9651c079a8b90df0c508
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9571d8461b43cebe047d80933af53a0c1aa1b865ede6280b8de2a33b74a60f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088839"
 ---
 # <a name="nm_customdraw-tree-view-notification-code"></a>\_Code de notification CUSTOMDRAW nm (arborescence)
 
@@ -65,7 +65,7 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [Version 5,80.](common-control-versions.md) Si vous modifiez la police en retournant [**CDRF \_ NEWFONT**](cdrf-constants.md), le contrôle Tree-View peut afficher du texte tronqué. Ce comportement est nécessaire pour la compatibilité descendante avec les versions antérieures des contrôles communs. Si vous souhaitez modifier la police d’un contrôle Tree-View, vous obtiendrez de meilleurs résultats si vous envoyez un message [**CCM \_ SETVERSION**](ccm-setversion.md) avec la valeur *wParam* définie sur 5 avant d’ajouter des éléments au contrôle.
 
@@ -75,8 +75,8 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

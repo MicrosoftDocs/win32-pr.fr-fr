@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30e420d369ee09dfd2d92b5e5d79cf94c7013566
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825225"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470096"
 ---
 # <a name="splitbutton-control-type"></a>SplitButton (type de contrôle)
 
@@ -51,45 +51,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Image (0 ou 1)</li>
-<li>Text (0 ou 1)</li>
-<li>Button (1 ou 2)
-<ul>
-<li>Menu (0 ou 1 ; apparaît en tant qu’enfant d’un sous-bouton qui prend en charge le modèle ExpandCollapse)
-<ul>
-<li>MenuItem (1 et plus)</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>SplitButton
-<ul>
-<li>Button (1 ou 2)
-<ul>
-<li>MenuItem (1 et plus)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>SplitButton<ul><li>Image (0 ou 1)</li><li>Text (0 ou 1)</li><li>Button (1 ou 2)<ul><li>Menu (0 ou 1 ; apparaît en tant qu’enfant d’un sous-bouton qui prend en charge le modèle ExpandCollapse)<ul><li>MenuItem (1 et plus)</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton<ul><li>Button (1 ou 2)<ul><li>MenuItem (1 et plus)</li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -101,7 +67,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur           | Remarques                                                                                                                                                                                                |
+| Propriété UI Automation                                                                                              | Valeur           | Notes                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.      | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.      | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
@@ -140,7 +106,7 @@ Le tableau suivant répertorie les événements UI Automation qui doivent être 
 
 
 
-| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                      |
+| Événement UI Automation                                                                                                                                                | Notes                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                            |
@@ -162,48 +128,11 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arborescence UI Automation — vue contrôle</th>
-<th>Arborescence UI Automation — affichage du contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Nom du SplitButton &quot; &quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Bouton &quot; plus &quot; (Invoke)
-<ul>
-<li>Menu
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Nom du SplitButton &quot; &quot; (Invoke, ExpandCollapse)
-<ul>
-<li>Bouton &quot; plus &quot; (Invoke)
-<ul>
-<li>Menu
-<ul>
-<li>MenuItem</li>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Arborescence UI Automation — vue contrôle | Arborescence UI Automation — affichage du contenu | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>SplitButton "Nom" (Invoke, ExpandCollapse)<ul><li>Bouton « plus d’options » (Invoke)<ul><li>Menu<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | <ul><li>SplitButton "Nom" (Invoke, ExpandCollapse)<ul><li>Bouton « plus d’options » (Invoke)<ul><li>Menu<ul><li>MenuItem</li><li>...</li></ul></li></ul></li></ul></li></ul> | 
+
 
 
 

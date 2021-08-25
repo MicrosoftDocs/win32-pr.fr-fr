@@ -4,12 +4,12 @@ ms.assetid: 96d8b067-b5ab-4d36-a8d7-1d084a9f661d
 title: Élément dateCreated (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6017c0555d464a49192c4fe8cb7e347bbab0e367
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b59af62b2bd7ce8678fafb1fdd84646314f41a51414b4285db3077b5db0e0f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944399"
 ---
 # <a name="datecreated-element-search-connector-schema"></a>Élément dateCreated (schéma du connecteur de recherche)
 
@@ -45,7 +45,7 @@ L' <dateCreated> élément facultatif identifie la date et l’heure de créatio
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le format de la valeur de cet élément suit la norme ISO 8601. Une utilisation courante est l’un des éléments suivants :
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 688728e74d81055922f9e7e748dea1f30faa3548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f29f3c6a9ca3262b3cd09d726634afd70db9c6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519346"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471455"
 ---
 # <a name="jet_retrievecolumn-structure"></a>Structure JET_RETRIEVECOLUMN
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_retrievecolumn-structure"></a>Structure JET_RETRIEVECOLUMN
 
@@ -67,52 +67,18 @@ Taille, en octets, des données récupérées par une opération de récupérati
 
 Groupe de bits qui contient les options de récupération de colonne, qui incluent zéro, une ou plusieurs des valeurs suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitRetrieveCopy</p></td>
-<td><p>Récupère la valeur modifiée au lieu de la valeur d’origine. Si la valeur n’a pas été modifiée, la valeur d’origine est récupérée. De cette façon, une valeur qui n’a pas encore été insérée ou mise à jour peut être récupérée lorsqu’un enregistrement est inséré ou mis à jour.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveFromIndex</p></td>
-<td><p>Récupère les valeurs de colonne de l’index sans accéder à l’enregistrement, si possible. De cette façon, le chargement inutile d’enregistrements peut être évité lorsque les données nécessaires sont disponibles à partir d’entrées d’index. Dans les cas où la valeur de colonne d’origine ne peut pas être récupérée à partir de l’index, en raison des transformations irréversibles ou de la troncation des données, l’enregistrement est accessible et les données sont récupérées comme normales. Il s’agit d’une option de performance qui doit être spécifiée uniquement lorsqu’il est probable que la valeur de colonne puisse être récupérée à partir de l’index. Cette option ne doit pas être spécifiée si l’index actuel est l’index cluster, étant donné que les entrées d’index de l’index cluster ou principal sont les enregistrements eux-mêmes. Ce bit ne peut pas être défini si JET_bitRetrieveFromPrimaryBookmark est également défini.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveFromPrimaryBookmark</p></td>
-<td><p>Récupère les valeurs de colonne du signet d’index et peut différer de la valeur d’index lorsqu’une colonne apparaît à la fois dans l’index primaire et dans l’index actuel. Cette option ne doit pas être spécifiée si l’index actuel est l’index cluster ou principal. Ce bit ne peut pas être défini si JET_bitRetrieveFromIndex est également défini.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveTag</p></td>
-<td><p>Récupère le numéro de séquence d’une valeur de colonne à valeurs multiples dans pretinfo- &gt; itagSequence. Le champ itagSequence est souvent utilisé pour récupérer des valeurs de colonnes à valeurs multiples à partir d’un enregistrement. Toutefois, lorsque vous récupérez des valeurs à partir d’un index, il est également possible d’associer l’entrée d’index à un numéro de séquence particulier et de récupérer également ce numéro de séquence. La récupération du numéro de séquence peut être une opération coûteuse et ne doit être effectuée que si nécessaire.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ bitRetrieveNull</p></td>
-<td><p>Récupère des valeurs NULL de colonne à valeurs multiples. Si cette option n’est pas spécifiée, les valeurs NULL de la colonne à valeurs multiples sont automatiquement ignorées.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveIgnoreDefault</p></td>
-<td><p>Entraîne le renvoi d’une valeur NULL lorsque le numéro de séquence demandé est 1 et qu’il n’y a aucune valeur définie pour la colonne dans l’enregistrement. Cette option affecte uniquement les colonnes à valeurs multiples.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveLongId</p></td>
-<td><p>Cet indicateur est destiné à un usage interne uniquement et n’est pas destiné à être utilisé dans votre application.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveLongValueRefCount</p></td>
-<td><p>Cet indicateur est destiné à un usage interne uniquement et n’est pas destiné à être utilisé dans votre application.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitRetrieveCopy</p> | <p>Récupère la valeur modifiée au lieu de la valeur d’origine. Si la valeur n’a pas été modifiée, la valeur d’origine est récupérée. De cette façon, une valeur qui n’a pas encore été insérée ou mise à jour peut être récupérée lorsqu’un enregistrement est inséré ou mis à jour.</p> | 
+| <p>JET_bitRetrieveFromIndex</p> | <p>Récupère les valeurs de colonne de l’index sans accéder à l’enregistrement, si possible. De cette façon, le chargement inutile d’enregistrements peut être évité lorsque les données nécessaires sont disponibles à partir d’entrées d’index. Dans les cas où la valeur de colonne d’origine ne peut pas être récupérée à partir de l’index, en raison des transformations irréversibles ou de la troncation des données, l’enregistrement est accessible et les données sont récupérées comme normales. Il s’agit d’une option de performance qui doit être spécifiée uniquement lorsqu’il est probable que la valeur de colonne puisse être récupérée à partir de l’index. Cette option ne doit pas être spécifiée si l’index actuel est l’index cluster, étant donné que les entrées d’index de l’index cluster ou principal sont les enregistrements eux-mêmes. Ce bit ne peut pas être défini si JET_bitRetrieveFromPrimaryBookmark est également défini.</p> | 
+| <p>JET_bitRetrieveFromPrimaryBookmark</p> | <p>Récupère les valeurs de colonne du signet d’index et peut différer de la valeur d’index lorsqu’une colonne apparaît à la fois dans l’index primaire et dans l’index actuel. Cette option ne doit pas être spécifiée si l’index actuel est l’index cluster ou principal. Ce bit ne peut pas être défini si JET_bitRetrieveFromIndex est également défini.</p> | 
+| <p>JET_bitRetrieveTag</p> | <p>Récupère le numéro de séquence d’une valeur de colonne à valeurs multiples dans pretinfo- &gt; itagSequence. Le champ itagSequence est souvent utilisé pour récupérer des valeurs de colonnes à valeurs multiples à partir d’un enregistrement. Toutefois, lorsque vous récupérez des valeurs à partir d’un index, il est également possible d’associer l’entrée d’index à un numéro de séquence particulier et de récupérer également ce numéro de séquence. La récupération du numéro de séquence peut être une opération coûteuse et ne doit être effectuée que si nécessaire.</p> | 
+| <p>JET_ bitRetrieveNull</p> | <p>Récupère des valeurs NULL de colonne à valeurs multiples. Si cette option n’est pas spécifiée, les valeurs NULL de la colonne à valeurs multiples sont automatiquement ignorées.</p> | 
+| <p>JET_bitRetrieveIgnoreDefault</p> | <p>Entraîne le renvoi d’une valeur NULL lorsque le numéro de séquence demandé est 1 et qu’il n’y a aucune valeur définie pour la colonne dans l’enregistrement. Cette option affecte uniquement les colonnes à valeurs multiples.</p> | 
+| <p>JET_bitRetrieveLongId</p> | <p>Cet indicateur est destiné à un usage interne uniquement et n’est pas destiné à être utilisé dans votre application.</p> | 
+| <p>JET_bitRetrieveLongValueRefCount</p> | <p>Cet indicateur est destiné à un usage interne uniquement et n’est pas destiné à être utilisé dans votre application.</p> | 
+
 
 
 **ibLongValue**
@@ -133,26 +99,9 @@ Codes d’erreur et avertissements retournés par la récupération de la colonn
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

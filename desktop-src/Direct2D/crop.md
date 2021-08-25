@@ -6,12 +6,12 @@ keywords:
 - effet de rognage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 653ceaf4cf8b5922fe05e151c1639269f3169b57
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e342bdef882fbff89d4c67c3accfbff7287a2ad9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843533"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472928"
 ---
 # <a name="crop-effect"></a>Effet de rognage
 
@@ -32,7 +32,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Crop.
 | Avant                                                     |
 |------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg) |
-| After                                                      |
+| Après                                                      |
 | ![image après la transformation.](images/8-crop.png)       |
 
 
@@ -58,45 +58,13 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom complet et énumération d’index</th>
-<th>Type et valeur par défaut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Rect<br/></td>
-<td>D2D1_VECTOR_4F<br/></td>
-<td>Région à rogner spécifiée comme vecteur au format (gauche, haut, largeur, hauteur).<br/></td>
-</tr>
-<tr class="even">
-<td>D2D1_CROP_PROP_RECT<br/></td>
-<td>{-FLT_MAX,-FLT_MAX, FLT_MAX, FLT_MAX}<br/></td>
-<td>Les unités sont en DIP. <br/>
-<blockquote>
-<p>[!Note]</p>
-<p>Le Rect sera tronqué s’il chevauche les limites de bord de l’image d’entrée.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_CROP_PROP_BORDER_MODE<br/></td>
-<td>D2D1_BORDER_MODE <br/> D2D1_BORDER_MODE_SOFT <br/></td>
-<td><ul>
-<li>D2D1_BORDER_MODE_SOFT : si le rectangle de rognage tombe sur des coordonnées de pixels fractionnaires, l’effet applique l’anticrénelage qui produit une bordure douce.</li>
-<li>D2D1_BORDER_MODE_HARD : si le rectangle de rognage se trouve sur des coordonnées de pixels fractionnaires, il s’agit d’un effet de serre qui produit un bord dur.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Nom complet et énumération d’index | Type et valeur par défaut | Description | 
+|------------------------------------|------------------------|-------------|
+| Rect<br /> | D2D1_VECTOR_4F<br /> | Région à rogner spécifiée comme vecteur au format (gauche, haut, largeur, hauteur).<br /> | 
+| D2D1_CROP_PROP_RECT<br /> | {-FLT_MAX,-FLT_MAX, FLT_MAX, FLT_MAX}<br /> | Les unités sont en DIP. <br /><blockquote><p>[!Note]</p><p>Le Rect sera tronqué s’il chevauche les limites de bord de l’image d’entrée.<br /></p></blockquote><br /> | 
+| D2D1_CROP_PROP_BORDER_MODE<br /> | D2D1_BORDER_MODE <br /> D2D1_BORDER_MODE_SOFT <br /> | <ul><li>D2D1_BORDER_MODE_SOFT : si le rectangle de rognage tombe sur des coordonnées de pixels fractionnaires, l’effet applique l’anticrénelage qui produit une bordure douce.</li><li>D2D1_BORDER_MODE_HARD : si le rectangle de rognage se trouve sur des coordonnées de pixels fractionnaires, il s’agit d’un effet de serre qui produit un bord dur.</li></ul> | 
+
 
 
 
@@ -116,8 +84,8 @@ Hauteur de sortie en pixels = (Rect. Bottom-Rect.Top) \* (dpi/96 de l’utilisat
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

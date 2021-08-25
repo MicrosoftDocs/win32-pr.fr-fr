@@ -4,7 +4,7 @@ description: État d’exécution de la menace possible.
 ms.assetid: 89D6BD9F-4A4C-48F5-BFD1-D09A240EB253
 keywords:
 - MPEXECUTION_STATUS énumération des fonctionnalités d’environnement Windows héritées
-- PMPEXECUTION_STATUS des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPEXECUTION_STATUS de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5cc21a0d8ec45d0715a7b1af8fb81a25e260711
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e4748b6d97e1b7ee05db8044837b89e2653a14fd1e6f87068a40107cdd9ee60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943909"
 ---
 # <a name="mpexecution_status-enumeration"></a>\_Énumération de l’État MPEXECUTION
 
@@ -86,8 +86,8 @@ La menace n’est pas en cours d’exécution et n’est disponible qu’à part
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

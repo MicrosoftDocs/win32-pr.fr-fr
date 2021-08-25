@@ -5,19 +5,19 @@ ms.assetid: fbbd9031-3ebe-47b8-8d8b-e359fa7d4b67
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e8589f31144f12b120f9a77f281dd57a9f30ce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 737d53bd25a28321c333e890a019af881ae54fa1c5ae92299b1776689f9abb74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962509"
 ---
 # <a name="setting-up-the-extension-dlls"></a>Configuration des dll d’extension
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 Au démarrage, NPS vérifie dans le registre la liste des dll tierces à appeler.
 
@@ -47,6 +47,6 @@ Les valeurs **ExtensionDLLs** et **AuthorizationDLLs** doivent être de type **r
 [Attributs d’identification utilisateur](/windows/desktop/Nps/ias-user-identification-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

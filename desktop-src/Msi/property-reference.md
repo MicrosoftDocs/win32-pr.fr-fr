@@ -1,19 +1,19 @@
 ---
-description: 'Cette section répertorie les propriétés définies par Windows Installer :'
+description: 'cette section répertorie les propriétés définies par Windows Installer :'
 ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: Référence de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e2ae30800d3c718549ecc887e3438d743881f51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e38f952632609090c69b85786c6aef64243d420b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756484"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481565"
 ---
 # <a name="property-reference"></a>Référence de propriété
 
-Cette section répertorie les propriétés définies par Windows Installer :
+cette section répertorie les propriétés définies par Windows Installer :
 
 -   [Propriétés de l’emplacement du composant](#component-location-properties)
 -   [Propriétés de configuration](#configuration-properties)
@@ -84,15 +84,15 @@ La liste suivante fournit des liens vers des informations supplémentaires sur d
 | [**LIMITUI**](limitui.md)<br/>                                                   | Niveau d’interface utilisateur limité en tant que base.<br/>                                                                                                                                                                                                                                                                                                                                                          |
 | [**LOGACTION**](logaction.md)<br/>                                               | Liste des noms d’actions à consigner.<br/>                                                                                                                                                                                                                                                                                                                                                 |
 | [**MEDIAPACKAGEPATH**](mediapackagepath.md)<br/>                                 | Cette propriété doit être définie sur le chemin d’accès relatif si le package d’installation ne se trouve pas à la racine du CD-ROM.<br/>                                                                                                                                                                                                                                                               |
-| [**MSIARPSETTINGSIDENTIFIER**](msiarpsettingsidentifier.md)<br/>                 | Cette propriété facultative contient une liste délimitée par des points-virgules des emplacements du registre où l’application stocke les paramètres et les préférences d’un utilisateur. Disponible avec Windows Installer 4,0.<br/>                                                                                                                                                                                        |
+| [**MSIARPSETTINGSIDENTIFIER**](msiarpsettingsidentifier.md)<br/>                 | Cette propriété facultative contient une liste délimitée par des points-virgules des emplacements du registre où l’application stocke les paramètres et les préférences d’un utilisateur. disponible avec Windows Installer 4,0.<br/>                                                                                                                                                                                        |
 | [**MSIDISABLEEEUI**](msidisableeeui.md)<br/>                                     | Désactivez l’interface utilisateur incorporée pour l’installation.<br/> **[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge.<br/>                                                                                                                                                                                                           |
-| [**MSIFASTINSTALL**](msifastinstall.md)<br/>                                     | Réduisez le temps nécessaire à l’installation d’un package de Windows Installer volumineux.<br/> **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** Non pris en charge.<br/>                                                                                                                                                                                              |
-| [**MSIINSTALLPERUSER**](msiinstallperuser.md)<br/>                               | Demande que le Windows Installer installer le package uniquement pour l’utilisateur actuel.<br/> **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** Non pris en charge.<br/>                                                                                                                                                                                  |
+| [**MSIFASTINSTALL**](msifastinstall.md)<br/>                                     | réduisez le temps nécessaire à l’installation d’un package de Windows Installer volumineux.<br/> **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** Non pris en charge.<br/>                                                                                                                                                                                              |
+| [**MSIINSTALLPERUSER**](msiinstallperuser.md)<br/>                               | demande que le Windows Installer installer le package uniquement pour l’utilisateur actuel.<br/> **[Windows Installer 4,5 et versions antérieures](not-supported-in-windows-installer-4-5.md):** Non pris en charge.<br/>                                                                                                                                                                                  |
 | [**MSINODISABLEMEDIA**](msinodisablemedia.md)<br/>                               | Définissez cette propriété pour empêcher le programme d’installation de définir la propriété [**DISABLEMEDIA**](-disablemedia.md) .<br/>                                                                                                                                                                                                                                                                        |
-| [**MSIENFORCEUPGRADECOMPONENTRULES**](msienforceupgradecomponentrules.md)<br/>   | Définissez cette propriété sur 1 (un) sur la ligne de commande ou dans la [table de propriétés](property-table.md) pour appliquer les règles du composant de mise à niveau pendant les [petites mises à jour](small-updates.md) et les [mises à niveau mineures](minor-upgrades.md) d’un produit spécifique. Disponible à partir de Windows Installer 3,0.<br/>                                                                                     |
+| [**MSIENFORCEUPGRADECOMPONENTRULES**](msienforceupgradecomponentrules.md)<br/>   | Définissez cette propriété sur 1 (un) sur la ligne de commande ou dans la [table de propriétés](property-table.md) pour appliquer les règles du composant de mise à niveau pendant les [petites mises à jour](small-updates.md) et les [mises à niveau mineures](minor-upgrades.md) d’un produit spécifique. disponible à partir de Windows Installer 3,0.<br/>                                                                                     |
 | [**MSIUNINSTALLSUPERSEDEDCOMPONENTS**](msiuninstallsupersededcomponents.md)<br/> | Lorsque cette propriété a la valeur 1, le programme d’installation peut annuler l’inscription et désinstaller les composants redondants pour empêcher la conservation des composants orphelins sur l’ordinateur.<br/> **[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge.<br/>                                                                                                  |
 | [**PRIMARYFOLDER**](primaryfolder.md)<br/>                                       | Permet à l’auteur de désigner un dossier principal pour une installation. Utilisé pour déterminer les valeurs des propriétés [**PrimaryVolumePath**](primaryvolumepath.md), [**PrimaryVolumeSpaceAvailable**](primaryvolumespaceavailable.md), [**PrimaryVolumeSpaceRequired**](primaryvolumespacerequired.md)et [**PrimaryVolumeSpaceRemaining**](primaryvolumespaceremaining.md) .<br/> |
-| [**Autorisée**](privileged.md)<br/>                                             | Exécute une installation avec des privilèges élevés.<br/>                                                                                                                                                                                                                                                                                                                                     |
+| [**Privilégié**](privileged.md)<br/>                                             | Exécute une installation avec des privilèges élevés.<br/>                                                                                                                                                                                                                                                                                                                                     |
 | [**PROMPTROLLBACKCOST**](promptrollbackcost.md)<br/>                             | Action si l’espace disque est insuffisant pour l’installation.<br/>                                                                                                                                                                                                                                                                                                                   |
 | [**INITIAL**](reboot.md)<br/>                                                     | Force ou supprime un redémarrage.<br/>                                                                                                                                                                                                                                                                                                                                                    |
 | [**REBOOTPROMPT**](rebootprompt.md)<br/>                                         | Supprime l’affichage des invites pour les redémarrages de l’utilisateur. Tous les redémarrages nécessaires se produisent automatiquement.<br/>                                                                                                                                                                                                                                                                     |
@@ -102,9 +102,9 @@ La liste suivante fournit des liens vers des informations supplémentaires sur d
 | [**TRANSFORMATIONS**](transforms.md)<br/>                                             | Liste des transformations à appliquer à une base de données.<br/>                                                                                                                                                                                                                                                                                                                                    |
 | [**TRANSFORMSATSOURCE**](transformsatsource.md)<br/>                             | Informe le programme d’installation que les transformations d’un produit résident à la source.<br/>                                                                                                                                                                                                                                                                                                      |
 | [**TRANSFORMSSECURE**](transformssecure.md)<br/>                                 | La définition de la propriété [**TRANSFORMSECURE**](transformssecure.md) sur 1 (un) informe le programme d’installation que les transformations doivent être mises en cache localement sur l’ordinateur de l’utilisateur dans un emplacement où l’utilisateur ne dispose pas d’un accès en écriture.<br/>                                                                                                                                                           |
-| [**MsiLogFileLocation**](msilogfilelocation.md)<br/>                             | Le programme d’installation définit la valeur de cette propriété sur le chemin d’accès complet du fichier journal, lorsque la journalisation a été activée. Cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                                                     |
-| [**MsiLogging**](msilogging.md)<br/>                                             | Définit le mode de journalisation par défaut pour le package Windows Installer. Cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                                                                                                   |
-| [**MSIUSEREALADMINDETECTION**](msiuserealadmindetection.md)<br/>                 | Définissez cette propriété sur 1 pour demander que le programme d’installation utilise les informations utilisateur réelles lors de la définition de la propriété [**adminuser**](adminuser.md) . Cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                         |
+| [**MsiLogFileLocation**](msilogfilelocation.md)<br/>                             | Le programme d’installation définit la valeur de cette propriété sur le chemin d’accès complet du fichier journal, lorsque la journalisation a été activée. cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                                                     |
+| [**MsiLogging**](msilogging.md)<br/>                                             | définit le mode de journalisation par défaut pour le package Windows Installer. cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                                                                                                   |
+| [**MSIUSEREALADMINDETECTION**](msiuserealadmindetection.md)<br/>                 | Définissez cette propriété sur 1 pour demander que le programme d’installation utilise les informations utilisateur réelles lors de la définition de la propriété [**adminuser**](adminuser.md) . cette propriété est disponible à partir de Windows Installer 4,0.<br/>                                                                                                                                                                         |
 
 
 
@@ -160,81 +160,27 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 
 ## <a name="hardware-properties"></a>Propriétés matérielles
 
-La liste suivante identifie les propriétés matérielles que le Windows Installer définit au démarrage.
+la liste suivante identifie les propriétés matérielles que le Windows Installer définit au démarrage.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Propriété</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="alpha.md"><strong>Alpha</strong></a><br/></td>
-<td>Niveau de processeur numérique lors de l’exécution sur un processeur Alpha.<br/>
-<blockquote>
-[!Note]<br />
-Cette propriété est obsolète, la plateforme alpha n’est pas prise en charge par Windows Installer.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="borderside.md"><strong>BorderSide</strong></a><br/></td>
-<td>Largeur des bordures de la fenêtre, en pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="bordertop.md"><strong>BorderTop</strong></a><br/></td>
-<td>Hauteur des bordures de la fenêtre, en pixels.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="captionheight.md"><strong>CaptionHeight</strong></a><br/></td>
-<td>Hauteur de la zone de légende normale, en pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="colorbits.md"><strong>ColorBits</strong></a><br/></td>
-<td>Nombre de bits de couleur adjacents pour chaque pixel.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="intel.md"><strong>Intel</strong></a><br/></td>
-<td>Niveau de processeur numérique lors de l’exécution sur un processeur Intel.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="intel64.md"><strong>Intel64</strong></a><br/></td>
-<td>Niveau de processeur numérique lors de l’exécution sur un processeur Itanium.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="msix64.md"><strong>Msix64</strong></a><br/></td>
-<td>Niveau de processeur numérique lors de l’exécution sur un processeur x64.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br/></td>
-<td>Taille de la mémoire RAM installée, en mégaoctets.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="screenx.md"><strong>ScreenX</strong></a><br/></td>
-<td>Largeur de l’écran, en pixels.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="screeny.md"><strong>Écran</strong></a><br/></td>
-<td>Hauteur de l’écran, en pixels.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="textheight.md"><strong>TextHeight</strong></a><br/></td>
-<td>Hauteur des caractères, en unités logiques.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br/></td>
-<td>Quantité d’espace du fichier d’échange disponible, en mégaoctets.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Propriété | Description | 
+|----------|-------------|
+| <a href="alpha.md"><strong>Alpha</strong></a><br /> | Niveau de processeur numérique lors de l’exécution sur un processeur Alpha.<br /><blockquote>[!Note]<br />cette propriété est obsolète, la plateforme Alpha n’est pas prise en charge par Windows Installer.</blockquote><br /> | 
+| <a href="borderside.md"><strong>BorderSide</strong></a><br /> | Largeur des bordures de la fenêtre, en pixels.<br /> | 
+| <a href="bordertop.md"><strong>BorderTop</strong></a><br /> | Hauteur des bordures de la fenêtre, en pixels.<br /> | 
+| <a href="captionheight.md"><strong>CaptionHeight</strong></a><br /> | Hauteur de la zone de légende normale, en pixels.<br /> | 
+| <a href="colorbits.md"><strong>ColorBits</strong></a><br /> | Nombre de bits de couleur adjacents pour chaque pixel.<br /> | 
+| <a href="intel.md"><strong>Intel</strong></a><br /> | Niveau de processeur numérique lors de l’exécution sur un processeur Intel.<br /> | 
+| <a href="intel64.md"><strong>Intel64</strong></a><br /> | Niveau de processeur numérique lors de l’exécution sur un processeur Itanium.<br /> | 
+| <a href="msix64.md"><strong>Msix64</strong></a><br /> | Niveau de processeur numérique lors de l’exécution sur un processeur x64.<br /> | 
+| <a href="physicalmemory.md"><strong>PhysicalMemory</strong></a><br /> | Taille de la mémoire RAM installée, en mégaoctets.<br /> | 
+| <a href="screenx.md"><strong>ScreenX</strong></a><br /> | Largeur de l’écran, en pixels.<br /> | 
+| <a href="screeny.md"><strong>Écran</strong></a><br /> | Hauteur de l’écran, en pixels.<br /> | 
+| <a href="textheight.md"><strong>TextHeight</strong></a><br /> | Hauteur des caractères, en unités logiques.<br /> | 
+| <a href="virtualmemory.md"><strong>VirtualMemory</strong></a><br /> | Quantité d’espace du fichier d’échange disponible, en mégaoctets.<br /> | 
+
 
 
 
@@ -269,12 +215,12 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**PrimaryVolumeSpaceRequired**](primaryvolumespacerequired.md)<br/>   | Le programme d’installation définit la valeur de cette propriété sur une chaîne qui représente le nombre total d’octets requis par toutes les fonctionnalités actuellement sélectionnées sur le volume référencé par la propriété [**PrimaryVolumePath**](primaryvolumepath.md) .<br/>                    |
 | [**ProductLanguage**](productlanguage.md)<br/>                         | Identificateur de langue numérique (LANGID) de la base de données. SOUHAITÉE<br/>                                                                                                                                                                                             |
 | [**ReplacedInUseFiles**](replacedinusefiles.md)<br/>                   | Défini si le programme d’installation s’installe sur un fichier en cours d’utilisation.<br/>                                                                                                                                                                                          |
-| [**RESUME**](resume.md)<br/>                                           | L’installation a repris.<br/>                                                                                                                                                                                                                                         |
+| [**SORT**](resume.md)<br/>                                           | L’installation a repris.<br/>                                                                                                                                                                                                                                         |
 | [**RollbackDisabled**](rollbackdisabled.md)<br/>                       | Le programme d’installation définit cette propriété lorsque la restauration est désactivée.<br/>                                                                                                                                                                                                   |
 | [**UILevel**](uilevel.md)<br/>                                         | Indique le niveau de l’interface utilisateur.<br/>                                                                                                                                                                                                                           |
 | [**UpdateStarted**](updatestarted.md)<br/>                             | Définir le moment où les modifications apportées au système ont commencé pour cette installation.<br/>                                                                                                                                                                                              |
 | [**UPGRADINGPRODUCTCODE**](upgradingproductcode.md)<br/>               | Défini par le programme d’installation lorsqu’une mise à niveau supprime une application.<br/>                                                                                                                                                                                                  |
-| [**VersionMsi**](versionmsi.md)<br/>                                   | Le programme d’installation définit cette propriété sur la version de Windows Installer qui est exécutée pendant l’installation.<br/>                                                                                                                                                     |
+| [**VersionMsi**](versionmsi.md)<br/>                                   | le programme d’installation définit cette propriété sur la version de Windows Installer qui est exécutée pendant l’installation.<br/>                                                                                                                                                     |
 
 
 
@@ -288,34 +234,34 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 
 | Nom de la propriété                                                                             | Brève description                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AdminUser**](adminuser.md)<br/>                                                 | Défini sur Windows 2000 si l’utilisateur dispose de privilèges d’administrateur.<br/>                                                                                                                                                                                                                        |
+| [**AdminUser**](adminuser.md)<br/>                                                 | défini sur Windows 2000 si l’utilisateur dispose de privilèges d’administrateur.<br/>                                                                                                                                                                                                                        |
 | [**ComputerName**](computername.md)<br/>                                           | Nom de l’ordinateur du système actuel.<br/>                                                                                                                                                                                                                                                 |
 | [**MsiNetAssemblySupport**](msinetassemblysupport.md)<br/>                         | Sur les systèmes qui prennent en charge les assemblys common language runtime, le programme d’installation définit la valeur de cette propriété sur la version de fichier de fusion.dll. Le programme d’installation ne définit pas cette propriété si le système d’exploitation ne prend pas en charge les assemblys common language runtime.<br/>                   |
-| [**MsiNTProductType**](msintproducttype.md)<br/>                                   | Indique le type de produit Windows.<br/>                                                                                                                                                                                                                                                  |
-| [**MsiNTSuiteBackOffice**](msintsuitebackoffice.md)<br/>                           | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si les composants Microsoft BackOffice sont installés.<br/>                                                                                                                                      |
-| [**MsiNTSuiteDataCenter**](msintsuitedatacenter.md)<br/>                           | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Windows 2000 Datacenter Server est installé.<br/>                                                                                                                                        |
-| [**MsiNTSuiteEnterprise**](msintsuiteenterprise.md)<br/>                           | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Windows 2000 Advanced Server est installé.<br/>                                                                                                                                          |
-| [**MsiNTSuitePersonal**](msintsuitepersonal.md)<br/>                               | Sur les systèmes d’exploitation Windows XP et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si le système d’exploitation est à l’emplacement local (non professionnel).<br/>                                                                                                                                      |
-| [**MsiNTSuiteSmallBusiness**](msintsuitesmallbusiness.md)<br/>                     | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Microsoft Small Business Server est installé.<br/>                                                                                                                                       |
-| [**MsiNTSuiteSmallBusinessRestricted**](msintsuitesmallbusinessrestricted.md)<br/> | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Microsoft Small Business Server est installé avec la licence client restrictive.<br/>                                                                                                   |
-| [**MsiNTSuiteWebServer**](msintsuitewebserver.md)<br/>                             | Sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit la propriété [**MsiNTSuiteWebServer**](msintsuitewebserver.md) sur 1 (un) si l’édition Web de Windows Server 2003 est installée. Disponible uniquement avec la version Windows Server 2003 du Windows Installer.<br/> |
-| [**MsiTabletPC**](msitabletpc.md)<br/>                                             | Le programme d’installation définit cette propriété sur une valeur différente de zéro si le système d’exploitation actuel est Windows XP Édition Tablet PC.<br/>                                                                                                                                                                 |
+| [**MsiNTProductType**](msintproducttype.md)<br/>                                   | indique le type de produit Windows.<br/>                                                                                                                                                                                                                                                  |
+| [**MsiNTSuiteBackOffice**](msintsuitebackoffice.md)<br/>                           | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si les composants Microsoft backoffice sont installés.<br/>                                                                                                                                      |
+| [**MsiNTSuiteDataCenter**](msintsuitedatacenter.md)<br/>                           | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Windows 2000 Datacenter Server est installé.<br/>                                                                                                                                        |
+| [**MsiNTSuiteEnterprise**](msintsuiteenterprise.md)<br/>                           | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Windows 2000 Advanced Server est installé.<br/>                                                                                                                                          |
+| [**MsiNTSuitePersonal**](msintsuitepersonal.md)<br/>                               | sur Windows XP et les systèmes d’exploitation ultérieurs, le programme d’installation définit cette propriété sur 1 (un) uniquement si le système d’exploitation est local (non Professional).<br/>                                                                                                                                      |
+| [**MsiNTSuiteSmallBusiness**](msintsuitesmallbusiness.md)<br/>                     | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Microsoft Small Business Server est installé.<br/>                                                                                                                                       |
+| [**MsiNTSuiteSmallBusinessRestricted**](msintsuitesmallbusinessrestricted.md)<br/> | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit cette propriété sur 1 (un) uniquement si Microsoft Small Business Server est installé avec la licence client restrictive.<br/>                                                                                                   |
+| [**MsiNTSuiteWebServer**](msintsuitewebserver.md)<br/>                             | sur les systèmes d’exploitation Windows 2000 et versions ultérieures, le programme d’installation définit la propriété [**MsiNTSuiteWebServer**](msintsuitewebserver.md) sur 1 (un) si l’édition web du Windows Server 2003 est installée. disponible uniquement avec la version de Windows Server 2003 du Windows Installer.<br/> |
+| [**MsiTabletPC**](msitabletpc.md)<br/>                                             | le programme d’installation définit cette propriété sur une valeur différente de zéro si le système d’exploitation actuel est Windows XP édition Tablet PC.<br/>                                                                                                                                                                 |
 | [**MsiWin32AssemblySupport**](msiwin32assemblysupport.md)<br/>                     | Sur les systèmes qui prennent en charge les assemblys Win32, le programme d’installation définit la valeur de cette propriété sur la version de fichier de sxs.dll. Le programme d’installation ne définit pas cette propriété si le système d’exploitation ne prend pas en charge les assemblys Win32.<br/>                                                          |
-| [**OLEAdvtSupport**](oleadvtsupport.md)<br/>                                       | Définit si OLE prend en charge l’Windows Installer.<br/>                                                                                                                                                                                                                                           |
+| [**OLEAdvtSupport**](oleadvtsupport.md)<br/>                                       | définit si OLE prend en charge l’Windows Installer.<br/>                                                                                                                                                                                                                                           |
 | [**RedirectedDllSupport**](redirecteddllsupport.md)<br/>                           | Le programme d’installation définit la propriété [**RedirectedDllSupport**](redirecteddllsupport.md) si le système effectuant l’installation prend en charge les [composants isolés](isolated-components.md).<br/>                                                                                              |
 | [**RemoteAdminTS**](remoteadmints.md)<br/>                                         | Le programme d’installation définit la propriété [**RemoteAdminTS**](remoteadmints.md) lorsque le système est un serveur d’administration à distance exécutant le service de rôle Terminal Server.<br/>                                                                                                                   |
 | [**ServicePackLevel**](servicepacklevel.md)<br/>                                   | Numéro de version du système d’exploitation Service Pack.<br/>                                                                                                                                                                                                                             |
 | [**ServicePackLevelMinor**](servicepacklevelminor.md)<br/>                         | Numéro de la version mineure du Service Pack du système d’exploitation.<br/>                                                                                                                                                                                                                       |
-| [**SharedWindows**](sharedwindows.md)<br/>                                         | Défini lorsque le système fonctionne comme des fenêtres partagées.<br/>                                                                                                                                                                                                                                  |
+| [**SharedWindows**](sharedwindows.md)<br/>                                         | Défini lorsque le système fonctionne en tant que Windows partagé.<br/>                                                                                                                                                                                                                                  |
 | [**ShellAdvtSupport**](shelladvtsupport.md)<br/>                                   | Défini si l’interpréteur de commandes prend en charge la publicité des fonctionnalités.<br/>                                                                                                                                                                                                                                       |
 | [**SystemLanguageID**](systemlanguageid.md)<br/>                                   | Identificateur de langue par défaut pour le système.<br/>                                                                                                                                                                                                                                          |
 | [**TerminalServer**](terminalserver.md)<br/>                                       | Défini lorsque le système est un serveur exécutant le service de rôle Terminal Server.<br/>                                                                                                                                                                                                            |
 | [**TTCSupport**](ttcsupport.md)<br/>                                               | Indique si le système d’exploitation prend en charge l’utilisation de fichiers. TTC (collections de polices de type true).<br/>                                                                                                                                                                                            |
-| [**Version9X**](version9x.md)<br/>                                                 | Numéro de version du système d’exploitation Windows.<br/>                                                                                                                                                                                                                                     |
+| [**Version9X**](version9x.md)<br/>                                                 | numéro de Version du système d’exploitation Windows.<br/>                                                                                                                                                                                                                                     |
 | [**VersionDatabase**](versiondatabase.md)<br/>                                     | Version de base de données numérique de l’installation actuelle.<br/>                                                                                                                                                                                                                                |
 | [**VersionNT**](versionnt.md)<br/>                                                 | Numéro de version du système d’exploitation.<br/>                                                                                                                                                                                                                                             |
 | [**VersionNT64**](versionnt64.md)<br/>                                             | Numéro de version du système d’exploitation si le système s’exécute sur un ordinateur 64 bits.<br/>                                                                                                                                                                                               |
-| [**Version de Windows**](windowsbuild.md)<br/>                                          | Numéro de build du système d’exploitation.<br/>                                                                                                                                                                                                                                                |
+| [**build Windows**](windowsbuild.md)<br/>                                          | Numéro de build du système d’exploitation.<br/>                                                                                                                                                                                                                                                |
 
 
 
@@ -392,15 +338,15 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**ProgramMenuFolder**](programmenufolder.md)<br/>       | Chemin d’accès complet au dossier de **menu du programme** .<br/>                              |
 | [**RecentFolder**](recentfolder.md)<br/>                 | Chemin d’accès complet au dossier **récent** .<br/>                                    |
 | [**SendToFolder**](sendtofolder.md)<br/>                 | Chemin d’accès complet au dossier **sendto** de l’utilisateur actuel.<br/>               |
-| [**StartMenuFolder**](startmenufolder.md)<br/>           | Chemin d’accès complet au dossier du **menu Démarrer** .<br/>                                |
+| [**StartMenuFolder**](startmenufolder.md)<br/>           | chemin d’accès complet au dossier **menu Démarrer** .<br/>                                |
 | [**StartupFolder**](startupfolder.md)<br/>               | Chemin d’accès complet au dossier de **démarrage** .<br/>                                   |
 | [**System16Folder**](system16folder.md)<br/>             | Chemin d’accès complet au dossier des DLL système 16 bits.<br/>                            |
 | [**System64Folder**](system64folder.md)<br/>             | Chemin d’accès complet au dossier **System64** prédéfini.<br/>                       |
 | [**SystemFolder**](systemfolder.md)<br/>                 | Chemin d’accès complet au dossier **système** de l’utilisateur actuel.<br/>               |
 | [**TempFolder**](tempfolder.md)<br/>                     | Chemin d’accès complet au dossier **temp** .<br/>                                      |
 | [**TemplateFolder**](templatefolder.md)<br/>             | Chemin d’accès complet au dossier de **modèle** pour l’utilisateur actuel.<br/>             |
-| [**WindowsFolder**](windowsfolder.md)<br/>               | Chemin d’accès complet au dossier **Windows** .<br/>                                   |
-| [**WindowsVolume**](windowsvolume.md)<br/>               | Volume du dossier **Windows** .<br/>                                      |
+| [**WindowsFolder**](windowsfolder.md)<br/>               | chemin d’accès complet au dossier **Windows** .<br/>                                   |
+| [**WindowsVolume**](windowsvolume.md)<br/>               | volume du dossier **Windows** .<br/>                                      |
 
 
 
@@ -419,7 +365,7 @@ La liste suivante fournit des liens vers des informations supplémentaires sur l
 | [**LogonUser**](logonuser.md)<br/>                     | Nom d’utilisateur de l’utilisateur actuellement connecté.<br/>                           |
 | [**MsiHiddenProperties**](msihiddenproperties.md)<br/> | Liste des propriétés qui ne peuvent pas être écrites dans le journal.<br/>       |
 | [**PIDKEY**](pidkey.md)<br/>                           | Partie de l’ID de produit que l’utilisateur entre.<br/>                                 |
-| [**Réf**](productid.md)<br/>                     | ID de produit complet après une validation réussie.<br/>                               |
+| [**ProductID**](productid.md)<br/>                     | ID de produit complet après une validation réussie.<br/>                               |
 | [**UserLanguageID**](userlanguageid.md)<br/>           | Identificateur de langue par défaut de l’utilisateur actuel.<br/>                             |
 | [**NOM d’utilisateur**](username.md)<br/>                       | Utilisateur qui effectue l’installation.<br/>                                     |
 | [**UserSID, propriété**](usersid.md)<br/>                | Défini par le programme d’installation en fonction de l’identificateur de sécurité (SID) de l’utilisateur.<br/> |

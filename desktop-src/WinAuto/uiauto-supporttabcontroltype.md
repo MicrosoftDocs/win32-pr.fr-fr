@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, onglet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9270936c50b04cb843aa96f71f3d8c8b4a14d74d034cc27e5ccbb7f1262352fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6a83263db87a68e258598ea46ca903af2ddb39c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118824868"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482495"
 ---
 # <a name="tab-control-type"></a>Tab (type de contrôle)
 
@@ -50,38 +50,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Onglet
-<ul>
-<li>TabItem (1 ou plus)</li>
-<li>ScrollBar (0 ou 1)
-<ul>
-<li>Button (0 ou 2)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Onglet
-<ul>
-<li>TabItem (1 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Onglet<ul><li>TabItem (1 ou plus)</li><li>ScrollBar (0 ou 1)<ul><li>Button (0 ou 2)</li></ul></li></ul></li></ul> | <ul><li>Onglet<ul><li>TabItem (1 ou plus)</li></ul></li></ul> | 
+
 
 
 
@@ -91,46 +64,11 @@ Les contrôles onglet possèdent des éléments UI Automation enfants basés sur
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Onglet
-<ul>
-<li>TabItem (1 ou plus)</li>
-<li>Group (0 ou plus)
-<ul>
-<li>TabItem (0 ou plus)</li>
-</ul></li>
-<li>ScrollBar (0 ou 1)
-<ul>
-<li>Button (0 ou 2)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Onglet
-<ul>
-<li>TabItem (1 ou plus)</li>
-<li>Group (0 ou plus)
-<ul>
-<li>TabItem (0 ou plus)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Onglet<ul><li>TabItem (1 ou plus)</li><li>Group (0 ou plus)<ul><li>TabItem (0 ou plus)</li></ul></li><li>ScrollBar (0 ou 1)<ul><li>Button (0 ou 2)</li></ul></li></ul></li></ul> | <ul><li>Onglet<ul><li>TabItem (1 ou plus)</li><li>Group (0 ou plus)<ul><li>TabItem (0 ou plus)</li></ul></li></ul></li></ul> | 
+
 
 
 
@@ -142,12 +80,12 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                                                                                                                                                                                                                                         |
+| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                                                                                                                                                                                                  |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                                                                                                                                                                                                      |
-| [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | Non         | Le contrôle onglet n’a pas de points intercliquables.                                                                                                                                                                                                                                                                                                                               |
-| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **Tab**    |                                                                                                                                                                                                                                                                                                                                                                               |
+| [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | No         | Le contrôle onglet n’a pas de points intercliquables.                                                                                                                                                                                                                                                                                                                               |
+| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **Onglet**    |                                                                                                                                                                                                                                                                                                                                                                               |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | TRUE       | Le contrôle onglet est toujours inclus dans l’affichage de contenu de l’arborescence UI Automation.                                                                                                                                                                                                                                                                                             |
 | [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | TRUE       | Le contrôle onglet est toujours inclus dans l’affichage de contrôle de l’arborescence UI Automation.                                                                                                                                                                                                                                                                                             |
 | [**UIA \_ IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md)   | TRUE       | Le type de contrôle Tab doit être en mesure de recevoir le focus clavier. En règle générale, un client UI Automation appelle [**IUIAutomationElement :: SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) sur un contrôle Tab et l’un de ses éléments transmet le focus clavier au contrôle Tab. Il est possible que certains conteneurs d’onglet prennent le focus sans lui affecter l’un de ses éléments. |
@@ -166,7 +104,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                                             | Prise en charge/valeur | Remarques                                                                                                                                                                  |
+| Modèle de contrôle/Propriété de modèle                                             | Prise en charge/valeur | Notes                                                                                                                                                                  |
 |------------------------------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider)                      | Obligatoire      | Tous les contrôles Tab doivent prendre en charge le modèle de contrôle [Selection](uiauto-implementingselection.md) .                                                                       |
 | [**IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired) | TRUE          | Les contrôles tab requièrent toujours qu’une sélection soit effectuée.                                                                                                                  |
@@ -183,7 +121,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                      |
+| Événement UI Automation                                                                                                                                        | Notes                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                      |                                                                                                                            |

@@ -4,12 +4,12 @@ ms.assetid: 5e04fe50-d764-4497-9999-37279e156204
 title: MFPKEY_WMAAECMA_FEATR_MICARR_MODE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25bf8ffcae465e8abfddedb3e6d6dded683bb2bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb948ff15655ccbdc0bf647194b2f6d3d7d1a40c36da32f6d65479152c76c3e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953519"
 ---
 # <a name="mfpkey_wmaaecma_featr_micarr_mode-property"></a>\_Propriété du \_ \_ mode MICARR MFPKEY WMAAECMA Feature \_
 
@@ -31,7 +31,7 @@ MICARRAY \_ un seul \_ faisceau
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de cette propriété est un membre de l’énumération du [ \_ \_ mode de tableau MIC](/windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-mic_array_mode) . La valeur par défaut est MICARRAY \_ simple \_ Beam. Avant de définir cette propriété, vous devez affecter à la propriété [ \_ mode de \_ fonctionnalité \_ MFPKEY WMAAECMA](mfpkey-wmaaecma-feature-modeproperty.md) la \_ valeur variant true.
 
@@ -43,8 +43,8 @@ Le DSP utilise cette propriété uniquement lorsque le traitement du tableau du 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8203a45bb911743bb064c1a686da0b3d8abe99bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39e096c466dd4accc1a2c87ececd6ce23ba27cb173e6b5fa0d6728852ad59cce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811869"
 ---
 # <a name="msvm_systemexportsettingdata-class"></a>MSVM \_ SystemExportSettingData, classe
 
@@ -98,7 +98,7 @@ Indique si le paramètre référencé est un paramètre par défaut pour l’él
 | Valeur                                                                        | Signification                |
 |------------------------------------------------------------------------------|------------------------|
 | <dl> <dt>0</dt> </dl> | Unknown<br/>     |
-| <dl> <dt>1</dt> </dl> | Default<br/>     |
+| <dl> <dt>1</dt> </dl> | Par défaut<br/>     |
 | <dl> <dt>2</dt> </dl> | Pas par défaut<br/> |
 
 
@@ -167,7 +167,7 @@ Référence aux données de paramètre d’exportation pour la machine virtuelle
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ SystemExportSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -177,8 +177,8 @@ L’accès à la classe **MSVM \_ SystemExportSettingData** peut être limité p
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

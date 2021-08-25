@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2f9e4f5182e47a06193411a4ea1c61f3fa3f0ad9c0010f40891ae7c8e052e64b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5031f726896ee5d6ad6ae1faf2e3192037e36c2f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118499430"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465446"
 ---
 # <a name="xmushortn4-constructors"></a>Constructeurs XMUSHORTN4
 
@@ -33,65 +33,15 @@ Construit des instances de la structure [**XMUSHORTN4**](/windows/desktop/api/Di
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructeur</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constfloat)"><strong>XMUSHORTN4 ()</strong></a></td>
-<td style="text-align: left;">Constructeur par défaut pour <code>XMUSHORTN4</code> . <br/> Constructeur par défaut pour <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a>. <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constfloat)"><strong>XMUSHORTN4 (const float *)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir d’un argument de tableau à quatre éléments <code>float</code> . <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>float</code> . <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constuint16_t)"><strong>XMUSHORTN4 (const uint16_t *)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir d’un argument de tableau à quatre éléments <code>uint16_t</code> . <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>uint16_t</code> . <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(float_float_float_float)"><strong>XMUSHORTN4 (float, float, float, float)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir de quatre arguments normalisés <code>float</code> . <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir de quatre arguments normalisés <code>float</code> . <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(uint16_t_uint16_t_uint16_t_uint16_t)"><strong>XMUSHORTN4 (uint16_t, uint16_t, uint16_t, uint16_t)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir de quatre <code>uint16_t</code> arguments. <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir de quatre <code>uint16_t</code> arguments. <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructeur | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constfloat)"><strong>XMUSHORTN4 ()</strong></a> | Constructeur par défaut pour <code>XMUSHORTN4</code> . <br /> Constructeur par défaut pour <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a>. <br /><blockquote>[!Note]<br />Ce constructeur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constfloat)"><strong>XMUSHORTN4 (const float *)</strong></a> | Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir d’un argument de tableau à quatre éléments <code>float</code> . <br /> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>float</code> . <br /><blockquote>[!Note]<br />Ce constructeur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(constuint16_t)"><strong>XMUSHORTN4 (const uint16_t *)</strong></a> | Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir d’un argument de tableau à quatre éléments <code>uint16_t</code> . <br /> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>uint16_t</code> . <br /><blockquote>[!Note]<br />Ce constructeur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(float_float_float_float)"><strong>XMUSHORTN4 (float, float, float, float)</strong></a> | Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir de quatre arguments normalisés <code>float</code> . <br /> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir de quatre arguments normalisés <code>float</code> . <br /><blockquote>[!Note]<br />Ce constructeur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmushortn4-xmushortn4(uint16_t_uint16_t_uint16_t_uint16_t)"><strong>XMUSHORTN4 (uint16_t, uint16_t, uint16_t, uint16_t)</strong></a> | Initialise une nouvelle instance de <code>XMUSHORTN4</code> à partir de quatre <code>uint16_t</code> arguments. <br /> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmushortn4"><strong>XMUSHORTN4</strong></a> à partir de quatre <code>uint16_t</code> arguments. <br /><blockquote>[!Note]<br />Ce constructeur est uniquement disponible en C++.</blockquote><br /> | 
+
 
 
 

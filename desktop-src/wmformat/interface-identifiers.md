@@ -3,23 +3,23 @@ title: Identificateurs d’interface
 description: Identificateurs d’interface
 ms.assetid: 009edcc0-34db-40a1-ae76-17492b11604a
 keywords:
-- Windows Media Format SDK, identificateurs d’interface (IID)
+- Windows Kit de développement logiciel (SDK) Media format, identificateurs d’interface (IID)
 - ASF (Advanced Systems Format), identificateurs d’interface (IID)
 - ASF (format des systèmes avancés), identificateurs d’interface (IID)
 - identificateurs d’interface (IID)
 - IID (identificateurs d’interface)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253ca5b4110536c2207f7e18ab0f28067789df71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63d32dc097e251c7fd82ff3b7ae5320d6bc1bfc628d32d436256a8a5c15bd7e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808919"
 ---
 # <a name="interface-identifiers"></a>Identificateurs d’interface
 
-Vous devez utiliser un identificateur d’interface (IID) pour effectuer des appels à la méthode **QueryInterface** . Un IID est une valeur d’identificateur global unique (GUID). Dans le kit de développement logiciel (SDK) Windows Media format, la constante assignée à l’IID pour une interface donnée est le nom d’interface précédé de « IID \_ ».
+Vous devez utiliser un identificateur d’interface (IID) pour effectuer des appels à la méthode **QueryInterface** . Un IID est une valeur d’identificateur global unique (GUID). dans le kit de développement logiciel (SDK) du Format de média Windows, la constante assignée à l’IID pour une interface donnée est le nom d’interface précédé de « IID \_ ».
 
 Le tableau suivant répertorie les identificateurs d’interface et les constantes associées pour les interfaces dans ce kit de développement logiciel (SDK).
 
@@ -130,7 +130,7 @@ Le tableau suivant répertorie les identificateurs d’interface et les constant
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -139,9 +139,9 @@ Le tableau suivant répertorie les identificateurs d’interface et les constant
 [**Valeurs GUID**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

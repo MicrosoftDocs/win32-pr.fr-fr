@@ -4,12 +4,12 @@ ms.assetid: 9F677E6E-0DCD-456F-8A00-1C11011BAA13
 title: Attribut MF_CAPTURE_ENGINE_DISABLE_DXVA (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2ce31ed55e151e7254168e5e6bcce0c5460e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c722b70e1707e6ad5d14b7afca0da2c8d1a63b3a132345e727de1f37023916a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941009"
 ---
 # <a name="mf_capture_engine_disable_dxva-attribute"></a>\_Désactiver l' \_ \_ \_ attribut DXVA du moteur de capture MF
 
@@ -19,7 +19,7 @@ Spécifie si le moteur de capture utilise l’accélération vidéo DirectX (DXV
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique si les conditions suivantes sont vraies :
 
@@ -39,8 +39,8 @@ La valeur par défaut de cet attribut est **false**, ce qui signifie que le déc
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                   |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 

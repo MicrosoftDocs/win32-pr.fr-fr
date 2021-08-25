@@ -4,12 +4,12 @@ ms.assetid: f969f2a5-fcbb-4711-8523-ba22952ae952
 title: Constantes pour CryptEncodeObject et CryptDecodeObject
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00be72304b3d3d9e13ac88ef732565c4e33917d1e3f93739d397e6361e59ba13
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0d7ecd6346c0fc11720a4da292030aaf3c0958b8
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117769438"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622745"
 ---
 # <a name="constants-for-cryptencodeobject-and-cryptdecodeobject"></a>Constantes pour CryptEncodeObject et CryptDecodeObject
 
@@ -160,8 +160,8 @@ Le tableau suivant fournit des détails supplémentaires sur des valeurs *lpszSt
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

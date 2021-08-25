@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd5a00c7cf68feea13dc0e617e5fe2adb34551032c8ec54bda6e0810fbb092e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7524e51908f7d941aa04b138cc67ba6c4ab6a2a8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118195169"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479495"
 ---
 # <a name="wmt_videoimage_transition_star"></a>\_étoile de \_ transition \_ VIDEOIMAGE WMT
 
@@ -31,46 +31,14 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Centrer X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Coordonnée X, relative à la trame vidéo, au centre de l’étoile.</td>
-</tr>
-<tr class="even">
-<td>Centrer Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Coordonnée Y, relative à la trame vidéo, au centre de l’étoile.</td>
-</tr>
-<tr class="odd">
-<td>Radius</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Rayon, en pixels, du cercle défini par les points de l’étoile.</td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Centrer X | <strong>fEffectPara0</strong> | Coordonnée X, relative à la trame vidéo, au centre de l’étoile. | 
+| Centrer Y | <strong>fEffectPara1</strong> | Coordonnée Y, relative à la trame vidéo, au centre de l’étoile. | 
+| Radius | <strong>fEffectPara2</strong> | Rayon, en pixels, du cercle défini par les points de l’étoile. | 
+| Composition | <strong>fEffectPara3</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan.</li></ul> | 
+
 
 
 
