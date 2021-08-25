@@ -4,12 +4,12 @@ description: Pour utiliser une interface COM, votre programme crée d’abord un
 ms.assetid: 75f2115d-d49d-4e4e-8f99-67a231559ba6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96f96e4d9c2afbac028bfcefffcec6a070c78c8b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a7e15874e1d4dcb6bc29fad90f40f90b478c805ccc7b0d0085f560a8b56e2247
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913763"
 ---
 # <a name="creating-an-object-in-com"></a>Création d’un objet dans COM
 
@@ -116,7 +116,7 @@ Affectez au second paramètre la **valeur null**. (Pour plus d’informations su
 
 
 
- 
+ 
 
 La documentation d’un composant particulier peut vous indiquer le contexte d’exécution pris en charge par l’objet. Si ce n’est pas le cas, utilisez **CLSCTX \_ All**. Si vous demandez un contexte d’exécution que l’objet ne prend pas en charge, la fonction [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) retourne le code d’erreur **RegDB \_ E \_ CLASSNOTREG**. Ce code d’erreur peut également indiquer que le CLSID ne correspond à aucun composant inscrit sur l’ordinateur de l’utilisateur.
 
@@ -132,6 +132,6 @@ L' `Shapes` exemple que nous utilisons est quelque peu fictif. passons maintenan
 
 [Exemple : la boîte de dialogue Ouvrir](example--the-open-dialog-box.md)
 
- 
+ 
 
- 
+ 

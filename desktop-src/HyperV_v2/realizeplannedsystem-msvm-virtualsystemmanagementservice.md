@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fc69cbc9be9fc72bc7c1184ec30d9e2b58ba2b6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7589c4c68a5375971c085abd0411c0e6e8c7813797ba2f5e5e6f72483a4894a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980209"
 ---
 # <a name="realizeplannedsystem-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode RealizePlannedSystem de la \_ classe VirtualSystemManagementService MSVM
 
@@ -53,7 +53,7 @@ Référence à l’instance [**MSVM \_ PlannedComputerSystem**](msvm-plannedcomp
 
 Si l’opération est terminée de façon synchrone, il s’agit d’une référence à un objet [**\_ ComputerSystem CIM**](msvm-computersystem.md) qui représente l’ordinateur virtuel réalisé résultant.
 
-Type de données mis à jour à partir de [**MSVM \_ ComputerSystem**](msvm-computersystem.md) dans Windows 10, version 1703.
+type de données mis à jour à partir de [**Msvm \_ ComputerSystem**](msvm-computersystem.md) dans Windows 10, version 1703.
 
 </dd> <dt>
 
@@ -172,8 +172,8 @@ RealizePvm(
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

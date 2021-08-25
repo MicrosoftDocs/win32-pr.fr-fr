@@ -4,12 +4,12 @@ ms.assetid: c44462be-ccdf-4a49-bb77-6e816def4849
 title: MFPKEY_WMAAECMA_RETRIEVE_TS_STATS, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb8e4efad8def035c7282e3ade8045bdbfd7e34d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c28f9812bb5f1324fcb1153b84f5a6704c7481c8356073fd02b8d95b57a8e497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953499"
 ---
 # <a name="mfpkey_wmaaecma_retrieve_ts_stats-property"></a>MFPKEY \_ WMAAECMA \_ récupérer \_ les \_ statistiques TS, propriété
 
@@ -31,7 +31,7 @@ VARIANTE \_ false
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les algorithmes d’annulation de l’écho acoustique (AEC) dépendent des horodatages précis des flux audio. En réalité, les horodatages sont souvent imparfaits, et différents périphériques audio peuvent présenter des taux de variance et de dérive différents. Lorsque l’AEC est activé, le DSP collecte des statistiques sur les horodatages et utilise ces informations pour compenser les imprécisions.
 
@@ -47,8 +47,8 @@ La valeur par défaut de cette propriété est \_ false false. Le DSP utilise ce
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

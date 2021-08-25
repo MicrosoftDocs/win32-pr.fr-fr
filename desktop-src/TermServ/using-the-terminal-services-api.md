@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, utilisation de l’API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48b8c240ce8a86b4a333245032294cbd59809f2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0a1910521e9592310e68e4adaee5451ed2808dab32d4559789dacf7ba2db9fcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868709"
 ---
 # <a name="using-the-remote-desktop-services-api"></a>Utilisation de l’API Services Bureau à distance
 
@@ -32,9 +32,9 @@ Si votre application s’exécute dans un environnement qui n’est pas un envir
 [Informations de référence sur l’API Services Bureau à distance](terminal-services-api-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

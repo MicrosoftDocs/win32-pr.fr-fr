@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 938870f5069c2be920bf6b9a7970d76f89620e68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 200ff2c06cced288c6cbcd62679d4b30207d994d6d03d4d6bf27b92896060326
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863239"
 ---
 # <a name="errorcode-processingerrordatatype-element"></a>ErrorCode (élément ProcessingErrorDataType)
 
@@ -38,8 +38,8 @@ L’élément **ErrorCode** est défini par le type complexe [**ProcessingErrorD
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

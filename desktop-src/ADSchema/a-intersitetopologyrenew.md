@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 821bd294f777fd29738ff102955cd170a42205e2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3730785a342ba9ac3e6026f3aaf6d9055e6f6562c91cc88d835ff2334fa25772
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925169"
 ---
 # <a name="inter-site-topology-renew-attribute"></a>Inter-site-Topology-attribut Renew
 
@@ -36,7 +36,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1247              |
 | System-ID-GUID    | b7c69e5f-2cc7-11d2-854e-00a0c983f608 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -67,7 +67,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -88,7 +88,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -109,7 +109,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -130,7 +130,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -151,7 +151,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -172,7 +172,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 
@@ -193,7 +193,7 @@ Cette classe indique la fréquence à laquelle le générateur de topologie inte
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| Classes utilisées dans        | [**NTDS-site-paramètres**](c-ntdssitesettings.md)<br/> |
+| Classes utilisées dans        | [**NTDS-Site-Paramètres**](c-ntdssitesettings.md)<br/> |
 
 
 

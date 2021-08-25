@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2254db9d0f4efcd003362e4126c5c295ca532b2f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: feb459f7c2d6ff98a35e139cf07d9d95c4bed575e52b3d20258f570f07297943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963189"
 ---
 # <a name="char-switch"></a>commutateur/char
 
@@ -69,7 +69,7 @@ Spécifie que toutes les valeurs [**char**](char-idl.md) doivent être passées 
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par définition, le [**caractère**](char-idl.md) MIDL n’est pas signé. « Small » est défini en termes de **char** ( \# define Small Char) et MIDL [**Small**](small.md) est signé.
 
@@ -91,7 +91,7 @@ Le tableau suivant récapitule les types générés.
 
 
 
- 
+ 
 
 L’option **/char** signed indique que les types char et Small du compilateur C sont signés. Pour correspondre à la valeur par défaut MIDL pour **char**, le compilateur MIDL doit convertir toutes les utilisations de **char** non accompagnées d’une spécification de signe en **char non signé**. Le [**petit**](small.md) type n’est pas modifié, car la valeur par défaut de ce compilateur C correspond à la valeur par défaut MIDL pour **Small**.
 
@@ -127,9 +127,9 @@ Pour plus d’informations sur **/char**, consultez [**petit**](small.md).
 [**Small**](small.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: BorderColor, propriété
 ms.assetid: 7592db02-c157-45f4-bbcf-e6d5bd99e8e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6981d3ac280669f64219961b74d05c6ba73f1008
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6812910c76ad46e7c065314d0b3e5f03d8a6ad6dcb7b918ef33b1a0315a0ad0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963329"
 ---
 # <a name="bordercolor-property"></a>BorderColor, propriété
 
@@ -27,17 +27,17 @@ Retourne la couleur de bordure actuellement affichée pour la fenêtre de la bul
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-* agent ***. Caractères («*** CharacterID ***»).** Balloon. BorderColor
+*agent ***. Caractères («**_CharacterID_*_»)._ * Balloon. BorderColor
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La plage valide pour une couleur RVB normale est comprise entre 0 et 16 777 215 (&HFFFFFF). L’octet de poids fort d’un nombre de cette plage est égal à 0 ; les 3 octets inférieurs, de l’octet le moins significatif à l’octet le plus significatif, déterminent respectivement la quantité de rouge, de vert et de bleu. Chacun des composants rouge, vert et bleu est représenté par un nombre compris entre 0 et 255 (&HFF).
 
- 
+ 
 
- 
+ 
 
 
 

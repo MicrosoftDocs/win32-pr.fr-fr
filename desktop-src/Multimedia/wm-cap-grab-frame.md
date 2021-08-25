@@ -3,7 +3,7 @@ title: Message WM_CAP_GRAB_FRAME (VFW. h)
 description: Le \_ message de \_ Frame de capture du capuchon WM \_ récupère et affiche une image unique du pilote de capture. Après la capture, la superposition et l’aperçu sont désactivés. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capGrabFrame.
 ms.assetid: 91d58c1c-53b9-4813-88c2-7a1acf641d96
 keywords:
-- Message WM_CAP_GRAB_FRAME Windows Multimedia
+- message WM_CAP_GRAB_FRAME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2ffd91ce767ad86ddac002bb216420b604883d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cdccfc9df0f3abac7febfa78029b4ecb351ec3044c618dc4c811e91b433f0f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892039"
 ---
 # <a name="wm_cap_grab_frame-message"></a>\_Message du \_ Frame de capture du capuchon WM \_
 
@@ -38,7 +38,7 @@ lParam = (LPARAM)0L;
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur l’installation des fonctions de rappel, consultez les messages d' [**\_ erreur WM Cap \_ Set \_ callback \_ Error**](wm-cap-set-callback-error.md) et [**WM \_ Cap \_ Set \_ callback \_ Frame**](wm-cap-set-callback-frame.md) .
 

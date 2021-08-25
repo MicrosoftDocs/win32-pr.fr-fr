@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 9df2700403dcdc0ce00b6d90d9c3a87d373b0a34
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4cb68b8251fa383ae9386eae3e6753158330c4be7566f02a8758a72dfe05de03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943149"
 ---
 # <a name="dfm_wm_initmenupopup-message"></a>\_Message DFM WM \_ INITMENUPOPUP
 
@@ -57,7 +57,7 @@ Le mot de poids fort indique si le menu déroulant est le menu fenêtre. Si le m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
@@ -67,8 +67,8 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Shlobj. h</dt> </dl> |
 
 

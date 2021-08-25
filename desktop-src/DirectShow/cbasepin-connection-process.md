@@ -4,22 +4,22 @@ ms.assetid: 4b3a9023-0267-4caa-9d89-88237009df05
 title: Processus de connexion CBasePin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1441b0daba58857e00da0139d3312fb277287fc2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6134c9094e00ea43c5e4bb9f92c9132287fab3c16f98d56497affc8c1015bd6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916783"
 ---
 # <a name="cbasepin-connection-process"></a>Processus de connexion CBasePin
 
 Cette section décrit comment la classe [**CBasePin**](cbasepin.md) implémente le processus de connexion de code confidentiel.
 
-Le gestionnaire de graphes de filtre initie toutes les connexions de code confidentiel. Elle appelle la méthode [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) du code confidentiel de sortie, en spécifiant la broche d’entrée. La broche de sortie termine la connexion en appelant la méthode [**IPIN :: ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection) du code confidentiel d’entrée. La broche d’entrée peut accepter ou refuser la connexion.
+le gestionnaire de Graph de filtre lance toutes les connexions de code confidentiel. elle appelle la méthode [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) de la broche de sortie, en spécifiant la broche d’entrée. La broche de sortie termine la connexion en appelant la méthode [**IPIN :: ReceiveConnection**](/windows/desktop/api/Strmif/nf-strmif-ipin-receiveconnection) du code confidentiel d’entrée. La broche d’entrée peut accepter ou refuser la connexion.
 
-Le gestionnaire de graphes de filtre peut également spécifier un type de média pour la connexion. Si c’est le cas, les broches essaient de se connecter avec ce type. Si ce n’est pas le cas, les broches doivent négocier le type. Le gestionnaire de graphes de filtres peut également spécifier un type de média *partiel* , qui a la valeur Guid \_ null pour le type, le sous-type ou le type de format principal. Dans ce cas, les broches essaient de correspondre aux parties du type de média spécifiées ; la valeur du GUID \_ null agit comme un caractère générique.
+le gestionnaire de Graph de filtre peut également spécifier un type de média pour la connexion. Si c’est le cas, les broches essaient de se connecter avec ce type. Si ce n’est pas le cas, les broches doivent négocier le type. le gestionnaire de Graph de filtre peut également spécifier un type de média *partiel* , qui a la valeur GUID \_ NULL pour le type principal, le sous-type ou le type de format. Dans ce cas, les broches essaient de correspondre aux parties du type de média spécifiées ; la valeur du GUID \_ null agit comme un caractère générique.
 
-La méthode [**CBasePin :: Connect**](cbasepin-connect.md) commence par vérifier que le code confidentiel peut accepter une connexion. Par exemple, il vérifie que le pin n’est pas déjà connecté. Elle délègue le reste du processus de connexion à la méthode [**CBasePin :: AgreeMediaType**](cbasepin-agreemediatype.md) . Tout ce qui suit est effectué par **AgreeMediaType**.
+la méthode [**CBasePin :: Connecter**](cbasepin-connect.md) commence par vérifier que le code confidentiel peut accepter une connexion. Par exemple, il vérifie que le pin n’est pas déjà connecté. Elle délègue le reste du processus de connexion à la méthode [**CBasePin :: AgreeMediaType**](cbasepin-agreemediatype.md) . Tout ce qui suit est effectué par **AgreeMediaType**.
 
 Si le type de média est entièrement spécifié, le code PIN appelle la méthode [**CBasePin :: AttemptConnection**](cbasepin-attemptconnection.md) pour tenter la connexion. Dans le cas contraire, il tente des types de médias dans l’ordre suivant :
 

@@ -16,12 +16,12 @@ keywords:
 - licences, suppression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f297db679ac2c8afe2c836d032fa045d6955665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8dd1e20c0e98fd2129b807cf11f27f5975701d851d9301eda894ccb24015360a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808299"
 ---
 # <a name="license-deletion"></a>Suppression de la licence
 
@@ -67,9 +67,9 @@ Le champ ID d’utilisateur spécifique au propriétaire (UID) est facultatif. L
 [**Guide de programmation**](drm-programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

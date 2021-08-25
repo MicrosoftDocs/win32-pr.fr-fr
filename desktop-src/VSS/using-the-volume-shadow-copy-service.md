@@ -4,12 +4,12 @@ ms.assetid: c4dae5ce-0dfa-46ec-909f-8ae79d50a9cb
 title: Utilisation de l’Service VSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06a1c81d79de30085f783feb02b7a7d47d5dc765
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47ad0f07cc20da83f9401ff5194776300c5aad23a950b2fbc7f14f787fe22f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866249"
 ---
 # <a name="using-the-volume-shadow-copy-service"></a>Utilisation de l’Service VSS
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: e17780dc2f39dc3041e690de1ef7b5728c8743e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aa5d516dd099caeba5699a8328fa52add64f14ea970e6ccec28ea8bfbe87271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947669"
 ---
 # <a name="printer_info_8-structure"></a>\_Structure des informations sur l’imprimante \_ 8
 
@@ -48,7 +48,7 @@ Pointeur vers une structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres globaux par défaut sont définis par l’administrateur d’une imprimante qui peut être utilisée par n’importe qui. En revanche, les valeurs par défaut par utilisateur affectent un utilisateur particulier ou toute autre personne qui utilise le profil. Pour les valeurs par défaut par utilisateur, utilisez [**Printer \_ info \_ 9**](printer-info-9.md).
 

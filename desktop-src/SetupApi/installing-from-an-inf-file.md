@@ -4,12 +4,12 @@ ms.assetid: 4e6042a0-36a9-4f74-b6cc-554e7f7aa2d9
 title: Installation à partir d’un fichier INF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bc3642edfb7abc2864c2c0784c79fbb21612fb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e32780855e126eaaa38ae937a265951711662434e90ab0ffb425e2e4f4f6c42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867569"
 ---
 # <a name="installing-from-an-inf-file"></a>Installation à partir d’un fichier INF
 
@@ -23,7 +23,7 @@ Les fonctions [**SetupInstallFilesFromInfSection**](/windows/desktop/api/Setupap
 
 En revanche, la fonction [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) crée et détruit sa propre file d’attente interne. Une utilisation courante de **SetupInstallFromInfSection** consiste à l’appeler une fois que tous les fichiers ont été correctement copiés pour effectuer les transactions de Registre et ini.
 
-Sur Windows 2000, les fichiers DLL peuvent être enregistrés automatiquement en appelant [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) sur un fichier INF qui comprend la directive **RegisterDlls** dans sa section d' **installation** . **SetupInstallFromInfSection** peut également inscrire automatiquement des dll 32 bits à partir d’un processus 64 bits.
+sur Windows 2000, les fichiers DLL peuvent être enregistrés automatiquement en appelant [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) sur un fichier INF qui comprend la directive **RegisterDlls** dans sa section d' **installation** . **SetupInstallFromInfSection** peut également inscrire automatiquement des dll 32 bits à partir d’un processus 64 bits.
 
 Sur les systèmes d’exploitation 64 bits, [**SetupInstallFromInfSection**](/windows/desktop/api/Setupapi/nf-setupapi-setupinstallfrominfsectiona) peut être appelé pour effectuer des opérations sur la partie 32 bits du Registre. Pour ajouter une clé de Registre à la partie 32 bits du Registre, incluez l' \_ indicateur FLG ADDREG \_ 32BITKEY dans la ligne **ADDREG** du fichier INF. Pour supprimer une clé de Registre uniquement dans la partie 32 bits du Registre, incluez la \_ clé FLG DELREG \_ 32BITKEY dans la ligne **DelReg** . Pour définir ou effacer une valeur binaire uniquement dans la partie 32 bits du Registre, incluez le \_ 32BITKEY BITREG FLG \_ dans la ligne **BITREG** .
 

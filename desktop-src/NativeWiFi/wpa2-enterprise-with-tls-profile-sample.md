@@ -1,29 +1,29 @@
 ---
-description: Utilise EAP-TLS (Extensible Authentication Protocol Transport Level Security) avec des certificats pour l’authentification sur le réseau (WPA2-Enterprise).
+description: Utilise le protocole EAP-TLS (Extensible Authentication Protocol Transport Level Security) avec des certificats pour l’authentification sur le réseau (WPA2-Enterprise).
 ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
 title: Exemple de profil WPA2-Enterprise avec TLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba561f552614896ca5da1522180a53146dc5ce54
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 938f3d96ab4a2e1d7fc12f0d6eac0fc67dc7ff14a03401e321b59e1a9926b829
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912489"
 ---
 # <a name="wpa2-enterprise-with-tls-profile-sample"></a>Exemple de profil WPA2-Enterprise avec TLS
 
 Cet exemple de profil utilise le protocole EAP-TLS (Extensible Authentication Protocol Transport Level Security) avec des certificats pour s’authentifier sur le réseau.
 
-Cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode entreprise (WPA2-Entreprise). Le type de sécurité WPA2-Enterprise utilise 802.1 X pour l’échange d’authentification avec le serveur principal. Le type de chiffrement Advanced Encryption Standard (AES) est utilisé pour le chiffrement.
+cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode Enterprise (WPA2-Enterprise). Le type de sécurité WPA2-Enterprise utilise 802.1 X pour l’échange d’authentification avec le serveur principal. Le type de chiffrement Advanced Encryption Standard (AES) est utilisé pour le chiffrement.
 
 Les informations d’identification EAP-TLS sont obtenues à partir du magasin de certificats. Si l’authentification basée sur les informations d’identification dans le magasin de certificats échoue, l’utilisateur est invité à fournir des informations d’identification valides. Aucun autre serveur, autorité de certification racine ou nom d’utilisateur n’est utilisé pour l’authentification en cas d’échec de la première tentative.
 
 La configuration EAPHost utilisée dans cet exemple de profil sans fil a été dérivée de l’exemple de [Propriétés de connexion EAP-TLS](../eaphost/eap-tls-connection-properties.md) .
 
-**Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé :** Les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. La valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé :** les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. la valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** EAP-TLS n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** EAP-TLS n’est pas pris en charge.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

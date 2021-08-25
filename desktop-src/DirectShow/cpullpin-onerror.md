@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2dc8bf7f307ab56609b5f90f6955a1f666854270
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b0d9873e2d327c424b2cd1ffda7112676f53399a63d2a9ca92dca1f50a02f62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908879"
 ---
 # <a name="cpullpinonerror-method"></a>CPullPin. OnError, méthode
 
@@ -53,9 +53,9 @@ Spécifie la valeur **HRESULT** retournée par la méthode qui a échoué.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’objet appelle cette méthode chaque fois qu’une erreur se produit et arrête le thread d’extraction de données. Le filtre peut utiliser cette méthode pour récupérer les erreurs de diffusion en continu de manière appropriée. Dans la plupart des cas, l’erreur est retournée à partir du filtre en amont. le filtre en amont est donc chargé de les signaler au gestionnaire de graphes de filtre. Si l’erreur se produit à l’intérieur de la méthode [**CPullPin :: Receive**](cpullpin-receive.md) , votre filtre doit envoyer un événement [**EC \_ ERRORABORT**](ec-errorabort.md) . (Voir [**IMediaEventSink :: Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify).)
+L’objet appelle cette méthode chaque fois qu’une erreur se produit et arrête le thread d’extraction de données. Le filtre peut utiliser cette méthode pour récupérer les erreurs de diffusion en continu de manière appropriée. dans la plupart des cas, l’erreur est retournée à partir du filtre en amont. le filtre en amont est donc chargé de les signaler au gestionnaire de Graph de filtre. Si l’erreur se produit à l’intérieur de la méthode [**CPullPin :: Receive**](cpullpin-receive.md) , votre filtre doit envoyer un événement [**EC \_ ERRORABORT**](ec-errorabort.md) . (Voir [**IMediaEventSink :: Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify).)
 
 ## <a name="requirements"></a>Configuration requise
 

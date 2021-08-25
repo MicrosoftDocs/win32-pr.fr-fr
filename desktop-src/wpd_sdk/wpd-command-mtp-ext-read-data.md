@@ -4,12 +4,12 @@ ms.assetid: d7acb2cc-28b0-4314-99fd-4e7eded22122
 title: Commande WPD_COMMAND_MTP_EXT_READ_DATA (WpdMtpExtensions. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4671101ee9be6e355a4e64d2a467d83d0028db69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5aeee37e1922f91e9a9fac7881369364d01340893829678a5651f89ed428440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927949"
 ---
 # <a name="wpd_command_mtp_ext_read_data-command"></a>Commande \_ wpd \_ MTP de lecture de \_ données MTP ext \_ \_
 
@@ -41,7 +41,7 @@ Le pilote retourne les résultats suivants.
 
 
 
-| Résultats                                                  | VarType             | Description                                                       |
+| Résultat                                                  | VarType             | Description                                                       |
 |---------------------------------------------------------|---------------------|-------------------------------------------------------------------|
 | **\_propriété wpd \_ nombre \_ d' \_ octets de transfert ext de transfert MTP \_ \_ \_** | VT \_ UI4             | Obligatoire. Spécifie le nombre d’octets reçus à partir de l’appareil. |
 | **\_propriété wpd \_ \_ données de \_ transfert ext MTP \_**             | VT \_ UI1 VT Vector \| \_ | Obligatoire. Mémoire tampon qui contient les données de l’appareil.               |

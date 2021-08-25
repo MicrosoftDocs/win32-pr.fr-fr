@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 252f7d7d9a57b439ac00fa663fa0a0e816ebada0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 922904383fd30798b49c5a6e11478a34b2a649efcc4b70d550fe888222b9018b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980469"
 ---
 # <a name="applysnapshot-method-of-the-cim_virtualsystemsnapshotservice-class"></a>Méthode ApplySnapshot de la \_ classe CIM VirtualSystemSnapshotService
 

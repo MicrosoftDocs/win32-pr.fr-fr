@@ -1,11 +1,11 @@
 ---
-title: Informations de référence sur les métafichiers Windows Media
-description: Informations de référence sur les métafichiers Windows Media
+title: Windows Référence du métafichier multimédia
+description: Windows Référence du métafichier multimédia
 ms.assetid: 03dadba3-0143-46f0-990a-108196eb58ab
 keywords:
-- Fichiers Windows Media, référence
+- Windows Fichiers multimédias, référence
 - sous-fichiers, référence
-- référence pour les fichiers Windows Media
+- référence pour Windows les fichiers multimédias
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -13,29 +13,29 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 31d2c8d20d64e9a363fb37594519253206d30483
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b00cd604ec94c42ef90f08a8875edb4fda92ba8267c7e4a7d7b5505c2fb57932
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862259"
 ---
-# <a name="windows-media-metafile-reference"></a>Informations de référence sur les métafichiers Windows Media
+# <a name="windows-media-metafile-reference"></a>Windows Référence du métafichier multimédia
 
-Cette référence décrit les éléments et les extensions de nom de fichier pour les fichiers Windows Media. La référence est divisée en sections suivantes.
+cette référence décrit les éléments et les extensions de nom de fichier pour Windows les fichiers multimédias. La référence est divisée en sections suivantes.
 
 
 
 | Section                                                                                    | Description                                                                                                                      |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| [Informations de référence sur les éléments de métafichier Windows Media](windows-media-metafile-elements-reference.md) | Documente les éléments de métafichier, y compris les définitions, les attributs et leurs valeurs, ainsi que les conditions spéciales associées à chaque élément. |
+| [Windows Informations de référence sur les éléments de métafichier multimédia](windows-media-metafile-elements-reference.md) | Documente les éléments de métafichier, y compris les définitions, les attributs et leurs valeurs, ainsi que les conditions spéciales associées à chaque élément. |
 | [Extensions de noms de fichiers](file-name-extensions.md)                                           | Documente les extensions de nom de fichier de métafichier avec des règles et des instructions sur leur utilisation.                                                  |
 
 
 
- 
+ 
 
-Les fichiers Windows Media sont des fichiers texte qui fournissent des informations sur un flux de fichier et sa présentation. Les sous-fichiers sont basés sur la syntaxe du Extensible Markup Language (XML) et sont constitués d’éléments de type XML avec leurs balises et leurs attributs. Chaque élément définit un paramètre ou une action pour la diffusion multimédia en continu.
+Windows Les sous-fichiers multimédias sont des fichiers texte qui fournissent des informations sur un flux de fichier et sa présentation. Les sous-fichiers sont basés sur la syntaxe du Extensible Markup Language (XML) et sont constitués d’éléments de type XML avec leurs balises et leurs attributs. Chaque élément définit un paramètre ou une action pour la diffusion multimédia en continu.
 
 Deux ensembles de balises d’éléments sont disponibles pour les fichiers de configuration. Les fichiers de configuration côté client ont un ensemble d’éléments, et les fichiers de configuration côté serveur ont un autre ensemble d’éléments.
 
@@ -45,18 +45,18 @@ Si une balise d’élément n’a pas d’éléments enfants (ceux qui modifient
 
 <dl> <dt>
 
-[**À propos des fichiers Windows Media**](about-windows-media-metafiles.md)
+[**à propos des Windows de fichiers multimédias**](about-windows-media-metafiles.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> <dt>
 
-[**Fichiers Windows Media**](windows-media-metafiles.md)
+[**Windows Fichiers multimédias**](windows-media-metafiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

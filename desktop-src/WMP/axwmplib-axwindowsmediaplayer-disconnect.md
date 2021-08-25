@@ -3,7 +3,7 @@ title: Événement Disconnect de l’objet AxWindowsMediaPlayer
 description: L’événement Disconnect est réservé pour une utilisation ultérieure.
 ms.assetid: 3baecc6c-e772-4269-96c1-900be270543e
 keywords:
-- Événement Disconnect de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement disconnect de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dffe3191efeddba74eb22c7c5c72b8c52bc095
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f0554de8fe71ae13e510733ed2204ff4ed79d575a40f23a1769a5fb36eeb560
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902691"
 ---
 # <a name="disconnect-event-of-the-axwindowsmediaplayer-object"></a>Événement Disconnect de l’objet AxWindowsMediaPlayer
 
@@ -53,7 +53,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est réservé à une utilisation ultérieure.
 
@@ -73,7 +73,7 @@ Cet événement est réservé à une utilisation ultérieure.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

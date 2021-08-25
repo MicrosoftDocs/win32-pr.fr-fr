@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 3bcb5effcfc59e155007fbd9e1733d95db058970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 392fb670cbe9f64025cd2270c52dc7bc317507821d25b3cf842d323db6ddccc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840399"
 ---
 # <a name="apiretrievecolumn-method"></a>API. RetrieveColumn, méthode
 

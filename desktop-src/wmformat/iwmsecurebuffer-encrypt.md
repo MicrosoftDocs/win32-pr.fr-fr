@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7758903de5f4a68cddffee982ad457d03ae6094
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8e5badce8249e5d6b9d2460fec0e72ef4ca4b81f5b8ffa0d3edd83729f98bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808309"
 ---
 # <a name="iwmsecurebufferencrypt-method"></a>IWMSecureBuffer :: Encrypt, méthode
 
@@ -52,7 +52,7 @@ Pointeur vers une interface de canal sécurisé contenant le pointeur de donnée
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -64,7 +64,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour chiffrer les pointeurs de données afin qu’ils puissent être envoyés à travers les limites des DLL.
 
@@ -83,7 +83,7 @@ Utilisez cette méthode pour chiffrer les pointeurs de données afin qu’ils pu
 
 <dl> <dt>
 
-[**Déchiffrer**](iwmsecurebuffer-decrypt.md)
+[**Crypté**](iwmsecurebuffer-decrypt.md)
 </dt> <dt>
 
 [**Interface IWMSecureBuffer**](iwmsecurebuffer.md)

@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b60cedaa4ef84cb9f3ea31cd619d7335cc09324e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9b4bcfbc5fcf128f3ef71250180b487c83ce3c0d5430a563dfa3b7069e4235e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858039"
 ---
 # <a name="id3dx11threadpump-interface"></a>Interface ID3DX11ThreadPump
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -60,7 +60,7 @@ L’interface **ID3DX11ThreadPump** possède ces méthodes.
 <td style="text-align: left;"><a href="id3dx11threadpump-addworkitem.md"><strong>AddWorkItem</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Ajoute un élément de travail à la pompe de thread.<br/></td>
 </tr>
@@ -68,7 +68,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td style="text-align: left;"><a href="id3dx11threadpump-getqueuestatus.md"><strong>GetQueueStatus</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Obtient le nombre d’éléments dans chacune des trois files d’attente à l’intérieur de la pompe de thread.<br/></td>
 </tr>
@@ -76,7 +76,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td style="text-align: left;"><a href="id3dx11threadpump-getworkitemcount.md"><strong>GetWorkItemCount</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Obtient le nombre d’éléments de travail dans la pompe de thread.<br/></td>
 </tr>
@@ -84,7 +84,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td style="text-align: left;"><a href="id3dx11threadpump-processdeviceworkitems.md"><strong>ProcessDeviceWorkItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Définit les éléments de travail sur l’appareil une fois qu’ils ont terminé le chargement et le traitement.<br/></td>
 </tr>
@@ -92,7 +92,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td style="text-align: left;"><a href="id3dx11threadpump-purgeallitems.md"><strong>PurgeAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Efface tous les éléments de travail de la pompe de thread.<br/></td>
 </tr>
@@ -100,7 +100,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 <td style="text-align: left;"><a href="id3dx11threadpump-waitforallitems.md"><strong>WaitForAllItems</strong></a></td>
 <td style="text-align: left;"><blockquote>
 [!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 </blockquote>
 <br/> Attend la fin de l’exécution de tous les éléments de travail de la pompe de thread.<br/></td>
 </tr>
@@ -111,7 +111,7 @@ La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconsei
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="using-a-thread-pump"></a>Utilisation d’une pompe de thread
 
@@ -125,14 +125,14 @@ La pompe de threads peut être utilisée pour charger des données de deux mani�
 
 L’objet thread Pump occupe une quantité importante de ressources. en général, un seul doit être créé par application.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>D3DX11core. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>D3DX11. lib</dt> </dl>   |
 

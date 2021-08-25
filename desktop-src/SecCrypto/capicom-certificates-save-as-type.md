@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 3cbde0e8a64fa931ce50d2277d33b5fd5c27ee68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70185a7a48b7dc195727991fb0dcc35f4909451fa0e4da5f4100e8385adebc2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879369"
 ---
 # <a name="capicom_certificates_save_as_type-enumeration"></a>L' \_ énumération des certificats CAPICOM \_ \_ en tant que \_ type
 
@@ -36,7 +36,7 @@ Le type d’énumération des **\_ certificats CAPICOM \_ \_ en tant que \_** ty
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ \_ \_ \_ type d’énumération certificats Save As type est utilisé par la méthode [**Certificates. Save**](certificates-save.md) .
 
@@ -46,7 +46,7 @@ Le \_ \_ \_ \_ type d’énumération certificats Save As type est utilisé par 
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

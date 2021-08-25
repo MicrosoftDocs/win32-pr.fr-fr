@@ -1,9 +1,9 @@
 ---
 title: Élément DURATION
-description: L’élément DURATION définit la durée pendant laquelle le lecteur Windows Media affiche l’entrée de playlist associée.
+description: l’élément DURATION définit la durée pendant laquelle Lecteur Windows Media affiche l’entrée de playlist associée.
 ms.assetid: fe5c242e-08c9-44f0-a6fc-3f0fa432ba38
 keywords:
-- Élément DURATION lecteur Windows Media
+- élément DURATION Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c0446fd207ce04ab08d4c7bd2e055ef8d11a5a36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b06b497a6d31b03c4cbec23748f6995a1382fb806ad18fabaa542ed8ff33e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863349"
 ---
 # <a name="duration-element"></a>Élément DURATION
 
-L’élément **Duration** définit la durée pendant laquelle le lecteur Windows Media affiche l’entrée de playlist associée.
+l’élément **DURATION** définit la durée pendant laquelle Lecteur Windows Media affiche l’entrée de playlist associée.
 
 ``` syntax
 <DURATION
@@ -34,7 +34,7 @@ L’élément **Duration** définit la durée pendant laquelle le lecteur Window
 
 **Valeur** (obligatoire)
 
-Durée, en heures, minutes, secondes et centièmes de seconde, qu’une entrée est affichée par le lecteur Windows Media. La valeur par défaut correspond à la longueur totale de l’entrée. Si l’entrée est un fichier graphique, vous devez spécifier une valeur de durée.
+durée, en heures, minutes, secondes et centièmes de seconde, qu’une entrée est restituée par Lecteur Windows Media. La valeur par défaut correspond à la longueur totale de l’entrée. Si l’entrée est un fichier graphique, vous devez spécifier une valeur de durée.
 
 ## <a name="parentchild-elements"></a>Éléments parent/enfant
 
@@ -43,13 +43,13 @@ Durée, en heures, minutes, secondes et centièmes de seconde, qu’une entrée 
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **entry**, **ref** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément définit la durée pendant laquelle un flux doit être rendu. Si l’attribut de **valeur** dépasse la longueur du flux de contenu, le flux se termine à son point de terminaison normal.
 
@@ -82,10 +82,10 @@ L’élément **Duration** remplace un élément **PREVIEWDURATION** .
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

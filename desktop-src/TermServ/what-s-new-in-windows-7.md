@@ -1,18 +1,18 @@
 ---
-title: Nouveautés de Windows 7
+title: nouveautés de Windows 7
 description: Windows 7 introduit les nouveaux éléments de programmation suivants pour Services Bureau à distance.
 ms.assetid: 964e7e88-399f-4e4f-8340-ec0e28a0d79b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9517880b65ff3a81fae35a98f6c5373492741c6c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: e7e13b2ede56689af9e9b01f147696acbec1c53cffec59dac4314142650f3ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106542852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868609"
 ---
-# <a name="whats-new-in-windows-7"></a>Nouveautés de Windows 7
+# <a name="whats-new-in-windows-7"></a>nouveautés de Windows 7
 
 Windows 7 introduit les nouveaux éléments de programmation suivants pour Services Bureau à distance.
 
@@ -25,8 +25,8 @@ Windows 7 introduit les nouveaux éléments de programmation suivants pour Servi
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Interfaces de contrôle ActiveX Bureau à distance<br/></td>
-<td>Les interfaces suivantes (et leurs propriétés associées) ont été ajoutées à l' <a href="remote-desktop-web-connection-reference.md">interface de contrôle ActiveX Bureau à distance</a>.<br/>
+<td>Interfaces de contrôle de ActiveX Bureau à distance<br/></td>
+<td>les interfaces suivantes (et leurs propriétés associées) ont été ajoutées au <a href="remote-desktop-web-connection-reference.md">Bureau à distance ActiveX Interface de contrôle</a>.<br/>
 <ul>
 <li><a href="imsrdpclientadvancedsettings7.md"><strong>Interface IMsRdpClientAdvancedSettings7</strong></a></li>
 </ul></td>

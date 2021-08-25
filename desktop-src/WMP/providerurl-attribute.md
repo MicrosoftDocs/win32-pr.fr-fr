@@ -3,7 +3,7 @@ title: Attribut ProviderURL
 description: L’attribut ProviderURL est l’adresse de la page d’hébergement du fournisseur des valeurs d’attribut.
 ms.assetid: 6ff250d3-6b55-488f-8e4c-366114973c43
 keywords:
-- Attribut ProviderURL lecteur Windows Media
+- Lecteur Windows Media de l’attribut ProviderURL
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c438ce67ac14ec79fe50cb0c931a5c5d437babd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3c370d8d234b4e9d7f0d234f0163dd4e41a10a8cc1686ec231686bb4d2b7f28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861859"
 ---
 # <a name="providerurl-attribute"></a>Attribut ProviderURL
 
@@ -28,7 +28,7 @@ L’attribut **providerUrl** est l’adresse de la page d’hébergement du four
 -   [Éléments audio](audio-item-attributes.md)
 -   [DVD](dvd-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la base de données de bibliothèque (ou dans le cache).
 

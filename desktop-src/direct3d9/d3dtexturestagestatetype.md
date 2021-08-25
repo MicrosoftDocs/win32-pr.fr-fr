@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0530f428c9ebf89607fa89509c65ddd336fee293
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4879009f603a6943302f0595f37176ec5edf8e1a1d3212efedb66c923d775104
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894149"
 ---
 # <a name="d3dtexturestagestatetype-enumeration"></a>Énumération D3DTEXTURESTAGESTATETYPE
 
@@ -166,14 +166,14 @@ Membre du type énuméré [**D3DTEXTURETRANSFORMFLAGS**](./d3dtexturetransformfl
 <span id="D3DTSS_COLORARG0"></span><span id="d3dtss_colorarg0"></span>**D3DTSS \_ COLORARG0**
 </dt> <dd>
 
-Paramètres du troisième opérande de couleur pour les opérations tripliées (multiplication, ajout et interpolation linéaire), identifiées par [D3DTA](d3dta.md). Ce paramètre est pris en charge si les fonctionnalités de l' \_ appareil D3DTEXOPCAPS MULTIPLYADD ou D3DTEXOPCAPS \_ LERP sont présentes. L’argument par défaut est D3DTA \_ Current. Spécifiez D3DTA \_ temp pour sélectionner une couleur de registre temporaire pour la lecture ou l’écriture. D3DTA \_ temp est pris en charge si la fonctionnalité de l' \_ appareil D3DPMISCCAPS TSSARGTEMP est présente. La valeur par défaut du Registre est (0,0, 0,0, 0,0, 0,0).
+Paramètres pour le troisième opérande de couleur pour les opérations tripliées (multiplication, ajout et interpolation linéaire), identifié par [D3DTA](d3dta.md). Ce paramètre est pris en charge si les fonctionnalités de l' \_ appareil D3DTEXOPCAPS MULTIPLYADD ou D3DTEXOPCAPS \_ LERP sont présentes. L’argument par défaut est D3DTA \_ Current. Spécifiez D3DTA \_ temp pour sélectionner une couleur de registre temporaire pour la lecture ou l’écriture. D3DTA \_ temp est pris en charge si la fonctionnalité de l' \_ appareil D3DPMISCCAPS TSSARGTEMP est présente. La valeur par défaut du Registre est (0,0, 0,0, 0,0, 0,0).
 
 </dd> <dt>
 
 <span id="D3DTSS_ALPHAARG0"></span><span id="d3dtss_alphaarg0"></span>**D3DTSS \_ ALPHAARG0**
 </dt> <dd>
 
-Paramètres de l’opérande du sélecteur de canal alpha pour les opérations tripliées (multiplication, ajout et interpolation linéaire), identifiées par [D3DTA](d3dta.md). Ce paramètre est pris en charge si les fonctionnalités de l' \_ appareil D3DTEXOPCAPS MULTIPLYADD ou D3DTEXOPCAPS \_ LERP sont présentes. L’argument par défaut est D3DTA \_ Current. Spécifiez D3DTA \_ temp pour sélectionner une couleur de registre temporaire pour la lecture ou l’écriture. D3DTA \_ temp est pris en charge si la fonctionnalité de l' \_ appareil D3DPMISCCAPS TSSARGTEMP est présente. L’argument par défaut est (0,0, 0,0, 0,0, 0,0).
+Paramètres pour l’opérande du sélecteur de canal alpha pour les opérations tripliées (multiplication, ajout et interpolation linéaire), identifié par [D3DTA](d3dta.md). Ce paramètre est pris en charge si les fonctionnalités de l' \_ appareil D3DTEXOPCAPS MULTIPLYADD ou D3DTEXOPCAPS \_ LERP sont présentes. L’argument par défaut est D3DTA \_ Current. Spécifiez D3DTA \_ temp pour sélectionner une couleur de registre temporaire pour la lecture ou l’écriture. D3DTA \_ temp est pris en charge si la fonctionnalité de l' \_ appareil D3DPMISCCAPS TSSARGTEMP est présente. L’argument par défaut est (0,0, 0,0, 0,0, 0,0).
 
 </dd> <dt>
 
@@ -198,7 +198,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres de ce type énuméré sont utilisés avec les méthodes [**IDirect3DDevice9 :: GetTextureStageState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-gettexturestagestate) et [**IDirect3DDevice9 :: SetTextureStageState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate) pour récupérer et définir des valeurs d’état de texture.
 

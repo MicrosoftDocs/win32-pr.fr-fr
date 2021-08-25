@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 0e9149e6c0dca6166df3cad179681a90e57aaa44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06b46c0467468153400225415df1c26b675b81d6f2eac0e9c2cee8b1ef7107ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957808"
 ---
 # <a name="imfsourcebuffernotifyonupdate-method"></a>IMFSourceBufferNotify :: OnUpdate, méthode
 
@@ -48,7 +48,7 @@ Cette méthode ne retourne pas de valeur.
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                      |
 | MIDL<br/>                      | <dl> <dt>Mfmediaengine. idl</dt> </dl> |
 
 

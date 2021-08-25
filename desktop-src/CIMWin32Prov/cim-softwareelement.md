@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fbe64ddfcf81a7410f5654db89c2924a8eabacc3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be7eca852f8c0d111bbdd977f76406ec690088262be989bea6e45e0afc27e502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919259"
 ---
 # <a name="cim_softwareelement-class-cimwin32-wmi-providers"></a>CIM_SoftwareElement, classe (fournisseurs WMI CIMWin32)
 
@@ -501,7 +501,7 @@ Mac OS
 
 </dt> <dd>
 
-ATT UNIX
+UNIX ATT
 
 </dd> <dt>
 
@@ -601,7 +601,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -683,7 +683,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -998,7 +998,7 @@ La version de l’opération doit se présenter sous l’une des formes suivante
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ SoftwareElement** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

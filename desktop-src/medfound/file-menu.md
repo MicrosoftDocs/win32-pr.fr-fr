@@ -4,12 +4,12 @@ ms.assetid: 1edf2119-facb-4c19-9855-0e3666378abb
 title: Menu Fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb09dd8285876a7f978aa7998c0ebaade2592ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c27961500e81e9239a7d8402b2bd9b190a2560bfbe53fc57264c096c04cf49e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942619"
 ---
 # <a name="file-menu"></a>Menu Fichier
 
@@ -46,7 +46,7 @@ Le menu **fichier** fournit les commandes suivantes :
 <td>Crée une topologie de transcodage. Pour plus d’informations, consultez <a href="building-a-transcode-topology-with-topoedit.md">génération d’une topologie de transcodage avec TopoEdit</a>.<br/>
 <blockquote>
 [!Note]<br />
-Cette fonctionnalité nécessite Windows 7.
+cette fonctionnalité requiert Windows 7.
 </blockquote>
 <br/></td>
 </tr>

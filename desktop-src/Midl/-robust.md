@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 974f9530006c03a041d9d444c41f9c5ca01569c0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 551f5a60013aa3a903dcb3e35cc4c25a9f83dc67fff2a6ab5c7bfd62a041feee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119895819"
 ---
 # <a name="robust-switch"></a>commutateur/Robust
 
@@ -41,9 +41,9 @@ Ces commutateurs sont identiques dans leurs fonctionnalités. Ils spécifient la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’utilisation du commutateur **/Robust** génère des informations supplémentaires qui permettent au moteur de représentation de données réseau d’effectuer une vérification des erreurs au moment de l’exécution sur des arguments corrélés dans des tableaux dynamiques, des unions et des pointeurs d’interface [**out**](out-idl.md) dans des applications DCOM. Le commutateur **/Robust** est disponible uniquement sous WindowsÂ 2000 et les versions ultérieures de Windows.
+L’utilisation du commutateur **/Robust** génère des informations supplémentaires qui permettent au moteur de représentation de données réseau d’effectuer une vérification des erreurs au moment de l’exécution sur des arguments corrélés dans des tableaux dynamiques, des unions et des pointeurs d’interface [**out**](out-idl.md) dans des applications DCOM. Le commutateur **/Robust** est uniquement disponible sous WindowsÂ 2000 et les versions ultérieures de Windows.
 
 Un argument corrélé est un argument qui utilise l’un des attributs qui permettent de déterminer la taille d’un objet de données au moment de l’exécution : la [**taille \_ est**](size-is.md), la [**longueur \_ est**](length-is.md), le premier est, le [**dernier \_ est**](last-is.md), le [**nombre maximal \_**](max-is.md), le [**commutateur \_**](switch-is.md)et [**IID la \_ valeur**](iid-is.md). [**\_**](first-is.md) Conformément à la spécification OSF-DCE pour la représentation filaire, cet argument corrélé apparaît à deux emplacements différents. Par exemple, considérons une utilisation classique de la taille : attribute : **\_**
 
@@ -73,9 +73,9 @@ Le commutateur **/Robust** est requis pour implémenter une vérification de pla
 [**vont**](range.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

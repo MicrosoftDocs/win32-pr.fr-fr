@@ -4,12 +4,12 @@ description: Pour le premier lien d’une connexion à liaisons multiples, le se
 ms.assetid: a6aee73b-43b2-43b4-a6f1-ac7b293c44ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af39ebfa54469e2f44c44c800cebbfb176b33cad
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: dfc7493550863a755a87668c96dbe0ce600d524a111b7e7300b97c307f4d30c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106509631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119852319"
 ---
 # <a name="multilink-and-callback-connections"></a>Connexions à liaisons multiples et rappels
 
@@ -21,9 +21,9 @@ Si le protocole d’authentification affecte la **valeur true** au membre **fSav
 
 Le protocole d’authentification peut utiliser une [interface utilisateur interactive](interactive-user-interface.md) pour collecter des données pour un lien spécifique d’une connexion à liaisons multiples. Dans ce cas, le service d’authentification rend les données obtenues disponibles au protocole d’authentification lors des liens suivants. Toutefois, ces données ne sont jamais enregistrées dans un stockage persistant.
 
- 
+ 
 
- 
+ 
 
 
 

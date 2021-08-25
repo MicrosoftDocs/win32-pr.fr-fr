@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9742e81689285966ccf2b9bfd7d3510a06507a5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f68a3d2d501c6aab88f6b281e37f9fa9e0c6d7b928dac67c2422fe2069b670ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924659"
 ---
 # <a name="ms-dfsr-version-attribute"></a>MS-DFSR-version (attribut)
 
@@ -43,7 +43,7 @@ Contient le numéro de version du service de réplication système de fichiers D
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -131,7 +131,7 @@ Contient le numéro de version du service de réplication système de fichiers D
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut fait partie de la prise en charge du service réplication DFS.
 

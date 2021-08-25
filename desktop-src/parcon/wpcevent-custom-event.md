@@ -4,12 +4,12 @@ ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
 title: Événement WPCEVENT_CUSTOM (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d20cb2450cd18bb0c77993622d226cfc06dff6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8082e03aa6dfea8cd2fd461feec093de71a1ada8051b8fb88295d0bbbf570b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951549"
 ---
 # <a name="wpcevent_custom-event"></a>\_Événement personnalisé WPCEVENT
 
@@ -17,7 +17,7 @@ ms.locfileid: "104202707"
 
 Les événements sont affichés dans l' **Observateur d’activité** dans l' **autre** section avec la hiérarchie suivante :
 
-1.  Publisher
+1.  Éditeur
 
 2.  Application
 
@@ -103,7 +103,7 @@ Chaîne personnalisée qui fournit des informations supplémentaires sur la rais
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

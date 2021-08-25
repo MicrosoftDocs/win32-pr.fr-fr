@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 33e0eb7e5a101617b5e45d92b2db1a5843c28c54
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 80a4b66f36b46f0d7796b405921dca2d6f0b26b1c6764acba820d4359e7a37c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878989"
 ---
 # <a name="capicom_secret_type-enumeration"></a>\_Énumération du type de secret de CAPICOM \_
 
@@ -40,7 +40,7 @@ L’énumération de **\_ \_ type secret CAPICOM** indique le type de secret uti
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

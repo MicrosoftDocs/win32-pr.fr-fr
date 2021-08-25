@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102638
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ef5336164cd797b1d06921d92e9c33089fcc35bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d95a002e1a8e3010cd73a4f3eea0b425bb606ceb9e5c8bc48a80da55a7e74f83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851309"
 ---
 # <a name="esentrfsfailureexception-properties"></a>Propriétés EsentRfsFailureException
 
@@ -49,7 +49,7 @@ Le type [EsentRfsFailureException](./esentrfsfailureexception-class.md) expose l
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

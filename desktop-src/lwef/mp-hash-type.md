@@ -4,7 +4,7 @@ description: Types de hachage possibles.
 ms.assetid: 46432C40-6DE1-4FB8-B7C1-C2712CCEB208
 keywords:
 - MP_HASH_TYPE énumération des fonctionnalités d’environnement Windows héritées
-- PMP_HASH_TYPE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMP_HASH_TYPE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c36e709d165845b729673df4aaea1042a7ee49
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a98e048b77953a90051de947b2b500c4ab1c07f29138418418edfdce5f5ebad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961229"
 ---
 # <a name="mp_hash_type-enumeration"></a>\_Énumération de type de hachage MP \_
 
@@ -86,8 +86,8 @@ SHA 256
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

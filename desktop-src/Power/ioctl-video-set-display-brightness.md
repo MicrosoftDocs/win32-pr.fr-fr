@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddvdeo.h
-ms.openlocfilehash: a0c679f352012eea66b80335bc3ad1547501dd92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec4bb5200378f9f530913f26d33bfbd485d81ae184c7b478a51c90bca18d95da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961849"
 ---
 # <a name="ioctl_video_set_display_brightness-control-code"></a>\_Code de \_ contrôle de luminosité d' \_ affichage du jeu vidéo IOCTL \_
 
@@ -120,7 +120,7 @@ Si l’opération échoue ou est en attente, [**DeviceIoControl**](/windows/desk
 
 Les valeurs spécifiées dans les membres **ucACBrightness** et **ucDCBrightness** de la structure de [**\_ luminosité d’affichage**](/previous-versions/windows/desktop/legacy/aa372686(v=vs.85)) doivent avoir été retournées par la luminosité de la [**\_ requête vidéo IOCTL \_ \_ prise en charge \_**](ioctl-video-query-supported-brightness.md). Par exemple, si les valeurs prises en charge sont 10, 20, 30, 40, 50, 60, 70, 80, 90 et 100, l’utilisation d’une valeur de 33 serait une erreur.
 
-Le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans le kit de développement de pilotes (DDK) Microsoft Windows. Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
+le fichier d’en-tête utilisé pour créer des applications qui incluent cette fonctionnalité, Ntddvdeo. h, est inclus dans Microsoft Windows Driver Development Kit (DDK). Pour plus d’informations sur l’obtention du DDK, consultez [https://www.microsoft.com/whdc/devtools/ddk/default.mspx](https://msdn.microsoft.com/windows/hardware/gg454513) .
 
 Vous pouvez également définir ce code de contrôle comme suit :
 
@@ -136,7 +136,7 @@ Vous pouvez également définir ce code de contrôle comme suit :
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Ntddvdeo. h</dt> </dl> |
 
 
