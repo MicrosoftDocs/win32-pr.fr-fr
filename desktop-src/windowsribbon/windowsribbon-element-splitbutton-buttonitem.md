@@ -3,7 +3,7 @@ title: Propriété SplitButton. ButtonItem
 description: Représente un conteneur pour un bouton ou un bouton bascule qui expose la commande par défaut d’un bouton partagé.
 ms.assetid: 3d46d606-238d-46d4-b92e-dfd759951770
 keywords:
-- Ruban Windows de la propriété SplitButton. ButtonItem
+- propriété SplitButton. ButtonItem Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf1e1cb908ce9a86f23f75d17bf2e76797997db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f49f316f7c740b434f761bbe4c00906c8f76b5027af9fcc87317af2a51960dab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840689"
 ---
 # <a name="splitbuttonbuttonitem-property"></a>Propriété SplitButton. ButtonItem
 
 Représente un conteneur pour un [bouton ou un](windowsribbon-controls-button.md) [bouton bascule](windowsribbon-controls-togglebutton.md) qui expose la commande par défaut d’un [bouton partagé](windowsribbon-controls-splitbutton.md).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SplitButton.ButtonItem>
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**SplitButton**](windowsribbon-element-splitbutton.md).
 
@@ -147,10 +147,10 @@ Cette section de code montre les déclarations de contrôle [**SplitButton**](wi
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

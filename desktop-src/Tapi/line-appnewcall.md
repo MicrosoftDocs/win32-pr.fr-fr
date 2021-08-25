@@ -4,12 +4,12 @@ ms.assetid: 0c263025-e719-453e-91c4-a9f2d9321db3
 title: Message LINE_APPNEWCALL (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33d24ca816fb69384e90e4215edbc90b9410b887
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 22efd93febad5e0199f2ff8897841fe57e8e637acfb8f9cd316386ed913876c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867129"
 ---
 # <a name="line_appnewcall-message"></a>\_Message APPNEWCALL de ligne
 
@@ -65,7 +65,7 @@ Privilège des applications au nouvel appel (LINECALLPRIVILEGE \_ owner ou LINEC
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications prenant en charge TAPI version 2,0 ou ultérieure reçoivent un message de **ligne \_ APPNEWCALL** chaque fois que l’application reçoit spontanément un handle vers un nouvel appel. Étant donné que le message comprend les paramètres *hLine* et *dwAddressID* sur lesquels l’appel existe, l’application peut facilement créer un nouvel objet d’appel dans le contexte approprié. Le message de **ligne \_ APPNEWCALL** est toujours immédiatement suivi d’un message de [**ligne \_ CALLSTATE**](line-callstate.md) indiquant l’état initial de l’appel.
 

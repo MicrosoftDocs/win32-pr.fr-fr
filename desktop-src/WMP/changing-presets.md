@@ -13,12 +13,12 @@ keywords:
 - présélections dans les visualisations, échantillon lumineux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d24841c95c3fc1029aa0c405e90b329799fdbe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03828614093836c5f9a3b422167b62f11b8f2489eb30556d42a2d80495935ec5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863909"
 ---
 # <a name="changing-presets"></a>Modification des présélections
 
@@ -80,7 +80,7 @@ Les ressources suivantes ont été définies dans Resource. h pour autoriser tro
 
 
 
-Notez que vous devez également modifier le numéro de ressource de la **\_ \_ \_ \_ valeur APS Next SYMED** sur 106.
+notez que vous devez également modifier le numéro de ressource de **\_ APS \_ prochaine \_ \_ valeur SYMED** en 106.
 
 ## <a name="resource-file"></a>Fichier de ressources
 
@@ -103,9 +103,9 @@ Les chaînes suivantes doivent être modifiées dans le fichier Glowdll. RC pour
 [**L’exemple lueur**](the-glow-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

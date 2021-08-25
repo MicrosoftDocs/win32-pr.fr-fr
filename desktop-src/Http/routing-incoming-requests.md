@@ -4,12 +4,12 @@ description: L’API du serveur HTTP gère une base de données de routage pour 
 ms.assetid: 7c613137-66bd-4375-93cb-b5562823bc12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da483030441f3a9239eef153da59212166bce9eb
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: e40feab96a913da895633bddd8e53697b6aeef959162da054da22aeeedef652a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829959"
 ---
 # <a name="routing-incoming-requests"></a>Routage des demandes entrantes
 
@@ -45,9 +45,9 @@ Si la meilleure correspondance est une entrée de réservation, cela signifie qu
 
 Une demande entrante pour `https://adatum.com:80/vroot/file.htm/` n’est pas remise à l’application 1 car la meilleure correspondance correspond à l’entrée de réservation pour l’utilisateur B. Dans ce cas, les règles de précédence sont appliquées à la réservation qui a une priorité plus élevée. Si aucun processus actif n’est autorisé et inscrit aux demandes de service pour l’URL reçue, la demande est rejetée avec un code d’état 400 (demande incorrecte).
 
- 
+ 
 
- 
+ 
 
 
 

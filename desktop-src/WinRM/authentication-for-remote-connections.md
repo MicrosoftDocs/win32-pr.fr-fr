@@ -1,6 +1,6 @@
 ---
 title: Authentification des connexions à distance
-description: Windows Remote Management assure la sécurité de la communication entre les ordinateurs en prenant en charge plusieurs méthodes standard d’authentification et de chiffrement des messages.
+description: Windows La gestion à distance maintient la sécurité pour la communication entre les ordinateurs en prenant en charge plusieurs méthodes standard d’authentification et de chiffrement des messages.
 ms.assetid: 97a13b07-ae7a-4d2f-8841-77a22c91b204
 ms.tgt_platform: multiple
 ms.topic: article
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0e9aa125f2ccf5d8c224eee645a6dba1ec2fd96e
-ms.sourcegitcommit: 25c6d442ab55cbf0e065398a006b1d409349fffd
+ms.openlocfilehash: 0622f3d80e923f7d910740c71ee99f0e9a0bc446cea259b292e2d645e3b5a973
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "104030943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858873"
 ---
 # <a name="authentication-for-remote-connections"></a>Authentification des connexions à distance
 
-Windows Remote Management assure la sécurité de la communication entre les ordinateurs en prenant en charge plusieurs méthodes standard d’authentification et de chiffrement des messages.
+Windows La gestion à distance maintient la sécurité pour la communication entre les ordinateurs en prenant en charge plusieurs méthodes standard d’authentification et de chiffrement des messages.
 
 ## <a name="default-group-access"></a>Accès au groupe par défaut
 
@@ -43,7 +43,7 @@ Si vous fournissez des informations d’identification explicites avec un objet 
 
 Si vous spécifiez l’authentification Negotiate, Digest ou de base et que vous ne parvenez pas à fournir un objet [**ConnectionOptions**](connectionoptions.md) , vous recevrez une erreur indiquant que des informations d’identification explicites sont requises. Si le protocole HTTPs n’est pas le transport, l’ordinateur distant cible doit être configuré dans la liste des ordinateurs hôtes approuvés.
 
-Pour plus d’informations sur les types d’authentification activés dans les paramètres de configuration par défaut, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+pour plus d’informations sur les types d’authentification activés dans les paramètres de configuration par défaut, consultez [Installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 ## <a name="basic-authentication"></a>Authentification de base
 
@@ -55,11 +55,11 @@ Pour établir explicitement l’authentification [*Digest*](windows-remote-manag
 
 ## <a name="negotiate-authentication"></a>Négocier l’authentification
 
-Pour établir explicitement l’authentification par [*négociation*](windows-remote-management-glossary.md) , également appelée authentification intégrée de Windows, dans l’appel à [**WSMan. CreateSession**](wsman-createsession.md), définissez l’indicateur **WSManFlagUseNegotiate** dans le paramètre *Flags* .
+pour établir explicitement l’authentification par [*négociation*](windows-remote-management-glossary.md) , également appelée authentification intégrée Windows, dans l’appel à [**WSMan. CreateSession**](wsman-createsession.md), définissez l’indicateur **WSManFlagUseNegotiate** dans le paramètre *flags* .
 
 Le [contrôle de compte d’utilisateur (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) affecte l’accès au service WinRM. Lorsque l’authentification Negotiate est utilisée dans un groupe de travail, seul le compte administrateur intégré peut accéder au service. Pour autoriser tous les comptes du groupe administrateurs à accéder au service, définissez la valeur de Registre suivante :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Policies** \\ **System** \\ **LocalAccountTokenFilterPolicy** = 1
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** les \\  \\ **stratégies** CurrentVersion \\ **système** \\ **LocalAccountTokenFilterPolicy** = 1
 
 ## <a name="kerberos-authentication"></a>Authentification Kerberos
 
@@ -76,13 +76,13 @@ Le mappage peut être créé pour un URI de ressource spécifique. Pour plus d�
 > [!Note]  
 > La taille maximale du certificat utilisable par WinRM dans ce contexte est de 16 Ko.
 
- 
+ 
 
 ## <a name="enabling-or-disabling-authentication-options"></a>Activation ou désactivation des options d’authentification
 
-L’option d’authentification par défaut lors de l’installation du système est Kerberos. Pour plus d’informations, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+L’option d’authentification par défaut lors de l’installation du système est Kerberos. pour plus d’informations, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
-Si votre script ou votre application requiert une méthode d’authentification spécifique qui n’est pas activée, vous devez modifier la configuration pour activer ce type d’authentification. Cette modification peut être effectuée à l’aide de l’outil de ligne de commande **WinRM** ou de stratégie de groupe pour l' **objet Windows Remote Management stratégie de groupe**. Vous pouvez également choisir de désactiver certaines méthodes d’authentification.
+Si votre script ou votre application requiert une méthode d’authentification spécifique qui n’est pas activée, vous devez modifier la configuration pour activer ce type d’authentification. cette modification peut être effectuée à l’aide de l’outil de ligne de commande **Winrm** ou de stratégie de groupe pour l' **objet Windows Remote Management stratégie de groupe**. Vous pouvez également choisir de désactiver certaines méthodes d’authentification.
 
 **Pour activer ou désactiver l’authentification avec l’outil WinRM**
 
@@ -98,18 +98,18 @@ Si votre script ou votre application requiert une méthode d’authentification 
 
 <dl> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
 [**WSMan. CreateSession**](wsman-createsession.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

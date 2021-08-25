@@ -4,12 +4,12 @@ ms.assetid: d4aef1f1-63c8-4e9a-9e22-5efbb8c523b2
 title: Élément supportsAdvancedQuerySyntax (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39d31eb96615c952f703729fd9d22f2e5d27f38b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8235c1021ae04cbbce65500ebf008f645ef74c1f2bb6ea7f3a9edfe4253e035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844509"
 ---
 # <a name="supportsadvancedquerysyntax-element-search-connector-schema"></a>Élément supportsAdvancedQuerySyntax (schéma du connecteur de recherche)
 
@@ -45,7 +45,7 @@ L' <supportsAdvancedQuerySyntax> élément boolean spécifie si le moteur de rec
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur `true` indique que le moteur de recherche prend en charge la syntaxe de requête avancée envoyée dans les requêtes de recherche.
 

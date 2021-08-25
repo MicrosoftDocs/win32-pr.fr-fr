@@ -4,12 +4,12 @@ ms.assetid: 6f5b2cc1-5415-4af8-a964-051a5af42680
 title: Conversion en Direct3D 9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: becdb878ad462bfc0157fb15b3c9c1ef2ba158dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0fdf5ec812ede4e9d5d356d36b01bbcfcc7732fdb5946e2a13af90c9d9428fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850529"
 ---
 # <a name="converting-to-direct3d-9"></a>Conversion en Direct3D 9
 
@@ -55,7 +55,7 @@ IDirect3DDevice8 :: CreateImageSurface a été renommé [**CreateOffscreenPlain
 
 ## <a name="d3denum_no_whql_level-changes"></a>D3DENUM \_ aucune \_ \_ modification du niveau WHQL
 
-Les applications doivent maintenant demander explicitement Microsoft Windows Hardware Quality Labs (WHQL), car la réponse est relativement longue (quelques secondes). D3DENUM \_ aucun \_ niveau WHQL n' \_ a été supprimé et le \_ niveau D3DENUM WHQL \_ a été ajouté.
+les Applications doivent maintenant demander explicitement Microsoft Windows Hardware Quality Labs (WHQL), car la réponse est relativement longue (quelques secondes). D3DENUM \_ aucun \_ niveau WHQL n' \_ a été supprimé et le \_ niveau D3DENUM WHQL \_ a été ajouté.
 
 ## <a name="create-resource-changes"></a>Créer des modifications de ressources
 
@@ -186,7 +186,7 @@ Le nombre d’échantillonneurs de texture disponibles pour l’application est 
 
 
 
-| Nom                    | Number                                                         |
+| Nom                    | Nombre                                                         |
 |-------------------------|----------------------------------------------------------------|
 | PS \_ 1 \_ 1 à PS \_ 1 \_ 3    | 4 échantillonneurs de texture                                             |
 | PS \_ 1 \_ 4                | 6 échantillonneurs de texture                                             |

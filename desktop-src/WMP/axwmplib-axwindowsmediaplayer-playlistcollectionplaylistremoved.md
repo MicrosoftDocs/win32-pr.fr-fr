@@ -3,7 +3,7 @@ title: Événement PlaylistCollectionPlaylistRemoved de l’objet AxWindowsMedia
 description: L’événement PlaylistCollectionPlaylistRemoved se produit lorsqu’une sélection est supprimée de la collection de sélections. | Événement PlaylistCollectionPlaylistRemoved de l’objet AxWindowsMediaPlayer
 ms.assetid: 96935a9e-4c08-42e9-a63f-7b6cda41b243
 keywords:
-- Événement PlaylistCollectionPlaylistRemoved de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement PlaylistCollectionPlaylistRemoved de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b982ff566380a7aa5bf4d0b1a1219739b52dd35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 170dd4291c1c60f0e20c548c611485cddd50f5ec51d3f244d21f3e046e5c0d4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119864570"
 ---
 # <a name="playlistcollectionplaylistremoved-event-of-the-axwindowsmediaplayer-object"></a>Événement PlaylistCollectionPlaylistRemoved de l’objet AxWindowsMediaPlayer
 
@@ -69,7 +69,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection. getByName (VB et C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)

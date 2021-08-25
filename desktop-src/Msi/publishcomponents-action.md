@@ -4,12 +4,12 @@ ms.assetid: 58d945d7-7dfb-4752-ae19-7e41caca1de7
 title: Action PublishComponents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9c8967e737193922a9dbc3d9e03bc95131d5a63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4840035677effff22189c357ad881c9abf2c061b169e4283037ca83df19347d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913119"
 ---
 # <a name="publishcomponents-action"></a>Action PublishComponents
 
@@ -32,7 +32,7 @@ Il n’existe aucune restriction de séquence.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’action PublishComponents publie tous les composants de la table PublishComponents qui appartiennent aux fonctionnalités sélectionnées pour la publication ou l’installation.
 

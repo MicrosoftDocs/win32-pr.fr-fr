@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer un contrôle List-View. Pour c
 ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3050498b87aaf701249a06cfe2c3ad18afdc1d84
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d71eddfb60a2ea035a5afe62423289da40a47b61841d3ba58c4cafa2824a65b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119826609"
 ---
 # <a name="how-to-create-a-list-view-control"></a>Comment créer un contrôle de List-View
 
@@ -17,16 +17,16 @@ Cette rubrique montre comment créer un contrôle List-View. Pour créer un cont
 
 Un contrôle List-View peut également être créé dans le cadre d’un modèle de boîte de dialogue. Vous devez spécifier [**WC \_ ListView**](common-control-window-classes.md) comme nom de classe. Pour utiliser un contrôle List-View dans le cadre d’un modèle de boîte de dialogue, vous devez appeler [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) ou [**InitCommonControlsEx**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrolsex) avant de créer une instance de la boîte de dialogue.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

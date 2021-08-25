@@ -3,7 +3,7 @@ title: Message TVM_SETTOOLTIPS (commctrl. h)
 description: Définit le contrôle d’info-bulle enfant d’un contrôle Tree-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetToolTips TreeView.
 ms.assetid: beb9a739-868e-46a8-95d9-9dc032c79dd4
 keywords:
-- TVM_SETTOOLTIPS les contrôles de message Windows
+- TVM_SETTOOLTIPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efd9d5957a38d873993405a5283545472433e958
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bd18a5217db0d105841722d208904c1b65199504750576acf1ff8035f31bd585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913959"
 ---
 # <a name="tvm_settooltips-message"></a>TVM \_ SETTOOLTIPS message
 
@@ -43,7 +43,7 @@ Handle d’un contrôle ToolTip.
 
 Retourne le handle du contrôle ToolTip précédemment défini pour le contrôle Tree-View, ou **null** si les info-bulles n’ont pas été utilisées précédemment.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En cas de création, les contrôles d’arborescence créent automatiquement un contrôle ToolTip enfant. Pour empêcher l’affichage d’un contrôle d’arborescence à l’aide d’info-bulles, créez le contrôle avec le style [**TV \_ noInfos**](tree-view-control-window-styles.md) .
 
@@ -53,8 +53,8 @@ En cas de création, les contrôles d’arborescence créent automatiquement un 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

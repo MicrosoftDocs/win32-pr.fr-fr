@@ -1,5 +1,5 @@
 ---
-description: Le \_ fuseau horaire Win32&\# 8194 ; La classe WMI représente les informations de fuseau horaire pour un système informatique exécutant Windows, qui comprend les modifications requises pour la transition vers l’heure d’été.
+description: Le \_ fuseau horaire Win32&\# 8194 ; la classe WMI représente les informations de fuseau horaire pour un système informatique exécutant Windows, qui comprend les modifications requises pour la transition vers la transition à l’heure d’été.
 ms.assetid: c1c7731e-768f-42ea-a36c-57b00df6848e
 ms.tgt_platform: multiple
 title: Classe Win32_TimeZone
@@ -38,16 +38,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 433682f045ca7fb127c7dc69e3a26ed8356371ed
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02b6d9d5c6100a652cf50096f5ef513fc164cfcfd2d8036e8444adc702459d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827659"
 ---
 # <a name="win32_timezone-class"></a>\_Classe TimeZone Win32
 
-La  [classe WMI](../wmisdk/retrieving-a-class.md) de **\_ fuseau horaire Win32** représente les informations de fuseau horaire pour un système informatique exécutant Windows, qui comprend les modifications requises pour la transition vers l’heure d’été.
+la  [classe WMI](../wmisdk/retrieving-a-class.md) de **\_ fuseau horaire Win32** représente les informations de fuseau horaire pour un système informatique exécutant Windows, qui comprend les modifications requises pour la transition vers la transition à l’heure d’été.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -108,7 +108,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Time structures \| [**\_ \_ information fuseau horaire**](/windows/win32/api/timezoneapi/ns-timezoneapi-time_zone_information) \| Bias"), [**unités**](../wmisdk/standard-qualifiers.md) ("minutes")
 </dt> </dl>
 
-Décalage actuel pour la traduction de l’heure locale. Le biais correspond à la différence entre le temps universel coordonné (UTC, Universal Time Coordinated) et l’heure locale. Toutes les traductions entre l’heure UTC et l’heure locale sont basées sur la formule suivante : UTC = heure locale. Cette propriété est requise.
+Décalage actuel pour la traduction de l’heure locale. Le biais correspond à la différence entre le temps universel coordonné (UTC, Universal Time Coordinated) et l’heure locale. Toutes les traductions entre l’heure UTC et l’heure locale sont basées sur la formule suivante : UTC = heure locale. Cette propriété est obligatoire.
 
 </dd> <dt>
 
@@ -785,7 +785,7 @@ Exemple : 1997
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ TimeZone** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 

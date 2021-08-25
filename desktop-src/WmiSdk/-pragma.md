@@ -5,14 +5,14 @@ ms.tgt_platform: multiple
 title: '#pragma'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ae13d5f960e0b415f34dce97a40cff6cba8056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3cb9541ceef51119ce521244282920ca88397afe13290e99bdc14ce7d98ab55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860559"
 ---
-# <a name="pragma"></a>\#pragma
+# <a name="pragma"></a>\#Bali
 
 La commande de préprocesseur **\# pragma** est semblable à un commutateur de ligne de commande. Toutefois, vous n’avez pas besoin de réentrer une commande **\# pragma** chaque fois que vous compilez un fichier MOF. L’exemple suivant illustre la syntaxe de commande **\# pragma** :
 

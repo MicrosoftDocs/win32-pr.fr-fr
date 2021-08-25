@@ -1,17 +1,17 @@
 ---
 description: Lorsque la fonction CreateFile ouvre un handle vers une ressource de communication série, le système initialise et configure la ressource en fonction des valeurs configurées lors de la dernière ouverture de la ressource.
 ms.assetid: a39881d8-32af-4846-a2d3-508f1945b666
-title: Modification des paramètres des ressources de communication
+title: Modification des Paramètres de ressources de communication
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8658029470fae9ee2d70ffb1459312c3c4d80ecf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02a4658c58c07dfbd7ffe8ba7977db587211d3422359677999db312d05bd2c79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119911983"
 ---
-# <a name="modification-of-communications-resource-settings"></a>Modification des paramètres des ressources de communication
+# <a name="modification-of-communications-resource-settings"></a>Modification des Paramètres de ressources de communication
 
 Lorsque la fonction [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) ouvre un handle vers une ressource de communication série, le système initialise et configure la ressource en fonction des valeurs configurées lors de la dernière ouverture de la ressource. Conserver les paramètres précédents permet à l’utilisateur de conserver les paramètres spécifiés par le biais d’une commande **mode** lorsque l’appareil est rouvert. Les valeurs héritées de l’opération d’ouverture précédente incluent les paramètres de configuration du bloc de contrôle de périphérique (structure [**DCB**](/windows/desktop/api/Winbase/ns-winbase-dcb) ) et les valeurs de délai d’attente utilisées dans les opérations d’e/s. Si l’appareil n’a jamais été ouvert, il est configuré avec les paramètres par défaut du système.
 

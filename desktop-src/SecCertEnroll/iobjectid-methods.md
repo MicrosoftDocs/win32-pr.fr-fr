@@ -4,12 +4,12 @@ ms.assetid: F3E9B573-8A6D-4BFB-8F03-D81698574BBC
 title: Méthodes IObjectId
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 744718b06e5623176512075d0c846243760806c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb42e46e3f3de17e1840fb3df39bdfdf67111e93eb008797192245e8e8f56188
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960439"
 ---
 # <a name="iobjectid-methods"></a>Méthodes IObjectId
 

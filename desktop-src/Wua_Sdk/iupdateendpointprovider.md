@@ -11,12 +11,12 @@ api_name:
 - IUpdateEndpointProvider
 api_type:
 - COM
-ms.openlocfilehash: 81e9481f5233fac05e7fa7bdf3afa53c4c55513a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2242e30ccd64c0252d5a1ea97eedd865f9e80bee2c58f749ca6d2eabd64c6167
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896839"
 ---
 # <a name="iupdateendpointprovider-interface"></a>Interface IUpdateEndpointProvider
 
@@ -42,7 +42,7 @@ L’interface **IUpdateEndpointProvider** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WUA appelle la méthode [**GetServiceEndpoint**](iupdateendpointauthprovider-getserviceendpoint.md) pour démarrer le processus de négociation. Lorsque l’appel est effectué, WUA passe les types de jetons inscrits et l’implémentation de cette interface retourne les types de jetons qu’il préfère utiliser.
 

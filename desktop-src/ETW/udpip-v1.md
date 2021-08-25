@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 5035cd764c1b3a7eb0943622897d97684ec8bd61
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f7eca611161e049b3704a37cec5b9324df6348e30fb457d0053c4cbb4085ca3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914329"
 ---
 # <a name="udpip_v1-class"></a>\_Classe UdpIp v1
 
@@ -38,7 +38,7 @@ class UdpIp_V1 : MSNT_SystemTrace
 
 La classe **UdpIp \_ v1** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 **Windows Server 2003 :** Contient le qualificateur de classe EventVersion (1).
 
@@ -48,8 +48,8 @@ La classe **UdpIp \_ v1** ne définit aucun membre.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 

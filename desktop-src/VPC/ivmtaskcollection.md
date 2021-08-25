@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ff7a4b12b936f2b5c72a73818eca0f927eef12
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 150f5079258e551360f574cfd9fa0a8895d3673f5d6b38ea6a5e1c866cfbf1ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958799"
 ---
 # <a name="ivmtaskcollection-interface"></a>Interface IVMTaskCollection
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit la collection d’objets Task. Pour obtenir un objet **IVMTaskCollection** , utilisez la propriété [**IVMVirtualPC :: Tasks**](ivmvirtualpc-tasks.md) .
 
@@ -43,7 +43,7 @@ L’interface **IVMTaskCollection** possède les propriétés suivantes.
 | Propriété                                                   | Type d’accès          | Description                                                         |
 |:-----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------|
 | [**\_NewEnum**](ivmtaskcollection--newenum.md)<br/> | Lecture seule<br/> | Énumérateur de la collection.<br/>                        |
-| [**Saut**](ivmtaskcollection-count.md)<br/>        | Lecture seule<br/> | Nombre de tâches de cette collection.<br/>                  |
+| [**Count**](ivmtaskcollection-count.md)<br/>        | Lecture seule<br/> | Nombre de tâches de cette collection.<br/>                  |
 | [**Élément**](ivmtaskcollection-item.md)<br/>          | Lecture seule<br/> | Objet de tâche qui correspond à l’index spécifié.<br/> |
 
 
@@ -56,7 +56,7 @@ L’interface **IVMTaskCollection** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

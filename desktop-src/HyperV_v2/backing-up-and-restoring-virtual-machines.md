@@ -4,12 +4,12 @@ ms.assetid: 94C67F22-658D-49DD-9588-6BB4FCF7ADA9
 title: Sauvegarde et restauration de machines virtuelles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9cf6d5b80a4c7392fb38e893a4fafad3f90435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecf5a0db5bf6956557c22445d5745dbaede03389cf6ead7467b32b65e76c59b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914039"
 ---
 # <a name="backing-up-and-restoring-virtual-machines"></a>Sauvegarde et restauration de machines virtuelles
 
@@ -71,7 +71,7 @@ L’enregistreur VSS Hyper-V ne prend pas en compte les ordinateurs virtuels qui
 
 ## <a name="details-on-the-hyper-v-vss-writer"></a>Détails sur l’enregistreur VSS Hyper-V
 
-Nom de l’enregistreur : Microsoft Hyper-V l’enregistreur VSS
+nom de l’enregistreur : Microsoft Hyper-V l’enregistreur VSS
 
 ID de l’enregistreur : 66841CD4-6DED-4F4B-8F17-FD23F8DDC3DE
 

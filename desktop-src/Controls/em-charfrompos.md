@@ -3,7 +3,7 @@ title: Message EM_CHARFROMPOS (winuser. h)
 description: Obtient des informations sur le caractère le plus proche d’un point spécifié dans la zone cliente d’un contrôle d’édition. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: fe9f96f2-5b3c-4039-befd-5e9a456ba32d
 keywords:
-- EM_CHARFROMPOS les contrôles de message Windows
+- EM_CHARFROMPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1156d69c012faa0141726c00ab880d954fe2857
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3a133907b29857abdc1663d3283bc4b4164878f3fa0976769e6d42daef2c4cb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915959"
 ---
 # <a name="em_charfrompos-message"></a>\_Message CHARFROMPOS em
 
@@ -53,7 +53,7 @@ Coordonnées d’un point dans la zone cliente du contrôle. Les coordonnées so
 
 **Contrôles d’édition :** [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) spécifie l’index de base zéro du caractère le plus proche du point spécifié. Cet index est relatif au début du contrôle, et non au début de la ligne. Si le point spécifié est au-delà du dernier caractère du contrôle d’édition, la valeur de retour indique le dernier caractère dans le contrôle. [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) spécifie l’index de base zéro de la ligne qui contient le caractère. Pour les contrôles d’édition sur une seule ligne, cette valeur est égale à zéro. L’index indique le séparateur de lignes si le point spécifié est au-delà du dernier caractère visible d’une ligne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 1,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 
@@ -65,8 +65,8 @@ Si un point est passé à **em \_ CHARFROMPOS** comme *lParam* et que le point s
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

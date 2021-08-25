@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 967bd9674cb28363804b8c8af12c541bcb8675ff
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ad24ad2557401509c1bc1e076a545f05d1c03dd79fbcf73a05d3efccfdfb8886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119910669"
 ---
 # <a name="idelaydcdisconnect-method"></a>IDelaydC ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -50,13 +50,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR**</dt> </dl>      | Le NPP capture des données. Vous ne pouvez pas déconnecter le NPP du réseau lors d’une capture.<br/>            |
 | <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau.<br/>                                                               |
-| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>   | Le NPP est connecté au réseau, mais pas avec la méthode [IDelaydC :: Connect](idelaydc-connect.md) .<br/> |
+| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>   | le NPP est connecté au réseau, mais pas avec la méthode [IDelaydC :: Connecter](idelaydc-connect.md) .<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode **IDelaydC :: Stop** avant d’appeler **Disconnect**.
 
@@ -80,7 +80,7 @@ Cette méthode ne peut pas être appelée lorsque le NPP capture des données. V
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC :: Connect](idelaydc-connect.md)
+[IDelaydC :: Connecter](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC :: Stop](idelaydc-stop.md)

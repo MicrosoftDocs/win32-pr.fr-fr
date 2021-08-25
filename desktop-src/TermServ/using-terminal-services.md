@@ -7,21 +7,21 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac575a89d1ae8c7c065199aca136f2f0e5fc7459
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7d0af90aef8eed3c8b9dc397f86cb6940a79e8e399af201ff854cbfaba3ff3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106540750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868769"
 ---
 # <a name="using-remote-desktop-services"></a>Utilisation de Services Bureau à distance
 
-Les sections suivantes décrivent comment programmer dans l’environnement Services Bureau à distance et comment étendre la technologie Services Bureau à distance (anciennement appelée services Terminal Server) au Web à l’aide de Connexion Bureau à distance par le Web. Si vous recherchez des informations sur l’utilisateur pour les connexions Bureau à distance, consultez [se connecter à un autre ordinateur à l’aide de connexion Bureau à distance](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7).
+Les sections suivantes décrivent comment programmer dans l’environnement Services Bureau à distance et comment étendre la technologie Services Bureau à distance (anciennement appelée services Terminal Server) au Web à l’aide de Connexion Bureau à distance par le Web. si vous recherchez des informations sur l’utilisateur pour les connexions Bureau à distance, consultez [Connecter vers un autre ordinateur à l’aide de Connexion Bureau à distance](https://windows.microsoft.com/windows/connect-using-remote-desktop-connection#connect-using-remote-desktop-connection=windows-7).
 
 > [!Note]  
 > Cette rubrique est destinée aux développeurs de logiciels.
 
- 
+ 
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -30,7 +30,7 @@ Les sections suivantes décrivent comment programmer dans l’environnement Serv
 [Détection de l’installation du rôle Services Bureau à distance](detecting-whether-terminal-services-is-installed.md)
 </dt> <dd>
 
-Exemple de code C# qui montre une méthode qui retourne la **valeur true** si le rôle serveur services Bureau à distance est installé et en cours d’exécution ou **false** dans le cas contraire, à partir de Windows Server 2008.
+exemple de code C# qui montre une méthode qui retourne la **valeur True** si le rôle serveur Services Bureau à distance est installé et en cours d’exécution ou **false** dans le cas contraire, en commençant par Windows server 2008.
 
 </dd> <dt>
 
@@ -44,7 +44,7 @@ Vous pouvez étendre session Broker TS à l’aide de l’interface [**IWTSSBPlu
 [Implémentation d’un énumérateur de point de terminaison audio personnalisé](implementing-an-audio-endpoint-enumerator.md)
 </dt> <dd>
 
-À partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.
+à partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.
 
 </dd> <dt>
 
@@ -95,9 +95,9 @@ Pour plus d’informations, consultez [services Bureau à distance les instructi
 [Détection de l’environnement de Services Bureau à distance](detecting-the-terminal-services-environment.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: ECBAF8EF-5D91-46D8-9D6E-A7FA4203B9F8
 ms.date: 11/26/2018
 ms.localizationpriority: high
 ms.topic: article
-ms.openlocfilehash: eaf451f91d51cfa6e900f328898c3418f0974a2d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a99174515883f8995167a7b866ab1ef8b77b56f7a0be2bb83f960abd06e47713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851399"
 ---
 # <a name="capability-querying"></a>Interrogation des fonctionnalités
 
@@ -93,6 +93,6 @@ Pour afficher les tableaux des formats de DXGI et des fonctionnalités matériel
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Liaison de ressource dans Direct3D 12](resource-binding.md)
+* [Liaison de ressource dans Direct3D 12](resource-binding.md)
 * [Niveaux de fonctionnalité matérielle](hardware-feature-levels.md)
 * [Signatures racines](root-signatures.md)

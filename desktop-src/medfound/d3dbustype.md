@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 807e5a57c4abbf57c241643a3e7fea47606fbf75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cece215946406bedcca2cbfdd2b64bfdb5df00208b2d84cf2aa90fdb89b516bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828379"
 ---
 # <a name="d3dbustype-enumeration"></a>Énumération D3DBUSTYPE
 
@@ -126,7 +126,7 @@ L’un des indicateurs modificateur de \_ modificateur D3DBUSIMPL \_ \_ xxx est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Jusqu’à trois indicateurs peuvent être définis. Les indicateurs dans la plage 0x00 à 0x04 (**D3DBUSTYPE \_ xxx**) fournissent le type de bus de base. Les indicateurs dans la plage 0x10000 à 0x50000 **( \_ modificateur D3DBUSIMPL \_ xxx**) modifient la description de base. Le pilote définit un indicateur de type bus et peut définir zéro ou un indicateur de modificateur. Si le pilote définit un indicateur de modificateur, il définit également l’indicateur **D3DBUSIMPL \_ modificateur \_ non \_ standard** . Les indicateurs sont combinés avec une **opération or** au niveau du bit.
 
@@ -136,8 +136,8 @@ Jusqu’à trois indicateurs peuvent être définis. Les indicateurs dans la pla
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h (inclure d3d9. h)</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cc2f24071d5ab864e06686f094707d9111ea07ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2c3740d1c87b5d74968d0bc4eb92ed8246c9a3c2a0a42a3b0c434c74f306a203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119878979"
 ---
 # <a name="geteffectivepermission-method-of-the-win32_codecfile-class"></a>Méthode GetEffectivePermission de la \_ classe Win32 CodecFile
 

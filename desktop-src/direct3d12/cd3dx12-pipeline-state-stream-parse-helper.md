@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44cc6228f690abd677e1adc8552293e440452ec5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d20c34fb2c32cc588a12ac820cd80083d3c3139fa85cbf36810379a21618e80c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119851249"
 ---
 # <a name="cd3dx12_pipeline_state_stream_parse_helper-structure"></a>\_ \_ \_ \_ \_ Structure d’assistance d’analyse du flux d’État du pipeline CD3DX12
 
@@ -256,7 +256,7 @@ Ne fait rien.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’il est passé en tant que deuxième paramètre à la fonction [**D3DX12ParsePipelineStream**](d3dx12parsepipelinestream.md) , les détails de l’objet STREAM1 interne de l' [**\_ \_ état \_ du pipeline CD3DX12**](cd3dx12-pipeline-state-stream1.md) sont clonés à partir du flux de données d' [**\_ État du pipeline \_ \_ \_ D3D12**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_pipeline_state_stream_desc) passé comme premier paramètre. Ce processus valide la description du flux source. Si D3DX12ParsePipelineStream retourne la valeur **\_ OK**, la description du flux source et les **STREAM1PipelineStream d' \_ \_ État de \_ pipeline CD3DX12** résultants sont valides ; sinon, les deux ne sont pas valides. Les flux non valides et les autres erreurs sont signalés uniquement via la valeur de retour de D3DX12ParsePipelineStream ; Cette structure implémente les rappels d’erreur pour ne rien faire.
 

@@ -4,12 +4,12 @@ ms.assetid: 6be1e12f-7d4a-4564-88ae-14fd71fd2cf9
 title: Exemple ASFParser
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159b481e22d77b0bee9adccbbb74073398c12b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50db441be45d28899bc8f2ace68b8f09af40e679449d26aec7adf25ab4fb9e2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959549"
 ---
 # <a name="asfparser-sample"></a>Exemple ASFParser
 
@@ -29,7 +29,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 -   [**IMFASFIndexer**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer)
 -   [**IMFASFSplitter**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 1.  Pour ouvrir un fichier ASF, cliquez sur le bouton **ouvrir le fichier multimédia..** ..
 2.  Sélectionnez un fichier ASF, puis cliquez sur **ouvrir**. Les informations relatives au fichier s’affichent dans le volet d' **informations** .
@@ -54,7 +54,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/asfparser).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

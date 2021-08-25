@@ -21,16 +21,16 @@ keywords:
 - récepteurs Push
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a62548f159172f58d4f52b0289c5adbfef02f55
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: eb72479a231c3db508efcea7db54528c0b1bf9635afba8b842a4c23add0456cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807899"
 ---
 # <a name="sinks"></a>Récepteurs
 
-L’objet Writer du kit de développement logiciel (SDK) du format Windows Media fournit le contenu traité aux récepteurs. Chaque récepteur est un objet qui fournit des données. Le point de remise dépend du type de récepteur. Il existe trois types de récepteurs : les récepteurs de fichiers, les récepteurs réseau et les récepteurs de notifications push.
+l’objet writer du kit de développement logiciel (SDK) Windows Media Format fournit le contenu traité aux récepteurs. Chaque récepteur est un objet qui fournit des données. Le point de remise dépend du type de récepteur. Il existe trois types de récepteurs : les récepteurs de fichiers, les récepteurs réseau et les récepteurs de notifications push.
 
 ## <a name="file-sinks"></a>Récepteurs de fichiers
 
@@ -47,7 +47,7 @@ Les récepteurs réseau diffusent du contenu vers une adresse réseau. La lectur
 
 ## <a name="push-sinks"></a>Récepteurs Push
 
-Les récepteurs de notifications push délivrent le contenu du writer à un serveur exécutant Windows Media Services. Les récepteurs de notifications push sont généralement utilisés dans les scénarios où un ordinateur encode le contenu dynamique et le remet à un ou plusieurs serveurs pour une distribution étendue. L’utilisation d’un récepteur de notifications Push vous permet de dédier des ordinateurs à des tâches spécifiques, économisant ainsi la bande passante et la puissance de traitement sur chaque serveur.
+les récepteurs de notifications Push délivrent le contenu du writer à un serveur exécutant Services Windows Media. Les récepteurs de notifications push sont généralement utilisés dans les scénarios où un ordinateur encode le contenu dynamique et le remet à un ou plusieurs serveurs pour une distribution étendue. L’utilisation d’un récepteur de notifications Push vous permet de dédier des ordinateurs à des tâches spécifiques, économisant ainsi la bande passante et la puissance de traitement sur chaque serveur.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ Les récepteurs de notifications push délivrent le contenu du writer à un serv
 [**Utilisation des récepteurs d’écriture**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

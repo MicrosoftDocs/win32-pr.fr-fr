@@ -1,18 +1,18 @@
 ---
-title: Création et enregistrement de listes de commandes et de bundles
+title: Création et enregistrement des listes de commandes et des offres groupées
 description: Cette rubrique décrit l’enregistrement des listes de commandes et des offres groupées dans les applications Direct3D 12. Les listes de commandes et les offres groupées permettent aux applications d’enregistrer des appels de dessin ou de modification d’État pour une exécution ultérieure sur l’unité de traitement graphique (GPU).
 ms.assetid: 0074B796-33A4-4AA1-A4E7-48A2A63F25B7
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ef2b54138cf3a08b85e3e8cc31f97cbe66abf6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 480819cbd421b30cbf54a58578c02056d37d7e36bf2ead845c19e438df54cbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850709"
 ---
-# <a name="creating-and-recording-command-lists-and-bundles"></a>Création et enregistrement de listes de commandes et de bundles
+# <a name="creating-and-recording-command-lists-and-bundles"></a>Création et enregistrement des listes de commandes et des offres groupées
 
 Cette rubrique décrit l’enregistrement des listes de commandes et des offres groupées dans les applications Direct3D 12. Les listes de commandes et les offres groupées permettent aux applications d’enregistrer des appels de dessin ou de modification d’État pour une exécution ultérieure sur l’unité de traitement graphique (GPU).
 
@@ -218,7 +218,7 @@ Les applications peuvent s’attendre à \_ voir \_ des erreurs de suppression d
 
 Certaines API de liste de commandes peuvent être appelées uniquement sur certains types de listes de commandes. Le tableau ci-dessous montre les API de liste de commandes qui peuvent être appelées sur chaque type de liste de commandes. Il montre également les API qui sont valides pour appeler dans une [**passe de rendu D3D12**](./direct3d-12-render-passes.md). 
 
-| Nom de l’API                                         | Graphiques | Compute | Copier | Bundle | Dans la passe de rendu |
+| Nom de l’API                                         | Graphiques | Calcul | Copier | Bundle | Dans la passe de rendu |
 |--------------------------------------------------|:--------:|:-------:|:----:|:------:|:--------------:|
 | AtomicCopyBufferUINT                             | ✓        | ✓       | ✓    |        |                |
 | AtomicCopyBufferUINT64                           | ✓        | ✓       | ✓    |        |                |
@@ -312,4 +312,4 @@ Si l’une de ces API est appelée sur un bundle, le runtime supprime l’appel.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
+[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)

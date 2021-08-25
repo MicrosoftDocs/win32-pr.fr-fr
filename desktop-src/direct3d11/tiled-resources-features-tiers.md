@@ -4,12 +4,12 @@ description: Direct3D 11,2 expose la prise en charge des ressources en mosaïque
 ms.assetid: E6A6565B-079B-47DB-A80C-CA5B5413BA32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2282cde1dfc8c4249672d18e303a4529338d4fbf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c1b76c1d90cc48210f02983817b317eb830224b8f87bb8b4904ee3e11d6cdd6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894379"
 ---
 # <a name="tiled-resources-features-tiers"></a>Niveaux de fonctionnalités des ressources en mosaïque
 

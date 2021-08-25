@@ -4,18 +4,18 @@ ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: Gestion des couleurs et schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9258d9dcc59ab24f9cfca8e170bf3f3f62841b21
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c3e7e5a86b9f598183a4b3765e1cc38836b4ee7bb62e1835e06575392771dc5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846383"
 ---
 # <a name="color-management-and-the-print-schema"></a>Gestion des couleurs et schéma d’impression
 
 Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Les mots clés d’éléments configurables par l’utilisateur peuvent être spécifiques au XPS ou non à XPS. Dans le cas où elles ne sont pas spécifiques à XPS, le mot clé peut être utilisé pour l’impression héritée basée sur GDI. Si une application décide de définir ces mots clés dans un PrintTicket, il revient au pilote de déterminer l’action et le comportement appropriés à prendre en fonction des définitions présentées dans le schéma d’impression. L’un de ces mots clés peut être utilisé dans le contexte d’ICM. Pour plus d’informations, consultez le kit de développement logiciel (SDK) Windows Vista.
+Les mots clés d’éléments configurables par l’utilisateur peuvent être spécifiques au XPS ou non à XPS. Dans le cas où elles ne sont pas spécifiques à XPS, le mot clé peut être utilisé pour l’impression héritée basée sur GDI. Si une application décide de définir ces mots clés dans un PrintTicket, il revient au pilote de déterminer l’action et le comportement appropriés à prendre en fonction des définitions présentées dans le schéma d’impression. L’un de ces mots clés peut être utilisé dans le contexte de ICM. pour plus d’informations, consultez le kit de développement logiciel (SDK) Windows Vista.
 
 
 
@@ -36,14 +36,14 @@ Les mots clés d’éléments configurables par l’utilisateur peuvent être sp
 
 ## <a name="pagecolormanagement-system-handling"></a>Gestion du système PageColorManagement
 
-Pour PageColorManagement, le système assure la gestion automatique de PrintTicket à DEVMODE ou DEVMODE à la conversion PrintTicket, si nécessaire. Cela dépend du chemin d’impression spécifique entre l’application (Win32 ou WPF) et le pilote (GDI ou XPSDrv). Dans le cas d’une impression à partir d’une application Windows Presentation Foundation sur un pilote d’impression Microsoft XPSDrv, une option publique PageColorManagement du système ne doit pas être publiée dans le document PrintTicket ou PrintCapabilities. dans ce cas, la gestion des couleurs ne peut pas être gérée automatiquement par le système. L’impression à partir d’une application Win32 sur un pilote d’impression Microsoft XPSDrv peut entraîner la gestion des couleurs entre l’application et GDI, toutefois, après la conversion au format XPS, il n’y aura pas de traitement automatique du système de gestion des couleurs entre le document XPS et le pilote et/ou le périphérique, car le format XPS-met en forme chaque élément avec des informations de couleur complètes, et il appartient au pilote ou à l’appareil de traiter ces informations.
+Pour PageColorManagement, le système assure la gestion automatique de PrintTicket à DEVMODE ou DEVMODE à la conversion PrintTicket, si nécessaire. Cela dépend du chemin d’impression spécifique entre l’application (Win32 ou WPF) et le pilote (GDI ou XPSDrv). dans le cas d’une impression à partir d’une application Windows Presentation Foundation sur un pilote d’impression Microsoft XPSDrv, une option publique PageColorManagement du système ne doit pas être publiée dans le document PrintTicket ou PrintCapabilities. dans ce cas, la gestion des couleurs ne peut pas être gérée automatiquement par le système. L’impression à partir d’une application Win32 sur un pilote d’impression Microsoft XPSDrv peut entraîner la gestion des couleurs entre l’application et GDI, toutefois, après la conversion au format XPS, il n’y aura pas de traitement automatique du système de gestion des couleurs entre le document XPS et le pilote et/ou le périphérique, car le format XPS-met en forme chaque élément avec des informations de couleur complètes, et il appartient au pilote ou à l’appareil de traiter ces informations.
 
 
 
 | Options publiques PageColorManagement | Valeur DEVMODE                  |
 |------------------------------------|--------------------------------|
 | Aucun<br/>                    | DMICMMETHOD \_ aucun<br/>   |
-| Périphérique<br/>                  | \_appareil DMICMMETHOD<br/> |
+| Appareil<br/>                  | \_appareil DMICMMETHOD<br/> |
 | Pilote<br/>                  | \_pilote DMICMMETHOD<br/> |
 | Système<br/>                  | \_système DMICMMETHOD<br/> |
 
@@ -53,7 +53,7 @@ Pour PageColorManagement, le système assure la gestion automatique de PrintTick
 
 ## <a name="pageicmrenderingintent-system-handling"></a>Gestion du système PageICMRenderingIntent
 
-Pour PageICMRenderingIntent, le système assure la gestion automatique de PrintTicket à DEVMODE ou DEVMODE à la conversion PrintTicket, si nécessaire. Cela dépend du chemin d’impression spécifique entre l’application (Win32 ou Windows Presentation Foundation) et le pilote (GDI ou XPSDrv).
+Pour PageICMRenderingIntent, le système assure la gestion automatique de PrintTicket à DEVMODE ou DEVMODE à la conversion PrintTicket, si nécessaire. cela dépend du chemin d’impression spécifique entre l’application (Win32 ou Windows Presentation Foundation) et le pilote (GDI ou XPSDrv).
 
 
 
@@ -82,7 +82,7 @@ Pour PageSourceColorProfile, une application peut spécifier un profil de couleu
 
 PageDeviceColorSpaceUsage est un élément configurable par l’utilisateur spécifique à XPS défini par l’application. Il fournit des instructions pour l’appareil en définissant l’option appropriée dans PrintTicket, pour la gestion des profils d’espace colorimétrique associés dans un document XPS. L’application et/ou le PrintTicket existant peut spécifier ce mot clé dans un PrintTicket envoyé à l’appareil. Qu’il soit présent ou non, il revient au pilote de déterminer le comportement de chaque cas, en fonction des définitions présentées dans le schéma d’impression.
 
-## <a name="print-schema-color-management-example-flow"></a>Exemple de workflow de gestion des couleurs du schéma d’impression
+## <a name="print-schema-color-management-example-flow"></a>Exemple de gestion des couleurs du schéma d’impression Flow
 
 Le diagramme suivant illustre le déroulement des scénarios les plus probables pour l’utilisation de la gestion des couleurs et du schéma d’impression. Pour des raisons de simplicité et de lisibilité, seuls les mots clés de schéma d’impression configurables suivants ont été utilisés pour illustrer leur utilisation : PageColorManagement, JobOptimalDestinaionColorProfile, PageSourceColorProfile et PageDestinationColorProfile. Une ligne pleine représente une action qui doit se produire et une ligne en pointillés représente une action qui peut se produire. Le scénario suivant n’est pas l’interaction garantie qui se traduira par l’application, le pilote et le système. Toutefois, il représente le cas d’utilisation le plus courant.
 

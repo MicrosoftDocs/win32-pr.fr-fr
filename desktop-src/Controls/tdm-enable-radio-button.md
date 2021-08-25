@@ -3,7 +3,7 @@ title: Message TDM_ENABLE_RADIO_BUTTON (commctrl. h)
 description: Active ou désactive une case d’option dans une boîte de dialogue de tâche.
 ms.assetid: da605ce0-b2d5-481a-a0e1-628ae5b65726
 keywords:
-- TDM_ENABLE_RADIO_BUTTON les contrôles de message Windows
+- TDM_ENABLE_RADIO_BUTTON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a78445158c5edc920eb329cdfc52d44f9cb7d6f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 493c6813f15baa3ad3b5ceb7050049f620010a9eed12d75d09b3c9f102aa62db
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876069"
 ---
 # <a name="tdm_enable_radio_button-message"></a>Message d’activation de la \_ \_ case d’option TDM \_
 
@@ -53,8 +53,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -1,6 +1,6 @@
 ---
 title: Recherche avec OLE DB
-description: Pour les clients Automation utilisant des ActiveX Data Objects (ADO) et tous les clients non-Automation, ADSI fournit un fournisseur OLE DB qui prend en charge un sous-ensemble d’interfaces de requête OLE DB.
+description: pour les clients automation utilisant des ActiveX Data Objects (ADO) et tous les clients non-automation, ADSI fournit un fournisseur OLE DB qui prend en charge un sous-ensemble d’interfaces de requête OLE DB.
 ms.assetid: f4e48b60-82dd-4c39-879b-0bc8f40747d2
 ms.tgt_platform: multiple
 keywords:
@@ -8,16 +8,16 @@ keywords:
 - interroge ADSI, en recherchant OLE DB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92b6b0c056a63174233271b9b059ebffa9d4d841
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 969dd544600bdb88b2c01b6b932f101f0b9508d7f3f54cd5e6728fd3e4dd5f6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828369"
 ---
 # <a name="searching-with-ole-db"></a>Recherche avec OLE DB
 
-Pour les clients Automation utilisant des ActiveX Data Objects (ADO) et tous les clients non-Automation, ADSI fournit un fournisseur OLE DB qui prend en charge un sous-ensemble d’interfaces de requête OLE DB. Le code client qui utilise déjà des interfaces OLE DB pour les requêtes peut utiliser les mêmes interfaces pour interroger les services d’annuaire.
+pour les clients automation utilisant des ActiveX Data Objects (ADO) et tous les clients non-automation, ADSI fournit un fournisseur OLE DB qui prend en charge un sous-ensemble d’interfaces de requête OLE DB. Le code client qui utilise déjà des interfaces OLE DB pour les requêtes peut utiliser les mêmes interfaces pour interroger les services d’annuaire.
 
 Dans le cadre de l’implémentation de OLE DB, un service d’annuaire est exposé en tant qu’objet de source de données. Les objets de source de données sont des fabriques pour les objets de session et prennent en charge [IDBInitialize](/previous-versions/windows/desktop/ms713706(v=vs.85)) pour se connecter à l’annuaire, [méthode IDBCreateSession](/previous-versions/windows/desktop/ms724076(v=vs.85)) pour créer l’objet de session, [IDBProperties](/previous-versions/windows/desktop/ms719607(v=vs.85)) pour fournir les données d’authentification à l’espace de noms sous-jacent et fournir la commande de requête et [**IPersist**](/windows/win32/api/objidl/nn-objidl-ipersist) pour enregistrer les données nécessaires pour créer l’objet de source de données dans le service d’annuaire sous-jacent
 
@@ -47,6 +47,6 @@ Pour lire les données de ligne non traitées retournées, utilisez la structure
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment rechercher des Active Directory à l’aide du fournisseur d’OLE DB ADSI, consultez [l’exemple de code pour l’utilisation de OLE DB pour rechercher des Active Directory](example-code-for-using-ole-db-to-search-active-directory.md).
 
- 
+ 
 
- 
+ 

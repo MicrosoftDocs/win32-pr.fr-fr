@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a15544650069ce9e10668bb7ce3d5e0d75299528
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5b71d442759e75cc7ce6139ecb099e80c428c2d1f37023b439e28668ef01384b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106543063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925599"
 ---
 # <a name="ms-ds-retired-repl-nc-signatures-attribute"></a>attribut ms-DS-retirée-REPL-NC-signatures
 
@@ -45,7 +45,7 @@ Informations sur les contextes d’attribution de noms qui ne sont plus conserv�
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

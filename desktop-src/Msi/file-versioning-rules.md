@@ -4,12 +4,12 @@ ms.assetid: e6f6d6a5-bdb0-4866-8d2c-56313d92c94c
 title: Règles de contrôle de version des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c6f8e59b4f15774f898217690dbb1c4d57b1bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8dfda6a909450ba45cc213016a159bbbc8f9a54b958c7d4e37d051fd86935ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828979"
 ---
 # <a name="file-versioning-rules"></a>Règles de contrôle de version des fichiers
 
@@ -17,9 +17,9 @@ Au cœur d’un programme d’installation se trouve l’installation réelle de
 
 -   Version
 -   Date
--   Language
+-   Langage
 
-Le programme d’installation n’utilise ces règles que lors de la tentative d’installation d’un fichier dans un emplacement qui contient déjà un fichier portant le même nom. Dans ce cas, le Windows Installer utilise les règles suivantes, toutes autres étant égales, pour déterminer s’il faut installer.
+Le programme d’installation n’utilise ces règles que lors de la tentative d’installation d’un fichier dans un emplacement qui contient déjà un fichier portant le même nom. dans ce cas, le Windows Installer utilise les règles suivantes, toutes autres étant égales, pour déterminer s’il faut installer.
 
 La version la plus élevée gagne, le fichier ayant la version la plus élevée gagne, même si le fichier sur l’ordinateur a la version la plus récente.
 

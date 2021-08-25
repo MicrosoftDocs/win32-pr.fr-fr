@@ -3,16 +3,16 @@ description: Décrit comment détecter si un ensemble d’API spécifique est di
 title: Détecter la disponibilité des ensembles d’API
 ms.topic: article
 ms.date: 10/14/2020
-ms.openlocfilehash: 7117ae82f142315a3e5f28065583381ef6af67f3
-ms.sourcegitcommit: 0c786b1682063d0cae0fc43180945183fa2c7981
+ms.openlocfilehash: cc4e26c6e59cfa0af095b297efb72a52d0be30a89a23d42d169e3bf45e72fd13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "104102545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896529"
 ---
 # <a name="detect-api-set-availability"></a>Détecter la disponibilité des ensembles d’API
 
-Dans certains cas, un nom de contrat d’ensemble d’API donné peut être mappé intentionnellement à un nom de module vide sur certains appareils Windows 10. Les raisons de cela varient, mais un exemple courant est qu’une fonctionnalité coûteuse en termes de ressources système peut être supprimée du système d’exploitation Windows lorsqu’elle est configurée pour un appareil à ressources restreintes. Cela pose un défi pour que les applications gèrent correctement les fonctionnalités facultatives au niveau de l’API.
+dans certains cas, un nom de contrat d’ensemble d’API donné peut être mappé intentionnellement à un nom de module vide sur certains appareils Windows 10. les raisons varient, mais un exemple courant est qu’une fonctionnalité coûteuse en termes de ressources système peut être supprimée du système d’exploitation Windows lorsqu’elle est configurée pour un appareil à ressources restreintes. Cela pose un défi pour que les applications gèrent correctement les fonctionnalités facultatives au niveau de l’API.
 
 L’approche traditionnelle pour tester si une API Win32 est disponible consiste à utiliser [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) ou [GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress). Toutefois, il ne s’agit pas d’un moyen fiable pour tester les jeux d’API en raison de la prise en charge du [transfert inverse](api-set-loader-operation.md#reverse-forwarding) dans Windows 10. Lorsque le transfert inverse est appliqué à une API donnée, **LoadLibrary** ou **GetProcAddress** peut être résolu en pointeur fonction valide même dans les cas où l’implémentation interne a été supprimée. Dans ce cas, le pointeur de fonction pointe vers une fonction stub qui retourne simplement une erreur.
 

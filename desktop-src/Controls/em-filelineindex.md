@@ -3,7 +3,7 @@ title: Message EM_FILELINEINDEX (CommCtrl. h)
 description: Obtient l’index de caractère du premier caractère d’une ligne spécifiée dans un contrôle d’édition multiligne, indépendamment de la façon dont les lignes sont affichées à l’écran.
 ms.assetid: vs|controls|~\controls\editcontrols\editcontrolreference\editcontrolmessages\em_lineindex.htm
 keywords:
-- EM_FILELINEINDEX les contrôles de message Windows
+- EM_FILELINEINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ce5f5ca07fc9fb9869898965422c7c8a6aa3fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df7c4bd1f21ee6bcdf7bec56828ea9c2996c837def614c0c537ef83ee053ebfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915609"
 ---
 # <a name="em_filelineindex-message-commctrlh"></a>Message EM_FILELINEINDEX (CommCtrl. h)
 
@@ -53,8 +53,8 @@ La valeur de retour est l’index de caractère de la ligne spécifiée dans le 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, 1809 \[ uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2019 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10, 1809 \[ applications de bureau uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2019 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>CommCtrl. h</dt> </dl> |
 
 

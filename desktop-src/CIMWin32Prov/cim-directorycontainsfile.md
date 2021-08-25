@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8bd1913352d19a1ed5889413eed5e7fc4640ac53
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 01707dfe4c0257803b864ce50ac05e792eabf8f30b7d944f5c2232526c8c65b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924259"
 ---
 # <a name="cim_directorycontainsfile-class"></a>\_Classe CIM DirectoryContainsFile
 
@@ -89,7 +89,7 @@ Un [**\_ fichier de fichier CIM**](cim-datafile.md) qui décrit les LogicalFile 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI implémente la classe **CIM \_ DirectoryContainsFile** , qui est une classe dynamique.
 

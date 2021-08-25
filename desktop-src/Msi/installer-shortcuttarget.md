@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 1c53d43188af9ed8f58ddd54916761e346f1bad1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b54e334314c0bfd0fb721b175d0a14894d8a509ea02ff36e324903bb1fdbffaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893999"
 ---
 # <a name="installershortcuttarget-property"></a>Installer. ShortcutTarget, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.ShortcutTarget
 
 Chemin d’accès complet et nom de fichier du fichier.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ShortcutTarget retourne un [**objet record**](record-object.md) qui contient trois champs :
 

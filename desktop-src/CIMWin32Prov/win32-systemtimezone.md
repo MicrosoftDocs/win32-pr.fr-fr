@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9ec294600fdc81f085bf29f5e664bcbec961417c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b94f6c6ff61acb526e972da54c55798524b39b1663dec1239e9e2dbae0110e6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119827749"
 ---
 # <a name="win32_systemtimezone-class"></a>\_Classe SystemTimeZone Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance représentant les propriétés de fuseau horaire sui
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ SystemTimeZone** est dérivée de [**Win32 \_ SystemSetting**](win32-systemsetting.md).
 
@@ -92,7 +92,7 @@ La classe **Win32 \_ SystemTimeZone** est dérivée de [**Win32 \_ SystemSetting
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
 | Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |

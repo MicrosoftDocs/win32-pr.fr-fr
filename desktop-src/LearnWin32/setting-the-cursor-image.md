@@ -4,12 +4,12 @@ description: Définition de l’image de curseur
 ms.assetid: FB223131-19AE-41DD-87DE-73992AE2A0CA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe3bc993b7566dee1fa47bd2b53c270ad0e4f64b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4723289155bc7898f6f49e188ad972ca152332c82994b57c79af493c8fe6b572
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896909"
 ---
 # <a name="setting-the-cursor-image"></a>Définition de l’image de curseur
 
@@ -58,12 +58,12 @@ Si vous modifiez le curseur, l’image de curseur se réinitialise au prochain d
 
 
 
-Ce code vérifie d’abord les 16 bits inférieurs de *lParam*. Si est `LOWORD(lParam)` égal à **HTCLIENT**, cela signifie que le curseur se trouve sur la zone cliente de la fenêtre. Dans le cas contraire, le curseur se trouve sur la zone non cliente. En règle générale, vous devez uniquement définir le curseur pour la zone cliente et laisser Windows définir le curseur pour la zone non cliente.
+Ce code vérifie d’abord les 16 bits inférieurs de *lParam*. Si est `LOWORD(lParam)` égal à **HTCLIENT**, cela signifie que le curseur se trouve sur la zone cliente de la fenêtre. Dans le cas contraire, le curseur se trouve sur la zone non cliente. en règle générale, vous devez uniquement définir le curseur pour la zone cliente et laisser Windows définir le curseur pour la zone non cliente.
 
 ## <a name="next"></a>Suivant
 
 [Entrée utilisateur : exemple étendu](user-input--extended-example.md)
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message LVM_GETGROUPINFOBYINDEX (commctrl. h)
 description: Obtient des informations sur un groupe spécifié. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetGroupInfoByIndex.
 ms.assetid: vs|controls|~\controls\listview\messages\lvm_getgroupinfobyindex.htm
 keywords:
-- LVM_GETGROUPINFOBYINDEX les contrôles de message Windows
+- LVM_GETGROUPINFOBYINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cff801eae55ab4b4194ef23e624ff6eff75fbc25
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 482683e9d1026c1deed17bf1f05310d63ac2127a6a2a6f32b5b5d95a0fbbea3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877399"
 ---
 # <a name="lvm_getgroupinfobyindex-message"></a>\_Message GETGROUPINFOBYINDEX LVM
 
@@ -55,8 +55,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

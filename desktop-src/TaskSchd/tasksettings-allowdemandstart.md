@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 657ba45e0809b74803e27de70fae52576fcf2a26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a48ecaf9010b4269ffff66b556d01cfccc057fd05207f619290af9e50f6c757f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959479"
 ---
 # <a name="tasksettingsallowdemandstart-property"></a>TaskSettings. AllowDemandStart, propriété
 
@@ -42,7 +42,7 @@ TaskSettings.AllowDemandStart As Boolean
 
 Si la valeur est true, la tâche peut être exécutée à l’aide de la commande exécuter ou du menu contextuel. Si la valeur est false, la tâche ne peut pas être exécutée à l’aide de la commande exécuter ou du menu contextuel. La valeur par défaut est True.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cette propriété a la valeur true, la tâche peut être démarrée indépendamment de la date à laquelle les déclencheurs démarrent la tâche.
 
@@ -54,8 +54,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, ce param
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 
