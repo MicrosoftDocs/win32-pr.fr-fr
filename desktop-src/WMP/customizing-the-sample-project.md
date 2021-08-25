@@ -1,26 +1,26 @@
 ---
-title: Personnalisation de l’exemple de projet
-description: Personnalisation de l’exemple de projet
+title: Personnalisation de l’exemple de Project
+description: Personnalisation de l’exemple de Project
 ms.assetid: 26031971-3d1b-4175-8fb3-f13b6c17dd01
 keywords:
-- Windows Media Player Online stores, personnalisation des exemples de projets
+- Lecteur Windows Media des magasins en ligne, personnalisation d’exemples de projets
 - magasins en ligne, personnalisation des exemples de projets
 - types 2 magasins en ligne, personnalisation des exemples de projets
-- Magasins en ligne du lecteur Windows Media, exemples de projets
+- Lecteur Windows Media des magasins en ligne, exemples de projets
 - magasins en ligne, exemples de projets
 - types 2 magasins en ligne, exemples de projets
 - personnalisation des exemples de projets
 - exemples, type 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aeec3ebcb74304cd5181783e9c457d6a149b0cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fdb57327904d81ac85114af0df9037d6c2c054938f16048f6ca72e711063cc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902079"
 ---
-# <a name="customizing-the-sample-project"></a>Personnalisation de l’exemple de projet
+# <a name="customizing-the-sample-project"></a>Personnalisation de l’exemple de Project
 
 Lorsque vous créez votre propre magasin en ligne, vous pouvez modifier les implémentations des méthodes suivantes dans le fichier nommé YourProject. cpp :
 
@@ -31,13 +31,13 @@ Lorsque vous créez votre propre magasin en ligne, vous pouvez modifier les impl
 -   **CYourProject ::D eviceavailable**. Utilisez cette fonction pour lancer des tâches liées à un appareil connecté.
 -   **CYourProject ::P repareforsync**. Utilisez cette fonction pour effectuer les tâches nécessaires juste avant de synchroniser des médias numériques sur l’appareil.
 -   **CYourProject :: serviceEvent**. Utilisez cette fonction pour commencer et terminer les tâches que vous souhaitez exécuter lorsque votre magasin en ligne est le magasin actif.
--   **CYourProject :: stopBackgroundProcessing**. Utilisez cette fonction pour arrêter les tâches de traitement en arrière-plan que vous avez démarrées lorsque le lecteur Windows Media a appelé **CYourProject :: startBackgroundProcessing**.
+-   **CYourProject :: stopBackgroundProcessing**. utilisez cette fonction pour arrêter les tâches de traitement en arrière-plan que vous avez démarrées quand Lecteur Windows Media appelée **CYourProject :: startBackgroundProcessing**.
 
 ## <a name="working-with-media-and-playlist-objects"></a>Utilisation d’objets multimédias et playlists
 
-La méthode **allowPlay** fournit un pointeur vers l’interface **IWMPMedia** en tant que paramètre. Cette interface est l’interface du lecteur Windows Media qui représente les objets multimédias. En appelant les méthodes sur cette interface, vous pouvez utiliser les attributs et les propriétés d’un élément multimédia individuel.
+La méthode **allowPlay** fournit un pointeur vers l’interface **IWMPMedia** en tant que paramètre. cette interface est l’interface Lecteur Windows Media qui représente les objets multimédias. En appelant les méthodes sur cette interface, vous pouvez utiliser les attributs et les propriétés d’un élément multimédia individuel.
 
-Les méthodes **allowCDBurn** et **allowPDATransfer** fournissent un pointeur vers l’interface **IWMPPlaylist** en tant que paramètre. Cette interface est l’interface du lecteur Windows Media qui représente les objets de sélection. En appelant les méthodes sur cette interface, vous pouvez utiliser les attributs et les propriétés d’une sélection, ajouter des éléments à une sélection ou supprimer des éléments d’une sélection.
+Les méthodes **allowCDBurn** et **allowPDATransfer** fournissent un pointeur vers l’interface **IWMPPlaylist** en tant que paramètre. cette interface est l’interface Lecteur Windows Media qui représente les objets de sélection. En appelant les méthodes sur cette interface, vous pouvez utiliser les attributs et les propriétés d’une sélection, ajouter des éléments à une sélection ou supprimer des éléments d’une sélection.
 
 Pour savoir comment supprimer un élément d’une sélection par programme, consultez l’implémentation de **CAllowBaseDialog <T> :: OnRemoveMediaFromPlaylist**. Pour en savoir plus sur l’utilisation des objets multimédias et playlist, consultez [modèle objet Player pour les langages de script](player-object-model-for-scripting-languages.md).
 
@@ -61,9 +61,9 @@ Vous souhaiterez probablement supprimer le code qui ouvre les boîtes de dialogu
 [**Création du plug-in pour un magasin de type 2 en ligne**](building-the-plug-in-for-a-type-2-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

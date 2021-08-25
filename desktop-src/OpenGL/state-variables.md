@@ -6,18 +6,18 @@ keywords:
 - OpenGL, variables d’État
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71d0dd43b0876630e9f913224afb63e3886a0e8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b83ec5581d649ac5c7bca63bddd22954641d83af624d72bad3095af04f3c981
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034619"
 ---
 # <a name="state-variables"></a>Variables d’État
 
 Cette section répertorie les variables qui peuvent être interrogées, leurs valeurs par défaut et les commandes permettant d’obtenir les valeurs de ces variables. Les variables d’État sont répertoriées dans les catégories suivantes :
 
--   [**DTS**](transformation-state-variables.md)
+-   [**Transformation**](transformation-state-variables.md)
 -   [**Coloration**](coloring-state-variables.md)
 -   [**Éclairage**](lighting-state-variables.md)
 -   [**Rastérisation**](rasterization-state-variables.md)
@@ -30,9 +30,9 @@ Cette section répertorie les variables qui peuvent être interrogées, leurs va
 -   [**Profondeur de pixel dépendante de l’implémentation**](implementation-dependent-pixel-depth-state-variables.md)
 -   [**Divers**](miscellaneous-state-variables.md)
 
- 
+ 
 
- 
+ 
 
 
 

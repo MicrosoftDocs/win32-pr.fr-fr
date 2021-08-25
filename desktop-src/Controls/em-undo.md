@@ -3,7 +3,7 @@ title: Message EM_UNDO (winuser. h)
 description: Ce message annule la dernière opération de contrôle d’édition dans la file d’attente d’annulation du contrôle. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: c4bff128-0383-40c5-8f29-7738f7f26871
 keywords:
-- EM_UNDO les contrôles de message Windows
+- EM_UNDO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c75d79e7ed25e582682830b1323c27878bbdbb3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 452d82e6d0685314a79f1f95cff487ee3f52e2d1b70925c3e6e72f9263f442e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047919"
 ---
 # <a name="em_undo-message"></a>\_Message d’annulation em
 
@@ -49,7 +49,7 @@ Dans le cas d’un contrôle d’édition sur une seule ligne, la valeur de reto
 
 Pour un contrôle d’édition multiligne, la valeur de retour est **true** si l’opération d’annulation réussit, ou **false** si l’opération d’annulation échoue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Edit Controls et Rich edit 1,0 :** Une opération d’annulation peut également être annulée. Par exemple, vous pouvez restaurer le texte supprimé avec le premier message d' **\_ annulation d’em** , puis supprimer le texte avec un deuxième message d' **\_ annulation em** tant qu’il n’y a pas d’opération de modification intermédiaire.
 
@@ -63,8 +63,8 @@ Pour un contrôle d’édition multiligne, la valeur de retour est **true** si l
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

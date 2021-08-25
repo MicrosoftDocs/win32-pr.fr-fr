@@ -4,21 +4,21 @@ description: ID, attribut (VML)
 ms.assetid: 39575a1c-f8ea-43e0-9ad5-540e9d803748
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a3925166a735b7813efd4cb9bc68f50bb8fa52
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bc0ba0addd2d6af8a8b38af4085c79123d3178a3299269468abd73fff1951d9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007858"
 ---
 # <a name="id-attribute-vml"></a>ID, attribut (VML)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Fournit un identificateur unique pour un élément. En lecture/écriture. **Chaîne**.
 
@@ -42,7 +42,7 @@ Utilisez **ID** pour faire référence à un élément spécifique. Une fois que
 
 L' **ID** est obligatoire pour utiliser l’élément [Typedeforme](msdn-online-vml-shapetype-element.md) .
 
-Lorsque VML est généré par Microsoft Office, si un nom de modèle objet est assigné à la forme, **ID** est défini sur ce nom. Si le nom du modèle objet n’est pas défini, le nom est généré à l’aide du *SPID* (ID de forme interne) plus un préfixe (S pour forme, M pour la forme principale, T pour Typedeforme).
+lorsque VML est généré par Microsoft Office, si un nom de modèle objet est assigné à la forme, **ID** est défini sur ce nom. Si le nom du modèle objet n’est pas défini, le nom est généré à l’aide du *SPID* (ID de forme interne) plus un préfixe (S pour forme, M pour la forme principale, T pour Typedeforme).
 
 *Attribut standard VML*.
 
@@ -70,6 +70,6 @@ Pour modifier les attributs d’une forme, vous devez d’abord attribuer un ID 
 
 [Exemple d’attribut d’ID](/previous-versions/office/developer/speech-technologies/ms872141(v=msdn.10)#example). (Nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

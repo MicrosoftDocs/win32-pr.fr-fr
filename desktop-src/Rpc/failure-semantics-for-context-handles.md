@@ -4,12 +4,12 @@ description: Cette rubrique décrit la sémantique d’échec pour les descripte
 ms.assetid: fcf28519-39ad-4823-bc27-f3502e4d540c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4528b3f5160b92a4e6f10dbcf877e9fec59f81b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9549a659c56c4761de8df4f43c54b823d32f74786af928821ba82b6effc3bba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021269"
 ---
 # <a name="failure-semantics-for-context-handles"></a>Sémantique d’échec pour les handles de contexte
 
@@ -17,11 +17,11 @@ Cette rubrique décrit la sémantique d’échec pour les descripteurs de contex
 
 ## <a name="failure-semantics-when-closing-the-context-handle-fails"></a>La sémantique d’échec lors de la fermeture du handle de contexte échoue
 
-Imaginez qu’une application cliente tente de fermer un handle de contexte ouvert sur le serveur, sans arrêter le processus client. Par ailleurs, supposons que l’appel au serveur pour fermer le descripteur de contexte échoue (par exemple, la mémoire du client est insuffisante). La méthode appropriée pour gérer cette situation consiste à appeler la fonction [**RpcSsDestroyClientContext**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext) . Dans ce cas, le client nettoie son côté du handle de contexte et abortively ferme la connexion au serveur. Étant donné que la connexion est en fait un pool de connexions (voir [RPC et le réseau](rpc-and-the-network.md)), qui est un compte de référence avec une référence pour chaque liaison ou handle de contexte ouvert, la destruction du descripteur de contexte en appelant la fonction **RpcSsDestroyClientContext** ne détruit pas réellement la connexion. Au lieu de cela, il décrémente le nombre de références pour le pool de connexions. Pour les connexions dans le pool à fermer, le client doit fermer tous les descripteurs de liaison et les handles de contexte sur ce serveur à partir du processus client. Ensuite, toutes les connexions du pool sont fermées et le mécanisme d’exécution du serveur est lancé et nettoyé.
+Imagine une application cliente tente de fermer un handle de contexte ouvert sur le serveur, sans arrêter le processus client. Par ailleurs, supposons que l’appel au serveur pour fermer le descripteur de contexte échoue (par exemple, la mémoire du client est insuffisante). La méthode appropriée pour gérer cette situation consiste à appeler la fonction [**RpcSsDestroyClientContext**](/windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext) . Dans ce cas, le client nettoie son côté du handle de contexte et abortively ferme la connexion au serveur. Étant donné que la connexion est en fait un pool de connexions (voir [RPC et le réseau](rpc-and-the-network.md)), qui est un compte de référence avec une référence pour chaque liaison ou handle de contexte ouvert, la destruction du descripteur de contexte en appelant la fonction **RpcSsDestroyClientContext** ne détruit pas réellement la connexion. Au lieu de cela, il décrémente le nombre de références pour le pool de connexions. Pour les connexions dans le pool à fermer, le client doit fermer tous les descripteurs de liaison et les handles de contexte sur ce serveur à partir du processus client. Ensuite, toutes les connexions du pool sont fermées et le mécanisme d’exécution du serveur est lancé et nettoyé.
 
 ## <a name="failure-semantics-during-change-of-state-of-the-context-handle"></a>Sémantique d’échec lors du changement d’État du handle de contexte
 
-Les informations contenues dans cette section font référence aux plateformes Windows XP et versions ultérieures.
+les informations contenues dans cette section font référence aux plateformes Windows XP et versions ultérieures.
 
 Les handles de contexte sont simplement des paramètres d’une fonction. Toutes les modifications de l’état d’un handle de contexte se produisent lorsque les paramètres sont marshalés ou démarshalés. Par exemple, si un client ouvre un handle de contexte (le remplace de **null** par une valeur non **null**), le runtime RPC n’ouvre pas en fait la partie RPC du handle tant que les arguments ne sont pas marshalés pour l’envoi au client. Des échecs peuvent se produire pendant l’intervalle de temps. En raison d’une variété de conditions réseau ou de ressources insuffisantes, la transmission du paquet au client peut échouer. Ou la routine du serveur peut lever une exception lors de la tentative de modification d’un handle de contexte. Dans ces cas de défaillance ou dans d’autres situations, le client et le serveur peuvent avoir des vues incohérentes du descripteur de contexte. Cette section décrit la règle pour l’état du descripteur de contexte et la responsabilité du code du client et du serveur pendant les différentes conditions d’échec.
 
@@ -69,9 +69,9 @@ Les handles de contexte sont simplement des paramètres d’une fonction. Toutes
 
     Le runtime RPC appelle la routine de la routine d’exécution du handle de contexte pour lui permettre de le nettoyer, et aucun nouveau contexte n’est créé sur le client.
 
- 
+ 
 
- 
+ 
 
 
 

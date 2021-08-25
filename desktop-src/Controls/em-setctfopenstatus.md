@@ -3,7 +3,7 @@ title: Message EM_SETCTFOPENSTATUS (RichEdit. h)
 description: Ouvre ou ferme le clavier Text Services Framework (TSF).
 ms.assetid: 9bdabf5a-93db-4b0e-9528-807d262de866
 keywords:
-- EM_SETCTFOPENSTATUS les contrôles de message Windows
+- EM_SETCTFOPENSTATUS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf4163a415f129dfc5d3f98aa06578d13bb462e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85ac27017abbadeb038f5b881aefe1aff394036931529c84c9c5a34a36e556c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048629"
 ---
 # <a name="em_setctfopenstatus-message"></a>\_Message SETCTFOPENSTATUS em
 
@@ -54,7 +54,7 @@ En cas de réussite, ce message retourne la **valeur true**. En cas d’échec, 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

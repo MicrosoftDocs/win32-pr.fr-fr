@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1fe42c2bbe15c75d5f38ea47119f9649e678931
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b2ae7cbbd71b4ccad24ecaa17d0fd635761f661bcd6dc95ebc0345e9164adcd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997299"
 ---
 # <a name="resourcelocatorfragmentdialect-property"></a>ResourceLocator. FragmentDialect, propriété
 
@@ -43,7 +43,7 @@ ResourceLocator.FragmentDialect As string
 
 Chaîne XML qui identifie le langage utilisé dans la propriété [**FragmentPath**](resourcelocator-fragmentpath.md) . La chaîne de dialecte est par défaut la spécification XPath 1,0. Pour plus d’informations, consultez [https://www.w3.org/TR/xpath](https://www.w3.org/TR/xpath).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**IWSManResourceLocator :: FragmentDialect**](/windows/desktop/api/WSManDisp/nf-wsmandisp-iwsmanresourcelocator-get_fragmentdialect) est la propriété C++ correspondante.
 

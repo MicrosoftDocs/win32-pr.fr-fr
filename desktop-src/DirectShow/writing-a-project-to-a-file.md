@@ -1,23 +1,23 @@
 ---
-description: Écriture d’un projet dans un fichier
+description: écriture d’un Project dans un fichier
 ms.assetid: 84499e4f-4f45-4aa6-aa89-d95c3b6b47d0
-title: Écriture d’un projet dans un fichier
+title: écriture d’un Project dans un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f63ddbc6a021362134d420220f7e25c662553f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3efea1d0949c419ba6f595e7a381b689d8a8ce69836609d328b555ee695743b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051369"
 ---
-# <a name="writing-a-project-to-a-file"></a>Écriture d’un projet dans un fichier
+# <a name="writing-a-project-to-a-file"></a>écriture d’un Project dans un fichier
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Cet article explique comment écrire un projet de [services de modification DirectShow](directshow-editing-services.md) dans un fichier. Tout d’abord, il décrit comment écrire un fichier avec le moteur de rendu de base. Il décrit ensuite la recompression intelligente avec le moteur de rendu intelligent.
+cet article explique comment écrire un projet de [Services de modification DirectShow](directshow-editing-services.md) dans un fichier. Tout d’abord, il décrit comment écrire un fichier avec le moteur de rendu de base. Il décrit ensuite la recompression intelligente avec le moteur de rendu intelligent.
 
-Pour obtenir une vue d’ensemble de la façon dont les services d’édition DirectShow génèrent le rendu des projets, consultez [à propos des moteurs de rendu](about-the-render-engines.md).
+pour obtenir une vue d’ensemble de la façon dont DirectShow Services d’édition génère le rendu des projets, consultez [à propos des moteurs de rendu](about-the-render-engines.md).
 
 **Utilisation du moteur de rendu de base**
 
@@ -42,7 +42,7 @@ hr = pRender->ConnectFrontEnd( );
 
 
 
-Ensuite, ajoutez des filtres de multiplexeur et d’écriture de fichier au graphique de filtre. Le moyen le plus simple consiste à utiliser le [Générateur de graphiques de capture](capture-graph-builder.md), un composant DirectShow pour créer des graphiques de capture. Le générateur de graphiques de capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . Procédez comme suit :
+Ensuite, ajoutez des filtres de multiplexeur et d’écriture de fichier au graphique de filtre. pour ce faire, le plus simple est de [capturer Graph Builder](capture-graph-builder.md), un composant DirectShow pour générer des graphiques de capture. Le générateur de graphiques de capture expose l’interface [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) . Effectuez les étapes suivantes :
 
 1.  Créez une instance du générateur de graphiques de capture.
 2.  Obtenez un pointeur vers le graphique et transmettez-le au générateur de graphiques.
@@ -112,7 +112,7 @@ Après avoir généré le graphique de filtre, appelez la méthode [**IMediaCont
 Pour bénéficier des avantages de la recompression intelligente, utilisez le moteur de rendu intelligent à la place du moteur de rendu de base. Les étapes de création du graphique sont presque les mêmes. La principale différence réside dans le fait que la compression est gérée au premier plan du graphique, et non dans la section d’écriture de fichiers.
 
 > [!IMPORTANT]
-> N’utilisez pas le moteur de rendu intelligent pour lire ou écrire des fichiers Windows Media.
+> n’utilisez pas le moteur de rendu intelligent pour lire ou écrire Windows fichiers multimédias.
 
  
 
@@ -152,7 +152,7 @@ Pour générer le graphique, utilisez les mêmes étapes que celles décrites po
 
 <dl> <dt>
 
-[Rendu d’un projet](rendering-a-project.md)
+[Rendu d’un Project](rendering-a-project.md)
 </dt> </dl>
 
  

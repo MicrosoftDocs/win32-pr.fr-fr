@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientNonScriptable5
-description: Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface IMsRdpClientNonScriptable4.
+description: fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface IMsRdpClientNonScriptable4.
 ms.assetid: 41b8c624-0451-4a7e-bc80-d0bf269e33c6
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec338dbe07c4733bf80207298f23f388bf8f77c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddb7f3407f0dc6b1bc8dc04c6c4a72cda95db6b6b1def088a18908a730b96600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009799"
 ---
 # <a name="imsrdpclientnonscriptable5-interface"></a>Interface IMsRdpClientNonScriptable5
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
 
 Une instance de cette interface est obtenue en appelant [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur l’objet [**IMsTscAx**](imstscax-interface.md) , en passant **IID \_ IMsRdpClientNonScriptable5**.
 
@@ -43,13 +43,13 @@ L’interface **IMsRdpClientNonScriptable5** possède les propriétés suivantes
 
 | Propriété                                                                                                         | Type d’accès           | Description                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------------------------|
-| [**AllowPromptingForCredentials**](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/>       | Lecture/écriture<br/> | Spécifie si le contrôle ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.<br/>                    |
-| [**DisableConnectionBar**](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/>                       | Écriture seule<br/> | Spécifie si le contrôle ActiveX Bureau à distance doit désactiver la barre de connexion.<br/>                      |
-| [**DisableRemoteAppCapsCheck**](imsrdpclientnonscriptable5-disableremoteappcapscheck.md)<br/>             | Lecture/écriture<br/> | Spécifie si le contrôle ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.<br/> |
+| [**AllowPromptingForCredentials**](imsrdpclientnonscriptable5-allowpromptingforcredentials.md)<br/>       | Lecture/écriture<br/> | spécifie si le contrôle de ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.<br/>                    |
+| [**DisableConnectionBar**](imsrdpclientnonscriptable5-disableconnectionbar.md)<br/>                       | Écriture seule<br/> | spécifie si le contrôle de ActiveX Bureau à distance doit désactiver la barre de connexion.<br/>                      |
+| [**DisableRemoteAppCapsCheck**](imsrdpclientnonscriptable5-disableremoteappcapscheck.md)<br/>             | Lecture/écriture<br/> | spécifie si le contrôle de ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.<br/> |
 | [**GetRemoteMonitorsBoundingBox**](imsrdpclientnonscriptable5-getremotemonitorsboundingbox.md)<br/>       | Lecture seule<br/>  | Spécifie le rectangle englobant du moniteur distant.<br/>                                                      |
 | [**RemoteMonitorCount**](imsrdpclientnonscriptable5-remotemonitorcount.md)<br/>                           | Lecture seule<br/>  | Spécifie le nombre de moniteurs à distance.<br/>                                                                     |
 | [**RemoteMonitorLayoutMatchesLocal**](imsrdpclientnonscriptable5-remotemonitorlayoutmatcheslocal.md)<br/> | Lecture seule<br/>  | Spécifie si la disposition du moniteur distant est identique à la disposition du moniteur local.<br/>                             |
-| [**UseMultimon**](imsrdpclientnonscriptable5-usemultimon.md)<br/>                                         | Lecture/écriture<br/> | Spécifie si le contrôle ActiveX Bureau à distance doit utiliser plusieurs analyses.<br/>                           |
+| [**UseMultimon**](imsrdpclientnonscriptable5-usemultimon.md)<br/>                                         | Lecture/écriture<br/> | spécifie si le contrôle de ActiveX Bureau à distance doit utiliser plusieurs analyses.<br/>                           |
 | [**WarnAboutDirectXRedirection**](imsrdpclientnonscriptable5-warnaboutdirectxredirection.md)<br/>         | Lecture/écriture<br/> | Cette propriété n'est pas utilisée.<br/>                                                                                   |
 
 

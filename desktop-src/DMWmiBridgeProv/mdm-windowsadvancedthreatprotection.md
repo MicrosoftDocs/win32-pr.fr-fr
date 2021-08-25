@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_WindowsAdvancedThreatProtection
-description: La \_ classe WINDOWSADVANCEDTHREATPROTECTION MDM est utilisée pour intégrer et annuler des points de terminaison pour Windows Defender-protection avancée contre les menaces (émission).
+description: la \_ classe WindowsAdvancedThreatProtection MDM est utilisée pour intégrer et annuler des points de terminaison pour Windows Defender Protection avancée contre les menaces (émission).
 ms.assetid: 7a95253e-6d13-4c1b-b78d-c56c6378f7c3
 keywords:
 - Classe MDM_WindowsAdvancedThreatProtection
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c369406a3c8bcf982aeb18b4bbb53c1af4983e84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f274a8802bd2c7975479ed6a3fa140807f81d1442575dfe767a4b5e57ce19c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967479"
 ---
 # <a name="mdm_windowsadvancedthreatprotection-class"></a>\_Classe WINDOWSADVANCEDTHREATPROTECTION MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ WindowsAdvancedThreatProtection MDM** est utilisée pour intégrer et annuler des points de terminaison pour Windows Defender-protection avancée contre les menaces (émission).
+la **classe \_ WindowsAdvancedThreatProtection MDM** est utilisée pour intégrer et annuler des points de terminaison pour Windows Defender Protection avancée contre les menaces (émission).
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -117,7 +117,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

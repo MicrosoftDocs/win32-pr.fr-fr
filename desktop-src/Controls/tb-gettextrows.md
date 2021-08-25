@@ -3,7 +3,7 @@ title: Message TB_GETTEXTROWS (commctrl. h)
 description: Récupère le nombre maximal de lignes de texte qui peuvent être affichées sur un bouton de barre d’outils.
 ms.assetid: a7950e5f-c80a-4af2-9ccd-d8e3df5552d2
 keywords:
-- TB_GETTEXTROWS les contrôles de message Windows
+- TB_GETTEXTROWS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a871d1a13091b6dd70fa6d9f309735115e85ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a2dc6867530eac1c178c4f6e58ab8b42740af558d32b9edfcfd1f1431b253cd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918484"
 ---
 # <a name="tb_gettextrows-message"></a>TO \_ GETTEXTROWS message
 
@@ -45,8 +45,8 @@ Retourne une valeur INT représentant le nombre maximal de lignes de texte que l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

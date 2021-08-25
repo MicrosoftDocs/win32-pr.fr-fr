@@ -3,7 +3,7 @@ title: AmbientAttributes.clippingColor
 description: L’attribut clippingColor spécifie ou récupère la couleur à découper de la bitmap clippingImage.
 ms.assetid: d6ea43d3-c118-43d3-bfdc-29ddd6ea4978
 keywords:
-- Lecteur Windows Media AmbientAttributes. clippingColor
+- AmbientAttributes. clippingColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad526eb0f705d1fce95f3813a666420b29db9de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 299ee63b93abfdea337bb25e8b399e6011fb42d7fa4e1e0c09b3feb259d4f1d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902809"
 ---
 # <a name="ambientattributesclippingcolor"></a>AmbientAttributes.clippingColor
 
@@ -42,7 +42,7 @@ Cet attribut est une **chaîne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La couleur de découpage indique les régions du **clippingImage** (ou **BackgroundImage** pour la **vue** ou la sous- **vue**) qui correspondent à des portions transparentes et non intercliquables du contrôle. La couleur de découpage peut indiquer plusieurs régions à découper. Un avertissement est émis si **clippingImage** est un jpg pour signaler une perte de couleur dans jpgs.
 

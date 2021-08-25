@@ -3,7 +3,7 @@ title: Message MCM_GETCOLOR (commctrl. h)
 description: Récupère la couleur d’une partie donnée d’un contrôle calendrier mensuel. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal GetColor.
 ms.assetid: 6c30ad0d-7584-402a-9c27-3c12c49c87f3
 keywords:
-- MCM_GETCOLOR les contrôles de message Windows
+- MCM_GETCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 932b457bd1ddd870fd84facdb540e31188825504
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 254b140e801f4d4440c9b292999e5c8f91175a30750b08bfd30abd6afd84f73d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062089"
 ---
 # <a name="mcm_getcolor-message"></a>Message de la \_ GETCOLOR MCM
 
@@ -64,8 +64,8 @@ Retourne une valeur **COLORREF** qui représente le paramètre de couleur pour l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

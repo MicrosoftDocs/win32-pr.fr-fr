@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsRdpClient RequestClose
-description: Demande un arrêt approprié du contrôle ActiveX Bureau à distance.
+description: demande un arrêt approprié du contrôle de Bureau à distance ActiveX.
 ms.assetid: 0b930a00-f134-4da2-a752-8fd131a22043
 ms.tgt_platform: multiple
 keywords:
@@ -44,16 +44,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1679b08680b962cdbff57e9bbbd1c392607d8709
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae812c27b0c280ca3a6cd879d5af86181de85793ec6092441fb83b45c74d8656
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010179"
 ---
 # <a name="imsrdpclientrequestclose-method"></a>IMsRdpClient :: RequestClose, méthode
 
-Demande un arrêt approprié du contrôle ActiveX Bureau à distance. Un arrêt approprié peut inclure la fin de la session de Services Bureau à distance de l’utilisateur, mais il n’arrête pas le serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
+demande un arrêt approprié du contrôle de Bureau à distance ActiveX. Un arrêt approprié peut inclure la fin de la session de Services Bureau à distance de l’utilisateur, mais il n’arrête pas le serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -103,7 +103,7 @@ L’application conteneur ne doit pas fermer le contrôle immédiatement ; l’
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le paramètre *pCloseStatus* est égal à **controlCloseWaitForEvents**, l’application doit attendre que l’un des événements suivants se produise avant que l’application ne ferme le contrôle :
 
@@ -114,7 +114,7 @@ Si le paramètre *pCloseStatus* est égal à **controlCloseWaitForEvents**, l’
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

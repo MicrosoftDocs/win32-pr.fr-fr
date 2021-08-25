@@ -4,16 +4,16 @@ ms.assetid: 1f0f75d6-3553-4ee1-8ee6-bd617da4a109
 title: Empilement de configurations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b50b90629556b5ed00db712b49fe8fa4e48ea8cc
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 9018a2484ce4e5b9121d08abffee54911531b7f421cfef75643594e827fe350e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104561300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905557"
 ---
 # <a name="configuration-stacking"></a>Empilement de configurations
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 L’empilement implique la concaténation d’un ensemble de mappages de blocs logiques. Vous pouvez empiler plusieurs numéros d’unités logiques à partir du même sous-système sous un même numéro d’unité logique. Vous pouvez empiler un numéro d’unité logique avec des volumes à partir du même Pack sous un seul volume. En outre, vous pouvez empiler plusieurs numéros d’unités logiques qui sont exposés par des sous-systèmes hétérogènes sous un seul volume.
 

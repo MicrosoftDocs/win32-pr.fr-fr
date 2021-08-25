@@ -3,7 +3,7 @@ title: Message EM_SETMARGINS (winuser. h)
 description: Définit les largeurs des marges gauche et droite d’un contrôle d’édition. Le message redessine le contrôle pour refléter les nouvelles marges. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: 23eb6c9e-3cf9-4c90-b33e-8da84034b49b
 keywords:
-- EM_SETMARGINS les contrôles de message Windows
+- EM_SETMARGINS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c68f3394234a6f86b3c5ff69622b86e61afc556
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 396bba6dda0f6dbd132b9f67fa5a1ef012758bbf7cf8fa9517b656dcf164c94c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048359"
 ---
 # <a name="em_setmargins-message"></a>\_Message setMargins em
 
@@ -65,7 +65,7 @@ Marges à définir. Ce paramètre peut être une ou plusieurs des valeurs suivan
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Contrôles d’édition :** Vous ne pouvez pas utiliser **EC \_ USEFONTINFO** dans le paramètre *wParam* , mais vous pouvez l’utiliser dans le paramètre *lParam* .
 
@@ -77,8 +77,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Réception d’événements SNMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f718d2bcea85d0ee942050108f337f8ecb78e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf09e32ec05d42adcc60891cd369cde1f3f078541416ce1a492484de024744bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996019"
 ---
 # <a name="receiving-snmp-events"></a>Réception d’événements SNMP
 
@@ -22,11 +22,11 @@ Les trois types suivants d’interruptions SNMPv1 et de notifications SNMPv2 son
 
     Les notifications et les interruptions génériques correspondent à des événements nommés tels que le lien vers le haut et le démarrage à froid. Les notifications et les interruptions génériques sont représentées par des classes, telles que **SnmpLinkUpNotification** et **SnmpWarmStartExtendedNotification**, qui contiennent le nom de l’interruption dans le nom de la classe. Ces classes sont des sous-classes de [SnmpNotification](snmpnotification.md) et [SnmpExtendedNotification](snmpextendednotification.md).
 
--   Spécifique à l’entreprise
+-   spécifique à Enterprise
 
-    Les notifications et les interruptions spécifiques à l’entreprise correspondent à des événements qui sont représentés par une classe WMI qui n’est pas une sous-classe de [SnmpNotification](snmpnotification.md) et [SnmpExtendedNotification](snmpextendednotification.md). Pour prendre en charge les notifications et les interruptions spécifiques à l’entreprise, un consommateur doit définir des classes en compilant les définitions MIB à l’aide du compilateur MIB SNMP.
+    Enterprise des interruptions et des notifications spécifiques correspondent à des événements qui sont représentés par une classe WMI qui n’est pas une sous-classe de [SnmpNotification](snmpnotification.md) et [SnmpExtendedNotification](snmpextendednotification.md). Pour prendre en charge les notifications et les interruptions spécifiques à l’entreprise, un consommateur doit définir des classes en compilant les définitions MIB à l’aide du compilateur MIB SNMP.
 
--   Entreprise-non spécifique
+-   Enterprise-non spécifique
 
     Les notifications et les interruptions spécifiques à l’entreprise ne correspondent à aucun type d’événement générique ou type d’événement spécifique à l’entreprise. Les notifications MIB et les interruptions non spécifiques à l’entreprise n’ont pas été compilées dans le stockage SMIR. Ils sont représentés par les classes [SnmpNotification](snmpnotification.md), **SnmpV2Notification**, **SnmpV1ExtendedNotification** et **SnmpV2ExtendedNotification** dérivées de SnmpNotification et [SnmpExtendedNotification](snmpextendednotification.md).
 
@@ -90,7 +90,7 @@ La procédure suivante décrit comment recevoir des événements spécifiques à
 
     Pour plus d’informations, consultez [compilation des fichiers MOF](compiling-mof-files.md).
 
-Si les fournisseurs d’événements SNMP reçoivent une notification ou une notification spécifique pour laquelle il n’existe aucune classe, les fournisseurs génèrent un événement qui n’est pas spécifique à l’entreprise. Pour plus d’informations, consultez [réception d’événements non spécifiques](#receiving-enterprise-nonspecific-events)de l’entreprise.
+Si les fournisseurs d’événements SNMP reçoivent une notification ou une notification spécifique pour laquelle il n’existe aucune classe, les fournisseurs génèrent un événement qui n’est pas spécifique à l’entreprise. pour plus d’informations, consultez [réception de Enterprise événements non spécifiques](#receiving-enterprise-nonspecific-events).
 
 ## <a name="receiving-enterprise-nonspecific-events"></a>Réception des événements de Enterprise-Nonspecific
 

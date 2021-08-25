@@ -4,12 +4,12 @@ ms.assetid: b49e20b7-bd9e-4b8f-bb4a-bb1e99b0c417
 title: Création d’un document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b96ea51cef9dfd0f351704b3b71a7f6163737736
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: cf1a01395df674b683349bd4a5f42fe1bd57ef2768ef4d967ba3aeda7734f5e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950199"
 ---
 # <a name="creating-a-printcapabilities-document"></a>Création d’un document PrintCapabilities
 

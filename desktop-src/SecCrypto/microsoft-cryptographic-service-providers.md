@@ -4,12 +4,12 @@ ms.assetid: 1461914e-5506-4f24-97da-3d2148aafd1c
 title: Fournisseurs de services de chiffrement Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 294d00660cbfa89c6113e6e9fcf2600b2f745e6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17cac0ff0276a548e5855a3f2d0d69cac3dcdc2ab35001a7f8dcabdb5cfd62bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992819"
 ---
 # <a name="microsoft-cryptographic-service-providers"></a>Fournisseurs de services de chiffrement Microsoft
 
@@ -20,7 +20,7 @@ Les [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) suiv
 | Fournisseur                                                                                                                                 | Description                                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Fournisseur de services de chiffrement de base Microsoft](microsoft-base-cryptographic-provider.md)                                                       | Vaste ensemble de fonctionnalités de chiffrement de base pouvant être exportées vers d’autres pays ou régions.                                                                                                                                                     |
-| [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md)                                                   | Extension du fournisseur de services de chiffrement de base Microsoft disponible avec Windows XP et versions ultérieures.                                                                                                                                                           |
+| [Microsoft Strong Cryptographic Provider](microsoft-strong-cryptographic-provider.md)                                                   | extension du fournisseur de services de chiffrement de Base Microsoft disponible avec Windows XP et versions ultérieures.                                                                                                                                                           |
 | [Fournisseur de services de chiffrement amélioré Microsoft](microsoft-enhanced-cryptographic-provider.md)                                               | Fournisseur de chiffrement de base Microsoft avec les clés et les algorithmes plus longs.                                                                                                                                                                |
 | [Fournisseur de services de chiffrement AES Microsoft](microsoft-aes-cryptographic-provider.md)                                                         | Fournisseur de services de chiffrement amélioré Microsoft avec prise en charge des algorithmes de chiffrement AES.                                                                                                                                                                    |
 | [Fournisseur de services de chiffrement DSS Microsoft](microsoft-dss-cryptographic-provider.md)                                                         | Fournit des fonctionnalités de hachage, de signature de données et de vérification de signature à l’aide des algorithmes [*SHA*](../secgloss/s-gly.md)(Secure Hash Algorithm) et DSS (Digital Signature standard). |

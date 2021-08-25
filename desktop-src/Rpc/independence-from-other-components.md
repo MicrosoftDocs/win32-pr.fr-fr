@@ -6,12 +6,12 @@ keywords:
 - Indépendance par rapport aux autres composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba20a47a5bb30d8e23c1a90d666bc6b957ebb98
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7b8174ffa0469550d3a7b274fb28f2f30dd807314e6bd596b75469f717f5924a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020449"
 ---
 # <a name="independence-from-other-components"></a>Indépendance par rapport aux autres composants
 
@@ -27,9 +27,9 @@ Les données d’erreur étendues sont particulièrement utiles lorsque les appl
 
     Si la détection du problème ne fonctionne pas, car l’appel est local ou parce que l’erreur provient localement, attachez un débogueur au processus qui retourne l’erreur et placez un point d’arrêt immédiatement après l’appel RPC qui a généré l’erreur. Souvent, RPC indique des erreurs en levant des exceptions. par conséquent, si vous recherchez l’erreur 1825 (erreur s de l’appel RPC \_ s \_ \_ \_ ), activez l’exception 1825 et, lorsque le débogueur s’arrête sur cette exception, examinez les informations d’erreur étendues pour le thread.
 
- 
+ 
 
- 
+ 
 
 
 

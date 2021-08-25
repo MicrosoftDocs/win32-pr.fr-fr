@@ -3,7 +3,7 @@ title: External. ignoreIEHistory
 description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | External. ignoreIEHistory
 ms.assetid: ad0ad31e-61b7-45b4-8836-375df859c739
 keywords:
-- External. ignoreIEHistory Windows Media Player
+- External. ignoreIEHistory Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 436dd774d247e150729d1921dc842bf0ecd3c26d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39e874c6920c794f015c51bc1f1084ff545eb710e297f5e43b7c44e49ca39396
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901939"
 ---
 # <a name="externalignoreiehistory"></a>External. ignoreIEHistory
 
@@ -28,7 +28,7 @@ ms.locfileid: "106525941"
 
  
 
-La propriété **ignoreIEHistory** spécifie si le lecteur Windows Media doit ignorer l’historique d’Internet Explorer.
+la propriété **ignoreIEHistory** spécifie si Lecteur Windows Media doit ignorer l’historique d’Internet Explorer.
 
 ``` syntax
 window.external.ignoreIEHistory
@@ -37,7 +37,7 @@ window.external.ignoreIEHistory
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Cette propriété est une **valeur booléenne** en écriture seule. La **valeur true** indique que le lecteur Windows Media doit ignorer l’historique.
+Cette propriété est une **valeur booléenne** en écriture seule. la **valeur TRUE** indique que Lecteur Windows Media doit ignorer l’historique.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -5,12 +5,12 @@ ms.assetid: 8524cb7a-a930-431a-bc5f-b0793781de15
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e819b13594ecec14a2b425560152cadedd4e9122
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2813399650d535d10864f384afb6b745fb9e50039f2b981df61ceb2e6452a608
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989099"
 ---
 # <a name="monitoring-session-connections-and-disconnections"></a>Surveillance des connexions et des déconnexions de session
 
@@ -42,7 +42,7 @@ Type = AddinType
 
 
 
- 
+ 
 
 L’inscription de l’application de service prend effet uniquement dans les sessions créées après l’inscription.
 
@@ -68,7 +68,7 @@ RemoteControlPersistent = flag
 
 La valeur de *Flag* peut être un ou zéro. Zéro est la valeur par défaut. Si la valeur est définie sur un, l’application de service n’est pas avertie si la session cliente est démarrée ou arrêtée. Si la valeur est zéro, un événement de reconnexion est signalé au démarrage de la session cliente et un événement de déconnexion est signalé lorsque la session cliente s’arrête.
 
-Le format de nom d’objet d’événement précédent est toujours pris en charge dans Windows Server 2008 pour des raisons de compatibilité descendante. Nous vous recommandons d’utiliser le format Windows Server 2008 plus récent, car il est plus sécurisé.
+le format de nom d’objet d’événement précédent est toujours pris en charge dans Windows Server 2008 pour des raisons de compatibilité descendante. nous vous recommandons d’utiliser le nouveau format de Windows Server 2008, car il est plus sécurisé.
 
 Le format d’événement précédent est le suivant.
 
@@ -80,6 +80,6 @@ Global\AddinName-SessionId-Disconnect
 
 *AddInName* est la chaîne spécifiée dans la valeur **Name** de la sous-clé de Registre sous laquelle l’application serveur est inscrite. *SessionID* est l’identificateur de session d’une session cliente.
 
- 
+ 
 
- 
+ 

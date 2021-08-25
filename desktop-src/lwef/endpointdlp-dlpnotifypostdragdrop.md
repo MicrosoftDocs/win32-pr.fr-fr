@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations sur un document après l’exécution d’une opération glisser-déplacer.
-title: DlpNotifyPostDragDrop, fonction (endpointdlp. h)
+title: DlpNotifyPostDragDrop, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 468255cee3c3fef44e44dd033b541e317db3d268
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 3d20f9356007973b580d136aef1a74b8206026bf62fe14c5db46eb2cc0cbf1f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062109"
 ---
 # <a name="dlpnotifypostdragdrop-function"></a>DlpNotifyPostDragDrop fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une structure [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md)
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 

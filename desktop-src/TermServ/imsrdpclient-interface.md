@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc6d3a1de6a6cd18004ff957ea0f8c4d7c23b14d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb5756fb9bc282343055ca1b6e434f4887ac253dee47e32392c6289e63b10cbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010059"
 ---
 # <a name="imsrdpclient-interface"></a>Interface IMsRdpClient
 
@@ -61,14 +61,14 @@ L’interface **IMsRdpClient** possède les propriétés suivantes.
 | [**AdvancedSettings2**](imsrdpclient-advancedsettings2.md)<br/>               | Lecture seule<br/>  | Pointeur vers l’interface [**IMsRdpClientAdvancedSettings**](imsrdpclientadvancedsettings-interface.md) , utilisé pour définir des paramètres avancés pour le contrôle client.<br/> |
 | [**La**](imsrdpclient-colordepth.md)<br/>                             | Lecture/écriture<br/> | Profondeur de couleur du contrôle actuel.<br/>                                                                                                                            |
 | [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md)<br/> | Lecture seule<br/>  | Informations étendues sur la raison de la déconnexion du contrôle client.<br/>                                                                                      |
-| [**FullScreen**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Indique si le contrôle est en mode plein écran.<br/>                                                                                                          |
+| [**Large**](imsrdpclient-fullscreen.md)<br/>                             | Lecture/écriture<br/> | Indique si le contrôle est en mode plein écran.<br/>                                                                                                          |
 | [**SecuredSettings2**](imsrdpclient-securedsettings2.md)<br/>                 | Lecture seule<br/>  | Pointeur vers l’interface [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md) , utilisé pour définir des paramètres sécurisés pour le contrôle client.<br/>    |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

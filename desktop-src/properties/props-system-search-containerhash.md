@@ -4,12 +4,12 @@ ms.assetid: 17d7c5ab-776d-44d8-bd17-f0359dac3058
 title: System. Search. ContainerHash
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae551a2a1d2a981077ff1f7ac8b808f0a5529e29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fdd31442b461c378dd5d9d3ab30545e5066d64aed4e87f0339f68873f644a15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938139"
 ---
 # <a name="systemsearchcontainerhash"></a>System. Search. ContainerHash
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

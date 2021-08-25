@@ -30,12 +30,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5af83f7a52e9f3db9dbaa4a959bfe01ae740746
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df907b1686677db8ea895d8788055567e24dc7be7ffe758bcfa82801591a0dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922749"
 ---
 # <a name="win32_useraccount-class"></a>\_Classe UserAccount Win32
 
@@ -112,7 +112,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Network Management structures \| [**\_ info User info \_ 2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2) \| usri2 \_ Flags »)
 </dt> </dl>
 
-Indicateurs qui décrivent les caractéristiques d’un compte d’utilisateur Windows.
+indicateurs qui décrivent les caractéristiques d’un compte d’utilisateur Windows.
 
 <dt>
 
@@ -164,7 +164,7 @@ Compte d’un domaine système qui approuve d’autres domaines.
 
 **compte d’approbation de station de \_ travail UF \_ \_**
 
-Compte d’ordinateur pour un système d’ordinateur exécutant Windows qui est membre de ce domaine.
+compte d’ordinateur d’un système informatique exécutant Windows qui est membre de ce domaine.
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managed
 
 </dd> <dt>
 
-**Désactivé**
+**Disabled**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -231,7 +231,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Network Management structures \| \_ info utilisateur \| UF \_ ACCOUNTDISABLE »)
 </dt> </dl>
 
-Le compte d’utilisateur Windows est désactivé.
+Windows compte d’utilisateur est désactivé.
 
 </dd> <dt>
 
@@ -247,7 +247,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Domain"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32APId \| Network Management Functions \| nom_domaine")
 </dt> </dl>
 
-Nom du domaine Windows auquel appartient un compte d’utilisateur, par exemple : « NA-SALES ».
+nom du domaine Windows auquel appartient un compte d’utilisateur, par exemple : « NA-SALES ».
 
 </dd> <dt>
 
@@ -315,7 +315,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Network Management structures \| [**\_ Information User info \_ 2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2) \| **UF \_ lockout**»)
 </dt> </dl>
 
-Si la **valeur est true**, le compte d’utilisateur est verrouillé sur le système d’exploitation Windows.
+si la **valeur est true**, le compte d’utilisateur est verrouillé sur le système d’exploitation Windows.
 
 </dd> <dt>
 
@@ -331,7 +331,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Name"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Network Management structures \| Name")
 </dt> </dl>
 
-Nom du compte d’utilisateur Windows sur le domaine que la propriété de **domaine** de cette classe spécifie.
+nom du compte d’utilisateur Windows sur le domaine que la propriété de **domaine** de cette classe spécifie.
 
 Exemple : « danwilson ».
 
@@ -383,7 +383,7 @@ Type d’accès : lecture/écriture
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| Network Management structures \| [**\_ Information User info \_ 2**](/windows/win32/api/lmaccess/ns-lmaccess-user_info_2) \| **UF \_ passwd passwd \_ NOTREQD**»)
 </dt> </dl>
 
-Si la **valeur est true**, un mot de passe est requis sur un compte d’utilisateur Windows. Si la **valeur est false**, ce compte ne requiert pas de mot de passe.
+si la **valeur est true**, un mot de passe est requis sur un compte d’utilisateur Windows. Si la **valeur est false**, ce compte ne requiert pas de mot de passe.
 
 </dd> <dt>
 
@@ -399,7 +399,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**fixed**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api, \| identificateurs de sécurité (SID)")
 </dt> </dl>
 
-Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable qui est utilisée pour identifier un tiers de confiance. Chaque compte possède un SID unique qu’une autorité, comme un domaine Windows, émet. Le SID est stocké dans la base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données, place le SID dans le jeton d’accès utilisateur, puis utilise le SID dans le jeton d’accès utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec la sécurité Windows. Chaque SID est un identificateur unique pour un utilisateur ou un groupe, et un autre utilisateur ou groupe ne peut pas avoir le même SID.
+Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable qui est utilisée pour identifier un tiers de confiance. chaque compte possède un SID unique qu’une autorité, par exemple un domaine Windows, émet. Le SID est stocké dans la base de données de sécurité. lorsqu’un utilisateur ouvre une session, le système récupère le sid de l’utilisateur à partir de la base de données, place le sid dans le jeton d’accès utilisateur, puis utilise le sid dans le jeton d’accès utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec Windows sécurité. Chaque SID est un identificateur unique pour un utilisateur ou un groupe, et un autre utilisateur ou groupe ne peut pas avoir le même SID.
 
 Cette propriété est héritée [**du \_ compte Win32**](win32-account.md).
 
@@ -594,7 +594,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ UserAccount** est dérivée [**du \_ compte Win32**](win32-account.md).
 

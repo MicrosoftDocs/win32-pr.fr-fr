@@ -4,12 +4,12 @@ description: Cette rubrique explique comment les contrôles statiques sont utili
 ms.assetid: 155904e1-a963-496d-9b22-6e95ed0ebd47
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 064c1814b4f4ed6283b2fe22af06aed107e2c4d2
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 7aa9b77ff7c1357cede494f60c1d345d0eb4b8f5f8cf63ace13176179d385794
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922299"
 ---
 # <a name="about-static-controls"></a>À propos des contrôles statiques
 
@@ -96,10 +96,10 @@ La procédure de fenêtre pour la classe de fenêtre de contrôle statique préd
 
 
 
- 
+ 
 
 La procédure de fenêtre prédéfinie transmet tous les autres messages à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traitement par défaut.
 
- 
+ 
 
- 
+ 

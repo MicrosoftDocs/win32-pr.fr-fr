@@ -1,19 +1,19 @@
 ---
-title: Création d’un adaptateur de stockage
+title: création d’un adaptateur Stockage
 description: Structure de base d’un plug-in d’adaptateur de stockage implémenté en tant que bibliothèque de liens dynamiques (DLL) C++.
 ms.assetid: c37e4c46-d11c-4458-b87b-78f693188e3c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4f922035b84593d812380991d0574a3ebeb141
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c8ff7ab15b1f94a37c77a7b3f4f014d34794999ae83429d663d7f97ac29ab5e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993769"
 ---
-# <a name="creating-a-storage-adapter"></a>Création d’un adaptateur de stockage
+# <a name="creating-a-storage-adapter"></a>création d’un adaptateur Stockage
 
-L’exemple de code suivant montre la structure de base d’un plug-in d’adaptateur de stockage implémenté sous la forme d’une bibliothèque de liens dynamiques (DLL) C++. Pour voir les implémentations de pseudocode de chaque fonction publique dans la DLL, accédez à fonctions de l' [adaptateur de stockage](storage-adapter-functions.md). Si vous choisissez de ne pas fournir de fonctionnalités pour une fonction particulière, vous devez définir un stub pour celle-ci et retourner E \_ NOTIMPL.
+L’exemple de code suivant montre la structure de base d’un plug-in d’adaptateur de stockage implémenté sous la forme d’une bibliothèque de liens dynamiques (DLL) C++. pour voir les implémentations de pseudocode de chaque fonction publique dans la DLL, accédez à [Stockage fonctions](storage-adapter-functions.md)de l’adaptateur. Si vous choisissez de ne pas fournir de fonctionnalités pour une fonction particulière, vous devez définir un stub pour celle-ci et retourner E \_ NOTIMPL.
 
 
 ```C++
@@ -738,9 +738,9 @@ StorageAdapterControlUnitPrivileged(
 [Création de plug-ins d’adaptateur](creating-adapter-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

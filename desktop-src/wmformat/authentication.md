@@ -1,5 +1,5 @@
 ---
-title: Authentification (kit de développement logiciel (SDK) Windows Media format 11)
+title: authentification (kit de développement logiciel (SDK) Windows Media Format 11)
 description: Authentification
 ms.assetid: 9c181615-e864-4588-846f-d04d73824f5f
 keywords:
@@ -13,14 +13,14 @@ keywords:
 - authentification réseau, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf815881ac7beb354fffbfdb9b5475d040e9e83
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ee276bc2800ad7f2d5fa94f00e282dc7d4f5402396d69eb7e3b240fd4303f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106512137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007119"
 ---
-# <a name="authentication-windows-media-format-11-sdk"></a>Authentification (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="authentication-windows-media-format-11-sdk"></a>authentification (kit de développement logiciel (SDK) Windows Media Format 11)
 
 L’objet lecteur peut gérer les défis liés à l’authentification réseau, y compris l’authentification Digest et l’authentification NTLM. Dans certains cas, l’application doit fournir les informations d’identification de l’utilisateur par le biais d’une interface de rappel :
 
@@ -28,7 +28,7 @@ L’objet lecteur peut gérer les défis liés à l’authentification réseau, 
 -   Authentification NTLM : le lecteur répond automatiquement avec les informations d’identification d’ouverture de session de l’utilisateur. Si l’utilisateur actuel est autorisé à se connecter au serveur, l’application n’a rien à faire. Si l’utilisateur n’a pas d’autorisation, l’application doit implémenter l’interface **IWMCredentialCallback** .
 
     > [!Note]  
-    > Windows Media Services version 4,1 ne prend pas en charge l’authentification NTLM par le biais d’un serveur proxy. L’authentification NTLM requiert plusieurs échanges client-serveur sur la même connexion, et la version 4,1 ne conserve pas de connexion permanente avec le proxy. Windows Media Services 9 Series dans Microsoft Windows Server 2003 prend en charge l’authentification NTLM via un serveur proxy, à condition que le proxy prenne en charge les connexions persistantes.
+    > Services Windows Media version 4,1 ne prend pas en charge l’authentification NTLM via un serveur proxy. L’authentification NTLM requiert plusieurs échanges client-serveur sur la même connexion, et la version 4,1 ne conserve pas de connexion permanente avec le proxy. Services Windows Media série 9 dans Microsoft Windows server 2003 prend en charge l’authentification NTLM via un serveur proxy, à condition que le proxy prenne en charge les connexions persistantes.
 
      
 

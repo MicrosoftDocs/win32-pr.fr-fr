@@ -4,16 +4,16 @@ description: Deux types de signatures de rappel.
 ms.assetid: 5569BFF3-9EEC-42E6-8F63-0C569C68FA74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371edd162c4cbd1332764c7b3e9e70bf114270e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f3e052df1821a5fd85bbba4ebbea3e6672d9e625b7d4258110fb19a5c234f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977099"
 ---
 # <a name="client-application-callback-functions"></a>Fonctions de rappel d’application cliente
 
-Le Windows Biometric Framework prend en charge deux types de signatures de rappel. À partir de Windows 8, le rappel suivant est pris en charge. Nous vous recommandons d’implémenter ce rappel pour toutes les nouvelles applications. Toutefois, ce rappel ne peut pas être utilisé dans Windows 7.
+le Windows Biometric Framework prend en charge deux types de signatures de rappel. à partir de Windows 8, le rappel suivant est pris en charge. Nous vous recommandons d’implémenter ce rappel pour toutes les nouvelles applications. toutefois, ce rappel ne peut pas être utilisé dans Windows 7.
 
 
 
@@ -25,7 +25,7 @@ Le Windows Biometric Framework prend en charge deux types de signatures de rappe
 
  
 
-Les fonctions de rappel suivantes ont été introduites dans Windows 7. Nous vous recommandons de ne pas les implémenter pour les nouvelles applications qui ciblent les systèmes d’exploitation Windows 8 et versions ultérieures.
+les fonctions de rappel suivantes ont été introduites dans Windows 7. nous vous recommandons de ne pas les implémenter pour les nouvelles applications qui ciblent les Windows 8 et les systèmes d’exploitation ultérieurs.
 
 
 

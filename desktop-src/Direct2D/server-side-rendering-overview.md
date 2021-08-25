@@ -6,16 +6,16 @@ keywords:
 - Direct2D, rendu côté serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a35c9df619ee43d11c90c171598c87b6e447dd5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 65991d2437939ce7f1d218022e0c3c57649405a18e2c1b9d073635b5b37d1a2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917202"
 ---
 # <a name="using-direct2d-for-server-side-rendering"></a>Utilisation de Direct2D pour le rendu Server-Side
 
-Direct2D est bien adapté aux applications graphiques qui requièrent un rendu côté serveur sur Windows Server. Cette vue d’ensemble décrit les principes fondamentaux de l’utilisation de Direct2D pour le rendu côté serveur. Il contient les sections suivantes :
+Direct2D est bien adapté pour les applications graphiques qui requièrent un rendu côté serveur sur Windows server. Cette vue d’ensemble décrit les principes fondamentaux de l’utilisation de Direct2D pour le rendu côté serveur. Il contient les sections suivantes :
 
 -   [Conditions requises pour le rendu Server-Side](#requirements-for-server-side-rendering)
 -   [Options pour les API disponibles](#options-for-available-apis)
@@ -33,23 +33,23 @@ Direct2D est bien adapté aux applications graphiques qui requièrent un rendu c
 
 Voici un scénario classique pour un serveur de graphique : les graphiques et les graphiques sont rendus sur un serveur et remis en tant que bitmaps en réponse aux requêtes Web. Le serveur peut être équipé d’une carte graphique de bas niveau ou d’aucune carte graphique.
 
-Ce scénario révèle trois exigences en matière d’applications. Tout d’abord, l’application doit gérer efficacement plusieurs requêtes simultanées, en particulier sur les serveurs multicœurs. Deuxièmement, l’application doit utiliser le rendu logiciel lors de l’exécution sur des serveurs avec une carte graphique de bas niveau ou aucune carte graphique. Enfin, l’application doit s’exécuter en tant que service dans la session 0 afin qu’il ne soit pas nécessaire qu’un utilisateur soit connecté. Pour plus d’informations sur la session 0, consultez [impact de l’isolation de la session 0 sur les services et les pilotes dans Windows](https://www.microsoft.com/whdc/system/sysinternals/Session0Changes.mspx).
+Ce scénario révèle trois exigences en matière d’applications. Tout d’abord, l’application doit gérer efficacement plusieurs requêtes simultanées, en particulier sur les serveurs multicœurs. Deuxièmement, l’application doit utiliser le rendu logiciel lors de l’exécution sur des serveurs avec une carte graphique de bas niveau ou aucune carte graphique. Enfin, l’application doit s’exécuter en tant que service dans la session 0 afin qu’il ne soit pas nécessaire qu’un utilisateur soit connecté. Pour plus d’informations sur la session 0, consultez [impact de l’isolation de la session 0 sur les services et pilotes dans Windows](https://www.microsoft.com/whdc/system/sysinternals/Session0Changes.mspx).
 
 ## <a name="options-for-available-apis"></a>Options pour les API disponibles
 
-Il existe trois options pour le rendu côté serveur : GDI, GDI+ et Direct2D. À l’instar de GDI et GDI+, Direct2D est une API de rendu 2D native qui permet aux applications de mieux contrôler l’utilisation des périphériques graphiques. En outre, Direct2D prend en charge de façon unique une fabrique à thread unique et une fabrique multithread. Les sections suivantes comparent chaque API en termes de qualité de dessin et de rendu multithread côté serveur.
+il existe trois options pour le rendu côté serveur : GDI, GDI+ et Direct2D. comme GDI et GDI+, Direct2D est une API de rendu 2d native qui permet aux applications de mieux contrôler l’utilisation des périphériques graphiques. En outre, Direct2D prend en charge de façon unique une fabrique à thread unique et une fabrique multithread. Les sections suivantes comparent chaque API en termes de qualité de dessin et de rendu multithread côté serveur.
 
 ### <a name="gdi"></a>GDI
 
-Contrairement à Direct2D et GDI+, GDI ne prend pas en charge les fonctionnalités de dessin de haute qualité. Par exemple, GDI ne prend pas en charge l’anticrénelage pour créer des courbes lissées et n’a qu’une prise en charge limitée de la transparence. En fonction des résultats des tests de performances graphiques sur Windows 7 et Windows Server 2008 R2, la mise à l’échelle de Direct2D est plus efficace que GDI, malgré la reconception des verrous dans GDI. Pour plus d’informations sur ces résultats de tests, consultez [ingénierie des performances graphiques de Windows 7](/archive/blogs/e7/engineering-windows-7-graphics-performance).
+contrairement à Direct2D et GDI+, GDI ne prend pas en charge les fonctionnalités de dessin de haute qualité. Par exemple, GDI ne prend pas en charge l’anticrénelage pour créer des courbes lissées et n’a qu’une prise en charge limitée de la transparence. en fonction des résultats des tests de performances graphiques sur Windows 7 et Windows Server 2008 R2, Direct2D évolue plus efficacement que GDI, malgré la reconception des verrous dans gdi. pour plus d’informations sur ces résultats de tests, consultez [Engineering Windows 7 Performance graphics](/archive/blogs/e7/engineering-windows-7-graphics-performance).
 
-En outre, les applications utilisant GDI sont limitées aux descripteurs GDI 10240 par processus et 65536 Handles GDI par session. Cela est dû au fait que Windows en interne utilise un mot 16 bits pour stocker l’index des descripteurs pour chaque session.
+En outre, les applications utilisant GDI sont limitées aux descripteurs GDI 10240 par processus et 65536 Handles GDI par session. en effet, en interne Windows utilise un mot 16 bits pour stocker l’index des descripteurs pour chaque session.
 
 ### <a name="gdi"></a>GDI+
 
-Bien que GDI+ prenne en charge l’anticrénelage et la fusion alpha pour un dessin de grande qualité, le principal problème avec GDI+ pour les scénarios de serveur est qu’il ne prend pas en charge l’exécution dans la session 0. Étant donné que la session 0 ne prend en charge que les fonctionnalités non interactives, les fonctions qui interagissent directement ou indirectement avec les appareils d’affichage recevront donc des erreurs. Les exemples de fonctions spécifiques incluent non seulement ceux qui traitent des appareils d’affichage, mais également ceux qui traitent indirectement des pilotes de périphérique.
+même si GDI+ prend en charge l’anticrénelage et la fusion alpha pour un dessin de grande qualité, le principal problème avec GDI+ pour les scénarios de serveur est qu’il ne prend pas en charge l’exécution dans la Session 0. Étant donné que la session 0 ne prend en charge que les fonctionnalités non interactives, les fonctions qui interagissent directement ou indirectement avec les appareils d’affichage recevront donc des erreurs. Les exemples de fonctions spécifiques incluent non seulement ceux qui traitent des appareils d’affichage, mais également ceux qui traitent indirectement des pilotes de périphérique.
 
-Semblable à GDI, GDI+ est limité par son mécanisme de verrouillage. Les mécanismes de verrouillage dans GDI+ sont les mêmes dans Windows 7 et Windows Server 2008 R2, comme dans les versions précédentes.
+à l’instar de GDI, GDI+ est limité par son mécanisme de verrouillage. les mécanismes de verrouillage dans les GDI+ sont les mêmes dans Windows 7 et Windows Server 2008 R2, comme dans les versions précédentes.
 
 ### <a name="direct2d"></a>Direct2D
 
@@ -57,7 +57,7 @@ Direct2D est une API graphique à accélération matérielle, en mode immédiat,
 
 Pour ce faire, Direct2D définit une interface de fabrique racine. En règle générale, un objet créé sur une fabrique peut uniquement être utilisé avec d’autres objets créés à partir de la même fabrique. L’appelant peut demander une fabrique à thread unique ou multithread lorsqu’il est créé. Si une fabrique à thread unique est demandée, aucun verrouillage de threads n’est effectué. Si l’appelant demande une fabrique multithread, un verrou de thread à l’intérieur de l’usine est acquis à chaque fois qu’un appel est effectué dans Direct2D.
 
-En outre, le verrouillage des threads dans Direct2D est plus granulaire que dans GDI et GDI+, afin que l’augmentation du nombre de threads ait un impact minimal sur les performances.
+en outre, le verrouillage des threads dans Direct2D est plus granulaire que dans GDI et GDI+, afin que l’augmentation du nombre de threads ait un impact minimal sur les performances.
 
 ## <a name="how-to-use-direct2d-for-server-side-rendering"></a>Utilisation de Direct2D pour le rendu Server-Side
 
@@ -307,6 +307,6 @@ Comme indiqué dans l’exemple ci-dessus, l’utilisation de Direct2D pour le r
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

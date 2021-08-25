@@ -4,17 +4,17 @@ description: Création de curseurs personnalisés
 ms.assetid: eb26ba44-a891-4cb6-be74-5acf881e896f
 keywords:
 - création d’apparences, de curseurs
-- Apparences du lecteur Windows Media, curseurs
+- habillages Lecteur Windows Media, curseurs
 - apparences, curseurs
 - curseurs dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f205d46af003589fcc2c3b741a253ea08fae12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d85a789bbd90003b59e1a9b9dcf8fffcf4a126c38138f7a051c24125780f8c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902329"
 ---
 # <a name="creating-custom-sliders"></a>Création de curseurs personnalisés
 
@@ -51,9 +51,9 @@ Vous pouvez voir une apparence de curseur de travail similaire dans la section e
 [**Guide de création d’apparence**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,35 +1,35 @@
 ---
-description: Donne une vue d’ensemble des modifications apportées aux contrôles parentaux Windows introduits dans Windows 7.
+description: donne une vue d’ensemble des modifications apportées au Windows contrôles parentaux introduits dans Windows 7.
 ms.assetid: 5723fddd-52e2-46a1-a48f-647d479b21d9
-title: Nouveautés dans les contrôles parentaux Windows 7
+title: nouveautés de Windows 7 contrôle Parental
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8282021c81ee8611fb7206d75f7e6aab48ebf2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f7b545c6791d286e51ae7a36ed65623d1697a7e742b1ae956e3ef4aaf3425e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951819"
 ---
-# <a name="whats-new-in-windows-7-parental-controls"></a>Nouveautés des contrôles parentaux Windows 7
+# <a name="whats-new-in-windows-7-parental-controls"></a>nouveautés de Windows 7 contrôle Parental
 
-## <a name="overview-of-parental-controls-changes-for-windows-7"></a>Vue d’ensemble des modifications du contrôle parental pour Windows 7
+## <a name="overview-of-parental-controls-changes-for-windows-7"></a>vue d’ensemble des modifications de contrôle Parental pour Windows 7
 
-L’objectif de ce document est de fournir une vue d’ensemble des modifications apportées aux contrôles parentaux Windows introduits dans Windows 7 et de permettre aux fournisseurs de solutions de contrôle parental tiers de tirer parti de ces modifications. Ce document part du principe que les lecteurs sont familiers avec les contrôles de contrôle parental pour Windows Vista et qu’ils reflètent uniquement les modifications apportées à cette fonctionnalité dans Windows 7 qui sont pertinentes pour le développement de solutions de contrôle parental tierces. Une mise à jour complète de la documentation sur le contrôle parental de Windows MSDN sera suivie à une date ultérieure.
+l’objectif de ce document est de donner une vue d’ensemble des modifications apportées au Windows contrôles parentaux introduits dans Windows 7 et de permettre aux fournisseurs de solutions de contrôle parental tiers de tirer parti de ces modifications. ce document part du principe que les lecteurs sont familiers avec les contrôles de contrôle parental pour Windows Vista et qu’ils reflètent uniquement les modifications apportées à cette fonctionnalité dans Windows 7 qui sont pertinentes pour le développement de solutions de contrôle Parental tierces. une mise à jour complète de MSDN Windows documentation sur le contrôle Parental suivra une date ultérieure.
 
-## <a name="key-design-decisions-for-windows-7-parental-control-changes"></a>Décisions de conception clés pour les modifications du contrôle parental Windows 7
+## <a name="key-design-decisions-for-windows-7-parental-control-changes"></a>décisions de conception clés pour les modifications du contrôle Parental Windows 7
 
-Les modifications apportées aux contrôles parentaux introduits dans Windows 7 poursuivent l’objectif principal de la promotion de la coexistence de solutions de contrôle parental tierces avec la fonctionnalité intégrée. Les modifications sont les suivantes :
+les modifications apportées aux contrôles parentaux introduits dans Windows 7 poursuivent l’objectif principal de la promotion de la coexistence de solutions de contrôle parental tierces avec la fonctionnalité intégrée. Les modifications sont les suivantes :
 
--   Suppression du filtrage Web et des rapports d’activité à partir de la fonctionnalité de contrôle parental intégrée. Les contrôles de contrôle parental fournis fournissent des restrictions principales mises en œuvre par Microsoft, telles que les limites de temps, les restrictions d’application et les restrictions de jeux. Le filtrage Web, les rapports d’activité et d’autres fonctionnalités peuvent être fournis par Microsoft ou des solutions de contrôle parental tierces. Par exemple, la solution de sécurité de la famille Windows Live permet le filtrage Web, la gestion à distance et la surveillance des activités, ainsi que la gestion des contacts pour toutes les applications Windows Live.
+-   Suppression du filtrage Web et des rapports d’activité à partir de la fonctionnalité de contrôle parental intégrée. Les contrôles de contrôle parental fournis fournissent des restrictions principales mises en œuvre par Microsoft, telles que les limites de temps, les restrictions d’application et les restrictions de jeux. Le filtrage Web, les rapports d’activité et d’autres fonctionnalités peuvent être fournis par Microsoft ou des solutions de contrôle parental tierces. par exemple, Windows Live Contrôle parental solution permet le filtrage web, la gestion à distance et la surveillance des activités, ainsi que la gestion des contacts pour toutes les applications Windows actives.
 -   L’activation de solutions tierces pour remplacer l’interface utilisateur de configuration du fournisseur intégré tout en continuant à utiliser l’implémentation intégrée des restrictions de temps, d’application et de jeu.
 -   Activation de la découverte et de l’activation de solutions tierces sur l’ordinateur par un parent ou un gardien (compte administrateur).
 
-## <a name="parental-controls-top-level-user-interface-changes-in-windows-7"></a>Modifications de l’interface utilisateur de niveau supérieur des contrôles parentaux dans Windows 7
+## <a name="parental-controls-top-level-user-interface-changes-in-windows-7"></a>modifications de l’Interface utilisateur de niveau supérieur des contrôles parentaux dans Windows 7
 
-Windows 7 apporte les modifications suivantes à l’interface utilisateur du panneau de configuration du contrôle parental :
+Windows 7 apporte les modifications suivantes à l’interface utilisateur du panneau de configuration du contrôle Parental :
 
--   La section contrôles supplémentaires est présentée, dans laquelle vous pouvez sélectionner des contrôles qui fournissent des fonctionnalités supplémentaires, telles que le filtrage Web, les rapports d’activité, etc., dans une zone de liste déroulante. Microsoft ou des fournisseurs tiers doivent inscrire leurs solutions avec les contrôles parentaux Windows 7 pour pouvoir les sélectionner dans la zone de liste déroulante contrôles supplémentaires. Pour plus d’informations sur l’inscription d’une solution, consultez inscription du fournisseur, plus loin dans cette rubrique).
+-   La section contrôles supplémentaires est présentée, dans laquelle vous pouvez sélectionner des contrôles qui fournissent des fonctionnalités supplémentaires, telles que le filtrage Web, les rapports d’activité, etc., dans une zone de liste déroulante. les fournisseurs Microsoft ou tiers doivent inscrire leurs solutions avec le contrôle Parental Windows 7 pour pouvoir les sélectionner dans la zone de liste déroulante contrôles supplémentaires. Pour plus d’informations sur l’inscription d’une solution, consultez inscription du fournisseur, plus loin dans cette rubrique).
 -   L’image du logo du fournisseur actuellement sélectionné s’affiche dans l’angle supérieur droit de la page.
 -   Les vignettes de l’utilisateur géré peuvent afficher un résumé des paramètres de contrôle parental fournis par le fournisseur actuellement sélectionné.
 
@@ -38,7 +38,7 @@ Le fournisseur actuellement sélectionné peut choisir d’utiliser sa propre in
 -   La section rapport d’activité est supprimée.
 -   Le lien permettant d’afficher les rapports d’activité est supprimé.
 
-## <a name="parental-controls-api-overview-windows-7-changes"></a>Vue d’ensemble de l’API de contrôle parental : modifications apportées à Windows 7
+## <a name="parental-controls-api-overview-windows-7-changes"></a>vue d’ensemble de l’API de contrôle Parental : Windows 7 modifications
 
 Le mécanisme d’intégration pour les fournisseurs de solutions tiers a été étendu pour permettre :
 
@@ -53,7 +53,7 @@ Le mécanisme d’intégration pour les fournisseurs de solutions tiers a été 
 
 ### <a name="provider-registration"></a>Inscription du fournisseur
 
-Pour inscrire un nouveau fournisseur avec contrôle parental, une valeur de registre doit être écrite dans la clé fournisseurs des contrôles parentaux Windows. Le nom de la valeur est un GUID unique utilisé pour identifier le fournisseur. La valeur Data est le chemin d’accès à une clé de Registre dans **HKEY \_ local \_ machine** qui contient des informations sur le fournisseur.
+pour inscrire un nouveau fournisseur avec contrôle parental, une valeur de registre doit être écrite dans la clé des fournisseurs de Windows contrôle parental. Le nom de la valeur est un GUID unique utilisé pour identifier le fournisseur. La valeur Data est le chemin d’accès à une clé de Registre dans **HKEY \_ local \_ machine** qui contient des informations sur le fournisseur.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -77,7 +77,7 @@ HKEY_LOCAL_MACHINE
 | <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Descriptive**<br/> | Chemin d’accès qualifié complet à un fichier binaire de ressource avec un ID de ressource négatif pour la description du fournisseur. La longueur de la description ne doit pas dépasser 200 caractères.<br/>                               |
 | <span id="StateCLSID"></span><span id="stateclsid"></span><span id="STATECLSID"></span>**StateCLSID**<br/>     | ID de classe de la classe du fournisseur qui implémente IWPCProviderState.<br/>                                                                                                                     |
 | <span id="ConfigCLSID"></span><span id="configclsid"></span><span id="CONFIGCLSID"></span>**ConfigCLSID**<br/> | ID de classe de la classe du fournisseur qui implémente IWPCProviderConfig. **StateCLSID** et **ConfigCLSID** peuvent être identiques.<br/>                                                               |
-| <span id="GRSVisible"></span><span id="grsvisible"></span><span id="GRSVISIBLE"></span>**GRSVisible**<br/>     | Valeur différente de zéro **DWORD** facultative qui spécifie que le contrôle parental Windows affiche un lien vers l’écran système de classification du jeu après qu’un fournisseur est sélectionné comme nouveau fournisseur actuel.<br/> |
+| <span id="GRSVisible"></span><span id="grsvisible"></span><span id="GRSVISIBLE"></span>**GRSVisible**<br/>     | valeur différente de zéro **DWORD** facultative qui spécifie que Windows contrôle Parental affiche un lien vers l’écran système de classification du jeu après qu’un fournisseur est sélectionné comme nouveau fournisseur actuel.<br/> |
 
 
 

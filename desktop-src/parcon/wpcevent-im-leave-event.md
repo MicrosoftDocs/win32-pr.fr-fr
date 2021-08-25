@@ -4,12 +4,12 @@ ms.assetid: e6bd6bce-9eba-4192-aac8-c9e47d7180a1
 title: Événement WPCEVENT_IM_LEAVE (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 260833a30f08330da9c622faae06f76b5d79e682
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6d814f6c9d4e3ec5acd3ee3cf3a6eb6e67d315148304f2766baf45fc633fa22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951209"
 ---
 # <a name="wpcevent_im_leave-event"></a>Événement de départ de la \_ messagerie instantanée WPCEVENT \_
 
@@ -102,7 +102,7 @@ Valeur de l’énumération [**WPCFLAG \_ im \_ Leave**](/windows/win32/api/wpce
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

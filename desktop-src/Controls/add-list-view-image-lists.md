@@ -4,12 +4,12 @@ description: Cette rubrique montre comment ajouter des listes d’images à un c
 ms.assetid: 3C282FBC-5E37-4D8E-A2C4-B2876874E9A7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c2f6f5b483ea80b412ab7638c9aceafcac4c5e6
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 8875573634cd47fb5ccb271c3dabfca99daf9061469e31c1178b3e4ed938347e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922054"
 ---
 # <a name="how-to-add-list-view-image-lists"></a>Comment ajouter des listes d’images List-View
 
@@ -17,16 +17,16 @@ Cette rubrique montre comment ajouter des listes d’images à un contrôle List
 
 Vous créez uniquement les listes d’images que le contrôle utilise. Par exemple, si votre application n’autorise pas l’utilisateur à basculer vers la vue icône, vous n’avez pas besoin de créer et d’affecter une grande liste d’icônes. Si vous créez des listes de grandes et petites images, elles doivent contenir les mêmes images dans le même ordre, car une seule valeur est utilisée pour identifier l’icône d’un élément d’affichage de liste dans les deux listes d’images.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

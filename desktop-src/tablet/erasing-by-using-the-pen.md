@@ -4,12 +4,12 @@ ms.assetid: c05c7dbf-c3e0-42a7-a97e-bb9d9764209d
 title: Effacement à l’aide du stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c9e71828e826f2d57dd21e57934e12c8de0be03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f96d7d281f4e94a4a53f7e99e83c38192ceb7d31fbf9ee643653a20b4836a7cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936569"
 ---
 # <a name="erasing-by-using-the-pen"></a>Effacement à l’aide du stylet
 
@@ -29,7 +29,7 @@ Pour obtenir un exemple d’utilisation du haut du stylet pour effacer l’encre
 
 ### <a name="determining-if-erasing-with-the-top-of-the-pen-is-enabled"></a>Détermination de l’activation de l’effacement avec le haut du stylet
 
-Les utilisateurs peuvent utiliser le haut du stylet pour effacer l’encre dans les applications conçues pour Tablet PC, si leur matériel spécifique le permet. Cette fonctionnalité est accessible par une case à cocher dans la zone de groupe boutons du stylet sous l’onglet Options du stylet de la boîte de dialogue Paramètres du Tablet PC et du stylet. Pour déterminer si l’utilisateur a activé l’effacement pour le haut du stylet, vérifiez la sous-clé de Registre suivante :
+Les utilisateurs peuvent utiliser le haut du stylet pour effacer l’encre dans les applications conçues pour Tablet PC, si leur matériel spécifique le permet. cette fonctionnalité est accessible par une case à cocher dans la zone de groupe boutons du stylet sous l’onglet Options du stylet de la boîte de dialogue tablette et stylet Paramètres panneau de configuration. Pour déterminer si l’utilisateur a activé l’effacement pour le haut du stylet, vérifiez la sous-clé de Registre suivante :
 
 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\WISP\PEN\SysEventParameters`
 

@@ -3,7 +3,7 @@ title: ABSTRACT, élément
 description: L’élément ABSTRACT contient du texte qui décrit l’élément ASX, BANNER ou ENTRy associé.
 ms.assetid: 7866fee8-1778-433a-be2f-9df0baa1c13e
 keywords:
-- Élément abstrait lecteur Windows Media
+- Lecteur Windows Media d’élément abstrait
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e90b6f52b697242be23303ab3597dac549a6177
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 153759dbe4bef47693cba13549b58215e4992686eab81cdcb4dadb33aa30279f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903049"
 ---
 # <a name="abstract-element"></a>ABSTRACT, élément
 
@@ -42,13 +42,13 @@ Cet élément n’a pas d’attributs.
 | Hierarchy | Éléments                       |
 |-----------|--------------------------------|
 | Parent    | **ASX**, **entrée**, **bannière** |
-| Enfant     | Aucune                           |
+| Enfant     | None                           |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet élément apparaît dans un élément **ASX** , le texte s’affiche sous la forme d’une info-bulle lorsque la souris pointe sur le titre de l’affichage.
 
@@ -94,10 +94,10 @@ Utilisez un seul élément **abstrait** par portée. Seul le premier élément *
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

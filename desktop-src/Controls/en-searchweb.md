@@ -3,7 +3,7 @@ title: EN_SEARCHWEB le code de notification (CommCtrl. h)
 description: Envoyé lorsqu’un contrôle d’édition perd le focus clavier. La fenêtre parente du contrôle d’édition reçoit ce code de notification par le biais d’un \_ message WM Notify.
 ms.assetid: c31f4b6c-afed-4506-b98a-65c902b0f63a
 keywords:
-- Contrôles Windows de code de notification EN_SEARCHWEB
+- EN_SEARCHWEB les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 2b995c90e8f4a607d7181adc8a357314acb84dc3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 606f53427426e4c9d20c2e4c12245569ed1d8a53ed7ea29162516f6d65fd1baa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047469"
 ---
 # <a name="en_searchweb-notification-code"></a>\_Code de notification en SEARCHWEB
 
@@ -59,8 +59,8 @@ Pointeur vers une structure [**NMSEARCHWEB**](/windows/desktop/api/Commctrl/ns-c
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, 1809 \[ uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2019 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10, 1809 \[ applications de bureau uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2019 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>CommCtrl. h</dt> </dl> |
 
 
