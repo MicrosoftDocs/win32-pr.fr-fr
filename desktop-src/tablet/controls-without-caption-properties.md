@@ -4,12 +4,12 @@ ms.assetid: 8c44e1eb-8d57-4c3b-a329-c8ad77423cb7
 title: Contrôles sans propriétés de légende
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f6c9a52d7c6c89e7233e32f7f5d7dc295bc289e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5cd8eb0c87f946d8540fb63d75408dcf98a880cefcd1ba295ba2ba113e6828f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774109"
 ---
 # <a name="controls-without-caption-properties"></a>Contrôles sans propriétés de légende
 
@@ -17,7 +17,7 @@ Lorsqu’un contrôle n’a pas sa propre propriété Caption, effectuez les ét
 
 -   Créez un contrôle de texte statique avec un nom explicite et descriptif.
 -   Placez l’étiquette statique de manière à ce qu’elle précède immédiatement le contrôle référencé, dans l’ordre de tabulation.
--   Assurez-vous que le texte de l’étiquette se termine par un signe deux-points, par exemple, « paramètres : »
+-   assurez-vous que le texte de l’étiquette se termine par un signe deux-points, par exemple, « Paramètres : »
 -   Placez le texte de l’étiquette immédiatement à gauche ou avant le contrôle référencé.
 -   Rendez le texte statique invisible s’il n’est pas approprié de l’afficher visuellement. Pour ce faire, affectez l’attribut approprié dans le script de ressources. Cela peut être approprié lorsque le nom ou la fonction d’un contrôle est fourni visuellement par d’autres moyens que le contrôle de texte statique, tel qu’un graphique ou une case d’option associée.
 

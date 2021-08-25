@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: db5f033690e848e8110148d099742ccb809cb644
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 264e3cd3fec376ac1145a33116d78d4df8552dd7deff5db483da9983ce0d88be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840389"
 ---
 # <a name="apiretrievecolumnasint16-method"></a>API. RetrieveColumnAsInt16, méthode
 

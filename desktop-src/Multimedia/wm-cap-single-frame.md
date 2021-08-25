@@ -3,7 +3,7 @@ title: Message WM_CAP_SINGLE_FRAME (VFW. h)
 description: Le \_ message WM Cap \_ Single \_ Frame ajoute une image unique à un fichier de capture qui a été ouvert à l’aide du message d’ouverture du \_ \_ cadre unique WM Cap \_ \_ . Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capCaptureSingleFrame.
 ms.assetid: 95466961-0719-4ff7-afc8-f7bf0e0974ac
 keywords:
-- Message WM_CAP_SINGLE_FRAME Windows Multimedia
+- message WM_CAP_SINGLE_FRAME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a919036ee38fdcf00f55c3d4044cd3f45bd13c82
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2080c8471849d42c2260c1f4133c996ef31e65e8a20591df531fbd24c19bc85c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119891789"
 ---
 # <a name="wm_cap_single_frame-message"></a>\_Message de \_ Frame unique WM Cap \_
 

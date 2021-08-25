@@ -10,12 +10,12 @@ keywords:
 - capGetMCIDeviceName macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8cf358a87a812024328abf7fc1aae0509a126f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 24d469465f47e908bda2512261ea638ad23e931a43cbb0449df676829469c3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892589"
 ---
 # <a name="streaming-capture-from-an-mci-device"></a>Capture en continu à partir d’un périphérique MCI
 
@@ -38,7 +38,7 @@ Si une capture d’image pas à pas est spécifiée et que **fStepCaptureAt2x** 
 > [!Note]  
 > Si votre matériel prend en charge la décimalisation basée sur le matériel, il peut capturer des échantillons à une fréquence supérieure à celle spécifiée et utiliser ces exemples supplémentaires pour obtenir des définitions de couleurs plus cohérentes avec l’image d’origine. Les exemples supplémentaires sont ignorés une fois qu’ils sont utilisés et le matériel passe des exemples au pilote de capture à la fréquence spécifiée.
 
- 
+ 
 
 Si une capture d’image pas à pas est spécifiée, le membre **wStepCaptureAverageFrames** spécifie le nombre de fois où une image est échantillonnée lors de la création d’un frame basé sur l’échantillon moyen. Cette technique de calcul de la moyenne réduit le bruit de numérisation aléatoire apparaissant dans un cadre. Une valeur typique pour le nombre de moyennes est 5.
 
@@ -51,9 +51,9 @@ Pour plus d’informations sur MCI, consultez [MCI](mci.md).
 [Variations de capture](capture-variations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

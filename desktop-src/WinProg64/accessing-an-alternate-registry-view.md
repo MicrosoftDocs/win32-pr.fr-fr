@@ -3,16 +3,16 @@ title: Accès à une autre vue de Registre
 description: Par défaut, une application 32 bits s'exécutant sur WOW64 accède à la vue de Registre 32 bits et une application 64 bits accède à la vue de Registre 64 bits.
 ms.assetid: 2c5fd3de-998c-44ab-863e-8e0e90d56e5d
 keywords:
-- affichages du registre de la programmation Windows 64 bits
-- WOW64, programmation Windows 64 bits, affichages du Registre
+- affichages du registre 64-bit Windows programmation
+- Windows de la programmation WOW64 64 bits, affichages du registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad3bca57367394e1b2fffc6486065e93c966f224
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: 1642de971a2342ab26114803689b8de21dd66194618a8db23f97170bc8da576a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "106536223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119859079"
 ---
 # <a name="accessing-an-alternate-registry-view"></a>Accès à une autre vue de Registre
 

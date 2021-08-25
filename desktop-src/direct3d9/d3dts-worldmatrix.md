@@ -1,5 +1,5 @@
 ---
-description: Mappe les index de la plage 0 à 255 aux États de transformation correspondants.
+description: Cartes les index de la plage 0 à 255 aux états de transformation correspondants.
 ms.assetid: b0a1548c-de5d-4eff-baf9-4aecb5e13443
 title: Macro D3DTS_WORLDMATRIX (D3d9types. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: f80996a37e2fb48bf8ca7ea73f714b04e711b263
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 03a93753790378a7066f4a3ffa6bc6b7fb8139b77f9096886161013653312bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104530874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850059"
 ---
 # <a name="d3dts_worldmatrix-macro"></a>D3DTS \_ macro WORLDMATRIX
 
-Mappe les index de la plage 0 à 255 aux États de transformation correspondants.
+Cartes les index de la plage 0 à 255 aux états de transformation correspondants.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,7 +50,7 @@ Valeur d’index comprise entre 0 et 255.
 
 [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) mappé à l' *index* donné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les États de transformation de la plage 256 à 511 sont réservés pour stocker jusqu’à 256 matrices qui peuvent être indexées à l’aide d’index 8 bits.
 

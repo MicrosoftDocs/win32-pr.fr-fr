@@ -4,12 +4,12 @@ ms.assetid: ba1e7877-1612-4f2f-aced-0dd982352ad6
 title: Message WM_IME_SETCONTEXT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b36cb1e80127d1a451dabcc457dc364a27878ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5fb3e65b47b5d62b1d37ffaee4dfc5927d76485d0c3e5de02662da64215e43f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119829249"
 ---
 # <a name="wm_ime_setcontext-message"></a>Message de l' \_ IME SETCONTEXT du WM \_
 
@@ -72,7 +72,7 @@ les options d’affichage ; Ce paramètre peut avoir une ou plusieurs des valeur
 
 Retourne la valeur retournée par [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) ou [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’application a créé une fenêtre IME, elle doit appeler [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea). Dans le cas contraire, il doit transmettre ce message à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca).
 
@@ -86,7 +86,7 @@ Si l’application dessine la fenêtre de composition, la fenêtre IME par défa
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                                                                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                                                                                                      |
-| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h); </dt> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h);</dt> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

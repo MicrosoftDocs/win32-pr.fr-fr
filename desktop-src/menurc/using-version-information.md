@@ -8,12 +8,12 @@ keywords:
 - informations sur le fichier d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8785275f5aac69218989250d1c0f83e0a1ff9f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0447bc1dfc3b2d5d5006bb5ff9ca3e9fa8f3d488e9b5621acb932c843fc3630f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846989"
 ---
 # <a name="using-version-information"></a>Utilisation des informations de version
 
@@ -53,6 +53,6 @@ Par exemple, si [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verin
 
 Si [**VerInstallFile**](/windows/desktop/api/Winver/nf-winver-verinstallfilea) retourne une erreur de fichier, par exemple **vif \_ ACCESSVIOLATION**, le programme d’installation doit utiliser la fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) pour récupérer la valeur d’erreur la plus récente. Le programme doit traduire cette valeur en message d’information à afficher à l’utilisateur. Le programme ne doit pas générer de contrôle entre les appels à **VerInstallFile** et **GetLastError**.
 
- 
+ 
 
- 
+ 

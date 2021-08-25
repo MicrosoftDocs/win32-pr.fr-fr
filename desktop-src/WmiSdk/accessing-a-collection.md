@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2b875f50c1778a03c304f90c019da172be6ef5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da563830b742b47a138c106b21efe197108bbdddf7ad7f86b90984a04431aa0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119860512"
 ---
 # <a name="accessing-a-wmi-collection"></a>Accès à une collection WMI
 
@@ -34,11 +34,11 @@ Le tableau suivant répertorie les collections de l’API de script pour WMI, ai
 
 | Collection                                       | Élément                                              | Paramètre Item ()                                                         |
 |--------------------------------------------------|------------------------------------------------------|--------------------------------------------------------------------------|
-| [**SWbemObjectSet**](swbemobjectset.md)         | [**M**](swbemobject.md)                   | Chemin de l’objet                                                              |
+| [**SWbemObjectSet**](swbemobjectset.md)         | [**M**](swbemobject.md)                   | Chemin d’accès de l’objet                                                              |
 | [**SWbemPropertySet**](swbempropertyset.md)     | [**SWbemProperty**](swbemproperty.md)               | Nom de la propriété                                                            |
 | [**SWbemQualifierSet**](swbemqualifierset.md)   | [**SWbemQualifier**](swbemqualifier.md)             | Nom du qualificateur                                                           |
 | [**SWbemMethodSet**](swbemmethodset.md)         | [**SWbemMethod**](swbemmethod.md)                   | Nom de la méthode                                                              |
-| [**SWbemNamedValueSet**](swbemnamedvalueset.md) | [**SWbemNamedValue**](swbemnamedvalue.md)           | Nom de la valeur                                                               |
+| [**SWbemNamedValueSet**](swbemnamedvalueset.md) | [**SWbemNamedValue**](swbemnamedvalue.md)           | Nom de valeur                                                               |
 | [**SWbemPrivilegeSet**](swbemprivilegeset.md)   | [**SWbemPrivilege**](swbemprivilege.md)             | Nom du privilège                                                           |
 | [**SWbemRefresher**](swbemrefresher.md)         | [**SWbemRefreshableItem**](swbemrefreshableitem.md) | Index de l’élément dans l’objet [**SWbemRefresher**](swbemrefresher.md) |
 

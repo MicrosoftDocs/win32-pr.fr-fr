@@ -4,22 +4,22 @@ ms.assetid: 834534b8-540a-48c2-8eb0-3511d5a20cb4
 title: Table MsiDigitalCertificate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff4765dee433cfab989e79c7ef4663d8939381ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 443e5f27d13ebd823fa8e5362de474082d39e4b09b9e240b9ee16e9924342e41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828779"
 ---
 # <a name="msidigitalcertificate-table"></a>Table MsiDigitalCertificate
 
-La table MsiDigitalCertificate stocke les certificats dans un format de flux binaire et associe chaque certificat à une clé primaire. La clé primaire est utilisée pour partager des certificats entre plusieurs objets signés numériquement. Un certificat numérique est une information d’identification qui fournit un moyen de vérifier l’identité. Pour plus d’informations, consultez [certificats numériques](../seccrypto/digital-certificates.md) dans la section [chiffrement](../seccrypto/cryptography-portal.md) du kit de développement logiciel (SDK) Microsoft Windows.
+La table MsiDigitalCertificate stocke les certificats dans un format de flux binaire et associe chaque certificat à une clé primaire. La clé primaire est utilisée pour partager des certificats entre plusieurs objets signés numériquement. Un certificat numérique est une information d’identification qui fournit un moyen de vérifier l’identité. pour plus d’informations, consultez [certificats numériques](../seccrypto/digital-certificates.md) dans la section [chiffrement](../seccrypto/cryptography-portal.md) du kit de développement logiciel (SDK) de Microsoft Windows.
 
-Les tables [MsiDigitalSignature](msidigitalsignature-table.md) et MsiDigitalCertificate sont disponibles à partir de Windows Installer version 2,0.
+les tables [MsiDigitalSignature](msidigitalsignature-table.md) et MsiDigitalCertificate sont disponibles à partir de Windows Installer version 2,0.
 
-Windows Installer pouvez utiliser des signatures numériques pour détecter les ressources endommagées. Windows Installer version 2,0 peut uniquement vérifier les signatures numériques des armoires externes, et uniquement à l’aide des tables [MsiDigitalSignature](msidigitalsignature-table.md) et MsiDigitalCertificate.
+Windows Le programme d’installation peut utiliser des signatures numériques pour détecter les ressources endommagées. Windows Le programme d’installation 2,0 peut uniquement vérifier les signatures numériques des armoires externes, et uniquement à l’aide des tables [MsiDigitalSignature](msidigitalsignature-table.md) et MsiDigitalCertificate.
 
-À partir de Windows Installer version 3,0, les Windows Installer peuvent vérifier les signatures numériques des correctifs (fichiers. msp) à l’aide des tables [MsiPatchCertificate](msipatchcertificate-table.md) et MsiDigitalCertificate. Pour plus d’informations, consultez Instructions pour la création d’une mise à [jour corrective](user-account-control--uac--patching.md)des [installations sécurisées et du contrôle de compte d'](guidelines-for-authoring-secure-installations.md) utilisateur.
+à partir de Windows Installer version 3,0, les Windows Installer peuvent vérifier les signatures numériques des correctifs (fichiers. msp) à l’aide des tables [MsiPatchCertificate](msipatchcertificate-table.md) et MsiDigitalCertificate. Pour plus d’informations, consultez Instructions pour la création d’une mise à [jour corrective](user-account-control--uac--patching.md)des [installations sécurisées et du contrôle de compte d'](guidelines-for-authoring-secure-installations.md) utilisateur.
 
 La table MsiDigitalCertificate contient les colonnes suivantes.
 

@@ -4,12 +4,12 @@ ms.assetid: b57974ab-5654-412d-ae59-58f67a88c121
 title: Anticrénelage de Full-Scene (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d73d559c4b4fec060efbff7468ee29e6c83b64c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d3fdeab18997db57ed1391af97f40f1500e7c326411019ddcb42453e4a68cc7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893989"
 ---
 # <a name="full-scene-antialiasing-direct3d-9"></a>Anticrénelage de Full-Scene (Direct3D 9)
 

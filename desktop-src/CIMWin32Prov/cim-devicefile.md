@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 476f0ecd212247e1fc96db3efedcc0c18a6a2e06
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71eefcc6a0c33f1981c6b83a03a2d4fe59acf9d438c6710e2381f887be76b5e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924519"
 ---
 # <a name="cim_devicefile-class"></a>\_Classe CIM DeviceFile
 
@@ -773,7 +773,7 @@ Nom hérité qui sert de clé d’une instance de fichier logique dans un systè
 
 Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md).
 
-Exemple : « C : \\ \\ système Windows \\win.ini »
+exemple : « C : \\ Windows \\ système \\win.ini »
 
 </dd> <dt>
 
@@ -957,7 +957,7 @@ Cette propriété est héritée de la [**\_ LogicalFile CIM**](cim-logicalfile.m
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ DeviceFile** est dérivée de [**CIM \_ LogicalFile**](cim-logicalfile.md).
 

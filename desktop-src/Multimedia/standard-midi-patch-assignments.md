@@ -12,16 +12,16 @@ keywords:
 - Spécification du mode MIDI général
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df7e02dea62696f1076bd4e5e3030081b0dbe3a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3559a57b55dfd45eeaf59ffd2f12967509473028dc3e298c30b37d6602719742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805339"
 ---
 # <a name="standard-midi-patch-assignments"></a>Attributions de correctifs MIDI standard
 
-Les attributions de correctifs MIDI standard pour la création de fichiers MIDI à utiliser avec Windows sont basées sur la spécification du mode MIDI général de l’Association MIDI Manufacturers (MMA). Les attributions de correctifs MIDI standard sont les suivantes.
+les affectations de correctifs midi standard pour la création de fichiers midi à utiliser avec Windows sont basées sur la spécification du Mode midi général de l’Association midi manufacturers (MMA). Les attributions de correctifs MIDI standard sont les suivantes.
 
 
 
@@ -29,7 +29,7 @@ Les attributions de correctifs MIDI standard pour la création de fichiers MIDI 
 |----------------------------|---------------------------|----------------------|
 | piano grand piano     | 8 celesta                 | 16 organe Hammond     |
 | 1 piano acoustique vif    | 9 glockenspiel            | organe 17 percussion  |
-| 2 pianos     | zone 10 musique              | 18 organe Rock        |
+| 2 pianos     | 10 Musique box              | 18 organe Rock        |
 | Honky-Tonk         | 11 vibraphone             | 19 organe église      |
 | Rhodes piano             | 12 marimba                | 20 orgue        |
 | 5 piano           | 13 xylophone              | 21 accordéon         |
@@ -74,11 +74,11 @@ Les attributions de correctifs MIDI standard pour la création de fichiers MIDI 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

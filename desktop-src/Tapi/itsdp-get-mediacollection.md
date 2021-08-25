@@ -4,16 +4,16 @@ ms.assetid: 8109582a-74f0-47e8-91d1-0d89c3d3c331
 title: 'ITSdp :: get_MediaCollection, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f8812debf8c04fe022f24061660d6ea3bb5f162
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4cf358089a394775c753adc0642897021e91df5bfcd5f23418e638df82db03a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774509"
 ---
 # <a name="itsdpget_mediacollection-method"></a>ITSdp :: \_ MediaCollection, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ MediaCollection** obtient un pointeur vers l’interface [**ITMediaCollection**](itmediacollection.md) pour la Conférence.
 
@@ -58,7 +58,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un pointeur [**ITMediaCollection**](itmediacollection.md) peut également être obtenu à l’aide de **QueryInterface**.
 

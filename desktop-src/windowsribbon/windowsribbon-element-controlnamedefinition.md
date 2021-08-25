@@ -3,7 +3,7 @@ title: Élément ControlNameDefinition
 description: Représente le nom d’un contrôle dans un modèle de disposition SizeDefinition personnalisé.
 ms.assetid: 94b724bd-a4e3-40e0-9cf0-3cc6a71100d2
 keywords:
-- Ruban des fenêtres d’élément ControlNameDefinition
+- élément ControlNameDefinition Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6b2dc1db251d4d657c3793d2a66a9add1d324c37
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 98dec89afb4a74d71271e3568935f9707a31cbb1db18be22cedb6f667e1010cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119840749"
 ---
 # <a name="controlnamedefinition-element"></a>Élément ControlNameDefinition
 
 Représente le nom d’un contrôle dans un modèle de disposition [**SizeDefinition**](windowsribbon-element-sizedefinition.md) personnalisé.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ControlNameDefinition
@@ -65,7 +65,7 @@ Représente le nom d’un contrôle dans un modèle de disposition [**SizeDefini
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlNameMap**](windowsribbon-element-controlnamemap.md) .
 
@@ -163,7 +163,7 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

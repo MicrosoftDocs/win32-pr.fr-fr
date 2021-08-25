@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b799c725790115152ac70c0214d82a8c242ea600
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c20c11ff547c24b37edab7f88a2854c9bc26ff133e7acba3a381971ededc3d90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925189"
 ---
 # <a name="object-classes-attribute"></a>Attribut Object-Classes
 
@@ -46,7 +46,7 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

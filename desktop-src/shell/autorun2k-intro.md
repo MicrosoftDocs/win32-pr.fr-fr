@@ -1,5 +1,5 @@
 ---
-description: L’exécution automatique est une nouvelle fonctionnalité introducted dans Windows XP qui détecte du contenu tel que des images, de la musique ou des fichiers vidéo sur des supports amovibles et des périphériques amovibles.
+description: l’exécution automatique est une nouvelle fonctionnalité introducted dans Windows XP qui détecte du contenu tel que des images, de la musique ou des fichiers vidéo sur des supports amovibles et des périphériques amovibles.
 title: Utilisation de l’exécution automatique matérielle
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1c0eff0e9c8a96149d26ee5bdc514e5067c0abb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5fc3d4700305100cab3c62d96c881830f6ea02c1c6060b1076709b5190833064
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943579"
 ---
 # <a name="using-hardware-autoplay"></a>Utilisation de l’exécution automatique matérielle
 
-L’exécution automatique est une nouvelle fonctionnalité introducted dans Windows XP qui détecte du contenu tel que des images, de la musique ou des fichiers vidéo sur des supports amovibles et des périphériques amovibles. La lecture automatique lance ensuite automatiquement les applications pour lire ou afficher ce contenu. Cela simplifie l’utilisation de périphériques périphériques spécialisés tels que les lecteurs MPEG-Layer 3 (MP3) et les lecteurs de photos numériques. Cela permet également aux utilisateurs qui ne sont pas familiarisés avec les logiciels nécessaires d’accéder aux différents types de contenu.
+l’exécution automatique est une nouvelle fonctionnalité introducted dans Windows XP qui détecte du contenu tel que des images, de la musique ou des fichiers vidéo sur des supports amovibles et des périphériques amovibles. La lecture automatique lance ensuite automatiquement les applications pour lire ou afficher ce contenu. Cela simplifie l’utilisation de périphériques périphériques spécialisés tels que les lecteurs MPEG-Layer 3 (MP3) et les lecteurs de photos numériques. Cela permet également aux utilisateurs qui ne sont pas familiarisés avec les logiciels nécessaires d’accéder aux différents types de contenu.
 
 Une sélection étendue d’icônes, y compris les icônes de marque pour les principaux fabricants, est incluse pour offrir une meilleure différenciation visuelle des lecteurs et autres périphériques attachés dans **poste de travail**. Les icônes des appareils avec support amovible, à l’exception des lecteurs de disquette, sont fournies dans les versions prêtes et non prêtes pour indiquer l’état actuel de l’appareil. Cela confirme qu’un appareil branché à chaud dans le système est prêt à être utilisé et qu’il permet d’éviter les messages « appareil non prêt » des appareils sans support inséré.
 

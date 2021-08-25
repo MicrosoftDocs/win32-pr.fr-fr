@@ -4,20 +4,20 @@ description: Interfaces Transfert de données
 ms.assetid: c42e65a4-7b77-4f39-8323-04fa60c5b140
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448e1a580880c7202ec67d12965f6db7e0be99d0
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 63bffa72f2e6bd408cbb7f19121aeef991e74702ff1141b24aba779e6985585c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119896339"
 ---
 # <a name="data-transfer-interfaces"></a>Interfaces Transfert de données
 
 L’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) fournit aux consommateurs de données des méthodes permettant d’obtenir et de définir les données d’un objet, de déterminer les formats pris en charge par l’objet, ainsi que d’inscrire et de recevoir des notifications lorsque les données de l’objet sont modifiées. Quand vous obtenez des données, un appelant peut spécifier le format dans lequel il souhaite afficher les données. La source des données, cependant, détermine le support de stockage, qu’elle retourne dans un paramètre de sortie fourni par l’appelant.
 
-À lui seul, [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) fournit tous les outils dont vous avez besoin pour implémenter les transferts du presse-papiers Windows ou les transferts de documents composés dans vos applications. Si vous souhaitez également prendre en charge les transferts par glisser-déplacer, vous devez implémenter les interfaces [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource) et [**IDropTarget**](/windows/desktop/api/OleIdl/nn-oleidl-idroptarget) avec **IDataObject**.
+à lui seul, [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) fournit tous les outils dont vous avez besoin pour implémenter Windows les transferts du presse-papiers ou les transferts de documents composés dans vos applications. Si vous souhaitez également prendre en charge les transferts par glisser-déplacer, vous devez implémenter les interfaces [**IDropSource**](/windows/desktop/api/OleIdl/nn-oleidl-idropsource) et [**IDropTarget**](/windows/desktop/api/OleIdl/nn-oleidl-idroptarget) avec **IDataObject**.
 
-L’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) combinée aux API du presse-papiers OLE offre toutes les fonctionnalités des API du presse-papiers Windows. Il n’est généralement pas nécessaire d’utiliser les deux API du presse-papiers. Les fournisseurs de données qui prennent en charge les transferts par glisser-déplacer ou les documents composés OLE doivent implémenter l’interface **IDataObject** . Si votre application ne prend en charge que les transferts du presse-papiers maintenant, mais que vous envisagez d’ajouter des documents de glisser-déplacer ou composés dans des versions ultérieures, vous souhaiterez peut-être implémenter **IDataObject** et les API du presse-papiers OLE maintenant afin de réduire le temps de recodage et de débogage ultérieur. Vous pouvez également implémenter **IDataObject** afin d’utiliser des médias de transfert autres que la mémoire globale.
+l’interface [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) combinée aux api du presse-papiers OLE fournit toutes les fonctionnalités des api Windows presse-papiers. Il n’est généralement pas nécessaire d’utiliser les deux API du presse-papiers. Les fournisseurs de données qui prennent en charge les transferts par glisser-déplacer ou les documents composés OLE doivent implémenter l’interface **IDataObject** . Si votre application ne prend en charge que les transferts du presse-papiers maintenant, mais que vous envisagez d’ajouter des documents de glisser-déplacer ou composés dans des versions ultérieures, vous souhaiterez peut-être implémenter **IDataObject** et les API du presse-papiers OLE maintenant afin de réduire le temps de recodage et de débogage ultérieur. Vous pouvez également implémenter **IDataObject** afin d’utiliser des médias de transfert autres que la mémoire globale.
 
 Le tableau suivant résume les types de transferts de données que vous souhaitez prendre en charge :
 

@@ -6,12 +6,12 @@ keywords:
 - mciSendCommand fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13ed74a133f112935f9ff2ad451e84e3819cee6c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3d612c01f0800bc70b19e0b9d7d1b83eb5654371a75720ba85828d3ed9f08f3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106511890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805409"
 ---
 # <a name="setting-up-the-playback-window"></a>Configuration de la fenêtre de lecture
 
@@ -52,6 +52,6 @@ if (hwndMovie){
 
 
 
- 
+ 
 
- 
+ 

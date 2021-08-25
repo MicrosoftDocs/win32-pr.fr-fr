@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Firewall_App04
-description: La \_ classe App04 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+description: la \_ classe App04 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 ms.assetid: d7844d89-97d3-43b4-85af-c9464d475167
 keywords:
 - Classe MDM_Firewall_App04
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a8558fb2834ba9b0143d644cf4922aa9a710d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2fd76cef258eaf7695278ce5bf5851f2433089773e980b5c4241282acc728372
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875279"
 ---
 # <a name="mdm_firewall_app04-class"></a>\_Classe App04 du pare-feu MDM \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La \_ classe App04 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
+la \_ classe App04 du pare-feu MDM \_ est utilisée pour configurer les paramètres du pare-feu Windows Defender.
 
 La syntaxe suivante issue du code MOF est simplifiée et inclut toutes les propriétés héritées.
 
@@ -137,7 +137,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                       |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                              |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl> |

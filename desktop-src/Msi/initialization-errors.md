@@ -4,12 +4,12 @@ ms.assetid: 5cce27ff-1143-4fe6-b4bd-727581431c07
 title: Erreurs d’initialisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee6730a0578579a5b52c30ba2d59436820381f22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9494a560f8ec211da042736e767fc79371aeffcc4435a8fb554989ac625c2b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894090"
 ---
 # <a name="initialization-errors"></a>Erreurs d’initialisation
 
@@ -17,7 +17,7 @@ Ce tableau décrit les codes et les valeurs d’erreur d’initialisation.
 
 
 
-| Code d'erreur                            | Valeur | Error                                                                                                                                                                                                                                                                         |
+| Code d'erreur                            | Valeur | Erreur                                                                                                                                                                                                                                                                         |
 |---------------------------------------|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ERREUR de \_ réussite                        | 0     | Initialisation terminée                                                                                                                                                                                                                                                       |
 | ERREUR \_ déjà \_ initialisée           | 1247  | Le programme d’installation est déjà initialisé                                                                                                                                                                                                                                          |
@@ -39,7 +39,7 @@ Ce tableau décrit les codes et les valeurs d’erreur d’initialisation.
 | ERREUR \_ \_ ligne de commande non valide \_         | 1639  | Syntaxe de ligne de commande non valide                                                                                                                                                                                                                                                   |
 | ERREUR d' \_ installation \_ distante non \_ autorisée    | 1640  | L’installation à partir d’une session cliente des services Terminal Server n’est pas autorisée pour l’utilisateur actuel.                                                                                                                                                                                          |
 | ERREUR de la \_ cible du correctif \_ \_ \_ introuvable      | 1642  | Le programme d’installation ne peut pas installer le correctif de mise à niveau, car le programme en cours de mise à niveau est peut-être manquant ou le correctif de mise à niveau met à jour une autre version du programme. Vérifiez que le programme à mettre à niveau existe sur votre ordinateur et que vous avez le correctif de mise à niveau approprié. |
-| ERREUR d' \_ installation \_ rejetée              | 1654  | L’application que vous essayez d’exécuter n’est pas prise en charge sur cette version de Windows. Un package Windows Installer, un correctif ou une transformation qui n’a pas été signé par Microsoft ne peut pas être installé sur un ordinateur ARM.                                                                |
+| ERREUR d' \_ installation \_ rejetée              | 1654  | L’application que vous essayez d’exécuter n’est pas prise en charge sur cette version de Windows. un package Windows Installer, un correctif ou une transformation qui n’a pas été signé par Microsoft ne peut pas être installé sur un ordinateur ARM.                                                                |
 
 
 

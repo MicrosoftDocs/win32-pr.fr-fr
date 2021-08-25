@@ -4,12 +4,12 @@ ms.assetid: d44960eb-da5e-4379-ba9d-cb804559dc53
 title: Énumération des types audio pour des modes d’encodage spécifiques (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16a8b97afdd48cb1d7828f80778aa9fcf8dc1ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec311c9ac4d879f8834d50353913e7fad1b6e50a9292a44444bc45376247636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828239"
 ---
 # <a name="enumerating-audio-types-for-specific-encoding-modes-microsoft-media-foundation"></a>Énumération des types audio pour des modes d’encodage spécifiques (Microsoft Media Foundation)
 
@@ -19,13 +19,13 @@ Si vous souhaitez utiliser un mode d’encodage autre qu’un passe CBR, vous de
 
 ## <a name="identifying-quality-based-vbr-types"></a>Identification des types VBR basés sur la qualité
 
-La procédure d’identification des types VBR basés sur la qualité varie selon que l’encodeur agit comme un objet de média DirectX (DMO) ou agit comme une transformation de Media Foundation (MFT). Pour plus d’informations sur le moment où un encodeur agit comme DMO ou MFT, consultez les pages de référence des codecs individuels sous [objets codec](codecobjects.md).
+la procédure d’identification des types VBR basés sur la qualité varie selon que l’encodeur joue le rôle d’un objet multimédia DirectX (DMO) ou agit comme une transformation de Media Foundation (MFT). pour plus d’informations sur le moment où un encodeur agit en tant que DMO ou MFT, consultez les pages de référence du codec individuelles sous [objets de codec](codecobjects.md).
 
-Lorsqu’un encodeur audio fait office de DMO et que vous configurez l’encodeur pour utiliser le VBR à passage unique, il énumère tous les types de sortie pris en charge. Toutefois, vous souhaiterez généralement sélectionner un type VBR à un passage basé sur le paramètre Quality. L’encodeur place la valeur de qualité pour les types de sortie VBR à un passage dans le membre **nAvgBytesPerSec** de la structure **WAVEFORMATEX** désignée par **DMO \_ Media \_ type. pbFormat**.
+lorsqu’un encodeur audio agit comme un DMO et que vous configurez l’encodeur pour utiliser le VBR à passage unique, il énumère tous les types de sortie pris en charge. Toutefois, vous souhaiterez généralement sélectionner un type VBR à un passage basé sur le paramètre Quality. l’encodeur place la valeur de qualité pour les types de sortie VBR à un passage dans le membre **nAvgBytesPerSec** de la structure **WAVEFORMATEX** désignée par **DMO \_ TYPE de média \_ . pbFormat**.
 
 Cette valeur est stockée au format suivant : 0x7FFFFFXX, où XX est la valeur de qualité (comprise entre 0 et 100). Par exemple, la valeur **nAvgBytesPerSec** de 0x7FFFFF62 spécifie le niveau de qualité 98 (0x62 = 98).
 
-L’exemple suivant montre comment vérifier le niveau de qualité d’un format lorsque l’encodeur agit comme DMO.
+L’exemple suivant montre comment vérifier le niveau de qualité d’un format lorsque l’encodeur joue le rôle d’un DMO.
 
 
 ```

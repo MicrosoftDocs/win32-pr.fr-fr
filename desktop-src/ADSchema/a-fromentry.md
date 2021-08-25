@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c5f5e45e2897b917ad442f1b1b5d77246fa079c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3e45fb85f8f44d769ad4f199d15f43ec05f25d37dec3080e2fb4a4a42a77b6b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106532058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925819"
 ---
 # <a name="from-entry-attribute"></a>Attribut From-Entry
 
@@ -46,7 +46,7 @@ Il s’agit d’un attribut construit qui a la **valeur true** si l’objet est 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

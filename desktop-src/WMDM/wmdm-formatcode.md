@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d04db31578f36455fdf77bb4044ad45e5ca9f9a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5b09a388926a0f5fc11e24fc17fe4693b710e04aa321202e9cf31890d60d6642
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862909"
 ---
 # <a name="wmdm_formatcode-enumeration"></a>WMDM \_ FORMATCODE, énumération
 
@@ -399,7 +399,7 @@ Mettre en forme le code d’une image de photo HD
 <span id="WMDM_FORMATCODE_WINDOWSIMAGEFORMAT"></span><span id="wmdm_formatcode_windowsimageformat"></span>**WMDM \_ FORMATCODE \_ WINDOWSIMAGEFORMAT**
 </dt> <dd>
 
-Mettre en forme le code pour le format d’image Windows.
+mettre en forme le code pour Windows format d’image.
 
 </dd> <dt>
 
@@ -413,7 +413,7 @@ Mettre en forme le code pour un fichier audio de type non défini.
 <span id="WMDM_FORMATCODE_WMA"></span><span id="wmdm_formatcode_wma"></span>**WMDM \_ FORMATCODE \_ WMA**
 </dt> <dd>
 
-Mettre en forme le code d’un fichier Windows Media Audio (WMA).
+mettre en forme le code d’un fichier Windows Media Audio (WMA).
 
 </dd> <dt>
 
@@ -469,7 +469,7 @@ Mettre en forme le code d’un fichier vidéo avec un type non défini.
 <span id="WMDM_FORMATCODE_WMV"></span><span id="wmdm_formatcode_wmv"></span>**\_WMV FORMATCODE \_ WMDM**
 </dt> <dd>
 
-Mettez en forme le code d’un fichier Windows Media Video (WMV).
+mettez en forme le code d’un fichier Windows Media Video (WMV).
 
 </dd> <dt>
 
@@ -581,7 +581,7 @@ Mettez en forme le code pour une production par chapitre dans laquelle l’objet
 <span id="WMDM_FORMATCODE_WPLPLAYLIST"></span><span id="wmdm_formatcode_wplplaylist"></span>**WMDM \_ FORMATCODE \_ WPLPLAYLIST**
 </dt> <dd>
 
-Mettre en forme le code pour une sélection mise en forme avec la mise en forme de la sélection Windows Media.
+mettre en forme le code pour une sélection mise en forme avec Windows la mise en forme de la sélection de média.
 
 </dd> <dt>
 
@@ -637,7 +637,7 @@ Mettre en forme le code d’un document XML.
 <span id="WMDM_FORMATCODE_MICROSOFTWORDDOCUMENT"></span><span id="wmdm_formatcode_microsoftworddocument"></span>**WMDM \_ FORMATCODE \_ MICROSOFTWORDDOCUMENT**
 </dt> <dd>
 
-Mettre en forme le code d’un document Microsoft Word.
+mettre en forme le code d’un document Microsoft Word.
 
 </dd> <dt>
 
@@ -651,14 +651,14 @@ Mettre en forme le code d’un document HTML compilé.
 <span id="WMDM_FORMATCODE_MICROSOFTEXCELSPREADSHEET"></span><span id="wmdm_formatcode_microsoftexcelspreadsheet"></span>**WMDM \_ FORMATCODE \_ MICROSOFTEXCELSPREADSHEET**
 </dt> <dd>
 
-Mettre en forme le code pour une feuille de calcul Microsoft Excel.
+mettre en forme le code d’une feuille de calcul Microsoft Excel.
 
 </dd> <dt>
 
 <span id="WMDM_FORMATCODE_MICROSOFTPOWERPOINTDOCUMENT"></span><span id="wmdm_formatcode_microsoftpowerpointdocument"></span>**WMDM \_ FORMATCODE \_ MICROSOFTPOWERPOINTDOCUMENT**
 </dt> <dd>
 
-Mettre en forme le code d’un document Microsoft PowerPoint.
+mettez en forme le code d’un document Microsoft PowerPoint.
 
 </dd> <dt>
 
@@ -735,7 +735,7 @@ Mettre en forme le code d’un élément de calendrier électronique avec la mis
 <span id="WMDM_FORMATCODE_UNDEFINEDWINDOWSEXECUTABLE"></span><span id="wmdm_formatcode_undefinedwindowsexecutable"></span>**WMDM \_ FORMATCODE \_ UNDEFINEDWINDOWSEXECUTABLE**
 </dt> <dd>
 
-Mettre en forme le code pour un fichier exécutable Windows de type non défini.
+mettre en forme le code pour un exécutable basé sur le Windows de type non défini.
 
 </dd> <dt>
 
@@ -760,7 +760,7 @@ Mettre en forme le code pour un format de conteneur multimédia 3G2A (3GPP2A).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour découvrir les formats pris en charge par un appareil, une application peut utiliser [**IWMDMDevice3 :: GetProperty**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getproperty) pour interroger la propriété de l’appareil **g \_ wszWMDMFormatsSupported** .
 

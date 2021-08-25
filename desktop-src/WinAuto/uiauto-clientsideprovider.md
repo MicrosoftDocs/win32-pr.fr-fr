@@ -15,12 +15,12 @@ keywords:
 - implémenter des fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2bdb4a94ba6e693792508de5c573317299b0d3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0c8724f0761b5d7e5d361742734901990136a7a98c1b2f541b4fadb69c31a92d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861299"
 ---
 # <a name="implementing-a-client-side-proxy-ui-automation-provider"></a>Implémentation d’un fournisseur UI Automation Client-Side (proxy)
 
@@ -68,7 +68,7 @@ Par défaut, UI Automation effectue une recherche dans la table de fabrique de p
 
 
 
- 
+ 
 
 Les proxies 7 et 8 sont des entrées en double pour le contrôle SysListView32. Sans modification, le proxy 7 est toujours utilisé pour le contrôle SysListView32 et proxy 8 n’est jamais utilisé. Proxy 8 est utilisé uniquement pour les éléments de liste visibles, et est généralement utilisé par les applications clientes qui fonctionnent uniquement avec les éléments visibles, ou qui ont des exigences de performances strictes. Ces clients peuvent supprimer le proxy 7.
 
@@ -96,6 +96,6 @@ La table des proxies est représentée par une interface [**IUIAutomationProxyFa
 [Guide du programmeur du fournisseur UI Automation](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,18 +4,18 @@ ms.assetid: fccf043e-e769-4f3f-b18c-252be20190d8
 title: Ordre des entrées de commande dans une liste DACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc45d6fd286bb06bd4311a8a02010c68832735ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b5d017fe6441e90cded6458d8796dee301e3fa0fda01b7d088039abd9834ca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907749"
 ---
 # <a name="order-of-aces-in-a-dacl"></a>Ordre des entrées de commande dans une liste DACL
 
-Lorsqu’un [*processus*](/windows/desktop/SecGloss/p-gly) tente d’accéder à un objet sécurisable, le système passe par des [*entrées de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACE) dans la liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) de l’objet jusqu’à ce qu’il trouve des ACE qui autorisent ou refusent l’accès demandé. Les droits d’accès qu’un DACL permet à un utilisateur peuvent varier en fonction de l’ordre des entrées de commande dans la liste DACL. Par conséquent, le système d’exploitation Windows XP définit un ordre préféré pour les ACE dans la liste DACL d’un objet sécurisable. L’ordre par défaut fournit un Framework simple qui garantit qu’une entrée de contrôle d’accès refusée refuse réellement l’accès. Pour plus d’informations sur l’algorithme du système de vérification de l’accès, consultez [Comment les DACL contrôlent l’accès à un objet](how-dacls-control-access-to-an-object.md).
+Lorsqu’un [*processus*](/windows/desktop/SecGloss/p-gly) tente d’accéder à un objet sécurisable, le système passe par des [*entrées de contrôle d’accès*](/windows/desktop/SecGloss/a-gly) (ACE) dans la liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) de l’objet jusqu’à ce qu’il trouve des ACE qui autorisent ou refusent l’accès demandé. Les droits d’accès qu’un DACL permet à un utilisateur peuvent varier en fonction de l’ordre des entrées de commande dans la liste DACL. par conséquent, le système d’exploitation Windows XP définit un ordre préféré pour les ace dans la liste DACL d’un objet sécurisable. L’ordre par défaut fournit un Framework simple qui garantit qu’une entrée de contrôle d’accès refusée refuse réellement l’accès. Pour plus d’informations sur l’algorithme du système de vérification de l’accès, consultez [Comment les DACL contrôlent l’accès à un objet](how-dacls-control-access-to-an-object.md).
 
-Pour Windows Server 2003 et Windows XP, l’ordre approprié des ACE est compliqué par l’introduction des ACE spécifiques aux objets et de l’héritage automatique.
+pour Windows Server 2003 et Windows XP, l’ordre approprié des ace est compliqué par l’introduction d’entrées de commande d’un objet et d’un héritage automatique.
 
 Les étapes suivantes décrivent l’ordre par défaut :
 

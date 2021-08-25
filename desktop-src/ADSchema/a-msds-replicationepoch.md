@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9aaefefe5cd1ae269508390ae13f67037fdb8a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c428176145965d8b1698301c5585ac0e4ad8b3f8fc6d78da8cdfb8932f25e799
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925739"
 ---
 # <a name="ms-ds-replicationepoch-attribute"></a>attribut ms-DS-ReplicationEpoch
 
@@ -36,7 +36,7 @@ Cela permet de conserver l’époque de réplication de tous les contrôleurs de
 | Fréquence des mises à jour  | Uniquement pendant la restructuration de domaine.      |
 | Attribute-Id      | 1.2.840.113556.1.4.1720              |
 | System-ID-GUID    | 08e3aa79-eb1c-45b5-af7b-8f94246c8e41 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Cela permet de conserver l’époque de réplication de tous les contrôleurs de
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

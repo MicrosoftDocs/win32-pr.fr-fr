@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: GUID vidéo Direct3D 12 (D3d11. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f7a56227ccc2953504d8466a34d6b2160ce1e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8c2411b2e9172323e544855cfd4ef0200c8043d365ac9b65afd9a2a1d8f83ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942689"
 ---
 # <a name="direct3d-12-video-guids"></a>GUID vidéo Direct3D 12
 
@@ -48,8 +48,8 @@ Le tableau suivant répertorie les GUID qui identifient les profils de décodage
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>D3d11. h</dt> </dl> |
 
 

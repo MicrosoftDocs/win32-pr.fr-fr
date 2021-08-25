@@ -4,12 +4,12 @@ ms.assetid: 58a88d64-412a-4138-9bba-c901e05ef78a
 title: Considérations sur les threads Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e57b143547909ff2d7dbfa8bc205f5ce42d9e0d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8e94f436aa263ecda91c864d10fb75963c6bd4478b46052a6c3df1bf3372b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842772"
 ---
 # <a name="tablet-pc-threading-considerations"></a>Considérations sur les threads Tablet PC
 

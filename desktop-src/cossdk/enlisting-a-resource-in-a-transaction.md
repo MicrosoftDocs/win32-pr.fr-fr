@@ -4,12 +4,12 @@ ms.assetid: b41fe0aa-a4cf-4d4a-9543-8eb0b38f07a2
 title: Inscription d’une ressource dans une transaction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db0a0bf93f373872c8be79054899dea4199dda7e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 327ef1ab34d32853be0ca7d4641958b4f57ab55577865aad8612821e98882c71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119858959"
 ---
 # <a name="enlisting-a-resource-in-a-transaction"></a>Inscription d’une ressource dans une transaction
 

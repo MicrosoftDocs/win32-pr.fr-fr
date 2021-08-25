@@ -15,12 +15,12 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 291bb9fdd2cadfef3881bc27a47f9fc1bb1bce68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a107ee44f058d776a906fef37b2e384ed6d8970224c44a6846b257c5f336c515
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865709"
 ---
 # <a name="remotesessionactiontype-enumeration"></a>Énumération RemoteSessionActionType
 
@@ -86,7 +86,7 @@ Provoque l’affichage de la fenêtre de changement d’application dans la sess
 
 Entraîne l’affichage du centre de maintenance dans la session à distance. C’est le même que l’utilisateur qui appuie sur Win + A.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012 et Windows 8 :** Cette valeur n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 R2, Windows 8.1, Windows Server 2012 et Windows 8 :** cette valeur n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> </dl>
 

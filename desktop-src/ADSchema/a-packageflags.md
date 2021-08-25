@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7202124bdeac22347d727638dc564a145599e9c7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cd6965b5c39603032bdb673df10026b0eed2a5d5ae838aeb094013d9a5e95dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923939"
 ---
 # <a name="package-flags-attribute"></a>Attribut Package-Flags
 
@@ -31,7 +31,7 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x00000004<br/> | La version non gérée de cette application doit être désinstallée avant d’être assignée. **Windows XP avec SP1 et versions ultérieures :** Cet indicateur n’est pas pris en charge.<br/> <br/>                                                                                                                                          |
 | 0x00000008<br/> | Il s’agit d’une application publiée.<br/>                                                                                                                                                                                                                                                                    |
-| 0x00000010<br/> | Ce package a été déployé après la version bêta 3 de Windows 2000.<br/>                                                                                                                                                                                                                                             |
+| 0x00000010<br/> | ce package a été déployé après la version bêta 3 de Windows 2000.<br/>                                                                                                                                                                                                                                             |
 | 0x00000020<br/> | Cette application peut être installée avec la fonctionnalité **Ajout/suppression de programmes** du panneau de configuration.<br/>                                                                                                                                                                                                 |
 | 0x00000040<br/> | Cette application peut être installée automatiquement à la demande.<br/>                                                                                                                                                                                                                                                   |
 | 0x00000080<br/> | Cette application est orpheline. Une application publiée peut devenir orpheline si l’administrateur supprime l’application de la liste des applications pouvant être déployées.<br/>                                                                                                                                    |
@@ -43,7 +43,7 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 | 0x00002000<br/> | Une installation complète des applications affectées par l’utilisateur est exécutée.<br/>                                                                                                                                                                                                                                |
 | 0x00004000<br/> | Les versions antérieures de cette application doivent être mises à niveau vers cette version.<br/>                                                                                                                                                                                                                                |
 | 0x00008000<br/> | Ce package ne prend en charge qu’une interface utilisateur minimale avec une barre de progression pour le processus d’installation.<br/>                                                                                                                                                                                               |
-| 0x00010000<br/> | Il s’agit d’un package pour les versions 32 bits de Windows qui ne doit pas être exécuté sur Windows XP Professionnel Édition x64 ou sur les versions 64 bits de Windows Server 2003.<br/>                                                                                                                                      |
+| 0x00010000<br/> | il s’agit d’un package pour les versions 32 bits de Windows qui ne doivent pas être exécutées sur Windows XP Professional édition x64 ou sur les versions 64 bits de Windows Server 2003.<br/>                                                                                                                                      |
 | 0x00020000<br/> | Ce package convient à n’importe quel langage.<br/>                                                                                                                                                                                                                                                          |
 | 0x00040000<br/> | Ce package a des mises à niveau.<br/>                                                                                                                                                                                                                                                                          |
 | 0x00080000<br/> | Ce package a une interface utilisateur complète pour le processus d’installation.<br/>                                                                                                                                                                                                                                |
@@ -64,7 +64,7 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.327               |
 | System-ID-GUID    | 7d6c0e99-7e20-11d0-afd6-00c04fd930c9 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -73,7 +73,7 @@ Cet attribut peut avoir la valeur zéro ou une combinaison d’une ou plusieurs 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

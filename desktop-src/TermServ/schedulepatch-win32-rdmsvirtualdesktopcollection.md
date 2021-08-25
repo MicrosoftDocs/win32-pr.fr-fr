@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d9585e3d13ea1f02115506741c153d62c33fcc8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb29eb42f0f1d13ff1bf234c6fb41b8f414317a4b723af9a6d215cf25fa2ec95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865509"
 ---
 # <a name="schedulepatch-method-of-the-win32_rdmsvirtualdesktopcollection-class"></a>Méthode SchedulePatch de la \_ classe Win32 RDMSVirtualDesktopCollection
 

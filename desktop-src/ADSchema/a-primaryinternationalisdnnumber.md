@@ -1,10 +1,10 @@
 ---
-title: Téléphone-RNIS-attribut principal
+title: Téléphone-rnis-attribut principal
 description: RNIS principal.
 ms.assetid: fa92d458-8c38-4012-9170-75a51f4ed116
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD-RNIS-attribut principal
+- Téléphone-rnis-schéma AD d’attribut principal
 - Schéma AD de l’attribut primaryInternationalISDNNumber
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf5794643d30ff457a7b4db714d3850f0f289c0
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 58e6f9872c9aa12d02973b94df10425c48eb300635e6b7fb0ee0ae7c7ff018f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923719"
 ---
-# <a name="phone-isdn-primary-attribute"></a>Téléphone-RNIS-attribut principal
+# <a name="phone-isdn-primary-attribute"></a>Téléphone-rnis-attribut principal
 
 RNIS principal.
 
@@ -29,7 +29,7 @@ RNIS principal.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-RNIS-principal                                                               |
+| CN                | Téléphone-rnis-principal                                                               |
 | LDAP-Display-Name | primaryInternationalISDNNumber                                                   |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ RNIS principal.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

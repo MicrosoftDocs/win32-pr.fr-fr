@@ -4,12 +4,12 @@ ms.assetid: 62280b71-9bec-4a9d-abd2-d3e1c2cee43f
 title: Constantes de données scalaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3187d2064501727614dfcbf0b8e11c136fea13e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 815288ca4a22da741e5b98257ae50732f818b466404a95712ee74756785fd699
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119773309"
 ---
 # <a name="scalar-data-constants"></a>Constantes de données scalaires
 

@@ -1,5 +1,5 @@
 ---
-description: Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des fenêtres en cascade.
+description: Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner cascade Windows.
 ms.assetid: f73d2066-4626-455b-8ee6-f7004cc9e699
 title: Shell. CascadeWindows, méthode (shldisp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 751182ec53e0495021f4a6e2fad355c2c700ad66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbff41f36d80a378202606b4c43cbf1b7b89dc3757ac821b88772312001ecb8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941799"
 ---
 # <a name="shellcascadewindows-method"></a>Shell. CascadeWindows, méthode
 
-Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des **fenêtres en cascade**.
+Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que le fait de cliquer avec le bouton droit sur la barre des tâches et de sélectionner **Cascade Windows**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -57,9 +57,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **CascadeWindows** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **CascadeWindows** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -107,13 +107,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

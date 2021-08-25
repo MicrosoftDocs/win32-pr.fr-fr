@@ -3,7 +3,7 @@ title: Message TCM_SETEXTENDEDSTYLE (commctrl. h)
 description: Définit les styles étendus que le contrôle onglet utilisera. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl SetExtendedStyle.
 ms.assetid: 96ccebe1-2836-4198-8cd7-858401562c21
 keywords:
-- TCM_SETEXTENDEDSTYLE les contrôles de message Windows
+- TCM_SETEXTENDEDSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4c789b45eaae6cb3b1bc4fed6f216ec5010b463
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a4a28bcf4cffe9aa2559f96a990d23511ece9fbbfc65468f84a4a874dce678a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876449"
 ---
 # <a name="tcm_setextendedstyle-message"></a>\_Message SETEXTENDEDSTYLE TCM
 
@@ -47,7 +47,7 @@ Valeur qui spécifie les styles du contrôle onglet étendu. Cette valeur est un
 
 Retourne une valeur **DWORD** qui contient les styles étendus du contrôle onglet précédent.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *wParam* vous permet de modifier un ou plusieurs styles étendus sans avoir à récupérer d’abord les styles existants. Par exemple, si vous transmettez des [**TCS \_ ex \_ FLATSEPARATORS**](tab-control-extended-styles.md) pour *wParam* et 0 pour *lParam*, le style **TCS \_ ex \_ FLATSEPARATORS** est effacé, mais tous les autres styles restent les mêmes.
 
@@ -59,8 +59,8 @@ Pour des raisons de compatibilité descendante, la macro [**TabCtrl \_ SetExtend
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

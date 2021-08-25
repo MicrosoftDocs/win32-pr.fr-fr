@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c9fc86b7b5bc38ea42c085b676ed62146b65ab68
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 995492045fafcd6584e38fc0c73dceff1a80f4cb6a5456a6376c75627613f002
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892459"
 ---
 # <a name="span-idvspixengineipixengine4spanipixengine4-interface"></a><span id="vspixengine.ipixengine4"></span>Interface IPixEngine4
 

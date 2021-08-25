@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2a317709df6a373f997bd3d93add1cf0642a53
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 84b2addb8507f77617d4db8f1ba7c6bdee6b3bc5df03b087cffe10169ba675ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924453"
 ---
 # <a name="ms-dns-ds-record-set-ttl-attribute"></a>attribut ms-DNS-DS-record-Set-TTL
 
@@ -36,7 +36,7 @@ Attribut qui définit la valeur de durée de vie (TTL) assignée aux enregistrem
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.2140              |
 | System-ID-GUID    | 29869b7c-64c4-42fe-97d5-fbc2fa124160 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a1015ddb-8d5c-40f7-97ac-4a1347644ae6
 title: Propriété Résumé du modèle
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36b3949e7028fd0b1b5f9ff3112f1a3d03c9b87e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da93d2d3a38f3c1853f3f936fe6f97b8550dcaeac70d4b553b8cb0362f41ee41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893449"
 ---
 # <a name="template-summary-property"></a>Propriété Résumé du modèle
 
@@ -37,29 +37,29 @@ La propriété **Résumé du modèle** d’un package correctif est une liste d�
 
 Cette propriété de résumé est obligatoire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la plateforme actuelle ne correspond pas à l’une des plateformes spécifiées dans la propriété **Résumé du modèle** , le programme d’installation ne traite pas le package.
 
 Si la spécification de la plateforme est manquante dans la valeur de la propriété **Résumé du modèle** , le programme d’installation suppose l’architecture Intel.
 
-S’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plate-forme Intel64 (Itanium), entrez Intel64 dans la propriété **Résumé du modèle** .
+s’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plate-forme intel64 (Itanium), entrez Intel64 dans la propriété **résumé du modèle** .
 
-S’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plateforme x64, entrez x64 dans la propriété **Résumé du modèle** .
+s’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plateforme x64, entrez x64 dans la propriété **résumé du modèle** .
 
-S’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plateforme Arm64, entrez Arm64 dans la propriété **Résumé du modèle** .
+s’il s’agit d’un package de Windows Installer 64 bits exécuté sur une plateforme Arm64, entrez Arm64 dans la propriété **résumé du modèle** .
 
-Un package de Windows Installer ne peut pas être marqué comme prenant en charge à la fois Intel64 et x64 ; par exemple, la valeur de la propriété de **Résumé de modèle** Intel64, x64 n’est pas valide.
+un package de Windows Installer ne peut pas être marqué comme prenant en charge à la fois Intel64 et x64 ; par exemple, la valeur de la propriété de **Résumé de modèle** Intel64, x64 n’est pas valide.
 
-Un package Windows Installer ne peut pas être marqué comme prenant en charge les plateformes 32 bits et 64 bits ; par exemple, les valeurs de propriété de **Résumé de modèle** telles que Intel, x64 ou Intel, Intel64 ne sont pas valides.
+un package Windows Installer ne peut pas être marqué comme prenant en charge les plateformes 32 bits et 64 bits ; par exemple, les valeurs de propriété de **Résumé de modèle** telles que Intel, x64 ou Intel, Intel64 ne sont pas valides.
 
 Si vous entrez 0 (zéro) dans le champ ID de langue de la propriété **Résumé du modèle** , ou si vous laissez ce champ vide, cela indique que le package est indépendant de la langue.
 
-S’il s’agit d’un package Windows Installer exécuté sur Windows RT, entrez la valeur ARM dans la propriété **Résumé du modèle** .
+s’il s’agit d’une Windows Installer package en cours d’exécution sur Windows RT, entrez la valeur Arm dans la propriété **résumé du modèle** .
 
 Les modules de fusion sont les seuls packages qui peuvent avoir plusieurs langues. Une seule langue peut être spécifiée dans une base de données du programme d’installation source. Pour plus d’informations, consultez [modules de fusion multilingues](multiple-language-merge-modules.md).
 
-La plateforme alpha n’est pas prise en charge par Windows Installer.
+la plateforme Alpha n’est pas prise en charge par Windows Installer.
 
 **Windows Installer :** La syntaxe suivante n’est pas prise en charge :
 

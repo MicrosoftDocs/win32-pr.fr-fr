@@ -4,18 +4,18 @@ ms.assetid: 9b1b25b5-b190-47c2-8d43-fa3964e87a6f
 title: ICE94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ce52e88a31e246eb4d69defba77b64c2955eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd203fe35b6bedc7d36f3e5a5c18fc6a235d3e65924b41909803e67ab79337e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894889"
 ---
 # <a name="ice94"></a>ICE94
 
 ICE94 vérifie le tableau de [raccourcis](shortcut-table.md), la table des [fonctionnalités](feature-table.md)et la [table MsiAssembly](msiassembly-table.md) et publie un avertissement s’il existe des raccourcis non publiés pointant vers un fichier d’assembly dans le global assembly cache. Si l’entrée dans le champ cible de la table de raccourcis n’est pas une fonctionnalité de la table de fonctionnalités, le raccourci n’est pas publié. Si l’entrée dans le \_ champ composant du tableau de raccourcis est également indiquée dans la table MsiAssembly, le raccourci pointe vers un fichier d’assembly. Si l’entrée dans le \_ champ application de fichier de la table MsiAssembly est vide, le fichier d’assembly se trouve dans le global assembly cache.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE94 publie l’avertissement suivant.
 
@@ -41,7 +41,7 @@ The non-advertised shortcut 'shortcut1' points to an assembly file in the global
 
 
 
-| Raccourci  | -\_ | Cible    |
+| Raccourci  | Composant\_ | Cible    |
 |-----------|-------------|-----------|
 | shortcut1 | c1          | \[file1\] |
 | shortcut2 | c2          | Feature1  |
@@ -67,7 +67,7 @@ The non-advertised shortcut 'shortcut1' points to an assembly file in the global
 
 
 
-| -\_ | Application de fichier \_ |
+| Composant\_ | Application de fichier \_ |
 |-------------|-------------------|
 | c1          |                   |
 | c2          |                   |

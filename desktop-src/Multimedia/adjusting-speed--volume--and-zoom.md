@@ -11,12 +11,12 @@ keywords:
 - MCIWndGetZoom macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f02b1e14a5153e279e3cfdf6989beade31cf6f3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbed63549683a92d457b9b91ac967ff9098235bf8d9cbd60b1ea332624886d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808569"
 ---
 # <a name="adjusting-speed-volume-and-zoom"></a>Réglage de la vitesse, du volume et du zoom
 
@@ -37,11 +37,11 @@ Vous pouvez récupérer la valeur de zoom actuelle à l’aide de la macro [**MC
 > [!Note]  
 > Les pilotes audio et Waveform-Audio MCI standard ne prennent pas en charge les modifications de volume ou de vitesse.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

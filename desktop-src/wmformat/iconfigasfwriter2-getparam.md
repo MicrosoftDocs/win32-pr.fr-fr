@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d72b8011072424679729686dd5a14c92bae90f66
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8a411e4b1896174e25a1f671f3f42fd83c1376713f10e9e4cb2b2d2186b3d551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809139"
 ---
 # <a name="iconfigasfwriter2getparam-method"></a>IConfigAsfWriter2 :: GetParam, méthode
 
@@ -31,9 +31,9 @@ La méthode **GetParam** récupère la valeur actuelle du paramètre de configur
 
 ```C++
 HRESULT GetParam(
-  [in]  DWORD dwParam,
-  [out] DWORD *pdwParam1,
-  [out] DWORD *pdwParam2
+  [in]  DWORD dwParam,
+  [out] DWORD *pdwParam1,
+  [out] DWORD *pdwParam2
 );
 ```
 
@@ -78,6 +78,6 @@ Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d’échec, e
 [**IConfigAsfWriter2::SetParam**](iconfigasfwriter2-setparam.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

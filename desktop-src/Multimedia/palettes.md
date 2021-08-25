@@ -11,12 +11,12 @@ keywords:
 - DrawDibChangePalette fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5935831d8996c424a386f86082282f9cf7c1c12
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3db474a9e983c442f21fd479342ac8b0786719f36f1494e307154c6cc0a0bd50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119893019"
 ---
 # <a name="palettes"></a>Palettes
 
@@ -33,7 +33,7 @@ Vous pouvez préparer DrawDib à recevoir de nouvelles valeurs de couleur pour s
 > [!Note]  
 > Si vous libérez la palette DrawDib alors qu’elle est sélectionnée par un contrôleur de service, une erreur GDI (Graphics Device Interface) peut se produire lorsque le DC utilise la palette. Au lieu de cela, votre application doit utiliser [**DrawDibSetPalette**](/windows/desktop/api/Vfw/nf-vfw-drawdibsetpalette) pour modifier le contrôleur de périphérique DrawDib afin d’utiliser la palette par défaut ou une autre palette.
 
- 
+ 
 
 Les fonctions [**DrawDibEnd**](/windows/desktop/api/Vfw/nf-vfw-drawdibend), [**DrawDibClose**](/windows/desktop/api/Vfw/nf-vfw-drawdibclose)et [**DrawDibBegin**](/windows/desktop/api/Vfw/nf-vfw-drawdibbegin) peuvent libérer la palette DrawDib. Toutefois, ces fonctions ne doivent être utilisées que lorsque la palette n’a pas été sélectionnée par le contrôleur de périphérique. La fonction DrawDibDraw peut également libérer la palette lorsqu’elle utilise le même DC DrawDib, mais spécifie différents paramètres de dessin (*lpbi*, *dxDst*, *dyDst*, *dxSrc* ou *dySrc*) ou un format différent.
 
@@ -44,6 +44,6 @@ Les fonctions [**DrawDibEnd**](/windows/desktop/api/Vfw/nf-vfw-drawdibend), [**D
 [Rendu d’image](image-rendering.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

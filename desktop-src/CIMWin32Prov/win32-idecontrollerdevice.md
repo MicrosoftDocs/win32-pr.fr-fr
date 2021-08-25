@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc690aadd442d656132b2d9e4539cc27961c3ef9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d4cd05f3915e23b3fb03fec232e51596b435dddcd8d529c85343255125eee38a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828039"
 ---
 # <a name="win32_idecontrollerdevice-class"></a>\_Classe IDEControllerDevice Win32
 
@@ -200,7 +200,7 @@ Cette propriété est héritée de la [**\_ ControlledBy CIM**](cim-controlledby
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ IDEControllerDevice** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

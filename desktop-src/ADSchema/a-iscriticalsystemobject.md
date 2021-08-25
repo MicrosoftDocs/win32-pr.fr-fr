@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6030da908fe96a4bea5267872e8bae928a6555e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7a37e438d67400a285708f4f222821e42fd6e0490bf2cad12301e5c58b7fff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924879"
 ---
 # <a name="is-critical-system-object-attribute"></a>Attribut is-Critical-System-Object
 
@@ -46,7 +46,7 @@ Si la **valeur est true**, l’objet qui héberge cet attribut doit être répli
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

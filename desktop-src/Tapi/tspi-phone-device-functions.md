@@ -1,17 +1,17 @@
 ---
 description: Cette section contient une liste alphabétique des fonctions des appareils téléphoniques dans le SPI de téléphonie.
 ms.assetid: 6210a205-0ab6-4695-b4f4-62f8e018bf0e
-title: Fonctions de l’appareil TSPI Phone
+title: TSPI Téléphone fonctions de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76659b787e66005e46e13872cc0c2ff7e6639f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9320da72fa3bcd9f73d5b56b793c268dd35e4e2f5cf977e04b50a5b1de6162b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772939"
 ---
-# <a name="tspi-phone-device-functions"></a>Fonctions de l’appareil TSPI Phone
+# <a name="tspi-phone-device-functions"></a>TSPI Téléphone fonctions de l’appareil
 
 Cette section contient une liste alphabétique des fonctions des appareils téléphoniques dans le SPI de téléphonie. Les fonctions de l’appareil TSPI Phone sont les suivantes :
 

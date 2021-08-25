@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a6d002d59c4f2794716dd8e2f7ad46bf5325a2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 49a1cd0cd332e702f5a8dbf637a8cdbad462b1691988cf70d01edfe36e16d412
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924399"
 ---
 # <a name="ms-ts-expiredate4-attribute"></a>Attribut MS-TS-ExpireDate4
 
@@ -42,7 +42,7 @@ Date d’expiration de la quatrième licence d’accès client des services Term
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

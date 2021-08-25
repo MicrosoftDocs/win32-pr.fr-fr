@@ -3,7 +3,7 @@ title: Reserve, commande
 description: La commande Reserve alloue de l’espace disque contigu à l’espace de travail de l’instance de périphérique. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: ac4fc75e-82d0-4817-a5cf-a77996bc69e2
 keywords:
-- commande de réserve Windows Multimedia
+- commande reserve Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f71889af552b9040777394047a0facfc6c81366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83f4573f5a630bbf1243b7126867c2d6c6beef61810210624fe87958e12b02ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119892919"
 ---
 # <a name="reserve-command"></a>Reserve, commande
 
@@ -75,7 +75,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si nécessaire, les commandes [enregistrer ou](record.md) [Enregistrer](save.md) suivantes utilisent l’espace réservé par cette commande. Si l’espace de travail contient des données non enregistrées, les données sont perdues. Certains appareils ne nécessitent pas de réserve et l’ignorent. Si l’espace disque n’est pas réservé avant l’enregistrement, la commande d’enregistrement effectue une réservation implicite avec des indicateurs par défaut spécifiques à l’appareil. Utilisez une commande de réserve explicite si vous souhaitez mieux contrôler quand l’allocation de disque se produit, le contrôle de la quantité d’espace alloué et le contrôle de l’emplacement où l’espace disque est alloué. Votre application peut modifier la quantité et l’emplacement de l’espace disque précédemment réservé avec les commandes de réserve suivantes. Tout espace disque alloué et toujours inutilisé n’est pas libéré tant que les données enregistrées ne sont pas enregistrées ou que l’instance d’appareil n’est pas fermée.
 

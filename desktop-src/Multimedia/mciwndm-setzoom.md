@@ -3,7 +3,7 @@ title: Message MCIWNDM_SETZOOM (VFW. h)
 description: Le \_ message MCIWNDM SETZOOM redimensionne une image vidéo en fonction d’un facteur de zoom. Ce Marco ajuste la taille d’une fenêtre MCIWnd tout en conservant les proportions constantes. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSetZoom.
 ms.assetid: c899b678-5ba7-4f0a-9ef9-c5370b3b4ea8
 keywords:
-- Message MCIWNDM_SETZOOM Windows Multimedia
+- message MCIWNDM_SETZOOM Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ecb513735c4e62266892e8ad55c7bf5daca151
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbcdd40206332df442bbae32975b0d888bbe39bc377a189d40e215888e4a6d0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807579"
 ---
 # <a name="mciwndm_setzoom-message"></a>\_Message MCIWNDM SETZOOM
 

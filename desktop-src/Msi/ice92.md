@@ -4,12 +4,12 @@ ms.assetid: 5fe8a844-3f96-4b19-baa6-24e2405aff30
 title: ICE92
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c9cffdfd7ac30313ed24182d8b4cc94f25900f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd96126f9255303bb2d78f39bc6fef4312859533d1298b9a9d30afd1b79575fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894879"
 ---
 # <a name="ice92"></a>ICE92
 
@@ -17,7 +17,7 @@ ICE92 vérifie qu’un composant sans GUID d’ID de composant n’est pas égal
 
 Si la colonne ComponentId a la valeur null, le programme d’installation n’inscrit pas le composant et le composant ne peut pas être supprimé ou réparé par le programme d’installation.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE92 publie l’erreur suivante.
 
