@@ -4,18 +4,18 @@ ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Tâches imbriquées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf105c70ec8e83b395fcce56c6274d4838358bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fba0a517b71cdc01ec701a4a8f6a4f272f039797c140333e64ecad5532aca23f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032206"
 ---
 # <a name="nested-jobs"></a>Tâches imbriquées
 
 Une application peut utiliser des tâches imbriquées pour gérer des sous-ensembles de processus. Les travaux imbriqués activent également une application qui utilise des travaux pour héberger d’autres applications qui utilisent également des travaux.
 
-**Windows 7, Windows server 2008 R2, Windows XP avec SP3, Windows server 2008, Windows Vista et Windows server 2003 :** Un processus ne peut être associé qu’à un seul travail. Des tâches imbriquées ont été introduites dans Windows 8 et Windows Server 2012.
+**Windows 7, Windows server 2008 R2, Windows XP avec SP3, Windows server 2008, Windows Vista et Windows Server 2003 :** Un processus ne peut être associé qu’à un seul travail. des tâches imbriquées ont été introduites dans Windows 8 et Windows Server 2012.
 
 Cette rubrique fournit une vue d’ensemble de l’imbrication et du comportement des tâches imbriquées :
 

@@ -4,12 +4,12 @@ ms.assetid: 1aea75b1-a498-405e-9208-91672455496b
 title: Séquencement des actions personnalisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7c24fb91247a36880cb808c9b8e10437312cf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26d86449b67809f782560e35d32b1b1e42434153ced776a27fd479a7b80a25a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039969"
 ---
 # <a name="sequencing-custom-actions"></a>Séquencement des actions personnalisées
 
@@ -31,13 +31,13 @@ Si vous utilisez l’interface utilisateur complète avec le serveur, les action
 
 Notez que, si un produit est supprimé en définissant sa fonctionnalité Top sur absent, la propriété [**Remove**](remove.md) ne peut pas être égale à All until après l’action [InstallValidate](installvalidate-action.md) . Cela signifie que toute action personnalisée qui dépend de REMOVE = ALL doit être séquencée après l’action InstallValidate. Une action personnalisée peut vérifier REMOVE pour déterminer si un produit a été configuré pour être complètement désinstallé.
 
-Les actions personnalisées qui font référence à un fichier installé comme source, telles que le type d’action personnalisé 17 (DLL), le type d’action personnalisé 18 (EXE), le type d’action personnalisée 21 (JScript) et le type d’action personnalisé 22 (VBScript), doivent respecter les restrictions de séquencement suivantes.
+les actions personnalisées qui font référence à un fichier installé comme source, telles que le type d’action personnalisé 17 (DLL), le type d’action personnalisé 18 (EXE), le type d’action personnalisée 21 (JScript) et le type d’action personnalisé 22 (VBScript), doivent respecter les restrictions de séquencement suivantes.
 
 -   L’action personnalisée doit être séquencée après l’action [CostFinalize](costfinalize-action.md) afin que le chemin d’accès au fichier référencé puisse être résolu.
 -   Si le fichier source n’est pas déjà installé sur l’ordinateur, les actions personnalisées différées (dans le script) doivent être séquencées après le [InstallFiles](installfiles-action.md).
 -   Si le fichier source n’est pas déjà installé sur l’ordinateur, les actions personnalisées non différées doivent être séquencées après l’action [InstallInitialize](installinitialize-action.md) .
 
-Les restrictions de séquencement suivantes s’appliquent aux actions personnalisées qui modifient ou mettent à jour un package de Windows Installer.
+les restrictions de séquencement suivantes s’appliquent aux actions personnalisées qui modifient ou mettent à jour un package de Windows Installer.
 
 -   Si l’action personnalisée modifie le package, par exemple en ajoutant des lignes à une table, l’action doit être séquencée avant l’action [InstallInitialize](installinitialize-action.md) .
 -   Si l’action personnalisée apporte des modifications susceptibles d’affecter la rentabilité, elle doit être séquencée avant l’action [CostInitialize](costfinalize-action.md) .

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 2eaed36577f881266c12b0a927cfcdc2494f0d57
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e5265387973c3c1605ac0022d88df3afa676dda614d7cc238e29a1ddd4a73f5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987229"
 ---
 # <a name="d3dscanlineordering-enumeration"></a>Énumération D3DSCANLINEORDERING
 
@@ -54,7 +54,7 @@ L’image est créée à l’aide de la méthode entrelacée dans laquelle les l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée en tant que membre dans [**D3DDISPLAYMODEFILTER**](d3ddisplaymodefilter.md) et [**D3DDISPLAYMODEEX**](d3ddisplaymodeex.md).
 

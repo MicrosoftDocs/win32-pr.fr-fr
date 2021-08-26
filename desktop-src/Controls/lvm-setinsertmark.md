@@ -3,7 +3,7 @@ title: Message LVM_SETINSERTMARK (commctrl. h)
 description: Définit le point d’insertion à la position définie.
 ms.assetid: 32cf5a11-918a-4dc4-bf10-88b3c26f26cc
 keywords:
-- LVM_SETINSERTMARK les contrôles de message Windows
+- LVM_SETINSERTMARK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dab80b1b73b620ce94b75aecab90f6bdd69bf228
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fae1cad35bd20605c4cb229dac69eb7461add8b7240b495cc48fb809d39aa098
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919859"
 ---
 # <a name="lvm_setinsertmark-message"></a>\_Message SETINSERTMARK LVM
 
@@ -39,7 +39,7 @@ Définit le point d’insertion à la position définie.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. La **valeur false** est retournée si la taille du membre **cbSize** de la structure [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) n’est pas égale à la taille réelle de la structure, ou lorsqu’un point d’insertion ne s’applique pas à la vue actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un point d’insertion ne peut apparaître que si le contrôle de liste est en mode icône, en mode petites icônes ou en mode mosaïque, et n’est pas en mode de vue groupe.
 
@@ -54,8 +54,8 @@ Un point d’insertion ne peut apparaître que si le contrôle de liste est en m
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

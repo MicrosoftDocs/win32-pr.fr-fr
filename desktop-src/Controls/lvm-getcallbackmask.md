@@ -3,7 +3,7 @@ title: Message LVM_GETCALLBACKMASK (commctrl. h)
 description: Obtient le masque de rappel pour un contrôle d’affichage de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetCallbackMask.
 ms.assetid: fb05593d-14b9-4e53-acb3-d5ac61e517ec
 keywords:
-- LVM_GETCALLBACKMASK les contrôles de message Windows
+- LVM_GETCALLBACKMASK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68438b748f5260bb7cc6e43702442aa4cbe3a84e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58cbfec76df9418c2bc94e0083928f28e462188383a203237dd03f3f175c74b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920229"
 ---
 # <a name="lvm_getcallbackmask-message"></a>\_Message GETCALLBACKMASK LVM
 
@@ -45,8 +45,8 @@ Retourne le masque de rappel.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

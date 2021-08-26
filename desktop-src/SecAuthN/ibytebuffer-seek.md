@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: eacfedc3ed23a7a4cf1f60e6c6ac21936c3c94f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70c4af327fad5014c5d6dec80dd29441f51a03639a108249991c83f53e5d2be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016249"
 ---
 # <a name="ibytebufferseek-method"></a>IByteBuffer :: Seek, méthode
 
-\[La méthode **Seek** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
+\[La méthode **Seek** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
 
 La méthode **Seek** remplace le pointeur de recherche par un nouvel emplacement relatif au début de la mémoire tampon, à la fin de la mémoire tampon ou au pointeur de recherche actuel.
 
@@ -80,7 +80,7 @@ Pointeur vers l’emplacement où cette méthode écrit la valeur du nouveau poi
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **Seek** modifie le pointeur de recherche, de sorte que les opérations de lecture et d’écriture suivantes peuvent avoir lieu à un emplacement différent dans l’objet de flux. Il s’agit d’une erreur de recherche avant le début du flux. Toutefois, il ne s’agit pas d’une erreur de recherche au-delà de la fin du flux. La recherche au-delà de la fin du flux est utile pour les opérations d’écriture suivantes, car le flux à ce moment sera étendu à la position de recherche immédiatement avant la fin de l’opération d’écriture.
 
@@ -111,8 +111,8 @@ else
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardssp. h</dt> </dl>   |

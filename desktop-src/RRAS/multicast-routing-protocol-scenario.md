@@ -4,12 +4,12 @@ description: Tous les protocoles de routage de multidiffusion passent par trois 
 ms.assetid: fb0dba60-9327-4815-acca-e8b0446a7175
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e230fef9f71b6b09ddcabb86c4084e003548ffa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4f9c54c4757c86359f070dd4436ac468addb0f0a277045bc296b03108a8eb9f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029369"
 ---
 # <a name="multicast-routing-protocol-scenario"></a>Scénario de protocole de routage multidiffusion
 
@@ -20,9 +20,9 @@ Tous les protocoles de routage de multidiffusion passent par trois phases de bas
 -   [Énumération des groupes](enumerating-groups.md)
 -   [Arrêt d’un protocole de routage de multidiffusion](shutting-down-a-multicast-routing-protocol.md)
 
- 
+ 
 
- 
+ 
 
 
 

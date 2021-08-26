@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 2abe9d4acd4d59019fe0c8ce122baa12fde06f2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60f5be785da0cca6aac4fdf1c098d49548696420042ce60a97a46de73edde9bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015559"
 ---
 # <a name="iscardtransaction-method"></a>ISCard :: transaction, méthode
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
@@ -96,8 +96,8 @@ if (FAILED(hr))
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardmgr. h</dt> </dl>   |
@@ -117,7 +117,7 @@ if (FAILED(hr))
 [**AttachByReader**](iscard-attachbyreader.md)
 </dt> <dt>
 
-[**Dissocié**](iscard-detach.md)
+[**Detach**](iscard-detach.md)
 </dt> <dt>
 
 [**Obtient \_ ATR**](iscard-get-atr.md)

@@ -4,12 +4,12 @@ description: Cette section décrit comment créer une routine de vérification p
 ms.assetid: 56F3EA1F-39C3-4DD9-8F2B-0C3608DD8737
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d66ad2fe0e27d16b55dd2d50d367250aadd15c4f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 245865a0ab4aa6848d4a4361a30febbb341742208586ebf4ec5b35c34fa30534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030882"
 ---
 # <a name="custom-verification-routines"></a>Routines de vérification personnalisées
 
@@ -60,7 +60,7 @@ Type : **bool**
 
 Indique si la routine de vérification affiche l’interface utilisateur testée. Généralement défini sur false dans les scénarios de test automatisé.
 
-*graphismes*
+*graphics*
 
 Tapez : **AccCheck. GraphicsHelper**
 
@@ -164,9 +164,9 @@ namespace VerificationRoutines
 
 
 > [!Note]  
-> Une solution Microsoft Visual Studio qui contient un exemple de code de vérification est incluse dans la documentation d’aide. Les fichiers se trouvent dans le chemin d’installation de AccChecker.
+> une solution Microsoft Visual Studio qui contient un exemple de code de vérification est incluse dans la documentation d’aide. Les fichiers se trouvent dans le chemin d’installation de AccChecker.
 
- 
+ 
 
 ## <a name="using-a-custom-verification"></a>Utilisation d’une vérification personnalisée
 
@@ -183,13 +183,13 @@ La capture d’écran suivante montre l’exemple de vérification personnalisé
 > [!Note]  
 > Si les valeurs d’attribut de vérification ne sont pas spécifiées dans la routine de vérification personnalisée, la vérification est toujours chargée dans AccChecker même si elle n’apparaît pas dans l’interface utilisateur. Étant donné qu’elle n’est pas affichée dans l’interface utilisateur, elle ne peut pas être désactivée et exclue des exécutions de vérification suivantes.
 
- 
+ 
 
 ### <a name="accchecker-automation"></a>AccChecker Automation
 
 L’incorporation d’une routine de vérification personnalisée dans une infrastructure AccChecker automatisée est aussi simple que l’ajout de la DLL de vérification et l’activation des routines de vérification souhaitées.
 
-L’extrait de code suivant montre comment utiliser l’API AccChecker pour tester la fonctionnalité de tabulation dans l’application du panneau de configuration du pare-feu Windows.
+l’extrait de code suivant montre comment utiliser l’API AccChecker pour tester la fonctionnalité de tabulation dans le Windows application du panneau de configuration du pare-feu.
 
 
 ```CSharp
@@ -243,9 +243,9 @@ public class TestCases : TestBase
 
 
 > [!Note]  
-> Une solution Microsoft Visual Studio 2008 qui contient un exemple de code de vérification est incluse dans la documentation d’aide. Les fichiers se trouvent dans le chemin d’installation de AccChecker.
+> une solution Microsoft Visual Studio 2008 qui contient un exemple de code de vérification est incluse dans la documentation d’aide. Les fichiers se trouvent dans le chemin d’installation de AccChecker.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -254,9 +254,9 @@ public class TestCases : TestBase
 [Vérificateur d’accessibilité de l’interface utilisateur](ui-accessibility-checker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

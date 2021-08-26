@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d451cec7ad42fa519b70c576fbd02a32d0289e8b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 60903662ba915ede6fd344ab0c9db36685823da3202ea9dd6d762c8e652bf6e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921709"
 ---
 # <a name="cim_hostedaccesspoint-class-cimwin32-wmi-providers"></a>CIM_HostedAccessPoint, classe (fournisseurs WMI CIMWin32)
 
@@ -89,7 +89,7 @@ Un [**\_ ServiceAccessPoint CIM**](cim-serviceaccesspoint.md) qui décrit le ou 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **CIM \_ HostedAccessPoint** est dérivé de [**la \_ dépendance CIM**](cim-dependency.md).
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 6b78dfc9f3adf200a614b129ff1e86a16c88438f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee3f19c625924bd3620e3b19cc0fbd46857fda3079896ddbac1040f6718758f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015009"
 ---
 # <a name="iscardcmdget_classid-method"></a>ISCardCmd :: \_ noclassid, méthode
 
-\[La méthode **obtenir \_ ClassID** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode **obtenir \_ ClassID** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ ClassID** récupère l’identificateur de classe à partir de l' [*unité de données de protocole d’application*](../secgloss/a-gly.md) (APDU).
 
@@ -65,7 +65,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir l’identificateur de classe sur une nouvelle valeur, appelez [**put \_ ClassID**](iscardcmd-put-classid.md).
 
@@ -99,8 +99,8 @@ if (FAILED(hr))
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scarddat. h</dt> </dl>   |

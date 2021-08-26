@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfidl.h
-ms.openlocfilehash: 098810e9e06f339b1035748d71f46c7af26e96a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e42e42e88dfa2acec9061a54f3a8fcc96128ad5aee6ff004e49f6dd10062074
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957830"
 ---
 # <a name="imfdxgidevicemanagersourcegetmanager-method"></a>IMFDXGIDeviceManagerSource :: GetManager, méthode
 
@@ -56,8 +56,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                       |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                       |
 | MIDL<br/>                      | <dl> <dt>Mfidl. idl</dt> </dl> |
 
 

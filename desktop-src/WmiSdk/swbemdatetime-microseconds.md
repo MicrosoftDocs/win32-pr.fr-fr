@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 94213eb70a98be1af8f8404ddece8bf2f07ca807
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 289b2cacc89d63b43b4964d2e27d33fdaded1b6863daaa2752ff57a209c9eb82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030389"
 ---
 # <a name="swbemdatetimemicroseconds-property"></a>SWbemDateTime. microsecondes, propriété
 

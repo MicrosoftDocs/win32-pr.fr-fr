@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1656d9aa5e5ee8c58c5895a444afd7552227108c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c75d4f2a33b162caee9aab4ecc11285eaf9b55efb5ebeff4c5734fe721dfe25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919669"
 ---
 # <a name="cim_service-class-cimwin32-wmi-providers"></a>CIM_Service, classe (fournisseurs WMI CIMWin32)
 
@@ -175,7 +175,7 @@ La propriété Name identifie de façon unique le service et fournit une indicat
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -363,7 +363,7 @@ Nom du système qui héberge le service.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ service CIM** est dérivée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 

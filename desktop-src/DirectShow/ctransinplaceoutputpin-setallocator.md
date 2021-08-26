@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: aacc2680bebcdd7de74f6f357380066a8fd37f1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 568a95df0d0cee39245c268fa1c49505531ddc84e1fd1542a1eae170e5c7d0da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053179"
 ---
 # <a name="ctransinplaceoutputpinsetallocator-method"></a>Méthode CTransInPlaceOutputPin. SetAllocator
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-s
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La broche de sortie pour ce filtre ne fournit jamais d’allocateur. Cette méthode spécifie l’allocateur pour la broche de sortie. Elle définit la valeur de la variable membre [**CBaseOutputPin :: m \_ pAllocator**](cbaseoutputpin-m-pallocator.md) .
 
@@ -63,7 +63,7 @@ La broche de sortie pour ce filtre ne fournit jamais d’allocateur. Cette méth
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

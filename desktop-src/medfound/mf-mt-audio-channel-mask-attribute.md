@@ -4,12 +4,12 @@ ms.assetid: fa5f6baa-0a21-4162-8870-38e71763aba0
 title: Attribut MF_MT_AUDIO_CHANNEL_MASK (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5293f5387a2c293b97ee32db54fcfb3f3ff304d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 544f287ad9cc8addc60245143e079f0ccdd3c1fead043198be93eed59babc98c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955929"
 ---
 # <a name="mf_mt_audio_channel_mask-attribute"></a>\_Attribut de \_ \_ masque de canal audio MF MT \_
 
@@ -77,7 +77,7 @@ La valeur de cet attribut est **une opération or au niveau du bit** des indicat
 <span id="SPEAKER_TOP_BACK_RIGHT"></span><span id="speaker_top_back_right"></span>**Haut-parleur \_ HAUT \_ arrière \_ droit** (0x20000)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut correspond au membre **dwChannelMask** de la structure [**WAVEFORMATEXTENSIBLE**](/windows/win32/api/mmreg/ns-mmreg-waveformatextensible) .
 
@@ -89,8 +89,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

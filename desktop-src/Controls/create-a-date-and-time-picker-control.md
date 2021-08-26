@@ -4,27 +4,27 @@ description: Cette rubrique montre comment créer dynamiquement un contrôle de 
 ms.assetid: D4ACA939-3004-48D3-ADD9-FC5E53128BA2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1253a2972b8d858a7440b3e472d5b3aa347b8175
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: afa3f18e6033d3764e385280da383d74c351201694969266dcc383654a4372ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104199372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920889"
 ---
 # <a name="how-to-create-a-date-and-time-picker-control"></a>Comment créer un contrôle de sélecteur de date et d’heure
 
 Cette rubrique montre comment créer dynamiquement un contrôle de sélecteur de date et d’heure (PAO). L’exemple de code C++ qui l’accompagne crée un contrôle PAO dans une boîte de dialogue non modale. Elle utilise le style [**DTS \_ SHOWNONE**](date-and-time-picker-control-styles.md) pour permettre à l’utilisateur de simuler la désactivation de la date dans le contrôle.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -130,6 +130,6 @@ HWND WINAPI CreateDatePick(HWND hwndMain)
 [Sélecteur de date et heure](date-and-time-picker-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

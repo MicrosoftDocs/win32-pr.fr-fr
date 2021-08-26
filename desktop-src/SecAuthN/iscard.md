@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 7dbbeccdf6c3fa9d586c841de661ed351ec37d9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68015cc4e834aaa1baaec0046a472d5a290cb22b0d0879e6d6f2fccfd9d21d67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015539"
 ---
 # <a name="iscard-interface"></a>Interface ISCard
 
@@ -56,10 +56,10 @@ L’interface **ISCard** possède ces méthodes.
 |:------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AttachByHandle**](iscard-attachbyhandle.md) | Attache un objet à un handle de carte à puce ouvert et configuré.<br/>                                                                                                                                                      |
 | [**AttachByReader**](iscard-attachbyreader.md) | Ouvre la carte à puce dans le lecteur nommé.<br/>                                                                                                                                                                            |
-| [**Dissocié**](iscard-detach.md)                 | Ferme la connexion ouverte à la carte à puce.<br/>                                                                                                                                                                        |
+| [**Detach**](iscard-detach.md)                 | Ferme la connexion ouverte à la carte à puce.<br/>                                                                                                                                                                        |
 | [**LockSCard**](iscard-lockscard.md)           | Réclame un accès exclusif à la carte à puce.<br/>                                                                                                                                                                           |
 | [**Rattacher**](iscard-reattach.md)             | Réinitialise et réinitialise la carte à puce.<br/>                                                                                                                                                                             |
-| [**Libellé**](iscard-transaction.md)       | Exécute une opération d’écriture et de lecture sur l’objet de commande de carte à puce ([*unité de données de protocole d’application*](../secgloss/a-gly.md)).<br/> |
+| [**Transaction**](iscard-transaction.md)       | Exécute une opération d’écriture et de lecture sur l’objet de commande de carte à puce ([*unité de données de protocole d’application*](../secgloss/a-gly.md)).<br/> |
 | [**UnlockScard**](iscard-unlockscard.md)       | Libère l’accès exclusif à la carte à puce.<br/>                                                                                                                                                                         |
 
 
@@ -76,9 +76,9 @@ L’interface **ISCard** possède les propriétés suivantes.
 |:-------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Atr**](iscard-get-atr.md)<br/>               | Lecture seule<br/> | Récupère la [*chaîne ATR*](../secgloss/a-gly.md) de la carte à puce.<br/>                                                                   |
 | [**CardHandle**](iscard-get-cardhandle.md)<br/> | Lecture seule<br/> | Récupère le handle de la carte à puce connectée.<br/>                                                                                                                                  |
-| [**Context**](iscard-get-context.md)<br/>       | Lecture seule<br/> | Récupère le handle de [*contexte du gestionnaire de ressources*](../secgloss/r-gly.md) actuel.<br/>                            |
-| [**Protocol**](iscard-get-protocol.md)<br/>     | Lecture seule<br/> | Récupère l’identificateur du protocole en cours d’utilisation sur la carte à puce.<br/>                                                                                                        |
-| [**Statu**](iscard-get-status.md)<br/>         | Lecture seule<br/> | Récupère l' [*État*](../secgloss/s-gly.md) actuel de la [*carte à puce*](../secgloss/s-gly.md) .<br/> |
+| [**Contexte**](iscard-get-context.md)<br/>       | Lecture seule<br/> | Récupère le handle de [*contexte du gestionnaire de ressources*](../secgloss/r-gly.md) actuel.<br/>                            |
+| [**Protocole**](iscard-get-protocol.md)<br/>     | Lecture seule<br/> | Récupère l’identificateur du protocole en cours d’utilisation sur la carte à puce.<br/>                                                                                                        |
+| [**Statut**](iscard-get-status.md)<br/>         | Lecture seule<br/> | Récupère l' [*État*](../secgloss/s-gly.md) actuel de la [*carte à puce*](../secgloss/s-gly.md) .<br/> |
 
 
 
@@ -90,8 +90,8 @@ L’interface **ISCard** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardmgr. h</dt> </dl>   |

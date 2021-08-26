@@ -5,16 +5,16 @@ ms.assetid: 01D1F94F-4DD4-4781-86EF-6C639E8B1069
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 02/12/2019
-ms.openlocfilehash: 3160df3faf994df2abf9cf878088e84564bb5fe1
-ms.sourcegitcommit: 00e0a8e56d28c4c720b97f0cf424c29f547460d7
+ms.openlocfilehash: 63e1ebbe34bbb94fbdf52b374b10283100e3bfa432338521a9807497b236d868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104548587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952739"
 ---
 # <a name="gpu-based-validation-and-the-direct3d-12-debug-layer"></a>Validation basée sur GPU et couche de débogage Direct3D 12
 
-Cette rubrique explique comment tirer le meilleur parti de la couche de débogage Direct3D 12. La validation basée sur GPU (GBV) active des scénarios de validation sur la chronologie GPU qui ne sont pas possibles lors des appels d’API sur le processeur. GBV est disponible à partir de la mise à jour anniversaire des outils Graphics pour Windows 10.
+Cette rubrique explique comment tirer le meilleur parti de la couche de débogage Direct3D 12. La validation basée sur GPU (GBV) active des scénarios de validation sur la chronologie GPU qui ne sont pas possibles lors des appels d’API sur le processeur. GBV est disponible à partir de la mise à jour anniversaire des outils graphics pour Windows 10.
 
 ## <a name="purpose-of-gpu-based-validation"></a>Objectif de la validation basée sur GPU
 

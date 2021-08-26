@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: de7f0b61cdbc5d5776039c3bf13b83ca0a6f8fdc
-ms.sourcegitcommit: ea73413ee4f69fa573ee0cd4422f20d17bd42e1f
+ms.openlocfilehash: 165b0a74f71ee5267fb3bd300baec4e48c51662b33c83203ebae1ba462f10a0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "104042889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953559"
 ---
 # <a name="ibackgroundcopymanagercreatejob-method"></a>IBackgroundCopyManager :: CreateJob, méthode
 
@@ -88,7 +88,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seul l’utilisateur qui crée le travail ou un utilisateur disposant de privilèges d’administrateur peut [Ajouter des fichiers au travail](https://www.bing.com/search?q=add+files+to+the+job) et [modifier les propriétés du travail](https://www.bing.com/search?q=change+the+job's+properties).
 
@@ -98,8 +98,8 @@ Seul l’utilisateur qui crée le travail ou un utilisateur disposant de privil�
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

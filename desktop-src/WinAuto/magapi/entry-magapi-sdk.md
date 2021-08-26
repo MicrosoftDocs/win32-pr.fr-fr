@@ -4,12 +4,12 @@ description: L’API d’agrandissement permet aux applications d’agrandir la 
 ms.assetid: 644af100-82ec-4450-b809-cede9b388cb4
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: 7e6c652c2cca8e3c5675b390e93b70ad0b522a44
-ms.sourcegitcommit: 541c08d5d36109b754f39bf89e57404f007c5f63
+ms.openlocfilehash: 2a6c7a7ffb103b39c506c41b6b7b88f82319685226aff0d479558977caa9d46b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "103841861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998431"
 ---
 # <a name="magnification-api"></a>API de grossissement
 
@@ -19,20 +19,20 @@ L’API d’agrandissement permet aux applications d’agrandir la totalité de 
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-Grâce à l’API d’agrandissement, les développeurs peuvent créer des applications de technologie d’assistance Windows qui agrandissent l’écran et appliquent des effets de couleur au contenu de l’écran agrandi. Pour les utilisateurs dont la vision est faible, la taille de l’image agrandie et les effets de couleur peuvent faciliter l’utilisation et l’utilisation de l’ordinateur.
+à l’aide de l’API d’agrandissement, les développeurs peuvent créer des applications de technologie d’assistance basées sur Windows qui agrandissent l’écran et appliquent des effets de couleur au contenu de l’écran agrandi. Pour les utilisateurs dont la vision est faible, la taille de l’image agrandie et les effets de couleur peuvent faciliter l’utilisation et l’utilisation de l’ordinateur.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API d’agrandissement est conçue principalement pour les développeurs C et C++ qui comprennent la programmation Windows et qui sont familiarisés avec les concepts de la programmation graphique.
+l’API d’agrandissement est conçue principalement pour les développeurs C et C++ qui comprennent Windows la programmation et qui sont familiarisés avec les concepts de la programmation graphique.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-La version initiale de l’API d’agrandissement est prise en charge sur Windows Vista et les systèmes d’exploitation ultérieurs. Une deuxième version ajoute des fonctionnalités d’agrandissement plein écran et est prise en charge sur Windows 8 et versions ultérieures.
+la version initiale de l’API d’agrandissement est prise en charge sur les systèmes d’exploitation Windows Vista et versions ultérieures. une deuxième version ajoute des fonctionnalités d’agrandissement plein écran et est prise en charge sur Windows 8 et versions ultérieures.
 
 L’API est prise en charge par Magnification.dll. Pour compiler votre application, incluez grossissement. h et un lien vers grossissement. lib.
 
 > [!Note]  
-> L’API d’agrandissement n’est pas prise en charge sous WOW64 ; autrement dit, une application de loupe 32 bits ne s’exécutera pas correctement sous Windows 64 bits.
+> L’API d’agrandissement n’est pas prise en charge sous WOW64 ; autrement dit, une application de loupe 32 bits ne s’exécute pas correctement sur le Windows 64 bits.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

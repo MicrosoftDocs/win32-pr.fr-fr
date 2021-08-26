@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Fichiers journaux du fournisseur WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0b485c16c44ad5ac26c51db7551baa423ad1a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea35a4841d86de06abe56d894e0570ef20456a78d24ce83c3fe6039cb4e2a67c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030309"
 ---
 # <a name="wmi-provider-log-files"></a>Fichiers journaux du fournisseur WMI
 
@@ -25,7 +25,7 @@ Ces journaux peuvent se trouver dans le répertoire% SystemRoot% \\ system32 \\ 
 
 ## <a name="wmiprovlog"></a>Wmiprov. log
 
-Le fichier wmiprov. log contient les données de gestion et les événements des pilotes Windows Driver Model WDM (compatible WMI) et du [fournisseur WDM](/windows/desktop/WmiCoreProv/wdm-provider). Il fournit des informations d’avertissement et d’erreur principalement pour le dépannage et le débogage des applications fournisseur et client qui l’utilisent.
+le fichier Wmiprov. log contient les données de gestion et les événements des pilotes Windows Driver Model wdm (compatible WMI) et du [fournisseur wdm](/windows/desktop/WmiCoreProv/wdm-provider). Il fournit des informations d’avertissement et d’erreur principalement pour le dépannage et le débogage des applications fournisseur et client qui l’utilisent.
 
 Wmiprov. log contient les éléments suivants :
 

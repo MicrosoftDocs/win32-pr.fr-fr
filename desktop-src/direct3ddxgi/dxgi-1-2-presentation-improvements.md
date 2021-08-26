@@ -4,12 +4,12 @@ description: DXGI 1,2 prend en charge une nouvelle chaîne de permutation-modèl
 ms.assetid: 22236FBD-E881-49B5-8AE9-96FB526DFEF8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3abbb784de82f5bf647a4b66503497edcd4f89
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 12f191af4a94b1379e2539b8d544163467fe4dc49141f244e8dcc1f13a3e36af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104552578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984212"
 ---
 # <a name="flip-model-dirty-rectangles-scrolled-areas"></a>Retourner le modèle, les rectangles modifiés, les zones défilantes
 
@@ -17,9 +17,9 @@ DXGI 1,2 prend en charge une nouvelle chaîne de permutation-modèle, des rectan
 
 ## <a name="dxgi-flip-model-presentation"></a>Présentation DXGI Flip-Model
 
-DXGI 1,2 ajoute la prise en charge du modèle de retournement pour les API Direct3D 10 et versions ultérieures. Dans Windows 7, Direct3D 9EX First a adopté la [Présentation Flip-Model](../direct3darticles/direct3d-9ex-improvements.md) pour éviter de copier inutilement la mémoire tampon de chaîne d’échange. En utilisant Flip Model, les mémoires tampons d’arrière-plan sont retournées entre le runtime et Gestionnaire de fenêtrage (DWM), de sorte que le DWM compose toujours directement à partir de la mémoire tampon d’arrière-plan au lieu de copier le contenu de la mémoire tampon d’arrière-plan.
+DXGI 1,2 ajoute la prise en charge du modèle de retournement pour les API Direct3D 10 et versions ultérieures. dans Windows 7, Direct3D 9ex first a adopté la [présentation flip-model](../direct3darticles/direct3d-9ex-improvements.md) pour éviter de copier inutilement la mémoire tampon de chaîne d’échange. En utilisant Flip Model, les mémoires tampons d’arrière-plan sont retournées entre le runtime et Gestionnaire de fenêtrage (DWM), de sorte que le DWM compose toujours directement à partir de la mémoire tampon d’arrière-plan au lieu de copier le contenu de la mémoire tampon d’arrière-plan.
 
-Les API DXGI 1,2 incluent une interface révisée de la chaîne d’échange DXGI, [**IDXGISwapChain1**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgiswapchain1). Vous pouvez utiliser plusieurs méthodes d’interface [**IDXGIFactory2**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgifactory2) pour créer l’objet **IDXGISwapChain1** approprié à utiliser avec un handle [**HWND**](../winprog/windows-data-types.md) , un objet [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041) , [DirectComposition](../directcomp/directcomposition-portal.md)ou le Framework [**Windows. UI. Xaml**](/uwp/api/Windows.UI.Xaml?view=winrt-19041) .
+Les API DXGI 1,2 incluent une interface révisée de la chaîne d’échange DXGI, [**IDXGISwapChain1**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgiswapchain1). Vous pouvez utiliser plusieurs méthodes d’interface [**IDXGIFactory2**](/windows/desktop/api/DXGI1_2/nn-dxgi1_2-idxgifactory2) pour créer l’objet **IDXGISwapChain1** approprié à utiliser avec un handle [**HWND**](../winprog/windows-data-types.md) , un objet [CoreWindow](/uwp/api/Windows.UI.Core.CoreWindow?view=winrt-19041) , [DirectComposition](../directcomp/directcomposition-portal.md)ou le [**Windows. L'. Framework XAML**](/uwp/api/Windows.UI.Xaml?view=winrt-19041) .
 
 Vous sélectionnez le modèle de retournement de présentation en spécifiant l' [**effet d’échange dxgi retourner la valeur d’énumération \_ \_ \_ \_ séquentielle**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) dans le membre **SwapEffect** de la structure de la [**chaîne de \_ permutation dxgi \_ \_ DESC1**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) et en définissant le membre **BufferCount** de la **\_ chaîne de permutation \_ \_** dxgi DESC1 sur un minimum de 2. Pour plus d’informations sur l’utilisation de DXGI Flip Model, consultez [dxgi Flip Model](dxgi-flip-model.md). En raison de la présentation fluide et des autres nouvelles fonctionnalités de retournement du modèle de présentation, nous vous recommandons d’utiliser l’outil retourner le modèle de présentation pour toutes les nouvelles applications que vous écrivez avec Direct3D 10 et les API ultérieures.
 

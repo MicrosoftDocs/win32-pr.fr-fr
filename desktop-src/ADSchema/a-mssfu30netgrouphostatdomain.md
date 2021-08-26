@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56937fcea63ae811d238d14255f1fd46cbfb92e9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7fa878ff7ca319b58aa56bfd94bf5eb82d0446206fab03d90a5f19807c52c9c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066389"
 ---
 # <a name="mssfu-30-netgroup-host-at-domain-attribute"></a>attribut msSFU-30-netgroup-hôte-at-Domain
 
@@ -43,7 +43,7 @@ Contient une partie du mappage de groupe de groupe qui représente des chaînes 
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

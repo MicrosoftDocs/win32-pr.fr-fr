@@ -7,12 +7,12 @@ keywords:
 - transmit_as
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f08b885826aea302a16d8c23709de0ef0b07a848
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 617422c50bae46de72bac1e548b6f248b19d0cb2436ac0c08b265bbba4f5a6cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016639"
 ---
 # <a name="the-transmit_as-attribute"></a>L' \_ attribut transmit As
 
@@ -33,15 +33,15 @@ Le tableau suivant décrit les quatre noms de routine fournis par le programmeur
 | [**type \_ à transtransmission \_**](the-type-to-xmit-function.md)     | Alloue un objet du type transmis et convertit le type d’application en type transmis sur le réseau (appelant et objet appelé). |
 | [**Type \_ à partir de l' \_ émetteur**](the-type-from-xmit-function.md) | Convertit le type transmis en type d’application (appelant et objet appelé).                                                                  |
 | [**Tapez \_ Free \_ inst**](the-type-free-inst-function.md) | Libère les ressources utilisées par le type d’application (objet appelé uniquement).                                                                              |
-| [**Type de transmission \_ libre \_**](the-type-free-xmit-function.md) | Libère le stockage retourné par le **type ***\_*** à \_** la routine de transmission (appelant et objet appelé).                                                      |
+| [**Type de transmission \_ libre \_**](the-type-free-xmit-function.md) | Libère le stockage retourné par le **type** _\__ *_à \__* la routine de transmission (appelant et objet appelé).                                                      |
 
 
 
- 
+ 
 
 En dehors de ces quatre fonctions fournies par le programmeur, le type transmis n’est pas manipulé par l’application. Le type transmis est défini uniquement pour déplacer des données sur le réseau. Une fois les données converties dans le type utilisé par l’application, la mémoire utilisée par le type transmis est libérée.
 
-Ces routines fournies par le programmeur sont fournies par le client ou l’application serveur en fonction des attributs directionnels. Si le paramètre est **\[** uniquement [**dans**](/windows/desktop/Midl/in) **\]** , le client transmet au serveur. Le client a besoin du type pour fournir des fonctions **\_ de \_** transmission **\_ gratuites \_** et de type. Le serveur a besoin **du \_ type \_ à partir des fonctions de** transmission et de **type \_ Free \_ inst** . Pour un **\[** paramètre en [**sortie**](/windows/desktop/Midl/out-idl) **\]** seule, le serveur transmet au client. L’application serveur doit implémenter **le \_ type \_ pour** transmettre et taper des fonctions de transmission **\_ \_ gratuites** , tandis que le programme client doit fournir le **type \_ à partir de \_** la fonction de transmission. Pour les objets **de \_ type** de transmission temporaire, le stub appelle le type de transmission *****\_*** libre \_** pour libérer toute mémoire allouée par un appel de **type \_ à \_** la transmission.
+Ces routines fournies par le programmeur sont fournies par le client ou l’application serveur en fonction des attributs directionnels. Si le paramètre est **\[** uniquement [**dans**](/windows/desktop/Midl/in) **\]** , le client transmet au serveur. Le client a besoin du type pour fournir des fonctions **\_ de \_** transmission **\_ gratuites \_** et de type. Le serveur a besoin **du \_ type \_ à partir des fonctions de** transmission et de **type \_ Free \_ inst** . Pour un **\[** paramètre en [**sortie**](/windows/desktop/Midl/out-idl) **\]** seule, le serveur transmet au client. L’application serveur doit implémenter **le \_ type \_ pour** transmettre et taper des fonctions de transmission **\_ \_ gratuites** , tandis que le programme client doit fournir le **type \_ à partir de \_** la fonction de transmission. Pour les objets **de \_ type** de transmission temporaire, le stub appelle le **type** de transmission _\__ *_\_ libre_* pour libérer toute mémoire allouée par un appel de **type \_ à \_** la transmission.
 
 Certaines instructions s’appliquent à l’instance de type d’application. Si le type d’application est un pointeur ou contient un pointeur, le **type** \_ **de \_** la routine de transmission doit allouer de la mémoire pour les données sur lesquelles les pointeurs pointent (l’objet de type d’application lui-même est manipulé de la façon habituelle).
 
@@ -100,6 +100,6 @@ void __RPC_USER DOUBLE_LINK_TYPE_free_xmit (
     DOUBLE_XMIT_TYPE __RPC_FAR * pArray);
 ```
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5a775146973b353413fa2e74584a6c763b721e7b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 000bbdc0400a84f41cf370beca92b96d898b57ddb62ab7dc72319557fbe18a77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983059"
 ---
 # <a name="cdynamicoutputpindisconnect-method"></a>CDynamicOutputPin. Disconnect, méthode
 
@@ -40,7 +40,7 @@ HRESULT Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -55,7 +55,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBasePin ::D éconnecter**](cbasepin-disconnect.md) pour activer la déconnexion pendant que le filtre est actif.
 
@@ -65,7 +65,7 @@ Cette méthode remplace la méthode [**CBasePin ::D éconnecter**](cbasepin-dis
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

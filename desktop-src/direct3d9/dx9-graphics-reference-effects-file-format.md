@@ -4,12 +4,12 @@ ms.assetid: 7358ac24-3f09-410d-8d19-6597295cc456
 title: Format d’effet (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f7195e21eade88dbeba417bcfa90d51f7cae534
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6f7579d203118df76c9d0065897141c76c67ade5ebf210cb8966ded2e1e0da6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986069"
 ---
 # <a name="effect-format-direct3d-9"></a>Format d’effet (Direct3D 9)
 
@@ -26,7 +26,7 @@ Ils sont composés de l’ID, de la sémantique, des annotations, etc.
 -   [Clonage et partage (Direct3D 9)](cloning-and-sharing.md)
 -   [Expressions (Direct3D 9)](expressions.md)
 -   [Handles (Direct3D 9)](handles.md)
--   [États d’effet (Direct3D 9)](effect-states.md)
+-   [États d’effet (Direct3D 9)](effect-states.md)
 -   [Utilisations et littéraux (Direct3D 9)](usages-and-literals.md)
 -   [Validation (Direct3D 9)](validation.md)
 

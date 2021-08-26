@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d5075ea61b0e23843c2dda2cc7e244f9fe64ec27
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ec55caf7d1d5127e96470daad5af5244c48e88e5dd52a6cb2c38355a67a865d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958289"
 ---
 # <a name="event-taskeventdefinitiontype-element"></a>Élément Event (TaskEventDefinitionType)
 
-\[À partir du compilateur de messages fourni avec la version Windows 7 du SDK Windows, cet élément n’est plus disponible.\]
+\[à partir du compilateur de messages fourni avec la version Windows 7 du SDK Windows, cet élément n’est plus disponible.\]
 
 Définit un événement pour un événement spécifique à une tâche.
 
@@ -40,8 +40,8 @@ L’élément **Event** est défini par le type complexe [**TaskEventDefinitionT
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

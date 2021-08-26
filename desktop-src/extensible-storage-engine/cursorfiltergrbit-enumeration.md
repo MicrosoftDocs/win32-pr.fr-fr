@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eeb64d74e2ec52a89afea41d98df2add0729000d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb89fc69616bf868536aa9eef516bc5cacc7dd89b9b3bd29eadd3fe1ae06677
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066816"
 ---
 # <a name="cursorfiltergrbit-enumeration"></a>Énumération CursorFilterGrbit
 
@@ -70,7 +70,7 @@ public enum CursorFilterGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 </tbody>

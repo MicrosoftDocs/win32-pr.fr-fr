@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3197dddb9bea498de63d08a025050963d4348054
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a83a9b9ce1ab74790fbb60375430ad10ef6fc78f135d0b534c0c39a96a7245ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053559"
 ---
 # <a name="mdm_devicestatus_antivirus01-class"></a>\_ \_ Classe ANTIVIRUS01 DeviceStatus MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ DeviceStatus \_ Antivirus01 MDM** est utilisée par l’entreprise pour interroger l’état de conformité antivirus des appareils avec leurs stratégies d’entreprise.
 
@@ -117,7 +117,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

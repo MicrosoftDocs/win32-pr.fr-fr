@@ -4,12 +4,12 @@ ms.assetid: c6019b28-b0a7-4104-9d78-b4b4228635b8
 title: Transformations sécurisées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e498d6049a2c913ca78f12b6a8700a104af37c4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e07c36b70827c301117bff7d98b30aae2990efb80f892bda24b0be35cbba5316
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040839"
 ---
 # <a name="secured-transforms"></a>Transformations sécurisées
 
@@ -21,7 +21,7 @@ La suppression du produit par un utilisateur supprime toutes les transformations
 
 Si le programme d’installation détecte qu’une transformation sécurisée n’est pas disponible localement, il tente de restaurer le cache de transformation à partir d’une source. Les transformations sécurisées peuvent être sécurisées au niveau source ou sécurisé-complet :
 
--   Les [transformations sécurisées à la source](secure-at-source-transforms.md) qui manquent dans le cache de transformation local sont restaurées à partir de la racine de la source du fichier. msi.
+-   Les [transformations sécurisées à la source](secure-at-source-transforms.md) qui manquent dans le cache de transformation local sont restaurées à partir de la racine de la source du fichier .msi.
 -   Les [transformations sécurisées de chemin d’accès complet](secure-full-path-transforms.md) qui manquent dans le cache de transformation local sont restaurées à partir du chemin d’accès complet d’origine spécifié par la liste des transformations.
 
  

@@ -4,12 +4,12 @@ ms.assetid: 10a5af2e-3144-4b51-8295-294e56cdf801
 title: SelectionBrowse ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754f69f939f7c90dca705a2669a37af1fce0e79a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70d7c50e69921a5fefe7cff3c88c2351cacdecda42a164e8334c9afb3977bd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040609"
 ---
 # <a name="selectionbrowse-controlevent"></a>SelectionBrowse ControlEvent,
 
@@ -31,7 +31,7 @@ Nom de la boîte de dialogue à générer.
 
 ## <a name="action-on-subscribers"></a>Action sur les abonnés
 
-Aucun
+Aucun.
 
 ## <a name="typical-use"></a>Utilisation courante
 

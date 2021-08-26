@@ -4,12 +4,12 @@ ms.assetid: 36f24f57-f1f0-4eca-9b6d-1b25fb73fa96
 title: Action ScheduleReboot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 460e3f25283c233fac80b25edd91d4bd102de435
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e796338c04f47ff4b2907dcf8d1531d438622a2f28a653e8ac4672a8b445e1b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041519"
 ---
 # <a name="schedulereboot-action"></a>Action ScheduleReboot
 
@@ -21,7 +21,7 @@ Si le programme d’installation détermine qu’un redémarrage est nécessaire
 
 Vous pouvez supprimer certaines invites pour les redémarrages en définissant la propriété [**reboot**](reboot.md) .
 
-Si le Windows Installer rencontre l’action [ForceReboot](forcereboot-action.md) ou ScheduleReboot lors d’une [installation de plusieurs packages](multiple-package-installations.md), le programme d’installation s’arrête et annule l’installation. D’autres packages appartenant à l’installation de plusieurs packages, qui ne contiennent pas d’action ForceReboot ou ScheduleReboot, peuvent être installés.
+si le Windows Installer rencontre l’action [ForceReboot](forcereboot-action.md) ou ScheduleReboot lors d’une [installation de plusieurs packages](multiple-package-installations.md), le programme d’installation s’arrête et annule l’installation. D’autres packages appartenant à l’installation de plusieurs packages, qui ne contiennent pas d’action ForceReboot ou ScheduleReboot, peuvent être installés.
 
 ## <a name="sequence-restrictions"></a>Restrictions de séquence
 
@@ -31,7 +31,7 @@ Il n’existe aucune restriction de séquence.
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par exemple, cette action peut être utilisée pour forcer le programme d’installation à demander un redémarrage après l’installation des pilotes qui nécessitent un redémarrage. Si le programme d’installation tente de remplacer des fichiers qui sont en cours d’utilisation, il invite automatiquement l’utilisateur à redémarrer même si ScheduleReboot n’a pas été utilisé.
 

@@ -4,19 +4,19 @@ ms.assetid: 9a7b57f9-f606-4874-9fd3-aa37215f6f20
 title: Génération d’une topologie de transcodage avec TopoEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43ef750b4dd54ef05ab7733cc861d7a09dd5d65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5386af09b04f155295b807523cdb1c5519c946b45228df51d767e9d2a3aabe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959459"
 ---
 # <a name="building-a-transcode-topology-with-topoedit"></a>Génération d’une topologie de transcodage avec TopoEdit
 
 Cette rubrique explique comment créer une topologie de transcodage dans TopoEdit.
 
 > [!Note]  
-> Cette fonctionnalité nécessite Windows 7
+> cette fonctionnalité requiert Windows 7
 
  
 
@@ -38,7 +38,7 @@ Cette rubrique explique comment créer une topologie de transcodage dans TopoEdi
 
 ## <a name="transcodeprofilesxml"></a>TranscodeProfiles.xml
 
-TopoEdit charge les profils d’encodage à partir du fichier TranscodeProfiles.xml. Ce fichier se trouve dans le répertoire bin du SDK Windows.
+TopoEdit charge les profils d’encodage à partir du fichier TranscodeProfiles.xml. ce fichier se trouve dans le répertoire Bin du SDK Windows.
 
 Le fichier commence par un élément **TedTranscodeProfiles** . Chaque profil commence par un élément **TedTranscodeProfile** . Chaque profil se compose d’un ensemble de valeurs de format `<VALUE_NAME Value="VALUE"/>` . Les valeurs suivantes sont définies :
 

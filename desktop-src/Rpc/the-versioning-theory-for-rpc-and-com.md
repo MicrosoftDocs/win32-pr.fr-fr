@@ -6,12 +6,12 @@ keywords:
 - RPC appel de procédure distante, meilleures pratiques, contrôle de version
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e03b23c91bf69fbc3c4f72366b80812fd54330d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac3681ce1290b7653c28b12c09c93d21de3052e0e6137ed5c6f906afd42f8d07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016379"
 ---
 # <a name="the-versioning-theory-for-rpc-and-com"></a>La théorie de la gestion des versions pour RPC et COM
 
@@ -30,6 +30,6 @@ Pour une interface COM, l’attribut version ne peut pas être utilisé. La cré
 
 Pour COM, la fonction [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) est une méthode établie permettant de vérifier si un serveur prend en charge une interface ; par conséquent, les situations où un client peut communiquer avec une ancienne et une nouvelle version d’une interface peuvent être facilement résolues.
 
- 
+ 
 
- 
+ 

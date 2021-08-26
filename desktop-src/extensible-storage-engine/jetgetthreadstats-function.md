@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 85d45021910f818f297cd0bc9829580a18b7a296
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73d71dfac37d6b61ef5a5715f1766ba0967af8c99b2114a54efc439212ca06c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016179"
 ---
 # <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
 
 La fonction **JetGetThreadStats** récupère les informations de performance du moteur de base de données pour le thread actuel. Plusieurs appels peuvent être utilisés pour collecter des statistiques qui reflètent l’activité du moteur de base de données sur ce thread entre ces appels.
 
-**Windows Vista :**  **JetGetThreadStats** est introduit dans Windows Vista.
+**Windows vista :****JetGetThreadStats** est introduit dans Windows vista.  
 
 ```cpp
     JET_ERR JET_API JetGetThreadStats(
@@ -55,7 +55,7 @@ Taille maximale, en octets, de la mémoire tampon de sortie.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ En cas de réussite, la mémoire tampon de sortie contient une structure [JET_TH
 
 En cas d’échec, l’état de la mémoire tampon de sortie n’est pas défini.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Les informations fournies par deux appels consécutifs de cette API sont destinées à calculer le coût des autres opérations du moteur de base de données sur le thread actuel. En règle générale, cette opération s’effectue en acceptant une valeur avant et après la lecture des statistiques et en soustrayant le nombre d’opérations après le comptage avant d’obtenir le nombre net d’opérations effectuées.
 
@@ -105,11 +105,11 @@ La structure [JET_THREADSTATS](./jet-threadstats-structure.md) sera probablement
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
+<td><p>requiert Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
+<td><p>requiert Windows Server 2008.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

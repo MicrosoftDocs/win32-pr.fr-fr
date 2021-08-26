@@ -4,12 +4,12 @@ ms.assetid: AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39
 title: Attribut MF_ENABLE_3DVIDEO_OUTPUT (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd0123a574ec74ed4aa9fa0aea3b2cabecbb29da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed361ef53d628e0970ffa35f9920750c9d3b0f7efbe81a0ef8759e8ba00a45ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013169"
 ---
 # <a name="mf_enable_3dvideo_output-attribute"></a>\_Activer l' \_ attribut de \_ sortie 3DVIDEO MF
 
@@ -19,7 +19,7 @@ Spécifie la manière dont une transformation de Media Foundation (MFT) doit gé
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de l’attribut est un membre de l’énumération [**MF3DVideoOutputType**](/windows/desktop/api/mftransform/ne-mftransform-mf3dvideooutputtype) .
 
@@ -33,8 +33,8 @@ Pour récupérer ou définir cet attribut, appelez [**IMFTransform :: GetAttrib
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

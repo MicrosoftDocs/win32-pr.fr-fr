@@ -6,12 +6,12 @@ keywords:
 - Routage RAS, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6b4fbcb50c7bf7c8e88b87aab50a5d44c811de8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e3da9d8534658710d100a79ce57ec0edd8e27fc334ad53b144876785aa3416f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030719"
 ---
 # <a name="about-routing"></a>À propos du routage
 
@@ -22,6 +22,6 @@ Cette documentation comprend les sections suivantes :
 -   [Gestion de routeur](about-router-management.md)
 -   [Bases d’informations de gestion et gestionnaires de routeur](/windows/desktop/RRAS/about-router-management-with-mib)
 
- 
+ 
 
- 
+ 

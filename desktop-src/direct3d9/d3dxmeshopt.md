@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: db7c2a2411d1c846c7369fc1d925a8e5569df3b1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d4d26538832a698909ace59da42b13ae51aef93d2d4d622b687f324a62d8361e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986489"
 ---
 # <a name="d3dxmeshopt-enumeration"></a>Énumération D3DXMESHOPT
 
@@ -95,11 +95,11 @@ Affecte la taille du cache de vertex. L’utilisation de cet indicateur spécifi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les \_ indicateurs d’optimisation D3DXMESHOPT STRIPREORDER et D3DXMESHOPT \_ VERTEXCACHE s’excluent mutuellement.
 
-L' \_ indicateur D3DXMESHOPT SHAREVB a été supprimé de cette énumération. Utilisez le \_ partage VB D3DXMESH \_ à la place, dans [**D3DXMESH**](./d3dxmesh.md).
+L' \_ indicateur D3DXMESHOPT SHAREVB a été supprimé de cette énumération. utilisez D3DXMESH \_ VB \_ SHARE à la place, dans [**D3DXMESH**](./d3dxmesh.md).
 
 ## <a name="requirements"></a>Configuration requise
 

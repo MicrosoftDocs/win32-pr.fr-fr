@@ -4,16 +4,16 @@ ms.assetid: 015a6a6d-9e07-4f22-b931-dcce77051bef
 title: Téléchargement de Netmon et des exemples de filtres DPWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47790b26164ec0ed2792d1d1e1f2ad4ba5d77d38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a6f92f2680807101a3c82664f4b0b3ae5a877f0d9f5797da9c9c0b6ea2b158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030219"
 ---
 # <a name="downloading-netmon-and-sample-dpws-filters"></a>Téléchargement de Netmon et des exemples de filtres DPWS
 
-Moniteur réseau Microsoft 3 (NetMon) est un analyseur de paquets utilisé pour inspecter le trafic réseau. Vous devez télécharger Netmon avant de suivre les étapes de dépannage indiquées dans [inspection des suivis réseau pour UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md) et [inspecter les traces réseau pour l’échange de métadonnées http](inspecting-network-traces-for-http-metadata-exchange.md) . Une fois Netmon téléchargé, vous pouvez utiliser des filtres DPWS pour isoler le trafic concerné.
+Moniteur réseau Microsoft 3 (NetMon) est un analyseur de paquets utilisé pour inspecter le trafic réseau. vous devez télécharger Netmon avant les étapes de dépannage indiquées dans [inspection des suivis réseau pour UDP WS-Discovery](inspecting-network-traces-for-udp-ws-discovery.md) et [inspecter les traces réseau pour les métadonnées HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md) peuvent être suivies. Une fois Netmon téléchargé, vous pouvez utiliser des filtres DPWS pour isoler le trafic concerné.
 
 ## <a name="downloading-netmon"></a>Téléchargement de NetMon
 
