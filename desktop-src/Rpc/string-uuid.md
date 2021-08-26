@@ -4,12 +4,12 @@ description: Un UUID de chaîne contient la représentation sous forme de tablea
 ms.assetid: a8a04c88-0d41-4e0c-aae1-caa6c95f91c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab6e9aae4e1fb8a2878388f042bc1e5b2f0d45a1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 56ac2ff4531c468a36a34239de6a0bac0ad00b8bf4f09d3aaf4726cf3bdd67fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017469"
 ---
 # <a name="string-uuid"></a>UUID de chaîne
 
@@ -25,6 +25,6 @@ Lorsque vous fournissez un UUID de chaîne en tant que paramètre d’entrée à
 [**UNIVERSEL**](./rpcdce/ns-rpcdce-uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

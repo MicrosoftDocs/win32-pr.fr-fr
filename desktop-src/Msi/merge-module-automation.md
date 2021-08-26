@@ -1,21 +1,21 @@
 ---
-description: Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. L’objet principal implémente des interfaces pour les programmes C/C++ et les clients Automation, y compris Visual Basic et VBScript.
+description: Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. l’objet principal implémente des interfaces pour les programmes C/C++ et les clients automation, y compris Visual Basic et VBScript.
 ms.assetid: 877d3691-948f-4aea-89d8-0ff008126ccc
 title: Automatisation des modules de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ae27370b2ad898cf9413567285afc41d117815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e592429b77671e154b932f3d79f6f57bb39a65ee2058aafd2164428234458acf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043049"
 ---
 # <a name="merge-module-automation"></a>Automatisation des modules de fusion
 
-Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. L’objet principal implémente des interfaces pour les programmes C/C++ et les clients Automation, y compris Visual Basic et VBScript.
+Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. l’objet principal implémente des interfaces pour les programmes C/C++ et les clients automation, y compris Visual Basic et VBScript.
 
-La méthode recommandée pour installer Mergemod.dll consiste à utiliser l’Windows Installer. L’ID du composant contenant l’interface COM Mergemod.dll est {FD153241-37EC-11D2-8892-00A0C981B015}. Le même binaire peut être utilisé sur tous les systèmes Windows et la dll s’inscrit automatiquement par le biais de regsvr32 sur les systèmes antérieurs.
+la méthode recommandée pour installer Mergemod.dll consiste à utiliser l’Windows Installer. L’ID du composant contenant l’interface COM Mergemod.dll est {FD153241-37EC-11D2-8892-00A0C981B015}. le même binaire peut être utilisé sur tous les systèmes de Windows et la dll s’inscrit automatiquement par le biais de regsvr32 sur les systèmes antérieurs.
 
 Notez que Mergemod.dll exige que le Msvcrt.dll soit installé sur le système.
 

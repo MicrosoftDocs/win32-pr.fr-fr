@@ -9,12 +9,12 @@ keywords:
 - partage de bande passante, types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c30f7995f63cd07e5bc2315e0881de95a1400b4
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: faf2b9ea05210e39c54334373be725284dbd1affc0170be6568600eeb4c2bead
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055589"
 ---
 # <a name="bandwidth-sharing-types"></a>Types de partage de bande passante
 
@@ -31,7 +31,7 @@ Le tableau suivant répertorie les identificateurs pour les types de partage de 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -40,9 +40,9 @@ Le tableau suivant répertorie les identificateurs pour les types de partage de 
 [**Valeurs GUID**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

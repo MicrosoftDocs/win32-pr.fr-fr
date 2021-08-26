@@ -4,12 +4,12 @@ description: Une fois que le serveur a envoyé une réponse, le client appelle R
 ms.assetid: 48fb3777-d90a-474b-a1fa-9d034b5791e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9143daaf1f276f784086e2ec17efb47dfd1fb6e4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 24500e176a7c5a36342b4188e687c557d48646deef1de39845257d8e04ff7c45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018819"
 ---
 # <a name="receiving-the-asynchronous-reply"></a>Réception de la réponse asynchrone
 
@@ -17,6 +17,6 @@ Une fois que le serveur a envoyé une réponse, le client appelle [**RpcAsyncCom
 
 Si votre programme client utilise des ports de terminaison d’e/s ou des événements pour la notification, il doit appeler [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) pour libérer le port ou le descripteur lorsqu’il n’en a plus besoin.
 
- 
+ 
 
- 
+ 

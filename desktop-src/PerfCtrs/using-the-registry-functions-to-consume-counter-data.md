@@ -4,12 +4,12 @@ ms.assetid: feac7b8d-1dee-462c-89dc-bec1ba045da2
 title: Utilisation des fonctions de Registre pour consommer des données de compteur
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: ce2a4ba9992510cb296b037cfd98965410c48939
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69f64f6e4cb44dd98d4f5097ca791054cd04c7e07219dc0e270cbfdff4cdbdc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033119"
 ---
 # <a name="using-the-registry-functions-to-consume-counter-data"></a>Utilisation des fonctions de Registre pour consommer des données de compteur
 
@@ -21,7 +21,7 @@ Les données de performances ne sont pas réellement stockées dans le registre.
 > Normalement, vous ne devez pas utiliser les fonctions de Registre pour consommer des données de compteur. Au lieu de cela, vous devez [utiliser les fonctions d’assistance des données de performance (PDH)](using-the-pdh-functions-to-consume-counter-data.md). Les fonctions PDH sont plus faciles à utiliser et évitent de nombreux problèmes de performances et de fiabilité qui peuvent se produire par le biais d’une utilisation incorrecte des fonctions de registre.
 
 > [!Note]
-> Vous ne pouvez pas utiliser les fonctions de Registre si vous écrivez des applications Windows OneCore. Utilisez plutôt des [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md).
+> vous ne pouvez pas utiliser les fonctions de registre si vous écrivez des applications Windows OneCore. Utilisez plutôt des [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md).
 
 Les fonctions de Registre sont l’API de bas niveau pour la collecte de données à partir de **fournisseurs v1**. Les fonctions de Registre prennent également en charge la collecte de données à partir de **fournisseurs v2** via une couche de traduction qui appelle les [fonctions de consommateur v2](using-the-perflib-functions-to-consume-counter-data.md).
 

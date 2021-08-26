@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a94cd04de428a29308ead8fa33ccfe1792e021a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d367060c86c54fb9df5bd7b0f05cea1fa3d7b7f3316dce327fca7ce9985fadfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055959"
 ---
 # <a name="cdrawimageresetpaletteversion-method"></a>Méthode CDrawImage. ResetPaletteVersion
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode définit la valeur de **m \_ PaletteVersion** sur une constante prédéfinie, **\_ version** de la palette.
 
@@ -54,7 +54,7 @@ Cette méthode définit la valeur de **m \_ PaletteVersion** sur une constante p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

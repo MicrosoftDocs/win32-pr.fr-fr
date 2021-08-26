@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b9254986bebadeffafaa832817f59194bfc58e12
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a0ba22ce288535a8d940a5f70275f0152ffa559090d820b77df06ed3d1a9178d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043263"
 ---
 # <a name="fourccmap-class"></a>FOURCCMap, classe
 
 ![hiérarchie de la classe fourccmap](images/fourcc01.png)
 
-La classe **FOURCCMap** fournit la conversion entre les sous-types de média **GUID** et les balises multimédias **FourCC** 32 bits de style ancien. Dans les API multimédia Windows d’origine, les types de média ont été marqués avec des valeurs 32 bits créées à partir de caractères 4 8 bits et connues sous le nom de « **FourCC** s ». Les types de média DirectShow ont des **GUID** pour le sous-type, en partie parce qu’ils sont plus simples à créer (la création d’un nouveau **FourCC** nécessite son inscription auprès de Microsoft). Étant donné que les valeurs **FourCC** sont uniques, un mappage un-à-un est rendu possible en allouant une plage de 4 milliards **GUID** représentant des **FourCC** s. Cette plage correspond à tous les **GUID** sous la forme :
+La classe **FOURCCMap** fournit la conversion entre les sous-types de média **GUID** et les balises multimédias **FourCC** 32 bits de style ancien. dans les api multimédias d’origine Windows, les types de média ont été balisés avec des valeurs 32 bits créées à partir de caractères 4 8 bits et connues sous le nom de « **FOURCC** s ». DirectShow types de média ont des **GUID** pour le sous-type, en partie parce qu’ils sont plus simples à créer (la création d’un nouveau **FOURCC** nécessite son inscription auprès de Microsoft). Étant donné que les valeurs **FourCC** sont uniques, un mappage un-à-un est rendu possible en allouant une plage de 4 milliards **GUID** représentant des **FourCC** s. Cette plage correspond à tous les **GUID** sous la forme :
 
 `XXXXXXXX-0000-0010-8000-00AA00389B71`
 

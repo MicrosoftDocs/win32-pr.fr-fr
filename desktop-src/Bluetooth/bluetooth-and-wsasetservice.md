@@ -1,35 +1,35 @@
 ---
 title: Bluetooth et WSASetService
-description: Bluetooth utilise la fonction WSASetService pour inscrire ou supprimer une instance de service au sein de l’espace de noms Bluetooth (NS \_ BTH) à partir du Registre.
+description: Bluetooth utilise la fonction WSASetService pour inscrire ou supprimer une instance de service dans l’espace de noms Bluetooth (NS \_ BTH) à partir du registre.
 ms.assetid: 71c5ed9c-fade-4d15-848e-eb810ad4cbb2
 keywords:
 - Bluetooth Bluetooth
-- Bluetooth WSASetService
-- Bluetooth et Bluetooth WSASetService
+- WSASetService Bluetooth
+- Bluetooth et WSASetService Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70399b73bf24477ee1a0ec0c7585a9f46b7657ef
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 671e43636de67cee1e1c3c945a3647b5db59e7b0dd22b6eefd70b51f4977c31e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004169"
 ---
 # <a name="bluetooth-and-wsasetservice"></a>Bluetooth et WSASetService
 
-Bluetooth utilise la fonction [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) pour inscrire ou supprimer une instance de service au sein de l’espace de noms Bluetooth (NS \_ BTH) à partir du Registre. Le handle retourné par cette opération ne peut être utilisé que pour supprimer le service.
+Bluetooth utilise la fonction [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) pour inscrire ou supprimer une instance de service dans l’espace de noms Bluetooth (NS \_ BTH) à partir du registre. Le handle retourné par cette opération ne peut être utilisé que pour supprimer le service.
 
-Bluetooth offre deux moyens de publier des services à l’aide de la fonction [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) :
+Bluetooth a deux moyens de publier des services à l’aide de la fonction [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) :
 
--   L’application peut demander au système de publier un enregistrement de service SDP Bluetooth simple, construit à partir de membres standard dans la structure [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) .
--   L’application peut faire en sorte que le système publie son propre enregistrement SDP Bluetooth en passant une structure de [**\_ \_ service d’ensemble BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_set_service) dans le membre **lpBlob** de la structure [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) . Il s’agit d’une approche plus complexe.
+-   l’application peut faire en sorte que le système publie un simple Bluetooth enregistrement de service SDP, construit à partir des membres standard de la structure [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) .
+-   l’application peut faire en sorte que le système publie sa propre Bluetooth enregistrement SDP en passant une structure de [**\_ \_ SERVICE d’ensemble BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-bth_set_service) dans le membre **lpBlob** de la structure [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) . Il s’agit d’une approche plus complexe.
 
 > [!Note]  
 > Les enregistrements SDP publiés par [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) ne sont pas conservés une fois que le processus qui les a publiés s’est arrêté.
 
- 
+ 
 
-L’utilisation de [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) avec Bluetooth présente les exigences suivantes :
+l’utilisation de [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea) avec Bluetooth présente les exigences suivantes :
 
 -   Le paramètre *lpqsRegInfo* est l’adresse de la structure [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw) à inscrire.
 -   Le paramètre *essOperation* est une énumération qui contient l’une des opérations répertoriées dans le tableau suivant.
@@ -38,22 +38,22 @@ L’utilisation de [**WSASetService**](/windows/desktop/api/winsock2/nf-winsock2
 
 | Valeur                  | Description                                                                                |
 |------------------------|--------------------------------------------------------------------------------------------|
-| \_Registre RNRSERVICE   | Démarre la publication du service sur les radios distantes qui interrogent à l’aide du protocole SDP Bluetooth. |
+| \_Registre RNRSERVICE   | démarre la publication du service sur les radios distantes qui interrogent à l’aide du protocole SDP Bluetooth. |
 | \_désinscription RNRSERVICE | Non valide. Retourne une erreur.                                                               |
 | RNRSERVICE \_ Supprimer     | Arrête la publication du service.                                                             |
 
 
 
- 
+ 
 
 > [!Note]  
 > Les handles de service détectés pendant un appel [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) ou [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta) sont incompatibles avec l’opération de suppression de RNRSERVICE \_ .
 
- 
+ 
 
 -   Le paramètre *dwControlFlags* est réservé et doit être égal à zéro.
 
-Pour plus d’informations et pour obtenir la liste des options de Socket Bluetooth, consultez [options Bluetooth et Socket](bluetooth-and-socket-options.md).
+pour plus d’informations et pour obtenir la liste des options de socket Bluetooth, consultez options de socket [et de Bluetooth](bluetooth-and-socket-options.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -62,6 +62,6 @@ Pour plus d’informations et pour obtenir la liste des options de Socket Blueto
 [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

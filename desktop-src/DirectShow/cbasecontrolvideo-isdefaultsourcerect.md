@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 390ae779eaa7d640d23b40a7e6f6579e158bf6ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8cdce3f01bc3a0ed28ee9ce758ef6cb136676a9bd8b4b314547103045e5b284
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056869"
 ---
 # <a name="cbasecontrolvideoisdefaultsourcerect-method"></a>Méthode CBaseControlVideo. IsDefaultSourceRect
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK si le convertisseur utilise la source par défaut ; sinon, retourne s \_ false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre doit être implémentée dans la classe dérivée. Elle est appelée par la fonction membre [**CBaseControlVideo :: IsUsingDefaultSource**](cbasecontrolvideo-isusingdefaultsource.md) .
 
@@ -82,7 +82,7 @@ Dans cet exemple, CVideoText est une classe dérivée de [**CBaseControlVideo**]
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

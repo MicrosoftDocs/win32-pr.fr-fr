@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0e9519155accadc1a41a1c91492755db90eec696
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 859687d879a73b78531e86a4f7306bc8f943de668005bc2bf5d8a99d0731f168
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003889"
 ---
 # <a name="copyex-method-of-the-cim_devicefile-class"></a>Méthode CopyEx de la \_ classe CIM DeviceFile
 
@@ -203,7 +203,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

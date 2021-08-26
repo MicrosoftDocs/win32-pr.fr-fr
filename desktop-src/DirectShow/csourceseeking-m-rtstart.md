@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc7bf18f23177095328c1faee8dd8da28e830b3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98f19edd3d7225882a4b966c6a9916a46fddeb1e4a9340f3c702869c0c8e3c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053959"
 ---
 # <a name="csourceseekingm_rtstart-member"></a>CSourceSeeking :: m \_ rtStart, membre
 
@@ -46,7 +46,7 @@ Conservez la section critique **m \_ pLock** avant d’accéder à cette variabl
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

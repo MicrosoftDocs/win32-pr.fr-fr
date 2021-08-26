@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: bf1540b3a75bce5b78b020ff8895825cbf4c9e87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dd47409dcf2ce34c41c8102278911402c44a29b8b7bd8d95e8cc28092dfc1599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039559"
 ---
 # <a name="summaryinfopropertycount-property"></a>SummaryInfo. PropertyCount, propriété
 

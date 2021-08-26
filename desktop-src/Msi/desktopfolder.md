@@ -4,12 +4,12 @@ ms.assetid: c729b917-4724-43bb-8533-d27ae91d20e0
 title: Propriété DesktopFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5375bc5cd1ddb086ae02a8a7b9cb844f6a43b926
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aa3b9bf5a5e242c06afbf2cccd4325b4f9bb27ac1d573be4391b0c55d5f687f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040000"
 ---
 # <a name="desktopfolder-property"></a>Propriété DesktopFolder
 
@@ -21,7 +21,7 @@ Le programme d’installation définit la propriété **DesktopFolder** sur le c
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

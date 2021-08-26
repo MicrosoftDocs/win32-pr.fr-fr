@@ -4,18 +4,18 @@ ms.assetid: 0daf5b44-ba07-47f1-95d9-28c59f7cf985
 title: Contrôle SelectionTree
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5287736c3293c736d6d392ce8532b76ee7b62ded
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 894a7d90829172c29a6f1df1ffc4139cc0bf6c540bd49193c3cc2f3a396891ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040349"
 ---
 # <a name="selectiontree-control"></a>Contrôle SelectionTree
 
 Ce contrôle permet à un utilisateur de modifier l’état de sélection des fonctionnalités listées dans le [tableau des fonctionnalités](feature-table.md). Le contrôle est associé à une propriété de valeur de chaîne que l’utilisateur peut définir par une [boîte de dialogue de navigation](browse-dialog.md). Vous pouvez associer le contrôle à une propriété en entrant le nom de la propriété dans la colonne propriété de la [table de contrôle](control-table.md).
 
-Le contrôle SelectionTree publie automatiquement les événements de [contrôle](control-events.md) suivants sur Windows XP ou les systèmes d’exploitation antérieurs. Le contrôle SelectionTree publie ces événements lorsque l’élément sélectionné est modifié d’un nœud à un autre. Si l’arborescence de sélection n’a pas de nœud, le contrôle publie ces événements et efface le contenu des contrôles qui s’abonnent à l’événement. Il n’est pas nécessaire que ces ControlEvents soient répertoriés dans la [table ControlEvent,](controlevent-table.md).
+le contrôle SelectionTree publie automatiquement les événements de [contrôle](control-events.md) suivants sur Windows XP ou des systèmes d’exploitation antérieurs. Le contrôle SelectionTree publie ces événements lorsque l’élément sélectionné est modifié d’un nœud à un autre. Si l’arborescence de sélection n’a pas de nœud, le contrôle publie ces événements et efface le contenu des contrôles qui s’abonnent à l’événement. Il n’est pas nécessaire que ces ControlEvents soient répertoriés dans la [table ControlEvent,](controlevent-table.md).
 
 
 
@@ -33,7 +33,7 @@ Le contrôle SelectionTree publie automatiquement les événements de [contrôle
 
  
 
-À compter des systèmes Windows Server 2003, les contrôles SelectionTree publient tous les événements du tableau ci-dessus, et publient en outre un [ControlEvent, de script](doaction-controlevent.md) ou un [ControlEvent, SetProperty](setproperty-controlevent.md). Les enregistrements doivent être ajoutés à la [table ControlEvent,](controlevent-table.md) pour publier les actions de script ou SetProperty ControlEvents.
+à partir des systèmes Windows Server 2003, les contrôles SelectionTree publient tous les événements du tableau ci-dessus et publient également un [controlevent, d’action](doaction-controlevent.md) ou un [controlevent, SetProperty](setproperty-controlevent.md). Les enregistrements doivent être ajoutés à la [table ControlEvent,](controlevent-table.md) pour publier les actions de script ou SetProperty ControlEvents.
 
 
 
@@ -46,7 +46,7 @@ Le contrôle SelectionTree publie automatiquement les événements de [contrôle
 
  
 
-À partir de Windows Installer version 3,0, les contrôles SelectionTree publient un événement qui exécute des [actions personnalisées](custom-actions.md) énumérées dans la [table ControlEvent,](controlevent-table.md). Le contrôle SelectionTree publie cet événement chaque fois que la sélection de fonctionnalités change dans le contrôle ou chaque fois qu’un état de sélection différent est choisi pour la fonctionnalité actuelle. Les actions personnalisées s’exécutent chaque fois que l’événement est publié. Le contrôle SelectionTree envoie des informations à l’action personnalisée en définissant les valeurs des propriétés suivantes. Toutes ces propriétés sont effacées lorsque le contrôle SelectionTree est fermé.
+à partir de Windows Installer version 3,0, les contrôles SelectionTree publient un événement qui exécute des [actions personnalisées](custom-actions.md) énumérées dans la [table controlevent,](controlevent-table.md). Le contrôle SelectionTree publie cet événement chaque fois que la sélection de fonctionnalités change dans le contrôle ou chaque fois qu’un état de sélection différent est choisi pour la fonctionnalité actuelle. Les actions personnalisées s’exécutent chaque fois que l’événement est publié. Le contrôle SelectionTree envoie des informations à l’action personnalisée en définissant les valeurs des propriétés suivantes. Toutes ces propriétés sont effacées lorsque le contrôle SelectionTree est fermé.
 
 **Windows Installer 2,0 :** Non pris en charge. Le contrôle SelectionTree ne publie pas l’événement et ne définit pas les propriétés suivantes.
 
@@ -86,7 +86,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Valeur actuelle de la propriété affichée ou modifiée par ce contrôle. Si le bit d’attribut indirect n’est pas défini, il s’agit de la valeur de PropertyName. Si le bit d’attribut indirect est défini, il s’agit de la valeur de IndirectPropertyName. Si l’attribut change, le contrôle reflète la nouvelle valeur.                                                                           |
 | [Text](text-control-attribute.md)                                 |                                  | Affiche le texte dans lecteurs en fonction du texte entré dans la colonne de texte de la [table de contrôle](control-table.md). Consultez [accessibilité](accessibility.md).                                                                                                                                                                                                          |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la [table de contrôle](control-table.md) pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                     |
-| [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                   |
+| [Activé](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                   |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec l’enfoncée, la 3D et l’apparence.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                             |
 | [Indirect](indirect-control-attribute.md)                         | 0x00000000 0x00000008<br/> | Le contrôle affiche ou modifie la valeur de la propriété dans la colonne propriété de la [table de contrôle](control-table.md). Le contrôle affiche ou modifie la valeur de la propriété qui a l’identificateur figurant dans la colonne propriété de la table de contrôle.<br/> Détermine si la propriété associée à ce contrôle est référencée indirectement.<br/> |
 | [RTLRO](rtlro-control-attribute.md)                               | 0x00000000 0x00000020<br/> | Le texte du contrôle est affiché dans l’ordre de lecture de gauche à droite. Le texte du contrôle est affiché dans l’ordre de lecture de droite à gauche.<br/>                                                                                                                                                                                                                              |
@@ -98,7 +98,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la \_ classe WC TreeView à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles de **\_ bordure WS**, **TV \_ HASLINES**, TV **\_ HASBUTTONS**, **TV \_ LINESATROOT**, **TV \_ DISABLEDRAGDROP**, **TV \_ SHOWSELALWAYS**, **WS \_ Child**, **WS \_ TABSTOP** et **WS \_ Group** .
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6fa354922e57436c0d9e3e18924dcf31afe1629e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5eb1c017353ed3e5095f5ee5d24870773c11211c14eaa44a673b4f12913c56c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057039"
 ---
 # <a name="cbasecontrolvideogetvideopaletteentries-method"></a>Méthode CBaseControlVideo. GetVideoPaletteEntries
 
@@ -77,7 +77,7 @@ Pointeur vers la mémoire tampon de sortie pour les couleurs.
 
 Retourne une erreur noerreur en cas de réussite, VFW \_ e \_ no \_ palette \_ disponible si les exemples vidéo n’ont pas de palette de couleurs, e \_ OUTOFMEMORY si la mémoire disponible est insuffisante, e \_ INVALIDARG si *startIndex* n’est pas valide ou \_ a la valeur false s’il n’y a aucune couleur dans la palette.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre retourne la palette actuelle de la vidéo sous la forme d’un tableau alloué par l’utilisateur. Pour rester cohérent, utilisez les membres de la structure Win32 **PaletteEntry** pour retourner les couleurs, plutôt que les membres de la structure **RGBQUAD** (même si le paramètre est **long**). La mémoire est allouée par l’appelant. par conséquent, il suffit de copier chacun à son tour. Déterminez que le nombre d’entrées demandées et le décalage de position de début sont valides. Si le nombre d’entrées est égal à zéro, retourne un \_ faux code.
 
@@ -87,7 +87,7 @@ Cette fonction membre retourne la palette actuelle de la vidéo sous la forme d�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

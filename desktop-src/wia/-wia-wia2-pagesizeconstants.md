@@ -1,5 +1,5 @@
 ---
-description: Voici les tailles de page valides pour les propriétés de l’élément WIA (Windows Image Acquisition) 2,0, telles que la \_ taille de page des adresses IP WIA \_ \_ . Dimensions en millièmes de pouce.
+description: voici les tailles de page valides pour les propriétés d’élément de Windows Acquisition d’images (wia) 2,0, telles que la \_ taille de page des adresses ip wia \_ \_ . Dimensions en millièmes de pouce.
 ms.assetid: 64f2296b-7104-49be-9632-f075d06f94aa
 title: Constantes de taille de page WIA 2,0 (Wiadef. h)
 ms.topic: reference
@@ -70,16 +70,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: d3b8751f69b96b5286828de670359628c94c5aac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75d0f336d2ccca997d9b5d24cd4ade1b5994c7b4dab8f7fa8c7027b2d8b60988
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056859"
 ---
 # <a name="wia-20-page-size-constants"></a>Constantes de taille de page WIA 2,0
 
-Voici les tailles de page valides pour les propriétés de l’élément WIA (Windows Image Acquisition) 2,0, telles que la \_ taille de page des adresses IP WIA \_ \_ . Dimensions en millièmes de pouce.
+voici les tailles de page valides pour les propriétés d’élément de Windows Acquisition d’images (wia) 2,0, telles que la \_ taille de page des adresses ip wia \_ \_ . Dimensions en millièmes de pouce.
 
 
 
@@ -152,8 +152,8 @@ Voici les tailles de page valides pour les propriétés de l’élément WIA (Wi
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 

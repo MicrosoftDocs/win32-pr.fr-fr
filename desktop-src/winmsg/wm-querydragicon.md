@@ -4,12 +4,12 @@ ms.assetid: e4f0e638-f606-4745-888b-14a846c7fd37
 title: Message WM_QUERYDRAGICON (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed2c6040df06923e778eb717db4148bed233db4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20aac405a247f89a31c49f60a4e421fa171465d399dcb61a436936de5c646362
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055989"
 ---
 # <a name="wm_querydragicon-message"></a>\_Message WM QUERYDRAGICON
 
@@ -48,9 +48,9 @@ Type : **LRESULT**
 
 Une application doit retourner un handle à un curseur ou une icône que le système doit afficher lorsque l’utilisateur fait glisser l’icône. Le curseur ou l’icône doit être compatible avec la résolution du pilote d’affichage. Si l’application retourne la **valeur null**, le système affiche le curseur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Quand l’utilisateur fait glisser l’icône d’une fenêtre sans icône de classe, le système remplace l’icône par un curseur par défaut. Si l’application requiert un curseur différent pour être affichée pendant le déplacement, elle doit retourner un handle au curseur ou à une icône compatible avec la résolution du pilote d’affichage. Si une application retourne un handle à un curseur ou une icône de couleur, le système convertit le curseur ou l’icône en noir et blanc. L’application peut appeler la fonction [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora) ou [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona) pour charger un curseur ou une icône à partir des ressources dans son fichier exécutable (. exe) et pour récupérer ce handle.
+Quand l’utilisateur fait glisser l’icône d’une fenêtre sans icône de classe, le système remplace l’icône par un curseur par défaut. Si l’application requiert un curseur différent pour être affichée pendant le déplacement, elle doit retourner un handle au curseur ou à une icône compatible avec la résolution du pilote d’affichage. Si une application retourne un handle à un curseur ou une icône de couleur, le système convertit le curseur ou l’icône en noir et blanc. L’application peut appeler la fonction [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursora) ou [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadicona) pour charger un curseur ou une icône à partir des ressources dans son fichier exécutable (.exe) et pour récupérer ce handle.
 
 Si une procédure de boîte de dialogue gère ce message, elle doit effectuer un cast de la valeur de retour souhaitée en valeur **booléenne** et retourner la valeur directement. La valeur **DWL \_ MSGRESULT** définie par la fonction [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) est ignorée.
 

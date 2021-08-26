@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 8d80a60d2a142b3c69c03b7352c81bcd0f5fc3ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 491a2a67881929eba86dc317645161dee28ee9062d01fee63a9f6d4a7995cf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056559"
 ---
 # <a name="iwicstream_initializefromistream_proxy-function"></a>IWICStream \_ \_ fonction proxy InitializeFromIStream
 
@@ -44,16 +44,16 @@ HRESULT IWICStream_InitializeFromIStream_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) \** _
+Type : **[ **IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream)\***
 
-Pointeur vers cet objet [_ *IWICStream* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
+Pointeur vers cet objet [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
 
 </dd> <dt>
 
 *pIStream* \[ dans\]
 </dt> <dd>
 
-Type : **[IStream](/windows/desktop/api/objidl/nn-objidl-istream) \** _
+Type : **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 Flux d’initialisation.
 
@@ -61,7 +61,7 @@ Flux d’initialisation.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -73,8 +73,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

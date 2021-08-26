@@ -1,21 +1,21 @@
 ---
 title: Accès aux ordinateurs distants
-description: Vous pouvez utiliser l’API du journal des événements Windows pour accéder aux données sur l’ordinateur local ou sur un ordinateur distant.
+description: vous pouvez utiliser l’API du journal des événements Windows pour accéder aux données sur l’ordinateur local ou sur un ordinateur distant.
 ms.assetid: df789981-0e1c-4d68-9bd5-5d054f1724d4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e0063238560ddd7f1613e94b83ecc7f27900bb3
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 0a64bf1b3bded6ba1c72231e85bc78fa7f486739741fea1391c869ad79b457e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104101365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032579"
 ---
 # <a name="accessing-remote-computers"></a>Accès aux ordinateurs distants
 
-Vous pouvez utiliser l’API du journal des événements Windows pour accéder aux données sur l’ordinateur local ou sur un ordinateur distant. Pour accéder aux données d’un ordinateur distant, vous devez appeler la fonction [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) pour créer un contexte de session à distance. Lorsque vous appelez cette fonction, vous spécifiez le nom de l’ordinateur distant auquel vous souhaitez vous connecter, les informations d’identification de l’utilisateur à utiliser pour établir la connexion, ainsi que le type d’authentification à utiliser pour authentifier l’utilisateur. Pour spécifier l’utilisateur actuel, définissez les membres du domaine, de l’utilisateur et du mot de passe sur la **valeur null**.
+vous pouvez utiliser l’API du journal des événements Windows pour accéder aux données sur l’ordinateur local ou sur un ordinateur distant. Pour accéder aux données d’un ordinateur distant, vous devez appeler la fonction [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) pour créer un contexte de session à distance. Lorsque vous appelez cette fonction, vous spécifiez le nom de l’ordinateur distant auquel vous souhaitez vous connecter, les informations d’identification de l’utilisateur à utiliser pour établir la connexion, ainsi que le type d’authentification à utiliser pour authentifier l’utilisateur. Pour spécifier l’utilisateur actuel, définissez les membres du domaine, de l’utilisateur et du mot de passe sur la **valeur null**.
 
-Lorsque vous appelez l’API du journal des événements Windows, vous transmettez le descripteur au contexte de session à distance retourné par la fonction [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) . (Pour accéder aux données sur l’ordinateur local, transmettez la **valeur null** pour spécifier la session par défaut.) Pour accéder aux données sur l’ordinateur distant, l’ordinateur distant doit activer l’exception de pare-feu Windows « gestion des journaux des événements à distance ». dans le cas contraire, lorsque vous tentez d’utiliser le descripteur de session, l’appel est erroné avec le \_ serveur RPC S \_ \_ non disponible. L’ordinateur auquel vous vous connectez doit exécuter Windows Vista ou une version ultérieure.
+lorsque vous appelez Windows API du journal des événements, vous transmettez le descripteur au contexte de session à distance retourné par la fonction [**EvtOpenSession**](/windows/desktop/api/WinEvt/nf-winevt-evtopensession) . (Pour accéder aux données sur l’ordinateur local, transmettez la **valeur null** pour spécifier la session par défaut.) pour accéder aux données sur l’ordinateur distant, l’ordinateur distant doit activer la « gestion des journaux des événements à distance » Windows exception de pare-feu ; dans le cas contraire, lorsque vous tentez d’utiliser le descripteur de session, l’appel est erroné avec le \_ serveur RPC S \_ \_ non disponible. l’ordinateur auquel vous vous connectez doit exécuter Windows Vista ou version ultérieure.
 
 L’exemple suivant montre comment se connecter à un ordinateur distant.
 

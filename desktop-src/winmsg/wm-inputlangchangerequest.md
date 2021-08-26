@@ -4,12 +4,12 @@ ms.assetid: db38c31c-6ae4-4401-82b8-7fd220c1678c
 title: Message WM_INPUTLANGCHANGEREQUEST (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1df361c479978083c29281764e65c48b131c22b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644fa4764c5172edc34f16509c6a6b00be6356b80c460a08233be8aa64ef69c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056059"
 ---
 # <a name="wm_inputlangchangerequest-message"></a>\_Message WM INPUTLANGCHANGEREQUEST
 
@@ -60,7 +60,7 @@ Type : **LRESULT**
 
 Ce message est publié, non envoyé, à l’application. la valeur de retour est donc ignorée. Pour accepter la modification, l’application doit transmettre le message à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca). Pour refuser la modification, l’application doit retourner zéro sans appeler **DefWindowProc**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) reçoit le message **WM \_ INPUTLANGCHANGEREQUEST** , elle active les nouveaux paramètres régionaux d’entrée et avertit l’application de la modification en envoyant le message [**WM \_ INPUTLANGCHANGE**](wm-inputlangchange.md) .
 

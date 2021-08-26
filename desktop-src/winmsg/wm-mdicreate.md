@@ -4,12 +4,12 @@ ms.assetid: f2313ffd-867f-4870-a667-3e5f5402776f
 title: Message WM_MDICREATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fc11e9dfc561b138a95b711d68ecd831a43d2ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c69a894ebd2e55bb74486e26cd118366b1e533a490cc50feb5f77aad64c6be3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056009"
 ---
 # <a name="wm_mdicreate-message"></a>\_Message WM MDICREATE
 
@@ -48,7 +48,7 @@ Si le message est correctement exécuté, la valeur de retour est le handle de l
 
 Si le message échoue, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre enfant MDI est créée avec le [**style de fenêtre**](window-styles.md) bits **WS \_ Child**, **WS \_ CLIPSIBLINGS**, **WS \_ CLIPCHILDREN**, **WS \_ SYSMENU**, **WS \_ Caption**, **WS \_ THICKFRAME**, **WS \_ MINIMIZEBOX** et **WS \_ MAXIMIZEBOX**, ainsi que les bits de style supplémentaires spécifiés dans la structure [**MDICREATESTRUCT**](/windows/win32/api/winuser/ns-winuser-mdicreatestructa) . Le système ajoute le titre de la nouvelle fenêtre enfant au menu fenêtre de la fenêtre frame. Une application doit utiliser ce message pour créer toutes les fenêtres enfants de la fenêtre cliente.
 

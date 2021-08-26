@@ -10,12 +10,12 @@ keywords:
 - partage de bande passante, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d29048e3094f1a12775dfbec7422baf349c18be7
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 449a1e43a8f5c7212f1e9c4240d85eb11c9ee39209fab4313b373a56d017b2dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055599"
 ---
 # <a name="bandwidth-sharing-object"></a>Objet de partage de bande passante
 
@@ -34,7 +34,7 @@ Pour créer un objet de partage de bande passante, appelez l’une des méthodes
 
 
 
- 
+ 
 
 Les deux méthodes du tableau précédent définissent un pointeur vers une interface **IWMBandwidthSharing** . L’interface **IWMStreamList** est héritée par **IWMBandwidthSharing**. il n’est donc pas nécessaire d’appeler **QueryInterface** avec cet objet.
 
@@ -49,7 +49,7 @@ Les interfaces suivantes sont prises en charge par chaque objet de partage de ba
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -64,9 +64,9 @@ Les interfaces suivantes sont prises en charge par chaque objet de partage de ba
 [**Profile (objet)**](profile-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

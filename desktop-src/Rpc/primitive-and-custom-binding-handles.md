@@ -4,12 +4,12 @@ description: Tous les handles déclarés avec le handle \_ t ou les \_ types de 
 ms.assetid: 7a948aad-02fa-421d-b32c-f5dab071bd04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d496a9a54ba0ee7b9552326f7c4dc15792a72bce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e0e1d6f7cc2ad4d11e268e0f5c83b0275fcd2677a32303820507272f550b834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019149"
 ---
 # <a name="primitive-and-custom-binding-handles"></a>Handles de liaison primitifs et personnalisés
 
@@ -28,7 +28,7 @@ Si vous créez votre propre type de handle de liaison, vous devez également fou
 
 
 
- 
+ 
 
 L’exemple suivant montre comment un handle de liaison personnalisé peut être défini dans le fichier IDL :
 
@@ -115,6 +115,6 @@ Les handles de liaison implicites et explicites peuvent être des handles primit
 -   Primitive et Explicit
 -   Personnalisé et explicite
 
- 
+ 
 
- 
+ 

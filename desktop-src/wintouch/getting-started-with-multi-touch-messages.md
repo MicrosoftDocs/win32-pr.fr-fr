@@ -1,35 +1,35 @@
 ---
-title: Prise en main avec des messages tactiles Windows
-description: Cette section explique les tâches associées à l’obtention de l’entrée tactile Windows pour fonctionner dans votre application.
+title: Prise en main avec des Messages tactiles Windows
+description: cette section explique les tâches associées à l’obtention d’une entrée tactile Windows pour fonctionner dans votre application.
 ms.assetid: cd4e140e-a0b8-494f-82d9-bc0bfba55ecd
 keywords:
-- Tactile Windows, messages
-- Tactile Windows, inscription pour une entrée tactile
-- Windows Touch, test des numériseurs d’entrée
+- Windows Toucher, messages
+- Windows Touch, inscription pour une entrée tactile
+- Windows Toucher, tester les numériseurs d’entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b39048a4f9d643026396328093ae554c0eaa5d08
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7d3f1daac2aacf8ac4c34ccbf9b1ab8be63058c45096e181c8b2eecf4f5d2de6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055899"
 ---
-# <a name="getting-started-with-windows-touch-messages"></a>Prise en main avec des messages tactiles Windows
+# <a name="getting-started-with-windows-touch-messages"></a>Prise en main avec des Messages tactiles Windows
 
-Cette section explique les tâches associées à l’obtention de l’entrée tactile Windows pour fonctionner dans votre application.
+cette section explique les tâches associées à l’obtention d’une entrée tactile Windows pour fonctionner dans votre application.
 
-Les étapes suivantes sont généralement effectuées lors de l’utilisation de messages tactiles Windows :
+les étapes suivantes sont généralement effectuées lorsque vous travaillez avec des messages Windows Touch :
 
 1.  Testez les fonctionnalités du digitaliseur d’entrée.
-2.  Inscrivez-vous pour recevoir des messages tactiles Windows.
+2.  inscrivez-vous pour recevoir des messages Windows Touch.
 3.  Gérer les messages.
 
-Le message utilisé pour Windows Touch est [**WM \_ Touch**](wm-touchdown.md). Ce message indique les différents États de contact avec un digitaliseur.
+le message utilisé pour Windows touch est [**WM \_ touch**](wm-touchdown.md). Ce message indique les différents États de contact avec un digitaliseur.
 
 ## <a name="testing-the-capabilities-of-the-input-digitizer"></a>Test des fonctionnalités du digitaliseur d’entrée
 
-La fonction [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) peut être utilisée pour interroger les fonctionnalités du digitaliseur d’entrée en passant la valeur *nIndex* du **\_ digitaliseur SM**. [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) retourne un champ de bits qui indique si l’appareil est prêt, si ce dernier prend en charge PEN ou Touch, si le périphérique d’entrée est intégré ou externe, et si l’appareil prend en charge plusieurs entrées (Windows Touch). Le tableau suivant présente les bits des différents champs.
+La fonction [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) peut être utilisée pour interroger les fonctionnalités du digitaliseur d’entrée en passant la valeur *nIndex* du **\_ digitaliseur SM**. [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) retourne un champ de bits qui indique si l’appareil est prêt, si ce dernier prend en charge pen ou touch, si le périphérique d’entrée est intégré ou externe, et si l’appareil prend en charge plusieurs entrées (Windows touch). Le tableau suivant présente les bits des différents champs.
 
 
 
@@ -39,9 +39,9 @@ La fonction [GetSystemMetrics](/windows/win32/api/winuser/nf-winuser-getsystemme
 
 
 
- 
+ 
 
-Pour tester le résultat de la commande pour une fonctionnalité particulière, vous pouvez utiliser l’opérateur de & au niveau du bit et le bit particulier que vous testez. Par exemple, pour tester la fonction tactile Windows, vous devez vérifier que le bit septième ordre est défini (0x40 en hex). L’exemple de code suivant montre comment ces valeurs peuvent être testées.
+Pour tester le résultat de la commande pour une fonctionnalité particulière, vous pouvez utiliser l’opérateur de & au niveau du bit et le bit particulier que vous testez. par exemple, pour tester Windows Touch, vous devez vérifier que le bit de septième ordre est défini (0x40 en hex). L’exemple de code suivant montre comment ces valeurs peuvent être testées.
 
 
 ```C++
@@ -80,30 +80,30 @@ Le tableau suivant répertorie les constantes définies dans Windows. h pour le 
 
 
 
- 
+ 
 
 La vérification des \_ \* valeurs nid est un moyen utile de vérifier les capacités de l’ordinateur d’un utilisateur à configurer votre application pour l’entrée tactile, Pen ou non-tablette. Par exemple, si vous disposez d’une interface utilisateur dynamique et que vous souhaitez configurer automatiquement une partie de celle-ci, vous pouvez vérifier la valeur \_ tactile intégrée nid \_ , nid \_ tactile et peut obtenir le nombre maximal de touches à la première fois qu’un utilisateur exécute votre application.
 
 > [!Note]  
 > Il existe certaines limitations inhérentes à SM \_ GETSYSTEMMETRICS. Par exemple, le plug-and-Play n’est pas pris en charge. Pour cette raison, soyez prudent lors de l’utilisation de cette fonction comme moyen de configuration permanente.
 
- 
+ 
 
-## <a name="registering-to-receive-windows-touch-input"></a>Inscription pour recevoir des entrées tactiles Windows
+## <a name="registering-to-receive-windows-touch-input"></a>inscription pour recevoir Windows entrée tactile
 
-Avant de recevoir des entrées tactiles Windows, les applications doivent d’abord s’inscrire pour recevoir des entrées tactiles Windows. En inscrivant la fenêtre de l’application, l’application indique qu’elle est compatible avec le toucher. Une fois que l’application a inscrit sa fenêtre, les notifications du pilote Windows Touch sont transférées à l’application lorsque l’entrée est effectuée dans la fenêtre. Lorsque l’application s’arrête, elle annule l’inscription de sa fenêtre pour désactiver les notifications.
+avant de recevoir des entrées tactiles Windows, les applications doivent d’abord s’inscrire pour recevoir Windows entrée tactile. En inscrivant la fenêtre de l’application, l’application indique qu’elle est compatible avec le toucher. une fois que l’application a inscrit sa fenêtre, les notifications du pilote Windows Touch sont transmises à l’application lorsque l’entrée est effectuée dans la fenêtre. Lorsque l’application s’arrête, elle annule l’inscription de sa fenêtre pour désactiver les notifications.
 
 > [!Note]  
 > [**WM \_ Les messages TACTILEs**](wm-touchdown.md) sont actuellement « gourmands ». Une fois le premier message tactile reçu dans une fenêtre, tous les messages tactiles sont envoyés à cette fenêtre jusqu’à ce qu’une autre fenêtre reçoive le focus.
 
- 
+ 
 
 > [!Note]  
 > Par défaut, vous recevez des messages de [**\_ mouvement WM**](wm-gesture.md) au lieu de messages [**WM \_ Touch**](wm-touchdown.md) . Si vous appelez [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), vous ne recevrez plus de messages de **\_ mouvement WM** .
 
- 
+ 
 
-Le code suivant montre comment une application peut s’inscrire pour recevoir des messages tactiles Windows dans une application Win32.
+le code suivant montre comment une application peut s’inscrire pour recevoir des messages Windows Touch dans une application Win32.
 
 
 ```C++
@@ -112,9 +112,9 @@ RegisterTouchWindow(hWnd, 0);
 
 
 
-## <a name="handling-windows-touch-messages"></a>Gestion des messages tactiles Windows
+## <a name="handling-windows-touch-messages"></a>gestion des Messages Windows Touch
 
-Vous pouvez gérer les messages tactiles Windows à partir d’applications dans les systèmes d’exploitation Windows de nombreuses façons. Si vous programmez une application GUI, vous ajoutez du code dans la `WndProc` fonction pour gérer les messages qui vous intéressent. Si vous programmez une application MFC (Microsoft Foundation Class) ou une application managée, vous ajoutez des gestionnaires pour les messages qui vous intéressent. L’exemple de code suivant montre comment les messages tactiles peuvent être gérés à partir de WndProc dans une application Windows.
+vous pouvez gérer les messages tactiles Windows à partir d’applications dans des systèmes d’exploitation Windows de nombreuses façons. Si vous programmez une application GUI, vous ajoutez du code dans la `WndProc` fonction pour gérer les messages qui vous intéressent. Si vous programmez une application MFC (Microsoft Foundation Class) ou une application managée, vous ajoutez des gestionnaires pour les messages qui vous intéressent. l’exemple de code suivant montre comment les messages tactiles peuvent être gérés à partir de WndProc dans une application basée sur Windows.
 
 
 ```C++
@@ -200,9 +200,9 @@ Le toucher de la fenêtre indique les touches à partir d’une fenêtre indépe
 
 <dl> <dt>
 
-[Entrée tactile Windows](guide-multi-touch-input.md)
+[Windows Entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

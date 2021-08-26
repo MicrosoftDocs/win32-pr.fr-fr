@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10538f66b98988fafa69d4fe2f3e70b47348c999
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b6fb09579ae7c97c9a44140cf634b9fab42f257401fb00091ac74209b0a4908b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066179"
 ---
 # <a name="ms-tapi-protocol-id-attribute"></a>attribut ms-TAPI-Protocol-ID
 
@@ -44,7 +44,7 @@ Cet attribut indique le type de conférence TAPI. Cet attribut est utilisé pour
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
