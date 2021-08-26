@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: cc66782a9042df43f90a40863f53e36834f48ce2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 323c8fe1128aae915746f5f23dc060225901e1dc8435be8390953490438628ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917799"
 ---
 # <a name="id2d1geometrysinkaddquadraticbezier-methods"></a>ID2D1GeometrySink :: AddQuadraticBezier, méthodes
 

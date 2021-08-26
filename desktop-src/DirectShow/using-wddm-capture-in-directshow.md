@@ -4,20 +4,20 @@ ms.assetid: 57ee86b0-50bc-4992-94d4-f290f83d2afc
 title: Utilisation de la capture WDDM dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7926af70a3b7f1c4ba67c791d98c9928c3809b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2e0a442c6929ef2435b05268035bb0b39b196a958440cd7ce5cfe44ea4b4c55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903589"
 ---
 # <a name="using-wddm-capture-in-directshow"></a>Utilisation de la capture WDDM dans DirectShow
 
-Cette rubrique s’applique à Windows Vista et versions ultérieures.
+cette rubrique s’applique à Windows Vista et versions ultérieures.
 
-Certaines cartes vidéo possèdent une fonctionnalité de capture vidéo intégrée. Sur ces cartes, les images capturées sont placées dans la mémoire vidéo (VRAM). Avant Windows Vista, il n’existait pas de mécanisme standard pour le traitement des frames pendant qu’ils étaient restés dans VRAM. Au lieu de cela, les données devaient être copiées dans la mémoire système, traitées, puis recopiées dans VRAM pour s’afficher. Dans Windows Vista, DirectShow prend désormais en charge un mécanisme de conservation des images vidéo dans la mémoire VRAM dans tout le pipeline de traitement, de la capture à l’affichage.
+Certaines cartes vidéo possèdent une fonctionnalité de capture vidéo intégrée. Sur ces cartes, les images capturées sont placées dans la mémoire vidéo (VRAM). avant Windows Vista, il n’existait pas de mécanisme standard pour le traitement des frames pendant qu’ils étaient restés dans une VRAM. Au lieu de cela, les données devaient être copiées dans la mémoire système, traitées, puis recopiées dans VRAM pour s’afficher. dans Windows Vista, DirectShow prend désormais en charge un mécanisme de conservation des images vidéo dans la mémoire VRAM dans tout le pipeline de traitement, de la capture à l’affichage.
 
-Le filtre KsProxy détermine si le pilote prend en charge la capture de la surface VRAM en interrogeant le pilote pour la \_ propriété de surface de capture par défaut KSPROPERTY \_ \_ . (Cette propriété est documentée dans la documentation du kit de pilotes Windows.) Si le pilote prend en charge la capture de la surface VRAM, KsProxy alloue un type spécial d’exemple de média qui contient un pointeur vers une surface Direct3D.
+Le filtre KsProxy détermine si le pilote prend en charge la capture de la surface VRAM en interrogeant le pilote pour la \_ propriété de surface de capture par défaut KSPROPERTY \_ \_ . (cette propriété est documentée dans la documentation du Kit de pilotes Windows.) Si le pilote prend en charge la capture de la surface VRAM, KsProxy alloue un type spécial d’exemple de média qui contient un pointeur vers une surface Direct3D.
 
 Ensuite, KsProxy détermine si le filtre en aval prend en charge l’accélération vidéo DirectX (DXVA) 2,0, comme suit :
 

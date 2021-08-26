@@ -4,16 +4,16 @@ description: Certains langages, tels que l’arabe et l’hébreu, requièrent u
 ms.assetid: fa9a3dd6-575a-4877-a488-22845c6726c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d97eee49a830986718c04b4adab7443e488093
-ms.sourcegitcommit: 43b2f5209d67eae96b17c03bac2a2afab1f4d30a
+ms.openlocfilehash: 3774e4d237863a218cadf5206e4dc4921bceaeaa06c00ab81057f80dd8ee6549
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982169"
 ---
 # <a name="ensure-text-is-displayed-with-the-correct-reading-direction"></a>S’assurer que le texte est affiché avec le sens de lecture correct
 
-Certains langages, tels que l’arabe et l’hébreu, requièrent un sens de lecture de droite à gauche. Pour un objet de format de texte [DirectWrite](direct-write-portal.md) , le sens de lecture par défaut est de gauche à droite. DirectWrite ne déduit pas automatiquement le sens de lecture des paramètres régionaux. vous devez donc le faire vous-même.
+Certains langages, tels que l’arabe et l’hébreu, requièrent un sens de lecture de droite à gauche. pour un objet de format texte [DirectWrite](direct-write-portal.md) , le sens de lecture par défaut est de gauche à droite. DirectWrite ne déduit pas automatiquement le sens de lecture des paramètres régionaux, vous devez donc le faire vous-même.
 
 Tout d’abord, récupérez les indicateurs de style étendus pour la fenêtre dans laquelle le texte sera rendu à l’aide de la macro GetWindowStyleEx définie dans windowsx. h.
 
@@ -54,7 +54,7 @@ Définissez le sens de lecture à l’aide de la méthode [**IDWriteTextFormat 
 > [!Note]  
 > WS \_ ex \_ LAYOUTRTL reflète la totalité de la disposition et implique un sens de lecture de droite à gauche. par conséquent, définissez le sens de lecture uniquement si l’un de ces indicateurs est présent. Si les deux sont présents, ils s’annulent l’un l’autre et le sens de lecture du format texte doit être de gauche à droite.
 
- 
+ 
 
 
 ```C++
@@ -69,6 +69,6 @@ if ((bWSLayout && !bWSReading)
 
 
 
- 
+ 
 
- 
+ 

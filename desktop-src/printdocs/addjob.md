@@ -15,19 +15,19 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: ab21b98036975934c00e28d0be1d5670d4c0742c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de99b0866e8cd7ec8486d2a3f15f95194b4350008a43fe4db8ae82d970684c39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950749"
 ---
 # <a name="addjob-function"></a>AddJob fonction)
 
 La fonction **AddJob** ajoute un travail d’impression à la liste des travaux d’impression qui peuvent être planifiés par le spouleur d’impression. La fonction récupère le nom du fichier que vous pouvez utiliser pour stocker le travail.
 
 > [!NOTE]
-> Dans Windows 8 et les systèmes d’exploitation ultérieurs, nous ne recommandons pas l’utilisation directe de **AddJob** , car il existe des cas (par exemple, l’impression dans une file d’attente à l’aide de file : ou PORTPROMPT :) où **AddJob** échouera. Au lieu de cela, il est recommandé d’utiliser l' [API d’impression GDI](gdi-printing.md), l' [API d’impression XPS](xps-printing.md), [**StartDocPrinter**](startdocprinter.md)ou la méthode appropriée de l’espace de noms [**Windows. Graphics. Printing**](/uwp/api/Windows.Graphics.Printing) , en fonction du scénario d’impression.
+> dans Windows 8 et les systèmes d’exploitation ultérieurs, nous ne recommandons pas l’utilisation directe de **AddJob** , car il existe des cas (par exemple l’impression dans une file d’attente à l’aide de file : ou PORTPROMPT :) où **AddJob** échouera. Au lieu de cela, il est recommandé d’utiliser l' [API d’impression GDI](gdi-printing.md), l' [API d’impression XPS](xps-printing.md), [**StartDocPrinter**](startdocprinter.md)ou la méthode appropriée à partir du [**Windows. Graphics. Printing**](/uwp/api/Windows.Graphics.Printing) , selon le scénario d’impression.
 >
 > Si vous essayez d’imprimer dans une file d’attente à l’aide de **file :** ou **PORTPROMPT :**, **AddJob** retourne l' \_ erreur non prise en charge.
 
@@ -88,7 +88,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

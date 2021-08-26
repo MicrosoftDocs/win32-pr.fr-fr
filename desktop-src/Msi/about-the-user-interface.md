@@ -1,27 +1,27 @@
 ---
-description: Windows Installer contient une fonctionnalité qui permet aux développeurs de packages d’installation de créer une interface utilisateur graphique (GUI) qui est présentée à l’utilisateur final lors de l’installation.
+description: Windows Le programme d’installation de contient des fonctionnalités qui permettent aux développeurs de packages d’installation de créer une interface utilisateur graphique (GUI) qui est présentée à l’utilisateur final lors de l’installation.
 ms.assetid: 58ef0043-fb30-4f64-9291-e703d7a28bb5
 title: À propos de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8639a19c5ec045d77cb90648323388d5cb6e452
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ff4613e82bc25a0a9555904a6bab276b31e16642186401bbb5cc0caff58e973
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996979"
 ---
 # <a name="about-the-user-interface"></a>À propos de l’interface utilisateur
 
-Windows Installer contient une fonctionnalité qui permet aux développeurs de packages d’installation de créer une interface utilisateur graphique (GUI) qui est présentée à l’utilisateur final lors de l’installation. Cette interface utilisateur peut présenter le comportement de l' [Assistant interface utilisateur](user-interface-wizard-behavior.md), afficher des boîtes de dialogue et des panneaux, et présenter des contrôles interactifs aux utilisateurs pendant l’installation.
+Windows Le programme d’installation de contient des fonctionnalités qui permettent aux développeurs de packages d’installation de créer une interface utilisateur graphique (GUI) qui est présentée à l’utilisateur final lors de l’installation. Cette interface utilisateur peut présenter le comportement de l' [Assistant interface utilisateur](user-interface-wizard-behavior.md), afficher des boîtes de dialogue et des panneaux, et présenter des contrôles interactifs aux utilisateurs pendant l’installation.
 
-L’interface utilisateur interne du programme d’installation est gérée et contrôlée via un ensemble de tables de base de données dans Windows Installer elles-mêmes. Le programme d’installation fournit uniquement un petit ensemble de boîtes de dialogue par défaut destinées à gérer les messages d’erreur et d’information. Toutes les boîtes de dialogue personnalisées doivent être créées par l’auteur du package.
+l’interface utilisateur interne du programme d’installation est gérée et contrôlée via un ensemble de tables de base de données dans Windows Installer elles-mêmes. Le programme d’installation fournit uniquement un petit ensemble de boîtes de dialogue par défaut destinées à gérer les messages d’erreur et d’information. Toutes les boîtes de dialogue personnalisées doivent être créées par l’auteur du package.
 
-Il n’existe aucune API Windows Installer spécifique pour permettre à un auteur de package de créer une interface utilisateur par programme. Il est possible d’utiliser l’API Microsoft Windows pour créer une interface utilisateur par programmation. Toutefois, il est recommandé que les auteurs de package utilisent l’interface utilisateur interne fournie.
+il n’existe aucune API Windows Installer spécifique pour permettre à un auteur de package de créer une interface utilisateur par programme. il est possible d’utiliser l’API Microsoft Windows pour créer une interface utilisateur par programmation. Toutefois, il est recommandé que les auteurs de package utilisent l’interface utilisateur interne fournie.
 
 Les auteurs du package d’installation créent des boîtes de dialogue personnalisées en entrant le nom de leur boîte de dialogue personnalisée dans la \_ colonne « boîte de dialogue » de la table de boîte de dialogue et en spécifiant la taille, la position et d’autres attributs à l’aide des autres colonnes.
 
-Windows Installer implémente également un certain nombre de contrôles standard que l’auteur d’un package peut placer dans des boîtes de dialogue. Les contrôles Microsoft Windows standard ne sont pas tous disponibles et les contrôles personnalisés ne peuvent pas être créés pour être utilisés avec l’interface utilisateur du programme d’installation.
+Windows Le programme d’installation implémente également un certain nombre de contrôles standard que l’auteur d’un package peut placer dans des boîtes de dialogue. les contrôles Microsoft Windows standard ne sont pas tous disponibles et les contrôles personnalisés ne peuvent pas être créés pour être utilisés avec l’interface utilisateur du programme d’installation.
 
 Pour créer des contrôles dans une boîte de dialogue spécifique, entrez le nom de la boîte de dialogue, la clé primaire de l’entrée de la boîte de dialogue dans la table de boîte de dialogue, le deuxième champ de la table de contrôle et spécifiez la taille, la position et d’autres attributs du contrôle à l’aide des colonnes restantes.
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur ControlEvents, consultez [vue d’ensemble de Con
 
 L’affichage de l’interface utilisateur du programme d’installation au cours de l’installation est géré via les tables de séquences d’interface utilisateur : [InstallUISequence table](installuisequence-table.md)et [AdminUISequence table](adminuisequence-table.md). L’une de ces tables de séquences est exécutée en fonction de l’action de niveau supérieur qui a initié l’installation : [install](install-action.md), [admin](admin-action.md)ou [advertise](advertise-action.md).
 
-Pour plus d’informations sur l’implémentation d’une interface utilisateur dans Windows Installer, consultez [utilisation de l’interface utilisateur](using-the-user-interface.md), [schéma d’interface utilisateur](user-interface-schema.md), ainsi que les rubriques individuelles pour les boîtes de dialogue et les contrôles.
+pour plus d’informations sur l’implémentation d’une interface utilisateur dans Windows Installer, consultez [utilisation de l’interface utilisateur](using-the-user-interface.md), [schéma d’interface utilisateur](user-interface-schema.md), ainsi que les rubriques individuelles pour les boîtes de dialogue et les contrôles.
 
  
 

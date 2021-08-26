@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94626b99a5016efaa9427d1ae8b3b3122e599965
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fff775849abf6a7e3be4530ce893e1ae8821cb4be6e9fb2888ef9bb0ee6d67d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106543633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939569"
 ---
 # <a name="wm_initmenu-message"></a>\_Message WM INITMENU
 
@@ -56,7 +56,7 @@ Ce paramètre n'est pas utilisé.
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un message **WM \_ INITMENU** est envoyé uniquement lors d’un premier accès à un menu ; un seul message **WM \_ INITMENU** est généré pour chaque accès. Par exemple, le déplacement de la souris sur plusieurs éléments de menu tout en maintenant le bouton enfoncé ne génère pas de nouveaux messages. **WM \_ INITMENU** ne fournit pas d’informations sur les éléments de menu.
 

@@ -4,12 +4,12 @@ ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
 title: Élément searchConnectorDescriptionType (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7edb69647567b7e18e25e11dcd0fc773d0be7902
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f228097e905ea6e60bb9197bcf8b8b381671a52f3375849af992f903df6e8b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937909"
 ---
 # <a name="searchconnectordescriptiontype-element-search-connector-schema"></a>Élément searchConnectorDescriptionType (schéma du connecteur de recherche)
 
@@ -138,14 +138,14 @@ L' <searchConnectorDescriptionType> élément est le conteneur de niveau supéri
 
 | Attribut | Description                                                                      |
 |-----------|----------------------------------------------------------------------------------|
-| publisher | Optionnel. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
-| product   | Optionnel. Nom complet du produit auquel le connecteur de recherche s’applique. |
+| publisher | Facultatif. Nom complet du serveur de publication qui fournit le connecteur de recherche.      |
+| product   | Facultatif. Nom complet du produit auquel le connecteur de recherche s’applique. |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les connecteurs de recherche pour la recherche fédérée ne peuvent pas être utilisés dans les bibliothèques. Le schéma pour les connecteurs de recherche de bibliothèque est une extension du schéma décrit ici et contient des informations spécifiques aux bibliothèques.
 

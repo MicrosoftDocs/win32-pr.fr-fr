@@ -4,16 +4,16 @@ description: Initialisation de la bibliothèque COM
 ms.assetid: b044e146-8409-4f8d-87d3-52f21ebc2255
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 663cfb73455e118579f45710788ab72385ada335
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0c1bc9536c186c2af3b604f7eb5666a6a31e7a845cf3b20f64a132119d16cb1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106511490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979989"
 ---
 # <a name="initializing-the-com-library"></a>Initialisation de la bibliothèque COM
 
-Tout programme Windows utilisant COM doit initialiser la bibliothèque COM en appelant la fonction [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) . Chaque thread qui utilise une interface COM doit effectuer un appel distinct à cette fonction. **CoInitializeEx** a la signature suivante :
+tout programme Windows qui utilise com doit initialiser la bibliothèque com en appelant la fonction [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) . Chaque thread qui utilise une interface COM doit effectuer un appel distinct à cette fonction. **CoInitializeEx** a la signature suivante :
 
 
 ```C++
@@ -38,14 +38,14 @@ Si l’une de ces contraintes n’est pas vraie, utilisez le modèle multithread
 
 
 
- 
+ 
 
 Vous devez définir exactement l’un de ces indicateurs. En règle générale, un thread qui crée une fenêtre doit utiliser l’indicateur **coinit \_ APARTMENTTHREADED** et les autres threads doivent utiliser la **coinit \_ multithread**. Toutefois, certains composants COM requièrent un modèle de thread particulier. La documentation MSDN doit vous indiquer quand c’est le cas.
 
 > [!Note]  
 > En fait, même si vous spécifiez un thread cloisonné, il est toujours possible de partager des interfaces entre les threads, à l’aide d’une technique appelée *marshaling*. Le marshaling n’entre pas dans le cadre de ce module. Le point important est qu’avec le thread cloisonné, vous ne devez jamais simplement copier un pointeur d’interface vers un autre thread. Pour plus d’informations sur les modèles de threads COM, consultez [processus, threads et Apartments](/windows/desktop/com/processes--threads--and-apartments).
 
- 
+ 
 
 En plus des indicateurs déjà mentionnés, il est judicieux de définir l’indicateur **coinit \_ Disable \_ OLE1DDE** dans le paramètre *dwCoInit* . La définition de cet indicateur évite une surcharge liée à la liaison et à l’incorporation d’objets (OLE) 1,0, une technologie obsolète.
 
@@ -75,6 +75,6 @@ CoUninitialize();
 
 [Codes d’erreur dans COM](error-codes-in-com.md)
 
- 
+ 
 
- 
+ 

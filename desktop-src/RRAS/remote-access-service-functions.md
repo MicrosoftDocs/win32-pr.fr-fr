@@ -4,12 +4,12 @@ description: Utilisez les fonctions suivantes pour implémenter les fonctionnali
 ms.assetid: 5883a77a-6af8-47a8-bb28-6ef60a5aa2f1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d272403c8cd485f5e9d3d1de0c7fe5ac1cac9442
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0698adac4f49165c49b90bba3b0d3e4890f5ae51e76ea260077ecc42c0f078fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028159"
 ---
 # <a name="remote-access-service-functions"></a>Fonctions du service d’accès à distance
 
@@ -147,6 +147,6 @@ Utilisez les fonctions suivantes pour implémenter les fonctionnalités RAS.
 
 [Fonctions DLL de script personnalisé RAS](ras-custom-scripting-dll-functions.md)
 
- 
+ 
 
- 
+ 

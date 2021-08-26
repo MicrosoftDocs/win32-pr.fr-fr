@@ -15,12 +15,12 @@ keywords:
 - interfaces, IInvokeProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 963f8d9ccd6ea2a50557ec26a655d5c7f43c6123
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18fbd675a9c30daf0e7b097a706dae9ff0d7767f92f7b785b3098d72ddf6f7cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997939"
 ---
 # <a name="invoke-control-pattern"></a>Invoke (modèle de contrôle)
 
@@ -51,9 +51,9 @@ Lorsque vous implémentez le modèle de contrôle **Invoke** , notez les convent
 
      
 
--   L’appel d’un contrôle est différent de la sélection d’un élément. Toutefois, selon le contrôle, l’appel peut avoir comme effet secondaire la sélection de l’élément. Par exemple, l’appel d’un élément de liste de documents Microsoft Word dans le dossier Mes documents sélectionne l’élément et ouvre le document.
+-   L’appel d’un contrôle est différent de la sélection d’un élément. Toutefois, selon le contrôle, l’appel peut avoir comme effet secondaire la sélection de l’élément. par exemple, l’appel d’un élément de liste de documents Microsoft Word dans le dossier mes Documents sélectionne l’élément et ouvre le document.
 -   Un élément peut disparaître de l’arborescence de l’automatisation de l’interface utilisateur de Microsoft immédiatement lors de son appel. La requête d’informations de l’élément fourni par le rappel d’événement peut échouer. La pré-récupération des informations mises en cache est la solution recommandée.
--   Les contrôles peuvent implémenter plusieurs modèles de contrôle. Par exemple, le contrôle **Fill Color** dans la barre d’outils Microsoft Excel implémente à la fois les modèles de contrôle Invoke et [ExpandCollapse](uiauto-implementingexpandcollapse.md) . Le modèle de contrôle ExpandCollapse expose le menu et le modèle de contrôle **Invoke** remplit la sélection active avec la couleur choisie.
+-   Les contrôles peuvent implémenter plusieurs modèles de contrôle. par exemple, le contrôle **Fill Color** dans la barre d’outils Microsoft Excel implémente à la fois les modèles de contrôle Invoke et [ExpandCollapse](uiauto-implementingexpandcollapse.md) . Le modèle de contrôle ExpandCollapse expose le menu et le modèle de contrôle **Invoke** remplit la sélection active avec la couleur choisie.
 
 ## <a name="required-members-for-iinvokeprovider"></a>Membres requis pour **IInvokeProvider**
 
@@ -61,7 +61,7 @@ La méthode suivante est requise pour l’implémentation de l’interface [**II
 
 
 
-| Membres nécessaires                                | Type de membre | Notes                                                                                                                                                                                                                                                                                                                                  |
+| Membres nécessaires                                | Type de membre | Remarques                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Appeler**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iinvokeprovider-invoke) | Méthode      | **Invoke** est un appel asynchrone et doit être retourné immédiatement sans blocage.<br/> Ce comportement est particulièrement critique pour les contrôles qui, directement ou indirectement, lancent une boîte de dialogue modale lorsqu’ils sont appelés. Tout client UI Automation à l’origine de l’événement reste bloqué jusqu’à la fermeture de la boîte de dialogue modale. <br/> |
 

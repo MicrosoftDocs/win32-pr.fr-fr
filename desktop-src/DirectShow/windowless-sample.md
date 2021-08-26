@@ -4,12 +4,12 @@ ms.assetid: 2141e465-996c-44e8-a081-38c3e1e0b01b
 title: Exemple sans fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb466b345497c320aba9d381a0a5559fda2e89c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 248d5b877e98c22ff421cb8be86a630990b2b7f1ab66ba17f6cfd13eb659337b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982279"
 ---
 # <a name="windowless-sample"></a>Exemple sans fenêtre
 
@@ -21,13 +21,13 @@ Vous pouvez capturer l’image à partir de la fenêtre vidéo en cliquant avec 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 46dcf242-0182-4039-b761-1c93472b6270
 title: Tables et assignations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3aab11885fd2b10c8a8462e5c6a9d23e75829e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a0ce0a6af46bb59b192b8e4cf14f7d3f6f2d5033b9a9c2ebb05bff550cf3320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903879"
 ---
 # <a name="tables-and-assignments"></a>Tables et assignations
 

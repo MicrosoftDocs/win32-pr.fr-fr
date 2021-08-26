@@ -4,12 +4,12 @@ description: La session de serveur, la file d’attente des demandes et les obje
 ms.assetid: 05a2d689-fd10-4065-85fc-2057bee42fbc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc7a07cb5e0439ed82421dd413aee3b6688bc0f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1b3905a27708c87c43e141dd4cf8d84b2f0e7e66bc4dd189440733321ee951a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997103"
 ---
 # <a name="architecture-http-server-api"></a>Architecture (API serveur HTTP)
 

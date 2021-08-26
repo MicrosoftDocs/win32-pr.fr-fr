@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dc239c5f26061b5234631079ba21ce0d24ad570
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a45c768daef7c889351744c5e046c83f4de7e220f59752c1db271067efb68366
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028600"
 ---
 # <a name="rasadmingeterrorstring-function"></a>RasAdminGetErrorString fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminGetErrorString**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminGetErrorString**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) .\]
 
 La fonction **RasAdminGetErrorString** récupère une chaîne de message qui correspond à un code d’erreur RAS renvoyé par l’une des fonctions d’administration de serveur RAS (RasAdmin). Ces chaînes de message sont extraites de la Rasmsg.dll installée dans le cadre du service RAS.
 
@@ -84,7 +84,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur. Cette valeur
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions RasAdmin peuvent retourner des codes d’erreur qui ne sont pas dans la plage prise en charge par la fonction **RasAdminGetErrorString** . Par exemple, les fonctions RasAdmin peuvent retourner des codes d’erreur définis dans Lmerr. h et winerror. h. Avant d’appeler **RasAdminGetErrorString**, vérifiez que le code d’erreur se trouve dans la plage RASBASE à RASBASEEND, comme défini dans Raserror. h.
 

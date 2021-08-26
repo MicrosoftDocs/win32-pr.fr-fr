@@ -4,12 +4,12 @@ description: RTMv2 permet à un client de récupérer les informations référen
 ms.assetid: a3fc2020-eac4-40a1-9a6e-6eaa2bcc582c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058a87c9463011aec55b0c6c8c0574ff1e013f23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51958fccc8a07e8846705945d9210f4259dfd89b1e3cefccd65d57dd0f033757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028019"
 ---
 # <a name="retrieving-information"></a>Récupération des informations
 
@@ -20,7 +20,7 @@ Ces appels de fonction ont des fonctions correspondantes ([**RtmReleaseEntityInf
 > [!Note]  
 > Les informations pour les clients sont disponibles uniquement dans la famille d’adresses et d’instances actuelles.
 
- 
+ 
 
 Pour obtenir un exemple de code qui montre comment utiliser ces fonctions, consultez [Rechercher le meilleur itinéraire](search-for-the-best-route.md).
 
@@ -50,9 +50,9 @@ Pour obtenir un exemple de code illustrant l’utilisation de ces fonctions, con
 
 La fonction [**RtmIsBestRoute**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmisbestroute) permet à un client de déterminer rapidement si un itinéraire particulier est le meilleur itinéraire vers une destination. Par exemple, un client peut avoir besoin de stocker un itinéraire particulier uniquement s’il s’agit du meilleur itinéraire. Par conséquent, le client peut appeler cette fonction, au lieu d’énumérer tous les itinéraires et d’effectuer la comparaison elle-même.
 
- 
+ 
 
- 
+ 
 
 
 

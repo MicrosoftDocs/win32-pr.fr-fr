@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b3d492c140d443d14583a80985820f55ff9bec8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fa050bd301842b9f8eeb2816420e4f09601e29a0f47cace721f2d56583f3a5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981179"
 ---
 # <a name="cim_protocolendpoint-class"></a>\_Classe PROTOCOLENDPOINT CIM
 
@@ -889,14 +889,14 @@ Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifie
 
 <span id="Voice_Foreign_Exchange_Office"></span><span id="voice_foreign_exchange_office"></span><span id="VOICE_FOREIGN_EXCHANGE_OFFICE"></span>
 
-**Bureau étranger** à la voix (101)
+**Office de Exchange étrangères vocales** (101)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Voice_Foreign_Exchange_Service"></span><span id="voice_foreign_exchange_service"></span><span id="VOICE_FOREIGN_EXCHANGE_SERVICE"></span>
 
-**Service d’échange étranger vocal** (102)
+**Service de Exchange étranger vocal** (102)
 
 
 </dt> <dd></dd> <dt>
@@ -1057,7 +1057,7 @@ Carte **Token Ring ISO 802.5 j** (115)
 
 <span id="FAST_Channel"></span><span id="fast_channel"></span><span id="FAST_CHANNEL"></span>
 
-**Canal rapide** (125)
+**canal FAST** (125)
 
 
 </dt> <dd></dd> <dt>

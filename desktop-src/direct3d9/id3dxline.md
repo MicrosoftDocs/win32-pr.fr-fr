@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1c535ff736e9a26e8316e4715f4be4022a6417df
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a9677ca802a800624b374212c6942ab6676423f8d63e62cbf136a8b9e69c533d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951369"
 ---
 # <a name="id3dxline-interface"></a>Interface ID3DXLine
 
@@ -42,7 +42,7 @@ L’interface **ID3DXLine** possède ces méthodes.
 | [**Début**](id3dxline--begin.md)                     | Prépare un appareil pour le dessin de lignes.<br/>                                                                                                                                                  |
 | [**Dessin**](id3dxline--draw.md)                       | Dessine une bande en courbes dans l’espace à l’écran. L’entrée se présente sous la forme d’un tableau qui définit les points (of [**D3DXVECTOR2**](d3dxvector2.md)) sur la bande.<br/>                                   |
 | [**DrawTransform**](id3dxline--drawtransform.md)     | Dessine une bande de courbes dans l’espace à l’écran avec une matrice de transformation d’entrée spécifiée.<br/>                                                                                                      |
-| [**Effet**](id3dxline--end.md)                         | Restaure l’état de l’appareil sur la manière dont il se trouvait lors de l’appel de [**ID3DXLine :: Begin**](id3dxline--begin.md) .<br/>                                                                                 |
+| [**End**](id3dxline--end.md)                         | Restaure l’état de l’appareil sur la manière dont il se trouvait lors de l’appel de [**ID3DXLine :: Begin**](id3dxline--begin.md) .<br/>                                                                                 |
 | [**GetAntialias**](id3dxline--getantialias.md)       | Obtient l’état de l’anticrénelage de ligne.<br/>                                                                                                                                                     |
 | [**GetDevice**](id3dxline--getdevice.md)             | Récupère le périphérique Direct3D associé à l’objet Line.<br/>                                                                                                                        |
 | [**GetGLLines**](id3dxline--getgllines.md)           | Obtient le mode de dessin de lignes de style OpenGL.<br/>                                                                                                                                              |
@@ -61,7 +61,7 @@ L’interface **ID3DXLine** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Créez un objet de dessin de ligne avec [**D3DXCreateLine**](d3dxcreateline.md).
 

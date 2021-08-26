@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c506287d94c5ec64445c74d8364a04db98100751
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f2ac4052ad4638c3e0e2483adb68857f4c2b670322434107d93100b6a177855
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028539"
 ---
 # <a name="rasadmingetuseraccountserver-function"></a>RasAdminGetUserAccountServer fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminGetPDCServer**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminGetPDCServer**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) .\]
 
 La fonction **RasAdminGetUserAccountServer** récupère le nom du serveur qui contient la base de données de comptes d’utilisateur. Utilisez le nom de serveur renvoyé dans les fonctions [**RasAdminUserGetInfo**](rasadminusergetinfo.md) et [**RasAdminUserSetInfo**](rasadminusersetinfo.md) pour obtenir ou définir des informations sur un utilisateur spécifié.
 
@@ -83,7 +83,7 @@ Si la fonction échoue, la valeur de retour peut être le code d’erreur suivan
 
 Il n’y a pas d’informations d’erreur étendues pour cette fonction. ne pas appeler [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **RasAdminGetUserAccountServer** obtient le nom du serveur avec la base de données des comptes d’utilisateur. Cette fonction requiert le nom du serveur RAS ou le nom du domaine dans lequel réside le serveur RAS.
 

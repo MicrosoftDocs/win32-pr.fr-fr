@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3d5419feb0acb5967132fbb804a9bbc11bfa4248
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c8b84b19be8de91f8f45ca5f6e8765035e75ebf67cade80a2d94faaf95ce2676
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981689"
 ---
 # <a name="span-idvspixenginehresultspanhresult-enumeration"></a><span id="vspixengine.hresult"></span>Énumération HRESULT
 
@@ -74,7 +74,7 @@ HRESULT personnalisé qui indique que DirectComposition est en cours d’utilisa
 HRESULT personnalisé qui indique que DirectWrite est en cours d’utilisation (la capture de DirectWrite n’est pas prise en charge.)
 
 <span id="PIX_E_USING_D3D9"></span><span id="pix_e_using_d3d9"></span>**PIX \_ E \_ utilisant \_ d3d9**  
-HRESULT personnalisé qui indique que Direct3D9 est en cours d’utilisation (la capture de Direct3D9 n’est pas prise en charge dans Windows 10.)
+HRESULT personnalisé qui indique que le Direct3D9 est en cours d’utilisation (la capture de Direct3D9 n’est pas prise en charge dans Windows 10.)
 
 <span id="PIX_E_CANT_CREATE_SHADER"></span><span id="pix_e_cant_create_shader"></span>**PIX \_ E \_ Impossible de \_ créer un \_ nuanceur**  
 HRESULT personnalisé qui indique qu’un nuanceur spécifié ne peut pas être créé.
@@ -88,7 +88,7 @@ HRESULT personnalisé qui indique qu’aucun frame n’a été capturé.
 <span id="PIX_E_DISABLE_SPY"></span><span id="pix_e_disable_spy"></span>**PIX \_ E \_ désactiver \_ Spy**  
 
 <span id="PIX_E_WIN8LOG_ON_WIN7"></span><span id="pix_e_win8log_on_win7"></span>**PIX \_ E \_ WIN8LOG \_ sur \_ win7**  
-HRESULT personnalisé qui indique qu’un vsglog Windows 8 ne peut pas être lu sur Windows 7.
+HRESULT personnalisé qui indique qu’une Windows 8 vsglog ne peut pas être lue sur Windows 7.
 
 <span id="PIX_E_BUILD_SHADER_TRACE"></span><span id="pix_e_build_shader_trace"></span>**\_trace du \_ \_ nuanceur de nuance pix E \_**  
 HRESULT personnalisé qui indique qu’une erreur s’est produite lors de la création de la trace du nuanceur.

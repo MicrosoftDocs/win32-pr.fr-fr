@@ -3,7 +3,7 @@ title: Message WM_CLEAR (winuser. h)
 description: Une application envoie un \_ message WM Clear à un contrôle Edit ou à une zone de liste modifiable pour supprimer (effacer) la sélection actuelle, le cas échéant, du contrôle d’édition.
 ms.assetid: 6730a725-01ec-4821-9ffc-1ea267d665b3
 keywords:
-- WM_CLEAR l’échange de données de message
+- WM_CLEAR des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a8e325704d1e8b953fe59bfaf4e8fcee62cf40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6820a9134f112b51474cd5b73e8545583cb02969b02a1bd1428138ebf1049dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029109"
 ---
 # <a name="wm_clear-message"></a>\_Message d’effacement WM
 
@@ -54,7 +54,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La suppression effectuée par le message **WM \_ Clear** peut être annulée en envoyant le contrôle d’édition à un message d' [**\_ annulation em**](../controls/em-undo.md) .
 

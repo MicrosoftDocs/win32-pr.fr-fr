@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d809ac640061ecf8bd51b9e2016aefe537b1ee8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b30b4a64313952d48662a82e2f62cdef25106136e7757220668fc094c9258d4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011789"
 ---
 # <a name="mrmcreateconfiginmemory-function"></a>MrmCreateConfigInMemory fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Crée des informations de configuration PRI initialisées (comme des données en mémoire, et non comme un fichier) qui définissent les valeurs par défaut du qualificateur que vous spécifiez. La fonction alloue de la mémoire et retourne un pointeur vers cette mémoire dans *outputXmlData*. Appelez [**MrmFreeMemory**](mrmfreememory.md) avec le même pointeur pour libérer de la mémoire. Pour plus d’informations et pour obtenir des procédures pas à pas sur l’utilisation de ces API, consultez [API PRI (package Resource Indexing) et systèmes de génération personnalisés](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
@@ -75,9 +75,9 @@ Adresse d’un pointeur vers l’octet. La fonction alloue de la mémoire et ret
 *outputXmlSize* \[ à\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
-Adresse d’un ULONG. Dans _outputXmlSize *, la fonction retourne la taille de la mémoire allouée appelée par *outputXmlData*.
+Adresse d’un ULONG. Dans *outputXmlSize*, la fonction retourne la taille de la mémoire allouée pointée par *outputXmlData*.
 
 </dd> </dl>
 
@@ -93,8 +93,8 @@ Type : **HRESULT**
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de \[ Bureau Windows Server uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows \[Applications de bureau serveur uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>MrmResourceIndexer. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Mrmsupport. lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

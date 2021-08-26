@@ -4,12 +4,12 @@ description: Une ressource de texture est une collection structurée de données
 ms.assetid: d745093e-2d51-4d45-a88a-caa0ca58b2ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71fcafdfb9caf53a27e60956c8182ae3ef95008e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6ea3bfd19f018ff3f3d9fc8eb1608212a93b4364de2cc24b6213763dfcda4ffe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027899"
 ---
 # <a name="introduction-to-textures-in-direct3d-11"></a>Présentation des textures dans Direct3D 11
 
@@ -73,7 +73,7 @@ Un tableau de textures 2D qui contient 6 textures peut être lu dans les nuanceu
 > [!Note]  
 > Les appareils que vous créez avec le [**\_ niveau de fonctionnalité 10 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) et versions ultérieures peuvent prendre en charge des tableaux de cubes de texture dans lesquels le nombre de textures est égal au nombre de cubes de texture dans un tableau multiplié par six. Les appareils que vous créez avec le [**\_ niveau de fonctionnalité 10 0**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) ne prennent en charge qu’un seul cube de texture de six visages. En outre, Direct3D 11 ne prend pas en charge les cubemaps partiels.
 
- 
+ 
 
 ### <a name="3d-textures"></a>Textures 3D
 
@@ -92,9 +92,9 @@ Il n’existe aucun concept de tableau de texture 3D ; par conséquent, une sou
 [Textures](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

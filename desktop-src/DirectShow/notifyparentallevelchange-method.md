@@ -4,17 +4,17 @@ ms.assetid: c8252cc6-a83f-4cce-ba3e-7db669eeb465
 title: Méthode NotifyParentalLevelChange (segment. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc47b7d78af8cfdd32aa63361411e769c375ddf1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8382b52f64d4196b0ef74e5f3285e9bb047a4e1f77d3b0e5bec4da218ee753b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997359"
 ---
 # <a name="notifyparentallevelchange-method"></a>Méthode NotifyParentalLevelChange
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -39,7 +39,7 @@ Spécifie une valeur booléenne indiquant si l’application est notifiée ou no
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les notifications de gestion parentale sont désactivées par défaut. Cela signifie que les commandes parentales temporaires du disque sont autorisées mais ignorées et que le disque est lu sans interruption. Appelez cette méthode lors de l’initialisation de votre application si vous devez gérer les commandes de niveau de gestion parental temporaire à partir du disque. Pour désactiver la gestion parentale une fois qu’elle est activée, appelez cette méthode avec un argument ayant la valeur false. Pour plus d’informations sur la gestion parentale, consultez [**AcceptParentalLevelChange**](acceptparentallevelchange-method.md).
 

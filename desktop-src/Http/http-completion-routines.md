@@ -4,12 +4,12 @@ description: Les applications disposent de plusieurs options pour recevoir des i
 ms.assetid: c48a64d2-b6c8-4694-8600-f84751954bad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aee05efc8284cb29130efae4bcaefb4834a3fb4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dd80259d806d81153a649ad606e40c10986090442e3cab5e04bd864367441871
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981669"
 ---
 # <a name="http-completion-routines"></a>Routines de saisie semi-automatique HTTP
 
@@ -33,7 +33,7 @@ Les applications qui préfèrent ne pas bloquer peuvent utiliser la structure [*
 
 
 
- 
+ 
 
 ## <a name="returning-the-number-of-bytes-read"></a>Retour du nombre d’octets lus
 
@@ -54,17 +54,17 @@ Le tableau suivant résume le comportement de la saisie semi-automatique synchro
 
 
 
- 
+ 
 
 > [!Note]  
 > \*Ce paramètre peut également être *pBytesSent* ou *pBytesRead*.
 
- 
+ 
 
 > [!Note]  
 > \*\*Il est recommandé que les applications passent une **valeur null** dans *pBytesReceived* pour les opérations asynchrones et obtiennent le nombre d’octets reçus à partir de [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) ou [**GetQueuedCompletionStatus**](/windows/desktop/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus).
 
- 
+ 
 
 ## <a name="return-codes"></a>Codes de retour
 
@@ -78,6 +78,6 @@ Quand les \_ e/s \_ d’erreur en attente ou aucune \_ erreur sont retournées p
 
 Si l’API du serveur HTTP retourne autre chose que l’erreur \_ e/s \_ en attente ou aucune \_ erreur, à partir de l’appel de fonction asynchrone, la routine d’achèvement n’est pas signalée et l’erreur est retournée directement par l’API.
 
- 
+ 
 
- 
+ 

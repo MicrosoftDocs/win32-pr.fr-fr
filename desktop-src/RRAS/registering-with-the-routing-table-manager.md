@@ -6,12 +6,12 @@ keywords:
 - Gestionnaire de table de routage, version 2 RRAS, inscription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ce5a1b350ec5420b3fc32a4e5a68a213a61151
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088072fac8679d9b2f87729b67a826ac850e77109f18b28fef3c2dc33c433f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028289"
 ---
 # <a name="registering-with-the-routing-table-manager"></a>Inscription auprès du gestionnaire de tables de routage
 
@@ -27,9 +27,9 @@ Une fois qu’un client a terminé l’interaction avec le gestionnaire de table
 
 Pour obtenir un exemple de code qui montre comment utiliser ces fonctions, consultez [s’inscrire auprès du gestionnaire de tables de routage](register-with-the-routing-table-manager.md) et [utiliser le rappel de notification d’événement](use-the-event-notification-callback.md).
 
- 
+ 
 
- 
+ 
 
 
 

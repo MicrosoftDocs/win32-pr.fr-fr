@@ -1,19 +1,19 @@
 ---
-description: L’API de document XPS implémente le modèle d’objet XPS et permet aux développeurs de créer un modèle d’objet XPS, de manipuler le contenu d’un document XPS dans des programmes Windows natifs \\ \\ et d’enregistrer le modèle d’objet XPS dans un fichier ou un flux de données en tant que document XPS.
+description: l’API de Document xps implémente le modèle d’objet xps et permet aux développeurs de créer un modèle d’objet xps, de manipuler le contenu d’un document xps dans des programmes de Windows natifs \\ \\ et d’enregistrer le modèle d’objet xps dans un fichier ou un flux de données sous la forme d’un Document xps.
 ms.assetid: dbb48dae-1ee6-4a8b-9184-8b796755087e
 title: À propos de l’API de document XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e24a93061b7f09697a987aa83be121dac42703c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61b2363bba55fed184b1cf80bfc81fac9474444f77c9b867b461940e6b72d8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950909"
 ---
 # <a name="about-xps-document-api"></a>À propos de l’API de document XPS
 
-L' [API de document XPS](documents-xps.md) implémente le modèle d’objet XPS et permet aux développeurs de créer un modèle d’objet XPS, de manipuler le contenu d’un document XPS dans des programmes Windows natifs \\ \\ et d’enregistrer le modèle d’objet XPS dans un fichier ou un flux de données en tant que document XPS. Les développeurs de modules de pipeline de filtre XPSDrv peuvent également utiliser l’API de document XPS pour manipuler le contenu d’un document XPS dans un filtre de pilote d’imprimante XPSDrv.
+l' [API de Document xps](documents-xps.md) implémente le modèle d’objet xps et permet aux développeurs de créer un modèle d’objet xps, de manipuler le contenu d’un document xps dans des programmes de Windows natifs \\ \\ et d’enregistrer le modèle d’objet xps dans un fichier ou un flux de données sous la forme d’un Document xps. Les développeurs de modules de pipeline de filtre XPSDrv peuvent également utiliser l’API de document XPS pour manipuler le contenu d’un document XPS dans un filtre de pilote d’imprimante XPSDrv.
 
 ## <a name="xps-document-api-overview"></a>Vue d’ensemble de l’API de document XPS
 

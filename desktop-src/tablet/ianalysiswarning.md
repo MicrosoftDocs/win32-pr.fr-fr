@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 79e865ac909d6f9ee1862926ffab06f538661d6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27e00533894560a84e73f8eb5682d1b70789ab5f2b21be5d6fe3682c543be6a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940379"
 ---
 # <a name="ianalysiswarning-interface"></a>Interface IAnalysisWarning
 
@@ -47,7 +47,7 @@ L’interface **IAnalysisWarning** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les types d’avertissements qui peuvent se produire sont décrits par l’énumération [**AnalysisWarningCode**](/windows/desktop/tablet/analysiswarningcode) . Souvent, les avertissements se produisent lorsque vous essayez d’utiliser une fonctionnalité qui n’est pas prise en charge par le [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) utilisé par le [**IInkAnalyzer**](iinkanalyzer.md) .
 
@@ -142,7 +142,7 @@ STDMETHODIMP CMyClass::Results(
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
