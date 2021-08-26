@@ -5,12 +5,12 @@ ms.assetid: 0D360A7C-8A2F-49E1-A5CC-98C958B59D1C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aac9aab5dde0f5ca0864fcc1627ade984c6b6ccf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 915cf1d92165f6d802bf4e8698180675a3edb32bd77da0510f4d9b52d6e044b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069709"
 ---
 # <a name="creating-descriptors"></a>Création de descripteurs
 
@@ -489,6 +489,6 @@ Par exemple,
 [Tas de descripteurs](descriptor-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

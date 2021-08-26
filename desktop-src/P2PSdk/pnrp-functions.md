@@ -4,12 +4,12 @@ ms.assetid: 7c9f2dd7-8dbc-4bbe-b53c-8036c79faa8a
 title: Fonctions PNRP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0e811c2d10927064e380970456c76f30730ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f109684be61bf1a9a194acb89b22fd4a50be652a6615a18a789e157ca2a5d909
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034379"
 ---
 # <a name="pnrp-functions"></a>Fonctions PNRP
 
@@ -19,7 +19,7 @@ L’API du fournisseur d’espace de noms PNRP utilise les fonctions suivantes.
 
 | Fonction                                                             | Description                                                                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | Encode le nom d’homologue fourni sous la forme d’un format qui peut être utilisé avec un appel ultérieur à la fonction Windows Sockets [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) . |
+| [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname)             | encode le nom d’homologue fourni sous la forme d’un format qui peut être utilisé avec un appel ultérieur à la fonction de sockets [**getaddrinfo**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) Windows. |
 | [**PeerHostNameToPeerName**](/windows/desktop/api/P2P/nf-p2p-peerhostnametopeername)             | Décode un nom d’hôte retourné par [**PeerNameToPeerHostName**](/windows/desktop/api/P2P/nf-p2p-peernametopeerhostname) dans la chaîne de nom d’homologue qu’il représente.                            |
 | [**PeerPnrpStartup**](/windows/desktop/api/P2P/nf-p2p-peerpnrpstartup)                           | Démarre le service PNRP (Peer Name Resolution Protocol) pour l’homologue appelant.                                                                                |
 | [**PeerPnrpShutdown**](/windows/desktop/api/P2P/nf-p2p-peerpnrpshutdown)                         | Arrête une instance en cours d’exécution du service PNRP (Peer Name Resolution Protocol) et libère toutes les ressources qui lui sont associées.                             |

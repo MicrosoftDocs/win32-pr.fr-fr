@@ -4,12 +4,12 @@ description: Pour inscrire votre application pour qu’elle soit redémarrée, a
 ms.assetid: 4dfbced7-77db-4042-823f-b4b81b2b27a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 717f8984f26570284a70b40eef70a9d6f753d66a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe5777d3ed6b99d421f7eba6b5b104b92a1c2c71462c675b2573f18da0ba69f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024569"
 ---
 # <a name="registering-for-application-restart"></a>Inscription au redémarrage de l’application
 
@@ -19,9 +19,9 @@ Vous devez également vous [inscrire pour la récupération](registering-for-app
 
 Une fois le processus de récupération terminé, WER met fin à l’application, puis le redémarre. Pour les applications console, l’application est démarrée dans une fenêtre de console distincte qui se ferme à la fermeture de l’application.
 
-**Remarque pour les auteurs du programme d’installation de l’application :** L’inscription au redémarrage de l’application entraîne également le redémarrage automatique de l’application par Windows après le redémarrage de l’ordinateur en cas de redémarrage de l’ordinateur en raison d’une mise à jour logicielle. Pour que cela fonctionne, le programme d’installation de l’application doit appeler la fonction [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) avec l' \_ indicateur EWX RESTARTAPPS défini ou la fonction [**INITIATESHUTDOWN**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) avec l' \_ indicateur Shutdown RESTARTAPPS défini.
+**Remarque pour les auteurs du programme d’installation de l’application :** l’inscription au redémarrage de l’application entraîne également le redémarrage automatique de l’application par Windows après le redémarrage de l’ordinateur dans les cas où l’ordinateur est redémarré en raison d’une mise à jour logicielle. Pour que cela fonctionne, le programme d’installation de l’application doit appeler la fonction [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) avec l' \_ indicateur EWX RESTARTAPPS défini ou la fonction [**INITIATESHUTDOWN**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) avec l' \_ indicateur Shutdown RESTARTAPPS défini.
 
-L’exemple suivant montre comment s’inscrire pour que WER redémarre votre application. L’exemple provoque une violation d’accès après l’inscription au redémarrage de l’application. La violation d’accès sera récupérée par Rapport d’erreurs Windows et démontrera l’expérience utilisateur du rapport d’erreurs, y compris le redémarrage de l’application. Elle doit être exécutée à partir d’une fenêtre de console sans arguments de ligne de commande.
+L’exemple suivant montre comment s’inscrire pour que WER redémarre votre application. L’exemple provoque une violation d’accès après l’inscription au redémarrage de l’application. la violation d’accès sera récupérée par Rapport d’erreurs Windows et démontrera l’expérience utilisateur du rapport d’erreurs, y compris le redémarrage de l’application. Elle doit être exécutée à partir d’une fenêtre de console sans arguments de ligne de commande.
 
 
 ```C++
@@ -240,6 +240,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

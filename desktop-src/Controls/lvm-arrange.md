@@ -3,7 +3,7 @@ title: Message LVM_ARRANGE (commctrl. h)
 description: Organise les éléments en mode icône. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro organiser ListView.
 ms.assetid: f7dbcdd2-3cc9-4bae-827e-8bac3b49486c
 keywords:
-- LVM_ARRANGE les contrôles de message Windows
+- LVM_ARRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1b6a081cf963a649329951358ea4c972f200f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 98d7e3595c276815af8708a54d6e81c2a40192d8d07e6cbce514481723799d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062649"
 ---
 # <a name="lvm_arrange-message"></a>\_Message d’organisation LVM
 
@@ -66,8 +66,8 @@ Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

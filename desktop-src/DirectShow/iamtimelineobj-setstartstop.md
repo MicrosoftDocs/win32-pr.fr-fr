@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e7839417a0406fc2702fb0fbd593edc92fa80437
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2806d926c9842f5900f46f923f4cbdf8caa47f112e1832077ab7d2b80a9341c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052449"
 ---
 # <a name="iamtimelineobjsetstartstop-method"></a>IAMTimelineObj :: SetStartStop, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -68,7 +68,7 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
 | Code de retour                                                                                  | Description                  |
 |----------------------------------------------------------------------------------------------|------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>          |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>          |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Argument non valide.<br/> |
 | <dl> <dt>**\_NOTIMPL E**</dt> </dl>    | Non implémenté.<br/>  |
 
@@ -76,13 +76,13 @@ Retourne l’une des valeurs **HRESULT** suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les suivis, les compositions et les groupes n’implémentent pas cette méthode. Pour ces objets, l’heure de début est toujours égale à zéro et l’heure d’arrêt est l’heure d’arrêt maximale des objets qu’ils contiennent.
 
 Ne définissez pas les heures qui se chevauchent sur les objets sources au sein d’une même piste. Cela peut entraîner des comportements non définis.
 
-Pour les objets sources, les heures de début et de fin sont indépendantes des heures de début et de fin de support. La modification d’une paire de valeurs ne modifie pas l’autre. Pour définir les heures de début et de fin des médias, appelez la méthode [**IAMTimelineSrc :: SetMediaTimes**](iamtimelinesrc-setmediatimes.md) . Pour plus d’informations, consultez [heure dans les services de modification DirectShow](time-in-directshow-editing-services.md).
+Pour les objets sources, les heures de début et de fin sont indépendantes des heures de début et de fin de support. La modification d’une paire de valeurs ne modifie pas l’autre. Pour définir les heures de début et de fin des médias, appelez la méthode [**IAMTimelineSrc :: SetMediaTimes**](iamtimelinesrc-setmediatimes.md) . pour plus d’informations, consultez [l’heure dans DirectShow Services d’édition](time-in-directshow-editing-services.md).
 
 Pour récupérer des transitions et des transitions de trame précises, définissez les paramètres de *démarrage* et d' *arrêt* sur les limites de cadre. Vous pouvez utiliser la méthode [**IAMTimelineObj :: FixTimes**](iamtimelineobj-fixtimes.md) pour convertir une valeur d’heure dans la limite d’image la plus proche, ou utiliser la fonction suivante pour convertir le nombre de frames en temps de référence :
 
@@ -110,7 +110,7 @@ REFERENCE_TIME inline FrameNumToTime(LONGLONG frame, double fps)
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

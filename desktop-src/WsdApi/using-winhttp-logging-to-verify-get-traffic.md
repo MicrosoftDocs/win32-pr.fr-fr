@@ -4,20 +4,20 @@ ms.assetid: ab4568bd-fc05-4e2a-ac8c-f035e6583a36
 title: Utilisation de la journalisation WinHTTP pour vérifier la récupération du trafic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448e4a127baf90a64291cbd14477c424270b332d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 031359dac8c8fa890568d6833cbfdf8c3d41d43bd52403a7def61a7392e8e23a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995219"
 ---
 # <a name="using-winhttp-logging-to-verify-get-traffic"></a>Utilisation de la journalisation WinHTTP pour vérifier la récupération du trafic
 
 Si l’hôte et le client génériques réussissent, mais que l’hôte et le client réels échouent, il est possible que la demande de métadonnées ne soit pas lancée. La journalisation [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) peut être utilisée pour vérifier que les messages sortants sont générés et envoyés correctement.
 
-Les applications clientes basées sur WSDAPI utilisent [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) pour se connecter aux appareils. Les hôtes d’appareils WSDAPI n’utilisent pas WinHTTP. En outre, certains proxys tiers n’utilisent pas WinHTTP. Lors du dépannage d’un hôte ou d’un proxy qui n’utilise pas WinHTTP, ignorez cette procédure de diagnostic et poursuivez la résolution des problèmes en suivant les procédures décrites dans [inspection des suivis réseau pour l’échange de métadonnées http](inspecting-network-traces-for-http-metadata-exchange.md).
+Les applications clientes basées sur WSDAPI utilisent [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) pour se connecter aux appareils. Les hôtes d’appareils WSDAPI n’utilisent pas WinHTTP. En outre, certains proxys tiers n’utilisent pas WinHTTP. Lors du dépannage d’un hôte ou d’un proxy qui n’utilise pas WinHTTP, ignorez cette procédure de diagnostic et poursuivez la résolution des problèmes en suivant les procédures décrites dans [inspection des suivis réseau pour les métadonnées HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
-La journalisation [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) n’affiche pas tout le trafic au niveau du protocole TCP. Passez à l' [inspection des suivis réseau pour l’échange de métadonnées http](inspecting-network-traces-for-http-metadata-exchange.md) si le trafic en dehors du trafic http revêt un intérêt.
+La journalisation [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) n’affiche pas tout le trafic au niveau du protocole TCP. passez à l' [inspection des suivis réseau pour les métadonnées http Exchange](inspecting-network-traces-for-http-metadata-exchange.md) si le trafic en dehors du trafic http revêt un intérêt.
 
 **Pour utiliser la journalisation WinHTTP pour vérifier la récupération du trafic**
 
@@ -26,7 +26,7 @@ La journalisation [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page) n’aff
 3.  Ouvrez le fichier journal WinHTTP.
 4.  Vérifiez que les messages de métadonnées et de requêtes HTTP requis ont été envoyés.
 
-Si un message d' [extraction](get--metadata-exchange--http-request-and-message.md) pour l’ordinateur hôte est trouvé dans les journaux WinHTTP, les demandes de métadonnées sont envoyées correctement à WinHTTP. Poursuivez la résolution des problèmes en suivant les procédures décrites dans [inspection des suivis réseau pour l’échange de métadonnées http](inspecting-network-traces-for-http-metadata-exchange.md).
+Si un message d' [extraction](get--metadata-exchange--http-request-and-message.md) pour l’ordinateur hôte est trouvé dans les journaux WinHTTP, les demandes de métadonnées sont envoyées correctement à WinHTTP. Poursuivez la résolution des problèmes en suivant les procédures décrites dans [inspection des suivis réseau pour les métadonnées HTTP Exchange](inspecting-network-traces-for-http-metadata-exchange.md).
 
 Si un message d' [extraction](get--metadata-exchange--http-request-and-message.md) est introuvable pour l’hôte dans les journaux WinHTTP, la demande de métadonnées n’est pas initiée. Cela peut se produire lorsque l’hôte publie des XAddrs non valides. Vérifiez que XAddrs sur l’hôte est conforme aux [règles de validation XAddr](xaddr-validation-rules.md).
 

@@ -4,12 +4,12 @@ ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: Filtre DV du multiplexeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 013251f2f9c1946aaa0f7b3c95edfd2de81c4d78
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: d6ad8189d7430a150c6860ef9e390a0e66aabd00971b56197ffe8651cde8967b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102969"
 ---
 # <a name="dv-muxer-filter"></a>Filtre DV du multiplexeur
 
@@ -188,7 +188,7 @@ Pour la sortie SD à 4 canaux : si l’entrée est stéréo, la piste de gauche
 
 En connectant et déconnectant le code PIN audio 1, il est possible d’atteindre un format non autorisé. Dans ce cas, la méthode [**IMediaFilter ::P ause**](/windows/desktop/api/Strmif/nf-strmif-imediafilter-pause) du filtre retourne VFW \_ E \_ non \_ connecté. Cette limitation empêche une situation dans laquelle le premier bloc audio n’a pas de son, mais le second bloc audio est audio. Le deuxième bloc doit avoir un audio uniquement si le premier bloc a également du son.
 
-Le du multiplexeur DV n’autorise pas les entrées audio avec différents taux d’échantillonnage. Toutefois, les méthodes de création de graphiques telles que [**IGraphBuilder :: Connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) ajoutent généralement le filtre de [wrappers ACM](acm-wrapper-filter.md) , qui convertit le deuxième flux audio pour qu’il corresponde au taux d’échantillonnage du premier flux.
+Le du multiplexeur DV n’autorise pas les entrées audio avec différents taux d’échantillonnage. toutefois, les méthodes de création de graphiques, telles que [**IGraphBuilder :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) , ajoutent généralement le filtre de [wrappers ACM](acm-wrapper-filter.md) , qui convertit le deuxième flux audio pour correspondre au taux d’échantillonnage du premier flux.
 
 Si l’entrée audio est 48 kHz ou 32 kHz, la sortie audio est verrouillée. (Il n’est pas possible de verrouiller l’audio 44,1-kHz.)
 
@@ -198,10 +198,10 @@ Si aucune broche audio n’est connectée, la sortie contient les données audio
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

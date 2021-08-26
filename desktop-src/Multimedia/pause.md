@@ -3,7 +3,7 @@ title: pause, commande
 description: La commande pause interrompt la diffusion ou l’enregistrement.
 ms.assetid: 8fa1a40d-fdb1-4c9f-a8db-9dd6a0d83b87
 keywords:
-- commande suspendre Windows Multimedia
+- commande suspendre Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25957defa4db514ce84f2e013dcc3751e21779b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05f91441113d060a98219263e49388b99396fa2eeeb78d8f3eabdd6c71d8a3a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038089"
 ---
 # <a name="pause-command"></a>pause, commande
 
@@ -56,7 +56,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec les pilotes MCICDA, MCISEQ et MCIPIONR, la commande pause fonctionne de la même façon que la commande [Stop](stop.md) .
 

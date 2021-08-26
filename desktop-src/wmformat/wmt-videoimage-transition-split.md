@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05df253c730b85c4bef8cf18d05ed98fcbd78f35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2aa478220064fb896150301112ef5afea0078659789f7fc617608cdb1eec323
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089599"
 ---
 # <a name="wmt_videoimage_transition_split"></a>\_ \_ fractionnement de transition VIDEOIMAGE WMT \_
 

@@ -4,12 +4,12 @@ description: L’emprunt d’identité est utile dans un environnement informati
 ms.assetid: 49d833d8-c61c-4746-91cf-c0753847cd3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d03ad3b4d9e2984708e8b274ab9bc57c3235808b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 73061a35c61a22a4d238e902c3dcb298e3ac0affaf4b0929c83311145a684f1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022822"
 ---
 # <a name="client-impersonation"></a>Emprunt d'identité de client
 
@@ -32,8 +32,8 @@ Il existe une exception à la règle de délégation : appels à l’aide de [*
 > [!Note]  
 > Le terme *emprunt d’identité* représente deux significations qui se chevauchent. La première signification de l’emprunt d’identité est le processus général d’action pour le compte d’un client. La deuxième signification est le niveau d’emprunt d’identité spécifique appelé emprunt d’identité. Le contexte du texte clarifie généralement la signification.
 
- 
+ 
 
- 
+ 
 
- 
+ 

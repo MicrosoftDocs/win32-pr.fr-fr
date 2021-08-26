@@ -1,17 +1,17 @@
 ---
 description: L’interface TAPI prend en charge les fonctions des appareils téléphoniques pour configurer et initialiser l’appareil téléphonique.
 ms.assetid: 04914c9c-ec23-4a04-af6a-8e31bec20595
-title: Fonctions des appareils téléphoniques
+title: Téléphone Fonctions de l’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b50d10f308576920be6d343590f313930ac96141
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a2380769269d0bd6b128931babdfaf37827a0cc066323dfdf58ad5592b8f03d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034499"
 ---
-# <a name="phone-device-functions"></a>Fonctions des appareils téléphoniques
+# <a name="phone-device-functions"></a>Téléphone Fonctions de l’appareil
 
 L’interface TAPI prend en charge les fonctions de périphérique téléphonique suivantes :
 

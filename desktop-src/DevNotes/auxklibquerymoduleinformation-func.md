@@ -13,12 +13,12 @@ api_type:
 - LibDef
 api_location:
 - Aux_klib.lib
-ms.openlocfilehash: 00649b042e13ecbc055a132d1de5c5c3248ba0e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be734583c8b7d02be4c498bc75069a0c813565d48aea3db3826712d6375e72b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045312"
 ---
 # <a name="auxklibquerymoduleinformation-function"></a>AuxKlibQueryModuleInformation fonction)
 
@@ -70,7 +70,7 @@ Si la fonction réussit, la valeur de retour est STATUs \_ successful.
 
 Si la fonction échoue, la valeur de retour peut être l’un des codes d’État définis dans Ntstatus. h, qui est disponible dans le kit WDK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez appeler la fonction [**AuxKlibInitialize**](auxklibinitialize-func.md) avant d’appeler cette fonction.
 
@@ -82,7 +82,7 @@ La bibliothèque d’objets qui implémente cette API peut être téléchargée 
 
 | Condition requise | Valeur |
 |----------------------------|------------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque d’API auxiliaires Windows version 1,0 ou ultérieure<br/>                            |
+| Composant redistribuable<br/> | Windows Bibliothèque d’API auxiliaire version 1,0 ou ultérieure<br/>                            |
 | En-tête<br/>          | <dl> <dt>Aux \_ klib. h</dt> </dl>   |
 | Bibliothèque<br/>         | <dl> <dt>Aux \_ klib. lib</dt> </dl> |
 

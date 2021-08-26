@@ -4,12 +4,12 @@ description: Sérialisation de mémoire tampon fixe.
 ms.assetid: 3432f468-89f2-48e2-8d86-15ba549f0fc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c87e3cad0a272ccd493cf9088fedeb272f1206b8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9ce58d3bdf92673c97ae8dc9fbbf8f366cb4a59a9e3ce114431de1581af30ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021209"
 ---
 # <a name="fixed-buffer-serialization"></a>Sérialisation de mémoire tampon fixe
 
@@ -127,9 +127,9 @@ if (MesDecodeBufferHandleCreate (Buffer, BufferSize, &Handle) ==
 
 
 
- 
+ 
 
- 
+ 
 
 
 

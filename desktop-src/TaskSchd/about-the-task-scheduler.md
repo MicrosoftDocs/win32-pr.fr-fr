@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches Planificateur de tâches, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6022546550efe32504dd0a3d12c94163e78214f6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dca865fe98ffb56f2bb6e9310e31d38bdaa804a63da07e486bbc89a0cd9ebcdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106545732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072709"
 ---
 # <a name="about-the-task-scheduler"></a>À propos de l’Planificateur de tâches
 
@@ -25,7 +25,7 @@ Planificateur de tâches 1,0 est installé avec les systèmes d’exploitation W
 
 Planificateur de tâches 2,0 est installé avec Windows Vista et Windows Server 2008.
 
-L’API Planificateur de tâches 2,0 doit être utilisée pour développer des applications qui utilisent le service Planificateur de tâches sur Windows Vista. Pour plus d’informations, consultez [Planificateur de tâches référence](task-scheduler-reference.md).
+l’API Planificateur de tâches 2,0 doit être utilisée pour développer des applications qui utilisent le service Planificateur de tâches sur Windows Vista. Pour plus d’informations, consultez [Planificateur de tâches référence](task-scheduler-reference.md).
 
 Planificateur de tâches est démarré à chaque démarrage du système d’exploitation. Il peut être exécuté par le biais de l’interface utilisateur graphique (GUI) Planificateur de tâches ou via l’API Planificateur de tâches décrite dans ce kit de développement logiciel (SDK).
 
@@ -51,9 +51,9 @@ Pour plus d’informations et des exemples sur l’utilisation des interfaces Pl
 [Planificateur de tâches](task-scheduler-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

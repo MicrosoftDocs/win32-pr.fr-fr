@@ -7,12 +7,12 @@ keywords:
 - fonctionnalités, API du serveur HTTP version 2,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62320ffa4a8ca4609ad0235196b3d20c47d83075
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b51d728bc9b5b685c079321f493ed1391fa22d206961d5fcd817598caa5289e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047239"
 ---
 # <a name="http-version-20-features"></a>Fonctionnalités de la version HTTP 2,0
 
@@ -29,14 +29,14 @@ Les fonctionnalités suivantes sont prises en charge pour l’API du serveur HTT
 -   Arrêt progressif de la file d’attente des demandes
 -   Début de la demande dans la file d’attente des demandes
 -   Partage de port
--   Support Suivi d’v nements pour Windows
+-   support Suivi d’v nements pour Windows
 -   Compteurs de performance
 -   Prise en charge des IDN (Internationalized Domain Name)
 -   Utilitaire de configuration de l’interface réseau
 
- 
+ 
 
- 
+ 
 
 
 

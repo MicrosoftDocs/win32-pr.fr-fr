@@ -4,12 +4,12 @@ ms.assetid: 8dd8e8c4-5a6f-4a87-a643-73af35c362a9
 title: Attribut MF_MT_MPEG2_LEVEL (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 111c4b30befb1d4b25a688d25f46f02bcef21541
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d1ac99f76d458c1c5964e61181f58f53e7bfce19ab04b09615eaf932dfa2939
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060605"
 ---
 # <a name="mf_mt_mpeg2_level-attribute"></a>\_Attribut de \_ niveau de MPEG2 MT MF \_
 
@@ -19,7 +19,7 @@ Spécifie le niveau MPEG-2 ou H. 264 dans un type de média vidéo.
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour la vidéo MPEG-2, la valeur de cet attribut est un membre de l’énumération [**am \_ MPEG2Level**](/previous-versions/windows/desktop/api/dvdmedia/ne-dvdmedia-am_mpeg2level) .
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

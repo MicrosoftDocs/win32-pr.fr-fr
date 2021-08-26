@@ -4,18 +4,18 @@ description: Découvrez les principales fonctionnalités de DXCore avec des exem
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 06/20/2019
-ms.openlocfilehash: f1c21971f2daea69de1f317d1db8eceb9ec00118
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc2120c85b48b89478d1a10c8cf853c947e6553d
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511288"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812353"
 ---
 # <a name="using-dxcore-to-enumerate-adapters"></a>Utilisation de DXCore pour énumérer des adaptateurs
 
 DXCore étant une API d’énumération d’adaptateur pour les appareils DirectX, certaines de ses fonctionnalités se chevauchent avec celles de [dxgi](../direct3ddxgi/dx-graphics-dxgi.md).
 
-DXCore permet l’exposition de nouveaux types d’appareils au mode utilisateur, tels que MCDM (Microsoft Compute Driver Model), à utiliser avec [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [DirectML](../direct3d12/dml.md)et [Windows machine learning](/windows/ai/windows-ml/). DXCore, contrairement à DXGI, ne fournit aucune information sur la technologie ou les propriétés relatives à l’affichage
+DXCore permet l’exposition de nouveaux types d’appareils au mode utilisateur, tels que MCDM (Microsoft compute Driver Model), à utiliser avec [Direct3D 12](../direct3d12/directx-12-programming-guide.md), [DirectML](/windows/ai/directml/dml)et [Windows Machine Learning](/windows/ai/windows-ml/). DXCore, contrairement à DXGI, ne fournit aucune information sur la technologie ou les propriétés relatives à l’affichage
 
 Dans les sections suivantes, nous allons jeter un coup d’œil sur les principales fonctionnalités de DXCore avec des exemples de code (écrits en [C++/WinRT](/windows/uwp/cpp-and-winrt-apis)). Les exemples de code ci-dessous sont extraits de la liste complète du code source que vous pouvez trouver dans la rubrique [application dxcore minimal](dxcore-source-code.md).
 
@@ -192,7 +192,7 @@ HRESULT hr = factory->UnregisterEventNotification(m_eventCookie);
 ## <a name="display-information"></a>Afficher des informations
 
 > [!NOTE]
-> DXCore ne fournit pas d’informations d’affichage. Le cas échéant, vous devez utiliser la classe Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) pour récupérer ces informations. Le [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) d’un adaptateur fournit un identificateur commun que vous pouvez utiliser pour mapper un adaptateur dxcore aux informations [**DisplayMonitor. DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) . Pour obtenir le LUID d’un adaptateur, transmettez [**DXCoreAdapterProperty :: InstanceLuid**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) à la méthode [**IDXCoreAdapter :: GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) .
+> DXCore ne fournit pas d’informations d’affichage. le cas échéant, vous devez utiliser la classe Windows Runtime [**DisplayMonitor**](/uwp/api/windows.devices.display.displaymonitor) pour récupérer ces informations. Le [**LUID**](/windows/win32/api/winnt/ns-winnt-luid) d’un adaptateur fournit un identificateur commun que vous pouvez utiliser pour mapper un adaptateur dxcore aux informations [**DisplayMonitor. DisplayAdapterId**](/uwp/api/windows.devices.display.displaymonitor.displayadapterid) . Pour obtenir le LUID d’un adaptateur, transmettez [**DXCoreAdapterProperty :: InstanceLuid**](./dxcore_interface/ne-dxcore_interface-dxcoreadapterproperty.md) à la méthode [**IDXCoreAdapter :: GetProperty**](./dxcore_interface/nf-dxcore_interface-idxcoreadapter-getproperty.md) .
 
 ## <a name="see-also"></a>Voir aussi
 

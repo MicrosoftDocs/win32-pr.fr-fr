@@ -3,7 +3,7 @@ title: Message TB_SETSTYLE (commctrl. h)
 description: Définit le style d’un contrôle ToolBar.
 ms.assetid: a1056136-e027-4ce4-b348-2d912a3ab467
 keywords:
-- TB_SETSTYLE les contrôles de message Windows
+- TB_SETSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c49a4239d131f1fe54a73e79beea8f32108681
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70974f6ae4291da3b6a4b93b66b14f46a7933dd49a2594b935c15f93c80e4cbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061239"
 ---
 # <a name="tb_setstyle-message"></a>TO, \_ message SETSTYLE
 
@@ -49,8 +49,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

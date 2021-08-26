@@ -3,7 +3,7 @@ title: TDN_CREATED le code de notification (commctrl. h)
 description: Envoyé par la boîte de dialogue de tâche après la création de la boîte de dialogue et avant son affichage. Ce code de notification est reçu uniquement par le biais de la fonction de rappel de la boîte de dialogue de tâche, qui peut être inscrite à l’aide de la méthode TaskDialogIndirect.
 ms.assetid: cfe13db3-9c3c-425c-a6ef-17c5cb33eeb6
 keywords:
-- Contrôles Windows de code de notification TDN_CREATED
+- TDN_CREATED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a25aa40af6b2cb002f2da7aab7c71fd68702ae65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a66541d60923b19ae70519919fd3d8217d99ff95515bb30c98efaf8c02afd93
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104479"
 ---
 # <a name="tdn_created-notification-code"></a>\_Code de notification créé par TDN
 
@@ -63,8 +63,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

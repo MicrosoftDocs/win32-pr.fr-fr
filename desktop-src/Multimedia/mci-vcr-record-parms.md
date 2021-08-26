@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_RECORD_PARMS (VCR. h)
 description: La \_ structure de \_ paramètres d’enregistrement magnétoscope MCI \_ contient des paramètres pour la \_ commande d’enregistrement MCI pour les enregistreurs vidéo-cassettes.
 ms.assetid: a95a6dab-9854-4c44-989a-032dff680106
 keywords:
-- Structure de MCI_VCR_RECORD_PARMS Windows multimédia
+- structure MCI_VCR_RECORD_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4089b6b7977959b5eb0d0ac60dd4e612b17b823d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e1b613c2b64bae1395b3fc402816145c0ef690801b9fd6402201198f7ff28a6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038229"
 ---
 # <a name="mci_vcr_record_parms-structure"></a>\_Structure des \_ PARMS des enregistrements magnétoscope MCI \_
 
@@ -71,7 +71,7 @@ Valeur d’heure qui affecte [**l' \_ enregistrement MCI**](mci-record.md) ou la
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les positions sont spécifiées dans le format d’heure actuel.
 

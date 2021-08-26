@@ -4,16 +4,16 @@ ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
 title: Attribut MF_MT_DEPTH_VALUE_UNIT (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6086a34f62c26b3fe1fa611318792c9056a50c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca57fa5cf72be266ac58ee504b1d4b7c4f2506646f33295e468d2ed0781ab8d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060639"
 ---
 # <a name="mf_mt_depth_value_unit-attribute"></a>\_Attribut d' \_ \_ unité de valeur de profondeur MT MF \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Valeur qui définit les unités pour une valeur de profondeur dans une image vidéo.
 
@@ -21,7 +21,7 @@ Valeur qui définit les unités pour une valeur de profondeur dans une image vid
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur d’unité est une valeur UINT64 en nanomètres, dans la plage de 1e à 9 mètres. Si cette valeur n’est pas présente, la valeur par défaut de l’unité est 1e-3, ce qui indique que chaque niveau de pixel est mesuré en 1 millimètre dans l’espace physique.
 
@@ -37,8 +37,8 @@ Certaines caméras de profondeur attachent des métadonnées de masque de bits p
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                      |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                      |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

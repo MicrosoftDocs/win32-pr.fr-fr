@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - Journal.dll
-ms.openlocfilehash: 258ac30b8857fa4ef24bd86a08c7e402229f4bff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dbe9d7929f616914d06cad237f486677cd8e5616cb04bf28a5836751ca0a3c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057849"
 ---
 # <a name="ijournalreaderreadfromstream-method"></a>IJournalReader :: ReadFromStream, méthode
 
 Prend un flux dans un fichier de note du journal et retourne un flux de données XML représentant le contenu du document.
 
 > [!Note]  
-> Le composant de lecture du journal ne peut pas lire les fichiers journaux Windows créés par des ordinateurs exécutant Windows 7 ou une version ultérieure. L’interface IJournalReader doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
+> le composant de lecture du journal ne peut pas lire les fichiers journaux Windows créés par des ordinateurs exécutant Windows 7 ou une version ultérieure. L’interface IJournalReader doit être considérée comme dépréciée ou obsolète et ne doit pas être utilisée.
 
  
 
@@ -63,9 +63,9 @@ Pointeur vers l’adresse d’un objet [**IStream**](/windows/desktop/api/objidl
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les flux sont utilisés pour éviter l’accès direct au système de fichiers et pour permettre le choix de la méthode d’analyse XML à utiliser.
+Flux sont utilisées pour éviter l’accès direct au système de fichiers et pour permettre le choix de la méthode d’analyse XML à utiliser.
 
 ## <a name="examples"></a>Exemples
 
@@ -154,7 +154,7 @@ void CJntlReaderMFCDlg::OnBnClickedButton1()
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                         |
 | En-tête<br/>                   | <dl> <dt>Journal. h (nécessite également le journal \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Journal.dll</dt> </dl>                            |

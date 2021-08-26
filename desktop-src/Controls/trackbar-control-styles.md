@@ -28,12 +28,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42966f98db18257c9a6a9ca463d5bd88028a02f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9165325c2d78ac6e4dc1ae69e410d293100de24cb8d38868475e99e49c0faaa8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046019"
 ---
 # <a name="trackbar-control-styles"></a>Styles de contrôle TrackBar
 

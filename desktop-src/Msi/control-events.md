@@ -1,17 +1,17 @@
 ---
 description: Un ControlEvent, spécifie une action à entreprendre par le programme d’installation ou une modification des attributs d’un ou plusieurs contrôles dans une boîte de dialogue. Pour plus d’informations sur ControlEvents, consultez vue d’ensemble de ControlEvent,.
 ms.assetid: 8768acaa-884b-428f-a14e-3f39f8ea4ad5
-title: Événements de contrôle (Windows Installer)
+title: événements de contrôle (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 221e8d9e6a8cea9a02b303040d06da346800912e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdd72e93da7ed84c845b5993b2a021119c861b682ab5eb4645c69c723b17a404
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075089"
 ---
-# <a name="control-events-windows-installer"></a>Événements de contrôle (Windows Installer)
+# <a name="control-events-windows-installer"></a>événements de contrôle (Windows Installer)
 
 Un ControlEvent, spécifie une action à entreprendre par le programme d’installation ou une modification des attributs d’un ou plusieurs contrôles dans une boîte de dialogue. Pour plus d’informations sur ControlEvents, consultez [vue d’ensemble de ControlEvent,](controlevent-overview.md).
 

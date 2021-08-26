@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b07852c1199338917ca1f29c54923ba6a904f30f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5140d7e69da06ba36c6b07b8c92f9aacdd90c49777ac5dc479dc17c5a77915ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035679"
 ---
 # <a name="glvertex4f-function"></a>glVertex4f fonction)
 
@@ -57,7 +57,7 @@ Spécifie la coordonnée y d’un vertex.
 
 </dd> <dt>
 
-*z* 
+*Lettre* 
 </dt> <dd>
 
 Spécifie la coordonnée z d’un vertex.
@@ -75,7 +75,7 @@ Spécifie la coordonnée w d’un vertex.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les commandes de fonction glVertex sont utilisées dans les paires [**glBegin**](glbegin.md) / [**glEnd**](glend.md) pour spécifier les sommets de points, de lignes et de polygones. Les coordonnées de couleur actuelle, normale et de texture sont associées au vertex lorsque glVertex est appelé. Si seuls *x* et *y* sont spécifiés, *z* a pour valeur par défaut 0,0 et *w* a la valeur par défaut 1,0. Lorsque *x*, *y* et *z* sont spécifiés, *w* a pour valeur par défaut 1,0. L’appel de glVertex en dehors d’une paire de / **glEnd** glBegin entraîne un comportement indéfini.
 

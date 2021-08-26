@@ -6,12 +6,12 @@ keywords:
 - OpenGL, présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cece636e51348288e587116bf13f95696b93ab9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa30507db7d7994fe9bf88d6b056d48ee0266b9e7f4959d82a31134a9c3ce5dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035019"
 ---
 # <a name="introduction-to-opengl"></a>Présentation de OpenGL
 
@@ -50,9 +50,9 @@ Les rubriques suivantes présentent une vue globale du fonctionnement d’OpenGL
 [Bibliothèque de l’utilitaire OpenGL](opengl-utility-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

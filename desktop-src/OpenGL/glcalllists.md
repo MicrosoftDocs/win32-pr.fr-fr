@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a119f3a63b0f04140a72cc5ca818833ae9ea8b20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 379e15c382b23558786443f03f57349b2504ad251301e3e195885e276d7dbebe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082109"
 ---
 # <a name="glcalllists-function"></a>glCallLists fonction)
 
@@ -86,7 +86,7 @@ Adresse d’un tableau d’offsets de nom dans la liste d’affichage. Le type d
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glCallLists** provoque l’exécution de chaque liste d’affichage dans la liste des noms passés comme *listes* . Par conséquent, les fonctions enregistrées dans chaque liste d’affichage sont exécutées dans l’ordre, exactement comme si elles étaient appelées sans utiliser de liste d’affichage. Les noms des listes d’affichage qui n’ont pas été définies sont ignorés.
 

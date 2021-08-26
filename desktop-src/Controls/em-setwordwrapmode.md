@@ -3,7 +3,7 @@ title: Message EM_SETWORDWRAPMODE (RichEdit. h)
 description: Définit les options de retour automatique à la disposition et de césure des mots pour un contrôle RichEdit.
 ms.assetid: 43703ac8-6ae5-470b-9156-e60330ef97c4
 keywords:
-- EM_SETWORDWRAPMODE les contrôles de message Windows
+- EM_SETWORDWRAPMODE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1dc6f064f52bf2a5f58c71db099f38b9350e63
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0b5c750bb83f4f3fb0c1acfc82b67677c36094df461d10787186177fc891df2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047979"
 ---
 # <a name="em_setwordwrapmode-message"></a>\_Message SETWORDWRAPMODE em
 
@@ -67,7 +67,7 @@ Ce paramètre n’est pas utilisé ; elle doit être égale à zéro.
 
 Ce message retourne les options de retour automatique à la casse et de césure en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message ne doit pas être envoyé par la procédure de césure des mots définie par l’application.
 
@@ -77,8 +77,8 @@ Ce message ne doit pas être envoyé par la procédure de césure des mots défi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

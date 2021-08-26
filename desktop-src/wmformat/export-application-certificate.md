@@ -14,16 +14,16 @@ keywords:
 - Exporter un certificat d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44aaaeaf60afc3e57bbd83a350d758db72f077b2
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 4363408ee47cb372fe68a24ae9839dc147ef7541d40aaa143e21abd512f05e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104383224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089699"
 ---
 # <a name="export-application-certificate"></a>Exporter un certificat d’application
 
-Pour exporter le contenu protégé par DRM Windows Media, vous devez obtenir un certificat d’application Windows Media DRM Export, que vous recevez après avoir entré dans le contrat d’exportation DRM avec Microsoft.
+pour exporter le contenu protégé par la protection drm des médias Windows, vous devez obtenir un certificat d’Application d’exportation drm Windows, que vous recevez après avoir entré dans le contrat d’exportation drm avec Microsoft.
 
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -33,9 +33,9 @@ Pour exporter le contenu protégé par DRM Windows Media, vous devez obtenir un 
 [**Exportation DRM**](drm-export.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

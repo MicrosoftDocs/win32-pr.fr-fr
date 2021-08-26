@@ -4,12 +4,12 @@ description: Une fois que le gestionnaire de groupe de multidiffusion est averti
 ms.assetid: 136f86e0-380d-4158-a9dd-c6de1c7f6689
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c97f0e16e08bc3781b946a51f69d2b0d65b3272
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17b3464aa645a6ab110acef09f238ffca97f781a38cc6c2602a39e7c66316490
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074069"
 ---
 # <a name="local-join-callbacks"></a>Rappels de jointure locale
 
@@ -17,9 +17,9 @@ Une fois que le gestionnaire de groupe de multidiffusion est averti par IGMP que
 
 Ce rappel et le rappel de rappel de la [**\_ \_ sortie \_ locale PMGM**](/windows/desktop/api/Mgm/nc-mgm-pmgm_local_leave_callback) sont utilisés pour synchroniser le transfert entre les protocoles IGMP et de routage.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 436933c7-6e5d-4b4e-9147-c60a26871dbe
 title: Création de tables de fichier de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2687ed69c1a0362f96db896a5fdf4237ac4681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 715fe570a96015f62e45b0c2924b2a83be8eefc067e5d054decd59110b7797c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045469"
 ---
 # <a name="authoring-merge-module-file-tables"></a>Création de tables de fichier de module de fusion
 
-Une [table de fichiers](file-table.md) est requise dans chaque module de fusion et doit avoir un enregistrement pour chaque fichier qui est remis au package d’installation cible par le module de fusion. Lorsque le module de fusion est fusionné dans un fichier. msi, chaque fichier de la table de fichiers du module de fusion est stocké dans un [*fichier CAB*](c-gly.md) dans le fichier. msm. Le nom du fichier cab dans un module de fusion est toujours le suivant : MergeModule.CABinet.
+Une [table de fichiers](file-table.md) est requise dans chaque module de fusion et doit avoir un enregistrement pour chaque fichier qui est remis au package d’installation cible par le module de fusion. Lorsque le module de fusion est fusionné dans un fichier .msi, chaque fichier de la table de fichier de module de fusion est stocké dans un [*fichier CAB*](c-gly.md) dans le fichier. msm. Le nom du fichier cab dans un module de fusion est toujours le suivant : MergeModule.CABinet.
 
 Pour plus d’informations, consultez [génération de fichiers CAB inet MergeModule.CAB](generating-mergemodule-cabinet-cabinet-files.md).
 

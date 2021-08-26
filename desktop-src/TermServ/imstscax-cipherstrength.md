@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 401cf3796d349aaa6764eae46a371a9d485f763c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b66418f2e956afcf6c5b9f1f9a0d5971119e7fddae1c1d46d115f4bbe0e6391
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125439"
 ---
 # <a name="imstscaxcipherstrength-property"></a>IMsTscAx :: CipherStrength, propriété
 
@@ -86,9 +86,9 @@ Force de chiffrement.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Par Connexion Bureau à distance par le Web, la puissance de chiffrement est toujours 128, car le contrôle ActiveX Bureau à distance prend en charge le chiffrement jusqu’à 128 bits inclus. Le contrôle 128 bits peut toujours se connecter à des serveurs de chiffrement 56 bits Bureau à distance des serveurs hôtes de session Bureau à distance.
+par Connexion Bureau à distance par le Web, la puissance de chiffrement est toujours 128, car le contrôle de ActiveX Bureau à distance prend en charge le chiffrement jusqu’à 128 bits inclus. Le contrôle 128 bits peut toujours se connecter à des serveurs de chiffrement 56 bits Bureau à distance des serveurs hôtes de session Bureau à distance.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

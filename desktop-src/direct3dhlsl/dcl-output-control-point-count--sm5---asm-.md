@@ -4,12 +4,12 @@ description: Déclare le nombre de points de contrôle de sortie du nuanceur de 
 ms.assetid: 51E8117F-1802-413B-9820-04D5CEBE2DB6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 147f8f7021252f07cdb6dd0f225555ff0f23d54b
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 93dc28a2af3ac50c835fa7ec38d7d344029af76a11cb2b84945dbf5009d68473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024699"
 ---
 # <a name="dcl_output_control_point_count-sm5---asm"></a>\_nombre de \_ \_ points de contrôle de sortie DCL \_ (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclare le nombre de points de contrôle de sortie du nuanceur de coque.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nuanceur de coque peut générer des points de contrôle 0 s’ils ne sont pas nécessaires.
 
@@ -42,7 +42,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme                 | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme                 | Domaine | Géométrie | Pixel | Calcul |
 |--------|----------------------|--------|----------|-------|---------|
 |        | Section déclarations |        |          |       |         |
 
@@ -56,9 +56,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

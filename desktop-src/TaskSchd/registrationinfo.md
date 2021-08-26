@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b7eb50da6b69622f6101fdbae4ad098d88f0366
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f85bb423ae27a3d0b0b15f7b04d287a749f4fe23f3a4b58f7c2462b487b8a705
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072649"
 ---
 # <a name="registrationinfo-object"></a>Objet RegistrationInfo
 
@@ -44,7 +44,7 @@ L’objet **RegistrationInfo** a ces propriétés.
 | [**Auteur**](registrationinfo-author.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit l’auteur de la tâche.<br/>                                                                                            |
 | [**Date**](registrationinfo-date.md)<br/>                             | Lecture/écriture<br/> | Obtient ou définit la date et l’heure d’enregistrement de la tâche.<br/>                                                                     |
 | [**Description**](registrationinfo-description.md)<br/>               | Lecture/écriture<br/> | Obtient ou définit la description de la tâche.<br/>                                                                                       |
-| [**Correspondante**](registrationinfo-documentation.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit toute documentation supplémentaire pour la tâche.<br/>                                                                         |
+| [**Documentation**](registrationinfo-documentation.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit toute documentation supplémentaire pour la tâche.<br/>                                                                         |
 | [**SecurityDescriptor**](registrationinfo-securitydescriptor.md)<br/> |                       | Obtient ou définit le descripteur de sécurité de la tâche.<br/>                                                                               |
 | [**Source**](registrationinfo-source.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit l’origine de la tâche. Par exemple, une tâche peut provenir d’un composant, d’un service, d’une application ou d’un utilisateur.<br/> |
 | [**URI**](registrationinfo-uri.md)<br/>                               | Lecture/écriture<br/> | Obtient ou définit l’URI de la tâche.<br/>                                                                                               |
@@ -55,7 +55,7 @@ L’objet **RegistrationInfo** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations d’inscription peuvent être utilisées pour identifier une tâche par le biais de l’interface utilisateur Planificateur de tâches, ou en tant que critères de recherche lors de l’énumération des tâches inscrites.
 
@@ -71,8 +71,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

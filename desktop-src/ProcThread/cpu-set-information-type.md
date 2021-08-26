@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Processthreadapi.h
-ms.openlocfilehash: 0283275856e8e68bf983aaeb9a7660a5a0a6bf59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c932a143553c1101d6a81bac86ba54e21603eaf80ed5d2613484bff22a7e625
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101929"
 ---
 # <a name="cpu_set_information_type-enumeration"></a>\_ \_ Énumération des types d’informations de jeu d’UC \_
 
@@ -52,8 +52,8 @@ La structure contient des informations sur le jeu d’UC.
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                              |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                       |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>Processthreadsapi. h (inclure Windows. h)</dt> </dl> |
 
 

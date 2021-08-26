@@ -4,12 +4,12 @@ ms.assetid: d77de7ab-1fbc-42f4-829e-e9fb51668d21
 title: Commande IMC_SETSTATUSWINDOWPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f99c57eef1a4748bb58018ee47aaee21eb677016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee41deac781f7885185df429c5b5231a36f9d5008b5754b718398e7ab4cd060a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107229"
 ---
 # <a name="imc_setstatuswindowpos-command"></a>\_Commande IMC SETSTATUSWINDOWPOS
 
@@ -52,7 +52,7 @@ Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas c
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

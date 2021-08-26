@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6dc9ff69973fb340bf3b140462c4012499680ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6cf4187875f3b02dfbdc8ef5bd9fd8bd43ed99c37134b2c899215decacfb605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126079"
 ---
 # <a name="principal-object"></a>Objet principal
 
@@ -51,7 +51,7 @@ L’objet **principal** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous spécifiez un compte, n’oubliez pas d’utiliser correctement la double barre oblique inverse dans le code pour spécifier le domaine et le nom d’utilisateur. Par exemple, utilisez domaine \\ \\ nom d’utilisateur pour spécifier une valeur pour la propriété [**userid**](/windows/desktop/api/taskschd/nf-taskschd-iprincipal-get_userid) .
 
@@ -69,8 +69,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

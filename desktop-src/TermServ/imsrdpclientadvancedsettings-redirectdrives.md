@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c83d24ae4ea4dae2760c1e468f4fa8b326a94c38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2cca4aece1da6d609ab90e306252346c9fea54e9960d70efb0bd3c7adaad012
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125699"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectdrives-property"></a>IMsRdpClientAdvancedSettings :: RedirectDrives, propriété
 
@@ -90,7 +90,7 @@ Affectez à ce paramètre la valeur **Variant \_ true** pour autoriser la redire
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

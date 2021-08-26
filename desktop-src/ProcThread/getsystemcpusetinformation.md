@@ -15,12 +15,12 @@ api_location:
 - Kernel32.dll
 - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 - KernelBase.dll
-ms.openlocfilehash: d8ce490e3377e45a81b24523504d06941755de49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 011a809c78f2e94e6d16bbe5deb716ee7e97db356765bb771709048d3b00d05a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995369"
 ---
 # <a name="getsystemcpusetinformation-function"></a>GetSystemCpuSetInformation fonction)
 
@@ -90,8 +90,8 @@ Si l’API fonctionne correctement, elle retourne TRUE. En cas d’échec, la ra
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 10 \[ Desktop Apps \| UWP\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ \| apps UWP\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau \| UWP apps\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau \| UWP apps\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Processthreadsapi. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Windows. h</dt> </dl>          |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>       |

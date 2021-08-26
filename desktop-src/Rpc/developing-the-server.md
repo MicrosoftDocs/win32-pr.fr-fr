@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, développement du serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc3405c52c48f531572ab159ad083bad93f95e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: efeba77168abe53e1df823f416c80a015cc63bc7b89c79a0a86d79174a7c78fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073402"
 ---
 # <a name="developing-the-server"></a>Développement du serveur
 
@@ -25,8 +25,8 @@ L’application serveur a été développée dans deux fichiers, Mysrvr. c et Rp
 
 Les fichiers Mysrvr. c et Rprocs. c ont été compilés avec MyApp \_ s. c pour produire des fichiers objets. Les fichiers objets étaient ensuite liés à la bibliothèque Runtime RPC et à toutes les autres bibliothèques dont ils peuvent avoir besoin. Le résultat est un programme serveur exécutable nommé Mysrvr.exe.
 
-Si vous ne compilez pas votre fichier IDL en mode de compatibilité OSF (Open Software Foundation) ([**/OSF**](/windows/desktop/Midl/-osf)), votre programme serveur doit fournir une fonction pour allouer de la mémoire et une fonction pour la libérer. Pour Windows 2000 et les versions ultérieures de Windows, le mode recommandé est [**/Oicf**](/windows/desktop/Midl/-oi). Pour plus d’informations, consultez [Comment la mémoire est allouée et désallouée](how-memory-is-allocated-and-deallocated.md), ainsi que les [pointeurs et l’allocation de mémoire](pointers-and-memory-allocation.md).
+Si vous ne compilez pas votre fichier IDL en mode de compatibilité OSF (Open Software Foundation) ([**/OSF**](/windows/desktop/Midl/-osf)), votre programme serveur doit fournir une fonction pour allouer de la mémoire et une fonction pour la libérer. pour Windows version 2000 et les versions ultérieures de Windows, le mode recommandé est [**/Oicf**](/windows/desktop/Midl/-oi). Pour plus d’informations, consultez [Comment la mémoire est allouée et désallouée](how-memory-is-allocated-and-deallocated.md), ainsi que les [pointeurs et l’allocation de mémoire](pointers-and-memory-allocation.md).
 
- 
+ 
 
- 
+ 

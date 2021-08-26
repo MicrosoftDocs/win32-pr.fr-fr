@@ -4,16 +4,16 @@ ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
 title: 'Étape 4 : ajouter le convertisseur vidéo'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea17a0622909525f69cf64fd374c8512a8fa9bb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae2d73dce5bba34f92c8df59cd9730ef1e25b57b9757039d9bda5c2e4432d734
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051409"
 ---
 # <a name="step-4-add-the-video-renderer"></a>Étape 4 : ajouter le convertisseur vidéo
 
-Cette rubrique est l’étape 4 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). Le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
+Cette rubrique est l’étape 4 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
 
 DirectShow fournit plusieurs filtres différents qui restituent la vidéo :
 
@@ -465,10 +465,10 @@ done:
 
 <dl> <dt>
 
-[Exemple de lecture DirectShow](directshow-playback-example.md)
+[DirectShow Exemple de lecture](directshow-playback-example.md)
 </dt> <dt>
 
-[Utilisation du filtre DirectShow EVR](../medfound/using-the-directshow-evr-filter.md)
+[utilisation du filtre EVR DirectShow](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [Utilisation du convertisseur de mixage vidéo](using-the-video-mixing-renderer.md)

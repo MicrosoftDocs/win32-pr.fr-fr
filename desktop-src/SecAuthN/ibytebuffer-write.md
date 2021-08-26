@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: b5f9b60a296041a18fbd850f1405088f5b0da2ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0033d4f4ee03629d2bedf9f232a43607100bcdca8bfaab457c2236bbfad603d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127349"
 ---
 # <a name="ibytebufferwrite-method"></a>IByteBuffer :: Write, méthode
 
-\[La méthode **Write** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
+\[La méthode **Write** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’interface [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) offre des fonctionnalités similaires.\]
 
 La méthode **Write** écrit un nombre spécifié d’octets dans l’objet de flux, en commençant au pointeur de recherche actuel.
 
@@ -68,7 +68,7 @@ Adresse d’une variable de **type long** où cette méthode écrit le nombre r�
 
 La valeur de retour est un **HRESULT**. La valeur S \_ OK indique que l’appel a réussi.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **IByteBuffer :: Write** écrit les données spécifiées dans un objet de flux. Le pointeur de recherche est ajusté pour le nombre d’octets réellement écrits. Le nombre d’octets réellement écrits est retourné dans le paramètre *pcbWritten* . Si le nombre d’octets est de zéro octet, l’opération d’écriture n’a aucun effet.
 
@@ -106,8 +106,8 @@ if (FAILED(hr))
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardssp. h</dt> </dl>   |

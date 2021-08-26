@@ -4,12 +4,12 @@ description: Découvrez comment implémenter la prise en charge de la protection
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cff84c24aeb475b83146f2c56e9e139fd930eac27656349c594f05d91c1036fb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 00860057baeedbfdbae1939ab402db6f28fd74bd
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118273313"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812390"
 ---
 # <a name="implementing-nap-support-for-eap-methods"></a>Implémentation de la prise en charge NAP pour les méthodes EAP
 
@@ -36,7 +36,7 @@ Pour obtenir des informations sur l’API EAPHost, reportez-vous aux rubriques s
 
 -   [**\_type d’attribut EAP \_**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type)
 -   [**\_erreur EAP**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_error)
--   [Forum aux questions sur le demandeur EAPHost](eaphost-supplicant-frequently-asked-questions.md)
+-   [Forum aux questions sur le demandeur EAPHost](eaphost-supplicant-frequently-asked-questions.yml)
 -   [**Propriétés de la méthode EAP**](eap-method-properties.md)
 -   [**EapHostPeerBeginSession**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession)
 -   [**Constantes d’informations et d’erreurs liées à EAP**](eap-related-error-and-information-constants.md)

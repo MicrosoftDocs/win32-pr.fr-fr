@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1075f2a14c58b085b73f2e4283458286c118a7ae
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e4bef01168eb7bad9a1ffc8e5e8555ecd5e8804893269723c8dba72a066b3c50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079279"
 ---
 # <a name="ctransinplacefiltergetpin-method"></a>Méthode CTransInPlaceFilter. GetPin
 
@@ -49,11 +49,11 @@ Numéro du code confidentiel spécifié, indexé à partir de zéro. Sur ce filt
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne un pointeur vers l’objet [**CBasePin**](cbasepin.md) qui implémente le code confidentiel, ou **null** si la méthode échoue.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CTransformFilter :: GetPin**](ctransformfilter-getpin.md) . La première fois que la méthode est appelée, elle crée les deux broches.
 
@@ -67,7 +67,7 @@ Si le filtre utilise les codes confidentiels par défaut [**CTransInPlaceInputPi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

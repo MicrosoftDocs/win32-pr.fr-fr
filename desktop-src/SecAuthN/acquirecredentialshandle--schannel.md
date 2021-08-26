@@ -4,12 +4,12 @@ ms.assetid: 0f006670-a1e5-47ed-baf5-ed55bd42b468
 title: AcquireCredentialsHandle (SChannel), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 5b7de49e76cf5b09611790a12826f1a13fc38e62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2fb9812817e27576667f7fa0ff5312eea8cea41743cbfc9e5b03267f837011f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101439"
 ---
 # <a name="acquirecredentialshandle-schannel-function"></a>AcquireCredentialsHandle (SChannel) (fonction)
 
@@ -153,11 +153,11 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcquireCredentialsHandle (SChannel)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par une [*délégation restreinte*](../secgloss/s-gly.md)spécifique. Il peut s’agir du descripteur des informations d’identification préexistantes, ou la fonction peut créer un nouvel ensemble d’informations d’identification et la retourner. Ce handle peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (SChannel)**](acceptsecuritycontext--schannel.md) et [**InitializeSecurityContext (SChannel)**](initializesecuritycontext--schannel.md) .
 
-En général, **AcquireCredentialsHandle (SChannel)** ne permet pas à un processus d’obtenir un descripteur des informations d’identification d’autres utilisateurs ayant ouvert une session sur le même ordinateur. Toutefois, un appelant avec \_ \_ le [*privilège*](../secgloss/s-gly.md) se TCB nom a la possibilité de spécifier l' [*identificateur de connexion*](../secgloss/l-gly.md) (LUID) d’un jeton de session de connexion existant pour obtenir un descripteur des informations d’identification de cette session. En général, il est utilisé par les modules en mode noyau qui doivent agir pour le compte d’un utilisateur connecté.
+En général, **AcquireCredentialsHandle (SChannel)** ne permet pas à un processus d’obtenir un descripteur des informations d’identification d’autres utilisateurs ayant ouvert une session sur le même ordinateur. toutefois, un appelant avec SE \_ \_ [*privilège*](../secgloss/s-gly.md) nom TCB a la possibilité de spécifier l' [*identificateur de connexion*](../secgloss/l-gly.md) (LUID) d’un jeton de session de connexion existant pour obtenir un descripteur des informations d’identification de cette session. En général, il est utilisé par les modules en mode noyau qui doivent agir pour le compte d’un utilisateur connecté.
 
 Un package peut appeler la fonction dans *pGetKeyFn* fournie par le transport d’exécution RPC. Si le transport ne prend pas en charge la notion de rappel pour récupérer les informations d’identification, ce paramètre doit avoir la **valeur null**.
 
@@ -174,8 +174,8 @@ Lorsque vous avez terminé d’utiliser les informations d’identification reto
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                   |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

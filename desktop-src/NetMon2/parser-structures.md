@@ -4,12 +4,12 @@ ms.assetid: ce45a8ef-4355-46fd-909e-3ab4d63a3bf1
 title: Structures de l’analyseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59a9b767974214472f24ea9e1ec9359c97d26fc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0d54e02e26e9874f27f49312a84b4b643cc4b3bfdb0c6056f274e4febecf0ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082529"
 ---
 # <a name="parser-structures"></a>Structures de l’analyseur
 
@@ -35,7 +35,7 @@ Cette section décrit les structures que vous pouvez utiliser pour développer d
 | [PROPERTYINST](propertyinst.md)          | Spécifie une instance d’une propriété dans un frame.                                                                                 |
 | [PROPERTYINSTEX](propertyinstex.md)      | Spécifie une instance de propriété étendue et de forme libre.                                                                              |
 | [PROTOCOLINFO](protocolinfo.md)          | Spécifie un protocole.                                                                                                           |
-| [RANGE](range.md)                        | Spécifie une plage pour un nombre.                                                                                                 |
+| [VONT](range.md)                        | Spécifie une plage pour un nombre.                                                                                                 |
 | [SET](set.md)                            | Spécifie une table de valeurs pour une propriété.                                                                                     |
 
 
