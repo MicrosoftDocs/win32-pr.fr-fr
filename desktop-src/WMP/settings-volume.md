@@ -1,9 +1,9 @@
 ---
-title: Settings. volume
+title: Paramètres. volume
 description: La propriété volume spécifie ou récupère le volume actuel.
 ms.assetid: 60143eff-3a34-43eb-a86d-641c2a5cfc01
 keywords:
-- Settings. volume lecteur Windows Media
+- Lecteur Windows Media Paramètres. volume
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0f5ec4299bf33ed16143eec8570b65c548599e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c02952426a78323421fd779b253136c1777d509141d51b590b9db40c4d077a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002209"
 ---
-# <a name="settingsvolume"></a>Settings. volume
+# <a name="settingsvolume"></a>Paramètres. volume
 
 La propriété **volume** spécifie ou récupère le volume actuel.
 
@@ -33,7 +33,7 @@ Player. Settings. volume
 
 Cette propriété est un **nombre** en lecture/écriture (**long**) compris entre 0 et 100.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Zéro spécifie aucun volume et 100 spécifie le volume complet. Si aucune valeur n’est spécifiée pour cette propriété, le dernier paramètre de volume défini pour le lecteur est utilisé par défaut.
 
@@ -52,7 +52,7 @@ Zéro spécifie aucun volume et 100 spécifie le volume complet. Si aucune valeu
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

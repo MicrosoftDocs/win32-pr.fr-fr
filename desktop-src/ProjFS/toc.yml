@@ -1,4 +1,4 @@
-- name: Système de fichiers projeté de Windows
+- name: Windows Système de fichiers projeté
   href: projected-file-system.md
   items:
     - name: Guide de programmation du système de fichiers projeté
@@ -8,7 +8,7 @@
           href: provider-overview.md
         - name: État du cache dans la racine de virtualisation
           href: cache-state.md
-        - name: Activation du système de fichiers projetés Windows
+        - name: activation d’Windows système de fichiers projeté
           href: enabling-windows-projected-file-system.md
         - name: Cycle de vie des instances de virtualisation
           href: virtualization-instance-lifecycle.md

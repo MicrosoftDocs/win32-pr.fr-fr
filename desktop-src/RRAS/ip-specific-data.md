@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a3ed319f7cf42295bf918ed3ec67f5d59fe5d80
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 906ae9f2accb3d380227f08ad6b65642b96ce6bfa928591bd11a69c478f531b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036669"
 ---
 # <a name="ip_specific_data-structure"></a>\_Structure de données spécifique à IP \_
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La structure de **\_ données spécifique à l’adresse IP** contient des données spécifiques à IP.
 
@@ -143,7 +143,7 @@ Spécifie si l’itinéraire est valide. Le protocole de routage doit d’abord 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gestionnaire de tables de routage utilise les membres **de \_ métriques** **FSD \_** et FSD pour calculer le meilleur itinéraire vers un réseau de destination particulier.
 

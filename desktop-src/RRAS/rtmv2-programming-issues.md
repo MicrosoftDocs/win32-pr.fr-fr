@@ -6,12 +6,12 @@ keywords:
 - Problèmes de programmation, RTMv2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b607adc939ff72a4d9fee99c15f6aa5192fa4c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 584568fc3c4e7a46a2a2114781b81465d893b80978471aa3149d93d38f0c8c5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035589"
 ---
 # <a name="rtmv2-programming-issues"></a>Problèmes de programmation RTMv2
 
@@ -21,9 +21,9 @@ Les fonctions RTMv2 sont écrites avec les hypothèses suivantes.
 -   Lors de l’annulation de l’inscription d’un client, celui-ci doit effectuer des opérations de nettoyage, telles que la libération de la mémoire allouée.
 -   Les clients doivent libérer correctement les handles. des fuites de mémoire peuvent se produire si un client ne respecte pas cette pratique.
 
- 
+ 
 
- 
+ 
 
 
 

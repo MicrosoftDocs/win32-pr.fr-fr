@@ -13,12 +13,12 @@ keywords:
 - polygones complexes OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 475076f6372042d61c1662b445b7573709134c65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 948e0669348404af763883f7ff713212d52f6f0d79312812552c0e5053041627
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034511"
 ---
 # <a name="tessellating-polygons"></a>Polygones le pavage
 
@@ -44,9 +44,9 @@ Pour afficher des polygones simples ou des polygones simples contenant des trous
 
 Pour plus d’informations sur l’enregistrement des données de pavage, consultez [utilisation des fonctions de rappel](using-callback-functions.md).
 
- 
+ 
 
- 
+ 
 
 
 

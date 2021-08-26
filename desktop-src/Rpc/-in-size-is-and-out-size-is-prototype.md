@@ -4,12 +4,12 @@ description: Le prototype de fonction suivant utilise deux chaînes comptées. L
 ms.assetid: 334c5e0f-b1fb-41ca-8157-d92525e78b3a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d03dbb4dd65d44122bea7ff086013295e0bf616d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 75075ccabe4a29ca1765a189c371c407c791cb868d2980386488879415e8f60d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073629"
 ---
 # <a name="in-size_is-and-out-size_is-prototype"></a>\[dans, la taille \_ est \] et \[ sortante, la taille \_ est un \] prototype
 
@@ -54,6 +54,6 @@ void Analyze(char *pchIn,
 
 L' \[ attribut de **chaîne** \] peut être utilisé lorsqu’un paramètre est considéré comme une chaîne. Cet attribut indique au stub de calculer la taille de la chaîne, ce qui élimine la surcharge associée à la \[ [**longueur**](/windows/desktop/Midl/size-is) des \] paramètres. En outre, il dirige le stub pour vérifier que la chaîne se termine par **null** avant de passer le paramètre à l’application.
 
- 
+ 
 
- 
+ 

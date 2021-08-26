@@ -4,12 +4,12 @@ ms.assetid: 7b24e3c3-bc69-488b-a698-cf17875bc3c5
 title: Message LINE_CALLSTATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4159037c448307c99e759d8741ed19a14ab2562f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90d82dfb5f0d5e306085ecd2d7f29270d19c2c9c101e30ac547fe246b7e6fddb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012569"
 ---
 # <a name="line_callstate-message"></a>\_Message CALLSTATE de ligne
 
@@ -89,7 +89,7 @@ Si la valeur est différente de zéro, elle spécifie le privilège de l’appli
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message est envoyé à toute application qui a un handle pour l’appel. Le message de **ligne \_ CALLSTATE** avertit également les applications qui surveillent les appels sur une ligne de l’existence et de l’état des appels sortants établis par d’autres applications ou manuellement par l’utilisateur (par exemple, sur un appareil téléphonique attaché). L’état d’appel de ces appels reflète l’état réel de l’appel, qui n' *offre* pas. En examinant l’état de l’appel, l’application peut déterminer si l’appel est un appel entrant qui doit être traité ou non.
 

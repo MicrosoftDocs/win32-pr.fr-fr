@@ -4,12 +4,12 @@ ms.assetid: 78834f92-00cb-4899-851a-1de5e3c1f4fa
 title: Dessin d’un triangle ombré
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3200a1ec061d7513cbac56c8c66104154005cef9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1b6742f8ff6a3e2d543592e86cac87489048ca4d9748dc4e111cd4613b2f207
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062409"
 ---
 # <a name="drawing-a-shaded-triangle"></a>Dessin d’un triangle ombré
 

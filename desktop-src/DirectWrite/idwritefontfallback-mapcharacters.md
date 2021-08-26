@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 428778afc12c668d284dffb5a8a6f734c03f0705
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 99f18932121d44f61d67c8124faa2d26638035bdcff473ad26c4222ceea9a85b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048789"
 ---
 # <a name="idwritefontfallbackmapcharacters-method"></a>IDWriteFontFallback :: MapCharacters, méthode
 
@@ -55,13 +55,13 @@ HRESULT MapCharacters(
 *source* 
 </dt> <dd>
 
-Tapez : **[**IDWriteTextAnalysisSource**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource) \** _
+Type : **[ **IDWriteTextAnalysisSource**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalysissource)\***
 
 L’implémentation de la source de texte contient le texte et les paramètres régionaux.
 
 </dd> <dt>
 
-_textPosition * 
+*textPosition* 
 </dt> <dd>
 
 Type : **UInt32**
@@ -82,22 +82,22 @@ Longueur du texte à analyser.
 *baseFontCollection* \[ dans, facultatif\]
 </dt> <dd>
 
-Tapez : **[**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) \** _
+Type : **[ **IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection)\***
 
 Collection de polices par défaut à utiliser.
 
 </dd> <dt>
 
-_baseFamilyName * \[ in, facultatif\]
+*baseFamilyName* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : **const WCHAR \_ t \** _
+Type : **const WCHAR \_ t \***
 
 Nom de famille de la police de base. Si vous transmettez la valeur null, aucune correspondance n’est effectuée par rapport à la famille.
 
 </dd> <dt>
 
-_baseWeight * 
+*baseWeight* 
 </dt> <dd>
 
 Type : épaisseur de la **[ **\_ police \_ DWRITE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)**
@@ -127,13 +127,13 @@ Type : **[ **\_ \_ étirement de police DWRITE**](/windows/win32/api/dwrite/ne-
 *mappedLength* \[ à\]
 </dt> <dd>
 
-Type : **UInt32 \** _
+Type : **UInt32 \***
 
 Longueur du texte mappé à la police mappée. Cela sera toujours inférieur ou égal à la longueur du texte et supérieur à zéro (si la longueur du texte est différente de zéro), de sorte que l’appelant avance au moins un caractère.
 
 </dd> <dt>
 
-_mappedFont * \[ out\]
+*mappedFont* \[ à\]
 </dt> <dd>
 
 Type : **[ **IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont)\*\***
@@ -145,7 +145,7 @@ Police qui doit être utilisée pour afficher les premiers caractères *mappedLe
 mise à l' *échelle* \[ à\]
 </dt> <dd>
 
-Type : **float \** _
+Type : **float \***
 
 Facteur d’échelle pour multiplier la taille em de la police retournée par.
 
@@ -153,7 +153,7 @@ Facteur d’échelle pour multiplier la taille em de la police retournée par.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -164,7 +164,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                 |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 | Bibliothèque<br/>                  | <dl> <dt>DWrite. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 660d48219c3d93e9b3188926dd6f5bc2ddf9db45a9310b3bf8716cb2e960e895
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989619"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>D3DXVec3ProjectArray, fonction (D3DX10Math. h)
 
@@ -128,13 +128,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le tableau projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec3ProjectArray peut être utilisée comme paramètre pour une autre fonction.
 

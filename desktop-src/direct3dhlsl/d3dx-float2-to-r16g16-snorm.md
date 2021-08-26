@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba63d7d7f03988e416d06b645e5c15163e431a7e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d9ad7d4ff95113d4d684cba7cc348c2d60a536e12171afa6ad421724a668e63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024999"
 ---
 # <a name="d3dx_float2_to_r16g16_snorm-function"></a>D3DX \_ FLOAT2 \_ à \_ R16G16 \_ ronfler, fonction
 
@@ -48,7 +48,7 @@ Données de nuanceur décompressées.
 
 Données de nuanceur compressées.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

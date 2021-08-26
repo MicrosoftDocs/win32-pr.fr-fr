@@ -4,12 +4,12 @@ description: Le côté serveur d’une application qui utilise des handles autom
 ms.assetid: d15fd8da-3afd-4031-95d1-b76a0ad9a20d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45955ac7228018d8ddebbc7c156031648091b6f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1f81ec4b494c9ce2abd18031e3bf0ed3dd25d55908238ebc7bba96bce57e88f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073599"
 ---
 # <a name="advertising-server-interfaces"></a>Interfaces de serveur de publicité
 
@@ -67,13 +67,13 @@ La fonction [**RpcNsBindingUnexport**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpc
 
 Pour plus d’informations sur le contenu et le format de la base de données de service de noms, consultez [la base de données du service de noms RPC](the-rpc-name-service-database.md).
 
-Les applications peuvent utiliser le service Active Directory si les programmes client et serveur s’exécutent sous Windows 2000. Les ordinateurs qui exécutent les programmes client et serveur doivent tous deux être membres d’un domaine Windows 2000.
+les Applications peuvent utiliser le service Active Directory si les programmes client et serveur s’exécutent sous Windows 2000. les ordinateurs qui exécutent les programmes client et serveur doivent tous deux être membres d’un domaine Windows 2000.
 
 Pour annoncer sa présence à l’aide du service Active Directory, le programme serveur doit s’exécuter dans le contexte de sécurité d’un administrateur de domaine. S’il s’exécute dans le contexte des utilisateurs du domaine, un administrateur de domaine doit modifier la liste de contrôle d’accès (ACL) sur le conteneur des services RPC. Pour plus d’informations, consultez la documentation Active Directory.
 
- 
+ 
 
- 
+ 
 
 
 

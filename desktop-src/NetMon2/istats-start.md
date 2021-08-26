@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 494ec12a0bb9c5c312f34e9cc53e82bfcbe155f90c38b98b2ba807e9c87b6945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037149"
 ---
 # <a name="istatsstart-method"></a>IStats :: Start, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -50,14 +50,14 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR \_ suspendue**</dt> </dl>  | La capture a été suspendue et doit être arrêtée avant de pouvoir être redémarrée. Appelez la méthode [IStats :: Stop](istats-stop.md) pour arrêter la capture.<br/> |
 | <dl> <dt>**\_capture NMERR**</dt> </dl>        | La capture a déjà démarré.<br/>                                                                                                            |
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. Appelez la méthode [IStats :: Connect](istats-connect.md) pour connecter le NPP au réseau.<br/>           |
-| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | Le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connect](istats-connect.md) .<br/>                                          |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau. appelez la méthode [IStats :: Connecter](istats-connect.md) pour connecter le NPP au réseau.<br/>           |
+| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | le NPP est connecté au réseau, mais pas avec la méthode [IStats :: Connecter](istats-connect.md) .<br/>                                          |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Lors du redémarrage de la capture à l’aide des méthodes IStats :: Start et [IStats :: Stop](istats-stop.md) , vous devez appeler la méthode [IStats :: configure](istats-configure.md) pour reconfigurer la connexion chaque fois que vous appelez IStats :: Start pour redémarrer la capture de données.
 
@@ -89,7 +89,7 @@ Lors du redémarrage de la capture à l’aide des méthodes IStats :: Start et
 [IStats :: configure](istats-configure.md)
 </dt> <dt>
 
-[IStats :: Connect](istats-connect.md)
+[IStats :: Connecter](istats-connect.md)
 </dt> <dt>
 
 [IStats ::P ause](istats-pause.md)

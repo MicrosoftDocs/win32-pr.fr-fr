@@ -5,12 +5,12 @@ ms.assetid: c7acbedb-3bf2-4519-ab11-a50bf071e757
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a06db01da6d9413684e3197aa9758d6e5c04643f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5bc598042530ab59c0c8932522185ce5a9d0d3dce04cabce44239c3c81b79d59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106544145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988849"
 ---
 # <a name="multiple-user-guidelines"></a>Instructions pour plusieurs utilisateurs
 
@@ -52,9 +52,9 @@ Comme toujours, verrouillez les fichiers et les bases de données tout en apport
 
 Votre application ne doit pas verrouiller les fichiers d’application d’exécution qui ne sont pas des fichiers par utilisateur. Les fichiers d’exécution verrouillés peuvent empêcher l’exécution de plusieurs instances de l’application, ou des processus sous l’application, tels que les assistants. Un bon moyen de tester les fichiers qui sont des fichiers d’application au moment de l’exécution consiste à effectuer le suivi des fichiers qui sont installés par le programme d’installation de l’application. Les fichiers par utilisateur sont rarement installés par le programme d’installation de. par conséquent, la plupart des fichiers installés par le programme d’installation sont des fichiers d’application au moment de l’exécution.
 
- 
+ 
 
- 
+ 
 
 
 

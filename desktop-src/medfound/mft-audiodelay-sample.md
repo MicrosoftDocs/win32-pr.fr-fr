@@ -4,12 +4,12 @@ ms.assetid: 08f119f9-cacd-4000-96b6-60c8c0055e9c
 title: Exemple de MFT_AudioDelay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39d382ce7d1c5e9475bef85f11ef9754345e123b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea4af3d89c7dda4a67a2fece09ff9e6d3bc0a63927e94b259df40334fd9ba29b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012669"
 ---
 # <a name="mft_audiodelay-sample"></a>\_Exemple AUDIODELAY MFT
 
@@ -21,7 +21,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L' \_ exemple AUDIODELAY MFT génère une dll qui est un serveur com pour la MFT. Avant d’utiliser la MFT, vous devez inscrire la DLL. Vous pouvez utiliser l’outil TopoEdit pour créer une topologie qui comprend la MFT de délai audio. Pour plus d’informations sur TopoEdit, consultez [TopoEdit](topoedit.md). Vous pouvez également modifier l' [exemple PlaybackFX](/previous-versions//bb970336(v=vs.85)) pour utiliser la table MFT. Vous devrez modifier la fonction AddBranchToPartialTopology dans Player. cpp. Modifiez la ligne suivante à partir de :
 
@@ -57,7 +57,7 @@ La valeur CLSID \_ DelayMFT est déclarée dans le fichier d’en-tête AudioDel
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_audiodelay).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/mft_audiodelay).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

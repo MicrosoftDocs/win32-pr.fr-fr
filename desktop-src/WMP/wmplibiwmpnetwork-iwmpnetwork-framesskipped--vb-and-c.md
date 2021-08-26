@@ -3,9 +3,9 @@ title: IWMPNetwork propriété framesSkipped
 description: La propriété framesSkipped obtient le nombre total de trames ignorées lors de la lecture.
 ms.assetid: eedecfa9-0c82-4800-979e-ca85fb78c480
 keywords:
-- propriété framesSkipped lecteur Windows Media
-- propriété framesSkipped lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété framesSkipped
+- Lecteur Windows Media de la propriété framesSkipped
+- Lecteur Windows Media de la propriété framesSkipped, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété framesSkipped
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8409cec50089111184f96e4463f57cc9c4fbae07
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3640ff73eeadd1bf59eecc29045b0434f0885b7dc1eef319d6e6ee040442abdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999979"
 ---
 # <a name="iwmpnetworkframesskipped-property"></a>IWMPNetwork :: framesSkipped, propriété
 

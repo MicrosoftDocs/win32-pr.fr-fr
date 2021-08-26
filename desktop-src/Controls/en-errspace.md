@@ -3,7 +3,7 @@ title: EN_ERRSPACE le code de notification (winuser. h)
 description: Envoyé lorsqu’un contrôle d’édition ne peut pas allouer suffisamment de mémoire pour répondre à une demande spécifique. La fenêtre parente du contrôle d’édition reçoit ce code de notification par le biais d’un \_ message de commande WM.
 ms.assetid: 23a6eb10-a9d7-4fd5-9176-407c35e6f492
 keywords:
-- Contrôles Windows de code de notification EN_ERRSPACE
+- EN_ERRSPACE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05b100811741ee5c5f6bf53eb49ff05b118de3c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 548270e6382befa8a202a94c625f8cea214025d41661305f290250d66a771cbe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047769"
 ---
 # <a name="en_errspace-notification-code"></a>\_Code de notification en ERRSPACE
 
@@ -53,7 +53,7 @@ Handle du contrôle d’édition.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre parente reçoit toujours un message de [**\_ commande WM**](/windows/desktop/menurc/wm-command) pour cet événement ; elle ne nécessite pas de masque de notification envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -65,8 +65,8 @@ La fenêtre parente reçoit toujours un message de [**\_ commande WM**](/windows
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

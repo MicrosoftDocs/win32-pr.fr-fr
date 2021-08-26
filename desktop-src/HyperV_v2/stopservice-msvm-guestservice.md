@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6c396078e2bd623a768f391a645091679694f453
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f67234a09ad150f2f039a57b321797e03444c75defe2e83cfd06b60de320a664
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050389"
 ---
 # <a name="msvm_guestservicestopservice-method"></a>MSVM \_ GuestService :: StopService, méthode
 
@@ -45,7 +45,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Code/valeur de retour                                                                                                                                             | Description         |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl> | Opération réussie.<br/> |
+| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl> | Réussite.<br/> |
 | <dl> <dt>**Non pris en charge**</dt> <dt>1</dt> </dl>           |                     |
 
 
@@ -59,7 +59,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\\\\\Virtualisation racine \\ v2<br/>                                                                 |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

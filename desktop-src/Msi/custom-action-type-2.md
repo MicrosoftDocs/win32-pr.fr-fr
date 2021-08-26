@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 2 lorsque les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser un type d’action personnalisé 2 lorsque les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 79ae0582-c991-4c0a-860b-0f5197ad0c7c
 title: Type d’action personnalisé 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0497b2a76dc2fac7f5e56f7347b50deac867757f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba648578ecdd9d300a5cf15793e3abd9407f78853830f49c16a26db184ff3683
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996849"
 ---
 # <a name="custom-action-type-2"></a>Type d’action personnalisé 2
 
@@ -55,7 +55,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la table Cus
 
 Les actions personnalisées qui sont des [fichiers exécutables](executable-files.md) doivent retourner la valeur 0 en cas de réussite. Le programme d’installation interprète toute autre valeur de retour comme un échec. Pour ignorer les valeurs de retour, définissez l’indicateur de bit **msidbCustomActionTypeContinue** dans le champ type de la table CustomAction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une action personnalisée qui lance un exécutable prend une ligne de commande, qui contient généralement des propriétés qui sont désignées dynamiquement. S’il s’agit également d’une [action personnalisée d’exécution différée](deferred-execution-custom-actions.md), le programme d’installation utilise [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) ou [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) pour créer le processus lorsque l’action personnalisée est appelée à partir du script d’installation.
 

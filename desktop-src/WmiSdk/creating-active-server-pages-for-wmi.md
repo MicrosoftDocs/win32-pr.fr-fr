@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 52143284be54868d36b55a6dd86e0b49c82d863d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee7b31a5f4874e0ae4431ac452ea604da9c154bbb78e8debb91aad7ea892fa09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030609"
 ---
 # <a name="creating-active-server-pages-for-wmi"></a>Création de pages de Active Server pour WMI
 
-Les pages ASP (Microsoft Active Server Pages) peuvent créer des pages Web dynamiques en incluant des scripts côté serveur et côté client. Les pages ASP peuvent être beaucoup plus rapides que les pages HTML du client, car la majeure partie du travail est effectuée sur le serveur. Vous pouvez également utiliser des pages ASP pour afficher des informations sur les ordinateurs distants sur d’autres ordinateurs sur lesquels Windows Management Instrumentation (WMI) n’est pas installé.
+Les pages ASP (Microsoft Active Server Pages) peuvent créer des pages Web dynamiques en incluant des scripts côté serveur et côté client. Les pages ASP peuvent être beaucoup plus rapides que les pages HTML du client, car la majeure partie du travail est effectuée sur le serveur. vous pouvez également utiliser des pages ASP pour afficher des informations sur les ordinateurs distants sur d’autres ordinateurs sur lesquels Windows Management Instrumentation (WMI) n’est pas installé.
 
 La procédure suivante décrit comment utiliser WMI avec ASP.
 
@@ -29,12 +29,12 @@ La procédure suivante décrit comment utiliser WMI avec ASP.
 
     Les scripts ASP pour WMI peuvent être développés avec plusieurs langages de script, y compris VBScript. Vous pouvez construire la partie script WMI d’une page ASP exactement comme vous construisez tout autre script qui utilise WMI, avec une restriction importante : vous ne pouvez pas utiliser de méthodes WMI asynchrones dans les pages ASP. Notez également que tous les appels à **GetObject** ou **CreateObject** doivent se trouver dans le code côté serveur. Pour plus d’informations, consultez [API de script pour WMI](scripting-api-for-wmi.md).
 
-2.  Configurez la configuration de l’authentification pour Internet Information Services (IIS). Pour plus d’informations, consultez [configuration d’IIS 5 et versions ultérieures pour les scripts ASP WMI](configuring-iis-5-for-wmi-asp-scripting.md).
-3.  Désactivez l’accès anonyme, puis activez l’authentification intégrée de Windows pour le fichier ASP. Vous pouvez configurer ces paramètres pour votre page ASP en utilisant le composant logiciel enfichable IIS situé dans le dossier **Outils d’administration** du **panneau de configuration**.
+2.  configurez la configuration de l’authentification pour Internet Information Services (IIS). Pour plus d’informations, consultez [configuration d’IIS 5 et versions ultérieures pour les scripts ASP WMI](configuring-iis-5-for-wmi-asp-scripting.md).
+3.  désactivez l’accès anonyme, puis activez Windows authentification intégrée pour le fichier ASP. Vous pouvez configurer ces paramètres pour votre page ASP en utilisant le composant logiciel enfichable IIS situé dans le dossier **Outils d’administration** du **panneau de configuration**.
 
 ## <a name="wmi-asp-page-example"></a>Exemple de page ASP WMI
 
-L’exemple suivant utilise Windows Management Instrumentation (WMI) dans une page de Active Server (ASP) pour afficher les paramètres adresse IP et passerelle IP par défaut pour le serveur à partir duquel ce script est exécuté.
+l’exemple suivant utilise Windows Management Instrumentation (WMI) dans une Page de Active Server (ASP) pour afficher les paramètres adresse ip et passerelle ip par défaut pour le serveur à partir duquel ce script est exécuté.
 
 
 ```VB

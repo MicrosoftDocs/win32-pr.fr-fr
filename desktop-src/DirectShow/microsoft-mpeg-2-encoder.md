@@ -4,12 +4,12 @@ ms.assetid: 61e8918b-7f5a-4720-bb3b-df9ac7614894
 title: Encodeur Microsoft MPEG-2 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef5fad3b316db9ac4e47efcb9de761227cdd3279
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91ae7f1bd9cb8233d919689bbeb1eea496760ae1254bae88120776364528243d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051229"
 ---
 # <a name="microsoft-mpeg-2-encoder"></a>Encodeur Microsoft MPEG-2
 
@@ -64,7 +64,7 @@ msmpeg2enc.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre combine la fonctionnalité d’encodage de deux autres filtres :
 
@@ -100,7 +100,7 @@ Le filtre prend en charge les propriétés combinées des filtres d’encodeur [
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, Windows 7 Édition familiale Premium, Windows 7 professionnel, Windows 7 entreprise, applications de bureau Windows 7 édition intégrale \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista Ultimate, Windows 7 Édition Familiale Premium, Windows 7 Professionnel, Windows 7 Entreprise, Windows 7 Édition Intégrale les \[ applications de bureau uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>                                                                                       |
 
@@ -110,7 +110,7 @@ Le filtre prend en charge les propriétés combinées des filtres d’encodeur [
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

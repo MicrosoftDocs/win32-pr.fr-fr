@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bdc33773a31a7c9ddfd7adb0f3fb20f8fcf6d520
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bce69d5f14a522f403eed54b56a340ab02316507766c0cc6d60ff897ec73541
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998509"
 ---
 # <a name="cvideotransformfilterreceive-method"></a>CVideoTransformFilter. Receive, méthode
 
@@ -58,13 +58,13 @@ Retourne une valeur **HRESULT** . Il peut prendre les valeurs suivantes :
 | Code de retour                                                                             | Description                                                 |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le filtre amont doit cesser d’envoyer des exemples.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                         |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                         |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle [**CVideoTransformFilter :: ShouldSkipFrame**](cvideotransformfilter-shouldskipframe.md) pour déterminer si elle doit remettre cet exemple ou simplement la supprimer. Si **ShouldSkipFrame** retourne **false** (indiquant que l’exemple doit être remis), la méthode effectue les opérations suivantes :
 
@@ -80,7 +80,7 @@ En outre, cette méthode recherche les modifications de format sur l’exemple d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Vtrans. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Vtrans. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

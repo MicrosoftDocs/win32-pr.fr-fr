@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: be0e7f282978ada28c2dd71dc7c16dd317ddce42
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4c9f3c71ab6308ad921b5cce27f2c078ad980da17daa7c0045228d27ef0579ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024119"
 ---
 # <a name="ps_2_x-registers"></a>\_registres PS 2 \_ x
 
@@ -28,14 +28,14 @@ Les nuanceurs de pixels dépendent des registres pour obtenir des données de ve
 
 | S’inscrire | Nom                                                                                          | Count      | R/W (Lecture/écriture)        | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut                  | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------------------|------------|------------|---------------|---------------|-----------|---------|---------------------------|--------------|
-| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Illimité     | 4         | N       | Partiel (0001). Voir la remarque 4 | Y            |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | Illimité     | 4         | N       | Aucun                      | N            |
+| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | illimitées     | 4         | N       | Partiel (0001). Voir la remarque 4 | O            |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | illimitées     | 4         | N       | Aucun                      | N            |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-ps-registers-constant-float.md)         | 32         | R          | 1             | 2             | 4         | N       | 0000                      | N            |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | Voir la remarque 2 | 1             | 1             | 4         | N       | 0000                      | N            |
 | b\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | Voir la remarque 2 | 1             | 1             | 1         | N       | FALSE                     | N            |
-| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | Aucun                      | Y            |
-| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | Voir la remarque 3 | 1             | 1             | 4         | N       | Voir la remarque 5                | Y            |
-| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | Aucun                      | Y            |
+| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | Aucun                      | O            |
+| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | Voir la remarque 3 | 1             | 1             | 4         | N       | Voir la remarque 5                | O            |
+| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | Aucun                      | O            |
 
 
 
