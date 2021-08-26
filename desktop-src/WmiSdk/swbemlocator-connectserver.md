@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 31c2e6de8cf1504543727cad056a3616a51182d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4153a5761d59c54cf8635202adcca0ddf72603022ebf8dbb5b160231c90e49e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955209"
 ---
 # <a name="swbemlocatorconnectserver-method"></a>Méthode SWbemLocator. ConnectServer
 
 La méthode **ConnectServer** de l’objet [**SWbemLocator**](swbemlocator.md) se connecte à l’espace de noms sur l’ordinateur spécifié dans le paramètre *strServer* . L’ordinateur cible peut être local ou distant, mais WMI doit être installé. Pour obtenir des exemples et une comparaison avec le type de moniker Connection, consultez [création d’un script WMI](creating-a-wmi-script.md).
 
-À compter de Windows Vista, **SWbemLocator. ConnectServer** peut se connecter avec des ordinateurs exécutant IPv6 à l’aide d’une adresse IPv6 dans le paramètre *strServer* . Pour plus d’informations, consultez [prise en charge d’IPv6 et IPv6 dans WMI](ipv6-and-ipv4-support-in-wmi.md).
+à compter de Windows Vista, **SWbemLocator. ConnectServer** peut se connecter avec des ordinateurs exécutant ipv6 à l’aide d’une adresse ipv6 dans le paramètre *strServer* . Pour plus d’informations, consultez [prise en charge d’IPv6 et IPv6 dans WMI](ipv6-and-ipv4-support-in-wmi.md).
 
 Pour une explication de cette syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -228,7 +228,7 @@ Une erreur réseau s’est produite, empêchant le fonctionnement normal.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **ConnectServer** est souvent utilisée lors de la connexion à un compte avec des informations d’identification de nom d’utilisateur et de mot de passe différentes sur un ordinateur distant, car vous ne pouvez pas spécifier un mot de passe différent dans une chaîne de [moniker](constructing-a-moniker-string.md) . Pour plus d’informations, consultez [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md).
 

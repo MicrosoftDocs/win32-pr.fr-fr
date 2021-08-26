@@ -4,12 +4,12 @@ ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: Format de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75413c28f0871db0168e27685de49fd35b682224
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a01ed1ac4501a2d8f081c12fef75baf15aaebd442fc182a116db1038c2a73523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903989"
 ---
 # <a name="stream-format"></a>Format de flux
 

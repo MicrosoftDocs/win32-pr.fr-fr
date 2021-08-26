@@ -20,12 +20,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9394068721920836f61871ca42471469fd4c592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 481aa3e9b6b5b5519bac6e458de1acba90f2cfa20dd0a5babac016d0003c70b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955559"
 ---
 # <a name="privacy-templates"></a>Modèles de confidentialité
 
@@ -132,7 +132,7 @@ Défini par l’utilisateur. Consultez [comment créer un fichier d’importatio
 
 
 
-Défini par l’utilisateur. Les options avancées sont définies dans la boîte de dialogue **paramètres de confidentialité avancés** accessible à partir de l’onglet **confidentialité** dans **Options Internet**.
+Défini par l’utilisateur. les options avancées sont définies dans la boîte de dialogue **Paramètres de confidentialité avancée** accessible à partir de l’onglet **confidentialité** dans **options Internet**.
 
 
 </dt> </dl> </dd> <dt>
@@ -150,10 +150,10 @@ Identique au **modèle de confidentialité \_ \_ faible**.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

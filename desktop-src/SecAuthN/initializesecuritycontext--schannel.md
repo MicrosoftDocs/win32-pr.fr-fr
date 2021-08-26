@@ -4,12 +4,12 @@ ms.assetid: c451089a-d10d-469c-99dd-43d75a6b0b2a
 title: Fonction InitializeSecurityContext (SChannel) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: ac552370727659e43b762d55019132ac1c4ea1e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80accd8e6115fc1e23b2eb265706335b7b670e00e790f6ed8af798428edf7ed9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015879"
 ---
 # <a name="initializesecuritycontext-schannel-function"></a>Fonction InitializeSecurityContext (SChannel)
 
@@ -204,7 +204,7 @@ Si la fonction échoue, la fonction retourne l’un des codes d’erreur suivant
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant est chargé de déterminer si les attributs de contexte finaux sont suffisants. Si, par exemple, la confidentialité a été demandée mais n’a pas pu être établie, certaines applications peuvent choisir d’arrêter immédiatement la connexion.
 
@@ -260,7 +260,7 @@ Une fois qu’une application cliente a reçu un certificat d’authentification
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                |
 | En-tête<br/>                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

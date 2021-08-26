@@ -3,19 +3,19 @@ title: Chaînes de commande multimédia
 description: Chaînes de commande multimédia
 ms.assetid: f8edfdbd-1334-4323-aec5-73c0a56f9b4d
 keywords:
-- Windows Multimedia, chaînes de commande
+- Windows multimédia, chaînes de commande
 - multimédia, chaînes de commande
 - Référence multimédia, chaînes de commande
 - informations de référence sur les chaînes multimédias, de commande
 - chaînes de commande multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae4ec8f9b0efa783028850a6cd03cbc0bed20caf
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 986a1fc9e2a97671b04d8ba8a4a5cd033e176a94f6a8e898b4f899b7a9c707a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038769"
 ---
 # <a name="multimedia-command-strings"></a>Chaînes de commande multimédia
 
@@ -75,6 +75,6 @@ Les chaînes de commande suivantes sont utilisées avec le multimédia.
 [Référence multimédia](multimedia-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

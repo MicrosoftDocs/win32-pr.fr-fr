@@ -4,17 +4,17 @@ description: L’utilisation stratégique des animations et des transitions peut
 ms.assetid: 9e0e9604-f051-47e4-bcd0-59fbfd38b9c1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 546c1d0a59808b54f4ffa12fc7cd034554521ca3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 78517835cfe9d6db0cd092b65f0e586341a6b6badc0cda3e881d765ab55507b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937448"
 ---
 # <a name="animations-and-transitions"></a>Animations et transitions
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 L’utilisation stratégique des animations et des transitions peut rendre votre programme plus facile à comprendre, se sentir plus lisse, plus naturel et de meilleure qualité, et être plus attrayant. Toutefois, l’utilisation gratuite des animations et des transitions peut rendre votre programme plus gênant et même ennuyeux.
 
@@ -22,13 +22,13 @@ Les animations donnent l’apparence d’un mouvement ou d’une modification au
 
 ![figure du pavé numérique avec une clé mise en surbrillance ](images/vis-animations-image1.png)
 
-Microsoft Windows utilise une animation Flash d’arrière-plan pour fournir des commentaires sur l’objet sur lequel l’utilisateur a cliqué.
+Microsoft Windows utilise une animation flash d’arrière-plan pour fournir des commentaires sur l’objet sur lequel l’utilisateur a cliqué.
 
 Les transitions sont des animations utilisées pour tenir les utilisateurs orientés lors des modifications d’état de l’interface utilisateur et des manipulations d’objets, et rendre ces modifications plus lisses au lieu de transférerez. De bonnes transitions ressemblent naturellement, ce qui donne l’illusion que les utilisateurs interagissent avec les objets réels.
 
 ![Capture d’écran montrant trois tailles de gadgets météo.](images/vis-animations-image2.png)
 
-Les gadgets du bureau Windows utilisent des transitions lisses entre leurs États concis et détaillés.
+Windows Les gadgets du Bureau utilisent des transitions lisses entre leurs États concis et détaillés.
 
 En règle générale, les meilleures animations et transitions sont utilisées pour communiquer aux utilisateurs de manière non verbale et pour rendre les changements d’État plus naturels et moins perceptibles. En revanche, la solution la moins efficace est gratuite en ce sens qu’elle ne communique rien ou n’attire pas une attention inutile. Les animations sont mieux utilisées comme forme secondaire de communication. Ils doivent communiquer des informations qui sont utiles, mais pas critiques, et être accessibles, les utilisateurs doivent être en mesure de déterminer des informations équivalentes par d’autres moyens.
 
@@ -89,7 +89,7 @@ L’utilisation d’une animation communique les mêmes informations, mais de fa
 
 ![capture d’écran de tous les programmes en remplaçant par la flèche de retour ](images/vis-animations-image5.png)
 
-Transition du menu Démarrer qui évite d’attirer l’attention.
+une transition menu Démarrer qui évite d’attirer l’attention.
 
 En plus de rendre votre programme plus facile à comprendre et à vous sentir plus lisses, les **animations et les transitions bien conçues sont un excellent moyen d’ajouter la personnalité, le caractère et le style à votre programme.** Ils peuvent améliorer l’expérience de l’utilisateur et l’utiliser en lui donnant un sentiment naturel et réaliste.
 
@@ -125,31 +125,31 @@ Dans cet exemple, l’animation montre qu’une batterie entièrement chargée e
 
 ![capture d’écran des trois aperçus de la fenêtre barre des tâches ](images/vis-animations-image9.png)
 
-La fenêtre de la barre des tâches de Windows 7 Aperçu des morphes pour assurer la continuité lorsque l’utilisateur passe d’un programme à un autre.
+la fenêtre de la barre des tâches Windows 7 affiche un aperçu des morphes pour assurer la continuité lorsque l’utilisateur passe d’un programme à un autre.
 
 -   **Sont réalistes.** Les bonnes animations simulent le comportement et les propriétés physiques réelles d’un objet. Cela permet aux utilisateurs de prédire et de comprendre les résultats de leurs interactions. Vous n’avez pas à modéliser exactement le monde réel, mais si vous utilisez des animations réalistes, vous devez les garder cohérentes avec le monde réel. Les résultats ne doivent jamais être surpris ou confondus par les résultats, en particulier avec les animations utilisées pour la manipulation directe.
 
 ![figure du bouton de la barre des tâches déplacé vers la nouvelle position ](images/vis-animations-image10.png)
 
-Dans cet exemple, l’animation « déplacer hors de la forme » utilisée par la barre des tâches de Windows 7 est plus réaliste qu’un point d’insertion statique.
+dans cet exemple, l’animation « déplacer hors de la forme » utilisée par la barre des tâches Windows 7 est plus réaliste qu’un point d’insertion statique.
 
 -   **Sont authentiques.** Même les objets qui ne se trouvent pas dans le monde réel peuvent sembler naturels en se basant sur le comportement réel d’un objet différent, mais lié. Cette métaphore ne fonctionne que si la relation communique clairement le rôle et le comportement prévus.
 
 ![capture d’écran de l’effet déclenché derrière la fenêtre déplacée ](images/vis-animations-image11.png)
 
-Dans cet exemple, l’animation « Squeegee » de la fenêtre utilisée par Windows 7 semble authentique, car elle est cohérente avec la manière dont les fenêtres vitreuses peuvent se comporter dans le monde réel.
+dans cet exemple, l’animation « squeegee » de la fenêtre utilisée par Windows 7 pense foi, car elle est cohérente avec le comportement des fenêtres en verre dans le monde réel.
 
 -   **Utilisez le mappage naturel.** Les mappages naturels sont physiques ou culturels. Un mappage naturel basé sur la culture peut, par exemple, commencer par le fait que, dans les cultures occidentales, les utilisateurs lisent de gauche à droite. Par conséquent, pour exprimer une séquence horaire d’objets, l’objet central est actuel, les objets à gauche proviennent du passé et les objets à droite sont dans le futur. L’avancement dans le temps est indiqué par un déplacement de gauche à droite.
 
 ![capture d’écran de la barre de progression du lecteur multimédia ](images/vis-animations-image12.png)
 
-Dans cet exemple, le contrôle du lecteur Windows Media a un mappage naturel, car la lecture déplace la position de gauche à droite.
+dans cet exemple, le contrôle Lecteur Windows Media a un mappage naturel, car la fonction play déplace la position de gauche à droite.
 
 -   **Avoir la personnalité.** Les animations bien choisies sont des méthodes intéressantes pour ajouter la personnalité, le caractère et le style à votre programme. Ils peuvent rendre l’expérience utilisateur plus immersive et plus attrayante. Tandis que le type d’animation détermine ce qu’elle communique, le mode spécifique dans lequel l’animation est exécutée montre la personnalité du programme. Les bonnes animations constituent la bonne personnalité pour votre programme, qu’il s’agisse de graves ou de saugrenu, ou entre les deux.
 
 ![capture d’écran de l’interface Zune conçue de façon créative ](images/vis-animations-image13.png)
 
-Dans cet exemple, l’utilisation par Zune du texte animé et de la perspective dynamique forme sa personnalité.
+dans cet exemple, Zune utilisation du texte animé et de la perspective dynamique permet de mettre en forme sa personnalité.
 
 -   **Apparence et convivialité.** Les bonnes animations ne nuisent pas à la productivité de l’utilisateur en bloquant les utilisateurs des autres interactions ou en forçant les utilisateurs à les regarder. Quelle que soit la nature de l’animation naturelle et de l’implication des animations de votre programme, personne ne souhaite en attendre exclusivement. Les bonnes animations semblent également réactives sans être transférerezes en ayant un démarrage rapide avec un atterrissage à chaud. Les animations réactives tirent également parti de la communication rapide avec leur objectif. Les utilisateurs ne doivent pas avoir à regarder une animation pendant une longue période juste pour déterminer ce qu’elle fait ou quand elle est terminée. Pour une manipulation directe, les animations réactives sont essentielles pour maintenir un sentiment direct et attrayant. Pour faire en sorte que les points de contact d’un objet soient directs, le pointeur doit rester correctement sous le pointeur tout au long de la manipulation. Tout décalage, réponse hachée ou perte de contact détruit la perception de la manipulation directe.
 
@@ -161,13 +161,13 @@ Dans cet exemple, la transition de panoramique tactile semble réactive en garda
 
 ![capture d’écran de la surbrillance des noms de fichiers ](images/vis-animations-image15.png)
 
-Dans cet exemple, la recherche Windows attire temporairement l’attention sur les mots de recherche correspondants, puis diminue.
+dans cet exemple, Windows recherche de manière temporaire attire l’attention sur les mots de recherche correspondants, puis diminue.
 
 -   **Recherchez spécial uniquement si authentique.** La fréquence augmente la nécessité d’une subtilité. les interactions courantes nécessitent donc des animations simples qui communiquent une idée simple de manière simple. Réservez des animations spéciales et complexes pour des expériences spéciales et peu fréquentes.
 
 ![la capture d’écran des quatre cercles devient le logo Windows ](images/vis-animations-image16.png)
 
-Dans cet exemple, Windows utilise une animation d’attention au démarrage pour rendre l’expérience plus spéciale, mais une telle animation serait inappropriée ailleurs.
+dans cet exemple, Windows utilise une animation d’attention au démarrage pour rendre l’expérience plus spéciale, mais une telle animation serait inappropriée ailleurs.
 
 Vous savez que vous avez atteint le bon équilibre lorsque l’expérience globale est détériorée si l’un de ces attributs a été supprimé.
 
@@ -181,7 +181,7 @@ Un vocabulaire approprié affecte les animations qui modélisent le comportement
 
 ![capture d’écran de l’éclat du logo Windows ](images/vis-animations-image17.png)
 
-Alors que le menu Démarrer n’est pas un objet réel, son effet de survol s’illumine comme un objet réel.
+tandis que le menu Démarrer n’est pas un objet réel, son effet de survol s’illumine comme un objet réel.
 
 Chaque animation dans un vocabulaire doit être clairement distincte. Les animations doivent avoir des comportements similaires uniquement si leurs actions associées sont liées de manière similaire. Par exemple, les transitions de mouvement suggèrent la navigation. vous pouvez donc utiliser des transitions de mouvement à partir de différentes directions pour indiquer les différents types de navigation.
 
@@ -189,7 +189,7 @@ Vous saurez que vos animations et transitions ne communiquent pas correctement l
 
 Dans l’idéal, votre vocabulaire d’animation doit être complet dans toutes les zones de votre programme qui en ont besoin. Si seules quelques interactions ont des animations naturelles, cela attire l’attention sur ceux qui ne le sont pas.
 
-Pour en savoir plus sur le vocabulaire Windows animation, consultez la section [modèles d’utilisation](#usage-patterns) de cet article.
+pour en savoir plus sur le vocabulaire d’animation Windows, consultez la section [modèles d’utilisation](#usage-patterns) de cet article.
 
 ### <a name="designing-the-right-personality"></a>Conception de la personnalité appropriée
 
@@ -201,7 +201,7 @@ La personnalité de votre programme doit refléter la nature de ses tâches et l
 -   **Conséquences :** Grave ou mineur.
 -   **Coût :** Gratuit ou acheté ; en cas d’achat, à tarif modéré ou onéreux.
 -   **Focus de l’utilisateur :** Groupe relativement étroit d’utilisateurs cibles, ou public large, général.
--   **Environnement de l’utilisateur :** Professionnel, informel ou familial.
+-   **environnement utilisateur :** Professional, fortuit ou familial.
 -   **Âge de l’utilisateur :** Jeune ou plus ancienne.
 -   **Fréquence d’utilisation :** Fréquentes ou peu fréquentes.
 
@@ -211,7 +211,7 @@ La combinaison de ces facteurs permet de déterminer la personnalité approprié
 
 Naturellement, les applications de productivité doivent se concentrer sur la productivité. Bien qu’il puisse y avoir quelques expériences spéciales, la plupart des autres animations doivent avoir les caractéristiques suivantes :
 
--   Small
+-   Petite
 -   Naturel, réaliste
 -   Discret, subdued
 -   Rapide et efficace
@@ -286,17 +286,17 @@ Une animation peut ne pas nuire aux performances d’une tâche en réalité, ma
 
 ![capture d’écran de la boîte de dialogue Copier avec la barre de progression ](images/vis-animations-image20.png)
 
-Tandis que l’animation dans la boîte de dialogue copie de fichiers de Windows n’endommage pas les performances de copie de fichiers, elle risque de faire croire aux utilisateurs que c’est le cas.
+tandis que l’animation dans la boîte de dialogue de copie de fichiers Windows n’endommage pas les performances de copie de fichiers, elle risque de faire croire aux utilisateurs qu’elle le fait.
 
 **Également risqué :**
 
 ![capture d’écran de la progression affichée dans la barre d’adresses ](images/vis-animations-image21.png)
 
-Dans cet exemple, l’animation de la progression de l’exploration la plus lente dans la barre d’adresse de l’Explorateur Windows rend les tâches très lentes.
+dans cet exemple, l’animation de la progression de la recherche lente dans la barre d’adresse de Windows Explorer rend certaines tâches très lentes.
 
 Les animations et les transitions n’ont aucune valeur si leur qualité est tellement médiocre qu’elles rendent l’expérience moins lisse et moins attrayante. Pour maintenir leur qualité, les animations doivent être conçues pour se dégrader de manière appropriée chaque fois que des ressources système suffisantes ne sont pas disponibles. Les animations peuvent se dégrader en ayant des variations qui nécessitent moins de ressources (par exemple, des longueurs plus courtes ou des taux d’images inférieurs), voire pas du tout. Quelles que soient les ressources disponibles, assurez-vous que les animations ont une qualité élevée et qu’elles ressemblent à des animations au lieu des bogues logiciels.
 
-Enfin, si les utilisateurs pensent que les animations et les transitions de votre programme détournent leur productivité, il y a de bonnes chances que certains utilisateurs puissent les désactiver. Pour prendre en charge cette fonctionnalité, respectez l’option permettant de **désactiver toutes les animations inutiles** trouvées dans la facilité d’accès de Windows.
+Enfin, si les utilisateurs pensent que les animations et les transitions de votre programme détournent leur productivité, il y a de bonnes chances que certains utilisateurs puissent les désactiver. pour prendre en charge cette fonctionnalité, respectez l’option permettant de **désactiver toutes les animations inutiles** trouvées dans la Windows facilité d’accès du centre d’accès.
 
 ### <a name="attracting-the-right-level-of-attention"></a>Attirer le niveau d’attention approprié
 
@@ -326,7 +326,7 @@ La durée appropriée pour attirer l’attention sur l’animation dépend du sc
 
 ![capture d’écran du bouton en surbrillance de la barre des tâches ](images/vis-animations-image22.png)
 
-Dans Windows 7, la barre des tâches clignote uniquement pour une seconde. Tout est plus ennuyeux.
+dans Windows 7, la barre des tâches clignote uniquement pour une seconde. Tout est plus ennuyeux.
 
 **Atténuation des effets**
 
@@ -336,13 +336,13 @@ Pour tirer le meilleur équilibre de attirer l’attention sans l’exiger, dés
 
 ![capture d’écran montrant le taux de clignotement réduit ](images/vis-animations-image23.png)
 
-Dans Windows 7, l’effet flash de la barre des tâches ralentit à la fin.
+dans Windows 7, l’effet flash de la barre des tâches ralentit à la fin.
 
 ### <a name="what-about-powerpoint"></a>Qu’en est-il de PowerPoint ?
 
-Les transitions Microsoft PowerPoint enfreignent souvent délibérément ces instructions, car elles sont conçues pour attirer l’attention sur les transitions de diapositives et obliger les utilisateurs à attendre. En outre, ils n’ont aucune signification particulière afin qu’ils ne communiquent rien au-delà du fait qu’une diapositive change.
+les transitions de Microsoft PowerPoint transgressent souvent délibérément ces instructions, car elles sont conçues pour attirer l’attention sur les transitions de diapositives et obliger les utilisateurs à attendre. En outre, ils n’ont aucune signification particulière afin qu’ils ne communiquent rien au-delà du fait qu’une diapositive change.
 
-Les transitions de style PowerPoint, quand elles sont utilisées correctement, ont les fonctions suivantes :
+les transitions de type PowerPoint, quand elles sont utilisées correctement, ont les fonctions suivantes :
 
 -   Ils décomposent de longues présentations en plus petits segments en forçant le présentateur à s’interrompre.
 -   Ils attirent l’attention du public sur les modifications apportées à la présentation, ce qui permet aux utilisateurs de se concentrer sur les personnes qui se sont demandées.
@@ -351,12 +351,12 @@ Les transitions de style PowerPoint, quand elles sont utilisées correctement, o
 
 Bien qu’il s’agit d’objectifs importants pour une présentation, ces transitions attirent l’attention sur l’interface utilisateur de la plupart des types de programmes et deviendront pénible rapidement.
 
-**Ligne inférieure :** N’utilisez pas de transitions de style PowerPoint comme modèle pour votre programme.
+**Ligne inférieure :** n’utilisez pas de transitions de style PowerPoint comme modèle pour votre programme.
 
 **Si vous ne faites que six choses...**
 
 1.  Utilisez des animations et des transitions pour faciliter la compréhension de votre programme, et vous sentir plus lisse et plus attrayant. Ils doivent avoir un objectif clair. N’utilisez pas les animations comme vous le pouvez, ou pour attirer l’attention inutile sur votre programme.
-2.  Définissez un vocabulaire d’animation et utilisez-le de manière cohérente dans votre programme. Utilisez le vocabulaire d’animation Windows 7 le cas échéant.
+2.  Définissez un vocabulaire d’animation et utilisez-le de manière cohérente dans votre programme. utilisez le vocabulaire d’animation Windows 7 le cas échéant.
 3.  Utilisez les caractéristiques de vos animations pour offrir la personnalité de votre programme et renforcer sa personnalisation.
 4.  Rendez la plupart des animations simples, courtes et subtiles. N’oubliez pas que les animations n’ont pas besoin de faire attention à la réussite. Si une animation est appropriée et naturelle, les utilisateurs ne remarqueront que son absence.
 5.  Rendez vos animations rapides et réactives, et donnez-leur une sensation légère. Quelle que soit l’implication de vos animations, personne ne souhaiterait qu’elles attendent. Concevez des animations plus lourdes pour une dégradation normale.
@@ -370,12 +370,12 @@ Les animations ont plusieurs modèles d’utilisation :
 
 |   Usage                                                                                                               |   Description                                     |
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Commentaires sur le survol**<br/> pour afficher l’emplacement du point d’interaction. <br/>                                | Indique que le point d’interaction est actif. le pointage peut également être affiché à l’aide d’un effet statique.<br/> Windows vocabulaire : afficher l’effet de survol (rectangle englobant, mettre en surbrillance, agrandissement) avec un effet d’atténuation/disparition en fondu pour le lissage. <br/> ![capture d’écran de l’un des six couvertures de l’album en surbrillance ](images/vis-animations-image24.png)<br/> Dans le lecteur multimédia numérique Zune, l’album couvre la mise en surbrillance et ajoute des contrôles de lecture au survol.<br/>                                                                                                                                                                                                                 |
+| **Commentaires sur le survol**<br/> pour afficher l’emplacement du point d’interaction. <br/>                                | Indique que le point d’interaction est actif. le pointage peut également être affiché à l’aide d’un effet statique.<br/> Windows vocabulaire : afficher l’effet de survol (rectangle englobant, mettre en surbrillance, agrandissement) avec un effet d’atténuation/disparition en fondu pour le lissage. <br/> ![capture d’écran de l’un des six couvertures de l’album en surbrillance ](images/vis-animations-image24.png)<br/> dans le Zune lecteur multimédia numérique, l’album couvre la mise en surbrillance et ajoute des contrôles de lecture au survol.<br/>                                                                                                                                                                                                                 |
 | **Cliquez sur Commentaires**<br/> pour montrer qu’un objet cliquable est réactif et a reçu un clic. <br/>    | Indique qu’un clic a été effectué sur un objet.<br/> Windows vocabulaire : arrière-plan de l’objet flash sur l’événement de clic. pour afficher Touch contact, utilisez un effet ondulation. <br/> ![photo de doigt sur un écran tactile présentant des ondulations ](images/vis-animations-image25.png)<br/> Touch affiche une animation d’ondulation afin que l’utilisateur sache que l’interaction a été reconnue.<br/>                                                                                                                                                                                                                                                                                                         |
-| **Commentaires sur la sélection**<br/> pour indiquer qu’un objet est sélectionné. <br/>                                | Indique qu’un objet est sélectionné. la sélection peut également être affichée à l’aide d’un effet statique.<br/> vocabulaire Windows : dessinez un rectangle de sélection avec un effet d’atténuation/disparition en fondu pour la lisse. <br/> ![figure d’un couvercle de l’album sur lequel vous avez cliqué, puis sélectionné ](images/vis-animations-image26.png)<br/> Dans Zune, l’album recouvre le clic, puis obtient un rectangle de sélection sur la sélection.<br/>                                                                                                                                                                                                                                                                      |
-| **Commentaires sur la progression**<br/> pour indiquer qu’une tâche est en cours d’exécution. <br/>                             | Les commentaires de progression indiquent qu’une tâche progresse, en général avec les indicateurs d’activité, les barres de progression ou les animations qui illustrent la tâche. Les commentaires sur la progression de l’annulation indiquent approximativement la quantité de tâche effectuée et la quantité restante, alors que la progression indéterminée indique uniquement que la tâche est en cours.<br/> Windows vocabulaire : indicateurs d’activité en rotation, barres de progression, arrière-plans de progression, animations d’illustration. <br/> ![capture d’écran de la boîte de dialogue avec le texte « connexion » ](images/vis-animations-image27.png)<br/> Dans cet exemple, Windows Live Messenger affiche des commentaires de progression indéterminés au cours de la connexion.<br/> |
-| **Attirer**<br/> pour montrer qu’un utilisateur a besoin de l’attention de l’utilisateur. <br/>                          | Attirez le niveau d’attention approprié lorsque des objets significatifs sont créés ou si vous avez besoin d’être attentifs (souvent dus à des modifications), ou lorsque des événements importants ou urgents se produisent. consultez [attirer le niveau d’attention approprié](#attracting-the-right-level-of-attention) pour les techniques de conception.<br/> Windows vocabulaire : clignotement, déplacement, impulsion, lueur, Gleam. <br/> ![capture d’écran illustrant l’animation de la barre d’outils ](images/vis-animations-image28.png)<br/> La barre d’outils Windows Live s’anime à la première apparition pour la rendre évidente.<br/>                                                                                                                                 |
-| **Relation**<br/> pour afficher la relation entre les objets ou la causalité dans Effects. <br/>        | Afficher les relations, en particulier lorsque la relation peut ne pas être comprise ou attendue, d’une manière qui ne gêne pas ou ne déroutant.<br/> Windows vocabulaire : transformation, transport, modification physique, comme le basculement, la croissance d’une source de point, la réduction jusqu’à une destination de point. <br/> ![capture d’écran de la boîte de dialogue étalonnage des couleurs](images/vis-animations-image29.png)<br/> Dans cet exemple, l’animation montre la relation entre le paramètre gamma et son impact sur l’affichage.<br/>                                                                                                                                                    |
+| **Commentaires sur la sélection**<br/> pour indiquer qu’un objet est sélectionné. <br/>                                | Indique qu’un objet est sélectionné. la sélection peut également être affichée à l’aide d’un effet statique.<br/> vocabulaire Windows : dessinez un rectangle de sélection avec un effet d’atténuation/disparition en fondu pour la lisse. <br/> ![figure d’un couvercle de l’album sur lequel vous avez cliqué, puis sélectionné ](images/vis-animations-image26.png)<br/> dans Zune, l’album recouvre le clic, puis obtient un rectangle de sélection sur la sélection.<br/>                                                                                                                                                                                                                                                                      |
+| **Commentaires sur la progression**<br/> pour indiquer qu’une tâche est en cours d’exécution. <br/>                             | Les commentaires de progression indiquent qu’une tâche progresse, en général avec les indicateurs d’activité, les barres de progression ou les animations qui illustrent la tâche. Les commentaires sur la progression de l’annulation indiquent approximativement la quantité de tâche effectuée et la quantité restante, alors que la progression indéterminée indique uniquement que la tâche est en cours.<br/> Windows vocabulaire : indicateurs d’activité en rotation, barres de progression, arrière-plans de progression, animations d’illustration. <br/> ![capture d’écran de la boîte de dialogue avec le texte « connexion » ](images/vis-animations-image27.png)<br/> dans cet exemple, Windows Live Messenger affiche des commentaires de progression indéterminés pendant la connexion.<br/> |
+| **Attirer**<br/> pour montrer qu’un utilisateur a besoin de l’attention de l’utilisateur. <br/>                          | Attirez le niveau d’attention approprié lorsque des objets significatifs sont créés ou si vous avez besoin d’être attentifs (souvent dus à des modifications), ou lorsque des événements importants ou urgents se produisent. consultez [attirer le niveau d’attention approprié](#attracting-the-right-level-of-attention) pour les techniques de conception.<br/> Windows vocabulaire : clignotement, déplacement, impulsion, lueur, Gleam. <br/> ![capture d’écran illustrant l’animation de la barre d’outils ](images/vis-animations-image28.png)<br/> la barre d’outils Live Windows s’anime sur la première apparence pour la rendre évidente.<br/>                                                                                                                                 |
+| **Relationship**<br/> pour afficher la relation entre les objets ou la causalité dans Effects. <br/>        | Afficher les relations, en particulier lorsque la relation peut ne pas être comprise ou attendue, d’une manière qui ne gêne pas ou ne déroutant.<br/> Windows vocabulaire : transformation, transport, modification physique, comme le basculement, la croissance d’une source de point, la réduction jusqu’à une destination de point. <br/> ![capture d’écran de la boîte de dialogue étalonnage des couleurs](images/vis-animations-image29.png)<br/> Dans cet exemple, l’animation montre la relation entre le paramètre gamma et son impact sur l’affichage.<br/>                                                                                                                                                    |
 | **Illustration/aperçu**<br/> expliquer visuellement un concept, une tâche ou l’effet d’une commande. <br/> | Animation ou vidéo qui explique un concept ou comment un travail fonctionne visuellement, soit pour compléter ou remplacer une explication textuelle. Cela permet aux utilisateurs d’effectuer des tâches ou de choisir des commandes de manière efficace et en toute confiance. <br/> ![capture d’écran du stylet corriger la faute d’orthographe ](images/vis-animations-image30.png)<br/> Dans cet exemple, les commandes « afficher » du panneau de saisie Tablet PC utilisent des illustrations pour montrer comment corriger, supprimer, fractionner et joindre.<br/>                                                                                                                                                                                                        |
 
 
@@ -389,15 +389,15 @@ Les transitions ont plusieurs modèles d’utilisation :
 |      Usage                                                                                                                                                                                                      |    Description                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Agrandissement/réduction de l’objet/affichage**<br/> pour modifier la taille ou l’état d’un objet en douceur. <br/>                                                                                                         | Modifications des objets entre les États, éventuellement en cours de déplacement. la transition permet aux utilisateurs d’être orientés pendant les modifications.<br/> Windows vocabulaire : Morph, change Size, Object slides in ou out. <br/> ![capture d’écran de trois tailles de gadgets météo ](images/vis-animations-image31.png)<br/> Dans cet exemple, le gadget Météo est basé sur son état concis pour afficher sa boîte de dialogue Options.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Afficher/masquer/modifier le contenu**<br/> pour afficher, masquer ou modifier facilement le contenu, en général pour une divulgation progressive. <br/>                                                                       | Formes intérieures des fenêtres pour afficher plus, moins ou un contenu différent. la transition permet aux utilisateurs d’être orientés pendant les modifications.<br/> Windows vocabulaire : volet diapositives. les fenêtres volantes sont en fondu et en sortie. des conversions de contenu ou des basculements différents. <br/> ![capture d’écran de trois tailles de calculatrice ](images/vis-animations-image32.png)<br/> La calculatrice Windows a une transition sans heurts entre les modes d’affichage.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Contrôle ou le prix de l’offre (Afficher/Masquer)**<br/> pour afficher ou masquer en douceur les contrôles ou leur intuitivité au survol ou au déplacement de la souris afin de simplifier l’aspect visuel normal. <br/>                | Affiche des contrôles lorsque les utilisateurs pointent le pointeur sur une zone de commande, ou affichent des intuitivité quand les utilisateurs pointent sur un contrôle. le fait de pointer sur ces zones indique que l’utilisateur a l’intention d’interagir. intuitivité peut masquer si le pointeur devient stationnaire. <br/> ![capture d’écran des contrôles ternis avant le survol ](images/vis-animations-image33.png)<br/> Dans cet exemple, les contrôles du lecteur Windows Media sont en fondu au survol en mode plein écran.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Transitions de scènes**<br/> pour effectuer une transition de scène lisse et transparente afin d’éviter toute attention. <br/>                                                                                   | Les changements de scène brusques peuvent être transférerez, en particulier pour les grandes zones d’écran. Utilisez donc des transitions de scène pour créer des lissages et des continuités, et pour fournir un contexte. les transitions de scène sont conçues pour être des clés naturelles et basses, afin d’éviter d’attirer l’attention sur le processus de transition proprement dite.<br/> vocabulaire Windows : fondu en entrée/sortie ; fondu croisé ; glissement/gauche, arrière, vers le haut, vers le haut, vers le haut, vers le haut Push et couvertures. <br/> ![capture d’écran d’un fondu d’une photo dans une autre ](images/vis-animations-image34.png)<br/> Dans cet exemple, le papier peint du bureau Windows effectue un fondu délicat entre les images pour rendre la transition lisse et contrôlée.<br/>                                                                                                                                                                                                                                                                                                                               |
-| **Transitions de scènes spéciales**<br/> pour attirer l’attention sur un changement de scène afin de le rendre spécial ou de recentrer l’attention de l’utilisateur. <br/>                                                               | Alors que la plupart des transitions de scène ne doivent pas attirer l’attention sur le processus de transition, certaines sont conçues pour rompre le Flow et attirer l’attention afin de mettre l’accent sur le fait qu’un autre point est sur le point de se produire. pour attirer l’attention, les transitions de scène spéciales sont conçues de façon non naturelle et ont un impact visuel élevé. <br/> ![capture d’écran de la diapositive de transition d’accrochage ](images/vis-animations-image35.png)<br/> Dans cet exemple, PowerPoint utilise des transitions d’avertissement pour attirer l’audience sur la modification.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Afficher/masquer/modifier le contenu**<br/> pour afficher, masquer ou modifier facilement le contenu, en général pour une divulgation progressive. <br/>                                                                       | Formes intérieures des fenêtres pour afficher plus, moins ou un contenu différent. la transition permet aux utilisateurs d’être orientés pendant les modifications.<br/> Windows vocabulaire : volet diapositives. les fenêtres volantes sont en fondu et en sortie. des conversions de contenu ou des basculements différents. <br/> ![capture d’écran de trois tailles de calculatrice ](images/vis-animations-image32.png)<br/> la calculatrice de Windows a une transition douce entre les modes d’affichage.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Contrôle ou le prix de l’offre (Afficher/Masquer)**<br/> pour afficher ou masquer en douceur les contrôles ou leur intuitivité au survol ou au déplacement de la souris afin de simplifier l’aspect visuel normal. <br/>                | Affiche des contrôles lorsque les utilisateurs pointent le pointeur sur une zone de commande, ou affichent des intuitivité quand les utilisateurs pointent sur un contrôle. le fait de pointer sur ces zones indique que l’utilisateur a l’intention d’interagir. intuitivité peut masquer si le pointeur devient stationnaire. <br/> ![capture d’écran des contrôles ternis avant le survol ](images/vis-animations-image33.png)<br/> dans cet exemple, les contrôles Lecteur Windows Media s’estompent au survol en mode plein écran.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Transitions de scènes**<br/> pour effectuer une transition de scène lisse et transparente afin d’éviter toute attention. <br/>                                                                                   | Les changements de scène brusques peuvent être transférerez, en particulier pour les grandes zones d’écran. Utilisez donc des transitions de scène pour créer des lissages et des continuités, et pour fournir un contexte. les transitions de scène sont conçues pour être des clés naturelles et basses, afin d’éviter d’attirer l’attention sur le processus de transition proprement dite.<br/> vocabulaire Windows : fondu en entrée/sortie ; fondu croisé ; glissement/gauche, arrière, vers le haut, vers le haut, vers le haut, vers le haut Push et couvertures. <br/> ![capture d’écran d’un fondu d’une photo dans une autre ](images/vis-animations-image34.png)<br/> dans cet exemple, le Windows papier peint effectue un fondu délicat entre les images pour rendre la transition lisse et contrôlée.<br/>                                                                                                                                                                                                                                                                                                                               |
+| **Transitions de scènes spéciales**<br/> pour attirer l’attention sur un changement de scène afin de le rendre spécial ou de recentrer l’attention de l’utilisateur. <br/>                                                               | Alors que la plupart des transitions de scène ne doivent pas attirer l’attention sur le processus de transition, certaines sont conçues pour rompre le Flow et attirer l’attention afin de mettre l’accent sur le fait qu’un autre point est sur le point de se produire. pour attirer l’attention, les transitions de scène spéciales sont conçues de façon non naturelle et ont un impact visuel élevé. <br/> ![capture d’écran de la diapositive de transition d’accrochage ](images/vis-animations-image35.png)<br/> dans cet exemple, PowerPoint utilise des transitions d’avertissement pour attirer l’audience sur la modification.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Manipulations directes**<br/> pour afficher l’effet des manipulations directes (telles que déplacer, faire défiler, faire pivoter, faire pivoter et zoomer). <br/>                                                                   | La transition montre l’effet de la manipulation en temps réel. l’effet devrait avoir une apparence fluide, continue et cohérente avec le monde réel. le déplacement et la rotation peuvent ne pas être continus à certains endroits pour indiquer des restrictions ou des choix préférés. le zoom rend le contenu plus grand ou plus petit, ce qui modifie éventuellement le niveau de détail en conséquence. <br/> ![capture d’écran de trois tailles de loupe ](images/vis-animations-image36.png)<br/> Dans cet exemple, la loupe effectue un zoom en douceur entre les niveaux.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Manipulations directes incorrectes**<br/> pour indiquer qu’une manipulation directe (par exemple, déplacement, défilement/panoramique) a été tentée mais n’a pas pu être effectuée. <br/>                                           | La transition indique que la manipulation est tentée, mais revient à l’état d’origine. l’effet semble souvent que la manipulation ne peut pas être effectuée en raison d’une restriction physique réelle. ces animations sont utilisées à la place des messages d’erreur textuels, ce qui perturbe le sentiment réel de la manipulation.<br/> vocabulaire Windows : Bounce <br/> ![figure de communication de l’animation visuellement ](images/vis-animations-image4.png)<br/> Dans cet exemple, le document rebondit pour montrer que l’utilisateur a atteint la fin.<br/>                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **Trier, filtrer, réorganiser les transitions**<br/> pour indiquer que la présentation ou le contenu d’une collection d’éléments a changé. <br/>                                                            | La transition indique (ou pour les modifications complexes, suggère) l’effet de la modification. <br/> ![capture d’écran des appareils photo avec trois retraits ](images/vis-animations-image37.png)<br/> ![capture d’écran similaire avec des caméras différentes supprimées ](images/vis-animations-image38.png)<br/> ![capture d’écran similaire avec les autres caméras supprimées ](images/vis-animations-image39.png)<br/> dans cet exemple, Bing Visual Search utilise une transition de filtre.<br/> ![capture d’écran de la couverture de l’album modifiant son apparence ](images/vis-animations-image40.png)<br/> Dans cet exemple, Windows Media Center utilise une transition de réorganisation comme une expérience spéciale lors de la diffusion d’une chanson.<br/>                                                                                                                                                                                                                                                                                   |
+| **Trier, filtrer, réorganiser les transitions**<br/> pour indiquer que la présentation ou le contenu d’une collection d’éléments a changé. <br/>                                                            | La transition indique (ou pour les modifications complexes, suggère) l’effet de la modification. <br/> ![capture d’écran des appareils photo avec trois retraits ](images/vis-animations-image37.png)<br/> ![capture d’écran similaire avec des caméras différentes supprimées ](images/vis-animations-image38.png)<br/> ![capture d’écran similaire avec les autres caméras supprimées ](images/vis-animations-image39.png)<br/> dans cet exemple, Bing Visual Search utilise une transition de filtre.<br/> ![capture d’écran de la couverture de l’album modifiant son apparence ](images/vis-animations-image40.png)<br/> dans cet exemple, Windows Media Center utilise une transition de réorganisation comme une expérience spéciale lors de la diffusion d’une chanson.<br/>                                                                                                                                                                                                                                                                                   |
 | **Transitions de performances**<br/> pour qu’une action apparaisse plus rapidement. <br/>                                                                                                              | Bien qu’une transition ait le potentiel de faire apparaître plus rapidement une action, l’objectif principal de ces transitions est d’améliorer la perception des performances et de la réactivité. une bonne technique est de montrer que la tâche est exécutée dans des étapes délibérées. en revanche, le retardement de l’action, le rendu des résultats de manière aléatoire, ou l’utilisation d’un indicateur d’activité est lent.<br/> Windows vocabulaire : effectuez des actions par étapes, avec des transitions lisses entre les étapes. <br/> ![capture d’écran de l’ajout de destinations à la liste de raccourcis ](images/vis-animations-image41.png)<br/> Dans cet exemple, une liste de raccourcis de la barre des tâches affiche immédiatement les éléments standard, puis les diapositives affichent les destinations une fois la liste prête. Cela permet de masquer le temps nécessaire à la création de la liste. En revanche, le retardement de l’affichage initial semblerait ne pas répondre et l’affichage d’une liste incomplète ou de commentaires de progression serait beaucoup plus lent.<br/> |
-| **Expériences spéciales**<br/> pour attirer et faire plaisir aux utilisateurs pendant des [expériences spéciales](glossary.md) et peu fréquentes qui sont importantes pour votre programme et pour que l’utilisateur ait une attention toute particulière. <br/>    | Bien qu’une transition ait le potentiel pour être une expérience spéciale, ces transitions sont mieux réservées pour les expériences peu fréquentes qui sont véritablement spéciales pour votre programme. les transitions personnalisées sont utilisées pour fournir une apparence particulière. la personnalisation et la personnalité sont souvent des éléments de conception importants. Contrairement à d’autres modèles, les expériences spéciales peuvent nécessiter une attention, être lourdes et obliger les utilisateurs à attendre un moment. par conséquent, ces transitions s’usent rapidement en cas de surutilisation, car l’expérience n’est plus spéciale. <br/> ![capture d’écran du logo Windows modification du nouvel écran ](images/vis-animations-image42.png)<br/> Dans cet exemple, Windows Media Center affiche une animation lors du chargement de pour qu’il contacte immédiatement les utilisateurs.<br/>                                                                                                                                                                                                                                      |
+| **Expériences spéciales**<br/> pour attirer et faire plaisir aux utilisateurs pendant des [expériences spéciales](glossary.md) et peu fréquentes qui sont importantes pour votre programme et pour que l’utilisateur ait une attention toute particulière. <br/>    | Bien qu’une transition ait le potentiel pour être une expérience spéciale, ces transitions sont mieux réservées pour les expériences peu fréquentes qui sont véritablement spéciales pour votre programme. les transitions personnalisées sont utilisées pour fournir une apparence particulière. la personnalisation et la personnalité sont souvent des éléments de conception importants. Contrairement à d’autres modèles, les expériences spéciales peuvent nécessiter une attention, être lourdes et obliger les utilisateurs à attendre un moment. par conséquent, ces transitions s’usent rapidement en cas de surutilisation, car l’expérience n’est plus spéciale. <br/> ![capture d’écran du logo Windows modification du nouvel écran ](images/vis-animations-image42.png)<br/> dans cet exemple, Windows Media Center affiche une animation lors du chargement de pour qu’il contacte immédiatement les utilisateurs.<br/>                                                                                                                                                                                                                                      |
 
 
 
@@ -408,7 +408,7 @@ Les transitions ont plusieurs modèles d’utilisation :
 ### <a name="effective-communication"></a>Communication efficace
 
 -   **Définissez et utilisez un vocabulaire d’animation** pour vous assurer que vos animations et transitions ont une signification cohérente et l’utiliser de manière cohérente dans votre programme. La plupart des vocabulaires doivent inclure des entrées pour l’apparence des scènes et des objets, ainsi que pour la disparition, la navigation, l’interaction de base (pointage, sélection, clic), la manipulation et l’interaction des objets (déplacement, suppression, redimensionnement, défilement, panoramique, zoom, rotation, filtrage) et attirer l’attention. Une signification cohérente est essentielle pour une communication efficace.
--   **Dans la mesure du possible, utilisez le vocabulaire Animation Windows.** Bien que votre programme puisse avoir un public différent et des besoins différents, les avantages de la cohérence et de la familiarité compensent souvent les avantages de la différence. Si le vocabulaire de votre programme doit être différent, utilisez les mêmes types d’animation de base que Windows, mais donnez-leur la bonne personnalité pour votre programme.
+-   **dans la mesure du possible, utilisez le vocabulaire d’animation Windows.** Bien que votre programme puisse avoir un public différent et des besoins différents, les avantages de la cohérence et de la familiarité compensent souvent les avantages de la différence. si le vocabulaire de votre programme doit être différent, utilisez les mêmes types d’animation de base que Windows, mais donnez-leur la bonne personnalité pour votre programme.
 -   **N’assignez pas de significations spécifiques aux animations et aux transitions génériques dans un vocabulaire d’animation.** Les transitions génériques comme les effets de fondu et les effets spéciaux comme les dissolutions n’ont aucune signification particulière (au-delà de l’affichage ou de la disparition), elles peuvent donc être utilisées librement.
 
     **Incorrect :**
@@ -470,7 +470,7 @@ Les transitions ont plusieurs modèles d’utilisation :
 
     ![capture d’écran de l’Assistant Office du trombone ](images/vis-animations-image46.png)
 
-    Les assistants de Microsoft Office ont attiré leur attention inutile.
+    les assistants de Microsoft Office ont attiré leur attention inutile.
 
 -   **Si l’utilisateur ne répond pas, ne répétez pas l’animation ou utilisez des animations continues.** Au lieu de cela, supposons que l’utilisateur a choisi de ne pas agir maintenant, mais peut agir ultérieurement. Les animations continues permettent aux utilisateurs de se concentrer sur quoi que ce soit.
 
@@ -507,13 +507,13 @@ Les transitions ont plusieurs modèles d’utilisation :
 
     ![Figure illustrant la façon dont le pointage affiche les contrôles ](images/vis-animations-image48.png)
 
-    Dans cet exemple, Windows Media Center affiche ses contrôles chaque fois que le pointeur se trouve sur la fenêtre.
+    dans cet exemple, Windows Media Center affiche ses contrôles chaque fois que le pointeur est sur la fenêtre.
 
 -   **Affiche les contrôles secondaires ou le contrôle intuitivité lorsque l’utilisateur place le pointeur sur les commandes.** Pour faciliter la découverte, rendez l’emplacement visible et la cible de grande taille.
 
     ![capture d’écran d’un pointeur révélant une commande secondaire ](images/vis-animations-image49.png)
 
-    Dans cet exemple, Windows Live Messenger affiche une commande secondaire lorsque le pointeur se trouve près de l’angle supérieur droit.
+    dans cet exemple, Windows Live Messenger affiche une commande secondaire lorsque le pointeur se trouve près de l’angle supérieur droit.
 
 **Transitions de scènes**
 
@@ -556,7 +556,7 @@ Les transitions ont plusieurs modèles d’utilisation :
 
 ![capture d’écran de la carte avec une photo et une grille satellites ](images/vis-animations-image50.png)
 
-Lorsque vous faites défiler l’affichage « œil de l’oiseau », Bing Maps affiche un arrière-plan de grille temporaire. Cela permet aux utilisateurs de continuer à faire défiler immédiatement, bien avant le rendu du contenu final.
+lorsque vous faites défiler l’affichage « œil de l’oiseau », Bing cartes affichent un arrière-plan de grille temporaire. Cela permet aux utilisateurs de continuer à faire défiler immédiatement, bien avant le rendu du contenu final.
 
 **Animations d’expérience spéciale**
 
@@ -570,7 +570,7 @@ Lorsque vous faites défiler l’affichage « œil de l’oiseau », Bing Maps
 
     ![capture d’écran d’une barre de progression dans une barre d’État ](images/vis-animations-image51.png)
 
-    Dans cet exemple à partir de Windows Internet Explorer, la barre de progression de clé basse dans la barre d’État suggère que les utilisateurs n’ont pas besoin d’attendre la fin de leur exécution pour pouvoir interagir.
+    dans cet exemple de Windows Internet Explorer, la barre de progression de clé basse dans la barre d’état suggère que les utilisateurs n’ont pas besoin d’attendre la fin de leur exécution avant de pouvoir interagir.
 
 -   **Utilisez des animations légères pour les tâches nécessitant beaucoup de ressources processeur.** Cela offre une puissance de traitement complète à la tâche. En outre, les utilisateurs ne perçoivent pas que l’animation légère est la raison pour laquelle la tâche est gourmande en ressources processeur.
 -   **N’affiche pas d’indicateur d’activité pendant une animation ou une transition.** Cela détruit l’effet. Concevez des animations et des transitions afin qu’elles puissent commencer immédiatement.
@@ -607,7 +607,7 @@ Les animations et les transitions bien conçues ont généralement les caractér
 
 ![capture d’écran de l’interface Zune conçue de façon créative ](images/vis-animations-image13.png)
 
-Dans cet exemple, Zune anime du texte, mais son objectif est principalement décoratif. Il n’y a pas de problème si les utilisateurs ne lisent pas le texte avec soin.
+dans cet exemple, Zune anime du texte, mais son objectif est principalement décoratif. Il n’y a pas de problème si les utilisateurs ne lisent pas le texte avec soin.
 
 ### <a name="reducing-power-consumption"></a>Réduction de la consommation d’énergie
 
@@ -626,7 +626,7 @@ Dans cet exemple, Zune anime du texte, mais son objectif est principalement déc
 
     ![capture d’écran de la page d’accueil de Bing avec des zones réactives ](images/vis-animations-image54.png)
 
-    La page d’origine Bing contient une animation initiale qui révèle plusieurs zones réactives. Les utilisateurs peuvent également afficher les zones réactives en déplaçant le curseur près.
+    la page d’origine Bing contient une animation initiale qui révèle plusieurs zones réactives. Les utilisateurs peuvent également afficher les zones réactives en déplaçant le curseur près.
 
     Notez que les « informations équivalentes » ne signifient pas des informations identiques. Les informations peuvent être dans un format différent ou nécessitent une déduction simple.
 
@@ -646,7 +646,7 @@ Pour plus d’informations sur les consignes d’accessibilité, consultez [acce
 -   Ne faites pas référence aux transitions, sauf dans la documentation technique. Au lieu de cela, faites référence à l’objet dans son état final ou initial.
 -   Si l’utilisateur lance explicitement une animation, utilisez le verbe Play ; Sinon, utilisez le verbe pour obtenir de la documentation technique.
 
-Exemples :
+Exemples :
 
 -   Vous savez qu’un élément nécessite votre attention lorsque son icône commence à rebondir.
 -   Tout d’abord, sélectionnez les photos que vous souhaitez imprimer (Notez que les photos sont agrandies lors de la sélection).

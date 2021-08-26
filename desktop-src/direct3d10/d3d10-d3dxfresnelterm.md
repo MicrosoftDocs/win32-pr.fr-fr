@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9efa557d44451674d2ae4c48a58370e939760a03
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 862c83fd20e7646defbbaa7b82ad43ce0a384c1dd460d182af60bf8a5b23d88e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028709"
 ---
 # <a name="d3dxfresnelterm-function-d3dx10mathh"></a>D3DXFresnelTerm, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Index de réfraction d’un matériau. La valeur doit être supérieure à 1.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Cette fonction retourne le terme de Fresnel pour la lumière dépolarisée. CosTheta est le cosinus de l’angle d’incident.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour rechercher le terme de la Fresnel (F) :
 

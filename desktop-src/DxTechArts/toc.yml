@@ -27,9 +27,9 @@
       href: disabling-shortcut-keys-in-games.md
     - name: Minutage des jeux et processeurs multicœurs.
       href: game-timing-and-multicore-processors.md
-    - name: Jeux pour les exigences techniques de Windows
+    - name: jeux pour Windows exigences techniques
       href: games-for-windows-technical-requirements-1-1-0006.md
-    - name: Jeux pour les cas de test Windows
+    - name: jeux pour Windows cas de Test
       href: games-for-windows-test-requirements-1-0-0006.md
     - name: Jeux avec Least-Privileged comptes d’utilisateur
       href: gaming-with-least-privileged-user-accounts.md
@@ -43,13 +43,13 @@
       href: mmo-installation-best-practices.md
     - name: Installation et utilisation des éditeurs de méthode d’entrée
       href: installing-and-using-input-method-editors.md
-    - name: Présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
+    - name: présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
       href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
     - name: "Rendre les jeux vidéo accessibles\_: justifications et considérations relatives à la conception"
       href: accessibility-best-practices.md
-    - name: Optimisation des performances des DVD pour les jeux Windows
+    - name: optimisation des performances des DVD pour les jeux Windows
       href: optimizing-dvd-performance-for-windows-games.md
-    - name: 'Mise à jour corrective des logiciels de jeu dans Windows XP, Windows Vista et Windows 7'
+    - name: 'mise à jour corrective des logiciels de jeu dans Windows XP, Windows Vista et Windows 7'
       href: patching-methods-in-windows-xp-and-vista.md
     - name: Meilleures pratiques pour la gestion des ressources
       href: resource-management-best-practices.md
@@ -59,9 +59,9 @@
       href: taking-advantage-of-high-dpi-mouse-movement.md
     - name: Pipeline de transformation Direct3D
       href: the-direct3d-transformation-pipeline.md
-    - name: Principaux problèmes pour les titres Windows
+    - name: principaux problèmes pour les titres de Windows
       href: top-issues-for-windows-titles.md
-    - name: Principaux outils et techniques pour créer des jeux Windows plus robustes
+    - name: principaux outils et Techniques pour créer des jeux Windows plus robustes
       href: top-tools-and-techniques-for-making-more-robust-windows-games.md
     - name: Contrôle de compte d’utilisateur pour les développeurs de jeux
       href: user-account-control-for-game-developers.md
@@ -69,7 +69,7 @@
       href: using-an-input-method-editor-in-a-game.md
     - name: Pare-feu Windows pour les développeurs de jeux
       href: games-and-firewalls.md
-    - name: Explorateur de jeux Windows pour les développeurs de jeux
+    - name: Windows Explorateur de jeux pour les développeurs de jeux
       href: windows-game-explorer-integration.md
-    - name: Windows Installer pour les développeurs de jeux
+    - name: Windows Programme d’installation pour les développeurs de jeux
       href: windows-installer-for-game-developers.md

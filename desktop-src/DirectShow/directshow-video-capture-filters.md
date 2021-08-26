@@ -1,25 +1,25 @@
 ---
-description: Filtres de capture vidéo DirectShow
+description: DirectShow Filtres de capture vidéo
 ms.assetid: e4d1452d-ceac-4b5c-b9ba-ad4722ecff76
-title: Filtres de capture vidéo DirectShow
+title: DirectShow Filtres de capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 238f18dd77bc40011fa9fc0dbab3192ea81a223f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7cafe2815376ddb2a099c309228ba1bf24ae9315f305edb7312b88dd1196f82f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966329"
 ---
-# <a name="directshow-video-capture-filters"></a>Filtres de capture vidéo DirectShow
+# <a name="directshow-video-capture-filters"></a>DirectShow Filtres de capture vidéo
 
-Les filtres de capture dans DirectShow disposent de certaines fonctionnalités qui les distinguent des autres types de filtres. Bien que le [Générateur de graphiques de capture](capture-graph-builder.md) masque un grand nombre de détails, il est judicieux de lire cette section afin d’avoir une compréhension générale des graphiques de capture DirectShow.
+les filtres de Capture dans DirectShow disposent de certaines fonctionnalités qui les distinguent des autres types de filtres. bien que le [générateur de Graph de Capture](capture-graph-builder.md) masque de nombreux détails, il est judicieux de lire cette section afin d’avoir une compréhension générale des DirectShow graphiques de Capture.
 
 **Épingler les catégories**
 
 Un filtre de capture possède souvent au moins deux broches de sortie qui fournissent le même type de données (par exemple, un code confidentiel d’aperçu et un code PIN de capture). Par conséquent, les types de média ne sont pas un bon moyen de distinguer les codes confidentiels. Au lieu de cela, les codes confidentiels se distinguent par leur fonctionnalité, qui est identifiée à l’aide d’un GUID, appelé *catégorie de code confidentiel*.
 
-Pour plus d’informations sur la façon d’interroger des codes confidentiels pour leur catégorie, consultez [utilisation des catégories de code confidentiel](working-with-pin-categories.md). Toutefois, pour la plupart des applications, vous n’aurez pas à interroger directement les broches. Au lieu de cela, différentes méthodes [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) prennent des paramètres qui spécifient la catégorie de code confidentiel sur laquelle opérer. Le générateur de graphiques de capture localise automatiquement le code confidentiel correct.
+Pour plus d’informations sur la façon d’interroger des codes confidentiels pour leur catégorie, consultez [utilisation des catégories de code confidentiel](working-with-pin-categories.md). Toutefois, pour la plupart des applications, vous n’aurez pas à interroger directement les broches. Au lieu de cela, différentes méthodes [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) prennent des paramètres qui spécifient la catégorie de code confidentiel sur laquelle opérer. le générateur de Graph de Capture localise automatiquement le code confidentiel correct.
 
 **Prévisualiser les broches et les broches de capture**
 
@@ -49,13 +49,13 @@ Chaque filtre de capture a au moins un code PIN de capture. En outre, il peut av
 
 **Filtres WDM en amont**
 
-Les périphériques Windows Driver Model (WDM) peuvent nécessiter des filtres supplémentaires en amont du filtre de capture. Ces filtres sont les suivants :
+Windows Les périphériques de modèle de pilote (WDM) peuvent nécessiter des filtres supplémentaires en amont du filtre de capture. Ces filtres sont les suivants :
 
 -   [Filtre Tuner TV](tv-tuner-filter.md). Contrôle le paramétrage des tuners TV analogiques.
 -   [Filtre audio TV](tv-audio-filter.md). Contrôle les paramètres audio pour les tuners TV analogiques.
 -   [Filtre de distributeur vidéo analogique](analog-video-crossbar-filter.md). Achemine les signaux audio et vidéo via le périphérique matériel. Par exemple, un appareil peut avoir plusieurs entrées, telles que S-Video et vidéo composite. Le filtre de distributeur permet à l’application de sélectionner l’entrée.
 
-Bien qu’il s’agisse de filtres distincts dans DirectShow, ils représentent généralement le même périphérique matériel. Chaque filtre contrôle une fonction différente de l’appareil. Les filtres sont connectés par des broches, mais aucune donnée multimédia n’est déplacée sur les connexions de code confidentiel. Par conséquent, les codes confidentiels sur ces filtres ne se connectent pas en établissant un type de média. Au lieu de cela, ils utilisent des valeurs GUID appelées *moyennes*. Les GUID moyens sont définis de manière unique pour un minipilote de périphérique donné. Par exemple, le filtre Tuner TV et le filtre de capture vidéo pour la même carte TV prennent tous deux en charge le même support, ce qui permet à l’application de générer le graphique correctement.
+bien qu’il s’agisse de filtres distincts dans DirectShow, ils représentent généralement le même périphérique matériel. Chaque filtre contrôle une fonction différente de l’appareil. Les filtres sont connectés par des broches, mais aucune donnée multimédia n’est déplacée sur les connexions de code confidentiel. Par conséquent, les codes confidentiels sur ces filtres ne se connectent pas en établissant un type de média. Au lieu de cela, ils utilisent des valeurs GUID appelées *moyennes*. Les GUID moyens sont définis de manière unique pour un minipilote de périphérique donné. Par exemple, le filtre Tuner TV et le filtre de capture vidéo pour la même carte TV prennent tous deux en charge le même support, ce qui permet à l’application de générer le graphique correctement.
 
 Dans la pratique, à condition que vous utilisiez **ICaptureGraphBuilder2** pour créer vos graphiques de capture, ces filtres sont ajoutés automatiquement au graphique. Pour plus d’informations, consultez [filtres de pilote de classe WDM](wdm-class-driver-filters.md).
 

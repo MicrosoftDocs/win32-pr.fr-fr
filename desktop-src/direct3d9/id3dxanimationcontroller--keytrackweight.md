@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 74f5e38392f6b4ac192f02b9d85421c8357a16ee
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 16bd95c675486b17f3071a279a01916e3db557c598830282f4d5b288dbc1f0fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106536445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026629"
 ---
 # <a name="id3dxanimationcontrollerkeytrackweight-method"></a>ID3DXAnimationController :: KeyTrackWeight, méthode
 
@@ -95,7 +95,7 @@ Type : **[ **D3DXEVENTHANDLE**](id3dxanimationcontroller.md)**
 
 Descripteur d’événement pour l’événement Priority Blend. La **valeur null** est retournée si un ou plusieurs des paramètres d’entrée ne sont pas valides ou si aucun événement libre n’est disponible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le poids est utilisé comme un multiplicateur pour déterminer la proportion de cette piste à mélanger avec d’autres pistes.
 

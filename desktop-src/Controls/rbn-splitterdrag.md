@@ -3,7 +3,7 @@ title: RBN_SPLITTERDRAG le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsque l’utilisateur fait glisser un séparateur. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 7827c971-6a92-452f-b961-1abe6ae66d2a
 keywords:
-- Contrôles Windows de code de notification RBN_SPLITTERDRAG
+- RBN_SPLITTERDRAG les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0b2d3fc00433be9cd3011f2f2b24d515b8cbd0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e3de913b5815acbdf8b0a98d8131d0a6f071f157fd5bb78040422b6892d7fe09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984939"
 ---
 # <a name="rbn_splitterdrag-notification-code"></a>\_Code de notification RBN SPLITTERDRAG
 
@@ -55,8 +55,8 @@ La valeur de retour de cette notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

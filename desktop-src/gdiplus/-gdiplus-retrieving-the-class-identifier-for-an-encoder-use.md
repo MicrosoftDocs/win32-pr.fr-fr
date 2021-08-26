@@ -4,16 +4,16 @@ ms.assetid: f78dac7c-4bc1-4614-8a26-d99d5619399a
 title: Récupération de l’identificateur de classe pour un encodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03193bfa9f2e86e92f66a649280828f12d4807c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a40c31c7ad997ed3e7525ff247019f6a41c681b9523dc523105bd5ba6c7ca6d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014709"
 ---
 # <a name="retrieving-the-class-identifier-for-an-encoder"></a>Récupération de l’identificateur de classe pour un encodeur
 
-La fonction GetEncoderClsid de l’exemple suivant reçoit le type MIME d’un encodeur et retourne l’identificateur de classe (**CLSID**) de cet encodeur. Les types MIME des encodeurs intégrés à Windows GDI+ sont les suivants :
+La fonction GetEncoderClsid de l’exemple suivant reçoit le type MIME d’un encodeur et retourne l’identificateur de classe (**CLSID**) de cet encodeur. les types MIME des encodeurs intégrés à Windows GDI+ sont les suivants :
 
 -   image/bmp
 -   image/jpeg

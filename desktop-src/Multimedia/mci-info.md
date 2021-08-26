@@ -3,7 +3,7 @@ title: Commande MCI_INFO (mmsystem. h)
 description: La \_ commande MCI info récupère les informations de chaîne d’un appareil.
 ms.assetid: aed3fed3-87b9-4673-9171-4f57770d765c
 keywords:
-- Commande MCI_INFO Windows multimédia
+- commande MCI_INFO Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9f6ba5be1c2a4ce94b880a87a468c594bc5b676
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18d53acbdfeb0c13b4b9e201d1bea23008dfbaa83221007152181fe685d09957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039198"
 ---
 # <a name="mci_info-command"></a>\_Commande MCI info
 
@@ -68,7 +68,7 @@ Pointeur vers une structure d' [**\_ informations \_ sur MCI**](mci-info-parms.m
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur de code standard et spécifique à la commande suivant s’applique à tous les périphériques prenant en charge MCI \_ info :
 
@@ -269,7 +269,7 @@ Obtient le nom de produit de la sortie actuelle et sa valeur est spécifique à 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

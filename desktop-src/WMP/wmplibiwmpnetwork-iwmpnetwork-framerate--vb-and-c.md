@@ -3,9 +3,9 @@ title: Propriété de fréquence de IWMPNetwork
 description: La propriété Parate obtient la fréquence d’images vidéo actuelle.
 ms.assetid: 800ecf3d-3b2c-48f9-8fc4-c7c32757749a
 keywords:
-- propriété pafréquence Windows Media Player
-- propriété de fréquence d’images lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété cadence
+- Lecteur Windows Media de propriétés de la cadence
+- Lecteur Windows Media de propriété cadence, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété cadence
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c338a116588fa9f1c552feff15f220e08b0f66e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3169cc21eee2317da45db3cb3ca9ceffffa01c85479312defe63cda1fa09796f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956159"
 ---
 # <a name="iwmpnetworkframerate-property"></a>IWMPNetwork :: cadence, propriété
 
@@ -53,7 +53,7 @@ Public ReadOnly Property frameRate As System.Int32
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de la fréquence d’images actuelle est retournée en images par centaines de secondes. Par exemple, une valeur de 2998 indique 29,98 images par seconde (FPS).
 

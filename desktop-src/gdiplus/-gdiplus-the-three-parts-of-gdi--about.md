@@ -1,19 +1,19 @@
 ---
-description: 'Les services de Windows GDI+ appartiennent aux trois grandes catégories suivantes :'
+description: 'les services de Windows GDI+ appartiennent aux trois grandes catégories suivantes :'
 ms.assetid: d5bef8e4-7a4c-4ac4-938a-7034ad3d743f
 title: Les trois parties de GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2021260e9fe3b3d927131c2ba1856aeed0ed07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5547702ca98cce86ace0f672b7aeed2dc8fc0ecee63534aaa15fac05bdcb024b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014649"
 ---
 # <a name="the-three-parts-of-gdi"></a>Les trois parties de GDI+
 
-Les services de Windows GDI+ appartiennent aux trois grandes catégories suivantes :
+les services de Windows GDI+ appartiennent aux trois grandes catégories suivantes :
 
 -   [2D (graphismes vectoriels)](#2-d-vector-graphics)
 -   [Images](#imaging)
@@ -27,11 +27,11 @@ GDI+ fournit des classes qui stockent des informations sur les primitives elles-
 
 ## <a name="imaging"></a>Images
 
-Certains genres d’images sont difficiles ou impossibles à afficher avec les techniques des graphiques vectoriels. Par exemple, les images sur les boutons de la barre d’outils et les images qui s’affichent sous forme d’icônes sont difficiles à spécifier en tant que collections de lignes et de courbes. Une photographie numérique haute résolution d’un stade de baseball surchargé serait encore plus difficile à créer avec des techniques vectorielles. Les images de ce type sont stockées sous forme de bitmaps, des tableaux de nombres qui représentent les couleurs des points individuels sur l’écran. Les structures de données qui stockent des informations sur les bitmaps ont tendance à être plus complexes que celles requises pour les graphiques vectoriels. par conséquent, plusieurs classes de GDI+ sont affectées à cet effet. **CachedBitmap** est un exemple de cette classe qui est utilisée pour stocker une bitmap en mémoire pour un accès rapide et un affichage.
+Certains genres d’images sont difficiles ou impossibles à afficher avec les techniques des graphiques vectoriels. Par exemple, les images sur les boutons de la barre d’outils et les images qui s’affichent sous forme d’icônes sont difficiles à spécifier en tant que collections de lignes et de courbes. Une photographie numérique haute résolution d’un stade de baseball surchargé serait encore plus difficile à créer avec des techniques vectorielles. Les images de ce type sont stockées sous forme de bitmaps, des tableaux de nombres qui représentent les couleurs des points individuels sur l’écran. les structures de données qui stockent des informations sur les bitmaps ont tendance à être plus complexes que celles requises pour les graphiques vectoriels. par conséquent, il existe plusieurs classes GDI+ dédiées à cet effet. **CachedBitmap** est un exemple de cette classe qui est utilisée pour stocker une bitmap en mémoire pour un accès rapide et un affichage.
 
 ## <a name="typography"></a>Typographie
 
-La typographie s’intéresse à l’affichage de texte dans diverses polices, tailles et styles. GDI+ fournit une prise en charge impressionnante pour cette tâche complexe. L’une des nouvelles fonctionnalités de GDI+ est l’anticrénelage de sous-pixels, qui donne au texte rendu sur un écran LCD une apparence plus lisse.
+La typographie s’intéresse à l’affichage de texte dans diverses polices, tailles et styles. GDI+ fournit un niveau impressionnant de prise en charge pour cette tâche complexe. l’une des nouvelles fonctionnalités de GDI+ est l’anticrénelage de sous-pixels, qui donne au texte rendu sur un écran LCD une apparence plus lisse.
 
  
 

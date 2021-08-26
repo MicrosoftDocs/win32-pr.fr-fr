@@ -6,12 +6,12 @@ keywords:
 - interfaces, Direct3D 11 Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c578d84a7a9f223cb81285b69f5b5d1baed4e6
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: aad7cba0869ad2c05c335e42ce16167d71db47df634fe78ecfa727aef6dce98d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104463850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028329"
 ---
 # <a name="direct3d-11-core-interfaces"></a>Interfaces principales Direct3D 11
 
@@ -90,7 +90,7 @@ Cette section contient des informations sur les interfaces de base.
 <td>L’interface <a href="/windows/desktop/api/D3D11/nn-d3d11-id3d11devicecontext"><strong>ID3D11DeviceContext</strong></a> représente un contexte de périphérique qui génère des commandes de rendu.<br/>
 <blockquote>
 [!Note]<br />
-La dernière version de cette interface est <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4"><strong>ID3D11DeviceContext4</strong></a> introduite dans Windows 10 Creators Update. Les applications ciblant Windows 10 Creators Update doivent utiliser l’interface <strong>ID3D11DeviceContext4</strong> au lieu de <strong>ID3D11Device</strong>.
+La dernière version de cette interface est <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11devicecontext4"><strong>ID3D11DeviceContext4</strong></a> introduite dans le Windows 10 Creators Update. les Applications ciblant Windows 10 Creators Update doivent utiliser l’interface <strong>ID3D11DeviceContext4</strong> au lieu de <strong>ID3D11Device</strong>.
 </blockquote>
 <br/></td>
 </tr>

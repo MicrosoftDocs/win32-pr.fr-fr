@@ -1,17 +1,17 @@
 ---
-description: Vidéo numérique dans DirectShow
+description: Vidéo numérique en DirectShow
 ms.assetid: 22400118-2f38-4130-b50c-dcfc96bf0ae9
-title: Vidéo numérique dans DirectShow
+title: Vidéo numérique en DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a081c07472b8c790d6e0a94be2502fe20002f8f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 36524b5042daa6b16baa881cad407f99c5dd1314fc7bf830c6d87a407767ad7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983039"
 ---
-# <a name="digital-video-in-directshow"></a>Vidéo numérique dans DirectShow
+# <a name="digital-video-in-directshow"></a>Vidéo numérique en DirectShow
 
 Cette section offre une vue d’ensemble de la vidéo numérique (DV) dans DirectShow. Elle contient les rubriques suivantes :
 
@@ -20,7 +20,7 @@ Cette section offre une vue d’ensemble de la vidéo numérique (DV) dans Direc
 -   [Capturer le fichier DV dans un fichier](capture-dv-to-file.md)
 -   [Transmettre le fichier DV du fichier à la bande](transmit-dv-from-file-to-tape.md)
 -   [Utilisation des périphériques vidéo USB DV](working-with-usb-dv-video-devices.md)
--   [Paramètres de champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
+-   [Paramètres du champ DVINFO dans le pilote MSDV](dvinfo-field-settings-in-the-msdv-driver.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -3,9 +3,9 @@ title: Propriété de la fréquence IWMPSettings
 description: La propriété rate obtient ou définit la vitesse de lecture actuelle pour la vidéo.
 ms.assetid: 7baa667b-52e5-4419-8e12-c3627a417b20
 keywords:
-- propriété rate Windows Media Player
-- propriété rate lecteur Windows Media, interface IWMPSettings
-- Interface IWMPSettings lecteur Windows Media, propriété rate
+- Lecteur Windows Media de la propriété rate
+- propriété rate Lecteur Windows Media, interface IWMPSettings
+- Lecteur Windows Media de l’interface IWMPSettings, propriété rate
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f502bebdbd22523858637f8abccbe203db104cbe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc053861b9061df676455e10b011cd0ffe0fe9f06052b129ec163e00d4c8d71f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999699"
 ---
 # <a name="iwmpsettingsrate-property"></a>IWMPSettings :: rate, propriété
 
@@ -48,20 +48,20 @@ Public Property rate As System.Double
 
 **System. double** qui est la vitesse de lecture, avec une valeur par défaut de 1,0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur récupérée par cette propriété agit comme une valeur de multiplicateur qui vous permet de lire un élément multimédia à un débit plus rapide ou plus lent. La valeur par défaut 1,0 indique la vitesse créée.
 
 Notez qu’une piste audio devient difficile à comprendre à des vitesses inférieures à 0,5 ou supérieures à 1,5. Un taux de lecture de 2 indique deux fois la vitesse de lecture normale.
 
-Le lecteur Windows Media tentera d’utiliser le plus efficace des quatre modes de lecture suivants
+Lecteur Windows Media essaiera d’utiliser le plus efficace des quatre modes de lecture suivants
 
 -   Lecture vidéo lissée avec maintien de la tonalité audio
 -   Lecture vidéo lisse avec la tonalité audio non gérée
 -   Lecture vidéo lissée sans audio
 -   Lecture vidéo de l’image clé sans audio
 
-Le mode choisi par le lecteur Windows Media dépend de nombreux facteurs, notamment le type de fichier et l’emplacement, le système d’exploitation, le réseau et le serveur.
+le mode choisi par Lecteur Windows Media dépend de nombreux facteurs, tels que le type de fichier et l’emplacement, le système d’exploitation, le réseau et le serveur.
 
 D’autres considérations s’appliquent également, en fonction du format de média numérique utilisé pour créer le contenu :
 
@@ -144,7 +144,7 @@ End Sub
 [**IWMPSettings. isAvailable (VB et C#)**](iwmpsettings-isavailable--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPSettings. MUTE (VB et C#)**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
+[**IWMPSettings. muet (VB et C#)**](wmplibiwmpsettings-iwmpsettings-mute--vb-and-c.md)
 </dt> </dl>
 
  

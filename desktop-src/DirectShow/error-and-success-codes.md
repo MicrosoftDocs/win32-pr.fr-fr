@@ -1,21 +1,21 @@
 ---
 description: Cette rubrique répertorie les codes de retour HRESULT définis pour DirectShow.
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
-title: Codes d’erreur et de réussite DirectShow (Vfwmsgs. h)
+title: DirectShow Codes d’erreur et de réussite (Vfwmsgs. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f83b515161221ebc11d5b14276b1fe3259624e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a60f3f128f2bf9e6b86c260315d8d7b1659d5095428d7afd4e3d4528d44af5b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905649"
 ---
-# <a name="directshow-error-and-success-codes"></a>Codes d’erreur et de réussite DirectShow
+# <a name="directshow-error-and-success-codes"></a>DirectShow Codes d’erreur et de réussite
 
-Cette rubrique répertorie les codes de retour **HRESULT** définis pour DirectShow. Notez que les API DirectShow peuvent retourner d’autres valeurs **HRESULT** non indiquées ici. Pour obtenir des valeurs **HRESULT** supplémentaires, consultez [codes d’erreur com](/windows/desktop/com/com-error-codes).
+Cette rubrique répertorie les codes de retour **HRESULT** définis pour DirectShow. notez que les api DirectShow peuvent retourner d’autres valeurs **HRESULT** non indiquées ici. Pour obtenir des valeurs **HRESULT** supplémentaires, consultez [codes d’erreur com](/windows/desktop/com/com-error-codes).
 
-Le tableau suivant contient les codes d’erreur et de réussite spécifiques à DirectShow dans l’ordre numérique. Les codes de retour commençant par VFW \_ S \_ indiquent la réussite. Une opération peut échouer partiellement et avoir toujours une valeur de retour correcte. Par exemple, **VFW \_ S \_ certaines \_ données \_ ignorées** indiquent qu’un fichier a été rendu en ignorant certains de ses paramètres de propriété. Les codes de retour commençant par VFW \_ E \_ indiquent une erreur.
+le tableau suivant contient des codes d’erreur et de réussite spécifiques à DirectShow dans l’ordre numérique. Les codes de retour commençant par VFW \_ S \_ indiquent la réussite. Une opération peut échouer partiellement et avoir toujours une valeur de retour correcte. Par exemple, **VFW \_ S \_ certaines \_ données \_ ignorées** indiquent qu’un fichier a été rendu en ignorant certains de ses paramètres de propriété. Les codes de retour commençant par VFW \_ E \_ indiquent une erreur.
 
 Ces valeurs sont définies dans le fichier d’en-tête Vfwmsgs. h.
 
@@ -114,10 +114,10 @@ Ces valeurs sont définies dans le fichier d’en-tête Vfwmsgs. h.
 | <span id="VFW_E_NO_DECOMPRESSOR"></span><span id="vfw_e_no_decompressor"></span><dl> <dt>**VFW \_ E \_ aucun \_ décompresseur**</dt> <dt>0x80040255</dt> </dl>                                                                           | Impossible de lire le flux vidéo : impossible de trouver un décompresseur approprié.<br/>                                                                                                                                                                                  |
 | <span id="VFW_E_NO_AUDIO_HARDWARE"></span><span id="vfw_e_no_audio_hardware"></span><dl> <dt>**VFW \_ E \_ pas \_ de \_ matériel audio**</dt> <dt>0x80040256</dt> </dl>                                                                    | Impossible de lire le flux audio : aucun matériel audio n’est disponible ou le matériel n’est pas pris en charge.<br/>                                                                                                                                                        |
 | <span id="VFW_E_RPZA"></span><span id="vfw_e_rpza"></span><dl> <dt>**VFW \_ \_RPZA**</dt> <dt>0x80040259</dt> </dl>                                                                                                             | Impossible de lire le flux vidéo : le format’RPZA’n’est pas pris en charge.<br/>                                                                                                                                                                                          |
-| <span id="VFW_E_PROCESSOR_NOT_SUITABLE"></span><span id="vfw_e_processor_not_suitable"></span><dl> <dt>**VFW \_ \_Processeur E \_ 0x8004025B \_ inapproprié**</dt> <dt></dt> </dl>                                                     | DirectShow ne peut pas lire les films MPEG sur ce processeur.<br/>                                                                                                                                                                                                       |
+| <span id="VFW_E_PROCESSOR_NOT_SUITABLE"></span><span id="vfw_e_processor_not_suitable"></span><dl> <dt>**VFW \_ \_Processeur E \_ 0x8004025B \_ inapproprié**</dt> <dt></dt> </dl>                                                     | DirectShow ne pouvez pas lire des films MPEG sur ce processeur.<br/>                                                                                                                                                                                                       |
 | <span id="VFW_E_UNSUPPORTED_AUDIO"></span><span id="vfw_e_unsupported_audio"></span><dl> <dt>**VFW \_ 0x8004025C \_ \_ audio non pris en charge**</dt> <dt></dt> </dl>                                                                     | Impossible de lire le flux audio : le format audio n’est pas pris en charge.<br/>                                                                                                                                                                                       |
 | <span id="VFW_E_UNSUPPORTED_VIDEO"></span><span id="vfw_e_unsupported_video"></span><dl> <dt>**VFW \_ 0x8004025D \_ \_ vidéo non prise en charge**</dt> <dt></dt> </dl>                                                                     | Impossible de lire le flux vidéo : le format vidéo n’est pas pris en charge.<br/>                                                                                                                                                                                       |
-| <span id="VFW_E_MPEG_NOT_CONSTRAINED"></span><span id="vfw_e_mpeg_not_constrained"></span><dl> <dt>**VFW \_ E \_ MPEG \_ non \_ restreint**</dt> <dt>0x8004025E</dt> </dl>                                                           | DirectShow ne peut pas lire ce flux vidéo, car il se trouve en dehors de la norme restreinte.<br/>                                                                                                                                                                 |
+| <span id="VFW_E_MPEG_NOT_CONSTRAINED"></span><span id="vfw_e_mpeg_not_constrained"></span><dl> <dt>**VFW \_ E \_ MPEG \_ non \_ restreint**</dt> <dt>0x8004025E</dt> </dl>                                                           | DirectShow ne pouvez pas lire ce flux vidéo, car il se trouve en dehors de la norme restreinte.<br/>                                                                                                                                                                 |
 | <span id="VFW_E_NOT_IN_GRAPH"></span><span id="vfw_e_not_in_graph"></span><dl> <dt>**VFW \_ E \_ non \_ dans le \_ graphique**</dt> <dt>0x8004025F</dt> </dl>                                                                                   | Impossible d’exécuter la fonction demandée sur un objet qui n’est pas dans le graphique de filtre.<br/>                                                                                                                                                                         |
 | <span id="VFW_E_NO_TIME_FORMAT"></span><span id="vfw_e_no_time_format"></span><dl> <dt>**VFW \_ E \_ \_ \_ format**</dt> <dt>0x80040261</dt> </dl>                                                                             | Impossible d’accéder au format d’heure sur un objet.<br/>                                                                                                                                                                                                                 |
 | <span id="VFW_E_READ_ONLY"></span><span id="vfw_e_read_only"></span><dl> <dt>**VFW \_ E \_ lecture \_ seule**</dt> <dt>0x80040262</dt> </dl>                                                                                             | Impossible d’établir la connexion, car le flux est en lecture seule et le filtre modifie les données.<br/>                                                                                                                                                               |
@@ -179,7 +179,7 @@ Ces valeurs sont définies dans le fichier d’en-tête Vfwmsgs. h.
 
 
 
-Outre les valeurs indiquées précédemment, les services d’édition DirectShow définissent les valeurs **HRESULT** suivantes.
+outre les valeurs indiquées précédemment, DirectShow Services d’édition définissent les valeurs **HRESULT** suivantes.
 
 
 

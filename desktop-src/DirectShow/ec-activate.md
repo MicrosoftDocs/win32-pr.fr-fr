@@ -4,12 +4,12 @@ ms.assetid: 2e004899-bb2b-4127-b606-e2a979275836
 title: EC_ACTIVATE (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81e48adb3ae98af172664b807386c615d34b6b22
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b14d9b0ad192045f179d9f0f366eed6a32efb0e6cc6f61b47255f118b7f55258
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966059"
 ---
 # <a name="ec_activate"></a>\_activation EC
 
@@ -37,7 +37,7 @@ Une fenêtre vidéo est en cours d’activation ou de désactivation.
 
 Le gestionnaire de graphique de filtre définit le focus, via l’interface [**IResourceManager**](/windows/desktop/api/Strmif/nn-strmif-iresourcemanager) . Elle n’envoie pas la notification d’événement à l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un convertisseur vidéo envoie cet événement chaque fois que sa fenêtre est activée ou désactivée (autrement dit, lorsqu’il reçoit un \_ message WM ACTIVATEAPP). L’activation ou la désactivation de la fenêtre peut se produire parce que la fenêtre a obtenu ou perdu le focus, ou parce que le convertisseur a basculé entre le mode plein écran et le mode fenêtre.
 
@@ -60,7 +60,7 @@ Cet événement permet au gestionnaire de graphes de filtre d’allouer des ress
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

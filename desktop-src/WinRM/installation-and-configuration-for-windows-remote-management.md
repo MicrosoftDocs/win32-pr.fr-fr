@@ -1,26 +1,26 @@
 ---
 title: Installation et configuration de Windows Remote Management
-description: Pour les scripts Windows Remote Management (WinRM) à exécuter, et pour que l’outil de ligne de commande **WinRM** exécute des opérations de données, Windows Remote Management (WinRM) doit être installé et configuré à la fois.
+description: pour les scripts Windows Remote Management (winrm) à exécuter, et pour que l’outil de ligne de commande **WinRM** exécute des opérations de données, Windows Remote Management (winrm) doit être installé et configuré à la fois.
 ms.date: 08/31/2020
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: article
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 4ebe4094984f237a3c8949392e3e9a6b47b8afe6
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: c031ad9b9d9c888385527c227b102c64bb4dfb65eaea340e52eac3fb9595e591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104520335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119997619"
 ---
 # <a name="installation-and-configuration-for-windows-remote-management"></a>Installation et configuration de Windows Remote Management
 
-Pour les scripts Windows Remote Management (WinRM) à exécuter, et pour que l’outil de ligne de commande **WinRM** exécute des opérations de données, Windows Remote Management (WinRM) doit être installé et configuré à la fois.
+pour les scripts Windows Remote Management (winrm) à exécuter, et pour que l’outil de ligne de commande **WinRM** exécute des opérations de données, Windows Remote Management (winrm) doit être installé et configuré à la fois.
 
 Ces éléments dépendent également de la configuration de WinRM.
 
-- L’outil en ligne de commande [Windows Remote Shell](./windows-remote-management-glossary.md#w) (**Winrs**).
+- l’outil en ligne de commande de l' [interpréteur](./windows-remote-management-glossary.md#w) de commandes (**Winrs**) Windows.
 - [Transfert d’événements](./windows-remote-management-glossary.md#e).
-- Communication à distance de Windows PowerShell 2,0.
+- Windows PowerShell la communication à distance 2,0.
 
 ## <a name="where-winrm-is-installed"></a>Où WinRM est installé
 
@@ -30,7 +30,7 @@ WinRM est installé automatiquement avec toutes les versions actuellement prises
 
 Ces composants du [fournisseur WMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) de WinRM et de l' [interface de gestion de plateforme intelligente (IPMI)](./windows-remote-management-glossary.md#i) sont installés avec le système d’exploitation.
 
-- Le service WinRM démarre automatiquement sur Windows Server 2008 et à l’extérieur (sur Windows Vista, vous devez démarrer le service manuellement).
+- le service WinRM démarre automatiquement sur Windows Server 2008 et en amont (sur Windows Vista, vous devez démarrer le service manuellement).
 - Par défaut, aucun [écouteur](./windows-remote-management-glossary.md#l) WinRM n’est configuré. Même si le service WinRM est en cours d’exécution, WS-Management [messages](./windows-remote-management-glossary.md#m) de protocole qui demandent des données ne peuvent pas être reçus et envoyés.
 - Le pare-feu de connexion Internet (ICF) bloque l’accès aux ports.
 
@@ -292,7 +292,7 @@ Spécifie si l’écouteur HTTP de compatibilité est activé. Si ce paramètre 
 
 Spécifie si l’écouteur HTTPs de compatibilité est activé. Si ce paramètre a la *valeur true*, l’écouteur écoute le port 443 en plus du port 5986. La valeur par défaut est *False*.
 
-## <a name="winrs-default-configuration-settings"></a>Paramètres de configuration par défaut de Winrs
+## <a name="winrs-default-configuration-settings"></a>Paramètres de Configuration par défaut de Winrs
 
 `winrm quickconfig` configure également les paramètres par défaut de **Winrs** .
 
@@ -330,16 +330,16 @@ Indique le nombre maximal de shells simultanés qu'un utilisateur peut ouvrir à
 
 ## <a name="configuring-winrm-with-group-policy"></a>Configuration de WinRM avec stratégie de groupe
 
-Utilisez l’éditeur de stratégie de groupe pour configurer Windows Remote Shell et WinRM pour les ordinateurs de votre entreprise.
+utilisez l’éditeur de stratégie de groupe pour configurer Windows Shell distant et WinRM pour les ordinateurs de votre entreprise.
 
 ### <a name="to-configure-with-group-policy"></a>Pour configurer avec stratégie de groupe
 
 1. Ouvrez une fenêtre d’invite de commandes en tant qu’administrateur.
-2. À l’invite de commandes, tapez `gpedit.msc` . La fenêtre de l' **éditeur d’objets stratégie de groupe** s’ouvre.
-3. Recherchez les **Windows Remote Management** et **windows Remote Shell** stratégie de groupe objets (GPO) sous **Configuration ordinateur \\ modèles d’administration \\ composants Windows**.
+2. À l’invite de commandes, tapez `gpedit.msc`. La fenêtre de l' **éditeur d’objets stratégie de groupe** s’ouvre.
+3. recherchez les **Windows Remote Management** et Windows objets de l' **interpréteur de commandes à distance** stratégie de groupe, sous **Configuration ordinateur \\ Modèles d’administration \\ Windows composants**.
 4. Sous l’onglet **étendue** , sélectionnez un paramètre pour afficher une description. Double-cliquez sur un paramètre pour le modifier.
 
-## <a name="windows-firewall-and-winrm-20-ports"></a>Ports du pare-feu Windows et WinRM 2,0
+## <a name="windows-firewall-and-winrm-20-ports"></a>Windows Ports pare-feu et WinRM 2,0
 
 À partir de WinRM 2,0, les ports de l’écouteur par défaut configurés par `Winrm quickconfig` sont le port 5985 pour le transport http et le port 5986 pour HTTPS. Les écouteurs WinRM peuvent être configurés sur n’importe quel port arbitraire.
 
@@ -347,7 +347,7 @@ Si un ordinateur est mis à niveau vers WinRM 2,0, les écouteurs configurés pr
 
 ## <a name="winrm-installation-and-configuration-notes"></a>Remarques sur l’installation et la configuration de WinRM
 
-WinRM n’est pas dépendant de tout autre service, à l’exception de WinHttp. Si le service d’administration IIS est installé sur le même ordinateur, vous pouvez voir des messages indiquant que WinRM ne peut pas être chargé avant Internet Information Services (IIS). Toutefois, WinRM ne dépend en fait pas d’IIS &mdash; , car l’ordre de chargement s’assure que le service IIS démarre avant le service http. WinRM requiert qu' `WinHTTP.dll` il soit inscrit.
+WinRM n’est pas dépendant de tout autre service, à l’exception de WinHttp. si le Service d’administration IIS est installé sur le même ordinateur, vous pouvez voir des messages indiquant que WinRM ne peut pas être chargé avant Internet Information Services (IIS). Toutefois, WinRM ne dépend en fait pas d’IIS &mdash; , car l’ordre de chargement s’assure que le service IIS démarre avant le service http. WinRM requiert qu' `WinHTTP.dll` il soit inscrit.
 
 Si le client de pare-feu ISA2004 est installé sur l’ordinateur, il peut provoquer le blocage d’un client WS-Management (Web Services for Management). Pour éviter ce problème, installez ISA2004 Firewall SP1.
 
@@ -367,7 +367,7 @@ Le fournisseur IPMI place les classes de matériel dans l' [espace de noms](/win
 
 ## <a name="wmi-plug-in-configuration-notes"></a>Remarques sur la configuration du plug-in WMI
 
-À compter de Windows 8 et de Windows Server 2012, les [plug-ins WMI](./windows-remote-management-glossary.md#w) ont leurs propres configurations de sécurité. Pour qu’un utilisateur normal ou d’alimentation (non-administrateur) puisse utiliser le *plug-in WMI*, vous devez activer l’accès pour cet utilisateur une fois que l' [écouteur](./windows-remote-management-glossary.md#l) a été configuré. Tout d’abord, vous devez configurer l’utilisateur pour l’accès à distance à [WMI](./windows-remote-management-glossary.md#w) par le biais de l’une de ces étapes.
+à partir de Windows 8 et Windows Server 2012, les [plug-ins WMI](./windows-remote-management-glossary.md#w) ont leurs propres configurations de sécurité. Pour qu’un utilisateur normal ou d’alimentation (non-administrateur) puisse utiliser le *plug-in WMI*, vous devez activer l’accès pour cet utilisateur une fois que l' [écouteur](./windows-remote-management-glossary.md#l) a été configuré. Tout d’abord, vous devez configurer l’utilisateur pour l’accès à distance à [WMI](./windows-remote-management-glossary.md#w) par le biais de l’une de ces étapes.
 
 - Exécutez `lusrmgr.msc` pour ajouter l’utilisateur au groupe **WinRMRemoteWMIUsers \_ \_** dans la fenêtre **utilisateurs et groupes locaux** , ou
 - Utilisez l’outil en ligne de commande **WinRM** pour configurer le descripteur de sécurité de l' [*espace de noms*](./windows-remote-management-glossary.md#n) du [plug-in WMI](./windows-remote-management-glossary.md#w), comme suit : `winrm configSDDL http://schemas.microsoft.com/wbem/wsman/1/wmi/ WmiNamespace` .

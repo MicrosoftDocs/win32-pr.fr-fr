@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d58367abeccb324fd20603b879e54673439c6049
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aa5dfc7f4940ee9023c505b8a643b9a8c708701422a0a89c16f8ebe6bae8577e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033579"
 ---
 # <a name="imsrdpclient2-interface"></a>Interface IMsRdpClient2
 
@@ -48,7 +48,7 @@ L’interface **IMsRdpClient2** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IMsRdpClient2** a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

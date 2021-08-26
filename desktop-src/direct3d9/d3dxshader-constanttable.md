@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: ef4fe6cf9af924d9ae6c358f72bf49f93d85f29d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f423eba3187c6bbc5c17d4ba9284e4e1b2048a016b8a11744b83b46e4d8522af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027289"
 ---
 # <a name="d3dxshader_constanttable-structure"></a>D3DXSHADER \_ CONSTANTTABLE, structure
 
@@ -122,7 +122,7 @@ Offset dans la chaîne qui contient la cible.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations de constante de nuanceur sont incluses dans une table de commentaires délimitée par des tabulations. Tous les décalages sont mesurés en octets à partir du début de la structure. Les entrées de la table constante sont triées par créateur dans l’ordre croissant.
 

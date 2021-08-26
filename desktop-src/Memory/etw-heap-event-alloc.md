@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - ntwmi.h
-ms.openlocfilehash: 57e09ed1785f31b6203c526f2b6d42cc4815a266
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 111c9268cb6ad174dc79323a9b867923e6264428f939caeae7089685e62f4318
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963199"
 ---
 # <a name="etw_heap_event_alloc-event"></a>\_ \_ Événement Alloc du tas ETW \_
 
@@ -80,7 +80,7 @@ Le tableau suivant répertorie les valeurs possibles pour le paramètre *source*
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' **événement \_ \_ \_ Alloc du tas ETW** est enregistré sur toutes les allocations de tas.
 
@@ -90,8 +90,8 @@ L' **événement \_ \_ \_ Alloc du tas ETW** est enregistré sur toutes les allo
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Ntwmi. h</dt> </dl> |
 
 

@@ -1,5 +1,5 @@
 ---
-description: Charge une version spécifiée d’une DLL de bibliothèque .NET Framework.
+description: charge une version spécifiée d’une DLL de bibliothèque .NET Framework.
 ms.assetid: f001774d-ea9a-4820-aec0-99ce958b1e1d
 title: LoadLibraryShim, fonction
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Mscoree.dll
-ms.openlocfilehash: 3a2fd8ab6aef8d0309748cbbf37d56ccd032b050
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 123d4036713d6c1c5b7f7a08026d29d7d34126c28c5c2c1fceb94eb01baf9609
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001239"
 ---
 # <a name="loadlibraryshim-function"></a>LoadLibraryShim, fonction
 
-Charge une version spécifiée d’une DLL de bibliothèque .NET Framework.
+charge une version spécifiée d’une DLL de bibliothèque .NET Framework.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -74,9 +74,9 @@ Handle du module.
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction est utilisée pour charger les dll de bibliothèque qui sont incluses dans le package redistribuable .NET Framework, et non des dll générées par l’utilisateur.
+cette fonction est utilisée pour charger les dll de bibliothèque qui sont incluses dans le package redistribuable .NET Framework, et non des dll générées par l’utilisateur.
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fed84cac9634148742c92f1b0d4b4ecdb905ac42
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 25528f3315fcfae95d07d973d4743548eb35ec84bf754fdaafe067bcaccc56f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103734852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054459"
 ---
 # <a name="thread-safety"></a>Cohérence de thread
 
@@ -44,7 +44,7 @@ Les handles suivants sont des threads libres et prennent en charge les opératio
 Pour tous ces handles, le Threading est défini en termes d’opérations (pas d’appels de fonction). Une opération est définie différemment pour les fonctions appelées de façon synchrone par rapport aux fonctions appelées de façon asynchrone :
 
 -   Pour les fonctions appelées de façon synchrone, l’opération est en attente pendant l’exécution de la fonction.
--   Pour les fonctions appelées de façon asynchrone, si la fonction retourne un code de retour autre que **WS \_ S \_ Async** , l’opération est en attente pendant l’exécution de la fonction. Toutefois, si la fonction retourne **WS \_ S \_ Async** , l’opération est en attente jusqu’à ce que le [**\_ \_ rappel WS Async**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) soit appelé. Pour plus d’informations sur l’appel de fonctions de manière asynchrone, consultez la rubrique [modèle asynchrone](asynchronous-model.md) . Pour les codes d’erreur, consultez [valeurs de retour des services Web Windows](windows-web-services-return-values.md).
+-   Pour les fonctions appelées de façon asynchrone, si la fonction retourne un code de retour autre que **WS \_ S \_ Async** , l’opération est en attente pendant l’exécution de la fonction. Toutefois, si la fonction retourne **WS \_ S \_ Async** , l’opération est en attente jusqu’à ce que le [**\_ \_ rappel WS Async**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) soit appelé. Pour plus d’informations sur l’appel de fonctions de manière asynchrone, consultez la rubrique [modèle asynchrone](asynchronous-model.md) . pour les codes d’erreur, consultez [Windows les valeurs de retour des Services Web](windows-web-services-return-values.md).
 
 Le fait de ne pas suivre le contrat de thread d’un objet entraîne un comportement indéfini.
 

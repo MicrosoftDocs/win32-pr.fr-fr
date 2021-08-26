@@ -4,12 +4,12 @@ ms.assetid: f9ec6aa5-15ad-47e6-b5f8-8ac4daaf178f
 title: Obtention d’informations supplémentaires sur le processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90f7c68a89e2989c33c5f57a4e4fb5cead86a74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98b4ed87fca02dfcee4cbcd36621fffb9920a3f320cfeac771507748a151cf33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032119"
 ---
 # <a name="obtaining-additional-process-information"></a>Obtention d’informations supplémentaires sur le processus
 

@@ -4,12 +4,12 @@ description: La prise en charge de la compression par bloc (BC) des textures a Ã
 ms.assetid: E0735D4E-9C0F-45DC-854A-C27EB8367D86
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f80a22c97c8a706a3825abfb4ac2b5133c1a9beb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b52c2c764c0f9dca4021dcb14187db67e697cd7155701294a9c6214b4543d00b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027799"
 ---
 # <a name="texture-block-compression-in-direct3d-11"></a>Compression de bloc de texture dans Direct3D 11
 

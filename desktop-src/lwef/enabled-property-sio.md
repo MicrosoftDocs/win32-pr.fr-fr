@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété d’objet d’entrée vocale acti
 ms.assetid: d48f02f1-7d93-4780-88a7-61597672bb58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a3e5d7989da4144805fbb926f744026033638d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5f15ff6b556aa583b9d0fc755b4b3cc5e614854851009229a3247dc815f1c37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962899"
 ---
 # <a name="enabled-property-speech-input-object"></a>Propriété Enabled (objet d’entrée vocale)
 

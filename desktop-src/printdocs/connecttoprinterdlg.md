@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: 9af428533d111300d31f6529a0a030fc3b81ee7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7bbeda17f5cbafa46785577243df9e50b3bf7109631166ffb8894bbb678393e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950429"
 ---
 # <a name="connecttoprinterdlg-function"></a>ConnectToPrinterDlg fonction)
 
@@ -47,7 +47,7 @@ Spécifie la fenêtre parente de la boîte de dialogue.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Ce paramètre est réservé et doit être égal à zéro.
@@ -60,7 +60,7 @@ Si la fonction s’exécute correctement et que l’utilisateur sélectionne une
 
 Si la fonction échoue, ou si l’utilisateur annule la boîte de dialogue sans sélectionner d’imprimante, la valeur de retour est **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

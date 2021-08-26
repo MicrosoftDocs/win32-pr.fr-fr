@@ -3,7 +3,7 @@ title: Message PBM_SETSTATE (commctrl. h)
 description: Définit l’état de la barre de progression.
 ms.assetid: 4626f334-db74-4618-8fc7-e6f21c88ca19
 keywords:
-- PBM_SETSTATE les contrôles de message Windows
+- PBM_SETSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c91e94bcc909957264eff776e56d3580b2c36ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 794006517eaa23789f3a25425b1213fede7f8dde9893587def02ebc9605b28f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986059"
 ---
 # <a name="pbm_setstate-message"></a>\_Message PBM SETSTATE
 
@@ -61,8 +61,8 @@ Retourne l’état précédent.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

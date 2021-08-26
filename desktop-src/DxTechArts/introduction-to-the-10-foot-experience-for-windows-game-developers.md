@@ -1,44 +1,44 @@
 ---
-title: Présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
+title: présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
 description: Cet article présente l’expérience de 10 pieds et explore la liste des choses que vous devez prendre en compte au sujet de ce nouveau modèle d’interaction, même si vous ne vous attendez pas à ce que votre jeu soit joué de cette façon.
 ms.assetid: 126a0aae-6a7a-8cda-5748-c364e54c304e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4814c76aeefdadbe1fd8bf9dc4c21cd84612671
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 049cbbe839509681f8f8629144511853d2984bbabafbf989611d1ed1db32e686
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963619"
 ---
-# <a name="introduction-to-the-10-foot-experience-for-windows-game-developers"></a>Présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
+# <a name="introduction-to-the-10-foot-experience-for-windows-game-developers"></a>présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
 
-Un nombre croissant de personnes utilisent leurs ordinateurs personnels d’une manière entièrement nouvelle. Lorsque vous pensez à une interaction classique avec un ordinateur Windows, vous envisagez probablement de vous occuper d’un bureau avec une analyse et d’utiliser une souris et un clavier (ou peut-être un appareil de manette de jeu); C’est ce que l’on appelle l’expérience de 2 pieds, et c’est toujours le scénario le plus courant pour les jeux Windows, mais il existe une autre tendance avec laquelle vous commencerez probablement à vous entendre : l’expérience de 10 pieds, qui décrit l’utilisation de votre ordinateur en tant que périphérique de divertissement avec sortie sur un téléviseur. Cet article présente l’expérience de 10 pieds et explore la liste des choses que vous devez prendre en compte au sujet de ce nouveau modèle d’interaction, même si vous ne vous attendez pas à ce que votre jeu soit joué de cette façon. Une partie de vos clients exécutera votre jeu Windows sur un ordinateur exécutant Windows Media Center. il est préférable de savoir à quoi cette expérience sera fondée avant que vos clients ne l’essaient.
+Un nombre croissant de personnes utilisent leurs ordinateurs personnels d’une manière entièrement nouvelle. si vous pensez que l’interaction est classique avec un ordinateur Windows, vous envisagez probablement d’être assis au bureau avec une analyse et à l’aide d’une souris et d’un clavier (ou peut-être d’un appareil joystick); c’est ce que l’on appelle la « expérience de 2 pieds ». il s’agit toujours du scénario le plus courant pour les jeux de Windows, mais il existe une autre tendance avec laquelle vous commencerez probablement à vous entendre : l’expérience de 10 pieds, qui décrit l’utilisation de votre ordinateur en tant que périphérique de divertissement avec sortie sur un téléviseur. Cet article présente l’expérience de 10 pieds et explore la liste des choses que vous devez prendre en compte au sujet de ce nouveau modèle d’interaction, même si vous ne vous attendez pas à ce que votre jeu soit joué de cette façon. une partie de vos clients exécutera votre jeu Windows sur un ordinateur exécutant Windows Media Center. il est préférable de savoir à quoi cette expérience sera fondée avant que vos clients ne l’essaient.
 
--   [Qu’est-ce que Windows Media Center ?](#what-is-windows-media-center)
+-   [qu’est-ce que Windows Media Center ?](#what-is-windows-media-center)
 -   [Expérience de 10 pieds](#the-10-foot-experience)
     -   [Installation](#installation)
     -   [Entrée utilisateur](#user-input)
     -   [Affichage](#display)
 -   [Proportions et grand écran](#aspect-ratio-and-widescreen)
--   [Titre-zone sécurisée](#title-safe-region)
+-   [titre-région Coffre](#title-safe-region)
 -   [Suggestions NTSC](#ntsc-suggestions)
     -   [Fixer les valeurs du composant de couleur RVB entre 16 et 235](#clamp-the-rgb-color-component-values-between-16-and-235)
     -   [Évitez les couleurs similaires qui peuvent apparaître identiques](#avoid-similar-colors-that-might-appear-identical)
     -   [Évitez les différences nettes en comparaison](#avoid-sharp-differences-in-contrast)
 -   [Conclusion](#conclusion)
 
-## <a name="what-is-windows-media-center"></a>Qu’est-ce que Windows Media Center ?
+## <a name="what-is-windows-media-center"></a>qu’est-ce que Windows Media Center ?
 
-Windows Media Center peut agir en tant qu’interface avec les fonctionnalités multimédias de l’ordinateur hôte. Le site Web pour cette fonctionnalité, la [page d’hébergement Windows Media Center](https://windows.microsoft.com/windows/products/windows-media-center/), offre une présentation détaillée et présente tous les éléments disponibles dans la dernière version. Media Center est inclus dans Windows XP Media Center Edition, Windows Vista Édition familiale Premium, Windows Vista Édition intégrale et la plupart des éditions de Windows 7.
+Windows Media Center peut agir en tant qu’interface avec les fonctionnalités multimédias de l’ordinateur hôte. le site Web de cette fonctionnalité, [Windows la page d’hébergement de Media Center](https://windows.microsoft.com/windows/products/windows-media-center/), offre une présentation détaillée et présente toutes les nouveautés disponibles dans la dernière version. media center est inclus dans Windows XP édition media center, Windows vista édition familial Premium, Windows vista Ultimate et la plupart des éditions de Windows 7.
 
-Dans le passé, la seule façon d’obtenir Windows Media Center était d’acheter un PC Media Center auprès d’un fabricant de systèmes de niveau 1, mais comme Windows Media Center est désormais inclus avec deux éditions de Windows Vista, la place de marché potentielle est désormais bien plus importante.
+dans le passé, la seule façon d’obtenir Windows media center était d’acheter un PC media center auprès d’un fabricant de système de niveau 1, mais comme Windows media center est désormais inclus avec deux éditions de Windows Vista, la place de marché potentielle est désormais bien plus importante.
 
 ## <a name="the-10-foot-experience"></a>Expérience de 10 pieds
 
-Windows Media Center a été conçu autour de l’idée que les gens pouvaient utiliser Windows dans le cadre d’une expérience de divertissement riche dans la salle de vie. il s’ensuit que la plupart des utilisateurs préfèrent interagir différemment avec Windows Media Center et avec les applications informatiques traditionnelles. Pour une, si le client utilise l’ordinateur dans l’espace de vie pour le divertissement, il est probable que la vidéo s’affiche sur un autre point qu’un moniteur d’ordinateur conventionnel : les téléviseurs analogiques, les téléviseurs numériques haute définition, et tout nombre d’écrans LCD sont tous des candidats probables. Ces types d’affichages sont généralement affichés d’une distance d’environ 10 mètres, par conséquent, l’étiquette *expérience de 10 pieds*.
+Windows Media center a été conçu autour de l’idée que les gens pouvaient utiliser Windows pour une expérience de divertissement riche en salle de vie, et cela suit que la plupart des utilisateurs préfèrent interagir différemment avec Windows Media Center et avec les applications informatiques traditionnelles. Pour une, si le client utilise l’ordinateur dans l’espace de vie pour le divertissement, il est probable que la vidéo s’affiche sur un autre point qu’un moniteur d’ordinateur conventionnel : les téléviseurs analogiques, les téléviseurs numériques haute définition, et tout nombre d’écrans LCD sont tous des candidats probables. Ces types d’affichages sont généralement affichés d’une distance d’environ 10 mètres, par conséquent, l’étiquette *expérience de 10 pieds*.
 
-L’expérience de 10 pieds n’est pas limitée aux utilisateurs de Windows Media Center ; Il est courant dans les dernières années que les utilisateurs connectent leur poste de travail ou leur Notebook à leur téléviseur et à leur système audio. Il est de plus en plus courant pour les périphériques d’affichage des consommateurs d’exposer des connexions RGB ou DVI, les ports de sortie vidéo standard sur les ordinateurs. En outre, les ports S-Video sont une fonctionnalité classique des cartes vidéo haut de gamme et offrent un moyen simple de sortir sur un autre périphérique d’affichage.
+l’expérience de 10 pieds n’est pas limitée aux utilisateurs de Windows Media Center ; Il est courant dans les dernières années que les utilisateurs connectent leur poste de travail ou leur Notebook à leur téléviseur et à leur système audio. Il est de plus en plus courant pour les périphériques d’affichage des consommateurs d’exposer des connexions RGB ou DVI, les ports de sortie vidéo standard sur les ordinateurs. En outre, les ports S-Video sont une fonctionnalité classique des cartes vidéo haut de gamme et offrent un moyen simple de sortir sur un autre périphérique d’affichage.
 
 Certaines règles de conception importantes doivent être prises en compte pour une expérience agréable de 10 pieds de page : installation, entrée utilisateur et affichage.
 
@@ -48,13 +48,13 @@ Pendant l’expérience moyenne de 2 mètres, l’utilisateur se trouve dans la 
 
 ### <a name="user-input"></a>Entrée utilisateur
 
-Une autre fonctionnalité de Windows Media Center est la prise en charge d’un contrôle à distance standard, qui est l’appareil d’entrée généralement préféré. Bien que le genre de votre titre de jeu décide en grande partie du fait que le contrôle à distance est apte à fournir des entrées de jeu, vous souhaiterez peut-être autoriser l’utilisateur à suspendre le jeu et à accéder aux menus du jeu à l’aide du contrôle à distance. Toutefois, assurez-vous que vous autorisez également l’utilisateur à contrôler les menus à l’aide de l’appareil d’entrée de jeu principal. Pour plus d’informations sur la conception et le développement pour Windows Media Center et ses appareils, consultez Kit de développement logiciel (SDK) [Windows Media Center](/previous-versions/msdn10/bb895967(v=msdn.10)) sur MSDN.
+une autre fonctionnalité de Windows Media Center est la prise en charge d’un contrôle à distance standard, qui est l’appareil d’entrée généralement préféré. Bien que le genre de votre titre de jeu décide en grande partie du fait que le contrôle à distance est apte à fournir des entrées de jeu, vous souhaiterez peut-être autoriser l’utilisateur à suspendre le jeu et à accéder aux menus du jeu à l’aide du contrôle à distance. Toutefois, assurez-vous que vous autorisez également l’utilisateur à contrôler les menus à l’aide de l’appareil d’entrée de jeu principal. pour plus d’informations sur la conception et le développement de Windows media center et de ses appareils, consultez [Windows Kit de développement logiciel (sdk) media center](/previous-versions/msdn10/bb895967(v=msdn.10)) sur MSDN.
 
 Évitez toute interaction physique entre l’utilisateur et l’ordinateur ou ses périphériques. Il n’est pas souhaitable de demander à l’utilisateur de modifier les contrôleurs d’entrée pendant le jeu de données, car il est probable qu’il est proche uniquement de l’appareil d’entrée principal.
 
-Microsoft a créé des contrôleurs de boîtier courants pour une utilisation avec Windows et Xbox 360 : le contrôleur Xbox 360 pour Windows et le contrôleur sans fil Xbox 360 pour Windows. Si vous vous assurez que votre titre est bien adapté sur les contrôleurs courants, vous pourrez facilement résoudre les problèmes liés au test de votre jeu sur les périphériques d’entrée potentiels.
+Microsoft a créé des contrôleurs de boîtier courants pour une utilisation avec Windows et Xbox 360, le manette Xbox 360 pour Windows et le manette sans fil Xbox 360 pour Windows. Si vous vous assurez que votre titre est bien adapté sur les contrôleurs courants, vous pourrez facilement résoudre les problèmes liés au test de votre jeu sur les périphériques d’entrée potentiels.
 
-### <a name="display"></a>Afficher
+### <a name="display"></a>Affichage
 
 La vaste gamme de périphériques d’affichage potentiels vous donne des conseils sur l’affichage et chaque type d’appareil présente des avertissements spéciaux. Quelques-uns des problèmes relatifs aux technologies d’affichage spécifiques sont présentés plus loin dans ce document. Quel que soit le périphérique de sortie vidéo, il est important que les polices et les graphiques de l’interface utilisateur soient dimensionnés suffisamment grand pour une lisibilité à une distance de 10 mètres. Notez également que les polices avec anticrénelage offrent généralement une meilleure lisibilité.
 
@@ -142,8 +142,8 @@ Bien que cette règle ne soit pas toujours pratique à suivre, vous pouvez atté
 
 ## <a name="conclusion"></a>Conclusion
 
-Cet article a présenté l’expérience de 10 pieds du point de vue d’un développeur de jeux Windows, mais ce n’est pas une enquête complète. vous devez rechercher ces rubriques plus en détail si vous développez un titre de jeu Windows (même s’il n’est pas destiné à être utilisé avec Windows Media Center). Le véritable test consiste à essayer votre jeu sur un large éventail d’affichages vidéo pour vous assurer que votre jeu offre une expérience agréable sur chacun. En fonction de la durée de vie classique d’un jeu Windows et de la croissance prédite de l’utilisation de Windows Media Center, il est presque garanti qu’un jeu que vous publiez aujourd’hui fait partie de l’expérience de 10 pieds de quelqu’un, que les clients peuvent jouer à votre jeu depuis le confort des canapés ou qu’ils sont imposés à des bureaux.
+cet article a présenté l’expérience de 10 pieds du point de vue d’un développeur de jeux Windows, mais ce n’est en aucune façon une enquête complète. vous devez rechercher ces rubriques plus en détail si vous développez un titre de jeu Windows (même s’il n’est pas destiné à être utilisé avec Windows Media Center). Le véritable test consiste à essayer votre jeu sur un large éventail d’affichages vidéo pour vous assurer que votre jeu offre une expérience agréable sur chacun. en fonction de la durée de vie classique d’un jeu basé sur les Windows et de la croissance prédite de l’utilisation de Windows Media Center, il est presque garanti qu’un jeu que vous publiez aujourd’hui fait partie de l’expérience de 10 pieds de l’utilisateur, que les clients peuvent jouer à votre jeu depuis le confort des canapés ou qu’ils sont imposés à des bureaux.
 
- 
+ 
 
- 
+ 

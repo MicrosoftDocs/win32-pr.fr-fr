@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6759508e42b380f0c1987c2f69b422baf4025d58b0de3c503fdae6d55c15df09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 27799dbdbc21af4421713828633199d1c1a18973
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118071954"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466222"
 ---
 # <a name="jetsetdatabasesize-function"></a>JetSetDatabaseSize fonction)
 
@@ -67,52 +67,16 @@ Pointeur vers un nombre qui reçoit la taille de la base de données, en pages, 
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabaseInconsistent<br />
-JET_errDatabaseDirtyShutdown</p></td>
-<td><p>JET_errDatabaseInconsistent et JET_errDatabaseDirtyShutdown sont la même valeur numérique. La base de données dont la taille doit être ajustée doit être dans un état d’arrêt normal, appelée état cohérent. Une base de données incohérente n’est pas endommagée, mais elle nécessite la relecture des fichiers journaux.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseInvalidPath</p></td>
-<td><p><em>szDatabaseName</em> ne doit pas être une chaîne vide et non null.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDiskFull</p></td>
-<td><p>L’espace libre est insuffisant sur le volume pour effectuer l’opération d’augmentation. <strong>JetSetDatabaseSize</strong> peut également renvoyer de nombreuses erreurs liées aux fichiers, notamment, mais sans s’y limiter :</p>
-<ul>
-<li><p>JET_errDiskIO</p></li>
-<li><p>JET_errFileNotFound</p></li>
-<li><p>JET_errInvalidPath</p></li>
-<li><p>JET_errFileAccessDenied</p></li>
-<li><p>JET_errOutOfFileHandles</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’une des raisons pour lesquelles cette erreur peut être retournée est si <em>CPG</em> ne respecte pas la taille de base de données minimale. La taille de base de données minimale actuelle est de 256 pages.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>Les ressources mémoire du système sont insuffisantes.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errDatabaseInconsistent<br />JET_errDatabaseDirtyShutdown</p> | <p>JET_errDatabaseInconsistent et JET_errDatabaseDirtyShutdown sont la même valeur numérique. La base de données dont la taille doit être ajustée doit être dans un état d’arrêt normal, appelée état cohérent. Une base de données incohérente n’est pas endommagée, mais elle nécessite la relecture des fichiers journaux.</p> | 
+| <p>JET_errDatabaseInvalidPath</p> | <p><em>szDatabaseName</em> ne doit pas être une chaîne vide et non null.</p> | 
+| <p>JET_errDiskFull</p> | <p>L’espace libre est insuffisant sur le volume pour effectuer l’opération d’augmentation. <strong>JetSetDatabaseSize</strong> peut également renvoyer de nombreuses erreurs liées aux fichiers, notamment, mais sans s’y limiter :</p><ul><li><p>JET_errDiskIO</p></li><li><p>JET_errFileNotFound</p></li><li><p>JET_errInvalidPath</p></li><li><p>JET_errFileAccessDenied</p></li><li><p>JET_errOutOfFileHandles</p></li></ul> | 
+| <p>JET_errInvalidParameter</p> | <p>L’une des raisons pour lesquelles cette erreur peut être retournée est si <em>CPG</em> ne respecte pas la taille de base de données minimale. La taille de base de données minimale actuelle est de 256 pages.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>Les ressources mémoire du système sont insuffisantes.</p> | 
+
 
 
 #### <a name="remarks"></a>Remarques
@@ -129,38 +93,9 @@ La taille du fichier peut ne pas correspondre au nombre de pages retournées dan
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetSetDatabaseSizeW</strong> (Unicode) et <strong>JetSetDatabaseSizeA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetSetDatabaseSizeW</strong> (Unicode) et <strong>JetSetDatabaseSizeA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi
