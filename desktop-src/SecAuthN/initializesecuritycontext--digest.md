@@ -4,12 +4,12 @@ ms.assetid: 4b482dcc-3878-4bc6-85e4-229a1726cecc
 title: Fonction InitializeSecurityContext (Digest) (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: a09f598cacdd8b45fa1fe3e253c2e0de729796c6495204d98e20789b5de1441c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f09baebb4419da9b90dd6b0585788c5c7993c09d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119482589"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467316"
 ---
 # <a name="initializesecuritycontext-digest-function"></a>Fonction InitializeSecurityContext (Digest)
 
@@ -73,8 +73,19 @@ Indicateurs de bits qui indiquent les demandes pour le contexte. Tous les packag
 
 
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl> <dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt> </dl></td><td>Le [*package de sécurité*](../secgloss/s-gly.md) alloue des tampons de sortie pour vous. Lorsque vous avez fini d’utiliser les tampons de sortie, libérez-les en appelant la fonction [<strong>FreeContextBuffer</strong>] (/Windows/Win32/API/SSPI/NF-SSPI-freecontextbuffer).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl> <dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt> </dl></td><td>Chiffrez les messages à l’aide de la fonction [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD).<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl> <dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt> </dl></td><td>Lorsque des erreurs se produisent, le tiers distant est averti.<br/></td></tr><tr class="even"><td><span id="ISC_REQ_HTTP"></span><span id="isc_req_http"></span><dl> <dt><strong>ISC_REQ_HTTP</strong></dt> </dl></td><td>Utilisez Digest pour HTTP. Omettez cet indicateur pour utiliser Digest comme mécanisme SASL.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl> <dt><strong>ISC_REQ_INTEGRITY</strong></dt> </dl></td><td>Signer des messages et vérifier des signatures à l’aide des fonctions [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD) et [<strong>MakeSignature</strong>] (makesignature.MD).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl> <dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt> </dl></td><td>La stratégie d’authentification mutuelle du service sera satisfaite.<br/><blockquote>[!Caution]<br />
-Cela ne signifie pas nécessairement que l’authentification mutuelle est effectuée, mais uniquement que la stratégie d’authentification du service est satisfaite. Pour vous assurer que l’authentification mutuelle est effectuée, appelez la fonction [<strong>QueryContextAttributes (Digest)</strong>] (QueryContextAttributes--Digest.MD).</blockquote><br/></td></tr><tr class="odd"><td><span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl> <dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt> </dl></td><td>Détectez les messages relus qui ont été encodés à l’aide des fonctions [<strong>EncryptMessage</strong>] (EncryptMessage--General.MD) ou [<strong>MakeSignature</strong>] (makesignature.MD).<br/></td></tr><tr class="even"><td><span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl> <dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt> </dl></td><td>Détecte les messages reçus en dehors de la séquence.<br/></td></tr><tr class="odd"><td><span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl> <dt><strong>ISC_REQ_STREAM</strong></dt> </dl></td><td>Prend en charge une connexion orientée flux.<br/></td></tr></tbody></table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="ISC_REQ_ALLOCATE_MEMORY"></span><span id="isc_req_allocate_memory"></span><dl><dt><strong>ISC_REQ_ALLOCATE_MEMORY</strong></dt></dl> | Le [*package de sécurité*](../secgloss/s-gly.md) alloue des tampons de sortie pour vous. Lorsque vous avez fini d’utiliser les tampons de sortie, libérez-les en appelant la fonction [<strong>FreeContextBuffer</strong>](/windows/win32/api/sspi/nf-sspi-freecontextbuffer) .<br /> | 
+| <span id="ISC_REQ_CONFIDENTIALITY"></span><span id="isc_req_confidentiality"></span><dl><dt><strong>ISC_REQ_CONFIDENTIALITY</strong></dt></dl> | Chiffrez les messages à l’aide de la fonction [<strong>EncryptMessage</strong>](encryptmessage--general.md) .<br /> | 
+| <span id="ISC_REQ_EXTENDED_ERROR"></span><span id="isc_req_extended_error"></span><dl><dt><strong>ISC_REQ_EXTENDED_ERROR</strong></dt></dl> | Lorsque des erreurs se produisent, le tiers distant est averti.<br /> | 
+| <span id="ISC_REQ_HTTP"></span><span id="isc_req_http"></span><dl><dt><strong>ISC_REQ_HTTP</strong></dt></dl> | Utilisez Digest pour HTTP. Omettez cet indicateur pour utiliser Digest comme mécanisme SASL.<br /> | 
+| <span id="ISC_REQ_INTEGRITY"></span><span id="isc_req_integrity"></span><dl><dt><strong>ISC_REQ_INTEGRITY</strong></dt></dl> | Signer des messages et vérifier des signatures à l’aide des fonctions [<strong>EncryptMessage</strong>](encryptmessage--general.md) et [<strong>MakeSignature</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_MUTUAL_AUTH"></span><span id="isc_req_mutual_auth"></span><dl><dt><strong>ISC_REQ_MUTUAL_AUTH</strong></dt></dl> | La stratégie d’authentification mutuelle du service sera satisfaite.<br /><blockquote>[!Caution]<br />Cela ne signifie pas nécessairement que l’authentification mutuelle est effectuée, mais uniquement que la stratégie d’authentification du service est satisfaite. Pour vous assurer que l’authentification mutuelle est effectuée, appelez la fonction [<strong>QueryContextAttributes (Digest)</strong>](querycontextattributes--digest.md) .</blockquote><br /> | 
+| <span id="ISC_REQ_REPLAY_DETECT"></span><span id="isc_req_replay_detect"></span><dl><dt><strong>ISC_REQ_REPLAY_DETECT</strong></dt></dl> | Détectez les messages relus qui ont été encodés à l’aide des fonctions [<strong>EncryptMessage</strong>](encryptmessage--general.md) ou [<strong>MakeSignature</strong>](makesignature.md) .<br /> | 
+| <span id="ISC_REQ_SEQUENCE_DETECT"></span><span id="isc_req_sequence_detect"></span><dl><dt><strong>ISC_REQ_SEQUENCE_DETECT</strong></dt></dl> | Détecte les messages reçus en dehors de la séquence.<br /> | 
+| <span id="ISC_REQ_STREAM"></span><span id="isc_req_stream"></span><dl><dt><strong>ISC_REQ_STREAM</strong></dt></dl> | Prend en charge une connexion orientée flux.<br /> | 
+
 
 
 
@@ -157,7 +168,7 @@ Il n’y a pas d’heure d’expiration pour Microsoft Digest [*contexte de séc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction réussit, la fonction retourne l’un des codes de réussite suivants.
 

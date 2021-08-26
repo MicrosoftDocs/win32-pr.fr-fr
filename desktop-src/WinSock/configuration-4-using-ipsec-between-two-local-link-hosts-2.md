@@ -4,12 +4,12 @@ ms.assetid: ed88d8ee-ac65-4310-a988-ead50ff743fd
 title: 'Configuration 3 : utilisation d’IPsec entre deux hôtes de liaison locale'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994e7a760b6ae1ba87678d6061881e5eb80faf88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b72485db34e8ff2c4e29a201df258dfb9d2ab9a00717ab515cda982e7ea867dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121429"
 ---
 # <a name="configuration-3-using-ipsec-between-two-local-link-hosts"></a>Configuration 3 : utilisation d’IPsec entre deux hôtes de liaison locale
 

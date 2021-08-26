@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, table
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb4ee709bd16156a62882aeee014b4744dab2214
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0badb06cfc449140162663625f3fa7282f9c1589
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507339"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470076"
 ---
 # <a name="table-control-type"></a>Table (type de contrôle)
 
@@ -50,41 +50,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Table de charge de travail
-<ul>
-<li>Text (0 ou 1)</li>
-<li>En-tête (0 ou plus)</li>
-<li>Plusieurs contrôles (0 ou plus)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Table de charge de travail
-<ul>
-<li>Texte (1 ou plus)</li>
-<li>Plusieurs contrôles (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Table de charge de travail<ul><li>Text (0 ou 1)</li><li>En-tête (0 ou plus)</li><li>Plusieurs contrôles (0 ou plus)</li></ul></li></ul> | <ul><li>Table de charge de travail<ul><li>Texte (1 ou plus)</li><li>Plusieurs contrôles (0 ou plus)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Si un contrôle de table possède des en-têtes de lignes ou de colonnes, ceux-ci doivent être exposés dans la vue de contrôle de l’arborescence UI Automation. L’affichage du contenu n’a pas besoin d’exposer ces informations, car elles sont accessibles à l’aide de [**IUIAutomationTablePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtablepattern).
 
@@ -111,7 +85,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -128,7 +102,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -146,7 +120,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -161,9 +135,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

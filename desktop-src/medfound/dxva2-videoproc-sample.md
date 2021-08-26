@@ -4,12 +4,12 @@ ms.assetid: 1465bd41-94f9-4e19-8236-00e7a2d6f54a
 title: Exemple de DXVA2_VideoProc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8497a241baf07b76148a5bc2e7ddb4dd5e878e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8fc4be1bad6a3955af255cb083a4595ecedfd30
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317974"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473925"
 ---
 # <a name="dxva2_videoproc-sample"></a>\_Exemple DXVA2 VideoProc
 
@@ -28,7 +28,7 @@ Cet exemple illustre les interfaces DXVA suivantes :
 
 ## <a name="usage"></a>Utilisation
 
-L' \_ exemple DXVA2 VideoProc génère une application Windows.
+l' \_ exemple DXVA2 VideoProc génère une application Windows.
 
 Options de ligne de commande :
 
@@ -63,106 +63,18 @@ Chacune des touches de fonction F1 à F8 bascule vers un mode dans lequel les to
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Clé</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>F1</td>
-<td>Ajustez les valeurs alpha.<br/>
-<ul>
-<li>HAUT : Augmentez l’alpha planaire des deux flux.</li>
-<li>Baisse : diminuez l’alpha planaire des deux flux.</li>
-<li>RIGHT : augmentez le pixel alpha du sous-flux.</li>
-<li>GAUCHE : diminuez le pixel alpha du sous-flux.</li>
-</ul>
-Couleur de sous-flux : blanc<br/></td>
-</tr>
-<tr class="even">
-<td>F2</td>
-<td>Ajustez la zone source du flux principal (zoom).<br/>
-<ul>
-<li>HAUT : augmentez verticalement (zoom avant).</li>
-<li>VERS le dessous : diminue verticalement (zoom arrière).</li>
-<li>RIGHT : augmenter horizontalement (zoom avant).</li>
-<li>GAUCHE : diminue horizontalement (zoom arrière).</li>
-</ul>
-Couleur de sous-flux : rouge<br/></td>
-</tr>
-<tr class="odd">
-<td>F3</td>
-<td>Déplacez la zone source du flux principal.<br/>
-<ul>
-<li>HAUT : vers le haut.</li>
-<li>Descendre : descendre.</li>
-<li>RIGHT : déplacer vers la droite.</li>
-<li>GAUCHE : déplacer vers la gauche.</li>
-</ul>
-Couleur de sous-flux : jaune<br/></td>
-</tr>
-<tr class="even">
-<td>F4</td>
-<td>Ajustez la zone de destination du flux principal.<br/>
-<ul>
-<li>HAUT : augmente verticalement.</li>
-<li>VERS le dessous : diminue verticalement.</li>
-<li>RIGHT : augmenter horizontalement.</li>
-<li>GAUCHE : diminue horizontalement.</li>
-</ul>
-Couleur de sous-flux : vert<br/></td>
-</tr>
-<tr class="odd">
-<td>F5</td>
-<td>Déplacez la zone de destination du flux principal.<br/>
-<ul>
-<li>HAUT : vers le haut.</li>
-<li>Descendre : descendre.</li>
-<li>RIGHT : déplacer vers la droite.</li>
-<li>GAUCHE : déplacer vers la gauche.</li>
-</ul>
-Couleur de sous-flux : cyan<br/></td>
-</tr>
-<tr class="even">
-<td>F6</td>
-<td>Modifiez l’espace colorimétrique ou couleur d’arrière-plan.<br/>
-<ul>
-<li>Haut, vers le haut : parcourir les espaces de couleurs.</li>
-<li>DROITE, gauche : parcourir les couleurs d’arrière-plan.</li>
-</ul>
-Couleur de sous-flux : bleue<br/></td>
-</tr>
-<tr class="odd">
-<td>F7</td>
-<td>Ajustez la luminosité et le contraste.<br/>
-<ul>
-<li>HAUT : augmentez la luminosité.</li>
-<li>Baisse : réduire la luminosité.</li>
-<li>RIGHT : augmenter le contraste.</li>
-<li>GAUCHE : diminuer le contraste.</li>
-</ul>
-Couleur de sous-flux : magenta<br/></td>
-</tr>
-<tr class="even">
-<td>F8</td>
-<td>Ajustez la teinte et la saturation.<br/>
-<ul>
-<li>HAUT : augmentez la teinte.</li>
-<li>Baisse : diminuer la teinte.</li>
-<li>RIGHT : augmenter la saturation.</li>
-<li>GAUCHE : diminuer la saturation.</li>
-</ul>
-Couleur de sous-flux : noir<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Clé | Description | 
+|-----|-------------|
+| F1 | Ajustez les valeurs alpha.<br /><ul><li>HAUT : Augmentez l’alpha planaire des deux flux.</li><li>Baisse : diminuez l’alpha planaire des deux flux.</li><li>RIGHT : augmentez le pixel alpha du sous-flux.</li><li>GAUCHE : diminuez le pixel alpha du sous-flux.</li></ul>Couleur de sous-flux : blanc<br /> | 
+| F2 | Ajustez la zone source du flux principal (zoom).<br /><ul><li>HAUT : augmentez verticalement (zoom avant).</li><li>VERS le dessous : diminue verticalement (zoom arrière).</li><li>RIGHT : augmenter horizontalement (zoom avant).</li><li>GAUCHE : diminue horizontalement (zoom arrière).</li></ul>Couleur de sous-flux : rouge<br /> | 
+| F3 | Déplacez la zone source du flux principal.<br /><ul><li>HAUT : vers le haut.</li><li>Descendre : descendre.</li><li>RIGHT : déplacer vers la droite.</li><li>GAUCHE : déplacer vers la gauche.</li></ul>Couleur de sous-flux : jaune<br /> | 
+| F4 | Ajustez la zone de destination du flux principal.<br /><ul><li>HAUT : augmente verticalement.</li><li>VERS le dessous : diminue verticalement.</li><li>RIGHT : augmenter horizontalement.</li><li>GAUCHE : diminue horizontalement.</li></ul>Couleur de sous-flux : vert<br /> | 
+| F5 | Déplacez la zone de destination du flux principal.<br /><ul><li>HAUT : vers le haut.</li><li>Descendre : descendre.</li><li>RIGHT : déplacer vers la droite.</li><li>GAUCHE : déplacer vers la gauche.</li></ul>Couleur de sous-flux : cyan<br /> | 
+| F6 | Modifiez l’espace colorimétrique ou couleur d’arrière-plan.<br /><ul><li>Haut, vers le haut : parcourir les espaces de couleurs.</li><li>DROITE, gauche : parcourir les couleurs d’arrière-plan.</li></ul>Couleur de sous-flux : bleue<br /> | 
+| F7 | Ajustez la luminosité et le contraste.<br /><ul><li>HAUT : augmentez la luminosité.</li><li>Baisse : réduire la luminosité.</li><li>RIGHT : augmenter le contraste.</li><li>GAUCHE : diminuer le contraste.</li></ul>Couleur de sous-flux : magenta<br /> | 
+| F8 | Ajustez la teinte et la saturation.<br /><ul><li>HAUT : augmentez la teinte.</li><li>Baisse : diminuer la teinte.</li><li>RIGHT : augmenter la saturation.</li><li>GAUCHE : diminuer la saturation.</li></ul>Couleur de sous-flux : noir<br /> | 
+
 
 
 
@@ -184,7 +96,7 @@ Dans chaque mode, l’appui sur la touche origine rétablit les valeurs initiale
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/evrpresenter).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

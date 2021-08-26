@@ -4,12 +4,12 @@ description: Cette rubrique explique comment utiliser des bitmaps et des pinceau
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51626fb2c76b82adeb3b12324db4652a62167db344f41e861c7b0f1d116059ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2050cccd37012028e2a86fbf77cd071671ce7201
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119636308"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626555"
 ---
 # <a name="opacity-masks-overview"></a>Vue d'ensemble des masques d'opacité
 
@@ -24,7 +24,7 @@ Cette rubrique explique comment utiliser des bitmaps et des pinceaux pour défin
 -   [Appliquer un masque d’opacité à une couche](#apply-an-opacity-mask-to-a-layer)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="prerequisites"></a>Prérequis
+## <a name="prerequisites"></a>Configuration requise
 
 Cette vue d’ensemble suppose que vous êtes familiarisé avec les opérations de dessin Direct2D de base, comme décrit dans la procédure pas à pas [création d’une application Direct2d simple](direct2d-quickstart.md) . Vous devez également être familiarisé avec les différents types de pinceaux, comme décrit dans la [vue d’ensemble des pinceaux](direct2d-brushes-overview.md).
 
@@ -179,7 +179,7 @@ Les étapes qui suivent décrivent comment recréer cet effet.
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -203,7 +203,7 @@ Les étapes qui suivent décrivent comment recréer cet effet.
     <span codelanguage="ManagedCPlusPlus"></span>
     <table>
     <colgroup>
-    <col style="width: 100%" />
+    <col  />
     </colgroup>
     <thead>
     <tr class="header">
@@ -308,7 +308,7 @@ Le premier exemple crée un [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -333,7 +333,7 @@ Le premier exemple crée un [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

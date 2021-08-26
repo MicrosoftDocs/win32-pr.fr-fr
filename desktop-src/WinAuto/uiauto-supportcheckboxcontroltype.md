@@ -21,12 +21,12 @@ keywords:
 - types de contrôle, CheckBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e5bac106c8ba3bbf58c7f5b06c087ceb7b3418
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec20bc259095c41bd1bdc4c3d4e5953be2e883d2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839969"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467806"
 ---
 # <a name="checkbox-control-type"></a>CheckBox (type de contrôle)
 
@@ -51,32 +51,15 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>CheckBox</li>
-</ul></td>
-<td><ul>
-<li>CheckBox</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>CheckBox</li></ul> | <ul><li>CheckBox</li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -99,7 +82,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -113,7 +96,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -132,7 +115,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="defaultaction"></a>Nœud
 
@@ -151,9 +134,9 @@ L’action par défaut de la case à cocher est de placer le focus sur une case 
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

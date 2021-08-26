@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (TrackBar) (commctrl. h)
 description: Envoyé par un contrôle TrackBar pour notifier à ses fenêtres parentes les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: b31d774d-e418-4162-aa2a-40fa49452d58
 keywords:
-- Contrôles Windows du code de notification NM_CUSTOMDRAW (TrackBar)
+- NM_CUSTOMDRAW (trackbar) code de notification Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ebbffd531fb44e2491d72954ce111db208f2e4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d863b180948676342a49615a526c8f6860905744aaf5269468807ad6dc04fa7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109549"
 ---
 # <a name="nm_customdraw-trackbar-notification-code"></a>\_Code de notification CUSTOMDRAW nm (TrackBar)
 
@@ -83,8 +83,8 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

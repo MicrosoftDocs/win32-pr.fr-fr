@@ -1,21 +1,21 @@
 ---
 title: Format du fichier de thème
-description: Ce document décrit le format des fichiers de thème (. Theme). Un fichier. Theme est un fichier texte. ini divisé en sections, qui spécifient les éléments visuels qui apparaissent sur un bureau Windows. Les noms de section sont encapsulés entre crochets (\ \) dans le fichier. ini.
+description: Ce document décrit le format des fichiers de thème (. Theme). un fichier. theme est un fichier texte .ini qui est divisé en sections, qui spécifient les éléments visuels qui apparaissent sur un bureau Windows. Les noms de section sont encapsulés entre crochets (\ \) dans le fichier .ini.
 ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b61ba97172fc5aaddb912183130941337a149536
-ms.sourcegitcommit: 25e1fa2b3641ae13b79e0afdf9cb7a168d99e009
+ms.openlocfilehash: c67fc2d73e54e4f9c319108c2b29ed62fb58266f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "103842853"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472304"
 ---
 # <a name="theme-file-format"></a>Format du fichier de thème
 
-Ce document décrit le format des fichiers de thème (. Theme). Un fichier. Theme est un fichier texte. ini divisé en sections, qui spécifient les éléments visuels qui apparaissent sur un bureau Windows. Les noms de section sont encapsulés entre crochets ( \[ \] ) dans le fichier. ini.
+Ce document décrit le format des fichiers de thème (. Theme). un fichier. theme est un fichier texte .ini qui est divisé en sections, qui spécifient les éléments visuels qui apparaissent sur un bureau Windows. Les noms de section sont encapsulés entre crochets ( \[ \] ) dans le fichier .ini.
 
-Un nouveau format de fichier,. themepack, a été introduit avec Windows 7 pour aider les utilisateurs à partager des thèmes. Les thèmes peuvent être sélectionnés dans le panneau de configuration personnalisation uniquement dans Windows 7 Édition familiale Premium ou version ultérieure, ou uniquement sur Windows Server 2008 R2 lorsque le composant Desktop est installé.
+un nouveau format de fichier,. themepack, a été introduit avec Windows 7 pour aider les utilisateurs à partager des thèmes. les thèmes ne peuvent être sélectionnés dans le panneau de configuration de personnalisation que dans Windows 7 Édition Familiale Premium ou version ultérieure, ou uniquement sur Windows Server 2008 R2 lorsque le composant Desktop est installé.
 
 Les rubriques suivantes sont présentées dans cet article.
 
@@ -40,7 +40,7 @@ Les rubriques suivantes sont présentées dans cet article.
 
 Un fichier. Theme vous permet de modifier l’apparence de certains éléments du bureau. Vous pouvez créer ou modifier un fichier. theme de deux façons :
 
--   Modifiez les paramètres de personnalisation ou d’affichage dans le panneau de configuration et enregistrez les paramètres sous la forme d’un fichier. Theme. Pour obtenir des instructions, consultez l’aide de Windows.
+-   Modifiez les paramètres de personnalisation ou d’affichage dans le panneau de configuration et enregistrez les paramètres sous la forme d’un fichier. Theme. pour obtenir des instructions, consultez l’aide de votre Windows.
 -   Créez un fichier. Theme manuellement pour un niveau de contrôle supérieur sur les détails de votre thème.
 
 Pour mettre votre thème à la disposition d’autres utilisateurs, vous devez fournir votre fichier. Theme, ainsi que l’image d’arrière-plan, l’économiseur d’écran et les fichiers d’icônes. Vous pouvez le faire avec un [Pack de thèmes](#theme-packs).
@@ -92,7 +92,7 @@ DefaultValue=%ProgramFiles%\Fabrikam\MyApp.exe,0
 
 
 
-Les valeurs suivantes sont utilisées pour les icônes de bureau par défaut dans Windows 7.
+les valeurs suivantes sont utilisées pour les icônes de bureau par défaut dans Windows 7.
 
 
 ```
@@ -123,7 +123,7 @@ Empty=%SystemRoot%\System32\imageres.dll,-55
 
  
 
-La couleur des éléments, tels que les barres de défilement, le texte et les boutons, sont personnalisables. Le fichier. Theme spécifie les valeurs RVB à modifier pour ces éléments. Les valeurs remplacent les valeurs par défaut du style visuel et sont utilisées lorsque votre thème est basé sur les thèmes Windows Classic, Windows 7 de base ou contraste élevé.
+La couleur des éléments, tels que les barres de défilement, le texte et les boutons, sont personnalisables. Le fichier. Theme spécifie les valeurs RVB à modifier pour ces éléments. les valeurs remplacent les valeurs par défaut du style visuel et sont utilisées lorsque votre thème est basé sur Windows thèmes classiques, Windows 7 de base ou contraste élevé.
 
 Voici un exemple de la façon dont les couleurs sont définies.
 
@@ -168,7 +168,7 @@ GradientInactiveTitle=192 192 192
 
  
 
-Un thème peut également modifier l’apparence des curseurs. Pour ce faire, vous créez des fichiers. cur pour remplacer les curseurs Windows par défaut. L’exemple suivant provient d’un fichier. Theme qui définit les curseurs pour un thème appelé *Sports*.
+Un thème peut également modifier l’apparence des curseurs. pour ce faire, vous créez des fichiers. cur pour remplacer les curseurs par défaut Windows. L’exemple suivant provient d’un fichier. Theme qui définit les curseurs pour un thème appelé *Sports*.
 
 
 ```
@@ -236,50 +236,15 @@ L’arrière-plan de votre thème peut être un diaporama d’images stockées l
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Interval = nombre de millisecondes</td>
-<td>Obligatoire. Interval est un nombre qui détermine la fréquence à laquelle l’arrière-plan est modifié. Il est mesuré en millisecondes.</td>
-</tr>
-<tr class="even">
-<td>Lecture aléatoire = 0 ou 1</td>
-<td>Obligatoire. La lecture aléatoire identifie si l’arrière-plan est aléatoire.<br/> 0 - Désactivé<br/> 1 - Activé<br/></td>
-</tr>
-<tr class="odd">
-<td>RSSFeed = URL du flux RSS</td>
-<td>Obligatoire si ImagesRootPath n’est pas spécifié. RSSFeed spécifie un flux RSS à utiliser comme diaporama d’arrière-plan. Pour que le flux fonctionne, vous devez référencer des images haute résolution qui adhèrent aux &quot; boîtiers &quot; standard utilisés par la <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">plateforme Windows RSS</a>. En raison de cette limitation, les fichiers. Theme qui incluent un flux RSS doivent être créés manuellement. <br/>
-<blockquote>
-[!Note]<br />
-Vous ne pouvez pas spécifier à la fois un RSSFeed et un ImagesRootPath.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>ImagesRootPath = chemin d’accès au dossier image</td>
-<td>Obligatoire si RSSFeed n’est pas spécifié. ImagesRootPath spécifie un chemin d’accès à un ensemble d’images que vous souhaitez utiliser comme arrière-plan de la diapositive d’arrière-plan. Les images des sous-dossiers ne sont pas incluses dans le diaporama.<br/> ImagesRootPath prend en charge les substitutions de variables d’environnement dans le chemin d’accès.<br/>
-<blockquote>
-[!Note]<br />
-Vous ne pouvez pas spécifier à la fois un RSSFeed et un ImagesRootPath.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td>Élément<em>N</em>Path = chemin (s) vers une ou plusieurs images spécifiques</td>
-<td>Pour une utilisation avec ImagesRootPath. <br/> L’élément<em>N</em>Path spécifie les chemins d’accès à des images spécifiques, ce qui vous permet de limiter le diaporama à des images particulières au lieu de toutes les images d’un dossier. Si aucun chemin d’accès n’est spécifié, toutes les images du chemin d’accès ImagesRootPath sont utilisées dans le diaporama, y compris les images ajoutées après la création et l’installation du thème.<br/> L’élément<em>N</em>Path prend en charge les substitutions de variables d’environnement dans le chemin d’accès. <em>N</em> est 0, 1, 2, et ainsi de suite. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| Interval = nombre de millisecondes | Obligatoire. Interval est un nombre qui détermine la fréquence à laquelle l’arrière-plan est modifié. Il est mesuré en millisecondes. | 
+| Lecture aléatoire = 0 ou 1 | Obligatoire. La lecture aléatoire identifie si l’arrière-plan est aléatoire.<br /> 0 - Désactivé<br /> 1 - Activé<br /> | 
+| RSSFeed = URL du flux RSS | Obligatoire si ImagesRootPath n’est pas spécifié. RSSFeed spécifie un flux RSS à utiliser comme diaporama d’arrière-plan. pour que le flux fonctionne, vous devez référencer des images haute résolution qui adhèrent à la norme « boîtiers » utilisée par la <a href="/previous-versions/windows/desktop/ms684701(v=vs.85)">plateforme RSS Windows</a>. En raison de cette limitation, les fichiers. Theme qui incluent un flux RSS doivent être créés manuellement. <br /><blockquote>[!Note]<br />Vous ne pouvez pas spécifier à la fois un RSSFeed et un ImagesRootPath.</blockquote><br /><br /> | 
+| ImagesRootPath = chemin d’accès au dossier image | Obligatoire si RSSFeed n’est pas spécifié. ImagesRootPath spécifie un chemin d’accès à un ensemble d’images que vous souhaitez utiliser comme arrière-plan de la diapositive d’arrière-plan. Les images des sous-dossiers ne sont pas incluses dans le diaporama.<br /> ImagesRootPath prend en charge les substitutions de variables d’environnement dans le chemin d’accès.<br /><blockquote>[!Note]<br />Vous ne pouvez pas spécifier à la fois un RSSFeed et un ImagesRootPath.</blockquote><br /><br /> | 
+| Élément<em>N</em>Path = chemin (s) vers une ou plusieurs images spécifiques | Pour une utilisation avec ImagesRootPath. <br /> L’élément<em>N</em>Path spécifie les chemins d’accès à des images spécifiques, ce qui vous permet de limiter le diaporama à des images particulières au lieu de toutes les images d’un dossier. Si aucun chemin d’accès n’est spécifié, toutes les images du chemin d’accès ImagesRootPath sont utilisées dans le diaporama, y compris les images ajoutées après la création et l’installation du thème.<br /> L’élément<em>N</em>Path prend en charge les substitutions de variables d’environnement dans le chemin d’accès. <em>N</em> est 0, 1, 2, et ainsi de suite. <br /> | 
+
 
 
 
@@ -421,7 +386,7 @@ Size=NormalSize
 
 
 
-L’ajout d’un élément Path à un fichier. msstyles est facultatif. Si vous fournissez un chemin d’accès, vous devez supprimer les sections de mesures et de couleurs du fichier. Theme. Lorsque ces sections sont supprimées, les couleurs, les polices et les tailles d’un thème proviennent du fichier. msstyles et correspondent à l’intention de l’auteur. msstyles. L’impossibilité de supprimer les sections de métriques et de couleurs peut entraîner des problèmes de dessin dans les fenêtres ou les applications.
+L’ajout d’un élément Path à un fichier. msstyles est facultatif. Si vous fournissez un chemin d’accès, vous devez supprimer les sections de mesures et de couleurs du fichier. Theme. Lorsque ces sections sont supprimées, les couleurs, les polices et les tailles d’un thème proviennent du fichier. msstyles et correspondent à l’intention de l’auteur. msstyles. l’impossibilité de supprimer les sections de métriques et de couleurs peut entraîner des problèmes de dessin de Windows ou d’applications.
 
 **Windows Vista/Windows 7 :** Lorsque le chemin d’accès pointe vers Aero. msstyles, vous pouvez spécifier la couleur de transparence souhaitée, comme illustré dans l’exemple suivant.
 
@@ -441,7 +406,7 @@ Transparency=1
 
 Si les valeurs de ColorizationColor et de transparence correspondent exactement à une couleur système, le panneau de configuration de personnalisation affiche le nom du système pour la couleur. Dans le cas contraire, la couleur est intitulée « Custom ».
 
-L’exemple suivant montre une section VisualStyles pour le thème de base Windows 7.
+l’exemple suivant montre une section VisualStyles pour le thème de base Windows 7.
 
 
 ```
@@ -456,7 +421,7 @@ Transparency=1
 
 
 
-L’exemple suivant montre une section VisualStyles pour le thème Windows classique.
+l’exemple suivant montre une section VisualStyles pour le thème Windows classique.
 
 
 ```
@@ -530,7 +495,7 @@ La valeur SchemeName spécifie le nom du modèle de son ou le nom du modèle de 
 ### <a name="boot-section"></a>\[Section de démarrage \]
 
 > [!Note]  
-> **Les économiseurs d’écran sont déconseillés dans la mise à jour anniversaire Windows 10 et au-delà.**
+> **les économiseurs d’écran sont déconseillés dans la Windows 10 mise à jour anniversaire et au-delà.**
 
  
 
@@ -539,7 +504,7 @@ La valeur SchemeName spécifie le nom du modèle de son ou le nom du modèle de 
 
  
 
-Dans le fichier. Theme, vous pouvez spécifier l’économiseur d’écran pour Windows à utiliser. L'exemple suivant illustre cela.
+dans le fichier. theme, vous pouvez spécifier l’économiseur d’écran pour Windows à utiliser. L'exemple suivant illustre cela.
 
 
 ```
@@ -704,13 +669,13 @@ Transparency=1
 
 ## <a name="installing-theme-files"></a>Installation des fichiers de thème
 
-Lorsque Windows est initialisé, le système d’exploitation énumère les sous-répertoires de premier niveau des ressources% WinDir \\ % \\ pour identifier les thèmes disponibles. Les fichiers de thèmes du système par défaut se trouvent dans les thèmes% WinDir% \\ Resources \\ . Les fichiers de thème utilisateur sont stockés dans% windir% \\ Users \\ <username> \\ AppData \\ local \\ Microsoft \\ Windows \\ Themes.
+lorsque Windows est initialisé, le système d’exploitation énumère les sous-répertoires de premier niveau des ressources% WinDir \\ % \\ pour identifier les thèmes disponibles. Les fichiers de thèmes du système par défaut se trouvent dans les thèmes% WinDir% \\ Resources \\ . les fichiers de thème utilisateur sont stockés dans% WinDir% \\ users \\ <username> \\ AppData \\ Local \\ Microsoft \\ Windows \\ themes.
 
 Un fichier. Theme a des associations de fichiers ; par conséquent, les applications de programme d’installation de thème peuvent appeler [**ShellExecute**](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) sur un fichier. Theme pour ouvrir la fenêtre de **personnalisation** du panneau de configuration au thème spécifié.
 
 ## <a name="theme-packs"></a>Packs de thèmes
 
-**Windows 7 et versions ultérieures.** Un pack de thèmes est un fichier. cab qui contient non seulement le fichier. Theme, mais également les fichiers nécessaires pour implémenter le thème sur un autre ordinateur, tel que des fichiers audio et des images. Les utilisateurs peuvent créer des packs de thèmes par le biais du panneau de configuration de personnalisation.
+**Windows 7 et versions ultérieures.** Un pack de thèmes est un fichier de .cab qui contient non seulement le fichier. Theme, mais également les fichiers nécessaires pour implémenter le thème sur un autre ordinateur, tel que des fichiers audio et des images. Les utilisateurs peuvent créer des packs de thèmes par le biais du panneau de configuration de personnalisation.
 
 Les types de fichiers pris en charge sont les suivants :
 
@@ -719,7 +684,7 @@ Les types de fichiers pris en charge sont les suivants :
 | Type de fichier    | Extension                           |
 |--------------|-------------------------------------|
 | Thème        | .theme                              |
-| Image        | . jpg,. jpeg,. bmp,. dib,. TIF,. png |
+| Image        | .jpg,. jpeg, .bmp,. dib,. TIF, .png |
 | Son        | .wav                                |
 | Curseur de la souris | . cur,. ani                          |
 | Icône de bureau | .ico                                |

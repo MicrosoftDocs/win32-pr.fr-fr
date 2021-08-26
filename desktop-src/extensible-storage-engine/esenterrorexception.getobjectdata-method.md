@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7a4388d9af4f7cc6dbc284296b121fb3366e210c0d174a3db8e2b726f748f23a
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1ff4588429d5b45690763c3f4eefd3553f88f480
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119784359"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476655"
 ---
 # <a name="esenterrorexceptiongetobjectdata-method"></a>EsentErrorException. GetObjectData, méthode
 
@@ -82,29 +82,16 @@ public override void GetObjectData(
 
 ## <a name="exceptions"></a>Exceptions
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exception</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
-<td><p>Le paramètre info est une référence null (Nothing en Visual Basic).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Exception | Condition | 
+|-----------|-----------|
+| <a href="/dotnet/api/system.argumentnullexception">ArgumentNullException</a> | <p>Le paramètre info est une référence null (Nothing en Visual Basic).</p> | 
+
 
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Classe EsentErrorException](./esenterrorexception-class.md)
 

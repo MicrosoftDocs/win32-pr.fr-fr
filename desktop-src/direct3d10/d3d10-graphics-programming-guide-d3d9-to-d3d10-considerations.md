@@ -4,12 +4,12 @@ ms.assetid: 283b54e0-94cb-47a8-8cfc-5798e0538b9f
 title: Considérations relatives à Direct3D 9 vers Direct3D 10 (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 467ceefe7784a9b408bb36c8bed13217cb6de7c4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e6c2dac7da24184bb5cc6a78f8e7d391c7d0f8b7000107915ba5a606188dcf4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120009"
 ---
 # <a name="direct3d-9-to-direct3d-10-considerations-direct3d-10"></a>Considérations relatives à Direct3D 9 vers Direct3D 10 (Direct3D 10)
 
@@ -160,7 +160,7 @@ typedef ID3D10PixelShader   IDirect3DPixelShader;
 
 ### <a name="resolving-link-issues"></a>Résolution des problèmes liés aux liens
 
-Il est recommandé de développer des applications Direct3D 10 et Windows Vista à l’aide de la dernière version de Microsoft Visual Studio. Toutefois, il est possible de créer une application Windows Vista qui dépend de Direct3D 10 à l’aide de la version 2003 antérieure de Visual Studio. Direct3D 10 est un composant de plateforme Windows Vista qui a des dépendances (comme le kit de développement logiciel (SDK) de plate-forme serveur 2003 SP1) sur la bibliothèque suivante : BufferOverflowU. lib est nécessaire pour résoudre les problèmes de l’éditeur de liens de vérification de sécurité de mémoire tampon \_ .
+il est recommandé de développer des applications Direct3D 10 et Windows Vista à l’aide de la dernière version de Microsoft Visual Studio. toutefois, il est possible de générer une application Windows Vista qui dépend de Direct3D 10 à l’aide de la version 2003 antérieure de Visual Studio. Direct3D 10 est un composant de plateforme Windows Vista qui a des dépendances (comme le kit de développement logiciel (SDK) de plate-forme serveur 2003 SP1) sur la bibliothèque suivante : BufferOverflowU. lib est nécessaire pour résoudre les problèmes de l’éditeur de liens de vérification de sécurité de mémoire tampon \_ .
 
 ### <a name="simulating-device-caps"></a>Simulation des Cap des appareils
 
@@ -231,7 +231,7 @@ Le compilateur HLSL Direct3D 10 apporte des améliorations à la définition du 
 Le modèle de nuanceur 4,0 une sémantique spécifique du langage HLSL et des fonctions intrinsèques pour Direct3D 10 est disponible en [HLSL](../direct3dhlsl/dx-graphics-hlsl.md). Les modifications majeures apportées à la syntaxe de Direct3D 9 HLSL pour prendre le plus de note de se trouvent dans le domaine de l’accès aux textures. La nouvelle syntaxe est la seule forme prise en charge par le compilateur en dehors du mode de compatibilité.
 
 > [!Note]  
-> Les API de type compilateur Direct3D 10 ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) et [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) sont fournies par les runtimes Direct3D 10, 10,1 et 11 qui s’exécutent dans Windows Vista et versions ultérieures. Les API de type compilateur Direct3D 10 ont les mêmes fonctionnalités que le compilateur HLSL fourni dans le kit de développement logiciel (SDK) DirectX (décembre 2006). Ce compilateur HLSL ne prend pas en charge les profils Direct3D 10,1 (vs \_ 4 \_ 1, PS \_ 4 \_ 1, GS \_ 4 \_ 1, FX \_ 4 \_ 1) et il manque un certain nombre d’optimisations et d’améliorations. Vous pouvez vous procurer un compilateur HLSL qui prend en charge les profils Direct3D 10,1 de la dernière version héritée de [DirectX SDK](/previous-versions/windows/apps/hh452744(v=win.10)). Pour plus d’informations sur le SDK DirectX hérité, consultez [où est le kit de développement logiciel (SDK) DirectX ?](../directx-sdk--august-2009-.md). Vous pouvez vous procurer la dernière version du compilateur de ligne de commande Fxc.exe HLSL et des API [D3DCompiler](../direct3dhlsl/dx-graphics-d3dcompiler-reference.md) à partir du SDK Windows.
+> les api de type compilateur direct3d 10 ([**D3D10CompileShader**](/windows/desktop/api/D3D10Shader/nf-d3d10shader-d3d10compileshader) et [**D3D10CompileEffectFromMemory**](/windows/desktop/api/D3D10Effect/nf-d3d10effect-d3d10compileeffectfrommemory)) sont fournies par les runtimes direct3d 10, 10,1 et 11 qui s’exécutent dans Windows Vista et versions ultérieures. Les API de type compilateur Direct3D 10 ont les mêmes fonctionnalités que le compilateur HLSL fourni dans le kit de développement logiciel (SDK) DirectX (décembre 2006). Ce compilateur HLSL ne prend pas en charge les profils Direct3D 10,1 (vs \_ 4 \_ 1, PS \_ 4 \_ 1, GS \_ 4 \_ 1, FX \_ 4 \_ 1) et il manque un certain nombre d’optimisations et d’améliorations. Vous pouvez vous procurer un compilateur HLSL qui prend en charge les profils Direct3D 10,1 de la dernière version héritée de [DirectX SDK](/previous-versions/windows/apps/hh452744(v=win.10)). Pour plus d’informations sur le SDK DirectX hérité, consultez [où est le kit de développement logiciel (SDK) DirectX ?](../directx-sdk--august-2009-.md). vous pouvez vous procurer la dernière version du compilateur de ligne de commande Fxc.exe HLSL et des api [D3DCompiler](../direct3dhlsl/dx-graphics-d3dcompiler-reference.md) à partir du SDK Windows.
 
  
 
@@ -465,9 +465,9 @@ Le tableau suivant montre le mappage des formats de texture de Direct3D 9 vers D
 
  
 
-¹ DXGI 1,1, inclus dans le runtime Direct3D 11, inclut les formats BGRA. Toutefois, la prise en charge de ces formats est facultative pour les appareils Direct3D 10 et 10,1 avec des pilotes qui sont implémentés sur le modèle WDDM (Windows Display Driver Model) pour Windows Vista (WDDM 1,0). Envisagez d’utiliser DXGI au \_ format \_ R8G8B8A8 UNORM à la \_ place. Vous pouvez également créer votre appareil avec la [**\_ \_ \_ \_ prise en charge D3D10 créer un appareil BGRA**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) pour vous assurer que vous ne prenez en charge que les ordinateurs avec le runtime Direct3D 11,0 et un pilote WDDM 1,1 ou une version ultérieure.
+¹ DXGI 1,1, inclus dans le runtime Direct3D 11, inclut les formats BGRA. toutefois, la prise en charge de ces formats est facultative pour les appareils Direct3D 10 et 10,1 avec des pilotes qui sont implémentés sur le modèle wddm (Windows Display Driver Model) pour Windows Vista (wddm 1,0). Envisagez d’utiliser DXGI au \_ format \_ R8G8B8A8 UNORM à la \_ place. Vous pouvez également créer votre appareil avec la [**\_ \_ \_ \_ prise en charge D3D10 créer un appareil BGRA**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_create_device_flag) pour vous assurer que vous ne prenez en charge que les ordinateurs avec le runtime Direct3D 11,0 et un pilote WDDM 1,1 ou une version ultérieure.
 
-² DXGI 1,0 définis 5:6:5 et 5:5:5:1 formats, mais ils n’étaient pas pris en charge par le runtime Direct3D 10. x ou Direct3D 11,0. Ces formats sont éventuellement pris en charge avec DXGI 1,2 dans le runtime DirectX 11,1, qui est requis pour les cartes vidéo de niveau de fonctionnalité 11,1 et le WDDM 1,2 (afficher le modèle de pilote à partir de Windows 8) et déjà pris en charge sur les niveaux de fonctionnalité 10level9.
+² DXGI 1,0 définis 5:6:5 et 5:5:5:1 formats, mais ils n’étaient pas pris en charge par le runtime Direct3D 10. x ou Direct3D 11,0. ces formats sont éventuellement pris en charge avec DXGI 1,2 dans le runtime DirectX 11,1, qui est requis pour les cartes vidéo de niveau de fonctionnalité 11,1 et WDDM 1,2 (affichage du modèle de pilote commençant par Windows 8) et déjà pris en charge sur les niveaux de fonctionnalité 10level9.
 
 ³ DXGI 1,2 a introduit le format 4:4:4:4. Ce format est éventuellement pris en charge dans le runtime DirectX 11,1, qui est requis pour les cartes vidéo de niveau de fonctionnalité 11,1 et les pilotes WDDM 1,2, et déjà pris en charge sur les niveaux de fonctionnalité 10level9.
 
@@ -515,7 +515,7 @@ Pour faciliter le portage de contenu à partir de Direct3D 9, une approche initi
 
 ### <a name="user-clip-planes-in-hlsl-on-feature-level-9-and-higher"></a>Plans d’utilisateur en HLSL sur le niveau de fonctionnalité 9 et versions ultérieures
 
-À compter de Windows 8, vous pouvez utiliser l’attribut de fonction **clipplanes** dans une [déclaration de fonction](../direct3dhlsl/dx-graphics-hlsl-function-syntax.md) HLSL plutôt que [SV \_ ClipDistance](../direct3dhlsl/dx-graphics-hlsl-semantics.md) pour que votre nuanceur fonctionne sur le [niveau de fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 x, ainsi que sur le niveau de \_ fonctionnalité 10 et ultérieur. Pour plus d’informations, consultez l' [image des plans d’utilisateur sur le matériel de niveau de fonctionnalité 9](../direct3dhlsl/user-clip-planes-on-10level9.md).
+à partir de Windows 8, vous pouvez utiliser l’attribut de fonction **clipplanes** dans une [déclaration de fonction](../direct3dhlsl/dx-graphics-hlsl-function-syntax.md) HLSL plutôt que [SV \_ ClipDistance](../direct3dhlsl/dx-graphics-hlsl-semantics.md) pour que votre nuanceur fonctionne sur le [niveau de fonctionnalité](../direct3d11/overviews-direct3d-11-devices-downlevel-intro.md) 9 x, ainsi que sur le niveau de \_ fonctionnalité 10 et supérieur. Pour plus d’informations, consultez l' [image des plans d’utilisateur sur le matériel de niveau de fonctionnalité 9](../direct3dhlsl/user-clip-planes-on-10level9.md).
 
 ## <a name="additional-direct3d-10-differences-to-watch-for"></a>Autres différences Direct3D 10 à surveiller
 
@@ -525,7 +525,7 @@ Dans Direct3D 9, il n’existait pas de prise en charge matérielle réelle pour
 
 ### <a name="mouse-cursors"></a>Curseurs de la souris
 
-Dans les versions précédentes de Windows, les routines de curseur de souris GDI standard ne fonctionnaient pas correctement sur tous les périphériques exclusifs en plein écran. Les API [**SetCursorProperties**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorproperties), [**ShowCursor**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor)et [**SetCursorPosition**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorposition) ont été ajoutées pour gérer ces cas. Étant donné que la version de GDI de Windows Vista comprend entièrement les surfaces [dxgi](../direct3ddxgi/d3d10-graphics-programming-guide-dxgi.md) , il n’est pas nécessaire d’utiliser cette API de curseur de souris spécialisée pour qu’il n’y ait pas d’équivalent Direct3D 10. Les applications Direct3D 10 doivent à la place utiliser les [routines de curseur de souris GDI](../menurc/cursors.md) standard pour les curseurs de souris.
+dans les versions précédentes de Windows, les routines de curseur de souris GDI standard ne fonctionnaient pas correctement sur tous les périphériques exclusifs en plein écran. Les API [**SetCursorProperties**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorproperties), [**ShowCursor**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-showcursor)et [**SetCursorPosition**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setcursorposition) ont été ajoutées pour gérer ces cas. étant donné que la version de Windows Vista de GDI comprend entièrement les surfaces [DXGI](../direct3ddxgi/d3d10-graphics-programming-guide-dxgi.md) , il n’est pas nécessaire d’utiliser cette API de curseur de souris spécialisée pour qu’il n’y ait pas d’équivalent Direct3D 10. Les applications Direct3D 10 doivent à la place utiliser les [routines de curseur de souris GDI](../menurc/cursors.md) standard pour les curseurs de souris.
 
 ### <a name="mapping-texels-to-pixels-in-direct3d-10"></a>Mappage de texels à des pixels dans Direct3D 10
 
@@ -574,13 +574,13 @@ L’API Direct3D 10,1 comprend un nouveau concept nommé niveau de fonctionnalit
 
  
 
-Windows 7 contenait une mise à jour mineure de l’API Direct3D 10,1 qui est incluse dans le runtime Direct3D 11. Cette mise à jour ajoute la prise en charge des niveaux de fonctionnalités suivants :
+Windows 7 contenait une mise à jour mineure de l’API direct3d 10,1 qui est incluse dans le runtime direct3d 11. Cette mise à jour ajoute la prise en charge des niveaux de fonctionnalités suivants :
 
 -   [**\_Niveau de fonctionnalité D3D10 \_ \_ 9 \_ 1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 -   [**\_Niveau de fonctionnalité D3D10 \_ \_ 9 \_ 2**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 -   [**\_Niveau de fonctionnalité D3D10 \_ \_ 9 \_ 3**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1)
 
-Windows 7 a également ajouté la prise en charge de Direct3D 10,1 pour la [plateforme de rastérisation avancée Windows (Warp)](../direct3darticles/directx-warp.md). Vous pouvez spécifier un pilote WARP à l’aide de la distorsion du [**\_ type de pilote \_ \_ D3D10**](/windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type).
+Windows 7 a également ajouté la prise en charge de Direct3D 10,1 pour [Windows plateforme de rastérisation avancée (WARP)](../direct3darticles/directx-warp.md). Vous pouvez spécifier un pilote WARP à l’aide de la distorsion du [**\_ type de pilote \_ \_ D3D10**](/windows/desktop/api/D3D10misc/ne-d3d10misc-d3d10_driver_type).
 
 Pour plus d’informations sur Direct3D 10,1, consultez [fonctionnalités direct3d 10,1](d3d10-graphics-programming-guide-10-1.md) et l’énumération [**D3D10 \_ Feature \_ niveau1**](/windows/desktop/api/D3D10_1/ne-d3d10_1-d3d10_feature_level1) .
 

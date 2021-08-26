@@ -4,12 +4,12 @@ ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: queryControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34f05800fc026c61a4ea50098fb1d8f4deb98d971c9eecfed478d71bd3c01033
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3652a46d403bc258226de5a48f34ae16960ff517
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119823559"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626315"
 ---
 # <a name="querycontrol"></a>queryControl
 
@@ -17,7 +17,7 @@ non pris en charge dans Windows 7 et versions ultérieures. Spécifie le contrô
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [queryControl]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -51,7 +51,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
 
 
 
@@ -63,8 +63,8 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -75,11 +75,11 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 <tbody>
 <tr class="odd">
 <td>contrôle</td>
-<td>Public. Facultatif. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
+<td>Public. Optionnel. La valeur par défaut est &quot; default &quot; . Les valeurs valides sont les suivantes. 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,13 +89,13 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Valeur par défaut</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Les types par défaut sont répertoriés ci-dessous. Tout autre type entraîne l’utilisation du &quot; contrôle de texte &quot; . 
 <table>
 <thead>
 <tr class="header">
 <th>ConditionType</th>
-<th>Contrôler</th>
+<th>Control</th>
 </tr>
 </thead>
 <tbody>
@@ -120,8 +120,8 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 <td>Calendrier</td>
 </tr>
 <tr class="even">
-<td>Boolean</td>
-<td>Boolean</td>
+<td>Booléen</td>
+<td>Booléen</td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +129,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [qu
 <p> </p></td>
 </tr>
 <tr class="even">
-<td>Boolean</td>
+<td>Booléen</td>
 <td>Utilise le contrôle booléen.</td>
 </tr>
 <tr class="odd">

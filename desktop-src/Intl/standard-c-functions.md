@@ -4,12 +4,12 @@ ms.assetid: a86626c1-7f90-4924-bfdd-384729bd0cc5
 title: Fonctions C standard
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6247b3707f96908ef16d887462ba06573fd8dd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f0e576dd8ad506d3d0f3379c161526dd7b9330542ca1cc575c95e3eda8e7dd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130159"
 ---
 # <a name="standard-c-functions"></a>Fonctions C standard
 
@@ -29,14 +29,14 @@ Une application doit ajouter les lignes suivantes pour utiliser les fonctions g�
 
 
 
-Notez que les fichiers Tchar. h et WCHAR. h sont tous les deux requis et que le trait de soulignement de début de la \_ variable Unicode est également requis. Cette nomenclature est spécifique à la bibliothèque C standard. « UNICODE » s’affiche sans le trait de soulignement pour Microsoft Windows Runtime.
+Notez que les fichiers Tchar. h et WCHAR. h sont tous les deux requis et que le trait de soulignement de début de la \_ variable Unicode est également requis. Cette nomenclature est spécifique à la bibliothèque C standard. « UNICODE » s’affiche sans le trait de soulignement pour les runtimes Microsoft Windows.
 
 Les fonctions [wcstombs](/cpp/c-runtime-library/reference/wcstombs-wcstombs-l) et [mbstowcs](/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l) peuvent convertir le jeu de caractères pris en charge par la bibliothèque C standard en Unicode et inversement, avec certaines limitations. Pour plus d’informations sur la traduction de chaînes vers et à partir d’Unicode, consultez [translation between types String](translation-between-string-types.md).
 
 La fonction [printf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) définie dans Tchar. h prend en charge les mêmes spécifications de format que les fonctions d’impression strsafe. h, par exemple [**StringCbPrintf**](/windows/win32/api/strsafe/nf-strsafe-stringcbprintfa). De même, Tchar. h définit une fonction [wprintf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) , dans laquelle la chaîne de format elle-même est une chaîne Unicode.
 
 > [!Caution]  
-> Une mauvaise gestion de la mémoire tampon est impliquée dans de nombreux problèmes de sécurité qui impliquent des dépassements de mémoire tampon. Consultez [référence de strsafe. h](../menurc/strsafe-ovw.md). Les fonctions définies dans strsafe. h fournissent un traitement supplémentaire pour la gestion correcte de la mémoire tampon dans votre code. Ils sont destinés à remplacer leurs équivalents C/C++ intégrés, ainsi que les implémentations spécifiques de Microsoft Windows. Pour plus d’informations, consultez [Considérations sur la sécurité : fonctionnalités internationales](security-considerations--international-features.md).
+> Une mauvaise gestion de la mémoire tampon est impliquée dans de nombreux problèmes de sécurité qui impliquent des dépassements de mémoire tampon. Consultez [référence de strsafe. h](../menurc/strsafe-ovw.md). Les fonctions définies dans strsafe. h fournissent un traitement supplémentaire pour la gestion correcte de la mémoire tampon dans votre code. ils sont destinés à remplacer leurs équivalents C/C++ intégrés, ainsi que les implémentations spécifiques de Microsoft Windows. Pour plus d’informations, consultez [Considérations sur la sécurité : fonctionnalités internationales](security-considerations--international-features.md).
 
  
 

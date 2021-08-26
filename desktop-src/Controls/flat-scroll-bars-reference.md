@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\flatsb\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46e611e8d5755d119a8c24bdbccb9f10408d3d7d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: baf1c1d49bf4b54d65adbe784d1e4da62adfe35c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839598"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466596"
 ---
 # <a name="flat-scroll-bar"></a>Barre de défilement plate
 
@@ -31,77 +31,23 @@ Cette section contient des informations sur les éléments de programmation util
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_enablescrollbar"><strong>FlatSB_EnableScrollBar</strong></a></td>
-<td>Active ou désactive les boutons de direction de la barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> standard. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollinfo"><strong>FlatSB_GetScrollInfo</strong></a></td>
-<td>Obtient les informations pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> standard. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollpos"><strong>FlatSB_GetScrollPos</strong></a></td>
-<td>Obtient la position du curseur dans une barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> standard. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollprop"><strong>FlatSB_GetScrollProp</strong></a></td>
-<td>Obtient les propriétés d’une barre de défilement en 2D. Cette fonction peut également être utilisée pour déterminer si <a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a> a été appelé pour cette fenêtre. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollpropptr"><strong>FlatSB_GetScrollPropPtr</strong></a></td>
-<td>Obtient les propriétés d’une barre de défilement en 2D. Cette fonction peut également être utilisée pour déterminer si <a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a> a été appelé pour cette fenêtre.
-<blockquote>
-[!Note]<br />
-Identique à <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollprop"><strong>FlatSB_GetScrollProp</strong></a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollrange"><strong>FlatSB_GetScrollRange</strong></a></td>
-<td>Obtient la plage de défilement pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> standard. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollinfo"><strong>FlatSB_SetScrollInfo</strong></a></td>
-<td>Définit les informations pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> standard. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollpos"><strong>FlatSB_SetScrollPos</strong></a></td>
-<td>Définit la position actuelle du curseur dans une barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> standard. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollprop"><strong>FlatSB_SetScrollProp</strong></a></td>
-<td>Définit les propriétés d’une barre de défilement en 2D. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollrange"><strong>FlatSB_SetScrollRange</strong></a></td>
-<td>Définit la plage de défilement d’une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> standard. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_showscrollbar"><strong>FlatSB_ShowScrollBar</strong></a></td>
-<td>Affiche ou masque une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> standard. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a></td>
-<td>Initialise des barres de défilement plates pour une fenêtre particulière. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-uninitializeflatsb"><strong>UninitializeFlatSB</strong></a></td>
-<td>Désinitialise les barres de défilement plat pour une fenêtre particulière. La fenêtre spécifiée reviendra aux barres de défilement standard. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Contenu | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_enablescrollbar"><strong>FlatSB_EnableScrollBar</strong></a> | Active ou désactive les boutons de direction de la barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollinfo"><strong>FlatSB_GetScrollInfo</strong></a> | Obtient les informations pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollpos"><strong>FlatSB_GetScrollPos</strong></a> | Obtient la position du curseur dans une barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollprop"><strong>FlatSB_GetScrollProp</strong></a> | Obtient les propriétés d’une barre de défilement en 2D. Cette fonction peut également être utilisée pour déterminer si <a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a> a été appelé pour cette fenêtre. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollpropptr"><strong>FlatSB_GetScrollPropPtr</strong></a> | Obtient les propriétés d’une barre de défilement en 2D. Cette fonction peut également être utilisée pour déterminer si <a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a> a été appelé pour cette fenêtre.<blockquote>[!Note]<br />Identique à <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollprop"><strong>FlatSB_GetScrollProp</strong></a>.</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_getscrollrange"><strong>FlatSB_GetScrollRange</strong></a> | Obtient la plage de défilement pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollinfo"><strong>FlatSB_SetScrollInfo</strong></a> | Définit les informations pour une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollpos"><strong>FlatSB_SetScrollPos</strong></a> | Définit la position actuelle du curseur dans une barre de défilement plate. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollprop"><strong>FlatSB_SetScrollProp</strong></a> | Définit les propriétés d’une barre de défilement en 2D. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_setscrollrange"><strong>FlatSB_SetScrollRange</strong></a> | Définit la plage de défilement d’une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-flatsb_showscrollbar"><strong>FlatSB_ShowScrollBar</strong></a> | Affiche ou masque une barre de défilement en 2D. Si les barres de défilement plat ne sont pas initialisées pour la fenêtre, cette fonction appelle la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> standard. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-initializeflatsb"><strong>InitializeFlatSB</strong></a> | Initialise des barres de défilement plates pour une fenêtre particulière. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-uninitializeflatsb"><strong>UninitializeFlatSB</strong></a> | Désinitialise les barres de défilement plat pour une fenêtre particulière. La fenêtre spécifiée reviendra aux barres de défilement standard. <br /> | 
+
 
 
 

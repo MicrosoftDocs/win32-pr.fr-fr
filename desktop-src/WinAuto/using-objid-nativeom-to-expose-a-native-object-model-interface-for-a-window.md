@@ -4,12 +4,12 @@ description: Cette technique permet aux clients d’obtenir un objet personnalis
 ms.assetid: 91713fe5-f03f-464e-88ee-9d8d66d5b19d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c2c5c6ec194ca643475444feb5839c02d3fa890
-ms.sourcegitcommit: 2e9db3c7d9a3dbea15196b03c883846fad6f32be
+ms.openlocfilehash: ed99db4641235ceee57688865710c19a41f0a517d70d4601d138150cb88dd470
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104381104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098089"
 ---
 # <a name="use-objid_nativeom-to-expose-a-native-interface-for-a-window"></a>Utiliser OBJID \_ NATIVEOM pour exposer une interface native pour une fenêtre
 
@@ -33,11 +33,11 @@ Notez les points suivants pour cette technique :
 -   N’implémentez pas l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) sur l’objet personnalisé qui est retourné. Dans ce cas, OLEACC le traite comme un **IAccessible** standard et peut empêcher l’utilisation des interfaces personnalisées.
 -   Pour pouvoir être utilisé dans plusieurs processus, les interfaces sur l’objet retourné peuvent avoir besoin d’être inscrites auprès du modèle COM (Component Object Model).
 
-Cette technique est prise en charge par plusieurs composants de Microsoft Office. Pour plus d’informations, consultez [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow).
+cette technique est prise en charge par plusieurs composants de Microsoft Office. Pour plus d’informations, consultez [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow).
 
- 
+ 
 
- 
+ 
 
 
 

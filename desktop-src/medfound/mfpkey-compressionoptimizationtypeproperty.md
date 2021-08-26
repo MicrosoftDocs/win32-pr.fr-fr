@@ -4,12 +4,12 @@ ms.assetid: 9449b5fa-4f13-4c33-bfdf-611720e8dd77
 title: MFPKEY_COMPRESSIONOPTIMIZATIONTYPE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c7171990280fe004b12c306a09af3b617ba2de0a7cfa274edb3d9191b16a886
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e140a854999a5c634620d98958e40832acbe9439
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118242878"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471725"
 ---
 # <a name="mfpkey_compressionoptimizationtype-property"></a>MFPKEY \_ propriété COMPRESSIONOPTIMIZATIONTYPE
 
@@ -27,44 +27,18 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété offre un moyen rapide de configurer un certain nombre d’options d’encodage vidéo. Il peut être défini sur l’une des valeurs suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>Le codec ne force pas l’optimisation et utilise toutes les fonctionnalités spécifiées par d’autres propriétés. Dans de nombreux cas, le codec utilise la logique interne pour déterminer les paramètres s’ils ne sont pas spécifiés. Il s’agit de la valeur par défaut.</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>Active les fonctionnalités qui produiront la meilleure qualité visuelle. L’utilisation de cette valeur configure le codec comme si vous aviez défini les propriétés suivantes :<br/>
-<ul>
-<li><a href="mfpkey-bdeltaqpproperty.md">MFPKEY_BDELTAQP</a> = 1</li>
-<li><a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a> = 3</li>
-<li><a href="mfpkey-loopfilterproperty.md">MFPKEY_LOOPFILTER</a> = 1</li>
-<li><a href="mfpkey-motionmatchmethodproperty.md">MFPKEY_MOTIONMATCHMETHOD</a> =-1</li>
-<li><a href="mfpkey-motionsearchlevelproperty.md">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li>
-<li><a href="mfpkey-motionsearchrangeproperty.md">MFPKEY_MOTIONSEARCHRANGE</a> =-1</li>
-<li><a href="mfpkey-numbframesproperty.md">MFPKEY_NUMBFRAMES</a> = 1</li>
-</ul>
-Si vous définissez l’une des propriétés de la liste précédente, la valeur que vous définissez remplace les valeurs associées à ce paramètre, à l’exception de <a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | 
+|-------|-------------|
+| 0 | Le codec ne force pas l’optimisation et utilise toutes les fonctionnalités spécifiées par d’autres propriétés. Dans de nombreux cas, le codec utilise la logique interne pour déterminer les paramètres s’ils ne sont pas spécifiés. Il s’agit de la valeur par défaut. | 
+| 1 | Active les fonctionnalités qui produiront la meilleure qualité visuelle. L’utilisation de cette valeur configure le codec comme si vous aviez défini les propriétés suivantes :<br /><ul><li><a href="mfpkey-bdeltaqpproperty.md">MFPKEY_BDELTAQP</a> = 1</li><li><a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a> = 3</li><li><a href="mfpkey-loopfilterproperty.md">MFPKEY_LOOPFILTER</a> = 1</li><li><a href="mfpkey-motionmatchmethodproperty.md">MFPKEY_MOTIONMATCHMETHOD</a> =-1</li><li><a href="mfpkey-motionsearchlevelproperty.md">MFPKEY_MOTIONSEARCHLEVEL</a> = 1</li><li><a href="mfpkey-motionsearchrangeproperty.md">MFPKEY_MOTIONSEARCHRANGE</a> =-1</li><li><a href="mfpkey-numbframesproperty.md">MFPKEY_NUMBFRAMES</a> = 1</li></ul>Si vous définissez l’une des propriétés de la liste précédente, la valeur que vous définissez remplace les valeurs associées à ce paramètre, à l’exception de <a href="mfpkey-complexityexproperty.md">MFPKEY_COMPLEXITYEX</a>.<br /> | 
+
 
 
 

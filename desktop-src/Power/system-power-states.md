@@ -4,12 +4,12 @@ ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: États d’alimentation du système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efde8a130d6dbe2b44c34e8ab45b973a64f3b255
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 2eb93931326b67c7469b6a8ae256892e2dd77d4b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120814"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469906"
 ---
 # <a name="system-power-states"></a>États d’alimentation du système
 
@@ -24,57 +24,16 @@ Le tableau suivant répertorie les États d’alimentation ACPI du plus élevé 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>État d’alimentation</th>
-<th>État ACPI</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>fonctionne<br/></td>
-<td>S0<br/></td>
-<td>Le système est entièrement utilisable. Les composants matériels qui ne sont pas en cours d’utilisation peuvent économiser de l’énergie en entrant un état d’alimentation inférieur.<br/></td>
-</tr>
-<tr class="even">
-<td>Veille<br/> (Veille moderne)<br/></td>
-<td>S0 faible consommation d’énergie<br/></td>
-<td>Certains systèmes SoC prennent en charge un état de faible consommation d’énergie, connu sous le nom de <a href="/windows-hardware/design/device-experiences/modern-standby">mise en veille moderne</a>. Dans cet État, le système peut très rapidement passer de l’État faible consommation à l’État haute consommation, afin qu’il puisse répondre rapidement aux événements matériels et réseau. Les systèmes qui prennent en charge la mise en veille moderne n’utilisent pas S1-S3.<br/></td>
-</tr>
-<tr class="odd">
-<td>Veille<br/></td>
-<td>S1<br/> S2<br/> S3<br/></td>
-<td>Le système semble être désactivé. La puissance consommée dans ces États (S1-S3) est inférieure à S0 et supérieure à S4 ; S3 consomme moins d’énergie que S2 et S2 consomme moins d’énergie que S1. Les systèmes prennent généralement en charge l’un de ces trois États, pas les trois.<br/> Dans ces États (S1-S3), la mémoire volatile est actualisée pour maintenir l’état du système. Certains composants restent sous tension, de sorte que l’ordinateur peut sortir de veille de l’entrée à partir du clavier, du réseau local ou d’un périphérique USB.<br/> La <em>veille hybride</em>, utilisée sur les postes de travail, est l’endroit où un système utilise un fichier de mise en veille prolongée avec S1-S3. Le fichier de mise en veille prolongée enregistre l’état du système dans le cas où le système perd de l’électricité en veille.<br/>
-<blockquote>
-[!Note]<br />
-Les systèmes SoC qui prennent en charge la mise en veille moderne (état de faible consommation d’énergie) n’utilisent pas S1-S3.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td>Mise en veille prolongée<br/></td>
-<td>S4<br/></td>
-<td>Le système semble être désactivé. La consommation d’énergie est réduite au niveau le plus bas. Le système enregistre le contenu de la mémoire volatile dans un fichier de mise en veille prolongée pour conserver l’état du système. Certains composants restent sous tension, de sorte que l’ordinateur peut sortir de veille de l’entrée à partir du clavier, du réseau local ou d’un périphérique USB. Le contexte de travail peut être restauré s’il est stocké sur un support non volatile. <br/> Le <em>démarrage rapide</em> est l’endroit où l’utilisateur est déconnecté avant la création du fichier de mise en veille prolongée. Cela permet un plus petit fichier de mise en veille prolongée, mieux adapté aux systèmes avec des capacités de stockage moins importantes.<br/></td>
-</tr>
-<tr class="odd">
-<td>Désactivé<br/></td>
-<td>S5<br/></td>
-<td>Le système semble être désactivé. Cet État est constitué d’un arrêt complet et d’un cycle de démarrage.<br/></td>
-</tr>
-<tr class="even">
-<td>Mécanique désactivé<br/></td>
-<td>G3<br/></td>
-<td>Le système est complètement éteint et n’utilise pas de puissance. Le système revient à l’état de travail uniquement après un redémarrage complet.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| État d’alimentation | État ACPI | Description | 
+|-------------|------------|-------------|
+| fonctionne<br /> | S0<br /> | Le système est entièrement utilisable. Les composants matériels qui ne sont pas en cours d’utilisation peuvent économiser de l’énergie en entrant un état d’alimentation inférieur.<br /> | 
+| Veille<br /> (Veille moderne)<br /> | S0 faible consommation d’énergie<br /> | Certains systèmes SoC prennent en charge un état de faible consommation d’énergie, connu sous le nom de <a href="/windows-hardware/design/device-experiences/modern-standby">mise en veille moderne</a>. Dans cet État, le système peut très rapidement passer de l’État faible consommation à l’État haute consommation, afin qu’il puisse répondre rapidement aux événements matériels et réseau. Les systèmes qui prennent en charge la mise en veille moderne n’utilisent pas S1-S3.<br /> | 
+| Veille<br /> | S1<br /> S2<br /> S3<br /> | Le système semble être désactivé. La puissance consommée dans ces États (S1-S3) est inférieure à S0 et supérieure à S4 ; S3 consomme moins d’énergie que S2 et S2 consomme moins d’énergie que S1. Les systèmes prennent généralement en charge l’un de ces trois États, pas les trois.<br /> Dans ces États (S1-S3), la mémoire volatile est actualisée pour maintenir l’état du système. Certains composants restent sous tension, de sorte que l’ordinateur peut sortir de veille de l’entrée à partir du clavier, du réseau local ou d’un périphérique USB.<br />La <em>veille hybride</em>, utilisée sur les postes de travail, est l’endroit où un système utilise un fichier de mise en veille prolongée avec S1-S3. Le fichier de mise en veille prolongée enregistre l’état du système dans le cas où le système perd de l’électricité en veille.<br /><blockquote>[!Note]<br />Les systèmes SoC qui prennent en charge la mise en veille moderne (état de faible consommation d’énergie) n’utilisent pas S1-S3.</blockquote><br /><br /> | 
+| Mise en veille prolongée<br /> | S4<br /> | Le système semble être désactivé. La consommation d’énergie est réduite au niveau le plus bas. Le système enregistre le contenu de la mémoire volatile dans un fichier de mise en veille prolongée pour conserver l’état du système. Certains composants restent sous tension, de sorte que l’ordinateur peut sortir de veille de l’entrée à partir du clavier, du réseau local ou d’un périphérique USB. Le contexte de travail peut être restauré s’il est stocké sur un support non volatile. <br />Le <em>démarrage rapide</em> est l’endroit où l’utilisateur est déconnecté avant la création du fichier de mise en veille prolongée. Cela permet un plus petit fichier de mise en veille prolongée, mieux adapté aux systèmes avec des capacités de stockage moins importantes.<br /> | 
+| Désactivé<br /> | S5<br /> | Le système semble être désactivé. Cet État est constitué d’un arrêt complet et d’un cycle de démarrage.<br /> | 
+| Mécanique désactivé<br /> | G3<br /> | Le système est complètement éteint et n’utilise pas de puissance. Le système revient à l’état de travail uniquement après un redémarrage complet.<br /> | 
+
 
 
 
@@ -102,7 +61,7 @@ En mode faible consommation S0 de l’état de fonctionnement, également appel�
 
 ## <a name="sleep-state-s1-s3"></a>État de veille (S1-S3)
 
-Le système entre en mode veille en fonction d’un certain nombre de critères, y compris l’activité de l’utilisateur ou de l’application, ainsi que les préférences définies par l’utilisateur sur la page de **veille Power &** de l’application **paramètres** . Par défaut, le système utilise l’état de veille de niveau inférieur pris en charge par tous les appareils de mise en éveil activés. Pour plus d’informations sur la façon dont le système détermine le moment où la mise en veille doit être entrée, consultez [critères de veille du système](system-sleep-criteria.md).
+le système entre en mode veille en fonction d’un certain nombre de critères, y compris l’activité de l’utilisateur ou de l’application, ainsi que les préférences définies par l’utilisateur sur la page de **veille Power &** de l’application **Paramètres** . Par défaut, le système utilise l’état de veille de niveau inférieur pris en charge par tous les appareils de mise en éveil activés. Pour plus d’informations sur la façon dont le système détermine le moment où la mise en veille doit être entrée, consultez [critères de veille du système](system-sleep-criteria.md).
 
 Avant que le système n’entre en veille, il détermine l’état de veille approprié, avertit les applications et les pilotes de la transition en attente, puis fait passer le système à l’état de veille. Dans le cas d’une transition critique, par exemple lorsque le seuil de batterie critique est atteint, le système ne notifie pas les applications et les pilotes. Les applications doivent être préparées pour cela et prendre les mesures appropriées lorsque le système revient à l’état de travail.
 
@@ -136,7 +95,7 @@ Le démarrage rapide déconnecte les sessions utilisateur, mais le contenu du no
 Pour lancer par programmation un arrêt rapide de style de démarrage, appelez la fonction [**InitiateShutdown**](/windows/desktop/api/winreg/nf-winreg-initiateshutdowna) avec l’indicateur d' **arrêt \_ hybride** ou la fonction [**ExitWindowsEx**](/windows/desktop/api/winuser/nf-winuser-exitwindowsex) avec l’indicateur d' **\_ \_ arrêt EWX hybride** .
 
 > [!Note]  
-> À compter de Windows 8, le démarrage rapide est la transition par défaut lorsqu’un arrêt système est demandé. Un arrêt complet (S5) se produit lorsqu’un redémarrage du système est demandé (ou lorsqu’une application appelle une API d’arrêt).
+> à partir de Windows 8, le démarrage rapide est la transition par défaut lorsqu’un arrêt système est demandé. Un arrêt complet (S5) se produit lorsqu’un redémarrage du système est demandé (ou lorsqu’une application appelle une API d’arrêt).
 
  
 
@@ -150,7 +109,7 @@ Quand une demande de mise en veille prolongée est effectuée, les étapes suiva
 4.  Le microprogramme est averti
 
 > [!Note]  
-> À partir de Windows 8, tous les cœurs du système sont utilisés pour compresser les données en mémoire et les écrire sur le disque.
+> à partir de Windows 8, tous les cœurs du système sont utilisés pour compresser les données en mémoire et les écrire sur le disque.
 
  
 
@@ -221,7 +180,7 @@ La fonction Wake-on-LAN (WOL) sort l’ordinateur de l’état d’alimentation 
 WOL est pris en charge à partir du mode veille (S3) ou veille prolongée (S4). Il n’est pas pris en charge pour les États d’arrêt de démarrage rapide ou de désactivation douce (S5). Les cartes réseau ne sont pas armées pour la sortie de veille dans ces États, car les utilisateurs ne s’attendent pas à ce que leurs systèmes se réveillent eux-mêmes.
 
 > [!Note]  
-> WOL n’est pas officiellement pris en charge par la désactivation logicielle (S5). Toutefois, le BIOS sur certains systèmes peut prendre en charge les cartes réseau mettant pour la mise en éveil, même si Windows n’est pas impliqué dans le processus.
+> WOL n’est pas officiellement pris en charge par la désactivation logicielle (S5). toutefois, le BIOS sur certains systèmes peut prendre en charge les cartes réseau mettant pour la mise en éveil, même si Windows n’est pas impliqué dans le processus.
 
  
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ab9b0b003b3edea331ae617948176c38a9c7b47eca0972e63d6b54873d2669e6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5626b28db7145c3ceaeeba9f013d7ed8a614f7b5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087125"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622505"
 ---
 # <a name="operator--operators"></a>Operator/=, opérateurs
 
@@ -28,19 +28,19 @@ Opérateur d’assignation de division.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Opérateur</th>
-<th style="text-align: left;">Description</th>
+<th >Opérateur</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421377(v=vs.85)"><strong>XMVECTOR :: Operator/= (XMVECTOR&, float)</strong></a></td>
-<td style="text-align: left;">Divise une <code>XMVECTOR</code> instance par une valeur à virgule flottante et retourne une référence à l’instance mise à jour. <br/> <code>operator /=</code>Divise chaque composant de l’instance actuelle du type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par une valeur à virgule flottante spécifiée, en retournant une référence à l’instance actuelle mise à jour. <br/>
+<td ><a href="/previous-versions/windows/desktop/legacy/ee421377(v=vs.85)"><strong>XMVECTOR :: Operator/= (XMVECTOR&, float)</strong></a></td>
+<td >Divise une <code>XMVECTOR</code> instance par une valeur à virgule flottante et retourne une référence à l’instance mise à jour. <br/> <code>operator /=</code>Divise chaque composant de l’instance actuelle du type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par une valeur à virgule flottante spécifiée, en retournant une référence à l’instance actuelle mise à jour. <br/>
 <blockquote>
 [!Note]<br />
 Cet opérateur est uniquement disponible en C++.
@@ -48,8 +48,8 @@ Cet opérateur est uniquement disponible en C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421378(v=vs.85)"><strong>XMVECTOR :: Operator/= (XMVECTOR&, XMVECTOR)</strong></a></td>
-<td style="text-align: left;">Divise une <code>XMVECTOR</code> instance par une deuxième instance, en retournant une référence à l’instance initiale mise à jour. <br/> <code>operator /=</code>Divise chaque composant de l’instance actuelle du type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par le composant correspondant dans une deuxième instance spécifiée de <code>XMVECTOR</code> , en retournant une référence à l’instance initiale mise à jour. <br/>
+<td ><a href="/previous-versions/windows/desktop/legacy/ee421378(v=vs.85)"><strong>XMVECTOR :: Operator/= (XMVECTOR&, XMVECTOR)</strong></a></td>
+<td >Divise une <code>XMVECTOR</code> instance par une deuxième instance, en retournant une référence à l’instance initiale mise à jour. <br/> <code>operator /=</code>Divise chaque composant de l’instance actuelle du type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par le composant correspondant dans une deuxième instance spécifiée de <code>XMVECTOR</code> , en retournant une référence à l’instance initiale mise à jour. <br/>
 <blockquote>
 [!Note]<br />
 Cet opérateur est uniquement disponible en C++.

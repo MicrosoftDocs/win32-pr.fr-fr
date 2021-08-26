@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 72cfe0f86ff6b6643f2f7793822899136a5c6454
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b0b27c8878a2841eeecb3bc1ae24bdcc43d056c57a881596179f5d2bd990fcd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084489"
 ---
 # <a name="cmediasample-class"></a>CMediaSample, classe
 
@@ -62,7 +62,7 @@ Le cycle de vie d’un exemple de média diffère de celui de la plupart des obj
 | [**SetPoint**](cmediasample-setpointer.md)                        | Définit le pointeur sur la mémoire tampon.                                                          |
 | Méthodes IMediaSample                                                 | Description                                                                                     |
 | [**GetPointer**](cmediasample-getpointer.md)                        | Récupère un pointeur en lecture/écriture dans la mémoire tampon.                                                   |
-| [**GetSize,**](cmediasample-getsize.md)                              | Récupère la taille de la mémoire tampon.                                                               |
+| [**GetSize**](cmediasample-getsize.md)                              | Récupère la taille de la mémoire tampon.                                                               |
 | [**GetTime**](cmediasample-gettime.md)                              | Récupère les temps de flux auxquels cet exemple doit commencer et se terminer.                        |
 | [**SetTime**](cmediasample-settime.md)                              | Définit les temps de flux auxquels cet exemple doit commencer et se terminer.                             |
 | [**IsSyncPoint**](cmediasample-issyncpoint.md)                      | Détermine si le début de l’exemple est un point de synchronisation.                           |
@@ -91,7 +91,7 @@ Le cycle de vie d’un exemple de média diffère de celui de la plupart des obj
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

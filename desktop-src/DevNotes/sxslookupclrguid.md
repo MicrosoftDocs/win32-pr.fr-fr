@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Mscoree.dll
 - Sxs.dll
-ms.openlocfilehash: 893fe6c51d0b31a6db3f34a60cac01f90297d26b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 516ba97eb70defdbc6f92efa5c65e6d23246fe67
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525406"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465596"
 ---
 # <a name="sxslookupclrguid-function"></a>SxsLookupClrGuid fonction)
 
-Récupère le nom de la classe et d’autres informations associées à un GUID donné dans le manifeste d’un composant. Cette fonction est utilisée uniquement lors de l’implémentation de l’interopérabilité managée et non managée de bas niveau dans le .NET Framework. Pour plus d’informations sur l’interopérabilité managée non managée, consultez « interopérabilité avec du code non managé » dans le kit de développement logiciel (SDK) .NET Framework et également [applications isolées et assemblys côte à côte](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md).
+Récupère le nom de la classe et d’autres informations associées à un GUID donné dans le manifeste d’un composant. Cette fonction est utilisée uniquement lors de l’implémentation de l’interopérabilité managée et non managée de bas niveau dans le .NET Framework. pour plus d’informations sur l’interopérabilité managée non managée, consultez « interopérabilité avec du Code non managé » dans le kit de développement logiciel (SDK) .NET Framework et également [Applications isolées et assemblys côte à côte](../sbscs/isolated-applications-and-side-by-side-assemblies-portal.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -100,15 +100,15 @@ Pointeur vers une variable où la taille, en octets, des informations de retour 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. Pour plus d’informations sur l’erreur, appelez [ **GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
-Les composants managés peuvent se déclarer comme prenant en charge les « assemblys PIA » managés, afin de permettre à un consommateur de composant Win32 non managé de référencer l’assembly déclarant. Le consommateur du composant peut interagir avec le composant géré en appelant [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) sur un GUID. La couche d’interopérabilité achemine la demande de création d’objet à .NET Framework, crée une instance de l’objet managé et retourne un pointeur d’interface.
+Les composants managés peuvent se déclarer comme prenant en charge les « assemblys PIA » managés, afin de permettre à un consommateur de composant Win32 non managé de référencer l’assembly déclarant. Le consommateur du composant peut interagir avec le composant géré en appelant [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) sur un GUID. la couche d’interopérabilité achemine la demande de création d’objet à .NET Framework, crée une instance de l’objet managé et retourne un pointeur d’interface.
 
 **SxsLookupClrGuid** permet aux frameworks de récupérer les informations associées à un GUID donné dans le manifeste du composant, telles que son nom de classe .net, la version du .NET Framework requis et l’assembly hôte dans lequel il se trouve. Les composants managés publient un assembly d’interopérabilité qui contient un certain nombre d’instructions associant des GUID à des noms d’assembly et de type, et le Runtime .NET fournit la construction d’instances d’objets managées quand [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) est appelé.
 
@@ -148,50 +148,21 @@ Les membres de cette structure contiennent les informations suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Membre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br/></td>
-<td>Contient la taille de la structure de SXS_GUID_INFORMATION_CLR (cela permet à la structure de croître dans les versions ultérieures).<br/></td>
-</tr>
-<tr class="even">
-<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
-<td>Contient l’une des deux valeurs d’indicateur suivantes : <br/>
-<ul>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) : indique que le GUID spécifié a été associé à un &quot; substitut.&quot;</li>
-<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) : indique que le GUID spécifié a été associé à une &quot; classe.&quot;</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br/></td>
-<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui identifie la version du runtime spécifiée dans le manifeste hôte pour cette classe.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br/></td>
-<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui contient le nom de la classe .NET associée au GUID spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br/></td>
-<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui contient l’identité textuelle de l’assembly qui héberge cette classe. Pour plus d’informations sur l’identité textuelle, consultez &quot; spécification de noms de types qualifiés complets &quot; sous &quot; découverte des informations de type au moment de &quot; l’exécution sous &quot; programmation avec l' .NET Framework &quot; dans le kit de développement logiciel (SDK) .NET Framework.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Membre | Description | 
+|--------|-------------|
+| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br /> | Contient la taille de la structure de SXS_GUID_INFORMATION_CLR (cela permet à la structure de croître dans les versions ultérieures).<br /> | 
+| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | Contient l’une des deux valeurs d’indicateur suivantes : <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) : indique que le GUID spécifié a été associé à un « substitut ».</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) : indique que le GUID spécifié a été associé à une « classe ».</li></ul> | 
+| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui identifie la version du runtime spécifiée dans le manifeste hôte pour cette classe.<br /> | 
+| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui contient le nom de la classe .NET associée au GUID spécifié.<br /> | 
+| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui contient l’identité textuelle de l’assembly qui héberge cette classe. pour plus d’informations sur l’identité textuelle, consultez « spécification des noms de types qualifiés complets » sous « découverte des informations de type au moment de l’exécution » sous « programmation avec l' .NET Framework » dans le kit de développement logiciel (SDK) .NET Framework.<br /> | 
+
 
 
 
  
 
-Une application non managée peut utiliser les informations retournées de cette façon pour charger la version appropriée du .NET Framework, charger l’assembly identifié par l’élément **pcwszAssemblyIdentity** , puis créer une instance de la classe nommée par l’élément **pcwszTypeName** .
+une application non managée peut utiliser les informations retournées de cette façon pour charger la version appropriée du .NET Framework, charger l’assembly identifié par l’élément **pcwszAssemblyIdentity** , puis créer une instance de la classe nommée par l’élément **pcwszTypeName** .
 
 ## <a name="examples"></a>Exemples
 

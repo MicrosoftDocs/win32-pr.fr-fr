@@ -4,12 +4,12 @@ ms.assetid: e82cdd22-7d3f-4858-befd-43fa6f9f915e
 title: Attribut MF_MT_PIXEL_ASPECT_RATIO (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c0d28ea11ba664208fcfe5fc356f1f57f2878e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 230e14e07a8011f89d16b095728bc80cbe19faa16ef9427156868f93c2ccb412
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060489"
 ---
 # <a name="mf_mt_pixel_aspect_ratio-attribute"></a>\_Attribut des \_ \_ \_ proportions de pixels MF MT
 
@@ -19,7 +19,7 @@ Proportions de pixels pour un type de média vidéo.
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 32 bits supérieurs contiennent le numérateur des proportions de pixels et les 32 bits inférieurs contiennent le dénominateur. Le numérateur est le composant horizontal des proportions ; le dénominateur est le composant vertical.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

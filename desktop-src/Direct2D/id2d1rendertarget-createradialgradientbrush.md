@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 680cc981943e45eb32834e48151f391f6249cc1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b32c384e55f8c6ac17551c290c36e1130c05d5939fd5cf56116410ddac37320f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108819"
 ---
 # <a name="id2d1rendertargetcreateradialgradientbrush-methods"></a>ID2D1RenderTarget :: CreateRadialGradientBrush, méthodes
 

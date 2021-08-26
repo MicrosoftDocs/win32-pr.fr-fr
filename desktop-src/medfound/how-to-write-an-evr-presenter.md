@@ -4,24 +4,24 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: Comment écrire un présentateur EVR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505ba7ec225ac5f1316ad4343a4e1058ff0b6cb8
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4e80c2c6397282b93aef1db0e5c491234e045472
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118774"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474745"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>Comment écrire un présentateur EVR
 
-Cet article explique comment écrire un présentateur personnalisé pour le convertisseur vidéo amélioré (EVR). Un présentateur personnalisé peut être utilisé avec DirectShow et Media Foundation ; les interfaces et le modèle objet sont les mêmes pour les deux technologies, bien que la séquence exacte d’opérations puisse varier.
+Cet article explique comment écrire un présentateur personnalisé pour le convertisseur vidéo amélioré (EVR). un présentateur personnalisé peut être utilisé avec DirectShow et Media Foundation ; les interfaces et le modèle objet sont les mêmes pour les deux technologies, bien que la séquence exacte d’opérations puisse varier.
 
-L’exemple de code de cette rubrique est adapté de l' [exemple EVRPresenter](evrpresenter-sample.md), fourni dans le SDK Windows.
+l’exemple de code de cette rubrique est adapté de l' [exemple EVRPresenter](evrpresenter-sample.md), fourni dans le SDK Windows.
 
 Cette rubrique contient les sections suivantes :
 
 -   [Composants requis](#prerequisites)
 -   [Modèle objet Presenter](#presenter-object-model)
-    -   [Transmission de données à l’intérieur du EVR](#data-flow-inside-the-evr)
+    -   [Flow de données à l’intérieur du EVR](#data-flow-inside-the-evr)
     -   [États du présentateur](#presenter-states)
     -   [Interfaces presenter](#presenter-interfaces)
     -   [Implémentation de IMFVideoDeviceID](#implementing-imfvideodeviceid)
@@ -53,7 +53,7 @@ Avant d’écrire un présentateur personnalisé, vous devez être familiarisé 
 
 -   Convertisseur vidéo amélioré. Consultez [rendu vidéo amélioré](enhanced-video-renderer.md).
 -   Graphiques Direct3D. Vous n’avez pas besoin de comprendre les graphiques 3D pour écrire un présentateur, mais vous devez savoir comment créer un appareil Direct3D et gérer des surfaces Direct3D. Si vous n’êtes pas familiarisé avec Direct3D, lisez les sections « périphériques Direct3D » et « ressources Direct3D » dans la documentation du kit SDK DirectX Graphics.
--   Les graphiques de filtre DirectShow ou le pipeline Media Foundation, selon la technologie que votre application utilisera pour afficher la vidéo.
+-   DirectShow les graphiques de filtre ou le pipeline Media Foundation, en fonction de la technologie que votre application utilisera pour afficher la vidéo.
 -   [Media Foundation transformations](media-foundation-transforms.md). Le mélangeur EVR est une transformation Media Foundation, et le présenteur appelle des méthodes directement sur le mélangeur.
 -   Implémentation d’objets COM. Le présentateur est un objet COM libre-thread dans le processus.
 
@@ -61,7 +61,7 @@ Avant d’écrire un présentateur personnalisé, vous devez être familiarisé 
 
 Cette section contient une vue d’ensemble du modèle objet et des interfaces du présentateur.
 
-### <a name="data-flow-inside-the-evr"></a>Transmission de données à l’intérieur du EVR
+### <a name="data-flow-inside-the-evr"></a>Flow de données à l’intérieur du EVR
 
 Le EVR utilise deux composants de plug-in pour afficher la vidéo : le *mélangeur* et le *présentateur*. Le mélangeur fusionne les flux vidéo et désentrelace la vidéo si nécessaire. Le présentateur dessine (ou *présente*) la vidéo sur l’écran et planifie le dessin de chaque image. Les applications peuvent remplacer l’un de ces objets par une implémentation personnalisée.
 
@@ -148,8 +148,8 @@ Les interfaces suivantes sont facultatives :
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IEVRTrustedVideoPlugin**](/windows/desktop/api/evr/nn-evr-ievrtrustedvideoplugin) | Permet au présentateur de travailler avec des médias protégés. Implémentez cette interface si votre présentateur est un composant approuvé conçu pour fonctionner dans le chemin d’accès au média protégé (PMP). |
 | [**IMFRateSupport**](/windows/desktop/api/mfidl/nn-mfidl-imfratesupport)                 | Indique la plage de vitesses de lecture que le présenteur prend en charge. Consultez [implémentation de IMFRateSupport](#implementing-imfratesupport).                                         |
-| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Mappe les coordonnées sur l’image vidéo de sortie à des coordonnées sur l’image vidéo d’entrée.                                                                                       |
-| [**IQualProp**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop)                         | Signale des informations sur les performances. EVR utilise ces informations pour la gestion du contrôle qualité. Cette interface est documentée dans le kit de développement logiciel (SDK) DirectShow.                        |
+| [**IMFVideoPositionMapper**](/windows/desktop/api/evr/nn-evr-imfvideopositionmapper) | Cartes coordonnées sur l’image vidéo de sortie en coordonnées sur l’image vidéo d’entrée.                                                                                       |
+| [**IQualProp**](/previous-versions/windows/desktop/api/amvideo/nn-amvideo-iqualprop)                         | Signale des informations sur les performances. EVR utilise ces informations pour la gestion du contrôle qualité. cette interface est documentée dans le kit de développement logiciel (SDK) DirectShow.                        |
 
 
 
@@ -199,7 +199,7 @@ Dans votre implémentation de [**InitServicePointers**](/windows/desktop/api/evr
 
 | Interface EVR                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | Offre au présenteur un moyen d’envoyer des messages à EVR. Cette interface étant définie dans le kit de développement logiciel (SDK) DirectShow, les messages respectent le modèle pour les événements DirectShow, et non Media Foundation les événements.<br/>                                                                                                                                                                                                                                                                                                                                              |
+| [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | Offre au présenteur un moyen d’envoyer des messages à EVR. cette interface étant définie dans le kit de développement logiciel (SDK) DirectShow, les messages suivent le modèle pour les événements DirectShow, et non les événements de Media Foundation.<br/>                                                                                                                                                                                                                                                                                                                                              |
 | [**IMFClock**](/windows/desktop/api/mfidl/nn-mfidl-imfclock)                 | Représente l’horloge du EVR. Le présentateur utilise cette interface pour planifier des exemples à des fins de présentation. Le EVR peut s’exécuter sans horloge. cette interface peut donc ne pas être disponible. Si ce n’est pas le cas, ignorez le code d’erreur de [**LookupService**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice).<br/> L’horloge implémente également l’interface [**IMFTimer**](/windows/desktop/api/mfidl/nn-mfidl-imftimer) . Dans le pipeline Media Foundation, l’horloge implémente l’interface [**IMFPresentationClock**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock) . Elle n’implémente pas cette interface dans DirectShow.<br/> |
 
 
@@ -210,7 +210,7 @@ Récupérez les interfaces suivantes à partir du mélangeur :
 
 
 
-| Interface de mixage                              | Description                                                |
+| Mixer Interface                              | Description                                                |
 |----------------------------------------------|------------------------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)         | Permet au présenteur de communiquer avec le mélangeur.       |
 | [**IMFVideoDeviceID**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid) | Permet au présenteur de valider le GUID de l’appareil du mélangeur. |
@@ -336,7 +336,7 @@ HRESULT EVRCustomPresenter::ReleaseServicePointers()
 
 EVR appelle [**ReleaseServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-releaseservicepointers) pour diverses raisons, notamment :
 
--   La déconnexion ou la reconnexion des broches (DirectShow), ou l’ajout ou la suppression de récepteurs de flux (Media Foundation).
+-   la déconnexion ou la reconnexion des broches (DirectShow), ou l’ajout ou la suppression de récepteurs de flux (Media Foundation).
 -   Modification du format.
 -   Définition d’une nouvelle horloge.
 -   Arrêt final du EVR.
@@ -426,45 +426,9 @@ Voici quelques recommandations pour implémenter les méthodes dans cette interf
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a></td>
-<td><ol>
-<li>Définissez l’État présentateur sur démarré.</li>
-<li>Si le <em>llClockStartOffset</em> n’est pas <strong>PRESENTATION_CURRENT_POSITION</strong>, videz la file d’attente du présentateur des exemples. (Cela équivaut à recevoir un message de <strong>MFVP_MESSAGE_FLUSH</strong> .)</li>
-<li>Si une demande d’étape de frame précédente est toujours en attente, traitez la demande (consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>). Sinon, essayez de traiter la sortie à partir du mélangeur (consultez traitement de la <a href="#processing-output">sortie</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"><strong>OnClockStop</strong></a></td>
-<td><ol>
-<li>Définissez l’État présentateur sur arrêté.</li>
-<li>Videz la file d’attente du présentateur des exemples.</li>
-<li>Annulez toute opération de l’étape de frame en attente.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a></td>
-<td>Affectez à l’État présentateur la valeur Paused.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a></td>
-<td>Traitez le même que <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> , mais ne videz pas la file d’attente des exemples.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"><strong>OnClockSetRate</strong></a></td>
-<td><ol>
-<li>Si le taux passe de zéro à différent de zéro, annulez l’exécution pas à pas de la trame.</li>
-<li>Stockez le nouveau taux d’horloge. Le taux d’horloge affecte le moment où les exemples sont présentés. Pour plus d’informations, consultez <a href="#scheduling-samples">planification des exemples</a>.</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+
+| | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"> <strong>OnClockStart</strong></a> | <ol><li>Définissez l’État présentateur sur démarré.</li><li>Si le <em>llClockStartOffset</em> n’est pas <strong>PRESENTATION_CURRENT_POSITION</strong>, videz la file d’attente du présentateur des exemples. (Cela équivaut à recevoir un message de <strong>MFVP_MESSAGE_FLUSH</strong> .)</li><li>Si une demande d’étape de frame précédente est toujours en attente, traitez la demande (consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>). Sinon, essayez de traiter la sortie à partir du mélangeur (consultez traitement de la <a href="#processing-output">sortie</a>.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstop"> <strong>OnClockStop</strong></a> | <ol><li>Définissez l’État présentateur sur arrêté.</li><li>Videz la file d’attente du présentateur des exemples.</li><li>Annulez toute opération de l’étape de frame en attente.</li></ol> | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockpause"><strong>OnClockPause</strong></a> | Affectez à l’État présentateur la valeur Paused. | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockrestart"><strong>OnClockRestart</strong></a> | Traitez le même que <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart"><strong>OnClockStart</strong></a> , mais ne videz pas la file d’attente des exemples. | | <a href="/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclocksetrate"> <strong>OnClockSetRate</strong></a> | <ol><li>Si le taux passe de zéro à différent de zéro, annulez l’exécution pas à pas de la trame.</li><li>Stockez le nouveau taux d’horloge. Le taux d’horloge affecte le moment où les exemples sont présentés. Pour plus d’informations, consultez <a href="#scheduling-samples">planification des exemples</a>.</li></ol> | 
+
 
 
 
@@ -476,7 +440,7 @@ Pour prendre en charge des vitesses de lecture autres que 1 × vitesse, le prés
 
 
 
-| Value                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Valeur                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetSlowestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate)   | Retourne zéro pour indiquer qu’il n’y a pas de vitesse de lecture minimale.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | Pour une lecture non fine, la vitesse de lecture ne doit pas dépasser la fréquence d’actualisation du moniteur :  =  *taux de rafraîchissement* maximal (Hz)/fréquence d' *images vidéo* (FPS). La fréquence d’images vidéo est spécifiée dans le type de média du présentateur. <br/> Pour une lecture fine, le taux de lecture est illimité ; retourne la valeur **FLT_MAX**. Dans la pratique, la source et le décodeur seront les facteurs de limitation lors de la lecture fine. <br/> Pour la lecture inversée, retourne la valeur négative du taux maximal.<br/> |
@@ -579,7 +543,7 @@ done:
 
 ### <a name="sending-events-to-the-evr"></a>Envoi d’événements à EVR
 
-Le présentateur doit notifier le EVR de divers événements. Pour ce faire, il utilise l’interface [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) de EVR, obtenue lorsque le EVR appelle la méthode [**IMFTopologyServiceLookupClient :: InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) du présentateur. (L’interface **IMediaEventSink** est à l’origine une interface DirectShow, mais elle est utilisée à la fois dans le EVR DirectShow et dans le Media Foundation.) Le code suivant montre comment envoyer un événement à EVR :
+Le présentateur doit notifier le EVR de divers événements. Pour ce faire, il utilise l’interface [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) de EVR, obtenue lorsque le EVR appelle la méthode [**IMFTopologyServiceLookupClient :: InitServicePointers**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookupclient-initservicepointers) du présentateur. (l’interface **IMediaEventSink** est à l’origine une interface DirectShow, mais elle est utilisée à la fois dans le DirectShow EVR et le Media Foundation.) Le code suivant montre comment envoyer un événement à EVR :
 
 
 ```C++
@@ -599,86 +563,17 @@ Le tableau suivant répertorie les événements que le présenteur envoie, ainsi
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Événement</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a></td>
-<td>Le présentateur a terminé le rendu de toutes les trames après le message de MFVP_MESSAGE_ENDOFSTREAM.<br/>
-<ul>
-<li><em>Param1</em>: HRESULT indiquant l’état de l’opération.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul>
-Pour plus d’informations, consultez <a href="#end-of-stream">fin de flux</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a></td>
-<td>L’appareil Direct3D a changé.<br/>
-<ul>
-<li><em>Param1</em>: non utilisé.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul>
-Pour plus d’informations, consultez <a href="#managing-the-direct3d-device">gestion du périphérique Direct3D</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a></td>
-<td>Une erreur s’est produite et nécessite l’arrêt de la diffusion en continu.<br/>
-<ul>
-<li><em>Param1</em>: <strong>HRESULT</strong> indiquant l’erreur qui s’est produite.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a></td>
-<td>Spécifie la durée pendant laquelle le présentateur prend le rendu de chaque image. (Facultatif.)<br/>
-<ul>
-<li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient la durée de traitement de la trame, en unités de 100 nanosecondes.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul>
-Pour plus d’informations, consultez traitement de la <a href="#processing-output">sortie</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a></td>
-<td>Spécifie le temps de décalage actuel dans les échantillons de rendu. Si la valeur est positive, les exemples sont en arrière-plan. Si la valeur est négative, les échantillons sont en avance sur Schedule. (Facultatif.)<br/>
-<ul>
-<li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient le temps de retard, en unités de 100 nanosecondes.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a></td>
-<td>Envoyé immédiatement après <strong>EC_STEP_COMPLETE</strong> si la vitesse de lecture est égale à zéro. Cet événement contient l’horodatage du frame qui a été affiché.<br/>
-<ul>
-<li><em>Param1</em>: 32 bits inférieurs de l’horodatage.</li>
-<li><em>Param2</em>: 32 bits supérieurs de l’horodatage.</li>
-</ul>
-Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a></td>
-<td>Le présentateur a terminé ou annulé une étape de frame.<br/>
-<ul>
-<li><em>Param1</em>: non utilisé.</li>
-<li><em>Param2</em>: non utilisé.</li>
-</ul>
-Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br/>
-<blockquote>
-[!Note]<br />
-Une version précédente de la documentation A décrit <em>param1</em> de manière incorrecte. Ce paramètre n’est pas utilisé pour cet événement.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Événement | Description | 
+|-------|-------------|
+| <a href="/windows/desktop/DirectShow/ec-complete"><strong>EC_COMPLETE</strong></a> | Le présentateur a terminé le rendu de toutes les trames après le message de MFVP_MESSAGE_ENDOFSTREAM.<br /><ul><li><em>Param1</em>: HRESULT indiquant l’état de l’opération.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#end-of-stream">fin de flux</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-display-changed"><strong>EC_DISPLAY_CHANGED</strong></a> | L’appareil Direct3D a changé.<br /><ul><li><em>Param1</em>: non utilisé.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#managing-the-direct3d-device">gestion du périphérique Direct3D</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-errorabort"><strong>EC_ERRORABORT</strong></a> | Une erreur s’est produite et nécessite l’arrêt de la diffusion en continu.<br /><ul><li><em>Param1</em>: <strong>HRESULT</strong> indiquant l’erreur qui s’est produite.</li><li><em>Param2</em>: non utilisé.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-processing-latency"><strong>EC_PROCESSING_LATENCY</strong></a> | Spécifie la durée pendant laquelle le présentateur prend le rendu de chaque image. (Facultatif.)<br /><ul><li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient la durée de traitement de la trame, en unités de 100 nanosecondes.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez traitement de la <a href="#processing-output">sortie</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-sample-latency"><strong>EC_SAMPLE_LATENCY</strong></a> | Spécifie le temps de décalage actuel dans les échantillons de rendu. Si la valeur est positive, les exemples sont en arrière-plan. Si la valeur est négative, les échantillons sont en avance sur Schedule. (Facultatif.)<br /><ul><li><em>Param1</em>: pointeur vers une valeur <strong>LongLong</strong> constante qui contient le temps de retard, en unités de 100 nanosecondes.</li><li><em>Param2</em>: non utilisé.</li></ul> | 
+| <a href="/windows/desktop/DirectShow/ec-scrub-time"><strong>EC_SCRUB_TIME</strong></a> | Envoyé immédiatement après <strong>EC_STEP_COMPLETE</strong> si la vitesse de lecture est égale à zéro. Cet événement contient l’horodatage du frame qui a été affiché.<br /><ul><li><em>Param1</em>: 32 bits inférieurs de l’horodatage.</li><li><em>Param2</em>: 32 bits supérieurs de l’horodatage.</li></ul>Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br /> | 
+| <a href="/windows/desktop/DirectShow/ec-step-complete"><strong>EC_STEP_COMPLETE</strong></a> | Le présentateur a terminé ou annulé une étape de frame.<br /><ul><li><em>Param1</em>: non utilisé.</li><li><em>Param2</em>: non utilisé.</li></ul>Pour plus d’informations, consultez <a href="#frame-stepping">exécution pas à pas de la trame</a>.<br /><blockquote>[!Note]<br />Une version précédente de la documentation A décrit <em>param1</em> de manière incorrecte. Ce paramètre n’est pas utilisé pour cet événement.</blockquote><br /> | 
+
 
 
 
@@ -708,7 +603,7 @@ Chaque fois que le présentateur reçoit un message de **MFVP_MESSAGE_INVALIDATE
 5.  Allouez un pool de surfaces Direct3D, comme décrit dans [allocation de surfaces Direct3D](#allocating-direct3d-surfaces). Le mélangeur utilise ces surfaces lorsqu’il dessine les images vidéo composite.
 6.  Définissez le type de sortie sur le mélangeur en appelant [**SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype) sans indicateurs. Si le premier appel à **SetOutputType** a réussi à l’étape 4, la méthode doit être réexécutée.
 
-Si le mélangeur est en dehors des types, la méthode [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) retourne **MF_E_NO_MORE_TYPES**. Si le présenteur ne parvient pas à trouver un type de sortie approprié pour le mélangeur, le flux ne peut pas être rendu. Dans ce cas, DirectShow ou Media Foundation peuvent essayer un autre format de flux. Par conséquent, le présentateur peut recevoir plusieurs messages de **MFVP_MESSAGE_INVALIDATEMEDIATYPE** dans une ligne jusqu’à ce qu’un type valide soit trouvé.
+Si le mélangeur est en dehors des types, la méthode [**GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype) retourne **MF_E_NO_MORE_TYPES**. Si le présenteur ne parvient pas à trouver un type de sortie approprié pour le mélangeur, le flux ne peut pas être rendu. dans ce cas, DirectShow ou Media Foundation pouvez essayer un autre format de flux. Par conséquent, le présentateur peut recevoir plusieurs messages de **MFVP_MESSAGE_INVALIDATEMEDIATYPE** dans une ligne jusqu’à ce qu’un type valide soit trouvé.
 
 Le mélangeur cadres automatiquement la vidéo, en tenant compte des proportions en pixels (PAR) de la source et de la destination. Pour de meilleurs résultats, la largeur et la hauteur de la surface et l’ouverture géométrique doivent être égales à la taille réelle dans laquelle vous souhaitez que la vidéo apparaisse sur l’affichage. L’illustration suivante montre ce processus.
 
@@ -1580,9 +1475,9 @@ En outre, appelez `CheckEndOfStream` si la méthode [**IMFTransform ::P rocesso
 
 ## <a name="frame-stepping"></a>Pas à pas
 
-Le EVR est conçu pour prendre en charge le pas à pas détaillé dans DirectShow et le nettoyage dans Media Foundation. L’exécution pas à pas et le nettoyage des images sont similaires d’un plan conceptuel. Dans les deux cas, l’application demande une image vidéo à la fois. En interne, le présenteur utilise le même mécanisme pour implémenter les deux fonctionnalités.
+le EVR est conçu pour prendre en charge le pas à pas détaillé dans les DirectShow et le nettoyage des Media Foundation. L’exécution pas à pas et le nettoyage des images sont similaires d’un plan conceptuel. Dans les deux cas, l’application demande une image vidéo à la fois. En interne, le présenteur utilise le même mécanisme pour implémenter les deux fonctionnalités.
 
-Le pas à pas détaillé dans DirectShow fonctionne comme suit :
+le pas à pas détaillé dans DirectShow fonctionne comme suit :
 
 -   L’application appelle [**IVideoFrameStep :: Step**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-step). Le nombre d’étapes est indiqué dans le paramètre *dwSteps* . EVR envoie un message **MFVP_MESSAGE_STEP** au présenteur, où le paramètre de message (*ulParam*) est le nombre d’étapes.
 -   Si l’application appelle [**IVideoFrameStep :: CancelStep**](/windows/win32/api/strmif/nf-strmif-ivideoframestep-cancelstep) ou modifie l’état du graphique (en cours d’exécution, suspendu ou arrêté), le EVR envoie un MESSAGE de **MFVP_MESSAGE_CANCELSTEP** .
@@ -1605,7 +1500,7 @@ Cette section décrit un algorithme permettant d’implémenter l’exécution p
 -   *step_queue*. Une file d’attente de pointeurs [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) .
 -   *step_state*. À tout moment, le présentateur peut être dans l’un des États suivants en ce qui concerne le pas à pas détaillé de la trame : 
 
-    | État         | Description                                                                                                                                                                                                     |
+    | State         | Description                                                                                                                                                                                                     |
     |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | NOT_STEPPING | Pas de cadre pas à pas.                                                                                                                                                                                             |
     | WAITING       | Le présentateur a reçu le message **MFVP_MESSAGE_STEP** , mais l’horloge n’a pas démarré.                                                                                                                  |
@@ -1682,7 +1577,7 @@ Après avoir implémenté le présentateur, l’étape suivante consiste à conf
 
 ### <a name="setting-the-presenter-in-directshow"></a>Définition du présentateur dans DirectShow
 
-Dans une application DirectShow, définissez le présentateur sur le EVR comme suit :
+dans une application DirectShow, définissez le présenteur sur EVR comme suit :
 
 1.  Créez le filtre EVR en appelant **CoCreateInstance**. Le CLSID est **CLSID_EnhancedVideoRenderer**.
 2.  Ajoutez le EVR au graphique de filtre.

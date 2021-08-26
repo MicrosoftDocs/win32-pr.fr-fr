@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: cccb7895a862b91250101fe2dd9e4b4ca43b0650
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec20781596dbc77a01c9b4609dd4cfa02589379a
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200759"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625835"
 ---
 # <a name="span-idvspixengineifileiocallbackspanifileiocallback-interface"></a><span id="vspixengine.ifileiocallback"></span>Interface IFileIOCallback
 
@@ -38,13 +38,13 @@ L’interface **IFileIOCallback** hérite de l’interface [**IUnknown**](/windo
 
 L’interface **IFileIOCallback** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ifileiocallback-resultcallback-dword"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des erreurs lors de la capture ou de la lecture.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ifileiocallback-resultcallback-dword"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des erreurs lors de la capture ou de la lecture.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

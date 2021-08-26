@@ -7,12 +7,12 @@ keywords:
 - Server Data Objects SDO, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e1d91df8a42896fb512fe49e066f9ce85b1826
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4113813f30274e78d539fd7192fb0880cc4a954dbf3f2a37fa0e7cdb97442438
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128449"
 ---
 # <a name="server-data-objects-reference"></a>Référence des objets de données du serveur
 
@@ -21,6 +21,6 @@ Les sections suivantes décrivent les éléments de programmation de l’API SDO
 -   [Énumérations d’objets de données de serveur](/windows/desktop/Nps/sdo-server-data-objects-enumerations)
 -   [Interfaces d’objets de données serveur](/windows/desktop/Nps/sdo-server-data-objects-interfaces)
 
- 
+ 
 
- 
+ 

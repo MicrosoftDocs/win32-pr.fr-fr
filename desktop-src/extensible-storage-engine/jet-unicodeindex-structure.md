@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c4a2332551fb1f624b75e32596b2941d97ffa47d
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 544438541affba1121850d5ad5a7a60d54d398bd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104394279"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471385"
 ---
 # <a name="jet_unicodeindex-structure"></a>Structure JET_UNICODEINDEX
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_unicodeindex-structure"></a>Structure JET_UNICODEINDEX
 
@@ -58,76 +58,25 @@ Ces indicateurs sont passés à [LCMapString](/windows/win32/api/winnls/nf-winnl
 
 **dwMapFlags** présente les restrictions suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>LCMAP_SORTKEY</p></td>
-<td><p>Mandatory.</p></td>
-</tr>
-<tr class="even">
-<td><p>LCMAP_BYTEREV</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNORECASE</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p>NORM_IGNORENONSPACE</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNORESYMBOLS</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p>NORM_IGNOREKANATYPE</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="odd">
-<td><p>NORM_IGNOREWIDTH</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p>SORT_STRINGSORT</p></td>
-<td><p>Optionnel.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>LCMAP_SORTKEY</p> | <p>Mandatory.</p> | 
+| <p>LCMAP_BYTEREV</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNORECASE</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNORENONSPACE</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNORESYMBOLS</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNOREKANATYPE</p> | <p>facultatif.</p> | 
+| <p>NORM_IGNOREWIDTH</p> | <p>facultatif.</p> | 
+| <p>SORT_STRINGSORT</p> | <p>facultatif.</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

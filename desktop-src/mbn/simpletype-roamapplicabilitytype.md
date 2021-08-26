@@ -7,12 +7,12 @@ MSHAttr:
 title: Type simple roamApplicabilityType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d81214ab5a44dcac60bb5e1a6accc81b0d0418
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c2ce8f24e0987d5e8463838b33d4f2f2cf859da
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862505"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474755"
 ---
 # <a name="span-idwwan_profile_v4simpletype_roamapplicabilitytypespanroamapplicabilitytype-simple-type"></a><span id="WWAN_profile_v4.simpleType_roamApplicabilityType"></span>Type simple roamApplicabilityType
 
@@ -61,44 +61,16 @@ La signification précise de « partenaire » varie en fonction du réseau, ma
 
 Le type simple **roamApplicabilityType** définit les valeurs suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>NonPartnerOnly</td>
-<td><p>Ce profil est utilisé uniquement lors de l’itinérance sur un réseau non partenaire</p></td>
-</tr>
-<tr class="even">
-<td>PartnerOnly</td>
-<td><p>Ce profil est utilisé uniquement lors de l’itinérance sur un réseau partenaire</p></td>
-</tr>
-<tr class="odd">
-<td>HomeOnly</td>
-<td><p>Ce profil est utilisé uniquement sur le réseau privé.</p></td>
-</tr>
-<tr class="even">
-<td>HomeAndPartner</td>
-<td><p>Ce profil est utilisé uniquement quand vous êtes au bureau ou sur un réseau partenaire</p></td>
-</tr>
-<tr class="odd">
-<td>PartnerAndNonpartner</td>
-<td><p>Ce profil est utilisé en cas de non-démarrage (itinérance sur n’importe quel réseau)</p></td>
-</tr>
-<tr class="even">
-<td>AllRoaming</td>
-<td><p>Ce profil est utilisé sur tous les réseaux</p></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | 
+|-------|-------------|
+| NonPartnerOnly | <p>Ce profil est utilisé uniquement lors de l’itinérance sur un réseau non partenaire</p> | 
+| PartnerOnly | <p>Ce profil est utilisé uniquement lors de l’itinérance sur un réseau partenaire</p> | 
+| HomeOnly | <p>Ce profil est utilisé uniquement sur le réseau privé.</p> | 
+| HomeAndPartner | <p>Ce profil est utilisé uniquement quand vous êtes au bureau ou sur un réseau partenaire</p> | 
+| PartnerAndNonpartner | <p>Ce profil est utilisé en cas de non-démarrage (itinérance sur n’importe quel réseau)</p> | 
+| AllRoaming | <p>Ce profil est utilisé sur tous les réseaux</p> | 
+
 
  
 

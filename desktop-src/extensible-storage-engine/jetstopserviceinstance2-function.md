@@ -19,19 +19,19 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5029e2cf45ec91d0282f32491895a24b32e6259e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a28439932d9c0eb76675ed4e88d5595c64b5ace
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752277"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470765"
 ---
 # <a name="jetstopserviceinstance2-function"></a>JetStopServiceInstance2 fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-La fonction **JetStopServiceInstance2** prépare une instance avant de suspendre et prépare une instance après la reprise. Les États d’interruption et de reprise sont les États d’exécution du modèle de cycle de vie des applications du Windows Store.
+La fonction **JetStopServiceInstance2** prépare une instance avant de suspendre et prépare une instance après la reprise. les états d’interruption et de reprise sont les états d’exécution du modèle de cycle de vie des applications du Store Windows.
 
 La fonction **JetStopServiceInstance2** a été introduite dans Windows 8.
 
@@ -52,63 +52,28 @@ Instance cible. Le type de données **JET_INSTANCE** est un descripteur de l’i
 
 Groupe de bits qui spécifie une ou plusieurs des valeurs énumérées et définies dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitStopServiceAll</p></td>
-<td><p>Arrête tous les services ESE (Extensible Storage Engine) pour l’instance spécifiée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceBackgroundUserTasks</p></td>
-<td><p>Arrête les tâches de maintenance en arrière-plan du client redémarrables (par exemple, la défragmentation B + Tree).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitStopServiceQuiesceCaches</p></td>
-<td><p>Quiesces tous les caches modifiés sur le disque. Cette valeur est asynchrone et peut être annulée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitStopServiceResume</p></td>
-<td><p>Reprend les opérations StopService précédemment émises ; autrement dit, il redémarre le service. Cette valeur peut être combinée avec le paramètre <em>grbits</em> pour reprendre des services spécifiques, ou avec JET_bitStopServiceAll pour reprendre tous les services précédemment arrêtés. Ce bit ne peut être utilisé que pour reprendre StopServiceBackgroundUserTasks et JET_bitStopServiceQuiesceCaches. Si vous avez précédemment appelé avec JET_bitStopServiceAll, une tentative d’utilisation de JET_bitStopServiceResume échouera. Si la deuxième étape de reprise n’est pas appelée, l’application aura une dégradation des performances. Dans ce cas, le point de contrôle est conservé à zéro.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Description</p> | 
+|--------------|--------------------|
+| <p>JET_bitStopServiceAll</p> | <p>arrête tous les services ESE (Extensible Stockage Engine) pour l’instance spécifiée.</p> | 
+| <p>JET_bitStopServiceBackgroundUserTasks</p> | <p>Arrête les tâches de maintenance en arrière-plan du client redémarrables (par exemple, la défragmentation B + Tree).</p> | 
+| <p>JET_bitStopServiceQuiesceCaches</p> | <p>Quiesces tous les caches modifiés sur le disque. Cette valeur est asynchrone et peut être annulée.</p> | 
+| <p>JET_bitStopServiceResume</p> | <p>Reprend les opérations StopService précédemment émises ; autrement dit, il redémarre le service. Cette valeur peut être combinée avec le paramètre <em>grbits</em> pour reprendre des services spécifiques, ou avec JET_bitStopServiceAll pour reprendre tous les services précédemment arrêtés. Ce bit ne peut être utilisé que pour reprendre StopServiceBackgroundUserTasks et JET_bitStopServiceQuiesceCaches. Si vous avez précédemment appelé avec JET_bitStopServiceAll, une tentative d’utilisation de JET_bitStopServiceResume échouera. Si la deuxième étape de reprise n’est pas appelée, l’application aura une dégradation des performances. Dans ce cas, le point de contrôle est conservé à zéro.</p> | 
 
 
-### <a name="return-value"></a>Valeur retournée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+### <a name="return-value"></a>Valeur de retour
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 Cette fonction permet à une application JET de déplacer le cache de base de données à un état propre ou presque propre (avec les e/s du système d’exploitation inactives), de sorte que si l’application doit être arrêtée, la récupération est rapide. Cette approche est préférable à l’arrêt de JET en appelant les fonctions [JetTerm](./jetterm-function.md) ou [JetDetachDatabase](./jetdetachdatabase-function.md) , de sorte que dans le scénario le plus courant, l’application n’est pas suspendue, et par la suite, l’application dispose de l’ensemble du cache et est prête à être utilisée dès que possible.
 
@@ -122,34 +87,9 @@ En cas de reprise : JET_ERR JET_API JetStopServiceInstance2 (instance, JET_bitS
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requiert Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2012.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | | <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

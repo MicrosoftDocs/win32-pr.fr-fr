@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les fonctions globales 
 ms.assetid: 6DEBF542-F772-4703-82FC-F9483A73F61E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674969a94ad917744d2d1ab96d4f7a8c7951c341
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07b340107f0f407bf7e40a1f4ce33030dbe0e39cd2b1df7f2cb40c006127468c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117929"
 ---
 # <a name="directdraw-functions"></a>Fonctions DirectDraw
 
@@ -21,9 +21,9 @@ Cette section contient des informations sur les fonctions globales DirectDraw su
 -   [**DirectDrawEnumerate**](/windows/desktop/api/Ddraw/nf-ddraw-directdrawenumeratew)
 -   [**DirectDrawEnumerateEx**](/windows/desktop/api/Ddraw/nf-ddraw-directdrawenumerateexa)
 
- 
+ 
 
- 
+ 
 
 
 

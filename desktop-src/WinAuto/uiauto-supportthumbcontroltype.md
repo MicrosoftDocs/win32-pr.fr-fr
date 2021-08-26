@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, Thumb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8faf60fab30f54d3ed3e4b5a9f49628a3a35be5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fea75b39ae0b17be23886823d446667299e5f0df
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380322"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478785"
 ---
 # <a name="thumb-control-type"></a>Thumb (type de contrôle)
 
@@ -50,30 +50,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Thumb</li>
-</ul></td>
-<td>(Non applicable)</td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Thumb</li></ul> | (Non applicable) | 
 
 
 
- 
+
+ 
 
 Les contrôles Thumb n’apparaissent jamais dans l’affichage de contenu, car ils n’existent que pour être manipulés avec une souris. Ils sont exposés via un autre modèle de contrôle, tel que le modèle de contrôle [Scroll](uiauto-implementingscroll.md) , le modèle de contrôle [Transform](uiauto-implementingtransform.md) ou le modèle de contrôle [RangeValue](uiauto-implementingrangevalue.md) , pris en charge sur le conteneur du contrôle Thumb.
 
@@ -98,7 +83,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -112,7 +97,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -130,7 +115,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -145,9 +130,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

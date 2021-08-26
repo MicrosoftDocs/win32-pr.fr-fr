@@ -1,5 +1,5 @@
 ---
-description: Les tâches WMI pour les logiciels informatiques obtiennent des informations telles que le logiciel installé par le Microsoft Windows Installer (MSI) et les versions logicielles. Pour obtenir d’autres exemples, consultez le site TechNet ScriptCenter à l’adresse https://www.microsoft.com/technet .
+description: les tâches WMI pour les logiciels informatiques obtiennent des informations telles que le logiciel installé par le Microsoft Windows Installer (MSI) et les versions logicielles. Pour obtenir d’autres exemples, consultez le site TechNet ScriptCenter à l’adresse https://www.microsoft.com/technet .
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'Tâches WMI : logiciel informatique'
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 800a42764cbb1b9552a8ecc87debc04685d28850
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebe16a0de29a6426dcea91f55ca1409d09348791
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530075"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625505"
 ---
 # <a name="wmi-tasks-computer-software"></a>Tâches WMI : logiciel informatique
 
-Les tâches WMI pour les logiciels informatiques obtiennent des informations telles que le logiciel installé par le Microsoft Windows Installer (MSI) et les versions logicielles. Pour obtenir d’autres exemples, consultez le site TechNet ScriptCenter à l’adresse [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) .
+les tâches WMI pour les logiciels informatiques obtiennent des informations telles que le logiciel installé par le Microsoft Windows Installer (MSI) et les versions logicielles. Pour obtenir d’autres exemples, consultez le site TechNet ScriptCenter à l’adresse [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) .
 
 Les exemples de scripts présentés dans cette rubrique obtiennent des données uniquement à partir de l’ordinateur local. Pour plus d’informations sur l’utilisation du script pour obtenir des données à partir d’ordinateurs distants, consultez [connexion à WMI sur un ordinateur distant](connecting-to-wmi-on-a-remote-computer.md).
 
@@ -28,7 +28,7 @@ La procédure suivante décrit comment exécuter un script.
 
 **Pour exécuter un script**
 
-1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension. txt au fichier.
+1.  Copiez le code et enregistrez-le dans un fichier avec une extension. vbs, par exemple *filename.vbs*. Assurez-vous que votre éditeur de texte n’ajoute pas d’extension de .txt au fichier.
 2.  Ouvrez une fenêtre d’invite de commandes et accédez au répertoire où vous avez enregistré le fichier.
 3.  Tapez **cscript filename.vbs** à l’invite de commandes.
 4.  Si vous ne pouvez pas accéder à un journal des événements, vérifiez si vous exécutez à partir d’une invite de commandes avec élévation de privilèges. Certains journaux des événements, tels que le journal des événements de sécurité, peuvent être protégés par les contrôles d’accès utilisateur (UAC).
@@ -49,8 +49,8 @@ Le tableau suivant répertorie des exemples de scripts qui peuvent être utilis�
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,10 +61,10 @@ Le tableau suivant répertorie des exemples de scripts qui peuvent être utilis�
 <tbody>
 <tr class="odd">
 <td>... désinstaller le logiciel à l’aide d’un script ?</td>
-<td>Si le logiciel a été installé à l’aide de Microsoft Windows Installer (MSI), utilisez la classe WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> et la méthode <a href="/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>Uninstall</strong></a> .<br/> <span data-codelanguage="VisualBasic"></span>
+<td>si le logiciel a été installé à l’aide de Microsoft Windows Installer (MSI), utilisez la classe WMI <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a> et la méthode <a href="/previous-versions/windows/desktop/msiprov/uninstall-method-in-class-win32-product"><strong>Uninstall</strong></a> .<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -89,7 +89,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -111,12 +111,12 @@ foreach ($colItem in $colSoftware)
 </tr>
 <tr class="even">
 <td>... Inventoriez-vous tous les logiciels installés sur un ordinateur à l’aide d’un script ?</td>
-<td><p>Si le logiciel a été installé à l’aide de Microsoft Windows Installer (MSI), utilisez la <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>de classe WMI.</p>
+<td><p>si le logiciel a été installé à l’aide de Microsoft Windows Installer (MSI), utilisez la <a href="/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)"><strong>Win32_Product</strong></a>de classe WMI.</p>
 <div class="code">
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -142,7 +142,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -171,7 +171,7 @@ foreach ($colItem in $colSoftware)
 <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -198,7 +198,7 @@ Next</code></pre></td>
 <span data-codelanguage="PowerShell"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: a955da455cb2a2397010fd7869f6320970ef9f85ac1e1602f4439239dc56b167
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1e6d0988966d1eb58a21668cad559308eadbd3eb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118256303"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469996"
 ---
 # <a name="extensible-storage-engine-files"></a>fichiers de moteur d’Stockage Extensible
 
@@ -39,184 +39,9 @@ le moteur de Stockage Extensible utilise les types de fichiers suivants :
 
 Ce tableau contient une vue d’ensemble des noms de fichiers de données qui sont gérés par ESE. pour Windows Vista et versions ultérieures, le paramètre JET_paramLegacyNames a un impact sur les noms de fichiers utilisés.
 
-<table xmlns="https://www.w3.org/1999/xhtml">
-  <tr>
-    <th>
-      <p>Système d'exploitation</p>
-    </th>
-    <th>
-      <p>Windows Serveur 2003 et versions antérieures<br /><br /></p>
-    </th>
-    <th colspan="2">
-      <p></p>
-      <p>Windows Vista et versions ultérieures (client) <br />
-Windows Serveur 2008 et versions ultérieures (serveur)
-</p>
-    </th>
-    <th>
-      <p>Windows 10 Mise à jour anniversaire et versions ultérieures (client) <br />
-Windows Server 2016 et versions ultérieures (serveur)
-</p>
-    </th>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <strong>Paramètre JET_paramLegacyNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>NON APPLICABLE</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>Aucun</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>JET_bitESE98FileNames</strong>
-      </p>
-    </td>
-    <td>
-      <p>
-        <strong>identique à Windows Vista/Server 2008</strong>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>Journal actuel</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . JTX</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Journal de pré-initialisation</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. JTX</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; tmp. log</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>Journaux pivotés</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; xxxxx. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; xxxxx. JTX après fffff basculer vers &lt; inst &gt; xxxxxxxx. JTX</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; xxxxx. log après fffff basculer vers &lt; inst &gt; xxxxxxxx. log.</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Fichiers de point de contrôle</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . chk</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . JCP</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; . chk</p>
-    </td>
-    <td rowspan="2"></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Bases de données temporaires</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;nom de fichier de base de fichiers Temp &gt; par défaut : tmp. edb</p>
-    </td>
-    <td>
-      <p>&lt;nom de fichier de base de fichiers Temp &gt; par défaut : tmp. edb</p>
-    </td>
-    <td>
-      <p>&lt;nom de fichier de base de fichiers Temp &gt; par défaut : tmp. edb</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Fichiers journaux des transactions réservés</a>
-      </p>
-    </td>
-    <td>
-      <p>Res1. log &amp; res2. log</p>
-    </td>
-    <td>
-      <p>&lt;inst &gt; RESXXXXX. jrs</p>
-    </td>
-    <td colspan="2">
-      <p>&lt;inst &gt; RESXXXXX. jrs</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Fichiers de base de données</a>
-      </p>
-    </td>
-    <td>
-      <p>&lt;nom du fichier de base de fichiers&gt;</p>
-    </td>
-    <td>
-      <p>&lt;nom du fichier de base de fichiers&gt;</p>
-    </td>
-    <td>
-      <p>&lt;nom du fichier de base de fichiers&gt;</p>
-    </td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>
-      <p>
-        <a href="gg294069(v=exchg.10).md">Vider les fichiers de mappage</a>
-      </p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>N/A</p>
-    </td>
-    <td>
-      <p>&lt;nom du fichier de base de fichiers sans extension &gt; . jfm</p>
-    </td>
-  </tr>
-</table>
+
+| | |  | 
+
 
 
 ### <a name="transaction-log-files"></a>Fichiers du journal des transactions

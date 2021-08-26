@@ -13,19 +13,19 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 32f0136662f043627a5fad152ee0e0aaa1845e1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568c5016e77baceaadb8176b683d2fd9e1314ab06b907b6d1d3c4e3398a82c1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130619"
 ---
 # <a name="requestreplicationstatechange-method-of-the-msvm_computersystem-class"></a>Méthode RequestReplicationStateChange de la \_ classe MSVM ComputerSystem
 
 Demande que l’état de réplication de l’ordinateur virtuel soit remplacé par la valeur spécifiée et agit sur la relation de réplication principale de la machine virtuelle. Pendant que le changement d’État est en cours, la propriété **ReplicationState** est remplacée par la valeur du paramètre *RequestedState* . Cette méthode est prise en charge uniquement pour les instances de la classe [**MSVM \_ ComputerSystem**](msvm-computersystem.md) qui représentent un ordinateur virtuel.
 
 > [!Note]  
-> À partir de Windows 8.1, nous vous recommandons de ne pas utiliser **RequestReplicationStateChange** plus pour demander le changement d’état de réplication. Utilisez plutôt [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md).
+> à partir de Windows 8.1, nous vous recommandons de ne pas utiliser **RequestReplicationStateChange** plus pour demander le changement d’état de réplication. Utilisez plutôt [**RequestReplicationStateChangeEx**](msvm-requestreplicationstatechangeex-computersystem.md).
 
  
 
@@ -166,8 +166,8 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

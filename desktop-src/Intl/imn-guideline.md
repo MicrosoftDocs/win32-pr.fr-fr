@@ -4,12 +4,12 @@ ms.assetid: b898283a-af1a-484f-bfb8-e5d5c0ac8ee1
 title: IMN_GUIDELINE le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4efc222f7bfceadecce0f14573cab66471b119d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8bbcce8c1e7a04f4474d09f221ff2e2644e84b49d98edf09c1137604b71b226
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107099"
 ---
 # <a name="imn_guideline-notification-code"></a>Code de notification de l' \_ instruction IMN
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application traite cette commande en appelant la fonction [**ImmGetGuideLine**](/windows/desktop/api/Imm/nf-imm-immgetguidelinea) pour récupérer le message d’erreur ou les informations de l’IME.
 
@@ -58,7 +58,7 @@ La fenêtre IME affiche le message d’erreur ou la chaîne d’informations dan
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: 'En savoir plus sur : exemple de propriété'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c11fda9b133ca6fa3b2f9942d8d48bec3a9e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 83f17e12031b326566e6b948b05dae5851ec4aabd1cc7fd0a0281fc9d1a89c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061639"
 ---
 # <a name="property-sample"></a>Exemple de propriété
 
@@ -32,7 +32,7 @@ L’exemple de propriété montre comment implémenter trois styles différents 
 | Produit          | Version                              |
 |------------------|--------------------------------------|
 | DLL              | comctl32.dll version 4,0             |
-| Système d’exploitation | Windows 95, Microsoft Windows NT 3,1 |
+| Système d'exploitation | Windows 95, Microsoft Windows NT 3,1 |
 
 
 
@@ -40,13 +40,13 @@ L’exemple de propriété montre comment implémenter trois styles différents 
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-L’exemple de propriété est installé dans le cadre du [Kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et est disponible à l’emplacement suivant.
+l’exemple de propriété est installé dans le cadre du [kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windows/bb980924.aspx) et est disponible à l’emplacement suivant.
 
 
 
 | Emplacement    | Chemin d’accès/URL                                                                                                 |
 |-------------|----------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft SDK \\ \\ \[ numéro de version Windows exemples d’exemples de \] \\ \\ \\ contrôle WinUI \\ \\ propriété commune |
+| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft kits de développement logiciel (sdk) \\ Windows \\ \[ numéro de version \] \\ exemples de \\ \\ contrôle winui \\ \\ propriété commune |
 
 
 
@@ -61,7 +61,7 @@ Pour générer l’exemple à l’aide de l’invite de commandes :
 
 Pour générer l’exemple à l’aide de Visual Studio :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet.
+1.  ouvrez Windows Explorer et accédez au répertoire du projet.
 2.  Double-cliquez sur l’icône du fichier. vcproj pour ouvrir le projet dans Visual Studio.
 3.  Dans le menu **générer** , sélectionnez **générer la solution** pour générer la solution.
 

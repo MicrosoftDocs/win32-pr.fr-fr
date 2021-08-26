@@ -48,12 +48,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3d2e545fea9c1942dc09df82eb93eafa1d3e4e89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 209d3ffe9721f51b8c2d510eecb5408ac66cdbeb58309d1f033e2d23730328ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116229"
 ---
 # <a name="jet_cbtyp-enumeration"></a>Énumération JET_cbtyp
 
@@ -143,12 +143,12 @@ public enum JET_cbtyp
 <tr class="odd">
 <td></td>
 <td>FreeCursorLS</td>
-<td>Ce rappel se produit lorsque l’application doit nettoyer le descripteur de contexte pour le stockage local associé à un curseur libéré par le moteur de base de données. Pour plus d’informations, consultez JetSetLS. Le délégué pour cette raison de rappel est configuré au moyen de JetSetSystemParameter avec JET_paramRuntimeCallback.</td>
+<td>ce rappel se produit lorsque l’application doit nettoyer le handle de contexte pour l’Stockage Local associée à un curseur libéré par le moteur de base de données. Pour plus d’informations, consultez JetSetLS. Le délégué pour cette raison de rappel est configuré au moyen de JetSetSystemParameter avec JET_paramRuntimeCallback.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td>FreeTableLS</td>
-<td>Ce rappel se produit en raison de la nécessité pour l’application de nettoyer le descripteur de contexte pour le stockage local associé à une table qui est publiée par le moteur de base de données. Pour plus d’informations, consultez JetSetLS. Le délégué pour cette raison de rappel est configuré au moyen de JetSetSystemParameter avec JET_paramRuntimeCallback.</td>
+<td>ce rappel se produit en raison de la nécessité pour l’application de nettoyer le descripteur de contexte pour le Stockage Local associé à une table qui est libérée par le moteur de base de données. Pour plus d’informations, consultez JetSetLS. Le délégué pour cette raison de rappel est configuré au moyen de JetSetSystemParameter avec JET_paramRuntimeCallback.</td>
 </tr>
 </tbody>
 </table>

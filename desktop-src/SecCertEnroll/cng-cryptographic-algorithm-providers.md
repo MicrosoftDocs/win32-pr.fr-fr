@@ -4,12 +4,12 @@ ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: Fournisseurs d’algorithmes de chiffrement CNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc64926236157e581ce6406d95681bd8d4add14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fd98a7eb6fd159c54977cdf8b72ebffd747da48
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538917"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467076"
 ---
 # <a name="cng-cryptographic-algorithm-providers"></a>Fournisseurs d’algorithmes de chiffrement CNG
 
@@ -18,14 +18,14 @@ Contrairement à l’API de chiffrement (CryptoAPI), API de chiffrement : Next 
 -   [Algorithmes symétriques](#symmetric-algorithms)
 -   [Algorithmes asymétriques](#asymmetric-algorithms)
 -   [Algorithmes de hachage](#hashing-algorithms)
--   [Algorithmes d’échange de clés](#key-exchange-algorithms)
+-   [algorithmes de Exchange de clé](#key-exchange-algorithms)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="symmetric-algorithms"></a>Algorithmes symétriques
 
 
 
-| Nom                                   | Modes pris en charge                                                                                                                                                                                                 | Taille de la clé en bits (valeur par défaut/min/max) |
+| Name                                   | Modes pris en charge                                                                                                                                                                                                 | Taille de la clé en bits (valeur par défaut/min/max) |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
 | AES (Advanced Encryption Standard)     | BCE, CBC, CFB8, CFB128, GCM, CCM, GMAC, CMAC, AES Key Wrap, XTS<br/> **Windows 8 :** La prise en charge des modes CFB128 et CMAC démarre.<br/> **Windows 10 :** La prise en charge du mode XTS-AES démarre.<br/> | 128/192/256                        |
 | Data Encryption Standard (DES)         | BCE, CBC, CFB8, CFB64<br/> **Windows 8 :** La prise en charge du mode CFB64 commence.<br/>                                                                                                                   | 56/56/56                           |
@@ -69,46 +69,17 @@ Contrairement à l’API de chiffrement (CryptoAPI), API de chiffrement : Next 
 
  
 
-## <a name="key-exchange-algorithms"></a>Algorithmes d’échange de clés
+## <a name="key-exchange-algorithms"></a>algorithmes de Exchange de clé
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom de l'algorithme</th>
-<th>Notes</th>
-<th>Taille de la clé en bits (valeur par défaut/min/max)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Algorithme d’échange de clés Diffie-Hellman</td>
 
-<td>512 à 4096, en incréments de 64 bits</td>
-</tr>
-<tr class="even">
-<td>ECDH (Elliptic Curve Diffie-Hellman)</td>
-<td>Comprend des courbes qui utilisent des clés publiques 256, 384 et 521 bits comme spécifié dans SP800-56A.</td>
-<td>256/384/521</td>
-</tr>
-<tr class="odd">
-<td>Algorithme ECDSA (Elliptic Curve Digital Signature Algorithm)</td>
-<td>Comprend des courbes qui utilisent des clés publiques 256, 384 et 521 bits comme spécifié dans la norme FIPS 186-3.
-<blockquote>
-[!Note]<br />
-Pour afficher toutes les courbes elliptiques nommées, utilisez <strong>certutil displayEccCurve</strong>.
-</blockquote>
-<br/></td>
-<td>256/384/521</td>
-</tr>
-</tbody>
-</table>
+| Nom de l'algorithme | Notes | Taille de la clé en bits (valeur par défaut/min/max) | 
+|----------------|-------|------------------------------------|
+| algorithme de Exchange de clé Diffie-Hellman | 512 à 4096, en incréments de 64 bits | 
+| ECDH (Elliptic Curve Diffie-Hellman) | Comprend des courbes qui utilisent des clés publiques 256, 384 et 521 bits comme spécifié dans SP800-56A. | 256/384/521 | 
+| Algorithme ECDSA (Elliptic Curve Digital Signature Algorithm) | Comprend des courbes qui utilisent des clés publiques 256, 384 et 521 bits comme spécifié dans la norme FIPS 186-3.<blockquote>[!Note]<br />Pour afficher toutes les courbes elliptiques nommées, utilisez <strong>certutil displayEccCurve</strong>.</blockquote><br /> | 256/384/521 | 
+
 
 
 

@@ -5,19 +5,19 @@ ms.assetid: f459025f-fe5e-4ffa-a651-c70a4f8234ae
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd6f9bd0be7479726110b41d6060a7e5c836bb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b8db32889f266861809a0637dd380eb9f5d2ba7265bdf16d6a9404ed96a5420a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128769"
 ---
 # <a name="network-policy-server-extensions"></a>Extensions du serveur NPS (Network Policy Server)
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 L’API extensions NPS permet aux développeurs de logiciels d’écrire des dll d’extension qui peuvent être utilisées pour l’authentification, l’autorisation et la gestion des comptes. L’API extensions NPS prend en charge le protocole protocole RADIUS (Remote Authentication Dial-In User Service) (RADIUS).
 
@@ -27,7 +27,7 @@ L’API extensions NPS s’applique dans tout environnement informatique où ell
 
 ## <a name="in-this-section"></a>Dans cette section
 
-[Vue d’ensemble](/windows/desktop/Nps/ias-about-internet-authentication-service)
+[Vue d'ensemble](/windows/desktop/Nps/ias-about-internet-authentication-service)
 
 Informations générales sur RADIUS et l’API des extensions NPS.
 
@@ -49,6 +49,6 @@ Documentation des types, fonctions et structures énumérés qui composent l’A
 [Protocole EAP (Extensible Authentication Protocol)](../eap/eap-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

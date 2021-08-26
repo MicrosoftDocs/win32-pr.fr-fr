@@ -6,12 +6,12 @@ keywords:
 - AriaLabelErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1091c46dbb660c4c3568d24bfca34d94ef869f1e
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 42abee9028db8c3a4070d9b60d0650187339fc4c9ec34d0b70f720c27e973897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104032026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122319"
 ---
 # <a name="aria-label-error"></a>Erreur d’étiquette ARIA
 
@@ -21,7 +21,7 @@ L’élément est de type **entrée**, **bouton**, **image-bouton** ou **repère
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -39,7 +39,7 @@ Cette erreur s’applique à :
 > [!Note]  
 > AccChecker affiche cette erreur même pour les éléments pour lesquels le nom accessible est défini par défaut en fonction du contenu HTML interne (Voir l’élément de la **bannière** dans l’exemple ci-dessus). Dans ce cas, vous pouvez supprimer ces erreurs.
 
- 
+ 
 
 Tous les éléments d’interface utilisateur sémantiquement importants, tels que les champs de formulaire (par exemple, **Input**, **Select**, **textarea**), les images, les boutons et les points de repère (balises représentant des régions logiques) doivent avoir le nom accessible pour permettre aux lecteurs d’écran de les annoncer correctement.
 
@@ -87,9 +87,9 @@ attribute to reference the visible headers. -->
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bdbc845eda69d22f6e7097131f71b074a9b53985
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f7df8e49850917413f2d6e80a13d62f9d3289caa2d0eb089593fb946070d0456
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119029"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx9mathh"></a>D3DXPlaneTransformArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre de plans à transformer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
 Pointeur vers une structure [**D3DXPLANE**](d3dxplane.md) représentant le plan transformé. Il s’agit de la même valeur retournée dans le paramètre *moue* pour que cette fonction puisse être utilisée en tant que paramètre pour une autre fonction.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cet exemple transforme un plan en appliquant une échelle non uniforme.
 
