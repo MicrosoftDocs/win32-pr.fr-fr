@@ -1,10 +1,10 @@
 ---
-title: Attribut de zone postérieure au bureau
+title: attribut de boîte après Office
 description: Numéro de la boîte postale pour cet objet.
 ms.assetid: e782271a-2f79-42af-9c62-5723917a6f47
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut de zone postérieure au bureau
+- schéma AD d’attribut de boîte après Office
 - Schéma AD de l’attribut postOfficeBox
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8dc8edd327a8b7577e7a8256a8e2f082aad13c8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5f86bd2f1ae357485c00af2da52cf26fa4b5d8f67d1020fe9fa3e204a48a9e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103949844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065975"
 ---
-# <a name="post-office-box-attribute"></a>Attribut de zone postérieure au bureau
+# <a name="post-office-box-attribute"></a>attribut de boîte après Office
 
 Numéro de la boîte postale pour cet objet.
 
@@ -29,7 +29,7 @@ Numéro de la boîte postale pour cet objet.
 
 | Entrée | Valeur |
 |-------------------|-----------------------------------------------------------------------------|
-| CN                | Boîte postale                                                             |
+| CN                | boîte de Office                                                             |
 | LDAP-Display-Name | postOfficeBox                                                               |
 | Taille              | \-                                                                          |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                      |
@@ -46,7 +46,7 @@ Numéro de la boîte postale pour cet objet.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

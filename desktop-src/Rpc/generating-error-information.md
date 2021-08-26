@@ -4,12 +4,12 @@ description: Si un serveur ou une application rencontre une erreur irrécupérab
 ms.assetid: 6658c387-94df-4d85-9749-53858f9e0f5f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b06a13e932034e6840479443e0b78f4c322c0b3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7eb6868dfe11318e09b30217d5410a94ce32983ce64e75521c55fc5cc060ad0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020909"
 ---
 # <a name="generating-error-information"></a>Génération des informations d’erreur
 
@@ -29,9 +29,9 @@ Au lieu de cela, votre serveur peut appeler la fonction [**RpcErrorAddRecord**](
 
 L’appel de fonction [**RpcErrorAddRecord**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerroraddrecord) peut échouer si la mémoire disponible n’est pas suffisante, même s’il ne nécessite que quelques octets d’espace de tas. En outre, les enregistrements ajoutés par **RpcErrorAddRecord** s’accumulent dans un thread donné. Le runtime nettoie normalement ces enregistrements avant d’appeler votre routine de serveur. Toutefois, si des informations d’erreur étendues sont utilisées en dehors de RPC, effectuez le nettoyage de l’erreur étendue accumulée dans le thread en appelant [**RpcErrorClearInformation**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorclearinformation).
 
- 
+ 
 
- 
+ 
 
 
 

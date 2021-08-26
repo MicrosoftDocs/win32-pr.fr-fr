@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 4f2943eaf0baec84a9473b679743b9eafad3b7fb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 210e0aab8cb5e43bfc649e8abb72cf565c4d4f892f651708286f7a3f87d11ce2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045309"
 ---
 # <a name="sdbgetnextchild-function"></a>SdbGetNextChild fonction)
 
@@ -66,7 +66,7 @@ Handle de la base de données de shims.
 
 **TagId** de l’enfant ou **TagId \_ null** si aucun enfant n’est trouvé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette fonction, appelez la fonction [**SdbGetFirstChild**](sdbgetfirstchild.md) .
 
@@ -76,8 +76,8 @@ Avant d’appeler cette fonction, appelez la fonction [**SdbGetFirstChild**](sdb
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

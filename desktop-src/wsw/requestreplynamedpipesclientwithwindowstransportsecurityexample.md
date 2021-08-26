@@ -1,19 +1,19 @@
 ---
 title: RequestReplyNamedPipesClientWithWindowsTransportSecurityExample
-description: Cet exemple montre un client de canaux nommés qui envoie des messages de demande-réponse avec la sécurité fournie par la sécurité de transport SSPI Windows. Il illustre le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
+description: cet exemple montre un client de canaux nommés qui envoie des messages de demande-réponse avec la sécurité fournie par Windows la sécurité de transport SSPI. Il illustre le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
 ms.assetid: 50BA8F67-95F4-414A-952C-8AF91C511753
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f81eb77680b161a121be68d1e4f00a3d87c9dcb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d46dda53ceeff5a8bbe1b649c65b294fb190224491c9b90a144be35c4123f42b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089459"
 ---
 # <a name="requestreplynamedpipesclientwithwindowstransportsecurityexample"></a>RequestReplyNamedPipesClientWithWindowsTransportSecurityExample
 
-Cet exemple montre un client de canaux nommés qui envoie des messages de demande-réponse avec la sécurité fournie par la sécurité de transport SSPI Windows. Il illustre le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
+cet exemple montre un client de canaux nommés qui envoie des messages de demande-réponse avec la sécurité fournie par Windows la sécurité de transport SSPI. Il illustre le client à l’aide des propriétés de jeton de sécurité pour modifier le niveau d’emprunt d’identité autorisé à partir de la valeur par défaut.
 
 -   [RequestReplyNamedPipesClientWithWindowsTransportSecurity. cpp](#requestreplynamedpipesclientwithwindowstransportsecuritycpp)
 -   [PurchaseOrder. wsdl](#purchaseorderwsdl)
@@ -584,9 +584,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

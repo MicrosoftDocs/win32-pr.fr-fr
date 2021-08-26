@@ -4,12 +4,12 @@ ms.assetid: ad884b15-e040-478b-aa99-d8622198f62a
 title: Obtention de notifications de modification de répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c44375c334c3630aee09bf4a13fc23f87cc91e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d94bd2b86aacaf7b32191fd68208bd1400a4b56cf4c55b13102210ffb50f7ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047999"
 ---
 # <a name="obtaining-directory-change-notifications"></a>Obtention de notifications de modification de répertoire
 

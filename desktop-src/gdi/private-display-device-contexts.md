@@ -4,12 +4,12 @@ ms.assetid: 8de5a14b-a8b3-42a5-81f3-bf3c357052cb
 title: Contextes de périphérique d’affichage privé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 451dbd3c0a232610026740d0ea0fa817ea2034b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ce63fddbc2e351b166308c9ca3ce674be1a0026851af7bb1192c49cc961cdee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092879"
 ---
 # <a name="private-display-device-contexts"></a>Contextes de périphérique d’affichage privé
 

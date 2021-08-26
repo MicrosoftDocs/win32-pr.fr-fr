@@ -3,9 +3,9 @@ title: Méthode IWMPMedia getAttributeName
 description: La méthode getAttributeName retourne le nom de l’attribut correspondant à l’index spécifié.
 ms.assetid: d2496484-34cc-4222-9bc3-1d3ebb9a4173
 keywords:
-- méthode getAttributeName lecteur Windows Media
-- méthode getAttributeName lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, méthode getAttributeName
+- Lecteur Windows Media de la méthode getAttributeName
+- méthode getAttributeName Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, méthode getAttributeName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb40ef8c0c984258dc11dd00c80807db2f4eb64a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ad61be7a611eefc18f408f3f325a45b5f5952e81d53279f04f002f8d87dc2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031059"
 ---
 # <a name="iwmpmediagetattributename-method"></a>IWMPMedia :: getAttributeName, méthode
 
@@ -64,13 +64,13 @@ Implements IWMPMedia.getAttributeName
 
 **System. String** qui est le nom de l’attribut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom d’attribut retourné peut être utilisé conjointement avec **getItemInfo** pour récupérer la valeur d’un attribut nommé spécifique.
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
-Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
+pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).
 
 ## <a name="examples"></a>Exemples
 

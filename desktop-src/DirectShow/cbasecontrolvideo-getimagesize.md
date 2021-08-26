@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ed7795e3998bc101e907bce87c9981e86f51fcb6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a7e0d970e06186ced3800d4b1f4dc4190778834941b69ac17402e2294312b05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057059"
 ---
 # <a name="cbasecontrolvideogetimagesize-method"></a>Méthode CBaseControlVideo. GetImageSize
 
@@ -76,13 +76,13 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s
 | <dl> <dt>**E \_ échec**</dt> </dl>       | Échec.<br/>                                                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Argument non valide. Le format de données n’est pas compatible.<br/>           |
 | <dl> <dt>**E \_ inattendu**</dt> </dl> | Une erreur inattendue s'est produite. Un ou plusieurs arguments ont la **valeur null**.<br/> |
-| <dl> <dt>**NOERROR**</dt> </dl>       | Opération réussie.<br/>                                                       |
+| <dl> <dt>**NOERROR**</dt> </dl>       | Réussite.<br/>                                                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre est une fonction d’assistance utilisée pour créer des rendus d’image mémoire d’images DIB. Elle est appelée à partir de l’implémentation de la classe de base de [**CBaseControlVideo :: GetCurrentImage**](cbasecontrolvideo-getcurrentimage.md) lorsqu’un paramètre _pVideoImage_ **null** est passé à cette fonction membre. Par conséquent, cette fonction membre construit et retourne une structure [**VIDEOINFOHEADER**](/previous-versions/windows/desktop/api/amvideo/ns-amvideo-videoinfoheader) , à l’aide des informations contenues dans *pBufferSize* et *pSourceRect*.
 
@@ -92,7 +92,7 @@ Cette fonction membre est une fonction d’assistance utilisée pour créer des 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

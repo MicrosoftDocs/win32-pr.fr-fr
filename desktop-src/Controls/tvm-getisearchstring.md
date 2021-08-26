@@ -3,7 +3,7 @@ title: Message TVM_GETISEARCHSTRING (commctrl. h)
 description: Récupère la chaîne de recherche incrémentielle pour un contrôle Tree-View.
 ms.assetid: 71f9a9b6-e124-4655-80fc-dd23f441496d
 keywords:
-- TVM_GETISEARCHSTRING les contrôles de message Windows
+- TVM_GETISEARCHSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa968d78a1a99dd3b1eb90055cf2c1d2de51db86
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79838b2b0d2f109216caf970d33d51b4a3c1369da7b1fc47f5a53e45c3ee82fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060239"
 ---
 # <a name="tvm_getisearchstring-message"></a>TVM \_ GETISEARCHSTRING message
 
@@ -45,9 +45,9 @@ Pointeur vers la mémoire tampon qui reçoit la chaîne de recherche incrémenti
 
 Retourne le nombre de caractères dans la chaîne de recherche incrémentielle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Avertissement de sécurité :** L’utilisation incorrecte de ce message peut compromettre la sécurité de votre programme. Vous devez allouer une mémoire tampon suffisamment grande pour contenir la chaîne. Appelez tout d’abord le message qui passe **null** dans *lParam*. Cela retourne le nombre de caractères, à l’exception de **null**, qui sont requis. Ensuite, appelez le message une seconde fois pour récupérer la chaîne. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
+**Avertissement de sécurité :** L’utilisation incorrecte de ce message peut compromettre la sécurité de votre programme. Vous devez allouer une mémoire tampon suffisamment grande pour contenir la chaîne. Appelez tout d’abord le message qui passe **null** dans *lParam*. Cela retourne le nombre de caractères, à l’exception de **null**, qui sont requis. Ensuite, appelez le message une seconde fois pour récupérer la chaîne. vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 
 Si le contrôle Tree-View n’est pas en mode de recherche incrémentielle, la valeur de retour est zéro.
 
@@ -57,8 +57,8 @@ Si le contrôle Tree-View n’est pas en mode de recherche incrémentielle, la v
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVM \_ GETISEARCHSTRINGW** (Unicode) et **TVM \_ GETISEARCHSTRINGA** (ANSI)<br/> |
 

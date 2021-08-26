@@ -4,12 +4,12 @@ ms.assetid: 117c3d6d-24cd-462f-bdb0-b65d8914273a
 title: Message WM_GETTEXT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f8e2268c1d0ec043e24a001f16abae357bdbdc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3e1bc6a8a77c51b3ab5b84f5cce700e65b180b357c932b4044a2b65cb49fc8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089889"
 ---
 # <a name="wm_gettext-message"></a>\_Message WM GETTEXT
 
@@ -48,7 +48,7 @@ Type : **LRESULT**
 
 La valeur de retour est le nombre de caractères copiés, à l’exclusion du caractère null de fin.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) copie le texte associé à la fenêtre dans la mémoire tampon spécifiée et retourne le nombre de caractères copiés. Notez que pour les contrôles statiques non textuels, vous obtenez le texte avec lequel le contrôle a été créé à l’origine, c’est-à-dire le numéro d’identification. Toutefois, il vous donne l’ID du contrôle statique non textuel tel qu’il a été créé à l’origine. Autrement dit, si vous utilisiez par la suite un **\_ SETIMAGE STM** pour le modifier, l’ID d’origine est toujours retourné.
 
@@ -58,7 +58,7 @@ Lorsque le message **WM \_ GETTEXT** est envoyé à un contrôle statique avec l
 
 **Modification riche :** Si le texte à copier dépasse 64 Ko, utilisez le message [**em \_ STREAMOUT**](../controls/em-streamout.md) ou [**em \_ GETSELTEXT**](../controls/em-getseltext.md) .
 
-L’envoi d’un message **WM \_ GETTEXT** à un contrôle statique non textuel, tel qu’une image bitmap statique ou un contrôle d’icône statique, ne retourne pas de valeur de chaîne. Au lieu de cela, elle retourne zéro. De plus, dans les versions antérieures de Windows, les applications pouvaient envoyer un message **WM \_ GETTEXT** à un contrôle statique non textuel pour récupérer l’ID du contrôle. Pour récupérer l’ID d’un contrôle, les applications peuvent utiliser [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga) en passant l' **\_ ID de GWL** en tant que valeur d’index ou [**GetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-getwindowlongptra) à l’aide de l' **\_ ID GWLP**.
+L’envoi d’un message **WM \_ GETTEXT** à un contrôle statique non textuel, tel qu’une image bitmap statique ou un contrôle d’icône statique, ne retourne pas de valeur de chaîne. Au lieu de cela, elle retourne zéro. en outre, dans les premières versions de Windows, les applications pouvaient envoyer un message **WM \_ GETTEXT** à un contrôle statique non textuel pour récupérer l’ID du contrôle. Pour récupérer l’ID d’un contrôle, les applications peuvent utiliser [**GetWindowLong**](/windows/win32/api/winuser/nf-winuser-getwindowlonga) en passant l' **\_ ID de GWL** en tant que valeur d’index ou [**GetWindowLongPtr**](/windows/win32/api/winuser/nf-winuser-getwindowlongptra) à l’aide de l' **\_ ID GWLP**.
 
 ## <a name="requirements"></a>Configuration requise
 

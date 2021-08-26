@@ -4,30 +4,30 @@ description: Un contrôle d’animation est une fenêtre qui affiche un clip Aud
 ms.assetid: 6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1625828e5f4febce7314da365c9db93ce3a07136
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 57a2a579334fe266499884ccf40ad1154b3465ffd301c92643f248ff2664ed4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921789"
 ---
 # <a name="about-animation-controls"></a>À propos des contrôles d’animation
 
 Un *contrôle d’animation* est une fenêtre qui affiche un clip Audio-Video entrelacé (AVI). Un clip AVI est une série de frames bitmap tels qu’un film. Les contrôles d’animation peuvent uniquement afficher des clips AVI qui ne contiennent pas de données audio.
 
-Une utilisation courante d’un contrôle d’animation consiste à indiquer l’activité du système au cours d’une opération de longue durée. Cela est possible, car le thread d’opération continue de s’exécuter pendant que le clip AVI est affiché. Par exemple, la boîte de dialogue Rechercher de l’Explorateur Windows affiche une loupe mobile lorsque le système recherche un fichier.
+Une utilisation courante d’un contrôle d’animation consiste à indiquer l’activité du système au cours d’une opération de longue durée. Cela est possible, car le thread d’opération continue de s’exécuter pendant que le clip AVI est affiché. par exemple, la boîte de dialogue rechercher de Windows Explorer affiche une loupe mobile lorsque le système recherche un fichier.
 
 > [!Note]  
 > Si vous utilisez ComCtl32.dll version 6, le thread n’est pas pris en charge ; Assurez-vous que votre application ne bloque pas l’interface utilisateur, sinon l’animation ne se produira pas.
 
- 
+ 
 
 Un contrôle d’animation peut afficher un clip AVI provenant d’un fichier AVI non compressé ou d’un fichier AVI compressé à l’aide de l’encodage d’exécution (BI \_ RLE8). Vous pouvez ajouter le clip AVI à votre application en tant que ressource AVI, ou le clip peut accompagner votre application sous la forme d’un fichier AVI distinct.
 
 > [!Note]  
 > Le fichier AVI, ou ressource, ne doit pas avoir de canal sonore. Les fonctionnalités du contrôle d’animation sont très limitées et peuvent faire l’objet de modifications. Si vous avez besoin d’un contrôle pour fournir des fonctionnalités de lecture et d’enregistrement multimédias pour votre application, vous pouvez utiliser le contrôle MCIWnd. Pour plus d’informations, consultez [classe de fenêtre MCIWnd](/windows/desktop/Multimedia/mciwnd-window-class).
 
- 
+ 
 
 Cette section décrit les rubriques suivantes.
 
@@ -71,8 +71,8 @@ Cette section décrit les messages de fenêtre gérés par la procédure de fen�
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

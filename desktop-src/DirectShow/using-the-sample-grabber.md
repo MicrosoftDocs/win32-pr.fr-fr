@@ -4,12 +4,12 @@ ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Utilisation de l’exemple d’accrochage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4886c796691e83e02b58ddea129d60d5004c9f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47318b7bd4dbbad57fb82bec11e0a1293a0284c906c78fc7175d8a758ad477f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083559"
 ---
 # <a name="using-the-sample-grabber"></a>Utilisation de l’exemple d’accrochage
 
@@ -19,18 +19,18 @@ L’exemple de filtre d' [**accrochage**](sample-grabber-filter.md) est un filtr
 
 Si vous souhaitez simplement récupérer une image bitmap à partir d’un fichier vidéo, il est plus facile d’utiliser l’objet [MediaDet (Media DETECTER)](media-detector--mediadet.md) . Pour plus d’informations, consultez [saisie d’un cadre d’affiche](grabbing-a-poster-frame.md) . Toutefois, cette accroche est plus souple, car elle fonctionne avec presque n’importe quel type de média (consultez [**ISampleGrabber :: SetMediaType**](isamplegrabber-setmediatype.md) pour les rares exceptions) et offre davantage de contrôle à l’application.
 
--   [Créer le gestionnaire de graphique de filtre](#create-the-filter-graph-manager)
--   [Ajouter l’exemple d’accrochage au graphique de filtre](#add-the-sample-grabber-to-the-filter-graph)
+-   [créer le gestionnaire de Graph de filtre](#create-the-filter-graph-manager)
+-   [Ajoutez l’exemple d’accrochage au filtre Graph](#add-the-sample-grabber-to-the-filter-graph)
 -   [Définir le type de média](#set-the-media-type)
--   [Générer le graphique de filtre](#build-the-filter-graph)
--   [Exécuter le graphique](#run-the-graph)
+-   [Générer le filtre Graph](#build-the-filter-graph)
+-   [Exécuter le Graph](#run-the-graph)
 -   [Extraire l’exemple](#grab-the-sample)
 -   [Exemple de code](#example-code)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="create-the-filter-graph-manager"></a>Créer le gestionnaire de graphique de filtre
+## <a name="create-the-filter-graph-manager"></a>créer le gestionnaire de Graph de filtre
 
-Pour commencer, créez le [Gestionnaire de graphique de filtre](filter-graph-manager.md) et la requête pour les interfaces [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) .
+pour commencer, créez le [filtre Graph Manager](filter-graph-manager.md) et la requête pour les interfaces [**IMediaControl**](/windows/desktop/api/Control/nn-control-imediacontrol) et [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) .
 
 
 ```C++
@@ -63,7 +63,7 @@ Pour commencer, créez le [Gestionnaire de graphique de filtre](filter-graph-man
 
 
 
-## <a name="add-the-sample-grabber-to-the-filter-graph"></a>Ajouter l’exemple d’accrochage au graphique de filtre
+## <a name="add-the-sample-grabber-to-the-filter-graph"></a>Ajoutez l’exemple d’accrochage au filtre Graph
 
 Créez une instance de l’exemple de filtre d’accrochage et Addit dans le graphique de filtre. Interrogez l’exemple de filtre d’accrochage pour l’interface [**ISampleGrabber**](isamplegrabber.md) .
 
@@ -120,11 +120,11 @@ Lorsque l’accrochage de l’exemple se connecte, il compare ce type de média 
 
 
 
-## <a name="build-the-filter-graph"></a>Générer le graphique de filtre
+## <a name="build-the-filter-graph"></a>Générer le filtre Graph
 
-Vous pouvez maintenant créer le reste du graphique de filtre. Étant donné que l’exemple d’accrochage se connecte uniquement à l’aide du type de média que vous avez spécifié, vous pouvez ainsi tirer parti des mécanismes de [connexion intelligente](intelligent-connect.md) du gestionnaire de graphique de filtre lorsque vous générez le graphique.
+Vous pouvez maintenant créer le reste du graphique de filtre. étant donné que l’exemple d’accrochage se connecte uniquement à l’aide du type de média que vous avez spécifié, vous pouvez ainsi tirer parti des mécanismes de [Connecter intelligents](intelligent-connect.md) du gestionnaire Graph Manager lorsque vous générez le graphique.
 
-Par exemple, si vous avez spécifié une vidéo non compressée, vous pouvez connecter un filtre source à la accroche d’échantillon, et le gestionnaire de graphes de filtre ajoutera automatiquement l’analyseur de fichiers et le décodeur. L’exemple suivant utilise la fonction d’assistance ConnectFilters, qui est indiquée dans [connecter deux filtres](connect-two-filters.md):
+par exemple, si vous avez spécifié une vidéo non compressée, vous pouvez connecter un filtre source à la accroche d’échantillon, et le gestionnaire de Graph de filtre ajoutera automatiquement l’analyseur de fichiers et le décodeur. l’exemple suivant utilise la fonction d’assistance ConnectFilters, qui est indiquée dans [Connecter deux filtres](connect-two-filters.md):
 
 
 ```C++
@@ -200,7 +200,7 @@ L’exemple suivant connecte l’exemple d’accrochage au filtre de convertisse
 
 Sachez que le placement de l’échantillon entre un décodeur vidéo et le convertisseur vidéo peut considérablement nuire aux performances de rendu. L’exemple d’accrochage est un filtre de transfert sur place, ce qui signifie que la mémoire tampon de sortie est la même que la mémoire tampon d’entrée. Pour le rendu vidéo, la mémoire tampon de sortie est susceptible de se trouver sur la carte graphique, où les opérations de lecture sont beaucoup plus lentes, par rapport aux opérations de lecture dans la mémoire principale.
 
-## <a name="run-the-graph"></a>Exécuter le graphique
+## <a name="run-the-graph"></a>Exécuter le Graph
 
 L’exemple de la accroche fonctionne dans l’un des deux modes suivants :
 
@@ -211,7 +211,7 @@ Cet article décrit le mode de mise en mémoire tampon. (Avant d’utiliser le m
 
 Si vous le souhaitez, appelez la méthode [**ISampleGrabber :: SetOneShot**](isamplegrabber-setoneshot.md) avec la valeur **true**. Cela provoque l’arrêt de la capture de l’exemple après avoir reçu le premier exemple de support, ce qui est utile si vous souhaitez récupérer une image unique à partir du flux. Recherchez l’heure souhaitée, exécutez le graphique et attendez la [**\_ fin**](ec-complete.md) de l’événement ce. Notez que le niveau de précision du frame dépend de la source. Par exemple, la recherche d’un fichier MPEG n’est souvent pas correcte.
 
-Pour exécuter le graphique aussi rapidement que possible, activez l’horloge du graphique comme décrit dans [définition de l’horloge du graphique](setting-the-graph-clock.md).
+pour exécuter le graphique aussi rapidement que possible, activez l’horloge du graphique comme décrit dans [définition de l’horloge du Graph](setting-the-graph-clock.md).
 
 L’exemple suivant active le mode de mise en mémoire tampon et le mode à une seule capture, exécute le graphique de filtre et attend la fin de l’exécution.
 
@@ -569,7 +569,7 @@ HRESULT WriteBitmap(PCWSTR pszFileName, BITMAPINFOHEADER *pBMI, size_t cbBMI,
 
 <dl> <dt>
 
-[Utilisation des services de modification DirectShow](using-directshow-editing-services.md)
+[utilisation des Services de modification DirectShow](using-directshow-editing-services.md)
 </dt> </dl>
 
  

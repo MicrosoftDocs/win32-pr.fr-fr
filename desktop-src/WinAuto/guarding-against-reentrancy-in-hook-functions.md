@@ -4,12 +4,12 @@ description: Lorsqu’une fonction de raccordement traite un événement, des é
 ms.assetid: 2382e7a4-82df-423a-8479-66e28baf8105
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74e2b0dc6f8951bf48ce3fecabd3a81bd345388d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 089ac7212823bc64d6c59cdae3d333e96760dfbc25c899cea80071bb39799c17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030749"
 ---
 # <a name="guarding-against-reentrancy-in-hook-functions"></a>Protection contre la réentrance dans les fonctions de raccordement
 
@@ -19,12 +19,12 @@ Par exemple, considérez un cas où une fonction de raccordement dans un program
 
 Étant donné que le traitement des événements est interrompu, des événements supplémentaires peuvent être reçus chaque fois que la fonction de raccordement appelle une fonction qui entraîne la vérification de la file d’attente de messages du thread propriétaire. Cela se produit quand l’un des éléments suivants est appelé dans la fonction de raccordement :
 
--   Fonction Windows [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage), [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage), [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea), [**DialogBox**](/windows/desktop/api/winuser/nf-winuser-dialogboxa)ou [**MessageBox**](/windows/desktop/api/winuser/nf-winuser-messagebox)
+-   fonction Windows [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage), [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage), [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea), [**DialogBox**](/windows/desktop/api/winuser/nf-winuser-dialogboxa)ou [**MessageBox**](/windows/desktop/api/winuser/nf-winuser-messagebox)
 -   Microsoft Active Accessibility Functions [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent), [**AccessibleObjectFromWindow**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromwindow), [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)
 -   Une interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) ou une autre propriété ou méthode com (Component Object Model) qui traverse les limites de processus
 
 Étant donné que les fonctions de raccordement appellent les propriétés et les méthodes [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent) et [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) , il n’est pas possible d’empêcher la réentrance. La seule solution est que les développeurs de clients ajoutent du code dans la fonction de raccordement qui détecte la réentrance et prennent les mesures appropriées si la fonction de raccordement est réentrée.
 
- 
+ 
 
- 
+ 

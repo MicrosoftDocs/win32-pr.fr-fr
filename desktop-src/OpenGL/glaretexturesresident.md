@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e2e7e5965da9604c690384301de6f1879a98994
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c503cac59bbec912c535120161d27991118dab818a185c1f39d8f48cb2a5939
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082239"
 ---
 # <a name="glaretexturesresident-function"></a>glAreTexturesResident fonction)
 
@@ -69,14 +69,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                   |
+| Name                                                                                                  | Signification                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | *n* était une valeur négative, un élément dans *textures* était égal à zéro, ou un élément dans les *textures* ne contenait pas d’identificateur de texture.<br/> |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/>     |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Sur les ordinateurs avec une quantité limitée de mémoire de texture, OpenGL établit une plage de travail de textures résidant dans la mémoire de texture. Ces textures peuvent être liées à une cible de texture bien plus efficacement que les textures qui ne résident pas.
 

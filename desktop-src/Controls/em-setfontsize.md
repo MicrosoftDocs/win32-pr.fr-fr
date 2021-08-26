@@ -3,7 +3,7 @@ title: Message EM_SETFONTSIZE (RichEdit. h)
 description: Définit la taille de police du texte sélectionné dans un contrôle RichEdit.
 ms.assetid: 18d91370-12c0-4e5f-a0e9-ffde02abc966
 keywords:
-- EM_SETFONTSIZE les contrôles de message Windows
+- EM_SETFONTSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb75276acbb86cbd452a8ad97698f1cd7382bd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e646d58626a034f4764d6b9636e5b4b3eedba5befd7986eade9979c1f4a4fd5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048459"
 ---
 # <a name="em_setfontsize-message"></a>\_Message SETFONTSIZE em
 
@@ -49,7 +49,7 @@ Si aucune erreur ne s’est produite, la valeur de retour est **true**.
 
 Si une erreur s’est produite, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez facilement récupérer la taille de police en envoyant le message [**em \_ GETCHARFORMAT**](em-getcharformat.md) .
 
@@ -102,8 +102,8 @@ Des exemples supplémentaires sont présentés dans le tableau suivant.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 

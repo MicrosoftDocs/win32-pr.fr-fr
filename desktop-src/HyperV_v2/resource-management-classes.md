@@ -4,12 +4,12 @@ ms.assetid: 70184AEA-EA2E-4CC8-8DB3-828833E7C4C2
 title: Classes de gestion des ressources
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b435f4aebf125b445737bb6b0aa68b427838159
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a94dc5597b9db18ad7ffc3bbfe4ff5bf786d9b74a8e21ad2a7dbdc7c2f18781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083039"
 ---
 # <a name="resource-management-classes"></a>Classes de gestion des ressources
 

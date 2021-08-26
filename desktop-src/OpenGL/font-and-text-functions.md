@@ -7,12 +7,12 @@ keywords:
 - WGL, police
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e205549346cccc2c44b7670db91530cfbc24017d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1341dab969178a08e43c1af0a32c4cac817072ad2d5315cd051df2c87ac3c3fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082439"
 ---
 # <a name="font-and-text-functions-opengl"></a>Fonctions de police et de texte (OpenGL)
 
@@ -20,7 +20,7 @@ Les fonctions suivantes peuvent être utilisées pour gérer des polices et du t
 
 
 
-| Fonction Windows                                 | Description                                                                                                                                                                                                                      |
+| Windows Fonctionnalités                                 | Description                                                                                                                                                                                                                      |
 |--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**wglUseFontBitmaps**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa)   | Crée un jeu de listes d’affichage de bitmaps de caractères. Les caractères proviennent de la police actuelle d’un contexte de périphérique spécifié. Les caractères sont spécifiés en tant qu’exécution consécutive dans le jeu de glyphes de la police.                                      |
 | [**wglUseFontOutlines**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa) | Crée un ensemble de listes d’affichage, en fonction des glyphes de la police de contour actuellement sélectionnée d’un contexte de périphérique, à utiliser avec le contexte de rendu actuel. Les listes d’affichage permettent de dessiner des caractères 3D de polices TrueType. |
@@ -33,7 +33,7 @@ Les fonctions **wglUseFontBitmaps** et **wglUseFontOutlines** prennent un handle
 
 Les fonctions [**wglUseFontBitmaps**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontbitmapsa) et [**wglUseFontOutlines**](/windows/desktop/api/wingdi/nf-wingdi-wglusefontoutlinesa) prennent également un paramètre qui transforme le premier glyphe de la police en une liste d’affichage bitmap, et un paramètre qui spécifie le nombre de glyphes à convertir en listes d’affichage. La fonction crée ensuite des listes d’affichage pour l’exécution consécutive de glyphes spécifiée. Par exemple :
 
--   Pour créer un ensemble de listes d’affichage bitmap 224 pour tous les glyphes de jeu de caractères Windows, définissez ces deux paramètres sur 32 et 224, respectivement.
+-   pour créer un ensemble de listes d’affichage bitmap 224 pour tous les glyphes de jeu de caractères Windows, définissez ces deux paramètres sur 32 et 224, respectivement.
 -   Pour créer un ensemble de listes d’affichage bitmap 256 pour tous les glyphes de jeu de caractères OEM, définissez ces deux paramètres sur 0 et 256, respectivement.
 -   Pour créer une liste d’affichage à bitmap unique pour tout glyphe de jeu de caractères unique, définissez la seconde de ces paramètres sur 1.
 

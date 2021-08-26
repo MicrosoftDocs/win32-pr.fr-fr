@@ -3,7 +3,7 @@ title: DoReaderMode fonction)
 description: Active le mode lecteur dans une fenêtre.
 ms.assetid: 8f898cdd-c907-430a-8287-15d88390c756
 keywords:
-- Contrôles Windows de la fonction DoReaderMode
+- DoReaderMode, fonction Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f5c5863e804cd4bbaab651447e4c6f22dc24a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63b71538e41e4b70155da8352e531b620fbe5de7f62746713c3a2a58f3adddf2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104479469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002689"
 ---
 # <a name="doreadermode-function"></a>DoReaderMode fonction)
 
@@ -55,7 +55,7 @@ Pointeur vers une structure [**READERMODEINFO**](readermodeinfo.md) qui contient
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mode lecteur est activé via des appareils pris en charge par un clic de souris, généralement à l’aide d’un troisième bouton de la souris ou d’une roulette de défilement. Le déplacement suivant de la souris dans une zone spécifiée fait défiler le contenu de cette zone plutôt que de déplacer un pointeur. En dehors de cette zone, le pointeur de la souris est affiché et fonctionne normalement. Un deuxième clic sur le bouton ou la roulette de défilement libère l’appareil du mode lecteur.
 
@@ -70,8 +70,8 @@ Le mode lecteur est activé via des appareils pris en charge par un clic de sour
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                            |
+| Client minimal pris en charge<br/> | Windows vista, Windows les \[ applications de bureau vista uniquement\]<br/>                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 4,72 ou ultérieure)</dt> </dl> |
 
 

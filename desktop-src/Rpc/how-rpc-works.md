@@ -4,12 +4,12 @@ description: Les outils RPC s’affichent pour les utilisateurs comme si un clie
 ms.assetid: 265f31b8-9a41-4255-b070-fd50b00b935b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12832d0de4eb972bb1d9d51df0c871191d4d079a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0bd7a3adf59e848d962d4765a0feee16eb1fa84842c2a1ddd34ed82ecf95a8e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020852"
 ---
 # <a name="how-rpc-works"></a>Fonctionnement de RPC
 
@@ -45,9 +45,9 @@ Les bibliothèques Runtime sont fournies en deux parties : une bibliothèque d�
 
 L’application serveur contient des appels aux fonctions de la bibliothèque Runtime du serveur qui inscrivent l’interface du serveur et permettent au serveur d’accepter les appels de procédure distante. L’application serveur contient également les procédures distantes spécifiques à l’application qui sont appelées par les applications clientes.
 
- 
+ 
 
- 
+ 
 
 
 

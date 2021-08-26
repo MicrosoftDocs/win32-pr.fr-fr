@@ -3,7 +3,7 @@ title: ACN_START le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle d’animation que le clip AVI associé a démarré. Ce code de notification est envoyé sous la forme d’un \_ message de commande WM.
 ms.assetid: b4d12225-36f7-4f87-b58a-dac091d14e4c
 keywords:
-- Contrôles Windows de code de notification ACN_START
+- ACN_START les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b0354d8b2b41ea8690be47e70cbc577c064e579
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ccfb5a1fc1f6b258cfe8363e99f38894ed7e601401d4f725431992a31f86376
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922159"
 ---
 # <a name="acn_start-notification-code"></a>ACN \_ Démarrer le code de notification
 
@@ -59,8 +59,8 @@ ACN_START
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

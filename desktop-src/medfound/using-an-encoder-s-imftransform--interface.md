@@ -1,19 +1,19 @@
 ---
-description: Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les encodeurs Windows Media. En savoir plus sur la création d’un encodeur à l’aide de CoCreateInstance.
+description: pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser des encodeurs Windows media. En savoir plus sur la création d’un encodeur à l’aide de CoCreateInstance.
 ms.assetid: 96f19dfb-a328-41db-8fa8-77f052b1a192
 title: Création d’un encodeur à l’aide de CoCreateInstance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15c4cdf7b72bbfee97031088502113d085738981
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: cbd48931b7bc8e0b449ee8ffaa0141a6413f2699ebaae6e1ba01fdd1f4b38a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092319"
 ---
 # <a name="creating-an-encoder-by-using-cocreateinstance"></a>Création d’un encodeur à l’aide de CoCreateInstance
 
-Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les encodeurs Windows Media. Pour utiliser ces encodeurs, ceux-ci doivent être inscrits auprès du système. Les encodeurs sont implémentés en tant que [Media Foundation transformations](media-foundation-transforms.md) (MFTS) et doivent exposer l’interface IMFTransform. Cette rubrique décrit comment une application peut obtenir un pointeur vers l’interface IMFTransform de l’encodeur MFT nécessaire et l’instancier pour l’utiliser.
+pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser des encodeurs Windows media. Pour utiliser ces encodeurs, ceux-ci doivent être inscrits auprès du système. Les encodeurs sont implémentés en tant que [Media Foundation transformations](media-foundation-transforms.md) (MFTS) et doivent exposer l’interface IMFTransform. Cette rubrique décrit comment une application peut obtenir un pointeur vers l’interface IMFTransform de l’encodeur MFT nécessaire et l’instancier pour l’utiliser.
 
 Pour plus d’informations sur l’inscription de l’encodeur, consultez [instanciation d’un encodeur MFT](instantiating-the-encoder-mft.md).
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur l’inscription de l’encodeur, consultez [insta
 
 ## <a name="using-an-encoders-imftransform-interface"></a>Utilisation de l’interface IMFTransform d’un encodeur
 
-Une fois l’inscription des encodeurs Windows Media avec le système terminée, une application peut énumérer les encodeurs en appelant [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum). Pour Rechercher l’encodeur approprié, vous devez spécifier les éléments suivants :
+en cas de réussite de l’inscription de Windows encodeurs multimédia auprès du système, une application peut énumérer les encodeurs en appelant [**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum). Pour Rechercher l’encodeur approprié, vous devez spécifier les éléments suivants :
 
 -   GUID qui représente la catégorie, qui est soit l' **\_ \_ \_ encodeur audio de catégorie MFT** , soit l' **\_ \_ \_ encodeur vidéo de catégorie MFT**.
 
@@ -34,7 +34,7 @@ Une fois l’inscription des encodeurs Windows Media avec le système terminée,
 
      
 
-[**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) retourne un tableau de pointeurs [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) pour le MFTS d’encodeur qui correspondent aux critères de recherche. Vous pouvez instancier un encodeur en appelant la fonction COM **CoCreateInstance** et en passant le CLSID de l’encodeur que vous souhaitez utiliser. Cette fonction retourne un pointeur vers l’interface **IMFTransform** qui représente l’encodeur. Pour plus d’informations sur cet appel de fonction, consultez la documentation SDK Windows pour le modèle COM (Component Object Model).
+[**MFTEnum**](/windows/desktop/api/mfapi/nf-mfapi-mftenum) retourne un tableau de pointeurs [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform) pour le MFTS d’encodeur qui correspondent aux critères de recherche. Vous pouvez instancier un encodeur en appelant la fonction COM **CoCreateInstance** et en passant le CLSID de l’encodeur que vous souhaitez utiliser. Cette fonction retourne un pointeur vers l’interface **IMFTransform** qui représente l’encodeur. pour plus d’informations sur cet appel de fonction, consultez la documentation SDK Windows pour le modèle COM (component Object Model).
 
 ### <a name="encoder-creation-example"></a>Exemple de création d’encodeur
 
@@ -95,7 +95,7 @@ HRESULT FindEncoder(
 [Instanciation d’une table MFT d’encodeur](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Encodeurs Windows Media](windows-media-encoders.md)
+[Windows Encodeurs multimédias](windows-media-encoders.md)
 </dt> </dl>
 
  

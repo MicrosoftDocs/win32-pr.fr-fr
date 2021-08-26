@@ -4,27 +4,27 @@ ms.assetid: 032f7624-2237-41cd-844a-18ed4a2e420d
 title: Comment écrire un filtre source pour DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87af99595a43c86be0e2f4ecaa51768a211e9674
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 79ea6821dc7d56f2628ce68e7320e5e76b2c1643978e68287d434b7a111cbbd0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043239"
 ---
 # <a name="how-to-write-a-source-filter-for-directshow"></a>Comment écrire un filtre source pour DirectShow
 
 Cette rubrique explique comment écrire un filtre source personnalisé pour DirectShow.
 
 > [!Note]  
-> Cette rubrique décrit les sources Push uniquement. il ne décrit pas les sources de tirage, telles que le filtre de lecteur Async, ou les filtres de séparateur qui se connectent aux sources d’extraction. Pour la distinction entre les sources *Push* et *pull* , consultez [flux de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
+> Cette rubrique décrit les sources Push uniquement. il ne décrit pas les sources de tirage, telles que le filtre de lecteur Async, ou les filtres de séparateur qui se connectent aux sources d’extraction. pour la distinction entre les sources *push* et *pull* , consultez [Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
 
  
 
-## <a name="the-directshow-streaming-model"></a>Modèle de diffusion en continu DirectShow
+## <a name="the-directshow-streaming-model"></a>modèle de diffusion en continu DirectShow
 
 Lorsque vous écrivez un filtre source, il est important de comprendre qu’une source Push n’est pas la même chose qu’une source active. Une source active obtient des données à partir d’une source externe, telle qu’une caméra ou un flux réseau. En règle générale, une source dynamique ne peut pas contrôler le taux de données entrant. Si les filtres en aval ne consomment pas suffisamment de données, la source devra supprimer des échantillons.
 
-Mais il n’est pas nécessaire qu’une source Push soit une source dynamique. Par exemple, une source Push peut lire des données à partir d’un fichier local. Dans ce cas, les filtres de convertisseur en aval déterminent la vitesse à laquelle ils consomment les données de la source, en fonction de l’horloge de référence et des horodatages de l’exemple. Le filtre source fournit des échantillons aussi rapidement que possible, mais le workflow réel est limité par les convertisseurs. Les mécanismes de déclenchement du workflow sont décrits dans la rubrique [Data Flow pour les développeurs de filtres](data-flow-for-filter-developers.md).
+Mais il n’est pas nécessaire qu’une source Push soit une source dynamique. Par exemple, une source Push peut lire des données à partir d’un fichier local. Dans ce cas, les filtres de convertisseur en aval déterminent la vitesse à laquelle ils consomment les données de la source, en fonction de l’horloge de référence et des horodatages de l’exemple. Le filtre source fournit des échantillons aussi rapidement que possible, mais le workflow réel est limité par les convertisseurs. les mécanismes de déclenchement du workflow sont décrits dans [Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md).
 
 Chaque broche de sortie sur le filtre source crée un thread appelé *thread de streaming*. Le code PIN fournit des exemples sur le thread de streaming. En général, tout le décodage, le traitement et le rendu se produisent sur ce thread, bien que certains filtres en aval puissent créer des threads supplémentaires pour la mise en file d’attente de leurs exemples de sortie.
 
@@ -44,7 +44,7 @@ La boucle s’exécute aussi rapidement que possible, mais elle est limitée par
 
 ## <a name="using-csource-and-csourcestream"></a>Utilisation de CSource et CSourceStream
 
-Les classes de base DirectShow incluent deux classes qui prennent en charge les sources Push : [**CSource**](csource.md) et [**CSourceStream**](csourcestream.md).
+les classes de base DirectShow incluent deux classes qui prennent en charge les sources push : [**CSource**](csource.md) et [**CSourceStream**](csourcestream.md).
 
 -   [**CSource**](csource.md) est la classe de base pour le filtre et implémente l’interface [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) .
 -   [**CSourceStream**](csourcestream.md) est la classe de base pour les broches de sortie et implémente l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipin) .
@@ -134,7 +134,7 @@ Pour prendre en charge des formats d’heure supplémentaires, vous devez implé
 
 Si l’application définit un nouveau format d’heure, tous les paramètres de position dans les méthodes [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) sont interprétés en fonction du nouveau format d’heure. Par exemple, si le format d’heure est frames, la méthode [**IMediaSeeking :: GetDuration**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getduration) doit retourner la durée dans les frames.
 
-En pratique, peu de filtres DirectShow prennent en charge des formats d’heure supplémentaires et, par conséquent, peu d’applications DirectShow utilisent cette fonctionnalité.
+en pratique, peu de filtres DirectShow prennent en charge des formats d’heure supplémentaires et, par conséquent, peu d’applications DirectShow utilisent cette fonctionnalité.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 89e103d441648643be0176ca34f72f6175c11213
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ed9cf5e6e85e65da69dee1998c8d75241f775fdc212e2e86687bb380271c898a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028689"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx10mathh"></a>D3DXMatrixMultiply, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure source D3DXMATRIX (à droite).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est le produit de deux matrices.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le résultat représente la transformation M1 suivie de la transformation m2 (out = M1 \* m2).
 

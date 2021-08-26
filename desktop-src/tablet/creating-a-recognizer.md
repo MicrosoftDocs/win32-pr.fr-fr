@@ -4,19 +4,19 @@ ms.assetid: 502ef3fb-ba45-4f8b-bbd5-19c24e313439
 title: Création d’un module de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bc71f56dc7095c6c72d18b36c3a12caa493ec9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab9f35277c32c40658adb5530f4521c945df12152aa214167573e111eccdca13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119941049"
 ---
 # <a name="creating-a-recognizer"></a>Création d’un module de reconnaissance
 
 Si vous choisissez de le faire, votre application peut fournir ses propres implémentations de module de reconnaissance. Cette section décrit la configuration requise pour la création d’un module de reconnaissance d’application personnalisé pour votre application que vous pouvez utiliser avec l’API de plateforme Tablet PC.
 
 > [!Note]  
-> Les programmeurs d’applications personnalisées ne sont pas utilisés par le panneau de saisie Tablet PC ou le journal Microsoft Windows. Ces accessoires utilisent uniquement des détecteurs avec lesquels ils ont été testés.
+> les programmeurs d’applications personnalisées ne sont pas utilisés par le panneau de saisie Tablet pc ou le Journal Microsoft Windows. Ces accessoires utilisent uniquement des détecteurs avec lesquels ils ont été testés.
 
  
 

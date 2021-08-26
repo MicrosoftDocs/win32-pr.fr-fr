@@ -1,19 +1,19 @@
 ---
-description: Version du produit de l’appareil Bluetooth.
+description: Bluetooth version du produit de l’appareil.
 ms.assetid: 30f3bfe5-a78c-41c0-a579-5c0f6bfd2388
 title: System. DeviceInterface. Bluetooth. ProductVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14453ed5c688634497a6fabd8251f9739c3c726a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe28bdb772e23faa8d368d3626a01d1177b4af70e3cc24cae632da146fa7a192
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091509"
 ---
 # <a name="systemdeviceinterfacebluetoothproductversion"></a>System. DeviceInterface. Bluetooth. ProductVersion
 
-Version du produit de l’appareil Bluetooth.
+Bluetooth version du produit de l’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

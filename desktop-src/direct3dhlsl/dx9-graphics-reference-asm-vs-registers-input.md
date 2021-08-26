@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 983f0520ccc50fa1683d4b8254ac436fff7491a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6682d8987f2df3ba3fb06427d41b722abb5eb003a4226a155c104cc3239d0f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982759"
 ---
 # <a name="input-register"></a>Registre d’entrée
 
@@ -35,7 +35,7 @@ Les propriétés de Registre suivantes contrôlent le comportement de chaque reg
 
 
 
- 
+ 
 
 Toute instruction unique ne peut accéder qu’à un seul registre d’entrée de vertex. Toutefois, chaque source de l’instruction peut Swizzle et inverser ce vecteur au fur et à mesure de sa lecture.
 
@@ -73,7 +73,7 @@ dcl_position v0
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -82,9 +82,9 @@ dcl_position v0
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e94ae371-8365-4e42-ac8c-04c3928fcffb
 title: Création et sélection de régions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27a7887e41a04a62015fa3fc9d82f5beeb01d6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75ce2711b2d1ae9dc6641748c72fd586d02e25964102a8c034593d6e60cbaa33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092689"
 ---
 # <a name="region-creation-and-selection"></a>Création et sélection de régions
 
@@ -17,7 +17,7 @@ Une application crée une région en appelant une fonction associée à une form
 
 
 
-| Graphique à base de formes                                   | Fonction                                                                                                                         |
+| Forme                                   | Fonction                                                                                                                         |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Zone rectangulaire                      | [**CreateRectRgn**](/windows/desktop/api/Wingdi/nf-wingdi-createrectrgn), [**CreateRectRgnIndirect**](/windows/desktop/api/Wingdi/nf-wingdi-createrectrgnindirect), [**SetRectRgn**](/windows/desktop/api/Wingdi/nf-wingdi-setrectrgn) |
 | Zone rectangulaire avec angles arrondis | [**CreateRoundRectRgn**](/windows/desktop/api/Wingdi/nf-wingdi-createroundrectrgn)                                                                                 |

@@ -4,12 +4,12 @@ ms.assetid: 559e73bf-91c2-4dbf-a667-e5c0431aaffa
 title: INDEXID contient
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b6ef6b79dd19183f575930e9793a6ab2f1f5cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c5711f2927462325b2a6479dd9506099da4bd50f9a9a99b68152e5c0030a47d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001889"
 ---
 # <a name="indexid"></a>INDEXID contient
 
@@ -22,7 +22,7 @@ typedef DWORD INDEXID;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un **IndexID contient** peut être une valeur entière qui représente l’index ou la valeur suivante :
 
@@ -41,8 +41,8 @@ Un **IndexID contient** peut être une valeur entière qui représente l’index
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

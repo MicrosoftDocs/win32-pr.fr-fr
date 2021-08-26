@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: e156833a23eb2956f7f2ccf32673ddcffb742e89
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
-ms.translationtype: HT
+ms.openlocfilehash: 9511b02dd41791ce15a8b356ce849e4e2c034cccd1e52dc015dc66b27292d877
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067459"
 ---
 # <a name="texture2dsamplebias-methods"></a>Texture2D :: SampleBias, méthodes
 
@@ -35,7 +35,7 @@ ms.locfileid: "104381021"
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Reportez-vous à [texture-objet](dx-graphics-hlsl-to-type.md).
 

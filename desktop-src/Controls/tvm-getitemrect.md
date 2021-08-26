@@ -3,7 +3,7 @@ title: Message TVM_GETITEMRECT (commctrl. h)
 description: Récupère le rectangle englobant d’un élément d’arborescence et indique si l’élément est visible. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetItemRect TreeView.
 ms.assetid: f2d7d7b1-cfe7-4361-bd90-e3e99dbcd99c
 keywords:
-- TVM_GETITEMRECT les contrôles de message Windows
+- TVM_GETITEMRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdf4d73fb83ddbd8e9e682f11ee1f5ecfbd5153
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6b58ff7d2ce88fd4257ce7db84fa8bd9b4fa2b2d223af03a3f1d57a83c9b9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053999"
 ---
 # <a name="tvm_getitemrect-message"></a>TVM \_ GETITEMRECT message
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 Si l’élément est visible et que le rectangle englobant a été récupéré avec succès, la valeur de retour est **true**. Dans le cas contraire, le message retourne la **valeur false** et ne récupère pas le rectangle englobant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’envoi de ce message, le paramètre *lParam* contient le handle de l’élément pour lequel le rectangle est récupéré. Le descripteur est placé dans *lParam* comme indiqué dans l’exemple suivant :
 
@@ -68,8 +68,8 @@ SendMessage(hwndTreeView, TVM_GETITEMRECT, FALSE, (LPARAM)&rc);
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - winioctl.h.h
-ms.openlocfilehash: e7aa3d33f744b00fc742a2862add83149cb265b4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1b9aa008e108f1282f8f61aaeacdce11eba7016632fa9643ae3db5550efb1e10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047909"
 ---
 # <a name="storage_hw_firmware_info-structure"></a>\_Structure d' \_ \_ informations sur le microprogramme matériel de stockage
 
@@ -132,7 +132,7 @@ La taille maximale de la charge utile d’image est utilisée pour une seule com
 
 </dd> <dt>
 
-**Emplacement**
+**Horaire**
 </dt> <dd>
 
 Contient les informations relatives à l’emplacement de chaque emplacement sur l’appareil, de type informations sur l' [**\_ \_ \_ emplacement \_ du microprogramme de stockage matériel**](storage-hw-firmware-slot-info.md).
@@ -145,8 +145,8 @@ Contient les informations relatives à l’emplacement de chaque emplacement sur
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                        |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                        |
 | En-tête<br/>                   | <dl> <dt>Winioctl. h. h (inclure Windows. h)</dt> </dl> |
 
 

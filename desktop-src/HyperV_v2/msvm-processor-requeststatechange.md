@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 231c9c250bb1fbf2025c3c1d5bae70df70ed47d0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ff684c046c30d9f5a323a632804e60c127574190a451ad2786bb863cd2f3b7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108118827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046459"
 ---
 # <a name="requeststatechange-method-of-the-msvm_processor-class"></a>Méthode RequestStateChange de la \_ classe de processeur MSVM
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne l'une des valeurs suivantes :
 

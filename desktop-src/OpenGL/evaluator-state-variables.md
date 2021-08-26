@@ -1,6 +1,6 @@
 ---
-title: Variables d’état de l’évaluateur
-description: Variables d’état de l’évaluateur
+title: Évaluateur, variables d’état
+description: Évaluateur, variables d’état
 ms.assetid: e7d710be-de17-46a0-8ad8-0f65b943ece8
 keywords:
 - Variables d’état de l’évaluateur OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2895f773721f7c900003cbaa0f070c277a0e260
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 747ed7c19817757570d6517c68a987c2c75aa340c74ecfbac9fe258b1091f00e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082509"
 ---
-# <a name="evaluator-state-variables"></a>Variables d’état de l’évaluateur
+# <a name="evaluator-state-variables"></a>Évaluateur, variables d’état
 
 <dl> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>\_commande GL</dt> <dd> 
 
@@ -131,7 +131,7 @@ ms.locfileid: "107909257"
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | points de terminaison de grille 1D                                                             |
 | Groupe d’attributs : | eval                                                                           |
-| Valeur initiale :   | 0, 1                                                                            |
+| Valeur initiale :   | 0,1                                                                            |
 | Commande d’extraction :     | [**glGetFloatv**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) |
 
 

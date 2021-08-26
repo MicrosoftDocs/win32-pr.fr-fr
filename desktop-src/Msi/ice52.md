@@ -4,20 +4,20 @@ ms.assetid: 18d1489e-666a-488d-ae12-5dbe60885a2e
 title: ICE52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 785dd468aaa637df02b9eb432dd77f9226d828a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b96f514f38e44a802b092acff53ac14f10c5e5d32c03888b7d45540443d34be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044039"
 ---
 # <a name="ice52"></a>ICE52
 
 ICE52 vérifie les propriétés privées dans la [table AppSearch](appsearch-table.md). Consultez [à propos des propriétés](about-properties.md).
 
-Quand vous utilisez Windows 2000, toutes les propriétés définies dans la colonne propriété de la table AppSearch doivent être des propriétés publiques.
+quand vous utilisez Windows 2000 toutes les propriétés définies dans la colonne propriété de la table AppSearch doivent être des propriétés publiques.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE52 publie un avertissement s’il existe une propriété privée dans la table AppSearch.
 

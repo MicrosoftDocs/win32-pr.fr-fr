@@ -4,12 +4,12 @@ ms.assetid: 69888d66-8e96-4a20-b8c5-a01267ff3c05
 title: Attribut MF_PD_ASF_METADATA_IS_VBR (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5863d5366fd94e230040f81d3f67f4c75fd3fe3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e97d471c6a6466290c5b2ac490f88ae33de29aa3823af420ef8b8116a81192a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955419"
 ---
 # <a name="mf_pd_asf_metadata_is_vbr-attribute"></a>Les \_ \_ métadonnées MF PD ASF \_ sont des \_ \_ attributs VBR
 
@@ -21,14 +21,14 @@ Spécifie si un fichier ASF (Advanced Systems Format) utilise l’encodage VBR (
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF. Si la valeur est **true**, le fichier a été encodé à l’aide de VBR. Si la valeur est **false** ou si l’attribut n’est pas présent, le fichier n’utilise pas le codage VBR.
 
 La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor) génère cet attribut et le définit sur le descripteur de présentation.
 
 > [!Note]  
-> Cet attribut correspond à l’attribut **IsVBR** dans le kit de développement logiciel (SDK) du format Windows Media.
+> cet attribut correspond à l’attribut **IsVBR** dans le kit de développement logiciel (SDK) de Format multimédia Windows.
 
  
 
@@ -38,8 +38,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

@@ -1,29 +1,29 @@
 ---
-description: Filtre de source Windows Media
+description: Windows Filtre de source de média
 ms.assetid: e59b3086-4f62-4541-8bef-b0581f01906f
-title: Filtre de source Windows Media
+title: Windows Filtre de source de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa8e2c2f2e575a70d85fdce3d9b8d643e270f721
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: eb1e617a51095aec7cb409e46ba8f19f14f76fcd6f8d8a9bffeaa13843b1728b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982203"
 ---
-# <a name="windows-media-source-filter"></a>Filtre de source Windows Media
+# <a name="windows-media-source-filter"></a>Windows Filtre de source de média
 
-Ce filtre est le filtre source hérité pour le contenu® Windows Media. Il est utilisé par le lecteur Windows Media 6,4. En général, la méthode la plus simple et la plus fiable pour utiliser ce filtre consiste à utiliser le contrôle ActiveX du lecteur Windows Media 6,4. La plupart des méthodes exposées par ce filtre sont également exposées par le biais du contrôle ActiveX. Pour plus d’informations, consultez le kit de développement logiciel (SDK) du lecteur Windows Media.
+ce filtre est le filtre source hérité pour Windows contenu multimédia®. elle est utilisée par Lecteur Windows Media 6,4. en général, la méthode la plus simple et la plus fiable pour utiliser ce filtre consiste à utiliser le contrôle Lecteur Windows Media 6,4 ActiveX. la plupart des méthodes exposées par ce filtre sont également exposées par le biais du contrôle ActiveX. pour plus d’informations, consultez le kit de développement logiciel (SDK) Lecteur Windows Media.
 
-Lorsque ce filtre reçoit le nom d’un fichier ASF local ou une URL pour un fichier distant, il lit le fichier, analyse les flux compressés et crée une broche de sortie pour chacun d’eux. Ce filtre n’utilise pas le kit de développement logiciel (SDK) du format Windows Media. Il utilise les versions du codec installables des décodeurs Windows Media, et non pas les versions d’DMO. La broche de sortie audio se connecte toujours au filtre du gestionnaire ACM ASF et le code confidentiel vidéo se connecte toujours au gestionnaire ICM ASF. (Dans ce cas, ICM fait référence au nom d’origine du gestionnaire de compression vidéo.) Le filtre ne prend pas en charge la recherche.
+Lorsque ce filtre reçoit le nom d’un fichier ASF local ou une URL pour un fichier distant, il lit le fichier, analyse les flux compressés et crée une broche de sortie pour chacun d’eux. ce filtre n’utilise pas le kit de développement logiciel (SDK) Format multimédia Windows. il utilise les versions du codec installables des décodeurs Windows Media, et non pas les versions DMO. la broche de sortie audio se connecte toujours au filtre du gestionnaire ACM asf et le code confidentiel vidéo se connecte toujours au gestionnaire de ICM asf. (ICM dans ce cas fait référence au nom d’origine du gestionnaire de Compression vidéo.) Le filtre ne prend pas en charge la recherche.
 
 Le diagramme suivant montre un graphique de filtre avec ce filtre.
 
 ![graphique de filtre de source Windows Media](images/wms-wmv-graph.png)
 
-Pour assurer la compatibilité descendante avec le lecteur Windows Media 6,4, ce filtre est le filtre source par défaut pour les fichiers avec les extensions de fichier. WMA,. wmv et. ASF. Pour la lecture de fichiers, les applications plus récentes doivent utiliser le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) . Toutefois, le lecteur ASF WM ne prend pas en charge la lecture de contenu diffusé en continu.
+pour assurer la compatibilité descendante avec Lecteur Windows Media 6,4, ce filtre est le filtre source par défaut pour les fichiers avec les extensions de fichier. wma,. wmv et. asf. Pour la lecture de fichiers, les applications plus récentes doivent utiliser le filtre de [lecteur ASF WM](wm-asf-reader-filter.md) . Toutefois, le lecteur ASF WM ne prend pas en charge la lecture de contenu diffusé en continu.
 
-Le moyen le plus simple pour une application de lire du contenu multimédia Windows en continu consiste à utiliser le kit de développement logiciel (SDK) du lecteur Windows Media. Une autre option consiste à utiliser le kit de développement logiciel (SDK) du format Windows Media. La tentative de création d’un joueur personnalisé basé sur le filtre de source Windows Media n’est pas recommandée.
+le moyen le plus simple pour une application de lire en continu Windows contenu multimédia est d’utiliser le kit de développement logiciel (SDK) Lecteur Windows Media. une autre option consiste à utiliser le kit de développement logiciel (SDK) de Format multimédia Windows. la tentative de création d’un lecteur personnalisé basé sur le filtre de Source du média Windows n’est pas recommandée.
 
 
 
@@ -60,10 +60,10 @@ DEFINE_GUID(CLSID_NetShowSource,
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
-[Lecture de fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
+[Lecture des fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
 </dt> <dt>
 
 [Filtre de lecteur ASF WM](wm-asf-reader-filter.md)

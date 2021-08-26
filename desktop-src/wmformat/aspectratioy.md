@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb7c8f109fb1d393b3b5646907f697d394e99c6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0c83bcf3f809c3a25f9e17daab9acdc63d78b3b2b8b7b2d9f3c5fd7533c315f9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055709"
 ---
 # <a name="aspectratioy"></a>AspectRatioY
 
@@ -31,7 +31,7 @@ L’attribut **AspectRatioY** contient le composant de hauteur des proportions e
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous pouvez ajouter ou modifier cette valeur. Dans d’autres objets (éditeur de métadonnées, lecteur et lecteur synchrone), cette valeur est en lecture seule.
 
@@ -42,12 +42,12 @@ Lors de l’accès à l’interface **IWMHeaderInfo3** de l’objet Writer, vous
 [**Liste d’attributs**](attribute-list.md)
 </dt> <dt>
 
-[**Pour lire et écrire des flux vidéo avec des pixels non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
+[**pour lire et écrire des Flux vidéo avec des Pixels Non carrés**](to-read-and-write-video-streams-with-non-square-pixels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

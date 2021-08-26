@@ -3,7 +3,7 @@ title: Message TBM_GETRANGEMIN (commctrl. h)
 description: Récupère la position minimale du curseur dans un TrackBar.
 ms.assetid: 64334aed-0403-4785-829e-693292734d10
 keywords:
-- TBM_GETRANGEMIN les contrôles de message Windows
+- TBM_GETRANGEMIN les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fddef597f7b129f8334f75136f56404a8ef117fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b79cfcf589dcd246699e0eb79c30368a3cad0e72eb74a76528967d3a0683d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046539"
 ---
 # <a name="tbm_getrangemin-message"></a>\_Message TBM GETRANGEMIN
 
@@ -45,8 +45,8 @@ Retourne une valeur de 32 bits qui spécifie la position minimale dans la plage 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

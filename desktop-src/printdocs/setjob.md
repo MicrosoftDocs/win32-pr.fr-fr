@@ -17,12 +17,12 @@ api_location:
 - WinSpool.drv
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 34dfc8c0239a10d7e7f036beed457d57329f4c67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9259429a7696e832bbbe6d0dd4bbb6fb46e7bce2bf7157122c10ca47656af346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060019"
 ---
 # <a name="setjob-function"></a>SetJob fonction)
 
@@ -70,11 +70,11 @@ De *niveau* \[ dans\]
 
 Type de structure d’informations de travail vers lequel pointe le paramètre *pJob* .
 
-**Toutes les versions de Windows**: vous pouvez définir le paramètre de *niveau* sur 0, 1 ou 2. Lorsque vous définissez *Level* sur 0, *pJob* doit avoir la **valeur null**. Utilisez ces valeurs lorsque vous ne définissez pas de paramètres de travail d’impression.
+**toutes les versions de Windows**: vous pouvez définir le paramètre de *niveau* sur 0, 1 ou 2. Lorsque vous définissez *Level* sur 0, *pJob* doit avoir la **valeur null**. Utilisez ces valeurs lorsque vous ne définissez pas de paramètres de travail d’impression.
 
 Vous pouvez également définir le paramètre de *niveau* sur 3.
 
-À compter de **Windows Vista**: vous pouvez également définir le paramètre de *niveau* sur 4.
+à compter de **Windows Vista**: vous pouvez également définir le paramètre de *niveau* sur 4.
 
 </dd> <dt>
 
@@ -83,11 +83,11 @@ Vous pouvez également définir le paramètre de *niveau* sur 3.
 
 Pointeur vers une structure qui définit les paramètres du travail d’impression.
 
-**Toutes les versions de Windows**: *pJob* peut pointer vers une structure [**Job info \_ \_ 1**](job-info-1.md) ou [**Job \_ info \_ 2**](job-info-2.md) .
+**toutes les versions de Windows**: *pJob* peut pointer vers une structure [**job information \_ \_ 1**](job-info-1.md) ou [**job \_ info \_ 2**](job-info-2.md) .
 
 *pJob* peut également pointer vers une structure d' [**informations de travail \_ \_ 3**](job-info-3.md) . Vous devez disposer de l’autorisation **\_ \_ administrer** l’accès au travail pour les travaux spécifiés par les membres **JobID** et **NextJobId** de la structure **Job \_ info \_ 3** .
 
-À compter de **Windows Vista**: *pJob* peut également pointer vers une structure d' [**informations de travail \_ \_ 4**](job-info-4.md) .
+à compter de **Windows Vista**: *pJob* peut également pointer vers une structure d' [**informations de travail \_ \_ 4**](job-info-4.md) .
 
 Si le paramètre *Level* est égal à 0, *pJob* doit avoir la **valeur null**.
 
@@ -110,7 +110,7 @@ Opération de travail d’impression à effectuer. Ce paramètre peut prendre le
 | <span id="JOB_CONTROL_SENT_TO_PRINTER"></span><span id="job_control_sent_to_printer"></span><dl> <dt>**\_contrôle \_ de travail envoyé à l' \_ \_ imprimante**</dt> </dl>       | Utilisé par les moniteurs de port pour mettre fin au travail d’impression.<br/>                             |
 | <span id="JOB_CONTROL_LAST_PAGE_EJECTED"></span><span id="job_control_last_page_ejected"></span><dl> <dt>**\_dernière page du contrôle des travaux \_ \_ \_ éjectée**</dt> </dl> | Utilisé par les moniteurs de langage pour mettre fin au travail d’impression.<br/>                         |
 | <span id="JOB_CONTROL_RETAIN"></span><span id="job_control_retain"></span><dl> <dt>**\_conservation du contrôle de travail \_**</dt> </dl>                                    | **Windows Vista et versions ultérieures**: conservez le travail dans la file d’attente après son impression.<br/> |
-| <span id="JOB_CONTROL_RELEASE"></span><span id="job_control_release"></span><dl> <dt>**\_version de contrôle du travail \_**</dt> </dl>                                 | **Windows Vista et versions ultérieures**: Libérez le travail d’impression.<br/>                     |
+| <span id="JOB_CONTROL_RELEASE"></span><span id="job_control_release"></span><dl> <dt>**\_version de contrôle du travail \_**</dt> </dl>                                 | **Windows Vista et versions ultérieures**: libérez le travail d’impression.<br/>                     |
 
 
 
@@ -126,7 +126,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

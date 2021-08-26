@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 74872f8895032abe02b024396fda12c43dc1611d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 512e180549c246a5504bc14675d61082c68904aa767d98deca5111d9a275dc60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984099"
 ---
 # <a name="sdbregisterdatabaseex-function"></a>SdbRegisterDatabaseEx fonction)
 
@@ -66,7 +66,7 @@ Horodatage de la base de données. Si ce paramètre a la **valeur null**, l’he
 
 La fonction retourne **true** en cas de réussite ou **false** en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une base de données doit être inscrite pour que vous puissiez utiliser d’autres fonctions SDB.
 
@@ -76,8 +76,8 @@ Une base de données doit être inscrite pour que vous puissiez utiliser d’aut
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

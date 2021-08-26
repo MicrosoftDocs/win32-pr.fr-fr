@@ -3,7 +3,7 @@ title: Message LVM_GETEDITCONTROL (commctrl. h)
 description: Obtient le handle du contrôle d’édition utilisé pour modifier le texte d’un élément d’affichage de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetEditControl.
 ms.assetid: 70450b24-9879-4be8-9bc9-f87008b66415
 keywords:
-- LVM_GETEDITCONTROL les contrôles de message Windows
+- LVM_GETEDITCONTROL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a8790f86fee17f72078f61899edcd79b331759
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29f7e7ac31b3d429ab32ac6564a47f859f0e5dc2207d991cb580173838a4c366
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968309"
 ---
 # <a name="lvm_geteditcontrol-message"></a>\_Message GETEDITCONTROL LVM
 
@@ -35,11 +35,11 @@ Obtient le handle du contrôle d’édition utilisé pour modifier le texte d’
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne le handle du contrôle d’édition en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la modification d’étiquette commence, un contrôle d’édition est créé, positionné et initialisé. Avant qu’il ne soit affiché, le contrôle List-View envoie sa fenêtre parente à un code de notification [LVN \_ BEGINLABELEDIT](lvn-beginlabeledit.md) .
 
@@ -55,8 +55,8 @@ L’élément de vue de liste en cours de modification est l’élément ayant a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -1,19 +1,19 @@
 ---
 title: Messages de contrôle
-description: Cette section contient des informations sur l’utilisation des messages Windows pour communiquer avec les contrôles.
+description: cette section contient des informations sur la façon dont les messages de Windows sont utilisés pour communiquer avec les contrôles.
 ms.assetid: 94d34132-25c2-4a1a-bd0e-35e5a666bbfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 923a1b47d625a2797a900a6c582d00c5169097f3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ed60ebb66341332b6248b8427045abc5b62a2311427d56e46b25fe93b3d899ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921099"
 ---
 # <a name="control-messages"></a>Messages de contrôle
 
-Cette section contient des informations sur l’utilisation des messages Windows pour communiquer avec les contrôles.
+cette section contient des informations sur la façon dont les messages de Windows sont utilisés pour communiquer avec les contrôles.
 
 Les rubriques suivantes sont présentées.
 
@@ -47,7 +47,7 @@ fSuccess = TreeView_GetItem(hwnd, &tvItem);
 
 
 
-Quand une modification est apportée aux paramètres de couleur système, Windows envoie un message [**WM \_ SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) à toutes les fenêtres de niveau supérieur. Votre fenêtre de niveau supérieur doit transférer le message **WM \_ SYSCOLORCHANGE** à ses contrôles communs ; dans le cas contraire, les contrôles ne seront pas notifiés de la modification de la couleur. Le transfert du message permet de s’assurer que les couleurs utilisées par vos contrôles communs sont cohérentes avec celles utilisées par d’autres objets de l’interface utilisateur. Par exemple, un contrôle ToolBar utilise la couleur « objets 3D » pour dessiner ses boutons. Si l’utilisateur modifie la couleur de l’objet 3D, mais que le message **WM \_ SYSCOLORCHANGE** n’est pas transféré à la barre d’outils, les boutons de la barre d’outils restent dans leur couleur d’origine (ou même sont modifiés en une combinaison de couleurs anciennes et nouvelles), tandis que la couleur des autres boutons du système change.
+quand une modification est apportée aux paramètres de couleur système, Windows envoie un message [**WM \_ SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) à toutes les fenêtres de niveau supérieur. Votre fenêtre de niveau supérieur doit transférer le message **WM \_ SYSCOLORCHANGE** à ses contrôles communs ; dans le cas contraire, les contrôles ne seront pas notifiés de la modification de la couleur. Le transfert du message permet de s’assurer que les couleurs utilisées par vos contrôles communs sont cohérentes avec celles utilisées par d’autres objets de l’interface utilisateur. Par exemple, un contrôle ToolBar utilise la couleur « objets 3D » pour dessiner ses boutons. Si l’utilisateur modifie la couleur de l’objet 3D, mais que le message **WM \_ SYSCOLORCHANGE** n’est pas transféré à la barre d’outils, les boutons de la barre d’outils restent dans leur couleur d’origine (ou même sont modifiés en une combinaison de couleurs anciennes et nouvelles), tandis que la couleur des autres boutons du système change.
 
 ## <a name="notifications-from-controls"></a>Notifications à partir de contrôles
 

@@ -4,12 +4,12 @@ ms.assetid: 92573661-6b59-4eef-80f0-1d7088d67630
 title: System. GPS. DestLongitudeNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eee871267d1fa6ad41e423b74eb69b94318de324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d82c39c90f63bf39dc38119ab531dadd5c38bda47c1127c90e77204c3088647
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059059"
 ---
 # <a name="systemgpsdestlongitudenumerator"></a>System. GPS. DestLongitudeNumerator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: f302eb02-2ef5-42ee-a18f-59f7e60b38df
 title: Automatisation de l’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ef3f56da64e442594a7685a77efb9a06e3fe08
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 72cb7370c3b1a90324b612108e9ec1ef17c7030d3372d303da74ced95298ab02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029839"
 ---
 # <a name="automating-com-administration"></a>Automatisation de l’administration COM+
 
@@ -25,7 +25,7 @@ Vous pouvez utiliser ces objets pour effectuer les opérations suivantes :
 -   Gérez et configurez les services.
 -   Administrer à distance les services de composants sur un autre ordinateur.
 
-Vous pouvez utiliser les objets comadmins de scriptable avec n’importe quel langage compatible Automation, tel que Microsoft Visual Basic et Visual Basic Script. Vous pouvez développer des scripts légers ou des outils d’administration à usage général. Vous pouvez par exemple effectuer les opérations suivantes :
+vous pouvez utiliser les objets comadmins de scriptable avec n’importe quel langage compatible Automation, tel que Microsoft Visual Basic et Visual Basic Script. Vous pouvez développer des scripts légers ou des outils d’administration à usage général. Vous pouvez par exemple effectuer les opérations suivantes :
 
 -   Écrire des scripts pour effectuer des tâches d’administration courantes.
 -   Écrivez des scripts pour automatiser les processus dans le développement d’applications COM+.

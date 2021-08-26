@@ -4,12 +4,12 @@ description: L’espace de configuration d’un appareil est l’ensemble de tou
 ms.assetid: 598299c3-159f-4cad-b6a5-d282cd5bb4a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4871da3695e81168d43504456c357b0cf566b7f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e09eabf7c84e1990e0aaf6b2d9fab1d9043f788fef32c3863a71d9ca1e6b61a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092112"
 ---
 # <a name="device-configuration-space-and-device-configurations"></a>Configuration de l’appareil et de l’espace de configuration des appareils
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 90d932176a70159d31a239a9a37422b474acb485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 18dbda6102aa694744ecf950ec2df40c904c5164cf7650f40fa0a02c26e48ef7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027999"
 ---
 # <a name="d3dissue_begin"></a>Début de D3DISSUE \_
 
@@ -28,7 +28,7 @@ Cette macro crée une valeur utilisée par [**issue**](/windows/win32/api/d3d9he
 #define D3DISSUE_BEGIN (1 << 1)
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 D3DISSUE \_ Begin est valide pour le type de requête suivant.
 

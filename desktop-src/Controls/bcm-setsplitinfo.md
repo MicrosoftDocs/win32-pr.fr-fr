@@ -3,7 +3,7 @@ title: Message BCM_SETSPLITINFO (commctrl. h)
 description: Définit des informations pour un contrôle bouton partagé. Envoyez ce message explicitement ou à l’aide de la \_ macro Button SetSplitInfo.
 ms.assetid: 609b8972-9616-4850-a72c-2f87ce19f563
 keywords:
-- BCM_SETSPLITINFO les contrôles de message Windows
+- BCM_SETSPLITINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac40f2d1ef016ee76ab21ccf2dc4733d0ff427f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17332ce5f10fa612d739598222e4973000961435fa525190a650adaa9aa9fc4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921419"
 ---
 # <a name="bcm_setsplitinfo-message"></a>\_Message SETSPLITINFO BCM
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**\_ SPLITINFO de bouton**](/windows/win32/api/comm
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ce message uniquement avec les styles de boutons [**BS \_ SPLITBUTTON**](button-styles.md) et [**BS \_ DEFSPLITBUTTON**](button-styles.md) .
 
@@ -57,8 +57,8 @@ Utilisez ce message uniquement avec les styles de boutons [**BS \_ SPLITBUTTON**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c51ef9ed790c902a6a662dc3ebc45df97fa29721
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8f7330e5b6a2b86508528bb1136acd58b308ca4b9c44b31b9b6e0777f4eccd19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972670"
 ---
 # <a name="win32_networkadaptersetting-class"></a>\_Classe NetworkAdapterSetting Win32
 
@@ -84,7 +84,7 @@ Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Setting"), 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ NetworkAdapterSetting** est dérivée de [**Win32 \_ DeviceSettings**](win32-devicesettings.md).
 

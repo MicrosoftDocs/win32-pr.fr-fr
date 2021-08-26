@@ -4,12 +4,12 @@ description: Les rubriques suivantes illustrent l’utilisation de l’API de ma
 ms.assetid: c42043db-612f-488f-a6ae-a8caea8ac42b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd44d01e925d07d251e93a29c5268cc7e9c5076
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7bf19d619f6ed5ab9a2d6b0deb1ca6a42b71a0b0941a96f54cccfa87c14b5f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092429"
 ---
 # <a name="using-imapi"></a>Utilisation d’IMAPi
 
@@ -30,7 +30,7 @@ La documentation suivante fournit des conseils détaillés pour les scénarios I
 | [Création d’un disque multisession](creating-a-multisession-disc.md)                                                 | Illustre la création d’un disque multisession à l’aide d’IMAPi.<br/>                                                                                              |
 | [Surveillance de la progression avec des événements](monitoring-progress-with-events.md)                                           | Illustre l’utilisation d’interfaces spécifiques pour permettre l’implémentation d’un gestionnaire d’événements afin que les informations de progression puissent être reçues. <br/>        |
 | [Empêcher la déconnexion ou la suspension pendant une gravure](preventing-logoff-or-suspend-during-a-burn.md)                     | Contient des informations détaillant les considérations relatives au développement d’applications en ce qui concerne les scénarios impliquant l’utilisateur « Logoff » et « suspend » dans Windows.<br/> |
-| [Fournir des autorisations utilisateur pour les appareils de gravure de médias](providing-user-permissions-for-media-burning-devices.md) | Détaille le processus nécessaire pour s’assurer qu’un utilisateur dispose des autorisations adéquates pour utiliser des appareils de gravure de contenu multimédia sur Windows XP et Windows Server 2003.<br/>             |
+| [Fournir des autorisations utilisateur pour les appareils de gravure de médias](providing-user-permissions-for-media-burning-devices.md) | détaille le processus nécessaire pour s’assurer qu’un utilisateur dispose des autorisations adéquates pour utiliser les appareils de gravure de contenu multimédia sur Windows XP et Windows Server 2003.<br/>             |
 
 
 
