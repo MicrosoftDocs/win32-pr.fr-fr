@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86c14924828c924b3bbbca3bb1a5f822437ec4c9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1e204b4f89cced7cf0bd5cdcb21702c37c241a81abfbc12d8644eafdb3c7c7ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988409"
 ---
 # <a name="cd3dx12_pipeline_state_stream_ib_strip_cut_value-structure"></a>\_Flux d’État du pipeline CD3DX12-structure de \_ \_ \_ \_ \_ valeur de coupe \_
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure de [**\_ \_ \_ \_ \_ valeur de coupe de m�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_Flux d’État du pipeline CD3DX12 \_ \_ \_ \_ \_ \_ la valeur de coupe de la bande IB est une spécialisation typedef du modèle de sous-objet de flux d' [**\_ État du pipeline \_ \_ \_ CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est définie comme suit :
 

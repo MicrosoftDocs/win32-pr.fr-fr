@@ -4,12 +4,12 @@ description: Ce didacticiel explique comment récupérer des informations d’en
 ms.assetid: 347e4fb3-5f96-488a-bef8-4df0b8d1ade1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5b31043940b8c2127d1cfa1696d2821641d0784
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ba9c1dbae3447d5ae44c8d348394f2dc802ed9d7b4af7d99fde19d0b5d2c3d22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955509"
 ---
 # <a name="retrieving-http-headers"></a>Récupération des en-têtes HTTP
 
@@ -157,10 +157,10 @@ retry:
 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9f8010dcfe490363903ff455bedb61254b69b825
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9184d5e8a0e0ad6c0242ec1dc4b7590f1bc0d39a0a9cd6a09b2676563a2796e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055469"
 ---
 # <a name="cimagedisplayrefreshdisplaytype-method"></a>Méthode CImageDisplay. RefreshDisplayType
 
@@ -53,7 +53,7 @@ Pointeur vers une chaîne qui contient le nom du périphérique d’affichage, t
 
 Retourne S \_ OK en cas de réussite, ou \_ si E échoue en cas d’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode initialise le membre **d' \_ affichage m** sur un type vidéo qui correspond au mode d’affichage sur le périphérique spécifié.
 
@@ -65,7 +65,7 @@ Appelez cette méthode chaque fois qu’un \_ message DISPLAYCHANGED WM est reç
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

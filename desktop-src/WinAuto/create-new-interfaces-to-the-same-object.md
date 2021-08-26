@@ -4,12 +4,12 @@ description: Créer des interfaces vers le même objet
 ms.assetid: 127c44b6-51a6-4fd6-9edc-9fbe0d08d458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b641eed3918af3acbf399427ad5f7427112f399
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7aae1d6328b6d803e4d20207381fe596c5f584fee8281e1e6651ffc2325fb044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998709"
 ---
 # <a name="create-new-interfaces-to-the-same-object"></a>Créer des interfaces vers le même objet
 
@@ -38,9 +38,9 @@ case WM_GETOBJECT:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

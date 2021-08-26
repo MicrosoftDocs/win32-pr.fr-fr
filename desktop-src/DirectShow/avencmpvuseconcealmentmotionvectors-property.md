@@ -4,12 +4,12 @@ ms.assetid: 8b47a007-525c-4d02-8723-d6217600041e
 title: Propriété AVEncMPVUseConcealmentMotionVectors (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5a9316e257ebbbb8ba72ce027fe4c8c84db92b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f2335eaf57e0fdcddcd52a66f9645d3467e8feea1d866e199b10a030728b793a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999889"
 ---
 # <a name="avencmpvuseconcealmentmotionvectors-property"></a>Propriété AVEncMPVUseConcealmentMotionVectors
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVUseConcealmentMotionVectors**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, l’encodeur utilise des vecteurs de mouvement de masquage.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, l’encodeur utilise des vecteurs de mouvement de 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

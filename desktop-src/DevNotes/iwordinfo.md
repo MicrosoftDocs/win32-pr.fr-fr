@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Msir3jp.dll
-ms.openlocfilehash: 9d685f2aa1b4ba4d31f221812c12729e4e689360
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a82ff0c5d817dbec6d64d1d38d40245983877563416b30760926bb7522cd14c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001469"
 ---
 # <a name="iwordinfo-interface"></a>Interface IWordInfo
 
-\[Cette interface est obsolète et n’est pas prise en charge sur Windows Vista.\]
+\[cette interface est obsolète et n’est pas prise en charge sur Windows Vista.\]
 
 L’interface **IWordInfo** est un composant de ressource de langue spécifique au japonais. L’objet analyse le texte et identifie les mots individuels, en retournant les mots de la chaîne ou retourne les formes de dictionnaire (racine) des mots dans le texte de la chaîne.
 
@@ -47,7 +47,7 @@ L’interface **IWordInfo** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface est utilisée pour récupérer les césures lexicales ou les formulaires de dictionnaire du texte à analyser. Le format de dictionnaire d’un mot est le formulaire uninflected du mot.
 
@@ -57,8 +57,8 @@ Cette interface est utilisée pour récupérer les césures lexicales ou les for
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                  |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | DLL<br/>                      | <dl> <dt>Msir3jp.dll</dt> </dl> |

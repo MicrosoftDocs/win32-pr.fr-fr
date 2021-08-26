@@ -4,12 +4,12 @@ ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
 title: MFPKEY_COLOR_HUE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b3ddf0109090bfb56102560dc06a853c970e7ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 646d9e3ae0e72e11ae8952d28df9e4e3afc4147eaa7983bd1f0e9c82266ca5c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954439"
 ---
 # <a name="mfpkey_color_hue-property"></a>\_ \_ Propriété teinte de couleur MFPKEY
 
@@ -31,7 +31,7 @@ VT \_
 
 -   [Transformation de contrôle de couleur DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ajustement de la teinte est effectué en combinant les valeurs CB et CR. (Si CB et CR sont tracés dans un espace à deux dimensions, l’ajustement de la teinte est effectué en faisant tourner l’origine.)
 
@@ -43,8 +43,8 @@ Cette propriété a une plage comprise entre-127 et 127. La valeur zéro indique
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

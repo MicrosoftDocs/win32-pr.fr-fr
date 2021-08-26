@@ -4,12 +4,12 @@ ms.assetid: 9b0236b2-be6b-4918-a106-5b0e6c3dd5ff
 title: Création d’un dégradé linéaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d66b9f5a3a07061e8b3d19140c25a9f3a33052a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 922c4f1fc805aae25f53ed206d1b3e9112afbd3fa51ba544e121a70839d79d0b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015195"
 ---
 # <a name="creating-a-linear-gradient"></a>Création d’un dégradé linéaire
 

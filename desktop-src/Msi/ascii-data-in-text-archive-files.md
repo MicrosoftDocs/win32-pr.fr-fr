@@ -4,12 +4,12 @@ ms.assetid: 105d2b85-c6e1-4719-83b4-1693c14ef4f4
 title: Données ASCII dans les fichiers d’archive de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d43deeb7918b75a71770ab9d09535972f6e8bb4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da7fa327d19b59793862bd2c06ce814b17979e8e8a6f72d41b1af677b715b4ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078069"
 ---
 # <a name="ascii-data-in-text-archive-files"></a>Données ASCII dans les fichiers d’archive de texte
 
@@ -21,7 +21,7 @@ Lorsqu’une table qui contient uniquement des caractères ASCII est exportée v
 
 
 
-| Nom  | Données      |
+| Name  | Données      |
 |-------|-----------|
 | Livres | Books. IBD |
 | Voitures  | Cars. IBD  |
@@ -80,7 +80,7 @@ Advertise   Publication d'informations sur l'application
 ```
 
 > [!Note]  
-> Si un fichier d’archive de texte contient des données non-ASCII, le fichier d’archive inclut des informations sur la page de codes. Les fichiers d’archive avec les informations de page de codes peuvent être réimportés uniquement dans une base de données de la page de codes exacte ou dans une base de données indépendante de la langue. Dans le cas d’une base de données indépendante de la langue, la page de codes est définie sur la page de codes du fichier d’archive. Pour plus d’informations sur la façon dont Windows Installer gère les pages de codes, consultez la section [gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md).
+> Si un fichier d’archive de texte contient des données non-ASCII, le fichier d’archive inclut des informations sur la page de codes. Les fichiers d’archive avec les informations de page de codes peuvent être réimportés uniquement dans une base de données de la page de codes exacte ou dans une base de données indépendante de la langue. Dans le cas d’une base de données indépendante de la langue, la page de codes est définie sur la page de codes du fichier d’archive. pour plus d’informations sur la façon dont Windows Installer gère les pages de codes, consultez la section [gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md).
 
  
 

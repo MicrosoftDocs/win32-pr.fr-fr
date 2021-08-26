@@ -3,9 +3,9 @@ title: Événement Player. OpenStateChange
 description: L’événement OpenStateChange se produit lorsque la propriété openState change de valeur. | Événement Player. OpenStateChange
 ms.assetid: b6b840ab-72c7-4150-a259-1e7d8afcec81
 keywords:
-- Événement OpenStateChange lecteur Windows Media
-- Événement OpenStateChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement OpenStateChange
+- Lecteur Windows Media d’événements OpenStateChange
+- Lecteur Windows Media d’événements OpenStateChange, classe Player
+- Lecteur Windows Media de classe Player, événement OpenStateChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 020a25a811623b9f7d7dd8f316c470cada6a142b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b65436dee60a5207e09a57a39c32dc479ce110e1dafb07a7dbd7cab86e4f0a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003219"
 ---
 # <a name="playeropenstatechange-event"></a>Événement Player. OpenStateChange
 
@@ -53,13 +53,13 @@ Player.OpenStateChange(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le lecteur Windows Media peut passer par plusieurs États ouverts pendant qu’il tente d’ouvrir un fichier réseau, par exemple Rechercher le serveur, se connecter au serveur et enfin ouvrir le fichier. Cet événement est déclenché chaque fois que l’état ouvert change.
+Lecteur Windows Media pouvez parcourir plusieurs états ouverts pendant qu’il tente d’ouvrir un fichier réseau, par exemple en localisant le serveur, en se connectant au serveur et enfin en ouvrant le fichier. Cet événement est déclenché chaque fois que l’état ouvert change.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="requirements"></a>Configuration requise
 

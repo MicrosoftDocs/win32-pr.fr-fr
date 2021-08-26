@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d089ca662880ad269cb9d9c63cb0935ff6de0b5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 931b556cad32a7e83f82798c277e65995aa4318156a3f423a9fe2d7e057c252f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980789"
 ---
 # <a name="cim_transparentbridgingdynamicforwarding-class"></a>\_Classe CIM TransparentBridgingDynamicForwarding
 

@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aea83d993c0c7b58ded8d0b92374d1dcbacdcc8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: df38d5b2e7a4230d023aeba6c8c3517fbd2b9f4e35a09b5e4439269b228eb82e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987989"
 ---
 # <a name="cd3dx12_subresource_range_uint64-structure"></a>CD3DX12, plage de sous- \_ ressource \_ UINT64, \_ structure
 

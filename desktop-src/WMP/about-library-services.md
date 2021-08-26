@@ -4,42 +4,42 @@ description: À propos des services de bibliothèque
 ms.assetid: 2334aa4a-7988-481d-9b21-9f7b432fbd05
 keywords:
 - Lecteur Windows Media, bibliothèque
-- Modèle objet du lecteur Windows Media, bibliothèque
+- Lecteur Windows Media modèle objet, bibliothèque
 - modèle objet, bibliothèque
-- Contrôle ActiveX du lecteur Windows Media, bibliothèque pour le modèle objet
-- Contrôle ActiveX, bibliothèque pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, bibliothèque pour le modèle objet
-- Windows Media Player Mobile, bibliothèque pour le modèle objet
-- Bibliothèque du lecteur Windows Media, à propos de
-- Bibliothèque du lecteur Windows Media, services
+- Lecteur Windows Media ActiveX contrôle, bibliothèque pour le modèle objet
+- contrôle ActiveX, bibliothèque pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, bibliothèque pour le modèle objet
+- Lecteur Windows Media Mobile, bibliothèque pour le modèle objet
+- bibliothèque de Lecteur Windows Media, à propos de
+- bibliothèque de Lecteur Windows Media, services
 - bibliothèque, services
 - bibliothèque, à propos de
-- versions du lecteur Windows Media, services de bibliothèque
+- versions de Lecteur Windows Media, services de bibliothèque
 - énumérations, services de bibliothèque
 - événements, services de bibliothèque
 - exemples, services de bibliothèque
 - interfaces, services de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 743efc8ae5cb464aa38655314c52112bc9541de6
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: 5dc6f073fa4c361f114589e080145a3cb3bb0a8c78736ba2dd1464332a7f7adc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "106538795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004510"
 ---
 # <a name="about-library-services"></a>À propos des services de bibliothèque
 
-Dans les versions antérieures du lecteur Windows Media, le logiciel utilisait une base de données de bibliothèque unique pour chaque utilisateur. Cette base de données a été stockée sur l’ordinateur de l’utilisateur et était conceptuellement liée à l’utilisateur et à une instance particulière du lecteur.
+dans les versions antérieures de Lecteur Windows Media, le logiciel utilisait une base de données de bibliothèque unique pour chaque utilisateur. Cette base de données a été stockée sur l’ordinateur de l’utilisateur et était conceptuellement liée à l’utilisateur et à une instance particulière du lecteur.
 
-Le lecteur Windows Media 11 introduit les concepts de bibliothèques multiples et distantes. Désormais, en plus de sa bibliothèque par défaut ou *locale*, le lecteur Windows Media peut afficher le contenu récupéré à partir de bibliothèques sur d’autres ordinateurs connectés à un réseau, ce qui peut inclure d’autres utilisateurs connectés au même ordinateur. Le lecteur peut également afficher des vues de bibliothèque à partir d’autres sources, telles que des périphériques compatibles MTP ou des CD de données. Du point de vue de l’utilisateur final, cela signifie que le contenu multimédia numérique situé à différents emplacements peut être géré à partir de plusieurs emplacements à l’aide de la même interface utilisateur familière du lecteur Windows Media. Du point de vue du développeur, cela signifie que vous pouvez utiliser les interfaces COM du kit de développement logiciel (SDK) du lecteur Windows Media pour énumérer les bibliothèques disponibles, puis les utiliser comme vous avez utilisé la bibliothèque locale dans les versions antérieures.
+Lecteur Windows Media 11 introduit les concepts de bibliothèques multiples et distantes. désormais, en plus de sa bibliothèque par défaut ou *locale*, Lecteur Windows Media pouvez afficher le contenu récupéré à partir de bibliothèques sur d’autres ordinateurs connectés à un réseau, ce qui peut inclure d’autres utilisateurs connectés au même ordinateur. Le lecteur peut également afficher des vues de bibliothèque à partir d’autres sources, telles que des périphériques compatibles MTP ou des CD de données. du point de vue de l’utilisateur final, cela signifie que le contenu multimédia numérique situé dans de nombreux emplacements différents peut être géré à partir de plusieurs emplacements à l’aide de la même interface utilisateur Lecteur Windows Media familière. du point de vue du développeur, cela signifie que vous pouvez utiliser les interfaces COM du kit de développement logiciel (SDK) Lecteur Windows Media pour énumérer les bibliothèques disponibles, puis les utiliser comme vous avez utilisé la bibliothèque locale dans les versions antérieures.
 
 Pour énumérer les bibliothèques disponibles, utilisez l’interface **IWMPLibraryServices** . Cette interface expose la méthode [IWMPLibraryServices :: getCountByType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getcountbytype) , qui récupère le nombre de bibliothèques d’un type donné. Les types de bibliothèque sont définis par l’énumération [WMPLibraryType](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmplibrarytype) . Cette énumération comprend une valeur pour la bibliothèque locale, wmpltLocal. Cela est dû au fait que la fonctionnalité des services de bibliothèque vous permet toujours de travailler avec la bibliothèque locale à l’aide de **IWMPLibraryServices** et des interfaces associées.
 
 > [!Note]  
-> L’énumération **WMPLibraryType** comprend la valeur wmpltRemote, qui représente les bibliothèques multimédias partagées par le réseau. Pour accéder à ces bibliothèques partagées, le contrôle du lecteur doit s’exécuter en mode distant. Pour plus d’informations sur l’exécution du contrôle Player en mode distant, consultez communication à distance [du contrôle du lecteur Windows Media](remoting-the-windows-media-player-control.md).
+> L’énumération **WMPLibraryType** comprend la valeur wmpltRemote, qui représente les bibliothèques multimédias partagées par le réseau. Pour accéder à ces bibliothèques partagées, le contrôle du lecteur doit s’exécuter en mode distant. pour plus d’informations sur l’exécution du contrôle Player en mode distant, consultez communication à distance [du contrôle Lecteur Windows Media](remoting-the-windows-media-player-control.md).
 
- 
+ 
 
 Après avoir récupéré le nombre de bibliothèques, vous pouvez effectuer une itération dans la collection de bibliothèques disponibles en appelant à plusieurs reprises [IWMPLibraryServices :: getLibraryByType](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmplibraryservices-getlibrarybytype) dans une boucle, en passant une nouvelle valeur d’index à chaque itération. Cette méthode récupère un pointeur vers une interface [IWMPLibrary](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmplibrary) , qui représente la bibliothèque individuelle.
 
@@ -61,7 +61,7 @@ Par conséquent, pour maintenir à jour votre interface utilisateur, vous devez 
 
 ## <a name="sample"></a>Exemple
 
-L’exemple nommé WMPML montre comment utiliser les services de bibliothèque. Pour plus d’informations sur les exemples du kit de développement logiciel (SDK) du lecteur Windows Media, consultez [exemples](samples.md).
+L’exemple nommé WMPML montre comment utiliser les services de bibliothèque. pour plus d’informations sur les exemples du kit de développement logiciel (SDK) Lecteur Windows Media, consultez [exemples](samples.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -109,9 +109,9 @@ L’exemple nommé WMPML montre comment utiliser les services de bibliothèque. 
 [**Utilisation de la bibliothèque**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

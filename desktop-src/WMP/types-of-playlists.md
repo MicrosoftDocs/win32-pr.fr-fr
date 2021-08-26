@@ -3,10 +3,10 @@ title: Types de sélections
 description: Types de sélections
 ms.assetid: 292c51e6-ae19-4b8c-a52a-45c9f860c14f
 keywords:
-- Sélections de métafichiers Windows Media, à propos de
+- Windows Playlists de métafichier multimédia, à propos de
 - sélections, à propos de
 - sélections de métafichiers, à propos de
-- Sélections de métafichiers Windows Media, types
+- Windows Sélections de métafichiers multimédia, types
 - sélections, types
 - sélections de métafichiers, types
 ms.topic: article
@@ -16,16 +16,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f5fde41caeace1fe49018ab1f6f3e86384d377ca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1bb49eda25bd0804571732a81073a448048cd43d0597b03acf1bfa1554c88be2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001679"
 ---
 # <a name="types-of-playlists"></a>Types de sélections
 
-Les sélections de métafichiers Windows Media, simplement appelées « playlists » dans ce document, ont des extensions. Wax,. wvx ou. asx. Les sélections avec ces extensions sont utilisées pour accéder aux fichiers Windows Media avec les extensions de nom de fichier. WMA,. wmv et. ASF, respectivement.
+Windows Les sélections de métafichiers multimédias, simplement appelées « playlists » dans ce document, ont des extensions. Wax,. wvx ou. asx. les sélections avec ces extensions sont utilisées pour accéder aux fichiers multimédias Windows avec les extensions de nom de fichier. wma,. wmv et. asf, respectivement.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -37,15 +37,15 @@ Les sélections de métafichiers Windows Media, simplement appelées « playlis
 [**Utilisation des sélections de métafichiers**](using-metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

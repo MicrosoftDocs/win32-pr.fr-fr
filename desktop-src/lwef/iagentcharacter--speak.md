@@ -4,12 +4,12 @@ description: IAgentCharacter parler
 ms.assetid: 3c4baf83-9e69-4048-bdaf-4ead8ea8e7cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03e290ab9037ee6f261445d4dfd00a206213cd26
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 693b40a00b34173976410391249d3fac1a7f0684e34a6e2ae82afbd8b8169ce0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014209"
 ---
 # <a name="iagentcharacterspeak"></a>IAgentCharacter :: Speak
 
@@ -63,13 +63,13 @@ La césure automatique des mots de Microsoft Agent dans la bulle de mot, arrête
 > [!Note]  
 > Définissez l’ID de langue du caractère (à l’aide de [**IAgentCharacterEx :: SetLanguageID**](iagentcharacterex--setlanguageid.md) avant d’utiliser la méthode [**Speak**](/windows/desktop/lwef/iagentcharacter--speak) pour garantir l’affichage du texte approprié dans la bulle.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacter ::P poser**](iagentcharacter--play.md), [**IAgentBalloon :: GetEnabled**](iagentballoon--getenabled.md), [**IAgentCharacter ::P**](iagentcharacter--prepare.md) restante
 
 
- 
+ 
 
- 
+ 

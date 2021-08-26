@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Idndl.dll
-ms.openlocfilehash: bc5a9fdaf3beb9e1c401943f923fa48bd9d4b44c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23eca82d97ac1da2d0f179c6e670ed032a57410490dcc5a52cf3005d75d65b2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041619"
 ---
 # <a name="downlevelgetstringscripts-function"></a>DownlevelGetStringScripts fonction)
 
 Fournit la liste des scripts utilisés dans la chaîne Unicode spécifiée.
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts).
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert le package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**GetStringScripts**](/windows/desktop/api/Winnls/nf-winnls-getstringscripts).
 
  
 
@@ -115,7 +115,7 @@ La fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informations 
 -   ERREUR \_ : indicateurs non valides \_ . Les valeurs fournies pour les indicateurs ne sont pas valides.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est utile dans le cadre d’une stratégie visant à atténuer les problèmes de sécurité liés aux [noms de domaine internationaux (IDNs)](handling-internationalized-domain-names--idns.md).
 
@@ -131,7 +131,7 @@ Chaîne d’entrée
 
 *lpScripts*
 
-Scripts
+scripts ;
 
 Microsoft.com
 
@@ -217,9 +217,9 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                                        |
-| Composant redistribuable<br/>          | API d’atténuation des IDN (Internationalized Domain Name) Microsoft sur Windows XP (SP2 ou version ultérieure), Windows Server 2003 (SP1 ou version ultérieure) ou Windows Vista<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                                        |
+| Composant redistribuable<br/>          | api d’atténuation des IDN (internationalized domain Name) Microsoft sur Windows XP (SP2 ou version ultérieure), Windows Server 2003 (SP1 ou version ultérieure) ou Windows Vista<br/> |
 | En-tête<br/>                   | <dl> <dt>Idndl. h</dt> </dl>                                                                          |
 | DLL<br/>                      | <dl> <dt>Idndl.dll</dt> </dl>                                                                        |
 

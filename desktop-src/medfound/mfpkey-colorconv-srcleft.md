@@ -4,12 +4,12 @@ ms.assetid: d5450ff9-085f-4345-87af-bf6c87931755
 title: MFPKEY_COLORCONV_SRCLEFT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3168125390cef6472ebc6ae6bf71ea426976c2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 879f66fc98b15831de18d2d14be49eca859b9be58aacbb08dd21fab5ef90e2c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940139"
 ---
 # <a name="mfpkey_colorconv_srcleft-property"></a>MFPKEY \_ COLORCONV \_ SRCLEFT, propriété
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

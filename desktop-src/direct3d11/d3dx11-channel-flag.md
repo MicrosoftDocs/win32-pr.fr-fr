@@ -1,6 +1,6 @@
 ---
 title: Énumération D3DX11_CHANNEL_FLAG (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Ces indicateurs sont utilisés par les fonctions qui opèrent sur un ou plusieurs canaux dans une texture.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Ces indicateurs sont utilisés par les fonctions qui opèrent sur un ou plusieurs canaux dans une texture.'
 ms.assetid: 058a0a1e-3c1b-4397-a41a-2e47d878cd92
 keywords:
 - Énumération D3DX11_CHANNEL_FLAG Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e3097552637ce96663671dda443684ebda2b65
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 45f8142d34235a151638e1043928521666f2d1751319ee785d22b92004a14421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028309"
 ---
 # <a name="d3dx11_channel_flag-enumeration"></a>\_Énumération de l’indicateur de canal D3DX11 \_
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -85,7 +85,7 @@ Indique que les luminaces des canaux rouge, vert et bleu doivent être utilisés
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

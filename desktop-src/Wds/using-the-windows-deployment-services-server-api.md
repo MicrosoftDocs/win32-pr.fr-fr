@@ -1,27 +1,27 @@
 ---
 title: Utilisation de l’API du serveur des Services de déploiement Windows
-description: Dans les environnements où la solution standard des services de déploiement Windows (WDS) ne peut pas être utilisée, le serveur WDS expose une API qui permet aux développeurs d’écrire des plug-ins, appelés fournisseurs, pour gérer les demandes d’environnement d’exécution de prédémarrage (PXE).
+description: dans les environnements où la solution standard Windows Deployment Services (WDS) ne peut pas être utilisée, le serveur wds expose une API qui permet aux développeurs d’écrire des plug-ins, appelés fournisseurs, pour gérer les demandes de l’environnement d’exécution de prédémarrage (PXE).
 ms.assetid: 5e25654a-33c6-4c0f-acc3-e938d1f4a4e7
 keywords:
-- Services de déploiement Windows (services de déploiement Windows) à l’aide de l’API serveur
+- Windows services de déploiement Windows les services de déploiement, à l’aide de l’API serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3634dffa73eddc9b5db92be6bc807cccbc5248f
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 21ce7516e5279fecdfeecfa90edd8e3a0dad265562fa5ea59336367dbe157c5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103724255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999569"
 ---
 # <a name="using-the-windows-deployment-services-server-api"></a>Utilisation de l’API du serveur des Services de déploiement Windows
 
-Dans les environnements où la solution standard des services de déploiement Windows (WDS) ne peut pas être utilisée, le serveur WDS expose une API qui permet aux développeurs d’écrire des plug-ins, appelés fournisseurs, pour gérer les demandes d’environnement d’exécution de prédémarrage (PXE). Les développeurs doivent respecter les consignes suivantes lors de l’écriture de fournisseurs PXE pour WDS.
+dans les environnements où la solution standard Windows Deployment Services (WDS) ne peut pas être utilisée, le serveur wds expose une API qui permet aux développeurs d’écrire des plug-ins, appelés fournisseurs, pour gérer les demandes de l’environnement d’exécution de prédémarrage (PXE). Les développeurs doivent respecter les consignes suivantes lors de l’écriture de fournisseurs PXE pour WDS.
 
 ## <a name="install-the-wds-role-on-the-server"></a>Installer le rôle WDS sur le serveur
 
--   Les services de déploiement Windows (WDS) sont la version révisée des services d’installation à distance (RIS). vous aurez besoin du rôle serveur WDS pour implémenter le serveur et les fournisseurs PXE WDS.
--   WDS remplace RIS comme composant standard à partir de Windows Server 2008 et Windows Server 2003 avec Service Pack 2 (SP2).
--   Vous devez mettre à jour le serveur RIS vers WDS sur Windows Server 2003 avec Service Pack 1 (SP1). Vous pouvez installer le rôle serveur WDS avec le [Kit d’installation automatisée (Windows AIK) (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
+-   Windows Services de déploiement (WDS) est la version révisée des services d’installation à distance (RIS), vous aurez besoin du rôle serveur WDS pour implémenter le serveur et les fournisseurs PXE WDS.
+-   WDS remplace RIS comme composant standard à partir de Windows server 2008 et Windows server 2003 avec Service Pack 2 (SP2).
+-   vous devez mettre à jour le serveur RIS vers WDS sur Windows server 2003 avec Service Pack 1 (SP1). vous pouvez installer le rôle serveur WDS avec le [Kit d’installation automatisée (Windows AIK) (WAIK)](https://www.microsoft.com/download/details.aspx?id=10333).
 
 ## <a name="register-providers"></a>Inscrire des fournisseurs
 
@@ -29,7 +29,7 @@ Dans les environnements où la solution standard des services de déploiement Wi
     > [!Note]  
     > Lorsque vous installez un fournisseur nouveau ou modifié, vous devrez redémarrer le service PXE WDS pour que les modifications prennent effet.
 
-     
+     
 
 -   Utilisez la fonction [**PxeProviderRegister**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderregister) pour inscrire le fournisseur et l’ajouter à la liste. Utilisez la fonction [**PxeProviderUnRegister**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderunregister) pour annuler l’inscription d’un fournisseur inscrit et le supprimer de la liste.
 -   Spécifiez la séquence du fournisseur dans la liste triée. L’index d’un fournisseur dans la liste ne peut pas être garanti, car un autre fournisseur peut être inscrit plus tard. Pour insérer le fournisseur dans la liste avant ou après un autre fournisseur inscrit, utilisez d’abord la fonction [**PxeProviderQueryIndex**](/windows/win32/api/WdsPxe/nf-wdspxe-pxeproviderqueryindex) pour obtenir l’index du fournisseur inscrit, puis enregistrez le nouveau fournisseur tout en spécifiant une valeur d’index plus grande ou plus petite.
@@ -96,15 +96,15 @@ Implémentez le rappel [*PxeProviderRecvRequest*](pxeproviderrecvrequest.md) pou
 
 <dl> <dt>
 
-[À propos de l’API des services de déploiement Windows](about-the-windows-deployment-services-api.md)
+[à propos de l’API Windows Deployment Services](about-the-windows-deployment-services-api.md)
 </dt> <dt>
 
 [Utilisation de l’API du client des Services de déploiement Windows](using-the-windows-deployment-services-client-api.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

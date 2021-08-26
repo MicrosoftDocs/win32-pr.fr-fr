@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0d57e2723c90eee8df728aa540baeab86932e773
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e8717edc045f50cc572d675dbec405b01fda49503349e9716210dfcae23fb277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982449"
 ---
 # <a name="expp---vs"></a>expp-vs
 
@@ -29,7 +29,7 @@ Fournit une précision partielle 2<sup>x</sup>.
 
 
 
- 
+ 
 
 Où :
 
@@ -37,7 +37,7 @@ Où :
 -   SRC est un registre source. Le registre source nécessite l’utilisation explicite de Swizzle répliqués, c’est-à-dire qu’exactement l’un des composants. x,. y,. z,. w Swizzle (ou. r,. g,. b,. a équivalents) doit être spécifié.
 -   {x \| y \| z \| w} est le Swizzle répliqué requis sur le registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ Où :
 
 
 
- 
+ 
 
 ### <a name="vs_1_1"></a>vs \_ 1 \_ 1
 
@@ -100,9 +100,9 @@ L’instruction fournit au moins 10 bits de précision.
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

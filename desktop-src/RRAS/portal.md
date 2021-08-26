@@ -4,12 +4,12 @@ description: Service de routage et d’accès à distance
 ms.assetid: fa0a183a-0254-401e-8b78-441cb3f83e8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d81e743f640e600588413f0c15c44e0410c5ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2d827150b84806afe4a9290436620def7675ee03163bf5f63c0c0d6556932a1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028999"
 ---
 # <a name="routing-and-remote-access-service"></a>Service de routage et d’accès à distance
 
@@ -35,7 +35,7 @@ Pour plus d’informations sur les systèmes d’exploitation qui prennent en ch
 
 | Rubrique                                                                                                             | Description                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| [Architecture des services de routage et d’accès à distance](routing-and-remote-access-services-architecture.md)<br/> | Vue d’ensemble de l’architecture des services de routage et d’accès à distance.<br/>                                           |
+| [Architecture du Access Services du routage et du service distant](routing-and-remote-access-services-architecture.md)<br/> | vue d’ensemble de l’architecture routage et Access Services distant.<br/>                                           |
 | [Disposition du Registre du routage et de l’accès distant](routing-and-remote-access-registry-layout.md)<br/>             | Exemple de disposition du Registre pour le service de routeur<br/>                                                          |
 | [Codes d’erreur de routage et d’accès distant](routing-and-remote-access-error-codes.md)<br/>                     | Liste de tous les codes d’erreur de routage et d’accès à distance.<br/>                                                         |
 | [Accès à distance](remote-access-start-page.md)<br/>                                                          | Documentation pour les API d’administration RAS et RAS.<br/>                                                         |

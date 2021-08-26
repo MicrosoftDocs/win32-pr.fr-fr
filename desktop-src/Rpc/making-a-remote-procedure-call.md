@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, appel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a97095d7eda8227f2369f5e3776faf8ce04c22f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8218fd99e11c65f15dbbe7a56c2ece1b93720839498352d610312a0f66f95bc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020079"
 ---
 # <a name="making-a-remote-procedure-call"></a>Exécution d’un appel de procédure distante
 
@@ -21,9 +21,9 @@ Microsoft RPC offre également des handles de liaison personnalisés, des handle
 
 Pour exécuter l’appel de procédure à distance, appelez la fonction stub côté client de la même manière que n’importe quelle fonction C est appelée.
 
- 
+ 
 
- 
+ 
 
 
 

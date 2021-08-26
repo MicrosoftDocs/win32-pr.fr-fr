@@ -4,18 +4,18 @@ ms.assetid: 3f47a52c-2d36-4a74-9d7f-df37645b8e72
 title: Outils des compteurs de performances
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: dc40dd5dfe640e09ac6f7258856389f04d60215f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4f1640a269b87cce7452e54a2557dcc9c34fe154ae9e9f95fdd3794e275b59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033399"
 ---
 # <a name="performance-counters-tools"></a>Outils des compteurs de performances
 
 ## <a name="data-collection-tools"></a>Outils de collecte de données
 
-Les outils suivants sont utiles lors de l’utilisation ou de la manipulation des données des compteurs de performances Windows.
+les outils suivants sont utiles lors de l’utilisation ou de la manipulation de Windows données de compteur de performances.
 
 |Outil|Description
 |----|-----------
@@ -26,10 +26,10 @@ Les outils suivants sont utiles lors de l’utilisation ou de la manipulation de
 
 ## <a name="data-provider-tools"></a>Outils du fournisseur de données
 
-Les outils suivants sont utiles lors de la publication de données de compteur de performances Windows.
+les outils suivants sont utiles lors de la publication Windows données de compteur de performances.
 
 |Outil|Description
 |----|-----------
-| [CtrPP](ctrpp.md) | Outil de génération à partir de la ligne de commande de la SDK Windows qui valide et compile vos compteurs de performance manifeste du fournisseur v2. Cet outil génère les `.h` en-têtes et les `.rc` scripts de ressources nécessaires à la création d’un fournisseur v2.
+| [CtrPP](ctrpp.md) | outil de génération à partir de la ligne de commande de la SDK Windows qui valide et compile vos compteurs de Performance manifeste du fournisseur V2. Cet outil génère les `.h` en-têtes et les `.rc` scripts de ressources nécessaires à la création d’un fournisseur v2.
 | [LodCtr](/windows-server/administration/windows-commands/lodctr) | Outil de ligne de commande utilisé pour installer votre fournisseur sur un système.
 | [UnlodCtr](/windows-server/administration/windows-commands/unlodctr_1) | Outil de ligne de commande utilisé pour désinstaller votre fournisseur d’un système.

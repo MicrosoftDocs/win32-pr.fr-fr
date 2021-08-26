@@ -1,17 +1,17 @@
 ---
 description: Si le client et l’hôte ne peuvent pas échanger de métadonnées, un hôte et un client génériques peuvent être remplacés par l’hôte et le client personnalisés pour aider à résoudre le problème.
 ms.assetid: 7e5c8444-b3ee-4e9c-984f-13d54f2bbfc0
-title: Utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées HTTP
+title: Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36827dde8aa03fa15fc4beaa5917f1f2c3c36eca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6623b39989b613e725fb2103165c825425f20b53a4375d6791aa92cd3b99187
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030079"
 ---
-# <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>Utilisation d’un hôte et d’un client génériques pour l’échange de métadonnées HTTP
+# <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange
 
 Si le client et l’hôte ne peuvent pas échanger de métadonnées, un hôte et un client génériques peuvent être remplacés par l’hôte et le client personnalisés pour aider à résoudre le problème. Si l’adresse de l’appareil ou les métadonnées de l’appareil n’apparaissent pas dans la sortie du client de débogage WSD, les adresses de transport ou l’environnement réseau fournis peuvent être à l’origine de l’échec. Pour plus d’informations sur l’hôte et le client génériques, consultez [outils de débogage](debugging-tools.md).
 
@@ -25,7 +25,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
 2.  Exécutez la commande suivante : **WSDDebug \_host.exe/mode Metadata/Start**
 
     > [!Note]  
-    > Une boîte de dialogue d' **alerte de sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution de l’hôte de débogage WSD.
+    > une boîte de dialogue d' **alerte Sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution de l’hôte de débogage WSD.
 
      
 
@@ -40,7 +40,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
 
 3.  Exécutez la commande suivante : **WSDDebug \_client.exe les métadonnées/mode/Hello OFF/Resolve** *<id>* . Remplacez *<id>* par l’ID d’appareil identifié à l’étape 2.
     > [!Note]  
-    > Une boîte de dialogue d' **alerte de sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution du client de débogage WSD.
+    > une boîte de dialogue d' **alerte Sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution du client de débogage WSD.
 
      
 
@@ -115,7 +115,7 @@ Si l’adresse de l’appareil et les métadonnées de l’appareil n’apparais
     Si les XAddrs spécifiés ne sont pas conformes aux [règles de validation XAddr](xaddr-validation-rules.md), le client de débogage WSD ne peut pas récupérer les métadonnées de l’appareil.
 
 -   L’application s’exécute dans un contexte de sécurité incorrect. Vérifiez que l’application utilise les informations d’identification correctes et que le client et l’hôte disposent des autorisations suffisantes pour accéder au réseau.
--   La configuration du pare-feu est incorrecte. Suivez les instructions de la [section inspection des paramètres de l’adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md) pour vérifier que les paramètres du pare-feu Windows sont corrects et qu’aucune autre règle ne supprime les paquets. Le client et l’hôte peuvent également être copiés sur un ordinateur « initial » (l’un avec une installation de système d’exploitation par défaut qui n’a jamais été jointe à un domaine) afin de tenter de reproduire l’échec.
+-   La configuration du pare-feu est incorrecte. suivez les instructions de la section inspection des Paramètres de l' [adaptateur et du pare-feu](inspecting-adapter-and-firewall-settings.md) pour vérifier que les paramètres du pare-feu Windows sont corrects et qu’aucune autre règle ne supprime les paquets. Le client et l’hôte peuvent également être copiés sur un ordinateur « initial » (l’un avec une installation de système d’exploitation par défaut qui n’a jamais été jointe à un domaine) afin de tenter de reproduire l’échec.
 -   Une stratégie IPSec bloque l’application. Copiez le client et l’hôte sur un ordinateur qui n’est pas soumis aux stratégies IPSec et essayez de reproduire l’échec.
 
 ## <a name="related-topics"></a>Rubriques connexes

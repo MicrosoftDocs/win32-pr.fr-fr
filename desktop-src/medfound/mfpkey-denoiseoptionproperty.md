@@ -4,12 +4,12 @@ ms.assetid: 9e099378-bb77-4dca-9171-7fe58e0139de
 title: MFPKEY_DENOISEOPTION, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f318e294f69095758fe300fce19043c23cf376
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0483edbda1c2eb3ec929fb662fe4544cb09e7d43dfd1b30421d14eb06d2a365b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954069"
 ---
 # <a name="mfpkey_denoiseoption-property"></a>MFPKEY \_ propriété DENOISEOPTION
 
@@ -27,7 +27,7 @@ VT \_ bool
 
 FALSE
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre de bruit peut améliorer la qualité des sources vidéo bruyantes, telles que les films contenant un grand nombre de grains ou d’images vidéo en faible luminosité. Ce filtre peut être utilisé dans les scénarios d’encodage en temps réel où le prétraitement externe n’est pas une option.
 
@@ -39,8 +39,8 @@ Ce filtre doit être désactivé pour les sources vidéo propres, car il peut r�
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

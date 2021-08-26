@@ -1,5 +1,5 @@
 ---
-description: Représente un système d’exploitation Windows installé sur un ordinateur.
+description: représente un système d’exploitation Windows installé sur un ordinateur.
 ms.assetid: eb6a8cff-20a0-4211-b46a-3084e9c39246
 ms.tgt_platform: multiple
 title: Classe Win32_OperatingSystem
@@ -80,16 +80,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 15a6a1bf7bec8c830d1a15ec690b01ec9ea22e48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a1df0da4cadf0cd610803b2f456f22049471b28bc5653bc400f4c730cb0c47de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972529"
 ---
 # <a name="win32_operatingsystem-class"></a>\_Classe Win32 OperatingSystem
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ OperatingSystem** représente un système d’exploitation Windows installé sur un ordinateur.
+la [classe WMI](../wmisdk/retrieving-a-class.md) **Win32 \_ OperatingSystem** représente un système d’exploitation Windows installé sur un ordinateur.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -186,7 +186,7 @@ La classe **Win32 \_ OperatingSystem** possède ces méthodes.
 | [**Reboot**](reboot-method-in-class-win32-operatingsystem.md)                             | Arrête puis redémarre le système informatique.<br/>                                                                                                                                                                                                           |
 | [**SetDateTime**](setdatetime-method-in-class-win32-operatingsystem.md)                   | Autorise la définition de la date et de l’heure de l’ordinateur.<br/>                                                                                                                                                                                                                |
 | [**Correct**](shutdown-method-in-class-win32-operatingsystem.md)                         | Décharge les programmes et les dll jusqu’au point où il est possible de mettre hors tension l’ordinateur en toute sécurité.<br/>                                                                                                                                                                           |
-| [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md)               | Fournit l’ensemble complet d’options d’arrêt prises en charge par les systèmes d’exploitation Windows.<br/>                                                                                                                                                                           |
+| [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md)               | fournit l’ensemble complet d’options d’arrêt prises en charge par les systèmes d’exploitation Windows.<br/>                                                                                                                                                                           |
 | [**Win32ShutdownTracker**](win32shutdowntracker-method-in-class-win32-operatingsystem.md) | Fournit le même ensemble d’options d’arrêt prises en charge par la méthode [**Win32Shutdown**](win32shutdown-method-in-class-win32-operatingsystem.md) dans **Win32 \_ OperatingSystem**, mais vous permet également de spécifier des commentaires, une raison d’arrêt ou un délai d’attente.<br/> |
 
 
@@ -211,7 +211,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| lecteur \_ Map \_ info \| btInt13Unit »)
 </dt> </dl>
 
-Nom du lecteur de disque à partir duquel le système d’exploitation Windows démarre.
+nom du lecteur de disque à partir duquel le système d’exploitation Windows démarre.
 
 Exemple : « \\ \\ Harddisk0 d’appareil \\ »
 
@@ -226,7 +226,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| System Information structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| dwBuildNumber")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information Structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| dwBuildNumber")
 </dt> </dl>
 
 Numéro de build d’un système d’exploitation. Il peut être utilisé pour obtenir des informations de version plus précises que les numéros de version de produit.
@@ -244,7 +244,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \| CurrentType")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \| CurrentType")
 </dt> </dl>
 
 Type de build utilisé pour un système d’exploitation.
@@ -265,9 +265,9 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MaxLen**](../wmisdk/standard-qualifiers.md) (64), [**DisplayName**](../wmisdk/standard-qualifiers.md) (« Caption »)
 </dt> </dl>
 
-Brève description de l’objet : chaîne d’une ligne. La chaîne comprend la version du système d’exploitation. Par exemple, « Microsoft Windows 7 entreprise ». Cette propriété peut être localisée.
+Brève description de l’objet : chaîne d’une ligne. La chaîne comprend la version du système d’exploitation. par exemple, « Microsoft Windows 7 Entreprise ». Cette propriété peut être localisée.
 
-**Windows Vista et Windows 7 :** Cette propriété peut contenir des caractères de fin. Par exemple, la chaîne « Microsoft Windows 7 entreprise » (espace de fin inclus) peut être nécessaire pour récupérer des informations à l’aide de cette propriété.
+**Windows Vista et Windows 7 :** Cette propriété peut contenir des caractères de fin. par exemple, la chaîne « Microsoft Windows 7 Entreprise » (espace de fin inclus) peut être nécessaire pour récupérer des informations à l’aide de cette propriété.
 
 Cette propriété est héritée de [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md).
 
@@ -354,7 +354,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| System Information structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **szCSDVersion**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information Structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **szCSDVersion**")
 </dt> </dl>
 
 Chaîne terminée par le caractère **null** qui indique la dernière Service Pack installée sur un ordinateur. Si aucun Service Pack n’est installé, la chaîne est **null**.
@@ -492,7 +492,7 @@ DEP est activé pour toutes les applications 32 bits sur l’ordinateur. Ce para
 
 </dt> <dd>
 
-DEP est activé pour un nombre limité de fichiers binaires, le noyau et tous les services Windows. Toutefois, elle est désactivée par défaut pour toutes les applications 32 bits. Un utilisateur ou un administrateur doit choisir explicitement le **Always on** ou le paramètre d' **annulation** avant que DEP puisse être appliqué aux applications 32 bits.
+DEP est activé pour un nombre limité de binaires, le noyau et tous les services basés sur Windows. Toutefois, elle est désactivée par défaut pour toutes les applications 32 bits. Un utilisateur ou un administrateur doit choisir explicitement le **Always on** ou le paramètre d' **annulation** avant que DEP puisse être appliqué aux applications 32 bits.
 
 </dd> <dt>
 
@@ -541,7 +541,7 @@ Description du système d’exploitation Windows. Certaines interfaces utilisate
 
 </dd> <dt>
 
-**Graphique**
+**Distribué**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -672,7 +672,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF. \|Paramètres de mémoire système DMTF \| 001,4»), [**unités**](../wmisdk/standard-qualifiers.md) (« kilo-octets »)
+Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF. \|mémoire système DMTF Paramètres \| 001,4»), [**unités**](../wmisdk/standard-qualifiers.md) (« kilo-octets »)
 </dt> </dl>
 
 Nombre, en kilo-octets, qui peut être mappé dans les fichiers de pagination du système d’exploitation sans entraîner le remplacement de toutes les autres pages.
@@ -822,7 +822,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« WMI »)
 </dt> </dl>
 
-Nom du fabricant du système d’exploitation. Pour les systèmes Windows, cette valeur est « Microsoft Corporation ».
+Nom du fabricant du système d’exploitation. pour les systèmes basés sur Windows, cette valeur est « Microsoft Corporation ».
 
 </dd> <dt>
 
@@ -876,7 +876,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« WMI »)
 </dt> </dl>
 
-Langues du pack d’interface utilisateur multilingue (MUI Pack) installées sur l’ordinateur. Par exemple, « en-US ». Les langues du Pack MUI sont des fichiers de ressources qui peuvent être installés sur la version anglaise du système d’exploitation. Quand un pack MUI est installé, vous pouvez modifier la langue de l’interface utilisateur en 33 langues prises en charge.
+interface utilisateur multilingue Langues de Pack (MUI Pack) installées sur l’ordinateur. Par exemple, « en-US ». Les langues du Pack MUI sont des fichiers de ressources qui peuvent être installés sur la version anglaise du système d’exploitation. Quand un pack MUI est installé, vous pouvez modifier la langue de l’interface utilisateur en 33 langues prises en charge.
 
 </dd> <dt>
 
@@ -982,7 +982,7 @@ Indéfini
 
 </dt> <dd>
 
-Édition intégrale, par exemple, Windows Vista Édition intégrale.
+édition intégrale, par exemple Windows Vista Ultimate.
 
 </dd> <dt>
 
@@ -1004,7 +1004,7 @@ Indéfini
 
 </dt> <dd>
 
-Édition familiale Premium
+édition Premium personnelle
 
 </dd> <dt>
 
@@ -1037,7 +1037,7 @@ Professionnel
 
 </dt> <dd>
 
-Windows Server Standard Edition (installation de l’expérience utilisateur)
+Windows Édition Standard du serveur (installation de l’expérience utilisateur)
 
 </dd> <dt>
 
@@ -1070,7 +1070,7 @@ Windows Server Datacenter Edition (installation de l’expérience utilisateur)
 
 </dt> <dd>
 
-Édition Enterprise Server
+Enterprise Édition du serveur
 
 </dd> <dt>
 
@@ -1114,7 +1114,7 @@ Windows Server Datacenter Edition (installation de l’expérience utilisateur)
 
 </dt> <dd>
 
-Enterprise Server Core Edition
+Enterprise Édition Server Core
 
 </dd> <dt>
 
@@ -1147,7 +1147,7 @@ Enterprise Server Core Edition
 
 </dt> <dd>
 
-Storage Express Server Edition
+Stockage Édition Express Server
 
 </dd> <dt>
 
@@ -1158,7 +1158,7 @@ Storage Express Server Edition
 
 </dt> <dd>
 
-Windows Storage Server Standard Edition (installation de l’expérience utilisateur)
+Windows Stockage Server Édition Standard (installation de l’expérience utilisateur)
 
 </dd> <dt>
 
@@ -1169,7 +1169,7 @@ Windows Storage Server Standard Edition (installation de l’expérience utilisa
 
 </dt> <dd>
 
-Windows Storage Server Workgroup Edition (installation de l’expérience utilisateur)
+Windows Stockage Server Workgroup Edition (installation de l’expérience utilisateur)
 
 </dd> <dt>
 
@@ -1180,7 +1180,7 @@ Windows Storage Server Workgroup Edition (installation de l’expérience utilis
 
 </dt> <dd>
 
-Stockage Enterprise Server Edition
+Stockage Enterprise édition Server
 
 </dd> <dt>
 
@@ -1202,7 +1202,7 @@ Server pour Small Business Edition
 
 </dt> <dd>
 
-Small Business Server Premium Edition
+édition Premium Small Business Server
 
 </dd> <dt>
 
@@ -1213,7 +1213,7 @@ Small Business Server Premium Edition
 
 </dt> <dd>
 
-Windows édition entreprise
+Windows Êdition Entreprise
 
 </dd> <dt>
 
@@ -1224,7 +1224,7 @@ Windows édition entreprise
 
 </dt> <dd>
 
-Édition Windows édition intégrale
+Windows Édition intégrale
 
 </dd> <dt>
 
@@ -1235,7 +1235,7 @@ Windows édition entreprise
 
 </dt> <dd>
 
-Windows Server Web Edition (installation minimale)
+Windows Server Web Edition (installation Server Core)
 
 </dd> <dt>
 
@@ -1246,7 +1246,7 @@ Windows Server Web Edition (installation minimale)
 
 </dt> <dd>
 
-Windows Server Standard Edition sans Hyper-V
+Windows Édition Standard de serveur sans Hyper-V
 
 </dd> <dt>
 
@@ -1268,7 +1268,7 @@ Windows Server Datacenter Edition sans Hyper-V (installation complète)
 
 </dt> <dd>
 
-Windows Server Enterprise Edition sans Hyper-V (installation complète)
+Windows Êdition Entreprise de serveur sans Hyper-V (installation complète)
 
 </dd> <dt>
 
@@ -1290,7 +1290,7 @@ Windows Server Datacenter Edition sans Hyper-V (installation Server Core)
 
 </dt> <dd>
 
-Windows Server Standard Edition sans Hyper-V (installation Server Core)
+Windows Édition Standard de serveur sans Hyper-V (installation server Core)
 
 </dd> <dt>
 
@@ -1301,7 +1301,7 @@ Windows Server Standard Edition sans Hyper-V (installation Server Core)
 
 </dt> <dd>
 
-Windows Server entreprise Edition sans Hyper-V (installation Server Core)
+Windows Êdition Entreprise de serveur sans Hyper-V (installation server Core)
 
 </dd> <dt>
 
@@ -1323,7 +1323,7 @@ Microsoft Hyper-V Server
 
 </dt> <dd>
 
-Storage Server Express Edition (installation minimale)
+Stockage Server Express Edition (installation minimale)
 
 </dd> <dt>
 
@@ -1334,7 +1334,7 @@ Storage Server Express Edition (installation minimale)
 
 </dt> <dd>
 
-Storage Server Standard Edition (installation minimale)
+Stockage Édition Standard du serveur (installation server Core)
 
 </dd> <dt>
 
@@ -1345,7 +1345,7 @@ Storage Server Standard Edition (installation minimale)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (installation minimale)
+Stockage Server Workgroup Edition (installation minimale)
 
 </dd> <dt>
 
@@ -1356,7 +1356,7 @@ Storage Server Workgroup Edition (installation minimale)
 
 </dt> <dd>
 
-Storage Server Workgroup Edition (installation minimale)
+Stockage Server Workgroup Edition (installation minimale)
 
 </dd> <dt>
 
@@ -1367,7 +1367,7 @@ Storage Server Workgroup Edition (installation minimale)
 
 </dt> <dd>
 
-Windows professionnel
+Windows Professional
 
 </dd> <dt>
 
@@ -1389,7 +1389,7 @@ Windows Server Essentials (installation de l’expérience utilisateur)
 
 </dt> <dd>
 
-Small Business Server Premium (installation minimale)
+Premium Small Business server (installation minimale)
 
 </dd> <dt>
 
@@ -1422,7 +1422,7 @@ Windows RT
 
 </dt> <dd>
 
-Page d’hébergement Windows
+Windows Associé
 
 </dd> <dt>
 
@@ -1433,7 +1433,7 @@ Page d’hébergement Windows
 
 </dt> <dd>
 
-Windows professionnel avec Media Center
+Windows Professional avec Media Center
 
 </dd> <dt>
 
@@ -1455,7 +1455,7 @@ Windows Mobile
 
 </dt> <dd>
 
-Noyau Windows IoT (Internet des objets)
+Windows Noyau IoT (Internet des objets)
 
 </dd> <dt>
 
@@ -1477,7 +1477,7 @@ Windows Server Datacenter Edition (installation nano Server)
 
 </dt> <dd>
 
-Windows Server Standard Edition (installation nano Server)
+Windows Édition Standard du serveur (installation de Nano Server)
 
 </dd> <dt>
 
@@ -1499,7 +1499,7 @@ Windows Server Datacenter Edition (installation minimale)
 
 </dt> <dd>
 
-Windows Server Standard Edition (installation minimale)
+Windows Édition Standard du serveur (installation server Core)
 
 </dd> </dl>
 
@@ -1514,7 +1514,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \| RegisteredOrganization")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows \\ \\ CurrentVersion \| RegisteredOrganization")
 </dt> </dl>
 
 Nom de la société pour l’utilisateur inscrit du système d’exploitation.
@@ -2419,10 +2419,10 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ ProductOptions \| ProductSuite »), [**bitvalues**](../wmisdk/standard-qualifiers.md) (« Small Business », « Enterprise », « BackOffice », « communication Server », « Terminal Server », « Small Business (Restricted) », « Embedded NT », « Data Center »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \\ \\ ProductOptions \| ProductSuite »), [**bitvalues**](../wmisdk/standard-qualifiers.md) (« small business », « Enterprise », « backoffice », « Communication Server », « Terminal Server », « small business (Restricted) », « embedded NT », « Data Center »)
 </dt> </dl>
 
-Des compléments de produits système installés et sous licence au système d’exploitation. Par exemple, la valeur de 146 (0x92) pour **OSProductSuite** indique Enterprise, Terminal Services et Data Center (bits 1, quatre et sept Set). La liste suivante répertorie les valeurs possibles.
+Des compléments de produits système installés et sous licence au système d’exploitation. par exemple, la valeur de 146 (0x92) pour **OSProductSuite** indique Enterprise, les Services Terminal server et le centre de données (bits un, quatre et sept sont définis). La liste suivante répertorie les valeurs possibles.
 
 <dt>
 
@@ -2436,14 +2436,14 @@ Microsoft Small Business Server a été installé, mais il a peut-être été mi
 2 (0X2)
 </dt> <dd>
 
-Windows Server 2008 Enterprise est installé.
+Windows le serveur 2008 Enterprise est installé.
 
 </dd> <dt>
 
 4 (0x4)
 </dt> <dd>
 
-Les composants Windows BackOffice sont installés.
+Windows Les composants BackOffice sont installés.
 
 </dd> <dt>
 
@@ -2492,7 +2492,7 @@ Les services Terminal Server sont installés, mais une seule session interactive
 512 (0x200)
 </dt> <dd>
 
-Windows Édition personnelle est installé.
+Windows L’édition personnelle est installée.
 
 </dd> <dt>
 
@@ -2506,7 +2506,7 @@ L’édition Web Server est installée.
 8192 (0x2000)
 </dt> <dd>
 
-L’édition Storage Server est installée.
+Stockage L’édition du serveur est installée.
 
 </dd> <dt>
 
@@ -2711,7 +2711,7 @@ MACROS
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -3028,7 +3028,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion plus \| ! ProductId»)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion plus \| ! ProductId»)
 </dt> </dl>
 
 Non pris en charge.
@@ -3044,7 +3044,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion plus \| ! VersionNumber»)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion plus \| ! VersionNumber»)
 </dt> </dl>
 
 Non pris en charge.
@@ -3062,7 +3062,7 @@ Type d'accès : Lecture seule
 
 Spécifie si le système d’exploitation est démarré à partir d’un périphérique USB externe. Si la valeur est true, le système d’exploitation a détecté qu’il démarre sur un dispositif de stockage connecté localement et pris en charge.
 
-**Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows server 2008 R2, Windows 7, Windows Server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 </dd> <dt>
 
@@ -3134,7 +3134,7 @@ Non pris en charge
 
 * * Windows Server 2008 et Windows Vista : * *
 
-La propriété **QuantumLength** définit le nombre de battements d’horloge par Quantum. Un Quantum est une unité de durée d’exécution que le planificateur est autorisé à fournir à une application avant de basculer vers d’autres applications. Lorsqu’un thread exécute un Quantum, le noyau le prépasse et le déplace à la fin d’une file d’attente pour les applications avec des priorités identiques. La longueur réelle du quantum d’un thread varie selon les plateformes Windows. Pour Windows NT/Windows 2000 uniquement.
+La propriété **QuantumLength** définit le nombre de battements d’horloge par Quantum. Un Quantum est une unité de durée d’exécution que le planificateur est autorisé à fournir à une application avant de basculer vers d’autres applications. Lorsqu’un thread exécute un Quantum, le noyau le prépasse et le déplace à la fin d’une file d’attente pour les applications avec des priorités identiques. la longueur réelle du quantum d’un thread varie selon les plateformes de Windows. pour Windows NT/Windows 2000 uniquement.
 
 Les valeurs possibles sont.
 
@@ -3176,7 +3176,7 @@ Non pris en charge
 
 * * Windows Server 2008 et Windows Vista : * *
 
-La propriété **QuantumType** spécifie des quantums de longueur fixe ou variable. Windows utilise par défaut des quantums de longueur variable, où l’application de premier plan a un Quantum plus long que les applications en arrière-plan. Windows Server passe par défaut à des quantums de longueur fixe. Un Quantum est une unité de durée d’exécution que le planificateur est autorisé à fournir à une application avant de passer à une autre application. Lorsqu’un thread exécute un Quantum, le noyau le prépasse et le déplace à la fin d’une file d’attente pour les applications avec des priorités identiques. La longueur réelle du quantum d’un thread varie selon les plateformes Windows.
+La propriété **QuantumType** spécifie des quantums de longueur fixe ou variable. Windows utilise par défaut des quantums de longueur variable, où l’application de premier plan a un quantum plus long que les applications en arrière-plan. Windows Le serveur a par défaut des quantums de longueur fixe. Un Quantum est une unité de durée d’exécution que le planificateur est autorisé à fournir à une application avant de passer à une autre application. Lorsqu’un thread exécute un Quantum, le noyau le prépasse et le déplace à la fin d’une file d’attente pour les applications avec des priorités identiques. la longueur réelle du quantum d’un thread varie selon les plateformes de Windows.
 
 Les valeurs possibles sont.
 
@@ -3214,7 +3214,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \| RegisteredOwner")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \| RegisteredOwner")
 </dt> </dl>
 
 Nom de l’utilisateur inscrit du système d’exploitation.
@@ -3232,7 +3232,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \| ProductID")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \| ProductId")
 </dt> </dl>
 
 Numéro d’identification de série du produit de système d’exploitation.
@@ -3250,7 +3250,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| System Information structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **wServicePackMajor**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information Structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **wServicePackMajor**")
 </dt> </dl>
 
 Numéro de version principale du Service Pack installé sur le système informatique. Si aucun Service Pack n’a été installé, la valeur est 0 (zéro).
@@ -3266,7 +3266,7 @@ Type de données : **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| System Information structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **wServicePackMinor**")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information Structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| **wServicePackMinor**")
 </dt> </dl>
 
 Numéro de version mineure du Service Pack installé sur le système informatique. Si aucun Service Pack n’a été installé, la valeur est 0 (zéro).
@@ -3282,7 +3282,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF. \|Paramètres de mémoire système DMTF \| 001,3»), [**unités**](../wmisdk/standard-qualifiers.md) (« kilo-octets »)
+Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("MIF. \|mémoire système DMTF Paramètres \| 001,3»), [**unités**](../wmisdk/standard-qualifiers.md) (« kilo-octets »)
 </dt> </dl>
 
 Nombre total de kilo-octets pouvant être stockés dans les fichiers de pagination du système d’exploitation : 0 (zéro) indique qu’il n’y a aucun fichier de pagination. N’oubliez pas que ce nombre ne représente pas la taille physique réelle du fichier d’échange sur le disque.
@@ -3406,7 +3406,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**bitmap**](../wmisdk/standard-qualifiers.md) ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), deux- [**TValue**](../wmisdk/standard-qualifiers.md) ("Windows Server, Small Business Edition", "Windows Server, Enterprise Edition», « Windows Server, BackOffice Edition », « Windows Server, Communications Edition », « Microsoft Terminal Services », « Windows Server, Small Business Edition Restricted », « Windows Embedded », « Windows Server, Datacenter Edition », « Single User », « Windows Édition personnelle », « Windows Server, Web Edition »)
+qualificateurs : [**BitMap**](../wmisdk/standard-qualifiers.md) ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), [**bitvalues**](../wmisdk/standard-qualifiers.md) ("Windows Server, Small business edition», « Windows server, Êdition Entreprise », « Windows server, backoffice edition », « Windows Server, Communications Edition », « Microsoft Terminal Services », « Windows server, Small Business edition Restricted », « Windows embedded », « Windows server, Datacenter edition », « Single User », « Windows édition personnelle », « Windows server, Web edition »)
 </dt> </dl>
 
 Indicateurs de bits qui identifient les suites de produits disponibles sur le système.
@@ -3425,7 +3425,7 @@ Small Business
 2
 </dt> <dd>
 
-Enterprise
+Entreprise
 
 </dd> <dt>
 
@@ -3519,7 +3519,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| , fonctions d’informations système [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya))
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information functions [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya))
 </dt> </dl>
 
 Répertoire système du système d’exploitation.
@@ -3553,7 +3553,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**unités**](../wmisdk/standard-qualifiers.md) (« kilo-octets »)
 </dt> </dl>
 
-Espace d’échange total en kilo-octets. Cette valeur peut être **null** (non spécifié) si l’espace d’échange n’est pas distingué des fichiers d’échange. Toutefois, certains systèmes d’exploitation distinguent ces concepts. Par exemple, dans UNIX, les processus entiers peuvent être échangés lorsque la liste de pages libre tombe et reste sous un montant spécifié.
+Espace d’échange total en kilo-octets. Cette valeur peut être **null** (non spécifié) si l’espace d’échange n’est pas distingué des fichiers d’échange. Toutefois, certains systèmes d’exploitation distinguent ces concepts. par exemple, dans UNIX, les processus entiers peuvent être échangés lorsque la liste de pages libre tombe et reste sous un montant spécifié.
 
 Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les scripts, consultez [scripts dans WMI](/previous-versions//aa393262(v=vs.85)).
 
@@ -3610,7 +3610,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("version"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| System Information structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| dwMajorVersion, dwMinorVersion")
+qualificateurs : [**override**](../wmisdk/standard-qualifiers.md) ("Version"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information Structures \| [**OSVERSIONINFOEX**](/windows/win32/api/winnt/ns-winnt-osversioninfoexa) \| dwMajorVersion, dwMinorVersion")
 </dt> </dl>
 
 Numéro de version du système d’exploitation.
@@ -3628,20 +3628,20 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| System Information Functions \| [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)»)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information functions \| [**GetWindowsDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya)")
 </dt> </dl>
 
-Répertoire Windows du système d’exploitation.
+Windows répertoire du système d’exploitation.
 
 Exemple : « C : \\ Windows »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ OperatingSystem** est dérivée de [**CIM \_ OperatingSystem**](cim-operatingsystem.md).
 
-Tout système d’exploitation qui peut être installé sur un ordinateur qui peut exécuter un système d’exploitation Windows est un descendant ou un membre de cette classe. **Win32 \_ OperatingSystem** est une classe singleton. Pour obtenir l’instance unique, utilisez « @ » pour la clé.
+tout système d’exploitation qui peut être installé sur un ordinateur qui peut exécuter un système d’exploitation Windows est un descendant ou un membre de cette classe. **Win32 \_ OperatingSystem** est une classe singleton. Pour obtenir l’instance unique, utilisez « @ » pour la clé.
 
 Contrairement à la plupart des autres classes WMI générées par MgmtClassGen, la méthode **OperatingSystem. CreateInstance**() renverra un objet **OperatingSystem** vide. Par conséquent, si vous utilisez C \# avec MgmtClassGen, vous pouvez utiliser le code suivant :
 
@@ -3656,7 +3656,7 @@ WMI.OperatingSystem os = new ROOT.CIMV2.win32.OperatingSystem();
 
 Vous trouverez un exemple VBScript qui obtient les données du système d’exploitation et du processeur à partir de [**Win32 \_ ComputerSystem**](win32-computersystem.md), du [**\_ processeur Win32**](win32-processor.md)et de **Win32 \_ OperatingSystem** dans les exemples de sujets relatifs au [**\_ processeur Win32**](win32-processor.md) .
 
-L’exemple de [génération de rapports d’environnement Exchange à l’aide](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9) de PowerShell PowerShell sur la Galerie TechNet utilise une classe **Win32 \_ OperatingSystem** dans le cadre d’une application plus volumineuse pour générer des rapports d’environnement Exchange.
+l’exemple de [Exchange génération de rapports d’environnement à l’aide](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Generate-Exchange-2388e7c9) de powershell powershell sur la galerie TechNet utilise une classe **Win32 \_ OperatingSystem** dans le cadre d’une application plus volumineuse pour générer des rapports d’environnement Exchange.
 
 L’exemple [obtenir le temps d’activité du serveur à l’aide de WMI](https://Gallery.TechNet.Microsoft.Com/Get-Server-Uptime-Using-WMI-15aaa8ac) dans la Galerie TechNet utilise la propriété **LastBootupTime** pour déterminer la durée pendant laquelle le serveur a été actif. L’exemple utilise également l’option timeout pour s’assurer que l’appel WMI ne se bloque pas.
 

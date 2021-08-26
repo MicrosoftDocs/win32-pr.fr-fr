@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecb8efe8c80a3355a30ab0abf28019f87b33963
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 635ce19efbcfdfd8451f929affbbe0fe2b2c000bc4912977062f3fba2c54e9c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952079"
 ---
 # <a name="wm_nextmenu-message"></a>\_Message WM NEXTMENU
 
@@ -50,7 +50,7 @@ Pointeur vers une structure [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En répondant à ce message, l’application peut spécifier le menu vers lequel basculer dans le membre **hmenuNext** de [**MDINEXTMENU**](/windows/win32/api/winuser/ns-winuser-mdinextmenu) et la fenêtre pour recevoir les messages de notification de menu dans le membre **hwndNext** de la structure **MDINEXTMENU** . Vous devez définir les deux membres pour que les modifications prennent effet (elles ont initialement la **valeur null**).
 

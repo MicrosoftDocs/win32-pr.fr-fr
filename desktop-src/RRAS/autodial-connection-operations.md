@@ -4,12 +4,12 @@ description: Lorsqu’une tentative de connexion à une adresse réseau échoue 
 ms.assetid: 343ee69e-1ff5-4107-9ddb-4245c3b4a54d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 150fa8542d1724be9d60f997db7952d6df387b9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ef0f65f62121d631dcf035e641c9d0d4d89850d7673e1c47b82ff4a4889dff49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030499"
 ---
 # <a name="autodial-connection-operations"></a>Opérations de connexion automatique
 
@@ -23,6 +23,6 @@ Pour activer votre gestionnaire de numérotation automatique personnalisé pour 
 
 Lorsque le système démarre une opération de numérotation automatique pour une entrée de l’annuaire téléphonique avec un gestionnaire de numérotation automatique personnalisé, il appelle le [**RASADFunc**](/windows/desktop/api/Ras/nc-ras-rasadfunca)spécifié. La fonction **RASADFunc** reçoit un pointeur vers une structure [**RASADPARAMS**](/previous-versions/windows/desktop/legacy/aa376719(v=vs.85)) qui indique l’emplacement et la fenêtre parente de la fenêtre de votre interface utilisateur. Votre **RASADFunc** peut démarrer un thread pour effectuer l’opération de numérotation personnalisée. La fonction **RASADFunc** retourne la **valeur true** pour indiquer qu’elle a pris le relais, ou **false** pour permettre au système d’effectuer la numérotation. Votre opération de numérotation personnalisée doit utiliser la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) pour effectuer la numérotation réelle. Une fois l’opération de numérotation terminée, l’opération de numérotation personnalisée indique la réussite ou l’échec en définissant la variable vers laquelle pointe le paramètre *lpdwRetCode* passé à [**RASADFunc**](/windows/desktop/api/Ras/nc-ras-rasadfunca).
 
- 
+ 
 
- 
+ 

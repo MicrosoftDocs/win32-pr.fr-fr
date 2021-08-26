@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d219eb82ab2cf1929605eee4045c2f278022ad98
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2791d20b906f2a2adce31ce99b9e7498854c8fca00ade4507db0207e04b2cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043603"
 ---
 # <a name="cdrawimagedrawimage-method"></a>CDrawImage. DrawImage, méthode
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode délègue à [**CDrawImage :: FastRender**](cdrawimage-fastrender.md) ou [**CDrawImage :: SlowRender**](cdrawimage-slowrender.md), selon que le filtre possède ou non l’allocateur qui a fourni l’exemple. Si le filtre est propriétaire de l’Allocator, il est garanti que l’exemple est un objet [**CImageSample**](cimagesample.md) . Dans ce cas, l’exemple utilise la mémoire partagée allouée par GDI, et l’image peut être dessinée à l’aide de **BitBlt** ou de **StretchBlt**. Dans le cas contraire, les images doivent être dessinées à l’aide des fonctions **SetDIBitsToDevice** ou **StretchDIBits** plus lentes.
 
@@ -65,7 +65,7 @@ Dans les versions Debug, cette méthode appelle **DisplaySampleTimes** pour dess
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: f12842cd07c55c33509ecfbb56fc804a6fc3b7c0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 400347efde28133055b97016d877b1bd4148624387ddd7086f4ff185ab87cca9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989529"
 ---
 # <a name="d3dx10_filter_flag-enumeration"></a>\_Énumération de l’indicateur de filtre d3dx10 \_
 
@@ -152,7 +152,7 @@ Identique à la spécification \_ de la fonction de filtre D3DX \_ sRVB \_ dans 
 
 ## <a name="remarks"></a>Notes
 
-D3DX10 effectue automatiquement une correction gamma (pour convertir les données de couleur de l’espace RVB en espace RVB standard) lors du chargement des données de texture. Cette opération est effectuée automatiquement par exemple lorsque les données RVB sont chargées à partir d’un fichier. png dans une texture sRVB. Utilisez les indicateurs de filtre sRVB pour indiquer si les données n’ont pas besoin d’être converties en espace sRVB.
+D3DX10 effectue automatiquement une correction gamma (pour convertir les données de couleur de l’espace RVB en espace RVB standard) lors du chargement des données de texture. Cette opération est effectuée automatiquement par exemple lorsque les données RVB sont chargées à partir d’un fichier de .png dans une texture sRVB. Utilisez les indicateurs de filtre sRVB pour indiquer si les données n’ont pas besoin d’être converties en espace sRVB.
 
 ## <a name="requirements"></a>Configuration requise
 

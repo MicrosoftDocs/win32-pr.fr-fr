@@ -4,12 +4,12 @@ description: Cette rubrique montre comment ajouter la propriété Restricted qui
 ms.assetid: BCEB1FBF-3D3F-45B8-A92B-7C5FBF6745C0
 ms.topic: article
 ms.date: 02/11/2020
-ms.openlocfilehash: e23f8b7f2cc1884e2f878739f56507e79eb1bb69
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 62bca034a2edab9b31267f14672b4821ca6569dead0fd645d98c52c234c24cb6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104032054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120029049"
 ---
 # <a name="register-the-device-interface-as-restricted-to-privileged-apps"></a>Inscrire l’interface de l’appareil comme restreint aux applications privilégiées
 
@@ -41,7 +41,7 @@ AddProperty=PrivilegedProperties
 {14c83a99-0b3f-44b7-be4c-a178d3990564}, 2, 17,,1 ; -- non-zero indicates privileged
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Au lieu de la directive **AddInterface** , le pilote peut également appeler la routine [**IoRegisterDeviceInterface**](/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdeviceinterfacepropertydata) pour inscrire la classe d’interface de l’appareil.
 
@@ -49,4 +49,4 @@ Vous pouvez également définir la propriété d’interface restreinte en appel
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Exemple d’accès personnalisé aux pilotes](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [applications pour appareils UWP pour appareils internes](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Centre de développement matériel](/windows-hardware/drivers/)
+[exemple d’accès personnalisé aux pilotes](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Custom%20driver%20access%20sample), [applications de l’appareil UWP pour les appareils internes](/windows-hardware/drivers/devapps/uwp-device-apps-for-specialized-devices), [Centre de développement matériel](/windows-hardware/drivers/)

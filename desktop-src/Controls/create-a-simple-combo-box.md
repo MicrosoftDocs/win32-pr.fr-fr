@@ -4,12 +4,12 @@ description: Cette rubrique explique comment créer, ajouter et récupérer des 
 ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4175d435ac78795e7020fd84099d512cc65be20
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: eb1ab672e0beea90d07eadf05f14ffdc4a8181a4da7bf7940af50b00ddc69cde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920809"
 ---
 # <a name="how-to-create-a-simple-combo-box"></a>Comment créer une zone de liste modifiable simple
 
@@ -20,16 +20,16 @@ Cette rubrique explique comment créer, ajouter et récupérer des éléments à
 -   Détecte quand l’utilisateur a sélectionné un élément dans la zone de liste déroulante.
 -   Récupérez l’élément sélectionné à partir de la zone de liste déroulante.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -102,7 +102,7 @@ Lorsque l’utilisateur effectue une sélection dans la liste, la zone de liste 
 > [!Note]  
 > La notification [CBN \_ selChange](cbn-selchange.md) est envoyée et traitée avant que l’élément ne soit placé dans le champ de sélection de zone de liste déroulante. Par conséquent, dans cet exemple, l’élément sélectionné n’apparaît pas dans le champ de sélection tant que la boîte de message n’a pas été fermée.
 
- 
+ 
 
 
 ```C++
@@ -498,6 +498,6 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 [ComboBox](combo-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

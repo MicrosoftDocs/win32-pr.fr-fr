@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI de l’Association WMIElementSetting Win32 associe un service s’exécutant dans le système Windows et les paramètres WMI qu’il peut utiliser.
+description: la \_ classe WMI de l’association WMIElementSetting Win32 associe un service s’exécutant dans le système de Windows et les paramètres WMI qu’il peut utiliser.
 ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
 ms.tgt_platform: multiple
 title: Classe Win32_WMIElementSetting
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - Wbemcore.dll
-ms.openlocfilehash: 41f79614fd0931759d502bbd61c7f4143e9e7dc9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f46a9d5fd7c3f0baace1f763b9912f49fbcf318ffd07fa7cbf3138d04d8621f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922539"
 ---
 # <a name="win32_wmielementsetting-class"></a>\_Classe WMIElementSetting Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) de l’Association **\_ WMIElementSetting Win32** associe un service s’exécutant dans le système Windows et les paramètres WMI qu’il peut utiliser.
+la [classe WMI](../wmisdk/retrieving-a-class.md) de l’association **\_ WMIElementSetting Win32** associe un service s’exécutant dans le système de Windows et les paramètres WMI qu’il peut utiliser.
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -64,7 +64,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("element"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI \| Win32 \_ service")
 </dt> </dl>
 
-Référence à l’instance représentant le service Windows à l’aide de ou de l’accès aux propriétés WMI.
+référence à l’instance de qui représente le service Windows à l’aide de ou de l’accès aux propriétés WMI.
 
 </dd> <dt>
 
@@ -80,11 +80,11 @@ Type d'accès : Lecture seule
 Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**override**](../wmisdk/standard-qualifiers.md) ("Setting"), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("WMI \| Win32 \_ WMISetting")
 </dt> </dl>
 
-Référence à l’instance représentant les paramètres WMI disponibles pour le service Windows.
+référence à l’instance représentant les paramètres WMI disponibles pour le service Windows.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ WMIElementSetting** est dérivée de [**CIM \_ ElementSetting**](cim-elementsetting.md).
 

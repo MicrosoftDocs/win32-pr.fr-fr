@@ -4,12 +4,12 @@ description: Utilisez l’effet compensation DPI pour ajuster automatiquement un
 ms.assetid: EA8AD89B-A710-468F-A6F3-474DA29586F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69a0477d2a57f39738fa9b1ce16c97995c60cf96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38f1390825087cabb9ee1bec65f2708990757ff25f08e71140be5be0fc6ae11e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967112"
 ---
 # <a name="dpi-compensation-effect"></a>Effet de compensation DPI
 
@@ -72,8 +72,8 @@ Le CLSID de cet effet est CLSID \_ D2D1DpiCompensation.
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

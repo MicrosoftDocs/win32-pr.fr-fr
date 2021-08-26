@@ -4,12 +4,12 @@ description: Déplace le point d’exécution vers l’instruction après le pro
 ms.assetid: 411FB361-FBD1-4180-8D81-2074BA8972B7
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06396d062e9126091052126737e3e05c58dbdb16
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: e17ca99b0e16da016145f7f23fe6e4ce6bd410325ff98d4c6dd1387943fbc718
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983339"
 ---
 # <a name="break-sm4---asm"></a>Break (SM4-ASM)
 
@@ -22,9 +22,9 @@ Déplace le point d’exécution vers l’instruction après le prochain [ENDLOO
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le format de jeton contient le décalage de l’instruction **ENDLOOP** ou **endswitch** correspondante dans le nuanceur pour des raisons pratiques.
 
@@ -55,7 +55,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
 
@@ -63,18 +63,18 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -83,9 +83,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 [Assembly modèle 4 du nuanceur (DirectX HLSL)](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

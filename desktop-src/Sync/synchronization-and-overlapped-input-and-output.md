@@ -4,12 +4,12 @@ ms.assetid: db44990e-5a0f-4153-8ff6-79dd7cda48af
 title: Synchronisation et entrée et sortie avec chevauchement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e263bb39badc7cbfadd67d80eb169dc1fe6d6c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13e462e4c2cffa3f1c9dee9bc33a7c75b910ce8139dbdfab9c190b4691c4b6bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975909"
 ---
 # <a name="synchronization-and-overlapped-input-and-output"></a>Synchronisation et entrée et sortie avec chevauchement
 
@@ -40,7 +40,7 @@ Pour obtenir des exemples qui illustrent l’utilisation d’opérations avec ch
 
 * * Windows Vista, Windows Server 2003 et Windows XP : * *
 
-Soyez vigilant lorsque vous réutilisez des structures avec [**chevauchement**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . Si les structures avec **chevauchement** sont réutilisées sur plusieurs threads et que [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) est appelé avec le paramètre *bWait* défini sur **true**, le thread appelant doit s’assurer que l’événement associé est signalé avant de réutiliser la structure. Pour ce faire, vous pouvez utiliser la fonction [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) après avoir appelé **GetOverlappedResult** pour forcer le thread à attendre la fin de l’opération. Notez que l’objet d’événement doit être un objet d’événement de réinitialisation manuelle. Si un objet d’événement de réinitialisation est utilisé, l’appel à **GetOverlappedResult** avec le paramètre *BWait* défini sur **true** entraîne le blocage indéfiniment de la fonction. Ce comportement a été modifié à partir de Windows 7 et de Windows Server 2008 R2 pour les applications qui spécifient Windows 7 comme système d’exploitation pris en charge dans le manifeste de l’application. Pour plus d’informations, consultez [manifestes d’application](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
+Soyez vigilant lorsque vous réutilisez des structures avec [**chevauchement**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . Si les structures avec **chevauchement** sont réutilisées sur plusieurs threads et que [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) est appelé avec le paramètre *bWait* défini sur **true**, le thread appelant doit s’assurer que l’événement associé est signalé avant de réutiliser la structure. Pour ce faire, vous pouvez utiliser la fonction [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) après avoir appelé **GetOverlappedResult** pour forcer le thread à attendre la fin de l’opération. Notez que l’objet d’événement doit être un objet d’événement de réinitialisation manuelle. Si un objet d’événement de réinitialisation est utilisé, l’appel à **GetOverlappedResult** avec le paramètre *BWait* défini sur **true** entraîne le blocage indéfiniment de la fonction. ce comportement a changé à partir de Windows 7 et Windows Server 2008 R2 pour les applications qui spécifient Windows 7 comme système d’exploitation pris en charge dans le manifeste de l’application. Pour plus d’informations, consultez [manifestes d’application](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

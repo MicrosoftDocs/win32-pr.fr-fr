@@ -4,12 +4,12 @@ description: Si votre application distribuée utilise un paramètre \ in, out, u
 ms.assetid: 65588b4d-6bf4-44f7-994c-29a5b185c6b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32042911695f377e0a628168e91387bfa25f0d79
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a64b3a560eb1daecf3cd10bc18c62057cd2d09c1321c272f4e8fe73a65305832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019827"
 ---
 # <a name="memory-orphaning"></a>Mémoire orpheline
 
@@ -19,6 +19,6 @@ La mémoire peut également être orpheline chaque fois que le serveur fait pass
 
 Une autre situation qui peut entraîner une fuite de mémoire implique des tableaux conformes, variables et ouverts contenant des pointeurs. Lorsque l’application serveur modifie le paramètre qui spécifie la taille du tableau ou la plage transmise afin qu’elle représente une valeur inférieure, les stubs utilisent la ou les plus petites valeurs pour libérer de la mémoire. Les éléments de tableau avec des index supérieurs au paramètre de taille sont orphelins. Votre application doit libérer des éléments en dehors de la plage transmise.
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 197eb7e402068f541dc5a385eca14a631de2488c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 719c8bba805ffb58b8c15661ba2618c29b9dedc1f65f36dba50791cde985a397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032049"
 ---
 # <a name="valuemapvaluetype-complex-type"></a>Type complexe ValueMapValueType
 
@@ -57,7 +57,7 @@ Définit le mappage entre une valeur entière et une valeur de chaîne.
 |---------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | Valeur de chaîne localisée à laquelle la valeur entière est mappée. La chaîne de message fait référence à une chaîne localisée dans la section [**STRINGTABLE**](eventmanifestschema-stringtable-resources-element.md) du manifeste. <br/>                                                                              |
 | symbole  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | Symbole à utiliser pour référencer la carte dans votre application. Le [**compilateur de message (MC.exe)**](message-compiler--mc-exe-.md) utilise le symbole pour créer une constante pour le mappage dans le fichier d’en-tête généré par le compilateur. Si vous ne spécifiez pas de symbole, le compilateur en génère un pour vous.<br/> |
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Valeur entière à mapper à la valeur de chaîne.<br/>                                                                                                                                                                                                                                                       |
+| valeur   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | Valeur entière à mapper à la valeur de chaîne.<br/>                                                                                                                                                                                                                                                       |
 
 
 
@@ -67,8 +67,8 @@ Définit le mappage entre une valeur entière et une valeur de chaîne.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

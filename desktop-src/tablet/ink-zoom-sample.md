@@ -4,12 +4,12 @@ ms.assetid: d3b5668a-29bf-4846-8ab0-1bda7b6160f9
 title: Exemple de zoom d’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f20253a3f56b2a03b5a6dad45ab9a8b72090b5ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d786fe502e1510a44df39049e845f05694a1befae0d4a21bcfa2ba2bd2b19b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939439"
 ---
 # <a name="ink-zoom-sample"></a>Exemple de zoom d’encre
 
@@ -30,7 +30,7 @@ Les fonctionnalités suivantes sont utilisées dans cet exemple :
 
 ## <a name="initializing-the-form"></a>Initialisation du formulaire
 
-Tout d’abord, l’exemple fait référence aux interfaces d’automatisation Tablet PC fournies dans le kit de développement logiciel (SDK) Windows Vista ou Windows XP Tablet PC Edition.
+tout d’abord, l’exemple fait référence aux interfaces d’automatisation tablet pc, qui sont fournies dans le kit de développement logiciel (SDK) Windows Vista ou Windows XP Tablet pc Edition.
 
 
 ```C++

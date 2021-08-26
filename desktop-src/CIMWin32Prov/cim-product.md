@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 16c8541a18185d721bbdcbf23acaeb67adf508c7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a51da26b1cc7fdc0a1122b2b2d70700637465e03a0a8b39933dc0aa480d051b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921199"
 ---
 # <a name="cim_product-class"></a>CIM ( \_ classe de produit)
 
@@ -176,7 +176,7 @@ Informations sur la version du produit.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes WMI dérivées du **\_ produit CIM**, consultez [classes Win32](win32-provider.md).
 

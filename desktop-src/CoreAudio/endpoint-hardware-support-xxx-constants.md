@@ -4,12 +4,12 @@ ms.assetid: 54032f75-2287-4589-bda5-e005ee077c41
 title: Constantes ENDPOINT_HARDWARE_SUPPORT_XXX (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ffb5b2255330b205519ce3065ccb5f7eebb6b65
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3c975a7bc00229943bb943035bf1fc84609414d83015ce4ae7d84d175b2e18a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053719"
 ---
 # <a name="endpoint_hardware_support_xxx-constants"></a>SUPPORT matériel de point de terminaison \_ \_ xxx, \_ constantes
 
@@ -25,7 +25,7 @@ Les \_ \_ \_ constantes support matériel de point de terminaison xxx sont des i
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les méthodes [**IAudioEndpointVolume :: QueryHardwareSupport**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-queryhardwaresupport) et [**IAudioMeterInformation :: QueryHardwareSupport**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudiometerinformation-queryhardwaresupport) utilisent les \_ constantes support matériel de point de terminaison \_ \_ xxx.
 
@@ -37,8 +37,8 @@ Un masque de support matériel indique les fonctions qu’un périphérique de p
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>MMDeviceAPI. h</dt> </dl> |
 
 

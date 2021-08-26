@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d6e6789a91f34d95933ae7869e1588eeb14b6006
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f639e5d68b11b6a7a65ccfe0d0c6465f822d591b0c4dfd0f4916072fde40856
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043769"
 ---
 # <a name="cbaserendererfindpin-method"></a>Méthode CBaseRenderer. FindPin
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                       | Description                           |
 |---------------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>              | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>              | Réussite.<br/>                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl>         | Argument de pointeur **null** .<br/> |
 | <dl> <dt>**VFW \_ E \_ \_ introuvable**</dt> </dl> | Introuvable.<br/>                 |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBaseFilter :: FindPin**](cbasefilter-findpin.md) . La seule broche du filtre (la broche d’entrée) est nommée « in ».
 
@@ -83,7 +83,7 @@ Cette méthode remplace la méthode [**CBaseFilter :: FindPin**](cbasefilter-fi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

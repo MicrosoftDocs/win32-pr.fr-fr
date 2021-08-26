@@ -4,18 +4,18 @@ ms.assetid: 7c20e211-7704-49c2-a0c5-aaa695a09764
 title: Table LockPermissions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c07402b80caec7beff68083567f2ff2fb9bf5eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6724f9559f8bf4b5c0aac4581dab6ad7496e2c0e8e023636e621214760c26c99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043139"
 ---
 # <a name="lockpermissions-table"></a>Table LockPermissions
 
 La table LockPermissions est utilisée pour sécuriser des parties individuelles d’une application dans un environnement verrouillé. Il peut être utilisé avec l’installation des fichiers, les clés de Registre et les dossiers créés.
 
-Un package destiné à être installé dans Windows Server 2008 R2 ou Windows 7 doit utiliser la [table MsiLockPermissionsEx](msilockpermissionsex-table.md) au lieu de la table LockPermissions. Windows Installer versions antérieures à Windows Installer 5,0 ignorent la table MsiLockPermissionsEx. Windows Installer 5,0 peut installer un package qui contient la table LockPermissions. À compter de Windows Installer 5,0, l’installation d’un package qui contient à la fois la table MsiLockPermissionsEx et la table LockPermissions échoue et retourne Windows Installer message d’erreur 1941.
+un package destiné à être installé dans Windows Server 2008 R2 ou Windows 7 doit utiliser la [table MsiLockPermissionsEx](msilockpermissionsex-table.md) au lieu de la table LockPermissions. Windows les versions du programme d’installation antérieures à Windows Installer 5,0 ignorent la Table MsiLockPermissionsEx. Windows Le programme d’installation 5,0 peut installer un package qui contient la table LockPermissions. à compter de Windows Installer 5,0, l’installation d’un package qui contient à la fois la table MsiLockPermissionsEx et la table LockPermissions échoue et retourne Windows Installer message d’erreur 1941.
 
 La table LockPermissions contient les colonnes suivantes.
 
@@ -25,7 +25,7 @@ La table LockPermissions contient les colonnes suivantes.
 |------------|------------------------------------|-----|----------|
 | LockObject | [Identificateur](identifier.md)       | O   | N        |
 | Table de charge de travail      | [Text](text.md)                   | O   | N        |
-| Domain     | [Correct](formatted.md)         | O   | O        |
+| Domaine     | [Correct](formatted.md)         | O   | O        |
 | Utilisateur       | [Correct](formatted.md)         | O   | N        |
 | Autorisation | [DoubleInteger](doubleinteger.md) | N   | O        |
 
@@ -92,7 +92,7 @@ La valeur null entrée dans cette colonne est réservée à une utilisation ult�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [InstallFiles](installfiles-action.md), [WriteRegistryValues](writeregistryvalues-action.md)et [CreateFolders](createfolders-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 
@@ -100,11 +100,11 @@ L’autorisation ne peut être définie que dans la table LockPermissions pour l
 
 Il est recommandé que le groupe local de l’administrateur système soit inclus dans toutes les listes de contrôle d’accès (ACL). Cela permet de s’assurer que l’administrateur système peut accéder aux objets et les gérer.
 
-Chaque fichier, clé de registre ou répertoire figurant dans la table LockPermissions reçoit un descripteur de sécurité explicite, qu’il remplace ou non un objet existant. Le Windows Installer tente de préserver la sécurité sur les objets qui existent déjà sur le système. Si un objet n’est pas listé dans la table LockPermissions et remplace un objet existant, le remplacement obtient les paramètres de sécurité de l’objet qu’il remplace.
+Chaque fichier, clé de registre ou répertoire figurant dans la table LockPermissions reçoit un descripteur de sécurité explicite, qu’il remplace ou non un objet existant. le Windows Installer tente de préserver la sécurité sur les objets qui existent déjà sur le système. Si un objet n’est pas listé dans la table LockPermissions et remplace un objet existant, le remplacement obtient les paramètres de sécurité de l’objet qu’il remplace.
 
 Si un objet n’est pas listé dans la table LockPermissions et qu’il ne remplace pas un objet existant, il ne reçoit pas de descripteur de sécurité explicite. L’accès au nouvel objet est basé sur les attributs de son objet parent ou conteneur. Si un objet n’est pas listé dans le tableau et remplace un objet sans descripteur de sécurité explicite, l’accès au nouvel objet est basé sur les attributs de son objet parent ou conteneur.
 
-L’Windows Installer définit la propriété [**UserSid**](usersid.md) sur l’identificateur de sécurité (SID) ou l’utilisateur qui exécute l’installation.
+l’Windows Installer définit la propriété [**UserSID**](usersid.md) sur l’identificateur de sécurité (SID) ou l’utilisateur qui exécute l’installation.
 
 ## <a name="validation"></a>Validation
 

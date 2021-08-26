@@ -4,12 +4,12 @@ ms.assetid: 8519685a-4f5b-44af-ad46-09eba7a198c6
 title: Propriété AVEncCommonMeanBitRate (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4eaec7fc6578e6e69a45616ee6de059bb7a378b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 05c1db672b09e257959a409182288cdfbfd271d0679335c9d9e14048c1e31781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983779"
 ---
 # <a name="avenccommonmeanbitrate-property"></a>Propriété AVEncCommonMeanBitRate
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 Les encodeurs peuvent implémenter cette propriété en tant que jeu énuméré ou en tant que plage linéaire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](/windows/desktop/medfound/camera-encoder-h264-uvc-1-5).
 
@@ -39,8 +39,8 @@ Cette propriété est également utilisée avec les [encodeurs de caméra H. 264
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 97a1342c-4edb-4671-b36d-b6992efad498
 title: Génération et dessin de courbes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f61c1aa12e3152ed65cca2da6911d2d53def81b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b78ebd7ce81099d5b7f483939c0f4b238d1f124357bf6e1863b25fedb7e22f4c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015219"
 ---
 # <a name="constructing-and-drawing-curves"></a>Génération et dessin de courbes
 
