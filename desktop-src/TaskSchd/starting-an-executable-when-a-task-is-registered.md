@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches des exemples de Planificateur de tâches, déclencheur d’inscription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8036b8bdff807ded582279e0ba7675bc2160811
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6a051c820a1099828ae0ee123e4241ec42d6edbb23ce9e98275057b5903dfbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033949"
 ---
 # <a name="starting-an-executable-when-a-task-is-registered"></a>Démarrage d’un exécutable quand une tâche est inscrite
 
@@ -24,11 +24,11 @@ Les déclencheurs d’inscription démarrent une tâche dès qu’elle est inscr
 > [!Note]  
 > Quand une tâche avec un déclencheur d’inscription est mise à jour, la tâche s’exécute une fois la mise à jour effectuée.
 
- 
+ 
 
 ## <a name="registration-trigger-examples"></a>Exemples de déclencheurs d’inscription
 
-Les exemples suivants démarrent le bloc-notes quand une tâche est inscrite :
+les exemples suivants démarrent Bloc-notes lorsqu’une tâche est inscrite :
 
 -   [Exemple de déclencheur d’inscription (script)](registration-trigger-example--scripting-.md)
 -   [Exemple de déclencheur d’inscription (C++)](registration-trigger-example--c---.md)
@@ -41,9 +41,9 @@ Les exemples suivants démarrent le bloc-notes quand une tâche est inscrite :
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6a1e6cf3-7a8c-4249-926d-675a54061adf
 title: Conception efficace des rôles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a340cb2fc643a414ebf784a14e7b61a45bccd3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 134b1caa68c06aef14a21963bb01ee4dfd12f43153ea917487598d76b0e36d5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991119"
 ---
 # <a name="designing-roles-effectively"></a>Conception efficace des rôles
 
@@ -17,13 +17,13 @@ Dans de nombreux scénarios, la sécurité basée sur les rôles est un mécanis
 
 ## <a name="user-and-data-characteristics-and-the-suitability-of-roles"></a>Caractéristiques des utilisateurs et des données et de l’adéquation des rôles
 
-Les rôles fonctionnent très bien pour caractériser des groupes d’utilisateurs et, sur cette base, filtrer les actions que ces utilisateurs peuvent effectuer. Souvent, cela est réalisé dans la pratique en créant des rôles qui reflètent l’emplacement d’un utilisateur au sein d’une organisation, par exemple, les « gestionnaires » et les « responsables », les « administrateurs » et les « lecteurs », Project One Employees et « Project Two Employees ». Dans ce cas, lorsque les données qui sont accessibles sont relativement génériques par rapport aux utilisateurs, les rôles peuvent être utilisés efficacement pour appliquer des règles d’entreprise telles que les suivantes :
+Les rôles fonctionnent très bien pour caractériser des groupes d’utilisateurs et, sur cette base, filtrer les actions que ces utilisateurs peuvent effectuer. souvent, cela est effectué en pratique en créant des rôles qui reflètent l’emplacement d’un utilisateur au sein d’une organisation, par exemple, les rôles « gestionnaires » et « responsables », « administrateurs » et « lecteurs », « Project un employé » et « Project deux employés ». Dans ce cas, lorsque les données qui sont accessibles sont relativement génériques par rapport aux utilisateurs, les rôles peuvent être utilisés efficacement pour appliquer des règles d’entreprise telles que les suivantes :
 
 -   «Les responsables peuvent transférer n’importe quel montant d’argent. Les raconteurs peuvent transférer uniquement jusqu’à $10 000.»
 
 -   «Les administrateurs peuvent modifier quoi que ce soit. Tout le monde peut uniquement lire.»
 
--   «Les employés d’un projet peuvent accéder à une certaine base de données. Personne d’autre ne peut le faire.»
+-   «Project un employé peut accéder à une certaine base de données. Personne d’autre ne peut le faire.»
 
 Les utilisateurs peuvent tomber naturellement dans plusieurs rôles, en fonction de la façon dont les rôles modélisent la structure organisationnelle d’une entreprise.
 

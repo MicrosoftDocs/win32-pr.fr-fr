@@ -1,5 +1,5 @@
 ---
-description: Définit le numéro de réseau ou les paires de trames IPX pour cette carte réseau.
+description: définit le numéro de réseau ou les paires de trames (IPX) de Exchange de paquets interréseau pour cette carte réseau.
 ms.assetid: 8190564f-7d9f-4b05-9949-2e732ce36dba
 ms.tgt_platform: multiple
 title: Méthode SetIPXFrameTypeNetworkPairs de la classe Win32_NetworkAdapterConfiguration
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - cimwin32.dll
-ms.openlocfilehash: e4d53ec7b5600a767505e517a02fbf87b5a43d13
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f914f996e26d64ae66c0be2acf1dee3988ccc2015109c6e7d3b340b406c0c23e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973023"
 ---
 # <a name="setipxframetypenetworkpairs-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetIPXFrameTypeNetworkPairs de la \_ classe Win32 NetworkAdapterConfiguration
 
-Définit le numéro de réseau ou les paires de trames IPX pour cette carte réseau.
+définit le numéro de réseau ou les paires de trames (IPX) de Exchange de paquets interréseau pour cette carte réseau.
 
 Windows 2000 et Windows NT 3,51 et versions ultérieures utilisent un numéro de réseau IPX à des fins de routage. Elle est affectée à chaque combinaison de type de trame/carte réseau configurée sur votre système informatique. Ce nombre est parfois appelé « numéro de réseau externe ». Elle doit être unique pour chaque segment de réseau. Si le type de trame est défini sur AUTO, le numéro de réseau doit être égal à zéro.
 
@@ -46,7 +46,7 @@ uint32 SetIPXFrameTypeNetworkPairs(
 *IPXNetworkNumber* \[ dans\]
 </dt> <dd>
 
-Tableau de caractères qui identifient de façon unique un adaptateur sur le système informatique. Le transport compatible IPX/SPX NetWare Link (NWLink) dans Windows 2000 et Windows NT 3,51 ou version ultérieure utilise deux types de numéros de réseau différents. Ce nombre est parfois appelé numéro de réseau externe. Elle doit être unique pour chaque segment de réseau. Les valeurs de cette liste de chaînes doivent avoir une valeur correspondante dans le paramètre IPXFrameType identifiant le type de trame de paquet utilisé pour ce réseau.
+Tableau de caractères qui identifient de façon unique un adaptateur sur le système informatique. le transport compatible IPX/SPX NetWare Link (NWLink) dans Windows 2000 et Windows NT 3,51 ou version ultérieure utilise deux types différents de numéros de réseau. Ce nombre est parfois appelé numéro de réseau externe. Elle doit être unique pour chaque segment de réseau. Les valeurs de cette liste de chaînes doivent avoir une valeur correspondante dans le paramètre IPXFrameType identifiant le type de trame de paquet utilisé pour ce réseau.
 
 </dd> <dt>
 

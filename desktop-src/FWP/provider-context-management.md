@@ -4,12 +4,12 @@ description: Gestion du contexte du fournisseur
 ms.assetid: A73A6171-C81B-48EF-A689-3219E0B6B7C3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc7970cdd6f3a69760a74ba4f0419ecb5022a339
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 565c393d64213c1ec3f16267e354e05a6f8d1f69509c55c95088851eb3f041fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900779"
 ---
 # <a name="provider-context-management"></a>Gestion du contexte du fournisseur
 
@@ -38,6 +38,6 @@ ms.locfileid: "103725869"
 -   [**FwpmProviderContextSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextsubscriptionsget0)
 -   [**FwpmProviderContextUnsubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextunsubscribechanges0)
 
- 
+ 
 
- 
+ 

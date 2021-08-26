@@ -3,19 +3,19 @@ title: Objet d’exclusion mutuelle
 description: Objet d’exclusion mutuelle
 ms.assetid: dd1f7865-e409-4bf9-9fa0-769a29eaed60
 keywords:
-- Windows Media Format SDK, objets d’exclusion mutuelle
+- Windows Kit de développement logiciel (SDK) Media format, objets d’exclusion mutuelle
 - ASF (Advanced Systems Format), objets d’exclusion mutuelle
 - ASF (format des systèmes avancés), objets d’exclusion mutuelle
 - objets, objets d’exclusion mutuelle
 - exclusion mutuelle, objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8522b66f82bd88479b8c7b1d0d0b45bd038fdab3
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 32d7e780ac18dcad7ef04f9bb50d3a7389851156866980b21fbe0c231bcb057d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104101332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929929"
 ---
 # <a name="mutual-exclusion-object"></a>Objet d’exclusion mutuelle
 
@@ -34,7 +34,7 @@ Pour créer un objet d’exclusion mutuelle, utilisez l’une des méthodes suiv
 
 
 
- 
+ 
 
 Les deux méthodes du tableau précédent définissent un pointeur vers une interface **IWMMutualExclusion** . L’interface **IWMStreamList** est héritée par **IWMMutualExclusion** et n’a jamais besoin d’être accessible directement. L’autre interface de l’objet d’exclusion mutuelle peut être obtenue en appelant la méthode **QueryInterface** .
 
@@ -50,7 +50,7 @@ Les interfaces suivantes sont prises en charge par chaque objet d’exclusion mu
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -65,9 +65,9 @@ Les interfaces suivantes sont prises en charge par chaque objet d’exclusion mu
 [**Gestionnaire de profils, objet**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

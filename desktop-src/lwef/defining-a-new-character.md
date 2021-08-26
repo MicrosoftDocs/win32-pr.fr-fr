@@ -4,18 +4,18 @@ description: Définition d’un nouveau caractère
 ms.assetid: 4102cb7d-2fec-45d2-882a-04704c7f5a48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2586312ac9d913a27d2df0be112cbcf92c47f4fa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a1f3d9aee78893ebc4796781947be92366baa10b9ad1e123a73121df24646ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963099"
 ---
 # <a name="defining-a-new-character"></a>Définition d’un nouveau caractère
 
 \[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
 
-Pour définir un nouveau caractère, exécutez l’éditeur de caractères de l’agent. Si vous avez un fichier de caractères existant chargé, choisissez la commande **nouveau** dans le menu **fichier** . Un sous-menu de choix s’affiche. Si vous créez un caractère pour votre propre usage, choisissez **caractère personnalisé**. Si vous souhaitez créer un caractère qui peut être utilisé comme caractère par défaut de l’agent, choisissez **caractère par** défaut. Cela permet de préconfigurer l’éditeur avec tous les noms d’animation et les assignations d’état d’animation requis, ainsi que de définir l’option **prend en charge l’ensemble d’animations standard** . De même, si vous choisissez le caractère Assistant Office, l’éditeur est préconfiguré avec les noms d’animation et l’affectation d’état d’animation requis pour un caractère Assistant Office. Cette action sélectionne l’icône de **caractère** dans l’arborescence et affiche ses pages de propriétés sur le côté droit de la fenêtre. Les sections suivantes décrivent comment définir les propriétés de votre caractère et comment créer des animations pour le caractère.
+Pour définir un nouveau caractère, exécutez l’éditeur de caractères de l’agent. Si vous avez un fichier de caractères existant chargé, choisissez la commande **nouveau** dans le menu **fichier** . Un sous-menu de choix s’affiche. Si vous créez un caractère pour votre propre usage, choisissez **caractère personnalisé**. Si vous souhaitez créer un caractère qui peut être utilisé comme caractère par défaut de l’agent, choisissez **caractère par** défaut. Cela permet de préconfigurer l’éditeur avec tous les noms d’animation et les assignations d’état d’animation requis, ainsi que de définir l’option **prend en charge l’ensemble d’animations standard** . de même, si vous choisissez Office caractère Assistant, l’éditeur est préconfiguré avec les noms d’animation et l’affectation d’état d’animation requis pour un caractère Office Assistant. Cette action sélectionne l’icône de **caractère** dans l’arborescence et affiche ses pages de propriétés sur le côté droit de la fenêtre. Les sections suivantes décrivent comment définir les propriétés de votre caractère et comment créer des animations pour le caractère.
 
 ### <a name="setting-your-characters-general-information"></a>Définition des informations générales de votre caractère
 
@@ -45,9 +45,9 @@ La page **bulle de mot** vous permet également de définir la police par défau
 
 Chaque caractère requiert un identificateur unique (GUID). Le serveur utilise l’identificateur pour différencier les caractères. Lorsque vous créez un caractère, l’éditeur crée automatiquement un nouvel identificateur pour votre caractère. Vous devez modifier l’identificateur d’un caractère uniquement si vous avez copié le fichier de définition de caractères d’un autre caractère ou si vous souhaitez défaire intentionnellement un caractère d’une version précédente. Pour modifier l’identificateur d’un caractère, cliquez sur le bouton nouveau GUID. l’éditeur génère alors un nouvel identificateur.
 
- 
+ 
 
- 
+ 
 
 
 

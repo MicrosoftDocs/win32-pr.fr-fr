@@ -4,12 +4,12 @@ description: L’une des méthodes permettant d’implémenter des logiciels dan
 ms.assetid: 46abbbec-caa1-4fee-a713-4a4a2b462051
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab45f8175e82bdd1f5d6e49f3d94578473ed5c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 098263f916129115f41840e15ac689fab7e4544621989d1a4d3179e50ef17d27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020528"
 ---
 # <a name="implementing-a-distributed-system"></a>Implémentation d’un système distribué
 
@@ -23,9 +23,9 @@ Une autre charge liée à l’implémentation d’un système distribué sécuri
 
 À l’aide de RPC, ces deux charges sont très faciles à résoudre. Un développeur doit simplement indiquer à RPC le package de sécurité à utiliser, ainsi que la protection de sécurité à appliquer à l’échange de messages (en termes d’authentification, de chiffrement, d’authentification mutuelle, de suivi de l’identité de l’appelant, etc.). RPC s’occupe de tous les détails en coulisses de manière efficace, tout en offrant au développeur un contrôle total sur la façon dont les données sont protégées.
 
- 
+ 
 
- 
+ 
 
 
 

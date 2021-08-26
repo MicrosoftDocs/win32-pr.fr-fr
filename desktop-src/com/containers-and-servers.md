@@ -4,12 +4,12 @@ description: Conteneurs et serveurs
 ms.assetid: 4918fa52-3598-4f4d-b2e7-7a47a37b216d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c51b2cd46057c9216a1f9e29b93e1381a4d3062a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 136d301d85bc317cd4e60d609e73b6b7232cfb5634a33bf32a2496fe8cd672d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993569"
 ---
 # <a name="containers-and-servers"></a>Conteneurs et serveurs
 
@@ -20,7 +20,7 @@ Les applications serveur OLE varient également selon qu’elles sont implément
 > [!Note]  
 > Les versions ultérieures d’OLE activent la liaison et l’incorporation à travers les limites de l’ordinateur, de sorte qu’une application de conteneur sur un ordinateur puisse utiliser un objet de document composé fourni par un *serveur distant* exécuté sur un autre ordinateur. Du point de vue d’une application de conteneur, toute application serveur OLE qui s’exécute dans son propre espace de processus, que ce soit sur le même ordinateur ou sur un ordinateur distant, est un *serveur hors processÂ*.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -32,9 +32,9 @@ Les applications serveur OLE varient également selon qu’elles sont implément
 [Serveurs in-process](in-process-servers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

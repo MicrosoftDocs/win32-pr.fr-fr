@@ -4,12 +4,12 @@ description: Pour les ressources qui ne sont pas en mosaïque, Direct3D peut emp
 ms.assetid: 4106BAB9-3E0C-48F1-B7E2-565A65DBC78F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c75dcd11cb5e49f165105bd932854e36b37308cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b30feeba564371055ee4297c6795396173a46272f43ffe43af353b17abc0193
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952899"
 ---
 # <a name="hazard-tracking-versus-tile-pool-resources"></a>Suivi des risques ou ressources d’un pool de vignettes
 
@@ -28,9 +28,9 @@ Une application doit informer le pilote d’affichage lorsqu’il a émis une op
 [Mappages dans un pool de vignettes](mappings-are-into-a-tile-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

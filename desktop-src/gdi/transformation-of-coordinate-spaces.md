@@ -4,12 +4,12 @@ ms.assetid: 1a232030-8561-4b57-b274-dca0a8b3e3a1
 title: Transformation des espaces de coordonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1bca3d7190c4566ea7548166134ff745cc5e2d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27ffaec6a6dab09b841f95f4704048a4145d2b2bd84c232658b2b659d26d37be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965159"
 ---
 # <a name="transformation-of-coordinate-spaces"></a>Transformation des espaces de coordonnées
 

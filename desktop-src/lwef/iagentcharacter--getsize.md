@@ -4,12 +4,12 @@ description: IAgentCharacter
 ms.assetid: bc2d6fe4-5945-4a35-b603-409c66f8aa2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e40c219cd0a1dc1d11738149ca7cfd9869fe682e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5af078eb9980399793e00f8bd3deaefef7f048a900423c1ee50ac8d4f4a310b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962229"
 ---
 # <a name="iagentcharactergetsize"></a>IAgentCharacter :: est à obtenir
 
@@ -49,9 +49,9 @@ Même si le caractère apparaît dans une fenêtre de zone de forme irrégulièr
 [**IAgentCharacter :: configure**](iagentcharacter--setsize.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

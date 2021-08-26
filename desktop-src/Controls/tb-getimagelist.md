@@ -3,7 +3,7 @@ title: Message TB_GETIMAGELIST (commctrl. h)
 description: Récupère la liste d’images utilisée par un contrôle de barre d’outils pour afficher les boutons dans leur état par défaut. Un contrôle ToolBar utilise cette liste d’images pour afficher les boutons lorsqu’ils ne sont pas à chaud ou désactivés.
 ms.assetid: 21edde99-019b-495c-a38b-4d686e124f8e
 keywords:
-- TB_GETIMAGELIST les contrôles de message Windows
+- TB_GETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07a56b8b847bd212e703d3b512b255cf1693abf7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dee13a7099a1781722b1d2cb6028fe2bc8e22bc712992283148e72a628269a98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918839"
 ---
 # <a name="tb_getimagelist-message"></a>TO \_ GETIMAGELIST message
 
@@ -53,8 +53,8 @@ Retourne le handle de la liste d’images, ou **null** si aucune liste d’image
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

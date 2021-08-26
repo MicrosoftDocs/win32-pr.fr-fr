@@ -4,12 +4,12 @@ ms.assetid: 18fe7f81-a039-44e4-9a98-1dd137e4e97a
 title: Éléments d’espace de noms du lecteur de journal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7215a037cd9cd2d062c177a36be2fc1bb5756f6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f98d5964702cb6cd1574359fa7c0310b0140241ee15974d797493a34fa3a4282
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883469"
 ---
 # <a name="journal-reader-namespace-elements"></a>Éléments d’espace de noms du lecteur de journal
 

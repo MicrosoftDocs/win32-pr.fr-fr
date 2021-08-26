@@ -4,12 +4,12 @@ ms.assetid: 0f9c5ea8-918f-4101-8492-3f408145a73e
 title: Stratégie de métadonnées de photo System. photo. EXIFVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eb823db41cb54a06fba235df5be4bb4acd55ea4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eee0fdac7ba8e86321d4a055cb6c37c4e9c7bad3f5bcfced548cc2485b3347c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882029"
 ---
 # <a name="systemphotoexifversion-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. EXIFVersion
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. EXIF
 
 \_Photo \_ EXIFVersion
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque   |
+| Commande | Chemin                          | Format de disque   |
 |-------|-------------------------------|---------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36864} | \_version EXIF |
 | 2     | /xmp/exif:ExifVersion         | unicode       |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque   |
+| Commande | Chemin                          | Format de disque   |
 |-------|-------------------------------|---------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36864} | \_version EXIF |
 | 2     | /xmp/exif:ExifVersion         | unicode       |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36864} |
 | 2     | /xmp/exif:ExifVersion         |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque   |
+| Commande | Chemin                      | Format de disque   |
 |-------|---------------------------|---------------|
 | 1     | /IFD/EXIF/{UShort = 36864}  | \_version EXIF |
 | 2     | /ifd/xmp/exif:ExifVersion | unicode       |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque   |
+| Commande | Chemin                      | Format de disque   |
 |-------|---------------------------|---------------|
 | 1     | /IFD/EXIF/{UShort = 36864}  | \_version EXIF |
 | 2     | /ifd/xmp/exif:ExifVersion | unicode       |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/EXIF/{UShort = 36864}  |
 | 2     | /ifd/xmp/exif:ExifVersion |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

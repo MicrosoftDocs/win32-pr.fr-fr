@@ -4,16 +4,16 @@ ms.assetid: 195ff5bd-bb60-4053-9308-ceacd29853c0
 title: Pktextract.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd163efabd01d65969788aefc2386b2f49079729
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e7f2cbb210262a05839ac3a7df71f3bedea603a5ea959249867efc2d5e420e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884952"
 ---
 # <a name="pktextractexe"></a>Pktextract.exe
 
-Pktextract.exe est un outil qui extrait l’attribut **PublicKeyToken** à partir d’un fichier de certificat. La sortie est **PublicKeyToken**, qui est un identificateur unique de 16 caractères (8 octets) de la clé publique présente dans le certificat, dans un format qui peut être facilement collé dans une instruction d’identité d’assembly. Le fichier de certificat doit être présent dans le même répertoire que Pktextract.exe pour pouvoir utiliser l’utilitaire. Pktextract.exe est fourni dans le kit de développement logiciel (SDK) Microsoft Windows.
+Pktextract.exe est un outil qui extrait l’attribut **PublicKeyToken** à partir d’un fichier de certificat. La sortie est **PublicKeyToken**, qui est un identificateur unique de 16 caractères (8 octets) de la clé publique présente dans le certificat, dans un format qui peut être facilement collé dans une instruction d’identité d’assembly. Le fichier de certificat doit être présent dans le même répertoire que Pktextract.exe pour pouvoir utiliser l’utilitaire. Pktextract.exe est fourni dans le kit de développement logiciel (SDK) de Microsoft Windows.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -27,8 +27,8 @@ Pktextract.exe utilise les options de ligne de commande suivantes qui ne respect
 
 | Option  | Description                                                          |
 |---------|----------------------------------------------------------------------|
-| -quiet  | Supprime l’affichage complet des informations de certificat. Optionnel.        |
-| -nologo | S’exécute sans afficher les données de copyright Microsoft standard. Optionnel. |
+| -quiet  | Supprime l’affichage complet des informations de certificat. Facultatif.        |
+| -nologo | S’exécute sans afficher les données de copyright Microsoft standard. Facultatif. |
 
 
 

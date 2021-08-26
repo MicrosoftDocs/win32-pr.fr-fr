@@ -4,12 +4,12 @@ description: IAgentCommands
 ms.assetid: a171a2f0-7c1c-440f-9b19-28447cc68b95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1fc57b7e2e5f628708f46ace98700605f1eb5d7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1a1bcc40f80e9a10301ec305fdc3e8f3e83984ceb0de5d36121e13c3d823b8a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961889"
 ---
 # <a name="iagentcommands"></a>IAgentCommands
 
@@ -56,7 +56,7 @@ Une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-
 
 
 
- 
+ 
 
 ¹ si le paramètre de la propriété est null. Dans certains langages de programmation, une chaîne vide ne peut pas être interprétée de la même façon qu’une chaîne NULL.
 
@@ -76,15 +76,15 @@ Une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-
 | [**GetVoice**](iagentcommands--getvoice.md)     | Retourne la valeur de la propriété [**Voice**](voice-property.md) d’une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .      |
 | [**SetVisible**](iagentcommands--setvisible.md) | Définit la valeur de la propriété [**visible**](visible-property.md) pour une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .    |
 | [**GetVisible**](iagentcommands--getvisible.md) | Retourne la valeur de la propriété [**visible**](visible-property.md) d’une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .  |
-| [**Complémentaires**](iagentcommands--add.md)               | Ajoute un objet [**Command**](/windows/desktop/lwef/the-command-object) à une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .                       |
+| [**Ajouter**](iagentcommands--add.md)               | Ajoute un objet [**Command**](/windows/desktop/lwef/the-command-object) à une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .                       |
 | [**Insérer**](iagentcommands--insert.md)         | Insère un objet de [**commande**](/windows/desktop/lwef/the-command-object) dans une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .                    |
 | [**Installez**](iagentcommands--remove.md)         | Supprime un objet de [**commande**](/windows/desktop/lwef/the-command-object) dans une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .                    |
 | [**RemoveAll**](iagentcommands--removeall.md)   | Supprime tous les objets de [**commande**](/windows/desktop/lwef/the-command-object) d’une collection de [**commandes**](/windows/desktop/lwef/the-commands-collection-object) .               |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

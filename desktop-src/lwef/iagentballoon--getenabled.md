@@ -4,12 +4,12 @@ description: IAgentBalloon GetEnabled
 ms.assetid: 1a5ea6c0-6150-459f-95eb-a9c7598c1d94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfd78245534b942e7972066ec90179172f7b556c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d144374f690d295b80d0092add56439eb4e5fc9d546ba1f970ab99976cf2d7f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888390"
 ---
 # <a name="iagentballoongetenabled"></a>IAgentBalloon :: GetEnabled
 
@@ -36,9 +36,9 @@ Adresse d’une variable qui reçoit la **valeur true** lorsque la bulle de text
 
 Le serveur Microsoft Agent affiche automatiquement le mot bulle pour la sortie parlée, sauf si elle est désactivée. La bulle de texte peut être désactivée pour un caractère de l’éditeur de caractères Microsoft agent ou (par l’utilisateur) pour tous les caractères de la feuille de propriétés de l’agent Microsoft. Si l’utilisateur désactive le mot-bulle, le client ne peut pas le restaurer.
 
- 
+ 
 
- 
+ 
 
 
 

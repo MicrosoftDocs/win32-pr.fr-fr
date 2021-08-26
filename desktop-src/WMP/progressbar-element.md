@@ -3,19 +3,19 @@ title: PROGRESSBAR, élément
 description: PROGRESSBAR, élément
 ms.assetid: 1fd0a523-dadd-4cd8-829e-ac22847c97d4
 keywords:
-- Apparences du lecteur Windows Media, élément PROGRESSBAR
+- skins Lecteur Windows Media, élément PROGRESSBAR
 - Skins, élément PROGRESSBAR
 - PROGRESSBAR, élément
 - informations de référence sur les habillages, élément PROGRESSBAR
 - éléments, PROGRESSBAR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b386d55acbfe2d767c8bca5e608648b92d98fb50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc3f983a1938a605220cd110b267b97e805a06ba2c16a9778bae77ba918f02da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901119"
 ---
 # <a name="progressbar-element"></a>PROGRESSBAR, élément
 
@@ -31,9 +31,9 @@ L’élément **PROGRESSBAR** offre un moyen d’afficher les informations de pr
 [**Slider (élément)**](slider-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

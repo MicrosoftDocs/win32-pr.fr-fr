@@ -4,28 +4,28 @@ description: À propos de l’extraction de CD
 ms.assetid: 1a179284-2909-4fc0-82be-996794ee4f31
 keywords:
 - Lecteur Windows Media, extraction de CD
-- Modèle d’objet du lecteur Windows Media, extraction de CD
+- modèle d’objet Lecteur Windows Media, extraction de CD
 - modèle d’objet, extraction de CD
-- Contrôle Windows Media Player ActiveX, extraction de CD
-- Contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile, extraction de CD
+- contrôle de ActiveX Lecteur Windows Media, extraction de CD
+- contrôle de ActiveX, extraction de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, extraction de CD
+- Lecteur Windows Media Mobile, extraction de CD
 - Extraction de CD, à propos de
 - extraction de CD, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e28769c6af666e510fb97ebc98e44fadc7c3e472
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 0efab14a97f9cc24c4137e5d939bc9562b1fc073cd551bd83388de4ba1de0b65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106511059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903599"
 ---
 # <a name="about-cd-ripping"></a>À propos de l’extraction de CD
 
-Le kit de développement logiciel (SDK) du lecteur Windows Media 11 introduit de nouvelles fonctionnalités pour copier les pistes audio des CD sur l’ordinateur de l’utilisateur. Ce processus est appelé *extraction*.
+le kit de développement logiciel (SDK) Lecteur Windows Media 11 introduit de nouvelles fonctionnalités pour copier les pistes audio des cd sur l’ordinateur de l’utilisateur. Ce processus est appelé *extraction*.
 
-Lorsque vous extrayez des pistes audio à l’aide des interfaces du kit de développement logiciel (SDK) du lecteur Windows Media, les pistes de musique qui en résultent sont créées à l’aide des paramètres définis par l’utilisateur dans la boîte de dialogue **options** du lecteur Windows Media.
+lorsque vous extrayez des pistes audio à l’aide des interfaces du kit de développement logiciel (SDK) Lecteur Windows Media, les pistes de musique qui en résultent sont créées à l’aide des paramètres définis par l’utilisateur dans la boîte de dialogue **Options** de Lecteur Windows Media.
 
 Pour énumérer les lecteurs de CD sur l’ordinateur de l’utilisateur, utilisez l’interface **IWMPCdromCollection** . Vous récupérez un pointeur vers cette interface en appelant [IWMPCore :: obtenir \_ cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection). En utilisant les méthodes **Count** et **Item** , vous pouvez effectuer une itération de la collection pour récupérer un pointeur d’interface **IWMPCDROM** pour chaque lecteur de CD sur l’ordinateur de l’utilisateur. L’interface **IWMPCdrom** représente un lecteur de CD individuel. Avant de commencer l’extraction d’un CD, vous devez d’abord appeler **QueryInterface** à l’aide d’un pointeur **IWMPCdrom** pour récupérer un pointeur vers l’interface **IWMPCdromRip** .
 
@@ -40,9 +40,9 @@ Pour recevoir des notifications d’erreur relatives à une opération d’extra
 [**À propos du modèle objet Player**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

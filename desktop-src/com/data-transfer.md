@@ -4,12 +4,12 @@ description: Transfert de données
 ms.assetid: 26b16438-f940-4086-869e-74021ed00b1e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37dee268b99f205e0093288f6980c8425220a45b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c98e7f546cab245e1f2d2d06036379ea5b28526edcf42aa8a364ea04688db034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993486"
 ---
 # <a name="data-transfer"></a>Transfert de données
 
@@ -30,9 +30,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Documents composés](compound-documents.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 41850615726ac15e890162c6e28df9b638c582a2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f42c82fb2eeedf6c1ec6c0f8099e6fbc1f6bac8d9e96bafbb6a94bacbf8f20e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951539"
 ---
 # <a name="id3dxfileenumobjectgetdataobjectbyname-method"></a>ID3DXFileEnumObject :: GetDataObjectByName, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : DXFILEERR \_ BADVALUE, DXFILEERR \_ NotFound.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obtenez le nom szName de l’objet de données de fichier actuel à l’aide de la méthode [**ID3DXFileData :: GetName**](id3dxfiledata--getname.md) .
 

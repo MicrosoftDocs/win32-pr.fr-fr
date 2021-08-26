@@ -18,12 +18,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8a14f50f01212129ed34cc7e45ee28facbdb991f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f25cd57e1f3cd6ebf015009af176b3bcc68c1d271836c5bb548b9358e9007086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899119"
 ---
 # <a name="msvm_tpmsettingdata-class"></a>MSVM \_ TPMSettingData, classe
 
@@ -161,9 +161,9 @@ Qualificateurs : [ **requis**](/windows/desktop/WmiSdk/standard-qualifiers)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
-| Fin de la prise en charge des clients<br/>    | Windows 10<br/>                                                                                   |
+| Fin de la prise en charge des clients<br/>    | Windows 10<br/>                                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

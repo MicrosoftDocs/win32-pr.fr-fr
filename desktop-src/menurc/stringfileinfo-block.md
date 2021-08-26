@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb0a1c5e7a2fd5e3d2f096c882ca928ce1febf92
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 468257d0b8b8b53f3168e8e11e2f649b8354d50a76d3c2a010b98d245472aad0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886762"
 ---
 # <a name="stringfileinfo-block-statement"></a>StringFileInfo bloc (instruction)
 
@@ -52,7 +52,7 @@ Chaîne de caractères qui spécifie la valeur du nom de chaîne correspondant. 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *lang-charset* spécifie l’un des codes de langue suivants.
 
@@ -86,7 +86,7 @@ Le paramètre *lang-charset* spécifie l’un des codes de langue suivants.
 
 
 
- 
+ 
 
 Le paramètre *lang-charset* spécifie également l’un des identificateurs de jeu de caractères suivants.
 
@@ -109,7 +109,7 @@ Le paramètre *lang-charset* spécifie également l’un des identificateurs de 
 
 
 
- 
+ 
 
 Le paramètre *String-name* spécifie l’un des noms prédéfinis suivants.
 
@@ -118,7 +118,7 @@ Le paramètre *String-name* spécifie l’un des noms prédéfinis suivants.
 | Nom                 | Description                                                                                                                                                                                                                                                                                                 |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Commentaires**         | Informations supplémentaires à afficher à des fins de diagnostic.                                                                                                                                                                                                                                    |
-| **Prennent**      | Société qui a produit le fichier, par exemple « Microsoft Corporation » ou « Standard Microsystems Corporation, Inc. » Cette chaîne est requise.                                                                                                                                                                   |
+| **CompanyName**      | Société qui a produit le fichier, par exemple « Microsoft Corporation » ou « Standard Microsystems Corporation, Inc. » Cette chaîne est requise.                                                                                                                                                                   |
 | **FileDescription**  | Description du fichier à présenter aux utilisateurs. Cette chaîne peut être affichée dans une zone de liste lorsque l’utilisateur choisit les fichiers à installer, par exemple « pilote de clavier pour AT-Style claviers ». Cette chaîne est requise.                                                                                            |
 | **FileVersion**      | Numéro de version du fichier, par exemple « 3,10 » ou « 5,00. RC2 ». Cette chaîne est requise.                                                                                                                                                                                                                      |
 | **InternalName**     | Nom interne du fichier, s’il en existe un, par exemple, un nom de module s’il s’agit d’une bibliothèque de liens dynamiques. Si le fichier n’a pas de nom interne, cette chaîne doit être le nom de fichier d’origine, sans extension. Cette chaîne est requise.                                                                       |
@@ -132,11 +132,11 @@ Le paramètre *String-name* spécifie l’un des noms prédéfinis suivants.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
