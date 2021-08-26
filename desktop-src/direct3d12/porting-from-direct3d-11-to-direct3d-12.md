@@ -5,12 +5,12 @@ ms.assetid: 9EB4AC6B-AFDD-4673-8EB3-54272C151784
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b5bc6784d6f96c3c1599a601a57bf68b0d612d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f8ccf4a0bd10032d94ecaf4a88cc442f3a7ad516
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548582"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812557"
 ---
 # <a name="porting-from-direct3d-11-to-direct3d-12"></a>Portage de Direct3D 11 vers Direct3D 12
 
@@ -32,18 +32,18 @@ Cette section fournit des conseils sur le portage d’un moteur graphique Direct
 
 ## <a name="device-creation"></a>Création de l’appareil
 
-Direct3D 11 et Direct3D 12 partagent un modèle de création d’appareil semblable. Les pilotes Direct3D 12 existants sont tous **D3D_FEATURE_LEVEL_11_0** ou plus, vous pouvez donc ignorer les anciens niveaux de fonctionnalités et les lmitations associés.
+Direct3D 11 et Direct3D 12 partagent un modèle de création d’appareil similaire. Les pilotes Direct3D 12 existants sont tous **D3D_FEATURE_LEVEL_11_0** ou plus, vous pouvez donc ignorer les anciens niveaux de fonctionnalités et les limitations associées.
 
 Gardez également à l’esprit qu’avec Direct3D 12, vous devez énumérer explicitement les informations de l’appareil à l’aide des interfaces DXGI. Dans Direct3D 11, vous pouviez *chaîner* à l’appareil dxgi à partir de l’appareil Direct3D, ce qui n’est pas pris en charge pour Direct3D 12.
 
-La création d’un périphérique logiciel WARP sur Direct3D 12 s’effectue en fournissant un adaptateur explicite obtenu à partir de **IDXGIFcatory4 :: EnumWarpAdapter**. Le périphérique WARP pour Direct3D 12 est disponible uniquement sur les systèmes sur lesquels la fonctionnalité facultative des **Outils Graphics** est activée.
+La création d’un périphérique logiciel WARP sur Direct3D 12 s’effectue en fournissant un adaptateur explicite obtenu à partir de **IDXGIFactory4 :: EnumWarpAdapter**. Le périphérique WARP pour Direct3D 12 est disponible uniquement sur les systèmes sur lesquels la fonctionnalité facultative des **Outils Graphics** est activée.
 
 > [!NOTE]
 > Il n’y a pas d’équivalent à **D3D11CreateDeviceAndSwapChain**. Même avec Direct3D 11, nous déconseillons l’utilisation de cette fonction, car il est souvent préférable de créer l’appareil et utilise permutation dans des étapes distinctes.
 
 ## <a name="committed-resources"></a>Ressources validées
 
-Les objets créés avec les interfaces suivantes dans Direct3D 11, traduisent en ce qui est appelé « ressources validées » dans Direct3D 12. Une ressource validée est une ressource qui a à la fois un espace d’adressage virtuel et des pages physiques associés. Il s’agit d’un concept du modèle de mémoire Microsoft Windows Device Driver 2 (WDD2) sur lequel Direct3D 12 est basé.
+Les objets créés avec les interfaces suivantes dans Direct3D 11, traduisent en ce qui est appelé « ressources validées » dans Direct3D 12. Une ressource validée est une ressource qui a à la fois un espace d’adressage virtuel et des pages physiques associés. il s’agit d’un concept du modèle de mémoire Microsoft Windows Device Driver 2 (WDD2), sur lequel Direct3D 12 est basé.
 
 Ressources Direct3D 11 :
 
@@ -127,7 +127,7 @@ La synchronisation de l’UC/GPU de Direct3D 11 était largement automatique et 
 
 dans Direct3D 12, l’application doit gérer les deux chronologies (UC et GPU) de manière explicite. Cela implique que les informations doivent être conservées, par l’application, sur les ressources requises par le GPU et sur la durée. Cela signifie également que l’application est chargée de s’assurer que le contenu des ressources (ressources validées, tas, allocateurs de commandes, par exemple) ne change pas tant que le GPU n’a pas fini de les utiliser.
 
-L’objet principal pour la synchronisation des chronologies est l’objet [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) . L’opération des délimitations est simple, car elle permet au GPU de signaler quand il a terminé une tâche. Le GPU et le processeur peuvent tous les deux signaler et peuvent attendre les limites.
+L’objet principal pour la synchronisation des chronologies est l’objet [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) . L’opération des délimitations est relativement simple, elle permet au GPU de signaler quand il a terminé une tâche. Le GPU et le processeur peuvent tous les deux signaler et peuvent attendre les limites.
 
 En général, l’approche est que lors de l’envoi d’une liste de commandes pour exécution, un signal de clôture est transmis par le GPU à la fin de l’opération (quand il a terminé la lecture des données), ce qui permet au processeur de réutiliser ou de détruire les ressources.
 
@@ -161,7 +161,7 @@ Le tableau suivant présente un exemple de signature racine.
 
 
 
- 
+ 
 
 ## <a name="resource-state"></a>État de la ressource
 
@@ -208,7 +208,7 @@ Le tableau suivant présente un certain nombre de fonctionnalités qui sont simi
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -217,7 +217,7 @@ Le tableau suivant présente un certain nombre de fonctionnalités qui sont simi
 [Didacticiels vidéo sur DirectX Advanced Learning : Guide de Portage DirectX 11 vers DirectX 12](https://www.youtube.com/watch?v=BV64mdOCgZo)
 </dt> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> <dt>
 
 [Utilisation de Direct3D 11, Direct3D 10 et Direct2D](direct3d-12-interop.md)

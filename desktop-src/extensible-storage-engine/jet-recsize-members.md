@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vist
 ms:contentKeyID: 39510137
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 224d22b5dea0447297163fb6b5e1a70fe62a6396
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a39bc4aee3b033b735d5c4ebe818d189c36b1908ba8364200c4cb94b15459cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063739"
 ---
 # <a name="jet_recsize-members"></a>Membres JET_RECSIZE
 
@@ -170,7 +170,7 @@ Haut
 <tbody>
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Opérateur public" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
-<td><a href="hh578675(v=exchg.10).md">Complément</a></td>
+<td><a href="hh578675(v=exchg.10).md">Addition</a></td>
 <td>Ajoutez les tailles dans deux structures de JET_RECSIZE.</td>
 </tr>
 <tr class="even">

@@ -4,12 +4,12 @@ description: Configuration des propriétés
 ms.assetid: 9d659887-a696-4344-9c71-a2cc6131d8b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f898467f92f669596b4a8b1a4e68581c343ea883
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 681d5707840634f86da41d3e67a1014e93b8450c668cae9ea6f3129a0fe021f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047452"
 ---
 # <a name="configuring-properties"></a>Configuration des propriétés
 
@@ -37,7 +37,7 @@ Le tableau suivant répertorie les propriétés qui peuvent être définies sur 
 
 
 
- 
+ 
 
 Les propriétés de la session serveur sont définies dans l’énumération des [ \_ \_ Propriétés du serveur http](/windows/desktop/api/Http/ne-http-http_server_property) . Le tableau suivant répertorie les structures de propriété qui sont définies pour chaque type de propriété et l’API du serveur HTTP par défaut lorsque ces propriétés ne sont pas définies par l’application.
 
@@ -57,7 +57,7 @@ Les propriétés de la session serveur sont définies dans l’énumération des
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les valeurs minimale et maximale pour les configurations de l’API du serveur HTTP.
 
@@ -70,11 +70,11 @@ Le tableau suivant répertorie les valeurs minimale et maximale pour les configu
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

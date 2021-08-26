@@ -4,12 +4,12 @@ ms.assetid: 85946D30-5E49-4E4B-AC25-394ABFF0DB11
 title: DXGI_DEBUG_ID (DXGIDebug. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc750d94fbdc51ba3399a6e3d4ff45b0adeb68b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3642f8ece96a7a63ed6137eef14069a33a418511321a4df10cdd95e122e13397
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068819"
 ---
 # <a name="dxgi_debug_id"></a>\_ID de débogage dxgi \_
 
@@ -27,7 +27,7 @@ Valeurs d’identificateur global unique (GUID) qui identifient les producteurs 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ces valeurs avec l’interface [**IDXGIInfoQueue**](/windows/desktop/api/DXGIDebug/nn-dxgidebug-idxgiinfoqueue) .
 
@@ -50,8 +50,8 @@ Pour utiliser l’une de ces valeurs GUID, incluez DXGIDebug. h dans votre code 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                            |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>DXGIDebug. h</dt> </dl> |
 
 

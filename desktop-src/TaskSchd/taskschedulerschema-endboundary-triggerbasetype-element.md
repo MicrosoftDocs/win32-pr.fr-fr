@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d687655498301595c1ab888fcc179ec0694f0aef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e26eb05b7b9fa15c0667fff7fd0d1eb85e61ed2daa90d6a238cbf9575f6c0e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010739"
 ---
 # <a name="endboundary-triggerbasetype-element"></a>Élément EndBoundary (triggerBaseType)
 
@@ -48,7 +48,7 @@ L’élément **EndBoundary** est défini par le type complexe [**triggerBaseTyp
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, la limite de fin est spécifiée à l’aide de la propriété [**Trigger. EndBoundary**](trigger-endboundary.md) qui est héritée par tous les objets déclencheurs.
 
@@ -78,8 +78,8 @@ Le code XML suivant définit un élément de déclencheur de démarrage qui déf
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

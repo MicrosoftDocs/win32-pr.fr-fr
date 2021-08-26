@@ -4,12 +4,12 @@ description: COM fait une distinction fondamentale entre les définitions d’in
 ms.assetid: f50b3e8f-bf87-4525-b47b-96e75b3a05b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db8df92ac8b851925d82a4b03505fa4c5ab3dc39
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: bee00521b847acbd063f1cd7ad84a0eb231f78d7bd274b7a4658996dbdd61150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "104030909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992699"
 ---
 # <a name="interfaces-and-interface-implementations"></a>Interfaces et implémentations d’interface
 
@@ -32,9 +32,9 @@ Les interfaces définissent un contrat entre un objet et ses clients. Le contrat
 [Objets et interfaces COM](com-objects-and-interfaces.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

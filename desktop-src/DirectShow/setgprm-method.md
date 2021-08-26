@@ -4,17 +4,17 @@ ms.assetid: ded28f2a-5e40-4f76-9ed4-de10296529e1
 title: Méthode SetGPRM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e7492c599cde4c074c1a806f897edf3a8fe0a4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1c217f0235ca5b055e20102f553e9e23f5b93e6dd9c3d74db560584690a669ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078859"
 ---
 # <a name="setgprm-method"></a>Méthode SetGPRM
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -42,7 +42,7 @@ Spécifie la nouvelle valeur du Registre sous la forme d’un entier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les registres de paramètres généraux, ou GPRMs, sont des registres 16 bits que chaque disque peut utiliser de manière unique pour le stockage de données temporaire. Une application de lecteur n’a pas besoin d’accéder à ces registres pour un contrôle de lecture ou de navigation standard à l’aide de l’objet **mswebdvd** . Cette méthode est fournie pour les applications de lecteur qui implémentent des fonctionnalités avancées. N’essayez pas de modifier le GPRMs directement à moins d’avoir une connaissance approfondie de la spécification DVD et de la façon dont les GPRMs sont utilisés sur le disque en question pour être lu. La modification de ces valeurs peut entraîner un comportement imprévisible.
 

@@ -4,12 +4,12 @@ description: Pour commencer à recevoir des données à partir d’un serveur, u
 ms.assetid: 5d791f4f-1d95-4bc0-b68f-db4fccc75ff8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3eb1362736207f9cc79d82ab6c981431d0bfe7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 234d93b2933499ca86ab49732d46cf2abe3c37247ed7bfa5e653e5aa0119b1e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020489"
 ---
 # <a name="implementing-output-pipes-on-the-server"></a>Implémentation de canaux de sortie sur le serveur
 
@@ -17,7 +17,7 @@ Pour commencer à recevoir des données à partir d’un serveur, un client appe
 
 La routine de serveur distant doit remplir la mémoire tampon du canal de sortie avec des données avant d’appeler la procédure push. Chaque fois que le programme serveur appelle la procédure push dans son stub, la procédure Push marshale les données et les transmet au client. La boucle se poursuit jusqu’à ce que le serveur envoie une mémoire tampon de longueur nulle.
 
-L’exemple suivant provient du programme Pipedemo contenu dans les exemples fournis avec le SDK Windows. Il illustre une procédure de serveur distant qui utilise un canal pour transmettre les données du serveur au client.
+l’exemple suivant provient du programme Pipedemo contenu dans les exemples fournis avec le SDK Windows. Il illustre une procédure de serveur distant qui utilise un canal pour transmettre les données du serveur au client.
 
 
 ```C++
@@ -66,6 +66,6 @@ void OutPipe(LONG_PIPE *outputPipe )
 [**/OI**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

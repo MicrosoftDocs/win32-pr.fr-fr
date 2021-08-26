@@ -3,7 +3,7 @@ title: Message EM_SETPARAFORMAT (RichEdit. h)
 description: Définit la mise en forme de paragraphe pour la sélection actuelle dans un contrôle RichEdit.
 ms.assetid: 2d612e1b-1489-4055-929b-e0b2719f6ec2
 keywords:
-- EM_SETPARAFORMAT les contrôles de message Windows
+- EM_SETPARAFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8780ed79650a90a8d85ee8025dbe97e9af36aa1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1db0ba4e4bf505c5fb1b746b84cae71dcc621635a0a33b4a533ce8551486fe6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062909"
 ---
 # <a name="em_setparaformat-message"></a>\_Message SETPARAFORMAT em
 
@@ -57,8 +57,8 @@ Si l’opération échoue, la valeur de retour est zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

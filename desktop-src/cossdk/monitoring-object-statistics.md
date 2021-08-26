@@ -4,12 +4,12 @@ ms.assetid: 57987cc1-8bb5-4bbd-a425-fda2e5a8b597
 title: Analyse des statistiques des objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f438bc7081546083f1930fe31f16a2198b09b48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e58946953ef1688dcb44223522cc58ccd1195f07ec0173a0b75413fe441195f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070459"
 ---
 # <a name="monitoring-object-statistics"></a>Analyse des statistiques des objets
 
@@ -37,7 +37,7 @@ Vous pouvez surveiller l’état de tous les objets qui sont configurés pour pr
     |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | **ProgID**<br/>         | Identifie un composant spécifique.<br/>                                                                                                                                                                                |
     | **Objets**<br/>        | Affiche le nombre d’objets actuellement détenus par les références du client.<br/>                                                                                                                                       |
-    | **Activat**<br/>      | Affiche le nombre d’objets actuellement activés. <br/>                                                                                                                                                      |
+    | **Activé**<br/>      | Affiche le nombre d’objets actuellement activés. <br/>                                                                                                                                                      |
     | **Mis en pool**<br/>         | Affiche le nombre total d’objets créés par le pool, y compris les objets en cours d’utilisation et les objets qui sont désactivés.<br/>                                                                                      |
     | **Dans l’appel**<br/>        | Identifie des objets dans l’appel.<br/>                                                                                                                                                                                     |
     | **Durée de l’appel (MS)**<br/> | Affiche la durée moyenne de l’appel (en millisecondes) des appels de méthode effectués au cours des 20 dernières secondes (jusqu’à 20 appels). L’heure de l’appel est mesurée au niveau de l’objet et n’inclut pas le temps utilisé pour traverser le réseau.<br/> |

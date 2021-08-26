@@ -4,23 +4,23 @@ ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: Codes d’erreur système (12000-15999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 8cac8adf6d8a4cf8f60fe978eb6f99f5efc1b9fe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aa250eb26db3a2dfefda4c8b31bb2bbfd5e5d6415ea50d7279121fb09302c7ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058989"
 ---
 # <a name="system-error-codes-12000-15999"></a>Codes d’erreur système (12000-15999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) (erreurs 12000 à 15999). Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
 <dl> <dt>
 
-<span id="ERROR_INTERNET__"></span><span id="error_internet__"></span>**Erreur \_ \_Internet \** _
+<span id="ERROR_INTERNET__"></span><span id="error_internet__"></span>**ERREUR \_ Internet\_\***
 </dt> <dd> <dl> <dt>
 
 12000-12175 (0x2EE0)
@@ -33,7 +33,7 @@ Consultez [codes d’erreur Internet](../wininet/wininet-errors.md) et wininet. 
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_IPSEC_QM_POLICY_EXISTS"></span><span id="error_ipsec_qm_policy_exists"></span>_ *erreur la \_ stratégie de QM IPSec est \_ \_ \_ inexistante**
+<span id="ERROR_IPSEC_QM_POLICY_EXISTS"></span><span id="error_ipsec_qm_policy_exists"></span>**ERREUR l’existence d’une \_ \_ stratégie de QM IPSec \_ \_**
 </dt> <dd> <dl> <dt>
 
 13000 (0x32C8)
@@ -1406,7 +1406,7 @@ Supprimé par le biais de l’appel RPC.
 
 
 
-La valeur de durée de vie reçue dans la notification de durée de vie du répondeur est inférieure à la valeur minimale configurée pour Windows 2000. Corrigez la stratégie sur l’ordinateur homologue.
+la valeur de durée de vie reçue dans la notification de durée de vie du répondeur est inférieure à la valeur minimale configurée Windows 2000. Corrigez la stratégie sur l’ordinateur homologue.
 
 
 </dt> </dl> </dd> <dt>
@@ -3621,7 +3621,7 @@ Le résultat de la requête est actuellement à une position non valide.
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**ERREUR \_ evt \_ non- \_ validation de \_ MSXML**
+<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**ERREUR \_ evt \_ non \_ validant \_ MSXML**
 </dt> <dd> <dl> <dt>
 
 15013 (0x3AA5)
@@ -3629,7 +3629,7 @@ Le résultat de la requête est actuellement à une position non valide.
 
 
 
-Le MSXML inscrit ne prend pas en charge la validation.
+la MSXML inscrite ne prend pas en charge la validation.
 
 
 </dt> </dl> </dd> <dt>
@@ -3772,7 +3772,7 @@ Propriété de canal %1 ! s ! contient une valeur non valide. Le type de la va
 
 
 
-Propriété du serveur de publication %1 ! s ! contient une valeur non valide. Le type de la valeur n’est pas valide, est en dehors de la plage valide, ne peut pas être mis à jour ou n’est pas pris en charge par ce type de serveur de publication.
+Publisher la propriété %1 ! s ! contient une valeur non valide. Le type de la valeur n’est pas valide, est en dehors de la plage valide, ne peut pas être mis à jour ou n’est pas pris en charge par ce type de serveur de publication.
 
 
 </dt> </dl> </dd> <dt>
@@ -4968,7 +4968,7 @@ Le référentiel du package est endommagé.
 
 
 
-Pour installer cette application, vous avez besoin d’une licence de développeur Windows ou d’un système compatible chargement.
+pour installer cette application, vous avez besoin d’une licence de développeur Windows ou d’un système compatible chargement.
 
 
 </dt> </dl> </dd> <dt>
@@ -5111,7 +5111,7 @@ Impossible de reprendre l’opération, car les données nécessaires à la réc
 
 
 
-Le package n’a pas pu être installé car le service pare-feu Windows n’est pas en cours d’exécution. Activez le service pare-feu Windows, puis réessayez.
+le package n’a pas pu être installé car le service de pare-feu Windows n’est pas en cours d’exécution. activez le service de pare-feu Windows, puis réessayez.
 
 
 </dt> </dl> </dd> <dt>
@@ -5434,8 +5434,8 @@ Cette API ne peut pas être utilisée dans le contexte du type d’application d
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

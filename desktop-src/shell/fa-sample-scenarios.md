@@ -4,19 +4,19 @@ ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: Exemple d’association de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23b92922bb907c4dd90b3e2bdc3d16c8e8b52e6a
-ms.sourcegitcommit: b0d03febac36ff77cba034615b94ea103311398d
+ms.openlocfilehash: 3ad24c3e65ca5b297412c4a69702987cd86b5187dab63dd81435d50e7d06721d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "107715787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009529"
 ---
 # <a name="file-association-example"></a>Exemple d’association de fichiers
 
 Dans l’exemple suivant, une société de développement de logiciels hypothétique, appelée Litware, Inc., crée un nouveau lecteur audio appelé LitwarePlayer. Litware souhaite concevoir une association de fichiers entre LitwarePlayer et son type de fichier primaire, qui utilise un format audio nouvellement développé qui permet à un CD audio entier d’être stocké en moins de 10 kilo-octets de mémoire sans perte de qualité.
 
 > [!IMPORTANT]
-> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> Cette rubrique ne s’applique pas à Windows 10. La façon dont les associations de fichiers par défaut fonctionnent dans Windows 10. pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
@@ -66,7 +66,7 @@ La société doit effectuer les étapes suivantes.
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
 -   [Présentation des associations de fichiers](fa-intro.md)
--   [Inscription d’un navigateur Internet ou d’un client de messagerie à l’aide du menu Démarrer de Windows](start-menu-reg.md)
+-   [comment inscrire un navigateur Internet ou un Client de messagerie à l’aide du Menu démarrer Windows](start-menu-reg.md)
 -   [Inscription d’une application dans un schéma d’URI](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767914(v=vs.85))
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -76,7 +76,7 @@ La société doit effectuer les étapes suivantes.
 [Meilleures pratiques pour les associations de fichiers](fa-best-practices.md)
 </dt> <dt>
 
-[Instructions pour la gestion des applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
+[instructions pour la gestion des Applications par défaut dans Windows Vista et versions ultérieures](vista-managing-defaults.md)
 </dt> <dt>
 
 [Programmes par défaut](default-programs.md)

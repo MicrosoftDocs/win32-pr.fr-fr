@@ -4,12 +4,12 @@ ms.assetid: 1d9072dc-4f9b-4111-a747-5eb33ad3ae5b
 title: Capture d’un flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 371d4b92b97a26e81074edee68216255d576e614
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6dda6fd8527acbfff4072a2b79854eca4c32541f57d462b6073f9f6f39854ddb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059029"
 ---
 # <a name="capturing-a-stream"></a>Capture d’un flux
 
@@ -180,7 +180,7 @@ La fonction CopyData copie un nombre spécifié de trames audio à partir d’un
 
 Tant que l’objet MyAudioSink nécessite des données supplémentaires, la fonction CopyData génère la valeur **false** à l’aide de son troisième paramètre, qui, dans l’exemple de code précédent, est un pointeur vers la variable `bDone` . Lorsque l’objet MyAudioSink contient toutes les données requises, la fonction CopyData affecte la `bDone` **valeur true**, ce qui amène le programme à quitter la boucle dans la fonction RecordAudioStream.
 
-La fonction RecordAudioStream alloue une mémoire tampon partagée qui a une durée d’une seconde. (La mémoire tampon allouée peut avoir une durée légèrement plus longue.) Dans la boucle principale, l’appel à la fonction [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep) de Windows entraîne l’attente d’une demi-seconde par le programme. Au début de chaque appel de mise en **veille** , la mémoire tampon partagée est vide ou presque vide. Au moment du retour de l’appel de **veille** , la mémoire tampon partagée est à moitié remplie avec les données de capture.
+La fonction RecordAudioStream alloue une mémoire tampon partagée qui a une durée d’une seconde. (La mémoire tampon allouée peut avoir une durée légèrement plus longue.) dans la boucle principale, l’appel à la fonction [**Sleep**](/windows/desktop/api/synchapi/nf-synchapi-sleep) Windows entraîne l’attente d’une demi-seconde par le programme. Au début de chaque appel de mise en **veille** , la mémoire tampon partagée est vide ou presque vide. Au moment du retour de l’appel de **veille** , la mémoire tampon partagée est à moitié remplie avec les données de capture.
 
 À la suite de l’appel à la méthode [**IAudioClient :: Initialize**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-initialize) , le flux reste ouvert jusqu’à ce que le client libère toutes ses références à l’interface [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) et à toutes les références aux interfaces de service obtenues par le client par le biais de la méthode [**IAudioClient :: GetService**](/windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-getservice) . L’appel de [**version**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) finale ferme le flux.
 

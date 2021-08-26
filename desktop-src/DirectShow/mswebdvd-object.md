@@ -4,26 +4,26 @@ ms.assetid: 74187af4-a86d-4dec-a1f4-203fda0c6309
 title: Objet MSWebDVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea98f79c3f0f4b97534ef812e70e5a7417759e25
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b3a5f485dc56938f7a0d36d9eedec92b3cb5dd47ca216fdc68cac085634e5906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050929"
 ---
 # <a name="mswebdvd-object"></a>Objet MSWebDVD
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
 > [!Note]  
-> Cette API est déconseillée. Pour plus d’informations sur la lecture et la navigation sur DVD dans DirectShow, consultez [applications DVD](dvd-applications.md).
+> Cette API est déconseillée. pour plus d’informations sur la lecture et la navigation des dvd dans DirectShow, consultez [Applications dvd](dvd-applications.md).
 
  
 
-Les méthodes, propriétés et événements de l’objet MSWebDVD permettent à une application de contrôler tous les aspects de la DVD-Video de la navigation et de la lecture, et de récupérer des informations à partir du disque. L’objet MSWebDVD n’effectue pas le travail de navigation proprement dit. au lieu de cela, il transmet les commandes au filtre de [navigateur DVD](dvd-navigator-filter.md) , un composant de® Microsoft® DirectShow qui lit les disques DVD-Video.
+Les méthodes, propriétés et événements de l’objet MSWebDVD permettent à une application de contrôler tous les aspects de la DVD-Video de la navigation et de la lecture, et de récupérer des informations à partir du disque. L’objet MSWebDVD n’effectue pas le travail de navigation proprement dit. au lieu de cela, il transmet les commandes au filtre de [navigateur DVD](dvd-navigator-filter.md) , un composant Microsoft® DirectShow® qui lit les disques DVD-Video.
 
 Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigateur DVD ou sur les informations sur un disque, ou les deux. Pour stocker et récupérer divers types d’informations spécifiques à l’application dans le registre, telles que les préférences de l’utilisateur pour les niveaux de contrôle parental et la langue par défaut, utilisez les méthodes de l’objet [MSDVDAdm](msdvdadm-object.md) . Utilisez la propriété [**DVDAdm**](dvdadm-property.md) pour accéder à cet objet.
 
@@ -55,7 +55,7 @@ Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigate
 | [**PlayPrevChapter**](playprevchapter-method.md)                                 | Démarre la lecture à partir du chapitre précédent dans le titre actuel.                                                                                                                             |
 | [**PlayTitle**](playtitle-method.md)                                             | Démarre la lecture au début du titre spécifié.                                                                                                                                    |
 | [**ReplayChapter**](replaychapter-method.md)                                     | Démarre la lecture au début du chapitre actuel.                                                                                                                                    |
-| [**Sort**](resume-method.md)                                                   | Reprend la lecture après l’affichage d’un menu.                                                                                                                                           |
+| [**Reprendre**](resume-method.md)                                                   | Reprend la lecture après l’affichage d’un menu.                                                                                                                                           |
 | [**StillOff**](stilloff-method.md)                                               | Reprend la lecture, en annulant le mode continu.                                                                                                                                                     |
 | [**Étape**](step-method.md)                                                       | Avance le DVD-Video flux du nombre spécifié de frames.                                                                                                                            |
 | [**Erreur**](stop-method.md)                                                       | Arrête la lecture.                                                                                                                                                                             |
@@ -83,7 +83,7 @@ Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigate
 | [**DefaultAudioLanguageExt**](defaultaudiolanguageext-property.md)               | Récupère l’extension de langage audio par défaut à partir du disque.                                                                                                                               |
 | [**GetAudioLanguage**](getaudiolanguage-method.md)                               | Récupère une chaîne indiquant la langue disponible dans le flux audio spécifié.                                                                                                    |
 | [**IsAudioStreamEnabled**](isaudiostreamenabled-method.md)                       | Récupère une valeur indiquant si le flux audio spécifié est activé dans le titre actuel.                                                                                            |
-| [**Désactiver le son**](mute-property.md)                                                     | Active ou désactive la sortie du flux audio.                                                                                                                                                    |
+| [**Muette**](mute-property.md)                                                     | Active ou désactive la sortie du flux audio.                                                                                                                                                    |
 | [**SelectDefaultAudioLanguage**](selectdefaultaudiolanguage-method.md)           | Définit la langue audio par défaut actuelle dans le navigateur DVD.                                                                                                                               |
 | [**Volume**](volume-property.md)                                                 | Définit ou récupère le niveau du volume audio.                                                                                                                                                   |
 | Flux de sous-image                                                                 |                                                                                                                                                                                             |
@@ -179,7 +179,7 @@ Les méthodes et propriétés MSWebDVD agissent sur l’état actuel du navigate
 
 <dl> <dt>
 
-[Contrôle ActiveX MSWebDVD](mswebdvd-activex-control.md)
+[contrôle de ActiveX MSWebDVD](mswebdvd-activex-control.md)
 </dt> </dl>
 
  

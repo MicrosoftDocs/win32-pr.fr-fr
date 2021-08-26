@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1203b6aeedd39eb82d7188c4e5d5503b01d167fe
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f15df65f6e427e467c14654a0e2745b84d774a5226b9a526193fc546261c5a0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104211978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052149"
 ---
 # <a name="cbasewindowsetpalette-method-winutilh---no-parameters"></a>Méthode CBaseWindow. SetPalette (Winutil. h)-aucun paramètre
 
@@ -49,13 +49,13 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                                                    |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Un appel interne à **GdiFlush** a retourné une erreur.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                                            |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                                            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La palette indiquée par la variable membre [**CBaseWindow :: m \_ HPALETTE**](cbasewindow-m-hpalette.md) est sélectionnée. L’appelant doit garantir la validité de **m \_ HPALETTE**.
 
@@ -67,7 +67,7 @@ Tout thread peut appeler cette méthode en toute sécurité, pas seulement le th
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | Winutil. h (include streams. h) |
+| En-tête | Winutil. h (inclure Flux. h) |
 | Bibliothèque| Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

@@ -3,7 +3,7 @@ title: Message UDM_GETPOS (commctrl. h)
 description: Récupère la position actuelle d’un contrôle up-up avec une précision de 16 bits.
 ms.assetid: 5f395de0-11b3-44f8-9bf4-42e27ce88a0c
 keywords:
-- UDM_GETPOS les contrôles de message Windows
+- UDM_GETPOS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e78ad19289d85b93ebcb39a244a896ddb4f33f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e92ca5fe5d902980560b6879ac7c345230056987308a1e390b0af351281eac62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059779"
 ---
 # <a name="udm_getpos-message"></a>\_Message GETPOS UDM
 
@@ -39,7 +39,7 @@ Récupère la position actuelle d’un contrôle up-up avec une précision de 16
 
 En cas de réussite, [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) a la valeur zéro et [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est défini à la position actuelle du contrôle. Si une erreur se produit, **HIWORD** est défini sur une valeur différente de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors du traitement de ce message, le contrôle up-up met à jour sa position actuelle en fonction de la légende de la fenêtre associée. Le contrôle up-up retourne une erreur s’il n’existe aucune fenêtre associée ou si la légende spécifie une valeur non valide ou hors limites. En outre, un indicateur d’erreur est défini dans le HIWORD du retour si le contrôle est créé sans le style [**uds \_ SETBUDDYINT**](up-down-control-styles.md) , même s’il retourne une valeur position valide dans le LOWORD du retour.
 
@@ -51,8 +51,8 @@ Si les valeurs 32 bits ont été activées pour un contrôle up-UpDown avec [**U
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

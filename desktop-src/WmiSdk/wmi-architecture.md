@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b90ee4f81c2afdfc222dd7d5d824f88bda122b73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e261459785fa4e0ccdce7337df788de007c6f335799bbe4778e80f551f5e519e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995522"
 ---
 # <a name="wmi-architecture"></a>Architecture WMI
 
-WMI fournit une interface uniforme pour les applications ou les scripts locaux ou distants qui obtiennent des données de gestion à partir d’un système informatique, d’un réseau ou d’une entreprise. L’interface uniforme est conçue de telle sorte que les applications et les scripts du client WMI n’ont pas besoin d’appeler une grande variété d’interfaces de programmation d’applications (API) du système d’exploitation. De nombreuses API ne peuvent pas être appelées par des clients Automation, comme des scripts ou des applications Visual Basic. Les autres API n’effectuent pas d’appels aux ordinateurs distants.
+WMI fournit une interface uniforme pour les applications ou les scripts locaux ou distants qui obtiennent des données de gestion à partir d’un système informatique, d’un réseau ou d’une entreprise. L’interface uniforme est conçue de telle sorte que les applications et les scripts du client WMI n’ont pas besoin d’appeler une grande variété d’interfaces de programmation d’applications (API) du système d’exploitation. de nombreuses api ne peuvent pas être appelées par des clients automation, comme des scripts ou des applications Visual Basic. Les autres API n’effectuent pas d’appels aux ordinateurs distants.
 
 Pour obtenir des données à partir de WMI, écrivez un script client ou une application qui accède aux [classes WMI](wmi-classes.md) ou fournissent des données à WMI en écrivant un [*fournisseur WMI*](gloss-p.md). Pour plus d’informations, consultez [utilisation de WMI](using-wmi.md).
 
@@ -45,7 +45,7 @@ La liste suivante décrit les principaux composants WMI :
 
 -   [Infrastructure WMI](wmi-infrastructure.md)
 
-    L’infrastructure WMI est un composant du système d’exploitation Microsoft Windows qui est connu comme le service WMI (WinMgmt). L’infrastructure WMI a deux composants : le noyau WMI et l' [*espace de stockage WMI*](gloss-w.md).
+    l’infrastructure wmi est un composant du système d’exploitation Microsoft Windows connu en tant que service WMI (winmgmt). L’infrastructure WMI a deux composants : le noyau WMI et l' [*espace de stockage WMI*](gloss-w.md).
 
     Le référentiel WMI est organisé par des espaces de [*noms*](gloss-n.md)WMI. Le service WMI crée des espaces de noms tels que la racine \\ par défaut, le \\ cimv2 racine et l' \\ abonnement racine au démarrage du système, et préinstalle un ensemble par défaut de définitions de classe, y compris les [classes Win32](/windows/desktop/CIMWin32Prov/win32-provider), les [classes système WMI](wmi-system-classes.md)et d’autres. Les espaces de noms restants trouvés sur votre système sont créés par des fournisseurs pour d’autres parties du système d’exploitation ou des produits. Pour plus d’informations et pour obtenir la liste des fournisseurs WMI qui se trouvent dans la plupart des versions de système d’exploitation, consultez [fournisseurs WMI](wmi-providers.md).
 

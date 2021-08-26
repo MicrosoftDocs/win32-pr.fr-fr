@@ -4,12 +4,12 @@ ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Décodeur audio Microsoft MPEG-1/DD/AAC (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a685fa2be32dd963cdc7de08ec716117e6a7016e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2dd20bfc2ad8a366b46ac0c0600d8cc7a8bca5abacae621e8ea7d02f5f1cb4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051249"
 ---
 # <a name="microsoft-mpeg-1ddaac-audio-decoder"></a>Décodeur audio Microsoft MPEG-1/DD/AAC
 
@@ -34,7 +34,7 @@ Ce filtre décode les formats audio suivants :
 
  
 
-Le décodage des formats Dolby Digital plus, AAC et HE-AAC requiert Windows 7. Le décodage de Dolby Digital ou Dolby Digital plus n’est pas pris en charge sur Windows 7 édition familial Basic ou Windows 7 Édition Starter.
+le décodage des formats Dolby Digital Plus, AAC et HE-aac requiert Windows 7. le décodage de dolby digital ou dolby digital Plus n’est pas pris en charge sur Windows 7 Édition Familiale Basique ou Windows 7 Édition Starter.
 
 Dans le registre, le nom convivial de ce filtre est « Microsoft DTV-DVD audio décoder ».
 
@@ -48,7 +48,7 @@ Interfaces de filtre
 
 Types de média de broche d’entrée
 
-Dans Windows Vista et versions ultérieures, le filtre prend en charge les types d’entrée suivants :<br/>
+dans Windows Vista et versions ultérieures, le filtre prend en charge les types d’entrée suivants :<br/>
 
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ Dolby \_ AC3** (voir la remarque 1.)
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ MPEG1Audio**
@@ -66,7 +66,7 @@ Dans Windows Vista et versions ultérieures, le filtre prend en charge les types
 -   **MediaType \_ Stream**, **MEDIASUBTYPE \_ MPEG1Audio**
 -   **MediaType \_ Flux**, **MEDIASUBTYPE \_ MPEG2 \_ audio**
 
-À compter de Windows 7, le filtre prend également en charge les types d’entrée suivants :<br/>
+à partir de Windows 7, le filtre prend également en charge les types d’entrée suivants :<br/>
 
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ Dolby \_ DDplus** (voir la remarque 1.)
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ DTS2** (voir la remarque 2.)
@@ -98,12 +98,12 @@ Interfaces pin d’entrée
 
 Types de média de broche de sortie
 
-Dans Windows Vista et versions ultérieures, le filtre prend en charge les types de sortie suivants :<br/>
+dans Windows Vista et versions ultérieures, le filtre prend en charge les types de sortie suivants :<br/>
 
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ Dolby \_ AC3 \_ SPDIF** (identique au sous- **\_ type KSDATAFORMAT \_ IEC61937 \_ Dolby \_ Digital**)
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ PCM**
 
-À compter de Windows 7, le filtre prend également en charge les types de sortie suivants :<br/>
+à partir de Windows 7, le filtre prend également en charge les types de sortie suivants :<br/>
 
 -   **MediaType \_ Audio**, **\_ sous-type KSDATAFORMAT \_ IEC61937 \_ DTS**
 -   **MediaType \_ Audio**, **MEDIASUBTYPE \_ IEEE \_ float**
@@ -137,7 +137,7 @@ msmpeg2adec.dll
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les flux mono sont toujours décodés en stéréo.
 
@@ -152,7 +152,7 @@ Pour choisir entre ces deux options, utilisez l’interface [**ICodecAPI**](/win
 
 Pour AAC, le décodeur a certaines contraintes de format sur l’entrée AAC compressée. Ces contraintes de format sont les mêmes que le [**décodeur Media Foundation AAC**](../medfound/aac-decoder.md)et sont documentées dans la section «[**contraintes de format**](../medfound/aac-decoder.md)».
 
-Le décodeur DirectShow accepte également différents types d’entrée que le décodeur Media Foundation. Le décodeur DirectShow prend en charge les types d’entrée AAC suivants :
+le décodeur DirectShow accepte également différents types d’entrée que le décodeur Media Foundation. le décodeur DirectShow prend en charge les types d’entrée AAC suivants :
 
 -   **MEDIASUBTYPE \_ \_AAC1 brut**: AAC brut, généralement trouvé dans AVI ou Matroska (. MKV).
 -   **MEDIASUBTYPE \_ MPEG \_ ADTS \_ AAC**: AAC dans un flux de transport de données audio (ADTS) pour la diffusion en continu.
@@ -171,7 +171,7 @@ La broche d’entrée du décodeur prend en charge les jeux de propriétés suiv
 -   [**Propriété rate-change définie**](rate-change-property-set.md).
 
 > [!Note]  
-> À partir de Windows 7, le décodeur prend en charge le mode d’astuce par le biais du jeu de propriétés rate-change. Il prend en charge les vitesses de lecture dans la plage \[ 0,501 – 2,0 \] , où 1,0 est la vitesse de lecture normale et 2,0 est le double de la vitesse normale.
+> à partir de Windows 7, le décodeur prend en charge le mode d’astuce par le biais du jeu de propriétés rate-change. Il prend en charge les vitesses de lecture dans la plage \[ 0,501 – 2,0 \] , où 1,0 est la vitesse de lecture normale et 2,0 est le double de la vitesse normale.
 
  
 
@@ -226,7 +226,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista Édition familiale Premium, Windows Vista Édition intégrale, applications de bureau Windows 7 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows vista familial Premium, Windows vista édition intégrale, Windows 7 \[ desktop apps uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl>        |
 
@@ -239,7 +239,7 @@ Le filtre prend en charge les propriétés suivantes par le biais de [**ICodecAP
 [**Sous-types audio**](audio-subtypes.md)
 </dt> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [**Types de supports DVD**](dvd-media-types.md)

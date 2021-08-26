@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Lsaidprov.h
-ms.openlocfilehash: 1120e7859080657e2a04202e01a01464694a3450
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3660fd4cfb8baa3e025789a2cde9dc04dd7e1e1678b0516a56562f1ea5be43dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994480"
 ---
 # <a name="getcertificatefromcred-function"></a>GetCertificateFromCred fonction)
 
@@ -100,7 +100,7 @@ Si la fonction échoue, la fonction peut retourner l’un des codes d’erreur N
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’extraire le certificat du Cloud, le fournisseur d’identité doit vérifier qu’il existe un certificat valide pour cet utilisateur dans le magasin de certificats « MY » de l’utilisateur. Si un certificat valide existe, le fournisseur doit retourner ce certificat pour éviter tout trafic réseau inutile.
 
@@ -112,8 +112,8 @@ Le fournisseur d’identité peut également mettre en cache le certificat local
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Lsaidprov. h</dt> </dl> |
 
 

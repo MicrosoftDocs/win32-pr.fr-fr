@@ -3,15 +3,15 @@ title: Constantes d’application cliente
 description: Constantes définies dans le \_ fichier d’en-tête WinBio. h.
 ms.assetid: 5632f425-6247-49f5-b9dd-63e2187e1672
 keywords:
-- API de Windows Biometric Framework API Windows Biometric Framework, constantes d’application cliente
+- Windows api Windows Biometric Framework de l’infrastructure biométrique, constantes d’application cliente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a165174b2def381c94a7ea4efae1ea39a9c7fc1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee5b15f903f5b818159b31a0a91b23592e69f1b38146d1a2d2a77a7bb9ba6b70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994469"
 ---
 # <a name="client-application-constants"></a>Constantes d’application cliente
 
@@ -36,7 +36,7 @@ Les rubriques suivantes traitent des constantes définies dans le \_ fichier d�
 | [**\_ \_ Constantes de visage WINBIO ANSI 385 \_**](winbio-ansi-385-face-constants.md)<br/>                       | Spécifiez les types d’images de face frontale pour la reconnaissance faciale.<br/>                                                                                                                                                |
 | [**\_ \_ Constantes de sous-type de capteur BIOmétrique WINBIO \_**](winbio-biometric-sensor-subtype-constants.md)<br/> | Spécifiez un masque de réutiliser pour les fonctionnalités de capteur intégrées.<br/>                                                                                                                                                          |
 | [**\_Constantes de sous-type biométrique WINBIO \_**](winbio-biometric-subtype-constants.md)<br/>                | Fournissez des informations sur une mesure biométrique.<br/>                                                                                                                                                          |
-| [**\_Constantes de type de biométrie WINBIO \_**](winbio-biometric-type-constants.md)<br/>                      | Types biométriques standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common Biometric Exchange formates).<br/> |
+| [**\_Constantes de type de biométrie WINBIO \_**](winbio-biometric-type-constants.md)<br/>                      | types biométriques Standard définis par le National Institute of Standards and Technology Information (NISTIR) 6529-A, également connu sous le nom de CBEFF (Common biometric Exchange Formats).<br/> |
 | [**\_ \_ Constantes d’indicateurs de données WINBIO Bir \_**](winbio-bir-data-flags-constants.md)<br/>                     | Spécifiez la condition des données.<br/>                                                                                                                                                                          |
 | [**\_ \_ Constantes de champ WINBIO Bir**](winbio-bir-field-constants.md)<br/>                                | Spécifiez un masque de masque.<br/>                                                                                                                                                                                          |
 | [**\_ \_ Constantes WINBIO Bir Purpose**](winbio-bir-purpose-constants.md)<br/>                            | Spécifiez l’objectif pour lequel l’enregistrement d’informations biométriques (BIR) est prévu ou pour lequel il convient.<br/>                                                                                               |
@@ -57,12 +57,12 @@ Les rubriques suivantes traitent des constantes définies dans le \_ fichier d�
 | [**\_Constantes de type d’opération WINBIO \_**](winbio-operation-type-constants.md)<br/>                      | Spécifiez le type d’opération asynchrone en cours d’exécution.<br/>                                                                                                                                                 |
 | [**\_Constantes d’orientation WINBIO**](winbio-orientation-constants.md)<br/>                             | Les constantes suivantes spécifient les orientations d’appareil photo possibles que le composant capteur spécifie comme étant obligatoires.<br/>                                                                                          |
 | [**\_Constantes de pool WINBIO**](winbio-pool-constants.md)<br/>                                           | Spécifiez le type de pool d’unités biométriques à utiliser dans la session.<br/>                                                                                                                                          |
-| [**\_Constantes de modification de présence WINBIO \_**](winbio-presence-change-constants.md)<br/>                    | Décrit les types de modifications qui peuvent se produire lorsque le Windows Biometric Framework surveille la présence de personnes.<br/>                                                                                    |
+| [**\_Constantes de modification de présence WINBIO \_**](winbio-presence-change-constants.md)<br/>                    | décrit les types de modifications qui peuvent se produire lorsque le Windows Biometric Framework surveille la présence de personnes.<br/>                                                                                    |
 | [**\_Constantes de propriété WINBIO**](winbio-property-constants.md)<br/>                                   | Spécifiez la propriété à interroger dans la fonction [**WinBioGetProperty**](/windows/desktop/api/Winbio/nf-winbio-winbiogetproperty) ou modifiée dans la fonction [**WinBioSetProperty**](/windows/desktop/api/winbio/nf-winbio-winbiosetproperty) .<br/>                                |
 | [**\_Constantes de type de propriété WINBIO \_**](winbio-property-type-constants.md)<br/>                        | Spécifiez la source des informations de propriété dans la fonction [**WinBioGetProperty**](/windows/desktop/api/Winbio/nf-winbio-winbiogetproperty) .<br/>                                                                                              |
 | [**WINBIO \_ rejeter les \_ constantes de détail**](winbio-reject-detail-constants.md)<br/>                        | Spécifiez la raison pour laquelle une procédure d’identification ou de capture d’empreinte digitale biométrique a échoué.<br/>                                                                                                             |
 | [**\_Constantes du mode de capteur WINBIO \_**](winbio-sensor-mode-constants.md)<br/>                            | Définissez le mode d’adaptateur de capteur.<br/>                                                                                                                                                                                |
-| [**\_Constantes de la source de paramètre WINBIO \_**](winbio-setting-source-constants.md)<br/>                      | Déterminez si la Windows Biometric Framework est actuellement activée.<br/>                                                                                                                                     |
+| [**\_Constantes de la source de paramètre WINBIO \_**](winbio-setting-source-constants.md)<br/>                      | déterminez si la Windows Biometric Framework est actuellement activée.<br/>                                                                                                                                     |
 
 
 

@@ -12,19 +12,19 @@ keywords:
 - événements à une seule minuterie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9d0024e3dfa9b0bda79f209abd9b81e89ad11c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7dc3a4c69aefe8df3310c8ff974ef7592b435eabccd661bdbeb1ebbf85dc3c9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037169"
 ---
 # <a name="starting-a-single-timer-event"></a>Démarrage d’un événement de minuterie unique
 
 > [!Note]  
 > Cette rubrique décrit une fonction obsolète. Les nouvelles applications doivent utiliser la fonction [**CreateTimerQueueTimer**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) pour créer des minuteries.
 
- 
+ 
 
 Pour démarrer un événement à minuterie unique, appelez la fonction [**timeSetEvent**](/previous-versions//dd757634(v=vs.85)) , en spécifiant la durée avant le rappel, la résolution, l’adresse de la fonction de rappel (voir [**TimeProc**](/previous-versions//dd757631(v=vs.85))) et les données utilisateur à fournir avec la fonction de rappel. Une application peut utiliser une fonction comme celle qui suit pour démarrer un événement à minuterie unique.
 
@@ -58,6 +58,6 @@ Pour obtenir un exemple de la fonction de rappel OneShotCallback, consultez [éc
 [Utilisation de minuteurs multimédias](using-multimedia-timers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

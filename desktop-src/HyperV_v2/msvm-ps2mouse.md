@@ -63,12 +63,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d25d168b85a79c5212afc719ce6ec83ca9780395
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f5c23b5845dcceaf1ec8b7ad813596308a5625c9446cc18bfc5b82e9e73494e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046449"
 ---
 # <a name="msvm_ps2mouse-class"></a>MSVM \_ Ps2Mouse, classe
 
@@ -155,7 +155,7 @@ La classe **MSVM \_ Ps2Mouse** possède ces méthodes.
 | **OnlineDevice**                                                 | Cette méthode n'est pas prise en charge.<br/>                                                              |
 | **QuiesceDevice**                                                | Cette méthode n'est pas prise en charge.<br/>                                                              |
 | [**RequestStateChange**](msvm-ps2mouse-requeststatechange.md)   | Demande un changement d’État.<br/>                                                                   |
-| [**Réinitialiser**](msvm-ps2mouse-reset.md)                             | Réinitialise l’appareil.<br/>                                                                         |
+| [**Initialisation**](msvm-ps2mouse-reset.md)                             | Réinitialise l’appareil.<br/>                                                                         |
 | **RestoreProperties**                                            | Cette méthode n'est pas prise en charge.<br/>                                                              |
 | **SaveProperties**                                               | Cette méthode n'est pas prise en charge.<br/>                                                              |
 | [**SetButtonState**](setbuttonstate-msvm-ps2mouse.md)           | Définit l’état actuel du bouton de périphérique spécifié.<br/>                                     |
@@ -944,7 +944,7 @@ Indique l’État cible de la transition de l’instance. Cette propriété est 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ Ps2Mouse** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -954,8 +954,8 @@ L’accès à la classe **MSVM \_ Ps2Mouse** peut être limité par le filtrage 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

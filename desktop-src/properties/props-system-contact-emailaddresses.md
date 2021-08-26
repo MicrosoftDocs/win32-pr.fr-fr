@@ -4,12 +4,12 @@ ms.assetid: 57ef6472-c317-42c0-9771-b0728768b100
 title: System. contact. EmailAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abca4557f050ad98ef48e24d091418e094aa6a22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d92c5070e00764a346d12c4ca1a335ee73050bde1ae27ee5b781f072a17e206
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011379"
 ---
 # <a name="systemcontactemailaddresses"></a>System. contact. EmailAddresses
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

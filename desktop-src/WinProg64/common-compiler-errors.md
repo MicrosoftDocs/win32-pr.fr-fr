@@ -3,16 +3,16 @@ title: Erreurs courantes du compilateur
 description: Cette section illustre les erreurs de compilateur classiques qui se produisent lors de la migration d’une base de code existante. Ces exemples peuvent provenir du code HAL au niveau système, bien que les concepts soient directement applicables au code au niveau de l’utilisateur.
 ms.assetid: bbb6a57f-281a-4a6e-a4b6-15846d0cf21f
 keywords:
-- Erreurs du compilateur 64-programmation Windows bits
-- migration de la programmation Windows 64 bits
+- erreurs du compilateur 64-programmation de Windows bits
+- migration 64-bits Windows programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a84a5f5f58f2cab7555ce3401ed6fae0af240f4
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 55d12e7c5566b5cb2b934eefb71b1b51858f278d3e408d3080cb1810f185dcfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071639"
 ---
 # <a name="common-compiler-errors"></a>Erreurs courantes du compilateur
 
@@ -107,7 +107,7 @@ typedef struct __CONFIGURATION_COMPONENT {
 } CONFIGURATION_COMPONENT, * POINTER_32 PCONFIGURATION_COMPONENT;
 ```
 
-La définition de type pour le \_ composant PCONFIGURATION fournit un pointeur 32 bits dans les modèles 32 bits et 64 bits, car il est déclaré comme **pointeur \_ 32**. Le concepteur d’origine de cette structure savait qu’il devait être utilisé dans un contexte 32 bits dans le BIOS et le définir expressément pour cette utilisation. Ce code fonctionne correctement dans Windows 32 bits, car les pointeurs se présentent sous la 32-bit. Dans Windows 64 bits, il ne fonctionne pas, car le code est en contexte 64 bits.
+La définition de type pour le \_ composant PCONFIGURATION fournit un pointeur 32 bits dans les modèles 32 bits et 64 bits, car il est déclaré comme **pointeur \_ 32**. Le concepteur d’origine de cette structure savait qu’il devait être utilisé dans un contexte 32 bits dans le BIOS et le définir expressément pour cette utilisation. ce code fonctionne correctement en Windows de 32 bits, car les pointeurs sont à 32 bits. en Windows 64 bits, il ne fonctionne pas, car le code est en contexte 64 bits.
 
 </dd> <dt>
 
@@ -259,7 +259,7 @@ return ComPortAddress;
 }
 ```
 
-**Pulong \_ PTR** est un pointeur qui est lui-même 32 bits pour windows 32 bits et 64 bits pour windows 64 bits. Il pointe vers un entier non signé, **ULong \_ ptr**, qui est 32 bits pour Windows 32 bits et 64 bits pour Windows 64 bits.
+**Pulong \_ PTR** est un pointeur qui est lui-même 32 bits pour les Windows 32 bits et 64 bits pour les Windows 64 bits. il pointe vers un entier non signé, **ULONG \_ PTR**, qui est 32 bits pour les Windows 32 bits et 64 bits pour les Windows 64 bits.
 
 </dd> </dl>
 

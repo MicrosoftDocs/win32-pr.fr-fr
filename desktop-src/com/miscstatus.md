@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre MiscStatus COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abee49776577df61dc8b7d4e94a0621dfdd8b216
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41aa5a5ab7f777eb6aa19d919c69ca219c9364cd1d6e5e9471cb677300d4ebb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992349"
 ---
 # <a name="miscstatus"></a>MiscStatus
 
@@ -21,13 +21,13 @@ Spécifie comment créer et afficher un objet.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      MiscStatus
-         (Default) = value
-         aspect = value
+   {CLSID}
+      MiscStatus
+         (Default) = value
+         aspect = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez l’énumération [**OLEMISC**](/windows/win32/api/oleidl/ne-oleidl-olemisc) et [**IOleObject :: GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus).
 
@@ -40,9 +40,9 @@ Si aucune sous-clé correspondant à un DVASPECT n’est trouvée, la valeur par
 [**IOleObject :: GetMiscStatus**](/windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

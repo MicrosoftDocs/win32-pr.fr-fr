@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 310364bdb6e6ba7daf285316fcaaf16884e53929
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0efe2e34345cc335b8214b781da4dce608dddcc4c2f77e80d8c86f76007c2855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073849"
 ---
 # <a name="rtmdeleteroute-function"></a>RtmDeleteRoute fonction)
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La fonction **RtmDeleteRoute** supprime une entrée d’itinéraire.
 
@@ -118,7 +118,7 @@ Si la fonction échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction génère un message de modification d’itinéraire si le meilleur itinéraire vers un réseau de destination a été modifié à la suite de la suppression. Toutefois, le message de modification d’itinéraire n’est pas envoyé au client qui effectue cet appel. Au lieu de cela, les informations pertinentes sont retournées par cette fonction directement à ce client.
 

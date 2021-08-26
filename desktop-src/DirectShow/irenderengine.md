@@ -1,5 +1,5 @@
 ---
-description: 'L’interface IRenderEngine affiche un projet DES services de modification DirectShow (DES) en construisant un graphique de filtre à partir d’une chronologie. DES fournit deux composants qui implémentent cette interface : le moteur de rendu de base crée une sortie non compressée.'
+description: 'l’interface IRenderEngine restitue un projet de Services de modification DirectShow (DES) en construisant un graphique de filtre à partir d’une chronologie. DES fournit deux composants qui implémentent cette interface : le moteur de rendu de base crée une sortie non compressée.'
 ms.assetid: e2a91b34-ee4d-405e-81bf-29d15ea6342a
 title: Interface IRenderEngine (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d8c57e976fac877a02c3f3993fb3fe4d27f9033b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a13d51eb41a917dc4790c75a8a1f8a881dbcb8489364722ff8805bdf26fc77f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051309"
 ---
 # <a name="irenderengine-interface"></a>Interface IRenderEngine
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IRenderEngine` interface restitue un projet de [services de modification DirectShow](directshow-editing-services.md) (des) en construisant un graphique de filtre à partir d’une chronologie.
+l' `IRenderEngine` interface restitue un projet de [Services d’édition DirectShow](directshow-editing-services.md) en construisant un graphique de filtre à partir d’une chronologie.
 
 DES fournit deux composants qui implémentent cette interface :
 
@@ -82,7 +82,7 @@ L’interface **IRenderEngine** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -90,7 +90,7 @@ L’interface **IRenderEngine** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 
@@ -109,7 +109,7 @@ L’interface **IRenderEngine** possède ces méthodes.
 
 <dl> <dt>
 
-[Rendu d’un projet](rendering-a-project.md)
+[Rendu d’un Project](rendering-a-project.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de l’utilisateur PEAP-TLS. Co
 ms.assetid: f0fb00fa-4cf8-4490-ac59-a8252ddcb5ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32437c54d707c3d278e4494c2b5b4f56ed83c9d4
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 51657f1f98f2895df52e6c1592929dcff9066f9937e43764d917d7d3645713e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "106512132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117379"
 ---
 # <a name="peap-tls-user-properties"></a>Propriétés de l’utilisateur PEAP-TLS
 
@@ -56,9 +56,9 @@ Cet exemple est une instance du schéma hérité [eaptlsuserpropertiesv1](eaptls
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

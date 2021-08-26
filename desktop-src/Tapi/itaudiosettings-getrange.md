@@ -4,16 +4,16 @@ ms.assetid: 09ee0c59-6ae6-47eb-a8cf-6b24e759d7fb
 title: 'ITAudioSettings :: GetRange, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91dd4d7bed3134c17de9c5958c7e6184cd51918e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f08c9eed736725bd4200c79583dcc12abde11399ec272be04805881752b19119
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992009"
 ---
 # <a name="itaudiosettingsgetrange-method"></a>ITAudioSettings :: GetRange, méthode
 
-\[ Cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[cette méthode n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **GetRange** récupère la plage de valeurs valides pour une [**propriété de paramètres audio**](audiosettingsproperty.md)donnée.
 
@@ -89,7 +89,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: 25c730ff-4b01-4b40-ab50-3b8df3dad4c8
 title: Référence XML du fichier de configuration WsdCodeGen
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38e31d46935d23f5eb652cf386ed722e4565b0cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11a9184e30f16550f0e9144a94499860ed04be6dbba4e70bad5d6a17fd6e3e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995129"
 ---
 # <a name="wsdcodegen-configuration-file-xml-reference"></a>Référence XML du fichier de configuration WsdCodeGen
 
 Les fichiers de configuration WsdCodeGen utilisent les éléments XML suivants.
 
--   [**async**](async.md)
+-   [**Suppr**](async.md)
 -   [**autostatique**](autostatic.md)
 -   [**Baptisé**](codename.md)
 -   [**annulateur**](deallocator.md)
@@ -27,7 +27,7 @@ Les fichiers de configuration WsdCodeGen utilisent les éléments XML suivants.
 -   [**eventStubFunction**](eventstubfunction.md)
 -   [**excludeImport**](excludeimport.md)
 -   [**faultInfo**](faultinfo.md)
--   [**fichier**](file.md)
+-   [**txt**](file.md)
 -   [**functionDeclarations**](functiondeclarations.md)
 -   [**HBA**](host.md)
 -   [**hostBuilderDeclaration**](hostbuilderdeclaration.md)
@@ -45,7 +45,7 @@ Les fichiers de configuration WsdCodeGen utilisent les éléments XML suivants.
 -   [**layerPrefix**](layerprefix.md)
 -   [**literalInclude**](literalinclude.md)
 -   [**emplacement**](location.md)
--   [**macrovirus**](macro.md)
+-   [**macro**](macro.md)
 -   [**macroPrefix**](macroprefix.md)
 -   [**fécule**](manufacturer.md)
 -   [**manufacturerLS**](manufacturerls.md)
@@ -62,7 +62,7 @@ Les fichiers de configuration WsdCodeGen utilisent les éléments XML suivants.
 -   [**namespaceDeclarations**](namespacedeclarations.md)
 -   [**namespaceDefinitions**](namespacedefinitions.md)
 -   [**notificationInterface**](notificationinterface.md)
--   [**opération**](operation.md)
+-   [**operation**](operation.md)
 -   [**operationDeallocator**](operationdeallocator.md)
 -   [**d**](path.md)
 -   [**PnPXCompatibleId**](pnpxcompatibleid.md)
@@ -92,7 +92,7 @@ Les fichiers de configuration WsdCodeGen utilisent les éléments XML suivants.
 -   [**thisModelMetadata**](thismodelmetadata.md)
 -   [**thisModelMetadataDeclaration**](thismodelmetadatadeclaration.md)
 -   [**thisModelMetadataDefinition**](thismodelmetadatadefinition.md)
--   [**Types**](types.md)
+-   [**Modes**](types.md)
 -   [**typeTableDeclarations**](typetabledeclarations.md)
 -   [**typeTableDefinitions**](typetabledefinitions.md)
 -   [**typeUri**](typeuri.md)

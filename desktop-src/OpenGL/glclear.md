@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db935e46c65c42976024a8afbb98028294710c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bb48a1b2832a5f9c046bb450b7cfba9ec4f83a759b093df91f3ec2064f23a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082099"
 ---
 # <a name="glclear-function"></a>glClear fonction)
 
@@ -70,14 +70,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | Tout bit autre que les quatre bits définis a été défini dans *Mask*.<br/>                                                                |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **fonction glClear** définit la zone Bitplane de la fenêtre sur les valeurs précédemment sélectionnées par [**glClearColor**](glclearcolor.md), [**glClearIndex**](glclearindex.md), [**glClearDepth**](glcleardepth.md), [**glClearStencil**](glclearstencil.md)et [**glClearAccum**](glclearaccum.md). Vous pouvez effacer plusieurs mémoires tampons de couleurs simultanément en sélectionnant plusieurs mémoires tampons à la fois à l’aide de [**glDrawBuffer**](gldrawbuffer.md).
 

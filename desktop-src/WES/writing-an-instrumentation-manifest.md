@@ -4,12 +4,12 @@ description: Les applications et les DLL utilisent un manifeste d’instrumentat
 ms.assetid: eec9d129-acde-4302-9121-634b3fad8455
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82b3462d6adc264fba8ba155620a2bbb402d51d5d6fc24f7dbe879b9e2a91ec9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dc832278772a12195590a4efdb7b65478f22ef4a
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118587050"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812166"
 ---
 # <a name="writing-an-instrumentation-manifest"></a>Écriture d’un manifeste d’instrumentation
 

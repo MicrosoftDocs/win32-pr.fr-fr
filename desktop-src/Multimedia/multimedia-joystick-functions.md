@@ -3,7 +3,7 @@ title: Fonctions de manette de jeu multimédia
 description: Fonctions de manette de jeu multimédia
 ms.assetid: 84e47ac3-b40f-48bc-8f59-cc678d7d521e
 keywords:
-- Multimédia Windows, fonctions de la manette de jeu
+- fonctions de manette de jeu Windows multimedia
 - fonctions multimédias, joystick
 - entrée multimédia, fonctions de la manette de jeu
 - manettes, fonctions
@@ -11,12 +11,12 @@ keywords:
 - Référence de la manette de jeu, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce0a8ac3013a6f8f0f5e409a6886ea1bfe773fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 10598942f0ddae03e0ae17b788a5575d93dbfd23e6461c6e946f61e6a150aae0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038709"
 ---
 # <a name="multimedia-joystick-functions"></a>Fonctions de manette de jeu multimédia
 
@@ -39,6 +39,6 @@ Les fonctions suivantes sont utilisées avec les joysticks multimédias.
 [Référence de la manette de jeu](joystick-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - UpdateEndpointAuth.dll
-ms.openlocfilehash: 071bc23bdf9d67412fef561c71e17fe81485984f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cbc51ab0f1192e20612829532b907e3644a7da3f99fdedd8e3dbd45a780c54d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994569"
 ---
 # <a name="iupdateendpointauthprovider-interface"></a>Interface IUpdateEndpointAuthProvider
 
@@ -45,7 +45,7 @@ L’interface **IUpdateEndpointAuthProvider** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WUA appelle la méthode [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-getpreferredendpointtokentype.md) de cette interface pour démarrer le processus de négociation. Lorsque l’appel est effectué, WUA passe dans l’identificateur de service, le type de point de terminaison implémenté par le service et les types de jetons disponibles. L’implémentation de cette interface retourne ensuite les types de jetons qu’elle préfère utiliser.
 
@@ -55,8 +55,8 @@ WUA appelle la méthode [**GetPreferredEndpointTokenType**](iupdateendpointauthp
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>                |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>                   |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>                |
 | En-tête<br/>                   | <dl> <dt>UpdateEndpointAuth. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>UpdateEndpointAuth. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>UpdateEndpointAuth. lib</dt> </dl> |

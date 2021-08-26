@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Création d’une classe de base WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebdcbe6995a7782d854a4d0950db841f23a30b45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4780279f00eea403b330400c490da75adfa097406796cd0b14f15f9861411bfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071509"
 ---
 # <a name="creating-a-wmi-base-class"></a>Création d’une classe de base WMI
 
@@ -39,7 +39,7 @@ Lorsque vous créez une classe de base, observez la liste suivante d’instructi
     Bien qu’il ne soit pas nécessaire, une bonne Convention d’affectation de noms pour une classe est de deux composants joints par un trait de soulignement. Lorsque cela est possible, un nom de fournisseur doit constituer la première moitié du nom et un nom de classe descriptif doit être la deuxième partie.
 
 > [!Note]  
-> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. Vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
+> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
 
  
 
@@ -114,7 +114,7 @@ Pour plus d’informations, consultez [création d’une classe dérivée](creat
 La création d’une classe de base à l’aide de l’API WMI est principalement une série de commandes put qui définissent la classe et inscrivent la classe auprès de WMI. L’objectif principal de cette API est de permettre aux applications clientes de créer des classes de base. Toutefois, vous pouvez également faire en sorte qu’un fournisseur utilise cette API pour créer une classe de base. Par exemple, si vous pensez que le code MOF de votre fournisseur ne sera pas installé correctement, vous pouvez demander à votre fournisseur de créer automatiquement les classes appropriées dans le référentiel WMI. Pour plus d’informations sur les fournisseurs, consultez [écriture d’un fournisseur de classes](writing-a-class-provider.md).
 
 > [!Note]  
-> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. Vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
+> Les classes ne peuvent pas être modifiées pendant l’exécution des fournisseurs. vous devez arrêter l’activité, modifier la classe, puis redémarrer le service de gestion Windows. La détection d’une modification de classe n’est pas possible actuellement.
 
  
 

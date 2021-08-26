@@ -7,12 +7,12 @@ keywords:
 - Fonctions HTTP, API serveur HTTP version 1,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 050821e40695268d6e3fa2c946d2e8859748db2b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8520753e56e995b5751b55ff71cf49f8e82d414e702b2df255c2901e69c397fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047199"
 ---
 # <a name="http-server-api-version-10-functions"></a>API serveur HTTP version 1,0, fonctions
 
@@ -31,7 +31,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="cache-management"></a>Gestion du cache
 
@@ -45,7 +45,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="configuration"></a>Configuration
 
@@ -59,7 +59,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="input-and-output"></a>Entrées et sorties
 
@@ -75,7 +75,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="ssl"></a>SSL
 
@@ -87,7 +87,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="url-registration"></a>Inscription d’URL
 
@@ -100,7 +100,7 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -109,9 +109,9 @@ L’API du serveur HTTP fournit les fonctions suivantes pour l’écriture d’a
 [Structures de la version 1,0 de l’API du serveur HTTP](http-server-api-version-1-0-structures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

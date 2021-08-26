@@ -4,12 +4,12 @@ description: L’attribut ACF \ Byte \_ Count \ indique aux stubs d’utiliser u
 ms.assetid: 1b370f74-394e-4e57-9749-83334be50f28
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db533495f16d37aca0bdae96035783650573a60f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb87390637cba57cbdf4021a43f4ec98ea64c3828c67dfdb615ffcd62dc8c16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024179"
 ---
 # <a name="application-allocated-buffer"></a>Mémoire tampon de Application-Allocated
 
@@ -40,6 +40,6 @@ SortNames([byte_count(cBytes)] pRoot);
 
 Le stub client généré à partir de ces fichiers IDL et ACF n’alloue pas ou ne libère pas la mémoire pour cette mémoire tampon. Le stub serveur alloue et libère la mémoire tampon dans un appel unique à l’aide du paramètre de taille fourni. Si les données sont trop volumineuses pour la taille de la mémoire tampon spécifiée, une exception est levée.
 
- 
+ 
 
- 
+ 

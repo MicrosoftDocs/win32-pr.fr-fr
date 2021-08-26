@@ -4,12 +4,12 @@ ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: Chronologie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6ac73b84409629f63ad4be469edf6b943f9e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f298c2649a280bf5fd622d5fb5a2aef820d1f340d45f7e2beb83fe9edd6a402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120049999"
 ---
 # <a name="the-timeline"></a>Chronologie
 
@@ -26,7 +26,7 @@ hr = CoCreateInstance(CLSID_AMTimeline, NULL, CLSCTX_INPROC_SERVER,
 
 
 
-La Nouvelle chronologie est vide. À ce stade, vous pouvez charger un fichier projet existant (voir [chargement et aperçu d’un projet](loading-and-previewing-a-project.md)), ou générer la chronologie en créant et en insérant de nouveaux objets (consultez [construction d’une chronologie](constructing-a-timeline.md)).
+La Nouvelle chronologie est vide. à ce stade, vous pouvez charger un fichier projet existant (voir [chargement et aperçu d’un Project](loading-and-previewing-a-project.md)), ou développer la chronologie en créant et en insérant de nouveaux objets (consultez [construction d’une chronologie](constructing-a-timeline.md)).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

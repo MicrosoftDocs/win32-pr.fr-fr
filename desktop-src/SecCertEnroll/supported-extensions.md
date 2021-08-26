@@ -4,12 +4,12 @@ ms.assetid: 025447f4-98d0-4cb8-b546-4797b7e60722
 title: Extensions prises en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd55886b03cdea5783f918182c84382910510918
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0362bc289e8f0631520a7d9d56ff4bed1af2c698c721db703b27b0ecee5a1629
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101108"
 ---
 # <a name="supported-extensions"></a>Extensions prises en charge
 
@@ -33,7 +33,7 @@ L’extension d’accès aux informations de l’autorité identifie l’accès 
 
 ## <a name="authoritykeyidentifier"></a>AuthorityKeyIdentifier
 
-L’extension de l’identificateur de clé de l’autorité permet l’identification de la clé publique de l’autorité de certification qui correspond à la clé privée de l’autorité de certification qui a signé un certificat émis. Il est utilisé par le logiciel de création de chemin d’accès de certificat sur un serveur Windows pour rechercher le certificat d’autorité de certification. Lorsqu’une autorité de certification émet un certificat, la valeur de l’extension est égale à l’extension **extension SubjectKeyIdentifier** dans le certificat de signature de l’autorité de certification. La valeur est généralement un hachage SHA-1 de la clé publique.
+L’extension de l’identificateur de clé de l’autorité permet l’identification de la clé publique de l’autorité de certification qui correspond à la clé privée de l’autorité de certification qui a signé un certificat émis. il est utilisé par le logiciel de création de chemin d’accès de certificat sur un serveur de Windows pour rechercher le certificat d’autorité de certification. Lorsqu’une autorité de certification émet un certificat, la valeur de l’extension est égale à l’extension **extension SubjectKeyIdentifier** dans le certificat de signature de l’autorité de certification. La valeur est généralement un hachage SHA-1 de la clé publique.
 
 **Interface :** [ **IX509ExtensionAuthorityKeyIdentifier**](/windows/desktop/api/CertEnroll/nn-certenroll-ix509extensionauthoritykeyidentifier)
 

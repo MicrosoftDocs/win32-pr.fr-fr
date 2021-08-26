@@ -4,12 +4,12 @@ ms.assetid: 5ad30d5f-2c5b-4fc8-bb7d-ed2a310f422f
 title: System. communication. DateItemExpires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda8ccfaf958d09fd280f16fec2b4068d457db49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 659af8c661e1cf8e78cfc3015f8bb6463f62d6e6e2773c2b73a9567cc923aad1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059799"
 ---
 # <a name="systemcommunicationdateitemexpires"></a>System. communication. DateItemExpires
 
@@ -30,7 +30,7 @@ propertyDescription
       type = DateTime
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

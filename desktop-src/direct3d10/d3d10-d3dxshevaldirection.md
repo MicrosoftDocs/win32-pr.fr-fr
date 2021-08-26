@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c7fa1f94d65ca8096a0398d71ca2f562b643d47a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bf52e29962e773798073ad6c779394318fcfcbc7186db5b4f0e6862a8e7b672c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070029"
 ---
 # <a name="d3dxshevaldirection-function-d3dx10h"></a>D3DXSHEvalDirection, fonction (D3DX10. h)
 
@@ -69,13 +69,13 @@ Type : **const [**D3DXVECTOR3**](../direct3d9/d3dxvector3.md) \***
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH. Consultez la section Notes.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Chaque coefficient de la fonction de base YLM est stocké à l’emplacement de mémoire l ² + m + l, où :
 

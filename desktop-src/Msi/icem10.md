@@ -25,7 +25,7 @@ ICEM10 vérifie qu’un module de fusion contient uniquement des propriétés qu
 
 ICEM10 publie une erreur lorsqu’un module de fusion contient une propriété qui n’est pas autorisée dans la [table de propriétés](property-table.md).
 
-## <a name="example"></a> Exemple
+## <a name="example"></a>Exemple
 
 ICEM10 publie les messages d’erreur suivants pour un module qui contient les entrées de base de données affichées.
 

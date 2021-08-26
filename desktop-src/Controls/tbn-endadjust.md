@@ -3,7 +3,7 @@ title: TBN_ENDADJUST le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’une barre d’outils que l’utilisateur a arrêté de personnaliser une barre d’outils. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 9a7496ec-787d-4571-8eca-50d60383519b
 keywords:
-- Contrôles Windows de code de notification TBN_ENDADJUST
+- TBN_ENDADJUST les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79ec420c535a207f02d12e17901efab1c18a11bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1441bf513455f4485947e41c35e8c49de85bb7769294f781b956c2af4a56e28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061079"
 ---
 # <a name="tbn_endadjust-notification-code"></a>\_Code de notification TBN ENDADJUST
 
@@ -55,8 +55,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
