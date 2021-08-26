@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 0e7000fd1b9d5dfadd3acae65049111a158036ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0ae69f9ae59f5318dd8cbb8a70a607be7205a43
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518994"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622355"
 ---
 # <a name="xmu565-operator--operators"></a>Opérateurs XMU565 =
 
@@ -30,23 +30,23 @@ Affecte des données de composant vectoriels à l’instance actuelle de [**XMU5
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Opérateur</th>
-<th style="text-align: left;">Description</th>
+<th >Opérateur</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(xmu565__)"><strong>XMU565 :: Operator = (const XMU565&)</strong></a></td>
-<td style="text-align: left;">Assigne les données du composant vectoriel d’une instance de <code>XMU565</code> à l’instance actuelle de <code>XMU565</code> . <br/> Cet opérateur affecte les données de composant vectoriel d’une instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> à l’instance actuelle de <code>XMU565</code> . <br/></td>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(xmu565__)"><strong>XMU565 :: Operator = (const XMU565&)</strong></a></td>
+<td >Assigne les données du composant vectoriel d’une instance de <code>XMU565</code> à l’instance actuelle de <code>XMU565</code> . <br/> Cet opérateur affecte les données de composant vectoriel d’une instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> à l’instance actuelle de <code>XMU565</code> . <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(uint16_t)"><strong>XMU565 :: Operator = (const uint16_t)</strong></a></td>
-<td style="text-align: left;">Assigne les données de composant vectoriels compressées dans une instance de <code>uint16_t</code> à l’instance actuelle de <code>XMU565</code> . <br/> Affecte les données de composant vectoriels compressées dans une instance de <code>uint16_t</code> à l’instance actuelle de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a>. <br/>
+<td ><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-operator-assign(uint16_t)"><strong>XMU565 :: Operator = (const uint16_t)</strong></a></td>
+<td >Assigne les données de composant vectoriels compressées dans une instance de <code>uint16_t</code> à l’instance actuelle de <code>XMU565</code> . <br/> Affecte les données de composant vectoriels compressées dans une instance de <code>uint16_t</code> à l’instance actuelle de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a>. <br/>
 <blockquote>
 [!Note]<br />
 Cet opérateur est uniquement disponible en C++.

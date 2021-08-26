@@ -4,12 +4,12 @@ description: Utilisation des chaînes
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4661c6b07a267d90e0fca05d04354c018be04527
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b1850d531a1cff713ec71a7e96399f029794545db9b695abe5b826ed63f0f080
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075199"
 ---
 # <a name="working-with-strings"></a>Utilisation des chaînes
 
@@ -50,12 +50,12 @@ Voici d’autres typedefs liés à la chaîne qui s’affichent :
 
 ## <a name="unicode-and-ansi-functions"></a>Fonctions Unicode et ANSI
 
-Lorsque Microsoft a introduit la prise en charge d’Unicode pour Windows, il a facilité la transition en fournissant deux jeux d’API parallèles, l’un pour les chaînes ANSI et l’autre pour les chaînes Unicode. Par exemple, il existe deux fonctions pour définir le texte de la barre de titre d’une fenêtre :
+lorsque Microsoft a introduit la prise en charge d’Unicode pour Windows, il a facilité la transition en fournissant deux jeux d’api parallèles, l’un pour les chaînes ANSI et l’autre pour les chaînes Unicode. Par exemple, il existe deux fonctions pour définir le texte de la barre de titre d’une fenêtre :
 
 -   **SetWindowTextA** prend une chaîne ANSI.
 -   **SetWindowTextW** prend une chaîne Unicode.
 
-En interne, la version ANSI convertit la chaîne en Unicode. Les en-têtes Windows définissent également une macro qui correspond à la version Unicode lorsque le symbole de préprocesseur `UNICODE` est défini ou la version ANSI dans le cas contraire.
+En interne, la version ANSI convertit la chaîne en Unicode. les en-têtes Windows définissent également une macro qui correspond à la version Unicode lorsque le symbole de préprocesseur `UNICODE` est défini ou la version ANSI dans le cas contraire.
 
 
 ```C++
@@ -70,11 +70,11 @@ En interne, la version ANSI convertit la chaîne en Unicode. Les en-têtes Windo
 
 Dans MSDN, la fonction est documentée sous le nom [**SetWindowText**](/windows/desktop/api/winuser/nf-winuser-setwindowtexta), bien que c’est vraiment le nom de la macro, et non le nom réel de la fonction.
 
-Les nouvelles applications doivent toujours appeler les versions Unicode. De nombreux langages mondiaux requièrent Unicode. Si vous utilisez des chaînes ANSI, il est impossible de localiser votre application. Les versions ANSI sont également moins efficaces, car le système d’exploitation doit convertir les chaînes ANSI au format Unicode au moment de l’exécution. Selon votre préférence, vous pouvez appeler les fonctions Unicode explicitement, telles que **SetWindowTextW**, ou utiliser les macros. L’exemple de code sur MSDN appelle généralement les macros, mais les deux formes sont équivalentes exactement. La plupart des API plus récentes dans Windows ont simplement une version Unicode, sans version ANSI correspondante.
+Les nouvelles applications doivent toujours appeler les versions Unicode. De nombreux langages mondiaux requièrent Unicode. Si vous utilisez des chaînes ANSI, il est impossible de localiser votre application. Les versions ANSI sont également moins efficaces, car le système d’exploitation doit convertir les chaînes ANSI au format Unicode au moment de l’exécution. Selon votre préférence, vous pouvez appeler les fonctions Unicode explicitement, telles que **SetWindowTextW**, ou utiliser les macros. L’exemple de code sur MSDN appelle généralement les macros, mais les deux formes sont équivalentes exactement. la plupart des api plus récentes dans Windows ont simplement une version Unicode, sans version ANSI correspondante.
 
 ## <a name="tchars"></a>TCHARs
 
-De retour lorsque les applications devaient prendre en charge à la fois Windows NT et Windows 95, Windows 98 et Windows Me, il était utile de compiler le même code pour les chaînes ANSI ou Unicode, en fonction de la plateforme cible. À cette fin, le SDK Windows fournit des macros qui mappent les chaînes au format Unicode ou ANSI, en fonction de la plateforme.
+de retour lorsque les applications devaient prendre en charge à la fois Windows NT et Windows 95, Windows 98 et Windows, il était utile de compiler le même code pour les chaînes ANSI ou Unicode, en fonction de la plateforme cible. à cette fin, le SDK Windows fournit des macros qui mappent les chaînes au format Unicode ou ANSI, en fonction de la plateforme.
 
 
 

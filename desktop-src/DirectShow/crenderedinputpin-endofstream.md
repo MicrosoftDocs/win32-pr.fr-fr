@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c836b1098c92a69fa720fb7b87e4a63b3c05a526
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26f7a5075e06a3943978a8e938f034fbabcaddfa31c9ffa2a2b37d33a0120640
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107989"
 ---
 # <a name="crenderedinputpinendofstream-method"></a>Méthode CRenderedInputPin. EndOfStream
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si le filtre est en cours d’exécution, cette méthode envoie un événement [**EC \_ complet**](ec-complete.md) au gestionnaire de graphique de filtre. Dans le cas contraire, définit un indicateur de manière à ce que l’événement ce soit \_ envoyé lors de la prochaine exécution du filtre. Le vidage du filtre efface l’indicateur.
+si le filtre est en cours d’exécution, cette méthode envoie un événement [**EC \_ complet**](ec-complete.md) à filter Graph Manager. Dans le cas contraire, définit un indicateur de manière à ce que l’événement ce soit \_ envoyé lors de la prochaine exécution du filtre. Le vidage du filtre efface l’indicateur.
 
 Vous devez remplacer cette méthode pour conserver le verrou de streaming du pin :
 
@@ -79,7 +79,7 @@ En outre, si le filtre traite les appels de **réception** de manière asynchron
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amextra. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Amextra. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

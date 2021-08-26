@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee05e7927bd6c9adb086a09f76b9022affd74792
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 369a0f3abf4cee54f92c9bfd846557623de5e23fffd4724a701ca7c04aa818af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028519"
 ---
 # <a name="rasadminportdisconnect-function"></a>RasAdminPortDisconnect fonction)
 
-\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. Elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminPortDisconnect**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportdisconnect) .\]
+\[Cette fonction est fournie uniquement pour la compatibilité descendante avec Windows NT Server 4,0. elle retourne un \_ appel \_ d’erreur non \_ implémenté sur Windows Server 2003. Les applications doivent utiliser la fonction [**MprAdminPortDisconnect**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportdisconnect) .\]
 
 La fonction **RasAdminPortDisconnect** déconnecte un port en cours d’utilisation.
 
@@ -46,7 +46,7 @@ DWORD RasAdminPortDisconnect(
 *lpszServer* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne Unicode terminée par le caractère null qui spécifie le nom du serveur RAS Windows NT/Windows 2000. Spécifiez le nom avec les \\ \\ caractères «» de début, sous la forme : \\ \\ *NomServeur*.
+pointeur vers une chaîne Unicode terminée par le caractère null qui spécifie le nom du serveur RAS Windows NT/Windows 2000. Spécifiez le nom avec les \\ \\ caractères «» de début, sous la forme : \\ \\ *NomServeur*.
 
 </dd> <dt>
 

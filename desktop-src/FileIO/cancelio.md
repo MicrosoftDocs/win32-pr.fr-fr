@@ -17,12 +17,12 @@ api_location:
 - KernelBase.dll
 - MinKernelBase.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: adb1ab95b30b31670a6ff5a4cc0e0205943f7683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 900a47d51df882ce1f2931489ea93b5e3b4c498b8d5cc0f35e521e015e12c1d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075339"
 ---
 # <a name="cancelio-function"></a>CancelIo fonction)
 
@@ -60,7 +60,7 @@ Si la fonction réussit, la valeur de retour est différente de zéro. L’opér
 
 Si la fonction échoue, la valeur de retour est zéro (0). Pour afficher les informations d’erreur étendues, appelez la fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si des opérations d’e/s en cours sont en cours pour le handle de fichier spécifié et qu’elles sont émises par le thread appelant, la fonction **CancelIo** les annule. **CancelIo** annule uniquement les e/s en suspens sur le handle, mais ne modifie pas l’état du descripteur. Cela signifie que vous ne pouvez pas compter sur l’état du handle, car vous ne pouvez pas savoir si l’opération a été effectuée avec succès ou a été annulée.
 
@@ -68,7 +68,7 @@ Les opérations d’e/s doivent être émises en tant qu’e/s avec chevauchemen
 
 Toutes les opérations d’e/s qui sont annulées avec l’erreur erreur d’erreur ont été **\_ \_ annulées**, et toutes les notifications de fin d’exécution des opérations d’e/s se produisent normalement.
 
-Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
+dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
 
 
 
@@ -90,9 +90,9 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP- \[ \| applications UWP\]<br/>                                                                                                                                                                                                                                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ \| apps UWP\]<br/>                                                                                                                                                                                                                                              |
-| En-tête<br/>                   | <dl> <dt>IoAPI. h (inclure Windows. h); </dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP (incluant Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP pour applications \[ \| UWP\]<br/>                                                                                                                                                                                                                                                       |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2003 \[ \| applications UWP\]<br/>                                                                                                                                                                                                                                              |
+| En-tête<br/>                   | <dl> <dt>IoAPI. h (include Windows. h);</dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP (include Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 

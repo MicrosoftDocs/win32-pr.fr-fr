@@ -3,15 +3,15 @@ title: Tests de validation pour les magasins de type 2 en ligne intégrés
 description: Cette rubrique décrit les tests que Microsoft effectuera pour valider votre magasin de type 2 en ligne. Microsoft vous demande d’exécuter ces tests avant de soumettre une version Release candidate. Votre magasin en ligne doit réussir à publier ces tests.
 ms.assetid: 1da51772-9711-4913-b05d-830fabe49da2
 keywords:
-- Windows Media Player Online stores
+- Lecteur Windows Media Magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beefd0945f9d1a9ae61e61f8be74beada1695baf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ab2cb1b4d44b1bd3c6289311c6b276de7c75ed1bcd955431796a36d272811942
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901304"
 ---
 # <a name="validation-tests-for-on-boarding-type-2-online-stores"></a>Tests de validation pour les magasins de type 2 en ligne intégrés
 
@@ -20,7 +20,7 @@ Cette rubrique décrit les tests que Microsoft effectuera pour valider votre mag
 > [!Note]  
 > Si votre magasin est de type 1 au lieu de type 2, vous pouvez utiliser cette rubrique comme indication pour comprendre l’étendue des tests de certification couverts pour les magasins de type 1. Pour l’ensemble complet des tests pour les magasins de type 1, contactez [support Microsoft](https://support.microsoft.com/ph/7763#tab0).
 
- 
+ 
 
 Cette rubrique contient les sections suivantes.
 
@@ -56,7 +56,7 @@ Test
 
 Windows XP
 
-Windows Vista
+Windows Vista
 
 Windows 7
 
@@ -94,7 +94,7 @@ Résultat (réussite/échec/non applicable)
 
 10. Vérifiez que tous les types de flux de contenu disponibles.
 
-11. Vérifiez que le contenu est lu dans le lecteur Microsoft Windows Media.
+11. vérifiez que le contenu est lu dans Microsoft Lecteur Windows Media.
 
 12. Vérifiez que le prix calculé est correct.
 
@@ -142,7 +142,7 @@ Résultat (réussite/échec/non applicable)
 
 
 
- 
+ 
 
 ### <a name="test-pass-preparation"></a>Préparation de la passe de test
 
@@ -156,9 +156,9 @@ Avant d’exécuter un test, vous devez vous assurer que le magasin et les compt
 -   Déterminez les langues à tester.
 -   Déterminez les informations suivantes sur l’environnement de test :
 
-    -   Magasins en direct qui fonctionnent avec Windows XP, Windows Vista et Windows 7
+    -   magasins en direct qui fonctionnent avec Windows XP, Windows Vista et Windows 7
     -   Magasin non-Live à tester
-    -   Vérifiez que la Banque non active à tester est visible dans toutes les versions du système d’exploitation et toutes les versions de la plateforme du lecteur Windows Media.
+    -   vérifiez que la banque non active à tester est visible dans toutes les versions du système d’exploitation et toutes les versions de la plateforme Lecteur Windows Media.
 
 -   Déterminez les informations suivantes sur le magasin à tester :
 
@@ -197,11 +197,11 @@ Avant d’exécuter un test, vous devez vous assurer que le magasin et les compt
 
 Vous devez procéder à des tests sur les configurations suivantes :
 
--   Systèmes d’exploitation Microsoft Windows Media Player 11 sur Windows XP avec Service Pack 3 (SP3) 32 bits et 64 bits
--   Systèmes d’exploitation Windows Media Player 11 sur Windows Vista 32 bits et 64 bits (Windows Media Player 32 bits)
--   Systèmes d’exploitation Microsoft Windows Media Player 12 sur Windows 7 32 bits et 64 bits (Windows Media Player 32 bits)
+-   systèmes d’exploitation Microsoft Lecteur Windows Media 11 sur Windows XP avec Service Pack 3 (SP3) 32 bits et 64 bits
+-   Lecteur Windows Media 11 sur les systèmes d’exploitation Windows Vista 32 bits et 64 bits (32 bits Lecteur Windows Media)
+-   systèmes d’exploitation Microsoft Lecteur Windows Media 12 sur Windows 7 32 bits et 64 bits (32 bits Lecteur Windows Media)
 
-Même si vous devez effectuer des tests sur toutes les versions et plateformes du système d’exploitation répertoriées, les versions 32 bits de Windows Vista et Windows 7 sont les versions de système d’exploitation ciblées en priorité. Vous devez tester l’installation de tous les logiciels sur toutes les plateformes.
+même si vous devez effectuer des tests sur toutes les versions et plateformes du système d’exploitation répertoriées, les versions 32 bits de Windows Vista et Windows 7 sont les versions de système d’exploitation ciblées en priorité. Vous devez tester l’installation de tous les logiciels sur toutes les plateformes.
 
 Les captures d’écran de cette rubrique utilisent un magasin fictif, Proseware, pour illustrer l’utilisation de l’interface utilisateur.
 
@@ -214,7 +214,7 @@ Les sections suivantes décrivent comment configurer et configurer un test de va
 Procédez comme suit pour configurer un ordinateur de test :
 
 1.  Pointez l’ordinateur de test vers les serveurs de test de contenu en ajoutant une clé de Registre spécifique au magasin.
-2.  Définissez les valeurs de la langue et des paramètres régionaux appropriés dans la boîte de dialogue **Options régionales et linguistiques** . Pour définir la langue, sélectionnez l’onglet **formats** , puis sélectionnez la langue à partir de la zone de liste déroulante **format actuel** . Pour définir la région, sélectionnez l’onglet **emplacement** , puis sélectionnez la région dans la zone de liste déroulante **emplacement actuel** . En outre, pour les magasins qui nécessitent l’installation d’un plug-in ou d’un logiciel personnalisé spécifique au magasin, vous devrez peut-être modifier les paramètres régionaux système en fonction de la langue des paramètres régionaux du magasin pour faciliter l’installation. Le programme d’installation du logiciel doit prendre en charge les caractères de type simple et double octet et doit s’exécuter sur n’importe quel paramètre régional. Vous devez tester les paramètres régionaux natifs. Pour définir les paramètres régionaux natifs, ouvrez la boîte de dialogue **région et langue** , sélectionnez l’onglet **administration** , puis cliquez sur le bouton **modifier les paramètres régionaux du système** , comme indiqué dans la capture d’écran suivante. Cliquez sur ce bouton pour afficher la boîte de dialogue **paramètres régionaux et linguistiques** . La zone de liste déroulante **paramètres régionaux actuels** dans cette boîte de dialogue modifie les paramètres régionaux système.
+2.  Définissez les valeurs de la langue et des paramètres régionaux appropriés dans la boîte de dialogue **Options régionales et linguistiques** . Pour définir la langue, sélectionnez l’onglet **formats** , puis sélectionnez la langue à partir de la zone de liste déroulante **format actuel** . Pour définir la région, sélectionnez l’onglet **emplacement** , puis sélectionnez la région dans la zone de liste déroulante **emplacement actuel** . En outre, pour les magasins qui nécessitent l’installation d’un plug-in ou d’un logiciel personnalisé spécifique au magasin, vous devrez peut-être modifier les paramètres régionaux système en fonction de la langue des paramètres régionaux du magasin pour faciliter l’installation. Le programme d’installation du logiciel doit prendre en charge les caractères de type simple et double octet et doit s’exécuter sur n’importe quel paramètre régional. Vous devez tester les paramètres régionaux natifs. Pour définir les paramètres régionaux natifs, ouvrez la boîte de dialogue **région et langue** , sélectionnez l’onglet **administration** , puis cliquez sur le bouton **modifier les paramètres régionaux du système** , comme indiqué dans la capture d’écran suivante. cliquez sur ce bouton pour afficher la boîte **de dialogue Paramètres de la région et de la langue** . La zone de liste déroulante **paramètres régionaux actuels** dans cette boîte de dialogue modifie les paramètres régionaux système.
 
     Les captures d’écran suivantes montrent les onglets sur lesquels vous pouvez définir la région et la langue :
 
@@ -222,13 +222,13 @@ Procédez comme suit pour configurer un ordinateur de test :
 
     ![capture d’écran montrant comment modifier les paramètres régionaux du système actuel](images/reg-lang-settings.png)
 
-3.  Désactivez l’affichage du centre d’informations d’un magasin en définissant le lecteur Windows Media pour lire une visualisation. La principale différence entre les plateformes réside dans le fait que dans le lecteur Windows Media 11, vous commencez par cliquer sur **lecture**, tandis que dans le lecteur Windows Media 12, vous commencez par cliquer avec le bouton droit sur la fenêtre principale.
+3.  désactivez l’affichage du centre d’informations d’un magasin en définissant Lecteur Windows Media pour lire une visualisation. la principale différence entre les plateformes est que, dans Lecteur Windows Media 11, vous commencez par cliquer sur **playing**, tandis que dans Lecteur Windows Media 12, vous commencez par cliquer avec le bouton droit sur la fenêtre principale.
 
-    La capture d’écran suivante montre la séquence d’options de menu qui joue une visualisation dans le lecteur Windows Media 11 :
+    la capture d’écran suivante montre la séquence d’options de menu qui joue une visualisation dans Lecteur Windows Media 11 :
 
     ![capture d’écran montrant comment lire une visualisation dans le lecteur Windows Media 11](images/wmp11-visual.png)
 
-    La capture d’écran suivante montre la séquence d’options de menu qui joue une visualisation dans le lecteur Windows Media 12 :
+    la capture d’écran suivante montre la séquence d’options de menu qui joue une visualisation dans Lecteur Windows Media 12 :
 
     ![capture d’écran montrant comment lire une visualisation dans le lecteur Windows Media 12](images/wmp12-visual.png)
 
@@ -236,14 +236,14 @@ Procédez comme suit pour configurer un ordinateur de test :
 
 Tout d’abord, effectuez les étapes suivantes pour configurer un magasin, puis effectuez les étapes qui suivent les étapes initiales pour vérifier la configuration du magasin :
 
-1.  Lancez le lecteur Windows Media et patientez quelques secondes pour obtenir le dernier fichier de AllServices.xml.
-2.  Pour Windows XP et Windows Vista, pour sélectionner un magasin en ligne, cliquez d’abord sur l’onglet qui se divise entre la vue du Guide multimédia et la vue magasins en ligne. Ensuite, dans le menu, cliquez sur **parcourir tous les magasins en ligne**, puis sélectionnez le magasin en cliquant sur son icône dans la liste des magasins. Pour Windows 7, cliquez sur le bouton dans le volet de navigation de la bibliothèque qui fractionne entre le bouton du **Guide multimédia** et le bouton **magasins en ligne** . Ensuite, dans le menu, cliquez sur **parcourir tous les magasins en ligne**, puis sélectionnez le magasin en cliquant sur son icône dans la liste des magasins.
+1.  lancez Lecteur Windows Media et patientez quelques secondes pour obtenir le dernier fichier de AllServices.xml.
+2.  pour les Windows XP et Windows Vista, pour sélectionner un magasin en ligne, cliquez d’abord sur l’onglet qui se divise entre la vue du Guide multimédia et la vue magasins en ligne. Ensuite, dans le menu, cliquez sur **parcourir tous les magasins en ligne**, puis sélectionnez le magasin en cliquant sur son icône dans la liste des magasins. pour Windows 7, cliquez sur le bouton dans le volet de navigation de la bibliothèque qui fractionne entre le bouton du **Guide multimédia** et le bouton **magasins en ligne** . Ensuite, dans le menu, cliquez sur **parcourir tous les magasins en ligne**, puis sélectionnez le magasin en cliquant sur son icône dans la liste des magasins.
 
-    La capture d’écran suivante montre comment sélectionner un magasin en ligne dans le lecteur Windows Media 11 :
+    la capture d’écran suivante montre comment sélectionner un magasin en ligne dans Lecteur Windows Media 11 :
 
     ![capture d’écran montrant comment sélectionner un magasin en ligne dans le lecteur Windows Media 11](images/wmp11-set-store.png)
 
-    La capture d’écran suivante montre comment sélectionner un magasin en ligne dans le lecteur Windows Media 12 :
+    la capture d’écran suivante montre comment sélectionner un magasin en ligne dans Lecteur Windows Media 12 :
 
     ![capture d’écran montrant comment sélectionner un magasin en ligne dans le lecteur Windows Media 12](images/wmp12-set-store.png)
 
@@ -263,28 +263,28 @@ Tout d’abord, effectuez les étapes suivantes pour configurer un magasin, puis
 
     Vérifiez qu’aucun des logiciels du Store n’ajoute d’icônes à la zone de notification du programme (dans la barre des tâches à gauche de l’horloge) avant d’avoir donné son consentement au client pour télécharger le logiciel du magasin.
 
-    L’expérience de base du magasin ne doit pas nécessiter l’installation de logiciels supplémentaires. Une expérience de base de média, telle que la diffusion de contenu multimédia, doit être disponible. Certains magasins installent des logiciels supplémentaires, tels que les gestionnaires de téléchargement pour une expérience de média premier. ces magasins peuvent avoir des icônes dans la barre d’état système si les icônes représentent des applications distinctes du lecteur Windows Media.
+    L’expérience de base du magasin ne doit pas nécessiter l’installation de logiciels supplémentaires. Une expérience de base de média, telle que la diffusion de contenu multimédia, doit être disponible. Certains magasins installent des logiciels supplémentaires, tels que les gestionnaires de téléchargement pour une expérience de média premier. ces magasins peuvent avoir des icônes dans la barre d’état système si les icônes représentent des applications distinctes de Lecteur Windows Media.
 
 4.  Vérifiez que l’onglet Store fonctionne.
 
     Vérifiez que l’onglet Store change pour indiquer le magasin sélectionné.
 
-    Pour Windows XP et Windows Vista avec le lecteur Windows Media 11, vérifiez que le nom et l’icône de la boutique sont visibles sur l’arrière-plan du lecteur Windows Media 11 sombre.
+    pour Windows XP et Windows Vista avec Lecteur Windows Media 11, vérifiez que le nom et l’icône du magasin sont visibles sur l’arrière-plan de l’Lecteur Windows Media 11 foncé.
 
-    Pour Windows 7 avec le lecteur Windows Media 12, vérifiez que le nom et l’icône du magasin sont visibles dans le volet de navigation de la bibliothèque, dans le menu contextuel du sélecteur de service.
+    pour Windows 7 avec Lecteur Windows Media 12, vérifiez que le nom et l’icône du magasin sont visibles dans le volet de navigation de la bibliothèque, dans le menu contextuel du sélecteur de service.
 
     Vérifiez que le magasin figure en haut de la liste de sélecteurs de magasin dans le menu.
 
     > [!Note]  
     > Il n’y aura pas **d’option de menu Ajouter le service actuel à** si le magasin de type 2 est le magasin proposé (par défaut) pour la région.
 
-     
+     
 
-    La capture d’écran suivante montre le menu qui s’affiche lorsque vous cliquez sur l’onglet situé dans le coin supérieur droit du lecteur Windows Media 11 :
+    la capture d’écran suivante montre le menu qui s’affiche lorsque vous cliquez sur l’onglet situé dans le coin supérieur droit de Lecteur Windows Media 11 :
 
     ![capture d’écran montrant l’onglet Store dans le lecteur Windows Media 11](images/wmp11-verify-store.png)
 
-    La capture d’écran suivante montre le menu qui s’affiche lorsque vous cliquez sur le bouton partagé dans le coin inférieur gauche du lecteur Windows Media 12 :
+    la capture d’écran suivante montre le menu qui s’affiche lorsque vous cliquez sur le bouton partagé dans le coin inférieur gauche de Lecteur Windows Media 12 :
 
     ![capture d’écran montrant l’onglet Store dans le lecteur Windows Media 12](images/wmp12-verify-store.png)
 
@@ -294,11 +294,11 @@ Tout d’abord, effectuez les étapes suivantes pour configurer un magasin, puis
 
 1.  Vérifiez que le magasin dispose d’une option pour créer un nouveau compte, puis suivez les instructions du magasin pour créer un nouveau compte.
 
-    La capture d’écran suivante met en surbrillance un bouton **créer un nouveau compte** tel qu’il peut apparaître dans le lecteur Windows Media 11 :
+    la capture d’écran suivante met en surbrillance un bouton **créer un nouveau compte** tel qu’il peut apparaître dans Lecteur Windows Media 11 :
 
     ![capture d’écran montrant comment vérifier la configuration de compte pour le lecteur Windows Media 11](images/wmp11-verify-account.png)
 
-    La capture d’écran suivante met en surbrillance un bouton **créer un nouveau compte** tel qu’il peut apparaître dans le lecteur Windows Media 12 :
+    la capture d’écran suivante met en surbrillance un bouton **créer un nouveau compte** tel qu’il peut apparaître dans Lecteur Windows Media 12 :
 
     ![capture d’écran montrant comment vérifier la configuration de compte pour le lecteur Windows Media 12](images/wmp12-verify-account.png)
 
@@ -316,14 +316,14 @@ Tout d’abord, procédez comme suit pour configurer la mise en cache des inform
 
 1.  Vérifiez que le magasin possède une case à cocher pour une option **enregistrer mes informations utilisateur** .
 
-    1.  Fermez le lecteur Windows Media.
-    2.  Rouvrez le lecteur Windows Media et essayez de télécharger du contenu.
+    1.  fermez Lecteur Windows Media.
+    2.  rouvrez Lecteur Windows Media et tentez de télécharger du contenu.
 
 2.  Vérifiez que la mise en cache des informations d’identification est présente et opérationnelle.
 
     1.  Déconnectez-vous du Store.
-    2.  Fermez le lecteur Windows Media.
-    3.  Rouvrez le lecteur Windows Media et essayez de télécharger du contenu.
+    2.  fermez Lecteur Windows Media.
+    3.  rouvrez Lecteur Windows Media et tentez de télécharger du contenu.
 
 3.  Vérifiez que l’utilisateur est invité à fournir les informations d’identification si elles ne sont pas mises en cache.
 
@@ -341,13 +341,13 @@ Diffuse tous les types de contenu disponibles à partir du magasin. Par exemple,
 
 1.  Vérifiez que tous les types de flux de contenu disponibles.
 
-2.  Vérifiez que le contenu est lu dans le lecteur Windows Media et non dans un autre lecteur ou contrôle.
+2.  vérifiez que le contenu est lu dans Lecteur Windows Media et pas dans un autre lecteur ou contrôle.
 
 ### <a name="obtaining-content"></a>Obtention de contenu
 
 Tout d’abord, effectuez les étapes suivantes pour acheter du contenu, puis effectuez les étapes qui suivent les étapes initiales pour vérifier l’achat et vérifier que le contenu a été téléchargé :
 
-1.  Lancez le lecteur Windows Media.
+1.  lancez Lecteur Windows Media.
 2.  Connectez-vous au compte de test.
 3.  Accédez au contenu à acheter.
 4.  Suivez la procédure spécifique au magasin pour acheter du contenu.
@@ -360,17 +360,17 @@ Tout d’abord, effectuez les étapes suivantes pour acheter du contenu, puis ef
 
 2.  Vérifiez que le contenu acheté est téléchargé dans la bibliothèque.
 
-    Une fois le téléchargement terminé, accédez au contenu téléchargé dans la bibliothèque du lecteur Windows Media. Le contenu téléchargé se trouve dans la bibliothèque de l’utilisateur actuel.
+    une fois le téléchargement terminé, accédez au contenu téléchargé dans la bibliothèque de Lecteur Windows Media. Le contenu téléchargé se trouve dans la bibliothèque de l’utilisateur actuel.
 
-    -   Pour Windows XP et Windows Vista avec le lecteur Windows Media 11, le contenu téléchargé s’affiche dans le volet de navigation de la bibliothèque, sous **bibliothèque** pivot, puis sous **chansons**.
-    -   Pour Windows 7 avec le lecteur Windows Media 12, le contenu téléchargé dans la bibliothèque du lecteur Windows Media s’affiche dans le volet de navigation du lecteur Windows Media sous **musique**.
+    -   pour Windows XP et Windows Vista avec Lecteur Windows Media 11, le contenu téléchargé s’affiche dans le volet de navigation de la bibliothèque, sous **bibliothèque** pivot, puis sous **chansons**.
+    -   pour Windows 7 avec Lecteur Windows Media 12, le contenu téléchargé dans la bibliothèque de Lecteur Windows Media s’affiche dans le volet de navigation Lecteur Windows Media sous **Musique**.
 
 3.  Vérifiez que les métadonnées sont téléchargées pour l’achat.
 
-    Vérifiez que les colonnes suivantes s’affichent dans la bibliothèque du lecteur Windows Media (ajoutez-les si ce n’est pas le cas) :
+    vérifiez que les colonnes suivantes s’affichent dans la bibliothèque de Lecteur Windows Media (ajoutez-les si ce n’est pas le cas) :
 
     -   Artiste de l’album
-    -   Intitulé
+    -   Titre
     -   Titre de l’album
     -   Fournisseur de contenu
     -   Genre
@@ -397,32 +397,32 @@ Tout d’abord, effectuez les étapes suivantes pour acheter du contenu, puis ef
 
 5.  Vérifiez que le contenu acheté est lu.
 
-    Vérifiez que le contenu téléchargé est lu dans le lecteur Windows Media.
+    vérifiez que le contenu téléchargé est lu dans Lecteur Windows Media.
 
     Lire tout contenu acheté dans le magasin et qui réside dans la bibliothèque locale, ou diffuser un aperçu.
 
-    Pour acheter du contenu dans Windows XP et Windows Vista avec le lecteur Windows Media 11, procédez comme suit :
+    pour acheter du contenu dans Windows XP et Windows Vista avec Lecteur Windows Media 11, procédez comme suit :
 
     1.  Cliquez sur l’onglet en **cours de diffusion** .
     2.  Dans le volet liste, positionnez le pointeur de la souris pour pointer sur une pochette d’album afin d’afficher le lien d' **achat** .
     3.  Cliquez sur **acheter**.
 
-    La capture d’écran suivante montre l’emplacement du lien d' **achat** dans le lecteur Windows Media 11 :
+    la capture d’écran suivante montre l’emplacement du lien d' **achat** dans Lecteur Windows Media 11 :
 
     ![capture d’écran montrant comment acheter du contenu dans le lecteur Windows Media 11](images/wmp11-verify-buy-play.png)
 
-    Pour acheter du contenu dans Windows 7 avec le lecteur Windows Media 12, procédez comme suit :
+    pour acheter du contenu dans Windows 7 avec Lecteur Windows Media 12, procédez comme suit :
 
     1.  En mode bibliothèque, cliquez sur l’onglet **lecture** .
     2.  Dans la sélection, sous la pochette de l’album, cliquez sur **acheter**
 
-    La capture d’écran suivante montre comment acheter du contenu dans le lecteur Windows Media 12 :
+    la capture d’écran suivante montre comment acheter du contenu dans Lecteur Windows Media 12 :
 
     ![capture d’écran montrant comment acheter du contenu dans le lecteur Windows Media 12](images/wmp12-verify-buy-play.png)
 
 6.  Vérifiez que le fait de cliquer sur **acheter** **ou acheter** bascule dans le Store.
 
-    Le lecteur Windows Media doit basculer vers le Store dans la vue Bibliothèque et charger l’expérience d’achat du magasin.
+    le Lecteur Windows Media doit basculer vers le magasin dans la vue bibliothèque et charger l’expérience d’achat du magasin.
 
     Vous devez ensuite continuer à acheter le suivi.
 
@@ -437,17 +437,17 @@ Tout d’abord, effectuez les étapes suivantes pour graver du contenu acheté (
 > [!Note]  
 > Avant de graver une piste achetée, notez son nombre de brûlures afin de pouvoir vérifier ultérieurement si le nombre est décrémenté après avoir gravé la piste.
 
- 
+ 
 
 1.  Cliquez sur l’onglet **graver**
 2.  Faites glisser les pistes achetées vers la **liste de gravure**.
 3.  Cliquez sur le bouton **Démarrer la gravure** .
 
-La capture d’écran suivante montre la **liste de gravure** sur le côté droit de l’écran et le bouton Démarrer la **gravure** sous la liste de **gravure** dans le lecteur Windows Media 11 :
+la capture d’écran suivante montre la **liste de brûlures** sur le côté droit de l’écran et le bouton **démarrer la gravure** sous la liste de **gravure** dans Lecteur Windows Media 11 :
 
 ![capture d’écran montrant comment graver du contenu dans le lecteur Windows Media 11](images/wmp11-verify-burn.png)
 
-La capture d’écran suivante montre comment la liste de gravure s’affiche dans le lecteur Windows Media 12 après avoir fait glisser une piste vers la liste de gravure et affiche le bouton **Démarrer la gravure** en haut de l’onglet **graver** :
+la capture d’écran suivante montre comment la liste de gravure s’affiche dans Lecteur Windows Media 12 après avoir fait glisser une piste vers la liste de gravure et affiche le bouton **démarrer la gravure** en haut de l’onglet **graver** :
 
 ![capture d’écran montrant comment graver du contenu dans le lecteur Windows Media 12](images/wmp12-verify-burn.png)
 
@@ -474,18 +474,18 @@ Tout d’abord, effectuez les étapes suivantes pour synchroniser sur un apparei
 > [!Note]  
 > Avant de transférer une piste achetée, notez son nombre de synchronisation afin de pouvoir vérifier ultérieurement si le nombre est décrémenté après le transfert de la piste.
 
- 
+ 
 
-1.  Connectez un appareil avec une horloge sécurisée. Les exemples incluent des appareils qui utilisent Windows Media DRM pour les périphériques portables, tels qu’un Media Center portable comme iRiver H10, Creative Zen, etc.
-2.  Dans le lecteur Windows Media, cliquez sur l’onglet **synchronisation** .
+1.  Connecter un appareil avec une horloge sécurisée. les exemples incluent des appareils qui utilisent Windows DRM pour les appareils mobiles, tels qu’un media Center portable comme iRiver H10, Creative Zen, etc.
+2.  dans Lecteur Windows Media, cliquez sur l’onglet **synchronisation** .
 3.  Faites glisser le contenu de la bibliothèque vers la zone de **liste synchronisation** sous l’onglet **synchronisation** .
 4.  Cliquez sur le bouton **Démarrer la synchronisation** .
 
-La capture d’écran suivante montre le suivi 1 dans la zone de **liste synchronisation** et affiche le bouton **Démarrer la synchronisation** dans le lecteur Windows Media 11 :
+la capture d’écran suivante montre le suivi 1 dans la zone de **liste synchronisation** et affiche le bouton **démarrer la synchronisation** dans Lecteur Windows Media 11 :
 
 ![capture d’écran montrant comment transférer du contenu dans le lecteur Windows Media 11](images/wmp11-verify-transfer.png)
 
-La capture d’écran suivante montre le suivi 1 dans la zone de **liste synchronisation** et affiche le bouton **Démarrer la synchronisation** dans le lecteur Windows Media 12 :
+la capture d’écran suivante montre le suivi 1 dans la zone de **liste synchronisation** et affiche le bouton **démarrer la synchronisation** dans Lecteur Windows Media 12 :
 
 ![capture d’écran montrant comment transférer du contenu dans le lecteur Windows Media 12](images/wmp12-verify-transfer.png)
 
@@ -530,14 +530,14 @@ Le magasin peut ne pas avoir de types de compte, de restrictions ou de contenu t
 > [!Note]  
 > Bien que Microsoft ne puisse pas certifier les fonctionnalités de compte spécifiques au magasin, pour garantir une expérience utilisateur correcte, vous devez tester cette fonctionnalité.
 
- 
+ 
 
 ### <a name="managing-the-info-center"></a>Gestion d’info Center
 
 Tout d’abord, effectuez les étapes suivantes pour préparer le test de l’État par défaut, puis effectuez l’étape suivante qui suit les étapes initiales pour vérifier que le centre d’informations est désactivé par défaut :
 
 1.  Lire du contenu à partir du Store.
-2.  Basculez en mode de diffusion en cours. Sous Windows XP ou Windows Vista avec le lecteur Windows Media 11, cliquez sur l’onglet **lecture** en cours. Dans Windows 7 avec le lecteur Windows Media 12, cliquez sur le bouton **basculer en cours de lecture** dans le coin inférieur droit.
+2.  Basculez en mode de diffusion en cours. dans Windows XP ou Windows Vista avec Lecteur Windows Media 11, cliquez sur l’onglet en **cours de diffusion** . dans Windows 7 avec Lecteur Windows Media 12, cliquez sur le bouton **basculer en cours de diffusion** dans le coin inférieur droit.
 
 **Pour vérifier que le centre d’informations est désactivé par défaut**
 
@@ -545,15 +545,15 @@ Tout d’abord, effectuez les étapes suivantes pour préparer le test de l’É
 
 Si le magasin offre une vue Info Center, lisez du contenu à partir du Store, et Pendant que le contenu est en cours de lecture, passez en mode lecture en cours et activez le centre d’informations.
 
-Dans Windows XP ou Windows Vista avec le lecteur Windows Media 11, cliquez avec le bouton droit sur la fenêtre de lecture en cours, puis dans le menu contextuel, sélectionnez **affichage du centre d’informations**.
+dans Windows XP ou Windows Vista avec Lecteur Windows Media 11, cliquez avec le bouton droit sur la fenêtre en cours de exécution, puis dans le menu contextuel, sélectionnez **affichage du centre d’informations**.
 
-La capture d’écran suivante montre le menu contextuel dans le lecteur Windows Media 11 :
+la capture d’écran suivante montre le menu contextuel dans Lecteur Windows Media 11 :
 
 ![capture d’écran montrant comment accéder au centre d’informations d’un magasin dans le lecteur Windows Media 11](images/wmp11-info-center.png)
 
-Dans Windows 7 avec le lecteur Windows Media 12, cliquez avec le bouton droit sur la fenêtre de lecture maintenant, dans le menu contextuel, sélectionnez **visualisations**, puis cliquez sur **affichage Centre d’informations**.
+dans Windows 7 avec Lecteur Windows Media 12, cliquez avec le bouton droit sur la fenêtre de diffusion en cours, puis dans le menu contextuel, sélectionnez **visualisations**, puis cliquez sur **affichage centre d’informations**.
 
-La capture d’écran suivante montre le menu contextuel dans le lecteur Windows Media 12 :
+la capture d’écran suivante montre le menu contextuel dans Lecteur Windows Media 12 :
 
 ![capture d’écran montrant comment accéder au centre d’informations d’un magasin dans le lecteur Windows Media 12](images/wmp12-info-center.png)
 
@@ -569,7 +569,7 @@ Si des liens d’achat ou d’autres liens apparaissent sur la page, cliquez sur
 
 -   Vérifiez que les liens affichent le magasin.
 
-    Le lecteur Windows Media doit basculer vers le magasin dans sa bibliothèque.
+    le Lecteur Windows Media doit basculer vers le magasin dans sa bibliothèque.
 
 ## <a name="store-interaction"></a>Interaction du Store
 
@@ -585,8 +585,8 @@ Basculez vers un magasin autre que le magasin en cours de test.
 
 ### <a name="preventing-the-tested-store-from-taking-over-the-active-store"></a>Empêcher le magasin testé de prendre le contrôle du magasin actif
 
--   Avec un autre magasin sélectionné, fermez le lecteur Windows Media, puis redémarrez l’ordinateur.
--   Lancez le lecteur Windows Media.
+-   avec un autre magasin sélectionné, fermez Lecteur Windows Media et redémarrez l’ordinateur.
+-   lancez Lecteur Windows Media.
 
 **Pour vérifier que le magasin testé ne prend pas le contrôle**
 
@@ -612,11 +612,11 @@ Pour vérifier la sécurité du compte, procédez comme suit :
 
 1.  Entrez les informations de compte incorrectes dans la page de connexion et la boîte de dialogue et vérifiez que le magasin les rejette.
 2.  Connectez-vous, affichez la page du compte, puis déconnectez-vous.
-3.  Cliquez sur le bouton précédent dans le lecteur Windows Media et vérifiez que vous ne voyez pas les informations de compte d’utilisateur précédentes.
+3.  cliquez sur le bouton précédent dans Lecteur Windows Media et vérifiez que vous ne voyez pas les informations de compte d’utilisateur précédentes.
 
- 
+ 
 
- 
+ 
 
 
 

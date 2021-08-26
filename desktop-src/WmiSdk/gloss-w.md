@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: W (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc30e54be719bb7765c323662bad805c4c440a00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3e764e567217ffa1b0cd5a686fe5195389a1a49430f97f66098624973d799f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030529"
 ---
 # <a name="w-wmi"></a>W (WMI)
 
@@ -22,7 +22,7 @@ ms.locfileid: "106536415"
 <span id="wmi.gloss_win32_schema"></span><span id="WMI.GLOSS_WIN32_SCHEMA"></span>**Schéma Win32**
 </dt> <dd>
 
-Extension Microsoft du [*schéma CIM*](gloss-c.md) qui contient des définitions de classes et d’instances pour représenter des [*objets managés*](gloss-m.md) qui existent dans un environnement Windows classique.
+extension Microsoft du [*schéma CIM*](gloss-c.md) qui contient des définitions de classes et d’instances pour représenter des [*objets managés*](gloss-m.md) qui existent dans un environnement de Windows classique.
 
 </dd> <dt>
 
@@ -57,14 +57,14 @@ Composant de niveau inférieur qui fournit l’accès entre WMI et les périphé
 <span id="wmi.gloss_wmi_odbc_adapter"></span><span id="WMI.GLOSS_WMI_ODBC_ADAPTER"></span>**Adaptateur WMI ODBC**
 </dt> <dd>
 
-Interface qui permet à une application d’extraire des informations de la gestion Windows à l’aide d' *langage de requêtes WMI (WQL)*. Cela fournit une API standard qui permet aux applications basées sur ODBC d’utiliser les données du [*référentiel CIM*](gloss-c.md) comme s’il s’agissait d’une base de données.
+interface qui permet à une application d’extraire des informations de la gestion des Windows à l’aide de *Langage de requêtes WMI (WQL)*. Cela fournit une API standard qui permet aux applications basées sur ODBC d’utiliser les données du [*référentiel CIM*](gloss-c.md) comme s’il s’agissait d’une base de données.
 
 </dd> <dt>
 
 <span id="wmi.gloss_wmi_query_language"></span><span id="WMI.GLOSS_WMI_QUERY_LANGUAGE"></span>**Langage de requêtes WMI (WQL) (WQL)**
 </dt> <dd>
 
-Un sous-ensemble du langage SQL (Structured Query Language) avec des extensions pour prendre en charge la notification d’événement WMI et d’autres fonctionnalités spécifiques à WMI.
+un sous-ensemble du langage SQL (structured query language) avec des extensions pour prendre en charge la notification d’événement wmi et d’autres fonctionnalités spécifiques à wmi.
 
 </dd> <dt>
 

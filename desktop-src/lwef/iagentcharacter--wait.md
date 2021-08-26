@@ -4,12 +4,12 @@ description: IAgentCharacter Wait
 ms.assetid: 4edb9a47-9385-49da-83ff-144780853ae7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d54ac2de03c78c220803a774537230938a00a776
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7fba3f292b9dc7a0651cf3a1a27adcfe0ea808127d8ce00ae62cb1e84cc126a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014219"
 ---
 # <a name="iagentcharacterwait"></a>IAgentCharacter :: wait
 
@@ -44,9 +44,9 @@ Adresse d’une variable qui reçoit l’ID de demande d' **attente** .
 
 Utilisez cette méthode uniquement lorsque vous prenez en charge plusieurs caractères (simultanés) et que vous souhaitez séquencer leur interaction. (Pour un caractère unique, chaque demande d’animation est lue de manière séquentielle, à l’issue de la requête précédente.) Si vous avez deux caractères et que vous souhaitez que la demande d’animation d’un caractère soit attendue jusqu’à la fin de l’animation de l’autre caractère, définissez la méthode d' **attente** sur l’ID de demande d’animation de l’autre caractère.
 
- 
+ 
 
- 
+ 
 
 
 

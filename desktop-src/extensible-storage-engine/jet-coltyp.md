@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cff7faa9b5523a25f9adb83f2d58797d0630dd529777a089faf36b77f9bce385
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d4a7433b6e2882a90c9c6fdfe0180b5f5ab7a8e6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119668379"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476875"
 ---
 # <a name="jet_coltyp"></a>JET_COLTYP
 
@@ -31,149 +31,36 @@ _**S’applique à :** Windows | Windows Serveurs_
 
 Le **JET_COLTYP** groupe de constantes décrit tous les types de colonne possibles qui se trouvent dans une table.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constante/valeur</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_coltypNil<br />
-0</p></td>
-<td><p>Type de colonne non valide.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypBit<br />
-1</p></td>
-<td><p>Type de colonne qui autorise trois valeurs : <strong>true</strong>, <strong>false</strong>ou <strong>null</strong>. Ce type de colonne est d’une longueur d’un octet et sa taille est fixe. <strong>False</strong> trie avant <strong>true</strong>. Notez que la taille de ce type ne correspond pas à la taille du type booléen variant.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypUnsignedByte<br />
-2</p></td>
-<td><p>Entier non signé sur 1 octet qui peut prendre des valeurs comprises entre 0 (zéro) et 255.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypShort<br />
-3</p></td>
-<td><p>Entier signé sur 2 octets qui peut prendre des valeurs comprises entre-32768 et 32767. Les valeurs négatives sont triées avant les valeurs positives.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypLong<br />
-4</p></td>
-<td><p>Entier signé sur 4 octets qui peut prendre des valeurs comprises entre-2147483648 et 2147483647. Les valeurs négatives sont triées avant les valeurs positives.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypCurrency<br />
-5</p></td>
-<td><p>Entier signé de 8 octets qui peut prendre des valeurs comprises entre-9223372036854775808 et 9223372036854775807. Les valeurs négatives sont triées avant les valeurs positives. Ce type de colonne est identique au type de devise variant. Ce type de colonne peut également être utilisé en tant qu’entier signé de 8 octets natif.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypIEEESingle<br />
-6</p></td>
-<td><p>Nombre à virgule flottante simple précision (4 octets).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypIEEEDouble<br />
-7</p></td>
-<td><p>Nombre à virgule flottante double précision (8 octets).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypDateTime<br />
-8</p></td>
-<td><p>Nombre à virgule flottante double précision (8 octets) qui représente une date en jours fractionnaires depuis l’année 1900. Ce type de colonne est identique au type de date variant.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypBinary<br />
-9</p></td>
-<td><p>Colonne binaire fixe ou de longueur variable d’une longueur maximale de 255 octets.</p>
-<p>Ce type de colonne peut être utilisé pour implémenter un GUID s’il est configuré en tant que colonne binaire de 16 octets de longueur fixe. Le seul inconvénient est que l’ordre relatif des valeurs dans un index sur ce type de colonne ne correspond pas à l’ordre relatif du rendu de chaîne de Registre standard d’un GUID ( &quot; {0d6cec99-3f3f-4dc7-a5e6-f87aefeb908b} &quot; ).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypText<br />
-10</p></td>
-<td><p>Colonne de texte de longueur fixe ou variable qui peut contenir jusqu’à 255 caractères ASCII ou 127 caractères Unicode.</p>
-<p>Toutes les chaînes sont stockées sous la forme d’un nombre de caractères compté. Les chaînes n’ont pas besoin d’être terminées par null. En outre, il n’est pas nécessaire que le nombre inclue une marque de fin null. Enfin, les caractères null incorporés peuvent être stockés.</p>
-<p>Les chaînes ASCII sont toujours traitées comme non sensibles à la casse à des fins de tri et de recherche. En outre, seuls les caractères qui précèdent le premier caractère null (le cas échéant) sont pris en compte pour le tri et la recherche.</p>
-<p>Les chaînes Unicode utilisent l’API Win32 <a href="/windows/win32/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> pour créer des clés de tri qui sont ensuite utilisées pour le tri et la recherche de ces données. Par défaut, les chaînes Unicode sont considérées comme étant dans les paramètres régionaux anglais (États-Unis) et sont triées et recherchées à l’aide des indicateurs de normalisation suivants : NORM_IGNORECASE, NORM_IGNOREKANATYPE et NORM_IGNOREWIDTH. dans Windows 2000, il est possible de personnaliser ces indicateurs par index pour inclure également NORM_IGNORENONSPACE. dans Windows XP et versions ultérieures, il est possible de demander n’importe quelle combinaison des indicateurs de normalisation suivants par index : LCMAP_SORTKEY, LCMAP_BYTEREV, NORM_IGNORECASE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREKANATYPE, NORM_IGNOREWIDTH et SORT_STRINGSORT.</p>
-<p>Dans toutes les versions, il est possible de personnaliser les paramètres régionaux par index. Les paramètres régionaux peuvent être utilisés tant que le module linguistique approprié a été installé sur l’ordinateur. Enfin, tous les caractères null rencontrés dans une chaîne Unicode sont complètement ignorés.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypLongBinary<br />
-11</p></td>
-<td><p>Colonne binaire fixe ou de longueur variable d’une longueur maximale de 2147483647 octets. Ce type est considéré comme une valeur longue. Une valeur long est spéciale, car elle peut être volumineuse et être accessible en tant que flux. Sinon, ce type est identique à JET_coltypBinary.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypLongText<br />
-12</p></td>
-<td><p>Colonne de texte de longueur fixe ou variable qui peut contenir jusqu’à 2147483647 caractères ASCII ou 1073741823 caractères Unicode. Ce type est considéré comme une valeur longue. Une valeur long est spéciale, car elle peut être volumineuse et être accessible en tant que flux. Sinon, ce type est identique à JET_coltypText.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypSLV<br />
-13</p></td>
-<td><p>Ce type de colonne est obsolète.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypUnsignedLong<br />
-14</p></td>
-<td><p>Entier non signé sur 4 octets qui peut prendre des valeurs comprises entre 0 (zéro) et 4294967295.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypLongLong<br />
-15</p></td>
-<td><p>Entier signé de 8 octets qui peut prendre des valeurs comprises entre-9223372036854775808 et 9223372036854775807. Les valeurs négatives sont triées avant les valeurs positives.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypGUID<br />
-16</p></td>
-<td><p>Colonne binaire de 16 octets de longueur fixe qui représente en mode natif le type de données GUID. Les valeurs de colonne GUID sont triées de la même façon que les valeurs qui sont triées en tant que chaînes dans un format standard (par exemple, {4999b5c0-7657-42d9-bdc1-4b779784e013}).</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_coltypUnsignedShort<br />
-17</p></td>
-<td><p>Entier non signé sur 2 octets qui peut prendre des valeurs comprises entre 0 et 65535.</p>
-<p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_coltypMax<br />
-18</p></td>
-<td><p>Constante décrivant le maximum (autrement dit, un au-delà du type de colonne valide le plus grand) pris en charge par le moteur.</p>
-<p>Cette valeur doit être utilisée avec précaution, car elle changera à mesure que de nouveaux types de colonne seront pris en charge. par exemple, elle a une valeur littérale différente sur Windows 2000 que sur Windows XP et versions ultérieures.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Constante/valeur</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_coltypNil<br />0</p> | <p>Type de colonne non valide.</p> | 
+| <p>JET_coltypBit<br />1</p> | <p>Type de colonne qui autorise trois valeurs : <strong>true</strong>, <strong>false</strong>ou <strong>null</strong>. Ce type de colonne est d’une longueur d’un octet et sa taille est fixe. <strong>False</strong> trie avant <strong>true</strong>. Notez que la taille de ce type ne correspond pas à la taille du type booléen variant.</p> | 
+| <p>JET_coltypUnsignedByte<br />2</p> | <p>Entier non signé sur 1 octet qui peut prendre des valeurs comprises entre 0 (zéro) et 255.</p> | 
+| <p>JET_coltypShort<br />3</p> | <p>Entier signé sur 2 octets qui peut prendre des valeurs comprises entre-32768 et 32767. Les valeurs négatives sont triées avant les valeurs positives.</p> | 
+| <p>JET_coltypLong<br />4</p> | <p>Entier signé sur 4 octets qui peut prendre des valeurs comprises entre-2147483648 et 2147483647. Les valeurs négatives sont triées avant les valeurs positives.</p> | 
+| <p>JET_coltypCurrency<br />5</p> | <p>Entier signé de 8 octets qui peut prendre des valeurs comprises entre-9223372036854775808 et 9223372036854775807. Les valeurs négatives sont triées avant les valeurs positives. Ce type de colonne est identique au type de devise variant. Ce type de colonne peut également être utilisé en tant qu’entier signé de 8 octets natif.</p> | 
+| <p>JET_coltypIEEESingle<br />6</p> | <p>Nombre à virgule flottante simple précision (4 octets).</p> | 
+| <p>JET_coltypIEEEDouble<br />7</p> | <p>Nombre à virgule flottante double précision (8 octets).</p> | 
+| <p>JET_coltypDateTime<br />8</p> | <p>Nombre à virgule flottante double précision (8 octets) qui représente une date en jours fractionnaires depuis l’année 1900. Ce type de colonne est identique au type de date variant.</p> | 
+| <p>JET_coltypBinary<br />9</p> | <p>Colonne binaire fixe ou de longueur variable d’une longueur maximale de 255 octets.</p><p>Ce type de colonne peut être utilisé pour implémenter un GUID s’il est configuré en tant que colonne binaire de 16 octets de longueur fixe. Le seul inconvénient est que l’ordre relatif des valeurs dans un index sur ce type de colonne ne correspond pas à l’ordre relatif du rendu de chaîne de Registre standard d’un GUID (c’est-à-dire « {0d6cec99-3f3f-4dc7-a5e6-f87aefeb908b} »).</p> | 
+| <p>JET_coltypText<br />10</p> | <p>Colonne de texte de longueur fixe ou variable qui peut contenir jusqu’à 255 caractères ASCII ou 127 caractères Unicode.</p><p>Toutes les chaînes sont stockées sous la forme d’un nombre de caractères compté. Les chaînes n’ont pas besoin d’être terminées par null. En outre, il n’est pas nécessaire que le nombre inclue une marque de fin null. Enfin, les caractères null incorporés peuvent être stockés.</p><p>Les chaînes ASCII sont toujours traitées comme non sensibles à la casse à des fins de tri et de recherche. En outre, seuls les caractères qui précèdent le premier caractère null (le cas échéant) sont pris en compte pour le tri et la recherche.</p><p>Les chaînes Unicode utilisent l’API Win32 <a href="/windows/win32/api/winnls/nf-winnls-lcmapstringa">LCMapString</a> pour créer des clés de tri qui sont ensuite utilisées pour le tri et la recherche de ces données. Par défaut, les chaînes Unicode sont considérées comme étant dans les paramètres régionaux anglais (États-Unis) et sont triées et recherchées à l’aide des indicateurs de normalisation suivants : NORM_IGNORECASE, NORM_IGNOREKANATYPE et NORM_IGNOREWIDTH. dans Windows 2000, il est possible de personnaliser ces indicateurs par index pour inclure également NORM_IGNORENONSPACE. dans Windows XP et versions ultérieures, il est possible de demander n’importe quelle combinaison des indicateurs de normalisation suivants par index : LCMAP_SORTKEY, LCMAP_BYTEREV, NORM_IGNORECASE, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREKANATYPE, NORM_IGNOREWIDTH et SORT_STRINGSORT.</p><p>Dans toutes les versions, il est possible de personnaliser les paramètres régionaux par index. Les paramètres régionaux peuvent être utilisés tant que le module linguistique approprié a été installé sur l’ordinateur. Enfin, tous les caractères null rencontrés dans une chaîne Unicode sont complètement ignorés.</p> | 
+| <p>JET_coltypLongBinary<br />11</p> | <p>Colonne binaire fixe ou de longueur variable d’une longueur maximale de 2147483647 octets. Ce type est considéré comme une valeur longue. Une valeur long est spéciale, car elle peut être volumineuse et être accessible en tant que flux. Sinon, ce type est identique à JET_coltypBinary.</p> | 
+| <p>JET_coltypLongText<br />12</p> | <p>Colonne de texte de longueur fixe ou variable qui peut contenir jusqu’à 2147483647 caractères ASCII ou 1073741823 caractères Unicode. Ce type est considéré comme une valeur longue. Une valeur long est spéciale, car elle peut être volumineuse et être accessible en tant que flux. Sinon, ce type est identique à JET_coltypText.</p> | 
+| <p>JET_coltypSLV<br />13</p> | <p>Ce type de colonne est obsolète.</p> | 
+| <p>JET_coltypUnsignedLong<br />14</p> | <p>Entier non signé sur 4 octets qui peut prendre des valeurs comprises entre 0 (zéro) et 4294967295.</p><p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p> | 
+| <p>JET_coltypLongLong<br />15</p> | <p>Entier signé de 8 octets qui peut prendre des valeurs comprises entre-9223372036854775808 et 9223372036854775807. Les valeurs négatives sont triées avant les valeurs positives.</p><p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p> | 
+| <p>JET_coltypGUID<br />16</p> | <p>Colonne binaire de 16 octets de longueur fixe qui représente en mode natif le type de données GUID. Les valeurs de colonne GUID sont triées de la même façon que les valeurs qui sont triées en tant que chaînes dans un format standard (par exemple, {4999b5c0-7657-42d9-bdc1-4b779784e013}).</p><p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p> | 
+| <p>JET_coltypUnsignedShort<br />17</p> | <p>Entier non signé sur 2 octets qui peut prendre des valeurs comprises entre 0 et 65535.</p><p><strong>Windows Vista et Windows Server 2008 :</strong>  ce type de colonne est pris en charge sur Windows Vista, Windows Server 2008 et versions ultérieures.</p> | 
+| <p>JET_coltypMax<br />18</p> | <p>Constante décrivant le maximum (autrement dit, un au-delà du type de colonne valide le plus grand) pris en charge par le moteur.</p><p>Cette valeur doit être utilisée avec précaution, car elle changera à mesure que de nouveaux types de colonne seront pris en charge. par exemple, elle a une valeur littérale différente sur Windows 2000 que sur Windows XP et versions ultérieures.</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

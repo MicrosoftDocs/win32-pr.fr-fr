@@ -4,12 +4,12 @@ ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: Attributs XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d410dcb1476d90568bee10c7c1e41ee7a9bee2e7
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 7bf76889fdf38c6636b4beb5ba566b18af69e34c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548817"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622975"
 ---
 # <a name="xml-attributes"></a>Attributs XML
 
@@ -23,14 +23,14 @@ Bien que les parties privées ne soient pas autorisées à introduire de nouvell
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom d’attribut</th>
+<th>Nom de l'attribut</th>
 <th>Types de données et valeurs</th>
 <th>Objectif</th>
 <th>Notes</th>
@@ -70,13 +70,13 @@ L’exemple suivant montre comment identifier une instance d’option à l’aid
 <td>la <br/></td>
 <td>Énumération<br/> Valeurs autorisées :<br/>
 <ul>
-<li>None <br/></li>
+<li>Aucune <br/></li>
 <li>PrintTicketSettings <br/></li>
 <li>AdminSettings <br/></li>
 <li>DeviceSettings <br/></li>
 </ul></td>
 <td>Indique si l’option est disponible pour la sélection ou pour l’utilisation. <br/></td>
-<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> None <br/>
+<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> Aucune <br/>
 <ul>
 <li>L’option n’est pas restreinte. <br/></li>
 </ul>

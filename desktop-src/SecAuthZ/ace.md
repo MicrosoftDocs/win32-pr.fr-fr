@@ -4,12 +4,12 @@ ms.assetid: 980b8242-2ba2-469f-b834-da7d3fb22e14
 title: ACE (Winnt. h)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de555170bc8b7c1594b38adaa95d19b7e9ace54c8241fc971ea9f5383cf3e115
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: afa93490c4cf74ac33e3b15eeb888f011f81aa2b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117785218"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470985"
 ---
 # <a name="ace"></a>MAILLOTS
 
@@ -19,150 +19,26 @@ Le tableau suivant répertorie les types d' **entrées** du contrôle d’accès
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type d’entrée de contrôle d’accès</th>
-<th>Structure</th>
-<th>Type ACL</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Accès autorisé</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace"><strong>ACCESS_ALLOWED_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Accès autorisé</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_callback_ace"><strong>ACCESS_ALLOWED_CALLBACK_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Accès autorisé</li>
-<li>Spécifique à l’objet</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace"><strong>ACCESS_ALLOWED_OBJECT_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Accès autorisé</li>
-<li>Spécifique à l’objet</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_callback_object_ace"><strong>ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Accès refusé</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_ace"><strong>ACCESS_DENIED_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Accès refusé</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_callback_ace"><strong>ACCESS_DENIED_CALLBACK_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Accès refusé</li>
-<li>Spécifique à l’objet</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_callback_object_ace"><strong>ACCESS_DENIED_CALLBACK_OBJECT_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Accès refusé</li>
-<li>Spécifique à l’objet</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_object_ace"><strong>ACCESS_DENIED_OBJECT_ACE</strong></a></td>
-<td>Discrétionnaire</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Alarme système</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_ace"><strong>SYSTEM_ALARM_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Alarme système</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_callback_ace"><strong>SYSTEM_ALARM_CALLBACK_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Alarme système</li>
-<li>Spécifique à l’objet</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_callback_object_ace"><strong>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Alarme système</li>
-<li>Spécifique à l’objet</li>
-</ul></td>
-<td><a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Audit du système</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_ace"><strong>SYSTEM_AUDIT_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Audit du système</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_callback_ace"><strong>SYSTEM_AUDIT_CALLBACK_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="odd">
-<td><ul>
-<li>Audit du système</li>
-<li>Spécifique à l’objet</li>
-<li>Autorise le rappel lors de la vérification de l’accès</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_callback_object_ace"><strong>SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-<tr class="even">
-<td><ul>
-<li>Audit du système</li>
-<li>Spécifique à l’objet</li>
-</ul></td>
-<td><a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_AUDIT_OBJECT_ACE</strong></a></td>
-<td>Système</td>
-</tr>
-</tbody>
-</table>
+
+| Type d’entrée de contrôle d’accès | Structure | Type ACL | 
+|----------|-----------|----------|
+| <ul><li>Accès autorisé</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_ace"><strong>ACCESS_ALLOWED_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès autorisé</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_callback_ace"><strong>ACCESS_ALLOWED_CALLBACK_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès autorisé</li><li>Spécifique à l’objet</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_object_ace"><strong>ACCESS_ALLOWED_OBJECT_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès autorisé</li><li>Spécifique à l’objet</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_allowed_callback_object_ace"><strong>ACCESS_ALLOWED_CALLBACK_OBJECT_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès refusé</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_ace"><strong>ACCESS_DENIED_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès refusé</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_callback_ace"><strong>ACCESS_DENIED_CALLBACK_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès refusé</li><li>Spécifique à l’objet</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_callback_object_ace"><strong>ACCESS_DENIED_CALLBACK_OBJECT_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Accès refusé</li><li>Spécifique à l’objet</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-access_denied_object_ace"><strong>ACCESS_DENIED_OBJECT_ACE</strong></a> | Discrétionnaire | 
+| <ul><li>Alarme système</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_ace"><strong>SYSTEM_ALARM_ACE</strong></a> | Système | 
+| <ul><li>Alarme système</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_callback_ace"><strong>SYSTEM_ALARM_CALLBACK_ACE</strong></a> | Système | 
+| <ul><li>Alarme système</li><li>Spécifique à l’objet</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_callback_object_ace"><strong>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</strong></a> | Système | 
+| <ul><li>Alarme système</li><li>Spécifique à l’objet</li></ul> | <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_ALARM_OBJECT_ACE</strong></a> | Système | 
+| <ul><li>Audit du système</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_ace"><strong>SYSTEM_AUDIT_ACE</strong></a> | Système | 
+| <ul><li>Audit du système</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_callback_ace"><strong>SYSTEM_AUDIT_CALLBACK_ACE</strong></a> | Système | 
+| <ul><li>Audit du système</li><li>Spécifique à l’objet</li><li>Autorise le rappel lors de la vérification de l’accès</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_audit_callback_object_ace"><strong>SYSTEM_AUDIT_CALLBACK_OBJECT_ACE</strong></a> | Système | 
+| <ul><li>Audit du système</li><li>Spécifique à l’objet</li></ul> | <a href="/windows/desktop/api/Winnt/ns-winnt-system_alarm_object_ace"><strong>SYSTEM_AUDIT_OBJECT_ACE</strong></a> | Système | 
+
 
 
 

@@ -4,17 +4,17 @@ description: Avec un affichage de liste, les utilisateurs peuvent afficher et in
 ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 13847e484ccaa78fd08ac9fe60b1432d272b9efa
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 8f1440608e5a9aded6acf55d9e6bb3d9ce1bb096
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524563"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472148"
 ---
 # <a name="list-views"></a>Affichages de liste
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un affichage de liste, les utilisateurs peuvent afficher et interagir avec une collection d’objets de données, à l’aide d’une sélection unique ou d’une sélection multiple.
 
@@ -90,31 +90,9 @@ Le contrôle List View prend en charge cinq vues standard :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Sélecteur de colonnes</strong><br/> Les affichages de listes comportent parfois autant de colonnes qu’il n’est pas pratique de les afficher toutes. Dans ce cas, la meilleure approche consiste à afficher les colonnes les plus utiles par défaut et à autoriser les utilisateurs à ajouter ou supprimer des colonnes en fonction des besoins. <br/></td>
-<td><img src="images/ctrl-list-views-image7.png" alt="Screen shot of list view with Column Chooser menu " /><br/> Cliquez avec le bouton droit sur l’en-tête de colonne pour afficher un menu contextuel qui permet aux utilisateurs d’ajouter ou de supprimer des colonnes.<br/> <img src="images/ctrl-list-views-image8.png" alt="Screen shot of Choose Details dialog box " /><br/> Cliquez sur plus dans le menu contextuel de l’en-tête de colonne pour afficher la boîte de dialogue Choisir les colonnes, qui permet aux utilisateurs d’ajouter ou de supprimer des colonnes, ainsi que de les réorganiser.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Vue de la liste de cases à cocher</strong><br/> Permet aux utilisateurs de sélectionner plusieurs éléments.<br/></td>
-<td>Les affichages de liste de sélection multiple ont exactement la même apparence que les affichages de liste à sélection unique, de sorte qu’il n’y a aucun indice visuel qu’ils prennent en charge la sélection multiple. Une vue de liste de cases à cocher peut être utilisée pour indiquer clairement que plusieurs sélections sont possibles. Par conséquent, ce modèle doit être utilisé pour les tâches où la sélection multiple est essentielle ou couramment utilisée.<br/> <img src="images/ctrl-list-views-image9.png" alt="Screen shot of dialog box with several check boxes " /><br/> Dans cet exemple, une petite vue d’icône utilise des cases à cocher, car la sélection multiple est essentielle à la tâche.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Affichages de listes avec groupes</strong><br/> Organisez les données en groupes.<br/></td>
-<td>Alors que les vues de détails prennent souvent en charge le tri des données par l’une des colonnes, les vues de liste permettent aux utilisateurs d’organiser les éléments en groupes. Voici quelques-uns des avantages du regroupement :<br/>
-<ul>
-<li>Comme les groupes fonctionnent dans tous les affichages (à l’exception de la liste), par exemple, les utilisateurs peuvent regrouper une grande vue d’icônes supplémentaires d’albums par artiste.</li>
-<li>Les groupes peuvent être des collections de haut niveau, qui sont souvent plus explicites que le regroupement des données directement. Par exemple, l’Explorateur Windows regroupe les dates dans aujourd’hui, hier, la semaine dernière, plus tôt cette année et il y A longtemps.</li>
-</ul>
-<img src="images/ctrl-list-views-image10.png" alt="Screen shot of list view with several data groups " /><br/> Dans cet exemple, le centre d’accueil Windows affiche des éléments groupés en mode liste.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>Sélecteur de colonnes</strong><br /> Les affichages de listes comportent parfois autant de colonnes qu’il n’est pas pratique de les afficher toutes. Dans ce cas, la meilleure approche consiste à afficher les colonnes les plus utiles par défaut et à autoriser les utilisateurs à ajouter ou supprimer des colonnes en fonction des besoins. <br /> | <img src="images/ctrl-list-views-image7.png" alt="Screen shot of list view with Column Chooser menu " /><br /> Cliquez avec le bouton droit sur l’en-tête de colonne pour afficher un menu contextuel qui permet aux utilisateurs d’ajouter ou de supprimer des colonnes.<br /><img src="images/ctrl-list-views-image8.png" alt="Screen shot of Choose Details dialog box " /><br /> Cliquez sur plus dans le menu contextuel de l’en-tête de colonne pour afficher la boîte de dialogue Choisir les colonnes, qui permet aux utilisateurs d’ajouter ou de supprimer des colonnes, ainsi que de les réorganiser.<br /> | | <strong>Vue de la liste de cases à cocher</strong><br /> Permet aux utilisateurs de sélectionner plusieurs éléments.<br /> | Les affichages de liste de sélection multiple ont exactement la même apparence que les affichages de liste à sélection unique, de sorte qu’il n’y a aucun indice visuel qu’ils prennent en charge la sélection multiple. Une vue de liste de cases à cocher peut être utilisée pour indiquer clairement que plusieurs sélections sont possibles. Par conséquent, ce modèle doit être utilisé pour les tâches où la sélection multiple est essentielle ou couramment utilisée.<br /><img src="images/ctrl-list-views-image9.png" alt="Screen shot of dialog box with several check boxes " /><br /> Dans cet exemple, une petite vue d’icône utilise des cases à cocher, car la sélection multiple est essentielle à la tâche.<br /> | | <strong>Affichages de listes avec groupes</strong><br /> Organisez les données en groupes.<br /> | Alors que les vues de détails prennent souvent en charge le tri des données par l’une des colonnes, les vues de liste permettent aux utilisateurs d’organiser les éléments en groupes. Voici quelques-uns des avantages du regroupement :<br /><ul><li>Comme les groupes fonctionnent dans tous les affichages (à l’exception de la liste), par exemple, les utilisateurs peuvent regrouper une grande vue d’icônes supplémentaires d’albums par artiste.</li><li>Les groupes peuvent être des collections de haut niveau, qui sont souvent plus explicites que le regroupement des données directement. par exemple, Windows Explorer groupe les dates dans aujourd’hui, hier, la semaine dernière, plus tôt cette année et il y a longtemps.</li></ul><img src="images/ctrl-list-views-image10.png" alt="Screen shot of list view with several data groups " /><br /> dans cet exemple, le centre d’accueil Windows affiche des éléments groupés en mode liste.<br /> | 
+
 
 
 
@@ -154,7 +132,7 @@ Le contrôle List View prend en charge cinq vues standard :
     Dans cet exemple, le menu contextuel Trier par modifie l’ordre de tri. Cliquer sur nom une fois trie par nom dans l’ordre croissant. Le fait de cliquer à nouveau sur nom effectue un tri par nom dans l’ordre décroissant.
 
 -   **Rendez l’en-tête de colonne de la vue liste accessible à l’aide du clavier.**
-    -   **Développeurs :** Pour ce faire, vous pouvez définir le focus sur le contrôle d’en-tête de colonne. Cette fonctionnalité est une nouveauté de Windows Vista.
+    -   **Développeurs :** Pour ce faire, vous pouvez définir le focus sur le contrôle d’en-tête de colonne. cette fonctionnalité est une nouveauté de Windows Vista.
 -   **Lorsque vous désactivez un mode liste, désactivez également les étiquettes et les boutons de commande associés.**
 -   **Évitez le défilement horizontal.** Le mode liste utilise le défilement horizontal. Ce mode est généralement le plus compact, mais le défilement horizontal est généralement plus difficile à utiliser que le défilement vertical. Utilisez plutôt la vue petite icône si la compacité n’est pas importante. Toutefois, le mode liste est un bon choix lorsqu’il existe de nombreux éléments triés par ordre alphabétique et un espace d’écran suffisant pour un contrôle large.
 

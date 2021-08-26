@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 928bda8af246b41bab2c285a5292155917ba8903c6dd71c20177dbf906c64924
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939159"
 ---
 # <a name="inkdisp-class"></a>InkDisp, classe
 
@@ -72,11 +72,11 @@ La classe **InkDisp** possède ces méthodes.
 |:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AddStrokesAtRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-addstrokesatrectangle)           | Insère une collection de traits dans l’objet **InkDisp** au niveau du rectangle spécifié.<br/>                                                                                                       |
 | [**CanPaste**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-canpaste)                                     | Indique si [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) peut être converti en objet **InkDisp** .<br/>                                                                                       |
-| [**Capture**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip)                                      | Supprime des parties d’un trait ou d’une collection de traits situés à l’extérieur d’un rectangle.<br/>                                                                                                       |
+| [**Clip**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-clip)                                      | Supprime des parties d’un trait ou d’une collection de traits situés à l’extérieur d’un rectangle.<br/>                                                                                                       |
 | [**ClipboardCopy**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy)                           | Copie la collection [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) dans le presse-papiers.<br/>                                                                                                           |
 | [**ClipboardCopyWithRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle) | Copie les objets [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) contenus dans le rectangle connu dans le presse-papiers.<br/>                                                               |
 | [**ClipboardPaste**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste)                         | Copie [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) du presse-papiers vers l’objet **InkDisp** .<br/>                                                                                               |
-| [**Clone**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Crée un objet **InkDisp** dupliqué.<br/>                                                                                                                                                   |
+| [**Répliqué**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Crée un objet **InkDisp** dupliqué.<br/>                                                                                                                                                   |
 | [**CreateStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke)                             | Crée un trait à partir des points ou des données de paquet.<br/>                                                                                                                                              |
 | [**CreateStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes)                           | Crée une collection [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) pour cet objet **InkDisp** .<br/>                                                                                                |
 | [**DeleteStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke)                             | Supprime un trait de l’objet **InkDisp** .<br/>                                                                                                                                             |
@@ -87,7 +87,7 @@ La classe **InkDisp** possède ces méthodes.
 | [**HitTestCircle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle)                   | Récupère la collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) qui est entièrement à l’intérieur ou à l’intersection d’un cercle connu.<br/>                                                  |
 | [**HitTestWithLasso**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso)              | Récupère les traits dans une zone de sélection de polylignes.<br/>                                                                                                                                   |
 | [**HitTestWithRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle)        | Récupère les traits qui sont contenus dans un rectangle spécifié.<br/>                                                                                                                    |
-| [**Chargement**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Remplit un nouvel objet **InkDisp** avec des données binaires connues.<br/>                                                                                                                                |
+| [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Remplit un nouvel objet **InkDisp** avec des données binaires connues.<br/>                                                                                                                                |
 | [**NearestPoint**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint)                             | Récupère le [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) dans l’objet **InkDisp** le plus proche d’un point connu, en fournissant éventuellement des informations supplémentaires.<br/>                       |
 | [**Enregistrer**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save)                                             | Convertit l’encre dans un format spécifié et retourne les données binaires.<br/>                                                                                                                       |
 
@@ -112,12 +112,12 @@ La classe **InkDisp** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
 > [!Note]  
-> La première instanciation de cet objet entraîne également l’instanciation de GDI+. Un effet secondaire est que si vous utilisez un seul objet Ink dans une boucle et que vous le créez et le détruisez dans la boucle, vous recourez à l’instanciation de GDI+. Cela peut entraîner une dégradation des performances dans votre application. Pour éviter cela, conservez une seule instance d’un objet Ink à tout moment pendant que votre application utilise de l’encre.
+> la première instanciation de cet objet provoque également l’instanciation de GDI+. un effet secondaire est que si vous utilisez un seul objet ink dans une boucle et que vous le créez et le détruisez dans la boucle, vous risquez d’instancier GDI+. Cela peut entraîner une dégradation des performances dans votre application. Pour éviter cela, conservez une seule instance d’un objet Ink à tout moment pendant que votre application utilise de l’encre.
 
  
 
@@ -135,7 +135,7 @@ L’objet [**InkRenderer**](inkrenderer-class.md) gère les mappages entre l’e
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

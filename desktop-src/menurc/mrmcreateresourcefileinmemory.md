@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17bbe36a55b5be18f9f4005b4e0ae24d3d610bd5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ff34ddaab25f47f537c1270ad3a70719a43e2e1efa978fbad19cbe9ae77ba937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886749"
 ---
 # <a name="mrmcreateresourcefileinmemory-function"></a>MrmCreateResourceFileInMemory fonction)
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Crée des informations PRI en tant qu’objet BLOB en mémoire, et non en tant que fichier sur le disque. La fonction alloue de la mémoire et retourne un pointeur vers cette mémoire dans *outputPriData*. Appelez [**MrmFreeMemory**](mrmfreememory.md) avec le même pointeur pour libérer de la mémoire. Pour plus d’informations et pour obtenir des procédures pas à pas sur l’utilisation de ces API, consultez [API PRI (package Resource Indexing) et systèmes de génération personnalisés](/windows/uwp/app-resources/pri-apis-custom-build-systems).
 
@@ -85,9 +85,9 @@ Adresse d’un pointeur vers l’octet. La fonction alloue de la mémoire et ret
 *outputPriSize* \[ à\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
-Adresse d’un ULONG. Dans _outputPriSize *, la fonction retourne la taille de la mémoire allouée appelée par *outputPriData*.
+Adresse d’un ULONG. Dans *outputPriSize*, la fonction retourne la taille de la mémoire allouée pointée par *outputPriData*.
 
 </dd> </dl>
 
@@ -97,7 +97,7 @@ Type : **HRESULT**
 
 \_OK si la fonction a réussi, sinon une autre valeur. Utilisez les macros SUCCEEDED () ou FAILed () (définies dans Winerror. h) pour déterminer la réussite ou l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous transmettez *outputPriData* à [**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md), ne libérez pas la mémoire tant que vous n’avez pas fini d’utiliser l’indexeur de ressource.
 
@@ -107,8 +107,8 @@ Si vous transmettez *outputPriData* à [**MrmCreateResourceIndexerFromPreviousPr
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de \[ Bureau Windows Server uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows \[Applications de bureau serveur uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>MrmResourceIndexer. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Mrmsupport. lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

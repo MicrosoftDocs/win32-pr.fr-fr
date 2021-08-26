@@ -4,12 +4,12 @@ description: Les développeurs de serveurs peuvent utiliser cette technique pour
 ms.assetid: aaa0e840-f8c2-4f3d-9d97-1910f00c1041
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d971462154eb12789a74e8cc6edb5aed68c84b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 22c55e503bdda05692b13548d2d63eaeb3246562b4f4e8fc1e8645d25941a7f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098069"
 ---
 # <a name="use-queryservice-to-retrieve-a-native-interface-for-an-iaccessible-object"></a>Utiliser QueryService pour récupérer une interface native pour un objet IAccessible
 
@@ -34,6 +34,6 @@ Pour être utilisables dans plusieurs processus, les serveurs devront peut-être
 
 Cette technique est utilisée par Microsoft Internet Explorer 4,0 et versions ultérieures. Elle permet aux clients d’obtenir un pointeur d’interface **IHTMLElement2** qui correspond à un objet [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) .
 
- 
+ 
 
- 
+ 

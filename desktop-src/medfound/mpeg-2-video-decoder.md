@@ -4,12 +4,12 @@ ms.assetid: 3E7FAE14-932D-44A3-997B-567C0D2EAE7B
 title: Décodeur vidéo MPEG-2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca4384154faff777280fd0a03cf4fd289603e7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57e2b270cadb114875fb63bc6c57ce2ddd63eecb2815b8fe3bcee175710d1771
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012589"
 ---
 # <a name="mpeg-2-video-decoder"></a>Décodeur vidéo MPEG-2
 
@@ -41,7 +41,7 @@ Le décodeur prend en charge les types de sortie suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le décodeur vidéo MPEG-2 expose les interfaces suivantes :
 
@@ -99,8 +99,8 @@ Parmi ces propriétés, vous pouvez également définir les éléments suivants 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | DLL<br/>                      | <dl> <dt>Msmpeg2vdec.dll</dt> </dl> |
 
 

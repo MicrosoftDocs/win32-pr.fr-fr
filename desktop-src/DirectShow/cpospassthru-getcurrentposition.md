@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5cdbd93edf7630499f6585fbbf6e34a70bed68c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a43477d019639b4e1de5c2aa40f18c99f7b902498c671f8106d5832c43b11584
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084159"
 ---
 # <a name="cpospassthrugetcurrentposition-method"></a>Méthode CPosPassThru. GetCurrentPosition
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                               | Description                           |
 |-------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>      | Réussite.<br/>                   |
 | <dl> <dt>**\_NOTIMPL E**</dt> </dl> | La méthode n’est pas prise en charge.<br/>   |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Argument de pointeur **null** .<br/> |
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**CPosPassThru :: GetMediaTime**](cpospassthru-getmediatime.md) pour récupérer la position la plus récente. Si **GetMediaTime** échoue, la méthode appelle **IMediaSeeking :: getCurrentPosition** sur l’épingle connecté.
 
@@ -77,7 +77,7 @@ La méthode **GetMediaTime** échoue par défaut dans la classe de base. Si votr
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

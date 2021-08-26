@@ -3,8 +3,8 @@ title: Espaces de couleurs HLS
 description: Les espaces de couleurs TLS sont également largement utilisés par les artistes. Ses composants de couleur sont la teinte, la luminosité et la saturation (Chroma).
 ms.assetid: 8c80d200-c4d0-4233-8f53-a9637dff9ab2
 keywords:
-- Système de couleurs Windows (WCS), espaces de couleurs TLS
-- WCS (système de couleurs Windows), espaces de couleurs TLS
+- Windows Système de couleurs (WCS), espaces de couleurs TLS
+- WCS (Windows color System), espaces de couleurs tls
 - gestion des couleurs des images, espaces de couleurs TLS
 - gestion des couleurs, espaces de couleurs TLS
 - couleurs, espaces de couleurs TLS
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613a62d4a998b51f9bfb22bd7431dd8645a72f3e
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 4d0dc0c47555f5358360a1ac81faf113c0fd6e98572c4d0c96852070a1749073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106523733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934963"
 ---
 # <a name="hls-color-spaces"></a>Espaces de couleurs HLS
 

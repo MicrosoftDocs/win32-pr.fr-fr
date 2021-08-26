@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ComboBox
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 410cca4887c04a00d6da53feb9fcf1242476a979
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a9d9f38dab9877aee38773e5c900ee125d2ba6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673078"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480105"
 ---
 # <a name="combobox-control-type"></a>ComboBox (type de contrôle)
 
@@ -50,41 +50,15 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Liste déroulante
-<ul>
-<li>Edit (0 ou 1)</li>
-<li>List (0 ou 1)</li>
-<li>List Item (enfant de List. De 0 à plusieurs)</li>
-<li>Button (1)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Liste déroulante
-<ul>
-<li>List Item (De 0 à plusieurs)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Liste déroulante<ul><li>Edit (0 ou 1)</li><li>List (0 ou 1)</li><li>List Item (enfant de List. De 0 à plusieurs)</li><li>Button (1)</li></ul></li></ul> | <ul><li>Liste déroulante<ul><li>List Item (De 0 à plusieurs)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Le contrôle d’édition dans l’affichage de contrôle de la zone de liste déroulante n’est nécessaire que si la zone de liste modifiable peut être modifiée pour prendre n’importe quelle entrée, comme c’est le cas de la zone de liste déroulante dans la boîte de dialogue **exécuter** .
 
@@ -110,7 +84,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -127,7 +101,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -147,7 +121,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -162,9 +136,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

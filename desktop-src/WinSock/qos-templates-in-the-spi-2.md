@@ -1,19 +1,19 @@
 ---
-description: Les détails de l’implémentation de la qualité de service (QoS) sont fournis dans une section de QoS distincte et dédiée du kit de développement logiciel (SDK) Microsoft Windows.
+description: les détails de l’implémentation de la qualité de Service (qos) sont fournis dans une section de qos distincte et dédiée du kit de développement logiciel (SDK) de Microsoft Windows.
 ms.assetid: 58cb384d-a830-4e9f-a8d0-f4b64a64328f
 title: Modèles QoS dans le SPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559536a730eec5245d2d7772ab77b90318043522
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a24d458c450ffb1cdd7826479ef7ef6a637f015cc9fb84045dceefbdaee63d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097679"
 ---
 # <a name="qos-templates-in-the-spi"></a>Modèles QoS dans le SPI
 
-Les détails de l’implémentation de la qualité de service (QoS) sont fournis dans une section de QoS distincte et dédiée du kit de développement logiciel (SDK) Microsoft Windows. Consultez la section [Quality of service](/previous-versions/windows/desktop/qos/qos-start-page) de la SDK Windows pour plus d’informations sur les règles d’utilisation de QoS, y compris les modèles QoS disponibles et leurs valeurs de [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) associées.
+les détails de l’implémentation de la qualité de Service (qos) sont fournis dans une section de qos distincte et dédiée du kit de développement logiciel (SDK) de Microsoft Windows. consultez la section [Quality of Service](/previous-versions/windows/desktop/qos/qos-start-page) de la SDK Windows pour plus d’informations sur les règles d’utilisation de qos, y compris les modèles qos disponibles et leurs valeurs de [**FLOWSPEC**](/windows/win32/api/qos/ns-qos-flowspec) associées.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -22,7 +22,7 @@ Les détails de l’implémentation de la qualité de service (QoS) sont fournis
 [Quality of Service (QoS)](/previous-versions/windows/desktop/qos/qos-start-page)
 </dt> <dt>
 
-[Qualité de service dans le SPI Windows Sockets 2](quality-of-service-in-the-windows-sockets-2-spi-2.md)
+[qualité de Service dans le SPI Windows sockets 2](quality-of-service-in-the-windows-sockets-2-spi-2.md)
 </dt> <dt>
 
 [**INVALIDE**](/windows/win32/api/qos/ns-qos-flowspec)

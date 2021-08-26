@@ -5,12 +5,12 @@ title: Message WM_PAINT (winuser. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: b13e1779fb54a3db7905cb8fc738ef45558400f5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b5efec4bc92fcb3c90a8def59b2e85d98342cf641dfe959fc2a651f81ffc1f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092509"
 ---
 # <a name="wm_paint-message"></a>\_Message de peinture WM
 
@@ -80,9 +80,9 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ```
 
-Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) sur GitHub.
+exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples/blob/18cbd05ee44455cd7552804dcf2c9d6db619b412/Samples/Win7Samples/begin/LearnWin32/HelloWorld/cpp/main.cpp) sur GitHub.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message **WM \_ Paint** est généré par le système et ne doit pas être envoyé par une application. Pour forcer une fenêtre à dessiner dans un contexte de périphérique spécifique, utilisez le message WM [**\_ Print**](wm-print.md) ou [**WM \_ PRINTCLIENT**](wm-printclient.md) . Notez que cela nécessite que la fenêtre cible prenne en charge le message **WM \_ PRINTCLIENT** . La plupart des contrôles courants prennent en charge le message **WM \_ PRINTCLIENT** .
 
@@ -98,7 +98,7 @@ Le système envoie un message **de \_ peinture WM** interne une seule fois. Apr�
 
 Pour certains contrôles courants, le traitement du message de **\_ peinture WM** par défaut vérifie le paramètre *wParam* . Si *wParam* est non null, le contrôle suppose que la valeur est un HDC et peint à l’aide de ce contexte de périphérique.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

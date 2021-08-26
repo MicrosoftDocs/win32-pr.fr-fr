@@ -6,12 +6,12 @@ keywords:
 - Routage et accès à distance service RRAS, gestionnaire de table de routage version 2, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bb0ba9668dc7a71e4f73d7fd43360f4093484e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2663772ab559ef72c003de3fb4c67cbe44ee8e6d6f9aff1f46fbb470ea6a9f6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026849"
 ---
 # <a name="routing-table-manager-version-2-reference"></a>Référence de la version 2 du gestionnaire de table de routage
 
@@ -25,9 +25,9 @@ La documentation suivante décrit les fonctions, les rappels, les structures et 
 -   [Énumérations du gestionnaire de table de routage version 2](routing-table-manager-version-2-enumerations.md)
 -   [Types de données simples de la version 2 du gestionnaire de table de routage](routing-table-manager-version-2-simple-data-types.md)
 
- 
+ 
 
- 
+ 
 
 
 

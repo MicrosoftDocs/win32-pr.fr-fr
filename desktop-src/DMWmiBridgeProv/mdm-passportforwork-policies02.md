@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_PassportForWork_Policies02
-description: La \_ classe POLICIES02 MDM PassportForWork configure \_ Windows Hello entreprise.
+description: la \_ classe Policies02 MDM PassportForWork configure \_ Windows Hello pour l’entreprise.
 ms.assetid: 362fe819-a68a-4433-8b43-201d9678a8da
 keywords:
 - Classe MDM_PassportForWork_Policies02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fdf407289f93f5ecff0e57ebf7b7fa8d9844183
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1a8128049f03aec29246bf44d3a663d17a3d28d120a71ec8842f1f747c848fd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084909"
 ---
 # <a name="mdm_passportforwork_policies02-class"></a>\_ \_ Classe POLICIES02 PassportForWork MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La **classe \_ \_ Policies02 MDM PassportForWork** configure Windows Hello entreprise.
+la **classe \_ \_ Policies02 MDM PassportForWork** configure Windows Hello pour l’entreprise.
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -69,7 +69,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Nœud racine pour les stratégies Windows Hello entreprise.
+nœud racine pour Windows Hello pour les stratégies d’entreprise.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

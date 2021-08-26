@@ -4,12 +4,12 @@ ms.assetid: 2911ae57-1703-4a9d-bd33-94af1e0f8804
 title: Entrelacement de vidéos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3724316c1190c2fe01c8debdc8bd4c85a0ba8810eb62a0690e19c087a06352
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 340c727f8faaaf20ff82eff58d0c651601071dea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118972618"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474335"
 ---
 # <a name="video-interlacing"></a>Entrelacement de vidéos
 
@@ -46,13 +46,13 @@ Le tableau suivant résume cet attribut.
 
 
 
-| \_ \_ mode entrelacé MF-MT \_                       | Entrelacées? | Exemples                                  | Premier champ    |
+| \_ \_ mode entrelacé MF-MT \_                       | Entrelacées? | exemples                                  | Premier champ    |
 |-----------------------------------------------|-------------|------------------------------------------|----------------|
-| MFVideoInterlace \_ progressif                 | Non          | Frame progressif                        | Non applicable |
-| MFVideoInterlace \_ FieldInterleavedUpperFirst  | Oui         | Champs entrelacés                       | Haut en premier    |
-| MFVideoInterlace \_ FieldInterleavedLowerFirst  | Oui         | Champs entrelacés                       | En premier    |
-| MFVideoInterlace \_ FieldSingleUpper            | Oui         | Champ unique                             | Haut en premier    |
-| MFVideoInterlace \_ FieldSingleLower            | Oui         | Champ unique                             | En premier    |
+| MFVideoInterlace \_ progressif                 | No          | Frame progressif                        | Non applicable |
+| MFVideoInterlace \_ FieldInterleavedUpperFirst  | Yes         | Champs entrelacés                       | Haut en premier    |
+| MFVideoInterlace \_ FieldInterleavedLowerFirst  | Yes         | Champs entrelacés                       | En premier    |
+| MFVideoInterlace \_ FieldSingleUpper            | Yes         | Champ unique                             | Haut en premier    |
+| MFVideoInterlace \_ FieldSingleLower            | Yes         | Champ unique                             | En premier    |
 | MFVideoInterlace \_ MixedInterlaceOrProgressive | Peut varier    | Champs entrelacés ou images progressives | Peut varier       |
 
 
@@ -69,41 +69,14 @@ Tous les attributs d’entrelacement listés dans cette section ont des valeurs 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a></td>
-<td>Si la <strong>valeur est true</strong>, le frame est entrelacé. Si la <strong>valeur est false</strong>, le frame est progressif.<br/> Définissez cet attribut sur chaque exemple si le type de média est MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a></td>
-<td>La signification de cet indicateur varie selon que les exemples contiennent des champs entrelacés ou des champs uniques.<br/>
-<ul>
-<li>Champs entrelacés : si la <strong>valeur est true</strong>, le champ inférieur est tout d’abord. Si la <strong>valeur est false</strong>, le champ supérieur est tout d’abord.<br/></li>
-<li>Champs uniques : si la <strong>valeur est true</strong>, l’exemple contient un champ inférieur. Si la <strong>valeur est false</strong>, l’exemple contient un champ supérieur.<br/></li>
-</ul>
-Définissez cet attribut sur chaque échantillon entrelacé si le type de média est MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_FieldSingleLower ou MFVideoInterlace_MixedInterlaceOrProgressive.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a></td>
-<td>Si la <strong>valeur est true</strong>, le premier champ est répété. Si la valeur est <strong>false</strong> ou non définie, le premier champ n’est pas répété.</td>
-</tr>
-<tr class="even">
-<td><a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a></td>
-<td>Si la <strong>valeur est true</strong>, l’exemple contient un champ unique. Si la <strong>valeur est false</strong>, l’exemple contient des champs entrelacés.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="mfsampleextension-interlaced-attribute.md">MFSampleExtension_Interlaced</a> | Si la <strong>valeur est true</strong>, le frame est entrelacé. Si la <strong>valeur est false</strong>, le frame est progressif.<br /> Définissez cet attribut sur chaque exemple si le type de média est MFVideoInterlace_MixedInterlaceOrProgressive.<br /> | 
+| <a href="mfsampleextension-bottomfieldfirst-attribute.md">MFSampleExtension_BottomFieldFirst</a> | La signification de cet indicateur varie selon que les exemples contiennent des champs entrelacés ou des champs uniques.<br /><ul><li>Champs entrelacés : si la <strong>valeur est true</strong>, le champ inférieur est tout d’abord. Si la <strong>valeur est false</strong>, le champ supérieur est tout d’abord.<br /></li><li>Champs uniques : si la <strong>valeur est true</strong>, l’exemple contient un champ inférieur. Si la <strong>valeur est false</strong>, l’exemple contient un champ supérieur.<br /></li></ul>Définissez cet attribut sur chaque échantillon entrelacé si le type de média est MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_FieldSingleLower ou MFVideoInterlace_MixedInterlaceOrProgressive.<br /> | 
+| <a href="mfsampleextension-repeatfirstfield-attribute.md">MFSampleExtension_RepeatFirstField</a> | Si la <strong>valeur est true</strong>, le premier champ est répété. Si la valeur est <strong>false</strong> ou non définie, le premier champ n’est pas répété. | 
+| <a href="mfsampleextension-singlefield-attribute.md">MFSampleExtension_SingleField</a> | Si la <strong>valeur est true</strong>, l’exemple contient un champ unique. Si la <strong>valeur est false</strong>, l’exemple contient des champs entrelacés. | 
+
 
 
 

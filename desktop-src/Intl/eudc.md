@@ -4,12 +4,12 @@ ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27b583c7a0bfaa67684901e8d0a4a95ac5e45658
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f8a7509364545d9de01d4480a58d4e6af8043c30fa8f74db0fdbaf24e252e298
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082989"
 ---
 # <a name="eudc"></a>EUDC
 
@@ -58,9 +58,9 @@ MS Gothic=GOTEUDC.TTF
 
 
 
-Lorsque la page de codes Windows (système ACP) associée à la langue des programmes non-Unicode correspond à la sous-clé, le sous-système GDI recherche les paires de valeurs de la sous-clé pour obtenir des informations d’affichage sur le caractère. Il recherche d’abord un nom correspondant à la police actuelle. S’il n’y en a aucun, il examine la valeur SystemDefaultEUDCFont. Si aucune valeur n’est définie, GDI traite le caractère comme non défini.
+lorsque la Windows page de codes (système ACP) associée à la langue des programmes non-Unicode correspond à la sous-clé, le sous-système GDI recherche les paires de valeurs de la sous-clé pour obtenir des informations d’affichage sur le caractère. Il recherche d’abord un nom correspondant à la police actuelle. S’il n’y en a aucun, il examine la valeur SystemDefaultEUDCFont. Si aucune valeur n’est définie, GDI traite le caractère comme non défini.
 
-Notez que le texte lui-même n’a pas besoin d’être dans la page de codes Windows. Par exemple, supposons que la page de codes possède l’identificateur 1252, la page de codes Windows par défaut pour l’anglais. Une application transmet le point de code Unicode unique U + E000, dans la zone d’utilisation privée Unicode (PUA), à [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext). Dans ce cas, GDI examine les valeurs de Registre inférieures à 1252 pour obtenir les informations de police pour les propriétés d’affichage de caractères.
+notez que le texte lui-même n’a pas besoin d’être dans la page de codes Windows. par exemple, supposons que la page de codes possède l’identificateur 1252, la page de codes Windows par défaut pour l’anglais. Une application transmet le point de code Unicode unique U + E000, dans la zone d’utilisation privée Unicode (PUA), à [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext). Dans ce cas, GDI examine les valeurs de Registre inférieures à 1252 pour obtenir les informations de police pour les propriétés d’affichage de caractères.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

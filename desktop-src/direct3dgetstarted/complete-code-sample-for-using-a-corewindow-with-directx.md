@@ -4,23 +4,23 @@ description: Cette rubrique fournit l’exemple de code complet utilisé dans le
 ms.assetid: 5d1e1f21-b541-4a61-8f04-e1e767b3a23e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb1a01e983f483503b42a0ac244453f14665460f
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 26940947a1806ab5e265720aa681b37cd9f93d1ac7f80ef69d72ce91a3ea8d5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "106527033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068679"
 ---
 # <a name="complete-code-for-a-directx-framework"></a>Code complet pour une infrastructure DirectX
 
 Cette rubrique fournit l’exemple de code complet utilisé dans le didacticiel [prise en main de DirectX pour Windows](getting-started-with-a-directx-game.md).
 
-Ce code suppose que vous utilisez Microsoft Visual Studio 2013 et que vous avez créé un projet Win32 vide.
+ce code suppose que vous utilisez Microsoft Visual Studio 2013 et que vous avez créé un projet Win32 vide.
 
 Cette rubrique contient les sections suivantes :
 
 -   [Technologies](#technologies)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Afficher le code (C++)](/windows)
 
 <span id="download_locations"></span>
@@ -38,7 +38,7 @@ Cet exemple n’est pas disponible en téléchargement.
 | Condition requise | Valeur |
 |-----------------------|-------------|
 | Langages de programmation | C++         |
-| Modèles de programmation    | Windows/C++ |
+| Modèles de programmation    | Windows/C + + |
 
 <span id="requirements"></span>
 

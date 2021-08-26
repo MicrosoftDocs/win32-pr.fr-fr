@@ -4,12 +4,12 @@ ms.assetid: c5862758-0125-4dbe-af72-5ed4a85bd702
 title: OPM_GET_CONNECTOR_TYPE (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a95ca88b079aa93b4c2665fe7aa954eb58cfc1a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3099da66193048b52011e58eb5ce3f925d451fc1ad26b193f2955f6012f0e607
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887499"
 ---
 # <a name="opm_get_connector_type"></a>\_type de \_ connecteur d’extraction OPM \_
 
@@ -27,7 +27,7 @@ Retourne le type de connecteur physique de la sortie vidéo.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type de connecteur est retourné dans le membre **ulInformation** de la structure d' [**\_ \_ informations standard OPM**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_standard_information) . La valeur de **ulInformation** est égale à l’un des types de connecteur listés dans les [**indicateurs de type de connecteur OPM**](opm-connector-type-flags.md).
 
@@ -45,8 +45,8 @@ Cette requête est équivalente à la \_ requête DXVA COPPQueryConnectorType ut
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

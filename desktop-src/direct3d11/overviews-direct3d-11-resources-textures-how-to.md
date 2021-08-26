@@ -1,24 +1,24 @@
 ---
 title: Comment initialiser une texture à partir d’un fichier
-description: Cette rubrique montre comment utiliser WIC (Windows Imaging Component) pour créer la texture et la vue séparément.
+description: cette rubrique montre comment utiliser Windows composant d’imagerie (WIC) pour créer la texture et la vue séparément.
 ms.assetid: ea3c6003-191d-47d1-8931-f43598728ad4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bf6ba4296c2103d7f84f934899f906500e712cd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7b3e8035e630a7b2182c114e329cf4b08428ab3a83ca218b933cb2b922ff305c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027939"
 ---
 # <a name="how-to-initialize-a-texture-from-a-file"></a>Comment : initialiser une texture à partir d’un fichier
 
-Vous pouvez utiliser l’API du [composant de création d’images Windows](/windows/desktop/wic/-wic-lh) pour initialiser une [texture](overviews-direct3d-11-resources-textures.md) à partir d’un fichier. Pour charger une texture, vous devez créer une texture et une vue de texture. Cette rubrique montre comment utiliser WIC (Windows Imaging Component) pour créer la texture et la vue séparément.
+vous pouvez utiliser l’API du [composant de création d’images Windows](/windows/desktop/wic/-wic-lh) pour initialiser une [texture](overviews-direct3d-11-resources-textures.md) à partir d’un fichier. Pour charger une texture, vous devez créer une texture et une vue de texture. cette rubrique montre comment utiliser Windows composant d’imagerie (WIC) pour créer la texture et la vue séparément.
 
 > [!Note]  
 > Cette rubrique est utile pour les images que vous créez en tant que textures 2D simples. Pour des ressources plus complexes, utilisez [DDS](/windows/desktop/direct3ddds/dx-graphics-dds). Pour un lecteur de fichier DDS, un enregistreur et un pipeline de traitement des textures complets, consultez [DirectXTex](https://github.com/Microsoft/DirectXTex) et [DirectXTK](https://github.com/Microsoft/DirectXTK).
 
- 
+ 
 
 À la fin de cette rubrique, vous trouverez l’exemple de code complet. La rubrique décrit les parties de l’exemple de code qui créent la texture et la vue.
 
@@ -48,11 +48,11 @@ Vous pouvez utiliser l’API du [composant de création d’images Windows](/win
     | GUID \_ WICPixelFormat16bppGray                     | DXGI \_ format \_ R16 \_ UNORM\*                              |
     | GUID \_ WICPixelFormat8bppGray                      | \_Format dxgi \_ R8 \_ UNORM\*                               |
     | GUID \_ WICPixelFormat8bppAlpha                     | \_Format dxgi \_ a8 \_ UNORM                                 |
-    | GUID \_ WICPixelFormat96bppRGBFloat (WIC Windows 8) | DXGI \_ format \_ R32G32B32 \_ float                          |
+    | GUID \_ WICPixelFormat96bppRGBFloat (Windows 8 WIC) | DXGI \_ format \_ R32G32B32 \_ float                          |
 
     
 
-     
+     
 
     \* Les formats DXGI à un seul canal sont tous des canaux rouges. vous avez donc besoin d’un nuanceur HLSL Swizzles, tel que. RRR, pour les afficher sous forme de nuances de gris.
 
@@ -883,6 +883,6 @@ HRESULT CreateWICTextureFromFile( _In_ ID3D11Device* d3dDevice,
 [Textures](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

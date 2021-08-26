@@ -4,19 +4,19 @@ ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Encodeur audio Dolby Digital
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f901587b816bc17d62f4095e093b661ce55f0009
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: 84d14a434481a94021617f04e4cb9e10329ad20a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110153562"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483095"
 ---
 # <a name="dolby-digital-audio-encoder"></a>Encodeur audio Dolby Digital
 
 L’encodeur audio Dolby est une [Media Foundation transformation](media-foundation-transforms.md) (MFT) qui encode le son mono ou stéréo sur Dolby Digital, également appelé Dolby AC-3. L’encodeur ne prend pas en charge les entrées multicanal, telles que la configuration du canal 5,1.
 
 > [!IMPORTANT]
-> Pour les versions de Windows antérieures à Windows 8, l’implémentation Microsoft de la technologie Dolby Digital est limitée aux termes du programme de gestion de licences Dolby Digital à utiliser par les applications Microsoft.
+> pour les versions de Windows antérieures à Windows 8, l’implémentation microsoft de la technologie dolby digital est limitée aux termes du programme de gestion de licences dolby digital à utiliser par les applications microsoft.
 
  
 
@@ -32,57 +32,16 @@ Le type de sortie doit être défini en premier, avant le type d’entrée. Le t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Doit être <strong>MFAudioFormat_Dolby_AC3</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Échantillons par seconde.</td>
-<td>Obligatoire. Les valeurs suivantes sont admises :
-<ul>
-<li>32000</li>
-<li>44100</li>
-<li>48 000</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux.</td>
-<td>Obligatoire. Doit avoir la valeur 1 (mono) ou 2 (stéréo).</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Débit binaire du flux AC-3 encodé, en octets par seconde.</td>
-<td>facultatif. Consultez la section Notes pour connaître les valeurs valides. Si cet attribut n’est pas défini, l’encodeur utilise une vitesse de transmission par défaut, comme décrit dans la section Notes.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Doit être <strong>MFAudioFormat_Dolby_AC3</strong>. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Échantillons par seconde. | Obligatoire. Les valeurs suivantes sont admises :<ul><li>32000</li><li>44100</li><li>48 000</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux. | Obligatoire. Doit avoir la valeur 1 (mono) ou 2 (stéréo). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre). | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Débit binaire du flux AC-3 encodé, en octets par seconde. | facultatif. Consultez la section Notes pour connaître les valeurs valides. Si cet attribut n’est pas défini, l’encodeur utilise une vitesse de transmission par défaut, comme décrit dans la section Notes. | 
+
 
 
 
@@ -96,71 +55,19 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Doit être <strong>MFAudioFormat_PCM</strong> ou <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits par échantillon audio.</td>
-<td>Obligatoire. La valeur doit être 16 si le sous-type est <strong>MFAudioFormat_PCM</strong>, ou 32 si le sous-type est <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Échantillons par seconde.</td>
-<td>Obligatoire. Doit correspondre au type de sortie.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux.</td>
-<td>Obligatoire. Doit correspondre au type de sortie.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>Alignement de bloc, en octets.</td>
-<td>Obligatoire. Calculez la valeur comme suit :
-<ul>
-<li><strong>MFAudioFormat_PCM</strong>: nombre de canaux × 2.</li>
-<li><strong>MFAudioFormat_Float</strong>: nombre de canaux × 4.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Vitesse de transmission du flux de données AC3 encodé, en octets par seconde.</td>
-<td>Obligatoire. Doit être égal à alignement de bloc × échantillons par seconde.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits de données audio valides dans chaque exemple audio.</td>
-<td>facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Doit être <strong>MFAudioFormat_PCM</strong> ou <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | Nombre de bits par échantillon audio. | Obligatoire. La valeur doit être 16 si le sous-type est <strong>MFAudioFormat_PCM</strong>, ou 32 si le sous-type est <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Échantillons par seconde. | Obligatoire. Doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux. | Obligatoire. Doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | Alignement de bloc, en octets. | Obligatoire. Calculez la valeur comme suit :<ul><li><strong>MFAudioFormat_PCM</strong>: nombre de canaux × 2.</li><li><strong>MFAudioFormat_Float</strong>: nombre de canaux × 4.</li></ul> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Vitesse de transmission du flux de données AC3 encodé, en octets par seconde. | Obligatoire. Doit être égal à alignement de bloc × échantillons par seconde. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | Nombre de bits de données audio valides dans chaque exemple audio. | facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>. | 
+
 
 
 
@@ -232,13 +139,13 @@ Type de média d’entrée :
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
 | DLL<br/>                      | <dl> <dt>Msac3enc.dll</dt> </dl> |
 

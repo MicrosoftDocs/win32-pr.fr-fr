@@ -3,7 +3,7 @@ title: Message LB_GETSELITEMS (winuser. h)
 description: Remplit une mémoire tampon avec un tableau d’entiers qui spécifient les numéros d’élément des éléments sélectionnés dans une zone de liste à sélection multiple.
 ms.assetid: 95dd72ef-76a5-4188-b2c8-d4c5eb2f34e3
 keywords:
-- LB_GETSELITEMS les contrôles de message Windows
+- LB_GETSELITEMS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 703988749cc5091bc3196f7c6e70364edb40ee04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a541c7efb0acb8d462cce42f0323393baff58e51d63e6a78a72a9d334c0eae81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085499"
 ---
 # <a name="lb_getselitems-message"></a>\_Message GETSELITEMS lb
 
@@ -34,7 +34,7 @@ Remplit une mémoire tampon avec un tableau d’entiers qui spécifient les num�
 
 Nombre maximal d’éléments sélectionnés dont les numéros d’élément doivent être placés dans la mémoire tampon.
 
-Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
+Windows 95/Windows 98/Windows Millennium edition (Windows) : le paramètre *wParam* est limité aux valeurs 16 bits. Cela signifie que les zones de liste ne peuvent pas contenir plus de 32 767 éléments. Bien que le nombre d’éléments soit limité, la taille totale, en octets, des éléments d’une zone de liste n’est limitée que par la mémoire disponible.
 
 </dd> <dt>
 
@@ -55,8 +55,8 @@ La valeur de retour est le nombre d’éléments placés dans la mémoire tampon
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ccbad270-356e-4e17-8770-98414430b3d7
 title: System. RecordedTV. StationCallSign
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42a641e8e7848fdb1fed4aee446f770cd4760c05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c966b47f68ae4f7fd95feaaf0984c189403b2d9293503127615f6f97279d4605
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938159"
 ---
 # <a name="systemrecordedtvstationcallsign"></a>System. RecordedTV. StationCallSign
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

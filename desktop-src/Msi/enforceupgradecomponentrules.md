@@ -4,12 +4,12 @@ ms.assetid: 0d39c059-d936-454c-aed8-efedd3da7473
 title: EnforceUpgradeComponentRules
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5a2fc093c2f0beb4167374f93447d978bbca8eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 882d7df0e794dfb89ab2211db1fada576bd6e056972810d582385c1404e625a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086069"
 ---
 # <a name="enforceupgradecomponentrules"></a>EnforceUpgradeComponentRules
 
@@ -29,13 +29,13 @@ Lorsque la propriété ou la stratégie a la valeur 1, les [petites mises à jou
 
     Cela peut également se produire si vous modifiez le GUID d’un composant. Le composant identifié par le GUID d’origine semble être supprimé et le composant identifié par le nouveau GUID apparaît en tant que nouveau composant.
 
-    **Windows Installer 4,5 et versions ultérieures :** Le composant peut être supprimé correctement à l’aide de Windows Installer 4,5 ou version ultérieure en définissant l’attribut **msidbComponentAttributesUninstallOnSupersedence** dans la [table des composants](component-table.md) ou en définissant la propriété [**MSIUNINSTALLSUPERSEDEDCOMPONENTS**](msiuninstallsupersededcomponents.md) .
+    **Windows Installer 4,5 et versions ultérieures :** le composant peut être supprimé correctement à l’aide de Windows Installer 4,5 ou version ultérieure en définissant l’attribut **msidbComponentAttributesUninstallOnSupersedence** dans la [table des composants](component-table.md) ou en définissant la propriété [**MSIUNINSTALLSUPERSEDEDCOMPONENTS**](msiuninstallsupersededcomponents.md) .
 
     La valeur [**ProductCode**](productcode.md) du produit peut également être modifiée et les mises à jour peuvent être traitées comme une [mise à niveau majeure](major-upgrades.md).
 
 ## <a name="registry-key"></a>Clé de Registre
 
-**HKEY \_ \_** \\ **Stratégies logicielles** de l’ordinateur local \\  \\ **Microsoft** \\ **Windows** \\ **installer**
+**HKEY \_ \_** \\ **stratégies logicielles** de l’ordinateur LOCAL \\  \\ **Microsoft** \\ **Windows** \\ **Installer**
 
 ## <a name="data-type"></a>Type de données
 
@@ -45,7 +45,7 @@ Lorsque la propriété ou la stratégie a la valeur 1, les [petites mises à jou
 
 <dl> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

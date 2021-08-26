@@ -4,16 +4,16 @@ ms.assetid: 484CABA1-5488-41AC-A6CC-51D0084DFC54
 title: Codes d’erreur et de réussite de WUA (Wuerror. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5be23053ad3fc9fee6c91f21550be180c0a8e2ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03909e07e7e04f51ab313bbc8f671b4405c71b31c16bc086a9788999a1cadd55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071259"
 ---
 # <a name="wua-success-and-error-codes"></a>Codes d’erreur et de réussite de WUA
 
-L’API Windows Update Agent (WUA) peut retourner les codes de réussite ou d’erreur suivants pour les opérations autres que le réseau :
+l’API Windows Update Agent (WUA) peut retourner les codes de réussite ou d’erreur suivants pour les opérations autres que le réseau :
 
 
 
@@ -53,7 +53,7 @@ L’API Windows Update Agent (WUA) peut retourner les codes de réussite ou d’
 | <span id="WU_E_NO_USERTOKEN"></span><span id="wu_e_no_usertoken"></span><dl> <dt>**Wu \_ E \_ non \_ USERTOKEN**</dt> <dt>0x80240018</dt> </dl>                                                                | L’opération a échoué car un jeton d’utilisateur requis est manquant.<br/>                                                                          |
 | <span id="WU_E_EXCLUSIVE_INSTALL_CONFLICT"></span><span id="wu_e_exclusive_install_conflict"></span><dl> <dt>**Wu \_ E \_ 0x80240019 \_ \_ conflit d’installation exclusive**</dt> <dt></dt> </dl>                     | Une mise à jour exclusive ne peut pas être installée en même temps avec d’autres mises à jour.<br/>                                                         |
 | <span id="WU_E_POLICY_NOT_SET"></span><span id="wu_e_policy_not_set"></span><dl> <dt>**Wu \_ \_Stratégie E \_ non \_ définie**</dt> <dt>0x8024001A</dt> </dl>                                                         | Une valeur de stratégie n'a pas été définie.<br/>                                                                                                         |
-| <span id="WU_E_SELFUPDATE_IN_PROGRESS"></span><span id="wu_e_selfupdate_in_progress"></span><dl> <dt>**Wu \_ E \_ SELFUPDATE \_ en \_ cours**</dt> <dt>0x8024001B</dt> </dl>                                 | L’opération n’a pas pu être effectuée car l’agent de Windows Update effectue une mise à jour automatique.<br/>                                             |
+| <span id="WU_E_SELFUPDATE_IN_PROGRESS"></span><span id="wu_e_selfupdate_in_progress"></span><dl> <dt>**Wu \_ E \_ SELFUPDATE \_ en \_ cours**</dt> <dt>0x8024001B</dt> </dl>                                 | l’opération n’a pas pu être effectuée car l’Agent de Windows Update effectue une mise à jour automatique.<br/>                                             |
 | <span id="WU_E_INVALID_UPDATE"></span><span id="wu_e_invalid_update"></span><dl> <dt>**Wu \_ E 0x8024001D de \_ \_ mise à jour non valide**</dt> <dt></dt> </dl>                                                          | Une mise à jour contient des métadonnées non valides.<br/>                                                                                                |
 | <span id="WU_E_SERVICE_STOP"></span><span id="wu_e_service_stop"></span><dl> <dt>**Wu \_ \_ \_ Arrêt du service E**</dt> <dt>0x8024001E</dt> </dl>                                                                | L'opération n'a pas pu se terminer car le service ou le système a été arrêté.<br/>                                                       |
 | <span id="WU_E_NO_CONNECTION"></span><span id="wu_e_no_connection"></span><dl> <dt>**Wu \_ E \_ aucune \_ connexion**</dt> <dt>0x8024001F</dt> </dl>                                                             | L’opération n’a pas été effectuée car la connexion réseau n’était pas disponible.<br/>                                                          |
@@ -65,7 +65,7 @@ L’API Windows Update Agent (WUA) peut retourner les codes de réussite ou d’
 | <span id="WU_E_USER_ACCESS_DISABLED"></span><span id="wu_e_user_access_disabled"></span><dl> <dt>**Wu \_ E \_ \_ accès utilisateur \_ désactivé**</dt> <dt>0x80240025</dt> </dl>                                       | Les paramètres de stratégie de groupe ont empêché l'accès à Windows Update.<br/>                                                                           |
 | <span id="WU_E_INVALID_UPDATE_TYPE"></span><span id="wu_e_invalid_update_type"></span><dl> <dt>**Wu \_ E \_ \_ \_ type de mise à jour 0x80240026 non valide**</dt> <dt></dt> </dl>                                          | Le type de mise à jour n’est pas valide.<br/>                                                                                                      |
 | <span id="WU_E_URL_TOO_LONG"></span><span id="wu_e_url_too_long"></span><dl> <dt>**Wu \_ \_URL E \_ trop \_ longue**</dt> <dt>0x80240027</dt> </dl>                                                               | L’URL a dépassé la longueur maximale.<br/>                                                                                                |
-| <span id="WU_E_UNINSTALL_NOT_ALLOWED"></span><span id="wu_e_uninstall_not_allowed"></span><dl> <dt>**Wu \_ E \_ désinstallation \_ non \_ autorisée**</dt> <dt>0x80240028</dt> </dl>                                    | La mise à jour n’a pas pu être désinstallée car la demande ne provient pas d’un serveur Windows Server Update Services (WSUS).<br/>      |
+| <span id="WU_E_UNINSTALL_NOT_ALLOWED"></span><span id="wu_e_uninstall_not_allowed"></span><dl> <dt>**Wu \_ E \_ désinstallation \_ non \_ autorisée**</dt> <dt>0x80240028</dt> </dl>                                    | la mise à jour n’a pas pu être désinstallée car la demande ne provient pas d’un serveur Windows Server Update Services (WSUS).<br/>      |
 | <span id="WU_E_INVALID_PRODUCT_LICENSE"></span><span id="wu_e_invalid_product_license"></span><dl> <dt>**Wu \_ E \_ \_ \_ licence de produit non valide**</dt> <dt>0x80240029</dt> </dl>                              | La recherche peut avoir manqué certaines mises à jour avant qu’il y ait une application sans licence sur le système.<br/>                                        |
 | <span id="WU_E_MISSING_HANDLER"></span><span id="wu_e_missing_handler"></span><dl> <dt>**Wu \_ E \_ \_ Gestionnaire manquant**</dt> <dt>0x8024002A</dt> </dl>                                                       | Un composant requis pour détecter les mises à jour applicables est manquant.<br/>                                                                      |
 | <span id="WU_E_LEGACYSERVER"></span><span id="wu_e_legacyserver"></span><dl> <dt>**Wu \_ \_LEGACYSERVER**</dt> <dt>0x8024002B</dt> </dl>                                                                 | Une opération n’a pas abouti car elle nécessite une version plus récente du serveur.<br/>                                                        |

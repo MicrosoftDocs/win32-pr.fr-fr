@@ -4,12 +4,12 @@ ms.assetid: 9a2c1565-fb24-4767-bfa5-0257129f4bd4
 title: Exemple PenInputPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d60f33ff3f61e1a2930841e5fd3d3ce3f9fc5b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c464be52fd08c6c461ba094428a1868fbb51fb328e1a3c88a2d0949a6ae581e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934739"
 ---
 # <a name="peninputpanel-sample"></a>Exemple PenInputPanel
 
@@ -145,7 +145,7 @@ Le contrôle [InkEdit](/previous-versions/ms552265(v=vs.100)) fournit déjà une
 
 ## <a name="closing-the-form"></a>Fermeture du formulaire
 
-Dans le code généré par le Concepteur Windows Form, les contrôles [InkEdit](/previous-versions/ms552265(v=vs.100)) et [InkPicture](/previous-versions/aa514604(v=msdn.10)) sont ajoutés à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, les contrôles InkEdit et InkPicture sont supprimés, ainsi que les autres composants du formulaire, par la méthode [dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) du formulaire. La méthode dispose du formulaire supprime également les objets [Ink](/previous-versions/aa515768(v=msdn.10)) créés pour le formulaire.
+dans le code généré par le concepteur de formulaires Windows, les contrôles [InkEdit](/previous-versions/ms552265(v=vs.100)) et [InkPicture](/previous-versions/aa514604(v=msdn.10)) sont ajoutés à la liste des composants du formulaire lorsque le formulaire est initialisé. Lorsque le formulaire se ferme, les contrôles InkEdit et InkPicture sont supprimés, ainsi que les autres composants du formulaire, par la méthode [dispose](/dotnet/api/system.windows.forms.form.dispose?view=netcore-3.1) du formulaire. La méthode dispose du formulaire supprime également les objets [Ink](/previous-versions/aa515768(v=msdn.10)) créés pour le formulaire.
 
  
 

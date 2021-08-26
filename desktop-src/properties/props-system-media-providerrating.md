@@ -4,12 +4,12 @@ ms.assetid: 72e29588-cb22-443f-a404-f192fe680207
 title: System. Media. ProviderRating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d4a4ea401815cb45e56e753c15b637a69eff61
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ae0f9c47b7e77097f0b9647c3681e8f19d0834a1a634eeb98e9b3e8aafe1c1df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938319"
 ---
 # <a name="systemmediaproviderrating"></a>System. Media. ProviderRating
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

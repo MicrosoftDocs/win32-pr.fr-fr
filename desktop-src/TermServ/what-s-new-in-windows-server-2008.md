@@ -1,114 +1,32 @@
 ---
-title: Nouveautés de Windows Server 2008
-description: Windows Server 2008 introduit les nouveaux éléments de programmation suivants pour les services Terminal Server.
+title: nouveautés de Windows Server 2008
+description: Windows Le serveur 2008 introduit les nouveaux éléments de programmation suivants pour les services Terminal Server.
 ms.assetid: a2299b03-5e06-4984-a33f-b44c7cded513
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab74f22c41fa88147a1ef30a8f55f158e34990c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: b7a7b4baa7dfbe95c60457c09ae0e46cd0eb0908
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383067"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476885"
 ---
-# <a name="whats-new-in-windows-server-2008"></a>Nouveautés de Windows Server 2008
+# <a name="whats-new-in-windows-server-2008"></a>nouveautés de Windows Server 2008
 
-Windows Server 2008 introduit les nouveaux éléments de programmation suivants pour les services Terminal Server.
+Windows Le serveur 2008 introduit les nouveaux éléments de programmation suivants pour les services Terminal Server.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément de programmation</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Référence des canaux virtuels dynamiques<br/></td>
-<td>Les API de canal virtuel dynamique (DVC) étendent les API de canal virtuel existantes pour les services Terminal Server, appelées API de canal virtuel statique (SVC).<br/>
-<ul>
-<li><a href="dynamic-virtual-channels.md">Canaux virtuels dynamiques</a></li>
-<li><a href="dynamic-virtual-channels-reference.md">Référence des canaux virtuels dynamiques</a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Référence Connexion Bureau à distance par le Web<br/></td>
-<td>Les interfaces suivantes (ainsi que leurs méthodes et propriétés associées) ont été ajoutées à <a href="remote-desktop-web-connection-reference.md">Connexion Bureau à distance par le Web référence</a>:<br/>
-<ul>
-<li><a href="imsrdpclient5.md"><strong>Interface IMsRdpClient5</strong></a></li>
-<li><a href="imsrdpclient6.md"><strong>Interface IMsRdpClient6</strong></a></li>
-<li><a href="imsrdpclientadvancedsettings5.md"><strong>Interface IMsRdpClientAdvancedSettings5</strong></a></li>
-<li><a href="imsrdpclientadvancedsettings6.md"><strong>Interface IMsRdpClientAdvancedSettings6</strong></a></li>
-<li><a href="imsrdpclientnonscriptable3.md"><strong>Interface IMsRdpClientNonScriptable3</strong></a></li>
-<li><a href="imsrdpclientshell.md"><strong>Interface IMsRdpClientShell</strong></a></li>
-<li><a href="imsrdpclienttransportsettings.md"><strong>Interface IMsRdpClientTransportSettings</strong></a></li>
-<li><a href="imsrdpclienttransportsettings2.md"><strong>Interface IMsRdpClientTransportSettings2</strong></a></li>
-<li><a href="imsrdpdevice.md"><strong>Interface IMsRdpDevice</strong></a></li>
-<li><a href="imsrdpdevicecollection.md"><strong>Interface IMsRdpDeviceCollection</strong></a></li>
-<li><a href="imsrdpdrive.md"><strong>Interface IMsRdpDrive</strong></a></li>
-<li><a href="imsrdpdrivecollection.md"><strong>Interface IMsRdpDriveCollection</strong></a></li>
-<li><a href="itsremoteprogram.md"><strong>Interface ITSRemoteProgram</strong></a></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Informations de référence sur l’API des services Terminal Server<br/></td>
-<td>Les fonctions suivantes ont été ajoutées à la référence de l' <a href="terminal-services-api-reference.md">API des services Terminal Server</a>:<br/>
-<ul>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsconnectsessiona"><strong>WTSConnectSession fonction)</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex"><strong>WTSRegisterSessionNotificationEx fonction)</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsstartremotecontrolsessiona"><strong>WTSStartRemoteControlSession fonction)</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsstopremotecontrolsession"><strong>WTSStopRemoteControlSession fonction)</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsunregistersessionnotificationex"><strong>WTSUnRegisterSessionNotificationEx fonction)</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex"><strong>WTSVirtualChannelOpenEx fonction)</strong></a></li>
-</ul>
-Les structures suivantes ont été ajoutées :<br/>
-<ul>
-<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsclienta"><strong>WTSCLIENT, structure</strong></a></li>
-<li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsinfoa"><strong>WTSINFO, structure</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Fournisseur WMI des services Terminal Server<br/></td>
-<td>Les classes et méthodes suivantes ont été ajoutées au <a href="terminal-services-wmi-provider.md">fournisseur WMI des services Terminal Server</a>.<br/>
-<ul>
-<li><a href="terminal-services-gateway-classes.md">Classes de passerelle des services Terminal Server (et méthodes associées)</a></li>
-<li><a href="terminal-services-license-server-classes.md">Classes du serveur de licences des services Terminal Server (et méthodes associées)</a></li>
-<li><a href="terminal-services-remoteapp-classes.md">Classes RemoteApp (et méthodes associées)</a></li>
-<li><a href="win32-tsdiscoveredlicenseserver.md"><strong>Classe Win32_TSDiscoveredLicenseServer</strong></a></li>
-<li><a href="create-win32-terminal.md"><strong>Créer une méthode de la classe Win32_Terminal</strong></a></li>
-<li><a href="delete-win32-terminal.md"><strong>Méthode Delete de la classe Win32_Terminal</strong></a></li>
-<li><a href="canaccesslicenseserver-win32-terminalservicesetting.md"><strong>Méthode CanAccessLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="findlicenseservers-win32-terminalservicesetting.md"><strong>Méthode FindLicenseServers de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="getdomain-win32-terminalservicesetting.md"><strong>Méthode GetDomain de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="getgraceperioddays-win32-terminalservicesetting.md"><strong>Méthode GetGracePeriodDays de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="getwinstationdrivernames-win32-terminalservicesetting.md"><strong>Méthode GetWinstationDriverNames de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="pinglicenseserver-win32-terminalservicesetting.md"><strong>Méthode PingLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="updatedirectconnectlicenseserver-win32-terminalservicesetting.md"><strong>Méthode UpdateDirectConnectLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li>
-<li><a href="setuserauthenticationrequired-win32-tsgeneralsetting.md"><strong>Méthode SetUserAuthenticationRequired de la classe Win32_TSGeneralSetting</strong></a></li>
-<li><a href="getcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode GetCurrentRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li>
-<li><a href="setcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode SetCurrentRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li>
-<li><a href="getredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode GetRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li>
-<li><a href="pingsessiondirectory-win32-tssessiondirectory.md"><strong>Méthode PingSessionDirectory de la classe Win32_TSSessionDirectory</strong></a></li>
-<li><a href="setloadbalancingstate-win32-tssessiondirectory.md"><strong>Méthode SetLoadBalancingState de la classe Win32_TSSessionDirectory</strong></a></li>
-<li><a href="setserverweight-win32-tssessiondirectory.md"><strong>Méthode SetServerWeight de la classe Win32_TSSessionDirectory</strong></a></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Informations de référence sur le plug-in du service session Broker TS<br/></td>
-<td>Le plug-in Terminal Services session Broker (session Broker TS) est utilisé pour étendre les fonctionnalités de session Broker TS.<br/>
-<ul>
-<li><a href="/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Informations de référence sur le plug-in du service session Broker TS</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Élément de programmation | Description | 
+|---------------------|-------------|
+| Référence des canaux virtuels dynamiques<br /> | Les API de canal virtuel dynamique (DVC) étendent les API de canal virtuel existantes pour les services Terminal Server, appelées API de canal virtuel statique (SVC).<br /><ul><li><a href="dynamic-virtual-channels.md">Canaux virtuels dynamiques</a></li><li><a href="dynamic-virtual-channels-reference.md">Référence des canaux virtuels dynamiques</a></li></ul> | 
+| Référence Connexion Bureau à distance par le Web<br /> | Les interfaces suivantes (ainsi que leurs méthodes et propriétés associées) ont été ajoutées à <a href="remote-desktop-web-connection-reference.md">Connexion Bureau à distance par le Web référence</a>:<br /><ul><li><a href="imsrdpclient5.md"><strong>Interface IMsRdpClient5</strong></a></li><li><a href="imsrdpclient6.md"><strong>Interface IMsRdpClient6</strong></a></li><li><a href="imsrdpclientadvancedsettings5.md"><strong>Interface IMsRdpClientAdvancedSettings5</strong></a></li><li><a href="imsrdpclientadvancedsettings6.md"><strong>Interface IMsRdpClientAdvancedSettings6</strong></a></li><li><a href="imsrdpclientnonscriptable3.md"><strong>Interface IMsRdpClientNonScriptable3</strong></a></li><li><a href="imsrdpclientshell.md"><strong>Interface IMsRdpClientShell</strong></a></li><li><a href="imsrdpclienttransportsettings.md"><strong>Interface IMsRdpClientTransportSettings</strong></a></li><li><a href="imsrdpclienttransportsettings2.md"><strong>Interface IMsRdpClientTransportSettings2</strong></a></li><li><a href="imsrdpdevice.md"><strong>Interface IMsRdpDevice</strong></a></li><li><a href="imsrdpdevicecollection.md"><strong>Interface IMsRdpDeviceCollection</strong></a></li><li><a href="imsrdpdrive.md"><strong>Interface IMsRdpDrive</strong></a></li><li><a href="imsrdpdrivecollection.md"><strong>Interface IMsRdpDriveCollection</strong></a></li><li><a href="itsremoteprogram.md"><strong>Interface ITSRemoteProgram</strong></a></li></ul> | 
+| Informations de référence sur l’API des services Terminal Server<br /> | Les fonctions suivantes ont été ajoutées à la référence de l' <a href="terminal-services-api-reference.md">API des services Terminal Server</a>:<br /><ul><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsconnectsessiona"><strong>WTSConnectSession fonction)</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsregistersessionnotificationex"><strong>WTSRegisterSessionNotificationEx fonction)</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsstartremotecontrolsessiona"><strong>WTSStartRemoteControlSession fonction)</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsstopremotecontrolsession"><strong>WTSStopRemoteControlSession fonction)</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsunregistersessionnotificationex"><strong>WTSUnRegisterSessionNotificationEx fonction)</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsvirtualchannelopenex"><strong>WTSVirtualChannelOpenEx fonction)</strong></a></li></ul>Les structures suivantes ont été ajoutées :<br /><ul><li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsclienta"><strong>WTSCLIENT, structure</strong></a></li><li><a href="/windows/desktop/api/Wtsapi32/ns-wtsapi32-wtsinfoa"><strong>WTSINFO, structure</strong></a></li></ul> | 
+| Fournisseur WMI des services Terminal Server<br /> | Les classes et méthodes suivantes ont été ajoutées au <a href="terminal-services-wmi-provider.md">fournisseur WMI des services Terminal Server</a>.<br /><ul><li><a href="terminal-services-gateway-classes.md">Classes de passerelle des services Terminal Server (et méthodes associées)</a></li><li><a href="terminal-services-license-server-classes.md">Classes du serveur de licences des services Terminal Server (et méthodes associées)</a></li><li><a href="terminal-services-remoteapp-classes.md">Classes RemoteApp (et méthodes associées)</a></li><li><a href="win32-tsdiscoveredlicenseserver.md"><strong>Classe Win32_TSDiscoveredLicenseServer</strong></a></li><li><a href="create-win32-terminal.md"><strong>Créer une méthode de la classe Win32_Terminal</strong></a></li><li><a href="delete-win32-terminal.md"><strong>Méthode Delete de la classe Win32_Terminal</strong></a></li><li><a href="canaccesslicenseserver-win32-terminalservicesetting.md"><strong>Méthode CanAccessLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="findlicenseservers-win32-terminalservicesetting.md"><strong>Méthode FindLicenseServers de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="getdomain-win32-terminalservicesetting.md"><strong>Méthode GetDomain de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="getgraceperioddays-win32-terminalservicesetting.md"><strong>Méthode GetGracePeriodDays de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="getwinstationdrivernames-win32-terminalservicesetting.md"><strong>Méthode GetWinstationDriverNames de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="pinglicenseserver-win32-terminalservicesetting.md"><strong>Méthode PingLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="updatedirectconnectlicenseserver-win32-terminalservicesetting.md"><strong>Méthode UpdateDirectConnectLicenseServer de la classe Win32_TerminalServiceSetting</strong></a></li><li><a href="setuserauthenticationrequired-win32-tsgeneralsetting.md"><strong>Méthode SetUserAuthenticationRequired de la classe Win32_TSGeneralSetting</strong></a></li><li><a href="getcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode GetCurrentRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li><li><a href="setcurrentredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode SetCurrentRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li><li><a href="getredirectableaddresses-win32-tssessiondirectory.md"><strong>Méthode GetRedirectableAddresses de la classe Win32_TSSessionDirectory</strong></a></li><li><a href="pingsessiondirectory-win32-tssessiondirectory.md"><strong>Méthode PingSessionDirectory de la classe Win32_TSSessionDirectory</strong></a></li><li><a href="setloadbalancingstate-win32-tssessiondirectory.md"><strong>Méthode SetLoadBalancingState de la classe Win32_TSSessionDirectory</strong></a></li><li><a href="setserverweight-win32-tssessiondirectory.md"><strong>Méthode SetServerWeight de la classe Win32_TSSessionDirectory</strong></a></li></ul> | 
+| Informations de référence sur le plug-in du service session Broker TS<br /> | Le plug-in Terminal Services session Broker (session Broker TS) est utilisé pour étendre les fonctionnalités de session Broker TS.<br /><ul><li><a href="/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Informations de référence sur le plug-in du service session Broker TS</a></li></ul> | 
+
 
 
 

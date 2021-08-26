@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f6fa55d6ced2afdc53ef8050732f5dee5d6c1f3d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9e337af735a39312cb5aa740283cb8b4d8b508be33f28c302788a1207f89472
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074839"
 ---
 # <a name="patch-object"></a>Objet patch
 
@@ -60,14 +60,14 @@ L’objet **patch** a ces propriétés.
 
 | Propriété                                                  | Description                                                                                                |
 |:----------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
-| [**Context**](patch-context.md)<br/>               | Le contexte de cette instance de patch est une valeur MSIINSTALLCONTEXT.<br/>                                   |
+| [**Contexte**](patch-context.md)<br/>               | Le contexte de cette instance de patch est une valeur MSIINSTALLCONTEXT.<br/>                                   |
 | [**MediaDisks**](patch-mediadisks.md)<br/>         | Énumère tous les disques multimédias pour cette instance de correctif.<br/>                                         |
 | [**PatchCode**](patch-patchcode.md)<br/>           | Retourne le code du correctif.<br/>                                                                         |
 | [**PatchProperty**](patch-patchproperty.md)<br/>   | Obtient des informations de propriété sur un correctif spécifique appliqué à une instance spécifique du produit.<br/> |
 | [**ProductCode**](patch-productcode.md)<br/>       | Retourne le code du produit.<br/>                                                                       |
 | [**SourceListInfo**](patch-sourcelistinfo.md)<br/> | Obtient et définit les propriétés des informations sur la source. Il s’agit d’une propriété de lecture ou d’écriture.<br/>              |
 | [**Sources**](patch-sources.md)<br/>               | Énumère toutes les sources pour cette instance du correctif.<br/>                                             |
-| [**State**](patch-state.md)<br/>                   | État d’installation du correctif.<br/>                                                                |
+| [**Département**](patch-state.md)<br/>                   | État d’installation du correctif.<br/>                                                                |
 | [**UserSid**](patch-usersid.md)<br/>               | Retourne le SID de l’utilisateur, sous le compte pour lequel cette instance de correctif est disponible.<br/>                       |
 
 
@@ -80,7 +80,7 @@ L’objet **patch** a ces propriétés.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IPatch est défini en tant que 000C10A1-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                            |
 
@@ -90,7 +90,7 @@ L’objet **patch** a ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

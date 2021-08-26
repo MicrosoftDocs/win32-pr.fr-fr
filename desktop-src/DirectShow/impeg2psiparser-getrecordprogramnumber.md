@@ -1,5 +1,5 @@
 ---
-description: 'IMpeg2PsiParser :: GetRecordProgramNumber, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
+description: 'IMpeg2PsiParser :: GetRecordProgramNumber, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 3800a0b1-a581-40ed-81ab-3d5f77f442df
 title: 'IMpeg2PsiParser :: GetRecordProgramNumber, méthode'
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0fd99178edaa23f2cdf32672a746f79c368b4265
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e42e991fc7e288fc36dafcd167fe21ffb4983baeeb34bbb80e1bf67981e24779
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083699"
 ---
 # <a name="impeg2psiparsergetrecordprogramnumber-method"></a>IMpeg2PsiParser :: GetRecordProgramNumber, méthode
 
-L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. il ne s’agit pas d’une API DirectShow prise en charge.
 
 La `GetRecordProgramNumber` méthode récupère le numéro de programme d’un programme spécifié.
 
@@ -55,7 +55,7 @@ Pointeur vers une variable qui reçoit le \_ champ de numéro de programme de la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 

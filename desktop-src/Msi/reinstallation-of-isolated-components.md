@@ -1,19 +1,19 @@
 ---
-description: Windows Installer effectue les actions suivantes lors de la réinstallation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+description: Windows Le programme d’installation effectue les actions suivantes lors de la réinstallation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 ms.assetid: 65909b47-dc09-4e9a-920a-9cb3f55b2e67
 title: Réinstallation de composants isolés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68ad1c7fb53eb09e96882209f7738e95be9b4a64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c624777647ab9e5023cd6c78d9aaa4d20951563f915afcd800ba60ca3b233174
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086009"
 ---
 # <a name="reinstallation-of-isolated-components"></a>Réinstallation de composants isolés
 
-Windows Installer effectue les actions suivantes lors de la réinstallation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+Windows Le programme d’installation effectue les actions suivantes lors de la réinstallation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 
 ## <a name="reinstallation"></a>La réinstallation
 
