@@ -4,12 +4,12 @@ description: Le format des PDU d’interruption est différent de celui des autr
 ms.assetid: 2d2b4520-28b7-4a2e-8dee-456e17d9d6f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e87adc3222808fcc7e81904ade07c09afa13bc6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b73e9cd2a5396bbe258fcb67c88cc207ea0243a9e8aff9f31e4866b9ee8adcc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885679"
 ---
 # <a name="trap-formats"></a>Formats d’interruption
 
@@ -33,13 +33,13 @@ Dans le cadre de l’infrastructure SNMPv1, le format d’interruption de la PDU
 
 
 
- 
+ 
 
 La fonction [**SnmpRecvMsg**](/windows/desktop/api/Winsnmp/nf-winsnmp-snmprecvmsg) retourne toujours un message au format SNMPv2c. Si le message contient le type d' **opération \_ \_ interruption PDU SNMP**, l’application peut lire les entrées de liaison de variable du message et récupérer les informations associées à l’interruption.
 
- 
+ 
 
- 
+ 
 
 
 

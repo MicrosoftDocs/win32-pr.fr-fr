@@ -18,20 +18,20 @@ keywords:
 - lecture du fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a83d3ce112d0d9e47626b4f7850f760da5c6583e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9e8efb7bc0fca898c1a63db586b158b39b4bb9daa9ad051e7a61fe8c4a5d6b24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930529"
 ---
 # <a name="file-reading-features"></a>Fonctionnalités de lecture de fichier
 
-La lecture des fichiers ASF est l’une des principales fonctionnalités du kit de développement logiciel (SDK) du format Windows Media. Deux types de lecture sont pris en charge : asynchrone et synchrone. La lecture asynchrone des fichiers est gérée par l’objet lecteur. L’objet lecteur synchrone est utilisé pour lire les fichiers de façon synchrone. Pour plus d’informations sur les différents objets de lecture, consultez [objet lecteur](reader-object.md) et [objet lecteur synchrone](synchronous-reader-object.md).
+la lecture des fichiers ASF est l’une des principales fonctionnalités du kit de développement logiciel (SDK) de Format multimédia Windows. Deux types de lecture sont pris en charge : asynchrone et synchrone. La lecture asynchrone des fichiers est gérée par l’objet lecteur. L’objet lecteur synchrone est utilisé pour lire les fichiers de façon synchrone. Pour plus d’informations sur les différents objets de lecture, consultez [objet lecteur](reader-object.md) et [objet lecteur synchrone](synchronous-reader-object.md).
 
-Dans le scénario de lecture de fichier asynchrone le plus basique, vous devez implémenter une méthode de rappel que l’objet lecteur appellera quand les exemples sont prêts. Une fois que vous avez commencé à lire un fichier, votre application attend que les exemples soient remis à votre méthode de rappel. La lecture asynchrone est utile pour les applications de lecteur et prend en charge les fonctionnalités non disponibles avec la lecture synchrone. Si votre application a besoin de lire des fichiers à partir d’un emplacement réseau ou d’interagir avec un serveur exécutant Windows Media Services, vous devez utiliser l’objet lecteur. L’inconvénient de l’objet lecteur est qu’un thread distinct est utilisé pour chaque sortie fournie. En outre, l’objet lecteur n’est pas aussi flexible que le lecteur synchrone dans la manière dont il peut fournir des exemples.
+Dans le scénario de lecture de fichier asynchrone le plus basique, vous devez implémenter une méthode de rappel que l’objet lecteur appellera quand les exemples sont prêts. Une fois que vous avez commencé à lire un fichier, votre application attend que les exemples soient remis à votre méthode de rappel. La lecture asynchrone est utile pour les applications de lecteur et prend en charge les fonctionnalités non disponibles avec la lecture synchrone. si votre application doit lire des fichiers à partir d’un emplacement réseau ou interagir avec un serveur exécutant Services Windows Media, vous devez utiliser l’objet lecteur. L’inconvénient de l’objet lecteur est qu’un thread distinct est utilisé pour chaque sortie fournie. En outre, l’objet lecteur n’est pas aussi flexible que le lecteur synchrone dans la manière dont il peut fournir des exemples.
 
-Avec le lecteur synchrone, vous n’avez pas besoin d’utiliser de méthodes de rappel. Au lieu de cela, vous sélectionnez une partie du fichier pour lire et récupérer les exemples un par un avec les appels de méthode. Le lecteur synchrone est bien adapté aux besoins des applications de modification de contenu, où l’accès rapide à des exemples spécifiques est essentiel. Étant donné qu’aucune méthode de rappel n’est utilisée par le lecteur synchrone, vous pouvez créer des applications pour lire les fichiers ASF avec un minimum de surcharge de codage. Toutefois, le lecteur synchrone ne peut pas ouvrir un fichier à partir d’un emplacement réseau ou interagir avec un serveur exécutant Windows Media Services ou lire des fichiers protégés par [*DRM*](wmformat-glossary.md).
+Avec le lecteur synchrone, vous n’avez pas besoin d’utiliser de méthodes de rappel. Au lieu de cela, vous sélectionnez une partie du fichier pour lire et récupérer les exemples un par un avec les appels de méthode. Le lecteur synchrone est bien adapté aux besoins des applications de modification de contenu, où l’accès rapide à des exemples spécifiques est essentiel. Étant donné qu’aucune méthode de rappel n’est utilisée par le lecteur synchrone, vous pouvez créer des applications pour lire les fichiers ASF avec un minimum de surcharge de codage. toutefois, le lecteur synchrone ne peut pas ouvrir un fichier à partir d’un emplacement réseau ou interagir avec un serveur exécutant Services Windows Media, ni lire des fichiers protégés par [*DRM*](wmformat-glossary.md).
 
 Les rubriques suivantes décrivent les fonctionnalités du lecteur et du lecteur synchrone.
 
@@ -44,7 +44,7 @@ Les rubriques suivantes décrivent les fonctionnalités du lecteur et du lecteur
 
 
 
- 
+ 
 
 En outre, les rubriques suivantes de la section écriture des fonctionnalités s’appliquent également à la lecture de fichiers :
 
@@ -56,15 +56,15 @@ En outre, les rubriques suivantes de la section écriture des fonctionnalités s
 
 <dl> <dt>
 
-[**Fonctionnalités**](features.md)
+[**Caractéristiques**](features.md)
 </dt> <dt>
 
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

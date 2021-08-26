@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62bb5701f665a3685845368eb2adc72fc33d10bd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ea9b1a3cdf0c0186cdac7789727948fbcc48f3d6192927abd30c3e77ff864886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929839"
 ---
 # <a name="acs-event-log-level-attribute"></a>ACS-événement-niveau de journalisation
 
@@ -36,7 +36,7 @@ Niveau de journalisation RSVP.
 | Fréquence des mises à jour  | \-                                      |
 | Attribute-Id      | 1.2.840.113556.1.4.769                  |
 | System-ID-GUID    | 7f561286-5301-11d1-a9c5-0000f80367c1    |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)    |
+| Syntaxe            | [**Énumération**](s-enumeration.md)    |
 
 
 
@@ -45,7 +45,7 @@ Niveau de journalisation RSVP.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ description: Création d’une fenêtre
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea5ec39187b389405d3c6d8eca475944278a3d5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 253eb68747ce7511c11aeeba27343d7dd56c7d0a6f78f316d72aab83d11ddd92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870029"
 ---
 # <a name="creating-a-window"></a>Création d’une fenêtre
 
@@ -36,7 +36,7 @@ Vous devez définir les membres de structure suivants :
 - **HINSTANCE** est le handle de l’instance de l’application. Obtient cette valeur à partir du paramètre *HINSTANCE* de **wWinMain**.
 - **lpszClassName** est une chaîne qui identifie la classe de fenêtre.
 
-Comme les noms de classe sont locaux pour le processus actuel, le nom doit être unique au sein du processus. Toutefois, les contrôles Windows standard ont également des classes. Si vous utilisez l’un de ces contrôles, vous devez choisir des noms de classe qui ne sont pas en conflit avec les noms de classe de contrôle. Par exemple, la classe de fenêtre pour le contrôle Button est nommée « Button ».
+Comme les noms de classe sont locaux pour le processus actuel, le nom doit être unique au sein du processus. toutefois, les contrôles de Windows standard ont également des classes. Si vous utilisez l’un de ces contrôles, vous devez choisir des noms de classe qui ne sont pas en conflit avec les noms de classe de contrôle. Par exemple, la classe de fenêtre pour le contrôle Button est nommée « Button ».
 
 La structure [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) a d’autres membres qui ne sont pas indiqués ici. Vous pouvez les définir sur zéro, comme indiqué dans cet exemple, ou les remplir. La documentation MSDN décrit en détail la structure.
 

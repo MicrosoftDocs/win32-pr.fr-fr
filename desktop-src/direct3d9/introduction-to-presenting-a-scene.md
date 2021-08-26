@@ -4,12 +4,12 @@ ms.assetid: fb2ddc0d-50ac-48aa-8a5c-f232b0f8e7aa
 title: Présentation de la présentation d’une scène (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d909f2d7fcc04cd58c27c7598ca8f826b27f48a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f9abf584bad1bfbbde2bbfa2e9281acf3ad2173403507e06bbdc2abc5f5edd1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846549"
 ---
 # <a name="introduction-to-presenting-a-scene-direct3d-9"></a>Présentation de la présentation d’une scène (Direct3D 9)
 

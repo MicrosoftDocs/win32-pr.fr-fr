@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de connexion SDK. Consultez un 
 ms.assetid: 34c9b423-4f4c-484e-86d7-4594566cd396
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edbd404246055a3c94daff4c029a94f16adfe51b
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: b7c514fc276601ee02cc9d24fc4961f07e7be722ab4ff69dae0316687d8d74d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948049"
 ---
 # <a name="sdk-connection-properties"></a>Propriétés de connexion du SDK
 
@@ -41,9 +41,9 @@ Cet exemple est une instance du schéma natif [eaphostconfig](eaphostconfigschem
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

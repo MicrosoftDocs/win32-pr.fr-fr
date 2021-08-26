@@ -4,12 +4,12 @@ ms.assetid: 2caad1ee-5944-46ec-904a-32631b8afd0f
 title: PropGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb4a73907755fa915a0c2edfda842076b7c8f28
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2d65b1cc33c114952dcbac609ec49ae0cc4901020c4e068acd9e45a028c187fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885919"
 ---
 # <a name="propgroup"></a>PropGroup
 
@@ -33,7 +33,7 @@ ms.locfileid: "108104947"
 | [System. PropGroup. Media](./props-system-propgroup-media.md)<br/>                 | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
 | [System. PropGroup. MediaAdvanced](./props-system-propgroup-mediaadvanced.md)<br/> | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
 | [System. PropGroup. message](./props-system-propgroup-message.md)<br/>             | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
-| [System. PropGroup. Music](./props-system-propgroup-music.md)<br/>                 | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers musicaux des autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
+| [System. PropGroup. Musique](./props-system-propgroup-music.md)<br/>                 | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers musicaux des autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
 | [System. PropGroup. Origin](./props-system-propgroup-origin.md)<br/>               | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
 | [System. PropGroup. photoavancé](./props-system-propgroup-photoadvanced.md)<br/> | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |
 | [System. PropGroup. RecordedTV](./props-system-propgroup-recordedtv.md)<br/>       | Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.<br/>             |

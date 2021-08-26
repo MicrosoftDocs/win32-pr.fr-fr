@@ -18,12 +18,12 @@ keywords:
 - lecteurs synchrones, paramètres de sortie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f5a02d508f76057dd72e34558a7ca8d29de4847
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 966cd350d379170f9f19c44967ef932bf41a15cb1910b865432ce499b006161e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929939"
 ---
 # <a name="output-settings"></a>Paramètres de sortie
 
@@ -38,7 +38,7 @@ Les constantes globales suivantes sont utilisées pour identifier les paramètre
 | \_wszDeliverOnReceive g         | **\_type WMT \_ bool**  | Si la valeur est true, les exemples de cette sortie sont remis dès qu’ils sont disponibles à partir du lecteur. Cela peut entraîner la remise dans le désordre des échantillons de cette sortie et avant les échantillons correspondants d’autres sorties.                                                                                            |
 | \_wszDynamicRangeControl g      | **\_valeur DWORD de type WMT \_** | Spécifie le niveau de contrôle de plage dynamique à utiliser pour la sortie. Défini sur une valeur comprise entre 0 et 2, où 0 indique qu’il n’y a pas de contrôle de plage dynamique (valeur par défaut) et 2 le niveau maximal de contrôle de plage dynamique (la plus petite plage dynamique).                                                                                |
 | \_wszEarlyDataDelivery g        | **\_valeur DWORD de type WMT \_** | Durée, en millisecondes, qui spécifie le niveau de remise des échantillons. Si la valeur est supérieure à zéro, les exemples de cette sortie sont récupérés et décodés afin que les exemples soient livrés plus tôt que les exemples pour d’autres sorties. Normalement, le lecteur fournit des exemples par ordre de durée de présentation.         |
-| \_wszEnableDiscreteOutput g     | **\_type WMT \_ bool**  | Si la valeur est true, le lecteur active la sortie audio multicanal haute définition. Ce paramètre est valide uniquement pour les flux audio encodés avec le codec Windows Media Audio 9 Professional. Si ce paramètre est défini sur true, vous devez également spécifier la configuration de l’orateur de l’ordinateur client en définissant g \_ wszSpeakerConfig. |
+| \_wszEnableDiscreteOutput g     | **\_type WMT \_ bool**  | Si la valeur est true, le lecteur active la sortie audio multicanal haute définition. ce paramètre est valide uniquement pour les flux audio encodés avec le codec Windows Media Audio 9 Professional. Si ce paramètre est défini sur true, vous devez également spécifier la configuration de l’orateur de l’ordinateur client en définissant g \_ wszSpeakerConfig. |
 | \_wszEnableFrameInterpolation g | **\_type WMT \_ bool**  | Si la valeur est true, le codec remet le flux vidéo à une [*fréquence d’images*](wmformat-glossary.md)supérieure, en interpolant les trames de façon algorithmique.                                                                                                                                                          |
 | \_wszJustInTimeDecode g         | **\_type WMT \_ bool**  | Si la valeur est true, les données doivent être décodées le plus tard possible. Non pris en charge dans le lecteur synchrone.                                                                                                                                                                                                                            |
 | \_wszNeedsPreviousSample g      | **\_type WMT \_ bool**  | Si la valeur est true, l’exemple requiert la décompression de l’exemple précédent. Ce paramètre s’applique uniquement aux images Delta dans une vidéo compressée et est en lecture seule.                                                                                                                                                                       |
@@ -52,7 +52,7 @@ Les constantes globales suivantes sont utilisées pour identifier les paramètre
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,9 +70,9 @@ Les constantes globales suivantes sont utilisées pour identifier les paramètre
 [**IWMSyncReader::SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmsyncreader-setoutputsetting)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

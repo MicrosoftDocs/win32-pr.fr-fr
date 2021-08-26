@@ -4,12 +4,12 @@ ms.assetid: 4f854c1a-f2e1-48c4-9cc1-8a0fcf1bebed
 title: API ticket d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e19cfd8d624a1390b8afacd625e92fcee2704dd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ac91cc976addba630bae3f250d244442ba1dd3b61f741575fe21cb250bab4a2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104042974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947792"
 ---
 # <a name="print-ticket-api"></a>API ticket d’impression
 
@@ -26,7 +26,7 @@ Cette rubrique contient des informations sur les éléments d’API suivants :
 -   [Fonctions de l’API ticket d’impression](print-ticket-api-functions.md)
 -   [Énumérations de l’API ticket d’impression](print-ticket-api-enumerations.md)
 
-Le diagramme suivant montre la relation entre l’API ticket d’impression et les autres API d’impression qu’une application Windows Native peut utiliser.
+le diagramme suivant montre la relation entre l’api Ticket d’impression et les autres api d’impression qu’une application Windows native peut utiliser.
 
 ![diagramme qui montre la relation entre l’API ticket d’impression et les autres API d’impression qu’une application Windows Native peut utiliser](images/print-apis-pt.png)
 

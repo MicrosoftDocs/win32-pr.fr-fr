@@ -3,7 +3,7 @@ title: élément Command
 description: Représente une définition de commande.
 ms.assetid: f332423d-d258-488d-9233-71687288b462
 keywords:
-- Ruban des fenêtres d’élément de commande
+- élément de commande Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e1df5b62c7b2d7c55345ba8d6da366d04697054
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2def999c89994965f705f53edee684a3f1882fa2b47d43e512942715a8fc51f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931549"
 ---
 # <a name="command-element"></a>élément Command
 
 Représente une définition de commande.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Command
@@ -266,7 +266,7 @@ L’exemple suivant montre un manifeste d’éléments de **commande** pour un o
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

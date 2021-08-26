@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de839a8b23b79f93c81169851ab4338248111f32
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3916b41d2480e2e39134ebeff649f94086ce1d88681229daed7a56ab805060a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930361"
 ---
 # <a name="wmproviderrating"></a>WM/ProviderRating
 
@@ -38,9 +38,9 @@ L’attribut **WM/ProviderRating** contient l’évaluation du fichier telle qu�
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

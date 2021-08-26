@@ -5,12 +5,12 @@ ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbc7ec1b62ba620b42bc85c1c1f491ff7ba952d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 9e98fc2baf63d7d80fefc190f2d01da33ea24d420e647b4f0c57df7ec4c501f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104548551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850649"
 ---
 # <a name="swap-chains"></a>Chaînes de permutation
 
@@ -67,11 +67,11 @@ void Present()
 
 Lors de l’utilisation des appels [**CreateSwapChainForHwnd**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), [**CreateSwapChainForCoreWindow**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcorewindow)ou [**CreateSwapChainForComposition**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforcomposition) , Notez que le paramètre *pDevice* nécessite en fait un pointeur vers une file d’attente de commandes directe dans Direct3D 12, et non un appareil.
 
-### <a name="presenting-on-windows-7"></a>Présentation de Windows 7
+### <a name="presenting-on-windows-7"></a>présentation de Windows 7
 
-Quand vous ciblez Direct3D 12 sur Windows 7, les types DXGI nécessaires pour Direct3D 12 ne sont pas présents. vous devez donc utiliser le **ID3D12CommandQueueDownLevel** fourni par D3D12On7 (interrogé à partir de la file d’attente de commandes directe) à présenter.
+quand vous ciblez direct3d 12 sur Windows 7, les types DXGI nécessaires pour direct3d 12 ne sont pas présents. vous devez donc utiliser le **ID3D12CommandQueueDownLevel** fourni par D3D12On7 (interrogé à partir de la file d’attente de commandes directe) à présenter.
 
-Vous fournissez une liste de commandes ouverte à la méthode présente Windows 7, qui sera ensuite utilisée, fermée et automatiquement envoyée à l’appareil. Vous devez fournir une mémoire tampon d’arrière-plan qui doit être créée par l’application, doit être une ressource validée, doit avoir un échantillon unique et doit être de l’un des formats suivants.
+vous fournissez une liste de commandes ouverte à la méthode Windows 7 présente, qui sera ensuite utilisée, fermée et automatiquement envoyée à l’appareil. Vous devez fournir une mémoire tampon d’arrière-plan qui doit être créée par l’application, doit être une ressource validée, doit avoir un échantillon unique et doit être de l’un des formats suivants.
 
 * **DXGI_FORMAT_R16G16B16A16_FLOAT**
 * **DXGI_FORMAT_R10G10B10A2_UNORM**

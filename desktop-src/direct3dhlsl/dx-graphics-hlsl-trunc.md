@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34493f60e60bc0dce35f5f9db50360265191c742
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0845e619e8674d729735da1b639802df256d9c210615d71578a4e1effd777e39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845769"
 ---
 # <a name="trunc"></a>trunc
 
@@ -50,7 +50,7 @@ Tronque une valeur à virgule flottante en composant entier.
 
 La valeur d’entrée est tronquée à un composant entier.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction tronque une valeur à virgule flottante au composant entier. Étant donné une valeur à virgule flottante de 1,6, la fonction trunc retourne 1,0, où la fonction [**Round (DirectX HLSL)**](dx-graphics-hlsl-round.md) retourne 2,0.
 
@@ -73,15 +73,15 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge |
+| Modèle de nuanceur                                                                       | Pris en charge |
 |------------------------------------------------------------------------------------|-----------|
-| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | Oui       |
+| [Nuancier Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) et modèles de nuanceur plus élevés | oui       |
 
 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

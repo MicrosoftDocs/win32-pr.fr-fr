@@ -1,32 +1,32 @@
 ---
-description: Liste des propriétés de Windows Installer donnant des valeurs écrites sous la clé de Registre Uninstall.
+description: liste des propriétés de Windows Installer donnant des valeurs écrites sous la clé de registre Uninstall.
 ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
-title: Windows Installer les propriétés de la clé de Registre Uninstall
+title: Windows Propriétés du programme d’installation pour la clé de Registre Uninstall
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 90174cabed7a1d9ff0ca21b532c459a1026787a6
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: b898cd2a83a05783141ddf1fb4a7cbebb783bbcd7640526c5b653afa434d2175
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106526915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810318"
 ---
-# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>Windows Installer les propriétés de la clé de Registre Uninstall
+# <a name="windows-installer-properties-for-the-uninstall-registry-key"></a>Windows Propriétés du programme d’installation pour la clé de Registre Uninstall
 
 Les propriétés du programme d’installation suivantes donnent les valeurs écrites sous la clé de Registre :
 
-**HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Uninstall**
+**HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Uninstall**
 
 Les valeurs sont stockées dans une sous-clé identifiée par le GUID du code du produit de l’application.
 
 
 
-| Valeur               | Windows Installer, propriété                                                                                                                                                                                                                                                                                                                                           |
+| Valeur               | Windows Installer (propriété)                                                                                                                                                                                                                                                                                                                                           |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DisplayName         | Propriété [**ProductName**](productname.md)                                                                                                                                                                                                                                                                                                                          |
 | DisplayVersion      | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
-| Publisher           | Propriété [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
+| Éditeur           | Propriété [**Manufacturer**](manufacturer.md)                                                                                                                                                                                                                                                                                                                        |
 | VersionMinor        | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | VersionMajor        | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
 | Version             | Dérivée de la propriété [**ProductVersion**](productversion.md)                                                                                                                                                                                                                                                                                                       |
@@ -40,11 +40,11 @@ Les valeurs sont stockées dans une sous-clé identifiée par le GUID du code du
 | AuthorizedCDFPrefix | Propriété [**ARPAUTHORIZEDCDFPREFIX**](arpauthorizedcdfprefix.md)                                                                                                                                                                                                                                                                                                    |
 | Commentaires            | Propriété [**ARPCOMMENTS**](arpcomments.md) <br/> Commentaires fournis au panneau de configuration **Ajout/suppression de programmes** .<br/>                                                                                                                                                                                                                                |
 | Contact             | Propriété [**ARPCONTACT**](arpcontact.md) <br/> Contactez le panneau de configuration **Ajout/suppression de programmes** .<br/>                                                                                                                                                                                                                                   |
-| EstimatedSize       | Déterminé et défini par le Windows Installer.                                                                                                                                                                                                                                                                                                                         |
-| Language            | Propriété [**ProductLanguage**](productlanguage.md)                                                                                                                                                                                                                                                                                                                  |
-| ModifyPath          | Déterminé et défini par le Windows Installer.                                                                                                                                                                                                                                                                                                                         |
+| EstimatedSize       | déterminé et défini par le Windows Installer.                                                                                                                                                                                                                                                                                                                         |
+| Langage            | Propriété [**ProductLanguage**](productlanguage.md)                                                                                                                                                                                                                                                                                                                  |
+| ModifyPath          | déterminé et défini par le Windows Installer.                                                                                                                                                                                                                                                                                                                         |
 | Fichier Lisezmoi              | Propriété [**ARPREADME**](arpreadme.md) <br/> Fichier Lisez-moi fourni dans le panneau de configuration **Ajout/suppression de programmes** .<br/>                                                                                                                                                                                                                                      |
-| UninstallString     | Déterminé et défini par Windows Installer.                                                                                                                                                                                                                                                                                                                             |
+| UninstallString     | déterminé et défini par Windows Installer.                                                                                                                                                                                                                                                                                                                             |
 | SettingsIdentifier  | Propriété [**MSIARPSETTINGSIDENTIFIER**](msiarpsettingsidentifier.md)                                                                                                                                                                                                                                                                                                |
 
 
@@ -58,7 +58,7 @@ Les valeurs sont stockées dans une sous-clé identifiée par le GUID du code du
 [À propos des propriétés](about-properties.md)
 </dt> <dt>
 
-[Configuration de l’ajout/suppression de programmes avec Windows Installer](configuring-add-remove-programs-with-windows-installer.md)
+[configuration de l’ajout/suppression de programmes avec Windows Installer](configuring-add-remove-programs-with-windows-installer.md)
 </dt> <dt>
 
 [Référence de propriété](property-reference.md)

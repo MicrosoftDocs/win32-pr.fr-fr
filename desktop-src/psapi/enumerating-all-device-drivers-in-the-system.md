@@ -4,12 +4,12 @@ description: L’exemple de code suivant utilise la fonction EnumDeviceDrivers p
 ms.assetid: 047d8541-e17e-4738-8453-674db69365df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7b02345f5d59979fe3576fd952c056ca808e6ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83c2d6629738e0668d2c0e95ec19f10ae0f3cabcb7b842747ae6dc97937c590f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884969"
 ---
 # <a name="enumerating-all-device-drivers-in-the-system"></a>Énumération de tous les pilotes de périphérique dans le système
 
@@ -60,9 +60,9 @@ return 0;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

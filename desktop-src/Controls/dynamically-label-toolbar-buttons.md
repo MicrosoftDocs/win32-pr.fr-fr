@@ -4,27 +4,27 @@ description: Vous pouvez assigner du texte à un bouton existant à l’aide du 
 ms.assetid: 571C7FB9-2806-47AF-8933-0D3541AE6ACF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38dbf6cbefffa799f60909859c99d3e8c2d65e8e
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 063a3b8be8a23dc8cead219c53989a8ff1a40225dc8411f9e8a1b156b6bb55bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104462799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877439"
 ---
 # <a name="how-to-dynamically-label-toolbar-buttons"></a>Comment étiqueter dynamiquement des boutons de barre d’outils
 
 Vous pouvez assigner du texte à un bouton existant à l’aide du message [**to \_ SETBUTTONINFO**](tb-setbuttoninfo.md) .
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -48,7 +48,7 @@ LRESULT RelabelButton(HWND hWndToolbar)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La modification du texte d’un bouton à l’aide de [**to \_ SETBUTTONINFO**](tb-setbuttoninfo.md) n’affecte pas la chaîne qui est assignée à ce bouton dans la liste des chaînes internes.
 
@@ -61,12 +61,12 @@ Si vous ajoutez une chaîne de bouton de barre d’outils à la liste de texte i
 [Utilisation des contrôles ToolBar](using-toolbar-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

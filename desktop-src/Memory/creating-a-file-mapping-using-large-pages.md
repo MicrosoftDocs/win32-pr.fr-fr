@@ -1,22 +1,22 @@
 ---
-description: L’exemple suivant utilise la fonction CreateFileMapping avec l' \_ indicateur sec \_ pages pour utiliser des pages de grande taille. Il nécessite Windows Server 2003 avec Service Pack 1 (SP1) ou version ultérieure.
+description: L’exemple suivant utilise la fonction CreateFileMapping avec l' \_ indicateur sec \_ pages pour utiliser des pages de grande taille. il requiert Windows Server 2003 avec Service pack 1 (SP1) ou version ultérieure.
 ms.assetid: be2cdcbc-03e8-407d-8ae2-569f8fd8cba8
 title: Création d’un mappage de fichier à l’aide de pages de grande taille
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49a852de187f6798904ef1795dca5955663283f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df68cc483856d0fe7f329b4f5e6e5c8a424a8c0e55958ca1da8de1ce51cbf71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119869939"
 ---
 # <a name="creating-a-file-mapping-using-large-pages"></a>Création d’un mappage de fichier à l’aide de pages de grande taille
 
 L’exemple suivant utilise la fonction [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) avec l' **indicateur \_ sec \_ pages** pour utiliser des pages de grande taille. La mémoire tampon doit être suffisamment grande pour contenir la taille minimale d’une grande page. Cette valeur est obtenue à l’aide de la fonction [**GetLargePageMinimum**](/windows/win32/api/memoryapi/nf-memoryapi-getlargepageminimum) . Cette fonctionnalité nécessite également le privilège « SeLockMemoryPrivilege ».
 
 > [!NOTE]
-> À partir de Windows 10, version 1703, la fonction [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) mappe une vue à l’aide de petites pages par défaut, même pour les objets de mappage de fichiers créés avec l’indicateur **sec \_ \_ pages de grande taille** . Dans cette version et les versions ultérieures du système d’exploitation, vous devez spécifier l’indicateur **file \_ Map \_ large \_ pages** avec la fonction [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) pour mapper des pages de grande taille. Cet indicateur est ignoré sur les versions de système d’exploitation antérieures à Windows 10, version 1703.
+> à compter de Windows 10, la version 1703, la fonction [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) mappe une vue à l’aide de petites pages par défaut, même pour les objets de mappage de fichiers créés avec l’indicateur **SEC \_ \_ pages de grande taille** . Dans cette version et les versions ultérieures du système d’exploitation, vous devez spécifier l’indicateur **file \_ Map \_ large \_ pages** avec la fonction [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) pour mapper des pages de grande taille. cet indicateur est ignoré sur les versions de système d’exploitation avant Windows 10, version 1703.
 
 
 ```C++

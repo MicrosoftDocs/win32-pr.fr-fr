@@ -4,18 +4,18 @@ ms.assetid: F7937402-1173-4647-B9FF-856C0925C1C3
 title: Utilisation du contexte XState
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca58a8fadb4404e2f6fc431b7b7d2a9d7f583f4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6300049f96ff6e7c1fb51759978f84e6c93c305de559a527c9791f2d33f87150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912219"
 ---
 # <a name="working-with-xstate-context"></a>Utilisation du contexte XState
 
 Ce document contient un exemple qui montre comment utiliser les fonctions de contexte XState pour récupérer et définir des fonctionnalités étendues sur un thread. Les exemples suivants manipulent l’état d’Intel Advanced Vector Extensions (AVX) qui est défini par FeatureId 2 (Feature Mask 4). Intel AVX est défini dans la « référence de programmation Intel Advanced Vector Extensions » disponible à partir de <https://go.microsoft.com/fwlink/p/?linkid=212716> .
 
-**Windows 7 avec SP1 :** L' [API AVX](avx-support-portal.md) est tout d’abord implémentée sur Windows 7 avec SP1. Étant donné qu’il n’existe aucun kit de développement logiciel (SDK) pour Windows 7 avec SP1, cela signifie qu’il n’y a aucun en-tête et fichier de bibliothèque disponibles à utiliser. Dans ce cas, un appelant doit déclarer les fonctions nécessaires à partir de cette documentation et y obtenir des pointeurs à l’aide de [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) sur « Kernel32.dll », suivi par des appels à [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
+**Windows 7 avec SP1 :** l' [API AVX](avx-support-portal.md) est tout d’abord implémentée sur Windows 7 avec SP1. étant donné qu’il n’existe aucun kit de développement logiciel (SDK) pour Windows 7 avec SP1, cela signifie qu’il n’y a aucun en-tête et fichier de bibliothèque disponibles à utiliser. Dans ce cas, un appelant doit déclarer les fonctions nécessaires à partir de cette documentation et y obtenir des pointeurs à l’aide de [**GetModuleHandle**](/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulehandlea) sur « Kernel32.dll », suivi par des appels à [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress).
 
 
 ```C++

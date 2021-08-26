@@ -4,12 +4,12 @@ description: Événement de taille
 ms.assetid: 06089f84-8e75-475f-a492-536c83fa6730
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d9a896d2dcbf8b925c0ca13fa429f6dfd95bc21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 146763c649ab22c59a8367e3135ee0ea277c8ae4c8e4bc58588cd70c0b5ec1c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961019"
 ---
 # <a name="size-event"></a>Événement de taille
 
@@ -39,11 +39,11 @@ Taille du **sous** *-agent* \_ **(ByVal** *CharacterID*, *largeur* **ByVal** , *
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cet événement se produit lorsqu’une application modifie la taille d’un caractère. Cet événement est envoyé uniquement aux clients du caractère (applications qui ont chargé le caractère).
 
@@ -52,9 +52,9 @@ Cet événement se produit lorsqu’une application modifie la taille d’un car
 [**Déplacer l’événement**](move-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

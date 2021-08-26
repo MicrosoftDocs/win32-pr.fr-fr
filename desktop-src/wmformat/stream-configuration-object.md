@@ -3,7 +3,7 @@ title: Configuration de flux, objet
 description: Configuration de flux, objet
 ms.assetid: 228e334c-9d9b-4604-a225-73af7af3255f
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, objets de configuration de flux
+- Windows Media Format SDK, Stream, objets de configuration
 - ASF (Advanced Systems Format), objets de configuration de flux
 - ASF (format de systèmes avancés), objets de configuration de flux
 - objets, objets de configuration de flux
@@ -11,12 +11,12 @@ keywords:
 - flux, objets de configuration de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e16a6c2221952e6102b76c49fee660888c9dcbc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 73e71be6149df3f2da0edba31d9c5803d86a6fd89189e1fc339cf99593336415
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104101348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929379"
 ---
 # <a name="stream-configuration-object"></a>Configuration de flux, objet
 
@@ -34,7 +34,7 @@ Pour créer un objet de configuration de flux, utilisez l’une des méthodes su
 
 
 
- 
+ 
 
 Toutes les méthodes du tableau précédent définissent un pointeur vers une interface **IWMStreamConfig** . Les autres interfaces de l’objet de configuration Stream peuvent être obtenues en appelant la méthode **QueryInterface** .
 
@@ -53,13 +53,13 @@ Les interfaces suivantes sont prises en charge par l’objet de configuration de
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Configuration de flux**](configuring-streams.md)
+[**Configuration de Flux**](configuring-streams.md)
 </dt> <dt>
 
 [**Objets**](objects.md)
@@ -68,9 +68,9 @@ Les interfaces suivantes sont prises en charge par l’objet de configuration de
 [**Gestionnaire de profils, objet**](profile-manager-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

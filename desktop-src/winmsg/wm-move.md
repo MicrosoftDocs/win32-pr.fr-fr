@@ -4,12 +4,12 @@ ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
 title: Message WM_MOVE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56004ec47266a50bf2ac82a828b9046c84a8ebfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c18d7a4f4411f45a3338a057a60942d01905ccefd25b40ee511d3b8a5d915d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810469"
 ---
 # <a name="wm_move-message"></a>WM- \_ déplacer un message
 
@@ -48,7 +48,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres sont fournis en coordonnées d’écran pour les fenêtres superposées et les fenêtres contextuelles et dans les coordonnées client-parent pour les fenêtres enfants.
 

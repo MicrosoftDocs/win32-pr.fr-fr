@@ -4,16 +4,16 @@ ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
 title: Événement PBT_APMOEMEVENT (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a99b99bdaf69b1a53a24ad33cd898fd1c806694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b92feb840e69c3a7e560d7bc71a0a5e4746ae5677920010f0251a1b951ddb8d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961654"
 ---
 # <a name="pbt_apmoemevent-event"></a>\_Événement PBT APMOEMEVENT
 
-\[PBT \_ APMOEMEVENT peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de cet événement a été supprimée dans Windows Vista.\]
+\[PBT \_ APMOEMEVENT peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de cet événement a été supprimée dans Windows Vista.\]
 
 Notifie les applications que le BIOS APM a signalé un événement OEM APM.
 
@@ -73,7 +73,7 @@ Code d’événement défini par l’OEM qui a été signalé par le BIOS APM du
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la mesure où toutes les implémentations du BIOS APM ne fournissent pas de notifications d’événements OEM, cet événement peut ne jamais être diffusé sur certains ordinateurs.
 
@@ -83,8 +83,8 @@ Dans la mesure où toutes les implémentations du BIOS APM ne fournissent pas de
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                                    |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                                           |
 | En-tête<br/>                   | <dl> <dt>WinUser. h (inclure Windows. h)</dt> </dl> |

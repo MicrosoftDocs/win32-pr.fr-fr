@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Kernel32.dll
-ms.openlocfilehash: 7f22d7ceb59732e986c23c873133b11f358364cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f754d4c0e88ee860d112a6fb99d15c2690af0014951e77425d425b65ad16e39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929109"
 ---
 # <a name="thunkconnect32-function"></a>ThunkConnect32 fonction)
 
-\[Cette fonction était prise en charge pour la compatibilité descendante, mais elle n’est pas présente dans les versions actuelles de Windows. Les nouveaux pilotes de périphérique doivent être de 32 ou 64 bits et n’ont pas besoin de cette fonction.\]
+\[Cette fonction était prise en charge pour la compatibilité descendante, mais n’est pas présente dans les versions actuelles de Windows. Les nouveaux pilotes de périphérique doivent être de 32 ou 64 bits et n’ont pas besoin de cette fonction.\]
 
 La fonction **ThunkConnect32** est utilisée par les pilotes de périphériques 16 bits (pour MS-DOS) qui appellent le noyau 32 bits.
 

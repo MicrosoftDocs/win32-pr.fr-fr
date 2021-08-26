@@ -4,12 +4,12 @@ description: Problèmes de sortie
 ms.assetid: 45423b7e-f648-408c-9cff-f7cf1affc42a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d909052feb2463637a8eab6343353f0af617c06
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2f19afb705e1d71b3b47bc44c35a51cb83029932287c582b0481ff6a5b078049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104314395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961049"
 ---
 # <a name="output-problems"></a>Problèmes de sortie
 
@@ -48,29 +48,29 @@ Quand une page Web incluant Microsoft Agent est fermée (en cliquant avec le bou
 
 La page Web (ou l’application) activée par agent a tenté de demander un moteur de synthèse vocale (TTS) spécifique. Speechapi.dll n’a pas été installé.
 
-### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>Les moteurs de reconnaissance vocale ne semblent pas fonctionner avec Microsoft Agent dans Windows XP ?
+### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>les moteurs de reconnaissance vocale ne semblent pas fonctionner avec Microsoft Agent dans Windows XP ?
 
-Microsoft Agent utilise SAPI 4,0 pour fournir des services vocaux. Windows XP est désormais fourni avec SAPI 5,0 qui ne fournit pas de prise en charge de la compatibilité descendante pour son prédécesseur. Heureusement, SAPI 4,0 et SAPI 5,0 peuvent coexister ensemble sur le même ordinateur Windows XP.
+Microsoft Agent utilise SAPI 4,0 pour fournir des services vocaux. Windows Toutefois, XP est désormais fourni avec SAPI 5,0 qui ne fournit pas de prise en charge de compatibilité descendante pour son prédécesseur. heureusement, sapi 4,0 et sapi 5,0 peuvent coexister ensemble sur le même ordinateur Windows XP.
 
-Pour que les moteurs de reconnaissance vocale fonctionnent avec Microsoft Agent dans Windows XP, commencez par installer les [fichiers binaires SAPI 4,0 Runtime](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), puis installez les moteurs de reconnaissance vocale en particulier.
+pour que les moteurs de reconnaissance vocale fonctionnent avec Microsoft Agent dans Windows XP, commencez par installer les [fichiers binaires SAPI 4,0 runtime](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe), puis installez les moteurs de reconnaissance vocale en particulier.
 
-### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>Les moteurs de reconnaissance vocale utilisés pour fonctionner avec Microsoft Agent jusqu’à la mise à niveau vers Windows XP. Que s’est-il passé ?
+### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>les moteurs de reconnaissance vocale utilisés pour fonctionner avec Microsoft Agent jusqu’à la mise à niveau vers Windows XP. Que s’est-il passé ?
 
-Consultez la question et la réponse précédentes. Le processus de mise à niveau de Windows XP a peut-être supprimé la prise en charge de SAPI 4,0 déjà présente sur l’ordinateur. Réinstallez simplement les moteurs de reconnaissance vocale SAPI 4,0 Runtime et SAPI 4,0 après la mise à niveau vers Windows XP.
+Consultez la question et la réponse précédentes. le processus de mise à niveau de Windows XP a peut-être supprimé la prise en charge de SAPI 4,0 déjà présente sur l’ordinateur. réinstallez simplement les moteurs de reconnaissance vocale sapi 4,0 runtime et sapi 4,0 après la mise à niveau vers Windows XP.
 
-### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>J’ai installé les moteurs de conversion de texte par synthèse vocale TTS3000 sur mon ordinateur qui exécute Windows XP (ou Windows 2000) et j’ai correctement modifié ma programmation en conséquence. Les caractères Microsoft Agent parlent de manière audible à l’aide de ces moteurs de synthèse vocale TTS3000 lorsque je ou d’autres administrateurs locaux sont connectés, mais pas lorsque d’autres utilisateurs *sans privilèges d’administrateur* sont connectés à cet ordinateur. Sur Windows 98 et Windows Me, ces moteurs de synthèse vocale TTS3000 fonctionnent correctement pour les deux ensembles d’utilisateurs. Comment puis-je résoudre ce problème ?
+### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>j’ai installé les moteurs de conversion de texte par synthèse vocale TTS3000 sur mon ordinateur exécutant Windows XP (ou Windows 2000) et modifié correctement ma programmation en conséquence. Les caractères Microsoft Agent parlent de manière audible à l’aide de ces moteurs de synthèse vocale TTS3000 lorsque je ou d’autres administrateurs locaux sont connectés, mais pas lorsque d’autres utilisateurs *sans privilèges d’administrateur* sont connectés à cet ordinateur. sur Windows 98 et Windows moi, ces moteurs de synthèse vocale TTS3000 fonctionnent correctement pour les deux ensembles d’utilisateurs. Comment puis-je résoudre ce problème ?
 
 Vous devez configurer les autorisations de sécurité pour certaines des clés de registre des moteurs de synthèse vocale TTS3000 pour permettre leur utilisation par les comptes d’utilisateur sans privilèges d’administrateur. Pour ce faire, vous pouvez utiliser l’éditeur du Registre du système d’exploitation.
 
-### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>J’ai suivi la procédure décrite comme solution au problème mentionné dans la question précédente. Cela fonctionnait correctement pour que les caractères Microsoft Agent puissent parler de manière audible à l’aide de ces moteurs de synthèse vocale TTS3000 quand *des utilisateurs sans privilèges d’administrateur* étaient connectés à l’ordinateur Windows XP (ou Windows 2000). Maintenant, les mois ultérieurs, ces mêmes TTS3000 les mêmes moteurs de synthèse vocale ont cessé de fonctionner. Que s’est-il passé ?
+### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>J’ai suivi la procédure décrite comme solution au problème mentionné dans la question précédente. cela fonctionnait correctement pour que les caractères Microsoft Agent puissent parler de manière audible à l’aide de ces moteurs de synthèse vocale TTS3000 lorsque les utilisateurs *dépourvus de privilèges d’administrateur* étaient connectés à l’ordinateur Windows XP (ou Windows 2000). Maintenant, les mois ultérieurs, ces mêmes TTS3000 les mêmes moteurs de synthèse vocale ont cessé de fonctionner. Que s’est-il passé ?
 
 Lorsque vous avez suivi la procédure décrite pour la question précédente, les comptes d’utilisateur non-administrateurs disposant des autorisations contrôle total sur les clés de Registre requises ont été fournis. Il est possible que l’un de ces utilisateurs ait peut-être volontairement modifié les valeurs, a modifié les autorisations ou même supprimé entièrement la clé de registre.
 
 Vérifiez si ces clés de Registre et leurs autorisations ont été modifiées, supprimées ou modifiées depuis. Si nécessaire, modifiez à nouveau ces clés de Registre et leurs autorisations, ou réinstallez la conversion de texte par synthèse vocale TTS3000.
 
- 
+ 
 
- 
+ 
 
 
 

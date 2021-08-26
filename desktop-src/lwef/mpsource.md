@@ -4,7 +4,7 @@ description: Catégorie possible de la source.
 ms.assetid: 1AD12D67-C74B-481A-AC9B-D119AABDB6E9
 keywords:
 - MPSOURCE, énumération des fonctionnalités d’environnement Windows héritées
-- Pointeur d’énumération PMPSOURCE fonctionnalités d’environnement Windows héritées
+- PMPSOURCE, pointeur d’énumération de l’héritage Windows fonctionnalités d’environnement
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e9255029512499a0e2948a44701ef4482aff4b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59eb014ab78645d78cd2942c37477d9a19d2572826859be77c6f5ecddfcb1bda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961099"
 ---
 # <a name="mpsource-enumeration"></a>Énumération MPSOURCE
 
@@ -84,7 +84,7 @@ Le composant en temps réel a démarré.
 <span id="MPSOURCE_IOAV"></span><span id="mpsource_ioav"></span>**MPSOURCE \_ IOAV**
 </dt> <dd>
 
-Les téléchargements IE et les pièces jointes Outlook Express sont initiés.
+téléchargements IE et Outlook pièces jointes Express initiées.
 
 </dd> <dt>
 
@@ -150,8 +150,8 @@ Valeur maximale possible.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

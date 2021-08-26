@@ -4,12 +4,12 @@ description: L’implémentation de Microsoft WinSNMP gère un magasin d’infor
 ms.assetid: 0a0d9731-d800-4eaa-8230-25469a0b0285
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea83573cad12c05f6dd4b7e2375df5941e05fadb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc2f478c9bb1c05d3a094e2a15fac0a9cef5968f245257a0702d045eb90bd2fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119885999"
 ---
 # <a name="the-winsnmp-database"></a>La base de données WinSNMP
 
@@ -27,9 +27,9 @@ L’implémentation de Microsoft WinSNMP gère un magasin d’informations admin
 
     L’implémentation utilise ce paramètre pour déterminer s’il doit ou non exécuter la stratégie de retransmission de l’application. L’implémentation stocke une valeur de délai d’attente et un nombre de tentatives pour chaque entité de destination. Pour plus d’informations, consultez [à propos de la retransmission](about-retransmission.md) et de [la gestion de la stratégie de retransmission](managing-the-retransmission-policy.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: ID de clé et de clé
 description: ID de clé et de clé
 ms.assetid: 40618771-d601-4c31-8da9-5c649651f2f2
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
+- Windows Media Format SDK, gestion des droits numériques (DRM)
 - gestion des droits numériques (DRM), clés
 - DRM (gestion des droits numériques), clés
 - gestion des droits numériques (DRM), enfant
@@ -12,12 +12,12 @@ keywords:
 - KID (ID de la clé)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca7f74521fdf0f6cc268b8af1259f8468087f45b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae448cd0c973ad11b55df6365039240ebe2c6ebadb3eda5f70b7f8dd1bfbfbc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106538783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929959"
 ---
 # <a name="key-and-key-id"></a>ID de clé et de clé
 
@@ -34,9 +34,9 @@ La plupart des méthodes décrites dans cette documentation utilisent des chaîn
 [**Concepts**](drmconcepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

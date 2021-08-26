@@ -4,17 +4,17 @@ description: Le clavier est l’appareil d’entrée principal utilisé pour l�
 ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c1554ca1a9769b562f154498cd0871bc1b813067
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: bca6f1486b899881fbb0db8f9d7ae15ce3aba297db849c291862eb3b473730b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119843155"
 ---
 # <a name="keyboard"></a>Clavier
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Le clavier est l’appareil d’entrée principal utilisé pour l’entrée de texte dans Microsoft Windows. Pour l’accessibilité et l’efficacité, la plupart des actions peuvent également être effectuées à l’aide du clavier.
 
@@ -22,16 +22,16 @@ Les claviers peuvent également faire référence à des claviers virtuels, à l
 
 ![capture d’écran du clavier visuel ](images/inter-keyboard-image1.png)
 
-Le clavier visuel du Tablet PC et de la technologie tactile Windows.
+le technologie Windows Tablet and Touch clavier visuel.
 
 ![capture d’écran du bloc d’écriture Windows Tablet ](images/inter-keyboard-image2.png)
 
-Le bloc d’écriture de la technologie Windows tablette et Touch.
+bloc d’écriture technologie Windows Tablet and Touch.
 
 Il existe six types de clés de base :
 
 -   Une touche de caractère envoie un caractère littéral à la fenêtre avec le focus d’entrée.
--   Une touche de modification combinée avec une autre touche modifie la signification de la clé associée, telle que CTRL, Alt, Maj et la touche du logo Windows.
+-   une touche de modification combinée avec une autre touche modifie la signification de la clé associée, telle que Ctrl, Alt, maj et la touche Windows logo.
 -   Les touches de navigation sont les flèches directionnelles, plus les touches début, fin, page précédente et page suivante.
 -   Les touches de modification sont Insert, RET (retour arrière) et Delete (supprimer).
 -   Les touches de fonction sont F1 à F12.
@@ -43,7 +43,7 @@ Les clés d’accès sont des clés ou des combinaisons de touches utilisées po
 
 Cet exemple montre à la fois les touches d’accès rapide et les touches de raccourci.
 
-Pour éliminer l’encombrement visuel, Windows MASQUE les soulignements de touches d’accès par défaut et les affiche uniquement lorsque la touche Alt est enfoncée. Pour maintenir la cohérence avec Windows, les images dans le Guide de l’expérience utilisateur sont également affichées avec les soulignements de clé d’accès masqués, sauf si l’instruction implique des clés d’accès.
+pour éliminer l’encombrement visuel, Windows masque par défaut les soulignements des touches d’accès et les affiche uniquement lorsque la touche Alt est enfoncée. pour assurer la cohérence avec Windows, les images dans le Guide de l’expérience utilisateur sont également affichées avec les soulignements de clé d’accès masqués, sauf si l’instruction implique des clés d’accès.
 
 Pour améliorer la sensibilisation des affectations de touches d’accès dans votre programme tout au long du processus de développement, vous pouvez les afficher à tout moment. Dans le panneau de configuration, accédez à la facilité d’accès, puis cliquez sur **rendre le clavier plus facile à utiliser**. Activez ensuite la case à cocher **souligner les raccourcis clavier et les touches d’accès** .
 
@@ -74,7 +74,7 @@ Pour illustrer les éléments de navigation au clavier dans la liste suivante, n
     Les couleurs de base et les couleurs personnalisées sont des groupes de contrôles, ce qui donne à cette boîte de dialogue cinq taquets de tabulation. Il y a tant de contrôles que la navigation serait inefficace sans utiliser de groupes de contrôle.
 
 -   **Touches de direction.** Les touches de direction déplacent le focus d’entrée parmi les contrôles d’un groupe. Le fait d’appuyer sur la touche de direction droite déplace le focus d’entrée vers le contrôle suivant dans l’ordre de tabulation, tandis que le fait d’appuyer sur la flèche gauche déplace le focus d’entrée vers le contrôle précédent. Début, fin, haut et bas ont également leur comportement attendu au sein d’un groupe. Les utilisateurs ne peuvent pas quitter un groupe de contrôle à l’aide des touches de direction.
--   **Boutons par défaut.** Les fenêtres avec des boutons de commande et des liens de commande ont un seul bouton par défaut indiqué par une bordure en surbrillance, qui est le bouton sur lequel l’utilisateur clique quand la touche entrée est enfoncée. Il existe un seul bouton de commande par défaut ou un seul lien de commande attribué par défaut. Toutefois, le bouton par défaut se déplace lorsque l’utilisateur accède à un autre bouton de commande ou à un autre lien de commande. Par conséquent, un bouton de commande ou un lien de commande avec le focus d’entrée est également toujours le bouton par défaut.
+-   **Boutons par défaut.** Windows avec les boutons de commande et les liens de commande ont un seul bouton par défaut indiqué par une bordure en surbrillance, qui est le bouton sur lequel l’utilisateur clique quand la touche entrée est enfoncée. Il existe un seul bouton de commande par défaut ou un seul lien de commande attribué par défaut. Toutefois, le bouton par défaut se déplace lorsque l’utilisateur accède à un autre bouton de commande ou à un autre lien de commande. Par conséquent, un bouton de commande ou un lien de commande avec le focus d’entrée est également toujours le bouton par défaut.
 
     ![capture d’écran des boutons OK et annuler ](images/inter-keyboard-image7.png)
 
@@ -94,13 +94,13 @@ Bien que ce mécanisme soit assez compliqué, il est également assez intuitif. 
 
 ### <a name="keyboard-support-for-accessibility-and-advanced-users"></a>Prise en charge du clavier pour l’accessibilité et les utilisateurs expérimentés
 
-**Dans Windows, le fait de concevoir pour le clavier revient à fournir une navigation au clavier bien conçue, des touches d’accès rapide pour l’accessibilité et des touches de raccourci pour les utilisateurs expérimentés.**
+**dans Windows, la conception du clavier est plus rapide pour fournir une navigation au clavier bien conçue, des touches d’accès rapide pour l’accessibilité et des touches de raccourci pour les utilisateurs expérimentés.**
 
 Pour vous assurer que la fonctionnalité de votre programme est facilement accessible à la plus large gamme d’utilisateurs, y compris ceux présentant des handicaps et des handicaps, tous les éléments d’interface utilisateur interactifs doivent être accessibles via le clavier. En général, cela signifie que les éléments d’interface utilisateur les plus couramment utilisés sont accessibles à l’aide d’une clé d’accès unique ou d’une combinaison de touches, tandis que les éléments moins fréquemment utilisés peuvent nécessiter une navigation de tabulation ou de touche de direction supplémentaire. Pour ces utilisateurs, l’exhaustivité est plus importante que la cohérence.
 
 Pour vous assurer que les fonctionnalités de votre programme sont efficaces pour les utilisateurs expérimentés, les éléments d’interface utilisateur couramment utilisés doivent également avoir des touches de raccourci pour accéder directement au clavier. Les utilisateurs expérimentés ont souvent une préférence marquée pour l’utilisation du clavier, car les commandes clavier peuvent être entrées plus rapidement et ne nécessitent pas de retirer les mains du clavier. Pour ces utilisateurs, l’efficacité et la cohérence sont essentielles. L’exhaustivité n’est importante que pour les commandes les plus fréquemment utilisées.
 
-Il existe des différences subtiles lors de la conception de l’accès clavier pour ces deux groupes, c’est pourquoi Windows fournit deux mécanismes d’accès direct au clavier directs. En utilisant les accès et les touches de raccourci de manière efficace, vous pouvez fournir à vos programmes un accès clavier efficace, cohérent et complet qui tire parti de tous.
+il existe des différences subtiles lors de la conception de l’accès clavier pour ces deux groupes, c’est pourquoi Windows fournit deux mécanismes d’accès direct au clavier directs. En utilisant les accès et les touches de raccourci de manière efficace, vous pouvez fournir à vos programmes un accès clavier efficace, cohérent et complet qui tire parti de tous.
 
 ### <a name="access-keys"></a>Clés d'accès
 
@@ -199,7 +199,7 @@ En clair, une telle entrée peut avoir des conséquences inattendues significati
 
 ![capture d’écran du bouton redémarrer maintenant, 'r’souligné ](images/inter-keyboard-image14.png)
 
-Dans cet exemple, si vous tapez du texte avec des espaces, « r » ou entrez, vous redémarrez Windows par inadvertance.
+Dans cet exemple, tapez du texte avec un espace, "r", ou entrez des redémarrages accidentels Windows.
 
 Bien entendu, la meilleure solution à ce problème consiste à ne pas voler le focus d’entrée. Au lieu de cela, vous pouvez faire clignoter le bouton de la [barre des tâches](winenv-taskbar.md) du programme ou afficher une notification pour attirer l’attention de l’utilisateur.
 
@@ -209,7 +209,7 @@ Toutefois, si vous devez afficher une telle fenêtre, la meilleure approche cons
 
 ![capture d’écran du bouton redémarrer, 'r’non souligné ](images/inter-keyboard-image15.png)
 
-Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus difficile à effectuer.
+dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus difficile à effectuer.
 
 **Si vous ne faites que six choses...**
 
@@ -230,7 +230,7 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
 
     ![capture d’écran de la boîte de dialogue confirmer le remplacement du dossier ](images/inter-keyboard-image16.png)
 
-    Dans cet exemple de Windows XP, maintenir la touche Maj enfoncée remplace Yes par All.
+    dans cet exemple à partir de Windows XP, le maintien de la touche maj remplace Yes par all.
 
 -   **Ne désactivez pas un contrôle avec le focus d’entrée. Cela peut empêcher la fenêtre de recevoir l’entrée au clavier.** Au lieu de cela, avant de désactiver un contrôle avec le focus d’entrée, déplacez le focus d’entrée vers un autre contrôle.
 -   **Si une fenêtre s’affiche en dehors du contexte, il peut s’avérer nécessaire d’éviter des conséquences inattendues :**
@@ -267,9 +267,9 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
 
     |  Clé d’accès         | Commande                             |
     |---------------------------|-------------------------------------------|
-    | Un<br/>              | À propos de<br/>                          |
-    | Un<br/>              | Toujours visible<br/>                  |
-    | Un<br/>              | Appliquer<br/>                          |
+    | A<br/>              | À propos de<br/>                          |
+    | A<br/>              | Toujours visible<br/>                  |
+    | A<br/>              | Appliquer<br/>                          |
     | B<br/>              | Précédent<br/>                           |
     | B<br/>              | Gras<br/>                           |
     | B ou r<br/>         | Parcourir<br/>                         |
@@ -315,18 +315,18 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
     | s<br/>              | Collage spécial<br/>                  |
     | P<br/>              | Suspendre<br/>                          |
     | P<br/>              | Lire<br/>                           |
-    | P<br/>              | Impression<br/>                          |
+    | P<br/>              | Imprimer<br/>                          |
     | P<br/>              | Imprimer ici<br/>                     |
     | r<br/>              | Propriétés<br/>                     |
     | R<br/>              | Rétablir<br/>                           |
     | R<br/>              | Répéter<br/>                         |
     | R<br/>              | Restaurer<br/>                        |
     | R<br/>              | Reprendre<br/>                         |
-    | R<br/>              | Réessayer<br/>                          |
+    | R<br/>              | Recommencer<br/>                          |
     | R<br/>              | Exécuter<br/>                            |
     | S<br/>              | Enregistrer<br/>                           |
     | a<br/>              | Enregistrer sous<br/>                        |
-    | a<br/>              | Sélectionner tout<br/>                     |
+    | a<br/>              | Tout sélectionner<br/>                     |
     | n<br/>              | Envoyer à<br/>                        |
     | S<br/>              | Afficher<br/>                           |
     | S<br/>              | Taille<br/>                           |
@@ -337,7 +337,7 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
     | U<br/>              | Annuler<br/>                           |
     | V<br/>              | Affichage<br/>                           |
     | W<br/>              | Fenêtre<br/>                         |
-    | Y<br/>              | Oui<br/>                            |
+    | O<br/>              | Oui<br/>                            |
 
     
 
@@ -359,7 +359,7 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
 
     ![capture d’écran des éléments de menu avec des touches d’accès numérique ](images/inter-keyboard-image17.png)
 
-    Dans cet exemple, le programme Paint dans Windows attribue des clés d’accès numériques aux fichiers récemment utilisés.
+    dans cet exemple, le programme Paint dans Windows affecte des clés d’accès numériques aux fichiers récemment utilisés.
 
 -   **Assigner des clés d’accès uniques au sein d’un niveau de menu.** Vous pouvez réutiliser des clés d’accès dans différents niveaux de menu.
 -   **Rendez les clés d’accès faciles à trouver :**
@@ -430,31 +430,31 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
 
 ### <a name="choosing-shortcut-keys-what-not-to-do"></a>Choix des touches de raccourci (ce qui ne doit pas être fait)
 
--   **Ne pas faire la distinction entre les emplacements clés.** Par exemple, Windows peut faire la distinction entre le décalage vers la gauche et vers la droite, Alt, CTRL, le [logo Windows](glossary.md)et les [touches d’application](glossary.md), ainsi que les touches du pavé numérique. L’attribution d’un comportement à un seul emplacement de clé est confuse et inattendue.
--   **N’utilisez pas la touche de modification du logo Windows pour les touches de raccourci du programme.** La touche de logo Windows est réservée à une utilisation Windows. Même si une combinaison de touches du logo Windows n’est pas utilisée par Windows maintenant, elle peut être à l’avenir.
+-   **Ne pas faire la distinction entre les emplacements clés.** par exemple, Windows pouvez faire la distinction entre le décalage vers la gauche et vers la droite, Alt, Ctrl, [Windows logo](glossary.md)et les [touches d’Application](glossary.md), ainsi que les touches du pavé numérique. L’attribution d’un comportement à un seul emplacement de clé est confuse et inattendue.
+-   **n’utilisez pas la touche de modification du logo Windows pour les touches de raccourci du programme.** Windows clé de logo est réservée à une utilisation Windows. même si une combinaison de touches du logo de Windows n’est pas utilisée par Windows maintenant, elle peut être à l’avenir.
 -   **N’utilisez pas la clé d’application comme modificateur de touche de raccourci.** Utilisez les touches Ctrl, Alt et Maj à la place.
--   **N’utilisez pas les touches de raccourci utilisées par Windows pour les touches de raccourci du programme.** Cela entraînera un conflit avec les touches de raccourci système Windows lorsque votre programme a le focus d’entrée.
+-   **n’utilisez pas les touches de raccourci utilisées par Windows pour les touches de raccourci du programme.** cela entraînera un conflit avec les touches de raccourci du système Windows lorsque votre programme a le focus d’entrée.
 -   **N’utilisez pas de combinaisons de touches Alt + alphanumériques pour les touches de raccourci.** Ces touches de raccourci peuvent entrer en conflit avec les touches d’accès rapide.
 -   **N’utilisez pas les caractères suivants pour les touches de raccourci :** @ $ {} \[ \] \\  ~  \| ^ '  < >. Ces caractères nécessitent des combinaisons de touches différentes entre les langages ou sont spécifiques aux paramètres régionaux.
 -   **Évitez les combinaisons de touches complexes,** telles que trois clés ou plus (exemple : Ctrl + Alt + barre d’espace) ou des touches éloignées du clavier (par exemple, CTRL + F5). Utilisez les touches de raccourci simples pour les commandes fréquemment utilisées.
--   **N’utilisez pas de combinaisons CTRL + ALT,** car Windows interprète cette combinaison dans certaines versions de langage comme une clé AltGR, qui génère des caractères alphanumériques.
+-   **n’utilisez pas de combinaisons Ctrl + Alt,** car Windows interprète cette combinaison dans certaines versions de langage comme une clé AltGR, qui génère des caractères alphanumériques.
 
 ### <a name="keyboard-and-mouse-combinations"></a>Combinaisons clavier/souris
 
--   Pour les liens, utilisez MAJ + clic pour naviguer à l’aide d’une nouvelle fenêtre et Ctrl + clic pour naviguer à l’aide d’un nouvel onglet. Cette approche est cohérente avec Windows Internet Explorer.
+-   Pour les liens, utilisez MAJ + clic pour naviguer à l’aide d’une nouvelle fenêtre et Ctrl + clic pour naviguer à l’aide d’un nouvel onglet. cette approche est cohérente avec Windows Internet Explorer.
 
 ## <a name="documentation"></a>Documentation
 
 Quand vous faites référence au clavier :
 
 -   Utilisez le clavier visuel pour faire référence à une représentation de clavier à l’écran que l’utilisateur touche aux caractères d’entrée.
--   Faites en sorte que les combinaisons de touches commencent par la touche de modification. Présentez les touches de modification dans l’ordre suivant : logo Windows, application, CTRL, Alt, Maj. Si le modificateur de pavé numérique est utilisé, placez-le juste avant la clé qu’il modifie.
+-   Faites en sorte que les combinaisons de touches commencent par la touche de modification. présentez les touches de modification dans l’ordre suivant : Windows logo, Application, Ctrl, Alt, maj. Si le modificateur de pavé numérique est utilisé, placez-le juste avant la clé qu’il modifie.
 -   N’utilisez pas toutes les lettres majuscules pour les touches du clavier. Au lieu de cela, suivez la casse utilisée par les claviers standard ou en minuscules si la touche n’est pas étiquetée sur le clavier.
     -   Pour les combinaisons de touches alphabétiques, utilisez une lettre majuscule.
     -   Épeler la page vers le haut, PG. suiv, Impr. écran et défilement défil.
     -   Le signe plus, le signe moins, le trait d’Union, le point et la virgule.
     -   Pour les touches de direction, utilisez les flèches gauche, droite, haut et bas. N’utilisez pas d’étiquettes graphiques pour les touches de direction.
-    -   Utilisez la touche de logo Windows et la touche d’application pour faire référence aux clés étiquetées avec des icônes. N’utilisez pas d’étiquettes graphiques pour ces clés.
+    -   utilisez Windows clé de logo et la clé d’Application pour faire référence aux clés étiquetées avec des icônes. N’utilisez pas d’étiquettes graphiques pour ces clés.
 
 **Correct :**
 
@@ -495,7 +495,7 @@ Lorsque vous faites référence à l’interaction :
 -   Utilisez la suspension quand vous appuyez sur une touche et maintenez-la enfoncée, par exemple une touche de modification.
 -   N’utilisez pas l’enfoncement comme synonyme de clic.
 
-Exemples :
+Exemples :
 
 -   Tapez votre nom, puis appuyez sur entrée.
 -   Appuyez sur Ctrl + F, puis tapez le texte que vous souhaitez rechercher.

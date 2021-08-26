@@ -1,38 +1,38 @@
 ---
 title: Spécification des ressources d’image du ruban
-description: En tant que système de présentation de commande riche, l’infrastructure de ruban Windows est conçue pour prendre en charge les ressources d’image de manière intensive tout au long de l’interface utilisateur du ruban. Toutes les ressources d’image sont déclarées dans le balisage du ruban ou interrogées à partir d’une application hôte du ruban.
+description: en tant que système de présentation de commande riche, le Windows infrastructure du ruban est conçu pour prendre en charge les ressources d’image de manière intensive dans l’interface utilisateur du ruban. Toutes les ressources d’image sont déclarées dans le balisage du ruban ou interrogées à partir d’une application hôte du ruban.
 ms.assetid: 37b57992-8da8-4e6b-869d-72a136f6ad77
 keywords:
-- Ruban Windows, ressources d’image
+- Windows Ruban, ressources d’image
 - Ruban, ressources d’image
-- Ruban Windows, transparence
+- Windows Ruban, transparence
 - Ruban, transparence
-- Ruban Windows, profondeur de couleur
+- Windows Ruban, profondeur de couleur
 - Ruban, profondeur de couleur
-- Ruban Windows, contraste
+- Windows Ruban, contraste
 - Ruban, contraste
-- ressources d’image dans le ruban Windows
+- ressources d’image dans Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13e7666126e5b8f7fbe8b610678a8a1d71589373
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c485de9c0d9d1b51b09d4a2b9dba95dd30a778922750a7f388c7a5c8963cda6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932588"
 ---
 # <a name="specifying-ribbon-image-resources"></a>Spécification des ressources d’image du ruban
 
-En tant que système de présentation de commande riche, l’infrastructure de ruban Windows est conçue pour prendre en charge les ressources d’image de manière intensive tout au long de l’interface utilisateur du ruban. Toutes les ressources d’image sont déclarées dans le [balisage du ruban](windowsribbon-schema.md) ou interrogées à partir d’une application hôte du ruban.
+en tant que système de présentation de commande riche, le Windows infrastructure du ruban est conçu pour prendre en charge les ressources d’image de manière intensive dans l’interface utilisateur du ruban. Toutes les ressources d’image sont déclarées dans le [balisage du ruban](windowsribbon-schema.md) ou interrogées à partir d’une application hôte du ruban.
 
-Pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network Graphics) avec transparence.
+pour Windows 8 et versions ultérieures, l’infrastructure du ruban prend en charge les formats graphiques suivants : fichiers BMP (bitmaps) 32 bits et fichiers PNG (Portable Network graphics) avec transparence.
 
-Pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
+pour Windows 7 et les versions antérieures, les ressources d’image doivent être conformes au format graphique BMP standard utilisé dans Windows.
 
 > [!Note]  
 > Une erreur de compilation peut se produire si un format d’image non pris en charge est fourni à l’infrastructure.
 
- 
+ 
 
 ## <a name="image-sizes"></a>Tailles d’image
 
@@ -65,7 +65,7 @@ Pour toute image, la taille de pixel exacte dépend de la résolution d’affich
 
 
 
- 
+ 
 
 L’infrastructure du ruban met à l’échelle les ressources d’image selon les besoins. Toutefois, étant donné que le redimensionnement peut générer des artefacts indésirables et une dégradation des images, il est fortement recommandé que l’application fournisse un petit ensemble de ressources d’image qui s’étendent sur différents paramètres ppp couramment utilisés. Si aucune correspondance exacte n’est trouvée, l’image la plus proche est mise à l’échelle vers le haut ou le bas.
 
@@ -77,7 +77,7 @@ Pour faciliter cette tâche, les ressources d’image peuvent être déclarées 
 >
 > Si aucun élément [**image**](windowsribbon-element-image.md) n’est déclaré avec une valeur *MinDPI* qui correspond au paramètre PPP d’écran actuel, l’infrastructure sélectionne l' **image** qui a la valeur *MinDPI* la plus proche inférieure au paramètre PPP d’écran actuel et met à l’échelle la ressource d’image. Sinon, si aucun élément **image** n’est déclaré avec une valeur d’attribut *MinDPI* inférieure au paramètre PPP d’écran actuel, le Framework choisit la valeur *MinDPI* la plus proche supérieure au paramètre PPP d’écran actuel et met à l’échelle la ressource d’image.
 
- 
+ 
 
 L’exemple suivant montre comment déclarer un ensemble d’images pour prendre en charge différentes tailles de ruban et paramètres système.
 
@@ -116,7 +116,7 @@ Si les images déclarées dans le balisage sont invalidées au moment de l’ex�
 > [!Note]  
 > Les images volumineuses ont une taille de SM \_ CXICON par SM \_ CXICON et les petites images ont une taille de SM \_ CXICON/2 par SM \_ CXICON/2.
 
- 
+ 
 
 ## <a name="color-depth-transparency-and-contrast"></a>Profondeur des couleurs, transparence et contraste
 
@@ -125,7 +125,7 @@ Les images normales sont supposées être au format de pixel ARVB 32 bits par pi
 > [!WARNING]
 > De nombreux outils d’édition d’images ne conservent pas le canal alpha 8 bits d’ordre le plus élevé lors du chargement ou de l’enregistrement des images 32 BPP.
 
- 
+ 
 
 Pour qu’une image s’affiche correctement en mode de contraste élevé, elle doit être dans un format de pixel de palette de 4 BPP. Lorsque l’image est rendue, l’infrastructure du ruban remappe des couleurs spécifiques en fonction du contexte de contraste élevé de l’image.
 
@@ -201,7 +201,7 @@ AJOURÉE
 
 
 
- 
+ 
 
 Pour plus d’informations sur les formats d’image pris en charge par l’infrastructure du ruban, consultez les rubriques suivantes :
 
@@ -279,6 +279,6 @@ L’exemple suivant montre comment les ressources d’image à contraste élevé
 [IU \_ \_ LargeHighContrastImage](windowsribbon-reference-properties-uipkey-largehighcontrastimage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message TCM_SETITEM (commctrl. h)
 description: Définit tout ou partie des attributs d’un onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl SetItem.
 ms.assetid: 1d9c6607-d8ec-4644-a714-22bc2677aa78
 keywords:
-- TCM_SETITEM les contrôles de message Windows
+- TCM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee86cd0737c3c50c89a97d3881e2cdfd3850f481
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c27f93e2743e5676c0fcca932cfa1936bb72667ef4fa4a5334eaae3e78d2be08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119876323"
 ---
 # <a name="tcm_setitem-message"></a>\_Message SETITEM TCM
 
@@ -55,8 +55,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TCM \_ SETITEMW** (Unicode) et **TCM \_ SETITEMA** (ANSI)<br/>                   |
 

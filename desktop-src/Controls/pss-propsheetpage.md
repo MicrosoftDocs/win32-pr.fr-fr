@@ -2,7 +2,7 @@
 title: PROPSHEETPAGE, structure (Prsht.h)
 description: Définit une page dans une feuille de propriétés.
 keywords:
-- Contrôles Windows de la structure PROPSHEETPAGE
+- PROPSHEETPAGE, structure Windows, contrôles
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: 78e1d1e4e6b4b2067083443bdb5dc4db5df59558
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 1c1be3b6240f024b5aeee4a4d7a9d308cdb6572ae5080db00b3d05da30e02306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914459"
 ---
 # <a name="propsheetpage-structure"></a>PROPSHEETPAGE, structure
 
@@ -192,13 +192,13 @@ Ce membre est déclaré en tant qu’Union avec *hbmHeader*.
 
 ## <a name="remarks"></a>Remarques
 
-Comctl32.dll version 6 et versions ultérieures ne sont pas redistribuables. Pour utiliser Comctl32.dll version 6 ou ultérieure, spécifiez le fichier. dll dans un manifeste. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
+Comctl32.dll version 6 et versions ultérieures ne sont pas redistribuables. Pour utiliser Comctl32.dll version 6 ou ultérieure, spécifiez le fichier .dll dans un manifeste. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows Vista uniquement\]                                    |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\]                              |
+| Client minimal pris en charge | Windows \[Applications de bureau Vista uniquement\]                                    |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\]                              |
 | En-tête                   | Prsht. h |
 | Noms Unicode et ANSI                   | **PROPSHEETHEADERW** (Unicode) et **PROPSHEETHEADERA** (ANSI) |

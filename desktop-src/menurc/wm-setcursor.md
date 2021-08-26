@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e941919b447659e67fdcdd9e4e5f4ff2630f8bf1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 19dccc4fab0d24dd233133e97b3ddcc71f615d9abb27a4684821099b6ad15802
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119846869"
 ---
 # <a name="wm_setcursor-message"></a>\_Message WM SETCURSOR
 
@@ -56,7 +56,7 @@ Le mot de poids fort de *lParam* spécifie le message de fenêtre de la souris q
 
 Si une application traite ce message, elle doit retourner la **valeur true** pour arrêter le traitement ou **false** pour continuer.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowprocw) transmet le message **WM \_ SETCURSOR** à une fenêtre parente avant le traitement. Si la fenêtre parente retourne la **valeur true**, le traitement supplémentaire est interrompu. Le fait de passer le message à la fenêtre parente d’une fenêtre donne le contrôle de fenêtre parente sur le paramètre du curseur dans une fenêtre enfant. La fonction **DefWindowProc** utilise également ce message pour définir le curseur sur une flèche si elle ne se trouve pas dans la zone cliente ou sur le curseur de classe inscrit s’il se trouve dans la zone cliente. Si le mot de poids faible du paramètre *lParam* est **HTERROR** et que le mot de poids fort de *lParam* spécifie que l’un des boutons de la souris est enfoncé, **DefWindowProc** appelle la fonction [**MessageBeep**](/windows/desktop/api/winuser/nf-winuser-messagebeep) .
 

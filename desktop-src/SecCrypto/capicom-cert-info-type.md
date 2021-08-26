@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 8e38bb8940645bbefecb3822bce8de8c2e0eb902
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 480238556fce0470c51f00c394dd8566160686561342ec91da2e136c44a43cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879419"
 ---
 # <a name="capicom_cert_info_type-enumeration"></a>\_ \_ Énumération du type d’informations de certificat CAPICOM \_
 
@@ -41,7 +41,7 @@ Le type d’énumération de **\_ \_ \_ type** d’informations de certificat CA
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’énumération de **\_ type d' \_ informations \_ de certificat CAPICOM** est utilisé par la méthode [**Certificate. GetInfo**](certificate-getinfo.md) .
 
@@ -51,7 +51,7 @@ Le type d’énumération de **\_ type d' \_ informations \_ de certificat CAPIC
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

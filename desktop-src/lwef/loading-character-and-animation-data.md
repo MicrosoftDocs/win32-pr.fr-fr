@@ -4,12 +4,12 @@ description: Chargement des données de caractères et d’animation
 ms.assetid: cd674513-fd68-49bb-a43f-12b07adddf3d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed77524c4e3cbbcae725b87c3671914f2261fa1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0e387a6122ab08513763878678d99941ef65d8ed11822eed8639fccd6e3815d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106540747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961429"
 ---
 # <a name="loading-character-and-animation-data"></a>Chargement des données de caractères et d’animation
 
@@ -87,9 +87,9 @@ VariantClear(&vPath);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

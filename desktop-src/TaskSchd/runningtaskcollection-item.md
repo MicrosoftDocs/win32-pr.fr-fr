@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d28da7a3f5348ff9f5d6171a1a698d95b646f0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7e2ca7abf5f1daa936509d5fae71211e8b139537fa1782daac6c08bf9a1017f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119866779"
 ---
 # <a name="runningtaskcollectionitem-property"></a>RunningTaskCollection. Item, propriété
 
@@ -42,7 +42,7 @@ RunningTaskCollection.Item( _
 
 Objet [**RunningTask**](runningtask.md) qui contient le contexte demandé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les collections sont de base 1. En d’autres termes, l’index du premier élément de la collection est 1.
 
@@ -52,8 +52,8 @@ Les collections sont de base 1. En d’autres termes, l’index du premier élé
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

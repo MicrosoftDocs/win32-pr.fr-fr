@@ -4,22 +4,22 @@ description: MPIO (Multipath I/O) prend désormais en charge les blocs de demand
 ms.assetid: 5373D9ED-34AF-4D66-8888-49F1EBF768F4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f558f8088b5066b51447c5f2ea23edd5154d5c10
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 6a3b3a5ce3050bf7fddc2bd77da30e766c7b9cd67a8c4f49c753da5302b104c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104316656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932209"
 ---
 # <a name="multipath-io-now-supports-extended-storage-request-blocks"></a>MPIO (Multipath I/O) prend désormais en charge les blocs de demande de stockage étendu
 
 ## <a name="platforms"></a>Plateformes
 
-**Serveurs** – Windows Server 2012 
+**serveurs** – Windows Server 2012 
 
 ## <a name="description"></a>Description
 
-Dans Windows Server 2012, une nouvelle structure, le bloc de demande de stockage \_ \_ (SRB étendu) remplace \_ le \_ bloc de requête SCSI (SRB hérité) dans la pile de stockage de base. Les SRBs étendus répliquent les fonctionnalités des SRBs hérités, mais sont également extensibles et évolutives.
+dans Windows Server 2012, une nouvelle structure, le bloc de demande de stockage \_ \_ (srb étendu) remplace \_ le \_ bloc de requête SCSI (srb hérité) dans la pile de stockage de base. Les SRBs étendus répliquent les fonctionnalités des SRBs hérités, mais sont également extensibles et évolutives.
 
 MPIO (Multipath I/O) prend en charge les SRBs étendus et permet aux modules DSM (Device Specific modules) de spécifier également la prise en charge de SRB étendue. Toutefois, pour que la pile de stockage d’un appareil à chemins d’accès multiples utilise des SRBs étendus, **tous les composants de la pile doivent prendre en charge les SRBs étendus, y compris le module DSM**. Notez que le module de la compatibilité des boîtiers Microsoft, MSDSM, prend en charge les SRBs étendus.
 
@@ -28,7 +28,7 @@ La \_ structure SCSI pass-through ne \_ \_ fait pas partie de la structure de tr
 > [!Note]  
 > Si le module DSM ne prend pas en charge les SRBs étendus, MPIO échouera avec les demandes de transfert MPIO étendu qui ont l’indicateur \_ \_ \_ DSM IOCTL \_ défini.
 
- 
+ 
 
 ## <a name="manifestation"></a>Manifestation
 
@@ -55,9 +55,9 @@ Si un DSM ne touche pas l’adresse STOR d’un service SRB étendu \_ , il peut
 -   Il est possible qu’une MPIO fasse basculer la pile de stockage sur les SRBs hérités dans le cas où le DSM ne prend pas en charge un type d’adresse de stockage donné \_ \_ \_ \* (mais prend en charge les SRBs étendus).
 -   « BTL8 » est le seul \_ \_ type d’adresse \_ \* de stockage actuellement défini pour Windows Server 2012.
 
- 
+ 
 
- 
+ 
 
 
 

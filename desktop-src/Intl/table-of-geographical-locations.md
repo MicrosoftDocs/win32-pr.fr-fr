@@ -4,12 +4,12 @@ ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: Tableau des zones géographiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa59c091257fcb0ae7ebb48da7d685a0de8d74e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7c45ad723829fb4233987457e84134c472eca0697c68ced8ec78c8a40d786ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897869"
 ---
 # <a name="table-of-geographical-locations"></a>Tableau des zones géographiques
 
@@ -48,12 +48,12 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x1B                                   | 27                                         | Myanmar                                      | République de l’Union de Myanmar                      |
 | 0x1c                                   | 28                                         | Bénin                                        | République du Bénin                                     |
 | 0x1d                                   | 29                                         | Bélarus                                      | République du Belarus                                   |
-| 0x1E                                   | 30                                         | Salomon (îles)                              | Salomon (îles)                                       |
+| 0x1E                                   | 30                                         | Salomon (Îles)                              | Salomon (Îles)                                       |
 | 0x20                                   | 32                                         | Brésil                                       | République fédérative du Brésil                         |
 | 0x22                                   | 34                                         | Bhoutan                                       | Royaume du Bhoutan                                     |
 | 0x23                                   | 35                                         | Bulgarie                                     | République de Bulgarie                                  |
 | 0x25                                   | 37                                         | Brunéi Darussalam                                       | Negara Brunei Darussalam                              |
-| égale 0x26                                   | 38                                         | Burundi                                      | République du Burundi                                   |
+| 0x26                                   | 38                                         | Burundi                                      | République du Burundi                                   |
 | 0x27                                   | 39                                         | Canada                                       | Canada                                                |
 | 0x28                                   | 40                                         | Cambodge                                     | Royaume du Cambodge                                   |
 | 0x29                                   | 41                                         | Tchad                                         | République du Tchad                                      |
@@ -63,7 +63,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x2d                                   | 45                                         | Chine                                        | République populaire de Chine                            |
 | 0x2e                                   | 46                                         | Chili                                        | République du Chili                                     |
 | 0x31                                   | 49                                         | Cameroun                                     | République du Cameroun                                  |
-| 0x32                                   | 50                                         | Comores                                      | Union des Comores                                      |
+| 0x32                                   | 50                                         | Comores (Les)                                      | Union des Comores                                      |
 | 0x33                                   | 51                                         | Colombie                                     | République de Colombie                                  |
 | 0x36                                    | 54                                         | Costa Rica                                   | République du Costa Rica                                |
 | 0x37                                   | 55                                         | République centrafricaine                     | République centrafricaine                              |
@@ -73,7 +73,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x3d                                   | 61                                         | Danemark                                      | Royaume du Danemark                                    |
 | 0x3e                                   | 62                                         | Djibouti                                     | République de Djibouti                                  |
 | 0x0000003F                                   | 63                                         | Dominique                                     | Commonwealth de Dominique                              |
-| 0x41 vers                                   | 65                                         | République dominicaine                           | République dominicaine                                    |
+| 0x41                                   | 65                                         | République dominicaine                           | République dominicaine                                    |
 | 0x42                                   | 66                                         | Équateur                                      | République de l’Équateur                                   |
 | 0x43                                   | 67                                         | Égypte                                        | République arabe d’Égypte                                |
 | 0x44                                   | 68                                         | Irlande                                      | Irlande                                               |
@@ -84,7 +84,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x49                                   | 73                                         | Éthiopie                                     | République démocratique fédérale de l’Éthiopie               |
 | 0x4b                                   | 75                                         | République tchèque                               | République tchèque                                        |
 | 0x4d                                   | 77                                         | Finlande                                      | République de Finlande                                   |
-| 0x4e                                   | 78                                         | Fidji                                         | République des Fidji                          |
+| 0x4e                                   | 78                                         | Fidji (îles)                                         | République des Fidji                          |
 | 0x50                                   | 80                                         | Micronésie                                   | États fédérés de Micronésie                        |
 | 0x51                                   | 81                                         | Féroé (îles)                                | Féroé (îles)                                         |
 | 0x54                                   | 84                                         | France                                       | République française                                       |
@@ -108,11 +108,11 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x6e                                   | 110                                        | Islande                                      | République d’Islande                                   |
 | 0x6f                                   | 111                                        | Indonésie                                    | République d’Indonésie                                 |
 | 0x71                                   | 113                                        | Inde                                        | République de l’Inde                                     |
-| 0x72                                   | 114                                        | Territoire britannique de l'océan Indien               | Territoire britannique de l'océan Indien                        |
+| 0x72                                   | 114                                        | Territoire britannique de l’Océan Indien               | Territoire britannique de l’Océan Indien                        |
 | 0x74                                   | 116                                        | Iran                                         | République islamique d’Iran                              |
 | 0x75                                   | 117                                        | Israël                                       | État d’Israël                                       |
 | 0x76                                   | 118                                        | Italie                                        | République italienne                                      |
-| 0x77                                   | 119                                        | Côte d’Ivoire                                | République de Côte d’Ivoire                             |
+| 0x77                                   | 119                                        | Côte d'Ivoire                                | République de Côte d’Ivoire                             |
 | 0x79                                   | 121                                        | Irak                                         | République d’Iraq                                      |
 | 0x7a                                   | 122                                        | Japon                                        | Japon                                                 |
 | 0x7C                                   | 124                                        | Jamaïque                                      | Jamaïque                                               |
@@ -130,21 +130,21 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x8b                                   | 139                                        | Liban                                      | République du Liban                                   |
 | 0x8c                                   | 140                                        | Lettonie                                       | République de Lettonie                                    |
 | 0x8d                                   | 141                                        | Lituanie                                    | République de Lituanie                                 |
-| 0x8e                                   | 142                                        | Liberia                                      | République du Liberia                                   |
+| 0x8e                                   | 142                                        | Libéria                                      | République du Liberia                                   |
 | 0x8f                                   | 143                                        | Slovaquie                                     | République slovaque                                       |
 | 0x91                                   | 145                                        | Liechtenstein                                | Principauté de Liechtenstein                         |
 | 0x92                                   | 146                                        | Lesotho                                      | Royaume du Lesotho                                    |
 | 0x93                                   | 147                                        | Luxembourg                                   | Grand-Duché du Luxembourg                             |
 | 0x94                                   | 148                                        | Libye                                        | Libye                                                 |
 | 0x95                                   | 149                                        | Madagascar                                   | République de Madagascar                                |
-| 0x97                                   | 151                                        | Macao R.A.S.                                    | Région administrative spéciale de Macao                   |
+| 0x97                                   | 151                                        | Macao (R.A.S.)                                    | Région administrative spéciale de Macao                   |
 | 0x98                                   | 152                                        | Moldova                                      | République de Moldova                                   |
 | 0x9a                                   | 154                                        | Mongolie                                     | Mongolie                                              |
 | 0x9c                                   | 156                                        | Malawi                                       | République du Malawi                                    |
 | 0x9d                                   | 157                                        | Mali                                         | République du Mali                                      |
 | 0x9e                                   | 158                                        | Monaco                                       | Principauté de Monaco                                |
 | 0x9F                                   | 159                                        | Maroc                                      | Royaume du Maroc                                    |
-| 0xa0                                   | 160                                        | Maurice (île)                                    | République de Maurice                                 |
+| 0xa0                                   | 160                                        | Maurice                                    | République de Maurice                                 |
 | 0xa2                                   | 162                                        | Mauritanie                                   | République islamique de Mauritanie                        |
 | 0xa3                                   | 163                                        | Malte                                        | République de Malte                                     |
 | 0xa4                                   | 164                                        | Oman                                         | Sultanate d’Oman                                     |
@@ -154,12 +154,12 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0xa8                                   | 168                                        | Mozambique                                   | République du Mozambique                                |
 | 0xad                                   | 173                                        | Niger                                        | République du Niger                                     |
 | 0xae                                   | 174                                        | Vanuatu                                      | République de Vanuatu                                   |
-| 0xaf                                   | 175                                        | Nigeria                                      | République fédérale du Nigeria                           |
+| 0xaf                                   | 175                                        | Nigéria                                      | République fédérale du Nigeria                           |
 | 0xb0                                   | 176                                        | Pays-Bas                                  | Royaume des pays-bas                            |
 | 0xb1                                   | 177                                        | Norvège                                       | Royaume de Norvège                                     |
 | 0xb2                                   | 178                                        | Népal                                        | République démocratique fédérale du Népal                  |
 | 0xb4                                   | 180                                        | Nauru                                        | République de Nauru                                     |
-| 0xb5                                   | 181                                        | Surinam                                     | République du Suriname                                  |
+| 0xb5                                   | 181                                        | Suriname                                     | République du Suriname                                  |
 | 0xb6                                   | 182                                        | Nicaragua                                    | République du Nicaragua                                 |
 | 0xb7                                   | 183                                        | Nouvelle-Zélande                                  | Nouvelle-Zélande                                           |
 | 0xb8                                   | 184                                        | Autorité palestinienne                        | Autorité nationale palestinienne                        |
@@ -169,20 +169,20 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0xbf                                   | 191                                        | Pologne                                       | République de Pologne                                    |
 | 0xc0                                   | 192                                        | Panama                                       | République de Panama                                    |
 | 0xc1                                   | 193                                        | Portugal                                     | République portugaise                                   |
-| 0xC2                                   | 194                                        | Papouasie Nouvelle Guinée                             | État indépendant de Papouasie-Nouvelle-Guinée                 |
+| 0xC2                                   | 194                                        | Papouasie-Nouvelle-Guinée                             | État indépendant de Papouasie-Nouvelle-Guinée                 |
 | 0xc3                                   | 195                                        | Palau                                        | République de Palaos                                     |
 | 0xc4                                   | 196                                        | Guinée-Bissau                                | République de Guinea-Bissau                             |
 | 0xc5                                   | 197                                        | Qatar                                        | État du Qatar                                        |
 | 0xC6                                   | 198                                        | La Réunion                                      | Ministère de la réunion                                 |
-| 0xC7                                   | 199                                        | Marshall (îles)                             | République des îles Marshall                      |
+| 0xC7                                   | 199                                        | Marshall (Îles)                             | République des îles Marshall                      |
 | 0xc8                                   | 200                                        | Roumanie                                      | Roumanie                                               |
 | 0xc9                                   | 201                                        | Philippines                                  | République des Philippines                           |
 | 0xCA                                   | 202                                        | Porto Rico                                  | Commonwealth de Porto Rico                           |
 | 0xcb                                   | 203                                        | Russie                                       | Fédération de Russie                                    |
 | 0xcc                                   | 204                                        | Rwanda                                       | République du Rwanda                                    |
-| 0xCD                                   | 205                                        | Arabie Saoudite                                 | Royaume d’Arabie saoudite                               |
-| 0xce                                   | 206                                        | Saint Pierre et Miquelon                    | Collectivité territoriale de Saint-Pierre-et-Miquelon |
-| 0xcf                                   | 207                                        | Saint-Christophe-et-Niévès                        | Fédération de Saint-Kitts-et-Nevis                   |
+| 0xCD                                   | 205                                        | Arabie saoudite                                 | Royaume d’Arabie saoudite                               |
+| 0xce                                   | 206                                        | Saint-Pierre-et-Miquelon                    | Collectivité territoriale de Saint-Pierre-et-Miquelon |
+| 0xcf                                   | 207                                        | Saint-Kitts-et-Nevis                        | Fédération de Saint-Kitts-et-Nevis                   |
 | 0xd0                                   | 208                                        | Seychelles                                   | République des Seychelles                                |
 | 0xD1                                   | 209                                        | Afrique du Sud                                 | République de l’Afrique du Sud                              |
 | 0xd2                                   | 210                                        | Sénégal                                      | République du Sénégal                                   |
@@ -198,7 +198,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0xDD                                   | 221                                        | Suède                                       | Royaume de Suède                                     |
 | 0xde                                   | 222                                        | Syrie                                        | République arabe syrienne                                  |
 | 0xDF                                   | 223                                        | Suisse                                  | Confédération Suisse                                   |
-| 0xe0                                   | 224                                        | Émirats Arabes Unis                         | Émirats Arabes Unis                                  |
+| 0xe0                                   | 224                                        | Émirats arabes unis                         | Émirats arabes unis                                  |
 | 0xe1                                   | 225                                        | Trinité-et-Tobago                          | République de Trinité-et-Tobago                       |
 | 0xe3                                   | 227                                        | Thaïlande                                     | Royaume de Thaïlande                                   |
 | 0xe4                                   | 228                                        | Tadjikistan                                   | République du Tadjikistan                                |
@@ -218,7 +218,7 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0xf5                                   | 245                                        | Burkina Faso                                 | Burkina Faso                                          |
 | 0xf6                                   | 246                                        | Uruguay                                      | Oriental République de l’Uruguay                          |
 | 0xf7                                   | 247                                        | Ouzbékistan                                   | République d’Ouzbékistan                                |
-| 0xf8                                   | 248                                        | Saint-Vincent-et-les-Grenadines             | Saint-Vincent-et-les-Grenadines                      |
+| 0xf8                                   | 248                                        | Saint-Vincent-et-les Grenadines             | Saint-Vincent-et-les Grenadines                      |
 | 0xf9                                   | 249                                        | Venezuela                                    | République bolivarienne du Venezuela                      |
 | 0xfb                                   | 251                                        | Vietnam                                      | République socialiste du Viêt Nam                         |
 | 0xFC                                   | 252                                        | États-Unis Îles Vierges                          | Îles Vierges des États-Unis                   |
@@ -241,24 +241,24 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x12f                                  | 303                                        | Île de l’ascension                             |                                                       |
 | 0x130                                  | 304                                        | Ashmore et Cartier (îles)                  | Territoire des Îles Ashmore et Cartier              |
 | 0x131                                  | 305                                        | Île Baker                                 |                                                       |
-| 0x132                                  | 306                                        | Bouvet (île)                                |                                                       |
-| 0x133                                  | 307                                        | Caïmans (îles)                               | Caïmans (îles)                                        |
+| 0x132                                  | 306                                        | Bouvet (Île)                                |                                                       |
+| 0x133                                  | 307                                        | Cayman (îles)                               | Cayman (îles)                                        |
 | 0x134                                  | 308                                        | Îlots de canaux                              |                                                       |
-| 0x135                                  | 309                                        | Christmas (île)                             | Territoire de l’île Christmas                         |
+| 0x135                                  | 309                                        | Christmas (Île)                             | Territoire de l’île Christmas                         |
 | 0x136                                  | 310                                        | Îles Clipperton                            |                                                       |
-| 0x137                                  | 311                                        | Îles Cocos (Keeling)                      | Territoire des îles Cocos-Keeling (îles)                  |
-| 0x138                                  | 312                                        | Cook (îles)                                 |                                                       |
+| 0x137                                  | 311                                        | Cocos-Keeling (îles)                      | Territoire des îles Cocos-Keeling (îles)                  |
+| 0x138                                  | 312                                        | Cook (Îles)                                 |                                                       |
 | 0x139                                  | 313                                        | Îles de mer de corail                            | Territoire des îles de mer de coraux                           |
 | 0x13a                                  | 314                                        | Diego Garcia                                 |                                                       |
-| 0x13b                                  | 315                                        | Îles Malouines                             | Malouines (îles)                     |
-| 0x13d                                  | 317                                        | Guyane française                                | Ministère de la Guyane                                  |
+| 0x13b                                  | 315                                        | Malouines (îles)                             | Malouines (îles)                     |
+| 0x13d                                  | 317                                        | Guyane                                | Ministère de la Guyane                                  |
 | 0x13e                                  | 318                                        | Polynésie française                             | Territoire de la Polynésie française                         |
 | 0x13f                                  | 319                                        | Terres australes françaises                  | Territoire des terres australes et antarctiques françaises  |
 | 0x141                                  | 321                                        | Guadeloupe                                   | Ministère de la Guadeloupe                              |
 | 0x142                                  | 322                                        | Guam                                         | Territoire de Guam                                     |
 | 0x143                                  | 323                                        | Baie Guantanamo                               |                                                       |
 | 0x144                                  | 324                                        | Guernesey                                     | Bailliage de Guernesey                                 |
-| 0x145                                  | 325                                        | Heard et McDonald (îles)            | Territoire des îles Heard et McDonald        |
+| 0x145                                  | 325                                        | Heard et McDonald (Îles)            | Territoire des îles Heard et McDonald        |
 | 0x146                                  | 326                                        | Howland (île)                               |                                                       |
 | 0x147                                  | 327                                        | Jarvis (île)                                |                                                       |
 | 0x148                                  | 328                                        | Jersey                                       | Bailliage de Jersey                                   |
@@ -267,26 +267,26 @@ Cette rubrique répertorie les emplacements géographiques disponibles avec des 
 | 0x14b                                  | 331                                        | Mayotte                                      | Collectivité territoriale de Mayotte                   |
 | 0x14c                                  | 332                                        | Montserrat                                   | Montserrat                                            |
 | 0x14d                                  | 333                                        | Antilles néerlandaises (anciennement)                |                                                       |
-| 0x14e                                  | 334                                        | Nouvelle-Calédonie                                | Territoire de la Nouvelle-Calédonie et des dépendances           |
+| 0x14e                                  | 334                                        | Nouvelle Calédonie                                | Territoire de la Nouvelle-Calédonie et des dépendances           |
 | 0x14f                                  | 335                                        | Niue                                         |                                                       |
-| 0x150                                  | 336                                        | Norfolk (île)                               | Territoire de l’île Norfolk                           |
-| 0x151                                  | 337                                        | Îles Marianne du Nord                     | Commonwealth des îles Mariannes du Nord          |
+| 0x150                                  | 336                                        | Norfolk (Île)                               | Territoire de l’île Norfolk                           |
+| 0x151                                  | 337                                        | Mariannes du Nord (Îles)                     | Commonwealth des îles Mariannes du Nord          |
 | 0x152                                  | 338                                        | Palmyra Atoll                                |                                                       |
 | 0x153                                  | 339                                        | Pitcairn (îles)                             | Îles Pitcairn, Henderson, Ducie et oeno          |
 | 0x154                                  | 340                                        | Rota (île)                                  |                                                       |
 | 0x155                                  | 341                                        | Saipan                                       |                                                       |
-| 0x156                                  | 342                                        | Géorgie du Sud et îles Sandwich du Sud | Géorgie du Sud et îles Sandwich du Sud          |
+| 0x156                                  | 342                                        | Géorgie du Sud et Sandwich du Sud (Îles) | Géorgie du Sud et Sandwich du Sud (Îles)          |
 | 0x157                                  | 343                                        | Sainte-Hélène, ascension et Tristan da Cunha    | Sainte-Hélène, ascension et Tristan da Cunha         |
 | 0x15a                                  | 346                                        | Tinian (île)                                |                                                       |
 | 0x15b                                  | 347                                        | Tokelau                                      | Tokelau                                               |
 | 0x15c                                  | 348                                        | Tristan da Cunha                             |                                                       |
-| 0x15d                                  | 349                                        | Turques-et-Caïques (îles)                     | Turques-et-Caïques (îles)                              |
-| 0x15f                                  | 351                                        | Îles Vierges britanniques                       | Îles Vierges britanniques                                |
-| 0x160                                  | 352                                        | Wallis et Futuna                            | Territoire des îles Wallis-et-Futuna            |
+| 0x15d                                  | 349                                        | Turks et Caicos (îles)                     | Turks et Caicos (îles)                              |
+| 0x15f                                  | 351                                        | Vierges britanniques (îles)                       | Vierges britanniques (îles)                                |
+| 0x160                                  | 352                                        | Wallis-et-Futuna                            | Territoire des îles Wallis-et-Futuna            |
 | 0x2e6                                  | 742                                        | Afrique                                       |                                                       |
-| 0x851                                  | 2129                                       | Asia                                         |                                                       |
+| 0x851                                  | 2129                                       | Asie                                         |                                                       |
 | 0x292d                                 | 10541                                      | Europe                                       |                                                       |
-| 0x3b16                                 | 15126                                      | Île de Man                                  | Île de Man                                           |
+| 0x3b16                                 | 15126                                      | Man (Île de)                                  | Man (Île de)                                           |
 | 0x4ca2                                 | 19618                                      | Macédoine du Nord                              | L’ancienne République yougoslave de Macédoine             |
 | 0x51a4                                 | 20900                                      | Melanesia                                    |                                                       |
 | 0x52d6                                 | 21206                                      | Micronésie                                   | États fédérés de Micronésie                        |

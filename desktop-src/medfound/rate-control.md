@@ -4,12 +4,12 @@ ms.assetid: 6529859f-cfb6-4983-a489-bcc2f04e721f
 title: Contrôle de la fréquence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f484a0469d96578ca1bb7e1d661d7e2319bd8bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e5016fa55447ad8b2a77f8a9e48f19b3beeb2dfe411276f148bfb5d3e65882b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847809"
 ---
 # <a name="rate-control"></a>Contrôle de la fréquence
 
@@ -40,7 +40,7 @@ Cette section contient les rubriques suivantes :
 [Session multimédia](media-session.md)
 </dt> <dt>
 
-[Recherche, avance rapide et lecture inversée](seeking--fast-forward--and-reverse-play.md)
+[recherche, Avance rapide et la lecture inversée](seeking--fast-forward--and-reverse-play.md)
 </dt> </dl>
 
  

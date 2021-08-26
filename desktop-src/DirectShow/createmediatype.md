@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 03ea3eaee03ebf98ac22d702bde9a165fda21e51
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0384b0a72e10b84cd94581816c0441de6a19fa5148a97fa9e55d72bdd63d678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871409"
 ---
 # <a name="createmediatype-function"></a>CreateMediaType fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une structure de [**\_ \_ type de média am**](/windows/win32/api/
 
 Retourne une nouvelle structure de [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) , ou **null** en cas d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour libérer la mémoire allouée par cette fonction, appelez [**DeleteMediaType**](deletemediatype.md).
 
@@ -63,7 +63,7 @@ Pour libérer la mémoire allouée par cette fonction, appelez [**DeleteMediaTyp
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

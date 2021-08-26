@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, Bureau à distance référence de l’API de passerelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d30a51d40cead3c902cc6c8f4772ab05d5aa70b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 329e62f57c72adb004c72de89d9d878d085ce2070c64b0747768611e09d8cf4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865979"
 ---
 # <a name="remote-desktop-gateway-api-reference"></a>Informations de référence sur l’API Bureau à distance Gateway
 
@@ -24,9 +24,9 @@ Vous pouvez utiliser l’API Bureau à distance passerelle (passerelle Bureau à
 -   [Interfaces de passerelle Bureau à distance](remote-desktop-gateway-interfaces.md)
 -   [Structures de passerelle Bureau à distance](remote-desktop-gateway-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

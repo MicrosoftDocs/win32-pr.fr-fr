@@ -1,6 +1,6 @@
 ---
 title: Méthode IMsRdpClient SetVirtualChannelOptions
-description: Définit les options de canal virtuel pour le contrôle ActiveX Bureau à distance.
+description: définit les options de canal virtuel pour le contrôle de ActiveX Bureau à distance.
 ms.assetid: c74c3917-5766-4d5b-8458-b051eb91cb28
 ms.tgt_platform: multiple
 keywords:
@@ -44,18 +44,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10e727fd3486b9d1b31fb3a421ea6ff268949790
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 804d4bde2fec9cb6273cc78f79d733f61a08772746439aa1cbb6e7b2d3c29716
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871580"
 ---
 # <a name="imsrdpclientsetvirtualchanneloptions-method"></a>IMsRdpClient :: SetVirtualChannelOptions, méthode
 
-Définit les options de canal virtuel pour le contrôle ActiveX Bureau à distance.
+définit les options de canal virtuel pour le contrôle de ActiveX Bureau à distance.
 
-Appelez cette méthode après avoir appelé la méthode [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) , mais avant d’établir une connexion à l’aide de la méthode [**Connect**](imstscax-connect.md) . Cette méthode définit des options supplémentaires sur les canaux virtuels qui ont été créés avec **CreateVirtualChannels**.
+appelez cette méthode après avoir appelé la méthode [**CreateVirtualChannels**](imstscax-createvirtualchannels.md) , mais avant d’établir une connexion à l’aide de la méthode [**Connecter**](imstscax-connect.md) . Cette méthode définit des options supplémentaires sur les canaux virtuels qui ont été créés avec **CreateVirtualChannels**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -91,7 +91,7 @@ Options à définir pour le canal virtuel spécifié par le paramètre *ChanName
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un exemple d’utilisation de cette méthode serait de déclarer le canal comme un contrôle à distance persistant en définissant l' **option de canal indicateur \_ \_ \_ \_ permanent de contrôle à distance** . Cela signifie que le canal n’est pas fermé lorsqu’un contrôle à distance se connecte à ou se déconnecte de la session connectée au client. Pour plus d’informations, consultez [contrôle à distance des canaux virtuels persistants](remote-control-persistent-virtual-channels.md).
 

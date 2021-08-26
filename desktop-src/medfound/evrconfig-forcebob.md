@@ -4,12 +4,12 @@ ms.assetid: 56f808b3-c2eb-46e4-84a1-c478a5db78e7
 title: Attribut EVRConfig_ForceBob (UUID. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afeeb1e7fb57f956d378e71ac4452ea2e4f168be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41248eb48f089cf88ecd66dcf823cc83c243b3a2f637aef7633d13ac755c9584
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119958348"
 ---
 # <a name="evrconfig_forcebob-attribute"></a>\_Attribut EVRConfig ForceBob
 
@@ -25,7 +25,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetUInt32**](/window
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setuint32).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut peut être défini sur le récepteur multimédia EVR. Pour définir l’attribut, utilisez **QueryInterface** pour interroger le récepteur multimédia EVR pour l’interface [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) .
 
@@ -39,8 +39,8 @@ La constante GUID de cet attribut est exportée à partir de strmiids. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>UUID. h</dt> </dl> |
 
 

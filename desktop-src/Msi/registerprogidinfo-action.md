@@ -4,12 +4,12 @@ ms.assetid: f6fd4d0d-d2dc-4953-9402-314c7932746b
 title: Action RegisterProgIdInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c7d53ca4c4125c6ebfc4d089c1c5a0934f9a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84cebf5ddb3bf8b9c98ebea0364b685016d343afa283b937400360f31bbcebd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912829"
 ---
 # <a name="registerprogidinfo-action"></a>Action RegisterProgIdInfo
 
@@ -44,7 +44,7 @@ Par exemple, RegisterProgIdInfo doit venir après [RegisterExtensionInfo](regist
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’action RegisterProgIdInfo enregistre toutes les informations ProgId pour les serveurs qui sont spécifiés dans la [table ProgID](progid-table.md) et pour lesquels le serveur de classe ou d’extension correspondant a été sélectionné pour être installé.
 

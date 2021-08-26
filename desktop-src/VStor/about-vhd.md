@@ -7,20 +7,20 @@ MSHAttr:
 title: À propos du disque dur virtuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ea37851360e70c1108e0715a47c77163c2c2fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a79bd7695144811a1ec98f79e736760bbaddc8ef4b7460e55c5a66353a0b2ad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119865953"
 ---
 # <a name="span-idvhdabout_vhdspanabout-vhd"></a><span id="vhd.about_vhd"></span>À propos du disque dur virtuel
 
 Le format de disque dur virtuel (VHD) est une [spécification](https://download.microsoft.com/download/f/f/e/ffef50a5-07dd-4cf8-aaa3-442c0673a029/Virtual%20Hard%20Disk%20Format%20Spec_10_18_06.doc) de format d’image disponible publiquement qui permet l’encapsulation du disque dur dans un fichier individuel utilisable par le système d’exploitation en tant que *disque virtuel* dans les mêmes modes d’utilisation des disques durs physiques. Ces disques virtuels peuvent héberger des systèmes de fichiers natifs (NTFS, FAT, exFAT et UDF) tout en prenant en charge les opérations de disque et de fichier standard. La prise en charge des API VHD permet de gérer les disques virtuels. Les disques virtuels créés avec l’API VHD peuvent fonctionner en tant que disques de démarrage.
 
-L’utilisation des fichiers VHD est un exemple de la fonctionnalité [Hyper-V](https://www.microsoft.com/windowsserver2008/en/us/hyperv.aspx) dans Windows 7, windows Server 2008, Virtual Server et Windows Virtual PC. Ces produits utilisent l’API VHD pour contenir l’image du système d’exploitation Windows utilisée par une machine virtuelle comme disque de démarrage système.
+l’utilisation des fichiers VHD est un exemple de la fonctionnalité [Hyper-V](https://www.microsoft.com/windowsserver2008/en/us/hyperv.aspx) dans Windows 7, Windows server 2008, virtual server et Windows virtual PC. ces produits utilisent l’API VHD pour contenir l’image du système d’exploitation Windows utilisée par une machine virtuelle comme disque de démarrage système.
 
-Le kit de développement logiciel (SDK) Microsoft Windows intègre la prise en charge du disque dur virtuel natif pour l’utilisation des disques virtuels, ce qui permet aux développeurs et aux administrateurs de créer, gérer et déployer plus facilement des images Windows dans des fichiers VHD à l’aide des outils de gestion ou de prise en charge des API de plateforme. Il n’est pas nécessaire d’installer des applications distinctes ou d’implémenter un analyseur de format VHD pour activer ces opérations. Ces API permettent l’utilisation générique de disques virtuels indépendamment des autres technologies de virtualisation.
+le kit de développement logiciel (SDK) Microsoft Windows intègre la prise en charge du disque dur virtuel natif pour l’utilisation des disques virtuels, ce qui permet aux développeurs et aux administrateurs de créer, gérer et déployer plus facilement des images Windows dans des fichiers VHD à l’aide des outils de gestion ou de prise en charge des API de plateforme. Il n’est pas nécessaire d’installer des applications distinctes ou d’implémenter un analyseur de format VHD pour activer ces opérations. Ces API permettent l’utilisation générique de disques virtuels indépendamment des autres technologies de virtualisation.
 
 ## <a name="span-idterminologyspanspan-idterminologyspanspan-idterminologyspanterminology"></a><span id="Terminology"></span><span id="terminology"></span><span id="TERMINOLOGY"></span>Correspondance
 
@@ -36,13 +36,13 @@ Le diagramme suivant présente une vue d’ensemble des fonctionnalités de disq
 
 Vous trouverez ci-dessous une explication récapitulative des fonctionnalités décrites précédemment.
 
-API Windows natives en mode utilisateur :
+api Windows natives en Mode utilisateur :
 
 -   VirtDisk.dll-bibliothèque commune pour les API de gestion du disque dur virtuel.
 
 Wrappers de gestion spécifiques au domaine en mode utilisateur :
 
--   [API VHD VDS](/windows/desktop/VDS/about-vds) -wrappers de modèle objet VDS pour les API Windows VHD.
+-   [api vhd vds](/windows/desktop/VDS/about-vds) : wrappers de modèle objet vds pour les api de Windows vhd.
 
 Pilotes en mode noyau :
 
@@ -50,7 +50,7 @@ Pilotes en mode noyau :
 -   FsDepends.sys-gestion des dépendances de volume imbriquée.
 -   Vhdmp.sys-l’analyseur VHD et le fournisseur de propriétés de dépendance.
 
-La documentation du kit de développement logiciel (SDK) de cette section traite des API de disque dur virtuel Windows natives en mode utilisateur.
+la documentation du kit de développement logiciel (SDK) de cette section traite des api de disque dur virtuel Windows en mode utilisateur.
 
 ## <a name="span-idvirtual_disk_typesspanspan-idvirtual_disk_typesspanspan-idvirtual_disk_typesspanvirtual-disk-types"></a><span id="Virtual_Disk_Types"></span><span id="virtual_disk_types"></span><span id="VIRTUAL_DISK_TYPES"></span>Types de disques virtuels
 

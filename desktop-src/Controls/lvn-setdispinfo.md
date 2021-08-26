@@ -3,7 +3,7 @@ title: LVN_SETDISPINFO le code de notification (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle List-View qu’il doit mettre à jour les informations qu’il gère pour un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 1ea51d50-4a57-4662-972e-89e916fa9b16
 keywords:
-- Contrôles Windows de code de notification LVN_SETDISPINFO
+- LVN_SETDISPINFO les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 659623d892f0f5a556f4890703d4e0dd725536b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f4827d37a115f2bd1bb523f78bdb5975de4314056a174be4bfa886e1a076497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915059"
 ---
 # <a name="lvn_setdispinfo-notification-code"></a>\_Code de notification LVN SETDISPINFO
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le récepteur de notification convertit *lParam* pour récupérer la structure [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) . Le paramètre *wParam* contient le code du message.
 
@@ -61,8 +61,8 @@ Le récepteur de notification convertit *lParam* pour récupérer la structure [
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVN \_ SETDISPINFOW** (Unicode) et **LVN \_ SETDISPINFOA** (ANSI)<br/>           |
 

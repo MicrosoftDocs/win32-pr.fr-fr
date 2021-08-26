@@ -3,15 +3,15 @@ title: Modification d’une interface existante
 description: Dans la mesure du possible, implémentez une nouvelle interface pour votre application, au lieu d’apporter des modifications à une interface existante.
 ms.assetid: 29845cf5-445c-403d-b298-d4e07c3536b7
 keywords:
-- modification des interfaces existantes programmation Windows 64 bits
+- modification des interfaces existantes 64-bit Windows programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a656ee768dcc2e88725d2cff0ddc5604fd771f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 782587471de5616750501552445599a94571ff2275d080347937c595e2cd7668
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899069"
 ---
 # <a name="changing-an-existing-interface"></a>Modification d’une interface existante
 
@@ -25,6 +25,6 @@ Il existe une solution de contournement similaire pour un cas particulier de mod
 
 Une interface DCOM est identifiée par son GUID. Dans DCOM, les interfaces sont considérées comme immuables et vous pouvez apporter des modifications uniquement en créant une nouvelle interface qui hérite de l’ancienne. Ces règles garantissent que les clients et les serveurs restent compatibles.
 
- 
+ 
 
- 
+ 

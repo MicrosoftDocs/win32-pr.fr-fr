@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5558e70cfcf18f67c14e52160737b851fa9ea2c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82c829d7294925b7f95f8229779ca91e04ce305125d787acad14c8dd7cd9cff0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106541162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119974309"
 ---
 # <a name="ivmharddiskconnectioncollectionitem-property"></a>IVMHardDiskConnectionCollection :: Item, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère l’objet de connexion de disque dur qui correspond à l’index spécifié.
 
@@ -68,7 +68,7 @@ Objet [**IVMHardDiskConnection**](ivmharddiskconnection.md) .
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                         |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                          |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                               |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                      |

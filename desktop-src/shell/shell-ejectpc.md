@@ -1,5 +1,5 @@
 ---
-description: 'Méthode Shell. EjectPC : éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu Démarrer et à sélectionner éjecter le PC, si votre ordinateur prend en charge cette commande.'
+description: 'Méthode Shell. EjectPC : éjecte l’ordinateur de sa station d’accueil. cela revient à cliquer sur le menu Démarrer et à sélectionner éjecter le PC, si votre ordinateur prend en charge cette commande.'
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: Shell. EjectPC, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5ec08aaa82d2f752fa06537434adede86b9d5a3a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3f774b666647ebf8a255950fe8427a87e55ca514db9ed841a5fc7f2e7edb2e69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119883879"
 ---
 # <a name="shellejectpc-method"></a>Shell. EjectPC, méthode
 
@@ -45,7 +45,7 @@ Shell.EjectPC()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -57,9 +57,9 @@ Cette méthode ne retourne pas de valeur.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **EjectPC** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **EjectPC** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -115,7 +115,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

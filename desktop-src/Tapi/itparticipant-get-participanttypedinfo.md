@@ -4,12 +4,12 @@ ms.assetid: 8dcc6182-ad3c-47f2-b4a0-e18a3c9f6888
 title: 'ITParticipant :: get_ParticipantTypedInfo, méthode (Ipmsp. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c9936f49e6daa05702699487e4313a918c545a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43afb80b0f1161cf0060c8492576ade4f682af44cb4b2dbb13ab49d2c65aab66
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867149"
 ---
 # <a name="itparticipantget_participanttypedinfo-method"></a>ITParticipant :: \_ ParticipantTypedInfo, méthode
 
@@ -56,7 +56,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 | Code de retour                                                                                    | Description                                                     |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**\_OK**</dt> </dl>           | La méthode a réussi.<br/>                                    |
-| <dl> <dt>**E \_ échec**</dt> </dl>         | Échec du stockage des informations dans *ppInfo* .<br/>         |
+| <dl> <dt>**E \_ échec**</dt> </dl>         | échec de Stockage d’informations dans *ppInfo* .<br/>         |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>   | Le paramètre *infotype* n’est pas valide.<br/>               |
 | <dl> <dt>**\_pointeur E**</dt> </dl>      | Le paramètre *ppInfo* n’est pas un pointeur valide.<br/>       |
 | <dl> <dt>**initem de TAPI \_ E \_**</dt> </dl> | L’interface TAPI n’a pas d’informations sur le type spécifié.<br/>       |
@@ -66,7 +66,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application doit utiliser [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) pour libérer la mémoire allouée pour le paramètre *ppInfo* .
 

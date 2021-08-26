@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00b1f15ae0c28722adaca8c4b0651606681ce3af
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7e03b2d4a762a7fbb1bba00f8804e8e43a77ad8183a744add63fcf0d37c86d54
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106511657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913669"
 ---
 # <a name="w-switch"></a>Bouton/w
 
@@ -38,7 +38,7 @@ Spécifie le niveau d’avertissement, un entier compris entre 0 et 4. Il n’y 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les niveaux d’avertissement sont compris entre 1 et 4, avec une valeur égale à zéro pour ne pas afficher d’informations d’avertissement. L’avertissement de gravité la plus élevée est de niveau 1. Le tableau suivant décrit les avertissements pour chaque niveau d’avertissement.
 
@@ -54,7 +54,7 @@ Les niveaux d’avertissement sont compris entre 1 et 4, avec une valeur égale 
 
 
 
- 
+ 
 
 Les avertissements sont différents des erreurs. Les erreurs provoquent l’arrêt du traitement du fichier IDL par le compilateur MIDL. Les avertissements font en sorte que le compilateur MIDL émette un message d’information et continue le traitement du fichier IDL.
 
@@ -78,9 +78,9 @@ Le commutateur **/w** se comporte de la même façon que le commutateur [**/WARN
 [**/WARN**](-warn.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

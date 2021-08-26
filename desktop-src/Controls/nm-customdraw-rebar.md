@@ -3,7 +3,7 @@ title: Code de notification NM_CUSTOMDRAW (Rebar) (commctrl. h)
 description: Envoyé par le contrôle rebar pour signaler à sa fenêtre parente les opérations de dessin. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 3ba9bb59-f297-4af1-a9a9-d8789def5bde
 keywords:
-- Contrôles Windows de code de notification NM_CUSTOMDRAW (Rebar)
+- NM_CUSTOMDRAW (rebar) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 329f3e9abfb20dbca8cebd3a6bf02673ad00f904
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 376bb9627d159dbb24080c2e475072dae357062975158d39f269e1cb7a4e3405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914869"
 ---
 # <a name="nm_customdraw-rebar-notification-code"></a>\_Code de notification CUSTOMDRAW nm (Rebar)
 
@@ -71,8 +71,8 @@ La valeur que votre application peut retourner dépend de l’étape de dessin a
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

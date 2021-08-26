@@ -4,16 +4,16 @@ ms.assetid: 9d5fc370-ba58-438b-8850-f31f0f0f6608
 title: Factoids pris en charge à partir de la version 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bad6d08b91a457d38a3eb8543200eb1919eb2bfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4c24c192bcbda04be7ea25deb0c7b1cb7b392de57c43ce7a509e0ceaac31002
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934349"
 ---
 # <a name="supported-factoids-from-version-1"></a>Factoids pris en charge à partir de la version 1
 
-\[Notez que la description suivante du Factoids pris en charge dans la version 1 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet PC Edition est toujours prise en charge par les module de reconnaissance, mais il est recommandé que tout nouveau développement (pour les logiciels de reconnaissance du script latin) utilise les valeurs définies dans l’énumération [InputScope](/windows/win32/api/inputscope/ne-inputscope-inputscope) .\]
+\[notez que la description suivante du factoids pris en charge dans la version 1 du kit de développement logiciel (SDK) de Microsoft Windows XP Tablet PC Edition est toujours prise en charge par les module de reconnaissance, mais il est recommandé que tout nouveau développement (pour les logiciels de reconnaissance du script Latin) utilise les valeurs définies dans l’énumération [InputScope](/windows/win32/api/inputscope/ne-inputscope-inputscope) .\]
 
 La plateforme Tablet PC prend en charge un certain nombre de Factoids qui sont utilisés pour augmenter la précision de la reconnaissance. Lors de l’utilisation de Factoids, il est important que l’entrée attendue corresponde exactement à la définition du Factoid. Si l’entrée ne correspond pas à la définition du Factoid, la précision de la reconnaissance en souffre. Par exemple, si le **nombre** Factoid est défini et que l’utilisateur entre des lettres, la précision de la reconnaissance pour les lettres est médiocre.
 

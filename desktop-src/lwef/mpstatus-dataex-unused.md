@@ -3,8 +3,8 @@ title: Structure MPSTATUS_DATAEX_UNUSED (MpClient. h)
 description: Structure factice pour non-SRP.
 ms.assetid: 396744CE-2435-4591-B0CF-A4392C88640F
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_DATAEX_UNUSED
-- PMPSTATUS_DATAEX_UNUSED des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPSTATUS_DATAEX_UNUSED
+- PMPSTATUS_DATAEX_UNUSED des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcbc987a97a8cc47501a24e633c5da2d776a42d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 245315d12b5fbe76ec2f552e510336aa3974753678e04f87c33546737f180c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961089"
 ---
 # <a name="mpstatus_dataex_unused-structure"></a>MPSTATUS \_ DATAEX, \_ structure inutilisée
 
@@ -54,8 +54,8 @@ Type : **DWORD**
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

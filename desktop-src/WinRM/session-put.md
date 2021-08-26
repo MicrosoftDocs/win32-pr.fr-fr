@@ -5,8 +5,8 @@ ms.assetid: f121d9ce-6aa3-45e3-b0ba-67b19c2f5665
 ms.tgt_platform: multiple
 keywords:
 - Put, méthode Windows Remote Management
-- Put, méthode Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode put
+- Put, méthode Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode Put
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de0f09b0a0f8de4e7f7d06cb84753e6b708841f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d4c6fc6123470f6633b77a1c51234e751f3be04044c0ad100f0017849cb1ac42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898689"
 ---
 # <a name="sessionput-method"></a>Session. put, méthode
 
@@ -52,7 +52,7 @@ Identificateur de la ressource à mettre à jour.
 
 Ce paramètre peut contenir l’un des éléments contenus dans la liste suivante :
 
--   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). Quand vous appelez la méthode **put** pour obtenir une ressource WMI, utilisez la ou les propriétés de clé de l’objet. Par exemple, dans l’exemple de code Visual Basic Scripting Edition (VBScript) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` .
+-   URI avec ou sans [*sélecteurs*](windows-remote-management-glossary.md). Quand vous appelez la méthode **put** pour obtenir une ressource WMI, utilisez la ou les propriétés de clé de l’objet. par exemple, dans l’exemple de code VBScript (Visual Basic scripting Edition) suivant, la clé est spécifiée par `Win32_Service?Name=winmgmt` .
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/" & _ 

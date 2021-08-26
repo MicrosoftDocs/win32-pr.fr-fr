@@ -4,24 +4,24 @@ ms.assetid: f789db78-292e-4092-a5dc-1906845fb1dd
 title: Configurer la qualité vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cb8d2d28e39f0083aac521f1953ebbb1ca8d5b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c5987352eb329410efd3fc74d6bf12539e968da8e24d2f0a65af9c9ac7b5cb85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119871769"
 ---
 # <a name="configure-the-video-quality"></a>Configurer la qualité vidéo
 
 Cette rubrique décrit comment une application peut modifier par programme les paramètres de l’image et de l’appareil photo sur un appareil de capture vidéo.
 
--   [Paramètres de ProcAmp](#procamp-settings)
+-   [Paramètres de procamp](#procamp-settings)
 -   [Paramètres de la caméra](#camera-settings)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="procamp-settings"></a>Paramètres de ProcAmp
+## <a name="procamp-settings"></a>Paramètres de procamp
 
-Les caméras vidéo Windows Driver Model (WDM) peuvent prendre en charge des propriétés qui contrôlent la qualité de l’image :
+Windows Les caméras vidéo du modèle de pilote (WDM) peuvent prendre en charge des propriétés qui contrôlent la qualité de l’image :
 
 -   Compensation du rétroéclairage
 -   Luminosité

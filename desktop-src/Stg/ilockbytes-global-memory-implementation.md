@@ -7,12 +7,12 @@ keywords:
 - ILockBytes Strctd STG, implémentations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9d7cae82c1503fcb53d2cfd8fee39095eb60801
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d30f9786f29433bcc02e0b56f3ea9d45c949593f60962e80a650d80ed625da41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867447"
 ---
 # <a name="ilockbytes---global-memory-implementation"></a>ILockBytes-implémentation de la mémoire globale
 
@@ -22,7 +22,7 @@ L’implémentation de la mémoire globale ILockBytes est implémentée sur un o
 
 Les méthodes de [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) sont appelées à partir des implémentations de fichiers composés de [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) et [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream) sur l’objet de stockage de fichiers composés créé via un appel à [**StgCreateDocFile**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les méthodes de l’implémentation de la mémoire globale [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes) .
 
@@ -90,9 +90,9 @@ L’implémentation [**IStorage :: stat**](/windows/desktop/api/Objidl/nf-objid
 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

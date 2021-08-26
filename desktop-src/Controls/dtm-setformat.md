@@ -3,7 +3,7 @@ title: Message DTM_SETFORMAT (commctrl. h)
 description: Définit l’affichage d’un contrôle de sélecteur de date et heure (PAO) basé sur une chaîne de format donnée. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro DateTime SetFormat.
 ms.assetid: a89fa3ad-9894-4c52-ab56-fb62208e39b3
 keywords:
-- DTM_SETFORMAT les contrôles de message Windows
+- DTM_SETFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17669ed2e1ed23e3b090b77701bbe05d23a5ccb8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17d4bb08694b63c21f1790d0a1366dd34d1083592bdeb62d532a32a96be3857a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119877859"
 ---
 # <a name="dtm_setformat-message"></a>\_Message DTM SETFORMAT
 
@@ -45,7 +45,7 @@ Pointeur vers une [chaîne de format](date-and-time-picker-controls.md) se termi
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est acceptable d’inclure des caractères supplémentaires dans la chaîne de format pour produire un affichage plus riche. Toutefois, tous les caractères sans format doivent être placés entre guillemets simples. Par exemple, la chaîne de format « » aujourd’hui est : «HH » : « m » : « ddddMMMdd », « yyy » produirait une sortie telle que « Today is : 04:22:31 mardi Mar 23, 1996 ».
 
@@ -60,8 +60,8 @@ Il est acceptable d’inclure des caractères supplémentaires dans la chaîne d
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **DTM \_ SETFORMATW** (Unicode) et **DTM \_ SETFORMATA** (ANSI)<br/>               |
 

@@ -3,7 +3,7 @@ title: Message EM_FILELINELENGTH (CommCtrl. h)
 description: Récupère la longueur, en caractères, d’une ligne dans un contrôle d’édition, indépendamment de la façon dont les lignes sont affichées à l’écran.
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:
-- EM_FILELINELENGTH les contrôles de message Windows
+- EM_FILELINELENGTH les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa50f4d9b49253a558095be78e0e781d7d4c7f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10cb05b0e2acbfb5049eddefab1dad42ecd7b6db234fa4a3c34d4877ed52b007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915539"
 ---
 # <a name="em_filelinelength-message"></a>\_Message FILELINELENGTH em
 
@@ -53,7 +53,7 @@ Pour les contrôles d’édition sur une seule ligne, la valeur de retour est la
 
 Si *wParam* est supérieur au nombre de caractères dans le contrôle, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le message [**em \_ FILELINEINDEX**](em-lineindex.md) pour récupérer un index de caractère pour un numéro de ligne donné au sein d’un contrôle d’édition multiligne, indépendamment de la façon dont les lignes sont affichées à l’écran.
 
@@ -63,8 +63,8 @@ Utilisez le message [**em \_ FILELINEINDEX**](em-lineindex.md) pour récupérer 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, 1809 \[ uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2019 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10, 1809 \[ applications de bureau uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2019 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>CommCtrl. h</dt> </dl> |
 
 

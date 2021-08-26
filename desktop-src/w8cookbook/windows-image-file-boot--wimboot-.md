@@ -1,17 +1,17 @@
 ---
-title: Démarrage du fichier image Windows (WimBoot)
-description: Démarrage du fichier image Windows (WimBoot)
+title: Windows Démarrage du fichier image (WimBoot)
+description: Windows Démarrage du fichier image (WimBoot)
 ms.assetid: 1C4EFC42-6698-4981-8C55-D1DFC6309F31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9f14ea506226e2c16d771ecec52fa31a8c871b4
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: 687a230188c3b13317d8176d8209cf5e38026c3b6f161be7ffe0c2ed760976ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "103734644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932119"
 ---
-# <a name="windows-image-file-boot-wimboot"></a>Démarrage du fichier image Windows (WimBoot)
+# <a name="windows-image-file-boot-wimboot"></a>Windows Démarrage du fichier image (WimBoot)
 
 ## <a name="platform"></a>Plateforme
 
@@ -19,7 +19,7 @@ ms.locfileid: "103734644"
 
 ## <a name="description"></a>Description
 
-WimBoot est une autre façon pour les fabricants OEM de déployer Windows. Un déploiement WimBoot démarre et exécute Windows directement à partir d’un fichier image Windows (WIM) compressé. Ce fichier WIM est immuable et son accès est géré par un nouveau pilote de filtre de système de fichiers (WoF.sys).
+WimBoot est une autre façon pour les fabricants OEM de déployer des Windows. un déploiement WimBoot démarre et exécute Windows directement à partir d’un fichier Image Windows compressé (WIM). Ce fichier WIM est immuable et son accès est géré par un nouveau pilote de filtre de système de fichiers (WoF.sys).
 
 Le résultat est une réduction significative de l’espace disque nécessaire à l’installation de Windows.
 
@@ -39,9 +39,9 @@ De nouvelles API ont été introduites pour permettre aux applications de demand
 
 Les développeurs d’applications doivent tester leurs logiciels et leurs scénarios correspondants sur un système WimBoot, en particulier si ces applications accèdent à des fichiers système ou préchargés. Une attention particulière doit être accordée à une réduction significative de l’espace disque disponible après la fin d’un scénario.
 
- 
+ 
 
- 
+ 
 
 
 
