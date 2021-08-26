@@ -4,12 +4,12 @@ ms.assetid: 85c5f38f-d8d7-4203-adc0-4869d6078351
 title: Prise en charge limitée de l’accès utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a22a1259939cbd2bc77694e962e23f29c82e291
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 133a3adc5c8ed7b80ded88f571cd9c2118d40bf3188e027a82191d5daf4a7793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033819"
 ---
 # <a name="limited-user-access-support"></a>Prise en charge limitée de l’accès utilisateur
 

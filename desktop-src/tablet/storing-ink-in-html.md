@@ -4,18 +4,18 @@ ms.assetid: 1cef7f91-118c-4a16-802d-bd2ec5d15416
 title: Stockage de l’encre en HTML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8372e6e77ea0284bc44fa70883964e53b3063bab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d8949582c5743ba7be5ac664627792c7b7f8a0cd5968a67f5db08b6428cb886
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934359"
 ---
 # <a name="storing-ink-in-html"></a>Stockage de l’encre en HTML
 
 Il est généralement préférable de copier un ensemble d’informations plus complexe que ce qui peut être contenu dans le format ISF (Ink Serialized Format). Le format HTML est particulièrement utile en tant que format d’interopérabilité en raison de son acceptation forte comme une norme industrielle et de sa capacité à représenter du contenu hétérogène.
 
-Le langage HTML est largement compréhensible, bien documenté et familier à de nombreux développeurs. Il existe de nombreux outils pour la production HTML. En outre, Microsoft Windows contient des API (Application Programming Interfaces) pour le rendu et la manipulation du code HTML. Enfin, les API de la plate-forme Tablet PC fournissent le format de persistance GIF renforcé, qui convient pour l’incorporation dans d’autres formats, plus important en HTML. Ce format est constitué d’un fichier GIF avec Ink Serialized Format (ISF) incorporé dans un bloc d’extension d’application.
+Le langage HTML est largement compréhensible, bien documenté et familier à de nombreux développeurs. Il existe de nombreux outils pour la production HTML. en outre, Microsoft Windows contient des api (application programming interfaces) pour le rendu et la manipulation du code HTML. Enfin, les API de la plate-forme Tablet PC fournissent le format de persistance GIF renforcé, qui convient pour l’incorporation dans d’autres formats, plus important en HTML. Ce format est constitué d’un fichier GIF avec Ink Serialized Format (ISF) incorporé dans un bloc d’extension d’application.
 
 Ces fichiers GIF sont des représentations d’objets Ink qui :
 
@@ -24,7 +24,7 @@ Ces fichiers GIF sont des représentations d’objets Ink qui :
 
 Ces fichiers GIF peuvent être générés à l’aide des méthodes de persistance des API de la plateforme Tablet PC. Il s’agit de gif et doit utiliser l’extension GIF et, pour une application qui n’est pas compatible avec l’écriture manuscrite, il n’y a rien de différent à partir d’un GIF normal. Toutefois, dans une application compatible avec l’écriture manuscrite, il existe un ensemble complet de données sous-jacentes de l’image.
 
-Une fois produit par les API de la plateforme Tablet PC, un fichier GIF viné est référencé par une balise IMG en HTML. Le code HTML est ensuite stocké dans l' \_ emplacement du presse-papiers html CF standard. Cela permet d’afficher le code HTML pour d’autres applications, qu’elles soient compatibles avec l’encre. L’image elle-même peut être stockée dans le cache Windows Internet et définie pour un âge après un laps de temps approprié.
+Une fois produit par les API de la plateforme Tablet PC, un fichier GIF viné est référencé par une balise IMG en HTML. Le code HTML est ensuite stocké dans l' \_ emplacement du presse-papiers html CF standard. Cela permet d’afficher le code HTML pour d’autres applications, qu’elles soient compatibles avec l’encre. l’image elle-même peut être stockée dans le cache Internet Windows et définie pour vieillir après un laps de temps approprié.
 
 Des ornements spécifiques à la balise IMG sont fournis ou requis. Ces ornements identifient le code HTML comme contenant de l’encre. L’exemple suivant fait référence à une image GIF supplémentée à l’aide de balises HTML :
 

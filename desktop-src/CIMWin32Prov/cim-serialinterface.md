@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1df787ff64798f412035a72e6db6d7b01b4b9b0a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c6b704c8af9e6907150ed4d09caacaafb0229902005fdbc63453dc315a3401a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919829"
 ---
 # <a name="cim_serialinterface-class"></a>\_Classe CIM SerialInterface
 
@@ -331,7 +331,7 @@ Informations sur le paramètre de parité pour les données transmises.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ SerialInterface** est dérivée de [**CIM \_ ControlledBy**](cim-controlledby.md).
 

@@ -1,19 +1,19 @@
 ---
-description: Utilisation des contrôles Video Mixer
+description: utilisation des contrôles Video Mixer
 ms.assetid: 475996c6-a205-4133-8882-f55beaf9f8fd
-title: Utilisation des contrôles Video Mixer
+title: utilisation des contrôles Video Mixer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8a062c6f984e0eac0128bd67c72bf691c95af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72506a69cb1e3a8584a92cc7052541ffc210cd307073dece61f3a9d76a4c35d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887142"
 ---
-# <a name="using-the-video-mixer-controls"></a>Utilisation des contrôles Video Mixer
+# <a name="using-the-video-mixer-controls"></a>utilisation des contrôles Video Mixer
 
-Le mélangeur EVR fournit plusieurs interfaces qu’une application peut utiliser pour contrôler la façon dont le mélangeur traite la vidéo. Ces interfaces peuvent être utilisées dans DirectShow ou Media Foundation.
+Le mélangeur EVR fournit plusieurs interfaces qu’une application peut utiliser pour contrôler la façon dont le mélangeur traite la vidéo. ces interfaces peuvent être utilisées dans DirectShow ou Media Foundation.
 
 
 
@@ -27,13 +27,13 @@ Le mélangeur EVR fournit plusieurs interfaces qu’une application peut utilise
 
  
 
-La méthode correcte pour accéder aux pointeurs vers ces interfaces varie selon que vous utilisez la version DirectShow de EVR ou la version de Media Foundation. Pour le Media Foundation EVR, cela dépend également de l’utilisation directe du EVR ou de son utilisation par le biais de la [session multimédia](media-session.md). (En général, une application utilise EVR via la session multimédia, pas directement).
+la méthode correcte pour atteindre des pointeurs vers ces interfaces varie selon que vous utilisez la version DirectShow du EVR ou de la version Media Foundation. Pour le Media Foundation EVR, cela dépend également de l’utilisation directe du EVR ou de son utilisation par le biais de la [session multimédia](media-session.md). (En général, une application utilise EVR via la session multimédia, pas directement).
 
 Pour obtenir un pointeur vers l’une de ces interfaces, procédez comme suit :
 
 1.  Obtient un pointeur vers l’interface [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice) sur EVR.
 
-    -   Si vous utilisez le filtre DirectShow EVR, appelez **QueryInterface** sur le filtre.
+    -   si vous utilisez le filtre DirectShow EVR, appelez **QueryInterface** sur le filtre.
 
     -   Si vous utilisez directement le récepteur multimédia EVR, appelez **QueryInterface** sur le récepteur multimédia.
 
@@ -63,7 +63,7 @@ Le EVR peut combiner un ou plusieurs sous-flux vidéo sur le flux vidéo princip
 
 -   Appelez [**IMFVideoMixerControl :: SetStreamZOrder**](/windows/desktop/api/evr/nf-evr-imfvideomixercontrol-setstreamzorder) pour définir l’ordre de plan pour les sous-flux. Le EVR dessine les flux vidéo dans l’ordre de leurs valeurs d’ordre de plan, en commençant par zéro. Le flux vidéo principal est toujours en premier dans l’ordre de plan.
 
-## <a name="video-processor-settings"></a>Paramètres du processeur vidéo
+## <a name="video-processor-settings"></a>processeur vidéo Paramètres
 
 Le mélangeur EVR utilise l’accélération vidéo DirectX (DXVA) pour effectuer le traitement vidéo sur les flux d’entrée. Les fonctionnalités de traitement exactes dépendent du pilote Graphics. Les fonctionnalités de traitement vidéo sont décrites à l’aide de la structure [**DXVA2 \_ VideoProcessorCaps**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videoprocessorcaps) . Un ensemble de fonctionnalités particulier est appelé *mode de traitement vidéo*, chaque mode étant identifié par un GUID. Pour obtenir la liste des GUID prédéfinis, consultez [**IDirectXVideoProcessorService :: GetVideoProcessorDeviceGuids**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoprocessorservice-getvideoprocessordeviceguids). Le pilote peut définir des GUID supplémentaires spécifiques au fournisseur, représentant différentes combinaisons de fonctionnalités.
 
@@ -83,7 +83,7 @@ La plupart des champs de la structure [**DXVA2 \_ VideoProcessorCaps**](/windows
 
 -   **DeinterlaceTechnology**. Ce champ fournit une indication du niveau de qualité de désentrelacement que vous pouvez attendre si la vidéo source est entrelacée.
 
--   **ProcAmpControlCaps**. Ce champ spécifie les contrôles d’ajustement des couleurs disponibles. Pour obtenir la liste des ajustements de couleurs possibles, consultez [paramètres de ProcAmp](procamp-settings.md). Si le pilote ne peut pas effectuer le réglage des couleurs, ce champ est égal à zéro.
+-   **ProcAmpControlCaps**. Ce champ spécifie les contrôles d’ajustement des couleurs disponibles. pour obtenir la liste des ajustements de couleurs possibles, consultez [procamp Paramètres](procamp-settings.md). Si le pilote ne peut pas effectuer le réglage des couleurs, ce champ est égal à zéro.
 
 -   **VideoProcessorOperations**. Ce champ contient des indicateurs qui décrivent les diverses fonctionnalités de traitement vidéo. Deux indicateurs revêtant une importance particulière sont l’indicateur de sous-flux de DXVA2 \_ VideoProcess et l’indicateur de sous-flux de données \_ \_ VideoProcess DXVA2 \_ . Au moins un de ces indicateurs doit être présent pour que le EVR mélange les sous-flux dans le flux vidéo de référence. Si aucun indicateur n’est présent, le EVR est limité à un flux vidéo.
 
@@ -105,7 +105,7 @@ Pour utiliser ces fonctionnalités, procédez comme suit :
 
 4.  Appelez [**IMFVideoProcessor :: SetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setfilteringvalue) pour définir une valeur de réglage des couleurs.
 
-5.  Si le pilote prend en charge le filtrage d’images, chaque type de filtre (bruit et détail) prend en charge trois paramètres (niveau, rayon et seuil) à la fois dans la couleur et la luminance. (Consultez [paramètres de filtre d’image DXVA](dxva-image-filter-settings.md).) Pour chaque paramètre, appelez [**IMFVideoProcessor :: GetFilteringRange**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange) pour obtenir la plage de valeurs possibles et appelez [**IMFVideoProcessor :: GetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringvalue) pour obtenir la valeur actuelle.
+5.  Si le pilote prend en charge le filtrage d’images, chaque type de filtre (bruit et détail) prend en charge trois paramètres (niveau, rayon et seuil) à la fois dans la couleur et la luminance. (voir [filtre d’Image DXVA Paramètres](dxva-image-filter-settings.md).) Pour chaque paramètre, appelez [**IMFVideoProcessor :: GetFilteringRange**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringrange) pour obtenir la plage de valeurs possibles et appelez [**IMFVideoProcessor :: GetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-getfilteringvalue) pour obtenir la valeur actuelle.
 
 6.  Pour modifier un paramètre de filtre d’image, appelez [**IMFVideoProcessor :: SetFilteringValue**](/windows/desktop/api/evr9/nf-evr9-imfvideoprocessor-setfilteringvalue).
 

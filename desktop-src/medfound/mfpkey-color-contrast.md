@@ -4,12 +4,12 @@ ms.assetid: 32ae514a-eeba-4205-b6e6-70fc01b93a95
 title: MFPKEY_COLOR_CONTRAST, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5de0733e743c3ce12bfe9a04159a2e881bf2143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c1c794b10580cbb323d19f52eed7d3bfb5fc6cf96e316d708491025776cfff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954469"
 ---
 # <a name="mfpkey_color_contrast-property"></a>MFPKEY \_ , \_ propriété de contraste de couleur
 
@@ -31,7 +31,7 @@ VT \_
 
 -   [Transformation de contrôle de couleur DSP](colorcontroltransform.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ajustement du contraste est effectué en multipliant les valeurs YCbCr par un facteur d’échelle.
 
@@ -43,8 +43,8 @@ Cette propriété a une plage comprise entre-127 et 127. La valeur zéro indique
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

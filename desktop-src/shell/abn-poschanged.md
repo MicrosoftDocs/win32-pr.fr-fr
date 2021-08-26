@@ -4,12 +4,12 @@ ms.assetid: 1016a362-4d2b-410e-aec9-c1cc8f497778
 title: Message ABN_POSCHANGED (shellapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b0a800b1c112cba18fbadbba79a999ec83c77e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92528de38b60c1f4705873427616b1ed7a5be6be5875a21e352d2136313c84df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943599"
 ---
 # <a name="abn_poschanged-message"></a>Message d’ABN \_ POSCHANGED
 
@@ -30,17 +30,17 @@ Ce message n’a pas de paramètres.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un appbar doit répondre à ce message de notification en envoyant les messages [**ABM \_ QUERYPOS**](abm-querypos.md) et [**ABM \_ SetPos**](abm-setpos.md) . Si sa position a changé, appbar doit appeler la fonction [**MoveWindow**](/windows/desktop/api/winuser/nf-winuser-movewindow) pour se déplacer vers la nouvelle position.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Shellapi. h</dt> </dl> |
 

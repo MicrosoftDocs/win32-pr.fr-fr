@@ -4,12 +4,12 @@ ms.assetid: 9dd32d4a-30bd-406f-a934-bb71ad4ca2cb
 title: Fonctions de couleur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4d977165d69fc71a31df0358b99b683eb45ed23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48ef9e233e5376718ac983982fd3f06e9fcd6c6fc5843d4a32d685fe64bbc1af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966309"
 ---
 # <a name="color-functions"></a>Fonctions de couleur
 
@@ -28,7 +28,7 @@ Les fonctions suivantes sont utilisées avec la couleur.
 | [**GetPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getpaletteentries)             | Récupère une plage spécifiée d’entrées de palette à partir de la palette logique donnée.                                                                        |
 | [**GetSystemPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries) | Récupère une plage d’entrées de palette de la palette système associée au contrôleur de réseau spécifié.                                                |
 | [**GetSystemPaletteUse**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteuse)         | Récupère l’état actuel de la palette système (physique) pour le contrôleur de réseau spécifié.                                                                    |
-| [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | Mappe les entrées de palette de la palette logique actuelle à la palette du système.                                                                          |
+| [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette)                   | Cartes les entrées de palette de la palette logique actuelle vers la palette du système.                                                                          |
 | [**ResizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-resizepalette)                     | Augmente ou diminue la taille d'une palette logique en fonction de la valeur spécifiée.                                                                    |
 | [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette)                     | Sélectionne la palette logique spécifiée dans un contexte de périphérique.                                                                                          |
 | [**SetColorAdjustment**](/windows/desktop/api/Wingdi/nf-wingdi-setcoloradjustment)           | Définit les valeurs de réglage des couleurs pour un contrôleur de périphérique à l’aide des valeurs spécifiées.                                                                                 |

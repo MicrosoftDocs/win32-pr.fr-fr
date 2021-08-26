@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c3b9985d18e93f3a3dbcc8f65484bf3fd72284fd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6330822566345a35f62af7016d130c5324a7b6838ed4250f5dbdc24c0ceaa6ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918409"
 ---
 # <a name="geteffectivepermission-method-of-the-win32_pagefile-class"></a>Méthode GetEffectivePermission de la \_ classe du fichier d’échange Win32
 

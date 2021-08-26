@@ -4,17 +4,17 @@ ms.assetid: d7b8c6ba-5c4f-494c-a24f-3b81a176725f
 title: D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 397a2164349b761cd7ff2ccca5e2158abc22bd64
-ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
+ms.openlocfilehash: 556d1f7dfe7f8d841220af4f5dbe650bd74e4c8dff86812650545a07129af644
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111910248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986909"
 ---
 # <a name="d3dx-direct3d-9"></a>D3DX (Direct3D 9)
 
 > [!NOTE]
-> La bibliothèque D3DX est déconseillée. Si vous n’avez pas la possibilité de procéder à une mise à niveau vers une version plus récente de Direct3D et du code de l’utilitaire associé, vous pouvez utiliser le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) au lieu de vous appuyer sur le SDK DirectX hérité ou DirectSetup.
+> La bibliothèque D3DX est déconseillée. si vous n’avez pas la possibilité de procéder à une mise à niveau vers une version plus récente de Direct3D et du code de l’utilitaire associé, vous pouvez utiliser le package de NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) au lieu de vous appuyer sur le SDK DirectX hérité ou DirectSetup.
 
 D3DX est une bibliothèque d’outils conçue pour fournir des fonctionnalités graphiques supplémentaires par-dessus Direct3D. D3DX est fourni sous la forme d’une bibliothèque de liens dynamiques (DLL).
 

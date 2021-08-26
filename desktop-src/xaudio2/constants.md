@@ -4,12 +4,12 @@ description: Cette section détaille les constantes disponibles dans l’API XAu
 ms.assetid: 8350cda4-0a44-1c56-0c0c-a7b10b4ea888
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729e047f0268bceafff424ca4bd34f27541c29ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e5f828b782ab48ee69aa9e92cf1121cda741a6a86e126b612460990be6e6db6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926769"
 ---
 # <a name="xaudio2-constants"></a>Constantes XAudio2
 

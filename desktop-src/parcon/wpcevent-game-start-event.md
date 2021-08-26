@@ -4,12 +4,12 @@ ms.assetid: c870f9fb-3be1-4039-9a33-dddff17a4faa
 title: Événement WPCEVENT_GAME_START (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5cc47144910f624005031573e28f5078db10ee9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41367a47a9bace8dd615ab4b6eea0a875099aab465c285389478c4bee0a39392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951499"
 ---
 # <a name="wpcevent_game_start-event"></a>Événement de démarrage du \_ jeu WPCEVENT \_
 
@@ -102,7 +102,7 @@ ID de processus du jeu, utilisé pour mettre en corrélation l’arrêt du proce
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

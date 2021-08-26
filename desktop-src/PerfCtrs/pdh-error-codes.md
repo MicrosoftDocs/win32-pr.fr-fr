@@ -4,12 +4,12 @@ ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: Codes d’erreur de l’application d’assistance pour les données de performances
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e24a5bb82aafa3e4a29bd24c087826bb5ead5e
-ms.sourcegitcommit: 9db18b0737bda194728fe387f336c92361f1b418
+ms.openlocfilehash: 16367cb3cd2c0ed83c69067e82fe180a6930910b1c45e76d3e01b75a6832d89a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "109690376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033809"
 ---
 # <a name="performance-data-helper-error-codes"></a>Codes d’erreur de l’application d’assistance pour les données de performances
 
@@ -112,15 +112,15 @@ Le tableau suivant fournit la liste des codes d’erreur spécifiques à PDH. Ce
 | 0xC0000BDC ( \_ fichier journal \_ PDH \_ trop \_ petit)                      | La taille maximale du fichier journal spécifiée est insuffisante pour journaliser les compteurs sélectionnés. Aucune donnée ne sera enregistrée dans ce fichier journal. Spécifiez un plus petit ensemble de compteurs à consigner ou une taille de fichier plus importante, puis recommencez l’appel.
 | 0xC0000BDD (une \_ source de source PDH non valide \_ )                        | Impossible de se connecter au nom de la source de source ODBC.
 | 0xC0000BDE (PDH \_ non valide \_ SQLDB)                             | SQL Database ne contient pas un jeu de tables valide pour Perfmon.
-| 0xC0000BDF (PDH \_ aucun \_ compteur)                               | Aucun compteur n’a été trouvé pour ce jeu de journal SQL Perfmon.
-| 0xC0000BE0 (échec de l' \_ allocation de SQL PDH \_ \_ )                         | Échec de l’appel à SQLAllocStmt, avec %1.
-| 0xC0000BE1 (échec de la \_ ALLOCCON SQL PDH \_ \_ )                      | Échec de l’appel à SQLAllocConnect avec %1.
-| 0xC0000BE2 (PDH \_ SQL \_ Exec \_ direct \_ a échoué)                  | Échec de l’appel à SQLExecDirect avec %1.
-| 0xC0000BE3 (échec de l' \_ extraction SQL PDH \_ \_ )                         | Échec de l’appel à SQLFetch avec %1.
-| 0xC0000BE4 ( \_ échec de \_ RowCount SQL PDH \_ )                      | Échec de l’appel à SQLRowCount avec %1.
-| 0xC0000BE5 ( \_ \_ échec des résultats de la requête SQL PDH \_ \_ )                 | Échec de l’appel à SQLMoreResults avec %1.
-| 0xC0000BE6 (échec de la \_ connexion PDH SQL \_ \_ )                       | Échec de l’appel à SQLConnect avec %1.
-| 0xC0000BE7 (échec de la \_ liaison SQL PDH \_ \_ )                          | Échec de l’appel à SQLBindCol avec %1.
+| 0xC0000BDF (PDH \_ aucun \_ compteur)                               | aucun compteur n’a été trouvé pour ce jeu de journaux de SQL Perfmon.
+| 0xC0000BE0 (PDH \_ SQL \_ ALLOC \_ a échoué)                         | Échec de l’appel à SQLAllocStmt, avec %1.
+| 0xC0000BE1 (PDH \_ SQL \_ ALLOCCON \_ échec)                      | Échec de l’appel à SQLAllocConnect avec %1.
+| 0xC0000BE2 (PDH \_ SQL \_ EXEC \_ DIRECT \_ a échoué)                  | Échec de l’appel à SQLExecDirect avec %1.
+| 0xC0000BE3 (échec de l’extraction de l' \_ SQL PDH \_ \_ )                         | Échec de l’appel à SQLFetch avec %1.
+| 0xC0000BE4 (PDH \_ SQL \_ ROWCOUNT \_ a échoué)                      | Échec de l’appel à SQLRowCount avec %1.
+| 0xC0000BE5 (PDH \_ SQL \_ plus de \_ résultats \_ )                 | Échec de l’appel à SQLMoreResults avec %1.
+| 0xC0000BE6 (PDH \_ SQL \_ CONNECT \_ a échoué)                       | Échec de l’appel à SQLConnect avec %1.
+| 0xC0000BE7 (échec de la \_ liaison PDH SQL \_ \_ )                          | Échec de l’appel à SQLBindCol avec %1.
 | 0xC0000BE8 (PDH \_ ne peut pas \_ connecter le \_ \_ serveur WMI)               | Impossible de se connecter au serveur WMI sur l’ordinateur demandé.
 | 0xC0000BE9 ( \_ collection PLA \_ PDH \_ déjà \_ en cours d’exécution)          | Collection « %1 ! s ! » est déjà en cours d’exécution.
 | 0xC0000BEA (chevauchement de la \_ planification d’erreur PDH PLA \_ \_ \_ )              | L’heure de début spécifiée est postérieure à l’heure de fin.
@@ -134,7 +134,7 @@ Le tableau suivant fournit la liste des codes d’erreur spécifiques à PDH. Ce
 | 0xC0000BF2 ( \_ erreur de \_ validation PDH PLA \_ )                     | Les informations transmises ne sont pas valides.
 | 0x80000BF3 ( \_ avertissement de \_ validation PDH PLA \_ )                   | Les informations transmises ne sont pas valides.
 | 0xC0000BF4 (PDH \_ PLA \_ nom d’erreur \_ \_ trop \_ long)                | Le nom fourni est trop long.
-| 0xC0000BF5 ( \_ format de \_ Journal SQL PDH non valide \_ \_ )                  | Le format du journal SQL est incorrect. Le format correct est `SQL:<DSN-name>!<LogSet-Name>` .
+| 0xC0000BF5 ( \_ FORMAT de journal de SQL non valide PDH \_ \_ \_ )                  | le format du journal SQL est incorrect. Le format correct est `SQL:<DSN-name>!<LogSet-Name>` .
 | 0xC0000BF6 ( \_ compteur PDH \_ déjà \_ dans la \_ requête)                | Le compteur de performances de l’appel de [**PdhAddCounter**](/windows/desktop/api/Pdh/nf-pdh-pdhaddcountera) a déjà été ajouté dans la requête de performances. Ce compteur est ignoré.
 | 0xC0000BF7 ( \_ \_ fichier journal binaire PDH \_ endommagé)                       | Impossible de lire les informations de compteur et les données des fichiers journaux binaires d’entrée.
 | 0xC0000BF8 ( \_ exemple de journal PDH \_ \_ trop \_ petit)                    | Au moins l’un des fichiers journaux binaires d’entrée contient moins de deux échantillons de données.
@@ -142,5 +142,5 @@ Le tableau suivant fournit la liste des codes d’erreur spécifiques à PDH. Ce
 | 0xC0000BFA ( \_ version antérieure du système d’exploitation PDH \_ \_ )                       | %1 prend en charge %2 ou une version ultérieure. Vérifiez la version du système d’exploitation sur l’ordinateur nommé %3.
 | 0xC0000BFB ( \_ heure d’ajout incorrecte PDH \_ \_ )                    | Le fichier de sortie doit contenir des données antérieures à celles du fichier à ajouter.
 | 0xC0000BFC ( \_ compteur d’ajout non APpariés PDH \_ \_ )                 | Les deux fichiers doivent avoir des compteurs identiques pour pouvoir être ajoutés.
-| 0xC0000BFD (échec de la \_ modification du détail PDH SQL \_ \_ \_ )                 | Impossible de modifier la disposition de la table CounterDetail dans la base de données SQL.
+| 0xC0000BFD (PDH \_ SQL \_ ALTER \_ DETAIL \_ failed)                 | impossible de modifier la disposition de la table CounterDetail dans SQL base de données.
 | 0xC0000BFE ( \_ requête PDH \_ \_ délai d’expiration des données de performance \_ )                 | Le système est occupé. Un délai d’attente A été dépassé lors de la collecte des données de compteur. Réessayez plus tard ou augmentez la valeur de Registre **CollectTime** .

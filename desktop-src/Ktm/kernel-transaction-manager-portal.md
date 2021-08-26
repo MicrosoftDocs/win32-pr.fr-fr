@@ -4,12 +4,12 @@ ms.assetid: 2f601994-db1e-4aac-8db1-9a36c702664b
 title: Gestionnaire de transactions du noyau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 281050461163d5fd0cde64af79e70569d613888e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c446931fff4f119217a5f6e5f1b7ae8cf351cf94966a9da5abc4e4d2e88d787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897529"
 ---
 # <a name="kernel-transaction-manager"></a>Gestionnaire de transactions du noyau
 
@@ -33,7 +33,7 @@ L’API KTM est conçue pour être utilisée par les programmeurs C et C++.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Le KTM est pris en charge à partir de Windows Vista.
+le KTM est pris en charge à partir de Windows Vista.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

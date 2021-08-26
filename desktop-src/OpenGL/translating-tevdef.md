@@ -15,12 +15,12 @@ keywords:
 - tevdef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dac2610d1467adb6faa1ea105fc8e8734bfb9c4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7feef33c2aa725c6e5bb91782fe43fdc6a84d23db8aa412f02c07b6ec588f719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887879"
 ---
 # <a name="translating-tevdef"></a>Traduction de tevdef
 
@@ -59,13 +59,13 @@ Le tableau suivant répertorie les paramètres d’environnement de texture du G
 
 
 
- 
+ 
 
 Pour plus d’informations sur les paramètres de l’environnement de texture, consultez [**glTexEnv**](gltexenv-functions.md).
 
- 
+ 
 
- 
+ 
 
 
 

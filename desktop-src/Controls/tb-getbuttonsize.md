@@ -3,7 +3,7 @@ title: Message TB_GETBUTTONSIZE (commctrl. h)
 description: Récupère la largeur et la hauteur actuelles des boutons de la barre d’outils, en pixels.
 ms.assetid: c1b72494-670b-4cf8-a78f-c67b6eee0677
 keywords:
-- TB_GETBUTTONSIZE les contrôles de message Windows
+- TB_GETBUTTONSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6a414f5b338353d7d8ce22a081e9b711a2b56a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddfdb632c81424cc2bcf4eef57b616d4dacc3510e1f55d003d9405ec72369ed8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918999"
 ---
 # <a name="tb_getbuttonsize-message"></a>TO \_ GETBUTTONSIZE message
 
@@ -45,8 +45,8 @@ Retourne une valeur **DWORD** qui contient les valeurs de largeur et de hauteur 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

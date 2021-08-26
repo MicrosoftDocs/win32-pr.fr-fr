@@ -29,12 +29,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e2371ba7ee449497e2d695e60d75c59454282d54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a780e0997ef3a56bc644adda2842b905aaf9744d28a2075fbc4726134c16aa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972289"
 ---
 # <a name="win32_osrecoveryconfiguration-class"></a>\_Classe OSRecoveryConfiguration Win32
 
@@ -126,7 +126,7 @@ Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32
 
 Chemin d’accès complet au fichier de débogage. Un fichier de débogage est créé avec l’état de la mémoire de l’ordinateur après une défaillance de l’ordinateur.
 
-Exemple : « C : \\ Windows \\ Memory. dmp »
+exemple : « C : \\ Windows \\ Memory. dmp »
 
 </dd> <dt>
 
@@ -199,7 +199,7 @@ Type d’accès : lecture/écriture
 
 Version développée de la propriété **DebugFilePath** .
 
-Exemple : « C : \\ Windows \\ Memory. dmp »
+exemple : « C : \\ Windows \\ Memory. dmp »
 
 </dd> <dt>
 
@@ -214,7 +214,7 @@ Type d’accès : lecture/écriture
 
 Version développée de la propriété **MiniDumpDirectory** .
 
-Exemple : « C : \\ \\ Minidump Windows »
+exemple : « C : \\ Windows \\ minidump »
 
 </dd> <dt>
 
@@ -350,7 +350,7 @@ Les événements seront écrits dans un journal système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ OSRecoveryConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 

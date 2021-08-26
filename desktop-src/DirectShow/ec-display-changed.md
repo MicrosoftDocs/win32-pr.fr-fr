@@ -4,12 +4,12 @@ ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
 title: EC_DISPLAY_CHANGED (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 549a4c5201906b692a1bd726e65269679705e9a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee75517c1927d7f819565d796d9f15fb21050ef7b4ead86d98f582018cc66b7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965919"
 ---
 # <a name="ec_display_changed"></a>\_affichage EC \_ modifié
 
@@ -37,7 +37,7 @@ Si *lParam2* est égal à zéro, *lParam1* contient un seul pointeur **IPIN** ou
 
 Le gestionnaire de graphique de filtre arrête temporairement le graphique, puis se déconnecte et reconnecte le convertisseur vidéo. Elle ne passe pas l’événement à l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les convertisseurs vidéo peuvent envoyer cet événement en réponse à un message [**WM \_ DISPLAYCHANGE**](/windows/desktop/gdi/wm-displaychange) . Le message **WM \_ DISPLAYCHANGE** indique que l’utilisateur a modifié la résolution d’affichage.
 
@@ -64,7 +64,7 @@ Un présentateur personnalisé pour le [**convertisseur vidéo amélioré**](enh
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

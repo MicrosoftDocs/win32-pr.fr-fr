@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64a64d08518cb987850c87da3fb19c264519a7f7
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: 67e6fec265682dcdbe8ffa967ba757382eda2e17d55aff8b8a1ae168a96df3c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950109"
 ---
 # <a name="writing-hlsl-shaders-in-direct3d-9"></a>Écriture de nuanceurs HLSL dans Direct3D 9
 
@@ -29,7 +29,7 @@ ms.locfileid: "110335383"
     -   [Variation des entrées et de la sémantique des nuanceurs](#varying-shader-inputs-and-semantics)
     -   [Échantillonneurs et objets texture](#samplers-and-texture-objects)
 -   [Écriture de fonctions](#writing-functions)
--   [Contrôle de Flow](#flow-control)
+-   [Flow Régulation](#flow-control)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="vertex-shader-basics"></a>Notions de base Vertex-Shader

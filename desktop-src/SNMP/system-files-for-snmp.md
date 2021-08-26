@@ -4,12 +4,12 @@ description: Le tableau suivant décrit les principaux fichiers liés au service
 ms.assetid: 513d7c75-2f68-4d7d-897f-493089f045cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb917276fd807835fea703ec27cc66a0d493766d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 139b83a2d2117af693bcd7ae624ff18d7a18ab5618c9a9597c1e142f62aba07d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886049"
 ---
 # <a name="system-files-for-snmp"></a>Fichiers système pour SNMP
 
@@ -34,13 +34,13 @@ Le tableau suivant décrit les principaux fichiers liés au service SNMP.
 
 
 
- 
+ 
 
-Pour plus d’informations, consultez [la base de données MIB (Management Information base) SNMP](the-snmp-management-information-base-mib-.md). (Vous pouvez également vous reporter au kit de ressources Windows 2000.)
+Pour plus d’informations, consultez [la base de données MIB (Management Information base) SNMP](the-snmp-management-information-base-mib-.md). (vous pouvez également vous reporter au Kit de ressources Windows 2000.)
 
- 
+ 
 
- 
+ 
 
 
 

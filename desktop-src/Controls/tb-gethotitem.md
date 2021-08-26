@@ -3,7 +3,7 @@ title: Message TB_GETHOTITEM (commctrl. h)
 description: Récupère l’index de l’élément réactif dans une barre d’outils.
 ms.assetid: a87dbfc3-c6be-4a0a-9b6a-301b900d7929
 keywords:
-- TB_GETHOTITEM les contrôles de message Windows
+- TB_GETHOTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 829864cc9223ba15b49b1ecc623f294fd4a6b4fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c22f33566a586ceaa524f720a9d688897f132ee227950f1f786093150955eafa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918829"
 ---
 # <a name="tb_gethotitem-message"></a>TO \_ GETHOTITEM message
 
@@ -45,8 +45,8 @@ Retourne l’index de l’élément réactif, ou-1 si aucun élément réactif n
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

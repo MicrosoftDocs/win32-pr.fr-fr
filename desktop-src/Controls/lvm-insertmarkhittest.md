@@ -3,7 +3,7 @@ title: Message LVM_INSERTMARKHITTEST (commctrl. h)
 description: Récupère le point d’insertion le plus proche d’un point spécifié.
 ms.assetid: 901bb770-a36d-4d9f-a53b-d497b4df39e5
 keywords:
-- LVM_INSERTMARKHITTEST les contrôles de message Windows
+- LVM_INSERTMARKHITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bdb82e924b4a5d74d152917f52c4039e0aca81b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 250585fea10846e10238132c5150f5ace9f8e00c474e763023c36c8566fbc752
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919979"
 ---
 # <a name="lvm_insertmarkhittest-message"></a>\_Message INSERTMARKHITTEST LVM
 
@@ -39,7 +39,7 @@ Récupère le point d’insertion le plus proche d’un point spécifié.
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. La **valeur false** est retournée si la taille du membre **cbSize** de la structure [**LVINSERTMARK**](/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark) n’est pas égale à la taille réelle de la structure, ou lorsqu’un point d’insertion ne s’applique pas à la vue actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un point d’insertion ne peut apparaître que si le contrôle de liste est en mode icône, en mode petite icône ou en mode mosaïque et n’est pas en mode groupe.
 
@@ -56,8 +56,8 @@ Si les points d’insertion ne s’appliquent pas à la vue, la structure [**LVI
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

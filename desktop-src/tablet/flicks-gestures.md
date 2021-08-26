@@ -4,12 +4,12 @@ ms.assetid: 004c7d76-90a9-4506-a70b-dbf8f9e1c616
 title: Mouvements de raccourcis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f85d519f47b265779741b2f98fcb1b2f5d69df5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37e7d53c42eb178900ce22b7890febcfd1c6aca95f2257b0c5ed06eb20173b79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936512"
 ---
 # <a name="flicks-gestures"></a>Mouvements de raccourcis
 
@@ -25,7 +25,7 @@ Une *action ou une* *action* de raccourci est l’action ou le raccourci exécut
 
 ![Illustration montrant le mappage de mouvement](images/2647eb2d-36d0-4610-b923-fa3530d1e640.jpg)
 
-Lorsque l’utilisateur déplace le stylet sur le digitaliseur d’un Tablet PC, le matériel génère des paquets de stylet qui sont routés vers le sous-système d’entrée de stylet de la plateforme Tablet PC. Normalement, si le stylet est utilisé comme substitut de la souris, le sous-système d’entrée de stylet utilise ces paquets Pen et les envoie, éventuellement avec des modifications, à User32, le composant Windows responsable du traitement de l’entrée de souris. Si le stylet est utilisé sur une surface d’encrage, l’encre est rendue au lieu de générer des paquets de souris.
+Lorsque l’utilisateur déplace le stylet sur le digitaliseur d’un Tablet PC, le matériel génère des paquets de stylet qui sont routés vers le sous-système d’entrée de stylet de la plateforme Tablet PC. normalement, si le stylet est utilisé comme substitut de la souris, le sous-système d’entrée de stylet utilise ces paquets de stylet et les envoie, éventuellement avec des modifications, à User32, le composant Windows responsable du traitement de l’entrée de souris. Si le stylet est utilisé sur une surface d’encrage, l’encre est rendue au lieu de générer des paquets de souris.
 
 La routine de détection de mouvement est implémentée dans le sous-système d’entrée Pen. La détection du raccourci commence au stylet et continue jusqu’à ce que :
 
@@ -59,7 +59,7 @@ Il est prévu que la plupart des applications ne soient pas compatibles avec le 
 
 ## <a name="processing-application-commands"></a>Traitement des commandes de l’application
 
-Votre application doit répondre à toutes les commandes de l’application qui pourraient être potentiellement affectées à un mouvement de raccourci. Si une application ne parvient pas à répondre au [**\_ message de \_ scintillement de tablette WM**](wm-tablet-flick-message.md), Windows Vista suit en envoyant la notification [**WM \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand) applicable, suivie d’une notification [**WM \_ keyverse**](/windows/desktop/inputdev/wm-keydown) .
+Votre application doit répondre à toutes les commandes de l’application qui pourraient être potentiellement affectées à un mouvement de raccourci. si une application ne parvient pas à répondre au [**\_ Message de \_ scintillement de tablette wm**](wm-tablet-flick-message.md), Windows Vista suit en envoyant la notification [**wm \_ APPCOMMAND**](/windows/desktop/inputdev/wm-appcommand) applicable, suivie d’une notification [**wm \_ keyverse**](/windows/desktop/inputdev/wm-keydown) .
 
 La liste suivante répertorie les commandes d’application qui peuvent être assignées aux raccourcis, avec le message de séquence de touches de sauvegarde qui peut être envoyé.
 

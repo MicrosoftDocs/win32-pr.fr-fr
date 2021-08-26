@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés de support suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés de support suivantes.
 ms.assetid: 414d245a-b0b0-4da0-a333-095f0e2259f1
 title: Propriétés du média (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 8aed3cc699800c24d22fbb9aa1eb7f35615226c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f5cb9451e26675beeadb3b6145af74291edcc19026d52992ee9a6f764513be3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006229"
 ---
 # <a name="media-properties"></a>Propriétés du média
 
-Appareils mobiles Windows prend en charge les propriétés de support suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés de support suivantes.
 
 
 

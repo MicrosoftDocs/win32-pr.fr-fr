@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6e358debb2377f08574997acd96c11f83d32e66c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2da0d2bceea7a3e44f02e6b732337cb3447d6ef1c9798f95b664bf4da96ec2dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983319"
 ---
 # <a name="breakp---ps"></a>breakp-PS
 
@@ -29,7 +29,7 @@ Quittez de manière conditionnelle la boucle actuelle au [ENDLOOP-PS](endloop---
 
 
 
- 
+ 
 
 Où :
 
@@ -37,7 +37,7 @@ Où :
 -   P0 correspond au [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md).
 -   {x \| y \| z \| w} est le Swizzle de réplication requis sur P0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ Où :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,9 +56,9 @@ Où :
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

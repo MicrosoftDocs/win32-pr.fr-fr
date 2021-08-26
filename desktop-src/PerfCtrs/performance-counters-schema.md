@@ -4,19 +4,19 @@ ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: Schéma des compteurs de performance
 ms.topic: article
 ms.date: 08/17/2020
-ms.openlocfilehash: 5c41e9d54e259d6e53453a55cc97f7734ce793fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e31aa6e42d185f95b142fac864dbaf725bbba456161c3484aba157c8afd6557
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962369"
 ---
 # <a name="performance-counters-schema"></a>Schéma des compteurs de performance
 
-Les fournisseurs de données de performances v2 sont pris en charge sur Windows Vista ou version ultérieure. Ils utilisent un. Fichier MAN (manifeste d’instrumentation XML) pour définir le fournisseur, le countersets et les compteurs.
+les fournisseurs de données de performances V2 sont pris en charge sur Windows Vista ou version ultérieure. Ils utilisent un. Fichier MAN (manifeste d’instrumentation XML) pour définir le fournisseur, le countersets et les compteurs.
 
 > [!NOTE]
-> Les manifestes d’instrumentation peuvent contenir des informations sur les fournisseurs de Suivi d’v nements pour Windows (ETW) et les fournisseurs de compteurs de performances. Pour plus d’informations sur les manifestes d’instrumentation, consultez [schéma EventManifest](/windows/desktop/WES/eventmanifestschema-schema) et [écriture d’un manifeste d’instrumentation](/windows/desktop/WES/writing-an-instrumentation-manifest)).
+> les manifestes d’instrumentation peuvent contenir des informations sur les fournisseurs de Suivi d’v nements pour Windows (ETW) et les fournisseurs de compteurs de performances. Pour plus d’informations sur les manifestes d’instrumentation, consultez [schéma EventManifest](/windows/desktop/WES/eventmanifestschema-schema) et [écriture d’un manifeste d’instrumentation](/windows/desktop/WES/writing-an-instrumentation-manifest)).
 
 Cette section décrit les éléments et types suivants que vous utilisez dans la `counters` section d’un manifeste d’Instrumentation :
 
@@ -36,7 +36,7 @@ Si vous devez mettre à jour un CounterSet, veillez à désinstaller l’ancien 
 
 ## <a name="schema"></a>schéma
 
-Voici le schéma des compteurs de performance que vous pouvez utiliser pour valider la `counters` section de votre manifeste. Ce schéma se trouve dans le SDK Windows en tant que `counterman.xsd` . Pour plus d’informations sur le schéma que vous utilisez pour valider la section d’instrumentation du manifeste, consultez [schéma EventManifest](/windows/desktop/WES/eventmanifestschema-schema).
+Voici le schéma des compteurs de performance que vous pouvez utiliser pour valider la `counters` section de votre manifeste. ce schéma se trouve dans le SDK Windows en tant que `counterman.xsd` . Pour plus d’informations sur le schéma que vous utilisez pour valider la section d’instrumentation du manifeste, consultez [schéma EventManifest](/windows/desktop/WES/eventmanifestschema-schema).
 
 ``` syntax
 <xs:schema

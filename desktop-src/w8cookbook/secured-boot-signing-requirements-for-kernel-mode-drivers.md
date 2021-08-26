@@ -4,26 +4,26 @@ description: Conditions requises pour la signature de la fonctionnalité de dém
 ms.assetid: 7FF64BA2-89E3-4E6F-B542-7BC7BF7F4FB2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a63a8b1fca1677aa125bac96dfec290dcd736b5
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 05146645e01406fed0129c4f31660509e04581ce889213c7addf01731e45e87f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "106510911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119932169"
 ---
 # <a name="secure-boot-feature-signing-requirements-for-kernel-mode-drivers"></a>Conditions requises pour la signature de la fonctionnalité de démarrage sécurisé pour les pilotes en mode noyau
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows 8  
-**Serveurs** – Windows Server 2012  
+**serveurs** – Windows Server 2012  
 
 
 ## <a name="description"></a>Description
 
-Dans Windows 8 et Windows Server 2012, y compris WinPE, le noyau a été verrouillé pour empêcher les logiciels malveillants introduits par les kits de démarrage ou racine de contourner les exigences de sécurité du système d’exploitation Windows pour les pilotes signés.
+dans Windows 8 et Windows Server 2012, notamment WinPE, le noyau a été verrouillé pour empêcher les logiciels malveillants introduits par les kits de démarrage ou racine de contourner les exigences de sécurité du système d’exploitation Windows pour les pilotes signés.
 
-Ce changement affecte tous les pilotes en mode noyau pour les appareils qui prennent en charge le démarrage sécurisé UEFI (Unified Extensible Firmware Interface). Le démarrage sécurisé UEFI est requis pour la certification Windows 8 pour les ordinateurs clients, et facultatif pour les serveurs. Elle n’affecte pas les pilotes en mode utilisateur.
+Ce changement affecte tous les pilotes en mode noyau pour les appareils qui prennent en charge le démarrage sécurisé UEFI (Unified Extensible Firmware Interface). le démarrage sécurisé UEFI est requis pour la certification Windows 8 pour les ordinateurs clients, et facultatif pour les serveurs. Elle n’affecte pas les pilotes en mode utilisateur.
 
 Le développement standard pour les pilotes en mode noyau implique soit l’utilisation du débogage en mode noyau, soit le paramètre de données de configuration de démarrage (BCD) <testsigning> . Ces deux options sont désactivées lorsque le démarrage sécurisé est activé.
 
@@ -41,6 +41,6 @@ Lorsque vous distribuez plus largement des pilotes, ceux-ci doivent être correc
 
 -   [Signature des pilotes](/previous-versions/windows/hardware/design/dn653563(v=vs.85))
 
- 
+ 
 
- 
+ 

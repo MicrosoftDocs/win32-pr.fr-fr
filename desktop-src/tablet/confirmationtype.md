@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: 2c43971c6ccf44513c11e46d4bc5db86d973d7f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f89d5457e3d75bcf781a100449e4da9f8b45624af38760ca0cdda358fbf47ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936949"
 ---
 # <a name="confirmationtype-enumeration"></a>Énumération ConfirmationType
 
@@ -69,7 +69,7 @@ Ce ConfirmationType s’applique uniquement aux nœuds de paragraphe.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser la valeur **NodeTypeAndProperties** uniquement pour les nœuds Word et Ink Drawing (consultez [**IContextNode :: GetType**](icontextnode-gettype.md)). Dans le cas contraire, un **E \_ INVALIDARG** est retourné à partir de [**IContextNode :: Confirm**](icontextnode-confirm.md).
 
@@ -79,7 +79,7 @@ Vous pouvez utiliser la valeur **NodeTypeAndProperties** uniquement pour les nœ
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 

@@ -3,18 +3,18 @@ title: Fichiers art
 description: Fichiers art
 ms.assetid: 93893610-de8d-4b9a-b23d-75ddb3e1e557
 keywords:
-- Apparences du lecteur Windows Media, fichiers artistiques
+- habillages Lecteur Windows Media, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les habillages, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a246ac411a3dfe2c5bab529ddcccce5596434617
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 89ccf07757e511f7717cbe3bbeff2cdacee004da8d3b64d27ddcef7ae2199a29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119956369"
 ---
 # <a name="art-files"></a>Fichiers art
 
@@ -32,7 +32,7 @@ Vous pouvez également avoir des images secondaires, telles qu’une barre d’�
 
 ## <a name="mapping-images"></a>Mapper des images
 
-L’une des fonctionnalités les plus puissantes des apparences du lecteur Windows Media est que vous pouvez utiliser le mappage d’images pour déclencher des événements pour votre apparence. Les images interactives sont des fichiers qui contiennent des images spéciales. Toutefois, les images d’un fichier image map ne sont pas censées être affichées par l’utilisateur, mais elles sont utilisées par le lecteur Windows Media pour agir quand l’utilisateur clique sur votre apparence.
+l’une des fonctionnalités les plus puissantes de Lecteur Windows Media apparences est que vous pouvez utiliser le mappage d’images pour déclencher des événements pour votre apparence. Les images interactives sont des fichiers qui contiennent des images spéciales. toutefois, les images contenues dans un fichier image map ne sont pas censées être affichées par l’utilisateur, mais elles sont utilisées par Lecteur Windows Media pour agir quand l’utilisateur clique sur votre apparence.
 
 Différents contrôles requièrent différents genres de cartes d’images. Par exemple, si vous colorez une partie d’une image mapper une valeur rouge spécifique et que l’utilisateur clique sur la zone correspondante de votre image principale, un bouton déclenche un événement. La couleur est utilisée pour définir les événements déclenchés par un clic dans une zone particulière de l’apparence.
 
@@ -55,9 +55,9 @@ Les sections suivantes fournissent plus d’informations sur les fichiers artist
 [**Fichiers d’apparence**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

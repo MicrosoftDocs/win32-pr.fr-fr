@@ -3,7 +3,7 @@ title: Message PSM_INSERTPAGE (Prsht. h)
 description: Insère une nouvelle page dans une feuille de propriétés existante. La page peut être insérée à un index spécifié ou après une page spécifiée. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet InsertPage.
 ms.assetid: 69d55e68-510d-45f1-93d6-ce2bf5dfdb6d
 keywords:
-- PSM_INSERTPAGE les contrôles de message Windows
+- PSM_INSERTPAGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afdd58536a5cdd18d39a331df4b18c9bbae93842
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11c81869b1ca575efa960fc00eea09536ca4b6b2f43a5e637c5dc6a9d7632983
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106538812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985661"
 ---
 # <a name="psm_insertpage-message"></a>\_Message PSM INSERTPAGE
 
@@ -58,13 +58,13 @@ Handle vers la page à insérer. La page doit d’abord être créée par un app
 
 Retourne une valeur différente de zéro si la page a été correctement insérée, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les pages après le point d’insertion sont décalées vers la droite pour s’adapter à la nouvelle page.
 
 La feuille de propriétés n’est pas redimensionnée pour s’ajuster à la nouvelle page. Ne rendez pas la nouvelle page plus grande que la page la plus grande de la feuille de propriétés.
 
-Un certain nombre de messages et un appel de fonction se produisent pendant que la feuille de propriétés manipule la liste de pages. Pendant cette action, toute tentative de modification de la liste de pages aura des résultats imprévisibles. En conséquence, vous ne devez pas utiliser le \_ message PSM INSERTPAGE dans votre implémentation de [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) ou pendant la gestion des notifications et des messages Windows suivants.
+Un certain nombre de messages et un appel de fonction se produisent pendant que la feuille de propriétés manipule la liste de pages. Pendant cette action, toute tentative de modification de la liste de pages aura des résultats imprévisibles. en conséquence, vous ne devez pas utiliser le \_ message PSM INSERTPAGE dans votre implémentation de [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) ou pendant la gestion des notifications et des messages Windows suivants.
 
 -   [PSN \_ appliquer](psn-apply.md)
 -   [PSN \_ KILLACTIVE](psn-killactive.md)
@@ -73,7 +73,7 @@ Un certain nombre de messages et un appel de fonction se produisent pendant que 
 -   [**\_destructeur WM**](/windows/desktop/winmsg/wm-destroy)
 -   [**\_INITDIALOG WM**](/windows/desktop/dlgbox/wm-initdialog)
 
-Si vous avez besoin de modifier une page de feuille de propriétés pendant que vous gérez l’un de ces messages ou lorsque [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) est en cours d’exécution, publiez un message Windows privé. Votre application ne recevra pas ce message tant que le gestionnaire de feuille de propriétés n’aura pas terminé ses tâches. Vous pouvez ensuite modifier la liste des pages.
+si vous avez besoin de modifier une page de feuille de propriétés pendant que vous gérez l’un de ces messages ou lorsque [*PropSheetPageProc*](/windows/win32/api/prsht/nc-prsht-lpfnpspcallbacka) est en cours d’exécution, publiez un message Windows privé. Votre application ne recevra pas ce message tant que le gestionnaire de feuille de propriétés n’aura pas terminé ses tâches. Vous pouvez ensuite modifier la liste des pages.
 
 Les notifications suivantes sont également affectées par la modification de la feuille de propriétés.
 
@@ -93,8 +93,8 @@ Vous pouvez ajouter ou supprimer des pages en réponse à ces notifications, à 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

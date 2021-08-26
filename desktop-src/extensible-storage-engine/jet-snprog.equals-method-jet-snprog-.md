@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9e3c14776d9c8e2167ab9e3ae8fd00e18653c87b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ef1110a5ca297874652932bb86f620c15c75818d141c1e5536a6d5a9ee2b12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119945059"
 ---
 # <a name="jet_snprogequals-method-jet_snprog"></a>JET_SNPROG. Equals, méthode (JET_SNPROG)
 
@@ -57,7 +57,7 @@ public bool Equals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_SNPROG](./jet-snprog-class.md)  
     
     Instance de à comparer à cette instance.

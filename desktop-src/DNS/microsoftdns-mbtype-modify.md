@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 135d6f0fcb0faf5c1e8da152798863c8cecc8641
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75b0e4183a2b736d0ed896fee4bf2cc57e35f0e6b628a9aee4345f4c33b33ed6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918339"
 ---
 # <a name="modify-method-of-the-microsoftdns_mbtype-class"></a>Modifier la méthode de la \_ classe MBType MicrosoftDNS
 
@@ -69,7 +69,7 @@ Référence à l’objet modifié.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout paramètre non spécifié reste inchangé dans l’enregistrement modifié.
 

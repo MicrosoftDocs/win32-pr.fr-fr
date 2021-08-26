@@ -4,12 +4,12 @@ ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c2ad8521835213594f10507ab6fd4b9cca24040
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ef2face0a337bb1f5b2f6f6bd1de8ef0281869a3fcaba0ac4080c0b81f79fedf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939069"
 ---
 # <a name="documentduplex"></a>DocumentDuplex
 

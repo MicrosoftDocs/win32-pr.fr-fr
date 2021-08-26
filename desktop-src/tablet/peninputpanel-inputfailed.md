@@ -4,12 +4,12 @@ ms.assetid: a5928f78-29d6-40e8-8f87-17c188e51ba9
 title: Événement PenInputPanel. InputFailed (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 198c2b466dc03357d9851d7c8a6b7f44c6bf6884
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cc3234c73fc8ba47faa7d1f2ec89477a1bfb86b7c2abda263aff227c5961f1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934759"
 ---
 # <a name="peninputpanelinputfailed-event"></a>Événement PenInputPanel. InputFailed
 
@@ -69,14 +69,14 @@ Pour plus d’informations sur le type de données BSTR, consultez [utilisation 
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement **InputFailed** se produit lorsque le focus d’entrée est modifié avant l’insertion de l’entrée utilisateur dans le contrôle attaché. Par exemple, si l’utilisateur entre de l’encre dans le bloc d’écriture, puis appuie sur un autre contrôle d’édition avant que le module de reconnaissance ait pu terminer, cet événement se déclenche.
 
 À l’aide du handle de fenêtre passé dans cet événement, vous pouvez choisir d’insérer le texte vous-même lorsque cet événement se produit.
 
 > [!Note]  
-> À compter de Microsoft Windows XP Édition Tablet PC 2005, l’événement **InputFailed** ne s’applique plus. Le texte est toujours inséré avant la modification du focus.
+> à compter de Microsoft Windows XP édition Tablet PC 2005, l’événement **InputFailed** ne s’applique plus. Le texte est toujours inséré avant la modification du focus.
 
  
 
@@ -86,7 +86,7 @@ L’événement **InputFailed** se produit lorsque le focus d’entrée est modi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

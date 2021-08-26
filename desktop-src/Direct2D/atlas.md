@@ -4,12 +4,12 @@ description: Vous pouvez utiliser cet effet pour sortir une partie d’une image
 ms.assetid: D35E32CB-4DF7-408F-A717-1E421DDC8763
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f9e1d4c6df0698d47a35eb2cbdaf670b98ed125
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 71b0d55e7751ef73d8f6bdff65a6ae5d5933695600a1003b9c4a010231628019
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119929046"
 ---
 # <a name="atlas-effect"></a>Effet Atlas
 
@@ -90,8 +90,8 @@ Le code précédent sélectionne un rectangle autour du deuxième triangle. La m
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

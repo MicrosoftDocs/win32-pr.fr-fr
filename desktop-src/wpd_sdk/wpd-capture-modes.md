@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: e56e3e66cd20abaeb1daf0a674633a36b57a9575
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8bc0d667e329db3afccf76497409350d7aa7250b0e6529d0b3f4ddae7a32370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927989"
 ---
 # <a name="wpd_capture_modes-enumeration"></a>\_Énumération des modes de capture wpd \_
 
@@ -70,7 +70,7 @@ La capture d’images doit utiliser la photographie temporelle. Le nombre d’im
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la propriété du [ \_ mode de \_ \_ capture \_ d’image](still-image-properties.md) de l’wpd.
 

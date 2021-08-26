@@ -4,22 +4,22 @@ ms.assetid: cb4f48d0-d1e2-4a4b-bd5a-6e8f66d03806
 title: Utilisation des graphiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4328b7a0109139421cf03c72a7228a3dc17e375
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcdb4a40f1c086ada772239798990c3dfb24326b3e70bd768a95eacc35ee384b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034029"
 ---
 # <a name="working-with-graphs"></a>Utilisation des graphiques
 
 Lorsque vous travaillez avec des graphiques homologues, les fonctions doivent être appelées dans un ordre spécifique. Le déroulement des appels varie selon que vous créez ou que vous ouvrez un graphique homologue. Cette rubrique identifie le déroulement des appels de fonction dans une application graphique d’homologue simple.
 
-## <a name="starting-up-a-graph"></a>Démarrage d’un graphique
+## <a name="starting-up-a-graph"></a>Démarrage d’un Graph
 
 Avant qu’une application appelle une fonction dans l’API de représentation graphique d’homologue, [**PeerGraphStartup**](/windows/desktop/api/P2P/nf-p2p-peergraphstartup) doit être appelé pour initialiser l’API de représentation graphique des homologues pour une application, puis définir la version prise en charge.
 
-## <a name="creating-a-peer-graph"></a>Création d’un graphique homologue
+## <a name="creating-a-peer-graph"></a>Création d’un Graph homologue
 
 La procédure suivante identifie le déroulement des appels pour la création d’un graphique homologue.
 
@@ -39,7 +39,7 @@ La procédure suivante identifie le déroulement des appels pour la création d�
 -   Exécuter des fonctions dépendantes de l’application pour le reste du temps d’exécution, par exemple, traiter des événements homologues et utiliser des connexions.
 -   Fermez la connexion à un graphique homologue. Appelez [**PeerGraphClose**](/windows/desktop/api/P2P/nf-p2p-peergraphclose).
 
-## <a name="opening-a-peer-graph"></a>Ouverture d’un graphique homologue
+## <a name="opening-a-peer-graph"></a>Ouverture d’un Graph homologue
 
 Le déroulement des appels de fonction pour ouvrir un graphique homologue dépend de la valeur de retour de l’appel à [**PeerGraphOpen**](/windows/desktop/api/P2P/nf-p2p-peergraphopen). Les valeurs les plus importantes sont **s \_ OK** et les **données d’homologue \_ \_ \_ créées**, qui sont décrites dans les sections suivantes de cette rubrique.
 

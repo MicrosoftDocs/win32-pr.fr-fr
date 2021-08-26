@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dxof.lib
 - d3dxof.dll
-ms.openlocfilehash: e03f4a80c0cff25fa9416d35c20f2d60d17b206b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3aa0ffffb8766707841fa0a4a5ec54fe0db9caf1d86b885afc36bffa5f8352d8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119951299"
 ---
 # <a name="idirectxfileobject-interface"></a>Interface IDirectXFileObject
 
@@ -46,7 +46,7 @@ L’interface **IDirectXFileObject** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le GUID de l’interface IDirectXFileObject est IID \_ IDirectXFileObject.
 

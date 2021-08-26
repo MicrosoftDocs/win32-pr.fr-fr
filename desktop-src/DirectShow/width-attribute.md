@@ -4,17 +4,17 @@ ms.assetid: 3fcc28d8-b7ef-474b-8594-b31422974998
 title: Attribut width
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b7480f80fdd1f862f1018a2e1909e68c68526bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8249888c2016993879d3c27460efa035531a1ed1e7f7fcee3bf3aa94a3b584cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982269"
 ---
 # <a name="width-attribute"></a>Attribut width
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -28,7 +28,7 @@ Valeur à virgule flottante. La valeur doit inclure le zéro non significatif av
 
 [**Communauté**](group-element.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Définissez cet attribut uniquement si l’attribut de **type** est `video` .
 

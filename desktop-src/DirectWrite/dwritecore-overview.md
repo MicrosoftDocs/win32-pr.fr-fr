@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 644ce3c5715e1cc57129b36047169c20e80a6697
-ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
+ms.openlocfilehash: bfa23ef41ac2de77901f8601fa0a68f650730403e4dc0bee2f9bbf69d6e1bc9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113689192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902873"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
@@ -46,7 +46,7 @@ dans Visual Studio, cliquez sur **extensions**  >  **gérer les extensions**, re
 
 pour plus d’informations, consultez [Windows SDK d’application 0,8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) et [configurer votre environnement de développement](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio).
 
-### <a name="create-a-new-project"></a>Création d'un projet
+### <a name="create-a-new-project"></a>Créer un projet
 
 dans Visual Studio, créez un projet à partir du modèle de projet **application vide, empaqueté (WinUI 3 dans le bureau)** . Vous pouvez trouver ce modèle de projet en choisissant langue : *C++*; plateforme : *Windows kit de développement logiciel (SDK) d’application*; type de projet : *Bureau*.
 

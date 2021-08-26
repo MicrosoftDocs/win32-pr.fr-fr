@@ -8,12 +8,12 @@ keywords:
 - Référence du fournisseur WMI Services Bureau à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72645ce77e2200eb82a2caaf5d598b2269fba82
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6a484a5f874c8e14c4fba07a269d00c64a09d36afacf9f6c2ce8f7e5921220fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987068"
 ---
 # <a name="remote-desktop-services-wmi-provider-reference"></a>Référence du fournisseur WMI Services Bureau à distance
 
@@ -80,12 +80,12 @@ Erreurs retournées par le fournisseur WMI Services Bureau à distance. Pour obt
 </dd> </dl>
 
 > [!Note]  
-> Dans Windows Server 2008 R2, le nom de la fonctionnalité de service Broker pour les connexions aux services Terminal Server a été remplacé par Service Broker pour les connexions Bureau à distance.
+> dans Windows Server 2008 R2, le nom de la fonctionnalité service broker pour les Services Terminal server a été remplacé par le service broker pour les connexions bureau à distance.
 
- 
+ 
 
 Pour plus d’informations sur les problèmes de sécurité et les applications WMI, consultez [maintenance de la sécurité WMI](/windows/desktop/WmiSdk/maintaining-wmi-security).
 
- 
+ 
 
- 
+ 

@@ -1,29 +1,29 @@
 ---
 title: Service SNMP
-description: L’implémentation Microsoft Windows du protocole SNMP (simple Network Management Protocol) est utilisée pour configurer des appareils distants, surveiller les performances du réseau, auditer l’utilisation du réseau et détecter les erreurs réseau ou un accès inapproprié. Important l’API Microsoft Windows SNMP ne prend en charge que les versions de protocole jusqu’à SNMPv2C. Elle ne prend pas en charge les versions ultérieures du protocole.
+description: l’implémentation Microsoft Windows du protocole SNMP (Simple Network Management Protocol) est utilisée pour configurer les appareils distants, surveiller les performances du réseau, auditer l’utilisation du réseau et détecter les erreurs réseau ou un accès inapproprié. Important l’API SNMP de Microsoft Windows prend en charge uniquement les versions de protocole jusqu’à SNMPv2C. Elle ne prend pas en charge les versions ultérieures du protocole.
 ms.assetid: fbaddb10-804b-4230-8986-717edc19a2f5
 keywords:
 - SNMP SNMP
 - SNMP SNMP, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71df55c79244c0f74ef685271834adc01ca7e981
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8dfb56450edbb6d5f18daa635e30e08e5914eb48fefb28013a66276dbc9a0a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886389"
 ---
 # <a name="snmp-service"></a>Service SNMP
 
-\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
+\[SNMP peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. utilisez plutôt [Windows Remote Management](/windows/desktop/WinRM/portal), qui est l’implémentation Microsoft de WS-Man.\]
 
 ## <a name="purpose"></a>Objectif
 
-L’implémentation Microsoft Windows du protocole SNMP (simple Network Management Protocol) est utilisée pour configurer des appareils distants, surveiller les performances du réseau, auditer l’utilisation du réseau et détecter les erreurs réseau ou un accès inapproprié.
+l’implémentation Microsoft Windows du protocole SNMP (Simple Network Management Protocol) est utilisée pour configurer les appareils distants, surveiller les performances du réseau, auditer l’utilisation du réseau et détecter les erreurs réseau ou un accès inapproprié.
 
 > [!IMPORTANT]
-> L’API Microsoft Windows SNMP ne prend en charge que les versions de protocole allant jusqu’à SNMPv2C. Elle ne prend pas en charge les versions ultérieures du protocole.
+> l’API SNMP de Microsoft Windows prend en charge uniquement les versions de protocole jusqu’à SNMPv2C. Elle ne prend pas en charge les versions ultérieures du protocole.
 
  
 
@@ -52,7 +52,7 @@ Pour plus d’informations sur le système d’exploitation requis pour utiliser
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Nouveautés dans SNMP](new-in-snmp.md)<br/>                                                            | Informations sur les mises à jour de SNMP.<br/>                                                                                                      |
 | [Simple Network Management Protocol (SNMP)](simple-network-management-protocol-snmp-.md)<br/> | Informations et informations de référence sur l’API pour SNMP, y compris l’API de gestion SNMP, l’API de l’agent d’extension SNMP et les fonctions de l’API de l’utilitaire SNMP.<br/> |
-| [API WinSNMP](snmp-reference.md)<br/>                                                         | Informations et informations de référence sur l’API pour l’interface de programmation d’applications SNMP Microsoft Windows (API WinSNMP). <br/>                       |
+| [API WinSNMP](snmp-reference.md)<br/>                                                         | informations et informations de référence sur l’api pour l’Interface de programmation d’applications SNMP de Microsoft Windows (api WinSNMP). <br/>                       |
 
 
 

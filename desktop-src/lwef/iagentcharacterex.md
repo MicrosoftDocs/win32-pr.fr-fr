@@ -4,12 +4,12 @@ description: IAgentCharacterEx
 ms.assetid: 8defc836-cc54-40c7-8afc-ec90f941861b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f92a9f9c39804d6b5d3ac777457fff5b7f03823c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04e4b6661641ebf472001e502a7fec3042332ea039ec94c01349d58bbe93346d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961959"
 ---
 # <a name="iagentcharacterex"></a>IAgentCharacterEx
 
@@ -33,7 +33,7 @@ ms.locfileid: "103840361"
 | [**SetHelpContextID**](iagentcharacterex--sethelpcontextid.md)   | Définit la HelpContextID pour le caractère.                                      |
 | [**GetHelpContextID**](iagentcharacterex--gethelpcontextid.md)   | Retourne l’ContexteAide du caractère.                                   |
 | [**GetActive**](iagentcharacterex--getactive.md)                 | Retourne l’état actif du caractère.                                    |
-| [**Écouter**](iagentcharacterex--listen.md)                       | Définit l’état d’écoute pour le caractère.                                    |
+| [**Journal**](iagentcharacterex--listen.md)                       | Définit l’état d’écoute pour le caractère.                                    |
 | [**SetLanguageID**](iagentcharacterex--setlanguageid.md)         | Définit l’ID de langue du caractère.                                        |
 | [**getLanguageID**](iagentcharacterex--getlanguageid.md)         | Retourne l’ID de langue pour le caractère.                                     |
 | [**getTTSModeID**](iagentcharacterex--getttsmodeid.md)           | Retourne l’ID de mode TTS défini pour le caractère.                                 |
@@ -49,11 +49,11 @@ ms.locfileid: "103840361"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

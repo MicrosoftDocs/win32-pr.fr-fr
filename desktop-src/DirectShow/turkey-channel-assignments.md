@@ -4,12 +4,12 @@ ms.assetid: 840dbd02-a500-47fe-b8ce-5ed2e902b4a6
 title: Affectations de canal Turquie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c68b24b6226572877c007e67e03502192bd0f1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c621e2e73bbf850adec34f9f65f847d9b1f688b6bd86b5d9bf92d96430190ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903679"
 ---
 # <a name="turkey-channel-assignments"></a>Affectations de canal Turquie
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 -   [Affectations de diffusion](#broadcast-assignments)
 -   [Attributions de câble](#cable-assignments)

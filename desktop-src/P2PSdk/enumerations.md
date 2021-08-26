@@ -4,12 +4,12 @@ description: En utilisant des énumérations, vous pouvez obtenir une liste de t
 ms.assetid: 81391e4f-aea1-4f5e-a32b-436a3856993b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c90a6806c9fdf7b776980abbaaa3f28643c49360
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6514866001734fb0ba0d73c94d5d4d8f8b4cfc6987d121f058a6bfcb00f792c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887629"
 ---
 # <a name="enumerations-peer-infrastructure"></a>Énumérations (infrastructure homologue)
 

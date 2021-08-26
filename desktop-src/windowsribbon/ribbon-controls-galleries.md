@@ -1,29 +1,29 @@
 ---
 title: Utilisation des galeries
-description: L’infrastructure de ruban Windows offre aux développeurs un modèle robuste et cohérent pour gérer le contenu dynamique sur un large éventail de contrôles basés sur des collections.
+description: l’infrastructure du ruban Windows offre aux développeurs un modèle robuste et cohérent pour gérer le contenu dynamique sur divers contrôles basés sur des collections.
 ms.assetid: 447039f3-1428-4b6f-94cf-78cf81974041
 keywords:
-- Ruban Windows, galeries
+- Windows Ruban, galeries
 - Ruban, galeries
-- Ruban Windows, contrôle DropDownGallery
+- Windows Ruban, contrôle DropDownGallery
 - Ruban, contrôle DropDownGallery
-- Ruban Windows, contrôle SplitButtonGallery
+- Windows Ruban, contrôle SplitButtonGallery
 - Ruban, contrôle SplitButtonGallery
 - Contrôle DropDownGallery
 - Contrôle SplitButtonGallery
-- Galerie de ruban pour Windows
+- galeries pour Windows ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 784c69b0cf23edad906fbb35ee9a2a45454eacea
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce142c1159d7a7c4129f402716ed7e394ebb4829f043d7c58dd23221b1479720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933443"
 ---
 # <a name="working-with-galleries"></a>Utilisation des galeries
 
-L’infrastructure de ruban Windows offre aux développeurs un modèle robuste et cohérent pour gérer le contenu dynamique sur un large éventail de contrôles basés sur des collections. En adaptant et en reconfigurant l’interface ruban, ces contrôles dynamiques permettent à l’infrastructure de répondre à l’interaction de l’utilisateur dans l’application hôte et le ruban lui-même, et offrent la flexibilité nécessaire pour gérer différents environnements d’exécution.
+l’infrastructure du ruban Windows offre aux développeurs un modèle robuste et cohérent pour gérer le contenu dynamique sur divers contrôles basés sur des collections. En adaptant et en reconfigurant l’interface ruban, ces contrôles dynamiques permettent à l’infrastructure de répondre à l’interaction de l’utilisateur dans l’application hôte et le ruban lui-même, et offrent la flexibilité nécessaire pour gérer différents environnements d’exécution.
 
 -   [Introduction](#introduction)
 -   [Galeries](#working-with-galleries)
@@ -67,7 +67,7 @@ Les galeries d’éléments prennent en charge l’aperçu instantané, ce qui s
 > [!IMPORTANT]
 > L’infrastructure ne prend pas en charge l’hébergement de galeries d’éléments dans le menu de l’application.
 
- 
+ 
 
 ### <a name="command-galleries"></a>Galeries de commandes
 
@@ -83,7 +83,7 @@ L’infrastructure du ruban contient quatre contrôles de Galerie : [**DropDown
 
 Un [**DropDownGallery**](windowsribbon-element-dropdowngallery.md) est un bouton qui affiche une liste déroulante contenant une collection d’éléments ou de commandes s’excluant mutuellement.
 
-La capture d’écran suivante illustre le contrôle de Galerie de la [liste](windowsribbon-controls-dropdowngallery.md) déroulante du ruban dans Microsoft Paint pour Windows 7.
+la capture d’écran suivante illustre le contrôle de galerie de la [liste](windowsribbon-controls-dropdowngallery.md) déroulante du ruban dans Microsoft Paint pour Windows 7.
 
 ![capture d’écran d’un contrôle de la Galerie déroulante dans Microsoft Paint pour Windows 7.](images/controls/dropdowngallery.png)
 
@@ -91,7 +91,7 @@ La capture d’écran suivante illustre le contrôle de Galerie de la [liste](wi
 
 Un [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) est un contrôle composite qui expose un élément ou une commande par défaut unique à partir de sa collection sur un bouton principal, et qui affiche d’autres éléments ou commandes dans une liste déroulante mutuellement exclusive qui s’affiche lorsqu’un utilisateur clique sur un bouton secondaire.
 
-La capture d’écran suivante illustre le contrôle de [Galerie de bouton partagé](windowsribbon-controls-splitbuttongallery.md) du ruban dans Microsoft Paint pour Windows 7.
+la capture d’écran suivante illustre le contrôle de [galerie du bouton partagé](windowsribbon-controls-splitbuttongallery.md) du ruban dans Microsoft Paint pour Windows 7.
 
 ![capture d’écran d’un contrôle de Galerie de boutons partagés dans Microsoft Paint pour Windows 7.](images/controls/splitbuttongallery.png)
 
@@ -99,7 +99,7 @@ La capture d’écran suivante illustre le contrôle de [Galerie de bouton parta
 
 Un [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) est une galerie qui affiche une collection d’éléments ou de commandes connexes dans le ruban. S’il y a trop d’éléments dans la Galerie, une flèche de développement est fournie pour afficher le reste de la collection dans un volet développé.
 
-La capture d’écran suivante illustre le contrôle [de Galerie ruban dans le ruban](windowsribbon-controls-inribbongallery.md) de Microsoft Paint pour Windows 7.
+la capture d’écran suivante illustre le contrôle de [galerie ruban dans le ruban](windowsribbon-controls-inribbongallery.md) dans Microsoft Paint pour Windows 7.
 
 ![capture d’écran d’un contrôle de galerie dans le ruban dans le ruban Microsoft Paint.](images/controls/inribbongallery.png)
 
@@ -173,7 +173,7 @@ Les propriétés valides pour les éléments dans les galeries d’éléments ([
 > [!Note]  
 > Certaines propriétés d’élément, telles [que \_ l' \_ étiquette de l’interface utilisateur](windowsribbon-reference-properties-uipkey-label.md), peuvent être définies dans le balisage. Pour plus d’informations, consultez la documentation de référence sur les [clés de propriété](windowsribbon-reference-properties.md) .
 
- 
+ 
 
 
 
@@ -201,7 +201,7 @@ Propriétés
 
 
 
- 
+ 
 
 Les propriétés d’élément valides pour les galeries de commandes ([**UI \_ COMMANDTYPE \_ COMMANDCOLLECTION**](/windows/desktop/api/uiribbon/ne-uiribbon-ui_commandtype)) sont décrites dans le tableau suivant.
 
@@ -215,7 +215,7 @@ Les propriétés d’élément valides pour les galeries de commandes ([**UI \_ 
 
 
 
- 
+ 
 
 Les catégories sont utilisées pour organiser les éléments et les commandes dans les galeries. Les catégories sont définies et liées à une galerie via la clé de propriété des [ \_ \_ catégories de l’interface utilisateur](windowsribbon-reference-properties-uipkey-categories.md) et exposent les propriétés avec un objet [**IUICollection**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicollection) spécifique à la catégorie.
 
@@ -224,7 +224,7 @@ Les catégories n’ont pas de CommandType et ne prennent pas en charge l’inte
 > [!IMPORTANT]
 > [**IUISimplePropertySet :: GetValue**](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) doit retourner la [**collection d’interface utilisateur \_ \_ INVALIDINDEX**](/windows/desktop/windowsribbon/windowsribbon-ui-collection-invalidindex) lorsque [l’interface utilisateur du groupe de catégories d’utilisateur \_ \_](windowsribbon-reference-properties-uipkey-categoryid.md) est demandée pour un élément qui n’a pas de catégorie associée.
 
- 
+ 
 
 ### <a name="declare-the-controls-in-markup"></a>Déclarer les contrôles dans le balisage
 
@@ -369,7 +369,7 @@ L’exemple suivant montre une déclaration de contrôle pour [**InRibbonGallery
 > [!Note]  
 > Étant donné que [**InRibbonGallery**](windowsribbon-element-inribbongallery.md) est conçu pour afficher un sous-ensemble de sa collection d’éléments dans le ruban sans activer un menu déroulant, il fournit un certain nombre d’attributs facultatifs qui régissent la taille et la disposition des éléments sur l’initialisation du ruban. Ces attributs sont uniques à **InRibbonGallery** et ne sont pas disponibles dans les autres contrôles dynamiques.
 
- 
+ 
 
 
 ```XML
@@ -420,7 +420,7 @@ Pour chaque commande, l’infrastructure du ruban requiert un gestionnaire de co
 > [!Note]  
 > Plusieurs commandes peuvent être liées à un gestionnaire de commandes unique.
 
- 
+ 
 
 Un gestionnaire de commandes remplit deux fonctions :
 
@@ -856,6 +856,6 @@ HRESULT CQATHandler::OnCollectionChanged(
 [Exemple de Galerie](windowsribbon-gallerysample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

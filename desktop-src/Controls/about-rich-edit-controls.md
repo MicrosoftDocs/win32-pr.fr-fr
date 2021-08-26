@@ -4,12 +4,12 @@ description: Cette section présente les contrôles RichEdit.
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 742295358be32fa318334ceac7f89607adcbba12
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 0d528ceff19bfc1e377bf8297b40a7495fc92385e49b57724b6a81902a5ec499
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922399"
 ---
 # <a name="about-rich-edit-controls"></a>À propos des contrôles RichEdit
 
@@ -37,7 +37,7 @@ Le tableau suivant indique la DLL qui correspond à la version RichEdit. Notez q
 | 1.0               | Riched32.dll | RICHEDIT ( \_ classe) |
 | 2.0               | Riched20.dll | RICHEDIT ( \_ classe) |
 | 3.0               | Riched20.dll | RICHEDIT ( \_ classe) |
-| 4,1               | Msftedit.dll | QUE dans MSFTEDIT, \_ classe |
+| 4.1               | Msftedit.dll | QUE dans MSFTEDIT, \_ classe |
 
 
 
@@ -97,7 +97,7 @@ Microsoft Rich Edit 2,0 comprend les fonctionnalités suivantes en plus des fonc
 | Prise en charge de la transparence                          | Également en mode sans fenêtre.                                                                                                                                                                                                                                                                                                                                                             |
 | Couleurs de sélection du système                       | Utilisé pour la sélection de texte.                                                                                                                                                                                                                                                                                                                                                             |
 | Reconnaissance automatique des URL                     | Peut rechercher un certain nombre de formats d’URL (par exemple, http :)                                                                                                                                                                                                                                                                                                                           |
-| Compatibilité de l’interface utilisateur de modification de Microsoft Word          | Sélection, sémantique du pavé numérique.                                                                                                                                                                                                                                                                                                                                                  |
+| Microsoft Word modifier la compatibilité de l’interface utilisateur          | Sélection, sémantique du pavé numérique.                                                                                                                                                                                                                                                                                                                                                  |
 | EOP standard Word                             | La marque de fin de paragraphe (CR) peut également gérer le retour chariot/saut de ligne (CR/LF) (retour chariot, saut de ligne).                                                                                                                                                                                                                                                                       |
 | Fonctionnalités de texte brut et de texte enrichi | Format à caractère unique et format à un seul paragraphe.                                                                                                                                                                                                                                                                                                                                 |
 | Contrôles à une seule ligne et multiligne            | Tronquer à la première fin de paragraphe et aucune WordWrap.                                                                                                                                                                                                                                                                                                                                  |
@@ -263,7 +263,7 @@ Microsoft Rich Edit 3,0 comprend les fonctionnalités suivantes en plus des fonc
 <td>Cela est recommandé pour couper, copier et coller des opérations. Ce format de fichier est plus compact que le format RTF ordinaire, plus rapide et compatible avec Unicode.</td>
 </tr>
 <tr class="even">
-<td>Prise en charge d’IME Microsoft Office 9 (IME98)</td>
+<td>prise en charge d’IME Microsoft Office 9 (IME98)</td>
 <td>Cette fonctionnalité IME plus puissante a été divisée en un module indépendant. Voici quelques fonctionnalités :
 <ul>
 <li>Reconversion dans les versions antérieures, l’utilisateur devait d’abord supprimer la chaîne finale, puis taper une nouvelle chaîne pour accéder au candidat correct. Cette nouvelle fonctionnalité permet à l’utilisateur de reconvertir la chaîne finale en mode composition, ce qui permet de sélectionner facilement une chaîne candidate différente.<br/></li>
@@ -419,13 +419,13 @@ Les contrôles RichEdit prennent en charge les touches de raccourci suivantes.
 
 
 
-| Keys                      | Operations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
+| Keys                      | Opérations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Maj + Retour arrière           | Générer un LRM/LRM sur un clavier bidirectionnel                                                                                                    | Spécifique à BiDi                                                                                                                                                                                                                  |
 | Ctrl+Tab                  | Onglet                                                                                                                                      |                                                                                                                                                                                                                                |
-| Ctrl + effacer                | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
-| Ctrl + pavé numérique 5         | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
-| Ctrl+A                    | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl + effacer                | Tout sélectionner                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl + pavé numérique 5         | Tout sélectionner                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl+A                    | Tout sélectionner                                                                                                                               |                                                                                                                                                                                                                                |
 | Ctrl+E                    | Alignement centré                                                                                                                         |                                                                                                                                                                                                                                |
 | Ctrl+J                    | Justifier l’alignement                                                                                                                        |                                                                                                                                                                                                                                |
 | Ctrl+R                    | Alignement à droite                                                                                                                          |                                                                                                                                                                                                                                |

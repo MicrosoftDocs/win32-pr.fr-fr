@@ -4,12 +4,12 @@ description: Si vous souhaitez que toutes les applications sur un ordinateur qui
 ms.assetid: 23d1e222-c00b-497c-adc8-4ae14c5bdd98
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7feaaf356263a48c2c93eb9b3b3764b7352cd39
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7914fd3b1561900426e2928a5277cb845918e3b8d1b1ad1569ea8db0d112e218
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954369"
 ---
 # <a name="setting-system-wide-security-using-dcomcnfg"></a>Définition de la sécurité System-Wide à l’aide de DCOMCNFG
 
@@ -118,7 +118,7 @@ La désactivation de DCOM sur un ordinateur n’a aucun effet sur les objets COM
 > [!Note]  
 > Si vous désactivez DCOM sur un ordinateur distant, vous ne pourrez pas accéder à distance à cet ordinateur par la suite pour réactiver DCOM. Pour réactiver DCOM, vous aurez besoin d’un accès physique à cet ordinateur.
 
- 
+ 
 
 **Pour activer (ou désactiver) manuellement DCOM pour un ordinateur**
 
@@ -137,9 +137,9 @@ La désactivation de DCOM sur un ordinateur n’a aucun effet sur les objets COM
 [Définition de la sécurité au niveau du processus](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

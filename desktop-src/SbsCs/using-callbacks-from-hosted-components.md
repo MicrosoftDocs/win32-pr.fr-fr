@@ -4,12 +4,12 @@ ms.assetid: 794a2e2f-ba1f-48ad-a435-244fc7936097
 title: Utilisation de rappels à partir de composants hébergés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ef302601985bc7e56a296bc8f494e48e18d785e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb13e61b83ba52f0f8dd5265b11585e8366c0e8558d45c5738f179d43df2eb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884599"
 ---
 # <a name="using-callbacks-from-hosted-components"></a>Utilisation de rappels à partir de composants hébergés
 

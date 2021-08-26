@@ -3,7 +3,7 @@ title: Code de notification EN_IMECHANGE (RichEdit. h)
 description: Avertit le parent d’un contrôle RichEdit que l’état de conversion IME a changé.
 ms.assetid: 2893e4ef-5904-4a57-95c5-3f6cfbb60d90
 keywords:
-- Contrôles Windows de code de notification EN_IMECHANGE
+- EN_IMECHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fa0e0c8fe4e7d6d8de876a5d1a1fb7a10754096
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4974c4126606b8ed95ffa645778469b6fc897488533b81498347de1c1995e7a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047679"
 ---
 # <a name="en_imechange-notification-code"></a>\_Code de notification en IMECHANGE
 
@@ -57,7 +57,7 @@ Handle du contrôle RichEdit.
 
 Ce code de notification retourne la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir les \_ codes de notification en IMECHANGE, spécifiez [**ENM \_ IMECHANGE**](rich-edit-control-event-mask-flags.md) dans le masque envoyé avec le message de [**em \_ SETEVENTMASK**](em-seteventmask.md) .
 
@@ -72,8 +72,8 @@ Pour recevoir les \_ codes de notification en IMECHANGE, spécifiez [**ENM \_ IM
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

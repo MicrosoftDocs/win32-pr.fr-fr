@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7a0b0f0cb73cc60ff117399a636b0ab8542fac6e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2861d12740f894cc17a91d6a3f4c2b6792d38f658063bc89474f3656a74b45f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917409"
 ---
 # <a name="win32_tcpipprinterport-class"></a>\_Classe TCPIPPrinterPort Win32
 
@@ -251,7 +251,7 @@ Protocole hérité, qui est finalement remplacé par RAW.
 
 </dd> <dt>
 
-**File d'attente**
+**File d’attente**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -504,7 +504,7 @@ Cette propriété est héritée de [**CIM \_ ServiceAccessPoint**](cim-serviceac
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ TCPIPPrinterPort** est dérivée de [**CIM \_ ServiceAccessPoint**](cim-serviceaccesspoint.md) qui dérive de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
