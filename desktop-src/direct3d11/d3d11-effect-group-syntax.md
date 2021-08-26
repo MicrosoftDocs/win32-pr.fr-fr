@@ -4,12 +4,12 @@ description: Un groupe d’effets est déclaré avec la syntaxe décrite dans ce
 ms.assetid: f6695ae5-198f-45bd-853b-8c02fabd0c39
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9221341810990801f1ed07005e0dcb917df42360
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4c1b2c72b0a67a31911a0f2c9f9ae6ac0e9e20463a850c303dab4a208401d1c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104462610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069749"
 ---
 # <a name="effect-group-syntax-direct3d-11"></a>Syntaxe des groupes d’effets (Direct3D 11)
 
@@ -45,7 +45,7 @@ fxgroup GroupName  [ <Annotations > ]
 | <span id="GroupName"></span><span id="groupname"></span><span id="GROUPNAME"></span>GroupName<br/>                                                                       | Obligatoire. Chaîne ASCII qui identifie de façon unique le nom du groupe d’effets. Contrairement aux techniques, les groupes doivent avoir des noms pour s’assurer que les techniques ont un identificateur unique (voir la section groupes et techniques ci-dessous).<br/> |
 | <span id="_______________Annotations__"></span><span id="_______________annotations__"></span><span id="_______________ANNOTATIONS__"></span> Annotations de < ><br/> | \[\]facultatif. Un ou plusieurs éléments d’informations fournies par l’utilisateur (métadonnées) qui sont ignorés par le système d’effet. Pour obtenir la syntaxe, consultez syntaxe d’annotation (Direct3D 11). <br/>                                                      |
 | <span id="TechniqueVersion"></span><span id="techniqueversion"></span><span id="TECHNIQUEVERSION"></span>TechniqueVersion<br/>                                           | « Technique10 » ou « technique11 ». Les techniques qui utilisent les nouvelles fonctionnalités de Direct3D 11 (5 \_ nuanceurs, BindInterfaces, etc.) doivent utiliser « technique11 ».<br/>                                                                 |
-| <span id="TechniqueName"></span><span id="techniquename"></span><span id="TECHNIQUENAME"></span>TechniqueName<br/>                                                       | facultatif. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet. <br/>                                                                                                                                    |
+| <span id="TechniqueName"></span><span id="techniquename"></span><span id="TECHNIQUENAME"></span>TechniqueName<br/>                                                       | Facultatif. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet. <br/>                                                                                                                                    |
 
 
 

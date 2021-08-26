@@ -1,19 +1,19 @@
 ---
-description: L’exemple suivant montre comment coder un gestionnaire de rappel simple pour recevoir des messages de progression Windows Installer pendant une installation.
+description: l’exemple suivant montre comment coder un gestionnaire de rappel simple pour recevoir des messages de progression Windows Installer pendant une installation.
 ms.assetid: ae1589ae-0ad7-4314-8bf1-c8ad51eac5a2
 title: Gestion des messages de progression à l’aide de MsiSetExternalUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30cab15cbbed030ecaa43f7c034df4661555243d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87a0d91a38bc89511a3119a30bdd3b229b1094ce2aa834c17ea84a9cc6aabb59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044219"
 ---
 # <a name="handling-progress-messages-using-msisetexternalui"></a>Gestion des messages de progression à l’aide de MsiSetExternalUI
 
-L’exemple suivant montre comment coder un gestionnaire de rappel simple pour recevoir des messages de progression Windows Installer pendant une installation.
+l’exemple suivant montre comment coder un gestionnaire de rappel simple pour recevoir des messages de progression Windows Installer pendant une installation.
 
 > [!Note]  
 > Lorsque vous utilisez [**MsiSetExternalUI**](/windows/desktop/api/Msi/nf-msi-msisetexternaluia) avec un type de message INSTALLMESSAGE \_ FILESINUSE, le message envoyé à la fonction du gestionnaire d’interface utilisateur externe ne contient pas d’informations sur les fichiers utilisés ou les titres de fenêtre utilisés par la boîte de dialogue [FILESINUSE](filesinuse-dialog.md) . Vous devez utiliser [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) pour obtenir des informations.

@@ -1,5 +1,5 @@
 ---
-description: Pour Windows 7, Windows Mobile Devices prend en charge les attributs de paramètres suivants pour les méthodes et les événements d’un service d’appareil.
+description: pour Windows 7, Windows appareils mobiles prend en charge les attributs de paramètres suivants pour les méthodes et les événements d’un service d’appareil.
 ms.assetid: a7708c60-758a-4fb6-8ef9-074ecdc9cf60
 title: Attributs de paramètres (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 113b2b35a5b6e61cd2cc1d3666d1a13fbade5ec7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8004f4e2f9f7c22d795b6ce4e4cb0affac1b55ecd876c21288c02e226ee14262
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006109"
 ---
 # <a name="parameter-attributes"></a>Attributs de paramètre
 
-Pour Windows 7, Windows Mobile Devices prend en charge les attributs de paramètres suivants pour les méthodes et les événements d’un service d’appareil. Ces attributs sont retournés par les méthodes suivantes :
+pour Windows 7, Windows appareils mobiles prend en charge les attributs de paramètres suivants pour les méthodes et les événements d’un service d’appareil. Ces attributs sont retournés par les méthodes suivantes :
 
 -   [**IPortableDeviceServiceCapabilities::GetMethodParameterAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes)
 -   [**IPortableDeviceServiceCapabilities::GetEventParameterAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes)

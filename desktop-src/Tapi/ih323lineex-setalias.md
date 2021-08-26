@@ -4,16 +4,16 @@ ms.assetid: 09608214-7346-4ee8-bbfd-0877d3ad0766
 title: 'IH323LineEx :: SetAlias, méthode (H323priv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7341d177297cf95f46d07e503244f06b2c4dea71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 464c6707c3221fda1ef245e0302731ee7c6a1cf274c7ecac537c55f7f48437a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992189"
 ---
 # <a name="ih323lineexsetalias-method"></a>IH323LineEx :: SetAlias, méthode
 
-\[**SetAlias** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**SetAlias** n’est pas disponible pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **SetAlias** configure un alias H. 323 par défaut pour l’adresse. Cet alias sera utilisé dans le programme d’installation d’un appel H. 323 afin que l’autre partie sache le nom de ce tiers.
 

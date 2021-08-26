@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 55297be38dfd75f9ca11bfb6213cd99d52d2a7e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83b49427e65bb5190554a0c995bec119de1230f0baab869ea4c5ce48dc5616f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008969"
 ---
 # <a name="contenttypetype-simple-type"></a>Type simple ContentTypeType
 
@@ -41,7 +41,7 @@ Le type simple **ContentTypeType** est une chaîne qui est limitée par le modè
 
 -   `Normal|Inert`
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs valides sont « normal » et « inerte ».
 
@@ -53,7 +53,7 @@ Si le type est « inerte », le contenu contenu est une page de journal qui es
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 

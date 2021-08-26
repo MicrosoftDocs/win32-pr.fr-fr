@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineSplittable fractionne un objet Timeline dans les services de modification DirectShow (DES). Les sources, les effets, les transitions et les suivis implémentent cette interface.
+description: l’interface IAMTimelineSplittable fractionne un objet timeline en DirectShow Services d’édition (DES). Les sources, les effets, les transitions et les suivis implémentent cette interface.
 ms.assetid: bb066d34-0ffd-495f-83ce-59ad054a7782
 title: Interface IAMTimelineSplittable (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 7b9544809068029b4ca583e83831f9b18ac84e44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd9f3ca6b1bdea5f80c117b869163d9a2375d5b434765b5962c6216795dd9e64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078969"
 ---
 # <a name="iamtimelinesplittable-interface"></a>Interface IAMTimelineSplittable
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineSplittable` interface fractionne un objet Timeline dans les [services d’édition DirectShow](directshow-editing-services.md) (des). Les sources, les effets, les transitions et les suivis implémentent cette interface.
+l' `IAMTimelineSplittable` interface fractionne un objet timeline en [DirectShow Services d’édition](directshow-editing-services.md) (DES). Les sources, les effets, les transitions et les suivis implémentent cette interface.
 
 ## <a name="members"></a>Membres
 
@@ -51,7 +51,7 @@ L’interface **IAMTimelineSplittable** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -59,7 +59,7 @@ L’interface **IAMTimelineSplittable** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

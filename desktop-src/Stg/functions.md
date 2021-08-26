@@ -1,21 +1,21 @@
 ---
 title: Fonctions (STG)
-description: Les fonctions sont des routines ou des sous-routines qui retournent une ou plusieurs valeurs spécifiques. Les fonctions de stockage structuré sont décrites dans les sections suivantes.
+description: Les fonctions sont des routines ou des sous-routines qui retournent une ou plusieurs valeurs spécifiques. les fonctions de Stockage structurées sont décrites dans les sections suivantes.
 ms.assetid: 5fbb05ae-594d-4fa5-97d2-a2371e94c054
 keywords:
-- Stockage structuré Strctd STG, référence, fonctions
+- structured Stockage Strctd Stg, reference, functions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f49c091b5ba9619b649e620da7b436ebac4ccb
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: b84583c4daed1c929ed4ca2204e94e82bd2f8e873c7d3cc454ac14700dd6b9e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106521783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034899"
 ---
-# <a name="structured-storage-functions"></a>Fonctions de stockage structuré
+# <a name="structured-storage-functions"></a>fonctions de Stockage structurées
 
-Les fonctions sont des routines ou des sous-routines qui retournent une ou plusieurs valeurs spécifiques. Les fonctions de stockage structuré sont décrites dans les sections suivantes :
+Les fonctions sont des routines ou des sous-routines qui retournent une ou plusieurs valeurs spécifiques. les fonctions de Stockage structurées sont décrites dans les sections suivantes :
 
 -   [**CreateILockBytesOnHGlobal**](/windows/desktop/api/coml2api/nf-coml2api-createilockbytesonhglobal)
 -   [**CreateStreamOnHGlobal**](/windows/desktop/api/combaseapi/nf-combaseapi-createstreamonhglobal)

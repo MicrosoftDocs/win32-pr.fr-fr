@@ -1,6 +1,6 @@
 ---
-title: Structures du kit de développement logiciel (SDK) Windows Media format
-description: Structures du kit de développement logiciel (SDK) Windows Media format
+title: Windows Structures du SDK Media format
+description: Windows Structures du SDK Media format
 ms.assetid: 118ef278-ca4f-4c30-9633-a2d851f5c758
 keywords:
 - Windows Media Format SDK, structures
@@ -8,16 +8,16 @@ keywords:
 - ASF (format des systèmes avancés), structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f730ba3cbc5bd8bbec2a9f01c72df1fe46f0b64
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 319be2d061132f59c1c75ebb295c8ceb8ae87ffbcce48e8259a1faedcf18d666
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106544161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006609"
 ---
-# <a name="windows-media-format-sdk-structures"></a>Structures du kit de développement logiciel (SDK) Windows Media format
+# <a name="windows-media-format-sdk-structures"></a>Windows Structures du SDK Media format
 
-Le kit de développement logiciel (SDK) du format Windows Media implémente les structures suivantes.
+le kit de développement logiciel (SDK) Windows Media Format implémente les structures suivantes.
 
 
 

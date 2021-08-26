@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d73212230d1ca69e0a0809c48b8f2985920045
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42eee8bbcab6494459ddde5c339f3836cab414ad3c2f5204399bac09e362c3ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008919"
 ---
 # <a name="setprimarylicenseserver-method-of-the-win32_terminalservicesetting-class"></a>Méthode SetPrimaryLicenseServer de la \_ classe Win32 TerminalServiceSetting
 

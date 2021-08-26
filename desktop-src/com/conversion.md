@@ -6,12 +6,12 @@ keywords:
 - Conversion de la clé de registre COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce7f3a87594513c37a558d21fb7d001fc393763d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 272090fb48b214daecd6350e6966350861366341fae055298a2fb2c90c9fb983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993480"
 ---
 # <a name="conversion"></a>Conversion
 
@@ -21,25 +21,25 @@ Utilisé par la boîte de dialogue **convertir** pour déterminer les formats qu
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      Conversion
-         Readable
-            Main = rformat, ...
-         ReadWritable
-            Main = rwformat, ...
+   {CLSID}
+      Conversion
+         Readable
+            Main = rformat, ...
+         ReadWritable
+            Main = rwformat, ...
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les informations de conversion sont utilisées par la boîte de dialogue **convertir** pour déterminer les formats qu’une application peut lire et écrire. Un format de fichier délimité par des virgules est indiqué par un nombre s’il s’agit de l’un des formats de presse-papiers définis dans Windows. h. Une chaîne indique que le format n’est pas défini dans Windows. h (privé). Dans ce cas, le format lisible et accessible en écriture est \_ plan CF (privé).
+Les informations de conversion sont utilisées par la boîte de dialogue **convertir** pour déterminer les formats qu’une application peut lire et écrire. un format de fichier délimité par des virgules est indiqué par un nombre s’il s’agit de l’un des formats de presse-papiers définis dans Windows. h. une chaîne indique que le format n’est pas défini dans Windows. h (private). Dans ce cas, le format lisible et accessible en écriture est \_ plan CF (privé).
 
 La valeur *rformat* spécifie le format de fichier qu’une application peut lire (conversion à partir de).
 
 La valeur *rwformat* spécifie le format de fichier qu’une application peut lire et écrire (activer en tant que).
 
- 
+ 
 
- 
+ 
 
 
 

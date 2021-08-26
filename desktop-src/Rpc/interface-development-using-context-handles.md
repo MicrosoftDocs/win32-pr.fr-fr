@@ -4,12 +4,12 @@ description: En général, vous créez un handle de contexte en spécifiant l’
 ms.assetid: e4caf91f-f92d-4aef-a20f-0a3073230640
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8474d533b27ba1543a9d522dfa4478d306b33cf2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77e65e36384bda3d81526d5891eca92a77a67402e7cd3aa7af8b61e061a9d3b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020469"
 ---
 # <a name="interface-development-using-context-handles"></a>Développement d’interface à l’aide de handles de contexte
 
@@ -17,12 +17,12 @@ En général, vous créez un handle de contexte en spécifiant l' \[ attribut de
 
 Une interface qui utilise un handle de contexte doit avoir un handle de liaison pour la liaison initiale, qui doit avoir lieu avant que le serveur puisse retourner un handle de contexte. Vous pouvez utiliser un handle de liaison automatique, implicite ou explicite pour créer la liaison et établir le contexte.
 
-Un handle de contexte doit être du [**type \* void**](/windows/desktop/Midl/void) , ou un type qui est résolu en [**void \***](/windows/desktop/Midl/void). Le programme serveur le convertit en type requis.
+Un descripteur de contexte doit être du type [ * *void \** _](/windows/desktop/Midl/void) ou d’un type qui correspond à [_ *void \** *](/windows/desktop/Midl/void). Le programme serveur le convertit en type requis.
 
 > [!Note]  
 > L’utilisation de \[ [**dans**](/windows/desktop/Midl/in), [**out**](/windows/desktop/Midl/out-idl) \] pour les paramètres de handle de contexte est déconseillée, sauf pour les routines qui ferment des handles de contexte. Si le contexte gère les paramètres marqués \[ [**dans**](/windows/desktop/Midl/in), [**out**](/windows/desktop/Midl/out-idl) \] sont utilisés, ne transmettez pas un descripteur de contexte **null** ou non initialisé du client au serveur. Un pointeur **null** vers un handle de contexte doit être passé à la place. Veuillez noter que les paramètres de handle de contexte marqués \[ [**dans**](/windows/desktop/Midl/in) \] n’acceptent pas les pointeurs **null** .
 
- 
+ 
 
 Le fragment suivant d’un exemple de définition d’interface montre comment une application distribuée peut utiliser un handle de contexte pour qu’un serveur ouvre et met à jour un fichier de données pour chaque client.
 
@@ -50,6 +50,6 @@ La fonction RemoteOpen crée un handle de contexte valide non **null** . Il pass
 
 En plus de la procédure distante qui initialise le descripteur de contexte, l’interface doit contenir une procédure qui libère le contexte du serveur et définit le descripteur de contexte sur la **valeur null**. Dans l’exemple précédent, la fonction RemoteClose effectue cette opération.
 
- 
+ 
 
- 
+ 

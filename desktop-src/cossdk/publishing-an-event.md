@@ -4,16 +4,16 @@ ms.assetid: b40d10aa-43bc-4c53-9e89-94c585d34238
 title: Publication d'un événement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c060d8bf67e12fc7429b2afc768794468a1c49ad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 724dc94ddf9cc25ec3b11cc31376805241e9d6d67250f8a494f8b417b9d201a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990499"
 ---
 # <a name="publishing-an-event"></a>Publication d'un événement
 
-Pour publier un événement, il vous suffit d’instancier un objet d’événement en appelant [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) ou la méthode Microsoft Visual Basic **CreateObject** en utilisant EventClassID ou événements comme argument. Le serveur de publication appelle [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur l’objet d’événement pour obtenir les interfaces prises en charge par l’objet de classe d’événements et appelle une méthode sur l’objet d’événement par le biais de l’interface pour publier l’événement. Le système d’événements publie ensuite des événements sur la classe d’événements CLSID \_ EventObjectChange avec l’ID d’interface IID \_ IEventObjectChange.
+pour publier un événement, il vous suffit d’instancier un objet d’événement en appelant [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) ou la méthode Microsoft Visual Basic **CreateObject** en utilisant EventClassID ou événements comme argument. Le serveur de publication appelle [**QueryInterface**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) sur l’objet d’événement pour obtenir les interfaces prises en charge par l’objet de classe d’événements et appelle une méthode sur l’objet d’événement par le biais de l’interface pour publier l’événement. Le système d’événements publie ensuite des événements sur la classe d’événements CLSID \_ EventObjectChange avec l’ID d’interface IID \_ IEventObjectChange.
 
 Pour prendre en charge la remise d’événements à plusieurs abonnés, les méthodes de classe d’événements doivent contenir uniquement des paramètres in.
 

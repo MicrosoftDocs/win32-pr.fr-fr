@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, génération d’applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c65b68523b383aefad17a4ec9b729030fb5e0b1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2b391e38e9cefb3e0526d04bfe581aec94cd976fc377f0ae986cbb8e45bf895
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023029"
 ---
 # <a name="building-rpc-applications"></a>Génération d’applications RPC
 
@@ -27,9 +27,9 @@ Cette section décrit le processus de création d’applications client/serveur 
 -   [Procédure de génération générale](general-build-procedure.md)
 -   [Gestion des exceptions](exception-handling.md)
 
- 
+ 
 
- 
+ 
 
 
 

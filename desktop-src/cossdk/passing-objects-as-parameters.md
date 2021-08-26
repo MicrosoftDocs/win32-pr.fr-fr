@@ -4,12 +4,12 @@ ms.assetid: 174847c8-4545-4f61-ae13-42bdec1405e7
 title: Passage d’objets en tant que paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a58e012138bc65cec481f714ac216bb8227fb924
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c47669d3e3e5af572b6dfd50dcbbefacf5c008971f276408fa87b37ccbed9a1b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070379"
 ---
 # <a name="passing-objects-as-parameters"></a>Passage d’objets en tant que paramètres
 
@@ -24,12 +24,12 @@ Dans le cas de la transmission d’un objet via l’appel de méthode d’un com
 
 Les références d’objets qui prennent en charge [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) peuvent être utilisées comme paramètres pour les appels de méthode sur les composants en file d’attente. L’objet ne peut pas faire d’hypothèses sur le moment où il sera réinstancié. Par exemple, le serveur peut ne pas être disponible ou le composant serveur ne peut pas être démarré tant que plus tard dans la journée. Les objets qui ne prennent pas en charge **IPersistStream** renverront une erreur.
 
-## <a name="visual-basic-persistable-objects"></a>Visual Basic les objets persistants
+## <a name="visual-basic-persistable-objects"></a>Visual Basic Objets persistants
 
-Microsoft Visual Basic 6 autorise la création d’objets persistants. Ces objets prennent en charge [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) et peuvent être passés en tant que paramètres aux appels de méthode de composant mis en file d’attente. Avant qu’un objet Visual Basic puisse être passé à un composant mis en file d’attente, l’objet persistable doit être initialisé. Pour ce faire, vous pouvez procéder de l’une des deux manières suivantes :
+Microsoft Visual Basic 6 autorise la création d’objets persistants. Ces objets prennent en charge [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) et peuvent être passés en tant que paramètres aux appels de méthode de composant mis en file d’attente. avant qu’un objet Visual Basic puisse être passé à un composant mis en file d’attente, l’objet persistable doit être initialisé. Pour ce faire, vous pouvez procéder de l’une des deux manières suivantes :
 
--   Si l’application qui crée l’objet persistant est écrite en Visual Basic, le runtime Visual Basic gère automatiquement l’initialisation de l’objet.
--   Si l’application qui crée l’objet Visual Basic persistant est écrite dans un langage autre que Visual Basic, tel que Microsoft Visual C++, l’application doit initialiser explicitement le composant en interrogeant l’interface [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) de l’objet persistant ou en appelant la méthode [**IPersistStreamInit :: InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)ou [**IPersistStream :: Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load) .
+-   si l’application qui crée l’objet persistant est écrite en Visual Basic, le runtime Visual Basic gère automatiquement l’initialisation de l’objet.
+-   si l’application qui crée l’objet Visual Basic persistant est écrite dans un langage autre que Visual Basic, tel que Microsoft Visual C++, l’application doit initialiser explicitement le composant en interrogeant l’interface [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream) de l’objet persistant ou en appelant la méthode [**IPersistStreamInit :: InitNew**](/windows/desktop/api/ocidl/nf-ocidl-ipersiststreaminit-initnew)ou [**IPersistStream :: Load**](/windows/desktop/api/objidl/nf-objidl-ipersiststream-load) .
 
 ## <a name="ado-recordsets-and-ole-db-rowsets"></a>Jeux d’enregistrements ADO et ensembles de lignes OLE DB
 

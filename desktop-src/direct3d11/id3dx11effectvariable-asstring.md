@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73092dcd27b5651ad6205fa05bcbb13cc1f86116
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c69eecaabec6b7da49f7f36f6c75677fdd20cdb462f26fe5e02650e6746c01f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069609"
 ---
 # <a name="id3dx11effectvariableasstring-method"></a>ID3DX11EffectVariable :: AsString, méthode
 
@@ -47,7 +47,7 @@ Type : **[ **ID3DX11EffectStringVariable**](id3dx11effectstringvariable.md)\***
 
 Pointeur vers une variable de chaîne. Consultez [**ID3DX11EffectStringVariable**](id3dx11effectstringvariable.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 AsString retourne une version de la variable Effect qui a été spécialisée pour une variable de chaîne. Comme pour un cast, cette spécialisation retourne un objet non valide si la variable Effect ne contient pas de données de chaîne.
 
@@ -58,7 +58,7 @@ Les applications peuvent tester la validité de l’objet retourné en appelant 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -4,12 +4,12 @@ description: La journalisation étendue du NCSA est un type de journalisation c�
 ms.assetid: 14a2492a-3bcf-46f3-a3a5-1ea578516865
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f04db62d5d561fb227f7a46a33c2aefcacd943b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f9a5b9ef608da18264f4534c7e50e9672794a21bc61c91741feeb9e814c7afc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078309"
 ---
 # <a name="ncsa-logging"></a>Journalisation NCSA
 
@@ -31,7 +31,7 @@ Le format de fichier journal commun NCSA enregistre les données suivantes. Les 
 
 
 
- 
+ 
 
 Tous les champs ne contiennent pas d’informations. Pour les champs pour lesquels il n’y a pas d’informations, un trait d’Union (-) apparaît en tant qu’espace réservé. Si un champ contient un caractère non imprimable, l’API du serveur HTTP le remplace par un signe plus (+) pour conserver le format du fichier journal. Cela se produit généralement avec les attaques de virus, quand, par exemple, un utilisateur malveillant envoie des retours chariot et des sauts de ligne qui, s’ils ne sont pas remplacés par le signe plus (+), peuvent altérer le format du fichier journal. Les champs sont séparés par des espaces et l’heure est enregistrée en tant qu’heure locale avec le décalage GMT.
 
@@ -44,9 +44,9 @@ L’exemple suivant illustre une entrée de fichier journal commune NCSA, telle 
 
 L’adresse IP du client est 172.21.13.45, et le nom d’utilisateur est Microsoft \\ johndoe. Le journal a été enregistré le 7 avril 2005 à 17:39:04 heure locale, avec un décalage de Greenwich de 8 heures. Le verbe de requête et la version de protocole étaient « obtenir/scripts/IISADMIN/ism.dll ? http/serv HTTP/1.0 ». Les codes d’État étaient 200 OK et le nombre d’octets envoyés par le client était 3401.
 
- 
+ 
 
- 
+ 
 
 
 

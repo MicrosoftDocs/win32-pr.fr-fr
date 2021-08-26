@@ -4,12 +4,12 @@ description: Les fonctions d’administration RAS utilisent les structures suiva
 ms.assetid: 858fcdd8-6587-41c4-a2d7-c871722562e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94e7b8e1330f5a080d7cef43853c1acb79a4cf28
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03bc6ea00d2d74442a0fb4dc4fa2703b4e9940a21d9a91ee73992f207c94e837
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036289"
 ---
 # <a name="ras-administration-structures"></a>Structures d’administration RAS
 
@@ -40,9 +40,9 @@ Les [fonctions d’administration RAS](ras-administration-functions.md) utilisen
 [**\_Utilisateur RAS \_ 1**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_1)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

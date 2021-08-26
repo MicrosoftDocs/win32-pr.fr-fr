@@ -39,12 +39,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c0fb9b93f75c47760da8778e4aef8bed7f4e022
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 00c199b4b8e98832dcc8dbe65b8fc2ef636df71c8bd6e3c096670e6333f83a75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008519"
 ---
 # <a name="win32_tsgatewayserversettings-class"></a>\_Classe TSGatewayServerSettings Win32
 
@@ -97,36 +97,36 @@ La classe **Win32 \_ TSGatewayServerSettings** possède ces méthodes.
 
 | Méthode                                                                                                                                             | Description                                                                                                                                                                                                                                                      |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Configurer**](configure-win32-tsgatewayserversettings.md)                                                                                       | Configure les paramètres IIS et RPC requis par le service de passerelle des services Bureau à distance.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                               |
+| [**Configurer**](configure-win32-tsgatewayserversettings.md)                                                                                       | Configure les paramètres IIS et RPC requis par le service de passerelle des services Bureau à distance.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                               |
 | [**EnableCentralCAP**](enablecentralcap-win32-tsgatewayserversettings.md)                                                                         | Active ou désactive la propriété **CentralCAPEnabled** , qui détermine si des serveurs de stratégie d’autorisation de connexion centralisée Bureau à distance sont utilisés pour contrôler les stratégies d’autorisation de connexion pour ce serveur.<br/>                    |
 | [**EnableLogEvent**](enablelogevent-win32-tsgatewayserversettings.md)                                                                             | Active ou désactive la journalisation du type d’événement spécifié.<br/>                                                                                                                                                                                              |
-| [**EnableOnlyConsentCapableClients**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Définit la propriété **OnlyConsentCapableClients** .<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                      |
-| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | Cette méthode n’est pas prise en charge à partir de Windows Server 2016.<br/> **Windows server 2012 R2, Windows server 2012, Windows server 2008 R2 et Windows server 2008 :** Active ou désactive les demandes pour une déclaration d’intégrité (SoH).<br/> <br/> |
+| [**EnableOnlyConsentCapableClients**](enableonlyconsentcapableclients-win32-tsgatewayserversettings.md)                                           | Définit la propriété **OnlyConsentCapableClients** .<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                      |
+| [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md)                                                                         | Cette méthode n’est pas prise en charge à partir de Windows Server 2016.<br/> **Windows Server 2012 r2, Windows Server 2012, Windows server 2008 r2 et Windows server 2008 :** Active ou désactive les demandes pour une déclaration d’intégrité (SoH).<br/> <br/> |
 | [**EnableTransport**](enabletransport-win32-tsgatewayserversettings.md)                                                                           | Active ou désactive le transport spécifié.<br/> **Windows server 2008 R2 et Windows server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2012.<br/>                                                                                  |
 | [**EnumAuthenticationPlugins**](enumauthenticationplugins-win32-tsgatewayserversettings.md)                                                       | Énumère tous les plug-ins d’authentification inscrits.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible.<br/>                                                                                                                                  |
-| [**EnumAuthorizationPlugins**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Énumère tous les plug-ins d’autorisation inscrits.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                     |
+| [**EnumAuthorizationPlugins**](enumauthorizationplugins-win32-tsgatewayserversettings.md)                                                         | Énumère tous les plug-ins d’autorisation inscrits.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                     |
 | [**GetIPAndPort**](getipandport-win32-tsgatewayserversettings.md)                                                                                 | Obtient l’adresse IP d’écoute et le numéro de port pour le transport spécifié.<br/> **Windows server 2008 R2 et Windows server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2012.<br/>                                                 |
 | [**GetLogEventName**](getlogeventname-win32-tsgatewayserversettings.md)                                                                           | Retourne le nom d’événement du journal pour l’index d’événements de journal spécifié.<br/>                                                                                                                                                                                         |
 | [**GetProtocolName**](getprotocolname-win32-tsgatewayserversettings.md)                                                                           | Retourne le nom de protocole pour l’index de protocole spécifié.<br/>                                                                                                                                                                                           |
 | [**IsLogEventEnabled**](islogeventenabled-win32-tsgatewayserversettings.md)                                                                       | Indique si le type de journal des événements spécifié est activé.<br/>                                                                                                                                                                                            |
 | [**IsTransportEnabled**](istransportenabled-win32-tsgatewayserversettings.md)                                                                     | Détermine si le transport spécifié est activé.<br/> **Windows server 2008 R2 et Windows server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2012.<br/>                                                                        |
 | [**QueryCertContext**](win32-tsgatewayserversettings-querycertcontext.md)                                                                         | Indique si le certificat spécifié est installé.<br/>                                                                                                                                                                                             |
-| [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                            |
+| [**RecycleRpcApplicationPools**](recyclerpcapplicationpools-win32-tsgatewayserversettings.md)                                                     | Recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                            |
 | [**RefreshCertContext**](win32-tsgatewayserversettings-refreshcertcontext.md)                                                                     | Actualise le certificat utilisé par le serveur de passerelle Bureau à distance.<br/>                                                                                                                                                                                      |
-| [**SetAuthenticationPlugin**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Définit le plug-in d’authentification actuel pour le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                    |
-| [**SetAuthenticationPluginAndRecycleRpcApplicationPools**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Définit le plug-in d’authentification actuel pour le serveur de passerelle Bureau à distance et recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                      |
-| [**SetAuthorizationPlugin**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Définit le plug-in d’autorisation actuel pour le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                     |
-| [**SetCertificate**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Définit le hachage de certificat pour la liaison HTTPs sur le port 443 dans IIS.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                       |
+| [**SetAuthenticationPlugin**](setauthenticationplugin-win32-tsgatewayserversettings.md)                                                           | Définit le plug-in d’authentification actuel pour le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                    |
+| [**SetAuthenticationPluginAndRecycleRpcApplicationPools**](setauthenticationpluginandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md) | Définit le plug-in d’authentification actuel pour le serveur de passerelle Bureau à distance et recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                      |
+| [**SetAuthorizationPlugin**](setauthorizationplugin-win32-tsgatewayserversettings.md)                                                             | Définit le plug-in d’autorisation actuel pour le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                     |
+| [**SetCertificate**](setcertificate-win32-tsgatewayserversettings.md)                                                                             | Définit le hachage de certificat pour la liaison HTTPs sur le port 443 dans IIS.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                       |
 | [**SetCertificateACL**](setcertificateacl-win32-tsgatewayserversettings.md)                                                                       | Définit les listes de contrôle d’accès (ACL) du certificat pour ce serveur.<br/>                                                                                                                                                                                     |
-| [**SetDefaultPluginsAndRecycleRpcApplicationPools**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Définit les plug-ins d’authentification et d’autorisation actuels pour le serveur de passerelle Bureau à distance et recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                   |
+| [**SetDefaultPluginsAndRecycleRpcApplicationPools**](setdefaultpluginsandrecyclerpcapplicationpools-win32-tsgatewayserversettings.md)             | Définit les plug-ins d’authentification et d’autorisation actuels pour le serveur de passerelle Bureau à distance et recycle les pools d’applications RPC dans IIS.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                   |
 | [**SetEnforceChannelBinding**](setenforcechannelbinding-win32-tsgatewayserversettings.md)                                                         | Définit la propriété **EnforceChannelBinding** .<br/> **Windows server 2008 R2 et Windows server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2012.<br/>                                                                                  |
 | [**SetIPAndPort**](setipandport-win32-tsgatewayserversettings.md)                                                                                 | Définit l’adresse IP d’écoute et le numéro de port pour le transport spécifié.<br/> **Windows server 2008 R2 et Windows server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2012.<br/>                                                    |
 | [**SetMaxConnections**](setmaxconnections-win32-tsgatewayserversettings.md)                                                                       | Définit le nombre maximal de connexions autorisées via la passerelle des services Bureau à distance. Cette méthode modifie les propriétés **MaxConnections** et **UnlimitedConnections** .<br/>                                                                                                |
-| [**SetSslBridging**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Définit le type de pontage SSL à utiliser par le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                    |
-| [**TSGRemoveAdminMsg**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Supprime le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGRemoveConsentMsg**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Supprime le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGStoreAdminMsg**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Met à jour le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
-| [**TSGStoreConsentMsg**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Met à jour le message de consentement pour le serveur de passerelle.<br/> **Windows Server 2008 :** Cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                   |
+| [**SetSslBridging**](setsslbridging-win32-tsgatewayserversettings.md)                                                                             | Définit le type de pontage SSL à utiliser par le serveur de passerelle Bureau à distance.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                    |
+| [**TSGRemoveAdminMsg**](tsgremoveadminmsg-win32-tsgatewayserversettings.md)                                                                       | Supprime le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGRemoveConsentMsg**](tsgremoveconsentmsg-win32-tsgatewayserversettings.md)                                                                   | Supprime le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGStoreAdminMsg**](tsgstoreadminmsg-win32-tsgatewayserversettings.md)                                                                         | Met à jour le message d’administration pour le serveur de passerelle.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                            |
+| [**TSGStoreConsentMsg**](tsgstoreconsentmsg-win32-tsgatewayserversettings.md)                                                                     | Met à jour le message de consentement pour le serveur de passerelle.<br/> **Windows Server 2008 :** cette méthode n’est pas disponible avant Windows Server 2008 R2.<br/>                                                                                                   |
 
 
 
@@ -149,7 +149,7 @@ Type d'accès : Lecture seule
 
 Heure de fin du message d’administration.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -164,7 +164,7 @@ Type d'accès : Lecture seule
 
 Heure de début du message d’administration.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -179,7 +179,7 @@ Type d'accès : Lecture seule
 
 Texte du message administratif.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -194,7 +194,7 @@ Type d'accès : Lecture seule
 
 CLSID du plug-in d’authentification actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ Type d'accès : Lecture seule
 
 Description du plug-in d’authentification actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ Type d'accès : Lecture seule
 
 Nom du plug-in d’authentification actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -239,7 +239,7 @@ Type d'accès : Lecture seule
 
 CLSID du plug-in d’autorisation actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -254,7 +254,7 @@ Type d'accès : Lecture seule
 
 Description du plug-in d’autorisation actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ Type d'accès : Lecture seule
 
 Nom du plug-in d’autorisation actuel.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -297,7 +297,7 @@ Type d'accès : Lecture seule
 
 Spécifie le hachage de certificat pour la liaison HTTPs sur le port 443 dans IIS.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -312,7 +312,7 @@ Type d'accès : Lecture seule
 
 Texte du message de consentement.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -342,7 +342,7 @@ Type d'accès : Lecture seule
 
 Spécifie si les paramètres IIS et RPC requis par le service de passerelle des services Bureau à distance sont configurés.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 </dd> <dt>
 
@@ -412,7 +412,7 @@ Type d'accès : Lecture seule
 
 Spécifie si seuls les clients pouvant être autorisés à se connecter à la passerelle des services Bureau à distance sont autorisés.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 <dt>
 
@@ -443,13 +443,13 @@ Type d'accès : Lecture seule
 
 Cette propriété n’est pas prise en charge à partir de Windows Server 2016.
 
-* * Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 et Windows Server 2008 : * *
+* * Windows Server 2012 r2, Windows Server 2012, Windows server 2008 r2 et Windows server 2008 : * *
 
 Spécifie si le serveur doit demander une déclaration d’intégrité (SoH) au client. Cette propriété peut être modifiée à l’aide de la méthode [**EnableRequestSOH**](win32-tsgatewayserversettings-enablerequestsoh.md) .
 
 </dd> <dt>
 
-**SkuName**
+**skuName**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -473,7 +473,7 @@ Type d'accès : Lecture seule
 
 Spécifie le type de pontage SSL à utiliser par le serveur de passerelle Bureau à distance. Il peut s’agir de l’une des valeurs suivantes.
 
-**Windows Server 2008 :** Cette propriété n’est pas disponible avant Windows Server 2008 R2.
+**Windows Server 2008 :** cette propriété n’est pas disponible avant Windows Server 2008 R2.
 
 <dt>
 
@@ -513,11 +513,11 @@ Indique si un nombre illimité de connexions est autorisé via la passerelle des
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette classe, vous devez être membre du groupe administrateurs.
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

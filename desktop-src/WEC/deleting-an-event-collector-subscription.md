@@ -5,12 +5,12 @@ ms.assetid: d3102149-906d-4286-85c8-e5b1eb6dd382
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47cec036625bbb94e33e71af0f1d9808ad9252a4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9edf2f9dda2b6393ab147d5f58ff8f889952eaeb7f31f82080558697f117f3c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006089"
 ---
 # <a name="deleting-an-event-collector-subscription"></a>Suppression d’un abonnement à un collecteur d’événements
 
@@ -24,7 +24,7 @@ Vous pouvez supprimer un abonnement à un collecteur d’événements à partir 
 >
 > **wecutil** *SubscriptionName* DS
 
- 
+ 
 
 Après avoir récupéré le nom de l’abonnement du collecteur d’événements à supprimer, vous pouvez fournir le nom de l’abonnement en tant que paramètre à [**EcDeleteSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription).
 
@@ -81,12 +81,12 @@ void __cdecl wmain()
 [Liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Informations de référence sur le collecteur d’événements Windows](windows-event-collector-reference.md)
+[Windows Référence du collecteur d’événements](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

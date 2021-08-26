@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c3ee68c9b026fc37457819777e69d2be7984e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d36b96e94ba2803664e3ff4c4fce6f4f95317c33ce5ab9ccd755c95c8d23fa21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035929"
 ---
 # <a name="rtmaddroute-function"></a>RtmAddRoute fonction)
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La fonction **RtmAddRoute** ajoute une entrée de routage ou met à jour une entrée d’itinéraire existante.
 
@@ -140,7 +140,7 @@ La valeur de retour est l’un des codes suivants.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction génère un message de modification de l’itinéraire si le meilleur itinéraire vers un réseau de destination a été modifié à la suite de cette opération. Toutefois, le message de modification d’itinéraire n’est pas envoyé au client qui effectue cet appel. Au lieu de cela, les informations pertinentes sont retournées par cette fonction directement à ce client via les paramètres *Flags*, *CurBestRoute* et *PrevBestRoute* .
 

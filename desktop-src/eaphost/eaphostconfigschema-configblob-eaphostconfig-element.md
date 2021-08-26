@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b220c74c6439b4b2cbb0d05a1d540d673e1bd17b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f0d3b928ebc6cd24a6d7102ea37a8d0ae980c54499f568d25ca224b1121a20b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120021639"
 ---
 # <a name="configblob-eaphostconfig-element"></a>Élément ConfigBlob (EapHostConfig)
 
@@ -33,7 +33,7 @@ L’élément **ConfigBlob (EapHostConfig)** est utilisé lorsque la configurati
 
 L’élément **ConfigBlob** est défini par l’élément [**EapHostConfig**](eaphostconfigschema-eaphostconfig-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les éléments [**config**](eaphostconfigschema-config-eaphostconfig-element.md) et **ConfigBlob** ne peuvent pas être utilisés simultanément.
 
@@ -43,8 +43,8 @@ Les éléments [**config**](eaphostconfigschema-config-eaphostconfig-element.md)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

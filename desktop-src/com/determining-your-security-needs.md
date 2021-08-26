@@ -4,12 +4,12 @@ description: La façon dont vous configurez la sécurité COM pour votre applica
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62cacef6d4e3aab59cb3b603125c36dd17d07846
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d57ccbbc8fc96b7c94e90fd3925dfb2ffff07225c34ebe1da34353f42b08b3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993229"
 ---
 # <a name="determining-your-security-needs"></a>Détermination de vos besoins en matière de sécurité
 
@@ -36,9 +36,9 @@ La sécurité dans COM s’appuie sur les services d’authentification administ
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

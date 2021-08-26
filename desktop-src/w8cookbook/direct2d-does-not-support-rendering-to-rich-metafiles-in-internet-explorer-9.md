@@ -4,19 +4,19 @@ description: Direct2D ne prend pas en charge le rendu des sous-fichiers enrichis
 ms.assetid: D106FBD6-F05E-41A6-B8F8-569EB9810E2C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f51ae6d098c08c0a18656aae2adf3d79d68652
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 9ebe10310202385fa4e9458cb1a442cbf98a3f6f178331d888c096449631ca61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057349"
 ---
 # <a name="direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9"></a>Direct2D ne prend pas en charge le rendu des sous-fichiers enrichis dans Internet Explorer 9
 
 ## <a name="platforms"></a>Plateformes
 
 **Clients** – Windows Vista, Windows 7, Windows 8  
-**Serveurs** – windows Server 2008, windows Server 2008 R2, windows server 2012  
+**serveurs** : Windows server 2008, Windows server 2008 R2, Windows Server 2012  
 
 
 

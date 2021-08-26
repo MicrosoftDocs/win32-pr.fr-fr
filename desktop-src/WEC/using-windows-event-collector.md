@@ -1,20 +1,20 @@
 ---
-title: Utilisation du collecteur d’événements Windows
-description: Cette section répertorie les rubriques qui expliquent les tâches réalisables à l’aide du kit de développement logiciel (SDK) du collecteur d’événements Windows. Des exemples de code et des explications sur toutes les tâches sont inclus dans chacune des rubriques suivantes.
+title: utilisation du collecteur d’événements Windows
+description: cette section répertorie les rubriques qui expliquent les tâches réalisables à l’aide du kit de développement logiciel (SDK) du collecteur d’événements Windows. Des exemples de code et des explications sur toutes les tâches sont inclus dans chacune des rubriques suivantes.
 ms.assetid: 3396454a-4f43-45d0-951e-3096b9a4a077
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc618ced4cefc7f17fb63b27bb1e097e65b3adac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb8b928dddcd3e70848d510a8986962d478bedbe6f2f8bffcbec19c276983328
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106525704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006009"
 ---
-# <a name="using-windows-event-collector"></a>Utilisation du collecteur d’événements Windows
+# <a name="using-windows-event-collector"></a>utilisation du collecteur d’événements Windows
 
-Cette section répertorie les rubriques qui expliquent les tâches réalisables à l’aide du kit de développement logiciel (SDK) du collecteur d’événements Windows. Des exemples de code et des explications sur toutes les tâches sont inclus dans chacune des rubriques suivantes.
+cette section répertorie les rubriques qui expliquent les tâches réalisables à l’aide du kit de développement logiciel (SDK) du collecteur d’événements Windows. Des exemples de code et des explications sur toutes les tâches sont inclus dans chacune des rubriques suivantes.
 
 ## <a name="in-this-section"></a>Dans cette section
 
@@ -58,9 +58,9 @@ Cette section répertorie les rubriques qui expliquent les tâches réalisables 
 
     Fournit des informations et un exemple de code C++ pour la nouvelle tentative d’abonnement d’un collecteur d’événements lorsqu’une ou plusieurs sources d’événements ont échoué. Vous pouvez réessayer une seule source d’événements ou vous pouvez réessayer l’intégralité de l’abonnement.
 
- 
+ 
 
- 
+ 
 
 
 

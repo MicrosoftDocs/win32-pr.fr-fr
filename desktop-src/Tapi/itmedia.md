@@ -4,16 +4,16 @@ ms.assetid: f5cd7971-3456-4e2f-8808-deb16678099a
 title: Interface ITMedia (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd00d7eab685fe99b089556bcdb0ed2bf6329df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bfd1cf7dcf8ef294481a4687dbac950f97b4adede6a6871222292127e6255057
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034639"
 ---
 # <a name="itmedia-interface"></a>Interface ITMedia
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 L’interface **ITMedia** est une représentation de média dans un protocole SDP (session Description Protocol), consultez RFC 2327. Cette interface exporte des méthodes pour récupérer et définir des propriétés de média de base, telles que le type. Les méthodes [**ITMediaCollection :: obten \_ Item**](itmediacollection-get-item.md) et [**ITMediaCollection :: Create**](itmediacollection-create.md) créent l’interface **ITMedia** .
 

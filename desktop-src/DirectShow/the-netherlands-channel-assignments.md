@@ -4,12 +4,12 @@ ms.assetid: bdbd88f0-43d8-456d-87ca-37e718c08ec4
 title: Affectations de canal des pays-bas
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b341bc99bbab99f2d78abee21dfbfca1f9a852aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f9c47777b404a152271fc494f460ecd3f3d9ca8daa59a84064b0d977958948d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078759"
 ---
 # <a name="the-netherlands-channel-assignments"></a>Affectations de canal des pays-bas
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

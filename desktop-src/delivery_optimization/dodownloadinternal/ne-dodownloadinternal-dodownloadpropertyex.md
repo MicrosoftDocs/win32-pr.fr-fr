@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/29/2019
-ms.openlocfilehash: 5df0f53778d9059ef8767f5b8052940847e36c00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5ec26d845fd6df2bfe0e84fffed0979c39e1971244788c9dfe5ddd3a0c0beca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990379"
 ---
 # <a name="dodownloadpropertyex-enumeration"></a>Énumération DODownloadPropertyEx
 
@@ -47,10 +47,10 @@ typedef enum _DODownloadPropertyEx
 | Condition requise | Valeur |
 |-|-|
 | DODownloadPropertyEx_UpdateId | Réservé. Ne pas utiliser. |
-| DODownloadPropertyEx_CorrelationVector | Optionnel. Définit un vecteur de corrélation spécifique à des fins de télémétrie. Le type VARIANT est VT_BSTR. |
+| DODownloadPropertyEx_CorrelationVector | Facultatif. Définit un vecteur de corrélation spécifique à des fins de télémétrie. Le type VARIANT est VT_BSTR. |
 | DODownloadPropertyEx_DecryptionInfo | Réservé. Ne pas utiliser. |
 | DODownloadPropertyEx_IntegrityCheckInfo | Facultatif en écriture seule. Définit l’emplacement du fichier de hachage de l’élément (PHF), utilisé par pour effectuer des vérifications de l’intégrité du Runtime sur le contenu téléchargé. Le type VARIANT est VT_BSTR. |
-| DODownloadPropertyEx_IntegrityCheckMandatory | Optionnel. Définit un indicateur booléen indiquant si l’utilisation du fichier de hachage de la pièce (PHF) est obligatoire. Si VARIANT_TRUE, le téléchargement est abandonné une fois la vérification d’intégrité en échec. Le type VARIANT est VT_BOOL. |
+| DODownloadPropertyEx_IntegrityCheckMandatory | Facultatif. Définit un indicateur booléen indiquant si l’utilisation du fichier de hachage de la pièce (PHF) est obligatoire. Si VARIANT_TRUE, le téléchargement est abandonné une fois la vérification d’intégrité en échec. Le type VARIANT est VT_BOOL. |
 | DODownloadPropertyEx_TotalSizeBytes | Réservé. Ne pas utiliser. |
 | DODownloadPropertyEx_TempLocalFileUsage | Réservé. Ne pas utiliser. |
 
@@ -58,6 +58,6 @@ typedef enum _DODownloadPropertyEx
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | DODownloadInternal. h |

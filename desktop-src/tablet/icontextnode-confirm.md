@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 3703bb735c0707c412b7c1e41c43819904d83ce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 248eb78f364f7e938d78846c3e830cc170587961b81dfedcc046e10c59e4fd18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008449"
 ---
 # <a name="icontextnodeconfirm-method"></a>IContextNode :: Confirm, méthode
 
@@ -50,7 +50,7 @@ HRESULT Confirm(
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour permettre à l’utilisateur final de confirmer que le [**IInkAnalyzer**](iinkanalyzer.md) a correctement analysé les traits. Après l’appel de **IContextNode :: Confirm** , le **IInkAnalyzer** ne modifie pas les objets [**IContextNode**](icontextnode.md) pour ces traits lors de l’analyse ultérieure.
 
@@ -70,7 +70,7 @@ Les méthodes [**IInkAnalyzer :: RemoveStroke**](iinkanalyzer-removestroke.md) 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée type 1 lorsque les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée type 1 lorsque les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 277b875f-37f1-4f4d-98ae-7a18131de4f0
 title: Type d’action personnalisé 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72efd083b2cd547ff1dbd7f3bc81a617b5da88e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3437fcd8a9a0da84ecb03f2527d30b6644210b2feb2ccc6c5f6558c3667a0d9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044899"
 ---
 # <a name="custom-action-type-1"></a>Type d’action personnalisé 1
 
@@ -55,7 +55,7 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 Consultez [valeurs de retour de l’action personnalisée](custom-action-return-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une action personnalisée qui appelle une bibliothèque de liens dynamiques (DLL) requiert un handle pour la session d’installation. S’il s’agit également d’une action personnalisée d’exécution différée, la session n’existe peut-être plus pendant l’exécution du script d’installation. Pour plus d’informations sur la façon dont une action personnalisée de ce type peut obtenir des informations de contexte, consultez [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md).
 

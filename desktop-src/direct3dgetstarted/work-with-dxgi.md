@@ -1,19 +1,19 @@
 ---
 title: Utiliser les ressources de l’appareil DirectX
-description: Comprendre le rôle de Microsoft DirectX Graphics infrastructure (DXGI) dans votre jeu DirectX du Windows Store.
+description: découvrez le rôle de Microsoft directx graphics Infrastructure (DXGI) dans votre jeu DirectX Windows Store.
 ms.assetid: 24c0c81d-6b55-4116-868a-154addf0f04c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 096e2be6f957d99bc6e5055f845c14448ecd647f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 600af9c5ca2d2ba8ce8a7b078c769e195c4a7898384d102a21be3aaaf2c936bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068659"
 ---
 # <a name="work-with-directx-device-resources"></a>Utiliser les ressources de l’appareil DirectX
 
-Comprendre le rôle de Microsoft DirectX Graphics infrastructure (DXGI) dans votre jeu DirectX du Windows Store. DXGI est un ensemble d’API utilisé pour configurer et gérer les ressources de la carte graphique et graphiques de bas niveau. Sans cela, vous n’auriez aucun moyen de dessiner les graphiques de votre jeu dans une fenêtre.
+découvrez le rôle de Microsoft directx graphics Infrastructure (DXGI) dans votre jeu DirectX Windows Store. DXGI est un ensemble d’API utilisé pour configurer et gérer les ressources de la carte graphique et graphiques de bas niveau. Sans cela, vous n’auriez aucun moyen de dessiner les graphiques de votre jeu dans une fenêtre.
 
 DXGI de cette façon : pour accéder directement au GPU et gérer ses ressources, vous devez disposer d’un moyen de le décrire à votre application. L’élément le plus important concernant le GPU est l’endroit où vous pouvez dessiner des pixels afin qu’il puisse envoyer ces pixels à l’écran. En général, il s’agit de la « mémoire tampon d’arrière-plan », c’est-à-dire d’un emplacement dans la mémoire du GPU dans lequel vous pouvez dessiner les pixels, puis faire en sorte qu’elle soit « retournée » ou « permutée » et envoyée à l’écran sur un signal d’actualisation. DXGI vous permet d’acquérir cet emplacement et les moyens d’utiliser cette mémoire tampon (appelée *chaîne de permutation* , car il s’agit d’une chaîne de mémoires tampons remplaçables, qui autorise plusieurs stratégies de mise en mémoire tampon).
 
@@ -110,7 +110,7 @@ if(m_hWnd == NULL)
 
 
 
-Le modèle d’application de bureau Windows comprend un hook dans la boucle de messages Windows. Vous devez baser votre boucle de programme principale sur ce hook en écrivant une fonction « StaticWindowProc » pour traiter les événements de fenêtrage. Il doit s’agir d’une fonction statique, car Windows l’appellera en dehors du contexte d’une instance de classe. Voici un exemple très simple d’une fonction de traitement de message statique.
+le modèle d’application de bureau Windows comprend un hook dans la boucle de messages Windows. Vous devez baser votre boucle de programme principale sur ce hook en écrivant une fonction « StaticWindowProc » pour traiter les événements de fenêtrage. il doit s’agir d’une fonction statique, car Windows l’appellera en dehors du contexte d’une instance de classe. Voici un exemple très simple d’une fonction de traitement de message statique.
 
 
 ```C++
@@ -152,7 +152,7 @@ LRESULT CALLBACK MainClass::StaticWindowProc(
 
 Cet exemple simple vérifie uniquement les conditions de sortie du programme : [**WM \_ Close**](/windows/desktop/winmsg/wm-close), sent lorsque la fenêtre est requise pour être fermée, et [**WM \_ Destroy**](/windows/desktop/winmsg/wm-destroy), qui est envoyé après la suppression de la fenêtre de l’écran. Une application de production complète doit également gérer d’autres événements de fenêtrage : pour obtenir la liste complète des événements de fenêtrage, consultez [notifications de fenêtre](/windows/desktop/winmsg/window-notifications).
 
-La boucle de programme principale elle-même doit accuser réception des messages Windows en permettant à Windows d’exécuter la procédure de message statique. Aidez le programme à s’exécuter efficacement en dupliquant le comportement : chaque itération doit choisir de traiter les nouveaux messages Windows s’ils sont disponibles et, si aucun message ne se trouve dans la file d’attente, il doit afficher un nouveau Frame. Voici un exemple très simple :
+la boucle de programme principale elle-même doit accuser réception des messages Windows en autorisant Windows la possibilité d’exécuter la procédure de message statique. aidez le programme à s’exécuter efficacement en dupliquant le comportement : chaque itération doit choisir de traiter de nouveaux messages Windows s’ils sont disponibles, et si aucun message ne se trouve dans la file d’attente, elle doit restituer un nouveau frame. Voici un exemple très simple :
 
 
 ```C++
@@ -259,11 +259,11 @@ Tout d’abord, vous indiquez à DXGI les valeurs à utiliser pour les propriét
 -   **SwapEffect**: définissez cette valeur sur dxgi \_ swap \_ Effect \_ Flip \_ Sequential.
 -   **Format**: le format \_ dxgi \_ B8G8R8A8 \_ UNORM spécifie la couleur 32 bits : 8 bits pour chacun des trois canaux de couleurs RVB et 8 bits pour le canal alpha.
 -   **BufferCount**: définissez cette valeur sur 2 pour un comportement traditionnel de double mise en mémoire tampon afin d’éviter de détruire. Définissez le nombre de mémoires tampons sur 3 Si votre contenu graphique prend plusieurs cycles d’actualisation de l’analyse pour afficher une image unique (à 60 Hz, par exemple, le seuil est supérieur à 16 ms).
--   **SampleDesc**: ce champ contrôle l’échantillonnage multiple. Définissez **Count** sur 1 et **Quality** sur 0 pour les chaînes de permutation de modèle. (Pour utiliser l’échantillonnage multiple avec les chaînes de permutation-modèle, dessinez sur une cible de rendu à échantillonnage multiple distincte, puis résolvez cette cible vers la chaîne de permutation juste avant de la présenter. Un exemple de code est fourni dans [échantillonnage multiple dans les applications du Windows Store](/previous-versions/windows/apps/dn458384(v=win.10)).)
+-   **SampleDesc**: ce champ contrôle l’échantillonnage multiple. Définissez **Count** sur 1 et **Quality** sur 0 pour les chaînes de permutation de modèle. (Pour utiliser l’échantillonnage multiple avec les chaînes de permutation-modèle, dessinez sur une cible de rendu à échantillonnage multiple distincte, puis résolvez cette cible vers la chaîne de permutation juste avant de la présenter. un exemple de code est fourni dans l' [échantillonnage multiple dans Windows applications du windows Store](/previous-versions/windows/apps/dn458384(v=win.10)).)
 
 Une fois que vous avez spécifié une configuration pour la chaîne de permutation, vous devez utiliser la même fabrique de DXGI qui a créé l’appareil Direct3D (et le contexte de périphérique) pour créer la chaîne de permutation.
 
-**Forme abrégée :  **
+* * Forme abrégée : * *
 
 Récupérez la référence [**ID3D11Device**](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2) que vous avez créée précédemment. Effectuez une conversion vers [**IDXGIDevice3**](/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3) (si vous ne l’avez pas déjà fait), puis appelez [**IDXGIDevice :: GetAdapter**](/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getadapter) pour acquérir l’adaptateur DXGI. Obtenir la fabrique parente pour cet adaptateur en appelant [**IDXGIFactory2 :: GetParent**](/windows/desktop/api/dxgi/nf-dxgi-idxgiobject-getparent) ([**IDXGIFactory2**](/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2) hérite de [**IDXGIObject**](/windows/desktop/api/dxgi/nn-dxgi-idxgiobject)) — vous pouvez maintenant utiliser cette fabrique pour créer la chaîne de permutation en appelant [**CreateSwapChainForHwnd**](/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd), comme illustré dans l’exemple de code suivant.
 
@@ -398,6 +398,6 @@ Ensuite, vous allez examiner la structure du pipeline Graphics. consultez [compr
 [Utiliser des nuanceurs et des ressources de nuanceur](work-with-shaders-and-shader-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

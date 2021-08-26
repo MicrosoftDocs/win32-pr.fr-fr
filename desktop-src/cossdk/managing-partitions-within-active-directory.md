@@ -4,12 +4,12 @@ ms.assetid: 915b4643-cbda-433a-a383-65a6b0fd0874
 title: Gestion des partitions dans Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6635e49b7d2833a1e6e177c25f9f2fb05ff0dff4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a87c0aebc9ca52dee005a0343e504756e3e117c3e012098e529fb6d52033428f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070579"
 ---
 # <a name="managing-partitions-within-active-directory"></a>Gestion des partitions dans Active Directory
 

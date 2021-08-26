@@ -4,12 +4,12 @@ description: L’illustration suivante montre le modèle d’objet de point de c
 ms.assetid: 6c5a32a1-932e-4868-b4c6-8701e90a7c26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e491d3ec89b1074fb09a9f7632a886fb67b59863
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a06fa7e9cd8fa2bd2e038002414260bf2468f8d951c24da42bdd7a687af06bc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007962"
 ---
 # <a name="what-is-the-control-point-object-model"></a>Qu’est-ce que le modèle objet de point de contrôle ?
 
@@ -21,9 +21,9 @@ La recherche d’appareils avec l’interface de recherche d’appareils crée u
 
 Les objets périphérique contiennent toujours une collection de services qui contient un ou plusieurs objets de service. Ces objets de service sont utilisés par les applications pour communiquer avec et contrôler les appareils.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: c5b752c5-4113-41e3-85f7-6a19fa0c7c80
 title: Utilisation de la Conférence de téléphonie IP Rendezvous
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bfa5191be7e4a630af8736fba5661433d7925d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 066d1fa523281504c317882e5fd8fbca238927e6901d202dd8ef066d27844bc3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034119"
 ---
 # <a name="using-rendezvous-ip-telephony-conferencing"></a>Utilisation de la Conférence de téléphonie IP Rendezvous
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Rendezvous se compose de trois ensembles d’interfaces de base :
 

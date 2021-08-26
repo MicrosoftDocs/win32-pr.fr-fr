@@ -1,20 +1,20 @@
 ---
 title: Implémentation d’un énumérateur de point de terminaison audio personnalisé
-description: À partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.
+description: à partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.
 ms.assetid: 684bd62e-1e28-4330-a3c5-6bce684d652d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 435ab2a572169f20a7f8f9db194449be5361e409
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9b95f3fc69b11d3ca28b2f6778e6892dc01d328a7b10ad72520cff7bcbca7b10
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106511520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990679"
 ---
 # <a name="implementing-a-custom-audio-endpoint-enumerator"></a>Implémentation d’un énumérateur de point de terminaison audio personnalisé
 
-À partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance. Un fournisseur de protocole Bureau à distance peut utiliser un énumérateur de point de terminaison audio personnalisé pour récupérer une collection de points de terminaison audio ayant un ensemble spécifique de fonctionnalités.
+à partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance. Un fournisseur de protocole Bureau à distance peut utiliser un énumérateur de point de terminaison audio personnalisé pour récupérer une collection de points de terminaison audio ayant un ensemble spécifique de fonctionnalités.
 
 **Pour implémenter un énumérateur de point de terminaison audio distant personnalisé**
 
@@ -65,7 +65,7 @@ L’objet de la Banque de propriétés doit implémenter l’interface <a href="
 
 2.  L’énumérateur de point de terminaison personnalisé doit être implémenté dans une DLL qui peut être chargée dans le système audio et d’autres applications. La DLL doit être signée afin que les processus sécurisés puissent la charger. La DLL doit implémenter et exporter la fonction [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md) , qui sert de point d’entrée à l’énumérateur de point de terminaison personnalisé.
 
-Le service Services Bureau à distance appelle la méthode [**QueryProperty**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty) et définit le paramètre *QueryType* sur **WTS \_ query \_ AUDIOENUM \_ dll** pour récupérer le nom de l’objet énumérateur.
+le service Services Bureau à distance appelle la méthode [**QueryProperty**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty) et définit le paramètre *QueryType* sur **WTS \_ \_ \_ DLL AUDIOENUM de requête** pour récupérer le nom de l’objet énumérateur.
 
 Les objets énumérateur personnalisés utilisent des interfaces de type COM et un mécanisme de décompte de références COM, mais ce ne sont pas des objets COM véritables. L’énumérateur de point de terminaison personnalisé doit avoir la possibilité d’utiliser des interfaces audio héritées utilisées par les applications qui ne prennent pas en charge COM. Pour cette raison, l’énumérateur de point de terminaison personnalisé ne doit pas reposer sur le mécanisme de gestion du cycle de vie de COM. Les consommateurs de votre énumérateur de point de terminaison audio, tels que MMDevAPI.dll, chargent la DLL d’énumérateur de point de terminaison personnalisée quand ils sont requis par les applications utilisateur, et ils ne déchargent pas l’énumérateur lorsque l’énumérateur contient une référence à un objet d’énumérateur de périphérique, un objet de collection d’appareils, un objet appareil ou un objet de magasin de propriétés. Toutefois, il n’est pas possible pour ces consommateurs de suivre des références à d’autres types d’objets appartenant à l’énumérateur de point de terminaison personnalisé. En conséquence, nous recommandons que votre énumérateur de point de terminaison personnalisé ne crée pas d’objets qui pourraient en surhabiter ces quatre types d’objets.
 
@@ -78,7 +78,7 @@ Pour implémenter un énumérateur de périphérique audio personnalisé, vous d
 
 Nous ne pensons pas que vous implémentiez la liste complète des interfaces [**IMMDevice :: Activate**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) dans votre énumérateur de périphérique audio personnalisé. Au lieu de cela, vous devez implémenter [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) et [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). Vous pouvez éventuellement implémenter quelques autres, telles que [**IAudioEndpointVolume**](/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume). Pour toute interface que vous n’implémentez pas, vous devez retourner **E \_ nointerface** (vous devez utiliser ce code d’erreur spécifique). Windows revient ensuite à une implémentation stockée de l’interface (par exemple, [**IAudioClient2**](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).
 
-Pour obtenir une documentation de référence supplémentaire sur la façon d’implémenter et d’inscrire des points de terminaison audio, consultez [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). Pour obtenir un diagramme illustrant le fonctionnement de WASAPI, consultez [composants audio en mode utilisateur](/windows/desktop/CoreAudio/user-mode-audio-components). Notez que toutes les données audio en mode utilisateur sont nouvelles à partir de Windows Server 2008.
+Pour obtenir une documentation de référence supplémentaire sur la façon d’implémenter et d’inscrire des points de terminaison audio, consultez [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt). Pour obtenir un diagramme illustrant le fonctionnement de WASAPI, consultez [composants audio en mode utilisateur](/windows/desktop/CoreAudio/user-mode-audio-components). notez que toutes les données audio en mode utilisateur sont nouvelles à partir de Windows Server 2008.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

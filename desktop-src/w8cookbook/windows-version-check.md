@@ -1,19 +1,19 @@
 ---
 title: Vérification de la version de Windows
-description: La version du système d’exploitation a été incrémentée avec la version du système d’exploitation Windows 10.
+description: la version du système d’exploitation a été incrémentée avec la version du système d’exploitation Windows 10.
 ms.assetid: 55BB7B44-1AFD-456D-9380-38B4D26E5EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ea1e65ed97859486bdd0a18fe53ee44a653faf
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 710f59313f05dac95e5953c6013108987dc9bf8ad84d7eb7d8bca67a5391996b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007879"
 ---
 # <a name="windows-version-check"></a>Vérification de la version de Windows
 
-La version du système d’exploitation a été incrémentée avec la version du système d’exploitation Windows 10. Cela signifie que le numéro de version interne de Windows 10 a également été remplacé par 10,0. Comme précédemment, nous faisons le maximum pour maintenir la compatibilité entre les applications et les appareils après un changement de version du système d’exploitation. Pour la plupart des catégories d’applications (sans dépendances de noyau), la modification n’aura pas d’impact négatif sur les fonctionnalités de l’application, et les applications existantes continueront à fonctionner correctement sur Windows 10.
+la version du système d’exploitation a été incrémentée avec la version du système d’exploitation Windows 10. cela signifie que le numéro de version interne de Windows 10 a également été remplacé par 10,0. Comme précédemment, nous faisons le maximum pour maintenir la compatibilité entre les applications et les appareils après un changement de version du système d’exploitation. Pour la plupart des catégories d’applications (sans dépendances de noyau), la modification n’aura pas d’impact négatif sur les fonctionnalités de l’application, et les applications existantes continueront à fonctionner correctement sur Windows 10.
 
 ## <a name="manifestations"></a>Manifestations
 
@@ -29,15 +29,15 @@ Certaines applications effectuent une vérification de version et transmettent s
 -   Le numéro de version de NTDDI (interface de pilote de périphérique NT) est incrémenté uniquement si la fonctionnalité cible de l’API change. Veillez à détecter la modification via APISet ou une autre API exposée telle qu’elle a été créée par l’équipe des fonctionnalités, et n’utilisez pas la version en tant que proxy pour une fonctionnalité ou un correctif. En cas de changements cassants, et si une vérification correcte n’est pas exposée, il s’agit d’un bogue.
 -   Assurez-vous que l’application ne vérifie pas la version de manière étrange, par exemple par le biais du Registre, des versions de fichiers, des décalages, du mode noyau, des pilotes ou d’autres moyens. Si l’application doit absolument vérifier la version, utilisez les API GetVersion, qui doivent retourner le numéro principal, le numéro secondaire et le numéro de Build.
 -   Si vous utilisez l’API GetVersion ou d’autres fonctions d’assistance de version, telles que [VerifyVersionInfo](/windows/desktop/api/winbase/nf-winbase-verifyversioninfoa), n’oubliez pas que le comportement de cette API a été modifié à partir de Windows 8.1. Pour plus d’informations, reportez-vous à [la documentation de l’API](../SysInfo/version-helper-apis.md) .
--   Si vous possédez des applications telles qu’un logiciel anti-programme malveillant ou un pare-feu, vous devez passer par vos canaux de commentaires habituels et par le biais du programme Windows Insider.
+-   si vous possédez des applications telles qu’un logiciel anti-programme malveillant ou un pare-feu, vous devez utiliser vos canaux de commentaires habituels et via le programme Windows insider.
 
-## <a name="declaring-windows-10-compatibility-with-an-app-manifest"></a>Déclaration de compatibilité Windows 10 avec un manifeste d’application
+## <a name="declaring-windows-10-compatibility-with-an-app-manifest"></a>déclaration de la compatibilité Windows 10 avec un manifeste d’application
 
-Si votre application est compatible avec Windows 10, elle peut déclarer ce fait dans le [manifeste de l’application (exécutable)](/windows/compatibility/application-executable-manifest) pour l’exécutable de l’application. Cela indique au système que votre application comprend le numéro de version du système 10,0 de Windows 10 (par conséquent, l’API GetVersion ne retourne pas de version antérieure) et laisse le système désactiver d’autres comportements de compatibilité appliqués aux applications qui ne déclarent pas la compatibilité avec Windows 10.
+si votre application est compatible avec Windows 10, elle peut déclarer ce fait dans le [manifeste de l’application (exécutable)](/windows/compatibility/application-executable-manifest) pour l’exécutable de l’application. cela indique au système que votre application comprend le numéro de version 10,0 du système de Windows 10 (par conséquent, l’API GetVersion ne retourne pas de version antérieure) et permet également au système de désactiver d’autres comportements de compatibilité appliqués aux applications qui ne déclarent pas Windows 10 compatibilité.
 
-Pour déclarer la compatibilité Windows 10 dans un manifeste d’application, vous devez ajouter une [section de **&lt; &gt; compatibilité**](../SbsCs/application-manifests.md#compatibility) du manifeste si aucune n’existe déjà, puis ajouter des éléments **&lt; pris en &gt; charge** pour Windows 10 et toutes les autres versions de Windows que vous souhaitez déclarer que votre application prend en charge.
+pour déclarer la compatibilité Windows 10 dans un manifeste d’application, vous devez ajouter une [section de **&lt; &gt; compatibilité**](../SbsCs/application-manifests.md#compatibility) du manifeste si aucune n’existe déjà, puis ajouter des éléments **&lt; pris en &gt; charge** pour Windows 10 et toutes les autres versions de Windows que vous souhaitez déclarer que votre application prend en charge.
 
-L’exemple suivant montre un fichier manifeste d’application pour une application qui prend en charge toutes les versions de Windows de Windows Vista vers Windows 10 :
+l’exemple suivant montre un fichier manifeste d’application pour une application qui prend en charge toutes les versions de Windows de Windows Vista à Windows 10 :
 
 ```XML
 <!-- example.exe.manifest -->
@@ -69,10 +69,10 @@ L’exemple suivant montre un fichier manifeste d’application pour une applica
 
 La ligne ci-dessus indiquée `* ADD THIS LINE *` indique comment cibler avec précision votre application pour Windows 10.
 
-La déclaration de la prise en charge de Windows 10 dans votre manifeste d’application n’aura aucun effet lors de l’exécution de votre application sur les systèmes d’exploitation précédents.
+la déclaration de la prise en charge des Windows 10 dans le manifeste de votre application n’aura aucun effet lors de l’exécution de votre application sur les systèmes d’exploitation précédents.
 
 ## <a name="resources"></a>Ressources
 
--   [Application Compatibility Toolkit Download : Téléchargez Windows ADK pour Windows 10](https://download.microsoft.com/download/9/A/E/9AE69DD5-BA93-44E0-864E-180F5E700AB4/adk/adksetup.exe)
+-   [Shared Computer Toolkit de la compatibilité des applications téléchargement : télécharger le Windows ADK pour Windows 10](https://download.microsoft.com/download/9/A/E/9AE69DD5-BA93-44E0-864E-180F5E700AB4/adk/adksetup.exe)
 -   [Correctifs de compatibilité connus, modes de compatibilité et messages AppHelp](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
 -   [API d’assistance de version](../sysinfo/version-helper-apis.md)

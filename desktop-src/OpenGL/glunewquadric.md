@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: affedc7dcebd2b7925449e22cc1b902e88d936f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66fed28c555d327bffa18d8f9100a6f5e9824b714bff1308e6b2dab20b5d3671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036269"
 ---
 # <a name="glunewquadric-function"></a>gluNewQuadric fonction)
 
@@ -38,7 +38,7 @@ GLUquadric* WINAPI gluNewQuadric(void);
 
 Cette fonction n’a pas de paramètres.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluNewQuadric** crée et retourne un pointeur vers un nouvel objet quadric. Reportez-vous à cet objet lors de l’appel de fonctions de contrôle et de rendu quadric. Une valeur de retour de zéro signifie qu’il n’y a pas assez de mémoire à allouer à l’objet.
 

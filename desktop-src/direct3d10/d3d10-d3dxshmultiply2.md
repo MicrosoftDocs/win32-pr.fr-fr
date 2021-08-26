@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a72cdf7eb28b06e11b4901ebd048af143dfbdb5c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c6fba685a763a00e529e70b7c0f08a97706f3c5f2be4dba7c923ed5b4b102742
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069999"
 ---
 # <a name="d3dxshmultiply2-function-d3dx10mathh"></a>D3DXSHMultiply2, fonction (D3DX10Math. h)
 
@@ -75,7 +75,7 @@ Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le produit de deux fonctions SH de Order N = 2 génère une fonction SH de Order 2 × *N* -1 = 3, mais les résultats sont tronqués. Cela signifie que le produit est en mode de lancement ( *f* × *g*  =  *g* × *f* ) mais n’associe pas ( *f* × (*g* × *h*) ≠ ( *f* × *g*) × *h* ).
 

@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a120d477ff03675f160d94f1506f59cdf1462fa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfbcdad271a346820b318c94bed7ce6b9b9527d3fdd7df9cc3f1dc9d9a97aae3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008419"
 ---
 # <a name="win32_tslicensereportperdeviceentry-class"></a>\_Classe TSLicenseReportPerDeviceEntry Win32
 
@@ -87,7 +87,7 @@ Licence d’accès client TS ou RDS par utilisateur
 
 « Licence d’abonnement VDI standard suite par périphérique »
 
-« Licence d’abonnement VDI Premium suite par appareil »
+« licence d’abonnement VDI Premium Suite par appareil »
 
 « SERVICES CAL par périphérique »
 
@@ -124,21 +124,21 @@ Version de Services Bureau à distance pour laquelle la licence d’accès clien
 « Windows Server 2012 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2012, Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows Server 2012, Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence.
 
 </dd> <dt>
 
 « Windows Server 7 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2008 R2 ou Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows server 2008 R2 ou Windows server 2008 sont pris en charge avec cette licence.
 
 </dd> <dt>
 
 « Windows Server 2008 »
 </dt> <dd>
 
-Seuls les serveurs exécutant Windows Server 2008 sont pris en charge avec cette licence.
+seuls les serveurs exécutant Windows Server 2008 sont pris en charge avec cette licence.
 
 </dd> </dl>
 

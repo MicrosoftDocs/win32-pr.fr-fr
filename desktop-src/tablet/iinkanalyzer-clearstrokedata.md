@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 823ceaa825b454af851fab43e233526285445c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3413d8d6fb322030afdcffb97e8739ae4ca5e2314fe968f366ce25e58d90351e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057869"
 ---
 # <a name="iinkanalyzerclearstrokedata-method"></a>IInkAnalyzer :: ClearStrokeData, méthode
 
@@ -50,7 +50,7 @@ Identificateur du trait pour lequel les données du paquet sont effacées.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode lorsque les données de paquet d’un trait sont modifiées, par exemple lorsqu’un trait est déplacé ou transformé autrement. [**IInkAnalyzer**](iinkanalyzer.md) déclenche l’événement [**\_ IAnalysisEvents :: UpdateStrokesCache**](-ianalysisevents-updatestrokescache.md) lorsqu’il a besoin de tracer des données de paquets à partir d’un trait pour lequel les données du paquet ont été effacées.
 
@@ -60,7 +60,7 @@ Utilisez cette méthode lorsque les données de paquet d’un trait sont modifi�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
