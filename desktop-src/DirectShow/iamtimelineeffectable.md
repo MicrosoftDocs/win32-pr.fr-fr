@@ -1,5 +1,5 @@
 ---
-description: L’interface IAMTimelineEffectable fournit des méthodes pour ajouter des effets à un objet Timeline dans les services de modification DirectShow (DES) et pour manipuler les effets sur un objet.
+description: l’interface IAMTimelineEffectable fournit des méthodes pour ajouter des effets à un objet timeline dans DirectShow Services d’édition (DES) et pour manipuler les effets sur un objet.
 ms.assetid: 70f2da64-e16a-4d4d-9522-042b5fa2855c
 title: Interface IAMTimelineEffectable (qedit. h)
 ms.topic: reference
@@ -14,21 +14,21 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: bc67483f44515c2ce18825de5b6657d51e2c3826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad6b373f4b30209566709117b3b15ecf1a65d093ddb2dd27e9e0273b11ad0b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905029"
 ---
 # <a name="iamtimelineeffectable-interface"></a>Interface IAMTimelineEffectable
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-L' `IAMTimelineEffectable` interface fournit des méthodes pour ajouter des effets à un objet Timeline dans les [services de modification DirectShow](directshow-editing-services.md) (des) et pour manipuler les effets sur un objet. Tous les objets qui peuvent avoir des effets appliqués implémentent cette interface ; Cela comprend les sources, les pistes et les compositions.
+l' `IAMTimelineEffectable` interface fournit des méthodes pour ajouter des effets à un objet timeline dans [DirectShow Services de modification](directshow-editing-services.md) (DES) et pour manipuler les effets sur un objet. Tous les objets qui peuvent avoir des effets appliqués implémentent cette interface ; Cela comprend les sources, les pistes et les compositions.
 
 Un objet qui implémente cette interface peut avoir n’importe quel nombre d’effets. Pour chaque objet, le moteur de rendu applique ses effets par ordre de priorité, en commençant par le niveau de priorité 0.
 
@@ -55,7 +55,7 @@ L’interface **IAMTimelineEffectable** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -63,7 +63,7 @@ L’interface **IAMTimelineEffectable** possède ces méthodes.
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

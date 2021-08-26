@@ -4,16 +4,16 @@ ms.assetid: b76a7fee-0fae-41fb-a8cd-6803458d9182
 title: ITMedia ::p ut_FormatCodes, méthode (sdpblb. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9131f946635c2bb066e704f1d6245c1c30d1372
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dac8c2d9e102c6a923a535b8141c546885c583668e32fddb1fc607a8c1179a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012959"
 ---
 # <a name="itmediaput_formatcodes-method"></a>ITMedia ::p ut \_ FormatCodes, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **put \_ FormatCodes** définit la liste des codes de format de charge utile du support. Le variant contient un SAFEARRAY de **BSTR** s. Chaque **BSTR** au sein de ce tableau est une chaîne de code de format.
 
@@ -57,7 +57,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand une liste de formats de charge utile est donnée, cela implique que tous ces formats peuvent être utilisés dans la session, mais que le premier de ces formats soit le format par défaut de la session. Lorsque le protocole de transport est RTP, les codes de format sont des types de charge utile RTP.
 

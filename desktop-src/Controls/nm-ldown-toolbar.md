@@ -3,7 +3,7 @@ title: Code de notification NM_LDOWN (barre d’outils) (commctrl. h)
 description: Avertit la fenêtre parente d’une barre d’outils que le bouton gauche de la souris a été enfoncé. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: f5b356fb-265b-4eb0-a5a3-2a22d688f847
 keywords:
-- Contrôles Windows de code de notification NM_LDOWN (barre d’outils)
+- NM_LDOWN (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e60f1f05d85aa8885acf31a36098056d68612ba2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6cf283e8b3e0d1ed780a80d5608849bc42f200b61a5a94692c0924cb2e6241a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919649"
 ---
 # <a name="nm_ldown-toolbar-notification-code"></a>\_Code de notification LDOWN nm (barre d’outils)
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctr
 
 Retourne **false** pour permettre au contrôle de barre d’outils d’effectuer le traitement par défaut de l’événement, ou **true** pour empêcher le contrôle de traiter l’événement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette notification est envoyée après l’envoi du code de notification de [ \_ liste déroulante TBN](tbn-dropdown.md) .
 
@@ -59,8 +59,8 @@ Cette notification est envoyée après l’envoi du code de notification de [ \_
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: ebd68c22-9b00-4a8e-9954-e8b0eda764f8
 title: Constructeurs Color. Color
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 9d6fe2cdc790f87a69395cec5bfadaf653fc8acf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5425989bec7aaeeffce668f336550a298eb2de918714d895ab495fe4855c236e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964839"
 ---
 # <a name="colorcolor-constructors"></a>Constructeurs Color. Color
 

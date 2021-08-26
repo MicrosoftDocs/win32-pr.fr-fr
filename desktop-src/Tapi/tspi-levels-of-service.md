@@ -4,12 +4,12 @@ ms.assetid: e2e6b113-b6b0-43a1-ac95-6e8e188a6120
 title: Niveaux de service TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d829199bdcfce350d82f3c56cbbf9414fc46b35b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6c72f09f7a076364918815ba5fdb79591f6f5b12382ac2aa529e0859eec53f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120012129"
 ---
 # <a name="tspi-levels-of-service"></a>Niveaux de service TSPI
 
@@ -17,7 +17,7 @@ L’interface TAPI divise les services de communication en basique, supplémenta
 
 Un TSP est requis pour implémenter toutes les fonctions de téléphonie de base. Les [fonctions de téléphonie de base TSPI](tspi-basic-telephony-functions.md) contiennent un résumé de ces fonctions.
 
-La téléphonie supplémentaire comprend des fonctionnalités disponibles sur les PBX modernes, telles que le maintien, le transfert, la Conférence, le stationnement, etc. Un fournisseur de services doit fournir un service de téléphonie supplémentaire uniquement s’il peut implémenter la signification exacte telle qu’elle est définie par l’interface TAPI. Si ce n’est pas le cas, la fonctionnalité doit être fournie en tant que service de téléphonie étendu. Toutes les fonctionnalités supplémentaires sont facultatives. Un fournisseur de services spécifie les services qu’il prend en charge via les réponses à des fonctions telles que [**TSPI \_ LineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps) ou [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps). Un seul service supplémentaire peut être constitué de plusieurs appels et messages de fonction. Les services pour appareils téléphoniques font partie d’une téléphonie supplémentaire.
+La téléphonie supplémentaire comprend des fonctionnalités disponibles sur les PBX modernes, telles que le maintien, le transfert, la Conférence, le stationnement, etc. Un fournisseur de services doit fournir un service de téléphonie supplémentaire uniquement s’il peut implémenter la signification exacte telle qu’elle est définie par l’interface TAPI. Si ce n’est pas le cas, la fonctionnalité doit être fournie en tant que service de téléphonie étendu. Toutes les fonctionnalités supplémentaires sont facultatives. Un fournisseur de services spécifie les services qu’il prend en charge via les réponses à des fonctions telles que [**TSPI \_ LineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps) ou [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps). Un seul service supplémentaire peut être constitué de plusieurs appels et messages de fonction. Téléphone services d’appareil font partie d’une téléphonie supplémentaire.
 
 Les services de téléphonie étendus permettent à un fournisseur d’implémenter des fonctions spécifiques à l’appareil. Le fournisseur de services doit identifier les extensions de manière unique à l’aide d’un *identificateur d’extension*. Les applications récupèrent et utilisent cet identificateur unique pour déterminer les extensions prises en charge par le fournisseur de services.
 

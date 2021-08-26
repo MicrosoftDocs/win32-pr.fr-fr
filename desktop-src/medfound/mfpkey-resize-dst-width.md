@@ -4,12 +4,12 @@ ms.assetid: 8f0066ca-c464-480d-b38f-3c1134fc51b7
 title: MFPKEY_RESIZE_DST_WIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1837de9180fd20a7fea5921bfa08bc2adfc35a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e3da156b3c7b9ae698c5b189cfd35cde501fb956b093a2a312add3cec52674d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119887656"
 ---
 # <a name="mfpkey_resize_dst_width-property"></a>Propriété de largeur de l' \_ heure d’été de REdimensionnement MFPKEY \_ \_
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

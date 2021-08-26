@@ -1,24 +1,24 @@
 ---
 title: Glyphes et exécutions de glyphes
-description: Les glyphes et les exécutions de glyphes sont disponibles dans la couche la plus basse de fonctionnalités de l’API DirectWrite, la couche de rendu de glyphes.
+description: les glyphes et les exécutions de glyphes sont disponibles dans la couche la plus basse des fonctionnalités de l’API DirectWrite, la couche de rendu de glyphes.
 ms.assetid: e670cb65-1fcb-46fd-ac0b-02eaaaa51996
 keywords:
 - DirectWrite, glyphes
-- DirectWrite, exécution de glyphes
+- DirectWrite, exécutions de glyphes
 - exécutions de glyphes
 - glyphes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c5c6b30c9a44cde4704e6afd231cebbc91d2be
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b39d1ca47249adf11f4e1e2072620f24553f7e299e0690c1cc147c4f74a4939f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902918"
 ---
 # <a name="glyphs-and-glyph-runs"></a>Glyphes et exécutions de glyphes
 
-Les glyphes et les exécutions de glyphes sont disponibles dans la couche la plus basse de fonctionnalités de l’API [DirectWrite](direct-write-portal.md) , la couche de rendu de glyphes.
+les glyphes et les exécutions de glyphes sont disponibles dans la couche la plus basse des fonctionnalités de l’API [DirectWrite](direct-write-portal.md) , la couche de rendu de glyphes.
 
 ## <a name="glyphs"></a>Glyphes
 
@@ -44,7 +44,7 @@ Une exécution de glyphes représente un jeu contigu de glyphes qui ont tous le 
 
 ### <a name="the-idwritefontface-interface"></a>Interface IDWriteFontFace
 
-[DirectWrite](direct-write-portal.md) utilise le même système pour la classification des polices que Windows pesentation Foundation (WPF), il peut donc y avoir plusieurs polices physiques pour chaque famille de polices. Un type de police, tel que l’interface [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) dans DirectWrite, représente une police physique, avec une pondération, une inclinaison et une étirement spécifiques. Il contient le type de type de police, les références de fichier appropriées, les données d’identification de visage et diverses données de police telles que les métriques, les noms et les contours de glyphe.
+[DirectWrite](direct-write-portal.md) utilise le même système pour la classification des polices que Windows Pesentation Foundation (WPF), il peut donc y avoir plusieurs polices physiques pour chaque famille de polices. un type de police, tel que l’interface [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) dans DirectWrite, représente une police physique, avec une pondération, une inclinaison et une étirement spécifiques. Il contient le type de type de police, les références de fichier appropriées, les données d’identification de visage et diverses données de police telles que les métriques, les noms et les contours de glyphe.
 
 Le [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontface) peut être créé directement à partir d’un nom de police ou obtenu à partir d’une collection de polices.
 
@@ -64,6 +64,6 @@ L’objet [**IDWriteFontFace**](/windows/win32/api/dwrite/nn-dwrite-idwritefontf
 
 Pour plus d’informations, consultez la rubrique [comment implémenter un convertisseur de texte personnalisé](how-to-implement-a-custom-text-renderer.md) .
 
- 
+ 
 
- 
+ 

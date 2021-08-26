@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1ff86af88342a1b8f0147ecd9721765794faf39e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d69db4bbf0d5edcaed6ed6fbcaef724b6ef72d606a89c40c5a309713680606f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920329"
 ---
 # <a name="cim_runningos-class"></a>\_Classe en cours d’exécution CIM
 
@@ -89,7 +89,7 @@ Un [**\_ ComputerSystem CIM**](cim-computersystem.md) qui décrit le système in
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ en cours d’exécution** est dérivée de la [**\_ dépendance CIM**](cim-dependency.md).
 

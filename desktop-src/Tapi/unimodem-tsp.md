@@ -4,12 +4,12 @@ ms.assetid: 1ea60477-f6c9-44ae-969c-515dfb0c607e
 title: TSP Unimodem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 115cc4fd159b2e62062171131f583bad19dc9b00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4562ad7692c288a963db27b6859fa5c472d8ff80017e2726c277fbf9d24452be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011899"
 ---
 # <a name="unimodem-tsp"></a>TSP Unimodem
 
@@ -17,7 +17,7 @@ Le pilote de modem Unimodem ou universel, TSP (unimdm. tsp) permet d’accéder 
 
 Ce TSP prend en charge une valeur de [**type d’adresse**](./lineaddresstype--constants.md) LINEADDRESSTYPE \_ PHONENUMBER. Si le programmeur souhaite utiliser les règles de numérotation, l’interface TAPI 3 [**ITAddressTranslation**](/windows/win32/api/tapi3if/nn-tapi3if-itaddresstranslation) ou la fonction [**lineTranslateAddress**](/windows/win32/api/tapi/nf-tapi-linetranslateaddress) TAPI 2 doit être utilisée pour obtenir une chaîne de numérotation à partir d’un numéro de téléphone au format canonique.
 
-Le TSP Unimodem est installé avec les systèmes d’exploitation Windows Server 2003, Windows XP, Windows 2000, Windows NT, Windows Millennium Edition, Windows 98 et Windows 95.
+le TSP unimodem est installé avec les systèmes d’exploitation Windows Server 2003, Windows XP, Windows 2000, Windows NT, Windows Millennium Edition, Windows 98 et Windows 95.
 
  
 

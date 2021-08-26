@@ -3,7 +3,7 @@ title: NM_DBLCLK (onglet) Code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle onglet que l’utilisateur a double-cliqué sur le bouton gauche de la souris dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: fd99f195-ceac-47e8-b584-d814b055fa21
 keywords:
-- Contrôles Windows de code de notification NM_DBLCLK (onglet)
+- NM_DBLCLK (onglet) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c8171696e57684be55e6e42792666ae206d890
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61c100b266ea0e409b9d48846e81d1a5bf9a07de0c6473800b4f2251942bc94b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919689"
 ---
 # <a name="nm_dblclk-tab-notification-code"></a>\_Code de notification DBLCLK nm (onglet)
 
@@ -55,8 +55,8 @@ Retourne une valeur différente de zéro pour ne pas autoriser le traitement par
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: L’exemple suivant montre comment créer un contrôle ToolTip stan
 ms.assetid: 6AF1CE6E-AD63-4F84-9759-14FE4F16092B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8daf62bf2ba85c8750fd07a1b9122b0360fc11
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c9be19be187e8c09b3aeb618e1c3518c7c15ca66816cbbb751abe43aa0b9172a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920692"
 ---
 # <a name="how-to-create-a-tooltip-for-a-rectangular-area"></a>Comment créer une info-bulle pour une zone rectangulaire
 
@@ -19,16 +19,16 @@ L’illustration suivante montre l’info-bulle qui s’affiche lorsque le point
 
 ![capture d’écran d’une boîte de dialogue ; le pointeur de la souris se trouve dans la fenêtre du client et une info-bulle est visible](images/tt-rectangle.png)
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -74,9 +74,9 @@ void CreateToolTipForRect(HWND hwndParent)
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

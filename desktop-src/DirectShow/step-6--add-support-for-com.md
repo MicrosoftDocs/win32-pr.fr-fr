@@ -4,12 +4,12 @@ ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: Étape 6. Ajouter la prise en charge de COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 097d51fa440812311edde9ce448916c66721a507
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 354299ed9ed2f752e0041b82af712e7a9c5411eb7bb7e16588267183442edf68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964899"
 ---
 # <a name="step-6-add-support-for-com"></a>Étape 6. Ajouter la prise en charge de COM
 
@@ -56,7 +56,7 @@ Pour plus d’informations, consultez [comment implémenter IUnknown](how-to-imp
 
 ## <a name="object-creation"></a>Création d’objets
 
-Si vous envisagez de créer un package de votre filtre dans une DLL et de le mettre à la disposition d’autres clients, vous devez prendre en charge [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) et d’autres fonctions com associées. La bibliothèque de classes de base implémente la plupart de ces. il vous suffit de fournir des informations sur votre filtre. Cette section donne un bref aperçu de ce que vous devez faire. Pour plus d’informations, voir [How to Create a DirectShow Filter dll](how-to-create-a-dll.md).
+Si vous envisagez de créer un package de votre filtre dans une DLL et de le mettre à la disposition d’autres clients, vous devez prendre en charge [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) et d’autres fonctions com associées. La bibliothèque de classes de base implémente la plupart de ces. il vous suffit de fournir des informations sur votre filtre. Cette section donne un bref aperçu de ce que vous devez faire. pour plus d’informations, voir [How to create a DirectShow Filter DLL](how-to-create-a-dll.md).
 
 Tout d’abord, écrivez une méthode de classe statique qui retourne une nouvelle instance de votre filtre. Vous pouvez nommer cette méthode comme vous le souhaitez, mais la signature doit correspondre à celle illustrée dans l’exemple suivant :
 
@@ -124,9 +124,9 @@ STDAPI DllUnregisterServer()
 Les exemples précédents montrent comment inscrire le CLSID d’un filtre pour COM. Pour de nombreux filtres, cela suffit. Le client est alors censé créer le filtre à l’aide de [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) et l’ajouter au graphique de filtre en appelant [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter). Toutefois, dans certains cas, vous souhaiterez peut-être fournir des informations supplémentaires sur le filtre dans le registre. Ces informations effectuent les opérations suivantes :
 
 -   Permet aux clients de découvrir le filtre à l’aide du [Mappeur de filtre](filter-mapper.md) ou de l' [énumérateur du périphérique système](system-device-enumerator.md).
--   Permet au gestionnaire de graphique de filtre de découvrir le filtre pendant la génération automatique de graphiques.
+-   permet au gestionnaire de Graph de filtre de découvrir le filtre pendant la génération automatique de graphiques.
 
-L’exemple suivant enregistre le filtre d’encodeur RLE dans la catégorie de compresseur vidéo. Pour plus d’informations, consultez [comment inscrire des filtres DirectShow](how-to-register-directshow-filters.md). Veillez à lire la section [instructions pour l’inscription des filtres](guidelines-for-registering-filters.md), qui décrit les pratiques recommandées pour l’inscription de filtres.
+L’exemple suivant enregistre le filtre d’encodeur RLE dans la catégorie de compresseur vidéo. pour plus d’informations, consultez [comment inscrire des filtres de DirectShow](how-to-register-directshow-filters.md). Veillez à lire la section [instructions pour l’inscription des filtres](guidelines-for-registering-filters.md), qui décrit les pratiques recommandées pour l’inscription de filtres.
 
 
 ```C++
@@ -244,10 +244,10 @@ int main()
 
 <dl> <dt>
 
-[Connexion intelligente](intelligent-connect.md)
+[Connecter intelligente](intelligent-connect.md)
 </dt> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> <dt>
 
 [Écriture de filtres de transformation](writing-transform-filters.md)

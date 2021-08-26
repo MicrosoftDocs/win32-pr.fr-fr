@@ -1,6 +1,6 @@
 ---
 title: Interface IDWriteFactory2
-description: Interface de fabrique racine pour tous les objets DirectWrite.
+description: interface de fabrique racine pour tous les objets DirectWrite.
 ms.assetid: 1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE
 keywords:
 - Écriture directe de l’interface IDWriteFactory1
@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7d5ba0f8d480981ab6ebea6dcdbd955b7b967e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 370292387f2c42e3f749e24a063e05bb24280ec5c8e8941a430f996fe7f349da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902799"
 ---
 # <a name="idwritefactory2-interface"></a>Interface IDWriteFactory2
 
-Interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) .
+interface de fabrique racine pour tous les objets [DirectWrite](direct-write-portal.md) .
 
 ## <a name="members"></a>Membres
 
@@ -56,8 +56,8 @@ L’interface **IDWriteFactory1** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                          |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                          |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 | Bibliothèque<br/>                  | <dl> <dt>DWrite. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

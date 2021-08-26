@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: fa90cb1344e7c087a601a74991598e509daed226
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c5907f86f7586710e8a65e60874587491674f2dc4d73d0632279f8b1b3c119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950499"
 ---
 # <a name="commitspooldata-function"></a>CommitSpoolData fonction)
 
@@ -68,7 +68,7 @@ Si la fonction est réussie, elle retourne un handle au fichier de mise en file 
 
 Si la fonction échoue, elle retourne une \_ valeur de handle non valide \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications qui envoient un travail d’impression de spouleur peuvent appeler [**GetSpoolFileHandle**](getspoolfilehandle.md) , puis écrire directement les données dans le handle de fichier de mise en file d’attente en appelant [**WriteFile**](/windows/desktop/api/fileapi/nf-fileapi-writefile). Pour informer le spouleur d’impression que le fichier contient des données qui sont prêtes à être rendues, l’application doit appeler **CommitSpoolData** et fournir le nombre d’octets disponibles.
 
@@ -82,8 +82,8 @@ Avant d’appeler **CommitSpoolData**, les applications doivent définir le poin
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Winspool. lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>WinSpool. drv</dt> </dl>                   |

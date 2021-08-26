@@ -3,7 +3,7 @@ title: NM_RELEASEDCAPTURE (calendrier monthcal) Code de notification (commctrl. 
 description: Avertit la fenêtre parente d’un contrôle calendrier monthcal que le contrôle libère la capture de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: c05d3331-26f3-41f4-8032-36ed38d47917
 keywords:
-- Contrôles Windows de code de notification NM_RELEASEDCAPTURE (calendrier monthcal)
+- NM_RELEASEDCAPTURE (calendrier monthcal) code de notification Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b9c743a076c8046aa57ba4306145248ed00f0fe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be05fe15740b58c462c4f15edd9070417a9fb7c4580fb0df3767aa4b5d510201
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919569"
 ---
 # <a name="nm_releasedcapture-monthcal-notification-code"></a>\_Code de notification RELEASEDCAPTURE nm (calendrier monthcal)
 
@@ -55,8 +55,8 @@ Le contrôle ignore la valeur de retour de ce code de notification.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

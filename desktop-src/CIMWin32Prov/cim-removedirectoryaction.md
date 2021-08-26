@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b5960c0f72bdea28bd431c11d23ccffa0ea19ead
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8dd926b3c01b3ae38b39dbe758904b81aa99cd5d155af34d5dbcc19bda3a43fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920419"
 ---
 # <a name="cim_removedirectoryaction-class"></a>\_Classe CIM RemoveDirectoryAction
 
@@ -449,7 +449,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -531,7 +531,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -852,7 +852,7 @@ Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ RemoveDirectoryAction** est dérivée de [**CIM \_ DirectoryAction**](cim-directoryaction.md).
 

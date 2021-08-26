@@ -4,21 +4,21 @@ description: À propos de l’objet réseau
 ms.assetid: 367a51d4-2db8-4c9e-82b7-85b2b631c721
 keywords:
 - Lecteur Windows Media, objet réseau
-- Modèle objet du lecteur Windows Media, objet réseau
+- Lecteur Windows Media modèle objet, objet réseau
 - modèle objet, objet réseau
-- Contrôle ActiveX du lecteur Windows Media, objet réseau
-- Contrôle ActiveX, objet réseau
-- Contrôle ActiveX Windows Media Player Mobile, objet réseau
-- Windows Media Player Mobile, objet réseau
+- Lecteur Windows Media ActiveX contrôle, objet réseau
+- contrôle ActiveX, objet réseau
+- Lecteur Windows Media contrôle Mobile ActiveX, objet réseau
+- Lecteur Windows Media Mobile, objet réseau
 - Objet réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a1f3ff892a4d5b078956c9d126d0efaa844031d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0378b1cd4469f6141a4ea60021f2d54e5c32b33ae1943624f7c65f70aa2a655f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903289"
 ---
 # <a name="about-the-network-object"></a>À propos de l’objet réseau
 
@@ -42,9 +42,9 @@ mybandwidth = player.network.bandwidth;
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

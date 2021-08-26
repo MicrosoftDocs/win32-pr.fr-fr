@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f33b778fffce071c47cb455f09e468243abab6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1031585feae5fa2c7fdd9f5fb64bf958e77b8029d502f3e99476024276a652cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901669"
 ---
 # <a name="networkframesskipped"></a>Network. framesSkipped
 
@@ -35,7 +35,7 @@ Cette propriété est un **nombre** en lecture seule (**long**).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **framesSkipped** pour afficher le nombre total de trames ignorées lors de la lecture lorsque l’utilisateur clique sur un bouton. Les informations s’affichent dans une balise DIV HTML créée avec ID = « FS ». L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **framesSkipped** pour afficher le nombre total de trames ignorées lors de la lecture lorsque l’utilisateur clique sur un bouton. Les informations s’affichent dans une balise DIV HTML créée avec ID = « FS ». L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

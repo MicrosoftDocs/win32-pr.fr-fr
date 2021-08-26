@@ -4,12 +4,12 @@ ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Contrôle du suivi Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f256c4e3927672bc13b14bfb72ca3b02c22bde
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bc80251410b95e2d02106474ae97ab3c6ea57759dcfdbc76987d6621794c822e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996809"
 ---
 # <a name="control-of-winsock-tracing"></a>Contrôle du suivi Winsock
 
@@ -17,23 +17,23 @@ Le suivi Winsock peut être contrôlé à l’aide de l’une des méthodes suiv
 
 -   Outils de ligne de commande
 
-    Deux outils en ligne de commande sont inclus avec Windows Vista et Windows Server 2008 qui sont utilisés pour contrôler le suivi et convertir le fichier journal de suivi binaire en texte lisible.
+    deux outils en ligne de commande sont inclus avec Windows Vista et Windows Server 2008 qui sont utilisés pour contrôler le suivi et convertir le fichier journal de suivi binaire en texte lisible.
 
     L’outil **logman.exe** est utilisé pour démarrer ou arrêter le suivi Winsock.
 
     L’outil **tracerpt.exe** est utilisé pour convertir le fichier journal de suivi binaire en fichier texte lisible.
 
--   Observateur d'événements
+-   Observateur d’événements
 
-    Le observateur d’événements sur Windows Vista et versions ultérieures peut également être utilisé pour activer le suivi Winsock. Le observateur d’événements est accessible sous outils d’administration à partir du menu Démarrer.
+    le observateur d’événements sur Windows Vista et versions ultérieures peut également être utilisé pour activer le suivi Winsock. le observateur d’événements est accessible sous les outils d’administration à partir du menu Démarrer.
 
 ## <a name="using-logman-and-tracert"></a>Utilisation de logman et de tracert
 
-Le suivi d’événements réseau Winsock est désactivé par défaut sur Windows Vista et versions ultérieures.
+le suivi d’événements réseau Winsock est désactivé par défaut sur Windows Vista et versions ultérieures.
 
 La commande suivante démarre le suivi d’événements réseau Winsock sur un ordinateur, définit le nom de la session de suivi d’événements sur mywinsocksession et envoie la sortie vers un fichier journal binaire appelé winsocklogfile. ETL :
 
-**logman start-ETS mywinsocksession-o winsocklogfile. etl-p Microsoft-Windows-Winsock-AFD**
+**logman start-ets mywinsocksession-o winsocklogfile. etl-p Microsoft-Windows-Winsock-AFD**
 
 Les fichiers journaux sont créés dans le répertoire actif avec des noms de fichiers au format winsocklogfile \_ 000001. etl
 
@@ -49,16 +49,16 @@ Si un fichier de sortie contenant du code XML plutôt que du texte brut est pré
 
 **tracerpt.exe <nom du fichier. etl> – o winsocktracelog.xml – XML**
 
-Le suivi des modifications du catalogue Winsock est activé par défaut sur Windows Vista et versions ultérieures.
+le suivi des modifications du catalogue Winsock est activé par défaut sur Windows Vista et versions ultérieures.
 
 > [!Note]  
-> Les fournisseurs de services en couche sont déconseillés. À compter de Windows 8 et de Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
+> Les fournisseurs de services en couche sont déconseillés. à partir de Windows 8 et Windows Server 2012, utilisez la [plateforme de filtrage Windows](../fwp/windows-filtering-platform-start-page.md).
 
  
 
 La commande suivante démarre le suivi des modifications du catalogue Winsock pour les fournisseurs de services en couche (LSP) sur un ordinateur, définit le nom de la session de suivi d’événements sur mywinsockcatalogsession et envoie la sortie vers un fichier journal binaire appelé winsockcataloglogfile. ETL :
 
-**logman start-ETS mywinsockcatalogsession-o winsockcataloglogfile. etl-p Microsoft-Windows-Winsock-WS2HELP**
+**logman start-ets mywinsockcatalogsession-o winsockcataloglogfile. etl-p Microsoft-Windows-Winsock-WS2HELP**
 
 Les fichiers journaux sont créés dans le répertoire actif avec des noms de fichiers au format winsockcataloglogfile \_ 000001. etl
 
@@ -76,7 +76,7 @@ Si un fichier de sortie contenant du code XML plutôt que du texte brut est pré
 
 ## <a name="using-event-viewer-to-start-winsock-network-event-tracing"></a>Utilisation de observateur d’événements pour démarrer le suivi d’événements réseau Winsock
 
-Lorsque vous ouvrez observateur d’événements, le volet gauche contient la liste des événements. Ouvrez **journaux des applications et des services** , accédez à **\\ \\ événement réseau Microsoft Windows Winsock** comme source et sélectionnez **opérationnel**.
+Lorsque vous ouvrez observateur d’événements, le volet gauche contient la liste des événements. ouvrez les **journaux des Applications et des Services** , puis accédez à l' **\\ \\ événement réseau Microsoft Windows Winsock** comme source et sélectionnez **opérationnel**.
 
 Dans le volet action, sélectionnez **Propriétés du journal** , puis activez la case à cocher **activer la journalisation** . Une fois la journalisation activée, vous pouvez également modifier la taille du fichier journal si nécessaire.
 
@@ -86,7 +86,7 @@ Vous devrez peut-être augmenter la taille du journal en fonction du nombre d’
 
 ## <a name="using-event-viewer-to-start-winsock-catalog-change-tracing"></a>Utilisation de observateur d’événements pour démarrer le suivi des modifications du catalogue Winsock
 
-Lorsque vous ouvrez observateur d’événements, le volet gauche contient la liste des événements. Ouvrez **journaux des applications et des services** , puis accédez à **Microsoft \\ Windows \\ Winsock Catalog change** comme source et sélectionnez **Operational (opérationnel**).
+Lorsque vous ouvrez observateur d’événements, le volet gauche contient la liste des événements. ouvrez **journaux des Applications et des Services** , puis accédez à **Microsoft \\ Windows le \\ catalogue Winsock Change** comme source et sélectionnez **opérationnel**.
 
 Dans le volet action, sélectionnez **Propriétés du journal** , puis activez la case à cocher **activer la journalisation** . Une fois la journalisation activée, vous pouvez également modifier la taille du fichier journal si nécessaire.
 

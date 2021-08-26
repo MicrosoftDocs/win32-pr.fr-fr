@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 3c099c02338aa70817d75717064e0b99ac13c96b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6df21a5464aa44621c2eca760690806237f9e75a79c5f695d3df5b7604a6878
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964219"
 ---
 # <a name="wm_pointerroutedaway-message"></a>Message WM_POINTERROUTEDAWAY
 
@@ -58,7 +58,7 @@ Inutilisé.
 
 NULL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message n’est pas envoyé avec un message [**WM_POINTERUP**](wm-pointerup.md) ou un message [**WM_POINTERCAPTURECHANGED**](wm-pointercapturechanged.md) .
 
@@ -68,8 +68,8 @@ Ce message n’est pas envoyé avec un message [**WM_POINTERUP**](wm-pointerup.m
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

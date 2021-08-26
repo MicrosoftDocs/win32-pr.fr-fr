@@ -1,19 +1,19 @@
 ---
-description: Indicateurs associés à des messages électroniques (indiquant qu’une confirmation de lecture est en attente, par exemple). Les valeurs stockées ici par Outlook sont définies pour les \_ indicateurs de message PR \_ .
+description: Indicateurs associés à des messages électroniques (indiquant qu’une confirmation de lecture est en attente, par exemple). les valeurs stockées ici par Outlook sont définies pour les \_ indicateurs de MESSAGE PR \_ .
 ms.assetid: 3ef22752-b8f8-4eb2-8696-6c762122c486
 title: System. message. Flags
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a894bed28d5e4105a414a5ce84767785d4abaf53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d526aba474bfc4fa851e887e12156fdccaa365315748d45e422b6a8070b84eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106537010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119938309"
 ---
 # <a name="systemmessageflags"></a>System. message. Flags
 
-Indicateurs associés à des messages électroniques (indiquant qu’une confirmation de lecture est en attente, par exemple). Les valeurs stockées ici par Outlook sont définies pour les \_ indicateurs de message PR \_ .
+Indicateurs associés à des messages électroniques (indiquant qu’une confirmation de lecture est en attente, par exemple). les valeurs stockées ici par Outlook sont définies pour les \_ indicateurs de MESSAGE PR \_ .
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

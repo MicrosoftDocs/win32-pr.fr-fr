@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 786fa3491919659fca60700cfb086023c3fdef3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18ac3dba88d9cf781393b01b6594777426b7195e6f68afa0fd00a5bddb01f129
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950399"
 ---
 # <a name="core_printer_driver-structure"></a>Structure du pilote d' \_ imprimante principale \_
 
@@ -72,7 +72,7 @@ Chemin d’accès au package de pilotes qui contient le pilote d’imprimante pr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure peut représenter le pilote de base d’un fabricant sur lequel les pilotes de différents modèles d’imprimante sont dépendants.
 
@@ -82,8 +82,8 @@ Cette structure peut représenter le pilote de base d’un fabricant sur lequel 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **\_ Core \_ Printer \_ DRIVERW** (Unicode) and **\_ Core \_ Printer \_ drivera** (ANSI)<br/>                 |
 

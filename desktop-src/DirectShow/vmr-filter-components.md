@@ -4,12 +4,12 @@ ms.assetid: 86fd8d6f-a742-457d-bb30-d04542431a0a
 title: Composants de filtre VMR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b597f6ac1b52f81ddc26d18e3fe0c6d16bae9515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dda6e8d37e1b5ac8c00da024fe78d4e18e38eed1e1735e787284d389769cff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903333"
 ---
 # <a name="vmr-filter-components"></a>Composants de filtre VMR
 
@@ -17,7 +17,7 @@ VMR utilise une conception modulaire qui permet aux applications de les configur
 
 ![VMR en mode fenêtre avec plusieurs flux](images/vmr-multiple-streams.png)
 
-**Mélangeur :** Le mélangeur est un objet COM chargé de mélanger plusieurs flux. La désentrelacement se produit également dans le mélangeur. Le mélangeur est chargé par le VMR lorsque plusieurs flux d’entrée sont détectés, ou lorsque la vidéo d’entrée est entrelacée. Le mélangeur collecte des informations sur chaque flux d’entrée et trie les flux dans l’ordre de plan correct. Il est chargé de déterminer à quel moment chaque broche d’entrée reçoit un échantillon et de demander au compositeur d’image de s’exécuter au bon moment pour effectuer la fusion réelle. Le mélangeur calcule également l’horodatage à appliquer à chaque image de sortie. Lorsque l’application fournit une image bitmap à afficher en haut de l’image composite, le mélangeur est chargé de s’assurer que la bitmap est affichée en haut, même si l’ordre de plan des flux d’entrée est modifié.
+**Mixer :** Le mélangeur est un objet COM chargé de mélanger plusieurs flux. La désentrelacement se produit également dans le mélangeur. Le mélangeur est chargé par le VMR lorsque plusieurs flux d’entrée sont détectés, ou lorsque la vidéo d’entrée est entrelacée. Le mélangeur collecte des informations sur chaque flux d’entrée et trie les flux dans l’ordre de plan correct. Il est chargé de déterminer à quel moment chaque broche d’entrée reçoit un échantillon et de demander au compositeur d’image de s’exécuter au bon moment pour effectuer la fusion réelle. Le mélangeur calcule également l’horodatage à appliquer à chaque image de sortie. Lorsque l’application fournit une image bitmap à afficher en haut de l’image composite, le mélangeur est chargé de s’assurer que la bitmap est affichée en haut, même si l’ordre de plan des flux d’entrée est modifié.
 
 **Compositeur d’image :** Le compositeur d’image est un objet COM qui effectue la fusion réelle des flux d’entrée sur une surface DirectDraw ou Direct3D unique fournie par l’Allocator-presenter. VMR fournit un compositeur d’image par défaut qui permet aux applications d’effectuer des effets de fusion alpha 2D. Les applications peuvent fournir un compositeur d’image personnalisé pour permettre d’autres effets 2D et 3D, tels que l’application de textures à des portions de l’image, la fusion alpha par pixel, le mappage de l’image à des objets 3D stationnaires ou mobiles, et ainsi de suite.
 

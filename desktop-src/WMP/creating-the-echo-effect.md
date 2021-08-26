@@ -3,7 +3,7 @@ title: Création de l’effet Echo
 description: Création de l’effet Echo
 ms.assetid: 3fac6c74-8221-4656-997b-0f903fae85b7
 keywords:
-- Plug-ins du lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
+- plug-ins Lecteur Windows Media, méthode DoProcessOutput d’exemple Echo
 - plug-ins, ECHO, exemple DoProcessOutput, méthode
 - plug-ins de traitement de signal numérique, méthode DoProcessOutput d’exemple Echo
 - DSP plug-ins, ECHO, exemple DoProcessOutput, méthode
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, création d’un effet d’écho
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e978562ff4cdee016f92409d183990cd4bb178b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcb79b5be53f391854f38ce9aeba1c1bbff61ed2c0a982395c7063ff53146760
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902289"
 ---
 # <a name="creating-the-echo-effect"></a>Création de l’effet Echo
 
@@ -44,7 +44,7 @@ i = int( ((double) i) * m_dwDelayTime );
 
 
 
-L’implémentation de **DoProcessOutput** fournie par l’exemple de code de l’Assistant de plug-in crée une boucle while qui itère une fois pour chaque échantillon dans la mémoire tampon d’entrée fournie par le lecteur Windows Media. Cette boucle fonctionne de la même façon pour les données audio 8 bits et 16 bits, bien qu’une boucle distincte soit requise pour chacune d’elles. Dans chaque cas, la boucle démarre avec le test suivant :
+l’implémentation de **DoProcessOutput** fournie par l’exemple de code de l’assistant de plug-in crée une boucle while qui itère une fois pour chaque échantillon dans la mémoire tampon d’entrée fournie par Lecteur Windows Media. Cette boucle fonctionne de la même façon pour les données audio 8 bits et 16 bits, bien qu’une boucle distincte soit requise pour chacune d’elles. Dans chaque cas, la boucle démarre avec le test suivant :
 
 
 ```C++
@@ -217,9 +217,9 @@ Pour le son 16 bits, l’Assistant utilise le code suivant comme dernière étap
 [**Implémentation de CEcho ::D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

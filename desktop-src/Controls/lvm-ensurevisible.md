@@ -3,7 +3,7 @@ title: Message LVM_ENSUREVISIBLE (commctrl. h)
 description: Garantit qu’un élément de mode liste est entièrement ou partiellement visible, en faisant défiler le contrôle de liste si nécessaire. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView EnsureVisible.
 ms.assetid: 3564b6e6-b8b6-401b-85bc-8bd6261fc054
 keywords:
-- LVM_ENSUREVISIBLE les contrôles de message Windows
+- LVM_ENSUREVISIBLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d0ff4009399988f20f3e162114f91e4cff02820
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: baeefaf90f0a4562fb187024b2c6f8676c68fb9d46377a4ced900bda6cfd3dfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920299"
 ---
 # <a name="lvm_ensurevisible-message"></a>\_Message ENSUREVISIBLE LVM
 
@@ -47,7 +47,7 @@ Valeur qui spécifie si l’élément doit être entièrement visible. Si ce par
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message échoue si le style de fenêtre comprend [**LVS \_ NoScroll**](list-view-window-styles.md).
 
@@ -57,8 +57,8 @@ Le message échoue si le style de fenêtre comprend [**LVS \_ NoScroll**](list-v
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

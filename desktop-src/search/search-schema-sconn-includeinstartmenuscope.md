@@ -1,19 +1,19 @@
 ---
-description: L’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche du menu Démarrer.
+description: l’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer.
 ms.assetid: 934a3834-9ddc-4c15-b738-68ea74adc24c
 title: Élément includeInStartMenuScope (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 126d10a2b69dcec5057e732679c8531fd6e82bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60941ef06f3f7220c7bbbae652f5e8256c6256660ea8e9ece2ddd330858958b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937949"
 ---
 # <a name="includeinstartmenuscope-element-search-connector-schema"></a>Élément includeInStartMenuScope (schéma du connecteur de recherche)
 
-L’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche du menu Démarrer. La valeur par défaut est true pour les connecteurs de recherche utilisant le système de fichiers comme source de données, et false pour les connecteurs de recherche utilisés par les gestionnaires de propriétés. Cet élément n’a pas d’éléments enfants ni d’attributs.
+l’élément booléen facultatif <includeInStartMenuScope> spécifie si ce connecteur de recherche doit être inclus dans l’étendue de recherche menu Démarrer. La valeur par défaut est true pour les connecteurs de recherche utilisant le système de fichiers comme source de données, et false pour les connecteurs de recherche utilisés par les gestionnaires de propriétés. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -45,9 +45,9 @@ L’élément booléen facultatif <includeInStartMenuScope> spécifie si ce conn
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si vous incluez le connecteur de recherche dans l’étendue du menu Démarrer, les utilisateurs peuvent effectuer une recherche dans votre emplacement à partir de la zone de recherche dans le menu Démarrer.
+si vous incluez le connecteur de recherche dans l’étendue menu Démarrer, les utilisateurs peuvent rechercher votre emplacement dans la zone de recherche de la menu Démarrer.
 
 ## <a name="example"></a>Exemple
 
