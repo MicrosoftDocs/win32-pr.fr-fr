@@ -4,12 +4,12 @@ description: Pour créer un déclencheur, vous devez utiliser trois interfaces.
 ms.assetid: c0f121ff-d0a5-4b6c-935c-6f47b4ea26d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f48ecb7b06e5bade6d5ad80e4c9a82794f6a17e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0111fe8c45fdac5618407500b2168bf09c4ec01c5d68e78342f14d6bf103ff78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100439"
 ---
 # <a name="creating-a-new-trigger"></a>Création d’un déclencheur
 
@@ -35,7 +35,7 @@ La procédure suivante décrit comment créer un nouveau déclencheur.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -44,6 +44,6 @@ La procédure suivante décrit comment créer un nouveau déclencheur.
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

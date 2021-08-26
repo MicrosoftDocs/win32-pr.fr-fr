@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d925cc5676e6f0c9a8fb27a3ba2a12591ee87a5a72d5937e365fa57179e47ce1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e79208c0e68736ae91d623622c13bbeb624ab760
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118160375"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887193"
 ---
-# <a name="point2type-function"></a>Point2, <Type> fonction
+# <a name="point2lttypegt-function"></a>Point2 ( &lt; fonction de type) &gt;
 
 Crée un point qui stocke ses coordonnées à l’aide du type de données spécifié.
 
@@ -62,7 +62,7 @@ typename TypeTraits<Type>::Point Point2(
 
 Point qui contient les coordonnées x et y spécifiées.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

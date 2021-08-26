@@ -4,12 +4,12 @@ ms.assetid: d3119504-9b6a-47b8-b3c6-15cb329929cb
 title: PKEY_AudioEndpoint_GUID (MMDeviceAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45405cd2350777e535b50859e77aa56755d191fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 357531a76316381e9ae39f867a5b6cfa0a055a04f41b0cba5fab95fcccbcc7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104359"
 ---
 # <a name="pkey_audioendpoint_guid"></a>GUID de AudioEndpoint de la \_ \_
 
@@ -24,7 +24,7 @@ Comme expliqué précédemment, l' [API MMDevice](mmdevice-api.md) prend en char
 Par exemple, une application DirectSound effectue les étapes suivantes pour créer un appareil DirectSound qui correspond à l’appareil de point de terminaison de rendu auquel l’utilisateur a affecté le rôle eMultimedia :
 
 1.  Appelez la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) pour accéder à l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) de l’appareil de point de terminaison de rendu qui a le rôle eMultimedia.
-2.  Appelez la méthode [**IMMDevice :: OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) pour obtenir l’interface **IPropertyStore** de l’appareil eMultimedia. Pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
+2.  Appelez la méthode [**IMMDevice :: OpenPropertyStore**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-openpropertystore) pour obtenir l’interface **IPropertyStore** de l’appareil eMultimedia. pour plus d’informations sur **IPropertyStore**, consultez la documentation SDK Windows.
 3.  Appelez la méthode **IPropertyStore :: GetValue** pour obtenir la valeur de la \_ \_ propriété GUID AudioEndpoint GUID.
 4.  Convertit la valeur de propriété d’un GUID sous forme de chaîne en une structure GUID de 16 octets.
 5.  Appelez la fonction **DirectSoundCreate** avec le GUID pour créer l’appareil avec le rôle eMultimedia.
@@ -44,8 +44,8 @@ Pour obtenir un exemple de code qui utilise \_ la \_ propriété GUID AudioEndpo
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>MMDeviceAPI. h</dt> </dl> |
 
 

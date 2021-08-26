@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre AutoConvertTo COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160f6591ed318ad7622e0bf3c0af5187f95d3be3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d5ea2b32445bb7107dcbfdc2aec8aee518fdd474674e76fdbd820265d06b6160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097049"
 ---
 # <a name="autoconvertto"></a>AutoConvertTo
 
@@ -21,11 +21,11 @@ Spécifie la conversion automatique d’une classe d’objets donnée en une nou
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      AutoConvertTo = value
+   {CLSID}
+      AutoConvertTo = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** qui spécifie l’identificateur de classe de l’objet vers lequel l’objet ou la classe d’objets donné doit être converti.
 
@@ -44,9 +44,9 @@ Cette clé est généralement utilisée pour convertir automatiquement des fichi
 [**OleSetAutoConvert**](/windows/desktop/api/Ole2/nf-ole2-olesetautoconvert)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

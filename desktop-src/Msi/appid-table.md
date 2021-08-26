@@ -4,12 +4,12 @@ ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: Table AppId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e8452635cd7c167d6a8618629eaec2f6f6c1aa2e72e0b3628a7d4542a9e7160
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1d9a121e6252c6054d5ac2765a9649e345035dde
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119066269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882217"
 ---
 # <a name="appid-table"></a>Table AppId
 
@@ -26,7 +26,7 @@ La table AppId contient les colonnes suivantes.
 
 
 
-| Colonne               | Type                       | Clé | Nullable |
+| Colonne               | Type                       | Clé : | Nullable |
 |----------------------|----------------------------|-----|----------|
 | AppId                | [GUID](guid.md)           | O   | N        |
 | RemoteServerName     | [Correct](formatted.md) | N   | O        |
@@ -54,14 +54,14 @@ La colonne AppId de la [table de classe](class-table.md) est une clé étrangèr
 <span id="RemoteServerName"></span><span id="remoteservername"></span><span id="REMOTESERVERNAME"></span>RemoteServerName
 </dt> <dd>
 
-Cette colonne contient la valeur de « RemoteServerName » = <xxxx> qui sera écrite sous HKCR \\ AppID \\ {AppID} \\ .
+Cette colonne contient la valeur « RemoteServerName » = &lt; xxxx &gt; qui sera écrite sous HKCR \\ AppID \\ {AppID} \\ .
 
 </dd> <dt>
 
 <span id="LocalService"></span><span id="localservice"></span><span id="LOCALSERVICE"></span>Local
 </dt> <dd>
 
-Cette colonne contient la valeur LocalService qui sera écrite sous HKCR \\ AppID \\ { <appid> } "LocalService" = <xxx> .
+Cette colonne contient la valeur LocalService qui sera écrite sous HKCR \\ AppID \\ { &lt; AppID &gt; } "LocalService" = &lt; xxx &gt; .
 
 </dd> <dt>
 
@@ -75,14 +75,14 @@ Cette colonne contient la valeur de ServiceParameters qui sera écrite sous HKCR
 <span id="DllSurrogate"></span><span id="dllsurrogate"></span><span id="DLLSURROGATE"></span>DllSurrogate
 </dt> <dd>
 
-Cette colonne contient la valeur de DllSurrogate qui sera écrite sous HKCR \\ AppID \\ { <appid> } "DllSurrogate" = <xxx> . Si cette colonne est présente, il s’agit généralement d’une chaîne vide.
+Cette colonne contient la valeur de DllSurrogate qui sera écrite sous HKCR \\ AppID \\ { &lt; AppID &gt; } "DllSurrogate" = &lt; xxx &gt; . Si cette colonne est présente, il s’agit généralement d’une chaîne vide.
 
 </dd> <dt>
 
 <span id="ActivateAtStorage"></span><span id="activateatstorage"></span><span id="ACTIVATEATSTORAGE"></span>ActivateAtStorage
 </dt> <dd>
 
-une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ { <appid> } "ActivateAtStorage" = "Y" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
+une valeur entière différente de zéro dans ce champ amène Windows Installer à écrire HKCR \\ AppID \\ { &lt; appid &gt; } "ActivateAtStorage" = "Y" dans le registre. Si le champ est laissé vide ou a une valeur égale à zéro, aucune valeur ne sera écrite.
 
 </dd> <dt>
 

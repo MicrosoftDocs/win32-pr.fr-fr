@@ -4,18 +4,18 @@ description: Windows NT Server 4,0 fournit la prise en charge des sous-entrées 
 ms.assetid: 19cf6e1a-cdba-47e4-8d8f-d6030ed6f9e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1970e2e2ad668b376b1097aa20cd18986fb605a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 76cdada1e48ffc42753480a6a62fb79986d537402ad21449617359cd49df76f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101799"
 ---
 # <a name="subentries-and-multilink-connections"></a>Sous-entrées et connexions à liaisons multiples
 
 Windows NT Server 4,0 fournit la prise en charge des sous-entrées de l’annuaire téléphonique, qui activent les connexions à liaisons multiples. Une connexion multilien combine la bande passante de plusieurs connexions pour fournir une seule connexion avec une bande passante plus élevée.
 
-Une entrée de l’annuaire RAS peut comporter zéro ou plusieurs sous-entrées. La fonction [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) récupère une structure [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) qui contient des informations sur les sous-entrées d’une entrée d’annuaire téléphonique. Le membre **dwSubEntries** de la structure **RASENTRY** indique le nombre de sous-entrées. Les entrées de l’annuaire téléphonique ne comportent aucune sous-entrée. Pour ajouter des sous-entrées à une entrée d’annuaire téléphonique, utilisez la fonction [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) .
+Une entrée de l’annuaire RAS peut comporter zéro ou plusieurs sous-entrées. La fonction [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) récupère une structure [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) qui contient des informations sur les sous-entrées d’une entrée d’annuaire téléphonique. Le membre **dwSubEntries** de la structure **RASENTRY** indique le nombre de sous-entrées. au départ, les entrées de livre de Téléphone n’ont pas de sous-entrées. Pour ajouter des sous-entrées à une entrée d’annuaire téléphonique, utilisez la fonction [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) .
 
 Les propriétés de chaque sous-entrée incluent un numéro de téléphone et le nom et le type de l’appareil TAPI à utiliser lors de la composition de la sous-entrée. En outre, une sous-entrée peut inclure une liste de numéros de téléphone de substitution à composer si RAS ne peut pas établir une connexion à l’aide du numéro principal. Les fonctions [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) et [**RasGetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetsubentrypropertiesa) utilisent la structure [**RASSUBENTRY**](/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)) pour définir et récupérer les propriétés d’une entrée de l’annuaire téléphonique spécifiée. Les sous-entrées sont identifiées par un index de base un.
 
@@ -29,6 +29,6 @@ Vous pouvez utiliser un handle de connexion **HRASCONN** pour raccrocher ou réc
 
 Vous pouvez utiliser le handle de connexion multilien combiné et les handles de connexion de sous-entrée dans les fonctions [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa), [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa)et [**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10)) . L’appel de **RasHangUp** avec un handle combiné de liaisons multiples met fin à la connexion entière ; l’appel de celle-ci avec un handle de sous-entrée bloque uniquement cette connexion de sous-entrée. De même, **RasGetConnectStatus** retourne des informations pour la connexion combinée ou individuelle, en fonction du handle spécifié. Les informations de projection retournées par **RasGetProjectionInfo** pour une entrée à liaisons multiples sont les mêmes pour chacun des handles de connexion de sous-entrée, comme c’est le cas pour le handle de connexion principal.
 
- 
+ 
 
- 
+ 

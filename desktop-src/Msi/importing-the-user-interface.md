@@ -4,12 +4,12 @@ ms.assetid: 7e4ae4b8-e7b2-49b3-97b7-374b69006a2f
 title: Importation de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2957dbec645bb85121c9748de83bc5c96ad04b05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2678eb2c6fb1c53f0d052c6bb1553af0f3d773b75d057969c66d74a39e499f35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043639"
 ---
 # <a name="importing-the-user-interface"></a>Importation de l’interface utilisateur
 
@@ -30,7 +30,7 @@ L’éditeur de base de données Orca fourni avec le programme d’installation 
 
 L’exemple de package d’installation MNP2000.msi est maintenant prêt pour la validation du package. Exécutez toujours la validation sur un nouveau package avant d’essayer d’installer le package pour la première fois. Cela est décrit dans validation de l’exemple d’installation.
 
-Si vous ne souhaitez pas inclure l’interface utilisateur dans l’exemple de package, omettez ou supprimez toutes les informations figurant dans les tableaux ci-dessus, à l’exception de la [table TextStyle](textstyle-table.md) (qui est nécessaire pour définir la propriété [**DefaultUIFont**](defaultuifont.md) ). Vous devez également supprimer les propriétés de l’interface utilisateur de la [table des propriétés](property-table.md). Un exemple de table de propriétés pour l’exemple Notepad, sans interface utilisateur, est illustré ci-dessous. Ne réutilisez pas les GUID indiqués dans le tableau si vous copiez cet exemple.
+Si vous ne souhaitez pas inclure l’interface utilisateur dans l’exemple de package, omettez ou supprimez toutes les informations figurant dans les tableaux ci-dessus, à l’exception de la [table TextStyle](textstyle-table.md) (qui est nécessaire pour définir la propriété [**DefaultUIFont**](defaultuifont.md) ). Vous devez également supprimer les propriétés de l’interface utilisateur de la [table des propriétés](property-table.md). un exemple de table de propriétés pour l’exemple Bloc-notes, sans interface utilisateur, est illustré ci-dessous. Ne réutilisez pas les GUID indiqués dans le tableau si vous copiez cet exemple.
 
 [Table de propriétés](property-table.md)
 

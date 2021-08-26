@@ -1,21 +1,21 @@
 ---
-description: Utilisation des API de paramètres de contrôle parental
+description: utilisation des contrôles de contrôle Parental Paramètres les api
 ms.assetid: 77a239e9-1cec-4710-b673-7d0cebd502e9
-title: Utilisation des API de paramètres de contrôle parental
+title: utilisation des contrôles de contrôle Parental Paramètres les api
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dde4827dfe3ed5ee7eec6787744e6ff92f18775
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c9dd75565559e8fe52413280e35abf076a57ad6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757755"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885815"
 ---
-# <a name="using-parental-controls-settings-apis"></a>Utilisation des API de paramètres de contrôle parental
+# <a name="using-parental-controls-settings-apis"></a>utilisation des contrôles de contrôle Parental Paramètres les api
 
-Les paramètres sont traités avant la journalisation, car la journalisation est conditionnelle sur les paramètres de l’utilisateur.
+Paramètres sont abordés avant la journalisation, car la journalisation est conditionnelle sur les paramètres de l’utilisateur.
 
-## <a name="wmi-api-settings-writeread"></a>Paramètres d’API WMI en écriture/lecture
+## <a name="wmi-api-settings-writeread"></a>API WMI Paramètres écriture/lecture
 
 L’API WMI fournit un accès non abstrait (brut) à tous les paramètres instanciés par l’infrastructure de contrôle parental telle que définie dans le fichier de schéma Wpcsprov. mof. Le magasin de paramètres existe dans \\ l' \\ espace de noms WindowsParentalControls de l’application cimv2 racine \\ \\ , avec les définitions de classe suivantes qui définissent un schéma. Les éléments d’extensibilité sont notés.
 
@@ -35,7 +35,7 @@ Utilisateur par contrôle :
 
 -   WpcUserSettings (une instance par utilisateur contrôlé)
     -   Propriétés du SID propriétaire, de l’indicateur de contrôle parental activé/désactivé, de l’indicateur d’ouverture/de désactivation, du délai d’activation/désactivation de l’indicateur, du remplacement de l’indicateur activé, du masque des heures d’ouverture de session et de l’indicateur d’activation/désactivation des restrictions d’application générales.
-    -   Dans Windows 8, la propriété existante représente la première demi-heure pour chaque heure. Une nouvelle propriété de demi-heure a été ajoutée pour représenter la seconde moitié de chaque heure. Une nouvelle propriété supplémentaire a été introduite pour représenter le délai quotidien.
+    -   dans Windows 8 la propriété existante représente la première demi-heure pour chaque heure. Une nouvelle propriété de demi-heure a été ajoutée pour représenter la seconde moitié de chaque heure. Une nouvelle propriété supplémentaire a été introduite pour représenter le délai quotidien.
 
         **Windows 7 et Windows Vista :** Restrictions de minuterie prises en charge 1 heure.
 
@@ -62,7 +62,7 @@ L’utilisation de WMI pour inscrire un lien d’extensibilité d’interface ut
 -   Sous-système-conçu pour indiquer des classifications de types de liens, tels que des suites ou des applications conformes autonomes
 -   Nom chemin d’accès de la DLL de ressource et ID-spécifie la ressource pour le nom complet à afficher pour le lien.
 -   Chemin et ID de la DLL de ressource de sous-titre : spécifie la ressource pour le texte supplémentaire sous le nom.
--   Chemin d’accès de l’image : chemin d’accès complet d’une image bitmap de 24 × 24 pixels (BMP), avec une profondeur de couleur de 8 bits par pixel et un canal alpha de préférence. Cela est spécifié de manière cohérente avec les extensions de l’interpréteur de commandes : <file system path> , <negative resource ID> . Par exemple : C : \\ Windows \\ system32 \\Wpccpl.dll,-20.
+-   Chemin d’accès de l’image : chemin d’accès complet d’une image bitmap de 24 × 24 pixels (BMP), avec une profondeur de couleur de 8 bits par pixel et un canal alpha de préférence. Cela est spécifié de manière cohérente avec les extensions de l’interpréteur de commandes : <file system path> , <negative resource ID> . par exemple : C : \\ Windows \\ System32 \\Wpccpl.dll,-20.
 -   Chemin de l’image désactivé-identique au chemin d’accès à l’image ci-dessus, à l’exception de la variante de bitmap présentant l’état désactivé. Cette image s’affiche lorsque le contrôle parental est désactivé.
 -   Chemin d’accès exe-chemin d’accès complet à un fichier exécutable à appeler à l’aide de ShellExecute (). Ce chemin d’accès doit être spécifié avec des barres obliques inverses ou le lien n’appellera pas l’exécutable. L’ajout d’un jeton% SID% après le chemin d’accès exe entraîne le remplacement de l’exécution de la liaison par la chaîne SID pour l’utilisateur pour lequel la page Hub est actuellement affichée. L’exécutable peut ensuite utiliser la chaîne SID pour gérer les fonctionnalités de l’utilisateur spécifié.
 
@@ -70,7 +70,7 @@ La désinstallation de l’application doit supprimer une inscription de lien d�
 
 ## <a name="web-extensibility-link-and-web-content-filter-override-notes"></a>Remarques sur le lien d’extensibilité Web et le filtre de contenu Web
 
-En définissant la propriété FilterID sur le même GUID qu’un lien d’extensibilité d’interface utilisateur inscrit existant, le lien affiché sera promu d’un lien générique dans autres paramètres vers le lien restrictions Web exclusives. Il s’agit d’un paramètre à l’ensemble de l’ordinateur. par conséquent, le filtre de contenu Web en boîte LSP contourne tout le filtrage pour tous les utilisateurs contrôlés. Un nom descriptif doit également être défini dans la propriété FilterName, qui est spécifiée par un chemin d’accès à la DLL de ressource et à l’ID.
+en définissant la propriété FilterID sur le même GUID qu’un lien d’extensibilité d’interface utilisateur inscrit existant, le lien affiché sera promu d’un lien générique dans d’autres Paramètres au lien Restrictions Web exclusives. Il s’agit d’un paramètre à l’ensemble de l’ordinateur. par conséquent, le filtre de contenu Web en boîte LSP contourne tout le filtrage pour tous les utilisateurs contrôlés. Un nom descriptif doit également être défini dans la propriété FilterName, qui est spécifiée par un chemin d’accès à la DLL de ressource et à l’ID.
 
 Le système de contrôle parental recommande ce qui suit à partir de n’importe quel filtre Web de remplacement :
 
@@ -81,7 +81,7 @@ Le système de contrôle parental recommande ce qui suit à partir de n’import
 -   Recommandé pour respecter la liste de remplacement d’URL par utilisateur (liste verte/rouge).
 -   Soyez robuste pour le changement rapide d’utilisateur.
 
-Le contrôle parental ne limite pas la manière dont un filtre Web ou un autre filtre de contenu se connecte à Windows pour l’implémentation du filtrage. Les fournisseurs peuvent tirer parti de leurs investissements actuels ou des technologies préférées (LSP, TDI, etc.).
+le contrôle Parental ne présente aucune limitation quant à la façon dont un filtre web ou un autre filtre de contenu se connecte à Windows pour l’implémentation du filtrage. Les fournisseurs peuvent tirer parti de leurs investissements actuels ou des technologies préférées (LSP, TDI, etc.).
 
 La désinstallation du filtre du fournisseur doit annuler l’enregistrement des entrées FilterID et NomFiltre. Pour ce faire, affectez à FilterID \_ la valeur Guid null et FilterName à une variante null. Le filtre de contenu Web intégré sera ensuite réactivé.
 
@@ -93,23 +93,23 @@ Cette fonctionnalité n’est pas prise en charge sur Windows 8.
 
 **Windows 7 et Windows Vista :** Cette fonctionnalité est prise en charge.
 
-<WebAddresses>
+&lt;Adresses&gt;
 
-<URL AllowBlock="1">https://alloweddomain.com/</URL>
+<URL AllowBlock="1">https://alloweddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="1">https://allowedurl.com/allowed/default.html</URL>
+<URL AllowBlock="1">https://allowedurl.com/allowed/default.html&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockeddomain.com/</URL>
+<URL AllowBlock="2">https://blockeddomain.com/&lt;/URL&gt;
 
-<URL AllowBlock="2">https://blockedurl.com/blocked/default.html</URL>
+<URL AllowBlock="2">https://blockedurl.com/blocked/default.html&lt;/URL&gt;
 
-</WebAddresses>
+&lt;/WebAddresses&gt;
 
 ## <a name="application-restrictions-override-notes"></a>Remarques sur les restrictions d’application
 
-Les remplacements de restrictions d’application sont définis par utilisateur pour autoriser des fichiers binaires ou des chemins d’accès spécifiques. Si un nouvel utilisateur contrôlé par le parent est configuré et que des remplacements de restrictions d’application sont nécessaires pour cet utilisateur, il est recommandé d’utiliser la clé d’exécution Windows dans le Registre avec une petite application marquée comme nécessitant une élévation déployée pour écrire les remplacements. En conséquence, une invite d’informations d’identification unique est générée pour configurer les remplacements de l’utilisateur, après quoi les fichiers binaires cibles pour les remplacements ne seront pas inopportuns pour les utilisateurs en raison d’autres invites de remplacement par l’administrateur.
+Les remplacements de restrictions d’application sont définis par utilisateur pour autoriser des fichiers binaires ou des chemins d’accès spécifiques. si un nouvel utilisateur contrôlé par le parent est configuré et que des remplacements de restrictions d’application sont nécessaires pour cet utilisateur, il est recommandé d’utiliser la clé d’Windows Run dans le registre avec une petite application marquée comme nécessitant une élévation déployée pour écrire les remplacements. En conséquence, une invite d’informations d’identification unique est générée pour configurer les remplacements de l’utilisateur, après quoi les fichiers binaires cibles pour les remplacements ne seront pas inopportuns pour les utilisateurs en raison d’autres invites de remplacement par l’administrateur.
 
-## <a name="actions-required-for-settings-changes-to-become-effective"></a>Actions requises pour que les modifications de paramètres prennent effet
+## <a name="actions-required-for-settings-changes-to-become-effective"></a>Actions requises pour que les modifications apportées à Paramètres prennent effet
 
 Si un administrateur modifie les paramètres d’un utilisateur standard connecté, un message d’avertissement est généré. Elle indique que les modifications des paramètres peuvent ne pas prendre effet tant que l’utilisateur contrôlé n’est pas déconnecté et reconnecté. Il s’agit d’une conception conservatrice. La plupart des paramètres prennent effet presque immédiatement, pendant que l’utilisateur contrôlé est connecté. L’une des exceptions concerne les jeux, où les paramètres prendront effet lors de la prochaine exécution de l’Explorateur de jeux ou l’appel du jeu.
 
@@ -117,7 +117,7 @@ Si un administrateur modifie les paramètres d’un utilisateur standard connect
 
 Des exemples C++ sont fournis dans le kit de développement logiciel (SDK) illustrant l’utilisation des fonctionnalités d’extensibilité des paramètres. Veuillez consulter la section des exemples de contrôle parental.
 
-## <a name="independent-test-tools"></a>Outils de test indépendants
+## <a name="independent-test-tools"></a>Outils de test indépendant
 
 L’inspection des classes et des instances est facilitée par le plug-in wmimgmt. msc et l’outil Wbemtest.exe.
 
@@ -127,9 +127,9 @@ les versions 64 bits du système d’exploitation Windows ont actuellement un fo
 
 ## <a name="general-code-development-and-debugging"></a>Développement et débogage de code général
 
-Si Visual Studio est utilisé pour le développement de code de gestion des paramètres, le débogage local nécessite l’exécution de Visual Studio avec des droits d’administrateur (appel de la commande exécuter en tant qu’administrateur à l’aide de la ligne de commande ou de l’option de clic droit). Cela est dû à l’isolation des processus et des messages implémentée par le contrôle de compte d’utilisateur.
+si Visual Studio est utilisé pour le développement de code de gestion des paramètres, le débogage local nécessite l’exécution de Visual Studio avec des droits d’administrateur (en appelant avec l’option exécuter en tant qu’administrateur à l’aide de la ligne de commande ou de l’option de clic droit). Cela est dû à l’isolation des processus et des messages implémentée par le contrôle de compte d’utilisateur.
 
-## <a name="minimum-compliance-api-settings-read"></a>Lecture des paramètres de l’API de conformité minimale
+## <a name="minimum-compliance-api-settings-read"></a>API de conformité minimale Paramètres lecture
 
 ### <a name="interfaces-and-methods"></a>Interfaces et méthodes
 

@@ -4,12 +4,12 @@ ms.assetid: 8e44cb02-cf79-4b19-807e-20cea07362af
 title: Événement DBT_DEVICEARRIVAL (DBT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f69c2feec996b4306c271454767ca4e75d1ff855
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 826d0b510ca76b829eb683396c99579c14a512a6773b76a2049ae7963ede54a5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088149"
 ---
 # <a name="dbt_devicearrival-event"></a>\_Événement DBT DEVICEARRIVAL
 
@@ -65,7 +65,7 @@ Pointeur vers une structure identifiant l’appareil inséré. La structure se c
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le média est inséré, le type d’appareil arrivant est un volume (le membre **dbch \_ DEVICETYPE** est DBT \_ DEVTYP \_ ) et la modification affecte le support (le membre des **\_ indicateurs DBCV** est un \_ support DBTF).
 

@@ -4,12 +4,12 @@ ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: Utilisation de la redirection de chaînes de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30f0804d0586f8340e5a84e9da9c82ca39ffc30b55f72f4695d5216cbb26aab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 561bac55f59bd414002f5dcc0ce3611102a4effd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118389415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887409"
 ---
 # <a name="using-registry-string-redirection"></a>Utilisation de la redirection de chaînes de Registre
 
@@ -255,14 +255,14 @@ Voici un exemple de paramètre de Registre pour la disposition de clavier espagn
 
 ## <a name="represent-ole-insert-object-common-dialog-strings"></a>Représenter les chaînes de boîte de dialogue commune d’objet OLE Insert
 
-Vous pouvez implémenter le nom complet d’un objet OLE pouvant être inséré en tant que ressource de chaîne localisable associée au code qui implémente cet objet. La [boîte de dialogue OLE Insert Object](/cpp/mfc/reference/coleinsertdialog-class) obtient un nom complet à partir de la clé de Registre HKCR \\ CLSID \\ { *<GUID>* }, où *GUID* identifie l’identificateur de classe d’un objet OLE à insérer. Windows Vista et versions ultérieures implémentent ce type d’objet de façon localisable, à l’aide d’un nom d’affichage compatible avec MUI qui permet la personnalisation de la langue de l’interface utilisateur. en revanche, les systèmes d’exploitation antérieurs à Windows Vista implémentent le nom complet de ce type d’objet à l’aide de la valeur par défaut de la clé de registre correspondante. En général, il s’agit d’un nom anglais (États-Unis) ou d’un nom dans la langue de l’interface utilisateur par défaut du système.
+Vous pouvez implémenter le nom complet d’un objet OLE pouvant être inséré en tant que ressource de chaîne localisable associée au code qui implémente cet objet. La [boîte de dialogue OLE Insert Object](/cpp/mfc/reference/coleinsertdialog-class) obtient un nom complet à partir de la clé de Registre HKCR \\ CLSID \\ {*&lt; GUID &gt;*}, où *GUID* identifie l’identificateur de classe d’un objet OLE à insérer. Windows Vista et versions ultérieures implémentent ce type d’objet de façon localisable, à l’aide d’un nom d’affichage compatible avec MUI qui permet la personnalisation de la langue de l’interface utilisateur. en revanche, les systèmes d’exploitation antérieurs à Windows Vista implémentent le nom complet de ce type d’objet à l’aide de la valeur par défaut de la clé de registre correspondante. En général, il s’agit d’un nom anglais (États-Unis) ou d’un nom dans la langue de l’interface utilisateur par défaut du système.
 
 > [!Note]  
 > Tous les objets qui correspondent aux sous-clés de la clé de registre ne peuvent pas être insérés.
 
  
 
-La valeur par défaut de la \\ clé HKCR CLSID \\ { *<GUID>* } doit conserver un nom explicite pour la compatibilité descendante. Toutefois, il doit également définir la valeur LocalizedString, au format « `@<path>,-ResID` », où Path identifie le fichier exécutable qui implémente l’objet. La valeur ResID spécifie l’identificateur de ressource de la chaîne localisable pour le nom complet.
+La valeur par défaut de la \\ clé HKCR CLSID \\ {*&lt; &gt; GUID*} doit conserver un nom explicite pour la compatibilité descendante. Toutefois, il doit également définir la valeur LocalizedString, au format « `@<path>,-ResID` », où Path identifie le fichier exécutable qui implémente l’objet. La valeur ResID spécifie l’identificateur de ressource de la chaîne localisable pour le nom complet.
 
 Par exemple, le script d’inscription de l’objet clip Media pouvant être inséré contient les lignes suivantes :
 

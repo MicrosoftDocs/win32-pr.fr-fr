@@ -1,19 +1,19 @@
 ---
-description: L' <dateCreated> élément facultatif identifie la date et l’heure de création de ce connecteur de recherche, à l’aide de la norme ISO 8601. Elle n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; élément DateCreated facultatif &gt; identifie la date et l’heure de création de ce connecteur de recherche, à l’aide de la norme ISO 8601. Elle n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: 96d8b067-b5ab-4d36-a8d7-1d084a9f661d
 title: Élément dateCreated (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b59af62b2bd7ce8678fafb1fdd84646314f41a51414b4285db3077b5db0e0f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eff7c739bcad9e3a6594008597c0392398f22864
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882506"
 ---
 # <a name="datecreated-element-search-connector-schema"></a>Élément dateCreated (schéma du connecteur de recherche)
 
-L' <dateCreated> élément facultatif identifie la date et l’heure de création de ce connecteur de recherche, à l’aide de la norme ISO 8601. Elle n’a pas d’éléments enfants ni d’attributs.
+L' &lt; élément DateCreated facultatif &gt; identifie la date et l’heure de création de ce connecteur de recherche, à l’aide de la norme ISO 8601. Elle n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

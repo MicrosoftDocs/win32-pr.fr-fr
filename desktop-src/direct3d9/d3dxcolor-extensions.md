@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 7f457332f371b2c452a465c5b831774488301c6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a07d697192d838298f76205aeb3010fda7bf6a08f58f39fe58893444f604231
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096289"
 ---
 # <a name="d3dxcolor-extensions"></a>Extensions D3DXCOLOR
 
@@ -80,12 +80,12 @@ Types dérivés : \* LPD3DXCOLOR
 
 Pour plus d’informations sur les membres de structure, consultez [**D3DXCOLOR**](d3dxcolor.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les surcharges d’opérateur et les casts de type pour cette structure sont implémentés dans d3dx9math. inl.
 
 > [!Note]  
-> Le constructeur D3DXCOLOR () se bloque au moment de l’exécution lorsque vous l’exécutez en mode débogage dans Microsoft Visual Studio 2010 avec l’option de compilateur vérifications des erreurs au moment de l' [exécution (/RTCc)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) .
+> le constructeur D3DXCOLOR () se bloque au moment de l’exécution lorsque vous l’exécutez en mode débogage dans Microsoft Visual Studio 2010 avec l’option de compilateur vérifications des erreurs au moment de l' [exécution (/RTCc)](/previous-versions/visualstudio/visual-studio-2010/8wtf2dfz(v=vs.100)) .
 
  
 

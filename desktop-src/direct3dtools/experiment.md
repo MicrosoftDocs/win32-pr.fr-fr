@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e932d2f2b60a72ca167f3f6edd7f4ddae9b68710
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1ebe9ab0232104886078256effdfaf5534144dc30421dab2ac2359ef390c0a69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118149"
 ---
 # <a name="span-idvspixengineexperimentspanexperiment-structure"></a><span id="vspixengine.experiment"></span>Structure d’expérimentation
 
@@ -59,10 +59,10 @@ Option Start associée à l’expérience.
 Type d’expérience (capture).
 
 **uiLocale**  
-ID des paramètres régionaux utilisés pour les éléments de superposition de l’interface utilisateur pendant le experiement (capture). Cette valeur est transmise à partir de l’hôte (par exemple, Visual Studio Graphics Diagnostics) au moteur de capture.
+ID des paramètres régionaux utilisés pour les éléments de superposition de l’interface utilisateur pendant le experiement (capture). cette valeur est transmise à partir de l’hôte (par exemple, Visual Studio Graphics Diagnostics) au moteur de capture.
 
 **registryRoot**  
-Chaîne COM contenant la racine du Registre. Cette valeur est transmise à partir de l’hôte (par exemple, Visual Studio Graphics Diagnostics) au moteur de capture.
+Chaîne COM contenant la racine du Registre. cette valeur est transmise à partir de l’hôte (par exemple, Visual Studio Graphics Diagnostics) au moteur de capture.
 
 ## <a name="requirements"></a>Configuration requise
 

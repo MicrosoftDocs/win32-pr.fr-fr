@@ -7,12 +7,12 @@ MSHAttr:
 title: Référence VHD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68bf3c559cadc2312cacd9737d07aad16fdb261a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f8d5685fa1bec49ff36ae3d458828971459a250
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513414"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475645"
 ---
 # <a name="span-idvhdvhd_referencespanvhd-reference"></a><span id="vhd.vhd_reference"></span>Référence VHD
 
@@ -20,32 +20,13 @@ Les éléments suivants sont utilisés dans un disque dur virtuel (VHD) :
 
 ## <a name="span-idin_this_sectionspanin-this-section"></a><span id="in_this_section"></span>Dans cette section
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><a href="vhd-enumerations.md">Énumérations VHD</a></p></td>
-<td><p>Les énumérations suivantes sont utilisées dans un disque dur virtuel (VHD) :</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="vhd-functions.md">Fonctions VHD</a></p></td>
-<td><p>Les fonctions suivantes sont utilisées dans les disques virtuels :</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="vhd-structures.md">Structures VHD</a></p></td>
-<td><p>Les structures suivantes sont utilisées dans les disques durs virtuels (VHD) :</p></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Description | 
+|-------|-------------|
+| <p><a href="vhd-enumerations.md">Énumérations VHD</a></p> | <p>Les énumérations suivantes sont utilisées dans un disque dur virtuel (VHD) :</p> | 
+| <p><a href="vhd-functions.md">Fonctions VHD</a></p> | <p>Les fonctions suivantes sont utilisées dans les disques virtuels :</p> | 
+| <p><a href="vhd-structures.md">Structures VHD</a></p> | <p>Les structures suivantes sont utilisées dans les disques durs virtuels (VHD) :</p> | 
+
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: d88a8c32-c71f-4ddb-af8c-e2fb54c2322c
 title: Encodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fb6867ad42645ffc2bbf2b853e215d3794053157a776e02eddf015b320e3215
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 674ad291e1cf6b56f7ffef640fade683265b62a7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119943369"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465636"
 ---
 # <a name="aac-encoder"></a>Encodeur AAC
 
@@ -31,56 +31,15 @@ Définissez les attributs suivants sur le type de média d’entrée.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Type principal.</td>
-<td>Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Sous-type.</td>
-<td>Doit être <strong>MFAudioFormat_PCM</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Bits par échantillon.</td>
-<td>Doit être 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Échantillons par seconde.</td>
-<td>Les valeurs suivantes sont admises :
-<ul>
-<li>44100 (44,1 KHz)</li>
-<li>48000 (48 KHz)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Nombre de canaux.</td>
-<td>Doit être 1 (mono) ou 2 (stéréo), ou 6 (5,1).
-<blockquote>
-[!Note]<br />
-la prise en charge de 6 canaux audio a été introduite avec Windows 10 et n’est pas disponible pour les versions antérieures de Windows.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Type principal. | Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Sous-type. | Doit être <strong>MFAudioFormat_PCM</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Bits par échantillon. | Doit être 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Échantillons par seconde. | Les valeurs suivantes sont admises :<ul><li>44100 (44,1 KHz)</li><li>48000 (48 KHz)</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux. | Doit être 1 (mono) ou 2 (stéréo), ou 6 (5,1).<blockquote>[!Note]<br />la prise en charge de 6 canaux audio a été introduite avec Windows 10 et n’est pas disponible pour les versions antérieures de Windows.</blockquote><br /> | 
+
 
 
 
@@ -98,81 +57,18 @@ Définissez les attributs suivants sur le type de média de sortie.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Type principal.</td>
-<td>Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Sous-type audio.</td>
-<td>Doit être <strong>MFAudioFormat_AAC</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Bits par échantillon.</td>
-<td>Doit être 16.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Échantillons par seconde.</td>
-<td>Doit correspondre au type d’entrée.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Nombre de canaux.</td>
-<td>Doit correspondre au type d’entrée.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Vitesse de transmission du flux AAC encodé, en octets par seconde.</td>
-<td>Les valeurs suivantes sont admises :
-<ul>
-<li>12 000</li>
-<li>16000</li>
-<li>20000</li>
-<li>24 000</li>
-</ul>
-La valeur par défaut pour mono et stéréo est 12000 (96 Kbits/s).<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>Type de charge utile AAC.</td>
-<td>Facultatif. Si cette valeur est définie, la valeur doit être égale à zéro, ce qui indique que le flux contient uniquement des éléments raw_data_block.<br/> Facultatif. Si l’attribut n’est pas défini, la valeur par défaut est zéro, ce qui indique que le flux contient uniquement des éléments de raw_data_block (AAC brut). <br/> dans Windows 7, si cet attribut est défini, la valeur doit être égale à zéro.<br/> à partir de Windows 8, la valeur peut être 0 (aac brut) ou 1 (ADTS aac). <br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>Le niveau et le profil audio AAC.</td>
-<td>Facultatif. Les valeurs suivantes sont admises :
-<ul>
-<li>0x29 (par défaut)</li>
-<li>0x2A</li>
-<li>0x2B</li>
-<li>0x2C</li>
-<li>0x2E</li>
-<li>0x2F</li>
-<li>0x30</li>
-<li>0x31</li>
-<li>0x32</li>
-<li>0x33</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Type principal. | Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Sous-type audio. | Doit être <strong>MFAudioFormat_AAC</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Bits par échantillon. | Doit être 16. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Échantillons par seconde. | Doit correspondre au type d’entrée. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux. | Doit correspondre au type d’entrée. | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Vitesse de transmission du flux AAC encodé, en octets par seconde. | Les valeurs suivantes sont admises :<ul><li>12 000</li><li>16000</li><li>20000</li><li>24 000</li></ul>La valeur par défaut pour mono et stéréo est 12000 (96 Kbits/s).<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Type de charge utile AAC. | facultatif. Si cette valeur est définie, la valeur doit être égale à zéro, ce qui indique que le flux contient uniquement des éléments raw_data_block.<br /> facultatif. Si l’attribut n’est pas défini, la valeur par défaut est zéro, ce qui indique que le flux contient uniquement des éléments de raw_data_block (AAC brut). <br /> dans Windows 7, si cet attribut est défini, la valeur doit être égale à zéro.<br /> à partir de Windows 8, la valeur peut être 0 (aac brut) ou 1 (ADTS aac). <br /> | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Le niveau et le profil audio AAC. | facultatif. Les valeurs suivantes sont admises :<ul><li>0x29 (par défaut)</li><li>0x2A</li><li>0x2B</li><li>0x2C</li><li>0x2E</li><li>0x2F</li><li>0x30</li><li>0x31</li><li>0x32</li><li>0x33</li></ul> | 
+
 
 Le tableau suivant répertorie les valeurs qui peuvent être utilisées pour l’attribut MF_MT_AAC_PROFILE_LEVEL_INDICATION.
 

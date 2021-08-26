@@ -1,10 +1,10 @@
 - name: API audio principales
   href: core-audio-apis-in-windows-vista.md
   items:
-    - name: À propos des API audio Windows Core
+    - name: à propos des api Audio Windows Core
       href: about-the-windows-core-audio-apis.md
       items:
-        - name: Nouveautés des API audio principales dans Windows 7
+        - name: nouveautés des api Audio principales dans Windows 7
           href: what-s-new-for-core-audio-apis-in-windows-7.md
         - name: Fichiers d’en-tête et composants système
           href: header-files-and-system-components.md
@@ -65,9 +65,9 @@
                   items:
                     - name: Rôles d’appareil pour les applications DirectSound
                       href: device-roles-for-directsound-applications.md
-                    - name: Rôles d’appareil pour les applications DirectShow
+                    - name: rôles d’appareil pour les Applications DirectShow
                       href: device-roles-for-directshow-applications.md
-                    - name: Rôles d’appareil pour les applications multimédias Windows héritées
+                    - name: rôles d’appareil pour les Applications multimédias héritées Windows
                       href: device-roles-for-legacy-windows-multimedia-applications.md
                     - name: Événements audio pour les applications audio héritées
                       href: audio-events-for-legacy-audio-applications.md
@@ -109,7 +109,7 @@
               href: capturing-a-stream.md
             - name: Enregistrement de bouclage
               href: loopback-recording.md
-            - name: Flux de Exclusive-Mode
+            - name: Exclusive-Mode Flux
               href: exclusive-mode-streams.md
             - name: Récupération à partir d’une erreur Invalid-Device
               href: recovering-from-an-invalid-device-error.md
@@ -246,7 +246,7 @@
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-seteventhandle
                 - name: Démarrer
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-start
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/Audioclient/nf-audioclient-iaudioclient-stop
             - name: IAudioClient2
               href: /windows/desktop/api/Audioclient/nn-audioclient-iaudioclient2

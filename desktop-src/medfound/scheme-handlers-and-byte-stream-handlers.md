@@ -4,12 +4,12 @@ ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
 title: Gestionnaires de schémas et gestionnaires de Byte-Stream
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc7bde81a02762cd9c82e0a7d031582c856da6984ab231775580ddf249caca23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f5cbb2ee0af93e456e86b6eab16ff44705f5380
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118058227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881778"
 ---
 # <a name="scheme-handlers-and-byte-stream-handlers"></a>Gestionnaires de schémas et gestionnaires de Byte-Stream
 
@@ -47,7 +47,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-où *<scheme>* est le schéma d’URL que le gestionnaire est conçu pour analyser. Le schéma comprend le caractère «  : » de fin ; par exemple, « http : ».
+où *&lt; Scheme &gt;* est le schéma d’URL que le gestionnaire est conçu pour analyser. Le schéma comprend le caractère «  : » de fin ; par exemple, « http : ».
 
 Pour inscrire un nouveau gestionnaire de schéma, ajoutez une entrée dont le nom est le CLSID du gestionnaire de schémas, sous forme de chaîne canonique : `{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}` . La valeur de l’entrée est une chaîne (REG \_ SZ) contenant une brève description du gestionnaire, telle que « mon gestionnaire de schémas ». La partie importante de l’entrée est le CLSID. Le programme de résolution source crée le gestionnaire en appelant **CoCreateInstance** avec ce CLSID.
 
@@ -84,7 +84,7 @@ HKEY_LOCAL_MACHINE
                   {00000000-0000-0000-0000-000000000000} = REG_SZ
 ```
 
-où *<ExtensionOrMimeType>* est l’extension de nom de fichier ou le type MIME. Les extensions de fichier incluent le caractère'. 'initial ; par exemple, « . wmv ».
+où *&lt; ExtensionOrMimeType &gt;* est l’extension de nom de fichier ou le type MIME. Les extensions de fichier incluent le caractère'. 'initial ; par exemple, « . wmv ».
 
 L’extension de nom de fichier fait partie de l’URL, fournie par l’application. Le type MIME peut être disponible via l’attribut de [**\_ \_ \_ type de contenu BYTESTREAM MF**](mf-bytestream-content-type-attribute.md) sur le flux d’octets.
 

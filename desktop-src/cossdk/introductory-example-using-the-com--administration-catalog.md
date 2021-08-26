@@ -4,12 +4,12 @@ ms.assetid: e9ce25aa-4fb1-4357-9f4e-5bf649e29447
 title: Exemple d’introduction utilisant le catalogue d’administration COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db24f3985538b7189534c9fef3ef279ed240e3a1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5bfd085cbe9a829a1248ddf36057c9d9f79de9d576236a2621b237063340cf95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070589"
 ---
 # <a name="introductory-example-using-the-com-administration-catalog"></a>Exemple d’introduction utilisant le catalogue d’administration COM+
 
@@ -23,7 +23,7 @@ Par programmation, en utilisant le catalogue d’administration COM+, vous effec
 -   Enregistrez ou ignorez les modifications en attente dans le catalogue.
 -   Gérer les erreurs qui peuvent se produire.
 
-Pour voir à quoi ressemblent ces étapes Lorsque vous utilisez les objets comadmin, un exemple de Visual Basic Microsoft est fourni ci-dessous. Il illustre brièvement certaines des étapes classiques décrites ci-dessus, telles que la localisation des collections, l’énumération d’une collection pour récupérer un élément et la définition des propriétés de cet élément.
+pour voir à quoi ressemblent ces étapes lorsque vous utilisez les objets comadmin, un exemple de Visual Basic Microsoft est fourni ci-dessous. Il illustre brièvement certaines des étapes classiques décrites ci-dessus, telles que la localisation des collections, l’énumération d’une collection pour récupérer un élément et la définition des propriétés de cet élément.
 
 Dans l’exemple ci-dessous, vous allez effectuer les actions suivantes :
 
@@ -35,7 +35,7 @@ Dans l’exemple ci-dessous, vous allez effectuer les actions suivantes :
 6.  Activez les propriétés de sécurité pour appliquer la vérification des rôles à l’application.
 7.  Exportez l’application MyHomeZoo dans un fichier pour qu’elle puisse être installée sur d’autres ordinateurs.
 
-Pour utiliser cet exemple à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
+pour utiliser cet exemple à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
 
 
 ```VB

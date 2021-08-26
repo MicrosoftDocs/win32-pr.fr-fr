@@ -5,12 +5,12 @@ ms.assetid: 8a4699da-9840-4622-9e94-d6d5c4e7708c
 ms.custom: contperf-fy21q1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: db5a64d50bd225b714c2ff0578145c47c66bedb557dd067e0cdf89f369178b1e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cf74a58ae2fd9dda735c419f4ffa42b38d06c18c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118042557"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884444"
 ---
 # <a name="ribbons"></a>Rubans
 
@@ -238,19 +238,19 @@ Il existe plusieurs facteurs à prendre en compte lors de la détermination de g
 
 - **Regroupement standard.** Bien qu’il existe des différences significatives dans les commandes entre les programmes, il existe des [groupes standard](#standard-ribbon-groups) qui sont communs à plusieurs programmes. L’affichage de ces commandes avec les mêmes noms et emplacements similaires améliore considérablement la détectabilité.
 
-| Correct.                                                                                      | Incorrect.                                                                         |
+| Correct                                                                                      | Incorrect.                                                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | ![capture d’écran du zoom séparé du groupe de modification ](images/cmd-ribbons-image13.png)<br/>Le groupe de commandes de modification inclut toutes les commandes de modification, mais n’inclut pas la commande zoom.         | ![capture d’écran du zoom inclus dans le groupe d’édition ](images/cmd-ribbons-image14.png)<br/>La commande de zoom n’est pas une commande d’édition, mais se trouve dans le groupe d’édition. |
 
 - **Granularité.** Une structure est bonne, mais une structure trop importante rend les commandes plus difficiles à trouver. Si les noms de groupes sont génériques, vous n’avez peut-être pas suffisamment de granularité. S’il existe des groupes avec une seule ou deux commandes chacune, vous avez probablement trop d’espace (bien que la présence d’une galerie dans le ruban sans aucune autre commande dans un groupe soit acceptable).
 
-| Correct.                                                                                                 | Incorrect.                                                                                                  |
+| Correct                                                                                                 | Incorrect.                                                                                                  |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | ![capture d’écran du zoom séparé du groupe de modification ](images/cmd-ribbons-image13.png)<br/> La modification du groupe de commandes comprend toutes les commandes de modification| ![capture d’écran de la modification du groupe divisé en deux groupes ](images/cmd-ribbons-image15.png)<br/>Le groupe de commandes d’édition a été fractionné en sections trop précises. Évitez les groupes avec une ou deux commandes uniquement.|
 
 - **Noms.** Les noms de groupes corrects expliquent le rôle de leurs commandes. Si vos noms de groupe ne sont pas, reconsidérez le nom ou le regroupement. Si vous ne pouvez pas déterminer un nom significatif et descriptif, cela est probablement dû au fait que le groupe n’est pas bien conçu.
 
-| Correct.                                                                                                 | Incorrect.                                                                                                  |
+| Correct                                                                                                 | Incorrect.                                                                                                  |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | ![capture d’écran des commandes divisées en quatre groupes ](images/cmd-ribbons-image17.png) <br/> Utilisez des noms de groupes qui sont suffisamment spécifiques pour décrire les commandes contenues dans le groupe. | ![capture d’écran d’un groupe de formats avec plusieurs commandes ](images/cmd-ribbons-image16.png) <br/> Ce nom de groupe est trop vague pour être utile. Une meilleure approche consisterait à réorganiser ces commandes en groupes plus spécifiques. |
 
@@ -266,7 +266,7 @@ Dans cet exemple, le groupe de suivi reçoit la plus grande attention, en partie
 
 - **Uniformité.** Il peut être difficile de reconnaître les commandes lorsque la présentation de la commande a la même apparence. L’utilisation d’icônes avec différentes formes et couleurs, des groupes avec des formats différents et des commandes de différentes tailles permet aux utilisateurs de reconnaître plus facilement les groupes de commandes. Les commandes doivent avoir une taille uniforme uniquement lorsque le ruban est réduit à sa taille inférieure.
 
-| Correct. | Incorrect. |
+| Correct | Incorrect. |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | ![capture d’écran du groupe avec des icônes de taille différente ](images/cmd-ribbons-image20.png)<br/>Utilisez une variété de tailles d’icône pour améliorer la reconnaissance| ![capture d’écran du groupe avec des icônes de même taille ](images/cmd-ribbons-image21.png)<br/>Ces commandes semblent trop similaires, car elles sont toutes de la même taille. |
 
@@ -355,7 +355,7 @@ En règle générale, si vous avez moins d’onglets, il est préférable de sup
 
 - **Utilisez un onglet modal pour afficher une collection de commandes qui s’appliquent à un mode temporaire particulier, et aucun des onglets principaux ne s’applique.** Si certains des onglets principaux s’appliquent, utilisez plutôt un onglet contextuel et désactivez les commandes qui ne s’appliquent pas. Étant donné que les onglets modaux sont très restrictifs, ils ne doivent être utilisés que lorsqu’il n’existe aucune meilleure solution.
 - ![capture d’écran de l’onglet Aperçu avant impression ](images/cmd-ribbons-image31.png)<br/>L’aperçu avant impression est un onglet modal couramment utilisé.
-- **Pour fermer un onglet modal, placez la <mode> commande fermer comme dernière commande sous l’onglet.** Utilisez l’icône Fermer pour faciliter la recherche de la commande. Donnez le mode dans la commande pour éviter toute confusion concernant ce qui est fermé.
+- **Pour fermer un onglet modal, placez la &lt; commande en mode de fermeture &gt; comme dernière commande sous l’onglet.** Utilisez l’icône Fermer pour faciliter la recherche de la commande. Donnez le mode dans la commande pour éviter toute confusion concernant ce qui est fermé.
 - ![capture d’écran du bouton Fermer l’aperçu avant impression ](images/cmd-ribbons-image32.png)<br/>Dans cet exemple, l’étiquetage explicite de la commande close avec le mode supprime tout doute sur ce qui est fermé.
 - **Pour fermer un onglet modal, redéfinissez également le bouton Fermer dans la barre de titre de la fenêtre pour fermer le mode au lieu du programme.** Les tests utilisateur ont montré que de nombreux utilisateurs s’attendent à ce comportement.
 
@@ -370,7 +370,7 @@ Dans la mesure du possible, mappez les commandes de votre programme à ces ongle
 - **Mise en page.** Contient des commandes qui affectent la mise en page, notamment les thèmes, la mise en page, l’arrière-plan, la mise en retrait, l’espacement et le positionnement. (Notez que les groupes de mise en retrait et d’espacement peuvent figurer à la place dans l’onglet dossier de démarrage, s’il y a suffisamment de place.) S’il est utilisé, il est toujours le troisième onglet.
 - **Révise.** Contient des commandes permettant d’ajouter des commentaires, de suivre les modifications et de comparer les versions.
 - **Affichage.** contient des commandes qui affectent la vue de document, notamment le mode d’affichage, les options afficher/masquer, le zoom, la gestion des fenêtres et les macros, qui se trouvent traditionnellement dans la catégorie de menu Windows. S’il est utilisé, il s’agit du dernier onglet normal, sauf si l’onglet Développeur est affiché.
-- **Développeur.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
+- **Revel.** Contient les commandes utilisées uniquement par les développeurs. S’il est utilisé, il est masqué par défaut et le dernier onglet normal lorsqu’il est affiché.
 
 La plupart des programmes n’ont pas besoin des onglets révision et développeur.
 
@@ -458,7 +458,7 @@ Dans la mesure du possible, mappez les commandes de votre programme à ces group
 - **Désactivez les commandes qui ne s’appliquent pas au contexte actuel, ou qui aboutiront directement à une erreur.** Si utile, utilisez l' [info-bulle améliorée](glossary.md) pour expliquer la raison pour laquelle la commande est désactivée. Ne masquez pas ces commandes, car cela peut entraîner la modification de la disposition du ruban, rendant l’instabilité de la présentation du ruban.
 - **Ne mettez pas à jour les étiquettes de commande dynamiquement.** Là encore, cela peut entraîner la modification de la disposition des onglets, ce qui entraîne une apparence instable. Au lieu de cela, concevez des commandes pour qu’elles fonctionnent avec des étiquettes constantes.
 
-    | Correct.                                                                                       | Incorrect.                                                                 |
+    | Correct                                                                                       | Incorrect.                                                                 |
     |-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
     | ![capture d’écran de la note d’insertion et de la suppression ](images/cmd-ribbons-image38.png)<br/> Désactiver les commandes lorsqu’elles ne sont pas disponibles | ![capture d’écran de la note d’insertion, aucune note de suppression ](images/cmd-ribbons-image39.png)<br/>Ne pas masquer les commandes, même lorsqu’elles ne sont pas disponibles |
 
@@ -525,7 +525,7 @@ Pour les galeries déroulantes :
 - **Choisissez des conceptions d’icône qui communiquent clairement leur effet, en** particulier pour les commandes les plus fréquemment utilisées. Les rubans bien conçus présentent des icônes explicites pour aider les utilisateurs à trouver et à comprendre efficacement les commandes.
 - **Choisissez des icônes qui peuvent être reconnaissables et pouvant être distinguées, en** particulier pour les commandes les plus fréquemment utilisées. Assurez-vous que les icônes ont des formes et des couleurs distinctives. Cela aide les utilisateurs à trouver rapidement les commandes, même s’ils ne se souviennent pas du symbole d’icône.
 
-    | Correct.                                                                                                 | Incorrect.                                                                               |
+    | Correct                                                                                                 | Incorrect.                                                                               |
     |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
     | ![capture d’écran de l’injecteur d’yeux bleus et du crayon jaune ](images/cmd-ribbons-image46.png)<br/>Utilisez la forme et la couleur pour rendre les icônes faciles à distinguer. | ![capture d’écran de la pipette bleue et du crayon bleu ](images/cmd-ribbons-image47.png)<br/> Les icônes de même couleur sont difficiles à distinguer|
 
@@ -533,7 +533,7 @@ Pour les galeries déroulantes :
 - ![capture d’écran des boutons de commande de mise en forme du texte ](images/cmd-ribbons-image25.png)<br/>**Si utile, modifiez l’icône pour refléter l’état actuel.** Cela s’avère particulièrement utile pour les boutons partagés dont l’effet par défaut peut changer.
 - **Vérifiez que les icônes du ruban sont conformes aux règles d’icône de style Aero.** Toutefois, les icônes de ruban sont affichées directement au lieu d’être affichées en perspective.
 
-| Correct.                                                                                                 | Incorrect.                                                                               |
+| Correct                                                                                                 | Incorrect.                                                                               |
     |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
     | ![capture d’écran des icônes de commande à deux dimensions ](images/cmd-ribbons-image49.png)<br/> Utilisez des icônes à deux dimensions.|![capture d’écran des icônes de commande en trois dimensions ](images/cmd-ribbons-image50.png)<br/> N’utilisez pas d’icônes en trois dimensions. |
  
@@ -732,7 +732,7 @@ Quand vous faites référence à des rubans :
 - Reportez-vous aux éléments non disponibles comme indisponibles, non estompés, désactivés ou grisés. Dans documentation de programmation, utilisez désactivé.
 - Dans la mesure du possible, mettez en forme les étiquettes à l’aide du texte gras. Dans le cas contraire, placez les étiquettes entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 - Dans l’onglet dossier de **démarrage** , cliquez sur **Collage spécial**.
 - Dans l’onglet dossier de **démarrage** , dans la zone **police** , entrez « Segoe UI ».

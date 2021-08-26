@@ -4,12 +4,12 @@ ms.assetid: e4c2afc2-0fd3-4bdd-812e-f112958e1576
 title: WinHttpCertCfg.exe, un outil de configuration de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ce9978f6e2ffcafa1357a45dbeff80c12bf0e6ea2f7f3fb9656376b33dfb23
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21b8fbfadd6cf0282f63b26c8dd40d5ef96b5f54
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117743797"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466426"
 ---
 # <a name="winhttpcertcfgexe-a-certificate-configuration-tool"></a>WinHttpCertCfg.exe, un outil de configuration de certificat
 
@@ -36,61 +36,19 @@ Le tableau suivant répertorie les paramètres de l’outil de configuration de.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>-?</td>
-<td>Affiche les données de syntaxe.</td>
-</tr>
-<tr class="even">
-<td>-i</td>
-<td>spécifie que le certificat doit être importé à partir d’un fichier de Exchange d’informations personnelles (PFX). Ce paramètre doit être suivi du nom du fichier. Lorsque ce paramètre est spécifié, &quot; -a &quot; et &quot; -c &quot; doivent également être spécifiés.</td>
-</tr>
-<tr class="odd">
-<td>-g</td>
-<td>Spécifie que l’accès est accordé à une clé privée. Lorsque ce paramètre est spécifié, &quot; -a &quot; , &quot; -c &quot; et &quot; -s &quot; doivent également être spécifiés.</td>
-</tr>
-<tr class="even">
-<td>-r</td>
-<td>Spécifie que l’accès est supprimé pour une clé privée. Lorsque ce paramètre est spécifié, &quot; -a &quot; , &quot; -c &quot; et &quot; -s &quot; doivent également être spécifiés.</td>
-</tr>
-<tr class="odd">
-<td>-l</td>
-<td>Spécifie que les comptes ayant accès à une clé privée sont répertoriés. Lorsque ce paramètre est spécifié, &quot; -c &quot; et &quot; -s &quot; doivent également être spécifiés.</td>
-</tr>
-<tr class="even">
-<td>-a</td>
-<td>Spécifie le compte d’utilisateur sur l’ordinateur en cours de configuration. Il peut s’agir d’un ordinateur local ou d’un compte de domaine, tel que &quot; IWAM_TESTMACHINE &quot; , &quot; TESTUSER &quot; ou &quot; TESTDOMAIN\DOMAINUSER &quot; .</td>
-</tr>
-<tr class="odd">
-<td>-c</td>
-<td>Spécifie l’emplacement et le nom du <a href="glossary.md"><em>magasin de certificats</em></a>. Utilisez &quot; LOCAL_MACHINE &quot; ou &quot; CURRENT_USER &quot; pour désigner la branche du Registre à utiliser pour l’emplacement. Le <em>magasin de certificats</em> peut être installé sur l’ordinateur. Les exemples de noms standard sont &quot; My &quot; , &quot; root &quot; et &quot; TrustedPeople &quot; . L’emplacement et le nom du <em>magasin de certificats</em> sont séparés par une barre oblique inverse, par exemple, &quot; LOCAL_MACHINE \Root &quot; .
-<blockquote>
-[!Note]<br />
-Bien que la &quot; CURRENT_USER &quot; branche du Registre puisse être spécifiée avec ce paramètre, l’extension de l’accès aux clés privées est principalement destinée aux certificats installés dans un <a href="glossary.md"><em>magasin de certificats</em></a> d’ordinateur local accessible par plusieurs utilisateurs.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>-S</td>
-<td>Spécifie une chaîne de recherche ne respectant pas la casse pour rechercher le premier certificat énuméré avec un nom d’objet qui contient cette sous-chaîne.</td>
-</tr>
-<tr class="odd">
-<td>-p</td>
-<td>Spécifie un mot de passe utilisé pour importer le certificat et la clé privée. Utilisé uniquement avec l’option d’importation.</td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Description | 
+|-----------|-------------|
+| -? | Affiche les données de syntaxe. | 
+| -i | spécifie que le certificat doit être importé à partir d’un fichier de Exchange d’informations personnelles (PFX). Ce paramètre doit être suivi du nom du fichier. Lorsque ce paramètre est spécifié, les paramètres « -a » et « -c » doivent également être spécifiés. | 
+| -g | Spécifie que l’accès est accordé à une clé privée. Lorsque ce paramètre est spécifié, les paramètres « -a », « -c » et « -s » doivent également être spécifiés. | 
+| -r | Spécifie que l’accès est supprimé pour une clé privée. Lorsque ce paramètre est spécifié, les paramètres « -a », « -c » et « -s » doivent également être spécifiés. | 
+| -l | Spécifie que les comptes ayant accès à une clé privée sont répertoriés. Lorsque ce paramètre est spécifié, les paramètres « -c » et « -s » doivent également être spécifiés. | 
+| -a | Spécifie le compte d’utilisateur sur l’ordinateur en cours de configuration. Il peut s’agir d’un ordinateur local ou d’un compte de domaine, tel que « IWAM_TESTMACHINE », « UTILISATEURTEST » ou « TESTDOMAIN\DOMAINUSER ». | 
+| -c | Spécifie l’emplacement et le nom du <a href="glossary.md"><em>magasin de certificats</em></a>. Utilisez « LOCAL_MACHINE » ou « CURRENT_USER » pour désigner la branche du Registre à utiliser pour l’emplacement. Le <em>magasin de certificats</em> peut être installé sur l’ordinateur. Les exemples de noms standard sont « MY », « root » et « TrustedPeople ». L’emplacement et le nom du <em>magasin de certificats</em> sont séparés par une barre oblique inverse, par exemple, « LOCAL_MACHINE \Root ».<blockquote>[!Note]<br />Bien que la branche « CURRENT_USER » du Registre puisse être spécifiée avec ce paramètre, l’extension de l’accès aux clés privées est principalement destinée aux certificats installés dans un <a href="glossary.md"><em>magasin de certificats</em></a> d’ordinateur local accessible par plusieurs utilisateurs.</blockquote><br /> | 
+| -S | Spécifie une chaîne de recherche ne respectant pas la casse pour rechercher le premier certificat énuméré avec un nom d’objet qui contient cette sous-chaîne. | 
+| -p | Spécifie un mot de passe utilisé pour importer le certificat et la clé privée. Utilisé uniquement avec l’option d’importation. | 
+
 
 
 

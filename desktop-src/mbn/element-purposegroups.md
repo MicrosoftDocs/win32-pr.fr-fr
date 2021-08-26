@@ -7,12 +7,12 @@ MSHAttr:
 title: PurposeGroups
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb2e6d912e55859b30aa3979e72f4f2c377819f75edbb69c385d067e0a6c04a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d3b158938e1a41f6ab8d3f1df0cae6a2166bc21c
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119607259"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630935"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupsspanpurposegroups"></a><span id="WWAN_profile_v4.element_PurposeGroups"></span>PurposeGroups
 
@@ -27,7 +27,7 @@ Un profil peut être listé dans plusieurs groupes.
 [<MBNProfileExt>](element-mbnprofileext.md)  
 **<PurposeGroups>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <PurposeGroups>
@@ -38,7 +38,7 @@ Un profil peut être listé dans plusieurs groupes.
 </PurposeGroups>
 ```
 
-### <a name="key"></a>Clé
+### <a name="key"></a>Clé :
 
 `{}`   plage spécifique d’occurrences
 
@@ -52,8 +52,8 @@ Aucun.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -104,8 +104,8 @@ Aucun.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -128,8 +128,8 @@ Aucun.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

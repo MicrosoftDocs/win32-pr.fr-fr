@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 090fe71edbb00bd7964e5dcc1d518f57179af943
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d28d37faf454accd91281034d0aeb8df5e10dddb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879863"
 ---
 # <a name="winmgmt"></a>critique
 
@@ -49,7 +49,7 @@ winmgmt
 
 <dl> <dt>
 
-<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span>**/Backup***<filename>* 
+<span id="__________backup__filename_________"></span><span id="__________BACKUP__FILENAME_________"></span>**/Backup** ( *&lt; nom de fichier &gt;* ) 
 </dt> <dd>
 
 Permet à WMI de sauvegarder le référentiel dans le nom de fichier spécifié. L’argument *filename* doit contenir le chemin d’accès complet à l’emplacement du fichier. Ce processus nécessite un verrou d’écriture sur le référentiel afin que les opérations d’écriture dans le référentiel soient interrompues jusqu’à la fin du processus de sauvegarde.
@@ -58,7 +58,7 @@ Si vous ne spécifiez pas de chemin d’accès pour le fichier, il est placé da
 
 </dd> <dt>
 
-<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span>**/Restore** *<filename>**<flag>* 
+<span id="__________restore__filename____flag_____"></span><span id="__________RESTORE__FILENAME____FLAG_____"></span>l' *&lt; indicateur &gt;* de *&lt; nom de &gt; fichier* **/Restore** 
 </dt> <dd>
 
 Restaure manuellement le référentiel WMI à partir du fichier de sauvegarde spécifié. L’argument *filename* doit contenir le chemin d’accès complet à l’emplacement du fichier de sauvegarde. Pour effectuer l’opération de restauration, WMI enregistre le référentiel existant en écriture différée si l’opération échoue. Le référentiel est ensuite restauré à partir du fichier de sauvegarde spécifié dans l’argument de *nom de fichier* . Si l’accès exclusif au référentiel ne peut pas être effectué, les clients existants sont déconnectés de WMI.
@@ -67,7 +67,7 @@ L’argument *Flag* doit avoir la valeur 1 (forcer la déconnexion des utilisate
 
 </dd> <dt>
 
-<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span>**/resyncperf** *<winmgmt-service-process-ID>* 
+<span id="__________resyncperf__winmgmt-service-process-id_____"></span><span id="__________RESYNCPERF__WINMGMT-SERVICE-PROCESS-ID_____"></span>**/resyncperf** *&lt; winmgmt-service-Process-ID &gt;* 
 </dt> <dd>
 
 Inscrit les bibliothèques de performances de l’ordinateur avec WMI. PID WMI est l’ID de processus du service WMI.
@@ -76,14 +76,14 @@ Nécessaire uniquement si les classes de l’analyseur de performances ne retour
 
 </dd> <dt>
 
-<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost**\[*<level>*\]
+<span id="_standalonehost__level_"></span><span id="_STANDALONEHOST__LEVEL_"></span>**/standalonehost** \[ de *&lt; niveau &gt;*\]
 </dt> <dd>
 
 Déplace le service WinMgmt vers un processus Svchost autonome qui a un point de terminaison DCOM fixe. Le point de terminaison par défaut est « ncacn \_ IP \_ TCP. 0.24158 ». Toutefois, le point de terminaison peut être modifié en exécutant Dcomcnfg.exe. Pour plus d’informations sur la configuration d’un port fixe pour WMI, consultez [configuration d’un port fixe pour WMI](setting-up-a-fixed-port-for-wmi.md).
 
 L’argument *Level* est le niveau d’authentification pour le processus Svchost. WMI s’exécute normalement dans le cadre d’un hôte de service partagé et vous ne pouvez pas augmenter le niveau d’authentification pour WMI seul. Si le *niveau* n’est pas spécifié, la valeur par défaut est 4 (**RPC \_ C \_ Authn \_ niveau \_ PKT** ou **WbemAuthenticationLevelPkt**).
 
-Vous pouvez exécuter WMI de manière plus sécurisée en accroissant le niveau d’authentification à la confidentialité des paquets (RPC-niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité** ou **WbemAuthenticationLevelPktPrivacy**). Les niveaux d’authentification pour les Visual Basic et les scripts sont décrits dans [**WbemAuthenticationLevelEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum). Pour C++, consultez [définition du niveau de sécurité de processus par défaut à l’aide de c++](setting-the-default-process-security-level-using-c-.md). Pour plus d’informations, consultez [maintenance de la sécurité WMI](maintaining-wmi-security.md).
+Vous pouvez exécuter WMI de manière plus sécurisée en accroissant le niveau d’authentification à la confidentialité des paquets (RPC-niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité** ou **WbemAuthenticationLevelPktPrivacy**). les niveaux d’authentification pour les Visual Basic et les scripts sont décrits dans [**WbemAuthenticationLevelEnum**](/windows/desktop/api/Wbemdisp/ne-wbemdisp-wbemauthenticationlevelenum). Pour C++, consultez [définition du niveau de sécurité de processus par défaut à l’aide de c++](setting-the-default-process-security-level-using-c-.md). Pour plus d’informations, consultez [maintenance de la sécurité WMI](maintaining-wmi-security.md).
 
 </dd> <dt>
 
@@ -94,10 +94,10 @@ Déplace le service WinMgmt dans le processus Svchost partagé.
 
 </dd> <dt>
 
-<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span>**/verifyrepository***<path>* 
+<span id="__________verifyrepository__path_____"></span><span id="__________VERIFYREPOSITORY__PATH_____"></span>**/verifyrepository** *&lt; chemin &gt; d’accès* 
 </dt> <dd>
 
-Effectue une vérification de cohérence sur le référentiel WMI. Lorsque vous ajoutez le commutateur **/verifyrepository** sans l' *<path>* argument, le référentiel Live actuellement utilisé par WMI est vérifié. Lorsque vous spécifiez l’argument *path* , vous pouvez vérifier toute copie enregistrée du dépôt. Dans ce cas, l’argument Path doit contenir le chemin d’accès complet à la copie enregistrée du dépôt. Le référentiel enregistré doit être une copie de l’intégralité du dossier de dépôt. Pour plus d’informations sur les erreurs retournées par cette commande, consultez la section Notes.
+Effectue une vérification de cohérence sur le référentiel WMI. Lorsque vous ajoutez le commutateur **/verifyrepository** sans l’argument *&lt; path &gt;* , le référentiel Live actuellement utilisé par WMI est vérifié. Lorsque vous spécifiez l’argument *path* , vous pouvez vérifier toute copie enregistrée du dépôt. Dans ce cas, l’argument Path doit contenir le chemin d’accès complet à la copie enregistrée du dépôt. Le référentiel enregistré doit être une copie de l’intégralité du dossier de dépôt. Pour plus d’informations sur les erreurs retournées par cette commande, consultez la section Notes.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ Le référentiel est réinitialisé à l’état initial lors de la première in
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet outil se trouve dans le répertoire% windir% \\ system32 \\ WBEM. Pour obtenir la liste des commutateurs disponibles, tapez `WinMgmt /?` à l’invite de commandes.
 
@@ -129,11 +129,11 @@ WMI retourne l’erreur erreur de **\_ \_ \_ défaillance** de la base de donnes
 >
 > Si WMI renvoie des messages d’erreur, sachez qu’ils ne peuvent pas indiquer des problèmes dans le service WMI ou les fournisseurs WMI. Les échecs peuvent provenir d’autres parties du système d’exploitation et émerger comme des erreurs via WMI. Dans tous les cas, ne supprimez pas le référentiel WMI en tant que première action, car la suppression du dépôt peut endommager le système ou les applications installées.
 >
-> Pour plus d’informations sur la source du problème, téléchargez et exécutez l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. Vous pouvez télécharger le [WMI Diagnosis Utility](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
+> pour plus d’informations sur la source du problème, téléchargez et exécutez l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. vous pouvez télécharger le [WMI Diagnosis Utility](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

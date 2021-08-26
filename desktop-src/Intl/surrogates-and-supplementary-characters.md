@@ -4,16 +4,16 @@ ms.assetid: 0dea39e2-a2b4-47fc-b44a-56af8ba1e346
 title: Substituts et caractères supplémentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d6b738955c8b8de4f6cb0ae43c78f86752a928
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5b1dc4743627297962c7279449c06cc1ff967ac35f931a6e945b4577c937b59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130049"
 ---
 # <a name="surrogates-and-supplementary-characters"></a>Substituts et caractères supplémentaires
 
-Les applications Windows utilisent normalement UTF-16 pour représenter des données de caractères [Unicode](unicode.md) . L’utilisation de 16 bits permet la représentation directe de 65 536 caractères uniques, mais ce plan multilingue de base (BMP) n’est pas assez proche pour couvrir tous les symboles utilisés dans les langues humaines. La version Unicode 4,1 comprend plus de 97 000 caractères, avec plus de 70 000 caractères pour le chinois seul.
+Windows applications utilisent normalement UTF-16 pour représenter des données de caractères [Unicode](unicode.md) . L’utilisation de 16 bits permet la représentation directe de 65 536 caractères uniques, mais ce plan multilingue de base (BMP) n’est pas assez proche pour couvrir tous les symboles utilisés dans les langues humaines. La version Unicode 4,1 comprend plus de 97 000 caractères, avec plus de 70 000 caractères pour le chinois seul.
 
 La norme Unicode a établi 16 « plans » supplémentaires de caractères, chacun ayant la même taille que le BMP. Naturellement, la plupart des points de code au-delà du BMP n’ont pas encore de caractères qui leur sont affectés, mais la définition des plans donne au Unicode le potentiel de définir 1 114 112 caractères (autrement dit, 2 ¹ ⁶ \* 17 caractères) dans la plage de points de code u + 0000 à u + 10FFFF. Pour qu’UTF-16 représente ce plus grand ensemble de caractères, la norme Unicode définit des « caractères supplémentaires ».
 
@@ -22,18 +22,18 @@ La norme Unicode a établi 16 « plans » supplémentaires de caractères, cha
 Un caractère supplémentaire est un caractère situé au-delà du BMP, et un « substitut » est une valeur de code UTF-16. Pour le format UTF-16, une « paire de substitution » est requise pour représenter un caractère supplémentaire unique. Le premier substitut (élevé) est une valeur de code de 16 bits comprise entre U + D800 et U + DBFF. Le deuxième substitut (faible) est une valeur de code de 16 bits dans la plage U + DC00 et à U + DFFF. En utilisant le mécanisme de substitution, UTF-16 peut prendre en charge tous les 1 114 112 caractères Unicode potentiels. Pour plus d’informations sur les caractères supplémentaires, les substituts et les paires de substitution, reportez-vous à [la norme Unicode](https://www.unicode.org/standard/standard.html).
 
 > [!Note]  
-> Windows 2000 introduit la prise en charge de l’entrée, de la sortie et du tri simple des caractères supplémentaires. Toutefois, tous les composants système ne sont pas compatibles avec les caractères supplémentaires.
+> Windows 2000 introduit la prise en charge de l’entrée de base, de la sortie et du tri simple des caractères supplémentaires. Toutefois, tous les composants système ne sont pas compatibles avec les caractères supplémentaires.
 
  
 
 Le système d’exploitation prend en charge les caractères supplémentaires des manières suivantes :
 
 -   Le format 12 de la table CMAP de police OpenType prend directement en charge le code de caractère de 4 octets. Pour plus d’informations, consultez [spécification de police OpenType](/typography/opentype/spec/).
--   Windows prend en charge les [éditeurs de méthode d’entrée (IME)](../dxtecharts/installing-and-using-input-method-editors.md)activés pour la substitution.
--   L’API [GDI Windows](../gdi/windows-gdi.md) prend en charge les tables de format 12 CMAP dans les polices afin que les substituts puissent être affichés correctement.
+-   Windows prend en charge les [éditeurs de méthode d’entrée (ime)](../dxtecharts/installing-and-using-input-method-editors.md)activés pour la substitution.
+-   l’API [GDI Windows](../gdi/windows-gdi.md) prend en charge les tables de format 12 cmap dans les polices afin que les substituts puissent être affichés correctement.
 -   L’API [Uniscribe](uniscribe.md) prend en charge les caractères supplémentaires.
--   Les [contrôles Windows](../controls/window-controls.md), y compris les fonctionnalités de [modification](../controls/edit-controls.md) et de [modification enrichie](../controls/rich-edit-controls.md), prennent en charge les caractères supplémentaires.
--   Le moteur HTML prend en charge les pages HTML qui incluent des caractères supplémentaires pour l’affichage, la modification (via Outlook Express) et l’envoi de formulaires.
+-   les [contrôles Windows](../controls/window-controls.md), y compris la [modification](../controls/edit-controls.md) et la [modification enrichie](../controls/rich-edit-controls.md), prennent en charge les caractères supplémentaires.
+-   le moteur html prend en charge les pages html qui incluent des caractères supplémentaires pour l’affichage, la modification (via Outlook Express) et l’envoi de formulaires.
 -   La table de tri du système d’exploitation prend en charge les caractères supplémentaires.
 
 ## <a name="general-guidelines-for-software-development-using-supplementary-characters"></a>Instructions générales pour le développement de logiciels à l’aide de caractères supplémentaires
@@ -53,7 +53,7 @@ Les applications qui implémentent leur propre prise en charge de la modificatio
 
  
 
-Si vous développez une police ou un fournisseur IME, Notez que les systèmes d’exploitation antérieurs à Windows XP désactivent la prise en charge des caractères supplémentaires par défaut. Windows XP et versions ultérieures activent les caractères supplémentaires par défaut. Si vous fournissez une police et un package IME qui requièrent des caractères supplémentaires, votre application doit définir les valeurs de Registre suivantes :
+si vous développez une police ou un fournisseur IME, notez que les systèmes d’exploitation antérieurs à Windows XP désactivent la prise en charge des caractères supplémentaires par défaut. Windows XP et versions ultérieures activent les caractères supplémentaires par défaut. Si vous fournissez une police et un package IME qui requièrent des caractères supplémentaires, votre application doit définir les valeurs de Registre suivantes :
 
 
 ```C++

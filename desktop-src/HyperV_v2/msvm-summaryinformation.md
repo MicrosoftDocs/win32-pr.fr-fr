@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4af759cf621f5afbaef90924351ad24a232889b1d81048f0e1372630c74f98f3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f7cefc27c0e4adc507276d118bcca95c274d121
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118950088"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886607"
 ---
 # <a name="msvm_summaryinformation-class"></a>MSVM \_ SummaryInformation, classe
 
@@ -377,13 +377,13 @@ InstanceID est une propriété facultative qui peut être utilisée pour identif
 
 Pour garantir l’unicité dans l’espace de noms, la valeur d’InstanceID doit être construite à l’aide de l’algorithme « préféré » suivant :
 
-<OrgID>:<LocalID>
+&lt;Identifiant OrgID &gt; : &lt; LocalID&gt;
 
-Où <OrgID> et <LocalID> sont séparés par un signe deux-points ( :), et où <OrgID> doivent inclure un nom protégé par des droits d’auteur, une marque ou un nom unique qui est détenu par l’entité commerciale qui crée ou définit l’InstanceId ou qui est un ID inscrit affecté à l’entité métier par une autorité globale reconnue. (Cette spécification est semblable à la <Schema Name> \_ <Class Name> suivante : structure des noms de classes de schéma.) En outre, pour garantir l’unicité, <OrgID> ne doit pas contenir de deux-points ( :). Lors de l’utilisation de cet algorithme, le premier signe deux-points devant apparaître dans InstanceID doit apparaître entre <OrgID> et <LocalID> .
+Où &lt; identifiant OrgID &gt; et &lt; LocalID &gt; sont séparés par un signe deux-points ( :), et où &lt; identifiant OrgID &gt; doit inclure un nom de droits d’auteur, de marque ou d’autre nom unique qui est détenu par l’entité commerciale qui crée ou définit l’InstanceId ou qui est un ID inscrit affecté à l’entité métier par une autorité globale reconnue. (Cette spécification est semblable à la <Schema Name> \_ <Class Name> suivante : structure des noms de classes de schéma.) En outre, pour garantir l’unicité, &lt; identifiant OrgID &gt; ne doit pas contenir de deux-points ( :). Lors de l’utilisation de cet algorithme, le premier signe deux-points devant apparaître dans InstanceID doit apparaître entre &lt; identifiant OrgID &gt; et &lt; LocalID &gt; .
 
-<LocalID> est choisi par l’entité métier et ne doit pas être réutilisé pour identifier les différents éléments sous-jacents (réels). Si la valeur n’est pas null et que l’algorithme « préféré » ci-dessus n’est pas utilisé, l’entité de définition doit s’assurer que l’InstanceID qui en résulte n’est pas réutilisé dans les InstanceIDs produits par ce ou d’autres fournisseurs pour l’espace de noms de cette instance.
+&lt;LocalID &gt; est choisi par l’entité métier et ne doit pas être réutilisé pour identifier les différents éléments sous-jacents (réels). Si la valeur n’est pas null et que l’algorithme « préféré » ci-dessus n’est pas utilisé, l’entité de définition doit s’assurer que l’InstanceID qui en résulte n’est pas réutilisé dans les InstanceIDs produits par ce ou d’autres fournisseurs pour l’espace de noms de cette instance.
 
-Si vous ne définissez pas la valeur null pour les instances définies par DMTF, l’algorithme « préféré » doit être utilisé avec le <OrgID> défini sur CIM.
+Si vous ne définissez pas la valeur null pour les instances définies par DMTF, l’algorithme « préféré » doit être utilisé avec le &lt; identifiant OrgID &gt; défini sur CIM.
 
 > [!Note]  
 > Ajouté dans Windows 10.
@@ -1286,7 +1286,7 @@ Sous-type du système virtuel.
 
 L’accès à la classe **MSVM \_ SummaryInformation** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
