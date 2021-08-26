@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e36b69609fb2effbff84464cf145ee2ac908c8f1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 382315be18573dcb34fb704df29ccfa4d0b6f1e228b869a576e31357f10ba59f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106536301"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066319"
 ---
 # <a name="mssfu-30-search-attributes-attribute"></a>attribut msSFU-30-Search-Attributes
 
@@ -43,7 +43,7 @@ Contient les noms des attributs dont le serveur NIS a besoin lors de la recherch
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,16 +4,16 @@ ms.assetid: 5b777f64-6b62-48dd-8eae-6603582a452a
 title: Reconnexion dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 704178a28b91c6f78bea20b9c73c9a61f80be881
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a7b558a2e00ee2577cf1d31dda7aaebb15b5bd740c6dad5689e70b950c02d4d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966153"
 ---
 # <a name="dynamic-reconnection"></a>Reconnexion dynamique
 
-Dans la plupart des filtres DirectShow, les codes confidentiels ne peuvent pas être reconnectés lorsque le graphique diffuse activement des données. L’application doit arrêter le graphique avant de reconnecter les broches. Toutefois, certains filtres prennent en charge les reconnexions de code confidentiel pendant que le graphique est en cours d’exécution, un processus appelé reconnexion dynamique. Cela peut être effectué par l’application ou par un filtre dans le graphique.
+dans la plupart des DirectShow les filtres, les codes confidentiels ne peuvent pas être reconnectés lorsque le graphique diffuse activement des données. L’application doit arrêter le graphique avant de reconnecter les broches. Toutefois, certains filtres prennent en charge les reconnexions de code confidentiel pendant que le graphique est en cours d’exécution, un processus appelé reconnexion dynamique. Cela peut être effectué par l’application ou par un filtre dans le graphique.
 
 À titre d’exemple, examinez le graphique dans l’illustration suivante.
 
@@ -56,7 +56,7 @@ Pour appeler la méthode de *façon synchrone*, il vous suffit de passer la vale
 
 **Étape 2. Reconnecter les broches**
 
-Pour reconnecter les codes confidentiels, interrogez le gestionnaire du graphique de filtre pour l’interface **IGraphConfig** et appelez [**IGraphConfig :: reconnect**](/windows/desktop/api/Strmif/nf-strmif-igraphconfig-reconnect) ou [**IGraphConfig :: reconfigure**](/windows/desktop/api/Strmif/nf-strmif-igraphconfig-reconfigure). La méthode **reconnect** est plus simple à utiliser ; elle effectue les opérations suivantes :
+pour reconnecter les codes confidentiels, interrogez le gestionnaire de Graph de filtre de l’interface **IGraphConfig** et appelez [**IGraphConfig :: reconnect**](/windows/desktop/api/Strmif/nf-strmif-igraphconfig-reconnect) ou [**IGraphConfig :: reconfigure**](/windows/desktop/api/Strmif/nf-strmif-igraphconfig-reconfigure). La méthode **reconnect** est plus simple à utiliser ; elle effectue les opérations suivantes :
 
 -   Arrête les filtres intermédiaires (filtre 2 dans l’exemple) et les supprime du graphique.
 -   Ajoute de nouveaux filtres intermédiaires, si nécessaire.
@@ -89,14 +89,14 @@ Avant d’appeler **reconfigure**, bloquez le workflow à partir de la broche de
 
 Notez que la méthode **IGraphConfig :: reconnect** gère automatiquement les étapes précédentes. Vous devez effectuer ces étapes uniquement si vous utilisez la méthode **reconfigure** .
 
-Une fois que les données ont fait l’objet d’un push dans le graphique, appelez **reconfigure** et transmettez un pointeur à votre interface de rappel **IGraphConfigCallback** . Le gestionnaire de graphes de filtre appellera la méthode [**IGraphConfigCallback :: reconfigure**](/windows/desktop/api/Strmif/nf-strmif-igraphconfigcallback-reconfigure) que vous avez fournie.
+Une fois que les données ont fait l’objet d’un push dans le graphique, appelez **reconfigure** et transmettez un pointeur à votre interface de rappel **IGraphConfigCallback** . le gestionnaire de Graph de filtre appellera la méthode [**IGraphConfigCallback :: reconfigure**](/windows/desktop/api/Strmif/nf-strmif-igraphconfigcallback-reconfigure) que vous avez fournie.
 
-**Étape 3. Débloquer le workflow**
+**Étape 3. Débloquer le Flow de données**
 
 Une fois que vous avez reconnecté les codes confidentiels, débloquez le workflow en appelant **IPinFlowControl :: Block** avec une valeur de zéro pour le premier paramètre.
 
 > [!Note]  
-> Si une reconnexion dynamique est effectuée par un filtre, vous devez être conscient de certains problèmes de thread. Si le gestionnaire de graphes de filtre tente d’arrêter le filtre, il peut se bloquer, car le graphique attend que le filtre s’arrête, alors que le filtre peut attendre que les données soient transmises par le biais du graphique. Pour éviter le blocage possible, certaines des méthodes décrites dans cette section prennent un handle vers un événement Win32. Le filtre doit signaler l’événement si le gestionnaire du graphique de filtre tente d’arrêter le filtre. Pour plus d’informations, consultez [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig) et [**IPinConnection**](/windows/desktop/api/Strmif/nn-strmif-ipinconnection).
+> Si une reconnexion dynamique est effectuée par un filtre, vous devez être conscient de certains problèmes de thread. si le gestionnaire de Graph de filtre tente d’arrêter le filtre, il peut se bloquer, car le graphique attend que le filtre s’arrête, alors que le filtre peut attendre que les données soient transmises par le biais du graphique. Pour éviter le blocage possible, certaines des méthodes décrites dans cette section prennent un handle vers un événement Win32. le filtre doit signaler l’événement si le gestionnaire de Graph de filtre tente d’arrêter le filtre. Pour plus d’informations, consultez [**IGraphConfig**](/windows/desktop/api/Strmif/nn-strmif-igraphconfig) et [**IPinConnection**](/windows/desktop/api/Strmif/nn-strmif-ipinconnection).
 
  
 
@@ -104,7 +104,7 @@ Une fois que vous avez reconnecté les codes confidentiels, débloquez le workfl
 
 <dl> <dt>
 
-[Génération de graphiques dynamiques](dynamic-graph-building.md)
+[génération de Graph dynamique](dynamic-graph-building.md)
 </dt> </dl>
 
  

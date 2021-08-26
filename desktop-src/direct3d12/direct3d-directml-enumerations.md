@@ -5,18 +5,18 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 11/06/2020
 ms.custom: 19H1
-ms.openlocfilehash: 2a761dba639ece37eba347115a831d3c6803a618
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: a74ce2fc3b5bcf94a97d7f51cec20d5f9f0d8e9837a7b59d2f1bdea80328db90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953099"
 ---
 # <a name="directml-enumerations"></a>Énumérations DirectML
 
 Les énumérations suivantes sont déclarées dans DirectML. h.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 | Rubrique et description |
 |-|

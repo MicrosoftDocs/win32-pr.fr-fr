@@ -4,12 +4,12 @@ ms.assetid: 63915450-71c5-4097-91d7-5817249c1cda
 title: MFPKEY_CRISP, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ff20b37bcedf3995ec3e16178b823c40b352ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 177ae5e9d1c8a9aba359000e04483c8e45c44f823c9db924155dd5ef3d5989a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119954259"
 ---
 # <a name="mfpkey_crisp-property"></a>\_Propriété Crisp MFPKEY
 
@@ -27,7 +27,7 @@ VT \_
 
 75
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur entière peut être comprise entre 0 et 100. Plus la valeur est élevée, plus le codec optimise l’encodage pour la qualité d’image des trames individuelles, ce qui réduit généralement le lissage des mouvements.
 
@@ -39,8 +39,8 @@ Cette propriété doit être définie uniquement pour l’encodage CBR (constant
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

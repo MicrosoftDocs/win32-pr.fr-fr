@@ -6,12 +6,12 @@ keywords:
 - Flou gaussien
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfbe8b309a498315e389be45d382eca3ee1b98ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4b759ed0f5f70c4fc11ad902c7a45db3b3059847ce6895d25c3dbb9c9eee8330
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104554224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967082"
 ---
 # <a name="gaussian-blur-effect"></a>Effet Flou gaussien
 
@@ -28,7 +28,7 @@ Le CLSID de cet effet est CLSID \_ D2D1GaussianBlur.
 -   [Modes d’optimisation](#optimization-modes)
 -   [Modes de bordure](#border-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -38,7 +38,7 @@ Le CLSID de cet effet est CLSID \_ D2D1GaussianBlur.
 | Avant                                                       |
 |--------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)   |
-| After                                                        |
+| Après                                                        |
 | ![image après la transformation.](images/1-gaussianblur.png) |
 
 
@@ -115,8 +115,8 @@ Par conséquent, si la taille de l’image augmente de 10 pixels dans chaque dir
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

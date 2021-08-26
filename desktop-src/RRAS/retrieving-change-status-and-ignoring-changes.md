@@ -4,12 +4,12 @@ description: Le client peut interroger le gestionnaire de table de routage pour 
 ms.assetid: 778279ac-00c5-4de0-9ac7-eca1ac7fec6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a339cbf9ba4e97dfef25b2ebc2020ff94f8e20
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a117130ac939788a74aaa32092000e8f6f29aa6b34e697ca6066c9e13259b8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028059"
 ---
 # <a name="retrieving-change-status-and-ignoring-changes"></a>Récupération de l’état des modifications et ignorer les modifications
 
@@ -19,9 +19,9 @@ Un client peut utiliser cette requête pour éviter d’effectuer une action qui
 
 Le client peut également ignorer une notification de modification en attente pour une destination en appelant [**RtmIgnoreChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmignorechangeddests). Un appel ultérieur à [**RtmGetChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmgetchangeddests) ne retourne pas cette destination, sauf si une autre modification survient après l’appel à [**RtmIgnoreChangedDests**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtmignorechangeddests).
 
- 
+ 
 
- 
+ 
 
 
 

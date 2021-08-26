@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9da2c4865abf6932ff2356aaf8b798d9d9bbe789
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f38e29369fa42875c2d15e4be3eff362b3b99762a7b08f2e1debb7d68ab32d61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922219"
 ---
 # <a name="membership-property-set"></a>Propriété d’appartenance définie
 
@@ -40,7 +40,7 @@ Jeu de propriétés contenant les attributs utilisateur qui décrivent les infor
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

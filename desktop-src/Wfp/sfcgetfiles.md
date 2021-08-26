@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Sfcfiles.dll
-ms.openlocfilehash: 6b38b761372db656308e778fd96ea48607cf1f21
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3201621808708229419542acd7fa0caab0aa7f6e7d38bfe723b7f53bc68c4005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999279"
 ---
 # <a name="sfcgetfiles-function"></a>SfcGetFiles fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. La prise en charge de cette fonction a été supprimée dans Windows Vista et Windows Server 2008. Utilisez à la place les fonctions prises en charge listées dans [fonctions WRP](wfp-functions.md) .\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. la prise en charge de cette fonction a été supprimée dans Windows Vista et Windows Server 2008. Utilisez à la place les fonctions prises en charge listées dans [fonctions WRP](wfp-functions.md) .\]
 
 Répertorie les fichiers protégés.
 
@@ -66,8 +66,8 @@ Si la fonction réussit, la valeur de retour est STATUs \_ successful. Si la fon
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Sfcfiles. h</dt> </dl>   |

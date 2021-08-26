@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7c29e0212ba55b37abd734fb149d118ccc693908
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d21d46de5f3a9a8d85ff94e5996dc3d19481a03f003d7030384ca2f82f0e019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920509"
 ---
 # <a name="cim_remotefilesystem-class"></a>\_Classe CIM RemoteFileSystem
 
@@ -236,7 +236,7 @@ Jeux de caractères ou encodage pris en charge par le système de fichiers. Cett
 
 <span id="Extended_UNIX_Code"></span><span id="extended_unix_code"></span><span id="EXTENDED_UNIX_CODE"></span>
 
-**Code UNIX étendu** (6)
+**Code de UNIX étendu** (6)
 
 
 </dt> <dd></dd> <dt>
@@ -576,7 +576,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ RemoteFileSystem** est dérivée du [**système de \_ fichiers CIM**](cim-filesystem.md).
 

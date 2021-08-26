@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1978503a3ec37e0c39716569030d5ea6599e19d9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0fd854864dcc61397fa52df7af9419a38ac829a81382be6b6190e4cb3db41d7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026729"
 ---
 # <a name="rtm_ip_route-structure"></a>Structure de l' \_ itinéraire IP RTM \_
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La structure de l' **\_ \_ itinéraire IP RTM** contient des informations qui décrivent un itinéraire appartenant à la famille de protocoles IP.
 
@@ -98,7 +98,7 @@ Spécifie une structure de [**\_ \_ données spécifique à l’adresse IP**](ip
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les membres de la structure d' **\_ \_ itinéraires IP RTM** sont tous alignés sur le **DWORD** .
 

@@ -3,9 +3,9 @@ title: Méthode IWMPError clearErrorQueue
 description: La méthode clearErrorQueue efface les erreurs de la file d’attente des erreurs. | Méthode IWMPError clearErrorQueue
 ms.assetid: a8e8e666-56e4-4e75-9ed5-2714d272ce7c
 keywords:
-- méthode clearErrorQueue lecteur Windows Media
-- méthode clearErrorQueue lecteur Windows Media, interface IWMPError
-- Interface IWMPError lecteur Windows Media, méthode clearErrorQueue
+- Lecteur Windows Media de la méthode clearErrorQueue
+- méthode clearErrorQueue Lecteur Windows Media, interface IWMPError
+- Lecteur Windows Media de l’interface IWMPError, méthode clearErrorQueue
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 98c3f422a9bc32049106d83c970bd8d2c9b2110f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f75b4e4d2a0e80a3f55a38744758497abc71f5899498fee95ee3b3db752631c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000449"
 ---
 # <a name="iwmperrorclearerrorqueue-method"></a>IWMPError :: clearErrorQueue, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette méthode pour effacer la file d’attente d’erreurs après le traitement d’une série d’erreurs.
 

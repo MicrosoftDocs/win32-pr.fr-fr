@@ -3,9 +3,9 @@ title: IResultType PreceivedType, propriété (WdsSharedIDL. h)
 description: Cette propriété contient la chaîne utilisée pour identifier le type dans l’index.
 ms.assetid: 26d5f14c-162a-4ded-ac72-875561b8c977
 keywords:
-- Propriétés PreceivedType héritées fonctionnalités de l’environnement Windows
-- Propriété PreceivedType fonctionnalités de l’environnement Windows héritées, interface IResultType
-- Interface IResultType fonctionnalités d’environnement Windows héritées, propriété PreceivedType
+- propriété PreceivedType Windows héritée fonctionnalités d’environnement
+- propriété PreceivedType héritée Windows fonctionnalités d’environnement, interface IResultType
+- fonctionnalités d’environnement Windows héritées de l’interface IResultType, propriété PreceivedType
 topic_type:
 - apiref
 api_name:
@@ -17,17 +17,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b058105af254403c3b733f484d7c49a9ac5a0da3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 765a770dc07f1fc0287e861ca79fc2aa941ea7cc425fff29e5e4c5772410c06e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014614"
 ---
 # <a name="iresulttypepreceivedtype-property"></a>IResultType ::P propriété receivedType
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Cette propriété contient la chaîne utilisée pour identifier le type dans l’index.
 
@@ -55,7 +55,7 @@ retourne l’adresse de la chaîne identifyint le type dans l’index.
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                             |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                             |
 | En-tête<br/>                   | <dl> <dt>WdsSharedIDL. h</dt> </dl> |
 

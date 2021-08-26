@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffe21c17ec1abd64081991e9f50293417910beb1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2f647894443f1795542603fd1d811a74cdf01bb7e04cf9dc74a3c7b3ca2d345b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066029"
 ---
 # <a name="ms-wmi-stringdefault-attribute"></a>attribut ms-WMI-stringDefault
 
@@ -44,7 +44,7 @@ Paramètre de chaîne par défaut pour un ensemble d’objets de paramètre de c
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

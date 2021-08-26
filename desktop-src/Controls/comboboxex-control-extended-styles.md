@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 966d259cf427bcc83e9a8b2fb65670a2a05b9458
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: aed3ca32fa063b9b824a2ecd444a6a71c1885697f839b67e117c75622f009c60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921149"
 ---
 # <a name="comboboxex-control-extended-styles"></a>Styles étendus de contrôle ComboBoxEx
 
@@ -50,7 +50,7 @@ Vous définissez et récupérez les styles étendus de ComboBox à l’aide des 
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

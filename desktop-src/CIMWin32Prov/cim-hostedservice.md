@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c63b28fed7977c9fce78fe1030afbe66d5b2d75e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e70f7dea8fe6f5be0da7d76b37cf99ba4dcc7397c09cf27b542129232212286
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921599"
 ---
 # <a name="cim_hostedservice-class-cimwin32-wmi-providers"></a>CIM_HostedService, classe (fournisseurs WMI CIMWin32)
 
@@ -89,7 +89,7 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) (�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **CIM \_ Service hébergé** est dérivé de [**la \_ dépendance CIM**](cim-dependency.md).
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad4f852750cf7d7566e3106e24062ec1234ba0ac
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d98f97eabf9d218dc3ecf46bd1fd14cd88ac796fb02c05bb188267fd7d21d4e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066464"
 ---
 # <a name="msmq-site-2-attribute"></a>Attribut MSMQ-site-2
 
@@ -45,7 +45,7 @@ DN du deuxième site d’une paire connectée.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

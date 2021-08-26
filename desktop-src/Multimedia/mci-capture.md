@@ -3,7 +3,7 @@ title: Commande MCI_CAPTURE (mmsystem. h)
 description: La \_ commande MCI capture capture le contenu de la mémoire tampon de trame et le stocke dans un fichier spécifié. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: bdebddc5-a0a0-449e-889e-37c7d6612c60
 keywords:
-- Commande MCI_CAPTURE Windows multimédia
+- commande MCI_CAPTURE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 041954d786b007023226fb5d3febf4747c0121e2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7cc6bc6e31fd66153a8ea867f56a4e2638ad1f3392a284a61818e521327e52d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039449"
 ---
 # <a name="mci_capture-command"></a>\_Commande de capture MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ DGV de \_ capture \_ MCI**](/windows/deskto
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les indicateurs supplémentaires suivants s’appliquent aux périphériques vidéo numériques :
 
@@ -96,7 +96,7 @@ Le membre **RC** de la structure identifiée par *lpCapture* contient un rectang
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

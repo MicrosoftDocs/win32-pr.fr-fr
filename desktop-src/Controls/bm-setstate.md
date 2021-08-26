@@ -3,7 +3,7 @@ title: Message BM_SETSTATE (winuser. h)
 description: Définit l’état de surbrillance d’un bouton. L’état de mise en surbrillance indique si le bouton est mis en surbrillance comme si l’utilisateur l’avait poussé. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ macro SetState.
 ms.assetid: 675ebe8d-b381-46ca-b328-ebe9f25d864a
 keywords:
-- BM_SETSTATE les contrôles de message Windows
+- BM_SETSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab9b60231980f406b0aeb499d724dc6aa7025513
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7e3bb9451041c602541f039afcd85a895af2f02302dc5d55d64fbefb5bc6e3ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921209"
 ---
 # <a name="bm_setstate-message"></a>\_Message SETSTATE BM
 
@@ -47,7 +47,7 @@ Non utilisé.
 
 Ce message retourne toujours la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mise en surbrillance affecte uniquement l’apparence d’un bouton. Elle n’a aucun effet sur l’état d’activation d’une case d’option ou d’une case à cocher.
 
@@ -59,8 +59,8 @@ Un bouton est automatiquement mis en surbrillance lorsque l’utilisateur positi
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

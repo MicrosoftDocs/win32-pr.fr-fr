@@ -1,17 +1,17 @@
 ---
 description: Les fonctions suivantes sont utilisées avec les polices et le texte.
 ms.assetid: 69c04ed7-52da-4cb6-9fd2-f2a8c044df8b
-title: Fonctions de police et de texte (Windows GDI)
+title: fonctions de police et de texte (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a4dd6f000356dfb0e52c34fadef81bd6e8843e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e243ea92cf8fdcecc159495102caa70f6a9a55128acf6df9c6d83e1c2b84737a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015349"
 ---
-# <a name="font-and-text-functions-windows-gdi"></a>Fonctions de police et de texte (Windows GDI)
+# <a name="font-and-text-functions-windows-gdi"></a>fonctions de police et de texte (Windows GDI)
 
 Les fonctions suivantes sont utilisées avec les polices et le texte.
 

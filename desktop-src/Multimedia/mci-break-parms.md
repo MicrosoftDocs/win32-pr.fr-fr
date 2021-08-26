@@ -3,7 +3,7 @@ title: Structure MCI_BREAK_PARMS (Mciapi. h)
 description: La \_ structure des interruptions MCI \_ contient le code de clé virtuelle et les informations de fenêtre pour la \_ commande MCI Break.
 ms.assetid: c8df8c55-cc6b-4dd7-b275-784d3eb9dce1
 keywords:
-- Structure de MCI_BREAK_PARMS Windows multimédia
+- structure MCI_BREAK_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e66b52992827b447b6d4b5585ca3f98564142680
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efaff8841e0e8ef0387535aa8d42723cf9477887511b7111f02a6ee0cb2b527b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039509"
 ---
 # <a name="mci_break_parms-structure"></a>\_Structure des arrêts MCI \_
 
@@ -63,7 +63,7 @@ Handle de la fenêtre qui doit être la fenêtre active pour la détection des a
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres. Les indicateurs suivants sont définis :
 

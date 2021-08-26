@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 09e5dc9e84a36148e240e4ba2d31f04216454994
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aeda73e926ca9276e7e41ecfe966a088e311f4077040abe9eadb4ffc1701bfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014339"
 ---
 # <a name="iscardiso7816-interface"></a>Interface ISCardISO7816
 
-\[L’interface **ISCardISO7816** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[L’interface **ISCardISO7816** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 L’interface **ISCardISO7816** fournit des méthodes pour implémenter les fonctionnalités ISO 7816-4. À l’exception de [**SetDefaultClassId**](iscardiso7816-setdefaultclassid.md), ces méthodes créent une commande APDU ( [*Application Protocol Data Unit*](../secgloss/a-gly.md) ) encapsulée dans un objet [**ISCardCmd**](iscardcmd.md) .
 
@@ -76,7 +76,7 @@ L’interface **ISCardISO7816** possède ces méthodes.
 | [**SetDefaultClassId**](iscardiso7816-setdefaultclassid.md)       | Affecte un octet d’ID de classe standard qui sera utilisé dans toutes les opérations lors de la construction d’une commande ISO 7816-4.<br/>                                                                                                                                                                                      |
 | [**UpdateBinary**](iscardiso7816-updatebinary.md)                 | Lance la mise à jour des bits déjà présents dans un EF avec les bits fournis dans la commande APDU.<br/>                                                                                                                                                                                                      |
 | [**UpdateRecord**](iscardiso7816-updaterecord.md)                 | Construit une commande qui lance la mise à jour d’un enregistrement spécifique.<br/>                                                                                                                                                                                                                                  |
-| [**Vérifier**](iscardiso7816-verify.md)                             | Lance la comparaison de la carte des données de vérification envoyées à partir de l’appareil d’interface avec les données de référence stockées dans la carte.<br/>                                                                                                                                                                |
+| [**Vérification**](iscardiso7816-verify.md)                             | Lance la comparaison de la carte des données de vérification envoyées à partir de l’appareil d’interface avec les données de référence stockées dans la carte.<br/>                                                                                                                                                                |
 | [**WriteBinary**](iscardiso7816-writebinary.md)                   | Initie l’écriture de valeurs binaires dans un EF.<br/>                                                                                                                                                                                                                                                      |
 | [**WriteRecord**](iscardiso7816-writerecord.md)                   | Construit une commande qui écrit un enregistrement.<br/>                                                                                                                                                                                                                                                              |
 
@@ -90,8 +90,8 @@ L’interface **ISCardISO7816** possède ces méthodes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardssp. h</dt> </dl>   |

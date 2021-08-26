@@ -4,12 +4,12 @@ ms.assetid: 81688d31-e560-4dd0-8d84-efb50206c76e
 title: Table ServiceInstall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b502583802a26c10bfd9572375149720c7c597f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3850b957df4dd0af662354c14f82717e4b86ad597f151c6a45bb8dc1bebea5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039959"
 ---
 # <a name="serviceinstall-table"></a>Table ServiceInstall
 
@@ -26,11 +26,11 @@ La table ServiceInstall est utilisée pour installer un service et contient les 
 | StartType      | [DoubleInteger](doubleinteger.md) | N   | N        |
 | ErrorControl   | [DoubleInteger](doubleinteger.md) | N   | N        |
 | LoadOrderGroup | [Correct](formatted.md)         | N   | O        |
-| Les dépendances   | [Correct](formatted.md)         | N   | O        |
+| Dépendances   | [Correct](formatted.md)         | N   | O        |
 | StartName      | [Correct](formatted.md)         | N   | O        |
 | Mot de passe       | [Correct](formatted.md)         | N   | O        |
 | Arguments      | [Correct](formatted.md)         | N   | O        |
-| -\_    | [Identificateur](identifier.md)       | N   | N        |
+| Composant\_    | [Identificateur](identifier.md)       | N   | N        |
 | Description    | [Correct](formatted.md)         | N   | O        |
 
 
@@ -111,7 +111,7 @@ Cette colonne est un jeu d’indicateurs binaires qui spécifient à quel moment
 
  
 
-La Windows Installer ne peut pas utiliser les options de démarrage du SERVICE \_ \_ de démarrage et du système de service \_ \_ .
+la Windows Installer ne peut pas utiliser les options de démarrage du service \_ \_ de démarrage et du système de service \_ \_ .
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ Cette chaîne est le mot de passe du nom de compte spécifié dans la colonne St
 
 Notez qu’après la suppression d’un service qui a été installé avec un nom d’utilisateur et un mot de passe, le programme d’installation ne peut pas restaurer le service sans utiliser d’abord une action personnalisée pour obtenir le mot de passe. Le programme d’installation peut obtenir toutes les informations nécessaires sur le service, à l’exception du mot de passe, qui est stocké dans une partie protégée du système. L’action personnalisée acquiert le mot de passe en invitant l’utilisateur, en lisant une propriété dans la base de données ou en lisant un fichier. L’action personnalisée doit ensuite appeler [**ChangeServiceConfig**](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfiga)pour fournir le mot de passe, avant de réinstaller le service.
 
-Windows Installer n’écrit pas la valeur entrée dans le champ de mot de passe dans le fichier journal.
+Windows Le programme d’installation n’écrit pas la valeur entrée dans le champ de mot de passe dans le fichier journal.
 
 </dd> <dt>
 
@@ -189,11 +189,11 @@ Clé externe vers la colonne de l’une des [tables de composants](component-tab
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>Descriptive
 </dt> <dd>
 
-Cette colonne contient une description localisable pour le service en cours de configuration. Si cette colonne est laissée vide, le programme d’installation utilise la description existante du service, s’il en existe une. Pour plus d’informations, consultez \_ Description du service dans le kit de développement logiciel (SDK) Microsoft Windows. Pour effacer une description existante, entrez « \[ ~ \] » dans cette colonne. Cela donne une description vide pour un service nouveau ou existant.
+Cette colonne contient une description localisable pour le service en cours de configuration. Si cette colonne est laissée vide, le programme d’installation utilise la description existante du service, s’il en existe une. pour plus d’informations, consultez \_ DESCRIPTION du SERVICE dans le kit de développement logiciel (SDK) de Microsoft Windows. Pour effacer une description existante, entrez « \[ ~ \] » dans cette colonne. Cela donne une description vide pour un service nouveau ou existant.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’action [InstallServices](installservices-action.md) dans les [*tables de séquence*](s-gly.md) traite les informations de cette table. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

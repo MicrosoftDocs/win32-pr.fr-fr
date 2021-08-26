@@ -4,12 +4,12 @@ ms.assetid: 177311c4-c348-4d38-8c8d-b6690643529c
 title: MFPKEY_WMADRC_PEAKREF, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88e91df613541f91f2efd2fd71ea38d7b1ca9a60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58013ba116b9217ad6c16c93e420a09872cd887c4d5068f7c5b5dd68bf013377
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953450"
 ---
 # <a name="mfpkey_wmadrc_peakref-property"></a>MFPKEY \_ WMADRC \_ PEAKREF, propriété
 
@@ -23,11 +23,11 @@ Spécifie le niveau de volume le plus élevé dans le contenu audio.
 
 VT \_
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez récupérer cette valeur à partir de l’encodeur une fois le contenu traité. Cette valeur peut également être définie sur le décodeur pour le contrôle de plage dynamique.
 
-Pour plus d’informations sur le contrôle de plage dynamique, consultez l’article Web [Windows Media Audio fonctionnalités du codec professionnel](/previous-versions/ms867218(v=msdn.10)).
+pour plus d’informations sur le contrôle de plage dynamique, consultez l’article web [Windows Media Audio Professional les fonctionnalités du Codec](/previous-versions/ms867218(v=msdn.10)).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -35,8 +35,8 @@ Pour plus d’informations sur le contrôle de plage dynamique, consultez l’ar
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

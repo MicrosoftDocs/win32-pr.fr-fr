@@ -3,9 +3,9 @@ title: Propriété URL IWMPMetadataPicture
 description: Cette propriété est réservée à un usage interne uniquement. | Propriété URL IWMPMetadataPicture
 ms.assetid: 34e01c7b-cac2-4c16-8ed7-0f62652ac5be
 keywords:
-- Propriété URL du lecteur Windows Media
-- Propriété URL lecteur Windows Media, interface IWMPMetadataPicture
-- Interface IWMPMetadataPicture lecteur Windows Media, propriété URL
+- Lecteur Windows Media de propriété URL
+- Lecteur Windows Media de propriété URL, interface IWMPMetadataPicture
+- Lecteur Windows Media de l’interface IWMPMetadataPicture, propriété URL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85d781748cde0a5067a830280316700c63e4004d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e563822cd442add8bc1c169a887ee67b93669e22d8924a403b42a120ca532556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000099"
 ---
 # <a name="iwmpmetadatapictureurl-property"></a>IWMPMetadataPicture :: URL, propriété
 

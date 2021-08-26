@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1c74603f9eab4ea91e9220bbaa172c0262aeda99
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 411a3a742fca508839651d56912fa00b2a6d8b82908b159694a3b1eff88f2318
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982819"
 ---
 # <a name="vertex-shader-differences"></a>Différences entre vertex shader
 
@@ -33,13 +33,13 @@ Chaque version prend en charge un nombre différent d’emplacements d’instruc
 
 
 
- 
+ 
 
 Pour plus d’informations sur les limitations des nuanceurs de logiciels, consultez [nuanceurs de logiciels](dx9-graphics-reference-asm-software-shaders.md).
 
-## <a name="flow-control-nesting-limits"></a>Limites d’imbrication du contrôle de Flow
+## <a name="flow-control-nesting-limits"></a>Flow Contrôler les limites d’imbrication
 
--   Consultez [limites d’imbrication des contrôles de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
+-   consultez [Flow limites d’imbrication des contrôles](dx9-graphics-reference-asm-vs-instructions-flow-control.md).
 
 ## <a name="vs_1_1-features"></a>\_fonctionnalités vs 1 \_ 1
 
@@ -111,6 +111,6 @@ Nouveaux registres :
 [Nuanceurs vertex](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

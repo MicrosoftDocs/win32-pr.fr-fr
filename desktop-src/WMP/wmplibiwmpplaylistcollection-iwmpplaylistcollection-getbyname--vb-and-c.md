@@ -3,9 +3,9 @@ title: Méthode IWMPPlaylistCollection getByName
 description: La méthode getByName retourne une interface IWMPPlaylistArray qui fournit l’accès aux sélections portant le nom spécifié, le cas échéant.
 ms.assetid: d41afab1-4103-4f59-a432-21a502499444
 keywords:
-- méthode getByName lecteur Windows Media
-- méthode getByName lecteur Windows Media, interface IWMPPlaylistCollection
-- Interface IWMPPlaylistCollection lecteur Windows Media, méthode getByName
+- Lecteur Windows Media de la méthode getByName
+- méthode getByName Lecteur Windows Media, interface IWMPPlaylistCollection
+- Lecteur Windows Media de l’interface IWMPPlaylistCollection, méthode getByName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e51f83b4db019286c04762a081e649fec282135e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fcee45af3ef55d53a05bab290fa92d3e6842fbb097358235b6720cbb1b54e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119999739"
 ---
 # <a name="iwmpplaylistcollectiongetbyname-method"></a>IWMPPlaylistCollection :: getByName, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPPlaylistCollection.getByName
 
 Interface **wmplib. IWMPPlaylistArray** pour le tableau de sélections récupéré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez **IWMPPlaylistArray. Count** pour déterminer si une sélection existe. Si **Count** est égal à zéro, le tableau est vide.
 
@@ -131,7 +131,7 @@ End If
 [**Interface IWMPPlaylistArray (VB et C#)**](iwmpplaylistarray--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPPlaylistArray. Count (VB et C#)**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
+[**IWMPPlaylistArray. count (VB et C#)**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylistCollection (VB et C#)**](iwmpplaylistcollection--vb-and-c.md)

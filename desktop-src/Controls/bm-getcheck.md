@@ -3,7 +3,7 @@ title: Message BM_GETCHECK (winuser. h)
 description: Obtient l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez envoyer ce message de manière explicite ou utiliser le bouton \_ GetCheck macro.
 ms.assetid: a25b2c8d-0b32-4807-bfb4-e277675924f1
 keywords:
-- BM_GETCHECK les contrôles de message Windows
+- BM_GETCHECK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f1aa89dc256ea9e0036259239d1c74e1e82b272
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e5eb87d98752bd0cd447d48c648bc4a55e93c3f8eb418a81a07e04113a86633a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921289"
 ---
 # <a name="bm_getcheck-message"></a>\_Message GETCHECK BM
 
@@ -59,7 +59,7 @@ La valeur renvoyée par un bouton créé à l’aide de la fonction [**BS \_ aut
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le style du bouton est différent de ceux indiqués dans la liste, la valeur de retour est zéro.
 
@@ -69,8 +69,8 @@ Si le style du bouton est différent de ceux indiqués dans la liste, la valeur 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

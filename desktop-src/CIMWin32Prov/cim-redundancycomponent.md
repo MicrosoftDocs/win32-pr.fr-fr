@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bcd1c16417ba0c02e13579f9e471076d4c61818
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf2264d88a36f684c1ae198224a6e5543063bbf86ed3da77b0211f066eb080d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920789"
 ---
 # <a name="cim_redundancycomponent-class"></a>\_Classe CIM RedundancyComponent
 
@@ -88,7 +88,7 @@ Cette propriété est héritée [**du \_ composant CIM**](cim-component.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **CIM \_ RedundancyComponent** est dérivé du [**\_ composant CIM**](cim-component.md).
 

@@ -1,21 +1,21 @@
 ---
-description: Étant donné que la mise à niveau modifie le nom du fichier. msi et modifie le code du composant de certains composants, le code du produit de la mise à niveau doit être modifié par rapport à celui du produit d’origine.
+description: Étant donné que la mise à niveau modifie le nom du fichier .msi et modifie le code du composant de certains composants, le code du produit de la mise à niveau doit être modifié par rapport à celui du produit d’origine.
 ms.assetid: ebb1a217-fce6-43f0-9139-c0f4422c8fc4
 title: Mise à jour des propriétés d’une mise à niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 750c30a75650ff4009dda799b0542f41f535481f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d340f56eaf78c585e28a52dc7b310bf1af047d7530e61b841267bc0b83251a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039179"
 ---
 # <a name="updating-properties-for-an-upgrade"></a>Mise à jour des propriétés d’une mise à niveau
 
-Étant donné que la mise à niveau modifie le nom du fichier. msi et modifie le code du composant de certains composants, le code du produit de la mise à niveau doit être modifié par rapport à celui du produit d’origine. Pour obtenir une description des cas où une mise à niveau est nécessaire pour modifier la propriété [**ProductCode**](productcode.md) , consultez [modification du code du produit](changing-the-product-code.md). Une mise à niveau qui modifie la valeur ProductCode est appelée [mise à niveau majeure](major-upgrades.md).
+Étant donné que la mise à niveau modifie le nom du fichier .msi et modifie le code du composant de certains composants, le code du produit de la mise à niveau doit être modifié par rapport à celui du produit d’origine. Pour obtenir une description des cas où une mise à niveau est nécessaire pour modifier la propriété [**ProductCode**](productcode.md) , consultez [modification du code du produit](changing-the-product-code.md). Une mise à niveau qui modifie la valeur ProductCode est appelée [mise à niveau majeure](major-upgrades.md).
 
-La propriété [**ProductName**](productname.md) du package de mise à niveau, la propriété [**ProductVersion**](productversion.md) , la propriété [**ProductLanguage**](productlanguage.md) et la propriété [**UpgradeCode**](upgradecode.md) peuvent être modifiées, ou rester inchangées, à partir du produit d’origine. En fonction des valeurs de ces propriétés, Windows Installer peut déterminer s’il faut appliquer les futurs packages de mise à niveau à la mise à niveau actuelle.
+La propriété [**ProductName**](productname.md) du package de mise à niveau, la propriété [**ProductVersion**](productversion.md) , la propriété [**ProductLanguage**](productlanguage.md) et la propriété [**UpgradeCode**](upgradecode.md) peuvent être modifiées, ou rester inchangées, à partir du produit d’origine. en fonction des valeurs de ces propriétés, Windows Installer peut déterminer s’il faut appliquer les futurs packages de mise à niveau à la mise à niveau actuelle.
 
 La propriété spécifiée dans la colonne ActionProperty de la [table de mise à niveau](upgrade-table.md) doit être ajoutée à la propriété [**SecureCustomProperties**](securecustomproperties.md) .
 
@@ -66,7 +66,7 @@ Utilisez votre éditeur de base de données pour ouvrir MNP2001.msi et entrez le
 | [**ProductLanguage**](productlanguage.md)       | 1033                                      |
 | [**ProductName**](productname.md)               | MNP2001                                   |
 | [**ProductVersion**](productversion.md)         | 01.50.0000                                |
-| Progress1                                        | Installation                                |
+| Progress1                                        | En cours d'installation                                |
 | Progress2                                        | installs                                  |
 | [**PROMPTROLLBACKCOST**](promptrollbackcost.md) | P                                         |
 | RemoveIcon                                       | removico                                  |

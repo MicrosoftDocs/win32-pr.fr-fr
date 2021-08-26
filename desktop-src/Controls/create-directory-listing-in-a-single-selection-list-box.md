@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser une zone de liste à sélect
 ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03829990605271574a2030486ac5aba428867ec3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 926dc09e1e8cee85d230b0715684e084350c97c64b6f6cafb8228cc82cc61dc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920469"
 ---
 # <a name="how-to-create-a-directory-listing-in-a-single-selection-listbox"></a>Comment créer une liste de répertoires dans une zone de liste à sélection unique
 
@@ -17,16 +17,16 @@ Cette rubrique montre comment utiliser une zone de liste à sélection unique po
 
 L’exemple de code C++ de cette rubrique permet à un utilisateur d’afficher une liste de fichiers dans le répertoire actif, de sélectionner un fichier dans la liste et de le supprimer.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

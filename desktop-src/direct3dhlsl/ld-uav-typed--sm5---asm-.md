@@ -4,12 +4,12 @@ description: Lecture à accès aléatoire d’un élément à partir d’une vue
 ms.assetid: E5E03311-3596-4497-9271-FE6445DBFC62
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61b22392c802378c094b443c8ff2f2282909bd1f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dc9685341f4a3a2e6b22bbbcc4b36f6ecccc153f17c67f38c390e6beeef94358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982069"
 ---
 # <a name="ld_uav_typed-sm5---asm"></a>LD \_ UAV \_ typé (SM5-ASM)
 
@@ -36,7 +36,7 @@ Lecture à accès aléatoire d’un élément à partir d’une vue d’accès n
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction effectue une lecture d’élément à 4 composants à partir de *srcUAV* à l’adresse entière non signée dans *srcAddress*, convertie en 32 bits par composant en fonction du format, puis écrite dans *dst0* dans le nuanceur.
 
@@ -54,7 +54,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -66,7 +66,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -80,9 +80,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

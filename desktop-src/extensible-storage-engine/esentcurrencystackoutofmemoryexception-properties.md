@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101304
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6f9ab69da910c1f092b58f56623db36e6b49892a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ddaad77547ddc37dc07f917bbd7a749e48ba61f02a2bc2b91199b5324d9ea90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066229"
 ---
 # <a name="esentcurrencystackoutofmemoryexception-properties"></a>Propriétés EsentCurrencyStackOutOfMemoryException
 
@@ -49,7 +49,7 @@ Le type [EsentCurrencyStackOutOfMemoryException](./esentcurrencystackoutofmemory
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

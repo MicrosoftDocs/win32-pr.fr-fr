@@ -4,12 +4,12 @@ ms.assetid: 5162800c-9c55-40de-be66-a98765324f76
 title: Événement MEEnablerCompleted (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f05459a648f6b357fd483baa9fc56809540e64a1
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 2983cbcf3927626da88432c0cc04f28e2fc5d3e866d161b514dcbe5108bcf92a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013799"
 ---
 # <a name="meenablercompleted-event"></a>Événement MEEnablerCompleted
 
@@ -36,7 +36,7 @@ Le code d’état de l’événement peut contenir l’une des valeurs suivantes
 
 
 
-| Value                                     | Description                                                                                                                                                                                |
+| Valeur                                     | Description                                                                                                                                                                                |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **\_OK**                            | L’opération a réussi.                                                                                                                                                        |
 | **\_NOTACQUIRED de \_ \_ licence DRM \_ E** | La licence DRM n’a pas été acquise. Si la tentative précédente a utilisé [**AutomaticEnable**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable), l’application doit essayer une acquisition non silencieuse. |
@@ -48,14 +48,14 @@ Le code d’état de l’événement peut contenir l’une des valeurs suivantes
 
 Pour recevoir cet événement, interrogez l’interface [**IMFContentEnabler**](/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler) pour l’interface [**IMFMediaEventGenerator**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediaeventgenerator) . Appelez ensuite [**IMFMediaEventGenerator :: BeginGetEvent**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaeventgenerator-begingetevent), comme décrit dans la rubrique [Media Event Generators](media-event-generators.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

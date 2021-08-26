@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c48c0643a96cfd6cb23b684916580b53a6321ccf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f1712c3ded333ef23dc8b79429404907a0c2c7b1b24459ee6eb1be5f9ea20747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066082"
 ---
 # <a name="ms-ts-max-idle-time-attribute"></a>attribut ms-TS-Max-Idle-Time
 
@@ -36,13 +36,13 @@ La durée d’inactivité maximale de la session des services Terminal Server co
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1983              |
 | System-ID-GUID    | ff739e9c-6bb7-460e-b221-e250f3de0f95 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

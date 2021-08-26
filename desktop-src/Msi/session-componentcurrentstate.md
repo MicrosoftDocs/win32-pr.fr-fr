@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8c556dd9656ebced155ef90fe96abd394a32ff1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce060c7eddb76491480f4a1de9f477629da489ae9d8412adc02da25b8d7a0a1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039856"
 ---
 # <a name="sessioncomponentcurrentstate-property"></a>Session. ComponentCurrentState, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.ComponentCurrentState
 
 Nom de chaîne requis du composant demandé, clé primaire dans la table des composants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété échoue, vous pouvez obtenir des informations d’erreur étendues à l’aide de la méthode [**LastErrorRecord**](installer-lasterrorrecord.md) .
 

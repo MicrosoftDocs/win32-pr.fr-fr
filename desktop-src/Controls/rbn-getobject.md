@@ -3,7 +3,7 @@ title: RBN_GETOBJECT le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar créé avec le \_ style RBS REGISTERDROP lorsqu’un objet est glissé sur une bande dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 057474c1-5f65-4290-973e-4366b760365a
 keywords:
-- Contrôles Windows de code de notification RBN_GETOBJECT
+- RBN_GETOBJECT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a390bc5c5f74a577805ca8ae1128fbb24e6b10b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d9709313a16d068e44b847f5e0862adf1e133b9f0ea92136a12e9aae24ffb14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985039"
 ---
 # <a name="rbn_getobject-notification-code"></a>\_Code de notification RBN GETOBJECT
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMOBJECTNOTIFY**](/windows/win32/api/commctrl/ns-
 
 La valeur de retour pour ce code de notification doit être égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour recevoir le \_ Code de notification RBN GETOBJECT, initialisez OLE avec un appel à [**OleInitialize**](/windows/desktop/api/ole2/nf-ole2-oleinitialize) ou à [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize).
 
@@ -59,8 +59,8 @@ Pour recevoir le \_ Code de notification RBN GETOBJECT, initialisez OLE avec un 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

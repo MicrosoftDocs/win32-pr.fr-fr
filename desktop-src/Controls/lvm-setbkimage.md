@@ -3,7 +3,7 @@ title: Message LVM_SETBKIMAGE (commctrl. h)
 description: Définit l’image d’arrière-plan dans un contrôle d’affichage de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetBkImage.
 ms.assetid: 8fdd363c-ac12-498b-80b7-aaa5741cfd76
 keywords:
-- LVM_SETBKIMAGE les contrôles de message Windows
+- LVM_SETBKIMAGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e22bebdcb36faff56dfabab721731acb55fdec14
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f00fbf02d4e354115c01af637251782adb9f95b11923d12cba4bc9f1a0f9e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919969"
 ---
 # <a name="lvm_setbkimage-message"></a>\_Message SETBKIMAGE LVM
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commc
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire. Retourne zéro si le membre **ulFlags** de la structure [**LVBKIMAGE**](/windows/win32/api/commctrl/ns-commctrl-lvbkimagea) est **LVBKIF \_ source \_ None**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Étant donné que le contrôle List-View utilise OLE COM pour manipuler les images d’arrière-plan, l’application appelante doit appeler [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) ou [**OleInitialize**](/windows/desktop/api/ole2/nf-ole2-oleinitialize) avant d’envoyer ce message. Il est préférable d’appeler l’une de ces fonctions lorsque l’application est initialisée et d’appeler [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize) ou [**OleUninitialize**](/windows/desktop/api/ole2/nf-ole2-oleuninitialize) lorsque l’application se termine.
 
@@ -59,8 +59,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ SETBKIMAGEW** (Unicode) et **LVM \_ SETBKIMAGEA** (ANSI)<br/>             |
 

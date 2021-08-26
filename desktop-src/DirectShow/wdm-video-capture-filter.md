@@ -4,18 +4,18 @@ ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: Filtre de capture vidéo WDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17afb9b4ee534146ef7b8e8c34d9594f6b9e45e
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: deeaae173fc629eb1b614b02cc6daca809d126c6798a35f29e54a441ef622e97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982519"
 ---
 # <a name="wdm-video-capture-filter"></a>Filtre de capture vidéo WDM
 
-Le filtre de capture vidéo WDM contrôle les périphériques de capture analogiques qui utilisent des pilotes Windows Driver Model (WDM).
+le filtre de capture vidéo WDM contrôle les périphériques de capture analogiques qui utilisent des pilotes Windows Driver Model (WDM).
 
-Ce filtre est en fait un plug-in KsProxy en mode noyau. Il fournit des pages de propriétés et les interfaces COM pour les pilotes WDM qui contrôlent les périphériques de capture analogique (également appelés décodeurs vidéo analogiques). Une application peut le traiter simplement comme un filtre. Pour ajouter ce filtre à un graphique de filtre, utilisez l' [énumérateur de périphérique système](system-device-enumerator.md). Elle retourne un moniker unique pour chaque appareil qui utilise ce plug-in. Pour plus d’informations, consultez [énumération des appareils et des filtres](enumerating-devices-and-filters.md) et [mode de participation des périphériques matériels dans le graphique de filtre](how-hardware-devices-participate-in-the-filter-graph.md). Comme avec n’importe quel filtre basé sur KsProxy, le nom convivial du filtre dépend du pilote sous-jacent.
+Ce filtre est en fait un plug-in KsProxy en mode noyau. Il fournit des pages de propriétés et les interfaces COM pour les pilotes WDM qui contrôlent les périphériques de capture analogique (également appelés décodeurs vidéo analogiques). Une application peut le traiter simplement comme un filtre. Pour ajouter ce filtre à un graphique de filtre, utilisez l' [énumérateur de périphérique système](system-device-enumerator.md). Elle retourne un moniker unique pour chaque appareil qui utilise ce plug-in. Pour plus d’informations, consultez la page [énumération des appareils et des filtres](enumerating-devices-and-filters.md) et [Comment les périphériques matériels participent au filtre Graph](how-hardware-devices-participate-in-the-filter-graph.md). Comme avec n’importe quel filtre basé sur KsProxy, le nom convivial du filtre dépend du pilote sous-jacent.
 
 Tous les appareils qui sont exposés via le filtre de capture vidéo WDM n’implémentent pas toutes les interfaces répertoriées ci-dessous. L’application peut utiliser **QueryInterface** pour déterminer les interfaces prises en charge par un appareil particulier.
 
@@ -42,7 +42,7 @@ Tous les appareils qui sont exposés via le filtre de capture vidéo WDM n’imp
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [Capture vidéo](video-capture.md)

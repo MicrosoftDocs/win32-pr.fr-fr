@@ -4,12 +4,12 @@ description: Cette section décrit les différents types de zones de liste déro
 ms.assetid: 76410a87-aa0e-4da9-9e78-c80ac485e3cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 344596a3c0aa772568956344aaddcc053b534993
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 497bc6fc7e9254feb58ef95051ba1278e135ff241d3af93781f611373d2d096c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104558417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922510"
 ---
 # <a name="about-combo-boxes"></a>À propos des zones de liste modifiable
 
@@ -42,9 +42,9 @@ La bibliothèque de contrôles communs comprend trois styles principaux de zone 
 
 
 
- 
+ 
 
-Les captures d’écran suivantes montrent chacune les trois sortes de zone de liste déroulante telles qu’elles peuvent apparaître dans Windows Vista. Dans la première capture d’écran, l’utilisateur a sélectionné un élément dans la zone de liste déroulante simple. L’utilisateur peut également taper une nouvelle valeur dans la zone d’édition de ce contrôle. La liste a été dimensionnée dans l’éditeur de ressources Microsoft Visual Studio et n’est suffisante que pour accueillir deux éléments.
+les captures d’écran suivantes montrent chacune les trois sortes de zone de liste déroulante telles qu’elles peuvent apparaître dans Windows Vista. Dans la première capture d’écran, l’utilisateur a sélectionné un élément dans la zone de liste déroulante simple. L’utilisateur peut également taper une nouvelle valeur dans la zone d’édition de ce contrôle. la liste a été dimensionnée dans l’éditeur de ressources Microsoft Visual Studio et n’est suffisante que pour accueillir deux éléments.
 
 ![capture d’écran montrant un élément sélectionné dans une zone de liste modifiable simple](images/simplecombo.png)
 
@@ -61,7 +61,7 @@ Il existe également un certain nombre de styles de zone de liste déroulante qu
 > [!Note]  
 > Pour utiliser des styles visuels avec des zones de liste déroulante, une application doit inclure un manifeste et doit appeler [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) au début du programme. Pour plus d’informations sur les styles visuels, consultez [styles visuels](themes-overview.md). Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
 
- 
+ 
 
 ## <a name="combo-box-list"></a>Liste de zones de liste modifiable
 
@@ -145,6 +145,6 @@ Si une procédure de sous-classe traite le message [**WM \_ Paint**](/windows/de
 
 Une technique en rapport avec le sous-classing est la superclassement. Une superclasse ressemble à toute autre classe, sauf que sa procédure de fenêtre n’appelle pas [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour gérer les messages non traités. Au lieu de cela, il transmet des messages non traités à la procédure de fenêtre pour la classe de fenêtre parente. Suivez les instructions des [procédures de fenêtre](/windows/desktop/winmsg/window-procedures) pour éviter les problèmes qui peuvent se produire avec le sous-classing et le surclassement.
 
- 
+ 
 
- 
+ 

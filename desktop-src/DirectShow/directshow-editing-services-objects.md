@@ -1,24 +1,24 @@
 ---
-description: Objets des services de modification DirectShow
+description: DirectShow Modification des objets de services
 ms.assetid: 0b78c928-eee7-46ab-b01b-30c9c62ceeb2
-title: Objets des services de modification DirectShow
+title: DirectShow Modification des objets de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1dd4ff12af8925dbcf7a46c251584e595621fcb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: adcdd082efac7c66ec3b6e8f6aaa8d8f6bc3ea30cf21d6a6be83e979feebb923
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966549"
 ---
-# <a name="directshow-editing-services-objects"></a>Objets des services de modification DirectShow
+# <a name="directshow-editing-services-objects"></a>DirectShow Modification des objets de services
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-Les services d’édition DirectShow (DES) incluent les composants COM suivants.
+DirectShow Les services d’édition (DES) incluent les composants COM suivants.
 
 ### <a name="timeline-objects"></a>Objets Timeline
 
@@ -57,7 +57,7 @@ Les services d’édition DirectShow (DES) incluent les composants COM suivants.
 
 <dl> <dt>
 
-[Référence C++ des services d’édition DirectShow](directshow-editing-services-c---reference.md)
+[DirectShow Référence C++ des services de modification](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 32FEBC99-0AE0-4FE9-90AB-5FB204BD4C83
 title: Attribut MF_SOURCE_STREAM_SUPPORTS_HW_CONNECTION (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 751d672e664ab1849376d839285393075ddf6af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 659672b11cbcaa51f543eec8239f56ba792584a4b1ac44af25ed76016cdeb2a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955143"
 ---
 # <a name="mf_source_stream_supports_hw_connection-attribute"></a>Le \_ flux source MF \_ \_ prend en charge l' \_ attribut de \_ connexion HW
 
@@ -19,7 +19,7 @@ Indique si une source de média prend en charge le workflow de données matérie
 
 **Bool** stocké comme **UInt32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utilisé quand une source de média transmet un périphérique matériel et est en mesure de transférer des données en aval sur un bus matériel, sans envoyer de données jusqu’au processeur. Par exemple, une webcam peut fournir une vidéo encodée H. 264 directement à un décodeur matériel intégré.
 
@@ -42,8 +42,8 @@ La connexion entre la source du média et la table MFT est négociée comme suit
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

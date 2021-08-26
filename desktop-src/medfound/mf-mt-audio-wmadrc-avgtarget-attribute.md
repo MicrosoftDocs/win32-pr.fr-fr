@@ -1,29 +1,29 @@
 ---
-description: Niveau de volume moyen cible d’un fichier Windows Media Audio.
+description: niveau de volume moyen cible d’un fichier Windows Media Audio.
 ms.assetid: f81158c8-b341-4b39-8fa4-b510c93b89fc
 title: Attribut MF_MT_AUDIO_WMADRC_AVGTARGET (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41956e2e9e6f14e969cade3628f1e88bce98796d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a05ef07966313d9b06bec57ec09af068f385bbc869cba7fab33e42e786dc63b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119940629"
 ---
 # <a name="mf_mt_audio_wmadrc_avgtarget-attribute"></a>Attribut AVGTARGET de l’WMADRC MF \_ MT \_ audio \_ \_
 
-Niveau de volume moyen cible d’un fichier Windows Media Audio.
+niveau de volume moyen cible d’un fichier Windows Media Audio.
 
 ## <a name="data-type"></a>Type de données
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut s’applique aux types de média audio pour Windows Media Audio codecs. Il spécifie le niveau de volume moyen de la cible du contenu. Le décodeur peut utiliser cette valeur pour effectuer un contrôle de plage dynamique.
+cet attribut s’applique aux types de média audio pour Windows Media Audio codecs. Il spécifie le niveau de volume moyen de la cible du contenu. Le décodeur peut utiliser cette valeur pour effectuer un contrôle de plage dynamique.
 
-La méthode [**IMFASFContentInfo ::P arseheader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) ajoute cet attribut au type de média si l’en-tête ASF contient l’attribut [**WM/WMADRCAverageTarget**](../wmformat/wm-wmadrcaveragetarget.md) . Cet attribut est documenté dans la documentation du kit de développement logiciel (SDK) du format Windows Media.
+La méthode [**IMFASFContentInfo ::P arseheader**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-parseheader) ajoute cet attribut au type de média si l’en-tête ASF contient l’attribut [**WM/WMADRCAverageTarget**](../wmformat/wm-wmadrcaveragetarget.md) . cet attribut est documenté dans la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
 La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

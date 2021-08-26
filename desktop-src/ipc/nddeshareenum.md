@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 8bfa4884b88e72cb9a3b64bebf58af53cdc1047e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6b101a7ba45e28175a8d6ee0730e704a6f519142f94e4fc2273d1d76dcfe1cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014739"
 ---
 # <a name="nddeshareenum-function"></a>NDdeShareEnum fonction)
 
@@ -115,7 +115,7 @@ Si la fonction échoue, la valeur de retour est un code d’erreur qui peut êtr
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

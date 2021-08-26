@@ -3,7 +3,7 @@ title: Structure MCI_RECORD_PARMS (Mciapi. h)
 description: La \_ \_ structure d’enregistrements MCI contient des informations de positionnement pour la \_ commande d’enregistrement MCI.
 ms.assetid: 5d502cf8-3963-49d6-b515-d26e19195322
 keywords:
-- Structure de MCI_RECORD_PARMS Windows multimédia
+- structure MCI_RECORD_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b633ce192d0f4b2467cb744d614ea38056eafb60
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9c531b5b186a6119a22cafc4e252424ace2e388b2545461b440cd7957694494b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039079"
 ---
 # <a name="mci_record_parms-structure"></a>Structure des PARMS des \_ enregistrements MCI \_
 
@@ -63,7 +63,7 @@ Position de lecture.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

@@ -6,12 +6,12 @@ keywords:
 - détecter l’éclairage spéculaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f2482d9631de7383c26e791d13f1571f247fa6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9edc4c75eaa17369ba0d0d9f1838d8857053def9aaab3dacceb8bf761b9c04c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000374"
 ---
 # <a name="spot-specular-lighting-effect"></a>Effet d’éclairage spéculaire par spot
 
@@ -25,7 +25,7 @@ Le CLSID de cet effet est CLSID \_ D2D1SpotSpecular.
 -   [Source de lumière ponctuelle](#spot-light-source)
 -   [Propriétés d’effet](#effect-properties)
 -   [Modes de mise à l’échelle](#scale-modes)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -111,8 +111,8 @@ Le vecteur ![symbole de vecteur t](images/spot-mathchar-t.png) est défini par l
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

@@ -4,16 +4,16 @@ ms.assetid: 46ee5ea2-35fd-4352-8a45-572d6fb5e080
 title: Spécification de l’ordre d’inscription automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d99587f6e6bdd8726f2cdc584fc2f399d81ae91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bb26fbebad3167fbea95679a1ea7a29c28946ae6fa2dd2b014be6ade986e28f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039679"
 ---
 # <a name="specifying-the-order-of-self-registration"></a>Spécification de l’ordre d’inscription automatique
 
-Notez que vous ne pouvez pas spécifier l’ordre dans lequel le programme d’installation enregistre ou annule l’enregistrement automatique des dll à l’aide des actions [SelfRegModules](selfregmodules-action.md) et [SelfUnRegModules](selfunregmodules-action.md) . Ces actions inscrivent tous les modules listés dans la [table Selfreg](selfreg-table.md). Le programme d’installation n’enregistre pas automatiquement les fichiers. exe.
+Notez que vous ne pouvez pas spécifier l’ordre dans lequel le programme d’installation enregistre ou annule l’enregistrement automatique des dll à l’aide des actions [SelfRegModules](selfregmodules-action.md) et [SelfUnRegModules](selfunregmodules-action.md) . Ces actions inscrivent tous les modules listés dans la [table Selfreg](selfreg-table.md). Le programme d’installation ne s’inscrit pas automatiquement .exe fichiers.
 
 Pour spécifier l’ordre dans lequel le programme d’installation inscrit ou désinscrit des modules, vous devez utiliser deux [actions personnalisées](custom-actions.md) pour chaque module. Une action personnalisée pour DllRegisterServer et une seconde pour DllUnregisterServer. Ces actions personnalisées doivent ensuite être créées dans la [table InstallExecuteSequence](installexecutesequence-table.md) au point de l’ordre où la dll doit être inscrite ou désinscrite.
 
@@ -23,7 +23,7 @@ L’exemple suivant montre comment créer la base de données pour planifier l�
 
 
 
-| Fichier  | -\_ | FileName  | Séquence |
+| Fichier  | Composant\_ | FileName  | Séquence |
 |-------|-------------|-----------|----------|
 | mydll | myComponent | Mydll.dll | 13       |
 

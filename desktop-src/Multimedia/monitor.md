@@ -3,7 +3,7 @@ title: commande Monitor
 description: La commande Monitor spécifie la source de la présentation. (La source de présentation par défaut est l’espace de travail.) Le fait de basculer la source de présentation change tous les flux audio et vidéo dans la source. Les périphériques vidéo numériques reconnaissent cette commande.
 ms.assetid: 5cacbe88-b94e-4101-badf-2bb4796b19cf
 keywords:
-- commande surveiller Windows Multimedia
+- commande monitor Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccbe1d8919c232ab88d04081dad242944868893
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bef9a47db68856196dc84aefb3c5f110941189dec80f62b369eae13c60932d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038809"
 ---
 # <a name="monitor-command"></a>commande Monitor
 
@@ -76,7 +76,7 @@ Peut être « Wait », « Notify », « test » ou une combinaison de ceux
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La source de la présentation bascule automatiquement vers l’espace de travail après une commande [Play](play.md), [Step](step.md), [Pause](pause.md), [CUE](cue.md) « Output » ou [Seek](seek.md) . La commande d' [enregistrement](record.md) ne change pas automatiquement les sources de présentation, ce qui permet à votre application de ne pas afficher de vidéo lors de son enregistrement.
 

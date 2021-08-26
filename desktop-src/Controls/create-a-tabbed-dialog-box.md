@@ -4,12 +4,12 @@ description: L’exemple de cette section montre comment créer une boîte de di
 ms.assetid: DBF7FBDF-AADC-45CE-833E-F893C1129FC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0b84a8a77d18903ddbdb29687cc2b97b88872b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 8fa2ad8ba22c2972c6bdd502728af413d4800dabf0ab5c9196a4033a52267115
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920709"
 ---
 # <a name="how-to-create-a-tabbed-dialog-box"></a>Comment créer une boîte de dialogue à onglets
 
@@ -18,20 +18,20 @@ L’exemple de cette section montre comment créer une boîte de dialogue qui ut
 > [!Note]  
 > Dans de nombreux cas, vous pouvez implémenter des boîtes de dialogue de plusieurs pages plus facilement en utilisant des feuilles de propriétés. Pour plus d’informations sur les feuilles de propriétés, consultez [à propos des feuilles de propriétés](property-sheets.md).
 
- 
+ 
 
 Le modèle de la boîte de dialogue principale définit simplement deux contrôles bouton. Lors du traitement du message [**WM \_ INITDIALOG**](/windows/desktop/dlgbox/wm-initdialog) , la procédure de la boîte de dialogue crée un contrôle onglet et charge les ressources du modèle de boîte de dialogue pour chacune des boîtes de dialogue enfants.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -258,9 +258,9 @@ VOID WINAPI OnChildDialogInit(HWND hwndDlg)
 [Utilisation des contrôles Tab](using-tab-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

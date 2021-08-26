@@ -1,17 +1,17 @@
 ---
-title: Mise en cache (Windows Internet)
+title: mise en cache (Internet Windows)
 description: Les fonctions WinINet disposent d’une prise en charge de la mise en cache intégrée simple, mais flexible.
 ms.assetid: 44c268c9-a745-432a-8540-60d7e7d2cb2d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e753d826ec3abe580b94158296562208dcbed44
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cea485e1c6fc8b2b474d217d940c715b65b45de8f7d211ad37bff9bdd9a4243b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119955609"
 ---
-# <a name="caching-windows-internet"></a>Mise en cache (Windows Internet)
+# <a name="caching-windows-internet"></a>mise en cache (Internet Windows)
 
 Les fonctions WinINet disposent d’une prise en charge de la mise en cache intégrée simple, mais flexible. Toutes les données récupérées à partir du réseau sont mises en cache sur le disque dur et récupérées pour les demandes suivantes. L’application peut contrôler la mise en cache à chaque requête. Pour les requêtes http provenant du serveur, la plupart des en-têtes reçus sont également mis en cache. Quand une requête HTTP est satisfaite à partir du cache, les en-têtes mis en cache sont également retournés à l’appelant. Cela rend le téléchargement des données transparent, que les données proviennent du cache ou du réseau.
 
@@ -32,7 +32,7 @@ Le cache WinINet est conforme aux directives de contrôle de cache HTTP décrite
 
 Le nettoyage du cache nettoie régulièrement les éléments du cache. Si un élément est ajouté au cache et que le cache est plein, l’élément est ajouté au cache et le nettoyage du cache est planifié. Si le nettoyage du cache termine un nettoyage et que le cache n’a pas atteint la limite du cache, le nettoyage est planifié pour un autre arrondi lorsqu’un autre élément est ajouté au cache. En général, le nettoyage est planifié lorsqu’un élément ajouté place le cache au-dessus de sa taille limite. Par défaut, la durée de vie minimale du cache est définie à 10 minutes, sauf indication contraire dans une directive Cache-Control. Lorsque le nettoyage du cache est initié, il n’y a aucune garantie que les éléments les plus anciens sont les premiers à être supprimés du cache.
 
-Le cache est partagé entre toutes les applications WinINet sur l’ordinateur pour le même utilisateur. À compter de Windows Vista et de Windows Server 2008, la taille du cache est définie à 1/32e la taille du disque, avec une taille minimale de 8 Mo et une taille maximale de 50 Mo.
+Le cache est partagé entre toutes les applications WinINet sur l’ordinateur pour le même utilisateur. à partir de Windows Vista et Windows Server 2008, la taille du cache est définie sur 1/32e la taille du disque, avec une taille minimale de 8 mo et une taille maximale de 50 mo.
 
 ## <a name="using-flags-to-control-caching"></a>Utilisation d’indicateurs pour contrôler la mise en cache
 
@@ -462,7 +462,7 @@ lpDstCEInfo->lpszSourceUrlName =
 Certaines fonctions de cache échouent avec le message d’erreur erreur de \_ mémoire tampon insuffisante \_ si vous spécifiez une mémoire tampon qui est trop petite pour contenir les informations d’entrée de cache récupérées par la fonction. Dans ce cas, la fonction retourne également la taille requise de la mémoire tampon. Vous pouvez ensuite allouer une mémoire tampon de la taille appropriée et appeler à nouveau la fonction.
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

@@ -4,16 +4,16 @@ ms.assetid: 5aca7ff5-c09f-4d00-b319-2b89550686ab
 title: Mise à jour des composants d’une mise à niveau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 920bc955d3d3615941ef03ec885ca8871f79dc86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e725653acc7aadbeb3710d3cd6b1ee6dc2971e51d3583f2be279ddfed008d81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120039239"
 ---
 # <a name="updating-components-for-an-upgrade"></a>Mise à jour des composants d’une mise à niveau
 
-Par défaut, les utilisateurs du produit fictif MNP2000 ne doivent jamais utiliser de fichiers mis à niveau, comme Baseba01.txt. Par conséquent, les fichiers mis à jour sont par définition incompatibles avec le produit d’origine et les composants de Windows Installer, tels que baseball, qui contiennent ces fichiers doivent se voir attribuer de nouveaux codes de composant. De nouveaux fichiers, tels que Opera01.txt, sont introduits dans le cadre d’un nouveau composant avec un code de composant unique. Étant donné que le produit et la mise à niveau d’origine utilisent le même composant bloc-notes, le code du composant de ce composant n’est pas modifié. Pour plus d’informations sur le moment où le code du composant doit être modifié, consultez [modification du code du composant](changing-the-component-code.md).
+Par défaut, les utilisateurs du produit fictif MNP2000 ne doivent jamais utiliser de fichiers mis à niveau, comme Baseba01.txt. par conséquent, les fichiers mis à jour sont par définition incompatibles avec le produit d’origine et les composants de Windows Installer, tels que Baseball, qui contiennent ces fichiers doivent se voir attribuer de nouveaux codes de composant. De nouveaux fichiers, tels que Opera01.txt, sont introduits dans le cadre d’un nouveau composant avec un code de composant unique. étant donné que le produit et la mise à niveau d’origine utilisent le même Bloc-notes composant, le code de ce composant n’est pas modifié. Pour plus d’informations sur le moment où le code du composant doit être modifié, consultez [modification du code du composant](changing-the-component-code.md).
 
 Utilisez Orca ou un autre éditeur de base de données pour entrer les données suivantes dans la [table des composants](component-table.md) de MNP2001.msi. Ne réutilisez pas les GUID indiqués ci-dessous dans la colonne ComponentId de votre exemple.
 
