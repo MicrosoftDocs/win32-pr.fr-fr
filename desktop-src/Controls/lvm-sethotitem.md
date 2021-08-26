@@ -3,7 +3,7 @@ title: Message LVM_SETHOTITEM (commctrl. h)
 description: Définit l’élément réactif pour un contrôle d’affichage de liste. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView SetHotItem.
 ms.assetid: 0aa2b15d-4983-4234-9863-f1fdee09f913
 keywords:
-- LVM_SETHOTITEM les contrôles de message Windows
+- LVM_SETHOTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82c17bc67c530581b79a87030b31b655f856dd0e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6937cbed8150bf14eb71e167b8ed54d6f6b47ae995a3af989613cba30c7ca3fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077239"
 ---
 # <a name="lvm_sethotitem-message"></a>\_Message SETHOTITEM LVM
 
@@ -49,8 +49,8 @@ Retourne l’index de l’élément qui était précédemment chaud.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

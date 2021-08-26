@@ -1,19 +1,19 @@
 ---
-title: Optimisation des performances des DVD pour les jeux Windows
-description: Cet article explique comment optimiser les performances des DVD pour les jeux Windows.
+title: optimisation des performances des DVD pour les jeux Windows
+description: cet article explique comment optimiser les performances des DVD pour les jeux Windows.
 ms.assetid: 01e8dc7d-4ba7-40dd-d845-a20000201ae1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb15063d0441423ccb3a9f67db84caa134f801c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fe08ba6188df9b8bbc25a73595bf1509b257696955c1fcbd1ae98091b3c8aecf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042533"
 ---
-# <a name="optimizing-dvd-performance-for-windows-games"></a>Optimisation des performances des DVD pour les jeux Windows
+# <a name="optimizing-dvd-performance-for-windows-games"></a>optimisation des performances des DVD pour les jeux Windows
 
-Un pourcentage élevé d’ordinateurs qui exécutent Windows ont un lecteur de DVD, et de nombreux jeux sont livrés sur DVD. Par conséquent, nous vous recommandons de vous assurer que vos jeux utilisent le lecteur de DVD pour tirer pleinement parti. En comprenant comment les données sont lues à partir d’un DVD et comment l’emplacement des données affecte le temps de lecture, vous pouvez réduire les temps de chargement et améliorer les performances globales lors du jeu. Cet article explique comment optimiser les performances des DVD pour les jeux Windows.
+un pourcentage élevé d’ordinateurs qui exécutent Windows avoir un lecteur de dvd, et de nombreux jeux sont livrés sur dvd. Par conséquent, nous vous recommandons de vous assurer que vos jeux utilisent le lecteur de DVD pour tirer pleinement parti. En comprenant comment les données sont lues à partir d’un DVD et comment l’emplacement des données affecte le temps de lecture, vous pouvez réduire les temps de chargement et améliorer les performances globales lors du jeu. cet article explique comment optimiser les performances des DVD pour les jeux Windows.
 
 -   [Disposition de base d’un DVD](#basic-layout-of-a-dvd)
 -   [Lecture à partir d’un DVD](#reading-from-a-dvd)
@@ -50,7 +50,7 @@ Lorsqu’un lecteur de DVD reçoit une demande de lecture qui dépasse la taille
 > [!Note]  
 > Chaque lecture non mise en cache vide le cache du lecteur.
 
- 
+ 
 
 ## <a name="reading-errors"></a>Lecture des erreurs
 
@@ -80,7 +80,7 @@ Le meilleur principe à lire à partir d’un DVD est d’éviter de rechercher 
 
 ## <a name="dvd-compatibility"></a>Compatibilité DVD
 
-Certains problèmes de compatibilité importants doivent être pris en compte lors de la publication sur DVD. Tout d’abord, les lecteurs de DVD des ordinateurs Windows peuvent varier en termes de performances. par conséquent, si votre DVD a une exigence spécifique pour le débit, il est important de s’assurer que le matériel de vos utilisateurs répond à ces exigences. En outre, les DVD multicouches peuvent entraîner des problèmes de compatibilité sur certains lecteurs de DVD. Pour éviter ces problèmes, il est recommandé de fournir un DVD à une seule couche ou de tester minutieusement un DVD multicouche sur une majorité de lecteurs avant la version finale.
+Certains problèmes de compatibilité importants doivent être pris en compte lors de la publication sur DVD. premièrement, les lecteurs de dvd des ordinateurs Windows peuvent varier en termes de performances. par conséquent, si votre DVD a une exigence spécifique pour le débit, il est important de s’assurer que le matériel de vos utilisateurs répond à ces exigences. En outre, les DVD multicouches peuvent entraîner des problèmes de compatibilité sur certains lecteurs de DVD. Pour éviter ces problèmes, il est recommandé de fournir un DVD à une seule couche ou de tester minutieusement un DVD multicouche sur une majorité de lecteurs avant la version finale.
 
 ## <a name="summary"></a>Résumé
 
@@ -93,6 +93,6 @@ Pour améliorer les performances des DVD, certaines règles générales peuvent 
 -   Lecture asynchrone pour réduire la charge de l’UC et l’utilisation excessive de la mémoire
 -   Éviter de libérer des DVD multicouches
 
- 
+ 
 
- 
+ 

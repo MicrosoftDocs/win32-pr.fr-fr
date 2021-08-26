@@ -4,12 +4,12 @@ ms.assetid: b9f0bcc7-57ab-4339-bf1d-2b12c8744f01
 title: MFPKEY_WMAAECMA_MIC_GAIN_BOUNDER, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c1b09f2095f5accb44e4e0edaff2b8c94941d3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d00e906ec953e2fd00d9c288336c322c2d0dc07ea1c2d74a014ab78ae21acd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113149"
 ---
 # <a name="mfpkey_wmaaecma_mic_gain_bounder-property"></a>Propriété de MFPKEY \_ WMAAECMA \_ MIC \_ gain \_
 
@@ -31,7 +31,7 @@ VARIANTE \_ true
 
 -   [DSP de capture vocale](voicecapturedmo.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gain de gain de microphone garantit que le microphone a le niveau de gain correct. Si le gain est trop élevé, le signal capturé peut être saturé et sera coupé. Le découpage est un effet non linéaire qui entraîne l’échec de l’algorithme d’annulation de l’écho acoustique (AEC). Si le gain est trop faible, le rapport signal-bruit est faible, ce qui peut également entraîner l’échec ou l’inefficacité de l’algorithme AEC.
 
@@ -58,8 +58,8 @@ Le délimitation du gain de microphone s’applique uniquement lorsque le DSP fo
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

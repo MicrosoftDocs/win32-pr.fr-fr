@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b73ad2b024cd0f8bbcafd6ba05be093c5953d54
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a05ac2c45ee035e17f0fc715b42f7752a11ca92dd2bce7f54a3a81c7b723d29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072399"
 ---
 # <a name="imsrdpclientadvancedsettings6enablecredsspsupport-property"></a>IMsRdpClientAdvancedSettings6 :: EnableCredSspSupport, propriété
 
@@ -61,7 +61,7 @@ HRESULT get_EnableCredSspSupport(
 
 Spécifie si CredSSP est activé pour cette connexion. Affectez la valeur **Variant \_ true** pour activer CredSSP ou la **variante \_ false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est uniquement prise en charge par les clients Connexion Bureau à distance 6,1 et 7,0.
 

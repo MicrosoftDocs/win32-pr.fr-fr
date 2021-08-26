@@ -3,7 +3,7 @@ title: commande Play
 description: La commande Play démarre la lecture d’un appareil. Les périphériques CD audio, Digital-Video, MIDI Sequencer, videodisc, VCR et Waveform-Audio reconnaissent cette commande.
 ms.assetid: 3ee707d6-6af4-494d-a887-d91ea5666ac4
 keywords:
-- commande Play Windows Multimedia
+- commande de lecture Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf262db152677ef5a2f29de9526152c1d48d4c9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2da0df530f1c7a0166dcbb7c852fe491127a9e187d1cb6cb953ec46b2533ac00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038049"
 ---
 # <a name="play-command"></a>commande Play
 
@@ -101,7 +101,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) . Cette commande commence à la vitesse actuelle, telle qu’elle est définie avec la commande « Speed » définie. La direction est inversée si l’indicateur « Reverse » est spécifié, ou si l’indicateur « to » est spécifié en tant que valeur inférieure à l’indicateur « from ». Si l’indicateur « from » n’est pas spécifié, la lecture commence à la position actuelle. Les indicateurs « to » et « reverse » ne peuvent pas être utilisés ensemble.
 

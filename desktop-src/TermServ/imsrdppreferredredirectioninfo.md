@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb8ea28c36ca06548128954298e35c0cc20de5b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e1c2e3d5e2ce8ee4253ae0c31e3b88fc34ed4e3927487ebfae60be6ba5e7c448
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125589"
 ---
 # <a name="imsrdppreferredredirectioninfo-interface"></a>Interface IMsRdpPreferredRedirectionInfo
 

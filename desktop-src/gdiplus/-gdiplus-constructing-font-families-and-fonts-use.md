@@ -1,19 +1,19 @@
 ---
-description: Windows GDI+ regroupe des polices avec la même police mais des styles différents dans des familles de polices.
+description: Windows GDI+ regroupe des polices avec la même police, mais des styles différents dans des familles de polices.
 ms.assetid: 57428fae-6af4-47a5-a499-717dc378767a
 title: Construction des familles de polices et des polices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2761923847a15be6b1ad51eec0d683129b70b349
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cc405883eadd85b5b8018f75da270085197aed4792bf1c6848628cce02f457d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015191"
 ---
 # <a name="constructing-font-families-and-fonts"></a>Construction des familles de polices et des polices
 
-Windows GDI+ regroupe des polices avec la même police mais des styles différents dans des familles de polices. Par exemple, la famille de polices Arial contient les polices suivantes :
+Windows GDI+ regroupe des polices avec la même police, mais des styles différents dans des familles de polices. Par exemple, la famille de polices Arial contient les polices suivantes :
 
 -   Arial normal
 -   Arial gras
@@ -27,7 +27,7 @@ GDI+ utilise quatre styles pour former les familles : normal, gras, italique et
 -   Arial étroit italique
 -   Arial étroit gras italique
 
-Avant de pouvoir dessiner du texte avec GDI+, vous devez construire un objet [**FontFamily**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily) et un objet [**font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) . Les objets **FontFamily** spécifient le type de caractères (par exemple, Arial) et l’objet **font** spécifie la taille, le style et les unités.
+avant de pouvoir dessiner du texte avec GDI+, vous devez construire un objet [**FontFamily**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-fontfamily) et un objet [**Font**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) . Les objets **FontFamily** spécifient le type de caractères (par exemple, Arial) et l’objet **font** spécifie la taille, le style et les unités.
 
 L’exemple suivant construit une police Arial de style standard d’une taille de 16 pixels :
 

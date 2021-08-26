@@ -6,12 +6,12 @@ keywords:
 - named_type_from_local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94606a197f3763770db8e0d455a9d0b09f5dab0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7c294398913a3bf6fe8b88eed5c42ceec84abf6b23ed994c85ff0fae8f21f2e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127619"
 ---
 # <a name="the-named_type_from_local-function"></a>Type nommé \_ \_ à partir de la \_ fonction locale
 
@@ -24,9 +24,9 @@ void __RPC_USER <named_type>_from_local (
 
 Le premier paramètre est un pointeur vers les données d’application. Le deuxième paramètre est un pointeur vers un pointeur. La fonction pointe vers les données transmises. La fonction doit allouer de la mémoire pour le type transmis.
 
- 
+ 
 
- 
+ 
 
 
 

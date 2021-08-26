@@ -4,12 +4,12 @@ ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
 title: MFNETSOURCE_PROXYEXCEPTIONLIST, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 591f7036491964928937f2b48b0656e60f9a20f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e87c07068d31cdd5e9762dab14e2a61edbe9c8f90f8750acc1b23c851ad47c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113489"
 ---
 # <a name="mfnetsource_proxyexceptionlist-property"></a>MFNETSOURCE \_ propriété PROXYEXCEPTIONLIST
 
@@ -31,7 +31,7 @@ Chaîne de caractères larges (**WCHAR** \* )
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La constante **MFNETSOURCE \_ PROXYEXCEPTIONLIST** définit le GUID de cette clé de propriété. L’identificateur de propriété (PID) est égal à zéro.
 
@@ -43,8 +43,8 @@ Les applications peuvent utiliser cette propriété pour configurer le localisat
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

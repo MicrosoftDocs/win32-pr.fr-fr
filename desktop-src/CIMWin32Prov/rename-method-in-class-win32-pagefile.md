@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7c9ba8162cd115a567e9e9010420c558061fed08
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c47bda2b5466111594617a9f3fc0faa9d2dbf55e4452509015cbbe368ef15cba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077429"
 ---
 # <a name="rename-method-of-the-win32_pagefile-class"></a>Renommer la méthode de la \_ classe du fichier d’échange Win32
 

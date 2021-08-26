@@ -1,6 +1,6 @@
 ---
 title: Planificateur de tâches des objets de script
-description: Les objets de script décrits dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches pour les développeurs de scripts Visual Basic et Visual Basic.
+description: les objets de script décrits dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches pour les développeurs de scripts Visual Basic et Visual Basic.
 ms.assetid: 632bc9ae-b300-42ed-9d2c-f1d2d53d44fb
 keywords:
 - Planificateur de tâches Planificateur de tâches, référence, objets de script
@@ -11,16 +11,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: acf9d74ae2bf586941f3b93a6c2cbb3a84836144
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2f42eac1c9e8904933cedba54d1b51e5cc63919279de93286bfa658be1f60b11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104199916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100109"
 ---
 # <a name="task-scheduler-scripting-objects"></a>Planificateur de tâches des objets de script
 
-Les objets de script décrits dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches pour les développeurs de scripts Visual Basic et Visual Basic.
+les objets de script décrits dans les rubriques suivantes fournissent un accès par programme aux fonctionnalités disponibles dans le Planificateur de tâches pour les développeurs de scripts Visual Basic et Visual Basic.
 
 
 Les objets suivants sont introduits dans Planificateur de tâches 2,0.
@@ -43,7 +43,7 @@ Les objets suivants sont introduits dans Planificateur de tâches 2,0.
 | [**MonthlyDOWTrigger**](monthlydowtrigger.md)                 | Représente un déclencheur qui démarre une tâche sur une planification mensuelle de jour de semaine.                                                                                                                                                                            |
 | [**MonthlyTrigger**](monthlytrigger.md)                       | Représente un déclencheur qui démarre une tâche basée sur une planification mensuelle.                                                                                                                                                                                  |
 | [**NetworkSettings**](networksettings.md)                     | Fournit les paramètres utilisés par le service de Planificateur de tâches pour obtenir un profil réseau.                                                                                                                                                               |
-| [**Directeur**](principal.md)                                 | Fournit les informations d’identification de sécurité pour un principal.                                                                                                                                                                                                    |
+| [**Principal**](principal.md)                                 | Fournit les informations d’identification de sécurité pour un principal.                                                                                                                                                                                                    |
 | [**RegisteredTask**](registeredtask.md)                       | Fournit les méthodes utilisées pour exécuter immédiatement la tâche, pour récupérer les instances en cours d’exécution de la tâche, pour récupérer ou définir les informations d’identification utilisées pour enregistrer la tâche et les propriétés qui décrivent la tâche.                                      |
 | [**RegisteredTaskCollection**](registeredtaskcollection.md)   | Contient toutes les tâches qui sont inscrites.                                                                                                                                                                                                           |
 | [**RegistrationInfo**](registrationinfo.md)                   | Fournit les informations d’administration qui peuvent être utilisées pour décrire la tâche. Ces informations incluent des détails tels que la description de la tâche, l’auteur de la tâche, la date à laquelle la tâche est inscrite et le descripteur de sécurité de la tâche. |
@@ -62,7 +62,7 @@ Les objets suivants sont introduits dans Planificateur de tâches 2,0.
 | [**TaskSettings**](tasksettings.md)                           | Fournit les paramètres utilisés par les services Planificateur de tâches pour effectuer la tâche.                                                                                                                                                                      |
 | [**TaskVariables**](taskvariables.md)                         | Définit les variables de tâche qui peuvent être passées en tant que paramètres aux gestionnaires de tâches et aux exécutables externes qui sont lancés par les tâches.                                                                                                                         |
 | [**TimeTrigger**](timetrigger.md)                             | Représente un déclencheur qui démarre une tâche lorsque le déclencheur est activé.                                                                                                                                                                                |
-| [**Stead**](trigger.md)                                     | Fournit les propriétés communes qui sont héritées par tous les objets déclencheurs.                                                                                                                                                                             |
+| [**Déclencheur**](trigger.md)                                     | Fournit les propriétés communes qui sont héritées par tous les objets déclencheurs.                                                                                                                                                                             |
 | [**TriggerCollection**](triggercollection.md)                 | Permet d’ajouter, de supprimer et de récupérer les déclencheurs d’une tâche.                                                                                                                                                                                     |
 | [**WeeklyTrigger**](weeklytrigger.md)                         | Représente un déclencheur qui démarre une tâche basée sur une planification hebdomadaire.                                                                                                                                                                                   |
 

@@ -4,27 +4,27 @@ description: Il existe souvent une confusion quant à la façon de définir et d
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be84035907b69ba98ed60a33046f1a58fd2b47b2
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 04504019f79a388b6c21f940724de884d8516263daf6d410a841a96fc2e557b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103723683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059299"
 ---
 # <a name="how-to-work-with-state-image-indexes"></a>Utilisation des index d’images d’État
 
 Il existe souvent une confusion quant à la façon de définir et de récupérer l’index d’images d’État dans un contrôle d’arborescence. Les exemples suivants illustrent la méthode appropriée pour définir et récupérer l’index d’images d’État. Les exemples partent du principe qu’il n’y a que deux index d’images d’État dans le contrôle Tree-View, désactivés et activés. Si votre application en contient plus de deux, ces fonctions devront être modifiées pour gérer ce cas.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -88,9 +88,9 @@ L’exemple suivant montre comment récupérer l’état d’activation d’un �
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

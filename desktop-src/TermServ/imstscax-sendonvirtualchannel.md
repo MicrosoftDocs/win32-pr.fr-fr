@@ -44,12 +44,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c1371ae17978601a3194f755dd364d9227b8fc28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03c5b84ff9cb272d5560f3b6588301a05a3e9a003db1b28f841a77b2e0618b37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125299"
 ---
 # <a name="imstscaxsendonvirtualchannel-method"></a>IMsTscAx :: SendOnVirtualChannel, méthode
 
@@ -89,7 +89,7 @@ Données à envoyer sur le canal virtuel, sous forme **BSTR** . Il n’existe au
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur les restrictions de nom de canal virtuel, consultez [inscription du client du canal virtuel](virtual-channel-client-registration.md) .
 

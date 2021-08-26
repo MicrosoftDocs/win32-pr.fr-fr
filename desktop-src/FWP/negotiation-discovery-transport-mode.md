@@ -4,12 +4,12 @@ description: Le scénario de stratégie IPsec de mode de transport de la découv
 ms.assetid: c08d9d03-7d77-43c2-8468-964b498b45f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 216fec869eca28dc0661a37d44cce3a1fd05b80a
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 990a7f84e20d081933ffa0def9800ff7610a3a0e3a6d01dd3b45fe7c99729ca9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102139"
 ---
 # <a name="negotiation-discovery-transport-mode"></a>Mode de transport de la découverte de négociation
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4cfaf6dfa225799befcd0c7fb068c0f779ea33eb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e696837b1132a0b82ad428e7404892ae73de88e4435325d988b7936b3a6ba534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104116154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032279"
 ---
 # <a name="channelloggingtype-complex-type"></a>Type complexe ChannelLoggingType
 
@@ -69,13 +69,13 @@ Définit les propriétés du fichier journal qui stocke le canal, par exemple sa
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez spécifier l’attribut **MaxSize** pour tout type de canal.
 
 Vous pouvez spécifier l’attribut **Autobackup** uniquement pour les types de canaux d’administration et opérationnels.
 
-Vous pouvez affecter la valeur false (journalisation circulaire) à l’attribut de **rétention** pour les types de canaux opérationnels et d’administration. Vous pouvez définir l’attribut de **rétention** sur false (enregistrement circulaire) pour les types de canaux d’analyse et de débogage, mais pour afficher les événements dans le observateur d’événements Windows, vous devez d’abord désactiver le canal. Notez que lorsque vous réactivez le canal, les événements sont supprimés du canal.
+Vous pouvez affecter la valeur false (journalisation circulaire) à l’attribut de **rétention** pour les types de canaux opérationnels et d’administration. vous pouvez définir l’attribut de **rétention** sur false (enregistrement circulaire) pour les types de canaux d’analyse et de débogage, mais pour afficher les événements dans le observateur d’événements Windows, vous devez d’abord désactiver le canal. Notez que lorsque vous réactivez le canal, les événements sont supprimés du canal.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -83,8 +83,8 @@ Vous pouvez affecter la valeur false (journalisation circulaire) à l’attribut
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

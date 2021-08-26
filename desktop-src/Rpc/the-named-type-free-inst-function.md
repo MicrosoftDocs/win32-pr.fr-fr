@@ -6,12 +6,12 @@ keywords:
 - named_type_free_inst
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2d3b5103572eb58e4311c65b0e1cff02e91f66f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0aa55e896b89fccc513795a62634e805c2ad6e21b7bdecdd99a0b9cfe2d71cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016888"
 ---
 # <a name="the-named_type_free_inst-function"></a>Le \_ type nommé \_ Free \_ inst, fonction
 
@@ -23,9 +23,9 @@ void __RPC_USER <named_type>_free_inst(<type> __RPC_FAR *)
 
 Le paramètre pointe vers l’instance du type transmis. Cet objet ne doit pas être libéré. Pour plus d’informations sur l’appel de la fonction, consultez [l' \_ attribut « représenter comme](the-represent-as-attribute.md)».
 
- 
+ 
 
- 
+ 
 
 
 

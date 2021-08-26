@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3e7b1f7cf2f09fa20f7bf19b15e82f536ca0aa50
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9c04b39e6b8a4ad89500fc50d0236136362cd4ec48f221461c51cd6d724b981c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077499"
 ---
 # <a name="releasedhcpleaseall-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode ReleaseDHCPLeaseAll de la \_ classe Win32 NetworkAdapterConfiguration
 

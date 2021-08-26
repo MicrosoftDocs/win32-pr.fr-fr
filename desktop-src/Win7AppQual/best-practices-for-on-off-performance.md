@@ -4,31 +4,31 @@ ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
 title: Meilleures pratiques pour les performances d’activation/de désactivation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c88eaf5175db43061e57bc4689d8bf256e6881
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f8ef9e10b0a6fc82be138951d45f811ce1ccf0dbe2222b620cf73d0c272570c8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031049"
 ---
 # <a name="best-practices-for-onoff-performance"></a>Meilleures pratiques pour les performances d’activation/de désactivation
 
 ## <a name="platform"></a>Plateforme
 
 **Clients-** Windows Vista \| Windows 7  
-**Serveurs-** Windows Server 2008 \| Windows server 2008 R2  
+**serveurs-** Windows server 2008 \| Windows server 2008 R2  
 
 ## <a name="description"></a>Description
 
-Les États d’alimentation du système (ou S-États), tels que définis dans la spécification ACPI (Advanced Computer Power Interface), sont appelés de manière commune les États activés/désactivés dans la mesure où la transition d’État S la plus courante est l’activation et la désactivation d’un ordinateur. Les différentes transitions d’état activé/désactivé sur un système exécutant Windows Vista ou Windows 7 sont les mêmes démarrage, veille (ACPI S3), mise en veille prolongée (ACPI S4) et arrêt.
+Les États d’alimentation du système (ou S-États), tels que définis dans la spécification ACPI (Advanced Computer Power Interface), sont appelés de manière commune les États activés/désactivés dans la mesure où la transition d’État S la plus courante est l’activation et la désactivation d’un ordinateur. les différentes transitions d’état activé/désactivé sur un système exécutant Windows Vista ou Windows 7 sont les mêmes démarrage, veille (acpi S3), mise en veille prolongée (acpi S4) et arrêt.
 
 Une bonne performance au cours de ces transitions d’activation/de désactivation permet non seulement d’améliorer la qualité perçue d’un ordinateur, mais également d’affecter considérablement les modèles d’utilisation des ordinateurs quotidiens et la fiabilité du système. Les clients peuvent devenir frustrés par des systèmes dont le démarrage ou l’arrêt de l’ordinateur prend trop de temps. Les systèmes mobiles qui ont des transitions de veille et de veille prolongée peuvent inutilement épuiser la durée de vie de la batterie. Les durées d’arrêt plus longues peuvent également nuire à la fiabilité des systèmes mobiles. Par exemple, ils augmentent le risque d’une coupure d’alimentation inattendue.
 
-Les extensions système telles que les pilotes, les applications et les services peuvent avoir un impact significatif sur les temps de transition activés/désactivés. Cette section décrit quelques-unes des meilleures pratiques que les développeurs d’applications et de services peuvent suivre pour éviter les retards lors du démarrage, de la mise en veille et de l’arrêt, et pour garantir une expérience utilisateur réactive après le démarrage et après reprise. Pour plus d’informations sur l’identification des problèmes de performances d’activation/de désactivation à l’aide de Windows performance Toolkit et pour mettre en œuvre les recommandations ci-dessous pour votre application ou service, reportez-vous aux livres blancs de la section « Liens vers d’autres ressources ».
+Les extensions système telles que les pilotes, les applications et les services peuvent avoir un impact significatif sur les temps de transition activés/désactivés. Cette section décrit quelques-unes des meilleures pratiques que les développeurs d’applications et de services peuvent suivre pour éviter les retards lors du démarrage, de la mise en veille et de l’arrêt, et pour garantir une expérience utilisateur réactive après le démarrage et après reprise. pour plus d’informations sur l’identification des problèmes de performances d’activation/de désactivation à l’aide du Shared Computer Toolkit de performances Windows et pour mettre en œuvre les recommandations ci-dessous pour votre application ou service, reportez-vous aux livres blancs de la section « liens vers d’autres ressources ».
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
--   Utilisez Windows performance Toolkit pour mesurer les performances pendant toutes les transitions activées/désactivées.
+-   utilisez le Shared Computer Toolkit de performances Windows pour mesurer les performances pendant toutes les transitions activées/désactivées.
 -   Effectuez des tests de manière contrôlée et effectuez des comparaisons par rapport à une ligne de base valide :
     -   Obtenir une mesure de ligne de base sur un système avec le moins d’extensions système possible
     -   Ajouter des applications et des services l’un après l’autre
@@ -51,11 +51,11 @@ Les extensions système telles que les pilotes, les applications et les services
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   -   [Guide de solutions pour les transitions de Windows on/off](/windows-hardware/test/assessments/onoff-transition-performance)
--   [Analyse des performances de transition on/off de Windows Vista](/windows-hardware/test/assessments/onoff-transition-performance)
--   [Analyse des performances Windows](https://msdn.microsoft.com/performance/default.aspx)
--   [Documentation Windows performance Toolkit sur MSDN](/previous-versions/windows/desktop/xperf/windows-performance-analyzer--wpa-)
--   [Forum sur l’analyse des performances Windows](https://social.msdn.microsoft.com/Forums/wptk_v4/threads/)
+-   -   [Windows Guide de solutions pour les transitions activé/désactivé](/windows-hardware/test/assessments/onoff-transition-performance)
+-   [analyse des performances de Transition On/Off de Windows Vista](/windows-hardware/test/assessments/onoff-transition-performance)
+-   [Windows Analyse des performances](https://msdn.microsoft.com/performance/default.aspx)
+-   [Windows documentation sur les performances Shared Computer Toolkit sur MSDN](/previous-versions/windows/desktop/xperf/windows-performance-analyzer--wpa-)
+-   [Windows Forum sur l’analyse des performances](https://social.msdn.microsoft.com/Forums/wptk_v4/threads/)
 -   [Suivi d’v nements pour Windows sur MSDN](../etw/event-tracing-portal.md)
 
  

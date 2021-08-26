@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 564f47e68fd6cdce3d5437fe184bac1ed74d8322
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: db58fc9457195c2149fd8d34a8a65a6d5085135275e1c878633f64cb742b02cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081039"
 ---
 # <a name="rtmregisterclient-function"></a>RtmRegisterClient fonction)
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La fonction **RtmRegisterClient** inscrit un client en tant que gestionnaire du protocole spécifié. Il établit un mécanisme de notification de changement d’itinéraire pour le client et définit des options de protocole.
 
@@ -68,7 +68,7 @@ Ce paramètre est facultatif. Si l’appelant spécifie la **valeur null** pour 
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Spécifie diverses options pour le traitement spécial du protocole de routage. La valeur suivante est actuellement prise en charge.

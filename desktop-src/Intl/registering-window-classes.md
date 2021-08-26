@@ -4,20 +4,20 @@ ms.assetid: 016296ce-6151-4673-ad59-c69a2138a05a
 title: Inscription de classes de fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c82e9daead566e5bcb5419fccc234014005f6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f508ebdbfa35f2551d723b3ef9a1ffd807917dfe71e503f9d77b2e8fdb136f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040449"
 ---
 # <a name="registering-window-classes"></a>Inscription de classes de fenêtre
 
 Une classe de fenêtre est prise en charge par une procédure de fenêtre. Votre application peut inscrire une classe de fenêtre à l’aide de [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa) ou [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa). Les nouvelles applications doivent généralement utiliser **RegisterClassW**.
 
-Si l’application inscrit la classe de fenêtre à l’aide de [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa), la fonction informe le système d’exploitation que les fenêtres de la classe créée attendent des messages avec des paramètres texte ou caractère d’utiliser un jeu de caractères de [page de codes Windows (ANSI)](code-pages.md) . L’inscription à l’aide de [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa) permet à l’application de demander au système d’exploitation de passer les paramètres de texte des messages au format [Unicode](unicode.md). La fonction [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) permet à une application d’interroger la nature de chaque fenêtre.
+si l’application inscrit la classe de fenêtre à l’aide de [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa), la fonction informe le système d’exploitation que les fenêtres de la classe créée attendent des messages avec des paramètres texte ou caractère d’utiliser un jeu de caractères de [page de codes Windows (ANSI)](code-pages.md) . L’inscription à l’aide de [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa) permet à l’application de demander au système d’exploitation de passer les paramètres de texte des messages au format [Unicode](unicode.md). La fonction [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) permet à une application d’interroger la nature de chaque fenêtre.
 
-L’exemple suivant montre comment inscrire une classe de fenêtre de page de codes Windows et une classe de fenêtre Unicode, et comment écrire les procédures de fenêtre dans les deux cas. Dans le cadre de cet exemple, toutes les fonctions et structures sont affichées avec les types de données « A » (ANSI) ou « W » (larges, Unicode) spécifiques. À l’aide des techniques expliquées dans [utilisation des types de données génériques](using-generic-data-types.md), vous pouvez également écrire cet exemple pour utiliser des types de données génériques, afin qu’il puisse être compilé pour utiliser des pages de codes Windows ou Unicode, selon que « Unicode » est défini ou non.
+l’exemple suivant montre comment inscrire une classe de fenêtre de page de codes Windows et une classe de fenêtre Unicode et comment écrire les procédures de fenêtre dans les deux cas. Dans le cadre de cet exemple, toutes les fonctions et structures sont affichées avec les types de données « A » (ANSI) ou « W » (larges, Unicode) spécifiques. à l’aide des techniques expliquées dans [utilisation des types de données génériques](using-generic-data-types.md), vous pouvez également écrire cet exemple pour utiliser des types de données génériques, afin qu’il puisse être compilé pour utiliser Windows pages de codes ou unicode, selon que « unicode » est défini ou non.
 
 
 ```C++
@@ -58,7 +58,7 @@ RegisterClassW(&UnicodeWndCls);
 
 
 
-L’exemple suivant illustre la différence entre la gestion du message [**WM \_ char**](../inputdev/wm-char.md) dans une procédure de fenêtre de page de codes Windows et une procédure de fenêtre Unicode.
+l’exemple suivant illustre la différence entre la gestion du message [**WM \_ CHAR**](../inputdev/wm-char.md) dans une Windows procédure de fenêtre de la page de codes et une procédure de fenêtre Unicode.
 
 
 ```C++
@@ -127,7 +127,7 @@ LRESULT CALLBACK UniWndProc(HWND hWnd, UINT message,
 
 
 
-Tout le texte des messages reçus par **AnsiWndProc** est composé de caractères de page de codes Windows. Tout le texte des messages reçus par **UniWndProc** est composé de caractères Unicode.
+tout le texte des messages reçus par **AnsiWndProc** est composé de Windows des caractères de page de codes. Tout le texte des messages reçus par **UniWndProc** est composé de caractères Unicode.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

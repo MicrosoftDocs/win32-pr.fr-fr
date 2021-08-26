@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 01e739077d38dec94c0a407e5779bec90369ffb9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 035b8abe5440ffb80b902e1f4b1564b2fb80b77ee34b20f4f068d298b251478a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106525831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124249"
 ---
 # <a name="structdefinitiontype-complex-type"></a>Type complexe StructDefinitionType
 
@@ -70,12 +70,12 @@ Définit une structure qui inclut un ou plusieurs éléments de données que vou
 | Nom   | Type                                                            | Description                                                                                                                                                                                                                                                                               |
 |--------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | count  | [**CountType**](eventmanifestschema-counttype-simpletype.md)   | Nombre d’éléments dans un tableau de structures. Cet attribut indique que la structure définit un tableau de structures. Vous pouvez spécifier le nombre réel ou le nom d’un élément de données en dehors de la structure qui contient le nombre. <br/>                               |
-| length | [**LengthType**](eventmanifestschema-lengthtype-simpletype.md) | Non disponible.<br/> **Windows Server 2008 et Windows Vista :** Longueur de cette structure, en octets. Non disponible à partir de Windows 7.<br/>                                                                                                                            |
+| length | [**LengthType**](eventmanifestschema-lengthtype-simpletype.md) | Non disponible.<br/> **Windows Server 2008 et Windows Vista :** Longueur de cette structure, en octets. non disponible à partir de Windows 7.<br/>                                                                                                                            |
 | name   | string                                                          | Nom de la structure. Vous pouvez utiliser le nom pour faire référence à l’élément de données dans votre fragment XML si vous spécifiez une section [**UserData**](eventmanifestschema-userdata-templateitemtype-element.md) dans votre modèle.<br/> **Windows Vista :** Cet attribut est facultatif.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fournisseurs écrivent la structure en tant qu’objet BLOB et non en tant que membres individuels de la structure. Si la structure C que vous écrivez contient des pointeurs (par exemple, un pointeur de type LPWSTR), les données d’événement contiendront la valeur du pointeur, et non les données déréférencées.
 
@@ -87,8 +87,8 @@ Vous ne devez pas utiliser des structures mais devez plutôt définir des élém
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

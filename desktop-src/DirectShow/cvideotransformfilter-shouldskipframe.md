@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7f845ac7ae52537bfadfb6c913537b32e4d44171
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a0c35be9914641abfa053cd1ee00f46bb09222aecbebc55d45900331a2ee81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075939"
 ---
 # <a name="cvideotransformfiltershouldskipframe-method"></a>Méthode CVideoTransformFilter. ShouldSkipFrame
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 Retourne la **valeur true** si le filtre doit supprimer cet exemple, ou **false** si le filtre doit traiter cet exemple.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne la **valeur true** si les conditions suivantes sont remplies :
 
@@ -68,7 +68,7 @@ Dans le cadre de ce calcul, le filtre enregistre les informations suivantes lors
 -   Nombre de trames depuis la dernière image clé (**m \_ nFramesSinceKeyFrame**)
 -   Estimation du nombre de frames entre les images clés (**m \_ nKeyFramePeriod**)
 
-Une fois que le filtre a supprimé un frame, il continue à déposer les images jusqu’à ce qu’il atteigne l’image clé suivante. Si cette méthode retourne la **valeur true**, elle envoie également un événement de modification de la [**\_ \_ qualité ce**](ec-quality-change.md) au gestionnaire de graphes de filtre.
+Une fois que le filtre a supprimé un frame, il continue à déposer les images jusqu’à ce qu’il atteigne l’image clé suivante. si cette méthode retourne la **valeur TRUE**, elle envoie également un événement de modification de la [**\_ \_ qualité ce**](ec-quality-change.md) au gestionnaire de Graph de filtre.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -76,7 +76,7 @@ Une fois que le filtre a supprimé un frame, il continue à déposer les images 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Vtrans. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Vtrans. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

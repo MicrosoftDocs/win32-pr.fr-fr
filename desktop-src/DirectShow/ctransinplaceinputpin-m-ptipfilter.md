@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9d6991ee65ae9b7dc7dc8b7e6108c0074e95b0be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3565eb55949c7b51d4064d2edcac285bc843f09e7637d4659bea1b6665bab732
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076209"
 ---
 # <a name="ctransinplaceinputpinm_ptipfilter-member"></a>CTransInPlaceInputPin :: m \_ pTIPFilter, membre
 
@@ -42,7 +42,7 @@ CTransInPlaceFilter * const m_pTIPFilter;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

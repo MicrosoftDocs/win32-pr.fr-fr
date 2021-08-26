@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 346d356aea3d806284823541aa219699e51c2187
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 570e0d57c4a04cd4845883e825acfbbef0282186cc7289751737798ed52b9592
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112119"
 ---
 # <a name="setdefaultprinter-function"></a>SetDefaultPrinter fonction)
 
@@ -56,7 +56,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous utilisez cette méthode, vous devez spécifier une imprimante, un pilote et un port valides. Si elles ne sont pas valides, les API n’échouent pas, mais le résultat n’est pas défini. Cela peut permettre à d’autres programmes de remettre l’imprimante à l’imprimante valide précédente. Vous pouvez utiliser [**EnumPrinters**](enumprinters.md) pour récupérer le nom de l’imprimante, le nom du pilote et le nom de port de toutes les imprimantes disponibles.
 

@@ -1,19 +1,19 @@
 ---
-description: Les sections suivantes décrivent plusieurs des nouvelles fonctionnalités de Windows GDI+.
+description: les sections suivantes décrivent plusieurs des nouvelles fonctionnalités de Windows GDI+.
 ms.assetid: 0257a23c-560e-472e-863a-6ab5881dc156
 title: Nouvelles fonctionnalités
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca79ddb4cabd14cc2eaa2493033a78cc7377f8e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab303cd00f494e06d7567d93c9698878e02d178a7b4f31d230a4b47cafe279b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120014859"
 ---
 # <a name="new-features"></a>Nouvelles fonctionnalités
 
-Les sections suivantes décrivent plusieurs des nouvelles fonctionnalités de Windows GDI+.
+les sections suivantes décrivent plusieurs des nouvelles fonctionnalités de Windows GDI+.
 
 -   [Pinceaux de dégradé](#gradient-brushes)
 -   [Splines cardinales](#cardinal-splines)
@@ -25,7 +25,7 @@ Les sections suivantes décrivent plusieurs des nouvelles fonctionnalités de Wi
 
 ## <a name="gradient-brushes"></a>Pinceaux de dégradé
 
-GDI+ s’étend sur Windows Graphics Device Interface (GDI) en fournissant des pinceaux de dégradé et de tracé linéaires pour remplir des formes, des tracés et des régions. Les pinceaux de dégradé peuvent également être utilisés pour dessiner des lignes, des courbes et des tracés. Lorsque vous remplissez une forme avec un pinceau de dégradé linéaire, la couleur change progressivement à mesure que vous déplacez l’ensemble de la forme. Par exemple, supposons que vous créez un pinceau de dégradé horizontal en spécifiant le bleu sur le bord gauche d’une forme et en vert sur le bord droit. Lorsque vous remplissez cette forme avec le pinceau dégradé horizontal, elle passe progressivement du bleu au vert lorsque vous passez de son bord gauche à son bord droit. De même, une forme remplie avec un pinceau dégradé vertical change de couleur lorsque vous vous déplacez de haut en bas. L’illustration suivante montre une Ellipse remplie avec un pinceau de dégradé horizontal et une région remplie avec un pinceau de dégradé Diagonal.
+GDI+ se développe sur Windows Graphics Device Interface (GDI) en fournissant des pinceaux de dégradé et de tracé linéaires pour remplir des formes, des tracés et des régions. Les pinceaux de dégradé peuvent également être utilisés pour dessiner des lignes, des courbes et des tracés. Lorsque vous remplissez une forme avec un pinceau de dégradé linéaire, la couleur change progressivement à mesure que vous déplacez l’ensemble de la forme. Par exemple, supposons que vous créez un pinceau de dégradé horizontal en spécifiant le bleu sur le bord gauche d’une forme et en vert sur le bord droit. Lorsque vous remplissez cette forme avec le pinceau dégradé horizontal, elle passe progressivement du bleu au vert lorsque vous passez de son bord gauche à son bord droit. De même, une forme remplie avec un pinceau dégradé vertical change de couleur lorsque vous vous déplacez de haut en bas. L’illustration suivante montre une Ellipse remplie avec un pinceau de dégradé horizontal et une région remplie avec un pinceau de dégradé Diagonal.
 
 ![illustration d’une forme remplie d’un dégradé horizontal et d’une forme déposée par un dégradé Diagonal](images/aboutgdip01-art01.png)
 
@@ -41,7 +41,7 @@ GDI+ prend en charge les splines cardinales, qui ne sont pas prises en charge da
 
 ## <a name="independent-path-objects"></a>Objets de chemin d’accès indépendants
 
-Dans GDI, un chemin d’accès appartient à un contexte de périphérique, et le chemin d’accès est détruit à mesure qu’il est dessiné. Avec GDI+, le dessin est effectué par un objet [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) , et vous pouvez créer et gérer plusieurs objets [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) distincts de l’objet **Graphics** . Un objet **GraphicsPath** n’étant pas détruit par l’action de dessin, vous pouvez utiliser le même objet **GraphicsPath** pour dessiner plusieurs fois un chemin d’accès.
+Dans GDI, un chemin d’accès appartient à un contexte de périphérique, et le chemin d’accès est détruit à mesure qu’il est dessiné. avec GDI+, le dessin est effectué par un objet [**graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) , et vous pouvez créer et gérer plusieurs objets [**GraphicsPath**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath) distincts de l’objet **graphics** . Un objet **GraphicsPath** n’étant pas détruit par l’action de dessin, vous pouvez utiliser le même objet **GraphicsPath** pour dessiner plusieurs fois un chemin d’accès.
 
 ## <a name="transformations-and-the-matrix-object"></a>Transformations et objet Matrix
 
@@ -63,7 +63,7 @@ Notez que dans la figure précédente, vous pouvez voir la région sans transfor
 
 ## <a name="support-for-multiple-image-formats"></a>Prise en charge de plusieurs formats d’image
 
-GDI+ fournit les classes d' [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image), de [**bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)et de [**métafichier**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) , qui vous permettent de charger, d’enregistrer et de manipuler des images dans divers formats. Les formats suivants sont pris en charge :
+GDI+ fournit les classes [**Image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image), [**Bitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)et [**Metafile**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile) , qui vous permettent de charger, d’enregistrer et de manipuler des images dans divers formats. Les formats suivants sont pris en charge :
 
 -   BMP
 -   format GIF (Graphics Interchange Format)

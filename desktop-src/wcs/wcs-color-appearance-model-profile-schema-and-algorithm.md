@@ -3,13 +3,13 @@ title: Algorithme et schéma de profil de modèle d’apparence de couleur WCS
 description: Algorithme et schéma de profil de modèle d’apparence de couleur WCS
 ms.assetid: 017588fe-cec9-4178-a912-7950cefc036c
 keywords:
-- Système de couleurs Windows (WCS), profil de modèle d’apparence de couleur (CAMP)
-- WCS (système de couleurs Windows), profil de modèle d’apparence de couleur (CAMP)
+- Windows Système de couleurs (WCS), profil de modèle d’apparence de couleur (CAMP)
+- WCS (Windows color System), profil de modèle d’apparence de couleur (CAMP)
 - gestion des couleurs des images, profil de modèle d’apparence de couleur (CAMP)
 - gestion des couleurs, profil de modèle d’apparence de couleur (CAMP)
 - couleurs, profil de modèle d’apparence de couleur (CAMP)
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -21,16 +21,16 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a928aebcfe02f1db39de2452a0b49e5c888bccc
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 042cf74d264a7b5d40fdc30fec44784680a67b95363b579d0c7bebc7ececcedb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106520216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090095"
 ---
 # <a name="wcs-color-appearance-model-profile-schema-and-algorithm"></a>Algorithme et schéma de profil de modèle d’apparence de couleur WCS
 
-[Vue d’ensemble](#overview)
+[Vue d'ensemble](#overview)
 
 [Architecture de profil de modèle d’apparence de couleur (CAMP)](#color-appearance-model-profile-architecture)
 
@@ -158,7 +158,7 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/ColorAppe
 
 ## <a name="version"></a>Version
 
-Version &gt; 0,1 ou &lt; = « 1,0 » avec la première version de Windows Vista.
+Version &gt; 0,1 ou &lt; = "1,0" avec la première version de Windows Vista.
 
 **Conditions de validation :** Toute valeur de version &lt; = 2,0 est également valide pour prendre en charge des modifications sans rupture au format.
 
@@ -166,7 +166,7 @@ Version &gt; 0,1 ou &lt; = « 1,0 » avec la première version de Windows Vist
 
 Schéma de profil du modèle d’apparence des couleurs.
 
-Copyright (C) Microsoft. Tous droits réservés.
+Copyright (C) Microsoft. All rights reserved.
 
 **Conditions de validation :** Chaque sous-élément est validé par son propre type.
 

@@ -4,12 +4,12 @@ description: Une base d’informations de gestion (MIB) décrit un ensemble d’
 ms.assetid: 684200b6-a5e4-42bb-8a01-fcb6100967c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ba4612c026aa5a3a1a1574556f58207bad08e06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdf3fac2e24b79da3ea7277010da5a3f96e3664416809bc440097f4ec0b1384e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127599"
 ---
 # <a name="the-snmp-management-information-base-mib"></a>Base de données MIB (Management Information base) SNMP
 
@@ -17,7 +17,7 @@ Une base d’informations de gestion (MIB) décrit un ensemble d’objets géré
 
 Chaque objet géré dans un MIB a un identificateur unique. L’identificateur comprend le type de l’objet (par exemple, compteur, chaîne, jauge ou adresse), le niveau d’accès de l’objet (par exemple, lecture ou lecture/écriture), les restrictions de taille et les informations de plage.
 
-Le tableau suivant contient une liste partielle des MIB fournis avec le système. Ils sont installés avec le service SNMP dans le répertoire% SystemRoot% \\ system32. Pour obtenir la liste complète des MIB, reportez-vous au kit de ressources Windows.
+Le tableau suivant contient une liste partielle des MIB fournis avec le système. Ils sont installés avec le service SNMP dans le répertoire% SystemRoot% \\ system32. pour obtenir la liste complète des mib, reportez-vous au Kit de ressources Windows.
 
 
 
@@ -27,11 +27,11 @@ Le tableau suivant contient une liste partielle des MIB fournis avec le système
 | HOSTMIB. MIB | Contient les types d’objets pour l’analyse et la gestion des ressources hôtes                                                                                 |
 | LMMIB2. MIB  | Couvre les services de station de travail et de serveur                                                                                                           |
 | MIB \_ II. MIB | Contient la base d’informations de gestion (MIB-II), qui fournit une architecture et un système simples et réalisables pour la gestion des adresses Internet TCP/IP |
-| WINS. MIB    | La MIB définie par Microsoft pour le service WINS (Windows Internet Name Service)                                                                               |
+| WINS. MIB    | la MIB définie par Microsoft pour le Service WINS (Windows Internet Name Service)                                                                               |
 
 
 
- 
+ 
 
 **Windows NT :** En règle générale, vous pouvez copier une MIB à partir de l’agent d’extension SNMP qui prend en charge la MIB particulière. Des MIB supplémentaires sont disponibles avec le kit de ressources Windows NT 4,0.
 
@@ -41,9 +41,9 @@ Les utilisateurs peuvent ajouter d’autres DLL d’agent d’extension qui impl
 
 Pour plus d’informations, consultez [MIB Name Tree](mib-name-tree.md).
 
- 
+ 
 
- 
+ 
 
 
 

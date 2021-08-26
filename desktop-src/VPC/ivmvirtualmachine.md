@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 006fe414a662c3d6d556aba68712aa0b428d9b5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6f2f50c5279bafd12d8edd01a47e9cbcb1a3cc3bb2b89ea140e46cf06c0aa06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124679"
 ---
 # <a name="ivmvirtualmachine-interface"></a>Interface IVMVirtualMachine
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit l’interface pour un ordinateur virtuel. **IVMVirtualMachine** peut informer les clients des événements à l’aide de l’interface sortante [**IVMVirtualMachineEvents**](ivmvirtualmachineevents.md) . Les objets **IVMVirtualMachine** sont retournés à partir de méthodes [**IVMVirtualPC**](ivmvirtualpc.md) telles que [**CreateVirtualMachine**](ivmvirtualpc-createvirtualmachine.md), [**RegisterVirtualMachine**](ivmvirtualpc-registervirtualmachine.md)et [**FindVirtualMachine**](ivmvirtualpc-findvirtualmachine.md). Vous pouvez également récupérer un objet **IVMVirtualMachine** à partir de l’objet [**IVMVirtualMachineCollection**](ivmvirtualmachinecollection.md) retourné à partir de la propriété [**IVMVirtualPC :: VirtualMachines**](ivmvirtualpc-virtualmachines.md) .
 
@@ -59,13 +59,13 @@ L’interface **IVMVirtualMachine** possède ces méthodes.
 | [**RemoveDVDROMDrive**](ivmvirtualmachine-removedvdromdrive.md)                 | Supprime le lecteur de CD ou de DVD spécifié de la machine virtuelle.<br/>                                 |
 | [**RemoveHardDiskConnection**](ivmvirtualmachine-removeharddiskconnection.md)   | Supprime la connexion de disque dur spécifiée de l’ordinateur virtuel.<br/>                            |
 | [**RemoveNetworkAdapter**](ivmvirtualmachine-removenetworkadapter.md)           | Supprime une interface réseau de la machine virtuelle.<br/>                                           |
-| [**Réinitialiser**](ivmvirtualmachine-reset.md)                                         | Réinitialise l’ordinateur virtuel.<br/>                                                                     |
-| [**Sort**](ivmvirtualmachine-resume.md)                                       | Reprend l’ordinateur virtuel.<br/>                                                                    |
+| [**Initialisation**](ivmvirtualmachine-reset.md)                                         | Réinitialise l’ordinateur virtuel.<br/>                                                                     |
+| [**Reprendre**](ivmvirtualmachine-resume.md)                                       | Reprend l’ordinateur virtuel.<br/>                                                                    |
 | [**Enregistrer**](ivmvirtualmachine-save.md)                                           | Enregistre l’état de la machine virtuelle.<br/>                                                                |
 | [**SetActivationValue**](ivmvirtualmachine-setactivationvalue.md)               | Définit la valeur du paramètre d’activation spécifié pour cet ordinateur virtuel.<br/>                    |
 | [**SetConfigurationValue**](ivmvirtualmachine-setconfigurationvalue.md)         | Définit la valeur du paramètre de configuration spécifié pour cet ordinateur virtuel.<br/>                 |
 | [**StartCommunicationChannel**](ivmvirtualmachine-startcommunicationchannel.md) | Configure un canal de communication entre l’hôte et l’invité.<br/>                                         |
-| [**Startup**](ivmvirtualmachine-startup.md)                                     | Démarre l’ordinateur virtuel à partir de l’état non initialisé ou enregistré.<br/>                        |
+| [**Démarrage**](ivmvirtualmachine-startup.md)                                     | Démarre l’ordinateur virtuel à partir de l’état non initialisé ou enregistré.<br/>                        |
 | [**Startup2**](ivmvirtualmachine-startup2.md)                                   | Démarre l’ordinateur virtuel à partir de l’état non initialisé ou enregistré, avec des options avancées.<br/> |
 | [**TurnOff**](ivmvirtualmachine-turnoff.md)                                     | Met l’ordinateur virtuel hors tension.<br/>                                                                  |
 
@@ -89,7 +89,7 @@ L’interface **IVMVirtualMachine** possède les propriétés suivantes.
 | [**ChassisAssetTag**](ivmvirtualmachine-chassisassettag.md)<br/>             | Lecture/écriture<br/> | Étiquette de la ressource du châssis.<br/>                                                                                                              |
 | [**ChassisSerialNumber**](ivmvirtualmachine-chassisserialnumber.md)<br/>     | Lecture/écriture<br/> | Numéro de série du châssis.<br/>                                                                                                          |
 | [**ConfigID**](ivmvirtualmachine-configid.md)<br/>                           | Lecture seule<br/>  | Identificateur unique de la machine virtuelle.<br/>                                                                                      |
-| [**Vidéo**](ivmvirtualmachine-display.md)<br/>                             | Lecture seule<br/>  | Affichage vidéo de la machine virtuelle.<br/>                                                                                          |
+| [**Affichage**](ivmvirtualmachine-display.md)<br/>                             | Lecture seule<br/>  | Affichage vidéo de la machine virtuelle.<br/>                                                                                          |
 | [**DVDROMDrives**](ivmvirtualmachine-dvdromdrives.md)<br/>                   | Lecture seule<br/>  | Une collection énumérable de lecteurs de CD et de DVD attachés à la machine virtuelle.<br/>                                                      |
 | [**Fichier**](ivmvirtualmachine-file.md)<br/>                                   | Lecture seule<br/>  | Le chemin d’accès complet du fichier. vmc pour la configuration de l’ordinateur virtuel.<br/>                                                    |
 | [**FloppyDrives**](ivmvirtualmachine-floppydrives.md)<br/>                   | Lecture seule<br/>  | Collection énumérable de lecteurs de disquette attachés à la machine virtuelle.<br/>                                                          |
@@ -100,18 +100,18 @@ L’interface **IVMVirtualMachine** possède les propriétés suivantes.
 | [**HasSSE**](ivmvirtualmachine-hassse.md)<br/>                               | Lecture seule<br/>  | Indique si le processeur prend en charge le jeu d’instructions SSE.<br/>                                                                   |
 | [**HasSSE2**](ivmvirtualmachine-hassse2.md)<br/>                             | Lecture seule<br/>  | Indique si le processeur prend en charge le jeu d’instructions SSE2.<br/>                                                                  |
 | [**Clavier**](ivmvirtualmachine-keyboard.md)<br/>                           | Lecture seule<br/>  | Périphérique clavier de l’ordinateur virtuel.<br/>                                                                                        |
-| [**Mémoire**](ivmvirtualmachine-memory.md)<br/>                               | Lecture/écriture<br/> | Quantité de mémoire physique de l’ordinateur virtuel, en mégaoctets.<br/>                                                                 |
+| [**Capacité**](ivmvirtualmachine-memory.md)<br/>                               | Lecture/écriture<br/> | Quantité de mémoire physique de l’ordinateur virtuel, en mégaoctets.<br/>                                                                 |
 | [**Souris**](ivmvirtualmachine-mouse.md)<br/>                                 | Lecture seule<br/>  | Périphérique de la souris pour la machine virtuelle.<br/>                                                                                           |
 | [**Nom**](ivmvirtualmachine-name.md)<br/>                                   | Lecture/écriture<br/> | Nom de la configuration de l’ordinateur virtuel.<br/>                                                                                      |
 | [**NetworkAdapters**](ivmvirtualmachine-networkadapters.md)<br/>             | Lecture seule<br/>  | Collection énumérable de cartes réseau attachées à la machine virtuelle.<br/>                                                                   |
-| [**Notes**](ivmvirtualmachine-notes.md)<br/>                                 | Lecture/écriture<br/> | Remarques relatives à la machine virtuelle.<br/>                                                                                                  |
+| [**Remarques**](ivmvirtualmachine-notes.md)<br/>                                 | Lecture/écriture<br/> | Remarques relatives à la machine virtuelle.<br/>                                                                                                  |
 | [**ParallelPorts**](ivmvirtualmachine-parallelports.md)<br/>                 | Lecture seule<br/>  | Collection énumérable de ports parallèles.<br/>                                                                                         |
 | [**ProcessorSpeed**](ivmvirtualmachine-processorspeed.md)<br/>               | Lecture seule<br/>  | Vitesse du processeur, en mégahertz (MHz).<br/>                                                                                     |
 | [**RdpPipeName**](ivmvirtualmachine-rdppipename.md)<br/>                     | Lecture seule<br/>  | Nom de la connexion RDP nommée canal utilisé pour la vidéo et l’entrée.<br/>                                                                     |
 | [**SavedStateFilePath**](ivmvirtualmachine-savedstatefilepath.md)<br/>       | Lecture seule<br/>  | Chemin d’accès complet au fichier d’état enregistré.<br/>                                                                                              |
 | [**SerialPorts**](ivmvirtualmachine-serialports.md)<br/>                     | Lecture seule<br/>  | Collection énumérable de ports série.<br/>                                                                                           |
-| [**ShutdownActionOnQuit**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | Lecture/écriture<br/> | Action à exécuter sur cet ordinateur virtuel s’il est en cours d’exécution au moment de la fermeture de Windows Virtual PC.<br/>                                |
-| [**State**](ivmvirtualmachine-state.md)<br/>                                 | Lecture seule<br/>  | État actuel de l’ordinateur virtuel.<br/>                                                                                           |
+| [**ShutdownActionOnQuit**](ivmvirtualmachine-shutdownactiononquit.md)<br/>   | Lecture/écriture<br/> | action à exécuter sur cet ordinateur virtuel s’il est en cours d’exécution lorsque Windows ordinateur virtuel est fermé.<br/>                                |
+| [**Département**](ivmvirtualmachine-state.md)<br/>                                 | Lecture seule<br/>  | État actuel de l’ordinateur virtuel.<br/>                                                                                           |
 | [**Annulable**](ivmvirtualmachine-undoable.md)<br/>                           | Lecture/écriture<br/> | Indique si les disques d’annulations sont activés pour les disques durs connectés à la machine virtuelle.<br/>                                      |
 | [**UndoAction**](ivmvirtualmachine-undoaction.md)<br/>                       | Lecture/écriture<br/> | Action par défaut à effectuer sur tous les lecteurs d’annulation lorsque la machine virtuelle est arrêtée depuis le système d’exploitation invité.<br/> |
 
@@ -125,7 +125,7 @@ L’interface **IVMVirtualMachine** possède les propriétés suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

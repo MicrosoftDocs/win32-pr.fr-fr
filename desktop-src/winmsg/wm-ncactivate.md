@@ -4,12 +4,12 @@ ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
 title: Message WM_NCACTIVATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a23cc5e0495d6679efea805eab80290b209906d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 095f0cc7f555b4daf80a67a2394e29286f32a49dcba687780e8747f5d1b193fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055999"
 ---
 # <a name="wm_ncactivate-message"></a>\_Message WM NCACTIVATE
 
@@ -50,7 +50,7 @@ Type : **LRESULT**
 
 Lorsque le paramètre *wParam* a la **valeur false**, une application doit retourner **true** pour indiquer que le système doit procéder au traitement par défaut, ou retourner la valeur **false** pour empêcher la modification. Lorsque *wParam* a la valeur **true**, la valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le traitement des messages liés à la zone non cliente d’une fenêtre standard n’est pas recommandé, car l’application doit être en mesure de dessiner toutes les parties requises de la zone non cliente pour la fenêtre. Si une application traite ce message, elle doit retourner la **valeur true** pour indiquer au système d’effectuer la modification de la fenêtre active. Si la fenêtre est réduite lorsque ce message est reçu, l’application doit transmettre le message à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) .
 

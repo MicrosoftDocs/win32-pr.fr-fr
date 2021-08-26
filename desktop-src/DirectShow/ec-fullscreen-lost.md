@@ -4,12 +4,12 @@ ms.assetid: f720a9b6-930a-4ed7-9798-1c72fa7a11ff
 title: EC_FULLSCREEN_LOST (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf36b5652ea5f7cde26950a18de086af0862dac7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebf9384bec15969c904636f37db21ab19674bd2468542c2984ce80aa1773c3c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079129"
 ---
 # <a name="ec_fullscreen_lost"></a>perte de la \_ fullscreen EC \_
 
@@ -58,7 +58,7 @@ Lorsque le [convertisseur plein écran](full-screen-renderer-filter.md) perd l�
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

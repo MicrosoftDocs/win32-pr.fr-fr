@@ -4,12 +4,12 @@ ms.assetid: 4d8b769d-0830-4e4e-b284-ce0b21dfe5d4
 title: Gestion des ressources MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeed59c4b835e2c93e5f4cfc9988509349d8b0ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94c0b489d10ae28ca0fe7c659153b58c6ee7713e4eda4e1da9d96ffe16ae1a2c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041269"
 ---
 # <a name="mui-resource-management"></a>Gestion des ressources MUI
 
@@ -17,7 +17,7 @@ Votre application globalisée doit définir un grand nombre d’éléments d’i
 
 ## <a name="features-of-the-mui-resource-technology"></a>Fonctionnalités de la technologie de ressources MUI
 
-La technologie de ressources MUI, exposée dans Windows Vista et versions ultérieures, présente les caractéristiques suivantes :
+la technologie de ressources MUI, exposée dans Windows Vista et versions ultérieures, présente les caractéristiques suivantes :
 
 -   Les fichiers de ressources spécifiques à une langue sont stockés séparément du fichier binaire de code d’application, de sorte qu’une modification du code n’affecte pas les ressources.
 -   Les ressources de plusieurs langues peuvent être déployées dans une installation unique ou séparément pour chaque langue.
@@ -27,7 +27,7 @@ Cette technologie associe les ressources définies dans les fichiers spécifique
 
 Plus précisément, la somme de contrôle principale est calculée à partir des numéros de version majeure et mineure d’un fichier et du nom de fichier (sensible à la casse), qui sont obtenus à partir de la ressource de version. Cette somme de contrôle ne doit pas changer entre les versions RTM et Service Pack du même composant. En outre, une somme de contrôle de service est utilisée pour déterminer la version appropriée du fichier de ressources spécifique à la langue à charger. Cette somme de contrôle est calculée en fonction des ressources localisables dans le fichier.
 
-MUI fournit deux utilitaires de ressource que vous pouvez utiliser pour préparer les fichiers de ressources de votre application. Un utilitaire spécifique à MUI, appelé MUIRCT, vous permet de générer un fichier LN et les fichiers de ressources spécifiques à une langue associés. Sur Windows Vista et versions ultérieures, le compilateur Windows RC a également été modifié pour créer ces fichiers en fonction de la technologie de ressources MUI. Pour plus d’informations sur la syntaxe et les détails de ces outils, consultez [utilitaires de ressource](resource-utilities.md).
+MUI fournit deux utilitaires de ressource que vous pouvez utiliser pour préparer les fichiers de ressources de votre application. Un utilitaire spécifique à MUI, appelé MUIRCT, vous permet de générer un fichier LN et les fichiers de ressources spécifiques à une langue associés. sur Windows Vista et versions ultérieures, le compilateur Windows RC a également été modifié pour créer ces fichiers en fonction de la technologie de ressources MUI. Pour plus d’informations sur la syntaxe et les détails de ces outils, consultez [utilitaires de ressource](resource-utilities.md).
 
 ## <a name="ln-file"></a>Fichier LN
 
@@ -50,7 +50,7 @@ Pour associer un fichier LN à ses fichiers spécifiques à une langue, la techn
 
 <dl> <dt>
 
-[À propos de l’interface utilisateur multilingue](about-multilingual-user-interface.md)
+[à propos de interface utilisateur multilingue](about-multilingual-user-interface.md)
 </dt> <dt>
 
 [Utilitaires de ressource](resource-utilities.md)

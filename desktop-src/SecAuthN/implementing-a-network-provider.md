@@ -1,19 +1,19 @@
 ---
-description: Un fournisseur réseau est une DLL qui permet au système d’exploitation Windows de prendre en charge un protocole réseau spécifique.
+description: un fournisseur réseau est une DLL qui permet au système d’exploitation Windows de prendre en charge un protocole réseau spécifique.
 ms.assetid: 21dfa941-72fd-4f2c-8bc4-379ed6ca2a4c
 title: Implémentation d’un fournisseur de réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97819b033c57feb25cf882f97051785123e2e382
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4776bd97b9528bd04bbda25b88e0ff45a8f911429bb573e62dbbb8581abdfbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120015979"
 ---
 # <a name="implementing-a-network-provider"></a>Implémentation d’un fournisseur de réseau
 
-Un fournisseur réseau est une DLL qui permet au système d’exploitation Windows de prendre en charge un protocole réseau spécifique. Pour ce faire, il implémente l’API du fournisseur réseau. Cette API est un ensemble de fonctions que le [*routeur multifournisseur*](../secgloss/m-gly.md) (MPR) appelle pour communiquer avec le réseau. Le fournisseur réseau convertit ensuite ces appels en appels d’API spécifiques au réseau pour effectuer l’action spécifiée par le MPR. De cette façon, le système d’exploitation Windows peut interagir avec les nouveaux protocoles réseau sans avoir à comprendre leurs API spécifiques au réseau.
+un fournisseur réseau est une DLL qui permet au système d’exploitation Windows de prendre en charge un protocole réseau spécifique. Pour ce faire, il implémente l’API du fournisseur réseau. Cette API est un ensemble de fonctions que le [*routeur multifournisseur*](../secgloss/m-gly.md) (MPR) appelle pour communiquer avec le réseau. Le fournisseur réseau convertit ensuite ces appels en appels d’API spécifiques au réseau pour effectuer l’action spécifiée par le MPR. de cette façon, le système d’exploitation Windows peut interagir avec les nouveaux protocoles réseau sans avoir à comprendre leurs api spécifiques au réseau.
 
 Pour créer un fournisseur réseau, écrivez une DLL qui exporte la fonction [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) .
 
@@ -21,7 +21,7 @@ La prise en charge des autres fonctions dans l’API du fournisseur réseau est 
 
 L’exception est que si vous prenez en charge l’une des fonctions d’énumération suivantes, vous devez prendre en charge les deux autres fonctions également : [**NPOpenEnum**](/windows/desktop/api/Npapi/nf-npapi-npopenenum), [**NPEnumResource**](/windows/desktop/api/Npapi/nf-npapi-npenumresource)et [**NPCloseEnum**](/windows/desktop/api/Npapi/nf-npapi-npcloseenum).
 
-Les instructions suivantes décrivent comment écrire un fournisseur réseau qui interagit correctement avec le système d’exploitation MPR et Windows. Dans la mesure du possible, votre fournisseur doit respecter les instructions suivantes pour la vitesse, la validation et le routage.
+les instructions suivantes décrivent comment écrire un fournisseur réseau qui interagit correctement avec le système d’exploitation MPR et le système d’exploitation Windows. Dans la mesure du possible, votre fournisseur doit respecter les instructions suivantes pour la vitesse, la validation et le routage.
 
 ## <a name="speed"></a>Vitesse
 
@@ -45,7 +45,7 @@ Pour déterminer le message d’erreur à renvoyer, votre fournisseur de réseau
 
 ## <a name="implementation-note"></a>Note d’implémentation
 
-Lors de l’implémentation de la DLL du fournisseur réseau, le fournisseur ne doit pas appeler d’autres [fonctions de mise en réseau Windows](../wnet/windows-networking-functions.md), [API d’interpréteur](../shell/samples-usingthumbnailproviders.md)de commandes ou autres requêtes basées sur un chemin d’accès UNC qui pourraient entraîner une réentrée dans le sous-système MPR. Si vous effectuez des appels à partir d’une DLL de fournisseur réseau, l’application ou d’autres composants du système d’exploitation peuvent subir des conflits, des performances médiocres ou des blocages à l’intérieur du sous-système MPR.
+lors de l’implémentation de la DLL de fournisseur réseau, le fournisseur ne doit pas appeler d’autres [fonctions de mise en réseau Windows](../wnet/windows-networking-functions.md), d' [api de Shell](../shell/samples-usingthumbnailproviders.md)ou d’autres requêtes basées sur un chemin d’accès UNC qui pourraient entraîner une réentrée dans le sous-système MPR. Si vous effectuez des appels à partir d’une DLL de fournisseur réseau, l’application ou d’autres composants du système d’exploitation peuvent subir des conflits, des performances médiocres ou des blocages à l’intérieur du sous-système MPR.
 
  
 

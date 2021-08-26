@@ -6,12 +6,12 @@ keywords:
 - effet transformation de perspective 3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ed2b1c5131319dd711d2c7802a0bfabceaaa32e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 513d48a38e948f1255afa0cad3972a626c1e5b9039c9285c9c49b4180a5791d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079642"
 ---
 # <a name="3d-perspective-transform-effect"></a>Effet de transformation de perspective 3D
 
@@ -26,7 +26,7 @@ Le CLSID de cet effet est CLSID \_ D2D13DPerspectiveTransform.
 -   [Modes d’interpolation](#interpolation-modes)
 -   [Modes de bordure](#border-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -36,7 +36,7 @@ Le CLSID de cet effet est CLSID \_ D2D13DPerspectiveTransform.
 | Avant                                                               |
 |----------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)           |
-| After                                                                |
+| Après                                                                |
 | ![image après l’effet.](images/23-3dperspectivetransform.png) |
 
 
@@ -109,7 +109,7 @@ m_d2dContext->EndDraw();
 
 
 
-| Nom                     | Description                                                                                                      |
+| Name                     | Description                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image avec des pixels noirs transparents au fur et à mesure de l’interpolation, ce qui génère une bordure douce.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet attache la sortie à la taille de l’image d’entrée. <br/>                                         |
@@ -130,8 +130,8 @@ L’effet exécute l’opération de transformation, puis applique un cadre engl
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

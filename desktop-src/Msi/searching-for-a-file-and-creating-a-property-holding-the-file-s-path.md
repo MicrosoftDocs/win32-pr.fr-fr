@@ -1,15 +1,15 @@
 ---
-description: Pendant une installation Windows Installer, le programme d’installation peut rechercher un fichier et créer une propriété contenant le chemin d’accès du fichier.
+description: pendant une installation Windows Installer, le programme d’installation peut rechercher un fichier et créer une propriété contenant le chemin d’accès du fichier.
 ms.assetid: 6587b349-852d-4d4e-a8d4-76dfb0ef0f0b
 title: Recherche d’un fichier et création d’une propriété contenant le chemin d’accès du fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed742ee874c2e4b76137e9f17e90fbf54e9729f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d1315616c6d2ea24052ddad85c005d53716f8b130f4aa2d23d69754c946416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041139"
 ---
 # <a name="searching-for-a-file-and-creating-a-property-holding-the-files-path"></a>Recherche d’un fichier et création d’une propriété contenant le chemin d’accès du fichier
 
@@ -39,7 +39,7 @@ ms.locfileid: "103866065"
 
     
 
-    | Signature            | Parent             | Chemin d’accès | Profondeur |
+    | Signature            | Parent             | Chemin | Profondeur |
     |----------------------|--------------------|------|-------|
     | AppFile<br/>   |                    |      |       |
     | AppFolder<br/> | AppFile<br/> |      |       |

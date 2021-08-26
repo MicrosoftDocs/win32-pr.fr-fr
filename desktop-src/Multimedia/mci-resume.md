@@ -3,7 +3,7 @@ title: Commande MCI_RESUME (mmsystem. h)
 description: La \_ commande de reprise MCI provoque la reprise de l’opération suspendue par un appareil mis en pause.
 ms.assetid: 2df712c1-5005-4e89-a439-a651076bbb73
 keywords:
-- Commande MCI_RESUME Windows multimédia
+- commande MCI_RESUME Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd83b6d753cd223235b8b11f2d4b0be4c828ec28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4872162e4f4913d7165d9ec69e6cc1164b3be40919facacbfd1a94d569a46c89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038339"
 ---
 # <a name="mci_resume-command"></a>\_Commande de reprise MCI
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande reprend la lecture et l’enregistrement sans modifier le jeu de positions de suivi actuel avec [l' \_ enregistrement](mci-record.md) [MCI \_ Play](mci-play.md) ou MCI.
 
@@ -80,7 +80,7 @@ Cette commande reprend la lecture et l’enregistrement sans modifier le jeu de 
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

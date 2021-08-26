@@ -1,21 +1,21 @@
 ---
-description: L’API d’inscription de certificats comprend plusieurs exemples conçus pour vous aider à créer des applications personnalisées. La plupart des exemples sont écrits à l’aide de C++, mais les exemples C# et Visual Basic Scripting Edition (VBScript) sont également inclus.
+description: L’API d’inscription de certificats comprend plusieurs exemples conçus pour vous aider à créer des applications personnalisées. la plupart des exemples sont écrits à l’aide de C++, mais les exemples C# et Visual Basic scripting Edition (VBScript) sont également inclus.
 ms.assetid: 70ac7b75-542c-4d79-85ce-4b1bac414879
 title: Utilisation des exemples inclus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3cbf17d35e65ade52e97438d638cbd4f1489e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 511d9d5424455c1b54c6bd03cc72138b3672b256d535dcbdaf31d2393b2cb5f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127201"
 ---
 # <a name="using-the-included-samples"></a>Utilisation des exemples inclus
 
-L’API d’inscription de certificats comprend plusieurs exemples conçus pour vous aider à créer des applications personnalisées. La plupart des exemples sont écrits à l’aide de C++, mais les exemples C# et Visual Basic Scripting Edition (VBScript) sont également inclus.
+L’API d’inscription de certificats comprend plusieurs exemples conçus pour vous aider à créer des applications personnalisées. la plupart des exemples sont écrits à l’aide de C++, mais les exemples C# et Visual Basic scripting Edition (VBScript) sont également inclus.
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, les exemples suivants sont installés, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft kits de \\ \\ \\ sécurité exemples de certificats X509 de sécurité Windows v 7.0 \\ \\ \\ .
+lorsque vous installez le kit de développement logiciel (SDK) microsoft Windows, les exemples suivants sont installés, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate inscription \\ .
 
 
 
@@ -34,8 +34,8 @@ Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows
 | [enrollRenewalPKCS7](enrollrenewalpkcs7.md)                           | Crée un \# objet de requête PKCS 7 pour renouveler un certificat existant.<br/>                                                                                                                                                                                                                                                                             | C++<br/>      |
 | [enrollSimpleMachineCert](enrollsimplemachinecert.md)                 | Inscrit un ordinateur dans une hiérarchie de certificats à l’aide d’un modèle, d’un nom d’affichage de certificat et de la description du certificat.<br/>                                                                                                                                                                                                                 | C++, VBS<br/> |
 | [enrollSimpleUserCert](enrollsimpleusercert.md)                       | Inscrit un utilisateur final auprès d’une autorité de certification à l’aide d’un modèle, du nom de l’objet et de la longueur, en bits, de la clé.<br/>                                                                                                                                                                                                                                       | C++, C #<br/> |
-| [enrollWithIX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) | Montre comment utiliser le protocole HTTP Windows 7 pour inscrire un certificat dans une autorité de certification d’entreprise.<br/>                                                                                                                                                                                                                                                | C#<br/>      |
-| [installResponseFromPFX](installresponsefrompfx.md)                   | Installe un certificat inscrit à partir d’un fichier d’échange d’informations personnelles (PFX) dans le magasin de certificats.<br/>                                                                                                                                                                                                                                      | C++<br/>      |
+| [enrollWithIX509EnrollmentHelper](enrollwithix509enrollmenthelper.md) | montre comment utiliser le protocole HTTP Windows 7 pour inscrire un certificat dans une autorité de certification d’entreprise.<br/>                                                                                                                                                                                                                                                | C#<br/>      |
+| [installResponseFromPFX](installresponsefrompfx.md)                   | installe un certificat inscrit à partir d’un fichier de Exchange d’informations personnelles (PFX) dans le magasin de certificats.<br/>                                                                                                                                                                                                                                      | C++<br/>      |
 
 
 

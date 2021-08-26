@@ -3,7 +3,7 @@ title: Message TCM_GETROWCOUNT (commctrl. h)
 description: Récupère le nombre actuel de lignes d’onglets dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl GetRowCount.
 ms.assetid: ef104374-1030-46c3-876e-083df73854ab
 keywords:
-- TCM_GETROWCOUNT les contrôles de message Windows
+- TCM_GETROWCOUNT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9bc3d9985591a08b96be2f21d55b8a6cade9b7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9e67b2ac40834075b31ccf2415a52c96448b8143dde3d6bc67f9c515e1f601a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104869"
 ---
 # <a name="tcm_getrowcount-message"></a>\_Message GETROWCOUNT de TCM
 
@@ -39,7 +39,7 @@ Récupère le nombre actuel de lignes d’onglets dans un contrôle onglet. Vous
 
 Retourne le nombre de lignes d’onglets.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seuls les contrôles onglet avec le [**style \_ multiligne TCS**](tab-control-styles.md) peuvent avoir plusieurs lignes d’onglets.
 
@@ -49,8 +49,8 @@ Seuls les contrôles onglet avec le [**style \_ multiligne TCS**](tab-control-st
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aee74049ea726b4e2686a028359afe01d2d7632
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 316b70c3405c13dd50c773d36c20f036c9e99aebeb3e5dedae692c2f9ad772fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125089"
 ---
 # <a name="imstscaxeventsonremotedesktopsizechange-method"></a>IMsTscAxEvents :: OnRemoteDesktopSizeChange, méthode
 
@@ -62,7 +62,7 @@ Hauteur, en pixels, du Bureau à distance redimensionné.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement permet au conteneur de déterminer s’il doit se redimensionner en réponse à une opération de contrôle client, ce qui peut entraîner une plus grande taille de bureau affichable. Notez que le contrôle ajuste automatiquement les barres de défilement pour la nouvelle taille de session.
 

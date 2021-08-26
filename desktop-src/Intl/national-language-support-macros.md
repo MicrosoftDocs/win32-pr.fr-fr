@@ -4,12 +4,12 @@ ms.assetid: 45440464-0628-473b-861a-e8be7452700c
 title: Macros de prise en charge linguistique nationale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccb437ce969a36b6b09c51cee54ce87ecb74c39c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb270b42e8c5fa67dd66a3be129397fcde59eebf8b7c1e384de2553d6c478a89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120041109"
 ---
 # <a name="national-language-support-macros"></a>Macros de prise en charge linguistique nationale
 

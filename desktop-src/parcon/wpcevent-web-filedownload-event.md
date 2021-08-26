@@ -4,12 +4,12 @@ ms.assetid: 2291fc75-55e5-417e-b393-748750a5b3d6
 title: Événement WPCEVENT_WEB_FILEDOWNLOAD (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66bb04a53589a1cae41e2ba7d7a9c00835452e87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7430b87e7c227fe351e3182f344c60ece0b5a3138b94fe19fee950f96ec24b6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112709"
 ---
 # <a name="wpcevent_web_filedownload-event"></a>\_ \_ Événement FILEDOWNLOAD Web WPCEVENT
 
@@ -67,7 +67,7 @@ Chemin d’accès de destination du fichier.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

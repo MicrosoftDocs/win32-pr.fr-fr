@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: be1654c38f51fa62909e10c12900c087bf0842fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a089e57ac5f66187f97dfa6ae7533aeda620632bdbf35c7b5bf3a34d4654b0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037369"
 ---
 # <a name="imonitoreventergeteventdata-method"></a>IMonitorEventer :: GetEventData, méthode
 
@@ -60,7 +60,7 @@ Si la méthode réussit, la valeur de retour est S \_ OK.
 
 Si la méthode échoue, la valeur de retour est NMERR à une \_ mémoire insuffisante \_ \_ .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les analyses appellent cette méthode pour allouer de la mémoire aux structures d’informations de colonne et de données d’événement. Pour libérer la mémoire allouée pour une structure **NMEVENTDATA** , consultez [IMonitorEventer :: FreeEventData](imonitoreventer-freeeventdata.md).
 
