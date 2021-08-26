@@ -4,12 +4,12 @@ ms.assetid: 414d16f1-ab6f-45f0-9287-154810543a6d
 title: DisplayToID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b71ae8c4ebaafc80d98580a13a83e3cc7cff815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 485eab24a2c758b36e190e035a9442a032ebd683f3f5ea052bd37992ad14c85f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033909"
 ---
 # <a name="displaytoid"></a>DisplayToID
 
@@ -26,11 +26,11 @@ La table **DisplayToID** définit les champs suivants :
 -   **MinutesToUTC :** Valeur utilisée pour convertir les données de ligne stockées en heure UTC en heure locale.
 -   **TimeZoneName :** Nom du fuseau horaire dans lequel les données ont été collectées. Si vous collectez ou que vous avez reconnecté des données à partir d’un fichier collecté sur des systèmes dans votre propre fuseau horaire, ce champ indique l’emplacement.
 
-**Remarque**  Avant Windows Vista, les ensembles de collecteurs de données étaient stockés dans le registre à l’adresse
+**Remarque**  avant Windows Vista, les ensembles de collecteurs de données étaient stockés dans le registre à l’adresse
 
 **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services \\ SysmonLog \\ journaux des requêtes**
 
-. Les champs listés ci-dessus ne correspondent pas aux valeurs du Registre. Pour Windows Vista, les ensembles de collecteurs de données ne sont pas stockés dans le registre.
+. Les champs listés ci-dessus ne correspondent pas aux valeurs du Registre. pour Windows Vista, les ensembles de collecteurs de données ne sont pas stockés dans le registre.
 
  
 

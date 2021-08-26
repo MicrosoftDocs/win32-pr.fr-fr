@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 557e9b029dcbdac06e24d1630f00488696792e25
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0adc333c5cb1d0579c95ac0886d337ffa26ce62686dc8c2e49e1e13a7632e599
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973505"
 ---
 # <a name="win32_loadordergroupservicemembers-class"></a>\_Classe LoadOrderGroupServiceMembers Win32
 
@@ -89,7 +89,7 @@ Référence à l’instance représentant le service qui est membre d’un group
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ LoadOrderGroupServiceMembers** est dérivée [**du \_ composant CIM**](cim-component.md).
 

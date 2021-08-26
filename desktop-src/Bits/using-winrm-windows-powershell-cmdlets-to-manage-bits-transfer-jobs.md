@@ -1,19 +1,19 @@
 ---
 title: Utilisation des applets de commande Windows PowerShell WinRM pour gérer les tâches de transfert BITS
-description: Windows Remote Management applets de commande PowerShell peuvent gérer des tâches de transfert Service de transfert intelligent en arrière-plan (BITS).
+description: Windows Les applets de commande PowerShell de gestion à distance peuvent gérer des tâches de transfert Service de transfert intelligent en arrière-plan (BITS).
 ms.assetid: 9fbef8a1-ed3f-4277-9a07-ed427f60d7a8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eefd874a1056e959d1516d515891ae216e4aca3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f24f4776d8a8431ac8c910fb8145633961bf353721698f8c3e5b4737ee0a1c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004639"
 ---
 # <a name="using-winrm-windows-powershell-cmdlets-to-manage-bits-transfer-jobs"></a>Utilisation des applets de commande Windows PowerShell WinRM pour gérer les tâches de transfert BITS
 
-Windows Remote Management applets de commande PowerShell peuvent gérer des tâches de transfert Service de transfert intelligent en arrière-plan (BITS). Pour plus d’informations sur la gestion à distance BITS, consultez la rubrique classes du fournisseur [bits](/previous-versions/windows/desktop/bitsprov/bits-provider) et du [fournisseur bits]( /previous-versions//dd904507(v=vs.85)).
+Windows Les applets de commande PowerShell de gestion à distance peuvent gérer des tâches de transfert Service de transfert intelligent en arrière-plan (BITS). Pour plus d’informations sur la gestion à distance BITS, consultez la rubrique classes du fournisseur [bits](/previous-versions/windows/desktop/bitsprov/bits-provider) et du [fournisseur bits]( /previous-versions//dd904507(v=vs.85)).
 
 Les exemples suivants requièrent le [fournisseur bits](/previous-versions/windows/desktop/bitsprov/bits-provider). Le fournisseur BITS est disponible après l’installation de BITS Compact Server. Pour plus d’informations sur l’installation de Compact Server, consultez la documentation de [bits Compact Server](bits-compact-server.md) .
 

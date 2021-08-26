@@ -46,12 +46,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b138ce4bc92088896286f4a21a039b068e2206e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4fb71b27093cb1011b9aebaadf0a6760124b64f9e13ae7b5ef46f5ffc478cce4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972648"
 ---
 # <a name="win32_networkloginprofile-class"></a>\_Classe NetworkLoginProfile Win32
 
@@ -386,7 +386,7 @@ Autorisation à un compte de confiance pour un domaine qui approuve d’autres d
 
 Compte d’approbation de station de travail
 
-Un compte d’ordinateur pour une station de travail ou un serveur Windows qui est membre de ce domaine.
+un compte d’ordinateur pour un Windows station de travail ou un serveur qui est membre de ce domaine.
 
 </dd> <dt>
 
@@ -943,11 +943,11 @@ Noms des postes de travail à partir desquels l’utilisateur peut ouvrir une se
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ NetworkLoginProfile** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
-Le processus appelant qui utilise cette classe doit avoir le privilège **se \_ Restore \_ Name** sur l’ordinateur où se trouve le registre. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
+le processus appelant qui utilise cette classe doit avoir le privilège **SE \_ restore \_ NAME** sur l’ordinateur où se trouve le registre. Pour plus d’informations, consultez [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md).
 
 ## <a name="examples"></a>Exemples
 
@@ -1021,7 +1021,7 @@ End Function
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

@@ -1,19 +1,19 @@
 ---
 title: Simplification de l’installation du jeu
-description: Cet article décrit certains concepts que les développeurs de jeux pour Windows peuvent et doivent implémenter pour améliorer l’expérience globale.
+description: cet article décrit quelques concepts que les développeurs de jeux pour Windows peuvent et doivent implémenter pour améliorer l’expérience globale.
 ms.assetid: 356780b7-801d-c6dd-a266-6272bcb8bd36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8728eb2c9c53a99673ee742a5c961b91e37abed6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53062b9905e59435f1b9175eb95832294d93e51193003622d3bcc6dd16ee07df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042465"
 ---
 # <a name="simplifying-game-installation"></a>Simplification de l’installation du jeu
 
-L’un des principaux avantages des jeux qui s’exécutent sur une console plutôt que sur Windows est le processus d’installation, ou l’absence de ce dernier. Lorsqu’un jeu est exécuté pour la première fois sur une console, le lecteur effectue quelques choix ou confirmations et peut commencer à jouer presque immédiatement. L’installation d’un jeu sur Windows est plus complexe, par comparaison, par la nécessité d’une entrée utilisateur importante et de son processus d’installation potentiellement long. Toutefois, ce processus d’installation peut être amélioré pour offrir une meilleure expérience aux joueurs de jeux Windows. Cet article décrit certains concepts que les développeurs de jeux pour Windows peuvent et doivent implémenter pour améliorer l’expérience globale.
+l’un des principaux avantages des jeux qui s’exécutent sur une console au lieu de Windows est le processus d’installation, ou l’absence de ce dernier. Lorsqu’un jeu est exécuté pour la première fois sur une console, le lecteur effectue quelques choix ou confirmations et peut commencer à jouer presque immédiatement. l’installation d’un jeu sur Windows est plus complexe, par comparaison, par la nécessité d’une entrée utilisateur importante et de son processus d’installation potentiellement long. toutefois, ce processus d’installation peut être amélioré pour offrir une meilleure expérience aux joueurs de jeux basés sur Windows. cet article décrit quelques concepts que les développeurs de jeux pour Windows peuvent et doivent implémenter pour améliorer l’expérience globale.
 
 -   [Installation classique de jeux](#typical-game-installation)
 -   [Installation simplifiée des jeux](#simplified-game-installation)
@@ -25,14 +25,14 @@ L’un des principaux avantages des jeux qui s’exécutent sur une console plut
     -   [Réfléchissez à votre CLUF](#think-about-your-eula)
     -   [Lancer automatiquement après l’installation](#automatically-launch-after-installation)
     -   [Optimiser les performances de votre installation](#optimize-your-installation-performance)
-    -   [S’inscrire auprès du pare-feu Windows lors de l’installation](#register-with-windows-firewall-during-installation)
+    -   [s’inscrire auprès d’Windows pare-feu pendant l’Installation](#register-with-windows-firewall-during-installation)
     -   [Installer pour tous les utilisateurs, pas seulement l’utilisateur actuel](#install-for-all-users-not-just-the-current-user)
 -   [Exemple d’installation simplifiée](#example-of-simplified-installation)
 -   [Résumé](#summary)
 
 ## <a name="typical-game-installation"></a>Installation classique de jeux
 
-Lorsque vous comparez la facilité d’installation et le temps nécessaire pour commencer à jouer un jeu, l’expérience de la Xbox est bien meilleure que Windows. L’organigramme de la figure 1 illustre les processus d’installation par défaut sur Xbox et sur Windows, à des fins de comparaison.
+Lorsque vous comparez la facilité d’installation et la durée nécessaire pour commencer à jouer un jeu, l’expérience de la Xbox est bien meilleure que Windows. l’organigramme de la Figure 1 montre les processus d’installation typiques sur la Xbox et sur Windows, à des fins de comparaison.
 
 **Figure 1. Processus d’installation par défaut, Xbox et Windows**
 
@@ -40,7 +40,7 @@ Lorsque vous comparez la facilité d’installation et le temps nécessaire pour
 
 ## <a name="simplified-game-installation"></a>Installation simplifiée des jeux
 
-Toutefois, les exigences supérieures imposées à l’utilisateur pour installer un jeu sur Windows n’ont pas besoin d’être. En implémentant les concepts suivants, vous allez réduire le nombre d’étapes qu’un utilisateur doit effectuer, ce qui peut raccourcir le temps nécessaire à l’installation.
+toutefois, les exigences supérieures imposées à l’utilisateur pour installer un jeu sur Windows n’ont pas besoin d’être. En implémentant les concepts suivants, vous allez réduire le nombre d’étapes qu’un utilisateur doit effectuer, ce qui peut raccourcir le temps nécessaire à l’installation.
 
 ### <a name="ask-all-questions-up-front"></a>Posez toutes les questions à l’avance
 
@@ -50,7 +50,7 @@ Vous pouvez également inviter l’utilisateur à accepter le CLUF et à entrer 
 
 ### <a name="provide-special-installation-modes"></a>Fournir des modes d’installation spéciaux
 
-Idéalement, les programmes d’installation de jeux Windows ne doivent offrir que des modes d’installation entièrement automatiques et personnalisés, et rien d’autre.
+dans l’idéal, Windows programmes d’installation de jeux ne doivent offrir que des modes d’installation entièrement automatiques et personnalisés, et rien d’autre.
 
 Le mode automatique ne doit pas poser d’autres questions que nécessaire pour créer une installation fonctionnelle et utiliser simplement les paramètres par défaut sans demander d’autres options. De nombreux joueurs ne se soucient pas de l’emplacement du jeu sur le disque dur ou des paramètres de jeu initiaux, mais ils veulent simplement jouer le jeu le plus rapidement possible.
 
@@ -94,11 +94,11 @@ Presque tous les joueurs veulent jouer un jeu dès qu’ils le reçoivent. Par d
 
 Les développeurs doivent tester leurs installations pour déterminer le temps nécessaire à l’installation. Les développeurs peuvent réduire le temps d’installation en utilisant la dernière version de leurs outils d’installation et en optimisant la disposition des données sur le support d’installation. La plupart des outils de création de DVD offrent des options d’optimisation de la disposition qui peuvent améliorer les temps d’installation sans augmenter la charge de travail de développement.
 
-### <a name="register-with-windows-firewall-during-installation"></a>S’inscrire auprès du pare-feu Windows lors de l’installation
+### <a name="register-with-windows-firewall-during-installation"></a>s’inscrire auprès d’Windows pare-feu pendant l’Installation
 
-Si votre jeu peut s’exécuter en tant que serveur ou que le modèle de mise en réseau du jeu est égal à égal, inscrivez votre jeu auprès du pare-feu Windows au moment de l’installation. Cela empêchera la boîte de dialogue de pare-feu de s’afficher au milieu du jeu quand l’utilisateur tente d’accéder au réseau. Si le jeu est un client pur, le programme d’installation ne doit pas ajouter le jeu à la liste des exceptions du pare-feu.
+si votre jeu peut s’exécuter en tant que serveur ou que le modèle de mise en réseau du jeu est égal à égal, inscrivez votre jeu avec Windows pare-feu au moment de l’installation. Cela empêchera la boîte de dialogue de pare-feu de s’afficher au milieu du jeu quand l’utilisateur tente d’accéder au réseau. Si le jeu est un client pur, le programme d’installation ne doit pas ajouter le jeu à la liste des exceptions du pare-feu.
 
-Pour plus d’informations, consultez pare-feu Windows pour les développeurs de jeux.
+pour plus d’informations, consultez Windows pare-feu pour les développeurs de jeux.
 
 ### <a name="install-for-all-users-not-just-the-current-user"></a>Installer pour tous les utilisateurs, pas seulement l’utilisateur actuel
 
@@ -106,7 +106,7 @@ Par défaut, il suffit d’installer le jeu pour tous les utilisateurs. Cela per
 
 ## <a name="example-of-simplified-installation"></a>Exemple d’installation simplifiée
 
-La figure 2 ci-dessous est un exemple de processus amélioré pour l’installation d’un jeu dans Windows, avec des boîtes de dialogue d’installation simplifiées.
+la Figure 2 ci-dessous est un exemple de processus amélioré pour l’installation d’un jeu dans Windows, avec des boîtes de dialogue d’installation simplifiées.
 
 **Figure 2. Processus d’installation simplifié**
 
@@ -127,8 +127,8 @@ Les points importants de la note sont les suivants :
 
 ## <a name="summary"></a>Résumé
 
-Les joueurs veulent jouer un jeu le plus rapidement possible. La dernière chose qu’un joueur souhaite faire est de frayer par le biais de boîtes de dialogue et de faire des choix qui sont les mêmes que pour tous les autres jeux qu’il ou elle a installés. L’implémentation de ces idées peut raccourcir le temps passé par un joueur à installer un jeu sur Windows et à améliorer la qualité globale de l’expérience des jeux Windows.
+Les joueurs veulent jouer un jeu le plus rapidement possible. La dernière chose qu’un joueur souhaite faire est de frayer par le biais de boîtes de dialogue et de faire des choix qui sont les mêmes que pour tous les autres jeux qu’il ou elle a installés. l’implémentation de ces idées peut raccourcir le temps passé par un joueur à installer un jeu sur Windows et à améliorer la qualité globale de l’expérience de jeux Windows.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Multiplication à double précision au niveau du composant.
 ms.assetid: 53AE27BE-2F4B-4C55-B496-D7122C00DC52
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a5d311cb5c958e8b7403197027c9854d1a93a64
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 838b9e2b3ed24dd5a6025c230439ce0719922d88bac723b3aed759c5fa224d8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068379"
 ---
 # <a name="dmul-sm5---asm"></a>dmul (SM5-ASM)
 
@@ -70,7 +70,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 

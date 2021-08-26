@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, décrit, Message Queuing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b72e9e35ec2aa1cc440c0d0356c681c4fe8548c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c44296068087dc2fd4423dbb3294c3c7a417e8a983ec958c2ad765ff87ea81e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120018379"
 ---
 # <a name="rpc-message-queuing"></a>Message Queuing RPC
 
@@ -27,9 +27,9 @@ Message Queuing (MSMQ) permet aux utilisateurs de communiquer sur des réseaux e
 Microsoft RPC étend le modèle OSF (Open Software Foundation – Data communication Equipment) pour les appels de procédure distante en permettant aux applications distribuées d’utiliser MSMQ comme transport et de contrôler un grand nombre de ses fonctionnalités. Cette fonctionnalité est disponible à la fois pour les applications RPC conventionnelles et, via l’interface **IRPCOptions** , aux applications com.
 
 > [!Note]  
-> La mise en file d’attente des messages RPC est disponible uniquement sur Windows 2000. Les versions ultérieures de Windows ne prennent pas en charge la mise en file d’attente de messages RPC.
+> la mise en file d’attente des messages RPC est disponible uniquement sur Windows 2000. les versions ultérieures de Windows ne prennent pas en charge la mise en file d’attente de messages RPC.
 
- 
+ 
 
 Les rubriques suivantes fournissent une vue d’ensemble de Message Queuing :
 
@@ -40,9 +40,9 @@ Les rubriques suivantes fournissent une vue d’ensemble de Message Queuing :
 -   [Développement d’applications de mise en file d’attente RPC-Message](developing-rpc-message-queuing-applications.md)
 -   [Services de sécurité MSMQ](msmq-security-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

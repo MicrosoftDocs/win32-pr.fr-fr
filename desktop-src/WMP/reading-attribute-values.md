@@ -3,29 +3,29 @@ title: Lecture des valeurs d’attribut
 description: Lecture des valeurs d’attribut
 ms.assetid: 5f791f47-472e-409f-b716-2ace11f34742
 keywords:
-- Lecteur Windows Media, attributs des éléments multimédias
-- Modèle objet du lecteur Windows Media, attributs des éléments multimédias
+- Lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media modèle objet, attributs pour les éléments multimédias
 - modèle objet, attributs pour les éléments multimédias
-- Windows Media Player Mobile, attributs pour les éléments multimédias
-- Contrôle ActiveX du lecteur Windows Media, attributs des éléments multimédias
-- Contrôle ActiveX Windows Media Player Mobile, attributs des éléments multimédias
-- Contrôle ActiveX, attributs pour les éléments multimédias
-- Bibliothèque du lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media Mobile, attributs pour les éléments multimédias
+- Lecteur Windows Media ActiveX contrôle, attributs pour les éléments multimédias
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs pour les éléments multimédias
+- contrôle ActiveX, attributs pour les éléments multimédias
+- bibliothèque de Lecteur Windows Media, attributs des éléments multimédias
 - bibliothèque, attributs pour les éléments multimédias
 - attributs, lire des valeurs
 - lecture des valeurs d’attribut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d527429b71cff5594c127b3ad2bfb82b3f3b2ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8431405b68435f41cb357a810e30c37bb96c5971824b3878b1982986aa0d0833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002829"
 ---
 # <a name="reading-attribute-values"></a>Lecture des valeurs d’attribut
 
-Les attributs que vous pouvez trouver dans la bibliothèque et dans les fichiers Windows Media ont des noms prédéfinis. Vous pouvez écrire du code qui récupère la valeur d’un attribut en passant le nom de cet attribut au *média*. **getItemInfo** ou *Media*. **getItemInfoByType**. Vous pouvez également écrire du code qui récupère les valeurs de tous les attributs d’un fichier ou d’un élément.
+les attributs que vous pouvez trouver dans la bibliothèque et dans Windows fichiers multimédias ont des noms prédéfinis. Vous pouvez écrire du code qui récupère la valeur d’un attribut en passant le nom de cet attribut au *média*. **getItemInfo** ou *Media*. **getItemInfoByType**. Vous pouvez également écrire du code qui récupère les valeurs de tous les attributs d’un fichier ou d’un élément.
 
 L’exemple C# suivant récupère la valeur de l’attribut **title** et l’affiche dans une boîte de message. Dans cet exemple, l’objet **Player** a été défini en tant que AxWMPLib. AxWindowsMediaPlayer Player.
 
@@ -102,9 +102,9 @@ Vous pouvez utiliser du code similaire pour récupérer des attributs qui ont de
 [**Lecture des valeurs d’attribut à partir d’un CD ou d’un DVD**](reading-attribute-values-from-a-cd-or-dvd.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

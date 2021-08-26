@@ -1,9 +1,9 @@
 ---
-title: Settings. isAvailable
-description: La propriété isAvailable indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée. | Settings. isAvailable
+title: Paramètres. isAvailable
+description: La propriété isAvailable indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée. | Paramètres. isAvailable
 ms.assetid: 89403125-545c-482b-a27e-6fee06abe247
 keywords:
-- Paramètres. isAvailable du lecteur Windows Media
+- Paramètres. isAvailable Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a96923fa57ffab4fb2e47b16afd03a06bbffd0ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df10026007dd9e04fe88d634a3da566074b0d6a88420ef444d5f2bae39a793fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002409"
 ---
-# <a name="settingsisavailable"></a>Settings. isAvailable
+# <a name="settingsisavailable"></a>Paramètres. isAvailable
 
 La propriété **isAvailable** indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée.
 
@@ -75,7 +75,7 @@ Cette méthode retourne une valeur **booléenne** .
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

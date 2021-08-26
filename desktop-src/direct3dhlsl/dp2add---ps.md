@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88d3d28cc64bdb7caa1b7456e87711c3dbee2b13
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 39a7cd640de57f2f69c8ee3b46ee6be6e52cbb16f9db39ef902725241d77b9c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104101069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068359"
 ---
 # <a name="dp2add---ps"></a>dp2add-PS
 
@@ -35,7 +35,7 @@ Où :
 -   src0, src1 et src2 sont trois registres sources.
 -   {x \| y \| z \| w} est le Swizzle de réplication requis sur src2.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -45,7 +45,7 @@ Où :
 
 
 
- 
+ 
 
 La valeur scalaire pour Add est choisie par l’Swizzle répliqué sur src2.
 
@@ -66,9 +66,9 @@ dest = src0.r * src1.r + src0.g * src1.g + src2.replicate_swizzle
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

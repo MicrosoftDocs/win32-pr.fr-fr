@@ -4,12 +4,12 @@ ms.assetid: a21fe766-58a5-4851-a282-883374287e18
 title: EC_QUALITY_CHANGE (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5752db30c8ad6ed85655948cf2adb9ef7ac8078
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a9c2b540a5740812050532d4d4e6e45fb334eaff9927148471aada09ab1a434
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043359"
 ---
 # <a name="ec_quality_change"></a>modification de la \_ qualité ce \_
 
@@ -58,7 +58,7 @@ Un filtre envoie cet événement s’il supprime des exemples en réponse à un 
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

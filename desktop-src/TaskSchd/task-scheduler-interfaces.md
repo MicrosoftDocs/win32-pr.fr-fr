@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches Planificateur de tâches, référence, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d9c088c1388da273b0b0a17c92e21be18e1a983
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 0bce7b18fe1791f913d86352ce0b68c2bbd94a590ca921eb063ea54f0d812e58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106509479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033889"
 ---
 # <a name="task-scheduler-interfaces"></a>Interfaces Planificateur de tâches
 
@@ -20,7 +20,7 @@ Les interfaces décrites dans les rubriques suivantes fournissent un accès par 
 Ces rubriques contiennent une description de l’interface, une liste des propriétés et des méthodes définies par l’interface, ainsi que des remarques sur les circonstances spéciales qui doivent être notées lors de l’utilisation de l’interface.
 
 
-Les interfaces suivantes sont introduites dans Planificateur de tâches 2,0, qui est utilisé dans le système d’exploitation Windows Vista.
+les interfaces suivantes sont introduites dans Planificateur de tâches 2,0, qui est utilisé dans le système d’exploitation Windows Vista.
 
 
 
@@ -74,7 +74,7 @@ Les interfaces suivantes sont introduites dans Planificateur de tâches 2,0, qui
 
 
 > [!WARNING]
-> Les interfaces Planificateur de tâches 1,0 sont uniquement disponibles dans les systèmes d’exploitation Windows 2000, Windows XP et Windows Server 2003. Ils sont déconseillés à partir de Windows Vista et peuvent être supprimés complètement à l’avenir. Utilisez plutôt les interfaces Planificateur de tâches 2,0 mentionnées ci-dessus.
+> les interfaces Planificateur de tâches 1,0 sont disponibles uniquement dans les systèmes d’exploitation Windows 2000, Windows XP et Windows Server 2003. ils sont déconseillés à partir de Windows Vista et peuvent être supprimés complètement à l’avenir. Utilisez plutôt les interfaces Planificateur de tâches 2,0 mentionnées ci-dessus.
 
  
 

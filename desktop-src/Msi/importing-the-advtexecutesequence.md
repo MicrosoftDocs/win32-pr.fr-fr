@@ -4,18 +4,18 @@ ms.assetid: 269bd28c-fa45-42b8-a610-1c4c5fcabc19
 title: Importation du AdvtExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e4d7622670973a622b1376456ecfef445684cf3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 518adfa315b5705806ba65caf09691316894ab664c32485dd3f4b6ce894be1a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043669"
 ---
 # <a name="importing-the-advtexecutesequence"></a>Importation du AdvtExecuteSequence
 
 La [table AdvtExecuteSequence](advtexecutesequence-table.md) répertorie les actions que le programme d’installation appelle lorsqu’il exécute l' [action de publication](advertise-action.md)de niveau supérieur. Consultez le [groupe tables de procédures d’installation](installation-procedure-tables-group.md), [à l’aide d’une table de séquences](using-a-sequence-table.md)et de l' [exemple de table de séquence détaillé](sequence-table-detailed-example.md).
 
-Si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, les tables de séquence de votre copie de MNP2000.msi contiennent déjà les séquences d’action suggérées décrites dans [utilisation d’une table de séquences](using-a-sequence-table.md). Aucune modification de ces séquences ne doit être nécessaire pour créer l’exemple de package d’installation du bloc-notes.
+si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, les tables de séquence de votre copie de MNP2000.msi contiennent déjà les séquences d’action suggérées décrites dans [utilisation d’une table de séquences](using-a-sequence-table.md). aucune modification de ces séquences ne doit être nécessaire pour créer l’exemple de package d’installation de Bloc-notes.
 
 Utilisez votre éditeur de base de données pour ouvrir MNP2000.msi et entrez les données suivantes dans la [table AdvtExecuteSequence](advtexecutesequence-table.md).
 

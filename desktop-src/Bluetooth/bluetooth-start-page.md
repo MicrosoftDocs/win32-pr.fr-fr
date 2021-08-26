@@ -4,15 +4,15 @@ description: Bluetooth est un protocole standard qui permet la connectivité san
 ms.assetid: 2a86f30e-2594-405d-a2f5-9e9ce9ad278b
 keywords:
 - Bluetooth Bluetooth, page de démarrage
-- page de démarrage Bluetooth, Bluetooth
+- Bluetooth de la page de démarrage, Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bdb45de3e8f6d02b1c5571cb5e1e5339c3b7c17
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: b040a75f5a88e9cb7c65bd33c7567db8cb97177d3c9651adad907a70ffe1f032
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004059"
 ---
 # <a name="bluetooth"></a>Bluetooth
 
@@ -22,17 +22,17 @@ Bluetooth est un protocole standard qui permet la connectivité sans fil pour le
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-L’interface de programmation d’applications Bluetooth permet aux développeurs d’utiliser les connaissances de programmation réseau existantes pour développer ou déplacer rapidement des applications.
+l’interface de programmation d’applications Bluetooth permet aux développeurs d’utiliser les connaissances de programmation réseau existantes pour développer ou déplacer rapidement des applications.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Le Bluetooth est conçu pour être utilisé par les programmeurs C/C++. Certaines fonctionnalités de Bluetooth sont disponibles avec Windows Sockets. Vous devez vous familiariser avec la programmation de Windows Sockets et de mise en réseau Microsoft Windows.
+Bluetooth est conçu pour être utilisé par les programmeurs C/C++. certaines fonctionnalités de Bluetooth sont disponibles avec Windows sockets. vous devez vous familiariser avec la programmation de Microsoft Windows networking et Windows sockets.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-La prise en charge de Microsoft Bluetooth commence par Windows XP avec Service Pack 1 (SP1).
+la prise en charge de Microsoft Bluetooth commence par Windows XP avec Service Pack 1 (SP1).
 
-La prise en charge de Bluetooth 2,1 est disponible dans Windows Vista SP2 et Windows 7.
+la prise en charge de Bluetooth 2,1 est proposée dans Windows Vista SP2 et Windows 7.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -42,7 +42,7 @@ La prise en charge de Bluetooth 2,1 est disponible dans Windows Vista SP2 et Win
 |-------------------------------------------------|---------------------------------------------------|
 | [Vue d'ensemble](about-bluetooth.md)<br/>      | Informations générales sur Bluetooth.<br/>   |
 | [À](using-bluetooth.md)<br/>         | Informations sur l’utilisation de Bluetooth.<br/>     |
-| [Informations de référence](bluetooth-reference.md)<br/> | Documentation de référence pour Bluetooth.<br/> |
+| [Référence](bluetooth-reference.md)<br/> | Documentation de référence pour Bluetooth.<br/> |
 
 
 
@@ -54,9 +54,9 @@ La prise en charge de Bluetooth 2,1 est disponible dans Windows Vista SP2 et Win
 
 |    Ressource                          |    Description                     |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| [FAQ sur la technologie sans fil Bluetooth](https://www.microsoft.com/whdc/connect/wireless/bth_faq.mspx) | Informations sur la prise en charge de la technologie sans fil Bluetooth pour les systèmes d’exploitation Windows, axée principalement sur Windows Vista. |
-| [Forum du kit de développement logiciel sans fil Windows Vista](https://social.msdn.microsoft.com/Forums/en/vistawirelesssdk/threads)   | Discutez de l’implémentation de Bluetooth par rapport à Windows Vista.                                                              |
-| [Forum du kit de développement logiciel sans fil Windows XP](https://social.msdn.microsoft.com/Forums/xpwirelesssdk/threads)     | Discutez de l’implémentation de Bluetooth par rapport à Windows XP.                                                                 |
+| [Bluetooth FAQ sur la technologie sans fil](https://www.microsoft.com/whdc/connect/wireless/bth_faq.mspx) | informations sur la Bluetooth la prise en charge de la technologie sans fil pour les systèmes d’exploitation Windows, principalement sur Windows Vista. |
+| [Windows Forum du kit de développement logiciel sans fil Vista](https://social.msdn.microsoft.com/Forums/en/vistawirelesssdk/threads)   | discutez de l’implémentation de Bluetooth en rapport avec Windows Vista.                                                              |
+| [Windows Forum sur les SDK XP sans fil](https://social.msdn.microsoft.com/Forums/xpwirelesssdk/threads)     | discutez de l’implémentation de Bluetooth en rapport avec Windows XP.                                                                 |
 
 
 

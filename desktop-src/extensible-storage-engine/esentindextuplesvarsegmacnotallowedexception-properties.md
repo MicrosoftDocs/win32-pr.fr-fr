@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101869
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a2f995f29f41f0c77ef3a46b7330c0a313f64de3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bf5f31d7b549d1bee6ff8945ff17cb6fff3ff99f632dd829f40e25f110d708a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972759"
 ---
 # <a name="esentindextuplesvarsegmacnotallowedexception-properties"></a>Propriétés EsentIndexTuplesVarSegMacNotAllowedException
 
@@ -49,7 +49,7 @@ Le type [EsentIndexTuplesVarSegMacNotAllowedException](./esentindextuplesvarsegm
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

@@ -4,12 +4,12 @@ ms.assetid: 7627b580-4119-48e2-88b7-51b714b5d5b2
 title: Codes FOURCC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb789bc16a1643ee737c1c1a63bdbc5704567931
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 25820d21fb8e8386fb11816c373debf427fa783b8a2f2d4723a46e689e6aea0d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120043319"
 ---
 # <a name="fourcc-codes"></a>Codes FOURCC
 
@@ -34,13 +34,13 @@ DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'.
 
 
 
-L’inversion de l’ordre est nécessaire, car le système d’exploitation Microsoft Windows utilise une architecture Little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.
+l’inversion de l’ordre est nécessaire car le système d’exploitation Microsoft Windows utilise une architecture little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.
 
 ### <a name="converting-fourcc-codes-to-subtype-guids"></a>Conversion de codes FOURCC en GUID de sous-type
 
 Une plage de 2 \* 32 GUID est réservée à la représentation de FOURCCs. Ces GUID se présentent sous la forme `XXXXXXXX-0000-0010-8000-00AA00389B71` `XXXXXXXX` du code FourCC. Ainsi, le GUID de sous-type pour YUY2 est `32595559-0000-0010-8000-00AA00389B71` .
 
-Un grand nombre de ces GUID sont déjà définis dans le fichier d’en-tête UUID. h. Par exemple, le sous-type YUY2 est défini en tant que MEDIASUBTYPE \_ YUY2. La bibliothèque de classes de base DirectShow fournit également une classe d’assistance, [**FOURCCMap**](fourccmap.md), qui peut être utilisée pour convertir les codes FourCC en valeurs GUID. Le constructeur **FOURCCMap** prend un code FourCC comme paramètre d’entrée. Vous pouvez ensuite effectuer un cast de l’objet **FOURCCMap** vers le GUID correspondant :
+Un grand nombre de ces GUID sont déjà définis dans le fichier d’en-tête UUID. h. Par exemple, le sous-type YUY2 est défini en tant que MEDIASUBTYPE \_ YUY2. la bibliothèque de classes de base DirectShow fournit également une classe d’assistance, [**FOURCCMap**](fourccmap.md), qui peut être utilisée pour convertir des codes FOURCC en valeurs GUID. Le constructeur **FOURCCMap** prend un code FourCC comme paramètre d’entrée. Vous pouvez ensuite effectuer un cast de l’objet **FOURCCMap** vers le GUID correspondant :
 
 
 ```C++

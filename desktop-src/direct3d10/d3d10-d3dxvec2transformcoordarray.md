@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f36b5fb5a5263f83c42ac66cc5f606fa1c4b75ab
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6d4f7e48a274b8a1b590adc76dff683019e9e0ec7ae523d16decd09421093ce1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989869"
 ---
 # <a name="d3dxvec2transformcoordarray-function-d3dx10mathh"></a>D3DXVec2TransformCoordArray, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointeur vers un tableau transformé [**D3DXVECTOR4**](d3d10-d3dxvector4.md) .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette fonction transforme le tableau (x, y, 0, 1) par la matrice pM, en reprojetant le résultat dans w = 1.
 

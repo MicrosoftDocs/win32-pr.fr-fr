@@ -3,7 +3,7 @@ title: Événement Warning de l’objet AxWindowsMediaPlayer
 description: L’événement d’avertissement est réservé à une utilisation ultérieure.
 ms.assetid: 3de63756-2726-4864-8988-fd614f23bcad
 keywords:
-- Événement d’avertissement de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement d’avertissement de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a868ba7f619287cd96929c62d89dee3555d908b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18925236148a508e66bb34e83f7ddb69f0cb59d87c98dfe0188f780ea2fc3605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003999"
 ---
 # <a name="warning-event-of-the-axwindowsmediaplayer-object"></a>Événement Warning de l’objet AxWindowsMediaPlayer
 
@@ -55,7 +55,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est réservé à une utilisation ultérieure.
 
@@ -75,7 +75,7 @@ Cet événement est réservé à une utilisation ultérieure.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

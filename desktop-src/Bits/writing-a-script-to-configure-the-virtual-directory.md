@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ae23a33c2c91dc0a141c6f377daf89708499aae7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b9ea1de5a0b9f7be9598a4011cbb6cd76f49e6d4bcc3d468093be1479ee2b59e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004599"
 ---
 # <a name="writing-a-script-to-configure-the-virtual-directory"></a>Écriture d’un script pour configurer le répertoire virtuel
 
@@ -22,7 +22,7 @@ Vous pouvez utiliser les valeurs de propriété IIS BITS par défaut pour télé
 
 Pour obtenir une liste et une description des propriétés que vous pouvez modifier, consultez [propriétés d’extension IIS bits](bits-iis-extension-properties.md). Utilisez les méthodes de l’interface [**IBITSExtensionSetup**](/windows/desktop/api/Bitscfg/nn-bitscfg-ibitsextensionsetup) pour activer et désactiver le répertoire virtuel pour les téléchargements.
 
-L’exemple suivant montre comment utiliser Windows Script Host pour créer, configurer et activer un répertoire virtuel IIS pour les téléchargements BITS.
+l’exemple suivant montre comment utiliser Windows Script Host pour créer, configurer et activer un répertoire virtuel IIS pour les téléchargements BITS.
 
 
 ```JScript
@@ -71,9 +71,9 @@ L’emplacement du fichier de téléchargement est transmis à l’application s
 
 Pour plus d’informations sur la réception des données de téléchargement dans votre application serveur, consultez [utilisation des en-têtes de demande de notification bits/réponse](using-bits-notification-request-response-headers.md).
 
- 
+ 
 
- 
+ 
 
 
 
