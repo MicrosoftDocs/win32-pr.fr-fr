@@ -8,12 +8,12 @@ keywords:
 - lecture de fichiers Waveform-Audio, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5fb6b2fb67e52374351063d330ffdf392529389
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 357998d2b1a026d867092dc323c9e65121705bd9178e6ea4555edfc2c778cc78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037959"
 ---
 # <a name="playing-waveform-audio-files"></a>Jeux de fichiers Waveform-Audio
 
@@ -26,9 +26,9 @@ Les rubriques suivantes expliquent comment utiliser l’interface Wave-audio pou
 -   [Modification du volume de Waveform-Audio lecture](changing-the-volume-of-waveform-audio-playback.md)
 -   [Modification du pas et de la vitesse de lecture](changing-pitch-and-playback-rate.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: Constantes RecognitionProperty (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd18aeae50e0ae08337dd89a494292a7accbb389e6d02f0b990035fbf9644879
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d06d2eed3b28ed99d180dbe3971e9e018554ff5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117856420"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467986"
 ---
 # <a name="recognitionproperty-constants"></a>Constantes RecognitionProperty
 
@@ -19,73 +19,17 @@ Le tableau suivant répertorie les champs de l’identificateur global unique (G
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Nom de la constante</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_LINENUMBER_________"></span><span id="___________inkrecognitionproperty_linenumber_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_LINENUMBER</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour le numéro de ligne de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br/> LineNumber spécifie les alternatives avec un numéro de ligne particulier.<br/>
-<blockquote>
-[!Note]<br />
-Ce champ n’est pas pris en charge pour les identificateurs de caractères d’Extrême-Orient.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_SEGMENTATION_________"></span><span id="___________inkrecognitionproperty_segmentation_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_SEGMENTATION</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour la segmentation de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br/> La segmentation spécifie le fragment ou l’unité d’encre de base que le module de reconnaissance utilise pour produire un résultat de reconnaissance.<br/>
-<blockquote>
-[!Note]<br />
-Non implémenté.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_HOTPOINT_________"></span><span id="___________inkrecognitionproperty_hotpoint_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_HOTPOINT</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour le point réactif de reconnaissance de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT_________"></span><span id="___________inkrecognitionproperty_maximumstrokecount_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour le nombre de traits maximal du résultat de la reconnaissance pour l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br/>
-<blockquote>
-[!Note]<br />
-Non implémenté.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_POINTSPERINCH_________"></span><span id="___________inkrecognitionproperty_pointsperinch_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_POINTSPERINCH</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété de la métrique point par pouce de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br/>
-<blockquote>
-[!Note]<br />
-Non implémenté.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_CONFIDENCELEVEL_________"></span><span id="___________inkrecognitionproperty_confidencelevel_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_CONFIDENCELEVEL</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour le niveau de confiance que le module de reconnaissance a dans le résultat de la reconnaissance.<br/>
-<blockquote>
-[!Note]<br />
-l’évaluation de la confiance est disponible uniquement pour États-Unis anglais et tous les module de reconnaissance de mouvement dans Microsoft Windows XP édition Tablet PC et Windows Vista. Les méthodes qui fournissent la propriété confidence pour tout autre module de reconnaissance retournent E_NOTIMPL.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="___________INKRECOGNITIONPROPERTY_LINEMETRICS_________"></span><span id="___________inkrecognitionproperty_linemetrics_________"></span><dl> <dt><strong>INKRECOGNITIONPROPERTY_LINEMETRICS</strong></dt> </dl></td>
-<td style="text-align: left;">GUID qui identifie la propriété pour les métriques de ligne de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> , qui est la ligne pour laquelle les métriques doivent être récupérées. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom de la constante | Description | 
+|---------------|-------------|
+| <span id="___________INKRECOGNITIONPROPERTY_LINENUMBER_________"></span><span id="___________inkrecognitionproperty_linenumber_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_LINENUMBER</strong></dt></dl> | GUID qui identifie la propriété pour le numéro de ligne de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br /> LineNumber spécifie les alternatives avec un numéro de ligne particulier.<br /><blockquote>[!Note]<br />Ce champ n’est pas pris en charge pour les identificateurs de caractères d’Extrême-Orient.</blockquote><br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_SEGMENTATION_________"></span><span id="___________inkrecognitionproperty_segmentation_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_SEGMENTATION</strong></dt></dl> | GUID qui identifie la propriété pour la segmentation de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br /> La segmentation spécifie le fragment ou l’unité d’encre de base que le module de reconnaissance utilise pour produire un résultat de reconnaissance.<br /><blockquote>[!Note]<br />Non implémenté.</blockquote><br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_HOTPOINT_________"></span><span id="___________inkrecognitionproperty_hotpoint_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_HOTPOINT</strong></dt></dl> | GUID qui identifie la propriété pour le point réactif de reconnaissance de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT_________"></span><span id="___________inkrecognitionproperty_maximumstrokecount_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_MAXIMUMSTROKECOUNT</strong></dt></dl> | GUID qui identifie la propriété pour le nombre de traits maximal du résultat de la reconnaissance pour l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br /><blockquote>[!Note]<br />Non implémenté.</blockquote><br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_POINTSPERINCH_________"></span><span id="___________inkrecognitionproperty_pointsperinch_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_POINTSPERINCH</strong></dt></dl> | GUID qui identifie la propriété de la métrique point par pouce de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> . <br /><blockquote>[!Note]<br />Non implémenté.</blockquote><br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_CONFIDENCELEVEL_________"></span><span id="___________inkrecognitionproperty_confidencelevel_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_CONFIDENCELEVEL</strong></dt></dl> | GUID qui identifie la propriété pour le niveau de confiance que le module de reconnaissance a dans le résultat de la reconnaissance.<br /><blockquote>[!Note]<br />l’évaluation de la confiance est disponible uniquement pour États-Unis anglais et tous les module de reconnaissance de mouvement dans Microsoft Windows XP édition Tablet PC et Windows Vista. Les méthodes qui fournissent la propriété confidence pour tout autre module de reconnaissance retournent E_NOTIMPL.</blockquote><br /> | 
+| <span id="___________INKRECOGNITIONPROPERTY_LINEMETRICS_________"></span><span id="___________inkrecognitionproperty_linemetrics_________"></span><dl><dt><strong>INKRECOGNITIONPROPERTY_LINEMETRICS</strong></dt></dl> | GUID qui identifie la propriété pour les métriques de ligne de l’objet <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate"><strong>IInkRecognitionAlternate</strong></a> , qui est la ligne pour laquelle les métriques doivent être récupérées. <br /> | 
+
 
 
 

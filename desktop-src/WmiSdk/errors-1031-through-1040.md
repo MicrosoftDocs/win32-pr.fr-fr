@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Erreurs 1031 à 1040
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2378ec70aa39a8560a11df8fa9027f97960d4720f89e1f6cac271496e432362
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 5986ba80a55d2d8f3d4a87b0587331765aa38d67
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119568609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886874"
 ---
 # <a name="errors-1031-through-1040"></a>Erreurs 1031 à 1040
 
@@ -38,7 +38,7 @@ Décrit les erreurs du fournisseur SNMP WMI 1031 à 1040.
 
 <dl> <dt>
 
-<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, avertissement> : " <fileName> : <\#> de ligne : le symbole standard <identifier> doit être importé à partir du module <identifier> . En supposant la définition standard.»**
+<span id="_1031__Warning_____fileName___line____Standard_symbol__identifier__should_be_imported_from_module__identifier_._Assuming_the_standard_definition._"></span><span id="_1031__warning_____filename___line____standard_symbol__identifier__should_be_imported_from_module__identifier_._assuming_the_standard_definition._"></span><span id="_1031__WARNING_____FILENAME___LINE____STANDARD_SYMBOL__IDENTIFIER__SHOULD_BE_IMPORTED_FROM_MODULE__IDENTIFIER_._ASSUMING_THE_STANDARD_DEFINITION._"></span>**<1031, avertissement> : " &lt; NomFichier &gt; : <ligne \#> : l' &lt; identificateur de symbole standard &gt; doit être importé à partir de l’identificateur de module &lt; &gt; . En supposant la définition standard.»**
 </dt> <dd>
 
 IMPORTE la section Avertissement sémantique de module, spécifique à ni SNMPv1 ni SNMPv2C. Si un identificateur SNMP connu du compilateur se trouve dans la section Imports, le module à partir duquel il est importé doit être l’un des modules standard.
@@ -91,7 +91,7 @@ Les importations de SNMPv1 et SNMPv2C intégrées sont décrites dans les tablea
 
 <dl> <dt>
 
-<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032,> irrécupérable : " <fileName><ligne \#> : valeur dupliquée <value> dans l’énumération"**
+<span id="_1032__Fatal_____fileName__line____Duplicate_value__value__in_enumeration_"></span><span id="_1032__fatal_____filename__line____duplicate_value__value__in_enumeration_"></span><span id="_1032__FATAL_____FILENAME__LINE____DUPLICATE_VALUE__VALUE__IN_ENUMERATION_"></span>**<1032,> irrécupérable : " &lt; nomfichier &gt;<ligne \#> : valeur de valeur dupliquée &lt; &gt; dans l’énumération"**
 </dt> <dd>
 
 Erreur de sémantique de module dans une énumération, propre à SNMPv1 et SNMPv2C. Il ne doit pas y avoir de valeurs en double. Le paramètre de \#> de ligne <correspond à la position de la récurrence du nom/de la valeur.
@@ -102,7 +102,7 @@ Erreur de sémantique de module dans une énumération, propre à SNMPv1 et SNMP
 
 <dl> <dt>
 
-<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033,> irrécupérable : " <fileName><ligne \#> : nom dupliqué <identifier> dans l’énumération"**
+<span id="_1033__Fatal_____fileName__line____Duplicate_name__identifier__in_enumeration_"></span><span id="_1033__fatal_____filename__line____duplicate_name__identifier__in_enumeration_"></span><span id="_1033__FATAL_____FILENAME__LINE____DUPLICATE_NAME__IDENTIFIER__IN_ENUMERATION_"></span>**<1033,> fatale : " &lt; fileName &gt;<ligne \#> : identificateur de nom dupliqué &lt; &gt; dans l’énumération"**
 </dt> <dd>
 
 Erreur de sémantique de module dans une énumération, propre à SNMPv1 et SNMPv2C. Il ne doit pas y avoir de noms en double. Le paramètre de \#> de ligne <correspond à la position de la récurrence du nom/de la valeur.
@@ -113,7 +113,7 @@ Erreur de sémantique de module dans une énumération, propre à SNMPv1 et SNMP
 
 <dl> <dt>
 
-<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, avertissement> : « <fileName><ligne \#> : valeur 0 non autorisée dans une énumération »**
+<span id="_1034__Warning_____fileName__line____A_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__warning_____filename__line____a_value_of_0_disallowed_in_an_enumeration_"></span><span id="_1034__WARNING_____FILENAME__LINE____A_VALUE_OF_0_DISALLOWED_IN_AN_ENUMERATION_"></span>**<1034, Warning> : " &lt; fileName &gt;<Line \#> : valeur 0 non autorisée dans une énumération"**
 </dt> <dd>
 
 AVERTISSEMENT sémantique de module dans une énumération, spécifique à, ou à SNMPv1 et à SNMPv2C. Il est recommandé d’utiliser une valeur nommée égale à zéro dans une énumération.
@@ -124,7 +124,7 @@ AVERTISSEMENT sémantique de module dans une énumération, spécifique à, ou �
 
 <dl> <dt>
 
-<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, avertissement> « <fileName><\#> de ligne : la valeur dans l’énumération n’est pas résolue en entier positif »**
+<span id="_1036__Warning____fileName__line____Value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__warning____filename__line____value_in_enumeration_does_not_resolve_to_a_positive_integer_"></span><span id="_1036__WARNING____FILENAME__LINE____VALUE_IN_ENUMERATION_DOES_NOT_RESOLVE_TO_A_POSITIVE_INTEGER_"></span>**<1036, avertissement> " &lt; fileName &gt;<ligne \#> : la valeur dans l’énumération n’est pas résolue en entier positif"**
 </dt> <dd>
 
 AVERTISSEMENT sémantique de module dans une énumération, spécifique à, ou à SNMPv1 et à SNMPv2C. Une valeur négative n’est pas autorisée dans une énumération.
@@ -135,7 +135,7 @@ AVERTISSEMENT sémantique de module dans une énumération, spécifique à, ou �
 
 <dl> <dt>
 
-<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037,> irrécupérable : " <fileName><\#> de ligne : l’identificateur <identifier> n’est pas résolu en chaîne d’octets ou en types opaques"**
+<span id="_1037__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_to_OCTET_STRING_or_Opaque_types_"></span><span id="_1037__fatal_____filename__line____identifier__identifier__does_not_resolve_to_octet_string_or_opaque_types_"></span><span id="_1037__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_TO_OCTET_STRING_OR_OPAQUE_TYPES_"></span>**<1037,> irrécupérable : " &lt; nomfichier &gt;<ligne \#> : l' &lt; identificateur d’identificateur &gt; n’est pas résolu en chaîne d’octets ou en types opaques"**
 </dt> <dd>
 
 Erreur de sémantique de module dans la spécification de taille, propre à ni SNMPv1 ni SNMPv2C. Le symbole utilisé dans une spécification de taille doit être converti en OCTET STRING ou opaque.
@@ -146,7 +146,7 @@ Erreur de sémantique de module dans la spécification de taille, propre à ni S
 
 <dl> <dt>
 
-<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038,> irrécupérable : " <fileName><line \#> : identifier <identifier> ne résout pas un entier ou un type de jauge"**
+<span id="_1038__Fatal_____fileName__line____Identifier__identifier__does_not_resolve_an_INTEGER_or_Gauge_type_"></span><span id="_1038__fatal_____filename__line____identifier__identifier__does_not_resolve_an_integer_or_gauge_type_"></span><span id="_1038__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__DOES_NOT_RESOLVE_AN_INTEGER_OR_GAUGE_TYPE_"></span>**<1038,> fatale : " &lt; fileName &gt;<Line \#> : identifier &lt; &gt; ne résout pas un entier ou un type de jauge"**
 </dt> <dd>
 
 Erreur de sémantique de module dans la spécification de plage. Cette erreur peut se produire dans SNMPv1 ou SNMPv2C.
@@ -161,7 +161,7 @@ Dans SNMPv2C, le symbole utilisé dans une spécification de plage doit être co
 
 <dl> <dt>
 
-<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039,> fatale : <fileName><ligne \#> : valeur négative utilisée dans la spécification de taille»**
+<span id="_1039__Fatal___fileName__line____Negative_value_used_in_SIZE_specification_"></span><span id="_1039__fatal___filename__line____negative_value_used_in_size_specification_"></span><span id="_1039__FATAL___FILENAME__LINE____NEGATIVE_VALUE_USED_IN_SIZE_SPECIFICATION_"></span>**<1039,> fatale : &lt; fileName &gt;<ligne \#> : valeur négative utilisée dans la spécification de taille»**
 </dt> <dd>
 
 Erreur de sémantique de module dans la spécification de taille, propre à ni SNMPv1 ni SNMPv2C. Toute valeur utilisée dans la spécification de la taille ne doit pas être négative.
@@ -172,7 +172,7 @@ Erreur de sémantique de module dans la spécification de taille, propre à ni S
 
 <dl> <dt>
 
-<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040,> irrécupérable : « <fileName><ligne \#> : l’identificateur <identifier> dans la spécification de taille n’est pas résolu en une valeur intégrale non négative »**
+<span id="_1040__Fatal_____fileName__line____Identifier__identifier__in_SIZE_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__fatal_____filename__line____identifier__identifier__in_size_specification_does_not_resolve_to_a_non-negative_integral_value_"></span><span id="_1040__FATAL_____FILENAME__LINE____IDENTIFIER__IDENTIFIER__IN_SIZE_SPECIFICATION_DOES_NOT_RESOLVE_TO_A_NON-NEGATIVE_INTEGRAL_VALUE_"></span>**<1040,> irrécupérable : " &lt; fileName &gt;<Line \#> : &lt; l’identificateur d’identificateur &gt; dans la spécification de taille n’est pas résolu en une valeur intégrale non négative"**
 </dt> <dd>
 
 Erreur de sémantique de module dans la spécification de la plage ou de la taille, propre à non-SNMPv1 ou SNMPv2C. Tout symbole utilisé pour la spécification d’une valeur dans une spécification de taille correspond à une valeur non négative.

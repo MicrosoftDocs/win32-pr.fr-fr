@@ -3,7 +3,7 @@ title: Structure MCI_SEEK_PARMS (Mciapi. h)
 description: La \_ structure MCI Seek \_ PARMS contient des informations de positionnement pour la \_ commande MCI Seek.
 ms.assetid: 2c199855-2134-4709-9313-5b8d66ce4f03
 keywords:
-- Structure de MCI_SEEK_PARMS Windows multimédia
+- structure MCI_SEEK_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c31f419b2458dedc19c6533e8f0f7fade97026e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 283e0a0f60b4eaf438943628b92bb33974823f6525526c5e5a6cb2e55acb6c94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038249"
 ---
 # <a name="mci_seek_parms-structure"></a>La \_ structure des PARMS de recherche MCI \_
 
@@ -55,7 +55,7 @@ Position à laquelle effectuer la recherche.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

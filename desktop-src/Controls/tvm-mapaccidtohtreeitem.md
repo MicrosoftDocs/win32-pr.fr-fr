@@ -1,9 +1,9 @@
 ---
 title: Message TVM_MAPACCIDTOHTREEITEM (commctrl. h)
-description: Mappe un ID d’accessibilité à un HTREEITEM.
+description: Cartes un ID d’accessibilité à un HTREEITEM.
 ms.assetid: f4feb7cb-2138-4930-b8ee-b9e2d4b19001
 keywords:
-- TVM_MAPACCIDTOHTREEITEM les contrôles de message Windows
+- TVM_MAPACCIDTOHTREEITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b827b18387723fe4792321f7932e1abb3673466e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f6481d8db806156d10536ac0ec7c66fdeb4693a1133365767b4c3dc37ad8420f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120045799"
 ---
 # <a name="tvm_mapaccidtohtreeitem-message"></a>TVM \_ MAPACCIDTOHTREEITEM message
 
-Mappe un ID d’accessibilité à un **HTREEITEM**.
+Cartes un ID d’accessibilité à un **HTREEITEM**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -39,7 +39,7 @@ Mappe un ID d’accessibilité à un **HTREEITEM**.
 
 Retourne le **HTREEITEM** auquel l’ID d’accessibilité spécifié est mappé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous ajoutez un élément à un contrôle Tree-View, un **HTREEITEM** retourne, qui identifie de façon unique l’élément.
 
@@ -54,8 +54,8 @@ Lorsque vous ajoutez un élément à un contrôle Tree-View, un **HTREEITEM** re
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

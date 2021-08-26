@@ -4,12 +4,12 @@ ms.assetid: 077678db-ca5a-423b-9430-93497113d639
 title: Mise en œuvre du contrôle de taux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5fd78cbbb95316a0d4ed12a50c9d3aa8954fe8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a3ff90e7b1748efd4cfcff41244164d1d6a997b6208d3e46afa0cdae9aa6bba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114269"
 ---
 # <a name="implementing-rate-control"></a>Mise en œuvre du contrôle de taux
 
@@ -94,7 +94,7 @@ Les récepteurs multimédias ne doivent pas implémenter [**IMFRateControl**](/w
 [Contrôle de la fréquence](rate-control.md)
 </dt> <dt>
 
-[Recherche, avance rapide et lecture inversée](seeking--fast-forward--and-reverse-play.md)
+[recherche, Avance rapide et la lecture inversée](seeking--fast-forward--and-reverse-play.md)
 </dt> </dl>
 
  

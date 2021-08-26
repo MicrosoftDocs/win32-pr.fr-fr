@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 49df5f2dacc9bfd51f6673823ecc8a0961007c07
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 60421d4278c4817f9b02811369fb7937a5f67aa734c6fae0c0c280d2edcf3d4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068179"
 ---
 # <a name="intrinsic-functions"></a>Fonctions intrinsèques
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**tous les**](dx-graphics-hlsl-all.md)                                                     | Teste si tous les composants de x sont non nuls.                                                                                                                        | 1 ¹                   |
 | [**AllMemoryBarrier**](allmemorybarrier.md)                                            | Bloque l’exécution de tous les threads dans un groupe jusqu’à ce que tous les accès à la mémoire aient été effectués.                                                                       | 5                    |
 | [**AllMemoryBarrierWithGroupSync**](allmemorybarrierwithgroupsync.md)                  | Bloque l’exécution de tous les threads dans un groupe jusqu’à ce que tous les accès à la mémoire aient été effectués et que tous les threads du groupe aient atteint cet appel.                   | 5                    |
-| [**n'importe laquelle**](dx-graphics-hlsl-any.md)                                                     | Teste si un composant de x est différent de zéro.                                                                                                                          | 1 ¹                   |
+| [**aux**](dx-graphics-hlsl-any.md)                                                     | Teste si un composant de x est différent de zéro.                                                                                                                          | 1 ¹                   |
 | [**asdouble**](asdouble.md)                                                            | Réinterprète une valeur de cast en un double.                                                                                                                        | 5                    |
 | [**asfloat**](dx-graphics-hlsl-asfloat.md)                                             | Convertit le type d’entrée en valeur float.                                                                                                                              | 4                    |
 | [**ASIN**](dx-graphics-hlsl-asin.md)                                                   | Retourne l’arc sinus de chaque composant de x.                                                                                                                     | 1 ¹                   |
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**ceil**](dx-graphics-hlsl-ceil.md)                                                   | Retourne le plus petit entier qui est supérieur ou égal à x.                                                                                               | 1 ¹                   |
 | [**CheckAccessFullyMapped**](checkaccessfullymapped.md)                                | Détermine si toutes les valeurs d’un **exemple** ou d’une opération de **chargement** ont accédé à des vignettes mappées dans une [ressource en mosaïque](/windows/desktop/direct3d11/direct3d-11-2-features). | 5                    |
 | [**bride**](dx-graphics-hlsl-clamp.md)                                                 | Fixe x à la plage \[ Min \] . max.                                                                                                                             | 1 ¹                   |
-| [**clip**](dx-graphics-hlsl-clip.md)                                                   | Ignore le pixel actuel, si un composant de x est inférieur à zéro.                                                                                            | 1 ¹                   |
+| [**capture**](dx-graphics-hlsl-clip.md)                                                   | Ignore le pixel actuel, si un composant de x est inférieur à zéro.                                                                                            | 1 ¹                   |
 | [**COS**](dx-graphics-hlsl-cos.md)                                                     | Retourne le cosinus de x.                                                                                                                                        | 1 ¹                   |
 | [**cosh**](dx-graphics-hlsl-cosh.md)                                                   | Retourne le cosinus hyperbolique de x.                                                                                                                             | 1 ¹                   |
 | [**countbits**](countbits.md)                                                          | Compte le nombre de bits (par composant) dans l’entier d’entrée.                                                                                                 | 5                    |
@@ -64,12 +64,12 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**DeviceMemoryBarrierWithGroupSync**](devicememorybarrierwithgroupsync.md)            | Bloque l’exécution de tous les threads dans un groupe jusqu’à ce que tous les accès à la mémoire de l’appareil aient été effectués et que tous les threads du groupe aient atteint cet appel.            | 5                    |
 | [**distance**](dx-graphics-hlsl-distance.md)                                           | Retourne la distance entre deux points.                                                                                                                        | 1 ¹                   |
 | [**cédé**](dx-graphics-hlsl-dot.md)                                                     | Retourne le produit scalaire de deux vecteurs.                                                                                                                         | 1                    |
-| [**destination**](dst.md)                                                                      | Calcule un vecteur de distance.                                                                                                                                   | 5                    |
+| [**dst**](dst.md)                                                                      | Calcule un vecteur de distance.                                                                                                                                   | 5                    |
 | [**errorf**](errorf.md)                                                                | Envoie un message d’erreur à la file d’attente d’informations.                                                                                                              | 4                    |
 | [**EvaluateAttributeAtCentroid**](evaluateattributeatcentroid.md)                      | Évalue au centre de gravité du pixel.                                                                                                                                | 5                    |
 | [**EvaluateAttributeAtSample**](evaluateattributeatsample.md)                          | Évalue à l’emplacement de l’exemple indexé.                                                                                                                       | 5                    |
 | [**EvaluateAttributeSnapped**](evaluateattributesnapped.md)                            | Évalue le centre de gravité des pixels avec un décalage.                                                                                                                 | 5                    |
-| [**exp**](dx-graphics-hlsl-exp.md)                                                     | Retourne l’exposant de base e.                                                                                                                                    | 1 ¹                   |
+| [**venir**](dx-graphics-hlsl-exp.md)                                                     | Retourne l’exposant de base e.                                                                                                                                    | 1 ¹                   |
 | [**EXP2**](dx-graphics-hlsl-exp2.md)                                                   | Exposant de base 2 (par composant).                                                                                                                                | 1 ¹                   |
 | [**f16tof32**](f16tof32.md)                                                            | Convertit le float16 stocké dans la moitié inférieure du uint en un float.                                                                                             | 5                    |
 | [**f32tof16**](f32tof16.md)                                                            | Convertit une entrée en type float16.                                                                                                                          | 5                    |
@@ -110,7 +110,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 | [**min**](dx-graphics-hlsl-min.md)                                                     | Sélectionne le plus petit de x et y.                                                                                                                                  | 1 ¹                   |
 | [**modf,**](dx-graphics-hlsl-modf.md)                                                   | Divise la valeur x en parties fractionnaires et entières.                                                                                                           | 1 ¹                   |
 | [**msad4**](dx-graphics-hlsl-msad4.md)                                                 | Compare une valeur de référence de 4 octets et une valeur source de 8 octets et accumule un vecteur de 4 sommes.                                                                | 5                    |
-| [**mul**](dx-graphics-hlsl-mul.md)                                                     | Effectue une multiplication de matrice à l’aide de x et y.                                                                                                                   | 1                    |
+| [**Mul**](dx-graphics-hlsl-mul.md)                                                     | Effectue une multiplication de matrice à l’aide de x et y.                                                                                                                   | 1                    |
 | [**bruit**](dx-graphics-hlsl-noise.md)                                                 | Génère une valeur aléatoire à l’aide de l’algorithme perl-Noise.                                                                                                      | 1 ¹                   |
 | [**normaliser**](dx-graphics-hlsl-normalize.md)                                         | Retourne un vecteur normalisé.                                                                                                                                    | 1 ¹                   |
 | [**Poe**](dx-graphics-hlsl-pow.md)                                                     | Retourne x<sup>y</sup>.                                                                                                                                          | 1 ¹                   |
@@ -171,7 +171,7 @@ Le tableau suivant répertorie les fonctions intrinsèques disponibles en HLSL. 
 
 
 
- 
+ 
 
 ¹ consultez la page de référence pour connaître les restrictions.
 
@@ -190,7 +190,7 @@ Les déclarations de fonctions intrinsèques HLSL utilisent des types de composa
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -199,6 +199,6 @@ Les déclarations de fonctions intrinsèques HLSL utilisent des types de composa
 [Référence pour le langage HLSL](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

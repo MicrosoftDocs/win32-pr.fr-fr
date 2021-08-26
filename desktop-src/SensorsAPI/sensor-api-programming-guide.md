@@ -4,12 +4,12 @@ ms.assetid: 4c2ffd22-49ee-4318-bfa0-e0ce4d8c67bb
 title: Guide de programmation de l’API de capteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 078cc99e88a1a4fd6a232220e08c53a99dfbdfb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5886564e66a0a8db64713b280b44f85a197430dc23523266bc45e66e44c956b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073239"
 ---
 # <a name="sensor-api-programming-guide"></a>Guide de programmation de l’API de capteur
 
@@ -36,7 +36,7 @@ L’exemple de code dans cette section utilise les en-têtes include supplément
 
 Vous devez également créer un lien vers ces fichiers de bibliothèque associés supplémentaires : propsys. lib et PortableDeviceGuids. lib.
 
-L’exemple de code dans cette section utilise les constantes suivantes pour les catégories de capteurs, les types et les champs de données. Ces constantes sont des valeurs personnalisées définies par l’exemple de pilote TimeSensor dans le kit de pilotes Windows. Notez que, bien que la plateforme de capteur permette de définir et d’utiliser des types personnalisés tels que ceux-là, vous devez utiliser des types définis par la plateforme dans la mesure du possible.
+L’exemple de code dans cette section utilise les constantes suivantes pour les catégories de capteurs, les types et les champs de données. ces constantes sont des valeurs personnalisées définies par l’exemple de pilote TimeSensor dans le Kit de pilotes Windows. Notez que, bien que la plateforme de capteur permette de définir et d’utiliser des types personnalisés tels que ceux-là, vous devez utiliser des types définis par la plateforme dans la mesure du possible.
 
 
 ```C++

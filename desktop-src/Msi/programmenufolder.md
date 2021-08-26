@@ -4,12 +4,12 @@ ms.assetid: b3ccaac2-8376-4c26-b827-73dc69f50f26
 title: Propriété ProgramMenuFolder
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 105eb777fbfd92c541857cf6b65e199c0073aaa2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 668d8185f3a6ce848a19deb6bb20569a83dfdd7a2eea8749dad8c49ddde73e32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074649"
 ---
 # <a name="programmenufolder-property"></a>Propriété ProgramMenuFolder
 
@@ -21,7 +21,7 @@ Le programme d’installation définit la propriété **ProgramMenuFolder** sur 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

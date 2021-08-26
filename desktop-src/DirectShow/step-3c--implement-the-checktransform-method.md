@@ -4,12 +4,12 @@ ms.assetid: e780df46-bf47-4334-b788-05ad8179f051
 title: Étape 3C. Implémenter la méthode CheckTransform
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78148701fc54e73a6970d45fde95d70f4cf0df3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 430ad933acfa7fc41a8b075183080e0b710a5d4780b55fa89cd4bf80984c1edc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075589"
 ---
 # <a name="step-3c-implement-the-checktransform-method"></a>Étape 3C. Implémenter la méthode CheckTransform
 
@@ -112,7 +112,7 @@ Suivant : [étape 4. Définissez les propriétés de l’allocateur](step-4--se
 [Rectangles source et cible dans les convertisseurs vidéo](source-and-target-rectangles-in-video-renderers.md)
 </dt> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

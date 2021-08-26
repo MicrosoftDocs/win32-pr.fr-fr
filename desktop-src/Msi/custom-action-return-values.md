@@ -4,12 +4,12 @@ ms.assetid: 56c2d639-eef8-47cd-9d47-9a4781b9be36
 title: Valeurs de retour de l’action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c01ba6273aea6cf950edb56ef3c2a94ab9a272d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3853cfeafba22cb2d479feb1e699c29bcf4b0ab7a08402245f30958cb593df6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044999"
 ---
 # <a name="custom-action-return-values"></a>Valeurs de retour de l’action personnalisée
 
@@ -33,7 +33,7 @@ Notez que les actions personnalisées qui sont des [fichiers exécutables](execu
 
 Pour plus d’informations sur l’option **msidbCustomActionTypeContinue** et d’autres options de traitement des retours, consultez [options de traitement des retours d’actions personnalisées](custom-action-return-processing-options.md).
 
-Notez que Windows Installer traduit les valeurs de retour de toutes les actions lorsqu’il écrit la valeur de retour dans le fichier journal. Par exemple, si la valeur de retour de l’action apparaît comme 1 dans le fichier journal, cela signifie que l’action a retourné une erreur de \_ réussite. Pour plus d’informations sur cette traduction, consultez [journalisation des valeurs de retour d’action](logging-of-action-return-values.md).
+notez que Windows Installer traduit les valeurs de retour de toutes les actions lorsqu’il écrit la valeur de retour dans le fichier journal. Par exemple, si la valeur de retour de l’action apparaît comme 1 dans le fichier journal, cela signifie que l’action a retourné une erreur de \_ réussite. Pour plus d’informations sur cette traduction, consultez [journalisation des valeurs de retour d’action](logging-of-action-return-values.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

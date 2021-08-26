@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 338308b58f1cdc68ec78984e65ffbf056a36b10b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 584cde8856c48aeafed5665016a71146f8c2ffb341b837faa6bf35d627152c39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068319"
 ---
 # <a name="ifdef-and-ifndef-directives"></a>\#Directives ifdef et \# ifndef
 
@@ -48,7 +48,7 @@ Directives de préprocesseur qui déterminent si une constante ou une macro de p
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser les \# directives ifdef et \# ifndef partout où peut [ \# ](dx-graphics-hlsl-appendix-pre-if.md) être utilisé. L' \# instruction ifdef est équivalente à la directive. Ces directives vérifient uniquement la présence ou l’absence d’identificateurs définis à l’aide de la directive [ \# define](dx-graphics-hlsl-appendix-pre-define.md) , et non des identificateurs déclarés dans le code source C ou C++.
 

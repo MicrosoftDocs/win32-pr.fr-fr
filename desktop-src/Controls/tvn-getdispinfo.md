@@ -3,7 +3,7 @@ title: TVN_GETDISPINFO le code de notification (commctrl. h)
 description: Demande qu’une fenêtre parente d’un contrôle Tree-View fournisse les informations nécessaires pour afficher ou trier un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 2dfe41d8-1164-481b-ac07-8faba43c562a
 keywords:
-- Contrôles Windows de code de notification TVN_GETDISPINFO
+- TVN_GETDISPINFO les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a09bcc683ba9cf2d89a796e63812381254588a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 59728c816ee3fe7dac46c12d7e62da6c18cfdad8387f03d3861e63792d9c8f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059909"
 ---
 # <a name="tvn_getdispinfo-notification-code"></a>\_Code de notification TVN GETDISPINFO
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification est envoyé dans les circonstances suivantes :
 
@@ -65,8 +65,8 @@ Ce code de notification est envoyé dans les circonstances suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ GETDISPINFOW** (Unicode) et **TVN \_ GETDISPINFOA** (ANSI)<br/>           |
 

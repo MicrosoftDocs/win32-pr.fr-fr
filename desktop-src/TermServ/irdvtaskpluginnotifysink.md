@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0dadaf387fcf6e8381404440e0d31dd210b9f8a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88692175fedbad4faf5b2755ce92897cff25fe9d588e6fb446d8174407aa6b5e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072389"
 ---
 # <a name="irdvtaskpluginnotifysink-interface"></a>Interface IRDVTaskPluginNotifySink
 
@@ -49,9 +49,9 @@ L’interface **IRDVTaskPluginNotifySink** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Bien que cette interface soit prise en charge sur les systèmes d’exploitation identifiés dans la configuration requise ci-dessous, elle n’est utilisée que si la machine virtuelle est hébergée sur Windows Server 2012.
+Bien que cette interface soit prise en charge sur les systèmes d’exploitation identifiés dans la configuration requise ci-dessous, elle est utilisée uniquement si la machine virtuelle est hébergée sur Windows Server 2012.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -59,7 +59,7 @@ Bien que cette interface soit prise en charge sur les systèmes d’exploitation
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

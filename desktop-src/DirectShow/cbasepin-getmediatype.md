@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 186f2eddbedf4eb0565a4ca66ff4ed7e5b080090
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cc202c3b6dbc570d063ef74619b266c2faa20cb74322b29e61626418412e2cb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044079"
 ---
 # <a name="cbasepingetmediatype-method"></a>Méthode CBasePin. GetMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -74,7 +74,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Dans la liste des types de média préférés du pin, cette méthode retourne le type avec une valeur d’index de *iPosition*. La classe [**CEnumMediaTypes**](cenummediatypes.md) appelle cette méthode pour énumérer les types de média préférés.
 
@@ -86,7 +86,7 @@ La classe de base retourne E \_ inattendue. Substituez cette méthode dans votre
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

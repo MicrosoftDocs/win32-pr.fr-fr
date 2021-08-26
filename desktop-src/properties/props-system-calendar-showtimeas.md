@@ -4,12 +4,12 @@ ms.assetid: ce2a1ab8-2937-446e-ac84-313649a4134d
 title: System. Calendar. ShowTimeAs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a5766f459e0280a7c9397b513115c0f0ae9e94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60d433a88a05f0f0b28568304dce92435f7bc75973a62751eb6163697ea0619c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059839"
 ---
 # <a name="systemcalendarshowtimeas"></a>System. Calendar. ShowTimeAs
 
@@ -86,7 +86,7 @@ propertyDescription
             mnemonics = Out of Office
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
