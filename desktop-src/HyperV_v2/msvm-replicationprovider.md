@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8cc821b6bdd5d6f5d1c1085a804799c662f9d62e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b64ec1462d9d3cb487cac807891d57c219de7f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865521"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885696"
 ---
 # <a name="msvm_replicationprovider-class"></a>MSVM \_ ReplicationProvider, classe
 
@@ -121,7 +121,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **clé**, **MaxLen** (256)
 </dt> </dl>
 
-L’ID d’instance WMI, qui identifie le fournisseur. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). Le format de cette propriété est « Microsoft : <Host-machine-name>\\ ReplicationProvider \\<Provider-Name> ».
+L’ID d’instance WMI, qui identifie le fournisseur. Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement). Le format de cette propriété est « Microsoft : &lt; Host-machine-name &gt; \\ ReplicationProvider \\ &lt; Provider-Name &gt; ».
 
 </dd> <dt>
 
@@ -163,18 +163,18 @@ Type d'accès : Lecture seule
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser n’importe quel fournisseur disponible et la classe [**MSVM \_ ReplicationRelationship**](msvm-replicationrelationship.md) pour activer une relation de réplication. Par défaut, Hyper-V choisit l’hôte intégré au fournisseur hôte, qui peut être modifié lors de la création de la réplication. Le service de gestion Hyper-V communique avec un fournisseur externe à l’aide de COM.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

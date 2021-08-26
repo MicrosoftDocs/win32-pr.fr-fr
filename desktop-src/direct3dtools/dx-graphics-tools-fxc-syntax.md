@@ -6,12 +6,12 @@ keywords:
 - fxc, syntaxe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6241a728b4835b11d10ea6e39d67fd73a8576cd7
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: f9cae0305a8fdca5c9fd419cf610b0ebbb547331
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106511104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880767"
 ---
 # <a name="syntax"></a>Syntaxe
 
@@ -24,7 +24,7 @@ Voici la syntaxe d’appel de FXC.exe, l’outil Effect-compiler. Pour obtenir u
 -   [Notes de version](#version-notes)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 **fxc** *SwitchOptions* *nom de fichier*
 
@@ -63,7 +63,7 @@ Décompressez le bytecode de nuanceur facilement à partir du premier fichier. L
 ##### <a name="dumpbin"></a>/dumpbin
 Charge un fichier binaire au lieu de compiler un nuanceur.
 
-##### <a name="e-name"></a>/E <name>
+##### <a name="e-ltnamegt"></a>/E &lt; nom&gt;
 Point d’entrée du nuanceur. Si aucun point d’entrée n’est spécifié, **main** est considéré comme le nom de l’entrée du nuanceur.
 
 ##### <a name="enable_unbounded_descriptor_tables"></a>/enable_unbounded_descriptor_tables
@@ -239,7 +239,7 @@ Compresser les matrices dans l’ordre ligne-principal.
 
 \[dans \] les fichiers qui contiennent le ou les nuanceurs et/ou les effets.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez les `/mergeUAVs` `/matchUAVs` options, et `/shtemplate` pour aligner les emplacements de liaison UAV pour une chaîne de nuanceurs.
 

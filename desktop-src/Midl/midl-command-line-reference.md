@@ -7,12 +7,12 @@ keywords:
 - Référence de ligne de commande MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1569e29daf8a2976379576a5f1671f5117e7990c
-ms.sourcegitcommit: 9cf1ed65dfbea1ba118b63d0656f30c3685d8520
+ms.openlocfilehash: df927ded3f1a46045437fe1f9e72e2c7f80dd17d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887347"
 ---
 # <a name="midl-command-line-reference"></a>Référence de Command-Line MIDL
 
@@ -83,7 +83,7 @@ Cette section contient des informations de référence pour chaque commutateur d
 [**/savePP**](-savepp.md)  
 [**/sstub**](-sstub.md)  
 [**vérification de/Syntax \_**](-syntax-check.md)  
-[**/<system>**](-system-.md)  
+[**/&lt;requise&gt;**](-system-.md)  
 [**/Target**](-target.md)  
 [**/TLB**](-tlb.md)  
 [**/U.**](-u.md)  

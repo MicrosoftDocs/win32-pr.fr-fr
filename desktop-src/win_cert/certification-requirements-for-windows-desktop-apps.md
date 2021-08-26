@@ -1,6 +1,6 @@
 ---
 title: Critères de certification pour les applications de bureau
-description: La version de document 10Document date du 29 juillet, le document 2015This contient les spécifications techniques et les qualifications d’éligibilité qu’une application de bureau doit respecter pour participer au programme de certification des applications de bureau Windows 10.
+description: la version de document 10Document date du 29 juillet, le document 2015This contient les spécifications techniques et les qualifications d’éligibilité qu’une application de bureau doit respecter pour participer au programme de Certification des applications de bureau Windows 10.
 ms.assetid: 0F19774E-5258-4152-BBD7-9C37A05C7F69
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ab03c15c6e72e4854ecf64d067d268c3ca4c775f
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4e78de8aef47479cdeb286b3c179a9a3c0520af4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444170"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879690"
 ---
 # <a name="certification-requirements-for-windows-desktop-apps"></a>Conditions de certification des applications de bureau Windows
 
@@ -22,46 +22,46 @@ ms.locfileid: "111444170"
 
 **Date du document :** 29 juillet 2015
 
-Ce document contient les spécifications techniques et les qualifications d’éligibilité qu’une application de bureau doit respecter pour participer au programme de certification des applications de bureau Windows 10.
+ce document contient les spécifications techniques et les qualifications d’éligibilité qu’une application de bureau doit respecter pour participer au programme de Certification des applications de bureau Windows 10.
 
 ## <a name="welcome"></a>Bienvenue !
 
-La plate-forme Windows prend en charge un vaste écosystème de produits et de partenaires. L’affichage du logo Windows sur votre produit représente une relation et un engagement partagé pour la qualité entre Microsoft et votre entreprise. Les clients font confiance à la Windows sur votre produit, car ils garantissent qu’ils respectent les normes de compatibilité et qu’ils s’exécutent correctement sur la plateforme Windows. La réussite de la transmission de la certification des applications Windows permet à votre application d’être présentée dans le centre de compatibilité Windows. vous pouvez également afficher le logo de certification sur votre site.
+la plateforme Windows prend en charge un vaste écosystème de produits et de partenaires. l’affichage du logo de Windows sur votre produit représente une relation et un engagement partagé pour la qualité entre Microsoft et votre entreprise. les clients font confiance à la Windows de votre produit, car ils garantissent qu’ils respectent les normes de compatibilité et qu’ils s’exécutent correctement sur la plateforme Windows. la réussite de la réussite de la certification d’application Windows permet à votre application d’être présentée dans le centre de compatibilité Windows et vous pouvez afficher le logo de Certification sur votre site.
 
-Le programme de certification des applications Windows est constitué de spécifications techniques et de programme pour garantir que les applications tierces qui transportent la personnalisation de Windows sont à la fois faciles à installer et fiables sur les PC exécutant Windows. Les clients ont une valeur de stabilité, de compatibilité, de fiabilité, de performances et de qualité dans les systèmes qu’ils achètent. Microsoft met l’accent sur ses investissements pour répondre à ces exigences en matière d’applications logicielles conçues pour s’exécuter sur la plate-forme Windows pour PC. Ces efforts incluent des tests de compatibilité pour assurer la cohérence de l’expérience, améliorer les performances et renforcer la sécurité sur les PC exécutant des logiciels Windows. Les tests de compatibilité de Microsoft ont été conçus en collaboration avec les partenaires de l’industrie et sont continuellement améliorés en réponse aux développements du secteur et à la demande des consommateurs.
+le programme de Certification des applications Windows est constitué de spécifications techniques et de programme pour garantir que les applications tierces qui enportent la Windows de la personnalisation sont à la fois faciles à installer et fiables sur les pc exécutant Windows. Les clients ont une valeur de stabilité, de compatibilité, de fiabilité, de performances et de qualité dans les systèmes qu’ils achètent. Microsoft met l’accent sur ses investissements pour répondre à ces exigences en matière d’applications logicielles conçues pour s’exécuter sur la plateforme Windows pour les pc. ces efforts incluent des tests de compatibilité pour assurer la cohérence de l’expérience, améliorer les performances et renforcer la sécurité sur les pc exécutant Windows logiciel. Les tests de compatibilité de Microsoft ont été conçus en collaboration avec les partenaires de l’industrie et sont continuellement améliorés en réponse aux développements du secteur et à la demande des consommateurs.
 
-Le kit de certification des applications Windows est utilisé pour valider la conformité avec ces exigences et remplace les versions précédentes du kit utilisées pour valider sur Windows 7, Windows 8 ou Windows 8.1. Le kit de certification des applications Windows est l’un des composants inclus dans le kit de développement logiciel (SDK) Windows pour Windows 10.
+le kit de Certification des applications Windows est utilisé pour valider la conformité avec ces exigences et remplace les versions précédentes du kit utilisées pour valider sur Windows 7, Windows 8 ou Windows 8.1. le kit de Certification des applications Windows est l’un des composants inclus dans le kit de développement logiciel (SDK) Windows pour Windows 10.
 
 ## <a name="app-eligibility"></a>Éligibilité de l’application
 
-Pour qu’une application qualifie la certification des applications de bureau Windows 10, elle doit répondre aux critères suivants et à toutes les exigences techniques répertoriées dans ce document.
+pour qu’une application soit éligible pour la Certification Windows 10 des applications de bureau, elle doit répondre aux critères suivants et à toutes les exigences techniques répertoriées dans ce document.
 
 -   Il doit s’agir d’une application autonome
--   Il doit s’exécuter sur un PC Windows 10 local
--   Il peut s’agir d’un composant client d’une application Windows Server certifiée
+-   il doit s’exécuter sur un PC Windows 10 local
+-   il peut s’agir d’un composant client d’une application Windows Server certifiée
 -   Le code et la fonctionnalité doivent être terminés
--   Il ne doit pas communiquer avec les applications du Windows Store via des mécanismes locaux, y compris via des fichiers et des clés de Registre, sauf dans les scénarios d’entreprise pris en charge.
--   Elle ne doit pas compromettre ni compromettre la sécurité ou la fonctionnalité du système Windows
+-   il ne doit pas communiquer avec les applications Windows store via des mécanismes locaux, y compris via des fichiers et des clés de registre, sauf dans les scénarios d’entreprise pris en charge.
+-   elle ne doit pas compromettre ni compromettre la sécurité ou la fonctionnalité du système Windows
 -   Elle doit avoir un nom unique et ne doit pas être déposée par d’autres
--   Tous les composants externes doivent être certifiés séparément ou être conformes au kit de certification des applications Windows
+-   tous les composants externes doivent être certifiés séparément ou conformes au Kit de Certification des applications Windows
 -   Elle doit avoir une option de désactivation pour toutes les applications regroupées
 
-Si l’application de bureau est soumise à la catégorie antivirus et/ou anti-logiciels espions (c.-à-d., des produits anti-programme malveillant), elle doit respecter les instructions de la plate-forme anti-programme malveillant. La licence de l’API logiciel anti-programme malveillant de WINDOWS 10 doit avoir été signée et en vigueur avant l’envoi. Le partenaire doit être membre de, ou avoir des chercheurs qui sont membres de et en bonne position dans une des organisations répertoriées dans le contrat. Les fonctionnalités doivent être certifiées sur Windows 10 par l’une des organisations répertoriées dans le contrat. L’application doit avoir été testée au moins une fois au cours des 12 derniers mois, et certifiée pour la détection et le nettoyage.
+Si l’application de bureau est soumise à la catégorie antivirus et/ou anti-logiciels espions (c.-à-d., des produits anti-programme malveillant), elle doit respecter les instructions de la plate-forme anti-programme malveillant. La licence de l’API logiciel anti-programme malveillant de WINDOWS 10 doit avoir été signée et en vigueur avant l’envoi. Le partenaire doit être membre de, ou avoir des chercheurs qui sont membres de et en bonne position dans une des organisations répertoriées dans le contrat. la fonctionnalité doit être certifiée sur Windows 10 par une des organisations répertoriées dans le contrat. L’application doit avoir été testée au moins une fois au cours des 12 derniers mois, et certifiée pour la détection et le nettoyage.
 
 ## <a name="1-apps-are-compatible-and-resilient"></a>1. les applications sont compatibles et résilientes
 
-Les moments où une application se bloque ou cessent de répondre entraînent une frustration importante pour l’utilisateur. Les applications sont censées être résilientes et stables, ce qui permet de s’assurer que les logiciels sont plus prévisibles, gérables, performants et dignes de confiance.<dl> 1,1 votre application ne doit pas dépendre des modes de compatibilité Windows, du message AppHelp et ou de tout autre correctif de compatibilité  
+Les moments où une application se bloque ou cessent de répondre entraînent une frustration importante pour l’utilisateur. Les applications sont censées être résilientes et stables, ce qui permet de s’assurer que les logiciels sont plus prévisibles, gérables, performants et dignes de confiance.<dl> 1,1 votre application ne doit pas dépendre de Windows modes de compatibilité, du message AppHelp et ou de tout autre correctif de compatibilité  
 1,2 votre application doit avoir un manifeste de compatibilité et utiliser les GUID appropriés pour les versions prises en charge de Windows  
 1,3 votre application doit prendre en charge DPI en utilisant le manifeste de l’assembly de l’application plutôt que d’appeler SetProcessDPIAware  
 1,4 votre application ne doit pas dépendre du runtime VB6  
-1,5 votre application ne doit pas charger de dll arbitraires pour intercepter les appels d’API Win32 à l’aide de HKLM \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Windows AppInit \_ dll.  
+1,5 votre application ne doit pas charger de dll arbitraires pour intercepter les appels d’API Win32 à l’aide des \\ dll HKLM Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Windows AppInit \_ .  
 </dl>
 
-## <a name="2-apps-must-adhere-to-windows-security-best-practices"></a>2. les applications doivent respecter les meilleures pratiques en matière de sécurité Windows
+## <a name="2-apps-must-adhere-to-windows-security-best-practices"></a>2. les applications doivent respecter les meilleures pratiques en matière de sécurité de Windows
 
-L’utilisation des meilleures pratiques de sécurité Windows permet d’éviter de créer une exposition aux surfaces d’attaque Windows. Les surfaces d’attaque sont les points d’entrée qu’un attaquant malveillants pourrait utiliser pour exploiter le système d’exploitation en tirant parti des vulnérabilités dans le logiciel cible. L’élévation de privilèges constitue l’une des pires failles de sécurité.
+l’utilisation des meilleures pratiques de sécurité de Windows permet d’éviter la création d’expositions à des surfaces d’attaque Windows. Les surfaces d’attaque sont les points d’entrée qu’un attaquant malveillants pourrait utiliser pour exploiter le système d’exploitation en tirant parti des vulnérabilités dans le logiciel cible. L’élévation de privilèges constitue l’une des pires failles de sécurité.
 
-Notez que les tests 2,1 2,6 s’appliquent uniquement aux applications de bureau testées sur Windows 7, Windows 8 ou Windows 8.1.<dl> 2,1 votre application doit utiliser des [listes](/windows/desktop/SecAuthZ/access-control-lists) de contrôle d’accès fortes et appropriées pour sécuriser les fichiers exécutables  
+notez que les tests 2,1 2,6 s’appliquent uniquement aux applications de bureau testées sur Windows 7, Windows 8 ou Windows 8.1.<dl> 2,1 votre application doit utiliser des [listes](/windows/desktop/SecAuthZ/access-control-lists) de contrôle d’accès fortes et appropriées pour sécuriser les fichiers exécutables  
 2,2 votre application doit utiliser des [listes](/windows/desktop/SecAuthZ/access-control-lists) de contrôle d’accès fortes et appropriées pour sécuriser les répertoires  
 2,3 votre application doit utiliser des [listes](/windows/desktop/SecAuthZ/access-control-lists) de contrôle d’accès fortes et appropriées pour sécuriser les clés de Registre  
 2,4 votre application doit utiliser des [listes](/windows/desktop/SecAuthZ/access-control-lists) de contrôle d’accès fortes et appropriées pour sécuriser les répertoires qui contiennent des objets  
@@ -71,11 +71,11 @@ Notez que les tests 2,1 2,6 s’appliquent uniquement aux applications de bureau
 
 **Remarque : l’accès doit être accordé uniquement aux entités qui l’exigent.**
 
-Le programme de certification des applications Windows vérifie que les surfaces d’attaque de Windows ne sont pas exposées en vérifiant que les listes de contrôle d’accès et les services sont implémentés de manière à ne pas mettre le système Windows en péril.
+le programme de Certification des applications Windows vérifie que les Surfaces d’attaque Windows ne sont pas exposées en vérifiant que les listes de contrôle d’accès et les Services sont implémentés de manière à ne pas mettre le système Windows en péril.
 
 ## <a name="3-apps-support-windows-security-features"></a>3. les applications prennent en charge les fonctionnalités de sécurité Windows
 
-Le système d’exploitation Windows possède de nombreuses fonctionnalités qui prennent en charge la sécurité et la confidentialité du système. Les applications doivent prendre en charge ces fonctionnalités pour maintenir l’intégrité du système d’exploitation. Des applications mal compilées peuvent entraîner des dépassements de mémoire tampon qui peuvent, à leur tour, provoquer un déni de service ou permettre l’exécution de code malveillant. <dl> 3,1 votre application ne doit pas utiliser AllowPartiallyTrustedCallersAttribute (APTCA) pour garantir un accès sécurisé aux assemblys avec nom fort  
+le système d’exploitation Windows possède de nombreuses fonctionnalités qui prennent en charge la sécurité et la confidentialité du système. Les applications doivent prendre en charge ces fonctionnalités pour maintenir l’intégrité du système d’exploitation. Des applications mal compilées peuvent entraîner des dépassements de mémoire tampon qui peuvent, à leur tour, provoquer un déni de service ou permettre l’exécution de code malveillant. <dl> 3,1 votre application ne doit pas utiliser AllowPartiallyTrustedCallersAttribute (APTCA) pour garantir un accès sécurisé aux assemblys avec nom fort  
 3,2 votre application doit être compilée à l’aide de l’indicateur/SafeSEH pour garantir la gestion sécurisée des exceptions  
 3,3 votre application doit être compilée à l’aide de l’indicateur/NXCOMPAT pour empêcher l’exécution des données  
 3,4 votre application doit être compilée à l’aide de l’indicateur/DYNAMICBASE pour la randomisation du format d’espace d’adresse (ASLR)  
@@ -100,7 +100,7 @@ Une installation propre et réversible permet aux utilisateurs de gérer avec su
 </dl> </dd> 5.2 Your app must never force the user to restart the computer immediately <dl> Le redémarrage de l’ordinateur ne doit jamais être la seule option à la fin de l’installation, de la désinstallation ou de la mise à jour. Les utilisateurs doivent avoir la possibilité de redémarrer ultérieurement.  
 </dl> </dd> 5.3 Your app must never be dependent on 8.3 short file names (SFN)  
 5.4 Your app must never block silent install/uninstall  
-5.5 Your app installer must create the correct registry entries to allow successful detection and uninstalls <dl> Les outils d’inventaire Windows et les outils de télémétrie requièrent des informations complètes sur les applications installées. Si vous utilisez un programme d’installation MSI, MSI crée automatiquement les entrées de Registre ci-dessous. Si vous n’utilisez pas un programme d’installation MSI, le module d’installation doit créer les entrées de Registre suivantes au cours de l’installation :  
+5.5 Your app installer must create the correct registry entries to allow successful detection and uninstalls <dl> Windows outils d’inventaire et les outils de télémétrie requièrent des informations complètes sur les applications installées. Si vous utilisez un programme d’installation MSI, MSI crée automatiquement les entrées de Registre ci-dessous. Si vous n’utilisez pas un programme d’installation MSI, le module d’installation doit créer les entrées de Registre suivantes au cours de l’installation :  
 </dl>
 
 -   DisplayName
@@ -115,17 +115,17 @@ Une installation propre et réversible permet aux utilisateurs de gérer avec su
 
 ## <a name="6-apps-must-digitally-sign-files-and-drivers"></a>6. les applications doivent signer numériquement les fichiers et les pilotes
 
-Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. L’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement. <dl> 6,1 tous les fichiers exécutables (.exe, .dll,. ocx, .sys, .cpl,. drv,. SCR) doivent être signés avec un certificat Authenticode  
-6,2 tous les pilotes en mode noyau installés par l’application doivent avoir une signature Microsoft obtenue par le biais du programme de certification matérielle Windows. Tous les pilotes de filtre de système de fichiers doivent être signés par Microsoft.  
+Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. l’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement. <dl> 6,1 tous les fichiers exécutables (.exe, .dll,. ocx, .sys, .cpl,. drv,. SCR) doivent être signés avec un certificat Authenticode  
+6,2 tous les pilotes en mode noyau installés par l’application doivent avoir une signature Microsoft obtenue par le biais du programme de Certification du matériel Windows. Tous les pilotes de filtre de système de fichiers doivent être signés par Microsoft.  
 6,3 exceptions et dérogations <dl> Les dérogations seront uniquement prises en compte pour les fichiers redistribuables tiers non signés, à l’exception des pilotes. Une preuve de communication demandant une version signée du ou des redistribuables est nécessaire pour que cette renonciation soit accordée.  
 </dl> </dd> </dl>
 
 ## <a name="7-apps-dont-block-installation-or-app-launch-based-on-an-operating-system-version-check"></a>7. les applications ne bloquent pas l’installation ou le lancement d’applications en fonction de la vérification de la version du système d’exploitation
 
-Il est important que les clients ne soient pas bloqués de façon artificielle contre l’installation ou l’exécution de leur application lorsqu’il n’existe aucune limitation technique. En général, si des applications ont été écrites pour Windows Vista ou des versions ultérieures de Windows, elles ne devraient pas avoir à vérifier la version du système d’exploitation.<dl> 7,1 votre application ne doit pas vérifier l’égalité de la version <dl> Si vous avez besoin d’une fonctionnalité spécifique, vérifiez si la fonctionnalité elle-même est disponible. Si vous avez besoin de Windows 7, recherchez Windows 7 ou version ultérieure (>= 6,2). De cette façon, votre code de détection continuera à fonctionner sur les futures versions de Windows. Les modules d’installation et de désinstallation de pilotes ne doivent jamais vérifier la version du système d’exploitation.  
+Il est important que les clients ne soient pas bloqués de façon artificielle contre l’installation ou l’exécution de leur application lorsqu’il n’existe aucune limitation technique. en général, si les applications ont été écrites pour Windows Vista ou les versions ultérieures de Windows, elles ne doivent pas avoir à vérifier la version du système d’exploitation.<dl> 7,1 votre application ne doit pas vérifier l’égalité de la version <dl> Si vous avez besoin d’une fonctionnalité spécifique, vérifiez si la fonctionnalité elle-même est disponible. si vous avez besoin de Windows 7, recherchez Windows 7 ou version ultérieure (>= 6,2). De cette façon, votre code de détection continuera à fonctionner sur les futures versions de Windows. Les modules d’installation et de désinstallation de pilotes ne doivent jamais vérifier la version du système d’exploitation.  
 </dl> </dd> 7.2 Exceptions and Waivers will be considered for apps meeting the criteria below:
 
--   Les applications qui sont remises sous la forme d’un package qui s’exécute également sur Windows 7, Windows 8 et Windows 8.1, et qui doivent vérifier la version du système d’exploitation pour déterminer les composants à installer sur un système d’exploitation donné.
+-   applications qui sont remises sous la forme d’un package qui s’exécute également sur Windows 7, Windows 8 et Windows 8.1, et qui doivent vérifier la version du système d’exploitation pour déterminer les composants à installer sur un système d’exploitation donné.
 -   Applications qui vérifient uniquement la version minimale du système d’exploitation (uniquement lors de l’installation, pas au moment de l’exécution) en utilisant uniquement les appels d’API approuvés et qui répertorient correctement la version minimale requise dans le manifeste de l’application.
 -   Les applications de sécurité (antivirus, pare-feu, etc.), les utilitaires système (par exemple, Defrag, les sauvegardes et les outils de diagnostic) qui vérifient la version du système d’exploitation en utilisant uniquement les appels d’API approuvés.
 
@@ -134,7 +134,7 @@ Il est important que les clients ne soient pas bloqués de façon artificielle c
 
 ## <a name="8-apps-dont-load-services-or-drivers-in-safe-mode"></a>8. les applications ne chargent pas les services ou les pilotes en mode sans échec
 
-Le mode sans échec permet aux utilisateurs de diagnostiquer et de dépanner Windows. Les pilotes et les services ne doivent pas être configurés pour être chargés en mode sans échec, sauf s’ils sont nécessaires pour les opérations système de base, telles que les pilotes de périphériques de stockage ou à des fins de diagnostic et de récupération, telles que les scanneurs antivirus,. Par défaut, lorsque Windows est en mode sans échec, il démarre uniquement les pilotes et les services qui ont été préinstallés avec Windows.
+Coffre mode permet aux utilisateurs de diagnostiquer et de dépanner Windows. Les pilotes et les services ne doivent pas être configurés pour être chargés en mode sans échec, sauf s’ils sont nécessaires pour les opérations système de base, telles que les pilotes de périphériques de stockage ou à des fins de diagnostic et de récupération, telles que les scanneurs antivirus,. Par défaut, lorsque Windows est en mode sans échec, il démarre uniquement les pilotes et les services qui ont été préinstallés avec Windows.
 
 -   8,1 exceptions et dérogations <dl> Les pilotes et les services qui doivent être démarrés en mode sans échec nécessitent une dérogation. La demande de renonciation doit inclure l’écriture du pilote ou du service applicable dans les clés de Registre SafeBoot, et décrire les raisons techniques pour lesquelles l’application ou le service doit s’exécuter en mode sans échec. Le programme d’installation de l’application doit inscrire tous les pilotes et services de ce type à l’aide des clés de Registre suivantes :  
     </dl>
@@ -145,7 +145,7 @@ Le mode sans échec permet aux utilisateurs de diagnostiquer et de dépanner Win
 
 ## <a name="9-apps-must-follow-user-account-control-guidelines"></a>9. les applications doivent suivre les instructions relatives au contrôle de compte d’utilisateur
 
-Certaines applications Windows s’exécutent dans le contexte de sécurité d’un compte d’administrateur, et les applications demandent souvent des droits d’utilisateur et des privilèges Windows excessifs. Le contrôle de l’accès aux ressources permet aux utilisateurs de contrôler leurs systèmes et de les protéger contre les modifications indésirables. Une modification indésirable peut être malveillante, telle qu’un rootkit qui contrôle l’ordinateur, ou être le résultat d’une action effectuée par des personnes disposant de privilèges limités. La règle la plus importante pour contrôler l’accès aux ressources consiste à fournir le contexte utilisateur standard d’accès minimal nécessaire à l’utilisateur pour effectuer ses tâches nécessaires. Les instructions de contrôle de compte d’utilisateur (UAC) suivantes fournissent aux applications les autorisations nécessaires lorsqu’elles sont nécessaires à l’application, sans laisser le système constamment exposé aux risques de sécurité. La plupart des applications ne requièrent pas de privilèges d’administrateur au moment de l’exécution et doivent s’exécuter parfaitement en tant qu’utilisateur standard.<dl> 9,1 votre application doit avoir un manifeste qui définit les niveaux d’exécution et indique au système d’exploitation les privilèges requis par l’application pour s’exécuter <dl> Le marquage du manifeste de l’application s’applique uniquement aux fichiers exe, pas aux dll. Cela est dû au fait que le contrôle de compte d’utilisateur n’examine pas les dll pendant la création du processus. Il est également intéressant de noter que les règles de contrôle de compte d’utilisateur ne s’appliquent pas aux services Microsoft. Le manifeste peut être incorporé ou externe.  
+certaines applications Windows s’exécutent dans le contexte de sécurité d’un compte d’administrateur, et les applications demandent souvent des droits d’utilisateur et des privilèges de Windows excessifs. Le contrôle de l’accès aux ressources permet aux utilisateurs de contrôler leurs systèmes et de les protéger contre les modifications indésirables. Une modification indésirable peut être malveillante, telle qu’un rootkit qui contrôle l’ordinateur, ou être le résultat d’une action effectuée par des personnes disposant de privilèges limités. La règle la plus importante pour contrôler l’accès aux ressources consiste à fournir le contexte utilisateur standard d’accès minimal nécessaire à l’utilisateur pour effectuer ses tâches nécessaires. Les instructions de contrôle de compte d’utilisateur (UAC) suivantes fournissent aux applications les autorisations nécessaires lorsqu’elles sont nécessaires à l’application, sans laisser le système constamment exposé aux risques de sécurité. La plupart des applications ne requièrent pas de privilèges d’administrateur au moment de l’exécution et doivent s’exécuter parfaitement en tant qu’utilisateur standard.<dl> 9,1 votre application doit avoir un manifeste qui définit les niveaux d’exécution et indique au système d’exploitation les privilèges requis par l’application pour s’exécuter <dl> Le marquage du manifeste de l’application s’applique uniquement aux fichiers exe, pas aux dll. Cela est dû au fait que le contrôle de compte d’utilisateur n’examine pas les dll pendant la création du processus. il est également intéressant de noter que les règles de contrôle de compte d’utilisateur ne s’appliquent pas à services Microsoft. Le manifeste peut être incorporé ou externe.  
 Pour créer un manifeste, créez un fichier portant le nom <nom de l’application \_ # C1.exe. manifest et stockez-le dans le même répertoire que l’exécutable. Notez que tout manifeste externe est ignoré si l’application a un manifeste interne. Par exemple :  
 <requestedExecutionLevel Level = "" asInvoker \| highestAvailable \| requireAdministrator "" UIAccess = "" true \| false ""/>  
 </dl> </dd> 9.2 Your app s main process must be run as a standard user (asInvoker). <dl> Toutes les fonctionnalités d’administration doivent être déplacées dans un processus distinct qui s’exécute avec des privilèges d’administrateur. Les applications accessibles à l’utilisateur, telles que celles qui sont accessibles par le biais du groupe de programmes dans le menu Démarrer, et qui requièrent une élévation doivent être signées avec Authenticode.  
@@ -163,20 +163,20 @@ Les utilisateurs doivent disposer d’une expérience cohérente et sécurisée 
 </dl> </dd> 10.2 Your app must avoid starting automatically on startup <dl> Par exemple, votre application ne doit pas définir les éléments suivants :  
 </dl>
 
--   Clés d’exécution de Registre HKLM et, ou HKCU sous Software \\ Microsoft \\ Windows \\ CurrentVersion
+-   clés d’exécution de registre HKLM et, ou HKCU sous Software \\ Microsoft \\ Windows \\ CurrentVersion
 -   Clés d’exécution de Registre HKLM et/ou HKCU sous Software \\ Wow6432Node \\ Microsoft \\ Windows \\ CurrentVersion
 -   Menu Démarrer AllPrograms > démarrage
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
-10,5 votre application ne doit jamais écrire directement dans le répertoire et les sous-répertoires « Windows » <dl> Utilisez les méthodes appropriées pour installer des fichiers, tels que des polices ou des pilotes.  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Utilisez les méthodes appropriées pour installer des fichiers, tels que des polices ou des pilotes.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> Lorsque l’application est installée, il n’existe pas d’emplacement utilisateur correct dans lequel stocker les données. Les tentatives effectuées par une application pour modifier les comportements d’association par défaut au niveau de l’ordinateur après l’installation échouent. Au lieu de cela, les valeurs par défaut doivent être revendiquées sur un niveau par utilisateur, ce qui empêche plusieurs utilisateurs de remplacer les valeurs par défaut des autres.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> Une dérogation est requise pour les applications qui écrivent dans les applications .NET du Global Assembly Cache (GAC) doivent conserver les dépendances d’assembly privées et les stocker dans le répertoire de l’application, sauf si le partage d’un assembly est explicitement requis.  
 </dl> </dd> </dl>
 
 ## <a name="11-apps-must-support-multi-user-sessions"></a>11. les applications doivent prendre en charge les sessions multi-utilisateurs
 
-Les utilisateurs Windows doivent être en mesure d’exécuter des sessions simultanées sans conflit ou perturbation.<dl> 11,1 votre application doit s’assurer qu’en cas d’exécution dans plusieurs sessions localement ou à distance, les fonctionnalités normales de l’application ne sont pas affectées.  
+Windows utilisateurs doivent être en mesure d’exécuter des sessions simultanées sans conflit ou perturbation.<dl> 11,1 votre application doit s’assurer qu’en cas d’exécution dans plusieurs sessions localement ou à distance, les fonctionnalités normales de l’application ne sont pas affectées.  
 11,2 les paramètres et les fichiers de données de votre application ne doivent pas être conservés entre les utilisateurs  
 11,3 une confidentialité et des préférences de l’utilisateur doivent être isolées dans la session utilisateur  
 11,4 les instances de votre application doivent être isolées les unes des autres <dl> Cela signifie que les données utilisateur d’une instance ne sont pas visibles par une autre instance de l’application. Le son dans une session utilisateur inactive ne doit pas être entendu dans une session utilisateur active. Dans les cas où plusieurs instances d’application utilisent des ressources partagées, l’application doit s’assurer qu’il n’y a pas de conflit.  
@@ -188,7 +188,7 @@ Les utilisateurs Windows doivent être en mesure d’exécuter des sessions simu
 
 ## <a name="12-apps-must-support-x64-versions-of-windows"></a>12. les applications doivent prendre en charge les versions x64 de Windows
 
-Étant donné que le matériel 64 bits devient plus courant, les utilisateurs attendent des développeurs d’applications qu’ils tirent parti des avantages de l’architecture 64 bits en migrant leurs applications vers 64 bits, ou que les versions 32 bits de l’application s’exécutent correctement sous les versions 64 bits de Windows.<dl> 12,1 votre application doit prendre en charge 64 bits en mode natif ou, au minimum, les applications Windows 32 bits doivent s’exécuter en toute transparence sur les systèmes 64 bits pour assurer la compatibilité avec les versions 64 bits de Windows.  
+Étant donné que le matériel 64 bits devient plus courant, les utilisateurs attendent des développeurs d’applications qu’ils tirent parti des avantages de l’architecture 64 bits en migrant leurs applications vers 64 bits, ou que les versions 32 bits de l’application s’exécutent correctement sous les versions 64 bits de Windows.<dl> 12,1 votre application doit prendre en charge en mode natif 64 bits ou, au minimum, les applications Windows 32 bits doivent s’exécuter en toute transparence sur les systèmes 64 bits pour assurer la compatibilité avec les versions 64 bits de Windows  
 12,2 votre application et ses programmes d’installation ne doivent pas contenir de code 16 bits ou ne s’appuient sur aucun composant 16 bits  
 12,3 l’installation de votre application doit détecter et installer les pilotes et les composants appropriés pour l’architecture 64 bits  
 12,4 tous les plug-ins de Shell doivent s’exécuter sur les versions 64 bits de Windows  
@@ -210,11 +210,11 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 | 20 décembre, 2011  | 1.0     | Brouillon initial du document pour la version préliminaire. |                                                                                  |
 | 26 janvier, 2012  | 1.1     | Mise à jour de la section \# 2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | 31 mai, 2012  | 1.2     | Ajout de résultats de test de synthèse             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |
-| 29 juin, 2012  | 3.0     | Document final Windows 8               | [3.0](archive--certification-requirements-for-windows-desktop-apps-v3-0.md)     |
-| 18 juin, 2013  | 3.1     | Document Windows 8.1                   | [3.1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md)     |
+| 29 juin, 2012  | 3.0     | Windows 8 document final               | [3.0](archive--certification-requirements-for-windows-desktop-apps-v3-0.md)     |
+| 18 juin, 2013  | 3.1     | document Windows 8.1                   | [3.1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md)     |
 | 20 février, 2014  | 3.2     | Mise à jour interne                        |                                                                                  |
-| 18 mars, 2014  | 3.3     | Windows 8.1 Update 1                   | [3.3](https://www.bing.com/search?q=3.3) |
-| 29 juillet 2015 | 10      | Mise à jour Windows 10                      | 10                                                                               |
+| 18 mars, 2014  | 3.3     | Mise à jour Windows 8.1 1                   | [3.3](https://www.bing.com/search?q=3.3) |
+| 29 juillet 2015 | 10      | Windows 10 Mise à jour                      | 10                                                                               |
 
 
 
@@ -226,8 +226,8 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -245,8 +245,8 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 <br/></td>
 </tr>
 <tr class="odd">
-<td>Respectez les meilleures pratiques en matière de sécurité Windows</td>
-<td>L’utilisation des meilleures pratiques de sécurité Windows permet d’éviter de créer une exposition aux surfaces d’attaque Windows. Les surfaces d’attaque sont les points d’entrée qu’un attaquant malveillants pourrait utiliser pour exploiter le système d’exploitation en tirant parti des vulnérabilités dans le logiciel cible. L’élévation de privilèges constitue l’une des pires failles de sécurité.<br/> Pour plus d’informations, consultez les pages suivantes :
+<td>respectez les meilleures pratiques en matière de Sécurité Windows</td>
+<td>l’utilisation des meilleures pratiques de sécurité de Windows permet d’éviter la création d’expositions à des surfaces d’attaque Windows. Les surfaces d’attaque sont les points d’entrée qu’un attaquant malveillants pourrait utiliser pour exploiter le système d’exploitation en tirant parti des vulnérabilités dans le logiciel cible. L’élévation de privilèges constitue l’une des pires failles de sécurité.<br/> Pour plus d’informations, consultez les pages suivantes :
 <ul>
 <li><a href="https://technet.microsoft.com/security/gg749821">Analyseur de surface d’attaque</a></li>
 <li><a href="/windows/desktop/SecAuthZ/access-control-lists">Listes de Access Control</a></li>
@@ -254,8 +254,8 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 <br/></td>
 </tr>
 <tr class="even">
-<td>Prise en charge des fonctionnalités de sécurité Windows</td>
-<td>Le système d’exploitation Windows a implémenté de nombreuses mesures pour prendre en charge la sécurité et la confidentialité du système. Les applications doivent prendre en charge ces mesures pour maintenir l’intégrité du système d’exploitation. Des applications mal compilées peuvent entraîner des dépassements de mémoire tampon qui, à leur tour, peuvent provoquer un déni de service ou rendre du code malveillant s’exécuter. Pour plus d’informations, consultez la référence de l' <a href="https://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/">outil BinScope</a>.</td>
+<td>fonctionnalités de Sécurité Windows de Support</td>
+<td>le système d’exploitation Windows a implémenté de nombreuses mesures pour prendre en charge la sécurité et la confidentialité du système. Les applications doivent prendre en charge ces mesures pour maintenir l’intégrité du système d’exploitation. Des applications mal compilées peuvent entraîner des dépassements de mémoire tampon qui, à leur tour, peuvent provoquer un déni de service ou rendre du code malveillant s’exécuter. Pour plus d’informations, consultez la référence de l' <a href="https://blogs.microsoft.com/cybertrust/2012/08/15/microsofts-free-security-tools-binscope-binary-analyzer/">outil BinScope</a>.</td>
 </tr>
 <tr class="odd">
 <td>Adhérer aux messages du gestionnaire de redémarrage du système</td>
@@ -263,30 +263,30 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 </tr>
 <tr class="even">
 <td>Installation de nettoyage réversible</td>
-<td>Une installation propre et réversible permet aux utilisateurs de gérer avec succès (déployer et supprimer) des applications sur leurs systèmes. Pour plus d’informations, consultez <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">Comment : installer les composants requis avec une application ClickOnce</a>.</td>
+<td>Une installation propre et réversible permet aux utilisateurs de gérer avec succès (déployer et supprimer) des applications sur leurs systèmes. pour plus d’informations, consultez <a href="/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application?view=vs-2015">comment : installer les composants requis avec une Application ClickOnce</a>.</td>
 </tr>
 <tr class="odd">
 <td>Signer numériquement des fichiers et des pilotes</td>
-<td>Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. L’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement.<br/></td>
+<td>Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. l’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement.<br/></td>
 </tr>
 <tr class="even">
 <td>Ne pas bloquer l’installation ou le lancement d’applications en fonction de la vérification de la version du système d’exploitation</td>
-<td>Il est important que les clients ne soient pas bloqués de façon artificielle contre l’installation ou l’exécution de leur application lorsqu’il n’existe aucune limitation technique. En général, si des applications ont été écrites pour Windows Vista ou des versions ultérieures, elles ne devraient pas avoir de raison de vérifier la version du système d’exploitation. Pour plus d’informations, consultez contrôle de <a href="/windows/desktop/Win7AppQual/operating-system-versioning">version du système d’exploitation</a>.</td>
+<td>Il est important que les clients ne soient pas bloqués de façon artificielle contre l’installation ou l’exécution de leur application lorsqu’il n’existe aucune limitation technique. en général, si les applications ont été écrites pour Windows Vista ou versions ultérieures, elles ne devraient pas avoir de raison de vérifier la version du système d’exploitation. Pour plus d’informations, consultez contrôle de <a href="/windows/desktop/Win7AppQual/operating-system-versioning">version du système d’exploitation</a>.</td>
 </tr>
 <tr class="odd">
-<td>Ne pas charger les services et pilotes en mode sans échec</td>
-<td>Le mode sans échec permet aux utilisateurs de diagnostiquer et de dépanner Windows. Sauf si cela est nécessaire pour les opérations de base du système (par exemple, les pilotes de périphériques de stockage) ou à des fins de diagnostic et de récupération (par exemple, les scanneurs antivirus), les pilotes et les services ne doivent pas être configurés pour être chargés en mode sans échec. Par défaut, le mode sans échec ne démarre pas la plupart des pilotes et services qui n’ont pas été préinstallés avec Windows. Ils doivent rester désactivés, sauf si le système en a besoin pour des opérations de base ou à des fins de diagnostic et de récupération.<br/> Pour plus d’informations, consultez les pages suivantes :
+<td>ne pas charger les Services et pilotes en Mode Coffre</td>
+<td>Coffre mode permet aux utilisateurs de diagnostiquer et de dépanner Windows. Sauf si cela est nécessaire pour les opérations de base du système (par exemple, les pilotes de périphériques de stockage) ou à des fins de diagnostic et de récupération (par exemple, les scanneurs antivirus), les pilotes et les services ne doivent pas être configurés pour être chargés en mode sans échec. Par défaut, le mode sans échec ne démarre pas la plupart des pilotes et services qui n’ont pas été préinstallés avec Windows. Ils doivent rester désactivés, sauf si le système en a besoin pour des opérations de base ou à des fins de diagnostic et de récupération.<br/> Pour plus d’informations, consultez les pages suivantes :
 <ul>
-<li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">Déterminer si le système d’exploitation s’exécute en mode sans échec</a></li>
-<li><a href="https://support.microsoft.com/kb/837643">Comment déterminer si le système s’exécute en mode sans échec à partir d’un pilote de périphérique</a></li>
+<li><a href="/windows-hardware/drivers/kernel/determining-whether-the-operating-system-is-running-in-safe-mode">déterminer si le système d’exploitation s’exécute en Mode Coffre</a></li>
+<li><a href="https://support.microsoft.com/kb/837643">comment déterminer si le système s’exécute en Mode Coffre à partir d’un pilote de périphérique</a></li>
 </ul>
 <br/></td>
 </tr>
 <tr class="even">
 <td>Suivre les instructions relatives au contrôle de compte d’utilisateur (UAC)</td>
-<td>Certaines applications Windows s’exécutent dans le contexte de sécurité d’un compte d’administrateur, et de nombreuses nécessitent des droits d’utilisateur et des privilèges Windows excessifs. Le contrôle de l’accès aux ressources permet aux utilisateurs de contrôler leurs systèmes contre les modifications indésirables (une modification indésirable peut être malveillante, telle qu’un rootkit stealthily qui prend la machine ou une action de personnes disposant de privilèges limités, par exemple, un employé qui installe un logiciel interdit sur un ordinateur professionnel). La règle la plus importante pour contrôler l’accès aux ressources consiste à fournir le contexte utilisateur standard d’accès minimal nécessaire à l’utilisateur pour effectuer ses tâches nécessaires. Les instructions de contrôle de compte d’utilisateur suivantes fournissent aux applications les autorisations nécessaires, si nécessaire, sans laisser le système constamment exposé aux risques de sécurité.<br/> Pour plus d’informations, consultez les pages suivantes :
+<td>certaines Windows application s’exécutent dans le contexte de sécurité d’un compte d’administrateur, et de nombreuses nécessitent des droits d’utilisateur et des privilèges de Windows excessifs. Le contrôle de l’accès aux ressources permet aux utilisateurs de contrôler leurs systèmes contre les modifications indésirables (une modification indésirable peut être malveillante, telle qu’un rootkit stealthily qui prend la machine ou une action de personnes disposant de privilèges limités, par exemple, un employé qui installe un logiciel interdit sur un ordinateur professionnel). La règle la plus importante pour contrôler l’accès aux ressources consiste à fournir le contexte utilisateur standard d’accès minimal nécessaire à l’utilisateur pour effectuer ses tâches nécessaires. Les instructions de contrôle de compte d’utilisateur suivantes fournissent aux applications les autorisations nécessaires, si nécessaire, sans laisser le système constamment exposé aux risques de sécurité.<br/> Pour plus d’informations, consultez les pages suivantes :
 <ul>
-<li><a href="/windows/desktop/uxguide/winenv-uac">Contrôle de compte d’utilisateur</a></li>
+<li><a href="/windows/desktop/uxguide/winenv-uac">Contrôle de compte d'utilisateur</a></li>
 <li><a href="/previous-versions/aa480152(v=msdn.10)">UAC : instructions de mise à jour d’application</a></li>
 </ul>
 <br/></td>
@@ -297,7 +297,7 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 </tr>
 <tr class="even">
 <td>Prendre en charge les sessions multi-utilisateurs</td>
-<td>Les utilisateurs Windows doivent être en mesure d’exécuter des sessions simultanées sans conflit ou perturbation. Pour plus d’informations, consultez recommandations en matière de <a href="/windows/desktop/TermServ/terminal-services-programming-guidelines">programmation services Bureau à distance</a>.</td>
+<td>Windows utilisateurs doivent être en mesure d’exécuter des sessions simultanées sans conflit ou perturbation. Pour plus d’informations, consultez recommandations en matière de <a href="/windows/desktop/TermServ/terminal-services-programming-guidelines">programmation services Bureau à distance</a>.</td>
 </tr>
 <tr class="odd">
 <td>Prendre en charge les versions x64 de Windows</td>
@@ -312,5 +312,5 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 
 ## <a name="see-also"></a>Voir aussi
 
--   [Programme de certification matérielle Windows](/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
--   [Comment utiliser le kit de certification des applications Windows](./using-the-windows-app-certification-kit.md)
+-   [Windows Programme de certification matérielle](/previous-versions/windows/hardware/hck/jj124227(v=vs.85))
+-   [comment utiliser le Kit de Certification des applications Windows](./using-the-windows-app-certification-kit.md)

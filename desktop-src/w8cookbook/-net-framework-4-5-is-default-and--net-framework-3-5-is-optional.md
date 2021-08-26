@@ -4,12 +4,12 @@ description: .NET Framework 4,5 est la valeur par défaut et .NET Framework 3,5 
 ms.assetid: 19B53C82-812A-49AC-87C6-C08E7C199208
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e875f7508bc0940689afde5eb9b3f00407dd2c7dd70e35de52fe580717c8ad53
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 18b45aef294e035f5fb7e647c49b22206ac8aadd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119549789"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883122"
 ---
 # <a name="net-framework-45-is-default-and-net-framework-35-is-optional"></a>.NET Framework 4,5 est la valeur par défaut et .NET Framework 3,5 est facultatif
 
@@ -129,7 +129,7 @@ Cette entrée de Registre est prise en charge :
 <td>Chemin de la source locale</td>
 <td>REG_EXPAND_SZ</td>
 <td>Chemin (s) source local à utiliser par défaut. Plusieurs chemins d’accès peuvent être spécifiés ; ils doivent être séparés par ;. Les emplacements sont recherchés dans l’ordre dans lequel ils sont spécifiés. <br/> Les emplacements sources locaux qui sont spécifiés sur la ligne de commande DISM ont la priorité sur les emplacements spécifiés dans cette entrée de registre. Les emplacements de dossier peuvent être spécifiés dans cette entrée de registre. <br/> Les fichiers WIM peut être utilisé, mais le chemin d’accès doit être au fichier WIM ; Il n’est pas nécessaire de le monter, par exemple : <br/> <dl> Wim : \\ machine\share\file.wim : 1<br />
-</dl> Notez le 1 à la fin. Vous devez spécifier l’index numérique de l’image que vous souhaitez utiliser dans le fichier WIM. <br/> Pour un fichier WIM monté, le chemin source doit faire référence au répertoire Windows de l’image montée, plutôt qu’au point de montage (par exemple:/source : <mount_point> \Windows plutôt que/source : <mount_point> ). <br/></td>
+</dl> Notez le 1 à la fin. Vous devez spécifier l’index numérique de l’image que vous souhaitez utiliser dans le fichier WIM. <br/> Pour un fichier WIM monté, le chemin source doit faire référence au répertoire Windows de l’image montée, plutôt qu’au point de montage (par exemple:/source : &lt; mount_point &gt; \Windows au lieu de/source &lt; : &gt; mount_point). <br/></td>
 </tr>
 </tbody>
 </table>

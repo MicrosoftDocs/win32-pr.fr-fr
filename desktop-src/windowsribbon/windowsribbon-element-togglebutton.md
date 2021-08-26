@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2e17c4f9ea6aa557db6c1f9b98aca60b6da351936a70b783a0618217c03ba7b1
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c92a5985b560738d7119a6c5de354ad703f58894
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119441589"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626965"
 ---
 # <a name="togglebutton-element"></a>ToggleButton, élément
 
 Représente un contrôle [bouton bascule](windowsribbon-controls-togglebutton.md) .
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <ToggleButton
@@ -38,10 +38,10 @@ Représente un contrôle [bouton bascule](windowsribbon-controls-togglebutton.md
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,7 +62,7 @@ Représente un contrôle [bouton bascule](windowsribbon-controls-togglebutton.md
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>

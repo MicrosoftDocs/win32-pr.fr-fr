@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60ee7a03d25508df45469577f4d4159b5db5f5190f188ca594b71f176d037526
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 62cebc67a0666caad88722b934e4891e01d32bab
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851187"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632107"
 ---
 # <a name="combobox-element"></a>Élément ComboBox
 
 Représente un contrôle de [zone de liste déroulante](windowsribbon-controls-combobox.md) .
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <ComboBox
@@ -40,10 +40,10 @@ Représente un contrôle de [zone de liste déroulante](windowsribbon-controls-c
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,7 +57,7 @@ Représente un contrôle de [zone de liste déroulante](windowsribbon-controls-c
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -78,7 +78,7 @@ Représente un contrôle de [zone de liste déroulante](windowsribbon-controls-c
 <tr class="even">
 <td><strong>ResizeType</strong><br/></td>
 <td>ComboBoxResizeType<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (NoResize)<br/> </dt> <dd> Par défaut. <br/> </dd> <dt><span></span><span></span><strong></strong> (VerticalResize)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 </tbody>
@@ -96,8 +96,8 @@ Il n’y a pas d’éléments enfants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -145,7 +145,7 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownButton**](windowsribbon-element-dropdownbutton.md), [**DropDownGallery**](windowsribbon-element-dropdowngallery.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md)ou [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 

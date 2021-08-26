@@ -17,12 +17,12 @@ keywords:
 - référence pour OpenGL, fonctions Light
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14ca663f1d6a3d437900ec00da1d1b9b9637728
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e09d01f7f3d6d30f086919a037e1447bfcc5f7f417a2d5590d9194a212c37f8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128249"
 ---
 # <a name="glmaterial-functions"></a>glMaterial, fonctions
 
@@ -33,9 +33,9 @@ Ces fonctions spécifient des paramètres de matériau pour le modèle d’écla
 -   [**glMaterialfv**](glmaterialfv.md)
 -   [**glMaterialiv**](glmaterialiv.md)
 
- 
+ 
 
- 
+ 
 
 
 

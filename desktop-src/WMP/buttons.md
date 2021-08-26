@@ -1,22 +1,22 @@
 ---
-title: Boutons (kit de développement logiciel Windows Media Player)
+title: boutons (kit de développement logiciel Lecteur Windows Media)
 description: Boutons
 ms.assetid: 1212e2d9-e8f8-45d8-8c7f-20865c9c9c94
 keywords:
-- Windows Media Player Mobile Skins, vue d’ensemble du bouton
+- Lecteur Windows Media Skins mobiles, vue d’ensemble du bouton
 - apparences, vue d’ensemble du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans des apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f06eb2fe21ee18a24f92e92d4fa760e9c76887
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 96128c723c5b8bbac31c82a32060704bc892dfb7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102757"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885536"
 ---
-# <a name="buttons-windows-media-player-sdk"></a>Boutons (kit de développement logiciel Windows Media Player)
+# <a name="buttons-windows-media-player-sdk"></a>boutons (kit de développement logiciel Lecteur Windows Media)
 
 Vous pouvez utiliser un ou plusieurs boutons dans votre apparence, et chaque bouton doit être défini dans le fichier de définition d’apparence. Si vous ne définissez pas de bouton dans cette section, votre apparence ne sera pas en mesure de l’utiliser.
 
@@ -53,7 +53,7 @@ Vous pouvez utiliser le modèle suivant pour la section de bouton de votre fichi
 
 
 
-Là encore, Notez qu’elles doivent être de type ligne unique, la première commençant par « // <Function> » et se terminant par « &lt; Push 2 image SRC &gt; ». La deuxième ligne commence par « //---------- » et se termine par « ------------------. ».
+Là encore, Notez qu’elles doivent être de type ligne unique, la première commençant par la fonction « // &lt; Function &gt; » et se terminant par « &lt; Push 2 image SRC &gt; ». La deuxième ligne commence par « //---------- » et se termine par « ------------------. ».
 
 Les informations de bouton pour chaque ligne dans la section du bouton doivent apparaître dans l’ordre suivant. Seules les six premières parties de la ligne sont requises. Les images secondaires ne sont pas incluses, sauf si elles sont nécessaires.
 

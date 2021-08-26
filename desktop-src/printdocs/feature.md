@@ -4,12 +4,12 @@ ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: Fonctionnalité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b28ab7e8cc69ecc9ba3956fbae3c5278baace8cf
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d3d35686674d08ea0ea4030648b06803919e5d07
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882496"
 ---
 # <a name="feature"></a>Fonctionnalité
 
@@ -19,7 +19,7 @@ Un élément Feature contient une liste complète des éléments option et Prope
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<Feature>
+&lt;Fonctionnalité&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 
@@ -43,43 +43,13 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Détails</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Éléments parents<br/></td>
-<td>PrintCapabilities <br/> PrintTicket <br/> Fonctionnalité<br/></td>
-</tr>
-<tr class="even">
-<td>Éléments enfants<br/></td>
-<td>Un des groupes suivants :<br/>
-<ul>
-<li><em>Fonctionnalité</em> (zéro ou plus)<br/></li>
-<li><em>Option</em> (une ou plusieurs)<br/></li>
-<li><em>Property</em> (zéro, un ou plusieurs)<br/></li>
-</ul>
-ou <br/>
-<ul>
-<li><em>Fonctionnalité</em> (une ou plusieurs)<br/></li>
-<li><em>Option</em> (zéro, un ou plusieurs)<br/></li>
-<li><em>Property</em> (zéro, un ou plusieurs)<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Élément This<br/></td>
-<td>Aucune donnée de caractères n’est autorisée.<br/> Les éléments d’option enfants dupliqués qui sont des frères sont autorisés. Raccourcis d’attribut de nom en double autorisés. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Catégorie | Détails | 
+|----------|---------|
+| Éléments parents<br /> | PrintCapabilities <br /> PrintTicket <br /> Fonctionnalité<br /> | 
+| Éléments enfants<br /> | Un des groupes suivants :<br /><ul><li><em>Fonctionnalité</em> (zéro ou plus)<br /></li><li><em>Option</em> (une ou plusieurs)<br /></li><li><em>Property</em> (zéro, un ou plusieurs)<br /></li></ul>ou <br /><ul><li><em>Fonctionnalité</em> (une ou plusieurs)<br /></li><li><em>Option</em> (zéro, un ou plusieurs)<br /></li><li><em>Property</em> (zéro, un ou plusieurs)<br /></li></ul> | 
+| Élément This<br /> | Aucune donnée de caractères n’est autorisée.<br /> Les éléments d’option enfants dupliqués qui sont des frères sont autorisés. Raccourcis d’attribut de nom en double autorisés. <br /> | 
+
 
 
 

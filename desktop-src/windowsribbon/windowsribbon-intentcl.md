@@ -14,12 +14,12 @@ keywords:
 - compilation Windows balisage du ruban
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85534a05b3bde59cc2ec0eec482d8c3b47e898d39ad988c595fbac33eb5e9f36
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cefd64103ceb501e8f4d23e937a242e910b0cad5
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119932562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884911"
 ---
 # <a name="compiling-ribbon-markup"></a>Compilation du balisage du ruban
 
@@ -61,8 +61,8 @@ Les arguments et les options de cet outil sont décrits dans le tableau suivant.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,8 +72,8 @@ Les arguments et les options de cet outil sont décrits dans le tableau suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td>/Header<headerFile></td>
-<td>Générez un fichier d’en-tête appelé <headerFile> qui contient les symboles de ressource ID de commande de balisage. En cas d’omission, un fichier d’en-tête n’est pas généré.</td>
+<td>/Header : &lt; headerFile&gt;</td>
+<td>Générez un fichier d’en-tête appelé &lt; headerFile &gt; qui contient les symboles de ressource ID de commande de balisage. En cas d’omission, un fichier d’en-tête n’est pas généré.</td>
 </tr>
 <tr class="even">
 <td>/res<resourceFile></td>

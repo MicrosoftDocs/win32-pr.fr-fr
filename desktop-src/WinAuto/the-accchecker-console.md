@@ -8,12 +8,12 @@ keywords:
 - ligne de commande, AccChecker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d370f1b4ba5c3d9752015425e12f48311c66dfd8928c6b9fe0f011c48ee6c8d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 272447e2513f109206af6fedaaf6adffe665e8b8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118994032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887040"
 ---
 # <a name="the-accchecker-console"></a>Console AccChecker
 
@@ -30,7 +30,7 @@ La console AccChecker (AccCheckConsole.exe) est un outil en ligne de commande pe
 
 La console AccChecker a la syntaxe de ligne de commande suivante.
 
-**\[Options AccCheckConsole \] (-HWND <hwnd> \| -process <name> )\[<dlls>\]**
+**AccCheckConsole \[ options \] (-HWND &lt; HWND &gt; \| -process &lt; name &gt; ) \[ &lt; dll&gt;\]**
 
 Les options de ligne de commande sont les suivantes.
 
@@ -38,15 +38,15 @@ Les options de ligne de commande sont les suivantes.
 
 | Options                                                                                                                                                         | Description                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-HWND <hwnd><br/>                                                                     | Valide la fenêtre qui a le handle spécifié (HWND). Le descripteur peut être spécifié au format hexadécimal ou décimal.<br/> |
-| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-fenêtre <title><br/>                                                            | Valide la fenêtre qui a le titre spécifié.<br/>                                                                |
-| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span> -processus <name><br/>                       | Valide la fenêtre principale du processus qui porte le nom spécifié.<br/>                                             |
+| <span id="-hwnd__hwnd_"></span><span id="-HWND__HWND_"></span>-HWND &lt; HWND&gt;<br/>                                                                     | Valide la fenêtre qui a le handle spécifié (HWND). Le descripteur peut être spécifié au format hexadécimal ou décimal.<br/> |
+| <span id="-window__title_"></span><span id="-WINDOW__TITLE_"></span>-titre de la fenêtre &lt;&gt;<br/>                                                            | Valide la fenêtre qui a le titre spécifié.<br/>                                                                |
+| <span id="__________________-process__name_"></span><span id="__________________-PROCESS__NAME_"></span>-nom du processus &lt;&gt;<br/>                       | Valide la fenêtre principale du processus qui porte le nom spécifié.<br/>                                             |
 | <span id="____________________________-list"></span><span id="____________________________-LIST"></span> -List<br/>                                       | Répertorie toutes les routines de vérification disponibles.<br/>                                                                 |
-| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -activer <name><br/>                          | Exécute la routine de vérification spécifiée. Cette option peut être spécifiée plusieurs fois.<br/>                             |
-| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -désactiver <name><br/> | Exécute toutes les tâches sauf la routine de vérification spécifiée. Cette option peut être spécifiée plusieurs fois.<br/>                     |
+| <span id="__________________-enable__name_"></span><span id="__________________-ENABLE__NAME_"></span> -activer le &lt; nom&gt;<br/>                          | Exécute la routine de vérification spécifiée. Cette option peut être spécifiée plusieurs fois.<br/>                             |
+| <span id="_____________________________-disable__name_"></span><span id="_____________________________-DISABLE__NAME_"></span> -désactiver le &lt; nom&gt;<br/> | Exécute toutes les tâches sauf la routine de vérification spécifiée. Cette option peut être spécifiée plusieurs fois.<br/>                     |
 | <span id="___________-log__info_warn_err_"></span><span id="___________-LOG__INFO_WARN_ERR_"></span> -log (info \| avertir \| Err)<br/>                          | L’évaluation de l’événement le plus bas qui sera enregistrée.<br/>                                                                      |
-| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> -logfile <file><br/>                       | Écrit la sortie dans le fichier journal spécifié. Cette option peut être spécifiée plusieurs fois.<br/>                          |
-| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-supprimer <file><br/>                                                         | Utilisez le fichier XML spécifié pour supprimer les erreurs. <br/>                                                                   |
+| <span id="__________________-logfile__file_"></span><span id="__________________-LOGFILE__FILE_"></span> - &lt; fichier journal&gt;<br/>                       | Écrit la sortie dans le fichier journal spécifié. Cette option peut être spécifiée plusieurs fois.<br/>                          |
+| <span id="-suppress__file_"></span><span id="-SUPPRESS__FILE_"></span>-supprimer le &lt; fichier&gt;<br/>                                                         | Utilisez le fichier XML spécifié pour supprimer les erreurs. <br/>                                                                   |
 | <span id="-quiet"></span><span id="-QUIET"></span>-quiet<br/>                                                                                             | N’écrivez pas la sortie de journalisation dans stdout.<br/>                                                                            |
 | <span id="-help__________________________________"></span><span id="-HELP__________________________________"></span>-aide <br/>                           | Affiche l’aide rapide. <br/>                                                                                             |
 

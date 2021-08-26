@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8334ca57d552681afeb77d0b213eca8b92bc1234
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 21fb23a595b1f479f2468f0006cca7cd9218de03fc2cc76b794caae79ea45a24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129119"
 ---
 # <a name="productcontext-property"></a>Propriété Product. Context
 
@@ -37,13 +37,13 @@ propVal = Product.Context
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut retourner l’une des valeurs suivantes.
 
 
 
-| Context                        | Valeur | Signification                           |
+| Contexte                        | Valeur | Signification                           |
 |--------------------------------|-------|-----------------------------------|
 | MSIINSTALLCONTEXT \_ USERMANAGED | 1     | Produits sous un contexte géré.   |
 | \_utilisateur MSIINSTALLCONTEXT        | 2     | Produits sous un contexte non managé. |
@@ -59,7 +59,7 @@ Cette propriété peut retourner l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct est défini en tant que 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -72,7 +72,7 @@ Cette propriété peut retourner l’une des valeurs suivantes.
 [**Production**](product-object.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

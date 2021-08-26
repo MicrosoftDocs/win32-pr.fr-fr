@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01b6455807aedb99d7bd525c69fffc524dbe25d4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118643777"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882787"
 ---
-# <a name="system-switch"></a>/<system> Utilisez
+# <a name="ltsystemgt-switch"></a>/&lt;&gt;commutateur système
 
-Le **/<system>** commutateur indique au compilateur MIDL de générer une bibliothèque de types pour le système spécifié. La valeur par défaut est le système d’exploitation actuel.
+Le commutateur **/ &lt; système &gt;** indique au compilateur MIDL de générer une bibliothèque de types pour le système spécifié. La valeur par défaut est le système d’exploitation actuel.
 
 ``` syntax
 midl /{win32 | ia64 | amd64}
@@ -71,7 +71,7 @@ un environnement de Windows 64 bits basé sur des Micro-appareils américain, te
 
 ## <a name="remarks"></a>Remarques
 
-Le **/<system>** commutateur est fonctionnellement identique à l’option de MIDL [**/env**](-env.md) et est reconnu par le compilateur MIDL uniquement pour la compatibilité descendante avec mktyplib. Si vous générez un nouveau Makefile, utilisez le commutateur **/env** .
+Le commutateur **/ &lt; système &gt;** est fonctionnellement identique à l’option de MIDL [**/env**](-env.md) et est reconnu par le compilateur MIDL uniquement pour la compatibilité descendante avec mktyplib. Si vous générez un nouveau Makefile, utilisez le commutateur **/env** .
 
 ## <a name="examples"></a>Exemples
 

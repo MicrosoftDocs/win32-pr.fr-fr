@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: c9192bf650588b7c21f17afb45149fe460f91bea
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880527"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>Définition de la reconnaissance par défaut des PPP pour un processus
 
@@ -33,44 +33,14 @@ Il existe deux paramètres de manifeste qui vous permettent de spécifier le mod
 
 Le tableau ci-dessous montre comment spécifier des modes de reconnaissance des PPP par défaut de processus différents à l’aide des deux paramètres de manifeste :
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Traiter le mode de reconnaissance PPP par défaut</th>
-<th>&lt;&gt;paramètre dpiAware</th>
-<th>&lt;&gt;paramètre dpiAwareness (Windows 10, version 1607 et versions ultérieures)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>ignore</td>
-<td><p>N/A (aucun paramètre dpiAware dans le manifeste)</p>
-<p>ou</p>
-<p>&lt;dpiAware &gt; false &lt; /dpiAware&gt;</p></td>
-<td>&lt;dpiAwareness ne &gt; connaissant pas &lt; /dpiAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>Prise en charge par le système</td>
-<td>&lt;dpiAware &gt; true &lt; /dpiAware&gt;</td>
-<td>&lt;dpiAwareness &gt; système &lt; /dpiAwareness&gt;</td>
-</tr>
-<tr class="odd">
-<td>Par moniteur</td>
-<td>&lt;dpiAware &gt; true/PM &lt; dpiAware&gt;</td>
-<td>&lt;dpiAwareness &gt; permonitor &lt; /dpiAwareness&gt;</td>
-</tr>
-<tr class="even">
-<td>Par moniteur v2</td>
-<td>Non prise en charge</td>
-<td>&lt;dpiAwareness &gt; PerMonitorV2 &lt; /dpiAwareness&gt;</td>
-</tr>
-</tbody>
-</table>
+
+| Traiter le mode de reconnaissance PPP par défaut | &lt;&gt;paramètre dpiAware | &lt;&gt;paramètre dpiAwareness (Windows 10, version 1607 et versions ultérieures) | 
+|------------------------------------|--------------------|--------------------------------------------------------------|
+| ignore | <p>N/A (aucun paramètre dpiAware dans le manifeste)</p><p>ou</p><p>&lt;dpiAware &gt; false &lt; /dpiAware&gt;</p> | &lt;dpiAwareness ne &gt; connaissant pas &lt; /dpiAwareness&gt; | 
+| Prise en charge par le système | &lt;dpiAware &gt; true &lt; /dpiAware&gt; | &lt;dpiAwareness &gt; système &lt; /dpiAwareness&gt; | 
+| Par moniteur | &lt;dpiAware &gt; true/PM &lt; dpiAware&gt; | &lt;dpiAwareness &gt; permonitor &lt; /dpiAwareness&gt; | 
+| Par moniteur v2 | Non prise en charge | &lt;dpiAwareness &gt; PerMonitorV2 &lt; /dpiAwareness&gt; | 
+
 
  
 
@@ -96,48 +66,13 @@ Il existe plusieurs API qui vous permettent de spécifier la prise en compte des
 
  
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>API</th>
-<th>Version minimale de Windows</th>
-<th>Prise en charge de DPI</th>
-<th>Prise en charge DPI système</th>
-<th>Prise en charge DPI par moniteur</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a></td>
-<td>Windows Vista</td>
-<td>N/A</td>
-<td>SetProcessDPIAware()</td>
-<td>N/A</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
-<td>Windows 8.1</td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_UNAWARE)</td>
-<td>SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE)</td>
-<td>SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE)</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a></td>
-<td>Windows 10, version 1607</td>
-<td>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_UNAWARE)</td>
-<td>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)</td>
-<td><p>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p>
-<p>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p></td>
-</tr>
-</tbody>
-</table>
+
+| API | Version minimale de Windows | Prise en charge de DPI | Prise en charge DPI système | Prise en charge DPI par moniteur | 
+|-----|----------------------------|-------------|------------------|-----------------------|
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a> | Windows Vista | N/A | SetProcessDPIAware() | N/A | 
+| <a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a> | Windows 8.1 | SetProcessDpiAwareness (PROCESS_DPI_UNAWARE) | SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE) | SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE) | 
+| <a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a> | Windows 10, version 1607 | SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_UNAWARE) | SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_SYSTEM_AWARE) | <p>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)</p><p>SetProcessDpiAwarenessContext (DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)</p> | 
+
 
  
 

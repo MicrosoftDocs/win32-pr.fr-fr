@@ -4,12 +4,12 @@ ms.assetid: 8f92873d-569a-48af-a913-6d4cce65640f
 title: Sélection d’un périphérique de capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b599728c6bd2d98b89285b6008923aa4fb2a3aef
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5bf92692070c8a0191a91559481d5446bf3d4d894c8e7f6aafc2ed9e73a6667
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106543068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904409"
 ---
 # <a name="selecting-a-capture-device"></a>Sélection d’un périphérique de capture
 
@@ -65,7 +65,7 @@ HRESULT EnumerateDevices(REFGUID category, IEnumMoniker **ppEnum)
 
 
 
-L’interface [**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker) énumère une liste d’interfaces [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) , chacune représentant un moniker de périphérique. L’application peut lire les propriétés du moniker ou utiliser le moniker pour créer un filtre de capture DirectShow pour l’appareil. Les propriétés du moniker sont retournées en tant que valeurs de **type Variant** . Les propriétés suivantes sont prises en charge par les monikers de périphérique.
+L’interface [**IEnumMoniker**](/windows/win32/api/objidl/nn-objidl-ienummoniker) énumère une liste d’interfaces [**IMoniker**](/windows/win32/api/objidl/nn-objidl-imoniker) , chacune représentant un moniker de périphérique. l’application peut lire les propriétés du moniker ou utiliser le moniker pour créer un filtre de capture DirectShow pour l’appareil. Les propriétés du moniker sont retournées en tant que valeurs de **type Variant** . Les propriétés suivantes sont prises en charge par les monikers de périphérique.
 
 
 
@@ -85,7 +85,7 @@ Les propriétés « FriendlyName » et « description » conviennent à l’
 -   La propriété « FriendlyName » est disponible pour chaque appareil. Il contient un nom explicite pour l’appareil.
 -   La propriété « Description » est disponible uniquement pour les appareils caméscopes DV et D-VHS/MPEG. Pour plus d’informations, consultez [pilote MSDV](msdv-driver.md) et [pilote MSTape](mstape-driver.md). S’il est disponible, il contient une description de l’appareil qui est plus spécifique que la propriété « FriendlyName ». En général, il comprend le nom du fournisseur.
 -   La propriété « DevicePath » n’est pas une chaîne explicite, mais elle est toujours unique pour chaque périphérique de capture vidéo sur le système. Vous pouvez utiliser cette propriété pour faire la distinction entre deux ou plusieurs instances du même modèle de périphérique.
--   Si la propriété « WaveInID » est présente, cela signifie que le filtre de capture DirectShow utilise les API [audio Waveform](../multimedia/waveform-audio.md) en interne pour communiquer avec l’appareil. La valeur de la propriété « WaveInID » correspond à l’identificateur utilisé par les fonctions «*Wave \**», telles que [_ *waveInOpen* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen).
+-   si la propriété « WaveInID » est présente, cela signifie que le filtre de capture DirectShow utilise les api [Audio Waveform](../multimedia/waveform-audio.md) en interne pour communiquer avec l’appareil. La valeur de la propriété « WaveInID » correspond à l’identificateur utilisé par les fonctions «*Wave \**», telles que [_ *waveInOpen* *](/windows/win32/api/mmeapi/nf-mmeapi-waveinopen).
 
 Pour lire les propriétés du moniker, procédez comme suit.
 
@@ -174,7 +174,7 @@ void main()
 
 
 
-Pour créer un filtre de capture DirectShow pour l’appareil, appelez la méthode [**IMoniker :: BindToObject**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject) pour obtenir un pointeur [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) . Appelez ensuite [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) pour ajouter le filtre au graphique de filtre :
+pour créer un filtre de capture DirectShow pour l’appareil, appelez la méthode [**IMoniker :: BindToObject**](/windows/win32/api/objidl/nf-objidl-imoniker-bindtoobject) pour obtenir un pointeur [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) . Appelez ensuite [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) pour ajouter le filtre au graphique de filtre :
 
 
 ```C++

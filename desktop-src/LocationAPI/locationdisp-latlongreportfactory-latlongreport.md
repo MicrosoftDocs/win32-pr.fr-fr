@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - locationapi.h
-ms.openlocfilehash: c44582c01685431e9b5dfa4820735728dd2a9cbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1f9e28b9b452c335fa4d549b1c979584f2e02c438957e4c7283ad8044def644
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129839"
 ---
 # <a name="locationdisplatlongreportfactorylatlongreport-property"></a>LocationDisp. LatLongReportFactory. LatLongReport, propriété
 
-\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l’API [**Windows. Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l' [**Windows. API Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Rapport de latitude/longitude actuel.
 
@@ -51,7 +51,7 @@ Pour obtenir un exemple d’utilisation de cette propriété, consultez [un exem
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                |
 | En-tête<br/>                   | <dl> <dt>Locationapi. h</dt> </dl> |
 

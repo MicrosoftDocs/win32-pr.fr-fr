@@ -3,7 +3,7 @@ title: TBN_WRAPACCELERATOR le code de notification (commctrl. h)
 description: Demande l’index du bouton dans une ou plusieurs barres d’outils correspondant au caractère d’accélérateur spécifié. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: fc2443fd-e1b3-4085-b65d-96c08f544944
 keywords:
-- Contrôles Windows de code de notification TBN_WRAPACCELERATOR
+- TBN_WRAPACCELERATOR les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ed5e6063f8ac32b317b8f7ce37682b151c56a4a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c5ec222f387108e2cb4d240e6dddf0fcb904d814097a96624a177425eb805ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105029"
 ---
 # <a name="tbn_wrapaccelerator-notification-code"></a>\_Code de notification TBN WRAPACCELERATOR
 
@@ -49,7 +49,7 @@ Pointeur vers une structure qui contient le caractère de touche accélérateur 
 
 **True** si un index est retourné ; sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications avec une ou plusieurs barres d’outils peuvent recevoir ce code de notification.
 
@@ -69,8 +69,8 @@ typedef struct tagNMTBWRAPACCELERATOR {
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

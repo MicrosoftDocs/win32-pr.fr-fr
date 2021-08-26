@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b22524d356bad5f23f4ca1cc8a3e7c68e69fd83f0dc38e64eba70bc1812436f7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6a60d6ed17c6a5524af2a9bb54f386a325f63c10
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880250"
 ---
 # <a name="starting-and-stopping-the-wmi-service"></a>Démarrage et arrêt du service WMI
 
@@ -29,7 +29,7 @@ La procédure suivante décrit comment démarrer le service WMI.
 
 **Pour démarrer le service WinMgmt**
 
-1.  À l’invite de commandes, entrez **net** **Start** **winmgmt** \[ */<switch>* \] .
+1.  À l’invite de commandes, entrez **net** **Start** **winmgmt** \[ */ &lt; Switch &gt;* \] .
 
     Pour plus d’informations sur les commutateurs disponibles, consultez [winmgmt](winmgmt.md). Vous utilisez le compte administrateur intégré ou un compte dans le groupe administrateurs s’exécutant avec des droits élevés pour démarrer le service WMI. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md).
 

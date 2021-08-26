@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09bda77a06723a6df63055374a3fc96cb80f7654
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bdae5535d079335354306e47ed8378fa09450d9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880052"
 ---
 # <a name="imstscaxstartconnected-property"></a>IMsTscAx :: StartConnected, propriété
 
@@ -100,15 +100,15 @@ Affectez la valeur **true** à ce paramètre si le contrôle doit se connecter i
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette propriété est particulièrement utile lorsque les propriétés de contrôle sont définies dans la liste de paramètres d’une <OBJECT> balise, plutôt qu’à l’aide d’appels de script.
+Cette propriété est particulièrement utile lorsque les propriétés de contrôle sont définies dans la liste de paramètres d’une &lt; &gt; balise d’objet, plutôt qu’à l’aide d’appels de script.
 
-Cette propriété ne peut être utilisée que si le nom du serveur est également spécifié à l’aide de la propriété de serveur. Ce paramètre doit être défini avant le démarrage du contrôle, par exemple, en l’incluant dans la liste des paramètres d’une <OBJECT> balise lors de l’utilisation du contrôle à partir d’une page Web.
+Cette propriété ne peut être utilisée que si le nom du serveur est également spécifié à l’aide de la propriété de serveur. Ce paramètre doit être défini avant le démarrage du contrôle, par exemple, en l’incluant dans la liste des paramètres d' &lt; une &gt; balise d’objet lors de l’utilisation du contrôle à partir d’une page Web.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -153,7 +153,7 @@ Pour plus d’informations sur la Connexion Bureau à distance par le Web, consu
 [**IMsRdpClient9**](imsrdpclient9.md)
 </dt> <dt>
 
-[Incorporation du contrôle Bureau à distance ActiveX dans une page Web](embedding-the-remote-desktop-activex-control-in-a-web-page.md)
+[incorporation du contrôle Bureau à distance ActiveX dans une page web](embedding-the-remote-desktop-activex-control-in-a-web-page.md)
 </dt> <dt>
 
 [**IMsTscAx**](imstscax-interface.md)

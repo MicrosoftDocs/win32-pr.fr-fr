@@ -4,12 +4,12 @@ description: Cette section contient des informations de référence sur les él�
 ms.assetid: c8e72ae9-7c71-465d-9a6b-07e7923d4a13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c64953f1875c65cb6ddea0107ffc9db8a58eb45d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f87c98f95f5cb00412b0018bda247c6ced49a6d4
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463822"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812727"
 ---
 # <a name="general-control-reference"></a>Référence de contrôle générale
 
@@ -29,8 +29,8 @@ Cette section contient des informations de référence sur les éléments de pro
 
 | Rubrique                                              | Contenu                                                                                                                                                           |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [À propos des contrôles communs](common-controls-intro.md) | Les contrôles communs sont un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, qui est une DLL incluse dans le système d’exploitation Windows.<br/> |
-| [FAQ sur les contrôles communs](cc-faq.md)                  | Ce Forum aux questions fournit des réponses à certaines questions courantes sur les contrôles communs.<br/>                                                                           |
+| [À propos des contrôles communs](common-controls-intro.md) | les contrôles communs sont un ensemble de fenêtres implémentées par la bibliothèque de contrôles communs, qui est une DLL incluse dans le système d’exploitation Windows.<br/> |
+| [FAQ sur les contrôles communs](cc-faq.yml)                  | Ce Forum aux questions fournit des réponses à certaines questions courantes sur les contrôles communs.<br/>                                                                           |
 
 
 
@@ -168,7 +168,7 @@ Cette section contient des informations de référence sur les éléments de pro
 | [\_LDOWN nm](nm-ldown.md)                               | Avertit la fenêtre parente d’un contrôle que le bouton gauche de la souris a été enfoncé. Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/>                                                       |
 | [\_NCHITTEST nm](nm-nchittest.md)                       | Envoyé par un contrôle rebar lorsque le contrôle reçoit un message [**WM \_ NCHITTEST**](/windows/desktop/inputdev/wm-nchittest) . Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/>                               |
 | [\_OUTOFMEMORY nm](nm-outofmemory.md)                   | Avertit la fenêtre parente d’un contrôle que le contrôle n’a pas pu terminer une opération, car la mémoire disponible est insuffisante. Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/>    |
-| [\_RDOWN nm](nm-rdown.md)                               | Actuellement non pris en charge.<br/>                                                                                                                                                                                                        |
+| [\_RDOWN nm](nm-rdown.md)                               | Non pris en charge actuellement.<br/>                                                                                                                                                                                                        |
 | [\_RELEASEDCAPTURE nm](nm-releasedcapture.md)           | Avertit la fenêtre parente d’un contrôle que le contrôle libère la capture de la souris. Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/>                                                       |
 | [\_retour nm](nm-return.md)                             | Avertit la fenêtre parente d’un contrôle que le contrôle a le focus d’entrée et que l’utilisateur a appuyé sur la touche entrée. Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/>                  |
 | [\_SETCURSOR nm](nm-setcursor.md)                       | Avertit la fenêtre parente d’un contrôle que le contrôle définit le curseur en réponse à un message [ \_ SETCURSOR nm](nm-setcursor.md) . Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) . <br/> |

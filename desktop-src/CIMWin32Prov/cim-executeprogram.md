@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: beaea36c40083e4305cf2304dd7a60dadc55e9eee3315288525ffcfdf056a192
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e3794e445281b5f95639ca3116c2d3565fca069e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119924009"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883663"
 ---
 # <a name="cim_executeprogram-class"></a>\_Classe CIM ExecuteProgram
 
@@ -843,8 +843,8 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
@@ -856,7 +856,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

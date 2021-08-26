@@ -4,12 +4,12 @@ ms.assetid: c51cd9bd-3c55-4eec-ab67-172765adc51c
 title: Table ServiceControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b8531fb70c1887d77ae9b09bf3fe7e59de0c7878dfac44707df942e838f4f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b0c360991ce4a72698ac1b667d82a98ba64b7a0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120039979"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885690"
 ---
 # <a name="servicecontrol-table"></a>Table ServiceControl
 
@@ -24,7 +24,7 @@ La table ServiceControl contient les colonnes suivantes.
 
 
 
-| Colonne         | Type                         | Clé | Nullable |
+| Colonne         | Type                         | Clé : | Nullable |
 |----------------|------------------------------|-----|----------|
 | ServiceControl | [Identificateur](identifier.md) | O   | N        |
 | Nom           | [Correct](formatted.md)   | N   | N        |
@@ -70,7 +70,7 @@ Les valeurs suivantes sont utilisées uniquement durant une installation.
 |------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventStart**  | 0x001       | 1       | Démarre le service pendant l' [action StartServices](startservices-action.md).    |
 | **msidbServiceControlEventStop**   | 0x002       | 2       | Arrête le service pendant l' [action StopServices](stopservices-action.md).       |
-| (aucun)                             | 0x004       | 4       | <reserved>                                                                   |
+| (aucun)                             | 0x004       | 4       | &lt;réservé&gt;                                                                   |
 | **msidbServiceControlEventDelete** | 0x008       | 8       | Supprime le service pendant l' [action DeleteServices](deleteservices-action.md). |
 
 
@@ -85,7 +85,7 @@ Les valeurs suivantes sont utilisées uniquement pendant une désinstallation.
 |---------------------------------------------|-------------|---------|------------------------------------------------------------------------------------|
 | **msidbServiceControlEventUninstallStart**  | 0x010       | 16      | Démarre le service pendant l' [action StartServices](startservices-action.md).    |
 | **msidbServiceControlEventUninstallStop**   | 0x020       | 32      | Arrête le service pendant l' [action StopServices](stopservices-action.md).       |
-| (aucun)                                      | 0x040       | 64      | <reserved>                                                                   |
+| (aucun)                                      | 0x040       | 64      | &lt;réservé&gt;                                                                   |
 | **msidbServiceControlEventUninstallDelete** | 0x080       | 128     | Supprime le service pendant l' [action DeleteServices](deleteservices-action.md). |
 
 

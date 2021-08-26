@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4864e3787b00ca72f90d0c6d15c35049abd58acd04c3d221aa29436d8885a652
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 317bbf71b166ea51e665ad96c58657927412cbab
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119080253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882022"
 ---
 # <a name="cim_videobioselement-class"></a>\_Classe CIM VideoBIOSElement
 
@@ -1023,8 +1023,8 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 Cette propriété est héritée de la classe [**CIM \_ SoftwareElement**](cim-softwareelement.md) .
 
@@ -1038,7 +1038,7 @@ WMI n’implémente pas cette classe.
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
