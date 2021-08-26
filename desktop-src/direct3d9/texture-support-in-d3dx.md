@@ -4,12 +4,12 @@ ms.assetid: 84815851-ca96-47ab-9f84-56ecaeb4a6d9
 title: Prise en charge de la texture dans D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f31a597ddcab317477d31e0d833c9da96f71ed4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 20ba518a5e9158c0337d45485852675d4ab91ef3585f027bd78fc51164c40466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026019"
 ---
 # <a name="texture-support-in-d3dx-direct3d-9"></a>Prise en charge de la texture dans D3DX (Direct3D 9)
 
@@ -53,7 +53,7 @@ A->Q or A->L
 -   1 <-> B, 1 est mappé au canal B, ou vice versa.
 -   1 <-> A, 1 est mappé au canal A, ou vice versa.
 
-Si un canal n’existe pas dans la source, il est supposé être 1 (à l’exception de A8, où R, G, B sont supposés être 0). Exemple :
+Si un canal n’existe pas dans la source, il est supposé être 1 (à l’exception de A8, où R, G, B sont supposés être 0). Par exemple :
 
 
 ```

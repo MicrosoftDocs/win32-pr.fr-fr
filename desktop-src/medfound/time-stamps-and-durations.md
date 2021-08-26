@@ -4,12 +4,12 @@ ms.assetid: 4ab576ce-becd-4736-921e-e463c0dff841
 title: Horodatages et durées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2323c11fa0e3ec2b2b2d5ba1cefe4f5d5fa80c5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22452e8b6b8094e643126f479f13b2c447db584588f3be1c1aa6595b3e7e2bb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953199"
 ---
 # <a name="time-stamps-and-durations"></a>Horodatages et durées
 
@@ -57,7 +57,7 @@ Si le flux d’entrée contient des horodatages, mais qu’il y a des écarts da
 ### <a name="mixers"></a>Mélangeurs
 
 > [!Note]  
-> Dans Windows Vista, le pipeline Media Foundation ne prend pas en charge MFTs avec plus d’une entrée. Les MFTs à entrées multiples sont pris en charge dans Windows 7.
+> dans Windows Vista, le pipeline Media Foundation ne prend pas en charge MFTs avec plus d’une entrée. les MFTs à entrées multiples sont pris en charge dans Windows 7.
 
  
 
@@ -78,7 +78,7 @@ Un encodeur convertit le contenu audio ou vidéo non compressé en paquets compr
 ### <a name="multiplexers"></a>Multiplexeurs
 
 > [!Note]  
-> Dans Windows Vista, le pipeline Media Foundation ne prend pas en charge MFTs avec plus d’une entrée. Les MFTs à entrées multiples sont pris en charge dans Windows 7.
+> dans Windows Vista, le pipeline Media Foundation ne prend pas en charge MFTs avec plus d’une entrée. les MFTs à entrées multiples sont pris en charge dans Windows 7.
 
  
 

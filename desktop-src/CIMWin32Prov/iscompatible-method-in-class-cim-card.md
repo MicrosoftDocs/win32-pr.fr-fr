@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0573cc9902826d2a283e549414cf31aae98cc331
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 84fb7bb4c6ae3f5f562bc0a51d4a2a8ee4852fcb19a820b35e073d389366b133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064699"
 ---
 # <a name="iscompatible-method-of-the-cim_card-class"></a>Méthode IsCompatible de la \_ classe de carte CIM
 
@@ -58,7 +58,7 @@ Référence à l’élément physique sur lequel la méthode **IsCompatible** s�
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -4,12 +4,12 @@ ms.assetid: 2b65a817-3f80-426f-ada0-bf4b34a410ed
 title: Récupération d’informations à l’aide de GetIpStatistics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c6267c3939548c8f8ea9ab2705ea1769360748e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c383c49b316eb48e240a8272957dae8ee3ec1671304df8d466b869b7bf4ec0a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050269"
 ---
 # <a name="retrieving-information-using-getipstatistics"></a>Récupération d’informations à l’aide de GetIpStatistics
 

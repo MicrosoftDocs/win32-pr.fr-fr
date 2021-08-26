@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5725b7d8b70c8f7c61eb44231812997a903ba41a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 63d71f47978a2eefdcbdacbe1c31bfe69c732c24a0479357b35aa1ddd2b0a9de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079399"
 ---
 # <a name="cbaseinputpinreceivemultiple-method"></a>Méthode CBaseInputPin. ReceiveMultiple
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                             | Description                                                |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                                        |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                                        |
 | <dl> <dt>**S \_ false**</dt> </dl>                 | Le code PIN est en cours de vidage ; l’exemple a été rejeté.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>               | Argument de pointeur **null** .<br/>                      |
 | <dl> <dt>**VFW \_ E \_ INVALIDMEDIATYPE**</dt> </dl> | Type de média non valide.<br/>                             |
@@ -84,7 +84,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode se comporte comme la méthode [**CBaseInputPin :: Receive**](cbaseinputpin-receive.md) , mais reçoit un tableau d’exemples. Dans la classe de base, la méthode parcourt le tableau et appelle **Receive** avec chaque exemple. Substituez cette fonction si votre filtre peut traiter des lots d’exemples plus efficacement que les traiter un par un.
 
@@ -94,7 +94,7 @@ Cette méthode se comporte comme la méthode [**CBaseInputPin :: Receive**](cba
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

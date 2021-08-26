@@ -4,18 +4,18 @@ ms.assetid: 53e782a2-0fab-46b4-b029-20017d9905bd
 title: Modèle de chronologie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac01f90e8ca827bde41f2ad36e1ab32b3d429437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67e5eeb60dce31fa466a518476bb3da341a3d2fda4fdeaa47ca58a89a904dded
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903807"
 ---
 # <a name="the-timeline-model"></a>Modèle de chronologie
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Une *chronologie* est un objet utilisé par les [services d’édition DirectShow](directshow-editing-services.md) pour représenter un projet de montage vidéo. Un projet d’édition commence sous la forme d’une collection d’éléments sources, issus de fichiers vidéo, de fichiers audio ou de fichiers image toujours. Une séquence linéaire d’éléments forme une *piste*. Dans les services de modification DirectShow (DES), l’audio et la vidéo sont placés dans des pistes distinctes.
+une *chronologie* est un objet que [DirectShow Services de modification](directshow-editing-services.md) (DES) utilise pour représenter un projet de montage vidéo. Un projet d’édition commence sous la forme d’une collection d’éléments sources, issus de fichiers vidéo, de fichiers audio ou de fichiers image toujours. Une séquence linéaire d’éléments forme une *piste*. dans DirectShow les Services d’édition, l’audio et la vidéo sont placés dans des pistes distinctes.
 
 Les pistes peuvent également être superposées. Plusieurs pistes audio sont mélangées et peuvent inclure des effets audio, tels qu’un fondu ou une réverbération. Plusieurs pistes vidéo sont utilisées pour créer des transitions. Par exemple, vous pouvez créer une réinitialisation d’un élément à un autre. Un autre exemple est une clé Chroma, dans laquelle l’arrière-plan d’un clip est entré et remplacé par une autre piste. (Les prévisions météorologiques devant une image satelite sont un exemple de masquage Chroma.)
 
@@ -43,7 +43,7 @@ La flèche située en haut représente le sens de la chronologie, à partir de l
 
 <dl> <dt>
 
-[Prise en main avec les services d’édition DirectShow](getting-started-with-directshow-editing-services.md)
+[Prise en main avec les Services d’édition DirectShow](getting-started-with-directshow-editing-services.md)
 </dt> <dt>
 
 [Construction d’une chronologie](constructing-a-timeline.md)

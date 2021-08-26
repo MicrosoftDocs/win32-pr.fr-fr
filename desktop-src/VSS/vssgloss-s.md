@@ -5,12 +5,12 @@ ms.assetid: c4f826bc-ea80-4fd5-99da-630e7ae56dd7
 title: S (Service VSS)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5979d30f0b88762a2d022a89063ee44bd91a3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92843e9277709a1138bc51b403089c932387e1b282e349c7907fc4cde88e9de8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124479"
 ---
 # <a name="s-volume-shadow-copy-service"></a>S (Service VSS)
 
@@ -66,7 +66,7 @@ Réplica à un point dans le temps en lecture seule du contenu d’un volume d�
 <span id="base.vssgloss_shadow_copies_for_shared_folders"></span><span id="BASE.VSSGLOSS_SHADOW_COPIES_FOR_SHARED_FOLDERS"></span>**clichés instantanés pour dossiers partagés**
 </dt> <dd>
 
-Fonctionnalité de Windows qui crée des copies de sauvegarde en ligne légères de volumes à l’aide de VSS. Les clients peuvent accéder à ces sauvegardes via le shell Windows pour voir les anciennes versions des fichiers et annuler des erreurs sans nécessiter une restauration complète. Voir aussi cliché [*instantané accessible*](vssgloss-c.md)par le client.
+fonctionnalité de Windows qui crée des copies de sauvegarde en ligne légères de volumes à l’aide de VSS. les Clients peuvent accéder à ces sauvegardes via le shell Windows pour voir les anciennes versions des fichiers et annuler des erreurs sans nécessiter une restauration complète. Voir aussi cliché [*instantané accessible*](vssgloss-c.md)par le client.
 
 </dd> <dt>
 
@@ -101,7 +101,7 @@ Volume de clichés instantanés visible pour l’espace de noms du gestionnaire 
 <span id="base.vssgloss_system_file_protection"></span><span id="BASE.VSSGLOSS_SYSTEM_FILE_PROTECTION"></span>**Protection des fichiers système**
 </dt> <dd>
 
-Voir [*protection des fichiers Windows*](vssgloss-w.md).
+consultez [*Windows Protection des fichiers*](vssgloss-w.md).
 
 </dd> <dt>
 

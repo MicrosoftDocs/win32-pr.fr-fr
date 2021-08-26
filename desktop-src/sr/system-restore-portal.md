@@ -7,12 +7,12 @@ keywords:
 - Restauration du système, page de démarrage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0bdc4555171ad867f6e6b925144d9ed673ffc3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4472806aa2c0b6f8a29cc4e687d16e262639a66c65bda37fdca970c6c38b656f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111289"
 ---
 # <a name="system-restore"></a>Restauration du système
 
@@ -27,11 +27,11 @@ La restauration du système surveille et enregistre automatiquement les modifica
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-L’API de restauration du système est conçue pour être utilisée par les programmeurs C/C++. Une bonne connaissance de Windows Management Instrumentation (WMI) est nécessaire pour utiliser l’interface de script.
+L’API de restauration du système est conçue pour être utilisée par les programmeurs C/C++. une bonne connaissance de Windows Management Instrumentation (WMI) est nécessaire pour utiliser l’interface de script.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API de restauration du système est prise en charge sur les systèmes d’exploitation clients à partir de Windows XP. Pour plus d’informations sur les systèmes d’exploitation requis pour utiliser un élément d’API particulier, consultez la section Configuration requise de sa documentation.
+l’API de restauration du système est prise en charge sur les systèmes d’exploitation clients à partir de Windows XP. Pour plus d’informations sur les systèmes d’exploitation requis pour utiliser un élément d’API particulier, consultez la section Configuration requise de sa documentation.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

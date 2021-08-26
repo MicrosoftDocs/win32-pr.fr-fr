@@ -3,9 +3,9 @@ title: Méthode IWMPControls3 getLanguageName
 description: La méthode getLanguageName retourne le nom de la langue audio avec l’identificateur de paramètres régionaux (LCID) spécifié.
 ms.assetid: a0651e8d-0ba1-4fff-93f0-fe097231723e
 keywords:
-- méthode getLanguageName lecteur Windows Media
-- méthode getLanguageName lecteur Windows Media, interface IWMPControls3
-- Interface IWMPControls3 lecteur Windows Media, méthode getLanguageName
+- Lecteur Windows Media de la méthode getLanguageName
+- méthode getLanguageName Lecteur Windows Media, interface IWMPControls3
+- Lecteur Windows Media de l’interface IWMPControls3, méthode getLanguageName
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d93bf97c7b5213e3d196897de1c3ebcfa6e6d2c5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c6850bd73c9add044bdb845d17341745c7546918f7824b611ed2f018f66139d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000489"
 ---
 # <a name="iwmpcontrols3getlanguagename-method"></a>IWMPControls3 :: getLanguageName, méthode
 
@@ -64,11 +64,11 @@ Implements IWMPControls3.getLanguageName
 
 **System. String** qui est le nom de la langue audio.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour Windows le contenu multimédia, les propriétés et les méthodes liées à la sélection de la langue prennent en charge une seule sortie.
 
 ## <a name="requirements"></a>Configuration requise
 

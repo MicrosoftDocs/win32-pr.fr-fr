@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d073d72590951ddbbbb74274d4cd237e0a138c4f
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: d8cb780f951433afc480c38d52c8120e086a91d32117fe9bb566657e0fcf9f24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948959"
 ---
 # <a name="waveprefixproduct-function"></a>Fonction WavePrefixProduct
 
@@ -42,7 +42,7 @@ Valeur à multiplier.
 
 Produit de toutes les valeurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’ordre des opérations sur cette routine ne peut pas être garanti. Ainsi, en fait, \[ l' \] indicateur précis est ignoré dans celui-ci.
 

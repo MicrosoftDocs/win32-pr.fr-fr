@@ -1,6 +1,6 @@
 ---
-title: Constantes d’erreur du journal des événements Windows (WinError. h)
-description: Voici les codes d’erreur définis par le journal des événements Windows.
+title: Windows Constantes d’erreur du journal des événements (WinError. h)
+description: voici les codes d’erreur que Windows journal des événements définit.
 ms.assetid: 889ea4ae-dede-45d5-9293-cec85d81f010
 topic_type:
 - apiref
@@ -49,16 +49,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: efa5443d98c53d6abedbe3a0027e8e2e524ae9df
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0f6f0bd3e2805c02dad78c064b56a443bfbb596cf42f25e9b52ac7ba584f123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031939"
 ---
-# <a name="windows-event-log-error-constants"></a>Constantes d’erreur du journal des événements Windows
+# <a name="windows-event-log-error-constants"></a>Windows Constantes d’erreur du journal des événements
 
-Voici les codes d’erreur définis par le journal des événements Windows.
+voici les codes d’erreur que Windows journal des événements définit.
 
 <dl> <dt>
 
@@ -218,7 +218,7 @@ Le curseur du résultat de la requête ne pointe pas vers une position valide.
 
 </dt> </dl> </dd> <dt>
 
-<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**ERREUR \_ evt \_ non- \_ validation de \_ MSXML**
+<span id="ERROR_EVT_NON_VALIDATING_MSXML"></span><span id="error_evt_non_validating_msxml"></span>**ERREUR \_ evt \_ non \_ validant \_ MSXML**
 </dt> <dd> <dl> <dt>
 
 15013
@@ -226,7 +226,7 @@ Le curseur du résultat de la requête ne pointe pas vers une position valide.
 
 
 
-L’analyseur MSXML inscrit ne prend pas en charge la validation.
+l’analyseur de MSXML inscrit ne prend pas en charge la validation.
 
 
 </dt> </dl> </dd> <dt>
@@ -562,8 +562,8 @@ Tentative de création d’un type numérique qui est en dehors de sa plage vali
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

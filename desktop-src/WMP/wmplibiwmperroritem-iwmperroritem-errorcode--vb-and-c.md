@@ -3,9 +3,9 @@ title: IWMPErrorItem errorCode, propriété
 description: La propriété errorCode obtient le code d’erreur actuel.
 ms.assetid: 00719067-685d-4ef2-9eec-72c7892fcdb9
 keywords:
-- propriété errorCode Windows Media Player
-- propriété errorCode lecteur Windows Media, interface IWMPErrorItem
-- Interface IWMPErrorItem lecteur Windows Media, errorCode, propriété
+- errorCode, propriété Lecteur Windows Media
+- errorCode, propriété Lecteur Windows Media, IWMPErrorItem, interface
+- Lecteur Windows Media de l’interface IWMPErrorItem, propriété errorCode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f284d5655fc1f4007695a1f681c744a9c5c6fc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d7179684fb0332e25716282adfd47a5f769493f646f73c82d0391bbce4e6a91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031209"
 ---
 # <a name="iwmperroritemerrorcode-property"></a>IWMPErrorItem :: errorCode, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property errorCode As System.Int32
 
 **System. Int32** qui correspond au code d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez définir **IWMPSettings. enableErrorDialogs** sur **false** si vous choisissez d’afficher des messages d’erreur personnalisés.
 

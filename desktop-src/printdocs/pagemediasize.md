@@ -4,12 +4,12 @@ ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 907f6a76932e17b6d60a67a65c3cfa657282b60c
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 075e6e683d9de419ea115c2873aff09698b784a19a86b6d0969a094c4f0636bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948242"
 ---
 # <a name="pagemediasize"></a>PageMediaSize
 

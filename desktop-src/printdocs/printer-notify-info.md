@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 631169cfcdabd6a87459ebb777adb6842d09089b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26c7fca07eda8638bf657055691d72c78bccdbec6ef2b9a8c76ee7cf830bc767
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091849"
 ---
 # <a name="printer_notify_info-structure"></a>Structure des informations de \_ notification de l’imprimante \_
 
@@ -70,7 +70,7 @@ Tableau de structures [**de \_ \_ \_ données d’informations de notification d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le membre **Flags** comporte l' \_ \_ ensemble de bits d’informations de notification d’imprimante \_ , cela indique qu’un dépassement de capacité ou une erreur s’est produite et que des notifications ont peut-être été perdues. Dans ce cas, vous devez appeler [**FindNextPrinterChangeNotification**](findnextprinterchangenotification.md) et spécifier l' \_ \_ \_ indicateur d’actualisation des options de notification d’imprimante pour récupérer toutes les informations actuelles. Tant que vous n’avez pas demandé cette opération d’actualisation, le système n’envoie pas de notifications supplémentaires pour cet objet de notification de modification.
 

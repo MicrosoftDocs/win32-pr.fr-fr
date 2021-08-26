@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9b4cb426c245c73b6644a95e45d7e2577b4f85f6ed7a28980894183854c1b26e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8c5948ad99111dc87578dfa15c5278cf03d5918e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942989"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469746"
 ---
 # <a name="extending-system-control-panel-items"></a>Extension des éléments du panneau de configuration système
 
@@ -36,82 +36,18 @@ Cela est similaire à la façon dont vous inscrivez une extension pour un objet 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément du panneau de configuration</th>
-<th><em>name</em></th>
-<th>Remarques</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Affichage</td>
-<td>Bureau</td>
-<td>Prend également en charge le remplacement de la page du <strong>Bureau</strong> .
-<blockquote>
-[!Note]<br />
-cela n’est plus pris en charge sous Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>affichage Paramètres avancé</td>
-<td>Appareil</td>
-<td>Propriétés avancées spécifiques au non-hardisme.
-<blockquote>
-[!Note]<br />
-cela n’est plus pris en charge sous Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>affichage Paramètres avancé</td>
-<td>Affichage</td>
-<td>Propriétés avancées spécifiques au matériel.
-<blockquote>
-[!Note]<br />
-cela n’est plus pris en charge sous Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Options Internet</td>
-<td>Internet</td>
-<td>Le nombre maximal de pages d’extension est 18.</td>
-</tr>
-<tr class="odd">
-<td>Clavier</td>
-<td>Clavier</td>
-<td>Le nombre maximal de pages d’extension est de 30.</td>
-</tr>
-<tr class="even">
-<td>Souris</td>
-<td>Souris</td>
-<td>Prend également en charge le remplacement des pages standard. Le nombre maximal de pages d’extension est de 8.</td>
-</tr>
-<tr class="odd">
-<td>Options d’alimentation</td>
-<td>Alimentation</td>
-<td>Le nombre maximal de pages, y compris les pages standard, est 18.</td>
-</tr>
-<tr class="even">
-<td>Système</td>
-<td>Système</td>
-<td>Le nombre maximal de pages d’extension est de 8.
-<blockquote>
-[!Note]<br />
-cela n’est plus pris en charge sous Windows Vista.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Élément du panneau de configuration | <em>name</em> | Remarques | 
+|--------------------|---------------|---------|
+| Affichage | Bureau | Prend également en charge le remplacement de la page du <strong>Bureau</strong> .<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
+| affichage Paramètres avancé | Appareil | Propriétés avancées spécifiques au non-hardisme.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
+| affichage Paramètres avancé | Affichage | Propriétés avancées spécifiques au matériel.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
+| Options Internet | Internet | Le nombre maximal de pages d’extension est 18. | 
+| Clavier | Clavier | Le nombre maximal de pages d’extension est de 30. | 
+| Souris | Souris | Prend également en charge le remplacement des pages standard. Le nombre maximal de pages d’extension est de 8. | 
+| Options d’alimentation | Alimentation électrique | Le nombre maximal de pages, y compris les pages standard, est 18. | 
+| Système | Système | Le nombre maximal de pages d’extension est de 8.<blockquote>[!Note]<br />cela n’est plus pris en charge sous Windows Vista.</blockquote><br /> | 
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: IMsTscNonScriptable propriété ClearTextPassword
-description: Définit le mot de passe du contrôle ActiveX Bureau à distance au format texte brut.
+description: définit le Bureau à distance ActiveX mot de passe de contrôle au format texte en clair.
 ms.assetid: 93d35b10-5c92-4ab7-a32a-328ba6fcf16b
 ms.tgt_platform: multiple
 keywords:
@@ -50,16 +50,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1aad33d7d85c6a5c331efe8383815e079150fb65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0519e7379eab529cc5275c85a11116764417d524a03dff2e1eab74a914b6560b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125049"
 ---
 # <a name="imstscnonscriptablecleartextpassword-property"></a>IMsTscNonScriptable :: ClearTextPassword, propriété
 
-Définit le mot de passe du contrôle ActiveX Bureau à distance au format texte brut.
+définit le Bureau à distance ActiveX mot de passe de contrôle au format texte en clair.
 
 Cette propriété est en écriture seule.
 
@@ -82,11 +82,11 @@ Mot de passe à utiliser pour la connexion, spécifié au format texte en clair.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mot de passe est transmis au serveur dans le canal de communications RDP chiffré en toute sécurité. Une fois qu’un mot de passe en texte clair est défini, il ne peut pas être récupéré au format texte brut.
 
-La propriété **ClearTextPassword** peut uniquement être définie lorsque le contrôle ActiveX Bureau à distance n’est pas dans l’état connecté. La définition de cette propriété échoue si le contrôle est connecté. Pour vérifier l’état connecté, récupérez la propriété [**IMsTscAx :: Connected**](imstscax-connected.md) .
+la propriété **ClearTextPassword** ne peut être définie que lorsque le Bureau à distance ActiveX contrôle n’est pas dans l’état connecté. La définition de cette propriété échoue si le contrôle est connecté. Pour vérifier l’état connecté, récupérez la propriété [**IMsTscAx :: Connected**](imstscax-connected.md) .
 
 Vous pouvez également appeler cette méthode pour définir un mot de passe en texte clair avant de le convertir en un mot de passe encodé portable ou en un mot de passe encodé binaire (non transférable). Notez cependant que les mots de passe encodés ne doivent pas être considérés comme étant chiffrés de manière sécurisée.
 
@@ -100,7 +100,7 @@ Si vous appelez pour la première fois cette méthode pour définir un mot de pa
 
 Après avoir suivi les trois étapes précédentes, vous pouvez définir le mot de passe au format encodé en définissant les propriétés [**BinaryPassword**](imstscnonscriptable-binarypassword.md) et [**BinarySalt**](imstscnonscriptable-binarysalt.md) , ou les propriétés [**PortablePassword**](imstscnonscriptable-portablepassword.md) et [**PortableSalt**](imstscnonscriptable-portablesalt.md) . Les deux parties sont requises.
 
-Pour activer l’ouverture de session automatique, vous devez également définir les propriétés de [**nom d’utilisateur**](imstscax-username.md) et de [**domaine**](imstscax-domain.md) . Si le mot de passe ne parvient pas à authentifier l’utilisateur, la boîte de dialogue d’ouverture de session Windows s’affiche sur le serveur pour inviter l’utilisateur à entrer le mot de passe.
+Pour activer l’ouverture de session automatique, vous devez également définir les propriétés de [**nom d’utilisateur**](imstscax-username.md) et de [**domaine**](imstscax-domain.md) . si le mot de passe ne parvient pas à authentifier l’utilisateur, la boîte de dialogue d’ouverture de session Windows s’affiche sur le serveur pour inviter l’utilisateur à entrer le mot de passe.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

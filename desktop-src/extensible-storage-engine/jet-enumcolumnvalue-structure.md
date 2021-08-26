@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bc95c6b8403a64432451ea29dbb66868fad25264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86905d49bb798d37bad48087c48e77349ec10f57
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518840"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482285"
 ---
 # <a name="jet_enumcolumnvalue-structure"></a>Structure JET_ENUMCOLUMNVALUE
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_enumcolumnvalue-structure"></a>Structure JET_ENUMCOLUMNVALUE
 
@@ -50,33 +50,13 @@ Valeur de colonne (par index de base un) qui a été énumérée.
 
 Code d’état de colonne résultant de l’énumération de la valeur de colonne.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_wrnColumnNull</p></td>
-<td><p>La valeur de la colonne demandée est NULL.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_wrnColumnSkipped</p></td>
-<td><p>Le <em>itagSequence</em> spécifié dans l’élément du tableau <em>rgtagSequence</em> dans le struct <a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a> qui correspond à ce <strong>JET_ENUMCOLUMNVALUE</strong> struct était égal à zéro.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_wrnColumnTruncated</p></td>
-<td><p>La valeur de colonne demandée a été tronquée à la taille spécifiée avant d’être retournée.</p>
-<p>Cette troncation se produit uniquement pour les colonnes de texte long et les colonnes binaires longues contenant de grandes quantités de données.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_wrnColumnNull</p> | <p>La valeur de la colonne demandée est NULL.</p> | 
+| <p>JET_wrnColumnSkipped</p> | <p>Le <em>itagSequence</em> spécifié dans l’élément du tableau <em>rgtagSequence</em> dans le struct <a href="gg294138(v=exchg.10).md">JET_ENUMCOLUMN</a> qui correspond à ce <strong>JET_ENUMCOLUMNVALUE</strong> struct était égal à zéro.</p> | 
+| <p>JET_wrnColumnTruncated</p> | <p>La valeur de colonne demandée a été tronquée à la taille spécifiée avant d’être retournée.</p><p>Cette troncation se produit uniquement pour les colonnes de texte long et les colonnes binaires longues contenant de grandes quantités de données.</p> | 
+
 
 
 **cbData**
@@ -93,26 +73,9 @@ La mémoire tampon de sortie est retournée dans la mémoire qui a été alloué
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

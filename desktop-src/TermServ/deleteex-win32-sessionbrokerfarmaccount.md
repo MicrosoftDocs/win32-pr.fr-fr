@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cdad7b1c7af85337ace59690bb44f4309254eb76
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aa891c874c9592ed11b2aa0840913e67daa7226a93f6f746cf74c45a0454a476
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080219"
 ---
 # <a name="deleteex-method-of-the-win32_sessionbrokerfarmaccount-class"></a>Méthode DeleteEx de la \_ classe Win32 SessionBrokerFarmAccount
 

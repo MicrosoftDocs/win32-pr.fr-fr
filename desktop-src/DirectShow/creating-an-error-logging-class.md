@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique explique comment implémenter la journalisation des erreurs dans les services de modification DirectShow.
+description: cette rubrique explique comment implémenter la journalisation des erreurs dans DirectShow Services d’édition.
 ms.assetid: c0b3b25c-ed03-4f78-9c53-0c0bcff1c60c
 title: Création d’une classe de journalisation des erreurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db08971c7bf1a0024669935079b7a9403c429327
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 194d927b2e4eae73f75a326ed03363d96f6121634e46b606ba87409e3bf07f9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108199"
 ---
 # <a name="creating-an-error-logging-class"></a>Création d’une classe de journalisation des erreurs
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-Cette rubrique explique comment implémenter la journalisation des erreurs dans les [services de modification DirectShow](directshow-editing-services.md).
+cette rubrique explique comment implémenter la journalisation des erreurs dans [DirectShow Services d’édition](directshow-editing-services.md).
 
 Tout d’abord, déclarez une classe qui implémente la journalisation des erreurs. La classe hérite de l’interface [**IAMErrorLog**](iamerrorlog.md) . Elle contient des déclarations pour les trois méthodes **IUnknown** et pour la méthode unique dans [IAMErrorLog](implementing-iamerrorlog.md). La déclaration de classe se présente comme suit :
 

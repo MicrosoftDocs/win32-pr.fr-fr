@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1365a0ab6d4a1411d78496cf157f3bc49fe5db15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b09cf6c50c4724cc7374163998af7b7bab77d61f4c16177fedddcc9b1e8de055
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125259"
 ---
 # <a name="imstscaxverticalscrollbarvisible-property"></a>IMsTscAx :: VerticalScrollBarVisible, propriété
 
@@ -86,7 +86,7 @@ La valeur de ce paramètre est **true** si la barre de défilement verticale est
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle affiche automatiquement une barre de défilement verticale si la hauteur du contrôle actuel est inférieure à la hauteur du bureau.
 

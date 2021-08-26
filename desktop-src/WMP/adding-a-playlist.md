@@ -4,19 +4,19 @@ description: Ajout d’une sélection
 ms.assetid: be0c2cac-245d-4435-87d9-4f17076e005a
 keywords:
 - création d’apparences, de sélections
-- Apparences du lecteur Windows Media, sélections
+- apparences de Lecteur Windows Media, sélections
 - apparences, sélections
 - sélections, habillages
 - sélections de métafichiers, apparences
-- Sélections de métafichiers Windows Media, apparences
+- Windows Sélections de métafichiers multimédias, habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c42a4bc253d4b1a3ba9b8fe0f31ca16b0d522956
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e23d9198f1f913b83cef40cea9f6ec47976f9f1e08a5e54257ab16df63e538b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106540753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031589"
 ---
 # <a name="adding-a-playlist"></a>Ajout d’une sélection
 
@@ -93,9 +93,9 @@ Vous pouvez voir une apparence de sélection de travail similaire dans la sectio
 [**Guide de création d’apparence**](skin-creation-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

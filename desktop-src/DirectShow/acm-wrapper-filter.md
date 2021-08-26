@@ -4,12 +4,12 @@ ms.assetid: f3cd8e90-8949-482a-8ada-47711f6c935f
 title: Filtre de wrappers ACM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6aaa56d955fe9cf1966e17c657fbf741b4bb8694a7f18b501b148b0383ea19d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3897f5345d9d974c16193f922e173a4e0237ece9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118664078"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468576"
 ---
 # <a name="acm-wrapper-filter"></a>Filtre de wrappers ACM
 
@@ -21,59 +21,9 @@ En tant que filtre de compression, le wrapper ACM apparaît dans la catégorie �
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Interfaces de filtre</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, IPersist, IPersistPropertyBag</td>
-</tr>
-<tr class="even">
-<td>Types de média de broche d’entrée</td>
-<td>MEDIATYPE_Audio, MEDIASUBTYPE_NULL FORMAT_WaveFormatEx</td>
-</tr>
-<tr class="odd">
-<td>Interfaces pin d’entrée</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche de sortie</td>
-<td>MEDIATYPE_Audio, MEDIASUBTYPE_PCM FORMAT_WaveFormatEx. les combinaisons suivantes sont possibles :<br/>
-<ul>
-<li>Échantillons par seconde (kHz) : 44,1, 22,05, 11,025 ou 8,0.</li>
-<li>Canaux : stéréo ou mono.</li>
-<li>Bits par échantillon : 8 ou 16.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Interfaces de broche de sortie</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>IAMStreamConfig</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>CLSID du filtre</td>
-<td>CLSID_ACMWrapper</td>
-</tr>
-<tr class="odd">
-<td>CLSID de page de propriétés</td>
-<td>Aucune page de propriétés.</td>
-</tr>
-<tr class="even">
-<td>Exécutable</td>
-<td>Quartz.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Mérite</a></td>
-<td>MERIT_NORMAL ou MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Catégorie de filtre</a></td>
-<td>CLSID_LegacyAmFilterCategory ou CLSID_AudioCompressorCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Filtrer les interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, IPersist, IPersistPropertyBag | | Types de média de broche d’entrée | MEDIATYPE_Audio, MEDIASUBTYPE_NULL, FORMAT_WaveFormatEx | | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | Types de média de broche de sortie | MEDIATYPE_Audio, MEDIASUBTYPE_PCM FORMAT_WaveFormatEx. les combinaisons suivantes sont possibles :<br /><ul><li>Échantillons par seconde (kHz) : 44,1, 22,05, 11,025 ou 8,0.</li><li>Canaux : stéréo ou mono.</li><li>Bits par échantillon : 8 ou 16.</li></ul> | | Interfaces de broche de sortie | <a href="/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig"><strong>IAMStreamConfig</strong></a>, <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | CLSID du filtre | CLSID_ACMWrapper | | CLSID de page de propriétés | Aucune page de propriétés. | | Fichier exécutable | Quartz.dll | | <a href="merit.md">Mérite</a> | MERIT_NORMAL ou MERIT_DO_NOT_USE | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory ou CLSID_AudioCompressorCategory | 
+
 
 
 

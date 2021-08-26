@@ -3,7 +3,7 @@ title: Message CB_SETITEMDATA (winuser. h)
 description: Une application envoie un \_ message CB SETITEMDATA pour définir la valeur associée à l’élément spécifié dans une zone de liste déroulante.
 ms.assetid: 8be9eb57-a635-4c52-9838-556368813c74
 keywords:
-- CB_SETITEMDATA les contrôles de message Windows
+- CB_SETITEMDATA les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbb1603f9906ebf30a391b57bd812dc2002136c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7abd50db9050178bc5d8d3b8ff556bce90f340fdb8d6692a514b0348aceeeab3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089009"
 ---
 # <a name="cb_setitemdata-message"></a>\_Message SETITEMDATA CB
 
@@ -47,7 +47,7 @@ Spécifie la nouvelle valeur à associer à l’élément.
 
 Si une erreur se produit, la valeur de retour est CB \_ Err.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément spécifié se trouve dans une zone de liste déroulante owner-drawn créée sans le style [**CBS \_ HASSTRINGS**](combo-box-styles.md) , ce message remplace la valeur dans le paramètre *lParam* du message [**CB \_ ADDSTRING**](cb-addstring.md) ou [**CB \_ INSERTSTRING**](cb-insertstring.md) qui a ajouté l’élément à la zone de liste déroulante.
 
@@ -57,8 +57,8 @@ Si l’élément spécifié se trouve dans une zone de liste déroulante owner-d
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

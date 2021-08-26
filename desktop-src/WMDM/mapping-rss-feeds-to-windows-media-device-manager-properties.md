@@ -1,9 +1,9 @@
 ---
-title: Mappage des flux RSS sur les propriétés de Gestionnaire de périphériques Windows Media
-description: Mappage des flux RSS sur les propriétés de Gestionnaire de périphériques Windows Media
+title: mappage des flux RSS aux propriétés du Gestionnaire de périphériques de médias Windows
+description: mappage des flux RSS aux propriétés du Gestionnaire de périphériques de médias Windows
 ms.assetid: 354c98ab-1392-476f-a650-75b948dc971a
 keywords:
-- Gestionnaire de périphériques Windows Media, flux RSS
+- Windows Gestionnaire de périphériques de média, flux RSS
 - Gestionnaire de périphériques, flux RSS
 - Guide de programmation, flux RSS
 - applications de bureau, flux RSS
@@ -11,16 +11,16 @@ keywords:
 - Flux RSS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3a81d52b4099d77542963d2e87ae5b7dc26b034
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 355515217db31740603d5c6323ef8455da4b29ee80bec508897d2d4df5d59bde
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120031679"
 ---
-# <a name="mapping-rss-feeds-to-windows-media-device-manager-properties"></a>Mappage des flux RSS sur les propriétés de Gestionnaire de périphériques Windows Media
+# <a name="mapping-rss-feeds-to-windows-media-device-manager-properties"></a>mappage des flux RSS aux propriétés du Gestionnaire de périphériques de médias Windows
 
-Le lecteur Windows Media 11 fournit une fonctionnalité d’agrégation RSS qui permet aux utilisateurs de stocker du contenu obtenu à partir de podcasts sur leurs ordinateurs. Cette rubrique décrit les éléments XML trouvés dans un flux RSS. En outre, il mappe ces éléments RSS aux propriétés de Gestionnaire de périphériques Windows Media.
+Lecteur Windows Media 11 fournit une fonctionnalité d’agrégation RSS qui permet aux utilisateurs de stocker du contenu obtenu à partir de podcasts sur leurs ordinateurs. Cette rubrique décrit les éléments XML trouvés dans un flux RSS. en outre, il mappe ces éléments RSS à Windows propriétés de Gestionnaire de périphériques de média.
 
 Les éléments d’un flux RSS possèdent la hiérarchie et les attributs suivants :
 
@@ -80,11 +80,11 @@ Les éléments d’un flux RSS possèdent la hiérarchie et les attributs suivan
 
 
 
-Le tableau suivant répertorie les éléments de canal dans un flux RSS et les propriétés Windows Media Gestionnaire de périphériques correspondantes.
+le tableau suivant répertorie les éléments de canal dans un flux RSS et les propriétés de Gestionnaire de périphériques de média Windows correspondantes.
 
 
 
-| Élément Channel | Statut         | Propriété Windows Media Gestionnaire de périphériques correspondante   |
+| Élément Channel | Statut         | propriété de Gestionnaire de périphériques de média Windows correspondante   |
 |-----------------|----------------|-------------------------------------------------------|
 | catégorie        | Facultatif       | [\_wszWMDMGenre g](metadata-constants.md)             |
 | cloud           | Non applicable | Non applicable                                        |
@@ -107,13 +107,13 @@ Le tableau suivant répertorie les éléments de canal dans un flux RSS et les p
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les éléments d’image dans un flux RSS et les propriétés WMDM correspondantes.
 
 
 
-| Élément Image | Statut   | Propriété Windows Media Gestionnaire de périphériques correspondante |
+| Élément Image | Statut   | propriété de Gestionnaire de périphériques de média Windows correspondante |
 |---------------|----------|-----------------------------------------------------|
 | description   | Facultatif | [\_wszWMDMDescription g](metadata-constants.md)     |
 | height        | Facultatif | [\_wszWMDMHeight g](metadata-constants.md)          |
@@ -124,13 +124,13 @@ Le tableau suivant répertorie les éléments d’image dans un flux RSS et les 
 
 
 
- 
+ 
 
-Le tableau suivant répertorie les éléments Item d’un flux RSS et les propriétés Windows Media Gestionnaire de périphériques correspondantes.
+le tableau suivant répertorie les éléments item d’un flux RSS et les propriétés de Gestionnaire de périphériques de média Windows correspondantes.
 
 
 
-| Item, élément | Attribut   | Statut         | Propriété Windows Media Gestionnaire de périphériques correspondante            |
+| Item, élément | Attribut   | Statut         | propriété de Gestionnaire de périphériques de média Windows correspondante            |
 |--------------|-------------|----------------|----------------------------------------------------------------|
 | auteur       |             | Facultatif       | [\_wszWMDMAuthor g](metadata-constants.md)                     |
 | catégorie     |             | Facultatif       | [\_wszWMDMGenre g](metadata-constants.md)                      |
@@ -149,7 +149,7 @@ Le tableau suivant répertorie les éléments Item d’un flux RSS et les propri
 
 
 
- 
+ 
 
 Exemple
 
@@ -204,13 +204,13 @@ L’exemple suivant montre un flux RSS complet pour un podcast fictif fourni par
 
 
 
-Mappage d’éléments de canal RSS avec les valeurs de Propriété Gestionnaire de périphériques Windows Media
+mappage d’éléments de canal RSS à des valeurs de propriété de Windows Media Gestionnaire de périphériques
 
-Le tableau suivant décrit comment les valeurs des éléments de canal RSS de l’exemple précédent sont mappées à des propriétés de Gestionnaire de périphériques Windows Media particulières.
+le tableau suivant décrit la façon dont les valeurs des éléments de canal RSS de l’exemple précédent sont mappées à des propriétés de Gestionnaire de périphériques de média Windows spécifiques.
 
 
 
-| Propriété de Gestionnaire de périphériques Windows Media                    | Valeur                                                                                         |
+| Windows Propriété Media Gestionnaire de périphériques                    | Valeur                                                                                         |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [\_wszWMDMAuthorDate g](metadata-constants.md)           | Vendredi 9 juin 2006 14:00:28 EDT                                                                 |
 | [\_wszWMDMDESCRIPTION g](metadata-constants.md)          | Peter Bankov, PDG de Lucerne Publishing, examine les dernières tendances des publications en ligne. |
@@ -231,15 +231,15 @@ Le tableau suivant décrit comment les valeurs des éléments de canal RSS de l�
 
 
 
- 
+ 
 
-Mappage d’éléments d’image RSS avec les valeurs de Propriété Gestionnaire de périphériques Windows Media
+mappage d’éléments d’Image RSS à des valeurs de propriété de Windows Media Gestionnaire de périphériques
 
-Le tableau suivant décrit comment les valeurs des éléments d’image RSS de l’exemple précédent sont mappées à des propriétés de Gestionnaire de périphériques Windows Media particulières.
+le tableau suivant décrit la façon dont les valeurs des éléments d’Image RSS de l’exemple précédent sont mappées à des propriétés de Gestionnaire de périphériques de média Windows spécifiques.
 
 
 
-| Propriété de Gestionnaire de périphériques Windows Media                | Valeur                                            |
+| Windows Propriété Media Gestionnaire de périphériques                | Valeur                                            |
 |------------------------------------------------------|--------------------------------------------------|
 | [\_wszWMDMAlbumCoverFormat g](metadata-constants.md) | \_ \_ gif format d’objet wpd \_                         |
 | [\_wszWMDMAlbumCoverSize g](metadata-constants.md)   | 512                                              |
@@ -252,15 +252,15 @@ Le tableau suivant décrit comment les valeurs des éléments d’image RSS de l
 
 
 
- 
+ 
 
-Mappage d’éléments d’élément RSS à des valeurs de Propriété Gestionnaire de périphériques Windows Media
+mappage d’éléments d’élément RSS à des valeurs de propriété Media Gestionnaire de périphériques Windows
 
-Le tableau suivant décrit comment les valeurs des éléments de l’élément RSS de l’exemple précédent sont mappées à des propriétés Gestionnaire de périphériques Windows Media spécifiques.
+le tableau suivant décrit la façon dont les valeurs des éléments de l’élément RSS de l’exemple précédent sont mappées à des propriétés Windows Media Gestionnaire de périphériques spécifiques.
 
 
 
-| Propriété de Gestionnaire de périphériques Windows Media                | Valeur                                                                                                                               |
+| Windows Propriété Media Gestionnaire de périphériques                | Valeur                                                                                                                               |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [\_wszWMDMAuthor g](metadata-constants.md)           | Lucerne                                                                                                                             |
 | [\_wszWMDMAuthorDate g](metadata-constants.md)       | Case, 1er juin 2006 14:00:28 EDT                                                                                                      |
@@ -279,7 +279,7 @@ Le tableau suivant décrit comment les valeurs des éléments de l’élément R
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -288,9 +288,9 @@ Le tableau suivant décrit comment les valeurs des éléments de l’élément R
 [**Constantes de métadonnées**](metadata-constants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

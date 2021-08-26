@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70ae728ded97bb68f3984b6fba323710d3582e984610ad6dec248d8509ea97f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 59486f12545c0dbe6b38e20e29f6df5397cbca21
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118824574"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466416"
 ---
 # <a name="window-control-type"></a>Window (type de contrôle)
 
@@ -50,28 +50,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Fenêtre</li>
-</ul></td>
-<td><ul>
-<li>Fenêtre</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Fenêtre</li></ul> | <ul><li>Fenêtre</li></ul> | 
+
 
 
 
@@ -83,7 +66,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur      | Remarques                                                                                                                                                   |
+| Propriété UI Automation                                                                                              | Valeur      | Notes                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                            |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                |
@@ -106,7 +89,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
-| Modèle de contrôle/Propriété de modèle                        | Prise en charge/valeur | Remarques                                                                                                                                                                        |
+| Modèle de contrôle/Propriété de modèle                        | Prise en charge/valeur | Notes                                                                                                                                                                        |
 |---------------------------------------------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IDockProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-idockprovider)           | Logique conditionnelle   | Le modèle de contrôle [Dock](uiauto-implementingdock.md) doit être pris en charge si la fenêtre peut être ancrée.                                                                       |
 | [**ITransformProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itransformprovider) | Obligatoire      | Le modèle de contrôle [Transform](uiauto-implementingtransform.md) permet à la fenêtre d’être déplacée, redimensionnée ou pivotée sur l’écran. (ne s’applique pas aux applications du windows Store Windows.) |
@@ -122,7 +105,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                                        | Remarques                                                                                                                                                                                                                     |
+| Événement UI Automation                                                                                                                                        | Notes                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AsyncContentLoadedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                                                                                                           |
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                           |                                                                                                                                                                                                                           |

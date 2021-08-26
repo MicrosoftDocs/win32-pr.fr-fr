@@ -6,12 +6,12 @@ keywords:
 - AriaLayoutTableErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ae1ef7cae971e6dc365bd3f8ebe6135561f3ff3
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 896c7ec4061119535ed544cfc41598c1387d98011eb275f6a0345d9334a7dc9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122282"
 ---
 # <a name="aria-presentation-table-error"></a>Erreur de table de présentation ARIA
 
@@ -21,7 +21,7 @@ La table utilisée pour la disposition ne doit pas avoir d’en-tête, de nom ac
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -39,13 +39,13 @@ Pour résoudre cette erreur, déterminez si la table est simplement une table de
 
 ![html pour un élément table, avec des attributs tels que le résumé qui déclenche l’erreur de table de présentation Aria affichée comme balise HTML barrée ](images/aria-layout-table.png)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous déterminez qu’une table a besoin d’informations d’accessibilité, supprimez l’attribut de [**rôle**](https://developer.mozilla.org/docs/Web/HTML/Reference) ou affectez-lui une valeur autre que « Presentation ».
 
- 
+ 
 
- 
+ 
 
 
 

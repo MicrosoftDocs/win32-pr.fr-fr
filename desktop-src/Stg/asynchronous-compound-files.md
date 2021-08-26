@@ -4,12 +4,12 @@ description: Les fichiers composés asynchrones, l’implémentation fournie par
 ms.assetid: 6cad074e-07a8-434f-a402-e29cb66a1a18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04de2162b50283b12bc8deed6ec908d92e7584d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d15404f33041fb52f5baa5230f69434ce390b985c41374235c1f3979ef6c2f4b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034983"
 ---
 # <a name="asynchronous-compound-files"></a>Fichiers composés asynchrones
 
@@ -25,6 +25,6 @@ Pour assurer le suivi des données disponibles pendant un téléchargement, un t
 
 Les objets de flux et de stockage asynchrones fournissent un point de connexion pour l’interface [**IProgressNotify**](/windows/win32/api/objidl/nn-objidl-iprogressnotify) , qui est implémentée par le code de téléchargement du moniker asynchrone. L’implémentation de fichiers composés asynchrones appelle **IProgressNotify** pour fournir au téléchargeur des informations sur l’état de l’opération de téléchargement.
 
- 
+ 
 
- 
+ 

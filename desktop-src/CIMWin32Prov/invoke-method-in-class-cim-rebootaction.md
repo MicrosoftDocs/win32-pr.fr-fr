@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e68849a486cc6a5b61dc55cf86e259e2f58435e8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eac69785beed5aa2b0865808bcca8bc5c3386506508acaebe177fc5008afaba8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064849"
 ---
 # <a name="invoke-method-of-the-cim_rebootaction-class"></a>Méthode Invoke de la \_ classe CIM rebootaction
 
@@ -49,7 +49,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne une valeur entière égale à 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

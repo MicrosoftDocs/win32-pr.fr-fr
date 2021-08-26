@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 89d0da76368fac2d2335cabda1f6d0a6130b499f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a30d4051303667402fdd1143f5a813d7515223c8093a5913294e6dd1722273
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918033"
 ---
 # <a name="id2d1brushsettransform-methods"></a>ID2D1Brush :: SetTransform, méthodes
 
@@ -34,7 +34,7 @@ Définit la transformation appliquée au pinceau.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Quand vous peignez avec un pinceau, il peint l’espace de coordonnées de la cible de rendu. Les pinceaux ne se positionnent pas automatiquement pour s’aligner avec l’objet qui est peint ; par défaut, ils commencent à peindre à l’origine (0,0) de la cible de rendu.
 

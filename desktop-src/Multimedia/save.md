@@ -3,7 +3,7 @@ title: Save, commande
 description: La commande Save enregistre un fichier MCI. Les périphériques vidéo-superposition et Waveform-Audio reconnaissent cette commande. Bien que les périphériques vidéo numériques et les séquenceurs MIDI reconnaissent également cette commande, les pilotes MCIAVI et MCISEQ ne le prennent pas en charge.
 ms.assetid: cae199b3-4ac4-49e0-9213-12d816b2f865
 keywords:
-- commande Save Windows Multimedia
+- enregistrer la commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0029ad03c1b7fe855e8485b2719b11628fac1103
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a0c7b4fb75f78f8468a204217f5a4fa1593a1c50d5db541a83070a7faed41cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106540769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037479"
 ---
 # <a name="save-command"></a>Save, commande
 
@@ -92,7 +92,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La variable *filename* est requise si l’appareil a été ouvert à l’aide de l’identificateur de périphérique « New ».
 

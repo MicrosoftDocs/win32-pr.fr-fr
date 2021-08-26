@@ -1,6 +1,6 @@
 ---
 title: Type complexe DebugDataType
-description: Définit les données qui peuvent être journalisées pour les événements du préprocesseur de trace logiciel Windows (WPP).
+description: définit les données qui peuvent être journalisées pour Windows événements du préprocesseur de trace logiciel (WPP).
 ms.assetid: 75638e0f-7a26-473e-a0c4-bd8972ac171f
 keywords:
 - DebugDataType type complexe EventLog
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c190d3b2b0e870ac249fed03485828685d5dc770
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38d5ec0297fce91b28592dfb9a894a62d3558f516a01ff18c942d37cc9c93f2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124229"
 ---
 # <a name="debugdatatype-complex-type"></a>Type complexe DebugDataType
 
-Définit les données qui peuvent être journalisées pour les événements du préprocesseur de trace logiciel Windows (WPP).
+définit les données qui peuvent être journalisées pour Windows événements du préprocesseur de trace logiciel (WPP).
 
 ``` syntax
 <xs:complexType name="DebugDataType">
@@ -88,7 +88,7 @@ Définit les données qui peuvent être journalisées pour les événements du p
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les éléments sont inclus uniquement si le fournisseur définit la \_ \_ variable d’environnement% préfixe de format de trace% pour les inclure. Pour plus d’informations sur ces éléments, consultez préfixe du message de suivi.
 
@@ -98,8 +98,8 @@ Les éléments sont inclus uniquement si le fournisseur définit la \_ \_ variab
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

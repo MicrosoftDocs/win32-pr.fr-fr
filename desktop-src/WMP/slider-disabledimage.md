@@ -3,7 +3,7 @@ title: Slider. disabledImage
 description: L’attribut disabledImage spécifie ou récupère l’image du curseur qui est utilisé lorsque le contrôle Slider est désactivé.
 ms.assetid: b6c4237d-8eb0-44ce-a23f-9bdc5c21aca8
 keywords:
-- Slider. disabledImage lecteur Windows Media
+- slider. disabledImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1b90dcbd551ca0f8bb332f858eac0b69c46733
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 596afbed41fa1a864d8ed4e5fd217cb4856a716623ad2a60db080b3e965ab48d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123069"
 ---
 # <a name="sliderdisabledimage"></a>Slider. disabledImage
 
@@ -31,7 +31,7 @@ L’attribut **disabledImage** spécifie ou récupère l’image du curseur qui 
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **DisabledImage** est facultatif. S’il n’est pas fourni, l' **BackgroundImage** est utilisé pour tous les États désactivés. Lorsqu’un contrôle Slider est désactivé, aucune image de premier plan n’est visible.
 

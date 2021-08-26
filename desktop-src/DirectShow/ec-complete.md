@@ -4,12 +4,12 @@ ms.assetid: 46037d53-085d-4fd0-91a0-408702cbfce5
 title: EC_COMPLETE (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd6d548a56173b9c6ea83426ddab3fa8556e312
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a3bb02275862e2cfaea88de5bad0ae545a257efc4d352506d284b83150032f1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119998199"
 ---
 # <a name="ec_complete"></a>EC \_ complet
 
@@ -39,7 +39,7 @@ Par défaut, le gestionnaire de graphes de filtre ne transfère pas cet événem
 
 Si l’action par défaut est désactivée pour cet événement, l’application reçoit tous les événements d' **\_ achèvement ce** des convertisseurs.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un filtre de convertisseur envoie cet événement lorsqu’il reçoit une notification de fin de flux. (La fin de flux est signalée par le biais de la méthode [**IPIN :: EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) .) Le filtre envoie exactement un événement **EC \_ Complete** pour chaque flux. Le filtre doit traiter tous les échantillons en attente avant d’envoyer l’événement. L’arrêt d’un convertisseur réinitialise tout état de fin de flux mis en cache.
 
@@ -64,7 +64,7 @@ Les filtres définissent le paramètre *lParam2* sur un pointeur [**IBaseFilter*
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> <dt>
 
 [Autres convertisseurs vidéo](alternative-video-renderers.md)

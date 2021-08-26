@@ -4,12 +4,12 @@ ms.assetid: 729c0e68-ef52-4d6c-b771-a89043a937e6
 title: Accès aux variables verrouillées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca2e083d3e3420e870ad9781b0d262df3d0786f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b298dffe45d1a0de655e225c8a240dd72be15a0fff7e4d6eac25ebb0a1130ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126319"
 ---
 # <a name="interlocked-variable-access"></a>Accès aux variables verrouillées
 
@@ -17,7 +17,7 @@ Les applications doivent synchroniser l’accès aux variables partagées par pl
 
 Les lectures et écritures simples dans des variables 32 bits correctement alignées sont des opérations atomiques. En d’autres termes, vous ne vous retrouvez pas avec une seule partie de la variable mise à jour. tous les bits sont mis à jour de manière atomique. Toutefois, la synchronisation de l’accès n’est pas garantie. Si deux threads lisent et écrivent à partir de la même variable, vous ne pouvez pas déterminer si un thread effectuera son opération de lecture avant que l’autre n’exécute son opération d’écriture.
 
-Les lectures et écritures simples pour aligner correctement les variables 64 bits sont atomiques sur Windows 64 bits. Il n’est pas garanti que les lectures et écritures dans les valeurs 64 bits soient atomiques sur les fenêtres 32 bits. Il n’est pas garanti que les lectures et écritures dans les variables d’autres tailles soient atomiques sur les plateformes.
+Les lectures et écritures simples pour aligner correctement les variables 64 bits sont atomiques sur les Windows 64 bits. Il n’est pas garanti que les lectures et écritures dans les valeurs 64 bits soient atomiques sur les Windows 32 bits. Il n’est pas garanti que les lectures et écritures dans les variables d’autres tailles soient atomiques sur les plateformes.
 
 ## <a name="the-interlocked-api"></a>API verrouillée
 
@@ -31,9 +31,9 @@ Les fonctions [**InterlockedCompareExchange**](/windows/win32/api/winnt/nf-winnt
 
 Les fonctions [**InterlockedAnd**](/windows/win32/api/winnt/nf-winnt-interlockedand), [**interverrouiller**](/windows/win32/api/winnt/nf-winnt-interlockedor)et [**InterlockedXor**](/windows/win32/api/winnt/nf-winnt-interlockedxor) effectuent atomiquement les opérations and, or et Xor, respectivement.
 
-Il existe des fonctions spécifiquement conçues pour effectuer un accès variable avec verrouillage sur les valeurs et les valeurs de mémoire 64 bits, et elles sont optimisées pour une utilisation sous Windows 64 bits. Chacune de ces fonctions contient « 64 » dans le nom ; par exemple, [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) et [**InterlockedCompareExchangeAcquire64**](/previous-versions/windows/desktop/legacy/ms683566(v=vs.85)).
+Certaines fonctions sont spécifiquement conçues pour effectuer l’accès aux variables interverrouillées sur les valeurs et les valeurs de mémoire 64 bits, et elles sont optimisées pour une utilisation sur 64 bits Windows. Chacune de ces fonctions contient « 64 » dans le nom ; par exemple, [**InterlockedDecrement64**](/windows/win32/api/winnt/nf-winnt-interlockeddecrement64) et [**InterlockedCompareExchangeAcquire64**](/previous-versions/windows/desktop/legacy/ms683566(v=vs.85)).
 
-La plupart des fonctions verrouillées fournissent des barrières de mémoire complètes sur toutes les plateformes Windows. Il existe également des fonctions qui combinent les opérations d’accès aux variables interverrouillées de base avec la sémantique d’acquisition et de libération de l’ordonnancement de mémoire prise en charge par certains processeurs. Chacune de ces fonctions contient le mot « Acquire » ou « Release » dans leur nom ; par exemple, [**InterlockedDecrementAcquire**](/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)) et [**InterlockedDecrementRelease**](/previous-versions/windows/desktop/legacy/ms683586(v=vs.85)). Acquérir la sémantique de mémoire spécifiez que l’opération de mémoire qui est effectuée par le thread actuel sera visible avant toute tentative d’opérations de mémoire. La sémantique de libération de mémoire spécifie que l’opération de mémoire qui est effectuée par le thread actuel sera visible une fois toutes les autres opérations de mémoire effectuées. Ces sémantiques vous permettent de forcer les opérations de mémoire à effectuer dans un ordre spécifique. Utilisez la sémantique Acquire lors de l’entrée d’une région protégée et de la sémantique de libération quand vous la quittez.
+la plupart des fonctions verrouillées fournissent des barrières de mémoire complètes sur toutes les plates-formes Windows. Il existe également des fonctions qui combinent les opérations d’accès aux variables interverrouillées de base avec la sémantique d’acquisition et de libération de l’ordonnancement de mémoire prise en charge par certains processeurs. Chacune de ces fonctions contient le mot « Acquire » ou « Release » dans leur nom ; par exemple, [**InterlockedDecrementAcquire**](/previous-versions/windows/desktop/legacy/ms683583(v=vs.85)) et [**InterlockedDecrementRelease**](/previous-versions/windows/desktop/legacy/ms683586(v=vs.85)). Acquérir la sémantique de mémoire spécifiez que l’opération de mémoire qui est effectuée par le thread actuel sera visible avant toute tentative d’opérations de mémoire. La sémantique de libération de mémoire spécifie que l’opération de mémoire qui est effectuée par le thread actuel sera visible une fois toutes les autres opérations de mémoire effectuées. Ces sémantiques vous permettent de forcer les opérations de mémoire à effectuer dans un ordre spécifique. Utilisez la sémantique Acquire lors de l’entrée d’une région protégée et de la sémantique de libération quand vous la quittez.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

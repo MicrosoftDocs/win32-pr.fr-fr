@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cd2b894bf78163a7b2d2387e43ecb5cec76ffdf4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8674ecbf7951ca0c208f9ffb50c0e5d9591b16552fda266c7d641905edd09a4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052189"
 ---
 # <a name="cbasevideorenderernotify-method"></a>CBaseVideoRenderer. Notify, méthode
 
@@ -61,7 +61,7 @@ Structure de notification de qualité.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode [**IQualityControl :: Notify**](/windows/desktop/api/Strmif/nf-strmif-iqualitycontrol-notify) sur le convertisseur vidéo. Elle est appelée, généralement par le gestionnaire de graphe de filtre, lorsque la qualité doit être coupée. Cela peut se produire lorsque la qualité de la lecture audio a été augmentée jusqu’au point que la qualité de la lecture de la vidéo doit être réduite.
 
@@ -73,7 +73,7 @@ Cette fonction membre implémente la méthode [**IQualityControl :: Notify**](/
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

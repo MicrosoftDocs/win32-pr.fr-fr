@@ -8,12 +8,12 @@ keywords:
 - Commande MCI_RESUME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddcd9618608226dec108d62754964fe6401d429
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5485365a6c846556a1037f55a0b211755ce0f93162bc6720c7241353fc8625b9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037099"
 ---
 # <a name="stopping-pausing-and-resuming-a-device"></a>Arrêt, suspension et reprise d’un appareil
 
@@ -23,9 +23,9 @@ L’utilisation de la commande [**lire**](play.md) ([**\_ lecture MCI**](mci-pla
 
 Certains appareils prennent en charge la commande de [**reprise**](resume.md) ([**\_ Resume MCI**](mci-resume.md)) pour redémarrer un appareil suspendu. Cette commande ne change pas les emplacements « to » et « from » spécifiés avec la commande **Play** ou **Record** qui a précédé la commande [**Pause**](pause.md) .
 
- 
+ 
 
- 
+ 
 
 
 

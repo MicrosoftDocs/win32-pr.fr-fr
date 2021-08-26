@@ -3,30 +3,30 @@ title: Gestion des données
 description: Cette rubrique explique comment les objets mémoire passent des données d’une application à une autre.
 ms.assetid: 32919f27-4699-4831-8837-c5160b1daf4e
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), gestion des données
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- échange dynamique de données (DDE), gestion des données
 - DDE (échange dynamique de données), gestion des données
 - échange de données, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), gestion des données
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- bibliothèque de gestion des échange dynamique de données (DDEML), gestion des données
 - DDEML (bibliothèque de gestion échange dynamique de données), gestion des données
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), objets
+- échange dynamique de données (DDE), objets
 - DDE (échange dynamique de données), objets
-- Bibliothèque de gestion des échange dynamique de données (DDEML), objets
+- bibliothèque de gestion des échange dynamique de données (DDEML), objets
 - DDEML (bibliothèque de gestion échange dynamique de données), objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc5178f636cf4b75111d4fc48e17fd144400a91
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 85dc9b8ccd82d184866ac9ed28f15bdeac424ec0bf9bd7767a520dea69bc4d11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119953739"
 ---
 # <a name="data-management"></a>Gestion des données
 
-Étant donné que échange dynamique de données (DDE) utilise des objets mémoire pour transmettre des données d’une application à une autre, la bibliothèque de gestion des échange dynamique de données (DDEML) fournit un ensemble de fonctions que les applications DDE peuvent utiliser pour créer et gérer des objets DDE.
+étant donné que échange dynamique de données (DDE) utilise des objets mémoire pour transmettre des données d’une application à une autre, la bibliothèque de gestion des échange dynamique de données (DDEML) fournit un ensemble de fonctions que les applications dde peuvent utiliser pour créer et gérer des objets dde.
 
 Toutes les transactions qui impliquent l’échange de données requièrent que l’application fournisse les données pour créer une mémoire tampon locale contenant les données, puis appelle la fonction [**DdeCreateDataHandle**](/windows/desktop/api/Ddeml/nf-ddeml-ddecreatedatahandle) . Cette fonction alloue un objet DDE, copie les données de la mémoire tampon vers l’objet et retourne un handle de données. Un descripteur de données est une valeur **DWORD** que le Ddeml utilise pour fournir l’accès aux données dans l’objet DDE. Pour partager les données dans un objet DDE, une application transmet le descripteur de données à DDEML et DDEML transmet le descripteur à la fonction de rappel DDE de l’application qui reçoit la transaction de données.
 
@@ -172,9 +172,9 @@ Si une application spécifie l' \_ indicateur HDATA APPOWNED dans le paramètre 
 
 Une application qui n’a pas encore passé le descripteur d’un objet DDE au DDEML peut ajouter des données à l’objet ou remplacer des données dans l’objet à l’aide de la fonction [**DdeAddData**](/windows/desktop/api/Ddeml/nf-ddeml-ddeadddata) . En règle générale, une application utilise **DdeAddData** pour remplir un objet DDE non initialisé. Une fois qu’une application a transmis un descripteur de données au DDEML, l’objet DDE identifié par le descripteur ne peut pas être modifié. elle peut uniquement être libérée.
 
- 
+ 
 
- 
+ 
 
 
 

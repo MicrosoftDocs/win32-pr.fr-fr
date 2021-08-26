@@ -1,32 +1,32 @@
 ---
 title: Fonctionnement des messages du compilateur de balisage
-description: Le compilateur de balisage de l’infrastructure du ruban Windows (ruban), compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
+description: le compilateur de balisage de l’infrastructure du ruban Windows (ruban), le compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
 ms.assetid: ef033c39-adc2-48e8-8ee2-f5f59383de92
 keywords:
-- Ruban Windows, messages du compilateur de balisage
+- Windows Ruban, messages du compilateur de balisage
 - Ruban, messages du compilateur de balisage
-- Ruban Windows, compilateur de commandes d’interface utilisateur (UICC.exe)
+- Windows Ruban, compilateur de commandes d’interface utilisateur (UICC.exe)
 - Ruban, compilateur de commandes d’interface utilisateur (UICC.exe)
-- Ruban Windows, erreurs de validation
+- Windows Ruban, erreurs de validation
 - Ruban, erreurs de validation
-- Ruban Windows, Erreurs
+- Windows Ruban, Erreurs
 - Ruban, Erreurs
-- Ruban Windows, messages d’information
+- Windows Ruban, messages d’information
 - Ruban, messages d’information
 - Compilateur de commandes d’interface utilisateur (UICC.exe)
 - UICC.exe (compilateur de commandes d’interface utilisateur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b61caeed284a74a61c2c745ba22017c7a8b22377
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: a67274d686436ca53f9e4ecefe01136c93f236eaa3b2097acd809b4245bc1001
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "106511469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110759"
 ---
 # <a name="understanding-markup-compiler-messages"></a>Fonctionnement des messages du compilateur de balisage
 
-Le compilateur de balisage de l’infrastructure du ruban Windows (ruban), compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
+le compilateur de balisage de l’infrastructure du ruban Windows (ruban), le compilateur de commande d’interface utilisateur (UICC.exe), valide la balise du ruban par rapport au schéma du ruban et à un ensemble supplémentaire de règles définies par l’infrastructure du ruban.
 
 -   [Messages de validation](#validation-messages)
     -   [Erreurs de validation](#understanding-markup-compiler-messages)

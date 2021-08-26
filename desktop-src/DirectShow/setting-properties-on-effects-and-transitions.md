@@ -4,18 +4,18 @@ ms.assetid: ce773140-7e50-4b72-8cb5-e34cba51644d
 title: Définition des propriétés des effets et des transitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ddd129eb9d4ab24ebef6f5c760a4211f26c9a6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1305eb7860b5519b14cfeebc349643c2662db3f133c0bf3424d1d71ccf85753c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904259"
 ---
 # <a name="setting-properties-on-effects-and-transitions"></a>Définition des propriétés des effets et des transitions
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
-De nombreux effets et transitions de [services d’édition DirectShow](directshow-editing-services.md) prennent en charge des propriétés qui contrôlent leur comportement. Une application peut définir la valeur d’une propriété à l’aide de l’interface [**IPropertySetter**](ipropertysetter.md) . L’effet sous-jacent ou l’objet de transition doit prendre en charge **IDispatch** pour définir les propriétés. Avec les effets vidéo et les transitions, l’application peut définir une plage de valeurs qui changent au fil du temps. (Par exemple, vous pouvez définir une transition de réinitialisation pour vous déplacer d’une image à l’autre.) Avec les effets audio, la valeur de la propriété est statique et ne peut pas changer au fil du temps. La seule exception est l’effet d' [enveloppe de volume](volume-envelope-effect.md) , qui prend en charge une propriété dynamique pour le niveau de volume.
+de nombreux DirectShow des effets et des transitions de [Services d’édition](directshow-editing-services.md) prennent en charge des propriétés qui contrôlent leur comportement. Une application peut définir la valeur d’une propriété à l’aide de l’interface [**IPropertySetter**](ipropertysetter.md) . L’effet sous-jacent ou l’objet de transition doit prendre en charge **IDispatch** pour définir les propriétés. Avec les effets vidéo et les transitions, l’application peut définir une plage de valeurs qui changent au fil du temps. (Par exemple, vous pouvez définir une transition de réinitialisation pour vous déplacer d’une image à l’autre.) Avec les effets audio, la valeur de la propriété est statique et ne peut pas changer au fil du temps. La seule exception est l’effet d' [enveloppe de volume](volume-envelope-effect.md) , qui prend en charge une propriété dynamique pour le niveau de volume.
 
 Pour définir une propriété, procédez comme suit.
 
@@ -33,7 +33,7 @@ La structure de [**\_ paramètre Dexter**](dexter-param.md) spécifie la propri�
 
 La \_ structure de valeur Dexterity spécifie la valeur d’une propriété à un moment donné. Il contient les membres suivants.
 
--   **v**: type Variant qui spécifie une nouvelle valeur pour la propriété. Le membre **VT** de cette variante définit le type de données de la propriété. Pour plus d’informations sur le type **Variant** , consultez le SDK Windows.
+-   **v**: type Variant qui spécifie une nouvelle valeur pour la propriété. Le membre **VT** de cette variante définit le type de données de la propriété. pour plus d’informations sur le type **VARIANT** , consultez le SDK Windows.
 -   **RT**: temps de référence lorsque la propriété suppose cette valeur, par rapport à l’heure de début de l’effet ou de la transition. L’heure de début de l’effet ou de la transition est relative à l’heure de début de son objet parent.
 -   **dwInterp**: indicateur qui spécifie la façon dont la propriété passe de la valeur précédente à la nouvelle valeur. Avec l' \_ indicateur de saut DEXTERF, la propriété passe instantanément à la nouvelle valeur à l’heure spécifiée. Avec l' \_ indicateur d’interpolation DEXTERF, la propriété est interpolée de façon linéaire par rapport à la valeur précédente.
 

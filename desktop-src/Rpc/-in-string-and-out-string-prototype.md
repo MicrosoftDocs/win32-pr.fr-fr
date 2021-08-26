@@ -4,12 +4,12 @@ description: Le prototype de fonction suivant utilise deux paramètres, un param
 ms.assetid: acb0ec4f-1846-4fa2-98c2-2081b52a8260
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c216197fb33a666029429d98761b3219b27b176
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 498d12c85130bba8d7d8dcddfc400e2a90fa2d0e2c3cb11c4a7d89696cfe9aa4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073619"
 ---
 # <a name="in-string-and-out-string-prototype"></a>\[in, String \] et \[ out, prototype de chaîne \]
 
@@ -25,6 +25,6 @@ Le premier paramètre est \[ [**dans**](/windows/desktop/Midl/in) \] uniquement.
 
 Le deuxième paramètre, représentant la réponse du médecin, est \[ uniquement [**sortant**](/windows/desktop/Midl/out-idl) \] . Cette chaîne de réponse est uniquement transmise du serveur au client. La taille d’allocation est fournie afin que les stubs de serveur puissent allouer de la mémoire à celle-ci. Étant donné que *pszOutput* est un \[ pointeur [**ref**](/windows/desktop/Midl/ref) \] , le client doit disposer de suffisamment de mémoire allouée pour la chaîne avant l’appel. La chaîne de réponse est écrite dans cette zone de mémoire lorsque la procédure distante retourne.
 
- 
+ 
 
- 
+ 

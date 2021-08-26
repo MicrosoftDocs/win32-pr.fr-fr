@@ -4,12 +4,12 @@ ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf2b8f44c90cdef37a6599bf25904949748c82ba
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: e8d7b3ed43aed1111d39e02e09f9f4ee658938b45053d64bec3beda4490f87b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949869"
 ---
 # <a name="documentbinding"></a>DocumentBinding
 
@@ -29,7 +29,7 @@ Décrit la méthode de liaison. Chaque document est lié séparément. DocumentB
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Document<br/>                                                                                                                             |
-| Notes <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize, où Left est indiqué par l’origine de l’axe x et de l’axe y.<br/> |
+| Remarques <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize, où Left est indiqué par l’origine de l’axe x et de l’axe y.<br/> |
 
 
 
@@ -65,7 +65,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 |------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_OptionName\_<br/>          | string<br/>  | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                                                                                                                     |
 | \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/>                                                                                           |
-| \_BindingGutterValue\_<br/>  | Integer<br/> | microns<br/>    | Supérieur ou égal à 0.<br/>                                                                                                                                                | Définit la marge de liaison minimale pour la liaison de finition spécifiée. La reliure est mesurée en microns par rapport au bord de la dimension de support physique.<br/> |
+| \_BindingGutterValue\_<br/>  | Entier<br/> | microns<br/>    | Supérieur ou égal à 0.<br/>                                                                                                                                                | Définit la marge de liaison minimale pour la liaison de finition spécifiée. La reliure est mesurée en microns par rapport au bord de la dimension de support physique.<br/> |
 
 
 

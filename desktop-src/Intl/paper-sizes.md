@@ -1,15 +1,15 @@
 ---
-description: 'Windows 2000 : cette rubrique définit les types de format de papier NLS associés à la \_ constante IPAPERSIZE des paramètres régionaux, indiquant le format de papier par défaut pour les paramètres régionaux.'
+description: 'Windows 2000 : cette rubrique définit les types de format de papier NLS associés à la \_ constante IPAPERSIZE de paramètres régionaux, indiquant le format de papier par défaut pour les paramètres régionaux.'
 ms.assetid: a685b9c1-1c94-4d67-93db-40a259e4923a
 title: Formats de papier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0871bfe3799a4f6644f978da5ce92aff28f8a646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d264831f9ac34bb802e603ddaf4b7bf6f9133b6354cf25e7d3a8f5f5400fd9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120040689"
 ---
 # <a name="paper-sizes"></a>Formats de papier
 

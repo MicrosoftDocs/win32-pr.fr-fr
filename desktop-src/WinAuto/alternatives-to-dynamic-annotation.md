@@ -4,12 +4,12 @@ description: Alternatives à l’annotation dynamique
 ms.assetid: d8019c65-620b-4aa2-a631-cc32f34e5510
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0027cf9a9913efdff379d2f0c01e7bf22bc94f44
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4af7582ec0fa3f317a0fabbdde0474c6a2e4d0b361062243d7518edf317477ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122429"
 ---
 # <a name="alternatives-to-dynamic-annotation"></a>Alternatives à l’annotation dynamique
 
@@ -41,11 +41,11 @@ Toutefois, il existe des scénarios dans lesquels ces techniques sont nécessair
 
 ## <a name="fixing-names-derived-from-labels"></a>Correction des noms dérivés d’étiquettes
 
-Certains contrôles communs Microsoft Win32, tels que le contrôle zone d’édition, sont presque toujours utilisés avec une étiquette (une entrée LTEXT dans le fichier de ressources) ou une zone de groupe (GROUPBOX dans le fichier de ressources). Microsoft Active Accessibility dérive automatiquement la propriété Name du contrôle à partir de son étiquette. Pour ces contrôles, le texte de la fenêtre (affiché dans Microsoft Visual Studio comme propriété Name ou ID) est ignoré, car il est généralement généré automatiquement et rarement très descriptif. par exemple, « IDC \_ Edit1 ».
+Certains contrôles communs Microsoft Win32, tels que le contrôle zone d’édition, sont presque toujours utilisés avec une étiquette (une entrée LTEXT dans le fichier de ressources) ou une zone de groupe (GROUPBOX dans le fichier de ressources). Microsoft Active Accessibility dérive automatiquement la propriété Name du contrôle à partir de son étiquette. pour ces contrôles, le texte de la fenêtre (affiché dans Microsoft Visual Studio comme propriété Name ou ID) est ignoré, car il est généralement généré automatiquement et rarement très descriptif. par exemple, « IDC \_ Edit1 ».
 
 Si l’interface utilisateur de l’application n’est pas conçue correctement, Microsoft Active Accessibility peut ne pas être en mesure de définir le nom correctement. Pour être associé à un contrôle, la zone d’étiquette ou de groupe doit être placée immédiatement avant le contrôle dynamique dans l’ordre de tabulation.
 
-L’ordre de tabulation peut être modifié à l’aide de l’outil dans Visual Studio (dans le menu **format** lorsque l’éditeur de ressources est ouvert) ou en modifiant directement le fichier de ressources.
+l’ordre de tabulation peut être modifié à l’aide de l’outil de Visual Studio (dans le menu **Format** lorsque l’éditeur de ressources est ouvert) ou en modifiant directement le fichier de ressources.
 
 L’exemple suivant illustre la description d’un fichier de ressources d’une boîte de dialogue qui contient deux zones d’édition étiquetées.
 
@@ -93,7 +93,7 @@ Lorsque les contrôles ont des étiquettes supplémentaires, telles que les vale
 
 Il n’est pas toujours possible ou souhaitable d’avoir une étiquette visible pour chaque contrôle. Toutefois, vous pouvez toujours fournir un nom pour le contrôle en ajoutant une étiquette invisible. Comme toujours, l’étiquette invisible doit immédiatement précéder le contrôle dans l’ordre de tabulation.
 
-Si vous utilisez l’éditeur de ressources dans Microsoft Visual Studio .NET, vous pouvez définir la propriété visible sur false. Pour rendre l’étiquette invisible quand vous modifiez le fichier de ressources (. RC), ajoutez non WS \_ visible ou à la partie de style du contrôle Label, comme indiqué dans l’exemple suivant.
+si vous utilisez l’éditeur de ressources dans Microsoft Visual Studio .net, vous pouvez définir la propriété Visible sur false. Pour rendre l’étiquette invisible quand vous modifiez le fichier de ressources (. RC), ajoutez non WS \_ visible ou à la partie de style du contrôle Label, comme indiqué dans l’exemple suivant.
 
 
 ```C++
@@ -104,6 +104,6 @@ Si vous utilisez l’éditeur de ressources dans Microsoft Visual Studio .NET, v
 
 Notez que toute touche de raccourci désignée fonctionne même si l’étiquette est invisible.
 
- 
+ 
 
- 
+ 

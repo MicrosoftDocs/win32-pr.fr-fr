@@ -3,7 +3,7 @@ title: Message LVM_SETINFOTIP (commctrl. h)
 description: Définit le texte info-bulle en réponse différée à la \_ notification LVN GETINFOTIP.
 ms.assetid: 3dbf6a9a-52ec-4619-9c70-041e75942e20
 keywords:
-- LVM_SETINFOTIP les contrôles de message Windows
+- LVM_SETINFOTIP les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90827766a6f1218dbbd631ed4eaf6b2989257944
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef739535e399550911adfbe86d7376d3efeb77cd797ba807b24ee682d1f3fe3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919899"
 ---
 # <a name="lvm_setinfotip-message"></a>\_Message SETINFOTIP LVM
 
@@ -39,7 +39,7 @@ Définit le texte info-bulle en réponse différée à la notification [LVN \_ G
 
 Retourne la **valeur true** si le texte de l’info-bulle est correctement défini, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **message \_ SETINFOTIP LVM** permet à une application de calculer info-bulles en arrière-plan en effectuant les étapes suivantes :
 
@@ -60,8 +60,8 @@ Le texte transmis au message **LVM \_ SETINFOTIP** s’affiche uniquement si l�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 50eced73-3917-4d7e-96cc-2d793b448738
 title: Erreurs d’écriture et veto
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c24c15ad10766fc6ec395ed058ab3cb72a689d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0835775aec21da9aa69e81b4f7af63f98d765b5c72763cb52af706c4e7a720e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124459"
 ---
 # <a name="writer-errors-and-vetoes"></a>Erreurs d’écriture et veto
 
@@ -26,7 +26,7 @@ Par exemple, supposons que [**GetWriterStatus**](/windows/desktop/api/VsBackup/n
 -   Service **VSS \_ E \_ WRITERERROR \_ INCONSISTENTSNAPSHOT** suggère qu’un demandeur peut ajouter des volumes supplémentaires au cliché instantané
 -   Service **VSS \_ E \_ WRITERERROR \_ renouvelable** indique que toute nouvelle tentative sans reconfiguration peut fonctionner. Si le writer continue à retourner l’erreur après plusieurs tentatives, essayez de redémarrer le service qui héberge l’enregistreur. Les Writers suivants sont hébergés dans le service VSS : Registry Writer, éditeur de base de données d’inscription de classe COM+, enregistreur d’optimisation de cliché instantané et Enregistreur ASR (Automated System Recovery). Si le writer appartient à une application qui héberge l’enregistreur dans son propre processus, essayez de redémarrer l’application.
 
-    **Windows Server 2003 et Windows XP :** Les enregistreurs suivants sont hébergés dans le service VSS : Registry Writer, l’enregistreur de base de données d’inscription de classe COM+, l’enregistreur des journaux des événements d’application et l’enregistreur Microsoft SQL Server 2000 Desktop Engine (MSDE).
+    **Windows Server 2003 et Windows XP :** les enregistreurs suivants sont hébergés dans le service VSS : registry writer, l’enregistreur de base de données d’inscription de classe COM+, l’enregistreur des journaux des événements d’application et l’enregistreur Microsoft SQL Server 2000 Desktop Engine (MSDE).
 
 -   \_ \_ L’état de l’enregistreur VSS E \_ \_ non \_ disponible indique qu’un enregistreur a peut-être atteint le nombre maximal de sessions de sauvegarde et de restauration disponibles et que la nouvelle tentative peut fonctionner lorsque le système est moins occupé.
 -   Service **VSS \_ Le \_ \_** **\_ \_ \_ délai d’expiration** de WRITERERROR OUTOFRESOURCES ou VSS e WRITERERROR peut suggérer une réduction de la charge système avant une nouvelle tentative

@@ -4,12 +4,12 @@ ms.assetid: d368b552-7ed3-4334-b97b-ff49d6c331c3
 title: Identification des opérations DVD valides
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444595e402dc73a3468946b820f031dabaecc2f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5fd1b99a38949ca0ff54d391e9ad5458bbe854a5c4af4140b15deaf4177147aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051979"
 ---
 # <a name="identifying-valid-dvd-operations"></a>Identification des opérations DVD valides
 

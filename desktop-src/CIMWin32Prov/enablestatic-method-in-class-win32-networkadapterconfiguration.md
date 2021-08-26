@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 74a7b9ca8c8016cca5a78f2e7fe753f00398193e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 03d2c7214f9cfb89b8efcb612f3bc07840448ff0eaf1b064556d2797b74d4822
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918419"
 ---
 # <a name="enablestatic-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode EnableStatic de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -423,7 +423,7 @@ Verrou d’écriture non activé. Pour plus d’informations, consultez [**INetC
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous utilisez **EnableStatic** pour modifier l’adresse IP de l’ordinateur distant, tout en étant connecté via cet adaptateur, vous risquez de perdre la connexion à l’ordinateur distant et de recevoir un message d’erreur RPC non disponible-. (Toutefois, les paramètres sont modifiés). Pour éviter ce scénario, envisagez de modifier la passerelle et/ou les paramètres DNS avant de définir l’adresse IP de la carte.
 

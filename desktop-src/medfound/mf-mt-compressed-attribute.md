@@ -4,12 +4,12 @@ ms.assetid: b44fb757-4390-4392-b1cb-37772b4ae3fb
 title: Attribut MF_MT_COMPRESSED (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d049795f09845b5d32daf29ef033ab2e4b23007f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afea99ffb0c9f7f9f53fb6edd0b4b87b2ecd4ff4f451e5fd0e56d47a70aee994
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060689"
 ---
 # <a name="mf_mt_compressed-attribute"></a>\_ \_ Attribut compressé MF MT
 
@@ -21,7 +21,7 @@ Spécifie pour un type de support si les données multimédia sont compressées.
 
 Traiter en tant que valeur booléenne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet attribut a la **valeur true**, le type de média est un format compressé. Dans le cas contraire, le type de média est décompressé ou le type de compression n’est pas connu.
 
@@ -37,8 +37,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

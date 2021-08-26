@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msoobci.dll
-ms.openlocfilehash: a541f51b030c9be7a26d573794e4df3a7cfc6f47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6b4ce8e447bc884d1b3ee64505d230b2e069ce6cda1630b027b8a48da68beda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001109"
 ---
 # <a name="uninstallcomponent-function"></a>UninstallComponent fonction)
 
@@ -51,7 +51,7 @@ GUID du composant d’exception en cours de désinstallation.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Indicateurs utilisés pour contrôler les comportements d’installation. Ce paramètre peut être une combinaison des valeurs suivantes.
@@ -62,7 +62,7 @@ Indicateurs utilisés pour contrôler les comportements d’installation. Ce par
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | <span id="COMP_FLAGS_NOUI"></span><span id="comp_flags_noui"></span><dl> <dt>**\_indicateurs COMP \_ noui**</dt> </dl>                                          | Supprime toute l’interface utilisateur.<br/>                                                                |
 | <span id="COMP_FLAGS_UPDATE_DLLCACHE"></span><span id="comp_flags_update_dllcache"></span><dl> <dt>**\_ \_ mise à jour dllcache des indicateurs COMP \_**</dt> </dl>        | Force la mise à jour du répertoire DLLCACHE lorsqu’un fichier système est mis à jour.<br/>        |
-| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**les \_ indicateurs COMP \_ utilisent le \_ \_ cache SVCPACK**</dt> </dl> | Utilise les fichiers mis en cache par une installation de Windows Service Pack pour remplacer les fichiers sauvegardés.<br/> |
+| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**les \_ indicateurs COMP \_ utilisent le \_ \_ cache SVCPACK**</dt> </dl> | utilise les fichiers mis en cache par un Windows Service Pack installer pour remplacer les fichiers sauvegardés.<br/> |
 
 
 
@@ -102,11 +102,11 @@ Révision du correctif logiciel du composant d’exception à désinstaller.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les packages d’exception sont des fichiers système Windows qui sont publiés en dehors d’une version de package complète de Windows et qui mettent à jour les fichiers du système d’exploitation. Les packages d’exception sont créés uniquement par des équipes de système d’exploitation qui ont reçu l’autorisation de mettre à jour les fichiers système Windows.
+les packages d’Exception sont Windows les fichiers système qui sont publiés en dehors d’un package complet Windows version et qui mettent à jour les fichiers du système d’exploitation. les packages d’Exception sont créés uniquement par les équipes du système d’exploitation qui ont reçu l’autorisation de mettre à jour Windows fichiers système.
 
-Pour installer et désinstaller des fichiers qui ne sont pas protégés par la protection des fichiers Windows, utilisez les fonctions documentées dans les [fonctions d’installation générales](https://msdn.microsoft.com/library/ms794585.aspx). Pour installer des pilotes de périphérique, les fournisseurs doivent utiliser les fonctions documentées dans [fonctions d’installation des appareils](https://msdn.microsoft.com/library/ms792954.aspx) et [fonctions PNP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
+pour installer et désinstaller des fichiers qui ne sont pas protégés par Windows Protection des fichiers, utilisez les fonctions documentées dans les [fonctions d’installation générales](https://msdn.microsoft.com/library/ms794585.aspx). Pour installer des pilotes de périphérique, les fournisseurs doivent utiliser les fonctions documentées dans [fonctions d’installation des appareils](https://msdn.microsoft.com/library/ms792954.aspx) et [fonctions PNP Configuration Manager](https://msdn.microsoft.com/library/ms790838.aspx).
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

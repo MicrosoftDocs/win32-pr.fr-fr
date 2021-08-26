@@ -6,12 +6,12 @@ keywords:
 - AriaContainerKeyboardAccessibilityErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085591e4f4834e8088b5ca199918d621f518e678
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 591098ba6e38836f1f39d13e72495bc1d7a3d5f9fe088873661e3dd3a7e65d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122399"
 ---
 # <a name="aria-container-role-keyboard-accessibility-error"></a>Erreur d’accessibilité du clavier du rôle de conteneur ARIA
 
@@ -21,7 +21,7 @@ L’élément est un conteneur avec une fonctionnalité descendante active et un
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -75,9 +75,9 @@ Pour corriger cette erreur, implémentez l’un des gestionnaires d’événemen
 [Rôle de conteneur ARIA (sans descendant actif) erreur d’accessibilité du clavier](aria-container--no-active-descendants--keyboard-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

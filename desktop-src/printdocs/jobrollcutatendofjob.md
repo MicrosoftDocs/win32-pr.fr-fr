@@ -4,12 +4,12 @@ ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11fdb973f3fda9fea28f64f0edb232910f2d2201
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 012ba13de0106f5132f0f42f385e8574f6254c86d6504c88b9fd18909b0a8473
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112349"
 ---
 # <a name="jobrollcutatendofjob"></a>JobRollCutAtEndOfJob
 

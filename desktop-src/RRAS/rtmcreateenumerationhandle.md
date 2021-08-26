@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14086639db299038139e0e7d02eb12bb892042bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 635bc169b1f68e2ef29e85e9e7ef800868453dd7221d08eda7953eda277ae423
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035909"
 ---
 # <a name="rtmcreateenumerationhandle-function"></a>RtmCreateEnumerationHandle fonction)
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La fonction **RtmCreateEnumerationHandle** retourne un handle à utiliser avec [**RtmEnumerateGetNextRoute**](rtmenumerategetnextroute.md) pour analyser tous les itinéraires, ou un sous-ensemble d’itinéraires, connus du gestionnaire de tables de routage.
 

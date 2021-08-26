@@ -4,30 +4,30 @@ description: Cet article traite des problèmes de compatibilité et de Portage e
 ms.assetid: 23a7ed41-6637-0607-327e-983b622e9104
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b12e57ea1b3cc3272ca40465df31a04244d99e68
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 439db3173e18206cb04875ab9c4422dbcedc7230508c8e98cf09b7fe27bfb9f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042429"
 ---
 # <a name="64-bit-programming-for-game-developers"></a>programmation 64 bits pour les développeurs de jeux
 
-Les fabricants de processeurs expédient exclusivement des processeurs 64 bits sur leurs ordinateurs de bureau, et même les chipsets de la plupart des ordinateurs portables prennent en charge la technologie x64. Il est important pour les développeurs de jeux de tirer parti des améliorations apportées par les processeurs 64 bits avec leurs nouvelles applications et de s’assurer que leurs applications antérieures s’exécutent correctement sur les nouveaux processeurs et les éditions 64 bits de Windows Vista et Windows 7. Cet article traite des problèmes de compatibilité et de Portage et aide les développeurs à faciliter leur transition vers des plateformes 64 bits.
+Les fabricants de processeurs expédient exclusivement des processeurs 64 bits sur leurs ordinateurs de bureau, et même les chipsets de la plupart des ordinateurs portables prennent en charge la technologie x64. il est important pour les développeurs de jeux de tirer parti des améliorations apportées par les processeurs 64 bits avec leurs nouvelles applications et de s’assurer que leurs applications antérieures s’exécutent correctement sur les nouveaux processeurs et les éditions 64 bits de Windows Vista et Windows 7. Cet article traite des problèmes de compatibilité et de Portage et aide les développeurs à faciliter leur transition vers des plateformes 64 bits.
 
 Microsoft possède actuellement les systèmes d’exploitation 64 bits suivants :
 
 -   Windows Server 2003 Service Pack 1
--   Windows XP Professionnel Édition x64 (disponible pour les fabricants d’ordinateurs OEM et les développeurs via MSDN)
+-   Windows XP Professional édition x64 (disponible pour les fabricants d’ordinateurs oem et les développeurs via MSDN)
 -   Windows Vista
 -   Windows Server 2008
 -   Windows 7
 -   Windows Server 2008 R2
 
 > [!Note]  
-> Windows Server 2008 R2 est uniquement disponible en version 64 bits.
+> Windows Le serveur 2008 R2 est uniquement disponible en version 64 bits.
 
- 
+ 
 
 -   [Différences dans la mémoire adressable](#differences-in-addressable-memory)
 -   [Spécification de la prise en charge des adresses importantes lors de la génération](#specifying-large-address-aware-when-building)
@@ -44,8 +44,8 @@ Microsoft possède actuellement les systèmes d’exploitation 64 bits suivants�
 La première chose que la plupart des développeurs remarquent est que les processeurs 64 bits fournissent un énorme bond dans la quantité de mémoire physique et virtuelle qui peut être traitée.
 
 -   les applications 32 bits sur les plateformes 32 bits peuvent traiter jusqu’à 2 Go.
--   les applications 32 bits générées avec l’indicateur d’éditeur de liens/LARGEADDRESSAWARE : YES sur 32 bits Windows XP ou Windows Server 2003 avec l’option de démarrage/3GB spéciale peuvent traiter jusqu’à 3 Go. Cela limite le noyau à 1 Go, ce qui peut entraîner l’échec de certains pilotes et/ou services.
--   les applications 32 bits générées avec l’indicateur d’éditeur de liens/LARGEADDRESSAWARE : YES sur les éditions 32 bits de Windows Vista, Windows Server 2008 et Windows 7 peuvent traiter la mémoire jusqu’au nombre spécifié par l’élément de données de configuration de démarrage (BCD) IncreaseUserVa. IncreaseUserVa peut avoir une valeur comprise entre 2048, la valeur par défaut, 3072 (qui correspond à la quantité de mémoire configurée par l’option de démarrage/3GB sur Windows XP). Le reste de 4 Go est alloué au noyau et peut entraîner l’échec des configurations du pilote et du service.
+-   les applications 32 bits générées avec l’indicateur d’éditeur de liens/largeaddressaware : YES sur 32 bits Windows XP ou Windows Server 2003 avec l’option de démarrage/3gb spéciale peuvent traiter jusqu’à 3 go. Cela limite le noyau à 1 Go, ce qui peut entraîner l’échec de certains pilotes et/ou services.
+-   les applications 32 bits générées avec l’indicateur de l’éditeur de liens/largeaddressaware : YES sur les éditions 32 bits de Windows Vista, Windows Server 2008 et Windows 7 peuvent traiter la mémoire jusqu’au nombre spécifié par l’élément de données de configuration de démarrage (BCD) IncreaseUserVa. IncreaseUserVa peut avoir une valeur comprise entre 2048, la valeur par défaut, 3072 (qui correspond à la quantité de mémoire configurée par l’option de démarrage/3gb sur Windows XP). Le reste de 4 Go est alloué au noyau et peut entraîner l’échec des configurations du pilote et du service.
 
     Pour plus d’informations sur BCD, consultez [données de configuration de démarrage (BCD)](https://msdn.microsoft.com/library/aa362692.aspx) sur MSDN.
 
@@ -62,18 +62,18 @@ Les applications 32 bits qui prennent en charge les adresses peuvent déterminer
 
 ## <a name="compatibility-of-32-bit-applications-on-64-bit-platforms"></a>Compatibilité des applications 32 bits sur les plateformes 64 bits
 
-Les systèmes d’exploitation Windows 64 bits sont compatibles binaires avec l’architecture IA32, et la majorité des API utilisées par les applications 32 bits sont disponibles via Windows 32 bits sur l’émulateur Windows 64 bits, WOW64. WOW64 permet de s’assurer que ces API fonctionnent comme prévu.
+les systèmes d’exploitation 64 bits Windows sont compatibles binaires avec l’architecture IA32, et la majorité des api utilisées par les applications 32 bits sont disponibles via le Windows 32 bits sur Windows Emulator 64 bits, WOW64. WOW64 permet de s’assurer que ces API fonctionnent comme prévu.
 
 WOW64 a une couche d’exécution qui gère le marshaling des données 32 bits. WOW64 redirige les demandes de fichier DLL, redirige certaines branches du Registre pour les applications 32 bits et reflète certaines branches du Registre pour les applications 32 et 64 bits.
 
-Pour plus d’informations sur WOW64, consultez les détails de l' [implémentation WOW64](/windows/desktop/WinProg64/wow64-implementation-details) sur MSDN. Pour connaître les meilleures pratiques pour la création d’applications qui s’exécutent sur WOW64, consultez [meilleures pratiques pour WOW64](https://www.microsoft.com/whdc/system/platform/64bit/WoW64_bestprac.mspx) sur Windows Hardware Developer Central.
+Pour plus d’informations sur WOW64, consultez les détails de l' [implémentation WOW64](/windows/desktop/WinProg64/wow64-implementation-details) sur MSDN. pour connaître les meilleures pratiques pour la création d’applications qui s’exécutent sur wow64, consultez [meilleures pratiques pour wow64](https://www.microsoft.com/whdc/system/platform/64bit/WoW64_bestprac.mspx) sur Windows Hardware developer Central.
 
 ### <a name="potential-compatibility-pitfalls"></a>Pièges de compatibilité potentiels
 
 La plupart des applications développées pour une plateforme 32 bits s’exécuteront sans problème sur une plateforme 64 bits. Certaines applications peuvent présenter des problèmes, notamment les suivants :
 
--   Tous les pilotes pour les éditions 64 bits des systèmes d’exploitation Windows doivent être des versions 64 bits. L’exigence de nouveaux pilotes 64 bits a des implications pour les schémas de protection contre la copie qui reposent sur les anciens pilotes. Notez que les pilotes en mode noyau doivent être signés par Authenticode pour être chargés par les éditions 64 bits de Windows.
--   les processus 64 bits ne peuvent pas charger les dll 32 bits, et les processus 32 bits ne peuvent pas charger les dll 64 bits. Les développeurs doivent s’assurer que les versions 64 bits des dll tierces sont disponibles avant de procéder au développement. Si vous devez utiliser une DLL 32 bits dans un processus 64 bits, la communication entre processus Windows (IPC) peut être utilisée. Les composants COM peuvent également utiliser les serveurs hors processus et le marshaling pour communiquer entre les limites, mais cela peut entraîner une baisse des performances.
+-   tous les pilotes pour les éditions 64 bits de Windows systèmes d’exploitation doivent être des versions 64 bits. L’exigence de nouveaux pilotes 64 bits a des implications pour les schémas de protection contre la copie qui reposent sur les anciens pilotes. Notez que les pilotes en mode noyau doivent être signés par Authenticode pour être chargés par les éditions 64 bits de Windows.
+-   les processus 64 bits ne peuvent pas charger les dll 32 bits, et les processus 32 bits ne peuvent pas charger les dll 64 bits. Les développeurs doivent s’assurer que les versions 64 bits des dll tierces sont disponibles avant de procéder au développement. si vous devez utiliser une DLL 32 bits dans un processus 64 bits, Windows la communication entre processus (IPC) peut être utilisée. Les composants COM peuvent également utiliser les serveurs hors processus et le marshaling pour communiquer entre les limites, mais cela peut entraîner une baisse des performances.
 -   De nombreux processeurs x64 sont également des processeurs multicœurs, et les développeurs doivent tester la manière dont cela affecte leurs applications héritées. Vous trouverez plus d’informations sur les processeurs multicœurs et les implications pour les applications de jeu dans les [processeurs de synchronisation de jeux et multicœurs](/windows/desktop/DxTechArts/game-timing-and-multicore-processors).
 -   Les applications doivent également appeler [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) pour découvrir les chemins d’accès aux fichiers, car certains noms de dossiers ont été modifiés dans certains cas. Par exemple, les \_ fichiers programme CSIDL \_ retournent « C : \\ Program Files (x86) » pour une application 32 bits qui s’exécute sur une plateforme 64 bits au lieu de « c : \\ Program Files ». Les développeurs doivent être attentifs à la façon dont les fonctionnalités de redirection et de réflexion de l’émulateur WOW64 fonctionnent.
 
@@ -82,22 +82,22 @@ En outre, les développeurs doivent être vigilants avec les programmes 16 bits 
 > [!Note]  
 > Les problèmes de compatibilité les plus courants sont les programmes d’installation qui exécutent du code 16 bits et qui n’ont pas de pilotes 64 bits pour les schémas de protection contre la copie.
 
- 
+ 
 
 La section suivante traite des problèmes liés au portage de code vers le mode natif 64 bits pour les développeurs qui souhaitent s’assurer que leurs programmes hérités fonctionnent sur des plateformes 64 bits. C’est également pour les développeurs qui ne connaissent pas la programmation 64 bits.
 
 ## <a name="porting-applications-to-64-bit-platforms"></a>Portage d’applications vers des plateformes 64 bits
 
-Le fait de disposer des bons outils et bibliothèques vous aidera à faciliter la transition du développement 32 bits à 64 bits. Le kit de développement logiciel (SDK) DirectX 9 contient des bibliothèques qui prennent en charge les projets x86 et x64. Microsoft Visual Studio 2005 et Visual Studio 2008 prennent en charge la génération de code pour x86 et x64, et elles sont fournies avec des bibliothèques optimisées pour la génération de code x64. Toutefois, il est également nécessaire pour les développeurs de distribuer les runtimes Visual C avec leurs applications. Notez que les éditions Express de Visual Studio 2005 et Visual Studio 2008 n’incluent pas le compilateur x64, contrairement aux éditions standard, Professional et Team System.
+Le fait de disposer des bons outils et bibliothèques vous aidera à faciliter la transition du développement 32 bits à 64 bits. Le kit de développement logiciel (SDK) DirectX 9 contient des bibliothèques qui prennent en charge les projets x86 et x64. Microsoft Visual Studio 2005 et Visual Studio 2008 prennent en charge la génération de code pour x86 et x64, et elles sont fournies avec des bibliothèques optimisées pour la génération de code x64. Toutefois, il est également nécessaire pour les développeurs de distribuer les runtimes Visual C avec leurs applications. notez que les éditions Express de Visual Studio 2005 et Visual Studio 2008 n’incluent pas le compilateur x64, mais que les éditions Standard, Professional et Team System les font.
 
 Les développeurs qui ciblent des plateformes 32 bits peuvent préparer le développement 64 bits pour faciliter la transition plus tard. Lors de la compilation de projets 32 bits, les développeurs doivent utiliser l’indicateur/Wp64, ce qui entraîne la génération d’avertissements sur les problèmes affectant la portabilité. Le basculement vers les outils et les bibliothèques 64 bits générera probablement beaucoup de nouvelles erreurs de génération. par conséquent, il est recommandé de basculer entre les outils et les bibliothèques de bits neutres et de corriger les avertissements avant de passer à une version 64 bits.
 
 Toutefois, la modification des outils, la modification des bibliothèques et l’utilisation de certains indicateurs du compilateur ne suffisent pas. Les hypothèses dans les normes de codage doivent être réévaluées pour s’assurer que les normes de codage actuelles n’autorisent pas les problèmes de portabilité. Les problèmes de portabilité peuvent inclure la troncation de pointeur, la taille et l’alignement des types de données, la dépendance sur les dll 32 bits, l’utilisation d’API héritées, le code assembleur et les anciens fichiers binaires.
 
 > [!Note]  
-> Visual C++ 2010 comprend les en-têtes stdint. h et cstdint C99 qui définissent les types de portabilité standard Int32 \_ t, UInt32 \_ t, Int64 \_ t, UInt64 \_ t, IntPtr \_ t et UIntPtr \_ t. L’utilisation de ceux-ci avec les types de données standard ptrdiff \_ t et Size \_ t peut être préférable aux types Windows portabilty utilisés ci-dessous pour améliorer la portabilité du code.
+> Visual C++ 2010 comprend les en-têtes stdint. h et cstdint C99 qui définissent les types de portabilité standard Int32 \_ t, UInt32 \_ t, Int64 \_ t, UInt64 \_ t, IntPtr \_ t et UIntPtr \_ t. l’utilisation de ceux-ci avec les types de données standard ptrdiff \_ t et size \_ t peut être préférable à la Windows types portabilty utilisés ci-dessous pour améliorer la portabilité du code.
 
- 
+ 
 
 Les principaux problèmes de Portage sont les suivants :
 
@@ -113,7 +113,7 @@ Les pointeurs étant de 64 bits sur un système d’exploitation 64 bits, le cas
 <span id="Data_Types_and_Binary_Files"></span><span id="data_types_and_binary_files"></span><span id="DATA_TYPES_AND_BINARY_FILES"></span>**Types de données et fichiers binaires**
 </dt> <dd>
 
-Alors que les pointeurs augmentent de 32 bits à 64 sur une plateforme 64 bits, les autres types de données ne le sont pas. Les types de données à précision fixe (DWORD32, DWORD64, INT32, INT64, LONG32, LONG64, UINT32, UINT64) peuvent être utilisés dans des emplacements où la taille du type de données doit être connue. par exemple, dans une structure de fichiers binaires. Les modifications apportées à la taille du pointeur et à l’alignement des données nécessitent un traitement spécial pour garantir la compatibilité 32 bits-à 64-bit. Pour plus d’informations, consultez [préparation pour Windows 64 bits : nouveaux types de données](/windows/desktop/WinProg64/the-new-data-types).
+Alors que les pointeurs augmentent de 32 bits à 64 sur une plateforme 64 bits, les autres types de données ne le sont pas. Les types de données à précision fixe (DWORD32, DWORD64, INT32, INT64, LONG32, LONG64, UINT32, UINT64) peuvent être utilisés dans des emplacements où la taille du type de données doit être connue. par exemple, dans une structure de fichiers binaires. Les modifications apportées à la taille du pointeur et à l’alignement des données nécessitent un traitement spécial pour garantir la compatibilité 32 bits-à 64-bit. pour plus d’informations, consultez [préparation à la Windows de 64 bits : nouveaux Types de données](/windows/desktop/WinProg64/the-new-data-types).
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ Certaines API Win32 ont été dépréciées et remplacées par des appels d’AP
 
 La baisse des performances pour les accès non alignés est plus importante sur la plateforme x64 que sur une plateforme x86. Les \_ macros alignement de type (t) et décalage de champ \_ (t, membre) peuvent être utilisées pour déterminer les informations d’alignement qui peuvent être utilisées directement par le code. L’utilisation correcte de ces macros mentionnées ci-dessus doit éliminer les pénalités potentielles d’accès non aligné.
 
-Pour plus d’informations sur la macro d’alignement de TYPE \_ , la \_ macro décalage de champ et les informations de programmation 64 bits générales, consultez [programmation Windows sur 64 bits : conseils de migration : considérations supplémentaires](/windows/desktop/WinProg64/additional-considerations) et [préparation pour les fenêtres 64 bits : règles d’utilisation des pointeurs](/windows/desktop/WinProg64/rules-for-using-pointers).
+pour plus d’informations sur la macro d’alignement de TYPE \_ , la \_ macro décalage de champ et les informations générales sur la programmation 64 bits, consultez [64 bits Windows programming : Migration Astuces : considérations supplémentaires](/windows/desktop/WinProg64/additional-considerations) et [préparation à 64 bits Windows : règles d’utilisation des pointeurs](/windows/desktop/WinProg64/rules-for-using-pointers).
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ X87, MMX et 3DNow ! les jeux d’instructions sont déconseillés en mode 64 bi
 
 Certaines API DirectX plus anciennes ont été supprimées pour les applications natives 64 bits : DirectPlay 4 et versions antérieures, DirectDraw 6 et versions antérieures, Direct3D 8 et versions antérieures, et DirectInput 7 et versions antérieures. En outre, l’API principale de DirectMusic est disponible pour les applications 64 bits natives, mais la couche de performances et le producteur DirectMusic sont déconseillés.
 
-Visual Studio émet des avertissements de désapprobation, et ces modifications ne sont pas un problème pour les développeurs qui utilisent les API les plus récentes.
+Visual Studio émet des avertissements de désapprobation, et ces modifications ne sont pas un problème pour les développeurs qui utilisent les api les plus récentes.
 
 </dd> </dl>
 
@@ -176,6 +176,6 @@ Les architectures 64 bits permettent aux développeurs de pousser les limites su
 
 Vous trouverez plus d’informations sur la programmation 64 bits dans [Visual C++ Centre de développement : programmation 64 bits](https://msdn.microsoft.com/vstudio//aa336463.aspx).
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b5019022cea823566611410cd6e8fd5013380b9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d0865df924fb3a01e3c10ae015f13b4ec6e06e900dad32ff966d9bdbfed0c75e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119952819"
 ---
 # <a name="id3dx11effectsamplervariable-interface"></a>Interface ID3DX11EffectSamplerVariable
 
@@ -50,7 +50,7 @@ L’interface **ID3DX11EffectSamplerVariable** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une interface [**ID3DX11EffectVariable**](id3dx11effectvariable.md) est créée lorsqu’un effet est lu dans la mémoire.
 
@@ -61,7 +61,7 @@ Les variables d’effet sont enregistrées en mémoire dans le magasin de stocka
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

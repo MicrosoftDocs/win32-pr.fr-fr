@@ -4,18 +4,18 @@ ms.assetid: b057aee6-5073-4f37-84a8-8e07f0fbdf4a
 title: TextureBrush, méthodes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 685d5cc0d17c04d92a76d7e10dfa5e81c2488b7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 89ecafebc78e8474738b501fa149888f29eca0c0bf9542593cea5e03252ff2c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115199"
 ---
 # <a name="texturebrush-methods"></a>TextureBrush, méthodes
 
 Cette rubrique répertorie les méthodes de la classe [**TextureBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush) . Pour obtenir une liste complète des classes, consultez **TextureBrush, classe**.
 
--   [**Clone**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
+-   [**Répliqué**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
 -   [**GetImage**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-texturebrush-getimage)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-getlaststatus)
 -   [**GetTransform**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-texturebrush-gettransform)

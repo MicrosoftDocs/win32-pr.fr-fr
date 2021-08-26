@@ -4,12 +4,12 @@ ms.assetid: 680c42e4-2808-46ed-98a8-c77b14a55def
 title: Attribut MFSampleExtension_BottomFieldFirst (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e608160c92fa53e8cde6adee1831d6c3e8789bc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56ab0a9847977ea25d93190911bbf2280629f0219eba3d4c4ddfb492e9fdcd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113069"
 ---
 # <a name="mfsampleextension_bottomfieldfirst-attribute"></a>\_Attribut MFSampleExtension BottomFieldFirst
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la trame vidéo est entrelacée et que l’échantillon contient deux champs entrelacés, cet attribut indique quel champ est affiché en premier. Si la **valeur est true**, le champ inférieur est tout d’abord dans le temps. Si la **valeur est false**, le champ supérieur est tout d’abord.
 
@@ -47,8 +47,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: f9dd92fe-6d7a-452c-893e-e6df1757e377
 title: Planification de la User-Mode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3ceea3c4d4e40d73f48414d074bcb5b4f6e911d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8a13b30685dbcbfc4d3d502e02bdbfdc10d15ea1f804cc6a8391073c44ce447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074239"
 ---
 # <a name="user-mode-scheduling"></a>Planification de la User-Mode
 
@@ -17,7 +17,7 @@ La planification en mode utilisateur (UMS) est un mécanisme léger que les appl
 
 UMS est recommandé pour les applications avec des exigences de performances élevées qui doivent exécuter efficacement un grand nombre de threads simultanément sur des systèmes multiprocesseurs ou multicœurs. Pour tirer parti de UMS, une application doit implémenter un composant de planificateur qui gère les threads UMS de l’application et détermine le moment où ils doivent s’exécuter. Les développeurs doivent déterminer si leurs exigences en matière de performances d’application justifient le travail impliqué dans le développement d’un tel composant. Les applications avec des exigences de performances modérées peuvent être mieux servies en permettant au planificateur système de planifier leurs threads.
 
-UMS est disponible pour les applications 64 bits qui s’exécutent sur les versions 64 bits de Windows 7 et Windows Server 2008 R2 ou version ultérieure 64 bits de Windows. Cette fonctionnalité n’est pas disponible sur les versions 32 bits de Windows.
+UMS est disponible pour les applications 64 bits s’exécutant sur les versions 64 bits de Windows 7 et Windows Server 2008 R2 ou versions ultérieures 64 bits de Windows. Cette fonctionnalité n’est pas disponible dans les versions 32 bits de Windows.
 
 Pour plus d’informations, consultez les sections suivantes :
 

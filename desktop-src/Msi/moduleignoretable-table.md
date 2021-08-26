@@ -1,19 +1,19 @@
 ---
-description: Si une table du module de fusion est listée dans le tableau ModuleIgnoreTable, elle n’est pas fusionnée dans le fichier. msi.
+description: Si une table du module de fusion est listée dans la table ModuleIgnoreTable, elle n’est pas fusionnée dans le fichier .msi.
 ms.assetid: 9ff87993-74f6-4436-b0a9-d7ebed6555bd
 title: Table ModuleIgnoreTable
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7b0191f616eced187411a148e40e0ae6575cca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46337b74f6822b374314a9248f0377ec63359c6576a6ca1398a931d27e548138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042857"
 ---
 # <a name="moduleignoretable-table"></a>Table ModuleIgnoreTable
 
-Si une table du module de fusion est listée dans le tableau ModuleIgnoreTable, elle n’est pas fusionnée dans le fichier. msi. Si la table existe déjà dans le fichier. msi, elle n’est pas modifiée par la fusion. Les tables dans ModuleIgnoreTable peuvent donc contenir des données qui ne sont pas nécessaires après la fusion.
+Si une table du module de fusion est listée dans la table ModuleIgnoreTable, elle n’est pas fusionnée dans le fichier .msi. Si la table existe déjà dans le fichier .msi, elle n’est pas modifiée par la fusion. Les tables dans ModuleIgnoreTable peuvent donc contenir des données qui ne sont pas nécessaires après la fusion.
 
 La table ModuleIgnoreTable contient les colonnes suivantes.
 
@@ -34,11 +34,11 @@ La table ModuleIgnoreTable contient les colonnes suivantes.
 <span id="Table"></span><span id="table"></span><span id="TABLE"></span>Tableau
 </dt> <dd>
 
-Nom de la table dans le module de fusion qui ne doit pas être fusionnée dans le fichier. msi.
+Nom de la table dans le module de fusion qui ne doit pas être fusionnée dans le fichier .msi.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour réduire la taille du fichier. msm, il est recommandé aux développeurs de supprimer les tables inutilisées des modules destinés à la redistribution plutôt que de répertorier ces tables dans la table ModuleIgnoreTable.
 
