@@ -19,12 +19,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: e99b3574762b84b830845da8149b0406664b6da7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6823795ea715ac72dfdb7150dac08fd7feb34445fcfab94412cb2dd0c6bd7a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949088"
 ---
 # <a name="getprinter-function"></a>GetPrinter fonction)
 
@@ -74,7 +74,7 @@ Le type de structure est déterminé par la valeur de *Level*.
 
 
 
-| Level                                                                                                | Structure                                                                                                                                                                                                        |
+| Niveau                                                                                                | Structure                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Une structure d’informations d' [**imprimante \_ \_ 1**](printer-info-1.md) contenant des informations générales sur l’imprimante.<br/>                                                                                                        |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Structure de l' [**imprimante \_ info \_ 2**](printer-info-2.md) contenant des informations détaillées sur l’imprimante.<br/>                                                                                             |
@@ -112,7 +112,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -148,7 +148,7 @@ Si vous spécifiez le niveau 7, le membre **dwAction** de [**Printer \_ info \_ 
 
  
 
-À compter de Windows Vista, les données d’imprimante retournées par **GetPrinter** sont récupérées à partir d’un cache local lorsque *hPrinter* fait référence à une imprimante hébergée par un serveur d’impression et qu’il y a au moins une connexion ouverte au serveur d’impression. Dans toutes les autres configurations, les données de l’imprimante sont interrogées à partir du serveur d’impression.
+à partir de Windows Vista, les données d’imprimante retournées par **GetPrinter** sont récupérées à partir d’un cache local lorsque *hPrinter* fait référence à une imprimante hébergée par un serveur d’impression et qu’il y a au moins une connexion ouverte au serveur d’impression. Dans toutes les autres configurations, les données de l’imprimante sont interrogées à partir du serveur d’impression.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -4,17 +4,17 @@ description: Avec une case d’option, les utilisateurs font un choix parmi un e
 ms.assetid: f9af0a8a-d4a1-464c-a967-bab88ae0726b
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 00495695753506702015431c889e74d5a7effe9a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: cbe870e1c1900de29dda515fd2142b951886929af46e69b4fea3fc6644e6f8fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934522"
 ---
 # <a name="radio-buttons"></a>Cases d’option
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une case d’option, les utilisateurs font un choix parmi un ensemble d’options associées s’excluant mutuellement. Les utilisateurs peuvent choisir une seule et unique option. Les cases d’option sont appelées, car elles fonctionnent comme les présélections de canal sur les radios.
 

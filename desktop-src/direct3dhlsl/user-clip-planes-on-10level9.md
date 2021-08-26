@@ -1,19 +1,19 @@
 ---
 title: Plans de clip utilisateur sur le matériel de niveau de fonctionnalité 9
-description: À compter de Windows 8, le langage HLSL (High Level Shader Language) de Microsoft prend en charge une syntaxe que vous pouvez utiliser avec l’API Microsoft Direct3D 11 pour spécifier des plans de clip utilisateur sur le niveau de fonctionnalité 9 \_ x et plus.
+description: à partir de Windows 8, le langage HLSL (High Level Shader Language) de microsoft prend en charge une syntaxe que vous pouvez utiliser avec l’API microsoft Direct3D 11 pour spécifier des plans de clip utilisateur sur le niveau de fonctionnalité 9 \_ x et versions ultérieures.
 ms.assetid: C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 968831ca39f2501a44b00f202fd8dfda1f92d1e7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dd6ffd624e688dbe5e3591e10ee5c005a9d4564dc5a536e9c89cfcee50067c2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948969"
 ---
 # <a name="user-clip-planes-on-feature-level-9-hardware"></a>Plans de clip utilisateur sur le matériel de niveau de fonctionnalité 9
 
-À compter de Windows 8, le langage HLSL (High Level Shader Language) de Microsoft prend en charge une syntaxe que vous pouvez utiliser avec l’API Microsoft Direct3D 11 pour spécifier des plans de clip utilisateur sur le [niveau de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ x et plus. Vous pouvez utiliser cette syntaxe pour écrire un nuanceur, puis utiliser cet objet de nuanceur avec l’API Direct3D 11 pour exécuter tous les niveaux de fonctionnalité Direct3D.
+à partir de Windows 8, le langage HLSL (High Level Shader Language) de microsoft prend en charge une syntaxe que vous pouvez utiliser avec l’API microsoft Direct3D 11 pour spécifier des plans de clip utilisateur sur le [niveau de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ x et versions ultérieures. Vous pouvez utiliser cette syntaxe pour écrire un nuanceur, puis utiliser cet objet de nuanceur avec l’API Direct3D 11 pour exécuter tous les niveaux de fonctionnalité Direct3D.
 
 -   [Contexte](#background-reading)
 -   [Syntaxe](#syntax)
@@ -28,9 +28,9 @@ ms.locfileid: "104315570"
 
 ## <a name="background"></a>Arrière-plan
 
-Vous pouvez accéder aux plans de clips utilisateur dans l’API Microsoft Direct3D 9 via les méthodes [**IDirect3DDevice9 :: SetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane) et [**IDirect3DDevice9 :: GetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane) . Dans Microsoft Direct3D 10 et versions ultérieures, vous pouvez accéder aux plans d’utilisateur à l’aide de la sémantique [SV \_ ClipDistance](dx-graphics-hlsl-semantics.md) . Mais avant Windows 8, SV \_ ClipDistance n’était pas disponible [](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) pour \_ le matériel de niveau de fonctionnalité 9 x dans les API Direct3D 10 ou Direct3D 11. Donc, avant Windows 8, le seul moyen d’accéder aux plans de l’utilisateur avec le matériel de niveau de fonctionnalité 9 \_ x consistait à utiliser l’API Direct3D 9. Les applications Direct3D du Windows Store ne peuvent pas utiliser l’API Direct3D 9. Ici, nous décrivons la syntaxe que vous pouvez utiliser pour accéder aux plans de l’utilisateur via l’API Direct3D 11 au niveau de la fonctionnalité 9 \_ x et versions ultérieures.
+Vous pouvez accéder aux plans de clips utilisateur dans l’API Microsoft Direct3D 9 via les méthodes [**IDirect3DDevice9 :: SetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane) et [**IDirect3DDevice9 :: GetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipplane) . Dans Microsoft Direct3D 10 et versions ultérieures, vous pouvez accéder aux plans d’utilisateur à l’aide de la sémantique [SV \_ ClipDistance](dx-graphics-hlsl-semantics.md) . mais avant Windows 8, SV \_ ClipDistance n’était pas disponible [](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) pour \_ le matériel de niveau de fonctionnalité 9 x dans les api direct3d 10 ou direct3d 11. donc, avant Windows 8, le seul moyen d’accéder aux plans de l’utilisateur avec le matériel de niveau de fonctionnalité 9 \_ x consistait à utiliser l’API Direct3D 9. les applications direct3d Windows store ne peuvent pas utiliser l’API direct3d 9. Ici, nous décrivons la syntaxe que vous pouvez utiliser pour accéder aux plans de l’utilisateur via l’API Direct3D 11 au niveau de la fonctionnalité 9 \_ x et versions ultérieures.
 
-Les applications utilisent des plans de coupe pour définir un ensemble de plans invisibles dans le monde 3D qui découpent (éliminent) toutes les primitives dessinées. Windows ne dessinera aucun pixel qui se trouve du côté négatif des plans de coupe. Les applications peuvent ensuite utiliser des plans de clip pour restituer les réflexions planaires.
+Les applications utilisent des plans de coupe pour définir un ensemble de plans invisibles dans le monde 3D qui découpent (éliminent) toutes les primitives dessinées. Windows ne dessine pas de pixel qui se trouve du côté négatif des plans de coupe. Les applications peuvent ensuite utiliser des plans de clip pour restituer les réflexions planaires.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -59,7 +59,7 @@ Cet exemple pour un fragment de nuanceur de sommets désigne deux plans de clip.
 > [!Note]  
 > Aucune syntaxe n’est disponible pour désactiver dynamiquement un plan de découpage. Vous devez recompiler un nuanceur identique qui ne possède pas d’attribut **clipplanes** , ou votre application peut définir les coefficients dans votre mémoire tampon constante à zéro afin que le plan n’affecte plus aucune géométrie.
 
- 
+ 
 
 Cette syntaxe est disponible pour n’importe quelle cible de nuanceur de sommets 4,0 ou ultérieur, qui comprend vs \_ 4 \_ 0 \_ niveau \_ 9 \_ 1 et vs \_ 4 \_ 0 \_ niveau \_ 9 \_ 3.
 
@@ -75,13 +75,13 @@ Ici, nous montrons comment créer des plans de clips dans l’espace sur les [fo
 
 Dans Direct3D 10 et versions ultérieures, vous pouvez découper n’importe quel espace logique, souvent dans l’espace universel ou dans l’espace d’affichage. Mais Direct3D 9 utilise l’espace de clip, qui est un espace de projection de préversion préalable. Les vecteurs sont dans l’espace de l’élément lorsque le nuanceur de sommets les passe aux étapes qui suivent dans le [pipeline Graphics](/windows/desktop/direct3d11/overviews-direct3d-11-graphics-pipeline).
 
-Lorsque vous écrivez une application du Windows Store, vous devez utiliser les niveaux de fonctionnalité 10Level9 ([niveau de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ x) pour que l’application puisse s’exécuter sur du matériel de niveau de fonctionnalité 9 \_ x et supérieur. Étant donné que votre application prend en charge le niveau de fonctionnalité 9 \_ x et les versions ultérieures, vous devez également utiliser la fonction d’application commune des plans de clip dans l’espace.
+lorsque vous écrivez une application Windows Store, vous devez utiliser les niveaux de fonctionnalité 10Level9 ([niveau de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 9 \_ x) pour que l’application puisse s’exécuter sur du matériel de niveau de fonctionnalité 9 \_ x et supérieur. Étant donné que votre application prend en charge le niveau de fonctionnalité 9 \_ x et les versions ultérieures, vous devez également utiliser la fonction d’application commune des plans de clip dans l’espace.
 
 Quand vous compilez un nuanceur vertex avec vs \_ 4 \_ 0 \_ niveau \_ 9 \_ 1 ou version ultérieure, ce nuanceur vertex peut utiliser l’attribut **clipplanes** . Un objet Direct3D 10 ou version ultérieure possède un produit scalaire du vertex émis qui contient chacune des constantes globales **float4** spécifiées dans l’attribut. L’objet Direct3D 9 a suffisamment de métadonnées pour obliger le runtime 10Level9 à émettre les appels appropriés à [**IDirect3DDevice9 :: SetClipPlane**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setclipplane).
 
 ### <a name="clip-plane-math"></a>Math plan de coupe
 
-Un plan de découpage est défini par un vecteur avec 4 composants. Les trois premiers composants définissent un vecteur x, y, z qui émane de l’origine de l’espace que vous souhaitez découper. Ce vecteur implique un plan, perpendiculaire au vecteur et s’exécutant par le biais de l’origine. Windows conserve tous les pixels du côté vecteur du plan et découpe tous les pixels situés derrière le plan. Le composant w est repousse le plan vers l’arrière et entraîne une réduction de la valeur de Windows (une w négative entraîne le découpage de Windows) le long de la ligne vectorielle. Si les composants x, y, z composent un vecteur unitaire (normalisé), w pousse les unités du plan w vers l’arrière.
+Un plan de découpage est défini par un vecteur avec 4 composants. Les trois premiers composants définissent un vecteur x, y, z qui émane de l’origine de l’espace que vous souhaitez découper. Ce vecteur implique un plan, perpendiculaire au vecteur et s’exécutant par le biais de l’origine. Windows conserve tous les pixels sur le côté vecteur du plan et découpe tous les pixels situés derrière le plan. le composant w est repousse le plan et provoque Windows pour découper moins (une w négative entraîne Windows à découper plus) le long de la ligne vectorielle. Si les composants x, y, z composent un vecteur unitaire (normalisé), w pousse les unités du plan w vers l’arrière.
 
 La mathématique que l’unité de traitement graphique (GPU) effectue pour déterminer le découpage est un simple point entre le vecteur de vertex (x, y, z, 1) et le vecteur du plan de découpage. Cette opération mathématique crée une longueur de projection sur le vecteur de plan de découpage. Un point négatif indique que le vertex se trouve sur le côté coupé du plan.
 
@@ -155,6 +155,6 @@ Notre plan de découpage d’espace de vue et notre matrice de projection dériv
 [Syntaxe de la déclaration des fonctions](dx-graphics-hlsl-function-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

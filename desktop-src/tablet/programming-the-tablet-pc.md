@@ -4,12 +4,12 @@ ms.assetid: 5c54adf8-336d-4e49-8b5e-90c6a05438ba
 title: Programmation du Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b7920acd4cff2bdb969a6aa93211d1aba0b00f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebe660c8a60d24163e9a501dc349afb2dbc194c70c62097e66690114f39aeabf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119934719"
 ---
 # <a name="programming-the-tablet-pc"></a>Programmation du Tablet PC
 
@@ -30,10 +30,10 @@ Pour plus d'informations, voir les rubriques suivantes :
 -   [Programmation du contrôle d’entrée mathématique](programming-the-math-input-control.md)
 -   [Programmation du panneau de saisie de texte](programming-the-text-input-panel.md)
 -   [Considérations sur les threads Tablet PC](tablet-pc-threading-considerations.md)
--   [Prise en charge de l’outil capture dans Windows Vista](snipping-tool-support-in-windows-vista.md)
+-   [prise en charge de l’outil capture dans Windows Vista](snipping-tool-support-in-windows-vista.md)
 -   [Reconnaissance vocale et accessibilité](speech-and-accessibility.md)
 -   [Exemples pour Tablet PC](mobile-pc-and-tablet-pc-samples.md)
--   [Prise en charge des entrées tactiles dans Windows Vista](touch-input-support-in-windows-vista.md)
+-   [prise en charge des entrées tactiles dans Windows Vista](touch-input-support-in-windows-vista.md)
 -   [Utilisation des mouvements](using-gestures.md)
 -   [Utilisation de la bibliothèque COM](using-the-com-library.md)
 -   [Utilisation du composant de lecture du journal](using-the-journal-reader-component.md)

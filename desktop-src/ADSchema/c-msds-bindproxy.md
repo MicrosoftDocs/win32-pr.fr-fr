@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db4fbb48080c83c3ea82b72c598e2a5a06037562
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6b029fbbfa876bb75ba1dd4e8756cbf1dc7865c60fe49daa5c7a687fbfa15b12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880249"
 ---
 # <a name="ms-ds-bind-proxy-class"></a>classe ms-DS-bind-proxy
 
-Classe auxiliaire pour représenter un proxy de liaison dans AD/AM. Le proxy de liaison fait référence à un principal de sécurité Windows via son attribut objectSid. Lorsqu’un utilisateur effectue une liaison simple avec un objet de proxy de liaison, la liaison est redirigée vers le principal Windows correspondant.
+Classe auxiliaire pour représenter un proxy de liaison dans AD/AM. le proxy de liaison référence une Windows principal de sécurité via son attribut objectSid. lorsqu’un utilisateur effectue une liaison simple avec un objet de proxy de liaison, la liaison est redirigée vers le principal de Windows correspondant.
 
 
 

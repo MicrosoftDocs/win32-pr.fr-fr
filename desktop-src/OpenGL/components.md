@@ -6,16 +6,16 @@ keywords:
 - OpenGL sur Windows, composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1294745938e245deda8296f2ce4d1df386b9f2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c11c8d23130393102f39b716e16c0a6433a40122ad176a525b40e2e1a21b0360
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119868779"
 ---
 # <a name="components"></a>Composants
 
-L’implémentation de OpenGL par Microsoft dans Windows comprend les composants suivants :
+l’implémentation de OpenGL par Microsoft dans Windows comprend les composants suivants :
 
 -   Ensemble complet des commandes OpenGL actuelles
 
@@ -41,15 +41,15 @@ L’implémentation de OpenGL par Microsoft dans Windows comprend les composants
 
 -   Fonctions WGL
 
-    Cet ensemble de fonctions connecte OpenGL au système de fenêtrage Windows. Les fonctions gèrent les contextes de rendu, les listes d’affichage, les fonctions d’extension et les bitmaps de police. Les fonctions WGL sont analogues aux extensions GLX qui connectent OpenGL au système de fenêtres X. Les noms de ces fonctions ont un préfixe « WGL ».
+    cet ensemble de fonctions connecte OpenGL au système de fenêtrage Windows. Les fonctions gèrent les contextes de rendu, les listes d’affichage, les fonctions d’extension et les bitmaps de police. Les fonctions WGL sont analogues aux extensions GLX qui connectent OpenGL au système de fenêtres X. Les noms de ces fonctions ont un préfixe « WGL ».
 
--   Nouvelles fonctions Windows pour les formats de pixel et la double mise en mémoire tampon
+-   nouvelles fonctions de Windows pour les formats de pixel et la double mise en mémoire tampon
 
     Ces fonctions prennent en charge les formats de pixel par fenêtre et la double mise en mémoire tampon (pour les modifications d’images lisses) de Windows. Ces nouvelles fonctions s’appliquent uniquement aux fenêtres graphiques OpenGL.
 
- 
+ 
 
- 
+ 
 
 
 

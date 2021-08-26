@@ -4,12 +4,12 @@ description: IAgentCommands SetVoice
 ms.assetid: dfb3b58a-7f24-4366-8f04-93a9e956fdc8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a8e29936dbca65ffded5f8a5e5ea5297b28362e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d02fb124b51a3be1796258fdcb8ffa31d8b81b59636027f3d99497b27cd2bd00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961899"
 ---
 # <a name="iagentcommandssetvoice"></a>IAgentCommands::SetVoice
 
@@ -84,7 +84,7 @@ Pour les moteurs de reconnaissance vocale en japonais, vous pouvez définir la g
 > [!Note]  
 > Les fonctionnalités grammaticales disponibles peuvent dépendre du moteur de reconnaissance vocale. Vous pouvez consulter le fournisseur du moteur pour déterminer les options grammaticales prises en charge. Utilisez [**SRModeID**](srmodeid-property.md) pour utiliser un moteur spécifique.
 
- 
+ 
 
 Le fonctionnement de cette propriété dépend de l’état de la reconnaissance vocale du serveur Microsoft Agent. Par exemple, si la reconnaissance vocale est désactivée ou n’est pas installée, cette fonction n’a aucun effet immédiat. Toutefois, si la reconnaissance vocale est activée au cours d’une session, la commande devient accessible lorsque son application cliente est active.
 
@@ -93,6 +93,6 @@ Le fonctionnement de cette propriété dépend de l’état de la reconnaissance
 [**IAgentCommands :: GetVoice**](iagentcommands--getvoice.md), [**IAgentCommands :: SetCaption**](iagentcommands--setcaption.md), [**IAgentCommands :: setVisible**](iagentcommands--setvisible.md)
 
 
- 
+ 
 
- 
+ 

@@ -3,9 +3,9 @@ title: IWMPNetwork propriété bufferingCount
 description: La propriété bufferingCount obtient le nombre de fois où la mise en mémoire tampon s’est produite pendant la lecture.
 ms.assetid: 2e3a2914-fc38-4477-8c4c-15b4a2e424dc
 keywords:
-- propriété bufferingCount lecteur Windows Media
-- propriété bufferingCount lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété bufferingCount
+- Lecteur Windows Media de la propriété bufferingCount
+- Lecteur Windows Media de la propriété bufferingCount, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété bufferingCount
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4958892dd9784ee72b51adfedbbcdee81817b52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92b69169e950cf3794d613bfd1d79d4953ce8f8a8bb01efe9ff17d6fa5961071
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899969"
 ---
 # <a name="iwmpnetworkbufferingcount-property"></a>IWMPNetwork :: bufferingCount, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bufferingCount As System.Int32
 
 **System. Int32** qui est le nombre de mises en mémoire tampon.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est réinitialisée à zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 

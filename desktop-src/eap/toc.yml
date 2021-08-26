@@ -20,7 +20,7 @@
               href: authentication-protocol-registry-values.md
             - name: Exemple de valeurs de Registre
               href: registry-values-example.md
-        - name: Authentification utilisateur
+        - name: Authentification des utilisateurs
           href: user-authentication.md
         - name: Détails de l’implémentation EAP
           href: eap-implementation-details.md

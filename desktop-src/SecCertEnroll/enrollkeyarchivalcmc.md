@@ -4,12 +4,12 @@ ms.assetid: b063989a-fe92-4c2c-9d66-8a14bc830f6b
 title: enrollKeyArchivalCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 144f5f063834c156da5058fbc34f66ebdb76eb3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9e2e9856309560e982e7e1dda7ba724fefd0759e6fa10196b321eb66947cf64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106520378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882949"
 ---
 # <a name="enrollkeyarchivalcmc"></a>enrollKeyArchivalCMC
 
@@ -17,7 +17,7 @@ L’exemple enrollKeyArchivalCMC crée une demande de certificat CMC pour archiv
 
 ## <a name="location"></a>Emplacement
 
-Lorsque vous installez le kit de développement logiciel (SDK) Microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ Microsoft SDK \\ Windows \\ v 7.0 \\ Samples \\ Security \\ x509 Certificate \\ \\ enrollKeyArchivalCMC VC.
+lorsque vous installez le kit de développement logiciel (SDK) de microsoft Windows, l’exemple est installé, par défaut, dans le dossier *% ProgramFiles%* \\ microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ Security \\ X509 certificate \\ \\ enrollKeyArchivalCMC VC.
 
 ## <a name="discussion"></a>Discussions
 

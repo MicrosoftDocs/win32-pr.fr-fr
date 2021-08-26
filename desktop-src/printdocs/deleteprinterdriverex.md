@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: b88ef38236961286875a1885dad9dde936887d13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88cc39227ffc5b1700a1348541e18215bc10c8b87a6bff942611f098059a70e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950039"
 ---
 # <a name="deleteprinterdriverex-function"></a>DeletePrinterDriverEx fonction)
 
@@ -55,7 +55,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 *pEnvironment* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement à partir duquel le pilote doit être supprimé (par exemple, Windows NT x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, le nom du pilote est supprimé de l’environnement actuel de l’application appelante et de l’ordinateur client (et non de l’application de destination et du serveur d’impression).
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement à partir duquel le pilote doit être supprimé (par exemple, Windows NT x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, le nom du pilote est supprimé de l’environnement actuel de l’application appelante et de l’ordinateur client (et non de l’application de destination et du serveur d’impression).
 
 </dd> <dt>
 
@@ -100,14 +100,14 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
 
  
 
-Avant de supprimer les fichiers de pilote, la fonction appelle la fonction **DrvDriverEvent** du pilote, ce qui permet au pilote de supprimer tous les fichiers privés qui ne sont pas utilisés. Pour plus d’informations sur **DrvDriverEvent**, consultez le kit de développement de pilotes (DDK) Microsoft Windows.
+Avant de supprimer les fichiers de pilote, la fonction appelle la fonction **DrvDriverEvent** du pilote, ce qui permet au pilote de supprimer tous les fichiers privés qui ne sont pas utilisés. pour plus d’informations sur **DrvDriverEvent**, consultez le kit de développement de pilotes (DDK) Microsoft Windows.
 
 Si les fichiers de pilote sont actuellement chargés, la fonction les déplace vers un répertoire temporaire et les marque pour la suppression au redémarrage.
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 04d10e5439b8cd653f7c0a37d3a951167561f964
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 7b7b8e22cb17db4bdb2d692dc003baf63a6c6836c7d1a05a67444d254940e342
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104971815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948909"
 ---
 # <a name="wavereadlanefirst-function"></a>WaveReadLaneFirst fonction)
 
@@ -47,7 +47,7 @@ Expression à évaluer.
 
 La valeur obtenue est uniforme sur l’onde.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

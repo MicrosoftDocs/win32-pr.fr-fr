@@ -4,12 +4,12 @@ ms.assetid: 6825c852-6123-4d44-9491-3488cf18db03
 title: Utilisation de l’interface d’automatisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f145736a13d0e7c1d0df8bf5560441921b2e472
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95e624b38544f78670e48c8abb389768cdb9c3cdab8745c87f2bfd0f190f3466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996109"
 ---
 # <a name="using-the-automation-interface"></a>Utilisation de l’interface d’automatisation
 
@@ -17,7 +17,7 @@ Pour accéder à Automation, la DLL doit être inscrite automatiquement. Le Prog
 
 Pour plus d’informations sur l’automatisation et l’accès aux bibliothèques C++, consultez [à propos de l’interface d’automatisation](about-the-automation-interface.md).
 
-Pour obtenir des documents de référence pour les objets Windows Installer, consultez Référence de l' [interface Automation](automation-interface-reference.md).
+pour obtenir des documents de référence pour les objets Windows Installer, consultez référence de l' [Interface Automation](automation-interface-reference.md).
 
  
 

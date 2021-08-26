@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36281f7f6415465a6741f461574bca29c681cbfa
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 378860e10ab6da929147e13a8120ee169204276e3c609b20176c22df9de15dd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119886719"
 ---
 # <a name="messagetable-resource"></a>Ressource MESSAGETABLE
 
@@ -64,6 +64,6 @@ L’exemple suivant définit une ressource **MESSAGETABLE** :
 [**STRINGTABLE**](stringtable-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

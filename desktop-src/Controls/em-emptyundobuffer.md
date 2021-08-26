@@ -3,7 +3,7 @@ title: Message EM_EMPTYUNDOBUFFER (winuser. h)
 description: Réinitialise l’indicateur d’annulation d’un contrôle d’édition. L’indicateur Undo est défini chaque fois qu’une opération dans le contrôle d’édition peut être annulée. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: a4ff7bd9-f8ae-4f18-8429-4ceaaeeb0f94
 keywords:
-- EM_EMPTYUNDOBUFFER les contrôles de message Windows
+- EM_EMPTYUNDOBUFFER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0abbdc067b603a032b8d311ddd7930a8ca6de01c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 63d59dab38bca921e2125377889f8d18ddf6eb45c023badeead47f7e07b860fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915899"
 ---
 # <a name="em_emptyundobuffer-message"></a>\_Message EMPTYUNDOBUFFER em
 
@@ -47,7 +47,7 @@ Non utilisé ; doit être égal à zéro.
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur d’annulation est automatiquement réinitialisé chaque fois que le contrôle d’édition reçoit un message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) ou [**em \_ SETHANDLE**](em-sethandle.md) .
 
@@ -63,8 +63,8 @@ L’indicateur d’annulation est automatiquement réinitialisé chaque fois que
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

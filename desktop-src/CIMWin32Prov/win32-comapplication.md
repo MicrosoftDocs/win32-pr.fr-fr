@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 705f0f7b3c17ffca809de9a124748a74b5537f26
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 21ebf568ca35bd42f555eb09b69579c34d36cf359460a0bc606be90ae811e729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119917968"
 ---
 # <a name="win32_comapplication-class"></a>\_Classe Comapplication Win32
 
@@ -238,7 +238,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ comapplication** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

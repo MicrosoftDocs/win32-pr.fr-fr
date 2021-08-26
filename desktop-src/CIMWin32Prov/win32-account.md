@@ -23,16 +23,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2af601799095192d7af4ffedce0c8e0cd28bff21
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dc98f826ddae09bd507517e564ec2d9387d6bf17147d5eac36596bdb9d1e81ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918119"
 ---
 # <a name="win32_account-class"></a>\_Classe de compte Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) du **\_ compte Win32** contient des informations sur les comptes d’utilisateurs et les comptes de groupe connus du système informatique exécutant Windows. Les noms d’utilisateurs ou de groupes reconnus par un domaine Windows sont des descendants (ou membres) de cette classe.
+La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) du **\_ compte Win32** contient des informations sur les comptes d’utilisateurs et les comptes de groupe connus du système informatique exécutant Windows. les noms d’utilisateurs ou de groupes reconnus par un domaine de Windows sont des descendants (ou membres) de cette classe.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -114,7 +114,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (« win32api \| Network Management Functions \| Domain »)
 </dt> </dl>
 
-Nom du domaine Windows auquel appartient un groupe ou un utilisateur.
+nom du domaine Windows auquel appartient un groupe ou un utilisateur.
 
 Exemple : « NA-SALES »
 
@@ -166,7 +166,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("Name"), [**Key**](/windows/desktop/WmiSdk/key-qualifier), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| Network Management structures \| Name")
 </dt> </dl>
 
-Nom du compte système Windows sur le domaine spécifié par la propriété de **domaine** de cette classe. Cette propriété remplace la propriété **Name** héritée de [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md).
+nom du compte système Windows sur le domaine spécifié par la propriété de **domaine** de cette classe. Cette propriété remplace la propriété **Name** héritée de [**CIM \_ ManagedSystemElement**](cim-managedsystemelement.md).
 
 </dd> <dt>
 
@@ -182,7 +182,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**fixed**](/windows/desktop/WmiSdk/standard-wmi-qualifiers), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api, \| identificateurs de sécurité (SID)")
 </dt> </dl>
 
-Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. Chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. Le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec la sécurité Windows. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
+Identificateur de sécurité (SID) pour ce compte. Un SID est une valeur de chaîne de longueur variable utilisée pour identifier un tiers de confiance. chaque compte possède un SID unique émis par une autorité (par exemple, un domaine Windows), stocké dans une base de données de sécurité. Lorsqu’un utilisateur ouvre une session, le système récupère le SID de l’utilisateur à partir de la base de données et le place dans le jeton d’accès de l’utilisateur. le système utilise le SID dans le jeton d’accès de l’utilisateur pour identifier l’utilisateur dans toutes les interactions suivantes avec Windows la sécurité. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut pas être réutilisé pour identifier un autre utilisateur ou groupe.
 
 </dd> <dt>
 
@@ -373,7 +373,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe de **\_ compte Win32** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 

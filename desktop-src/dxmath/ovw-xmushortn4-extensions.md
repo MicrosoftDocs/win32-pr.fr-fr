@@ -4,12 +4,12 @@ ms.assetid: 207f2855-5158-4e33-80fb-bad2e2b173c6
 title: Extensions XMUSHORTN4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb9b364db18c6635011ce3b9b445e9dae3671d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dce3fb0dbee2db0e2c01414efe4598f875fbbc43a53baa191bc710c3b9f2b6ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948629"
 ---
 # <a name="xmushortn4-extensions"></a>Extensions XMUSHORTN4
 

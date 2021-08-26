@@ -1,61 +1,61 @@
 ---
-title: Référence du modèle objet du lecteur Windows Media
-description: Référence du modèle objet du lecteur Windows Media
+title: Lecteur Windows Media Référence du modèle objet
+description: Lecteur Windows Media Référence du modèle objet
 ms.assetid: af313b94-230b-47d7-a3ad-7e23b669886f
 keywords:
 - Lecteur Windows Media, modèle objet
-- Windows Media Player Mobile, modèle objet
-- Modèle objet du lecteur Windows Media, référence
+- Lecteur Windows Media Mobile, modèle objet
+- Lecteur Windows Media modèle objet, référence
 - modèle objet, référence
-- Contrôle ActiveX, référence
-- Contrôle ActiveX du lecteur Windows Media, référence
-- Windows Media Player Mobile contrôle ActiveX, référence
+- contrôle ActiveX, référence
+- Lecteur Windows Media ActiveX contrôle, référence
+- Lecteur Windows Media contrôle Mobile ActiveX, référence
 - référence pour le modèle objet, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6128ff3f69968ddf4f8a35955907a18876ef090
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 037618bc29a07c8f8ae4ce8b6b07b322f07032f470aaae84c8ee34f445b92739
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900579"
 ---
-# <a name="windows-media-player-object-model-reference"></a>Référence du modèle objet du lecteur Windows Media
+# <a name="windows-media-player-object-model-reference"></a>Lecteur Windows Media Référence du modèle objet
 
-Les sections de référence du modèle objet du lecteur Windows Media contiennent des informations détaillées sur le modèle objet de contrôle ActiveX du lecteur Windows Media. Le modèle objet fournit des interfaces qui permettent aux développeurs d’ajouter des fonctionnalités de lecteur Windows Media à des pages Web, à des programmes C++ et à des applications .NET.
+les sections de référence du modèle objet Lecteur Windows Media contiennent des informations détaillées sur le modèle objet de contrôle de Lecteur Windows Media ActiveX. le modèle objet fournit des interfaces qui permettent aux développeurs d’ajouter des fonctionnalités de Lecteur Windows Media aux pages web, aux programmes C++ et aux applications .net.
 
-La référence du modèle objet pour les scripts est présentée dans un style conçu pour être utilisé avec les langages de script tels que Microsoft JScript, et il documente le modèle objet en termes d’objets avec les propriétés, méthodes et événements associés.
+la référence du modèle objet pour les scripts est présentée dans un style conçu pour être utilisé avec les langages de script tels que Microsoft JScript, et il documente le modèle objet en termes d’objets avec les propriétés, méthodes et événements associés.
 
-La référence du modèle objet pour C++ fournit la documentation pour les interfaces COM que les programmeurs C++ peuvent utiliser pour communiquer avec le contrôle ActiveX du lecteur Windows Media ou le contrôle ActiveX Windows Media Player Mobile. La plupart de ces interfaces sont implémentées par le contrôle du lecteur Windows Media et sont appelées par l’application C++. Toutefois, certaines interfaces (par exemple, **IWMPEvents** et **IWMPRemoteMediaServices**) sont implémentées par l’application C++ et appelées par le contrôle du lecteur Windows Media.
+la référence du modèle objet pour C++ fournit la documentation pour les interfaces COM que les programmeurs c++ peuvent utiliser pour communiquer avec le contrôle Lecteur Windows Media ActiveX ou le contrôle Lecteur Windows Media Mobile ActiveX. la plupart de ces interfaces sont implémentées par Lecteur Windows Media contrôle et sont appelées par l’application C++. toutefois, certaines interfaces (par exemple, **IWMPEvents** et **IWMPRemoteMediaServices**) sont implémentées par l’application C++ et appelées par le contrôle Lecteur Windows Media.
 
-La référence du modèle objet pour Visual Basic .NET et C# fournit la documentation pour les propriétés, méthodes et événements de l’objet **AxWindowsMediaPlayer** et pour les interfaces au contrôle ActiveX du lecteur Windows Media qui sont disponibles via l’interopérabilité COM dans une solution codée dans Visual Studio .NET 2002 ou version ultérieure.
+la référence du modèle objet pour Visual Basic .net et C# fournit la documentation pour les propriétés, les méthodes et les événements de l’objet **AxWindowsMediaPlayer** et pour les interfaces au Lecteur Windows Media ActiveX contrôle disponibles via l’interopérabilité COM dans une solution codée dans Visual Studio .net 2002 ou version ultérieure.
 
-La documentation de référence du modèle objet du lecteur Windows Media contient les sections suivantes.
+la référence du modèle objet Lecteur Windows Media contient les sections suivantes.
 
 
 
 | Section                                                                                                        | Description                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Référence du modèle objet pour l’écriture de scripts](object-model-reference-for-scripting.md)                               | Fournit une documentation de référence pour les propriétés, méthodes et événements que le modèle objet met à la disposition des langages de script. Ces informations sont également utiles pour la programmation Visual Basic 6,0. |
+| [Référence du modèle objet pour l’écriture de scripts](object-model-reference-for-scripting.md)                               | Fournit une documentation de référence pour les propriétés, méthodes et événements que le modèle objet met à la disposition des langages de script. ces informations sont également utiles pour la programmation Visual Basic 6,0. |
 | [Référence du modèle objet pour C++](object-model-reference-for-c.md)                                             | Fournit une documentation de référence pour les interfaces C++.                                                                                                                                                     |
-| [Référence du modèle objet pour Visual Basic .NET et C #](object-model-reference-for-visual-basic--net-and-c.md) | Fournit une documentation de référence pour les objets et les interfaces disponibles pour Visual Basic programmeurs .NET et C# via l’interopérabilité COM.                                                             |
-| [Référence d’attribut](attribute-reference.md)                                                                 | Fournit une documentation de référence pour les attributs de métadonnées qui présentent un intérêt pour les développeurs du kit de développement logiciel (SDK) Windows Media Player.                                                                                    |
+| [référence du modèle objet pour Visual Basic .net et C #](object-model-reference-for-visual-basic--net-and-c.md) | fournit une documentation de référence pour les objets et les interfaces disponibles pour Visual Basic programmeurs .net et C# via l’interopérabilité COM.                                                             |
+| [Référence d’attribut](attribute-reference.md)                                                                 | fournit une documentation de référence pour les attributs de métadonnées qui présentent un intérêt pour Lecteur Windows Media les développeurs du SDK.                                                                                    |
 | [Types énumération](enumeration-types.md)                                                                     | Fournit une documentation de référence pour les types énumération utilisés par les interfaces C++ et .NET.                                                                                                 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[**Modèle objet du lecteur Windows Media**](windows-media-player-object-model.md)
+[**Lecteur Windows Media Modèle objet**](windows-media-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

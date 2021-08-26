@@ -4,18 +4,18 @@ ms.assetid: 3115c9e0-05c9-462d-8238-fc035ea32d4e
 title: API d’impression GDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0239282543a68c6fe8b5d6503d085582fd9c20db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fc2a872b3a310ea44ddfc84103ddbd11cff61998d4884dca5f490e88c3d73f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949193"
 ---
 # <a name="gdi-print-api"></a>API d’impression GDI
 
 L’API d’impression GDI fournit des applications avec une interface d’impression indépendante du périphérique. Utilisez cette interface si l’application utilise GDI pour afficher du texte et des graphiques.
 
-Si vous écrivez des applications pour Windows Vista ou des versions ultérieures de Windows, envisagez d’utiliser l' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)) et l' [API d’impression XPS](xps-printing.md) pour utiliser les interfaces graphiques de performances supérieures prises en charge par les pilotes d’impression XPSDrv.
+si vous écrivez des applications pour Windows Vista ou des versions ultérieures de Windows, envisagez d’utiliser l' [api de Document xps](/previous-versions/windows/desktop/dd316976(v=vs.85)) et l' [api d’impression xps](xps-printing.md) pour utiliser les interfaces graphiques de performances supérieures prises en charge par les pilotes d’impression XPSDrv.
 
 Cette section fournit des informations sur les rubriques suivantes.
 

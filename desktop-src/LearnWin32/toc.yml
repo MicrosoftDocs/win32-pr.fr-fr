@@ -7,7 +7,7 @@
           href: introduction-to-windows-programming-in-c--.md
         - name: Préparer votre environnement de développement
           href: prepare-your-development-environment.md
-        - name: Conventions de codage Windows
+        - name: Windows Conventions de codage
           href: windows-coding-conventions.md
         - name: Utilisation des chaînes
           href: working-with-strings.md
@@ -15,7 +15,7 @@
           href: what-is-a-window-.md
         - name: "WinMain\_: point d’entrée de l’application"
           href: winmain--the-application-entry-point.md
-    - name: Module 1. Votre premier programme Windows
+    - name: Module 1. votre premier programme de Windows
       items:
         - name: Vue d’ensemble
           href: your-first-windows-program.md
@@ -31,7 +31,7 @@
           href: closing-the-window.md
         - name: Gestion de l’état de l’application
           href: managing-application-state-.md
-    - name: Module 2. Utilisation de COM dans votre programme Windows
+    - name: Module 2. utilisation de COM dans votre programme Windows
       items:
         - name: Vue d’ensemble
           href: module-2--using-com-in-your-windows-program.md
@@ -55,11 +55,11 @@
           href: com-coding-practices.md
         - name: Gestion des erreurs dans COM
           href: error-handling-in-com.md
-    - name: Module 3. Graphiques Windows
+    - name: Module 3. Windows Graphismes
       items:
         - name: Vue d’ensemble
           href: module-3---windows-graphics.md
-        - name: Vue d’ensemble de l’architecture graphique Windows
+        - name: vue d’ensemble de l’Architecture graphique Windows
           href: overview-of-the-windows-graphics-architecture.md
         - name: Gestionnaire de fenêtrage
           href: the-desktop-window-manager.md
@@ -99,11 +99,11 @@
           href: setting-the-cursor-image.md
         - name: "Entrée utilisateur\_: exemple étendu"
           href: user-input--extended-example.md
-    - name: "Prise en main de Win32\_: exemple de code"
+    - name: "Prise en main avec Win32\_: exemple de Code"
       items:
         - name: Vue d’ensemble
           href: learn-to-program-for-windows--sample-code.md
-        - name: Exemple de Hello World Windows
+        - name: Windows Hello Exemple universel
           href: windows-hello-world-sample.md
         - name: Exemple BaseWindow
           href: basewindow-sample.md

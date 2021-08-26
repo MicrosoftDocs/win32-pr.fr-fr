@@ -1,22 +1,22 @@
 ---
-description: Référence managée pour les classes de commandes WMI Windows PowerShell
+description: référence managée pour les Classes de commande Windows PowerShell WMI
 ms.assetid: 30e77956-8428-4259-9218-b93f143fd987
 ms.tgt_platform: multiple
-title: Référence managée pour les classes de commandes WMI Windows PowerShell
+title: référence managée pour les Classes de commande Windows PowerShell WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb309a9ca421a3966f84ba1ae825bd0c81eee8ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 228e4ea741edd9029f30159fd5aa6c009cae081a4f6d67d1e532086ea1d53fa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996459"
 ---
-# <a name="managed-reference-for-wmi-windows-powershell-command-classes"></a>Référence managée pour les classes de commandes WMI Windows PowerShell
+# <a name="managed-reference-for-wmi-windows-powershell-command-classes"></a>référence managée pour les Classes de commande Windows PowerShell WMI
 
 Windows PowerShell implémente la fonctionnalité de Windows Management Instrumentation (WMI) via un ensemble d’applets de commande. Vous pouvez utiliser ces applets de commande pour effectuer les tâches de bout en bout nécessaires à la gestion des ordinateurs locaux et distants.
 
-Pour plus d’informations, consultez [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
+pour plus d’informations, consultez [Windows PowerShell](https://msdn.microsoft.com/library/dd835506(v=vs.85).aspx) .
 
 ## <a name="wmi-powershell-classes"></a>Classes PowerShell WMI
 

@@ -1,27 +1,27 @@
 ---
 title: Personnalisation d’un ruban à l’aide de définitions de taille et de stratégies de mise à l’échelle
-description: Les contrôles hébergés dans la barre de commandes du ruban sont soumis aux règles de disposition appliquées par l’infrastructure du ruban Windows et basées sur une combinaison de comportements par défaut et de modèles de disposition (à la fois définis par l’infrastructure et personnalisées) comme déclaré dans le balisage du ruban. Ces règles définissent les comportements de disposition adaptative de l’infrastructure du ruban qui influencent la manière dont les contrôles de la barre de commandes s’adaptent aux différentes tailles de ruban au moment de l’exécution.
+description: les contrôles hébergés dans la barre de commandes du ruban sont soumis à des règles de disposition appliquées par l’infrastructure du ruban Windows et basées sur une combinaison de comportements par défaut et de modèles de disposition (à la fois définis par l’infrastructure et personnalisées) comme déclaré dans le balisage du ruban. Ces règles définissent les comportements de disposition adaptative de l’infrastructure du ruban qui influencent la manière dont les contrôles de la barre de commandes s’adaptent aux différentes tailles de ruban au moment de l’exécution.
 ms.assetid: b5869394-3fa9-4817-add9-54487434fc4f
 keywords:
-- Ruban Windows, personnalisation
+- Windows Ruban, personnalisation
 - Ruban, personnalisation
-- Ruban Windows, modèles SizeDefinition
+- Windows Ruban, modèles SizeDefinition
 - Ruban, modèles SizeDefinition
-- Ruban Windows, modèles personnalisés
+- Windows Ruban, modèles personnalisés
 - Ruban, modèles personnalisés
-- personnalisation du ruban Windows
+- personnalisation du ruban de Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6576a672aa8c3d328a341370a7568595e988908
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2eff1a9d1b2582d5386ce6ea0e02e20cfb5a806e1aaa4a98529474a756b5a8a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119933630"
 ---
 # <a name="customizing-a-ribbon-through-size-definitions-and-scaling-policies"></a>Personnalisation d’un ruban à l’aide de définitions de taille et de stratégies de mise à l’échelle
 
-Les contrôles hébergés dans la barre de commandes du ruban sont soumis aux règles de disposition appliquées par l’infrastructure du ruban Windows et basées sur une combinaison de comportements par défaut et de modèles de disposition (à la fois définis par l’infrastructure et personnalisées) comme déclaré dans le balisage du ruban. Ces règles définissent les comportements de disposition adaptative de l’infrastructure du ruban qui influencent la manière dont les contrôles de la barre de commandes s’adaptent aux différentes tailles de ruban au moment de l’exécution.
+les contrôles hébergés dans la barre de commandes du ruban sont soumis à des règles de disposition appliquées par l’infrastructure du ruban Windows et basées sur une combinaison de comportements par défaut et de modèles de disposition (à la fois définis par l’infrastructure et personnalisées) comme déclaré dans le balisage du ruban. Ces règles définissent les comportements de disposition adaptative de l’infrastructure du ruban qui influencent la manière dont les contrôles de la barre de commandes s’adaptent aux différentes tailles de ruban au moment de l’exécution.
 
 -   [Introduction](#introduction)
     -   [Modèles SizeDefinition du ruban](#customizing-a-ribbon-through-size-definitions-and-scaling-policies)
@@ -813,9 +813,9 @@ Les images suivantes montrent comment les modèles de l’exemple précédent so
 
 |  Type  |      Image                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
-| Large  | ![image d’un modèle personnalisé de grande taille en ligne.](images/overviews/sizedefinition-custom-large.png)   |
-| Moyenne | ![image d’un modèle personnalisé de moyenne en ligne.](images/overviews/sizedefinition-custom-medium.png) |
-| Small  | ![image d’un petit modèle personnalisé en ligne.](images/overviews/sizedefinition-custom-small.png)   |
+| grand  | ![image d’un modèle personnalisé de grande taille en ligne.](images/overviews/sizedefinition-custom-large.png)   |
+| Moyen | ![image d’un modèle personnalisé de moyenne en ligne.](images/overviews/sizedefinition-custom-medium.png) |
+| Petite  | ![image d’un petit modèle personnalisé en ligne.](images/overviews/sizedefinition-custom-small.png)   |
 | Fenêtre contextuelle  | ![image d’un modèle personnalisé contextuelle en ligne.](images/overviews/sizedefinition-custom-popup.png)   |
 
 
@@ -829,7 +829,7 @@ Les images suivantes montrent comment les modèles de l’exemple précédent so
 [**SizeDefinition**](windowsribbon-element-sizedefinition.md)
 </dt> <dt>
 
-[**Mise à l’échelle**](windowsribbon-element-scale.md)
+[**Scale**](windowsribbon-element-scale.md)
 </dt> <dt>
 
 [**Groupe**](windowsribbon-element-group.md)

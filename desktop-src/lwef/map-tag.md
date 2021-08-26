@@ -4,12 +4,12 @@ description: Étiquette de la carte
 ms.assetid: 83e9bcc5-f158-4d08-a3bd-17118a28dd50
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13167e21ee8d57adbd3331e09f9eca943a31c1f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 939de6bcc4d24f11f21d17afca7c757fa4ed8adc5e33ca4a69ed9988c8fb9069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961279"
 ---
 # <a name="map-tag"></a>Étiquette de la carte
 
@@ -20,7 +20,7 @@ ms.locfileid: "103673478"
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Descriptive**
 </dt> <dd>
 
-Mappe le texte parlé au texte affiché dans la bulle.
+Cartes texte parlé dans le texte affiché dans la bulle.
 
 </dd> <dt>
 
@@ -38,17 +38,17 @@ Mappe le texte parlé au texte affiché dans la bulle.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Cette balise vous permet d’utiliser un texte parlé différent de celui affiché dans la bulle de texte.
 
- 
+ 
 
- 
+ 
 
 
 

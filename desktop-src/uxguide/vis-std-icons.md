@@ -4,17 +4,17 @@ description: Les icônes standard sont les icônes d’erreur, d’avertissement
 ms.assetid: 63b5c31d-5094-4299-b44b-35b2452ce706
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 69085f4c527db8431b5e33f0dba4668d43d1c669
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 74f5b70fb218606eb5f87cbad247c1c75a100f9c5e0f675bb6c075e559fd1a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119936385"
 ---
 # <a name="standard-icons"></a>Icônes standard
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Les icônes standard sont les icônes d’erreur, d’avertissement, d’informations et de point d’interrogation qui font partie de Windows.
 
@@ -29,7 +29,7 @@ Les icônes standard ont les significations suivantes :
 -   **Icône d’informations.** L’interface utilisateur présente des informations utiles.
 -   **Icône de point d’interrogation.** L’interface utilisateur indique un point d’entrée d’aide.
 
-Les icônes standard sont notables, car elles sont intégrées à de nombreuses API (Application Programming Interfaces) Windows, telles que les boîtes de [dialogue de tâches](win-dialog-box.md), les [boîtes de message](glossary.md), les [bulles](ctrl-balloons.md)et les [notifications](mess-notif.md). Ils sont également couramment utilisés sur des [messages sur place](glossary.md) et des barres d' [État](ctrl-status-bars.md).
+les icônes standard sont notables, car elles sont intégrées à de nombreux Windows les interfaces de programmation d’applications (api), telles que les boîtes de [dialogue de tâches](win-dialog-box.md), les [boîtes de message](glossary.md), les [bulles](ctrl-balloons.md)et les [notifications](mess-notif.md). Ils sont également couramment utilisés sur des [messages sur place](glossary.md) et des barres d' [État](ctrl-status-bars.md).
 
 **Remarque :** Les instructions relatives aux [icônes](vis-icons.md) sont présentées dans un article distinct.
 
@@ -55,15 +55,15 @@ Par conséquent, un message d’erreur peut prendre une icône d’erreur mais j
 
 ### <a name="determining-the-appropriate-message-type"></a>Détermination du type de message approprié
 
-Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. Par exemple, supposons qu’une page Web ne peut pas charger un contrôle ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
+Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. par exemple, supposons qu’une page Web ne peut pas charger un contrôle de ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
 
--   **Erreurs.** « Cette page ne peut pas charger un contrôle ActiveX non signé ». (Formulées en tant que problème existant.)
--   **Tres.** « Cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger des contrôles ActiveX non signés ». ou «autoriser cette page à installer un contrôle ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
--   **Informations.** « Vous avez configuré Windows Internet Explorer pour bloquer les contrôles ActiveX non signés ». (Formulées en tant que déclaration de faits.)
+-   **Erreurs.** « cette page ne peut pas charger un contrôle de ActiveX non signé ». (Formulées en tant que problème existant.)
+-   **Tres.** « cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger les contrôles de ActiveX non signés ». ou «autoriser cette page à installer un contrôle de ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
+-   **Informations.** « vous avez configuré Windows Internet Explorer pour bloquer les contrôles de ActiveX non signés ». (Formulées en tant que déclaration de faits.)
 
 **Pour déterminer le type de message approprié, concentrez-vous sur l’aspect le plus important du problème que les utilisateurs doivent connaître ou agir.** En règle générale, si un problème empêche l’utilisateur de continuer, il est présenté comme une erreur. Si l’utilisateur peut continuer, il s’agit d’un avertissement. Élaborez l' [instruction principale](text-ui.md) ou un autre texte correspondant en fonction de ce Focus, puis choisissez une icône (standard ou autre) qui correspond au texte. Le texte d’instruction principal et les icônes doivent toujours correspondre.
 
-### <a name="severity"></a>severity
+### <a name="severity"></a>Gravité
 
 Si la gravité n’est pas prise en compte lorsque vous choisissez parmi les icônes d’erreur, d’avertissement et d’information, **la gravité est un facteur déterminant si une icône standard doit être utilisée du tout.**
 
@@ -77,7 +77,7 @@ Les icônes fonctionnent mieux quand elles sont utilisées pour communiquer visu
 -   Ils ont des conséquences inattendues ou indésirables.
 -   Ils requièrent désormais une gestion correcte, car les erreurs ne peuvent pas être facilement corrigées et peuvent même être irréversibles.
 
-Pour distinguer les erreurs et les avertissements non critiques de ceux critiques, les messages non critiques sont généralement affichés sans icône. Cela attire l’attention sur les messages critiques, rend les messages critiques et non critiques visuellement distincts et est cohérent avec le [ton Windows](text-style-tone.md).
+Pour distinguer les erreurs et les avertissements non critiques de ceux critiques, les messages non critiques sont généralement affichés sans icône. cela attire l’attention sur les messages critiques, rend les messages critiques et non critiques visuellement distincts et est cohérent avec le [ton Windows](text-style-tone.md).
 
 Tous les messages n’ont pas besoin d’une icône. Les icônes ne sont pas un moyen de décorer des messages.
 
@@ -95,7 +95,7 @@ Toutefois, l’exemple suivant n’est pas critique parce qu’il est susceptibl
 
 Dans cet exemple, cette [confirmation](mess-confirm.md) n’est pas critique, car elle est susceptible d’être intentionnelle et facilement annulée.
 
-Dans une interface utilisateur classique, la plupart des erreurs sont liées à des erreurs d’entrée d’utilisateur. La plupart des erreurs d’entrée utilisateur ne sont pas critiques, car elles sont facilement corrigées et les utilisateurs doivent les corriger avant de continuer. En outre, le fait d’attirer trop attention sur des erreurs mineures de l’utilisateur est contraire au ton Windows. Par conséquent, les erreurs d’entrée utilisateur mineures sont généralement affichées sans icône d’erreur. Pour renforcer leur nature non critique, nous faisons référence à ceux-ci en tant que problèmes d’entrée d’utilisateur.
+Dans une interface utilisateur classique, la plupart des erreurs sont liées à des erreurs d’entrée d’utilisateur. La plupart des erreurs d’entrée utilisateur ne sont pas critiques, car elles sont facilement corrigées et les utilisateurs doivent les corriger avant de continuer. en outre, le fait d’attirer trop attention sur des erreurs mineures de l’utilisateur est contraire au ton Windows. Par conséquent, les erreurs d’entrée utilisateur mineures sont généralement affichées sans icône d’erreur. Pour renforcer leur nature non critique, nous faisons référence à ceux-ci en tant que problèmes d’entrée d’utilisateur.
 
 ![capture d’écran informant les utilisateurs de l’entrée correcte ](images/vis-std-icons-image4.png)
 
@@ -103,7 +103,7 @@ Dans cet exemple, ce problème mineur d’entrée utilisateur n’est pas critiq
 
 ### <a name="avoid-overwarning"></a>Éviter le suravertissement
 
-Nous prévoyons des avertissements dans les programmes Windows. Le programme Windows classique possède des icônes d’avertissement apparemment partout, ce qui vous avertit des choses qui ont une importance minime. Dans certains programmes, presque toutes les questions sont présentées sous la forme d’un avertissement. Le suravertissement permet d’utiliser un programme comme une activité dangereuse et de délivrer des problèmes réellement significatifs.
+nous prévoyons dans Windows programmes. le programme de Windows classique possède des icônes d’avertissement apparemment partout, ce qui vous avertit des choses qui ont une importance minime. Dans certains programmes, presque toutes les questions sont présentées sous la forme d’un avertissement. Le suravertissement permet d’utiliser un programme comme une activité dangereuse et de délivrer des problèmes réellement significatifs.
 
 Le seul risque de perte de données est insuffisant pour appeler une icône d’avertissement. En outre, les résultats indésirables doivent être inattendus ou involontaires, et ne peuvent pas être facilement corrigés. Dans le cas contraire, une question incorrecte peut être interprétée pour entraîner la perte de données d’un certain type et mériter une icône d’avertissement.
 
@@ -126,9 +126,9 @@ Dans cet exemple, les utilisateurs sont susceptibles de répondre différemment 
 
 Pourquoi cette notification a-t-elle un avertissement ? Que sont les utilisateurs censés faire (en plus de la préoccupation) ?
 
-### <a name="context"></a>Context
+### <a name="context"></a>Contexte
 
-Le contexte est également un facteur à prendre en compte lors de l’utilisation d’icônes standard, car le contexte communique des informations. Plus précisément :
+Le contexte est également un facteur à prendre en compte lors de l’utilisation d’icônes standard, car le contexte communique des informations. En particulier :
 
 -   Si les boîtes de dialogue (y compris les boîtes de dialogue de tâches et les boîtes de message) et les notifications n’ont pas besoin d’icônes pour les erreurs non critiques, les erreurs sur place nécessitent toujours des icônes d’erreur. Dans le cas contraire, ces commentaires non modaux seraient trop faciles à ignorer.
 -   Les avertissements sur place ont toujours besoin d’icônes d’avertissement pour les distinguer du texte normal.
@@ -174,7 +174,7 @@ Dans l’exemple incorrect, l’icône d’avertissement standard ne correspond 
 
 
 
-    | Context                         | Quand l’utiliser                                                                                        |
+    | Contexte                         | Quand l’utiliser                                                                                        |
     |--------------------------|-----------------------------------------------------------------------------------------|
     | Boîtes de dialogue<br/>  | Utiliser des pixels 32 x 32 pour les icônes de la zone de contenu ; 16x16 pixels pour les icônes de la zone de note de bas de page.<br/> |
     | Sur place<br/>      | Utilisez 32 x 32 pixels pour les pages d’erreur ; icônes de 16x16 pixels pour toutes les autres.<br/>           |
@@ -192,13 +192,13 @@ Dans l’exemple incorrect, l’icône d’avertissement standard ne correspond 
 
 
 
-    | Context                           | Quand l’utiliser                                                                                                                                                                                                                                             |
+    | Contexte                           | Quand l’utiliser                                                                                                                                                                                                                                             |
     |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Boîtes de dialogue<br/>    | À utiliser pour les erreurs critiques uniquement. (n’utilisez pas les icônes standard pour les erreurs non critiques.) <br/> ![Capture d’écran montrant l’icône d’erreur utilisée avec un message d’erreur ](images/vis-std-icons-image9.png)<br/>                                              |
     | Erreurs sur place<br/> | Utilisez pour toutes les erreurs. <br/> ![capture d’écran de l’icône d’erreur utilisée avec un message d’erreur.](images/vis-std-icons-image10.png)<br/>                                                                                                           |
     | Notifications<br/>   | À utiliser pour les erreurs critiques uniquement. (pour les [échecs d’action](https://msdn.microsoft.com/library/windows/desktop/aa511497.aspx).) <br/> ![Capture d’écran montrant une icône d’erreur utilisée avec un message d’erreur de notification.](images/vis-std-icons-image11.png)<br/> |
-    | Bulles<br/>        | N’utilisez pas. Les bulles ne doivent pas être utilisées pour les erreurs critiques et elles n’ont pas besoin d’icônes d’erreur pour les erreurs non critiques.<br/>                                                                                                               |
-    | Bande<br/>         | N’utilisez pas. Les bannières ne doivent pas être utilisées pour les erreurs.<br/>                                                                                                                                                                                  |
+    | Bulles<br/>        | Ne pas utiliser. Les bulles ne doivent pas être utilisées pour les erreurs critiques et elles n’ont pas besoin d’icônes d’erreur pour les erreurs non critiques.<br/>                                                                                                               |
+    | Bande<br/>         | Ne pas utiliser. Les bannières ne doivent pas être utilisées pour les erreurs.<br/>                                                                                                                                                                                  |
 
 
 
@@ -213,7 +213,7 @@ Dans l’exemple incorrect, l’icône d’avertissement standard ne correspond 
 
 
 
-    | Context                             |  Quand l’utiliser                                                                                                                                                                                      |
+    | Contexte                             |  Quand l’utiliser                                                                                                                                                                                      |
     |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | Boîtes de dialogue<br/>      | Utilisez pour tous les avertissements. <br/> ![capture d’écran de l’avertissement de modification d’extension de nom de fichier ](images/vis-std-icons-image12.png)<br/>                                                   |
     | Avertissements sur place<br/> | Utilisez pour identifier le texte comme un avertissement. <br/> ![capture d’écran de l’avertissement indiquant que l’espace libre est insuffisant ](images/vis-std-icons-image13.png)<br/>                                    |
@@ -250,12 +250,12 @@ Dans cet exemple, un bouclier de sécurité jaune est utilisé dans une note de 
 
 
 
-    | Context                         | Quand l’utiliser                                                                                                                                                  |
+    | Contexte                         | Quand l’utiliser                                                                                                                                                  |
     |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Boîtes de dialogue<br/>  | N’utilisez pas.<br/>                                                                                                                             |
-    | Sur place<br/>      | N’utilisez pas. Utilisez plutôt un texte brut statique ou une bannière.<br/>                                                                           |
-    | Notifications<br/> | N’utilisez pas.<br/>                                                                                                                             |
-    | Bulles<br/>      | N’utilisez pas.<br/>                                                                                                                             |
+    | Boîtes de dialogue<br/>  | Ne pas utiliser.<br/>                                                                                                                             |
+    | Sur place<br/>      | Ne pas utiliser. Utilisez plutôt un texte brut statique ou une bannière.<br/>                                                                           |
+    | Notifications<br/> | Ne pas utiliser.<br/>                                                                                                                             |
+    | Bulles<br/>      | Ne pas utiliser.<br/>                                                                                                                             |
     | Bande<br/>       | Utilisez pour attirer l’attention sur la bannière. <br/> ![capture d’écran de la bannière avec les informations de paramètres ](images/vis-std-icons-image20.png)<br/> |
 
 

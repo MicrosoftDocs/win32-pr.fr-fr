@@ -4,12 +4,12 @@ ms.assetid: 509188e2-28af-4915-bc76-ee451133398f
 title: Handle HRECOCONTEXT (Récapitulatifis. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13ef2b6f629587de84f831fd32a31f42a208c024
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9be012cc624553ae9573dc361c364d4ef61ec4c6d72fbf7c3eb2168c3ccb290
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935539"
 ---
 # <a name="hrecocontext-handle"></a>Handle HRECOCONTEXT
 
@@ -28,7 +28,7 @@ typedef HANDLE HRECOCONTEXT;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions **HRECOCONTEXT** sont les suivantes :
 
@@ -70,7 +70,7 @@ Les fonctions **HRECOCONTEXT** sont les suivantes :
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Récapitulatif</dt> </dl> |
 

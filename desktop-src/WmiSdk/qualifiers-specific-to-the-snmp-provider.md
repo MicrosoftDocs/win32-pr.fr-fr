@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a1405cb4d9609380fdf35d6ce05a0fc9e1255ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b05e2d6994bd0bee1a1f0e30287169c23b69ef574ba47fab1f3d8b5db5abedf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996089"
 ---
 # <a name="qualifiers-specific-to-the-snmp-provider"></a>Qualificateurs spécifiques au fournisseur SNMP
 
@@ -85,7 +85,7 @@ Version du protocole SNMP à utiliser lors de la communication avec l’agent SN
 
 Type de données **: \_ chaîne CIM**
 
-Protocole de transport utilisé pour communiquer avec l’agent SNMP. Actuellement, les seules valeurs valides sont les adresses IP (Internet Protocol) et IPX (Internet Packet Exchange). La valeur par défaut est IP. Ce qualificateur est facultatif.
+Protocole de transport utilisé pour communiquer avec l’agent SNMP. actuellement, les seules valeurs valides sont les adresses IP (internet Protocol) et IPX (internet Packet Exchange). La valeur par défaut est IP. Ce qualificateur est facultatif.
 
 </dd> <dt>
 

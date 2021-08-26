@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54c0706b110e04548c836bed8ae794f8da73747e
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8cc8404c9a6be87951142ff3473b283a57f4814b729a8ad5a462f9069b20f3ea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950029"
 ---
 # <a name="predicate-register-hlsl-ps-reference"></a>Registre de prédicats (référence PS HLSL)
 
@@ -30,7 +30,7 @@ Un registre de prédicat est pris en charge par les versions suivantes :
 
 
 
- 
+ 
 
 Voici les propriétés du Registre.
 
@@ -42,7 +42,7 @@ Voici les propriétés du Registre.
 
 
 
- 
+ 
 
 Le registre de prédicat peut être modifié avec [setp \_ COMP-PS](setp-comp---ps.md). Il n’y a aucune valeur par défaut pour ce registre ; une application doit définir le registre avant de l’utiliser.
 
@@ -53,9 +53,9 @@ Le registre de prédicat peut être modifié avec [setp \_ COMP-PS](setp-comp---
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

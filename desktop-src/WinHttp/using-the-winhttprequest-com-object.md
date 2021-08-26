@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3a303d3eaa83f8f79c35d6e171621b3bd8838d24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03065d74a4cdda1662a325be164fb3e05414342863fa9b92a183c0a61228ff61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899182"
 ---
 # <a name="using-the-winhttprequest-com-object"></a>Utilisation de l’objet COM WinHttpRequest
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 856c9567070a071a123b28279342fd9cbbb0f6af
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c81cc05a40ebb7ede53fb14c957584f289a14a15045a2b69f557072c6885c9ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119949929"
 ---
 # <a name="constant-float-register-hlsl-vs-reference"></a>Registre à virgule flottante constante (référence HLSL VS)
 
@@ -89,7 +89,7 @@ Si vous définissez des valeurs constantes avec l’API, aucune déclaration de 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -98,6 +98,6 @@ Si vous définissez des valeurs constantes avec l’API, aucune déclaration de 
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

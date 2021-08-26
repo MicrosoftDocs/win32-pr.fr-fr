@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: ab4a3673c567a72cb5d0284a07d5603913e77550
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caaafeb9883ad514366f91f3834354fbd5ac0850400e61594a5307c4533e0960
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962849"
 ---
 # <a name="pf_parserdllinfo-structure"></a>PF \_ PARSERDLLINFO, structure
 
@@ -54,7 +54,7 @@ Tableau de [structures \_ PARSERINFO PF](pf-parserinfo.md) qui décrivent chaque
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **structure \_ PARSERDLLINFO PF** est retournée par la fonction d’exportation [ParserAutoInstallInfo](parserautoinstallinfo.md) qui est implémentée dans la dll de l’analyseur. La fonction **ParserAutoInstallInfo** identifie le nombre d’analyseurs dans la dll et utilise un tableau de structures [ \_ PARSERINFO PF](pf-parserinfo.md) pour décrire chaque analyseur.
 

@@ -4,17 +4,17 @@ description: Une expérience de contrôle de compte utilisateur bien conçue per
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: bb1424254a91f935073e57bbde2c7124fd838b32
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: b0330ee3ffbf608296bcb89abe3e02ef6969500356d0cca4f45db9d24d8ff73f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935946"
 ---
 # <a name="user-account-control"></a>Contrôle de compte d'utilisateur
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une expérience de contrôle de compte utilisateur bien conçue permet d’éviter les modifications indésirables à l’ensemble du système d’une manière prévisible et nécessitant un minimum d’effort.
 
@@ -39,11 +39,11 @@ Le contrôle de compte d’utilisateur offre les avantages suivants :
 
 **Développeurs :** Pour plus d’informations sur l’implémentation, consultez [reconception de l’interface utilisateur pour la compatibilité UAC](/previous-versions/bb756990(v=msdn.10)).
 
-Dans Windows Vista, les administrateurs protégés peuvent choisir d’être avertis de toutes les modifications système, ou aucun. Le paramètre UAC par défaut permet de notifier toutes les modifications, quelle que soit leur origine. Lorsque vous êtes informé, votre bureau est grisé et vous devez approuver ou refuser la demande dans la boîte de dialogue contrôle de compte d’utilisateur avant de pouvoir faire quoi que ce soit d’autre sur votre ordinateur. La gradation de votre bureau est appelée [Bureau sécurisé](glossary.md) , car d’autres programmes ne peuvent pas s’exécuter pendant qu’elle est grisée.
+dans Windows Vista, les administrateurs protégés peuvent choisir d’être avertis de toutes les modifications système, ou aucun. Le paramètre UAC par défaut permet de notifier toutes les modifications, quelle que soit leur origine. Lorsque vous êtes informé, votre bureau est grisé et vous devez approuver ou refuser la demande dans la boîte de dialogue contrôle de compte d’utilisateur avant de pouvoir faire quoi que ce soit d’autre sur votre ordinateur. La gradation de votre bureau est appelée [Bureau sécurisé](glossary.md) , car d’autres programmes ne peuvent pas s’exécuter pendant qu’elle est grisée.
 
-Windows 7 introduit deux paramètres intermédiaires de contrôle de compte d’utilisateur pour les administrateurs protégés, en plus des deux de Windows Vista. La première consiste à avertir les utilisateurs uniquement lorsqu’un programme effectue la modification, de sorte que les administrateurs sont automatiquement élevés lorsqu’ils effectuent eux-mêmes une modification. Il s’agit du paramètre UAC par défaut dans Windows 7, qui utilise également le Bureau sécurisé.
+Windows 7 introduit deux paramètres intermédiaires de contrôle de compte d’utilisateur pour les administrateurs protégés, en plus des deux de Windows Vista. La première consiste à avertir les utilisateurs uniquement lorsqu’un programme effectue la modification, de sorte que les administrateurs sont automatiquement élevés lorsqu’ils effectuent eux-mêmes une modification. il s’agit du paramètre UAC par défaut dans Windows 7, qui utilise également le bureau sécurisé.
 
-Le deuxième paramètre intermédiaire de Windows 7 est le même que le premier, sauf qu’il n’utilise pas le Bureau sécurisé.
+le deuxième paramètre intermédiaire de Windows 7 est le même que le premier, sauf qu’il n’utilise pas le bureau sécurisé.
 
 ![capture d’écran de quatre paramètres de contrôle de compte d’utilisateur dans Windows 7 ](images/winenv-uac-image3.png)
 
@@ -57,7 +57,7 @@ Windows 7 introduit deux paramètres intermédiaires de contrôle de compte d’
 
 Une expérience de contrôle de compte d’utilisateur bien conçue a les objectifs suivants :
 
--   **Éliminez l’élévation inutile.** Les utilisateurs doivent avoir à élever uniquement pour effectuer des tâches qui requièrent des privilèges d’administrateur. Toutes les autres tâches doivent être conçues pour éliminer le besoin d’élévation. Souvent, les logiciels hérités nécessitent des privilèges d’administrateur inutilement en écrivant dans les sections de Registre HKLM ou HKCR, ou les fichiers programme ou les dossiers système Windows.
+-   **Éliminez l’élévation inutile.** Les utilisateurs doivent avoir à élever uniquement pour effectuer des tâches qui requièrent des privilèges d’administrateur. Toutes les autres tâches doivent être conçues pour éliminer le besoin d’élévation. souvent, les logiciels hérités nécessitent des privilèges d’administrateur inutilement en écrivant dans les sections de registre HKLM ou HKCR, ou les fichiers programme ou les dossiers système Windows.
 -   **Soyez prévisible.** Les utilisateurs standard doivent savoir quelles tâches requièrent un administrateur pour effectuer ou ne peuvent pas être exécutées du tout dans les environnements gérés. Les administrateurs doivent savoir quelles tâches requièrent une élévation. S’ils ne peuvent pas prédire la nécessité d’une élévation précise, ils sont plus enclins à donner leur consentement pour les tâches administratives lorsqu’ils ne le devraient pas.
 -   **Nécessite un minimum d’effort.** Les tâches qui requièrent des privilèges d’administrateur doivent être conçues pour exiger une seule élévation. Les tâches qui requièrent plusieurs élévations deviennent rapidement fastidieuses.
 -   **Rétablissez les privilèges minimum.** Une fois qu’une tâche nécessitant des privilèges d’administration est terminée, le programme doit revenir à l’état du privilège le moins important.
@@ -95,13 +95,13 @@ Le contrôle de compte d’utilisateur a plusieurs modèles d’utilisation (par
 
     ![capture d’écran du message : vous n’avez pas de privilège ](images/winenv-uac-image6.png)
 
-    Dans cet exemple, les utilisateurs de Windows XP devaient disposer de privilèges d’administrateur pour afficher ou modifier le fuseau horaire actuel.
+    dans cet exemple, les utilisateurs Windows XP devaient posséder des privilèges d’administrateur pour afficher ou modifier le fuseau horaire actuel.
 
     **Correct :**
 
     ![capture d’écran de la boîte de dialogue date et heure ](images/winenv-uac-image7.png)
 
-    Dans cet exemple, la fonctionnalité de fuseau horaire a été repensée dans Windows 7 et Windows Vista pour fonctionner pour tous les utilisateurs.
+    dans cet exemple, la fonctionnalité de fuseau horaire a été repensée dans Windows 7 et Windows Vista pour fonctionner pour tous les utilisateurs.
 
 2.  **Avoir des éléments d’interface utilisateur distincts pour les utilisateurs standard et les administrateurs.** Séparez clairement les tâches utilisateur standard des tâches administratives. Donnez à tous les utilisateurs l’accès à des informations utiles en lecture seule. Identifiez clairement les tâches d’administration avec la protection UAC.
 
@@ -109,7 +109,7 @@ Le contrôle de compte d’utilisateur a plusieurs modèles d’utilisation (par
 
     Dans cet exemple, l’élément du panneau de configuration système affiche son état pour tous les utilisateurs, mais la modification des paramètres au niveau du système nécessite une élévation.
 
-3.  **Autoriser les utilisateurs standard à essayer une tâche et à élever en cas d’échec.** Si les utilisateurs standard peuvent afficher les informations et sont en mesure d’apporter des modifications sans élévation, autorisez-les à accéder à l’interface utilisateur et à les élever uniquement en cas d’échec de la tâche. Cette approche est appropriée lorsque les utilisateurs standard disposent d’un accès limité, par exemple avec les propriétés de leurs propres fichiers dans l’Explorateur Windows. Il est également approprié pour les paramètres sur les pages du concentrateur hybride du panneau de configuration.
+3.  **Autoriser les utilisateurs standard à essayer une tâche et à élever en cas d’échec.** Si les utilisateurs standard peuvent afficher les informations et sont en mesure d’apporter des modifications sans élévation, autorisez-les à accéder à l’interface utilisateur et à les élever uniquement en cas d’échec de la tâche. cette approche est appropriée lorsque les utilisateurs Standard disposent d’un accès limité, par exemple avec les propriétés de leurs propres fichiers dans Windows Explorer. Il est également approprié pour les paramètres sur les pages du concentrateur hybride du panneau de configuration.
 
     ![la capture d’écran de l’accès est un message refusé ](images/winenv-uac-image9.png)
 
@@ -128,7 +128,7 @@ Le contrôle de compte d’utilisateur a plusieurs modèles d’utilisation (par
 ### <a name="uac-shield-icon"></a>Icône de bouclier UAC
 
 -   **Affichez les contrôles avec la protection UAC pour indiquer que la tâche nécessite une élévation immédiate Lorsque le contrôle de compte d’utilisateur est entièrement activé,** même si le contrôle de compte d’utilisateur n’est pas entièrement activé. Si tous les chemins d’accès d’un Assistant et d’un [Flow de page](glossary.md) requièrent une élévation, affichez la protection UAC au point d’entrée de la tâche. L’utilisation correcte de la protection UAC aide les utilisateurs à prédire quand une élévation est requise.
--   **Si votre programme prend en charge plusieurs versions de Windows, affichez la protection UAC si au moins une version requiert une élévation.** Étant donné que Windows XP ne nécessite jamais d’élévation, envisagez de supprimer les blindages UAC pour Windows XP si vous pouvez le faire de manière cohérente et sans nuire aux performances.
+-   **si votre programme prend en charge plusieurs versions de Windows, affichez la protection UAC si au moins une version requiert une élévation.** étant donné que Windows XP ne requiert jamais d’élévation, envisagez de supprimer les blindages UAC pour Windows XP si vous pouvez le faire de manière cohérente et sans nuire aux performances.
 -   **N’affichez pas la protection UAC pour les tâches qui ne nécessitent pas d’élévation dans la plupart des contextes.** Étant donné que cette approche sera parfois trompeuse, l’approche recommandée consiste à utiliser une commande contextuelle correctement protégée à la place.
 
     ![capture d’écran des fichiers de photos dans l’Explorateur Windows ](images/winenv-uac-image11.png)
@@ -237,7 +237,7 @@ Dans cet exemple, le contrôle de compte d’utilisateur a été désactivé, ce
     -   Si l’utilisateur annule l’interface utilisateur d’élévation, revenez à la page valider. Cela permet à l’utilisateur de réessayer.
 -   Pour les assistants de longue durée destinés uniquement aux administrateurs, vous pouvez demander les informations d’identification de l’administrateur au point d’entrée avant d’afficher l’interface utilisateur.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 -   **N’utilisez pas de points de suspension juste parce qu’une commande requiert une élévation.** La nécessité d’élever est indiquée par la protection UAC.
 

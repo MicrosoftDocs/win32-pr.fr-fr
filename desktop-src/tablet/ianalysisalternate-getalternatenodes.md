@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: dd24581774c2115c9f7ccb6857d0cd4d9e1bfd2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbaff3cea515c9636127ce2267b9f05e0c0a0006b96046a7f2474661b3b76f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935519"
 ---
 # <a name="ianalysisalternategetalternatenodes-method"></a>IAnalysisAlternate :: GetAlternateNodes, méthode
 
@@ -50,7 +50,7 @@ Pointeur vers la collection [**IContextNodes**](icontextnodes.md) qui contient l
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Caution]  
 > Pour éviter une fuite de mémoire, appelez [**IUnknown :: Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) sur \* *ppAlternateNodes* lorsque vous n’avez plus besoin d’utiliser la collection de nœuds de contexte.
@@ -67,7 +67,7 @@ Cette méthode retourne les nœuds de contexte feuille associés à cet autre. L
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
@@ -90,7 +90,7 @@ Cette méthode retourne les nœuds de contexte feuille associés à cet autre. L
 [Référence de l’analyse de l’encre](ink-analysis-reference.md)
 </dt> <dt>
 
-[System. Windows. Ink. AnalysisCore. AnalysisAlternateBase. AlternateNodes](ianalysisalternate-getalternatenodes.md)
+[Requise. Windows. Ink. AnalysisCore. AnalysisAlternateBase. AlternateNodes](ianalysisalternate-getalternatenodes.md)
 </dt> </dl>
 
  

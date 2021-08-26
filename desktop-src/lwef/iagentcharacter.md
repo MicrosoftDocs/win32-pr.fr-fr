@@ -4,12 +4,12 @@ description: IAgentCharacter
 ms.assetid: 77d0ffc2-76a2-4a21-88e1-1ca85b8c5d2f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f0a56272ba095f244e48e335049ec5b88b64855
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d7144c6d3379a2237d3f14c955d8052ff4d20d1ff98d9c2f2637796f8b931b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962089"
 ---
 # <a name="iagentcharacter"></a>IAgentCharacter
 
@@ -27,12 +27,12 @@ ms.locfileid: "106509815"
 | [**SetPosition**](iagentcharacter--setposition.md)               | Définit la position du cadre de caractère.                                         |
 | [**GetPosition**](iagentcharacter--getposition.md)               | Retourne la position du cadre de caractère.                                      |
 | [**SetSize**](iagentcharacter--setsize.md)                       | Définit la taille du cadre de caractère.                                             |
-| [**GetSize,**](iagentcharacter--getsize.md)                       | Retourne la taille du cadre de caractère.                                          |
+| [**GetSize**](iagentcharacter--getsize.md)                       | Retourne la taille du cadre de caractère.                                          |
 | [**GetName**](iagentcharacter--getname.md)                       | Retourne le nom du caractère.                                                |
 | [**GetDescription**](iagentcharacter--getdescription.md)         | Retourne la description du caractère.                                        |
 | [**GetTTSSpeed**](iagentcharacter--getttsspeed.md)               | Retourne le paramètre de vitesse de sortie TTS actuel pour le caractère.                   |
 | [**GetTTSPitch**](iagentcharacter--getttspitch.md)               | Retourne le paramètre de pas de police TTS actuel pour le caractère.                          |
-| [**Déclencher**](iagentcharacter--activate.md)                     | Définit si un client est actif ou si un caractère est le plus haut.                        |
+| [**Activer**](iagentcharacter--activate.md)                     | Définit si un client est actif ou si un caractère est le plus haut.                        |
 | [**SetIdleOn**](iagentcharacter--setidleon.md)                   | Définit le traitement inactif du serveur.                                                |
 | [**GetIdleOn**](iagentcharacter--getidleon.md)                   | Retourne le paramètre du traitement inactif du serveur.                              |
 | [**Préparation**](iagentcharacter--prepare.md)                       | Récupère les données d’animation pour le caractère.                                       |
@@ -57,11 +57,11 @@ ms.locfileid: "106509815"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

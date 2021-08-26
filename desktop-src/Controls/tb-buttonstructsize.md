@@ -3,7 +3,7 @@ title: Message TB_BUTTONSTRUCTSIZE (commctrl. h)
 description: Spécifie la taille de la structure TBBUTTON.
 ms.assetid: 4e63a075-4191-44c1-8df6-38fce51d4be5
 keywords:
-- TB_BUTTONSTRUCTSIZE les contrôles de message Windows
+- TB_BUTTONSTRUCTSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7187c1f4cb45306fd293c7eb74ef8807f395ba22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ceed10eec9038b338d060f28acdab8a10aa88aecef6b264b6d6d0682168f4937
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919139"
 ---
 # <a name="tb_buttonstructsize-message"></a>TO \_ BUTTONSTRUCTSIZE message
 
@@ -43,7 +43,7 @@ Taille, en octets, de la structure [**TBBUTTON**](/windows/desktop/api/Commctrl/
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système utilise la taille pour déterminer la version de la bibliothèque de liens dynamiques (DLL) de contrôle commun qui est utilisée.
 
@@ -55,8 +55,8 @@ Si une application utilise la fonction [**CreateWindowEx**](/windows/desktop/api
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

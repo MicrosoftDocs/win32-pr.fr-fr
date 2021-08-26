@@ -1,23 +1,23 @@
 ---
-description: Les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 3.0 et versions antérieures.
+description: les Windows Installer fonctions, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 3.0 et versions antérieures.
 ms.assetid: 35be6da4-2a20-4a7a-9f6e-0420cd5a227e
-title: Non pris en charge dans Windows Installer 3,0
+title: non pris en charge dans Windows Installer 3,0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 003a43a3667ece516f921bd9ae49695ab3716c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 398b4211433762c68ed39af012d895d65aeee8fdc5a17f1e6142df76fcbe056c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926299"
 ---
-# <a name="not-supported-in-windows-installer-30"></a>Non pris en charge dans Windows Installer 3,0
+# <a name="not-supported-in-windows-installer-30"></a>non pris en charge dans Windows Installer 3,0
 
-Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 3,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. Consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. Pour plus d’informations sur les autres versions [de Windows Installer, consultez Nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
+les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 3,0 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. pour plus d’informations sur les autres versions [de Windows Installer, consultez nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
 
-Windows Installer 3,0 est disponible pour Windows Server 2003, Windows XP ou Windows 2000. Pour obtenir la liste de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+Windows le programme d’installation 3,0 est disponible pour Windows Server 2003, Windows XP ou Windows 2000. pour obtenir la liste de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
-Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 3,0 et versions antérieures.
+les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 3,0 et versions antérieures.
 
 [Fonctions du programme d’installation](installer-functions.md)
 
@@ -36,7 +36,7 @@ Prototype de fonction de rappel
 
 -   [**Propriété Msix64**](msix64.md)
 
-[Windows Installer sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
+[Windows Programme d’installation sur les systèmes d’exploitation 64 bits](windows-installer-on-64-bit-operating-systems.md)
 
 -   La [**propriété Résumé du modèle**](template-summary.md) accepte la valeur x64.
 

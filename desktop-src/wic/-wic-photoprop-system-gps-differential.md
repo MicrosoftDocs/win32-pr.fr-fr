@@ -4,12 +4,12 @@ ms.assetid: 330d1f88-5f54-4e29-b57f-eb7112203e04
 title: Stratégie de métadonnées de photos System. GPS. Differential
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dc3f114683d324a067fe4ce4034e2de5cfc88da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 728df47fd8e6e9748b7208b79444ba8fa257fa49c92587df199441de941f4fdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119931799"
 ---
 # <a name="systemgpsdifferential-photo-metadata-policy"></a>Stratégie de métadonnées de photos System. GPS. Differential
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. Differ
 
 \_Différentielle GPS \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 30} | ushort      |
 | 2     | /xmp/exif:GPSDifferential | unicode     |
@@ -58,7 +58,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 30} | ushort      |
 | 2     | /xmp/exif:GPSDifferential | unicode     |
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 30} |
 | 2     | /xmp/exif:gpsdifferential |
@@ -86,7 +86,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 30}          | ushort      |
 | 2     | /ifd/xmp/exif:GPSDifferential | unicode     |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          | Format de disque |
+| Commande | Chemin                          | Format de disque |
 |-------|-------------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 30}          | ushort      |
 | 2     | /ifd/xmp/exif:GPSDifferential | unicode     |
@@ -112,7 +112,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                          |
+| Commande | Chemin                          |
 |-------|-------------------------------|
 | 1     | /IFD/GPS/{UShort = 30}          |
 | 2     | /ifd/xmp/exif:gpsdifferential |
@@ -121,7 +121,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

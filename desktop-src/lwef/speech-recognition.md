@@ -4,12 +4,12 @@ description: Reconnaissance vocale
 ms.assetid: cb5ac509-12a4-4ca4-8776-424568cf780d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5c037ced96c386a5e0baf18eeba258422e0193
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9dd36ea5754d53ceda2761635ecb838fdfb0328617827ca90fc969af915b4ea6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960849"
 ---
 # <a name="speech-recognition"></a>Reconnaissance vocale
 
@@ -31,9 +31,9 @@ La reconnaissance vocale n’est pas le seul moyen de prendre en charge les inte
 -   [Clarifier et limiter les choix](clarify-and-limit-choices.md)
 -   [Fournir une bonne récupération d’erreur](provide-good-error-recovery.md)
 
- 
+ 
 
- 
+ 
 
 
 

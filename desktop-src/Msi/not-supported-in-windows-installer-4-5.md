@@ -1,23 +1,23 @@
 ---
-description: Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 4.5 et les versions antérieures.
+description: les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer&\# 160 ; 4.5 et les versions antérieures.
 ms.assetid: 89662e62-53fb-4b50-8583-80518c6fda6d
-title: Non pris en charge dans Windows Installer 4,5
+title: non pris en charge dans Windows Installer 4,5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d1d1b3039c4e51c7233f98ee2e41afb308a822
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a285094610f0a00a39a26bb2d0683cb41afdfa3ed126ac27f7655c3cd56df17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979349"
 ---
-# <a name="not-supported-in-windows-installer-45"></a>Non pris en charge dans Windows Installer 4,5
+# <a name="not-supported-in-windows-installer-45"></a>non pris en charge dans Windows Installer 4,5
 
-Les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 4,5 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. Consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. Pour plus d’informations sur les autres versions [de Windows Installer, consultez Nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
+les fonctions Windows Installer, les tables et les propriétés répertoriées sur cette page ne sont pas prises en charge par Windows Installer 4,5 et versions antérieures. L’absence d’une fonctionnalité dans cette liste ne garantit pas que la fonctionnalité est prise en charge. consultez la documentation principale pour déterminer quelle version de Windows Installer est requise pour une fonctionnalité particulière. pour plus d’informations sur les autres versions [de Windows Installer, consultez nouveautés de Windows Installer](what-s-new-in-windows-installer.md).
 
-Windows Installer 4,5 est disponible en tant que redistribuable pour Windows Server 2008, Windows Vista avec Service Pack 1 (SP1), Windows XP avec Service Pack 2 (SP2) et versions ultérieures, et Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures. Pour obtenir la liste complète de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
+Windows le programme d’installation 4,5 est disponible en tant que redistribuable pour Windows Server 2008, Windows Vista avec service pack 1 (SP1), Windows XP avec service pack 2 (SP2) et versions ultérieures et Windows Server 2003 avec service pack 1 (sp1) et versions ultérieures. pour obtenir la liste complète de toutes les versions de Windows Installer et des fichiers redistribuables, consultez [versions publiées de Windows Installer](released-versions-of-windows-installer.md).
 
-Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 4,5 et versions antérieures.
+les fonctionnalités suivantes ne sont pas prises en charge dans Windows Installer 4,5 et versions antérieures.
 
 [Actions standard](standard-actions.md)
 
@@ -89,15 +89,15 @@ Les fonctionnalités suivantes ne sont pas prises en charge dans Windows Install
     -   [**ComponentInfo. Path**](componentinfo-path.md)
     -   [**ComponentInfo. State**](componentinfo-state.md)
 
-## <a name="notes"></a>Notes
+## <a name="notes"></a>Remarques
 
-Windows Installer 4,5 ne prend pas en charge certaines fonctionnalités qui permettent d’installer un package d’installation unique dans le contexte d’installation par ordinateur ou par utilisateur. Pour plus d’informations, consultez [création de package unique](single-package-authoring.md).
+Windows Le programme d’installation 4,5 ne prend pas en charge certaines fonctionnalités qui permettent l’installation d’un package d’installation unique dans le contexte d’installation par ordinateur ou par utilisateur. Pour plus d’informations, consultez [création de package unique](single-package-authoring.md).
 
-Windows Installer 4,5 ne prend pas en charge certaines options de configuration de services qui peuvent permettre à un package de personnaliser les [services](../services/services.md) sur un ordinateur. Pour plus d’informations, consultez Utilisation de la [Configuration des services](using-services-configuration.md).
+Windows Le programme d’installation 4,5 ne prend pas en charge certaines options de configuration de services qui peuvent permettre à un package de personnaliser les [services](../services/services.md) sur un ordinateur. Pour plus d’informations, consultez Utilisation de la [Configuration des services](using-services-configuration.md).
 
-Windows Installer 4,5 ne prend pas en charge certaines fonctionnalités qui permettent à l’Windows Installer de sécuriser les nouveaux comptes, les [services](../services/services.md)Windows, les fichiers, les dossiers et les clés de registre. Pour plus d’informations, consultez [sécurisation des ressources](securing-resources-.md).
+Windows le programme d’installation 4,5 ne prend pas en charge certaines fonctionnalités qui permettent au Windows Installer de sécuriser de nouveaux comptes, [services](../services/services.md)Windows, fichiers, dossiers et clés de registre. Pour plus d’informations, consultez [sécurisation des ressources](securing-resources-.md).
 
-Windows Installer 4,5 ne prend pas en charge certaines fonctionnalités permettant à l’installation d’énumérer tous les composants installés sur l’ordinateur et d’obtenir le chemin d’accès à la clé du composant. Pour plus d’informations, consultez [énumération de composants](enumerating-components-.md).
+Windows Le programme d’installation 4,5 ne prend pas en charge certaines fonctionnalités permettant à l’installation d’énumérer tous les composants installés sur l’ordinateur et d’obtenir le chemin d’accès à la clé du composant. Pour plus d’informations, consultez [énumération de composants](enumerating-components-.md).
 
  
 

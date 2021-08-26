@@ -4,17 +4,17 @@ description: Utilisez l’aide comme mécanisme secondaire pour aider les utilis
 ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: f9b1260128eb253a2d501a810923ae809c5f8187
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2a71abf4b90aeaf19f43997c5d8e98ad42f56d5daa86699ff8504ca5a3080bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935790"
 ---
 # <a name="help"></a>Aide
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Utilisez l’aide comme mécanisme secondaire pour aider les utilisateurs à se terminer et mieux comprendre les tâches que le mécanisme principal est l’interface utilisateur. Appliquez ces instructions pour rendre le contenu véritablement utile et facile à trouver.
 
@@ -24,7 +24,7 @@ Dans cet article, nous faisons référence à l’aide comme secondaire de l’i
 
 ![capture d’écran de la page aide et support Windows ](images/winenv-help-image1.png)
 
-Page d’accueil de l’aide et du support Windows, disponible dans le menu Démarrer.
+la page d’informations d’aide et de Support Windows, disponible dans le menu Démarrer.
 
 **Remarque :** Les instructions relatives au [style et au ton](text-style-tone.md) sont présentées dans un article distinct.
 
@@ -41,11 +41,11 @@ Pour vous décider, posez-vous les questions suivantes :
 
 Si vous décidez d’inclure l’aide dans votre programme, intégrez-la dans votre conception globale. L’interface d’aide doit être simple, efficace et pertinente. il doit permettre aux utilisateurs d’obtenir facilement de l’aide, puis de revenir à leur tâche. Pensez à votre système d’aide en termes de temps des utilisateurs : minimisez les interruptions en anticipant les endroits où ils rencontreront des problèmes dans votre programme, puis résolvez ces problèmes en incorporant l’assistance fondamentale directement dans votre interface utilisateur et en créant des points d’entrée clairs et cohérents dans votre aide plus détaillée.
 
-L’assistance Windows a été conçue conformément à ces principes. Voici quelques-unes des modifications de conception apportées à l’expérience utilisateur de l’aide de Windows :
+Windows assistance a été conçue conformément à ces principes. voici quelques-unes des modifications apportées à la conception de l’expérience utilisateur d’aide Windows :
 
 -   Plus de points d’entrée détectables pour l’aide de l’interface utilisateur principale (en particulier les nouveaux liens d’aide des surfaces de l’interface utilisateur, telles que les boîtes de dialogue, les messages d’erreur et les assistants). Les liens d’aide vous permettent d’accéder directement à la rubrique correspondante dans l’aide de.
 -   Une icône de bouton d’aide est disponible dans le coin supérieur droit de la plupart des pages Hub du panneau de contrôle, ainsi que des dossiers Shell.
--   Les utilisateurs peuvent choisir d’obtenir le contenu d’aide le plus à jour à partir de l’aide en ligne de Windows et du support lorsqu’ils sont en ligne.
+-   les utilisateurs peuvent choisir d’obtenir le contenu d’aide le plus à jour auprès de Windows aide et de Support en ligne lorsqu’ils sont en ligne.
 -   Les rubriques d’aide sont maintenant basées sur les tâches plutôt que sur les fonctionnalités, afin que les utilisateurs puissent accomplir leurs tâches rapidement et efficacement.
 -   Les rubriques d’aide sont à présent principalement basées sur des scénarios utilisateur connus.
 -   Les rubriques d’aide sont plus souples [et informelles](text-style-tone.md), à l’aide d’un langage réaliste.
@@ -177,7 +177,7 @@ Différents types de contenu sont utilisés à des fins différentes.
 
     ![capture d’écran de l’aide accessible à partir de la barre de menus ](images/winenv-help-image8.png)
 
-    Dans cet exemple, l’accessoire Windows Paint a une catégorie de menu aide.
+    dans cet exemple, le Windows Paint accessoire a une catégorie de menu aide.
 
 -   **Pour l’accessibilité du clavier, fournissez des taquets de tabulation pour les boutons d’aide et les liens.**
 -   Le bouton aide et le comportement du lien doivent être les suivants : le volet aide s’ouvre et une rubrique d’aide dédiée s’affiche. l’interface utilisateur qui a appelé le volet d’aide doit rester ouverte pour préserver l’expérience contextuelle.
@@ -201,7 +201,7 @@ Différents types de contenu sont utilisés à des fins différentes.
 
     N’utilisez pas de boutons d’aide contextuelle sur la barre de titre.
 
-### <a name="content"></a>Contenu
+### <a name="content"></a>Content
 
 -   **Ne créez pas de contenu évident.** Les rubriques d’aide qui répètent ce qui se trouve dans l’interface utilisateur principale n’ajoutent pas de valeur.
 -   **Ne créez pas de contenu sur lequel l’utilisateur ne peut agir d’une certaine manière.**
@@ -222,7 +222,7 @@ Différents types de contenu sont utilisés à des fins différentes.
 
 ![capture d’écran avec icône de point d’interrogation ](images/winenv-help-image12.png)
 
-Dans cet exemple, une fenêtre de l’Explorateur Windows utilise une icône d’aide pour fournir l’accès à l’aide.
+dans cet exemple, une fenêtre d’explorateur de Windows utilise une icône d’aide pour fournir l’accès à l’aide.
 
 **Incorrect :**
 
@@ -230,7 +230,7 @@ Dans cet exemple, une fenêtre de l’Explorateur Windows utilise une icône d�
 
 Dans cet exemple, l’icône d’aide dans la partie inférieure gauche est utilisée de manière incorrecte avec un lien d’aide.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 **Liens d’aide**
 
@@ -244,7 +244,7 @@ Dans cet exemple, l’icône d’aide dans la partie inférieure gauche est util
 
     **Correct :**
 
-    Un mot de passe fort contient au moins six lettres, chiffres et symboles en casse mixte. Informations complémentaires
+    Un mot de passe fort contient au moins six lettres, chiffres et symboles en casse mixte. Plus d’informations
 
     Dans l’exemple incorrect, le lien d’aide est répétitif. Il pose une question qui a déjà répondu.
 

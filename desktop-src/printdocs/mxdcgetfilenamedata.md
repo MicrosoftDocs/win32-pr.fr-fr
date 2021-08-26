@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: dd29696ae21924f245e508469acfbb88c78b034b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef0b29590b4a9080e943fae5c3e78fb18a99232a2a531a80b63b303b28c2bea2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119948339"
 ---
 # <a name="mxdc_get_filename_data_t-structure"></a>MXDC de l’accès à la \_ \_ structure des données de nom de fichier \_ \_
 
@@ -54,7 +54,7 @@ Chemin d’accès complet et nom de fichier du fichier de sortie.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette structure est retournée par [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) lorsqu’elle est appelée avec l’échappement d’échappement [**MXDC \_**](mxdc-escape.md) et que la structure [**\_ \_ \_ T d’en-tête d’échappement MXDC**](mxdcescapeheader.md) qui est passée dans le paramètre *lpszInData* a son **opcode** défini sur **MXDCOP recevoir le \_ nom de \_ fichier**.
 
@@ -64,8 +64,8 @@ Cette structure est retournée par [**ExtEscape**](/windows/desktop/api/Wingdi/n
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                              |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Mxdc. h</dt> </dl> |
 
 

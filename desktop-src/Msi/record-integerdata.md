@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: ed816c75ab6adc98b3ac19984079d840a4a447b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3593f31d8f8cea6278346e8c99bb9c9b880aed273ae7ab70614ade112cd8c8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912919"
 ---
 # <a name="recordintegerdata-property"></a>Record. IntegerData, propriété
 
@@ -40,7 +40,7 @@ Record.IntegerData = propVal
 
 Numéro de champ obligatoire de la valeur dans l’enregistrement, de base 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour définir un champ d’entier d’enregistrement sur null, utilisez msiDatabaseNullInteger. La valeur retournée d’un champ inexistant est msiDatabaseNullInteger. Toute tentative de stockage d’une valeur dans un champ inexistant génère une erreur.
 

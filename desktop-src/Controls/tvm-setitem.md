@@ -3,7 +3,7 @@ title: Message TVM_SETITEM (commctrl. h)
 description: Le \_ message TVM SETITEM définit une partie ou la totalité des attributs d’un élément d’affichage d’arborescence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetItem TreeView.
 ms.assetid: 28d288bf-a557-4fce-870c-ffa368ece5a9
 keywords:
-- TVM_SETITEM les contrôles de message Windows
+- TVM_SETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95750af3aa43a25f0ff4eae5533df5d9aef23537
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9521bc67766dbb503fc205e966d6ce72e674a4050b6c0d237c885dcb4a8f4b68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119913939"
 ---
 # <a name="tvm_setitem-message"></a>TVM \_ SETITEM message
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **hitem** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) ou [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) identifie l’élément et le membre **Mask** spécifie les attributs à définir.
 
@@ -59,8 +59,8 @@ Le membre **hitem** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVM \_ SETITEMW** (Unicode) et **TVM \_ SETITEMA** (ANSI)<br/>                   |
 

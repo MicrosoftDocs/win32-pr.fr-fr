@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4e060d072c34d248f9faf634aec7710f5638721b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 105bd010704364dc3865b2e704b3daeaafdb29a772d4f3b3fe036b88da2d43cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996179"
 ---
 # <a name="property-qualifiers-for-performance-counter-classes"></a>Qualificateurs de propriété pour les classes de compteur de performance
 
@@ -152,7 +152,7 @@ Nom d’une propriété dans une classe brute à utiliser comme horodateur dans 
 
 ## <a name="how-to-interpret-property-qualifiers"></a>Comment interpréter les qualificateurs de propriété
 
-Les propriétés dans les classes [**\_ PerfFormattedData Win32**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) contiennent les données calculées fournies par le [fournisseur de données de performance mis en forme](formatted-performance-data-provider.md). La valeur de la propriété est le résultat final calculé. Les qualificateurs fournissent une recette.
+les propriétés dans les classes [**\_ PerfFormattedData Win32**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata) contiennent les données calculées fournies par le [Fournisseur de données de Performance mis en forme](formatted-performance-data-provider.md). La valeur de la propriété est le résultat final calculé. Les qualificateurs fournissent une recette.
 
 Les qualificateurs **Counter** et **base** pointent vers les sources de données et **CookingType** spécifie la formule utilisée pour produire le résultat. L’horodateur et la fréquence d’échantillonnage proviennent également de la classe brute correspondante et sont nommés dans **PerfTimeStamp** et **PerfTimeFreq**.
 

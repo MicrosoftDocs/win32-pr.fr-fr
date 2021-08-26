@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: d9c701b453656a68573fe391775c5b27fdd2461a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf85d2eb01ffd4290c5200e09c842f280cd5418dc5203bba068ecb5bcd65c355
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879019"
 ---
 # <a name="capicom_prov_type-enumeration"></a>\_ \_ Énumération de type Proven
 
@@ -34,7 +34,7 @@ L’énumération de **\_ \_ type de CAPICOM Proval** spécifie le type de fourn
 | **CAPICOM \_ Proven \_ RSA \_ SIG**        | Le sous-ensemble du CSP RSA qui prend uniquement en charge les fonctions et algorithmes requis pour les hachages et les signatures numériques.<br/>                                                                                                                                                                                                                                        | 2     |
 | **CAPICOM \_ Proven \_**             | CSP DSS ( [*Digital Signature standard*](../secgloss/d-gly.md) ). Ce type de fournisseur prend uniquement en charge les hachages et les signatures numériques. DSS utilise l' [*algorithme de signature numérique*](../secgloss/d-gly.md) (DSA).<br/> | 3     |
 | **CAPICOM \_ Proven ( \_ Fortezza)**        | Fournisseur de services de chiffrement qui contient les protocoles et algorithmes de chiffrement détenus par le [*National Institute of Standards and Technology*](../secgloss/n-gly.md) (NIST).<br/>                                                                                      | 4     |
-| **CAPICOM Prov- \_ Microsoft \_ \_**    | Fournisseur de services de chiffrement conçu pour les besoins de chiffrement d’Exchange et d’autres applications compatibles avec Microsoft Mail.<br/>                                                                                                                                                                                                                                       | 5     |
+| **CAPICOM Prov- \_ Microsoft \_ \_**    | fournisseur de services de chiffrement conçu pour les besoins de chiffrement de Exchange et d’autres applications compatibles avec Microsoft Mail.<br/>                                                                                                                                                                                                                                       | 5     |
 | **CAPICOM Prov- \_ \_ SSL**             | Fournisseur de services de chiffrement qui prend en charge le protocole [*SSL (Secure Sockets Layer)*](../secgloss/s-gly.md) (SSL).<br/>                                                                                                                                                                                              | 6     |
 | **CAPICOM \_ Proven \_ RSA \_ Schannel**   | Fournisseur de services de chiffrement qui prend en charge les protocoles [*RSA*](../secgloss/r-gly.md) et [*Schannel*](../secgloss/s-gly.md) .<br/>                                                                                                                                                                                        | 12    |
 | **CAPICOM \_ Proven \_ DSS \_**         | Fournisseur de services de chiffrement qui prend en charge les protocoles DSS et [*Diffie-Hellman*](../secgloss/d-gly.md) .<br/>                                                                                                                                                                                                          | 13    |
@@ -51,7 +51,7 @@ L’énumération de **\_ \_ type de CAPICOM Proval** spécifie le type de fourn
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’énumération de **\_ \_ type de CAPICOM Proven** est utilisée par les propriétés et méthodes suivantes :
 
@@ -64,7 +64,7 @@ L’énumération de **\_ \_ type de CAPICOM Proven** est utilisée par les prop
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - NlsMap.dll
-ms.openlocfilehash: 2f8e4ce9763348cf765522ebbd624a6e82f1071a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b96d0c983c46c5d16007aae3a59659099a48855048194153d0c8102d26dc5bd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119898719"
 ---
 # <a name="downlevellcidtolocalename-function"></a>DownlevelLCIDToLocaleName fonction)
 
 Convertit un [identificateur de paramètres régionaux](locale-identifiers.md) en un [nom de paramètres régionaux](locale-names.md).
 
 > [!Note]  
-> Cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert un package de téléchargement. Les applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**LCIDToLocaleName**](/windows/desktop/api/Winnls/nf-winnls-lcidtolocalename) pour récupérer un nom de paramètres régionaux.
+> cette fonction est utilisée uniquement par les applications qui s’exécutent sur des systèmes d’exploitation antérieurs à Windows Vista. Son utilisation requiert un package de téléchargement. les Applications qui s’exécutent uniquement sur Windows Vista et versions ultérieures doivent appeler [**LCIDToLocaleName**](/windows/desktop/api/Winnls/nf-winnls-lcidtolocalename) pour récupérer un nom de paramètres régionaux.
 
  
 
@@ -91,7 +91,7 @@ La fonction retourne 0 si elle ne fonctionne pas. Pour obtenir des informations 
 -   ERREUR \_ : indicateurs non valides \_ . La valeur de *dwFlags* n’est pas valide.
 -   ERREUR \_ \_ : paramètre non valide. Les valeurs de paramètre ne sont pas valides.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Cette fonction ne prend pas en charge les [paramètres régionaux personnalisés](custom-locales.md).
@@ -106,8 +106,8 @@ Le fichier d’en-tête et la DLL requis font partie du téléchargement des API
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                |
 | Composant redistribuable<br/>          | API de mappage de données de niveau inférieur Microsoft NLS onWindows XP avec SP2 et laterorWindows Vista<br/> |
 | En-tête<br/>                   | <dl> <dt>Nlsdl. h</dt> </dl>                  |
 | DLL<br/>                      | <dl> <dt>NlsMap.dll</dt> </dl>               |

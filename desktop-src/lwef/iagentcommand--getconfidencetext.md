@@ -4,12 +4,12 @@ description: IAgentCommand GetConfidenceText
 ms.assetid: d98339eb-0986-497c-b43c-4e4a952328e5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987dca39016a20d185fbd4b8fd2b554c8bec02f4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 19d1d5894a04eeb09289e98db42362acbc43d587e5ac680b98276260ba9c323b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961929"
 ---
 # <a name="iagentcommandgetconfidencetext"></a>IAgentCommand::GetConfidenceText
 
@@ -39,6 +39,6 @@ Adresse d’un BSTR qui reçoit la valeur du texte de l’info-bulle d’écoute
 [**IAgentCommand :: SetConfidenceThreshold**](iagentcommand--setconfidencethreshold.md), [**IAgentCommand :: GetConfidenceThreshold**](iagentcommand--getconfidencethreshold.md), [**IAgentCommand :: SetConfidenceText**](iagentcommand--setconfidencetext.md), [**IAgentUserInput :: GetItemConfidence**](iagentuserinput--getitemconfidence.md)
 
 
- 
+ 
 
- 
+ 

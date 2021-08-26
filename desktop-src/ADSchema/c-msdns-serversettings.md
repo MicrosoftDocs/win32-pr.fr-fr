@@ -1,10 +1,10 @@
 ---
-title: classe ms-DNS-Server-Settings
+title: classe ms-DNS-Server-Paramètres
 description: Conteneur pour le stockage des paramètres du serveur DNS.
 ms.assetid: 65e8bd41-8873-493e-8b1b-960c2419aa96
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de la classe ms-DNS-Server-Settings
+- schéma AD de la classe ms-DNS-Server-Paramètres
 - Schéma AD de la classe msDN ServerSettings
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fba99b0da06509b5f8662de4e684cf91101ff4d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1b546125ddca6735317ac0ab4febf3a8cc19161083172f69cb27d92e5025750a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106543634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880609"
 ---
-# <a name="ms-dns-server-settings-class"></a>classe ms-DNS-Server-Settings
+# <a name="ms-dns-server-settings-class"></a>classe ms-DNS-Server-Paramètres
 
 Conteneur pour le stockage des paramètres du serveur DNS.
 
@@ -29,7 +29,7 @@ Conteneur pour le stockage des paramètres du serveur DNS.
 
 | Entrée | Valeur |
 |-------------------|--------------------------------------|
-| CN                | MS-DNS-Server-paramètres               |
+| CN                | ms-DNS-Server-Paramètres               |
 | LDAP-Display-Name | msDN-ServerSettings                 |
 | Mettre à jour le privilège  | \-                                   |
 | Fréquence des mises à jour  | \-                                   |
@@ -64,7 +64,7 @@ Conteneur pour le stockage des paramètres du serveur DNS.
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -88,7 +88,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -107,7 +107,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**MS-COM-UserLink**](a-mscom-userlink.md)                                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**MS-DFSR-ComputerReferenceBL**](a-msdfsr-computerreferencebl.md)                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**MS-DFSR-MemberReferenceBL**](a-msdfsr-memberreferencebl.md)                              | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**MS-DNS-Keymaster-zones**](a-msdns-keymasterzones.md)                                     | Faux     | **MS-DNS-Server-paramètres**      |
+| [**MS-DNS-Keymaster-zones**](a-msdns-keymasterzones.md)                                     | Faux     | **ms-DNS-Server-Paramètres**      |
 | [**ms-DS-approx-immed-subordonnés**](a-msds-approx-immed-subordinates.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-AuthenticatedTo-accountlist**](a-msds-authenticatedtoaccountlist.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-claim-shares-possibles-values-with-BL**](a-msds-claimsharespossiblevalueswithbl.md) | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -144,7 +144,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |

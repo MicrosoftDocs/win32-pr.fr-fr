@@ -4,12 +4,12 @@ ms.assetid: 712908e1-2d1d-4e42-8c80-71354b03d318
 title: Classes et interfaces d’analyse de l’encre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95d1c157a08a4b7366c20a712c120265320ab4f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48335b0e7bf6e29ee90cf1dbf8fb3e96fd761c4b8c0194daaa9d7365fe89d5c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119937019"
 ---
 # <a name="ink-analysis-classes-and-interfaces"></a>Classes et interfaces d’analyse de l’encre
 
@@ -61,7 +61,7 @@ Les méthodes de la bibliothèque COM Tablet PC retournent des valeurs de **HRES
 
 | Valeur HRESULT                                   | Description                                                                              |
 |-------------------------------------------------|------------------------------------------------------------------------------------------|
-| \_OK<br/>                                | Opération réussie.<br/>                                                                      |
+| \_OK<br/>                                | Réussite.<br/>                                                                      |
 | \_pointeur E<br/>                           | Au moins un pointeur (pour un paramètre d’entrée ou de sortie) n’est pas valide.<br/> |
 | E \_ INVALIDARG<br/>                        | Le membre a tenté de passer un argument non valide.<br/>                              |
 | \_exception encre \_ E<br/>                    | Une exception s’est produite.<br/>                                                           |

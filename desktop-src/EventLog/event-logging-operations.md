@@ -4,12 +4,12 @@ ms.assetid: e42a66c2-2f1e-46f8-99c7-4701075c8ec3
 title: Opérations de journalisation des événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 065acd268788de8c9674baa1fe47a3b89a719d4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 221218bdfa4fc5e4fc6a905353cde33357c4088119031062c074c75d4b8136dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901416"
 ---
 # <a name="event-logging-operations"></a>Opérations de journalisation des événements
 

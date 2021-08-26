@@ -1,19 +1,19 @@
 ---
-description: Cette application montre comment vous pouvez créer une application de reconnaissance de l’écriture manuscrite. Le kit de développement logiciel (SDK) Windows Vista fournit également des versions de cet exemple en C \# et Visual Basic .net.
+description: Cette application montre comment vous pouvez créer une application de reconnaissance de l’écriture manuscrite. le kit de développement logiciel (SDK) Windows Vista fournit également des versions de cet exemple en C \# et Visual Basic .net.
 ms.assetid: 4b3fc078-731e-4263-8e95-2c273d69a457
 title: Exemple de reconnaissance manuscrite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30d97d9d15ef64a3d7a1fe1fc5d45b3cb0454ba7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c151c92c9f407461c34ecffb015af179e57b5c9ed4735b36f70c9a4d26c78088
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119935119"
 ---
 # <a name="ink-recognition-sample"></a>Exemple de reconnaissance manuscrite
 
-Cette application montre comment vous pouvez créer une application de reconnaissance de l’écriture manuscrite. Le kit de développement logiciel (SDK) Windows Vista fournit également des versions de cet exemple en C \# et Visual Basic .net. Cette rubrique fait référence à l’exemple .NET Visual Basic, mais les concepts sont les mêmes entre les versions.
+Cette application montre comment vous pouvez créer une application de reconnaissance de l’écriture manuscrite. le kit de développement logiciel (SDK) Windows Vista fournit également des versions de cet exemple en C \# et Visual Basic .net. cette rubrique fait référence à l’exemple .net Visual Basic, mais les concepts sont les mêmes entre les versions.
 
 ## <a name="access-the-tablet-pc-interfaces"></a>Accéder aux interfaces Tablet PC
 
