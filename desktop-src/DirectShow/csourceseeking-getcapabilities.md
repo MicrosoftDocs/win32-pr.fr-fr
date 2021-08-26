@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f1f354381c4c99cf880c75cbbc4b13355e386030
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 96e3a637673a91ebc98e48777b8f42bdcbf02654a0c264037a66b4121f5b80ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120054339"
 ---
 # <a name="csourceseekinggetcapabilities-method"></a>Méthode CSourceSeeking. GetCapabilities
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit une combinaison d’opérations de bits d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                               | Description                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>      | Succès<br/>                |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Valeur de pointeur **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les fonctionnalités de recherche sont spécifiées par la variable membre [**CSourceSeeking :: m \_ dwSeekingCaps**](csourceseeking-m-dwseekingcaps.md) .
 
@@ -74,7 +74,7 @@ Les fonctionnalités de recherche sont spécifiées par la variable membre [**CS
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

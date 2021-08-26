@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e026c3c3d0a29bbbd10ed2b5565708f0bcb0900c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5559de847cf15b60e3af27f8b092605b8ca8c3bfd874d27ebab7a0edda454d14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972209"
 ---
 # <a name="win32_physicalmemory-class"></a>\_Classe PhysicalMemory Win32
 
@@ -136,7 +136,7 @@ SMBIOS-type 17-attributs. Représente le rang.
 
 Cette valeur provient du membre **attributs** de la structure de l' **unité de mémoire** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -218,7 +218,7 @@ Vitesse d’horloge configurée de l’appareil mémoire, en mégahertz (MHz), o
 
 Cette valeur provient du membre de vitesse de l’horloge de la **mémoire configurée** de la structure du **périphérique de mémoire** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -238,7 +238,7 @@ Tension configurée pour cet appareil, en millivolts ou 0, si la tension est inc
 
 Cette valeur provient du membre **voltage configuré** de la structure de l' **unité de mémoire** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -356,7 +356,7 @@ Unknown
 
 </dt> <dd>
 
-Autres
+Autre
 
 </dd> <dt>
 
@@ -730,7 +730,7 @@ Tension maximale de fonctionnement de cet appareil, en millivolts ou 0, si la te
 
 Cette valeur provient du membre **voltage maximal** de la structure de l' **unité de mémoire** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -959,7 +959,7 @@ Tension minimale de fonctionnement de cet appareil, en millivolts ou 0, si la te
 
 Cette valeur provient du membre **voltage minimal** de la structure de l' **unité de mémoire** dans les informations SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -1149,7 +1149,7 @@ Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("SMBIO
 
 Type de mémoire SMBIOS brut. La valeur de la propriété **MemoryType** est une valeur CIM qui est mappée à la valeur SMBIOS.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge avant Windows Server 2016 et Windows 10.
 
 </dd> <dt>
 
@@ -1450,7 +1450,7 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PhysicalMemory** est dérivée de [**CIM \_ PhysicalMemory**](cim-physicalmemory.md).
 

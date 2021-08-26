@@ -5,12 +5,12 @@ ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7c806d72d4945e2e45384b91bc94fbef3ed08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a6efd0268ef571d8f9ad984bb70a9e69e489e6349f8af0ee9e47e9aa18a1cc5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120032649"
 ---
 # <a name="displaying-the-status-of-an-event-collector-subscription"></a>Affichage de l’état d’un abonnement au collecteur d’événements
 
@@ -22,7 +22,7 @@ Vous pouvez afficher l’état d’un abonnement au collecteur d’événements.
 >
 > **wecutil gr** *SubscriptionName*
 
- 
+ 
 
 Vous aurez besoin du nom d’un abonnement pour afficher son état. Pour répertorier les noms des abonnements en cours sur un ordinateur local, vous pouvez utiliser l’exemple C++ présenté dans la [liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md), ou vous pouvez taper la commande suivante à l’invite de commandes :
 
@@ -32,7 +32,7 @@ L’exemple suivant suit une procédure pour afficher l’état d’un abonnemen
 
 **Pour afficher l’état d’un abonnement à un collecteur d’événements**
 
-1.  Ouvrez l’abonnement en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . Pour plus d’informations sur les droits d’accès, consultez [**constantes du collecteur d’événements Windows**](windows-event-collector-constants.md).
+1.  Ouvrez l’abonnement en fournissant le nom de l’abonnement et les droits d’accès en tant que paramètres à la fonction [**EcOpenSubscription**](/windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription) . pour plus d’informations sur les droits d’accès, consultez [**Windows des constantes du collecteur d’événements**](windows-event-collector-constants.md).
 2.  Obtient l’état de l’abonnement en appelant la fonction [**EcGetSubscriptionRunTimeStatus**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) (ne spécifiez pas de source d’événement lors de l’appel de la fonction).
 3.  Récupérez le tableau des sources d’événements de l’abonnement en appelant la fonction [**EcGetSubscriptionRunTimeStatus**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) et en passant l’indicateur EcSubscriptionRunTimeStatusEventSources.
 4.  Obtenir les informations d’État pour chaque source d’événement en appelant la fonction [**EcGetSubscriptionRunTimeStatus**](/windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus) et en passant le nom de la source de l’événement. Pour plus d’informations sur les informations d’État qui peuvent être récupérées, consultez l’énumération de l’ID d’informations d’état d’exécution de l' [**\_ abonnement \_ \_ \_ \_ EC**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id) .
@@ -432,12 +432,12 @@ std::wstring ConvertEcDateTime( ULONGLONG code )
 [Liste des abonnements du collecteur d’événements](listing-event-collector-subscriptions.md)
 </dt> <dt>
 
-[Informations de référence sur le collecteur d’événements Windows](windows-event-collector-reference.md)
+[Windows Référence du collecteur d’événements](windows-event-collector-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

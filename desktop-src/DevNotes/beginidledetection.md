@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msidle.dll
-ms.openlocfilehash: 06cd016dc4102ef2f5b0f351aa4836a7f9980645
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1bbb27114177a6f64f471b0122832bc09180988019bc23a63343920eb76221f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002319"
 ---
 # <a name="beginidledetection-function"></a>BeginIdleDetection fonction)
 
@@ -75,7 +75,7 @@ Ce paramètre doit avoir la valeur zéro.
 
 Retourne 0 si la fonction est réussie ; Sinon, elle retourne un code d’erreur. Par exemple, si *dwReserved* est autre chose que 0, **les \_ \_ données non valides** de l’erreur sont retournées.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) . Cette fonction n’est pas exportée par nom ; Spécifiez l’ordinal 3 lors de l’appel de **GetProcAddress**.
 

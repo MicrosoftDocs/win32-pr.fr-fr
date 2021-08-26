@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 03f288fb5dafee0e29c8c11cab72156f7ad3d569
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3c7929a7ebab01b17aca3e11cb98de8796bf568cd08a3a7b04d8f3395f531d72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067909"
 ---
 # <a name="precise"></a>Précis
 
@@ -27,7 +27,7 @@ Désactivation par instruction de la refactorisation arithmétique.
 
 
 
- 
+ 
 
 Ce modificateur requiert l’indicateur de nuanceur global « refactorisation \_ autorisée ». Lorsque la refactorisation \_ autorisée est présente, les résultats individuels des instructions individuelles peuvent être forcés à rester précis ou non à refactoriser par les compilateurs ou les pilotes. Si les composants d’une instruction [**Mad**](mad--sm4---asm-.md) sont marqués comme **précis**, le matériel doit exécuter une instruction **Mad** ou l’équivalent exact, et il ne peut pas le fractionner en une multiplication suivie d’un ajout. À l’inverse, une multiplication suivie d’un ajout, où les deux ou les deux sont marqués comme **précis**, ne peut pas être fusionnée dans un **Mad** fusionné.
 
@@ -39,18 +39,18 @@ Ce modificateur est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -59,9 +59,9 @@ Ce modificateur est pris en charge dans les modèles de nuanceur suivants.
 [Modificateurs d’instruction du Shader Model 5](shader-model-5-instruction-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

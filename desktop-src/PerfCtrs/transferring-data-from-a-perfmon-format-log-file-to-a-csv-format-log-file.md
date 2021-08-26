@@ -1,19 +1,19 @@
 ---
-description: L’exemple suivant transfère les données d’un fichier journal de compteur créé par l’outil performance vers un format séparé par des virgules (. csv).
+description: L’exemple suivant transfère les données d’un fichier journal de compteur créé par l’outil performance à un format séparé par des virgules (.csv).
 ms.assetid: 5adeda14-0312-45ce-af91-6888f3aa1c95
 title: Conversion de données à partir d’un fichier journal au format binaire en fichier journal au format CSV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fea03ab810ff0ed357f72e3283323ee776bdc70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a06f858532413881e5152cc3180ca8413adaf6dce9ded55763bf2b767655fe84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033249"
 ---
 # <a name="converting-data-from-a-binary-format-log-file-to-a-csv-format-log-file"></a>Conversion de données à partir d’un fichier journal au format binaire en fichier journal au format CSV
 
-L’exemple suivant transfère les données d’un fichier journal de compteur créé par l’outil performance vers un format séparé par des virgules (. csv). L’exemple transfère les données du compteur de temps processeur collectées à partir de l’ordinateur local. Pour spécifier un autre type de données de compteur, modifiez la variable szCounterPath. Si les données de compteur collectées proviennent d’un ordinateur spécifique, ajoutez le nom de l’ordinateur au chemin d’accès (par exemple, « \\ \\ \\ \\ <computername> \\ \\ processeur (0) \\ \\ % temps processeur »).
+L’exemple suivant transfère les données d’un fichier journal de compteur créé par l’outil performance à un format séparé par des virgules (.csv). L’exemple transfère les données du compteur de temps processeur collectées à partir de l’ordinateur local. Pour spécifier un autre type de données de compteur, modifiez la variable szCounterPath. Si les données de compteur collectées proviennent d’un ordinateur spécifique, ajoutez le nom de l’ordinateur au chemin d’accès (par exemple, « \\ \\ \\ \\ <computername> \\ \\ processeur (0) \\ \\ % temps processeur »).
 
 
 ```C++

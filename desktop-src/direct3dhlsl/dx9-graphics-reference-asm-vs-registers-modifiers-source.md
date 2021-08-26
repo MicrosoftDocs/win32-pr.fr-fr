@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 49c663741da50620e03cfde9f13d67a0c0063453
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f50942d32691d9dc76aa30ddcef36df390fccfe058c31af3527c0eafe0d7df0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067979"
 ---
 # <a name="vertex-shader-source-register-modifiers"></a>Modificateurs de Registre source du nuanceur de sommets
 
@@ -32,7 +32,7 @@ Nie le contenu du Registre source.
 
 
 
- 
+ 
 
 Le modificateur de négation ne peut pas être utilisé dans le deuxième Registre source de ces instructions : [M3X2-vs](m3x2---vs.md), [M3x3-vs](m3x3---vs.md), [M3x4-vs](m3x4---vs.md), [m4x3-vs](m4x3---vs.md), [M4X4-vs](m4x4---vs.md).
 
@@ -44,7 +44,7 @@ Le modificateur de négation ne peut pas être utilisé dans le deuxième Regist
 
 
 
- 
+ 
 
 ## <a name="absolute-value"></a>Valeur absolue
 
@@ -58,7 +58,7 @@ Prenez la valeur absolue du Registre.
 
 
 
- 
+ 
 
 Si un nuanceur de version 3 lit à partir d’un ou de plusieurs registres à virgule flottante constants (c \# ), l’une des conditions suivantes doit être vraie.
 
@@ -72,9 +72,9 @@ Si un nuanceur de version 3 lit à partir d’un ou de plusieurs registres à vi
 [Modificateurs de registre de nuanceur vertex](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

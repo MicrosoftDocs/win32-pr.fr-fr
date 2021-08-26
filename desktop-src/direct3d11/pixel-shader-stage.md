@@ -4,12 +4,12 @@ description: L’étape de nuanceur de pixels (PS) permet d’effectuer des tech
 ms.assetid: 09831B10-4FD1-41E7-8D81-5AA63DC90020
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57142e9c32919a6959a7fac14bf544cca1dacd79
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0dd58bbc55bbc2fb7d590036bceb061f2a304c0be16ff058d04f226021dfe3cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988159"
 ---
 # <a name="pixel-shader-stage"></a>Étape nuanceur de pixels
 
@@ -31,7 +31,7 @@ Les attributs de vertex sont interpolés (ou évalués) aux emplacements du cent
 
 Les entrées peuvent également être déclarées avec une [sémantique de valeur système](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-semantics), qui marque un paramètre consommé par d’autres étapes de pipeline. Par exemple, une position de pixel doit être marquée avec la \_ sémantique de position SV. L’étape IA peut produire une scalaire pour un nuanceur de pixels (à l’aide de SV \_ PrimitiveID); la phase de rastérisation peut également générer une scalaire pour un nuanceur de pixels (à l’aide de SV \_ IsFrontFace).
 
-### <a name="outputs"></a>Sorties
+### <a name="outputs"></a>Outputs
 
 Un nuanceur de pixels peut sortir jusqu’à 8, 32 bits, 4 couleurs de composant ou aucune couleur si le pixel est ignoré. Les composants du registre de sortie du nuanceur de pixels doivent être déclarés avant de pouvoir être utilisés. un masque d’écriture de sortie distinct est autorisé pour chaque registre.
 
@@ -49,6 +49,6 @@ Un nuanceur de pixels ne peut pas générer une valeur de stencil.
 [Étapes de pipeline (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

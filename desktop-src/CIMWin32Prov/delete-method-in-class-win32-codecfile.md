@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9d9395f5c5ebaf2948043fe43e84685e4c39d4d0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ecdd0989530810ee4eafc33fb447c35b6f97c90388a5145df0b423b9726d84c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003709"
 ---
 # <a name="delete-method-of-the-win32_codecfile-class"></a>Méthode Delete de la \_ classe CodecFile Win32
 
@@ -91,7 +91,7 @@ Le système de fichiers n’est pas NTFS.
 **12**
 </dt> <dd>
 
-La plateforme n’est pas Windows NT ou Windows 2000.
+la plateforme n’est pas Windows NT ou Windows 2000.
 
 </dd> <dt>
 

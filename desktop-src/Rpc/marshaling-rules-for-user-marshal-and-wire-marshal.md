@@ -4,12 +4,12 @@ description: La spécification OSF-DCE pour le marshaling des types de pointeurs
 ms.assetid: 077cdd1a-9630-459e-8749-ab0c70b16ecb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4d201f05787ac0b122766ba7fb662532320c43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1edb384450e024d8e1d096d46e55916e9804735408a8ae680a30cc731eef8315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120020031"
 ---
 # <a name="marshaling-rules-for-user_marshal-and-wire_marshal"></a>Règles de marshaling pour le marshaling d’utilisateur \_ et le \_ marshaling de câble
 
@@ -64,6 +64,6 @@ L’effet de ces restrictions est que les types définis avec les attributs de m
 [Thetype \_ UserFreeFunction](the-type-userfree-function.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

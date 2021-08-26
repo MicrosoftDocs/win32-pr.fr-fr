@@ -4,12 +4,12 @@ description: Description de différents types de structures dans l’appel de pr
 ms.assetid: edaf547d-d3d1-443c-93dd-8e036bc42944
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ccae91f703badd2e0153dfc3d8acff1ace562f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1783508a834ce2fa3d93d3db04edc1de362d6f888c29511c1eb6852cce0e83ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017409"
 ---
 # <a name="structures-rpc"></a>Structures (RPC)
 
@@ -27,7 +27,7 @@ Il existe plusieurs catégories de structures, progressivement plus compliquées
 > [!Note]  
 > En comparaison avec les catégories de tableau, il devient clair que seules les structures jusqu’à 64 Ko peuvent être décrites (la taille est pour la partie plate de la structure), il n’y a pas d’équivalent des tableaux SM et LG.
 
- 
+ 
 
 **Membres communs aux structures**
 
@@ -175,7 +175,7 @@ La disposition du pointeur \_<> champ d’une structure complexe est gérée de 
 > [!Note]  
 > Cela s’oppose à d’autres structures, qui dupliquent la description de tous les pointeurs contenus dans les tableaux ou les structures incorporés dans leur propre disposition de pointeur \_<> champ également.
 
- 
+ 
 
 Le format de la disposition du pointeur d’une structure complexe est également radicalement différent. Étant donné qu’il contient uniquement des descriptions des membres de pointeur réels et qu’une structure complexe est marshalée et démarshalée un champ à la fois, le champ de disposition du pointeur \_<> contient simplement la description du pointeur de tous les membres du pointeur. Il n’y a pas \_ de point de départ pour le premier plan et aucune des informations de disposition du pointeur habituelle n' \_<> .
 
@@ -188,7 +188,7 @@ La description de la disposition d’une structure contient un ou plusieurs des 
     > [!Note]  
     > Il existe également des jetons d’alignement de la mémoire tampon, FC \_ ALIGNB2 via FC \_ ALIGNM8 ; ceux-ci ne sont pas utilisés.
 
-     
+     
 
 -   Remplissage de la mémoire. Elles se produisent uniquement à la fin de la description d’une structure et désignent le nombre d’octets de remplissage dans la mémoire avant le tableau conforme dans la structure : FC \_ STRUCTPADn, où n est le nombre d’octets de remplissage.
 -   Tout type non de base incorporé (Notez, toutefois, qu’un tableau conforme ne se produit jamais dans la disposition de la structure). Il comporte une description de 4 octets :
@@ -206,6 +206,6 @@ La description de la disposition d’une structure contient un ou plusieurs des 
 
 Il peut également y avoir un \_ tampon FC avant l’arrêt de la solution FC, \_ si nécessaire, pour s’assurer que la chaîne de format sera alignée sur une limite de 2 octets à la suite de l' \_ extrémité FC.
 
- 
+ 
 
- 
+ 

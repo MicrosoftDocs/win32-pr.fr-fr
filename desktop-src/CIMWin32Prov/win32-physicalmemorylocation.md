@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: daa6d47b13cb5caa74a10f28ab5fcd6e66e1524f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 10f4822312619b5b7fb811a998d82527b6e8bd0bd604e0d2095dae5103935e41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972059"
 ---
 # <a name="win32_physicalmemorylocation-class"></a>\_Classe PhysicalMemoryLocation Win32
 
@@ -101,7 +101,7 @@ Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**remplacement**](../
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PhysicalMemoryLocation** est dérivée de [**CIM \_ PackagedComponent**](cim-packagedcomponent.md).
 

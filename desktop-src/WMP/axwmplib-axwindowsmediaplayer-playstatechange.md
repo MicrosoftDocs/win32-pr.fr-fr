@@ -1,9 +1,9 @@
 ---
 title: Événement PlayStateChange de l’objet AxWindowsMediaPlayer
-description: L’événement PlayStateChange se produit lorsque l’état de lecture du contrôle du lecteur Windows Media change.
+description: l’événement PlayStateChange se produit lorsque l’état de lecture du contrôle Lecteur Windows Media change.
 ms.assetid: f8823c90-2084-4771-a2fe-7081d4e49e63
 keywords:
-- Événement PlayStateChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement PlayStateChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af97803224df89287847ee2b9ef83d8e976d91b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a02f533211ccb6f2f2617d402eed8343a444fad4a7c3ccf49e187ede71ce9513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003989"
 ---
 # <a name="playstatechange-event-of-the-axwindowsmediaplayer-object"></a>Événement PlayStateChange de l’objet AxWindowsMediaPlayer
 
-L’événement PlayStateChange se produit lorsque l’état de lecture du contrôle du lecteur Windows Media change.
+l’événement PlayStateChange se produit lorsque l’état de lecture du contrôle Lecteur Windows Media change.
 
 ``` syntax
 [C#]
@@ -54,9 +54,9 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="examples"></a>Exemples
 
@@ -205,7 +205,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. lecture (VB et C#)**](axwmplib-axwindowsmediaplayer-playstate--vb-and-c.md)

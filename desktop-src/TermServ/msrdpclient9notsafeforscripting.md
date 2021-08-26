@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfb4be0baaf325e68a0bcd5047a791ec61f240f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e55c87511a25115d11e7e49c4551d09451ec55910ce077be5703fb323d0d77ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988899"
 ---
 # <a name="msrdpclient9notsafeforscripting-class"></a>MsRdpClient9NotSafeForScripting, classe
 
@@ -64,23 +64,23 @@ La classe **MsRdpClient9NotSafeForScripting** possède ces méthodes.
 | Méthode                                                                                      | Description                                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                            | Joint un événement. <br/>                                                                                                                                                                                                                                                                |
-| [**Se connecter**](imstscax-connect.md)                                                         | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                                                                                                                          |
+| [**Connecter**](imstscax-connect.md)                                                         | Établit une connexion à l’aide des propriétés actuellement définies sur le contrôle.<br/>                                                                                                                                                                                                          |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                             | Crée un objet de canal virtuel côté client pour chaque nom de canal virtuel spécifié.<br/>                                                                                                                                                                                              |
 | [**detachEvent**](imsrdpclient9-detachevent.md)                                            | Détache un événement. <br/>                                                                                                                                                                                                                                                                |
 | [**Déconnecter**](imstscax-disconnect.md)                                                   | Déconnecte la connexion active.<br/>                                                                                                                                                                                                                                                 |
 | [**GetErrorDescription**](imsrdpclient5-geterrordescription.md)                            | Récupère les codes d’erreur et les messages d’erreur.<br/>                                                                                                                                                                                                                                      |
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                                        | Récupère le texte d’État pour le code d’état spécifié.<br/>                                                                                                                                                                                                                           |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)                   | Récupère les options définies pour un canal virtuel.<br/>                                                                                                                                                                                                                                   |
-| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | Notifie le module de redirection de périphérique du contrôle ActiveX Bureau à distance qu’une modification de périphérique s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.<br/>                                                        |
-| [**OnAuthenticationWarningDismissed**](imstscaxevents-onauthenticationwarningdismissed.md) | Appelé après qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).<br/>                                                                                                                                                             |
-| [**OnAuthenticationWarningDisplayed**](imstscaxevents-onauthenticationwarningdisplayed.md) | Appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).<br/>                                                                                                                                                            |
+| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | notifie le module de redirection de l’appareil du contrôle de Bureau à distance ActiveX qu’une modification de l’appareil s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.<br/>                                                        |
+| [**OnAuthenticationWarningDismissed**](imstscaxevents-onauthenticationwarningdismissed.md) | appelé après qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).<br/>                                                                                                                                                             |
+| [**OnAuthenticationWarningDisplayed**](imstscaxevents-onauthenticationwarningdisplayed.md) | appelé avant qu’un contrôle ActiveX affiche une boîte de dialogue d’authentification (par exemple, la boîte de dialogue erreur de certificat).<br/>                                                                                                                                                            |
 | [**OnAutoReconnected**](imstscaxevents-onautoreconnected.md)                               | Appelé lorsque le contrôle client se reconnecte automatiquement à une session à distance.<br/>                                                                                                                                                                                                  |
 | [**OnAutoReconnecting**](-imstscaxevents--onautoreconnecting.md)                           | Appelée lorsqu’un client se trouve dans le processus de reconnexion automatique d’une session à un serveur hôte de session Bureau à distance.<br/>                                                                                                                                                                      |
 | [**OnAutoReconnecting2**](imstscaxevents-onautoreconnecting2.md)                           | Appelée lorsqu’un client se trouve dans le processus de reconnexion automatique d’une session à un serveur hôte de session Bureau à distance.<br/>                                                                                                                                                                      |
 | [**OnChannelReceivedData**](imstscaxevents-onchannelreceiveddata.md)                       | Appelé lorsque le client reçoit des données sur un canal virtuel scriptable.<br/>                                                                                                                                                                                                              |
 | [**OnConfirmClose**](imstscaxevents-onconfirmclose.md)                                     | Appelée lorsque le client appelle la méthode [**IMsRdpClient :: RequestClose**](imsrdpclient-requestclose.md) .<br/>                                                                                                                                                                           |
 | [**OnConnected**](imstscaxevents-onconnected.md)                                           | Appelé lorsque le contrôle client est en train d’établir une connexion avec un serveur hôte de session Bureau à distance.<br/>                                                                                                                                                                       |
-| [**OnConnecting**](imstscaxevents-onconnecting.md)                                         | Appelé lorsque le contrôle client commence à se connecter à un serveur en réponse à un appel à [**IMsTscAx :: Connect**](imstscax-connect.md).<br/>                                                                                                                                               |
+| [**OnConnecting**](imstscaxevents-onconnecting.md)                                         | Appelé lorsque le contrôle client commence à se connecter à un serveur en réponse à un appel à [**IMsTscAx :: connecter**](imstscax-connect.md).<br/>                                                                                                                                               |
 | [**OnConnectionBarPullDown**](imstscaxevents-onconnectionbarpulldown.md)                   | Appelé lorsque l’utilisateur a fait glisser vers le dessous de la barre de connexion.<br/>                                                                                                                                                                                                                       |
 | [**OnDevicesButtonPressed**](imstscaxevents-ondevicesbuttonpressed.md)                     | Appelé lorsque le bouton appareils de la barre de connexion a été enfoncé.<br/>                                                                                                                                                                                                             |
 | [**OnDisconnected**](imstscaxevents-ondisconnected.md)                                     | Appelé lorsque le contrôle client a été déconnecté du serveur hôte de session Bureau à distance.<br/>                                                                                                                                                                                              |
@@ -89,7 +89,7 @@ La classe **MsRdpClient9NotSafeForScripting** possède ces méthodes.
 | [**OnFocusReleased**](imstscaxevents-onfocusreleased.md)                                   | Appelé lorsque la combinaison de touches de focus de mise en sortie est enfoncée. Par exemple, cet événement est appelé quand l’utilisateur appuie sur la touche CTRL + ALT + gauche ou sur la combinaison de touches CTRL + ALT + flèche droite.<br/>                                                                                             |
 | [**OnIdleTimeoutNotification**](imstscaxevents-onidletimeoutnotification.md)               | Appelé quand aucune entrée de souris ou de clavier n’a été effectuée par l’utilisateur pendant la période définie par la méthode [**IMsRdpClientAdvancedSettings ::p ut \_ MinutesToIdleTimeout**](imsrdpclientadvancedsettings-minutestoidletimeout.md) .<br/>                                                |
 | [**OnLeaveFullScreenMode**](imstscaxevents-onleavefullscreenmode.md)                       | Appelé lorsque le client quitte le mode plein écran. Par exemple, cet événement est appelé quand l’utilisateur appuie sur la combinaison de touches de [raccourci](terminal-services-shortcut-keys.md) du mode plein écran (Ctrl + Alt + Attn).<br/>                                                                     |
-| [**OnLoginComplete**](imstscaxevents-onlogincomplete.md)                                   | Appelé lorsque le contrôle client a réussi à se connecter à un serveur hôte de session Bureau à distance, en suivant l’affichage de la boîte de dialogue ouverture de session Windows.<br/>                                                                                                                                      |
+| [**OnLoginComplete**](imstscaxevents-onlogincomplete.md)                                   | appelé lorsque le contrôle client a réussi à se connecter à un serveur hôte de Session bureau à distance, en suivant l’affichage de la boîte de dialogue Windows Logon.<br/>                                                                                                                                      |
 | [**OnLogonError**](imstscaxevents-onlogonerror.md)                                         | Appelée lorsqu’une erreur d’ouverture de session ou un autre événement d’ouverture de session se produit.<br/>                                                                                                                                                                                                                             |
 | [**OnMouseInputModeChanged**](imstscaxevents-onmouseinputmodechanged.md)                   | Appelé lorsque le mode d’entrée de la souris a changé.<br/>                                                                                                                                                                                                                                      |
 | [**OnNetworkStatusChanged**](imstscaxevents-onnetworkstatuschanged.md)                     | Appelé lorsque l’état du réseau a changé.<br/>                                                                                                                                                                                                                                        |
@@ -191,7 +191,7 @@ La classe **MsRdpClient9NotSafeForScripting** possède les propriétés suivante
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable5-allowpromptingforcredentials.md"><strong>AllowPromptingForCredentials</strong></a><br/></td>
 <td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le contrôle ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.<br/></td>
+<td style="text-align: left;">spécifie si le contrôle de ActiveX Bureau à distance peut inviter l’utilisateur à fournir des informations d’identification.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imstscnonscriptable-binarypassword.md"><strong>BinaryPassword</strong></a><br/></td>
@@ -211,7 +211,7 @@ La classe **MsRdpClient9NotSafeForScripting** possède les propriétés suivante
 <tr class="odd">
 <td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br/></td>
 <td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Le mot de passe du contrôle ActiveX Bureau à distance, au format texte en clair.<br/></td>
+<td style="text-align: left;">Bureau à distance ActiveX mot de passe de contrôle, au format texte en clair.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>La</strong></a><br/></td>
@@ -256,12 +256,12 @@ La classe **MsRdpClient9NotSafeForScripting** possède les propriétés suivante
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableconnectionbar.md"><strong>DisableConnectionBar</strong></a><br/></td>
 <td style="text-align: left;">Écriture seule<br/></td>
-<td style="text-align: left;">Spécifie si le contrôle ActiveX Bureau à distance doit désactiver la barre de connexion.<br/></td>
+<td style="text-align: left;">spécifie si le contrôle de ActiveX Bureau à distance doit désactiver la barre de connexion.<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable5-disableremoteappcapscheck.md"><strong>DisableRemoteAppCapsCheck</strong></a><br/></td>
 <td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le contrôle ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.<br/></td>
+<td style="text-align: left;">spécifie si le contrôle de ActiveX Bureau à distance ne doit pas vérifier les fonctionnalités RemoteApp du serveur.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imstscax-disconnectedtext.md"><strong>DisconnectedText</strong></a><br/></td>
@@ -289,7 +289,7 @@ La classe **MsRdpClient9NotSafeForScripting** possède les propriétés suivante
 <td style="text-align: left;">Informations étendues sur la raison de la déconnexion du contrôle client.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>FullScreen</strong></a><br/></td>
+<td style="text-align: left;"><a href="imsrdpclient-fullscreen.md"><strong>Large</strong></a><br/></td>
 <td style="text-align: left;">Lecture/écriture<br/></td>
 <td style="text-align: left;">Indique si le contrôle est en mode plein écran.<br/></td>
 </tr>
@@ -466,7 +466,7 @@ Lorsque <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>Cre
 <tr class="odd">
 <td style="text-align: left;"><a href="imsrdpclientnonscriptable5-usemultimon.md"><strong>UseMultimon</strong></a><br/></td>
 <td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le contrôle ActiveX Bureau à distance doit utiliser plusieurs analyses.<br/></td>
+<td style="text-align: left;">spécifie si le contrôle de ActiveX Bureau à distance doit utiliser plusieurs analyses.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdppreferredredirectioninfo-useredirectionservername.md"><strong>UseRedirectionServerName</strong></a><br/></td>
@@ -533,6 +533,6 @@ Lorsque <a href="imsrdpclientnonscriptable3-enablecredsspsupport.md"><strong>Cre
 
 <dl> <dt>
 
-[Classes de contrôles ActiveX Bureau à distance](remote-desktop-activex-control-classes.md)
+[Bureau à distance ActiveX les classes de contrôle](remote-desktop-activex-control-classes.md)
 </dt> </dl>
 

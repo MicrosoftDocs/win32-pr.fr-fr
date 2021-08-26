@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés d’événement suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés d’événement suivantes.
 ms.assetid: 672b75ac-cd47-4212-a505-c220ecdf98e3
 title: Propriétés de l’événement (PortableDevice. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 54c7aefeaf1170b7a8b8e3e79a62288f2d14dad2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5220b7cd3b0acfb70788a62138a7da3a4ebac008a51e90bbc93308ae2624300
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055349"
 ---
 # <a name="event-properties"></a>Propriétés de l’événement
 
-Appareils mobiles Windows prend en charge les propriétés d’événement suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés d’événement suivantes.
 
 
 

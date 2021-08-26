@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 36a50dd971161f3e03514947db447774da5b6a62
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: 601036c20651da03de15fe4de807ccb6e9d73f5e0b6fc9c1cefc48ccb48b9147
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067789"
 ---
 # <a name="processquadtessfactorsavg-function"></a>ProcessQuadTessFactorsAvg fonction)
 
@@ -89,7 +89,7 @@ Facteurs de pavage calculés par l’étape du paveur pour les bords intérieurs
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Génère les facteurs de pavage corrigés pour un correctif Quad, en calculant les facteurs de pavage intérieurs comme la moyenne des facteurs de pavage Edge. Les facteurs Tess internes seront des valeurs identiques déterminées par la moyenne des quatre bords mis à l’échelle par InsideScale. Le résultat est ensuite arrondi selon le mode de partitionnement, mais les résultats non arrondis sont disponibles à l’aide du paramètre UnroundedInsideTessFactors.
 
@@ -99,9 +99,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
-| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | oui       |
 
 
 
@@ -111,7 +111,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 

@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 374e7566471948e945e21b5b0a4a0641c671361d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00081ca3ea6cfc6a981dd3d23c4f223b6a500ee1a143a456260a7cea4f182645
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120017739"
 ---
 # <a name="indexsegmentisascending-property"></a>IndexSegment. IsAscending, propriété
 

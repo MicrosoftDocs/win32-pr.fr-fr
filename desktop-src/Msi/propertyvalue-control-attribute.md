@@ -4,12 +4,12 @@ ms.assetid: dda67da0-05f7-4584-9a1e-e9b8e8f7ff8b
 title: PropertyValue (attribut de contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acb6bb34f4e9db4b1c2c8dc37f3890a412c10e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1af714a079c94acd8cfc1a0ce40418f0faa8ca19cc5add6be135b0ced1838686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042029"
 ---
 # <a name="propertyvalue-control-attribute"></a>PropertyValue (attribut de contrôle)
 
@@ -23,7 +23,7 @@ Tous les contrôles actifs.
 
 Cet attribut n’utilise pas d’indicateurs binaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez les [attributs de contrôle](control-attributes.md) et le contrôle que vous devez créer sous [contrôles](controls.md).
 

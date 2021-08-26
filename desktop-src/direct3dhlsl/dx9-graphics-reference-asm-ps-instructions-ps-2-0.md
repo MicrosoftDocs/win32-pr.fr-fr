@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bac2a70ed0147885174c2290d5e58c92ae3347e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 292263ed6331c8cc878d6dbd9cfa3e4d766c193d2242b841afb926b296675ccf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067989"
 ---
 # <a name="ps_2_0-instructions"></a>\_instructions PS 2 \_ 0
 
@@ -32,7 +32,7 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 
 
 
-| Nom                                                             | Description                                                                                      | Emplacements des instructions | Programme d’installation | Arithmétique | Texture | Nouveau |
+| Nom                                                             | Description                                                                                      | Emplacements des instructions | Installation | Arithmétique | Texture | Nouveau |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------|-------|------------|---------|-----|
 | [ABS-PS](abs---ps.md)                                         | Valeur absolue                                                                                   | 1                 |       | x          |         | x   |
 | [Add-PS](add---ps.md)                                         | Ajouter deux vecteurs                                                                                  | 1                 |       | x          |         |     |
@@ -54,14 +54,14 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 | [m4x3-PS](m4x3---ps.md)                                       | 4x3 multiplier                                                                                     | 3                 |       | x          |         | x   |
 | [M4X4-PS](m4x4---ps.md)                                       | 4 x 4                                                                                     | 4                 |       | x          |         | x   |
 | [Mad-PS](mad---ps.md)                                         | Multiplier et ajouter                                                                                 | 1                 |       | x          |         |     |
-| [Max-PS](max---ps.md)                                         | Maximale                                                                                          | 1                 |       | x          |         | x   |
+| [Max-PS](max---ps.md)                                         | Maximum                                                                                          | 1                 |       | x          |         | x   |
 | [min-PS](min---ps.md)                                         | Minimum                                                                                          | 1                 |       | x          |         | x   |
 | [MOV-PS](mov---ps.md)                                         | Déplacer                                                                                             | 1                 |       | x          |         |     |
 | [Mul-PS](mul---ps.md)                                         | Multiplier                                                                                         | 1                 |       | x          |         |     |
 | [NOP-PS](nop---ps.md)                                         | Pas d'opération                                                                                     | 1                 |       | x          |         |     |
-| [NRM-PS](nrm---ps.md)                                         | Normaliser                                                                                        | 3                 |       | x          |         | x   |
+| [NRM-PS](nrm---ps.md)                                         | Normalize                                                                                        | 3                 |       | x          |         | x   |
 | [Pow-PS](pow---ps.md)                                         | x<sup>y</sup>                                                                                    | 3                 |       | x          |         | x   |
-| [alimentation](ps---ps.md)                                                | Version                                                                                          | 0                 | x     |            |         |     |
+| [ps](ps---ps.md)                                                | Version                                                                                          | 0                 | x     |            |         |     |
 | [RCP-PS](rcp---ps.md)                                         | Mutuel                                                                                       | 1                 |       | x          |         | x   |
 | [rsq-PS](rsq---ps.md)                                         | Racine carrée réciproque                                                                           | 1                 |       | x          |         | x   |
 | [SinCos,-PS](sincos---ps.md)                                   | Sinus et cosinus                                                                                  | 8                 |       | x          |         | x   |
@@ -73,7 +73,7 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -82,9 +82,9 @@ Il existe plusieurs types d’instructions de nuanceur de pixels, comme indiqué
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

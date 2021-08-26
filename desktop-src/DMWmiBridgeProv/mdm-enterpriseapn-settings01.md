@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74704451790690df8f9cc11fec8bc1ed80d3c2dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6150e86f798e9408117daac5966f1efdecae4063ae3c4665b3f7577c1e2f31e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120053529"
 ---
 # <a name="mdm_enterpriseapn_settings01-class"></a>\_ \_ Classe SETTINGS01 EnterpriseAPN MDM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ Settings01 EnterpriseAPN MDM** est utilisée par l’entreprise pour modifier les paramètres globaux du APN.
 
@@ -107,7 +107,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [ **clé**](/windows/desktop/WmiSdk/key-qualifier)
 </dt> </dl>
 
-Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la chaîne est « ./Vendor/MSFT/EnterpriseAPN/Settings »
+Décrit le chemin d’accès complet au nœud parent. pour cette classe, la chaîne est « ./Vendor/MSFT/EnterpriseAPN/Paramètres »
 
 </dd> </dl>
 
@@ -117,7 +117,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

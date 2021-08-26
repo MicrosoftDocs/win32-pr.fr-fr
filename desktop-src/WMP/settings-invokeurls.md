@@ -3,7 +3,7 @@ title: Paramètres. invokeURLs
 description: La propriété invokeURLs spécifie ou récupère une valeur indiquant si les événements d’URL doivent lancer un navigateur Web.
 ms.assetid: 3a28d949-96b7-4c21-97c5-2442c2f7baa5
 keywords:
-- Settings. invokeURLs Windows Media Player
+- Paramètres. invokeURLs Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb55bb61243e6905a51a943a26adc120511335c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75de25c5b4a18b6d53423657dc7180fe58cb095f3244800c2c42593d1d450e7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002401"
 ---
 # <a name="settingsinvokeurls"></a>Paramètres. invokeURLs
 
@@ -44,11 +44,11 @@ Cette propriété est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers multimédias peuvent contenir des URL. Quand une URL est envoyée au contrôle du lecteur Windows Media, elle est d’abord transmise au gestionnaire d’événements **commande** , quelle que soit la valeur de **invokeURLs**. Après la sortie de **commande** , le lecteur Windows Media vérifie **invokeURLs** pour déterminer s’il faut lancer le navigateur Internet par défaut avec l’URL. Vous pouvez afficher des URL de manière sélective en les vérifiant dans **commande** et en définissant **invokeURLs** comme vous le souhaitez.
+Les fichiers multimédias peuvent contenir des URL. quand une URL est envoyée au contrôle Lecteur Windows Media, elle est passée en premier au gestionnaire d’événements **commande** , quelle que soit la valeur de **invokeURLs**. une fois **commande** se termine, Lecteur Windows Media vérifie **invokeURLs** pour déterminer s’il faut lancer le navigateur Internet par défaut avec l’URL. Vous pouvez afficher des URL de manière sélective en les vérifiant dans **commande** et en définissant **invokeURLs** comme vous le souhaitez.
 
-**Windows Media Player 10 Mobile**: cette propriété accepte ou retourne la valeur false uniquement.
+**Lecteur Windows Media 10 Mobile**: cette propriété accepte ou retourne la valeur false uniquement.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -68,7 +68,7 @@ Les fichiers multimédias peuvent contenir des URL. Quand une URL est envoyée a
 [**Événement Player. commande**](player-player-scriptcommand.md)
 </dt> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

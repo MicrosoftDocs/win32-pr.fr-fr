@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ec7c44ec3fc01074a0f4af70249236aa366d64bf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e63c4b588c4ff4c22bf0d1e8998163884634e4545537de3c275503652dbb81c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003869"
 ---
 # <a name="copyex-method-of-the-cim_logicalfile-class"></a>Méthode CopyEx de la \_ classe CIM LogicalFile
 
@@ -140,7 +140,7 @@ Le système de fichiers n’est pas NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -203,7 +203,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

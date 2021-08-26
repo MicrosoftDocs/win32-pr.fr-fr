@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6dfcac6c11471a1216636f1e12601e6fe6dd0e4e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae4a4edce4f0f79edee95042cbd53cbaeb610b1bf68a6bdb9de5fd313e8c1355
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002959"
 ---
 # <a name="setpowerstate-method-of-the-cim_diskettedrive-class"></a>Méthode SetPowerState de la \_ classe CIM DisketteDrive
 
@@ -106,7 +106,7 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de [**CIM \_ DisketteDrive**](cim-diskettedrive.md), consultez [classes Win32](win32-provider.md).
 

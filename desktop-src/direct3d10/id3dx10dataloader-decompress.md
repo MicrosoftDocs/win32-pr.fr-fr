@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e6f711722852cba4b671cc84416055d279fd7cc6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9e532bae8cb121fc93f3fdf2a5a1ee23e597c66599277b73b3b36b15ebbb963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989119"
 ---
 # <a name="id3dx10dataloaderdecompress-method"></a>ID3DX10DataLoader ::D méthode eComPress
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' [**interface ID3DX10DataLoader**](id3dx10dataloader.md) peut être héritée et ses membres redéfinis. La décompression peut être redéfinie pour prendre en charge vos propres formats de fichier personnalisés.
 

@@ -4,12 +4,12 @@ description: Les messages RPC synchrones peuvent utiliser toutes les fonctionnal
 ms.assetid: 0f4d45c4-7457-4449-8736-e141a95f6930
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffd2e12cd9f32a571088de769adb079327caab9b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f142d83c003f1293556786167222a4e9e88d3912786aa328319efa7fb0ea345d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120019649"
 ---
 # <a name="msmq-security-services"></a>Services de sécurité MSMQ
 
@@ -29,10 +29,10 @@ L’application serveur peut appeler [**RpcBindingInqAuthClient**](/windows/desk
 
 
 
- 
+ 
 
 Le serveur peut également forcer l’authentification et le chiffrement de l’appel en appelant [**RpcServerUseProtseqEpEx**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex) et en définissant le niveau d’authentification RPC c MQ Authn, le niveau d’authentification et l’intégrité PKT du niveau d’authentification RPC c MQ \_ \_ \_ \_ \_ , \_ \_ \_ \_ \_ \_ ainsi que les \_ \_ \_ \_ indicateurs de confidentialité de niveau d’authentification RPC c MQ Authn \_ \_ dans la structure de la [**\_ stratégie RPC**](/windows/desktop/api/Rpcdce/ns-rpcdce-rpc_policy) .
 
- 
+ 
 
- 
+ 

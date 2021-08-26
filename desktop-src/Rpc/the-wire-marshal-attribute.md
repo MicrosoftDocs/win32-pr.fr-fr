@@ -7,12 +7,12 @@ keywords:
 - wire_marshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 424fb73597482030adb2e7147d0ba8c05b034475
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a85c83cb47cc799c52ad649ac02dd4f2c6a690b9c546a1e47654a2fe2304ca04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120016349"
 ---
 # <a name="the-wire_marshal-attribute"></a>Attribut de \_ Marshal de câble
 
@@ -35,7 +35,7 @@ Vous devez fournir les routines pour le dimensionnement, le marshaling et le dé
 
 
 
- 
+ 
 
 Ces routines fournies par le programmeur sont fournies par le client ou l’application serveur en fonction des attributs directionnels.
 
@@ -62,6 +62,6 @@ Pour un \[ paramètre en [sortie](/windows/desktop/Midl/out-idl) \] seule, le se
 [**NdrGetUserMarshalInfo**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

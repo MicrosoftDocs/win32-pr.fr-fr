@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Poclass.h
 - Batclass.h
-ms.openlocfilehash: 1e892a14263822ddd009b162c6343975e1689683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c449f325e03fb4ea81fe0aa148eaddcf65800b5a56356e22232477e0b6d4fa48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033009"
 ---
 # <a name="battery_information-structure"></a>\_Structure d’informations sur la batterie
 
@@ -162,7 +162,7 @@ Nombre de cycles de charge/décharge que la batterie a rencontrés. Cela permet 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, un état d’avertissement se produit avant un État faible, mais vous ne devez pas le supposer. Il est possible d’interroger une batterie et de constater qu’aucun niveau d’alerte ne s’est produit, et d’interroger à nouveau la batterie et de la trouver déductible dans la mesure où les deux niveaux ont été atteints. Cela peut indiquer que vous n’êtes pas assez souvent interrogé. Cela peut également indiquer que la batterie ne peut pas être facturée pendant très longtemps et qu’elle est en train de se décharger plus rapidement que prévu. Une batterie de ce type est proche de la fin de sa durée de vie utile, ou elle est peut-être endommagée.
 
@@ -172,9 +172,9 @@ En règle générale, un état d’avertissement se produit avant un État faibl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                                                                                                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                                                                                                                                                |
-| En-tête<br/>                   | <dl> <dt>Poclass. h ; </dt> <dt>Batclass. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                                                                                                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                                                                                                                                                |
+| En-tête<br/>                   | <dl> <dt>Poclass. h ;</dt> <dt>Batclass. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows server 2003 et Windows XP</dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: LISTBOX. getNextSelectedItem
 description: La méthode getNextSelectedItem récupère l’élément sélectionné suivant dans le contrôle de zone de liste à partir de l’élément après celui avec l’index spécifié.
 ms.assetid: 060d196d-2b14-4386-ba01-34256c137db5
 keywords:
-- LISTBOX. getNextSelectedItem Windows Media Player
+- LISTBOX. getNextSelectedItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8afb3df1f1b6a6adc528e02dd6531ac4fc1a9a3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4a5d95880b1300ebfb7f1732e7c20b6975ad82cf2d15514c58e68b9f9c42cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003399"
 ---
 # <a name="listboxgetnextselecteditem"></a>LISTBOX. getNextSelectedItem
 
@@ -43,7 +43,7 @@ La méthode **getNextSelectedItem** récupère l’élément sélectionné suiva
 
 Cette méthode retourne un **nombre** (**long**) contenant l’index de l’élément sélectionné suivant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour démarrer la recherche à partir du début, utilisez 1 pour l’index de début.
 

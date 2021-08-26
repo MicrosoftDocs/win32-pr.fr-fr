@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 1fccc9c399a4573440318b92d1157738589da8a4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4e0130a5712e8c60c7f6d3b101a91db9e62f1cc66bed959c49a923923d2ec5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989199"
 ---
 # <a name="d3dx10createeffectpoolfromresource-function"></a>D3DX10CreateEffectPoolFromResource fonction)
 
@@ -74,7 +74,7 @@ Nom de la ressource dans hModule. Si les paramètres du compilateur requièrent 
 
 Type : **[ **LPCTSTR**](../winprog/windows-data-types.md)**
 
-Optionnel. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
+Facultatif. Nom du fichier d’effet, qui est utilisé pour les messages d’erreur uniquement. Peut avoir la **valeur null**.
 
 </dd> <dt>
 

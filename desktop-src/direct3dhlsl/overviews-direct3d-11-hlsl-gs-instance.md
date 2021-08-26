@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7858de7d8526a9468d3ebd0a07d57777983a66db
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 866b0cedb4de0fe2f8bf9087df6637d3a6340505289b4b773eaccd380fa4b367
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120067919"
 ---
 # <a name="how-to-instance-a-geometry-shader"></a>Comment : instancier un nuanceur Geometry
 
@@ -54,9 +54,9 @@ Autres détails :
 [Fonctionnalités du nuanceur Geometry](overviews-direct3d-11-hlsl-gs-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

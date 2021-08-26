@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c111a0c12d0fdc1ce3f6d6bcaa0e7b0f57831054
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cff8f587426b45133716e308ea40785602fea2d5b5d30a99645bfd0c6cc5c4e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003019"
 ---
 # <a name="rename-method-of-the-win32_group-class"></a>Renommer la méthode de la \_ classe de groupe Win32
 
@@ -45,7 +45,7 @@ uint32 Rename(
 *Nom* \[ dans\]
 </dt> <dd>
 
-Nom du compte d’utilisateur Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
+nom du compte d’utilisateur Windows sur le domaine spécifié par la propriété de **domaine** de cette classe.
 
 </dd> </dl>
 

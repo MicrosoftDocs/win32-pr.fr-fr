@@ -1,9 +1,9 @@
 ---
 title: Élément REPEAT
-description: L’élément REPEAT définit le nombre de fois où le lecteur Windows Media répète un ou plusieurs éléments ENTRy ou ENTRYREF.
+description: l’élément repeat définit le nombre de fois Lecteur Windows Media répète un ou plusieurs éléments entry ou ENTRYREF.
 ms.assetid: 1a825f2b-29a7-4180-93df-51b3b5dd14e5
 keywords:
-- RÉPÉTER l’élément du lecteur Windows Media
+- répéter l’élément Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aff7d5eaa9594882b029f0b02f4888d93fff01d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 330eda0757acb29b48ed10636d8f479b6ebb1395d088020876c717a78f41ae6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002539"
 ---
 # <a name="repeat-element"></a>Élément REPEAT
 
-L’élément **REPEAT** définit le nombre de fois où le lecteur Windows Media répète un ou plusieurs éléments **entry** ou **ENTRYREF** .
+l’élément **repeat** définit le nombre de fois Lecteur Windows Media répète un ou plusieurs éléments **entry** ou **ENTRYREF** .
 
 ``` syntax
 <REPEAT   
@@ -35,7 +35,7 @@ L’élément **REPEAT** définit le nombre de fois où le lecteur Windows Media
 
 **COUNT**
 
-Entier représentant le nombre de fois où le lecteur Windows Media répète les éléments d' **entrée** et de **ENTRYREF** dans la portée de cet élément.
+entier représentant le nombre de fois Lecteur Windows Media répète les éléments **entry** et **ENTRYREF** dans la portée de cet élément.
 
 ## <a name="parentchild-elements"></a>Éléments parent/enfant
 
@@ -50,11 +50,11 @@ Entier représentant le nombre de fois où le lecteur Windows Media répète les
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément définit le nombre de fois que le lecteur Windows Media se répète, ou effectue une boucle, sur les clips définis par les éléments **entry** et **ENTRYREF** dans la portée de cet élément. Seul le premier élément **REPEAT** d’un métafichier est valide ; les éléments **REPEAT** suivants sont ignorés.
+cet élément définit le nombre de fois Lecteur Windows Media répète, ou parcourt, les clips définis par les éléments **entry** et **ENTRYREF** dans la portée de cet élément. Seul le premier élément **REPEAT** d’un métafichier est valide ; les éléments **REPEAT** suivants sont ignorés.
 
-Si aucun attribut **Count** n’est défini, le contenu des éléments d' **entrée** et de **ENTRYREF** associés se répète un nombre infini de fois. La valeur zéro amène le lecteur Windows Media à ignorer l’élément **REPEAT** et à lire le contenu une seule fois.
+Si aucun attribut **Count** n’est défini, le contenu des éléments d' **entrée** et de **ENTRYREF** associés se répète un nombre infini de fois. si la valeur est zéro, Lecteur Windows Media ignore l’élément **REPEAT** et joue le contenu une seule fois.
 
 ## <a name="examples"></a>Exemples
 
@@ -92,10 +92,10 @@ Si aucun attribut **Count** n’est défini, le contenu des éléments d' **entr
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

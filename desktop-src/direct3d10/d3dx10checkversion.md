@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4fc8befa88fb706965a30224843745b033ea205b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 69592957c6bcd429c61eab51f968570c7ddec51fb1c0f24e522e9fee73a51cd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989209"
 ---
 # <a name="d3dx10checkversion-function"></a>D3DX10CheckVersion fonction)
 
@@ -59,13 +59,13 @@ Utilisez la \_ version du SDK d3dx10 \_ . Consultez la section Remarques.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la version ne correspond pas, la fonction retourne FALSe (un nombre inférieur ou égal à 0, le nombre lui-même n’a aucune signification).
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Utilisez cette fonction pendant l’initialisation de votre application.
 

@@ -4,12 +4,12 @@ ms.assetid: 66a7e170-6f70-4db7-98f4-8a074471b9f2
 title: Table ProgId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 293ce3748f691b664d55b0a1158a574472388202
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbed8baea9bd8421757cf2e31f0ba06679db3394c95f732537a7e230c02b5ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120042059"
 ---
 # <a name="progid-table"></a>Table ProgId
 
@@ -25,7 +25,7 @@ La table ProgId contient les colonnes suivantes.
 | ProgId \_ parent | [Text](text.md)             | N   | O        |
 | Classe\_        | [GUID](guid.md)             | N   | O        |
 | Description    | [Text](text.md)             | N   | O        |
-| Icône\_         | [Identificateur](identifier.md) | N   | O        |
+| Située\_         | [Identificateur](identifier.md) | N   | O        |
 | IndexIcône      | [Integer](integer.md)       | N   | O        |
 
 
@@ -78,7 +78,7 @@ Index d’icône dans le fichier d’icône. Cette colonne doit avoir la valeur 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [RegisterProgIdInfo](registerprogidinfo-action.md) et [UnregisterProgIdInfo](unregisterprogidinfo-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3bb7565d75948fe951d87da49fe00cd4ff565115
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b0c27c672c7f65a524a0c8042281b1fee17ed113e8a75f77435151b685ef3199
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001989"
 ---
 # <a name="ifeedbackhubappinfogetrunningapps-method"></a>IFeedbackHubAppInfo :: GetRunningApps, méthode
 
@@ -45,7 +45,7 @@ Cette API n’est pas disponible pour toutes les applications. À moins que votr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Cette méthode ne retourne pas de valeur.
 
@@ -55,8 +55,8 @@ Cette méthode ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/> |
 
 
 

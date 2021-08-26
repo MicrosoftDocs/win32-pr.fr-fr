@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 650d05f379be634bfdd9dfb0908153260f795b00
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af4dea966b63549c4bcef913175c6c97e1c49d73e3d5694cfcd0f7b6c8170497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989159"
 ---
 # <a name="d3dx10getimageinfofromresource-function"></a>D3DX10GetImageInfoFromResource fonction)
 
@@ -89,13 +89,13 @@ Pointeur vers la valeur de retour. Peut avoir la **valeur null**. Si *pPump* n�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la suivante : D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DX10GetImageInfoFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DX10GetImageInfoFromResourceA, car les chaînes ANSI sont utilisées.
 
