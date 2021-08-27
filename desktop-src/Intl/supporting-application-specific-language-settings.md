@@ -1,17 +1,17 @@
 ---
 description: Votre application peut prendre en charge un autre ensemble de langues d’interface utilisateur que celles prises en charge par le système d’exploitation cible. Cette rubrique décrit ce type de prise en charge, à l’aide d’extraits de code complets.
 ms.assetid: cb9f2a5f-3bb8-4287-a542-c71d20b37194
-title: Prise en charge des paramètres de langue Application-Specific
+title: prise en charge du langage de Application-Specific Paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6bddfe94586751d3b0f4757c670c006317e49b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96c934ea2f01c37eb2f9e846382447a50ccbedcd9b69fe20069216fa46521b02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130059"
 ---
-# <a name="supporting-application-specific-language-settings"></a>Prise en charge des paramètres de langue Application-Specific
+# <a name="supporting-application-specific-language-settings"></a>prise en charge du langage de Application-Specific Paramètres
 
 Votre application peut prendre en charge un autre ensemble de langues d’interface utilisateur que celles prises en charge par le système d’exploitation cible. Cette rubrique décrit ce type de prise en charge, à l’aide d’extraits de code complets.
 
@@ -91,7 +91,7 @@ BOOL ConvertMyLangStrToMultiLangStr(WCHAR * langStr, WCHAR * langMultiStr, DWORD
 
 ## <a name="set-the-application-language"></a>Définir la langue de l’application
 
-Après avoir lu les informations de préférence de langue, le code de l’application doit utiliser le paramètre récupéré pour définir la langue de l’application. Sur Windows 7 et versions ultérieures, l’application peut définir la langue au niveau du processus en appelant la fonction [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages) .
+Après avoir lu les informations de préférence de langue, le code de l’application doit utiliser le paramètre récupéré pour définir la langue de l’application. sur Windows 7 et versions ultérieures, l’application peut définir la langue au niveau du processus en appelant la fonction [**SetProcessPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setprocesspreferreduilanguages) .
 
 
 ```C++
@@ -108,7 +108,7 @@ if(!SetProcessPreferredUILanguages(MUI_LANGUAGE_NAME, userLanguagesMultiString, 
 
 
 
-Sur Windows Vista et versions ultérieures, la langue de l’application est définie au niveau du thread en appelant la fonction [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) .
+sur Windows Vista et versions ultérieures, la langue de l’application est définie au niveau du thread en appelant la fonction [**SetThreadPreferredUILanguages**](/windows/desktop/api/Winnls/nf-winnls-setthreadpreferreduilanguages) .
 
 
 ```C++
@@ -133,10 +133,10 @@ return 1;
 [Définition des préférences linguistiques de l’application](setting-application-language-preferences.md)
 </dt> <dt>
 
-[MUI : exemple de paramètres Application-Specific (Windows Vista)](mui-application-specific-settings-sample-vista.md)
+[MUI : exemple de Paramètres Application-Specific (Windows Vista)](mui-application-specific-settings-sample-vista.md)
 </dt> <dt>
 
-[MUI : exemple de paramètres de Application-Specific (antérieur à Windows Vista)](mui-application-specific-settings-sample-pre-vista.md)
+[MUI : exemple de Paramètres Application-Specific (pré-Windows Vista)](mui-application-specific-settings-sample-pre-vista.md)
 </dt> </dl>
 
  

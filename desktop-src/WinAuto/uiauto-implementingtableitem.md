@@ -15,12 +15,12 @@ keywords:
 - interfaces, ITableItemProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bae3e6d5379ec9a662e31ec6181476b112631381
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: babb64114bb761b0b6e93a7cc9c0036cb01bb8946eb813bcd0fc3e821d44a183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098269"
 ---
 # <a name="tableitem-control-pattern"></a>Modèle de contrôle TableItem
 
@@ -46,14 +46,14 @@ Les méthodes suivantes sont requises pour implémenter l’interface [**ITableI
 
 
 
-| Membres nécessaires                                                               | Type de membre | Notes |
+| Membres nécessaires                                                               | Type de membre | Remarques |
 |--------------------------------------------------------------------------------|-------------|-------|
 | [**GetColumnHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getcolumnheaderitems) | Méthode      | Aucun  |
 | [**GetRowHeaderItems**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableitemprovider-getrowheaderitems)       | Méthode      | Aucun  |
 
 
 
- 
+ 
 
 Ce modèle de contrôle n’est associé à aucune propriété ni à aucun événement.
 
@@ -76,9 +76,9 @@ Ce modèle de contrôle n’est associé à aucune propriété ni à aucun évé
 [Vue d’ensemble de l’arborescence UI Automation](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

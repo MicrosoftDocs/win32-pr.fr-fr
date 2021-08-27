@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a70ee83229a830e22fba4241a6c50eb8d971c5ad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 306f771df0e44cb11ec61631b2d6b51f11ccefac9a719776d3a483d5cc861133
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085829"
 ---
 # <a name="change-method-of-the-win32_baseservice-class"></a>Modifier la méthode de la \_ classe BaseService Win32
 
@@ -186,7 +186,7 @@ Le système tente de redémarrer avec une bonne configuration.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows.
+mode de démarrage du service de base Windows.
 
 <dt>
 
@@ -532,7 +532,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour modifier un service d’un réseau en un système local, utilisez les valeurs suivantes pour les paramètres *StartName* et *StartPassword* :
 

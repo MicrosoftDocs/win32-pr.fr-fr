@@ -4,12 +4,12 @@ ms.assetid: 95f3f0ef-07ca-4fbc-9c5f-6db15fc4c68a
 title: LOCALE_FONTSIGNATURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1663c8680017c62e0a44166c8beb3b18d2d517a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1989e8ffc9b2ff6b6926fed4b1b08d6ff7817bd81e8147860248be866b8f679
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106859"
 ---
 # <a name="locale_fontsignature"></a>paramètres régionaux \_ fontSignature
 

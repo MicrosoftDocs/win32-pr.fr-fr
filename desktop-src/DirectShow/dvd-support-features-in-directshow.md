@@ -4,12 +4,12 @@ ms.assetid: 20dc1067-696e-4f53-9c77-0f2da237c5af
 title: Fonctionnalités de prise en charge des DVD dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035af51bbe44ec8dcc95f199c502b71d37d834f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f143bab35a8b9a4a0cb12af20c2c2c3b66a0822a24cfc054b1f5d30bd4bc3dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107899"
 ---
 # <a name="dvd-support-features-in-directshow"></a>Fonctionnalités de prise en charge des DVD dans DirectShow
 
@@ -36,7 +36,7 @@ Le navigateur DVD prend en charge les fonctionnalités suivantes :
 
 Tous les développeurs d’applications doivent avoir une connaissance de base des fonctionnalités offertes par la technologie DVD, telles que les niveaux de gestion parental, les flux audio et de sous-image multiples et les blocs angulaires. Les [notions de base](dvd-basics.md) sur les DVD décrivent brièvement chacune de ces fonctionnalités. des descriptions plus complètes sont disponibles dans les publications tierces. Vous n’avez pas besoin de faire référence à la spécification DVD, sauf si vous envisagez d’implémenter des fonctionnalités avancées au-delà du jeu de commandes Annexe J.
 
-Les développeurs C/C++ utilisant DirectShow doivent être familiarisés avec les techniques de programmation de client COM, telles que la création d’objets COM et l’obtention et la libération de pointeurs d’interface COM. Vous aurez peut-être également besoin d’une connaissance générale des opérations de graphique de filtre, car vous devrez peut-être accéder au graphique et le manipuler directement.
+les développeurs C/C++ qui utilisent DirectShow doivent être familiarisés avec les techniques de programmation de client com, telles que la création d’objets com et l’obtention et la libération de pointeurs d’interface com. Vous aurez peut-être également besoin d’une connaissance générale des opérations de graphique de filtre, car vous devrez peut-être accéder au graphique et le manipuler directement.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

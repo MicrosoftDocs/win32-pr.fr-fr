@@ -4,16 +4,16 @@ ms.assetid: f86c1af8-c984-4075-9c6b-0a71000b01a1
 title: Propriété ARPNOREMOVE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbf8960234456a7010fb81cb195d63d4c5c79bb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d69e066aeb96861be220a40334d44bf55fe0569e855029d2a19399b56a1c205
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105429"
 ---
 # <a name="arpnoremove-property"></a>Propriété ARPNOREMOVE
 
-La définition de la propriété **ARPNOREMOVE** désactive la fonctionnalité **Ajout/suppression de programmes** du panneau de **configuration** qui supprime le produit. Pour Windows 2000, le bouton **supprimer** du produit est désactivé à partir de l’option **Ajout/suppression de programmes** du **panneau de configuration**. Pour les systèmes d’exploitation antérieurs, cela a pour effet de supprimer le produit de la liste des produits installés dans le panneau de **configuration** **Ajout/suppression de programmes** .
+La définition de la propriété **ARPNOREMOVE** désactive la fonctionnalité **Ajout/suppression de programmes** du panneau de **configuration** qui supprime le produit. pour Windows 2000, le bouton **supprimer** du produit est désactivé à partir de l’option **ajout/suppression de programmes** du **panneau de configuration**. Pour les systèmes d’exploitation antérieurs, cela a pour effet de supprimer le produit de la liste des produits installés dans le panneau de **configuration** **Ajout/suppression de programmes** .
 
 Si la propriété **ARPNOREMOVE** est définie, l' [action RegisterProduct](registerproduct-action.md) écrit la valeur « NoRemove » sous la clé de Registre :
 
@@ -21,7 +21,7 @@ Si la propriété **ARPNOREMOVE** est définie, l' [action RegisterProduct](regi
 
 La définition de la propriété **ARPNOREMOVE** empêche l’écriture de la valeur UninstallString sous cette clé. La valeur UnistallString est une ligne de commande pour la suppression du produit, au lieu de la reconfiguration du produit.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par exemple, cette propriété peut être définie au cours d’une transformation de personnalisation pour empêcher les utilisateurs de supprimer une personnalisation d’administrateur.
 
@@ -31,7 +31,7 @@ Par exemple, cette propriété peut être définie au cours d’une transformati
 
 | Condition requise | Valeur |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 ou version ultérieure sur Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 ou version ultérieure sur Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

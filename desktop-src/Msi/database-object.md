@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5b47e4678d9475abe90c4b55d6adb514314dcc0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3dcdb2c4098905d7e6a410e786d4af254732bc80cee4b760870a7c1c44a8ec26
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086199"
 ---
 # <a name="database-object"></a>Objet de base de données
 
@@ -31,7 +31,7 @@ Le client peut utiliser la procédure suivante pour l’accès aux données.
 **Pour interroger l’API de séquencement**
 
 1.  Obtenez un objet **de base de données** en appelant l’objet [**OpenDatabase**](installer-opendatabase.md) ou le [**programme d’installation**](installer-object.md) .
-2.  Lancez une requête à l’aide d’une chaîne SQL en appelant la méthode [**OpenView**](database-openview.md) de l’objet **de base de données** .
+2.  lancez une requête à l’aide d’une chaîne de SQL en appelant la méthode [**OpenView**](database-openview.md) de l’objet **de base de données** .
 3.  Définissez les paramètres de requête dans un objet [**enregistrement**](record-object.md) et exécutez la requête de base de données en appelant la méthode [**Execute**](view-execute.md) de l’objet [**View**](view-object.md) . Cela génère un résultat qui peut être extrait ou mis à jour.
 4.  Appelez la méthode [**Fetch**](view-fetch.md) de l’objet [**View**](view-object.md) à plusieurs reprises pour retourner des objets [**Record**](record-object.md) .
 5.  Met à jour les lignes de base de données d’un objet [**Record**](record-object.md) obtenu par la méthode [**Fetch**](view-fetch.md) à l’aide de la méthode [**Modify**](view-modify.md) de l’objet [**View**](view-object.md) .
@@ -54,14 +54,14 @@ L’objet **de base de données** a ces méthodes.
 | Méthode                                                                    | Description                                                                                                                                                               |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ApplyTransform**](database-applytransform.md)                         | Applique la transformation à cette base de données.<br/>                                                                                                                        |
-| [**Commit**](database-commit.md)                                         | Finalise la forme persistante de la base de données.<br/>                                                                                                                 |
+| [**Commiter**](database-commit.md)                                         | Finalise la forme persistante de la base de données.<br/>                                                                                                                 |
 | [**CreateTransformSummaryInfo**](database-createtransformsummaryinfo.md) | Crée et remplit le flux d’informations de synthèse d’un fichier de transformation existant.<br/>                                                                            |
 | [**EnableUIPreview**](database-enableuipreview.md)                       | Facilite la création de boîtes de dialogue et de panneaux en fournissant la prise en charge nécessaire pour afficher les boîtes de dialogue de l’interface utilisateur stockées dans la base de données du programme d’installation.<br/> |
 | [**Exporter**](database-export.md)                                         | Copie la structure et les données d’une table spécifiée dans un fichier d’archive de texte.<br/>                                                                                   |
 | [**GenerateTransform**](database-generatetransform.md)                   | Crée une transformation.<br/>                                                                                                                                           |
-| [**Importer**](database-import.md)                                         | Importe une table de base de données à partir d’un fichier d’archive de texte.<br/>                                                                                                             |
+| [**Port**](database-import.md)                                         | Importe une table de base de données à partir d’un fichier d’archive de texte.<br/>                                                                                                             |
 | [**Fusion**](database-merge.md)                                           | Fusionne la base de données de référence avec la base de données de base.<br/>                                                                                                          |
-| [**OpenView**](database-openview.md)                                     | Retourne un objet de [**vue**](view-object.md) représentant la requête spécifiée par une chaîne SQL.<br/>                                                                 |
+| [**OpenView**](database-openview.md)                                     | retourne un objet de [**vue**](view-object.md) représentant la requête spécifiée par une chaîne de SQL.<br/>                                                                 |
 
 
 
@@ -100,7 +100,7 @@ L’objet **de base de données** a ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

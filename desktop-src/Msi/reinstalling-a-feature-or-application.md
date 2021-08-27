@@ -1,19 +1,19 @@
 ---
-description: Windows Installer pouvez réparer, remplacer et vérifier les fichiers contenus dans une application. Une réinstallation partielle ou complète de l’application peut être nécessaire si des fichiers ou des entrées de Registre associés à une fonctionnalité sont manquants ou endommagés.
+description: Windows Le programme d’installation peut réparer, remplacer et vérifier les fichiers contenus dans une application. Une réinstallation partielle ou complète de l’application peut être nécessaire si des fichiers ou des entrées de Registre associés à une fonctionnalité sont manquants ou endommagés.
 ms.assetid: fab23ab9-f1ab-4743-b883-cffc29b0124b
 title: Réinstallation d’une fonctionnalité ou d’une application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645f7dbf95204d96202c71a120eafb6e6e054ac6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 803fc3271cb69280ae84ae096e7a411dbf599f0a321bf15baac6dbd5ca8e1512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085999"
 ---
 # <a name="reinstalling-a-feature-or-application"></a>Réinstallation d’une fonctionnalité ou d’une application
 
-Windows Installer pouvez réparer, remplacer et vérifier les fichiers contenus dans une application. Une réinstallation partielle ou complète de l’application peut être nécessaire si des fichiers ou des entrées de Registre associés à une fonctionnalité sont manquants ou endommagés.
+Windows Le programme d’installation peut réparer, remplacer et vérifier les fichiers contenus dans une application. Une réinstallation partielle ou complète de l’application peut être nécessaire si des fichiers ou des entrées de Registre associés à une fonctionnalité sont manquants ou endommagés.
 
 Quand une fonctionnalité ou une application est réinstallée, tous les services, les variables d’environnement et les actions personnalisées appartenant à la fonctionnalité ou à l’application sont également réinstallés. Notez que cela signifie que toutes les modifications apportées aux variables d’environnement entre l’installation d’origine et la réinstallation sont perdues.
 

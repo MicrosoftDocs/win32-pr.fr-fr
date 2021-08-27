@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 14fa2d3d38d42fa0feb387b477205cc51e0b6b87
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 35443d212fc244c80da958f2f87d03363c59348be4189393c1c3493521a0439b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076579"
 ---
 # <a name="cbaseobjectcbaseobject-constructor"></a>Constructeur CBaseObject. CBaseObject
 
@@ -49,7 +49,7 @@ Chaîne qui contient le nom de l’objet, à des fins de débogage.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode incrémente le nombre d’objets actifs. (Voir [**CBaseObject :: ObjectsActive**](cbaseobject-objectsactive.md).)
 
@@ -75,7 +75,7 @@ La macro de [**nom**](name.md) compile en **valeur null** dans les versions comm
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

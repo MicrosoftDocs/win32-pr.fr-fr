@@ -1,19 +1,19 @@
 ---
 title: Autorisation d’identité distante
-description: Le scénario de la stratégie IPsec d’autorisation d’identité distante requiert que les connexions entrantes proviennent d’un ensemble spécifique de principaux de sécurité distants qui sont spécifiés dans une liste de contrôle d’accès (ACL) du descripteur de sécurité Windows.
+description: le scénario de stratégie IPsec d’autorisation d’identité distante requiert que les connexions entrantes proviennent d’un ensemble spécifique de principaux de sécurité distants qui sont spécifiés dans une liste de contrôle d’accès (ACL) Windows security descriptor (SD).
 ms.assetid: 4d9f83d6-6f56-4416-8c35-d0260f9e888c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57287a0dd9af4686b1a2dab162677912213559a7
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: c426f0d153d45d3699020bb723b15d75d84df4662fd0bb61d66513c2af24fe31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075379"
 ---
 # <a name="remote-identity-authorization"></a>Autorisation d’identité distante
 
-Le scénario de la stratégie IPsec d’autorisation d’identité distante requiert que les connexions entrantes proviennent d’un ensemble spécifique de principaux de sécurité distants qui sont spécifiés dans une liste de contrôle d’accès (ACL) du descripteur de sécurité Windows. Si l’identité distante (telle que déterminée par IPsec) ne correspond pas à l’ensemble d’identités autorisées, la connexion est supprimée. Cette stratégie doit être spécifiée conjointement avec l’une des options de la stratégie mode de transport.
+le scénario de stratégie IPsec d’autorisation d’identité distante requiert que les connexions entrantes proviennent d’un ensemble spécifique de principaux de sécurité distants qui sont spécifiés dans une liste de contrôle d’accès (ACL) Windows security descriptor (SD). Si l’identité distante (telle que déterminée par IPsec) ne correspond pas à l’ensemble d’identités autorisées, la connexion est supprimée. Cette stratégie doit être spécifiée conjointement avec l’une des options de la stratégie mode de transport.
 
 Si AuthIP est activé, il est possible de spécifier deux descripteurs de sécurité, l’un correspondant au mode principal AuthIP et l’autre correspondant au mode étendu AuthIP.
 

@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 19 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 19 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: c6df5462-e20e-4486-8480-8c747193c5d9
 title: Type d’action personnalisée 19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 695f86db0848bd65884ce5e233b4d9a249275c1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20cbbef4ec07d805e41c0de25c371f995782ce3d8df66a89ee93363afa05f55b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075059"
 ---
 # <a name="custom-action-type-19"></a>Type d’action personnalisée 19
 
@@ -53,7 +53,7 @@ L’action personnalisée n’utilise pas d’options.
 
 Consultez [valeurs de retour de l’action personnalisée](custom-action-return-values.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par exemple, les actions personnalisées CAError1, CAError2, CAError3 et CAError4 retournent ces messages.
 

@@ -4,12 +4,12 @@ description: Cette rubrique montre comment initialiser et récupérer des élém
 ms.assetid: 4A717010-A1D3-4FFB-8E4E-D5C4F9D8D952
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ca2230b265d61e9a59a8892e14127d25bf2cfd2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 83a037bfbdb5232cd30d3e13fbc251c22c18c71a76398a351939602301a745d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063172"
 ---
 # <a name="how-to-create-a-simple-list-box"></a>Comment créer une zone de liste simple
 
@@ -19,16 +19,16 @@ L’exemple de code C++ fourni dans cette rubrique contient une procédure de bo
 
 ![capture d’écran d’une boîte de dialogue contenant une zone de liste étiquetée, texte à propos de l’élément de zone de liste sélectionné et bouton OK](images/lb-roster.png)
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

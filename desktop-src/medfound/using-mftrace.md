@@ -4,12 +4,12 @@ ms.assetid: f93060dc-cb64-4623-847d-5d78bca59d50
 title: Utilisation de MFTrace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a03cb19f17978236b3e4edd8415f524913c90d99d7a7caf4183dd885d340cfbb
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d8416fbde708dd44858fe5df580945f326944a1f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118737322"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469966"
 ---
 # <a name="using-mftrace"></a>Utilisation de MFTrace
 
@@ -17,83 +17,27 @@ MFTrace est un outil permettant de générer des journaux de suivi pour les appl
 
 MFTrace utilise la bibliothèque detoures pour se raccorder aux appels d’API Media Foundation et générer des journaux de suivi. MFTrace peut également enregistrer les traces à partir de n’importe quel composant qui utilise Suivi d’v nements pour Windows (ETW) ou le préprocesseur de trace logiciel (WPP) pour générer des traces. Les journaux de suivi peuvent être générés en démarrant un nouveau processus à partir de MFTrace ou en attachant MFTrace à un processus existant.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 **mftrace** \[ **-a** *Process* \] \[ **-c** *fichier ConfigurationFile* \] \[ **-DC** \] \[ **-es** \] \[ **-k** *mots* \] \[ **-clés-l** *niveau* \] \[ **-o** *outputfile* \] \[ **-v** \] \[ **-** ? \] \[ {*Commande* \| *ETL_FILE*}\]
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arguments de ligne de commande</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong> <strong></strong> <em>ID de processus ou nom de processus</em><br/></td>
-<td>Attacher à un processus en cours d’exécution.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Fichier de configuration</em><br/></td>
-<td>Lit les paramètres du fichier de configuration spécifié. Consultez le <a href="mftrace-configuration-file.md">fichier de configuration MFTrace</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-dc"></span><span id="-DC"></span><strong>-DC</strong><br/></td>
-<td>Désactive le suivi pour les processus enfants. Par défaut, le suivi est activé pour les processus enfants.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-es"></span><span id="-ES"></span><strong>-es</strong><br/></td>
-<td>Activez les symboles publics.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Mots clés</em><br/></td>
-<td>Liste de mots clés séparés par des virgules. Consultez <a href="mftrace-keywords.md">MFTrace Keywords</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> De <em>niveau</em><br/></td>
-<td>Niveau de trace.<br/>
-<ul>
-<li>0 : Aucun</li>
-<li>1 : critique</li>
-<li>2 : erreur</li>
-<li>3 : AVERTISSEMENT</li>
-<li>4 : informatif</li>
-<li>5 : commentaires</li>
-<li>16 : débogage</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong> <strong></strong> <em>Fichier de sortie</em><br/></td>
-<td>Écrit la sortie de suivi dans le fichier spécifié. Par défaut, la sortie est envoyée à <strong>stdout</strong>.<br/> Si un fichier de sortie est spécifié, l’extension de nom de fichier doit être l’une des suivantes :<br/>
-<ul>
-<li>. ETL : fichier journal de suivi d’événements (ETL).</li>
-<li>fichier. log ou .txt : Text.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><span id="-v"></span><span id="-V"></span><strong>-v</strong><br/></td>
-<td>Activer le mode détaillé.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="-_"></span><strong>-?</strong><br/></td>
-<td>Affichez des informations sur l’utilisation.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="COMMAND"></span><span id="command"></span><em>COMMANDE</em><br/></td>
-<td>Arguments de ligne de commande pour créer un nouveau processus.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br/></td>
-<td>Nom d’un fichier ETL existant. Si cet argument est fourni, le fichier ETL est converti en sortie de texte.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Arguments de ligne de commande | Description | 
+|------------------------|-------------|
+| <span id="-a_Process_ID_or_Process_Name"></span><span id="-a_process_id_or_process_name"></span><span id="-A_PROCESS_ID_OR_PROCESS_NAME"></span><strong>-a</strong> <strong></strong> <em>ID de processus ou nom de processus</em><br /> | Attacher à un processus en cours d’exécution.<br /> | 
+| <span id="-c_Configuration_File"></span><span id="-c_configuration_file"></span><span id="-C_CONFIGURATION_FILE"></span><strong>-c</strong> <strong></strong> <em>Fichier de configuration</em><br /> | Lit les paramètres du fichier de configuration spécifié. Consultez le <a href="mftrace-configuration-file.md">fichier de configuration MFTrace</a>.<br /> | 
+| <span id="-dc"></span><span id="-DC"></span><strong>-DC</strong><br /> | Désactive le suivi pour les processus enfants. Par défaut, le suivi est activé pour les processus enfants.<br /> | 
+| <span id="-es"></span><span id="-ES"></span><strong>-es</strong><br /> | Activez les symboles publics.<br /> | 
+| <span id="-k_Keywords"></span><span id="-k_keywords"></span><span id="-K_KEYWORDS"></span><strong>-k</strong> <strong></strong> <em>Mots clés</em><br /> | Liste de mots clés séparés par des virgules. Consultez <a href="mftrace-keywords.md">MFTrace Keywords</a>.<br /> | 
+| <span id="-l_Level"></span><span id="-l_level"></span><span id="-L_LEVEL"></span><strong>-l</strong> <strong></strong> De <em>niveau</em><br /> | Niveau de trace.<br /><ul><li>0 : Aucun</li><li>1 : critique</li><li>2 : erreur</li><li>3 : AVERTISSEMENT</li><li>4 : informatif</li><li>5 : commentaires</li><li>16 : débogage</li></ul> | 
+| <span id="-o_Output_File"></span><span id="-o_output_file"></span><span id="-O_OUTPUT_FILE"></span><strong>-o</strong> <strong></strong> <em>Fichier de sortie</em><br /> | Écrit la sortie de suivi dans le fichier spécifié. Par défaut, la sortie est envoyée à <strong>stdout</strong>.<br /> Si un fichier de sortie est spécifié, l’extension de nom de fichier doit être l’une des suivantes :<br /><ul><li>. ETL : fichier journal de suivi d’événements (ETL).</li><li>fichier. log ou .txt : Text.</li></ul> | 
+| <span id="-v"></span><span id="-V"></span><strong>-v</strong><br /> | Activer le mode détaillé.<br /> | 
+| <span id="-_"></span><strong>-?</strong><br /> | Affichez des informations sur l’utilisation.<br /> | 
+| <span id="COMMAND"></span><span id="command"></span><em>COMMANDE</em><br /> | Arguments de ligne de commande pour créer un nouveau processus.<br /> | 
+| <span id="ETL_FILE"></span><span id="etl_file"></span><em>ETL_FILE</em><br /> | Nom d’un fichier ETL existant. Si cet argument est fourni, le fichier ETL est converti en sortie de texte.<br /> | 
+
 
 
 
@@ -183,97 +127,28 @@ Vous pouvez utiliser MFTrace pour répondre à des questions sur ce qui se passe
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Question</th>
-<th>Rechercher des chaînes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Une erreur s’est produite ?</td>
-<td>&quot;0xc00d&quot;</td>
-</tr>
-<tr class="even">
-<td>La topologie a-t-elle été résolue correctement ?</td>
-<td>&quot;CTopologyHelpers :: trace&quot;</td>
-</tr>
-<tr class="odd">
-<td>La session multimédia a-t-elle commencé ?</td>
-<td>&quot;MESessionStarted&quot;</td>
-</tr>
-<tr class="even">
-<td>Quel fichier a été lu ?</td>
-<td>&quot;CMFSourceResolverDetours&quot;</td>
-</tr>
-<tr class="odd">
-<td>Quels sont les types de médias pour les flux sources ?</td>
-<td>&quot;Nouveau flux &quot; , &quot; MENewStream &quot; , &quot; CMFMediaSourceDetours :: TracePD&quot;</td>
-</tr>
-<tr class="even">
-<td>Les flux sources génèrent-ils des exemples ?</td>
-<td>&quot;CMFMediaStreamDetours :: HandleEvent &quot; , &quot; MEMediaSample&quot;</td>
-</tr>
-<tr class="odd">
-<td>La lecture a-t-elle atteint la fin des données ?</td>
-<td>&quot;MEEndOfStream &quot; , &quot; MEEndOfPresentation&quot;</td>
-</tr>
-<tr class="even">
-<td>Le format a-t-il changé ?</td>
-<td>&quot;MEStreamFormatChanged &quot; (sources multimédias), &quot; nouveau format &quot; , &quot; MESessionStreamSinkFormatChanged &quot; (récepteurs multimédia)</td>
-</tr>
-<tr class="odd">
-<td>Quels objets ont été créés ?</td>
-<td>&quot;COle32ExportDetours :: CoCreateInstance&quot;</td>
-</tr>
-<tr class="even">
-<td>Le Media Foundation transformations (MFTs) dans le pipeline traite-t-il des données ?</td>
-<td>&quot;CMFTransformDetours ::P rocessOutput &quot; , &quot; CMFTransformDetours ::P rocessinput&quot;</td>
-</tr>
-<tr class="odd">
-<td>Quels sont les États définis sur le MFTs ?</td>
-<td>&quot;CMFTransformDetours ::P rocessMessage&quot;</td>
-</tr>
-<tr class="even">
-<td>Une requête MFT a-t-elle des données d’entrée ?</td>
-<td>&quot;MF_E_TRANSFORM_NEED_MORE_INPUT &quot; (MFT synchrone), &quot; METRANSFORMNEEDINPUT &quot; (MFT asynchrone).</td>
-</tr>
-<tr class="odd">
-<td>Une table MFT asynchrone génère-t-elle des données de sortie ?</td>
-<td>&quot;ProcessOutputs disponibles&quot;</td>
-</tr>
-<tr class="even">
-<td>Des exemples de demandes de récepteur multimédia ont-ils été exécutés ?</td>
-<td>&quot;MEStreamSinkRequestSample&quot;</td>
-</tr>
-<tr class="odd">
-<td>Un récepteur multimédia a-t-il reçu des exemples ?</td>
-<td>&quot;CMFStreamSinkDetours ::P rocessSample&quot;</td>
-</tr>
-<tr class="even">
-<td>DirectShow : quels exemples ont été traités ?</td>
-<td>&quot;exemple &quot; , &quot; CMemInputPinDetours&quot;</td>
-</tr>
-<tr class="odd">
-<td>DirectShow : quel graphique de filtre a été utilisé ?</td>
-<td>&quot;CGraphHelpers :: trace&quot;</td>
-</tr>
-<tr class="even">
-<td>Y a-t-il plusieurs processus ?</td>
-<td>&quot;CreateProcess&quot;
-<blockquote>
-[!Note]<br />
-Recherchez également l’identificateur de processus, qui apparaît au début de chaque ligne de suivi.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Question | Rechercher des chaînes | 
+|----------|----------------|
+| Une erreur s’est produite ? | "0xc00d" | 
+| La topologie a-t-elle été résolue correctement ? | « CTopologyHelpers :: trace » | 
+| La session multimédia a-t-elle commencé ? | "MESessionStarted" | 
+| Quel fichier a été lu ? | "CMFSourceResolverDetours" | 
+| Quels sont les types de médias pour les flux sources ? | « Nouveau flux », « MENewStream », « CMFMediaSourceDetours :: TracePD » | 
+| Les flux sources génèrent-ils des exemples ? | "CMFMediaStreamDetours::HandleEvent", "MEMediaSample" | 
+| La lecture a-t-elle atteint la fin des données ? | "MEEndOfStream", "MEEndOfPresentation" | 
+| Le format a-t-il changé ? | « MEStreamFormatChanged » (sources multimédias), « nouveau format », « MESessionStreamSinkFormatChanged » (récepteurs multimédia) | 
+| Quels objets ont été créés ? | « COle32ExportDetours :: CoCreateInstance » | 
+| Le Media Foundation transformations (MFTs) dans le pipeline traite-t-il des données ? | « CMFTransformDetours ::P rocessOutput », « CMFTransformDetours ::P rocessInput » | 
+| Quels sont les États définis sur le MFTs ? | « CMFTransformDetours ::P rocessMessage » | 
+| Une requête MFT a-t-elle des données d’entrée ? | « MF_E_TRANSFORM_NEED_MORE_INPUT » (MFT synchrone), « METransformNeedInput » (MFT asynchrone). | 
+| Une table MFT asynchrone génère-t-elle des données de sortie ? | « ProcessOutputs disponible » | 
+| Des exemples de demandes de récepteur multimédia ont-ils été exécutés ? | "MEStreamSinkRequestSample" | 
+| Un récepteur multimédia a-t-il reçu des exemples ? | « CMFStreamSinkDetours ::P rocessSample » | 
+| DirectShow : quels exemples ont été traités ? | "sample", "CMemInputPinDetours" | 
+| DirectShow : quel graphique de filtre a été utilisé ? | « CGraphHelpers :: trace » | 
+| Y a-t-il plusieurs processus ? | CreateProcess<blockquote>[!Note]<br />Recherchez également l’identificateur de processus, qui apparaît au début de chaque ligne de suivi.</blockquote><br /><br /> | 
+
 
 
 

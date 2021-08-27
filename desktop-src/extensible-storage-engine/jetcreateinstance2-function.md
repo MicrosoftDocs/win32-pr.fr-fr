@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af31e7e66d92cf7ebbc238ac54a9b331e6dc5362
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc09639d48fe4cea93b115c9243587653ad70f44
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521090"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465046"
 ---
 # <a name="jetcreateinstance2-function"></a>Fonction JetCreateInstance2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcreateinstance2-function"></a>Fonction JetCreateInstance2
 
 La fonction **JetCreateInstance2** est utilisée pour allouer une nouvelle instance du moteur de base de données pour une utilisation dans un processus unique, avec un nom d’affichage spécifié.
 
-**Windows XP :**  **JetCreateInstance2** est introduit dans Windows XP.
+**Windows xp :****JetCreateInstance2** est introduit dans Windows xp.  
 
 ```cpp
     JET_ERR JET_API JetCreateInstance2(
@@ -69,55 +69,30 @@ Réservé pour un usage futur. Quand ce paramètre n’est pas présent, sa vale
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceNameInUse</p></td>
-<td><p>Le nom d’instance spécifié est déjà utilisé pour ce processus.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cela peut se produire pour <a href="gg269354(v=exchg.10).md">JetCreateInstance</a> lorsque <em>pinstance</em> a la valeur null.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>L’opération a échoué, car elle ne peut pas être utilisée lorsque le moteur de base de données fonctionne en mode d’instance unique (mode de compatibilité Windows 2000).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyInstances</p></td>
-<td><p>Impossible de créer une nouvelle instance, car le nombre maximal d’instances a été atteint. Le nombre maximal d’instances prises en charge est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> à l’aide de <em>JET_paramMaxInstances</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errInstanceNameInUse</p> | <p>Le nom d’instance spécifié est déjà utilisé pour ce processus.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cela peut se produire pour <a href="gg269354(v=exchg.10).md">JetCreateInstance</a> lorsque <em>pinstance</em> a la valeur null.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>l’opération a échoué, car elle ne peut pas être utilisée lorsque le moteur de base de données fonctionne en mode d’instance unique (Windows mode de compatibilité 2000).</p> | 
+| <p>JET_errTooManyInstances</p> | <p>Impossible de créer une nouvelle instance, car le nombre maximal d’instances a été atteint. Le nombre maximal d’instances prises en charge est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> à l’aide de <em>JET_paramMaxInstances</em>.</p> | 
+
 
 
 En cas de réussite, une nouvelle instance sera allouée et l’identificateur correspondant sera retourné. À ce stade, tous les paramètres système de l’instance auront les valeurs des paramètres système par défaut globaux. Une fois qu’une instance sera allouée, elle doit être arrêtée et/ou libérée ultérieurement.
 
 En cas d’échec, une erreur qui représente la cause de l’échec est retournée et aucune instance n’est allouée.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Une instance doit être initialisée avec un appel à [JetInit](./jetinit-function.md) avant de pouvoir être utilisée par une autre chose que [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
 Une instance est détruite par un appel à la fonction [JetTerm](./jetterm-function.md) , même si cette instance n’a jamais été initialisée à l’aide de [JetInit](./jetinit-function.md). Le nombre maximal d’instances pouvant être créées à un moment donné est contrôlé par *JET_paramMaxInstances*, qui peut être configurée par un appel à [JetSetSystemParameter](./jetsetsystemparameter-function.md). Une instance est l’unité de récupérabilité pour le moteur de base de données. Il contrôle le cycle de vie de tous les fichiers utilisés pour protéger l’intégrité des données dans un ensemble de fichiers de base de données. Ces fichiers incluent le fichier de point de contrôle et les fichiers journaux des transactions.
 
-Si la fonction s’exécute correctement, le moteur de base de données est automatiquement remplacé par le mode multi-instance comme un effet secondaire de cet appel. Si l’application souhaite autoriser une seule instance du processus, [JetInit](./jetinit-function.md) doit être utilisé pour démarrer le moteur de base de données en mode de compatibilité Windows 2000.
+Si la fonction s’exécute correctement, le moteur de base de données est automatiquement remplacé par le mode multi-instance comme un effet secondaire de cet appel. si l’application souhaite autoriser une seule instance du processus, [JetInit](./jetinit-function.md) doit être utilisé pour démarrer le moteur de base de données en mode de compatibilité 2000 Windows.
 
 S’il est présent, le paramètre *szDisplayName* sera utilisé pour identifier l’instance dans des emplacements tels que le journal des événements ou vers d’autres appelants comme des applications de sauvegarde (via des fonctions telles que [JetGetInstanceInfo](./jetgetinstanceinfo-function.md) ou [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)). Si le nom complet n’est pas fourni, le paramètre *szInstanceName* unique sera utilisé à la place, s’il existe, dans le cas contraire, une chaîne vide est retournée. Si le mode d’exécution n’a pas été défini pour le moteur, après cet appel, il sera défini en mode multi-instance.
 
@@ -133,38 +108,9 @@ S’il s’agit de la première instance à démarrer, il existe un certain nomb
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetCreateInstance2W</strong> (Unicode) et <strong>JetCreateInstance2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetCreateInstance2W</strong> (Unicode) et <strong>JetCreateInstance2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

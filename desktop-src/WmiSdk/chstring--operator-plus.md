@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'CHString :: Operator + (ChString. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5053a4d3059a66cb2c8e4a89a3bdd531d5f42de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69ce52e8740fcd420600aaebb192c23ab7269c4ddf14c068a4980c59df3e7773
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097349"
 ---
 # <a name="chstringoperator"></a>CHString :: Operator +
 
@@ -84,7 +84,7 @@ Pointeur vers une chaîne de caractères se terminant par **null**.
 
 Cet opérateur de concaténation retourne un objet [**CHString**](chstring.md) qui est le résultat temporaire de la concaténation. Cette valeur de retour permet de combiner plusieurs concaténations dans la même expression.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’une des deux chaînes d’arguments doit être un objet [**CHString**](chstring.md) ; l’autre peut être un pointeur de caractère ou un caractère. Sachez que les exceptions de mémoire peuvent se produire chaque fois que vous utilisez l’opérateur de concaténation, car un nouveau stockage peut être alloué pour contenir des données temporaires.
 

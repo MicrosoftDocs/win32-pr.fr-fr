@@ -4,12 +4,12 @@ description: Cette rubrique montre comment obtenir le niveau de fonctionnalité 
 ms.assetid: 5eb7dd5b-3be3-4b7f-bcc7-20027fdfe6b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e587ad488a84641a92f0058d201014030e3467e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ac21d00aeef8ae6c82ffd9f55a40415b6af1d0a780cc6878d8c30bf453457eb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119599"
 ---
 # <a name="how-to-get-the-device-feature-level"></a>Procédure : obtention du niveau de fonctionnalité de l’appareil
 
@@ -30,7 +30,7 @@ L’exemple de code suivant montre comment déterminer le niveau de fonctionnali
 > [!Note]  
 > Si le runtime Direct3D 11,1 est présent sur l’ordinateur et que *pFeatureLevels* a la valeur **null**, cette fonction ne crée pas un appareil de [**niveau de fonctionnalité D3D \_ \_ \_ 11 \_ 1**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level) . Pour créer un appareil de **\_ niveau de fonctionnalité D3D \_ \_ 11 \_ 1** , vous devez fournir explicitement un tableau de **\_ \_ niveau de fonctionnalité D3D** qui comprend le **niveau de \_ fonctionnalité D3D \_ \_ 11 \_ 1**. Si vous fournissez un tableau de **\_ \_ niveau de fonctionnalité D3D** qui contient le **niveau de \_ fonctionnalité D3D \_ \_ 11 \_ 1** sur un ordinateur sur lequel le runtime Direct3D 11,1 n’est pas installé, cette fonction échoue immédiatement avec E \_ INVALIDARG.
 
- 
+ 
 
 
 ```C++
@@ -79,9 +79,9 @@ La section de [référence 10Level9](d3d11-graphics-reference-10level9.md) répe
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

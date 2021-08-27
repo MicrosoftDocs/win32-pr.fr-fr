@@ -4,12 +4,12 @@ description: TabbedToInfo
 ms.assetid: 8C8A4B5D-8070-4406-A726-6D24D5A712CE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db5a581c3793842be2f488c3c8faf446face54ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc712176eadf78cf5651f5d3e6b615e1b2e053deb6bd55f1e3ad70ebbe036dc8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098389"
 ---
 # <a name="tabbedtoinfo"></a>TabbedToInfo
 
@@ -37,9 +37,9 @@ Plusieurs événements de focus ont été déclenchés par un élément unique l
 
 Le focus revient à l’élément de départ dans l’ordre de tabulation. La tabulation a été arrêtée au niveau de cet élément, car l’ordre des tabulations apparaît circulaire.
 
- 
+ 
 
- 
+ 
 
 
 

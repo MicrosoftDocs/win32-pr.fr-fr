@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 37bc7a91a5d90cde6cba1af12bb0a4784ee21c7f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8102f095ca7d4b1ada6db3c21fbe55e73a98ed6d06d2d6b99032f1a21a344527
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094419"
 ---
 # <a name="baseeapmethodusercredentials-complex-type"></a>Type complexe BaseEapMethodUserCredentials
 
@@ -38,7 +38,7 @@ Le type complexe **BaseEapMethodUserCredentials** est un élément d’espace r�
 </xs:complexType>
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode EAP effectue une validation de schéma sur le contenu de **BaseEapMethodUserCredentials**.
 
@@ -46,10 +46,10 @@ La méthode EAP effectue une validation de schéma sur le contenu de **BaseEapMe
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

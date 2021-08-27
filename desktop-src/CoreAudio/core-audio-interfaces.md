@@ -4,12 +4,12 @@ ms.assetid: b18e2094-e974-4c23-b70b-ace5a168132d
 title: Interfaces audio principales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eed875bad93bed1625a175bd74b849f139a0140
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 330bb620b48b865db3db2ab5ea5625b7859588bd8e53e1addbcd8fd8ec9bda6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109469"
 ---
 # <a name="core-audio-interfaces"></a>Interfaces audio principales
 
@@ -17,9 +17,9 @@ Cette référence de programmation pour le kit de développement logiciel (SDK) 
 
 ## <a name="mmdevice-api"></a>API MMDevice
 
-L’API Windows Multimedia Device (MMDevice) permet aux clients audio de découvrir des [périphériques de point de terminaison audio](audio-endpoint-devices.md), de déterminer leurs fonctionnalités et de créer des instances de pilote pour ces appareils. Le fichier d’en-tête MMDeviceAPI. h définit les interfaces dans l’API MMDevice. Pour plus d’informations, consultez [à propos de l’API MMDevice](mmdevice-api.md).
+l’API MMDevice (Windows Multimedia Device) permet aux clients audio de découvrir des [périphériques de point de terminaison audio](audio-endpoint-devices.md), de déterminer leurs fonctionnalités et de créer des instances de pilote pour ces appareils. Le fichier d’en-tête MMDeviceAPI. h définit les interfaces dans l’API MMDevice. Pour plus d’informations, consultez [à propos de l’API MMDevice](mmdevice-api.md).
 
-Le tableau suivant répertorie les interfaces MMDevice disponibles avec le kit de développement logiciel (SDK) audio principal pour Windows Vista.
+le tableau suivant répertorie les interfaces MMDevice disponibles avec le kit de développement logiciel (SDK) Audio de base pour Windows Vista.
 
 
 
@@ -37,9 +37,9 @@ Le tableau suivant répertorie les interfaces MMDevice disponibles avec le kit d
 
 ## <a name="wasapi"></a>WASAPI
 
-L’API de session audio Windows (WASAPI) permet aux applications clientes de gérer le flux de données audio entre l’application et un [périphérique de point de terminaison audio](audio-endpoint-devices.md). Les fichiers d’en-tête Audioclient. h et Audiopolicy. h définissent les interfaces WASAPI. Pour plus d’informations, consultez [à propos de WASAPI](wasapi.md).
+l’API de Session audio Windows (WASAPI) permet aux applications clientes de gérer le flux de données audio entre l’application et un [périphérique de point de terminaison audio](audio-endpoint-devices.md). Les fichiers d’en-tête Audioclient. h et Audiopolicy. h définissent les interfaces WASAPI. Pour plus d’informations, consultez [à propos de WASAPI](wasapi.md).
 
-Le tableau suivant répertorie les interfaces WASAPI disponibles avec le kit de développement logiciel (SDK) audio principal pour Windows Vista et versions ultérieures.
+le tableau suivant répertorie les interfaces WASAPI disponibles avec le kit de développement logiciel (SDK) Audio de base pour Windows Vista et versions ultérieures.
 
 
 
@@ -73,7 +73,7 @@ Le tableau suivant répertorie les interfaces WASAPI disponibles avec le kit de 
 
 L’API DeviceTopology fournit aux applications clientes la possibilité de traverser les topologies de matériel fonctionnelle des appareils de rendu et de capture audio. Le fichier d’en-tête Devicetopology. h définit les interfaces dans l’API DeviceTopology. Pour plus d’informations, consultez [topologies d’appareils](device-topologies.md) et [**API DeviceTopology**](/windows/desktop/api/Devicetopology/nn-devicetopology-idevicetopology).
 
-Le tableau suivant répertorie les interfaces DeviceTopology disponibles avec le kit de développement logiciel (SDK) audio principal pour Windows Vista et versions ultérieures.
+le tableau suivant répertorie les interfaces DeviceTopology disponibles avec le kit de développement logiciel (SDK) Audio de base pour Windows Vista et versions ultérieures.
 
 
 
@@ -112,7 +112,7 @@ Le tableau suivant répertorie les interfaces DeviceTopology disponibles avec le
 
 L’API EndpointVolume permet aux clients spécialisés de contrôler et de surveiller les niveaux de volume des [appareils de point de terminaison audio](audio-endpoint-devices.md). Le fichier d’en-tête Endpointvolume. h définit les interfaces dans l’API EndpointVolume. Pour plus d’informations, consultez [**API EndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) .
 
-Le tableau suivant répertorie les interfaces EndpointVolume disponibles avec le kit de développement logiciel (SDK) audio principal pour Windows Vista.
+le tableau suivant répertorie les interfaces EndpointVolume disponibles avec le kit de développement logiciel (SDK) Audio de base pour Windows Vista.
 
 
 

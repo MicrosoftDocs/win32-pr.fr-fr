@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64646075bc3d5c90076d6c1ca0d61f80111c90ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e272ac93514fb60069a9217c3100318f95b1e9a8c77d9e75af56e2e7fbfbf66e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117769"
 ---
 # <a name="wm_initdialog-message"></a>\_Message WM INITDIALOG
 
@@ -56,7 +56,7 @@ La procédure de la boîte de dialogue doit retourner **true** pour indiquer au 
 
 La procédure de boîte de dialogue doit retourner la valeur directement. La valeur **DWL \_ MSGRESULT** définie par la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle qui doit recevoir le focus clavier par défaut est toujours le premier contrôle dans la boîte de dialogue qui est visible, et non désactivé, et qui a le style **WS \_ TABSTOP** . Lorsque la procédure de la boîte de dialogue retourne la **valeur true**, le système vérifie le contrôle pour s’assurer que la procédure ne l’a pas désactivée. Si elle a été désactivée, le système définit le focus clavier sur le contrôle suivant qui est visible, non désactivé, et possède le paramètre **WS \_ TABSTOP**.
 

@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, configuration du Registre pour les allocations de port et la liaison sélective
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8166e9cb4d6706e8eafb016fba309eb64a4c4910b5727bcf88c2e071a7077d70
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b220e0e3415b7906c847c0f1196fbc815521dee0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118931246"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465476"
 ---
 # <a name="configuring-the-registry-for-port-allocations-and-selective-binding"></a>Configuration du Registre pour les allocations de port et la liaison sélective
 
@@ -30,63 +30,14 @@ Si une clé est manquante ou si elle contient une valeur non valide, la configur
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Clé de port</th>
-<th>Type de données</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               Ports</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>Spécifie un ensemble de plages de ports IP comprenant tous les ports disponibles à partir d’Internet ou tous les ports qui ne sont pas disponibles sur Internet. Chaque chaîne représente un port unique ou un ensemble de ports inclusifs (par exemple, 1000-1050, 1984). Si des entrées sont en dehors de la plage comprise entre 0 et 65535, ou si une chaîne ne peut pas être interprétée, le temps d’exécution RPC traitera la configuration entière comme non valide.</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               PortsInternetAvailable</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>O ou N (ne respecte pas la casse). Si Y, les ports répertoriés dans la clé ports sont tous les ports disponibles sur Internet sur cet ordinateur. Si N, les ports répertoriés dans la clé ports sont tous les ports qui ne sont pas disponibles sur Internet.</td>
-</tr>
-<tr class="odd">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   Software
-      Microsoft
-         Rpc
-            Internet
-               UseInternetPorts</code></pre></td>
-<td><strong>REG_SZ</strong></td>
-<td>O ou N (ne respecte pas la casse). Spécifie la stratégie par défaut du système. Si Y, les processus utilisant la valeur par défaut sont des ports affectés à partir de l’ensemble de ports disponibles sur Internet, comme défini ci-dessus. Si N, les processus utilisant la valeur par défaut seront affectés aux ports à partir de l’ensemble de ports intranet uniquement.</td>
-</tr>
-<tr class="even">
-<td><pre data-space="preserve"><code>HKEY_LOCAL_MACHINE
-   System
-      CurrentControlSet
-         Services
-            Rpc
-               Linkage
-                  Bind</code></pre></td>
-<td><strong>REG_MULTI_SZ</strong></td>
-<td>Répertorie les noms de toutes les cartes réseau sur lesquelles effectuer la liaison par défaut (par exemple, \Device\AMDPCN1). Si la clé n’existe pas, le serveur est lié à toutes les cartes réseau. Si la clé existe, le serveur crée une liaison avec les cartes réseau spécifiées dans la clé, à moins que le champ NICFlags ne soit défini sur RPC_C_BIND_TO_ALL_NICS. Si la clé a une valeur null ( &quot; &quot; ), la configuration est marquée comme non valide et tous les appels à <strong>RpcServerUseProtseq *</strong> sur <a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> ou <a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> échouent.</td>
-</tr>
-</tbody>
-</table>
+
+| Clé de port | Type de données | Description | 
+|----------|-----------|-------------|
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               Ports</code></pre> | <strong>REG_MULTI_SZ</strong> | Spécifie un ensemble de plages de ports IP comprenant tous les ports disponibles à partir d’Internet ou tous les ports qui ne sont pas disponibles sur Internet. Chaque chaîne représente un port unique ou un ensemble de ports inclusifs (par exemple, 1000-1050, 1984). Si des entrées sont en dehors de la plage comprise entre 0 et 65535, ou si une chaîne ne peut pas être interprétée, le temps d’exécution RPC traitera la configuration entière comme non valide. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               PortsInternetAvailable</code></pre> | <strong>REG_SZ</strong> | O ou N (ne respecte pas la casse). Si Y, les ports répertoriés dans la clé ports sont tous les ports disponibles sur Internet sur cet ordinateur. Si N, les ports répertoriés dans la clé ports sont tous les ports qui ne sont pas disponibles sur Internet. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   Software      Microsoft         Rpc            Internet               UseInternetPorts</code></pre> | <strong>REG_SZ</strong> | O ou N (ne respecte pas la casse). Spécifie la stratégie par défaut du système. Si Y, les processus utilisant la valeur par défaut sont des ports affectés à partir de l’ensemble de ports disponibles sur Internet, comme défini ci-dessus. Si N, les processus utilisant la valeur par défaut seront affectés aux ports à partir de l’ensemble de ports intranet uniquement. | 
+| <pre data-space="preserve"><code>HKEY_LOCAL_MACHINE   System      CurrentControlSet         Services            Rpc               Linkage                  Bind</code></pre> | <strong>REG_MULTI_SZ</strong> | Répertorie les noms de toutes les cartes réseau sur lesquelles effectuer la liaison par défaut (par exemple, \Device\AMDPCN1). Si la clé n’existe pas, le serveur est lié à toutes les cartes réseau. Si la clé existe, le serveur crée une liaison avec les cartes réseau spécifiées dans la clé, à moins que le champ NICFlags ne soit défini sur RPC_C_BIND_TO_ALL_NICS. Si la clé a une valeur null (""), la configuration est marquée comme non valide et tous les appels à <strong>RpcServerUseProtseq *</strong> sur <a href="/windows/desktop/Midl/ncacn-ip-tcp"><strong>ncacn_ip_tcp</strong></a> ou <a href="/windows/desktop/Midl/ncadg-ip-udp"><strong>ncadg_ip_udp</strong></a> échouent. | 
+
 
 
 

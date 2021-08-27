@@ -4,12 +4,12 @@ ms.assetid: 8c422592-ef59-4030-b684-81e4e552c6b0
 title: Commande IMC_OPENSTATUSWINDOW (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cd0b5e19ef6a026459eedb050e9ac9587b5ea24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 263640a3f104c9abf72a7eb5b33bce6ff3813ca40645c18b179b9b31a95fdda9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107289"
 ---
 # <a name="imc_openstatuswindow-command"></a>\_Commande IMC OPENSTATUSWINDOW
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande est ignorée si le système d’exploitation n’est pas dans le mode afficher l’État IME. L’utilisateur peut définir ou désactiver le mode afficher l’État IME à partir de la barre des tâches.
 
@@ -58,7 +58,7 @@ Si la fenêtre d’État est déjà affichée, cette commande ne fait rien. Bien
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

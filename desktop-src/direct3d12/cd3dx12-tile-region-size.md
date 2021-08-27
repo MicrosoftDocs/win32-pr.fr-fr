@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40f64046f2a7efa32af8b43adbcf7349f43b6ec3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9cc1b96ae4d7d33101068a1ba08f0314b99950146e91a352ab49fea714376471
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119609"
 ---
 # <a name="cd3dx12_tile_region_size-structure"></a>Structure de taille de la \_ zone de vignette CD3DX12 \_ \_
 

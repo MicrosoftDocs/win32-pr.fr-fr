@@ -4,16 +4,16 @@ ms.assetid: 82349a33-dc2c-4309-b0fc-890f230e3f2c
 title: Mises à jour de la bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a10f76103ddebc723466fb7e32a216c0c039691d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f294e16efac60da843c14d200aaa768d4fc78ce8a922cb0aa6958756a9903be0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075539"
 ---
 # <a name="dynamic-link-library-updates"></a>Mises à jour de la bibliothèque de Dynamic-Link
 
-Il est parfois nécessaire de remplacer une DLL par une version plus récente. Avant de remplacer une DLL, effectuez une vérification de la version pour vous assurer que vous remplacez une version antérieure par une version plus récente. Il est possible de remplacer une DLL en cours d’utilisation. La méthode que vous utilisez pour remplacer les dll en cours d’utilisation dépend du système d’exploitation que vous utilisez. Sur Windows XP et versions ultérieures, les applications doivent utiliser [des applications isolées et des assemblys côte à côte](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
+Il est parfois nécessaire de remplacer une DLL par une version plus récente. Avant de remplacer une DLL, effectuez une vérification de la version pour vous assurer que vous remplacez une version antérieure par une version plus récente. Il est possible de remplacer une DLL en cours d’utilisation. La méthode que vous utilisez pour remplacer les dll en cours d’utilisation dépend du système d’exploitation que vous utilisez. sur Windows XP et versions ultérieures, les applications doivent utiliser [des applications isolées et des assemblys côte à côte](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
 
 Il n’est pas nécessaire de redémarrer l’ordinateur si vous effectuez les étapes suivantes :
 

@@ -1,23 +1,23 @@
 ---
-description: La table MsiAssembly et la table MsiAssemblyName spécifient Windows Installer paramètres pour les assemblys common language runtime et les assemblys Win32.
+description: la table MsiAssembly et la table MsiAssemblyName spécifient Windows Installer paramètres pour les assemblys common language runtime et les assemblys Win32.
 ms.assetid: cfe9a0a3-e40f-4c59-b2e4-ad7654528e3b
 title: Table MsiAssemblyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12008682c82d7be20ed8713d8dc1c416f9c7065c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b62c494f9669ad2c119606f3950a0ec34b6bfd6ba78ad7a965c45398a71ebafe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129249"
 ---
 # <a name="msiassemblyname-table"></a>Table MsiAssemblyName
 
-La [table MsiAssembly](msiassembly-table.md) et la table MsiAssemblyName spécifient Windows Installer paramètres pour les assemblys Common Language Runtime et les assemblys Win32. Pour plus d’informations, consultez [installation d’assemblys dans le global assembly cache](installation-of-assemblies-to-the-global-assembly-cache.md) et [installation d’assemblys Win32](installation-of-win32-assemblies.md).
+la [table MsiAssembly](msiassembly-table.md) et la table MsiAssemblyName spécifient Windows Installer paramètres pour les assemblys common language runtime et les assemblys Win32. Pour plus d’informations, consultez [installation d’assemblys dans le global assembly cache](installation-of-assemblies-to-the-global-assembly-cache.md) et [installation d’assemblys Win32](installation-of-win32-assemblies.md).
 
-La table MsiAssemblyName spécifie le schéma pour les éléments d’un nom de cache d’assembly fort pour un assembly .NET Framework ou Win32. Le nom est construit en ajoutant tous les éléments avec la même clé de composant \_ . Consultez l’exemple qui suit.
+la Table MsiAssemblyName spécifie le schéma pour les éléments d’un nom de cache d’assembly fort pour un assembly .NET Framework ou Win32. Le nom est construit en ajoutant tous les éléments avec la même clé de composant \_ . Consultez l’exemple qui suit.
 
-Windows Installer pouvez installer des assemblys Win32 en tant qu' [assemblys côte à côte](side-by-side-assemblies.md). Pour plus d’informations, consultez l' [API d’assembly côte à côte](../sbscs/side-by-side-assembly-api.md).
+Windows Le programme d’installation peut installer des assemblys Win32 en tant qu' [assemblys côte à côte](side-by-side-assemblies.md). Pour plus d’informations, consultez l' [API d’assembly côte à côte](../sbscs/side-by-side-assembly-api.md).
 
 La table MsiAssemblyName contient les colonnes suivantes.
 
@@ -25,7 +25,7 @@ La table MsiAssemblyName contient les colonnes suivantes.
 
 | Colonne      | Type                         | Clé | Nullable |
 |-------------|------------------------------|-----|----------|
-| -\_ | [Identificateur](identifier.md) | O   | N        |
+| Composant\_ | [Identificateur](identifier.md) | O   | N        |
 | Nom        | [Text](text.md)             | O   | N        |
 | Valeur       | [Text](text.md)             | N   | N        |
 
@@ -40,7 +40,7 @@ La table MsiAssemblyName contient les colonnes suivantes.
 <span id="Component_"></span><span id="component_"></span><span id="COMPONENT_"></span>-\_
 </dt> <dd>
 
-Clé dans la [table de composants](component-table.md) qui spécifie le composant Windows Installer qui contient cet assembly.
+clé dans la [Table de composants](component-table.md) qui spécifie le composant Windows Installer qui contient cet assembly.
 
 </dd> <dt>
 
@@ -58,7 +58,7 @@ Valeur associée au nom spécifié dans la colonne nom.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations créées dans la table MsiAssemblyName doivent correspondre aux informations contenues dans le fichier manifeste de l’assembly. Si les informations contenues dans le manifeste et la table MsiAssemblyName ne correspondent pas, la suppression de l’application peut permettre de conserver l’assembly sur l’ordinateur.
 
@@ -66,9 +66,9 @@ Pour les assemblys Win32, il doit y avoir une ligne dans la table MsiAssemblyNam
 
 Pour les assemblys common language runtime privés (.NET FrameworkVersions 1,0 et 1,1), la table MsiAssemblyName doit inclure une ligne pour chacune des entrées suivantes dans le champ Nom : nom, version et culture. La valeur correspondante pour chaque nom peut être entrée dans le champ valeur.
 
-Pour les assemblys common language runtime globaux (.NET Framework versions 1,0 et 1,1), la table MsiAssemblyName doit inclure une ligne pour chacune des entrées suivantes dans le champ Nom : nom, version, culture et PublicKeyToken. La valeur correspondante pour chaque nom peut être entrée dans le champ valeur.
+pour les assemblys common language runtime globaux (.NET Framework versions 1,0 et 1,1), la Table MsiAssemblyName doit inclure une ligne pour chacune des entrées suivantes dans le champ nom : nom, Version, Culture et PublicKeyToken. La valeur correspondante pour chaque nom peut être entrée dans le champ valeur.
 
-Le .NET Framework version 1,1 est la version minimale qui peut être utilisée pour effectuer une mise à jour sur place d’un assembly de common language runtime global. Vous pouvez vérifier la version de la propriété [**MsiNetAssemblySupport**](msinetassemblysupport.md) . La table MsiAssemblyName doit également avoir un champ FileVersion, car ce type de mise à jour d’assembly modifie uniquement la FileVersion. Pour plus d’informations, consultez [mise à jour des assemblys](updating-assemblies.md).
+le .NET Framework version 1,1 est la version minimale qui peut être utilisée pour effectuer une mise à jour sur place d’un assembly de common language runtime global. Vous pouvez vérifier la version de la propriété [**MsiNetAssemblySupport**](msinetassemblysupport.md) . La table MsiAssemblyName doit également avoir un champ FileVersion, car ce type de mise à jour d’assembly modifie uniquement la FileVersion. Pour plus d’informations, consultez [mise à jour des assemblys](updating-assemblies.md).
 
 Par exemple, le manifeste de l’assembly pour le composant a peut avoir une section assemblyIdentity comme suit pour un assembly Win32.
 

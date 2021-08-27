@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 7a728293afa51ceb58d61141e7184077478b787c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57d529ed4ea525b01e294efcacc1aa8dd2b118106177bd46cb64ffdf42a31a58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097529"
 ---
 # <a name="sio_address_list_query-control-code"></a>Code de contrôle SIO_ADDRESS_LIST_QUERY
 
@@ -139,9 +139,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Le descripteur *s* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | La commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est retournée si l’IOCTL de la **\_ requête de \_ liste \_ d’adresses SIO** n’est pas prise en charge par le fournisseur de transport. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La **requête IOCTL de \_ \_ liste \_ d’adresses SIO** est prise en charge sur Windows 2000 et les versions ultérieures du système d’exploitation.
+la **requête IOCTL de \_ \_ liste \_ d’adresses SIO** est prise en charge sur Windows 2000 et les versions ultérieures du système d’exploitation.
 
 Le code de contrôle de requête de la **\_ liste d’adresses \_ \_ SIO** obtient une liste des adresses de transport locales de la famille de protocoles du socket à laquelle l’application peut se lier.
 La liste des adresses varie en fonction de la famille d’adresses.
@@ -170,7 +170,7 @@ Notez que le code d’erreur [WSAEFAULT](windows-sockets-error-codes-2.md) est �
 
 La requête IOCTL de la **\_ liste d’adresses \_ \_ SIO** est normalement appelée de façon synchrone avec le paramètre *lpvOverlapped* défini sur **null**, car la liste des adresses est immédiatement retournée.
 
-**Remarque**  Dans les environnements plug-and-Play Windows, les adresses peuvent être ajoutées et supprimées dynamiquement.
+**Remarque**  dans Windows environnements Plug-and-Play, les adresses peuvent être ajoutées et supprimées dynamiquement.
 Par conséquent, les applications ne peuvent pas compter sur la persistance des informations retournées par la **\_ requête de \_ liste \_ d’adresses SIO** .
 Les applications peuvent s’inscrire à des notifications de changement d’adresse par le biais de l’IOCTL de **\_ modification de \_ liste \_ d’adresses SIO** qui fournit une notification par le biais d’un événement d’e/s ou de modification de la **\_ \_ liste \_ d’adresses FD** .
 La séquence d’actions suivante peut être utilisée pour garantir que l’application dispose toujours des informations de liste d’adresses actuelles :
@@ -179,7 +179,7 @@ La séquence d’actions suivante peut être utilisée pour garantir que l’app
 * Émettre l’IOCTL de **\_ requête de \_ liste \_ d’adresses SIO**
 * Chaque fois que l’appel de la **\_ liste d’adresses SIO \_ \_ change** IOCTL notifie l’application d’une modification de liste d’adresses (via des e/s avec chevauchement ou en signalant un événement de modification de **\_ \_ liste \_ d’adresses FD** ), toute la séquence d’actions doit être répétée.
 
-Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et le code de contrôle de **\_ requête de \_ liste \_ d’adresses SIO** est défini dans le fichier d’en-tête *Ws2def. h* .
+dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’organisation des fichiers d’en-tête a changé et le code de contrôle de **\_ requête de \_ liste \_ d’adresses SIO** est défini dans le fichier d’en-tête *Ws2def. h* .
 Notez que le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans *Winsock2. h* et ne doit jamais être utilisé directement.
 
 ## <a name="see-also"></a>Voir aussi

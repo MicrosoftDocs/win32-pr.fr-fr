@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 08dd05faf514581a3325f4922076ba2053cd0c95
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 99726a466b6bf273b654a5d459fa2391a75882f1adee64b981d91a514a988b88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108449"
 ---
 # <a name="cmediatypesetformat-method"></a>Méthode CMediaType. SetFormat
 
@@ -61,7 +61,7 @@ Longueur du bloc de format, en octets.
 
 Retourne la **valeur true** en cas de réussite, ou **false** si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode alloue de la mémoire pour le bloc de format et copie la mémoire tampon spécifiée par *pFormat* dans le nouveau bloc de format. Si le type de média contient déjà un bloc de format, l’ancien est libéré. La méthode définit également le membre **cbFormat** de la structure du **\_ \_ type de média am** .
 
@@ -73,7 +73,7 @@ Pour définir le type de format, appelez la méthode [**CMediaType :: SetFormat
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 100c901c6b5d86ed3420d51e459627bdb5b461b8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4fc1f836174a57f6edfddd0575a10d40367c061c034369a1582cc8bf8ce17a53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086369"
 ---
 # <a name="library-attribute"></a>attribut de bibliothèque
 
@@ -66,7 +66,7 @@ Une ou plusieurs instructions MIDL qui définissent le contenu de la **biblioth�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les instructions à l’intérieur du bloc de bibliothèque peuvent utiliser des éléments déclarés à l’intérieur ou à l’extérieur du bloc de bibliothèque. Les instructions de bibliothèque peuvent utiliser ces éléments comme types de base, héritant de ces éléments ou simplement en les référençant sur une ligne, comme suit :
 
@@ -143,6 +143,6 @@ library Hello
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

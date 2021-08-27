@@ -1,23 +1,23 @@
 ---
 description: Cette section décrit les nuanceurs qui peuvent être utilisés pour le modèle de flux programmable.
 ms.assetid: 800aaa27-e1e6-4d35-8de4-7ac94d646870
-title: Programmation d’un ou plusieurs flux (Direct3D 9)
+title: programmation d’un ou plusieurs Flux (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43210823911648ed11227faef44d980b60d0a335
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92440abfb6e343bdd3440f5608d6446c0390b1271e5c4c6686a3a46e578476ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118598"
 ---
-# <a name="programming-one-or-more-streams-direct3d-9"></a>Programmation d’un ou plusieurs flux (Direct3D 9)
+# <a name="programming-one-or-more-streams-direct3d-9"></a>programmation d’un ou plusieurs Flux (Direct3D 9)
 
 Cette section décrit les nuanceurs qui peuvent être utilisés pour le modèle de flux programmable.
 
-## <a name="using-streams"></a>Utilisation des flux
+## <a name="using-streams"></a>Utilisation de Flux
 
-DirectX 8 a introduit la notion de flux pour lier les données aux registres d’entrée pour une utilisation par les nuanceurs. Un flux est un tableau uniforme de données de composants, où chaque composant se compose d’un ou de plusieurs éléments qui représentent une entité unique telle que la position, la normale, la couleur, etc. Les flux permettent aux graphiques d’effectuer un accès direct à la mémoire à partir de plusieurs mémoires tampons de vertex en parallèle et fournissent également un mappage plus naturel à partir des données d’application. Ils activent également la multitexture triviale plutôt que la multipasse. Considérez-le comme suit :
+DirectX 8 a introduit la notion de flux pour lier les données aux registres d’entrée pour une utilisation par les nuanceurs. Un flux est un tableau uniforme de données de composants, où chaque composant se compose d’un ou de plusieurs éléments qui représentent une entité unique telle que la position, la normale, la couleur, etc. Flux activer les puces graphiques pour effectuer un accès direct à la mémoire à partir de plusieurs mémoires tampons de vertex en parallèle et fournir également un mappage plus naturel à partir des données d’application. Ils activent également la multitexture triviale plutôt que la multipasse. Considérez-le comme suit :
 
 -   Un vertex est composé de n flux.
 -   Un flux est composé de m éléments.
@@ -161,7 +161,7 @@ D3DVERTEXELEMENT9 dwDecl3[] =
 
 
 
-### <a name="two-streams-with-color-and-texture"></a>Deux flux avec la couleur et la texture
+### <a name="two-streams-with-color-and-texture"></a>deux Flux avec une couleur et une Texture
 
 La déclaration de vertex et les paramètres de flux pour le rendu de la texture unique se présentent comme suit :
 
@@ -190,7 +190,7 @@ D3DVERTEXELEMENT9 dwDecl3[] =
 
 
 
-### <a name="two-streams-with-color-and-two-textures"></a>Deux flux avec des couleurs et deux textures
+### <a name="two-streams-with-color-and-two-textures"></a>deux Flux avec une couleur et deux textures
 
 La déclaration de vertex et les paramètres de flux pour le rendu de plusieurs textures à deux textures se présentent comme suit :
 

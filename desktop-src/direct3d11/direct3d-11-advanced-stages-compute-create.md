@@ -4,12 +4,12 @@ description: Cette rubrique montre comment créer un nuanceur de calcul.
 ms.assetid: 6114dd90-626b-4c9e-9da5-7d2d33153e79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea5e0ab6309dd441d33fc20b13d0ef31642b62f
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: bd51e8b2bd0b841aca149ffa85790921552ca344fd1feaca2c6032492e9561e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119759"
 ---
 # <a name="how-to-create-a-compute-shader"></a>Comment : créer un nuanceur de calcul
 
@@ -52,7 +52,7 @@ Un nuanceur de calcul est un nuanceur programmable HLSL (High Level Shader Langu
 L’exemple de code suivant montre comment compiler et créer un nuanceur de calcul.
 
 > [!Note]  
-> pour cet exemple de code, vous avez besoin de la SDK Windows 8,0 et du \_ fichier d3dcompiler44.dll du \_ dossier% PROGRAM% \\ Windows Kits \\ 8,0 \\ redist \\ D3D \\ &lt; arch &gt; dans votre chemin d’accès.
+> pour cet exemple de code, vous avez besoin de la SDK Windows 8,0 et du \_ fichier d3dcompiler44.dll du \_ dossier% PROGRAM% \\ Windows Kits \\ 8,0 \\ redist \\ D3D \\ <arch> dans votre chemin d’accès.
 
  
 

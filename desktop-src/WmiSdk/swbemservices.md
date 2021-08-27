@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 4303b3226acc6d773ed35e77176e05e3a58c567d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a8a73dbe85ce806d955329df3362a8b17dd48cc530939ec2f94ffcff2074614
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097139"
 ---
 # <a name="swbemservices-object"></a>Objet SWbemServices
 
@@ -45,7 +45,7 @@ L’objet **SWbemServices** possède ces méthodes.
 | [**AssociatorsOfAsync**](swbemservices-associatorsofasync.md)                 | Retourne de façon asynchrone une collection d’objets (classes ou instances) associés à un objet spécifié.<br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | [**Supprimer**](swbemservices-delete.md)                                         | Supprime une instance d’une ressource managée (ou une définition de classe de l’espace de stockage CIM).<br/>                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**DeleteAsync**](swbemservices-deleteasync.md)                               | Supprime de façon asynchrone la classe ou l’instance spécifiée dans le chemin d’accès de l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [**ExecMethod**](swbemservices-execmethod.md)                                 | Fournit une autre façon d’exécuter une méthode définie par une définition de classe de ressource managée. Principalement utilisé dans les situations où le langage de script ne prend pas en charge les paramètres de sortie. Par exemple, JScript ne prend pas en charge les paramètres out.<br/>                                                                                                                                                                                                                                            |
+| [**ExecMethod**](swbemservices-execmethod.md)                                 | Fournit une autre façon d’exécuter une méthode définie par une définition de classe de ressource managée. Principalement utilisé dans les situations où le langage de script ne prend pas en charge les paramètres de sortie. par exemple, JScript ne prend pas en charge les paramètres out.<br/>                                                                                                                                                                                                                                            |
 | [**ExecMethodAsync**](swbemservices-execmethodasync.md)                       | Exécute de façon asynchrone une méthode qui est exportée par un fournisseur de méthode.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**ExecNotificationQuery**](swbemservices-execnotificationquery.md)           | Exécute une requête d’abonnement aux événements pour recevoir des événements. Une requête d’abonnement aux événements est une requête qui définit une modification de l’environnement géré que vous souhaitez analyser. Lorsque la modification se produit, l’infrastructure WMI remet un événement décrivant la modification apportée au script appelant.<br/>                                                                                                                                                                                                        |
 | [**ExecNotificationQueryAsync**](swbemservices-execnotificationqueryasync.md) | Exécute de façon asynchrone une requête pour recevoir des événements.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -78,11 +78,11 @@ L’objet **SWbemServices** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les méthodes peuvent être appelées en mode synchrone, en mode asynchrone ou en mode semi-synchrone. Pour plus d’informations, consultez [appel d’une méthode](calling-a-method.md).
 
-**Vue d’ensemble**
+**Vue d'ensemble**
 
 **SWbemServices** dessert deux rôles principaux. Tout d’abord, l’objet **SWbemServices** représente une connexion authentifiée à un espace de noms WMI sur un ordinateur cible. Ensuite, **SWbemServices** est l’objet Automation que vous utilisez pour récupérer des ressources gérées par WMI. Vous pouvez obtenir une référence à un objet **SWbemServices** de l’une des deux manières suivantes :
 
@@ -98,7 +98,7 @@ Une fois que vous avez obtenu une référence à un objet **SWbemServices** , vo
 
 **SWbemServices** prend en charge trois modes de fonctionnement : synchrone, asynchrone et semi-synchrone.
 
--   **Synchrone**. En mode synchrone, votre script bloque (interrompt) jusqu’à la fin de la méthode **SWbemServices** . Non seulement votre script est en attente, mais dans les cas où WMI récupère des instances de ressources managées, WMI génère la totalité de la base de données [**SWbemObjectSet**](swbemobjectset.md) en mémoire avant que le premier octet de données ne soit renvoyé au script appelant. Cela peut avoir un effet néfaste sur les performances du script et sur l’ordinateur exécutant le script. Par exemple, la récupération synchrone de milliers d’événements à partir des journaux des événements Windows peut prendre beaucoup de temps et utiliser beaucoup de mémoire. Pour ces raisons, les opérations synchrones ne sont pas recommandées, sauf pour les trois méthodes ([**Delete**](swbemservices-delete.md), [**ExecMethod**](swbemservices-execmethod.md)et [**obtenir**](swbemservices-get.md)) qui sont synchrones par défaut. Ces méthodes ne retournent pas de jeux de données volumineux, de sorte que l’opération semi-synchrone n’est pas nécessaire.
+-   **Synchrone**. En mode synchrone, votre script bloque (interrompt) jusqu’à la fin de la méthode **SWbemServices** . Non seulement votre script est en attente, mais dans les cas où WMI récupère des instances de ressources managées, WMI génère la totalité de la base de données [**SWbemObjectSet**](swbemobjectset.md) en mémoire avant que le premier octet de données ne soit renvoyé au script appelant. Cela peut avoir un effet néfaste sur les performances du script et sur l’ordinateur exécutant le script. par exemple, la récupération synchrone de milliers d’événements à partir des journaux d’événements Windows peut prendre beaucoup de temps et utiliser beaucoup de mémoire. Pour ces raisons, les opérations synchrones ne sont pas recommandées, sauf pour les trois méthodes ([**Delete**](swbemservices-delete.md), [**ExecMethod**](swbemservices-execmethod.md)et [**obtenir**](swbemservices-get.md)) qui sont synchrones par défaut. Ces méthodes ne retournent pas de jeux de données volumineux, de sorte que l’opération semi-synchrone n’est pas nécessaire.
 -   **Asynchrone**. En mode asynchrone, votre script appelle l’une des neuf méthodes asynchrones et est retourné immédiatement. Autrement dit, dès que la méthode asynchrone est appelée, votre script reprend l’exécution de la ligne de code suivante. Pour utiliser une méthode asynchrone, votre script doit d’abord créer un objet [**SWbemSink**](swbemsink.md) et une sous-routine spéciale appelée gestionnaire d’événements. WMI exécute l’opération asynchrone et notifie le script en appelant la sous-routine du gestionnaire d’événements lorsque l’opération est terminée.
 -   **Semi-synchrone**. Le mode semi-synchrone est un compromis entre synchrone et asynchrone. Les opérations semi-synchrones offrent de meilleures performances que les opérations synchrones, mais elles ne nécessitent pas les connaissances supplémentaires et les étapes de script nécessaires pour gérer les opérations asynchrones. Il s’agit du type d’opération par défaut pour la plupart des requêtes WMI.
 

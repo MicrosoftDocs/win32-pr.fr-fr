@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54c4f401d2e75aeb35ffc19d26690fa04a769c27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6378a93ffced86546b8e95071e7f9bdc1398cdd1831aa18d41d62c6ea97caff0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087289"
 ---
 # <a name="cimagedisplaycheckpaletteheader-method"></a>Méthode CImageDisplay. CheckPaletteHeader
 
@@ -53,7 +53,7 @@ Pointeur vers une structure **VIDEOINFO** .
 
 Retourne la **valeur true** si les entrées de palette sont valides, ou la **valeur false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le format d’image n’est pas en palette, la méthode vérifie que **biClrUsed** est égal à zéro. Dans le cas contraire, la méthode vérifie que l’indicateur de **bicompression** est bi \_ RGB ; **biClrImportant** n’est pas supérieur à **biClrUsed**; en raison de la profondeur de couleur, le nombre d’entrées de palette ne dépasse pas la valeur maximale.
 
@@ -63,7 +63,7 @@ Si le format d’image n’est pas en palette, la méthode vérifie que **biClrU
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

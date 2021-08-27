@@ -1,22 +1,22 @@
 ---
-description: Suppression de Windows Movie Maker
+description: suppression de Windows Movie Maker
 ms.assetid: af55e570-0f24-4376-905a-3b879d5f3a1c
-title: Suppression de Windows Movie Maker
+title: suppression de Windows Movie Maker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36df5ffe4498e05de9fcbbaadf49f8fc32c91b0f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 538032d589439ccc0966bc151568813eed3d1946cd2cb8ea7d9314246edb19ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098519"
 ---
-# <a name="removal-of-windows-movie-maker"></a>Suppression de Windows Movie Maker
+# <a name="removal-of-windows-movie-maker"></a>suppression de Windows Movie Maker
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
 **Clients** -Windows 7  
-**Serveurs** -Windows Server 2008 R2  
+**serveurs** -Windows Server 2008 R2  
 
 
 
@@ -36,16 +36,16 @@ ms.locfileid: "108116267"
 
 Microsoft déprécie et supprime l’utilitaire Windows Movie Maker. notamment :
 
--   Tous les points d’entrée vers Windows Movie Maker (par exemple, menu Démarrer, démarrer > exécuter)
--   Tous les fichiers binaires qui ont été utilisés par Windows Movie Maker (tout ce qui se trouvait dans% ProgramFiles% \\ Movie Maker)
+-   tous les points d’entrée pour Windows Movie Maker (par exemple, Menu démarrer, démarrer > exécuter)
+-   tous les fichiers binaires qui ont été utilisés par Windows movie maker (tout ce qui se trouvait dans% ProgramFiles% \\ Movie maker)
 
 Toutefois, les fichiers projet Movie Maker d’un utilisateur restent sur le système et sont accessibles aux autres applications qui prennent en charge ce format de fichier.
 
 ## <a name="manifestation"></a>Manifestation
 
-Les résultats de la suppression de Windows Movie Maker sont les suivants :
+la suppression de Windows Movie Maker produit les résultats suivants :
 
--   Toute tentative de lancement de Windows Movie Maker avec ses arguments de ligne de commande échoue
+-   toute tentative de lancement d’Windows Movie Maker avec ses arguments de ligne de commande échoue
 -   Tous les plug-ins installés pour activer les nouvelles transformations et les animations restent installés, mais ne sont pas exposés à l’utilisateur final.
 
 ## <a name="solution"></a>Solution

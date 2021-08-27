@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a29ee7b8519c802deb0542b6b7ba3ea22692f36d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 12f030330d01e004d80de92920c84f8cc8ffc47fe009582d64d34497bb684418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118959"
 ---
 # <a name="d3dxvec4scale-function"></a>D3DXVec4Scale fonction)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers la structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le vecteur mis à l’échelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Scale** peut être utilisée comme paramètre pour une autre fonction.
 

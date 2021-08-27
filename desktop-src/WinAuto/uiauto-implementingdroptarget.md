@@ -15,12 +15,12 @@ keywords:
 - interfaces, IDropTargetProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd03d219ce8b26a0ac01806ebab09892a027fbd1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 03cc425c9d41a70150eba2431c6fd317f2f8c23f878f7a0615025aec25b85b68
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098309"
 ---
 # <a name="droptarget-control-pattern"></a>Modèle de contrôle DropTarget
 
@@ -41,7 +41,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
-| Membres nécessaires                                                                              | Type de membre | Notes                                                                    |
+| Membres nécessaires                                                                              | Type de membre | Remarques                                                                    |
 |-----------------------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------|
 | [**DropTargetEffect**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffect)                       | Propriété    | Aucun                                                                     |
 | [**DropTargetEffects**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-idroptargetprovider-get_droptargeteffects)                     | Propriété    | Obligatoire si la cible de déplacement prend en charge plusieurs effets de suppression possibles. |
@@ -51,7 +51,7 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -72,6 +72,6 @@ Les propriétés et méthodes suivantes sont requises pour implémenter l’inte
 [Prise en charge d’UI Automation pour le glisser-déplacer](ui-automation-support-for-drag-and-drop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

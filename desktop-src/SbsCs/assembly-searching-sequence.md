@@ -4,12 +4,12 @@ ms.assetid: 93496631-55cc-4dd9-9a51-b748c35fd477
 title: Séquence de recherche d’assemblys
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc689ecb14c55f0e8a609c7e7497fce969e88b8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 983466954d6cb9619d3fb0595c96f81fed7c9b73a29bfbf2f609b3f14203a957
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127539"
 ---
 # <a name="assembly-searching-sequence"></a>Séquence de recherche d’assemblys
 
@@ -38,7 +38,7 @@ Si un sous-dossier spécifique à une langue existe, la structure de répertoire
 4.  \\\\< > \\ appdir < *langue-culture* > \\ <  > \\ AssemblyName < *AssemblyName* # C0.DLL
 5.  \\\\< > \\ appdir < *langue-culture* > \\ <  > \\ AssemblyName < *assemblyname*>. manifest
 
-Notez que la séquence de recherche côte à côte trouve un fichier DLL portant le nom de l’assembly et s’arrête avant de rechercher un fichier manifeste portant le nom de l’assembly. La méthode recommandée pour gérer un assembly privé qui est une DLL consiste à placer le manifeste de l’assembly dans le fichier DLL en tant que ressource. L’ID de ressource doit être égal à 1 et le nom de l’assembly privé peut être le même que le nom de la DLL. Par exemple, si le nom de la DLL est MICROSOFT.WINDOWS.MYSAMPLE.DLL, la valeur de l’attribut Name utilisé dans l’élément **assemblyIdentity** du manifeste de l’assembly peut également être Microsoft. Windows. MySample. En guise d’alternative, vous pouvez placer le manifeste de l’assembly dans un fichier distinct. Toutefois, le nom de l’assembly et son manifeste doivent être différents du nom de la DLL. Par exemple, Microsoft. Windows. mysampleAsm, Microsoft. Windows. mysampleAsm. manifest et MICROSOFT.WINDOWS.MYSAMPLE.DLL.
+Notez que la séquence de recherche côte à côte trouve un fichier DLL portant le nom de l’assembly et s’arrête avant de rechercher un fichier manifeste portant le nom de l’assembly. La méthode recommandée pour gérer un assembly privé qui est une DLL consiste à placer le manifeste de l’assembly dans le fichier DLL en tant que ressource. L’ID de ressource doit être égal à 1 et le nom de l’assembly privé peut être le même que le nom de la DLL. Par exemple, si le nom de la DLL est MICROSOFT.WINDOWS.MYSAMPLE.DLL, la valeur de l’attribut Name utilisé dans l’élément **assemblyIdentity** du manifeste de l’assembly peut également être Microsoft. Windows. mysample. En guise d’alternative, vous pouvez placer le manifeste de l’assembly dans un fichier distinct. Toutefois, le nom de l’assembly et son manifeste doivent être différents du nom de la DLL. Par exemple, Microsoft. Windows. mysampleAsm, Microsoft. Windows. mysampleAsm. manifest et MICROSOFT.WINDOWS.MYSAMPLE.DLL.
 
 Par exemple, si MyApp est installé à la racine du lecteur c : et requiert MyAsm en français-belge, côte à côte utilise la séquence suivante pour rechercher la meilleure approximation pour une instance localisée de MyAsm.
 
@@ -68,7 +68,7 @@ Par exemple, si MyApp est installé à la racine du lecteur c : et requiert MyA
 24. c : \\ MyApp \\ MyAsm \\myasm.dll
 25. c : \\ MyApp \\ MyAsm \\ MyAsm. manifest
 
-Si la recherche côte à côte atteint une version indépendante de la langue de l’assembly et qu’une version [MUI (Multilanguage User Interface)](/windows/desktop/Intl/multilingual-user-interface) de Windows est présente sur le système, côte à côte, tente de lier à <*AssemblyName*>. mui. Côte à côte n’essaie pas d’effectuer une liaison à <*assemblyname*>. mui si la recherche atteint une version localisée de l’assembly. Le [manifeste d’assembly](assembly-manifests.md) d’un assembly indépendant du langage n’aura pas d’attribut de langage dans son élément **assemblyIdentity** . Si côte à côte atteint un assembly indépendant de la langue et que l’interface MUI est installée, côte à côte recherche les emplacements suivants à l’aide de la séquence suivante pour <*assemblyname*>. mui. Side-by-Side utilise la même séquence de recherche si l’assembly est indépendant de la culture, sauf <aucune recherche de *langue*> n’est effectuée.
+si la recherche côte à côte atteint une version indépendante du langage de l’assembly et qu’une version [MUI (multilanguage User Interface)](/windows/desktop/Intl/multilingual-user-interface) de Windows est présente sur le système, côte à côte, tente alors de lier à <*assemblyname*>. MUI. Côte à côte n’essaie pas d’effectuer une liaison à <*assemblyname*>. mui si la recherche atteint une version localisée de l’assembly. Le [manifeste d’assembly](assembly-manifests.md) d’un assembly indépendant du langage n’aura pas d’attribut de langage dans son élément **assemblyIdentity** . Si côte à côte atteint un assembly indépendant de la langue et que l’interface MUI est installée, côte à côte recherche les emplacements suivants à l’aide de la séquence suivante pour <*assemblyname*>. mui. Side-by-Side utilise la même séquence de recherche si l’assembly est indépendant de la culture, sauf <aucune recherche de *langue*> n’est effectuée.
 
 1.  Côte à côte recherche le dossier WinSxS pour <*assemblyname*>. mui.
 2.  \\\\<*langue de l’utilisateur-culture* > \\ < *assemblyname*>. mui

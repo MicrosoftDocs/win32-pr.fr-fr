@@ -4,12 +4,12 @@ ms.assetid: 29b96540-1b45-46b7-871a-e728aa50ad24
 title: Amélioration d’une application lente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ae5bbec57791155852a41b1413e0d863f8704c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff8f996267328805dc120d39218784a08383fb68ae9f6927e8983b6e1bec2d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097889"
 ---
 # <a name="improving-a-slow-application"></a>Amélioration d’une application lente
 
@@ -36,7 +36,7 @@ Le code de base, ainsi que les révisions qui améliorent ce code, sont les suiv
 
 <dl> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

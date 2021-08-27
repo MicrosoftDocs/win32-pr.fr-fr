@@ -4,12 +4,12 @@ ms.assetid: 53aabb35-4601-42d1-ac73-385473ff91e2
 title: Objets fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e37793ad6c31ac86809047a3ec0d34afc3efc34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 263eae282f76195cc125848f13f43f5ee3d8f676cc6328b2d03db443e6f1deec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107469"
 ---
 # <a name="file-objects"></a>Objets fichier
 
@@ -32,7 +32,7 @@ Les *objets fichier* fonctionnent comme l’interface logique entre les processu
 
  
 
-Ces attributs sont définis dans le cadre de la structure de l' [**\_ objet fichier**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) dans Ntddk. h. Reportez-vous à la définition de cette structure dans la documentation du kit de pilotes Windows (WDK) pour les longueurs de données et les types de valeurs.
+Ces attributs sont définis dans le cadre de la structure de l' [**\_ objet fichier**](/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object) dans Ntddk. h. reportez-vous à la définition de cette structure dans la documentation de Windows Driver Kit (WDK) pour les longueurs de données et les types de valeurs.
 
  
 

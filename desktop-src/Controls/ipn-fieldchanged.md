@@ -3,7 +3,7 @@ title: IPN_FIELDCHANGED le code de notification (commctrl. h)
 description: Envoyé lorsque l’utilisateur modifie un champ dans le contrôle ou passe d’un champ à un autre. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: f9ca6435-1715-458e-8d0e-475920ed75bd
 keywords:
-- Contrôles Windows de code de notification IPN_FIELDCHANGED
+- IPN_FIELDCHANGED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e283d42d0aba3c237db51fe492a34ec93e8eb73
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 467cf7f14f3ff8d62f85d973e9a9d11c4dc6d20488ad5b7e30b4c0787b4b1a6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085549"
 ---
 # <a name="ipn_fieldchanged-notification-code"></a>\_Code de notification IPN FIELDCHANGED
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMIPADDRESS**](/windows/win32/api/commctrl/ns-com
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification n’est pas envoyé en réponse à un message [**\_ SETADDRESS IPM**](ipm-setaddress.md) .
 
@@ -59,8 +59,8 @@ Ce code de notification n’est pas envoyé en réponse à un message [**\_ SETA
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

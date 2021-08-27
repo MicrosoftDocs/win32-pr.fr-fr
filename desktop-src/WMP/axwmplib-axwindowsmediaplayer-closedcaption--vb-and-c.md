@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. closedCaption, propriété
 description: La propriété closedCaption obtient une interface IWMPClosedCaption pour l’élément multimédia actuel.
 ms.assetid: 459a04fd-daf5-46f9-925b-02011bbbf640
 keywords:
-- propriété closedCaption lecteur Windows Media
-- propriété closedCaption lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété closedCaption
+- Lecteur Windows Media de la propriété closedCaption
+- Lecteur Windows Media de la propriété closedCaption, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété closedCaption
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10210c5e3e068c52c9795cc6c760d2f79faabf1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d315b516e4b85e082ab0cc1d34016aa94b022e43c9d59a49b06a146c913d41b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098849"
 ---
 # <a name="axwindowsmediaplayerclosedcaption-property"></a>AxWindowsMediaPlayer. closedCaption, propriété
 
@@ -66,7 +66,7 @@ WMPLIB. Interface IWMPClosedCaption.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPClosedCaption (VB et C#)**](iwmpclosedcaption--vb-and-c.md)

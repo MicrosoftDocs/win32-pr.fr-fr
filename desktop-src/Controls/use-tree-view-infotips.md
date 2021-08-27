@@ -4,27 +4,27 @@ description: Lorsque vous appliquez le \_ style de l’info-bulle du téléviseu
 ms.assetid: 779BEAC1-877E-43DD-AE1C-6D71C3013384
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0ef862d68cfd9f6ac5a97e82c80622e9c02121
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 6ff9273b28b614e7935f6ac507288a5733271fb455a6be1e85b52c5b0ba8bbb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106511062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132029"
 ---
 # <a name="how-to-use-tree-view-infotips"></a>Utilisation de Tree-View info-bulles
 
 Lorsque vous appliquez le style de l' [**\_ info-bulle du téléviseur**](tree-view-control-window-styles.md) à un contrôle d’arborescence, il génère des notifications [ \_ GETINFOTIP TVN](tvn-getinfotip.md) lorsque le curseur se trouve sur un élément dans l’arborescence. En répondant à cette notification, vous pouvez définir le texte qui apparaît dans l’info-bulle.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -72,9 +72,9 @@ L’exemple de code suivant montre comment une application peut répondre à la 
 [L’exemple CustDTv illustre un dessin personnalisé dans un contrôle Tree-View](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

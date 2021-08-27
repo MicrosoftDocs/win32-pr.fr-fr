@@ -4,12 +4,12 @@ ms.assetid: FD0625BB-484A-43E6-8931-DB635D4F017F
 title: GPU-Based protection du contenu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbc1a0f88cae199b9aab38e5ec429ea5427f44b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e09829984273c35524fe9c8f3cd19e759e18dbc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571362"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465036"
 ---
 # <a name="gpu-based-content-protection"></a>GPU-Based protection du contenu
 
@@ -218,41 +218,14 @@ Pour envoyer une commande au canal authentifié, procédez comme suit.
 
 1.  Renseignez la structure des données d’entrée. Cette structure de données est toujours une structure [**D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT**](d3dauthenticatedchannel-configure-input.md) suivie de champs supplémentaires. Renseignez la structure **D3DAUTHENTICATEDCHANNEL_CONFIGURE_INPUT** comme indiqué dans le tableau suivant.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Membre</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>omac</strong></td>
-    <td>Ignorez ce champ pour l’instant.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>ConfigureType</strong></td>
-    <td>GUID qui identifie la commande. Pour obtenir la liste des commandes, consultez <a href="content-protection-commands.md">protection du contenu des commandes</a>.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>hChannel</strong></td>
-    <td>Handle du canal authentifié.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre commande, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.
-    <blockquote>
-    [!Note]<br />
-Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Membre | Description | 
+|--------|-------------|
+| <strong>omac</strong> | Ignorez ce champ pour l’instant. | 
+| <strong>ConfigureType</strong> | GUID qui identifie la commande. Pour obtenir la liste des commandes, consultez <a href="content-protection-commands.md">protection du contenu des commandes</a>. | 
+| <strong>hChannel</strong> | Handle du canal authentifié. | 
+| <strong>SequenceNumber</strong> | Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre commande, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.    <blockquote>    [!Note]<br />    Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.    </blockquote><br /><br /> | 
+
 
     
 
@@ -273,37 +246,13 @@ Pour envoyer une commande au canal authentifié, procédez comme suit.
 
 1.  Renseignez la structure des données d’entrée. Cette structure de données est toujours une structure [**D3DAUTHENTICATEDCHANNEL_QUERY_INPUT**](d3dauthenticatedchannel-query-input.md) , éventuellement suivie de champs supplémentaires. Renseignez la structure **D3DAUTHENTICATEDCHANNEL_QUERY_INPUT** comme indiqué dans le tableau suivant.
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Membre</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Affectée</strong></td>
-    <td>GUID qui identifie la requête. Pour obtenir la liste des requêtes, consultez <a href="content-protection-queries.md">protection du contenu des requêtes</a>.</td>
-    </tr>
-    <tr class="even">
-    <td><strong>hChannel</strong></td>
-    <td>Handle du canal authentifié.</td>
-    </tr>
-    <tr class="odd">
-    <td><strong>SequenceNumber</strong></td>
-    <td>Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre requête, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.
-    <blockquote>
-    [!Note]<br />
-Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.
-    </blockquote>
-    <br/> <br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Membre | Description | 
+|--------|-------------|
+| <strong>Affectée</strong> | GUID qui identifie la requête. Pour obtenir la liste des requêtes, consultez <a href="content-protection-queries.md">protection du contenu des requêtes</a>. | 
+| <strong>hChannel</strong> | Handle du canal authentifié. | 
+| <strong>SequenceNumber</strong> | Numéro séquentiel. Le premier numéro de séquence est spécifié par l’envoi d’une commande <a href="d3dauthenticatedconfigure-initialize.md"><strong>D3DAUTHENTICATEDCONFIGURE_INITIALIZE</strong></a> . Chaque fois que vous envoyez une autre requête, incrémentez ce nombre de 1. Le numéro de séquence protège contre les attaques par relecture.    <blockquote>    [!Note]<br />    Deux numéros de séquence distincts sont utilisés, un pour les commandes et un pour les requêtes.    </blockquote><br /><br /> | 
+
 
     
 
