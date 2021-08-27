@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Codes de retour WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e05455b109bd05b7a1693b8a05b13f6f7aeb646
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1454c8efc45085e88f78358346679b5cdcf3d05093318845912d7d5a913d8ecf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995379"
 ---
 # <a name="wmi-return-codes"></a>Codes de retour WMI
 
@@ -44,7 +44,7 @@ Avertissement
 <span id="3"></span>1,3
 </dt> <dd>
 
-Error
+Erreur
 
 </dd> </dl>
 
@@ -52,7 +52,7 @@ Error
 >
 > Si WMI renvoie des messages d’erreur, sachez qu’ils ne peuvent pas indiquer des problèmes dans le service WMI ou les fournisseurs WMI. Les échecs peuvent provenir d’autres parties du système d’exploitation et émerger comme des erreurs via WMI. Dans tous les cas, ne supprimez pas le référentiel WMI en tant que première action, car la suppression du dépôt peut endommager le système ou les applications installées.
 >
-> Pour obtenir plus d’informations sur la source du problème, vous pouvez télécharger et exécuter l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. Vous pouvez télécharger les WMI Diagnosis Utility [ici](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
+> pour obtenir plus d’informations sur la source du problème, vous pouvez télécharger et exécuter l’outil en ligne de commande [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) diagnostic. Cet outil génère un rapport qui peut généralement isoler la source du problème et fournir des instructions sur la façon de le résoudre. Le rapport aide également les services de support technique Microsoft à vous aider. vous pouvez télécharger les WMI Diagnosis Utility [ici](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d).
 
  
 

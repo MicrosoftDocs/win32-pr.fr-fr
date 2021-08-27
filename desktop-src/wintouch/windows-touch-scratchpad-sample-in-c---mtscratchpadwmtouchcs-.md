@@ -1,28 +1,28 @@
 ---
-title: Exemple de bloc-notes Windows Touch en C (MTScratchpadWMTouchCS)
-description: L’exemple de bloc-notes Windows Touch en C# montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
+title: Windows Exemple Touch du bloc-notes en C (MTScratchpadWMTouchCS)
+description: l’exemple Windows touch du bloc-notes en C# montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
 ms.assetid: 652124be-01a8-4df4-b590-e5c2ca3f012c
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Exemples tactiles Windows, bloc-notes
+- Windows Toucher, exemple de code
+- Windows Exemples tactiles, de bloc-notes
 - Exemples de bloc-notes
 ms.topic: article
 ms.date: 10/28/2019
-ms.openlocfilehash: 2d91c08c55f0d5b29a170a3a01c6ee882fad765f
-ms.sourcegitcommit: c7fa8fc137714433c8d18b1bf71e9cf0b5bf5e80
+ms.openlocfilehash: 112f8446af4b845bfd36e4262a11da807535c93baaf6257a10a9a8d2b03374e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "104031975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089843"
 ---
-# <a name="windows-touch-scratchpad-sample-c"></a>Exemple de bloc-notes Windows Touch (C#)
+# <a name="windows-touch-scratchpad-sample-c"></a>Windows Touch bloc-notes, exemple (C#)
 
-L' [exemple de bloc-notes Windows Touch en C#](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS) montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. L’illustration suivante montre comment l’application peut se présenter lors de son exécution.
+l' [exemple Windows touch du bloc-notes en C#](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS) montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre. Le suivi du doigt principal, celui qui a été placé en premier dans le digitaliseur, est dessiné en noir. Les doigts secondaires sont dessinés dans six autres couleurs : rouge, vert, bleu, cyan, magenta et jaune. L’illustration suivante montre comment l’application peut se présenter lors de son exécution.
 
 ![capture d’écran montrant l’exemple de bloc-notes tactile Windows en c Sharp, avec des tildes noirs, verts, bleus et rouges sur l’écran](images/mtscratchpadwmtouchcs.png)
 
-Pour cet exemple, un formulaire touchable est créé pour gérer les messages [**WM_TOUCH**](wm-touchdown.md) . Ce formulaire est hérité pour activer la fonction tactile Windows sur l’application du bloc-notes. Lorsque les messages de **WM_TOUCH** sont envoyés au formulaire, ils sont interprétés en points et ajoutés à la collection de traits. La collection de traits est rendue dans l’objet Graphics. Le code suivant montre comment le formulaire touchable s’inscrit pour la gestion des messages **WM_TOUCH** et comment il gère les messages **WM_TOUCH** .
+Pour cet exemple, un formulaire touchable est créé pour gérer les messages [**WM_TOUCH**](wm-touchdown.md) . ce formulaire est hérité pour permettre Windows Touch sur l’application du bloc-notes. Lorsque les messages de **WM_TOUCH** sont envoyés au formulaire, ils sont interprétés en points et ajoutés à la collection de traits. La collection de traits est rendue dans l’objet Graphics. Le code suivant montre comment le formulaire touchable s’inscrit pour la gestion des messages **WM_TOUCH** et comment il gère les messages **WM_TOUCH** .
 
 ```CSharp
         private void OnLoadHandler(Object sender, EventArgs e)
@@ -71,7 +71,7 @@ Pour cet exemple, un formulaire touchable est créé pour gérer les messages [*
         }
 ```
 
-Le code suivant montre comment le message tactile Windows est interprété et les données sont ajoutées aux collections Stroke.
+le code suivant montre comment l’Windows message tactile est interprété et les données sont ajoutées aux collections stroke.
 
 ```CSharp
         private bool DecodeTouch(ref Message m)
@@ -180,5 +180,5 @@ Le code suivant montre comment les objets Stroke individuels s’affichent avec 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Exemple de bloc-notes Windows Touch (C++)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md), [application multipoint de bloc-notes (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [application de bloc-notes multipoint (WM_TOUCH/C + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), [exemples de fonctions tactiles Windows](windows-touch-samples.md)
+[exemple de Windows touch de bloc-notes (C++)](windows-touch-scratchpad-sample--mtscratchpadwmtouch-.md), [application multipoint de bloc-notes (WM_TOUCH/c #)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/CS), [application de bloc-notes multipoint (WM_TOUCH/c + +)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadWMTouch/cpp), exemples d’applications [tactiles Windows](windows-touch-samples.md)
 

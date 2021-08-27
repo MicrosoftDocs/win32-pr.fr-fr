@@ -4,27 +4,27 @@ description: Un contrôle Rich Edit appelle une fonction appelée procédure d�
 ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feb90064e455bfeb8ee126e6107d75ef29b3a4f3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 178770ce4a7206c18f6fbbc197d92e23ff0139ae637bd5f7ceb4159aee3270ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106545747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059689"
 ---
 # <a name="how-to-use-word-and-line-break-information"></a>Utilisation des informations sur les mots et les sauts de ligne
 
 Un contrôle Rich Edit appelle une fonction appelée procédure d’interruption de mot pour rechercher des sauts entre les mots et pour déterminer où elle peut couper les lignes. Le contrôle utilise ces informations lors de l’exécution d’opérations de retour automatique à la ligne et lors du traitement des combinaisons de touches CTRL + Flèche gauche et CTRL + Flèche droite. Une application peut envoyer des messages à un contrôle Rich Edit pour remplacer la procédure de césure par défaut, pour récupérer des informations de césure de mots et pour déterminer la ligne sur laquelle se trouve un caractère donné.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -46,7 +46,7 @@ La classe d’un caractère peut être combinée avec zéro, un ou plusieurs ind
 
 
 
- 
+ 
 
 La \_ valeur WBF BREAKAFTER est utilisée pour permettre l’encapsulation après un caractère qui ne marque pas la fin d’un mot, tel qu’un trait d’Union.
 
@@ -55,7 +55,7 @@ Vous pouvez remplacer la procédure de césure par défaut d’un contrôle Rich
 > [!Note]  
 > Ce remplacement n’est pas recommandé pour Microsoft Rich Edit 2,0 et versions ultérieures, en raison de la complexité de la césure des mots multilingues.
 
- 
+ 
 
 Pour Microsoft Rich Edit 1,0, vous pouvez utiliser le message [**em \_ SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) pour remplacer la procédure de coupure de mots étendue par défaut par une fonction [*EditWordBreakProcEx*](/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex) . Cette fonction fournit des informations supplémentaires sur le texte, telles que le jeu de caractères. Vous pouvez utiliser le message [**em \_ GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) pour récupérer l’adresse de la procédure d’arrêt de mot étendu en cours. Notez que Microsoft Rich Edit 2,0 et versions ultérieures ne prennent pas en charge *EditWordBreakProcEx*, **em \_ GETWORDBREAKPROCEX** et **em \_ SETWORDBREAKPROCEX**.
 
@@ -70,9 +70,9 @@ Pour déterminer la ligne sur laquelle se trouve un caractère donné, vous pouv
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

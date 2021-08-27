@@ -3,7 +3,7 @@ title: Code de notification WM_HSCROLL (TrackBar. h)
 description: Le \_ message WM HSCROLL est envoyé au propriétaire d’un contrôle TrackBar horizontal lorsque le curseur change de position. Une fenêtre reçoit ce message par le biais de sa fonction WindowProc.
 ms.assetid: EC4AF407-E13F-4562-A0A6-FA109C15101B
 keywords:
-- Contrôles Windows du code de notification WM_HSCROLL (TrackBar)
+- WM_HSCROLL (Trackbar) code de notification Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10727b745900520e8af31561236c8e93eeeb3a81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a21000f9eeeb3ff83d4fb65456b21447aa3fd604412f3b4d6d3b94fda58606b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059309"
 ---
 # <a name="wm_hscroll-trackbar-notification-code"></a>\_Code de notification WM HSCROLL (TrackBar)
 
@@ -79,7 +79,7 @@ Handle du contrôle TrackBar.
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le \_ code THUMBTRACK to est généralement utilisé par les applications qui fournissent des commentaires au fur et à mesure que l’utilisateur fait glisser la case de défilement.
 
@@ -91,8 +91,8 @@ Notez que le message **WM \_ HSCROLL** contient uniquement 16 bits de données d
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

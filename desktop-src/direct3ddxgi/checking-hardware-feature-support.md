@@ -4,12 +4,12 @@ ms.assetid: 0C40C73E-06F3-41FA-AA27-2C0B730B357B
 title: Prise en charge de la fonctionnalité de vérification du matériel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b14f0de50c4236c4fce46ceda1896ee32721c3bd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eecaebdb3b8d4825e2be72bf9fa9758186f5f192832e1442779b90d05c62c9a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025689"
 ---
 # <a name="checking-hardware-feature-support"></a>Prise en charge de la fonctionnalité de vérification du matériel
 
@@ -178,7 +178,7 @@ D3D12 n’a plus de fonctionnalité de génération de mipmap dédiée. Les appl
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_COMPARE_STORE_OR_COMPARE_EXCHANGE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>
 <tr class="odd">
-<td>Échange atomique UAV</td>
+<td>Exchange Atomic UAV</td>
 <td>D3D12_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2"><strong>D3D12_FORMAT_SUPPORT2</strong></a>)</td>
 <td>D3D11_FORMAT_SUPPORT2_UAV_ATOMIC_EXCHANGE (<a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_format_support2"><strong>D3D11_FORMAT_SUPPORT2</strong></a>)</td>
 </tr>

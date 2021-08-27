@@ -4,16 +4,16 @@ description: La fonctionnalité de passes de rendu permet à votre convertisseur
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/15/2018
-ms.openlocfilehash: f776729f17ac0017d713c6f37bc71de7302a7c08
-ms.sourcegitcommit: 780d4b1601c45658ef0b799b80d13f45a53d808d
+ms.openlocfilehash: 96ed14cecd518a3e03672f2667306ee0a4b8d64999aab01aa72aae04975f0a83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "104548491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120069689"
 ---
 # <a name="direct3d-12-render-passes"></a>Passes de rendu Direct3D 12
 
-La fonctionnalité de passes de rendu est nouvelle pour Windows 10, version 1809 (10,0 ; Build 17763), et introduit le concept d’une passe de rendu Direct3D 12. Une passe de rendu se compose d’un sous-ensemble des commandes que vous enregistrez dans une liste de commandes.
+la fonctionnalité de passes de rendu est une nouveauté pour Windows 10, version 1809 (10,0 ; Build 17763), et introduit le concept d’une passe de rendu Direct3D 12. Une passe de rendu se compose d’un sous-ensemble des commandes que vous enregistrez dans une liste de commandes.
 
 Pour déclarer où chaque passe de rendu commence et se termine, vous imbriquez les commandes appartenant à cette passe dans les appels à [**ID3D12GraphicsCommandList4 :: BeginRenderPass**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass) et [**EndRenderPass**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass). Par conséquent, toute liste de commandes contient zéro, une ou plusieurs passes de rendu.
 
@@ -43,7 +43,7 @@ Même avec la fonctionnalité de passes de rendu, le runtime Direct3D 12 et le p
 - Identifiez correctement les dépendances de classement et de données pour ses opérations.
 - Commandez ses soumissions d’une manière qui minimise les vidages (par conséquent, réduisez l’utilisation des indicateurs de **_PRESERVE** ).
 - Utilisez correctement les barrières des ressources et suivez l’état des ressources.
-- Évitez les copies/effaces inutiles. Pour vous aider à les identifier, vous pouvez utiliser les avertissements de performances automatisés à partir de l' [outil pix sur Windows](https://devblogs.microsoft.com/pix/).
+- Évitez les copies/effaces inutiles. pour vous aider à les identifier, vous pouvez utiliser les avertissements de performances automatisés à partir de l' [outil PIX sur Windows](https://devblogs.microsoft.com/pix/).
 
 ## <a name="using-the-render-pass-feature"></a>Utilisation de la fonctionnalité de réussite de rendu
 
@@ -134,7 +134,7 @@ Et il s’agit d’exemples de barrières non conformes.
 - **D3D12_RESOURCE_STATE_RENDER_TARGET** à n’importe quel état de lecture sur les RTVs/DSV actuellement liés.
 - **D3D12_RESOURCE_STATE_DEPTH_WRITE** à n’importe quel état de lecture sur les RTVs/DSV actuellement liés.
 - Toute barrière d’alias.
-- Barrières de vue d’accès non triée (UAV). 
+- Barrières de vue d’accès non triée (UAV). 
 
 ### <a name="resource-access-declaration"></a>Déclaration d’accès aux ressources
 

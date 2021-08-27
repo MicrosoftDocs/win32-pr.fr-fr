@@ -4,12 +4,12 @@ ms.assetid: 7e0f5629-f8e2-478b-b8eb-00780a3dcf1f
 title: DXGI_ENUM_MODES (DXGI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 056ad959f0b86fb6f357d690f2daab908275e038
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 568e3919955c2f5612cf88896a2cb6389ebc58fcb427e159824c1dc2feeebca6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106544400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025629"
 ---
 # <a name="dxgi_enum_modes"></a>\_modes d’énumération dxgi \_
 
@@ -26,7 +26,7 @@ Options pour énumérer les modes d’affichage.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces options d’indicateur sont utilisées dans [**IDXGIOutput :: GetDisplayModeList**](/windows/desktop/api/DXGI/nf-dxgi-idxgioutput-getdisplaymodelist) pour énumérer les modes d’affichage.
 

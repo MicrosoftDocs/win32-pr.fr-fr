@@ -4,12 +4,12 @@ ms.assetid: f2021d11-f713-497e-b503-51c674b8828f
 title: System. FileVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baa8e6b1638e4efe53a0f17a33b26a6ba5625319
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 032259f5304f0c9923c08af78ab44bf711472619b314f2cbc776b3c78be980c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010478"
 ---
 # <a name="systemfileversion"></a>System. FileVersion
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

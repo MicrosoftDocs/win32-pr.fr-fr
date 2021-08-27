@@ -4,12 +4,12 @@ description: BITS utilise la propriété BITSServerNotificationType pour déterm
 ms.assetid: d5193d0c-3ab4-47ab-a570-fea2904a4371
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d35f6f5fec1a1de9ebd5c2c244a55bc1806b06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a54e859730acaa1456624e9fa5c2302bc36efd9d085daeecdf234aef8f74729c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004939"
 ---
 # <a name="notification-protocol-for-server-applications"></a>Protocole de notification pour les applications serveur
 
@@ -39,8 +39,8 @@ Le tableau suivant présente les en-têtes de réponse.
 
 | En-tête de réponse               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| BITS-static-Response-URL      | Optionnel. Contient l’URL absolue (ne spécifiez pas d’URL relative) à un fichier de données statiques à utiliser comme réponse. Le fichier de données statique doit être accessible par le client BITS. Si vous utilisez cet en-tête, ne créez pas le fichier réponse spécifié dans l’en-tête de demande BITS-Response-DataFile-Name. Notez que le service BITS ne supprime pas ce fichier pour vous.<br/>                                                                                                           |
-| BITS-copier-fichier vers destination | Optionnel. Par défaut, si la propriété [BITSServerNotificationType](bits-iis-extension-properties.md) a la valeur 1 ou 2, le serveur bits ne copie pas le fichier de téléchargement à l’emplacement spécifié par le nom de fichier distant dans le travail. Pour que le service BITS copie le fichier à l’emplacement spécifié par le nom de fichier distant dans le travail, envoyez cet en-tête de réponse. Vous pouvez spécifier n’importe quelle valeur ; BITS n’utilise pas la valeur. Notez que les dossiers dans le chemin d’accès du fichier distant doivent exister. |
+| BITS-static-Response-URL      | Facultatif. Contient l’URL absolue (ne spécifiez pas d’URL relative) à un fichier de données statiques à utiliser comme réponse. Le fichier de données statique doit être accessible par le client BITS. Si vous utilisez cet en-tête, ne créez pas le fichier réponse spécifié dans l’en-tête de demande BITS-Response-DataFile-Name. Notez que le service BITS ne supprime pas ce fichier pour vous.<br/>                                                                                                           |
+| BITS-copier-fichier vers destination | Facultatif. Par défaut, si la propriété [BITSServerNotificationType](bits-iis-extension-properties.md) a la valeur 1 ou 2, le serveur bits ne copie pas le fichier de téléchargement à l’emplacement spécifié par le nom de fichier distant dans le travail. Pour que le service BITS copie le fichier à l’emplacement spécifié par le nom de fichier distant dans le travail, envoyez cet en-tête de réponse. Vous pouvez spécifier n’importe quelle valeur ; BITS n’utilise pas la valeur. Notez que les dossiers dans le chemin d’accès du fichier distant doivent exister. |
 
 
 
@@ -86,8 +86,8 @@ Le tableau suivant présente les en-têtes de réponse.
 
 | En-tête de réponse               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| BITS-static-Response-URL      | Optionnel. Contient l’URL absolue (ne spécifiez pas d’URL relative) à un fichier de données statiques à utiliser comme réponse. Le fichier de données statique doit être accessible par le client BITS. Si vous utilisez cet en-tête, n’incluez pas la réponse dans le flux. Notez que le service BITS ne supprime pas ce fichier pour vous.<br/>                                                                                                                                      |
-| BITS-copier-fichier vers destination | Optionnel. Si la propriété [BITSServerNotificationType](bits-iis-extension-properties.md) a la valeur 1 ou 2, le serveur bits ne copie pas le fichier de téléchargement à l’emplacement spécifié par le nom de fichier distant dans le travail. Pour que le service BITS copie le fichier à l’emplacement spécifié par le nom de fichier distant, envoyez cet en-tête de réponse. Vous pouvez spécifier n’importe quelle valeur ; BITS n’utilise pas la valeur. Notez que les dossiers dans le chemin d’accès du fichier distant doivent exister. |
+| BITS-static-Response-URL      | Facultatif. Contient l’URL absolue (ne spécifiez pas d’URL relative) à un fichier de données statiques à utiliser comme réponse. Le fichier de données statique doit être accessible par le client BITS. Si vous utilisez cet en-tête, n’incluez pas la réponse dans le flux. Notez que le service BITS ne supprime pas ce fichier pour vous.<br/>                                                                                                                                      |
+| BITS-copier-fichier vers destination | Facultatif. Si la propriété [BITSServerNotificationType](bits-iis-extension-properties.md) a la valeur 1 ou 2, le serveur bits ne copie pas le fichier de téléchargement à l’emplacement spécifié par le nom de fichier distant dans le travail. Pour que le service BITS copie le fichier à l’emplacement spécifié par le nom de fichier distant, envoyez cet en-tête de réponse. Vous pouvez spécifier n’importe quelle valeur ; BITS n’utilise pas la valeur. Notez que les dossiers dans le chemin d’accès du fichier distant doivent exister. |
 
 
 

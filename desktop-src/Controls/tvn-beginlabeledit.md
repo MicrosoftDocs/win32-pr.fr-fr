@@ -3,7 +3,7 @@ title: TVN_BEGINLABELEDIT le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View du début de la modification de l’étiquette d’un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 67ed1f1f-7ccc-4e84-9540-4a46f6cd3a44
 keywords:
-- Contrôles Windows de code de notification TVN_BEGINLABELEDIT
+- TVN_BEGINLABELEDIT les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34eccdeda553d0792a2862e3ca81a0889539d5ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8fdd2b75ee9f3dcc46e5449c275eeea141162f3d31f524b64e114a623bd915e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060089"
 ---
 # <a name="tvn_beginlabeledit-notification-code"></a>\_Code de notification TVN BEGINLABELEDIT
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 Retourne la **valeur true** pour annuler la modification de l’étiquette.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la modification d’étiquette commence, un contrôle d’édition est créé mais pas positionné ou affiché. Avant qu’il ne soit affiché, le contrôle Tree-View envoie sa fenêtre parente un \_ Code de notification TVN BEGINLABELEDIT.
 
@@ -65,8 +65,8 @@ Lorsque l’utilisateur annule ou termine la modification, la fenêtre parente r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVN \_ BEGINLABELEDITW** (Unicode) et **TVN \_ BEGINLABELEDITA** (ANSI)<br/>     |
 

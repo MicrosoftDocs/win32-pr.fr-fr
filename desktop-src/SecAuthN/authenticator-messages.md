@@ -1,17 +1,17 @@
 ---
 description: Dans un protocole simple utilisant l’authentification par clé secrète, un client présente un message d’authentificateur sous la forme d’une information chiffrée dans la clé de session.
 ms.assetid: 984c84db-96d5-479e-8917-25a0270b3b59
-title: Messages de l’authentificateur
+title: Authenticator Messages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e76cf171d163ac2f1d0d4a7fcaab53a7fa0ace0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acc21cd87fbf1b725f276f138bcd0bd513658428ddd1296c4016542953bd8b86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035459"
 ---
-# <a name="authenticator-messages"></a>Messages de l’authentificateur
+# <a name="authenticator-messages"></a>Authenticator Messages
 
 Dans un protocole simple utilisant l’authentification par clé secrète, un client présente un message d’authentificateur sous la forme d’une information chiffrée dans la [*clé de session*](/windows/desktop/SecGloss/s-gly). Les informations contenues dans le message de l’authentificateur doivent être différentes chaque fois que le protocole d’authentification est exécuté, ou un message d’authentificateur chiffré peut être réutilisé par une entité non autorisée.
 

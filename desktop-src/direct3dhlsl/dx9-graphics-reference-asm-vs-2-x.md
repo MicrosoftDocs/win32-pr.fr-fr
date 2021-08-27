@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3449ae4c1e1eb3b977916f6fb1d19303e9d21a4e
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: a412c7980ef12bfd8814933cd9d3de07db27fac353a636406e96e1377cd57829
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023969"
 ---
 # <a name="vs_2_x"></a>vs \_ 2 \_ x
 
@@ -33,7 +33,7 @@ La version du nuanceur de sommets vs \_ 2 \_ x étend l’ensemble des fonctionn
 
 Les nouvelles fonctionnalités sont les suivantes :
 
-### <a name="dynamic-flow-control"></a>Contrôle de Flow dynamique
+### <a name="dynamic-flow-control"></a>contrôle de Flow dynamique
 
 Si [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) > 0, les instructions de contrôle de workflow dynamique suivantes sont prises en charge :
 
@@ -48,15 +48,15 @@ Si [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) est également défini,
 -   [callnz prédit-vs](callnz-pred---vs.md)
 -   [breakp-vs](breakp---vs.md)
 
-La plage de valeurs pour la profondeur du contrôle de transmission dynamique est comprise entre 0 et 24 et est égale à la profondeur d’imbrication des instructions de contrôle de Flow dynamique (voir [limites d’imbrication du contrôle de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md) pour plus d’informations). Si cette limite est égale à zéro, l’appareil ne prend pas en charge les instructions de contrôle de Flow dynamique.
+la plage de valeurs pour la profondeur du contrôle de transmission dynamique est comprise entre 0 et 24 et est égale à la profondeur d’imbrication des instructions de contrôle de flow dynamique (pour plus d’informations, consultez [Flow limites d’imbrication des contrôles](dx9-graphics-reference-asm-vs-instructions-flow-control.md) ). Si cette limite est égale à zéro, l’appareil ne prend pas en charge les instructions de contrôle de Flow dynamique.
 
 ### <a name="number-of-temporary-registers"></a>Nombre de registres temporaires
 
 [D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) représente le nombre de [registres temporaires](dx9-graphics-reference-asm-vs-registers-temporary.md)pris en charge par l’appareil. La plage de valeurs de cette limite est comprise entre 12 et 32.
 
-### <a name="static-flow-control-nesting-depth"></a>Profondeur d’imbrication du contrôle de Flow statique
+### <a name="static-flow-control-nesting-depth"></a>profondeur d’imbrication des contrôles de Flow statique
 
-[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) représente la profondeur d’imbrication de deux types d’instructions de contrôle de Flow statique : [Loop-vs](loop---vs.md) / [REP-vs](rep---vs.md) et [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [If bool-vs](if-bool---vs.md). les instructions Loop-vs/REP-VS peuvent être imbriquées jusqu’à D3DVS20CAPS Deep. De manière indépendante, les instructions Call-vs/callnz bool-VS peuvent être imbriquées jusqu’à D3DVS20CAPS Deep. Si D3DVS20CAPS est également défini, [callnz prédit-vs](callnz-pred---vs.md) est compté vers la profondeur d’imbrication de l’appel-vs/callnz bool-vs/if bool-vs (voir [limites d’imbrication du contrôle de Flow](dx9-graphics-reference-asm-vs-instructions-flow-control.md) pour plus d’informations).
+[D3DVS20CAPS](/windows/desktop/direct3d9/d3dvs20caps) représente la profondeur d’imbrication de deux types d’instructions de contrôle de Flow statique : [Loop-vs](loop---vs.md) / [REP-vs](rep---vs.md) et [Call-vs](call---vs.md) / [callnz bool-vs](callnz-bool---vs.md) / [If bool-vs](if-bool---vs.md). les instructions Loop-vs/REP-VS peuvent être imbriquées jusqu’à D3DVS20CAPS Deep. De manière indépendante, les instructions Call-vs/callnz bool-VS peuvent être imbriquées jusqu’à D3DVS20CAPS Deep. si D3DVS20CAPS est également défini, [callnz prédit-vs](callnz-pred---vs.md) est compté vers la profondeur d’imbrication d’call-vs/callnz bool-vs/if bool-vs (voir [Flow limites d’imbrication de contrôle](dx9-graphics-reference-asm-vs-instructions-flow-control.md) pour plus d’informations).
 
 ### <a name="predication"></a>Prédicat
 

@@ -1,19 +1,19 @@
 ---
-description: Le WiExport.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer.
+description: le WiExport.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer.
 ms.assetid: 3ff7bd48-cb22-4d5b-a607-39eaeb67c55b
 title: Exporter des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1512650ee144fc00c2de851051b9bbb4d98a21e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de7cab882778bce6d84412f53987c65211f70f4a8a10b52836ad993d8e813304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044439"
 ---
 # <a name="export-files"></a>Exporter des fichiers
 
-Le WiExport.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). Cet exemple montre comment écrire un script pour exporter des tables dans une base de données Windows Installer. L’exemple de script se connecte à un objet [**installer**](installer-object.md) , ouvre une base de données et exporte des tables vers des fichiers d’archive.
+le WiExport.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). cet exemple montre comment écrire un script pour exporter des tables dans une base de données Windows Installer. L’exemple de script se connecte à un objet [**installer**](installer-object.md) , ouvre une base de données et exporte des tables vers des fichiers d’archive.
 
 L’exemple illustre l’utilisation de :
 
@@ -24,7 +24,7 @@ L’exemple illustre l’utilisation de :
 -   [**Méthode fetch**](view-fetch.md) de l' [ **objet View**](view-object.md)
 -   [**Propriété StringData**](record-stringdata.md) de l' [ **objet record**](record-object.md)
 
-Vous aurez besoin de la version CScript.exe ou WScript.exe de Windows Script Host pour utiliser cet exemple. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une ligne de commande à l’invite de commandes en utilisant la syntaxe suivante. L’aide s’affiche si le premier argument est/ ? ou si le nombre d’arguments spécifié est insuffisant. Pour rediriger la sortie vers un fichier, terminez la ligne de commande avec VBS > \[ *chemin d’accès au fichier* \] . L’exemple retourne la valeur 0 pour Success, 1 si l’aide est appelée, et 2 si le script échoue.
+vous aurez besoin de la version CScript.exe ou WScript.exe de Windows Script Host pour utiliser cet exemple. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une ligne de commande à l’invite de commandes en utilisant la syntaxe suivante. L’aide s’affiche si le premier argument est/ ? ou si le nombre d’arguments spécifié est insuffisant. Pour rediriger la sortie vers un fichier, terminez la ligne de commande avec VBS > \[ *chemin d’accès au fichier* \] . L’exemple retourne la valeur 0 pour Success, 1 si l’aide est appelée, et 2 si le script échoue.
 
 **cscript WiExport.vbs chemin d’accès de la \[ base de données \] \[ aux options du dossier \] \[ liste des noms de \] \[ table\]**
 
@@ -43,7 +43,7 @@ Les options suivantes peuvent être spécifiées n’importe où sur la ligne de
 
  
 
-Pour obtenir des exemples supplémentaires de scripts, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). Pour obtenir des exemples d’utilitaires qui ne nécessitent pas Windows Script Host, consultez [Windows Installer les outils de développement](windows-installer-development-tools.md).
+pour obtenir des exemples supplémentaires de scripts, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md). pour obtenir des exemples d’utilitaires qui ne nécessitent pas Windows hôte de Script, consultez [Windows Installer outils de développement](windows-installer-development-tools.md).
 
  
 

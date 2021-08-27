@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, tâches, à l’aide de RPC/http
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c84551500af712b1126d8f9a65cb3d02eba8c9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2fedeb1700d798a616d3441b356f6f31867eed0399f412ed1f82923bcc4ac5f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101659"
 ---
 # <a name="remote-procedure-calls-using-rpc-over-http"></a>Appels de procédure distante à l’aide de RPC sur HTTP
 
@@ -27,13 +27,13 @@ Cette section fournit une vue d’ensemble de RPC sur HTTP dans les rubriques su
 -   [Sécurité RPC sur HTTP](rpc-over-http-security.md)
 -   [Configuration système requise et interopérabilité pour RPC sur HTTP](system-requirements-and-interoperability-for-rpc-over-http.md)
 -   [Configuration des ordinateurs pour RPC sur HTTP](configuring-computers-for-rpc-over-http.md)
--   [Recommandations relatives au déploiement de RPC sur HTTP](rpc-over-http-deployment-recommendations.md)
+-   [Recommandations de déploiement RPC sur HTTP](rpc-over-http-deployment-recommendations.md)
 
 Pour plus d’informations sur les scénarios RPC sur HTTP volumineux, consultez [équilibrage de charge Microsoft RPC](rpc-load-balancing.md).
 
- 
+ 
 
- 
+ 
 
 
 

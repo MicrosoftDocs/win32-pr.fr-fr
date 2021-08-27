@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27eff7e9a14f39554fa6c1a69846bbaca7c39990
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 66e919ccbdabbb19745b172082eed5cc2b0b8a36555587cda59bd7e24fca3247
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022519"
 ---
 # <a name="cdm_getspec-message"></a>\_Message CDM GETSPEC
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[à partir de Windows Vista, les boîtes de dialogue **ouvrir** et **enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Récupère le nom de fichier (sans le chemin d’accès) du fichier actuellement sélectionné dans une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur. La boîte de dialogue doit avoir été créée avec l’indicateur **OFN \_ Explorer** ; sinon, le message échoue.
 
@@ -54,7 +54,7 @@ Pointeur vers la mémoire tampon qui reçoit le nom de fichier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si le message est correctement exécuté, la valeur de retour est la taille, en caractères, de la chaîne de nom de fichier, y compris le caractère NULL de fin. Il s’agit du nombre d’octets ou de caractères copiés dans la mémoire tampon, ou de la taille de mémoire tampon requise si la mémoire tampon est trop petite.
 
@@ -68,7 +68,7 @@ La macro correspondante est la suivante :
 int CommDlg_OpenSave_GetSpec(hwnd, lparam, wparam); 
 ```
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -84,7 +84,7 @@ int CommDlg_OpenSave_GetSpec(hwnd, lparam, wparam);
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)

@@ -4,12 +4,12 @@ description: Récupère un adaptateur spécifique par index à partir d’un obj
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 5ba03c9e6f2711adc5264354a6abd70ee489965f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96b2973e36c93ca50db273fc28bd0f02cbaf7a48f96e6833af7f14323c7de57d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022129"
 ---
 # <a name="idxcoreadapterlistgetadapter-method"></a>IDXCoreAdapterList :: GetAdapter, méthode
 
@@ -62,7 +62,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_NOINTERFACE|Une valeur non valide a été fournie pour *riid*.|
 |E_POINTER|`nullptr` a été fourni pour *ppvAdapter*.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs appels qui passent un index qui représente le même adaptateur retournent des pointeurs d’interface identiques, y compris entre différentes listes d’adaptateurs. Par conséquent, il est possible de comparer des pointeurs d’interface pour déterminer si plusieurs pointeurs font référence au même objet d’adaptateur.
 

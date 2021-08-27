@@ -4,12 +4,12 @@ ms.assetid: 62645718-5bb8-4692-9e7a-7b448ace61fa
 title: System. ItemAuthors
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da49aa9a965ccf87d1abd7f6edea5767beb7100
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0def7cca911f68ec802b641d23cf8c14070a94f642e793120bcab165fd89a3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091059"
 ---
 # <a name="systemitemauthors"></a>System. ItemAuthors
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

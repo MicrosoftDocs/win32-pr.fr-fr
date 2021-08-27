@@ -4,24 +4,24 @@ ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: Lecture et écriture de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4ea0a8f389f31870b31a0b15480815bdd7cf1f
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: f4b965285e2d8a4666ef86b78cdc5dbb9ed38c55ee7c84b4a93f1dbe80141efa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114929"
 ---
 # <a name="reading-and-writing-metadata"></a>Lecture et écriture de métadonnées
 
-Certains fichiers image contiennent des métadonnées que vous pouvez lire pour déterminer les fonctionnalités de l’image. Par exemple, une photographie numérique peut contenir des métadonnées que vous pouvez lire pour déterminer la marque et le modèle de l’appareil photo utilisé pour capturer l’image. Avec Windows GDI+, vous pouvez lire les métadonnées existantes, et vous pouvez également écrire de nouvelles métadonnées dans des fichiers image.
+Certains fichiers image contiennent des métadonnées que vous pouvez lire pour déterminer les fonctionnalités de l’image. Par exemple, une photographie numérique peut contenir des métadonnées que vous pouvez lire pour déterminer la marque et le modèle de l’appareil photo utilisé pour capturer l’image. avec Windows GDI+, vous pouvez lire les métadonnées existantes et vous pouvez également écrire de nouvelles métadonnées dans des fichiers image.
 
-GDI+ fournit un moyen uniforme de stocker et de récupérer des métadonnées à partir de fichiers image dans différents formats. Dans GDI+, une partie des métadonnées est appelée *élément de propriété*. Vous pouvez stocker et récupérer des métadonnées en appelant les méthodes **SetPropertyItem** et **GetPropertyItem** de la classe [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) , et vous n’avez pas à vous soucier des détails de la façon dont un format de fichier particulier stocke ces métadonnées.
+GDI+ offre un moyen uniforme de stocker et de récupérer des métadonnées à partir de fichiers image dans différents formats. dans GDI+, un élément de métadonnées est appelé *élément de propriété*. Vous pouvez stocker et récupérer des métadonnées en appelant les méthodes **SetPropertyItem** et **GetPropertyItem** de la classe [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) , et vous n’avez pas à vous soucier des détails de la façon dont un format de fichier particulier stocke ces métadonnées.
 
-GDI+ prend actuellement en charge les métadonnées pour les formats de fichier TIFF, JPEG, EXIF et PNG. Le format Exif, qui spécifie comment stocker les images capturées par les appareils photo numériques, s’appuie sur les formats TIFF et JPEG. EXIF utilise le format TIFF pour les données de pixels non compressées et le format JPEG pour les données de pixels compressés.
+GDI+ prend actuellement en charge les métadonnées pour les formats de fichier TIFF, JPEG, Exif et PNG. Le format Exif, qui spécifie comment stocker les images capturées par les appareils photo numériques, s’appuie sur les formats TIFF et JPEG. EXIF utilise le format TIFF pour les données de pixels non compressées et le format JPEG pour les données de pixels compressés.
 
-GDI+ définit un ensemble de balises de propriété qui identifient les éléments de propriété. Certaines balises sont à usage général ; autrement dit, ils sont pris en charge par tous les formats de fichier mentionnés dans le paragraphe précédent. Les autres balises sont à usage spécial et s’appliquent uniquement à certains formats. Si vous essayez d’enregistrer un élément de propriété dans un fichier qui ne prend pas en charge cet élément de propriété, GDI+ ignore la demande. Plus précisément, la méthode [**image :: SetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem) retourne PropertyNotSupported.
+GDI+ définit un ensemble de balises de propriété qui identifient les éléments de propriété. Certaines balises sont à usage général ; autrement dit, ils sont pris en charge par tous les formats de fichier mentionnés dans le paragraphe précédent. Les autres balises sont à usage spécial et s’appliquent uniquement à certains formats. si vous essayez d’enregistrer un élément de propriété dans un fichier qui ne prend pas en charge cet élément de propriété, GDI+ ignore la demande. Plus précisément, la méthode [**image :: SetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-setpropertyitem) retourne PropertyNotSupported.
 
-Vous pouvez déterminer les éléments de propriété qui sont stockés dans un fichier image en appelant [**image :: GetPropertyIdList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist). Si vous essayez de récupérer un élément de propriété qui n’est pas dans le fichier, GDI+ ignore la demande. Plus précisément, la méthode [**image :: GetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem) retourne PropertyNotFound.
+Vous pouvez déterminer les éléments de propriété qui sont stockés dans un fichier image en appelant [**image :: GetPropertyIdList**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyidlist). si vous essayez de récupérer un élément de propriété qui n’est pas dans le fichier, GDI+ ignore la demande. Plus précisément, la méthode [**image :: GetPropertyItem**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-image-getpropertyitem) retourne PropertyNotFound.
 
 ## <a name="reading-metadata-from-a-file"></a>Lecture des métadonnées d’un fichier
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89dee7182cc79684dec1fd052f7ad67409ba513f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f5356757d232570a31f5c8d05e01b695f130a33e34c1c0e98689b1c74feba40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011719"
 ---
 # <a name="actioncollection-object"></a>Objet ActionCollection
 
@@ -42,8 +42,8 @@ L’objet **ActionCollection** a ces méthodes.
 
 | Méthode                                    | Description                                                 |
 |:------------------------------------------|:------------------------------------------------------------|
-| [**Effacé**](actioncollection-clear.md)   | Efface toutes les actions de la collection.<br/>      |
-| [**Créés**](actioncollection-create.md) | Crée et ajoute une nouvelle action à la collection.<br/> |
+| [**Effacer**](actioncollection-clear.md)   | Efface toutes les actions de la collection.<br/>      |
+| [**Créer**](actioncollection-create.md) | Crée et ajoute une nouvelle action à la collection.<br/> |
 | [**Installez**](actioncollection-remove.md) | Supprime une action spécifiée de la collection.<br/>  |
 
 
@@ -58,8 +58,8 @@ L’objet **ActionCollection** a ces propriétés.
 
 | Propriété                                               | Type d’accès           | Description                                                           |
 |:-------------------------------------------------------|:----------------------|:----------------------------------------------------------------------|
-| [**Context**](actioncollection-context.md)<br/> | Lecture/écriture<br/> | Obtient ou définit l’identificateur du principal pour la tâche.<br/> |
-| [**Saut**](actioncollection-count.md)<br/>     | Lecture seule<br/>  | Obtient le nombre d’actions dans la collection.<br/>              |
+| [**Contexte**](actioncollection-context.md)<br/> | Lecture/écriture<br/> | Obtient ou définit l’identificateur du principal pour la tâche.<br/> |
+| [**Count**](actioncollection-count.md)<br/>     | Lecture seule<br/>  | Obtient le nombre d’actions dans la collection.<br/>              |
 | [**Élément**](actioncollection-item.md)<br/>       | Lecture seule<br/>  | Obtient une action spécifiée de la collection.<br/>               |
 | [**XmlText**](actioncollection-xmltext.md)<br/> | Lecture/écriture<br/> | Obtient ou définit une version au format XML de la collection.<br/>   |
 
@@ -67,7 +67,7 @@ L’objet **ActionCollection** a ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML, les actions d’une tâche sont spécifiées dans l’élément [**actions**](taskschedulerschema-actions-tasktype-element.md) du schéma planificateur de tâches.
 
@@ -81,8 +81,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

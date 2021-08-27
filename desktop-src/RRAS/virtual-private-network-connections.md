@@ -4,12 +4,12 @@ description: Le service d’accès à distance (RAS) prend en charge les connexi
 ms.assetid: c1195ebb-3107-4429-bc67-b64577d66268
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09f5fc0b80a6eb00e7587e941eea39c056a11d14
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4fc532d0873a5c3cb4a50552ca267a8a88b305ad855a1588338786881b3af04e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024779"
 ---
 # <a name="virtual-private-network-connections"></a>Connexions de réseau privé virtuel
 
@@ -27,6 +27,6 @@ Si la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) est réus
 
 Dans le scénario précédent, les deux appels à [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) retournent des handles de connexion distincts pour le réseau IP et le VPN. L’appel de [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa) avec le descripteur pour la connexion VPN met fin à la connexion VPN, mais laisse la connexion au réseau IP intacte.
 
- 
+ 
 
- 
+ 

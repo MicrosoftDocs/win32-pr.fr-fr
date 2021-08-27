@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8e2713aaa50206660f7672688a43e644873b1c13
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: a5f7dbc7f4aa4b508d801736529628dbb25c29fb6c37f1db04f91874e85ee9a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023389"
 ---
 # <a name="sv_dispatchthreadid"></a>SV \_ DispatchThreadID
 
@@ -48,7 +48,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domaine | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 

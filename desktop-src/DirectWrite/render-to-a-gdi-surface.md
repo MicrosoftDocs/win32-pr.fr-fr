@@ -4,12 +4,12 @@ description: Rendre sur une surface GDI
 ms.assetid: a6096ff5-1e6e-4edb-b455-ea5d205072ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff292feb2250a4dd81abeb62d8ee48ebfb4488b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 20df241e379e9a133cb662ea141fa27c86a4bb486c8ffba311423cb9afd83fbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048489"
 ---
 # <a name="render-to-a-gdi-surface"></a>Rendre sur une surface GDI
 
@@ -86,6 +86,6 @@ BitBlt(
 
 
 
- 
+ 
 
- 
+ 

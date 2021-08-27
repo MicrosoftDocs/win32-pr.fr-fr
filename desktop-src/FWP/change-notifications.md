@@ -4,12 +4,12 @@ description: Les notifications de modification du moteur de filtrage de base (BF
 ms.assetid: 443f1767-5694-4584-ba0f-229275900774
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c7a3a2069525cc44823ed975fade3b5f100efd8
-ms.sourcegitcommit: 60ad94096619da5476f9bbcd4cc231b40b6f5358
+ms.openlocfilehash: a0038dc851cb15414dbc0180f205104725bf069b599632a93ae6e257fe7a1f84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103940703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078499"
 ---
 # <a name="change-notifications"></a>Notifications de modifications
 
@@ -30,9 +30,9 @@ Les notifications de modification offertes par le BFE sont les suivantes :
 
 Les abonnés ne reçoivent pas de notifications pour les modifications apportées au handle de session qu’ils ont utilisé pour s’abonner. En règle générale, les abonnés doivent être informés uniquement des modifications apportées par d’autres utilisateurs. ils savent déjà quelles modifications ont été apportées à eux-mêmes.
 
- 
+ 
 
- 
+ 
 
 
 

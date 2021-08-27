@@ -1,19 +1,19 @@
 ---
 title: Prise en charge du contenu WPD côté appareil (ContextMenu)
-description: Découvrez comment utiliser l’API shell Windows ou l’API WPD pour obtenir des données pour les objets d’appareil WPD, qui ne sont pas accessibles par le biais du système de fichiers dans Windows Vista.
+description: découvrez comment utiliser l’api de l’interpréteur de commandes Windows ou l’api wpd pour obtenir des données pour les objets d’appareil WPD, qui ne sont pas accessibles via le système de fichiers dans Windows Vista.
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8672793f75df7e1364827e42da4d427013a2dd89bcbb9653d1e74287a63367dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006179"
 ---
 # <a name="supporting-wpd-device-side-content"></a>Prise en charge du contenu WPD côté appareil
 
-Étant donné que le contenu côté appareil n’est pas accessible par le biais du système de fichiers dans Windows Vista, vous devez utiliser l’API shell Windows ou l’API WPD pour récupérer des données pour les objets périphérique. Il s’agit de la principale différence entre un gestionnaire de menu contextuel normal et un gestionnaire de menu contextuel WPD. L’exemple de code suivant illustre la récupération du contenu côté appareil à l’aide de l’API du shell Windows.
+étant donné que le contenu côté appareil n’est pas accessible par le biais du système de fichiers dans Windows Vista, vous devez utiliser l’api Shell Windows ou l’api WPD pour récupérer des données pour les objets périphérique. Il s’agit de la principale différence entre un gestionnaire de menu contextuel normal et un gestionnaire de menu contextuel WPD. l’exemple de code suivant illustre la récupération du contenu côté appareil à l’aide de l’API Windows Shell.
 
 La première étape est l’initialisation de la liste d’identificateurs d’élément ou de PIDL. (Cette liste contient l’identificateur unique pour l’objet d’appareil donné.)
 

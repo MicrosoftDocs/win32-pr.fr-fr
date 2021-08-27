@@ -4,16 +4,16 @@ description: L’interface IVMUSBDevice expose les propriétés suivantes.
 ms.assetid: D542A0BA-0AC0-40E4-B06E-682952DB9DF4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f8b5fc320baae530a34cd180c51c56ff85dbe6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 324c811db3e92cbb0f46f1acbac571ad5d64e76103b2082490fae60309d7107e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006889"
 ---
 # <a name="ivmusbdevice-properties"></a>Propriétés IVMUSBDevice
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 L’interface [**IVMUSBDevice**](ivmusbdevice.md) expose les propriétés suivantes.
 
@@ -26,6 +26,6 @@ L’interface [**IVMUSBDevice**](ivmusbdevice.md) expose les propriétés suivan
 -   [**Propriété ManufacturerString**](ivmusbdevice-manufacturerstring.md)
 -   [**Port, propriété**](ivmusbdevice-port.md)
 
- 
+ 
 
- 
+ 

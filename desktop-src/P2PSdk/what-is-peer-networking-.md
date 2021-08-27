@@ -4,16 +4,16 @@ ms.assetid: d2a43d3b-2782-4777-8c65-05e2c52930d0
 title: Qu’est-ce que le réseau homologue ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c456fac9b7695a2846765ee0ccd38c1e5df646e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6ce2175aa32e37c80c4cde5c231540a48c448360974ecbd022c21eb552ccdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103952024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034099"
 ---
 # <a name="what-is-peer-networking"></a>Qu’est-ce que le réseau homologue ?
 
-Le réseau pair à pair est une technologie de mise en réseau sans serveur qui permet à plusieurs périphériques réseau de partager des ressources et de communiquer directement entre eux. Cette technologie est disponible pour Windows XP avec Service Pack 1 (SP1) et les clients ultérieurs qui exécutent le Pack de mise en réseau avancée pour l’infrastructure d’égal à égal.
+Le réseau pair à pair est une technologie de mise en réseau sans serveur qui permet à plusieurs périphériques réseau de partager des ressources et de communiquer directement entre eux. cette technologie est disponible pour les clients Windows XP avec Service Pack 1 (SP1) et versions ultérieures qui exécutent le Pack de mise en réseau avancée pour l’Infrastructure d’égal à égal.
 
 L’infrastructure d’égal à égal est un ensemble d’API de mise en réseau pour vous aider à développer des applications de mise en réseau décentralisées qui utilisent la puissance collective des ordinateurs sur un réseau. Par exemple, les applications d’égal à égal peuvent être des communications collaboratives, des technologies de distribution de contenu, etc.
 
@@ -40,7 +40,7 @@ L’infrastructure d’égal à égal inclut l' [API graphique](graphing-api.md)
 La gestion distribuée des données stocke automatiquement tous les enregistrements envoyés à un graphique d’égal à égal jusqu’à la date et l’heure d’expiration spécifiées pour chaque enregistrement. La mise en réseau pair à pair garantit que chaque nœud d’un graphique d’égal à égal a une vue similaire de la base de données d’enregistrement. Si un modèle de sécurité est associé à un graphique d’égal à égal, le graphique contient les informations suivantes :
 
 -   Qui peut et ne peut pas se connecter à un graphique
--   Qui peut sécuriser et valider les enregistrements en fonction de critères définis en externe
+-   Qui pouvez sécuriser et valider des enregistrements en fonction de critères définis en externe
 
 ## <a name="secure-peer-identities"></a>Identités d’homologue sécurisées
 
@@ -50,7 +50,7 @@ L’infrastructure d’égal à égal fournit une [API de gestionnaire d’ident
 
 L' [API de regroupement](grouping-api.md) d’égal à égal combine les API de graphiques d’égal à égal, Identity Manager et PNRP pour former une solution cohérente et pratique pour le développement d’applications de réseau pair à pair. L’API de regroupement d’égal à égal utilise l’API du gestionnaire d’identité d’égal à égal et un schéma de certificat auto-signé pour garantir la sécurité au sein de l’infrastructure de graphiques. Chaque groupe peut être résolu et inscrit via PNRP, ce qui permet la résolution de noms d’homologues aléatoires au sein d’un groupe d’égal à égal inscrit. Un groupe peut être un point de terminaison dans PNRP, tout comme un homologue.
 
-Pour obtenir une vue d’ensemble de l’infrastructure d’égal à égal, consultez l’article «[Présentation de la mise en réseau pair à pair de Windows XP](https://www.microsoft.com/windowsxp/pro/techinfo/administration/p2p/introduction.asp)».
+pour obtenir une vue d’ensemble de l’Infrastructure d’égal à égal, consultez l’article «[présentation de la mise en réseau d’égal à égal Windows XP](https://www.microsoft.com/windowsxp/pro/techinfo/administration/p2p/introduction.asp)».
 
 Pour obtenir une vue d’ensemble des API de l’infrastructure d’égal à égal, consultez la rubrique [qu’est-ce que l’infrastructure homologue ?](what-is-the-peer-infrastructure-.md).
 

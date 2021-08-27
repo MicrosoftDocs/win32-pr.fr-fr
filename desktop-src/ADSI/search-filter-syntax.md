@@ -8,12 +8,12 @@ keywords:
 - requêtes, syntaxe de filtre de recherche
 ms.topic: article
 ms.date: 09/25/2020
-ms.openlocfilehash: 28875bd49a3d1df7418c37706e58852066bbe08a
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 9ea6b347da1c840ef6bd1dd32bb32f96e7be86dfb93e6c1e71cdbb06bd52ba97
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106521782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005489"
 ---
 # <a name="search-filter-syntax"></a>Syntaxe de filtre de recherche
 
@@ -246,7 +246,7 @@ Si l’un des caractères spéciaux suivants doit apparaître dans le filtre de 
  
 
 > [!Note]  
-> Dans les cas où un jeu de caractères multioctets est utilisé, les séquences d’échappement listées ci-dessus doivent être utilisées si la recherche est effectuée par ADO avec le dialecte SQL.
+> dans les cas où un jeu de caractères multioctets est utilisé, les séquences d’échappement listées ci-dessus doivent être utilisées si la recherche est effectuée par ADO avec le dialecte SQL.
 
  
 
@@ -259,13 +259,13 @@ En outre, les données binaires arbitraires peuvent être représentées à l’
 [Dialecte LDAP](ldap-dialect.md)
 </dt> <dt>
 
-[Dialecte SQL](sql-dialect.md)
+[dialecte SQL](sql-dialect.md)
 </dt> <dt>
 
 [Recherche avec l’interface IDirectorySearch](searching-with-idirectorysearch.md)
 </dt> <dt>
 
-[Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+[recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 </dt> <dt>
 
 [Recherche avec OLE DB](searching-with-ole-db.md)

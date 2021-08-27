@@ -1,28 +1,28 @@
 ---
 title: Exemple de déclencheur d’inscription (C++)
-description: Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lorsqu’une tâche est inscrite.
+description: cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsqu’une tâche est inscrite.
 ms.assetid: 5e2e8fa6-66c7-4356-8fd6-22f7974791b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090a690601e24e1245040d0e7b394123afa94b07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb9b87f21f2d301bcd500b4f28e41d1e2fada63ddaa8e7c9a4c833c6359f0b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011329"
 ---
 # <a name="registration-trigger-example-c"></a>Exemple de déclencheur d’inscription (C++)
 
-Cet exemple C++ montre comment créer une tâche qui est planifiée pour exécuter le bloc-notes lorsqu’une tâche est inscrite. La tâche contient un déclencheur d’inscription qui spécifie une limite de début et une limite de fin pour la tâche, ainsi qu’un délai pour la tâche. La limite de début spécifie le moment où le déclencheur est activé, et le délai définit la durée entre le moment où la tâche est inscrite et le moment où elle est démarrée. La tâche contient également une action qui spécifie la tâche d’exécution du bloc-notes.
+cet exemple C++ montre comment créer une tâche qui est planifiée pour s’exécuter Bloc-notes lorsqu’une tâche est inscrite. La tâche contient un déclencheur d’inscription qui spécifie une limite de début et une limite de fin pour la tâche, ainsi qu’un délai pour la tâche. La limite de début spécifie le moment où le déclencheur est activé, et le délai définit la durée entre le moment où la tâche est inscrite et le moment où elle est démarrée. la tâche contient également une action qui spécifie la tâche à exécuter Bloc-notes.
 
 > [!Note]  
 > Quand une tâche avec un déclencheur d’inscription est mise à jour, la tâche s’exécute une fois la mise à jour effectuée.
 
- 
+ 
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable lorsque la tâche est inscrite.
 
-**Pour planifier le démarrage du bloc-notes quand une tâche est inscrite**
+**pour planifier le démarrage de Bloc-notes lorsqu’une tâche est inscrite**
 
 1.  Initialiser COM et définir la sécurité générale de COM.
 2.  Créez l’objet [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) . Cet objet vous permet de créer des tâches dans un dossier spécifié.
@@ -32,7 +32,7 @@ La procédure suivante décrit comment planifier une tâche pour démarrer un ex
 6.  Créez une action à exécuter par la tâche à l’aide [**de la propriété actions de ITaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskdefinition-get_actions) pour accéder à l’interface [**IActionCollection**](/windows/desktop/api/taskschd/nn-taskschd-iactioncollection) pour la tâche. Utilisez la méthode [**IActionCollection :: Create**](/windows/desktop/api/taskschd/nf-taskschd-iactioncollection-create) pour spécifier le type d’action que vous souhaitez créer. Cet exemple utilise un objet [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) , qui représente une action qui exécute une opération de ligne de commande.
 7.  Inscrivez la tâche à l’aide de la méthode [**ITaskFolder :: RegisterTaskDefinition**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertaskdefinition) .
 
-L’exemple C++ suivant montre comment planifier une tâche pour exécuter le bloc-notes 30 secondes après l’inscription de la tâche.
+l’exemple C++ suivant montre comment planifier l’exécution d’une tâche Bloc-notes 30 secondes après l’inscription de la tâche.
 
 
 ```C++
@@ -389,9 +389,9 @@ int __cdecl wmain()
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

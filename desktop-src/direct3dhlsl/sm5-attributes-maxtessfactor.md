@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 261ab17bd40c24c19b4b929f2e8307ccc6bb9b56
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b2cb3e946e152d6f79329be01961f6865ccc26f12e3485e05d952b8e39e41a8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120023479"
 ---
 # <a name="maxtessfactor"></a>maxtessfactor
 
@@ -27,7 +27,7 @@ maxtessfactor(X)
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut place une limite supérieure sur la quantité de pavage demandée pour aider un pilote à déterminer la quantité maximale de ressources requises pour le pavage.
 
@@ -35,13 +35,13 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | x    |        |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -53,9 +53,9 @@ Cet attribut est pris en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

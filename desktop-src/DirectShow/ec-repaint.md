@@ -4,12 +4,12 @@ ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba86b54d6d465330ec1635ed7301ce774ef7cb27
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7edd498d84aaace460a10c88d5579c2f5a87bba42e1a5f393786134bbe727af3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102789"
 ---
 # <a name="ec_repaint"></a>redessin ce \_
 
@@ -45,7 +45,7 @@ Si *lParam1* a la **valeur null**, ou si le code PIN ne prend pas en charge [**I
 
 Par défaut, le gestionnaire de graphes de filtre ne transmet pas cet événement à l’application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les convertisseurs vidéo envoient ce message lorsqu’ils reçoivent un message de [**\_ peinture WM**](/windows/desktop/gdi/wm-paint) et n’ont pas de données à afficher.
 
@@ -66,7 +66,7 @@ Les convertisseurs vidéo envoient ce message lorsqu’ils reçoivent un message
 [Codes de notification d’événement](event-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101077
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 19412c1506df5e8c08b241f1713f198b9ecd4c62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ccbf78b1bdf9688f16d1b041697523d6156a2788e027e66def91589975be1aba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066689"
 ---
 # <a name="esentbackupabortbyserverexception-properties"></a>Propriétés EsentBackupAbortByServerException
 
@@ -49,7 +49,7 @@ Le type [EsentBackupAbortByServerException](./esentbackupabortbyserverexception-
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

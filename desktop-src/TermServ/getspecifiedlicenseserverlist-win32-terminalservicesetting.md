@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f70c50281cad7072d420082db0e6916a631e2b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 359d348dc759534d1f3ca070f443f4207aa8ddba0c73ab989d0fa8c0ab5397fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120033749"
 ---
 # <a name="getspecifiedlicenseserverlist-method-of-the-win32_terminalservicesetting-class"></a>Méthode GetSpecifiedLicenseServerList de la \_ classe Win32 TerminalServiceSetting
 

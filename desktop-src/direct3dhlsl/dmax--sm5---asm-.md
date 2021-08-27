@@ -4,12 +4,12 @@ description: Valeur maximale à double précision au niveau du composant.
 ms.assetid: 34ED8B34-2592-4BBB-BCF0-F2222E4D51D9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 703b277a98b16570de6f5ab7e0e7643ddfdcc705
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2b6846da6fbf3ad5d42be5131322e1214fc49fe2627b824775798e4527de3d24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068369"
 ---
 # <a name="dmax-sm5---asm"></a>Dmax (SM5-ASM)
 
@@ -36,7 +36,7 @@ Valeur maximale à double précision au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 NaN a une gestion spéciale. Si un opérande source est NaN, l’autre opérande source est retourné. Le choix est effectué par composant. Si les deux sont NaN, toute représentation NaN est retournée.
 
@@ -50,7 +50,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -64,9 +64,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

@@ -4,12 +4,12 @@ ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: Types vidéo H. 264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 692a751e197e2e7bbb088b30dd2a3f5f199d56de
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 973df2825b0824256e2eb7a1a7f580c5f13bf5cdbb390602175e1319305756b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102761"
 ---
 # <a name="h264-video-types"></a>Types vidéo H. 264
 

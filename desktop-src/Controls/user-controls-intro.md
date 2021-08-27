@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les contrôles personna
 ms.assetid: 220f7058-db04-46d0-acee-ed5e676790b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e82ed9394ec06257e524153b86ef487f4507f35b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 12d1a31a44f1f71d99088f7729c2de6d5fdb597e14507f5f994dfaca1b96613d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059709"
 ---
 # <a name="custom-controls"></a>Contrôles personnalisés
 
@@ -92,7 +92,7 @@ La procédure de fenêtre pour un contrôle défini par l’application doit tra
 
 
 
- 
+ 
 
 Les messages de contrôle définis par l’application sont spécifiques au contrôle donné et doivent être envoyés explicitement au contrôle à l’aide d’une fonction [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) ou [**SendDlgItemMessage**](/windows/desktop/api/winuser/nf-winuser-senddlgitemmessagea) . La valeur numérique de chaque message doit être unique et ne doit pas être en conflit avec les valeurs d’autres messages de fenêtre. Pour s’assurer que les valeurs des messages définis par l’application ne sont pas en conflit, une application doit créer chaque valeur en ajoutant un numéro unique à la valeur de l' [**\_ utilisateur WM**](/windows/desktop/winmsg/wm-user) .
 
@@ -137,7 +137,7 @@ Tous les contrôles communs prennent en charge Microsoft Active Accessibility (M
 
 Les contrôles personnalisés doivent implémenter l’interface [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) (pour prendre en charge MSAA) ou les interfaces UI Automation, ou les deux. Dans le cas contraire, les produits de technologie accessible ne pourront obtenir que des informations très limitées sur la fenêtre de contrôle, n’auront pas accès aux propriétés du contrôle et ne pourront pas déclencher d’événements dans le contrôle.
 
-Pour plus d’informations sur la mise à disposition de votre contrôle, consultez [API Windows Automation](/windows/desktop/WinAuto/windows-automation-api-portal).
+pour plus d’informations sur la mise à disposition de votre contrôle, consultez [Windows API Automation](/windows/desktop/WinAuto/windows-automation-api-portal).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -158,6 +158,6 @@ Pour plus d’informations sur la mise à disposition de votre contrôle, consul
 [Utilisation de styles visuels avec des contrôles Owner-Drawn](using-visual-styles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

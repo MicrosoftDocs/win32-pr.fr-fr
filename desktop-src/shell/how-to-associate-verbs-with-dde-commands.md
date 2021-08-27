@@ -4,16 +4,16 @@ ms.assetid: 65DDD992-5E96-447E-9151-2CCA740822A1
 title: Comment associer des verbes à des commandes DDE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7174a22c993d93c347c8a0368fa7d1798362070f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 216cfca1548ed16dfea2f018fc3a1607d5c29d080f0f54541ace0491813a73d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090579"
 ---
 # <a name="how-to-associate-verbs-with-dde-commands"></a>Comment associer des verbes à des commandes DDE
 
-L’appel d’un verbe lance normalement l’application spécifiée par la sous-clé de commande du verbe. Toutefois, si votre application prend en charge les échange dynamique de données (DDE), vous pouvez à la place demander à l’interpréteur de commandes DDE de lancer une conversation DDE.
+L’appel d’un verbe lance normalement l’application spécifiée par la sous-clé de commande du verbe. toutefois, si votre application prend en charge les échange dynamique de données (DDE), vous pouvez à la place demander à l’interpréteur de commandes dde de lancer une conversation DDE.
 
 Pour spécifier que l’appel d’un verbe doit initier une conversation DDE, procédez comme suit.
 
@@ -27,7 +27,7 @@ Ajoutez une sous-clé **ddeexec** à la clé du verbe.
 
 Définissez la valeur par défaut de **ddeexec** sur la chaîne de commande DDE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La clé **ddeexec** a trois sous-clés facultatives qui fournissent un certain contrôle sur le processus DDE :
 

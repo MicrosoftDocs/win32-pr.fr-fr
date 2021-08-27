@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 451f13bde9458e7d57ec393f42b92a4092c99924
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d507779493563556d250823cc1be0228731c55ced66911b4f530936b75afdf70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071479"
 ---
 # <a name="swbemservicesgetasync-method"></a>SWbemServices. GetAsync, méthode
 
@@ -172,7 +172,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet appel est retourné immédiatement. L’objet et l’État demandés sont retournés à l’appelant via un rappel remis au récepteur spécifié dans *objWbemSink*. Pour traiter l’objet lorsqu’il retourne, créez un *objWbemSink*. [**OnObjectReady**](swbemsink-onobjectready.md), ou *objWbemSink*. Sous-routine d’événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

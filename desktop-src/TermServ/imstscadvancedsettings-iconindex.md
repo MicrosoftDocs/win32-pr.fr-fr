@@ -50,19 +50,19 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be56eab5dbe7f03155c6082e4e70fc4bd439253
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7c1c53a073f218666ab44eb926b9a92f835078c50a88bc488cc1da4b70b056f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125459"
 ---
 # <a name="imstscadvancedsettingsiconindex-property"></a>IMsTscAdvancedSettings :: IndexIcône, propriété
 
 Spécifie l’index de l’icône dans le fichier icône actuel.
 
 > [!Note]  
-> Cette propriété n’est pas prise en charge dans le contrôle ActiveX (MsRdp. ocx). Il est pris en charge dans la bibliothèque MsTscAx.dll incluse dans le client standard (MsTsc.exe).
+> cette propriété n’est pas prise en charge dans le contrôle ActiveX (MsRdp. ocx). Il est pris en charge dans la bibliothèque MsTscAx.dll incluse dans le client standard (MsTsc.exe).
 
  
 
@@ -87,7 +87,7 @@ Index de l’icône.
 
 Retourne **S \_ false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

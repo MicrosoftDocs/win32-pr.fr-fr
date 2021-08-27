@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a95f15f3a62d05b9bc28dc9f50b924979e2b748c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 896aa6db4ce5bf2c0dddf666024c143754afc97ec76bfb557e6431f593689857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106538614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010539"
 ---
 # <a name="stopatdurationend-repetitiontype-element"></a>Élément StopAtDurationEnd (repetitionType)
 
@@ -38,7 +38,7 @@ L’élément **StopAtDurationEnd** est défini par le type complexe [**repetiti
 |-|-|-|
 | [**Répétition**](taskschedulerschema-repetition-triggerbasetype-element.md) | [**repetitionType**](taskschedulerschema-repetitiontype-complextype.md) | Spécifie la fréquence d’exécution de la tâche et la durée de répétition du modèle de répétition après le démarrage de la tâche.<br/> |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, ce paramètre est spécifié à l’aide de la propriété [**RepetitionPattern. StopAtDurationEnd**](repetitionpattern-stopatdurationend.md) .
 
@@ -48,8 +48,8 @@ Pour le développement C++, ce paramètre est spécifié à l’aide de la propr
 
 | Condition requise | Valeur |
 |-|-|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 ## <a name="see-also"></a>Voir aussi
 

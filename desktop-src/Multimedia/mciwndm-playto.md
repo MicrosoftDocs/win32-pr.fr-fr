@@ -3,7 +3,7 @@ title: Message MCIWNDM_PLAYTO (VFW. h)
 description: Le \_ message MCIWNDM point lit le contenu d’un périphérique MCI de la position actuelle à l’emplacement de fin spécifié ou jusqu’à ce qu’une autre commande arrête la lecture.
 ms.assetid: ed940ee7-7b96-47da-99d3-6697f8a2e3d5
 keywords:
-- Message MCIWNDM_PLAYTO Windows Multimedia
+- message MCIWNDM_PLAYTO Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cf0104204dc0306615ead91be036459cdf3c11d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 61004706c8dfacb05ad47c6ddf261ac813d58f5076dfdd4e134896b3f8c646e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037939"
 ---
 # <a name="mciwndm_playto-message"></a>\_Message MCIWNDM point
 
@@ -49,7 +49,7 @@ Emplacement de fin. Les unités de l’emplacement de fin dépendent du format d
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette macro est définie à l’aide des macros [**MCIWndSeek**](/windows/desktop/api/Vfw/nf-vfw-mciwndseek) et [**MCIWndPlayTo**](/windows/desktop/api/Vfw/nf-vfw-mciwndplayto) , qui à leur tour utilisent la commande [MCI \_ Seek](mci-seek.md) et le message **MCIWNDM \_ point** .
 

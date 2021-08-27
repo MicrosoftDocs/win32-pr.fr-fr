@@ -68,16 +68,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a0e7ee1ab0364a31f136f0c0cdbf87f459225b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 21550e0c8872f0d0f8c067b38044a946f10f452d06ca213dea414d34756ce7ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083199"
 ---
 # <a name="wfp-error-codes"></a>Codes d’erreur WFP
 
-Les codes d’erreur spécifiques à la plateforme de filtrage Windows (WFP) sont les suivants.
+Windows Les codes d’erreur spécifiques à la plateforme de filtrage (WFP) sont les suivants.
 
 <dl> <dt>
 
@@ -858,8 +858,8 @@ La transformation de chiffrement IPsec n’est pas valide.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Winerror. h</dt> </dl> |
 
 

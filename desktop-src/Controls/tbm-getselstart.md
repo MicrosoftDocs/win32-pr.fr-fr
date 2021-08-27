@@ -3,7 +3,7 @@ title: Message TBM_GETSELSTART (commctrl. h)
 description: Récupère la position de départ de la plage de sélection actuelle dans un TrackBar.
 ms.assetid: 0000df2a-c40d-40c2-b120-e5d4fe6c5016
 keywords:
-- TBM_GETSELSTART les contrôles de message Windows
+- TBM_GETSELSTART les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0af796c57adb3615241a8f5b702ff58062468509
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a654bfcf8756bee5b39ec9fc97b82ffe84e8e48ba39f4ca2f9fab732d0d1962e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106529078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046419"
 ---
 # <a name="tbm_getselstart-message"></a>\_Message TBM GETSELSTART
 
@@ -39,7 +39,7 @@ Récupère la position de départ de la plage de sélection actuelle dans un Tra
 
 Retourne une valeur 32 bits qui spécifie la position de départ de la plage de sélection actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un TrackBar ne peut avoir une plage de sélection que si vous avez spécifié le style [**tbs \_ ENABLESELRANGE**](trackbar-control-styles.md) quand vous l’avez créé.
 
@@ -49,8 +49,8 @@ Un TrackBar ne peut avoir une plage de sélection que si vous avez spécifié le
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

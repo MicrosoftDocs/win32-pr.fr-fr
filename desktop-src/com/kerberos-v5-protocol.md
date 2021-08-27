@@ -4,12 +4,12 @@ description: Protocole Kerberos V5
 ms.assetid: a53a1edf-f374-4cbf-8050-7cde45284157
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68d78c4bdc457007c04ad66163e2ebfd7f5397f9
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 50a1b739aac67a7a30918e78fa3bb364506ade7dfd720c390db1cc37909f2fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106533553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992459"
 ---
 # <a name="kerberos-v5-protocol"></a>Protocole Kerberos V5
 
@@ -34,9 +34,9 @@ Le protocole d’authentification Kerberos V5 implémenté par WindowsÂ prend e
 [Packages COM et de sécurité](com-and-security-packages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

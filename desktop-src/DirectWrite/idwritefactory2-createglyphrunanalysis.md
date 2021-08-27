@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abd944c45fc271a22a0942556038073ebcc591cc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4ea5c2dc4cb97b1b9ba02e786efc20a4e2a44990b9a1d28b862aeab254079a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048829"
 ---
 # <a name="idwritefactory2createglyphrunanalysis-method"></a>IDWriteFactory2 :: CreateGlyphRunAnalysis, méthode
 
@@ -53,22 +53,22 @@ virtual HRESULT CreateGlyphRunAnalysis(
 *GlyphRun* \[ dans\]
 </dt> <dd>
 
-Type : **const [**DWRITE \_ Glyphs \_ Run**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) \** _
+Type : **const [**DWRITE \_ Glyphs \_ Run**](/windows/win32/api/dwrite/ns-dwrite-dwrite_glyph_run) \***
 
 Structure spécifiant les propriétés de l’exécution du glyphe.
 
 </dd> <dt>
 
-_transform * \[ in, facultatif\]
+*transformation* \[ dans, facultatif\]
 </dt> <dd>
 
-Type : **const [**DWRITE \_ Matrix**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix) \** _
+Type : **const [**DWRITE \_ Matrix**](/windows/win32/api/dwrite/ns-dwrite-dwrite_matrix) \***
 
 Transformation facultative appliquée aux glyphes et à leurs positions. Cette transformation est appliquée après la mise à l’échelle spécifiée par emSize et pixelsPerDip.
 
 </dd> <dt>
 
-_renderingMode * 
+*renderingMode* 
 </dt> <dd>
 
 Type : **\_ \_ mode de rendu DWRITE**
@@ -143,8 +143,8 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                          |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                          |
 | Téléphone minimal pris en charge<br/>  | Windows Phone 8,1 \[ Windows Phone Silverlight 8,1 et applications Windows Runtime\]<br/> |
 | Bibliothèque<br/>                  | <dl> <dt>DWrite. lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

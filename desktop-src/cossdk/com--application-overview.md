@@ -4,12 +4,12 @@ ms.assetid: 82e94acb-e7ce-4423-a720-26ee65d0d7b4
 title: Vue d’ensemble de l’application COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3365e0c0e7598d8f1eb2f466e8a2cea2d93edf4
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 0c964d760b5ba0ef260bc9dcb0658b564a4b211075692ce6301a0445eee0eb7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106522483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119991873"
 ---
 # <a name="com-application-overview"></a>Vue d’ensemble de l’application COM+
 
@@ -23,7 +23,7 @@ En créant des groupes logiques de composants COM en tant qu’applications COM+
 
 -   Une étendue de déploiement pour les composants COM.
 -   Étendue de configuration commune pour les composants COM, y compris les limites de sécurité et la mise en file d’attente.
--   Stockage des attributs de composant non fournis par le développeur de composants (par exemple, transactions et synchronisation).
+-   Stockage d’attributs de composant non fournis par le développeur de composants (par exemple, transactions et synchronisation).
 -   Les bibliothèques de liens dynamiques (dll) du composant sont chargées dans des processus (DLLHost.exe) à la demande.
 -   Processus serveur managés pour héberger des composants.
 -   Création et gestion des threads utilisés par les composants.

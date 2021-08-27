@@ -13,12 +13,12 @@ keywords:
 - messages MIDI individuels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5473d1ab7361c26a922683ed7d5021995b0f13ea
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7d1f73d0956004f90644ce2e8b0e41b368137a7b61fd04e6d17302619980336d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106545743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037449"
 ---
 # <a name="sending-individual-midi-messages"></a>Envoi de messages MIDI individuels
 
@@ -34,10 +34,10 @@ Vous pouvez utiliser des messages MIDI individuels à l’aide des fonctions sui
 
 
 
- 
+ 
 
 Pour envoyer un message MIDI (à l’exception des messages système exclusifs), utilisez [**midiOutShortMsg**](/windows/win32/api/mmeapi/nf-mmeapi-midioutshortmsg).
 
- 
+ 
 
- 
+ 
