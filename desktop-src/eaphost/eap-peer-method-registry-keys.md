@@ -4,12 +4,12 @@ description: En savoir plus sur les valeurs de Registre spécifiques requises po
 ms.assetid: 16bdd6bf-9eab-40a8-a2d3-8942d2f5f37a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2a1092b743ae0568093a563e318c3a3d24761bb634fdcfb2780c6c681fe7322
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ee42360689a74b3cd11628e6114e80532000b95f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984249"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476635"
 ---
 # <a name="eap-peer-method-registry-values"></a>Valeurs de registre de la méthode d’homologue EAP
 
@@ -145,32 +145,12 @@ Les valeurs de registre de la méthode d’homologue AP suivantes sont facultati
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur constante</th>
-<th>PeerInvokeUsernameDialog</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Type</td>
-<td>REG_DWORD</td>
-</tr>
-<tr class="even">
-<td>Description</td>
-<td><ul>
-<li>1-pour récupérer les informations d’identification à l’aide de la boîte de dialogue générique EAPHost User Name.</li>
-<li>0-pour utiliser une boîte de dialogue personnalisée.</li>
-</ul>
-Si la boîte de dialogue générique est utilisée, les informations d’identification sont définies par la méthode [<strong>EapPeerSetCredentials</strong>] (/Previous-versions/Windows/Desktop/API/eapmethodpeerapis/NF-eapmethodpeerapis-eappeersetcredentials).</td>
-</tr>
-</tbody>
-</table>
+
+| Valeur constante | PeerInvokeUsernameDialog | 
+|----------------|--------------------------|
+| Type | REG_DWORD | 
+| Description | <ul><li>1-pour récupérer les informations d’identification à l’aide de la boîte de dialogue générique EAPHost User Name.</li><li>0-pour utiliser une boîte de dialogue personnalisée.</li></ul>Si la boîte de dialogue générique est utilisée, les informations d’identification sont définies par la méthode [<strong>EapPeerSetCredentials</strong>](/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeersetcredentials) . | 
+
 
 
 

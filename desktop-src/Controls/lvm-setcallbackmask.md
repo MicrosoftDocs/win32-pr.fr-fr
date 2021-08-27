@@ -3,7 +3,7 @@ title: Message LVM_SETCALLBACKMASK (commctrl. h)
 description: Modifie le masque de rappel pour un contrôle List-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetCallbackMask.
 ms.assetid: d7828bab-9897-408c-99ca-fad42b431be8
 keywords:
-- LVM_SETCALLBACKMASK les contrôles de message Windows
+- LVM_SETCALLBACKMASK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef6dd46228c4e4aeada30f469a77f9e67aff3a37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79e33b106eb0c59f83e40b9f170dd017fcdda412072ed51a26572fcf368f5215
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088849"
 ---
 # <a name="lvm_setcallbackmask-message"></a>\_Message SETCALLBACKMASK LVM
 
@@ -58,7 +58,7 @@ Valeur du masque de rappel. Les bits du masque indiquent les États ou images d�
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le *masque de rappel* d’un contrôle List-View est un jeu d’indicateurs binaires qui spécifient les États de l’élément pour lesquels l’application, plutôt que le contrôle, stocke les données actuelles. Le masque de rappel s’applique à tous les éléments du contrôle, contrairement à la désignation de l’élément de rappel, qui s’applique à un élément spécifique. Le masque de rappel a la valeur zéro par défaut, ce qui signifie que le contrôle List-View stocke toutes les informations sur l’état de l’élément. Après avoir créé un contrôle List-View et initialisé ses éléments, vous pouvez envoyer le **message \_ SETCALLBACKMASK LVM** pour modifier le masque de rappel. Pour récupérer le masque de rappel actuel, envoyez le message [**\_ GETCALLBACKMASK LVM**](lvm-getcallbackmask.md) .
 
@@ -72,8 +72,8 @@ Pour plus d’informations sur les rappels de vue de liste, consultez [élément
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

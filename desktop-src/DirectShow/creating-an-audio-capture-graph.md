@@ -1,29 +1,29 @@
 ---
-description: Création d’un graphique de capture audio
+description: Création d’un Graph de capture audio
 ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
-title: Création d’un graphique de capture audio
+title: Création d’un Graph de capture audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bd3c731a7dc498fcb7180bc56ae6a7f94dbec6d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8ff89cff8662bb5da81860053221596b18e89ab2300134cf2ff8826ae99b787
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108219"
 ---
-# <a name="creating-an-audio-capture-graph"></a>Création d’un graphique de capture audio
+# <a name="creating-an-audio-capture-graph"></a>Création d’un Graph de capture audio
 
 La première étape pour une application de capture audio consiste à créer un graphique de filtre. La configuration du graphique dépend du type de fichier que vous souhaitez créer.
 
 -   Fichier AVI audio uniquement : filtre de capture audio vers un filtre [multiplex MUX](avi-mux-filter.md) et le filtre AVI MUX en [writer de fichier](file-writer-filter.md) .
 -   Fichier WAV : filtre de capture audio de l' [exemple de filtre Wavdest](wavdest-filter-sample.md) au filtre de writer de fichier
--   Fichier Windows Media Audio (. WMA) : filtre de capture audio pour le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) .
+-   Windows Fichier audio multimédia (. WMA) : filtre de capture audio pour le filtre d' [enregistreur ASF WM](wm-asf-writer-filter.md) .
 
 Le filtre WavDest est fourni en tant qu’exemple du kit de développement logiciel (SDK). Pour l’utiliser, vous devez générer et inscrire le filtre.
 
-Pour utiliser le filtre de l’enregistreur ASF, vous devez installer le kit de développement logiciel (SDK) Windows Media et obtenir une clé logicielle pour déverrouiller le filtre. Pour plus d’informations, consultez [utilisation de Windows Media dans DirectShow](using-windows-media-in-directshow.md).
+pour utiliser le filtre de l’enregistreur ASF, vous devez installer le kit de développement logiciel (SDK) Windows Media et obtenir une clé logicielle pour déverrouiller le filtre. pour plus d’informations, consultez [utilisation du média Windows dans DirectShow](using-windows-media-in-directshow.md).
 
-Vous pouvez générer le graphique de filtre à l’aide de l’objet de [Générateur de graphiques de capture](capture-graph-builder.md) , ou vous pouvez générer le graphique « manuellement ». autrement dit, l’application doit-elle ajouter et connecter chaque filtre par programmation. Cet article décrit l’approche manuelle. Pour plus d’informations sur l’utilisation du générateur de graphiques de capture, consultez [Video capture](video-capture.md). La plupart des informations contenues dans cet article s’appliquent aux graphiques audio uniquement.
+vous pouvez générer le graphique de filtre à l’aide de l’objet [capturer Graph générateur](capture-graph-builder.md) , ou vous pouvez générer le graphique « manuellement ». autrement dit, l’application doit-elle ajouter et connecter chaque filtre par programmation. Cet article décrit l’approche manuelle. pour plus d’informations sur l’utilisation du générateur de Graph de capture, consultez [capture vidéo](video-capture.md). La plupart des informations contenues dans cet article s’appliquent aux graphiques audio uniquement.
 
 Ajout du périphérique de capture audio
 
@@ -33,7 +33,7 @@ L’énumérateur de périphérique système retourne la liste des monikers pour
 
 Pour plus d’informations, consultez [utilisation de l’énumérateur de périphérique système](using-the-system-device-enumerator.md).
 
-Pour spécifier l’entrée à partir de laquelle effectuer la capture, obtenez l’interface [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) à partir du filtre de capture audio et appelez la méthode **put \_ Enable** pour spécifier l’entrée. Toutefois, une limitation de cette méthode est que différents périphériques matériels peuvent utiliser des chaînes différentes pour identifier leurs entrées. Par exemple, une carte peut utiliser le « microphone » pour identifier l’entrée microphone et une autre carte peut utiliser « MIC ». Pour déterminer l’identificateur de chaîne pour une entrée donnée, utilisez les fonctions multimédias de Windows [**waveOutOpen**](/previous-versions//dd743866(v=vs.85)), [**mixerOpen**](/previous-versions//dd757308(v=vs.85))et [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85)). Pour plus d’informations, consultez la rubrique MSDN consacrée aux [requêtes de périphérique](/windows/desktop/Multimedia/mixer-device-queries) .
+Pour spécifier l’entrée à partir de laquelle effectuer la capture, obtenez l’interface [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) à partir du filtre de capture audio et appelez la méthode **put \_ Enable** pour spécifier l’entrée. Toutefois, une limitation de cette méthode est que différents périphériques matériels peuvent utiliser des chaînes différentes pour identifier leurs entrées. Par exemple, une carte peut utiliser le « microphone » pour identifier l’entrée microphone et une autre carte peut utiliser « MIC ». pour déterminer l’identificateur de chaîne pour une entrée donnée, utilisez les fonctions multimédias Windows [**waveOutOpen**](/previous-versions//dd743866(v=vs.85)), [**mixerOpen**](/previous-versions//dd757308(v=vs.85))et [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85)). pour plus d’informations, consultez la rubrique MSDN [Mixer les requêtes d’appareil](/windows/desktop/Multimedia/mixer-device-queries) .
 
 Ajout du multiplexeur et du writer de fichier
 
@@ -89,7 +89,7 @@ hr = ConnectFilters(pGraph, pWaveDest, pWriter);
 
 
 
-Cet exemple utilise la `AddFilterByCLSID` fonction décrite dans [Ajouter un filtre par CLSID](add-a-filter-by-clsid.md)et la `ConnectFilters` fonction décrite dans [connecter deux filtres](connect-two-filters.md). Aucun de ces n’est une API DirectShow.
+cet exemple utilise la `AddFilterByCLSID` fonction décrite dans [ajouter un filtre par CLSID](add-a-filter-by-clsid.md)et la `ConnectFilters` fonction décrite dans [Connecter deux filtres](connect-two-filters.md). aucun de ces deux n’est une API DirectShow.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

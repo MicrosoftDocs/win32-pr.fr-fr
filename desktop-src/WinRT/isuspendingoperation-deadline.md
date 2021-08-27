@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Windows.ApplicationModel.h
-ms.openlocfilehash: 305610108b7a138693ccdce97e35ddbe90451806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 448f4d89ec2f1b7e3f68255897b32b3f4cba2ec753ae8f6cc7751c9041b01266
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121499"
 ---
 # <a name="isuspendingoperationdeadline-property"></a>ISuspendingOperation ::D propriété échéanc
 

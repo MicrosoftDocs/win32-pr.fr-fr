@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2fbfd3fb31567ea73b8266b5aeba506d62be7714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e737d6fe31dde43eeba7526e740ec096db20abc9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536532"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466206"
 ---
 # <a name="jetossnapshotgetfreezeinfo-function"></a>JetOSSnapshotGetFreezeInfo fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetossnapshotgetfreezeinfo-function"></a>JetOSSnapshotGetFreezeInfo fonction)
 
 La fonction **JetOSSnapshotGetFreezeInfo** récupère la liste des instances et des bases de données qui font partie de la session d’instantané à un moment donné.
 
-**Windows Vista :**  **JetOSSnapshotGetFreezeInfo** est introduit dans Windows Vista.
+**Windows vista :****JetOSSnapshotGetFreezeInfo** est introduit dans Windows vista.  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotGetFreezeInfo(
@@ -67,42 +67,17 @@ Options pour cet appel. Ce paramètre est réservé à un usage futur. La seule 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>La fonction a échoué en raison d’une condition de mémoire insuffisante.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p><em>pcInstanceInfo</em> ou <em>PaInstanceInfo</em> a la <strong>valeur null</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
-<td><p>L’identificateur de la session d’instantané n’est pas valide.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>Une session d’instantané n’est pas en cours.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>La fonction a échoué en raison d’une condition de mémoire insuffisante.</p> | 
+| <p>JET_errInvalidParameter</p> | <p><em>pcInstanceInfo</em> ou <em>PaInstanceInfo</em> a la <strong>valeur null</strong>.</p> | 
+| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>L’identificateur de la session d’instantané n’est pas valide.</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>Une session d’instantané n’est pas en cours.</p> | 
+
 
 
 Si cette fonction est réussie, les informations d’instance sont correctement remplies et doivent être libérées ultérieurement en appelant [JetFreeBuffer](./jetfreebuffer-function.md) avec le pointeur vers le tableau d’informations d’instance retourné.
@@ -111,44 +86,15 @@ Si cette fonction échoue, aucune modification de l’état du moteur ne se prod
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetOSSnapshotGetFreezeInfoW</strong> (Unicode) et <strong>JetOSSnapshotGetFreezeInfoA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetOSSnapshotGetFreezeInfoW</strong> (Unicode) et <strong>JetOSSnapshotGetFreezeInfoA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi
 
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)  
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [JetFreeBuffer](./jetfreebuffer-function.md)  
 [JetOSSnapshotAbort](./jetossnapshotabort-function.md)  

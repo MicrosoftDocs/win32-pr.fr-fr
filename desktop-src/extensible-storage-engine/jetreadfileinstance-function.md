@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ec5c83bb78528a61bbe7af9bafa59567100ee9da669915b96230bfb97b8bf390
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 860aa0ab1b11107d4724f86689e2fd999921b027
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117891115"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477865"
 ---
 # <a name="jetreadfileinstance-function"></a>Fonction JetReadFileInstance
 
@@ -76,73 +76,22 @@ Quantité réelle de données de fichier récupérées.
 
 cette fonction facilite le retour de tout [JET_ERR](./jet-err.md) types de données définis dans l’API ese (Extensible Stockage Engine). pour plus d’informations sur les erreurs JET, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupAbortByServer</p></td>
-<td><p>L’opération a échoué, car la sauvegarde externe actuelle a été abandonnée par un appel à la fonction <a href="gg269240(v=exchg.10).md">JetStopService</a> . cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a cessé à la suite d’un appel à la fonction <a href="gg269240(v=exchg.10).md">JetStopService</a> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable nécessitant que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres spécifiés contient une valeur inattendue ou une valeur qui n’a pas de sens lorsqu’elle est associée à la valeur d’un autre paramètre. Cela peut se produire pour la fonction <strong>JetReadFileInstance</strong> lorsque l’un des éléments suivants se produit :</p>
-<ul>
-<li><p>Le handle d’instance spécifié n’est pas valide. Windows XP et versions ultérieures Windows.</p></li>
-<li><p>La taille de la mémoire tampon de sortie n’est pas un multiple de la taille de page de la base de données (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>). Windows XP et versions ultérieures Windows.</p></li>
-<li><p>La taille de la mémoire tampon de sortie est inférieure à trois pages de base de données (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>), et il s’agit du premier appel à la fonction <strong>JetReadFileInstance</strong> pour le handle spécifié. Windows XP et versions ultérieures Windows.</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLogReadVerifyFailure</p></td>
-<td><p>L’opération a échoué car une altération des données irrécupérable a été détectée lors de la lecture d’un fichier journal de transactions. cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNoBackup</p></td>
-<td><p>L’opération a échoué, car aucune sauvegarde externe n’est en cours.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à cette session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errReadVerifyFailure</p></td>
-<td><p>L’opération a échoué car une altération des données irrécupérable a été détectée lors de la lecture d’une page de base de données à partir d’un fichier de base de données ou d’un fichier correctif</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à cette session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>l’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (Windows mode de compatibilité 2000) dans le cas où une seule instance est prise en charge, alors que plusieurs instances existent déjà.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à cette session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Signification</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBackupAbortByServer</p> | <p>L’opération a échoué, car la sauvegarde externe actuelle a été abandonnée par un appel à la fonction <a href="gg269240(v=exchg.10).md">JetStopService</a> . cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a cessé à la suite d’un appel à la fonction <a href="gg269240(v=exchg.10).md">JetStopService</a> .</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable nécessitant que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>L’un des paramètres spécifiés contient une valeur inattendue ou une valeur qui n’a pas de sens lorsqu’elle est associée à la valeur d’un autre paramètre. Cela peut se produire pour la fonction <strong>JetReadFileInstance</strong> lorsque l’un des éléments suivants se produit :</p><ul><li><p>Le handle d’instance spécifié n’est pas valide. Windows XP et versions ultérieures Windows.</p></li><li><p>La taille de la mémoire tampon de sortie n’est pas un multiple de la taille de page de la base de données (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>). Windows XP et versions ultérieures Windows.</p></li><li><p>La taille de la mémoire tampon de sortie est inférieure à trois pages de base de données (<a href="gg269337(v=exchg.10).md">JET_paramDatabasePageSize</a>), et il s’agit du premier appel à la fonction <strong>JetReadFileInstance</strong> pour le handle spécifié. Windows XP et versions ultérieures Windows.</p></li></ul> | 
+| <p>JET_errLogReadVerifyFailure</p> | <p>L’opération a échoué car une altération des données irrécupérable a été détectée lors de la lecture d’un fichier journal de transactions. cette erreur est renvoyée uniquement par les versions de Windows XP et versions ultérieures Windows.</p> | 
+| <p>JET_errNoBackup</p> | <p>L’opération a échoué, car aucune sauvegarde externe n’est en cours.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à cette session n’a pas encore été initialisée.</p> | 
+| <p>JET_errReadVerifyFailure</p> | <p>L’opération a échoué car une altération des données irrécupérable a été détectée lors de la lecture d’une page de base de données à partir d’un fichier de base de données ou d’un fichier correctif</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à cette session.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>l’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (Windows mode de compatibilité 2000) dans le cas où une seule instance est prise en charge, alors que plusieurs instances existent déjà.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à cette session est en cours d’arrêt.</p> | 
+
 
 
 En cas de réussite, le segment de données suivant du fichier est lu dans la mémoire tampon de sortie. Le nombre réel d’octets récupérés est également retourné. Le décalage de fichier à partir duquel la lecture suivante aura lieu sera avancé par ce montant.
@@ -167,34 +116,9 @@ La corruption des données est détectée par le moteur de base de données via 
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>requiert Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>Serveur</p></td>
-<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p>En-tête</p></td>
-<td><p>Est déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Bibliothèque</p></td>
-<td><p>Utilise ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Client</p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p>Serveur</p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

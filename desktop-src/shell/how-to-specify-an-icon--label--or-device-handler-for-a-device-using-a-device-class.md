@@ -4,12 +4,12 @@ ms.assetid: E32C1BA6-B520-4809-A9E9-48813C7EBAA4
 title: Comment spécifier une icône, une étiquette ou un gestionnaire de périphériques pour un appareil à l’aide d’une classe d’appareil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46f81ee6fa469a6bec13abbc1d8a088f5fb334ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 26ef06228d9b533f2793384c0053017f06aca72d05bd64c5333aa2aadca48dcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111769"
 ---
 # <a name="how-to-specify-an-icon-label-or-device-handler-for-a-device-using-a-device-class"></a>Comment spécifier une icône, une étiquette ou un gestionnaire de périphériques pour un appareil à l’aide d’une classe d’appareil
 

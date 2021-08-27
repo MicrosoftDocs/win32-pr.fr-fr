@@ -3,7 +3,7 @@ title: Message SB_SIMPLE (commctrl. h)
 description: Spécifie si une fenêtre d’état affiche du texte simple ou affiche toutes les parties de fenêtre définies par un \_ message SB SETPARTS précédent.
 ms.assetid: 457209cb-67d4-4a9f-8d18-75aa5eb9ca1d
 keywords:
-- SB_SIMPLE les contrôles de message Windows
+- SB_SIMPLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7a462a917c86531cd70f5f5c8ea60bf448ff6f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 229f0a896c9adcab6886151753761c62aefb8f4dc6ee21b7e85bb7507bda11f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132209"
 ---
 # <a name="sb_simple-message"></a>\_Message simple SB
 
@@ -43,7 +43,7 @@ Indicateur de type d’affichage. Si ce paramètre a la **valeur true**, la fen�
 
 La valeur de retour n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la fenêtre d’état passe de non simple à simple, ou vice versa, la fenêtre est immédiatement redessinée.
 
@@ -53,8 +53,8 @@ Si la fenêtre d’état passe de non simple à simple, ou vice versa, la fenêt
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

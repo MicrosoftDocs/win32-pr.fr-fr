@@ -1,20 +1,20 @@
 ---
-description: Vous pouvez déclarer une instance de base d’une classe dans le service de gestion Windows à l’aide d’format MOF (MOF). Vous pouvez également remplacer les valeurs par défaut d’une instance. Pour plus d’informations, consultez Définition d’une valeur de propriété d’instance.
+description: vous pouvez déclarer une instance de base d’une classe dans le service de gestion Windows à l’aide de format MOF (MOF). Vous pouvez également remplacer les valeurs par défaut d’une instance. Pour plus d’informations, consultez Définition d’une valeur de propriété d’instance.
 ms.assetid: 12eda062-9614-455d-ae99-7706c685137b
 ms.tgt_platform: multiple
 title: Création d’une instance à l’aide de MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5078c5fcddaab4e8437a33e8cb3210d515360fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05290fd02de80a905e74eeddeb1a04f316901209a97e0e298d038ac2f8888552
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106522686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097319"
 ---
 # <a name="creating-an-instance-using-mof"></a>Création d’une instance à l’aide de MOF
 
-Vous pouvez déclarer une instance de base d’une classe dans le service de gestion Windows à l’aide d’format MOF (MOF). Vous pouvez également remplacer les valeurs par défaut d’une instance. Pour plus d’informations, consultez [définition d’une valeur de propriété d’instance](#setting-an-instance-property-value).
+vous pouvez déclarer une instance de base d’une classe dans le service de gestion Windows à l’aide de format MOF (MOF). Vous pouvez également remplacer les valeurs par défaut d’une instance. Pour plus d’informations, consultez [définition d’une valeur de propriété d’instance](#setting-an-instance-property-value).
 
 La procédure suivante décrit comment déclarer une instance de base d’une classe à l’aide de code MOF.
 

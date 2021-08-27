@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 619a034e0a2f89270d21bf0c4fc297b4248cef59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee7540a93e5172ac45fe57527eaa4a105af82e7ad8f73b4a3a25a9fe356ed688
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099489"
 ---
 # <a name="getstringproperty-method-of-the-win32_rdshserver-class"></a>Méthode GetStringProperty de la \_ classe RDSHServer Win32
 

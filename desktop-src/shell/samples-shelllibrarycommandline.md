@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c9db182498791fee344061c91ea570ed770f3a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e85595de3e7dab60be7741f95598f5d4e4d53276d5eff62f499874dea79bb99e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104485769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111189"
 ---
 # <a name="shell-library-command-line-sample"></a>Ligne de commande de bibliothèque Shell, exemple
 
@@ -22,12 +22,12 @@ Montre comment utiliser l’interface [**IShellLibrary**](/windows/desktop/api/s
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

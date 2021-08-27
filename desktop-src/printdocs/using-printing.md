@@ -1,35 +1,35 @@
 ---
-description: Cette section décrit comment imprimer à partir d’un programme de bureau Windows natif.
+description: cette section décrit comment imprimer à partir d’un programme de bureau Windows natif.
 ms.assetid: C1EDBE38-9D18-41BB-961C-12CF2283C639
 title: Impression d’applications de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbecbac997d000f50e7c912e57be42cc8fe239b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bf5e0ebab666258f62b1e6bb87497d38a1b521fdde9a7668bb28e3bb3e9868e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112109"
 ---
 # <a name="desktop-app-printing"></a>Impression d’applications de bureau
 
-Cette section décrit comment imprimer à partir d’un programme de bureau Windows natif.
+cette section décrit comment imprimer à partir d’un programme de bureau Windows natif.
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Pour offrir une expérience utilisateur optimale lorsque vous imprimez à partir d’un programme Windows natif, le programme doit être conçu pour imprimer à partir d’un thread dédié. Dans un programme Windows natif, le programme est responsable de la gestion des événements et des messages de l’interface utilisateur. Les opérations d’impression peuvent nécessiter des périodes de calcul intense lorsque le contenu de l’application est rendu pour l’imprimante, ce qui peut empêcher le programme de répondre à l’interaction de l’utilisateur si ce traitement est effectué dans le même thread que le traitement des événements de l’interaction de l’utilisateur.
+pour offrir une expérience utilisateur optimale lorsque vous imprimez à partir d’un programme de Windows natif, le programme doit être conçu pour imprimer à partir d’un thread dédié. dans un programme Windows natif, le programme est responsable de la gestion des événements et des messages de l’interface utilisateur. Les opérations d’impression peuvent nécessiter des périodes de calcul intense lorsque le contenu de l’application est rendu pour l’imprimante, ce qui peut empêcher le programme de répondre à l’interaction de l’utilisateur si ce traitement est effectué dans le même thread que le traitement des événements de l’interaction de l’utilisateur.
 
-Si vous êtes déjà familiarisé avec l’écriture d’un programme Windows natif multithread, passez directement à [la rubrique Comment imprimer à partir d’une application Windows](how-to--print-from-a-windows-application.md) et comment ajouter des fonctionnalités d’impression à votre programme.
+si vous êtes déjà familiarisé avec l’écriture d’un programme de Windows natif multithread, vous accédez directement à [la page d’impression à partir d’une application Windows](how-to--print-from-a-windows-application.md) et apprenez à ajouter des fonctionnalités d’impression à votre programme.
 
-### <a name="basic-windows-program-requirements"></a>Configuration de base des programmes Windows
+### <a name="basic-windows-program-requirements"></a>conditions requises pour le programme Windows de base
 
 Pour optimiser les performances et la réactivité du programme, n’effectuez pas le traitement du travail d’impression d’un programme dans le thread qui traite l’interaction de l’utilisateur.
 
 Cette séparation de l’interaction de l’utilisateur influencera la manière dont le programme gère les données d’application. Vous devez parfaitement comprendre ces implications avant de commencer à écrire l’application. Les rubriques suivantes décrivent les exigences de base de la gestion de l’impression dans un thread distinct d’un programme.
 
-### <a name="windows-program-basics"></a>Notions de base des programmes Windows
+### <a name="windows-program-basics"></a>Windows Concepts de base du programme
 
-Un programme Windows natif doit fournir la procédure de fenêtre principale pour traiter les messages de fenêtre qu’il reçoit du système d’exploitation. Chaque fenêtre d’un programme Windows dispose d’une fonction **WndProc** correspondante qui traite ces messages de fenêtre. Le thread dans lequel cette fonction s’exécute est appelé le thread de l’interface utilisateur ou de l’interface utilisateur.
+un programme de Windows natif doit fournir la procédure de fenêtre principale pour traiter les messages de fenêtre qu’il reçoit du système d’exploitation. chaque fenêtre d’un Windows programme a une fonction **WndProc** correspondante qui traite ces messages de fenêtre. Le thread dans lequel cette fonction s’exécute est appelé le thread de l’interface utilisateur ou de l’interface utilisateur.
 
 **Utilisez des ressources pour les chaînes.**  
 Utilisez des ressources de type chaîne à partir du fichier de ressources du programme plutôt que des constantes de chaîne pour les chaînes qui devront peut-être être modifiées lorsque vous prenez en charge un autre langage. Pour qu’un programme puisse utiliser une ressource de type chaîne comme chaîne, le programme doit récupérer la ressource à partir du fichier de ressources et la copier dans une mémoire tampon locale. Cela nécessite une programmation supplémentaire au début, mais permet une modification, une traduction et une localisation plus faciles du programme à l’avenir.  
@@ -120,12 +120,12 @@ wWinMain(
 
 ### <a name="document-information"></a>Informations sur le document
 
-Les programmes Windows natifs qui impriment doivent être conçus pour le traitement multithread. L’une des exigences d’une conception multithread consiste à protéger les éléments de données du programme afin qu’ils puissent être utilisés simultanément par plusieurs threads. Vous pouvez protéger les éléments de données en utilisant des objets de synchronisation et en organisant les données pour éviter les conflits entre les threads. En même temps, le programme doit empêcher toute modification des données du programme pendant son impression. L’exemple de programme utilise plusieurs techniques de programmation multithread différentes.
+les programmes de Windows natifs qui impriment doivent être conçus pour le traitement multithread. L’une des exigences d’une conception multithread consiste à protéger les éléments de données du programme afin qu’ils puissent être utilisés simultanément par plusieurs threads. Vous pouvez protéger les éléments de données en utilisant des objets de synchronisation et en organisant les données pour éviter les conflits entre les threads. En même temps, le programme doit empêcher toute modification des données du programme pendant son impression. L’exemple de programme utilise plusieurs techniques de programmation multithread différentes.
 
  **Événements de synchronisation**  
 L’exemple de programme utilise des événements, des handles de thread et des fonctions Wait pour synchroniser le traitement entre le thread d’impression et le programme principal et pour indiquer que les données sont en cours d’utilisation.  
-**Messages Windows spécifiques à l’application**  
-L’exemple de programme utilise des messages de fenêtre spécifiques à l’application pour rendre le programme plus compatible avec d’autres programmes Windows natifs. Le fractionnement du traitement en étapes plus petites et la mise en file d’attente de ces étapes dans la boucle de message de fenêtre permet à Windows de gérer plus facilement le traitement sans bloquer d’autres applications qui peuvent également s’exécuter sur l’ordinateur.  
+**Messages de Windows spécifiques à l’Application**  
+l’exemple de programme utilise des messages de fenêtre spécifiques à l’application pour rendre le programme plus compatible avec d’autres programmes de Windows natifs. le fractionnement du traitement en étapes plus petites et la mise en file d’attente de ces étapes dans la boucle de message de fenêtre facilitent la gestion du traitement par Windows, sans bloquer d’autres applications qui peuvent également s’exécuter sur l’ordinateur.  
 **Structures de données**  
 L’exemple de programme n’est pas écrit dans un style orienté objet à l’aide d’objets et de classes, bien qu’il regroupe des éléments de données dans des structures de données. L’exemple n’utilise pas une approche orientée objet pour éviter d’impliquer qu’une approche est mieux ou pire qu’une autre.  
 Vous pouvez utiliser les fonctions et les structures de données de l’exemple de programme comme point de départ lors de la conception de votre programme. Que vous décidiez de concevoir un programme orienté objet ou non, il est important de se rappeler que vous devez regrouper les éléments de données associés afin de pouvoir les utiliser en toute sécurité dans différents threads si nécessaire.  
@@ -139,7 +139,7 @@ Lors de l’impression, vous souhaiterez peut-être afficher le contenu à impri
 
 
 
-[Comment imprimer à partir d’une application Windows](how-to--print-from-a-windows-application.md)
+[comment imprimer à partir d’une application Windows](how-to--print-from-a-windows-application.md)
 
 
  

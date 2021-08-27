@@ -1,23 +1,23 @@
 ---
-description: Cette rubrique explique comment utiliser DirectShow pour lire des fichiers multimédias protégés par Windows Media Digital Rights Management (DRM).
+description: cette rubrique explique comment utiliser DirectShow pour lire des fichiers multimédias protégés par Windows media Digital Rights Management (DRM).
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
-title: Lecture de fichiers DRM-Protected ASF dans DirectShow
+title: Lecture DRM-Protected fichiers ASF dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff3a90b61982d6c7c444ddcf53948c225b6fc685
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 46eaafe96b00019e7c4e69741c251bc0079c459d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106520242"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466576"
 ---
-# <a name="reading-drm-protected-asf-files-in-directshow"></a>Lecture de fichiers DRM-Protected ASF dans DirectShow
+# <a name="reading-drm-protected-asf-files-in-directshow"></a>Lecture DRM-Protected fichiers ASF dans DirectShow
 
-Cette rubrique explique comment utiliser DirectShow pour lire des fichiers multimédias protégés par Windows Media Digital Rights Management (DRM).
+cette rubrique explique comment utiliser DirectShow pour lire des fichiers multimédias protégés par Windows media Digital Rights Management (DRM).
 
 ## <a name="drm-concepts"></a>Concepts DRM
 
-La protection d’un fichier multimédia avec Windows Media DRM implique deux étapes distinctes :
+la protection d’un fichier multimédia avec Windows media DRM implique deux étapes distinctes :
 
 -   Le fournisseur de contenu empaquette le fichier, c’est-à-dire chiffre le fichier et joint les informations de licence à l’en-tête de fichier ASF. Les informations de licence incluent une URL où le client peut obtenir la licence.
 -   L’application cliente acquiert une licence pour le contenu.
@@ -26,9 +26,9 @@ L’empaquetage se produit avant la distribution du fichier. L’acquisition de 
 
 ### <a name="drm-versions"></a>Versions DRM
 
-Plusieurs versions de Windows Media DRM existent. Du point de vue d’une application cliente, elles peuvent être regroupées en deux catégories : DRM version 1 et DRM version 7 ou ultérieure. (La deuxième catégorie comprend les versions 9 et 10 de DRM, ainsi que la version 7.) La catégorisation des versions DRM de cette façon est que les licences de la version 1 sont gérées différemment des licences de version 7 ou ultérieures. Dans cette documentation, le terme *licence version 7* correspond à la version 7 ou ultérieure.
+plusieurs versions de Windows Media DRM existent. Du point de vue d’une application cliente, elles peuvent être regroupées en deux catégories : DRM version 1 et DRM version 7 ou ultérieure. (La deuxième catégorie comprend les versions 9 et 10 de DRM, ainsi que la version 7.) La catégorisation des versions DRM de cette façon est que les licences de la version 1 sont gérées différemment des licences de version 7 ou ultérieures. Dans cette documentation, le terme *licence version 7* correspond à la version 7 ou ultérieure.
 
-Il est également important de distinguer l’empaquetage DRM de la licence DRM. Si le fichier est empaqueté à l’aide de Windows Media Rights Manager version 7 ou ultérieure, l’en-tête DRM peut contenir une URL de licence de version 1 en plus de l’URL de licence de la version 7. L’URL de licence de la version 1 permet aux anciens lecteurs qui ne prennent pas en charge la version 7 d’obtenir une licence pour le contenu. Toutefois, l’inverse n’est pas vrai, donc un fichier avec l’empaquetage version 1 ne peut pas avoir une URL de licence de version 7.
+Il est également important de distinguer l’empaquetage DRM de la licence DRM. si le fichier est empaqueté à l’aide d’Windows Media Rights Manager version 7 ou ultérieure, l’en-tête DRM peut contenir une url de licence de version 1 en plus de l’url de licence de la version 7. L’URL de licence de la version 1 permet aux anciens lecteurs qui ne prennent pas en charge la version 7 d’obtenir une licence pour le contenu. Toutefois, l’inverse n’est pas vrai, donc un fichier avec l’empaquetage version 1 ne peut pas avoir une URL de licence de version 7.
 
 ### <a name="application-security-level"></a>Niveau de sécurité de l’application
 
@@ -38,21 +38,21 @@ Le fournisseur de contenu définit un niveau de sécurité minimal nécessaire p
 
 ### <a name="individualization"></a>Individualisation
 
-Pour renforcer la sécurité, une application peut mettre à jour les composants DRM sur l’ordinateur du client. Cette mise à jour, appelée individualisation, différencie la copie de l’application de l’utilisateur de toutes les autres copies de la même application. L’en-tête DRM d’un fichier protégé peut spécifier un niveau d’individualisation minimal. (Pour plus d’informations, consultez la documentation de WMRMHeader. IndividualizedVersion dans le kit de développement logiciel (SDK) Windows Media Rights Manager.)
+Pour renforcer la sécurité, une application peut mettre à jour les composants DRM sur l’ordinateur du client. Cette mise à jour, appelée individualisation, différencie la copie de l’application de l’utilisateur de toutes les autres copies de la même application. L’en-tête DRM d’un fichier protégé peut spécifier un niveau d’individualisation minimal. (pour plus d’informations, consultez la documentation de WMRMHeader. IndividualizedVersion dans Windows le kit de développement logiciel (SDK) Media Rights Manager.)
 
 Étant donné que le service d’individualisation de Microsoft gère les informations de l’utilisateur, vous devez afficher la politique de confidentialité de Microsoft ou fournir un lien vers cette page sur le site Web de Microsoft avant de procéder à l’individualisation de votre application : <https://go.microsoft.com/fwlink/p/?linkid=10240> .
 
 ## <a name="provide-the-software-certificate"></a>Fournir le certificat logiciel
 
-Pour permettre à l’application d’utiliser la licence DRM, l’application doit fournir un certificat ou une *clé* de logiciel au gestionnaire de graphes de filtre. Cette clé est contenue dans une bibliothèque statique qui est individualisée pour l’application. Pour plus d’informations sur l’obtention de la bibliothèque individualisée, consultez [obtention de la bibliothèque DRM requise](../wmformat/obtaining-the-required-drm-library.md) dans la documentation du kit de développement logiciel (SDK) Windows Media format.
+pour permettre à l’application d’utiliser la licence DRM, l’application doit fournir un certificat ou une *clé* de logiciel au gestionnaire de Graph de filtre. Cette clé est contenue dans une bibliothèque statique qui est individualisée pour l’application. pour plus d’informations sur l’obtention de la bibliothèque individualisée, consultez [obtention de la bibliothèque DRM requise](../wmformat/obtaining-the-required-drm-library.md) dans la documentation du kit de développement logiciel (SDK) Windows Media Format.
 
 Pour fournir la clé logicielle, procédez comme suit :
 
 1.  Lien vers la bibliothèque statique.
 2.  Implémentez l’interface **IServiceProvider** .
-3.  Interrogez le gestionnaire du graphique de filtre pour l’interface [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) .
+3.  interrogez le gestionnaire de Graph de filtre pour l’interface [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) .
 4.  Appelez [**IObjectWithSite :: SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) avec un pointeur vers votre implémentation de **IServiceProvider**.
-5.  Le gestionnaire de graphique de filtre appellera **IServiceProvider :: QueryService**, en spécifiant **IID \_ IWMReader** pour l’identificateur de service.
+5.  le gestionnaire de Graph de filtre appellera **IServiceProvider :: QueryService**, en spécifiant **IID \_ IWMReader** pour l’identificateur de service.
 6.  Dans votre implémentation de **QueryService**, appelez [**WMCreateCertificate**](/previous-versions/windows/desktop/legacy/dd757745(v=vs.85)) pour créer la clé logicielle.
 
 Le code suivant montre comment implémenter la méthode **QueryService** :
@@ -85,7 +85,7 @@ STDMETHODIMP Player::QueryService(REFIID siid, REFIID riid, void **ppv)
 
 
 
-Le code suivant montre comment appeler [**SetSite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) sur le gestionnaire de graphique de filtre :
+le code suivant montre comment appeler [**setsite**](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite) sur le filtre Graph Manager :
 
 
 ```C++
@@ -119,11 +119,11 @@ done:
 
 
 
-## <a name="building-the-playback-graph"></a>Génération du graphique de lecture
+## <a name="building-the-playback-graph"></a>Génération de la Graph de lecture
 
 Pour lire un fichier ASF protégé par DRM, procédez comme suit :
 
-1.  Créez le [Gestionnaire de graphe de filtre](filter-graph-manager.md) et utilisez l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) pour vous inscrire aux événements de graphique.
+1.  créez le [gestionnaire de Graph de filtre](filter-graph-manager.md) et utilisez l’interface [**IMediaEventEx**](/windows/desktop/api/Control/nn-control-imediaeventex) pour vous inscrire aux événements de graphique.
 2.  Appelez [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une nouvelle instance du filtre de [lecteur ASF WM](wm-asf-reader-filter.md) .
 3.  Appelez [**IFilterGraph :: AddFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-addfilter) pour ajouter le filtre au graphique de filtre.
 4.  Interrogez le filtre de l’interface [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) .
@@ -197,35 +197,11 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
 
 <span codelanguage="ManagedCPlusPlus"></span>
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>            if (FAILED(hr))
-            {
-                goto done;
-            }
-            hr = RenderOutputPins(pGraph, m_pReader);
-    }
-    else
-    {
-        // Not a Windows Media file, so just render the standard way.
-        hr = pGraph->RenderFile(pwszFile, NULL);
-    }
 
-done:
-    return hr;
-}</code></pre></td>
-</tr>
-</tbody>
-</table>
+| C++ | 
+|-----|
+| <pre><code>            if (FAILED(hr))            {                goto done;            }            hr = RenderOutputPins(pGraph, m_pReader);    }    else    {        // Not a Windows Media file, so just render the standard way.        hr = pGraph-&gt;RenderFile(pwszFile, NULL);    }done:    return hr;}</code></pre> | 
+
 
 
 
@@ -308,7 +284,7 @@ HRESULT DrmManager::Initialize(IBaseFilter *pFilter)
 
 <dl> <dt>
 
-[Lecture de fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
+[Lecture des fichiers ASF dans DirectShow](reading-asf-files-in-directshow.md)
 </dt> </dl>
 
  

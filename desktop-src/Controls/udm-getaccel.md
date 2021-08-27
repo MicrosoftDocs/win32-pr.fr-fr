@@ -3,7 +3,7 @@ title: Message UDM_GETACCEL (commctrl. h)
 description: Récupère les informations d’accélération pour un contrôle up-up.
 ms.assetid: 794538d6-ca01-4f05-82d1-ce7bc0f76f64
 keywords:
-- UDM_GETACCEL les contrôles de message Windows
+- UDM_GETACCEL les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b86a9740e59631b737453763a10ccb9820056d95
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3603f364a6caa4f4726460e4b5b71e0d79564fbe9178414576fbed2ce5f5777d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132189"
 ---
 # <a name="udm_getaccel-message"></a>\_Message GETACCEL UDM
 
@@ -53,8 +53,8 @@ La valeur de retour est le nombre d’accélérateurs actuellement définis pour
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

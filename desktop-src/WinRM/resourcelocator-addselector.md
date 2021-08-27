@@ -5,7 +5,7 @@ ms.assetid: 4b513d39-a377-487f-a03b-f3c5ab0f0b5a
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode AddSelector
-- Méthode AddSelector Windows Remote Management, objet ResourceLocator
+- méthode AddSelector Windows Remote Management, objet ResourceLocator
 - Windows Remote Management objet ResourceLocator, méthode AddSelector
 topic_type:
 - apiref
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 064108f535c9f46dc074d1b37754e626dc3f1d40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6fc59aab6e5194716fa3b0cda98bb874d0045011c0159c5caaa3cbd53e7fbfd5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121639"
 ---
 # <a name="resourcelocatoraddselector-method"></a>Méthode ResourceLocator. AddSelector
 
@@ -58,7 +58,7 @@ Valeur du sélecteur. Par exemple, pour les données WMI, ce paramètre contient
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: AddSelector** est la méthode C++ correspondante.
 

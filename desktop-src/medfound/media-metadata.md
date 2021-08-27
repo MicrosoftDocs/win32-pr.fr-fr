@@ -4,12 +4,12 @@ ms.assetid: dd7c4bc9-e2a6-49cd-8f29-865a44d5b5c9
 title: Métadonnées de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb17f286673663976e17b4178239507765c2101
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 9ef9f8a852bbce2dfb8d38a5883acc219cde8019
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106525801"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477084"
 ---
 # <a name="media-metadata"></a>Métadonnées de média
 
@@ -22,7 +22,7 @@ Les fichiers multimédias contiennent des propriétés qui décrivent le contenu
 Il existe deux façons de lire les métadonnées dans Media Foundation :
 
 -   Interface [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) (métadonnées de la version 1 Media Foundation).
--   Interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) de l’interpréteur de commandes Windows (métadonnées de l’interpréteur de commandes).
+-   interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) de l’interpréteur de commandes Windows (métadonnées de shell).
 
 Les métadonnées de l’interpréteur de commandes se rapportent non seulement aux fichiers multimédias, mais à un plus grand nombre de fichiers sur le système.
 
@@ -30,49 +30,16 @@ Le tableau suivant compare les fonctionnalités et les limitations de chaque API
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Media Foundation les métadonnées v1</th>
-<th>Métadonnées de Shell</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nécessite Windows Vista ou une version ultérieure.</td>
-<td>Requiert Windows 7.
-<blockquote>
-[!Note]<br />
-En général, les métadonnées de l’interpréteur de commandes ne nécessitent pas Windows 7, mais Media Foundation ne prenait pas en charge les métadonnées d’environnement antérieures à Windows 7.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Les propriétés ne sont pas compatibles avec le système de propriétés de Shell.</td>
-<td>Les propriétés sont compatibles avec le système de propriétés de Shell.</td>
-</tr>
-<tr class="odd">
-<td>Les propriétés peuvent s’appliquer à la totalité du fichier ou au niveau du flux.</td>
-<td>Seules les propriétés au niveau du fichier sont prises en charge. Les propriétés au niveau du flux ne sont pas prises en charge.</td>
-</tr>
-<tr class="even">
-<td>Les propriétés peuvent avoir des valeurs dans plusieurs langues.</td>
-<td>Les valeurs dans plusieurs langues ne sont pas prises en charge.</td>
-</tr>
-<tr class="odd">
-<td>Les clés de propriété sont des chaînes à caractères larges.</td>
-<td>Les clés de propriété sont des valeurs <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> .</td>
-</tr>
-<tr class="even">
-<td>Les valeurs de propriété sont des valeurs <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> .</td>
-<td>Les valeurs de propriété sont des valeurs <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> .</td>
-</tr>
-</tbody>
-</table>
+
+| Media Foundation les métadonnées v1 | Métadonnées de Shell | 
+|------------------------------|----------------|
+| requiert Windows Vista ou version ultérieure. | requiert Windows 7.<blockquote>[!Note]<br />en général, les métadonnées de l’interpréteur de commandes ne nécessitent pas de Windows 7, mais Media Foundation ne prenait pas en charge les métadonnées d’environnement antérieures à Windows 7.</blockquote><br /> | 
+| Les propriétés ne sont pas compatibles avec le système de propriétés de Shell. | Les propriétés sont compatibles avec le système de propriétés de Shell. | 
+| Les propriétés peuvent s’appliquer à la totalité du fichier ou au niveau du flux. | Seules les propriétés au niveau du fichier sont prises en charge. Les propriétés au niveau du flux ne sont pas prises en charge. | 
+| Les propriétés peuvent avoir des valeurs dans plusieurs langues. | Les valeurs dans plusieurs langues ne sont pas prises en charge. | 
+| Les clés de propriété sont des chaînes à caractères larges. | Les clés de propriété sont des valeurs <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> . | 
+| Les valeurs de propriété sont des valeurs <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> . | Les valeurs de propriété sont des valeurs <a href="/windows/win32/api/propidl/ns-propidl-propvariant"><strong>PROPVARIANT</strong></a> . | 
+
 
 
 
@@ -84,9 +51,9 @@ En général, les métadonnées de l’interpréteur de commandes ne nécessiten
 
 | Rubrique                                                                                     | Description                                                                                                                                |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| [Fournisseurs de métadonnées de Shell](shell-metadata-providers.md)<br/>                       | À compter de Windows 7, Media Foundation expose des métadonnées par le biais de l’interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .<br/> |
+| [Fournisseurs de métadonnées de Shell](shell-metadata-providers.md)<br/>                       | à partir de Windows 7, Media Foundation expose des métadonnées par le biais de l’interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) .<br/> |
 | [Propriétés de métadonnées pour les fichiers multimédias](metadata-properties-for-media-files.md)<br/> | Cette rubrique répertorie les propriétés de métadonnées les plus courantes pour les fichiers multimédias.<br/>                                                           |
-| [Fournisseurs de métadonnées dans Windows Vista](metadata-providers-in-windows-vista.md)<br/> | Dans Windows Vista, Media Foundation expose les métadonnées par le biais de l’interface [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .<br/>                   |
+| [fournisseurs de métadonnées dans Windows Vista](metadata-providers-in-windows-vista.md)<br/> | dans Windows Vista, Media Foundation expose des métadonnées par le biais de l’interface [**IMFMetadata**](/windows/desktop/api/mfidl/nn-mfidl-imfmetadata) .<br/>                   |
 
 
 

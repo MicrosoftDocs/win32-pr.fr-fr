@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: a3d099e7b3a3106e0e1e4285b37d2ea205baf3d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8ec07f539cfa2a99338d8366f10f7c3d79dbdd5ef26a6de0ee0296941e2c84ff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088029"
 ---
 # <a name="ntgdiddattachsurface-function"></a>NtGdiDdAttachSurface fonction)
 
@@ -74,7 +74,7 @@ Handle vers l’objet surface en mode noyau qui sera le point de terminaison de 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir une description complète des pièces jointes, consultez le kit de développement logiciel (SDK) et le kit de développement de pilotes (DDK) DirectDraw.
 

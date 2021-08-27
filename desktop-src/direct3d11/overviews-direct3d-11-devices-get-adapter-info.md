@@ -4,12 +4,12 @@ description: Cette rubrique montre comment utiliser Microsoft DirectX Graphics i
 ms.assetid: 3d182f29-48d4-4e25-b34e-b424cc9eed0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63c2602fcd4e1baa4476bb89273eda676f444e38
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 921d373a9ff0f79baaf848a55cbab0d08fd4e119d30a0a0cb917832830589dfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119569"
 ---
 # <a name="how-to-get-adapter-display-modes"></a>Comment : obtenir les modes d’affichage de l’adaptateur
 
@@ -55,6 +55,6 @@ Cette rubrique montre comment utiliser Microsoft DirectX Graphics infrastructure
 [Comment utiliser Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

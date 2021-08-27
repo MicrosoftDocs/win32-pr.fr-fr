@@ -4,12 +4,12 @@ description: Cet article est destiné à répondre à certaines questions couran
 ms.assetid: 2ab439be-8d99-bcf8-89af-d4274e044c88
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd694243adad852d68e5db5fc342f9259ace7ebbc71923bf56a60bbc1b511b1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0509084232f1dcfe63a7d956516aa723f8cd724b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119070539"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477285"
 ---
 # <a name="directx-installation-for-game-developers"></a>Installation de DirectX pour les développeurs de jeux
 
@@ -63,42 +63,15 @@ Voici les meilleures pratiques pour l’ajout de l’installation de DirectX dan
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Terme</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>Installez les composants redistribuables à chaque fois. <br/></td>
-<td>Le processus d’installation d’un jeu doit installer les composants redistribuables DirectX au cours de chaque installation unique sans permettre aux utilisateurs de le refuser. Si vous autorisez la désactivation, certains utilisateurs devineront qu’ils n’en ont pas besoin et, s’ils le font, le jeu ne s’exécutera pas. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>Laissez le programme d’installation DirectX vérifier les composants facultatifs. <br/></td>
-<td>ne partez pas du principe que les derniers composants facultatifs sont déjà installés sur un système, car les Windows Update et les Service packs ne fournissent aucun des composants facultatifs de DirectX. Vous devez installer le runtime DirectX en exécutant dxsetup.exe directement ou en appelant DirectSetup. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>Configurer en mode silencieux. <br/></td>
-<td>Lancez le programme d’installation en mode silencieux afin que les utilisateurs n’ignorent pas accidentellement la mise à jour du runtime DirectX. Pour ce faire, vous pouvez lancer dxsetup.exe à l’aide de la commande suivante : <br/>
-<pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>
-ou en appelant DirectSetup et sans aucune interface utilisateur. <br/></td>
-</tr>
-<tr class="even">
-<td><span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>Combiner les acceptations du CLUF. <br/></td>
-<td>Si vous invitez l’utilisateur à accepter un CLUF, associez-le à l’invite d’acceptation du CLUF DirectX lors de l’installation en mode silencieux afin que l’invitation à accepter les CLUF ne se produise qu’une seule fois. Une invite doit s’afficher avant que vous n’installiez quoi que ce soit si l’utilisateur n’accepte pas, vous ne vous retrouvez pas avec un échec et une installation partielle. <br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>Exécutez simplement Dxsetup ou appelez DirectSetup. <br/></td>
-<td>Étant donné que le numéro de version de DirectX ne fait référence à aucun des composants de base DirectX, ne cochez pas une version installée avant d’exécuter dxsetup.exe ou d’appeler DirectSetup. En outre, ne vérifiez pas l’existence d’un fichier pour tester si un composant facultatif est déjà installé, car cela ne déterminera généralement pas correctement quand un composant existe mais a besoin d’être mis à jour. Toutefois, le package d’installation de DirectX détermine rapidement cela et effectue l’action appropriée. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Terme | Description | 
+|------|-------------|
+| <span id="Install_the_redistributable_components_every_time.__"></span><span id="install_the_redistributable_components_every_time.__"></span><span id="INSTALL_THE_REDISTRIBUTABLE_COMPONENTS_EVERY_TIME.__"></span>Installez les composants redistribuables à chaque fois. <br /> | Le processus d’installation d’un jeu doit installer les composants redistribuables DirectX au cours de chaque installation unique sans permettre aux utilisateurs de le refuser. Si vous autorisez la désactivation, certains utilisateurs devineront qu’ils n’en ont pas besoin et, s’ils le font, le jeu ne s’exécutera pas. <br /> | 
+| <span id="Let_the_DirectX_installer_check_for_optional_components.__"></span><span id="let_the_directx_installer_check_for_optional_components.__"></span><span id="LET_THE_DIRECTX_INSTALLER_CHECK_FOR_OPTIONAL_COMPONENTS.__"></span>Laissez le programme d’installation DirectX vérifier les composants facultatifs. <br /> | ne partez pas du principe que les derniers composants facultatifs sont déjà installés sur un système, car les Windows Update et les Service packs ne fournissent aucun des composants facultatifs de DirectX. Vous devez installer le runtime DirectX en exécutant dxsetup.exe directement ou en appelant DirectSetup. <br /> | 
+| <span id="Set_up_silently.__"></span><span id="set_up_silently.__"></span><span id="SET_UP_SILENTLY.__"></span>Configurer en mode silencieux. <br /> | Lancez le programme d’installation en mode silencieux afin que les utilisateurs n’ignorent pas accidentellement la mise à jour du runtime DirectX. Pour ce faire, vous pouvez lancer dxsetup.exe à l’aide de la commande suivante : <br /><pre class="syntax" data-space="preserve"><code>   path-to-redistributable\dxsetup.exe /silent</code></pre>ou en appelant DirectSetup et sans aucune interface utilisateur. <br /> | 
+| <span id="Combine_EULA_acceptances.__"></span><span id="combine_eula_acceptances.__"></span><span id="COMBINE_EULA_ACCEPTANCES.__"></span>Combiner les acceptations du CLUF. <br /> | Si vous invitez l’utilisateur à accepter un CLUF, associez-le à l’invite d’acceptation du CLUF DirectX lors de l’installation en mode silencieux afin que l’invitation à accepter les CLUF ne se produise qu’une seule fois. Une invite doit s’afficher avant que vous n’installiez quoi que ce soit si l’utilisateur n’accepte pas, vous ne vous retrouvez pas avec un échec et une installation partielle. <br /> | 
+| <span id="Just_run_dxsetup_or_call_DirectSetup.__"></span><span id="just_run_dxsetup_or_call_directsetup.__"></span><span id="JUST_RUN_DXSETUP_OR_CALL_DIRECTSETUP.__"></span>Exécutez simplement Dxsetup ou appelez DirectSetup. <br /> | Étant donné que le numéro de version de DirectX ne fait référence à aucun des composants de base DirectX, ne cochez pas une version installée avant d’exécuter dxsetup.exe ou d’appeler DirectSetup. En outre, ne vérifiez pas l’existence d’un fichier pour tester si un composant facultatif est déjà installé, car cela ne déterminera généralement pas correctement quand un composant existe mais a besoin d’être mis à jour. Toutefois, le package d’installation de DirectX détermine rapidement cela et effectue l’action appropriée. <br /> | 
+
 
 
 

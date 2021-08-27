@@ -3,20 +3,20 @@ title: Conversion des couleurs et correspondance des couleurs
 description: Le processus de conversion des couleurs d’un espace colorimétrique à un autre est appelé conversion des couleurs.
 ms.assetid: 52f68779-d4d6-4f1e-88a4-f872e9e90054
 keywords:
-- Système de couleurs Windows (WCS), conversion de couleurs
-- WCS (système de couleurs Windows), conversion de couleurs
+- Windows Système de couleurs (WCS), conversion de couleurs
+- WCS (Windows color System), conversion de couleurs
 - gestion des couleurs des images, conversion de couleurs
 - gestion des couleurs, conversion de couleurs
 - couleurs, conversion de couleurs
 - conversion de couleurs
-- Système de couleurs Windows (WCS), correspondance des couleurs
-- WCS (système de couleurs Windows), correspondance des couleurs
+- Windows Système de couleurs (WCS), correspondance des couleurs
+- WCS (Windows color System), correspondance des couleurs
 - gestion des couleurs des images, correspondance des couleurs
 - gestion des couleurs, correspondance des couleurs
 - couleurs, correspondance des couleurs
 - correspondance des couleurs
-- Windows Color System (WCS), mappage des couleurs
-- WCS (système de couleurs Windows), mappage des couleurs
+- Windows Système de couleurs (WCS), mappage des couleurs
+- WCS (Windows color System), mappage des couleurs
 - gestion des couleurs des images, mappage des couleurs
 - gestion des couleurs, mappage des couleurs
 - couleurs, mappage des couleurs
@@ -28,12 +28,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b74de95238472f58d49c5033a601c6d5458773c8
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 0071e15c2d572c134d61aee7a018b41c8d09507e87963eeeed1488909cdafeba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106523088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110799"
 ---
 # <a name="color-conversion-and-color-matching"></a>Conversion des couleurs et correspondance des couleurs
 

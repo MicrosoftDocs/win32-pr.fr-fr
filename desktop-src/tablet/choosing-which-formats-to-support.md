@@ -4,12 +4,12 @@ ms.assetid: bd0a4382-f014-4f03-990d-d2f96aa76ab8
 title: Choix des formats à prendre en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 891fa1c21dd3178e925deab27525afa7fa70fa22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8b8b2197c37db603388a4191e08114800aaba37ee8e89803c7ddfb08be18d3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110999"
 ---
 # <a name="choosing-which-formats-to-support"></a>Choix des formats à prendre en charge
 
@@ -25,7 +25,7 @@ Les applications dont les documents contiennent d’autres contenus, tels que du
 
 ## <a name="rtf"></a>RTF
 
-Une application doit pouvoir produire un format RTF (Rich Text Format) si l’interopérabilité avec Microsoft Word 2002 ou d’autres applications héritées est requise.
+une application doit pouvoir produire un format rtf (rich Text Format) si l’interopérabilité avec Microsoft Word 2002 ou d’autres applications héritées est requise.
 
 ## <a name="mime-support"></a>Prise en charge MIME
 

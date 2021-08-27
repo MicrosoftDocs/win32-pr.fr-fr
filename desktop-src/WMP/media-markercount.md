@@ -3,7 +3,7 @@ title: Media. markerCount
 description: La propriété markerCount récupère le nombre de marqueurs dans l’élément multimédia.
 ms.assetid: 48313395-b225-4008-b0e8-82fa22d6aaef
 keywords:
-- Media. markerCount Windows Media Player
+- Media. markerCount Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c97a874211c0c00ebf9f242887d4314ec490b552
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00206991f81c6a445648a063a37bcc45bf91f647b60317772478142eefd1b20e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123349"
 ---
 # <a name="mediamarkercount"></a>Media. markerCount
 
@@ -33,7 +33,7 @@ La propriété **markerCount** récupère le nombre de marqueurs dans l’élém
 
 Cette propriété est un **nombre** en lecture seule (**long**) qui spécifie le nombre de marqueurs dans le fichier.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété retourne la valeur zéro si un fichier n’a pas de marqueurs, ou si l’élément multimédia n’est pas le même que le *joueur*. **currentMedia**.
 
@@ -43,7 +43,7 @@ Pour récupérer la valeur de cette propriété, l’accès en lecture à la bib
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **markerCount** pour récupérer le nombre de marqueurs dans l’élément multimédia actuel. Cette valeur est ensuite utilisée comme limite supérieure pour une structure de bouclage, qui itère au sein de la liste des marqueurs pour récupérer chaque nom de marqueur. Un élément TEXTAREA HTML nommé MNAMES affiche les noms des marqueurs dans l’élément multimédia en cours. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **markerCount** pour récupérer le nombre de marqueurs dans l’élément multimédia actuel. Cette valeur est ensuite utilisée comme limite supérieure pour une structure de bouclage, qui itère au sein de la liste des marqueurs pour récupérer chaque nom de marqueur. Un élément TEXTAREA HTML nommé MNAMES affiche les noms des marqueurs dans l’élément multimédia en cours. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -4,12 +4,12 @@ ms.assetid: e4b98c18-746b-4909-8821-f25de9d15373
 title: Inscription des gestionnaires d’extensions de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ca50bfaff984884b74ecc8572d4af9d96c55d0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ec883f6e843bdfbf663108c0acda123d786262916f4a347d9433e7fd5f77baca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111209"
 ---
 # <a name="registering-shell-extension-handlers"></a>Inscription des gestionnaires d’extensions de Shell
 
@@ -17,9 +17,9 @@ Un objet de gestionnaire d’extensions d’interpréteur de commandes doit êtr
 
 Chaque fois que vous créez ou modifiez un gestionnaire d’extensions de Shell, il est important d’informer le système que vous avez apporté une modification. Pour ce faire, appelez [**SHChangeNotify**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify), en spécifiant l’événement **\_ ASSOCCHANGED SHCNE** . Si vous n’appelez pas **SHChangeNotify**, la modification peut ne pas être reconnue tant que le système n’est pas redémarré.
 
-Certains facteurs supplémentaires s’appliquent aux systèmes Windows 2000. Pour plus d’informations, consultez la section [inscription du gestionnaire d’extensions de Shell sur les systèmes Windows 2000](#registering-shell-extension-handlers) .
+certains facteurs supplémentaires s’appliquent à Windows systèmes 2000. pour plus d’informations, consultez la section [inscrire des gestionnaires d’extensions de Shell sur Windows systèmes 2000](#registering-shell-extension-handlers) .
 
-Comme pour tous les objets COM (Component Object Model), vous devez créer un GUID pour le gestionnaire à l’aide d’un outil tel que Guidgen.exe, fourni avec le kit de développement logiciel (SDK) Windows. Créez une sous-clé sous le CLSID **\_ \_ racine des classes HKEY** \\  dont le nom est le format de chaîne de ce GUID. Étant donné que les gestionnaires d’extensions de Shell sont des serveurs in-process, vous devez également créer une sous-clé **InprocServer32** sous la sous-clé de GUID avec la valeur (par défaut) définie sur le chemin d’accès de la dll du gestionnaire. Utilisez le modèle de thread cloisonné. En voici un exemple :
+comme pour tous les objets COM (component Object Model), vous devez créer un GUID pour le gestionnaire à l’aide d’un outil tel que Guidgen.exe, fourni avec le kit de développement logiciel (SDK) Windows. Créez une sous-clé sous le CLSID **\_ \_ racine des classes HKEY** \\  dont le nom est le format de chaîne de ce GUID. Étant donné que les gestionnaires d’extensions de Shell sont des serveurs in-process, vous devez également créer une sous-clé **InprocServer32** sous la sous-clé de GUID avec la valeur (par défaut) définie sur le chemin d’accès de la dll du gestionnaire. Utilisez le modèle de thread cloisonné. En voici un exemple :
 
 ```
 HKEY_CLASSES_ROOT
@@ -110,12 +110,12 @@ Le tableau suivant indique les différentes sous-clés de la **\_ \_ racine de l
 
 | Sous-clé                    | Description                                                          | Gestionnaires possibles                                |
 |---------------------------|----------------------------------------------------------------------|--------------------------------------------------|
-| **\** _                    | Tous les fichiers                                                            | Menu contextuel, feuille de propriétés, verbes (voir ci-dessous) |
-| _ *AllFileSystemObjects**  | Tous les fichiers et dossiers de fichiers                                           | Menu contextuel, feuille de propriétés, verbes             |
+| **\***                    | Tous les fichiers                                                            | Menu contextuel, feuille de propriétés, verbes (voir ci-dessous) |
+| **AllFileSystemObjects**  | Tous les fichiers et dossiers de fichiers                                           | Menu contextuel, feuille de propriétés, verbes             |
 | **Folder**                | Tous les dossiers                                                          | Menu contextuel, feuille de propriétés, verbes             |
 | **Directory**             | Dossiers de fichiers                                                         | Menu contextuel, feuille de propriétés, verbes             |
 | **\\Arrière-plan du répertoire** | Arrière-plan du dossier de fichiers                                               | Menu contextuel uniquement                               |
-| **DesktopBackground**     | Arrière-plan du Bureau (Windows 7 et versions ultérieures)                            | Menu contextuel, verbes                             |
+| **DesktopBackground**     | arrière-plan du bureau (Windows 7 et versions ultérieures)                            | Menu contextuel, verbes                             |
 | **Lecteur**                 | Tous les lecteurs dans MyComputer, tels que « C : \\ »                             | Menu contextuel, feuille de propriétés, verbes             |
 | **Réseau**               | Tout le réseau (sous Favoris réseau)                             | Menu contextuel, feuille de propriétés, verbes             |
 | **Type de réseau \\\\\#**     | Tous les objets de type \# (voir ci-dessous)                                   | Menu contextuel, feuille de propriétés, verbes             |
@@ -124,18 +124,18 @@ Le tableau suivant indique les différentes sous-clés de la **\_ \_ racine de l
 | *\_nom du fournisseur réseau \_* | Tous les objets fournis par le fournisseur réseau «*\_ \_ nom du fournisseur réseau*» | Menu contextuel, feuille de propriétés, verbes             |
 | **Imprimantes**              | Toutes les imprimantes                                                         | Menu contextuel, feuille de propriétés                    |
 | **AudioCD**               | CD audio dans le lecteur CD                                                 | Verbes uniquement                                       |
-| **DVD**                   | Lecteur de DVD (Windows 2000)                                             | Menu contextuel, feuille de propriétés, verbes             |
+| **DVD**                   | lecteur de DVD (Windows 2000)                                             | Menu contextuel, feuille de propriétés, verbes             |
 
 
 
  
 
-### <a name="notes"></a>Notes
+### <a name="notes"></a>Remarques
 
 -   Le menu contextuel de l’arrière-plan du dossier de fichiers est accessible en cliquant avec le bouton droit dans un dossier de fichiers, mais pas sur le contenu du dossier.
 -   Les « verbes » sont des commandes spéciales **inscrites sous le \_ \_** verbe de Shell de la \\ *sous-clé* de l' \\ **interpréteur** de commandes \\ .
 -   Pour le type de **réseau** \\  \\ **\#** , « \# » est un code de type de fournisseur réseau au format décimal. Le code du type de fournisseur réseau est le mot de poids fort d’un type de réseau. La liste des types de réseau est fournie dans le fichier d’en-tête Winnetwk. h ( \_ valeurs net WNNC \_ \* ). Par exemple, WNNC \_ NET \_ Shiva est 0x00330000. par conséquent, la sous-clé de type correspondante serait de type **HKEY \_ classes \_ racine** de \\  \\ **type** \\ **51**.
--   «*\_ \_ nom du fournisseur réseau*» est un nom de fournisseur réseau spécifié par [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), avec les espaces convertis en traits de soulignement. Par exemple, si le fournisseur réseau de réseau Microsoft est installé, son nom de fournisseur est « Microsoft Windows Network » et le *\_ \_ nom du fournisseur réseau* correspondant est **Microsoft \_ Windows \_ Network**.
+-   «*\_ \_ nom du fournisseur réseau*» est un nom de fournisseur réseau spécifié par [**WNetGetProviderName**](/windows/win32/api/winnetwk/nf-winnetwk-wnetgetprovidernamea), avec les espaces convertis en traits de soulignement. par exemple, si le fournisseur réseau de réseau microsoft est installé, son nom de fournisseur est « microsoft Windows network » et le *\_ \_ nom du fournisseur réseau* correspondant est **Microsoft \_ Windows \_ réseau**.
 
 ## <a name="example-of-an-extension-handler-registration"></a>Exemple d’inscription d’un gestionnaire d’extensions
 
@@ -169,10 +169,10 @@ HKEY_CLASSES_ROOT
 
 ### <a name="registering-shell-extension-handlers"></a>Inscription des gestionnaires d’extensions de Shell
 
-La procédure d’inscription décrite dans cette section doit être suivie pour tous les systèmes Windows. Toutefois, avec les systèmes ultérieurs, une étape supplémentaire peut être nécessaire. Étant donné que ces versions ultérieures de Windows sont conçues pour être utilisées dans un environnement géré, l’accès au registre peut être limité administrativement, ce qui nécessite une approche quelque peu différente de celle décrite dans la section précédente.
+la procédure d’inscription décrite dans cette section doit être suivie pour tous les systèmes de Windows. Toutefois, avec les systèmes ultérieurs, une étape supplémentaire peut être nécessaire. étant donné que ces versions ultérieures de Windows sont conçues pour être utilisées dans un environnement géré, l’accès au registre peut être limité administrativement, ce qui nécessite une approche quelque peu différente de celle décrite dans la section précédente.
 
 > [!Note]  
-> Les programmes d’installation ne doivent généralement pas écrire directement dans le registre. Au lieu de cela, le programme d’installation doit être effectué avec Windows Installer packages. Ces outils garantissent que les logiciels s’exécutent correctement et fournissent un accès à des fonctionnalités telles que l’inscription de classe par utilisateur.
+> Les programmes d’installation ne doivent généralement pas écrire directement dans le registre. au lieu de cela, le programme d’installation doit être effectué avec Windows Installer packages. Ces outils garantissent que les logiciels s’exécutent correctement et fournissent un accès à des fonctionnalités telles que l’inscription de classe par utilisateur.
 
  
 

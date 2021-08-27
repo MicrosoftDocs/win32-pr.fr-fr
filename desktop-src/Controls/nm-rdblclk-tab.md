@@ -3,7 +3,7 @@ title: NM_RDBLCLK (onglet) Code de notification (commctrl. h)
 description: Notifie la fenêtre parente d’un contrôle onglet sur lequel l’utilisateur a double-cliqué dans le contrôle avec le bouton droit de la souris. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: cdf0df70-e30b-4353-8c2a-26fffa0596c4
 keywords:
-- Contrôles Windows de code de notification NM_RDBLCLK (onglet)
+- NM_RDBLCLK (onglet) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c4e159e64780f21576aa9e936379c881b32153d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d3d45f463b718d34b8e52d226a7c7058a479f4b2cf5d10b2a669cfa3f68313e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088689"
 ---
 # <a name="nm_rdblclk-tab-notification-code"></a>\_Code de notification RDBLCLK nm (onglet)
 
@@ -55,8 +55,8 @@ Retourne une valeur différente de zéro pour ne pas autoriser le traitement par
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

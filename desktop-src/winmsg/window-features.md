@@ -4,36 +4,36 @@ ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Caractéristiques des fenêtres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228c6b4ab59102cae38a248935fbbad32198f2e0
-ms.sourcegitcommit: 8755905962e156f29203705d09d6df8b7d0e2fca
+ms.openlocfilehash: 9437ab95d12ccc56cdf5e87af2127f4c34ad6def7f07f4e79246a2ad591a5ae8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "106543378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110679"
 ---
 # <a name="window-features"></a>Caractéristiques des fenêtres
 
 Cette vue d’ensemble décrit les fonctionnalités de Windows, telles que les types de fenêtres, les États, la taille et la position.
 
 -   [Types de fenêtres](#window-types)
-    -   [Fenêtres superposées](#overlapped-windows)
-    -   [Fenêtres indépendantes](#pop-up-windows)
-    -   [Fenêtres enfants](#child-windows)
+    -   [Windows Overlapped](#overlapped-windows)
+    -   [Windows contextuelle](#pop-up-windows)
+    -   [Windows enfants](#child-windows)
         -   [Plaçant](#positioning)
-        -   [Portion](#clipping)
+        -   [Découpage](#clipping)
         -   [Relation avec la fenêtre parente](#relationship-to-parent-window)
         -   [Messages](#size-and-position-messages)
-    -   [Fenêtres superposées](#layered-windows)
-    -   [Fenêtres de message uniquement](#message-only-windows)
+    -   [Windows en couches](#layered-windows)
+    -   [Windows de message uniquement](#message-only-windows)
 -   [Relations entre les fenêtres](#window-relationships)
-    -   [Fenêtres de premier plan et d’arrière-plan](#foreground-and-background-windows)
-    -   [Fenêtres détenues](#owned-windows)
+    -   [Windows de premier plan et d’arrière-plan](#foreground-and-background-windows)
+    -   [Windows détenu](#owned-windows)
     -   [Ordre de plan](#z-order)
 -   [Affichage de l’état de la fenêtre](#window-show-state)
     -   [Fenêtre active](#active-window)
-    -   [Fenêtres désactivées](#disabled-windows)
+    -   [Désactivée Windows](#disabled-windows)
     -   [Visibilité de la fenêtre](#window-visibility)
-    -   [Fenêtres réduites, agrandies et restaurées](#minimized-maximized-and-restored-windows)
+    -   [Réduit, agrandi et restauré Windows](#minimized-maximized-and-restored-windows)
 -   [Taille et position de la fenêtre](#window-size-and-position)
     -   [Taille et position par défaut](#default-size-and-position)
     -   [Taille du suivi](#tracking-size)
@@ -50,25 +50,25 @@ Cette vue d’ensemble décrit les fonctionnalités de Windows, telles que les t
 
 Cette section contient les rubriques suivantes qui décrivent les types de fenêtre.
 
--   [Fenêtres superposées](#overlapped-windows)
--   [Fenêtres indépendantes](#pop-up-windows)
--   [Fenêtres enfants](#child-windows)
--   [Fenêtres superposées](#layered-windows)
--   [Fenêtres de message uniquement](#message-only-windows)
+-   [Windows Overlapped](#overlapped-windows)
+-   [Windows contextuelle](#pop-up-windows)
+-   [Windows enfants](#child-windows)
+-   [Windows en couches](#layered-windows)
+-   [Windows de message uniquement](#message-only-windows)
 
-### <a name="overlapped-windows"></a>Fenêtres superposées
+### <a name="overlapped-windows"></a>Windows Overlapped
 
 Une *fenêtre Overlapped* est une fenêtre de niveau supérieur (fenêtre non enfant) qui a une barre de titre, une bordure et une zone cliente. Il est destiné à servir de fenêtre principale d’une application. Il peut également avoir un menu fenêtre, des boutons réduire et agrandir et des barres de défilement. Une fenêtre Overlapped utilisée en tant que fenêtre principale comprend généralement tous ces composants.
 
 En spécifiant le style [**WS \_ OVERLAPPED**](window-styles.md) ou **WS \_ OVERLAPPEDWINDOW** dans la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) , une application crée une fenêtre Overlapped. Si vous utilisez le style avec **\_ chevauchement WS** , la fenêtre a une barre de titre et une bordure. Si vous utilisez le style **WS \_ OVERLAPPEDWINDOW** , la fenêtre a une barre de titre, une bordure de redimensionnement, un menu fenêtre et des boutons réduire et agrandir.
 
-### <a name="pop-up-windows"></a>Fenêtres indépendantes
+### <a name="pop-up-windows"></a>Windows contextuelle
 
 Une *fenêtre indépendante* est un type spécial de fenêtre avec chevauchement utilisé pour les boîtes de dialogue, les boîtes de message et d’autres fenêtres temporaires qui s’affichent en dehors de la fenêtre principale d’une application. Les barres de titre sont facultatives pour les fenêtres indépendantes. Sinon, les fenêtres indépendantes sont les mêmes que les fenêtres avec chevauchement du style [**de \_ chevauchement WS**](window-styles.md) .
 
 Vous créez une fenêtre indépendante en spécifiant le style de fenêtre [**\_ contextuelle WS**](window-styles.md) dans [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa). Pour inclure une barre de titre, spécifiez le style de **\_ légende WS** . Utilisez le style **WS \_ POPUPWINDOW** pour créer une fenêtre indépendante qui comporte une bordure et un menu fenêtre. Le style de **\_ légende WS** doit être combiné avec le style **WS \_ POPUPWINDOW** pour afficher le menu fenêtre.
 
-### <a name="child-windows"></a>Fenêtres enfants
+### <a name="child-windows"></a>Windows enfants
 
 Une *fenêtre enfant* a le style [**WS \_ Child**](window-styles.md) et est limitée à la zone cliente de sa fenêtre parente. Une application utilise généralement des fenêtres enfants pour diviser la zone cliente d’une fenêtre parente en zones fonctionnelles. Vous créez une fenêtre enfant en spécifiant le style **WS \_ Child** dans la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) .
 
@@ -79,7 +79,7 @@ Une fenêtre enfant a une zone cliente, mais aucune autre fonctionnalité, sauf 
 Cette section décrit les aspects suivants des fenêtres enfants :
 
 -   [Plaçant](#positioning)
--   [Portion](#clipping)
+-   [Découpage](#clipping)
 -   [Relation avec la fenêtre parente](#relationship-to-parent-window)
 -   [Messages](#size-and-position-messages)
 
@@ -100,7 +100,7 @@ Le système positionne toujours une fenêtre enfant par rapport à l’angle sup
 
  
 
-#### <a name="clipping"></a>Portion
+#### <a name="clipping"></a>Découpage
 
 Le système ne détoure pas automatiquement une fenêtre enfant de la zone cliente de la fenêtre parente. Cela signifie que la fenêtre parente dessine sur la fenêtre enfant si elle effectue un dessin au même emplacement que la fenêtre enfant. Toutefois, le système découpe la fenêtre enfant de la zone cliente de la fenêtre parente si la fenêtre parente a le style [**WS \_ CLIPCHILDREN**](window-styles.md) . Si la fenêtre enfant est découpée, la fenêtre parente ne peut pas dessiner dessus.
 
@@ -124,14 +124,14 @@ Le système transmet les messages d’entrée d’une fenêtre enfant directemen
 
 Une fenêtre enfant peut avoir un identificateur entier unique. Les identificateurs de fenêtre enfants sont importants lorsque vous travaillez avec des fenêtres de contrôle. Une application dirige l’activité d’un contrôle en lui envoyant des messages. L’application utilise l’identificateur de fenêtre enfant du contrôle pour diriger les messages vers le contrôle. En outre, un contrôle envoie des messages de notification à sa fenêtre parente. Un message de notification comprend l’identificateur de fenêtre enfant du contrôle, que le parent utilise pour identifier le contrôle qui a envoyé le message. Une application spécifie l’identificateur de fenêtre enfant pour d’autres types de fenêtres enfants en affectant une valeur au paramètre *HMENU* de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) plutôt qu’à un handle de menu.
 
-### <a name="layered-windows"></a>Fenêtres superposées
+### <a name="layered-windows"></a>Windows en couches
 
 L’utilisation d’une fenêtre superposée peut améliorer considérablement les performances et les effets visuels d’une fenêtre qui a une forme complexe, anime sa forme ou souhaite utiliser les effets de la fusion alpha. Le système compose et repeint automatiquement les fenêtres superposées et les fenêtres des applications sous-jacentes. Par conséquent, les fenêtres superposées sont rendues en douceur, sans le scintillement typique des régions de fenêtre complexes. En outre, les fenêtres superposées peuvent être partiellement translucides, c’est-à-dire qu’elles sont à fusion alpha.
 
 Pour créer une fenêtre superposée, spécifiez le style de fenêtre étendue **WS par \_ \_ couches** en appelant la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) , ou appelez la fonction [**SetWindowLong**](/windows/win32/api/winuser/nf-winuser-setwindowlonga) pour définir **WS \_ ex en \_ couches** après la création de la fenêtre. Après l’appel de **CreateWindowEx** , la fenêtre superposée ne devient visible qu’une fois que la fonction [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) ou [**UpdateLayeredWindow**](/windows/win32/api/winuser/nf-winuser-updatelayeredwindow) a été appelée pour cette fenêtre.
 
 > [!Note]  
-> À partir de Windows 8, **WS \_ ex \_ Layered** peut être utilisé avec les fenêtres enfants et les fenêtres de niveau supérieur. Les versions précédentes de Windows prennent en charge **WS \_ ex \_ Layered** uniquement pour les fenêtres de niveau supérieur.
+> à partir de Windows 8, **WS \_ EX \_ layered** peut être utilisé avec les fenêtres enfants et les fenêtres de niveau supérieur. les versions précédentes de Windows prennent en charge **WS \_ EX \_ layered** uniquement pour les fenêtres de niveau supérieur.
 
  
 
@@ -153,11 +153,11 @@ Pour rechercher des fenêtres de message uniquement, spécifiez [ \_ message HWN
 
 Une fenêtre peut être liée de nombreuses façons à l’utilisateur ou à une autre fenêtre. Une fenêtre peut être une fenêtre détenue, une fenêtre de premier plan ou une fenêtre d’arrière-plan. Une fenêtre a également un ordre de plan par rapport à d’autres fenêtres. Pour plus d'informations, voir les rubriques suivantes :
 
--   [Fenêtres de premier plan et d’arrière-plan](#foreground-and-background-windows)
--   [Fenêtres détenues](#owned-windows)
+-   [Windows de premier plan et d’arrière-plan](#foreground-and-background-windows)
+-   [Windows détenu](#owned-windows)
 -   [Ordre de plan](#z-order)
 
-### <a name="foreground-and-background-windows"></a>Fenêtres de premier plan et d’arrière-plan
+### <a name="foreground-and-background-windows"></a>Windows de premier plan et d’arrière-plan
 
 Chaque processus peut avoir plusieurs threads d’exécution et chaque thread peut créer des fenêtres. Le thread qui a créé la fenêtre avec laquelle l’utilisateur travaille actuellement est appelé le thread de premier plan et la fenêtre est appelée *fenêtre de premier plan*. Tous les autres threads sont des threads d’arrière-plan et les fenêtres créées par les threads d’arrière-plan sont appelées *fenêtres d’arrière-plan*
 
@@ -170,7 +170,7 @@ Une application définit la fenêtre de premier plan à l’aide de la fonction 
 Le système limite les processus qui peuvent définir la fenêtre de premier plan. Un processus peut définir la fenêtre de premier plan uniquement si :
 
 - Toutes les conditions suivantes sont vraies :
-  - Le processus appelant **SetForegroundWindow** appartient à une application de bureau, pas à une application UWP ou à une application Windows Store conçue pour Windows 8 ou 8,1.
+  - le processus appelant **SetForegroundWindow** appartient à une application de bureau, pas à une application UWP ou à une application Windows Store conçue pour Windows 8 ou 8,1.
   - Le processus de premier plan n’a pas désactivé les appels à **SetForegroundWindow** par un appel précédent à la fonction [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) .
   - Le délai d’attente du verrou de premier plan a expiré (voir [ **SPI_GETFOREGROUNDLOCKTIMEOUT** dans **SystemParametersInfo**](/windows/win32/api/winuser/nf-winuser-systemparametersinfoa#SPI_GETFOREGROUNDLOCKTIMEOUT)).
   - Aucun menu n’est actif.
@@ -185,7 +185,7 @@ Il est possible qu’un processus soit refusé au droit de définir la fenêtre 
 
 Un processus qui peut définir la fenêtre de premier plan peut permettre à un autre processus de définir la fenêtre de premier plan en appelant la fonction [**AllowSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow) , ou en appelant la fonction [**BroadcastSystemMessage**](/windows/win32/api/winuser/nf-winuser-broadcastsystemmessage) avec l’indicateur **BSF \_ ALLOWSFW** . Le processus de premier plan peut désactiver les appels à [**SetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-setforegroundwindow) en appelant la fonction [**LockSetForegroundWindow**](/windows/win32/api/winuser/nf-winuser-locksetforegroundwindow) .
 
-### <a name="owned-windows"></a>Fenêtres détenues
+### <a name="owned-windows"></a>Windows détenu
 
 Une fenêtre superposée ou contextuelle peut appartenir à une autre fenêtre superposée ou indépendante. La propriété d’un propriétaire place plusieurs contraintes sur une fenêtre.
 
@@ -214,9 +214,9 @@ L’utilisateur modifie l’ordre de plan en activant une autre fenêtre. Le sys
 À un moment donné, une fenêtre peut être active ou inactive ; masqué ou visible ; et réduite, agrandie ou restaurée. Ces qualités sont désignées collectivement dans la *fenêtre afficher l’État*. Les rubriques suivantes traitent de l’état de l’affichage de la fenêtre :
 
 -   [Fenêtre active](#active-window)
--   [Fenêtres désactivées](#disabled-windows)
+-   [Désactivée Windows](#disabled-windows)
 -   [Visibilité de la fenêtre](#window-visibility)
--   [Fenêtres réduites, agrandies et restaurées](#minimized-maximized-and-restored-windows)
+-   [Réduit, agrandi et restauré Windows](#minimized-maximized-and-restored-windows)
 
 ### <a name="active-window"></a>Fenêtre active
 
@@ -226,7 +226,7 @@ Une seule fenêtre de niveau supérieur dans le système est active à la fois. 
 
 Lorsque l’activation passe d’une fenêtre de niveau supérieur d’une application à la fenêtre de niveau supérieur d’une autre, le système envoie un message [**WM \_ ACTIVATEAPP**](wm-activateapp.md) aux deux applications, en les avertissant de la modification. Lorsque l’activation passe à une autre fenêtre de niveau supérieur dans la même application, le système envoie un message d' [**\_ activation WM**](../inputdev/wm-activate.md) à la fois Windows.
 
-### <a name="disabled-windows"></a>Fenêtres désactivées
+### <a name="disabled-windows"></a>Désactivée Windows
 
 Une fenêtre peut être désactivée. Une *fenêtre désactivée* ne reçoit aucune entrée de clavier ou de souris de l’utilisateur, mais elle peut recevoir des messages d’autres fenêtres, d’autres applications et du système. Une application désactive généralement une fenêtre pour empêcher l’utilisateur d’utiliser la fenêtre. Par exemple, une application peut désactiver un bouton de commande dans une boîte de dialogue pour empêcher l’utilisateur de la choisir. Une application peut activer une fenêtre désactivée à tout moment ; l’activation d’une fenêtre restaure l’entrée normale.
 
@@ -250,7 +250,7 @@ Quand une fenêtre parente est visible, ses fenêtres enfants associées sont é
 
 Même si une fenêtre a le style [**WS \_ visible**](window-styles.md) , il se peut que l’utilisateur ne soit pas en mesure de voir la fenêtre à l’écran ; les autres fenêtres peuvent se chevaucher complètement ou être déplacées au-delà du bord de l’écran. En outre, une fenêtre enfant visible est soumise aux règles de découpage établies par sa relation parent-enfant. Si la fenêtre parente de la fenêtre n’est pas visible, elle n’est pas non plus visible. Si la fenêtre parente se déplace au-delà du bord de l’écran, la fenêtre enfant se déplace également, car une fenêtre enfant est dessinée par rapport à l’angle supérieur gauche du parent. Par exemple, un utilisateur peut déplacer la fenêtre parente contenant la fenêtre enfant suffisamment loin du bord de l’écran pour que l’utilisateur ne puisse pas voir la fenêtre enfant, même si la fenêtre enfant et sa fenêtre parente possèdent toutes les deux le style **WS \_ visible** .
 
-### <a name="minimized-maximized-and-restored-windows"></a>Fenêtres réduites, agrandies et restaurées
+### <a name="minimized-maximized-and-restored-windows"></a>Réduit, agrandi et restauré Windows
 
 Une *fenêtre agrandie* est une fenêtre avec le style [**WS \_ Maximize**](window-styles.md) . Par défaut, le système élargit une fenêtre agrandie afin qu'elle remplisse l'écran ou la zone cliente d'une fenêtre parente, s'il s'agit d'une fenêtre enfant. Bien que la taille d’une fenêtre puisse être définie sur la même taille qu’une fenêtre agrandie, une fenêtre agrandie est légèrement différente. Le système déplace automatiquement la barre de titre de la fenêtre vers le haut de l’écran ou vers le haut de la zone cliente de la fenêtre parente. En outre, le système désactive la bordure de dimensionnement de la fenêtre et la fonctionnalité de positionnement de la fenêtre de la barre de titre (afin que l’utilisateur ne puisse pas déplacer la fenêtre en faisant glisser la barre de titre).
 
@@ -341,7 +341,7 @@ Vous pouvez également utiliser l’indicateur **aw \_ Center** pour faire appar
 
 ## <a name="window-layout-and-mirroring"></a>Disposition des fenêtres et mise en miroir
 
-La disposition de la fenêtre définit comment les objets de texte et les objets GDI (Windows Graphics Device Interface) sont disposés dans une fenêtre ou un contexte de périphérique (DC). Certains langages, tels que l’anglais, le français et l’allemand, requièrent une disposition de gauche à droite (LTR). D’autres langages, tels que l’arabe et l’hébreu, requièrent une disposition de droite à gauche (RTL). La disposition de la fenêtre s’applique au texte, mais affecte également les autres éléments GDI de la fenêtre, y compris les bitmaps, les icônes, l’emplacement de l’origine, les boutons, les contrôles d’arborescence en cascade et si la coordonnée horizontale augmente au fur et à mesure que vous vous rendez à gauche ou à droite. Par exemple, une fois qu’une application a défini la disposition RTL, l’origine est positionnée sur le bord droit de la fenêtre ou du périphérique, et le nombre représentant la coordonnée horizontale augmente à mesure que vous déplacez la gauche. Toutefois, tous les objets ne sont pas affectés par la disposition d’une fenêtre. Par exemple, la disposition pour les boîtes de dialogue, les boîtes de message et les contextes de périphérique qui ne sont pas associés à une fenêtre, tels que les contrôleurs de schéma et les DC d’imprimante, doit être gérée séparément. Les spécificités de ces dernières sont mentionnées plus loin dans cette rubrique.
+la disposition de la fenêtre définit la disposition des objets GDI (text et Windows Graphics Device Interface) dans une fenêtre ou un contexte de périphérique (DC). Certains langages, tels que l’anglais, le français et l’allemand, requièrent une disposition de gauche à droite (LTR). D’autres langages, tels que l’arabe et l’hébreu, requièrent une disposition de droite à gauche (RTL). La disposition de la fenêtre s’applique au texte, mais affecte également les autres éléments GDI de la fenêtre, y compris les bitmaps, les icônes, l’emplacement de l’origine, les boutons, les contrôles d’arborescence en cascade et si la coordonnée horizontale augmente au fur et à mesure que vous vous rendez à gauche ou à droite. Par exemple, une fois qu’une application a défini la disposition RTL, l’origine est positionnée sur le bord droit de la fenêtre ou du périphérique, et le nombre représentant la coordonnée horizontale augmente à mesure que vous déplacez la gauche. Toutefois, tous les objets ne sont pas affectés par la disposition d’une fenêtre. Par exemple, la disposition pour les boîtes de dialogue, les boîtes de message et les contextes de périphérique qui ne sont pas associés à une fenêtre, tels que les contrôleurs de schéma et les DC d’imprimante, doit être gérée séparément. Les spécificités de ces dernières sont mentionnées plus loin dans cette rubrique.
 
 Les fonctions de fenêtre vous permettent de spécifier ou de modifier la disposition des fenêtres en arabe et en hébreu dans les versions de Windows. Notez que le passage à une disposition RTL (également connue sous le nom de mise en miroir) n’est pas pris en charge pour les fenêtres qui ont le style [cs \_ OWNDC](about-window-classes.md) ou pour un contrôleur de périphérique avec le \_ mode graphique GM Advanced.
 

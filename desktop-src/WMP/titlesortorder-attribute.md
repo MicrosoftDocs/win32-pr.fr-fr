@@ -3,7 +3,7 @@ title: Attribut TitleSortOrder
 description: L’attribut TitleSortOrder est la valeur à utiliser pour trier la colonne title dans la bibliothèque.
 ms.assetid: 199e02f8-c0df-49cb-baba-6c6d7b18a0c0
 keywords:
-- Attribut TitleSortOrder lecteur Windows Media
+- Lecteur Windows Media de l’attribut TitleSortOrder
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d407f0606b0125e748406b21570585a449897639
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72e85f9ca04ec62b3d8b867c74de4188deb1992903550e4af150ba0b87b42e47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122789"
 ---
 # <a name="titlesortorder-attribute"></a>Attribut TitleSortOrder
 
@@ -29,7 +29,7 @@ L’attribut **TitleSortOrder** est la valeur à utiliser pour trier la colonne 
 -   [Autres éléments](other-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

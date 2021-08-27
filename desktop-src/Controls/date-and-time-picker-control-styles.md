@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d24e7543e4e843fc70e0ccacdab670e18e46cf3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6f9740e0de413649b67cc8231d31425d212d2571dbc9a1b703f9f95c35e4981
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085759"
 ---
 # <a name="date-and-time-picker-control-styles"></a>Styles de contrôle de sélecteur de date et d’heure
 
@@ -45,7 +45,7 @@ Les styles de fenêtre répertoriés ici sont spécifiques aux contrôles de sé
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les \_ styles XXXFORMAT DTS qui définissent le format d’affichage ne peuvent pas être combinés. Si aucun des styles de mise en forme ne convient, utilisez un message [**DTM \_ SETFORMAT**](dtm-setformat.md) pour définir un format personnalisé.
 

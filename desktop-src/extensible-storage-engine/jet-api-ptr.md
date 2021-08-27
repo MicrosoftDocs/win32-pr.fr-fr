@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 687f28fcba3d20c5b72a3089d3a442dd97e2dfb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 401c490c667cd8f9842a7ab0429e10a510e3b06e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534084"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466396"
 ---
 # <a name="jet_api_ptr"></a>JET_API_PTR
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_api_ptr"></a>JET_API_PTR
 
@@ -47,7 +47,7 @@ JET_API_PTR
 
 À l’instar d’un type de données **DWORD_PTR** , le type de données **JET_API_PTR** est défini sur 4 octets sur un ordinateur 32 bits et sur 8 octets sur un ordinateur 64 bits.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Le type de données **JET_API_PTR** est utilisé pour définir les types de données suivants :
 
@@ -63,23 +63,6 @@ Le type de données **JET_API_PTR** est utilisé pour définir les types de donn
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+

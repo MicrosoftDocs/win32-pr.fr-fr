@@ -3,7 +3,7 @@ title: Message CB_INSERTSTRING (winuser. h)
 description: Insère une chaîne ou des données d’élément dans la liste d’une zone de liste déroulante. Contrairement au \_ message CB ADDSTRING, le \_ message CB INSERTSTRING n’entraîne pas le tri d’une liste avec le \_ style de tri CBS.
 ms.assetid: b9067b4e-afca-4c78-9ca2-c717b99c7459
 keywords:
-- CB_INSERTSTRING les contrôles de message Windows
+- CB_INSERTSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14d050980137bc34652cb2fce39b9f188f4d5cd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcebd3ed5c52a40f3ca5d49031948f76edfa9d6d98974cec104c4b8e283c101a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089069"
 ---
 # <a name="cb_insertstring-message"></a>\_Message INSERTSTRING CB
 
@@ -55,8 +55,8 @@ Si la zone de liste déroulante a le style [**WS \_ HSCROLL**](/windows/desktop/
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

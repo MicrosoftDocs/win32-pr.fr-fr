@@ -4,12 +4,12 @@ description: AccNavigate \_ ReturnedElementWithIncorrectParent
 ms.assetid: 44447E47-04D5-4784-B5E9-E8C62A9834CE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3bdff54c9c594cde4e6e57fe1886a900c913eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fd040cda80e9dcb19543c8ee5134271693546dfdb8af76053b5a281340080765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104558968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122463"
 ---
 # <a name="accnavigate_returnedelementwithincorrectparent"></a>AccNavigate \_ ReturnedElementWithIncorrectParent
 
@@ -19,7 +19,7 @@ Appel de accNavigate ((Live Search), 0, NAVDIR \_ firstChild) qui a renvoyé (x-
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -43,9 +43,9 @@ Implémentation MSAA incorrecte ou non valide.
 [**IAccessible :: \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

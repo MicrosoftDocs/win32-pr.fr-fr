@@ -4,12 +4,12 @@ ms.assetid: adb39f27-c219-43cd-9e86-b2d3b663c79c
 title: Utilisation d’adresses IPv4 codées en dur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8205840b1c79afcaf375b81f3223a1c780cc03d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0506f200776402464c4b2904435157c435ece7fc2c6d9e0b10bfd1c1d66491
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121199"
 ---
 # <a name="use-of-hardcoded-ipv4-addresses"></a>Utilisation d’adresses IPv4 codées en dur
 
@@ -25,7 +25,7 @@ Code pour éviter
 
 **Pour modifier votre base de code existante de IPv4 en IPv4 et IPv6-interopérabilité**
 
-1.  Acquérir l’utilitaire *Checkv4.exe* . L’utilitaire *Checkv4.exe* est installé dans le cadre du kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures. Le SDK Windows est disponible via un abonnement MSDN et peut également être téléchargé à partir du site Web de Microsoft ( https://msdn.microsoft.com) .
+1.  Acquérir l’utilitaire *Checkv4.exe* . l’utilitaire *Checkv4.exe* est installé dans le cadre du kit de développement logiciel (SDK) de Microsoft Windows commercialisé pour Windows Vista et versions ultérieures. le SDK Windows est disponible via un abonnement MSDN et peut également être téléchargé à partir du site web de Microsoft ( https://msdn.microsoft.com) .
 2.  Exécutez l’utilitaire *Checkv4.exe* sur votre code. Découvrez comment exécuter l’utilitaire *Checkv4.exe* sur vos fichiers dans la section relative à l' [utilisation de l’utilitaire Checkv4.exe](using-the-checkv4-exe-utility-2.md).
 3.  L’utilitaire *Checkv4.exe* vous avertit de la présence de définitions courantes pour les adresses IPv4, telles que le bouclage inaddr \_ . Modifiez tout code qui utilise des chaînes littérales avec du code qui est indépendant de la version de protocole.
 4.  Recherchez dans votre base de code des chaînes littérales potentielles, le cas échéant.
@@ -36,7 +36,7 @@ L’utilitaire *Checkv4.exe* peut vous aider à trouver des chaînes littérales
 
 <dl> <dt>
 
-[Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Modification des structures de données pour IPv6 Winsock appications](changing-data-structures-2.md)

@@ -4,16 +4,16 @@ ms.assetid: caf831bb-b8de-467f-bdb4-f9f8991dc7a8
 title: Notifications appropriées pour le routage de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a843c1d8b5cfd740ada5049cb9428e7745072d
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: ea0660735590853161395b1cf771ba17bbb72e48e072b2f9daa11a0841c9a5c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109459"
 ---
 # <a name="relevant-notifications-for-stream-routing"></a>Notifications appropriées pour le routage de flux
 
-Dans Windows 7, les API de plateforme de haut niveau qui utilisent des API audio de base, telles que Media Foundation, DirectSound et les API Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison audio par défaut. Les applications multimédias qui utilisent ces API utilisent le comportement de routage de flux sans aucune modification de la source. Les clients WASAPI directs peuvent utiliser les notifications envoyées par les composants audio principaux et implémenter la fonctionnalité de routage de flux.
+dans Windows 7, les api de plateforme de haut niveau qui utilisent des api Audio de base, telles que les api Media Foundation, DirectSound et Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison Audio par défaut. Les applications multimédias qui utilisent ces API utilisent le comportement de routage de flux sans aucune modification de la source. Les clients WASAPI directs peuvent utiliser les notifications envoyées par les composants audio principaux et implémenter la fonctionnalité de routage de flux.
 
 Pour implémenter la fonctionnalité de routage de flux, un client doit écouter deux types d’événements : les notifications de modification de l’appareil et les notifications de déconnexion de la session. Dans l’implémentation fournie par les API de haut niveau, ces événements sont envoyés pour les points de terminaison de périphérique par défaut créés en appelant [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint). Pour plus d’informations, consultez [obtention du point de terminaison de l’appareil pour le routage de flux](getting-the-default-device-endpoint-for-stream-routing.md).
 

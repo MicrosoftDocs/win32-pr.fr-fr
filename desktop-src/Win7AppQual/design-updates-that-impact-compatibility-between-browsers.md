@@ -4,12 +4,12 @@ ms.assetid: F2C13FEC-5537-4B0D-BFDB-E17A42A289CB
 title: Concevoir des mises à jour qui ont un impact sur la compatibilité entre les navigateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7b47f7f8a83d7e03dcefec083cbbe962dcd3c12b250d224c2ef1762f749495b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 7bc0600b0c0e79003a86c5b3777f7f569d8c73ef
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119795899"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625925"
 ---
 # <a name="design-updates-that-impact-compatibility-between-browsers"></a>Concevoir des mises à jour qui ont un impact sur la compatibilité entre les navigateurs
 
@@ -19,9 +19,9 @@ Cette section et le tableau suivant présentent les quatre principaux aspects de
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -3,7 +3,7 @@ title: Message LVM_GETITEM (commctrl. h)
 description: Récupère une partie ou la totalité des attributs d’un élément d’affichage de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView GetItem.
 ms.assetid: 684ad96a-2c3b-4148-b66c-41f8322500bb
 keywords:
-- LVM_GETITEM les contrôles de message Windows
+- LVM_GETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c19632567db5e37059b1b028a8ec1fc9385268cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 05338abce0396c5cc527c8a1c04176b3b59243a684c66a263cb190d59ac68b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088899"
 ---
 # <a name="lvm_getitem-message"></a>Message de LVM. \_
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le **message \_ LVM de LVM** est envoyé, les membres **iItem** et **iSubItem** identifient l’élément ou le sous-élément pour lequel récupérer des informations et le membre **Mask** spécifie les attributs à récupérer. Pour obtenir la liste des valeurs possibles, consultez la description de la structure [**LVITEM**](/windows/win32/api/commctrl/ns-commctrl-lvitema) .
 
@@ -59,8 +59,8 @@ Si le membre de **masque** spécifie la \_ valeur d’État LVIF, le membre **st
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ GETITEMW** (Unicode) et **LVM \_ GETITEMA** (ANSI)<br/>                   |
 

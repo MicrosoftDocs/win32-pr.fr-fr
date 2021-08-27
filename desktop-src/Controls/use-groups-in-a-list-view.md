@@ -4,27 +4,27 @@ description: Cette rubrique explique comment créer une instance d’un groupe e
 ms.assetid: 8486B9A2-C519-4912-9E88-3BAFCC4D51CF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec47d73c3e8b808eaf1909bdafb015c7eebc37de
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: edaad657d9ea6b71bac1d06a34a0aa29b99c26e204629e503a9e55531da162b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132119"
 ---
 # <a name="how-to-use-groups-in-a-list-view"></a>Comment utiliser des groupes dans un List-View
 
 Cette rubrique explique comment créer une instance d’un groupe et l’ajouter à un contrôle List View. Le regroupement permet à un utilisateur de réorganiser des listes en groupes d’éléments qui sont répartis visuellement sur la page, à l’aide d’un séparateur horizontal et d’un titre de groupe.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

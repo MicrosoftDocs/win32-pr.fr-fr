@@ -3,9 +3,9 @@ title: Méthode IWMPPlaylist appendItem
 description: La méthode appendItem ajoute un élément multimédia à la fin d’une sélection.
 ms.assetid: d659298b-ec4e-4771-8e9b-8cfd7b3e0eb2
 keywords:
-- méthode appendItem lecteur Windows Media
-- méthode appendItem lecteur Windows Media, interface IWMPPlaylist
-- Interface IWMPPlaylist lecteur Windows Media, méthode appendItem
+- Lecteur Windows Media de la méthode appendItem
+- méthode appendItem Lecteur Windows Media, interface IWMPPlaylist
+- Lecteur Windows Media de l’interface IWMPPlaylist, méthode appendItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a94e1b515ec6301830af2de06bae32602bdf66e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de67c7bbd3448e4b4fcdb562b2b10ace68ed7a2c92020650c79fdd90b05366b2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098699"
 ---
 # <a name="iwmpplaylistappenditem-method"></a>IWMPPlaylist :: appendItem, méthode
 
@@ -64,7 +64,7 @@ Interface **wmplib. IWMPMedia** qui représente l’élément multimédia à ajo
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, vous devez disposer d’un accès complet à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

@@ -1,20 +1,20 @@
 ---
 title: Améliorations de l’infrastructure du shell distant
-description: Windows Remote Management version 2,0 (WinRM 2,0) offre de nombreuses améliorations de l’infrastructure de l’interpréteur de commandes à distance.
+description: Windows La gestion à distance 2,0 (WinRM 2,0) offre de nombreuses améliorations de l’infrastructure de l’interpréteur de commandes à distance.
 ms.assetid: b22693ba-fa43-44bb-9b2d-0c64fad6e3cc
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c67752222f1ca969ea254164a25144168d1eb3
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: bf88a472319b4b4677992f97509a3603cfe4a32f272388caf9db100b6e7457ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104030721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121659"
 ---
 # <a name="remote-shell-infrastructure-improvements"></a>Améliorations de l’infrastructure du shell distant
 
-Windows Remote Management version 2,0 (WinRM 2,0) offre de nombreuses améliorations de l’infrastructure de l’interpréteur de commandes à distance. Les rubriques suivantes décrivent ces améliorations en détail :
+Windows La gestion à distance 2,0 (WinRM 2,0) offre de nombreuses améliorations de l’infrastructure de l’interpréteur de commandes à distance. Les rubriques suivantes décrivent ces améliorations en détail :
 
 -   [Prise en charge de plusieurs tronçons](multi-hop-support.md)
 -   [Gestion des quotas pour les shells distants](quotas.md)
@@ -197,9 +197,9 @@ Pour plus d’informations, consultez l’aide en ligne fournie par la commande 
 [Référence managée pour les commandes WS-Management PowerShell](winrm-powershell-commandlets.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

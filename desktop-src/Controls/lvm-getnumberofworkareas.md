@@ -3,7 +3,7 @@ title: Message LVM_GETNUMBEROFWORKAREAS (commctrl. h)
 description: Récupère le nombre de zones de travail dans un contrôle List-View. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetNumberOfWorkAreas.
 ms.assetid: ce0bcccd-62a2-45a4-959e-9959c9ca0c46
 keywords:
-- LVM_GETNUMBEROFWORKAREAS les contrôles de message Windows
+- LVM_GETNUMBEROFWORKAREAS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a73c62b7184ba60b979356a98a93d2579c8f74a8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 735dbb808755857df3dec4c5e8a021b9fe873e555607dc547bc77e67e123b948
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088879"
 ---
 # <a name="lvm_getnumberofworkareas-message"></a>\_Message GETNUMBEROFWORKAREAS LVM
 
@@ -49,8 +49,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

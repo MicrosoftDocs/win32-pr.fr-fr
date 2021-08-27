@@ -7,12 +7,12 @@ keywords:
 - Caractéristiques des classes d’objets AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c7e750d53597d1532d48c3c463315f8a48bd6d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b9db045501fff2cad8c5baa7c9d3b3ca7a63d140
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724629"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470668"
 ---
 # <a name="characteristics-of-object-classes"></a>Caractéristiques des classes d’objets
 
@@ -27,106 +27,30 @@ Le tableau suivant répertorie le **lDAPDisplayName** et la description des attr
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>lDAPDisplayName</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>cn</strong></td>
-<td>Chaque objet de Active Directory Domain Services a un attribut de nom à partir duquel son nom unique relatif (RDN) est formé. L’attribut de nom pour les objets <strong>classSchema</strong> est <strong>CN</strong> (Common-Name). La valeur assignée à <strong>CN</strong> est la valeur que la classe Object aura comme RDN. Par exemple, le nom <strong>commun</strong> de la classe d’objet <strong>OrganizationalUnit</strong> est une unité d’organisation, qui apparaîtrait dans un nom unique sous la forme CN = Organization-Unit. Le nom <strong>commun</strong> doit être unique dans le conteneur de schéma.</td>
-</tr>
-<tr class="even">
-<td><strong>lDAPDisplayName</strong></td>
-<td>Nom utilisé par les clients LDAP, tels que le fournisseur LDAP ADSI, pour faire référence à la classe, par exemple pour spécifier la classe dans un filtre de recherche. Le <strong>lDAPDisplayName</strong> d’une classe doit être unique dans le conteneur de schéma, ce qui signifie qu’il doit être unique pour tous les objets <strong>classSchema</strong> et <strong>attributeSchema</strong> . Pour plus d’informations sur la composition d’un <strong>CN</strong> et d’un <strong>lDAPDisplayName</strong> pour une nouvelle classe, consultez <a href="naming-attributes-and-classes.md">Naming Attributes and classes</a>.</td>
-</tr>
-<tr class="odd">
-<td><strong>schemaIDGUID</strong></td>
-<td>GUID stocké en tant que chaîne d’octets. Ce GUID identifie de façon unique la classe. Ce GUID peut être utilisé dans les entrées de contrôle d’accès pour contrôler l’accès aux objets de cette classe. Pour plus d’informations, consultez <a href="setting-permissions-on-child-object-operations.md">définition d’autorisations sur les opérations d’objets enfants</a>. Lors de la création de l’objet <strong>classSchema</strong> , le serveur Active Directory génère cette valeur s’il n’est pas spécifié. Si vous créez une nouvelle classe, générez votre propre GUID pour chaque classe afin que toutes les installations de votre extension utilisent le même <strong>schemaIDGUID</strong> pour faire référence à la classe.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>adminDisplayName</strong></td>
-<td>Nom complet de la classe à utiliser dans les outils d’administration. Si <strong>adminDisplayName</strong> n’est pas spécifié lors de la création d’une classe, le système utilise la valeur Common-Name comme nom d’affichage. Ce nom d’affichage est utilisé uniquement si aucun mappage n’existe dans la propriété <strong>classDisplayName</strong> du spécificateur d’affichage de la classe. Pour plus d’informations, consultez <a href="display-specifiers.md">spécificateurs d’affichage</a> , <a href="class-and-attribute-display-names.md">noms d’affichage de classes et d’attributs</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>governsID</strong></td>
-<td>OID de la classe. Cette valeur doit être unique parmi les <strong>governsIDs</strong> de tous les objets <strong>classSchema</strong> et les <strong>AttributeIDs</strong> de tous les objets <strong>attributeSchema</strong> . Pour plus d’informations, consultez <a href="object-identifiers.md">identificateurs d’objets</a>.</td>
-</tr>
-<tr class="even">
-<td><strong>rDnAttId</strong></td>
-<td>Identifie l’attribut d’affectation de noms, qui est l’attribut qui fournit le RDN pour cette classe, si différent de la valeur par défaut (<strong>CN</strong>). L’utilisation d’un attribut de nom autre que <strong>CN</strong> est déconseillée. Les attributs de nom doivent être tirés de l’ensemble connu (UO, CN, O, L et DC) qui est compris par tous les clients LDAP version 3. Pour plus d’informations, consultez <a href="object-names-and-identities.md">noms et identités d’objets</a> et <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">syntaxes pour les attributs dans Active Directory Domain Services</a>. Un attribut de nom doit avoir la syntaxe de chaîne de répertoire. Pour plus d’informations, consultez <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">syntaxes for Attributes in Active Directory Domain Services</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>mustContain</strong>, <strong>systemMustContain</strong></td>
-<td>Paire de propriétés à valeurs multiples qui spécifient les attributs qui doivent être présents sur les instances de cette classe. Il s’agit d’attributs obligatoires qui doivent être présents pendant la création et ne peuvent pas être effacés après la création. Après la création de la classe, ces propriétés ne peuvent pas être modifiées. Le jeu complet d’attributs obligatoires pour une classe est l’Union des valeurs <strong>systemMustContain</strong> et <strong>mustContain</strong> sur cette classe et toutes les classes héritées.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>mayContain</strong>, <strong>systemMayContain</strong></td>
-<td>Paire de propriétés à valeurs multiples qui spécifient les attributs qui peuvent être présents sur les instances de cette classe. Il s’agit d’attributs facultatifs qui ne sont pas obligatoires et qui, par conséquent, peuvent être présents ou non sur une instance de cette classe. Vous pouvez ajouter ou supprimer des valeurs <strong>mayContain</strong> à partir d’un objet <strong>classSchema</strong> de catégorie 1 ou 2 existant. Avant de supprimer une valeur <strong>mayContain</strong> d’un objet <strong>classSchema</strong> , vous devez rechercher les instances de la classe d’objet et effacer toutes les valeurs de l’attribut que vous supprimez. Après la création de la classe, la propriété <strong>systemMayContain</strong> ne peut pas être modifiée. le jeu complet d’attributs facultatifs pour une classe est l’Union des valeurs <strong>systemMayContain</strong> et <strong>mayContain</strong> sur cette classe et toutes les classes héritées.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>possSuperiors</strong>, <strong>systemPossSuperiors</strong></td>
-<td>Paire de propriétés à valeurs multiples qui spécifient les classes structurelles qui peuvent être des parents juridiques des instances de cette classe. L’ensemble complet des supérieurs possibles est l’Union des valeurs <strong>systemPossSuperiors</strong> et <strong>possSuperiors</strong> sur cette classe et toutes les classes structurelles ou abstraites héritées. les valeurs <strong>systemPossSuperiors</strong> et <strong>possSuperiors</strong> ne sont pas héritées des classes auxiliaires. Vous pouvez ajouter ou supprimer des valeurs <strong>possSuperiors</strong> à partir d’un objet <strong>classSchema</strong> de catégorie 1 ou 2 existant. Après la création de la classe, la propriété <strong>systemPossSuperiors</strong> ne peut pas être modifiée.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>objectClassCategory</strong></td>
-<td>Valeur entière qui spécifie la catégorie de la classe, qui peut être l’une des suivantes :
-<ul>
-<li>Structure, ce qui signifie qu’elle peut être instanciée dans l’annuaire.</li>
-<li>Abstrait, ce qui signifie que la classe fournit une définition de base d’une classe qui peut être utilisée pour former des classes structurelles.</li>
-<li>Auxiliaire, ce qui signifie qu’une classe peut être utilisée pour étendre la définition d’une classe qui hérite de celle-ci, mais ne peut pas être utilisée pour former une classe par elle-même.</li>
-</ul>
-Pour plus d’informations, consultez <a href="structural-abstract-and-auxiliary-classes.md">classes structurelles, abstraites et auxiliaires</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>subClassOf</strong></td>
-<td>OID pour la superclasse immédiate de cette classe, autrement dit, la classe à partir de laquelle cette classe est dérivée. Pour les classes structurelles, <strong>subClassOf</strong> peut être une classe structurelle ou abstraite.<br/> Pour les classes abstraites, <strong>subClassOf</strong> peut être une classe abstraite uniquement.<br/> Pour les classes auxiliaires, <strong>subClassOf</strong> peut être une classe abstraite ou auxiliaire.<br/> Si vous définissez une nouvelle classe, assurez-vous que la classe <strong>subClassOf</strong> existe ou qu’elle existera lorsque la nouvelle classe sera écrite dans le répertoire. Si la classe n’existe pas, l’objet <strong>classSchema</strong> n’est pas ajouté au répertoire.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>auxiliaryClass</strong>, <strong>systemAuxiliaryClass</strong></td>
-<td>Paire de propriétés à valeurs multiples qui spécifient les classes auxiliaires dont cette classe hérite. L’ensemble complet des classes auxiliaires est l’Union des valeurs <strong>systemAuxiliaryClass</strong> et <strong>auxiliaryClass</strong> sur cette classe et toutes les classes héritées. Pour un objet <strong>classSchema</strong> existant, les valeurs peuvent être ajoutées à la propriété <strong>auxiliaryClass</strong> , mais pas supprimées. Après la création de la classe, la propriété <strong>systemAuxiliaryClass</strong> ne peut pas être modifiée.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>defaultObjectCategory</strong></td>
-<td>Nom unique de cette classe d’objet ou de l’une de ses superclasses. Lorsqu’une instance de cette classe d’objets est créée, le système affecte à la propriété <strong>objectCategory</strong> de la nouvelle instance la valeur spécifiée dans la propriété <strong>defaultObjectCategory</strong> de sa classe d’objet. La propriété <strong>objectCategory</strong> est une propriété indexée qui permet d’augmenter l’efficacité des recherches de classes d’objets. Si <strong>defaultObjectCategory</strong> n’est pas spécifié lors de la création d’une classe, le système lui affecte le nom unique (DN) de l’objet <strong>classSchema</strong> pour cette classe. Si cet objet est fréquemment interrogé par la valeur d’une superclasse plutôt que par la propre classe de l’objet, vous pouvez définir <strong>defaultObjectCategory</strong> sur le DN de la superclasse. Par exemple, si vous sous-classez une classe prédéfinie (catégorie 1), la meilleure pratique consiste à définir <strong>defaultObjectCategory</strong> sur la même valeur que la superclasse. Cela permet à l’interface utilisateur standard de &quot; Rechercher &quot; votre sous-classe.<br/> Pour plus d’informations, consultez <a href="object-class-and-object-category.md">classe d’objet et catégorie d’objet</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>defaultHidingValue</strong></td>
-<td>Valeur booléenne qui spécifie le paramètre par défaut de la propriété <strong>showInAdvancedViewOnly</strong> des nouvelles instances de cette classe. De nombreux objets d’annuaire ne sont pas intéressants pour les utilisateurs finaux. Pour éviter que ces objets encombrent l’interface utilisateur, chaque objet possède un attribut booléen appelé <strong>showInAdvancedViewOnly</strong>. Si <strong>defaultHidingValue</strong> a la valeur <strong>true</strong>, les nouvelles instances d’objet sont masquées dans les composants logiciels enfichables d’administration et le shell Windows. Un élément de menu de la classe d’objet n’apparaît pas dans le <strong>nouveau</strong> menu contextuel des composants logiciels enfichables d’administration même si les propriétés appropriées de l’Assistant de création sont définies sur l’objet <strong>displaySpecifier</strong> de la classe d’objets.<br/> Si <strong>defaultHidingValue</strong> est défini sur <strong>false</strong>, les nouvelles instances de l’objet sont affichées dans les composants logiciels enfichables d’administration et dans le shell Windows. Affectez la valeur <strong>false</strong> à cette propriété pour afficher les instances de la classe dans les composants logiciels enfichables d’administration et l’interpréteur de commandes, puis activez un assistant de création et son élément de menu dans le <strong>nouveau</strong> menu des composants logiciels enfichables d’administration.<br/> Si la valeur <strong>defaultHidingValue</strong> n’est pas définie, la valeur par défaut est <strong>true</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>systemFlags</strong></td>
-<td>Valeur entière qui contient des indicateurs qui définissent des propriétés supplémentaires de la classe. Le bit 0x10 identifie une classe de catégorie 1 (une classe qui fait partie du schéma de base inclus dans le système). Vous ne pouvez pas définir ce bit, ce qui signifie que le bit n’est pas défini dans les classes de catégorie 2 (qui sont des extensions du schéma).</td>
-</tr>
-<tr class="even">
-<td><strong>systemOnly</strong></td>
-<td>Valeur booléenne qui spécifie si seul le serveur de Active Directory peut modifier la classe. Les classes système uniquement peuvent être créées ou supprimées uniquement par l’agent de système d’annuaire (DSA). Les classes système uniquement sont celles dont le système dépend pour les opérations normales.</td>
-</tr>
-<tr class="odd">
-<td><strong>defaultSecurityDescriptor</strong></td>
-<td>Spécifie le descripteur de sécurité par défaut pour les nouveaux objets de cette classe. Pour plus d’informations, consultez <a href="default-security-descriptor.md">descripteur de sécurité par défaut</a> et <a href="how-security-descriptors-are-set-on-new-directory-objects.md">Comment les descripteurs de sécurité sont définis sur les nouveaux objets d’annuaire</a>.</td>
-</tr>
-<tr class="even">
-<td><strong>Définie</strong></td>
-<td>Valeur booléenne qui indique si la classe est défunte. Pour plus d’informations, consultez <a href="disabling-existing-classes-and-attributes.md">désactivation des classes et attributs existants</a>.</td>
-</tr>
-<tr class="odd">
-<td><strong>description</strong></td>
-<td>Description textuelle de la classe à utiliser par les applications administratives.</td>
-</tr>
-<tr class="even">
-<td><strong>objectClass</strong></td>
-<td>Identifie la classe d’objet dont cet objet est une instance, qui est la classe d’objet <strong>classSchema</strong> pour toutes les définitions de classe et la classe d’objet <strong>attributeSchema</strong> pour toutes les définitions d’attributs.</td>
-</tr>
-</tbody>
-</table>
+
+| lDAPDisplayName | Description | 
+|-----------------|-------------|
+| <strong>8525</strong> | Chaque objet de Active Directory Domain Services a un attribut de nom à partir duquel son nom unique relatif (RDN) est formé. L’attribut de nom pour les objets <strong>classSchema</strong> est <strong>CN</strong> (Common-Name). La valeur assignée à <strong>CN</strong> est la valeur que la classe Object aura comme RDN. Par exemple, le nom <strong>commun</strong> de la classe d’objet <strong>OrganizationalUnit</strong> est une unité d’organisation, qui apparaîtrait dans un nom unique sous la forme CN = Organization-Unit. Le nom <strong>commun</strong> doit être unique dans le conteneur de schéma. | 
+| <strong>lDAPDisplayName</strong> | Nom utilisé par les clients LDAP, tels que le fournisseur LDAP ADSI, pour faire référence à la classe, par exemple pour spécifier la classe dans un filtre de recherche. Le <strong>lDAPDisplayName</strong> d’une classe doit être unique dans le conteneur de schéma, ce qui signifie qu’il doit être unique pour tous les objets <strong>classSchema</strong> et <strong>attributeSchema</strong> . Pour plus d’informations sur la composition d’un <strong>CN</strong> et d’un <strong>lDAPDisplayName</strong> pour une nouvelle classe, consultez <a href="naming-attributes-and-classes.md">Naming Attributes and classes</a>. | 
+| <strong>schemaIDGUID</strong> | GUID stocké en tant que chaîne d’octets. Ce GUID identifie de façon unique la classe. Ce GUID peut être utilisé dans les entrées de contrôle d’accès pour contrôler l’accès aux objets de cette classe. Pour plus d’informations, consultez <a href="setting-permissions-on-child-object-operations.md">définition d’autorisations sur les opérations d’objets enfants</a>. Lors de la création de l’objet <strong>classSchema</strong> , le serveur Active Directory génère cette valeur s’il n’est pas spécifié. Si vous créez une nouvelle classe, générez votre propre GUID pour chaque classe afin que toutes les installations de votre extension utilisent le même <strong>schemaIDGUID</strong> pour faire référence à la classe.<br /> | 
+| <strong>adminDisplayName</strong> | Nom complet de la classe à utiliser dans les outils d’administration. Si <strong>adminDisplayName</strong> n’est pas spécifié lors de la création d’une classe, le système utilise la valeur Common-Name comme nom d’affichage. Ce nom d’affichage est utilisé uniquement si aucun mappage n’existe dans la propriété <strong>classDisplayName</strong> du spécificateur d’affichage de la classe. Pour plus d’informations, consultez <a href="display-specifiers.md">spécificateurs d’affichage</a> , <a href="class-and-attribute-display-names.md">noms d’affichage de classes et d’attributs</a>.<br /> | 
+| <strong>governsID</strong> | OID de la classe. Cette valeur doit être unique parmi les <strong>governsIDs</strong> de tous les objets <strong>classSchema</strong> et les <strong>AttributeIDs</strong> de tous les objets <strong>attributeSchema</strong> . Pour plus d’informations, consultez <a href="object-identifiers.md">identificateurs d’objets</a>. | 
+| <strong>rDnAttId</strong> | Identifie l’attribut d’affectation de noms, qui est l’attribut qui fournit le RDN pour cette classe, si différent de la valeur par défaut (<strong>CN</strong>). L’utilisation d’un attribut de nom autre que <strong>CN</strong> est déconseillée. Les attributs de nom doivent être tirés de l’ensemble connu (UO, CN, O, L et DC) qui est compris par tous les clients LDAP version 3. Pour plus d’informations, consultez <a href="object-names-and-identities.md">noms et identités d’objets</a> et <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">syntaxes pour les attributs dans Active Directory Domain Services</a>. Un attribut de nom doit avoir la syntaxe de chaîne de répertoire. Pour plus d’informations, consultez <a href="syntaxes-for-attributes-in-active-directory-domain-services.md">syntaxes for Attributes in Active Directory Domain Services</a>.<br /> | 
+| <strong>mustContain</strong>, <strong>systemMustContain</strong> | Paire de propriétés à valeurs multiples qui spécifient les attributs qui doivent être présents sur les instances de cette classe. Il s’agit d’attributs obligatoires qui doivent être présents pendant la création et ne peuvent pas être effacés après la création. Après la création de la classe, ces propriétés ne peuvent pas être modifiées. Le jeu complet d’attributs obligatoires pour une classe est l’Union des valeurs <strong>systemMustContain</strong> et <strong>mustContain</strong> sur cette classe et toutes les classes héritées.<br /> | 
+| <strong>mayContain</strong>, <strong>systemMayContain</strong> | Paire de propriétés à valeurs multiples qui spécifient les attributs qui peuvent être présents sur les instances de cette classe. Il s’agit d’attributs facultatifs qui ne sont pas obligatoires et qui, par conséquent, peuvent être présents ou non sur une instance de cette classe. Vous pouvez ajouter ou supprimer des valeurs <strong>mayContain</strong> à partir d’un objet <strong>classSchema</strong> de catégorie 1 ou 2 existant. Avant de supprimer une valeur <strong>mayContain</strong> d’un objet <strong>classSchema</strong> , vous devez rechercher les instances de la classe d’objet et effacer toutes les valeurs de l’attribut que vous supprimez. Après la création de la classe, la propriété <strong>systemMayContain</strong> ne peut pas être modifiée. le jeu complet d’attributs facultatifs pour une classe est l’Union des valeurs <strong>systemMayContain</strong> et <strong>mayContain</strong> sur cette classe et toutes les classes héritées.<br /> | 
+| <strong>possSuperiors</strong>, <strong>systemPossSuperiors</strong> | Paire de propriétés à valeurs multiples qui spécifient les classes structurelles qui peuvent être des parents juridiques des instances de cette classe. L’ensemble complet des supérieurs possibles est l’Union des valeurs <strong>systemPossSuperiors</strong> et <strong>possSuperiors</strong> sur cette classe et toutes les classes structurelles ou abstraites héritées. les valeurs <strong>systemPossSuperiors</strong> et <strong>possSuperiors</strong> ne sont pas héritées des classes auxiliaires. Vous pouvez ajouter ou supprimer des valeurs <strong>possSuperiors</strong> à partir d’un objet <strong>classSchema</strong> de catégorie 1 ou 2 existant. Après la création de la classe, la propriété <strong>systemPossSuperiors</strong> ne peut pas être modifiée.<br /> | 
+| <strong>objectClassCategory</strong> | Valeur entière qui spécifie la catégorie de la classe, qui peut être l’une des suivantes :<ul><li>Structure, ce qui signifie qu’elle peut être instanciée dans l’annuaire.</li><li>Abstrait, ce qui signifie que la classe fournit une définition de base d’une classe qui peut être utilisée pour former des classes structurelles.</li><li>Auxiliaire, ce qui signifie qu’une classe peut être utilisée pour étendre la définition d’une classe qui hérite de celle-ci, mais ne peut pas être utilisée pour former une classe par elle-même.</li></ul>Pour plus d’informations, consultez <a href="structural-abstract-and-auxiliary-classes.md">classes structurelles, abstraites et auxiliaires</a>.<br /> | 
+| <strong>subClassOf</strong> | OID pour la superclasse immédiate de cette classe, autrement dit, la classe à partir de laquelle cette classe est dérivée. Pour les classes structurelles, <strong>subClassOf</strong> peut être une classe structurelle ou abstraite.<br /> Pour les classes abstraites, <strong>subClassOf</strong> peut être une classe abstraite uniquement.<br /> Pour les classes auxiliaires, <strong>subClassOf</strong> peut être une classe abstraite ou auxiliaire.<br /> Si vous définissez une nouvelle classe, assurez-vous que la classe <strong>subClassOf</strong> existe ou qu’elle existera lorsque la nouvelle classe sera écrite dans le répertoire. Si la classe n’existe pas, l’objet <strong>classSchema</strong> n’est pas ajouté au répertoire.<br /> | 
+| <strong>auxiliaryClass</strong>, <strong>systemAuxiliaryClass</strong> | Paire de propriétés à valeurs multiples qui spécifient les classes auxiliaires dont cette classe hérite. L’ensemble complet des classes auxiliaires est l’Union des valeurs <strong>systemAuxiliaryClass</strong> et <strong>auxiliaryClass</strong> sur cette classe et toutes les classes héritées. Pour un objet <strong>classSchema</strong> existant, les valeurs peuvent être ajoutées à la propriété <strong>auxiliaryClass</strong> , mais pas supprimées. Après la création de la classe, la propriété <strong>systemAuxiliaryClass</strong> ne peut pas être modifiée.<br /> | 
+| <strong>defaultObjectCategory</strong> | Nom unique de cette classe d’objet ou de l’une de ses superclasses. Lorsqu’une instance de cette classe d’objets est créée, le système affecte à la propriété <strong>objectCategory</strong> de la nouvelle instance la valeur spécifiée dans la propriété <strong>defaultObjectCategory</strong> de sa classe d’objet. La propriété <strong>objectCategory</strong> est une propriété indexée qui permet d’augmenter l’efficacité des recherches de classes d’objets. Si <strong>defaultObjectCategory</strong> n’est pas spécifié lors de la création d’une classe, le système lui affecte le nom unique (DN) de l’objet <strong>classSchema</strong> pour cette classe. Si cet objet est fréquemment interrogé par la valeur d’une superclasse plutôt que par la propre classe de l’objet, vous pouvez définir <strong>defaultObjectCategory</strong> sur le DN de la superclasse. Par exemple, si vous sous-classez une classe prédéfinie (catégorie 1), la meilleure pratique consiste à définir <strong>defaultObjectCategory</strong> sur la même valeur que la superclasse. Cela permet à l’interface utilisateur standard de « rechercher » votre sous-classe.<br /> Pour plus d’informations, consultez <a href="object-class-and-object-category.md">classe d’objet et catégorie d’objet</a>.<br /> | 
+| <strong>defaultHidingValue</strong> | Valeur booléenne qui spécifie le paramètre par défaut de la propriété <strong>showInAdvancedViewOnly</strong> des nouvelles instances de cette classe. De nombreux objets d’annuaire ne sont pas intéressants pour les utilisateurs finaux. Pour éviter que ces objets encombrent l’interface utilisateur, chaque objet possède un attribut booléen appelé <strong>showInAdvancedViewOnly</strong>. si <strong>defaultHidingValue</strong> a la valeur <strong>TRUE</strong>, les nouvelles instances d’objet sont masquées dans les composants logiciels enfichables d’administration et l’interpréteur de commandes Windows. Un élément de menu de la classe d’objet n’apparaît pas dans le <strong>nouveau</strong> menu contextuel des composants logiciels enfichables d’administration même si les propriétés appropriées de l’Assistant de création sont définies sur l’objet <strong>displaySpecifier</strong> de la classe d’objets.<br /> si <strong>defaultHidingValue</strong> a la valeur <strong>false</strong>, les nouvelles instances de l’objet sont affichées dans les composants logiciels enfichables d’administration et le shell Windows. Affectez la valeur <strong>false</strong> à cette propriété pour afficher les instances de la classe dans les composants logiciels enfichables d’administration et l’interpréteur de commandes, puis activez un assistant de création et son élément de menu dans le <strong>nouveau</strong> menu des composants logiciels enfichables d’administration.<br /> Si la valeur <strong>defaultHidingValue</strong> n’est pas définie, la valeur par défaut est <strong>true</strong>.<br /> | 
+| <strong>systemFlags</strong> | Valeur entière qui contient des indicateurs qui définissent des propriétés supplémentaires de la classe. Le bit 0x10 identifie une classe de catégorie 1 (une classe qui fait partie du schéma de base inclus dans le système). Vous ne pouvez pas définir ce bit, ce qui signifie que le bit n’est pas défini dans les classes de catégorie 2 (qui sont des extensions du schéma). | 
+| <strong>systemOnly</strong> | Valeur booléenne qui spécifie si seul le serveur de Active Directory peut modifier la classe. Les classes système uniquement peuvent être créées ou supprimées uniquement par l’agent de système d’annuaire (DSA). Les classes système uniquement sont celles dont le système dépend pour les opérations normales. | 
+| <strong>defaultSecurityDescriptor</strong> | Spécifie le descripteur de sécurité par défaut pour les nouveaux objets de cette classe. Pour plus d’informations, consultez <a href="default-security-descriptor.md">descripteur de sécurité par défaut</a> et <a href="how-security-descriptors-are-set-on-new-directory-objects.md">Comment les descripteurs de sécurité sont définis sur les nouveaux objets d’annuaire</a>. | 
+| <strong>Définie</strong> | Valeur booléenne qui indique si la classe est défunte. Pour plus d’informations, consultez <a href="disabling-existing-classes-and-attributes.md">désactivation des classes et attributs existants</a>. | 
+| <strong>description</strong> | Description textuelle de la classe à utiliser par les applications administratives. | 
+| <strong>objectClass</strong> | Identifie la classe d’objet dont cet objet est une instance, qui est la classe d’objet <strong>classSchema</strong> pour toutes les définitions de classe et la classe d’objet <strong>attributeSchema</strong> pour toutes les définitions d’attributs. | 
+
 
 
 
