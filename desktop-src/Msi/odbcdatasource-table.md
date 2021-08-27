@@ -4,12 +4,12 @@ ms.assetid: dea28324-e48d-49e8-a4d2-309f7e7cb4b0
 title: Table ODBCDataSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 819eecc671c75fa11db6e4a2706a511c2758ad00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43426ba7f2dd1214dc205213aa632558bbc44d81db5e6e32f7f7d66f82d30641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082719"
 ---
 # <a name="odbcdatasource-table"></a>Table ODBCDataSource
 
@@ -22,7 +22,7 @@ La table ODBCDataSource contient les colonnes suivantes.
 | Colonne            | Type                         | Clé | Nullable |
 |-------------------|------------------------------|-----|----------|
 | DataSource        | [Identificateur](identifier.md) | O   | N        |
-| -\_       | [Identificateur](identifier.md) | N   | N        |
+| Composant\_       | [Identificateur](identifier.md) | N   | N        |
 | Description       | [Text](text.md)             | N   | N        |
 | DriverDescription | [Text](text.md)             | N   | N        |
 | Inscription      | [Integer](integer.md)       | N   | N        |
@@ -52,7 +52,7 @@ Clé externe dans la [table des composants](component-table.md).
 <span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>Descriptive
 </dt> <dd>
 
-Description inscrite pour cette source de données. Cette valeur ne peut pas être localisée. Les descriptions de source de données ODBC ne peuvent pas dépasser la \_ longueur maximale de \_ DSN SQL \_ .
+Description inscrite pour cette source de données. Cette valeur ne peut pas être localisée. les descriptions de source de données ODBC ne peuvent pas dépasser SQL \_ longueur maximale de \_ DSN \_ .
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ Ce champ spécifie le type d’inscription de la source de données.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les actions [InstallODBC](installodbc-action.md) et [RemoveODBC](removeodbc-action.md) dans les [*tables de séquence*](s-gly.md) traitent les informations contenues dans ce tableau. Pour plus d’informations sur l’utilisation des *tables de séquences*, consultez [utilisation d’une table de séquences](using-a-sequence-table.md).
 

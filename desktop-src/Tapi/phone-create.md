@@ -4,12 +4,12 @@ ms.assetid: 62895b10-76ce-456e-ad02-e2b7764616a8
 title: Message PHONE_CREATE (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c92dfaad5d4007279f18890021f5cb39c22c4da9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18633ca9f3d45e08c3e2e054d51261dabe6494f42055567a5a68707408f94d5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072909"
 ---
 # <a name="phone_create-message"></a>Message de création de téléphone \_
 
@@ -65,7 +65,7 @@ Inutilisé.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications qui ont négocié la version 1,3 reçoivent un message d' [**\_ État de téléphone**](phone-state.md) spécifiant PHONESTATE \_ rein, ce qui leur demande d’arrêter leur utilisation de l’API et d’appeler à nouveau [**phoneInitialize**](/windows/desktop/api/Tapi/nf-tapi-phoneinitialize) pour obtenir le nouveau nombre d’appareils. Toutefois, TAPI version 1,4 et versions ultérieures ne nécessitent pas l’arrêt de toutes les applications avant d’autoriser la réinitialisation des applications. la réinitialisation peut avoir lieu immédiatement lors de la création d’un nouveau périphérique.
 

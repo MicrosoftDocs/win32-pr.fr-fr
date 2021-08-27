@@ -1,17 +1,17 @@
 ---
 description: Exemple d’échange de paquets de protocole SMB Microsoft entre un client et un serveur.
 ms.assetid: f831d0de-0e38-4141-811c-892a1b5c4037
-title: Scénario d’échange de paquets de protocole SMB Microsoft
+title: scénario de Exchange de paquets de protocole SMB Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a03e2f75b00aa93e629b3e698631c5efde4694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47415c6d49f6c1f7b924719d4d012277c03956c1af0d948b3ef66049c1203641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048049"
 ---
-# <a name="microsoft-smb-protocol-packet-exchange-scenario"></a>Scénario d’échange de paquets de protocole SMB Microsoft
+# <a name="microsoft-smb-protocol-packet-exchange-scenario"></a>scénario de Exchange de paquets de protocole SMB Microsoft
 
 Cette rubrique fournit un exemple d’échange de paquets de protocole SMB Microsoft entre un client et un serveur. Les étapes suivantes sont une vue d’ensemble du processus :
 
@@ -43,7 +43,7 @@ Tout d’abord, une connexion TCP en duplex intégral est établie par le client
  
 
 > [!Note]  
-> Si vous implémentez un CIFS qui ne prend pas en charge les notifications de modification, Windows ne peut pas conserver un handle en attente pour le système de fichiers et la connexion SMB peut disparaître sans préavis.
+> si vous implémentez un CIFS qui ne prend pas en charge les notifications de modification, Windows ne peut pas conserver un handle en attente dans le système de fichiers et la connexion SMB peut disparaître sans préavis.
 
  
 

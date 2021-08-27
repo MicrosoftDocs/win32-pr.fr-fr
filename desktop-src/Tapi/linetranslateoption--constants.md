@@ -4,12 +4,12 @@ ms.assetid: 3f5e9952-945e-42b8-8536-b52a0c833282
 title: Constantes LINETRANSLATEOPTION_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac1e103f2a93d30be5260b27c7bf5c0e97f3ce7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 095d1cc9f3d7798dda9dd5bb69817ccfac64ae88fbc45fccccd59563cc24614d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073019"
 ---
 # <a name="linetranslateoption_-constants"></a>\_Constantes LINETRANSLATEOPTION
 
@@ -57,7 +57,7 @@ Cette option force la conversion du nombre (adresse) en local.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

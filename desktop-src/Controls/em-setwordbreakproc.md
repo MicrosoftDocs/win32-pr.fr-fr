@@ -3,7 +3,7 @@ title: Message EM_SETWORDBREAKPROC (winuser. h)
 description: Remplace la fonction WordWrap par défaut d’un contrôle d’édition par une fonction WordWrap définie par l’application. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: e5029b75-5f35-43a5-876d-24e81605bb49
 keywords:
-- EM_SETWORDBREAKPROC les contrôles de message Windows
+- EM_SETWORDBREAKPROC les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e85335562c9e9881093d89293e7e2ace9cf43b0a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 90617545fab7c8c5cf75babd98e9d6ef85c5713778c52a6a00966a131d0a0581
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048018"
 ---
 # <a name="em_setwordbreakproc-message"></a>\_Message SETWORDBREAKPROC em
 
@@ -47,7 +47,7 @@ Adresse de la fonction WordWrap définie par l’application. Pour plus d’info
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fonction WordWrap analyse une mémoire tampon de texte qui contient du texte à envoyer à l’écran, en recherchant le premier mot qui ne tient pas sur la ligne active de l’écran. La fonction WordWrap place ce mot au début de la ligne suivante à l’écran.
 
@@ -61,8 +61,8 @@ Une fonction WordWrap définit le point auquel le système doit couper une ligne
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

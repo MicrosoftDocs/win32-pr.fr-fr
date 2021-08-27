@@ -1,9 +1,9 @@
 - name: Plateforme de filtrage Windows
   href: windows-filtering-platform-start-page.md
   items:
-    - name: Nouveautés de la plateforme de filtrage Windows
+    - name: nouveautés de la plateforme de filtrage des Windows
       href: what-s-new-in-windows-filtering-platform.md
-    - name: À propos de la plateforme de filtrage Windows
+    - name: à propos de la plateforme de filtrage Windows
       href: about-windows-filtering-platform.md
       items:
         - name: Architecture WFP
@@ -15,7 +15,7 @@
               href: object-model.md
             - name: Gestion des objets
               href: object-management.md
-            - name: Noms de Version-Independent WFP et ciblant des versions spécifiques de Windows
+            - name: Les Version-Independent WFP renomment et ciblent des versions spécifiques de Windows
               href: wfp-version-independent-names-and-targeting-specific-versions-of-windows.md
         - name: Opération WFP
           href: basic-operation.md
@@ -44,7 +44,7 @@
               href: ale-multicast-broadcast-traffic.md
             - name: Réautorisation ALE
               href: ale-re-authorization.md
-            - name: Personnalisation du fluide ALE
+            - name: personnalisation de la Flow ALE
               href: ale-flow-customization.md
         - name: Configuration IPsec
           href: ipsec-configuration.md
@@ -55,7 +55,7 @@
               href: negotiation-discovery-transport-mode.md
             - name: Mode de transport de la découverte de négociation en mode limite
               href: negotiation-discovery-transport-mode-in-boundary-mode.md
-            - name: Mode de tunnel
+            - name: Tunnel Mode
               href: tunnel-mode.md
             - name: Chiffrement garanti
               href: guaranteed-encryption.md
@@ -74,7 +74,7 @@
               href: logging.md
             - name: Notifications de modifications
               href: change-notifications.md
-    - name: Utilisation de la plateforme de filtrage Windows
+    - name: utilisation de la plateforme de filtrage Windows
       href: using-windows-filtering-platform.md
       items:
         - name: Mise en route
@@ -118,13 +118,13 @@
           items:
             - name: Utilisation du mode de transport
               href: using-transport-mode.md
-            - name: Utilisation du mode de tunnel
+            - name: utilisation du Mode Tunnel
               href: using-tunnel-mode.md
             - name: Génération manuelle de la clé SA
               href: manual-sa-keying.md
-        - name: Bonnes pratiques
+        - name: Meilleures pratiques
           href: best-practices.md
-    - name: Informations de référence sur l’API de plateforme de filtrage Windows
+    - name: Windows Référence de l’API de la plateforme de filtrage
       href: fwp-reference.md
       items:
         - name: Constantes WFP

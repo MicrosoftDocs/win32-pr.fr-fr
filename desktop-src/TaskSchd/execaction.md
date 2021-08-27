@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cddd1b9b44612b4ce896fb3ceb99a6deeaa5e3a1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 140ff991bd26f779beee7407666572d8649bd9f1a2718b719713770745157656
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072659"
 ---
 # <a name="execaction-object"></a>Objet ExecAction
 
@@ -43,15 +43,15 @@ L’objet **ExecAction** a ces propriétés.
 |:--------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------|
 | [**Arguments**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments)<br/>               | Lecture/écriture<br/> | Obtient ou définit les arguments associés à l’opération de ligne de commande.<br/>                                                 |
 | [**Identifi**](/windows/desktop/api/taskschd/nf-taskschd-iaction-get_id)<br/>                                 | Lecture/écriture<br/> | Hérité de l’objet d' [**action**](action.md) . Obtient ou définit l’identificateur de l’action.<br/>                         |
-| [**D**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à un fichier exécutable.<br/>                                                                           |
-| [**Entrer**](/windows/desktop/api/taskschd/nf-taskschd-iaction-get_type)<br/>                             | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>                                       |
+| [**Chemin**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à un fichier exécutable.<br/>                                                                           |
+| [**Type**](/windows/desktop/api/taskschd/nf-taskschd-iaction-get_type)<br/>                             | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>                                       |
 | [**WorkingDirectory**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory)<br/> | Lecture/écriture<br/> | Obtient ou définit le répertoire qui contient le fichier exécutable ou les fichiers utilisés par le fichier exécutable.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les variables d’environnement sont utilisées dans les propriétés [**path**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_path), [**arguments**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_arguments)ou [**WorkingDirectory**](/windows/desktop/api/taskschd/nf-taskschd-iexecaction-get_workingdirectory) , les valeurs des variables d’environnement sont mises en cache et utilisées lors du lancement du Taskeng.exe (le moteur de tâches). Les modifications apportées aux variables d’environnement qui se produisent après le lancement du moteur de tâche ne sont pas utilisées par le moteur de tâche.
 
@@ -69,8 +69,8 @@ Pour plus d’informations et pour obtenir un exemple de code pour cet objet de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

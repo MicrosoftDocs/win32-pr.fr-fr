@@ -4,12 +4,12 @@ ms.assetid: 8cb5907e-9006-45d1-9d48-13a43a631664
 title: Référence de suivi d’événements
 ms.topic: article
 ms.date: 01/30/2020
-ms.openlocfilehash: 7e0ee4576b9b9d64a5766c6ab096ea34abc2b176
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20aaf59de3419b4015f03b38db69839b6f258ccd561b1e918694396e875ae5a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083279"
 ---
 # <a name="event-tracing-reference"></a>Référence de suivi d’événements
 
@@ -31,6 +31,6 @@ Cette section contient également des informations sur les éléments suivants 
 
 ## <a name="process-etw-traces-in-net-code"></a>Traiter les traces ETW dans le code .NET
 
-Vous pouvez également utiliser l' [API .net TraceProcessing](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) pour analyser les traces ETW pour vos applications et d’autres composants logiciels. Cette API est utilisée en interne chez Microsoft pour analyser les données ETW produites par le système d’ingénierie Windows, et elle est également utilisée pour alimenter plusieurs tables dans l' [Analyseur de performances Windows](/windows-hardware/test/wpt/windows-performance-analyzer). Cette API est disponible sous la forme d’un package NuGet.
+Vous pouvez également utiliser l' [API .net TraceProcessing](https://www.nuget.org/packages/Microsoft.Windows.EventTracing.Processing.All) pour analyser les traces ETW pour vos applications et d’autres composants logiciels. cette API est utilisée en interne chez Microsoft pour analyser les données ETW produites par le système d’ingénierie Windows, et elle est également utilisée pour alimenter plusieurs tables dans [Windows analyseur de performances](/windows-hardware/test/wpt/windows-performance-analyzer). cette API est disponible sous la forme d’un package NuGet.
 
 Pour plus d’informations, consultez [cet article](/windows/apps/trace-processing/overview).

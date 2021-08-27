@@ -3,13 +3,13 @@ title: Utilisation de profils d’appareil avec WCS
 description: Les profils d’appareil sont un outil de base pour la gestion des couleurs.
 ms.assetid: 9ea420ad-dcf1-4ba9-b739-308be7a56a6c
 keywords:
-- Windows Color System (WCS), profils d’appareil
-- WCS (système de couleurs Windows), profils d’appareil
+- Windows Système de couleurs (WCS), profils d’appareil
+- WCS (Windows Color System), profils d’appareil
 - gestion des couleurs des images, profils d’appareil
 - gestion des couleurs, profils d’appareil
 - couleurs, profils d’appareil
-- Système de couleurs Windows (WCS), profils
-- WCS (système de couleurs Windows), profils
+- Windows Système de couleurs (WCS), profils
+- WCS (Windows Color System), profils
 - gestion des couleurs des images, profils
 - gestion des couleurs, profils
 - couleurs, profils
@@ -19,12 +19,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf58b46cbee67d437e7d6fe343c7f3a0fab451b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1c8211ff883f8e30e7b67b0168e6da980744b252cbb1b89412fc834ac6370cca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106527050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090069"
 ---
 # <a name="using-device-profiles-with-wcs"></a>Utilisation de profils d’appareil avec WCS
 

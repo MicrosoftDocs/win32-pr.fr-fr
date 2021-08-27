@@ -11,12 +11,12 @@ keywords:
 - framebuffers, modèle d’exécution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86012912f9bd963da0489b83cc4a5c1e7e1722ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7cb7c3c06baa0a56f4c59b14744b73962fced369d56f00cbf887b9ae6d09e2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082459"
 ---
 # <a name="execution-model"></a>Modèle d’exécution
 
@@ -29,9 +29,9 @@ Le système de fenêtre qui alloue des ressources trame contrôle finalement les
 
 Par conséquent, il n’existe aucune commande OpenGL pour configurer trame ou initialiser OpenGL. La configuration de la mémoire tampon de frame est effectuée en dehors d’OpenGL conjointement avec le système Windows. L’initialisation OpenGL a lieu lorsque le système de fenêtres alloue une fenêtre pour le rendu OpenGL.
 
- 
+ 
 
- 
+ 
 
 
 

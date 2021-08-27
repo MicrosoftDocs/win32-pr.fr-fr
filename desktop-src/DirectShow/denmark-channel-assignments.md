@@ -4,12 +4,12 @@ ms.assetid: 6ef5e1b9-08a0-4f3e-a26f-cf5bdf4ea464
 title: Affectations de canaux Danemark
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33597d1f6a3d0e32365630362dcd3d7dd83272a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dd54c7161be11375fb899b985ecbf1f00f5d23de31e808fcfd23616b984932f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079269"
 ---
 # <a name="denmark-channel-assignments"></a>Affectations de canaux Danemark
 
@@ -17,7 +17,7 @@ Cette rubrique répertorie les tables de fréquence utilisées pour le réglage 
 
 Pour obtenir une explication des tableaux suivants, consultez [tables et affectations](tables-and-assignments.md).
 
-Les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
+les affectations de canaux suivantes ont été introduites dans Windows 7. Auparavant, la [table de fréquence Unicable](unicable-frequency-table.md) était utilisée.
 
 ## <a name="cable-assignments"></a>Attributions de câble
 

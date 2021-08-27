@@ -4,16 +4,16 @@ ms.assetid: d9c1b860-f75f-4886-95d6-c62e9e5b69eb
 title: Formats d’heure pour les commandes de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8217873a9443c2b56c60523f95a6fe599ee045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e585a7dda12b40e7f501e51aff6ffed50d647066f03804c82e5ffa236f8623a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120078719"
 ---
 # <a name="time-formats-for-seek-commands"></a>Formats d’heure pour les commandes de recherche
 
-La plupart des méthodes de l’interface **IMediaSeeking** ont des paramètres qui expriment les valeurs de position, telles que la position actuelle ou la position d’arrêt. Par défaut, ces paramètres sont exprimés en unités de nanosecondes de 100, également appelées « temps de référence ». Tout filtre pouvant être cherché doit prendre en charge la recherche par temps de référence. Certains filtres peuvent également rechercher à l’aide d’autres unités de temps, telles que la recherche d’un numéro de séquence particulier, ou la recherche d’un décalage d’octet donné dans un flux. Chacune de ces unités de temps est appelée un format d’heure et est définie par un identificateur global unique (GUID). Pour obtenir la liste des formats d’heure définis par DirectShow, consultez [**GUID Format GUID**](time-format-guids.md). Les tiers peuvent également définir des GUID pour des formats d’heure personnalisés.
+La plupart des méthodes de l’interface **IMediaSeeking** ont des paramètres qui expriment les valeurs de position, telles que la position actuelle ou la position d’arrêt. Par défaut, ces paramètres sont exprimés en unités de nanosecondes de 100, également appelées « temps de référence ». Tout filtre pouvant être cherché doit prendre en charge la recherche par temps de référence. Certains filtres peuvent également rechercher à l’aide d’autres unités de temps, telles que la recherche d’un numéro de séquence particulier, ou la recherche d’un décalage d’octet donné dans un flux. Chacune de ces unités de temps est appelée un format d’heure et est définie par un identificateur global unique (GUID). pour obtenir la liste des formats d’heure définis par DirectShow, consultez [**guid Format guid**](time-format-guids.md). Les tiers peuvent également définir des GUID pour des formats d’heure personnalisés.
 
 Pour déterminer si les filtres actuellement dans le graphique de filtre prennent en charge un format d’heure particulier, appelez la méthode [**IMediaSeeking :: IsFormatSupported**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-isformatsupported) . La méthode retourne S \_ OK si le format est pris en charge. Sinon, elle retourne S \_ false ou un code d’erreur. Si un format est pris en charge, vous pouvez basculer vers ce format en appelant la méthode [**IMediaSeeking :: SetTimeFormat**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-settimeformat) . Si la méthode **SetTimeFormat** est réussie, les commandes Seek suivantes sont exprimées à l’aide du nouveau format d’heure.
 

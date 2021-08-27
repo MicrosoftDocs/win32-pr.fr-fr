@@ -18,12 +18,12 @@ api_location:
 - MinKernelBase.dll
 - API-MS-Win-Core-io-l1-1-1.dll
 - api-ms-win-downlevel-kernel32-l1-1-0.dll
-ms.openlocfilehash: b85ec931e740de192655ada091a990cd97180b6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6612c3087841aa0c13f131581f8a05c29403e4fccf81bd6f0dc338b1dd9e42a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083159"
 ---
 # <a name="createiocompletionport-function"></a>CreateIoCompletionPort, fonction
 
@@ -107,7 +107,7 @@ Si la fonction aboutit, la valeur de retour est le descripteur d’un port de te
 
 Si la fonction échoue, la valeur de retour est **null**. Pour afficher les informations d’erreur étendues, appelez la fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système d’e/s peut être invité à envoyer des paquets de notification de fin d’exécution d’e/s aux ports de terminaison d’e/s, où ils sont mis en file d’attente. La fonction **CreateIoCompletionPort** fournit cette fonctionnalité.
 
@@ -135,7 +135,7 @@ Il est préférable de ne pas partager un descripteur de fichier associé à un 
 
 Le descripteur de port de terminaison d’e/s et chaque descripteur de fichier associé à ce port de terminaison d’e/s particulier sont appelés *références au port de terminaison d’e/s*. Le port de terminaison d’e/s est libéré lorsqu’il n’y a plus de références à celui-ci. Par conséquent, tous ces handles doivent être correctement fermés pour libérer le port de terminaison d’e/s et les ressources système qui lui sont associées. Une fois ces conditions satisfaites, fermez le handle de port de terminaison d’e/s en appelant la fonction [**CloseHandle**](/windows/desktop/api/handleapi/nf-handleapi-closehandle) .
 
-Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
+dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par les technologies suivantes.
 
 
 
@@ -157,9 +157,9 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP- \[ \| applications UWP\]<br/>                                                                                                                                                                                                                                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ \| apps UWP\]<br/>                                                                                                                                                                                                                                              |
-| En-tête<br/>                   | <dl> <dt>IoAPI. h (inclure Windows. h); </dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP (incluant Windows. h)</dt> </dl> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP pour applications \[ \| UWP\]<br/>                                                                                                                                                                                                                                                       |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2003 \[ \| applications UWP\]<br/>                                                                                                                                                                                                                                              |
+| En-tête<br/>                   | <dl> <dt>IoAPI. h (include Windows. h);</dt> <dt>WinBase. h sur Windows server 2008 R2, Windows 7, Windows server 2008, Windows Vista, Windows Server 2003 et Windows XP (include Windows. h)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl>                                                                                                                                                                                                                  |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl>                                                                                                                                                                                                                  |
 
@@ -178,7 +178,7 @@ Dans Windows 8 et Windows Server 2012, cette fonction est prise en charge par le
 [Ports de terminaison d’e/s](i-o-completion-ports.md)
 </dt> <dt>
 
-[Utilisation des en-têtes Windows](/windows/desktop/WinProg/using-the-windows-headers)
+[utilisation des en-têtes de Windows](/windows/desktop/WinProg/using-the-windows-headers)
 </dt> <dt>
 
 [Windows Sockets 2](/windows/desktop/WinSock/windows-sockets-start-page-2)

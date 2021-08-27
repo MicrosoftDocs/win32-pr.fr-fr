@@ -1,19 +1,19 @@
 ---
-description: Classe Bluetooth de mise en réseau des services d’appareils.
+description: classe Bluetooth de la mise en réseau des services d’appareil.
 ms.assetid: 5c440c40-a0af-49d5-a4f8-25bfc62dc869
-title: System. Devices. AEP. Bluetooth. cod. services. Networking
+title: System. Devices. AEP. Bluetooth. Cod. Services. mise en réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ba7cdbba58a8b2e36ca1d6a912ca2476b7feaa2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2cd11926e1108a4f61c5efb15601d2fb4b828632be9e5128772d96c2e192576
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010889"
 ---
-# <a name="systemdevicesaepbluetoothcodservicesnetworking"></a>System. Devices. AEP. Bluetooth. cod. services. Networking
+# <a name="systemdevicesaepbluetoothcodservicesnetworking"></a>System. Devices. AEP. Bluetooth. Cod. Services. mise en réseau
 
-Classe Bluetooth de mise en réseau des services d’appareils.
+classe Bluetooth de la mise en réseau des services d’appareil.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
