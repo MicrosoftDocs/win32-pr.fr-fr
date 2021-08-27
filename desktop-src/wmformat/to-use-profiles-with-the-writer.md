@@ -15,12 +15,12 @@ keywords:
 - profils, création de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d027e6ea0e669d2a5206901faefab1f5a9583153
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: ce0184469215dd109bcc4ca120e2db9cbead8b9bd250cb017456f9d7d08ea46f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027267"
 ---
 # <a name="to-use-profiles-with-the-writer"></a>Pour utiliser des profils avec l’auteur
 
@@ -32,7 +32,7 @@ Pour spécifier un profil personnalisé à utiliser avec le writer, vous devez o
 
 Si vous apportez des modifications à l’objet de profil à l’aide de l’interface **IWMProfile** après avoir défini le profil dans le writer, vous devez rappeler **SetProfile** , sinon les modifications ne seront pas reflétées dans le writer. Toutefois, l’appel de **SetProfile** réinitialisera tous les attributs d’en-tête. par conséquent, veillez à définir les attributs d’en-tête requis après avoir appelé cette méthode.
 
-L’exemple de fonction suivant définit le profil sur « Windows Media Video 8 pour les modems d’accès à distance (56 Kbits/s) » :
+l’exemple de fonction suivant définit le profil sur « Windows Media Video 8 pour les modems d’accès à distance (56 kbits/s) » :
 
 
 ```C++
@@ -53,9 +53,9 @@ HRESULT SetProfileExample()
 
 
 > [!Note]  
-> Il n’existe pas de profils système prédéfinis qui utilisent les codecs de série Windows Media Audio et Video 9. Pour plus d’informations, consultez [réutilisation des configurations de flux](reusing-stream-configurations.md).
+> il n’existe pas de profils système prédéfinis qui utilisent les codecs de série Windows Media Audio et Video 9. Pour plus d’informations, consultez [réutilisation des configurations de flux](reusing-stream-configurations.md).
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,9 +70,9 @@ HRESULT SetProfileExample()
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

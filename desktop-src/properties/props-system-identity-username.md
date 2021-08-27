@@ -4,12 +4,12 @@ ms.assetid: da13b18d-0450-49fd-8c10-08413d55587e
 title: System. Identity. UserName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d996502f73739d972ecc01dd4edb105a5861a452
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62eb6f76b6c03dd0c432edb248ad485cf3a704be81596ce2f877ee0dc5961598
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033487"
 ---
 # <a name="systemidentityusername"></a>System. Identity. UserName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

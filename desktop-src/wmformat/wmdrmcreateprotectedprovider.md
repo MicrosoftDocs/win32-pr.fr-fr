@@ -1,6 +1,6 @@
 ---
 title: WMDRMCreateProtectedProvider, fonction (wmdrmsdk. h)
-description: La fonction WMDRMCreateProtectedProvider crée une fabrique de classes qui peut créer les autres objets des API étendues du client Windows Media DRM.
+description: la fonction WMDRMCreateProtectedProvider crée une fabrique de classes qui peut créer les autres objets du Windows les api étendues du Client DRM Media.
 ms.assetid: 0882062f-48a2-43bc-8853-a8a3d6bc2f52
 keywords:
 - WMDRMCreateProtectedProvider fonction Windows Media format
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f046de906c7753fa200de5075cf2064721940b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f4b5d71ff1deed01cc10d7342286b443b9f64b1a1c192af575a599a2fc8d8c9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026927"
 ---
 # <a name="wmdrmcreateprotectedprovider-function"></a>WMDRMCreateProtectedProvider fonction)
 
-La fonction **WMDRMCreateProtectedProvider** crée une fabrique de classes qui peut créer les autres objets des API étendues du client Windows Media DRM. Cette fonction requiert une bibliothèque de stubs de la part de Microsoft et crée des objets qui prennent en charge les fonctionnalités DRM protégées.
+la fonction **WMDRMCreateProtectedProvider** crée une fabrique de classes qui peut créer les autres objets du Windows les api étendues du Client DRM Media. Cette fonction requiert une bibliothèque de stubs de la part de Microsoft et crée des objets qui prennent en charge les fonctionnalités DRM protégées.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,7 +49,7 @@ Reçoit un pointeur vers l’interface [**IWMDRMProvider**](iwmdrmprovider.md) d
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

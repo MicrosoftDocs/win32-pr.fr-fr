@@ -4,16 +4,16 @@ ms.assetid: 32f4f971-8e42-46b0-96e4-b3505abd2314
 title: Propriété MsiNetAssemblySupport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eebe81bbde8bb7c97fe2f9a535d0bd9ac82ebec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e2d135fcc9eb301d3624586318fdc0d5dbbc534c5771ee89d4ae625af78b0782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944902"
 ---
 # <a name="msinetassemblysupport-property"></a>Propriété MsiNetAssemblySupport
 
-La propriété **MsiNetAssemblySupport** indique si l’ordinateur prend en charge les assemblys Common Language Runtime. Sur les systèmes qui prennent en charge les assemblys CLR (Common Language Runtime), le programme d’installation définit la valeur de **MsiNetAssemblySupport** sur la version de fichier de Fusion.dll. Le programme d’installation ne définit pas cette propriété si le système d’exploitation ne prend pas en charge les assemblys Common Language Runtime. Lorsque plusieurs versions de Fusion.dll sont installées côte à côte sur l’ordinateur de l’utilisateur, cette propriété est définie sur la version la plus récente du fichier Fusion.dll. Par exemple, si .NET Framework version 1.0.3705 (Fusion.dll version 1.0.3705.15) et .NET Framework version 1.1.4322 (Fusion.dll version 1.1.4322.314) sont installés côte à côte, la propriété **MsiNetAssemblySupport** est définie sur 1.1.4322.314. Pour plus d’informations, consultez [assemblys](assemblies.md).
+La propriété **MsiNetAssemblySupport** indique si l’ordinateur prend en charge les assemblys Common Language Runtime. Sur les systèmes qui prennent en charge les assemblys CLR (Common Language Runtime), le programme d’installation définit la valeur de **MsiNetAssemblySupport** sur la version de fichier de Fusion.dll. Le programme d’installation ne définit pas cette propriété si le système d’exploitation ne prend pas en charge les assemblys Common Language Runtime. Lorsque plusieurs versions de Fusion.dll sont installées côte à côte sur l’ordinateur de l’utilisateur, cette propriété est définie sur la version la plus récente du fichier Fusion.dll. par exemple, si .NET Framework version 1.0.3705 (Fusion.dll version 1.0.3705.15) et .NET Framework version 1.1.4322 (Fusion.dll version 1.1.4322.314) sont installés côte à côte, la propriété **MsiNetAssemblySupport** est définie sur 1.1.4322.314. Pour plus d’informations, consultez [assemblys](assemblies.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -21,7 +21,7 @@ La propriété **MsiNetAssemblySupport** indique si l’ordinateur prend en char
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

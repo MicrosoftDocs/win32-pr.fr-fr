@@ -4,12 +4,12 @@ ms.assetid: b463b51e-3e00-4f80-a7b9-f5ff5432b7ef
 title: System. Video. VerticalAspectRatio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f6c5f762b9a196b0f13fd89d846c3034db32724
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41d61a617aee2afd6939ac4d39ee96e662f8dd6e4ade95d47c3ab9f9c9ca1964
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033167"
 ---
 # <a name="systemvideoverticalaspectratio"></a>System. Video. VerticalAspectRatio
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

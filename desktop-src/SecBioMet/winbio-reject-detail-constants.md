@@ -53,12 +53,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9d23dcf568e5ed25fb5081283a421b1c0dbb07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ad5ac7a2f96555aa8ccfb305c66061ba4e0ffd468f18a1a93be215c367f034be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909347"
 ---
 # <a name="winbio_reject_detail-constants"></a>WINBIO \_ rejeter les \_ constantes de détail
 
@@ -72,7 +72,7 @@ Les constantes suivantes peuvent être utilisées pour spécifier la raison de l
 | <span id="WINBIO_FP_TOO_LOW"></span><span id="winbio_fp_too_low"></span><dl> <dt>**WINBIO \_ FP \_ trop \_ faible**</dt> </dl>                                                                     | L’analyse Finger a commencé trop bas sur le doigt.<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_LEFT"></span><span id="winbio_fp_too_left"></span><dl> <dt>**WINBIO \_ FP \_ trop à \_ gauche**</dt> </dl>                                                                  | Le doigt était trop éloigné au cours de l’analyse.<br/>                                                                                                                                                                                                                                           |
 | <span id="WINBIO_FP_TOO_RIGHT"></span><span id="winbio_fp_too_right"></span><dl> <dt>**WINBIO \_ FP \_ trop à \_ droite**</dt> </dl>                                                               | Le doigt était trop bien au cours de l’analyse.<br/>                                                                                                                                                                                                                                          |
-| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**WINBIO \_ FP \_ trop \_ rapide**</dt> </dl>                                                                  | Le doigt a été balayé trop rapidement sur le capteur.<br/>                                                                                                                                                                                                                                       |
+| <span id="WINBIO_FP_TOO_FAST"></span><span id="winbio_fp_too_fast"></span><dl> <dt>**WINBIO \_ FP \_ trop \_ Fast**</dt> </dl>                                                                  | Le doigt a été balayé trop rapidement sur le capteur.<br/>                                                                                                                                                                                                                                       |
 | <span id="WINBIO_FP_TOO_SLOW"></span><span id="winbio_fp_too_slow"></span><dl> <dt>**WINBIO \_ FP \_ trop \_ lent**</dt> </dl>                                                                  | Le doigt a été balayé trop lentement sur le capteur.<br/>                                                                                                                                                                                                                                        |
 | <span id="WINBIO_FP_POOR_QUALITY"></span><span id="winbio_fp_poor_quality"></span><dl> <dt>**\_ \_ qualité médiocre de WINBIO FP \_**</dt> </dl>                                                      | La qualité de l’analyse est trop médiocre.<br/>                                                                                                                                                                                                                                                         |
 | <span id="WINBIO_FP_TOO_SKEWED"></span><span id="winbio_fp_too_skewed"></span><dl> <dt>**WINBIO \_ FP \_ trop \_ incliné**</dt> </dl>                                                            | Le doigt n’a pas réussi à traverser le capteur.<br/>                                                                                                                                                                                                                                    |
@@ -119,8 +119,8 @@ Les constantes suivantes peuvent être utilisées pour spécifier la raison de l
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                                                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                                                                                  |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

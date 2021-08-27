@@ -3,30 +3,30 @@ title: Gestion des conversations
 description: Cette rubrique décrit les conversations entre un client et un serveur.
 ms.assetid: 4e5ff1a1-d46a-4e2a-a37c-8df951f2a1ee
 keywords:
-- Interface utilisateur Windows, échange dynamique de données (DDE)
-- Échange dynamique de données (DDE), conversations
+- Windows Interface utilisateur, échange dynamique de données (DDE)
+- échange dynamique de données (DDE), conversations
 - DDE (échange dynamique de données), conversations
 - échange de données, échange dynamique de données (DDE)
-- Interface utilisateur Windows, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Bibliothèque de gestion des échange dynamique de données (DDEML), conversations
+- Windows Interface utilisateur, échange dynamique de données Management Library (DDEML)
+- bibliothèque de gestion des échange dynamique de données (DDEML), conversations
 - DDEML (bibliothèque de gestion échange dynamique de données), conversations
 - échange de données, bibliothèque de gestion des échange dynamique de données (DDEML)
-- Échange dynamique de données (DDE), plusieurs conversations
+- échange dynamique de données (DDE), plusieurs conversations
 - DDE (échange dynamique de données), plusieurs conversations
-- Bibliothèque de gestion des échange dynamique de données (DDEML), plusieurs conversations
+- bibliothèque de gestion des échange dynamique de données (DDEML), plusieurs conversations
 - DDEML (bibliothèque de gestion échange dynamique de données), plusieurs conversations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ca1a0a8e02bceb6b2f69051d89df289871fdd42
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a3531cc396a3b4d0eca5d7c11e3677aec9ea2ee35dcdac110455daee252f798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991329"
 ---
 # <a name="conversation-management"></a>Gestion des conversations
 
-Une conversation entre un client et un serveur est toujours établie à la demande du client. Lorsqu’une conversation est établie, chaque partenaire reçoit un descripteur qui identifie la conversation. Les partenaires utilisent ce handle dans d’autres fonctions de la bibliothèque de gestion des échange dynamique de données (DDEML) pour envoyer des transactions et gérer la conversation. Un client peut demander une conversation avec un seul serveur, ou il peut demander plusieurs conversations avec un ou plusieurs serveurs.
+Une conversation entre un client et un serveur est toujours établie à la demande du client. Lorsqu’une conversation est établie, chaque partenaire reçoit un descripteur qui identifie la conversation. les partenaires utilisent ce handle dans d’autres fonctions de la bibliothèque de gestion des échange dynamique de données (DDEML) pour envoyer des transactions et gérer la conversation. Un client peut demander une conversation avec un seul serveur, ou il peut demander plusieurs conversations avec un ou plusieurs serveurs.
 
 Les rubriques suivantes décrivent comment une application établit de nouvelles conversations et obtient des informations sur les conversations existantes.
 
@@ -35,7 +35,7 @@ Les rubriques suivantes décrivent comment une application établit de nouvelles
 
 ## <a name="single-conversations"></a>Conversations uniques
 
-Une application cliente demande une conversation unique avec un serveur en appelant la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) et en spécifiant des handles de chaîne qui identifient les chaînes contenant le nom de service de l’application serveur et le nom de la rubrique pour la conversation. Le DDEML répond en envoyant la transaction [**XTYP \_ Connect**](xtyp-connect.md) à la fonction de rappel échange dynamique de données (DDE) de chaque application serveur qui a inscrit un nom de service qui correspond à celui spécifié dans **DdeConnect** ou a désactivé le filtrage du nom de service en appelant [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice). Un serveur peut également filtrer les transactions **XTYP \_ Connect** en spécifiant \_ l' \_ indicateur de filtre des connexions en échec CBF dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) . Au cours de la transaction **XTYP \_ Connect** , Ddeml transmet le nom du service et le nom de la rubrique au serveur. Le serveur doit examiner les noms et retourner la **valeur true** s’il prend en charge la paire nom du service et nom de la rubrique, ou **false** dans le cas contraire.
+Une application cliente demande une conversation unique avec un serveur en appelant la fonction [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) et en spécifiant des handles de chaîne qui identifient les chaînes contenant le nom de service de l’application serveur et le nom de la rubrique pour la conversation. le DDEML répond en envoyant la transaction [**XTYP \_ CONNECT**](xtyp-connect.md) à la fonction de rappel échange dynamique de données (DDE) de chaque application serveur qui a inscrit un nom de service qui correspond à celui spécifié dans **DdeConnect** ou a désactivé le filtrage du nom de service en appelant [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice). Un serveur peut également filtrer les transactions **XTYP \_ Connect** en spécifiant \_ l' \_ indicateur de filtre des connexions en échec CBF dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) . Au cours de la transaction **XTYP \_ Connect** , Ddeml transmet le nom du service et le nom de la rubrique au serveur. Le serveur doit examiner les noms et retourner la **valeur true** s’il prend en charge la paire nom du service et nom de la rubrique, ou **false** dans le cas contraire.
 
 Si aucun serveur ne répond de manière positive à la demande de connexion du client, le client reçoit la **valeur null** de [**DdeConnect**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnect) et aucune conversation n’est établie. Si un serveur retourne la **valeur true**, une conversation est établie et le client reçoit un descripteur de conversation (valeur **DWORD** qui identifie la conversation). Le client utilise le handle dans les appels DDEML suivants pour obtenir des données à partir du serveur. Le serveur reçoit la [**transaction \_ \_ Confirm XTYP Connect**](xtyp-connect-confirm.md) (à moins que le serveur n’ait spécifié l' \_ indicateur de filtre CBF Skip \_ Connect \_ Confirm). Cette transaction transmet le descripteur de conversation au serveur.
 
@@ -212,9 +212,9 @@ Si [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) spé
 
 Si des conversations en double existent, [**DdeConnectList**](/windows/desktop/api/Ddeml/nf-ddeml-ddeconnectlist) tente d’éviter les doublons de handles de conversation dans la liste de conversations. Une conversation dupliquée est une deuxième conversation avec le même serveur sur le même nom de service et le même nom de rubrique. Deux conversations de ce type ont des descripteurs différents, mais elles identifient la même conversation.
 
- 
+ 
 
- 
+ 
 
 
 

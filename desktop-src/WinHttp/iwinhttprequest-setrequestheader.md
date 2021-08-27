@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 9bc2ae6df420f38d11fb2f0f19d5fcbd0bcc0909
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6db5ef09a0eca56fec8101d710c62eb5165742d47e3961593f38d4a59851ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052027"
 ---
 # <a name="iwinhttprequestsetrequestheader-method"></a>IWinHttpRequest :: SetRequestHeader, méthode
 
@@ -59,7 +59,7 @@ Spécifie la valeur de l’en-tête, par exemple "Infinity".
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les en-têtes sont transférés entre les redirections. Cela peut créer une faille de sécurité. Pour éviter que des en-têtes soient transférés si une redirection se produit, utilisez le rappel de [*\_ \_ rappel d’État WinHTTP*](/windows/win32/api/winhttp/nc-winhttp-winhttp_status_callback) pour corriger les en-têtes spécifiques lorsqu’une redirection se produit.
 
@@ -68,7 +68,7 @@ La méthode **SetRequestHeader** permet à l’application appelante d’ajouter
 Le nom et la valeur des en-têtes de demande ajoutés avec cette méthode sont validés. Les en-têtes doivent être correctement formés. Pour plus d’informations sur les en-têtes HTTP valides, consultez [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt). Si un en-tête non valide est utilisé, une erreur se produit et l’en-tête n’est pas ajouté.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -196,8 +196,8 @@ WinHttpReq.Send();
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

@@ -4,12 +4,12 @@ ms.assetid: eee54078-759f-4fd4-9cf4-10a8bde888b7
 title: Utilisation de minuteurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 440c6479aca9d5394c2ad9ade87dd77b1474f31f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7922be60012ae81ce1971afe6f2300f54689f7a6cc8d7f088df2fb126e834ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028307"
 ---
 # <a name="using-timers"></a>Utilisation de minuteurs
 

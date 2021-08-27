@@ -1,19 +1,19 @@
 ---
-description: Les auteurs de package peuvent surveiller les messages de Windows Installer internes par le biais de la création d’une application exécutable qui contient un gestionnaire de rappel basé sur les enregistrements pour recevoir les messages et les fonctionnalités permettant de lancer une installation.
+description: les auteurs de Package peuvent surveiller les messages de Windows Installer internes par le biais de la création d’une application exécutable qui contient un gestionnaire de rappel basé sur les enregistrements pour recevoir les messages et les fonctionnalités permettant de lancer une installation.
 ms.assetid: 5d9e51dd-7918-491f-aea9-01a6e0317c57
 title: Surveillance d’une installation à l’aide de MsiSetExternalUIRecord
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce3fd0caf3d24eed49ff8a373b6f4d38037f840f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fc74001a52d7eb1ef2cfbc3a052eaad1a2d72e127571f6f51d5afac992343a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945084"
 ---
 # <a name="monitoring-an-installation-using-msisetexternaluirecord"></a>Surveillance d’une installation à l’aide de MsiSetExternalUIRecord
 
-Les auteurs de package peuvent surveiller les messages de Windows Installer internes par le biais de la création d’une application exécutable qui contient un gestionnaire de rappel basé sur les enregistrements pour recevoir les messages et les fonctionnalités permettant de lancer une installation.
+les auteurs de Package peuvent surveiller les messages de Windows Installer internes par le biais de la création d’une application exécutable qui contient un gestionnaire de rappel basé sur les enregistrements pour recevoir les messages et les fonctionnalités permettant de lancer une installation.
 
 Le gestionnaire basé sur les enregistrements de l’exemple suivant est conforme au prototype [**d' \_ \_ enregistrement du gestionnaire INSTALLUI**](/windows/win32/api/msi/nc-msi-installui_handler_record) , et un pointeur vers ce gestionnaire de rappel est passé à la fonction [**MsiSetExternalUIRecord**](/windows/desktop/api/Msi/nf-msi-msisetexternaluirecord) .
 

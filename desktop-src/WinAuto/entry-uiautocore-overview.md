@@ -15,12 +15,12 @@ keywords:
 - API Microsoft UI Automation pour Microsoft Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba8147a8dd7f8d03340fad43465c225a174e606
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1d62627d1e096738abad67d7bb2bcf0e482052c5e5b4e0e913d9c2ea0ee56c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052737"
 ---
 # <a name="ui-automation-fundamentals"></a>Notions de base d'UI Automation
 
@@ -41,7 +41,7 @@ L’API UI Automation est en deux parties. Une partie est utilisée par les appl
 -   [Prise en charge d’UI Automation pour le contenu textuel](uiauto-ui-automation-textpattern-overview.md)
 -   [Prise en charge d’UI Automation pour le glisser-déplacer](ui-automation-support-for-drag-and-drop.md)
 -   [Considérations relatives à la sécurité pour les technologies d’assistance](uiauto-securityoverview.md)
--   [Meilleures pratiques pour l’utilisation de groupes sécurisés](uiauto-workingwithsafearrays.md)
+-   [meilleures pratiques pour l’utilisation de Coffre des tableaux](uiauto-workingwithsafearrays.md)
 -   [Spécification UI Automation et promesse communautaire](uiauto-specandcommunitypromise.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -51,9 +51,9 @@ L’API UI Automation est en deux parties. Une partie est utilisée par les appl
 [UI Automation](entry-uiauto-win32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

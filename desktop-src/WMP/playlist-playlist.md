@@ -3,7 +3,7 @@ title: PLAYLIST. playlist
 description: L’attribut playlist spécifie ou récupère l’objet playlist auquel l’élément PLAYLIST fournit une interface.
 ms.assetid: 4cfbf9d1-8381-4f59-8e6f-9b07f5642c39
 keywords:
-- PLAYLIST. playlist lecteur Windows Media
+- playlist. playlist Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bb9fde4af32356da79e7c8941b76f51e0714b4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d7a62fd76fd3a458640c417c2de50af510ffbb96780ed4f91cb2355564df8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995649"
 ---
 # <a name="playlistplaylist"></a>PLAYLIST. playlist
 
@@ -31,7 +31,7 @@ L’attribut **playlist** spécifie ou récupère l’objet **playlist** auquel 
 
 Cet attribut est un objet **playlist** en lecture/écriture sans valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la sélection spécifiée n’est pas valide ou si aucune valeur n’est spécifiée, l’élément **playlist** affiche l’élément multimédia en cours de lecture.
 

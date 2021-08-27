@@ -7,12 +7,12 @@ keywords:
 - Exemples de Active Directory Active Directory, déplacement d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7019904d0de42492b98ddd297ab007a6f4e52f6a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 1158bfc3fb85712b2ab52b6b69d86c7af52675d210b75b0c9974fc2da6359ae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104030997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025857"
 ---
 # <a name="moving-objects"></a>Déplacement d’objets
 
@@ -29,6 +29,6 @@ S’il existe une interface pour l’objet qui a été déplacé, l’interface 
 
 Pour plus d’informations et pour obtenir un exemple de code qui montre comment déplacer un objet, consultez l' [exemple de code pour déplacer un objet](example-code-for-moving-an-object.md).
 
- 
+ 
 
- 
+ 

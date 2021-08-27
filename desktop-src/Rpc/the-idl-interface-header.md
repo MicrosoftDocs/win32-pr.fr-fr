@@ -4,12 +4,12 @@ description: L’en-tête d’interface IDL spécifie des informations sur l’i
 ms.assetid: 667e5228-3ea7-4910-90b9-999e6fd705e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8abce6204fdc09ed74a63a85e9366125dbef8e35
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 33c176078c370819331405b070ffa832384584a944b65fae771b9a2044a178e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924268"
 ---
 # <a name="the-idl-interface-header"></a>En-tête d’interface IDL
 
@@ -34,6 +34,6 @@ Le corps de l’interface peut également contenir des attributs. Toutefois, ils
 
 Pour une description complète des attributs d’en-tête IDL, consultez [Référence du langage MIDL](/windows/desktop/Midl/midl-language-reference).
 
- 
+ 
 
- 
+ 

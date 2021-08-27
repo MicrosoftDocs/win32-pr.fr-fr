@@ -1,6 +1,6 @@
 ---
 title: Identificateurs des droits d’accès (Fwpmu. h)
-description: La plateforme de filtrage Windows (WFP) utilise les droits d’accès Win32 standard, ainsi qu’un ensemble de droits d’accès spécifiques à WFP intégrés à la plateforme de filtrage.
+description: Windows La plateforme de filtrage (WFP) utilise les droits d’accès Win32 standard, ainsi qu’un ensemble de droits d’accès spécifiques à la plateforme WFP intégrés à la plateforme de filtrage.
 ms.assetid: 77f0a1ac-3e99-4cba-a7c6-b8747f35cd0c
 topic_type:
 - apiref
@@ -26,16 +26,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af182a087ade590e278bd3dd1d2bb1a64b5c598
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6deee82b792f525814ac4c841da8a848e4f7b978720755c82f93a9569ba21ca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951377"
 ---
 # <a name="access-right-identifiers"></a>Identificateurs des droits d’accès
 
-La plateforme de filtrage Windows (WFP) utilise les [droits d’accès Win32 standard](/windows/desktop/SecAuthZ/standard-access-rights) , ainsi qu’un ensemble de droits d’accès spécifiques à WFP intégrés à la plateforme de filtrage. Ces droits d’accès sont utilisés pour sécuriser les objets en mode utilisateur uniquement. Les appelants en mode noyau contournent toutes les vérifications d’accès.
+Windows La plateforme de filtrage (WFP) utilise les [droits d’accès Win32 standard](/windows/desktop/SecAuthZ/standard-access-rights) , ainsi qu’un ensemble de droits d’accès spécifiques à la plateforme WFP intégrés à la plateforme de filtrage. Ces droits d’accès sont utilisés pour sécuriser les objets en mode utilisateur uniquement. Les appelants en mode noyau contournent toutes les vérifications d’accès.
 
 Les identificateurs de droits d’accès spécifiques à WFP sont les suivants.
 
@@ -197,8 +197,8 @@ droits d’écriture de la \_ \_ \| suppression \| FWPM \_ ACTRL \_ Add \| FWPM 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Fwpmu. h</dt> </dl> |
 
 
@@ -207,7 +207,7 @@ droits d’écriture de la \_ \_ \| suppression \| FWPM \_ ACTRL \_ Add \| FWPM 
 
 <dl> <dt>
 
-[Modèle de Access Control de la plateforme de filtrage Windows](access-control.md)
+[Windows Modèle de Access Control de la plateforme de filtrage](access-control.md)
 </dt> <dt>
 
 [Droits d’accès standard](/windows/desktop/SecAuthZ/standard-access-rights)

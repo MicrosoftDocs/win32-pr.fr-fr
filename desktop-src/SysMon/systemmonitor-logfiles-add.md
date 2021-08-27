@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f690670606cd7ee307ba945fc2daabe92953e81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af01c5c7a1bbe16826457d7e1f8700df01876827c522a36db41f6c3843101d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882334"
 ---
 # <a name="logfilesadd-method"></a>LogFiles. Add, méthode
 
@@ -45,15 +45,15 @@ LogFiles.Add( _
 *nom du chemin* \[ dans\]
 </dt> <dd>
 
-Chemin d’accès au fichier journal. Vous pouvez spécifier le chemin d’accès en tant que chemin d’accès absolu, relatif ou UNC. L’extension de nom de fichier journal doit être. csv,. TSV ou. BLG.
+Chemin d’accès au fichier journal. Vous pouvez spécifier le chemin d’accès en tant que chemin d’accès absolu, relatif ou UNC. L’extension de nom de fichier journal doit être .csv,. TSV ou. BLG.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez utiliser l’outil Logman.exe ou le composant logiciel enfichable MMC Perfmon. msc pour générer les fichiers journaux que vous ajoutez à ce regroupement. Pour Perfmon. msc, les journaux de compteur se trouvent sous **journaux et alertes de performance**. Pour plus d’informations sur l’utilisation de Logman.exe ou Perfmon. msc, recherchez logman ou à l’aide de performances, respectivement, dans le **Centre d’aide et de support**.
 
-**Avant Windows Vista :** Vous ne pouvez pas ajouter de fichiers journaux à la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur [**DataSourceTypeConstants.sysmonLogFiles**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Tout d’abord, définissez **systemmonitor. DataSourceType** sur **DataSourceTypeConstants.sysmonNullDataSource**, ajoutez vos fichiers journaux et compteurs, puis définissez **systemmonitor. DataSourceType** sur **DataSourceTypeConstants.sysmonLogFiles**.
+**avant Windows Vista :** Vous ne pouvez pas ajouter de fichiers journaux à la [**collection de fichiers journaux**](systemmonitor-logfiles.md) si la valeur de [**systemmonitor. DataSourceType**](systemmonitor-datasourcetype.md) est définie sur [**DataSourceTypeConstants.sysmonLogFiles**](/windows/desktop/api/ISysmon/ne-isysmon-datasourcetypeconstants). Tout d’abord, définissez **systemmonitor. DataSourceType** sur **DataSourceTypeConstants.sysmonNullDataSource**, ajoutez vos fichiers journaux et compteurs, puis définissez **systemmonitor. DataSourceType** sur **DataSourceTypeConstants.sysmonLogFiles**.
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -12,12 +12,12 @@ keywords:
 - agrandissement sélectif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16d66595cc2f5fdd8402ecd9d525e6deb1d07078
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9bb908623d6d6419925801119369f4f660110e680dd2499a1d61caa4c0c05de4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119052590"
 ---
 # <a name="magnification-api-overview"></a>Vue d’ensemble de l’API zoom
 
@@ -44,12 +44,12 @@ L’API d’agrandissement permet aux fournisseurs de technologies d’assistanc
 
 ## <a name="getting-started"></a>Mise en route
 
-La version d’origine de l’API d’agrandissement est prise en charge sur les systèmes d’exploitation Windows Vista et versions ultérieures. Sur Windows 8 et versions ultérieures, l’API prend en charge des fonctionnalités supplémentaires, notamment l’agrandissement plein écran et la définition de la visibilité du curseur système agrandi.
+la version d’origine de l’API d’agrandissement est prise en charge sur les systèmes d’exploitation Windows Vista et versions ultérieures. sur Windows 8 et versions ultérieures, l’API prend en charge des fonctionnalités supplémentaires, notamment l’agrandissement plein écran et la définition de la visibilité du curseur système agrandi.
 
 La prise en charge de l’API d’agrandissement est fournie par Magnification.dll. Pour compiler votre application, incluez grossissement. h et un lien vers grossissement. lib.
 
 > [!Note]  
-> L’API d’agrandissement n’est pas prise en charge sous WOW64 ; autrement dit, une application de loupe 32 bits ne s’exécutera pas correctement sous Windows 64 bits.
+> L’API d’agrandissement n’est pas prise en charge sous WOW64 ; autrement dit, une application de loupe 32 bits ne s’exécute pas correctement sur le Windows 64 bits.
 
 ## <a name="basic-concepts"></a>Concepts de base
 
@@ -68,7 +68,7 @@ Cette section décrit les concepts fondamentaux sur lesquels l’API d’agrandi
 L’API prend en charge deux types d’agrandisseurs : la *loupe plein écran* et le *contrôle magnifier*. La loupe plein écran agrandit le contenu de l’écran tout entier, tandis que le contrôle magnifier agrandit le contenu d’une zone particulière de l’écran et affiche le contenu dans une fenêtre. Pour les deux loupes, les images et le texte sont agrandis, et tous deux vous permettent de contrôler la quantité d’agrandissement. Vous pouvez également appliquer des effets de couleur au contenu de l’écran agrandi, ce qui vous permet de voir plus facilement les personnes qui ont des défauts de couleurs ou des couleurs qui ont un contraste plus ou moins élevé.
 
 > [!Important]  
-> L’API de contrôle magnifier est disponible sur les systèmes d’exploitation Windows Vista et versions ultérieures, tandis que l’API magnifier plein écran est disponible uniquement sur les systèmes d’exploitation Windows 8 et versions ultérieures.
+> l’api de contrôle magnifier est disponible sur Windows Vista et les systèmes d’exploitation ultérieurs, tandis que l’api magnifier plein écran est disponible uniquement sur les systèmes d’exploitation Windows 8 et ultérieurs.
 
 ### <a name="magnification-factor"></a>Facteur d’agrandissement
 
@@ -76,7 +76,7 @@ La loupe plein écran et le contrôle magnifier appliquent une transformation d�
 
 ### <a name="color-effects"></a>Effets de couleur
 
-Les effets de couleur sont obtenus en appliquant une matrice de transformation de couleur 5 par 5 aux couleurs du contenu de l’écran agrandi. La matrice détermine les intensités des composants rouge, bleu, vert et alpha du contenu. Pour plus d’informations, consultez [utilisation d’une matrice de couleurs pour transformer une couleur unique](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) dans la documentation de Windows GDI+.
+Les effets de couleur sont obtenus en appliquant une matrice de transformation de couleur 5 par 5 aux couleurs du contenu de l’écran agrandi. La matrice détermine les intensités des composants rouge, bleu, vert et alpha du contenu. pour plus d’informations, consultez [utilisation d’une matrice de couleurs pour transformer une couleur unique](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) dans la documentation Windows GDI+.
 
 ### <a name="source-rectangle"></a>Rectangle source
 
@@ -381,7 +381,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 }
 ```
 
-Pour plus d’informations sur le fonctionnement des transformations de couleurs, consultez [utilisation d’une matrice de couleurs pour transformer une couleur unique](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) dans la documentation GDI+.
+pour plus d’informations sur le fonctionnement des transformations de couleurs, consultez [utilisation d’une matrice de couleurs pour transformer une couleur unique](../../gdiplus/-gdiplus-using-a-color-matrix-to-transform-a-single-color-use.md) dans la documentation de GDI+.
 
 ### <a name="selective-magnification"></a>Agrandissement sélectif
 

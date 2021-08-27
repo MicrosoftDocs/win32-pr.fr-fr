@@ -4,12 +4,12 @@ ms.assetid: 8a6373e0-46c2-4b1b-bc67-543f426ef15a
 title: Constantes et chaînes de l’identificateur de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d80823e897a8325cbcb7207f91bde69397296767
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67321097d93c5f4224a86a66528f98dacce18312003062665ccc30c1377de70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948746"
 ---
 # <a name="language-identifier-constants-and-strings"></a>Constantes et chaînes de l’identificateur de langue
 
@@ -18,7 +18,7 @@ ms.locfileid: "104319393"
 
 Pour obtenir une description des identificateurs de langue, consultez [identificateur de langue](language-identifiers.md) .
 
-Un identificateur principal ou de sous-langue peut être défini par l’utilisateur ou prédéfini. Pour obtenir les identificateurs de langue principale prédéfinis avec leurs identificateurs de sous-langue valides, consultez [[MS-LCID] : informations de référence sur l’identificateur LCID (Language code identifier) Windows](/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
+Un identificateur principal ou de sous-langue peut être défini par l’utilisateur ou prédéfini. pour obtenir les identificateurs de langue principale prédéfinis avec leurs identificateurs de sous-langue valides, consultez [[MS-LCID] : informations de référence sur les identificateurs de Code (LCID) Windows language](/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
 
 > [!Note]  
 > S’il n’existe aucun identificateur de sous-langue à utiliser avec un identificateur de langue primaire, votre application doit utiliser la **\_ valeur par défaut de sublang**. Il doit utiliser la sous-langue **\_ neutre** pour les ressources qui sont identiques pour toutes les sous-langues d’une langue primaire.

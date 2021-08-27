@@ -4,25 +4,25 @@ ms.assetid: 1cf7dc38-185a-4cc4-8f4c-44b6af4c5f4a
 title: Attribution d’un compte d’utilisateur ou d’un groupe à un rôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d53b37c9f0265e02c7abdf74eeaf81bd0b12e3d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fa0d2883f9aedb5f3a0edf5dc33de54a03767e53a48f2dd8b9b6ea86c3a6211f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047667"
 ---
 # <a name="assigning-a-user-account-or-group-to-a-role"></a>Attribution d’un compte d’utilisateur ou d’un groupe à un rôle
 
 Vous pouvez utiliser l’outil d’administration Services de composants pour remplir un rôle avec des comptes d’utilisateur ou des groupes. La méthode recommandée pour attribuer un compte d’utilisateur à un rôle consiste à affecter le compte d’utilisateur à un groupe, puis à attribuer le groupe au rôle. L’utilisation de groupes pour remplir des rôles vous permet de gérer plus facilement un grand nombre d’utilisateurs. Dans l’aide en ligne de l’outil d’administration gestion de l’ordinateur, consultez la rubrique « utilisateurs et groupes locaux » pour plus d’informations sur la création de groupes ou l’affectation d’un compte d’utilisateur à un groupe.
 
 > [!Note]  
-> Pour permettre aux utilisateurs réseau non authentifiés d’exécuter une application COM+, les rôles d’application doivent inclure l’utilisateur anonyme. À compter de Windows Server 2003, par défaut, l’utilisateur anonyme n’est pas inclus dans le groupe tout le monde.
+> Pour permettre aux utilisateurs réseau non authentifiés d’exécuter une application COM+, les rôles d’application doivent inclure l’utilisateur anonyme. à compter de Windows Server 2003, par défaut, l’utilisateur anonyme n’est pas inclus dans le groupe tout le monde.
 
  
 
-Une fois que vous avez attribué le compte d’utilisateur au groupe Windows approprié, procédez comme suit pour attribuer le groupe Windows au rôle.
+une fois que vous avez affecté le compte d’utilisateur au groupe de Windows approprié, procédez comme suit pour attribuer le groupe de Windows au rôle.
 
-**Pour affecter un groupe Windows à un rôle de sécurité**
+**pour affecter un groupe de Windows à un rôle de sécurité**
 
 1.  Dans l’arborescence de la console de l’outil d’administration Services de composants, recherchez l’application COM+ qui contient le rôle auquel vous souhaitez ajouter le compte d’utilisateur ou le groupe. Développez la vue dans l’arborescence de la console jusqu’à ce que les rôles de l’application soient visibles.
 

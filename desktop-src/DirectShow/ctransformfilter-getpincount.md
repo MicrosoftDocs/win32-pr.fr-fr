@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba1d2046bf7be31a9c0d3f3d43b13aeeffd1f76b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac9269149d7f2bbc95e811515f70aa279a4aafd8cf34b2d5077ed69019b86c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953598"
 ---
 # <a name="ctransformfiltergetpincount-method"></a>Méthode CTransformFilter. GetPinCount
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne 2.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode remplace la méthode [**CBaseFilter :: GetPinCount**](cbasefilter-getpincount.md) . La classe **CTransformFilter** prend en charge exactement une broche d’entrée et une broche de sortie.
 
@@ -54,7 +54,7 @@ Cette méthode remplace la méthode [**CBaseFilter :: GetPinCount**](cbasefilte
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

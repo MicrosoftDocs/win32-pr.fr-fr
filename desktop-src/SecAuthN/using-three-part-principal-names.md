@@ -4,12 +4,12 @@ ms.assetid: 6CD3BC5E-F9B2-4E8E-9DEE-064AE8837DFB
 title: Utilisation de trois noms principaux de parties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8760ba740843c62c39a98e7e4683d25410a94ec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05ddc9ce552e71d97c5e795b7405e97803991133a96e7b3fac3e1a81bc45d5ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915181"
 ---
 # <a name="using-three-part-principal-names"></a>Utilisation de trois noms principaux de parties
 

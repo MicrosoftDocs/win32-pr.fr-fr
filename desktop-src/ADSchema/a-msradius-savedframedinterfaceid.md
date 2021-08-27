@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 295525b523dac2d2054b7e8f960bc6e89befe376
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1830dbb85a9587b36740be17db042e18107af8a19454913edfcce7d84fd211ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081593"
 ---
 # <a name="ms-radius-savedframedinterfaceid-attribute"></a>attribut MS-RADIUS-SavedFramedInterfaceId
 
@@ -42,7 +42,7 @@ Indique l’identificateur d’interface IPv6 à configurer pour l’utilisateur
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

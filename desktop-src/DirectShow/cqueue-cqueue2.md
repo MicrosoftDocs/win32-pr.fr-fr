@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: afdb22dc265989e923ab285a190753fd63c6842d
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: e0364b952897f26eec6d2164ba1300e4abf9e67bc8530ba78c03da8d066aac49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106521792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953998"
 ---
 # <a name="cqueuecqueue-constructor-wxutilh---no-parameters"></a>Constructeur CQueue. CQueue (Wxutil. h)-aucun paramètre
 
@@ -40,7 +40,7 @@ CQueue();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La taille de la file d’attente est définie sur la valeur par défaut \_ QUEUESIZE.
 
@@ -50,7 +50,7 @@ La taille de la file d’attente est définie sur la valeur par défaut \_ QUEUE
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête  | Wxutil. h (include streams. h)                                                                                   |
+| En-tête  | Wxutil. h (inclure Flux. h)                                                                                   |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

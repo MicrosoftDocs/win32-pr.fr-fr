@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les handles utilisés p
 ms.assetid: 8a9788ed-eb25-42cb-b912-8dffa3df1850
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba70d2fadbd0d8393685fec2075ebf0dc4aa11c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7477558887ac484ec0c3645d568bc3d91d29926af887ebadc51cf7e9523da787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051931"
 ---
 # <a name="hinternet-handles"></a>Handles HINTERNET
 
@@ -77,10 +77,10 @@ Une fois que [**HTTPSendRequest**](/windows/desktop/api/Wininet/nf-wininet-https
 Une fois que [**HttpSendRequestEx**](/windows/desktop/api/Wininet/nf-wininet-httpsendrequestexa) a utilisé le handle retourné par [**HttpOpenRequest**](/windows/desktop/api/Wininet/nf-wininet-httpopenrequesta), le handle peut être utilisé par [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta), [**InternetReadFileEx**](/windows/desktop/api/Wininet/nf-wininet-internetreadfileexa)et [**InternetWriteFile**](/windows/desktop/api/Wininet/nf-wininet-internetwritefile). Une fois [**HttpEndRequest**](/windows/desktop/api/Wininet/nf-wininet-httpendrequesta) appelé, le handle peut être utilisé par [**InternetReadFile**](/windows/desktop/api/Wininet/nf-wininet-internetreadfile), [**InternetSetFilePointer**](/windows/desktop/api/Wininet/nf-wininet-internetsetfilepointer)et [**InternetQueryDataAvailable**](/windows/desktop/api/Wininet/nf-wininet-internetquerydataavailable).
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

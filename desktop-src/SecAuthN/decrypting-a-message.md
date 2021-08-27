@@ -4,18 +4,18 @@ ms.assetid: 4858a43b-3084-4a03-8b6f-4a788cdb3dd5
 title: Déchiffrement d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3598025564e607bf25241def4171eba84aa1dbbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca3b01b37b82c3b8c2ca551e2b8113ff171668b2bb95b41fa9b8363e5b3ae4af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008637"
 ---
 # <a name="decrypting-a-message"></a>Déchiffrement d’un message
 
 L’exemple suivant illustre la réception et le déchiffrement d’un message chiffré.
 
-L’exemple suppose qu’une variable **SecHandle** nommée `phContext` et une structure **Socket** nommée `s` sont initialisées. Pour les déclarations et les initiations de ces variables, consultez [utilisation de SSPI avec un client Windows Sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de SSPI avec un serveur Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
+L’exemple suppose qu’une variable **SecHandle** nommée `phContext` et une structure **Socket** nommée `s` sont initialisées. pour les déclarations et les initiations de ces variables, consultez [utilisation de sspi avec un Client Windows sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de sspi avec un serveur de sockets Windows](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
 
 
 ```C++

@@ -3,7 +3,7 @@ title: Message WM_MEASUREITEM (winuser. h)
 description: Envoyé à la fenêtre propriétaire d’une zone de liste déroulante, d’une zone de liste, d’un contrôle de vue de liste ou d’un élément de menu lors de la création du contrôle ou du menu.
 ms.assetid: 6947bcd1-fd40-4238-b8f2-d4e06b90c0dc
 keywords:
-- WM_MEASUREITEM les contrôles de message Windows
+- WM_MEASUREITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e14cc0c39e1d319fb9190f8ad7d51ea25f821c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7eae57fc163f19edcef6dc924072cd3389146b66e614b61d6f121237e82e1344
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957508"
 ---
 # <a name="wm_measureitem-message"></a>\_Message WM MEASUREITEM
 
@@ -59,7 +59,7 @@ Pointeur vers une structure [**measureitemstruct,**](/windows/win32/api/winuser/
 
 Si une application traite ce message, elle doit retourner la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la fenêtre propriétaire reçoit le message **WM \_ MEASUREITEM** , le propriétaire remplit la structure [**measureitemstruct,**](/windows/win32/api/winuser/ns-winuser-measureitemstruct) désignée par le paramètre *lParam* du message et retourne la valeur, et indique au système les dimensions du contrôle. Si une zone de liste ou une zone de liste déroulante est créée avec le style [**\_ OWNERDRAWVARIABLE**](list-box-styles.md) ou [**CBS \_ OWNERDRAWVARIABLE**](combo-box-styles.md) , ce message est envoyé au propriétaire de chaque élément du contrôle ; sinon, ce message est envoyé une seule fois.
 
@@ -71,8 +71,8 @@ Le système envoie le message **WM \_ MEASUREITEM** à la fenêtre propriétaire
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

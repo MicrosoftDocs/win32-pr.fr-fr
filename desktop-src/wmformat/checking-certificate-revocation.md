@@ -22,16 +22,16 @@ keywords:
 - certificats, révocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcbb72dd52870437ef9b69b30cc36a57725abe09
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c3d9f8aaa299873513f88a2be258cf2ddd96147934e461cbde49630542fd9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028067"
 ---
 # <a name="checking-certificate-revocation"></a>Vérification de la révocation des certificats
 
-Lorsque vous importez du contenu dans Windows Media DRM, vous devez vous assurer qu’aucun certificat dans une collection de certificats n’a été révoqué en vérifiant qu’aucun certificat de la collection n’est dans la liste de révocation. La liste de révocation est extraite à l’aide de la méthode [**IWMDRMSecurity :: GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) .
+lorsque vous importez du contenu dans Windows DRM Media, vous devez vous assurer qu’aucun certificat dans une collection de certificats n’a été révoqué en vérifiant qu’aucun certificat de la collection n’est dans la liste de révocation. La liste de révocation est extraite à l’aide de la méthode [**IWMDRMSecurity :: GetRevocationData**](iwmdrmsecurity-getrevocationdata.md) .
 
 Vous utilisez ensuite la méthode [**IWMDRMSecurity :: CheckCertForRevocation**](iwmdrmsecurity-checkcertforrevocation.md) pour vérifier que le certificat n’est pas révoqué.
 
@@ -42,9 +42,9 @@ Vous utilisez ensuite la méthode [**IWMDRMSecurity :: CheckCertForRevocation**
 [**Importation DRM**](drm-import.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

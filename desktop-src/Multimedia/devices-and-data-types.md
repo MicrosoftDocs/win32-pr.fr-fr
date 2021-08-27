@@ -28,12 +28,12 @@ keywords:
 - fermeture des périphériques de sortie Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abe0c2c20c52f4498316fb619885d41f85e41d6
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 165f740e260c4e1a25fbd40cac9b8efd66ccd401c3e166dd1119b92c7b9999f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941267"
 ---
 # <a name="devices-and-data-types"></a>Appareils et types de données
 
@@ -133,7 +133,7 @@ Il existe également deux formats de presse-papiers que vous pouvez utiliser pou
 
 ## <a name="writing-waveform-audio-data"></a>Écriture de données Waveform-Audio
 
-Après avoir ouvert un pilote de périphérique de sortie Waveform-Audio, vous pouvez commencer à émettre un son. Windows fournit la fonction [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite) pour envoyer des blocs de données à des périphériques de sortie Waveform-Audio.
+Après avoir ouvert un pilote de périphérique de sortie Waveform-Audio, vous pouvez commencer à émettre un son. Windows fournit la fonction [**waveOutWrite**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutwrite) pour envoyer des blocs de données à des périphériques de sortie waveform-audio.
 
 Utilisez la structure [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-wavehdr) pour spécifier le bloc de données Waveform-Audio que vous envoyez à l’aide de **waveOutWrite**. Cette structure contient un pointeur vers un bloc de données verrouillé, la longueur du bloc de données et certains indicateurs. Ce bloc de données doit être préparé avant de l’utiliser. Pour plus d’informations sur la préparation d’un bloc de données, consultez [blocs de données audio](audio-data-blocks.md).
 

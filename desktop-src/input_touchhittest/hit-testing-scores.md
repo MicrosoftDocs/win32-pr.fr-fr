@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: f6590e7d56c1c9d92f0ff20524b6e4222d8655b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18b321272637f4e6931bdc9115e64f8b0553e90e94d8013147ca7a577bad1eb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758011"
 ---
 # <a name="touch-hit-testing-scores"></a>Scores de test d’atteinte tactile
 
@@ -33,6 +33,6 @@ Les constantes suivantes identifient les scores de test de positionnement possib
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | Winuser. h |

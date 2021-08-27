@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09265299a676ef6b9d319153c7efdbe3929ee883
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3db892ebaa613cf95c016162e12ee3f9de0a101e433a73aa203640be8645f0ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081983"
 ---
 # <a name="app-schema-version-attribute"></a>App-Schema-Version, attribut
 
@@ -36,7 +36,7 @@ Cet attribut stocke la version de schéma du magasin de classes. Elle est utilis
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.848               |
 | System-ID-GUID    | 96a7dd65-9118-11d1-aebc-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut stocke la version de schéma du magasin de classes. Elle est utilis
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

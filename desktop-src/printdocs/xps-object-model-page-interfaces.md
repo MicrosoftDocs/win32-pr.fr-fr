@@ -4,12 +4,12 @@ ms.assetid: 80ccbadc-cc19-48fd-a6a4-301cc214dd99
 title: Interfaces de page OM XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1981ccdd8260973ee76b7323687072140f0eb011
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcf719f12dbd483fac339da1cacf256593def61e2862e3a73588a14d457c52ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971118"
 ---
 # <a name="xps-om-page-interfaces"></a>Interfaces de page OM XPS
 

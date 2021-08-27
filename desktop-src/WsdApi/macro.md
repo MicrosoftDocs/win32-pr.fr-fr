@@ -4,12 +4,12 @@ ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: macro, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f794566b0fd789c463d404289644976c8301a2e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: ee876e04934a328e73b6e45d8442249ad3d749fc3b40fa45652c89979fcff6e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991719"
 ---
 # <a name="macro-element"></a>macro, élément
 
@@ -60,7 +60,7 @@ Le code XML suivant montre comment inclure la macro **DoNotModify** . Ce code XM
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,12 +4,12 @@ ms.assetid: 75f5071c-040b-4e65-a80e-e1fea63535b0
 title: Syntaxe de la ligne de commande WsdCodeGen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7db3afe9b13286833f8563c0cacb41919d77bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fff02fd9bbbcfddd20a68948f139e765d27a86363df12fc0057627717e53cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119049637"
 ---
 # <a name="wsdcodegen-command-line-syntax"></a>Syntaxe de la ligne de commande WsdCodeGen
 
@@ -96,7 +96,7 @@ Emplacement de sortie pour les fichiers générés. le *chemin d’accès* peut 
 
 Indique à WsdCodeGen d’exécuter la commande spécifiée avant de modifier les fichiers existants sur le disque. Les fichiers de sortie qui sont identiques à ceux du disque ne reçoivent pas cette commande et ne sont pas écrits dans. Si la commande contient la séquence « {0} », cette séquence sera remplacée par le nom du fichier à modifier. Si ce n’est pas le cas, le nom de fichier est ajouté à la commande.
 
-Exemples :
+Exemples :
 
 **/WriteAccess : "attrib-r"**
 
@@ -134,8 +134,8 @@ Nom du fichier de configuration à traiter avant de générer le code.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Contexte (services Web Windows)
+title: contexte (Services Web Windows)
 description: Un contexte est utilisé dans les opérations de service de modèle de service et les rappels pour passer les données d’État pertinentes à l’opération de service ou au rappel lorsqu’il est appelé.
 ms.assetid: 44283854-96df-4e6b-8464-3df685896f07
 keywords:
@@ -8,14 +8,14 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7edd1f8c93bbf4fd4b4d5feea5b2219bc522ea
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: fd7863f22193dd1496134afff991ff54efbee5026f2a11e52359b2b016c878c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103940583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026627"
 ---
-# <a name="context-windows-web-services"></a>Contexte (services Web Windows)
+# <a name="context-windows-web-services"></a>contexte (Services Web Windows)
 
 Un contexte est utilisé dans les [opérations de service](service-operation.md) de modèle de service et les rappels pour passer les données d’État pertinentes à l’opération de service ou au rappel lorsqu’il est appelé. Un contexte est référencé par une structure [de \_ \_ contexte d’opération WS](ws-operation-context.md) . Les propriétés d’un contexte peuvent être récupérées avec la fonction [**WsGetOperationContextProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetoperationcontextproperty) , comme illustré dans le code suivant.
 
@@ -45,9 +45,9 @@ Le handle suivant fait partie du contexte :
 
 -   [contexte de l' \_ opération WS \_](ws-operation-context.md)
 
- 
+ 
 
- 
+ 
 
 
 

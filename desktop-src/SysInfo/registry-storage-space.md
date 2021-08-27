@@ -1,17 +1,17 @@
 ---
 description: Bien qu’il existe peu de limites techniques quant au type et à la taille des données qu’une application peut stocker dans le registre, certaines recommandations pratiques existent pour favoriser l’efficacité du système.
 ms.assetid: fa85ff87-3d72-4f71-856a-f43df7d19aa8
-title: Espace de stockage du Registre
+title: espace de Stockage du registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b776498528d6c7deaacd92f9e010758b5d57c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d00414edbd34452fd6943a4d73a2ebe85af5d38884ddd0ca77f1d8fb41ae6e0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885077"
 ---
-# <a name="registry-storage-space"></a>Espace de stockage du Registre
+# <a name="registry-storage-space"></a>espace de Stockage du registre
 
 Bien qu’il existe peu de limites techniques quant au type et à la taille des données qu’une application peut stocker dans le registre, certaines recommandations pratiques existent pour favoriser l’efficacité du système. Une application doit stocker des données de configuration et d’initialisation dans le registre, et stocker d’autres types de données ailleurs.
 
@@ -21,19 +21,19 @@ Une entrée de valeur utilise un espace de registre bien inférieur à celui d�
 
 Les affichages des fichiers du Registre sont mappés dans la mémoire de réserve paginée.
 
-**Windows server 2008 pour 32 bits, Windows Vista avec SP1 pour 32 bits, Windows Vista, Windows Server 2003, Windows XP :** Les affichages des fichiers du Registre sont mappés dans l’espace d’adressage du cache de l’ordinateur. Par conséquent, quelle que soit la taille des données du Registre, il n’y a pas de facturation supérieure à 4 mégaoctets (Mo).
+**Windows server 2008 pour 32 bits, Windows vista avec SP1 pour 32 bits, Windows vista, Windows Server 2003, Windows XP :** Les affichages des fichiers du Registre sont mappés dans l’espace d’adressage du cache de l’ordinateur. Par conséquent, quelle que soit la taille des données du Registre, il n’y a pas de facturation supérieure à 4 mégaoctets (Mo).
 
 La taille maximale d’une ruche de Registre est de 2 Go, à l’exception de la ruche système.
 
-**Windows server 2003 avec SP1, Windows server 2003 et Windows XP :** Il n’existe aucune limite explicite quant à la quantité d’espace totale pouvant être consommée par les ruches dans la mémoire de réserve paginée et dans l’espace disque, bien que les quotas système puissent affecter la taille maximale réelle. La taille maximale d’une ruche de registre était limitée à 2 Go à compter de Windows Server 2003 avec Service Pack 2 (SP2).
+**Windows server 2003 avec SP1, Windows server 2003 et Windows XP :** Il n’existe aucune limite explicite quant à la quantité d’espace totale pouvant être consommée par les ruches dans la mémoire de réserve paginée et dans l’espace disque, bien que les quotas système puissent affecter la taille maximale réelle. la taille maximale d’une ruche de registre était limitée à 2 go à partir de Windows Server 2003 avec Service Pack 2 (SP2).
 
 La taille maximale de la ruche système est limitée par la mémoire physique, comme indiqué dans le tableau suivant. 
 
 | Système                      | Taille maximale de la ruche système                                                                                                                                                                                                            |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| systèmes basés sur x86           | 50% de la mémoire physique, jusqu’à 400 Mo. **Windows server 2003 avec SP2, Windows server 2003 avec SP1, Windows server 2003 et Windows XP :** 25% de la mémoire physique, jusqu’à 200 Mo.<br/>                                    |
-| systèmes basés sur x64           | 50% de la mémoire physique, jusqu’à 1,5 Go. **Windows Server 2003 avec SP2 :** 25% de la mémoire système, jusqu’à 200 Mo.<br/> **Windows server 2003 avec SP1, Windows server 2003 et Windows XP 64-bit Edition :** 32 Mo.<br/> |
-| Systèmes basés sur Intel Itanium | 50% de la mémoire physique, jusqu’à 1 Go. **Windows server 2008, Windows Vista, Windows server 2003 avec SP2, Windows server 2003 avec SP1, Windows server 2003 et Windows XP édition 64 bits :** 32 Mo.<br/>                         |
+| systèmes basés sur x86           | 50% de la mémoire physique, jusqu’à 400 Mo. **Windows server 2003 avec SP2, Windows server 2003 avec SP1, Windows server 2003 et Windows XP :** 25% de la mémoire physique, jusqu’à 200 mo.<br/>                                    |
+| systèmes basés sur x64           | 50% de la mémoire physique, jusqu’à 1,5 Go. **Windows Server 2003 avec SP2 :** 25% de la mémoire système, jusqu’à 200 mo.<br/> **Windows server 2003 avec SP1, Windows server 2003 et Windows XP 64-Bit Edition :** 32 mo.<br/> |
+| Systèmes basés sur Intel Itanium | 50% de la mémoire physique, jusqu’à 1 Go. **Windows server 2008, Windows Vista, Windows server 2003 avec SP2, Windows server 2003 avec SP1, Windows server 2003 et Windows XP édition 64 bits :** 32 mo.<br/>                         |
 
 
 

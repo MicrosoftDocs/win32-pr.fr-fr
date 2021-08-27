@@ -4,12 +4,12 @@ ms.assetid: a65054bd-31cb-4842-af59-82cfe799fb70
 title: Signature d’un message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f8151a66120575bfcaeda62955a7f6aa47e8e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b605ccaaa4adfe37dc2bbe5f5c0ed809f0656896e5e85478b0b63740bf6f63e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918048"
 ---
 # <a name="signing-a-message"></a>Signature d’un message
 
@@ -17,7 +17,7 @@ Quand un client et un serveur terminent la configuration du [*contexte de sécur
 
 L’exemple suivant montre le côté client qui génère un message signé à envoyer au serveur. Avant d’appeler [**MakeSignature**](/windows/desktop/api/Sspi/nf-sspi-makesignature), le client appelle [**QueryContextAttributes (General)**](/windows/win32/api/sspi/nf-sspi-querycontextattributesa) avec une structure de [**\_ tailles SecPkgContext**](/windows/desktop/api/Sspi/ns-sspi-secpkgcontext_sizes) pour déterminer la longueur de la mémoire tampon nécessaire pour contenir la signature du message. Si le membre **cbMaxSignature** est égal à zéro, le [*package de sécurité*](../secgloss/s-gly.md) ne prend pas en charge la signature des messages. Dans le cas contraire, ce membre indique la taille de la mémoire tampon à allouer pour recevoir la signature.
 
-L’exemple suppose qu’une variable **SecHandle** nommée *phContext* et une structure de **Socket** nommée *s* sont initialisées. Pour les déclarations et les initiations de ces variables, consultez [utilisation de SSPI avec un client Windows Sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de SSPI avec un serveur Windows Sockets](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
+L’exemple suppose qu’une variable **SecHandle** nommée *phContext* et une structure de **Socket** nommée *s* sont initialisées. pour les déclarations et les initiations de ces variables, consultez [utilisation de sspi avec un Client Windows sockets](using-sspi-with-a-windows-sockets-client.md) et [utilisation de sspi avec un serveur de sockets Windows](using-sspi-with-a-windows-sockets-server.md). Cet exemple inclut des appels aux fonctions dans secur32. lib, qui doivent être inclus dans les bibliothèques de liens.
 
 
 ```C++

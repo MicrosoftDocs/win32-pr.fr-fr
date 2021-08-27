@@ -75,12 +75,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e93ae76ae3c4880c7ad041e6e90d39f1b22820d3
-ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
+ms.openlocfilehash: aab5f52a3e8dbb910227eb91eb34c7d562a26ad7915f0d61b25d46c825c101a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "110153572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958928"
 ---
 # <a name="win32_networkadapterconfiguration-class"></a>\_Classe NetworkAdapterConfiguration Win32
 
@@ -199,8 +199,8 @@ La classe **Win32 \_ NetworkAdapterConfiguration** possède ces méthodes.
 | [**SetIGMPLevel**](setigmplevel-method-in-class-win32-networkadapterconfiguration.md)                                       | Définit dans quelle mesure le système prend en charge la multidiffusion IP et participe au protocole de gestion de groupes Internet.<br/>                   |
 | [**SetIPConnectionMetric**](setipconnectionmetric-method-in-class-win32-networkadapterconfiguration.md)                     | Définit la métrique de routage associée à cette carte IP liée.<br/>                                                                             |
 | [**SetIPUseZeroBroadcast**](setipusezerobroadcast-method-in-class-win32-networkadapterconfiguration.md)                     | Définit l’utilisation de la diffusion à zéro IP.<br/>                                                                                                              |
-| [**SetIPXFrameTypeNetworkPairs**](win32-networkadapterconfiguration-setipxframetypenetworkpairs.md)                         | Définit le numéro de réseau/les paires d’images IPX (Internetworking Packet Exchange) pour cette carte réseau.<br/>                                            |
-| [**SetIPXVirtualNetworkNumber**](win32-networkadapterconfiguration-setipxvirtualnetworknumber.md)                           | Définit le numéro de réseau virtuel IPX sur le système de l’ordinateur cible.<br/>                                       |
+| [**SetIPXFrameTypeNetworkPairs**](win32-networkadapterconfiguration-setipxframetypenetworkpairs.md)                         | définit le numéro de réseau/les paires d’images (IPX) de l’Exchange de paquets interréseau pour cette carte réseau.<br/>                                            |
+| [**SetIPXVirtualNetworkNumber**](win32-networkadapterconfiguration-setipxvirtualnetworknumber.md)                           | définit Exchange le numéro de réseau virtuel (IPX) du réseau virtuel sur le système de l’ordinateur cible.<br/>                                       |
 | [**SetKeepAliveInterval**](setkeepaliveinterval-method-in-class-win32-networkadapterconfiguration.md)                       | Définit l’intervalle séparant les retransmissions KeepAlive jusqu’à la réception d’une réponse.<br/>                                                      |
 | [**SetKeepAliveTime**](setkeepalivetime-method-in-class-win32-networkadapterconfiguration.md)                               | Définit la fréquence à laquelle TCP tente de vérifier qu’une connexion inactive est toujours disponible en envoyant un paquet Keep Alive.<br/>                           |
 | [**SetMTU**](setmtu-method-in-class-win32-networkadapterconfiguration.md)                                                   | Définit l’unité de transmission maximale (MTU) par défaut pour une interface réseau.<br/> Cette méthode n'est pas prise en charge.<br/>                         |
@@ -213,7 +213,7 @@ La classe **Win32 \_ NetworkAdapterConfiguration** possède ces méthodes.
 | [**SetTcpNumConnections**](settcpnumconnections-method-in-class-win32-networkadapterconfiguration.md)                       | Définit le nombre maximal de connexions que TCP peut avoir ouvertes simultanément.<br/>                                                              |
 | [**SetTcpUseRFC1122UrgentPointer**](settcpuserfc1122urgentpointer-method-in-class-win32-networkadapterconfiguration.md)     | Spécifie si TCP utilise la spécification RFC 1122 pour les données urgentes, ou le mode utilisé par les systèmes dérivés de Berkeley Software Design (BSD).<br/> |
 | [**SetTcpWindowSize**](settcpwindowsize-method-in-class-win32-networkadapterconfiguration.md)                               | Définit la taille maximale de la fenêtre de réception TCP offerte par le système.<br/>                                                                            |
-| [**SetWINSServer**](setwinsserver-method-in-class-win32-networkadapterconfiguration.md)                                     | Définit les serveurs WINS (Windows Internet Service de nommage) principaux et secondaires sur cette carte réseau TCP/IP.<br/>                        |
+| [**SetWINSServer**](setwinsserver-method-in-class-win32-networkadapterconfiguration.md)                                     | définit les serveurs WINS principaux et secondaires Windows Service de nommage Internet (WINS) sur cette carte réseau TCP/IP.<br/>                        |
 
 
 
@@ -287,7 +287,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ tcpip \\ \\ Parameters \| DatabasePath")
 </dt> </dl>
 
-Chemin de fichier Windows valide pour les fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux et protocoles). Le chemin d’accès du fichier est utilisé par l’interface Windows Sockets.
+chemin de fichier Windows valide pour les fichiers de base de données Internet standard (hôtes, LMHOSTS, réseaux et protocoles). le chemin d’accès du fichier est utilisé par l’interface de sockets Windows.
 
 </dd> <dt>
 
@@ -490,7 +490,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ tcpip \\ \\ Parameters \| EnableDNS")
 </dt> </dl>
 
-Si la **valeur est true**, le système DNS (Domain Name System) est activé pour la résolution de noms sur la résolution WINS (Windows Internet service de nommage). Si le nom ne peut pas être résolu à l’aide de DNS, la demande de nom est transférée vers WINS pour la résolution.
+si la **valeur est TRUE**, le système DNS (domain Name System) est activé pour la résolution de noms sur Windows la résolution WINS (Internet Service de nommage). Si le nom ne peut pas être résolu à l’aide de DNS, la demande de nom est transférée vers WINS pour la résolution.
 
 </dd> <dt>
 
@@ -638,7 +638,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Key**](../wmisdk/key-qualifier.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Class \\ \\ {4D36E972-E325-11CE-BFC1-08002BE10318}")
 </dt> </dl>
 
-Numéro d’index de la configuration de la carte réseau Windows. Le numéro d’index est utilisé lorsque plusieurs configurations sont disponibles.
+numéro d’Index de la configuration de la carte réseau Windows. Le numéro d’index est utilisé lorsque plusieurs configurations sont disponibles.
 
 </dd> <dt>
 
@@ -825,10 +825,10 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("win32api \| Windows Sockets version 2 \| [**getsockopt**](/windows/win32/api/winsock/nf-winsock-getsockopt) \| \_ 'adresse IPX")
+qualificateurs : [**deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| Windows sockets Version 2 \| [**getsockopt**](/windows/win32/api/winsock/nf-winsock-getsockopt) \| IPX \_ adresse")
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 </dd> <dt>
 
@@ -844,7 +844,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**déconseillé**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« WMI »)
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 </dd> <dt>
 
@@ -860,7 +860,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ NwlnkIpx \\ \\ Parameters \| PktType")
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 <dt>
 
@@ -913,7 +913,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ NwlnkIpx \\ \\ Parameters \| MediaType")
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 <dt>
 
@@ -959,7 +959,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ NwlnkIpx \\ \\ Parameters \| numéroRéseau")
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 </dd> <dt>
 
@@ -975,7 +975,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Deprecated**](../wmisdk/standard-wmi-qualifiers.md), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ NwlnkIpx \\ \\ Parameters \| VirtualNetworkNumber")
 </dt> </dl>
 
-La technologie d’échange de paquets interréseau (IPX) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
+la technologie IPX (internetwork Packet Exchange) n’est plus prise en charge et cette propriété ne contient pas de données utiles.
 
 </dd> <dt>
 
@@ -1093,7 +1093,7 @@ Si la **valeur est true**, le chemin d’accès de l’unité de transmission ma
 
 </dd> <dt>
 
-**NomService**
+**FormName**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1102,7 +1102,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ServiceName")
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ NetworkCards \| ServiceName")
 </dt> </dl>
 
 Nom de service de la carte réseau. Ce nom est généralement plus petit que le nom complet du produit.
@@ -1177,7 +1177,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| System \\ \\ CurrentControlSet \\ \\ services \\ \\ tcpip \\ \\ Parameters \| TcpMaxConnectRetransmissions")
 </dt> </dl>
 
-Nombre de tentatives de retransmission d’une demande de connexion par TCP avant de mettre fin à la connexion. Le délai de retransmission initial est de 3 secondes. Le délai de retransmission double pour chaque tentative. Valeur par défaut : 3, plage valide : 0-0xFFFFFFFF.
+nombre de tentatives de retransmission d’une demande de Connecter par TCP avant de mettre fin à la connexion. Le délai de retransmission initial est de 3 secondes. Le délai de retransmission double pour chaque tentative. Valeur par défaut : 3, plage valide : 0-0xFFFFFFFF.
 
 </dd> <dt>
 
@@ -1275,7 +1275,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« win32api \| System Information Functions \| [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) \| \\ \\ drivers \\ \\ etc \\ \\ Lmhosts »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32API \| System Information functions \| [**GetSystemDirectory**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) \| \\ \\ drivers \\ \\ etc \\ \\ lmhosts")
 </dt> </dl>
 
 Chemin d’accès à un fichier de recherche WINS sur le système local. Ce fichier contient un mappage d’adresses IP aux noms d’hôtes. Si le fichier spécifié dans cette propriété est trouvé, il sera copié dans le dossier% SystemRoot% \\ system32 \\ drivers, \\ etc. du système local. Valide uniquement si la propriété **WINSEnableLMHostsLookup** a la **valeur true**.
@@ -1670,14 +1670,14 @@ End Function
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
 | Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |

@@ -4,12 +4,12 @@ description: En savoir plus sur les effets Direct3D 11. Un effet est l’état d
 ms.assetid: d52a2cad-eac9-4442-9ee5-114bebe0f245
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 063b554e28786b48a467de12042bf6ada99645a9
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 0fe4cdb204e498a0c6a8f4d5f6e4656446c0f0a3f4d660f2e0e2a33e8515a0e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990099"
 ---
 # <a name="effects-direct3d-11"></a>Effets (Direct3D 11)
 

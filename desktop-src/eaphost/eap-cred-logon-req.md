@@ -6,12 +6,12 @@ keywords:
 - EAP_CRED_LOGON_REQ
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2af29daa9d68e4cd2dd78f101585c2fa14d25200
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 719abbed6c16deb6d3bfd61811f3f24253181364fe89f5823ee682bafef001e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785622"
 ---
 # <a name="eap_cred_logon_req"></a>\_ \_ demande d’ouverture de session EAP cred \_
 
@@ -33,7 +33,7 @@ La **structure \_ \_ \_ req Logon Logon d’EAP** stocke les informations d’id
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure de **\_ \_ \_ demande d’ouverture de session EAP cred** est utilisée pour prendre en charge l’authentification unique (SSO).
 
@@ -45,8 +45,8 @@ La structure de **\_ \_ \_ demande d’ouverture de session EAP cred** est ident
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Eaptypes. h</dt> </dl> |
 
 

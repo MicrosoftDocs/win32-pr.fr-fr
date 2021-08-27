@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 817f1866c4000ec359f55360cc6369d8cfc8e1ce
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6883ebc03b1354d775f744e8afae5cff353f60fb7a9819573843c98c96de5599
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011907"
 ---
 # <a name="using-opengl-on-windows"></a>Utilisation de OpenGL sur Windows
 
@@ -27,11 +27,11 @@ Les rubriques suivantes expliquent comment utiliser plusieurs fonctionnalités s
 -   [Stratégies de dessin OpenGL multithread](multithread-opengl-drawing-strategies.md)
 -   [Utilisation de la bibliothèque auxiliaire](using-the-auxiliary-library.md)
 
-Pour plus d’informations sur OpenGL ES exécuté sur Windows, consultez [MSOPENTECH angle](https://github.com/MSOpenTech/angle/wiki).
+pour plus d’informations sur les e/s OpenGL s’exécutant sur Windows, voir [ANGLE MSOpenTech](https://github.com/MSOpenTech/angle/wiki).
 
- 
+ 
 
- 
+ 
 
 
 

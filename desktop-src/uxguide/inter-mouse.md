@@ -4,19 +4,19 @@ description: La souris est l’appareil d’entrée principal utilisé pour inte
 ms.assetid: 4d99287d-e908-4c8b-b4f6-6e8c91c6c93e
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6462c69216ee9acb5149a01a805503cea721bb1c
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e973ad46ec864c20ad7eef5708388f86e8489909df1fdae609106d1ca65d4614
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119030236"
 ---
 # <a name="mouse-and-pointers"></a>Souris et pointeurs
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-La souris est l’appareil d’entrée principal utilisé pour interagir avec les objets dans Windows. La fonctionnalité de la souris peut également englober d’autres périphériques de pointage, tels que des trackballs, des pavés tactiles et des Memory Stick intégrés dans des ordinateurs portables, des stylets utilisés avec la technologie Windows tablette et Touch, et, sur des ordinateurs équipés d’écrans tactiles, même le doigt d’un utilisateur.
+La souris est l’appareil d’entrée principal utilisé pour interagir avec les objets dans Windows. la fonctionnalité de la souris peut également englober d’autres dispositifs de pointage, tels que des trackballs, des pavés tactiles et des memory sticks intégrés à des ordinateurs portables, des stylets utilisés avec technologie Windows Tablet and Touch et, sur des ordinateurs équipés d’écrans tactiles, même le doigt d’un utilisateur.
 
 > [!NOTE]
 > Les instructions relatives à l' [accessibilité](inter-accessibility.md), au [stylet](inter-pen.md)et à l' [effleurement](inter-touch.md) sont présentées dans des articles distincts.
@@ -31,7 +31,7 @@ Les périphériques de souris ont souvent un bouton principal (généralement le
 
 Tous les pointeurs, à l’exception du pointeur Busy, ont une zone réactive de pixel unique qui définit l’emplacement exact de l’écran de la souris. La zone réactive détermine l’objet affecté par les actions de la souris. Les objets définissent une zone réactive, qui est la zone dans laquelle la zone réactive est considérée sur l’objet. En règle générale, la zone d’échange coïncide avec les bordures d’un objet, mais elle peut être plus grande pour faciliter l’exécution de l’utilisateur.
 
-Le signe insertion est la barre verticale clignotante qui s’affiche lorsque l’utilisateur tape dans une zone de texte ou un autre éditeur de texte. Le signe insertion est indépendant du pointeur (par défaut, Windows MASQUE le pointeur pendant que l’utilisateur tape).
+Le signe insertion est la barre verticale clignotante qui s’affiche lorsque l’utilisateur tape dans une zone de texte ou un autre éditeur de texte. le signe insertion est indépendant du pointeur (par défaut, Windows masque le pointeur pendant que l’utilisateur tape).
 
 ![capture d’écran de la zone de texte avec le curseur ](images/inter-mouse-image2.png)
 
@@ -61,7 +61,7 @@ Le fait de cliquer **avec le bouton droit, de double-cliquer et de cliquer avec 
 
 ### <a name="single-click-or-double-click"></a>Un simple clic ou un double-clic ?
 
-Double-cliquez sur le bureau Windows pour qu’il ne semble pas être une interaction avancée. Par exemple, l’ouverture de dossiers, programmes ou documents dans le volet fichier de l’Explorateur Windows est effectuée en double-cliquant sur. L’ouverture d’un raccourci sur le bureau Windows utilise également un double-clic. En revanche, l’ouverture de dossiers ou de programmes dans le menu Démarrer requiert un simple clic.
+le Double-clic est donc utilisé de manière intensive sur le bureau Windows qu’il est possible qu’il ne semble pas être une interaction avancée. par exemple, l’ouverture de dossiers, programmes ou documents dans le volet fichier de Windows Explorer est effectuée en double-cliquant sur. l’ouverture d’un raccourci sur le bureau Windows utilise également un double-clic. en revanche, l’ouverture de dossiers ou de programmes dans le menu Démarrer nécessite un simple clic.
 
 Les objets sélectionnables utilisent un simple clic pour effectuer la sélection. ils nécessitent donc un double-clic pour ouvrir, tandis que les objets non sélectionnables requièrent un seul clic pour s’ouvrir. Cette distinction n’est pas comprise par de nombreux utilisateurs (le fait de cliquer sur une icône de programme est de cliquer sur une icône de programme) et, par conséquent, certains utilisateurs continuent de cliquer sur les icônes jusqu’à ce qu’ils obtiennent ce qu’ils souhaitent.
 
@@ -100,7 +100,7 @@ Le tableau suivant décrit les interactions et les effets courants de la souris.
 
 Le tableau suivant décrit les formes et les utilisations courantes des pointeurs.
 
-| Graphique à base de formes | Nom | Quand l’utiliser |
+| Forme | Nom | Quand l’utiliser |
 |:---|:---|:---|
 | ![capture d’écran d’un pointeur avec une forme de flèche ](images/inter-mouse-image5.png)<br/>           | Sélection normale<br/>    | Utilisé pour la plupart des objets.<br/>                                             |
 | ![capture d’écran de main avec point d’index pointant vers le doigt ](images/inter-mouse-image6.png)<br/>    | Sélectionner un lien<br/>      | Utilisé pour les liens textuels et graphiques en raison de leur faible rentabilité.<br/> |
@@ -114,15 +114,15 @@ Le tableau suivant décrit les interactions courantes de la souris.
 | Action composée | Interaction | Effet classique | Pointeurs |
 |:---|:---|:---|:---|
 | Déplacement<br/>                | Si le déplacement est un mode (entré en donnant une commande), entrez le mode, placez le pointeur sur un objet mobile, appuyez sur le bouton et déplacez la souris, relâchez le bouton de la souris. dans ce cas, le pointeur change Shape pour indiquer le mode.<br/> Sinon, placez le pointeur sur la accroche d’un objet mobile, appuyez sur le bouton et déplacez la souris, puis cliquez sur le bouton de la souris. dans ce cas, le pointeur n’a pas besoin de modifier la forme.<br/> | l’objet se déplace dans le sens du mouvement du pointeur.<br/>            | déplacer<br/> ![capture d’écran d’un pointeur avec quatre flèches ](images/inter-mouse-image9.png)<br/> utilisé pour déplacer une fenêtre dans n’importe quelle direction.<br/> panoramique<br/> ![capture d’écran d’un pointeur avec une forme main ](images/inter-mouse-image10.png)<br/> Utilisé pour déplacer un objet dans une fenêtre dans n’importe quelle direction.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Redimensionnement<br/>              | Placez le pointeur sur une bordure redimensionnable ou une poignée de redimensionnement, appuyez sur un bouton de la souris et déplacez la souris, puis relâchez le bouton de la souris.<br/>                                                                                                                                                                                                                                                                                 | le redimensionnement de l’objet dans le sens du mouvement du pointeur.<br/>          | redimensionnement vertical et horizontal<br/> ![Capture d’écran montrant des pointeurs vers le haut.](images/inter-mouse-image11.png)![capture d’écran des pointeurs vers le haut et vers la gauche ](images/inter-mouse-image12.png)<br/> utilisé pour redimensionner une seule dimension.<br/> Redimensionnement diagonal<br/> ![bb545459. mouse13 (en-US, MSDN. 10). png](images/inter-mouse-image13.png)![capture d’écran des pointeurs en diagonale avec des flèches](images/inter-mouse-image14.png)<br/> utilisé pour redimensionner deux dimensions simultanément.<br/> redimensionnement des lignes et des colonnes<br/> ![bb545459. mouse15 (en-US, MSDN. 10). png](images/inter-mouse-image15.png)![capture d’écran des pointeurs de flèche avec la barre ](images/inter-mouse-image16.png)<br/> Utilisé pour redimensionner une ligne ou une colonne dans une grille.<br/> |
-| Fractionnement<br/>             | Placez le pointeur sur un séparateur, appuyez sur un bouton de la souris et déplacez la souris, puis relâchez le bouton de la souris.<br/>                                                                                                                                                                                                                                                                                                          | la bordure du volet de fractionnement se déplace dans le sens du mouvement du pointeur.<br/> | séparateurs de fenêtres<br/> ![bb545459. mouse17 (en-US, MSDN. 10). png](images/inter-mouse-image17.png)![capture d’écran des pointeurs de flèche avec double-croix ](images/inter-mouse-image18.png)<br/> Utilisé pour redimensionner un volet fractionné verticalement ou horizontalement.<br/> |
+| Redimensionnement<br/>              | Placez le pointeur sur une bordure redimensionnable ou une poignée de redimensionnement, appuyez sur un bouton de la souris et déplacez la souris, puis relâchez le bouton de la souris.<br/>                                                                                                                                                                                                                                                                                 | le redimensionnement de l’objet dans le sens du mouvement du pointeur.<br/>          | redimensionnement vertical et horizontal<br/> ![Capture d’écran montrant des pointeurs vers le haut.](images/inter-mouse-image11.png)![capture d’écran des pointeurs vers le haut et vers la gauche ](images/inter-mouse-image12.png)<br/> utilisé pour redimensionner une seule dimension.<br/> Redimensionnement diagonal<br/> ![bb545459. mouse13 (en-US, MSDN. 10) .png](images/inter-mouse-image13.png)![capture d’écran des pointeurs en diagonale avec des flèches](images/inter-mouse-image14.png)<br/> utilisé pour redimensionner deux dimensions simultanément.<br/> redimensionnement des lignes et des colonnes<br/> ![bb545459. mouse15 (en-US, MSDN. 10) .png](images/inter-mouse-image15.png)![capture d’écran des pointeurs de flèche avec la barre ](images/inter-mouse-image16.png)<br/> Utilisé pour redimensionner une ligne ou une colonne dans une grille.<br/> |
+| Fractionnement<br/>             | Placez le pointeur sur un séparateur, appuyez sur un bouton de la souris et déplacez la souris, puis relâchez le bouton de la souris.<br/>                                                                                                                                                                                                                                                                                                          | la bordure du volet de fractionnement se déplace dans le sens du mouvement du pointeur.<br/> | séparateurs de fenêtres<br/> ![bb545459. mouse17 (en-US, MSDN. 10) .png](images/inter-mouse-image17.png)![capture d’écran des pointeurs de flèche avec double-croix ](images/inter-mouse-image18.png)<br/> Utilisé pour redimensionner un volet fractionné verticalement ou horizontalement.<br/> |
 | déplaçant des données avec la méthode glisser-déposer.<br/> | Placez le pointeur sur un objet valide pour le faire glisser, appuyez sur un bouton de la souris et déplacez la souris sur une cible de déplacement, puis relâchez le bouton de la souris.<br/> | l’objet est déplacé ou copié vers la cible de déplacement.<br/>             | sélection normale<br/> ![capture d’écran de la photo, du pointeur standard et de l’info-bulle ](images/inter-mouse-image19.png)<br/> utilisé sur des cibles de glissement valides. peut également avoir une info-bulle pour indiquer un effet spécifique.<br/> non disponible<br/> ![capture d’écran de la petite icône bloquée/hors connexion ](images/inter-mouse-image20.png)<br/> Permet d’indiquer qu’une surface n’est pas une cible de dépôt valide.<br/> |
 
 ### <a name="activity-indicators"></a>Indicateurs d’activité
 
 Le tableau suivant montre les pointeurs que les utilisateurs voient lorsqu’ils effectuent une action qui prend plus de quelques secondes.
 
-| Graphique à base de formes | Nom | Quand l’utiliser |
+| Forme | Nom | Quand l’utiliser |
 |:---|:---|:---|
 | ![Capture d’écran montrant un pointeur « occupé » en forme d’anneau.](images/inter-mouse-image21.png)<br/>          | Pointeur occupé<br/>                  | Utilisé pour attendre qu’une fenêtre devienne réactive.<br/>                                  |
 | ![capture d’écran d’un pointeur et d’une flèche en forme d’anneau](images/inter-mouse-image22.png)<br/> | Utilisation du pointeur d’arrière-plan<br/> | Utilisé pour pointer, cliquer, appuyer ou sélectionner pendant qu’une tâche se termine en arrière-plan.<br/> |
@@ -178,7 +178,7 @@ Envisagez également d’autres périphériques d’entrée lors de la détermin
 
 ### <a name="environments-without-a-mouse"></a>Environnements sans souris
 
-Tous les environnements Windows ne disposent pas d’une souris. Par exemple, les bornes disposent rarement d’une souris et ont généralement un écran tactile à la place. Cela signifie que les utilisateurs peuvent effectuer des interactions simples, telles qu’un clic gauche et peut-être glisser-déplacer. Toutefois, ils ne peuvent pas pointer, cliquer avec le bouton droit ou double-cliquer. Cette situation est facile à concevoir pour, car ces limitations sont généralement connues à l’avance.
+tous les environnements Windows ne disposent pas d’une souris. Par exemple, les bornes disposent rarement d’une souris et ont généralement un écran tactile à la place. Cela signifie que les utilisateurs peuvent effectuer des interactions simples, telles qu’un clic gauche et peut-être glisser-déplacer. Toutefois, ils ne peuvent pas pointer, cliquer avec le bouton droit ou double-cliquer. Cette situation est facile à concevoir pour, car ces limitations sont généralement connues à l’avance.
 
 L’utilisation d’une souris nécessite des compétences de moteur précises et, par conséquent, tous les utilisateurs ne peuvent pas utiliser de souris. Pour rendre votre logiciel accessible au plus grand nombre d’audiences, assurez-vous que toutes les interactions pour lesquelles des compétences de moteur fine ne sont pas essentielles peuvent être effectuées à l’aide du clavier.
 
@@ -208,14 +208,14 @@ Le tableau suivant récapitule les interactions de bouton de la souris qui s’a
 
 
 
-| Interaction                                    | Résultat                                                                                                                                                                                                                                                          |
+| Interaction                                    | Effet                                                                                                                                                                                                                                                          |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Pointage<br/>                    | Target affiche son info-bulle, son info-bulle ou son équivalent.<br/>                                                                                                                                                                                           |
 | Clic simple à gauche<br/>        | Active ou sélectionne l’objet. Pour le texte, définit le point d’insertion.<br/>                                                                                                                                                                           |
 | Clic simple avec le bouton droit<br/>       | Sélectionne l’objet et affiche son menu contextuel.<br/>                                                                                                                                                                                              |
 | Double-cliquez sur<br/>        | Active ou sélectionne l’objet et exécute la commande par défaut. Pour Text, sélectionne Word au niveau du point d’insertion (un troisième clic sélectionne la phrase ou le paragraphe).<br/>                                                                            |
 | Double-clic avec le bouton droit<br/>       | Identique au simple clic droit.<br/>                                                                                                                                                                                                                    |
-| Shift simple-clic gauche<br/>  | Pour les objets sélectionnables, étend la sélection de manière contiguë. Sinon, même comme un clic unique avec les modifications possibles. Par exemple, dans Paint, le dessin d’un ovale avec le modificateur de touche Maj entraîne le dessin d’un cercle.<br/>                  |
+| Shift simple-clic gauche<br/>  | Pour les objets sélectionnables, étend la sélection de manière contiguë. Sinon, même comme un clic unique avec les modifications possibles. par exemple, dans Paint, le dessin d’un ovale avec le modificateur de touche maj entraîne le dessin d’un cercle.<br/>                  |
 | Shift simple-clic avec le bouton droit<br/> | Identique au décalage simple d’un clic gauche.<br/>                                                                                                                                                                                                               |
 | Maj double-clic gauche<br/>  | Identique au décalage simple d’un clic gauche et exécute la commande par défaut sur l’ensemble de la sélection.<br/>                                                                                                                                                     |
 | Maj double clic droit<br/> | Identique au décalage simple d’un clic gauche.<br/>                                                                                                                                                                                                               |
@@ -238,7 +238,7 @@ Le tableau suivant récapitule les interactions de bouton de la souris qui s’a
 
 - **Effectuez des fractionnements d’au moins cinq pixels de largeur pour qu’ils puissent cliquer facilement sur n’importe quel appareil d’entrée.** Envisagez de modifier dynamiquement la taille des petites cibles lorsque l’utilisateur pointe pour les rendre plus faciles à acquérir.
 
-    Dans cet exemple, le séparateur dans le volet de navigation de l’Explorateur Windows est trop étroit pour être utilisé efficacement avec une souris ou un stylet.
+    dans cet exemple, le séparateur dans le volet de navigation Windows Explorer est trop étroit pour être utilisé efficacement avec une souris ou un stylet.
 
     ![capture d’écran d’un séparateur étroit et presque invisible ](images/inter-mouse-image30.png)
 
@@ -277,7 +277,7 @@ Le tableau suivant récapitule les interactions de bouton de la souris qui s’a
     - La **rotation de la roulette de la souris peut modifier l’onglet actuel,** quelle que soit l’orientation des onglets.
     - L’inclinaison de la roulette de la souris n’a aucun effet.
   - Si les touches Maj et Alt sont enfoncées, la roulette de la souris n’a aucun effet.
-- **Utilisez les paramètres système Windows pour la taille de défilement vertical (pour la rotation) et la taille de défilement horizontal (pour l’inclinaison).** Ces paramètres sont configurables par le biais de l’élément du panneau de configuration de la souris.
+- **utilisez les paramètres système Windows pour la taille de défilement vertical (pour la rotation) et la taille de défilement horizontal (pour l’inclinaison).** Ces paramètres sont configurables par le biais de l’élément du panneau de configuration de la souris.
 - **Faites pivoter la roulette de la souris plus rapidement pour accélérer le défilement.** Cela permet aux utilisateurs de faire défiler les documents volumineux de manière plus efficace.
 - **Pour les fenêtres défilantes, envisagez de cliquer sur le bouton roulette de la souris pour mettre la fenêtre en « mode lecteur ».** Le mode lecteur plante une icône d’origine de défilement spéciale et fait défiler la fenêtre dans une direction et une vitesse par rapport à l’origine du défilement.
 
@@ -290,11 +290,11 @@ Le tableau suivant récapitule les interactions de bouton de la souris qui s’a
 - **Ne masquez pas le pointeur.** Exceptions :
   - Les applications de présentation s’exécutant en mode de présentation plein écran peuvent masquer le pointeur. Toutefois, le pointeur doit être restauré immédiatement lorsque les utilisateurs déplacent la souris et peut être remasqué après deux secondes d’inactivité.
   - Les environnements sans souris (tels que les bornes) peuvent masquer définitivement le pointeur.
-- Par défaut, Windows MASQUE le pointeur pendant que l’utilisateur tape dans une zone de texte. Ce paramètre système Windows est configurable à l’aide de l’élément du panneau de configuration de la souris.
+- par défaut, Windows masque le pointeur pendant que l’utilisateur tape dans une zone de texte. ce paramètre système Windows peut être configuré à l’aide de l’élément du panneau de configuration de la souris.
 
 ### <a name="activity-pointers"></a>Pointeurs d’activité
 
-Les pointeurs d’activité dans Windows sont le pointeur occupé (![capture d’écran d’un pointeur en forme d’anneau ](images/inter-mouse-image33.png)) et le pointeur de travail en arrière-plan (![capture d’écran d’un pointeur et d’une flèche en forme d’anneau ](images/inter-mouse-image34.png)).
+les pointeurs d’activité dans Windows sont le pointeur occupé (![capture d’écran d’un pointeur en forme d’anneau ](images/inter-mouse-image33.png)) et le pointeur de travail en arrière-plan (![capture d’écran d’un pointeur et d’une flèche en forme d’anneau ](images/inter-mouse-image34.png)).
 
 - Affichez le pointeur occupé lorsque les utilisateurs doivent attendre plus d’une seconde pour qu’une action se termine. Notez que le pointeur occupé n’a pas de zone réactive, afin que les utilisateurs ne puissent rien cliquer pendant qu’il est affiché.
 - Afficher le pointeur de travail en arrière-plan lorsque les utilisateurs doivent attendre plus d’une seconde pour qu’une action se termine, mais que le programme est réactif et qu’il n’y a pas d’autre commentaire visuel indiquant que l’action n’est pas terminée.
@@ -304,7 +304,7 @@ Les pointeurs d’activité dans Windows sont le pointeur occupé (![capture d�
 
 - **N’affiche pas le signe insertion tant que la fenêtre ou le contrôle d’entrée de texte n’a pas le focus d’entrée.** Le signe insertion suggère le focus d’entrée pour les utilisateurs, mais une fenêtre ou un contrôle peut afficher le signe insertion sans le focus d’entrée. Bien entendu, ne dérobez pas le focus d’entrée pour qu’une boîte de dialogue hors contexte puisse afficher le signe insertion.
 
-    Le gestionnaire d’informations d’identification Windows est affiché hors contexte avec le signe insertion mais sans le focus d’entrée. Par conséquent, les utilisateurs finissent par taper leur mot de passe dans des emplacements inattendus.
+    le gestionnaire d’informations d’identification Windows est affiché hors contexte avec le signe insertion mais sans le focus d’entrée. Par conséquent, les utilisateurs finissent par taper leur mot de passe dans des emplacements inattendus.
 
     ![capture d’écran du gestionnaire d’informations d’identification sans le focus ](images/inter-mouse-image35.png)
 
