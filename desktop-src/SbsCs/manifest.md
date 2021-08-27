@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: 2ebc671bbfcdfc951343e7f92cc0385ace43997e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d45bd0dc97ed99ee976da4e262ed3d4819b0ec4c744a4e0a8d76b98f5bacd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977229"
 ---
 # <a name="actctxmanifest-property"></a>ActCtx. manifest, propriété
 
@@ -37,7 +37,7 @@ propVal = ActCtx.Manifest
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un contexte d’activation peut être créé avec le fichier manifeste fourni, le script suivant définit la propriété de manifeste et active la constante d’activation spécifiée par le manifeste. Si un contexte d’activation ne peut pas être créé à partir du manifeste, le contexte d’activation reste défini sur le contexte d’activation actuellement actif.
 
@@ -53,8 +53,8 @@ Si un contexte d’activation a déjà été créé ou activé, le script suivan
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Sxsoa.dll</dt> </dl> |
 | IID<br/>                      | IID \_ IActCtx est défini en tant que 8FA7728F-B69B-4EE5-99F2-E2AA021BEF28<br/>           |
 

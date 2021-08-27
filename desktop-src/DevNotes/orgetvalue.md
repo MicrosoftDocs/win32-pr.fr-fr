@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 375dae37e2e6b6299a7bf1fd36f9b950d0433d89
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc364e208e9c243754edf8731f077ec48e9133d4a95ba86b5a1f99971192b51e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058649"
 ---
 # <a name="orgetvalue-function"></a>ORGetValue fonction)
 
@@ -108,7 +108,7 @@ Si la fonction réussit, la valeur de retour est une erreur de \_ réussite.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur différent de zéro défini dans Winerror. h. Vous pouvez utiliser la fonction [FormatMessage](/windows/win32/api/winbase/nf-winbase-formatmessage) avec le format \_ message \_ de l' \_ indicateur système pour obtenir une description générique de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application appelle généralement la fonction [**OREnumValue**](orenumvalue.md) pour déterminer les noms de valeur, puis appelle la fonction **ORGetValue** pour récupérer les données pour les noms.
 
@@ -118,7 +118,7 @@ Une application appelle généralement la fonction [**OREnumValue**](orenumvalue
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

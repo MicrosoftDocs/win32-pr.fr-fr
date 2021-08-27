@@ -1,17 +1,17 @@
 ---
 description: Le contrôle d’édition est un champ d’édition associé à une propriété de valeur de chaîne ou d’entier. Entrez le nom de la propriété dans la colonne propriété de la table de contrôle.
 ms.assetid: 1b4fb5d1-49d3-40fb-8557-db16eea880aa
-title: Contrôle d’édition (Windows Installer)
+title: contrôle d’édition (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b9d37dadbb955732b52a07c472b52efe95c75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d31a486e11a3a3cf0553c73e00ab745b5135d13553bc8c72831e63de37a7f2c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044799"
 ---
-# <a name="edit-control-windows-installer"></a>Contrôle d’édition (Windows Installer)
+# <a name="edit-control-windows-installer"></a>contrôle d’édition (Windows Installer)
 
 Le contrôle d’édition est un champ d’édition associé à une propriété de valeur de chaîne ou d’entier. Entrez le nom de la propriété dans la colonne propriété de la [table de contrôle](control-table.md).
 
@@ -29,7 +29,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Valeur actuelle de la propriété affichée ou modifiée par ce contrôle. Si le bit d’attribut indirect n’est pas défini, il s’agit de la valeur de PropertyName. Si le bit d’attribut indirect est défini, il s’agit de la valeur de IndirectPropertyName. Si l’attribut change, le contrôle reflète la nouvelle valeur.                                                                                                                                                                                                                                                                                              |
 | [Text](text-control-attribute.md)                                 |                                  | Pour définir la police et le style de police d’une chaîne de texte, ajoutez le préfixe { \\ style} ou {&style} à la chaîne de caractères affichés. Où style est un identificateur figurant dans la colonne TextStyle de la [table TextStyle](textstyle-table.md). Si aucun de ces deux n’est présent, mais que la propriété [**DefaultUIFont**](defaultuifont.md) est définie comme un style de texte valide, cette police sera utilisée. Pour spécifier le nombre de caractères que l’utilisateur peut entrer, ajoutez {n} après les spécifications de police. Où n est un entier positif.<br/>                                                             |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la [table de contrôle](control-table.md) pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                                                                                        |
-| [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                                                                                      |
+| [Activé](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                                                                                                                                                      |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence enfoncée, 3D et un look.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                                                                                                                                                                                                                               |
 | [Indirect](indirect-control-attribute.md)                         | 0x00000000 0x00000008<br/> | Le contrôle affiche ou modifie la valeur de la propriété dans la colonne propriété de la [table de contrôle](control-table.md). Le contrôle affiche ou modifie la valeur de la propriété qui a l’identificateur figurant dans la colonne propriété de la table de contrôle.<br/> Détermine si la propriété associée à ce contrôle est référencée indirectement.<br/>                                                                                                                                                                                                                    |
 | [Integer](integer-control-attribute.md)                           | 0x00000000 0x00000010<br/> | La propriété associée au contrôle est une valeur de chaîne. La propriété associée au contrôle est une valeur entière.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs de la [table de contrôle](control-table.md) pour définir cet attribut lors de la création du contrôle.<br/>                                                                                                                                                                                                                                                                                                |
@@ -44,7 +44,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe EDIT à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les **styles \_ WS Border**, **WS \_ Child**, **WS \_ TABSTOP** et **WS \_ Group** .
 

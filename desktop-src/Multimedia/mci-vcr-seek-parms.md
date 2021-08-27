@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_SEEK_PARMS (VCR. h)
 description: La structure de la \_ recherche MCI VCR \_ contient des \_ paramètres pour la \_ commande MCI Seek pour les enregistreurs vidéo-cassettes.
 ms.assetid: 40a9cef0-abdb-4698-b11e-5c3f67ea846b
 keywords:
-- Structure de MCI_VCR_SEEK_PARMS Windows multimédia
+- structure MCI_VCR_SEEK_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 302011a3e4bf10eb3a81db4a163f94f4322dea98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ee25352925681ef548310d9e009808499ce0a36f80472e50ee2a0daa71ed8dd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120038199"
 ---
 # <a name="mci_vcr_seek_parms-structure"></a>Structure de la \_ recherche MCI VCR \_ \_
 
@@ -71,7 +71,7 @@ Heure de début de la recherche.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les positions sont spécifiées dans le format d’heure actuel.
 

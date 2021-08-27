@@ -4,12 +4,12 @@ description: Cette section fournit un bref résumé des règles et des instructi
 ms.assetid: c43fc385-bcd6-45fc-91b2-ad9827fdb15c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c1cde73527ac79a2e4442910e3053ed96748337
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 58d11d55a1e24c02208ebeecddd5a4f90b8b01fa4a53444e6554cfcff37165f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070809"
 ---
 # <a name="interface-design-rules"></a>Règles de conception d’interface
 
@@ -21,12 +21,12 @@ Par définition, un objet n’est pas un objet COM, sauf s’il implémente l’
 -   Ils doivent être immuables. Une fois qu’elles ont été créées et publiées, aucune partie de leur définition ne peut changer.
 -   Toutes les méthodes d’interface doivent retourner une valeur **HRESULT** afin que les parties du système qui gèrent le traitement à distance puissent signaler des erreurs RPC.
 -   Tous les paramètres de chaîne dans les méthodes d’interface doivent être au format Unicode.
--   Vos types de données doivent être accessibles à distance. Si vous ne pouvez pas convertir un type de données en un type accessible à distance, vous devrez créer vos propres routines de marshaling et de démarshaling. En outre, **LPVOID**, **ou \* void**, n’a aucune signification sur un ordinateur distant. Utilisez un pointeur vers [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), si nécessaire.
+-   Vos types de données doivent être accessibles à distance. Si vous ne pouvez pas convertir un type de données en un type accessible à distance, vous devrez créer vos propres routines de marshaling et de démarshaling. En outre, **LPVOID**, ou ** \* void* _, n’a aucune signification sur un ordinateur distant. Utilisez un pointeur vers [_ *IUnknown* *](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), si nécessaire.
 
 > [!Note]  
 > L’implémentation actuelle de MIDL ne gère pas la surcharge de fonction ou l’héritage multiple.
 
- 
+ 
 
 ## <a name="other-interface-design-considerations"></a>Autres considérations relatives à la conception d’interface
 
@@ -52,6 +52,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Définitions d’interface et bibliothèques de types](/windows/desktop/Midl/interface-definitions-and-type-libraries)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 38f83a7c491f1591cece8d5d85eb4525a1059d2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: edc5448a20320e9bf74da7511bf6ae9fb9d95facc9b7973bbcd688127b495fe8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056099"
 ---
 # <a name="cbasepropertypageonconnect-method"></a>CBasePropertyPage. OnConnect, méthode
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface **IUnknown** de l’objet.
 
 L’implémentation de la classe de base retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CBasePropertyPage :: SetObjects**](cbasepropertypage-setobjects.md) appelle la `OnConnect` méthode. Substituez cette méthode pour stocker un pointeur vers l’objet spécifié par *pUnknown*. Vous pouvez soit stocker le pointeur *pUnknown* lui-même, soit demander ce pointeur pour d’autres interfaces. Si vous stockez le pointeur *pUnknown* , appelez **AddRef** avant `OnConnect` returns.
 
@@ -82,7 +82,7 @@ HRESULT CMyProp::OnConnect(IUnknown *pUnk)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

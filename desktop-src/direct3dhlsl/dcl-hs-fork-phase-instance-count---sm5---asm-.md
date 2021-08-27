@@ -4,12 +4,12 @@ description: Déclarez le nombre d’instances de la phase fourche dans une phas
 ms.assetid: E38C48BB-3439-4F63-8DF8-21CF562CF5E6
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3459b43c22f60699445f3ef05e5323e268eeb71
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4d87117da3947ef9993a5e4d84616f8e62957b591848cf8b9668bfe8f7cba378
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024879"
 ---
 # <a name="dcl_hs_fork_phase_instance_count-sm5---asm"></a>\_nombre d' \_ instances de la phase de duplication DCL HS \_ \_ \_ (SM5-ASM)
 
@@ -34,13 +34,13 @@ Déclarez le nombre d’instances de la phase fourche dans une phase de bifurcat
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        | X    |        |          |       |         |
 
@@ -54,9 +54,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

@@ -1,19 +1,19 @@
 ---
-description: 'Les applications peuvent s’inscrire pour être avertis des événements d’appareil matériel WIA (Windows Image Acquisition) en appelant l’une des méthodes d’interface IWiaDevMgr ou IWiaDevMgr2 suivantes : IWiaDevMgr :: RegisterEventCallbackCLSID ou IWiaDevMgr2 :: RegisterEventCallbackCLSIDIWiaDevMgr :: RegisterEventCallbackInterface ou IWiaDevMgr2 :: RegisterEventCallbackInterfaceIWiaDevMgr :: RegisterEventCallbackProgram ou IWiaDevMgr2 :: RegisterEventCallbackProgram'
+description: 'les Applications peuvent s’inscrire pour être informées des événements de périphérique matériel WIA (Windows Image Acquisition) en appelant l’une des méthodes d’interface IWiaDevMgr ou IWiaDevMgr2 suivantes : IWiaDevMgr :: RegisterEventCallbackCLSID ou IWiaDevMgr2 :: RegisterEventCallbackCLSIDIWiaDevMgr :: RegisterEventCallbackInterface ou IWiaDevMgr2 :: RegisterEventCallbackInterfaceIWiaDevMgr :: RegisterEventCallbackProgram ou IWiaDevMgr2 :: RegisterEventCallbackProgram'
 ms.assetid: 0c142083-835f-4bbd-ab32-eb6130f99c59
 title: Inscription des événements WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa9fc36540a64211428579bc13b84902490ea103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18e5f6409c8ac6af6f7bd82e43c34bef683a966fbd38d3ed35959ee9a4bc9c73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120057029"
 ---
 # <a name="registering-wia-events"></a>Inscription des événements WIA
 
-Les applications peuvent s’inscrire pour être avertis des événements de périphérique matériel WIA (Windows Image Acquisition) en appelant l’une des méthodes d’interface [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) ou [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) suivantes :
+les Applications peuvent s’inscrire pour être informées des événements de périphérique matériel WIA (Windows Image Acquisition) en appelant l’une des méthodes d’interface [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) ou [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) suivantes :
 
 -   [**IWiaDevMgr :: RegisterEventCallbackCLSID**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackclsid) ou [ **IWiaDevMgr2 :: RegisterEventCallbackCLSID**](-wia-iwiadevmgr2-registereventcallbackclsid.md)
 -   [**IWiaDevMgr :: RegisterEventCallbackInterface**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadevmgr-registereventcallbackinterface) ou [ **IWiaDevMgr2 :: RegisterEventCallbackInterface**](-wia-iwiadevmgr2-registereventcallbackinterface.md)

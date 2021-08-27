@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a5fa56c05036380b5dba42089979b43d776a4b57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eabba7b5cf234d48b2839074ec1ad07380a7ed14858f6bd43b07f7d2eaa033b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037189"
 ---
 # <a name="istatsdisconnect-method"></a>IStats ::D méthode éconnecter
 
@@ -50,13 +50,13 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_capture NMERR**</dt> </dl>        | Le NPP capture actuellement des données. Vous ne pouvez pas vous déconnecter du réseau pendant qu’une capture de données est en cours.<br/> |
 | <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl>   | Le NPP n’est pas connecté au réseau.<br/>                                                                         |
-| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | Le NPP est connecté au réseau, mais pas avec la méthode [**IStats :: Connect**](istats-connect.md) .<br/>          |
+| <dl> <dt>**NMERR \_ non \_ stats \_ uniquement**</dt> </dl> | le NPP est connecté au réseau, mais pas avec la méthode [**IStats :: Connecter**](istats-connect.md) .<br/>          |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Appelez d’abord la méthode **IStats ::D éconnecter** , puis appelez [**IStats :: Stop**](istats-stop.md).
 
@@ -80,7 +80,7 @@ Cette méthode ne peut pas être appelée lorsque le NPP capture des données. A
 [**IStats**](istats.md)
 </dt> <dt>
 
-[**IStats :: Connect**](istats-connect.md)
+[**IStats :: Connecter**](istats-connect.md)
 </dt> <dt>
 
 [**IStats :: Stop**](istats-stop.md)

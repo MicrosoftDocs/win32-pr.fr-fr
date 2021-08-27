@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble de la sécurité
-description: L’infrastructure de sécurité de l’API des services Web Windows (WWSAPI) assure l’intégrité des messages, la confidentialité, la détection de relecture et l’authentification du serveur à l’aide de la sécurité de transport.
+description: l’infrastructure de sécurité de Windows API de Services Web (WWSAPI) assure l’intégrité des messages, la confidentialité, la détection de relecture et l’authentification du serveur à l’aide de la sécurité de transport.
 ms.assetid: 2681bffc-ba07-4822-b265-2bf7f95297d4
 keywords:
 - Vue d’ensemble de la sécurité services Web pour Windows
@@ -8,16 +8,16 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 741e98ef023c0bae146b5fde582484f2dd133df6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b6928afd51ded7104e909994f8b625b931da6a157e859c890066c73074ae7d16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089439"
 ---
 # <a name="security-overview"></a>Vue d’ensemble de la sécurité
 
-L’infrastructure de sécurité de l’API des services Web Windows (WWSAPI) fournit les éléments suivants :
+l’infrastructure de sécurité de Windows API des Services Web (WWSAPI) fournit les éléments suivants :
 
 -   Intégrité des messages, confidentialité, détection de relecture et authentification du serveur à l’aide de la sécurité de transport.
 -   Authentification du client, telle que la validation des jetons de sécurité, les vérifications de l’approbation et de la révocation des certificats, etc., en utilisant la sécurité de message ou de transport SOAP.
@@ -39,20 +39,20 @@ Les erreurs dans la description de sécurité, telles que les liaisons non prise
 
 ## <a name="selecting-security-bindings"></a>Sélection des liaisons de sécurité
 
-Lors de la conception de la sécurité d’une application, la décision principale est la sélection des liaisons de sécurité à inclure dans la description de la sécurité. Voici quelques recommandations pour choisir des liaisons de sécurité adaptées au scénario de sécurité d’une application. Une méthode heuristique utile consiste tout d’abord à comprendre les types d’informations d’identification de sécurité (tels que les [**certificats X. 509**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential), les [**noms d’utilisateur/mots de passe de domaine Windows**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential), les [**noms d’utilisateur/mots de passe définis par l’application**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)) qui seront mis à la disposition de l’application, puis à choisir une liaison de sécurité pouvant utiliser ce type d’informations d’identification.
+Lors de la conception de la sécurité d’une application, la décision principale est la sélection des liaisons de sécurité à inclure dans la description de la sécurité. Voici quelques recommandations pour choisir des liaisons de sécurité adaptées au scénario de sécurité d’une application. une méthode heuristique utile consiste tout d’abord à comprendre quels types d’informations d’identification de sécurité (tels que les [**certificats X. 509**](/windows/desktop/api/WebServices/ns-webservices-ws_cert_credential), [**Windows nom d’utilisateur/mot de passe de domaine**](/windows/desktop/api/WebServices/ns-webservices-ws_windows_integrated_auth_credential), [**nom d’utilisateur/mot de passe définis par l’application**](/windows/desktop/api/WebServices/ns-webservices-ws_username_credential)) seront disponibles pour l’application, puis choisissez une liaison de sécurité qui peut utiliser ce type d’informations d’identification.
 
 -   La sécurité du transport, où la sécurité est appliquée au niveau du flux d’octets de transport (sous les limites de message SOAP), est la première option à prendre en compte.
     -   Pour les scénarios Internet, et pour les scénarios intranet où un certificat X. 509 peut être déployé sur le serveur, l’application peut utiliser la [**\_ liaison de sécurité de \_ transport \_ \_ WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). L’exemple suivant illustre cette option. Client : serveur [HttpClientWithSslExample](httpclientwithsslexample.md) : [HttpServerWithSslExample](httpserverwithsslexample.md).
 
         Si l’authentification du client via l’authentification d’en-tête HTTP est souhaitée, une [**\_ \_ \_ \_ \_ liaison de sécurité d’en-tête WS http**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) peut être ajoutée pour fournir cette fonctionnalité.
 
-    -   Pour les scénarios d’intranet dans lesquels des protocoles d’authentification Windows intégrés tels que Kerberos, NTLM et SPNEGO sont appropriés, l’application peut utiliser la [**liaison de sécurité de \_ transport WS TCP \_ SSPI \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding). L’exemple suivant illustre cette option : client : [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md) Server : [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).
+    -   pour les scénarios d’Intranet où Windows des protocoles d’authentification intégrés tels que Kerberos, NTLM et SPNEGO sont appropriés, l’application peut utiliser la [**liaison de sécurité de TRANSPORT de WS \_ TCP \_ SSPI \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding). L’exemple suivant illustre cette option : client : [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md) Server : [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).
 
         Client sur des canaux nommés : [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md)
 
         Serveur sur les canaux nommés : [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md)
 
-    -   Pour les scénarios d’ordinateur local où des protocoles d’authentification Windows intégrés tels que Kerberos, NTLM et SPNEGO sont appropriés, l’application peut utiliser la [**liaison de sécurité de \_ transport WS TCP \_ \_ \_ \_ SSPI**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding) ou la liaison de [**\_ \_ sécurité de \_ transport NAMEDPIPE \_ \_ SSPI**](/windows/desktop/api/WebServices/ns-webservices-ws_namedpipe_sspi_transport_security_binding). La [**\_ liaison de \_ canal \_ WS NAMEDPIPE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) est préférable dans de tels scénarios, car elle garantit que le trafic ne sortira pas de l’ordinateur (il s’agit de la propriété de la **\_ \_ \_ liaison de canal WS NAMEDPIPE**).
+    -   pour les scénarios d’ordinateur local où Windows des protocoles d’authentification intégrés, tels que Kerberos, NTLM et SPNEGO, est approprié, l’application peut utiliser la [**liaison de sécurité de \_ transport ws TCP \_ SSPI \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_tcp_sspi_transport_security_binding) ou la liaison de [**\_ \_ sécurité de \_ transport \_ \_ sspi ws NAMEDPIPE**](/windows/desktop/api/WebServices/ns-webservices-ws_namedpipe_sspi_transport_security_binding). La [**\_ liaison de \_ canal \_ WS NAMEDPIPE**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) est préférable dans de tels scénarios, car elle garantit que le trafic ne sortira pas de l’ordinateur (il s’agit de la propriété de la **\_ \_ \_ liaison de canal WS NAMEDPIPE**).
 
 -   La sécurité en mode mixte, où la sécurité de transport protège la connexion et un en-tête de WS-Security dans le message SOAP fournit l’authentification du client, est l’option suivante à prendre en compte. Les liaisons suivantes sont utilisées conjointement avec l’une des liaisons de sécurité de transport décrites dans la section précédente.
     -   Lorsque le client est authentifié par une paire nom d’utilisateur/mot de passe au niveau de l’application, l’application peut utiliser une [**\_ liaison de sécurité de \_ message \_ \_ WS username**](/windows/desktop/api/WebServices/ns-webservices-ws_username_message_security_binding) pour fournir les données d’authentification. Les exemples suivants illustrent l’utilisation de cette liaison conjointement avec une [**\_ liaison de \_ \_ sécurité \_ de transport WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding):
@@ -62,9 +62,9 @@ Lors de la conception de la sécurité d’une application, la décision princip
     -   Lors de l’utilisation d’un [contexte de sécurité](security-context.md), le client établit d’abord un contexte de sécurité avec le serveur, puis utilise ce contexte pour authentifier les messages. Pour activer cette fonctionnalité, la description de sécurité doit contenir [**une \_ \_ liaison de \_ \_ sécurité de \_ message de contexte de sécurité WS**](/windows/desktop/api/WebServices/ns-webservices-ws_security_context_message_security_binding). Une fois la connexion établie, les contextes de sécurité peuvent être transmis par le biais de jetons légers, ce qui évite d’avoir à envoyer les informations d’identification du client potentiellement volumineuses et gourmandes en calculs à chaque message.
     -   Dans un scénario de [sécurité fédérée](federation.md) , le client obtient d’abord un jeton de sécurité émis par un service d’émission de jeton de sécurité (STS), puis présente le jeton émis à un service. Côté client : pour obtenir le jeton de sécurité du STS, l’application peut utiliser [**WsRequestSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wsrequestsecuritytoken). L’application peut également utiliser une bibliothèque de fournisseur de jetons de sécurité côté client comme CardSpace ou LiveID, puis utiliser sa sortie pour créer localement un jeton de sécurité à l’aide de [**WsCreateXmlSecurityToken**](/windows/desktop/api/WebServices/nf-webservices-wscreatexmlsecuritytoken). Dans les deux cas, une fois que le jeton de sécurité est disponible pour le client, il peut être présenté au service à l’aide d’une description de sécurité contenant une [**liaison de sécurité de \_ message de \_ jeton \_ \_ \_ WS XML**](/windows/desktop/api/WebServices/ns-webservices-ws_xml_token_message_security_binding). Côté serveur : si le jeton de sécurité émis par le STS est un jeton SAML, le serveur peut utiliser une description de sécurité avec une [**\_ liaison de \_ \_ sécurité \_ de message de WS SAML**](/windows/desktop/api/WebServices/ns-webservices-ws_saml_message_security_binding).
         > [!Note]  
-        > Windows 7 et Windows Server 2008 R2 : WWSAPI prend uniquement en charge [WS-Trust](http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) et [WS-SecureConversation](http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) comme défini par [Lightweight Web Services Security Profile (LWSSP)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Pour plus d’informations sur l’implémentation de Microsoft, consultez la section relative à la [syntaxe du message](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) de LWSSP.
+        > Windows 7 et Windows Server 2008 R2 : WWSAPI prend uniquement en charge [ws-Trust](http://specs.xmlsoap.org/ws/2005/02/trust/WS-Trust.pdf) et [ws-SecureConversation](http://specs.xmlsoap.org/ws/2005/02/sc/WS-SecureConversation.pdf) comme défini par [Lightweight Web Services Security profile (LWSSP)](/openspecs/windows_protocols/ms-lwssp/376af2f8-f4fe-4577-bfd5-370ac12cac2e). Pour plus d’informations sur l’implémentation de Microsoft, consultez la section relative à la [syntaxe du message](/openspecs/windows_protocols/ms-lwssp/d4f0f509-e14a-47b5-81e8-ade06a51d1ed) de LWSSP.
 
-         
+         
 -   La dernière option à prendre en compte consiste à utiliser des liaisons d’authentification sans utiliser de liaison de protection telle que la [**\_ liaison de sécurité de \_ transport \_ \_ WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Cela entraînera la transmission des informations d’identification en texte clair et peut avoir des implications en matière de sécurité. L’utilisation de cette option doit être évaluée avec soin pour s’assurer qu’il n’existe aucune vulnérabilité. L’échange de messages entre les serveurs principaux sur un réseau privé sécurisé constitue un exemple d’utilisation potentielle. Les configurations suivantes prennent en charge cette option.
 
     -   [**WS \_ La \_ \_ liaison de \_ sécurité \_ d’authentification d’en-tête http**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) prend en charge cette option dans toutes les configurations.
@@ -140,6 +140,6 @@ La définition de ces limites à des valeurs faibles réduit la consommation de 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ keywords:
 - Utilisation de RAS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f08b18c10fef339b20beb2454f0aad1488544e3c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a19d810b14fd7b4d833c773c9e9fdcfa630ab1fa9c8dc656b4ee106cf5a39d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025029"
 ---
 # <a name="using-remote-access-service"></a>Utilisation du service d’accès à distance
 
@@ -20,9 +20,9 @@ La rubrique suivante explique comment utiliser les fonctionnalités RAS (Remote 
 
 -   [Liaison à la DLL d’accès à distance](linking-to-the-remote-access-dll.md)
 
- 
+ 
 
- 
+ 
 
 
 

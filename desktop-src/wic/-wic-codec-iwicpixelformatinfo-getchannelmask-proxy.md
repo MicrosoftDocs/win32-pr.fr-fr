@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 0db2c14e89aba2b13cb95209b81f6d0da5d9d949
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee200dddf0b2cd736ca2ad435b63e774076465ad3d1f6215f1c558f1abb6c194
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056599"
 ---
 # <a name="iwicpixelformatinfo_getchannelmask_proxy-function"></a>IWICPixelFormatInfo \_ \_ fonction proxy GetChannelMask
 
@@ -47,9 +47,9 @@ HRESULT IWICPixelFormatInfo_GetChannelMask_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICPixelFormatInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo) \** _
+Type : **[ **IWICPixelFormatInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo)\***
 
-Pointeur vers cet objet [_ *IWICPixelFormatInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo) .
+Pointeur vers cet objet [**IWICPixelFormatInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpixelformatinfo) .
 
 </dd> <dt>
 
@@ -74,16 +74,16 @@ Taille de la mémoire tampon *pbMaskBuffer* .
 *pbMaskBuffer* \[ in, out\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
 Pointeur vers la mémoire tampon du masque.
 
 </dd> <dt>
 
-_pcbActual * \[ out\]
+*pcbActual* \[ à\]
 </dt> <dd>
 
-Type : **uint \** _
+Type : **uint \***
 
 Taille réelle de la mémoire tampon nécessaire pour obtenir le masque de canal.
 
@@ -91,7 +91,7 @@ Taille réelle de la mémoire tampon nécessaire pour obtenir le masque de canal
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -103,8 +103,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

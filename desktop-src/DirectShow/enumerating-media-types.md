@@ -4,18 +4,18 @@ ms.assetid: 7878885f-c285-4744-8eab-445678dcfd49
 title: Énumération des types de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3909c25e9ae5f90a3084eebb531431cc93ef46cd
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a4e2f063fc243d081b930a1bf47f85904dfbc2fc7eef00fb595d5f0fb3a451ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102799"
 ---
 # <a name="enumerating-media-types"></a>Énumération des types de média
 
 Les codes confidentiels prennent en charge la méthode [**IPIN :: EnumMediaTypes**](/windows/desktop/api/Strmif/nf-strmif-ipin-enummediatypes) , qui énumère les types de média préférés d’un pin. Elle retourne un pointeur vers l’interface [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn-strmif-ienummediatypes) . La méthode [**IEnumMediaTypes :: Next**](/windows/desktop/api/Strmif/nf-strmif-ienummediatypes-next) récupère les pointeurs vers des structures de [**\_ \_ type de média**](/windows/win32/api/strmif/ns-strmif-am_media_type) qui décrivent les types de média.
 
-L’énumérateur de type de média existe principalement pour aider le gestionnaire de graphique de filtre à établir des connexions intelligentes et vos applications ne l’utiliseront probablement pas. Un code confidentiel ne retourne pas nécessairement tous les types de média préférés. En outre, les types de média qu’il retourne peuvent dépendre de l’état de la connexion du filtre. Par exemple, la broche de sortie d’un filtre peut retourner un ensemble différent de types de médias en fonction du type de média défini pour la broche d’entrée du filtre.
+l’énumérateur de type de média existe principalement pour aider le filtre Graph Manager à établir des connexions intelligentes et vos applications ne l’utiliseront probablement pas. Un code confidentiel ne retourne pas nécessairement tous les types de média préférés. En outre, les types de média qu’il retourne peuvent dépendre de l’état de la connexion du filtre. Par exemple, la broche de sortie d’un filtre peut retourner un ensemble différent de types de médias en fonction du type de média défini pour la broche d’entrée du filtre.
 
 L’exemple suivant recherche un type de média préféré qui correspond à un type, un sous-type ou un type de format principal spécifié.
 
@@ -104,7 +104,7 @@ HRESULT GetPinMediaType(
 
 <dl> <dt>
 
-[Énumération d’objets dans un graphique de filtre](enumerating-objects-in-a-filter-graph.md)
+[Énumération d’objets dans un filtre Graph](enumerating-objects-in-a-filter-graph.md)
 </dt> <dt>
 
 [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn-strmif-ienummediatypes)

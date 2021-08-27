@@ -4,12 +4,12 @@ description: Les sections suivantes décrivent les différents types de fonction
 ms.assetid: 2f6831f2-39be-43b1-80bd-9a36c0f8a2af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be4b1891bc55b80a18a6d0dd928044da1e0e9709
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 85aac5cc2ec0167527f07c04459ec0aed7dbc248bed727fb4a949765c2fdcc4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025399"
 ---
 # <a name="understanding-router-management-functions"></a>Fonctionnement des fonctions de gestion de routeur
 
@@ -47,6 +47,6 @@ Pour administrer le service de routage sur un ordinateur distant, appelez d’ab
 
 Pour apporter des modifications à la configuration du routeur sur un ordinateur distant, obtenez un handle en appelant la fonction [**MprConfigServerConnect**](/windows/desktop/api/Mprapi/nf-mprapi-mprconfigserverconnect) .
 
- 
+ 
 
- 
+ 

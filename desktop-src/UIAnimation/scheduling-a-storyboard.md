@@ -3,15 +3,15 @@ title: Planifier une table de montage séquentiel
 description: Une fois la table de montage séquentiel créée, elle est planifiée par le gestionnaire d’animations.
 ms.assetid: f3c8fe34-8bca-4421-a390-9e0ba9af27b4
 keywords:
-- Animations de storyboards Windows, planification
+- storyboards Windows Animation, planification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3feae253804d20711c9bbd8ed50895f43272a3f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 013adc114fd09f518c34bc15ca2e7799381b6cee3dfeeedaf3b26fcae6d506e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008169"
 ---
 # <a name="schedule-a-storyboard"></a>Planifier une table de montage séquentiel
 
@@ -25,7 +25,7 @@ Une fois qu’une table de montage séquentiel a été planifiée, elle ne peut 
 
 ## <a name="example-code"></a>Exemple de code
 
-L’exemple de code suivant provient de MainWindow. cpp dans l’animation Windows Samples animation [pilotée](application-driven-animation-sample.md) par l’application et [animation pilotée par un minuteur](timer-driven-animation-sample.md). Elle utilise la méthode [**IUIAnimationStoryboard :: Schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) pour planifier le Storyboard. Cette méthode requiert l’heure actuelle en tant que paramètre.
+l’exemple de code suivant est extrait de MainWindow. cpp dans l’Windows animation exemples d’animation [pilotée](application-driven-animation-sample.md) par l’Application et [animation pilotée par un minuteur](timer-driven-animation-sample.md). Elle utilise la méthode [**IUIAnimationStoryboard :: Schedule**](/windows/desktop/api/UIAnimation/nf-uianimation-iuianimationstoryboard-schedule) pour planifier le Storyboard. Cette méthode requiert l’heure actuelle en tant que paramètre.
 
 
 ```
@@ -62,9 +62,9 @@ Avant de commencer cette étape, vous devez avoir terminé cette étape : [cré
 [Vue d’ensemble du storyboard](storyboard-construction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

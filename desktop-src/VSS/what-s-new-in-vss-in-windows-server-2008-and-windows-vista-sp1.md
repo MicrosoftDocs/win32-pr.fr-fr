@@ -1,22 +1,22 @@
 ---
 description: Windows Server 2008.
 ms.assetid: 2f7b62f8-ba1e-42d2-8872-38d4475e4a2a
-title: Nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
+title: nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f053e327a7a54a9597bc06836b37c00effc62f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83ee109eec31c084dc43fb9e0cc6341f443a16e6aa06ac989a7f328d9bb3011f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006119"
 ---
-# <a name="whats-new-in-vss-in-windows-server-2008-and-windows-vista-sp1"></a>Nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
+# <a name="whats-new-in-vss-in-windows-server-2008-and-windows-vista-sp1"></a>nouveautés de VSS dans Windows Server 2008 et Windows Vista SP1
 
-Windows Server 2008 et Windows Vista avec Service Pack 1 (SP1) introduisent les modifications suivantes dans le Service VSS.
+Windows le serveur 2008 et Windows Vista avec Service Pack 1 (SP1) introduisent les modifications suivantes dans le Service VSS.
 
 > [!Note]  
-> Toutes les modifications apportées à Windows Vista s’appliquent à Windows Server 2008 et Windows Vista avec SP1. Pour plus d’informations sur ces modifications, consultez [Nouveautés de VSS dans Windows Vista](what-s-new-in-vss-in-windows-vista.md).
+> toutes les modifications apportées à Windows vista s’appliquent à Windows Server 2008 et à Windows vista avec SP1. pour plus d’informations sur ces modifications, consultez [nouveautés de VSS dans Windows Vista](what-s-new-in-vss-in-windows-vista.md).
 
  
 
@@ -101,7 +101,7 @@ VSS \_ VOLSNAP \_ attr \_ \_ récupération TxF
 
 ## <a name="new-vss-writers"></a>Nouveaux enregistreurs VSS
 
-Windows Server 2008 et Windows Vista avec SP1 introduisent les enregistreurs VSS suivants :
+Windows le serveur 2008 et Windows Vista avec SP1 introduisent les enregistreurs VSS suivants :
 
 -   Rédacteur de configuration IIS
 -   Enregistreur de la métabase IIS

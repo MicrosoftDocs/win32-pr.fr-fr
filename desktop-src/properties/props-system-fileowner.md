@@ -4,12 +4,12 @@ ms.assetid: 3d07eba9-7d80-4b37-9836-6637da57a724
 title: System. FileOwner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be4dd58c98b8ce490d885c9263c793aee1b6be09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63e407fae0735678c804094e896cbac592f48dc72b91ef57097a0b3286939ce8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059199"
 ---
 # <a name="systemfileowner"></a>System. FileOwner
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

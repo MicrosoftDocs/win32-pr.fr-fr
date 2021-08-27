@@ -4,12 +4,12 @@ ms.assetid: 27e5dc15-2dbb-46b9-ac5f-232574acf84f
 title: System. photo. ProgramModeText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce3325158950f1208be6381161effb3d4dc2c1c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68eaa46a1b1ff9ec911d65564720dee46274e47abd72041c876742a9b8da1b31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120010019"
 ---
 # <a name="systemphotoprogrammodetext"></a>System. photo. ProgramModeText
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

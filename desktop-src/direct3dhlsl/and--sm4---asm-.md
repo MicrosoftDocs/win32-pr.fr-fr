@@ -4,12 +4,12 @@ description: Opérateur AND au niveau du bit.
 ms.assetid: 403DA289-E2CF-4736-8882-4131F884F777
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ec9474322aafda2706502898902d01d0e13143
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: c2b23d473522c2a796201a0edfc3a4b0ec9f047f9e00f359f3879fd80cfc699e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120068549"
 ---
 # <a name="and-sm4---asm"></a>et (SM4-ASM)
 
@@ -36,7 +36,7 @@ And **au niveau du** bit.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **And** logique au niveau du composant de chaque paire de valeurs 32 bits à partir de *src0* et *src1*. Les résultats 32 bits sont placés dans *dest*.
 
@@ -58,11 +58,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

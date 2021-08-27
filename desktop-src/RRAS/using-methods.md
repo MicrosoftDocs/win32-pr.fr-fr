@@ -4,12 +4,12 @@ description: Lorsqu’un client s’inscrit auprès du gestionnaire de tables de
 ms.assetid: 6d984a02-d005-43ad-81c4-968ae9c1a105
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33bd895fbb3f8f54224522786b5794c5c6c57a9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 150edb6435e0021c13e129f7c1e7a3016dc0974283fcdd138189f7d1c4a3184a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025099"
 ---
 # <a name="using-methods"></a>Utilisation de méthodes
 
@@ -22,7 +22,7 @@ Chaque méthode exportée par un client est identifiée de manière unique par s
 > [!Note]  
 > Les valeurs d’identificateur de méthode qui correspondent à un bit défini dans la moitié inférieure du membre **methodType** (les 16 bits inférieurs) sont réservées par Microsoft.
 
- 
+ 
 
 Pour appeler la méthode d’un second client, un client appelle la fonction [**RtmInvokeMethod**](/windows/desktop/api/Rtmv2/nf-rtmv2-rtminvokemethod) . Le gestionnaire de table de routage arbitre toutes les demandes pour appeler les méthodes d’un client. Le gestionnaire de tables de routage effectue deux fonctions lorsqu’il arbitre entre les clients :
 
@@ -35,9 +35,9 @@ En général, les clients bloquent les méthodes lors de l’apport de modificat
 
 Pour obtenir un exemple de code qui montre comment utiliser ces fonctions, consultez [obtenir et appeler les méthodes exportées pour un client](obtain-and-call-the-exported-methods-for-a-client.md).
 
- 
+ 
 
- 
+ 
 
 
 

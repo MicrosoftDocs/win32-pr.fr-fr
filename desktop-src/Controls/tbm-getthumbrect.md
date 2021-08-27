@@ -3,7 +3,7 @@ title: Message TBM_GETTHUMBRECT (commctrl. h)
 description: Récupère la taille et la position du rectangle englobant pour le curseur dans un TrackBar.
 ms.assetid: f53fd7af-36f8-4490-aa95-f1fa20f34efb
 keywords:
-- TBM_GETTHUMBRECT les contrôles de message Windows
+- TBM_GETTHUMBRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dce1bba8af9a65f297aa0515c1103c50daa1626d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4d2582ccfb5276f65cbf1187458774622e62f6dd87d8dcadd2e16a7447f769a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046359"
 ---
 # <a name="tbm_getthumbrect-message"></a>\_Message TBM GETTHUMBRECT
 
@@ -49,8 +49,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

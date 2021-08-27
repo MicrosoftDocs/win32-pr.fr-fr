@@ -4,12 +4,12 @@ ms.assetid: A249D8B4-15A8-4AD3-8316-2886E5C37825
 title: Événement MECaptureAudioSessionDeviceRemoved (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa0cf1b9a7536affed5a4665f6f2e364e1f872e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1c3b0e9acbf627800f69ad8ba374edc4b6f075268e61d2c71618c07e8c95645
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114199"
 ---
 # <a name="mecaptureaudiosessiondeviceremoved-event"></a>Événement MECaptureAudioSessionDeviceRemoved
 
@@ -27,7 +27,7 @@ Les valeurs possibles récupérées à partir de [**IMFMediaEvent :: GetValue**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est envoyé par le flux multimédia de la source de capture audio.
 
@@ -39,8 +39,8 @@ La source de capture envoie cet événement lorsqu’il reçoit un événement [
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

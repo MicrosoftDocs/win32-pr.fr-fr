@@ -4,12 +4,12 @@ description: Cet article technique fournit une vue d’ensemble de certains algo
 ms.assetid: bf994838-a261-0379-9301-eb9b250d216c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b25507d7f6b8608d4dacf5fab620bc8a3294c7
-ms.sourcegitcommit: 218b1ff779402c3ebe1786679e1aa80a5c0d6c95
+ms.openlocfilehash: aafff1b537830ae0ee681ed32932cca2b6274a4d9da3e0471ef498e0bef2d483
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103730709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102469"
 ---
 # <a name="common-techniques-to-improve-shadow-depth-maps"></a>Techniques courantes pour améliorer les mappages de profondeur d’ombre
 
@@ -23,7 +23,7 @@ La sélection des techniques appropriées pour limiter les artefacts spécifique
 
 ![Shadows avec des artefacts graves (à gauche) et des ombres après avoir implémenté les techniques décrites dans cet article (à droite)](images/shadows-before-and-after.jpg)
 
-## <a name="shadow-depth-maps-review"></a>Revue des cartes de profondeur des ombres
+## <a name="shadow-depth-maps-review"></a>profondeur de l’ombre Cartes révision
 
 L’algorithme de mappage de profondeur d’ombre est un algorithme à deux passes. La première passe génère une carte de profondeur dans l’espace clair. Dans la deuxième passe, cette carte est utilisée pour comparer la profondeur de chaque pixel dans l’espace clair par rapport à sa profondeur correspondante dans le mappage de profondeur d’espace clair.
 
@@ -51,7 +51,7 @@ Le nuanceur de pixels reçoit la position interpolée et les coordonnées de tex
 
 ![deuxième passe du mappage de clichés instantanés de base](images/second-pass-of-basic-shadow-mapping.png)
 
-## <a name="shadow-map-artifacts"></a>Artefacts de mappage d’ombre
+## <a name="shadow-map-artifacts"></a>Artifacts de la table de clichés instantanés
 
 L’algorithme de mappage de profondeur d’ombre est l’algorithme d’occultation en temps réel le plus largement utilisé, mais produit toujours plusieurs artefacts nécessitant une atténuation. Les types d’artefacts qui peuvent se produire sont résumés ci-après.
 
@@ -77,7 +77,7 @@ La résolution de la carte fictive peut également être trop élevée. Bien qu�
 
 Les mappages d’ombre de perspective (PSMs) et les mappages d’ombres en perspective d’espace clair (LSPSMs) tentent d’adresser des alias de perspective en inclinant la matrice de projection de la lumière afin de placer plus de texels à proximité de l’œil où elles sont nécessaires. Malheureusement, aucune technique ne peut résoudre l’alias de perspective. Le paramétrage de la transformation nécessaire pour mapper les pixels de l’espace œil aux texels dans le mappage des ombres ne peut pas être lié par un décalage linéaire. Un paramétrage logarithmique est requis. Les PSMs placent trop de détails près de l’oeil, ce qui amène les ombres éloignées à être de faible qualité ou à disparaître. Les LSPSMs permettent de mieux trouver un fond central entre une résolution plus importante et une plus grande partie de l’oeil et de laisser suffisamment de détails pour les objets. Les deux techniques dégénèrent les ombres orthographiques dans certaines configurations de scène. Cette dégénération peut être contrecarrée par le rendu d’un mappage d’ombre distinct pour chaque face de la vue frustum, bien que cela soit onéreux. Les cartes fictives de perspective logarithmique (LogPSMs) affichent également une carte séparée par face de la vue frustum. Cette technique utilise la pixellisation non linéaire pour placer plus de texels près de l’œil. Le matériel de classe D3D10 et D3D11 ne prend pas en charge la pixellisation non linéaire. Pour plus d’informations sur ces techniques et algorithmes, consultez la section Références.
 
-Les CMS sont la technique la plus populaire pour traiter les alias de perspective. Bien que CMS puisse être combiné avec PSMs et LSPSMs, il est inutile. L’utilisation de CMS pour corriger les erreurs d’alias de perspective est traitée dans l’article compagnon, les [cartes fictives en cascade](/windows/desktop/DxTechArts/cascaded-shadow-maps).
+Les CMS sont la technique la plus populaire pour traiter les alias de perspective. Bien que CMS puisse être combiné avec PSMs et LSPSMs, il est inutile. l’utilisation de cms pour corriger les erreurs d’alias de perspective est traitée dans l’article compagnon, [Cartes Shadow en cascade](/windows/desktop/DxTechArts/cascaded-shadow-maps).
 
 ### <a name="projective-aliasing"></a>Alias projective
 
@@ -113,7 +113,7 @@ Dans l’image de gauche, l’ombre est détachée de l’objet, ce qui crée un
 
 Une technique pour la suppression de l’acné de surface consiste à ajouter une valeur à la position de pixel dans l’espace clair ; C’est ce que l’on appelle ajouter un décalage de profondeur. Peter panoramique des résultats lorsque le décalage de profondeur utilisé est trop grand. Dans ce cas, le décalage de profondeur force le test de profondeur à passer à tort. À l’instar de l’acné Shadow, Peter panoramisation est aggravé lorsque la précision est insuffisante dans le tampon de profondeur. Le calcul des plans étroits et des plans lointains permet également d’éviter Peter panoramisation.
 
-## <a name="techniques-to-improve-shadow-maps"></a>Techniques d’amélioration des cartes fictives
+## <a name="techniques-to-improve-shadow-maps"></a>Techniques pour améliorer le Cartes Shadow
 
 L’ajout d’ombres à un titre est un processus. La première étape consiste à faire fonctionner les cartes fictives de base. La seconde consiste à s’assurer que tous les calculs de base sont effectués de façon optimale : Frusta s’adaptent aussi étroitement que possible, les plans proches/Far s’ajustent fortement, l’écart à l’échelle de la pente est utilisé, et ainsi de suite. Une fois que les ombres de base sont activées et qu’elles s’affichent aussi bien que possible, le développeur a une meilleure idée des algorithmes nécessaires pour obtenir les ombres pour une fidélité suffisante. Les conseils de base qui peuvent être nécessaires pour obtenir des cartes fictives de base en examinant les meilleurs résultats sont fournis dans cette section.
 
@@ -155,7 +155,7 @@ La mémoire tampon de profondeur peut être 16 bits, 24 bits ou 32 bits, avec de
 
 Un moyen simple et naïve de calculer le plan proche et le plan lointain consiste à transformer le volume englobant de la scène en espace clair. La plus petite valeur de la coordonnée Z est le plan near et la plus grande valeur de la coordonnée Z est le plan Far. Pour de nombreuses configurations de la scène et de la lumière, cette approche est suffisante. Toutefois, le pire scénario peut entraîner une perte significative de précision dans le tampon de profondeur ; La figure 13 illustre un tel scénario. Ici, la plage du plan near vers le plan FAR est quatre fois supérieure à celle nécessaire.
 
-La vue frustum de la figure 13 a été intentionnellement choisie comme petite. Une petite vue frustum est affichée dans une très grande scène composée de piliers s’étendant à partir de l’appareil photo de la vue. L’utilisation de la scène AABB pour les plans near et Far n’est pas optimale. L’algorithme CSM décrit dans l’article technique des [cartes fictives en cascade](/windows/desktop/DxTechArts/cascaded-shadow-maps) doit calculer des plans proches et éloignés pour les très petits frustums.
+La vue frustum de la figure 13 a été intentionnellement choisie comme petite. Une petite vue frustum est affichée dans une très grande scène composée de piliers s’étendant à partir de l’appareil photo de la vue. L’utilisation de la scène AABB pour les plans near et Far n’est pas optimale. l’algorithme CSM décrit dans l’article technique de l' [ombre en cascade Cartes](/windows/desktop/DxTechArts/cascaded-shadow-maps) doit calculer des plans proches et éloignés pour les frustums de très petite taille.
 
 **Figure 13. Plans near et Far basés sur la scène AABB**
 
@@ -266,16 +266,16 @@ Il est également important de s’assurer que la direction vers laquelle la gé
 
 ## <a name="summary"></a>Résumé
 
-Les techniques décrites dans cet article peuvent être utilisées pour augmenter la qualité des cartes fictives standard. L’étape suivante consiste à examiner les techniques qui peuvent fonctionner correctement avec les mappages d’ombres standard. Les CMS sont recommandés comme une technique supérieure pour combattre les alias de perspective. Vous pouvez utiliser des mappages de filtrage ou de variance de pourcentage plus rapprochés pour adoucir les bords de l’ombre. Pour plus d’informations, consultez l’article technique sur les [cartes fictives en cascade](/windows/desktop/DxTechArts/cascaded-shadow-maps) .
+Les techniques décrites dans cet article peuvent être utilisées pour augmenter la qualité des cartes fictives standard. L’étape suivante consiste à examiner les techniques qui peuvent fonctionner correctement avec les mappages d’ombres standard. Les CMS sont recommandés comme une technique supérieure pour combattre les alias de perspective. Vous pouvez utiliser des mappages de filtrage ou de variance de pourcentage plus rapprochés pour adoucir les bords de l’ombre. pour plus d’informations, consultez l’article technique de l' [ombre en cascade Cartes](/windows/desktop/DxTechArts/cascaded-shadow-maps) .
 
-Donnelly, W. et Lauritzen, A. [variance les cartes Shadow](https://portal.acm.org/citation.cfm?doid=1111411.1111440). Congrès sur les graphiques 3D interactifs, les procédures du congrès 2006 sur les jeux et les graphiques 3D interactifs. 2006, pp. 161 – 165.
+Donnelly, W. et Lauritzen, A. [Variance Cartes](https://portal.acm.org/citation.cfm?doid=1111411.1111440). Congrès sur les graphiques 3D interactifs, les procédures du congrès 2006 sur les jeux et les graphiques 3D interactifs. 2006, pp. 161 – 165.
 
-Engel, Woflgang F. section 4. Cartes fictives en cascade. ShaderX5, *techniques de rendu avancées*, Wolfgang F. Engel, Ed. Charles River un support, Boston, Massachusetts. 2006. pp. 197 – 206.
+Engel, Woflgang F. section 4. Cartes d’ombre en cascade. ShaderX5, *techniques de rendu avancées*, Wolfgang F. Engel, Ed. Charles River un support, Boston, Massachusetts. 2006. pp. 197 – 206.
 
-Stamminger, Marc et Drettakis, George. [Cartes fictives de perspective](https://portal.acm.org/citation.cfm?id=566616). Conférence internationale sur les graphiques informatiques et les techniques interactives, *les procédures du 29 Conférence annuelle sur les graphiques informatiques et les techniques interactives*. 2002, pp 557-562.
+Stamminger, Marc et Drettakis, George. [Cartes d’ombre de Perspective](https://portal.acm.org/citation.cfm?id=566616). Conférence internationale sur les graphiques informatiques et les techniques interactives, *les procédures du 29 Conférence annuelle sur les graphiques informatiques et les techniques interactives*. 2002, pp 557-562.
 
-Wimmer, M., Scherzer, D., and Purgathofer, W. [Lighting Spaces Shadow Map](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf). Congrès Eurographics sur le rendu. 2004. Révision le 10 juin 2005. [Technische Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/).
+Wimmer, M., Scherzer, D., and Purgathofer, W. [lighting Space Perspective Cartes](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf). Congrès Eurographics sur le rendu. 2004. Révision le 10 juin 2005. [Technische Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/).
 
- 
+ 
 
- 
+ 

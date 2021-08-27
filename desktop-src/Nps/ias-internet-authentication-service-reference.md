@@ -7,19 +7,19 @@ keywords:
 - Service d’authentification Internet IAS, référence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db029016fed4cb23178ca0861b589bb28c6995c2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: eaec89c9c3b3434be67623750d6d9e708641b22ec0af3baf19a56af9ff87ac57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510482"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101939"
 ---
 # <a name="nps-extensions-reference"></a>Informations de référence sur les extensions NPS
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS.
 
- 
+ 
 
 Les sections suivantes décrivent les éléments de programmation de l’API des extensions NPS.
 
@@ -27,6 +27,6 @@ Les sections suivantes décrivent les éléments de programmation de l’API des
 -   [Fonctions des extensions NPS](/windows/desktop/Nps/ias-internet-authentication-service-functions)
 -   [Structures d’extensions NPS](/windows/desktop/Nps/ias-internet-authentication-service-structures)
 
- 
+ 
 
- 
+ 

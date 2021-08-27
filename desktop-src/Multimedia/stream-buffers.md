@@ -3,7 +3,7 @@ title: Mémoires tampons de flux
 description: Mémoires tampons de flux
 ms.assetid: d73209a3-4b9d-4405-9e62-8ecfb94c0bd5
 keywords:
-- Multimédia Windows, mémoires tampons de flux
+- Windows multimédia, mémoires tampons de flux
 - multimédia, mémoires tampons de flux
 - audio multimédia, mémoires tampons de flux
 - audio, mémoires tampons de flux
@@ -14,12 +14,12 @@ keywords:
 - MIDIEVENT, structure
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d4a01862a8a8e6b7846cbe445737bd13422cf0f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ac10d024089a856880097c5d87ae501d62655f858030535ff4128f1fd9d31447
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103725349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037069"
 ---
 # <a name="stream-buffers"></a>Mémoires tampons de flux
 
@@ -30,6 +30,6 @@ Les applications peuvent utiliser des mémoires tampons de flux pour envoyer des
 -   [Types d’événements MIDI](midi-event-types.md)
 -   [Flux MIDI](midi-streams.md)
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message MCIWNDM_SENDSTRING (VFW. h)
 description: Le \_ message MCIWNDM SENDSTRING envoie une commande MCI sous forme de chaîne à l’appareil associé à la fenêtre MCIWnd. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndSendString.
 ms.assetid: 0e999a0e-588d-4f06-a1bc-fd3f245d8980
 keywords:
-- Message MCIWNDM_SENDSTRING Windows Multimedia
+- message MCIWNDM_SENDSTRING Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d36a034a3459803b1652bafed4eb389866add211
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b98ee008346821c2d489b19d01bb372c37cd3d541380fd8dae3b72bf613051f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037929"
 ---
 # <a name="mciwndm_sendstring-message"></a>\_Message MCIWNDM SENDSTRING
 
@@ -49,7 +49,7 @@ Commande de chaîne à envoyer à l’appareil MCI.
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gestionnaire de messages pour **MCIWNDM \_ SENDSTRING** ajoute un alias d’appareil à la commande MCI que vous envoyez à l’appareil. Par conséquent, vous ne devez pas utiliser d’alias dans une commande MCI que vous émettez avec **MCIWNDM \_ SENDSTRING**.
 

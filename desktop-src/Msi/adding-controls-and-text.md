@@ -4,12 +4,12 @@ ms.assetid: 2c6204c7-535d-4dda-8394-723ddbf46b96
 title: Ajout de contrôles et de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 706d071741d742205d0df2b19c4416acf355fd7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58602c4d793b25e1670373773ac8d3f5be2399c6351e56ebe2de1579c78ddcc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046029"
 ---
 # <a name="adding-controls-and-text"></a>Ajout de contrôles et de texte
 

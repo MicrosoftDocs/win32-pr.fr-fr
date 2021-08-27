@@ -4,12 +4,12 @@ description: Gestion de la perte de connectivité
 ms.assetid: a90fcb5a-773e-4c21-bf6c-c3519ec13a09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8e7a8088cfe09a4c4026c16cc3dc5ea36b3430
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4eac02c4440cb2e31a29e810d78dfd51764be3ba0ed5a6dc32f8c3e10824bd70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101679"
 ---
 # <a name="dealing-with-loss-of-connectivity"></a>Gestion de la perte de connectivité
 
@@ -51,8 +51,8 @@ Dans la plupart des cas, si un client RPC peut déterminer si un appel est idemp
 > [!Note]  
 > Si le serveur est un cluster et que les différents nœuds du cluster exécutent des versions différentes du logiciel serveur, une nouvelle tentative RPC peut débarquer l’appel sur un autre nœud du cluster en cas de basculement, et éventuellement sur une autre version du serveur. Dans de tels scénarios de déploiement, assurez-vous que le client ne s’appuie pas sur une version particulière du logiciel serveur pour exécuter un appel donné. Si c’est le cas, le client doit créer un mécanisme par-dessus RPC qui détecte et gère ces conditions.
 
- 
+ 
 
- 
+ 
 
- 
+ 

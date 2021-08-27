@@ -4,12 +4,12 @@ description: Instruction de nuanceur Geometry qui termine la topologie primitive
 ms.assetid: CEFDD13B-34FD-4E9C-94A0-CB8879A7DBDE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4650628d7f6b66130568f885e008a5163a9ee44f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: c019785d121bfb504b447456ad2376deb9c9c63357621513f42dcdf09351f465
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025019"
 ---
 # <a name="cut_stream-sm5---asm"></a>couper \_ le flux (SM5-ASM)
 
@@ -34,7 +34,7 @@ Instruction de nuanceur Geometry qui termine la topologie primitive actuelle au 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque cette instruction est exécutée, toute topologie précédemment émise par l’appel de nuanceur Geometry est terminée. Si le nombre de vertex émis pour la topologie primitive précédente est insuffisant, ils sont ignorés. Étant donné que les seules topologies de sortie disponibles pour le nuanceur Geometry sont PointList, linestrip et TriangleStrip, il n’y a jamais de vertex restants.
 
@@ -53,7 +53,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | X        |       |         |
 
@@ -67,9 +67,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

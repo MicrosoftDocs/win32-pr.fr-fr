@@ -4,12 +4,12 @@ description: La procédure suivante décrit les étapes utilisées pour énumér
 ms.assetid: 78a50e4a-f3c7-4a0d-a528-18d35b66369d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c927665cab8d4db492d3a2c5f8e9363fc1fe7be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5f8707c7cf78f274fedaca3fb4882ae36dbd569ab5fa1260ec3b6cb663aced3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101849"
 ---
 # <a name="enumerate-all-routes"></a>Énumérer tous les itinéraires
 
@@ -25,7 +25,7 @@ La procédure suivante décrit les étapes utilisées pour énumérer les entit�
 > [!Note]  
 > Les itinéraires qui sont dans l’état de blocage sont énumérés uniquement lorsqu’un client demande des données de toutes les vues à l’aide du \_ \_ masque de vue RTM \_ Any.
 
- 
+ 
 
 L’exemple de code suivant montre comment énumérer tous les itinéraires dans la table de routage.
 
@@ -88,9 +88,9 @@ if (Status == NO_ERROR)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

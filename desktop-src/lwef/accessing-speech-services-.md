@@ -4,12 +4,12 @@ description: En savoir plus sur l’accès aux services vocaux avec le contrôle
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 035bde03d18b77ce43c47375f2075bba02416c39
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 617da522912e2fbae361fb3addf569d5164894fc2b98a901686b2458d4d0a8e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114939"
 ---
 # <a name="accessing-speech-services-microsoft-agent-control"></a>Accès aux services vocaux (contrôle Microsoft Agent)
 

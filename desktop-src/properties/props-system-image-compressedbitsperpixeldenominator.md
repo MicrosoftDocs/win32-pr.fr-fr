@@ -4,12 +4,12 @@ ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
 title: System. image. CompressedBitsPerPixelDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 961e0cf442986ad8024c11c1d5f76500159b1282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fd96b560a5863c29aeaf265835aeff027ab420e5e87652358833e64fe656cdf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058889"
 ---
 # <a name="systemimagecompressedbitsperpixeldenominator"></a>System. image. CompressedBitsPerPixelDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

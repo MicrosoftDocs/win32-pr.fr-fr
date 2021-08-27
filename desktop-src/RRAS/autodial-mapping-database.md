@@ -4,12 +4,12 @@ description: La base de données de mappage de la numérotation automatique mapp
 ms.assetid: 4589d1e5-eec3-46ac-a10f-f20ae9f7b543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 511f15f98848559a892e8c20e766d47a07780fbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4e89bd065a136492281adb3424636a8820c76c76bf6867e70db75aecfa0f345d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036719"
 ---
 # <a name="autodial-mapping-database"></a>Base de données de mappage de numérotation automatique
 
@@ -27,6 +27,6 @@ La numérotation automatique crée automatiquement des entrées dans la base de 
 
 Vous pouvez utiliser la fonction [**RasSetAutodialAddress**](/windows/desktop/api/Ras/nf-ras-rassetautodialaddressa) pour ajouter une adresse à la base de données de mappage de numérotation automatique, supprimer une adresse de la base de données ou modifier les entrées de numérotation automatique associées à une adresse existante dans la base de données. Vous pouvez utiliser la fonction [**RasGetAutodialAddress**](/windows/desktop/api/Ras/nf-ras-rasgetautodialaddressa) pour récupérer les entrées de numérotation automatique associées à une adresse réseau spécifiée dans la base de données de mappage de la numérotation automatique. La fonction [**RasEnumAutodialAddresses**](/windows/desktop/api/Ras/nf-ras-rasenumautodialaddressesa) retourne une liste de toutes les adresses dans la base de données de mappage de la numérotation automatique.
 
- 
+ 
 
- 
+ 

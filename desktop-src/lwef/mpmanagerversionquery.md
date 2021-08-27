@@ -3,7 +3,7 @@ title: MpManagerVersionQuery, fonction (MpClient. h)
 description: Retourne des informations de version sur les différents composants du gestionnaire de protection contre les programmes malveillants.
 ms.assetid: 47DE12BF-D7A4-468B-B0E7-79B5C27E56F5
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpManagerVersionQuery
+- fonctionnalités d’environnement Windows hérités de la fonction MpManagerVersionQuery
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a841a83d8ceb828de0a5a9cd80f5f5bdc7f5c914
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b6407f36650b699f6bcdc9cbdd832ff2db38f68e9db758411d42aa5e81564ea4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114539"
 ---
 # <a name="mpmanagerversionquery-function"></a>MpManagerVersionQuery fonction)
 
@@ -73,8 +73,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

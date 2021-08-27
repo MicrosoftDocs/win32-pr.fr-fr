@@ -4,12 +4,12 @@ ms.assetid: 09dc7165-22b1-4eca-9591-d83e85556f3f
 title: Application de l’activation dans le contexte par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41599f71dc37c37c1a9a574d274ca2858835e2df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d188fb50521e09c88a9c61136e33928176faa1f70a94680b31cf0cc1e75cb8eb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070759"
 ---
 # <a name="enforcing-activation-in-the-default-context"></a>Application de l’activation dans le contexte par défaut
 

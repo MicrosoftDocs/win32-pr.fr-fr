@@ -3,7 +3,7 @@ title: ExtTextOutWrap fonction)
 description: Dessine le texte à l’aide de la police, de la couleur d’arrière-plan et de la couleur de texte actuellement sélectionnées. Vous pouvez éventuellement fournir des dimensions à utiliser pour le découpage, l’opacité ou les deux. Cette fonction encapsule un appel à ExtTextOut.
 ms.assetid: 0804c231-53f9-4de6-b703-0077cdcebcb5
 keywords:
-- Contrôles Windows de la fonction ExtTextOutWrap
+- ExtTextOutWrap, fonction Windows contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a173fedb7d8534dbd926a8a147e833435a7710b1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 934a8d203cf232a339db46e97783e87c075e5bb949ec5d23e20a7b1874ea6ef2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047269"
 ---
 # <a name="exttextoutwrap-function"></a>ExtTextOutWrap fonction)
 
@@ -88,9 +88,9 @@ Valeurs qui spécifient comment utiliser le rectangle défini par l’applicatio
 *LPRC* \[ dans\]
 </dt> <dd>
 
-Type : **const [**Rect**](/previous-versions//dd162897(v=vs.85)) \** _
+Type : **const [**Rect**](/previous-versions//dd162897(v=vs.85)) \***
 
-Pointeur vers une structure [_ *Rect* *](/previous-versions//dd162897(v=vs.85)) facultative qui spécifie les dimensions, en coordonnées logiques, d’un rectangle utilisé pour le découpage, l’opacité ou les deux.
+Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) facultative qui spécifie les dimensions, en coordonnées logiques, d’un rectangle utilisé pour le découpage, l’opacité, ou les deux.
 
 </dd> <dt>
 
@@ -115,9 +115,9 @@ Longueur de la chaîne, en octets, vers laquelle pointe *lpString*.
 *lpDx* \[ dans\]
 </dt> <dd>
 
-Type : **const [**int**](/windows/desktop/WinProg/windows-data-types) \** _
+Type : **const [**int**](/windows/desktop/WinProg/windows-data-types) \***
 
-Pointeur vers un tableau facultatif de valeurs qui indiquent la distance entre les origines des cellules de caractères adjacentes. Par exemple, \[ \] les unités logiques _lpDx * x séparent les origines de la cellule de caractère x et de la cellule de caractère (x + 1).
+Pointeur vers un tableau facultatif de valeurs qui indiquent la distance entre les origines des cellules de caractères adjacentes. Par exemple,  \[ \] les unités logiques lpDx x séparent les origines de la cellule de caractère x et de la cellule de caractère (x + 1).
 
 </dd> </dl>
 
@@ -143,8 +143,8 @@ Pour des remarques supplémentaires, consultez [**ExtTextOut**](/windows/desktop
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                           |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (version 6,0 ou ultérieure)</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Fhcfg.idl
-ms.openlocfilehash: 083ce344e44035b5872d91ad14465659defc8229
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 700e96b72e3b23fa83a384a68bd2723ae244d69b0b10ed47db10843793166f40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058969"
 ---
 # <a name="fhconfigmgr-class"></a>FhConfigMgr, classe
 
@@ -34,8 +34,8 @@ L’API d’historique des fichiers implémente cette classe. Pour créer une in
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Fhcfg. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Fhcfg. idl</dt> </dl> |
 

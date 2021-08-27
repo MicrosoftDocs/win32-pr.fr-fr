@@ -1,19 +1,19 @@
 ---
-description: Le gestionnaire de portée d’analyse (CSM) vous permet de définir des règles d’étendue qui incluent ou excluent des URL de la portée de l’analyse de Windows Search.
+description: le gestionnaire de portée d’analyse (CSM) vous permet de définir des règles d’étendue qui incluent ou excluent des url de la portée de l’analyse de recherche Windows.
 ms.assetid: 132a55f9-680d-438e-b983-f5ce4cf66a41
 title: Gestion des règles d’étendue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d45199726cfe36dc1c4936e9ac7699a288c3ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6374ff3f29bebfcaeeddd02a4ec1c1d7746a19ab48c4ad8d3669aeb0cfaebdb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058189"
 ---
 # <a name="managing-scope-rules"></a>Gestion des règles d’étendue
 
-Le gestionnaire de portée d’analyse (CSM) vous permet de définir des règles d’étendue qui incluent ou excluent des URL de la portée de l’analyse de Windows Search.
+le gestionnaire de portée d’analyse (CSM) vous permet de définir des règles d’étendue qui incluent ou excluent des url de la portée de l’analyse de recherche Windows.
 
 CSM vous permet d’effectuer les opérations suivantes :
 
@@ -45,7 +45,7 @@ Par exemple, supposons que vous avez installé une nouvelle application dont les
 Il existe trois types de règles, avec l’ordre de priorité suivant :
 
 1.  Les règles de stratégie de groupe sont définies par les administrateurs et peuvent remplacer toutes les autres règles.
-2.  Les règles utilisateur sont définies par les utilisateurs qui modifient l’étendue dans l’interface utilisateur des options de recherche Windows. Les utilisateurs ou d’autres applications peuvent supprimer toutes les règles utilisateur et rétablir les règles par défaut.
+2.  les règles utilisateur sont définies par les utilisateurs qui modifient l’étendue dans l’interface utilisateur des options de recherche Windows. Les utilisateurs ou d’autres applications peuvent supprimer toutes les règles utilisateur et rétablir les règles par défaut.
 3.  Les règles par défaut sont généralement définies par une application pour définir une étendue par défaut. Par exemple, les règles par défaut peuvent être définies lors de l’ajout d’un nouveau gestionnaire de protocole ou d’un conteneur au système.
 
 Ensemble, ces types de règles comprennent l’ensemble de règles de *travail* à partir duquel le gestionnaire de portée d’analyse (CSM) génère la liste complète des URL à analyser. Alors que les règles par défaut peuvent être remplacées par les règles de stratégie de groupe et par les règles de l’utilisateur, elles sont conservées dans leur propre ensemble de règles par défaut, que vous pouvez restaurer à tout moment. L’indexeur analyse les URL de l’ensemble de règles de travail et ajoute des éléments, des propriétés et du contenu au catalogue.
@@ -84,7 +84,7 @@ Après avoir apporté des modifications au gestionnaire de l’étendue de l’a
 Les règles de travail définies pour le CSM incluent les règles utilisateur et par défaut, ainsi que toutes les règles imposées par la stratégie de groupe. Les règles utilisateur sont configurées par les utilisateurs dans une interface utilisateur, et les règles par défaut peuvent être définies par l’un des éléments suivants :
 
 -   Stratégies de groupe implémentées par un administrateur système (celles-ci n’utilisent pas l’interface [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) .)
--   Installation ou mise à jour d’une application telle que Windows Search ou un gestionnaire de protocole
+-   installation ou mise à jour d’une application telle que Windows Search ou un gestionnaire de protocole
 -   Une application d’installation pour l’ajout d’une nouvelle banque de données ou d’un nouveau conteneur
 
 Le [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) fournit deux méthodes pour ajouter de nouvelles règles d’étendue, comme décrit dans le tableau suivant. Les chemins d’accès pour les règles d’inclusion du système de fichiers doivent se terminer par une barre oblique inverse « \\ » (par exemple, file:///C : \\ Files \\ ), et les chemins d’accès des règles d’exclusion doivent se terminer par un astérisque (par exemple, file:///c : \\ Files \\ \* ). Seules les règles d’exclusion peuvent contenir des URL de modèle. En outre, nous vous recommandons d’inclure les identificateurs de sécurité (SID) des utilisateurs dans les chemins d’accès, pour une meilleure sécurité. Les chemins d’accès par utilisateur sont plus sécurisés, car les requêtes s’exécutent dans un processus par utilisateur, ce qui garantit qu’un utilisateur ne peut pas voir les éléments indexés à partir de la boîte de réception d’un autre utilisateur, par exemple.
@@ -139,7 +139,7 @@ Chaque méthode prend une URL et un indicateur qui spécifie si la règle à sup
 Il est également possible de supprimer tous les remplacements définis par l’utilisateur d’une racine de recherche et de rétablir la racine de recherche d’origine et les règles d’étendue par défaut. Pour plus d’informations, reportez-vous à la section suivante.
 
 > [!Note]  
-> Sur Windows Vista, si les utilisateurs sont supprimés par le biais de profils utilisateur dans le panneau de configuration, CSM supprime toutes les règles et toutes les racines qui incluent leur SID et supprime leurs éléments indexés du catalogue. Sur Windows XP, vous devez supprimer manuellement les racines et les règles des utilisateurs.
+> sur Windows Vista, si les utilisateurs sont supprimés via les profils utilisateur dans le panneau de configuration, CSM supprime toutes les règles et toutes les racines qui incluent leur SID et supprime leurs éléments indexés du catalogue. sur Windows XP, vous devez supprimer manuellement les racines et les règles des utilisateurs.
 
  
 

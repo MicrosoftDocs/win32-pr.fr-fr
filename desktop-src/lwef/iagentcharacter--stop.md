@@ -4,12 +4,12 @@ description: IAgentCharacter arrêter
 ms.assetid: 3064bb3e-37a6-4022-bffb-130735736889
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356c81996a9410eccb2007dc5261913e30a1b414
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 297f187b7045b1da5773643f2765160c71fbca0d4eb7c6ec12c4032e2f1d5806
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114779"
 ---
 # <a name="iagentcharacterstop"></a>IAgentCharacter :: Stop
 
@@ -41,9 +41,9 @@ L' **arrêt** peut également être utilisé pour arrêter les appels [**Prepare
 [**IAgentCharacter ::P reparenthèse**](iagentcharacter--prepare.md), [ **IAgentCharacter :: stopAll**](iagentcharacter--stopall.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

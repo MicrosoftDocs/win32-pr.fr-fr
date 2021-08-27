@@ -4,12 +4,12 @@ ms.assetid: 9cd19137-792d-4fde-92d2-7d96942448d6
 title: ICE59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5631b723a158bb371fff3211654a70d694b6cb5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e1a8d6318a9b4525941edd3873c9fc35bd11f488e42c8a82da71c4b2c0b9b5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120044019"
 ---
 # <a name="ice59"></a>ICE59
 
@@ -17,11 +17,11 @@ ICE59 vérifie que les raccourcis publiés appartiennent à des composants insta
 
 Les erreurs signalées par ICE59 entraînent généralement le comportement suivant :
 
-1.  Le raccourci publié lance le Windows Installer pour installer la fonctionnalité indiquée dans la colonne cible.
+1.  le raccourci publié lance le Windows Installer pour installer la fonctionnalité indiquée dans la colonne cible.
 2.  Toutefois, étant donné que la [table FeatureComponents](featurecomponents-table.md) ne mappe pas la fonctionnalité cible au composant contenant le raccourci, le fichier keyfile du composant (qui est activé par le raccourci) n’est pas installé.
 3.  Par conséquent, le raccourci est rompu et n’a rien à faire.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE59 publie une erreur si un raccourci publié n’appartient pas aux composants installés par la fonctionnalité cible du raccourci.
 
@@ -41,7 +41,7 @@ Pour corriger cette erreur, ajoutez une ligne à la [table FeatureComponents](fe
 
 
 
-| Raccourci  | Cible   | -\_ |
+| Raccourci  | Cible   | Composant\_ |
 |-----------|----------|-------------|
 | ShortcutB | FeatureA | ComponentB  |
 
@@ -53,7 +53,7 @@ Pour corriger cette erreur, ajoutez une ligne à la [table FeatureComponents](fe
 
 
 
-| Fonctionnalité\_ | -\_ |
+| Fonctionnalité\_ | Composant\_ |
 |-----------|-------------|
 | FeatureA  | Composant  |
 
@@ -65,7 +65,7 @@ Pour corriger cette erreur, ajoutez une ligne à la [table FeatureComponents](fe
 
 
 
-| Fonctionnalité  | Level |
+| Fonctionnalité  | Niveau |
 |----------|-------|
 | FeatureA | 10    |
 
@@ -90,7 +90,7 @@ Pour corriger cette erreur, ajoutez une ligne à la [table FeatureComponents](fe
 
 
 
-| Fichier  | -\_ | Séquence |
+| Fichier  | Composant\_ | Séquence |
 |-------|-------------|----------|
 | Filea | Composant  | 1        |
 | FileB | ComponentB  | 2        |

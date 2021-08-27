@@ -1,20 +1,20 @@
 ---
-title: Aperçu de la vidéo (Windows Multimedia)
-description: Cet exemple dans Windows Multimedia utilise capPreviewRate pour définir la fréquence d’affichage des frames pour le mode Aperçu et capPreview pour placer la fenêtre de capture en mode aperçu.
+title: aperçu de la vidéo (Windows multimédia)
+description: cet exemple dans Windows multimédia utilise capPreviewRate pour définir la fréquence d’affichage des frames pour le mode aperçu et capPreview pour placer la fenêtre de capture en mode aperçu.
 ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:
 - capPreview macro)
 - capPreviewRate macro)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc3aaeb9a8ff0f040218fca4822af93ab8bfe29
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0e70d0520af3bb71906c6b0ea4d1c0a61464559eedfd2385753b228841fa6af4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037909"
 ---
-# <a name="previewing-video-windows-multimedia"></a>Aperçu de la vidéo (Windows Multimedia)
+# <a name="previewing-video-windows-multimedia"></a>aperçu de la vidéo (Windows multimédia)
 
 L’exemple suivant utilise la macro [**capPreviewRate**](/windows/desktop/api/Vfw/nf-vfw-cappreviewrate) pour définir la fréquence d’affichage des frames pour le mode aperçu à 66 millisecondes par image, puis utilise la macro [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) pour placer la fenêtre de capture en mode aperçu.
 

@@ -4,7 +4,7 @@
     - name: À propos de la gestion des partages réseau
       href: about-network-share-management.md
       items:
-        - name: Nouveautés de la gestion des partages réseau dans Windows Server 2008 R2 et Windows 7
+        - name: nouveautés de la gestion des partages réseau dans Windows Server 2008 R2 et Windows 7
           href: what-s-new-in-network-share-management-in-windows-server-2008-r2-and-windows-7.md
         - name: Fonctions Netfile
           href: netfile-functions.md

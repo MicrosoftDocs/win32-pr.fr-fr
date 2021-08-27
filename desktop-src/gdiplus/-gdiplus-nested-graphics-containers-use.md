@@ -1,19 +1,19 @@
 ---
-description: Windows GDI+ fournit des conteneurs que vous pouvez utiliser pour remplacer ou augmenter temporairement une partie de l’État dans un objet Graphics.
+description: Windows GDI+ fournit des conteneurs que vous pouvez utiliser pour remplacer ou augmenter temporairement une partie de l’état dans un objet graphics.
 ms.assetid: f3fce8ef-903a-4b9d-b76c-562739d02eb3
 title: Conteneurs Graphics imbriqués
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29f9d9feac3494b423d844cb1e3da359af33eaec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d88b3a768e5b156eb5d28410ad69d58227e9660618764ca4b084b5e35662b839
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114979"
 ---
 # <a name="nested-graphics-containers"></a>Conteneurs Graphics imbriqués
 
-Windows GDI+ fournit des conteneurs que vous pouvez utiliser pour remplacer ou augmenter temporairement une partie de l’État dans un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Pour créer un conteneur, appelez la méthode [**Graphics :: BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) d’un objet **Graphics** . Vous pouvez appeler **Graphics :: BeginContainer** à plusieurs reprises pour former des conteneurs imbriqués.
+Windows GDI+ fournit des conteneurs que vous pouvez utiliser pour remplacer ou augmenter temporairement une partie de l’état dans un objet [**graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Pour créer un conteneur, appelez la méthode [**Graphics :: BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) d’un objet **Graphics** . Vous pouvez appeler **Graphics :: BeginContainer** à plusieurs reprises pour former des conteneurs imbriqués.
 
 ## <a name="transformations-in-nested-containers"></a>Transformations dans les conteneurs imbriqués
 

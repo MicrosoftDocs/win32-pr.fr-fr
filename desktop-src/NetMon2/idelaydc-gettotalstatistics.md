@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b3a0ce4f230236e276fede528a5e778ecafd51fb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e6b4d76b3035e156da1f1d4decf7a5c59b28bf0ca13bc2bdaa33e319422509af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113527"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037549"
 ---
 # <a name="idelaydcgettotalstatistics-method"></a>IDelaydC :: GetTotalStatistics, méthode
 
@@ -55,7 +55,7 @@ Indicateur utilisé pour indiquer Moniteur réseau comment gérer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,15 +65,15 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
 | Code de retour                                                                                          | Description                                                                                                                   |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. Appelez [IDelaydC :: Connect](idelaydc-connect.md) pour vous connecter au réseau.<br/> |
-| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>   | Le NPP est connecté au réseau, mais pas avec la méthode [IDelaydC :: Connect](idelaydc-connect.md) .<br/>             |
+| <dl> <dt>**NMERR \_ non \_ connecté**</dt> </dl> | Le NPP n’est pas connecté au réseau. appelez [IDelaydC :: Connecter](idelaydc-connect.md) pour vous connecter au réseau.<br/> |
+| <dl> <dt>**NMERR \_ non \_ retardé**</dt> </dl>   | le NPP est connecté au réseau, mais pas avec la méthode [IDelaydC :: Connecter](idelaydc-connect.md) .<br/>             |
 | <dl> <dt>**NMERR \_ pas de \_ capture**</dt> </dl> | Le NPP ne capture pas de données. Appelez [IDelaydC :: Start](idelaydc-start.md) pour commencer à capturer des données.<br/>                 |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne les données uniquement lorsqu’une capture est en cours ; Lorsque la capture est suspendue, les appels à cette méthode échouent.
 
@@ -99,7 +99,7 @@ Moniteur réseau stocke également les [*statistiques de conversation*](c.md), q
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC :: Connect](idelaydc-connect.md)
+[IDelaydC :: Connecter](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC::GetConversationStatistics](idelaydc-getconversationstatistics.md)

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 372ad98c73b1b0e90753891e01e46c61a78c23dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 02bc7351d1cc0fafa46aab1f93feed4cafc184dc33090d4d2c7947a285fbb234
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125129"
 ---
 # <a name="imstscaxeventsondisconnected-method"></a>IMsTscAxEvents :: OnDisconnected, méthode
 
@@ -145,7 +145,7 @@ Erreur de chiffrement.
 
 </dt> <dd>
 
-Échec de l’appel [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) Windows Sockets.
+Windows Échec de l’appel [**gethostbyname**](/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname) des sockets.
 
 </dd> <dt>
 
@@ -354,7 +354,7 @@ Déconnexion distante par l’utilisateur. Il ne s’agit pas d’un code d’er
 
 </dt> <dd>
 
-Échec de la [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) à Windows Sockets.
+Windows Échec de la [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) des sockets.
 
 </dd> <dt>
 
@@ -365,7 +365,7 @@ Déconnexion distante par l’utilisateur. Il ne s’agit pas d’un code d’er
 
 </dt> <dd>
 
-Échec de l’appel de [**réception**](/windows/desktop/api/winsock/nf-winsock-recv) Windows Sockets.
+Windows Échec de l’appel de [**réception**](/windows/desktop/api/winsock/nf-winsock-recv) des sockets.
 
 </dd> <dt>
 
@@ -398,7 +398,7 @@ Erreur de minuteur interne.
 
 </dt> <dd>
 
-Échec de l’appel d' [**envoi**](/windows/desktop/api/winsock2/nf-winsock2-send) Windows Sockets.
+Windows Échec de l’appel d' [**envoi**](/windows/desktop/api/winsock2/nf-winsock2-send) de Sockets.
 
 </dd> <dt>
 
@@ -571,7 +571,7 @@ Un code confidentiel incorrect a été présenté à la carte à puce.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer une description de l’erreur de déconnexion, appelez la méthode [**GetErrorDescription**](imsrdpclient5-geterrordescription.md) et transmettez-lui le paramètre *discReason* et la propriété [**ExtendedDisconnectReason**](imsrdpclient-extendeddisconnectreason.md) de l’interface [**IMsRdpClient**](imsrdpclient-interface.md) .
 

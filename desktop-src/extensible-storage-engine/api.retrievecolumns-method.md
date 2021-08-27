@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c981ad8b8e90db10bb8735aa349315b769e6641f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31f4e24cc581c26b1188f2cd948861bd032765436e2d220e0bd9a5c6f76a51b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977009"
 ---
 # <a name="apiretrievecolumns-method"></a>API. RetrieveColumns, méthode
 

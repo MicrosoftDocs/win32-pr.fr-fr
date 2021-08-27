@@ -6,12 +6,12 @@ keywords:
 - API serveur HTTP des chaînes UrlPrefix
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bddc484f26bc1b3de5d20196dadec9201d3ea272
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: f3fad89bf7abd52ee3681beaa8069a7f5e4ee25b482cd065f880263852690fce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103734740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047039"
 ---
 # <a name="urlprefix-strings"></a>Chaînes UrlPrefix
 
@@ -151,9 +151,9 @@ Dans chaque catégorie UrlPrefix, l’API du serveur HTTP achemine une requête 
 
 L’API du serveur HTTP achemine une requête pour `https://www.adatum.com:80/default.htm` à attente queue1 et une demande `https://www.adatum.com:80/dir/sna/snadefault.htm` à Queue2. Il achemine une requête pour `https://www.adatum.com:80/dir/app.htm` à attente queue1, car la correspondance la plus longue est avec `https://www.adatum.com:80/` URLPrefix, et non avec `https://www.adatum.com:80/dir/sna` URLPrefix.
 
- 
+ 
 
- 
+ 
 
 
 

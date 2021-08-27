@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 9297ba0019c89c5e93961d4b36e0fe16da04d6bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8575610ab34b62c9228f87fa64fbd6a40fa0201b7fe1a70ab95c7daae706854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058589"
 ---
 # <a name="rtlgetunloadeventtrace-function"></a>RtlGetUnloadEventTrace fonction)
 
-\[Cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
+\[cette fonction peut être modifiée ou supprimée de Windows sans préavis.\]
 
 Permet au code de vidage d’obtenir les informations de module déchargées à partir de Ntdll.dll pour le stockage dans le minidump.
 
@@ -43,7 +43,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction retourne un pointeur vers un tableau. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau RtlpUnloadEventTrace est défini comme suit :
 
@@ -62,7 +62,7 @@ typedef struct _RTL_UNLOAD_EVENT_TRACE {
 RTL_UNLOAD_EVENT_TRACE RtlpUnloadEventTrace[RTL_UNLOAD_EVENT_TRACE_NUMBER];
 ```
 
-Cette fonction n’a aucun fichier d’en-tête associé. La bibliothèque d’importation associée, ntdll. lib, est disponible dans le kit WDK (Windows Driver Kit). Vous pouvez également appeler cette fonction à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
+Cette fonction n’a aucun fichier d’en-tête associé. la bibliothèque d’importation associée, Ntdll. lib, est disponible dans le Kit de pilotes Windows (WDK). Vous pouvez également appeler cette fonction à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 
 ## <a name="requirements"></a>Configuration requise
 

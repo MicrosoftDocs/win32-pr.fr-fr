@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caf118700a81865ff93ee581cbb2efd07d237805
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d05924b793d281cc190eed434c70efa37f1a930e905751973a6b0285920e1aa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106541247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007089"
 ---
 # <a name="ivmnetworkadaptercollection_newenum-property"></a>IVMNetworkAdapterCollection :: \_ NewEnum, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère un énumérateur pour la collection.
 
@@ -65,7 +65,7 @@ HRESULT get__NewEnum(
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                     |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                           |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                  |

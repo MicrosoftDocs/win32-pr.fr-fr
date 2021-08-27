@@ -4,12 +4,12 @@ ms.assetid: a1ef1ce1-42f6-4627-ab64-e7f41fa23e94
 title: Considérations relatives à la programmation pour NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e79dc7eba4de1258c294d3e41f8042f3cb01dc87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd3150746b1cb34495178cc8318805587f3d08f17e04cb8227e95a9c52ddce3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047939"
 ---
 # <a name="programming-considerations-for-transactional-ntfs"></a>Considérations relatives à la programmation pour NTFS transactionnel
 
@@ -51,7 +51,7 @@ Un fichier ou un répertoire créé dans une transaction n’est pas visible à 
 Un fichier ou un répertoire qui est supprimé en appelant la fonction [**DeleteFileTransacted**](/windows/desktop/api/WinBase/nf-winbase-deletefiletransacteda) reste visible pour tous les lecteurs externes.
 
 > [!Note]  
-> Tous les descripteurs traités dans le fichier doivent être fermés avant la fin de la transaction. Si les descripteurs ne sont pas correctement fermés, la suppression n’a pas lieu. Tous les descripteurs ouverts dans le fichier doivent être fermés avant d’effectuer la validation pour que l’opération de suppression soit considérée comme faisant partie de la transaction. Cela est dû au fait que le système ne supprime pas réellement un fichier tant que le dernier descripteur n’est pas fermé, même lorsque l’opération n’est pas traitée, dans le cadre du sous-système d’e/s de fichier Windows.
+> Tous les descripteurs traités dans le fichier doivent être fermés avant la fin de la transaction. Si les descripteurs ne sont pas correctement fermés, la suppression n’a pas lieu. Tous les descripteurs ouverts dans le fichier doivent être fermés avant d’effectuer la validation pour que l’opération de suppression soit considérée comme faisant partie de la transaction. cela est dû au fait que le système ne supprime pas réellement un fichier tant que le dernier descripteur n’est pas fermé, même lorsque l’opération n’est pas traitée, dans le cadre du sous-système d’e/s de fichier Windows.
 
  
 
@@ -96,7 +96,7 @@ Les modifications apportées aux points d’analyse sont transactionnelles, ce q
 
 ## <a name="error-codes"></a>Codes d’erreur
 
-Le gestionnaire de transactions KTM (Kernel Transaction Manager) utilise les codes d’erreur système dans la plage comprise entre 6700 et 6799. NTFS transactionnel (TxF) utilise des codes d’erreur Windows dans la plage comprise entre 6800 et 6899. Pour plus d’informations, consultez WinError. h et codes d’erreur système (6000-8199).
+Le gestionnaire de transactions KTM (Kernel Transaction Manager) utilise les codes d’erreur système dans la plage comprise entre 6700 et 6799. NTFS transactionnel (TxF) utilise Windows codes d’erreur dans la plage comprise entre 6800 et 6899. Pour plus d’informations, consultez WinError. h et codes d’erreur système (6000-8199).
 
 ## <a name="encrypted-file-system"></a>Système de fichiers chiffré
 

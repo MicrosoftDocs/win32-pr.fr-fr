@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les nouvelles fonctionnalités qui ont été ajoutées à Suivi d’v nements pour Windows dans chaque version.
+description: cette section décrit les nouvelles fonctionnalités qui ont été ajoutées à Suivi d’v nements pour Windows dans chaque version.
 ms.assetid: 5d94a6d2-2280-4a97-aa5a-c9ca2c016c84
 title: Nouveautés du suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 613433834e5a11f2886b6ee314fdb60114f66976
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2da1c6f1b54ae8bc4b91bd511bface8569bcf43b2893329b1b0462b46c001724
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102019"
 ---
 # <a name="whats-new-in-event-tracing"></a>Nouveautés du suivi d’événements
 
-Cette section décrit les nouvelles fonctionnalités qui ont été ajoutées à Suivi d’v nements pour Windows dans chaque version.
+cette section décrit les nouvelles fonctionnalités qui ont été ajoutées à Suivi d’v nements pour Windows dans chaque version.
 
 ## <a name="windows-10-version-1709"></a>Windows 10, version 1709
 
@@ -21,7 +21,7 @@ ETW peut désormais éventuellement suivre des binaires pour tous les fournisseu
 
 ETW peut désormais filtrer les événements en fonction du nom de l’événement. Vous pouvez également déterminer quels événements obtiennent leurs piles. Pour plus d’informations, consultez les valeurs de type de filtre d’événement **\_ \_ \_ \_ nom d’événement**, type de filtre d' **événement \_ \_ \_ STACKWALK \_ nom** et **type de filtre d’événement STACKWALK valeurs de \_ \_ \_ \_ niveau \_ kW** de la structure de [**\_ \_ descripteur de filtre d’événement**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) , ainsi que le [**\_ \_ \_ nom d’événement de filtre**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_event_name) d’événement associé et les structures [**\_ \_ \_ kW de niveau de filtre d’événement**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_level_kw) .
 
-## <a name="windows-10"></a>Windows 10
+## <a name="windows-10"></a>Windows 10
 
 [TraceLogging](../tracelogging/trace-logging-portal.md) s’appuie sur ETW et fournit un moyen simplifié d’instrumenter le code pour les développeurs natifs, .net et WinRT. TraceLogging vous permet d’inclure des données structurées avec des événements, de mettre en corrélation des événements et ne requiert pas de fichier XML de manifeste d’instrumentation distinct.
 
@@ -31,7 +31,7 @@ L’état de capture périodique est un moyen d’autoriser régulièrement l’
 
 ## <a name="windows-81-and-windows-server-2012-r2"></a>Windows 8.1 et Windows Server 2012 R2
 
-Les fonctionnalités suivantes ont été ajoutées au suivi d’événements sur Windows 8.1 et Windows Server 2012 R2.
+les fonctionnalités suivantes ont été ajoutées au suivi d’événements sur Windows 8.1 et Windows Server 2012 R2.
 
 Les fonctions qui prennent en charge l’utilisation de la charge utile d’événement, la portée et les filtres de parcours de pile utilisés par la fonction [**EnableTraceEx2**](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) et les structures [**activer les \_ \_ paramètres de trace**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) et [**\_ \_ descripteurs de filtre d’événement**](/windows/desktop/api/Evntprov/ns-evntprov-event_filter_descriptor) pour filtrer sur des conditions spécifiques dans une session de journalisation. Pour plus d'informations, consultez les pages suivantes :
 
@@ -58,7 +58,7 @@ Structure qui définit un tableau d’événements dans un manifeste de fourniss
 
 ## <a name="windows-8-and-windows-server-2012"></a>Windows 8 et Windows Server 2012
 
-Les fonctionnalités suivantes ont été ajoutées au suivi d’événements sur Windows 8 et Windows Server 2012.
+les fonctionnalités suivantes ont été ajoutées au suivi d’événements sur Windows 8 et Windows Server 2012.
 
 Les fonctions qui effectuent des opérations sur un objet d’inscription, fournissent l’analyse de la charge utile d’événement, fournissent l’exploration des fournisseurs de suivi, interrogent les paramètres de session de suivi d’événements et traitent un fichier de trace reconnecté. Pour plus d'informations, consultez les pages suivantes :
 
@@ -87,7 +87,7 @@ Les interfaces qui fournissent des informations au journal sur le processus de s
 
 Les fonctionnalités suivantes ont été ajoutées dans cette version :
 
--   La possibilité pour les fournisseurs de définir des filtres dans le manifeste. Dans Windows Vista, les contrôleurs pouvaient transmettre des données de filtre au fournisseur. Toutefois, la mise en page des données de filtre n’a pas été définie dans le manifeste, de sorte que le fournisseur doit utiliser d’autres moyens pour fournir la définition de filtre aux contrôleurs. Avec cette version, les fournisseurs peuvent définir la définition de filtre dans le manifeste (consultez l’attribut **Filters** du type complexe [**ProviderType**](../wes/eventmanifestschema-providertype-complextype.md) ). Les contrôleurs peuvent ensuite utiliser la fonction [**TdhEnumerateProviderFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters) pour déterminer la définition de filtre. Les fournisseurs qui utilisent des filtres doivent utiliser la fonction [**EventWriteEx**](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) pour écrire l’événement.
+-   La possibilité pour les fournisseurs de définir des filtres dans le manifeste. dans Windows Vista, les contrôleurs pouvaient transmettre des données de filtre au fournisseur. Toutefois, la mise en page des données de filtre n’a pas été définie dans le manifeste, de sorte que le fournisseur doit utiliser d’autres moyens pour fournir la définition de filtre aux contrôleurs. Avec cette version, les fournisseurs peuvent définir la définition de filtre dans le manifeste (consultez l’attribut **Filters** du type complexe [**ProviderType**](../wes/eventmanifestschema-providertype-complextype.md) ). Les contrôleurs peuvent ensuite utiliser la fonction [**TdhEnumerateProviderFilters**](/windows/desktop/api/Tdh/nf-tdh-tdhenumerateproviderfilters) pour déterminer la définition de filtre. Les fournisseurs qui utilisent des filtres doivent utiliser la fonction [**EventWriteEx**](/windows/desktop/api/Evntprov/nf-evntprov-eventwriteex) pour écrire l’événement.
 -   La possibilité d’utiliser une seule mémoire tampon pour collecter des événements générés sur plusieurs processeurs. L’utilisation d’une seule mémoire tampon élimine les événements qui apparaissent dans le désordre sur les ordinateurs multiprocesseurs. Pour plus d’informations, consultez le mode de journalisation de la [**\_ mise en \_ \_ \_ \_ mémoire tampon non par processeur**](logging-mode-constants.md) . Par défaut, ETW utilise des mémoires tampons par processeur.
 -   Possibilité de capturer une trace de la pile pour les événements. Pour activer le suivi de pile pour les événements de noyau, consultez la fonction [**TraceSetInformation**](/windows/win32/api/evntrace/nf-evntrace-tracesetinformation) . Pour activer le suivi de pile pour les événements utilisateur, consultez l’indicateur de trace de la pile des propriétés d’activation d’événement pour le membre **EnableProperty** de l’option [**activer les \_ \_ paramètres de trace**](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters). **\_ \_ \_ \_**
 -   La possibilité de spécifier le **\_ mode de \_ mise \_ en mémoire tampon de trace** d’événements ou le mode de **\_ fichier de trace d' \_ \_ \_ événements** mode de journalisation avec le mode de journalisation **privé du \_ \_ \_ journal \_** des événements de suivi d’événements (voir [constantes de mode de journalisation](logging-mode-constants.md)).

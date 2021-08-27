@@ -1,7 +1,7 @@
 - name: Service de routage et d’accès à distance
   href: portal.md
   items:
-    - name: Architecture des services de routage et d’accès à distance
+    - name: Architecture du Access Services du routage et du service distant
       href: routing-and-remote-access-services-architecture.md
     - name: Disposition du Registre du routage et de l’accès distant
       href: routing-and-remote-access-registry-layout.md
@@ -59,7 +59,7 @@
                       href: virtual-private-network-connections.md
                     - name: protocole PPP des connexions Ethernet
                       href: point-to-point-protocol-over-ethernet-connections.md
-                - name: Annuaires RAS
+                - name: documentation Téléphone RAS
                   href: ras-phone-books.md
                   items:
                     - name: Entrées Phone-Book
@@ -352,7 +352,7 @@
             - name: À propos de l’administration du service d’accès à distance
               href: about-remote-access-service-administration.md
               items:
-                - name: "Comparaison de fonctions\_: Windows 2000 et le package redistribuable RRAS"
+                - name: "comparaison de fonctions\_: Windows 2000 et RRAS redistributable"
                   href: function-comparison-windows-2000-versus-rras-redistributable.md
                 - name: Administration des utilisateurs RAS
                   href: ras-user-administration.md
@@ -1657,7 +1657,7 @@
     - name: Glossaire
       href: glossary.md
       items:
-        - name: Un
+        - name: A
           href: a-gly.md
         - name: B
           href: b-gly.md

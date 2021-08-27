@@ -4,16 +4,16 @@ description: Les méthodes expliquées dans la théorie de la gestion des versio
 ms.assetid: 7dec4b67-3d50-453f-b0ef-290d091186fd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314daecc6b55aaf4a348411010eb578149f86921
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8fbe06be3106b4c599baed2d625eefa1f9c7d035c70ef89ac325406bb8c2037d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120022959"
 ---
 # <a name="changing-interfaces-in-a-backward-compatible-manner"></a>Modification des interfaces d’une manière à compatibilité descendante
 
-Les méthodes expliquées dans [la théorie de la gestion des versions pour RPC et com](the-versioning-theory-for-rpc-and-com.md) peuvent être inacceptables pour de nombreuses raisons. La modification d’une version d’interface selon les règles exige essentiellement que les nouveaux clients ne communiquent pas avec les anciens serveurs. Cela est souvent impossible avec les logiciels commerciaux déployés dans le domaine. Parfois, Windows a introduit des modifications d’interface absentes des GUID ou versions modifiés. Cela était dû au fait que de nouveaux clients ont besoin de communiquer avec des serveurs hérités et que la solution qu’un nouveau client prennait en charge à la fois les anciennes et nouvelles interfaces était jugée indésirable.
+Les méthodes expliquées dans [la théorie de la gestion des versions pour RPC et com](the-versioning-theory-for-rpc-and-com.md) peuvent être inacceptables pour de nombreuses raisons. La modification d’une version d’interface selon les règles exige essentiellement que les nouveaux clients ne communiquent pas avec les anciens serveurs. Cela est souvent impossible avec les logiciels commerciaux déployés dans le domaine. parfois, Windows a introduit des modifications d’interface absentes des guid ou versions modifiés. Cela était dû au fait que de nouveaux clients ont besoin de communiquer avec des serveurs hérités et que la solution qu’un nouveau client prennait en charge à la fois les anciennes et nouvelles interfaces était jugée indésirable.
 
 ## <a name="best-practice"></a>Bonne pratique
 
@@ -71,6 +71,6 @@ Les pratiques recommandées sont les suivantes : si un type de données accessi
 
 En raison des excentriques de la représentation interne du protocole NDR64 Wire, la recommandation pour l’ajout des bras fournis plus haut dans cette section doit être qualifiée comme suit : le nouveau bras ajouté ne peut pas modifier l’alignement de l’Union, et en particulier, l’alignement le plus grand des bras ne doit pas changer. Ce n’est généralement pas un problème, car un pointeur dans ARM force l’alignement sur 8. Une conception où chaque ARM est un pointeur vers un type ARM est un bon moyen de satisfaire l’exigence.
 
- 
+ 
 
- 
+ 
