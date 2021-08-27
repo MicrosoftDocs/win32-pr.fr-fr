@@ -1,17 +1,17 @@
 ---
-description: Heure dans les services de modification DirectShow
+description: durée en DirectShow Services d’édition
 ms.assetid: 4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09
-title: Heure dans les services de modification DirectShow
+title: durée en DirectShow Services d’édition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421831742a2805f58d61c2258dad89d339131f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc99ff2391ea7975daed7b4152e869741f9990561417131942c4d86e904fca8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083617"
 ---
-# <a name="time-in-directshow-editing-services"></a>Heure dans les services de modification DirectShow
+# <a name="time-in-directshow-editing-services"></a>durée en DirectShow Services d’édition
 
 \[Cette API n’est pas prise en charge et peut être modifiée ou non disponible à l’avenir.\]
 
@@ -21,7 +21,7 @@ Pour modifier la vidéo, vous devez utiliser des concepts de minuterie important
 -   Les clips, les transitions et les effets apparaissent à certains moments dans un projet.
 -   La vidéo a une fréquence d’images, exprimée en images par seconde (FPS).
 
-Les [services d’édition DirectShow](directshow-editing-services.md) (des) fournissent différentes méthodes qui définissent ou récupèrent les heures et les fréquences d’images. La signification de ces valeurs dépend du contexte.
+les [Services d’édition de DirectShow](directshow-editing-services.md) fournissent différentes méthodes qui définissent ou récupèrent des heures et des fréquences d’images. La signification de ces valeurs dépend du contexte.
 
 **Valeurs d’heure**
 
@@ -69,7 +69,7 @@ Toutefois, les ne remplacent pas l’heure d’arrêt de la source. Vous pouvez 
 
 <dl> <dt>
 
-[Prise en main avec les services d’édition DirectShow](getting-started-with-directshow-editing-services.md)
+[Prise en main avec les Services d’édition DirectShow](getting-started-with-directshow-editing-services.md)
 </dt> </dl>
 
  

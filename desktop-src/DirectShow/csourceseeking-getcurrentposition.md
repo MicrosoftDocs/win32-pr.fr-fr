@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52f99323e5ce3a62f1964cad2586a18ad473cdc0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff4069c8b1a83ade6897fedf87c16b89b1c63d3c1cef18d21a3bdbd594a3b2cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084056"
 ---
 # <a name="csourceseekinggetcurrentposition-method"></a>Méthode CSourceSeeking. GetCurrentPosition
 
@@ -53,7 +53,7 @@ Pointeur vers une variable qui reçoit la position actuelle, en unités du forma
 
 Retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, les filtres sources ne prennent pas en charge cette méthode. Au lieu de cela, les filtres de convertisseur signalent la position actuelle par le biais de la classe [**CRendererPosPassThru**](crendererpospassthru.md) .
 
@@ -63,7 +63,7 @@ En règle générale, les filtres sources ne prennent pas en charge cette métho
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

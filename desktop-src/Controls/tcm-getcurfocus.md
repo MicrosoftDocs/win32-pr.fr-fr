@@ -3,7 +3,7 @@ title: Message TCM_GETCURFOCUS (commctrl. h)
 description: Retourne l’index de l’élément qui a le focus dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl GetCurFocus.
 ms.assetid: ae6ee159-c769-41d6-b0bb-2a9ade4c0e71
 keywords:
-- TCM_GETCURFOCUS les contrôles de message Windows
+- TCM_GETCURFOCUS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b0d0f3d2bbd4a7cf0ab2a63c5a988f60768eec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 694fb64b033d279292a687c39959925a68999c0b232c847bdf6ec6b476c725e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104939"
 ---
 # <a name="tcm_getcurfocus-message"></a>\_Message GETCURFOCUS TCM
 
@@ -39,7 +39,7 @@ Retourne l’index de l’élément qui a le focus dans un contrôle onglet. Vou
 
 Retourne l’index de l’élément d’onglet qui a le focus.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément qui a le focus peut être différent de l’élément sélectionné.
 
@@ -49,8 +49,8 @@ L’élément qui a le focus peut être différent de l’élément sélectionn�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: c4261516-7872-4118-99e2-138f0ac3c38a
 title: Conversion de chemins d’accès en régions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3a576f04035f6e29bb37a23de956322639daf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d404aa50669fe2349b3e39f172dd652ef765c9de8c615cde446e8540e6051bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062459"
 ---
 # <a name="conversion-of-paths-to-regions"></a>Conversion de chemins d’accès en régions
 

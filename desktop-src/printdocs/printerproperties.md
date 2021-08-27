@@ -14,12 +14,12 @@ api_type:
 api_location:
 - plotui.dll
 - winspool.drv
-ms.openlocfilehash: e7e2c8586c06b2cb64a0e499bd05a6b6016de0a6
-ms.sourcegitcommit: c77ed4d933c9f30af0ca0e095a75ad2bdd4d8bf8
+ms.openlocfilehash: 1b180685154328ad29b9418e1f8d10707067f633d646571ec5ff5fb1dd03a45a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106541570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091729"
 ---
 # <a name="printerproperties-function"></a>PrinterProperties fonction)
 
@@ -61,7 +61,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.

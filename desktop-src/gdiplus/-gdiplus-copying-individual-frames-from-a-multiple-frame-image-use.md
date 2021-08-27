@@ -4,12 +4,12 @@ description: L’exemple suivant récupère les frames individuels à partir d�
 ms.assetid: dfed0b61-2230-4911-a642-0a6e4beb08d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d6bdb5668bcebb9babcbcb7d07839694750aec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8398df806ad56b65114b0cc9a986ea53061183fa4658872b65b7d08ef7e38a9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115099"
 ---
 # <a name="copy-individual-frames-from-a-multiple-frame-image"></a>Copier des frames individuels à partir d’une image à plusieurs frames
 

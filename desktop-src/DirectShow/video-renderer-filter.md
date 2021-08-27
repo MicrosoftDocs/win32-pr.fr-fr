@@ -4,26 +4,26 @@ ms.assetid: 7719ed9d-e3b9-4c84-b587-4e120b5cabf8
 title: Filtre de convertisseur vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca3becb4fbdbb52a9968481aade07d14d963828
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 96df49305b357cf4a889d283c64839c13c38e2b8f89b8d4eda35d06260f18c58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083499"
 ---
 # <a name="video-renderer-filter"></a>Filtre de convertisseur vidéo
 
 Le filtre de convertisseur vidéo est un convertisseur vidéo robuste et polyvalent.
 
 > [!Note]  
-> Sur Windows XP et versions ultérieures, le convertisseur vidéo par défaut est le [filtre de convertisseur de mixage vidéo 7](video-mixing-renderer-filter-7.md) (VMR-7). VMR-7 et le convertisseur vidéo ont tous les deux le nom convivial « Render vidéo ». Sur les plateformes antérieures, le convertisseur vidéo est le convertisseur par défaut. Consultez [choix du convertisseur approprié](choosing-the-right-renderer.md).
+> sur Windows XP et versions ultérieures, le convertisseur vidéo par défaut est le [filtre de convertisseur de mixage vidéo 7](video-mixing-renderer-filter-7.md) (VMR-7). VMR-7 et le convertisseur vidéo ont tous les deux le nom convivial « Render vidéo ». Sur les plateformes antérieures, le convertisseur vidéo est le convertisseur par défaut. Consultez [choix du convertisseur approprié](choosing-the-right-renderer.md).
 
  
 
-Le convertisseur vidéo utilise DirectDraw et des surfaces de recouvrement, si la carte vidéo les prend en charge. Le gestionnaire de graphique de filtre expose l’interface [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) , qui permet aux applications de définir et de récupérer des propriétés sur le convertisseur vidéo. Avec les cartes vidéo plus récentes, le convertisseur vidéo prend en charge le rendu plein écran. Dans le cas contraire, le gestionnaire de graphique de filtre bascule automatiquement vers le filtre de [convertisseur plein écran](full-screen-renderer-filter.md) pour le mode plein écran. Pour plus d’informations, consultez [**IVideoWindow ::p ut \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) .
+Le convertisseur vidéo utilise DirectDraw et des surfaces de recouvrement, si la carte vidéo les prend en charge. le gestionnaire de Graph de filtre expose l’interface [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) , qui permet aux applications de définir et de récupérer des propriétés sur le convertisseur vidéo. Avec les cartes vidéo plus récentes, le convertisseur vidéo prend en charge le rendu plein écran. dans le cas contraire, le gestionnaire de Graph de filtre bascule automatiquement vers le filtre de [convertisseur plein écran](full-screen-renderer-filter.md) pour le mode plein écran. Pour plus d’informations, consultez [**IVideoWindow ::p ut \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode) .
 
 -   \[! Précieuse\]  
-    > Normalement, la fenêtre vidéo de ce filtre traite les messages sur un thread de travail créé par le gestionnaire de graphique de filtre. Cependant, si une application crée directement le filtre à l’aide de **CoCreateInstance**, la fenêtre vidéo traite les messages sur le thread d’application. Dans ce cas, le thread d’application doit avoir une boucle de message pour distribuer les messages dans la fenêtre vidéo. En outre, le thread ne doit pas quitter jusqu’à l’appel de la **version** finale du convertisseur vidéo, qui se produit lorsque le gestionnaire de graphique de filtre s’arrête. Dans le cas contraire, l’application peut se bloquer.
+    > normalement, la fenêtre vidéo de ce filtre traite les messages sur un thread de travail créé par le gestionnaire de Graph de filtre. Cependant, si une application crée directement le filtre à l’aide de **CoCreateInstance**, la fenêtre vidéo traite les messages sur le thread d’application. Dans ce cas, le thread d’application doit avoir une boucle de message pour distribuer les messages dans la fenêtre vidéo. en outre, le thread ne doit pas quitter jusqu’à l’appel de la **version** finale du convertisseur vidéo, qui se produit lorsque le gestionnaire de Graph de filtre s’arrête. Dans le cas contraire, l’application peut se bloquer.
 
      
 
@@ -39,7 +39,7 @@ Le convertisseur vidéo utilise DirectDraw et des surfaces de recouvrement, si l
 | CLSID du filtre                             | CLSID \_ VideoRenderer                                                                                                                                                                                                                                                                                                                                                                                     |
 | CLSID de page de propriétés                      | Aucune page de propriétés.                                                                                                                                                                                                                                                                                                                                                                                        |
 | Exécutable                               | quartz.dll                                                                                                                                                                                                                                                                                                                                                                                               |
-| [Mérite](merit.md)                       | Windows XP et versions ultérieures : **méritent \_ peu probable**                                                                                                                                                                                                                                                                                                                                                                |
+| [Mérite](merit.md)                       | Windows XP et versions ultérieures : **mérite \_ peu probable**                                                                                                                                                                                                                                                                                                                                                                |
 | [Catégorie de filtre](filter-categories.md) | **CLSID \_ LegacyAmFilterCategory**                                                                                                                                                                                                                                                                                                                                                                        |
 
 
@@ -69,7 +69,7 @@ Quand le convertisseur vidéo dessine sur une surface de superposition DirectDra
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

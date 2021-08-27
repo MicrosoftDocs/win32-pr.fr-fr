@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e368efcf29d836cc23fa60ed34dae1a172978f77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d1c0b355b0eedee29dafb92debbabac5c7b3e574d2f161827626bc73f72c035
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083869"
 ---
 # <a name="iamtimelinesrcisnormalrate-method"></a>IAMTimelineSrc :: IsNormalRate, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Reçoit une valeur booléenne indiquant comment le clip sera rendu. Si la valeur
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le taux de lecture d’un clip est déterminé par les heures de début et de fin du support, par rapport aux heures de la chronologie :
 
@@ -67,7 +67,7 @@ Playback rate = (Media Stop <entity type="mdash"/> Media Start) / (Timeline Stop
 
 
 
-Si ce ratio est égal à 1, le clip est lu à la vitesse de création. Dans le cas contraire, la lecture est plus rapide ou plus lente. Pour plus d’informations, consultez [heure dans les services de modification DirectShow](time-in-directshow-editing-services.md).
+Si ce ratio est égal à 1, le clip est lu à la vitesse de création. Dans le cas contraire, la lecture est plus rapide ou plus lente. pour plus d’informations, consultez [l’heure dans DirectShow Services d’édition](time-in-directshow-editing-services.md).
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
@@ -75,7 +75,7 @@ Si ce ratio est égal à 1, le clip est lu à la vitesse de création. Dans le c
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

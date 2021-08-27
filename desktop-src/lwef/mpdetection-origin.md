@@ -4,7 +4,7 @@ description: Origine de la détection.
 ms.assetid: 9FEE2FAD-3E44-4134-B968-53E971F6B092
 keywords:
 - MPDETECTION_ORIGIN énumération des fonctionnalités d’environnement Windows héritées
-- PMPDETECTION_ORIGIN des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPDETECTION_ORIGIN de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4224aafef2c72db2a8d3b27f338ca83feaf64f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70b46ed86276ccb3fc3bd4d2b26388d778c102c1c1fa3bb7ced8f1ad64cd0203
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106529075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092359"
 ---
 # <a name="mpdetection_origin-enumeration"></a>\_Énumération d’origine MPDETECTION
 
@@ -94,8 +94,8 @@ Menace détectée sur une connexion entrante.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

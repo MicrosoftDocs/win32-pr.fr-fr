@@ -3,7 +3,7 @@ title: Message LVM_SETITEMINDEXSTATE (commctrl. h)
 description: Définit l’état d’un élément de vue liste. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView SetItemIndexState.
 ms.assetid: 9fea6420-320a-4d2a-84b5-7923fbb14655
 keywords:
-- LVM_SETITEMINDEXSTATE les contrôles de message Windows
+- LVM_SETITEMINDEXSTATE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ce8f6847c733127053e2162dd785d52fb77cfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18094986f5a57713e842b51b31c74ccfe4987d1c1fe62380ea8a986762e20c7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062209"
 ---
 # <a name="lvm_setitemindexstate-message"></a>\_Message SETITEMINDEXSTATE LVM
 
@@ -65,8 +65,8 @@ Retourne l’une des valeurs suivantes de type **HRESULT**.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
