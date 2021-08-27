@@ -4,12 +4,12 @@ ms.assetid: 7ec0b642-d50a-4b23-97c4-82c14da80a8b
 title: Propriété AVEncDDDCHighPassFilter (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff68d723127b166ee01c42915a8b11069a01692f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 302bde1e36be8b920ababb93329ca0979e9ee99b1fa306c3209511757b47bc5d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108669"
 ---
 # <a name="avencdddchighpassfilter-property"></a>Propriété AVEncDDDCHighPassFilter
 
@@ -31,8 +31,8 @@ Cette propriété est en lecture/écriture.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

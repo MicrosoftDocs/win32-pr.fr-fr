@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 67ccf9a5b21ccb9a4f94ba5aa4f995e4bb9017bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 010cafd19ffde09b3083dd3cb6e6a69fa2268f11
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536533"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470326"
 ---
 # <a name="jetossnapshotprepare-function"></a>Fonction JetOSSnapshotPrepare
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetossnapshotprepare-function"></a>Fonction JetOSSnapshotPrepare
 
 La fonction **JetOSSnapshotPrepare** commence les préparations pour une session d’instantané. Une session d’instantané est un intervalle de temps dans lequel le moteur n’émet pas d’e/s d’écriture sur le disque, de sorte que le moteur peut participer à une session d’instantané de volume (lorsqu’il est piloté par un enregistreur d’instantané).
 
-**Windows XP :**  **JetOSSnapshotPrepare** est introduit dans Windows XP.
+**Windows xp :****JetOSSnapshotPrepare** est introduit dans Windows xp.  
 
 ```cpp
     JET_ERR JET_API JetOSSnapshotPrepare(
@@ -53,73 +53,28 @@ Identificateur de la session d’instantané à démarrer.
 
 Options pour cet appel. Ce paramètre peut avoir une combinaison des valeurs suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Instantané normal.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIncrementalSnapshot</p></td>
-<td><p>Seuls les fichiers journaux seront pris.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitCopySnapshot</p></td>
-<td><p>Instantané de copie (normal ou incrémentiel) sans troncation du journal.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitContinueAfterThaw</p></td>
-<td><p>La session d’instantané se produit après <a href="gg269229(v=exchg.10).md">JetOSSnapshotThaw</a> et nécessite un appel de fonction <a href="gg294136(v=exchg.10).md">JetOSSnapshotEnd</a> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitExplicitPrepare</p></td>
-<td><p>Aucune instance ne sera préparée par défaut.</p>
-<p><strong>Windows 7 :</strong>  JET_bitExplicitPrepare est introduite dans Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>0</p> | <p>Instantané normal.</p> | 
+| <p>JET_bitIncrementalSnapshot</p> | <p>Seuls les fichiers journaux seront pris.</p> | 
+| <p>JET_bitCopySnapshot</p> | <p>Instantané de copie (normal ou incrémentiel) sans troncation du journal.</p> | 
+| <p>JET_bitContinueAfterThaw</p> | <p>La session d’instantané se produit après <a href="gg269229(v=exchg.10).md">JetOSSnapshotThaw</a> et nécessite un appel de fonction <a href="gg294136(v=exchg.10).md">JetOSSnapshotEnd</a> .</p> | 
+| <p>JET_bitExplicitPrepare</p> | <p>Aucune instance ne sera préparée par défaut.</p><p><strong>Windows 7 :</strong>  JET_bitExplicitPrepare est introduite dans Windows 7.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Le pointeur d’ID d’instantané a la valeur NULL ou le paramètre <em>Grbit</em> n’est pas valide.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOSSnapshotInvalidSequence</p></td>
-<td><p>Une session d’instantané est déjà en cours et l’opération n’est pas autorisée à avoir plus d’une session d’instantané à un moment donné.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Le pointeur d’ID d’instantané a la valeur NULL ou le paramètre <em>Grbit</em> n’est pas valide.</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>Une session d’instantané est déjà en cours et l’opération n’est pas autorisée à avoir plus d’une session d’instantané à un moment donné.</p> | 
+
 
 
 Si cette fonction réussit, une session d’instantané est en mesure de démarrer à tout moment avec la phase d’interruption des e/s. L’identificateur de la session est retourné et doit être utilisé dans les appels suivants pour la session d’instantané.
@@ -134,40 +89,15 @@ Si JET_bitContinueAfterThaw est spécifié après [JetOSSnapshotThaw](./jetossna
 
 Si cette fonction échoue, aucune modification de l’état du moteur ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Les entrées du journal des événements seront générées pour les différentes étapes de l’instantané.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

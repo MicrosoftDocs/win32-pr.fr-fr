@@ -6,12 +6,12 @@ keywords:
 - Effet de transformation affine 2D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3017992d34cd98095f01192ea948684a6b52e53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 337168db7a422a8a22785316d2af1960e3a78b2f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106564"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478095"
 ---
 # <a name="2d-affine-transform-effect"></a>Effet de transformation affine 2D
 
@@ -34,7 +34,7 @@ Le CLSID de cet effet est CLSID \_ D2D12DAffineTransform.
 | Avant                                                             |
 |--------------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg)         |
-| After                                                              |
+| Après                                                              |
 | ![image après la transformation.](images/21-2daffinetransform.png) |
 
 
@@ -69,41 +69,14 @@ Bien que la matrice d’entrée soit définie en tant que matrice matrice, la de
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom complet et énumération d’index</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>InterpolationMode<br/> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br/></td>
-<td>Mode d’interpolation utilisé pour mettre à l’échelle l’image. Il existe 6 modes de mise à l’échelle qui vont de la qualité et de la vitesse.<br/> Le type est D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br/> La valeur par défaut est D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br/></td>
-</tr>
-<tr class="even">
-<td>BorderMode<br/> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br/></td>
-<td>Le mode utilisé pour calculer la bordure de l’image, soft ou Hard. Pour plus d’informations, consultez <a href="https://www.bing.com/search?q=Border+modes">modes de bordure</a> . <br/> Le type est D2D1_BORDER_MODE.<br/> La valeur par défaut est D2D1_BORDER_MODE_SOFT.<br/></td>
-</tr>
-<tr class="odd">
-<td>TransformMatrix<br/> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br/></td>
-<td>Matrice matrice pour transformer l’image à l’aide de la <a href="direct2d-transforms-overview.md">transformation</a>de matrice Direct2D. <br/> Le type est D2D1_MATRIX_3X2_F.<br/> La valeur par défaut est Matrix3x2F :: Identity ().<br/></td>
-</tr>
-<tr class="even">
-<td>Netteté<br/> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br/></td>
-<td>Dans le mode d’interpolation cubique de haute qualité, le niveau de netteté du filtre de mise à l’échelle est une valeur float comprise entre 0 et 1. Les valeurs sont sans unité. Vous pouvez utiliser la netteté pour ajuster la qualité d’une image lors de la mise à l’échelle de l’image.<br/> Le facteur de netteté affecte la forme du noyau. Plus le facteur de netteté est élevé, plus le noyau est petit. <br/>
-<blockquote>
-[!Note]<br />
-Cette propriété affecte uniquement le mode d’interpolation cubique de haute qualité.
-</blockquote>
-<br/> Le type est FLOAT.<br/> La valeur par défaut est 1,0 f.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom complet et énumération d’index | Description | 
+|------------------------------------|-------------|
+| InterpolationMode<br /> D2D1_2DAFFINETRANSFORM_PROP_INTERPOLATION_MODE<br /> | Mode d’interpolation utilisé pour mettre à l’échelle l’image. Il existe 6 modes de mise à l’échelle qui vont de la qualité et de la vitesse.<br /> Le type est D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE.<br /> La valeur par défaut est D2D1_2DAFFINETRANSFORM_INTERPOLATION_MODE_LINEAR.<br /> | 
+| BorderMode<br /> D2D1_2DAFFINETRANSFORM_PROP_BORDER_MODE<br /> | Le mode utilisé pour calculer la bordure de l’image, soft ou Hard. Pour plus d’informations, consultez <a href="https://www.bing.com/search?q=Border+modes">modes de bordure</a> . <br /> Le type est D2D1_BORDER_MODE.<br /> La valeur par défaut est D2D1_BORDER_MODE_SOFT.<br /> | 
+| TransformMatrix<br /> D2D1_2DAFFINETRANSFORM_PROP_TRANSFORM_MATRIX<br /> | Matrice matrice pour transformer l’image à l’aide de la <a href="direct2d-transforms-overview.md">transformation</a>de matrice Direct2D. <br /> Le type est D2D1_MATRIX_3X2_F.<br /> La valeur par défaut est Matrix3x2F :: Identity ().<br /> | 
+| Netteté<br /> D2D1_2DAFFINETRANSFORM_PROP_SHARPNESS<br /> | Dans le mode d’interpolation cubique de haute qualité, le niveau de netteté du filtre de mise à l’échelle est une valeur float comprise entre 0 et 1. Les valeurs sont sans unité. Vous pouvez utiliser la netteté pour ajuster la qualité d’une image lors de la mise à l’échelle de l’image.<br /> Le facteur de netteté affecte la forme du noyau. Plus le facteur de netteté est élevé, plus le noyau est petit. <br /><blockquote>[!Note]<br />Cette propriété affecte uniquement le mode d’interpolation cubique de haute qualité.</blockquote><br /> Le type est FLOAT.<br /> La valeur par défaut est 1,0 f.<br /> | 
+
 
 
 
@@ -113,7 +86,7 @@ Cette propriété affecte uniquement le mode d’interpolation cubique de haute 
 
 
 
-| Nom                     | Description                                                                                                      |
+| Name                     | Description                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image avec des pixels noirs transparents au fur et à mesure de l’interpolation, ce qui génère une bordure douce.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet attache la sortie à la taille de l’image d’entrée. <br/>                                         |
@@ -161,8 +134,8 @@ L’effet exécute l’opération de transformation, puis applique un cadre engl
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

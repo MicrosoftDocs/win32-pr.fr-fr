@@ -1,17 +1,17 @@
 ---
 description: Les fenêtres État, composition et candidats constituent l’interface utilisateur de l’IME.
 ms.assetid: a0e52743-f9be-4934-9469-71d3cb5a768a
-title: Fenêtres État, composition et candidats
+title: Windows de l’État, de la composition et des candidats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b800def67299a464fd232a08a2bbff0a2a60a2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83f5c385c14cd265630de77352e12e4c63bce806837462f3c9ab3c204940e66c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130109"
 ---
-# <a name="status-composition-and-candidates-windows"></a>Fenêtres État, composition et candidats
+# <a name="status-composition-and-candidates-windows"></a>Windows de l’État, de la composition et des candidats
 
 Les fenêtres État, composition et candidats constituent l’interface utilisateur de l’IME. La fenêtre d’État indique que l’IME est ouvert et fournit à l’utilisateur la possibilité de définir les modes de conversion. La fenêtre composition s’affiche lorsque l’utilisateur entre du texte et, selon le mode de conversion, affiche le texte tel qu’il est entré ou affiche le texte converti. La fenêtre candidats s’affiche conjointement avec la fenêtre de composition. Elle contient une liste de « candidats » (caractères de remplacement) pour le ou les caractères sélectionnés dans la fenêtre de composition. L’utilisateur peut faire défiler la liste des candidats et sélectionner les caractères souhaités, puis revenir à la fenêtre de composition. L’utilisateur peut composer le texte souhaité de cette façon jusqu’à ce que la chaîne de composition soit finalisée et que la fenêtre soit fermée.
 

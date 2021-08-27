@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8e9952c040540e78c76d81babbb4c7b326fe92f8
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: e1f3813be8e1ea076a401ce5cdabef3e454b98c1
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983582"
 ---
 # <a name="jet_rstmap-structure"></a>Structure JET_RSTMAP
 
@@ -51,7 +51,12 @@ Nouveau chemin d’accès absolu de la base de données.
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_RSTMAP_W</strong> (Unicode) et <strong>JET_RSTMAP_A</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_RSTMAP_W</strong> (Unicode) et <strong>JET_RSTMAP_A</strong> (ANSI).</p> | 
 
 
 

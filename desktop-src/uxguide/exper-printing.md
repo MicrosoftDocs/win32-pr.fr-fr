@@ -4,23 +4,23 @@ description: L’impression est l’expérience utilisateur sur papier. C’est 
 ms.assetid: 26f5a8dc-27b2-4c2d-a05a-f942784c3cf9
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a98bf29da1169ad43a3b1d16ab52298d62612037
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 50eb7523b3f816e54bf296632687b4811fac1b1c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104549976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987262"
 ---
 # <a name="printing-design-basics"></a>Impression (notions de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 L’impression est l’expérience utilisateur sur papier. C’est facile à ignorer, mais il s’agit d’une partie importante de l’expérience utilisateur globale.
 
 Dans cet article, l' *impression* fait référence à l’expérience utilisateur sur papier, où la sortie est dirigée vers le papier au lieu de l’affichage à l’écran. Le *format convivial* de l’imprimante fait référence aux modifications que le programme peut apporter à l’écran de sortie, ce qui le rend plus adapté à la sortie papier.
 
-Malgré la prédiction que le calcul aurait abouti à un « bureau sans papier », étonnamment assez, nous imprimons maintenant autant que jamais. Nous distribuons des copies papier des jeux de présentation Microsoft PowerPoint, nous imprimons des articles que nous détectons en ligne, mais souhaitons effectuer des recherches plus attentivement ultérieurement, nous imprimons des messages électroniques importants ou des CV que nous avons reçus sous forme électronique, etc. Bien qu’il soit facile de négliger l’impression lors de la conception d’une interface utilisateur, n’oubliez pas que l’impression est une partie importante de l’expérience utilisateur globale.
+Malgré la prédiction que le calcul aurait abouti à un « bureau sans papier », étonnamment assez, nous imprimons maintenant autant que jamais. nous distribuons des copies papier de Microsoft PowerPoint les jeux de présentation, nous imprimons des articles que nous détectons en ligne, mais souhaitons effectuer des recherches plus attentivement plus tard, nous imprimons des messages électroniques importants ou des cv que nous avons reçus sous forme électronique, etc. Bien qu’il soit facile de négliger l’impression lors de la conception d’une interface utilisateur, n’oubliez pas que l’impression est une partie importante de l’expérience utilisateur globale.
 
 **Remarque :** Les instructions relatives aux [boîtes de dialogue courantes](win-common-dlg.md) sont présentées dans un article distinct.
 
@@ -35,7 +35,7 @@ Pour déterminer si votre programme doit prendre en charge l’impression, posez
 
 ### <a name="design-your-program-to-eliminate-unnecessary-printing"></a>Concevoir votre programme pour éliminer toute impression inutile
 
-Il existe de nombreuses raisons pour lesquelles les utilisateurs doivent imprimer d’autres, dont certains sont moins nombreux. Les utilisateurs doivent imprimer parce qu’ils le souhaitent, pas parce qu’ils le doivent. Demander aux utilisateurs d’imprimer peut être un signe de fonctionnalités manquantes. Par exemple, dans les anciens utilisateurs devaient imprimer des documents pour formuler des commentaires et suggérer des révisions, mais les utilisateurs peuvent désormais effectuer ces tâches directement dans les documents Microsoft Word. **Passez en revue les scénarios de votre programme qui impliquent l’impression et, dans la mesure du possible, assurez-vous que l’impression est facultative et non le résultat des fonctionnalités manquantes.**
+Il existe de nombreuses raisons pour lesquelles les utilisateurs doivent imprimer d’autres, dont certains sont moins nombreux. Les utilisateurs doivent imprimer parce qu’ils le souhaitent, pas parce qu’ils le doivent. Demander aux utilisateurs d’imprimer peut être un signe de fonctionnalités manquantes. par exemple, dans les anciens utilisateurs devaient imprimer des documents pour formuler des commentaires et suggérer des révisions, mais les utilisateurs peuvent désormais effectuer ces tâches directement dans Microsoft Word documents. **Passez en revue les scénarios de votre programme qui impliquent l’impression et, dans la mesure du possible, assurez-vous que l’impression est facultative et non le résultat des fonctionnalités manquantes.**
 
 Il est également intéressant de vous prévaloir que la conservation des ressources, comme le papier et l’encre, est utile et permet aux organisations de gagner de l’argent à long terme.
 
@@ -143,65 +143,15 @@ Le type de programme est l’indicateur principal de l’expérience d’impress
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Création de documents avancée</strong><br/> Utilisé pour créer, afficher et imprimer des documents haut de gamme. La possibilité de créer des impressions de haute qualité est l’une des principales raisons pour lesquelles le programme existe. Destiné aux utilisateurs expérimentés. <br/></td>
-<td><strong>Objectifs de l’utilisateur :</strong> Résultats parfait contrôle détaillé de la sortie de l’impression.<br/> <strong>Exemple :</strong> Microsoft Word<br/> <strong>Expérience d’impression recommandée :</strong><br/>
-<ul>
-<li>Sortie optimisée pour l’impression (WYSIWYG).</li>
-<li>Fonctionnalités avancées de mise en forme des documents, avec des options pour imprimer des objets volumineux.</li>
-<li>Options d’impression avancées, y compris les en-têtes et les pieds de page. Les options d’impression liées aux documents sont enregistrées dans le document lui-même.</li>
-<li>Aperçus d’impression rapides, précis et puissants.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Création de documents intermédiaires</strong><br/> Utilisé pour créer et afficher des documents plus complexes. La possibilité de créer des impressions de bonne qualité est importante, mais pas nécessairement l’une des principales raisons pour lesquelles le programme existe. Destiné aux utilisateurs intermédiaires. <br/></td>
-<td><strong>Objectifs de l’utilisateur :</strong> Bons résultats avec un minimum d’effort. Contrôle sur la sortie de l’impression.<br/> <strong>Exemples :</strong> La plupart des Microsoft Office programmes, tels qu’Outlook et Excel.<br/> <strong>Expérience d’impression recommandée :</strong><br/>
-<ul>
-<li>Sortie optimisée pour l’impression (WYSIWYG).</li>
-<li>Certaines fonctionnalités de mise en forme du document, avec la possibilité d’imprimer des objets volumineux sans troncation.</li>
-<li>Certaines options d’impression personnalisées, y compris les en-têtes et les pieds de page.</li>
-<li>Aperçus d’impression précis et faciles à utiliser.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Création de documents simples</strong><br/> Utilisé pour créer et afficher des documents simples. Ciblé pour tous les utilisateurs. <br/></td>
-<td><strong>Objectifs de l’utilisateur :</strong> Prise en charge de l’impression de base avec les options d’impression standard. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage.<br/> <strong>Exemples :</strong> WordPad, Paint.<br/> <strong>Expérience d’impression recommandée :</strong><br/>
-<ul>
-<li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li>
-<li>Certaines fonctionnalités de mise en forme du document, avec la possibilité d’imprimer des objets volumineux sans troncation.</li>
-<li>Options d’impression standard ; les options d’impression personnalisées sont facultatives.</li>
-<li>Aperçus d’impression simples ou inexistants.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Visionneuses de documents</strong><br/> Utilisé pour afficher des documents. Les utilisateurs ne peuvent pas modifier le contenu ou le format du document. <br/></td>
-<td><strong>Objectifs de l’utilisateur :</strong> Prise en charge de l’impression de base avec les options d’impression standard. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage. Les problèmes d’impression sont gérés automatiquement, car les utilisateurs ne peuvent pas modifier le document.<br/> <strong>Exemple :</strong> Windows Internet Explorer<br/> <strong>Expérience d’impression recommandée :</strong><br/>
-<ul>
-<li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li>
-<li>Le programme gère automatiquement les sauts de page, élimine les pages vides, gère les objets volumineux et supprime les arrière-plans et d’autres éléments de conception.</li>
-<li>Options d’impression standard ; les options d’impression personnalisées sont facultatives.</li>
-<li>Aperçus d’impression simples ou inexistants.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Utilitaires ou applications métier</strong><br/> Utilisé pour effectuer des tâches simples et spécifiques. Ciblé pour tous les utilisateurs. <br/></td>
-<td><strong>Objectifs de l’utilisateur :</strong> Possibilité d’exporter efficacement les données sélectionnées. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage. Souvent, pour ces programmes, les utilisateurs sont agréablement surpris de trouver un support pour l’impression.<br/> <strong>Expérience d’impression recommandée :</strong><br/>
-<ul>
-<li>La prise en charge de l’impression est facultative selon les scénarios pris en charge.</li>
-<li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li>
-<li>Certaines fonctionnalités de mise en forme de document. Peut être acceptable si des objets volumineux sont tronqués.</li>
-<li>Options d’impression standard.</li>
-<li>Les aperçus d’impression sont facultatifs.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Création de documents avancée</strong><br /> Utilisé pour créer, afficher et imprimer des documents haut de gamme. La possibilité de créer des impressions de haute qualité est l’une des principales raisons pour lesquelles le programme existe. Destiné aux utilisateurs expérimentés. <br /> | <strong>Objectifs de l’utilisateur :</strong> Résultats parfait contrôle détaillé de la sortie de l’impression.<br /><strong>exemple :</strong> Microsoft Word<br /><strong>Expérience d’impression recommandée :</strong><br /><ul><li>Sortie optimisée pour l’impression (WYSIWYG).</li><li>Fonctionnalités avancées de mise en forme des documents, avec des options pour imprimer des objets volumineux.</li><li>Options d’impression avancées, y compris les en-têtes et les pieds de page. Les options d’impression liées aux documents sont enregistrées dans le document lui-même.</li><li>Aperçus d’impression rapides, précis et puissants.</li></ul> | 
+| <strong>Création de documents intermédiaires</strong><br /> Utilisé pour créer et afficher des documents plus complexes. La possibilité de créer des impressions de bonne qualité est importante, mais pas nécessairement l’une des principales raisons pour lesquelles le programme existe. Destiné aux utilisateurs intermédiaires. <br /> | <strong>Objectifs de l’utilisateur :</strong> Bons résultats avec un minimum d’effort. Contrôle sur la sortie de l’impression.<br /><strong>Exemples :</strong> la plupart des Microsoft Office programmes, tels que Outlook et Excel.<br /><strong>Expérience d’impression recommandée :</strong><br /><ul><li>Sortie optimisée pour l’impression (WYSIWYG).</li><li>Certaines fonctionnalités de mise en forme du document, avec la possibilité d’imprimer des objets volumineux sans troncation.</li><li>Certaines options d’impression personnalisées, y compris les en-têtes et les pieds de page.</li><li>Aperçus d’impression précis et faciles à utiliser.</li></ul> | 
+| <strong>Création de documents simples</strong><br /> Utilisé pour créer et afficher des documents simples. Ciblé pour tous les utilisateurs. <br /> | <strong>Objectifs de l’utilisateur :</strong> Prise en charge de l’impression de base avec les options d’impression standard. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage.<br /><strong>Exemples :</strong> WordPad, Paint.<br /><strong>Expérience d’impression recommandée :</strong><br /><ul><li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li><li>Certaines fonctionnalités de mise en forme du document, avec la possibilité d’imprimer des objets volumineux sans troncation.</li><li>Options d’impression standard ; les options d’impression personnalisées sont facultatives.</li><li>Aperçus d’impression simples ou inexistants.</li></ul> | 
+| <strong>Visionneuses de documents</strong><br /> Utilisé pour afficher des documents. Les utilisateurs ne peuvent pas modifier le contenu ou le format du document. <br /> | <strong>Objectifs de l’utilisateur :</strong> Prise en charge de l’impression de base avec les options d’impression standard. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage. Les problèmes d’impression sont gérés automatiquement, car les utilisateurs ne peuvent pas modifier le document.<br /><strong>exemple :</strong> Windows Internet Explorer<br /><strong>Expérience d’impression recommandée :</strong><br /><ul><li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li><li>Le programme gère automatiquement les sauts de page, élimine les pages vides, gère les objets volumineux et supprime les arrière-plans et d’autres éléments de conception.</li><li>Options d’impression standard ; les options d’impression personnalisées sont facultatives.</li><li>Aperçus d’impression simples ou inexistants.</li></ul> | 
+| <strong>Utilitaires ou applications métier</strong><br /> Utilisé pour effectuer des tâches simples et spécifiques. Ciblé pour tous les utilisateurs. <br /> | <strong>Objectifs de l’utilisateur :</strong> Possibilité d’exporter efficacement les données sélectionnées. Les utilisateurs s’attendent à obtenir de bons résultats sans peaufinage. Souvent, pour ces programmes, les utilisateurs sont agréablement surpris de trouver un support pour l’impression.<br /><strong>Expérience d’impression recommandée :</strong><br /><ul><li>La prise en charge de l’impression est facultative selon les scénarios pris en charge.</li><li>La sortie peut être optimisée pour l’impression (WYSIWYG), mais cela n’est pas obligatoire.</li><li>Certaines fonctionnalités de mise en forme de document. Peut être acceptable si des objets volumineux sont tronqués.</li><li>Options d’impression standard.</li><li>Les aperçus d’impression sont facultatifs.</li></ul> | 
+
 
 
 
@@ -294,7 +244,7 @@ La gestion d’objets volumineux, tels que des feuilles de calcul, des graphique
 
     ![capture d’écran de l’icône d’imprimante sur le bouton partagé ](images/exper-printing-image9.png)
 
-    Dans cet exemple, la barre d’outils Windows Internet Explorer utilise un contrôle bouton partagé pour fournir toutes les commandes d’impression.
+    dans cet exemple, le Windows barre d’outils Internet Explorer utilise un contrôle bouton partagé pour fournir toutes les commandes d’impression.
 
 -   **Pour l’interface utilisateur de commande du ruban, placez la commande Imprimer dans le menu de l’application.**
 
@@ -357,7 +307,7 @@ Le mode aperçu avant impression dans Word a une commande fermer l’aperçu év
 
 ### <a name="printing-errors"></a>Erreurs d’impression
 
-**Remarque :** Une fois le travail d’impression mis en attente sur l’imprimante, Windows est responsable des erreurs suivantes. Votre programme doit uniquement gérer les erreurs qui se produisent avant que le travail d’impression ne soit mis en attente.
+**Remarque :** une fois le travail d’impression mis en attente sur l’imprimante, Windows est responsable des erreurs suivantes. Votre programme doit uniquement gérer les erreurs qui se produisent avant que le travail d’impression ne soit mis en attente.
 
 -   **Avant de spouler un travail d’impression, vérifiez les problèmes d’impression potentiels que l’utilisateur peut résoudre.** Une confirmation claire et concise avant de poursuivre l’impression. Dans la mesure du possible, offrez la possibilité de résoudre le problème automatiquement. Cela peut vous empêcher de perdre du temps et de l’argent.
 

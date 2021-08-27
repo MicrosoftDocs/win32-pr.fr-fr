@@ -4,20 +4,20 @@ ms.assetid: e8b60b11-19ac-4ec4-aa36-a1f7a3ccd6f6
 title: ICE76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5beb0157053e9bd3e4bf0d896f52af04a511ac24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a0b6caf5e29d26ba68721daa156dd0fc78a1868b5aa1ba1b7ea165834dd5ac8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129429"
 ---
 # <a name="ice76"></a>ICE76
 
 ICE76 vérifie l’utilisation du catalogue SFP (WFP) au sein des packages Windows Installer pour Windows Me. Cette ICE vérifie également qu’aucun fichier de la [table](bindimage-table.md) BindImage ne fait référence aux catalogues SFP.
 
-La protection des fichiers Windows requiert une correspondance exacte entre le fichier et la signature incorporée dans le fichier catalogue. Les fichiers qui font référence à un catalogue SFP ne doivent pas figurer dans la table BindImage, car l’effet de l' [action BindImage](bindimage-action.md) sur ces fichiers diffère entre les ordinateurs. Les fichiers référencés par les catalogues SFP doivent se trouver dans des composants permanents ou installés localement.
+Windows La protection des fichiers nécessite une correspondance exacte entre le fichier et la signature incorporée dans le fichier catalogue. Les fichiers qui font référence à un catalogue SFP ne doivent pas figurer dans la table BindImage, car l’effet de l' [action BindImage](bindimage-action.md) sur ces fichiers diffère entre les ordinateurs. Les fichiers référencés par les catalogues SFP doivent se trouver dans des composants permanents ou installés localement.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE76 publie une erreur pour chaque fichier de la [table BindImage](bindimage-table.md) qui se trouve également dans la [table FileSFPCatalog](filesfpcatalog-table.md).
 

@@ -7,12 +7,12 @@ keywords:
 - configuration de Visual Basic pour l’adsi de développement adsi
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ed2e0f4cd0b56ee0167deda2e998314bb313d1a98cd0c43a9f06b495a4324f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 83cadc9f74410dcb654a880920a83c20e6af9db1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117838679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885205"
 ---
 # <a name="setting-up-visual-basic-60-for-adsi-development"></a>configuration de Visual Basic 6,0 pour le développement ADSI
 
@@ -54,7 +54,7 @@ avant de commencer, connectez-vous à un domaine Windows. Vous devez être autor
 
     
 
-3.  Appuyez sur **<F5>** pour exécuter le programme.
+3.  Appuyez sur **&lt; F5 &gt;** pour exécuter le programme.
 4.  Pour vérifier les modifications, utilisez l’outil de gestion utilisateurs et ordinateurs Active Directory. pour plus d’informations sur l’utilisation d’ADSI et de Visual Basic, consultez [accès à Active Directory à l’aide de Visual Basic](accessing-active-directory-using-visual-basic.md).
 
  

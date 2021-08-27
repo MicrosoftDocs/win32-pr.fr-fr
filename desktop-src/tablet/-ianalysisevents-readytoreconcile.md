@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 4f3144f34dc680f9bc31f51b9e6b4284a70fb9bc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b65606675d8ae5aed694df87f35667a71fad2576344231a4e329783be4b31426
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111269"
 ---
 # <a name="_ianalysiseventsreadytoreconcile-event"></a>\_Événement IAnalysisEvents :: ReadyToReconcile
 
@@ -41,7 +41,7 @@ Cet événement n’a pas de paramètres.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le [**IInkAnalyzer**](iinkanalyzer.md) effectue un rapprochement automatique lorsque l’indicateur **\_ AutomaticReconciliation AnalysisModes** de l’analyseur d’encre est défini (consultez [**méthode IInkAnalyzer :: SetAnalysisModes**](iinkanalyzer-setanalysismodes.md)). Lorsque l’indicateur **AnalysisModes \_ AutomaticReconciliation** n’est pas défini, votre application doit rapprocher manuellement les résultats de l’analyse en arrière-plan.
 
@@ -63,7 +63,7 @@ Le [**IInkAnalyzer**](iinkanalyzer.md) déclenche cet événement lors de l’an
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

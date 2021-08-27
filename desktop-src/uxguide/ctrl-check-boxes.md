@@ -4,12 +4,12 @@ description: Avec une case à cocher, les utilisateurs font une décision entre 
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 29666991d0a0659f7ff3a95f12953504b70c6dc782049ac8d93d70df73afa5d1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 90d8c342f24c1c34f20a7a8d7ec5f0e9e150fb80
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118040610"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884328"
 ---
 # <a name="check-boxes"></a>Cases à cocher
 
@@ -154,9 +154,9 @@ Les cases à cocher ont plusieurs modèles d’utilisation :
     -   Affichez d’autres fenêtres, telles qu’une boîte de dialogue pour recueillir davantage d’entrées.
     -   Afficher dynamiquement d’autres contrôles en rapport avec le contrôle sélectionné (les lecteurs d’écran ne peuvent pas détecter de tels événements).
 
-### <a name="dont-show-this-item-again"></a>Ne pas afficher <item> connecter
+### <a name="dont-show-this-ltitemgt-again"></a>Ne plus afficher cet &lt; élément &gt;
 
--   **Envisagez d’utiliser l' <item> option ne plus afficher cette option pour permettre aux utilisateurs de supprimer une boîte de dialogue périodique uniquement s’il n’existe pas d’autre solution.** Essayez de déterminer à l’avance si les utilisateurs ont vraiment besoin de la boîte de dialogue ; Si c’est le cas, affiche toujours la boîte de dialogue et, si ce n’est pas le cas, élimine la boîte de dialogue.
+-   **Envisagez d’utiliser l' &lt; option ne plus afficher cet élément &gt; pour permettre aux utilisateurs de supprimer une boîte de dialogue périodique uniquement s’il n’existe pas d’autre solution.** Essayez de déterminer à l’avance si les utilisateurs ont vraiment besoin de la boîte de dialogue ; Si c’est le cas, affiche toujours la boîte de dialogue et, si ce n’est pas le cas, élimine la boîte de dialogue.
 
 Pour obtenir des instructions et des exemples supplémentaires, consultez [boîtes de dialogue](win-dialog-box.md).
 
@@ -230,7 +230,7 @@ Dimensionnement et espacement recommandés pour les cases à cocher.
 -   Pour un groupe de cases à cocher, concentrez le texte de l’étiquette sur les différences entre les options. Si toutes les options ont le même texte d’introduction, déplacez ce texte vers l’étiquette de groupe.
 -   Utilisez une formulation positive. N’effectuez pas d’expression sur une étiquette afin que la sélection d’une case à cocher signifie de ne pas exécuter d’action.
 
-    -   **Exception : ne plus afficher <item> ces** cases à cocher.
+    -   Exception : case à cocher **ne plus afficher cet &lt; &gt; élément** .
 
     **Incorrect :**
 

@@ -7,12 +7,12 @@ keywords:
 - Active Directory DNS dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971987cb73b65e46b36eda4c713054ba2796e63b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd9828a2d6d14d862e98d3c5c4129bbc70f5c411
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671014"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880068"
 ---
 # <a name="active-directory-servers-and-dynamic-dns"></a>Serveurs Active Directory et DNS dynamique
 
@@ -25,15 +25,15 @@ Les serveurs Active Directory publient leurs adresses afin que les clients puiss
 
 
 
-Les serveurs Active Directory offrent le service LDAP sur le protocole TCP afin que les noms publiés soient « LDAP. TCP <domain> ». Par conséquent, l’enregistrement de ressource SRV pour fabrikam.com est « ldap.tcp.fabrikam.com ». Des données supplémentaires sur le RR SRV indiquent la priorité et le poids du serveur, ce qui permet aux clients de choisir le serveur le mieux adapté à leurs besoins.
+Les serveurs Active Directory offrent le service LDAP sur le protocole TCP afin que les noms publiés soient «LDAP. TCP. &lt; domaine &gt; ». Par conséquent, l’enregistrement de ressource SRV pour fabrikam.com est « ldap.tcp.fabrikam.com ». Des données supplémentaires sur le RR SRV indiquent la priorité et le poids du serveur, ce qui permet aux clients de choisir le serveur le mieux adapté à leurs besoins.
 
 Lorsqu’un serveur Active Directory est installé, il utilise le DNS dynamique pour se publier lui-même. Étant donné que les adresses TCP/IP sont sujettes à modification, les serveurs vérifient périodiquement leurs inscriptions pour s’assurer qu’elles sont correctes et les mettent à jour si nécessaire.
 
 Le DNS dynamique est un ajout récent à la norme DNS. Le DNS dynamique définit un protocole pour la mise à jour dynamique d’un serveur DNS avec de nouvelles données. Avant le DNS dynamique, les administrateurs devaient configurer manuellement les enregistrements stockés par les serveurs DNS.
 
- 
+ 
 
- 
+ 
 
 
 

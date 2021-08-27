@@ -5,12 +5,12 @@ ms.assetid: 684bd62e-1e28-4330-a3c5-6bce684d652d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b95f3fc69b11d3ca28b2f6778e6892dc01d328a7b10ad72520cff7bcbca7b10
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 3ae135d19e13e3b78fddbdd58bccd476b7e5ee7a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119990679"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478855"
 ---
 # <a name="implementing-a-custom-audio-endpoint-enumerator"></a>Implémentation d’un énumérateur de point de terminaison audio personnalisé
 
@@ -22,42 +22,14 @@ ms.locfileid: "119990679"
 
     
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Type d’objet</th>
-    <th>Description</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Objet énumérateur d’appareil<br/></td>
-    <td>Un objet énumérateur d’appareil fournit la fonctionnalité d’énumérateur de point de terminaison. Elle expose des méthodes qui retournent un point de terminaison par défaut et des collections spécifiées de points de terminaison. Par exemple, selon les critères spécifiés, l’énumérateur peut retourner des points de terminaison de communication, des points de terminaison de lecture ou des points de terminaison de capture. L’objet énumérateur d’appareil doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> .<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Objet de collection de périphériques<br/></td>
-    <td>Un objet collection de périphériques représente une collection de périphériques audio. Il doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> .<br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Objet d’appareil<br/></td>
-    <td>Un objet appareil représente un périphérique audio particulier. Il permet d’accéder à la Banque de propriétés de l’appareil audio et expose la lecture audio et les interfaces de capture disponibles sur l’appareil. L’objet périphérique doit implémenter les interfaces <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> et <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> .<br/></td>
-    </tr>
-    <tr class="even">
-    <td>Objet de la Banque de propriétés<br/></td>
-    <td>Un objet de la Banque de propriétés expose les propriétés associées à un périphérique audio. Certaines de ces propriétés sont utilisées par le système, mais les applications peuvent également stocker des propriétés arbitraires avec le point de terminaison audio.<br/> Tous les périphériques audio ont les trois propriétés suivantes :<br/>
-    <ul>
-    <li><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li>
-    <li><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li>
-    <li><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li>
-    </ul>
-L’objet de la Banque de propriétés doit implémenter l’interface <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> .<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Type d’objet | Description | 
+|-------------|-------------|
+| Objet énumérateur d’appareil<br /> | Un objet énumérateur d’appareil fournit la fonctionnalité d’énumérateur de point de terminaison. Elle expose des méthodes qui retournent un point de terminaison par défaut et des collections spécifiées de points de terminaison. Par exemple, selon les critères spécifiés, l’énumérateur peut retourner des points de terminaison de communication, des points de terminaison de lecture ou des points de terminaison de capture. L’objet énumérateur d’appareil doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> .<br /> | 
+| Objet de collection de périphériques<br /> | Un objet collection de périphériques représente une collection de périphériques audio. Il doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> .<br /> | 
+| Objet d’appareil<br /> | Un objet appareil représente un périphérique audio particulier. Il permet d’accéder à la Banque de propriétés de l’appareil audio et expose la lecture audio et les interfaces de capture disponibles sur l’appareil. L’objet périphérique doit implémenter les interfaces <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> et <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> .<br /> | 
+| Objet de la Banque de propriétés<br /> | Un objet de la Banque de propriétés expose les propriétés associées à un périphérique audio. Certaines de ces propriétés sont utilisées par le système, mais les applications peuvent également stocker des propriétés arbitraires avec le point de terminaison audio.<br /> Tous les périphériques audio ont les trois propriétés suivantes :<br /><ul><li><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></li><li><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></li><li><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></li></ul>    L’objet de la Banque de propriétés doit implémenter l’interface <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> .<br /> | 
+
 
     
 

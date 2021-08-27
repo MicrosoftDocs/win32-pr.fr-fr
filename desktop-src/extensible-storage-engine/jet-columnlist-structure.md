@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9bce36c818dd35408d95c770540ff4865bdf639b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c61f3492a9f92700fc51b7e51e13f8c3c3febc69
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985262"
 ---
 # <a name="jet_columnlist-structure"></a>Structure JET_COLUMNLIST
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_columnlist-structure"></a>Structure JET_COLUMNLIST
 
@@ -173,7 +173,7 @@ Identificateur de colonne du nom de la définition de colonne.
 
 Le nom de la définition de colonne est un [JET_coltypText](./jet-coltyp.md).
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Par défaut, l’ordre des lignes dans la table temporaire est trié par le nom de la colonne. Elle peut également être triée par identificateur de colonne. Pour plus d’informations sur le tri par identificateur de colonne, consultez [JetGetColumnInfo](./jetgetcolumninfo-function.md) et [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md).
 
@@ -181,26 +181,13 @@ L’appel à [JetGetColumnInfo](./jetgetcolumninfo-function.md) ou [JetGetTableC
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

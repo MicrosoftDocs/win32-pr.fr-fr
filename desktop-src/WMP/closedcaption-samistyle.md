@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4a12671877cf0d4d8abdb77d169b0f13000bc564e6c1dc37e65bf6eccdf005
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6bd45977e3d433239e74aee21def913b640fad12
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118580764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882176"
 ---
 # <a name="closedcaptionsamistyle"></a>ClosedCaption.SAMIStyle
 
@@ -33,9 +33,9 @@ player.closedCaption.SAMIStyle
 
 Cette propriété est une **chaîne** en lecture/écriture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre les balises <STYLE> et </STYLE> dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
+Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre le &lt; style &gt; et les </STYLE> balises dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
 
 
 ```
@@ -76,7 +76,7 @@ l’exemple de JScript suivant crée un élément SELECT HTML qui utilise *close
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

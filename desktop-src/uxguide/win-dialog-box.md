@@ -4,12 +4,12 @@ description: Une boîte de dialogue est une fenêtre secondaire qui permet aux u
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2fe9b7545961f7e06b1edf1656531779d5122b339d0cf16294e5ef5c4be9a69f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6cb076b7e6d23c9ca03a71d6c32b1096cde59ac0
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119031162"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986602"
 ---
 # <a name="dialog-boxes-design-basics"></a>Boîtes de dialogue (notions de base sur la conception)
 
@@ -34,7 +34,7 @@ Les boîtes de dialogue ont deux types fondamentaux :
 -   Une **barre de titre** pour identifier la fonctionnalité de l’application ou du système à partir de laquelle la boîte de dialogue provient.
 -   **Instruction principale**, avec une icône facultative, pour identifier l’objectif de l’utilisateur à l’aide de la boîte de dialogue.
 -   **Zone de contenu** pour les contrôles et les informations descriptives.
--   **Zone de commande** pour les boutons de validation, notamment un bouton Annuler et des options supplémentaires facultatives et ne pas afficher <item> contrôle à nouveau.
+-   **Zone de commande** pour les boutons de validation, notamment un bouton Annuler et des options facultatives, et ne plus afficher cet &lt; élément &gt; .
 -   Une **zone de note** pour les explications et l’aide facultatives, en général destinées aux utilisateurs moins expérimentés.
 
 ![capture d’écran d’une boîte de dialogue de tâche standard ](images/win-dialog-box-image2.png)
@@ -108,7 +108,7 @@ Pour concevoir des boîtes de dialogue efficaces, utilisez efficacement les él�
 
 -   Texte de la boîte de dialogue
 -   Instructions principales
--   Ne pas afficher <item> nouvelle option
+-   Ne plus afficher cet &lt; élément, &gt; option
 
 **Si vous n’avez qu’une seule chose...**
 
@@ -457,42 +457,16 @@ Pour plus d’informations et d’exemples, consultez [icônes](vis-icons.md).
 
 -   **Choisissez les boutons valider en fonction du modèle de conception :**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Modèle</strong><br/></td>
-    <td><strong>Boutons de validation</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Boîtes de dialogue de questions (à l’aide des boutons)</strong><br/></td>
-    <td>L’un des ensembles suivants de commandes concises : oui/non, oui/non/annuler, [do it]/Cancel, [do it]/[do it], [do it]/[do it]/Cancel.<br/></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Boîtes de dialogue de questions (à l’aide de liens)</strong><br/></td>
-    <td>Annuler.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Boîtes de dialogue de choix</strong><br/></td>
-    <td><ul>
-    <li>Boîtes de dialogue modales : OK/Annuler ou [do it]/Cancel</li>
-    <li>Boîtes de dialogue non modales : bouton Fermer dans la boîte de dialogue et la barre de titre</li>
-    <li>Volet des tâches : bouton Fermer dans la barre de titre</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><strong>Boîtes de dialogue de progression</strong><br/></td>
-    <td>Utilisez annuler si retourne l’environnement à son état précédent (sans effet secondaire); Sinon, utilisez arrêter.<br/></td>
-    </tr>
-    <tr class="even">
-    <td><strong>Boîtes de dialogue d’information</strong><br/></td>
-    <td>C’est presque ça.<br/></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Modèle</strong><br /> | <strong>Boutons de validation</strong><br /> | 
+| <strong>Boîtes de dialogue de questions (à l’aide des boutons)</strong><br /> | L’un des ensembles suivants de commandes concises : oui/non, oui/non/annuler, [do it]/Cancel, [do it]/[do it], [do it]/[do it]/Cancel.<br /> | 
+| <strong>Boîtes de dialogue de questions (à l’aide de liens)</strong><br /> | Annuler.<br /> | 
+| <strong>Boîtes de dialogue de choix</strong><br /> | <ul><li>Boîtes de dialogue modales : OK/Annuler ou [do it]/Cancel</li><li>Boîtes de dialogue non modales : bouton Fermer dans la boîte de dialogue et la barre de titre</li><li>Volet des tâches : bouton Fermer dans la barre de titre</li></ul> | 
+| <strong>Boîtes de dialogue de progression</strong><br /> | Utilisez annuler si retourne l’environnement à son état précédent (sans effet secondaire); Sinon, utilisez arrêter.<br /> | 
+| <strong>Boîtes de dialogue d’information</strong><br /> | C’est presque ça.<br /> | 
+
 
     
 
@@ -704,10 +678,10 @@ Dans cet exemple, la boîte de dialogue utilise un lien de commande au lieu d’
 
 Pour plus d’informations et d’exemples, consultez [liens de commande](ctrl-command-links.md).
 
-### <a name="dont-show-this-item-again"></a>Ne pas afficher <item> connecter
+### <a name="dont-show-this-ltitemgt-again"></a>Ne plus afficher cet &lt; élément &gt;
 
--   **Envisagez d’utiliser une <item> option ne plus afficher cette option pour permettre aux utilisateurs de supprimer une boîte de dialogue périodique, uniquement s’il n’existe pas de meilleure solution.** Il est préférable de toujours afficher la boîte de dialogue si les utilisateurs en ont vraiment besoin, ou simplement l’éliminer si ce n’est pas le cas.
--   **Utilisez cette formulation particulière <item> à remplacer par l’élément spécifique.** Par exemple, ne plus afficher ce rappel. Quand vous faites référence à une boîte de dialogue en général, utilisez ne plus afficher ce message.
+-   **Envisagez d’utiliser l' &lt; option ne plus afficher cet élément &gt; pour permettre aux utilisateurs de supprimer une boîte de dialogue périodique, uniquement s’il n’existe pas de meilleure solution.** Il est préférable de toujours afficher la boîte de dialogue si les utilisateurs en ont vraiment besoin, ou simplement l’éliminer si ce n’est pas le cas.
+-   **Utilisez cette formulation spécifique &lt; pour remplacer &gt; l’élément par l’élément spécifique.** Par exemple, ne plus afficher ce rappel. Quand vous faites référence à une boîte de dialogue en général, utilisez ne plus afficher ce message.
 -   **Indiquez clairement quand l’entrée utilisateur sera utilisée pour les futures valeurs par défaut** en ajoutant la phrase suivante sous l’option : vos sélections seront utilisées par défaut à l’avenir.
 -   **Ne sélectionnez pas l’option par défaut. Si la boîte de dialogue ne doit être affichée qu’une seule fois, faites-le sans demander.** N’utilisez pas cette option comme excuse pour importuner les utilisateurs à s’assurer que le comportement par défaut n’est pas ennuyeux.
 
@@ -743,7 +717,7 @@ Dans cet exemple, les options rarement utilisées sont masquées par défaut.
 
 -   **N’utilisez pas plus ou moins de contrôles à moins qu’il y ait vraiment plus de détails à afficher.** Ne vous contentez pas de réafficher les mêmes informations dans un format différent.
 -   **N’utilisez pas plus ou moins de contrôles pour afficher l’aide.** Utilisez les liens d’aide ou les notes de bas de page à la place.
--   **Avec les boîtes de dialogue de tâche, évitez de combiner plus ou moins de contrôles avec ne plus afficher ce <item> message.** Cette combinaison a une apparence maladroite.
+-   **Avec les boîtes de dialogue de tâche, évitez de combiner plus ou moins de contrôles avec ne plus afficher cet &lt; élément &gt; .** Cette combinaison a une apparence maladroite.
 -   Pour obtenir des instructions sur l’étiquetage, consultez [Divulgation progressive](ctrl-progressive-disclosure-controls.md).
 
 ### <a name="footnotes"></a>Notes de bas de page

@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI, exemple de code Java, liaison à un objet ADSI et appel de méthodes sur cet objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e4778d1d1f71920f880fe38a71874283f7cd8628ae0376b3f9ce227305ab184
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: aec873822d27a7b5fcf95aad7c31a8978552eb88
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118178973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880299"
 ---
 # <a name="programming-adsi-with-javacom"></a>Programmation d’ADSI avec Java/COM
 
@@ -65,7 +65,7 @@ Visual J++ crée le package activeds pour les classes wrapper Java et inclut le 
 
 Pour obtenir un objet ADSI qui ne peut pas être cocréé, utilisez l’une des fonctions d’API ADSI exposées, par exemple [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) ou [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject), qui sont également empaquetées dans Activeds.dll. Microsoft J/direct permet d’accéder à ces API et à d’autres API natives. Cela est illustré par les deux dernières lignes de l’exemple de code ci-dessus.
 
-Lors de la compilation, assurez-vous que l’option Microsoft Language extension est activée. pour ce faire, sélectionnez **<project> propriétés...** dans le menu **Project** de la fenêtre de projet Visual J++. Ensuite, cliquez sur l’onglet **compiler** dans la boîte de dialogue **<project> Propriétés** . Désactivez la case à cocher **Désactiver les extensions de langage Microsoft** . Si vous compilez à partir de la ligne de commande, utilisez le commutateur « /x- », par exemple :
+Lors de la compilation, assurez-vous que l’option Microsoft Language extension est activée. pour ce faire, sélectionnez **&lt; propriétés du projet &gt; ...** dans le menu **Project** de la fenêtre de projet Visual J++. Ensuite, cliquez sur l’onglet **compiler** dans la boîte de dialogue **&lt; &gt; Propriétés du projet** . Désactivez la case à cocher **Désactiver les extensions de langage Microsoft** . Si vous compilez à partir de la ligne de commande, utilisez le commutateur « /x- », par exemple :
 
 **JVC/x-SimpleADSI. Java**
 

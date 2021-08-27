@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fa08d1eb3cbb8086149192e6ecd5fa3880f01e6cfa1800468d2825c243b211e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c2f2cc1014b081ac13183144fca34c2087539de0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119803308"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885706"
 ---
 # <a name="ms-frs-hub-member-attribute"></a>attribut ms-FRS-Hub-Member
 
@@ -42,7 +42,7 @@ L’attribut **MS-FRS-Hub-Member** permet d’enregistrer les paramètres de top
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2003**](#windows-server-2003)
+-   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
 -   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
@@ -155,7 +155,7 @@ L’attribut **MS-FRS-Hub-Member** permet d’enregistrer les paramètres de top
 
 ## <a name="remarks"></a>Remarques
 
-Il s’agit du nom unique complet d’un objet de [**membre NTFRS**](c-ntfrsmember.md) . Le nom unique est au format « CN = *<computerGuid>* , CN = *<Dfs Link Name>* , CN = *<Dfs Root name>* , CN = volumes DFS, CN = service de réplication de fichiers, CN = System, DC =... »
+Il s’agit du nom unique complet d’un objet de [**membre NTFRS**](c-ntfrsmember.md) . Le nom unique est au format « CN =*&lt; computerGuid &gt;*, CN = *<Dfs Link Name>* , CN = *<Dfs Root name>* , CN = volumes DFS, CN = service de réplication de fichiers, CN = System, DC =... »
 
  
 
