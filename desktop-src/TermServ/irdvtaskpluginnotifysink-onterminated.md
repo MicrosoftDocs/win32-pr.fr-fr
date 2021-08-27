@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b261437425b0b4dce4b2c2e17c52b6e24ea3e0e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29ab2a3e8ddea5999b6d63322dbeb9fca07983e591e849f22a3e98e27c67609a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118129131"
 ---
 # <a name="irdvtaskpluginnotifysinkonterminated-method"></a>IRDVTaskPluginNotifySink :: OnTerminated, méthode
 
@@ -60,7 +60,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Sbtsv. h</dt> </dl> |
 

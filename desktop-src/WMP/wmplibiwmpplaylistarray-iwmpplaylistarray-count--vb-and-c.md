@@ -3,9 +3,9 @@ title: Propriété Count IWMPPlaylistArray
 description: La propriété Count obtient le nombre de sélections dans le tableau de sélection.
 ms.assetid: 24603d05-4016-4aac-a623-75be668065c8
 keywords:
-- propriété Count Windows Media Player
-- propriété Count lecteur Windows Media, interface IWMPPlaylistArray
-- IWMPPlaylistArray interface Windows Media Player, propriété Count
+- Lecteur Windows Media de la propriété count
+- Lecteur Windows Media de la propriété count, interface IWMPPlaylistArray
+- Lecteur Windows Media de l’interface IWMPPlaylistArray, propriété count
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 174636364fc0c5e0805ed2d1bdd822ff97c63a1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bffea9aa34a614a720ac6e3293167a746cc31c628d9ed22389dab651d03bf715
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331126"
 ---
 # <a name="iwmpplaylistarraycount-property"></a>IWMPPlaylistArray :: Count, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property count As System.Int32
 
 **System. Int32** qui correspond au nombre de sélections dans le tableau.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

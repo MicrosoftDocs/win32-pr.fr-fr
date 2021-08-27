@@ -4,12 +4,12 @@ description: Cette rubrique contient plusieurs exemples montrant comment initial
 ms.assetid: 65e8ae82-50aa-4303-853e-3457da18f44f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5584885b885f6026ee32a3e4c52a24aad78c3c08
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07b7d34e7e85fd647a6f45c93d61b3330825261f59d87b9c13a95547e742e365
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530561"
 ---
 # <a name="how-to-initialize-a-texture-programmatically"></a>Comment : initialiser une texture par programmation
 
@@ -26,7 +26,7 @@ Le type d’utilisation le plus courant est l’utilisation par défaut. Pour re
 
 -   Appelez [**ID3D11Device :: CreateTexture2D**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createtexture2d) et initialisez *pInitialData* pour pointer vers les données fournies par une application.
 
-    or
+    ou
 
 -   Après l’appel de [**ID3D11Device :: CreateTexture2D**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-createtexture2d), utilisez [**ID3D11DeviceContext :: UpdateSubresource**](/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-updatesubresource) pour remplir la texture par défaut avec les données d’un pointeur fourni par l’application.
 
@@ -58,9 +58,9 @@ Une texture intermédiaire peut ensuite être utilisée comme paramètre source 
 [Textures](overviews-direct3d-11-resources-textures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

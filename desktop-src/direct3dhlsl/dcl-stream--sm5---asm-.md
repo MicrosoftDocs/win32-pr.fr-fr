@@ -4,12 +4,12 @@ description: Déclare un flux de sortie de nuanceur Geometry.
 ms.assetid: 0A8B8AB5-B7B0-46BB-91E8-B2E8E3D64B74
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f46903c3257c280788e91c25700743a23c146fe
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f53b8226cc9a4d8d2bd980cd26371f9e7b46a5168ec61ff39e425f73a4d7193c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118793040"
 ---
 # <a name="dcl_stream-sm5---asm"></a>\_flux DCL (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclare un flux de sortie de nuanceur Geometry.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un flux donné ne peut être déclaré qu’une seule fois.
 
@@ -48,7 +48,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        | X        |       |         |
 
@@ -62,9 +62,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

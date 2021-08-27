@@ -4,16 +4,16 @@ description: L’exemple de code suivant implémente l’exemple de service Wins
 ms.assetid: 8800ba76-f24c-4aa7-ba31-97eaf884130c
 ms.tgt_platform: multiple
 keywords:
-- Inscription et résolution Windows Sockets Active Directory, exemple de code, implémentation d’un service Winsock avec une publication RnR
+- Windows Inscription et résolution des sockets Active Directory, exemple de code, implémentation d’un service Winsock avec une publication RnR
 - Implémentation d’un service Winsock avec une publication RnR AD, exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18f03c7f1920d1f05ee5f5fd157bd3e37abd987c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 669d09350acad0a597421f1f4299e71f4da506b148ed1cf3e6f2a385bb8f7043
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693653"
 ---
 # <a name="example-code-for-implementing-a-winsock-service-with-an-rnr-publication"></a>Exemple de code pour l’implémentation d’un service Winsock avec une publication RnR
 
@@ -270,9 +270,9 @@ INT serverRegister(SOCKADDR * sa,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

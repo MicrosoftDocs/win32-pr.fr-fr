@@ -12,12 +12,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2bff0e007c735fcf202aaf16cf304eb4ff5358f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a17e015d6dff2ae5133f3ce8245c5ead3c3381f8eb5c48e74946fdf9bcb46ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032837"
 ---
 # <a name="ddwm_updatewindow-message"></a>\_Message DDWM UPDATEWINDOW
 
@@ -41,7 +41,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 DDWM \_ UPDATEWINDOW est défini en tant qu' \_ utilisateur WM + 3.
 
@@ -49,14 +49,14 @@ Lorsque l’état d’une opération de suppression change (par exemple, en rép
 
 Le format de presse-papiers [DragWindow](clipboard.md) fournit le **HWND** de la fenêtre de glissement du destinataire à l’expéditeur du message **DDWM \_ UPDATEWINDOW** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

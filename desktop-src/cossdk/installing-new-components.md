@@ -1,19 +1,19 @@
 ---
-description: Pour ajouter des composants au dossier composants d’une application COM+, vous pouvez soit utiliser l’Assistant Installation de composant COM+, soit faire glisser des fichiers. dll contenant les composants de l’Explorateur Windows et les déposer dans l’application.
+description: pour ajouter des composants au dossier composants d’une application com+, vous pouvez soit utiliser l’assistant installation de composant com+, soit faire glisser .dll fichiers qui contiennent les composants à partir de l’explorateur de Windows et les déposer dans l’application.
 ms.assetid: 3cb0c24d-cd52-42ac-8b07-d8774698b90c
 title: Installation de nouveaux composants
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 434bdb59c0a0e9c786bb3460a0cb1cbb6a1f50dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af51bf28ce93e2d68dd1a07609c48c506911310781e8c5a0573017d43e022353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118813589"
 ---
 # <a name="installing-new-components"></a>Installation de nouveaux composants
 
-Pour ajouter des composants au dossier **composants** d’une application com+, vous pouvez soit utiliser l’Assistant Installation de composant com+, soit faire glisser des fichiers. dll contenant les composants de l’Explorateur Windows et les déposer dans l’application.
+pour ajouter des composants au dossier **composants** d’une application com+, vous pouvez soit utiliser l’assistant installation de composant com+, soit faire glisser .dll fichiers qui contiennent les composants à partir de l’explorateur de Windows et les déposer dans l’application.
 
 Si vous utilisez l’Assistant Installation de composant COM+, vous pouvez installer un nouveau composant, qui inscrit le composant sur l’ordinateur, ou importer des composants qui ont déjà été inscrits. Des composants peuvent être ajoutés à des applications vides ou à des applications existantes.
 

@@ -3,23 +3,23 @@ title: Gravure d’un CD
 description: Gravure d’un CD
 ms.assetid: df55479e-d8a7-443d-bf2c-c988bfd0b1be
 keywords:
-- Lecteur Windows Media, gravure de CD
-- Windows Media Player Object Model, gravage de CD
+- Lecteur Windows Media, gravage de CD
+- modèle d’objet Lecteur Windows Media, gravage de CD
 - modèle d’objet, gravage de CD
-- Contrôle ActiveX du lecteur Windows Media, gravure de CD
-- Contrôle ActiveX, gravage de CD
-- Windows Media Player Mobile contrôle ActiveX, gravure de CD
-- Lecteur Windows Media Mobile, gravure de CD
+- contrôle de ActiveX Lecteur Windows Media, gravure de CD
+- contrôle de ActiveX, gravure de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, gravage de CD
+- Lecteur Windows Media Mobile, gravage de CD
 - Gravage de CD, à propos de
 - gravure de CD, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 007b7808ff375ab0673592d0d016f8e713321d1a
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 82c7cfee7468b2cd376b7b25d4cff4a04e0d057dcc7a792ac7471843de2b74a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104101273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118840768"
 ---
 # <a name="burning-a-cd"></a>Gravure d’un CD
 
@@ -48,7 +48,7 @@ Pour utiliser le code de cette section, incluez les en-têtes suivants :
 
 Pointeurs d’interface
 
-Les interfaces pour le lecteur Windows Media sont stockées dans les variables membres suivantes :
+les interfaces pour Lecteur Windows Media sont stockées dans les variables membres suivantes :
 
 
 ```C++
@@ -80,9 +80,9 @@ Les rubriques suivantes décrivent comment utiliser l’API de gravage de CD.
 [**Guide de contrôle du lecteur**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: IAgentCharacter activer
 ms.assetid: a81eb62d-709b-46b4-9ff2-c9017f7f853e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1e86d2c094da484f528750d433e0fb6608790e4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7256b1d155b051985c72120283e60896026218ea81d8b2b9c37dc94fb52bb63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750995"
 ---
 # <a name="iagentcharacteractivate"></a>IAgentCharacter :: Activate
 
@@ -43,7 +43,7 @@ Vous pouvez spécifier les valeurs suivantes pour ce paramètre :
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,16 +58,16 @@ Toute tentative d’appel à cette méthode avec le paramètre d' **État** déf
 > [!Note]  
 > L’appel de cette méthode avec un **État** défini sur 1 ne génère généralement pas d’événement [**AgentNotifySink :: ActivateInputState**](https://www.bing.com/search?q=**AgentNotifySink::ActivateInputState**) , sauf si aucun autre caractère n’est chargé ou si votre application est déjà en entrée-active.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacter::HasOtherClients**](iagentcharacter--hasotherclients.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

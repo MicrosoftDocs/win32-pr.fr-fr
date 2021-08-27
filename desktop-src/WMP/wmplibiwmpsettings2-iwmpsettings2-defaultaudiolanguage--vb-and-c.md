@@ -1,11 +1,11 @@
 ---
 title: IWMPSettings2 propriété defaultAudioLanguage
-description: La propriété defaultAudioLanguage obtient l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans le lecteur Windows Media.
+description: la propriété defaultAudioLanguage obtient l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans Lecteur Windows Media.
 ms.assetid: 4b7c9639-9d9f-4ed7-bb70-12cc608dd57a
 keywords:
-- propriété defaultAudioLanguage lecteur Windows Media
-- propriété defaultAudioLanguage lecteur Windows Media, interface IWMPSettings2
-- Interface IWMPSettings2 lecteur Windows Media, propriété defaultAudioLanguage
+- Lecteur Windows Media de la propriété defaultAudioLanguage
+- Lecteur Windows Media de la propriété defaultAudioLanguage, interface IWMPSettings2
+- Lecteur Windows Media de l’interface IWMPSettings2, propriété defaultAudioLanguage
 topic_type:
 - apiref
 api_name:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc7ac9120437005d9f32388e4d639d2d5893675e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4f09df11cc53e9b813de2e40e40eca1e31a88afeff0c16ce1f9c0c5ba4745277
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331099"
 ---
 # <a name="iwmpsettings2defaultaudiolanguage-property"></a>IWMPSettings2 ::d propriété efaultAudioLanguage
 
-La propriété **defaultAudioLanguage** obtient l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans le lecteur Windows Media.
+la propriété **defaultAudioLanguage** obtient l’identificateur de paramètres régionaux (LCID) de la langue audio par défaut spécifiée dans Lecteur Windows Media.
 
 Cette propriété est en lecture seule.
 
@@ -51,7 +51,7 @@ Public ReadOnly Property defaultAudioLanguage As System.Int32
 
 **System. Int32** qui est le LCID.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 

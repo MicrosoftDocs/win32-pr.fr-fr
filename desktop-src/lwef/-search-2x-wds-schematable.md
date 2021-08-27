@@ -1,22 +1,22 @@
 ---
-title: Schéma (fonctionnalités héritées de l’environnement Windows)
+title: schéma (fonctionnalités héritées de l’environnement Windows)
 description: Le schéma documente les valeurs et les propriétés utilisées par l’index pour stocker les données à des fins d’indexation ou de tri.
 ms.assetid: dfd8862c-8f84-441e-a4b4-4af3c76c48f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a122959b007ba4d4434e65b53fc2e330857cafe
-ms.sourcegitcommit: b9a94cea8f83153214af4c09509e1cc61a1bb616
+ms.openlocfilehash: f2d5c80690914073af1c67e2bd00376974547d30c4dc487c0656d4452d3fe828
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "104030911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753148"
 ---
 # <a name="schema"></a>schéma
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-Le schéma documente les valeurs et les propriétés utilisées par l’index pour stocker les données à des fins d’indexation ou de tri. Le tableau schéma répertorie les colonnes et leurs propriétés (type et propid) incluses dans le schéma pour Microsoft Windows Desktop Search (WDS) 2.6.5.
+Le schéma documente les valeurs et les propriétés utilisées par l’index pour stocker les données à des fins d’indexation ou de tri. le tableau schéma répertorie les colonnes et leurs propriétés (type et propid) incluses dans le schéma pour Microsoft Windows Desktop Search (WDS) 2.6.5.
 
 ## <a name="schema"></a>schéma
 
@@ -31,7 +31,7 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | DocCategory                  | Category                                                                                                                | D5CDD502-2E9C-101B-9397-08002B2CF9AE/2                            |
 | DocKeywords                  | Mots clés                                                                                                                | F29F85E0-4FF9-1068-AB91-08002B27B3D9/5                            |
 | DocTitlePrefix               | Préfixe de l’objet (Re :, FW :, etc.)                                                                                      | D5CDD505-2E9C-101B-9397-08002B2CF9AE/DocTitlePrefix               |
-| DocTitle                     | Intitulé                                                                                                                   | F29F85E0-4FF9-1068-AB91-08002B27B3D9/2                            |
+| DocTitle                     | Titre                                                                                                                   | F29F85E0-4FF9-1068-AB91-08002B27B3D9/2                            |
 | FileExtDesc                  | Description conviviale du type de fichier à partir du Registre (par exemple, le fichier de requête >.                | D5CDD505-2E9C-101B-9397-08002B2CF9AE/FileExtDesc                  |
 | FolderName                   | Nom du dossier parent                                                                                               | D5CDD505-2E9C-101B-9397-08002B2CF9AE/nom_dossier                   |
 | IsAttachment                 | Indique que l’élément est une pièce jointe                                                                                         | D5CDD505-2E9C-101B-9397-08002B2CF9AE/IsAttachment                 |
@@ -39,7 +39,7 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | LastViewed                   | Date à laquelle l’élément a été affiché pour la dernière fois par l’utilisateur                                                                                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/LastViewed                   |
 | Personnes                       | Personnes impliquées dans cet élément                                                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/personnes                       |
 | PerceivedType                | PerceivedType de l’objet NOTE : il s’agit uniquement d’une récupération.                                                           | D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedType                |
-| PerceivedTypeName            | Nom complet du PerceivedType.Jamais affiché ou interrogé                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedTypeName            |
+| PerceivedTypeName            | Nom complet du PerceivedType.  Jamais affiché ou interrogé                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/PerceivedTypeName            |
 | PrimaryDate                  | Date la plus intéressante (heure de la dernière écriture des fichiers, date de réception de l’e-mail)                                              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/PrimaryDate                  |
 | Taille                         | Taille d’un fichier.                                                                                                         | B725F130-47EF-101A-A5F1-02608C9EEBAC/12                           |
 | DocSubject                   | Objet du fichier. Remarque : actuellement, les objets de messagerie sont mappés à PrimaryTitle aujourd’hui et ne sont pas dupliqués en raison de leur longueur | F29F85E0-4FF9-1068-AB91-08002B27B3D9/3                            |
@@ -52,7 +52,7 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | FlagText                     | Texte affiché pour l’indicateur, par exemple, révision, suivi, etc.                                                              | D5CDD505-2E9C-101B-9397-08002B2CF9AE/FlagText                     |
 | Identité                     | Identité pour les utilisateurs de OE                                                                                                   | D5CDD505-2E9C-101B-9397-08002B2CF9AE/identité                     |
 | IsRead                       | Indique que l’élément a été lu                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/IsRead                       |
-| importance                   | Importance ou priorité MAPI                                                                                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/importance                   |
+| Importance                   | Importance ou priorité MAPI                                                                                             | D5CDD505-2E9C-101B-9397-08002B2CF9AE/importance                   |
 | ContainerHash                | Code de hachage qui identifie les pièces jointes à supprimer en fonction d’une URL de conteneur commune                                     | D5CDD505-2E9C-101B-9397-08002B2CF9AE/ContainerHash                |
 | DocFormat                    | Format de document ou MIMETYPE (par exemple « Message/RFC822 » pour un fichier EML)                                              | 0B63E350-9CCC-11D0-BCDB-00805FCCCE04/5                            |
 | GatherTimeModified           | Heure à laquelle l’indexeur a analysé le document pour la dernière fois pour la mise à jour du catalogue                                                           | 0b63e350-9ccc-11D0-bcdb-00805fccce04/4                            |
@@ -112,7 +112,7 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | MiddleName                   | Informations de contact                                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/MiddleName                   |
 | MobileTelephone              | Informations téléphoniques                                                                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/MobileTelephone              |
 | NickName                     | Informations de contact                                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/surnom                     |
-| Office                       | Informations de contact                                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/Bureau                       |
+| Office                       | Informations de contact                                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/Office                       |
 | OfficeTelephone              | Informations téléphoniques                                                                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/OfficeTelephone              |
 | PagerTelephone               | Informations téléphoniques                                                                                                          | D5CDD505-2E9C-101B-9397-08002B2CF9AE/PagerTelephone               |
 | LastName                     | Informations de contact                                                                                                            | D5CDD505-2E9C-101B-9397-08002B2CF9AE/nom                     |
@@ -152,19 +152,19 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 | Structure                       | Nom de la structure                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/struct                       |
 | Interface                    | Nom de l’interface                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/interface                    |
 | Délégué                     | Nom du délégué                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/délégué                     |
-| Propriété                     | Nom de la propriété                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/propriété                     |
+| Property                     | Nom de la propriété                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/propriété                     |
 | Énumération                         | Nom de l’enum                                                                                                               | 8dee0300-16c2-101B-B121-08002b2ecda9/enum                         |
 | Const                        | Nom const                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/const                        |
 | Événement                        | Nom d'événement                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/événement                        |
 | Champ                        | Nom du champ                                                                                                              | 8dee0300-16c2-101B-B121-08002b2ecda9/champ                        |
 | Définir                       | Définir le nom                                                                                                             | 8dee0300-16c2-101B-B121-08002b2ecda9/def                          |
 | Composant                    | Nom du composant                                                                                                          | 8dee0300-16c2-101B-B121-08002b2ecda9/composant                    |
-| Project                      | Nom du projet                                                                                                            | 8dee0300-16c2-101B-B121-08002b2ecda9/projet                      |
+| Projet                      | Nom du projet                                                                                                            | 8dee0300-16c2-101B-B121-08002b2ecda9/projet                      |
 | Solution                     | Nom de la solution                                                                                                           | 8dee0300-16c2-101B-B121-08002b2ecda9/solution                     |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -185,9 +185,9 @@ Le schéma documente les valeurs et les propriétés utilisées par l’index po
 [Types perçus](-search-2x-wds-perceivedtype.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

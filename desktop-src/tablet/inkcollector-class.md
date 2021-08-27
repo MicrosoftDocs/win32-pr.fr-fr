@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 17eff388a759b9b0873929447e4c8fe008e2fba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ecf89a1ce8db89105ac9fa0243552efaf5218da98f6d3b0fdfbd58f874d449
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718175"
 ---
 # <a name="inkcollector-class"></a>InkCollector (classe)
 
@@ -115,7 +115,7 @@ La classe **InkCollector** possède ces propriétés.
 | [**DefaultDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_defaultdrawingattributes)<br/> | Lecture seule<br/> | Obtient ou définit l’objet [**InkDrawingAttributes**](inkdrawingattributes-class.md) par défaut, qui spécifie les attributs de dessin utilisés lors du dessin et de l’affichage de l’encre.<br/> |
 | [**DesiredPacketDescription**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_desiredpacketdescription)<br/> | Lecture seule<br/> | Obtient ou définit l’intérêt des aspects du paquet associé à l’encre dessinée sur l’objet **InkCollector** .<br/>                                                                          |
 | [**DynamicRendering**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkoverlay-get_dynamicrendering)<br/>                   | Lecture seule<br/> | Obtient ou définit une valeur qui indique si l’entrée manuscrite est restituée au fur et à mesure qu’elle est dessinée.<br/>                                                                                                       |
-| [**Enabled**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                   | Lecture seule<br/> | Obtient ou définit une valeur qui spécifie si l’objet **InkCollector** collecte les entrées de stylet.<br/>                                                                                       |
+| [**Activé**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_enabled)<br/>                                   | Lecture seule<br/> | Obtient ou définit une valeur qui spécifie si l’objet **InkCollector** collecte les entrées de stylet.<br/>                                                                                       |
 | [**Handle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd)<br/>                                       | Lecture seule<br/> | Obtient ou définit le handle de la fenêtre à laquelle l’objet **InkCollector** est attaché.<br/>                                                                                           |
 | [**Entrée manuscrite**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_ink)<br/>                                           | Lecture seule<br/> | Obtient ou définit l’objet [**InkDisp**](inkdisp-class.md) associé à l’objet **InkCollector** .<br/>                                                                     |
 | [**MarginX**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx)<br/>                                   | Lecture seule<br/> | Obtient ou définit les marges le long de l’axe x, en pixels.<br/>                                                                                                                             |
@@ -130,7 +130,7 @@ La classe **InkCollector** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -172,7 +172,7 @@ Pour améliorer les performances de votre application, supprimez votre objet **I
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                           |
 | En-tête<br/>                   | <dl> <dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

@@ -1,25 +1,25 @@
 ---
 title: Profilage d’applications DirectX
-description: Montre comment mesurer certaines des mesures les plus importantes en matière de temps de performances pour une application DirectX à l’aide des outils XPerf et GPUView fournis dans le cadre de Windows performance Toolkit.
+description: montre comment mesurer certaines des mesures les plus importantes en matière de temps de performances pour une application DirectX à l’aide des outils XPerf et GPUView fournis dans le cadre du Shared Computer Toolkit de performances Windows.
 ms.assetid: 4B2F7273-C9B0-4DD3-B559-6220CDE62129
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0280389d4f8f2161e5e07f8906df7ea0484ad458
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: c923f2917dbb8695bcd624f4d998043e7218cf2f976b19b24ab4cff2bc65f398
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104556595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118665362"
 ---
 # <a name="profiling-directx-apps"></a>Profilage d’applications DirectX
 
-Cela vous montre comment mesurer certaines des mesures les plus importantes en matière de temps de performances pour une application [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) à l’aide des outils **Xperf** et **GPUView** fournis avec Windows performance Toolkit. Il ne s’agit pas d’un guide complet pour comprendre les outils, plutôt que leur applicabilité spécifique pour l’analyse des performances des applications DirectX. Alors que la plupart des techniques présentées ici s’appliquent à toutes les applications DirectX, elles sont particulièrement pertinentes pour les applications qui utilisent des chaînes de permutation et non pour les applications DirectX basées sur XAML qui utilisent SIS/outre et les animations XAML. Nous vous guidons tout au long des mesures de temps de performance clés, de l’acquisition et de l’installation des outils et des suivis de mesure des performances, puis les analysent pour comprendre les goulots d’étranglement des applications.
+cela vous montre comment mesurer certaines des mesures les plus importantes en matière de temps de performances pour une application [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) à l’aide des outils **XPerf** et **GPUView** fournis dans le cadre du Shared Computer Toolkit de performances de Windows. Il ne s’agit pas d’un guide complet pour comprendre les outils, plutôt que leur applicabilité spécifique pour l’analyse des performances des applications DirectX. Alors que la plupart des techniques présentées ici s’appliquent à toutes les applications DirectX, elles sont particulièrement pertinentes pour les applications qui utilisent des chaînes de permutation et non pour les applications DirectX basées sur XAML qui utilisent SIS/outre et les animations XAML. Nous vous guidons tout au long des mesures de temps de performance clés, de l’acquisition et de l’installation des outils et des suivis de mesure des performances, puis les analysent pour comprendre les goulots d’étranglement des applications.
 
 ## <a name="about-the-tools"></a>À propos des outils
 
 ### <a name="xperf"></a>**XPerf**
 
-**Xperf** est un ensemble d’outils d’analyse des performances basés sur suivi d’V nements pour Windows (ETW) conçus pour mesurer et analyser les performances du système et des applications détaillées et l’utilisation des ressources. À partir de Windows 8, cet outil en ligne de commande a une interface utilisateur graphique et est appelé enregistreur de performances Windows (WPR) et Windows Performance Analyzer (WPA). Pour plus d’informations sur ces outils, consultez la page Web de [Windows performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)) (WPT) : [Windows performance Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)).
+**XPerf** est un ensemble d’outils d’analyse des performances basés sur Suivi d’v nements pour Windows (ETW) conçus pour mesurer et analyser les performances du système et des applications détaillées et l’utilisation des ressources. à partir de Windows 8 cet outil en ligne de commande a une interface utilisateur graphique et est appelé le Windows l’enregistreur de performances (WPR) et l’analyseur de performances Windows (WPA). pour plus d’informations sur ces outils, consultez la page web relative à [Windows performance Shared Computer Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)) (WPT) : [Windows performance Shared Computer Toolkit](/previous-versions/windows/it-pro/windows-8.1-and-8/hh162945(v=win.10)).
 
 Un ETW collecte les événements de noyau demandés et les enregistre dans un fichier appelé fichier journal de suivi d’événements (ETL). Ces événements de noyau fournissent des informations complètes sur les caractéristiques d’une application et du système lors de l’exécution de l’application. Les données sont collectées en activant la capture de trace, en exécutant le scénario d’application souhaité qui nécessite une analyse, ce qui permet d’arrêter la capture qui enregistre les données dans un fichier ETL. Vous pouvez ensuite analyser le fichier sur le même ordinateur ou sur un autre ordinateur à l’aide de l’outil de ligne de commande **xperf.exe** ou de l’outil d’analyse de trace visuel **xperfview.exe**.
 
@@ -35,15 +35,15 @@ Après l’installation de l’outil **GPUView** , nous vous recommandons de lir
 
 ## <a name="installing-the-tools"></a>Installation des outils
 
-**Xperf** et **GPUView** sont tous les deux inclus dans Windows performance Toolkit (WPT).
+**XPerf** et **GPUView** sont tous les deux inclus dans le Shared Computer Toolkit de Performance Windows (WPT).
 
-**Xperf** est fourni dans le cadre du kit de développement logiciel (SDK) Windows pour Windows. [Téléchargez le SDK Windows](https://dev.windows.com/downloads).
+**XPerf** est fourni dans le cadre du kit de développement logiciel (SDK) Windows pour Windows. [téléchargez le SDK Windows](https://dev.windows.com/downloads).
 
-**GPUView** est disponible dans le kit de déploiement et d’évaluation Windows (Windows ADK). [Téléchargez Windows ADK](/windows-hardware/get-started/adk-install).
+**GPUView** est disponible dans le Kit de déploiement et d’évaluation de Windows (Windows ADK). [téléchargez le kit de Windows ADK](/windows-hardware/get-started/adk-install).
 
 Après l’installation, vous devez ajouter les répertoires contenant **Xperf** et **GPUView** à la variable système « Path ».
 
-Cliquez sur le bouton Démarrer et tapez « variables système ». Le Fenêtre Propriétés système s’ouvre. Cliquez sur « modifier les variables d’environnement système ». Sélectionnez « variables d’environnement » dans la boîte de dialogue « Propriétés système ». La variable « PATH » se trouve sous « variables système ». Ajoutez le répertoire contenant **xperf.exe** et **GPUView.exe** au chemin d’accès. Ces fichiers exécutables se trouvent dans le répertoire « Windows performance Toolkit » à l’intérieur des « kits Windows ». L’emplacement par défaut est : **C : \\ Program Files (x86) \\ Windows kits \\ 10 \\ Windows performance Toolkit**.
+Cliquez sur le bouton Démarrer et tapez « variables système ». Le Fenêtre Propriétés système s’ouvre. Cliquez sur « modifier les variables d’environnement système ». Sélectionnez « variables d’environnement » dans la boîte de dialogue « Propriétés système ». La variable « PATH » se trouve sous « variables système ». Ajoutez le répertoire contenant **xperf.exe** et **GPUView.exe** au chemin d’accès. ces fichiers exécutables se trouvent dans le répertoire « Windows Performance Shared Computer Toolkit » à l’intérieur des « Kits Windows ». l’emplacement par défaut est : **C : \\ Program Files (x86) \\ Windows Kits \\ 10 \\ Windows Performance Shared Computer Toolkit**.
 
 ## <a name="performance-time-measurements"></a>Mesures de temps de performance
 
@@ -75,7 +75,7 @@ Procédez comme suit pour effectuer une trace :
 
 1.  Ouvrez une fenêtre de commande en tant qu’administrateur.
 2.  Fermez l’application si elle est déjà en cours d’exécution.
-3.  Accédez au répertoire *gpuview* dans le dossier Windows performance Toolkit.
+3.  accédez au répertoire *gpuview* à l’intérieur du dossier Windows Performance Shared Computer Toolkit.
 4.  Tapez « log. cmd » pour démarrer le suivi des événements. Cette option permet de consigner les événements les plus intéressants. Les autres options disponibles consignent différentes étendues des événements. Par exemple, le mode de journalisation Verbose ou « v » capture tous les événements dont le **GPUView** est conscient.
 5.  Lancez l’exemple et exercez l’exemple de la manière qui couvre le chemin d’accès des performances que vous devez analyser.
 6.  Revenez à la fenêtre de commande et tapez « log. cmd » à nouveau pour arrêter la journalisation.
@@ -170,7 +170,7 @@ Dans les deux cas, il a été observé que la fréquence d’images a été supp
 
 2.  Pour analyser le moment où le temps est passé, ouvrez la trace dans **Xperf**. Pour analyser le temps de démarrage dans **Xperf**, commencez par Rechercher l’intervalle de temps dans **GPUView**. Placez la souris à gauche de l’intervalle et de la droite et notez l’heure absolue affichée en bas de la fenêtre **GPUView** . Ouvrez ensuite le même fichier. etl dans **Xperf** et faites défiler jusqu’au graphique « échantillonnage de l’UC par UC », cliquez avec le bouton droit et sélectionnez « Sélectionner un intervalle... ». Cela permet de taper l’intervalle d’intérêt qui a été découvert en examinant le suivi GPU.
 
-    ![Capture d’écran montrant l’échantillonnage « C P U par C P U » dans « analyse des performances Windows ».](images/profile11.png)
+    ![capture d’écran qui montre l’échantillonnage « c p u par c p u » dans « Windows analysis Performance ».](images/profile11.png)
 
 3.  Accédez au menu trace et assurez-vous que l’option « charger les symboles » est cochée. Accédez également à trace-> configurer les chemins d’accès aux symboles et tapez dans le chemin d’accès aux symboles de l’application. Un fichier de symboles contient des informations de débogage sur un exécutable compilé dans une base de données distincte (. pdb). Ce fichier est communément appelé PDB. Vous trouverez plus d’informations sur les fichiers de symboles ici : [fichiers de symboles](/windows/desktop/Debug/symbol-files). Ce fichier peut se trouver dans le dossier « Debug » du répertoire de l’application.
 
@@ -194,7 +194,7 @@ Dans **Xperf**, le processeur est resté inactif pendant la durée la plus longu
 
 ![capture d’écran gpuview.](images/profile14.png)
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 **GPUView** et **Xperf** et puissants outils permettant d’analyser les performances des applications [DirectX](/previous-versions/windows/apps/jj262109(v=win.10)) . Cet article est une introduction à l’utilisation de ces outils et à la compréhension des mesures de performances de base et des caractéristiques de l’application. Outre la compréhension de l’utilisation des outils, il est tout d’abord important de comprendre l’application en cours d’analyse. Commencez par trouver des réponses aux questions telles que l’application qui tente d’atteindre ? Quels sont les threads du système qui sont les plus importants ? Quels sont les compromis que vous voulez faire ? Lorsque vous analysez les traces de performances, commencez par examiner les emplacements évidents des problèmes. L’UC de l’application ou le GPU est-il lié ? L’application peut-elle présenter toutes les images ? Les outils associés à une compréhension de l’application peuvent fournir des informations très utiles pour comprendre, Rechercher et enfin résoudre les problèmes de performances.
 

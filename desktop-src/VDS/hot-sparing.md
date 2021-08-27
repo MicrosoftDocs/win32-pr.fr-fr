@@ -4,16 +4,16 @@ ms.assetid: 2faf2f3f-f459-4e41-9c8e-042c7b72281b
 title: Remplacement à chaud
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4d007e9219ea79ae3bda31be595c33b537661a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61b8df9bc27e303277c869901872a9b879cb2d7df32764589501b9d33a51c3fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125949"
 ---
 # <a name="hot-sparing"></a>Remplacement à chaud
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Le remplacement à chaud est la substitution d’un disque ou d’un lecteur pour un disque ou un lecteur défaillant ou défaillant. (Les fournisseurs de matériel agissent sur les lecteurs ; les fournisseurs de logiciels agissent sur les disques.) Vous pouvez partager un disque de rechange à chaud entre tous les numéros d’unités logiques du sous-système ou l’associer à un numéro d’unité logique spécifique. De même, vous pouvez associer un disque de rechange à chaud à un seul fournisseur de volume, de Pack et de logiciel, ou le partager entre tous les ordinateurs hôtes d’un réseau SAN.
 

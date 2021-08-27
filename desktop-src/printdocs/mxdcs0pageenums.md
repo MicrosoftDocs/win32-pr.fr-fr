@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 1b4331210027f7fc23f36fb6b9d13a2c232ccbf6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aa6622ea65e00c1447e6042a41c998e9ab30a29d1172d43e1a1da81feb34c54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471313"
 ---
 # <a name="mxdc_s0_page_enums-enumeration"></a>Énumération des énumérations de la \_ page S0 MXDC \_ \_
 
@@ -79,7 +79,7 @@ Image TIFF.
 <span id="MXDC_RESOURCE_WDP"></span><span id="mxdc_resource_wdp"></span>**\_ressource MXDC \_ WDP**
 </dt> <dd>
 
-Image Windows Media photo.
+Windows Image de photo multimédia.
 
 </dd> <dt>
 
@@ -118,7 +118,7 @@ Nombre maximal de ressources pour la validation.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est principalement utilisée en tant que membre **dwResourceType** de la structure de la [**\_ ressource MXDC XPS \_ S0PAGE \_ \_**](mxdcxpss0pageresource.md) .
 
@@ -128,8 +128,8 @@ Cette énumération est principalement utilisée en tant que membre **dwResource
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 
 

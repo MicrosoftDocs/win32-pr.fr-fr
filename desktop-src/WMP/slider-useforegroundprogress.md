@@ -3,7 +3,7 @@ title: Slider. useForegroundProgress
 description: L’attribut useForegroundProgress spécifie ou récupère une valeur indiquant si la barre de progression du premier plan sera utilisée.
 ms.assetid: 10f3b4d9-ba82-4e30-affa-50c15a809ed6
 keywords:
-- Slider. useForegroundProgress lecteur Windows Media
+- slider. useForegroundProgress Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b572933549417713158acea1a24fa9e1434c9dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 563f5776791ba0f140dfe907facf85965bddbdc8fc69f35185f72e3de95518fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118832555"
 ---
 # <a name="slideruseforegroundprogress"></a>Slider. useForegroundProgress
 
@@ -42,11 +42,11 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut permet d’utiliser l’attribut **foregroundProgress** , qui est utilisé principalement pour suivre la progression du téléchargement d’un fichier multimédia tout en effectuant un suivi simultané de la position de lecture actuelle du fichier à l’aide de l’attribut **value** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

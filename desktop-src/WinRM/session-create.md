@@ -4,9 +4,9 @@ description: Crée une nouvelle instance d’une ressource et retourne la réfé
 ms.assetid: 7629dfff-6c66-4b09-81a4-b1458ff977fa
 ms.tgt_platform: multiple
 keywords:
-- Créer une méthode Windows Remote Management
-- Create Method Windows Remote Management, objet session
-- Windows Remote Management d’objet de session, méthode Create
+- créer une méthode Windows Remote Management
+- create method Windows Remote Management, objet Session
+- Windows Remote Management d’objet de Session, méthode create
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eacdbdffb9e2dac219e3922cabfc5615de34e69
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97adac133adc4c636de395f564927a5f0194b3c52d50685ac034142e6c15aadf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823261"
 ---
 # <a name="sessioncreate-method"></a>Session. Create, méthode
 
@@ -76,7 +76,7 @@ Réservé. Doit avoir la valeur 0.
 
 EPR de la nouvelle ressource.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Session. Create** est utilisé uniquement pour créer des instances d’une ressource. Utilisez la méthode [**session. put**](session-put.md) pour mettre à jour les instances existantes d’une ressource. Une fois que vous avez obtenu le nouvel URI de ressource, vous pouvez appeler [**session. obtenir**](session-get.md) pour récupérer le nouvel objet. Le nouvel objet contient toutes les propriétés assignées par le fournisseur de ressources lors de la création du nouvel objet. Par exemple, si vous créez un [*écouteur*](windows-remote-management-glossary.md) de protocole WS-Management et que vous récupérez l’objet écouteur à l’aide de **session. obtenir**, vous obtenez également les propriétés **port**, **Enabled** et **ListeningOn** .
 

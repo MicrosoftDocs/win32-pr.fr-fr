@@ -1,11 +1,11 @@
 ---
 title: Méthode IGatherNotify paramètre addscope (déconseillée)
-description: Cette rubrique de l’interface de recherche Windows Desktop est déconseillée et remplacée par l’API ISearchPersistentItemsChangedSink de recherche Windows dans le SDK Windows. | Méthode IGatherNotify paramètre addscope (déconseillée)
+description: cette rubrique Windows Desktop search interface est déconseillée et remplacée par l’API ISearchPersistentItemsChangedSink de recherche Windows dans le SDK Windows. | Méthode IGatherNotify paramètre addscope (déconseillée)
 ms.assetid: 3b250818-1876-40b2-9a85-91f2bf6f52ec
 keywords:
-- Méthode paramètre addscope (déconseillée) fonctionnalités héritées de l’environnement Windows
-- Méthode paramètre addscope (déconseillée) fonctionnalités d’environnement Windows héritées, interface IGatherNotify
-- Interface IGatherNotify fonctionnalités d’environnement Windows héritées, méthode paramètre addscope (déconseillée)
+- paramètre addscope (déprécié) méthode héritée des fonctionnalités d’environnement Windows
+- paramètre addscope (déprécié) méthode héritée Windows fonctionnalités d’environnement, interface IGatherNotify
+- fonctionnalités d’environnement Windows héritées de l’interface IGatherNotify, méthode paramètre addscope (déconseillée)
 topic_type:
 - apiref
 api_name:
@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 967dc4f30acee2f8d8adbcfec04f0508e53bba15
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a49c0cf652b0cfde59167fa98498a978d3c2c41d3a886ee092b8f4a28d35f61b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118755590"
 ---
 # <a name="igathernotifyaddscope-deprecated-method"></a>IGatherNotify :: paramètre addscope (méthode déconseillée)
 
 \[Les **paramètre addscope** peuvent être modifiés ou non disponibles dans les versions ultérieures du système d’exploitation ou du produit.\]
 
-Cette rubrique de l’interface de recherche Windows Desktop est déconseillée et remplacée par l’API [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) de recherche Windows dans le SDK Windows.
+cette rubrique Windows Desktop search interface est déconseillée et remplacée par l’API [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) de recherche Windows dans le SDK Windows.
 
 Ajoute la page de démarrage ou l’URL que vous analysez. Cela lance une analyse incrémentielle lorsque vous vous connectez, puis suppose que toutes les autres modifications d’URL sont effectuées par notification.
 
@@ -58,7 +58,7 @@ Chaîne qui spécifie la page de démarrage ou URLthat que vous analysez.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de cette méthode démarre une analyse incrémentielle lorsqu’elle est connectée au magasin. Par la suite, il est supposé que toutes les modifications d’URL sont effectuées par notification après la mise à jour initiale.
 

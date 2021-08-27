@@ -3,8 +3,8 @@ title: Structure MPHEALTH_DATA (MpClient. h)
 description: Données de notification d’intégrité.
 ms.assetid: 37A87F77-386A-4508-B338-ED2151518968
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPHEALTH_DATA
-- PMPHEALTH_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPHEALTH_DATA
+- PMPHEALTH_DATA des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e729bdea82b6a885b64e95ecd77f9deae6bff4e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb04224d38e639d053b8e20370e2b0db0dc15f44cc647e7205911362112e4a49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106539016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975999"
 ---
 # <a name="mphealth_data-structure"></a>\_Structure de données MPHEALTH
 
@@ -70,8 +70,8 @@ Inutilisé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

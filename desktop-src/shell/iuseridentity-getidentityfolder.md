@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 9f2644570bb7ccc2ae5bee8a37d4471ffb65861a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20357dde27214177a454eb585dcd51182228c247da5aeae5ef887089b73ed85d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720605"
 ---
 # <a name="iuseridentitygetidentityfolder-method"></a>IUserIdentity :: GetIdentityFolder, méthode
 
@@ -48,7 +48,7 @@ HRESULT GetIdentityFolder(
 
 Type : **DWORD**
 
-Obligatoire. Valeur qui spécifie si le dossier associé à cette identité est itinérant. Doit avoir l’une des valeurs suivantes.
+Obligatoire. Valeur qui spécifie si le dossier associé à cette identité est itinérant. Il doit s’agir de l’une des valeurs suivantes.
 
 <dt>
 
@@ -77,13 +77,13 @@ Le dossier est local.
 *pszPath* \[ dans\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Pointeur vers une chaîne de caractères larges qui reçoit le chemin d’accès au dossier.
 
 </dd> <dt>
 
-_ulBuffSize * \[ dans\]
+*ulBuffSize* \[ dans\]
 </dt> <dd>
 
 Type : **ULong**
@@ -98,7 +98,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

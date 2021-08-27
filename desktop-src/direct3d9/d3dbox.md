@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 882f6aadf0d49284b30132d4f08a9c583e5c9d73
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b7e01641348594e962f546a431700db799600a08571bbb7cfaf13396e671036
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805512"
 ---
 # <a name="d3dbox-structure"></a>D3DBOX, structure
 
@@ -110,7 +110,7 @@ Position du arrière de la boîte sur l’axe z.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **D3DBOX** comprend les bords gauche, supérieur et avant ; Toutefois, les bords droit, inférieur et arrière ne sont pas inclus. Par exemple, une zone de 100 unités de largeur et commençant à 0 (y compris les points jusqu’à 99) sont exprimées avec la valeur 0 pour le membre de gauche et la valeur 100 pour le membre de droite. Notez qu’une valeur de 99 n’est pas utilisée pour le membre approprié.
 

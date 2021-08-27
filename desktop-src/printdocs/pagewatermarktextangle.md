@@ -4,12 +4,12 @@ ms.assetid: 157bb79c-68d2-4121-8a85-cd2f48095541
 title: PageWatermarkTextAngle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dce37512314e1eaac0cbbe3b5b4b817cb2ee455
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: d8ccf422cb9c2f14850a89994873c1c8b9313178d82ecae9fe5ac06128e5a19e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118470959"
 ---
 # <a name="pagewatermarktextangle"></a>PageWatermarkTextAngle
 
@@ -28,7 +28,7 @@ Spécifie l’angle du texte de filigrane par rapport à la direction PageImagea
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
-| Notes <br/>          | Lié à l’élément PageWatermark<br/> |
+| Remarques <br/>          | Lié à l’élément PageWatermark<br/> |
 
 
 
@@ -77,7 +77,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | entier<br/> | 0<br/>               |
 | MaxValue<br/>     | entier<br/> | 359<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | degrés<br/>         |
 

@@ -1,22 +1,22 @@
 ---
 title: Énumération des contrôleurs de domaine
-description: Dans les versions antérieures de Windows, une application pouvait uniquement obtenir un contrôleur de domaine unique dans un domaine en appelant DsGetDcName.
+description: dans les versions antérieures de Windows, une application pouvait uniquement obtenir un contrôleur de domaine unique dans un domaine en appelant DsGetDcName.
 ms.assetid: bfc92777-6944-406a-8b93-949a1cf3e2c3
 ms.tgt_platform: multiple
 keywords:
 - Active Directory exemples Active Directory, énumération de contrôleurs de domaine Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94384bb8c62edb7b0d45328dabe7765a43e4e610
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 54234301ad843708fd4e9b20e38f2b4fd8391e1134a78cea8b0d45a001d701d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695147"
 ---
 # <a name="enumerating-domain-controllers"></a>Énumération des contrôleurs de domaine
 
-Dans les versions antérieures de Windows, une application pouvait uniquement obtenir un contrôleur de domaine unique dans un domaine en appelant [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea). Il n’existait aucun moyen de prédire quel contrôleur de domaine serait récupéré ou d’obtenir une liste des contrôleurs de domaine. Windows permet à une application d’énumérer les contrôleurs de domaine dans un domaine à l’aide des fonctions [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena), [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)et [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) .
+dans les versions antérieures de Windows, une application pouvait uniquement obtenir un contrôleur de domaine unique dans un domaine en appelant [**DsGetDcName**](/windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea). Il n’existait aucun moyen de prédire quel contrôleur de domaine serait récupéré ou d’obtenir une liste des contrôleurs de domaine. Windows permet à une application d’énumérer les contrôleurs de domaine dans un domaine à l’aide des fonctions [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena), [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta)et [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) .
 
 Pour énumérer un contrôleur de domaine, appelez [**DsGetDcOpen**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena). Cette fonction accepte les paramètres qui définissent le domaine à énumérer et d’autres options d’énumération. **DsGetDcOpen** fournit un handle de contexte d’énumération de domaine qui est utilisé pour identifier l’opération d’énumération lorsque [**DsGetDcNext**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta) et [**DsGetDcClose**](/windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew) sont appelés.
 
@@ -117,9 +117,9 @@ if(ERROR_SUCCESS == dwRet)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

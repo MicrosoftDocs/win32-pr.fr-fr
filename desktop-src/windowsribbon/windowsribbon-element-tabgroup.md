@@ -3,7 +3,7 @@ title: Élément TabGroup
 description: Représente un ensemble contextuel de contrôles onglet.
 ms.assetid: f131efe1-b8c4-416e-997a-5e2d3bcc03ea
 keywords:
-- Ruban des fenêtres d’élément TabGroup
+- élément TabGroup Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: cd2d2109abd92f791a14c5d2ba19fc7eaecd73e7f2718623100c6ec3eb0e1e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706869"
 ---
 # <a name="tabgroup-element"></a>Élément TabGroup
 
 Représente un ensemble contextuel de contrôles [onglet](windowsribbon-controls-tabgroup.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <TabGroup
@@ -71,7 +71,7 @@ Représente un ensemble contextuel de contrôles [onglet](windowsribbon-controls
 
 | Élément                                             | Description                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**/**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
+| [**Onglet**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
 
 
 
@@ -157,7 +157,7 @@ Cette section de code montre les déclarations de contrôle **TabGroup** corresp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

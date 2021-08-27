@@ -3,9 +3,9 @@ title: Méthode playlist. getItemInfo
 description: La méthode getItemInfo récupère la valeur d’un attribut playlist.
 ms.assetid: 888c0ab7-c225-4246-b1a1-94da7e19fa1a
 keywords:
-- méthode getItemInfo lecteur Windows Media
-- méthode getItemInfo lecteur Windows Media, classe de sélection
-- Classe de sélection lecteur Windows Media, méthode getItemInfo
+- Lecteur Windows Media de la méthode getItemInfo
+- méthode getItemInfo Lecteur Windows Media, classe Playlist
+- Lecteur Windows Media de classe Playlist, méthode getItemInfo
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b1151528d6cf4e36aaed1cb4dc48a70f4083c4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b48a9106a4aba6a5080724faccc856a1515e7a7398a1c75df2fa1e99bf86f342
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118834876"
 ---
 # <a name="playlistgetiteminfo-method"></a>Méthode playlist. getItemInfo
 
@@ -45,7 +45,7 @@ strRetVal = Playlist.getItemInfo(
 *nom* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant le nom de l’attribut à récupérer. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** contenant le nom de l’attribut à récupérer. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ strRetVal = Playlist.getItemInfo(
 
 Cette méthode retourne une **chaîne**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -61,7 +61,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 Consultez la propriété [attributeCount](playlist-attributecount.md) pour obtenir un exemple de code qui utilise cette propriété.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

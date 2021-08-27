@@ -4,12 +4,12 @@ description: Objet Balloon
 ms.assetid: d5b52310-0b4e-4fe3-a481-53687be4a89c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de0c94803e9efadde1ae4a8410273ed49437291a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2afc2ad1256b040588121dcb92fc8f66fea540b3051b92a6fe5273eb2f81107b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104198904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745971"
 ---
 # <a name="the-balloon-object"></a>Objet Balloon
 
@@ -24,7 +24,7 @@ L’objet [**Balloon**](/windows/desktop/lwef/the-balloon-object) prend en charg
 -   [**BackColor**](backcolor-property.md)
 -   [**BorderColor**](bordercolor-property.md)
 -   [**CharsPerLine**](charsperline-property.md)
--   [**Enabled**](enabled-property.md)
+-   [**Activé**](enabled-property.md)
 -   [**FontCharSet**](fontcharset-property.md)
 -   [**FontName**](fontname-property-bal.md)
 -   [**Gras**](fontbold-property.md)
@@ -37,6 +37,6 @@ L’objet [**Balloon**](/windows/desktop/lwef/the-balloon-object) prend en charg
 -   [**Style**](style-property.md)
 -   [**Parent**](visible-property-bal.md)
 
- 
+ 
 
- 
+ 

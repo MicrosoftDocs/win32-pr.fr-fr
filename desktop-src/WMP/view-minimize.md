@@ -3,7 +3,7 @@ title: AFFICHER. réduire
 description: La méthode Minimize réduit la vue.
 ms.assetid: 97c257fa-aa4f-4e6f-bc49-fa54db63b59b
 keywords:
-- AFFICHER. réduire le lecteur Windows Media
+- afficher. réduire Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e01c35ad5a77c5a78a705d0188f771e0466a761
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0351ad27e18750832151e8820dec8594319024791850f1ab92764e175d9582b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332961"
 ---
 # <a name="viewminimize"></a>AFFICHER. réduire
 

@@ -1,18 +1,18 @@
 ---
-title: Exemples de signatures racines
+title: Exemples de signatures racine
 description: La section suivante montre les signatures racines qui diffèrent en matière de complexité par rapport à la totalité de l’espace vide.
 ms.assetid: 493D35C9-2A90-4688-BD7E-74B9EB2B4E72
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d09d355cc1c96d77670c5536400f0b3f93c097
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2332a6efb36b309c5dc74a8578a0be9d2f46298375c309872cae8718d5bc5950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529410"
 ---
-# <a name="example-root-signatures"></a>Exemples de signatures racines
+# <a name="example-root-signatures"></a>Exemples de signatures racine
 
 La section suivante montre les signatures racines qui diffèrent en matière de complexité par rapport à la totalité de l’espace vide.
 
@@ -100,15 +100,15 @@ Ce scénario nécessite un matériel avec la liaison de ressource niveau2 +.
 [Couches matérielles de liaison de ressources](hardware-support.md)
 </dt> <dt>
 
-[Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+[Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

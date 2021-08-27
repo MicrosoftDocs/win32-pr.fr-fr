@@ -4,12 +4,12 @@ ms.assetid: 891198e8-6c45-4f03-99bb-e24a4082b0d8
 title: Utilisation des pilotes antérieurs (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76567bc4778924835e20a476b03dc94ea77739fd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 24284c706d49ce3294e23486f72150ffd74ee376e2be0d7d06dca09877eb7cc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796908"
 ---
 # <a name="working-with-earlier-drivers-direct3d-9"></a>Utilisation des pilotes antérieurs (Direct3D 9)
 
@@ -23,7 +23,7 @@ Pour rechercher un pilote Direct3D 9, recherchez une valeur différente de zéro
 
 <dl> <dt>
 
-[Conseils de programmation](programming-tips.md)
+[Astuces de programmation](programming-tips.md)
 </dt> </dl>
 
  

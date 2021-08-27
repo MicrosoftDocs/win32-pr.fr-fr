@@ -4,12 +4,12 @@ description: IAgentCommands GetCaption
 ms.assetid: bbaaaa20-c8c2-41af-a6fc-cf8849daa399
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f886413ae6bfbfe104306d7280d8c66b08bf311a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cd6eb40b0be58695e79a02ab0ad67ad0d26a47bd13a1637dc1d1f5a4380a7429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749885"
 ---
 # <a name="iagentcommandsgetcaption"></a>IAgentCommands::GetCaption
 
@@ -39,6 +39,6 @@ Adresse d’un BSTR qui reçoit la valeur du paramètre de texte de [**légende*
 [**IAgentCommands :: SetCaption**](iagentcommands--setcaption.md), [**IAgentCommands :: getVisible**](iagentcommands--getvisible.md), [**IAgentCommands :: GetVoice**](iagentcommands--getvoice.md)
 
 
- 
+ 
 
- 
+ 

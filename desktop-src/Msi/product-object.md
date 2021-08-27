@@ -68,7 +68,7 @@ L’objet **Product** possède ces propriétés.
 | [**ProductCode**](product-productcode.md)<br/>         | Retourne le code du produit. <br/>                                                       |
 | [**SourceListInfo**](product-sourcelistinfo.md)<br/>   | Obtient et définit les propriétés des informations sur la source. Il s’agit d’une propriété de lecture ou d’écriture.<br/> |
 | [**Sources**](product-sources.md)<br/>                 | Énumère toutes les sources pour cette instance de produit.<br/>                            |
-| [**State**](product-state.md)<br/>                     | État d’installation du produit.<br/>                                               |
+| [**Département**](product-state.md)<br/>                     | État d’installation du produit.<br/>                                               |
 | [**UserSid**](product-usersid.md)<br/>                 | Retourne le SID de l’utilisateur, sous quel compte cette instance de produit est disponible.<br/>    |
 
 
