@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0622f3d80e923f7d910740c71ee99f0e9a0bc446cea259b292e2d645e3b5a973
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b9c9c0e98d884e09b9bbd52ef4f0e1cb53e782ea
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119858873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886993"
 ---
 # <a name="authentication-for-remote-connections"></a>Authentification des connexions à distance
 
@@ -23,7 +23,7 @@ Windows La gestion à distance maintient la sécurité pour la communication ent
 
 ## <a name="default-group-access"></a>Accès au groupe par défaut
 
-Pendant l’installation, WinRM crée le groupe **local \_ \_ WinRMRemoteWMIUsers**. WinRM limite ensuite l’accès à distance à n’importe quel utilisateur qui n’est pas membre du groupe d’administration local ou du groupe **WinRMRemoteWMIUsers \_ \_** . Vous pouvez ajouter un utilisateur local, un utilisateur de domaine ou un groupe de domaines à **WinRMRemoteWMIUsers \_ \_** en tapant **net localgroup WinRMRemoteWMIUsers \_ \_ /Add <domain> \\ <username>** à l’invite de commandes. Si vous le souhaitez, vous pouvez utiliser la stratégie de groupe pour ajouter un utilisateur au groupe.
+Pendant l’installation, WinRM crée le groupe **local \_ \_ WinRMRemoteWMIUsers**. WinRM limite ensuite l’accès à distance à n’importe quel utilisateur qui n’est pas membre du groupe d’administration local ou du groupe **WinRMRemoteWMIUsers \_ \_** . Vous pouvez ajouter un utilisateur local, un utilisateur de domaine ou un groupe de domaines à **WinRMRemoteWMIUsers \_ \_** en tapant **net localgroup WinRMRemoteWMIUsers \_ \_ /Add &lt; domaine &gt; \\ &lt; NomUtilisateur &gt;** à l’invite de commandes. Si vous le souhaitez, vous pouvez utiliser la stratégie de groupe pour ajouter un utilisateur au groupe.
 
 ## <a name="default-authentication-settings"></a>Paramètres d’authentification par défaut
 

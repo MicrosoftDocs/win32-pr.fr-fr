@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e15fba102f9a7c8a2581271c575857b49bc5df1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26f756d669ba79ce034a9562d6cae5d58653bc60e042344306fb18aa37edfdc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121629"
 ---
 # <a name="resourcelocatorfragmentpath-property"></a>ResourceLocator. FragmentPath, propriété
 
@@ -43,7 +43,7 @@ ResourceLocator.FragmentPath
 
 Chaîne qui identifie le fragment ou la propriété de la ressource. Par exemple, si la ressource est un lecteur de disque et que la propriété demandée est fabricant, la chaîne peut contenir `Diskdrive/Manufacturer` . Le texte du fragment respecte la casse. Dans ce cas, vous ne pouvez pas utiliser `diskdrive/manufacturer` .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IWSManResourceLocator :: FragmentPath** est la propriété C++ correspondante.
 

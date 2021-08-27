@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1940f3f93bdc018068868c5645409b22574c9fb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e57cc3f1078d46436d56a56c48c31a3fac4956c0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530117"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481405"
 ---
 # <a name="backup-and-restore-parameters"></a>Paramètres de sauvegarde et de restauration
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="backup-and-restore-parameters"></a>Paramètres de sauvegarde et de restauration
 
@@ -36,58 +36,9 @@ Cette rubrique contient les paramètres utilisés pour la sauvegarde et la resta
 
 Le chemin d’accès complet à chaque base de données est conservé dans les journaux des transactions au moment de l’exécution. En règle générale, ces bases de données doivent rester à l’emplacement d’origine pour que la relecture des transactions fonctionne correctement. Ce paramètre peut être utilisé pour forcer la récupération après incident ou une opération de restauration pour rechercher les bases de données référencées dans le journal des transactions dans le dossier spécifié.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>&quot;&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Chemin d’accès au dossier (String)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 246 caractères</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>""</p> | | <p>Tapez :</p> | <p>Chemin d’accès au dossier (String)</p> | | <p>Plage valide :</p> | <p>0 – 246 caractères</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramCleanupMismatchedLogFiles*  
@@ -97,58 +48,9 @@ Ce paramètre contrôle le résultat de [JetInit](./jetinit-function.md) lorsque
 
 Ce paramètre est utile lorsque l’application souhaite modifier en toute transparence la taille du fichier journal des transactions, tout en continuant à travailler de manière transparente dans les scénarios de mise à niveau et de restauration.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Faux</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramDeleteOutOfRangeLogs*  
@@ -156,60 +58,11 @@ Ce paramètre est utile lorsque l’application souhaite modifier en toute trans
 
 Lorsque ce paramètre a la valeur true, tous les fichiers journaux des transactions trouvés sur le disque qui ne font pas partie de la séquence actuelle des fichiers journaux seront supprimés par [JetInit](./jetinit-function.md). Cela peut être utilisé pour nettoyer automatiquement les fichiers journaux superflus après une opération de restauration.
 
-**Windows XP :**  Introduite dans Windows XP.
+**Windows XP :**  introduite dans Windows XP.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Faux</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramOSSnapshotTimeout*  
@@ -217,59 +70,9 @@ Lorsque ce paramètre a la valeur true, tous les fichiers journaux des transacti
 
 Ce paramètre configure la durée autorisée entre un appel à [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) et [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) avant qu’un délai d’attente ne se produise. Pour plus d’informations, consultez [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) et [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) . Le délai d’attente est exprimé en millisecondes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>20000 (Windows XP et Windows Server 2003);</p>
-<p>70000 (Windows Server 2003 SP1)</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>20000 (Windows XP et Windows Server 2003);</p><p>70000 (Windows Server 2003 SP1)</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramZeroDatabaseDuringBackup*  
@@ -277,82 +80,16 @@ Ce paramètre configure la durée autorisée entre un appel à [JetOSSnapshotFre
 
 Lorsque ce paramètre a la valeur true, toutes les pages d’une base de données qui subit une sauvegarde en continu sont nettoyées des données supprimées. Il est important de noter que les pages de la base de données qui sont en cours de nettoyage sont sur le disque. Le jeu de données complet est sauvegardé avant le processus de nettoyage.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Faux</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 98e5c425ee7982bdfddfeb31ec1e950a0dc27d61
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c6721b95d3375cb9f48744b2f7d28afd92a5024e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106535440"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472135"
 ---
 # <a name="span-idwwan_profile_v4element_1_usernamespanmodemdmconfigprofileusername-v4"></a><span id="WWAN_profile_v4.element_1_UserName"></span>ModemDMConfigProfile \/ ... \/ Nom d’utilisateur (v4)
 
@@ -41,7 +41,7 @@ Pour plus d’informations, consultez la documentation de l’élément de [**no
 &nbsp;&nbsp;&nbsp;&nbsp;[\<UserLogonCred\>](element-1-userlogoncred.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**\<UserName\>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <UserName>
@@ -55,49 +55,27 @@ Pour plus d’informations, consultez la documentation de l’élément de [**no
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément parent</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-1-userlogoncred.md">UserLogonCred</a></td>
-<td><p>Informations d’identification d’ouverture de session pour une connexion.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Élément parent | Description | 
+|----------------|-------------|
+| <a href="element-1-userlogoncred.md">UserLogonCred</a> | <p>Informations d’identification d’ouverture de session pour une connexion.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Espace de noms</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

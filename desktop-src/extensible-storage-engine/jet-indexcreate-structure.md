@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf34f8552b23f37f2d5cd032f2d25aa49f8b9a1af972db97fab8270dc6d9cf79
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 31b6b72cba336e3f7251bacfb1836673086ba9c2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119039067"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467626"
 ---
 # <a name="jet_indexcreate-structure"></a>Structure JET_INDEXCREATE
 
@@ -96,96 +96,27 @@ Longueur, en octets, de **szKey** , y compris les deux valeurs null de fin.
 
 Groupe de bits qui comprend zéro, une ou plusieurs des valeurs énumérées dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitIndexUnique</p></td>
-<td><p>Les entrées d’index en double (clés) ne sont pas autorisées. Cette méthode est appliquée quand <a href="gg269288(v=exchg.10).md">JetUpdate</a> est appelé, et non lorsque <a href="gg294137(v=exchg.10).md">JetSetColumn</a> est appelé.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexPrimary</p></td>
-<td><p>L’index est un index principal (cluster). Chaque table doit avoir un seul index primaire. Si aucun index primaire n’est défini explicitement sur une table, le moteur de base de données crée son propre index primaire.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexDisallowNull</p></td>
-<td><p>Aucune des colonnes sur lesquelles l’index est créé ne peut contenir une valeur <strong>null</strong> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreNull</p></td>
-<td><p>N’ajoutez pas d’entrée d’index pour une ligne si toutes les colonnes indexées ont la <strong>valeur null</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexIgnoreAnyNull</p></td>
-<td><p>N’ajoutez pas d’entrée d’index pour une ligne si l’une des colonnes indexées a la <strong>valeur null</strong>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexIgnoreFirstNull</p></td>
-<td><p>N’ajoutez pas d’entrée d’index pour une ligne si la première colonne indexée a la <strong>valeur null</strong>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexLazyFlush</p></td>
-<td><p>Les opérations d’index seront journalisées tardivement.</p>
-<p>JET_bitIndexLazyFlush n’affecte pas le paresse des mises à jour de données. Si l’opération d’indexation est interrompue par un arrêt de processus, la récupération logicielle peut toujours être en mesure d’obtenir la base de données à un état cohérent, mais l’index peut ne pas être présent.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexEmpty</p></td>
-<td><p>N’essayez pas de créer l’index, car toutes les entrées ont la <strong>valeur null</strong>. <strong>Grbit</strong> doit également spécifier JET_bitIgnoreAnyNull lorsque JET_bitIndexEmpty est passé. Il s’agit d’une amélioration des performances. Par exemple, si une nouvelle colonne est ajoutée à une table, un index est créé sur cette colonne nouvellement ajoutée, et tous les enregistrements de la table sont analysés même s’ils ne sont pas ajoutés à l’index. La spécification de JET_bitIndexEmpty ignore l’analyse de la table, ce qui peut prendre un certain temps.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnversioned</p></td>
-<td><p>Rend la création d’index visible pour les autres transactions. En général, une session dans une transaction ne peut pas voir une opération de création d’index dans une autre session. Cet indicateur peut être utile si une autre transaction est susceptible de créer le même index. Le second index-Create échoue au lieu de provoquer potentiellement des opérations de base de données inutiles. La deuxième transaction peut ne pas être en mesure d’utiliser l’index immédiatement. L’opération de création d’index doit être terminée pour pouvoir être utilisée. La session ne doit pas être actuellement dans une transaction pour créer un index sans informations de version.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexSortNullsHigh</p></td>
-<td><p>Si vous spécifiez cet indicateur, les valeurs <strong>null</strong> sont triées après les données de toutes les colonnes de l’index.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexUnicode</p></td>
-<td><p>La spécification de cet indicateur affecte l’interprétation du champ LCID/pidxunicde Union dans la structure. La définition du bit signifie que le champ <strong>pidxunicode</strong> pointe en fait vers une structure <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> . JET_bitIndexUnicode n’est pas nécessaire pour indexer les données Unicode. Elle est utilisée uniquement pour personnaliser la normalisation des données Unicode.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexTuples</p></td>
-<td><p>Spécifie que l’index est un index de Tuple. Pour obtenir une description d’un index de tuple, consultez <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> .</p>
-<p>JET_bitIndexTuples a été introduite dans le système d’exploitation Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexTupleLimits</p></td>
-<td><p>La spécification de cet indicateur affecte l’interprétation du champ <strong>cbVarSegMac/ptuplelimits</strong> Union dans la structure. Le fait de définir ce bit signifie que le champ <strong>ptuplelimits</strong> pointe vers une structure <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> pour autoriser les limites d’index de tuple personnalisées (implique JET_bitIndexTuples).</p>
-<p>JET_bitIndexTupleLimits a été introduite dans le système d’exploitation Windows Server 2003.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexCrossProduct 0x00004000</p></td>
-<td><p>La spécification de cet indicateur pour un index qui a plusieurs colonnes clés qui est une colonne à valeurs multiples entraîne la création d’une entrée d’index pour chaque résultat d’un produit croisé de toutes les valeurs dans ces colonnes clés. Dans le cas contraire, l’index comporterait une seule entrée pour chaque valeur multivaleur dans la colonne clé la plus significative qui est une colonne à valeurs multiples et chacune de ces entrées d’index utiliserait la première valeur multivaleur de toutes les autres colonnes clés qui sont des colonnes à valeurs multiples.</p>
-<p>Par exemple, si vous avez spécifié cet indicateur pour un index sur la colonne a qui a les valeurs &quot; rouge &quot; et &quot; bleu &quot; et sur la colonne B qui a les valeurs &quot; 1 &quot; et &quot; 2, &quot; les entrées d’index suivantes sont créées : &quot; rouge &quot; , &quot; 1 &quot; ; &quot; rouge &quot; , &quot; 2 &quot; ; &quot; bleu &quot; , &quot; 1 &quot; ; &quot; bleu &quot; , &quot; 2 &quot; . Dans le cas contraire, les entrées d’index suivantes sont créées : &quot; rouge &quot; , &quot; 1 &quot; ; &quot; bleu &quot; , &quot; 1 &quot; .</p>
-<p>JET_bitIndexCrossProduct a été introduite dans le système d’exploitation Windows Vista.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexKeyMost 0x00008000</p></td>
-<td><p>La spécification de cet indicateur entraîne l’utilisation par l’index de la taille de clé maximale spécifiée dans le champ <strong>cbKeyMost</strong> de la structure. Dans le cas contraire, l’index utilise JET_cbKeyMost (255) comme taille de clé maximale.</p>
-<p>JET_bitIndexKeyMost a été introduite dans Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitIndexDisallowTruncation 0x00010000</p></td>
-<td><p>Si vous spécifiez cet indicateur, toute mise à jour de l’index entraînant l’échec d’une clé tronquée avec JET_errKeyTruncated. Dans le cas contraire, les clés sont tronquées en mode silencieux. Pour plus d’informations sur la troncation de clé, consultez la fonction <a href="gg269329(v=exchg.10).md">JetMakeKey</a> .</p>
-<p><strong>Windows vista : JET_bitIndexDisallowTruncation</strong> est introduite dans Windows vista.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitIndexNestedTable 0x00020000</p></td>
-<td><p>La spécification de cet indicateur entraîne la mise à jour de l’index sur plusieurs colonnes à valeurs multiples, mais uniquement avec les valeurs du même <strong>itagSequence</strong>.</p>
-<p>JET_bitIndexNestedTable a été introduite dans Windows Vista.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitIndexUnique</p> | <p>Les entrées d’index en double (clés) ne sont pas autorisées. Cette méthode est appliquée quand <a href="gg269288(v=exchg.10).md">JetUpdate</a> est appelé, et non lorsque <a href="gg294137(v=exchg.10).md">JetSetColumn</a> est appelé.</p> | 
+| <p>JET_bitIndexPrimary</p> | <p>L’index est un index principal (cluster). Chaque table doit avoir un seul index primaire. Si aucun index primaire n’est défini explicitement sur une table, le moteur de base de données crée son propre index primaire.</p> | 
+| <p>JET_bitIndexDisallowNull</p> | <p>Aucune des colonnes sur lesquelles l’index est créé ne peut contenir une valeur <strong>null</strong> .</p> | 
+| <p>JET_bitIndexIgnoreNull</p> | <p>N’ajoutez pas d’entrée d’index pour une ligne si toutes les colonnes indexées ont la <strong>valeur null</strong>.</p> | 
+| <p>JET_bitIndexIgnoreAnyNull</p> | <p>N’ajoutez pas d’entrée d’index pour une ligne si l’une des colonnes indexées a la <strong>valeur null</strong>.</p> | 
+| <p>JET_bitIndexIgnoreFirstNull</p> | <p>N’ajoutez pas d’entrée d’index pour une ligne si la première colonne indexée a la <strong>valeur null</strong>.</p> | 
+| <p>JET_bitIndexLazyFlush</p> | <p>Les opérations d’index seront journalisées tardivement.</p><p>JET_bitIndexLazyFlush n’affecte pas le paresse des mises à jour de données. Si l’opération d’indexation est interrompue par un arrêt de processus, la récupération logicielle peut toujours être en mesure d’obtenir la base de données à un état cohérent, mais l’index peut ne pas être présent.</p> | 
+| <p>JET_bitIndexEmpty</p> | <p>N’essayez pas de créer l’index, car toutes les entrées ont la <strong>valeur null</strong>. <strong>Grbit</strong> doit également spécifier JET_bitIgnoreAnyNull lorsque JET_bitIndexEmpty est passé. Il s’agit d’une amélioration des performances. Par exemple, si une nouvelle colonne est ajoutée à une table, un index est créé sur cette colonne nouvellement ajoutée, et tous les enregistrements de la table sont analysés même s’ils ne sont pas ajoutés à l’index. La spécification de JET_bitIndexEmpty ignore l’analyse de la table, ce qui peut prendre un certain temps.</p> | 
+| <p>JET_bitIndexUnversioned</p> | <p>Rend la création d’index visible pour les autres transactions. En général, une session dans une transaction ne peut pas voir une opération de création d’index dans une autre session. Cet indicateur peut être utile si une autre transaction est susceptible de créer le même index. Le second index-Create échoue au lieu de provoquer potentiellement des opérations de base de données inutiles. La deuxième transaction peut ne pas être en mesure d’utiliser l’index immédiatement. L’opération de création d’index doit être terminée pour pouvoir être utilisée. La session ne doit pas être actuellement dans une transaction pour créer un index sans informations de version.</p> | 
+| <p>JET_bitIndexSortNullsHigh</p> | <p>Si vous spécifiez cet indicateur, les valeurs <strong>null</strong> sont triées après les données de toutes les colonnes de l’index.</p> | 
+| <p>JET_bitIndexUnicode</p> | <p>La spécification de cet indicateur affecte l’interprétation du champ LCID/pidxunicde Union dans la structure. La définition du bit signifie que le champ <strong>pidxunicode</strong> pointe en fait vers une structure <a href="gg294097(v=exchg.10).md">JET_UNICODEINDEX</a> . JET_bitIndexUnicode n’est pas nécessaire pour indexer les données Unicode. Elle est utilisée uniquement pour personnaliser la normalisation des données Unicode.</p> | 
+| <p>JET_bitIndexTuples</p> | <p>Spécifie que l’index est un index de Tuple. Pour obtenir une description d’un index de tuple, consultez <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> .</p><p>JET_bitIndexTuples a été introduite dans le système d’exploitation Windows XP.</p> | 
+| <p>JET_bitIndexTupleLimits</p> | <p>La spécification de cet indicateur affecte l’interprétation du champ <strong>cbVarSegMac/ptuplelimits</strong> Union dans la structure. Le fait de définir ce bit signifie que le champ <strong>ptuplelimits</strong> pointe vers une structure <a href="gg269207(v=exchg.10).md">JET_TUPLELIMITS</a> pour autoriser les limites d’index de tuple personnalisées (implique JET_bitIndexTuples).</p><p>JET_bitIndexTupleLimits a été introduite dans le système d’exploitation Windows Server 2003.</p> | 
+| <p>JET_bitIndexCrossProduct 0x00004000</p> | <p>La spécification de cet indicateur pour un index qui a plusieurs colonnes clés qui est une colonne à valeurs multiples entraîne la création d’une entrée d’index pour chaque résultat d’un produit croisé de toutes les valeurs dans ces colonnes clés. Dans le cas contraire, l’index comporterait une seule entrée pour chaque valeur multivaleur dans la colonne clé la plus significative qui est une colonne à valeurs multiples et chacune de ces entrées d’index utiliserait la première valeur multivaleur de toutes les autres colonnes clés qui sont des colonnes à valeurs multiples.</p><p>Par exemple, si vous avez spécifié cet indicateur pour un index sur la colonne a qui a les valeurs « Red » et « Blue » et sur la colonne B qui a les valeurs « 1 » et « 2 », les entrées d’index suivantes sont créées : « Red », « 1 »; « Red », « 2 »; "Blue", "1"; « Blue », « 2 ». Dans le cas contraire, les entrées d’index suivantes sont créées : « Red », « 1 »; « Blue », « 1 ».</p><p>JET_bitIndexCrossProduct a été introduite dans le système d’exploitation Windows Vista.</p> | 
+| <p>JET_bitIndexKeyMost 0x00008000</p> | <p>La spécification de cet indicateur entraîne l’utilisation par l’index de la taille de clé maximale spécifiée dans le champ <strong>cbKeyMost</strong> de la structure. Dans le cas contraire, l’index utilise JET_cbKeyMost (255) comme taille de clé maximale.</p><p>JET_bitIndexKeyMost a été introduite dans Windows Vista.</p> | 
+| <p>JET_bitIndexDisallowTruncation 0x00010000</p> | <p>Si vous spécifiez cet indicateur, toute mise à jour de l’index entraînant l’échec d’une clé tronquée avec JET_errKeyTruncated. Dans le cas contraire, les clés sont tronquées en mode silencieux. Pour plus d’informations sur la troncation de clé, consultez la fonction <a href="gg269329(v=exchg.10).md">JetMakeKey</a> .</p><p><strong>Windows vista : JET_bitIndexDisallowTruncation</strong> est introduite dans Windows vista.</p> | 
+| <p>JET_bitIndexNestedTable 0x00020000</p> | <p>La spécification de cet indicateur entraîne la mise à jour de l’index sur plusieurs colonnes à valeurs multiples, mais uniquement avec les valeurs du même <strong>itagSequence</strong>.</p><p>JET_bitIndexNestedTable a été introduite dans Windows Vista.</p> | 
+
 
 
 **ulDensity**
@@ -252,43 +183,12 @@ Le moteur ESE prend en charge l’indexation sur des colonnes clés contenant pl
 
 En supposant que les lignes suivantes existent dans une table (la colonne alpha n’est pas à valeurs multiples, tandis que les colonnes Beta, gamma et Delta sont à valeurs multiples) et qu’un index est créé en tant que « + alpha \\ 0 + bêta \\ 0 + gamma \\ 0 + Delta \\ 0 \\ 0 » :
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Alpha</p></th>
-<th><p>Bêta</p></th>
-<th><p>Gamma</p></th>
-<th><p>Delta</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>1</p></td>
-<td><p>ABC<br />
-GHI<br />
-JKL</p></td>
-<td><p>MNO<br />
-PQR<br />
-STU</p></td>
-<td><p>VWX<br />
-YZ</p></td>
-</tr>
-<tr class="even">
-<td><p>2</p></td>
-<td><p>LA</p></td>
-<td><p>PLUIE<br />
-ESPAGNE</p></td>
-<td><p>IN<br />
-FAIT</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Alpha</p> | <p>Bêta</p> | <p>Gamma</p> | <p>Delta</p> | 
+|--------------|-------------|--------------|--------------|
+| <p>1</p> | <p>ABC<br />GHI<br />JKL</p> | <p>MNO<br />PQR<br />STU</p> | <p>VWX<br />YZ</p> | 
+| <p>2</p> | <p>LA</p> | <p>PLUIE<br />ESPAGNE</p> | <p>IN<br />FAIT</p> | 
+
 
 
 La chute des tuples d’index sera stockée :
@@ -304,30 +204,9 @@ dans les versions de Windows à partir de Windows Vista, toutes les colonnes à 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté comme <strong>JET_ INDEXCREATE_W</strong> (Unicode) et <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_ INDEXCREATE_W</strong> (Unicode) et <strong>JET_ INDEXCREATE_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

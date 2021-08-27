@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wmistr.h
-ms.openlocfilehash: e8ad8bd5e1fd4917fa031e7553ed0e7e460244b8ab7c7da347a62d7430036cc0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 93cecb900b0c62084a3b5ea4e4a7789575c20c27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119015237"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480685"
 ---
 # <a name="wnode_header-structure"></a>\_Structure d’en-tête WNODE
 
@@ -103,7 +103,7 @@ Heure à laquelle les informations de cette structure ont été mises à jour, e
 
 </dd> <dt>
 
-**Guid**
+**Uniques**
 </dt> <dd>
 
 GUID que vous définissez pour la session.
@@ -137,37 +137,13 @@ Vous pouvez spécifier l’une des valeurs suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt>1</dt> </dl></td>
-<td>Compteur de performance des requêtes (QPC). Le compteur QPC fournit un horodatage haute résolution qui n’est pas affecté par les réglages de l’horloge système. L’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API QueryPerformanceCounter. Pour plus d’informations sur les caractéristiques de cet horodatage, consultez <a href="/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">acquisition d’horodatages haute résolution</a>.<br/> Vous devez utiliser cette résolution si vous avez des taux d’événements élevés ou si le consommateur fusionne les événements à partir de mémoires tampons différentes. Dans ces cas, la précision et la stabilité de l’horodatage QPC permettent une meilleure précision de l’ordonnancement des événements à partir de mémoires tampons différentes. Toutefois, l’horodatage QPC ne reflète pas les mises à jour de l’horloge système, par exemple, si l’horloge système est avancée en raison de la synchronisation avec un serveur NTP pendant que la trace est en cours, les horodatages QPC dans la trace continuent de refléter le temps comme si aucune mise à jour n’avait eu lieu.<br/> Pour déterminer la résolution, utilisez le membre <strong>PerfFreq</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br/> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br/> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart * 10000000,0/logfileHeader. PerfFreq. QuadPart<br/> Notez que sur les ordinateurs plus anciens, l’horodatage peut ne pas être précis, car le compteur ignore parfois les transferts en raison d’erreurs matérielles.<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt>2</dt> </dl></td>
-<td>Heure système. L’heure système fournit un horodatage qui effectue le suivi des modifications apportées à l’horloge du système, par exemple, si l’horloge système est avancée en raison de la synchronisation avec un serveur NTP pendant que la trace est en cours, les horodatages de l’heure système dans la trace se poursuivent également pour correspondre au nouveau paramètre de l’horloge système. <br/>
-<ul>
-<li>sur les systèmes antérieurs à Windows 10, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimeAsFileTime.</li>
-<li>sur Windows 10 ou version ultérieure, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimePreciseAsFileTime.</li>
-</ul>
-avant Windows 10, la résolution de cet horodatage était la résolution d’un cycle d’horloge système, comme indiqué par le membre TimerResolution de TRACE_LOGFILE_HEADER. à partir de Windows 10, la résolution de cet horodatage correspond à la résolution du compteur de performances, comme indiqué par le membre PerfFreq de TRACE_LOGFILE_HEADER.<br/> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br/> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart<br/> notez que lorsque les événements sont capturés sur un système exécutant un système d’exploitation antérieur à Windows 10, si le volume d’événements est élevé, la résolution de l’heure système peut ne pas être suffisamment précise pour déterminer la séquence d’événements. Dans ce cas, un ensemble d’événements aura le même horodatage, mais l’ordre dans lequel ETW remet les événements peut ne pas être correct. à partir de Windows 10, l’horodatage est capturé avec une précision supplémentaire, même si une certaine instabilité peut encore se produire dans les cas où l’horloge système a été réglée lors de la capture de la trace.<br/></td>
-</tr>
-<tr class="odd">
-<td><dl> <dt>1,3</dt> </dl></td>
-<td>Compteur du cycle de l’UC. Le compteur UC fournit l’horodatage de résolution le plus élevé et est le moins gourmand en ressources à récupérer. Toutefois, le compteur UC n’est pas fiable et ne doit pas être utilisé en production. Par exemple, sur certains ordinateurs, les minuteurs changent de fréquence en raison des modifications de la température et de l’alimentation, en plus de s’arrêter dans certains États.<br/> Pour déterminer la résolution, utilisez le membre <strong>CpuSpeedInMHz</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br/> Si votre matériel ne prend pas en charge ce type d’horloge, ETW utilise l’heure système.<br/> <strong>Windows Server 2003, Windows xp avec SP1 et Windows xp :</strong> cette valeur n’est pas prise en charge, elle a été introduite dans Windows Server 2003 avec SP1 et Windows XP avec SP2.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <dl><dt>1</dt></dl> | Compteur de performance des requêtes (QPC). Le compteur QPC fournit un horodatage haute résolution qui n’est pas affecté par les réglages de l’horloge système. L’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API QueryPerformanceCounter. Pour plus d’informations sur les caractéristiques de cet horodatage, consultez <a href="/windows/win32/sysinfo/acquiring-high-resolution-time-stamps">acquisition d’horodatages haute résolution</a>.<br /> Vous devez utiliser cette résolution si vous avez des taux d’événements élevés ou si le consommateur fusionne les événements à partir de mémoires tampons différentes. Dans ces cas, la précision et la stabilité de l’horodatage QPC permettent une meilleure précision de l’ordonnancement des événements à partir de mémoires tampons différentes. Toutefois, l’horodatage QPC ne reflète pas les mises à jour de l’horloge système, par exemple, si l’horloge système est avancée en raison de la synchronisation avec un serveur NTP pendant que la trace est en cours, les horodatages QPC dans la trace continuent de refléter le temps comme si aucune mise à jour n’avait eu lieu.<br /> Pour déterminer la résolution, utilisez le membre <strong>PerfFreq</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br /> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br /> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart * 10000000,0/logfileHeader. PerfFreq. QuadPart<br /> Notez que sur les ordinateurs plus anciens, l’horodatage peut ne pas être précis, car le compteur ignore parfois les transferts en raison d’erreurs matérielles.<br /> | 
+| <dl><dt>2</dt></dl> | Heure système. L’heure système fournit un horodatage qui effectue le suivi des modifications apportées à l’horloge du système, par exemple, si l’horloge système est avancée en raison de la synchronisation avec un serveur NTP pendant que la trace est en cours, les horodatages de l’heure système dans la trace se poursuivent également pour correspondre au nouveau paramètre de l’horloge système. <br /><ul><li>sur les systèmes antérieurs à Windows 10, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimeAsFileTime.</li><li>sur Windows 10 ou version ultérieure, l’horodatage stocké dans l’événement est équivalent à la valeur retournée par l’API GetSystemTimePreciseAsFileTime.</li></ul>avant Windows 10, la résolution de cet horodatage était la résolution d’un cycle d’horloge système, comme indiqué par le membre TimerResolution de TRACE_LOGFILE_HEADER. à partir de Windows 10, la résolution de cet horodatage correspond à la résolution du compteur de performances, comme indiqué par le membre PerfFreq de TRACE_LOGFILE_HEADER.<br /> Pour convertir l’horodatage d’un événement en unités 100-ns, utilisez la formule de conversion suivante : <br /> scaledTimestamp = eventRecord. EventHeader. TimeStamp. QuadPart<br /> notez que lorsque les événements sont capturés sur un système exécutant un système d’exploitation antérieur à Windows 10, si le volume d’événements est élevé, la résolution de l’heure système peut ne pas être suffisamment précise pour déterminer la séquence d’événements. Dans ce cas, un ensemble d’événements aura le même horodatage, mais l’ordre dans lequel ETW remet les événements peut ne pas être correct. à partir de Windows 10, l’horodatage est capturé avec une précision supplémentaire, même si une certaine instabilité peut encore se produire dans les cas où l’horloge système a été réglée lors de la capture de la trace.<br /> | 
+| <dl><dt>3</dt></dl> | Compteur du cycle de l’UC. Le compteur UC fournit l’horodatage de résolution le plus élevé et est le moins gourmand en ressources à récupérer. Toutefois, le compteur UC n’est pas fiable et ne doit pas être utilisé en production. Par exemple, sur certains ordinateurs, les minuteurs changent de fréquence en raison des modifications de la température et de l’alimentation, en plus de s’arrêter dans certains États.<br /> Pour déterminer la résolution, utilisez le membre <strong>CpuSpeedInMHz</strong> de <a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a> lors de l’utilisation de l’événement.<br /> Si votre matériel ne prend pas en charge ce type d’horloge, ETW utilise l’heure système.<br /><strong>Windows Server 2003, Windows xp avec SP1 et Windows xp :</strong> cette valeur n’est pas prise en charge, elle a été introduite dans Windows Server 2003 avec SP1 et Windows XP avec SP2.<br /> | 
+
 
 
 

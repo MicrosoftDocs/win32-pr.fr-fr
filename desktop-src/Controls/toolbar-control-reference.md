@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\toolbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a22fd1b51ea1fab45061125654029951f4557472fab62847773e559647e12272
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8dd70f4e13d569930956a8b84e1010d99c1be434
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118166497"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480935"
 ---
 # <a name="toolbar"></a>Barre d’outils
 
@@ -32,33 +32,12 @@ Cette section contient des informations sur les éléments de programmation util
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a></td>
-<td>Crée une bitmap à utiliser dans une barre d’outils. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a></td>
-<td>Crée une fenêtre de barre d’outils et ajoute les boutons spécifiés à la barre d’outils.
-<blockquote>
-[!Note]<br />
-Cette fonction est déconseillée, car elle ne prend pas en charge toutes les fonctionnalités des barres d’outils. Utilisez à la place <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> . Pour obtenir des exemples, consultez <a href="using-toolbar-controls.md">utilisation de contrôles ToolBar</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Contenu | 
+|-------|----------|
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createmappedbitmap"><strong>CreateMappedBitmap</strong></a> | Crée une bitmap à utiliser dans une barre d’outils. <br /> | 
+| <a href="/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex"><strong>CreateToolbarEx</strong></a> | Crée une fenêtre de barre d’outils et ajoute les boutons spécifiés à la barre d’outils.<blockquote>[!Note]<br />Cette fonction est déconseillée, car elle ne prend pas en charge toutes les fonctionnalités des barres d’outils. Utilisez à la place <a href="/windows/desktop/api/winuser/nf-winuser-createwindowexa"><strong>CreateWindowEx</strong></a> . Pour obtenir des exemples, consultez <a href="using-toolbar-controls.md">utilisation de contrôles ToolBar</a>.</blockquote><br /><br /> | 
+
 
 
 
@@ -245,41 +224,14 @@ Cette fonction est déconseillée, car elle ne prend pas en charge toutes les fo
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="toolbar-button-states.md">États des boutons de barre d’outils</a></td>
-<td>Cette section répertorie les États qu’un bouton de barre d’outils peut avoir. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-control-and-button-styles.md">Styles de contrôle et de bouton de barre d’outils</a></td>
-<td>Les styles de fenêtre suivants sont spécifiques aux barres d’outils. Elles sont combinées avec d’autres styles de fenêtre lorsque la barre d’outils est créée.<br/> <strong>Remarque</strong> Pour les contrôles communs <a href="common-control-versions.md">version 6,00</a>, si un <a href="themes-overview.md">style visuel</a> est utilisé avec la barre d’outils, les boutons sont toujours transparents quel que soit le paramètre de style. Sinon, le comportement de transparence est normal, comme indiqué par l’utilisation de l' <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> ou du style de <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> .
-<blockquote>
-[!Note]<br />
-Comctl32.dll version 6 n’est pas redistribuable, mais elle est incluse dans Windows ou version ultérieure. Pour utiliser Comctl32.dll version 6, spécifiez-la dans un manifeste. Pour plus d’informations sur les manifestes, consultez <a href="cookbook-overview.md">activation des styles visuels</a>.
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="toolbar-extended-styles.md">Styles étendus de la barre d’outils</a></td>
-<td>Cette section répertorie les styles étendus pris en charge par les contrôles ToolBar.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="toolbar-standard-button-image-index-values.md">Valeurs d’index d’image du bouton standard de la barre d’outils</a></td>
-<td>Cette section spécifie les valeurs d’index des images au sein de bitmaps standard.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Contenu | 
+|-------|----------|
+| <a href="toolbar-button-states.md">États des boutons de barre d’outils</a> | Cette section répertorie les États qu’un bouton de barre d’outils peut avoir. <br /> | 
+| <a href="toolbar-control-and-button-styles.md">Styles de contrôle et de bouton de barre d’outils</a> | Les styles de fenêtre suivants sont spécifiques aux barres d’outils. Elles sont combinées avec d’autres styles de fenêtre lorsque la barre d’outils est créée.<br /><strong>Remarque</strong> Pour les contrôles communs <a href="common-control-versions.md">version 6,00</a>, si un <a href="themes-overview.md">style visuel</a> est utilisé avec la barre d’outils, les boutons sont toujours transparents quel que soit le paramètre de style. Sinon, le comportement de transparence est normal, comme indiqué par l’utilisation de l' <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_FLAT</strong></a> ou du style de <a href="toolbar-control-and-button-styles.md"><strong>TBSTYLE_TRANSPARENT</strong></a> .<blockquote>[!Note]<br />Comctl32.dll version 6 n’est pas redistribuable, mais elle est incluse dans Windows ou version ultérieure. Pour utiliser Comctl32.dll version 6, spécifiez-la dans un manifeste. Pour plus d’informations sur les manifestes, consultez <a href="cookbook-overview.md">activation des styles visuels</a>.</blockquote><br /><br /> | 
+| <a href="toolbar-extended-styles.md">Styles étendus de la barre d’outils</a> | Cette section répertorie les styles étendus pris en charge par les contrôles ToolBar.<br /> | 
+| <a href="toolbar-standard-button-image-index-values.md">Valeurs d’index d’image du bouton standard de la barre d’outils</a> | Cette section spécifie les valeurs d’index des images au sein de bitmaps standard.<br /> | 
+
 
 
 

@@ -3,9 +3,9 @@ title: IWMPMedia propriété imageSourceWidth
 description: La propriété imageSourceWidth obtient la largeur de l’élément multimédia actuel en pixels.
 ms.assetid: d3644217-6faf-415e-b0c0-23db85c31a3a
 keywords:
-- propriété imageSourceWidth lecteur Windows Media
-- propriété imageSourceWidth lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété imageSourceWidth
+- Lecteur Windows Media de la propriété imageSourceWidth
+- Lecteur Windows Media de la propriété imageSourceWidth, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété imageSourceWidth
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 441c4fb4a05f610aee5a2c923353fb9688bffcc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c24d9cb6d6c8cdec29984fa66b6cb12e254413ca518ed12a3089627aeeb08e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098788"
 ---
 # <a name="iwmpmediaimagesourcewidth-property"></a>IWMPMedia :: imageSourceWidth, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property imageSourceWidth As System.Int32
 
 **System. Int32** qui correspond à la largeur de l’élément multimédia.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’élément multimédia n’est pas celui en cours, cette propriété retourne la valeur zéro.
 

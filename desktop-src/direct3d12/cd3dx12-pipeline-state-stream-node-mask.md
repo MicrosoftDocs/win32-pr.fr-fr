@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c364ecd20459d8c20bdd3d30b969cc3b9ae46d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0f4850ff986f2006c506d79a8ece1ced873529c2a4939869cd704a4b7c3c4b03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119679"
 ---
 # <a name="cd3dx12_pipeline_state_stream_node_mask-structure"></a>\_Structure de \_ \_ masque de nœud de flux d’état de \_ pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en masque de nœud **uint** .
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ \_ Le masque de nœud de flux d’état de pipeline CD3DX12 est une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ de pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et est défini comme suit :
 

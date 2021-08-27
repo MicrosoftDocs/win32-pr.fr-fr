@@ -4,12 +4,12 @@ description: L’heure d’exécution de l’annotation dynamique n’enverra pa
 ms.assetid: 657a540b-8838-4d2e-ade6-c4fa1ad08e21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2aedd09a22371f91a92eca891c77f6c424583b5
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: df1789a152ab37161e1f217639e4ad40d597b0689529da3a5f65bf669b986e14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "106512712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098459"
 ---
 # <a name="interaction-with-winevents"></a>Interaction avec WinEvents
 
@@ -19,9 +19,9 @@ Par exemple, si vous utilisez [**IAccPropServices :: SetPropValue**](/windows/d
 
 Toutefois, si vous utilisez [**IAccPropServices :: SetPropValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccpropservices-setpropvalue) pour définir ValueMap pour un Slider, aucun événement n’est nécessaire, car la définition de ValueMap ne modifie pas la valeur du curseur.
 
- 
+ 
 
- 
+ 
 
 
 

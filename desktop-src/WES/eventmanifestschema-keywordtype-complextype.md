@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c41a9ad4b1fde0a741a022eb6cfd20823643eeef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3d444c39796f741cd800fb393527e5adca6e50cef05de0c55c1def2bb40142a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106529244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124379"
 ---
 # <a name="keywordtype-complex-type"></a>Type complexe KeywordType
 
@@ -70,9 +70,9 @@ Définit un mot clé qui identifie une catégorie d’événements. Un mot clé 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le fichier Winmeta.xml inclus dans le SDK Windows contient une liste de mots clés. Ces mots clés sont réservés et ne doivent pas être utilisés.
+le fichier Winmeta.xml inclus dans le SDK Windows contient une liste de mots clés. Ces mots clés sont réservés et ne doivent pas être utilisés.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -80,8 +80,8 @@ Le fichier Winmeta.xml inclus dans le SDK Windows contient une liste de mots cl�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

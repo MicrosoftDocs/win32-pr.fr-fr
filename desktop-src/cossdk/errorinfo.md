@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ebcb4b89eee51b475869cfc62676feda10e53084
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9953bc1119d7e203936ca7e78048a4083a996ec2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881050"
 ---
 # <a name="errorinfo-collection"></a>ErrorInfo, collection
 
@@ -58,8 +58,8 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|----------------------------------------|
 | Description    | Code d'erreur pour l'objet ou le fichier. |
-| Accès         | Lecture seule                               |
-| Type           | String                                 |
+| Access         | Lecture seule                               |
+| Type           | Chaîne                                 |
 | Default        | None                                   |
 | Système minimal | Windows 2000                           |
 
@@ -74,8 +74,8 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Valeur de la propriété de [**clé**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) pour l’objet qui contient une erreur. Par exemple, si un appel de [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) pour une collection échoue sur un objet particulier dans la collection, la valeur de la propriété de **clé** pour cet objet est signalée comme valeur MajorRef. Utilisez cette propriété pour examiner l’élément qui ne parvient pas à mettre à jour ou pour trouver le composant ou la DLL dont l’installation échoue. |
-| Accès         | Lecture seule                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Type           | String                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Access         | Lecture seule                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Type           | Chaîne                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Default        | None                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Système minimal | Windows 2000                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
@@ -89,9 +89,9 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 | Entrée | Valeur |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Spécification précise de l’élément qui a une erreur, telle qu’un nom de propriété. Si plusieurs erreurs se produisent ou dans des contextes où cela ne s’applique pas, MinorRef est <Invalid> . |
-| Accès         | Lecture seule                                                                                                                                                                          |
-| Type           | String                                                                                                                                                                            |
+| Description    | Spécification précise de l’élément qui a une erreur, telle qu’un nom de propriété. Si plusieurs erreurs se produisent ou dans des contextes où cela ne s’applique pas, MinorRef n’est &lt; pas valide &gt; . |
+| Access         | Lecture seule                                                                                                                                                                          |
+| Type           | Chaîne                                                                                                                                                                            |
 | Default        | None                                                                                                                                                                              |
 | Système minimal | Windows 2000                                                                                                                                                                      |
 
@@ -106,8 +106,8 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Entrée | Valeur |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Nom de l’objet ou du fichier qui contient une erreur. Cette propriété est retournée lorsque la méthode de propriété [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) ou [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) est appelée sur un objet de cette collection. |
-| Accès         | Lecture seule                                                                                                                                                                                                                 |
-| Type           | String                                                                                                                                                                                                                   |
+| Access         | Lecture seule                                                                                                                                                                                                                 |
+| Type           | Chaîne                                                                                                                                                                                                                   |
 | Default        | None                                                                                                                                                                                                                     |
 | Système minimal | Windows 2000                                                                                                                                                                                                             |
 

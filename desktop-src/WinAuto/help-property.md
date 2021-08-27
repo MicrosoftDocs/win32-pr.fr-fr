@@ -4,12 +4,12 @@ description: La propriété Help fournit des informations qui indiquent à l’u
 ms.assetid: 3df0cc01-cc99-42a1-9d56-591e6e00e53d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b240475d4583826e08fd6ee43b5839bdfb451d4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5e6f8b226c483e3a3d68f878fccb940fc1a9f69f18b6fde62eed4b5a7a8ea9b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122189"
 ---
 # <a name="help-property"></a>Help, propriété
 
@@ -25,9 +25,9 @@ Le texte de la propriété **d’aide** n’a pas besoin d’être unique au sei
 
 Les serveurs ne prennent pas en charge la propriété **d’aide** si d’autres propriétés fournissent des informations suffisantes sur le rôle de l’objet et les actions effectuées par l’objet. Les objets accessibles qui exposent des contrôles fournis par le système ne prennent pas en charge la propriété **Help** .
 
- 
+ 
 
- 
+ 
 
 
 

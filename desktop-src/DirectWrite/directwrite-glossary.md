@@ -1,18 +1,18 @@
 ---
-title: Glossaire DirectWrite
+title: DirectWrite Glossaire
 description: Page de glossaire
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26fe7e1bb19bea1d1d6c256d2d5a76613a5b0123
-ms.sourcegitcommit: fdd00b445ee88366e9cdd1eed0cb3e42e2a73eca
+ms.openlocfilehash: 1fd85d824c30f79c00bf7ade6c50b04bc60c404b3fdac6f4e22c0116de7bf36a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104381332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086639"
 ---
-# <a name="directwrite-glossary"></a>Glossaire DirectWrite
+# <a name="directwrite-glossary"></a>DirectWrite Glossaire
 
 <dl> <dt>
 
@@ -33,7 +33,7 @@ Technologie d’affichage des polices qui améliore considérablement la résolu
 <span id="directwrite.directwrite_glossary_direct2d"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_DIRECT2D"></span>**Direct2D**
 </dt> <dd>
 
-Une API graphique à accélération matérielle, en mode immédiat et en 2 D qui fournit des performances élevées et un rendu de haute qualité pour la géométrie 2D, les bitmaps et le texte. L’API Direct2D est conçue pour interagir correctement avec le code existant qui utilise GDI, GDI+ ou Direct3D.
+Une API graphique à accélération matérielle, en mode immédiat et en 2 D qui fournit des performances élevées et un rendu de haute qualité pour la géométrie 2D, les bitmaps et le texte. l’API Direct2D est conçue pour interagir correctement avec le code existant qui utilise GDI, GDI+ ou Direct3D.
 
 </dd> <dt>
 
@@ -47,14 +47,14 @@ API DirectX qui offre une amélioration de la qualité et du rendu du texte de h
 <span id="directwrite.directwrite_glossary_directx"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_DIRECTX"></span>**Couramment**
 </dt> <dd>
 
-Extension du système d’exploitation Microsoft Windows. La technologie DirectX permet aux jeux et autres programmes d’utiliser les fonctionnalités multimédias avancées de votre matériel.
+extension du système d’exploitation Microsoft Windows. La technologie DirectX permet aux jeux et autres programmes d’utiliser les fonctionnalités multimédias avancées de votre matériel.
 
 </dd> <dt>
 
 <span id="directwrite.directwrite_glossary_gdi"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_GDI"></span>**GDI**
 </dt> <dd>
 
-Programme exécutable qui traite les appels de fonction graphique d’une application Windows et transmet ces appels au pilote de périphérique approprié, qui exécute les fonctions spécifiques au matériel qui génèrent la sortie. En agissant comme une mémoire tampon entre les applications et les périphériques de sortie, GDI présente une vue indépendante du périphérique du monde pour l’application tout en interagissant dans un format dépendant du périphérique avec l’appareil.
+programme exécutable qui traite les appels de fonctions graphiques à partir d’une application basée sur des Windows et transmet ces appels au pilote de périphérique approprié, qui exécute les fonctions spécifiques au matériel qui génèrent la sortie. En agissant comme une mémoire tampon entre les applications et les périphériques de sortie, GDI présente une vue indépendante du périphérique du monde pour l’application tout en interagissant dans un format dépendant du périphérique avec l’appareil.
 
 </dd> <dt>
 
@@ -145,13 +145,13 @@ Standard d'encodage de caractères développé par le consortium Unicode qui rep
 <span id="directwrite.directwrite_glossary_windows_presentation_foundation__wpf_"></span><span id="DIRECTWRITE.DIRECTWRITE_GLOSSARY_WINDOWS_PRESENTATION_FOUNDATION__WPF_"></span>**Windows Presentation Foundation (WPF)**
 </dt> <dd>
 
-Structure graphique utilisée par .NET micro Framework 3,0, Windows Vista et Microsoft Silverlight. Les classes de l’interface graphique utilisateur de .NET micro Framework sont faiblement basées sur WPF.
+structure graphique utilisée par .net Micro framework 3,0, Windows Vista et Microsoft Silverlight. Les classes de l’interface graphique utilisateur de .NET micro Framework sont faiblement basées sur WPF.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

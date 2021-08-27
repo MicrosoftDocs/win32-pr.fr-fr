@@ -3,7 +3,7 @@ title: Message CB_GETITEMHEIGHT (winuser. h)
 description: Détermine la hauteur des éléments de liste ou le champ de sélection dans une zone de liste déroulante.
 ms.assetid: 72fba6ca-0a51-4801-bd45-5f5a7d5ebee2
 keywords:
-- CB_GETITEMHEIGHT les contrôles de message Windows
+- CB_GETITEMHEIGHT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4aac9d8f9a430c056f8b91a9306d77c182f4c96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6e3ad9636c32e40bfa95f1f3b2c209eab42023205e0a967cc91804ec314a103
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089189"
 ---
 # <a name="cb_getitemheight-message"></a>\_Message GETITEMHEIGHT CB
 
@@ -53,8 +53,8 @@ La valeur de retour correspond à la hauteur, en pixels, des éléments de liste
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

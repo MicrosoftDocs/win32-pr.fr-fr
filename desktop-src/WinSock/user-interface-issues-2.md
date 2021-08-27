@@ -4,12 +4,12 @@ ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: Problèmes d’interface utilisateur pour les applications Winsock IPv6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03305073687cdd77e17c529d70ffe5959df40960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae982504798789c928691bbf4932d5e6abdfabf1ba12077122bb6dab28eb47de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121183"
 ---
 # <a name="user-interface-issues-for-ipv6-winsock-applications"></a>Problèmes d’interface utilisateur pour les applications Winsock IPv6
 
@@ -55,7 +55,7 @@ Il existe d’autres complexités associées à l’affichage des adresses IPv6 
 
 Il y a également d’autres considérations et les développeurs doivent prendre en compte soigneusement leurs clients lors du développement d’interfaces utilisateur d’adresse IP.
 
-Bonnes pratiques
+Meilleures pratiques
 
 -   Les développeurs doivent prendre en compte l’approche appropriée pour chaque interface utilisateur lors de la modification de leur application pour prendre en charge IPv6. S’assurer que l’interface utilisateur contient suffisamment de longueur pour afficher les adresses IPv6 est impérative, tout comme détermine si cette adresse est basée sur un nombre ou un nom.
 -   Dans la mesure du possible, utilisez les fonctions d’assistance Winsock et IP existantes lors de l’utilisation d’adresses IPv6 au lieu de réimplémenter cette logique. Par exemple, les fonctions [**RtlIpv6AddressToString**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringa), [**RtlIpv6AddressToStringEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6addresstostringexw), [**RtlIpv6StringToAddress**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressa)et [**RtlIpv6StringToAddressEx**](/windows/win32/api/ip2string/nf-ip2string-rtlipv6stringtoaddressexw) peuvent être utilisées pour effectuer une conversion entre des adresses IPv6 et des représentations sous forme de chaîne de ces adresses IPv6.
@@ -77,7 +77,7 @@ Tâches de codage
 
 <dl> <dt>
 
-[Guide IPv6 pour les applications Windows Sockets](ipv6-guide-for-windows-sockets-applications-2.md)
+[Guide IPv6 pour les Applications Windows sockets](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Modification des structures de données pour IPv6 Winsock appications](changing-data-structures-2.md)

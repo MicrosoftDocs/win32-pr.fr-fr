@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2fd16480f0ec059c977d07f8e445a35094c5f2fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b99f5aa60f90a753a9c5d095e7a63417485b1fd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536510"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469836"
 ---
 # <a name="jet_recsize2-structure"></a>Structure JET_RECSIZE2
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_recsize2-structure"></a>Structure JET_RECSIZE2
 
 La structure **JET_RECSIZE2** est utilisée par [JetGetRecordSize2](./jetgetrecordsize2-function.md) pour retourner des informations sur les conditions d’utilisation d’un enregistrement dans l’espace de données utilisateur, le nombre de colonnes définies, le nombre de valeurs et l’espace de charge de la structure d’enregistrement ESE.
 
-**Windows 7 :** La structure **JET_RECSIZE2** est introduite dans le système d’exploitation Windows 7.
+**Windows 7 :** la structure **JET_RECSIZE2** est introduite dans le système d’exploitation Windows 7.
 
 ```cpp
     typedef struct {
@@ -103,7 +103,7 @@ Taille compressée des données utilisateur dans cet enregistrement. C’est le 
 
 Taille compressée des données utilisateur dans l’arborescence de valeurs longues. Cela est identique à celui des données cbLongValue si aucune valeur longue séparée n’est compressée.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Le nombre total de valeurs dans l’enregistrement serait **cMultiValues**  +  **cNonTaggedColumns**  +  **cTaggedColumns**.
 
@@ -111,26 +111,9 @@ Les données logiques de l’enregistrement sont (cbData + cbLongValueData) et l
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite le système d’exploitation Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Nécessite le système d’exploitation Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows système d’exploitation Vista.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite le système d’exploitation Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

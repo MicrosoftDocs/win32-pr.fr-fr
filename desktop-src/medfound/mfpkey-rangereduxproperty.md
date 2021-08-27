@@ -4,12 +4,12 @@ ms.assetid: 7227957b-59c9-4dd9-ad2b-a383e888cd46
 title: MFPKEY_RANGEREDUX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ec326e5d21a72792aab38f08d8c8c9207ab867
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b3a186522cdc328ab7b6f8e11154ae605673d2cca9d988e0e07c0d159e71589
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113309"
 ---
 # <a name="mfpkey_rangeredux-property"></a>MFPKEY \_ propriété RANGEREDUX
 
@@ -27,7 +27,7 @@ VT \_
 
 0
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La réduction de plage spécifie le degré auquel le codec doit réduire la luminance et la plage de chrominance de la vidéo. La réduction de la plage réduit la taille des images vidéo encodées, mais réduit également le détail des couleurs de la vidéo.
 
@@ -58,8 +58,8 @@ Si vous définissez la valeur sur 0x00000000, la réduction de plage est complè
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

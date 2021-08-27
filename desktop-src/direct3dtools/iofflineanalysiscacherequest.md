@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: fe2d5c8e9f63877ef103defbff633c19c7298f5a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 01551f7b0347b3b6f0920e47a2666a480c67439d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392863"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786325"
 ---
 # <a name="span-idvspixengineiofflineanalysiscacherequestspaniofflineanalysiscacherequest-interface"></a><span id="vspixengine.iofflineanalysiscacherequest"></span>Interface IOfflineAnalysisCacheRequest
 
@@ -38,13 +38,13 @@ L’interface **IOfflineAnalysisCacheRequest** hérite de l’interface [**IUnkn
 
 L’interface **IOfflineAnalysisCacheRequest** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr"><strong>RequestOfflineAnalysisReportAvailabilityAsync</strong></a></td><td style="text-align: left;"><p>Demandes de mise en cache du rapport d’analyse hors connexion des frames spécifiés.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iofflineanalysiscacherequest-requestofflineanalysisreportavailabilityasync-dword-dword-arr-iofflineanalysiscachecallback-ptr"><strong>RequestOfflineAnalysisReportAvailabilityAsync</strong></a></td><td ><p>Demandes de mise en cache du rapport d’analyse hors connexion des frames spécifiés.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

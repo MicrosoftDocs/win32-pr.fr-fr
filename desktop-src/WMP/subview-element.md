@@ -3,19 +3,19 @@ title: Subview, élément
 description: Subview, élément
 ms.assetid: 6201df82-8688-4ada-a660-b66e93723f63
 keywords:
-- Apparences du lecteur Windows Media, élément de sous-affichage
+- apparences de Lecteur Windows Media, élément de sous-vue
 - Skins, subview, élément
 - Subview, élément
 - référence pour les apparences, élément de sous-affichage
 - éléments, sous-affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f6ed8088d2e79677e542785b4bab1c3c90dcdcf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aef4f7860d1db04991a35ffeff2903e7a16a5d7bd84929313c296006f6f1c092
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122909"
 ---
 # <a name="subview-element"></a>Subview, élément
 
@@ -37,7 +37,7 @@ L’élément **subview** prend en charge les attributs suivants, qui sont défi
 
 
 
- 
+ 
 
 L’élément **subview** prend en charge les attributs ambiants, sauf indication contraire. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md).
 
@@ -53,9 +53,9 @@ L’élément **subview** peut implémenter les gestionnaires d’événements a
 [**Élément VIEW**](view-element.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

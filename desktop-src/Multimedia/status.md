@@ -3,7 +3,7 @@ title: commande Status
 description: La commande status demande des informations d’État à partir d’un appareil. Tous les appareils reconnaissent cette commande.
 ms.assetid: 39961bd7-866d-450d-9fbf-347a8f508481
 keywords:
-- commande Status Windows Multimedia
+- commande d’état Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ab184ddaca16d0ea96b86a6b062f1e66e2eee2
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: bd209ed04e51671ce7d9c8a7ae88a79073836c2e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "106522857"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626114"
 ---
 # <a name="status-command"></a>commande Status
 
@@ -59,8 +59,8 @@ Indicateur de demande d’informations d’État. Le tableau suivant répertorie
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -306,8 +306,8 @@ Le tableau suivant répertorie les indicateurs qui peuvent être spécifiés dan
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -820,7 +820,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne des informations dans le paramètre *lpszReturnString* de [**mciSendString**](/previous-versions//dd757161(v=vs.85)). Les informations dépendent du type de demande.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’émettre des commandes qui utilisent des valeurs de position, vous devez définir le format d’heure souhaité à l’aide de la commande [Set](set.md) .
 
@@ -874,7 +874,7 @@ status mysound mode
 [pause](pause.md)
 </dt> <dt>
 
-[coller](paste.md)
+[Insérer](paste.md)
 </dt> <dt>
 
 [enregistrement](record.md)

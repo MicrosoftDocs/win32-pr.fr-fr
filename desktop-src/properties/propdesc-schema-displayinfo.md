@@ -4,12 +4,12 @@ ms.assetid: 27c03ced-a5fa-4ab4-b88e-5b78701da878
 title: displayInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fff0bb441b4535c0b6c6f3183671fbe8ade09183
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b0bbc3cf0f17d24672e30a110d95341c1cb902d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518701"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622085"
 ---
 # <a name="displayinfo"></a>displayInfo
 
@@ -17,7 +17,7 @@ Spécifie les informations d’affichage d’une propriété. Il ne doit y avoir
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [displayInfo]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -274,7 +274,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [di
 |                                                                  | [drawControl](./propdesc-schema-drawcontrol.md)                                                               |
 |                                                                  | [editControl](./propdesc-schema-editcontrol.md)                                                               |
 |                                                                  | [filterControl](./propdesc-schema-filtercontrol.md)                                                           |
-|                                                                  | [queryControl](./propdesc-schema-querycontrol.md) (Windows Vista uniquement. Non pris en charge dans Windows 7 et versions ultérieures.) |
+|                                                                  | [queryControl](./propdesc-schema-querycontrol.md) (Windows Vista uniquement. non pris en charge dans Windows 7 et versions ultérieures.) |
 
 
 
@@ -286,8 +286,8 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [di
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -320,7 +320,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [di
 <td>Valeur par défaut pour les propriétés numériques. La valeur est affichée sous la forme d’un nombre. Utilisez &quot; NumberFormat &quot; pour mettre en forme. La méthode retourne PDDT_NUMBER.</td>
 </tr>
 <tr class="odd">
-<td>Boolean</td>
+<td>Booléen</td>
 <td>Valeur par défaut si <typeInfo type=&quot;Boolean&quot;> . La valeur est affichée sous la forme d’une valeur booléenne. Utilisez &quot; BooleanFormat &quot; pour mettre en forme. La méthode retourne PDDT_BOOLEAN.</td>
 </tr>
 <tr class="even">
@@ -388,7 +388,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [di
 <td>Utilise &quot; le &quot;  /  &quot; même &quot;  /  &quot; plus petit&quot;</td>
 </tr>
 <tr class="even">
-<td>Count</td>
+<td>Nombre</td>
 <td>Utilise &quot; le &quot;  /  &quot; même &quot;  /  &quot; plus petit&quot;</td>
 </tr>
 <tr class="odd">

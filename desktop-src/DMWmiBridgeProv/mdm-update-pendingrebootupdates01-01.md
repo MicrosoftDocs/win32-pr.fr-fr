@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dca640a4de00ea9eb115b999129a16dd0bf930cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86a1cc421f4bd423137ff5699ebaf2412952e5f0f741952f91be15738b19b7ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109259"
 ---
 # <a name="mdm_update_pendingrebootupdates01_01-class"></a>\_Classe de mise à jour MDM \_ PendingRebootUpdates01 \_ 01
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La **classe \_ \_ PendingRebootUpdates01 \_ 01 de la mise à jour MDM** est utilisée pour gérer les mises à jour en attente au redémarrage.
 
@@ -105,7 +105,7 @@ Décrit le chemin d’accès complet au nœud parent. Pour cette classe, la cha�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                            |
 | Espace de noms<br/>                | Racine dmmap de gestion des appareils mobiles \\ \\ \\<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv1. mof</dt> </dl>      |

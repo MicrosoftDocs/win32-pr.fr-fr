@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Message de sondage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abaf4b397abec699dd0a116fe5cddd97578543f917a7994287f5000e17079def
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 58f186de4f68faceca096ddaa231b57d1112bc1e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119130631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879846"
 ---
 # <a name="probe-message"></a>Message de sondage
 
@@ -62,9 +62,9 @@ Un message de sondage a les points de focalisation suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,21 +76,21 @@ Un message de sondage a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>Sonde</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>L’action SOAP de sondage identifie le message en tant que message de sondage.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-</wsa:MessageID></code></pre></td>
+&lt;/wsa:MessageID&gt;</code></pre></td>
 <td>Contient l’identificateur de message, qui est référencé par l’élément latesto dans un message <a href="probematches-message.md">messages ProbeMatches</a> .</td>
 </tr>
 <tr class="odd">
 <td>Types</td>
-<td><pre class="syntax" data-space="preserve"><code><wsd:Types>wsdp:Device</wsd:Types></code></pre></td>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:Types&gt;wsdp:Device</wsd:Types></code></pre></td>
 <td>Contient les types de WS-Discovery pour lesquels le client recherche. Cet élément ne doit pas être vide.</td>
 </tr>
 </tbody>

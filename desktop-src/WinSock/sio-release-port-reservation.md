@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 57f96d0396d661eba12f9e64238c492f38e97b2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d949e325292210ec7126da5ddf65c6ff30c5aa151cfaf85331fb7ebf3e5b346
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097489"
 ---
 # <a name="sio_release_port_reservation-control-code"></a>Code de contrôle SIO_RELEASE_PORT_RESERVATION
 
@@ -148,9 +148,9 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAENOTSOCK** | Une opération a été tentée sur un qui n’est pas un Socket. Cette erreur est retournée si le *descripteur* n’est pas un Socket. |
 | **WSAEOPNOTSUPP** | L’opération tentée n’est pas prise en charge pour le type d’objet référencé. Cette erreur est retournée si la commande IOCTL spécifiée n’est pas prise en charge. Cette erreur est également retournée si l’IOCTL de réservation de port de la **\_ version \_ \_ SIO** n’est pas prise en charge par le fournisseur de transport. Cette erreur est également retournée lorsqu’une tentative d’utilisation de l’IOCTL de **\_ réservation de \_ port \_ de libération SIO** est effectuée sur un socket autre que UDP ou TCP. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’IOCTL de réservation de port de la **\_ version \_ \_ SIO** est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
+l’IOCTL de réservation de PORT de la **\_ version \_ \_ SIO** est prise en charge sur Windows Vista et les versions ultérieures du système d’exploitation.
 
 Les applications et les services qui doivent réserver des ports sont répartis en deux catégories.
 La première catégorie comprend des composants qui ont besoin d’un port particulier dans le cadre de leur fonctionnement.

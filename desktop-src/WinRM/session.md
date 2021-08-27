@@ -4,8 +4,8 @@ description: Définit des opérations et des paramètres de session.
 ms.assetid: b98ca759-71cb-492e-8645-8766b202eb36
 ms.tgt_platform: multiple
 keywords:
-- Windows Remote Management d’objet de session
-- Windows Remote Management d’objet de session, Description
+- Windows Remote Management d’objet de Session
+- Windows Remote Management d’objet de Session, description
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2e47658ad8a89af5adb2135b86cc2ad9b6ef438
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e4b63ce9aa5898f3b6dad716f7af19688059ccf7a3f48901fa73ed3250cd2660
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121559"
 ---
 # <a name="session-object-wsmandisph"></a>Objet session (WSManDisp. h)
 
-Définit des opérations et des paramètres de session. Toute opération de Windows Remote Management nécessite la création d’une **session** qui se connecte à un ordinateur distant, à un [*contrôleur de gestion de base*](windows-remote-management-glossary.md) (BMC) ou à l’ordinateur local. Les opérations de réseau WinRM incluent l’obtention, l’écriture ou l’énumération de données, ou l’appel de méthodes. Les méthodes de l’objet de **session** reflètent les opérations de base définies dans le protocole WS-Management.
+Définit des opérations et des paramètres de session. toute opération de Windows Remote Management nécessite la création d’une **Session** qui se connecte à un ordinateur distant, à un [*contrôleur de gestion de base*](windows-remote-management-glossary.md) (BMC) ou à l’ordinateur local. Les opérations de réseau WinRM incluent l’obtention, l’écriture ou l’énumération de données, ou l’appel de méthodes. Les méthodes de l’objet de **session** reflètent les opérations de base définies dans le protocole WS-Management.
 
 ## <a name="members"></a>Membres
 
@@ -42,7 +42,7 @@ L’objet **session** possède ces méthodes.
 
 | Méthode                                 | Description                                                                                                                 |
 |:---------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-| [**Créés**](session-create.md)       | Crée une nouvelle instance d’une ressource et retourne l’URI du nouvel objet.<br/>                                      |
+| [**Créer**](session-create.md)       | Crée une nouvelle instance d’une ressource et retourne l’URI du nouvel objet.<br/>                                      |
 | [**Supprimer**](session-delete.md)       | Supprime la ressource spécifiée dans l’URI de ressource.<br/>                                                              |
 | [**Énumérer**](session-enumerate.md) | Énumère les ressources d’une collection, d’une table ou d’un journal des messages.<br/>                                                         |
 | [**Télécharger**](session-get.md)             | Récupère une ressource du service et retourne une représentation XML de l’instance actuelle de la ressource.<br/> |
@@ -63,14 +63,14 @@ L’objet **session** possède ces propriétés.
 | Propriété                                            | Type d’accès           | Description                                                                                                                                                                                                                 |
 |:----------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BatchItems**](session-batchitems.md)<br/> | Lecture/écriture<br/> | Définit et obtient le nombre d’éléments dans chaque lot d’énumération. Cette valeur ne peut pas être modifiée pendant une énumération. Par défaut, la valeur par défaut est un nombre illimité d’éléments. Le fournisseur de ressources peut définir une limite.<br/> |
-| [**Error**](session-error.md)<br/>           | Lecture seule<br/>  | Obtient des informations supplémentaires sur l’erreur dans un flux XML.<br/>                                                                                                                                                              |
-| [**Délai d'expiration**](session-timeout.md)<br/>       | Lecture/écriture<br/> | Définit et obtient la durée maximale (en millisecondes) d’attente de l’application cliente.<br/>                                                                                                                   |
+| [**Erreur**](session-error.md)<br/>           | Lecture seule<br/>  | Obtient des informations supplémentaires sur l’erreur dans un flux XML.<br/>                                                                                                                                                              |
+| [**Expiré**](session-timeout.md)<br/>       | Lecture/écriture<br/> | Définit et obtient la durée maximale (en millisecondes) d’attente de l’application cliente.<br/>                                                                                                                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’objet **session** correspond à l’interface [**IWSManSession**](/windows/desktop/api/WSManDisp/nn-wsmandisp-iwsmansession) .
 
@@ -113,13 +113,13 @@ Set objSession = objWsman.CreateSession
 [API de script WinRM](winrm-scripting-api.md)
 </dt> <dt>
 
-[À propos de Windows Remote Management](about-windows-remote-management.md)
+[à propos de Windows Remote Management](about-windows-remote-management.md)
 </dt> <dt>
 
-[Utilisation de Windows Remote Management](using-windows-remote-management.md)
+[utilisation de Windows Remote Management](using-windows-remote-management.md)
 </dt> <dt>
 
-[Scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
+[scripts dans Windows Remote Management](scripting-in-windows-remote-management.md)
 </dt> <dt>
 
 [Obtention de données à partir de l’ordinateur local](obtaining-data-from-the-local-computer.md)

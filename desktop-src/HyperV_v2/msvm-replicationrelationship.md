@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: c8ff905475863df11c6fb6529f030f73a4f1b785792be4c5fe8c7ce1142096c3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 763e14d0ebd0aab33aef252b883009567df727cd
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119068479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887148"
 ---
 # <a name="msvm_replicationrelationship-class"></a>MSVM \_ ReplicationRelationship, classe
 
@@ -122,7 +122,7 @@ Identifie la relation de réplication. Cette propriété est héritée de la [**
 
 Cette propriété a le format suivant :
 
-**Microsoft : <vmid> \\ HVR \\<0/1>**
+**Microsoft : &lt; VMID &gt; \\ HVR \\<0/1>**
 
 0 indique principal et 1 indique [la réplication étendue](#extended-replication).
 
@@ -479,7 +479,7 @@ la fonctionnalité de réplication Hyper-v dans Windows 8 permet aux ordinateurs
 
 la fonctionnalité de réplication Hyper-V dans Windows 8.1 permet à un utilisateur d’étendre la relation de réplication du site secondaire vers un troisième site. Le troisième site peut être un hôte Hyper-V préconfiguré en tant que serveur de récupération ou fournisseur de réplication externe.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

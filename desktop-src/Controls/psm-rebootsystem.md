@@ -3,7 +3,7 @@ title: Message PSM_REBOOTSYSTEM (Prsht. h)
 description: Indique que le système doit être redémarré pour que les modifications prennent effet. Vous pouvez envoyer le \_ message REBOOTSYSTEM PSM de manière explicite ou à l’aide de la \_ macro PropSheet REBOOTSYSTEM.
 ms.assetid: 461fce3c-183a-4b9b-8eab-ed2838d9f866
 keywords:
-- PSM_REBOOTSYSTEM les contrôles de message Windows
+- PSM_REBOOTSYSTEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f5018dc3845d699561740ccd9cbb0a9c793f15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcfebc931d1dbf01ab053fa2723bdcf361c4be5ef1443b9131115e2300770cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088629"
 ---
 # <a name="psm_rebootsystem-message"></a>\_Message PSM REBOOTSYSTEM
 
@@ -47,7 +47,7 @@ Doit être zéro.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit envoyer ce message uniquement en réponse au message de notification [PSN \_ apply](psn-apply.md) ou [PSN \_ KILLACTIVE](psn-killactive.md) .
 
@@ -66,8 +66,8 @@ Ce message remplace tous les [**messages \_ RESTARTWINDOWS PSM**](psm-restartwin
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

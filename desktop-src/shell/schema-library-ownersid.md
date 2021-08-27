@@ -1,19 +1,19 @@
 ---
-description: L' <ownerSID> élément spécifie l’identificateur de sécurité (SID) du créateur de la bibliothèque. Cet élément est facultatif et n’a pas d’attributs ni d’éléments enfants.
+description: L' &lt; &gt; élément ownerSID spécifie l’identificateur de sécurité (SID) du créateur de la bibliothèque. Cet élément est facultatif et n’a pas d’attributs ni d’éléments enfants.
 ms.assetid: 03FBE499-7920-4991-B9EF-2D3721803A01
 title: Élément ownerSID (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abc62e615bd76824483454cca62fb4fe1c3a869ff150a754db847baaf311146
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 095a29b530d90194a181f0f3c95868fd5ab560db
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880465"
 ---
 # <a name="ownersid-element-library-schema"></a>Élément ownerSID (schéma de bibliothèque)
 
-L' <ownerSID> élément spécifie l’identificateur de sécurité (SID) du créateur de la bibliothèque. Cet élément est facultatif et n’a pas d’attributs ni d’éléments enfants.
+L' &lt; &gt; élément ownerSID spécifie l’identificateur de sécurité (SID) du créateur de la bibliothèque. Cet élément est facultatif et n’a pas d’attributs ni d’éléments enfants.
 
 ## <a name="syntax"></a>Syntaxe
 

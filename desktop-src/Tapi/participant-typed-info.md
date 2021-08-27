@@ -4,16 +4,16 @@ ms.assetid: ca933d8c-bfb4-4a92-b412-112e228ccca2
 title: Énumération PARTICIPANT_TYPED_INFO (Confpriv. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ab94a487f0ea098ee9b92144874057dc463036
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2de57331cd0774409118b7253fd5705879e3b3504b04b20a16aa2df269504512
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100569"
 ---
 # <a name="participant_typed_info-enumeration"></a>\_Énumération des informations typées du participant \_
 
-\[**Participant \_ Les \_ informations typées** ne peuvent pas être utilisées dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[**Participant \_ les \_ informations typées** ne peuvent pas être utilisées dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Les membres de l’énumération **\_ \_ info typées participant** identifient le type d’informations sur les participants récupérés par la méthode [**ITParticipant :: obten \_ ParticipantTypedInfo**](itparticipant-get-participanttypedinfo.md) . Cette énumération est utilisée par les applications qui accèdent au [MSP ipconf](ipconf-msp.md).
 

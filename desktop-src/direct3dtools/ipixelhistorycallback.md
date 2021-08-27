@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: acdee69a844025aab831e8e1c465b90569d97acf
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 542db5684096a846b6b4b8906a1c5beccb521e3c
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122627515"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787085"
 ---
 # <a name="span-idvspixengineipixelhistorycallbackspanipixelhistorycallback-interface"></a><span id="vspixengine.ipixelhistorycallback"></span>Interface IPixelHistoryCallback
 
@@ -38,7 +38,7 @@ L’interface **IPixelHistoryCallback** hérite de l’interface [**IUnknown**](
 
 L’interface **IPixelHistoryCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte des résultats de la requête de l’historique des pixels.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixelhistorycallback-resultcallback-dword-pixelhistoryoperation-arr"><strong>ResultCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte des résultats de la requête de l’historique des pixels.</p></td></tr></tbody></table>
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f60297d22aad76b229c691a667ac22a87271402c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 76ab64d0d93ce7523c3d91d6f4a3ebb5f4d200f0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107923"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468796"
 ---
 # <a name="user-account-control-attribute"></a>Attribut User-Account-Control
 
@@ -36,7 +36,7 @@ Indicateurs qui contrôlent le comportement du compte d’utilisateur.
 | Fréquence des mises à jour  | Chaque fois que la stratégie de compte change. |
 | Attribute-Id      | 1.2.840.113556.1.4.8                  |
 | System-ID-GUID    | bf967a68-0de6-11d0-a285-00aa003049e2  |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)  |
+| Syntax            | [**Énumération**](s-enumeration.md)  |
 
 
 
@@ -45,7 +45,7 @@ Indicateurs qui contrôlent le comportement du compte d’utilisateur.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -175,148 +175,39 @@ Indicateurs qui contrôlent le comportement du compte d’utilisateur.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur d’attribut peut être zéro ou une combinaison d’une ou plusieurs des valeurs suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur hexadécimale</th>
-<th>Identificateur (défini dans IADs. h)</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0x00000001</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SCRIPT</strong></a></td>
-<td>Le script d’ouverture de session est exécuté.</td>
-</tr>
-<tr class="even">
-<td>0x00000002</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_ACCOUNTDISABLE</strong></a></td>
-<td>Le compte d’utilisateur est désactivé.</td>
-</tr>
-<tr class="odd">
-<td>0x00000008</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_HOMEDIR_REQUIRED</strong></a></td>
-<td>Le répertoire de départ est requis.</td>
-</tr>
-<tr class="even">
-<td>0x00000010</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_LOCKOUT</strong></a></td>
-<td>Le compte est actuellement verrouillé.</td>
-</tr>
-<tr class="odd">
-<td>0x00000020</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_NOTREQD</strong></a></td>
-<td>Aucun mot de passe n'est requis.</td>
-</tr>
-<tr class="even">
-<td>0x00000040</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_CANT_CHANGE</strong></a></td>
-<td>L’utilisateur ne peut pas modifier le mot de passe.
-<blockquote>
-[!Note]<br />
-Vous ne pouvez pas assigner les paramètres d’autorisation de PASSWD_CANT_CHANGE en modifiant directement l’attribut UserAccountControl. Pour plus d’informations et pour obtenir un exemple de code qui montre comment empêcher un utilisateur de modifier le mot de passe, consultez l' <a href="/windows/desktop/ADSI/user-cannot-change-password">utilisateur ne peut pas changer de mot de passe</a>.
-</blockquote>
-<br/> :</td>
-</tr>
-<tr class="odd">
-<td>0x00000080</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED</strong></a></td>
-<td>L’utilisateur peut envoyer un mot de passe chiffré.</td>
-</tr>
-<tr class="even">
-<td>0x00000100</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TEMP_DUPLICATE_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un compte pour les utilisateurs dont le compte principal se trouve dans un autre domaine. Ce compte fournit l’accès utilisateur à ce domaine, mais pas à un domaine qui approuve ce domaine. Également connu sous le nom de compte d’utilisateur local.</td>
-</tr>
-<tr class="odd">
-<td>0x00000200</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_NORMAL_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un type de compte par défaut qui représente un utilisateur standard.</td>
-</tr>
-<tr class="even">
-<td>0x00000800</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_INTERDOMAIN_TRUST_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un permis de faire confiance à un compte de domaine système qui approuve d’autres domaines.</td>
-</tr>
-<tr class="odd">
-<td>0x00001000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_WORKSTATION_TRUST_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un compte d’ordinateur pour un ordinateur qui est membre de ce domaine.</td>
-</tr>
-<tr class="even">
-<td>0x00002000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SERVER_TRUST_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un compte d’ordinateur pour un contrôleur de domaine de sauvegarde du système qui est membre de ce domaine.</td>
-</tr>
-<tr class="odd">
-<td>0x00004000</td>
-<td>N/A</td>
-<td>Non utilisé.</td>
-</tr>
-<tr class="even">
-<td>0x00008000</td>
-<td>N/A</td>
-<td>Non utilisé.</td>
-</tr>
-<tr class="odd">
-<td>0x00010000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_DONT_EXPIRE_PASSWD</strong></a></td>
-<td>Le mot de passe de ce compte n’expire jamais.</td>
-</tr>
-<tr class="even">
-<td>0x00020000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_MNS_LOGON_ACCOUNT</strong></a></td>
-<td>Il s’agit d’un compte MNS Logon.</td>
-</tr>
-<tr class="odd">
-<td>0x00040000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SMARTCARD_REQUIRED</strong></a></td>
-<td>L’utilisateur doit se connecter à l’aide d’une carte à puce.</td>
-</tr>
-<tr class="even">
-<td>0x00080000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TRUSTED_FOR_DELEGATION</strong></a></td>
-<td>Le compte de service (compte d’utilisateur ou d’ordinateur), sous lequel un service s’exécute, est approuvé pour la délégation Kerberos. N’importe quel service peut emprunter l’identité d’un client qui demande le service.</td>
-</tr>
-<tr class="odd">
-<td>0x00100000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_NOT_DELEGATED</strong></a></td>
-<td>Le contexte de sécurité de l’utilisateur ne sera pas délégué à un service même si le compte de service est défini comme approuvé pour la délégation Kerberos.</td>
-</tr>
-<tr class="even">
-<td>0x00200000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_USE_DES_KEY_ONLY</strong></a></td>
-<td>Limitez ce principal pour qu’il utilise uniquement des types de chiffrement DES (Data Encryption Standard) pour les clés.</td>
-</tr>
-<tr class="odd">
-<td>0x00400000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_DONT_REQUIRE_PREAUTH</strong></a></td>
-<td>Ce compte ne nécessite pas l’authentification préalable Kerberos pour l’ouverture de session.</td>
-</tr>
-<tr class="even">
-<td>0x00800000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWORD_EXPIRED</strong></a></td>
-<td>Le mot de passe de l’utilisateur a expiré. Cet indicateur est créé par le système à l’aide des données de l’attribut <a href="a-pwdlastset.md"><strong>PWD-Last-Set</strong></a> et de la stratégie de domaine.</td>
-</tr>
-<tr class="odd">
-<td>0x01000000</td>
-<td><a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION</strong></a></td>
-<td>Le compte est activé pour la délégation. Il s’agit d’un paramètre sensible à la sécurité. les comptes pour lesquels cette option est activée doivent être contrôlés de manière stricte. Ce paramètre permet à un service s’exécutant sous le compte de supposer une identité client et de s’authentifier en tant qu’utilisateur sur d’autres serveurs distants sur le réseau.</td>
-</tr>
-</tbody>
-</table>
+
+| Valeur hexadécimale | Identificateur (défini dans IADs. h) | Description | 
+|-------------------|--------------------------------|-------------|
+| 0x00000001 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SCRIPT</strong></a> | Le script d’ouverture de session est exécuté. | 
+| 0x00000002 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_ACCOUNTDISABLE</strong></a> | Le compte d’utilisateur est désactivé. | 
+| 0x00000008 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_HOMEDIR_REQUIRED</strong></a> | Le répertoire de départ est requis. | 
+| 0x00000010 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_LOCKOUT</strong></a> | Le compte est actuellement verrouillé. | 
+| 0x00000020 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_NOTREQD</strong></a> | Aucun mot de passe n'est requis. | 
+| 0x00000040 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWD_CANT_CHANGE</strong></a> | L’utilisateur ne peut pas modifier le mot de passe.<blockquote>[!Note]<br />Vous ne pouvez pas assigner les paramètres d’autorisation de PASSWD_CANT_CHANGE en modifiant directement l’attribut UserAccountControl. Pour plus d’informations et pour obtenir un exemple de code qui montre comment empêcher un utilisateur de modifier le mot de passe, consultez l' <a href="/windows/desktop/ADSI/user-cannot-change-password">utilisateur ne peut pas changer de mot de passe</a>.</blockquote><br /> : | 
+| 0x00000080 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED</strong></a> | L’utilisateur peut envoyer un mot de passe chiffré. | 
+| 0x00000100 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TEMP_DUPLICATE_ACCOUNT</strong></a> | Il s’agit d’un compte pour les utilisateurs dont le compte principal se trouve dans un autre domaine. Ce compte fournit l’accès utilisateur à ce domaine, mais pas à un domaine qui approuve ce domaine. Également connu sous le nom de compte d’utilisateur local. | 
+| 0x00000200 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_NORMAL_ACCOUNT</strong></a> | Il s’agit d’un type de compte par défaut qui représente un utilisateur standard. | 
+| 0x00000800 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_INTERDOMAIN_TRUST_ACCOUNT</strong></a> | Il s’agit d’un permis de faire confiance à un compte de domaine système qui approuve d’autres domaines. | 
+| 0x00001000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_WORKSTATION_TRUST_ACCOUNT</strong></a> | Il s’agit d’un compte d’ordinateur pour un ordinateur qui est membre de ce domaine. | 
+| 0x00002000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SERVER_TRUST_ACCOUNT</strong></a> | Il s’agit d’un compte d’ordinateur pour un contrôleur de domaine de sauvegarde du système qui est membre de ce domaine. | 
+| 0x00004000 | N/A | Non utilisé. | 
+| 0x00008000 | N/A | Non utilisé. | 
+| 0x00010000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_DONT_EXPIRE_PASSWD</strong></a> | Le mot de passe de ce compte n’expire jamais. | 
+| 0x00020000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_MNS_LOGON_ACCOUNT</strong></a> | Il s’agit d’un compte MNS Logon. | 
+| 0x00040000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_SMARTCARD_REQUIRED</strong></a> | L’utilisateur doit se connecter à l’aide d’une carte à puce. | 
+| 0x00080000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TRUSTED_FOR_DELEGATION</strong></a> | Le compte de service (compte d’utilisateur ou d’ordinateur), sous lequel un service s’exécute, est approuvé pour la délégation Kerberos. N’importe quel service peut emprunter l’identité d’un client qui demande le service. | 
+| 0x00100000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_NOT_DELEGATED</strong></a> | Le contexte de sécurité de l’utilisateur ne sera pas délégué à un service même si le compte de service est défini comme approuvé pour la délégation Kerberos. | 
+| 0x00200000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_USE_DES_KEY_ONLY</strong></a> | Limitez ce principal pour qu’il utilise uniquement des types de chiffrement DES (Data Encryption Standard) pour les clés. | 
+| 0x00400000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_DONT_REQUIRE_PREAUTH</strong></a> | Ce compte ne nécessite pas l’authentification préalable Kerberos pour l’ouverture de session. | 
+| 0x00800000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_PASSWORD_EXPIRED</strong></a> | Le mot de passe de l’utilisateur a expiré. Cet indicateur est créé par le système à l’aide des données de l’attribut <a href="a-pwdlastset.md"><strong>PWD-Last-Set</strong></a> et de la stratégie de domaine. | 
+| 0x01000000 | <a href="/windows/desktop/api/iads/ne-iads-ads_user_flag_enum"><strong>ADS_UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION</strong></a> | Le compte est activé pour la délégation. Il s’agit d’un paramètre sensible à la sécurité. les comptes pour lesquels cette option est activée doivent être contrôlés de manière stricte. Ce paramètre permet à un service s’exécutant sous le compte de supposer une identité client et de s’authentifier en tant qu’utilisateur sur d’autres serveurs distants sur le réseau. | 
+
 
 
 

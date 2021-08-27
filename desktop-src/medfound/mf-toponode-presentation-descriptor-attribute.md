@@ -4,12 +4,12 @@ ms.assetid: 4f2c1ad8-fda9-482f-b82a-9838d15d2785
 title: Attribut MF_TOPONODE_PRESENTATION_DESCRIPTOR (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0d95fae4f2c4d4a482c2a62d57e0835ea4f1c36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bfa43a57bcead1312ba8138ab085771d29a008fe2558ea7c6bfb29121d631bf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113705"
 ---
 # <a name="mf_toponode_presentation_descriptor-attribute"></a>\_Attribut de \_ descripteur de présentation TOPONODE MF \_
 
@@ -17,11 +17,11 @@ Contient un pointeur vers le descripteur de présentation pour la source du méd
 
 ## <a name="data-type"></a>Type de données
 
-**IUnknown \** _
+**IUnknown\***
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut s’applique aux nœuds sources (_ * MF \_ Topology \_ SOURCESTREAM \_ node * *).
+Cet attribut s’applique aux nœuds sources (**\_ \_ \_ nœud SOURCESTREAM de topologie MF**).
 
 La valeur de l’attribut est un pointeur vers l’interface [**IMFPresentationDescriptor**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor) du descripteur de présentation. Cet attribut est obligatoire.
 
@@ -33,8 +33,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

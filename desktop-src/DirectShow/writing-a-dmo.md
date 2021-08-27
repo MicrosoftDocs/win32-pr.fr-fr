@@ -4,23 +4,23 @@ ms.assetid: 77966a77-5400-43b1-bdbd-ace27ddc8ae7
 title: Écriture d’un DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6a9f6062a51e5f44ba5066110a93f6cd707f2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9066c9fa64c262a39175b5521902c863985407393f0c906f4e1cd9701862475e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130829"
 ---
 # <a name="writing-a-dmo"></a>Écriture d’un DMO
 
-Cette section décrit comment écrire un DMO. Avant de lire cette section, vous devez lire la section « utilisation de DMOs », afin de comprendre comment une fonction DMO du point de vue du client.
+Cette section décrit comment écrire un DMO. avant de lire cette section, vous devez lire la section « utilisation de DMOs », afin de comprendre comment une DMO fonctionne du point de vue du client.
 
 Cette section contient les rubriques suivantes :
 
--   [Configuration minimale requise pour DMO](dmo-minimum-requirements.md)
--   [Types de médias DMO](dmo-media-types.md)
+-   [DMO Configuration minimale requise](dmo-minimum-requirements.md)
+-   [DMO Types de médias](dmo-media-types.md)
 -   [Inscription d’un DMO](registering-a-dmo.md)
--   [Utilisation du modèle de classe DMO](using-the-dmo-class-template.md)
+-   [utilisation du modèle de classe DMO](using-the-dmo-class-template.md)
 -   [Utilisation de l’application DMOTest](using-the-dmotest-application.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
