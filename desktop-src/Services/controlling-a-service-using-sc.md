@@ -1,19 +1,19 @@
 ---
-description: L’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour contrôler un service. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
+description: l’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour contrôler un service. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
 ms.assetid: 7c3e5c39-ec0f-4174-9ecf-239927de3d39
 title: Contrôle d’un service à l’aide de SC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c1aa991395ba2aa55bf05d63176fba59d96dce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2481e0d13f19760c042d39efe4ec6094a3ef270312aeb31d2228d401d914bc1f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126449"
 ---
 # <a name="controlling-a-service-using-sc"></a>Contrôle d’un service à l’aide de SC
 
-L’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour contrôler un service. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
+l’SDK Windows contient un utilitaire de ligne de commande, Sc.exe, qui peut être utilisé pour contrôler un service. Ses commandes correspondent aux fonctions fournies par le SCM. La syntaxe est la suivante.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -56,7 +56,7 @@ Paramètre optionnel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour afficher la syntaxe complète d’une commande, utilisez la commande suivante :
 

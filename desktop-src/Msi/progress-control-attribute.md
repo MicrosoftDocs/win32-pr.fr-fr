@@ -4,12 +4,12 @@ ms.assetid: d2b64cdf-e0b4-4c92-9cce-7f50753b875f
 title: Progress (attribut de contrôle)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8854106ebacc8af2bdc0acfb58c5afc5d700df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a867772ff1452087ab22da76d3c1f93aea32e5ad50bd23ffe8ace62889086781
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106525710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074629"
 ---
 # <a name="progress-control-attribute"></a>Progress (attribut de contrôle)
 
@@ -19,13 +19,13 @@ Pour obtenir des informations connexes, consultez [création d’un contrôle Pr
 
 ## <a name="valid-controls"></a>Contrôles valides
 
-[Barre de progression](progressbar-control.md)
+[ProgressBar](progressbar-control.md)
 
 ## <a name="associated-bit-flags"></a>Indicateurs binaires associés
 
 Cet attribut n’utilise pas d’indicateurs binaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez les [attributs de contrôle](control-attributes.md) et le contrôle que vous devez créer sous [contrôles](controls.md).
 

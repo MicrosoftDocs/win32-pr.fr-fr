@@ -4,12 +4,12 @@ ms.assetid: ddc28add-ebf5-4a68-bdf4-dc5f33ab74da
 title: Comment configurer le localisateur de proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6b383dda9ac78b2c62aa8481a09cc5c0d7b3ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51dcade0909159856c4286d9c2cd5d4851d10b6d2c5e56054545bdac312e21b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061539"
 ---
 # <a name="how-to-configure-the-proxy-locator"></a>Comment configurer le localisateur de proxy
 
@@ -20,7 +20,7 @@ L’application peut modifier la configuration par défaut du localisateur de pr
 1.  Implémentez l’interface [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) .
 2.  Dans la méthode [**IMFNetProxyLocatorFactory :: CreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator) , procédez comme suit :
     1.  Créer une banque de propriétés.
-    2.  Définissez les paramètres de configuration pour le localisateur de proxy. Pour plus d’informations sur ces paramètres, consultez [paramètres de configuration du localisateur de proxy](proxy-locator-configuration-settings.md).
+    2.  Définissez les paramètres de configuration pour le localisateur de proxy. pour plus d’informations sur ces paramètres, consultez [Paramètres de Configuration du localisateur de Proxy](proxy-locator-configuration-settings.md).
     3.  Appelez la fonction [**MFCreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-mfcreateproxylocator) . Transmettez la Banque de propriétés et le protocole. Le protocole est spécifié dans le paramètre *pszProtocol* de [**CreateProxyLocator**](/windows/desktop/api/mfidl/nf-mfidl-imfnetproxylocatorfactory-createproxylocator).
 3.  Créez une instance de votre classe de fabrique du localisateur proxy et récupérez un pointeur vers son interface [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) .
 4.  Créez une autre banque de propriétés et définissez la valeur de la propriété [**MFNETSOURCE \_ PROXYLOCATORFACTORY**](mfnetsource-proxylocatorfactory-property.md) sur le pointeur [**IMFNetProxyLocatorFactory**](/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocatorfactory) de l’étape 3.

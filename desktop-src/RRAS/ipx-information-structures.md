@@ -4,12 +4,12 @@ description: Les structures d’informations suivantes concernent le transport I
 ms.assetid: 85865ae4-bdb2-4dcd-bd52-912d9b9aaf1b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9bb2a8655d27840838ce4ba005355ffb1931c6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc37ad0b6e04d58c749debd666417b2c7fc74399e3f8251b33b7851bc845155e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074199"
 ---
 # <a name="ipx-information-structures"></a>Structures d’informations IPX
 
@@ -19,6 +19,6 @@ Les structures d’informations suivantes concernent le transport IPX. Les infor
 -   [**\_ \_ informations sur le service statique IPX \_**](/previous-versions/windows/desktop/legacy/aa374456(v=vs.85))
 -   [**IPXWAN \_ si \_ info**](/windows/desktop/api/Ipxrtdef/ns-ipxrtdef-ipxwan_if_info)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: db1ecee0-40eb-4761-b5d8-9cc3c1c98cdf
 title: Codes de raison de l’arrêt du système (Reason. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee2b8b2795dcf350d627b3cf59f85eb374a22cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef40cf53afd3abaf261e15f2caba735dea7963ee5b5f19cebc78c63a373962fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073199"
 ---
 # <a name="system-shutdown-reason-codes"></a>Codes de raison de l’arrêt du système
 
@@ -49,7 +49,7 @@ Voici les indicateurs de raison mineurs. Ils modifient l’indicateur de raison 
 | <span id="SHTDN_REASON_MINOR_HOTFIX_UNINSTALL"></span><span id="shtdn_reason_minor_hotfix_uninstall"></span><dl> <dt>**SHTDN \_ RAISON de la \_ \_ \_ désinstallation du correctif mineur**</dt> <dt>0x00000017</dt> </dl>                | Désinstallation des correctifs à chaud.<br/>        |
 | <span id="SHTDN_REASON_MINOR_HUNG"></span><span id="shtdn_reason_minor_hung"></span><dl> <dt>**SHTDN \_ RAISON \_ du \_ blocage mineur**</dt> du <dt>0x00000005</dt> </dl>                                                     | Ne répond pas.<br/>                  |
 | <span id="SHTDN_REASON_MINOR_INSTALLATION"></span><span id="shtdn_reason_minor_installation"></span><dl> <dt>**SHTDN \_ RAISON \_ de \_ l’installation mineure**</dt> <dt>0x00000002</dt> </dl>                             | Installation.<br/>                  |
-| <span id="SHTDN_REASON_MINOR_MAINTENANCE"></span><span id="shtdn_reason_minor_maintenance"></span><dl> <dt>**SHTDN \_ RAISON de la \_ \_ maintenance mineure**</dt> <dt>0x00000001</dt> </dl>                                | Jour.<br/>                   |
+| <span id="SHTDN_REASON_MINOR_MAINTENANCE"></span><span id="shtdn_reason_minor_maintenance"></span><dl> <dt>**SHTDN \_ RAISON de la \_ \_ maintenance mineure**</dt> <dt>0x00000001</dt> </dl>                                | Maintenance.<br/>                   |
 | <span id="SHTDN_REASON_MINOR_MMC"></span><span id="shtdn_reason_minor_mmc"></span><dl> <dt>**SHTDN \_ RAISON de la 0x00000019 \_ \_ MMC mineure**</dt> <dt></dt> </dl>                                                        | Problème de MMC.<br/>                     |
 | <span id="SHTDN_REASON_MINOR_NETWORK_CONNECTIVITY"></span><span id="shtdn_reason_minor_network_connectivity"></span><dl> <dt>**SHTDN \_ RAISON de la \_ \_ \_ connectivité réseau mineure**</dt> <dt>0x00000014</dt> </dl>    | Connectivité réseau<br/>          |
 | <span id="SHTDN_REASON_MINOR_NETWORKCARD"></span><span id="shtdn_reason_minor_networkcard"></span><dl> <dt>**SHTDN \_ RAISON \_ \_ NETWORKCARD**</dt> <dt>0x00000009</dt> </dl>                                | Carte réseau.<br/>                  |
@@ -77,11 +77,11 @@ Les indicateurs facultatifs suivants fournissent des informations supplémentair
 | Constante/valeur                                                                                                                                                                                                                                                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="SHTDN_REASON_FLAG_USER_DEFINED"></span><span id="shtdn_reason_flag_user_defined"></span><dl> <dt>**SHTDN \_ \_Indicateur de \_ raison \_ défini par l’utilisateur**</dt> <dt>0x40000000</dt> </dl> | Le code de raison est défini par l’utilisateur. Pour plus d’informations, consultez Définition d’un code de raison personnalisé. <br/> Si cet indicateur n’est pas présent, le code de raison est défini par le système.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| <span id="SHTDN_REASON_FLAG_PLANNED"></span><span id="shtdn_reason_flag_planned"></span><dl> <dt>**SHTDN \_ Indicateur de raison \_ \_ planifié**</dt> <dt>0x80000000</dt> </dl>                 | L’arrêt a été planifié. Le système génère un fichier de données d’État du système (SSD). Ce fichier contient des informations sur l’état du système, telles que les processus, les threads, l’utilisation de la mémoire et la configuration. <br/> Si cet indicateur n’est pas présent, l’arrêt n’a pas été planifié. Les options de notification et de rapport sont contrôlées par un ensemble de stratégies. Par exemple, après la connexion, le système affiche une boîte de dialogue signalant l’arrêt non planifié si la stratégie a été activée. Un fichier SSD est créé uniquement si la stratégie de disque SSD est activée sur le système. L’administrateur peut utiliser [rapport d’erreurs Windows](../wer/windows-error-reporting.md) pour envoyer les données SSD à un emplacement central ou à Microsoft.<br/> |
+| <span id="SHTDN_REASON_FLAG_PLANNED"></span><span id="shtdn_reason_flag_planned"></span><dl> <dt>**SHTDN \_ Indicateur de raison \_ \_ planifié**</dt> <dt>0x80000000</dt> </dl>                 | L’arrêt a été planifié. Le système génère un fichier de données d’État du système (SSD). Ce fichier contient des informations sur l’état du système, telles que les processus, les threads, l’utilisation de la mémoire et la configuration. <br/> Si cet indicateur n’est pas présent, l’arrêt n’a pas été planifié. Les options de notification et de rapport sont contrôlées par un ensemble de stratégies. Par exemple, après la connexion, le système affiche une boîte de dialogue signalant l’arrêt non planifié si la stratégie a été activée. Un fichier SSD est créé uniquement si la stratégie de disque SSD est activée sur le système. l’administrateur peut utiliser [Rapport d’erreurs Windows](../wer/windows-error-reporting.md) pour envoyer les données SSD à un emplacement central ou à Microsoft.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les combinaisons suivantes sont reconnues par le système. Le tableau indique la chaîne qui s’affiche dans le moniteur d’événements de mise hors tension et fournit une description plus détaillée. La chaîne par défaut est « aucun titre pour cette raison n’a été trouvé ».
 
@@ -120,7 +120,7 @@ Les combinaisons suivantes sont reconnues par le système. Le tableau indique la
 
  
 
-Vous pouvez également définir vos propres raisons d’arrêt et les ajouter au registre. Chaque code de raison doit être stocké sous la forme d’une valeur de Registre dans la clé suivante :**HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ FIABILITE \\ UserDefined \\<ID de langue par défaut du \_ système \_ \_>**
+Vous pouvez également définir vos propres raisons d’arrêt et les ajouter au registre. chaque code de raison doit être stocké sous la forme d’une valeur de registre dans la clé suivante :**HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ fiabilite \\ UserDefined \\<ID de langue par défaut du \_ système \_ \_>**
 
 Cette clé contient des noms de valeur de la forme suivante : *xxxxx*; *nnn*; *nnnnn*. Les points-virgules délimitent les composants d’un nom de valeur.
 
@@ -173,8 +173,8 @@ Les données de chaque valeur de Registre sont deux chaînes séparées par \\ n
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP- \[ \| applications UWP\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ \| apps UWP\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP pour applications \[ \| UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2003 \[ \| applications UWP\]<br/>                         |
 | En-tête<br/>                   | <dl> <dt>Raison. h</dt> </dl> |
 
 

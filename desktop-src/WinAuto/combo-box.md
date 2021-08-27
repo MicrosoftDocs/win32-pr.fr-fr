@@ -4,19 +4,19 @@ description: Une zone de liste modifiable est une zone de liste associée à un 
 ms.assetid: 3fb2c0b0-507f-4520-845b-b3fbfd9e7b60
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ce42bb3b0316b0fb2668fed23564b8f904fc793
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ea3a8d26fa5b8cb264c06e7aa64c672e0a80e8ada7e90a152b3b941ea207cade
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071839"
 ---
 # <a name="combo-box-msaa-ui-element-reference"></a>Zone de liste déroulante (référence des éléments d’interface utilisateur MSAA)
 
 > [!Note]  
 > Cette rubrique décrit les objets de **zone de liste déroulante** à des fins de référence des éléments d’interface utilisateur MSAA. La création d’objets de **zone de liste déroulante** dans diverses infrastructures d’interface utilisateur n’est pas décrite ici. Consultez la documentation de référence sur les API pour l’infrastructure d’interface utilisateur que vous utilisez.
 
- 
+ 
 
 Une zone de liste modifiable est une zone de liste associée à un contrôle statique ou à un contrôle d’édition qui affiche dans la zone de liste l’élément actuellement sélectionné. La partie zone de liste du contrôle est affichée en permanence ou uniquement lorsque l’utilisateur sélectionne la flèche de déroulement (qui est un bouton de commande) à côté du contrôle. Si le champ de sélection est un contrôle d’édition, l’utilisateur peut entrer des informations qui ne sont pas dans la liste ; dans le cas contraire, l’utilisateur ne peut sélectionner que les éléments de la liste.
 
@@ -57,7 +57,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 -   [**obtenir \_ accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction)— le tableau suivant présente la propriété **DefaultAction** pour les différentes parties d’une zone de liste déroulante. 
 
@@ -71,7 +71,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 -   [**Obtient \_ accDescription**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdescription)
 -   [**Obtient \_ accFocus**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accfocus)
@@ -89,13 +89,13 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
     La clé d’accès d’une zone de liste déroulante est le caractère souligné dans le texte d’un contrôle de texte statique associé qui étiquette la zone de liste déroulante. Par exemple, dans une boîte de dialogue Ouvrir standard qui ouvre des fichiers, par exemple dans Microsoft WordPad, la zone de liste déroulante intitulée « fichiers de type : » a le **KeyboardShortcut** « Alt + t ».
 
 -   [**obtenir \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)— le tableau suivant présente la propriété **Name** pour les différentes parties d’une zone de liste déroulante. 
 
-    | Partie de zone de liste déroulante   | Nom                                                           |
+    | Partie de zone de liste déroulante   | Name                                                           |
     |------------------|----------------------------------------------------------------|
     | Fenêtre de zone de liste déroulante | Contrôle de texte statique utilisé comme étiquette                            |
     | Contrôle Edit     | Contrôle de texte statique utilisé comme étiquette                            |
@@ -105,7 +105,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
     La propriété de **nom** d’une zone de liste déroulante, son contrôle d’édition enfant et sa zone de liste enfant sont le texte d’un contrôle de texte statique associé qui étiquette la zone de liste déroulante. Par exemple, dans une boîte de dialogue Ouvrir standard qui ouvre des fichiers, par exemple dans WordPad, les propriétés de **nom** pour les deux zones de liste déroulante sont « regarder dans : » et « fichiers de type : ».
 
@@ -122,7 +122,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 -   [**obtenir \_ accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole)— le tableau suivant présente la propriété **role** pour les différentes parties d’une zone de liste déroulante. 
 
@@ -136,7 +136,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 -   [**obtenir \_ accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate)— le tableau suivant présente la propriété **State** pour les différentes parties d’une zone de liste déroulante. 
 
@@ -150,7 +150,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 -   [**obtenir \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue)— le tableau suivant présente la propriété **valeur** pour les différentes parties d’une zone de liste déroulante. 
 
@@ -164,7 +164,7 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 
     
 
-     
+     
 
 ## <a name="notes"></a>Notes
 
@@ -177,9 +177,9 @@ Les zones de liste déroulante prennent en charge les propriétés [**IAccessibl
 [IAccessible, interface](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: La taille d’un tableau conforme peut varier ou se conformer chaqu
 ms.assetid: b4aaec77-b7ae-495d-8666-4702017e675f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6f1491354f9cd26ef6100ab8d21f2ace3133f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 19766b7b9552bcab08a4d194629892e51d5185ed39b0bedddbaef32f08cececf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073429"
 ---
 # <a name="conformant-arrays"></a>Tableaux conformes
 
@@ -60,6 +60,6 @@ MyRemoteProc(
 
 Ce fragment appelle à deux reprises la procédure distante MyRemoteProc. Lors du premier appel, il passe un tableau de 20 éléments. Lors du deuxième appel, le client passe un tableau de 200 éléments.
 
- 
+ 
 
- 
+ 

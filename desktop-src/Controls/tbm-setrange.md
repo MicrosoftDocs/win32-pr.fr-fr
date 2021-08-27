@@ -3,7 +3,7 @@ title: Message TBM_SETRANGE (commctrl. h)
 description: Définit la plage de positions logiques minimale et maximale pour le curseur dans un TrackBar.
 ms.assetid: 9c225742-8e5e-4f47-af8c-8243b6c90c1d
 keywords:
-- TBM_SETRANGE les contrôles de message Windows
+- TBM_SETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9d870df628b06031374260c679f792f0b7218a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcd4bf71cfcbc36e098bc83568bdf519209ec82cc9889b6b5ec3934d349f737
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061139"
 ---
 # <a name="tbm_setrange-message"></a>\_Message TBM SEtrange
 
@@ -47,7 +47,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) sp�
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la position actuelle du curseur est en dehors de la nouvelle plage, le message **TBM \_ SetRange** définit la position du curseur sur la nouvelle valeur maximale ou minimale.
 
@@ -59,8 +59,8 @@ Si la position actuelle du curseur est en dehors de la nouvelle plage, le messag
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

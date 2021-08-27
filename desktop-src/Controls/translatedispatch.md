@@ -3,7 +3,7 @@ title: TranslateDispatch fonction de rappel
 description: Utilisé par le client de la fonction DoReaderMode pour intercepter et gérer explicitement tous les messages Windows ciblés pour la zone de défilement de la fenêtre du mode lecteur. Il s’agit d’une fonction de rappel définie par l’application.
 ms.assetid: a50cff4f-ae10-4c3c-a386-9ec7c7d6256f
 keywords:
-- Contrôles Windows de fonction de rappel TranslateDispatch
+- TranslateDispatch, fonction de rappel des contrôles Windows
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1230ed1e65f8d739f9a0a05e4788eb919c45c4cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 08f726c3f56579260e96a882f1123d035df37cb3f7f71fd0ecbc47d41672359c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060529"
 ---
 # <a name="translatedispatch-callback-function"></a>TranslateDispatch fonction de rappel
 
@@ -45,9 +45,9 @@ BOOL CALLBACK TranslateDispatch(
 *lpmsg* \[ dans\]
 </dt> <dd>
 
-Type : **const [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) \** _
+Type : **const [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) \***
 
-Pointeur vers une structure [_ *MSG* *](/windows/win32/api/winuser/ns-winuser-msg) qui contient le message intercepté.
+Pointeur vers une structure [**MSG**](/windows/win32/api/winuser/ns-winuser-msg) qui contient le message intercepté.
 
 </dd> </dl>
 
@@ -87,8 +87,8 @@ TranslateDispatchCallback(LPMSG lpmsg)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows Vista, applications de \[ Bureau Windows Vista uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>          |
+| Client minimal pris en charge<br/> | Windows vista, Windows les \[ applications de bureau vista uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>          |
 
 
 

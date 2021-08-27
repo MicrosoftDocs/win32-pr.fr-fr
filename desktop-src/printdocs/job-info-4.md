@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 5a6ccd7bf589ed341c9aceab86205cd9852c0896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd338b4e6e486c59bfdac705b68c72c56eafb96c9f4e1899e9b4cb3b294791de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091919"
 ---
 # <a name="job_info_4-structure"></a>\_Structure informations sur le travail \_ 4
 
@@ -179,7 +179,7 @@ La valeur de ce membre est **null**. La récupération et le paramétrage des de
 
  
 
-Dans Windows XP et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées :
+dans Windows XP et les versions ultérieures de Windows, les valeurs suivantes peuvent également être utilisées :
 
 | Valeur                 | Signification                                                                                       |
 |-----------------------|-----------------------------------------------------------------------------------------------|
@@ -276,7 +276,7 @@ Quatre octets supérieurs de la taille, en octets, du travail. Voir aussi le mem
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les moniteurs de port qui ne prennent pas en charge TrueEndOfJob définissent le travail en tant qu’État du travail \_ \_ imprimé immédiatement après l’envoi du travail à l’imprimante.
 

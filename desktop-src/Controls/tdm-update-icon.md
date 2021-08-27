@@ -3,7 +3,7 @@ title: Message TDM_UPDATE_ICON (commctrl. h)
 description: Actualise l’icône d’une boîte de dialogue de tâche.
 ms.assetid: 1094d9ca-90b4-4ba6-a14b-0d4e96243a34
 keywords:
-- TDM_UPDATE_ICON les contrôles de message Windows
+- TDM_UPDATE_ICON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b2da73ebb3bf0355f50bc08a08f0b35de97576b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 644e214a3edbc420a7aed3d4ba5bc688e6b7af1ed097be325006bb9481e00620
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104499"
 ---
 # <a name="tdm_update_icon-message"></a>\_Message d’icône de mise à jour TDM \_
 
@@ -77,7 +77,7 @@ Si les \_ indicateurs TDF utilisent les \_ \_ \_ indicateurs de pied de page HIC
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La disposition de la boîte de dialogue de tâche avec l’icône peut échouer et ne pas être reflétée dans la valeur de retour. Une valeur de retour de S \_ OK reflète uniquement que la boîte de dialogue de tâche a reçu le message et a tenté de le traiter. Si la disposition de la boîte de dialogue de tâche échoue, la boîte de dialogue se ferme et un code **HRESULT** est retourné au niveau de la fonction de rappel inscrite. Pour plus d’informations sur la syntaxe de la fonction de rappel, consultez [*TaskDialogCallbackProc*](/windows/win32/api/commctrl/nc-commctrl-pftaskdialogcallback).
 
@@ -89,8 +89,8 @@ Si la boîte de dialogue de tâche est créée sans pied de page (autrement dit,
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

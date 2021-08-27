@@ -1,29 +1,29 @@
 ---
-description: L’interface GDI (Graphics Device Interface) de Microsoft Windows permet aux applications d’utiliser des graphiques et du texte mis en forme à la fois dans l’affichage vidéo et l’imprimante.
+description: l’interface GDI (graphics device interface) de Microsoft Windows permet aux applications d’utiliser des graphiques et du texte mis en forme à la fois dans l’affichage vidéo et l’imprimante.
 ms.assetid: b58ab70a-2071-4264-9d20-c0b0aaf8dc5c
 title: Windows GDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41f5fc6ba9f4eb99786b21daeff2e1c48b9ce09d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e0bbdd515379c5c3d1f2c17ff0b991141b3a40a8cb42594be95e391da6dabb28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092539"
 ---
 # <a name="windows-gdi"></a>Windows GDI
 
 ## <a name="purpose"></a>Objectif
 
-L’interface GDI (Graphics Device Interface) de Microsoft Windows permet aux applications d’utiliser des graphiques et du texte mis en forme à la fois dans l’affichage vidéo et l’imprimante. Les applications Windows n’accèdent pas directement au matériel graphique. Au lieu de cela, GDI interagit avec les pilotes de périphérique pour le compte des applications.
+l’interface GDI (graphics device interface) de Microsoft Windows permet aux applications d’utiliser des graphiques et du texte mis en forme à la fois dans l’affichage vidéo et l’imprimante. les applications basées sur des Windows n’accèdent pas directement au matériel graphique. Au lieu de cela, GDI interagit avec les pilotes de périphérique pour le compte des applications.
 
 ## <a name="where-applicable"></a>Le cas échéant
 
-GDI peut être utilisé dans toutes les applications Windows.
+GDI peut être utilisé dans toutes les applications basées sur Windows.
 
 ## <a name="developer-audience"></a>Développeurs concernés
 
-Cette API est conçue pour être utilisée par les programmeurs C/C++. Vous devez vous familiariser avec l' [architecture pilotée](../learnwin32/window-messages.md) par les messages Windows.
+Cette API est conçue pour être utilisée par les programmeurs C/C++. vous devez vous familiariser avec la Windows [architecture pilotée](../learnwin32/window-messages.md) par les messages.
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les systèmes d’exploitation requis pour utilis
 
 -   [Images bitmap](bitmaps.md)
 -   [Pinceaux](brushes.md)
--   [Portion](clipping.md)
+-   [Découpage](clipping.md)
 -   [Couleurs](colors.md)
 -   [Espaces de coordonnées et transformations](coordinate-spaces-and-transformations.md)
 -   [Contextes de périphérique](device-contexts.md)
@@ -62,7 +62,7 @@ Pour plus d’informations sur les systèmes d’exploitation requis pour utilis
 [Technologie](../opengl/opengl.md)
 </dt> <dt>
 
-[Acquisition d’image Windows](../wia/-wia-startpage.md)
+[Windows Acquisition d’images](../wia/-wia-startpage.md)
 </dt> </dl>
 
  

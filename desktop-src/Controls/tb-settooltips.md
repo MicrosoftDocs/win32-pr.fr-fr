@@ -3,7 +3,7 @@ title: Message TB_SETTOOLTIPS (commctrl. h)
 description: Associe un contrôle ToolTip à une barre d’outils.
 ms.assetid: a645f1f2-9333-4e25-985a-107cffb9b97f
 keywords:
-- TB_SETTOOLTIPS les contrôles de message Windows
+- TB_SETTOOLTIPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 781565658d2c362ca32e36736d6e2d80c3641514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a75827df49eeaf8b6175cd14180ebb26ddbb642588ee77d625c701eee457baaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061229"
 ---
 # <a name="tb_settooltips-message"></a>TO \_ SETTOOLTIPS message
 
@@ -43,7 +43,7 @@ Handle du contrôle ToolTip.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les boutons ajoutés à une barre d’outils avant d’envoyer le message **to \_ SETTOOLTIPS** ne sont pas enregistrés avec le contrôle ToolTip.
 
@@ -53,8 +53,8 @@ Les boutons ajoutés à une barre d’outils avant d’envoyer le message **to \
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 770e4674-8896-4062-a93a-a17bd30a9129
 title: Vérification de l’approbation du certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b711e0a86dcc5ae9cdedea278d6a3a698dfd633
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f9f88d9c944de8f1c6c40e7657c463740fa94fb94a55a8b9bb0f6e33c69d81f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126819"
 ---
 # <a name="certificate-trust-verification"></a>Vérification de l’approbation du certificat
 

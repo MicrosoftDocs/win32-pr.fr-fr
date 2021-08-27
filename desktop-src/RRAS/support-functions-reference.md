@@ -6,12 +6,12 @@ keywords:
 - Routage de l’interface de protocole RRAS, fonctions de prise en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbbaba49c5f7e4130491a50176d560ee565b0046
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7fa2af1b38e88e9f3b7a55e8026ad42f4b1d0cff26de3798fb04621a1288ad9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073709"
 ---
 # <a name="support-functions-reference"></a>Référence des fonctions de prise en charge
 
@@ -35,6 +35,6 @@ Les fonctions suivantes sont fournies aux protocoles de routage par le gestionna
 
 [**ValidateRoute**](/previous-versions/windows/desktop/legacy/aa382342(v=vs.85))
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0c4b9c5f80e131ce089b6a2da924e9cca41a84f6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e042624573cd0c421e8ecd202cde971a49eef95cc5f3c6c0ac64bf45b4cf9c19
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103329"
 ---
 # <a name="camthreadcamthread-constructor"></a>Constructeur CAMThread. CAMThread
 
@@ -51,7 +51,7 @@ Pour la compatibilité descendante avec les versions antérieures de strmbase. l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La méthode de constructeur ne crée pas le thread. Pour créer le thread, appelez la méthode [**CAMThread :: Create**](camthread-create.md) .
 
@@ -61,7 +61,7 @@ La méthode de constructeur ne crée pas le thread. Pour créer le thread, appel
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

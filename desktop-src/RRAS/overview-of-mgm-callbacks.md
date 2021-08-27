@@ -6,12 +6,12 @@ keywords:
 - Rappels de multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62374f303a469deee7e0ad5c09b100db1c98c7e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2653224abbd512fe79cbc745fba440261e4d760e362169595473bbd20ccc1bc2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074009"
 ---
 # <a name="overview-of-mgm-callbacks"></a>Vue d’ensemble des rappels de MGM
 
@@ -22,9 +22,9 @@ Il existe deux types de rappels dans l’API MGM :
 
 Ces rappels, combinés aux API MGM, permettent la communication continue entre les protocoles de routage, IGMP et le gestionnaire de groupe de multidiffusion.
 
- 
+ 
 
- 
+ 
 
 
 

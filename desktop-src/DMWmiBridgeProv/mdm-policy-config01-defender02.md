@@ -1,6 +1,6 @@
 ---
 title: Classe MDM_Policy_Config01_Defender02
-description: La \_ stratégie MDM \_ Config01 \_ Defender02class représente les stratégies associées à Windows Defender.
+description: La \_ stratégie MDM \_ Config01 \_ Defender02class représente les stratégies relatives à Windows Defender.
 ms.assetid: 6d9d4edd-fcb6-45ea-bc5d-1bffb9cf8740
 keywords:
 - Classe MDM_Policy_Config01_Defender02
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b184008fc0ce7fc44dcb7106ceec3abc0e91450d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a9ae2c86b030c936f3dec88f8f48f806f0dd1d5d8430b7610ee51f567898c8f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104259"
 ---
 # <a name="mdm_policy_config01_defender02-class"></a>\_Classe Defender02 de la stratégie MDM \_ Config01 \_
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
-La classe Defender02 de la **\_ stratégie MDM \_ Config01 \_** représente des stratégies liées à Windows Defender
+La **classe \_ \_ Config01 \_ Defender02 de la stratégie MDM** représente des stratégies relatives à Windows Defender
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -513,7 +513,7 @@ Type d’accès : lecture/écriture
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                      |
 | Espace de noms<br/>                | Racine DMMap de gestion des appareils mobiles \\ \\ \\<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv. mof</dt> </dl> |

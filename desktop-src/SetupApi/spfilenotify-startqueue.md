@@ -4,12 +4,12 @@ ms.assetid: 682c2ce0-0c82-402c-a487-db5f2c377f3f
 title: Message d’SPFILENOTIFY_STARTQUEUE (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 090e3f97dceb1843d75934dd99cca500e6f93086
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a40d4fedde850d975edd697423339c686fe697911b9bef2fdc252baffda0158f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106537052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073209"
 ---
 # <a name="spfilenotify_startqueue-message"></a>\_Message SPFILENOTIFY STARTQUEUE
 
@@ -55,8 +55,8 @@ Si aucune erreur ne se produit, la routine de rappel doit retourner une valeur d
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -65,7 +65,7 @@ Si aucune erreur ne se produit, la routine de rappel doit retourner une valeur d
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

@@ -4,17 +4,17 @@ ms.assetid: 6f67335e-51c7-4b81-8ab3-86a3d70ac871
 title: Step, méthode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b9c3f20e41c52bfa32c2cf0138c9e286c98e13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be5738e8704b24d64a429d8d38f1b9eac2f9b8ff7e22a7e9d1d2a29fb9df4f03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050309"
 ---
 # <a name="step-method"></a>Step, méthode
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -39,7 +39,7 @@ Spécifie le nombre de frames à exécuter pas à pas sous la forme d’un entie
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’appeler cette méthode, appelez [**CanStep**](canstep-method.md) pour déterminer si le décodeur prend en charge l’exécution pas à pas.
 

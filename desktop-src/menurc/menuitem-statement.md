@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da2051b326b2f2f37c9e24e03bcb5e5116cf290a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 45bca50025e1c9136c22166d6d3f758c5c9b5819a9328d33d375195285f1d4f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106536066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092189"
 ---
 # <a name="menuitem-statement"></a>MENUITEM (instruction)
 
@@ -57,14 +57,14 @@ Apparence de l’élément de menu. Ce paramètre facultatif prend une ou plusie
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **DÉSACTIVÉ**      | L’élément de menu est coché.                                                                                                                                |
 | **GRISÉ**       | L’élément de menu est initialement inactif et apparaît dans le menu en gris ou une nuance éclaircie de la couleur de texte de menu. Cette option ne peut pas être utilisée avec l’option **inactive** . |
-| **Aide**         | Identifie un élément d’aide. Cette option n’a aucun effet sur l’apparence de l’élément de menu.                                                                                 |
+| **AIDE**         | Identifie un élément d’aide. Cette option n’a aucun effet sur l’apparence de l’élément de menu.                                                                                 |
 | **INACTIVE**     | L’élément de menu est affiché, mais il ne peut pas être sélectionné. Cette option ne peut pas être utilisée avec l’option **grisé** .                                                              |
 | **MENUBARBREAK** | Identique à **MENUBREAK** , sauf que pour les menus contextuels, il sépare la nouvelle colonne de l’ancienne colonne par une ligne verticale.                                             |
 | **MENUBREAK**    | Place l’élément de menu sur une nouvelle ligne pour les éléments de barre de menus statiques. Pour les menus, il place l’élément de menu dans une nouvelle colonne sans ligne de séparation entre les colonnes.           |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -95,9 +95,9 @@ MENUITEM "&Blackletter", 301
 [**MESSAGES**](popup-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

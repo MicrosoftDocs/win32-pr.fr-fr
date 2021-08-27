@@ -3,7 +3,7 @@ title: Message TB_INSERTMARKHITTEST (commctrl. h)
 description: Récupère les informations sur les marques d’insertion pour un point dans une barre d’outils.
 ms.assetid: 65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e
 keywords:
-- TB_INSERTMARKHITTEST les contrôles de message Windows
+- TB_INSERTMARKHITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5237d5a13250c3eb95bfe741415a9da245585c78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cbc231b915d6d71cc22ee3cd98b1c6dd602451cc3c70d2153ba1bee8a0d55657
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120061359"
 ---
 # <a name="tb_insertmarkhittest-message"></a>TO \_ INSERTMARKHITTEST message
 
@@ -53,8 +53,8 @@ Retourne une valeur différente de zéro si le point est une marque d’insertio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

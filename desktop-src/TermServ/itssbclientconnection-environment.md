@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18018c8f8fc5e7d017809cf5fe109db7c52712c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 33cc1c3c8a13a21135ee834950e8c0a60d2794cd4b1edb618e5e67c0744fe3e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120072209"
 ---
 # <a name="itssbclientconnectionenvironment-property"></a>ITsSbClientConnection :: Environment, propriété
 
@@ -59,7 +59,7 @@ L’environnement est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un plug-in d’orchestration peut appeler cette méthode pour récupérer des informations d’environnement sur une machine virtuelle cible.
 

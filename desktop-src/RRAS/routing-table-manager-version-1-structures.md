@@ -7,16 +7,16 @@ keywords:
 - Gestionnaire de table de routage version 1 RRAS, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 592982dd64c57daf146885659f68f15ca7c3f829
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2ba556b537ec58b5d4412571b7adf74f05f37f83396eeb60c1c41532c011d990
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073909"
 ---
 # <a name="routing-table-manager-version-1-structures"></a>Structures de la version 1 du gestionnaire de tables de routage
 
-**Windows Server 2003 :** Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
+**Windows Server 2003 :** cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les nouvelles applications doivent utiliser l’API du gestionnaire de table de routage version 2.
 
 Les [fonctions de la version 1 du gestionnaire de tables de routage](routing-table-manager-version-1-functions.md) utilisent les structures suivantes :
 
@@ -40,9 +40,9 @@ Les [fonctions de la version 1 du gestionnaire de tables de routage](routing-tab
 
 [**\_itinéraire IPX \_ RTM**](rtm-ipx-route.md)
 
- 
+ 
 
- 
+ 
 
 
 

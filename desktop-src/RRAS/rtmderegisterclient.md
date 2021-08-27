@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ab1f56d3d65e13c083d8952f500cfba4638ab83
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7df18a4fffa2bdc038aaeb980b76523448e33cca5b7f2e2d558720a5cc9a2c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120073859"
 ---
 # <a name="rtmderegisterclient-function"></a>RtmDeregisterClient fonction)
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La fonction **RtmDeregisterClient** annule l’inscription du client et libère les ressources associées au client.
 
@@ -66,7 +66,7 @@ Si la fonction échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction supprime tous les itinéraires qui ont été ajoutés par le client.
 
