@@ -6,12 +6,12 @@ keywords:
 - Appel de procédure distante RPC, référence, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc0d92d9939ce31565796741b584cfa37e4a2690
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8782fa94352e578e0b6e7d32645c0dda0dd997bf51c46869ecbc5e9642957f31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127789"
 ---
 # <a name="rpc-constants"></a>Constantes RPC
 
@@ -27,9 +27,9 @@ Cette section décrit les constantes suivantes utilisées par Microsoft RPC :
 -   [Constantes de niveau de protection](protection-level-constants.md)
 -   [Constantes de séquence de protocole](protocol-sequence-constants.md)
 
- 
+ 
 
- 
+ 
 
 
 

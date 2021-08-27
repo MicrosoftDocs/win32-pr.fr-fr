@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 121405e66a9361e832f6accb24ca6e303bb8e280
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 283be65511fb82c29dd21ff17cfd864739232ef081b738e0622f2b89a96d47ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064476"
 ---
 # <a name="iscompatible-method-of-the-cim_physicalframe-class"></a>Méthode IsCompatible de la \_ classe CIM PhysicalFrame
 
@@ -58,7 +58,7 @@ Référence à l’élément physique sur lequel la méthode **IsCompatible** s�
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

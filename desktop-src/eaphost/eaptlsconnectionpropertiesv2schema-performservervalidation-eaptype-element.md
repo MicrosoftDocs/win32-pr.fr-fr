@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 02ad636f9894f96b9d6e9b2d27952117c7581e69
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: aee5841de491b72481cccd07fd6f4f65ee9cfc6dbd0620dc4558ed6ca3c2b130
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094379"
 ---
 # <a name="tlsextensions-v2-schema"></a>TLSExtensions (schéma v2)
 
@@ -31,7 +31,7 @@ L’élément **TLSExtensions (TLSExtensionsType)** permet de futures améliorat
  />
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **TLSExtensions** est facultatif.
 
@@ -39,10 +39,10 @@ L’élément **TLSExtensions** est facultatif.
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Fonction | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: Propriété AVEncCodecType (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8643c0624b7d82381e2008f2adbd6804e9af9881
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3727ff8cc2a59208d63874de173e3e44e89e3e6f2ebc37201218f9656aa09cd4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084609"
 ---
 # <a name="avenccodectype-property"></a>Propriété AVEncCodecType
 
@@ -35,7 +35,7 @@ La valeur de cette propriété est un **BSTR** qui contient la représentation s
 |-------------------------------------------|----------------------------------------------------|
 | \_GUID CODECAPI \_ AVEncDolbyDigitalConsumer | Audio Dolby Digital Consumer                       |
 | \_GUID CODECAPI \_ AVEncDolbyDigitalPlus     | Audio Dolby Digital plus                           |
-| \_GUID CODECAPI \_ AVEncDolbyDigitalPro      | Audio Dolby Digital Pro                            |
+| \_GUID CODECAPI \_ AVEncDolbyDigitalPro      | audio Dolby Digital Pro                            |
 | \_GUID CODECAPI \_ AVEncDTS                  | Fichier audio DTS                                          |
 | \_GUID CODECAPI \_ AVEncDTSHD                | DTS-HD Audio                                       |
 | \_GUID CODECAPI \_ AVEncDV                   | Vidéo DV                                           |
@@ -47,17 +47,17 @@ La valeur de cette propriété est un **BSTR** qui contient la représentation s
 | \_GUID CODECAPI \_ AVEncMPEG2Video           | Vidéo MPEG-2                                       |
 | \_GUID CODECAPI \_ AVEncPCM                  | Audio PCM                                          |
 | \_GUID CODECAPI \_ AVEncSDDS                 | Audio Sony Digital Digital Sound (SDD)            |
-| \_GUID CODECAPI \_ AVEncWMALossless          | Audio Windows Media Audio 9 sans perte               |
-| \_GUID CODECAPI \_ AVEncWMAPro               | Audio Windows Media Audio 9 professionnel (WMA Pro) |
-| \_GUID CODECAPI \_ AVEncWMAVoice             | Audio vocal Windows Media Audio 9                  |
-| \_GUID CODECAPI \_ AVEncWMV                  | Windows Media Video                                |
+| \_GUID CODECAPI \_ AVEncWMALossless          | Windows Média audio 9 sans perte de données               |
+| \_GUID CODECAPI \_ AVEncWMAPro               | Windows audio Media audio 9 Professional (WMA Pro) |
+| \_GUID CODECAPI \_ AVEncWMAVoice             | Windows Audio multimédia audio 9 voix                  |
+| \_GUID CODECAPI \_ AVEncWMV                  | Windows Vidéo multimédia                                |
 | \_GUID CODECAPI \_ AVEndMPEG4Video           | Vidéo MPEG-4                                       |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications peuvent définir cette propriété pour spécifier le schéma d’encodage à utiliser. Les codecs peuvent également retourner cette propriété en tant que fonctionnalité.
 
@@ -67,8 +67,8 @@ Les applications peuvent définir cette propriété pour spécifier le schéma d
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

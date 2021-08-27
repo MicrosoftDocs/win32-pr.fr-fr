@@ -3,7 +3,7 @@ title: Message CB_SETMINVISIBLE (commctrl. h)
 description: Une application envoie un \_ message CB SETMINVISIBLE pour définir le nombre minimal d’éléments visibles dans la liste déroulante d’une zone de liste déroulante.
 ms.assetid: 3cf9e488-50ce-4825-acf0-4e665d074f9e
 keywords:
-- CB_SETMINVISIBLE les contrôles de message Windows
+- CB_SETMINVISIBLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac88155424c0b1ecf6c91f398e7a9a2d437eff90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a9790c43141ef836c1dec86304f260b0490854b593b7005b594d2a718332296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063319"
 ---
 # <a name="cb_setminvisible-message"></a>\_Message SETMINVISIBLE CB
 
@@ -47,7 +47,7 @@ Ce paramètre n’est pas utilisé ; elle doit être égale à zéro.
 
 Si le message réussit, la valeur de retour est **true**. Sinon, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le nombre d’éléments dans la liste déroulante est supérieur au minimum, la zone de liste déroulante utilise une barre de défilement. Par défaut, 30 est le nombre minimal d’éléments visibles.
 
@@ -61,8 +61,8 @@ Pour utiliser **CB \_ SETMINVISIBLE**, l’application doit spécifier comctl32.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

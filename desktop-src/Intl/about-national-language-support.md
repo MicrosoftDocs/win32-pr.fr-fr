@@ -4,12 +4,12 @@ ms.assetid: 1bf4d6f4-af86-440e-9179-2ff17b09766a
 title: À propos de la prise en charge linguistique nationale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70ddc96a07ae57caa6b20dd0559d19f4454f0ace
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74aebb76c1b1dcb264a9e25e947966475866b9faf41e0806c90397baff79aabc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107409"
 ---
 # <a name="about-national-language-support"></a>À propos de la prise en charge linguistique nationale
 

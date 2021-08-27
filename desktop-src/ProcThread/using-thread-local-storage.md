@@ -4,12 +4,12 @@ ms.assetid: b7f5a206-a827-4b6b-86f6-5e3aea1246b7
 title: Utilisation de TLS (Thread Local Storage)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e9221d4d0d68891ab8e2d0f2462b7c0aae307c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bdac1306a4a2da10e6a24ba2e1b2444f6215fdac39be7b41cc6850c1e5a683d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127989"
 ---
 # <a name="using-thread-local-storage"></a>Utilisation de TLS (Thread Local Storage)
 
@@ -114,7 +114,7 @@ VOID ErrorExit (LPCSTR message)
 
 <dl> <dt>
 
-[Utilisation du stockage local des threads dans une bibliothèque de Dynamic-Link](../dlls/using-thread-local-storage-in-a-dynamic-link-library.md)
+[utilisation des Stockage locaux de Thread dans une bibliothèque de Dynamic-Link](../dlls/using-thread-local-storage-in-a-dynamic-link-library.md)
 </dt> </dl>
 
  

@@ -1,19 +1,19 @@
 ---
-description: La table PatchSequence est utilisée pour générer la table MsiPatchSequence dans un correctif. La table requiert la version de PATCHWIZ.DLL disponible avec Windows Installer&\# 160 ; 3.0.
+description: La table PatchSequence est utilisée pour générer la table MsiPatchSequence dans un correctif. la table requiert la version de PATCHWIZ.DLL disponible avec Windows Installer&\# 160 ; 3.0.
 ms.assetid: bdeccb3b-57c0-4424-9602-348b8048fd46
 title: Table PatchSequence (PATCHWIZ.DLL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 382e940d3c0cb6c7be2c8360ab98f2afaf13c799
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0281f9882a674b268466259c534eefaa468bacf0fa891dc3a385e4d580a1e8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129179"
 ---
 # <a name="patchsequence-table-patchwizdll"></a>Table PatchSequence (PATCHWIZ.DLL)
 
-La table PatchSequence est utilisée pour générer la [table MsiPatchSequence](msipatchsequence-table.md) dans un correctif. La table requiert la version de [PATCHWIZ.DLL](patchwiz-dll.md) disponible avec Windows Installer 3,0.
+La table PatchSequence est utilisée pour générer la [table MsiPatchSequence](msipatchsequence-table.md) dans un correctif. la table requiert la version de [PATCHWIZ.DLL](patchwiz-dll.md) disponible avec Windows Installer 3,0.
 
 Le tableau suivant identifie les colonnes de la table PatchSequence.
 
@@ -24,7 +24,7 @@ Le tableau suivant identifie les colonnes de la table PatchSequence.
 | PatchFamily | Identificateur | O   | N        |
 | Cible      | Texte       | O   | O        |
 | Séquence    | Version    |     | O        |
-| Remplacent   | Integer    |     | O        |
+| Remplacent   | Entier    |     | O        |
 
 
 
@@ -70,9 +70,9 @@ La valeur de cette colonne est utilisée pour définir la colonne d’attributs 
 
 </dd> </dl>
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
-Disponible à partir de Windows Installer 3,0.
+disponible à partir de Windows Installer 3,0.
 
  
 

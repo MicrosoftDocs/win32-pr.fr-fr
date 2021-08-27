@@ -4,17 +4,17 @@ ms.assetid: ff2e2756-e3f3-4ddb-b99d-5fa65ec67f6b
 title: Propriété EnableResetOnStop
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9449d8dd3e2e5ab0e1f008cba3e4cb2aabaa78c8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 67be4bfda62839f55dcb4c4597fdad6654072f4dfeb2450c3bce3ed99c13a418
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107859"
 ---
 # <a name="enableresetonstop-property"></a>Propriété EnableResetOnStop
 
 > [!Note]  
-> Ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
+> ce composant peut être utilisé dans les systèmes d’exploitation Microsoft Windows 2000, Windows XP et Windows Server 2003. Il sera peut-être modifié ou indisponible dans les versions ultérieures.
 
  
 
@@ -28,7 +28,7 @@ La `EnableResetOnStop` propriété définit ou récupère une valeur qui déterm
 
 Retourne une valeur booléenne indiquant où l’objet MSWebDVD recommence à s’exécuter après l’arrêt du graphique de filtre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est en lecture/écriture.
 

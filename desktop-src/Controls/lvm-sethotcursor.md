@@ -3,7 +3,7 @@ title: Message LVM_SETHOTCURSOR (commctrl. h)
 description: Définit la valeur HCURSOR utilisée par le contrôle List-View lorsque le pointeur se trouve sur un élément alors que la sélection active est activée.
 ms.assetid: e3ff8608-9389-4167-839b-ecc2be01bb64
 keywords:
-- LVM_SETHOTCURSOR les contrôles de message Windows
+- LVM_SETHOTCURSOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e743f74eda3b59f04f6f4793b47d76da3bab881
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3407c5d8b53483d3a639fc40959768b3fa8eea0e7b439ab8871d36346b7079d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077249"
 ---
 # <a name="lvm_sethotcursor-message"></a>\_Message SETHOTCURSOR LVM
 
@@ -43,7 +43,7 @@ Handle du curseur à définir.
 
 Retourne une valeur HCURSOR qui est le curseur réactif précédent.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle List-View utilise le suivi réactif et la sélection au pointage lorsque le style [**LVS \_ ex \_ TRACKSELECT**](extended-list-view-styles.md) est défini.
 
@@ -53,8 +53,8 @@ Un contrôle List-View utilise le suivi réactif et la sélection au pointage lo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

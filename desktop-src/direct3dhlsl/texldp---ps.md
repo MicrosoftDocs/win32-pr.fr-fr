@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 045caf6ec922183893df252488946546602d2459
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d5c362e81af22b46cd443ade7cd4b466112ba9a4d98bd5852ee3d92a285936aa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117849"
 ---
 # <a name="texldp---ps"></a>texldp-PS
 
@@ -29,7 +29,7 @@ Instruction de chargement de texture projetée. Cette instruction divise la coor
 
 
 
- 
+ 
 
 where
 
@@ -39,7 +39,7 @@ where
 
 Pour obtenir le jeu de restrictions lors de l’utilisation de texldp, consultez [texld](texld---ps-2-0.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 texldp effectue la projection sur les coordonnées lues à partir de src0 avant d’effectuer l’exemple. Chaque coordonnée de texture est divisée par src0. w, puis la texture est échantillonnée. Quand texldp se termine, le contenu de src0 n’est pas affecté (sauf si l’heure d’été est le même registre). Une alternative à l’utilisation de texldp consiste à effectuer manuellement la Division de projection dans le nuanceur. Toutefois, l’exécution de la division dans le code du nuanceur est généralement plus lente que lorsqu’elle est exécutée par l’instruction texldp. par conséquent, évitez de tels calculs supplémentaires lorsque cela est possible.
 
@@ -59,7 +59,7 @@ Si la texture source contient moins de quatre composants, les valeurs par défau
 
 
 
- 
+ 
 
 Cette instruction est prise en charge dans les versions suivantes :
 
@@ -71,7 +71,7 @@ Cette instruction est prise en charge dans les versions suivantes :
 
 
 
- 
+ 
 
 ### <a name="ps_2_0-and-ps_2_x"></a>PS \_ 2 \_ 0 et PS \_ 2 \_ x
 
@@ -99,6 +99,6 @@ Pour PS \_ 3 \_ 0, src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Un appel de RasDial asynchrone doit spécifier un gestionnaire de n
 ms.assetid: 6d23d6ac-08ad-4fe2-a4af-021e4d384079
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efe735a17de4386bc48648cd20decd218ab102d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af7210072e0542eeb63e3de6116d61995ef2363ca7b43e7a9e2c309165c0e862
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074029"
 ---
 # <a name="notification-handlers"></a>Gestionnaires de notification
 
@@ -31,19 +31,19 @@ Il existe trois types de gestionnaires de notifications, chacun d’entre eux re
 | [**RasDialFunc**](/windows/desktop/api/Ras/nc-ras-rasdialfunc)   | Prototype de fonction de rappel qui reçoit uniquement l’état de connexion actuel et les informations de code d’erreur.                                                                                                                                                                                                                                                                                                                                                                                    |
 | [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) | Un prototype de fonction de rappel qui reçoit le handle de connexion **HRASCONN** et des informations d’erreur étendues en plus des informations de base. Le paramètre de handle de connexion rend [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) utile pour les applications clientes qui prennent en charge plusieurs opérations de connexion simultanées. Cela permet au client de spécifier la même fonction de rappel pour toutes les opérations et permet à la fonction de rappel de déterminer quelle connexion change d’État. |
 | [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) | Fonction de rappel semblable à [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1). Toutefois, [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) a été amélioré pour prendre en charge les connexions à liaisons multiples.                                                                                                                                                                                                                                                                                                                             |
-| Handle de fenêtre                        | Handle de fenêtre auquel RAS envoie les messages [**WM \_ RASDIALEVENT**](wm-rasdialevent.md) contenant l’état de connexion actuel et les informations de code d’erreur. Utilisez cette méthode si votre code source doit être compatible avec Windows 16 bits, car Windows 16 bits ne prend pas en charge l’une des fonctions de rappel.                                                                                                                                                                            |
+| Handle de fenêtre                        | Handle de fenêtre auquel RAS envoie les messages [**WM \_ RASDIALEVENT**](wm-rasdialevent.md) contenant l’état de connexion actuel et les informations de code d’erreur. utilisez cette méthode si votre code source doit être compatible avec les Windows 16 bits, car le Windows 16 bits ne prend pas en charge l’une des fonctions de rappel.                                                                                                                                                                            |
 
 
 
- 
+ 
 
 Le gestionnaire de connexions d’accès à distance interrompt l’opération de connexion jusqu’à ce que le gestionnaire de notification retourne. Pour cette raison, le gestionnaire doit retourner dès que possible, à moins qu’une erreur ne se soit produite.
 
 La fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) ne doit pas être appelée à partir d’un gestionnaire de notifications. Les autres fonctions d’accès à distance ( [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa), [**RasEnumEntries**](/windows/desktop/api/Ras/nf-ras-rasenumentriesa), [**RasEnumConnections**](/windows/desktop/api/Ras/nf-ras-rasenumconnectionsa), [**RasGetErrorString**](/windows/desktop/api/Ras/nf-ras-rasgeterrorstringa)et [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa)) peuvent être appelées à partir d’un gestionnaire.
 
- 
+ 
 
- 
+ 
 
 
 

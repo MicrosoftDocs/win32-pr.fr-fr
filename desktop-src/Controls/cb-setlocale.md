@@ -3,7 +3,7 @@ title: Message CB_SETLOCALE (winuser. h)
 description: Une application envoie un \_ message CB SETLOCALE pour définir les paramètres régionaux actuels de la zone de liste déroulante. Si la zone de liste déroulante a le \_ style de tri CBS et que des chaînes sont ajoutées à l’aide \_ de CB ADDSTRING, les paramètres régionaux d’une zone de liste déroulante affectent le mode de tri des éléments de liste.
 ms.assetid: 06f9c69d-1220-490f-bc67-6e125f696e87
 keywords:
-- CB_SETLOCALE les contrôles de message Windows
+- CB_SETLOCALE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 025f33dc8ba236965a98ca984446b04846ecd2ba
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef1647d8ff4c7a4625151a9ec099800549d831f6b55a7ef6cc6b5ead365e80e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120063300"
 ---
 # <a name="cb_setlocale-message"></a>\_Message CB SETLOCALE
 
@@ -47,7 +47,7 @@ Ce paramètre n'est pas utilisé.
 
 La valeur de retour est l’identificateur de paramètres régionaux précédent. Si *wParam* spécifie des paramètres régionaux qui ne sont pas installés sur le système, la valeur de retour est CB \_ Err et les paramètres régionaux actuels de la zone de liste déroulante ne sont pas modifiés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la macro [**MAKELCID**](/windows/desktop/api/winnt/nf-winnt-makelcid) pour construire un identificateur de paramètres régionaux et la macro [**MAKELANGID**](/windows/desktop/api/winnt/nf-winnt-makelangid) pour construire un identificateur de langue. L’identificateur de langue est constitué d’un identificateur de langue primaire et d’un identificateur de sous-langue.
 
@@ -57,8 +57,8 @@ Utilisez la macro [**MAKELCID**](/windows/desktop/api/winnt/nf-winnt-makelcid) p
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

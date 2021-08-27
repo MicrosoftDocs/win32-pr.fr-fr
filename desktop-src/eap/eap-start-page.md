@@ -9,12 +9,12 @@ keywords:
 - EAP, voir protocole EAP (Extensible Authentication Protocol)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c79b9585363d74eb50190d0fd6355830a7087aa4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5cd54a380323fdf5a04add7f28fe18378be8ed375e936c70d2045f2e139ff852
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094429"
 ---
 # <a name="extensible-authentication-protocol"></a>Protocole EAP (Extensible Authentication Protocol)
 
@@ -34,7 +34,7 @@ L’API EAP est conçue pour être utilisée par les programmeurs C/C++. Les pro
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-EAP est pris en charge sur les ordinateurs clients et serveurs qui s’exécutent sur Windows 2000 et versions ultérieures. EAP est également pris en charge sur les ordinateurs qui exécutent Windows 2000 Server et versions ultérieures s’ils exécutent le service d’authentification Internet (IAS). Pour plus d’informations sur les systèmes d’exploitation pris en charge, consultez la section relative à la configuration requise dans la documentation.
+EAP est pris en charge sur les ordinateurs clients et serveurs qui s’exécutent sur Windows 2000 et versions ultérieures. EAP est également pris en charge sur les ordinateurs qui exécutent sur Windows serveur 2000 et versions ultérieures s’ils exécutent le Service d’authentification Internet (IAS). Pour plus d’informations sur les systèmes d’exploitation pris en charge, consultez la section relative à la configuration requise dans la documentation.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -64,6 +64,6 @@ EAP est pris en charge sur les ordinateurs clients et serveurs qui s’exécuten
 [Référence du protocole EAP (Extensible Authentication Protocol)](extensible-authentication-protocol-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -5,19 +5,19 @@ ms.assetid: 6b8be050-9763-48c8-9ffa-dcb76e60e8c6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c3faf19d64abde16ed21344803b50cfcb928a6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 140af3afa7d1a1aeeb8aee4d5042c58ccf2ca80ea341e42556e6f65676b6b2ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128549"
 ---
 # <a name="sdo-supported-attributes"></a>Attributs pris en charge par SDO
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008.
 
- 
+ 
 
 Un objet de données de serveur NPS a une propriété [**profils**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties) qui permet d’accéder à une collection d’attributs. Les attributs pris en charge sont les suivants.
 
@@ -43,6 +43,6 @@ Un objet de données de serveur NPS a une propriété [**profils**](/windows/des
 [Hiérarchie du modèle objet SDO](/windows/desktop/Nps/sdo-object-model-hierarchy)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

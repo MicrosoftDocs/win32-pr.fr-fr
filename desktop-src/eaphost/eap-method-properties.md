@@ -40,12 +40,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 844f897456ee21dfa93dfaa5b16b4f218ba5efb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c88c31d77b666e377cbd1911cde8b5df63d8f5c2fc750cd03a701b03af5b60ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094399"
 ---
 # <a name="eap-method-properties"></a>Propriétés de la méthode EAP
 
@@ -65,7 +65,7 @@ Les propriétés prises en charge par les méthodes EAP sont répertoriées. Les
 
 
 
-La méthode permet à la suite de chiffrement d’être négociée dans le cadre du chiffrement des données. Windows Server 2008 prend en charge les [suites de chiffrement](/windows/desktop/SecAuthN/tls-cipher-suites)3DES suivantes :
+La méthode permet à la suite de chiffrement d’être négociée dans le cadre du chiffrement des données. Windows Le serveur 2008 prend en charge les [suites de chiffrement](/windows/desktop/SecAuthN/tls-cipher-suites)3DES suivantes :
 
 -   TLS \_ RSA \_ avec \_ 3DES \_ Ede \_ CBC \_ Sha (TLS & SSL 3)
 -   TLS \_ dhe \_ DSS \_ avec \_ 3DES \_ EDE \_ CBC \_ Sha (TLS & SSL 3)
@@ -370,7 +370,7 @@ La méthode a été certifiée par le programme de certification EAP. Ce bit doi
 
 
 
-Windows 7 ou version ultérieure : la méthode peut être utilisée pour authentifier un ordinateur sur un réseau à l’aide des informations d’identification de l’ordinateur.
+Windows 7 ou version ultérieure : la méthode peut être utilisée pour authentifier une machine sur un réseau à l’aide des informations d’identification de l’ordinateur.
 
 
 </dt> </dl> </dd> <dt>
@@ -446,8 +446,8 @@ Réservé. Non utilisé.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Eaptypes. h</dt> </dl> |
 
 

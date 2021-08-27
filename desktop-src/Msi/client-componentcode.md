@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a4fba4c9b832256620dec60852a53b3e2ed17101
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 41de8706ebba3221f5b805b3647afb5b0a46c9a4299d5564ed472a42037b7969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120075119"
 ---
 # <a name="clientcomponentcode-property"></a>Propriété client. ComponentCode
 
 Code du composant en question. Cette propriété appelle la fonction [**MsiEnumClientsEx**](/windows/desktop/api/Msi/nf-msi-msienumclientsexa) .
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette propriété est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette propriété est disponible à partir de Windows Installer 5,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -36,7 +36,7 @@ Code du composant en question. Cette propriété appelle la fonction [**MsiEnumC
 
 | Condition requise | Valeur |
 |--------------------|------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 ou version ultérieure.<br/>                                         |
+| Version<br/> | Windows Programme d’installation 5,0 ou version ultérieure.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |
 | IID<br/>     | IID \_ IClient est défini en tant que 000C1098-0000-0000-C000-000000000046<br/>         |
 

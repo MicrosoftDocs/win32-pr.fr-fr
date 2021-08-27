@@ -3,7 +3,7 @@ title: Message EM_SETSTORYTYPE (RichEdit. h)
 description: Définit le type d’histoire.
 ms.assetid: 8FA335E1-EE0A-4F31-B800-C79F617A6019
 keywords:
-- EM_SETSTORYTYPE les contrôles de message Windows
+- EM_SETSTORYTYPE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be6d1df04f93fca0119b58f978a6a0cb36ddf464
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7e09c62c50441857aac6f4018800de7a145081d64de49cdf7e9ca673a5370db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120062879"
 ---
 # <a name="em_setstorytype-message"></a>\_Message SETSTORYTYPE em
 
@@ -60,8 +60,8 @@ Type d’histoire qui a été défini.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

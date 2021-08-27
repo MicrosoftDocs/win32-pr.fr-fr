@@ -4,19 +4,19 @@ ms.assetid: 4774218b-7cbd-4e8d-a064-44ebdc37e534
 title: Stratégie Kerberos
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4559353e65a25a380c0c2aa4bb7e5d56f7681af1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 743d1dd394c42028c70f560fcb7f83b42bab506fbd222f877857be362a450041
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127309"
 ---
 # <a name="kerberos-policy"></a>Stratégie Kerberos
 
 La stratégie de ticket Kerberos est définie au niveau du domaine et implémentée par le [*Centre de distribution de clés*](../secgloss/k-gly.md) du domaine (KDC). La stratégie Kerberos est stockée dans le Active Directory en tant que sous-ensemble des attributs de la stratégie de sécurité du domaine. Par défaut, les options de stratégie peuvent être définies uniquement par les membres du groupe administrateurs de domaine. La stratégie de domaine comprend des options qui :
 
 -   Prise en charge des tickets postdatés
--   Prendre en charge la délégation avec restriction (Windows Server 2003 uniquement)
+-   prise en charge de la délégation avec restriction (Windows Server 2003 uniquement)
 -   Tickets de support qui peuvent être transférés
 -   Prendre en charge les tickets renouvelés
 -   Définir l’âge maximal du ticket

@@ -4,12 +4,12 @@ ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Étape 3. Prendre en charge la négociation de type de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a23784e70330f751325fc5f780463d5a3904d20
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1558d5b1a7fd9db41fef7e5a9818d93c306f4f15f42099d4cb88f66b34725660
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112410042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120051469"
 ---
 # <a name="step-3-support-media-type-negotiation"></a>Étape 3. Prendre en charge la négociation de type de média
 
@@ -39,10 +39,10 @@ Les sections suivantes décrivent chaque méthode plus en détail :
 
 <dl> <dt>
 
-[Connexion des filtres](how-filters-connect.md)
+[Connecter des filtres](how-filters-connect.md)
 </dt> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

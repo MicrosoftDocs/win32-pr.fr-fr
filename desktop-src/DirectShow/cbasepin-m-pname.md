@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Amfilter.h
-ms.openlocfilehash: f2580b9aba379362c39e3d792504434fa18fe076
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d118ed76650b9ea580c0143ff4334a480d110c4a9d9531a23dda60c05c614630
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052679"
 ---
 # <a name="cbasepinm_pname-member"></a>Membre CBasePin :: m \_ pname
 
@@ -43,7 +43,7 @@ La méthode [**CBasePin :: QueryPinInfo**](cbasepin-querypininfo.md) retourne c
 
 | Condition requise | Valeur |
 |-------------------|-----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl> |
 
 
 

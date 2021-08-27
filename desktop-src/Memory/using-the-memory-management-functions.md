@@ -4,12 +4,12 @@ ms.assetid: 4437beb4-14cf-4028-a8ab-ad18a189cd81
 title: Utilisation des fonctions de gestion de la mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e66df974d202f0f21275b9c9c74e9ada828561
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 429d5cda0277c7330c29a4cfa84af0072078e3c60e87ef484cd907d178d24b00
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105699"
 ---
 # <a name="using-the-memory-management-functions"></a>Utilisation des fonctions de gestion de la mémoire
 

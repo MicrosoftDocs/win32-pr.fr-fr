@@ -4,21 +4,21 @@ ms.assetid: 50e6d1c5-2a3f-4e96-8b2c-57e2259d69e9
 title: Diffusion multimédia en continu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 318e545d816fafc92634a9b31c53032d708513cd
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fc0f18ac2cc5e78ae7d82b875560f13c5b9418cf47b3f9fc8cbeccccbb14e958
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107688"
 ---
 # <a name="multimedia-streaming"></a>Diffusion multimédia en continu
 
 > [!Note]  
-> Ces API sont déconseillées. Les applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
+> Ces API sont déconseillées. les Applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
 
  
 
-La diffusion multimédia en continu est un ensemble d’API qui permettent à une application d’obtenir des données audio et vidéo à partir d’un graphique de filtre DirectShow sans écrire de filtre DirectShow personnalisé.
+la diffusion multimédia en continu est un ensemble d’api qui permettent à une application d’obtenir des données audio et vidéo à partir d’un graphique de filtre DirectShow sans écrire de filtre de DirectShow personnalisé.
 
 Cette section contient les rubriques suivantes :
 

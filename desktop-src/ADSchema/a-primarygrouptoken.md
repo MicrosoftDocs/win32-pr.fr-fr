@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b237ab5998ca3f38f2d07128b36d9337c96935d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fd83e89a25a81f6d62207e48053fff5cafd279e29b482a9b80cb02de580ad3fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065919"
 ---
 # <a name="primary-group-token-attribute"></a>Attribut Primary-Group-Token
 
@@ -36,7 +36,7 @@ Attribut calculé utilisé pour récupérer la liste d’appartenance d’un gro
 | Fréquence des mises à jour  | À chaque fois qu’un groupe principal d’objets change. |
 | Attribute-Id      | 1.2.840.113556.1.4.1412                    |
 | System-ID-GUID    | c0ed8738-7efd-4481-84d9-66d2db8be369       |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)       |
+| Syntaxe            | [**Énumération**](s-enumeration.md)       |
 
 
 
@@ -46,7 +46,7 @@ Attribut calculé utilisé pour récupérer la liste d’appartenance d’un gro
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

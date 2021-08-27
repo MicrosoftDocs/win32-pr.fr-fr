@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 0a1d93ba6a9a4dc0304daba11c5868b77ece43b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fad74e1647413b66ebc6910e739750699f4e641c961eff59ecaacbf1e7a41f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120074989"
 ---
 # <a name="databasemerge-method"></a>Database. Merge, méthode
 
@@ -58,9 +58,9 @@ Nom facultatif d’une table qui contient les noms des tables contenant les conf
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La fonction [**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) et la méthode **Merge** de l’objet [**Database**](database-object.md) ne peuvent pas être utilisées pour fusionner un module inclus dans un package d’installation. Ils ne doivent pas être utilisés pour fusionner des [modules de fusion](merge-modules.md) dans un package de Windows Installer. Pour inclure un module de fusion dans un package d’installation, les auteurs des packages d’installation doivent suivre les instructions décrites dans la rubrique [application de modules de fusion](applying-merge-modules.md) .
+La fonction [**MsiDatabaseMerge**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasemergea) et la méthode **Merge** de l’objet [**Database**](database-object.md) ne peuvent pas être utilisées pour fusionner un module inclus dans un package d’installation. ils ne doivent pas être utilisés pour fusionner des [Modules de fusion](merge-modules.md) dans un package de Windows Installer. Pour inclure un module de fusion dans un package d’installation, les auteurs des packages d’installation doivent suivre les instructions décrites dans la rubrique [application de modules de fusion](applying-merge-modules.md) .
 
 La méthode **Merge** ne copie pas les [fichiers CAB](cabinet-files.md) incorporés ni les [transformations incorporées](embedded-transforms.md) de la base de données de référence dans la base de données cible. Les flux de données incorporés qui sont répertoriés dans la table [binaire](binary-table.md) ou [icône](icon-table.md) sont copiés de la base de données de référence vers la base de données cible. Les stockages incorporés dans la base de données de référence ne sont pas copiés dans la base de données cible.
 

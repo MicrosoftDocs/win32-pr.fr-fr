@@ -4,12 +4,12 @@ ms.assetid: 64252d88-130b-44c3-854a-78b01def7a13
 title: IMN_SETCANDIDATEPOS le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03171a76ce94572d2425f8e75f1cbe45b7efe4b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 689dfe0c38f5508c853af94e271bb1f333bfbad0df18b3fab09450d73497e7fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107059"
 ---
 # <a name="imn_setcandidatepos-notification-code"></a>\_Code de notification SETCANDIDATEPOS IMN
 
@@ -44,7 +44,7 @@ Indicateur de liste de candidats. Chaque bit correspond à une liste de candidat
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit traiter cette commande si elle affiche la fenêtre candidate elle-même.
 
@@ -58,7 +58,7 @@ La fenêtre IME déplace la fenêtre candidate lors du traitement de cette comma
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

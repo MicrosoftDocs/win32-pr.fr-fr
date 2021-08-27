@@ -1,5 +1,5 @@
 ---
-description: Représente un appareil connecté à un ordinateur qui exécute sur un système d’exploitation Microsoft Windows et qui peut produire une image imprimée ou du texte sur papier ou autre support.
+description: représente un appareil connecté à un ordinateur exécutant sur un système d’exploitation Microsoft Windows qui peut produire une image imprimée ou du texte sur papier ou autre support.
 ms.assetid: 58090e6a-8f13-4859-adb8-a7c6299d3efd
 ms.tgt_platform: multiple
 title: Win32_Printer, classe
@@ -102,16 +102,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 48fc170cb3e85d44dc3e01140fe2c881a7ec975b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5f1a91ac90560343a38e546590005e8b984d13843eba8195381daa204e2d22cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077309"
 ---
 # <a name="win32_printer-class"></a>\_Classe d’imprimantes Win32
 
-La [classe WMI](../wmisdk/retrieving-a-class.md) de l' **\_ imprimante Win32** représente un appareil connecté à un ordinateur fonctionnant sous un système d’exploitation Microsoft Windows qui peut produire une image imprimée ou du texte sur un papier ou un autre support.
+la [classe WMI](../wmisdk/retrieving-a-class.md) de l' **\_ imprimante Win32** représente un appareil connecté à un ordinateur qui s’exécute sur un système d’exploitation Microsoft Windows qui peut produire une image imprimée ou du texte sur papier ou autre support.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées.
 
@@ -231,7 +231,7 @@ La **classe \_ Printer Win32** possède ces méthodes.
 | [**PrintTestPage**](printtestpage-method-in-class-win32-printer.md)                 | Imprime une page de test.<br/>                                                                                                                                                                                    |
 | [**RenamePrinter**](renameprinter-method-in-class-win32-printer.md)                 | Renomme une imprimante.<br/>                                                                                                                                                                                     |
 | **Réinitialiser**                                                                            | Non implémenté. Pour plus d’informations sur l’implémentation de cette méthode, consultez la méthode [**Reset**](reset-method-in-class-cim-controller.md) dans l' [**\_ imprimante CIM**](cim-printer.md).<br/>                 |
-| [**Sort**](resume-method-in-class-win32-printer.md)                               | Reprend la file d’attente à l’impression en pause.<br/>                                                                                                                                                                            |
+| [**Reprendre**](resume-method-in-class-win32-printer.md)                               | Reprend la file d’attente à l’impression en pause.<br/>                                                                                                                                                                            |
 | [**SetDefaultPrinter**](setdefaultprinter-method-in-class-win32-printer.md)         | Définit l’imprimante par défaut.<br/>                                                                                                                                                                              |
 | **SetPowerState**                                                                    | Non implémenté. Pour plus d’informations sur l’implémentation de cette méthode, consultez la méthode [**SetPowerState**](setpowerstate-method-in-class-cim-controller.md) dans l' [**\_ imprimante CIM**](cim-printer.md).<br/> |
 | [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class-win32-printer.md) | Écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès à l’imprimante.<br/>                                                                                                              |
@@ -255,7 +255,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Bitmap d’attributs pour un périphérique d’impression Windows.
+Bitmap d’attributs pour un périphérique d’impression basé sur Windows.
 
 <dt>
 
@@ -1001,12 +1001,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -1085,12 +1085,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -1213,7 +1213,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -1224,7 +1224,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -1279,7 +1279,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -2801,9 +2801,9 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Nom du pilote d’imprimante Windows.
+nom du pilote d’imprimante Windows.
 
-Exemple : pilote de télécopie Windows
+exemple : Windows pilote de télécopie
 
 </dd> <dt>
 
@@ -2906,7 +2906,7 @@ Unknown
 1 (0x1)
 </dt> <dd>
 
-Autres
+Autre
 
 </dd> <dt>
 
@@ -3026,7 +3026,7 @@ Informations d’État pour une imprimante qui diffèrent de celles spécifiées
 1 (0x1)
 </dt> <dd>
 
-Autres
+Autre
 
 </dd> <dt>
 
@@ -3082,7 +3082,7 @@ Suspendu
 9 (0x9)
 </dt> <dd>
 
-Error
+Erreur
 
 </dd> <dt>
 
@@ -4642,7 +4642,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -4823,7 +4823,7 @@ Suspendu
 2
 </dt> <dd>
 
-Error
+Erreur
 
 </dd> <dt>
 
@@ -5076,7 +5076,7 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Type de données d’un travail d’impression en attente du périphérique d’impression Windows.
+type de données d’un travail d’impression en attente du périphérique d’impression Windows.
 
 </dd> <dt>
 
@@ -5186,7 +5186,7 @@ Si la **valeur est true**, l’imprimante est disponible en tant que ressource r
 
 </dd> <dt>
 
-**ShareName**
+**Partage**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -5195,7 +5195,7 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Nom de partage du périphérique d’impression Windows.
+nom de partage du périphérique d’impression basé sur Windows.
 
 Exemple : « \\ \\ PRINTSERVER1 \\ .
 
@@ -5486,11 +5486,11 @@ Si la **valeur est true**, vous pouvez faire une mise en file d’attente des tr
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La classe **Win32 \_ Printer** est dérivée de l' [**\_ imprimante CIM**](cim-printer.md). Avant d’appeler [**SWbemObject. \_ put**](../wmisdk/swbemobject-put-.md) ou [**IWbemServices ::P utinstance**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance) pour une instance d' **\_ imprimante Win32** , le privilège **SeLoadDriverPrivilege** (**wbemPrivilegeLoadDriver** pour Visual Basic et LoadDriver pour les monikers de script) doit être activé. Pour plus d’informations, consultez [**constantes de privilège**](../wmisdk/privilege-constants.md) et [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md). L’exemple de code VBScript suivant montre comment activer le privilège **SetLoadDriverPrivilege** dans le script.
+La classe **Win32 \_ Printer** est dérivée de l' [**\_ imprimante CIM**](cim-printer.md). avant d’appeler [**SWbemObject. \_ Put**](../wmisdk/swbemobject-put-.md) ou [**IWbemServices ::P utinstance**](/windows/win32/api/wbemcli/nf-wbemcli-iwbemservices-putinstance) pour une instance d' **\_ imprimante Win32** , le privilège **SeLoadDriverPrivilege** (**wbemPrivilegeLoadDriver** pour Visual Basic et LoadDriver pour les monikers de script) doit être activé. Pour plus d’informations, consultez [**constantes de privilège**](../wmisdk/privilege-constants.md) et [exécution d’opérations privilégiées](../wmisdk/executing-privileged-operations.md). L’exemple de code VBScript suivant montre comment activer le privilège **SetLoadDriverPrivilege** dans le script.
 
-Pour travailler avec des clusters d’imprimantes MSCS, utilisez l’assembly prnadmin.dll ou l’espace de noms [System. printing](/dotnet/api/system.printing) .NET Framework.
+pour travailler avec des clusters d’imprimantes MSCS, utilisez l’assembly prnadmin.dll ou l’espace de noms [System. printing](/dotnet/api/system.printing) .NET Framework.
 
 
 ```VB
@@ -5501,7 +5501,7 @@ Set objPrinter = GetObject("winmgmts:{impersonationLevel=Impersonate,(LoadDriver
 
 Windows utilise les informations d’identification de l’utilisateur qui exécute le script pour déterminer les imprimantes disponibles. Par conséquent, si vous exécutez un script à distance, vous ne pourrez peut-être accéder qu’aux imprimantes disponibles pour votre compte d’utilisateur sur ce système distant.
 
-Vous ne pouvez pas utiliser la classe d' **\_ imprimante Win32** pour les imprimantes sur un cluster d’impression MSCS. Au lieu de cela, vous devrez peut-être utiliser l’outil PrinterAdmin (PrnAdmin.dll) ou l’espace de noms [System. printing](/dotnet/api/system.printing) .NET Framework.
+Vous ne pouvez pas utiliser la classe d' **\_ imprimante Win32** pour les imprimantes sur un cluster d’impression MSCS. au lieu de cela, vous devrez peut-être utiliser l’outil PrinterAdmin (PrnAdmin.dll) ou l’espace de noms [System. printing](/dotnet/api/system.printing) .NET Framework.
 
 > [!Note]  
 > Si vous récupérez **PrinterStatus** = 3 ou **PrinterState** = 0, il se peut que le pilote d’imprimante n’alimente pas correctement les informations dans WMI. WMI récupère les informations de l’imprimante à partir du processus de spoolsv.exe. Il est possible que le pilote d’imprimante ne signale pas son état au spouleur. Dans ce cas, **l' \_ imprimante Win32** signale l’imprimante comme étant **inactive**.
@@ -5510,7 +5510,7 @@ Vous ne pouvez pas utiliser la classe d' **\_ imprimante Win32** pour les imprim
 
 ## <a name="examples"></a>Exemples
 
-L’exemple [PS créer un dessin de configuration d’ordinateur à l’aide de Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sur la Galerie TechNet utilise l' **\_ imprimante Win32** pour interagir avec le modèle Visio Automation afin de créer un dessin Visio.
+l’exemple [PS créer un dessin de Configuration d’ordinateur à l’aide de Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sur la galerie TechNet utilise l' **\_ imprimante Win32** pour interagir avec Visio modèle automation afin de créer un Visio dessin.
 
 Le [script PowerShell Remote PC info](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) utilise un certain nombre de classes, y compris **Win32 \_ Printer**, pour récupérer des informations sur un ordinateur distant.
 

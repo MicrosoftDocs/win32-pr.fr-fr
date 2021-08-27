@@ -1,19 +1,19 @@
 ---
-title: Informations de référence sur Direct3D 12 sur Windows 7
-description: Cette section traite des API Direct3D 12 déclarées dans d3d12downlevel. h, pour une utilisation exclusive sur Windows 7.
+title: référence Direct3D 12 sur Windows 7
+description: cette section traite des api Direct3D 12 déclarées dans d3d12downlevel. h, pour une utilisation uniquement sur Windows 7.
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 08/29/2019
-ms.openlocfilehash: 9bf3e7c4729e9dbaf77c3860628a9ba5ad3bb133
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 5f219d4d0fc00478dac2febb2f426427d59186d749b62007ad1e68a4dc7dfce3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "106513704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096414"
 ---
-# <a name="direct3d-12-on-windows-7-reference"></a>Informations de référence sur Direct3D 12 sur Windows 7
+# <a name="direct3d-12-on-windows-7-reference"></a>référence Direct3D 12 sur Windows 7
 
-Cette section traite des API Direct3D 12 déclarées dans d3d12downlevel. h, pour une utilisation exclusive sur Windows 7.
+cette section traite des api Direct3D 12 déclarées dans d3d12downlevel. h, pour une utilisation uniquement sur Windows 7.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

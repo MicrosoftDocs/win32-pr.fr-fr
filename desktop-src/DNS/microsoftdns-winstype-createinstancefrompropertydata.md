@@ -1,6 +1,6 @@
 ---
 title: Méthode CreateInstanceFromPropertyData de la classe MicrosoftDNS_WINSType
-description: La méthode CreateInstanceFromPropertyData instancie un enregistrement de ressource WINS (Windows Internet Name Service).
+description: la méthode CreateInstanceFromPropertyData instancie un enregistrement de ressource Windows Internet Name Service (WINS).
 ms.assetid: 0b41a6a5-0bb1-467b-9089-2c721d521887
 keywords:
 - Méthode CreateInstanceFromPropertyData DNS
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf584bd34f59391a49fd5f7ec13cb49e18ef68fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92f39b360c29ca859c0d0fd0188f0b065dec58293207c27e0a0267572472aabe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077049"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_winstype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS WINSType
 
-La méthode **CreateInstanceFromPropertyData** instancie un enregistrement de ressource WINS (Windows Internet Name Service).
+la méthode **CreateInstanceFromPropertyData** instancie un enregistrement de ressource Windows Internet Name Service (WINS).
 
 ## <a name="syntax"></a>Syntaxe
 

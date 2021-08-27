@@ -4,12 +4,12 @@ ms.assetid: 7a2f9958-4a4e-462a-9737-e7796fd90216
 title: Commande IMC_SETCANDIDATEPOS (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8ac05890e4c720c5b671faa7f20a68a96b24a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fbce21cac53eecf3ad5b99cc7dbe5cf5b52304ed25869a5c3f6ae729ac9d016
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107269"
 ---
 # <a name="imc_setcandidatepos-command"></a>\_Commande IMC SETCANDIDATEPOS
 
@@ -44,7 +44,7 @@ Pointeur vers une structure [**CANDIDATEFORM**](/windows/win32/api/imm/ns-imm-ca
 
 Retourne 0 en cas de réussite, ou une valeur différente de zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette commande est destinée aux applications qui affichent des caractères de composition seuls, mais qui utilisent la fenêtre IME pour afficher les candidats.
 
@@ -56,7 +56,7 @@ Cette commande est destinée aux applications qui affichent des caractères de c
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

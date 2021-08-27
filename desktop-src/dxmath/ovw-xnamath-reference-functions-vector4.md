@@ -4,12 +4,12 @@ ms.assetid: 81dddeb0-c143-5d09-057e-f7941520e268
 title: Fonctions de vecteur 4D de la bibliothèque DirectXMath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea5ce9fb066208ebe5dd572d583a9e4685df02cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 375c246d79a8d75a812a21625c5f6a442d8fde85274edb4cab3006ed6a332dbc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117519"
 ---
 # <a name="directxmath-library-4d-vector-functions"></a>Fonctions de vecteur 4D de la bibliothèque DirectXMath
 

@@ -4,18 +4,18 @@ ms.assetid: 2f841eb6-9a6c-4c9b-b057-a3da6cd6b0b0
 title: Applications isolées et assemblys côte à côte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59abfbd5392040856c66ef9eb786b66d2a84500f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9af477178aa3fd68563ee53017d80c00e103b4cb97a6fd16062d307375b29574
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127489"
 ---
 # <a name="isolated-applications-and-side-by-side-assemblies"></a>Applications isolées et assemblys côte à côte
 
 ## <a name="purpose"></a>Objectif
 
-Les applications isolées et les assemblys côte à côte sont une solution Microsoft Windows qui réduit les conflits de contrôle de version dans les applications clientes Windows. Avec Windows, les développeurs d’applications peuvent créer des applications isolées qui sont entièrement explicites et non affectées par des modifications apportées au registre, à d’autres applications ou à d’autres versions d’assemblys s’exécutant sur le système. Les créateurs d’applications et les administrateurs peuvent utiliser des manifestes pour gérer le partage d’assemblys côte à côte après le déploiement, au niveau global ou par application. Les clients bénéficient d’applications isolées qui sont plus stables et mises à jour de manière plus fiable.
+les applications isolées et les assemblys côte à côte sont une solution Microsoft Windows qui réduit les conflits de contrôle de version dans les Applications clientes Windows. avec Windows, les développeurs d’applications peuvent créer des applications isolées qui sont entièrement explicites et non affectées par des modifications apportées au registre, à d’autres applications ou à d’autres versions d’assemblys s’exécutant sur le système. Les créateurs d’applications et les administrateurs peuvent utiliser des manifestes pour gérer le partage d’assemblys côte à côte après le déploiement, au niveau global ou par application. Les clients bénéficient d’applications isolées qui sont plus stables et mises à jour de manière plus fiable.
 
 ## <a name="where-applicable"></a>Le cas échéant
 
@@ -37,7 +37,7 @@ En tant que référence principale pour le partage d’assembly côte à côte e
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-Windows Server 2003 et versions ultérieures, ou Windows XP et versions ultérieures, sont requis pour utiliser des manifestes et des assemblys côte à côte afin d’isoler les applications et d’utiliser l’API de contexte d’activation.
+Windows le serveur 2003 et versions ultérieures ou Windows XP et versions ultérieures sont requis pour utiliser des manifestes et des assemblys côte à côte afin d’isoler les applications et d’utiliser l’API de contexte d’Activation.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
