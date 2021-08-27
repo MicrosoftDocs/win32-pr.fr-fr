@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2a2a96f3d0c2a1fe8e3ac78e5db67ded031a4aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5646bd6df1a2523faf481bc867acc67dbd0a647b4cdf3f033d7327a66174d8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129979"
 ---
 # <a name="locationdispdispcivicaddressreport-object"></a>LocationDisp. DispCivicAddressReport, objet
 
-\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l’API [**Windows. Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
+\[Le modèle d’objet d’API emplacement peut être utilisé dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. Au lieu de cela, pour accéder à l’emplacement à partir d’un site Web, utilisez l' [API de géolocalisation W3C](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85)). Pour accéder à l’emplacement à partir d’une application de bureau, utilisez l' [**Windows. API Devices. géolocalisation**](/uwp/api/Windows.Devices.Geolocation) .\]
 
 Représente un rapport d’adresse postale.
 
@@ -41,7 +41,7 @@ L’objet **LocationDisp. DispCivicAddressReport** possède ces propriétés.
 |:--------------------------------------------------------------------------------------|:---------------------|:------------------------------------------------------------|
 | [**AddressLine1**](locationdisp-dispcivicaddressreport-addressline1.md)<br/>   | Lecture seule<br/> | Première ligne d’une adresse postale.<br/>              |
 | [**AddressLine2**](locationdisp-dispcivicaddressreport-addressline2.md)<br/>   | Lecture seule<br/> | Deuxième ligne d’une adresse postale.<br/>             |
-| [**Urbain**](locationdisp-dispcivicaddressreport-city.md)<br/>                   | Lecture seule<br/> | Nom de la ville.<br/>                                   |
+| [**City**](locationdisp-dispcivicaddressreport-city.md)<br/>                   | Lecture seule<br/> | Nom de la ville.<br/>                                   |
 | [**Pays**](locationdisp-civicaddressreport-countryregion.md)<br/>     | Lecture seule<br/> | Nom du pays ou de la région.<br/>                      |
 | [**DetailLevel**](locationdisp-dispcivicaddressreport-detaillevel.md)<br/>     | Lecture seule<br/> | Niveau de détail du rapport.<br/>                 |
 | [**Postal**](locationdisp-dispcivicaddressreport-postalcode.md)<br/>       | Lecture seule<br/> | Le code postal.<br/>                                 |
@@ -52,7 +52,7 @@ L’objet **LocationDisp. DispCivicAddressReport** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez récupérer cet objet via la propriété [**CivicAddressReport**](locationdisp-dispcivicaddressreport-civicaddressreport.md) d’un objet [**CivicAddressReportFactory**](locationdisp-civicaddressreportfactory.md) . Vous pouvez recevoir cet objet via l’événement [**NewCivicAddressReport**](newcivicaddressreport.md) .
 
@@ -62,7 +62,7 @@ Vous pouvez récupérer cet objet via la propriété [**CivicAddressReport**](lo
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                  |
 
 

@@ -3,7 +3,7 @@ title: Élément ControlSizeDefinition
 description: Représente le style de disposition d’un groupe de contrôles dans un modèle personnalisé.
 ms.assetid: f9b875f4-e0cf-4823-81b5-ed19c201dcbb
 keywords:
-- Ruban des fenêtres d’élément ControlSizeDefinition
+- élément ControlSizeDefinition Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ff5217c08b4ea6da1931b0c65501f912f2cc5dc
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 81c174a92ff502a3ebde5ae06e5703401de2c290
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443410"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622675"
 ---
 # <a name="controlsizedefinition-element"></a>Élément ControlSizeDefinition
 
@@ -41,10 +41,10 @@ Représente le style de disposition d’un groupe de contrôles dans un modèle 
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,13 +58,13 @@ Représente le style de disposition d’un groupe de contrôles dans un modèle 
 <tr class="odd">
 <td><strong>NomContrôle</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ImageSize</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Conséquent<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Small<br/> </dt> <dd> Par défaut. <br/> </dd> </dl></td>
 </tr>
@@ -106,13 +106,13 @@ Il n’y a pas d’éléments enfants.
 |-------------------------------------------------------------------------------------|
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>               |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**Ligne**](windowsribbon-element-row.md)<br/>                                 |
+| [**Haut**](windowsribbon-element-row.md)<br/>                                 |
 
 
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Row**](windowsribbon-element-row.md)ou [**SizeDefinition**](windowsribbon-element-sizedefinition.md) .
 
@@ -210,7 +210,7 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

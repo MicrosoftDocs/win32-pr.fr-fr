@@ -1,21 +1,21 @@
 ---
-description: Ce document est destiné aux développeurs qui écrivent leurs propres programmes d’installation et développeurs qui souhaitent en savoir plus sur les tables de la base de données du programme d’installation. Pour obtenir des informations générales sur le programme d’installation, consultez à propos de Windows Installer.
+description: Ce document est destiné aux développeurs qui écrivent leurs propres programmes d’installation et développeurs qui souhaitent en savoir plus sur les tables de la base de données du programme d’installation. pour obtenir des informations générales sur le programme d’installation, consultez à propos de Windows Installer.
 ms.assetid: 95516437-9708-4f4e-a5c2-7bcd4741c776
 title: Fonctions de base de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4a4233437d24944c8bb7fe5c7de6412e700022b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6214dadc413a2c4e2d5f257c396438c850446fb9106fb70970bdb971f4653d44
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086209"
 ---
 # <a name="database-functions"></a>Fonctions de base de données
 
-Ce document est destiné aux développeurs qui écrivent leurs propres programmes d’installation et développeurs qui souhaitent en savoir plus sur les tables de la base de données du programme d’installation. Pour obtenir des informations générales sur le programme d’installation, consultez [à propos de Windows Installer](about-windows-installer.md).
+Ce document est destiné aux développeurs qui écrivent leurs propres programmes d’installation et développeurs qui souhaitent en savoir plus sur les tables de la base de données du programme d’installation. pour obtenir des informations générales sur le programme d’installation, consultez [à propos de Windows Installer](about-windows-installer.md).
 
-Vous pouvez utiliser les fonctions d’installation pour accéder à la base de données et au processus d’installation. Ces fonctions ne doivent être utilisées que par les actions d’installation personnalisée et les outils de création. Certaines fonctions d’accès au programme d’installation requièrent des chaînes de requête SQL pour interroger la base de données. Les requêtes doivent adhérer à la [syntaxe SQL](sql-syntax.md)du programme d’installation.
+Vous pouvez utiliser les fonctions d’installation pour accéder à la base de données et au processus d’installation. Ces fonctions ne doivent être utilisées que par les actions d’installation personnalisée et les outils de création. certaines fonctions d’accès au programme d’installation requièrent SQL des chaînes de requête pour interroger la base de données. les requêtes doivent adhérer à la [syntaxe du SQL](sql-syntax.md)du programme d’installation.
 
 Cette rubrique répertorie les fonctions d’accès à la base de données du programme d’installation par catégorie.
 

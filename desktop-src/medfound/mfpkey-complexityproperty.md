@@ -4,12 +4,12 @@ ms.assetid: 1537e98b-d7ed-49e6-aa25-8f2f124c88eb
 title: MFPKEY_COMPLEXITY, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 042e3158b43efb5a4a82542f000d137fa0c195e6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 03bb611c95451f590df2e9ff4c1df02b17eda2d1dc00e256381931cbacde435f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113439"
 ---
 # <a name="mfpkey_complexity-property"></a>\_Propriété de complexité MFPKEY
 
@@ -33,14 +33,14 @@ La valeur par défaut dépend de la version de l’encodeur vidéo, comme indiqu
 
 | Version de l’encodeur                 | Valeur par défaut |
 |---------------------------------|---------------|
-| Encodeur Windows Media Video 9   | 3             |
-| Windows Media Video encodeur 7/8 | 1             |
+| Windows Encodeur Media Video 9   | 3             |
+| Windows Encodeur Video Media Video 7/8 | 1             |
 
 
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette valeur entière est comprise entre 0 et 3. Des valeurs inférieures obligent le codec à utiliser des algorithmes d’encodage moins compliqués. Bien que les algorithmes plus simples produisent une sortie de qualité inférieure, le processus d’encodage est plus rapide et nécessite moins de puissance de traitement.
 
@@ -50,8 +50,8 @@ Cette valeur entière est comprise entre 0 et 3. Des valeurs inférieures oblige
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

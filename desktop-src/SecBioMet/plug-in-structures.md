@@ -3,19 +3,19 @@ title: Structures de plug-in
 description: Structures pour le développement d’applications clientes par l’API Windows Biometric Framework.
 ms.assetid: 64fb908c-72c2-4639-a2f6-77ede080512c
 keywords:
-- API Windows Biometric Framework API Windows Biometric Framework, structures de plug-in
+- Windows api de l’infrastructure biométrique Windows Biometric Framework, structures de plug-in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 193b5a99f30c76e8e6e2ab7ebf0242cf56905816
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e150dd043a8c95e91d0f9095e23584544f43a503a709ae54c9180e06aa40bdaf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101239"
 ---
 # <a name="plug-in-structures"></a>Structures de plug-in
 
-Les structures suivantes sont prises en charge pour le développement d’applications clientes par l’API Windows Biometric Framework.
+les structures suivantes sont prises en charge pour le développement d’applications clientes par l’API Windows Biometric Framework.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

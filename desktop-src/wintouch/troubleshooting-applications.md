@@ -3,22 +3,22 @@ title: Dépannage des applications
 description: Cette section fournit des solutions aux problèmes courants.
 ms.assetid: dfdc5a97-aa0a-4011-8f61-6e405e28b6f8
 keywords:
-- Applications tactiles Windows, résolution des problèmes
-- Tactile Windows, rejet de Palm
+- Windows Applications tactiles, dépannage
+- Windows Toucher, rejet de Palm
 - rejet de Palm
-- Tactile Windows, support hérité
-- Dépannage de Windows Touch
+- Windows Toucher, prise en charge héritée
+- résolution des problèmes Windows Touch
 - inertie, dépannage des applications
 - manipulations, résolution des problèmes des applications
 - mouvements, dépannage des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 389d200cedc57b7f128a535355b12a9288c6e9eb
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: bfadf28f5582f702c27f5cb1e15aff142ae14bcf
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443144"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625335"
 ---
 # <a name="troubleshooting-applications"></a>Dépannage des applications
 
@@ -30,7 +30,7 @@ Cette section fournit des solutions aux problèmes courants.
 
 | Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Problème    | J’exécute Windows Server 2008 et les fonctionnalités tactiles de Windows ne fonctionnent pas.                                                                                                                                                                                                                                       |
+| Problème    | j’exécute Windows les fonctionnalités du serveur 2008 et Windows Touch ne fonctionnent pas.                                                                                                                                                                                                                                       |
 | Cause    | Vous n’avez pas activé l’expérience utilisateur.                                                                                                                                                                                                                                                                        |
 | Solution | Ouvrez l’outil d’administration Gestionnaire de serveur : cliquez sur **Démarrer**, pointez sur **Outils d’administration**, puis cliquez sur **Gestionnaire de serveur**. Cliquez sur l’élément **fonctionnalités** dans la colonne de gauche. Cliquez sur **Ajouter des fonctionnalités** dans la section **fonctionnalités** . Sélectionnez **expérience utilisateur**, cliquez sur **suivant**, puis sur **installer**. |
 
@@ -54,13 +54,13 @@ Cette section fournit des solutions aux problèmes courants.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Problème</td>
-<td>Je ne peux pas discerner les entrées de souris et les entrées tactiles Windows.</td>
+<td>je ne peux pas discerner les entrées de souris et les entrées tactiles Windows.</td>
 </tr>
 <tr class="even">
 <td>Cause</td>
@@ -71,7 +71,7 @@ Cette section fournit des solutions aux problèmes courants.
 <td>Vous pouvez appeler <a href="/windows/win32/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> pour les messages <strong>WM_LBUTTONDOWN</strong> et <strong>WM_LBUTTONUP</strong> afin de déterminer la source. Le code suivant illustre cette opération. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,7 +106,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|------------------------------------------------------------------------------------|
 | Problème    | Comment faire exécuter des applications Microsoft PixelSense sur Windows 7 ?                       |
 | Cause    | Windows Touch et Microsoft PixelSense sont incompatibles.                           |
-| Solution | Vous devez soit cibler la plateforme Windows 7, soit la plate-forme Microsoft PixelSense. |
+| Solution | vous devez cibler la plateforme Windows 7 ou la plateforme Microsoft PixelSense. |
 
 
 
@@ -120,7 +120,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Mon application est figée sans raison. J’obtiens des violations d’accès quand j’Initialise mes interfaces d’objet.                                                                                                                                          |
 | Cause    | Appel à **CoInitialize** manquant lors de l’utilisation des interfaces [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) ou [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) .                                                                                 |
-| Solution | Cela peut être dû à l’instanciation des objets COM (Component Object Model) Windows sans appeler CoInitialize. Cela se produit parfois quand vous convertissez des projets à l’aide de gestes à l’aide des manipulations ou des interfaces d’inertie. |
+| Solution | cela peut être dû à l’instanciation des objets COM (component Object Model) Windows tactile sans appeler coinitialize. Cela se produit parfois quand vous convertissez des projets à l’aide de gestes à l’aide des manipulations ou des interfaces d’inertie. |
 
 
 
@@ -138,7 +138,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
  
 
-## <a name="troubleshooting-windows-touch-input"></a>Dépannage des entrées tactiles Windows
+## <a name="troubleshooting-windows-touch-input"></a>résolution des problèmes Windows entrée tactile
 
 
 
@@ -146,7 +146,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Après avoir traité le message [**WM \_ Touch**](wm-touchdown.md) , je cesse d’obtenir des commentaires sur les limites.                                                                                                                                                                                                                                        |
 | Cause    | Consommation du message [**WM \_ Touch**](wm-touchdown.md) sans le gérer.                                                                                                                                                                                                                                                           |
-| Solution | Vous consommerez probablement un message tactile Windows sans le transférer à **DefWindowProc**, ce qui entraînera un comportement inattendu. Pour plus d’informations sur la façon de gérer correctement les messages [**WM \_ Touch**](wm-touchdown.md) , consultez [prise en main avec des messages tactiles Windows](getting-started-with-multi-touch-messages.md) . |
+| Solution | vous consommerez probablement un message Windows Touch sans le transférer à **DefWindowProc**, ce qui entraînera un comportement inattendu. pour plus d’informations sur la façon de gérer correctement les messages [**WM \_ touch**](wm-touchdown.md) , consultez [Prise en main avec des messages tactiles Windows](getting-started-with-multi-touch-messages.md) . |
 
 
 
@@ -156,8 +156,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -166,14 +166,14 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 </tr>
 <tr class="even">
 <td>Cause</td>
-<td>La version de Windows dans Targetver. h est incorrecte.</td>
+<td>la version de Windows dans Targetver. h est incorrecte.</td>
 </tr>
 <tr class="odd">
 <td>Solution</td>
-<td>Vous n’avez pas défini la version correcte de Windows dans votre projet. Le code suivant illustre les versions Windows correctement définies pour Windows Touch dans Windows 7. <span data-codelanguage="ManagedCPlusPlus"></span>
+<td>vous n’avez pas défini la version correcte du Windows dans votre projet. le code suivant illustre les versions de Windows correctement définies pour Windows Touch dans Windows 7. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -201,8 +201,8 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -218,7 +218,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 <td>Assurez-vous que vous appelez <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> et <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a>. Le code suivant montre comment procéder. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -266,7 +266,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 | Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Problème    | Je ne vois pas les messages [**WM \_ Touch**](wm-touchdown.md) , mais je sais que la touche Windows fonctionne parce que je vois les messages de [**\_ mouvement WM**](wm-gesture.md) .                                                             |
+| Problème    | je ne vois pas les messages [**wm \_ touch**](wm-touchdown.md) , mais je sais que Windows TOUCH fonctionne parce que je vois les messages de [**\_ mouvement wm**](wm-gesture.md) .                                                             |
 | Cause    | Appel à [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)manquant.                                                                                                                                                          |
 | Solution | [**WM \_**](wm-touchdown.md) Les messages [**de \_ mouvement**](wm-gesture.md) tactile et WM s’excluent mutuellement. Si vous n’appelez pas [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), vous recevrez uniquement les messages de **\_ mouvement WM** . |
 
@@ -286,7 +286,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
  
 
-## <a name="troubleshooting-windows-touch-gestures"></a>Dépannage des gestes tactiles Windows
+## <a name="troubleshooting-windows-touch-gestures"></a>résolution des problèmes Windows les gestes tactiles
 
 
 
@@ -294,7 +294,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Une fois le message de [**\_ mouvement WM**](wm-gesture.md) géré, je cesse d’obtenir des commentaires sur les limites. Ou bien, un geste qui fonctionnait précédemment ne fonctionne pas maintenant.                                                                                                                                                                                                                         |
 | Cause    | Consommation du message [**de \_ mouvement WM**](wm-gesture.md) sans le gérer.                                                                                                                                                                                                                                                                                                    |
-| Solution | Vous consommerez probablement un message tactile Windows sans le transférer à [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca), ce qui entraînera un comportement inattendu. Pour plus d’informations sur la façon de gérer correctement les messages de [**\_ mouvement WM**](wm-gesture.md) , consultez [prise en main avec les gestes Windows](getting-started-with-multi-touch-gestures.md) . |
+| Solution | vous consommerez probablement un message Windows Touch sans le transférer à [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca), ce qui entraînera un comportement inattendu. pour plus d’informations sur la façon de gérer correctement les messages de [**\_ mouvement WM**](wm-gesture.md) , consultez [Prise en main avec des gestes de Windows](getting-started-with-multi-touch-gestures.md) . |
 
 
 
@@ -304,7 +304,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 | Category | Description |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Problème    | Je ne vois pas les messages de [**\_ mouvement WM**](wm-gesture.md) , mais je sais que la touche Windows fonctionne, car je vois des messages [**WM \_ Touch**](wm-touchdown.md) .                                                      |
+| Problème    | je ne vois pas les messages de [**\_ mouvement wm**](wm-gesture.md) , mais je sais que Windows touch fonctionne parce que je vois les messages [**wm \_ touch**](wm-touchdown.md) .                                                      |
 | Cause    | Appel de [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow).                                                                                                                                                             |
 | Solution | [**WM \_**](wm-touchdown.md) Les messages [**de \_ mouvement**](wm-gesture.md) tactile et WM s’excluent mutuellement. Si vous appelez [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), vous ne recevrez pas de messages de **\_ mouvement WM** . |
 
@@ -316,8 +316,8 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -333,7 +333,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 <td>Vous devez appeler <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> quand vous recevez un message de <a href="wm-gesturenotify.md"><strong>WM_GESTURENOTIFY</strong></a> comme décrit dans la référence <strong>WM_GESTURENOTIFY</strong> , ou vous devez ajouter un gestionnaire pour le message <strong>WM_GESTURENOTIFY</strong> . Le code suivant montre comment implémenter un gestionnaire pour activer la prise en charge de la rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

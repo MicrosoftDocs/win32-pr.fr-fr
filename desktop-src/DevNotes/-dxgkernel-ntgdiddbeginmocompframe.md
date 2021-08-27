@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 45c359092d1a161aae7671c437fdb9683a2a8eb9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 411699355df7d7414cdea95d6189dd0e924b7108e18be5e7dbcb846122623a2e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087999"
 ---
 # <a name="ntgdiddbeginmocompframe-function"></a>NtGdiDdBeginMoCompFrame fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ BEGINMOCOMPFRAMEDATA DD**](/windows/win32/api/
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

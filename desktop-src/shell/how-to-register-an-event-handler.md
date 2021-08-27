@@ -4,16 +4,16 @@ ms.assetid: C203B5AB-917C-4543-98D6-EDE02E0B5E49
 title: Comment inscrire un gestionnaire d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3d786111a80cba455dd3480bdc970bc27009d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f96aedc8b6b7944238938539a8fafa5d80c6dc7f1afd4dc5f818ecc91abd08c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090559"
 ---
 # <a name="how-to-register-an-event-handler"></a>Comment inscrire un gestionnaire d’événements
 
-Un appareil peut potentiellement générer un grand nombre d’événements, et chaque événement peut être géré par un certain nombre de gestionnaires différents. Dans Windows XP, les événements suivants sont définis :
+Un appareil peut potentiellement générer un grand nombre d’événements, et chaque événement peut être géré par un certain nombre de gestionnaires différents. dans Windows XP, les événements suivants sont définis :
 
 -   DeviceArrival
 -   DeviceRemoval
@@ -66,7 +66,7 @@ Windows XP prédéfinit l’ensemble suivant d’EventHandlers.
 |--------------------------|------------------------------------------------|
 | HandleCDBurningOnArrival | CD-R/CD-RW vierge                               |
 | ShowPicturesOnArrival    | Fichiers image                                  |
-| PlayMusicFilesOnArrival  | Fichiers musicaux                                    |
+| PlayMusicFilesOnArrival  | fichiers Musique                                    |
 | PlayVideoFilesOnArrival  | Fichiers vidéo                                    |
 | PlayCDAudioOnArrival     | CD audio (format de CD de format REDBOOK avec pistes audio) |
 | PlayDVDMovieOnArrival    | Films DVD                                     |

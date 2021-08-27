@@ -3,30 +3,30 @@ title: Super fichiers
 description: Super fichiers
 ms.assetid: a5005d1a-4b87-482d-914e-3184a2c93267
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, fichiers de fichiers Super
-- Windows Media Player Mobile Skins, fichiers Super fichiers
+- Lecteur Windows Media Skins mobiles, fichiers de fichiers Super
 - apparences, Super fichiers
 - Super fichiers dans les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ece533f81f8866eb0f9848d7296cc23bcd37f453
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fcbd6734e0491b5fc0e6552db14b3c0ab4489e466e7851ef4b474e84d2d85183
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122862"
 ---
 # <a name="super-files"></a>Super fichiers
 
 Les fichiers Super sont utilisés pour stocker les images désactivées pour trackbars. Étant donné que l’image de TrackBar principale est affichée dans le fichier d’arrière-plan et que l’utilisateur appuie sur l’image Thumb, et non sur l’image TrackBar, seule l’image désactivée est nécessaire pour trackbars. Elle est stockée dans le fichier défini par Super dans la section bitmaps du fichier de définition d’apparence. Un fichier Super peut également stocker les images déplacées et désactivées pour d’autres boutons tels que muet, ce qui ne doit pas nécessairement être un bouton de type d’accès.
 
 > [!Note]  
-> Les fichiers Super art ne sont pas utilisés dans les habillages pour Windows Media Player 10 mobile ou version ultérieure, car les images désactivées pour Seek trackbars se trouvent dans le fichier seekthumb.
+> les fichiers Super art ne sont pas utilisés dans les habillages pour Lecteur Windows Media 10 Mobile ou version ultérieure, car les images désactivées pour seek trackbars se trouvent dans le fichier seekthumb.
 
- 
+ 
 
 L’image suivante est un fichier Super standard.
 
@@ -43,9 +43,9 @@ La zone d’arrière-plan de l’image TrackBar désactivée correspond exacteme
 [**Fichiers art**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

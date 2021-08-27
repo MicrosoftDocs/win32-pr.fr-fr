@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6339661461992eca53840e5f7c0664e0843504b4f787adcb65e6c5202b601729
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b46b0e2dcd2de1090fd8265d4b36339d42d92d7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118984629"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468436"
 ---
 # <a name="xmmatrix-constructors"></a>Constructeurs XMMATRIX
 
@@ -33,51 +33,14 @@ Construit des instances de la structure [**XMMATRIX**](/windows/win32/api/direct
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constructeur</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(float_float_float_float_float_float_float_float_float_float_float_float_float_float_float_float)"><strong>XMMATRIX (float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir de seize valeurs scalaires <code>float</code> . <br/> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir de seize valeurs scalaires <code>float</code> . <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est disponible uniquement lors du développement avec C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(constfloat)"><strong>XMMATRIX ()</strong></a></td>
-<td style="text-align: left;">Constructeur par défaut pour <code>XMMATRIX</code> .<br/> Constructeur par défaut pour <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a>.<br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est disponible uniquement lors du développement avec C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(constfloat)"><strong>XMMATRIX (const float *)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir d’un tableau de seize éléments <code>float</code> . <br/> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir d’un tableau de seize éléments <code>float</code> . <br/>
-<blockquote>
-[!Note]<br />
-Ce constructeur est disponible uniquement lors du développement avec C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(fxmvector_fxmvector_fxmvector_cxmvector)"><strong>XMMATRIX (XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir de quatre instances de <code>XMVECTOR</code> .<br/> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir de quatre instances du <a href="xmvector-data-type.md"><strong>type de données XMVECTOR</strong></a><br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constructeur | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(float_float_float_float_float_float_float_float_float_float_float_float_float_float_float_float)"><strong>XMMATRIX (float, float, float, float, float, float, float, float, float, float, float, float, float, float, float, float)</strong></a> | Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir de seize valeurs scalaires <code>float</code> . <br /> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir de seize valeurs scalaires <code>float</code> . <br /><blockquote>[!Note]<br />Ce constructeur est disponible uniquement lors du développement avec C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(constfloat)"><strong>XMMATRIX ()</strong></a> | Constructeur par défaut pour <code>XMMATRIX</code> .<br /> Constructeur par défaut pour <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a>.<br /><blockquote>[!Note]<br />Ce constructeur est disponible uniquement lors du développement avec C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(constfloat)"><strong>XMMATRIX (const float *)</strong></a> | Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir d’un tableau de seize éléments <code>float</code> . <br /> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir d’un tableau de seize éléments <code>float</code> . <br /><blockquote>[!Note]<br />Ce constructeur est disponible uniquement lors du développement avec C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmmatrix-xmmatrix(fxmvector_fxmvector_fxmvector_cxmvector)"><strong>XMMATRIX (XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)</strong></a> | Initialise une nouvelle instance de la <code>XMMATRIX</code> structure à partir de quatre instances de <code>XMVECTOR</code> .<br /> Initialise une nouvelle instance de la structure <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix"><strong>XMMATRIX</strong></a> à partir de quatre instances du <a href="xmvector-data-type.md"><strong>type de données XMVECTOR</strong></a><br /> | 
+
 
 
 

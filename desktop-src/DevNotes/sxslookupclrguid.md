@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Mscoree.dll
 - Sxs.dll
-ms.openlocfilehash: 516ba97eb70defdbc6f92efa5c65e6d23246fe67
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 6a23a9b761cca176e91650fab7c301a05c8e7435b2d46c97b1cdf1c1c5bc2027
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122465596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103629"
 ---
 # <a name="sxslookupclrguid-function"></a>SxsLookupClrGuid fonction)
 
@@ -100,7 +100,7 @@ Pointeur vers une variable où la taille, en octets, des informations de retour 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur de retour
+## <a name="return-value"></a>Valeur retournée
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire. Pour plus d’informations sur l’erreur, appelez [ **GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)
 
@@ -148,15 +148,44 @@ Les membres de cette structure contiennent les informations suivantes.
 
 
 
-
-| Membre | Description | 
-|--------|-------------|
-| <span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br /> | Contient la taille de la structure de SXS_GUID_INFORMATION_CLR (cela permet à la structure de croître dans les versions ultérieures).<br /> | 
-| <span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br /> | Contient l’une des deux valeurs d’indicateur suivantes : <br /><ul><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) : indique que le GUID spécifié a été associé à un « substitut ».</li><li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) : indique que le GUID spécifié a été associé à une « classe ».</li></ul> | 
-| <span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui identifie la version du runtime spécifiée dans le manifeste hôte pour cette classe.<br /> | 
-| <span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui contient le nom de la classe .NET associée au GUID spécifié.<br /> | 
-| <span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br /> | Pointe vers une chaîne de caractères larges se terminant par zéro qui contient l’identité textuelle de l’assembly qui héberge cette classe. pour plus d’informations sur l’identité textuelle, consultez « spécification des noms de types qualifiés complets » sous « découverte des informations de type au moment de l’exécution » sous « programmation avec l' .NET Framework » dans le kit de développement logiciel (SDK) .NET Framework.<br /> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Membre</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span id="cbSize"></span><span id="cbsize"></span><span id="CBSIZE"></span><strong>cbSize</strong><br/></td>
+<td>Contient la taille de la structure de SXS_GUID_INFORMATION_CLR (cela permet à la structure de croître dans les versions ultérieures).<br/></td>
+</tr>
+<tr class="even">
+<td><span id="dwFlags"></span><span id="dwflags"></span><span id="DWFLAGS"></span><strong>dwFlags</strong><br/></td>
+<td>Contient l’une des deux valeurs d’indicateur suivantes : <br/>
+<ul>
+<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_SURROGATE (0x00000001) : indique que le GUID spécifié a été associé à un &quot; substitut.&quot;</li>
+<li>SXS_GUID_INFORMATION_CLR_FLAG_IS_CLASS (0x00000002) : indique que le GUID spécifié a été associé à une &quot; classe.&quot;</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><span id="pcwszRuntimeVersion"></span><span id="pcwszruntimeversion"></span><span id="PCWSZRUNTIMEVERSION"></span><strong>pcwszRuntimeVersion</strong><br/></td>
+<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui identifie la version du runtime spécifiée dans le manifeste hôte pour cette classe.<br/></td>
+</tr>
+<tr class="even">
+<td><span id="pcwszTypeName"></span><span id="pcwsztypename"></span><span id="PCWSZTYPENAME"></span><strong>pcwszTypeName</strong><br/></td>
+<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui contient le nom de la classe .NET associée au GUID spécifié.<br/></td>
+</tr>
+<tr class="odd">
+<td><span id="pcwszAssemblyIdentity"></span><span id="pcwszassemblyidentity"></span><span id="PCWSZASSEMBLYIDENTITY"></span><strong>pcwszAssemblyIdentity</strong><br/></td>
+<td>Pointe vers une chaîne de caractères larges se terminant par zéro qui contient l’identité textuelle de l’assembly qui héberge cette classe. pour plus d’informations sur l’identité textuelle, consultez &quot; spécification de noms de types qualifiés complets &quot; sous &quot; découverte des informations de type au moment de &quot; l’exécution sous &quot; programmation avec l' .NET Framework &quot; dans le kit de développement logiciel (SDK) .NET Framework.<br/></td>
+</tr>
+</tbody>
+</table>
 
 
 

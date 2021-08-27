@@ -4,12 +4,12 @@ ms.assetid: 8f4dc314-76fc-40ce-a1e1-a701ae39d66d
 title: Limites de CryptXML (Cryptxml. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc56ee6459be2160efdeb8e9874e7dd0c53518d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98a0dcdf5dc8f8bd9efed4dcdb15ca316ecb1645e5775f3d714f46c6835b3a18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100919"
 ---
 # <a name="cryptxml-limits"></a>Limites de CryptXML
 
@@ -37,8 +37,8 @@ CryptXML définit les limites globales suivantes dans le fichier d’en-tête Cr
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Cryptxml. h</dt> </dl> |
 
 

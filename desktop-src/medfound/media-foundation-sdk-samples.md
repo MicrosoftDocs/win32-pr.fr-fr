@@ -4,12 +4,12 @@ ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: Exemples du kit de développement logiciel Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f335b5ba744b098efdb7570aa861ad36fc9216cf
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5482fabe5e4bfdfe5d451fd8ccb9c0ba0504a5ff
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103761419"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482715"
 ---
 # <a name="media-foundation-sdk-samples"></a>Exemples du kit de développement logiciel Media Foundation
 
@@ -30,7 +30,7 @@ Cette section décrit des exemples d’applications qui montrent comment utilise
 
 | Exemple                            | Description                                                 |
 |-----------------------------------|-------------------------------------------------------------|
-| [Transcoder](transcode-sample.md) | Montre comment recoder un fichier multimédia au format Windows Media. |
+| [Transcoder](transcode-sample.md) | montre comment recoder un fichier multimédia au format Windows media. |
 
 
 
@@ -112,50 +112,15 @@ Cette section décrit des exemples d’applications qui montrent comment utilise
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Exemple</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfplayer2-sample.md">MFPlayer2</a></td>
-<td>Illustre certaines fonctionnalités de lecture avancées de l’API <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> .</td>
-</tr>
-<tr class="even">
-<td><a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a></td>
-<td>Applique un effet de nuances de gris à la vidéo. Montre comment insérer des MFTs dans une topologie de lecture.<br/>
-<blockquote>
-[!Note]<br />
-Cet exemple n’est plus inclus dans le kit de développement logiciel (SDK).
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="playlist-sample.md">Playlist</a></td>
-<td>Lit une séquence de fichiers audio à l’aide de la source de Sequencer.<br/>
-<blockquote>
-[!Note]<br />
-Cet exemple n’est plus inclus dans le kit de développement logiciel (SDK).
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="simplecapture-sample.md">SimpleCapture</a></td>
-<td>Montre comment afficher un aperçu de la vidéo à partir d’un périphérique de capture vidéo, à l’aide de l’API MFPlay.</td>
-</tr>
-<tr class="odd">
-<td><a href="simpleplay-sample.md">SimplePlay</a></td>
-<td>Montre comment lire un fichier multimédia à l’aide de l’API MFPlay.</td>
-</tr>
-</tbody>
-</table>
+
+| Exemple | Description | 
+|--------|-------------|
+| <a href="mfplayer2-sample.md">MFPlayer2</a> | Illustre certaines fonctionnalités de lecture avancées de l’API <a href="using-mfplay-for-audio-video-playback.md">MFPlay</a> . | 
+| <a href="/previous-versions//bb970336(v=vs.85)">PlaybackFX</a> | Applique un effet de nuances de gris à la vidéo. Montre comment insérer des MFTs dans une topologie de lecture.<br /><blockquote>[!Note]<br />Cet exemple n’est plus inclus dans le kit de développement logiciel (SDK).</blockquote><br /> | 
+| <a href="playlist-sample.md">Sélection</a> | Lit une séquence de fichiers audio à l’aide de la source de Sequencer.<br /><blockquote>[!Note]<br />Cet exemple n’est plus inclus dans le kit de développement logiciel (SDK).</blockquote><br /> | 
+| <a href="simplecapture-sample.md">SimpleCapture</a> | Montre comment afficher un aperçu de la vidéo à partir d’un périphérique de capture vidéo, à l’aide de l’API MFPlay. | 
+| <a href="simpleplay-sample.md">SimplePlay</a> | Montre comment lire un fichier multimédia à l’aide de l’API MFPlay. | 
+
 
 
 

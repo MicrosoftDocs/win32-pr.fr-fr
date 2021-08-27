@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b41810eb52db38644bda472907228cd812f76f6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26e13d9d30c3da208bb702427ee99a9648a7f538ba0d5a6a1b359db41e2cd155
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120076009"
 ---
 # <a name="cunknownnondelegatingqueryinterface-method"></a>Méthode CUnknown. NonDelegatingQueryInterface
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                   | Description                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | L’objet ne prend pas en charge cette interface.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>     | Argument de pointeur **null** .<br/>              |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CUnknown** expose uniquement l’interface **IUknown** . Substituez cette méthode pour exposer des interfaces supplémentaires. Pour plus d’informations sur la façon de substituer cette méthode, consultez [How to implement IUnknown](how-to-implement-iunknown.md).
 
@@ -83,7 +83,7 @@ La classe **CUnknown** expose uniquement l’interface **IUknown** . Substituez 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>ComBase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>combase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

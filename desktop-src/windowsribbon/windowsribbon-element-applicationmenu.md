@@ -3,7 +3,7 @@ title: Élément ApplicationMenu
 description: Représente le menu de l’application. | Élément ApplicationMenu
 ms.assetid: 815e0462-ea45-44b1-81bf-f5797b22e920
 keywords:
-- Ruban des fenêtres d’élément ApplicationMenu
+- élément ApplicationMenu Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e535fbcc09a404ad7dd5a4019438f4513f5c77c6
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7fcf64d3fa3b618a4e66777b8fd4c0d831a33126
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443050"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626125"
 ---
 # <a name="applicationmenu-element"></a>Élément ApplicationMenu
 
@@ -40,10 +40,10 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,7 +57,7 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -184,7 +184,7 @@ Cette section de code montre les déclarations de contrôle **ApplicationMenu** 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

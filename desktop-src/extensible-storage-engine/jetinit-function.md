@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 308c012bc5eb144e0ac0d608c64d63ccf39aeca1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: d074e07dec88bf0b33ec56b1391986758fbd388c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104323462"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984532"
 ---
 # <a name="jetinit-function"></a>Fonction JetInit
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetinit-function"></a>Fonction JetInit
 
@@ -46,12 +46,12 @@ JET_ERR JET_API JetInit(
 
 Instance à utiliser pour cet appel.
 
-Pour Windows 2000, ce paramètre est ignoré et doit toujours avoir la valeur NULL.
+pour Windows 2000, ce paramètre est ignoré et doit toujours avoir la valeur NULL.
 
-Pour Windows XP et versions ultérieures, l’utilisation de ce paramètre dépend du mode de fonctionnement du moteur. Si le moteur fonctionne en mode hérité (mode de compatibilité Windows 2000) alors qu’une seule instance est prise en charge, ce paramètre peut avoir la valeur NULL ou il peut avoir la valeur d’une mémoire tampon de sortie valide qui retourne le handle d’instance global créé comme effet secondaire de l’initialisation. La valeur de cette mémoire tampon de sortie doit être NULL ou JET_instanceNil. Ce handle d’instance peut ensuite être passé à toute autre fonction qui utilise une instance. Si le moteur fonctionne en mode multi-instance, ce paramètre doit être défini sur une mémoire tampon d’entrée valide qui contient le handle d’instance retourné par l’instance de fonction [JetCreateInstance](./jetcreateinstance-function.md) en cours d’initialisation.
+pour Windows XP et versions ultérieures, l’utilisation de ce paramètre dépend du mode de fonctionnement du moteur. si le moteur fonctionne en mode hérité (Windows mode de compatibilité 2000) alors qu’une seule instance est prise en charge, ce paramètre peut avoir la valeur NULL ou il peut avoir la valeur d’une mémoire tampon de sortie valide qui retourne le handle d’instance global créé comme effet secondaire de l’initialisation. La valeur de cette mémoire tampon de sortie doit être NULL ou JET_instanceNil. Ce handle d’instance peut ensuite être passé à toute autre fonction qui utilise une instance. Si le moteur fonctionne en mode multi-instance, ce paramètre doit être défini sur une mémoire tampon d’entrée valide qui contient le handle d’instance retourné par l’instance de fonction [JetCreateInstance](./jetcreateinstance-function.md) en cours d’initialisation.
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Une instance doit être initialisée avec un appel à **JetInit** avant de pouvoir être utilisée par une autre chose que [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
@@ -81,49 +81,30 @@ Ces erreurs sont presque toujours dues à des problèmes matériels et ne peuven
 
 Si la récupération s’exécute sur un ensemble de journaux, pour lesquels toutes les bases de données ne sont pas présentes (ce qui renvoie l’erreur JET_errAttachedDatabaseMismatch dans des conditions normales), et que le client souhaite que la récupération se poursuive malgré les bases de données manquantes, le JET_ bitReplayIgnoreMissingDB peut être utilisé pour poursuivre la récupération des bases de données disponibles. Ces erreurs sont empêchables par l’application. L’application doit veiller à protéger le référentiel de ces fichiers contre les manipulations en dehors des forces, telles que l’utilisateur ou d’autres applications. Si l’application souhaite détruire entièrement une instance, tous les fichiers associés à l’instance doivent être supprimés. Celles-ci incluent le fichier de point de contrôle, les fichiers journaux des transactions et les fichiers de base de données attachés à l’instance.
 
-La fonction **JetInit** se comporte différemment, en ce qui concerne les fichiers de base de données attachés à l’instance, entre Windows 2000 et les versions ultérieures.
+la fonction **JetInit** se comporte différemment, en ce qui concerne les fichiers de base de données attachés à l’instance, entre Windows 2000 et les versions ultérieures.
 
-**Windows 2000 :**  Dans Windows 2000, toute base de données attachée à l’instance pendant une version précédente de cette instance reste attachée à l’instance une fois que **JetInit** s’est terminé avec succès. Il n’est pas nécessaire d’appeler [JetAttachDatabase](./jetattachdatabase-function.md) après **JetInit** pour vous assurer de l’accès ultérieur à la base de données. Si la fonction [JetAttachDatabase](./jetattachdatabase-function.md) est appelée après la fonction **JetInit** , le JET_wrnDatabaseAttached avertissement est retourné. Cet avertissement indique que la pièce jointe de la base de données a été conservée et peut être ignorée.
+**Windows 2000 :**  dans Windows 2000, toute base de données attachée à l’instance pendant une version précédente de cette instance reste attachée à l’instance une fois que **JetInit** s’est terminé avec succès. Il n’est pas nécessaire d’appeler [JetAttachDatabase](./jetattachdatabase-function.md) après **JetInit** pour vous assurer de l’accès ultérieur à la base de données. Si la fonction [JetAttachDatabase](./jetattachdatabase-function.md) est appelée après la fonction **JetInit** , le JET_wrnDatabaseAttached avertissement est retourné. Cet avertissement indique que la pièce jointe de la base de données a été conservée et peut être ignorée.
 
-**Windows XP :**  Dans Windows XP et versions ultérieures, toutes les bases de données sont automatiquement détachées de l’instance par **JetInit**. Cela signifie que [JetAttachDatabase](./jetattachdatabase-function.md) doit toujours être appelé après **JetInit** dans ce cas.
+**Windows XP :**  dans Windows XP et versions ultérieures, toutes les bases de données sont automatiquement détachées de l’instance par **JetInit**. Cela signifie que [JetAttachDatabase](./jetattachdatabase-function.md) doit toujours être appelé après **JetInit** dans ce cas.
 
-Toute application écrite pour s’exécuter sur Windows 2000 et les versions ultérieures doit toujours appeler [JetAttachDatabase](./jetattachdatabase-function.md) après **JetInit**. Si l’application s’exécute sur Windows 2000, elle doit s’attendre à voir JET_wrnDatabaseAttached dans certains cas. Pour plus d’informations, consultez [JetAttachDatabase](./jetattachdatabase-function.md) .
+toute application écrite pour s’exécuter sur Windows 2000 et sur les versions ultérieures doit toujours appeler [JetAttachDatabase](./jetattachdatabase-function.md) après **JetInit**. si l’application s’exécute sur Windows 2000, elle doit s’attendre à voir JET_wrnDatabaseAttached dans certains cas. Pour plus d’informations, consultez [JetAttachDatabase](./jetattachdatabase-function.md) .
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi
 
-[Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)  
+[fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JET_INSTANCE](./jet-instance.md)  

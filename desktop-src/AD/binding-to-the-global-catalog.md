@@ -8,12 +8,12 @@ keywords:
 - AD du catalogue global, liaison à
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228f9cfda0b4c4156150ba493d17b95fef60c80afd90a31e10cc8388a87141e8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b4d094a0c07a40fa063b726d0ba1c5a15977873d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118023707"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881645"
 ---
 # <a name="binding-to-the-global-catalog"></a>Liaison au catalogue global
 
@@ -60,7 +60,7 @@ GC://servername.fabrikam.com/DC=sales,DC=fabrikam,DC=com
 2.  Énumérez le conteneur de catalogue global. Le conteneur de catalogue global contient un seul objet que vous pouvez utiliser pour effectuer une recherche dans l’ensemble de la forêt.
 3.  Utilisez l’objet dans le conteneur pour effectuer la recherche. En C/C++, appelez [**QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) pour recevoir un pointeur [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) sur l’objet afin de pouvoir utiliser l’interface **IDirectorySearch** pour effectuer la recherche. dans Visual Basic, utilisez l’objet retourné par l’énumération dans votre requête ADO.
 
-Pour énumérer les serveurs de catalogue global d’un site, effectuez une recherche de sous-arborescence LDAP de « CN = <yoursite> , CN = sites <DN of the configurationNamingContext> », à l’aide de la chaîne de filtrage suivante.
+Pour énumérer les serveurs de catalogue global d’un site, effectuez une recherche de sous-arborescence LDAP de « CN = &lt; yoursite &gt; , CN = sites <DN of the configurationNamingContext> », à l’aide de la chaîne de filtrage suivante.
 
 ``` syntax
 (&(objectCategory=nTDSDSA)(options:1.2.840.113556.1.4.803:=1))

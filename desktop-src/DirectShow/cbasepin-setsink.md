@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4237e342f8f49059cab017b17a1f116ca6e2da67
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e94dc561e378ab526eee04f82e0f54a90889ee4396996d96d01f6c8da8c34d4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108629"
 ---
 # <a name="cbasepinsetsink-method"></a>Méthode CBasePin. SetSink
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IQualityControl**](/windows/desktop/api/Strmif/nn
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode pour rediriger les messages de contrôle qualité vers un gestionnaire de qualité externe. Pour plus d’informations, consultez [gestion du contrôle qualité](quality-control-management.md).
 
@@ -63,7 +63,7 @@ Appelez cette méthode pour rediriger les messages de contrôle qualité vers un
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

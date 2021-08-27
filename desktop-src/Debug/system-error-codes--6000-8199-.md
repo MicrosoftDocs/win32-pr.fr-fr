@@ -4,17 +4,17 @@ ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: Codes d’erreur système (6000-8199) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 0660009411224673481e9b65bcb62d7b194ab71f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d24a165798f0d4bf8a3ed534880cd3f9ad1f2b8b85d072e8a4d7aae8e6345508
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131659"
 ---
 # <a name="system-error-codes-6000-8199"></a>Codes d’erreur système (6000-8199)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) (erreurs 6000 à 8199). Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -1354,7 +1354,7 @@ L’identité TransactionManager qui a été fournie ne correspondait pas à cel
 
 
 
-Cette opération d’instantané ne peut pas continuer, car un gestionnaire de ressources de transaction ne peut pas être figé dans son état actuel. Réessayez.
+Cette opération d’instantané ne peut pas continuer, car un gestionnaire de ressources de transaction ne peut pas être figé dans son état actuel. Recommencez.
 
 
 </dt> </dl> </dd> <dt>
@@ -1939,7 +1939,7 @@ L’opération de point d’enregistrement a échoué car des fichiers sont ouve
 
 
 
-Windows a détecté une corruption dans un fichier, et ce fichier a été réparé depuis. Une perte de données est peut-être survenue.
+Windows a détecté une altération dans un fichier et que ce fichier a été réparé depuis. Une perte de données est peut-être survenue.
 
 
 </dt> </dl> </dd> <dt>
@@ -2758,7 +2758,7 @@ La session cible est incompatible avec la session active.
 
 
 
-Windows ne peut pas se connecter à votre session, car un problème s’est produit dans le sous-système vidéo Windows. Essayez de vous reconnecter ultérieurement, ou contactez l’administrateur du serveur pour obtenir de l’aide.
+Windows ne pouvez pas vous connecter à votre session, car un problème s’est produit dans le sous-système Windows vidéo. Essayez de vous reconnecter ultérieurement, ou contactez l’administrateur du serveur pour obtenir de l’aide.
 
 
 </dt> </dl> </dd> <dt>
@@ -2990,8 +2990,8 @@ Le service de réplication de fichiers a détecté un paramètre non valide.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

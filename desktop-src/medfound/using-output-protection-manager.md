@@ -4,12 +4,12 @@ ms.assetid: 01edc17e-e71c-4772-a03c-09c9a2b8400f
 title: Utilisation de Output Protection Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57bf4def3b0575dd706ae5f0c62924b6f1375a05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73e37dd548603a6f9d7769a9e724df3477e2fcde
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521500"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475515"
 ---
 # <a name="using-output-protection-manager"></a>Utilisation de Output Protection Manager
 
@@ -22,7 +22,7 @@ Cette rubrique explique comment utiliser le gestionnaire de protection de sortie
 -   [Gestion d’une sortie vidéo désactivée](#sending-opm-commands)
 -   [Utilisation de HDCP pour protéger du contenu](#using-hdcp-to-protect-content)
 
-Le contenu vidéo Premium est généralement chiffré pour le protéger contre la duplication non autorisée. Bien entendu, la vidéo doit être déchiffrée avant d’être affichée. Les frames décompressés et non compressés doivent ensuite circuler sur le périphérique d’affichage à travers un connecteur physique. Les fournisseurs de contenu peuvent exiger que les images vidéo soient protégées à ce stade, lors de leur déplacement sur le connecteur physique.
+Premium contenu vidéo est généralement chiffré pour le protéger contre la duplication non autorisée. Bien entendu, la vidéo doit être déchiffrée avant d’être affichée. Les frames décompressés et non compressés doivent ensuite circuler sur le périphérique d’affichage à travers un connecteur physique. Les fournisseurs de contenu peuvent exiger que les images vidéo soient protégées à ce stade, lors de leur déplacement sur le connecteur physique.
 
 Il existe différents mécanismes de protection à cet effet, notamment High-Bandwidth Digital protection du contenu (HDCP) et DisplayPort protection du contenu (DPCP) pour les sorties numériques ; et le système de gestion de la génération de copie-analogique (CGMS-A) pour les sorties analogiques. En règle générale, ces mécanismes impliquent le chiffrement ou le brouillage du signal avant qu’il ne passe à l’écran.
 
@@ -41,7 +41,7 @@ OPM remplace la protection de sortie certifiée Protcol (COPP) et utilise une AP
 
 Si votre application utilise le chemin d’accès de média protégé (PMP) pour lire le contenu vidéo, vous n’avez pas besoin d’utiliser l’API OPM, car l’PMP effectue tous les appels OPM requis. L’API OPM est disponible pour les applications qui n’utilisent pas le PMP.
 
-OPM est disponible dans Windows Vista et versions ultérieures, mais l’API n’a pas été rendue publique jusqu’à Windows 7. Pour utiliser OPM dans une application, vous devez disposer des en-têtes et des fichiers de bibliothèque du kit de développement logiciel (SDK) Windows 7. Vous n’avez pas besoin de redistribuer des dll pour utiliser OPM dans Windows Vista ou Windows Server 2008.
+OPM est disponible dans Windows Vista et versions ultérieures, mais l’API n’a pas été rendue publique tant que Windows 7. pour utiliser OPM dans une application, vous devez disposer des en-têtes et des fichiers de bibliothèque du kit de développement logiciel (SDK) Windows 7. vous n’avez pas besoin de redistribuer des dll pour utiliser OPM dans Windows Vista ou Windows Server 2008.
 
 ## <a name="video-outputs"></a>Sorties vidéo
 
@@ -159,43 +159,14 @@ Les indicateurs suivants sont définis pour **ulStatusFlags**.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Indicateur</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>OPM_STATUS_LINK_LOST</strong></td>
-<td>La protection de sortie a cessé de fonctionner pour une raison quelconque. par exemple, le périphérique d’affichage peut être débranché du conntector. Arrêtez la lecture et désactivez tous les mécanismes de protection de sortie.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong></td>
-<td>L’application doit rétablir la session OPM. Répondez comme suit :
-<ol>
-<li>Arrêter la lecture.</li>
-<li>Désactivez tous les mécanismes de protection.</li>
-<li>Libérer l’interface <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> .</li>
-<li>Recréez toutes les surfaces vidéo.</li>
-<li>Créez un nouvel objet OPM et tentez de rétablir la protection du contenu. En cas d’échec, affiche un message d’erreur à l’utilisateur. Ne lisez plus de contenu vidéo.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>Cet indicateur s’applique uniquement lorsque HDCP est utilisé et indique la présence d’un appareil HDCP révoqué. Arrêtez la lecture et désactivez tous les mécanismes de protection sur cette sortie vidéo. Lorsque cet indicateur est défini, l’indicateur <strong>OPM_STATUS_LINK_LOST</strong> est également défini.</td>
-</tr>
-<tr class="even">
-<td><strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong></td>
-<td>Le pilote a détecté une falsification. Arrêter la lecture et ne pas lire d’autres vidéos à l’aide de cette sortie vidéo. Il est également judicieux de cesser d’utiliser d’autres sorties vidéo, car le système risque d’être compromis.</td>
-</tr>
-</tbody>
-</table>
+
+| Indicateur | Description | 
+|------|-------------|
+| <strong>OPM_STATUS_LINK_LOST</strong> | La protection de sortie a cessé de fonctionner pour une raison quelconque. par exemple, le périphérique d’affichage peut être débranché du conntector. Arrêtez la lecture et désactivez tous les mécanismes de protection de sortie. | 
+| <strong>OPM_STATUS_RENEGOTIATION_REQUIRED</strong> | L’application doit rétablir la session OPM. Répondez comme suit :<ol><li>Arrêter la lecture.</li><li>Désactivez tous les mécanismes de protection.</li><li>Libérer l’interface <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput"><strong>IOPMVideoOutput</strong></a> .</li><li>Recréez toutes les surfaces vidéo.</li><li>Créez un nouvel objet OPM et tentez de rétablir la protection du contenu. En cas d’échec, affiche un message d’erreur à l’utilisateur. Ne lisez plus de contenu vidéo.</li></ol> | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | Cet indicateur s’applique uniquement lorsque HDCP est utilisé et indique la présence d’un appareil HDCP révoqué. Arrêtez la lecture et désactivez tous les mécanismes de protection sur cette sortie vidéo. Lorsque cet indicateur est défini, l’indicateur <strong>OPM_STATUS_LINK_LOST</strong> est également défini. | 
+| <strong>OPM_STATUS_REVOKED_HDCP_DEVICE_ATTACHED</strong> | Le pilote a détecté une falsification. Arrêter la lecture et ne pas lire d’autres vidéos à l’aide de cette sortie vidéo. Il est également judicieux de cesser d’utiliser d’autres sorties vidéo, car le système risque d’être compromis. | 
+
 
 
 

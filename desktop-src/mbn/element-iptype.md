@@ -7,12 +7,12 @@ MSHAttr:
 title: IPType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 918355cdfc90863539da5f29aff542654a95f5e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a7823fc62bea228ec2a1f7e50629d74ce29dde3
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526626"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988752"
 ---
 # <a name="span-idwwan_profile_v4element_iptypespanmbnprofileextiptype-v4"></a><span id="WWAN_profile_v4.element_IPType"></span>MBNProfileExt \/ ... \/ IPType (v4)
 
@@ -22,7 +22,7 @@ Cet élément est une nouveauté de v4 du schéma. L’élément peut avoir l’
 
 | Valeur   | Signification                                       |
 |---------|-----------------------------------------------|
-| Default | Le type d’adresse IP doit être choisi par la ou les couches inférieures     |
+| Par défaut | Le type d’adresse IP doit être choisi par la ou les couches inférieures     |
 | IPv4    | Utiliser IPv4                                      |
 | IPv6    | Utiliser IPv6                                      |
 | IPv4v6  | Utilisez IPv4 et/ou IPv6, comme disponible.           |
@@ -40,7 +40,7 @@ Cet élément est une nouveauté de v4 du schéma. L’élément peut avoir l’
 &nbsp;&nbsp;[\<Context\>](element-1-context.md)  
 &nbsp;&nbsp;&nbsp;&nbsp;**\<IPType\>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <IPType>
@@ -54,49 +54,29 @@ Cet élément est une nouveauté de v4 du schéma. L’élément peut avoir l’
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément parent</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-context.md">Contexte</a></td>
-<td><p>Spécifie les paramètres requis pour établir une connexion de données.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Élément parent | Description | 
+|----------------|-------------|
+| <a href="element-context.md">Contexte</a> | <p>Spécifie les paramètres requis pour établir une connexion de données.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Espace de noms</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

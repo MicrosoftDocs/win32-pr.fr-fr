@@ -1,9 +1,9 @@
 ---
 title: Élément STARTMARKER
-description: L’élément STARTMARKER spécifie un marqueur à partir duquel le lecteur Windows Media va commencer le rendu du flux.
+description: l’élément STARTMARKER spécifie un marqueur à partir duquel Lecteur Windows Media démarrera le rendu du flux.
 ms.assetid: b5c2422b-a59c-43f7-bac3-5722418192dc
 keywords:
-- Élément STARTMARKER lecteur Windows Media
+- élément STARTMARKER Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c3b3afbc3ab4a922d17f6a0269ed89c22f4dfeb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2fa80da249edc4b9e3ab7d8796bc6ff135cb7cfb2b19a1cb11216ebe4a9c122c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123039"
 ---
 # <a name="startmarker-element"></a>Élément STARTMARKER
 
-L’élément **STARTMARKER** spécifie un marqueur à partir duquel le lecteur Windows Media va commencer le rendu du flux.
+l’élément **STARTMARKER** spécifie un marqueur à partir duquel Lecteur Windows Media démarrera le rendu du flux.
 
 ``` syntax
 <STARTMARKER
@@ -48,15 +48,15 @@ Nom d’un marqueur nommé dans l’index. La valeur par défaut est le début d
 | Hierarchy       | Éléments           |
 |-----------------|--------------------|
 | Éléments parents | **entry**, **ref** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément spécifie le marqueur à partir duquel le lecteur Windows Media doit commencer le rendu du flux défini dans l' **entrée** parente ou l’élément **ref** .
+cet élément spécifie le marqueur à partir duquel Lecteur Windows Media doit commencer à restituer le flux défini dans l' **entrée** parente ou l’élément **REF** .
 
 **Remarque**
 
@@ -90,10 +90,10 @@ Si le marqueur spécifié par un élément **STARTMARKER** se produit plus tard 
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

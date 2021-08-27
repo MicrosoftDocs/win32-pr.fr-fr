@@ -31,12 +31,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2ff06e60f125590154a17cb7467deae3611a617b684e9068439c9e15609d8fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 21afd8d2349bfef37dcc39b684c3f5b837728f79
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118351250"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988272"
 ---
 # <a name="itssbtargetipaddresses-property"></a>ITsSbTarget :: adressesIP, propriété
 
@@ -44,7 +44,7 @@ Récupère ou spécifie les adresses IP externes de la cible.
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -77,34 +77,14 @@ Si le nombre d’adresses IP externes est inconnu, vous pouvez appeler cette mé
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Client minimal pris en charge<br/></td>
-<td>Aucun pris en charge<br/></td>
-</tr>
-<tr class="even">
-<td>Serveur minimal pris en charge<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>MIDL<br/></td>
-<td><dl> <dt>Sbtsv. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget est défini comme suit :
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|--------|-------|
+| Client minimal pris en charge<br /> | Aucun pris en charge<br /> | 
+| Serveur minimal pris en charge<br /> | Windows Server 2012<br /> | 
+| MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
+
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b592edb8-351a-4a82-9ff7-8a69d82723bc
 title: Périphériques Direct3D (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c07726069b952ba99d608e5f36df8e1fb7745cd7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 12b36ae856686c0f6a0b821b92a871ed98e016bf1a010200038281f2eb50964e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096052"
 ---
 # <a name="direct3d-devices-direct3d-9"></a>Périphériques Direct3D (Direct3D 9)
 

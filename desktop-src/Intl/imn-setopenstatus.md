@@ -4,12 +4,12 @@ ms.assetid: cc6fa7f4-b85a-486a-985d-53c071321bd1
 title: IMN_SETOPENSTATUS le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3598d7415cf415de3279e016d81a6d14b767d5da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57797210f9c0595a952315ca75858890b1998fe16e49049b3a22fb8ed72a5aea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107039"
 ---
 # <a name="imn_setopenstatus-notification-code"></a>\_Code de notification SETOPENSTATUS IMN
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application peut obtenir des informations sur l’état ouvert à l’aide de la fonction [**ImmGetOpenStatus**](/windows/desktop/api/Imm/nf-imm-immgetopenstatus) .
 
@@ -56,7 +56,7 @@ L’application peut obtenir des informations sur l’état ouvert à l’aide d
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f7973019-0a80-498e-adf1-c66267c813f4
 title: Manifestes d’assembly
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5d7c6739bc83e56a42a926ca6aecb739fc41bbf39225cc531afc7afc6706ccc
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 94310ce3fdbb05706f889ea9755f7a47320ada56
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119142512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884885"
 ---
 # <a name="assembly-manifests"></a>Manifestes d’assembly
 
@@ -152,7 +152,7 @@ Cet élément n’a pas de sous-éléments. L’élément **assemblyIdentity** a
 | **type**                  | Spécifie le type d’assembly. La valeur doit être Win32 et en minuscules. Obligatoire.                                                                                                                                                                                                                                                                                                                                                         |
 | **name**                  | Nomme l’assembly de manière unique. Utilisez le format suivant pour le nom de l’assembly : Organization.Division.Name. Par exemple, Microsoft. Windows. mysampleAsm. Obligatoire. Notez que, dans le cas d’une DLL empaquetée comme un assembly privé avec un fichier manifeste distinct, le nom de l’assembly doit être différent du nom de la DLL et du manifeste.<br/>                                                                              |
 | **language**              | Identifie le langage de l’assembly. Facultatif. Si l’assembly est spécifique à une langue, spécifiez le code de langue DHTML. Dans le **champ de définition de contexte de** fichier (...) d’un manifeste d’assembly destiné à une utilisation mondiale (indépendant de la langue), omettez l’attribut de langue.<br/> Dans un **assemblyIdentity** de contexte de référence d’un manifeste d’assembly destiné à une utilisation dans le monde entier (indépendant de la langue), définissez la valeur de Language sur « \* ».<br/> |
-| **processorArchitecture** | Spécifie le processeur. les valeurs valides sont x86 pour les Windows 32 bits et ia64 pour les Windows 64 bits. Facultatif.                                                                                                                                                                                                                                                                                                                               |
+| **processorArchitecture** | Spécifie le processeur. les valeurs valides sont x86 pour les Windows 32 bits et ia64 pour les Windows 64 bits. facultatif.                                                                                                                                                                                                                                                                                                                               |
 | **version**               | Spécifie la version de l’assembly. Utilisez le format de version en quatre parties : MMMM. nnnnn. ooooo. ppppp. Chacun des composants séparés par des points peut être de 0-65535 inclus. Pour plus d’informations, consultez [versions d’assembly](assembly-versions.md). Obligatoire.                                                                                                                                                                                               |
 | **publicKeyToken**        | Chaîne hexadécimale de 16 caractères représentant les 8 derniers octets du hachage SHA-1 de la clé publique sous laquelle l’assembly est signé. La clé publique utilisée pour signer le catalogue doit être supérieure ou égale à 2048 bits. Requis pour les assemblys côte à côte partagés.                                                                                                                                                                                |
 
@@ -172,14 +172,14 @@ Cet élément n’a pas de sous-éléments. L’élément **assemblyIdentity** a
 <span id="dependentAssembly"></span><span id="dependentassembly"></span><span id="DEPENDENTASSEMBLY"></span>**dependentAssembly**
 </dt> <dd>
 
-Le premier sous-élément doit être un élément **assemblyIdentity** qui décrit et identifie de façon unique un assembly côte à côte qui est utilisé par l’assembly côte à côte qui possède ce manifeste d’assembly. Chaque **dependentAssembly** doit se trouver à l’intérieur d’une seule **dépendance**. Facultatif.
+Le premier sous-élément doit être un élément **assemblyIdentity** qui décrit et identifie de façon unique un assembly côte à côte qui est utilisé par l’assembly côte à côte qui possède ce manifeste d’assembly. Chaque **dependentAssembly** doit se trouver à l’intérieur d’une seule **dépendance**. facultatif.
 
 </dd> <dt>
 
 <span id="file"></span><span id="FILE"></span>**txt**
 </dt> <dd>
 
-Contient les fichiers utilisés par un assembly côte à côte. Contient des sous-éléments **ComClass**, **TypeLib**, **WindowClass**, **comInterfaceProxyStub** . Facultatif.
+Contient les fichiers utilisés par un assembly côte à côte. Contient des sous-éléments **ComClass**, **TypeLib**, **WindowClass**, **comInterfaceProxyStub** . facultatif.
 
 L’élément **file** a les attributs suivants.
 
@@ -200,7 +200,7 @@ L’élément **file** a les attributs suivants.
 <span id="comClass"></span><span id="comclass"></span><span id="COMCLASS"></span>**ComClass**
 </dt> <dd>
 
-Sous-élément d’un élément **file** . Facultatif.
+Sous-élément d’un élément **file** . facultatif.
 
 L’élément **ComClass** a les attributs suivants.
 
@@ -223,7 +223,7 @@ L’élément **ComClass** a les attributs suivants.
 
  
 
-L’élément **ComClass** peut avoir des éléments <progid>...</progid> comme enfants, qui répertorient les ProgID dépendants de la version.
+L’élément **ComClass** peut avoir &lt; des &gt; éléments ProgID... </progid> comme enfants, qui répertorient les ProgID dépendants de la version.
 
 L’exemple suivant montre un élément **ComClass** inclus dans un élément **file** .
 
@@ -288,7 +288,7 @@ L’élément **TypeLib** a les attributs indiqués dans le tableau suivant.
 | **tlbid**      | ID unique de la bibliothèque de types. Obligatoire.                                                                                                                                                                                                                                                                                                                                                                                    |
 | **version**    | Numéro de version en deux parties de la bibliothèque de types. Si seul le numéro de version mineure augmente, toutes les fonctionnalités de la bibliothèque de types précédente sont prises en charge de manière compatible. Si le numéro de version principale change, le code qui a été compilé avec la bibliothèque de types doit être recompilé. Le numéro de version de la bibliothèque de types peut différer du numéro de version de l’application. Obligatoire.                                      |
 | **helpDir**    | Répertoire où se trouve le fichier d’aide pour les types de la bibliothèque de types. Si l’application prend en charge les bibliothèques de types pour plusieurs langues, les bibliothèques peuvent faire référence à des noms de fichiers différents dans le répertoire du fichier d’aide. Si aucune valeur n’est spécifiée, spécifiez «». Obligatoire.                                                                                                                                                          |
-| **IDRessource** | Représentation sous forme de chaîne hexadécimale de l’identificateur de paramètres régionaux (LCID). Il s’agit d’un à quatre chiffres hexadécimaux sans préfixe 0x et sans zéro non significatif. Le LCID peut avoir un identificateur de sous-langue neutre. Pour plus d’informations, consultez [identificateurs de paramètres régionaux](/windows/desktop/Intl/locale-identifiers). Facultatif.                                                                                                                                      |
+| **IDRessource** | Représentation sous forme de chaîne hexadécimale de l’identificateur de paramètres régionaux (LCID). Il s’agit d’un à quatre chiffres hexadécimaux sans préfixe 0x et sans zéro non significatif. Le LCID peut avoir un identificateur de sous-langue neutre. Pour plus d’informations, consultez [identificateurs de paramètres régionaux](/windows/desktop/Intl/locale-identifiers). facultatif.                                                                                                                                      |
 | **flags**      | Représentation sous forme de chaîne des indicateurs de la bibliothèque de types pour cette bibliothèque de types. En particulier, il doit s’agir de « RESTRICTED », « CONTROL », « HIDDEN » et « HASDISKIMAGE ». Il s’agit des valeurs de l’énumération [**LIBflags**](/windows/win32/api/oaidl/ne-oaidl-libflags) , qui sont les mêmes que celles spécifiées dans le paramètre *uLibFlags* de la méthode [**ICreateTypeLib :: SetLibFlags**](/windows/win32/api/oaidl/nf-oaidl-icreatetypelib-setlibflags) . Facultatif. |
 
 
@@ -343,7 +343,7 @@ L’exemple suivant montre un élément **comInterfaceExternalProxyStub** .
 <span id="comInterfaceProxyStub"></span><span id="cominterfaceproxystub"></span><span id="COMINTERFACEPROXYSTUB"></span>**comInterfaceProxyStub**
 </dt> <dd>
 
-Sous-élément d’un élément **file** . Facultatif.
+Sous-élément d’un élément **file** . facultatif.
 
 Si un fichier de l’assembly implémente un stub proxy, la balise file correspondante doit inclure un sous-élément **comInterfaceProxyStub** ayant des attributs qui sont identiques à un élément **comInterfaceProxyStub** . Le marshaling des interfaces entre les processus et les threads peut ne pas fonctionner comme prévu si vous omettez certaines des dépendances **comInterfaceProxyStub** pour votre composant.
 
@@ -359,7 +359,7 @@ L’élément **comInterfaceProxyStub** a les attributs suivants.
 | **baseInterface**    | IID de l’interface à partir de laquelle l’attribut décrit par l’attribut **IID** est dérivé. Cet attribut est facultatif. La valeur doit se présenter sous la forme : « {iid} ».                                                                                                                                            |
 | **numMethods**       | Nombre de méthodes implémentées par l’interface. Cet attribut est facultatif. La valeur doit être au format : "n".                                                                                                                                                                                       |
 | **proxyStubClsid32** | Cartes un IID à un CLSID dans des dll de proxy 32 bits.                                                                                                                                                                                                                                                                |
-| **threadingModel**   | Modèle de thread utilisé par les classes COM in-process. Si cette propriété a la valeur null, aucun modèle de thread n’est utilisé. Le composant est créé sur le thread principal du client et les appels d’autres threads sont marshalés vers ce thread. Facultatif. Les valeurs valides sont : « Apartment », « Free », « both » et « Neutral ». |
+| **threadingModel**   | Modèle de thread utilisé par les classes COM in-process. Si cette propriété a la valeur null, aucun modèle de thread n’est utilisé. Le composant est créé sur le thread principal du client et les appels d’autres threads sont marshalés vers ce thread. facultatif. Les valeurs valides sont : « Apartment », « Free », « both » et « Neutral ». |
 
 
 

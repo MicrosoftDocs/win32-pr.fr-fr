@@ -5,18 +5,18 @@ ms.tgt_platform: multiple
 title: Écriture d’un fournisseur d’association pour l’interopérabilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2d45ceebf9f3465bf9485f4105d9ea2e4438a25c9d169193a8b68c19669b51b
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 57ef4e73c35c942e56b2636b7fced4c7e468e120
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119794269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887437"
 ---
 # <a name="writing-an-association-provider-for-interop"></a>Écriture d’un fournisseur d’association pour l’interopérabilité
 
 Un fournisseur d’associations fournit un mécanisme permettant d’inscrire des profils et de les associer à des profils qui sont implémentés dans différents espaces de noms.
 
-Les fournisseurs d’associations sont utilisés pour exposer des profils standard, comme un profil d’alimentation. Pour ce faire, vous devez écrire un fournisseur d’association dans l’espace de noms racine/Interop qui expose des instances d’association en implémentant une classe dérivée de [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85)). Le fournisseur doit être inscrit à la fois dans la racine/l’interopérabilité et dans la racine/l' <implemented> espace de noms pour prendre en charge la traversée d’espaces de noms croisés.
+Les fournisseurs d’associations sont utilisés pour exposer des profils standard, comme un profil d’alimentation. Pour ce faire, vous devez écrire un fournisseur d’association dans l’espace de noms racine/Interop qui expose des instances d’association en implémentant une classe dérivée de [**CIM \_ RegisteredProfile**](/previous-versions//ee309375(v=vs.85)). Le fournisseur doit être inscrit à la fois dans la racine/l’interopérabilité et dans l' &lt; &gt; espace de noms racine/implémenté pour prendre en charge la traversée d’espaces de noms croisés.
 
 Windows WMI (Management Instrumentation) charge le fournisseur d’associations chaque fois qu’une requête d’association est exécutée dans l’espace de noms racine/Interop.
 
@@ -55,7 +55,7 @@ Windows WMI (Management Instrumentation) charge le fournisseur d’associations 
 
 2.  Créez un fournisseur qui retourne les instances d’association des [**\_ ElementConformsToProfile CIM**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile). Il s’agit d’un processus en deux étapes.
 
-    1.  Créez une classe dérivée de [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans les espaces de noms Interop et implementation. Étant donné que le même profil peut être implémenté par des fournisseurs différents, le nom de la classe doit être unique. La Convention d’affectation de noms recommandée est « <Organization> \_ <ProductName> \_ <ClassName> \_ <Version> ». La propriété **ConformantStandard** ou **propriété ManagedElement** doit spécifier le qualificateur **\_ targetNamespace de msft** contenant l’espace de noms auquel appartient cette classe.
+    1.  Créez une classe dérivée de [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans les espaces de noms Interop et implementation. Étant donné que le même profil peut être implémenté par des fournisseurs différents, le nom de la classe doit être unique. La Convention d’affectation de noms recommandée est « &lt; Organization &gt; \_ &lt; ProductName &gt; \_ &lt; className &gt; \_ &lt; version &gt; ». La propriété **ConformantStandard** ou **propriété ManagedElement** doit spécifier le qualificateur **\_ targetNamespace de msft** contenant l’espace de noms auquel appartient cette classe.
 
         L’exemple de code suivant décrit la syntaxe permettant de dériver \_ la \_ classe Microsoft process ElementConformsToProfile \_ v1 de [**CIM \_ ElementConformsToProfile**](/previous-versions/windows/desktop/iscsitarg/cim-elementconformstoprofile) dans l' \\ espace de noms Interop racine. Dans cet exemple, l' \_ élément géré par le processus Win32 fait référence à l' \\ espace de noms CIMV2 racine à l’aide du qualificateur **\_ targetNamespace de msft** .
 
@@ -83,13 +83,13 @@ Windows WMI (Management Instrumentation) charge le fournisseur d’associations 
 
         Si le **qualificateur \_ targetNamespace de msft** n’est pas spécifié sur la propriété qui fait référence à l’espace de noms implémenté, le filtre **ResultClass** de l’instruction « associateurs de » ne fonctionnera pas. par exemple, si le **qualificateur \_ TargetNamespace de MSFT** n’est pas spécifié, la ligne de commande Windows PowerShell suivante ne retourne pas d’objet : **obtenir-wmiobject-query "associators of {ProcessProfile. InstanceID = 'process'} where resultclass = 'Win32 \_ Process'**.
 
-        Le **qualificateur \_ targetNamespace de msft** ne peut pas pointer vers un espace de noms sur un ordinateur distant. Par exemple, l’espace de noms suivant n’est pas pris en charge : msft \_ targetNamespace ( \\ \\ \\ \\ <RemoteMachine> \\ \\ \\ \\ Interop racine).
+        Le **qualificateur \_ targetNamespace de msft** ne peut pas pointer vers un espace de noms sur un ordinateur distant. Par exemple, l’espace de noms suivant n’est pas pris en charge : msft \_ targetNamespace ( \\ \\ \\ \\ &lt; RemoteMachine &gt; \\ \\ root \\ \\ Interop).
 
     2.  Écrivez un fournisseur qui retourne des instances de la classe dérivée créée. Pour plus d’informations, consultez [écriture d’un fournisseur d’instances](writing-an-instance-provider.md). Lorsque vous accédez à des instances de plusieurs espaces de noms, vous devrez peut-être accéder aux niveaux de sécurité du client. Pour plus d’informations, consultez [emprunt d’identité d’un client](impersonating-a-client.md).
 
-        Le fournisseur d’associations doit implémenter à la fois les méthodes [**IWbemServices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) et [**IWbemServices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) . L’implémentation de la méthode [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) est facultative. Étant donné que ce fournisseur est accessible à la fois à partir de l' \\ interopérabilité racine et des \\ <implemented> espaces de noms racine, il ne doit pas exister de dépendance explicite sur un espace de noms à l’intérieur du fournisseur.
+        Le fournisseur d’associations doit implémenter à la fois les méthodes [**IWbemServices. CreateInstanceEnumAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-createinstanceenumasync) et [**IWbemServices. GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync) . L’implémentation de la méthode [**IWbemServices.ExecQueryAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execqueryasync) est facultative. Étant donné que ce fournisseur est accessible à la fois à partir de l' \\ interopérabilité racine et des \\ &lt; espaces de noms implémentés racine &gt; , il ne doit pas exister de dépendance explicite sur un espace de noms à l’intérieur du fournisseur.
 
-3.  Inscrivez le fournisseur d’associations à la fois dans l' \\ interopérabilité racine et dans les \\ <implemented> espaces de noms racines. Pour plus d’informations, consultez [inscription d’un fournisseur d’instances](registering-an-instance-provider.md).
+3.  Inscrivez le fournisseur d’associations à la fois dans l' \\ interopérabilité racine et dans les \\ &lt; espaces de noms implémentés racine &gt; . Pour plus d’informations, consultez [inscription d’un fournisseur d’instances](registering-an-instance-provider.md).
 
     L’exemple de code suivant décrit la syntaxe permettant d’inscrire le fournisseur d’associations dans l' \\ espace de noms Interop racine.
 

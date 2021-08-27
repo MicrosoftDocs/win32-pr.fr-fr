@@ -4,12 +4,12 @@ description: Cet exemple s’appuie sur l’exemple gravure d’une image de dis
 ms.assetid: b23cdbb9-ae0d-4261-965b-56abe865f323
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce48537f32f1dc574eef174b26daaa5e2ebe255
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b884c69dc53c14c01cb6e9486af30a148233192e41d433f4af6791b658185cca
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092479"
 ---
 # <a name="adding-a-boot-image"></a>Ajout d’une image de démarrage
 
@@ -119,9 +119,9 @@ End Function
 [**IFileSystemImage**](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

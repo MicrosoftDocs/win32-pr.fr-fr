@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, menu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0041d7e84a66d86e74ba89c87453c288cbc111397bda8335ec0311a4a63987fe
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8d86d5aad29519bca4e9cfe03da4b6f0e9ccaeb9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825464"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468076"
 ---
 # <a name="menu-control-type"></a>Menu (type de contrôle)
 
@@ -50,40 +50,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Menu
-<ul>
-<li>MenuItem (1 ou plusieurs)</li>
-</ul>
-<ul>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Menu
-<ul>
-<li>MenuItem (1 ou plusieurs)</li>
-</ul>
-<ul>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Menu<ul><li>MenuItem (1 ou plusieurs)</li></ul><ul><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | <ul><li>Menu<ul><li>MenuItem (1 ou plusieurs)</li></ul><ul><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | 
+
 
 
 

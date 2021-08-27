@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 032c1edcfd18166b79f4c8b2868d53d0b84434d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7427a28752384f6c30e050458e5844dcaedd1a7
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122989142"
 ---
 # <a name="jet_pfnrealloc-callback-function"></a>JET_PFNREALLOC fonction de rappel
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_pfnrealloc-callback-function"></a>JET_PFNREALLOC fonction de rappel
 
@@ -55,54 +55,25 @@ Nouvelle taille du bloc de mémoire en octets. Si ce paramètre a la valeur 0 (z
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Le système peut générer des codes de réussite ou d’échec à la suite d’un appel à cette fonction. Pour plus d’informations sur la façon de renvoyer ces codes en tant que HRESULT, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md).
+Le système peut générer des codes de réussite ou d’échec à la suite d’un appel à cette fonction. pour plus d’informations sur la façon de retourner ces codes en tant que HRESULTs, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Succès</p></td>
-<td><p>Si un bloc de mémoire précédemment alloué a été spécifié et qu’une nouvelle taille de zéro a été spécifiée, ce bloc est libéré et la valeur NULL est retournée. Si un bloc de mémoire précédemment alloué a été spécifié et qu’une nouvelle taille différente de zéro a été spécifiée, le bloc de mémoire réalloué est retourné. Si aucun bloc de mémoire n’a été spécifié, un bloc de mémoire nouvellement alloué de la taille spécifiée est retourné.</p></td>
-</tr>
-<tr class="even">
-<td><p>Échec</p></td>
-<td><p>La valeur NULL est retournée. Si un bloc de mémoire précédemment alloué a été fourni, ce bloc restera alloué.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>Succès</p> | <p>Si un bloc de mémoire précédemment alloué a été spécifié et qu’une nouvelle taille de zéro a été spécifiée, ce bloc est libéré et la valeur NULL est retournée. Si un bloc de mémoire précédemment alloué a été spécifié et qu’une nouvelle taille différente de zéro a été spécifiée, le bloc de mémoire réalloué est retourné. Si aucun bloc de mémoire n’a été spécifié, un bloc de mémoire nouvellement alloué de la taille spécifiée est retourné.</p> | 
+| <p>Échec</p> | <p>La valeur NULL est retournée. Si un bloc de mémoire précédemment alloué a été fourni, ce bloc restera alloué.</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

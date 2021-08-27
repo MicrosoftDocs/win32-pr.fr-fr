@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code C++ qui montre comment c
 ms.assetid: d4dbbfe5-bde9-4a1c-8e11-24cd1e14646c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbd5a5a73d100394b90e91f8b9c30c1bd495ac0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b1f556b2b0754d913e44c2874a7fa01f9aea7ea50f5ccc0aa15fa769dfdca95
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100500"
 ---
 # <a name="boot-trigger-example-c"></a>Exemple de déclencheur de démarrage (C++)
 
@@ -17,7 +17,7 @@ Cette rubrique contient un exemple de code C++ qui montre comment créer une tâ
 
 La procédure suivante décrit comment planifier une tâche pour démarrer un exécutable au démarrage du système.
 
-**Pour planifier le démarrage du bloc-notes au démarrage du système**
+**pour planifier le démarrage de Bloc-notes lors du démarrage du système**
 
 1.  Initialiser COM et définir la sécurité générale de COM.
 2.  Créez l’objet [**la**](/windows/desktop/api/taskschd/nn-taskschd-itaskservice) .
@@ -377,9 +377,9 @@ int __cdecl wmain()
 [Utilisation de l’Planificateur de tâches](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

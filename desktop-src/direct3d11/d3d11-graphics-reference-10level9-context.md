@@ -4,12 +4,12 @@ description: Cette section répertorie les différences entre chaque niveau de f
 ms.assetid: 84478b56-0306-491a-9545-0849b06d8342
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5cb055e6a290a9500f65ad2d64cdd69b0eaa224e6a81359595688ba1aca657
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5e268f45465139e49afe0f81a64eeeb93939734e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118990069"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473125"
 ---
 # <a name="10level9-id3d11devicecontext-methods"></a>Méthodes 10Level9 ID3D11DeviceContext
 
@@ -70,29 +70,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> Seuls les Texture2D et les tampons peuvent être copiés dans la mémoire accessible par le GPU.<br/> Les Texture3D ne peuvent pas être copiés de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br/> Toutes les ressources qui ont uniquement des D3D10_BIND_SHADER_RESOURCE ne peuvent pas être copiées de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br/> Vous ne pouvez pas copier les textures de volume mipmapped. <br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  Seuls les Texture2D et les tampons peuvent être copiés dans la mémoire accessible par le GPU.<br /> Les Texture3D ne peuvent pas être copiés de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br /> Toutes les ressources qui ont uniquement des D3D10_BIND_SHADER_RESOURCE ne peuvent pas être copiées de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br /> Vous ne pouvez pas copier les textures de volume mipmapped. <br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -102,29 +86,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3"> Seuls les Texture2D et les tampons peuvent être copiés dans la mémoire accessible par le GPU.<br/> Les Texture3D ne peuvent pas être copiés de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br/> Toutes les ressources qui ont uniquement des D3D10_BIND_SHADER_RESOURCE ne peuvent pas être copiées de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 |  Seuls les Texture2D et les tampons peuvent être copiés dans la mémoire accessible par le GPU.<br /> Les Texture3D ne peuvent pas être copiés de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br /> Toutes les ressources qui ont uniquement des D3D10_BIND_SHADER_RESOURCE ne peuvent pas être copiées de la mémoire accessible par le GPU vers la mémoire accessible par le processeur.<br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -134,29 +102,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -166,29 +118,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -198,29 +134,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -230,29 +150,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Seule la première tranche du tableau sera effacée. Les applications doivent créer une vue de la cible de rendu pour chaque face ou tranche de tableau, puis effacer chaque vue individuellement. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Seule la première tranche du tableau sera effacée. Les applications doivent créer une vue de la cible de rendu pour chaque face ou tranche de tableau, puis effacer chaque vue individuellement. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -262,29 +166,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -294,29 +182,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -326,29 +198,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -358,29 +214,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -390,29 +230,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -422,29 +246,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -454,29 +262,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -500,29 +292,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -546,38 +322,13 @@ Cette section répertorie les différences entre chaque niveau de fonctionnalit�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Non pris en charge $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Le nombre de primitives ne peut pas dépasser 1048575.<br/> Les textures ne peuvent pas se répéter sur une primitive plus de 8192 fois.<br/> Les valeurs d’index ne peuvent pas dépasser 1048575.<br/>
-<blockquote>
-[!Note]<br />
-Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced"><strong>DrawIndexedInstanced</strong></a> avec un nuanceur de sommets qui est lié au pipeline et qui n’importe pas de données par instance, certains matériels graphiques Direct3D 9 peuvent ne rien dessiner. En particulier, si le nuanceur vertex n’utilise pas de données par instance, l’appel de <strong>DrawIndexedInstanced</strong> avec 1 instance n’est pas équivalent à l’appel de <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw"><strong>Draw</strong></a>.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Le nombre de primitives ne peut pas dépasser 1048575.<br /> Les textures ne peuvent pas se répéter sur une primitive plus de 8192 fois.<br /> Les valeurs d’index ne peuvent pas dépasser 1048575.<br /><blockquote>[!Note]<br />Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-drawindexedinstanced"><strong>DrawIndexedInstanced</strong></a> avec un nuanceur de sommets qui est lié au pipeline et qui n’importe pas de données par instance, certains matériels graphiques Direct3D 9 peuvent ne rien dessiner. En particulier, si le nuanceur vertex n’utilise pas de données par instance, l’appel de <strong>DrawIndexedInstanced</strong> avec 1 instance n’est pas équivalent à l’appel de <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-draw"><strong>Draw</strong></a>.</blockquote><br /> | 
+
 
 
 
@@ -587,37 +338,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -627,29 +356,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -659,37 +372,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -699,37 +390,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -739,37 +408,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -779,37 +426,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -819,37 +444,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -859,29 +462,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -891,29 +478,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -923,29 +494,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -955,29 +510,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -987,37 +526,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1027,37 +544,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1067,37 +562,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1107,37 +580,15 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="5">Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur les 9. * ou 10. * niveau de fonctionnalité. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
+| D3D_FEATURE_LEVEL_10_0 | 
+| D3D_FEATURE_LEVEL_10_1 | 
 
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_10_0</td>
-
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_10_1</td>
-
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1147,29 +598,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td>Le format peut être différent de celui spécifié lors de la création de la mémoire tampon, mais une traduction coûteuse sera encourue.<br/> Autorise uniquement les mémoires tampons d’index avec le format DXGI_FORMAT_R16_UINT. <br/></td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
-<td rowspan="2"> Le format peut être différent de celui spécifié lors de la création de la mémoire tampon, mais une traduction coûteuse sera encourue.<br/> Permet aux mémoires tampons d’index avec les formats DXGI_FORMAT_R16_UINT et DXGI_FORMAT_R32_UINT comme D3D_FEATURE_LEVEL_10_0 et versions ultérieures. <br/> $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
 
-</tr>
-</tbody>
-</table>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Le format peut être différent de celui spécifié lors de la création de la mémoire tampon, mais une traduction coûteuse sera encourue.<br /> Autorise uniquement les mémoires tampons d’index avec le format DXGI_FORMAT_R16_UINT. <br /> | 
+| D3D_FEATURE_LEVEL_9_2 |  Le format peut être différent de celui spécifié lors de la création de la mémoire tampon, mais une traduction coûteuse sera encourue.<br /> Permet aux mémoires tampons d’index avec les formats DXGI_FORMAT_R16_UINT et DXGI_FORMAT_R32_UINT comme D3D_FEATURE_LEVEL_10_0 et versions ultérieures. <br /> $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_3 | 
+
 
 
 
@@ -1179,29 +614,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Les topologies de primitives avec contiguïté ne sont pas prises en charge $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Les topologies de primitives avec contiguïté ne sont pas prises en charge $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1211,29 +630,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">SampleMask ne peut pas être égal à zéro $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | SampleMask ne peut pas être égal à zéro $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1243,29 +646,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Une seule cible de rendu prise en charge $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Seules quatre cibles de rendu sont prises en charge, et toutes les ressources liées doivent avoir la même profondeur de bits.</td>
-</tr>
-</tbody>
-</table>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Une seule cible de rendu prise en charge $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Seules quatre cibles de rendu sont prises en charge, et toutes les ressources liées doivent avoir la même profondeur de bits. | 
+
 
 
 
@@ -1275,29 +662,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1307,29 +678,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Consultez le niveau de fonctionnalité 10,0, mais le nombre total de constantes utilisées par le nuanceur ne peut pas dépasser 32 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Consultez le niveau de fonctionnalité 10,0, mais le nombre total de constantes utilisées par le nuanceur ne peut pas dépasser 32 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1339,29 +694,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Vous ne pouvez pas lier plus de 16 échantillonneurs $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Vous ne pouvez pas lier plus de 16 échantillonneurs $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1371,29 +710,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Uniquement ps_4_0_level_9_1 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Ps_4_0_level_9_3 ou ps_4_0_level_9_1 uniquement</td>
-</tr>
-</tbody>
-</table>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Uniquement ps_4_0_level_9_1 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Ps_4_0_level_9_3 ou ps_4_0_level_9_1 uniquement | 
+
 
 
 
@@ -1403,29 +726,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Pas plus de 8 ressources de nuanceur liées simultanément $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Pas plus de 8 ressources de nuanceur liées simultanément $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1435,29 +742,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Seul le rectangle avant toute chose ciseaux est disponible $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Seul le rectangle avant toute chose ciseaux est disponible $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1467,29 +758,13 @@ Quand vous appelez la méthode <a href="/windows/desktop/api/D3D11/nf-d3d11-id3d
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Seule la fenêtre d’affichage avant toute chose est disponible $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Seule la fenêtre d’affichage avant toute chose est disponible $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1503,29 +778,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1535,29 +794,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1567,29 +810,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Consultez le niveau de fonctionnalité 10,0, mais le nombre total de constantes utilisées par le nuanceur ne peut pas dépasser 255 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Consultez le niveau de fonctionnalité 10,0, mais le nombre total de constantes utilisées par le nuanceur ne peut pas dépasser 255 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1599,29 +826,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 
@@ -1631,29 +842,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="2">Uniquement vs_4_0_level_9_1 $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
-<td>Vs_4_0_level_9_3 ou vs_4_0_level_9_1 uniquement</td>
-</tr>
-</tbody>
-</table>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Uniquement vs_4_0_level_9_1 $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | Vs_4_0_level_9_3 ou vs_4_0_level_9_1 uniquement | 
+
 
 
 
@@ -1663,29 +858,13 @@ L’appel à [**ID3D11DeviceContext :: RSSetViewports**](/windows/desktop/api/D
 
 
 
-<table>
-<thead>
-<tr class="header">
-<th>Niveau de fonctionnalité</th>
-<th>Différences de comportement</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_1</td>
-<td rowspan="3">Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br />
-</td>
-</tr>
-<tr class="even">
-<td>D3D_FEATURE_LEVEL_9_2</td>
 
-</tr>
-<tr class="odd">
-<td>D3D_FEATURE_LEVEL_9_3</td>
+| Niveau de fonctionnalité | Différences de comportement | 
+|---------------|----------------------|
+| D3D_FEATURE_LEVEL_9_1 | Non pris en charge sur un niveau de fonctionnalité 9. *. $ {REMOVE} $<br /> | 
+| D3D_FEATURE_LEVEL_9_2 | 
+| D3D_FEATURE_LEVEL_9_3 | 
 
-</tr>
-</tbody>
-</table>
 
 
 

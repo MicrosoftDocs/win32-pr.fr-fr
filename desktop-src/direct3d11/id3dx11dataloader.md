@@ -1,6 +1,6 @@
 ---
 title: Interface ID3DX11DataLoader (D3DX11core. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Objet chargeant des données utilisé par l’interface ID3DX11ThreadPump pour le chargement des données de façon asynchrone.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Objet chargeant des données utilisé par l’interface ID3DX11ThreadPump pour le chargement des données de façon asynchrone.'
 ms.assetid: 878929ea-0228-4650-9ca0-f83d60d9f915
 keywords:
 - Interface ID3DX11DataLoader Direct3D 11
@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68236451bf2ba6f491d17541f7d4ca627f5063c5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 92b688fcbeff21edf23f6a3be1b39be5a9cf0000
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103072"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471645"
 ---
 # <a name="id3dx11dataloader-interface"></a>Interface ID3DX11DataLoader
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -44,61 +44,30 @@ L’interface **ID3DX11DataLoader** possède ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-decompress.md"><strong>Décompresser</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
-</blockquote>
-<br/> Décompresse les données encodées.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="id3dx11dataloader-destroy.md"><strong>Suppression</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
-</blockquote>
-<br/> Détruit le chargeur après l’achèvement d’un élément de travail.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="id3dx11dataloader-load.md"><strong>Load</strong></a></td>
-<td style="text-align: left;"><blockquote>
-[!Note]<br />
-La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
-</blockquote>
-<br/> Charge des données à partir d’un disque.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="id3dx11dataloader-decompress.md"><strong>Décompresser</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Décompresse les données encodées.<br /> | 
+| <a href="id3dx11dataloader-destroy.md"><strong>Suppression</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Détruit le chargeur après l’achèvement d’un élément de travail.<br /> | 
+| <a href="id3dx11dataloader-load.md"><strong>Load</strong></a> | <blockquote>[!Note]<br />la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.</blockquote><br /> Charge des données à partir d’un disque.<br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être hérité et ses membres redéfinis. Cela vous permettrait de personnaliser l’API pour le chargement et la décompression de vos propres formats de fichiers personnalisés.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>D3DX11core. h</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>D3DX11. lib</dt> </dl>   |
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c3fdfc37c206b6360fc0b7296bbf90c319652e28
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 94fc32654ca5bea81538a5dc56e7ca6b391287703a4a96dfccf62ceae497766a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106540932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095769"
 ---
 # <a name="id3dxrendertoenvmap-interface"></a>Interface ID3DXRenderToEnvMap
 
@@ -43,7 +43,7 @@ L’interface **ID3DXRenderToEnvMap** possède ces méthodes.
 | [**BeginHemisphere**](id3dxrendertoenvmap--beginhemisphere.md) | Lancer le rendu d’un mappage d’environnement hémisphérique.<br/>                                                                                                                              |
 | [**BeginParabolic**](id3dxrendertoenvmap--beginparabolic.md)   | Lancer le rendu d’un mappage d’environnement parabolique.<br/>                                                                                                                                |
 | [**BeginSphere**](id3dxrendertoenvmap--beginsphere.md)         | Lancer le rendu d’une carte d’environnement sphérique.<br/>                                                                                                                                |
-| [**Effet**](id3dxrendertoenvmap--end.md)                         | Restaurez toutes les cibles de rendu et, si nécessaire, composez toutes les faces rendues dans la surface de la carte de l’environnement.<br/>                                                                           |
+| [**End**](id3dxrendertoenvmap--end.md)                         | Restaurez toutes les cibles de rendu et, si nécessaire, composez toutes les faces rendues dans la surface de la carte de l’environnement.<br/>                                                                           |
 | [**Visage**](id3dxrendertoenvmap--face.md)                       | Initiez le dessin de chaque face d’une carte d’environnement.<br/>                                                                                                                              |
 | [**GetDesc**](id3dxrendertoenvmap--getdesc.md)                 | Récupère la description de la surface de rendu.<br/>                                                                                                                                      |
 | [**GetDevice**](id3dxrendertoenvmap--getdevice.md)             | Récupère le périphérique Direct3D associé à la carte d’environnement.<br/>                                                                                                                    |
@@ -54,7 +54,7 @@ L’interface **ID3DXRenderToEnvMap** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une carte d’environnement est utilisée pour la géométrie de la scène de texture pour fournir une scène plus sophistiquée sans utiliser de géométrie complexe. Cette interface prend en charge la création de surfaces pour les genres suivants de géométrie : cube, demi-sphère ou hémisphérique, parabolique ou sphère.
 

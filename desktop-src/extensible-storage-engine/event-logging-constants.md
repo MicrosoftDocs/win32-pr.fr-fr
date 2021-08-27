@@ -15,70 +15,39 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e7ada5c71b603bf530c62d9f3af238131e305e42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa04ffe87ca25be127919c705ea5c7d6c3411485
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987040"
 ---
 # <a name="event-logging-constants"></a>Constantes de journalisation des événements
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="event-logging-constants"></a>Constantes de journalisation des événements
 
 Les constantes suivantes indiquent le niveau de détail des messages du journal des événements pour le paramètre système [JET_ParamEventLoggingLevel](./event-log-parameters.md) .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Constante/valeur</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_EventLoggingDisable<br />
-0</p></td>
-<td><p>Désactive la journalisation des événements.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_EventLoggingLevelMax<br />
-100</p></td>
-<td><p>Définit le niveau maximal à utiliser pour les journaux des événements, qui est actuellement de 100 caractères.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Constante/valeur</p> | <p>Description</p> | 
+|-----------------------|--------------------|
+| <p>JET_EventLoggingDisable<br />0</p> | <p>Désactive la journalisation des événements.</p> | 
+| <p>JET_EventLoggingLevelMax<br />100</p> | <p>Définit le niveau maximal à utiliser pour les journaux des événements, qui est actuellement de 100 caractères.</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

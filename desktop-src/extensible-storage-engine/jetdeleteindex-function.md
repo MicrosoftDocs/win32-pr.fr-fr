@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 52a29e619d6643df4984bd7f296dcef4ef0a5ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a934581754477f336415926716a9a8c7e6097d81
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985892"
 ---
 # <a name="jetdeleteindex-function"></a>JetDeleteIndex fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdeleteindex-function"></a>JetDeleteIndex fonction)
 
@@ -60,53 +60,22 @@ Nom de l’index à supprimer.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errFixedDDL</p></td>
-<td><p>Une tentative a été effectuée pour supprimer un index d’une table fixe (par exemple, un index créé avec JET_bitTableCreateFixedDDL).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFixedInheritedDDL</p></td>
-<td><p>Une tentative de suppression d’un index d’une table de modèle a été effectuée. Une table de modèle a un DDL fixe.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIndexNotFound</p></td>
-<td><p>L’index nommé dans <em>szIndexName</em> est introuvable.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>La table ne peut pas être mise à jour parce qu’elle a été ouverte en lecture seule.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Plusieurs threads ont tenté d’utiliser la même session de base de données.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>La transaction a été ouverte en tant que transaction en lecture seule.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errFixedDDL</p> | <p>Une tentative a été effectuée pour supprimer un index d’une table fixe (par exemple, un index créé avec JET_bitTableCreateFixedDDL).</p> | 
+| <p>JET_errFixedInheritedDDL</p> | <p>Une tentative de suppression d’un index d’une table de modèle a été effectuée. Une table de modèle a un DDL fixe.</p> | 
+| <p>JET_errIndexNotFound</p> | <p>L’index nommé dans <em>szIndexName</em> est introuvable.</p> | 
+| <p>JET_errPermissionDenied</p> | <p>La table ne peut pas être mise à jour parce qu’elle a été ouverte en lecture seule.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Plusieurs threads ont tenté d’utiliser la même session de base de données.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>La transaction a été ouverte en tant que transaction en lecture seule.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 En cas de réussite, l’index est supprimé et ne peut donc pas être utilisé par la suite. Il ne doit y avoir aucune transaction active utilisant l’index.
 
@@ -114,38 +83,16 @@ En cas de réussite, la devise est définie avant le premier enregistrement.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetDeleteIndexW</strong> (Unicode) et <strong>JetDeleteIndexA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetDeleteIndexW</strong> (Unicode) et <strong>JetDeleteIndexA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

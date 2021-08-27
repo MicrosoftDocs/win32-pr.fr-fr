@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf4c3c9806d4dcf898d6daeb903eb6fc4322fee7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e6317280c5e794e9809c15f47f01d55ffd48eeb
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982422"
 ---
 # <a name="jetgetobjectinfo-function"></a>JetGetObjectInfo, fonction
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetobjectinfo-function"></a>JetGetObjectInfo, fonction
 
@@ -91,99 +91,36 @@ Spécifie le type d’informations à récupérer pour l’objet spécifié. Cel
 
 Les options suivantes peuvent être définies pour ce paramètre.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_ObjInfo</p></td>
-<td><p><em>pvResult</em> est interprété comme une structure de <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> .</p>
-<p>La structure <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> est remplie avec les informations relatives à l’objet nommé dans <em>szObjectName</em>.</p>
-<p>Si l’appelant ne souhaite pas connaître le nombre d’enregistrements et de pages pour l’objet, envisagez d’utiliser JET_ObjInfoNoStats niveau d’informations, ce qui peut être plus rapide, car les statistiques ne sont pas incluses.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoList</p></td>
-<td><p><em>pvResult</em> est interprété comme une structure de <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Les informations sur tous les objets sont récupérées. Une table temporaire est créée, et les informations nécessaires pour parcourir la table temporaire sont décrites dans la structure <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Pour plus d’informations, consultez <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. Si l’appelant ne souhaite pas connaître le nombre d’enregistrements et de pages de l’objet, envisagez d’utiliser JET_ObjInfoListNoStats, ce qui peut être plus rapide.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoListACM</p></td>
-<td><p>Déconseillé et non pris en charge actuellement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoListNoStats</p></td>
-<td><p><em>pvResult</em> est interprété comme une structure de <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Les informations sur tous les objets sont récupérées. Une table temporaire est créée, et les informations nécessaires pour parcourir la table temporaire sont décrites dans la structure <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Pour plus d’informations, consultez <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats est identique à JET_ObjInfoList, sauf que les colonnes qui indiquent le nombre d’enregistrements (<em>columnidcRecord</em>) et les pages (<em>columnidcPage</em>) ne seront pas mises à jour.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoMax</p></td>
-<td><p><em>pvResult</em> est interprété comme un <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. La taille maximale de l’objet est de pages. Actuellement, seules les tables sont retournées.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoNoStats</p></td>
-<td><p><em>pvResult</em> est interprété comme un <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Les informations sur l’objet donné dans <em>szObjectName</em> sont récupérées.</p>
-<p>La structure <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> sera remplie avec les informations relatives à l’objet nommé dans <em>szObjectName</em>.</p>
-<p>JET_ObjInfoNoStats est identique à JET_ObjInfo, à ceci près que les champs qui indiquent le nombre d’enregistrements et de pages sont définis à zéro.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoRulesLoaded</p></td>
-<td><p>Déconseillé et non pris en charge actuellement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_ObjInfoSysTabCursor</p></td>
-<td><p>Déconseillé et non pris en charge actuellement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_ObjInfoSysTabReadOnly</p></td>
-<td><p>Déconseillé et non pris en charge actuellement.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_ObjInfo</p> | <p><em>pvResult</em> est interprété comme une structure de <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> .</p><p>La structure <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> est remplie avec les informations relatives à l’objet nommé dans <em>szObjectName</em>.</p><p>Si l’appelant ne souhaite pas connaître le nombre d’enregistrements et de pages pour l’objet, envisagez d’utiliser JET_ObjInfoNoStats niveau d’informations, ce qui peut être plus rapide, car les statistiques ne sont pas incluses.</p> | 
+| <p>JET_ObjInfoList</p> | <p><em>pvResult</em> est interprété comme une structure de <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Les informations sur tous les objets sont récupérées. Une table temporaire est créée, et les informations nécessaires pour parcourir la table temporaire sont décrites dans la structure <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Pour plus d’informations, consultez <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. Si l’appelant ne souhaite pas connaître le nombre d’enregistrements et de pages de l’objet, envisagez d’utiliser JET_ObjInfoListNoStats, ce qui peut être plus rapide.</p> | 
+| <p>JET_ObjInfoListACM</p> | <p>Déconseillé et non pris en charge actuellement.</p> | 
+| <p>JET_ObjInfoListNoStats</p> | <p><em>pvResult</em> est interprété comme une structure de <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Les informations sur tous les objets sont récupérées. Une table temporaire est créée, et les informations nécessaires pour parcourir la table temporaire sont décrites dans la structure <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a> . Pour plus d’informations, consultez <a href="gg269348(v=exchg.10).md">JET_OBJECTLIST</a>. JET_ObjInfoListNoStats est identique à JET_ObjInfoList, sauf que les colonnes qui indiquent le nombre d’enregistrements (<em>columnidcRecord</em>) et les pages (<em>columnidcPage</em>) ne seront pas mises à jour.</p> | 
+| <p>JET_ObjInfoMax</p> | <p><em>pvResult</em> est interprété comme un <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. La taille maximale de l’objet est de pages. Actuellement, seules les tables sont retournées.</p> | 
+| <p>JET_ObjInfoNoStats</p> | <p><em>pvResult</em> est interprété comme un <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a>. Les informations sur l’objet donné dans <em>szObjectName</em> sont récupérées.</p><p>La structure <a href="gg269353(v=exchg.10).md">JET_OBJECTINFO</a> sera remplie avec les informations relatives à l’objet nommé dans <em>szObjectName</em>.</p><p>JET_ObjInfoNoStats est identique à JET_ObjInfo, à ceci près que les champs qui indiquent le nombre d’enregistrements et de pages sont définis à zéro.</p> | 
+| <p>JET_ObjInfoRulesLoaded</p> | <p>Déconseillé et non pris en charge actuellement.</p> | 
+| <p>JET_ObjInfoSysTabCursor</p> | <p>Déconseillé et non pris en charge actuellement.</p> | 
+| <p>JET_ObjInfoSysTabReadOnly</p> | <p>Déconseillé et non pris en charge actuellement.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>La taille de la mémoire tampon donnée dans <em>cbMax</em> est trop petite pour contenir les informations souhaitées.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidName</p></td>
-<td><p>Un nom non valide a été spécifié dans <em>szObjectName</em> ou <em>szContainerName</em>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Un paramètre incorrect a été donné. Il est possible qu’un niveau incorrect a été passé à <em>InfoLevel</em>.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>La taille de la mémoire tampon donnée dans <em>cbMax</em> est trop petite pour contenir les informations souhaitées.</p> | 
+| <p>JET_errInvalidName</p> | <p>Un nom non valide a été spécifié dans <em>szObjectName</em> ou <em>szContainerName</em>.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Un paramètre incorrect a été donné. Il est possible qu’un niveau incorrect a été passé à <em>InfoLevel</em>.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 Si **JetGetObjectInfo** crée avec succès une table temporaire (par exemple, JET_ObjInfoList ou JET_ObjInfoNoStats), l’appelant est responsable de la fermeture de la table temporaire avec [JetCloseTable](./jetclosetable-function.md).
 
@@ -191,38 +128,16 @@ Actuellement, **JetGetObjectInfo** prend uniquement en charge la récupération 
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetGetObjectInfoW</strong> (Unicode) et <strong>JetGetObjectInfoA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetObjectInfoW</strong> (Unicode) et <strong>JetGetObjectInfoA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

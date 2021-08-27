@@ -4,12 +4,12 @@ ms.assetid: 0eaa7bd3-8537-483a-b0d6-db3b790a6f3d
 title: À propos du suivi d’événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2f13284cec1d9300c23241fafe154f277f72a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5004ada6d0d11d9c232a6fda1553ea24de5a59fb1d03e46728084f84f0e79de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086429"
 ---
 # <a name="about-event-tracing"></a>À propos du suivi d’événements
 
@@ -43,7 +43,7 @@ Pour plus d’informations, consultez [fourniture d’événements](providing-ev
 
 ### <a name="types-of-providers"></a>Types de fournisseurs
 
-Il existe quatre types principaux de fournisseurs : fournisseurs MOF (Classic), fournisseurs WPP, fournisseurs basés sur un manifeste et fournisseurs TraceLogging. Vous devez utiliser un fournisseur basé sur un manifeste ou un fournisseur TraceLogging si vous écrivez des applications pour Windows Vista ou version ultérieure qui n’ont pas besoin de prendre en charge les systèmes hérités.
+Il existe quatre types principaux de fournisseurs : fournisseurs MOF (Classic), fournisseurs WPP, fournisseurs basés sur un manifeste et fournisseurs TraceLogging. vous devez utiliser un fournisseur basé sur un manifeste ou un fournisseur TraceLogging si vous écrivez des applications pour Windows Vista ou version ultérieure qui n’ont pas besoin de prendre en charge les systèmes hérités.
 
 #### <a name="mof-classic-providers"></a>Fournisseurs MOF (classiques) :
 

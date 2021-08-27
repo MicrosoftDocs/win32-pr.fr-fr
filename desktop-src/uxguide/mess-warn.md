@@ -4,17 +4,17 @@ description: Un message d’avertissement est une boîte de dialogue modale, un 
 ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 42f7c669a68790ec290f931165b4aa937b5008d5
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: d12962cb8e984ffcb9f7f91875be7c6a724cea95
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982102"
 ---
 # <a name="warning-messages"></a>Messages d'avertissement
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Un message d’avertissement est une boîte de dialogue modale, un message sur place, une notification ou une bulle qui avertit l’utilisateur d’une condition susceptible de provoquer un problème à l’avenir.
 
@@ -49,7 +49,7 @@ Pour vous décider, posez-vous les questions suivantes :
 
 ### <a name="avoid-overwarning"></a>Éviter le suravertissement
 
-Nous prévoyons des avertissements dans les programmes Microsoft Windows. Le programme Windows classique présente des avertissements apparemment partout, en vous avertissant des choses qui ont une importance minime. Dans certains programmes, presque toutes les questions sont présentées sous la forme d’un avertissement. Le suravertissement permet d’utiliser un programme comme une activité dangereuse et de délivrer des problèmes réellement significatifs.
+nous prévoyons un avertissement dans les programmes Microsoft Windows. le programme de Windows classique présente des avertissements apparemment partout, en vous avertissant des choses qui ont une importance minime. Dans certains programmes, presque toutes les questions sont présentées sous la forme d’un avertissement. Le suravertissement permet d’utiliser un programme comme une activité dangereuse et de délivrer des problèmes réellement significatifs.
 
 **Incorrect :**
 
@@ -107,11 +107,11 @@ Un message qui n’a pas ces caractéristiques peut toujours être un bon messag
 
 ### <a name="determine-the-appropriate-message-type"></a>Déterminer le type de message approprié
 
-Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. Par exemple, supposons qu’une page Web ne peut pas charger un contrôle ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
+Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. par exemple, supposons qu’une page Web ne peut pas charger un contrôle de ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
 
--   **Erreurs.** « Cette page ne peut pas charger un contrôle ActiveX non signé ». (Formulées en tant que problème existant.)
--   **Tres.** « Cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger des contrôles ActiveX non signés ». ou «autoriser cette page à installer un contrôle ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
--   **Informations.** « Vous avez configuré Windows Internet Explorer pour bloquer les contrôles ActiveX non signés ». (Formulées en tant que déclaration de faits.)
+-   **Erreurs.** « cette page ne peut pas charger un contrôle de ActiveX non signé ». (Formulées en tant que problème existant.)
+-   **Tres.** « cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger les contrôles de ActiveX non signés ». ou «autoriser cette page à installer un contrôle de ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
+-   **Informations.** « vous avez configuré Windows Internet Explorer pour bloquer les contrôles de ActiveX non signés ». (Formulées en tant que déclaration de faits.)
 
 **Pour déterminer le type de message approprié, concentrez-vous sur l’aspect le plus important du problème que les utilisateurs doivent connaître ou agir.** En règle générale, si un problème empêche l’utilisateur de continuer, vous devez le présenter comme une erreur. Si l’utilisateur peut continuer, présentez-le en tant qu’avertissement. Élaborez l' [instruction principale](text-ui.md) ou un autre texte correspondant en fonction de ce Focus, puis choisissez une icône ([standard](vis-std-icons.md) ou autre) qui correspond au texte. Le texte d’instruction principal et les icônes doivent toujours correspondre.
 
@@ -168,46 +168,14 @@ Les avertissements ont plusieurs modèles d’utilisation :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Prise de conscience</strong><br/> Rendre l’utilisateur conscient d’une condition ou d’un problème potentiel, mais l’utilisateur n’a peut-être pas à faire quoi que ce soit. <br/></td>
-<td><img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br/> <img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br/> <img src="images/mess-warn-image15.png" alt="Screen shot of &#39;caps-lock-is-on&#39; warning " /><br/> <img src="images/mess-warn-image16.png" alt="Screen shot of &#39;TPM-not-found&#39; warning " /><br/> Exemples d’avertissements de sensibilisation.<br/> Les avertissements de sensibilisation présentent la présentation suivante : <br/>
-<ul>
-<li><strong>Instruction principale :</strong> Décrivez la condition ou le problème potentiel.</li>
-<li><strong>Instructions supplémentaires :</strong> Expliquez l’implication et pourquoi elle est importante.</li>
-<li><strong>Boutons de validation :</strong> Plus.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Prévention des erreurs</strong><br/> N’oubliez pas que l’utilisateur a des informations qui peuvent empêcher un problème, en particulier quand vous faites des choix. <br/></td>
-<td>Les avertissements de prévention des erreurs sont mieux présentés à l’aide d’une icône d’avertissement sur place et du texte explicatif. <br/> <img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br/> <img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br/> Exemples d’avertissements de prévention d’erreur.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Problème imminent</strong><br/> L’utilisateur doit effectuer une opération pour éviter un problème imminent. <br/></td>
-<td><img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br/> Exemple d’avertissement de problème imminent.<br/> Les avertissements de problèmes imminents présentent la présentation suivante : <br/>
-<ul>
-<li><strong>Instruction principale :</strong> Décrivez ce que l’utilisateur doit faire maintenant.</li>
-<li><strong>Instructions supplémentaires :</strong> Expliquez la condition et pourquoi elle est importante.</li>
-<li><strong>Boutons de validation :</strong> Un bouton de commande ou un lien de commande pour chaque option, ou OK si l’action se produit en dehors de la boîte de dialogue.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Confirmation de l’action risquée</strong><br/> Confirmez que l’utilisateur souhaite effectuer une action qui présente un risque et ne peut pas être facilement annulée. <br/></td>
-<td><img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br/> Exemple de confirmation d’action risquée.<br/> Les confirmations d’action risquées ont la présentation suivante : <br/>
-<ul>
-<li><strong>Instruction principale :</strong> Posez une question pour déterminer si l’utilisateur souhaite continuer.</li>
-<li><strong>Instructions supplémentaires :</strong> Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer.</li>
-<li><strong>Boutons de validation :</strong> Oui, non.</li>
-</ul>
-Pour obtenir des instructions sur ce modèle, consultez <a href="mess-confirm.md">confirmations</a>. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Prise de conscience</strong><br /> Rendre l’utilisateur conscient d’une condition ou d’un problème potentiel, mais l’utilisateur n’a peut-être pas à faire quoi que ce soit. <br /> | <img src="images/mess-warn-image13.png" alt="Screen shot of warning of network problems " /><br /><img src="images/mess-warn-image14.png" alt="Screen shot of low-battery warning " /><br /><img src="images/mess-warn-image15.png" alt="Screen shot of 'caps-lock-is-on' warning " /><br /><img src="images/mess-warn-image16.png" alt="Screen shot of 'TPM-not-found' warning " /><br /> Exemples d’avertissements de sensibilisation.<br /> Les avertissements de sensibilisation présentent la présentation suivante : <br /><ul><li><strong>Instruction principale :</strong> Décrivez la condition ou le problème potentiel.</li><li><strong>Instructions supplémentaires :</strong> Expliquez l’implication et pourquoi elle est importante.</li><li><strong>Boutons de validation :</strong> Plus.</li></ul> | 
+| <strong>Prévention des erreurs</strong><br /> N’oubliez pas que l’utilisateur a des informations qui peuvent empêcher un problème, en particulier quand vous faites des choix. <br /> | Les avertissements de prévention des erreurs sont mieux présentés à l’aide d’une icône d’avertissement sur place et du texte explicatif. <br /><img src="images/mess-warn-image17.png" alt="Screen shot of Not-enough-free-space warning " /><br /><img src="images/mess-warn-image18.png" alt="Screen shot of Use-installation-CD warning " /><br /> Exemples d’avertissements de prévention d’erreur.<br /> | 
+| <strong>Problème imminent</strong><br /> L’utilisateur doit effectuer une opération pour éviter un problème imminent. <br /> | <img src="images/mess-warn-image19.png" alt="Screen shot of Close-programs warning " /><br /> Exemple d’avertissement de problème imminent.<br /> Les avertissements de problèmes imminents présentent la présentation suivante : <br /><ul><li><strong>Instruction principale :</strong> Décrivez ce que l’utilisateur doit faire maintenant.</li><li><strong>Instructions supplémentaires :</strong> Expliquez la condition et pourquoi elle est importante.</li><li><strong>Boutons de validation :</strong> Un bouton de commande ou un lien de commande pour chaque option, ou OK si l’action se produit en dehors de la boîte de dialogue.</li></ul> | 
+| <strong>Confirmation de l’action risquée</strong><br /> Confirmez que l’utilisateur souhaite effectuer une action qui présente un risque et ne peut pas être facilement annulée. <br /> | <img src="images/mess-warn-image20.png" alt="Screen shot of Formatting-will-erase-data warning " /><br /> Exemple de confirmation d’action risquée.<br /> Les confirmations d’action risquées ont la présentation suivante : <br /><ul><li><strong>Instruction principale :</strong> Posez une question pour déterminer si l’utilisateur souhaite continuer.</li><li><strong>Instructions supplémentaires :</strong> Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer.</li><li><strong>Boutons de validation :</strong> Oui, non.</li></ul>Pour obtenir des instructions sur ce modèle, consultez <a href="mess-confirm.md">confirmations</a>. <br /> | 
+
 
 
 
@@ -234,7 +202,7 @@ Pour obtenir des instructions sur ce modèle, consultez <a href="mess-confirm.md
  
 
 -   **Pour les boîtes de dialogue modales :**
-    -   **Utilisez les boîtes de dialogue de tâches chaque fois que nécessaire pour obtenir une apparence et une disposition cohérentes.** Les boîtes de dialogue de tâches requièrent Windows Vista ou une version ultérieure, donc elles ne conviennent pas aux versions antérieures de Windows.
+    -   **Utilisez les boîtes de dialogue de tâches chaque fois que nécessaire pour obtenir une apparence et une disposition cohérentes.** les boîtes de dialogue de tâches requièrent Windows Vista ou version ultérieure. elles ne conviennent donc pas aux versions antérieures de Windows.
     -   **Affichez un seul message d’avertissement par condition.** Par exemple, affichez un avertissement unique qui explique complètement une condition au lieu de la décrire un détail à la fois par message. L’affichage d’une séquence de boîtes de dialogue d’avertissement pour une seule condition est confus et ennuyeux.
     -   **N’affichez pas un avertissement plus d’une fois par condition.** Les avertissements de constante deviennent rapidement inefficaces et ennuyeux. Les utilisateurs sont souvent plus concentrés pour se débarrasser de l’avertissement que pour résoudre le problème. Si vous devez avertir à plusieurs reprises pour une seule condition, utilisez la [remontée progressive](mess-notif.md).
 -   **Ne pas accompagner les avertissements avec un effet sonore ou un bip.** Cela est transférerez et inutile.
@@ -279,9 +247,9 @@ Pour obtenir des instructions sur l’étiquetage, consultez [Divulgation progre
 
 -   **Sélectionnez le niveau de réponse le plus sûr, le moins destructif ou le plus sécurisé par défaut.**
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Supprimez le texte redondant.** Recherchez-en les titres, les instructions principales, les instructions supplémentaires, les zones de contenu, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **N’utilisez pas les termes « avertissement » ou « attention » dans le texte.** Lorsqu’il est [utilisé correctement](vis-std-icons.md), l’icône d’avertissement indique que les utilisateurs doivent procéder avec précaution.

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2a23bcd088304b4a683ce3ff0f203d3c82fecf8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 46d692efd1f16c8e66816d49ec13f947b88da0fa0f8200787a5d5f9cda1bdf0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065569"
 ---
 # <a name="vol-table-guid-attribute"></a>Attribut volume-table-GUID
 
@@ -45,7 +45,7 @@ Identificateur unique d’une entrée de table de volume de lien de suivi.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

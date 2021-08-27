@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: aca41bc6adddde469954f1e0fa3cdcfd03d333682b4ce1cefd5453859628881a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01242e0891732d38f1be4e3a58482bab62584701
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119119402"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623895"
 ---
 # <a name="span-idvspixenginepipelinestagesspanpipelinestages-enumeration"></a><span id="vspixengine.pipelinestages"></span>Énumération PIPELINESTAGES
 
 Énumération utilisée pour indiquer une étape du pipeline Graphics.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -72,7 +72,7 @@ Valeur qui correspond à l’étape du nuanceur de calcul.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 599a0b539e32d0e457f92c256e2cb0b678b05b59
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9c7f78575c79b3da5b48125203d88c9b20e7eb1dc11ee860deea01dfa7dcea28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081589"
 ---
 # <a name="gledgeflag-function"></a>glEdgeFlag fonction)
 
@@ -51,7 +51,7 @@ Spécifie la valeur actuelle de l’indicateur de bord, **true** ou **false**.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque vertex d’un polygone, d’un triangle distinct ou d’un quadrilatère distinct spécifié entre une paire [**glBegin**](/windows/desktop/OpenGL/glbegin) / [**glEnd**](/windows/desktop/OpenGL/glend) est marqué comme le début d’une limite ou d’un bord non limité. Si l’indicateur de bord actuel a la **valeur true** lorsque le vertex est spécifié, le vertex est marqué comme le début d’un bord de limite. Si l’indicateur de bord actuel a la **valeur false**, le vertex est marqué comme le début d’un bord non lié. La fonction **glEdgeFlag** affecte la **valeur true** à l’indicateur Edge si l’indicateur est différent de zéro ; sinon, **false** .
 

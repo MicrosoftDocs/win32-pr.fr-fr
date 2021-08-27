@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-ms.openlocfilehash: 02fbead4b2d40a91ec6dab70f536d1ea3241ee84
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 322b912ad7332b0862309b0ecc1510adb3aa1a10
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840890"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475295"
 ---
 # <a name="ishelldispatch-object"></a>Objet IShellDispatch
 
@@ -42,110 +42,31 @@ L’objet **IShellDispatch** a ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-browseforfolder.md"><strong>BrowseForFolder</strong></a></td>
-<td style="text-align: left;">Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet <a href="folder.md"><strong>dossier</strong></a> du dossier sélectionné.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-cascadewindows.md"><strong>CascadeWindows</strong></a></td>
-<td style="text-align: left;">Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>fenêtres en cascade</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-controlpanelitem.md"><strong>ControlPanelItem</strong></a></td>
-<td style="text-align: left;">Exécute l’application du panneau de configuration spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br/>
-<blockquote>
-<p>[!Note]<br />
-À compter de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p>
-<pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-ejectpc.md"><strong>EjectPC</strong></a></td>
-<td style="text-align: left;">Éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>éjecter le PC</strong>, si votre ordinateur prend en charge cette commande.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-explore.md"><strong>Explorer</strong></a></td>
-<td style="text-align: left;">Ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-filerun.md"><strong>FileRun</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>exécuter</strong> à l’utilisateur.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-findcomputer.md"><strong>FindComputer</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue résultats de la <strong>recherche : ordinateurs</strong> . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-findfiles.md"><strong>FindFiles</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> , puis à sélectionner <strong>Rechercher</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-help.md"><strong>Aide</strong></a></td>
-<td style="text-align: left;">Affiche la fenêtre aide et support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-minimizeall.md"><strong>MinimizeAll</strong></a></td>
-<td style="text-align: left;">Réduit toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>réduire toutes les fenêtres</strong> sur les anciens systèmes ou cliquer sur l’icône <strong>afficher le bureau</strong> dans la barre des tâches.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-namespace.md"><strong>Joint</strong></a></td>
-<td style="text-align: left;">Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-open.md"><strong>Afficher</strong></a></td>
-<td style="text-align: left;">Ouvre le dossier spécifié.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-refreshmenu.md"><strong>RefreshMenu</strong></a></td>
-<td style="text-align: left;">Actualise le contenu du menu <strong>Démarrer</strong> . Utilisé uniquement avec les systèmes antérieurs à Windows XP.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-settime.md"><strong>SetTime</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>date et heure</strong> . Cette méthode a le même effet que de cliquer avec le bouton droit sur l’horloge dans la zone d’état de la barre des tâches et de sélectionner <strong>ajuster la date/l’heure</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-shutdownwindows.md"><strong>ShutdownWindows</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>arrêter Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-suspend.md"><strong>Momentané</strong></a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-tilehorizontally.md"><strong>TileHorizontally</strong></a></td>
-<td style="text-align: left;">Mosaïques horizontalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres empilées</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-tilevertically.md"><strong>TileVertically</strong></a></td>
-<td style="text-align: left;">Mosaïque verticalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres côte à côte</strong>.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-trayproperties.md"><strong>TrayProperties</strong></a></td>
-<td style="text-align: left;">Affiche la boîte de dialogue <strong>Propriétés de la barre des tâches et du menu Démarrer</strong> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez <strong>Propriétés</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-undominimizeall.md"><strong>UndoMinimizeALL</strong></a></td>
-<td style="text-align: left;">Restaure toutes les fenêtres de bureau à l’État où elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>Annuler réduire toutes les fenêtres</strong> (sur les systèmes plus anciens) ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la barre des tâches.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-windows.md"><strong>Windows</strong></a></td>
-<td style="text-align: left;">Crée et retourne un objet <a href="shellwindows.md"><strong>ShellWindows</strong></a> . Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="ishelldispatch-browseforfolder.md"><strong>BrowseForFolder</strong></a> | Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet <a href="folder.md"><strong>dossier</strong></a> du dossier sélectionné.<br /> | 
+| <a href="ishelldispatch-cascadewindows.md"><strong>CascadeWindows</strong></a> | Cascade toutes les fenêtres sur le bureau. Cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner des <strong>fenêtres en cascade</strong>.<br /> | 
+| <a href="ishelldispatch-controlpanelitem.md"><strong>ControlPanelItem</strong></a> | Exécute l’application du panneau de configuration spécifiée. Si l’application est déjà ouverte, elle activera l’instance en cours d’exécution. <br /><blockquote><p>[!Note]<br />à partir de Windows Vista, la plupart des applications du panneau de configuration sont des éléments de Shell et ne peuvent pas être ouvertes avec cette fonction. Pour ouvrir ces applications du panneau de configuration, transmettez le nom canonique à control.exe. Par exemple :</p><pre class="syntax" data-space="preserve"><code>control.exe /name Microsoft.Personalization</code></pre></blockquote><br /> | 
+| <a href="ishelldispatch-ejectpc.md"><strong>EjectPC</strong></a> | Éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>éjecter le PC</strong>, si votre ordinateur prend en charge cette commande.<br /> | 
+| <a href="ishelldispatch-explore.md"><strong>Explorer</strong></a> | ouvre un dossier spécifié dans une fenêtre de l’explorateur de Windows.<br /> | 
+| <a href="ishelldispatch-filerun.md"><strong>FileRun</strong></a> | Affiche la boîte de dialogue <strong>exécuter</strong> à l’utilisateur.<br /> | 
+| <a href="ishelldispatch-findcomputer.md"><strong>FindComputer</strong></a> | Affiche la boîte de dialogue résultats de la <strong>recherche : ordinateurs</strong> . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.<br /> | 
+| <a href="ishelldispatch-findfiles.md"><strong>FindFiles</strong></a> | Affiche la boîte de dialogue <strong>Rechercher : tous les fichiers</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> , puis à sélectionner <strong>Rechercher</strong>.<br /> | 
+| <a href="ishelldispatch-help.md"><strong>Aide</strong></a> | affiche la fenêtre d’aide et de Support Windows. Cette méthode a le même effet que le fait de cliquer sur le menu <strong>Démarrer</strong> et de sélectionner <strong>aide et support</strong>.<br /> | 
+| <a href="ishelldispatch-minimizeall.md"><strong>MinimizeAll</strong></a> | Réduit toutes les fenêtres sur le bureau. cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et que vous sélectionnez <strong>réduire tout Windows</strong> sur les anciens systèmes ou si vous cliquez sur l’icône <strong>afficher le bureau</strong> dans la barre des tâches.<br /> | 
+| <a href="ishelldispatch-namespace.md"><strong>Joint</strong></a> | Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br /> | 
+| <a href="ishelldispatch-open.md"><strong>Afficher</strong></a> | Ouvre le dossier spécifié.<br /> | 
+| <a href="ishelldispatch-refreshmenu.md"><strong>RefreshMenu</strong></a> | Actualise le contenu du menu <strong>Démarrer</strong> . utilisé uniquement avec les systèmes précédents Windows XP.<br /> | 
+| <a href="ishelldispatch-settime.md"><strong>SetTime</strong></a> | Affiche la boîte de dialogue <strong>date et heure</strong> . Cette méthode a le même effet que de cliquer avec le bouton droit sur l’horloge dans la zone d’état de la barre des tâches et de sélectionner <strong>ajuster la date/l’heure</strong>.<br /> | 
+| <a href="ishelldispatch-shutdownwindows.md"><strong>ShutdownWindows</strong></a> | affiche la boîte de dialogue <strong>arrêter le Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br /> | 
+| <a href="ishelldispatch-suspend.md"><strong>Interrompre</strong></a> | équipements | 
+| <a href="ishelldispatch-tilehorizontally.md"><strong>TileHorizontally</strong></a> | Mosaïques horizontalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres empilées</strong>.<br /> | 
+| <a href="ishelldispatch-tilevertically.md"><strong>TileVertically</strong></a> | Mosaïque verticalement toutes les fenêtres sur le bureau. Cette méthode a le même effet que le clic droit sur la barre des tâches et la sélection de l’option <strong>afficher les fenêtres côte à côte</strong>.<br /> | 
+| <a href="ishelldispatch-trayproperties.md"><strong>TrayProperties</strong></a> | Affiche la boîte de dialogue <strong>Propriétés de la barre des tâches et du menu Démarrer</strong> . Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez <strong>Propriétés</strong>.<br /> | 
+| <a href="ishelldispatch-undominimizeall.md"><strong>UndoMinimizeALL</strong></a> | Restaure toutes les fenêtres de bureau à l’État où elles se trouvaient avant la dernière commande <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> . cette méthode a le même effet que de cliquer avec le bouton droit sur la barre des tâches et de sélectionner <strong>annuler réduire tout Windows</strong> (sur les systèmes plus anciens) ou un second clic sur l’icône <strong>afficher le bureau</strong> dans la barre des tâches.<br /> | 
+| <a href="ishelldispatch-windows.md"><strong>Windows</strong></a> | Crée et retourne un objet <a href="shellwindows.md"><strong>ShellWindows</strong></a> . Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.<br /> | 
+
 
 
 
@@ -166,13 +87,13 @@ L’objet **IShellDispatch** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

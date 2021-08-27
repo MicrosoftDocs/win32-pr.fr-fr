@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5f7fca94c0765722dc2d0b21524c15265f99e7b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c07e7483a43ea4f69eac473c76747447932fba57e53e22f79fa0663d4babc86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129649"
 ---
 # <a name="databasegeneratetransform-method"></a>Database. GenerateTransform, méthode
 
@@ -60,7 +60,7 @@ Nom du fichier de transformation généré. Cette étape est facultative.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une transformation peut ajouter des colonnes clés non primaires à la fin d’une table. Impossible de créer une transformation qui ajoute des colonnes clés primaires à une table. Impossible de créer une transformation qui modifie l’ordre, les noms ou les définitions des colonnes.
 

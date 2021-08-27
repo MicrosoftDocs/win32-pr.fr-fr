@@ -3,7 +3,7 @@ title: CUE, commande
 description: La commande de pile se prépare à la diffusion ou à l’enregistrement. Les périphériques numériques vidéo, magnétoscope et Waveform-Audio reconnaissent cette commande.
 ms.assetid: 94fa0d0c-d5c9-4ef1-bb7d-22dfb09a7689
 keywords:
-- commande de pile Windows Multimedia
+- commande de pile Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd71f06a71c8aff4752fc31d750a3612564eb8a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6398d4773b6c92332e8a95996e4d81941a073fe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844410"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467856"
 ---
 # <a name="cue-command"></a>CUE, commande
 
@@ -53,51 +53,13 @@ Indicateur qui prépare un appareil pour la diffusion ou l’enregistrement. Le 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signal</th>
-<th>Signal</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>digitalvideo</td>
-<td><ul>
-<li>entrée</li>
-<li>NoShow</li>
-</ul></td>
-<td><ul>
-<li>sortie</li>
-<li>pour <em>positionner</em></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>vidéo</td>
-<td><ul>
-<li>à partir de la <em>position</em></li>
-<li>entrée</li>
-<li>sortie</li>
-</ul></td>
-<td><ul>
-<li>preroll</li>
-<li>reverse</li>
-<li>pour <em>positionner</em></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>WaveAudio</td>
-<td>entrée</td>
-<td>sortie</td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signal | Signal | 
+|-------|-----|-----|
+| digitalvideo | <ul><li>entrée</li><li>NoShow</li></ul> | <ul><li>sortie</li><li>pour <em>positionner</em></li></ul> | 
+| vidéo | <ul><li>à partir de la <em>position</em></li><li>entrée</li><li>sortie</li></ul> | <ul><li>preroll</li><li>reverse</li><li>pour <em>positionner</em></li></ul> | 
+| WaveAudio | entrée | sortie | 
+
 
 
 
@@ -134,7 +96,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien qu’il ne soit pas nécessaire, l’émission de la commande de pile avant la création ou l’enregistrement sur certains appareils peut réduire le délai avant que l’appareil ne démarre l’action.
 

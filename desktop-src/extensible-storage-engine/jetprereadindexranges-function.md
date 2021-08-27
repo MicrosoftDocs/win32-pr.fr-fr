@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7cfdd8d25f7008f5fa854cbee32b54fa01942ce2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ff2d9e7c538e8aa8cc862fe9a72c0308e497fd4
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112047"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986662"
 ---
 # <a name="jetprereadindexranges-function"></a>JetPrereadIndexRanges fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 La fonction **JetPrereadIndexRanges** prélit les index pour améliorer les performances.
 
-La fonction **JetPrereadIndexRanges** a été introduite dans le système d’exploitation Windows 8.
+la fonction **JetPrereadIndexRanges** a été introduite dans le système d’exploitation Windows 8.
 
 ``` c++
 JET_ERR JetPrereadIndexRanges(
@@ -82,96 +82,42 @@ Nombre d’ID de colonne pour les colonnes de valeurs longues à prélire, déte
 
 Groupe de bits qui spécifie zéro, une ou plusieurs des valeurs de direction de prélecture énumérées dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Transférer</p></td>
-<td><p>Lecture anticipée.</p></td>
-</tr>
-<tr class="even">
-<td><p>Vers l'arrière</p></td>
-<td><p>Prélire en arrière.</p></td>
-</tr>
-<tr class="odd">
-<td><p>FirstPageOnly</p></td>
-<td><p>Prélire uniquement la première page d’une colonne longue.</p></td>
-</tr>
-<tr class="even">
-<td><p>NormalizedKey</p></td>
-<td><p>Clé/signet normalisé fourni à la place de la valeur de colonne.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>Transférer</p> | <p>Lecture anticipée.</p> | 
+| <p>Vers l'arrière</p> | <p>Prélire en arrière.</p> | 
+| <p>FirstPageOnly</p> | <p>Prélire uniquement la première page d’une colonne longue.</p> | 
+| <p>NormalizedKey</p> | <p>Clé/signet normalisé fourni à la place de la valeur de colonne.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur retournée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. Pour plus d’informations sur les erreurs ESE (Extensible Storage Engine) possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 Si les enregistrements avec les plages de clés spécifiées ne se trouvent pas dans le cache des tampons, vous devez démarrer des lectures asynchrones pour placer les enregistrements dans le cache des tampons de la base de données.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requiert Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2012.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
+| <p><strong>Serveur</strong></p> | <p>Requiert Windows Server 2012.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

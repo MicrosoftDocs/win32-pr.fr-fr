@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 415c7d05c29bf44a13d60062c1623cc18d9ba081550afaec8b98a7c6e23a1cb3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f6cfb5152cd1d9cc4d27abfa3432666f06880d8e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117656494"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630374"
 ---
 # <a name="applicationmenurecentitems-property"></a>ApplicationMenu. RecentItems, propriété
 
 Représente un conteneur pour le contrôle d' [éléments récents](windowsribbon-controls-recentitems.md) dans le menu de l' [application](windowsribbon-controls-applicationmenu.md).
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <ApplicationMenu.RecentItems
@@ -39,10 +39,10 @@ Représente un conteneur pour le contrôle d' [éléments récents](windowsribbo
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ Représente un conteneur pour le contrôle d' [éléments récents](windowsribbo
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -87,7 +87,7 @@ Représente un conteneur pour le contrôle d' [éléments récents](windowsribbo
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque élément [**ApplicationMenu**](windowsribbon-element-applicationmenu.md) .
 
@@ -121,7 +121,7 @@ L’exemple suivant illustre la déclaration des contrôles **ApplicationMenu. R
 
 
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 
 

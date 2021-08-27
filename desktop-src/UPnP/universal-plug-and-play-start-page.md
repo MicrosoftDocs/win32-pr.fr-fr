@@ -6,12 +6,12 @@ keywords:
 - UPnP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022ede01a62230194969d7789e0ace70f960debb
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: dfadd64dbee845f62052e8b140ca1f0b69837ece78cf7b0cc5f24e61563a6e22
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104102504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124799"
 ---
 # <a name="upnp-apis"></a>API UPnP
 
@@ -32,15 +32,15 @@ Les développeurs qui utilisent les API de point de contrôle et les API d’hô
 
 Les développeurs qui utilisent les API d’hôte d’appareil doivent être familiarisés avec les interfaces Active Template Library (ATL) et COM.
 
-Les API de point de contrôle et les API d’hôte d’appareil sont utilisées par diverses applications, des scripts incorporés dans les pages HTML aux programmes C++ et Microsoft Visual Basic à part entière.
+les api de Point de contrôle et les api d’hôte d’appareil sont utilisées par diverses applications, des scripts incorporés dans les pages HTML aux programmes C++ et Microsoft Visual Basic à part entière.
 
-Seule l’API du point de contrôle prend en charge les Visual Basic Scripting Edition (VBScript).
+seule l’API du Point de contrôle prend en charge Visual Basic scripting Edition (VBScript).
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’API du point de contrôle est utilisée sur les ordinateurs qui exécutent Microsoft Windows Millennium Edition, Windows XP, Windows XP professionnel et Windows CE .NET.
+l’API du Point de contrôle est utilisée sur les ordinateurs exécutant Microsoft Windows Millennium Edition, Windows xp, Windows xp Professional et Windows CE .net.
 
-L’API de l’hôte d’appareil est utilisée sur les ordinateurs exécutant Windows XP, Windows XP professionnel et Windows CE .NET.
+l’API de l’hôte d’appareil est utilisée sur les ordinateurs exécutant Windows xp, Windows xp Professional et Windows CE .net.
 
 Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous à « conditions requises » dans la documentation.
 

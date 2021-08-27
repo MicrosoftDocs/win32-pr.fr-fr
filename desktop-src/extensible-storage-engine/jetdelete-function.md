@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9f3422bc623bbd4f0cc99365df51bb797100811c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 039ddcb0610b6a958e9c45be7e3a898631d2a0fc
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541902"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984952"
 ---
 # <a name="jetdelete-function"></a>Fonction JetDelete
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetdelete-function"></a>Fonction JetDelete
 
@@ -53,82 +53,27 @@ Curseur sur une table de base de données. La ligne actuelle sera supprimée.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCallbackFailed</p></td>
-<td><p>La fonction de rappel a échoué de quelque manière que ce soit. Par exemple, les violations d’accès dans les fonctions de rappel sont interceptées et converties en JET_errCallbackFailed. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errIllegalOperation</p></td>
-<td><p>Le curseur spécifié par <em>TableID</em> ne prend pas en charge la suppression. Consultez la section Notes.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoCurrentRecord</p></td>
-<td><p>Le curseur spécifié par <em>TableID</em> n’est pas sur un enregistrement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errPermissionDenied</p></td>
-<td><p>Le moteur de base de données ne dispose pas des autorisations suffisantes pour supprimer l’enregistrement. Cela peut se produire si le fichier de base de données a été ouvert avec un accès en lecture seule.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRollbackError</p></td>
-<td><p>Une mémoire tampon de mise à jour (consultez <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>) existe, mais toutes les modifications apportées aux colonnes de type JET_coltypLongText et/ou les colonnes de type JET_coltypLongBinary peuvent être restaurées.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Il n’est pas conforme d’utiliser la même session à partir de plusieurs threads en même temps. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTransReadOnly</p></td>
-<td><p>La transaction est une transaction en lecture seule et ne prend pas en charge les suppressions.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errVersionStoreOutOfMemory</p></td>
-<td><p>L’opération a échoué, car il n’y a pas assez de mémoire pour conserver les informations transactionnelles sur la mise à jour.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errWriteConflict</p></td>
-<td><p>Une autre session a déjà verrouillé l’enregistrement pour la mise à jour. La mise à jour tentée par cette session échoue.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errCallbackFailed</p> | <p>La fonction de rappel a échoué de quelque manière que ce soit. Par exemple, les violations d’accès dans les fonctions de rappel sont interceptées et converties en JET_errCallbackFailed. cette erreur est renvoyée uniquement par Windows XP et versions ultérieures.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errIllegalOperation</p> | <p>Le curseur spécifié par <em>TableID</em> ne prend pas en charge la suppression. Consultez la section Notes.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errNoCurrentRecord</p> | <p>Le curseur spécifié par <em>TableID</em> n’est pas sur un enregistrement.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errPermissionDenied</p> | <p>Le moteur de base de données ne dispose pas des autorisations suffisantes pour supprimer l’enregistrement. Cela peut se produire si le fichier de base de données a été ouvert avec un accès en lecture seule.</p> | 
+| <p>JET_errRollbackError</p> | <p>Une mémoire tampon de mise à jour (consultez <a href="gg269339(v=exchg.10).md">JetPrepareUpdate</a>) existe, mais toutes les modifications apportées aux colonnes de type JET_coltypLongText et/ou les colonnes de type JET_coltypLongBinary peuvent être restaurées.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Il n’est pas conforme d’utiliser la même session à partir de plusieurs threads en même temps. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p> | 
+| <p>JET_errTransReadOnly</p> | <p>La transaction est une transaction en lecture seule et ne prend pas en charge les suppressions.</p> | 
+| <p>JET_errVersionStoreOutOfMemory</p> | <p>L’opération a échoué, car il n’y a pas assez de mémoire pour conserver les informations transactionnelles sur la mise à jour.</p> | 
+| <p>JET_errWriteConflict</p> | <p>Une autre session a déjà verrouillé l’enregistrement pour la mise à jour. La mise à jour tentée par cette session échoue.</p> | 
+
 
 
 En cas de réussite, la devise est conservée juste avant l’enregistrement suivant. Si l’enregistrement supprimé était le dernier dans la table, la devise est laissée à la fin de la table (autrement dit, après le nouveau dernier enregistrement). Si l’enregistrement supprimé était le seul enregistrement dans la table, la devise est définie au début.
@@ -139,7 +84,7 @@ Si une mise à jour est préparée (à l’aide de [JetPrepareUpdate](./jetprepa
 
 En cas d’échec, la devise reste inchangée. Si une mise à jour est préparée (voir [JetPrepareUpdate](./jetprepareupdate-function.md)), la mémoire tampon de mise à jour peut être réinitialisée.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Toutes les tables ne prennent pas en charge la suppression de lignes. Une table temporaire ne prend normalement pas en charge la suppression de lignes. La suppression des enregistrements peut être activée sur les tables temporaires pour de nombreuses raisons, dont certaines sont :
 
@@ -153,34 +98,15 @@ Il est important de comprendre l’impact de l’exécution d’un grand nombre 
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

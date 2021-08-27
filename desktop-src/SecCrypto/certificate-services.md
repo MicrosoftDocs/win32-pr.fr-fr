@@ -1,23 +1,23 @@
 ---
-description: Les services de certificats, un service s’exécutant sur un système d’exploitation Windows Server, reçoivent des demandes de nouveaux certificats numériques sur des transports tels que RPC ou HTTP.
+description: les services de certificats, un service s’exécutant sur un système d’exploitation Windows server, reçoivent des demandes de nouveaux certificats numériques sur des transports tels que RPC ou HTTP.
 ms.assetid: 4c0098be-6b1b-4ce0-b3a0-942c1290b5b4
 title: Services de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1a3f25972f98a79a208719eb2bcb08de07d7894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaac2e1ee01b588beedbe2e632e52ef41459a885782a7975e460182f8a211bef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120126849"
 ---
 # <a name="certificate-services"></a>Services de certificats
 
-Les [*services de certificats*](../secgloss/c-gly.md), un service s’exécutant sur un système d’exploitation Windows Server, reçoivent des demandes de nouveaux certificats numériques sur des transports tels que RPC ou http. Il vérifie chaque demande par rapport à des stratégies personnalisées ou spécifiques à un site, définit des propriétés facultatives pour un certificat à émettre et émet le certificat. Les services de certificats permettent aux administrateurs d’ajouter des éléments à une [*liste de révocation de certificats*](../secgloss/c-gly.md) (CRL) et de publier des listes de révocation de certificats signées régulièrement.
+les [*services de certificats*](../secgloss/c-gly.md), un service s’exécutant sur un système d’exploitation Windows server, reçoivent des demandes de nouveaux certificats numériques sur des transports tels que RPC ou HTTP. Il vérifie chaque demande par rapport à des stratégies personnalisées ou spécifiques à un site, définit des propriétés facultatives pour un certificat à émettre et émet le certificat. Les services de certificats permettent aux administrateurs d’ajouter des éléments à une [*liste de révocation de certificats*](../secgloss/c-gly.md) (CRL) et de publier des listes de révocation de certificats signées régulièrement.
 
 Les services de certificats incluent des interfaces programmables pour la création d’une prise en charge pour les transports, les stratégies et les propriétés et formats de certificat supplémentaires.
 
-Dans Windows Server 2003, les services de certificats 2,0 peuvent être installés à partir du **panneau de configuration** en cliquant sur Ajout/ **Suppression de programmes** , puis en cliquant sur **Ajouter/supprimer des composants Windows** pour installer ou désinstaller des services de certificats.
+dans Windows Server 2003, les services de certificats 2,0 peuvent être installés à partir du **panneau de configuration** en cliquant sur ajout/ **suppression de programmes** , puis en cliquant sur **ajouter/supprimer des composants Windows** pour installer ou désinstaller des Services de certificats.
 
 Les concepts des services de certificats sont détaillés dans les sections suivantes. Le contenu est destiné à vous aider à développer des applications qui interagissent avec les services de certificats.
 

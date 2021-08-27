@@ -4,12 +4,12 @@ description: Un nuanceur Geometry avec flux sortant est déclaré avec une synta
 ms.assetid: 58cf6503-0dde-4c88-837d-ae0e0eda17d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 535ea78d1b2109e343f01800b3a3d5e1bf6efaba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43980d79d9c338a965d7ab2f2ceb008411d9713dec935d953dd5a1854c40465b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096389"
 ---
 # <a name="stream-out-syntax"></a>Syntaxe du flux de sortie
 
@@ -28,13 +28,13 @@ Un nuanceur Geometry avec flux sortant est déclaré avec une syntaxe particuli�
 
 | Nom                   | Description                                                                                                                                                                                                                |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **StreamingShaderVar** | facultatif. Chaîne ASCI qui identifie de façon unique le nom d’une variable de nuanceur Geometry avec un flux sortant. Cela est facultatif, car ConstructGSWithSO peut être placé directement dans un appel SetGeometryShader ou BindInterfaces. |
+| **StreamingShaderVar** | Facultatif. Chaîne ASCI qui identifie de façon unique le nom d’une variable de nuanceur Geometry avec un flux sortant. Cela est facultatif, car ConstructGSWithSO peut être placé directement dans un appel SetGeometryShader ou BindInterfaces. |
 | **ShaderVar**          | Une variable de nuanceur Geometry ou vertex.                                                                                                                                                                               |
 | **OutputDecl0**        | Une chaîne qui définit les sorties de nuanceur dans le flux 0 sont transmises en continu. Voir ci-dessous pour connaître la syntaxe.                                                                                                                                 |
 
 
 
- 
+ 
 
 Il s’agit de la syntaxe définie dans \_ les \_ fichiers FX 4 0. Notez que dans \_ \_ les nuanciers GS 4 0 et vs \_ x, il n’y a qu’un seul flux de données. Le nuanceur résultant produira un flux à la fois dans l’unité de diffusion en continu et l’unité de rastérisation.
 
@@ -50,7 +50,7 @@ Il s’agit de la syntaxe définie dans \_ les \_ fichiers FX 4 0. Notez que dan
 
 | Nom                   | Description                                                                                                                                                                                                                |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **StreamingShaderVar** | facultatif. Chaîne ASCI qui identifie de façon unique le nom d’une variable de nuanceur Geometry avec un flux sortant. Cela est facultatif, car ConstructGSWithSO peut être placé directement dans un appel SetGeometryShader ou BindInterfaces. |
+| **StreamingShaderVar** | Facultatif. Chaîne ASCI qui identifie de façon unique le nom d’une variable de nuanceur Geometry avec un flux sortant. Cela est facultatif, car ConstructGSWithSO peut être placé directement dans un appel SetGeometryShader ou BindInterfaces. |
 | **ShaderVar**          | Une variable de nuanceur Geometry ou vertex.                                                                                                                                                                               |
 | **OutputDecl0**        | Une chaîne qui définit les sorties de nuanceur dans le flux 0 sont transmises en continu. Voir ci-dessous pour connaître la syntaxe.                                                                                                                                 |
 | **OutputDecl1**        | Une chaîne qui définit les sorties de nuanceur dans le flux 1 sont transmises en continu. Voir ci-dessous pour connaître la syntaxe.                                                                                                                                 |
@@ -60,7 +60,7 @@ Il s’agit de la syntaxe définie dans \_ les \_ fichiers FX 4 0. Notez que dan
 
 
 
- 
+ 
 
 Notez que \_ \_ les nuanceurs GS 5 0 peuvent définir jusqu’à quatre flux de données. Le nuanceur résultant produira un flux de sortie vers l’unité d’extraction de flux pour chaque déclaration de sortie non **null** et un flux de l’unité de rastérisation.
 
@@ -77,14 +77,14 @@ Notez que \_ \_ les nuanceurs GS 5 0 peuvent définir jusqu’à quatre flux de 
 
 | Nom              | Description                                                                                           |
 |-------------------|-------------------------------------------------------------------------------------------------------|
-| **Buffer**        | facultatif. Un entier, 0 <= buffer < 4, spécifiant la mémoire tampon de sortie de flux vers laquelle la valeur doit être redirigée. |
+| **Buffer**        | Facultatif. Un entier, 0 <= buffer < 4, spécifiant la mémoire tampon de sortie de flux vers laquelle la valeur doit être redirigée. |
 | **Équivalent**      | Chaîne, avec SemanticIndex, spécifiant la valeur à générer.                                 |
-| **SemanticIndex** | facultatif. Index associé à la sémantique.                                                         |
-| **Filtrage**          | facultatif. Masque de composant indiquant les composants de la valeur à générer.                       |
+| **SemanticIndex** | Facultatif. Index associé à la sémantique.                                                         |
+| **Mask**          | Facultatif. Masque de composant indiquant les composants de la valeur à générer.                       |
 
 
 
- 
+ 
 
 Il existe une sémantique spéciale, nommée « $SKIP », qui indique une sémantique vide, laissant la mémoire correspondante dans le flux sans toucher. La sémantique $SKIP ne peut pas avoir de SemanticIndex, mais peut avoir un masque.
 
@@ -145,9 +145,9 @@ technique11 SOPoints
 [Effets (Direct3D 11)](d3d11-graphics-programming-guide-effects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

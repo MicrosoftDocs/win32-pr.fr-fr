@@ -3,7 +3,7 @@ title: Message LVM_SETEXTENDEDLISTVIEWSTYLE (commctrl. h)
 description: Définit des styles étendus dans les contrôles d’affichage de liste. Vous pouvez envoyer ce message de manière explicite ou utiliser la \_ macro ListView SetExtendedListViewStyle ou ListView \_ SetExtendedListViewStyleEx.
 ms.assetid: eb3f47ed-484a-49a8-94b0-e50ee081bd69
 keywords:
-- LVM_SETEXTENDEDLISTVIEWSTYLE les contrôles de message Windows
+- LVM_SETEXTENDEDLISTVIEWSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d36869283d863bef7b31187a002125c9cd79bc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 336732b927c7ee6170e777f2f7c1cd57eac6baa2c7706870e681f602e2309c37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077279"
 ---
 # <a name="lvm_setextendedlistviewstyle-message"></a>\_Message SETEXTENDEDLISTVIEWSTYLE LVM
 
@@ -47,7 +47,7 @@ Valeur **DWORD** qui spécifie les styles de contrôle de vue de liste étendus 
 
 Retourne une valeur **DWORD** qui contient les styles de contrôle de vue de liste étendus précédents.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre *wParam* vous permet de modifier un ou plusieurs styles étendus sans avoir à récupérer d’abord les styles existants. Par exemple, si vous transmettez [**LVS \_ ex \_ FULLROWSELECT**](extended-list-view-styles.md) pour *wParam* et 0 pour *lParam*, le style **LVS \_ ex \_ FULLROWSELECT** sera effacé, mais tous les autres styles resteront les mêmes.
 
@@ -61,8 +61,8 @@ Lorsque vous utilisez ce message pour définir le style de [**\_ cases à \_ coc
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

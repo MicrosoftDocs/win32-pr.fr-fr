@@ -4,12 +4,12 @@ ms.assetid: 076e2a43-256a-4646-a5c8-1d48ab08ce1a
 title: Identificateurs de langue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e3e8f88a64d49d04402c0e72a3946bcddc41e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6245101099b5df5c192af60a977ede88412f95cca8afda9270b7aba6e1c41ad2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106979"
 ---
 # <a name="language-identifiers"></a>Identificateurs de langue
 
@@ -29,7 +29,7 @@ Les identificateurs de langue prédéfinis sont les suivants :
 -   langue \_ par défaut du système lang \_ . Langue par défaut du système d’exploitation.
 -   langue \_ par défaut de l’utilisateur lang \_ . La langue de l’utilisateur actuel.
 
-Votre application peut récupérer les identificateurs de langue actuels à l’aide des fonctions de l' [interface utilisateur multilingue](multilingual-user-interface.md) .
+votre application peut récupérer les identificateurs de langue en cours à l’aide des fonctions [interface utilisateur multilingue](multilingual-user-interface.md) .
 
 ## <a name="related-topics"></a>Rubriques connexes
 

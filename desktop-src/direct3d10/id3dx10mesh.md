@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2ddf0876928f85debded1645b9a22de790917017
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2506191db941eee0a046d52f64aaeeb0f642f11dd35e42d6b49c4b5f5f457d79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096649"
 ---
 # <a name="id3dx10mesh-interface"></a>Interface ID3DX10Mesh
 
@@ -41,7 +41,7 @@ L’interface **ID3DX10Mesh** possède ces méthodes.
 |:-----------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CloneMesh**](id3dx10mesh-clonemesh.md)                                               | Crée un nouveau maillage et le remplit avec les données d’un maillage précédemment chargé.<br/>                                                                                                                                                                                                                                                |
 | [**CommitToDevice**](id3dx10mesh-committodevice.md)                                     | Validez toutes les modifications apportées à un maillage sur l’appareil afin que les modifications puissent être rendues. Cela doit être appelé après la modification des données d’un maillage et avant son rendu. Un maillage ne peut pas être rendu, sauf s’il est validé sur l’appareil. Consultez la section Remarques.<br/>                                                                         |
-| [**Abandonner**](id3dx10mesh-discard.md)                                                   | Supprime les données de maillage de l’appareil qui a été validé sur l’appareil (avec [**ID3DX10Mesh :: CommitToDevice**](id3dx10mesh-committodevice.md)).<br/>                                                                                                                                                                         |
+| [**Refuser**](id3dx10mesh-discard.md)                                                   | Supprime les données de maillage de l’appareil qui a été validé sur l’appareil (avec [**ID3DX10Mesh :: CommitToDevice**](id3dx10mesh-committodevice.md)).<br/>                                                                                                                                                                         |
 | [**DrawSubset**](id3dx10mesh-drawsubset.md)                                             | Dessine un sous-ensemble d’une maille.<br/>                                                                                                                                                                                                                                                                                                 |
 | [**DrawSubsetInstanced**](id3dx10mesh-drawsubsetinstanced.md)                           | Dessinez plusieurs instances du même sous-ensemble d’une maille.<br/>                                                                                                                                                                                                                                                                      |
 | [**GenerateAdjacencyAndPointReps**](id3dx10mesh-generateadjacencyandpointreps.md)       | Générez une liste de contours de maillage, ainsi qu’une liste des visages qui partagent chaque arête.<br/>                                                                                                                                                                                                                                           |
@@ -74,7 +74,7 @@ L’interface **ID3DX10Mesh** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir l’interface ID3DX10Mesh, appelez [**D3DX10CreateMesh**](d3d10-d3dx10createmesh.md).
 

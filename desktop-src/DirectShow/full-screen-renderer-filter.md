@@ -4,22 +4,22 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Filtre de convertisseur plein écran
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d331ff6f31d1c985c7e255b23381a289931da60
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5013bee81d92c1ade3da4574f576f519b94c025c60c563ab70a35d0956e82865
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102779"
 ---
 # <a name="full-screen-renderer-filter"></a>Filtre de convertisseur plein écran
 
 Le filtre de convertisseur plein écran fournit un rendu vidéo plein écran sur un matériel plus ancien. Les cartes vidéo plus récentes peuvent étirer la vidéo suffisamment efficacement pour que le convertisseur plein écran ne soit pas nécessaire. Par conséquent, l’utilisation de ce filtre est désormais déconseillée.
 
-N’ajoutez pas manuellement ce filtre au graphique de filtre. Si une application appelle [**IVideoWindow ::p ut \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode), le gestionnaire de graphique de filtre sélectionne automatiquement le convertisseur de vidéo approprié pour le mode plein écran. La sélection est transparente pour l’application. Avec les cartes vidéo actuelles, il est peu probable que le gestionnaire de graphique de filtre sélectionne le convertisseur plein écran.
+N’ajoutez pas manuellement ce filtre au graphique de filtre. si une application appelle [**IVideoWindow ::p ut \_ FullScreenMode**](/windows/desktop/api/Control/nf-control-ivideowindow-put_fullscreenmode), le gestionnaire de Graph de filtre sélectionne automatiquement le convertisseur vidéo approprié pour le mode plein écran. La sélection est transparente pour l’application. avec les cartes vidéo actuelles, il est peu probable que le gestionnaire de Graph de filtre sélectionne le convertisseur plein écran.
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                               |
@@ -75,7 +75,7 @@ Le convertisseur plein écran peut uniquement fonctionner en tant que fenêtre a
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

@@ -4,16 +4,16 @@ ms.assetid: 34fd4d15-ee64-4acf-967d-a4afb6f26329
 title: Copie et accès aux données de ressource (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38bd075585ee3123e163075a50b06b53a77a214c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bdbe3ec1dc970635a08cea455927f21d8928f48d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748517"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466836"
 ---
 # <a name="copying-and-accessing-resource-data-direct3d-10"></a>Copie et accès aux données de ressource (Direct3D 10)
 
-Il n’est plus nécessaire de réfléchir aux ressources créées dans la mémoire vidéo ou la mémoire système. Ou si le runtime doit gérer la mémoire. Grâce à l’architecture du nouveau WDDM (Windows Display Driver Model), les applications créent désormais des ressources Direct3D 10 avec différents indicateurs d' [**utilisation**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_usage) pour indiquer comment l’application envisage d’utiliser les données de ressource. Le nouveau modèle de pilote virtualise la mémoire utilisée par les ressources ; il devient alors le responsable du système d’exploitation/du pilote/de la mémoire de placer les ressources dans la zone de mémoire la plus performante possible en raison de l’utilisation prévue.
+Il n’est plus nécessaire de réfléchir aux ressources créées dans la mémoire vidéo ou la mémoire système. Ou si le runtime doit gérer la mémoire. grâce à l’architecture du nouveau WDDM (Windows Display Driver Model), les applications créent désormais des ressources Direct3D 10 avec différents indicateurs d' [**utilisation**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_usage) pour indiquer comment l’application envisage d’utiliser les données de ressource. Le nouveau modèle de pilote virtualise la mémoire utilisée par les ressources ; il devient alors le responsable du système d’exploitation/du pilote/de la mémoire de placer les ressources dans la zone de mémoire la plus performante possible en raison de l’utilisation prévue.
 
 Le cas par défaut est que les ressources sont disponibles pour le GPU. Bien entendu, il y a des cas où les données de ressources doivent être disponibles pour le processeur. La copie de données de ressources pour que le processeur approprié puisse y accéder sans impact sur les performances nécessite une connaissance du fonctionnement des méthodes de l’API.
 
@@ -59,7 +59,7 @@ Il est préférable de considérer un PC comme une machine s’exécutant comme 
 
 Le pire scénario pour le parallélisme GPU/UC est la nécessité de forcer un processeur à attendre les résultats du travail effectués par un autre. Direct3D 10 tente de supprimer ce coût en rendant les méthodes [**ID3D10Device :: CopyResource**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-copyresource) et [**ID3D10Device :: CopySubresourceRegion**](/windows/desktop/api/D3D10/nf-d3d10-id3d10device-copysubresourceregion) asynchrones. la copie n’a pas nécessairement été exécutée au moment du retour de la méthode. L’avantage de cette méthode est que l’application ne paie pas le coût des performances de la copie des données jusqu’à ce que l’UC accède aux données, ce qui est le cas lorsque map est appelé. Si la méthode map est appelée après la copie des données, aucune perte de performances ne se produit. En revanche, si la méthode map est appelée avant que les données n’aient été copiées, un blocage de pipeline se produit.
 
-Les appels asynchrones dans Direct3D 10 (qui constituent la grande majorité des méthodes, et en particulier les appels de rendu) sont stockés dans ce qu’on appelle une mémoire tampon de commande. Ce tampon est interne au pilote Graphics et est utilisé pour les appels par lots au matériel sous-jacent afin que le passage coûteux du mode utilisateur au mode noyau dans Microsoft Windows se produise le plus rarement possible.
+Les appels asynchrones dans Direct3D 10 (qui constituent la grande majorité des méthodes, et en particulier les appels de rendu) sont stockés dans ce qu’on appelle une mémoire tampon de commande. ce tampon est interne au pilote graphics et est utilisé pour les appels par lots au matériel sous-jacent, afin que le passage coûteux du mode utilisateur au mode noyau dans Microsoft Windows se produise le plus rarement possible.
 
 La mémoire tampon de commande est vidée, provoquant ainsi un changement de mode utilisateur/noyau, dans l’une des quatre situations suivantes :
 
@@ -76,53 +76,15 @@ Par conséquent, si une application souhaite mapper une ressource qui provient d
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Frame</th>
-<th>État GPU/UC</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>N</td>
-<td><ul>
-<li>Les problèmes d’UC affichent les appels pour le frame actuel.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N + 1</td>
-<td><ul>
-<li>Le GPU exécute les appels envoyés depuis l’UC pendant le frame N.</li>
-<li>Les problèmes d’UC affichent les appels pour le frame actuel.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N + 2</td>
-<td><ul>
-<li>Le GPU a terminé l’exécution des appels envoyés depuis le processeur au cours de la trame N. les résultats sont prêts.</li>
-<li>Le GPU exécute les appels envoyés depuis le processeur pendant la trame N + 1.</li>
-<li>Les problèmes d’UC affichent les appels pour le frame actuel.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>N + 3</td>
-<td><ul>
-<li>Le GPU a terminé l’exécution des appels envoyés depuis le processeur pendant la trame N + 1. Résultats prêts.</li>
-<li>Le GPU exécute les appels envoyés depuis l’UC au cours de la trame N + 2.</li>
-<li>Les problèmes d’UC affichent les appels pour le frame actuel.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>N + 4</td>
-<td>...</td>
-</tr>
-</tbody>
-</table>
+
+| Frame | État GPU/UC | 
+|-------|----------------|
+| N | <ul><li>Les problèmes d’UC affichent les appels pour le frame actuel.</li></ul> | 
+| N + 1 | <ul><li>Le GPU exécute les appels envoyés depuis l’UC pendant le frame N.</li><li>Les problèmes d’UC affichent les appels pour le frame actuel.</li></ul> | 
+| N+2 | <ul><li>Le GPU a terminé l’exécution des appels envoyés depuis le processeur au cours de la trame N. les résultats sont prêts.</li><li>Le GPU exécute les appels envoyés depuis le processeur pendant la trame N + 1.</li><li>Les problèmes d’UC affichent les appels pour le frame actuel.</li></ul> | 
+| N + 3 | <ul><li>Le GPU a terminé l’exécution des appels envoyés depuis le processeur pendant la trame N + 1. Résultats prêts.</li><li>Le GPU exécute les appels envoyés depuis l’UC au cours de la trame N + 2.</li><li>Les problèmes d’UC affichent les appels pour le frame actuel.</li></ul> | 
+| N + 4 | ... | 
+
 
 
 

@@ -3,7 +3,7 @@ title: Élément VerticalMenuLayout
 description: Représente une disposition verticale pour les éléments d’une galerie.
 ms.assetid: 4124c639-c078-4eb0-9d36-37d1ffcebac0
 keywords:
-- Ruban des fenêtres d’élément VerticalMenuLayout
+- élément VerticalMenuLayout Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5e6f3e4a691c9691b9bc6c8c6d760bb10635d8d8
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 732fff993e4ac4e1caf8637c1f83804636bf6882
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444050"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623295"
 ---
 # <a name="verticalmenulayout-element"></a>Élément VerticalMenuLayout
 
@@ -39,10 +39,10 @@ Représente une disposition verticale pour les éléments d’une galerie.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,21 +56,21 @@ Représente une disposition verticale pour les éléments d’une galerie.
 <tr class="odd">
 <td><strong>Manipulation</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Une poignée de redimensionnement attachée à la liste déroulante de la Galerie. <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> None<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Barr<br/> </dt> <dd> Par défaut. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsMultipleHighlightingEnabled</strong><br/></td>
 <td>xs:boolean<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><strong>Windows 8 et versions ultérieures</strong><br/> Met en surbrillance tous les éléments de la liste jusqu’à l’élément MouseOver actuel (au lieu de l’élément MouseOver uniquement), et y compris celui-ci. Généralement utilisé pour plusieurs fonctionnalités d' <strong>annulation</strong> et de <strong>rétablissement</strong> .<br/> <br/>
 <dt><span></span><span></span><strong></strong> :<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> fausses<br/> </dt> <dd> Par défaut. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Lignes</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre de lignes d’élément à afficher sans défilement. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> Entier positif ou négatif. <br/> La valeur par défaut est <strong>-1</strong> qui spécifie d’afficher autant de lignes d’éléments que possible.<br/> </dd> </dl></td>
 </tr>
@@ -139,7 +139,7 @@ Cette section de code montre les déclarations de contrôle [**InRibbonGallery**
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: Oui
 
 

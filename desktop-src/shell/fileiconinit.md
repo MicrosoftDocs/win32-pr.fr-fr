@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 090f35cc576caf6f99a8d5822a0304f15383e8db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1771e1f0bde83f0fc7d070787b7a19f87007e26bd1ad42dcaa88e230e61a60af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111809"
 ---
 # <a name="fileiconinit-function"></a>FileIconInit fonction)
 
@@ -54,7 +54,7 @@ Type : **bool**
 
 **True** si le cache a été actualisé avec succès, **false** en cas d’échec de l’initialisation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous utilisez des listes d’images système dans votre propre processus, vous devez appeler **FileIconInit** aux moments suivants :
 
@@ -63,13 +63,13 @@ Si vous utilisez des listes d’images système dans votre propre processus, vou
 
 **FileIconInit** n’est pas inclus dans un fichier d’en-tête. Vous devez l’appeler directement à partir de Shell32.dll, en utilisant l’ordinal 660.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |
 

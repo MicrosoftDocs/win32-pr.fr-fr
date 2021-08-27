@@ -4,12 +4,12 @@ ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ede88930cdb6cc616d8c39fb400f0c67c31eecd01d6d1a7d1832421cb394bcc4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c1dbe8366093418e74ed4ab1cb8e8c23fb8036eb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119534542"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879736"
 ---
 # <a name="msicertexe"></a>Msicert.exe
 
@@ -29,9 +29,9 @@ Les options de ligne de commande ne respectent pas la casse et les séparateurs 
 
 | Option | Paramètre        | Description                                                                                             |
 |--------|------------------|---------------------------------------------------------------------------------------------------------|
-| -d     | <database> | La base de données (fichier .msi) en cours de mise à jour.                                                         |
+| -d     | &lt;database&gt; | La base de données (fichier .msi) en cours de mise à jour.                                                         |
 | -M     | <media Id> | Entrée dans le champ depatinage de la [table Media](media-table.md) de l’enregistrement du fichier CAB. |
-| -c     | <cabinet>  | Chemin d’accès au fichier CAB signé numériquement.                                                          |
+| -c     | &lt;CAB&gt;  | Chemin d’accès au fichier CAB signé numériquement.                                                          |
 | -H     |                  | Incluez le hachage de la signature numérique. Cette étape est facultative.                                            |
 
 

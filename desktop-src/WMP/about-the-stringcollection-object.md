@@ -3,22 +3,22 @@ title: À propos de l’objet StringCollection
 description: À propos de l’objet StringCollection
 ms.assetid: 7d1210fa-9ea5-45cc-89f7-46731413f806
 keywords:
-- Lecteur Windows Media, objet StringCollection
-- Windows Media Player Object Model, StringCollection, objet
+- Lecteur Windows Media, StringCollection, objet
+- Lecteur Windows Media modèle objet, StringCollection, objet
 - modèle objet, StringCollection, objet
-- Contrôle ActiveX du lecteur Windows Media, objet StringCollection
-- Contrôle ActiveX, objet StringCollection
-- Windows Media Player Mobile Control, objet StringCollection
-- Windows Media Player Mobile, objet StringCollection
+- Lecteur Windows Media ActiveX contrôle, StringCollection, objet
+- contrôle ActiveX, StringCollection, objet
+- Lecteur Windows Media contrôle Mobile ActiveX, StringCollection, objet
+- Lecteur Windows Media Mobile, StringCollection, objet
 - StringCollection, objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dba88fcd4a87b0905fc2beca249a227ef4ac9cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae871dbe749764b97fa6be1691ad6ba546ba2829dffcc52bc086fea6c49a61ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124079"
 ---
 # <a name="about-the-stringcollection-object"></a>À propos de l’objet StringCollection
 
@@ -34,9 +34,9 @@ L’objet **StringCollection** régit les collections de chaînes, qui sont util
 [**StringCollection, objet**](stringcollection-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

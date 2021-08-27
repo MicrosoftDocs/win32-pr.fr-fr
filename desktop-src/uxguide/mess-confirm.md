@@ -4,21 +4,21 @@ description: Une confirmation est une boîte de dialogue modale qui demande si l
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 321cab040423df3a6dc0069d568d66c85e3aa8cc
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 22fc59cee7ebd02ae5e97b5a4db9549848267120
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987462"
 ---
 # <a name="confirmations"></a>Confirmations
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une confirmation est une boîte de dialogue modale qui demande si l’utilisateur souhaite effectuer une action.
 
-![Capture d’écran montrant un bloc-notes « voulez-vous enregistrer les modifications ? » de l'application de partage.](images/mess-confirm-image1.png)
+![capture d’écran montrant un Bloc-notes’voulez-vous enregistrer les modifications ? ' de l'application de partage.](images/mess-confirm-image1.png)
 
 Confirmation standard.
 
@@ -63,7 +63,7 @@ Pour vous décider, posez-vous les questions suivantes :
 
 ### <a name="unnecessary-confirmations-are-annoying"></a>Les confirmations inutiles sont ennuyeuses
 
-La première confirmation de Windows que vous avez créée a sans aucun doute été similaire à ce qui suit :
+la première Windows confirmation créée est sans aucun doute ressembler à ceci :
 
 ![capture d’écran de « voulez-vous vraiment ? » confirmation ](images/mess-confirm-image2.png)
 
@@ -82,16 +82,16 @@ Pour les autres types de confirmations, il existe souvent une meilleure solution
 Voici quelques alternatives de conception qui éliminent le besoin de confirmations de routine :
 
 -   **Éviter les erreurs.** Concevez des tâches afin que les erreurs significatives soient difficiles à faire accidentellement. Par exemple, séparez physiquement les commandes destructrices d’autres commandes et demandez l’exécution de plusieurs actions.
--   **Fournissez une annulation.** Offre la possibilité de restaurer des actions. Par exemple, la suppression d’un fichier dans Microsoft Windows ne nécessite généralement pas de confirmation, car les fichiers supprimés peuvent être récupérés à partir de la corbeille. Notez que si une action est très facile à effectuer, il suffit aux utilisateurs de rétablir l’action.
+-   **Fournissez une annulation.** Offre la possibilité de restaurer des actions. par exemple, la suppression d’un fichier dans Microsoft Windows ne nécessite généralement pas de confirmation, car les fichiers supprimés peuvent être récupérés à partir de la corbeille. Notez que si une action est très facile à effectuer, il suffit aux utilisateurs de rétablir l’action.
 -   **Fournir des commentaires.** Rendez les résultats indésirables évidents. L’annulation seule n’est pas suffisante si les utilisateurs ne se rendent pas compte lorsqu’ils font une erreur. Par exemple, l’effet de la manipulation directe (par exemple, une opération de glisser-déplacer) doit toujours être évident.
--   **Supposons le résultat probable, mais facilitez la modification.** Si vous n’êtes pas sûr de ce que les utilisateurs veulent, mais qu’il existe un choix possible, sécurisé et sécurisé, supposez que vous avez choisi, de clarifier ce qui s’est passé et de le modifier facilement à l’aide d’un menu contextuel. Par exemple, Microsoft Word suppose que les utilisateurs veulent épeler correctement les mots. S’il reconnaît un mot mal orthographié et qu’il connaît l’orthographe correcte, Word effectue automatiquement la correction, mais permet aux utilisateurs de les restaurer.
+-   **Supposons le résultat probable, mais facilitez la modification.** Si vous n’êtes pas sûr de ce que les utilisateurs veulent, mais qu’il existe un choix possible, sécurisé et sécurisé, supposez que vous avez choisi, de clarifier ce qui s’est passé et de le modifier facilement à l’aide d’un menu contextuel. par exemple, Microsoft Word suppose que les utilisateurs veulent épeler correctement les mots. S’il reconnaît un mot mal orthographié et qu’il connaît l’orthographe correcte, Word effectue automatiquement la correction, mais permet aux utilisateurs de les restaurer.
 -   **Éliminez complètement le choix.** Si le choix n’est pas important, les utilisateurs ne se soucient pas. Mieux pour [simplifier](/previous-versions//dn742474(v=vs.85)) votre programme et éliminer le choix.
 
 ### <a name="make-confirmations-require-thought"></a>Les confirmations doivent être pensées
 
 Pour qu’une confirmation ait une valeur, les utilisateurs doivent comprendre la raison de ne pas continuer. Parfois, la raison est évidente, comme lorsque les utilisateurs ferment un document avec des modifications qui n’ont pas été enregistrées :
 
-![Capture d’écran montrant une peinture « voulez-vous enregistrer les modifications ? » « Hello World ! ».](images/mess-confirm-image3.png)
+![capture d’écran montrant un Paint’voulez-vous enregistrer les modifications ? ' « Hello World ! ».](images/mess-confirm-image3.png)
 
 Dans cet exemple, la raison de la confirmation est évidente.
 
@@ -125,11 +125,11 @@ Dans cet exemple, l’utilisation de boutons de validation oui/non force les uti
 
 ### <a name="provide-all-the-information"></a>Fournir toutes les informations
 
-Si vous envisagez de poser une question, vous devez fournir suffisamment d’informations pour que les utilisateurs puissent répondre intelligemment à cette question. Examinez la boîte de dialogue confirmer le remplacement de fichier de Windows XP :
+Si vous envisagez de poser une question, vous devez fournir suffisamment d’informations pour que les utilisateurs puissent répondre intelligemment à cette question. examinez la boîte de dialogue confirmer le remplacement de fichier de Windows XP :
 
 ![capture d’écran de la boîte de dialogue « confirmer le remplacement du fichier » ](images/mess-confirm-image7.png)
 
-Boîte de dialogue confirmer le remplacement du fichier de Windows XP.
+la boîte de dialogue Windows XP, confirmer le remplacement du fichier.
 
 Cette confirmation fournit-elle toutes les informations dont les utilisateurs peuvent avoir besoin pour répondre à la question ? Avant de répondre, prenez en compte les scénarios utilisateur les plus courants :
 
@@ -144,21 +144,21 @@ Les utilisateurs peuvent obtenir le scénario 1 en cliquant sur Oui et sur scén
 
 Les scénarios 4, 5 et 6 sont également étonnamment difficiles. Les tailles de fichier étant arrondies, par exemple, il est impossible de déterminer si ces fichiers ont la même taille ou même s’ils sont le même fichier. Les icônes sont destinées à l’application utilisée pour ouvrir le fichier, de sorte que les utilisateurs doivent ouvrir les fichiers pour inspecter et comparer leur contenu. Le fait de disposer de miniatures du contenu du fichier serait beaucoup plus utile pour répondre à la question.
 
-La confirmation de copie du fichier de Windows Vista permet de gérer ces scénarios de manière bien meilleure en fournissant des informations supplémentaires et en ajoutant l’option permettant de conserver les deux fichiers :
+la confirmation de copie du fichier de Windows Vista fait un bien meilleur travail pour gérer ces scénarios en fournissant des informations supplémentaires et en ajoutant l’option permettant de conserver les deux fichiers :
 
 ![capture d’écran de la boîte de dialogue’copier le fichier' ](images/mess-confirm-image8.png)
 
-Confirmation du fichier de copie de Windows Vista.
+confirmation du fichier de copie Windows Vista.
 
 ### <a name="provide-specific-useful-information"></a>Fournir des informations utiles spécifiques
 
-Si vous envisagez de poser une question, assurez-vous que les utilisateurs comprennent la question et les implications des autres réponses. Prenons l’exemple de confirmation de sécurité de Windows Internet Explorer :
+Si vous envisagez de poser une question, assurez-vous que les utilisateurs comprennent la question et les implications des autres réponses. tenez compte de ce Windows confirmation de sécurité d’Internet Explorer :
 
 ![capture d’écran de confirmation avec une question vague ](images/mess-confirm-image9.png)
 
 Une confirmation de sécurité vague.
 
-Cette confirmation demande à une question que les utilisateurs ne peuvent pas répondre intelligemment. L’utilisateur a demandé que Windows Internet Explorer affiche une page et ce message le conseille implicitement par le biais de la formulation du texte et en mettant en surbrillance non comme choix par défaut.
+Cette confirmation demande à une question que les utilisateurs ne peuvent pas répondre intelligemment. l’utilisateur a demandé que Windows Internet Explorer affiche une page, et ce message le conseille implicitement par le biais de la formulation du texte et en mettant en surbrillance non comme choix par défaut.
 
 Le problème de sécurité spécifique que pose la page n’est pas suffisamment expliqué, donc le risque de continuer n’est pas évident. Les informations de la confirmation entraîneraient l’utilisateur à cliquer sur non ? En raison de l’imprécision du message, la confirmation n’est pas susceptible de décourager les utilisateurs de continuer, mais les empêchera de le faire.
 
@@ -201,13 +201,13 @@ Les confirmations ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Utilisez les confirmations « enregistrer les modifications » uniquement en cas de modifications significatives.** Ne confirmez pas les modifications qui n’ont pas été apportées directement par l’utilisateur, telles que le reformatage automatique de document.
 
 **Incorrect :**
 
-![Capture d’écran montrant une Microsoft Office Outlook’voulez-vous enregistrer les modifications ? ' de l'application de partage.](images/mess-confirm-image23.png)
+![capture d’écran montrant un Microsoft Office Outlook’voulez-vous enregistrer les modifications ? ' de l'application de partage.](images/mess-confirm-image23.png)
 
 Cet exemple est incorrect lorsqu’il est utilisé pour un message électronique ou un document vide qui n’a pas été modifié par l’utilisateur.
 
@@ -231,7 +231,7 @@ Cet exemple est incorrect lorsqu’il est utilisé pour un message électronique
 
  
 
--   **N’utilisez pas d’icônes d’avertissement pour les questions de routine.** Cela revient à la [sonnerie de Windows](text-style-tone.md) et à l’utilisation de votre programme comme une activité dangereuse. Supposons que les utilisateurs comprennent les conséquences de l’annulation d’une tâche avant qu’elle ne soit terminée.
+-   **N’utilisez pas d’icônes d’avertissement pour les questions de routine.** le fait de faire en sorte qu’il s’agit de la [sonnerie d’Windows et de](text-style-tone.md) l’utilisation de votre programme comme une activité dangereuse. Supposons que les utilisateurs comprennent les conséquences de l’annulation d’une tâche avant qu’elle ne soit terminée.
 
 **Incorrect :**
 
@@ -261,7 +261,7 @@ Dans cet exemple, l’utilisation de boutons de validation oui/non force les uti
 
 Dans cet exemple, l’utilisation de OK/Cancel est confuse.
 
--   **Pour fermer un programme ou redémarrer Windows, utilisez des réponses spécifiques à l’instruction principale.** Pour éviter tout malentendu, n’utilisez pas la fonction Close ou yes/no à cet effet.
+-   **pour fermer un programme ou redémarrer Windows, utilisez des réponses spécifiques à l’instruction principale.** Pour éviter tout malentendu, n’utilisez pas la fonction Close ou yes/no à cet effet.
 
 **Correct :**
 
@@ -342,7 +342,7 @@ Cet exemple a une option pour les opérations en bloc.
 
 ![capture d’écran de la boîte de dialogue « confirmer la suppression du fichier » ](images/mess-confirm-image35.png)
 
-Dans cet exemple, l’Explorateur Windows dans Windows XP confirme chaque fichier en lecture seule lors d’un déplacement de fichiers en bloc. Il est préférable de copier les fichiers en lecture seule sans demander ou différer la gestion de ces fichiers et de présenter la confirmation à la fin de la tâche.
+dans cet exemple, Windows Explorer dans Windows XP confirme chaque fichier en lecture seule lors d’un déplacement de fichiers en bloc. Il est préférable de copier les fichiers en lecture seule sans demander ou différer la gestion de ces fichiers et de présenter la confirmation à la fin de la tâche.
 
 ### <a name="progressive-disclosure"></a>Affichage progressif
 
@@ -356,9 +356,9 @@ Pour obtenir des instructions sur l’étiquetage, consultez [Divulgation progre
 -   **N’utilisez pas l’interface utilisateur d’élévation du contrôle de compte d’utilisateur (UAC) comme substitut pour une confirmation.** Si une action nécessite une confirmation, utilisez une boîte de dialogue distincte. Au cours de l' [interface utilisateur d’élévation](winenv-uac.md), les utilisateurs doivent se concentrer sur s’ils ont démarré la tâche et si le programme est digne de confiance.
 -   **Affichez la confirmation avant l’interface utilisateur d’élévation.** Cela élimine les élévations inutiles.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres, des instructions principales, des instructions supplémentaires, des zones de contenu, des liens de commande et des boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **N’utilisez pas « avertissement » ou « attention » dans le texte.** Si les utilisateurs doivent procéder à la prudence, indiquez-le à l’aide d’une icône d’avertissement.
@@ -420,7 +420,7 @@ Toutefois, la formulation doit correspondre à la commande associée, même si l
 
 
 
-    | Expression                                                            | Connotation                                                            |
+    | Phrase                                                            | Connotation                                                            |
     |-------------------------------------------------------------|-------------------------------------------------------------|
     | Voulez-vous vraiment \[ effectuer une action \] ? <br/> | Confirmation du résultat direct d’une demande de l’utilisateur. <br/> |
     | Voulez-vous \[ effectuer une action \] ? <br/>           | Confirmation d’un effet secondaire d’une demande de l’utilisateur. <br/>     |
@@ -443,34 +443,13 @@ Dans cet exemple, « définitivement » indique que l’action ne peut pas êt
 
 -   **L’instruction supplémentaire pour une confirmation est basée sur son modèle de conception :**
 
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td><strong>Modèle</strong><br/></td>
-    <td><strong>Instruction supplémentaire</strong><br/></td>
-    </tr>
-    <tr class="even">
-    <td>Confirmations de conséquence imprévues <br/></td>
-    <td>Posez une question unique pour déterminer si l’utilisateur souhaite continuer. <br/></td>
-    </tr>
-    <tr class="odd">
-    <td>Tous les autres <br/></td>
-    <td>Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer. Ces raisons sont les suivantes : <br/>
-    <ul>
-    <li>Perte potentielle d’un ou plusieurs des éléments suivants : <ul>
-    <li>Une ressource précieuse, telle qu’une perte de données ou une perte financière.</li>
-    <li>Accès ou intégrité du système.</li>
-    <li>Confidentialité ou contrôle des informations confidentielles.</li>
-    </ul></li>
-    <li>Actions irréversibles.</li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| Étiquette | Valeur |
+|--------|-------|
+| <strong>Modèle</strong><br /> | <strong>Instruction supplémentaire</strong><br /> | 
+| Confirmations de conséquence imprévues <br /> | Posez une question unique pour déterminer si l’utilisateur souhaite continuer. <br /> | 
+| Tous les autres <br /> | Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer. Ces raisons sont les suivantes : <br /><ul><li>Perte potentielle d’un ou plusieurs des éléments suivants :    <ul><li>Une ressource précieuse, telle qu’une perte de données ou une perte financière.</li><li>Accès ou intégrité du système.</li><li>Confidentialité ou contrôle des informations confidentielles.</li></ul></li><li>Actions irréversibles.</li></ul> | 
+
 
     
 

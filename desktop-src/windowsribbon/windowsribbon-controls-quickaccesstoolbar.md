@@ -4,12 +4,12 @@ description: La barre d’outils accès rapide (QAT) est une petite barre d’ou
 ms.assetid: b2adf4e9-0de1-4c4d-9293-693d0f7cf6fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a50d562477e5c626d2d2bffa8ee5e0ecc84919
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6d63eb3f7b1a2c1213430f86a9a12fe4517c738290ed736eb1d356420aa145cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110723"
 ---
 # <a name="quick-access-toolbar"></a>Barre d'outils Accès rapide
 
@@ -40,7 +40,7 @@ La barre d’outils accès rapide (QAT) est constituée d’une combinaison d’
 
 ## <a name="implement-the-quick-access-toolbar"></a>Implémenter la barre d’outils accès rapide
 
-Comme avec tous les contrôles de l’infrastructure de ruban Windows, tirer pleinement parti de la barre d’outils accès rapide (QAT) nécessite un composant de balisage qui contrôle sa présentation dans le ruban et un composant de code qui régit ses fonctionnalités.
+comme avec tous les contrôles Windows framework de ruban, tirer pleinement parti de la barre d’outils accès rapide (QAT) nécessite un composant de balisage qui contrôle sa présentation dans le ruban et un composant de code qui régit ses fonctionnalités.
 
 ### <a name="markup"></a>balisage
 
@@ -210,7 +210,7 @@ La méthode de rappel [IUICommandHandler :: UpdateProperty](/windows/desktop/ap
 
 Le tableau suivant répertorie les clés de propriété associées au contrôle de la barre d’outils accès rapide (QAT).
 
-| Clé de propriété | Notes |
+| Clé de propriété | Remarques |
 |---|---|
 | [IU de l’IU \_ \_](windowsribbon-reference-properties-uipkey-itemssource.md) | Prend en charge [IUIFramework :: GetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) (ne prend pas en charge [IUIFramework :: SetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty)). [IUIFramework :: GetUICommandProperty](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) retourne un pointeur vers un objet IUICollection qui représente les commandes dans le qat. Chaque commande est identifiée par son ID de commande, qui est obtenu en appelant la méthode [IUISimplePropertySet :: GetValue](/windows/desktop/api/uiribbon/nf-uiribbon-iuisimplepropertyset-getvalue) et en passant la clé de propriété de l' [interface utilisateur de l’interface utilisateur \_ \_ CommandID](windowsribbon-reference-properties-uipkey-commandid.md). |
 
@@ -218,5 +218,5 @@ Aucune clé de propriété n’est associée à l’élément de commande **autr
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-- [Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+- [Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 - [Élément de balisage QuickAccessToolbar](windowsribbon-element-quickaccesstoolbar.md)

@@ -4,12 +4,12 @@ description: En savoir plus sur le texte de l’interface utilisateur qui appara
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 93dd04bdce0331e6dca97922e2f5f8879a2214e932ac51889f03114009dc1165
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b24b6fd105c89484e1ef935141acfa91ef5b2b39
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119030681"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481195"
 ---
 # <a name="user-interface-text"></a>Texte de l’interface utilisateur
 
@@ -153,7 +153,7 @@ Les polices et couleurs suivantes sont des valeurs par défaut pour Windows.
 | ![première colonne : texte modifiable ](images/text-ui-image17.png)<br/>               | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![première colonne : texte désactivé ](images/text-ui-image18.png)<br/>               | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![première colonne : lien ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![première colonne : en-tête de groupe ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![première colonne : nom de fichier (dans l’affichage du contenu) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![première colonne : texte du document ](images/text-ui-image23.png)<br/>               | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -209,7 +209,7 @@ Pour plus d’informations et d’exemples, consultez [polices](vis-fonts.md) et
 
 ### <a name="punctuation"></a>Ponctuation
 
-**Paiements**
+**Points**
 
 -   **Ne placez pas à la fin des étiquettes de contrôle, des instructions principales ou des liens d’aide.**
 -   Placez à la fin des instructions supplémentaires, des explications supplémentaires ou tout autre texte statique qui forme une phrase complète.
@@ -500,121 +500,9 @@ Le tableau suivant répertorie les étiquettes de bouton de validation les plus 
 
 
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Étiquette du bouton</strong><br/></td>
-<td><strong>Signification</strong><br/></td>
-<td><strong>Quand utiliser</strong><br/></td>
-<td><strong>Clé d’accès</strong><br/></td>
-</tr>
-<tr class="even">
-<td><strong>OK</strong><br/></td>
-<td><ul>
-<li>Dans les boîtes de dialogue : appliquer les modifications ou valider la tâche et fermer la fenêtre.</li>
-<li>Dans les fenêtres de propriétés du propriétaire : appliquez les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application) et fermez la fenêtre.</li>
-<li>Dans les fenêtres de propriétés détenues : conserver les modifications, fermer la fenêtre et appliquer les modifications lorsque les modifications de la fenêtre propriétaire sont appliquées.</li>
-</ul></td>
-<td><ul>
-<li>Utilisez avec les fenêtres qui ne sont pas spécifiques aux tâches, telles que les feuilles de propriétés.</li>
-<li>Pour les fenêtres utilisées pour effectuer une tâche spécifique, utilisez une étiquette spécifique à la place, qui commence par un verbe (exemple : Print).</li>
-<li>Pour les fenêtres dans lesquelles les utilisateurs ne peuvent pas apporter de modifications, utilisez fermer.</li>
-</ul></td>
-<td>Entrez<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Oui/non</strong><br/></td>
-<td>Oui est la réponse affirmative à une question oui ou non, alors que non correspond à la réponse négative.<br/></td>
-<td><ul>
-<li>Utilisez les boutons Oui et non uniquement pour répondre à des questions oui ou non. N’utilisez jamais OK et annuler pour les questions oui ou aucune.</li>
-<li>Préférer des réponses spécifiques sur les boutons Oui et non. Bien qu’il n’y ait rien de mal à utiliser Oui et non, les réponses spécifiques peuvent être comprises plus rapidement, ce qui permet une prise de décision efficace.</li>
-<li>Toutefois, envisagez d’utiliser Oui et aucune réponse si la formulation de réponses spécifiques s’avère trop longue ou maladroite.</li>
-<li>N’utilisez pas de boutons Oui et non si la signification de la réponse no n’est pas claire. Dans ce cas, utilisez des réponses spécifiques à la place.</li>
-<li>Oui et non doivent toujours être utilisés en tant que paire.</li>
-</ul></td>
-<td>O et N<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Annuler</strong><br/></td>
-<td><ul>
-<li>Dans les boîtes de dialogue : ignorer toutes les modifications ou le travail en cours, revenir à l’état précédent (sans effet secondaire visible) et fermer la fenêtre.</li>
-<li>Dans les feuilles de propriétés : ignorer toutes les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application) et fermer la fenêtre.</li>
-<li>Dans les éléments du panneau de configuration : ignorer toutes les modifications ou travailler en cours, revenir à l’état précédent et revenir à la page Hub à partir de laquelle la tâche a été lancée. S’il n’existe pas de page de concentrateur de ce type, fermez la fenêtre de l’élément du panneau de configuration à la place.</li>
-</ul></td>
-<td><ul>
-<li>À utiliser lorsque toutes les modifications ou actions en attente peuvent être ignorées et que tous les effets secondaires peuvent être annulés.</li>
-<li>Pour les modifications qui ne peuvent pas être ignorées, utilisez fermer. Pour les actions en cours qui peuvent être arrêtées, utilisez arrêter. Si des modifications ou des actions initiales peuvent être ignorées, vous pouvez utiliser Cancel initialement, puis modifier pour fermer ou arrêter une fois qu’il ne peut pas être annulé.</li>
-</ul></td>
-<td>Échap<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Fermer</strong><br/></td>
-<td>Fermez la fenêtre. Les modifications ou les effets secondaires ne sont pas ignorés.<br/></td>
-<td><ul>
-<li>À utiliser lorsque les modifications ou les effets secondaires ne peuvent pas être ignorés. Utilisez fermer au lieu de annuler pour les fenêtres principales.</li>
-<li>Utilisez pour Windows dans lequel les utilisateurs ne peuvent pas apporter de modifications.</li>
-</ul></td>
-<td>ALT + F4, CTRL + F4<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Stop</strong><br/></td>
-<td>Arrêter une tâche en cours d’exécution et fermer la fenêtre. Les travaux en cours ou les effets secondaires ne sont pas ignorés.<br/></td>
-<td><ul>
-<li>À utiliser lorsque le travail en cours et les effets secondaires ne peuvent pas ou ne sont pas ignorés, en général avec les barres de progression ou les animations.</li>
-</ul></td>
-<td>Échap<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Appliquer</strong><br/></td>
-<td>Dans les feuilles de propriétés de propriétaire : appliquez les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application), mais laissez la fenêtre ouverte. Cela permet aux utilisateurs d’évaluer les modifications avant de fermer la feuille de propriétés. Dans les feuilles de propriétés détenues : n’utilisez pas.<br/></td>
-<td><ul>
-<li>Utilisez uniquement dans les feuilles de propriétés.</li>
-<li>Ne fournissez un bouton appliquer que si la feuille de propriétés contient des paramètres (au moins un) avec des effets que les utilisateurs peuvent évaluer de manière explicite. En règle générale, les boutons appliquer sont utilisés lorsque les paramètres apportent des modifications visibles. Les utilisateurs doivent pouvoir appliquer une modification, évaluer la modification et apporter d’autres modifications en fonction de cette évaluation. Si ce n’est pas le cas, supprimez le bouton appliquer au lieu de le désactiver.</li>
-</ul></td>
-<td>A<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Next</strong><br/></td>
-<td>Dans les assistants et les tâches à plusieurs étapes : passez à l’étape suivante sans valider la tâche.<br/></td>
-<td><ul>
-<li>À utiliser uniquement dans les assistants et les tâches à plusieurs étapes pour passer à l’étape suivante sans engagement.</li>
-<li>L’effet d’un bouton suivant peut toujours être annulé en cliquant sur précédent.</li>
-</ul></td>
-<td>N<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Terminer</strong><br/></td>
-<td>Dans les assistants et les tâches à plusieurs étapes : fermez la fenêtre. Si la tâche n’a pas encore été effectuée, effectuez la tâche. Si cette tâche a déjà été effectuée, les modifications ou les effets secondaires ne sont pas ignorés.<br/></td>
-<td><ul>
-<li>À utiliser uniquement dans les assistants et les tâches à plusieurs étapes. Toutefois, l’utilisation de la finition est déconseillée, car il existe généralement un bouton de validation mieux adapté :
-<ul>
-<li>si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été effectuée), utilisez une étiquette spécifique qui commence par un verbe (exemples : Print, Connecter, Start) qui est une réponse à l’instruction principale.</li>
-<li>Si la tâche a déjà été effectuée dans l’Assistant, utilisez à la place la fermeture.</li>
-</ul></li>
-<li>Toutefois, vous pouvez utiliser terminer lorsque :
-<ul>
-<li>L’étiquette spécifique est toujours générique, par exemple enregistrer, sélectionner, choisir ou récupérer.</li>
-<li>La tâche implique la modification d’un paramètre ou d’une collection de paramètres.</li>
-</ul></li>
-</ul></td>
-<td>Entrez<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Done</strong><br/></td>
-<td>Non applicable.<br/></td>
-<td><ul>
-<li>Ne pas utiliser. Une commande est incorrecte par programmation.</li>
-</ul></td>
-<td>Non applicable.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>Étiquette du bouton</strong><br /> | <strong>C.-à-d</strong><br /> | <strong>Quand l’utiliser</strong><br /> | <strong>Clé d’accès</strong><br /> | | <strong>OK</strong><br /> | <ul><li>Dans les boîtes de dialogue : appliquer les modifications ou valider la tâche et fermer la fenêtre.</li><li>Dans les fenêtres de propriétés du propriétaire : appliquez les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application) et fermez la fenêtre.</li><li>Dans les fenêtres de propriétés détenues : conserver les modifications, fermer la fenêtre et appliquer les modifications lorsque les modifications de la fenêtre propriétaire sont appliquées.</li></ul> | <ul><li>Utilisez avec les fenêtres qui ne sont pas spécifiques aux tâches, telles que les feuilles de propriétés.</li><li>Pour les fenêtres utilisées pour effectuer une tâche spécifique, utilisez une étiquette spécifique à la place, qui commence par un verbe (exemple : Print).</li><li>Pour les fenêtres dans lesquelles les utilisateurs ne peuvent pas apporter de modifications, utilisez fermer.</li></ul> | Entrez<br /> | | <strong>Oui/non</strong><br /> | Oui est la réponse affirmative à une question oui ou non, alors que non correspond à la réponse négative.<br /> | <ul><li>Utilisez les boutons Oui et non uniquement pour répondre à des questions oui ou non. N’utilisez jamais OK et annuler pour les questions oui ou aucune.</li><li>Préférer des réponses spécifiques sur les boutons Oui et non. Bien qu’il n’y ait rien de mal à utiliser Oui et non, les réponses spécifiques peuvent être comprises plus rapidement, ce qui permet une prise de décision efficace.</li><li>Toutefois, envisagez d’utiliser Oui et aucune réponse si la formulation de réponses spécifiques s’avère trop longue ou maladroite.</li><li>N’utilisez pas de boutons Oui et non si la signification de la réponse no n’est pas claire. Dans ce cas, utilisez des réponses spécifiques à la place.</li><li>Oui et non doivent toujours être utilisés en tant que paire.</li></ul> | O et N<br /> | | <strong>Annuler</strong><br /> | <ul><li>Dans les boîtes de dialogue : ignorer toutes les modifications ou le travail en cours, revenir à l’état précédent (sans effet secondaire visible) et fermer la fenêtre.</li><li>Dans les feuilles de propriétés : ignorer toutes les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application) et fermer la fenêtre.</li><li>Dans les éléments du panneau de configuration : ignorer toutes les modifications ou travailler en cours, revenir à l’état précédent et revenir à la page Hub à partir de laquelle la tâche a été lancée. S’il n’existe pas de page de concentrateur de ce type, fermez la fenêtre de l’élément du panneau de configuration à la place.</li></ul> | <ul><li>À utiliser lorsque toutes les modifications ou actions en attente peuvent être ignorées et que tous les effets secondaires peuvent être annulés.</li><li>Pour les modifications qui ne peuvent pas être ignorées, utilisez fermer. Pour les actions en cours qui peuvent être arrêtées, utilisez arrêter. Si des modifications ou des actions initiales peuvent être ignorées, vous pouvez utiliser Cancel initialement, puis modifier pour fermer ou arrêter une fois qu’il ne peut pas être annulé.</li></ul> | Escudo<br /> | | <strong>Fermer</strong><br /> | Fermez la fenêtre. Les modifications ou les effets secondaires ne sont pas ignorés.<br /> | <ul><li>À utiliser lorsque les modifications ou les effets secondaires ne peuvent pas être ignorés. Utilisez fermer au lieu de annuler pour les fenêtres principales.</li><li>Utilisez pour Windows dans lequel les utilisateurs ne peuvent pas apporter de modifications.</li></ul> | ALT + F4, CTRL + F4<br /> | | <strong>Arrêter</strong><br /> | Arrêter une tâche en cours d’exécution et fermer la fenêtre. Les travaux en cours ou les effets secondaires ne sont pas ignorés.<br /> | <ul><li>À utiliser lorsque le travail en cours et les effets secondaires ne peuvent pas ou ne sont pas ignorés, en général avec les barres de progression ou les animations.</li></ul> | Escudo<br /> | | <strong>Appliquer</strong><br /> | Dans les feuilles de propriétés de propriétaire : appliquez les modifications en attente (effectuées depuis l’ouverture de la fenêtre ou la dernière application), mais laissez la fenêtre ouverte. Cela permet aux utilisateurs d’évaluer les modifications avant de fermer la feuille de propriétés. Dans les feuilles de propriétés détenues : n’utilisez pas.<br /> | <ul><li>Utilisez uniquement dans les feuilles de propriétés.</li><li>Ne fournissez un bouton appliquer que si la feuille de propriétés contient des paramètres (au moins un) avec des effets que les utilisateurs peuvent évaluer de manière explicite. En règle générale, les boutons appliquer sont utilisés lorsque les paramètres apportent des modifications visibles. Les utilisateurs doivent pouvoir appliquer une modification, évaluer la modification et apporter d’autres modifications en fonction de cette évaluation. Si ce n’est pas le cas, supprimez le bouton appliquer au lieu de le désactiver.</li></ul> | Un<br /> | | <strong>Suivant</strong><br /> | Dans les assistants et les tâches à plusieurs étapes : passez à l’étape suivante sans valider la tâche.<br /> | <ul><li>À utiliser uniquement dans les assistants et les tâches à plusieurs étapes pour passer à l’étape suivante sans engagement.</li><li>L’effet d’un bouton suivant peut toujours être annulé en cliquant sur précédent.</li></ul> | N<br /> | | <strong>Terminer</strong><br /> | Dans les assistants et les tâches à plusieurs étapes : fermez la fenêtre. Si la tâche n’a pas encore été effectuée, effectuez la tâche. Si cette tâche a déjà été effectuée, les modifications ou les effets secondaires ne sont pas ignorés.<br /> | <ul><li>À utiliser uniquement dans les assistants et les tâches à plusieurs étapes. Toutefois, l’utilisation de la finition est déconseillée, car il existe généralement un bouton de validation mieux adapté :<ul><li>si le fait de cliquer sur le bouton est validé sur la tâche (donc la tâche n’a pas déjà été effectuée), utilisez une étiquette spécifique qui commence par un verbe (exemples : Print, Connecter, Start) qui est une réponse à l’instruction principale.</li><li>Si la tâche a déjà été effectuée dans l’Assistant, utilisez à la place la fermeture.</li></ul></li><li>Toutefois, vous pouvez utiliser terminer lorsque :<ul><li>L’étiquette spécifique est toujours générique, par exemple enregistrer, sélectionner, choisir ou récupérer.</li><li>La tâche implique la modification d’un paramètre ou d’une collection de paramètres.</li></ul></li></ul> | Entrez<br /> | | <strong>Terminé</strong><br /> | Non applicable.<br /> | <ul><li>Ne pas utiliser. Une commande est incorrecte par programmation.</li></ul> | Non applicable.<br /> | 
+
 
 
 

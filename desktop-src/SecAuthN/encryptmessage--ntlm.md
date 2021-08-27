@@ -4,12 +4,12 @@ ms.assetid: 852a4624-792d-4f7d-bd3e-5a28692e2ef3
 title: EncryptMessage (NTLM) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 4940cbc85fba6485ab78f087ce5b9bf9e4695138
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c36ce31793a7dc889b6dec40acac7606cc38bf3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522174"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480805"
 ---
 # <a name="encryptmessage-ntlm-function"></a>EncryptMessage (NTLM) (fonction)
 
@@ -41,8 +41,11 @@ Indicateurs spécifiques au package qui indiquent la qualité de la protection. 
 
 Ce paramètre peut être l’indicateur suivant.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br/></td></tr></tbody></table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br /> | 
+
 
 *pMessage* \[ in, out\]
 
@@ -58,7 +61,7 @@ Les applications qui n’utilisent pas SSL doivent fournir un [**SecBuffer**](/w
 
 Numéro de séquence que l’application de transport a affecté au message. Si l’application de transport ne conserve pas les numéros séquentiels, ce paramètre doit être égal à zéro.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 
@@ -74,7 +77,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **s \_ E \_ jeton non valide \_**          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                            |
 | **SEC \_ E \_ QoP \_ non \_ pris en charge**>    | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md).             |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (NTLM)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -98,8 +101,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 | -------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

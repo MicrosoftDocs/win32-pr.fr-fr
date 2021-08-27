@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475861(v=EXCHG.10)
 ms:contentKeyID: 37033567
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 99be77326fe9e037430203bf9744e550e8495fe1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: c02d9f8081040293bd154137163e13cc9d313a32
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103954030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984032"
 ---
 # <a name="jet_errinfobasic_w-structure"></a>Structure JET_ERRINFOBASIC_W
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_errinfobasic_w-structure"></a>Structure JET_ERRINFOBASIC_W
 
 La structure **JET_ERRINFOBASIC_W** définit les données retournées à partir de la méthode [JetGetErrorInfo ()](./jetgeterrorinfow-function.md) lorsque la JET_ErrorInfoSpecificErr InfoLevel est passée.
 
-Remarque : cette documentation est basée sur une version préliminaire du moteur de stockage extensible. Ces informations sont susceptibles d’être modifiées.
+remarque : cette documentation est basée sur une version préliminaire du moteur de Stockage Extensible. Ces informations sont susceptibles d’être modifiées.
 
 ```cpp
 typedef struct { 
@@ -64,23 +64,10 @@ Réservé.
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Requiert Windows 8.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Nécessite Windows 8 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>Requiert Windows 8.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows 8 Server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+

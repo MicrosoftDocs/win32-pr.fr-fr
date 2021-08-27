@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d0ae7a0ee43f93019f3c4c1f6145b3d8aa0e4367
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b72e17e648360a535f8090dc28323a3762a5cec0517f07ae78e9bb6d88045969
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096249"
 ---
 # <a name="d3dxcreateeffectfromresourceex-function"></a>D3DXCreateEffectFromResourceEx fonction)
 
@@ -103,7 +103,7 @@ Chaîne de paramètres d’effet qui sera ignorée par le système d’effet. La
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -145,7 +145,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est une version étendue de [**D3DXCreateEffectFromResource**](d3dxcreateeffectfromresource.md) qui permet à une application de spécifier les constantes d’effet qui seront gérées par l’application. Une constante gérée par l’application est ignorée par le système d’effets. Autrement dit, l’application est responsable de l’initialisation de la constante, ainsi que de l’enregistrement et de la restauration de son état chaque fois que nécessaire.
 
@@ -160,7 +160,7 @@ Si les paramètres du compilateur requièrent Unicode, le type de données LPCTS
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateEffectFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateEffectFromResourceA, car les chaînes ANSI sont utilisées.
 
-D3DXCreateEffectFromResource charge des données à partir d’une ressource de type RT \_ RCDATA. Pour plus d’informations sur les ressources Windows, consultez MSDN.
+D3DXCreateEffectFromResource charge des données à partir d’une ressource de type RT \_ RCDATA. pour plus d’informations sur les ressources de Windows, consultez MSDN.
 
 ## <a name="requirements"></a>Configuration requise
 

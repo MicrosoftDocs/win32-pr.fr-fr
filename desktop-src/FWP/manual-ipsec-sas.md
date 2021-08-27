@@ -4,12 +4,12 @@ description: Le scénario de stratégie IPsec d’association de sécurité manu
 ms.assetid: 2bcc0b40-ca43-43c6-b1e4-b64426ef7ff4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beeef4486e3a07dea2e83d924c2354a3dabca241
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 20cdb3d7c67d9cfa513cbdff846c02fd6ba61ebf031672fb86887bc01c90455b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083319"
 ---
 # <a name="manual-sa"></a>SA manuelle
 

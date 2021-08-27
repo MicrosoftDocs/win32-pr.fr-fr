@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: Décodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7554d6bc4a13fe1e4af4c51e75f1fe8a0bd38286
-ms.sourcegitcommit: 3a0a8a8fdce560a81a27789a1c04172ed96147b1
+ms.openlocfilehash: 1b9990965092c04b6ddc9e7b6c7b4d26cf577937
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112436589"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483105"
 ---
 # <a name="aac-decoder"></a>Décodeur AAC
 
@@ -21,7 +21,7 @@ Le décodeur Microsoft Media Foundation AAC est une [Media Foundation transforma
 
 Le décodeur AAC prend en charge les flux AAC bruts sans en-tête ni AAC dans un flux de transport de données audio (ADTS).
 
-À compter de Windows 8, le décodeur AAC prend également en charge le décodage des flux de transport audio MPEG-4 avec une couche multiplex (LATM) et une couche de synchronisation (garantie). Il peut également convertir un flux LATM/garantie en ADTS.
+à partir de Windows 8, le décodeur AAC prend également en charge le décodage des flux de transport audio MPEG-4 avec une couche multiplex (LATM) et une couche de synchronisation (garantie). Il peut également convertir un flux LATM/garantie en ADTS.
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
@@ -50,78 +50,19 @@ Pour configurer le décodeur AAC, définissez les attributs suivants sur le type
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Type principal.</td>
-<td>Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Sous-type audio.</td>
-<td>Pour plus d’informations, reportez-vous à la description précédente.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>Profil et niveau audio. <br/></td>
-<td>Optionnel. S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. <br/> La valeur de cet attribut est le champ <strong>audioProfileLevelIndication</strong> , tel que défini par la norme ISO/IEC 14496-3. <br/> S’il est inconnu, défini à zéro ou à 0xFE ( &quot; aucun profil audio n’est spécifié &quot; ).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>Type de charge utile.<br/></td>
-<td>S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. Le décodeur prend en charge les types de charge utile suivants : <br/>
-<ul>
-<li>0 : AAC brut. Le flux contient uniquement des éléments raw_data_block (), comme défini par MPEG-2.</li>
-<li>1 : ADTS. Le flux contient un adts_sequence (), tel que défini par MPEG-2. Une seule raw_data_block () par adts_frame () est autorisée.</li>
-<li>3 : flux de transport audio avec une couche de synchronisation (garantie) et une couche multiplex (LATM). Parmi les trois types de garantie, seul <strong>AudioSyncStream</strong> est pris en charge. La couche multiplex est <strong>AudioMuxElement</strong>, restreinte à un programme audio et une couche.</li>
-</ul>
-<a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments raw_data_block.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Profondeur de bits souhaitée du fichier audio PCM décodé.</td>
 
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. Pour plus d’informations, consultez <a href="#format-constraints">mettre en forme les contraintes</a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.<br/></td>
-<td>L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Taux d’échantillonnage, en échantillons par seconde.<br/></td>
-<td>L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
-<td>Informations de mise en forme supplémentaires.</td>
-<td>La valeur de cet attribut dépend du sous-type.<br/>
-<ul>
-<li><strong>MFAudioFormat_AAC</strong>: contient la partie de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> qui apparaît après la structure <strong>WAVEFORMATEX</strong> (autrement dit, après le membre <strong>wfx</strong> ). Cela est suivi des données AudioSpecificConfig (), telles que définies par la norme ISO/IEC 14496-3.</li>
-<li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: contient les données AudioSpecificConfig (). Ces données doivent apparaître. dans le cas contraire, le décodeur rejettera le type de média.</li>
-</ul>
-La longueur des données AudioSpecificConfig () est de 2 octets pour AAC-LC ou HE-AAC avec signal implicite de SBR/PS. Elle est supérieure à 2 octets pour le HE-AAC avec signalement explicite de SBR/PS.<br/> La valeur de <strong>audioObjectType</strong> telle que définie dans AudioSpecificConfig () doit être 2, ce qui indique AAC-LC. La valeur de <strong>extensionAudioObjectType</strong> doit être 5 pour SBR ou 29 pour PS. <br/></td>
-</tr>
-</tbody>
-</table>
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Type principal. | Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Sous-type audio. | Pour plus d’informations, reportez-vous à la description précédente. | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Profil et niveau audio. <br /> | facultatif. S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. <br /> La valeur de cet attribut est le champ <strong>audioProfileLevelIndication</strong> , tel que défini par la norme ISO/IEC 14496-3. <br /> S’il est inconnu, défini à zéro ou à 0xFE (« aucun profil audio n’est spécifié »).<br /> | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Type de charge utile.<br /> | S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>. Le décodeur prend en charge les types de charge utile suivants : <br /><ul><li>0 : AAC brut. Le flux contient uniquement des éléments raw_data_block (), comme défini par MPEG-2.</li><li>1 : ADTS. Le flux contient un adts_sequence (), tel que défini par MPEG-2. Une seule raw_data_block () par adts_frame () est autorisée.</li><li>3 : flux de transport audio avec une couche de synchronisation (garantie) et une couche multiplex (LATM). Parmi les trois types de garantie, seul <strong>AudioSyncStream</strong> est pris en charge. La couche multiplex est <strong>AudioMuxElement</strong>, restreinte à un programme audio et une couche.</li></ul><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments raw_data_block.<br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Profondeur de bits souhaitée du fichier audio PCM décodé. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. Pour plus d’informations, consultez <a href="#format-constraints">mettre en forme les contraintes</a>. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.<br /> | L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Taux d’échantillonnage, en échantillons par seconde.<br /> | L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
+| <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | Informations de mise en forme supplémentaires. | La valeur de cet attribut dépend du sous-type.<br /><ul><li><strong>MFAudioFormat_AAC</strong>: contient la partie de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> qui apparaît après la structure <strong>WAVEFORMATEX</strong> (autrement dit, après le membre <strong>wfx</strong> ). Cela est suivi des données AudioSpecificConfig (), telles que définies par la norme ISO/IEC 14496-3.</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: contient les données AudioSpecificConfig (). Ces données doivent apparaître. dans le cas contraire, le décodeur rejettera le type de média.</li></ul>La longueur des données AudioSpecificConfig () est de 2 octets pour AAC-LC ou HE-AAC avec signal implicite de SBR/PS. Elle est supérieure à 2 octets pour le HE-AAC avec signalement explicite de SBR/PS.<br /> La valeur de <strong>audioObjectType</strong> telle que définie dans AudioSpecificConfig () doit être 2, ce qui indique AAC-LC. La valeur de <strong>extensionAudioObjectType</strong> doit être 5 pour SBR ou 29 pour PS. <br /> | 
+
 
 
 
@@ -133,37 +74,13 @@ Le décodeur prend en charge les types de sortie suivants :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Subtype</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>MFAudioFormat_Float</strong></td>
-<td>Audio à virgule flottante IEEE.</td>
-</tr>
-<tr class="even">
-<td><strong>MFAudioFormat_PCM</strong></td>
-<td>audio PCM 16 bits.</td>
-</tr>
-<tr class="odd">
-<td><strong>MFAudioFormat_AAC</strong></td>
-<td>Requiert Windows 8. <br/> Ce type de sortie peut être utilisé pour convertir un flux AAC au format garantie/LATM au format ADTS. <br/> Pour convertir un flux garantie/LATM en un flux ADTS, définissez le type d’entrée sur <strong>MFAudioFormat_AAC</strong> avec le type de charge utile 3 (garantie). Définissez ensuite le type de sortie sur <strong>MFAudioFormat_AAC</strong> avec le type de charge utile 1 (ADTS). Le décodeur reformatera le conainter sans décoder le flux binaire. <br/>
-<blockquote>
-[!Note]<br />
-Le décodeur n’inscrit pas <strong>MFAudioFormat_AAC</strong> comme type de sortie. Toutefois, si l’application définit le type d’entrée comme décrit, la méthode <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype"><strong>IMFTransform :: GetOutputAvailableType</strong></a> retourne <strong>MFAudioFormat_AAC</strong> dans la liste des types de sortie disponibles.
-</blockquote>
-<br/> <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Subtype | Description | 
+|---------|-------------|
+| <strong>MFAudioFormat_Float</strong> | Audio à virgule flottante IEEE. | 
+| <strong>MFAudioFormat_PCM</strong> | audio PCM 16 bits. | 
+| <strong>MFAudioFormat_AAC</strong> | Requiert Windows 8. <br /> Ce type de sortie peut être utilisé pour convertir un flux AAC au format garantie/LATM au format ADTS. <br /> Pour convertir un flux garantie/LATM en un flux ADTS, définissez le type d’entrée sur <strong>MFAudioFormat_AAC</strong> avec le type de charge utile 3 (garantie). Définissez ensuite le type de sortie sur <strong>MFAudioFormat_AAC</strong> avec le type de charge utile 1 (ADTS). Le décodeur reformatera le conainter sans décoder le flux binaire. <br /><blockquote>[!Note]<br />Le décodeur n’inscrit pas <strong>MFAudioFormat_AAC</strong> comme type de sortie. Toutefois, si l’application définit le type d’entrée comme décrit, la méthode <a href="/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype"><strong>IMFTransform :: GetOutputAvailableType</strong></a> retourne <strong>MFAudioFormat_AAC</strong> dans la liste des types de sortie disponibles.</blockquote><br /><br /> | 
+
 
 
 
@@ -235,37 +152,13 @@ Le décodeur AAC implémente la méthode [**IMFTransform :: GetAttributes**](/w
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/DirectShow/avdecaudiodualmono-property"><strong>CODECAPI_AVDecAudioDualMono</strong></a></td>
-<td>Spécifie si le contenu audio à 2 canaux est encodé en stéréo ou en double mono. Traiter en lecture seule.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a></td>
-<td>Spécifie comment le décodeur reproduit un double audio mono. La valeur par défaut est <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>: sortie CH1 vers les haut-parleurs gauche et droit. <br/> Les applications peuvent définir cette propriété pour modifier le comportement par défaut.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mft-support-dynamic-format-change-attribute.md"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a></td>
-<td>Le décodeur AAC ne gère pas les modifications de format dynamiques et doit être vidé ou vidé avant qu’un nouveau type de média d’entrée soit défini. Traiter cet attribut comme étant en lecture seule. <br/>
-<blockquote>
-[!Note]<br />
-Le décodeur AAC signale incorrectement la valeur <strong>true</strong> pour cet attribut.
-</blockquote>
-<br/> <br/> Dans Windows 7, le décodeur signale incorrectement la valeur <strong>true</strong> pour cet attribut. Dans Windows 8, le décodeur signale <strong>false</strong>, qui est la valeur correcte<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="/windows/desktop/DirectShow/avdecaudiodualmono-property"><strong>CODECAPI_AVDecAudioDualMono</strong></a> | Spécifie si le contenu audio à 2 canaux est encodé en stéréo ou en double mono. Traiter en lecture seule. | 
+| <a href="/windows/desktop/DirectShow/avdecaudiodualmonorepromode-property"><strong>CODECAPI_AVDecAudioDualMonoReproMode</strong></a> | Spécifie comment le décodeur reproduit un double audio mono. La valeur par défaut est <strong>eAVDecAudioDualMonoReproMode_LEFT_MONO</strong>: sortie CH1 vers les haut-parleurs gauche et droit. <br /> Les applications peuvent définir cette propriété pour modifier le comportement par défaut.<br /> | 
+| <a href="mft-support-dynamic-format-change-attribute.md"><strong>MFT_SUPPORT_DYNAMIC_FORMAT_CHANGE</strong></a> | Le décodeur AAC ne gère pas les modifications de format dynamiques et doit être vidé ou vidé avant qu’un nouveau type de média d’entrée soit défini. Traiter cet attribut comme étant en lecture seule. <br /><blockquote>[!Note]<br />Le décodeur AAC signale incorrectement la valeur <strong>true</strong> pour cet attribut.</blockquote><br /><br /> dans Windows 7, le décodeur signale incorrectement la valeur <strong>TRUE</strong> pour cet attribut. dans Windows 8, le décodeur signale <strong>false</strong>, qui est la valeur correcte<br /> | 
+
 
 
 
@@ -325,17 +218,17 @@ Les deux derniers octets de [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) 
 
  
 
-Si la mise à jour du supplément Platform pour Windows Vista est installée, le décodeur audio AAC est disponible sur Windows Vista, mais il est accessible sur Windows Vista uniquement à l’aide du [lecteur source](source-reader.md).
+si la mise à jour du supplément Platform pour Windows vista est installée, le décodeur audio AAC est disponible sur Windows vista, mais il est accessible sur Windows vista uniquement à l’aide du [lecteur Source](source-reader.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                                                                                                     |
-| DLL<br/>                      | <dl> <dt>Msmpeg2adec.dll sur Windows 7 ; </dt> <dt>MSAudDecMFT.dll sur Windows 8</dt> </dl> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                                                                                                     |
+| DLL<br/>                      | <dl> <dt>Msmpeg2adec.dll sur Windows 7 ;</dt> <dt>MSAudDecMFT.dll sur Windows 8</dt> </dl> |
 
 
 

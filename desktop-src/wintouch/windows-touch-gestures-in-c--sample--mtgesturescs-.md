@@ -1,33 +1,33 @@
 ---
-title: Gestes tactiles Windows dans l’exemple C (MTGesturesCS)
-description: Cette section décrit l’exemple de gestes tactiles Windows dans C \.
+title: Windows Gestes tactiles dans l’exemple C (MTGesturesCS)
+description: cette section décrit l’exemple de gestes tactiles Windows dans C \.
 ms.assetid: 4b2d70bb-47e4-4448-97e2-6f6e29d1dfdf
 keywords:
 - Windows Touch, exemples de code
-- Tactile Windows, exemple de code
-- Tactile Windows, gestes
-- Tactile Windows, exemples de mouvements
+- Windows Toucher, exemple de code
+- Windows Toucher, mouvements
+- Windows Toucher, exemples de geste
 - Exemples de mouvements
 - gestes, exemple de code
 - mouvements, exemples de code
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: e6ffc0e8caf63807d4df80a1b96229f2fa7b5ff9
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ac3a7c0772ad7329d14d9909b55f8a60ef6e7d7473a06fcba921297117a00b6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089902"
 ---
-# <a name="windows-touch-gestures-in-c-sample-mtgesturescs"></a>Exemples de saisie tactile Windows en C# (MTGesturesCS)
+# <a name="windows-touch-gestures-in-c-sample-mtgesturescs"></a>Windows Gestes tactiles dans l’exemple C# (MTGesturesCS)
 
-Cette section décrit l’exemple de gestes tactiles Windows en C#.
+cette section décrit l’exemple de gestes tactiles Windows en C#.
 
-Cet exemple de gestes tactiles Windows montre comment utiliser des messages de mouvement pour translater, faire pivoter et mettre à l’échelle une zone rendue par le Graphics Device Interface (GDI) en gérant le message [**WM_GESTURE**](wm-gesture.md) . La capture d’écran suivante montre comment l’exemple apparaît lorsqu’il est en cours d’exécution.
+cet exemple Windows les gestes tactiles montre comment utiliser des messages de mouvement pour translater, faire pivoter et mettre à l’échelle une zone rendue par le Graphics Device Interface (GDI) en gérant le message d' [**WM_GESTURE**](wm-gesture.md) . La capture d’écran suivante montre comment l’exemple apparaît lorsqu’il est en cours d’exécution.
 
 ![capture d’écran montrant les gestes tactiles Windows dans l’échantillon net Sharp lorsqu’il est en cours d’exécution, avec un rectangle blanc avec contour noir centré à l’écran](images/mtgesturescs.png)
 
-Pour cet exemple, les messages de mouvement sont passés à un moteur de mouvement qui appelle ensuite des méthodes sur des objets de dessin pour translater, faire pivoter et mettre à l’échelle un objet qui a des méthodes pour gérer ces commandes. Pour que cela soit possible en C#, une forme spéciale, TouchableForm, est créée pour gérer les messages de mouvement. Ce formulaire utilise ensuite les messages pour apporter des modifications à un objet de dessin, DrawingObject, pour modifier le rendu de l’objet dans la méthode Paint.
+Pour cet exemple, les messages de mouvement sont passés à un moteur de mouvement qui appelle ensuite des méthodes sur des objets de dessin pour translater, faire pivoter et mettre à l’échelle un objet qui a des méthodes pour gérer ces commandes. Pour que cela soit possible en C#, une forme spéciale, TouchableForm, est créée pour gérer les messages de mouvement. ce formulaire utilise ensuite les messages pour apporter des modifications à un objet de dessin, DrawingObject, pour modifier le rendu de l’objet dans la méthode Paint.
 
 Pour vous aider à voir comment fonctionne l’exemple, examinez les étapes d’utilisation de la commande PAN pour traduire la zone rendue. Un utilisateur effectue le mouvement de panoramique qui génère un message de [**WM_GESTURE**](wm-gesture.md) avec l’identificateur de mouvement GID_PAN. Le TouchableForm gère ces messages et met à jour la position de l’objet de dessin, et l’objet est ensuite rendu traduit.
 
@@ -106,4 +106,4 @@ Les gestes panoramiques entraînent le rendu de la zone dessinée.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Application de mouvements tactiles multiples (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [application de gestes multipoint (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), exemples de [fonctions tactiles Windows](windows-touch-samples.md)
+[application de mouvements tactiles multiples (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [application de gestes multipoint (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), exemples de [touches tactiles Windows](windows-touch-samples.md)

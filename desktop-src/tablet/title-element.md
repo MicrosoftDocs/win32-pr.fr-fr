@@ -4,12 +4,12 @@ ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Titre, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52648e3f5783e706c91cf42a041e3a2e01952427ea4f66381405789827aa2eee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 05661be8566cf4136194af4e08d8f9774d3413dc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119589319"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473135"
 ---
 # <a name="title-element"></a>Titre, élément
 
@@ -33,57 +33,13 @@ Contient des informations de titre sur la note du journal.
 
 
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Type</th>
-<th>Obligatoire</th>
-<th>Description</th>
-<th>Valeurs possibles</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Style</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Obligatoire</td>
-<td>Spécifie le type de bordure entourant le titre de la note.</td>
-<td><ul>
-<li>Aucun</li>
-<li>SolidSquare</li>
-<li>OutlineSquare</li>
-<li>SolidRoundRect</li>
-<li>OutlineRoundRect</li>
-<li>SolidRoundRectDottedBaseline</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>DateStyle</strong></td>
-<td><strong>xs:string</strong></td>
-<td>Obligatoire</td>
-<td>Définit si le titre contient une date ou non.</td>
-<td><ul>
-<li>Aucun</li>
-<li>Court</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>Couleur</strong></td>
-<td><a href="colortype-simple-type.md"><strong>ColorType, simpleType</strong></a></td>
-<td>Facultatif</td>
-<td>Spécifie la couleur de l'arrière-plan.</td>
-<td>Voir <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Type | Obligatoire | Description | Valeurs possibles | 
+|-----------|------|----------|-------------|-----------------|
+| <strong>Style</strong> | <strong>xs:string</strong> | Obligatoire | Spécifie le type de bordure entourant le titre de la note. | <ul><li>Aucun</li><li>SolidSquare</li><li>OutlineSquare</li><li>SolidRoundRect</li><li>OutlineRoundRect</li><li>SolidRoundRectDottedBaseline</li></ul> | 
+| <strong>DateStyle</strong> | <strong>xs:string</strong> | Obligatoire | Définit si le titre contient une date ou non. | <ul><li>Aucun</li><li>Court</li></ul> | 
+| <strong>Couleur</strong> | <a href="colortype-simple-type.md"><strong>ColorType, simpleType</strong></a> | Facultatif | Spécifie la couleur de l'arrière-plan. | Voir <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a>. | 
+
 
 
 

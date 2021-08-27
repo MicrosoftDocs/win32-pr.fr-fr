@@ -4,12 +4,12 @@ ms.assetid: d37df17d-8cd5-4481-bee2-062cf9d78e9b
 title: LOCALE_INVARIANT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fca1e526b91ba372ed7efaad62e9e1597b0d5130
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2c3a4bddaaa51ca72be9d48f273ac0cbd1727e18e5c821e8ce86acaf0f90ec4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120106579"
 ---
 # <a name="locale_invariant"></a>paramètres régionaux \_ INvariants
 

@@ -3,16 +3,16 @@ title: Indicateurs de route
 description: Indicateurs de route
 ms.assetid: 17deae88-573f-48ec-887e-521549b39c32
 keywords:
-- Routage
+- Route
 - Indicateurs de route
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1711ef4ed621d55cc00302cca181676a3892c030
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1476742f1204eb14dd2bb96b289825d179a58e5bec01ff0aee18bcfbdb13a9b7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081239"
 ---
 # <a name="route-flags"></a>Indicateurs de route
 
@@ -28,7 +28,7 @@ ms.locfileid: "103939695"
 
 
 
- 
+ 
 
 ## <a name="route-update-flags"></a>Indicateurs de mise à jour de routage
 
@@ -42,7 +42,7 @@ ms.locfileid: "103939695"
 
 
 
- 
+ 
 
 ## <a name="unicast-flags"></a>Indicateurs de monodiffusion
 
@@ -56,7 +56,7 @@ ms.locfileid: "103939695"
 
 
 
- 
+ 
 
 ## <a name="broadcast-and-multicast-flags"></a>Indicateurs de diffusion et de multidiffusion
 
@@ -74,13 +74,13 @@ ms.locfileid: "103939695"
 
 
 
- 
+ 
 
 ## <a name="grouping-of-flags"></a>Regroupement d’indicateurs
 
 
 
-| Group                            | Membres                                                                                                                                                                  | Description                                              |
+| Groupe                            | Membres                                                                                                                                                                  | Description                                              |
 |----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | \_transfert des \_ indicateurs de routage RTM \_    | indicateurs d’itinéraire RTM \_ \_ \_ MARTIAN, RTM \_ indicateurs d’itinéraires \_ \_ BLACKHOLE, RTM \_ indicateurs d’itinéraire \_ \_ ignorés, \_ indicateurs de route RTM \_ \_ inactifs                                                        | Spécifie les indicateurs de transfert.                          |
 | \_l’itinéraire RTM \_ signale \_ toute \_ monodiffusion  | indicateurs d’itinéraire RTM \_ \_ \_ local, \_ indicateurs d’itinéraire RTM \_ \_ à distance, \_ indicateurs de routage RTM moi- \_ \_ même                                                                                           | Spécifie des indicateurs de monodiffusion.                             |
@@ -91,11 +91,11 @@ ms.locfileid: "103939695"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
