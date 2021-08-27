@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c7cb48b5691a9ca99a0fca5b696d8b545a40e46
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3f7c669db848a668d294e509ad65a56ef19aebd53d0c718f12e524cfc16a940
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124719"
 ---
 # <a name="ivmvirtualmachinesetactivationvalue-method"></a>IVMVirtualMachine :: SetActivationValue, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit la valeur du paramètre d’activation spécifié pour cet ordinateur virtuel.
 
@@ -77,16 +77,16 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode fournit un accès de bas niveau à toute valeur d’activation. Il peut être utilisé pour définir des valeurs d’activation pour les clés définies par le client. Soyez prudent si vous utilisez cette méthode pour définir les valeurs d’activation du système, car aucune vérification des erreurs n’est effectuée sur la valeur d’activation. En outre, certaines valeurs d’activation ne peuvent pas être modifiées pendant l’exécution de la machine virtuelle. Lorsqu’un ordinateur virtuel est démarré, une copie de ses valeurs de configuration est créée, qui devient son ensemble de valeurs d’activation. Les valeurs d’activation sont conservées jusqu’à ce que la machine virtuelle soit arrêtée ou redémarrée. Notez que Windows Virtual PC peut uniquement utiliser la configuration pour stocker des valeurs pour certaines clés, autrement dit, la valeur d’activation peut ne jamais être utilisée.
+Cette méthode fournit un accès de bas niveau à toute valeur d’activation. Il peut être utilisé pour définir des valeurs d’activation pour les clés définies par le client. Soyez prudent si vous utilisez cette méthode pour définir les valeurs d’activation du système, car aucune vérification des erreurs n’est effectuée sur la valeur d’activation. En outre, certaines valeurs d’activation ne peuvent pas être modifiées pendant l’exécution de la machine virtuelle. Lorsqu’un ordinateur virtuel est démarré, une copie de ses valeurs de configuration est créée, qui devient son ensemble de valeurs d’activation. Les valeurs d’activation sont conservées jusqu’à ce que la machine virtuelle soit arrêtée ou redémarrée. notez que Windows Virtual PC peut uniquement utiliser la configuration pour stocker des valeurs pour certaines clés, autrement dit, la valeur d’activation peut ne jamais être utilisée.
 
 > [!Note]  
 > La session de l’ordinateur virtuel doit être en cours d’exécution pour que toutes les valeurs d’activation puissent être modifiées.
 
  
 
-Les clés d’activation sont stockées en interne de manière hiérarchique, de la même façon que les clés de Registre dans Windows. Pour spécifier une sous-clé spécifique, un « chemin d’accès de clé » est construit, qui spécifie les différentes clés dans un format délimité par des barres obliques.
+Les clés d’activation sont stockées en interne de manière hiérarchique, à l’instar des clés de Registre dans Windows. Pour spécifier une sous-clé spécifique, un « chemin d’accès de clé » est construit, qui spécifie les différentes clés dans un format délimité par des barres obliques.
 
 Par exemple, pour définir la valeur de la clé « \_ action par défaut » située dans l’arborescence de clé suivante :
 
@@ -108,7 +108,7 @@ La chaîne de chemin d’accès *clé* est spécifiée comme suit :
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

@@ -4,12 +4,12 @@ ms.assetid: 28ea95a2-e602-4f71-9488-48525e995814
 title: PageBlackGenerationProcessingGrayComponentReplacementStart
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2e7e5a7e22c20b15dc373a2cce2bfe19e3417d4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3323f3aa910673b5e35d660cf59b9f30fb0380711d053db314167a9f93c3dd3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112319"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementstart"></a>PageBlackGenerationProcessingGrayComponentReplacementStart
 
@@ -28,7 +28,7 @@ Décrit le point dans la plage « mettre en surbrillance pour l’ombre » où
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
-| Notes <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
+| Remarques <br/>          | Lié à l’élément PageBlackGenerationProcessing<br/> |
 
 
 
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

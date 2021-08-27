@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4ce9101caed2a60dc3be7fe0039a1e391423f1fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5b8ddea67d6c47984edc76bc833a24a0a1800ab292683b3f441f008a9ab71def
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119309"
 ---
 # <a name="d3dxcreatetexturefromresource-function"></a>D3DXCreateTextureFromResource fonction)
 
@@ -85,15 +85,15 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateTextureFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateTextureFromResourceA, car les chaînes ANSI sont utilisées.
 
 La fonction est équivalente à D3DXCreateTextureFromResourceEx (pDevice, hSrcModule, pSrcResource, D3DX \_ default, D3DX par défaut \_ , D3DX \_ default, 0, D3DFMT \_ UNknown, D3DPOOL \_ Managed, D3DX \_ default, D3DX \_ default, 0, **null**, **null**, ppTexture).
 
-La ressource en cours de chargement doit être de type RT \_ bitmap ou RT \_ RCDATA. Le type de ressource « RT \_ RCDATA » est utilisé pour charger des formats autres que des bitmaps (tels que. TGA,. jpg et. DDS).
+La ressource en cours de chargement doit être de type RT \_ bitmap ou RT \_ RCDATA. Le type de ressource RT \_ RCDATA est utilisé pour charger des formats autres que des bitmaps (tels que. TGA, .jpg et. DDS).
 
-Cette fonction prend en charge les formats de fichier suivants :. bmp,. DDS,. dib,. HDR,. jpg,. PFM,. png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Cette fonction prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 Notez qu’une ressource créée avec cette fonction quand elle est appelée à partir d’un objet IDirect3DDevice9 est placée dans la classe de mémoire indiquée par D3DPOOL \_ gérée. Lorsque cette méthode est appelée à partir d’un objet IDirect3DDevice9Ex, la ressource est placée dans la classe de mémoire indiquée par la \_ valeur par défaut de D3DPOOL.
 

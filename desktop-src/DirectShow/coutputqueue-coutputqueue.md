@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 17a795bf4ec33ec904b83f6621fc0bc4f43b4b15
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bf50314fd0ceb1afbe00c5a6a63708cc79ab38d77931c80b086039c7ca9704c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087239"
 ---
 # <a name="coutputqueuecoutputqueue-constructor"></a>Constructeur COutputQueue. COutputQueue
 
@@ -105,7 +105,7 @@ Priorité du thread qui fournit des exemples.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Si *bAuto* a la **valeur true**, l’objet appelle la méthode [**IMemInputPin :: ReceiveCanBlock**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivecanblock) sur le code confidentiel en aval. Si **ReceiveCanBlock** retourne S \_ OK (ce qui signifie que le code confidentiel peut se bloquer sur [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) Calls), l’objet crée un thread pour la diffusion des exemples. Dans le cas contraire, il ne crée pas de thread.
 
@@ -119,7 +119,7 @@ Si l’objet crée un thread, il affecte le handle de thread à la variable memb
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Outputq. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Outputq. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

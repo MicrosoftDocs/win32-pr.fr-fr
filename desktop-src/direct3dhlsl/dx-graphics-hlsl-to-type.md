@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1881ba4a88e97e978e2646c92d276bb9763ffd
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 14ac22ba8c9da7d69784d977e2b78b8f0b52a6a3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111825769"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122628115"
 ---
 # <a name="texture-object"></a>Texture, objet
 
@@ -60,8 +60,8 @@ Les objets multiéchantillonnés (Texture2DMS et Texture2DMSArray) requièrent q
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -137,7 +137,7 @@ Les objets multiéchantillonnés (Texture2DMS et Texture2DMSArray) requièrent q
 </tr>
 <tr class="even">
 <td><p><span id="Type"></span><span id="type"></span><span id="TYPE"></span><em>Entrer</em></p></td>
-<td><p>facultatif. Tout type HLSL <a href="dx-graphics-hlsl-scalar.md">scalaire</a> ou type <a href="dx-graphics-hlsl-vector.md"><strong>HLSL vectoriel</strong></a>, entouré par des crochets pointus. Le type par défaut est <strong>float4</strong>.</p></td>
+<td><p>Optionnel. Tout type HLSL <a href="dx-graphics-hlsl-scalar.md">scalaire</a> ou type <a href="dx-graphics-hlsl-vector.md"><strong>HLSL vectoriel</strong></a>, entouré par des crochets pointus. Le type par défaut est <strong>float4</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Name"></span><span id="name"></span><span id="NAME"></span><em>Nomme</em></p></td>
@@ -244,7 +244,7 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                        | Prise en charge |
+| Modèle de nuanceur                                                        | Pris en charge |
 |---------------------------------------------------------------------|-----------|
 | [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
 

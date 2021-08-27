@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5cf601593d970f56be80b75ef5744295e7b4cf0941a6c401d8bae78c15542f21
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 138d95c80070d8e1b1d7c958534cd93965db47aa
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119889719"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472665"
 ---
 # <a name="jetbackupinstance-function"></a>Fonction JetBackupInstance
 
@@ -61,32 +61,13 @@ Répertoire dans lequel la sauvegarde est stockée. Si le chemin d’accès de s
 
 Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBackupAtomic</p></td>
-<td><p>Crée une sauvegarde complète de la base de données. Cela permet la conservation d’une sauvegarde existante dans le même répertoire en cas d’échec de la nouvelle sauvegarde.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitBackupIncremental</p></td>
-<td><p>Crée une sauvegarde incrémentielle par opposition à une sauvegarde complète. Cela signifie que seuls les fichiers journaux créés depuis la dernière sauvegarde complète ou incrémentielle sont sauvegardés.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitBackupSnapshot</p></td>
-<td><p>Réservé pour un usage futur.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitBackupAtomic</p> | <p>Crée une sauvegarde complète de la base de données. Cela permet la conservation d’une sauvegarde existante dans le même répertoire en cas d’échec de la nouvelle sauvegarde.</p> | 
+| <p>JET_bitBackupIncremental</p> | <p>Crée une sauvegarde incrémentielle par opposition à une sauvegarde complète. Cela signifie que seuls les fichiers journaux créés depuis la dernière sauvegarde complète ou incrémentielle sont sauvegardés.</p> | 
+| <p>JET_bitBackupSnapshot</p> | <p>Réservé pour un usage futur.</p> | 
+
 
 
 *pfnStatus*
@@ -97,90 +78,27 @@ Pointeur vers la fonction de rappel [JET_PFNSTATUS](./jet-pfnstatus-callback-fun
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>Une sauvegarde est déjà en cours pour la même instance. Plusieurs sauvegardes ne sont pas autorisées en même temps.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errBackupNotAllowedYet</p></td>
-<td><p>L’instance n’est pas encore prête pour la sauvegarde lors de son initialisation.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg294108(v=exchg.10).md">JetStopServiceInstance</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBackup</p></td>
-<td><p>Une sauvegarde incrémentielle n’est pas autorisée si l’enregistrement circulaire est activé.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidGrbit</p></td>
-<td><p>Les options spécifiées ne sont pas valides.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Un paramètre non valide a été passé dans l’API.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>Le chemin d’accès de destination n’existe pas.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLoggingDisabled</p></td>
-<td><p>L’instance est en cours d’exécution sans journalisation. Aucune sauvegarde n’est autorisée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errLogReadVerifyFailure</p></td>
-<td><p>Une erreur de vérification de la somme de contrôle s’est produite sur un fichier journal.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLogWriteFail</p></td>
-<td><p>La journalisation de l’instance est désactivée de façon temporaire ou définitive en raison d’une erreur inattendue.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errReadVerifyFailure</p></td>
-<td><p>Une erreur de vérification de la somme de contrôle s’est produite sur une page de base de données.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>L’opération ne peut pas se terminer car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>Une sauvegarde est déjà en cours pour la même instance. Plusieurs sauvegardes ne sont pas autorisées en même temps.</p> | 
+| <p>JET_errBackupNotAllowedYet</p> | <p>L’instance n’est pas encore prête pour la sauvegarde lors de son initialisation.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg294108(v=exchg.10).md">JetStopServiceInstance</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p><p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p> | 
+| <p>JET_errInvalidBackup</p> | <p>Une sauvegarde incrémentielle n’est pas autorisée si l’enregistrement circulaire est activé.</p> | 
+| <p>JET_errInvalidGrbit</p> | <p>Les options spécifiées ne sont pas valides.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Un paramètre non valide a été passé dans l’API.</p> | 
+| <p>JET_errInvalidPath</p> | <p>Le chemin d’accès de destination n’existe pas.</p> | 
+| <p>JET_errLoggingDisabled</p> | <p>L’instance est en cours d’exécution sans journalisation. Aucune sauvegarde n’est autorisée.</p> | 
+| <p>JET_errLogReadVerifyFailure</p> | <p>Une erreur de vérification de la somme de contrôle s’est produite sur un fichier journal.</p> | 
+| <p>JET_errLogWriteFail</p> | <p>La journalisation de l’instance est désactivée de façon temporaire ou définitive en raison d’une erreur inattendue.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errReadVerifyFailure</p> | <p>Une erreur de vérification de la somme de contrôle s’est produite sur une page de base de données.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p><p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>L’opération ne peut pas se terminer car l’instance associée à la session est en cours d’arrêt.</p> | 
+
 
 
 Une fois que la fonction a retourné une réussite, dans le répertoire de sauvegarde, tous les fichiers nécessaires à une restauration jusqu’au moment de la sauvegarde sont présents. S’il s’agit d’une sauvegarde complète, les fichiers sont les fichiers de base de données et les fichiers journaux nécessaires pour ramener la base de données à un état cohérent. S’il s’agit d’une sauvegarde incrémentielle, seuls les fichiers journaux sont ajoutés aux répertoires, mais les fichiers déjà existants (bases de données et fichiers journaux) ainsi que les nouveaux fichiers journaux peuvent être restaurés et ramener la base de données à l’État au moment de la sauvegarde.
@@ -207,38 +125,9 @@ Il est vivement recommandé de ne pas utiliser la sauvegarde pour d’autres fon
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetBackupInstanceW</strong> (Unicode) et <strong>JetBackupInstanceA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetBackupInstanceW</strong> (Unicode) et <strong>JetBackupInstanceA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

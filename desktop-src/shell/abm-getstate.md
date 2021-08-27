@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b1a3618be793f4728dc6184b50b7a4e0e57c3ffd2c4d2cd8acde17372aa031f4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1ced01e3f8186a82e99f408f91546ebcbb117ed9
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118225228"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466386"
 ---
 # <a name="abm_getstate-message"></a>\_Message ABM GETSTATE
 
@@ -42,39 +42,18 @@ Pointeur vers une structure [**APPBARDATA**](/windows/desktop/api/Shellapi/ns-sh
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Retourne zéro si la barre des tâches n’est ni dans l’état de masquage automatique ni toujours en haut. Dans le cas contraire, la valeur de retour est l’une des valeurs suivantes, ou les deux :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code de retour</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>ABS_ALWAYSONTOP</strong></dt> </dl></td>
-<td>La barre des tâches est dans l’État Always on Top. <br/>
-<blockquote>
-[!Note]<br />
-à partir de Windows 7, ABS_ALWAYSONTOP n’est plus renvoyé car la barre des tâches est toujours dans cet état. Le code plus ancien doit être mis à jour pour ignorer l’absence de cette valeur dans ne pas supposer que la valeur de retour signifie que la barre des tâches ne se trouve pas dans l’État Always on Top.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><dl> <dt><strong>ABS_AUTOHIDE</strong></dt> </dl></td>
-<td>La barre des tâches est dans l’État Masquer automatiquement.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Code de retour | Description | 
+|-------------|-------------|
+| <dl><dt><strong>ABS_ALWAYSONTOP</strong></dt></dl> | La barre des tâches est dans l’État Always on Top. <br /><blockquote>[!Note]<br />à partir de Windows 7, ABS_ALWAYSONTOP n’est plus renvoyé car la barre des tâches est toujours dans cet état. Le code plus ancien doit être mis à jour pour ignorer l’absence de cette valeur dans ne pas supposer que la valeur de retour signifie que la barre des tâches ne se trouve pas dans l’État Always on Top.</blockquote><br /> | 
+| <dl><dt><strong>ABS_AUTOHIDE</strong></dt></dl> | La barre des tâches est dans l’État Masquer automatiquement.<br /> | 
+
 
 
 

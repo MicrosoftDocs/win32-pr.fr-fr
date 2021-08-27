@@ -4,12 +4,12 @@ ms.assetid: 58A7BC21-0EB8-4bcf-98EE-31A56A4BC58C
 title: Élément searchConnectorDescriptionList (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4d7295796f205ca0d20f220ba827abfd5470bdb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9298ec0f25554f6e1b1ceb570630cf6e41c11fb027c2b1bb5496c8acc68ee41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111179"
 ---
 # <a name="searchconnectordescriptionlist-element-library-schema"></a>Élément searchConnectorDescriptionList (schéma de bibliothèque)
 
@@ -40,9 +40,9 @@ Cet <searchConnectorDescriptionList> élément contient une liste de connecteurs
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les connecteurs de recherche pour les étendues de recherche fédérée de Windows et de gestionnaire de protocole ne peuvent pas être inclus dans une bibliothèque.
+les connecteurs de recherche pour Windows des étendues de recherche fédérée et de gestionnaire de protocole ne peuvent pas être inclus dans une bibliothèque.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

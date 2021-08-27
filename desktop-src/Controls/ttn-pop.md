@@ -3,7 +3,7 @@ title: TTN_POP le code de notification (commctrl. h)
 description: Informe la fenêtre propriétaire qu’une info-bulle va être masquée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 44a38f1a-f1df-4057-bf76-f87eb467f0d7
 keywords:
-- Contrôles Windows de code de notification TTN_POP
+- TTN_POP les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 576aa382f571fb6ded7205d2df3b0abd938c704d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d3322da3ddbb677631a433e4cce1d2a9eb6e56c3484314026242f23c91c103f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109479"
 ---
 # <a name="ttn_pop-notification-code"></a>\_Code de notification pop ttn
 
@@ -55,8 +55,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

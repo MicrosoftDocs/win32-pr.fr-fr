@@ -4,12 +4,12 @@ ms.assetid: c1ac0382-1701-40e4-967a-d400ada96533
 title: Traitement des données de vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d350dee4c8de361d02d0d0844968298534ee47
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4656aadee8f39c61be438f85ae0829f0b10dac42c7e5c9014b6ba8c164b3257b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120118609"
 ---
 # <a name="processing-vertex-data-direct3d-9"></a>Traitement des données de vertex (Direct3D 9)
 
@@ -42,11 +42,11 @@ En outre, le tableau suivant répertorie les valeurs qui sont définies pour les
 
 | Membre                 | Fonctionnalités de traitement des vertex logiciels |
 |------------------------|-----------------------------------------|
-| MaxActiveLights        | Illimité                               |
+| MaxActiveLights        | illimitées                               |
 | MaxUserClipPlanes      | 6                                       |
 | MaxVertexBlendMatrices | 4                                       |
 | MaxStreams             | 16                                      |
-| MaxVertexIndex         | Égale                              |
+| MaxVertexIndex         | 0xFFFFFFFF                              |
 
 
 

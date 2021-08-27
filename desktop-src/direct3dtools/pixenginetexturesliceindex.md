@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 0fd954b5ba9d4dd20f35245350857352bc9b8ae3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b8d9a24ec921946939343c6454a48ad3833724ba
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515903"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631707"
 ---
 # <a name="span-idvspixenginepixenginetexturesliceindexspanpixenginetexturesliceindex-structure"></a><span id="vspixengine.pixenginetexturesliceindex"></span>PixEngineTextureSliceIndex, structure
 
@@ -51,7 +51,7 @@ Profondeur (z) de la tranche.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

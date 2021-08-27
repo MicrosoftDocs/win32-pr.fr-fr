@@ -4,12 +4,12 @@ ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b525c24529c725b8b7c7f71c53718d56ceb50603
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 09cfd220e3fae2af079ba4eceba8f820a9267b4d
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011282"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630227"
 ---
 # <a name="d3dcreate"></a>D3DCREATE
 
@@ -19,8 +19,8 @@ Combinaison d’un ou de plusieurs indicateurs qui contrôlent le comportement d
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -58,7 +58,7 @@ Combinaison d’un ou de plusieurs indicateurs qui contrôlent le comportement d
 <table>
 <tbody>
 <tr class="odd">
-<td>Différences entre Windows XP et Windows Vista :<br/> Cet indicateur est disponible sur Windows Vista, Windows Server 2008 et Windows 7.<br/></td>
+<td>différences entre Windows XP et Windows Vista :<br/> cet indicateur est disponible sur Windows Vista, Windows Server 2008 et Windows 7.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -92,15 +92,15 @@ Combinaison d’un ou de plusieurs indicateurs qui contrôlent le comportement d
 </tr>
 <tr class="even">
 <td>D3DCREATE_MIXED_VERTEXPROCESSING</td>
-<td>Spécifie le traitement des vertex mixtes (logiciels et matériels). Pour Windows 10, version 1607 et versions ultérieures, l’utilisation de ce paramètre n’est pas recommandée. Consultez D3DCREATE_SOFTWARE_VERTEXPROCESSING.</td>
+<td>Spécifie le traitement des vertex mixtes (logiciels et matériels). pour Windows 10, la version 1607 et les versions ultérieures, l’utilisation de ce paramètre n’est pas recommandée. Consultez D3DCREATE_SOFTWARE_VERTEXPROCESSING.</td>
 </tr>
 <tr class="odd">
 <td>D3DCREATE_SOFTWARE_VERTEXPROCESSING</td>
-<td>Spécifie le traitement du vertex logiciel. Pour Windows 10, version 1607 et versions ultérieures, l’utilisation de ce paramètre n’est pas recommandée. Utilisez D3DCREATE_HARDWARE_VERTEXPROCESSING.
+<td>Spécifie le traitement du vertex logiciel. pour Windows 10, la version 1607 et les versions ultérieures, l’utilisation de ce paramètre n’est pas recommandée. Utilisez D3DCREATE_HARDWARE_VERTEXPROCESSING.
 <div class="alert">
 <blockquote>
 [!Note]<br />
-Sauf si le traitement du vertex matériel n’est pas disponible, l’utilisation du traitement du vertex logiciel n’est pas recommandée dans Windows 10, version 1607 (et versions ultérieures), car l’efficacité du traitement du vertex logiciel a été considérablement réduite, tout en améliorant la sécurité de l’implémentation.
+sauf si le traitement du vertex matériel n’est pas disponible, l’utilisation du traitement du vertex logiciel n’est pas recommandée dans Windows 10, version 1607 (et versions ultérieures), car l’efficacité du traitement du vertex logiciel a été considérablement réduite, tout en améliorant la sécurité de l’implémentation.
 </blockquote>
 </div>
 <div>

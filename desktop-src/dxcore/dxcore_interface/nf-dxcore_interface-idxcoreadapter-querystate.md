@@ -4,12 +4,12 @@ description: Récupère l’état actuel de l’élément spécifié sur l’ada
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 61fc5c601904011de8f343777a95385a16ec3d7e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e5c585c249141c1491ddf36ee798d8b11148425026e9011bd0653169f998fb9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117719"
 ---
 # <a name="idxcoreadapterquerystate-method"></a>IDXCoreAdapter :: QueryState, méthode
 
@@ -83,7 +83,7 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 |E_INVALIDARG|Une taille de mémoire tampon insuffisante est fournie pour *OUTPUTBUFFER* (ou pour *inputStateDetails* où un tampon de détails d’état d’entrée est nécessaire).|
 |E_POINTER|`nullptr` a été fourni pour *OUTPUTBUFFER* (ou pour *inputStateDetails* où un tampon de détails d’état d’entrée est nécessaire).|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur chaque type d’état de l’adaptateur et sur les entrées et les sorties utilisées, consultez [DXCoreAdapterState](./ne-dxcore_interface-dxcoreadapterstate.md) . Cette fonction met à zéro la mémoire tampon *OUTPUTBUFFER* avant de la remplir.
 

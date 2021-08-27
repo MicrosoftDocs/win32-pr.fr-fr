@@ -4,12 +4,12 @@ ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: ICU (International Components for Unicode)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 560a2f344a3024685e17df0f434f8ffa040b5c8b
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: 5c7fec661b24e352c24abddf687e6b119752e39ce80c12dc409000afa179f1f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107022"
 ---
 # <a name="international-components-for-unicode-icu"></a>ICU (International Components for Unicode)
 
@@ -29,10 +29,10 @@ Pour plus d’informations, vous pouvez visiter le site Web ICU : <http://site.
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Dans Windows 10 Creators Update, ICU a été intégré à Windows, ce qui rendait les API et les données C accessibles publiquement.
+dans Windows 10 Creators Update, ICU a été intégré à Windows, ce qui rendait les api et les données C accessibles publiquement.
 
 > [!IMPORTANT]
-> La version d’ICU dans Windows expose uniquement les API C. Elle n’expose pas les API C++. Malheureusement, il est impossible d’exposer les API C++ en raison de l’absence d’un ABI stable en C++.
+> la version d’ICU dans Windows expose uniquement les api C. Elle n’expose pas les API C++. Malheureusement, il est impossible d’exposer les API C++ en raison de l’absence d’un ABI stable en C++.
 
 Pour obtenir de la documentation sur les API de la bibliothèque ICU C, consultez la page de documentation ICU officielle ici : <http://icu-project.org/apiref/icu4c/index.html#Module>
 
@@ -44,10 +44,10 @@ Elle a été ajoutée en tant que :
 - Deux DLL système :
     -   **icuuc.dll** (il s’agit de la bibliothèque « commune » ICU)
     -   **icuin.dll** (il s’agit de la bibliothèque ICU « i18n »)
-- Deux fichiers d’en-tête dans le kit de développement logiciel Windows 10 :
+- deux fichiers d’en-tête dans le kit de développement logiciel (SDK) Windows 10 :
     -   **icucommon. h**
     -   **icui18n. h**
-- Deux bibliothèques d’importation dans le kit de développement logiciel (SDK) Windows 10 :
+- deux bibliothèques d’importation dans le kit de développement logiciel (SDK) Windows 10 :
     -   **icuuc. lib**
     -   **icuin. lib**
 
@@ -55,17 +55,17 @@ Elle a été ajoutée en tant que :
 Un fichier d’en-tête combiné, **ICU. h**, a été ajouté, qui contient le contenu des deux fichiers d’en-tête ci-dessus (icucommon. h et icui18n. h), et modifie également le type de `UCHAR` en `char16_t` .
 
 ### <a name="version-1903-may-2019-update"></a>Version 1903 (mai 2019 mise à jour)
-Une nouvelle DLL combinée, **icu.dll**, a été ajoutée, qui contient les bibliothèques « communes » et « i18n ». En outre, une nouvelle bibliothèque d’importation a été ajoutée au kit de développement logiciel (SDK) Windows 10 : **ICU. lib**.
+Une nouvelle DLL combinée, **icu.dll**, a été ajoutée, qui contient les bibliothèques « communes » et « i18n ». en outre, une nouvelle bibliothèque d’importation a été ajoutée au kit de développement logiciel (SDK) Windows 10 : **icu. lib**.
 
 À l’avenir, aucune nouvelle API ne sera ajoutée aux anciens en-têtes (icucommon. h et icui18n. h) ou aux anciennes bibliothèques d’importation (icuuc. lib et icuin. lib). Les nouvelles API sont ajoutées uniquement à l’en-tête combiné (ICU. h) et à la bibliothèque d’importation combinée (ICU. lib).
 
 ## <a name="getting-started"></a>Mise en route
 
-Il existe trois étapes principales à suivre : (Windows 10 Creators Update ou version ultérieure)
+il existe trois étapes principales à suivre : (Windows 10 Creators Update ou version ultérieure)
 
 <dl>
 
-1. Votre application doit cibler Windows 10 version 1703 (Creators Update) ou une version ultérieure.
+1. votre application doit cibler Windows 10 Version 1703 (Creators Update) ou une version ultérieure.
 
 2. Ajoutez les en-têtes :
 
@@ -74,7 +74,7 @@ Il existe trois étapes principales à suivre : (Windows 10 Creators Update ou 
    #include <icui18n.h>
    ```
 
-   Sur Windows 10 version 1709 et versions ultérieures, vous devez inclure l’en-tête combiné à la place :
+   sur Windows 10 Version 1709 et versions ultérieures, vous devez inclure l’en-tête combiné à la place :
 
    ``` syntax
    #include <icu.h>
@@ -85,7 +85,7 @@ Il existe trois étapes principales à suivre : (Windows 10 Creators Update ou 
    -   icuuc. lib
    -   icuin. lib
 
-   Sur Windows 10 version 1903 et versions ultérieures, vous devez utiliser la bibliothèque combinée à la place :
+   sur Windows 10 Version 1903 et versions ultérieures, vous devez utiliser la bibliothèque combinée à la place :
 
    -   ICU. lib
 
@@ -94,15 +94,15 @@ Il existe trois étapes principales à suivre : (Windows 10 Creators Update ou 
 Ensuite, vous pouvez appeler l’API ICU C à partir de ces bibliothèques. (Aucune API C++ n’est exposée.)
 
 > [!IMPORTANT]
-> Si vous utilisez les bibliothèques d’importation héritées, icuuc. lib et icuin. lib, assurez-vous qu’elles sont répertoriées avant les bibliothèques de parapluie, telles que onecoreuap. lib ou WindowsApp. lib, dans le paramètre de l’éditeur de liens dépendances supplémentaires (Voir l’image ci-dessous). Dans le cas contraire, l’éditeur de liens sera lié à ICU. lib, ce qui entraînera une tentative de chargement de icu.dll au moment de l’exécution. Cette DLL est présente uniquement depuis la version 1903. Par conséquent, si un utilisateur met à niveau le kit de développement logiciel (SDK) Windows 10 sur un ordinateur Windows antérieur à la version 1903, l’application ne peut pas se charger et s’exécuter. Pour obtenir un historique des bibliothèques ICU dans Windows, consultez [historique des modifications apportées à la bibliothèque ICU dans Windows](#history-of-changes-to-the-icu-library-in-windows).
+> Si vous utilisez les bibliothèques d’importation héritées, icuuc. lib et icuin. lib, assurez-vous qu’elles sont répertoriées avant les bibliothèques de parapluie, telles que onecoreuap. lib ou WindowsApp. lib, dans le paramètre de l’éditeur de liens dépendances supplémentaires (Voir l’image ci-dessous). Dans le cas contraire, l’éditeur de liens sera lié à ICU. lib, ce qui entraînera une tentative de chargement de icu.dll au moment de l’exécution. Cette DLL est présente uniquement depuis la version 1903. par conséquent, si un utilisateur met à niveau le kit de développement logiciel (SDK) Windows 10 sur un ordinateur 1903 Windows préversion, l’application ne peut pas se charger et s’exécuter. pour obtenir un historique des bibliothèques icu dans Windows, consultez [historique des modifications apportées à la bibliothèque icu dans Windows](#history-of-changes-to-the-icu-library-in-windows).
 
 ![exemple ICU](images/icu-example.png)
 
 > [!Note]  
 >
 > - Il s’agit de la configuration pour « toutes les plateformes ».
-> - Pour que les applications Win32 utilisent ICU, elles doivent d’abord appeler [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) . Sur Windows 10 version 1903 et versions ultérieures, où la bibliothèque ICU combinée (icu.dll/ICU.lib) est disponible, vous pouvez omettre l’appel de CoInitializeEx à l’aide de la bibliothèque combinée.
-> - Toutes les données retournées par les API ICU ne sont pas alignées sur le système d’exploitation Windows, car ce travail d’alignement est toujours en cours. 
+> - Pour que les applications Win32 utilisent ICU, elles doivent d’abord appeler [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) . sur Windows 10 version 1903 et versions ultérieures, où la bibliothèque ICU combinée (icu.dll/icu.lib) est disponible, vous pouvez omettre l’appel de CoInitializeEx à l’aide de la bibliothèque combinée.
+> - toutes les données retournées par les api ICU ne sont pas alignées sur le système d’exploitation Windows, car ce travail d’alignement est toujours en cours. 
 
 ## <a name="icu-example-app"></a>Exemple d’application ICU
 

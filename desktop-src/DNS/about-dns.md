@@ -8,20 +8,20 @@ keywords:
 - DNS (Domain Name System), Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c98573e72db645d96c263efd479135807274c18a
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 5cc286c18aa60a930a243c1500cf4707d0d42874fc9556fcb090df582334f077
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104211654"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084789"
 ---
 # <a name="about-dns"></a>À propos de DNS
 
 Le système DNS (Domain Name System) est un protocole standard utilisé pour localiser des ordinateurs sur un réseau basé sur IP. Les utilisateurs peuvent se souvenir de noms complets, par exemple `www.microsoft.com` plus faciles que les adresses basées sur les nombres, tels que composées.
 
-Les réseaux IP, tels que les réseaux Internet et Windows, s’appuient sur des adresses basées sur des nombres pour transmettre des données à travers le réseau. par conséquent, il est nécessaire de traduire les noms d’affichage (tels que `www.microsoft.com` ) en adresses numériques que le réseau peut reconnaître (par exemple, composées). DNS est le service de choix de Windows pour localiser ces ressources et les traduire en adresses IP.
+les réseaux IP, tels que les réseaux Internet et Windows, s’appuient sur des adresses basées sur des nombres pour transmettre des données à travers le réseau. par conséquent, il est nécessaire de traduire les noms d’affichage (tels que `www.microsoft.com` ) en adresses numériques que le réseau peut reconnaître (par exemple, composées). DNS est le service de choix dans Windows pour localiser ces ressources et les traduire en adresses IP.
 
-DNS est le service de localisation principal pour Active Directory. par conséquent, DNS peut être considéré comme un service de base pour Windows et Active Directory. Windows fournit des fonctions qui permettent aux programmeurs d’applications d’utiliser des fonctions DNS telles que la création de requêtes DNS par programmation, la comparaison d’enregistrements et la recherche de noms.
+dns est le service de localisation principal pour Active Directory. par conséquent, dns peut être considéré comme un service de base pour les Windows et les Active Directory. Windows fournit des fonctions qui permettent aux programmeurs d’applications d’utiliser des fonctions dns telles que la création de requêtes dns par programmation, la comparaison d’enregistrements et la recherche de noms.
 
 De nombreuses fonctions DNS sont en fait des types de fonction, car il existe un nom de base pour la fonction, mais son utilisation dépend de l’encodage des caractères. Par exemple, la fonction [**DNSQuery**](/windows/desktop/api/Windns/nf-windns-dnsquery_a) est indiquée dans la référence de fonction de l’interface de programmation d’applications (API) DNS en tant que **DNSQuery**, toutefois, son utilisation dans les applications varie selon que l’encodage de caractères est ANSI (désigné par l’ajout \_ d’un au nom du type de fonction), Unicode (désigné par l’ajout de \_ W au nom du type de fonction) ou UTF-8 (désigné par \_ l’ajout de UTF au nom du type de fonction). Par conséquent, l’appel de fonction pour la fonction **DNSQuery** serait en fait l’un des suivants :
 

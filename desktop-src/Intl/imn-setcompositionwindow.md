@@ -4,12 +4,12 @@ ms.assetid: 07a9f0f6-587e-47c6-8f18-b48bdab0a541
 title: IMN_SETCOMPOSITIONWINDOW le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55a1a4e989fb36049168359f86f85ee7a58103a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fed8e69c03250166e155b07d34a2ce19b5d5fd9336af6cf82133c258c2b88d46
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107049"
 ---
 # <a name="imn_setcompositionwindow-notification-code"></a>\_Code de notification SETCOMPOSITIONWINDOW IMN
 
@@ -44,7 +44,7 @@ Non utilisé.
 
 Cette commande n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application peut obtenir des informations sur le formulaire de composition à l’aide de la commande [**IMC \_ GETCOMPOSITIONWINDOW**](imc-getcompositionwindow.md) .
 
@@ -56,7 +56,7 @@ L’application peut obtenir des informations sur le formulaire de composition �
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a696d1c52a42cad2b3b67b047984b48d77637a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c57fda6eaea161839cdaa758c41f13749d4c5eda
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319774"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480045"
 ---
 # <a name="jet_indexlist-structure"></a>Structure JET_INDEXLIST
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_indexlist-structure"></a>Structure JET_INDEXLIST
 
@@ -109,35 +109,13 @@ Identificateur de colonne du nombre de colonnes dans l’index. Pour plus d’in
 
 Cette colonne est une [JET_coltypLong](./jet-coltyp.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>cIndexInfoCols<br />
-15</p></td>
-<td><p>Spécifie que 15 colonnes sont autorisées.</p></td>
-</tr>
-<tr class="even">
-<td><p>cColumnInfoCols<br />
-14</p></td>
-<td><p>Spécifie que 14 colonnes sont autorisées.</p></td>
-</tr>
-<tr class="odd">
-<td><p>cObjectInfoCols<br />
-9</p></td>
-<td><p>Spécifie que 9 colonnes sont autorisées.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>cIndexInfoCols<br />15</p> | <p>Spécifie que 15 colonnes sont autorisées.</p> | 
+| <p>cColumnInfoCols<br />14</p> | <p>Spécifie que 14 colonnes sont autorisées.</p> | 
+| <p>cObjectInfoCols<br />9</p> | <p>Spécifie que 9 colonnes sont autorisées.</p> | 
+
 
 
 **columnidcolumnid**
@@ -180,28 +158,12 @@ Les données de cette colonne peuvent être classées en tant que JET_bitKeyAsce
 
 Les options suivantes sont valides pour ce membre.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitKeyAscending</p></td>
-<td><p>Segment d’index dans l’ordre croissant.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitKeyDescending</p></td>
-<td><p>Segment d’index dans l’ordre décroissant.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitKeyAscending</p> | <p>Segment d’index dans l’ordre croissant.</p> | 
+| <p>JET_bitKeyDescending</p> | <p>Segment d’index dans l’ordre décroissant.</p> | 
+
 
 
 **columnidcolumnname**
@@ -216,7 +178,7 @@ Identificateur de colonne des indicateurs utilisés pour créer l’index. Pour 
 
 Cette colonne est une [JET_coltypLong](./jet-coltyp.md).
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Chaque ligne de la table temporaire correspond à une colonne dans un index particulier.
 
@@ -224,60 +186,21 @@ Par exemple, l’index « + A \\ 0 + B \\ 0 + C \\ 0 + D \\ 0 + E \\ 0 » est 
 
 Le nombre de clés dans un index particulier correspond au nombre de valeurs uniques qu’un appelant peut rechercher et obtenir une correspondance exacte. Le nombre d’entrées est le nombre de lignes correspondant à un index. Si un index a une contrainte d’unicité, le nombre de clés est égal au nombre d’entrées. Par exemple, si une table contient les informations suivantes et qu’un index est créé sur la colonne nommée « Key », il existe trois clés (100, 200 et 500), mais il existe quatre entrées (« This », « is », « an » et « example »).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Clé</p></th>
-<th><p>Entrée</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>100</p></td>
-<td><p>&quot;this&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>100</p></td>
-<td><p>&quot;is&quot;</p></td>
-</tr>
-<tr class="odd">
-<td><p>200</p></td>
-<td><p>&quot;pièce&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>500</p></td>
-<td><p>&quot;example&quot;</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Clé :</p> | <p>Entrée</p> | 
+|------------|--------------|
+| <p>100</p> | <p>Voici</p> | 
+| <p>100</p> | <p>non</p> | 
+| <p>200</p> | <p>pièce</p> | 
+| <p>500</p> | <p>tels</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

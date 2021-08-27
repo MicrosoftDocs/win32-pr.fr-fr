@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les fonctions de gestion du chemin d’accès de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+description: cette section décrit les fonctions de gestion du chemin d’accès de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 title: Fonctions de gestion du chemin de Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 8ed0a5e0f2e91a2e647af461ee6679a5542d28b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ab485d7055ed6412698d06e9d95628074c85f3cc1e7ac52e7513dd8975529826
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111119"
 ---
 # <a name="shell-path-handling-functions"></a>Fonctions de gestion du chemin de Shell
 
-Cette section décrit les fonctions de gestion du chemin d’accès de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+cette section décrit les fonctions de gestion du chemin d’accès de l’interpréteur de commandes Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

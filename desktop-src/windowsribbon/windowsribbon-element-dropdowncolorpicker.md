@@ -3,7 +3,7 @@ title: Élément DropDownColorPicker
 description: Représente une Drop-Down couleur Pickercontrol qui, lorsque l’utilisateur clique dessus, affiche une palette d’échantillons de couleurs.
 ms.assetid: fc4df978-9c52-43d5-8a5e-e015aa7058cd
 keywords:
-- Ruban des fenêtres d’élément DropDownColorPicker
+- élément DropDownColorPicker Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ce2fd1d9ff12b56d87955304fad24af23209ff91
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 31525ee1b7233f0bf49668856d917ef14bc034b6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442900"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622885"
 ---
 # <a name="dropdowncolorpicker-element"></a>Élément DropDownColorPicker
 
@@ -45,10 +45,10 @@ Représente un contrôle de [Sélecteur de couleurs déroulant](windowsribbon-co
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -62,20 +62,20 @@ Représente un contrôle de [Sélecteur de couleurs déroulant](windowsribbon-co
 <tr class="odd">
 <td><strong>Copeaux</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Taille de chaque puce ou nuance de couleur. <br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Small<br/> </dt> <dd> Chaque puce de couleur est un carré de pixel 11x11. <br/> </dd> <dt><span></span><span></span><strong></strong> Médias<br/> </dt> <dd> Chaque puce de couleur est un carré de 16 x 16 pixels. <br/> </dd> <dt><span></span><span></span><strong></strong> Conséquent<br/> </dt> <dd> Chaque puce de couleur est un carré de pixel 24x24. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ColorTemplate</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Modèles de disposition qui spécifient le type de <a href="windowsribbon-controls-dropdowncolorpicker.md">Sélecteur de couleur déroulant</a>. <br/> Limité à l’une des valeurs suivantes (si aucun attribut facultatif relatif à un <em>ColorTemplate</em> n’est déclaré, la vue par défaut est indiquée) :<br/> <br/>
 <dt><span></span><span></span><strong></strong> (ThemeColors)<br/> </dt> <dd> Par défaut. <br/> <img src="images/markup/colortemplate.themedcolors.1.png" alt="Screen shot of the DropDownColorPicker element with the ColorTemplate attribute set to &#39;ThemeColors&#39;." /><br/> La définition de l’attribut <em>ColorTemplate</em> pour <code>ThemeColors</code> active les fonctionnalités suivantes :<br/>
 <ul>
 <li>Ancre SplitButton.</li>
 <li>Le bouton couleur <strong>automatique</strong> est affiché par défaut.</li>
-<li>Palette de <strong>couleurs du thème</strong> Windows.</li>
+<li>Windows <strong>thème couleurs du thème</strong> .</li>
 <li>Grille d’échantillons de <strong>couleurs standard</strong> .</li>
 <li>La grille des échantillons de <strong>couleurs récentes</strong> est facultative.</li>
 <li>Lanceur de boîte de dialogue <strong>couleurs supplémentaires</strong> .</li>
@@ -100,14 +100,14 @@ Représente un contrôle de [Sélecteur de couleurs déroulant](windowsribbon-co
 <tr class="odd">
 <td><strong>Colonnes</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Nombre de colonnes de la puce de couleur (ou de l’échantillon).<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute valeur entière positive comprise entre 1 et 256 inclus.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -128,21 +128,21 @@ Représente un contrôle de [Sélecteur de couleurs déroulant](windowsribbon-co
 <tr class="odd">
 <td><strong>RecentColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Nombre de lignes de la puce de couleur (ou de l’échantillon) dans la zone <strong>couleurs récentes</strong> . <br/> Valide uniquement lorsque <code>ThemeColors</code> est spécifié pour l’attribut <em>ColorTemplate</em> .<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute valeur entière positive comprise entre 1 et 256 inclus.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>StandardColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Nombre de lignes de puce de couleur (ou d’échantillon) dans la zone de <strong>couleurs standard</strong> .<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute valeur entière positive comprise entre 1 et 256 inclus.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ThemeColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Nombre de lignes de puce de couleur (ou d’échantillon) dans la zone de <strong>couleurs de thème</strong> .<br/> Valide uniquement lorsque <code>ThemeColors</code> est spécifié pour l’attribut <em>ColorTemplate</em> .<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute valeur entière positive comprise entre 1 et 256 inclus.<br/> </dd> </dl></td>
 </tr>
@@ -173,7 +173,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownButton**](windowsribbon-element-dropdownbutton.md), [**DropDownGallery**](windowsribbon-element-dropdowngallery.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md), [**SplitButton**](windowsribbon-element-splitbutton.md)ou [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -233,7 +233,7 @@ Cette section de code illustre les trois types de déclarations de contrôle **D
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

@@ -1,5 +1,5 @@
 ---
-description: 'Méthode IShellDispatch4. ExplorerPolicy : obtient la valeur d’une stratégie Windows Internet Explorer spécifiée.'
+description: 'méthode IShellDispatch4. ExplorerPolicy : obtient la valeur d’une Windows spécifiée dans la stratégie Internet Explorer.'
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 title: Méthode IShellDispatch4. ExplorerPolicy (shldisp. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4a03d61905bdb1f2b16de11cc604625d8e71a7ea
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 16187fedde4a454ffaa5415ade08e61f5d0abca145caa7b5c8e29fa9f3b00cdd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111499"
 ---
 # <a name="ishelldispatch4explorerpolicy-method"></a>Méthode IShellDispatch4. ExplorerPolicy
 
-Obtient la valeur pour une stratégie Windows Internet Explorer spécifiée.
+obtient la valeur d’une Windows de stratégie Internet Explorer spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -58,7 +58,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,17 +72,17 @@ Type : **variante \***
 
 Valeur associée au nom de stratégie spécifié.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les administrateurs réseau peuvent contrôler et gérer l’environnement informatique de leurs utilisateurs en définissant des stratégies.
 
-Le nom de la valeur spécifiée doit se trouver dans la **\_ \_** \\  \\  \\  \\  \\  \\ sous-clé de l'**Explorateur** de stratégies CurrentVersion de l’utilisateur actuel de HKEY Microsoft Windows. Si le nom de la valeur n’existe pas, la méthode retourne la valeur **null**.
+le nom de la valeur spécifiée doit se trouver dans la sous-clé **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **policies** \\ **Explorer** . Si le nom de la valeur n’existe pas, la méthode retourne la valeur **null**.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation correcte de **ExplorerPolicy** pour JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation correcte de **ExplorerPolicy** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -142,8 +142,8 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 6,0 ou ultérieure)</dt> </dl> |

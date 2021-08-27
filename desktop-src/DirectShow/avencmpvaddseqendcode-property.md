@@ -4,12 +4,12 @@ ms.assetid: ef606207-2ee3-420b-afae-67c764e05e54
 title: Propriété AVEncMPVAddSeqEndCode (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a21adcf8b817e0049da3308760e20cdd0e9d473
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ba3d757bd3023ca9539172c96f6f276bc1833eb7c4e24c8b2bb3adc6038d77c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087589"
 ---
 # <a name="avencmpvaddseqendcode-property"></a>Propriété AVEncMPVAddSeqEndCode
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVAddSeqEndCode**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, l’encodeur ajoute un code de fin de séquence à la fin du flux.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, l’encodeur ajoute un code de fin de séquence à
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

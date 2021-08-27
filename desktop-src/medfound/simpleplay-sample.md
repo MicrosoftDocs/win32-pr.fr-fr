@@ -4,17 +4,17 @@ ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: Exemple SimplePlay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e02fee507ffed7bd91664f67ffb725565f47c721
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 331d91032931b26f7a0d9bd3938bcf484e09ee0794202048069213379d5ed51c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112919"
 ---
 # <a name="simpleplay-sample"></a>Exemple SimplePlay
 
 > [!IMPORTANT]
-> Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
+> Action déconseillée. Cette API peut être supprimée des futures versions de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
 
  
 
@@ -42,7 +42,7 @@ Cet exemple illustre les interfaces de Microsoft Media Foundation suivantes :
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimplePlay).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/SimplePlay).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, barre d’outils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4327c187a86ace6f02b93082675c345eae4d4edf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1194c9aabaa684370b99d23d91c979ff3410305b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380321"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471155"
 ---
 # <a name="toolbar-control-type"></a>ToolBar (type de contrôle)
 
@@ -48,38 +48,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ToolBar
-<ul>
-<li>Plusieurs contrôles (0 ou plus)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ToolBar
-<ul>
-<li>Plusieurs contrôles (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>ToolBar<ul><li>Plusieurs contrôles (0 ou plus)</li></ul></li></ul> | <ul><li>ToolBar<ul><li>Plusieurs contrôles (0 ou plus)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Un contrôle ToolBar peut contenir n’importe quel type de contrôle dans sa sous-arborescence. Le plus souvent, ils contiennent des boutons, des zones de liste modifiables et des boutons partagés.
 
@@ -104,7 +81,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -120,7 +97,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -139,7 +116,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -154,9 +131,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd9f15f942fb6dd7c4c831cb33552b6f59ec2cd6cf9cac9654386d6adc27649
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 2ff9fb79b5db5a6a71eee981166742b4e1680184
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119425739"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471925"
 ---
 # <a name="makecert"></a>MakeCert
 
@@ -40,122 +40,34 @@ Les options indiquées dans les tableaux suivants peuvent être utilisées uniqu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Option de base</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-a</strong> <strong></strong> <em>Algorithme</em></td>
-<td>Algorithme de <a href="/windows/desktop/SecGloss/h-gly"><em>hachage</em></a> . Doit avoir la valeur <strong>SHA-1</strong> ou <strong>MD5</strong> (valeur par défaut). Pour plus d’informations sur MD5, consultez <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-b</strong> <strong></strong> <em>DateStart</em></td>
-<td>Date à laquelle le certificat devient valide. La valeur par défaut est lorsque le certificat est créé. Le format de <em>DateStart</em> est mm/jj/aaaa.</td>
-</tr>
-<tr class="odd">
-<td><strong>-CY</strong> <strong></strong> <em>CertificateTypes</em></td>
-<td>Type de certificat. <em>CertificateTypes</em> peut être <strong>end</strong> pour l’entité finale ou l' <strong>autorité</strong> de <a href="/windows/desktop/SecGloss/c-gly"><em>certification</em></a>.</td>
-</tr>
-<tr class="even">
-<td><strong>-e</strong> <strong></strong> <em>DateEnd</em></td>
-<td>Date de fin de la période de validité. La valeur par défaut est l’année 2039.</td>
-</tr>
-<tr class="odd">
-<td><strong>-EKU</strong> <strong></strong> <em>OID1</em><strong>,</strong> <em>OID2</em> ...</td>
-<td>Insère dans le certificat une liste d’un ou de plusieurs <a href="/windows/desktop/SecGloss/o-gly"><em>identificateurs d’objet</em></a> (OID) séparés <a href="/windows/desktop/SecGloss/e-gly"><em>par des virgules, séparés</em></a> par des virgules. Par exemple, <strong>-EKU 1.3.6.1.5.5.7.3.2</strong> insère l’OID d’authentification du client. Pour obtenir les définitions des OID autorisés, consultez le fichier Wincrypt. h dans CryptoAPI 2.0.</td>
-</tr>
-<tr class="even">
-<td><strong>-h</strong> <strong></strong> <em>NumChildren</em></td>
-<td>Hauteur maximale de l’arborescence en dessous de ce certificat.</td>
-</tr>
-<tr class="odd">
-<td><strong>-l</strong> <strong></strong> <em>PolicyLink</em></td>
-<td>Lien vers les informations de stratégie de l’Agence SPC (par exemple, une URL).</td>
-</tr>
-<tr class="even">
-<td><strong>-m</strong> <strong></strong> <em>nMonths</em></td>
-<td>Durée de la période de validité.</td>
-</tr>
-<tr class="odd">
-<td><strong>-n</strong> <strong>&quot;</strong> <em>Nom</em><strong>&quot;</strong></td>
-<td>Nom du certificat de l’éditeur. Ce nom doit être conforme à la norme <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> . La méthode la plus simple consiste à utiliser le &quot; format CN =<em>myname</em> &quot; . Par exemple : <strong>-n &quot; CN = test &quot; </strong>.</td>
-</tr>
-<tr class="even">
-<td><strong>-nscp</strong></td>
-<td>L’extension d’authentification du client Netscape doit être incluse.</td>
-</tr>
-<tr class="odd">
-<td><strong>-PE</strong></td>
-<td>Marque la clé privée comme étant exportable.</td>
-</tr>
-<tr class="even">
-<td><strong>-r</strong></td>
-<td>Crée un certificat auto-signé</td>
-</tr>
-<tr class="odd">
-<td><strong>-SC</strong> <strong></strong> <em>SubjectCertFile</em></td>
-<td>Nom du fichier de certificat avec la clé publique du sujet existant à utiliser.</td>
-</tr>
-<tr class="even">
-<td><strong>-SK</strong> <strong></strong> <em>SubjectKey</em></td>
-<td>Emplacement du conteneur de clé du sujet qui contient la <a href="/windows/desktop/SecGloss/p-gly"><em>clé privée</em></a>. Un conteneur de clé sera créé s'il n'en existe aucun. Si aucune des options <strong>-SK</strong> ou <strong>-SV</strong> n’est utilisée, un conteneur de clé par défaut est créé et utilisé par défaut.</td>
-</tr>
-<tr class="odd">
-<td><strong>-ciel</strong> <strong></strong> <em>SubjectKeySpec</em></td>
-<td>Spécification de clé du sujet. <em>SubjectKeySpec</em> doit avoir l’une des trois valeurs possibles :<br/>
-<ul>
-<li><strong>Signature</strong> (spécification de clé AT_SIGNATURE)</li>
-<li><strong>Exchange</strong> (spécification de clé AT_KEYEXCHANGE)</li>
-<li>Entier, tel que <strong>3</strong></li>
-</ul>
-Pour plus d’informations, consultez la remarque qui suit ce tableau.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-SP</strong> <strong></strong> <em>SubjectProviderName</em></td>
-<td>Fournisseur CryptoAPI pour l’objet. La valeur par défaut est le fournisseur de l’utilisateur. Pour plus d’informations sur les fournisseurs CryptoAPI, consultez la documentation CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-SR</strong> <strong></strong> <em>SubjectCertStoreLocation</em></td>
-<td>Emplacement du Registre du magasin de certificats du sujet. <em>SubjectCertStoreLocation</em> doit être <strong>LocalMachine</strong> (clé de Registre HKEY_LOCAL_MACHINE) ou <strong>CurrentUser</strong> (clé de Registre HKEY_CURRENT_USER). <strong>CurrentUser</strong> est la valeur par défaut.</td>
-</tr>
-<tr class="even">
-<td><strong>-SS</strong> <strong></strong> <em>SubjectCertStoreName</em></td>
-<td>Nom du magasin de certificats du sujet dans lequel le certificat généré sera stocké.</td>
-</tr>
-<tr class="odd">
-<td><strong>-SV</strong> <strong></strong> <em>SubjectKeyFile</em></td>
-<td>Nom du fichier. pvk du sujet. Si aucune des options <strong>-SK</strong> ou <strong>-SV</strong> n’est utilisée, un conteneur de clé par défaut est créé et utilisé par défaut.</td>
-</tr>
-<tr class="even">
-<td><strong>-SY</strong> <strong></strong> <em>nSubjectProviderType</em></td>
-<td>Type de fournisseur CryptoAPI pour l’objet. La valeur par défaut est <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Pour plus d’informations sur les types de fournisseur CryptoAPI, consultez la documentation CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-#</strong><strong></strong> <em>SerialNumber</em></td>
-<td>Numéro de série du certificat. La valeur maximale est 2 ^ 31. La valeur par défaut est une valeur générée par l’outil qui est garantie comme étant unique.</td>
-</tr>
-<tr class="even">
-<td><strong>-$</strong><strong></strong> <em>CertificateAuthority</em></td>
-<td>Type d' <a href="/windows/desktop/SecGloss/c-gly"><em>autorité de certification</em></a>. <em>CertificateAuthority</em> doit être défini sur <strong>commercial</strong> (pour les certificats utilisés par les éditeurs de logiciels commerciaux) ou sur <strong>individuel</strong> (pour les certificats utilisés par les éditeurs de logiciels individuels).</td>
-</tr>
-<tr class="odd">
-<td><strong>-?</strong></td>
-<td>Affiche les options de base.</td>
-</tr>
-<tr class="even">
-<td><strong>-!</strong></td>
-<td>Affiche les options étendues.</td>
-</tr>
-</tbody>
-</table>
+
+| Option de base | Description | 
+|--------------|-------------|
+| <strong>-a</strong> <strong></strong> <em>Algorithme</em> | Algorithme de <a href="/windows/desktop/SecGloss/h-gly"><em>hachage</em></a> . Doit avoir la valeur <strong>SHA-1</strong> ou <strong>MD5</strong> (valeur par défaut). Pour plus d’informations sur MD5, consultez <a href="/windows/desktop/SecGloss/m-gly"><em>MD5</em></a>. | 
+| <strong>-b</strong> <strong></strong> <em>DateStart</em> | Date à laquelle le certificat devient valide. La valeur par défaut est lorsque le certificat est créé. Le format de <em>DateStart</em> est mm/jj/aaaa. | 
+| <strong>-CY</strong> <strong></strong> <em>CertificateTypes</em> | Type de certificat. <em>CertificateTypes</em> peut être <strong>end</strong> pour l’entité finale ou l' <strong>autorité</strong> de <a href="/windows/desktop/SecGloss/c-gly"><em>certification</em></a>. | 
+| <strong>-e</strong> <strong></strong> <em>DateEnd</em> | Date de fin de la période de validité. La valeur par défaut est l’année 2039. | 
+| <strong>-EKU</strong> <strong></strong> <em>OID1</em><strong>,</strong><em>OID2</em> ... | Insère dans le certificat une liste d’un ou de plusieurs<a href="/windows/desktop/SecGloss/o-gly"><em>identificateurs d’objet</em></a> (OID) séparés <a href="/windows/desktop/SecGloss/e-gly"><em>par des virgules, séparés</em></a>par des virgules. Par exemple, <strong>-EKU 1.3.6.1.5.5.7.3.2</strong> insère l’OID d’authentification du client. Pour obtenir les définitions des OID autorisés, consultez le fichier Wincrypt. h dans CryptoAPI 2.0. | 
+| <strong>-h</strong> <strong></strong> <em>NumChildren</em> | Hauteur maximale de l’arborescence en dessous de ce certificat. | 
+| <strong>-l</strong> <strong></strong> <em>PolicyLink</em> | Lien vers les informations de stratégie de l’Agence SPC (par exemple, une URL). | 
+| <strong>-m</strong> <strong></strong> <em>nMonths</em> | Durée de la période de validité. | 
+| <strong>-n</strong><strong>"</strong><em>nom</em><strong>"</strong> | Nom du certificat de l’éditeur. Ce nom doit être conforme à la norme <a href="/windows/desktop/SecGloss/x-gly"><em>X. 500</em></a> . La méthode la plus simple consiste à utiliser le format « CN =<em>myname</em>». Par exemple : <strong>-n "CN = test"</strong>. | 
+| <strong>-nscp</strong> | L’extension d’authentification du client Netscape doit être incluse. | 
+| <strong>-PE</strong> | Marque la clé privée comme étant exportable. | 
+| <strong>-r</strong> | Crée un certificat auto-signé | 
+| <strong>-SC</strong> <strong></strong> <em>SubjectCertFile</em> | Nom du fichier de certificat avec la clé publique du sujet existant à utiliser. | 
+| <strong>-SK</strong> <strong></strong> <em>SubjectKey</em> | Emplacement du conteneur de clé du sujet qui contient la <a href="/windows/desktop/SecGloss/p-gly"><em>clé privée</em></a>. Un conteneur de clé sera créé s'il n'en existe aucun. Si aucune des options <strong>-SK</strong> ou <strong>-SV</strong> n’est utilisée, un conteneur de clé par défaut est créé et utilisé par défaut. | 
+| <strong>-ciel</strong> <strong></strong> <em>SubjectKeySpec</em> | Spécification de clé du sujet. <em>SubjectKeySpec</em> doit avoir l’une des trois valeurs possibles :<br /><ul><li><strong>Signature</strong> (spécification de clé AT_SIGNATURE)</li><li><strong>Exchange</strong> (spécification de clé AT_KEYEXCHANGE)</li><li>Entier, tel que <strong>3</strong></li></ul>Pour plus d’informations, consultez la remarque qui suit ce tableau.<br /> | 
+| <strong>-SP</strong> <strong></strong> <em>SubjectProviderName</em> | Fournisseur CryptoAPI pour l’objet. La valeur par défaut est le fournisseur de l’utilisateur. Pour plus d’informations sur les fournisseurs CryptoAPI, consultez la documentation CryptoAPI 2.0. | 
+| <strong>-SR</strong> <strong></strong> <em>SubjectCertStoreLocation</em> | Emplacement du Registre du magasin de certificats du sujet. <em>SubjectCertStoreLocation</em> doit être <strong>LocalMachine</strong> (clé de Registre HKEY_LOCAL_MACHINE) ou <strong>CurrentUser</strong> (clé de Registre HKEY_CURRENT_USER). <strong>CurrentUser</strong> est la valeur par défaut. | 
+| <strong>-SS</strong> <strong></strong> <em>SubjectCertStoreName</em> | Nom du magasin de certificats du sujet dans lequel le certificat généré sera stocké. | 
+| <strong>-SV</strong> <strong></strong> <em>SubjectKeyFile</em> | Nom du fichier. pvk du sujet. Si aucune des options <strong>-SK</strong> ou <strong>-SV</strong> n’est utilisée, un conteneur de clé par défaut est créé et utilisé par défaut. | 
+| <strong>-SY</strong> <strong></strong> <em>nSubjectProviderType</em> | Type de fournisseur CryptoAPI pour l’objet. La valeur par défaut est <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Pour plus d’informations sur les types de fournisseur CryptoAPI, consultez la documentation CryptoAPI 2.0. | 
+| <strong>-#</strong><strong></strong><em>SerialNumber</em> | Numéro de série du certificat. La valeur maximale est 2 ^ 31. La valeur par défaut est une valeur générée par l’outil qui est garantie comme étant unique. | 
+| <strong>-$</strong><strong></strong><em>CertificateAuthority</em> | Type d' <a href="/windows/desktop/SecGloss/c-gly"><em>autorité de certification</em></a>. <em>CertificateAuthority</em> doit être défini sur <strong>commercial</strong> (pour les certificats utilisés par les éditeurs de logiciels commerciaux) ou sur <strong>individuel</strong> (pour les certificats utilisés par les éditeurs de logiciels individuels). | 
+| <strong>-?</strong> | Affiche les options de base. | 
+| <strong>-!</strong> | Affiche les options étendues. | 
+
 
 
 
@@ -170,50 +82,16 @@ les options suivantes sont uniquement destinées aux fichiers SPC ( [*Software P
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Option SPC et clé privée</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>-IC</strong> <strong></strong> <em>IssuerCertFile</em></td>
-<td>Emplacement du certificat de l’émetteur.</td>
-</tr>
-<tr class="even">
-<td><strong>-ik</strong> <strong></strong> <em>IssuerKey</em></td>
-<td>Emplacement du conteneur de clé de l’émetteur. La valeur par défaut est la clé racine de test.</td>
-</tr>
-<tr class="odd">
-<td><strong>-IKY</strong> <strong></strong> <em>IssuerKeySpec</em></td>
-<td>Spécification de clé de l’émetteur, qui doit être l’une des trois valeurs possibles :<br/>
-<ul>
-<li><strong>Signature</strong> (spécification de clé AT_SIGNATURE)</li>
-<li><strong>Exchange</strong> (spécification de clé AT_KEYEXCHANGE)</li>
-<li>Entier, tel que <strong>3</strong></li>
-</ul>
-Pour plus d’informations, consultez la remarque qui suit ce tableau.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>-IP</strong> <strong></strong> <em>IssuerProviderName</em></td>
-<td>Fournisseur CryptoAPI pour l’émetteur. La valeur par défaut est le fournisseur de l’utilisateur. Pour plus d’informations sur les fournisseurs CryptoAPI, consultez la documentation CryptoAPI 2.0.</td>
-</tr>
-<tr class="odd">
-<td><strong>-IV</strong> <strong></strong> <em>IssuerKeyFile</em></td>
-<td>Fichier de clé privée de l’émetteur. La valeur par défaut est la racine de test.</td>
-</tr>
-<tr class="even">
-<td><strong>-e/e</strong> <strong></strong> <em>nIssuerProviderType</em></td>
-<td>Type de fournisseur CryptoAPI pour l’émetteur. La valeur par défaut est <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Pour plus d’informations sur les types de fournisseur CryptoAPI, consultez la documentation CryptoAPI 2.0.</td>
-</tr>
-</tbody>
-</table>
+
+| Option SPC et clé privée | Description | 
+|----------------------------|-------------|
+| <strong>-IC</strong> <strong></strong> <em>IssuerCertFile</em> | Emplacement du certificat de l’émetteur. | 
+| <strong>-ik</strong> <strong></strong> <em>IssuerKey</em> | Emplacement du conteneur de clé de l’émetteur. La valeur par défaut est la clé racine de test. | 
+| <strong>-IKY</strong> <strong></strong> <em>IssuerKeySpec</em> | Spécification de clé de l’émetteur, qui doit être l’une des trois valeurs possibles :<br /><ul><li><strong>Signature</strong> (spécification de clé AT_SIGNATURE)</li><li><strong>Exchange</strong> (spécification de clé AT_KEYEXCHANGE)</li><li>Entier, tel que <strong>3</strong></li></ul>Pour plus d’informations, consultez la remarque qui suit ce tableau.<br /> | 
+| <strong>-IP</strong> <strong></strong> <em>IssuerProviderName</em> | Fournisseur CryptoAPI pour l’émetteur. La valeur par défaut est le fournisseur de l’utilisateur. Pour plus d’informations sur les fournisseurs CryptoAPI, consultez la documentation CryptoAPI 2.0. | 
+| <strong>-IV</strong> <strong></strong> <em>IssuerKeyFile</em> | Fichier de clé privée de l’émetteur. La valeur par défaut est la racine de test. | 
+| <strong>-e/e</strong> <strong></strong> <em>nIssuerProviderType</em> | Type de fournisseur CryptoAPI pour l’émetteur. La valeur par défaut est <a href="/windows/desktop/SecGloss/p-gly"><em>PROV_RSA_FULL</em></a>. Pour plus d’informations sur les types de fournisseur CryptoAPI, consultez la documentation CryptoAPI 2.0. | 
+
 
 
 

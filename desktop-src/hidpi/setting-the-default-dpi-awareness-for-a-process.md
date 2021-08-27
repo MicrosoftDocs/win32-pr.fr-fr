@@ -8,12 +8,12 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: 216952ac05811226c403739d389f8de9f636c3b8
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 52ef4f10ed2f4253c796ae10a57a71d8a7bc4f0d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880527"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122465676"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>Définition de la reconnaissance par défaut des PPP pour un processus
 
@@ -34,12 +34,12 @@ Il existe deux paramètres de manifeste qui vous permettent de spécifier le mod
 Le tableau ci-dessous montre comment spécifier des modes de reconnaissance des PPP par défaut de processus différents à l’aide des deux paramètres de manifeste :
 
 
-| Traiter le mode de reconnaissance PPP par défaut | &lt;&gt;paramètre dpiAware | &lt;&gt;paramètre dpiAwareness (Windows 10, version 1607 et versions ultérieures) | 
+| Traiter le mode de reconnaissance PPP par défaut | Paramètre <dpiAware> | <dpiAwareness>paramètre (Windows 10, version 1607 et versions ultérieures) | 
 |------------------------------------|--------------------|--------------------------------------------------------------|
-| ignore | <p>N/A (aucun paramètre dpiAware dans le manifeste)</p><p>ou</p><p>&lt;dpiAware &gt; false &lt; /dpiAware&gt;</p> | &lt;dpiAwareness ne &gt; connaissant pas &lt; /dpiAwareness&gt; | 
-| Prise en charge par le système | &lt;dpiAware &gt; true &lt; /dpiAware&gt; | &lt;dpiAwareness &gt; système &lt; /dpiAwareness&gt; | 
-| Par moniteur | &lt;dpiAware &gt; true/PM &lt; dpiAware&gt; | &lt;dpiAwareness &gt; permonitor &lt; /dpiAwareness&gt; | 
-| Par moniteur v2 | Non prise en charge | &lt;dpiAwareness &gt; PerMonitorV2 &lt; /dpiAwareness&gt; | 
+| ignore | <p>N/A (aucun paramètre dpiAware dans le manifeste)</p><p>ou</p><p>&lt;dpiAware &gt; false &lt; /dpiAware&gt;</p> | <dpiAwareness>ignore</dpiAwareness> | 
+| Prise en charge par le système | <dpiAware>true</dpiAware> | <dpiAwareness>système</dpiAwareness> | 
+| Par moniteur | <dpiAware>vrai/PM<dpiAware> | <dpiAwareness>Persurveiller</dpiAwareness> | 
+| Par moniteur v2 | Non pris en charge | <dpiAwareness>PerMonitorV2</dpiAwareness> | 
 
 
  

@@ -4,12 +4,12 @@ description: Les info-bulles multilignes autorisent l’affichage du texte sur p
 ms.assetid: 62B10B44-C1C2-4C86-8648-AE6B606BACBB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d6f32d638b2d33ea6270aa5f8ce2c09f0f4174
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3cd0d9f4172b256d2e6b72fb59ace4dc377fa3a0061e3ee0e6c0f234a74aad06
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085623"
 ---
 # <a name="how-to-implement-multiline-tooltips"></a>Comment implémenter des info-bulles multilignes
 
@@ -24,18 +24,18 @@ L’illustration suivante montre l’affichage qui en résulte.
 > [!Note]  
 > La mémoire tampon de texte spécifiée par le membre **szText** de la structure [**NMTTDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmttdispinfoa) peut contenir uniquement 80 caractères. Si vous devez utiliser une chaîne plus longue, pointez le membre **lpszText** de **NMTTDISPINFO** vers une mémoire tampon contenant le texte souhaité.
 
- 
+ 
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -70,9 +70,9 @@ Le fragment de code suivant est un exemple de gestionnaire de notification [ \_ 
 [Utilisation des contrôles ToolTip](using-tooltip-contro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

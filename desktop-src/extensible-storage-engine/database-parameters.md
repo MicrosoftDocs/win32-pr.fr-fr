@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 13de02c7d322933f64361cfdabcb8f95ead837ad915ad69c3961a8b8874d5b9a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: cdccfca7e7a68ea997c9b564939f89799634e344
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119117559"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471835"
 ---
 # <a name="database-parameters"></a>Paramètres de base de données
 
@@ -36,88 +36,20 @@ Cette rubrique contient les paramètres utilisés pour la base de données.
 
 Quand ce paramètre est défini, [JetInit](./jetinit-function.md) renvoie une erreur spéciale lorsqu’une base de données ou un journal des transactions d’une version précédente du moteur de base de données est ouvert. Ces erreurs sont les suivantes :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Erreur</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errDatabase200Format</p></td>
-<td><p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans Windows NT 3,51.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errDatabase400Format</p></td>
-<td><p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans une version de test antérieure à Windows NT Server 4,0.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabase500Format</p></td>
-<td><p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans Windows NT Server 4,0.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Erreur</p> | <p>Description</p> | 
+|--------------|--------------------|
+| <p>JET_errDatabase200Format</p> | <p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans Windows NT 3,51.</p> | 
+| <p>JET_errDatabase400Format</p> | <p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans une version de test antérieure à Windows NT Server 4,0.</p> | 
+| <p>JET_errDatabase500Format</p> | <p>La base de données et/ou les fichiers journaux des transactions ont été créés avec le moteur de base de données dans Windows NT Server 4,0.</p> | 
+
 
 
 **Windows Vista :**  pour Windows Vista et versions ultérieures, ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Vrai</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramDatabasePageSize*  
@@ -127,58 +59,9 @@ Ce paramètre configure la taille de page pour la base de données. La taille de
 
 **Remarque** Une seule taille de page de base de données est prise en charge par processus pour l’instant. Cela signifie que si vous êtes dans un processus unique qui contient des applications qui utilisent le moteur de base de données, elles doivent toutes accepter sur une taille de page de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>4096</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>2048, 4096, 8192</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>4096</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>2048, 4096, 8192</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramDbExtensionSize*  
@@ -186,59 +69,9 @@ Ce paramètre configure la taille de page pour la base de données. La taille de
 
 Ce paramètre contrôle la quantité d’espace qui est ajoutée à un fichier de base de données chaque fois qu’il doit croître pour accueillir davantage de données. La taille est dans les pages de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>256</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>1 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p>
-<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>256</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p><p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramEnableIndexChecking*  
@@ -254,59 +87,9 @@ Si des index secondaires sont détectés comme étant dans cet État, il existe 
 
 **Remarque** Il est fortement recommandé que les applications évitent l’utilisation de colonnes clés Unicode dans leurs index de clé primaire (en cluster).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Faux</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p>
-<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Global</p><p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramEnableIndexCleanup*  
@@ -318,59 +101,9 @@ Il est important de comprendre qu’il est possible que les modifications apport
 
 **Remarque** Il est fortement recommandé de définir ce paramètre et d' **JET_paramEnableIndexChecking** avoir la valeur **true** par votre application.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Vrai</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p>
-<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows Versions 2003 et ultérieures du serveur</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p><p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows Versions 2003 et ultérieures du serveur</p> | 
+
 
 
 *JET_paramOneDatabasePerSession*  
@@ -384,59 +117,9 @@ Lorsque ce paramètre a la valeur true, une seule base de données peut être ou
 
 **Remarque**  Ce paramètre est en écriture seule.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Faux</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Non</p>
-<p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p><p><strong>Windows Vista :</strong>  pour Windows Vista et versions ultérieures : oui</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramEnableOnlineDefrag*  
@@ -448,101 +131,21 @@ Windows 2000 : sur Windows 2000, ce paramètre était un booléen simple qui po
 
 **Windows XP :**  sur Windows XP et les versions ultérieures, ce paramètre peut être défini sur une ou plusieurs des options suivantes :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Option</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_OnlineDefragDisable</p></td>
-<td><p>N’effectuez pas de défragmentation en ligne. il s’agit du binaire équivalent au paramètre Windows 2000 de la valeur false pour ce paramètre.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragAllOBSOLETE</p></td>
-<td><p>Effectuez une défragmentation en ligne complète. il s’agit du binaire équivalent au paramètre Windows 2000 de True pour ce paramètre.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_OnlineDefragDatabases</p></td>
-<td><p>Effectuez une défragmentation en ligne des enregistrements de chaque table dans la base de données.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragSpaceTrees</p></td>
-<td><p>Effectuez une défragmentation en ligne des arborescences d’espaces de chaque table dans la base de données.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_OnlineDefragStreamingFiles</p></td>
-<td><p>ce paramètre est utilisé pour prendre en charge l’infrastructure Microsoft Exchange et n’est pas destiné à être utilisé dans votre application.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_OnlineDefragAll</p></td>
-<td><p>Effectuez une défragmentation en ligne complète. il s’agit du concept conceptuel équivalent au paramètre Windows 2000 de True pour ce paramètre.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Option</p> | <p>Description</p> | 
+|---------------|--------------------|
+| <p>JET_OnlineDefragDisable</p> | <p>N’effectuez pas de défragmentation en ligne. il s’agit du binaire équivalent au paramètre Windows 2000 de la valeur false pour ce paramètre.</p> | 
+| <p>JET_OnlineDefragAllOBSOLETE</p> | <p>Effectuez une défragmentation en ligne complète. il s’agit du binaire équivalent au paramètre Windows 2000 de True pour ce paramètre.</p> | 
+| <p>JET_OnlineDefragDatabases</p> | <p>Effectuez une défragmentation en ligne des enregistrements de chaque table dans la base de données.</p> | 
+| <p>JET_OnlineDefragSpaceTrees</p> | <p>Effectuez une défragmentation en ligne des arborescences d’espaces de chaque table dans la base de données.</p> | 
+| <p>JET_OnlineDefragStreamingFiles</p> | <p>ce paramètre est utilisé pour prendre en charge l’infrastructure Microsoft Exchange et n’est pas destiné à être utilisé dans votre application.</p> | 
+| <p>JET_OnlineDefragAll</p> | <p>Effectuez une défragmentation en ligne complète. il s’agit du concept conceptuel équivalent au paramètre Windows 2000 de True pour ce paramètre.</p> | 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p><strong>Windows 2000 :</strong>  :</p>
-<p><strong>Windows xp : pour Windows xp et versions ultérieures :</strong> JET_OnlineDefragAll</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p><strong>Windows 2000 :</strong>  Expression</p>
-<p><strong>Windows XP et versions ultérieures :</strong>  JET_GRBIT (entier)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000 :</strong>  False, true</p>
-<p><strong>Windows XP et versions ultérieures :</strong> 0 – JET_OnlineDefragAll</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+
+| | | <p>Valeur par défaut :</p> | <p><strong>Windows 2000 :</strong>  :</p><p><strong>Windows xp : pour Windows xp et versions ultérieures :</strong> JET_OnlineDefragAll</p> | | <p>Tapez :</p> | <p><strong>Windows 2000 :</strong>  Expression</p><p><strong>Windows XP et versions ultérieures :</strong>  JET_GRBIT (entier)</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000 :</strong>  False, true</p><p><strong>Windows XP et versions ultérieures :</strong> 0 – JET_OnlineDefragAll</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramPageFragment*  
@@ -550,58 +153,9 @@ Windows 2000 : sur Windows 2000, ce paramètre était un booléen simple qui po
 
 Ce paramètre correspond au seuil utilisé par le moteur de base de données pour contrôler la fragmentation de l’espace libre. La taille est dans les pages de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>8</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>8</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramRecordUpgradeDirtyLevel*  
@@ -609,58 +163,9 @@ Ce paramètre correspond au seuil utilisé par le moteur de base de données pou
 
 Ce paramètre contrôle la manière dont le gestionnaire de cache de la page de base de données écrira une page de base de données qui a subi une conversion de format en place. ces conversions de format se produisent à la volée lorsque les pages sont chargées à partir d’une base de données qui a été créée avec le moteur de base de données Windows 2000, mais utilisée par une version Windows XP ou ultérieure du moteur de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0-3</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>1</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0-3</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramWaypointLatency*  
@@ -668,58 +173,9 @@ Ce paramètre contrôle la manière dont le gestionnaire de cache de la page de 
 
 Latence (dans les journaux) en arrière-plan des vidages de pages de la page de base de données pour différer le vidage. L’activation de cette latence peut permettre la récupération de la base de données en cas de perte irrémédiable du fichier journal le plus récent. Consultez JET_bitReplayIgnoreLostLogs.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0-1023</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>0</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0-1023</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramDefragmentSequentialBTrees*  
@@ -727,58 +183,9 @@ Latence (dans les journaux) en arrière-plan des vidages de pages de la page de 
 
 Activez/désactivez la défragmentation séquentielle automatique de l’arbre B.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0-1</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>1</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>0-1</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramDefragmentSequentialBTreesDensityCheckFrequency*  
@@ -786,58 +193,9 @@ Activez/désactivez la défragmentation séquentielle automatique de l’arbre B
 
 Détermine la fréquence de vérification de la densité de l’arbre B.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0-entier maximal</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>10</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0-entier maximal</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows 7</p> | 
+
 
 
 *JET_paramIOThrottlingTimeQuanta*  
@@ -845,82 +203,16 @@ Détermine la fréquence de vérification de la densité de l’arbre B.
 
 Durée maximale, en millisecondes, pendant laquelle le mécanisme de limitation des e/s permet à une tâche de s’exécuter pour qu’elle soit considérée comme « terminée ».
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>125</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0-10000</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows 7</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>125</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0-10000</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows 7</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

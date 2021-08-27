@@ -3,7 +3,7 @@ title: LVN_MARQUEEBEGIN le code de notification (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle d’affichage de liste qu’une sélection de cadre englobant (texte défilant) a commencé. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e9daa264-1861-4791-9a12-cf95d86a688e
 keywords:
-- Contrôles Windows de code de notification LVN_MARQUEEBEGIN
+- LVN_MARQUEEBEGIN les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d46d399b8355bea0ddb2054340d52db59c3ad27
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8012981883564450603d11d0eb243375f48b46cdb14a14984a19415c84dab3a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109529"
 ---
 # <a name="lvn_marqueebegin-notification-code"></a>\_Code de notification LVN MARQUEEBEGIN
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 Pour accepter le code de notification, retournez zéro. Pour quitter la sélection de rectangle englobant, retournez une valeur différente de zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une *sélection de cadre englobant* est le processus qui consiste à cliquer sur la zone cliente de la fenêtre d’affichage de liste et à faire glisser pour sélectionner plusieurs éléments simultanément.
 
@@ -59,8 +59,8 @@ Une *sélection de cadre englobant* est le processus qui consiste à cliquer sur
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

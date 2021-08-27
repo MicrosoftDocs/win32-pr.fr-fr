@@ -4,12 +4,12 @@ ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: Outils de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8003bb002bd8d203547779c96bc15491a5418169
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9547ba1d3a13958859c2f0504c60a1a1bbe4a67403c9709bb57900b73ad3a50d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100979"
 ---
 # <a name="cryptography-tools"></a>Outils de chiffrement
 
@@ -38,14 +38,14 @@ Actuellement, les outils CryptoAPI prennent en charge la technologie Microsoft A
 
 | Extension de nom de fichier                             | Contenu                                                                                                                                                                                                                              |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| .appx<br/>                                | Fichiers du programme d’installation pour une application d’appareil Windows Store.<br/>                                                                                                                                                                            |
+| .appx<br/>                                | fichiers du programme d’installation pour une application de l’appareil Windows Store.<br/>                                                                                                                                                                            |
 | .cab<br/>                                 | Fichiers autonomes utilisés pour l’installation et la configuration de l’application. Dans un fichier CAB, plusieurs fichiers sont compressés dans un seul fichier. Ils se trouvent généralement sur les disques de distribution de logiciels de Microsoft.<br/>                        |
 | .cat<br/>                                 | Fichiers qui contiennent des [*empreintes*](../secgloss/t-gly.md) numériques de plusieurs fichiers. Un fichier. CAT peut être utilisé pour garantir l’intégrité des fichiers dont il dispose.<br/> |
 | .dll<br/>                                 | Fichiers qui contiennent des fonctions exécutables.<br/>                                                                                                                                                                                   |
 | .exe<br/>                                 | Fichiers qui contiennent des programmes exécutables.<br/>                                                                                                                                                                                    |
-| .js<br/> .vbs<br/> .wsf<br/>  | Fichiers du shell Windows pour JScript ou Microsoft Visual Basic Scripting Edition (VBScript).<br/>                                                                                                                                    |
-| .msi<br/> .msp<br/> .mst<br/> | Fichiers Windows Installer.<br/>                                                                                                                                                                                                   |
-| .ocx<br/>                                 | Fichiers qui contiennent des contrôles Microsoft ActiveX.<br/>                                                                                                                                                                             |
+| .js<br/> .vbs<br/> .wsf<br/>  | Windows des fichiers shell pour JScript ou Microsoft Visual Basic scripting Edition (VBScript).<br/>                                                                                                                                    |
+| .msi<br/> .msp<br/> .mst<br/> | Windows les fichiers du programme d’installation.<br/>                                                                                                                                                                                                   |
+| .ocx<br/>                                 | fichiers qui contiennent des contrôles Microsoft ActiveX.<br/>                                                                                                                                                                             |
 | .ps1<br/>                                 | Fichiers qui contiennent des scripts PowerShell.<br/>                                                                                                                                                                                     |
 | . STL<br/>                                 | Fichiers contenant une [*liste de certificats de confiance*](../secgloss/c-gly.md) (CTL).<br/>                                                                           |
 | .sys<br/>                                 | Fichiers qui contiennent des binaires de pilote.<br/>                                                                                                                                                                                        |
@@ -72,13 +72,13 @@ Les outils de publication et la DLL de signature sont installés dans le \\ rép
 
 
 
-| Nom de fichier                    | Notes                                                                                                                                                                                             |
+| Nom de fichier                    | Remarques                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Cert2SPC.exe](cert2spc.md) | Crée un [*certificat SPC (Software Publisher Certificate*](../secgloss/s-gly.md) ) à des fins de test uniquement.<br/> |
+| [Cert2SPC.exe](cert2spc.md) | crée un [*certificat SPC (Software Publisher certificate*](../secgloss/s-gly.md) ) à des fins de test uniquement.<br/> |
 | [CertMgr.exe](certmgr.md)   | Gère les certificats, les listes CTL et les [*listes de révocation de certificats*](../secgloss/c-gly.md) (CRL).<br/>             |
 | [MakeCat.exe](makecat.md)   | Crée un fichier de catalogue non signé qui contient les hachages d’un ensemble de fichiers, ainsi que les attributs associés de chaque fichier.<br/>                                                               |
 | [MakeCert.exe](makecert.md) | Crée un certificat [*X. 509*](../secgloss/x-gly.md) à des fins de test uniquement.<br/>                                                                      |
-| Pvk2pfx.exe                  | Convertit un fichier de certificat de l’éditeur de logiciel (. spc) ou un fichier de clé privée (. pvk) au format de fichier d’échange d’informations personnelles (PFX).<br/>                                                   |
+| Pvk2pfx.exe                  | convertit un fichier de certificat de l’éditeur de logiciel (. spc) ou un fichier de clé privée (. pvk) au format de fichier PFX (Personal Information Exchange).<br/>                                                   |
 | [SetReg.exe](setreg.md)     | Définit les clés de Registre qui contrôlent la vérification du certificat.<br/>                                                                                                                                |
 | [SignTool.exe](signtool.md) | Signe et heure horodate un fichier. Vérifie également la signature d’un fichier.<br/>                                                                                                              |
 

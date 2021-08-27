@@ -4,12 +4,12 @@ ms.assetid: 0cf5ae1b-4633-4be8-9d67-f69128d021bb
 title: Factoids allemand
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356451754fe35d4045cab0acffec034c77a22d06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f79e4d95f950c937220fda03c853d5bdcdf1709
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201525"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626745"
 ---
 # <a name="german-factoids"></a>Factoids allemand
 
@@ -19,9 +19,9 @@ Le tableau suivant répertorie les formats disponibles pour chaque Factoid utili
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

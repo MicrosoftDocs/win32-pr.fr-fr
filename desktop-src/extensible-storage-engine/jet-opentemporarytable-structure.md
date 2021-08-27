@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51ae9026098e82538940bde2ef182ba0a7a11c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee2f2ab2fca7a849f889d46badcc86a8a5438fa8
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319318"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478505"
 ---
 # <a name="jet_opentemporarytable-structure"></a>Structure JET_OPENTEMPORARYTABLE
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_opentemporarytable-structure"></a>Structure JET_OPENTEMPORARYTABLE
 
 La structure **JET_OPENTEMPORARYTABLE** contient une collection de paramètres facilement extensible pour la fonction **JET_OPENTEMPORARYTABLE** . Cette structure est l’équivalent de la table temporaire de la structure [JET_TABLECREATE](./jet-tablecreate-structure.md) .
 
-**Windows Vista :** La structure **JET_OPENTEMPORARYTABLE** est introduite dans Windows Vista.
+**Windows Vista :** la structure **JET_OPENTEMPORARYTABLE** est introduite dans Windows Vista.
 
 ```cpp
     typedef struct tagJET_OPENTEMPORARYTABLE {
@@ -61,29 +61,12 @@ Il existe des limitations **importantes** pour les options de définition de col
 
 Outre les options de définition de colonne habituelles, aucune ou plusieurs des options suivantes peuvent également être spécifiées qui ne sont pertinentes que dans le contexte d’une table temporaire.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitColumnTTDescending</p></td>
-<td><p>L’ordre de tri de la colonne clé pour la table temporaire doit être décroissant plutôt que croissant. Si cette option est spécifiée sans JET_bitColumnTTKey, cette option est ignorée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitColumnTTKey</p></td>
-<td><p>La colonne est une colonne clé pour la table temporaire.</p>
-<p>L’ordre des définitions de colonne avec cette option spécifiée dans le tableau d’entrée détermine la précédence de chaque colonne clé pour la table temporaire. La première définition de colonne dans le tableau qui a cette option est définie sur la colonne clé la plus significative, et ainsi de suite. Si le moteur de base de données demande plus de colonnes clés que ce qui peut être pris en charge par le moteur de base de données, cette option est ignorée pour les colonnes clés non prises en charge.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitColumnTTDescending</p> | <p>L’ordre de tri de la colonne clé pour la table temporaire doit être décroissant plutôt que croissant. Si cette option est spécifiée sans JET_bitColumnTTKey, cette option est ignorée.</p> | 
+| <p>JET_bitColumnTTKey</p> | <p>La colonne est une colonne clé pour la table temporaire.</p><p>L’ordre des définitions de colonne avec cette option spécifiée dans le tableau d’entrée détermine la précédence de chaque colonne clé pour la table temporaire. La première définition de colonne dans le tableau qui a cette option est définie sur la colonne clé la plus significative, et ainsi de suite. Si le moteur de base de données demande plus de colonnes clés que ce qui peut être pris en charge par le moteur de base de données, cette option est ignorée pour les colonnes clés non prises en charge.</p> | 
+
 
 
 **ccolumn**
@@ -102,60 +85,18 @@ Lorsque ce paramètre n’est pas présent, les indicateurs de normalisation par
 
 Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTTIndexed</p></td>
-<td><p>Cette option demande que la table temporaire soit suffisamment flexible pour permettre l’utilisation de <a href="gg294103(v=exchg.10).md">JetSeek</a> pour rechercher des enregistrements par clé d’index.</p>
-<p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTUnique</p></td>
-<td><p>Demande que les enregistrements avec des clés d’index dupliquées soient supprimés du jeu final d’enregistrements dans la table temporaire.</p>
-<p>Avant Windows Server 2003, le moteur de base de données supposait toujours que cette option était appliquée en raison du fait que tous les index cluster doivent également être une clé primaire et doivent donc être uniques. À compter de Windows Server 2003, il est désormais possible de créer une table temporaire qui ne supprime pas les doublons lorsque l’option JET_bitTTForwardOnly est également spécifiée.</p>
-<p>Il n’est pas possible de savoir quel doublon va être effectué et quels doublons seront ignorés, en général. Toutefois, lorsque l’option JET_bitTTErrorOnDuplicateInsertion est demandée, le premier enregistrement avec une clé d’index donnée à insérer dans la table temporaire sera toujours correctement effectué.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTUpdatable</p></td>
-<td><p>Demande que la table temporaire soit suffisamment flexible pour permettre la modification ultérieure des enregistrements qui ont été insérés précédemment. Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander.</p>
-<p>Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTScrollable</p></td>
-<td><p>Demande que la table temporaire soit suffisamment flexible pour permettre l’analyse des enregistrements dans un ordre et une direction arbitraires à l’aide de <a href="gg294117(v=exchg.10).md">JetMove</a>.</p>
-<p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTSortNullsHigh</p></td>
-<td><p>Demande que les valeurs de colonne clé <strong>null</strong> soient plus proches de la fin de l’index que les valeurs de colonne clé non null.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTForceMaterialization</p></td>
-<td><p>Force le gestionnaire de tables temporaires à abandonner la recherche de la meilleure stratégie pour utiliser la gestion de la table temporaire qui entraîne des performances améliorées.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTTErrorOnDuplicateInsertion</p></td>
-<td><p>Toute tentative d’insertion d’un enregistrement avec la même clé d’index qu’un enregistrement précédemment inséré échouera immédiatement avec JET_errKeyDuplicate. Si cette option n’est pas demandée, un doublon est détecté immédiatement et échoue, ou est supprimé en mode silencieux ultérieurement, en fonction de la stratégie choisie par le moteur de base de données pour implémenter la table temporaire, en fonction de la fonctionnalité demandée.</p>
-<p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTTForwardOnly</p></td>
-<td><p>La table temporaire est créée uniquement si le gestionnaire de tables temporaire peut utiliser l’implémentation qui est optimisée pour les résultats de requête intermédiaires. Si une caractéristique de la table temporaire empêche l’utilisation de cette optimisation, l’opération échoue avec JET_errCannotMaterializeForwardOnlySort.</p>
-<p>L’un des effets secondaires de cette option est de permettre à la table temporaire de contenir des enregistrements avec des clés d’index dupliquées. Pour plus d’informations, consultez JET_bitTTUnique.</p>
-<p><strong>Windows Server 2003 :  </strong> Cette option est disponible uniquement sur Windows Server 2003 et versions ultérieures.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitTTIndexed</p> | <p>Cette option demande que la table temporaire soit suffisamment flexible pour permettre l’utilisation de <a href="gg294103(v=exchg.10).md">JetSeek</a> pour rechercher des enregistrements par clé d’index.</p><p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p> | 
+| <p>JET_bitTTUnique</p> | <p>Demande que les enregistrements avec des clés d’index dupliquées soient supprimés du jeu final d’enregistrements dans la table temporaire.</p><p>avant Windows Server 2003, le moteur de base de données supposait toujours que cette option était appliquée en raison du fait que tous les index cluster doivent également être une clé primaire et doivent donc être uniques. à partir de Windows Server 2003, il est désormais possible de créer une table temporaire qui ne supprime pas les doublons lorsque l’option JET_bitTTForwardOnly est également spécifiée.</p><p>Il n’est pas possible de savoir quel doublon va être effectué et quels doublons seront ignorés, en général. Toutefois, lorsque l’option JET_bitTTErrorOnDuplicateInsertion est demandée, le premier enregistrement avec une clé d’index donnée à insérer dans la table temporaire sera toujours correctement effectué.</p> | 
+| <p>JET_bitTTUpdatable</p> | <p>Demande que la table temporaire soit suffisamment flexible pour permettre la modification ultérieure des enregistrements qui ont été insérés précédemment. Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander.</p><p>Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p> | 
+| <p>JET_bitTTScrollable</p> | <p>Demande que la table temporaire soit suffisamment flexible pour permettre l’analyse des enregistrements dans un ordre et une direction arbitraires à l’aide de <a href="gg294117(v=exchg.10).md">JetMove</a>.</p><p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p> | 
+| <p>JET_bitTTSortNullsHigh</p> | <p>Demande que les valeurs de colonne clé <strong>null</strong> soient plus proches de la fin de l’index que les valeurs de colonne clé non null.</p> | 
+| <p>JET_bitTTForceMaterialization</p> | <p>Force le gestionnaire de tables temporaires à abandonner la recherche de la meilleure stratégie pour utiliser la gestion de la table temporaire qui entraîne des performances améliorées.</p> | 
+| <p>JET_bitTTErrorOnDuplicateInsertion</p> | <p>Toute tentative d’insertion d’un enregistrement avec la même clé d’index qu’un enregistrement précédemment inséré échouera immédiatement avec JET_errKeyDuplicate. Si cette option n’est pas demandée, un doublon est détecté immédiatement et échoue, ou est supprimé en mode silencieux ultérieurement, en fonction de la stratégie choisie par le moteur de base de données pour implémenter la table temporaire, en fonction de la fonctionnalité demandée.</p><p>Si cette fonctionnalité n’est pas nécessaire, il est préférable de ne pas la demander. Si cette fonctionnalité n’est pas demandée, le gestionnaire de tables temporaire peut être en mesure de choisir une stratégie de gestion de la table temporaire qui entraîne une amélioration des performances.</p> | 
+| <p>JET_bitTTForwardOnly</p> | <p>La table temporaire est créée uniquement si le gestionnaire de tables temporaire peut utiliser l’implémentation qui est optimisée pour les résultats de requête intermédiaires. Si une caractéristique de la table temporaire empêche l’utilisation de cette optimisation, l’opération échoue avec JET_errCannotMaterializeForwardOnlySort.</p><p>L’un des effets secondaires de cette option est de permettre à la table temporaire de contenir des enregistrements avec des clés d’index dupliquées. Pour plus d’informations, consultez JET_bitTTUnique.</p><p><strong>Windows Server 2003 :</strong> cette option est disponible uniquement sur Windows Server 2003 et versions ultérieures.</p> | 
+
 
 
 **prgcolumnid**
@@ -170,7 +111,7 @@ Taille maximale d’une clé représentant une ligne donnée.
 
 La taille de clé maximale peut être définie pour contrôler la façon dont les clés sont tronquées. La troncation de clé est importante, car elle peut affecter le moment où les lignes sont considérées comme distinctes.
 
-Si ce paramètre a la valeur 0 ou JET_cbKeyMostMin (255), la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003 et les versions antérieures. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données de l’instance (JET_paramDatabasePageSize). Pour plus d’informations, consultez JET_paramKeyMost.
+si ce paramètre a la valeur 0 ou JET_cbKeyMostMin (255), la taille maximale de la clé et sa sémantique restent identiques à la taille de clé maximale prise en charge par Windows Server 2003 et les versions antérieures. Ce paramètre peut également être défini sur une valeur supérieure en fonction de la taille de page de la base de données de l’instance (JET_paramDatabasePageSize). Pour plus d’informations, consultez JET_paramKeyMost.
 
 **cbVarSegMac**
 
@@ -184,26 +125,9 @@ Descripteur de table pour la table temporaire créée à la suite d’un appel r
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi
@@ -215,4 +139,4 @@ Descripteur de table pour la table temporaire créée à la suite d’un appel r
 [JET_COLUMNID](./jet-columnid.md)  
 [JET_TABLEID](./jet-tableid.md)  
 [JetOpenTemporaryTable](./jetopentemporarytable-function.md)  
-[Paramètres système du moteur de stockage extensible](./extensible-storage-engine-system-parameters.md)
+[paramètres système du moteur de Stockage Extensible](./extensible-storage-engine-system-parameters.md)

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ad5e1de9eb2edbdb63eb6f476391ae8387c8d01e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1729407f1022c2781fc97f8638ea8748323c151e9bd67c5ad31b30ae05fdff0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131272"
 ---
 # <a name="cenummediatypes-class"></a>CEnumMediaTypes, classe
 
@@ -45,7 +45,7 @@ Chaque fois qu’un code PIN modifie sa liste de types de médias préférés, l
 | Méthodes IEnumMediaTypes                                      | Description                                                     |
 | [**Répliqué**](cenummediatypes-clone.md)                       | Fait une copie de l’énumérateur avec le même état d’énumération. |
 | [**Suivant**](cenummediatypes-next.md)                         | Récupère un nombre spécifié de types de médias.                    |
-| [**Réinitialiser**](cenummediatypes-reset.md)                       | Réinitialise la séquence d'énumération au début.               |
+| [**Initialisation**](cenummediatypes-reset.md)                       | Réinitialise la séquence d'énumération au début.               |
 | [**Saut**](cenummediatypes-skip.md)                         | Ignore un nombre spécifié de types de médias.                   |
 
 
@@ -58,7 +58,7 @@ Chaque fois qu’un code PIN modifie sa liste de types de médias préférés, l
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

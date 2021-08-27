@@ -1,5 +1,5 @@
 ---
-description: Les constantes suivantes spécifient le jeu valide de propriétés d’élément du scanneur WIA (Windows Image Acquisition).
+description: les constantes suivantes spécifient le jeu de propriétés d’élément de scanneur WIA (Windows Image Acquisition) valides.
 ms.assetid: c7c5b10b-81e8-4a30-b20a-ea187724ddd4
 title: Constantes de propriété d’élément WIA du scanneur (Wiadef. h)
 ms.topic: reference
@@ -57,16 +57,16 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: aa3b1cc4ae14a9460a24f652a9599035cacca2c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544672"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624765"
 ---
 # <a name="scanner-wia-item-property-constants"></a>Constantes de propriété d’élément WIA du scanneur
 
-Les constantes suivantes spécifient le jeu valide de propriétés d’élément du scanneur WIA (Windows Image Acquisition).
+les constantes suivantes spécifient le jeu de propriétés d’élément de scanneur WIA (Windows Image Acquisition) valides.
 
 Le préfixe « WIA \_ IPS \_ » indique une propriété d’élément pour les périphériques de scanneur et est la Convention d’affectation de noms utilisée dans C/C++. À des fins de script, ces constantes utilisent le préfixe « ScannerPicture » et font partie du type énuméré [WiaItemPropertyId](-wia-wiaitempropertyid.md) . Le nom de membre correspondant de cette énumération de script apparaît entre parenthèses à côté du nom de constante C/C++ dans la liste suivante.
 
@@ -74,21 +74,21 @@ Le préfixe « WIA \_ IPS \_ » indique une propriété d’élément pour les 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constante/valeur</th>
-<th style="text-align: left;">Description</th>
+<th >Constante/valeur</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>ScannerPictureAutoDeskew</dt> </dl></td>
-<td style="text-align: left;"><blockquote>
+<td ><span id="WIA_IPS_AUTO_DESKEW"></span><span id="wia_ips_auto_deskew"></span><dl> <dt><strong>WIA_IPS_AUTO_DESKEW</strong></dt> <dt>ScannerPictureAutoDeskew</dt> </dl></td>
+<td ><blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 <br/> Active ou désactive la réalignement automatique.<br/> Facultatif pour WIA_CATEGORY_FEEDER uniquement.<br/> Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a><br/> Le tableau suivant contient les constantes qui sont valides avec cette propriété. 
 <table>
@@ -113,23 +113,23 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>ScannerPictureBrightness</dt> </dl></td>
-<td style="text-align: left;"><p>Valeurs de luminosité de l’image disponibles dans le scanneur.</p>
+<td ><span id="WIA_IPS_BRIGHTNESS"></span><span id="wia_ips_brightness"></span><dl> <dt><strong>WIA_IPS_BRIGHTNESS</strong></dt> <dt>ScannerPictureBrightness</dt> </dl></td>
+<td ><p>Valeurs de luminosité de l’image disponibles dans le scanneur.</p>
 <p>Contient le paramètre de luminosité matérielle actuel de l’appareil. Une application définit cette propriété sur la valeur de luminosité du matériel. Le minipilote crée et gère cette propriété.</p>
 <p>Les valeurs doivent être mappées dans une plage comprise entre-1000 et 1000, où 1000 correspond à la luminosité maximale, 0 correspond à la luminosité normale et-1000 correspond à la luminosité minimale.</p>
 <p>Obligatoire pour tous les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM. Facultatif, mais recommandé, pour les éléments de WIA_CATEGORY_FINISHED_FILE prenant en charge les aperçus.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>ScannerPictureContrast</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le paramètre de contraste matériel actuel pour un appareil. Une application définit cette propriété sur la valeur de contraste du matériel. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_CONTRAST"></span><span id="wia_ips_contrast"></span><dl> <dt><strong>WIA_IPS_CONTRAST</strong></dt> <dt>ScannerPictureContrast</dt> </dl></td>
+<td ><p>Contient le paramètre de contraste matériel actuel pour un appareil. Une application définit cette propriété sur la valeur de contraste du matériel. Le minipilote crée et gère cette propriété.</p>
 <p>Les valeurs doivent être mappées dans une plage comprise entre-1000 et 1000, où-1000 correspond au contraste minimal, 0 correspond au contraste normal et 1000 correspond au contraste maximal.</p>
 <p>Obligatoire pour tous les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM. Facultatif, mais recommandé, pour les éléments de WIA_CATEGORY_FINISHED_FILE prenant en charge les aperçus.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>ScannerPictureCurIntent</dt> </dl></td>
-<td style="text-align: left;"><p>Contient les paramètres d’intention actuels. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_CUR_INTENT"></span><span id="wia_ips_cur_intent"></span><dl> <dt><strong>WIA_IPS_CUR_INTENT</strong></dt> <dt>ScannerPictureCurIntent</dt> </dl></td>
+<td ><p>Contient les paramètres d’intention actuels. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments WIA_CATEGORY_FINISHED_FILE ou WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong> accès : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_FLAGS</a></p>
 <p>Le pilote les utilise pour prédéfinir les propriétés d’élément en fonction de l’utilisation prévue de l’image par une application. Cela peut inclure, par exemple, la qualité maximale, la taille minimale, etc.</p>
@@ -211,11 +211,11 @@ Les indicateurs peuvent être combinés avec <strong>un opérateur or</strong> a
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>ScannerPictureDeskewX</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_X"></span><span id="wia_ips_deskew_x"></span><dl> <dt><strong>WIA_IPS_DESKEW_X</strong></dt> <dt>ScannerPictureDeskewX</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -227,11 +227,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>ScannerPictureDeskewY</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DESKEW_Y"></span><span id="wia_ips_deskew_y"></span><dl> <dt><strong>WIA_IPS_DESKEW_Y</strong></dt> <dt>ScannerPictureDeskewY</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -243,11 +243,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : WIA_PROP_RANGE</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerPictureDocumentHandlingSelect</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_DOCUMENT_HANDLING_SELECT"></span><span id="wia_ips_document_handling_select"></span><dl> <dt><strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong></dt> <dt>ScannerPictureDocumentHandlingSelect</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -295,11 +295,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>ScannerPictureFilmNodeName</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_NODE_NAME"></span><span id="wia_ips_film_node_name"></span><dl> <dt><strong>WIA_IPS_FILM_NODE_NAME</strong></dt> <dt>ScannerPictureFilmNodeName</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -311,11 +311,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Valeurs autorisées : le BSTR doit se présenter sous la forme de @ResourceBinary ,- <ResourceID> pour permettre la localisation, car cette chaîne sera exposée à l’utilisateur par le biais de l’interface utilisateur d’analyse des films.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -351,16 +351,16 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><p>Réservé à une utilisation future et n’est pas mis en œuvre pour l’instant.</p>
+<td ><span id="WIA_IPS_INVERT"></span><span id="wia_ips_invert"></span><dl> <dt><strong>WIA_IPS_INVERT</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><p>Réservé à une utilisation future et n’est pas mis en œuvre pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -370,11 +370,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP"></span><span id="wia_ips_lamp"></span><dl> <dt><strong>WIA_IPS_LAMP</strong></dt> <dt>ScannerPictureLamp</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -406,11 +406,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>ScannerPictureLampAutoOff</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_LAMP_AUTO_OFF"></span><span id="wia_ips_lamp_auto_off"></span><dl> <dt><strong>WIA_IPS_LAMP_AUTO_OFF</strong></dt> <dt>ScannerPictureLampAutoOff</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -421,11 +421,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_UI4</strong>, Access : lecture/écriture, valeurs valides : 0-0xFFF secondes</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMaxHorizontalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_HORIZONTAL_SIZE"></span><span id="wia_ips_max_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MAX_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMaxHorizontalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -435,11 +435,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MAX_VERTICAL_SIZE"></span><span id="wia_ips_max_vertical_size"></span><dl> <dt><strong>WIA_IPS_MAX_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMaxVerticalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -449,11 +449,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_HORIZONTAL_SIZE"></span><span id="wia_ips_min_horizontal_size"></span><dl> <dt><strong>WIA_IPS_MIN_HORIZONTAL_SIZE</strong></dt> <dt>ScannerPictureMinHorizontalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -463,11 +463,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_MIN_VERTICAL_SIZE"></span><span id="wia_ips_min_vertical_size"></span><dl> <dt><strong>WIA_IPS_MIN_VERTICAL_SIZE</strong></dt> <dt>ScannerPictureMinVerticalSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -477,16 +477,16 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>ScannerPictureMirror</dt> </dl></td>
-<td style="text-align: left;"><p>Réservé à une utilisation future et n’est pas mis en œuvre pour l’instant.</p>
+<td ><span id="WIA_IPS_MIRROR"></span><span id="wia_ips_mirror"></span><dl> <dt><strong>WIA_IPS_MIRROR</strong></dt> <dt>ScannerPictureMirror</dt> </dl></td>
+<td ><p>Réservé à une utilisation future et n’est pas mis en œuvre pour l’instant.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_XRES"></span><span id="wia_ips_optical_xres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_XRES</strong></dt> <dt>ScannerPictureOpticalXres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -496,11 +496,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_OPTICAL_YRES"></span><span id="wia_ips_optical_yres"></span><dl> <dt><strong>WIA_IPS_OPTICAL_YRES</strong></dt> <dt>ScannerPictureOpticalYres</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -510,8 +510,8 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>ScannerPictureOrientation</dt> </dl></td>
-<td style="text-align: left;"><p>Spécifie l’orientation actuelle des documents à analyser. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_ORIENTATION"></span><span id="wia_ips_orientation"></span><dl> <dt><strong>WIA_IPS_ORIENTATION</strong></dt> <dt>ScannerPictureOrientation</dt> </dl></td>
+<td ><p>Spécifie l’orientation actuelle des documents à analyser. Le minipilote crée et gère cette propriété.</p>
 <p>Une application définit cette propriété pour définir l’orientation d’origine d’une page ou d’une image à acquérir. Pour plus d’informations sur l’utilisation de WIA_IPS_ORIENTATION, consultez <strong>WIA_IPS_PAGE_SIZE</strong>.</p>
 <div class="alert">
 <blockquote>
@@ -555,11 +555,11 @@ WIA_IPS_ORIENTATION fait référence à la position du document à analyser sur 
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>ScannerPicturePageSize</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_SIZE"></span><span id="wia_ips_page_size"></span><dl> <dt><strong>WIA_IPS_PAGE_SIZE</strong></dt> <dt>ScannerPicturePageSize</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -629,7 +629,7 @@ Si <a href="-wia-wiaitempropscannerdevice.md"><strong>WIA_IPS_PAGE_SIZE</strong>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -653,7 +653,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -678,7 +678,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -703,7 +703,7 @@ WIA_IPS_YRES = 100</code></pre></td>
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -724,11 +724,11 @@ WIA_IPS_YRES = 100</code></pre></td>
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>ScannerPicturePageHeight</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_HEIGHT"></span><span id="wia_ips_page_height"></span><dl> <dt><strong>WIA_IPS_PAGE_HEIGHT</strong></dt> <dt>ScannerPicturePageHeight</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -739,11 +739,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGE_WIDTH"></span><span id="wia_ips_page_width"></span><dl> <dt><strong>WIA_IPS_PAGE_WIDTH</strong></dt> <dt>ScannerPicturePageWidth</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -754,11 +754,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PAGES"></span><span id="wia_ips_pages"></span><dl> <dt><strong>WIA_IPS_PAGES</strong></dt> <dt>ScannerPicturePages</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -780,8 +780,8 @@ Si le mode duplex est activé (<strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong>
 <p>Si vous affectez la valeur 1 à <strong>WIA_IPS_PAGES</strong> , un scanneur traite un côté de la page. Si un scanneur ne parvient pas à analyser un seul côté d’une page en mode duplex, il est recommandé de remplacer la valeur <strong>WIA_IPS_PAGES</strong> pour le membre Inc du membre de la plage de la structure WIA_PROPERTY_INFO par 2. Cette valeur signale à l’application qu’elle doit demander des pages par multiples de deux. La valeur ALL_PAGES (= 0) signifie que <em>toutes les</em> pages qui sont actuellement chargées dans le chargeur de documents doivent être analysées.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>ScannerPicturePhotometricInterp</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la valeur actuelle pour les pixels blancs et noirs. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_PHOTOMETRIC_INTERP"></span><span id="wia_ips_photometric_interp"></span><dl> <dt><strong>WIA_IPS_PHOTOMETRIC_INTERP</strong></dt> <dt>ScannerPicturePhotometricInterp</dt> </dl></td>
+<td ><p>Contient la valeur actuelle pour les pixels blancs et noirs. Le minipilote crée et gère cette propriété.</p>
 <p>Une application lit cette valeur pour déterminer la valeur du blanc ou du noir (en fonction de ce que l’application fait).</p>
 <p>Obligatoire pour toutes les acquisitions activées ou éléments stockés ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments de WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>; Accès : lecture/écriture ; Valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_LIST</a>. Si l’appareil peut être défini sur une seule valeur, créez un WIA_PROP_LIST type et placez la valeur valide dans celui-ci.</p>
@@ -809,11 +809,11 @@ Si le mode duplex est activé (<strong>WIA_IPS_DOCUMENT_HANDLING_SELECT</strong>
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>ScannerPicturePreview</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW"></span><span id="wia_ips_preview"></span><dl> <dt><strong>WIA_IPS_PREVIEW</strong></dt> <dt>ScannerPicturePreview</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -845,11 +845,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>ScannerPicturePreviewType</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_PREVIEW_TYPE"></span><span id="wia_ips_preview_type"></span><dl> <dt><strong>WIA_IPS_PREVIEW_TYPE</strong></dt> <dt>ScannerPicturePreviewType</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -881,8 +881,8 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>ScannerPictureRotation</dt> </dl></td>
-<td style="text-align: left;"><p>Contient le paramètre de rotation actuel, s’il est implémenté. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_ROTATION"></span><span id="wia_ips_rotation"></span><dl> <dt><strong>WIA_IPS_ROTATION</strong></dt> <dt>ScannerPictureRotation</dt> </dl></td>
+<td ><p>Contient le paramètre de rotation actuel, s’il est implémenté. Le minipilote crée et gère cette propriété.</p>
 <p>Une application définit cette propriété pour informer le pilote de la quantité (le cas) de rotation de l’image avant que le pilote le renvoie à l’application.</p>
 <div class="alert">
 <blockquote>
@@ -930,11 +930,11 @@ WIA_IPS_ORIENTATION fait référence à la position du document à analyser sur 
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>ScannerPictureSegmentation</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SEGMENTATION"></span><span id="wia_ips_segmentation"></span><dl> <dt><strong>WIA_IPS_SEGMENTATION</strong></dt> <dt>ScannerPictureSegmentation</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -975,11 +975,11 @@ Il est possible qu’un pilote soit fourni avec un filtre de segmentation, mais 
 </div></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerPictureSheetFeederRegistration</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHEET_FEEDER_REGISTRATION"></span><span id="wia_ips_sheet_feeder_registration"></span><dl> <dt><strong>WIA_IPS_SHEET_FEEDER_REGISTRATION</strong></dt> <dt>ScannerPictureSheetFeederRegistration</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1016,11 +1016,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerPictureShowPreviewControl</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SHOW_PREVIEW_CONTROL"></span><span id="wia_ips_show_preview_control"></span><dl> <dt><strong>WIA_IPS_SHOW_PREVIEW_CONTROL</strong></dt> <dt>ScannerPictureShowPreviewControl</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1052,11 +1052,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>ScannerPictureSupportsChildItemCreation</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION"></span><span id="wia_ips_supports_child_item_creation"></span><dl> <dt><strong>WIA_IPS_SUPPORTS_CHILD_ITEM_CREATION</strong></dt> <dt>ScannerPictureSupportsChildItemCreation</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1068,11 +1068,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <strong>true</strong> et <strong>false</strong></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>ScannerPictureThreshold</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_THRESHOLD"></span><span id="wia_ips_threshold"></span><dl> <dt><strong>WIA_IPS_THRESHOLD</strong></dt> <dt>ScannerPictureThreshold</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1083,11 +1083,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_TRANSFER_CAPABILITIES"></span><span id="wia_ips_transfer_capabilities"></span><dl> <dt><strong>WIA_IPS_TRANSFER_CAPABILITIES</strong></dt> <dt>ScannerPictureTransferCapabilities</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1098,11 +1098,11 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>La seule valeur possible pour cette propriété est WIA_TRANSFER_CHILDREN_SINGLE_SCAN. Si cet indicateur est défini, le pilote est en charge du transfert de plusieurs éléments enfants dans un appel de transfert unique. Si l’indicateur n’est pas défini, le service WIA parcourt les éléments enfants de manière récursive, puis transfère chacun de ces éléments.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>ScannerPictureInvert</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1112,37 +1112,37 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>ScannerPictureWarmUpTime</dt> </dl></td>
-<td style="text-align: left;"><p>Spécifie la durée de préchauffage maximale, en millisecondes, nécessaire à l’appareil avant de démarrer l’opération d’analyse. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_WARM_UP_TIME"></span><span id="wia_ips_warm_up_time"></span><dl> <dt><strong>WIA_IPS_WARM_UP_TIME</strong></dt> <dt>ScannerPictureWarmUpTime</dt> </dl></td>
+<td ><p>Spécifie la durée de préchauffage maximale, en millisecondes, nécessaire à l’appareil avant de démarrer l’opération d’analyse. Le minipilote crée et gère cette propriété.</p>
 <p>Une application peut lire cette propriété pour déterminer le temps de préchauffage maximal pour cet appareil. Il peut alors présenter une &quot; boîte de dialogue en attente de préchauffage de l’appareil pour &quot; permettre à l’utilisateur de savoir qu’une attente ou une pause peut se produire avant tout problème.</p>
 <p>Cette propriété est obligatoire pour tous les éléments d’acquisition activés ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>ScannerPictureXextent</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la largeur actuelle, en pixels, de l’image sélectionnée à acquérir. Une application définit cette propriété pour marquer la largeur d’une zone de sélection à acquérir. Cette propriété doit accepter la propriété <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_XEXTENT"></span><span id="wia_ips_xextent"></span><dl> <dt><strong>WIA_IPS_XEXTENT</strong></dt> <dt>ScannerPictureXextent</dt> </dl></td>
+<td ><p>Contient la largeur actuelle, en pixels, de l’image sélectionnée à acquérir. Une application définit cette propriété pour marquer la largeur d’une zone de sélection à acquérir. Cette propriété doit accepter la propriété <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>ScannerPictureXpos</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la coordonnée x, en pixels, de l’angle supérieur gauche de l’image sélectionnée. Une application définit cette propriété pour marquer l’angle supérieur gauche de la zone de sélection. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_XPOS"></span><span id="wia_ips_xpos"></span><dl> <dt><strong>WIA_IPS_XPOS</strong></dt> <dt>ScannerPictureXpos</dt> </dl></td>
+<td ><p>Contient la coordonnée x, en pixels, de l’angle supérieur gauche de l’image sélectionnée. Une application définit cette propriété pour marquer l’angle supérieur gauche de la zone de sélection. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments de WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>ScannerPictureXres</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la résolution horizontale actuelle, en pixels par pouce, pour l’appareil. Une application définit cette propriété pour définir la résolution horizontale. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_XRES"></span><span id="wia_ips_xres"></span><dl> <dt><strong>WIA_IPS_XRES</strong></dt> <dt>ScannerPictureXres</dt> </dl></td>
+<td ><p>Contient la résolution horizontale actuelle, en pixels par pouce, pour l’appareil. Une application définit cette propriété pour définir la résolution horizontale. Le minipilote crée et gère cette propriété.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un type de <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> et placez la valeur valide dans celui-ci. C’est également le cas lorsque l’un des paramètres de résolution dépend d’une autre résolution. (La résolution verticale peut dépendre de la résolution horizontale.)</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments de WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture ou lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> ou WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_XSCALING"></span><span id="wia_ips_xscaling"></span><dl> <dt><strong>WIA_IPS_XSCALING</strong></dt> <dt>ScannerPictureXscaling</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1154,30 +1154,30 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 <p>Les valeurs peuvent être comprises entre 1 et maximum VT_I4 (0xFFFF). Par exemple, 100 signifie aucune mise à l’échelle, 050 signifie la mise à l’échelle jusqu’à 50% de la taille de la replacer, et 200 signifie la mise à l’échelle jusqu’à 200% de la taille d’origine.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>ScannerPictureYextent</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la hauteur actuelle, en pixels, de l’image sélectionnée à acquérir. Une application définit cette propriété pour marquer la hauteur d’une zone de sélection. Cette propriété doit être conforme à la valeur de la propriété <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_YEXTENT"></span><span id="wia_ips_yextent"></span><dl> <dt><strong>WIA_IPS_YEXTENT</strong></dt> <dt>ScannerPictureYextent</dt> </dl></td>
+<td ><p>Contient la hauteur actuelle, en pixels, de l’image sélectionnée à acquérir. Une application définit cette propriété pour marquer la hauteur d’une zone de sélection. Cette propriété doit être conforme à la valeur de la propriété <a href="-wia-wiaitempropcommonitem.md"><strong>WIA_IPA_PIXELS_PER_LINE</strong></a> . Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK et WIA_CATEGORY_FILM.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>ScannerPictureYpos</dt> </dl></td>
-<td style="text-align: left;"><p>Coordonnée y actuelle, en pixels, de l’angle supérieur gauche de l’image sélectionnée. Une application définit cette propriété pour marquer l’angle supérieur gauche de la zone de sélection. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_YPOS"></span><span id="wia_ips_ypos"></span><dl> <dt><strong>WIA_IPS_YPOS</strong></dt> <dt>ScannerPictureYpos</dt> </dl></td>
+<td ><p>Coordonnée y actuelle, en pixels, de l’angle supérieur gauche de l’image sélectionnée. Une application définit cette propriété pour marquer l’angle supérieur gauche de la zone de sélection. Le minipilote crée et gère cette propriété.</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments de WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>ScannerPictureYres</dt> </dl></td>
-<td style="text-align: left;"><p>Contient la résolution verticale actuelle, en pixels par pouce, pour l’appareil. Une application définit cette propriété pour définir la résolution verticale. Le minipilote crée et gère cette propriété.</p>
+<td ><span id="WIA_IPS_YRES"></span><span id="wia_ips_yres"></span><dl> <dt><strong>WIA_IPS_YRES</strong></dt> <dt>ScannerPictureYres</dt> </dl></td>
+<td ><p>Contient la résolution verticale actuelle, en pixels par pouce, pour l’appareil. Une application définit cette propriété pour définir la résolution verticale. Le minipilote crée et gère cette propriété.</p>
 <p>Si l’appareil peut être défini sur une seule valeur, créez un type de <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> et placez la valeur valide dans celui-ci. C’est également le cas lorsque l’un des paramètres de résolution dépend d’une autre résolution. (La résolution horizontale peut dépendre de la résolution verticale.)</p>
 <p>Obligatoire pour tous les éléments activés pour l’acquisition ; autrement dit, les éléments des catégories : WIA_CATEGORY_FLATBED, WIA_CATEGORY_FEEDER, WIA_CATEGORY_FEEDER_FRONT, WIA_CATEGORY_FEEDER_BACK, WIA_CATEGORY_FINISHED_FILE et WIA_CATEGORY_FILM. Elle n’est pas prise en charge pour les éléments de WIA_CATEGORY_FOLDER.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture/écriture ou lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_RANGE</a> ou WIA_PROP_LIST</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
-<td style="text-align: left;"><div class="alert">
+<td ><span id="WIA_IPS_YSCALING"></span><span id="wia_ips_yscaling"></span><dl> <dt><strong>WIA_IPS_YSCALING</strong></dt> <dt>ScannerPictureYscaling</dt> </dl></td>
+<td ><div class="alert">
 <blockquote>
 [!Note]<br />
-Cette propriété est prise en charge uniquement par Windows Vista et les versions ultérieures.
+cette propriété est prise en charge uniquement par Windows Vista et versions ultérieures.
 </blockquote>
 </div>
 <div>
@@ -1199,8 +1199,8 @@ Cette propriété est prise en charge uniquement par Windows Vista et les versio
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 
