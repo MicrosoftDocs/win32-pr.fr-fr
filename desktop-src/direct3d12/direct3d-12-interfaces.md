@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: a51e35fff74ab1d0251d64578de665ad4134a843
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0cc8fcecec2e2a0966ed34e23eb65ed9acd37e76
+ms.sourcegitcommit: 0dec0044816af3f2b2e6403659e1cf11138c90cd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536275"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "121812889"
 ---
 # <a name="core-interfaces"></a>Interfaces de base
 
@@ -33,6 +33,9 @@ Les interfaces suivantes sont déclarées dans d3d12. h.
 | [**ID3D12Device4**](/windows/win32/api/d3d12/nn-d3d12-id3d12device4) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device3](/windows/win32/api/d3d12/nn-d3d12-id3d12device3). |
 | [**ID3D12Device5**](/windows/win32/api/d3d12/nn-d3d12-id3d12device5) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device4](/windows/win32/api/d3d12/nn-d3d12-id3d12device4). |
 | [**ID3D12Device6**](/windows/win32/api/d3d12/nn-d3d12-id3d12device6) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12device5). |
+| [**ID3D12Device7**](/windows/win32/api/d3d12/nn-d3d12-id3d12device7) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device6](/windows/win32/api/d3d12/nn-d3d12-id3d12device6). |
+| [**ID3D12Device8**](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device7](/windows/win32/api/d3d12/nn-d3d12-id3d12device7). |
+| [**ID3D12Device9**](/windows/win32/api/d3d12/nn-d3d12-id3d12device9) | Représente un adaptateur virtuel. Cette interface étend [ID3D12Device8](/windows/win32/api/d3d12/nn-d3d12-id3d12device8) pour ajouter des méthodes pour gérer les caches de nuanceur. |
 | [**ID3D12DeviceChild**](/windows/win32/api/d3d12/nn-d3d12-id3d12devicechild) | Interface à partir de laquelle d’autres interfaces principales héritent, notamment [**ID3D12PipelineLibrary**](/windows/win32/api/d3d12/nn-d3d12-id3d12pipelinelibrary), [**ID3D12CommandList**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandlist), [**ID3D12Pageable**](/windows/win32/api/d3d12/nn-d3d12-id3d12pageable)et [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature). Il fournit une méthode pour revenir à l’objet appareil sur lequel il a été créé. |
 | [**ID3D12DeviceRemovedExtendedData**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddata) | Fournit l’accès au moment de l’exécution aux données de données étendues supprimées (ordinateur) de l’appareil. |
 | [**ID3D12DeviceRemovedExtendedDataSettings**](/windows/win32/api/d3d12/nn-d3d12-id3d12deviceremovedextendeddatasettings) | Cette interface contrôle les paramètres de données étendus (ordinateur) supprimés de l’appareil. |
@@ -56,6 +59,7 @@ Les interfaces suivantes sont déclarées dans d3d12. h.
 | [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) | Encapsule une capacité généralisée du processeur et du GPU à lire et à écrire dans la mémoire physique, ou les tas. Il contient des abstractions pour l’organisation et la manipulation de tableaux de données simples, ainsi que des données multidimensionnelles optimisées pour l’échantillonnage de nuanceur. |
 | [**ID3D12RootSignature**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature) | La signature racine définit les ressources qui sont liées au pipeline Graphics. Une signature racine est configurée par les listes de commandes App et Links pour les ressources requises par les nuanceurs. Actuellement, il existe un graphique et une signature racine de calcul par application. |
 | [**ID3D12RootSignatureDeserializer**](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer) | Contient une méthode pour retourner la structure de données [**D3D12-root-signature-DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) désérialisée d’une signature racine sérialisée version 1,0.  |
+| [**ID3D12ShaderCacheSession**](/windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession) | Représente une session de cache du nuanceur. |
 | [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject) | Représente une quantité variable d’état de configuration, y compris les nuanceurs, qu’une application gère en tant qu’unité unique et qui est donnée à un pilote de manière atomique à traiter, telle que la compilation ou l’optimisation.  |
 | [**ID3D12StateObjectProperties**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobjectproperties) | Fournit des méthodes pour obtenir et définir les propriétés d’un [**ID3D12StateObject**](/windows/win32/api/d3d12/nn-d3d12-id3d12stateobject).  |
 | [**ID3D12Tools**](/windows/win32/api/d3d12/nn-d3d12-id3d12tools) | Cette interface permet de configurer le runtime pour les outils tels que PIX. Il n’est pas prévu ou pris en charge pour un autre scénario. |

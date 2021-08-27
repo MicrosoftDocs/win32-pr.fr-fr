@@ -11,12 +11,12 @@ api_name:
 - SharedPropertyGroupManager
 api_type:
 - COM
-ms.openlocfilehash: 680c5caef996d329e18192193f30841f61f02f27
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac05dcc813192a9ea1bf1f1f4e5ad63ed72eca6874de855ac3f4582af51680f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120359"
 ---
 # <a name="sharedpropertygroupmanager-class"></a>SharedPropertyGroupManager, classe
 
@@ -44,11 +44,11 @@ Cette classe est implémentée par COM+.
 
 Utilisez cette classe pour accéder aux méthodes de [**ISharedPropertyGroupManager**](/windows/desktop/api/ComSvcs/nn-comsvcs-isharedpropertygroupmanager).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour créer cet objet, appelez [**IObjectContext :: CreateInstance**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-createinstance).
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des services COM+. Un objet SharedPropertyGroupManager peut être déclaré à l’aide de « COMSVCSLib. SharedPropertyGroupManager » comme nom de classe.
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet SharedPropertyGroupManager peut être déclaré à l’aide de « COMSVCSLib. SharedPropertyGroupManager » comme nom de classe.
 
 ## <a name="requirements"></a>Configuration requise
 

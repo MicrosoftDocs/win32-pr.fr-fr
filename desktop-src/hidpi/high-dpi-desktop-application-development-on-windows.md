@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c6389553ce2265752e3552fdaaf848e3ac70eede8df3b4fd9e560861bf15f33d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 01958791dccd7c836babedbe726233797eddb646
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119036250"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471325"
 ---
 # <a name="high-dpi-desktop-application-development-on-windows"></a>Développement d’applications bureautiques haute résolution sur Windows
 
@@ -69,61 +69,14 @@ En cas d’exécution en mode de sensibilisation à Per-Monitor v2, les applicat
 
 Le tableau suivant montre comment les applications s’affichent sous différents scénarios :
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Mode de reconnaissance DPI</th>
-<th>Windows Version introduite</th>
-<th>Affichage de l’application en PPP</th>
-<th>Comportement sur la modification PPP</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Ignore</td>
-<td>N/A</td>
-<td>Tous les affichages sont de 96 ppp</td>
-<td>Étirement de bitmap (flou)</td>
-</tr>
-<tr class="even">
-<td>Système</td>
-<td>Vista</td>
-<td>Tous les affichages ont le même PPP (la résolution PPP de l’affichage principal au moment du démarrage de la session de l’utilisateur actuel)</td>
-<td>Étirement de bitmap (flou)</td>
-</tr>
-<tr class="odd">
-<td>Per-Monitor</td>
-<td>8.1</td>
-<td>PPP de l’affichage sur lequel la fenêtre d’application se trouve principalement</td>
-<td><ul>
-<li>Le HWND de niveau supérieur est informé de la modification PPP</li>
-<li>Aucune mise à l’échelle DPI de tout élément d’interface utilisateur.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Per-Monitor V2</td>
-<td>Windows 10 Creators Update (1703)</td>
-<td>PPP de l’affichage sur lequel la fenêtre d’application se trouve principalement</td>
-<td><ul>
-<li>Les HWND de niveau supérieur <span class="underline">et</span> enfant sont avertis de la modification PPP</li>
-</ul>
-<br/> <span class="underline">Mise à l’échelle DPI automatique de :</span>
-<ul>
-<li>Zone non cliente</li>
-<li>Bitmaps dessinées par thème dans les contrôles communs (ComCtl32 V6)</li>
-<li>Boîtes de dialogue (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">createDialog</a>)</li>
-</ul>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Mode de reconnaissance DPI | Windows Version introduite | Affichage de l’application en PPP | Comportement sur la modification PPP | 
+|--------------------|----------------------------|---------------------------|------------------------|
+| Ignore | N/A | Tous les affichages sont de 96 ppp | Étirement de bitmap (flou) | 
+| Système | Vista | Tous les affichages ont le même PPP (la résolution PPP de l’affichage principal au moment du démarrage de la session de l’utilisateur actuel) | Étirement de bitmap (flou) | 
+| Per-Monitor | 8.1 | PPP de l’affichage sur lequel la fenêtre d’application se trouve principalement | <ul><li>Le HWND de niveau supérieur est informé de la modification PPP</li><li>Aucune mise à l’échelle DPI de tout élément d’interface utilisateur.</li></ul><br /> | 
+| Per-Monitor V2 | Windows 10 Creators Update (1703) | PPP de l’affichage sur lequel la fenêtre d’application se trouve principalement | <ul><li>Les HWND de niveau supérieur <span class="underline">et</span> enfant sont avertis de la modification PPP</li></ul><br /><span class="underline">Mise à l’échelle DPI automatique de :</span><ul><li>Zone non cliente</li><li>Bitmaps dessinées par thème dans les contrôles communs (ComCtl32 V6)</li><li>Boîtes de dialogue (<a href="/windows/desktop/api/winuser/nf-winuser-createdialogw">createDialog</a>)</li></ul><br /> | 
+
 
 ### <a name="per-monitor-v1-dpi-awareness"></a>Reconnaissance par analyse (v1) ppp
 
@@ -141,79 +94,17 @@ sur Windows 10 1607 ou version ultérieure, les applications PMv1 peuvent égale
 
 le tableau ci-dessous montre le niveau de prise en charge de la prise en charge DPI par moniteur offert par différentes Windows infrastructures d’interface utilisateur à partir de Windows 10 1703 :
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Infrastructure/technologie</th>
-<th>Assistance</th>
-<th>Version du SE</th>
-<th>Mise à l’échelle DPI gérée par</th>
-<th>En savoir plus</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Plateforme Windows universelle (UWP)</td>
-<td>Complète</td>
-<td>1607</td>
-<td>Infrastructure d’interface utilisateur</td>
-<td><a href="/windows/uwp/get-started/whats-a-uwp">Plateforme Windows universelle (UWP)</a></td>
-</tr>
-<tr class="even">
-<td>Commandes Win32/Common Controls (comctl32.dll) brutes</td>
-<td><ul>
-<li>Messages de notification de changement DPI envoyés à tous les HWND</li>
-<li>Les ressources dessinées par thème sont rendues correctement dans les contrôles communs</li>
-<li>Mise à l’échelle DPI automatique pour les boîtes de dialogue</li>
-</ul></td>
-<td>1703</td>
-<td>Application</td>
-<td><a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Exemple</a></td>
-</tr>
-<tr class="odd">
-<td>Windows Forms</td>
-<td>Mise à l’échelle DPI automatique par moniteur limitée pour certains contrôles</td>
-<td>1703</td>
-<td>Infrastructure d’interface utilisateur</td>
-<td><a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">prise en charge des résolutions élevées en Windows Forms</a></td>
-</tr>
-<tr class="even">
-<td>Windows Presentation Framework (WPF)</td>
-<td>Les applications WPF natives prennent en charge la résolution de WPF hébergée dans d’autres infrastructures et d’autres infrastructures hébergées dans WPF ne sont pas automatiquement mises à l’échelle</td>
-<td>1607</td>
-<td>Infrastructure d’interface utilisateur</td>
-<td><a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Exemple</a></td>
-</tr>
-<tr class="odd">
-<td>GDI</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>Voir <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">mise à l’échelle GDI haute résolution</a></td>
-</tr>
-<tr class="even">
-<td>GDI+</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>Voir <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">mise à l’échelle GDI haute résolution</a></td>
-</tr>
-<tr class="odd">
-<td>MFC</td>
-<td>None</td>
-<td>N/A</td>
-<td>Application</td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
+
+| Infrastructure/technologie | Support | Version du SE | Mise à l’échelle DPI gérée par | En savoir plus | 
+|------------------------|---------|------------|------------------------|-----------------|
+| Plateforme Windows universelle (UWP) | Complète | 1607 | Infrastructure d’interface utilisateur | <a href="/windows/uwp/get-started/whats-a-uwp">Plateforme Windows universelle (UWP)</a> | 
+| Commandes Win32/Common Controls (comctl32.dll) brutes | <ul><li>Messages de notification de changement DPI envoyés à tous les HWND</li><li>Les ressources dessinées par thème sont rendues correctement dans les contrôles communs</li><li>Mise à l’échelle DPI automatique pour les boîtes de dialogue</li></ul> | 1703 | Application | <a href="https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow">GitHub Exemple</a> | 
+| Windows Forms | Mise à l’échelle DPI automatique par moniteur limitée pour certains contrôles | 1703 | Infrastructure d’interface utilisateur | <a href="/dotnet/framework/winforms/high-dpi-support-in-windows-forms">prise en charge des résolutions élevées en Windows Forms</a> | 
+| Windows Presentation Framework (WPF) | Les applications WPF natives prennent en charge la résolution de WPF hébergée dans d’autres infrastructures et d’autres infrastructures hébergées dans WPF ne sont pas automatiquement mises à l’échelle | 1607 | Infrastructure d’interface utilisateur | <a href="https://github.com/Microsoft/WPF-Samples/tree/master/PerMonitorDPI">GitHub Exemple</a> | 
+| GDI | None | N/A | Application | Voir <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">mise à l’échelle GDI haute résolution</a> | 
+| GDI+ | None | N/A | Application | Voir <a href="https://blogs.windows.com/buildingapps/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps/">mise à l’échelle GDI haute résolution</a> | 
+| MFC | None | N/A | Application | N/A | 
+
 
 
 

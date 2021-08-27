@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aea061990a6d3bd52a98dc9101102059767ecf9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fd0b6bd67c4814b8729eaa2b44e0f521923133d33b101b3d1c99aa74aaa4744e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120064507"
 ---
 # <a name="rename-method-of-the-cim_datafile-class"></a>Renommer la méthode de la \_ classe de fichier de fichier CIM
 
@@ -65,7 +65,7 @@ Retourne la valeur 0 en cas de réussite, et tout autre nombre pour indiquer une
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode **Rename** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

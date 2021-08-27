@@ -4,12 +4,12 @@ ms.assetid: 6ffd0b3f-79b8-4ce3-a262-4d27ffc5a175
 title: Propriété PROMPTROLLBACKCOST
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3801ee894a66ad6e458cbad37252e289f724b9ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 71cca3134593039354735e2e306a924620db8100eb0fd0e0a51f392c58f61897
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129039"
 ---
 # <a name="promptrollbackcost-property"></a>Propriété PROMPTROLLBACKCOST
 
@@ -29,7 +29,7 @@ Les valeurs possibles de **PROMPTROLLBACKCOST** sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’interface utilisateur est exécutée au niveau de base ou pas de l’interface utilisateur, le programme d’installation gère automatiquement la logique d’espace disque insuffisant.
 
@@ -41,7 +41,7 @@ Lorsque l’interface utilisateur s’exécute au niveau complet, des options su
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

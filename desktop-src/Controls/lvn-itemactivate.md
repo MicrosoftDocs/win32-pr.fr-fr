@@ -3,7 +3,7 @@ title: LVN_ITEMACTIVATE le code de notification (commctrl. h)
 description: Envoyé par un contrôle List-View lorsque l’utilisateur active un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 475c8e6a-8e2e-4182-8ccc-a4bc6fc891a8
 keywords:
-- Contrôles Windows de code de notification LVN_ITEMACTIVATE
+- LVN_ITEMACTIVATE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc9f139559b03fd82ac655381972803a288f00db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f21b02406157a13d2fcf110c15e692211b26b3f9da31741489e317e6b2c68309
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105049"
 ---
 # <a name="lvn_itemactivate-notification-code"></a>\_Code de notification LVN ITEMACTIVATE
 
@@ -55,7 +55,7 @@ LVN_ITEMACTIVATE
 
 L’application recevant ce code de notification doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir les éléments en cours d’activation, l’application réceptrice doit utiliser le message [**\_ GETSELECTEDCOUNT LVM**](lvm-getselectedcount.md) pour récupérer le nombre d’éléments sélectionnés, puis envoyer le [**message \_ GETNEXTITEM LVM**](lvm-getnextitem.md) avec **LVNI \_ sélectionné** jusqu’à ce que tous les éléments aient été récupérés.
 
@@ -65,8 +65,8 @@ Pour obtenir les éléments en cours d’activation, l’application réceptrice
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

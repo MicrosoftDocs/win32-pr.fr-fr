@@ -1,5 +1,5 @@
 ---
-description: 'Cette rubrique explique comment inscrire un programme dans le Registre Windows en tant qu’un des types de client suivants : navigateur, e-mail, lecture multimédia, messagerie instantanée ou machine virtuelle pour Java.'
+description: 'cette rubrique explique comment inscrire un programme dans le registre Windows en tant qu’un des types de client suivants : navigateur, courrier électronique, lecture multimédia, messagerie instantanée ou machine virtuelle pour Java.'
 title: Inscription de programmes avec des types de clients
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 71dd4e3192dc75821fd0a3e8c0d4742e1a8d571a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c9c2d9a4589b684580250c487a6f83c3c9e79dbc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103869626"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470417"
 ---
 # <a name="registering-programs-with-client-types"></a>Inscription de programmes avec des types de clients
 
-Cette rubrique explique comment inscrire un programme dans le Registre Windows en tant qu’un des types de client suivants : navigateur, e-mail, lecture multimédia, messagerie instantanée ou machine virtuelle pour Java.
+cette rubrique explique comment inscrire un programme dans le registre Windows en tant qu’un des types de client suivants : navigateur, courrier électronique, lecture multimédia, messagerie instantanée ou machine virtuelle pour Java.
 
 > [!Note]  
 > Ces informations s’appliquent aux systèmes d’exploitation suivants :
@@ -103,8 +103,8 @@ Pour les clients de navigateur, le nom canonique doit être le nom, y compris l�
 Voici quelques exemples de noms canoniques.
 
 -   Iexplore.exe (navigateur)
--   Messagerie Windows (e-mail)
--   Lecteur Windows Media (média)
+-   Windows Courrier électronique (e-mail)
+-   Lecteur Windows Media (support)
 -   Windows Messenger (messagerie instantanée)
 
 Inscrivez le nom canonique en créant une sous-clé comme indiqué ici. Le nom de la sous-clé est le nom canonique. Toutes les informations relatives à l’inscription de ce programme se trouvent sous cette sous-clé.
@@ -122,7 +122,7 @@ HKEY_LOCAL_MACHINE
 L’étape suivante de l’inscription consiste à spécifier le nom d’affichage du programme. Elle est fournie sous la forme d’une valeur sous la clé de nom canonique comme indiqué ici. Notez à nouveau que *CanonicalName* et *ClientTypeName* ne sont pas les noms réels des clés, mais uniquement des espaces réservés pour les véritables noms, tels que *lit View*.
 
 > [!Note]  
-> À compter de Windows 8, le nom utilisé pour l’inscription pour les [paramètres par défaut de l’option définir l’accès aux programmes et les paramètres par défaut de l’ordinateur (SPAD)](cpl-setprogramaccess.md) et pour les [programmes par défaut](default-programs.md) doit correspondre pour que les modifications de SPAD déclenchent les inscriptions des programmes par défaut.
+> à partir de Windows 8, le nom utilisé pour l’inscription pour les paramètres par défaut de l’accès aux programmes et de l' [ordinateur (SPAD)](cpl-setprogramaccess.md) et pour les [programmes par défaut](default-programs.md) doit correspondre pour que les modifications de SPAD déclenchent les inscriptions des programmes par défaut.
 
  
 
@@ -135,7 +135,7 @@ HKEY_LOCAL_MACHINE
                LocalizedString = @FilePath,-StringID
 ```
 
-La valeur **LocalizedString** est une \_ chaîne sz reg et se compose d’un signe « at » (@), du chemin d’accès complet à un fichier. dll ou. exe, d’une virgule, d’un signe moins et d’un entier décimal. L’entier décimal est l’ID d’une ressource de type chaîne, contenue dans le fichier. dll ou. exe, dont la valeur doit être affichée à l’utilisateur en tant que nom de ce client. Notez que le chemin d’accès du fichier ne requiert pas de guillemets, même s’il contient des espaces.
+La valeur **LocalizedString** est une \_ chaîne sz reg et se compose d’un signe « at » (@), du chemin d’accès complet à un fichier .dll ou .exe, d’une virgule, d’un signe moins et d’un entier décimal. L’entier décimal est l’ID d’une ressource de type chaîne, contenue dans le fichier .dll ou .exe, dont la valeur doit être affichée à l’utilisateur en tant que nom de ce client. Notez que le chemin d’accès du fichier ne requiert pas de guillemets, même s’il contient des espaces.
 
 L’inscription de la chaîne de nom complet de cette manière permet d’utiliser la même inscription pour plusieurs langues. Chaque installation de langue fournit un fichier de ressources différent avec le nom complet stocké au même ID de ressource.
 
@@ -156,13 +156,13 @@ Notez l’utilisation de l’entrée (par défaut) comme déclaration secondaire
 ### <a name="registering-a-programs-icon"></a>Inscription de l’icône d’un programme
 
 > [!Note]  
-> Cette section ne s’applique pas à Windows 2000.
+> cette section ne s’applique pas à Windows 2000.
 
  
 
-Par défaut, la section supérieure du menu **Démarrer** de Windows XP et Windows Vista contient des icônes **Internet** et de **messagerie** . Ces icônes ne sont pas présentes dans Windows 7 et versions ultérieures. Pour les clients de messagerie et de navigateur, lorsqu’un programme est attribué par défaut à son type de client, l’icône inscrite de ce programme s’affiche pour ces entrées de menu **Démarrer** .
+par défaut, la section supérieure du menu **démarrer** de Windows XP et Windows Vista contient des icônes **Internet** et de **messagerie** . ces icônes ne sont pas présentes dans Windows 7 et versions ultérieures. Pour les clients de messagerie et de navigateur, lorsqu’un programme est attribué par défaut à son type de client, l’icône inscrite de ce programme s’affiche pour ces entrées de menu **Démarrer** .
 
-L’inscription de l’icône d’un programme est obligatoire pour les clients de messagerie et de navigateur. L’inscription d’une icône pour les types de client lecture du média, messagerie instantanée ou machine virtuelle pour Java est facultative, et les icônes inscrites pour ces types de clients ne sont pas actuellement utilisées par Windows et ne sont pas affichées dans la section supérieure des menus **Démarrer** de Windows XP ou Windows Vista.
+L’inscription de l’icône d’un programme est obligatoire pour les clients de messagerie et de navigateur. l’inscription d’une icône pour la lecture du média, la messagerie instantanée ou la machine virtuelle pour les types de clients Java est facultative, et les icônes inscrites pour ces types de clients ne sont pas utilisées actuellement par Windows et ne sont pas affichées dans la section supérieure des menus **démarrer** Windows XP ou Windows Vista.
 
 Pour inscrire une icône pour un programme client, ajoutez une sous-clé **DefaultIcon** avec une valeur par défaut, comme indiqué ici.
 
@@ -198,11 +198,11 @@ HKEY_LOCAL_MACHINE
 ### <a name="registering-an-open-verb"></a>Inscription d’un verbe ouvert
 
 > [!Note]  
-> Cette section ne s’applique pas à Windows 2000. L’étape suivante est nécessaire uniquement pour les clients de messagerie et de navigateur.
+> cette section ne s’applique pas à Windows 2000. L’étape suivante est nécessaire uniquement pour les clients de messagerie et de navigateur.
 
  
 
-Supposons qu’un utilisateur a sélectionné votre programme comme programme Internet ou de messagerie par défaut. Cet utilisateur clique sur l’icône **Internet** ou **courrier électronique** dans le menu **Démarrer** de Windows XP ou Windows Vista pour ouvrir le programme. À ce stade, la ligne de commande enregistrée comme indiqué ici est exécutée.
+Supposons qu’un utilisateur a sélectionné votre programme comme programme Internet ou de messagerie par défaut. cet utilisateur clique sur l’icône **Internet** ou **courrier électronique** dans le menu **démarrer** de Windows XP ou Windows Vista pour ouvrir le programme. À ce stade, la ligne de commande enregistrée comme indiqué ici est exécutée.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -237,7 +237,7 @@ Notez que, dans cette valeur, des guillemets sont placés autour du chemin d’a
 ### <a name="registering-installation-information"></a>Inscription des informations d’installation
 
 > [!Note]  
-> Cette section ne s’applique pas à Windows Server 2003.
+> cette section ne s’applique pas à Windows Server 2003.
 
  
 
@@ -251,62 +251,23 @@ La fonctionnalité par laquelle l’utilisateur sélectionne les programmes par 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Système d’exploitation</th>
-<th>Intitulé</th>
-<th>Emplacement d’accès</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Windows 7</td>
-<td>Définir les paramètres par défaut de l’accès aux programmes et de l’ordinateur</td>
-<td><ul>
-<li>Option <strong>programmes par défaut</strong> du menu <strong>Démarrer</strong></li>
-<li><strong>Programmes par défaut</strong> Élément du panneau de configuration</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows Vista</td>
-<td>Définir les paramètres par défaut de l’accès aux programmes et de l’ordinateur</td>
-<td><ul>
-<li>Option <strong>programmes par défaut</strong> du menu <strong>Démarrer</strong></li>
-<li><strong>Programmes par défaut</strong> Élément du panneau de configuration</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Windows XP SP2</td>
-<td>Définir l’accès aux programmes et les valeurs par défaut</td>
-<td><ul>
-<li>Menu <strong>Démarrer</strong></li>
-<li><strong>Ajout/suppression de programmes</strong> Élément du panneau de configuration</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Windows XP SP1</td>
-<td>Configurer des programmes</td>
-<td><ul>
-<li><strong>Ajout/suppression de programmes</strong> Élément du panneau de configuration</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Système d’exploitation | Titre | Emplacement d’accès | 
+|------------------|-------|-----------------|
+| Windows 7 | Définir les paramètres par défaut de l’accès aux programmes et de l’ordinateur | <ul><li>Option <strong>programmes par défaut</strong> du menu <strong>Démarrer</strong></li><li><strong>Programmes par défaut</strong> Élément du panneau de configuration</li></ul> | 
+| Windows Vista | Définir les paramètres par défaut de l’accès aux programmes et de l’ordinateur | <ul><li>Option <strong>programmes par défaut</strong> du menu <strong>Démarrer</strong></li><li><strong>Programmes par défaut</strong> Élément du panneau de configuration</li></ul> | 
+| Windows XP SP2 | Définir l’accès aux programmes et les valeurs par défaut | <ul><li>Menu <strong>Démarrer</strong></li><li><strong>Ajout/suppression de programmes</strong> Élément du panneau de configuration</li></ul> | 
+| Windows XP SP1 | Configurer des programmes | <ul><li><strong>Ajout/suppression de programmes</strong> Élément du panneau de configuration</li></ul> | 
+
 
 
 
  
 
-Par souci de simplicité, cette rubrique utilise le titre Windows 7 de la fonctionnalité. Toutes les versions de la fonctionnalité sont communément appelées SPAD.
+par souci de simplicité, cette rubrique utilise le titre Windows 7 de la fonctionnalité. Toutes les versions de la fonctionnalité sont communément appelées SPAD.
 
 > [!Note]  
-> Si vous exécutez Windows 2000 ou Windows XP, vous devez disposer au moins de Windows 2000 SP3 ou Windows XP SP1 pour voir la page **configurer les paramètres par défaut** . Dans Windows Vista et versions ultérieures, l’accès à la page **définir les paramètres par défaut de l’accès aux programmes et des ordinateurs** requiert des privilèges d’administrateur. Pour cette raison, les développeurs sont encouragés à s’inscrire pour l’élément définir votre panneau de configuration [programmes par défaut](default-programs.md) afin que n’importe quel utilisateur puisse gérer les valeurs par défaut de l’application.
+> si vous exécutez Windows 2000 ou Windows xp, vous devez disposer d’au moins Windows 2000 SP3 ou Windows xp SP1 pour voir la page **définir l’accès aux programmes et aux valeurs par défaut** . dans Windows Vista et versions ultérieures, l’accès à la page **définir les paramètres par défaut de l’accès aux programmes et des ordinateurs** requiert des privilèges d’administrateur. Pour cette raison, les développeurs sont encouragés à s’inscrire pour l’élément définir votre panneau de configuration [programmes par défaut](default-programs.md) afin que n’importe quel utilisateur puisse gérer les valeurs par défaut de l’application.
 
  
 
@@ -329,7 +290,7 @@ La ligne de commande doit spécifier un chemin d’accès absolu complet au fich
 
 ### <a name="the-reinstall-command"></a>Commande de réinstallation
 
-La ligne de commande de réinstallation déclarée dans la valeur ReinstallCommand est exécutée lorsque l’utilisateur utilise la page **définir les paramètres par défaut de l’accès aux programmes et des ordinateurs** pour sélectionner votre programme comme type de client par défaut. Dans Windows Vista et versions ultérieures, l’accès à cette page nécessite un niveau de privilège d’administrateur. Dans Windows 8, si vous avez inscrit votre application en utilisant le même nom pour **définir l’accès aux programmes et les paramètres par défaut** de l’ordinateur et des **programmes par défaut**, les valeurs par défaut spécifiées dans **programmes par défaut** pour cette application seront appliquées à l’utilisateur actuel, ainsi que l’exécution de la commande réinstaller.
+La ligne de commande de réinstallation déclarée dans la valeur ReinstallCommand est exécutée lorsque l’utilisateur utilise la page **définir les paramètres par défaut de l’accès aux programmes et des ordinateurs** pour sélectionner votre programme comme type de client par défaut. dans Windows Vista et versions ultérieures, l’accès à cette page nécessite un niveau de privilège d’administrateur. dans Windows 8, si vous avez inscrit votre application en utilisant le même nom pour **définir l’accès aux programmes et les paramètres par défaut** de l’ordinateur et **par** défaut, les valeurs par défaut spécifiées dans **programmes par défaut** pour cette application seront appliquées à l’utilisateur actuel, ainsi que l’exécution de la commande réinstaller.
 
 Le programme lancé par la ligne de commande de réinstallation doit associer l’application à l’ensemble complet de types de [fichiers](fa-intro.md) et de [protocoles](/previous-versions//aa767743(v=vs.85)) que l’application peut gérer. Toutes les applications doivent mettre en place une fonctionnalité de gestionnaire dans la commande de réinstallation. Les applications peuvent utiliser la commande réinstaller pour inscrire la fonctionnalité et éventuellement établir l’État par défaut. Quand une application choisit d’implémenter les fonctionnalités et l’état du gestionnaire par défaut dans la commande de réinstallation, elle doit également rétablir les liens ou les raccourcis visibles souhaités. Les points d’entrée visibles pour la plupart des applications sont répertoriés dans [la commande masquer les icônes](#the-hide-icons-command).
 
@@ -341,7 +302,7 @@ Le programme lancé par la ligne de commande de réinstallation doit associer l�
 Une fois le processus de réinstallation terminé, le programme lancé par la ligne de commande de réinstallation doit s’arrêter. Il ne doit pas lancer le programme correspondant. il doit simplement enregistrer les valeurs par défaut. Par exemple, la commande de réinstallation d’un navigateur ne doit pas ouvrir la page d’hébergement de l’utilisateur.
 
 > [!Note]  
-> Pour les clients de messagerie et de navigateur sous Windows XP et Windows Vista, les applications qui choisissent d’établir la capacité de gestion et l’État par défaut dans la commande de réinstallation doivent s’inscrire à l’icône correspondante en haut du menu Démarrer. Pour plus d’informations, consultez [enregistrement du menu Démarrer](#start-menu-registration) .
+> pour les clients de messagerie et de navigateur dans Windows XP et Windows Vista, les applications qui choisissent d’établir la capacité de gestion et l’état par défaut dans la commande de réinstallation doivent s’inscrire à l’icône correspondante en haut du menu Démarrer. Pour plus d’informations, consultez [enregistrement du menu Démarrer](#start-menu-registration) .
 
  
 
@@ -350,7 +311,7 @@ Une fois le processus de réinstallation terminé, le programme lancé par la li
 La ligne de commande déclarée dans la valeur HideIconsCommand est exécutée lorsque l’utilisateur désactive l’option **activer l’accès à ce programme** dans la page **définir les paramètres par défaut de l’accès aux programmes et** de l’ordinateur. Cette ligne de commande doit masquer tous les points d’accès de votre programme qui sont visibles dans l’interface utilisateur. Les instructions spécifiques sont de supprimer des raccourcis et des icônes à partir des emplacements suivants :
 
 -   Icônes de bureau
--   Liens du menu Démarrer, y compris le groupe **démarrage**
+-   liens menu Démarrer, y compris le groupe de **démarrage**
 -   Liens vers la barre de lancement rapide
 -   Zone Notifications
 -   Menus contextuels
@@ -390,13 +351,13 @@ L’expérience utilisateur recommandée est la suivante :
     ![boîte de dialogue à propos du masquage de l’accès au programme](images/hideaccessvista.png)
 
 -   Quand l’utilisateur clique sur **OK**, l’élément **programmes et fonctionnalités** du panneau de configuration démarre pour permettre à l’utilisateur de désinstaller l’application.
--   Les utilisateurs de Windows XP doivent être affichés dans cette boîte de dialogue.
+-   Windows Les utilisateurs XP doivent être affichés dans cette boîte de dialogue.
 
     ![boîte de dialogue Windows XP équivalente](images/hideaccessxp.png)
 
--   Quand l’utilisateur Windows XP clique sur **OK**, l’élément **Ajouter ou supprimer des programmes** du panneau de configuration démarre pour permettre à l’utilisateur de désinstaller l’application.
+-   lorsque l’utilisateur Windows XP sélectionne **OK**, l’élément **ajouter ou supprimer des programmes** du panneau de configuration démarre pour permettre à l’utilisateur de désinstaller l’application.
 
-Le code suivant fournit une implémentation réutilisable pour la fonctionnalité masquer l’accès, comme indiqué ci-dessus. Il peut être utilisé sur Windows XP, Windows Vista et Windows 7.
+Le code suivant fournit une implémentation réutilisable pour la fonctionnalité masquer l’accès, comme indiqué ci-dessus. il peut être utilisé sur Windows XP, Windows Vista et Windows 7.
 
 
 ```
@@ -490,7 +451,7 @@ Notez que si vous avez utilisé l’entrée HideIconsCommand pour inviter une d�
 ### <a name="group-program-configuration"></a>Configuration du programme de groupe
 
 > [!Note]  
-> Cette section ne s’applique pas à Windows 2000.
+> cette section ne s’applique pas à Windows 2000.
 
  
 
@@ -515,8 +476,8 @@ L’entrée **OEMDefault** , si elle est présente et définie sur 1, définit l
 
 Outre l’option de réinitialisation de leurs ordinateurs à la configuration par défaut établie par l’OEM, les utilisateurs disposent de trois autres options de configuration :
 
--   Définissez leur ordinateur sur une configuration Microsoft Windows. Dans ce cas, la page **définir les paramètres par défaut de l’accès aux programmes et** de l’ordinateur permet d’accéder à tous les logiciels Microsoft et non-Microsoft sur l’ordinateur inscrit dans les catégories de produits appropriées. Les programmes Microsoft Windows sont sélectionnés comme option par défaut pour chaque catégorie.
--   Définissez leur ordinateur sur une configuration non-Microsoft. Cette configuration masque les points d’accès (tels que le menu **Démarrer** ) à Windows Internet Explorer, Windows Media Player, Windows Messenger et Microsoft Outlook Express. Il permet d’accéder aux logiciels non-Microsoft sur l’ordinateur dans ces catégories. En outre, si un programme non-Microsoft est disponible dans une catégorie, il est défini comme valeur par défaut pour cette catégorie. Si plusieurs programmes non-Microsoft sont disponibles dans une catégorie, l’utilisateur est invité à choisir le programme non-Microsoft qui doit être utilisé par défaut.
+-   définissez l’ordinateur sur une configuration Microsoft Windows. Dans ce cas, la page **définir les paramètres par défaut de l’accès aux programmes et** de l’ordinateur permet d’accéder à tous les logiciels Microsoft et non-Microsoft sur l’ordinateur inscrit dans les catégories de produits appropriées. les programmes Microsoft Windows sont sélectionnés comme option par défaut pour chaque catégorie.
+-   Définissez leur ordinateur sur une configuration non-Microsoft. cette configuration masque les points d’accès (tels que le menu **démarrer** ) à Windows Internet Explorer, Lecteur Windows Media, Windows Messenger et Microsoft Outlook Express. Il permet d’accéder aux logiciels non-Microsoft sur l’ordinateur dans ces catégories. En outre, si un programme non-Microsoft est disponible dans une catégorie, il est défini comme valeur par défaut pour cette catégorie. Si plusieurs programmes non-Microsoft sont disponibles dans une catégorie, l’utilisateur est invité à choisir le programme non-Microsoft qui doit être utilisé par défaut.
 -   Établissez une configuration personnalisée. Les utilisateurs effectuent leurs propres sélections pour l’activation ou la suppression de l’accès, en mélangeant les programmes Microsoft et non-Microsoft comme ils le voient. Les utilisateurs établissent des options par défaut en fonction de la catégorie.
 
 Les utilisateurs sont libres de modifier ces options à tout moment.
@@ -549,14 +510,14 @@ Vous trouverez également les informations suivantes dans les ressources figuran
 
 ### <a name="start-menu-registration"></a>Enregistrement du menu Démarrer
 
-Sous Windows XP, les applications sont généralement inscrites par défaut sur un ordinateur (**HKEY \_ local \_ machine**) plutôt que sur l’étendue utilisateur (**HKEY \_ Current \_ User**). Avec l’introduction de Windows Vista sur le contrôle de compte d’utilisateur, les applications qui réclament l' **Internet** et les emplacements de **messagerie** dans le menu **Démarrer** doivent implémenter la commande de réinstallation dans le contexte d’exécution approprié.
+sous Windows XP, les applications sont généralement inscrites par défaut sur un ordinateur (**hkey \_ LOCAL \_ machine**) plutôt que sur l’étendue utilisateur (**hkey \_ CURRENT \_ user**). avec l’introduction Windows Vista du contrôle de compte d’utilisateur, les applications qui réclament l' **Internet** et les emplacements de **messagerie** dans le menu **démarrer** doivent implémenter la commande de réinstallation dans le contexte d’exécution approprié.
 
 > [!Note]  
-> Le lien de **messagerie** du menu Démarrer a été supprimé à partir de Windows 7. Toutefois, l’inscription décrite dans cette section doit toujours être effectuée, car elle affecte le client MAPI par défaut.
+> le lien menu Démarrer **E-mail** a été supprimé à partir de Windows 7. Toutefois, l’inscription décrite dans cette section doit toujours être effectuée, car elle affecte le client MAPI par défaut.
 
  
 
-Un utilisateur limité sur Windows XP, Windows Vista ou Windows 7 ne peut pas accéder à SPAD. Pour cette raison, les développeurs sont encouragés à s’inscrire à l’élément **définir vos programmes par défaut** du panneau de configuration afin que n’importe quel utilisateur puisse gérer les valeurs par défaut des applications par utilisateur.
+un utilisateur limité sur Windows XP, Windows Vista ou Windows 7 ne peut pas accéder à SPAD. Pour cette raison, les développeurs sont encouragés à s’inscrire à l’élément **définir vos programmes par défaut** du panneau de configuration afin que n’importe quel utilisateur puisse gérer les valeurs par défaut des applications par utilisateur.
 
 Les sélections effectuées dans SPAD doivent uniquement affecter les paramètres par ordinateur.
 
@@ -572,7 +533,7 @@ HKEY_LOCAL_MACHINE
 
 > [!Note]
 > 
-> **Les informations suivantes s’appliquent uniquement à Windows XP.**
+> **les informations suivantes s’appliquent uniquement à Windows XP.**
 > 
 > Si l’inscription de la valeur par défaut au niveau de l’ordinateur sous HKEY \_ local \_ machine comme indiqué ci-dessus est réussie, l’application doit supprimer la valeur assignée à l’entrée par défaut sous la sous-clé suivante :
 > 
@@ -772,7 +733,7 @@ HKEY_LOCAL_MACHINE
 [Programmes par défaut](default-programs.md)
 </dt> <dt>
 
-[Inscription d’un navigateur Internet ou d’un client de messagerie à l’aide du menu Démarrer de Windows](start-menu-reg.md)
+[comment inscrire un navigateur Internet ou un Client de messagerie à l’aide du Menu démarrer Windows](start-menu-reg.md)
 </dt> <dt>
 
 [Disposition du Registre du client Internet Explorer (voir la section « Définitions des clés de Registre du client »)](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753633(v=vs.85))

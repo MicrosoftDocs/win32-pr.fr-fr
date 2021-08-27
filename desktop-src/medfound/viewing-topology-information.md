@@ -4,12 +4,12 @@ ms.assetid: d687ecd3-9ad6-46d5-b927-d9b99af2002f
 title: Affichage des informations de topologie
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78fd1d7d28de3d7fa5420241abf793295323532dca29d3d68d1271545aa460dd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9bf29f28ac419da7df14d90efb50919634d7409b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237371"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468006"
 ---
 # <a name="viewing-topology-information"></a>Affichage des informations de topologie
 
@@ -19,41 +19,13 @@ Le tableau suivant montre l’élément de topologie et les attributs affichés 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément de topologie</th>
-<th>Attributs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Nœuds de topologie</td>
-<td><ul>
-<li><a href="topology-node-attributes.md">Attributs de nœud de topologie</a> pour tous les nœuds.<br/></li>
-<li><a href="presentation-descriptor-attributes.md">Attributs du descripteur de présentation</a> pour les nœuds sources uniquement.<br/></li>
-<li>Informations d’entrée et de sortie de l’autorité de confiance pour les nœuds de transformation et de sortie.<br/></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Entrée de nœud</td>
-<td><ul>
-<li><a href="media-type-attributes.md">Attributs de type de média</a> pour tous les nœuds.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Sortie de nœud</td>
-<td><ul>
-<li><a href="stream-descriptor-attributes.md">Attributs du descripteur de flux</a> uniquement pour les nœuds sources.<br/></li>
-<li><a href="media-type-attributes.md">Attributs de type de média</a> pour tous les nœuds.<br/></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Élément de topologie | Attributs | 
+|---------------|------------|
+| Nœuds de topologie | <ul><li><a href="topology-node-attributes.md">Attributs de nœud de topologie</a> pour tous les nœuds.<br /></li><li><a href="presentation-descriptor-attributes.md">Attributs du descripteur de présentation</a> pour les nœuds sources uniquement.<br /></li><li>Informations d’entrée et de sortie de l’autorité de confiance pour les nœuds de transformation et de sortie.<br /></li></ul> | 
+| Entrée de nœud | <ul><li><a href="media-type-attributes.md">Attributs de type de média</a> pour tous les nœuds.</li></ul> | 
+| Sortie de nœud | <ul><li><a href="stream-descriptor-attributes.md">Attributs du descripteur de flux</a> uniquement pour les nœuds sources.<br /></li><li><a href="media-type-attributes.md">Attributs de type de média</a> pour tous les nœuds.<br /></li></ul> | 
+
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e37eb28c1fb7a272291c44661c52ec3548708b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49ad2b26697cd3985cc0e39a8ed7345bc4bbe941
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512574"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622345"
 ---
 # <a name="imsrdpclientadvancedsettings5-interface"></a>Interface IMsRdpClientAdvancedSettings5
 
@@ -43,53 +43,53 @@ L’interface **IMsRdpClientAdvancedSettings5** possède les propriétés suivan
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Propriété</th>
-<th style="text-align: left;">Type d’accès</th>
-<th style="text-align: left;">Description</th>
+<th >Propriété</th>
+<th >Type d’accès</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Mode de redirection audio. La propriété <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a> a les valeurs possibles suivantes.<br/>
-<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (la redirection audio est activée et l’option de redirection est &quot; Envoyer à cet ordinateur &quot; . Il s’agit du mode par défaut.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (la redirection audio est activée et l’option &quot; laisse sur l’ordinateur distant &quot; . L' &quot; option de départ sur l’ordinateur distant &quot; est prise en charge uniquement lors de la connexion à distance à un ordinateur hôte qui exécute Windows Vista. Si la connexion est vers un ordinateur hôte qui exécute Windows Server 2008, l’option &quot; conserver sur l’ordinateur distant &quot; est remplacée par &quot; ne pas lire &quot; .)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (la redirection audio est activée et le mode n’est &quot; pas lu &quot; .)<br/> </dt> <dd></dd> </dl></td>
+<td ><a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Mode de redirection audio. La propriété <a href="imsrdpclientadvancedsettings5-audioredirectionmode.md"><strong>AudioRedirectionMode</strong></a> a les valeurs possibles suivantes.<br/>
+<dt><span id="AUDIO_MODE_REDIRECT___0"></span><span id="audio_mode_redirect___0"></span><strong>AUDIO_MODE_REDIRECT 0</strong> (la redirection audio est activée et l’option de redirection est &quot; Envoyer à cet ordinateur &quot; . Il s’agit du mode par défaut.)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span><strong>AUDIO_MODE_PLAY_ON_SERVER 1</strong> (la redirection audio est activée et l’option &quot; laisse sur l’ordinateur distant &quot; . l' &quot; option Leave at remote computer &quot; est prise en charge uniquement lors de la connexion à distance à un ordinateur hôte exécutant Windows Vista. si la connexion s’effectue sur un ordinateur hôte exécutant Windows Server 2008, l’option &quot; conserver sur l’ordinateur distant &quot; est remplacée par &quot; ne pas lire &quot; .)<br/> </dt> <dd></dd> <dt><span id="AUDIO_MODE_NONE_2"></span><span id="audio_mode_none_2"></span><strong>AUDIO_MODE_NONE 2</strong> (la redirection audio est activée et le mode n’est &quot; pas lu &quot; .)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie la taille du fichier de cache virtuel pour les bitmaps de 32 bits par pixel (BPP). La valeur maximale est de 48 mégaoctets (Mo).<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-bitmapvirtualcache32bppsize.md"><strong>BitmapVirtualCache32BppSize</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie la taille du fichier de cache virtuel pour les bitmaps de 32 bits par pixel (BPP). La valeur maximale est de 48 mégaoctets (Mo).<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le bouton épingler doit être affiché dans la barre de connexion. Par défaut, la valeur est <strong>true</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-connectionbarshowpinbutton.md"><strong>ConnectionBarShowPinButton</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie si le bouton épingler doit être affiché dans la barre de connexion. Par défaut, la valeur est <strong>true</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si le mode public doit être activé ou désactivé. Par défaut, le mode public a la valeur <strong>false</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-publicmode.md"><strong>PublicMode</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie si le mode public doit être activé ou désactivé. Par défaut, le mode public a la valeur <strong>false</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si la redirection du presse-papiers doit être activée ou désactivée. Par défaut, le mode de redirection du presse-papiers a la valeur <strong>true</strong> (activé).<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectclipboard.md"><strong>RedirectClipboard</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie si la redirection du presse-papiers doit être activée ou désactivée. Par défaut, le mode de redirection du presse-papiers a la valeur <strong>true</strong> (activé).<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si les appareils redirigés doivent être activés ou désactivés. Par défaut, le mode appareils Redirigé est défini sur <strong>false</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectdevices.md"><strong>RedirectDevices</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie si les appareils redirigés doivent être activés ou désactivés. Par défaut, le mode appareils Redirigé est défini sur <strong>false</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Spécifie si les appareils redirigés de point de service doivent être activés ou désactivés. Par défaut, le mode appareils redirigés point de service est défini sur <strong>false</strong>.<br/></td>
+<td ><a href="imsrdpclientadvancedsettings5-redirectposdevices.md"><strong>RedirectPOSDevices</strong></a><br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Spécifie si les appareils redirigés de point de service doivent être activés ou désactivés. Par défaut, le mode appareils redirigés point de service est défini sur <strong>false</strong>.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ L’interface **IMsRdpClientAdvancedSettings5** possède les propriétés suivan
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

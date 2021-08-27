@@ -4,12 +4,12 @@ ms.assetid: bd8af2fc-7ae6-398a-0062-82090705e383
 title: Constantes FXECHO (XAPOFX. Manutention
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89ec45ca2d808ac11e5ac78ade2e1c03d6f62f2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75f32a526b5bb524145b6a80dfeeebaa50663f74f7f99780e44191f542bdaf43
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109639"
 ---
 # <a name="fxecho-constants"></a>Constantes FXECHO
 
@@ -31,11 +31,11 @@ Définit des valeurs à utiliser avec la structure de [**\_ paramètres FXECHO**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="platform-requirements"></a>Conditions requises par la plateforme
 
-Windows 10 (XAudio 2.9); Windows 8, Windows Phone 8 (XAudio 2,8); SDK DirectX (XAudio 2,7)
+Windows 10 (xaudio 2.9); Windows 8, Windows Phone 8 (XAudio 2,8); SDK DirectX (XAudio 2,7)
 
 ## <a name="requirements"></a>Configuration requise
 

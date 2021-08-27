@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f84a56c1ae3d57ab1931ec175aa8dc9010ea6b8a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f7af27de3d83171c8f1f89d0b860bf0b38ddfb6639a12bf40f90a58f06a273cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105629"
 ---
 # <a name="error-switch"></a>/Error (commutateur)
 
@@ -26,7 +26,7 @@ Le commutateur **/Error** détermine les types de vérification des erreurs que 
 > [!Note]  
 > Cette fonctionnalité est obsolète et n’est plus prise en charge. L’utilisation du commutateur [**/Robust**](-robust.md) est recommandée.
 
- 
+ 
 
 ``` syntax
 midl /error { allocation | stub_data | ref | bounds_check | none | all }
@@ -107,7 +107,7 @@ Effectue toutes les vérifications d’erreurs. Efficace avec MIDL version 5,0, 
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le commutateur **/Error** sélectionne le nombre de vérifications d’erreurs effectuées par les fichiers stub générés. En vigueur avec MIDL version 5,0, le paramètre par défaut est **/Error All**.
 
@@ -137,9 +137,9 @@ Efficace avec WindowsÂ 2000, le moteur de marshaling des NDR à l’exécution 
 [**/Robust**](-robust.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

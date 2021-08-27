@@ -9,12 +9,12 @@ keywords:
 - exclusion mutuelle, types
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c425e69c2aa3eac012874837a6970dbc26d1a51
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da546c753696144c68348c61d01473c7d6414290b5971c220ac8c983317b3b15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110269"
 ---
 # <a name="mutual-exclusion-types"></a>Types d’exclusion mutuelle
 
@@ -33,7 +33,7 @@ Le tableau suivant répertorie les identificateurs pour les types d’exclusion 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,9 +42,9 @@ Le tableau suivant répertorie les identificateurs pour les types d’exclusion 
 [**Valeurs GUID**](guid-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5563fe10c2f6a29682e1497e93145649c3701a9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 480031884edcca3accf47057b98a55c04afd75e1f29a7174a97f33ea62cf40a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120116739"
 ---
 # <a name="esentslvownermapalreadyexistsexception-constructor"></a>Constructeur EsentSLVOwnerMapAlreadyExistsException
 

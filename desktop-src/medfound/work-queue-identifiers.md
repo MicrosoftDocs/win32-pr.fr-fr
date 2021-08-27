@@ -4,12 +4,12 @@ ms.assetid: c769f876-83ca-4b04-a054-22fa7146310e
 title: Identificateurs de file d’attente de travail (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ecff594bad2a4595862f0bc6457644f86949d42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70d454e8b2a199a9c132bf6ea287f31d7d3e5102
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529869"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470226"
 ---
 # <a name="work-queue-identifiers"></a>Identificateurs de file d’attente de travail
 
@@ -19,49 +19,16 @@ Les applications doivent utiliser \_ \_ la file d’attente de rappel MFASYNC \_
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Constante/valeur</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt> <dt>0x00000001</dt> </dl></td>
-<td style="text-align: left;">Dans la plupart des cas, les applications doivent utiliser <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/> Cette file d’attente de travail est utilisée pour les opérations synchrones. L’utilisation de la file d’attente de travail standard peut courir le risque de blocage. Les applications peuvent créer une file d’attente synchrone privée en plus de la file d’attente multithread à l’aide de <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue"><strong>MFAllocateSerialWorkQueue</strong></a>.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt> <dt>0x00000002</dt> </dl></td>
-<td style="text-align: left;">Pas pour l’utilisation générale des applications.<br/></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_IO"></span><span id="mfasync_callback_queue_io"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_IO</strong></dt> <dt>0x00000003</dt> </dl></td>
-<td style="text-align: left;">Pas pour l’utilisation générale des applications.<br/> Cette file d’attente de travail est utilisée en interne pour les opérations d’e/s telles que la lecture de fichiers et la lecture à partir du réseau.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt> <dt>0x00000004</dt> </dl></td>
-<td style="text-align: left;">Pas pour l’utilisation générale des applications.<br/> Cette file d’attente de travail est utilisée pour les rappels périodiques et les éléments de travail planifiés. Les fonctions suivantes placent les éléments de travail dans cette file d’attente :<br/>
-<ul>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback"><strong>MFAddPeriodicCallback</strong></a></li>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem"><strong>MFScheduleWorkItem</strong></a></li>
-<li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex"><strong>MFScheduleWorkItemEx</strong></a></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_MULTITHREADED"></span><span id="mfasync_callback_queue_multithreaded"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong></dt> <dt>0x00000005</dt> </dl></td>
-<td style="text-align: left;">Cette file d’attente de travail multithread doit être utilisée dans la plupart des cas. <br/> Cette file d’attente de travail est utilisée pour les opérations asynchrones tout au long de Media Foundation.<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><span id="MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION"></span><span id="mfasync_callback_queue_long_function"></span><dl> <dt><strong>MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION</strong></dt> <dt>0x00000007</dt> </dl></td>
-<td style="text-align: left;">Pas pour l’utilisation générale des applications. À la place, les applications doivent utiliser <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Constante/valeur | Description | 
+|----------------|-------------|
+| <span id="MFASYNC_CALLBACK_QUEUE_STANDARD"></span><span id="mfasync_callback_queue_standard"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_STANDARD</strong></dt><dt>0x00000001</dt></dl> | Dans la plupart des cas, les applications doivent utiliser <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br /> Cette file d’attente de travail est utilisée pour les opérations synchrones. L’utilisation de la file d’attente de travail standard peut courir le risque de blocage. Les applications peuvent créer une file d’attente synchrone privée en plus de la file d’attente multithread à l’aide de <a href="/windows/desktop/api/mfapi/nf-mfapi-mfallocateserialworkqueue"><strong>MFAllocateSerialWorkQueue</strong></a>.<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_RT"></span><span id="mfasync_callback_queue_rt"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_RT</strong></dt><dt>0x00000002</dt></dl> | Pas pour l’utilisation générale des applications.<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_IO"></span><span id="mfasync_callback_queue_io"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_IO</strong></dt><dt>0x00000003</dt></dl> | Pas pour l’utilisation générale des applications.<br /> Cette file d’attente de travail est utilisée en interne pour les opérations d’e/s telles que la lecture de fichiers et la lecture à partir du réseau.<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_TIMER"></span><span id="mfasync_callback_queue_timer"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_TIMER</strong></dt><dt>0x00000004</dt></dl> | Pas pour l’utilisation générale des applications.<br /> Cette file d’attente de travail est utilisée pour les rappels périodiques et les éléments de travail planifiés. Les fonctions suivantes placent les éléments de travail dans cette file d’attente :<br /><ul><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfaddperiodiccallback"><strong>MFAddPeriodicCallback</strong></a></li><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitem"><strong>MFScheduleWorkItem</strong></a></li><li><a href="/windows/desktop/api/mfapi/nf-mfapi-mfscheduleworkitemex"><strong>MFScheduleWorkItemEx</strong></a></li></ul> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_MULTITHREADED"></span><span id="mfasync_callback_queue_multithreaded"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong></dt><dt>0x00000005</dt></dl> | Cette file d’attente de travail multithread doit être utilisée dans la plupart des cas. <br /> Cette file d’attente de travail est utilisée pour les opérations asynchrones tout au long de Media Foundation.<br /> | 
+| <span id="MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION"></span><span id="mfasync_callback_queue_long_function"></span><dl><dt><strong>MFASYNC_CALLBACK_QUEUE_LONG_FUNCTION</strong></dt><dt>0x00000007</dt></dl> | Pas pour l’utilisation générale des applications. À la place, les applications doivent utiliser <strong>MFASYNC_CALLBACK_QUEUE_MULTITHREADED</strong>.<br /> | 
+
 
 
 
@@ -83,8 +50,8 @@ En outre, les constantes suivantes sont utilisées dans le cadre de la connexion
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

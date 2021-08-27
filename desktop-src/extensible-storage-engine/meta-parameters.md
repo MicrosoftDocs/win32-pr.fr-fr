@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 82b5fac0cc59e9a0511344e72b3f316af9013965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 455b46465733a906b879dcedc4b5a2f4e6ef1f9e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542892"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472475"
 ---
 # <a name="meta-parameters"></a>Paramètres méta
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="meta-parameters"></a>Paramètres méta
 
@@ -45,128 +45,37 @@ En outre, le paramètre lui-même peut avoir d’autres effets sur le comporteme
 
 Une petite configuration modifie les valeurs par défaut des paramètres système suivants pour les valeurs spécifiées :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Paramètre système</p></th>
-<th><p>Nouvelle valeur par défaut</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_paramMaxSessions</p></td>
-<td><p>30000</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxOpenTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxCursors</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramMaxVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramMaxTemporaryTables</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLogFileSize</p></td>
-<td><p>64</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogBuffers</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDbExtensionSize</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageTempDBMin</p></td>
-<td><p>14</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramCacheSizeMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointDepthMax</p></td>
-<td><p>65536</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramLRUKHistoryMax</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramOutstandingIOMax</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramStartFlushThreshold</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramStopFlushThreshold</p></td>
-<td><p>2</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramNoInformationEvent</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCacheSizeMin</p></td>
-<td><p>16</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramPreferredVerPages</p></td>
-<td><p>2147483647</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramLogFileCreateAsynch</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramGlobalMinVerPages</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramPageHintCacheSize</p></td>
-<td><p>32</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramDisablePerfmon</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramEnableFileCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableViewCache</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramVerPageSize</p></td>
-<td><p>1 024</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_paramEnableAdvanced</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_paramCheckpointIOMax</p></td>
-<td><p>8</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Paramètre système</p> | <p>Nouvelle valeur par défaut</p> | 
+|-------------------------|--------------------------|
+| <p>JET_paramMaxSessions</p> | <p>30000</p> | 
+| <p>JET_paramMaxOpenTables</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxCursors</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramMaxTemporaryTables</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileSize</p> | <p>64</p> | 
+| <p>JET_paramLogBuffers</p> | <p>1</p> | 
+| <p>JET_paramDbExtensionSize</p> | <p>16</p> | 
+| <p>JET_paramPageTempDBMin</p> | <p>14</p> | 
+| <p>JET_paramCacheSizeMax</p> | <p>16</p> | 
+| <p>JET_paramCheckpointDepthMax</p> | <p>65536</p> | 
+| <p>JET_paramLRUKHistoryMax</p> | <p>10</p> | 
+| <p>JET_paramOutstandingIOMax</p> | <p>16</p> | 
+| <p>JET_paramStartFlushThreshold</p> | <p>1</p> | 
+| <p>JET_paramStopFlushThreshold</p> | <p>2</p> | 
+| <p>JET_paramNoInformationEvent</p> | <p>1</p> | 
+| <p>JET_paramCacheSizeMin</p> | <p>16</p> | 
+| <p>JET_paramPreferredVerPages</p> | <p>2147483647</p> | 
+| <p>JET_paramLogFileCreateAsynch</p> | <p>0</p> | 
+| <p>JET_paramGlobalMinVerPages</p> | <p>1</p> | 
+| <p>JET_paramPageHintCacheSize</p> | <p>32</p> | 
+| <p>JET_paramDisablePerfmon</p> | <p>1</p> | 
+| <p>JET_paramEnableFileCache</p> | <p>1</p> | 
+| <p>JET_paramEnableViewCache</p> | <p>1</p> | 
+| <p>JET_paramVerPageSize</p> | <p>1 024</p> | 
+| <p>JET_paramEnableAdvanced</p> | <p>0</p> | 
+| <p>JET_paramCheckpointIOMax</p> | <p>8</p> | 
+
 
 
 Une petite configuration a également plusieurs autres effets sur le moteur de base de données, notamment :
@@ -177,58 +86,9 @@ Une petite configuration a également plusieurs autres effets sur le moteur de b
 
   - Diverses activités de maintenance sont mises à l’échelle pour éviter l’activité des threads en arrière-plan
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>1 (hérité)</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 1</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>À compter de Windows Server 2008 et Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>1 (hérité)</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 1</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
+
 
 
 JET_paramEnableAdvanced  
@@ -317,82 +177,16 @@ Les paramètres système suivants seront protégés de la définition lorsque ce
 
   - JET_paramCheckpointIOMax
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Vrai</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>À compter de Windows Server 2008 et Windows Vista</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Vrai</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>à compter de Windows Server 2008 et Windows Vista</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

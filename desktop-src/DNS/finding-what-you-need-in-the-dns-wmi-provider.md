@@ -1,21 +1,21 @@
 ---
 title: Recherche de ce dont vous avez besoin dans le fournisseur WMI DNS
-description: La documentation du fournisseur DNS (Domain Name System) Windows Management Instrumentation (WMI) est présentée dans les quatre sections suivantes.
+description: la documentation du fournisseur DNS (domain Name System) Windows Management Instrumentation (WMI) est présentée dans les quatre sections suivantes.
 ms.assetid: d46fae17-d084-4ccb-b2d5-21be802af2d3
 keywords:
 - Domain Name System, fournisseur WMI, feuille de route
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8acabb853b84f6f42b7451ea57db10ca5ae3106f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c99dd7742622eafbde5fbb1ae7499c40fb86746dd6992ba6f3619644f302b5b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131819"
 ---
 # <a name="finding-what-you-need-in-the-dns-wmi-provider"></a>Recherche de ce dont vous avez besoin dans le fournisseur WMI DNS
 
-La documentation du fournisseur DNS (Domain Name System) Windows Management Instrumentation (WMI) est présentée dans les quatre sections suivantes.
+la documentation du fournisseur DNS (domain Name System) Windows Management Instrumentation (WMI) est présentée dans les quatre sections suivantes.
 
 
 
@@ -28,11 +28,11 @@ La documentation du fournisseur DNS (Domain Name System) Windows Management Inst
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

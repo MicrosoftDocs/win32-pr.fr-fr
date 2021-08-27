@@ -4,19 +4,19 @@ description: Une notification informe les utilisateurs d’événements qui ne s
 ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: be783ac6aac25e818d4ddf3612c726e55efa5fa5
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 48b32da195663d42024a9febed5451e2fd3f0840
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524513"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471615"
 ---
 # <a name="notifications-design-basics"></a>Notifications (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Une notification informe les utilisateurs d’événements qui ne sont pas liés à l’activité de l’utilisateur actuel, en affichant brièvement une info-bulle à partir d’une icône dans la zone de notification. La notification peut être due à une action de l’utilisateur ou à un événement système significatif, ou peut fournir des informations potentiellement utiles à partir de Microsoft Windows ou d’une application.
+Une notification informe les utilisateurs d’événements qui ne sont pas liés à l’activité de l’utilisateur actuel, en affichant brièvement une info-bulle à partir d’une icône dans la zone de notification. la notification peut être due à une action de l’utilisateur ou à un événement système significatif, ou peut fournir des informations potentiellement utiles à partir de Microsoft Windows ou d’une application.
 
 Les informations contenues dans une notification sont **utiles et pertinentes, mais jamais critiques.** Par conséquent, les notifications ne nécessitent pas d’action immédiate de l’utilisateur et les utilisateurs peuvent les ignorer librement.
 
@@ -24,7 +24,7 @@ Les informations contenues dans une notification sont **utiles et pertinentes, m
 
 Une notification classique.
 
-Dans Windows Vista et versions ultérieures, les notifications s’affichent pour une durée fixe de 9 secondes. Les notifications ne s’affichent pas immédiatement lorsque les utilisateurs sont inactifs ou que les économiseurs d’écran sont en cours d’exécution. Windows met automatiquement en file d’attente les notifications à ce moment-là et affiche les notifications mises en file d’attente lorsque l’utilisateur reprend l’activité normale. Par conséquent, vous n’avez rien à faire pour gérer ces circonstances particulières.
+dans Windows Vista et versions ultérieures, les notifications s’affichent pour une durée fixe de 9 secondes. Les notifications ne s’affichent pas immédiatement lorsque les utilisateurs sont inactifs ou que les économiseurs d’écran sont en cours d’exécution. Windows met automatiquement en file d’attente les notifications à ce moment-là et affiche les notifications mises en file d’attente lorsque l’utilisateur reprend l’activité normale. Par conséquent, vous n’avez rien à faire pour gérer ces circonstances particulières.
 
 **Développeurs :** Vous pouvez déterminer quand l’utilisateur est actif à l’aide de l’API SHQueryUserNotificationState.
 
@@ -38,13 +38,13 @@ Pour vous décider, posez-vous les questions suivantes :
 
 ![capture d’écran de l’alerte de sécurité Windows ](images/mess-notif-image2.png)
 
-Dans cet exemple, la boîte de dialogue exceptions du pare-feu Windows s’affiche comme un résultat direct de l’interaction de l’utilisateur. Une notification ne serait pas appropriée ici.
+dans cet exemple, la boîte de dialogue exceptions de pare-feu Windows s’affiche comme un résultat direct de l’interaction de l’utilisateur. Une notification ne serait pas appropriée ici.
 
 -   **Les informations s’appliquent-elles uniquement lorsque les utilisateurs utilisent activement votre application ?** Dans ce cas, affichez les informations dans la [barre d’État](ctrl-status-bars.md) de votre application ou dans une autre zone d’État.
 
 ![capture d’écran de la barre d’État Outlook ](images/mess-notif-image3.png)
 
-Dans cet exemple, Outlook affiche son état de connexion et de synchronisation sur sa barre d’État.
+dans cet exemple, Outlook affiche son état de connexion et de synchronisation sur sa barre d’état.
 
 -   **Les informations sont-elles rapidement modifiées, continues et en temps réel ?** Les exemples incluent la progression du traitement, les cotations boursières et les scores sportifs. Si c’est le cas, n’utilisez pas de notifications, car elles ne conviennent pas pour modifier rapidement les informations.
 -   **Les informations sont-elles utiles et pertinentes ? Les utilisateurs risquent-ils de modifier leur comportement ou d’éviter tout désagrément en raison de la réception des informations ?** Si ce n’est pas le cas, n’affichez pas les informations ou ne les placez pas dans une fenêtre d’État ou un fichier journal.
@@ -55,7 +55,7 @@ Dans cet exemple, Outlook affiche son état de connexion et de synchronisation s
 
 Les notifications efficaces qui favorisent une bonne expérience utilisateur sont les suivantes :
 
--   **Synchrone.** L’événement n’est pas un résultat immédiat et direct de l’interaction actuelle des utilisateurs avec Microsoft Windows ou votre application.
+-   **Synchrone.** l’événement n’est pas un résultat immédiat et direct de l’interaction actuelle des utilisateurs avec Microsoft Windows ou votre application.
 -   **Adapté.** Il y a un risque raisonnable que les utilisateurs effectuent une tâche ou modifient leur comportement en tant que résultat de la notification.
 -   **Nécessaire.** La notification affiche des informations utiles dont les utilisateurs se chargent et ne connaissent pas encore.
 -   **Non critique.** Les notifications ne sont pas modales et ne nécessitent pas d’intervention de l’utilisateur, de sorte que les utilisateurs peuvent les ignorer librement.
@@ -63,7 +63,7 @@ Les notifications efficaces qui favorisent une bonne expérience utilisateur son
 -   **Présenté de manière appropriée.** La présentation de la notification (durée, fréquence, texte, icône et interactivité) correspond à ses circonstances.
 -   **Pas ennuyeux !** Il y a une fine ligne entre l’informant en douceur des utilisateurs d’un événement et l’Pestering.
 
-Malheureusement, il y a trop de notifications non pertinentes, inappropriées et inutiles. Tenez compte de ces notifications de la salle de dommage de Windows XP :
+Malheureusement, il y a trop de notifications non pertinentes, inappropriées et inutiles. prenez en compte ces notifications du Windows XP Hall de dommage :
 
 ![capture d’écran de la notification « visite guidée de Windows XP » ](images/mess-notif-image4.png)
 
@@ -71,13 +71,13 @@ Malheureusement, il y a trop de notifications non pertinentes, inappropriées et
 
 ![capture d’écran de la notification « ajouter .NET Passport » ](images/mess-notif-image6.png)
 
-Dans ces exemples, Windows XP soi-disant tente d’aider les utilisateurs avec leur configuration initiale. Toutefois, ces notifications s’affichent beaucoup trop souvent et bien une fois qu’elles sont utiles, elles ne sont guère plus que des publications de fonctionnalités non sollicitées.
+dans ces exemples, Windows XP est soi-disant qui tente d’aider les utilisateurs avec leur configuration initiale. Toutefois, ces notifications s’affichent beaucoup trop souvent et bien une fois qu’elles sont utiles, elles ne sont guère plus que des publications de fonctionnalités non sollicitées.
 
 ## <a name="user-flow-must-be-maintained"></a>Le workflow de l’utilisateur doit être conservé
 
 **Idéalement, les utilisateurs immergés dans leur travail ne verront pas vos notifications. Au lieu de cela, ils voient vos notifications uniquement lorsque leur Flow est déjà rompu.**
 
-Dans Flow : la psychologie de l’expérience optimale, Mihaly Csikszentmihalyi indique que les utilisateurs entrent un état de Flow lorsqu’ils sont entièrement absorbés dans l’activité pendant laquelle ils perdent leur sens et ont des sentiments de grande satisfaction.
+dans Flow : la psychologie de l’expérience optimale, Mihaly Csikszentmihalyi indique que les utilisateurs entrent un état de Flow lorsqu’ils sont entièrement absorbés dans l’activité pendant laquelle ils perdent leur sens et ont des sentiments de grande satisfaction.
 
 **Les notifications efficaces aident les utilisateurs à conserver leur flow en présentant des informations utiles et pertinentes qui peuvent être facilement ignorées.** Les notifications sont présentées de manière périphérique et à clé basse, et elles ne nécessitent pas d’interaction.
 
@@ -88,7 +88,7 @@ Ne partez pas du principe que si les notifications sont [non modales](glossary.m
 -   Utilisation de plusieurs notifications lorsqu’une seule notification suffit.
 -   Utilisation de son lors de l’affichage d’une notification.
 
-Dans Windows 7, les utilisateurs disposent d’un contrôle optimal sur les notifications. **Si les utilisateurs détectent que les notifications d’un programme sont trop ennuyeuses, ils peuvent choisir de supprimer toutes les notifications de ce programme.** Assurez-vous que les utilisateurs ne font pas cela à votre programme en présentant des informations utiles et pertinentes et en suivant ces instructions.
+dans Windows 7, les utilisateurs disposent d’un contrôle optimal sur les notifications. **Si les utilisateurs détectent que les notifications d’un programme sont trop ennuyeuses, ils peuvent choisir de supprimer toutes les notifications de ce programme.** Assurez-vous que les utilisateurs ne font pas cela à votre programme en présentant des informations utiles et pertinentes et en suivant ces instructions.
 
 ## <a name="notifications-must-be-ignorable"></a>Les notifications doivent être ignorables
 
@@ -105,23 +105,23 @@ Les développeurs et les concepteurs veulent souvent présenter leurs notificati
 
 Si une notification est utilisée pour un événement que les utilisateurs peuvent ignorer en toute sécurité au premier, mais qui doivent être traités par la suite, une autre interface utilisateur doit être utilisée lorsque la situation devient critique. Cette technique est appelée escalade progressive.
 
-Par exemple, le système de gestion de l’alimentation Windows indique initialement une batterie faible en modifiant simplement son icône de zone de notification.
+par exemple, le système de gestion de l’alimentation Windows indique initialement une batterie faible en modifiant simplement son icône de zone de notification.
 
 ![capture d’écran de six icônes montrant l’état de la batterie ](images/mess-notif-image7.png)
 
-Dans ces exemples, la gestion de l’alimentation Windows utilise l’icône de zone de notification pour informer les utilisateurs de la batterie plus faible.
+dans ces exemples, Windows la gestion de l’alimentation utilise l’icône de la zone de notification pour informer les utilisateurs de la batterie plus faible.
 
-À mesure que la puissance de la batterie se réduit, Windows avertit les utilisateurs d’une faible puissance de batterie à l’aide d’une notification.
+à mesure que la puissance de la batterie diminue, Windows avertit les utilisateurs de la faible puissance de la batterie à l’aide d’une notification.
 
 ![capture d’écran de la notification de batterie faible](images/mess-notif-image8.png)
 
-Dans cet exemple, la gestion de l’alimentation Windows utilise une notification pour informer les utilisateurs que leur batterie est faible.
+dans cet exemple, Windows la gestion de l’alimentation utilise une notification pour informer les utilisateurs que leur batterie est faible.
 
-Cette notification s’affiche lorsque les utilisateurs disposent toujours de plusieurs options. Les utilisateurs peuvent se connecter, modifier leurs options d’alimentation, englober leur travail et arrêter l’ordinateur, ou ignorer la notification et continuer à travailler. Lorsque l’alimentation de la batterie continue à se décharger, le texte et l’icône de la notification reflètent l’urgence supplémentaire. Toutefois, une fois que l’alimentation de la batterie est tellement faible que les utilisateurs doivent agir immédiatement, la gestion de l’alimentation Windows avertit les utilisateurs à l’aide d’une boîte de message [modale](glossary.md) .
+Cette notification s’affiche lorsque les utilisateurs disposent toujours de plusieurs options. Les utilisateurs peuvent se connecter, modifier leurs options d’alimentation, englober leur travail et arrêter l’ordinateur, ou ignorer la notification et continuer à travailler. Lorsque l’alimentation de la batterie continue à se décharger, le texte et l’icône de la notification reflètent l’urgence supplémentaire. toutefois, une fois que la batterie est tellement faible que les utilisateurs doivent agir immédiatement, Windows la gestion de l’alimentation notifie les utilisateurs à l’aide d’une boîte de message [modale](glossary.md) .
 
 ![capture d’écran d’un avertissement d’alimentation sur batterie gravement faible](images/mess-notif-image9.png)
 
-Dans cet exemple, la gestion de l’alimentation Windows utilise une boîte de message modale pour avertir les utilisateurs d’une batterie dangereusement insuffisante.
+dans cet exemple, Windows la gestion de l’alimentation utilise une boîte de message modale pour notifier les utilisateurs d’une batterie dangereusement insuffisante.
 
 **Si vous ne faites que trois choses...**
 
@@ -135,43 +135,9 @@ Les notifications ont plusieurs modèles d’utilisation :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Réussite de l’action</strong><br/> Avertit les utilisateurs lorsqu’une action asynchrone lancée par l’utilisateur se termine correctement. <br/></td>
-<td><strong>Correct :</strong><br/> <img src="images/mess-notif-image10.png" alt="Screen shot of balloon showing successful updates " /><br/> Dans cet exemple, Windows Update avertit les utilisateurs lorsque leur ordinateur a été correctement mis à jour.<br/> <strong>Incorrect :</strong><br/> <img src="images/mess-notif-image11.png" alt="Screen shot of balloon showing file check complete " /><br/> Dans cet exemple, Microsoft Outlook avertit les utilisateurs quand une vérification du fichier de données est terminée. Que sont les utilisateurs censés faire maintenant ? Et pourquoi avertir les utilisateurs de la réussite de l’opération ?<br/> <strong>Afficher quand :</strong> À la fin d’une tâche asynchrone. Informez les utilisateurs des actions réussies uniquement s’ils sont susceptibles d’attendre la fin de l’opération ou après des échecs récents.<br/> <strong>Montrez comment :</strong> Utilisez l’option temps réel afin que ces notifications ne soient pas mises en file d’attente lorsque les utilisateurs exécutent une application en plein écran ou n’utilisent pas activement leur ordinateur.<br/> <strong>Affichez la fréquence :</strong> Toutes.<br/> <strong>Facteur d’ennui :</strong> Faible si la réussite n’est pas attendue en raison de défaillances récentes, la réussite est après une défaillance critique ou très inhabituelle, de sorte que l’utilisateur a besoin de commentaires supplémentaires ou que l’utilisateur attend la fin de son exécution. élevé dans le cas contraire.<br/> <strong>Alternatives :</strong> Envoyer des commentaires à la &quot; demande &quot; en affichant une icône (ou en modifiant une icône existante) dans la zone de notification pendant que l’opération est en cours d’exécution ; supprimer l’icône (ou restaurer l’icône précédente) une fois l’opération terminée. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>Échec de l’action</strong><br/> Avertit les utilisateurs lorsqu’une action asynchrone initiée par l’utilisateur échoue. <br/></td>
-<td><strong>Correct :</strong><br/> <img src="images/mess-notif-image12.png" alt="Screen shot of notification of failure to install " /><br/> Dans cet exemple, l’activation de Windows avertit les utilisateurs de l’échec.<br/> <strong>Incorrect :</strong><br/> <img src="images/mess-notif-image13.png" alt="Screen shot of notification of failure to update " /><br/> Dans cet exemple, Microsoft Outlook a utilisé pour informer les utilisateurs qu’ils ne sont pas susceptibles de s’intéresser.<br/> <strong>Afficher quand :</strong> En cas de défaillance d’une tâche asynchrone.<br/> <strong>Affichez la fréquence :</strong> Toutes.<br/> <strong>Facteur d’ennui :</strong> Faible si utile et pertinent ; élevé si le problème se résoudra immédiatement à lui-même ou à des utilisateurs qui ne se soucient pas.<br/> <strong>Alternatives :</strong> Utilisez une boîte de dialogue modale si les utilisateurs doivent résoudre le problème immédiatement. <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Événement système non critique</strong><br/> Avertit les utilisateurs d’événements système importants ou de l’État qui peuvent être ignorés en toute sécurité, au moins temporairement. <br/></td>
-<td><img src="images/mess-notif-image8.png" alt="Screen shot of notification of low battery power " /><br/> Dans cet exemple, Windows avertit les utilisateurs d’une batterie faible, mais il reste beaucoup de temps avant qu’ils ne soient en mesure d’agir.<br/> <strong>Afficher quand :</strong> Lorsqu’un événement se produit et que l’utilisateur est actif, ou qu’une condition continue à exister. En cas de problème, supprimez immédiatement les notifications actuellement affichées une fois que le problème est résolu. Comme avec les notifications d’action, avertissez les utilisateurs des événements système réussis uniquement si les utilisateurs sont susceptibles d’attendre l’événement ou après des échecs récents.<br/> <strong>Affichez la fréquence :</strong> Une fois lorsque l’événement se produit pour la première fois. Si cela est le résultat d’un problème que les utilisateurs doivent résoudre, réaffichez une fois par jour.<br/> <strong>Facteur d’ennui :</strong> Faible, tant que la notification n’est pas affichée trop souvent.<br/> <strong>Alternatives :</strong> Si les utilisateurs doivent finalement résoudre un problème, utilisez l’escalade progressive en affichant une boîte de dialogue modale lorsque la résolution devient obligatoire. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>Tâche utilisateur facultative</strong><br/> Avertit les utilisateurs des tâches asynchrones qu’ils doivent effectuer. Qu’il soit facultatif ou obligatoire, la tâche peut être ajournée en toute sécurité. <br/></td>
-<td><img src="images/mess-notif-image14.png" alt="Screen shot of notification of available updates " /><br/> Dans cet exemple, Windows Update notifie les utilisateurs d’une nouvelle mise à jour de sécurité.<br/> <strong>Afficher quand :</strong> Lorsque la nécessité d’effectuer une tâche est déterminée et que l’utilisateur est actif.<br/> <strong>Affichez la fréquence :</strong> Une fois par jour pour un maximum de trois fois.<br/> <strong>Facteur d’ennui :</strong> Faible, tant que les utilisateurs considèrent la tâche comme importante et que la notification n’est pas affichée trop souvent.<br/> <strong>Alternatives :</strong> Si les utilisateurs doivent finir par exécuter la tâche, utilisez l’escalade progressive en affichant une boîte de dialogue modale lorsque la tâche devient obligatoire. <br/></td>
-</tr>
-<tr class="odd">
-<td><strong>INFORMATION</strong><br/> Avertit les utilisateurs des informations pertinentes susceptibles d’être utiles. Vous pouvez avertir les utilisateurs d’informations marginales de pertinence si elles sont facultatives et que les utilisateurs choisissent. <br/></td>
-<td><strong>Correct :</strong><br/> <img src="images/mess-notif-image15.png" alt="Screen shot of notification of new e-mail message " /><br/> Dans cet exemple, les utilisateurs sont avertis lors de la réception d’un nouveau message électronique.<br/> <strong>Correct :</strong><br/> <img src="images/mess-notif-image16.png" alt="Screen shot of notification of contact signed in " /><br/> Dans cet exemple, les utilisateurs sont avertis lorsque les contacts sont en ligne et qu’ils choisissent de recevoir ces informations facultatives.<br/> <strong>Incorrect :</strong><br/> <img src="images/mess-notif-image17.png" alt="Screen shot of notification for faster performance " /><br/> Dans cet exemple, les informations sont utiles uniquement si l’utilisateur a déjà installé des ports USB à haut débit. Dans le cas contraire, il est probable que l’utilisateur n’ait rien d’autre que le résultat.<br/> <strong>Afficher quand :</strong> Lorsque l’événement de déclenchement se produit.<br/> <strong>Montrez comment :</strong> Utilisez l’option temps réel afin que ces notifications ne soient pas mises en file d’attente lorsque les utilisateurs exécutent une application en plein écran ou n’utilisent pas activement leur ordinateur.<br/> <strong>Affichez la fréquence :</strong> Toutes.<br/> <strong>Facteur d’ennui :</strong> Moyen à élevé, en fonction de la perception de l’utilité des utilisateurs et de leur pertinence. Non recommandé s’il existe une faible probabilité d’intérêt pour l’utilisateur.<br/> <strong>Alternatives :</strong> Ne pas avertir les utilisateurs. <br/></td>
-</tr>
-<tr class="even">
-<td><strong>Publication des fonctionnalités</strong><br/> Avertit les utilisateurs des fonctionnalités système ou d’application récemment installées et inutilisées.<br/></td>
-<td><strong>N’utilisez pas de notifications pour les publications de fonctionnalités !</strong> Au lieu de cela, utilisez une autre méthode pour rendre la fonctionnalité détectable, par exemple : <br/>
-<ul>
-<li>Concevez la fonctionnalité pour qu’elle soit plus facile à détecter dans les contextes lorsque cela est nécessaire.</li>
-<li>N’effectuez aucune action particulière et permettez aux utilisateurs de découvrir la fonctionnalité de manière autonome.</li>
-</ul>
-<strong>Incorrect :</strong><br/> <img src="images/mess-notif-image4.png" alt="Screen shot of notification of new features " /><br/> N’utilisez pas de notifications pour les publications de fonctionnalités.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>Réussite</strong> de l’action<br /> Avertit les utilisateurs lorsqu’une action asynchrone lancée par l’utilisateur se termine correctement. <br /> | <strong>Correctrices</strong><br /><img src="images/mess-notif-image10.png" alt="Screen shot of balloon showing successful updates " /><br /> dans cet exemple, Windows Update avertit les utilisateurs lorsque leur ordinateur a été correctement mis à jour.<br /><strong>Incorrect :</strong><br /><img src="images/mess-notif-image11.png" alt="Screen shot of balloon showing file check complete " /><br /> dans cet exemple, Microsoft Outlook avertit les utilisateurs lorsqu’une vérification des fichiers de données est terminée. Que sont les utilisateurs censés faire maintenant ? Et pourquoi avertir les utilisateurs de la réussite de l’opération ?<br /><strong>Afficher quand :</strong> À la fin d’une tâche asynchrone. Informez les utilisateurs des actions réussies uniquement s’ils sont susceptibles d’attendre la fin de l’opération ou après des échecs récents.<br /><strong>Montrez comment :</strong> Utilisez l’option temps réel afin que ces notifications ne soient pas mises en file d’attente lorsque les utilisateurs exécutent une application en plein écran ou n’utilisent pas activement leur ordinateur.<br /><strong>Affichez la fréquence :</strong> Toutes.<br /><strong>Facteur d’ennui :</strong> Faible si la réussite n’est pas attendue en raison de défaillances récentes, la réussite est après une défaillance critique ou très inhabituelle, de sorte que l’utilisateur a besoin de commentaires supplémentaires ou que l’utilisateur attend la fin de son exécution. élevé dans le cas contraire.<br /><strong>Alternatives :</strong> Envoyer des commentaires « à la demande » en affichant une icône (ou en modifiant une icône existante) dans la zone de notification pendant que l’opération est en cours d’exécution ; supprimer l’icône (ou restaurer l’icône précédente) lorsque l’opération est terminée. <br /> | | <strong>Échec</strong> de l’action<br /> Avertit les utilisateurs lorsqu’une action asynchrone initiée par l’utilisateur échoue. <br /> | <strong>Correctrices</strong><br /><img src="images/mess-notif-image12.png" alt="Screen shot of notification of failure to install " /><br /> dans cet exemple, Windows activation avertit les utilisateurs de l’échec.<br /><strong>Incorrect :</strong><br /><img src="images/mess-notif-image13.png" alt="Screen shot of notification of failure to update " /><br /> dans cet exemple, Microsoft Outlook utilisé pour informer les utilisateurs qu’ils ne sont pas susceptibles de s’intéresser.<br /><strong>Afficher quand :</strong> En cas de défaillance d’une tâche asynchrone.<br /><strong>Affichez la fréquence :</strong> Toutes.<br /><strong>Facteur d’ennui :</strong> Faible si utile et pertinent ; élevé si le problème se résoudra immédiatement à lui-même ou à des utilisateurs qui ne se soucient pas.<br /><strong>Alternatives :</strong> Utilisez une boîte de dialogue modale si les utilisateurs doivent résoudre le problème immédiatement. <br /> | | <strong>Événement système non critique</strong><br /> Avertit les utilisateurs d’événements système importants ou de l’État qui peuvent être ignorés en toute sécurité, au moins temporairement. <br /> | <img src="images/mess-notif-image8.png" alt="Screen shot of notification of low battery power " /><br /> dans cet exemple, Windows avertit les utilisateurs d’une batterie faible, mais il reste beaucoup de temps avant qu’ils ne soient en mesure d’agir.<br /><strong>Afficher quand :</strong> Lorsqu’un événement se produit et que l’utilisateur est actif, ou qu’une condition continue à exister. En cas de problème, supprimez immédiatement les notifications actuellement affichées une fois que le problème est résolu. Comme avec les notifications d’action, avertissez les utilisateurs des événements système réussis uniquement si les utilisateurs sont susceptibles d’attendre l’événement ou après des échecs récents.<br /><strong>Affichez la fréquence :</strong> Une fois lorsque l’événement se produit pour la première fois. Si cela est le résultat d’un problème que les utilisateurs doivent résoudre, réaffichez une fois par jour.<br /><strong>Facteur d’ennui :</strong> Faible, tant que la notification n’est pas affichée trop souvent.<br /><strong>Alternatives :</strong> Si les utilisateurs doivent finalement résoudre un problème, utilisez l’escalade progressive en affichant une boîte de dialogue modale lorsque la résolution devient obligatoire. <br /> | | <strong>Tâche utilisateur facultative</strong><br /> Avertit les utilisateurs des tâches asynchrones qu’ils doivent effectuer. Qu’il soit facultatif ou obligatoire, la tâche peut être ajournée en toute sécurité. <br /> | <img src="images/mess-notif-image14.png" alt="Screen shot of notification of available updates " /><br /> dans cet exemple, Windows Update notifie les utilisateurs d’une nouvelle mise à jour de sécurité.<br /><strong>Afficher quand :</strong> Lorsque la nécessité d’effectuer une tâche est déterminée et que l’utilisateur est actif.<br /><strong>Affichez la fréquence :</strong> Une fois par jour pour un maximum de trois fois.<br /><strong>Facteur d’ennui :</strong> Faible, tant que les utilisateurs considèrent la tâche comme importante et que la notification n’est pas affichée trop souvent.<br /><strong>Alternatives :</strong> Si les utilisateurs doivent finir par exécuter la tâche, utilisez l’escalade progressive en affichant une boîte de dialogue modale lorsque la tâche devient obligatoire. <br /> | | <strong>Money</strong><br /> Avertit les utilisateurs des informations pertinentes susceptibles d’être utiles. Vous pouvez avertir les utilisateurs d’informations marginales de pertinence si elles sont facultatives et que les utilisateurs choisissent. <br /> | <strong>Correctrices</strong><br /><img src="images/mess-notif-image15.png" alt="Screen shot of notification of new e-mail message " /><br /> Dans cet exemple, les utilisateurs sont avertis lors de la réception d’un nouveau message électronique.<br /><strong>Correct :</strong><br /><img src="images/mess-notif-image16.png" alt="Screen shot of notification of contact signed in " /><br /> Dans cet exemple, les utilisateurs sont avertis lorsque les contacts sont en ligne et qu’ils choisissent de recevoir ces informations facultatives.<br /><strong>Incorrect :</strong><br /><img src="images/mess-notif-image17.png" alt="Screen shot of notification for faster performance " /><br /> Dans cet exemple, les informations sont utiles uniquement si l’utilisateur a déjà installé des ports USB à haut débit. Dans le cas contraire, il est probable que l’utilisateur n’ait rien d’autre que le résultat.<br /><strong>Afficher quand :</strong> Lorsque l’événement de déclenchement se produit.<br /><strong>Montrez comment :</strong> Utilisez l’option temps réel afin que ces notifications ne soient pas mises en file d’attente lorsque les utilisateurs exécutent une application en plein écran ou n’utilisent pas activement leur ordinateur.<br /><strong>Affichez la fréquence :</strong> Toutes.<br /><strong>Facteur d’ennui :</strong> Moyen à élevé, en fonction de la perception de l’utilité des utilisateurs et de leur pertinence. Non recommandé s’il existe une faible probabilité d’intérêt pour l’utilisateur.<br /><strong>Alternatives :</strong> Ne pas avertir les utilisateurs. <br /> | | <strong>Publication des fonctionnalités</strong><br /> Avertit les utilisateurs des fonctionnalités système ou d’application récemment installées et inutilisées.<br /> | <strong>N’utilisez pas de notifications pour les publications de fonctionnalités !</strong> Au lieu de cela, utilisez une autre méthode pour rendre la fonctionnalité détectable, par exemple : <br /><ul><li>Concevez la fonctionnalité pour qu’elle soit plus facile à détecter dans les contextes lorsque cela est nécessaire.</li><li>N’effectuez aucune action particulière et permettez aux utilisateurs de découvrir la fonctionnalité de manière autonome.</li></ul><strong>Incorrect :</strong><br /><img src="images/mess-notif-image4.png" alt="Screen shot of notification of new features " /><br /> N’utilisez pas de notifications pour les publications de fonctionnalités.<br /> | 
+
 
 
 
@@ -179,10 +145,10 @@ Les notifications ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Sélectionnez le modèle de notification en fonction de son utilisation.** Pour obtenir une description de chaque modèle d’utilisation, consultez le tableau précédent.
--   **N’utilisez pas de notifications au cours de l’expérience Windows initiale.** Pour améliorer sa première expérience, Windows 7 supprime toutes les notifications affichées au cours des premières heures d’utilisation. Concevez votre programme en supposant que les utilisateurs ne verront pas ces notifications.
+-   **n’utilisez pas de notifications au cours de l’expérience de Windows initiale.** pour améliorer sa première expérience, Windows 7 supprime toutes les notifications affichées au cours des premières heures d’utilisation. Concevez votre programme en supposant que les utilisateurs ne verront pas ces notifications.
 
 ### <a name="what-to-notify"></a>Éléments à notifier
 
@@ -213,7 +179,7 @@ Les notifications ont plusieurs modèles d’utilisation :
 
     ![capture d’écran de la notification « détection du nouveau matériel » ](images/mess-notif-image18.png)
 
-    Ces exemples affichent uniquement quatre des huit notifications qui ont été affichées par Windows XP lorsqu’un utilisateur attache un clavier USB spécifique, chacun présentant des informations incrémentielles.
+    ces exemples affichent uniquement quatre des huit notifications qui ont été affichées par Windows XP quand un utilisateur attache un clavier USB spécifique, chacun présentant des informations incrémentielles.
 
     **Correct :**
 
@@ -249,14 +215,14 @@ Lorsqu’il est immédiatement suivi de :
 
 ![capture d’écran de la notification de connexion réussie ](images/mess-notif-image21.png)
 
-Dans cet exemple, dans Windows Vista, la notification d’absence de connectivité sans fil est prématurée, car elle est souvent suivie immédiatement d’une notification de bonne connectivité.
+dans cet exemple, dans Windows Vista, la notification d’absence de connectivité sans fil est prématurée, car elle est souvent suivie immédiatement d’une notification de bonne connectivité.
 
 -   Pour les modèles d’action Success et Money, **Utilisez l’option en temps réel afin que les notifications obsolètes ne soient pas mises en file d’attente** lorsque les utilisateurs exécutent une application en plein écran ou n’utilisent pas activement leur ordinateur.
 -   Pour le modèle d’événement système non critique, **ne créez pas le potentiel des tempêtes de notification en fragmentant les événements liés à des événements connus tels que l’ouverture de session utilisateur.** Au lieu de cela, liez l’événement à un laps de temps après l’événement. Par exemple, vous pouvez rappeler aux utilisateurs d’inscrire votre produit cinq minutes après l’ouverture de session de l’utilisateur.
 
 ### <a name="how-long-to-notify"></a>Délai de notification
 
-Dans Windows Vista et versions ultérieures, les notifications s’affichent pour une durée fixe de 9 secondes.
+dans Windows Vista et versions ultérieures, les notifications s’affichent pour une durée fixe de 9 secondes.
 
 ### <a name="how-often-to-notify"></a>Fréquence de notification
 
@@ -325,7 +291,7 @@ Dans cet exemple, les utilisateurs peuvent rapidement comprendre la nature de la
 
 -   Si votre application n’a pas toujours d’icône dans la [zone de notification](winenv-notification.md) lorsqu’elle est en cours d’exécution, **Affichez temporairement une icône au cours de la tâche ou de l’événement asynchrone à l’origine de la notification.**
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 ### <a name="title-text"></a>Texte du titre
 

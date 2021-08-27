@@ -1,5 +1,5 @@
 ---
-description: Représente un événement d’erreur de mémoire MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Représente un événement d’erreur de mémoire MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
 title: Classe MSMCAEvent_MemoryError
 ms.topic: reference
@@ -39,16 +39,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 8dce82b8fa7a87676c34a9c6f26f43e4db10e227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f93ac9ddda978a56ceb0e258766c2e60703acc94e92c551e673a9294e2cb984c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120979"
 ---
 # <a name="msmcaevent_memoryerror-class"></a>MSMCAEvent \_ MemoryError, classe
 
-La classe **MSMCAEvent \_ MemoryError** représente un événement d’erreur de mémoire MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ MemoryError** représente un événement d’erreur de mémoire MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -167,7 +167,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -369,7 +369,7 @@ Type de données : tableau **UInt8**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Tableau d’octets qui contient l’enregistrement d’erreur brut, tel qu’il est présenté à Windows par la couche d’abstraction système (SAL). Le nombre d’éléments dans le tableau est spécifié par la propriété **Size** .
+tableau d’octets qui contient l’enregistrement d’erreur brut, tel qu’il est présenté à Windows par la couche d’abstraction système (SAL). Le nombre d’éléments dans le tableau est spécifié par la propriété **Size** .
 
 </dd> <dt>
 
@@ -455,7 +455,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> <dt>
 
@@ -500,7 +500,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ MemoryError** est dérivée de [**WmiEvent**](wmievent.md).
 

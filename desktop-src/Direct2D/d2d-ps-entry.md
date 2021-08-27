@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7525416eed7700709d02d2ec17823cd57a8c12ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26369ef5be8c9dea81bf95e60c09ca0041d4275114c8892b85b6b5525f45504b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087782"
 ---
 # <a name="d2d_ps_entry-function"></a>Fonction d’entrée de la \_ PS D2D \_
 
@@ -48,7 +48,7 @@ Nom du point d’entrée du nuanceur de pixels.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette macro au lieu de spécifier la signature d’entrée de point d’entrée de manière normale : tous les paramètres sont implicites et ajoutés par Direct2D pendant la compilation selon le type de cible de compilation (nuanceur complet ou fonction d’exportation).
 

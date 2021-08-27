@@ -4,12 +4,12 @@ ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: Filtre de décodage vidéo DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f00d63c92da4c16697d7cc9ff173f4c50e822a10da429a586f8eaa688e9eb96
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 12131aa09f8e3f7dbef56504ad55410af11ffcbe
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117820681"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466046"
 ---
 # <a name="dv-video-decoder-filter"></a>Filtre de décodage vidéo DV
 
@@ -17,70 +17,9 @@ Ce filtre décode un flux vidéo numérique (DV) en vidéo non compressée.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Interfaces de filtre</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>IIPDVDec</strong></a>, <strong>IPersistStream</strong>, <strong>ISpecifyPropertyPages</strong></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche d’entrée</td>
-<td><ul>
-<li>MEDIATYPE_Video</li>
-<li>MEDIASUBTYPE_dvsd</li>
-<li>FORMAT_VideoInfo, FORMAT_DvInfo</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Interfaces pin d’entrée</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche de sortie</td>
-<td><strong>Type principal</strong>: MEDIATYPE_Video<strong>sous-types</strong>:<br/>
-<ul>
-<li>MEDIASUBTYPE_YUY2</li>
-<li>MEDIASUBTYPE_UYVY</li>
-<li>MEDIASUBTYPE_RGB24</li>
-<li>MEDIASUBTYPE_RGB32</li>
-<li>MEDIASUBTYPE_ARGB32</li>
-<li>MEDIASUBTYPE_RGB565</li>
-<li>MEDIASUBTYPE_RGB555</li>
-<li>MEDIASUBTYPE_RGB8</li>
-<li>MEDIASUBTYPE_Y41P</li>
-</ul>
-<strong>Types de format</strong>:<br/> Format_VideoInfo, Format_VideoInfo2<br/></td>
-</tr>
-<tr class="odd">
-<td>Interfaces de broche de sortie</td>
-<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>CLSID du filtre</td>
-<td>CLSID_DVVideoCodec</td>
-</tr>
-<tr class="odd">
-<td>CLSID de page de propriétés</td>
-<td>CLSID_DVDecPropertiesPage</td>
-</tr>
-<tr class="even">
-<td>Exécutable</td>
-<td>qdv.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Mérite</a></td>
-<td>MERIT_NORMAL</td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Catégorie de filtre</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Filtrer les interfaces | <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-idvrgb219"><strong>IDVRGB219</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iipdvdec"><strong>IIPDVDec</strong></a>, <strong>IPersistStream</strong>, <strong>ISpecifyPropertyPages</strong> | | Types de média de broche d’entrée | <ul><li>MEDIATYPE_Video</li><li>MEDIASUBTYPE_dvsd</li><li>FORMAT_VideoInfo, FORMAT_DvInfo</li></ul> | | Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | Types de média de broche de sortie | <strong>Type principal</strong>: MEDIATYPE_Video<strong>sous-types</strong>:<br /><ul><li>MEDIASUBTYPE_YUY2</li><li>MEDIASUBTYPE_UYVY</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li><li>MEDIASUBTYPE_ARGB32</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_Y41P</li></ul><strong>Types de format</strong>:<br /> Format_VideoInfo, Format_VideoInfo2<br /> | | Interfaces de broche de sortie | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | | CLSID du filtre | CLSID_DVVideoCodec | | CLSID de page de propriétés | CLSID_DVDecPropertiesPage | | Fichier exécutable | qdv.dll | | <a href="merit.md">Mérite</a> | MERIT_NORMAL | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

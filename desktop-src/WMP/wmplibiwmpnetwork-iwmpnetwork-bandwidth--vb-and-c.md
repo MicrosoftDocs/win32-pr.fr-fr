@@ -3,9 +3,9 @@ title: Propriété de bande passante IWMPNetwork
 description: La propriété bandWidth obtient la bande passante actuelle de l’élément multimédia.
 ms.assetid: 4355aa14-bca7-4b46-aad5-3e3796a54735
 keywords:
-- propriété de bande passante lecteur Windows Media
-- propriété de bande passante lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork Windows Media Player, propriété bandWidth
+- Lecteur Windows Media de propriétés de bande passante
+- Lecteur Windows Media de propriétés de bande passante, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété bandWidth
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df9a55f9d5c6724c428b75a4171c2e8b7ca13d18
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd3cccc47d16f272a28fb732641a9fca743003f716e79a340df8de5d55e9ce6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098729"
 ---
 # <a name="iwmpnetworkbandwidth-property"></a>IWMPNetwork :: bandWidth, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property bandWidth As System.Int32
 
 **System. Int32** qui correspond à la bande passante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur récupérée via **AxWindowsMediaPlayer. URL** sera égale à zéro si l’URL n’est pas définie. Cette propriété est valide uniquement pour le média de diffusion en continu.
 

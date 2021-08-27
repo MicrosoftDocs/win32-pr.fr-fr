@@ -4,12 +4,12 @@ description: Interfaces de persistance
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: d4894ccb1cc5d17747739e78918da9a5b48e2cca13a9f36078d752fceeaef011
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120419"
 ---
 # <a name="persistence-interfaces"></a>Interfaces de persistance
 
@@ -23,7 +23,7 @@ Un ensemble de catégories de composants est identifié pour couvrir la prise en
 
 
 
-| Interface                                                              | Utilisation                                                                                                                                                                                                                                                                                                                                                       |
+| Interface                                                              | Usage                                                                                                                                                                                                                                                                                                                                                       |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPersistMemory**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))<br/>           | L’objet peut enregistrer et charger son état dans un tableau d’octets séquentiels de longueur fixe (en mémoire).<br/>                                                                                                                                                                                                                                                    |
 | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/>                  | L’objet peut enregistrer et charger son état dans une instance [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) . Les contrôles qui souhaitent être marqués comme pouvant être insérés comme d’autres objets de document composés (pour l’insertion dans des conteneurs ne prenant pas en charge les contrôles) doivent prendre en charge cette interface.<br/>                                                                                               |

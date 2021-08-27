@@ -4,12 +4,12 @@ ms.assetid: 406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9
 title: Structures de gestion de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 044780e5fe9f719e699f1c0a1f929d08ba3200f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4636a1dafa16a698a5b3ab1ddaff7de5c54d5b7d81da337c1c3d9707be79158
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107479"
 ---
 # <a name="file-management-structures"></a>Structures de gestion de fichiers
 
@@ -27,7 +27,7 @@ Les structures suivantes sont utilisées dans la gestion des fichiers.
 | [**\_Paramètres étendus CREATEFILE2 \_**](/windows/desktop/api/FileAPI/ns-fileapi-createfile2_extended_parameters)<br/>           | Contient des paramètres étendus facultatifs pour [**CreateFile2**](/windows/desktop/api/FileAPI/nf-fileapi-createfile2).<br/>                                                                                                                                             |
 | [**\_param de contrôle CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_control_param)<br/>                                       | Représente un type d’opération de contrôle de volume partagé de cluster.<br/>                                                                                                                                                                               |
 | [**\_révision du \_ fichier de requête CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_file_revision)<br/>                          | Contient des informations indiquant si des fichiers d’un flux ont été modifiés.<br/>                                                                                                                                                  |
-| [**\_ \_ chemin MDS des requêtes CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_mds_path)<br/>                                    | Contient le chemin d’accès utilisé par CSV pour communiquer avec le MDS.<br/>                                                                                                                                                          |
+| [**\_chemin de \_ MDS de requête CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_mds_path)<br/>                                    | Contient le chemin d’accès utilisé par CSV pour communiquer avec le MDS.<br/>                                                                                                                                                          |
 | [**\_État de \_ redirection de requête CSV \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-csv_query_redirect_state)<br/>                        | Contient des informations indiquant si des fichiers d’un flux ont été redirigés.<br/>                                                                                                                                                |
 | [**DUPLIQUer les \_ données d’étendues \_**](/windows/desktop/api/WinIoCtl/ns-winioctl-duplicate_extents_data)<br/>                             | Contient des paramètres pour le code de contrôle d' [**\_ \_ étendues dupliquées FSCTL**](/windows/win32/api/winioctl/ni-winioctl-fsctl_duplicate_extents_to_file) qui effectue l’opération de [clonage de bloc](block-cloning.md) .<br/>                                             |
 | [**\_objet blob de certificat EFS \_**](/windows/win32/api/winefs/ns-winefs-efs_certificate_blob)<br/>                             | Contient un certificat.<br/>                                                                                                                                                                                                   |

@@ -4,12 +4,12 @@ ms.assetid: 440d9d94-3a56-4b34-a5e3-1b4712b078fc
 title: Ressources de Application-Managed et stratégies d’allocation (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4f5ce23cac4bf46b8580a31d7c6d71fdc3de15
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 86eabccde7fef025c952c869a30fdeff8cf5316ceb0316b513692175d8581a01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119429"
 ---
 # <a name="application-managed-resources-and-allocation-strategies-direct3d-9"></a>Ressources de Application-Managed et stratégies d’allocation (Direct3D 9)
 

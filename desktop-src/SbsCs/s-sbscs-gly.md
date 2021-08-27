@@ -5,12 +5,12 @@ ms.assetid: 5591218A-3212-46D0-A40F-C0788B459545
 title: S (applications isolées et assemblys côte à côte)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9727db4c2db522b0bbb88eccf89481a61a75d8ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10cc3f4efb5d43ab61de2b057f7501bed1c3fe7a79126a18f101e03ab9e21086
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127439"
 ---
 # <a name="s-isolated-applications-and-side-by-side-assemblies"></a>S (applications isolées et assemblys côte à côte)
 
@@ -21,7 +21,7 @@ ms.locfileid: "103759040"
 <span id="_win32_shared_side_by_side_assembly_gly"></span><span id="_WIN32_SHARED_SIDE_BY_SIDE_ASSEMBLY_GLY"></span>**assembly partagé côte à côte**
 </dt> <dd>
 
-Un assembly partagé côte à côte est disponible pour une utilisation par plusieurs applications sur l’ordinateur. Il est installé dans le dossier WinSxS du répertoire Windows. Les applications et les administrateurs peuvent gérer la version d’un assembly partagé à utiliser en spécifiant la configuration de l’application. Les assemblys côte à côte sont toujours accompagnés de fichiers manifestes qui fournissent des informations sur l’assembly au système d’exploitation.
+Un assembly partagé côte à côte est disponible pour une utilisation par plusieurs applications sur l’ordinateur. il est installé dans le dossier Winsxs du répertoire Windows. Les applications et les administrateurs peuvent gérer la version d’un assembly partagé à utiliser en spécifiant la configuration de l’application. Les assemblys côte à côte sont toujours accompagnés de fichiers manifestes qui fournissent des informations sur l’assembly au système d’exploitation.
 
 </dd> <dt>
 

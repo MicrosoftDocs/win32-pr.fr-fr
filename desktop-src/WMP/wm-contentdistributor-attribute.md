@@ -3,7 +3,7 @@ title: Attribut WM/ContentDistributor
 description: L’attribut WM/ContentDistributor est le nom du serveur de distribution de l’élément.
 ms.assetid: 45f548a4-4059-464c-af93-1ba09e6b8d1e
 keywords:
-- Attribut WM/ContentDistributor lecteur Windows Media
+- Lecteur Windows Media de l’attribut WM/ContentDistributor
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 420e3e05a68f89d8e37b8ef95dd1247802442700
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ba79ab07b8579961db70038ef80f79da974ba5dff6d3ac88781be5d4f046f088
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122708"
 ---
 # <a name="wmcontentdistributor-attribute"></a>Attribut WM/ContentDistributor
 
@@ -26,17 +26,17 @@ L’attribut **WM/ContentDistributor** est le nom du serveur de distribution de 
 ## <a name="applies-to"></a>S'applique à
 
 -   [Éléments audio](audio-item-attributes.md)
--   [Attributs de fichiers Windows Media couramment utilisés](commonly-used-windows-media-file-attributes.md)
+-   [attributs de fichier multimédia Windows couramment utilisés](commonly-used-windows-media-file-attributes.md)
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké à la fois dans la bibliothèque et dans le fichier multimédia numérique.
 
 **ContentDistributor** est un alias pour cet attribut.
 
-La constante du kit de développement logiciel (SDK) du format Windows Media pour cet attribut est g \_ wszWMContentDistributor.
+la constante du kit de développement logiciel (SDK) du Format multimédia Windows pour cet attribut est g \_ wszWMContentDistributor.
 
 Pour déterminer si vous pouvez modifier la valeur de cet attribut, utilisez la méthode [Media. isReadOnlyItem](media-isreadonlyitem.md) .
 

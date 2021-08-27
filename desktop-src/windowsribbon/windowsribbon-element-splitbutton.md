@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 53445bc3f57f8a861800f9edcd95d8af2ecfbd54f4055cf8787695dab1f25cb0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 07bc97a3c75a16c1a11783a13514a8ab5b3478c6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850771"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622735"
 ---
 # <a name="splitbutton-element"></a>Élément SplitButton
 
 Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton.md) standard.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <SplitButton
@@ -40,10 +40,10 @@ Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,14 +57,14 @@ Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Valide uniquement si <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> est l’élément parent.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui contient une liste d’entiers séparés par des virgules, comprise entre 0 et 31.<br/> L’espace blanc est valide et ignoré.<br/> Longueur maximale : 250 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -80,7 +80,7 @@ Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton
 | Élément                                                                                   | Description                                        |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                                 | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**Activé**](windowsribbon-element-checkbox.md)<br/>                             | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                             | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                 | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/>       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>               | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -109,7 +109,7 @@ Représente un contrôle de [bouton partagé](windowsribbon-controls-splitbutton
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownGallery**](windowsribbon-element-dropdowngallery.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md), **SplitButton** ou [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -120,7 +120,7 @@ Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](
 [**SplitButton. MenuGroups**](windowsribbon-element-splitbutton-menugroups.md) doit se produire une seule fois si les éléments suivants ne sont pas présents en tant qu’éléments enfants de **SplitButton**:
 
 -   [**Bouton**](windowsribbon-element-button.md)
--   [**Activé**](windowsribbon-element-checkbox.md)
+-   [**CheckBox**](windowsribbon-element-checkbox.md)
 -   [**DropDownButton**](windowsribbon-element-dropdownbutton.md)
 -   [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)
 -   [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)

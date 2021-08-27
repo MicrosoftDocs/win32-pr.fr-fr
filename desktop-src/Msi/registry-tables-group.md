@@ -1,15 +1,15 @@
 ---
-description: Le groupe de registres de Windows Installer tables contient des informations sur les entrées de registre.
+description: le groupe de registres de Windows Installer tables contient des informations sur les entrées de registre.
 ms.assetid: 31a75c20-79e4-4bcf-bcc1-34a7d191fa90
 title: Groupe de tables de Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8ba14bdc2bc5668ce2de3ec66172c75c176ab41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f7ab4d3447ec727271d53fabe44fee11bf96663170c89a2210d80bb02bd8c7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128973"
 ---
 # <a name="registry-tables-group"></a>Groupe de tables de Registre
 
@@ -31,7 +31,7 @@ Le groupe d’entrées de registre contient les tables suivantes d’entrées de
 -   La [table de classe](class-table.md) est utilisée pour inscrire des ID de classe et d’autres informations pour les objets com. Ce tableau contient des informations relatives au serveur COM qui doivent être générées dans le cadre de la publication du produit.
 -   La [table ProgID](progid-table.md) associe les ID de programme aux ID de classe.
 -   La [table AppID](appid-table.md) est utilisée pour enregistrer les paramètres de configuration et de sécurité courants pour les objets DCOM.
--   La [table d’environnement](environment-table.md) est utilisée pour définir les valeurs des variables d’environnement, et dans Windows 2000, la table d’environnement écrit également dans le registre.
+-   la [table d’environnement](environment-table.md) est utilisée pour définir les valeurs des variables d’environnement et, dans Windows 2000, la table d’environnement écrit également dans le registre.
 -   La [table de Registre](registry-table.md) contient toutes les autres informations que l’application doit placer dans le registre système. Cela inclut les paramètres par défaut, les informations utilisateur ou les données, ou l’inscription COM non prise en charge par les tables ci-dessus.
 -   La [table RemoveRegistry](removeregistry-table.md) contient les informations de registre que l’application doit supprimer du Registre système au moment de l’installation.
 

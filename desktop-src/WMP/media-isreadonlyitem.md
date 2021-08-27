@@ -3,9 +3,9 @@ title: Méthode Media. isReadOnlyItem
 description: La méthode isReadOnlyItem retourne une valeur indiquant si l’attribut spécifié de l’élément multimédia peut être modifié.
 ms.assetid: 5e398e76-f64a-45b5-9b4f-679c65e5a0d1
 keywords:
-- méthode isReadOnlyItem lecteur Windows Media
-- méthode isReadOnlyItem lecteur Windows Media, classe multimédia
-- Classe multimédia lecteur Windows Media, méthode isReadOnlyItem
+- Lecteur Windows Media de la méthode isReadOnlyItem
+- méthode isReadOnlyItem Lecteur Windows Media, classe multimédia
+- Lecteur Windows Media de classe de média, méthode isReadOnlyItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ac5bb8d445c3ba6418be4ee5c0c5e7a96f507d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 501aacb7b9a56fd9780aba75a15aa9f717640ebff7619df020bad432cdffd459
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123389"
 ---
 # <a name="mediaisreadonlyitem-method"></a>Méthode Media. isReadOnlyItem
 
@@ -45,7 +45,7 @@ bRetVal = Media.isReadOnlyItem(
 *attribut* \[ dans\]
 </dt> <dd>
 
-**Chaîne** indiquant le nom de l’attribut à tester. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la page [référence des attributs](attribute-reference.md)du lecteur Windows Media.
+**Chaîne** indiquant le nom de l’attribut à tester. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md)Lecteur Windows Media.
 
 </dd> </dl>
 
@@ -53,9 +53,9 @@ bRetVal = Media.isReadOnlyItem(
 
 Cette méthode retourne une **valeur booléenne**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si un attribut est en lecture seule, il ne peut pas être défini à l’aide de la méthode **setItemInfo** . Notez que cette méthode peut retourner des valeurs différentes pour un attribut particulier lorsqu’elle est utilisée avec différentes versions du lecteur Windows Media.
+Si un attribut est en lecture seule, il ne peut pas être défini à l’aide de la méthode **setItemInfo** . notez que cette méthode peut retourner des valeurs différentes pour un attribut particulier lorsqu’elle est utilisée avec différentes versions de Lecteur Windows Media.
 
 Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 
@@ -63,7 +63,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise un *média*. **isReadOnlyItem** pour remplir un élément textarea html nommé rwText avec des informations sur l’élément multimédia actuel. Le code génère chaque attribut de l’élément multimédia en cours, ainsi que le texte indiquant si l’attribut est en lecture seule ou en lecture/écriture. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise un *média*. **isReadOnlyItem** pour remplir un élément textarea html nommé rwText avec des informations sur l’élément multimédia actuel. Le code génère chaque attribut de l’élément multimédia en cours, ainsi que le texte indiquant si l’attribut est en lecture seule ou en lecture/écriture. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

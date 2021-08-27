@@ -4,12 +4,12 @@ ms.assetid: ab5bc1bd-107f-4ed2-b471-a229a76637fe
 title: À propos de la gestion structurée des exceptions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 161e60725f137f379b7d734485fae7cad39ae1be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4a0f21a212e95df51dbf92a32073bdd91b771f3efaee864eadbe1a12c8a0fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120131649"
 ---
 # <a name="about-structured-exception-handling"></a>À propos de la gestion structurée des exceptions
 

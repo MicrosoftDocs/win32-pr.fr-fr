@@ -6,12 +6,12 @@ keywords:
 - effet de mise à l’échelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a28e71dfb552a35bf138c245a82937bd600e61acd8b4a82b42cbc8d9d66a65
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: db3a4ef93fcdd2e93580157e0bb73b172975fe4a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118003659"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472929"
 ---
 # <a name="scale-effect"></a>Effet d’échelle
 
@@ -24,7 +24,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Scale.
     -   [Modes de bordure](#border-modes)
 -   [Modes d’interpolation](#interpolation-modes)
 -   [Bitmap de sortie](#output-bitmap)
--   [Requirements](#requirements)
+-   [Configuration requise](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -64,45 +64,15 @@ m_d2dContext->EndDraw();
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom complet et énumération d’index</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Scale<br/> D2D1_SCALE_PROP_SCALE<br/></td>
-<td>Le montant de l’échelle de la direction X et Y en tant que rapport entre la taille de sortie et la taille d’entrée. Cette propriété a D2D1_VECTOR_2Fdefined en tant que : (X Scale, échelle Y). Les valeurs de mise à l’échelle sont FLOAT, sans unité, et doivent être positives ou égales à 0.<br/> Le type est D2D1_VECTOR_2F.<br/> La valeur par défaut est {1.0 f, 1.0 f}.<br/></td>
-</tr>
-<tr class="even">
-<td>CenterPoint<br/> D2D1_SCALE_PROP_CENTER_POINT<br/></td>
-<td>Point central de mise à l’échelle de l’image. Cette propriété est une D2D1_VECTOR_2F définie comme suit : (point X, point Y). Les unités sont en DIP.<br/> Utilisez la propriété point central pour mettre à l’échelle un point autre que l’angle supérieur gauche.<br/> Le type est D2D1_VECTOR_2F.<br/> La valeur par défaut est {0.0 f, 0.0 f}.<br/></td>
-</tr>
-<tr class="odd">
-<td>BorderMode<br/> D2D1_SCALE_PROP_BORDER_MODE<br/></td>
-<td>Le mode utilisé pour calculer la bordure de l’image, soft ou Hard. Pour plus d’informations, consultez <a href="#border-modes">modes de bordure</a> . <br/> Le type est D2D1_BORDER_MODE.<br/> La valeur par défaut est D2D1_BORDER_MODE_SOFT.<br/></td>
-</tr>
-<tr class="even">
-<td>Netteté<br/> D2D1_SCALE_PROP_SHARPNESS<br/></td>
-<td>Dans le mode d’interpolation cubique de haute qualité, le niveau de netteté du filtre de mise à l’échelle est une valeur float comprise entre 0 et 1. Les valeurs sont sans unité. Vous pouvez utiliser la netteté pour ajuster la qualité d’une image lors de la mise à l’échelle de l’image.<br/> Le facteur de netteté affecte la forme du noyau. Plus le facteur de netteté est élevé, plus le noyau est petit.<br/>
-<blockquote>
-[!Note]<br />
-Cette propriété affecte uniquement le mode d’interpolation cubique de haute qualité.
-</blockquote>
-<br/> Le type est FLOAT.<br/> La valeur par défaut est 0.0 f.<br/></td>
-</tr>
-<tr class="odd">
-<td>InterpolationMode<br/> D2D1_SCALE_PROP_INTERPOLATION_MODE<br/></td>
-<td>Mode d’interpolation utilisé par l’effet pour mettre l’image à l’échelle. Il existe 6 modes de mise à l’échelle qui vont de la qualité et de la vitesse. Pour plus d’informations, consultez <a href="#interpolation-modes">modes d’interpolation</a> . <br/> Le type est D2D1_SCALE_INTERPOLATION_MODE.<br/> La valeur par défaut est D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom complet et énumération d’index | Description | 
+|------------------------------------|-------------|
+| Scale<br /> D2D1_SCALE_PROP_SCALE<br /> | Le montant de l’échelle de la direction X et Y en tant que rapport entre la taille de sortie et la taille d’entrée. Cette propriété a D2D1_VECTOR_2Fdefined en tant que : (X Scale, échelle Y). Les valeurs de mise à l’échelle sont FLOAT, sans unité, et doivent être positives ou égales à 0.<br /> Le type est D2D1_VECTOR_2F.<br /> La valeur par défaut est {1.0 f, 1.0 f}.<br /> | 
+| CenterPoint<br /> D2D1_SCALE_PROP_CENTER_POINT<br /> | Point central de mise à l’échelle de l’image. Cette propriété est une D2D1_VECTOR_2F définie comme suit : (point X, point Y). Les unités sont en DIP.<br /> Utilisez la propriété point central pour mettre à l’échelle un point autre que l’angle supérieur gauche.<br /> Le type est D2D1_VECTOR_2F.<br /> La valeur par défaut est {0.0 f, 0.0 f}.<br /> | 
+| BorderMode<br /> D2D1_SCALE_PROP_BORDER_MODE<br /> | Le mode utilisé pour calculer la bordure de l’image, soft ou Hard. Pour plus d’informations, consultez <a href="#border-modes">modes de bordure</a> . <br /> Le type est D2D1_BORDER_MODE.<br /> La valeur par défaut est D2D1_BORDER_MODE_SOFT.<br /> | 
+| Netteté<br /> D2D1_SCALE_PROP_SHARPNESS<br /> | Dans le mode d’interpolation cubique de haute qualité, le niveau de netteté du filtre de mise à l’échelle est une valeur float comprise entre 0 et 1. Les valeurs sont sans unité. Vous pouvez utiliser la netteté pour ajuster la qualité d’une image lors de la mise à l’échelle de l’image.<br /> Le facteur de netteté affecte la forme du noyau. Plus le facteur de netteté est élevé, plus le noyau est petit.<br /><blockquote>[!Note]<br />Cette propriété affecte uniquement le mode d’interpolation cubique de haute qualité.</blockquote><br /> Le type est FLOAT.<br /> La valeur par défaut est 0.0 f.<br /> | 
+| InterpolationMode<br /> D2D1_SCALE_PROP_INTERPOLATION_MODE<br /> | Mode d’interpolation utilisé par l’effet pour mettre l’image à l’échelle. Il existe 6 modes de mise à l’échelle qui vont de la qualité et de la vitesse. Pour plus d’informations, consultez <a href="#interpolation-modes">modes d’interpolation</a> . <br /> Le type est D2D1_SCALE_INTERPOLATION_MODE.<br /> La valeur par défaut est D2D1_SCALE_INTERPOLATION_MODE_LINEAR.<br /> | 
+
 
 
 
@@ -112,7 +82,7 @@ Cette propriété affecte uniquement le mode d’interpolation cubique de haute 
 
 
 
-| Nom                     | Description                                                                                                                                                                                                                                                              |
+| Name                     | Description                                                                                                                                                                                                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image d’entrée avec des pixels noirs transparents pour les échantillons en dehors des limites d’entrée lorsqu’elle applique le noyau de convolution. Cela crée une bordure douce pour l’image et, dans le processus, développe la bitmap de sortie de la taille du noyau.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet étend l’image d’entrée avec une transformation de bordure de type miroir pour les exemples en dehors des limites d’entrée. La taille de l’image bitmap de sortie est égale à la taille de l’image bitmap d’entrée.<br/>                                                                       |

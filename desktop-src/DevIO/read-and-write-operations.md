@@ -4,12 +4,12 @@ ms.assetid: cee44596-ad73-4afb-b86a-744b0b46d9d5
 title: Opérations de lecture et d’écriture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a26cc53dbe8c52286fe53c81202ab3828808b1aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b3a1c9cca5079cc6f473b07c02212da6f42156305b43f4b30eb1de3e6b67e593
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109009"
 ---
 # <a name="read-and-write-operations"></a>Opérations de lecture et d’écriture
 

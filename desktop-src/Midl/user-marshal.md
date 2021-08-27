@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5326c9390362193a1be9dc06ee3a57f174474cc2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3f17b4ef9d4376309307403ee12e2c5aae507556beaf091f9d742998d18671a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120105569"
 ---
 # <a name="user_marshal-attribute"></a>\_attribut de Marshal utilisateur
 
@@ -88,7 +88,7 @@ Spécifie le pointeur de la mémoire tampon actuelle.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque type local nommé, *utilisateur-type*, a une correspondance un-à-un avec un *type de câble* qui définit la représentation filaire du type. Vous devez fournir des routines pour dimensionner les données pour le marshaling, pour marshaler et démarshaler les données, ainsi que pour libérer de la mémoire. Pour plus d’informations sur ces routines, consultez [l' \_ attribut User Marshal](/windows/desktop/Rpc/the-user-marshal-attribute). Notez que s’il existe des types incorporés dans vos données qui sont également définis avec le **\_ Marshal utilisateur** ou \[ le [**\[ \_ Marshal \] de câble**](wire-marshal.md), vous devez également gérer la maintenance de ces types incorporés.
 
@@ -168,6 +168,6 @@ void __RPC_USER FOUR_BYTE_DATA_UserFree(
 [**NdrGetUserMarshalInfo**](/windows/desktop/api/rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

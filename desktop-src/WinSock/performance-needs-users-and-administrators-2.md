@@ -1,15 +1,15 @@
 ---
-description: Besoins en performances des utilisateurs et administrateurs avec les applications Windows Sockets (Winsock).
+description: les besoins en performances des utilisateurs et administrateurs avec les applications de sockets de Windows (Winsock).
 ms.assetid: 6c4365c6-a406-497b-a313-1faeb3e3b7f5
 title: 'Besoins en matière de performances : utilisateurs et administrateurs'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 009a8178cf1d7516e9c16493916f8cf911752b9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93c74f4ec6f0a545a98a890f0bc8ff954fe43a3f79fc04fd2c2d92e68ea9f646
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097669"
 ---
 # <a name="performance-needs-users-and-administrators"></a>Besoins en matière de performances : utilisateurs et administrateurs
 
@@ -32,7 +32,7 @@ En bref, les administrateurs veulent que les applications soient mises à l’é
 
 ## <a name="best-practices-for-performance-needs"></a>Meilleures pratiques en matière de besoins en matière de performances
 
-Lors du développement d’une application Windows Sockets, ces exigences en matière de performances traduisent en règles utiles.
+lors du développement d’une application Windows sockets, ces exigences en matière de performances traduisent en règles utiles.
 
 -   Les applications réseau s’initialisent rapidement.
 
@@ -52,7 +52,7 @@ Lors du développement d’une application Windows Sockets, ces exigences en mat
 
 -   Une application doit définir ses propres délais d’expiration raisonnables.
 
-    Par exemple, une demande Windows Sockets Connect () peut être bloquée dans certaines conditions jusqu’à 21 secondes. Les applications peuvent avoir besoin d’introduire leur propre délai d’expiration en fonction de leurs utilisateurs.
+    par exemple, une demande Windows sockets connect () peut être bloquée dans certaines conditions jusqu’à 21 secondes. Les applications peuvent avoir besoin d’introduire leur propre délai d’expiration en fonction de leurs utilisateurs.
 
 -   Réduire la charge de protocole.
 
@@ -68,7 +68,7 @@ Pour les applications transactionnelles, une expérience utilisateur correcte et
 
 <dl> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [Dimensions de performances](performance-dimensions-2.md)

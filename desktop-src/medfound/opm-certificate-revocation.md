@@ -4,12 +4,12 @@ ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: Révocation de certificat OPM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ebf38a3fa6bd2b61a756d6103453fd0356f693
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 36b4caeace94f852394081620555c0b5b04918bf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092727"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478905"
 ---
 # <a name="opm-certificate-revocation"></a>Révocation de certificat OPM
 
@@ -17,57 +17,16 @@ Un certificat de sortie Protection Manager (OPM) peut être révoqué par Micros
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Section</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>En-tête</td>
-<td>Structure <a href="grl-header.md"><strong>GRL_HEADER</strong></a> .</td>
-</tr>
-<tr class="even">
-<td>Base</td>
-<td>Contient les listes de révocation suivantes :
-<ul>
-<li>Révocations binaires du noyau</li>
-<li>Révocations binaires en mode utilisateur</li>
-<li>Révocations de certificats</li>
-<li>Racines de confiance (réservées)</li>
-</ul>
-La liste des racines de confiance n’est pas utilisée actuellement et est réservée à une utilisation ultérieure.</td>
-</tr>
-<tr class="odd">
-<td>Entrées extensibles</td>
-<td>Contient des informations utilisées par d’autres composants. Cette section ne concerne pas OPM.</td>
-</tr>
-<tr class="even">
-<td>Renouvellements</td>
-<td>Contient des GUID qui définissent des identificateurs de Windows Update. Cette section contient des identificateurs pour les listes suivantes :
-<ul>
-<li>Révocations binaires du noyau</li>
-<li>Révocations binaires en mode utilisateur</li>
-<li>Révocations de certificats</li>
-</ul>
-Une application peut utiliser ces identificateurs pour demander une version renouvelée d’un binaire révoqué, si celle-ci est disponible.</td>
-</tr>
-<tr class="odd">
-<td>Signature : section principale</td>
-<td>Signe l’en-tête et les sections principales.</td>
-</tr>
-<tr class="even">
-<td>Signature : section extensible</td>
-<td>Signe l’en-tête et les sections extensibles.</td>
-</tr>
-</tbody>
-</table>
+
+| Section | Description | 
+|---------|-------------|
+| En-tête | Structure <a href="grl-header.md"><strong>GRL_HEADER</strong></a> . | 
+| Core | Contient les listes de révocation suivantes :<ul><li>Révocations binaires du noyau</li><li>Révocations binaires en mode utilisateur</li><li>Révocations de certificats</li><li>Racines de confiance (réservées)</li></ul>La liste des racines de confiance n’est pas utilisée actuellement et est réservée à une utilisation ultérieure. | 
+| Entrées extensibles | Contient des informations utilisées par d’autres composants. Cette section ne concerne pas OPM. | 
+| Renouvellements | contient des guid qui définissent des identificateurs de Windows Update. Cette section contient des identificateurs pour les listes suivantes :<ul><li>Révocations binaires du noyau</li><li>Révocations binaires en mode utilisateur</li><li>Révocations de certificats</li></ul>Une application peut utiliser ces identificateurs pour demander une version renouvelée d’un binaire révoqué, si celle-ci est disponible. | 
+| Signature : section principale | Signe l’en-tête et les sections principales. | 
+| Signature : section extensible | Signe l’en-tête et les sections extensibles. | 
+
 
 
 

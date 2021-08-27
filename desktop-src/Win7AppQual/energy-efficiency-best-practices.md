@@ -4,27 +4,27 @@ ms.assetid: 355abd0e-928e-442e-a724-855d9dd946fc
 title: Meilleures pratiques pour l’efficacité énergétique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d9a348b9df49531358de2db50acc0936622c36
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9cf56459dbd2762bd58af0e71ce8ca509d684f1f6a8643861b2696a7d25115ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122439"
 ---
 # <a name="best-practices-for-energy-efficiency"></a>Meilleures pratiques pour l’efficacité énergétique
 
 ## <a name="platform"></a>Plateforme
 
- **Clients** – Windows XP Windows \| Vista Windows \| 7  
+ **Clients** – Windows XP \| Windows Vista \| Windows 7  
 
 ## <a name="description"></a>Description
 
-Les ordinateurs portables Windows doivent satisfaire aux exigences réglementaires en matière d’efficacité énergétique, telles que celles du programme Energy Star de l’Agence de protection environnementale (EPA) États-Unis. En outre, les enquêtes montrent que la durée de vie de la batterie est plus longue que celle des ordinateurs portables. Pour répondre aux demandes des consommateurs, les ordinateurs portables Windows doivent continuellement avancer dans les domaines suivants :
+les ordinateurs portables Windows doivent satisfaire aux exigences réglementaires d’efficacité énergétique, telles que celles du programme energy Star d’États-Unis Environmental Protection Agency (EPA). En outre, les enquêtes montrent que la durée de vie de la batterie est plus longue que celle des ordinateurs portables. pour répondre aux demandes des consommateurs, Windows ordinateurs portables doivent continuellement avancer dans les domaines suivants :
 
 -   Efficacité énergétique dans tous les scénarios d’utilisation, y compris les charges de travail inactives, la productivité des DVD et les supports, ainsi que les tests de performances du secteur
--   Autonomie de la batterie d’un ordinateur portable — pour les plateformes matérielles et pour Windows
+-   Durée de vie des batteries pour ordinateurs portables : pour les plateformes matérielles et pour Windows
 
-La plate-forme Windows est très fiable et permet d’accélérer les performances. Toutefois, les extensions fournies avec les systèmes d’ordinateurs portables, telles que les services, les applets de barre d’état système, les pilotes et autres logiciels, peuvent affecter considérablement les performances, la fiabilité et l’efficacité énergétique.
+la plateforme Windows est très fiable et permet d’accélérer les performances. Toutefois, les extensions fournies avec les systèmes d’ordinateurs portables, telles que les services, les applets de barre d’état système, les pilotes et autres logiciels, peuvent affecter considérablement les performances, la fiabilité et l’efficacité énergétique.
 
 L’efficacité énergétique est un problème complexe, avec les facteurs affectés par et affectant tous les éléments de l’écosystème du PC. Des améliorations mineures dans plusieurs scénarios peuvent améliorer l’efficacité énergétique, mais une application, un appareil ou une fonctionnalité système à performances médiocres peut augmenter considérablement la consommation d’énergie.
 
@@ -46,23 +46,23 @@ Les principaux problèmes et les composants qui affectent la durée de vie de la
 
 **Système d’exploitation-gestion de l’alimentation dirigée**
 
--   Efficacité du code Windows en temps de chargement et en mode inactif
--   Niveau de coopération de tous les composants avec la gestion de l’alimentation dirigée vers Windows
+-   efficacité de Windows code tout en étant sous une charge et pendant qu’il est inactif
+-   niveau de coopération de tous les composants avec la gestion de l’alimentation dirigée Windows
 -   Configuration appropriée du système d’exploitation pour optimiser la gestion de l’alimentation via les paramètres de stratégie d’alimentation
 
 **Logiciels et services d’application**
 
 -   Efficacité des applications, des pilotes et des services tout en étant sous une charge et en mode inactif
--   Niveau de coopération des applications avec Windows – gestion de l’alimentation dirigée
+-   niveau de coopération des applications avec Windows – gestion de l’alimentation dirigée
 -   Remise des logiciels du système ou des appareils pour qu’ils soient en état d’inactivité faible
 
-Une application ou un composant de service unique peut empêcher un système de réaliser une autonomie de batterie optimale. Bien que Windows fournisse de nombreuses options de configuration de l’alimentation, les logiciels préinstallés ou les paramètres de stratégie d’alimentation sur de nombreux systèmes ne sont pas optimisés pour la plateforme matérielle de l’ordinateur hôte.
+Une application ou un composant de service unique peut empêcher un système de réaliser une autonomie de batterie optimale. bien que Windows offre de nombreuses options de configuration de l’alimentation, les logiciels préinstallés ou les paramètres de stratégie d’alimentation sur de nombreux systèmes ne sont pas optimisés pour la plateforme matérielle de l’ordinateur hôte.
 
-Une méthode courante pour évaluer l’impact sur la durée de vie de la batterie des logiciels préinstallés consiste à comparer la consommation énergétique du système avec une installation propre de Windows et une installation Windows qui comprend des logiciels et des services à valeur ajoutée. Bien qu’une nouvelle installation ne représente pas la plateforme standard que les fabricants d’ordinateurs OEM livrent aux clients, la comparaison de la consommation d’énergie peut fournir un aperçu de l’efficacité énergétique des logiciels préinstallés.
+une méthode courante pour évaluer l’impact sur la durée de vie de la batterie des logiciels préinstallés consiste à comparer la consommation énergétique du système avec une nouvelle installation de Windows par rapport à une installation Windows incluant des logiciels et des services à valeur ajoutée. Bien qu’une nouvelle installation ne représente pas la plateforme standard que les fabricants d’ordinateurs OEM livrent aux clients, la comparaison de la consommation d’énergie peut fournir un aperçu de l’efficacité énergétique des logiciels préinstallés.
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
-Pour vous assurer que votre application est optimisée sur les plateformes Windows, suivez ces meilleures pratiques quand vous concevez des applications ou des services :
+pour vous assurer que votre application est optimisée sur les plateformes Windows, suivez ces meilleures pratiques lors de la conception d’applications ou de services :
 
 -   **Évitez d’utiliser des minuteries périodiques à haute résolution**
 
@@ -76,7 +76,7 @@ Pour vous assurer que votre application est optimisée sur les plateformes Windo
 
 -   **Ajuster à la stratégie d’alimentation de l’utilisateur**
 
-<dl> Windows Vista et les versions ultérieures permettent à l’utilisateur de choisir facilement les économies d’énergie globales ou le comportement des performances du système. Votre application doit répondre aux modifications apportées à la stratégie d’alimentation et réduire l’utilisation des ressources ou améliorer les performances en conséquence. Par exemple, une application doit désactiver l’activité en arrière-plan, telle que l’indexation ou l’analyse du système lorsque l’utilisateur a sélectionné un mode de gestion de l’alimentation.  
+<dl> Windows Vista et versions ultérieures permettent à l’utilisateur de choisir facilement les économies d’énergie globales ou le comportement des performances du système. Votre application doit répondre aux modifications apportées à la stratégie d’alimentation et réduire l’utilisation des ressources ou améliorer les performances en conséquence. Par exemple, une application doit désactiver l’activité en arrière-plan, telle que l’indexation ou l’analyse du système lorsque l’utilisateur a sélectionné un mode de gestion de l’alimentation.  
 </dl>
 
 -   **Réduire l’utilisation des ressources lorsque le système est alimenté par batterie**
@@ -104,7 +104,7 @@ Pour vous assurer que votre application est optimisée sur les plateformes Windo
 <dl> Votre application doit s’inscrire aux événements de gestion de l’alimentation courants et y répondre, tels que les modifications de source d’alimentation du système et les notifications de mise sous tension et de mise hors tension pour l’affichage.  
 </dl>
 
--   **N’activez pas la journalisation du débogage par défaut ; Utilisez à la place Suivi d’v nements pour Windows**
+-   **N’activez pas la journalisation du débogage par défaut ; utilisez à la place Suivi d’v nements pour Windows**
 
 <dl> La journalisation de débogage périodique peut empêcher la rotation du disque.  
 </dl>

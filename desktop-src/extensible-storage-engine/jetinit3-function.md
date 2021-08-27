@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c96171920b7538e71e822eaf0879e476fb2fd31e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a0c73343550768a9ccd061c702fae89d562d095
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321145"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477905"
 ---
 # <a name="jetinit3-function"></a>Fonction JetInit3
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetinit3-function"></a>Fonction JetInit3
 
 La fonction **JetInit3** place le moteur de base de données dans un État dans lequel il peut prendre en charge l’utilisation des fichiers de base de données par l’application. Le moteur doit déjà être correctement configuré pour l’initialisation, ce que vous effectuez à l’aide de la fonction [JetSetSystemParameter](./jetsetsystemparameter-function.md) . Notez que la récupération après incident de la base de données se produit automatiquement dans le cadre du processus d’initialisation.
 
-**Windows Vista :**  **JetInit3** est introduit dans Windows Vista.
+**Windows vista :****JetInit3** est introduit dans Windows vista.  
 
 ```cpp
     JET_ERR JET_API JetInit3(
@@ -50,7 +50,7 @@ La fonction **JetInit3** place le moteur de base de données dans un État dans 
 
 *pinstance*
 
-Instance que vous utilisez pour un appel particulier. L’utilisation de ce paramètre dépend du mode de fonctionnement du moteur. Si le moteur fonctionne en mode hérité (mode de compatibilité Windows 2000), dans lequel une seule instance est prise en charge, vous pouvez définir ce paramètre sur **null** ou sur une mémoire tampon de sortie valide contenant **null** ou JET_instanceNil, qui retourne le handle d’instance global créé comme un effet secondaire de l’initialisation. Ce descripteur d’instance peut ensuite être passé à toute autre API qui prend une instance. Si le moteur fonctionne en mode multi-instance, vous devez définir ce paramètre sur une mémoire tampon d’entrée valide qui contient le handle d’instance retourné par la fonction [JetCreateInstance](./jetcreateinstance-function.md) qui est en cours d’initialisation.
+Instance que vous utilisez pour un appel particulier. L’utilisation de ce paramètre dépend du mode de fonctionnement du moteur. si le moteur fonctionne en mode hérité (Windows mode de compatibilité 2000), dans lequel une seule instance est prise en charge, vous pouvez définir ce paramètre sur la **valeur null** ou sur une mémoire tampon de sortie valide contenant soit **null** , soit JET_instanceNil, ce qui retourne le handle d’instance global créé comme un effet secondaire de l’initialisation. Ce descripteur d’instance peut ensuite être passé à toute autre API qui prend une instance. Si le moteur fonctionne en mode multi-instance, vous devez définir ce paramètre sur une mémoire tampon d’entrée valide qui contient le handle d’instance retourné par la fonction [JetCreateInstance](./jetcreateinstance-function.md) qui est en cours d’initialisation.
 
 *prstInfo*
 
@@ -60,57 +60,25 @@ Paramètres de récupération supplémentaires utilisés pour le remappage des b
 
 Groupe de bits qui spécifie zéro, une ou plusieurs des options énumérées et définies dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitReplayReplicatedLogFiles</p></td>
-<td><p>Cette valeur est réservée à une utilisation ultérieure.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateSFSVolumeIfNotExist</p></td>
-<td><p>Cette valeur est réservée à une utilisation ultérieure.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreMissingDB</p></td>
-<td><p>Cette valeur permet à l’utilisateur d’exécuter la récupération sur un ensemble de fichiers journaux, même en l’absence de bases de données attachées au fichier journal défini à un moment donné.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRecoveryWithoutUndo</p></td>
-<td><p>Cette valeur permet à l’utilisateur d’effectuer la récupération, mais uniquement jusqu’à la phase d’annulation (sans inclure). À l’aide de cette valeur, les journaux de transactions supplémentaires peuvent être copiés et appliqués.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTruncateLogsAfterRecovery</p></td>
-<td><p>Cette valeur entraîne la troncation des fichiers journaux au cours d’une récupération logicielle réussie.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitReplayMissingMapEntryDB</p></td>
-<td><p>Cette valeur entraîne l’absence d’une entrée de mappage de base de données par défaut au même emplacement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitReplayIgnoreLostLogs</p></td>
-<td><p>Cette valeur entraîne l’ignorance des journaux perdus à partir de la fin du flux de journal au cours d’une récupération.</p>
-<p><strong>Windows 7 : JET_bitReplayIgnoreLostLogs</strong> est introduite dans Windows 7.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitReplayReplicatedLogFiles</p> | <p>Cette valeur est réservée à une utilisation ultérieure.</p> | 
+| <p>JET_bitCreateSFSVolumeIfNotExist</p> | <p>Cette valeur est réservée à une utilisation ultérieure.</p> | 
+| <p>JET_bitReplayIgnoreMissingDB</p> | <p>Cette valeur permet à l’utilisateur d’exécuter la récupération sur un ensemble de fichiers journaux, même en l’absence de bases de données attachées au fichier journal défini à un moment donné.</p> | 
+| <p>JET_bitRecoveryWithoutUndo</p> | <p>Cette valeur permet à l’utilisateur d’effectuer la récupération, mais uniquement jusqu’à la phase d’annulation (sans inclure). À l’aide de cette valeur, les journaux de transactions supplémentaires peuvent être copiés et appliqués.</p> | 
+| <p>JET_bitTruncateLogsAfterRecovery</p> | <p>Cette valeur entraîne la troncation des fichiers journaux au cours d’une récupération logicielle réussie.</p> | 
+| <p>JET_bitReplayMissingMapEntryDB</p> | <p>Cette valeur entraîne l’absence d’une entrée de mappage de base de données par défaut au même emplacement.</p> | 
+| <p>JET_bitReplayIgnoreLostLogs</p> | <p>Cette valeur entraîne l’ignorance des journaux perdus à partir de la fin du flux de journal au cours d’une récupération.</p><p><strong>Windows 7 : JET_bitReplayIgnoreLostLogs</strong> est introduite dans Windows 7.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE (Extensible Storage Engine) possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Une instance doit être initialisée avec un appel à la fonction **JetInit3** avant de pouvoir être utilisée par autre chose que la fonction [JetSetSystemParameter](./jetsetsystemparameter-function.md) .
 
@@ -126,43 +94,14 @@ Pour plus d’informations, consultez la section « Notes » de la rubrique [J
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>Nécessite Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p>Serveur</p></td>
-<td><p>Requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p>En-tête</p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Bibliothèque</p></td>
-<td><p>Utilise ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>Implémenté en tant que <strong>JetInit3W</strong> (Unicode) et <strong>JetInit3A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Client</p> | <p>requiert Windows Vista.</p> | | <p>Serveur</p> | <p>requiert Windows Server 2008.</p> | | <p>En-tête</p> | <p>Déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | | <p>Unicode</p> | <p>Implémenté en tant que <strong>JetInit3W</strong> (Unicode) et <strong>JetInit3A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi
 
-[Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)  
+[fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JET_INSTANCE](./jet-instance.md)  

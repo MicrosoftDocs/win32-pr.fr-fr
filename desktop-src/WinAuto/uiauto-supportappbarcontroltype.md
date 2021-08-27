@@ -12,18 +12,18 @@ keywords:
 - types de contrôles, AppBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 151aecc0f5f97878e10b59b091c4c59ec98cb26d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3fc8cf562b125267e9b35239e8490f11ed6ae830
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463515"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472885"
 ---
 # <a name="appbar-control-type"></a>Type de contrôle AppBar
 
 Cette rubrique fournit des informations sur la prise en charge de Microsoft UI Automation pour le type de contrôle **appbar** .
 
-Une barre d’application est un élément d’interface utilisateur qui présente la navigation, les commandes et les outils à l’utilisateur. Pour les applications du Windows Store, les barres d’application pour les applications peuvent être affichées en appuyant sur la touche Windows + Z.
+Une barre d’application est un élément d’interface utilisateur qui présente la navigation, les commandes et les outils à l’utilisateur. pour les applications Windows store, vous pouvez afficher les barres de l’application pour les applications en appuyant sur Windows touche + Z.
 
 Les sections suivantes définissent l’arborescence, les propriétés, les modèles de contrôle et les événements UI Automation requis pour le type de contrôle **appbar** .
 
@@ -41,40 +41,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>AppBar
-<ul>
-<li>Bouton (0 ou plusieurs)</li>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Non applicable
-<ul>
-<li>Bouton (0 ou plusieurs)</li>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>AppBar<ul><li>Bouton (0 ou plusieurs)</li><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | <ul><li>Non applicable<ul><li>Bouton (0 ou plusieurs)</li><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -97,7 +72,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -115,7 +90,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="relevant-events"></a>Événements pertinents
 
@@ -131,7 +106,7 @@ Le tableau suivant répertorie les événements UI Automation qui sont particuli
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -155,6 +130,6 @@ Le tableau suivant répertorie les événements UI Automation qui sont particuli
 [**WinJS. UI. AppBar, objet**](/previous-versions/windows/apps/br229670(v=win.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

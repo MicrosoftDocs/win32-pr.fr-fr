@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9836bd93ca065fdfa53b0246a5bab0142e84ced6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 276791e53057370f9c54503d5d792925acea3cd655439874e14eeadca8791326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120065589"
 ---
 # <a name="usn-last-obj-rem-attribute"></a>Attribut USN-Last-obj-REM
 
@@ -46,7 +46,7 @@ Contient le numéro de séquence de mise à jour (USN) pour le dernier objet non
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
