@@ -9,12 +9,12 @@ keywords:
 - DsAddSidHistory Active Directory, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afb37e09d5c7b337717f27b0e68ad17331ee27270da9e7b79a0d6bba791d2e5a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c6e987a55f7fe39a8e4705f6aca9e44189e0f7a2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118182523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881832"
 ---
 # <a name="using-dsaddsidhistory"></a>Utilisation de DsAddSidHistory
 
@@ -78,16 +78,16 @@ HKEY_LOCAL_MACHINE
 
 La définition de cette valeur active les appels RPC sur le transport TCP. Cela est nécessaire car, par défaut, les interfaces SAMRPC sont accessibles à distance uniquement sur les canaux nommés. L’utilisation de canaux nommés aboutit à un système de gestion des informations d’identification adapté aux utilisateurs connectés de manière interactive à effectuer des appels en réseau, mais n’est pas flexible pour un processus système qui effectue des appels réseau avec les informations d’identification fournies par l’utilisateur. RPC sur TCP est plus adapté à cet effet. La définition de cette valeur ne diminue pas la sécurité du système. Si cette valeur est créée ou modifiée, le contrôleur de domaine source doit être redémarré pour que ce paramètre prenne effet.
 
-Un nouveau groupe local, « <SrcDomainName> $ $ $ », doit être créé dans le domaine source à des fins d’audit.
+Un nouveau groupe local, « &lt; SrcDomainName &gt; $ $ $ », doit être créé dans le domaine source à des fins d’audit.
 
 ## <a name="auditing"></a>Audit
 
 Les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sont auditées pour s’assurer que les administrateurs de domaine source et de destination sont en mesure de détecter le moment où cette fonction a été exécutée. L’audit est obligatoire dans les domaines source et de destination. **DsAddSidHistory** vérifie que le mode d’audit est activé dans chaque domaine et que l’audit de gestion des comptes des événements de réussite/échec est activé. Dans le domaine de destination, un événement d’audit « ajouter l’historique des SID » unique est généré pour chaque opération **DsAddSidHistory** réussie ou ayant échoué.
 
-Les événements d’audit « ajouter un historique des SID » uniques ne sont pas disponibles sur les systèmes Windows NT 4,0. Pour générer des événements d’audit qui reflètent sans ambiguïté l’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur le domaine source, il effectue des opérations sur un groupe spécial dont le nom est l’identificateur unique dans le journal d’audit. Un groupe local, « <SrcDomainName> $ $ $ », dont le nom est composé du nom NetBIOS du domaine source est ajouté avec trois signes dollar ($) (code ASCII = 0x24 et Unicode = U + 0024), doit être créé sur le contrôleur de domaine source avant d’appeler **DsAddSidHistory**. Chaque utilisateur source et groupe global qui est une cible de cette opération est ajouté à, puis supprimé de l’appartenance de ce groupe. Cela génère des événements ajouter un membre et supprimer un membre dans le domaine source, qui peuvent être analysés en recherchant des événements qui référencent le nom du groupe.
+Les événements d’audit « ajouter un historique des SID » uniques ne sont pas disponibles sur les systèmes Windows NT 4,0. Pour générer des événements d’audit qui reflètent sans ambiguïté l’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur le domaine source, il effectue des opérations sur un groupe spécial dont le nom est l’identificateur unique dans le journal d’audit. Un groupe local, « &lt; SrcDomainName &gt; $ $ $ », dont le nom est composé du nom NetBIOS du domaine source est ajouté avec trois signes dollar ($) (code ASCII = 0X24 et Unicode = U + 0024), doit être créé sur le contrôleur de domaine source avant d’appeler **DsAddSidHistory**. Chaque utilisateur source et groupe global qui est une cible de cette opération est ajouté à, puis supprimé de l’appartenance de ce groupe. Cela génère des événements ajouter un membre et supprimer un membre dans le domaine source, qui peuvent être analysés en recherchant des événements qui référencent le nom du groupe.
 
 > [!Note]  
-> les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur les groupes locaux dans une Windows NT 4,0 ou Windows domaine source en mode mixte 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au <SrcDomainName> groupe local "$ $ $" spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
+> les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur des groupes locaux dans un domaine source Windows NT 4,0 ou Windows 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au &lt; &gt; groupe local « SrcDomainName $ $ $ » spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
 
  
 
@@ -104,56 +104,16 @@ Le tableau suivant répertorie les menaces potentielles associées à l’appel 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Menace potentielle</th>
-<th>Mesure de sécurité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Attaque de l’intercepteur<br/> Un utilisateur non autorisé intercepte le <em>SID de recherche de l’appel de retour de l’objet source</em> , en remplaçant le SID de l’objet source par un SID arbitraire à insérer dans un sIDHistory de l’objet cible.<br/></td>
-<td>Le <em>SID de recherche de l’objet source</em> est un RPC authentifié, à l’aide des informations d’identification d’administrateur de l’appelant, avec la protection des messages d’intégrité du paquet. Cela garantit que l’appel de retour ne peut pas être modifié sans détection. Le contrôleur de domaine de destination crée un &quot; événement d’audit de l’historique des SID unique &quot; qui reflète le SID ajouté au <strong>SIDHistory</strong>du compte de destination.<br/></td>
-</tr>
-<tr class="even">
-<td>Domaine source cheval de Troie<br/> Un utilisateur non autorisé crée un &quot; &quot; domaine source cheval de Troie sur un réseau privé qui a le même SID de domaine et certains des mêmes SID de compte que le domaine source légitime. L’utilisateur non autorisé tente ensuite d’exécuter <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> dans un domaine de destination pour obtenir le SID d’un compte source. Cela s’effectue sans avoir besoin des informations d’identification d’administrateur de domaine source réelles et sans laisser de piste d’audit dans le véritable domaine source. La méthode d’utilisateur non autorisée pour créer le domaine source cheval de Troie peut être l’une des suivantes :
-<ul>
-<li>Obtenez une copie (sauvegarde BDC) du domaine source SAM.</li>
-<li>Créez un nouveau domaine, en modifiant le SID du domaine sur le disque afin qu’il corresponde au SID du domaine source légitime, puis créez suffisamment d’utilisateurs pour instancier un compte avec le SID souhaité.</li>
-<li>Créer un réplica BDC. Cela nécessite des informations d’identification d’administrateur de domaine source. L’utilisateur non autorisé utilise ensuite le réplica sur un réseau privé pour mettre en œuvre l’attaque.</li>
-</ul>
-<br/></td>
-<td>Bien qu’il existe de nombreuses façons pour un utilisateur non autorisé de récupérer ou de créer un SID d’objet source souhaité, l’utilisateur non autorisé ne peut pas l’utiliser pour mettre à jour le <strong>SIDHistory</strong> d’un compte sans être membre du groupe administrateurs de domaine de destination. Étant donné que la vérification, sur le contrôleur de domaine de destination, pour l’appartenance à un administrateur de domaine est codée en dur, sur le contrôleur de domaine cible, il n’existe aucune méthode permettant d’effectuer une modification de disque pour modifier les données de contrôle d’accès qui protègent cette fonction. Une tentative de clonage d’un compte source cheval de Troie est auditée dans le domaine de destination. Cette attaque est atténuée en réservant l’appartenance au groupe administrateurs de domaine uniquement pour les personnes hautement fiables.<br/></td>
-</tr>
-<tr class="odd">
-<td>Modification sur disque de l’historique SID<br/> Un utilisateur non autorisé sophistiqué, avec des informations d’identification d’administrateur de domaine et ayant un accès physique à un contrôleur de domaine dans le domaine de destination, peut modifier une valeur <strong>SIDHistory</strong> de compte sur le disque.<br/></td>
-<td>Cette tentative n’est pas activée à l’aide de <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>. Cette attaque est atténuée en empêchant l’accès physique aux contrôleurs de domaine, à l’exception des administrateurs hautement approuvés.<br/></td>
-</tr>
-<tr class="even">
-<td>Code non autorisé utilisé pour supprimer les protections<br/> Un utilisateur non autorisé ou un administrateur malveillant disposant d’un accès physique au code du service d’annuaire pourrait créer du code non autorisé :
-<ol>
-<li>Supprime la vérification de l’appartenance au groupe administrateurs de domaine dans le code.</li>
-<li>Modifie les appels sur le contrôleur de domaine source qui pointe le SID sur un LookupSidFromName qui n’est pas audité.</li>
-<li>Supprime les appels du journal d’audit.</li>
-</ol>
-<br/></td>
-<td>Une personne ayant un accès physique au code du service d’annuaire et suffisamment compétent pour créer du code non fiable a la possibilité de modifier arbitrairement l’attribut <strong>SIDHistory</strong> d’un compte. L’API <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> n’augmente pas ce risque de sécurité.<br/></td>
-</tr>
-<tr class="odd">
-<td>Ressources vulnérables aux sid volés<br/> Si un utilisateur non autorisé a réussi à utiliser l’une des méthodes décrites ici pour modifier un compte <strong>SIDHistory</strong>de compte, et si les domaines de ressources dignes d’intérêt approuvent le domaine de compte d’utilisateur non autorisé, l’utilisateur non autorisé peut accéder aux ressources du SID volé, éventuellement sans quitter une piste d’audit dans le domaine de compte à partir duquel le SID a été volé.<br/></td>
-<td>Les administrateurs de domaine de ressources protègent leurs ressources en configurant uniquement les relations d’approbation qui sont logiques du point de vue de la sécurité. L’utilisation de <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> est limitée, dans le domaine cible approuvé, aux membres du groupe administrateurs de domaine qui possèdent déjà des autorisations étendues dans le cadre de leurs responsabilités.<br/></td>
-</tr>
-<tr class="even">
-<td>Domaine cible non autorisé<br/> un utilisateur non autorisé crée un domaine Windows 2000 avec un compte dont le <strong>sIDHistory</strong> contient un SID qui a été volé à partir d’un domaine source. L’utilisateur non autorisé utilise ce compte pour un accès non autorisé aux ressources.<br/></td>
-<td>L’utilisateur non autorisé requiert des informations d’identification d’administrateur pour le domaine source afin d’utiliser <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>et laisse une piste d’audit sur le contrôleur de domaine source. Le domaine cible non autorisé bénéficie d’un accès non autorisé uniquement dans les autres domaines qui approuvent le domaine non autorisé, ce qui requiert des privilèges d’administrateur dans ces domaines de ressources.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Menace potentielle | Mesure de sécurité | 
+|------------------|------------------|
+| Attaque de l’intercepteur<br /> Un utilisateur non autorisé intercepte le <em>SID de recherche de l’appel de retour de l’objet source</em> , en remplaçant le SID de l’objet source par un SID arbitraire à insérer dans un sIDHistory de l’objet cible.<br /> | Le <em>SID de recherche de l’objet source</em> est un RPC authentifié, à l’aide des informations d’identification d’administrateur de l’appelant, avec la protection des messages d’intégrité du paquet. Cela garantit que l’appel de retour ne peut pas être modifié sans détection. Le contrôleur de domaine de destination crée un événement d’audit « ajouter l’historique des SID » unique qui reflète le SID ajouté à la valeur <strong>SIDHistory</strong>du compte de destination.<br /> | 
+| Domaine source cheval de Troie<br /> Un utilisateur non autorisé crée un domaine source « cheval de Troie » sur un réseau privé qui a le même SID de domaine et certains des mêmes SID de compte que le domaine source légitime. L’utilisateur non autorisé tente ensuite d’exécuter <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> dans un domaine de destination pour obtenir le SID d’un compte source. Cela s’effectue sans avoir besoin des informations d’identification d’administrateur de domaine source réelles et sans laisser de piste d’audit dans le véritable domaine source. La méthode d’utilisateur non autorisée pour créer le domaine source cheval de Troie peut être l’une des suivantes :<ul><li>Obtenez une copie (sauvegarde BDC) du domaine source SAM.</li><li>Créez un nouveau domaine, en modifiant le SID du domaine sur le disque afin qu’il corresponde au SID du domaine source légitime, puis créez suffisamment d’utilisateurs pour instancier un compte avec le SID souhaité.</li><li>Créer un réplica BDC. Cela nécessite des informations d’identification d’administrateur de domaine source. L’utilisateur non autorisé utilise ensuite le réplica sur un réseau privé pour mettre en œuvre l’attaque.</li></ul><br /> | Bien qu’il existe de nombreuses façons pour un utilisateur non autorisé de récupérer ou de créer un SID d’objet source souhaité, l’utilisateur non autorisé ne peut pas l’utiliser pour mettre à jour le <strong>SIDHistory</strong> d’un compte sans être membre du groupe administrateurs de domaine de destination. Étant donné que la vérification, sur le contrôleur de domaine de destination, pour l’appartenance à un administrateur de domaine est codée en dur, sur le contrôleur de domaine cible, il n’existe aucune méthode permettant d’effectuer une modification de disque pour modifier les données de contrôle d’accès qui protègent cette fonction. Une tentative de clonage d’un compte source cheval de Troie est auditée dans le domaine de destination. Cette attaque est atténuée en réservant l’appartenance au groupe administrateurs de domaine uniquement pour les personnes hautement fiables.<br /> | 
+| Modification sur disque de l’historique SID<br /> Un utilisateur non autorisé sophistiqué, avec des informations d’identification d’administrateur de domaine et ayant un accès physique à un contrôleur de domaine dans le domaine de destination, peut modifier une valeur <strong>SIDHistory</strong> de compte sur le disque.<br /> | Cette tentative n’est pas activée à l’aide de <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>. Cette attaque est atténuée en empêchant l’accès physique aux contrôleurs de domaine, à l’exception des administrateurs hautement approuvés.<br /> | 
+| Code non autorisé utilisé pour supprimer les protections<br /> Un utilisateur non autorisé ou un administrateur malveillant disposant d’un accès physique au code du service d’annuaire pourrait créer du code non autorisé :<ol><li>Supprime la vérification de l’appartenance au groupe administrateurs de domaine dans le code.</li><li>Modifie les appels sur le contrôleur de domaine source qui pointe le SID sur un LookupSidFromName qui n’est pas audité.</li><li>Supprime les appels du journal d’audit.</li></ol><br /> | Une personne ayant un accès physique au code du service d’annuaire et suffisamment compétent pour créer du code non fiable a la possibilité de modifier arbitrairement l’attribut <strong>SIDHistory</strong> d’un compte. L’API <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> n’augmente pas ce risque de sécurité.<br /> | 
+| Ressources vulnérables aux sid volés<br /> Si un utilisateur non autorisé a réussi à utiliser l’une des méthodes décrites ici pour modifier un compte <strong>SIDHistory</strong>de compte, et si les domaines de ressources dignes d’intérêt approuvent le domaine de compte d’utilisateur non autorisé, l’utilisateur non autorisé peut accéder aux ressources du SID volé, éventuellement sans quitter une piste d’audit dans le domaine de compte à partir duquel le SID a été volé.<br /> | Les administrateurs de domaine de ressources protègent leurs ressources en configurant uniquement les relations d’approbation qui sont logiques du point de vue de la sécurité. L’utilisation de <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> est limitée, dans le domaine cible approuvé, aux membres du groupe administrateurs de domaine qui possèdent déjà des autorisations étendues dans le cadre de leurs responsabilités.<br /> | 
+| Domaine cible non autorisé<br /> un utilisateur non autorisé crée un domaine Windows 2000 avec un compte dont le <strong>sIDHistory</strong> contient un SID qui a été volé à partir d’un domaine source. L’utilisateur non autorisé utilise ce compte pour un accès non autorisé aux ressources.<br /> | L’utilisateur non autorisé requiert des informations d’identification d’administrateur pour le domaine source afin d’utiliser <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>et laisse une piste d’audit sur le contrôleur de domaine source. Le domaine cible non autorisé bénéficie d’un accès non autorisé uniquement dans les autres domaines qui approuvent le domaine non autorisé, ce qui requiert des privilèges d’administrateur dans ces domaines de ressources.<br /> | 
+
 
 
 

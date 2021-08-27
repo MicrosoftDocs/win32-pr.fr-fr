@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eb225d7dbb67655286635320352060bcf2cb8a5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a0556d97a0dda0182ee4fe229599030f523accd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868734"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474825"
 ---
 # <a name="error-handling-parameters"></a>Paramètres de gestion des erreurs
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="error-handling-parameters"></a>Paramètres de gestion des erreurs
 
@@ -37,146 +37,29 @@ Ce paramètre peut être utilisé pour convertir un [JET_ERR](./jet-err.md) en c
 
 **Remarque**  Ce paramètre est en lecture seule.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Spécial</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Spécial</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>Spécial</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Spécial</p> | | <p>Tapez :</p> | <p>Spécial</p> | | <p>Plage valide :</p> | <p>Spécial</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 *JET_paramExceptionAction*  
 98  
 
-Ce paramètre contrôle ce qui se produit lorsqu’une exception est levée par le moteur de base de données ou le code qui est appelé par le moteur de base de données. Quand la valeur JET_ExceptionMsgBox, toute exception est levée dans le filtre d’exception non géré Windows. L’exception est alors gérée en tant qu’échec de l’application. L’objectif est d’empêcher le code d’application d’essayer à tort d’intercepter et d’ignorer une exception générée par le moteur de base de données. Cela ne peut pas être autorisé, car une base de données endommagée peut se produire. Si l’application souhaite gérer correctement ces exceptions, la protection peut être désactivée en définissant ce paramètre sur JET_ExceptionNone.
+Ce paramètre contrôle ce qui se produit lorsqu’une exception est levée par le moteur de base de données ou le code qui est appelé par le moteur de base de données. quand la valeur JET_ExceptionMsgBox, toute exception est levée dans le Windows filtre d’exception non géré. L’exception est alors gérée en tant qu’échec de l’application. L’objectif est d’empêcher le code d’application d’essayer à tort d’intercepter et d’ignorer une exception générée par le moteur de base de données. Cela ne peut pas être autorisé, car une base de données endommagée peut se produire. Si l’application souhaite gérer correctement ces exceptions, la protection peut être désactivée en définissant ce paramètre sur JET_ExceptionNone.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>JET_ExceptionMsgBox</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>JET_ExceptionMsgBox, JET_ExceptionNone</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Global</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :  </strong>  º</p>
-<p><strong>Windows Vista :</strong>  Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :  </strong>  º</p>
-<p><strong>Windows Vista :</strong>  Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>JET_ExceptionMsgBox</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>JET_ExceptionMsgBox, JET_ExceptionNone</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  º</p><p><strong>Windows Vista :</strong>  Oui</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong>  º</p><p><strong>Windows Vista :</strong>  Oui</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 ### <a name="see-also"></a>Voir aussi
 
 [Constantes de gestion des erreurs](./error-handling-constants.md)  
-[Codes d’erreur du moteur de stockage extensible](./extensible-storage-engine-error-codes.md)  
+[Codes d’erreur du moteur de Stockage Extensible](./extensible-storage-engine-error-codes.md)  
 [JetCreateInstance](./jetcreateinstance-function.md)  
 [JET_ERR](./jet-err.md)  
 [JetInit](./jetinit-function.md)

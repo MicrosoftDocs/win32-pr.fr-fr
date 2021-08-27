@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: aad95d62be63434653908d54a290c3213fd22bf644150b70fa995e86bf5e39af
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b05f7c93ea1597d2dde4724ff0b24b53769cd9ea
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931449"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631677"
 ---
 # <a name="image-element"></a>Élément Image
 
 Représente une image.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <Image
@@ -42,10 +42,10 @@ Représente une image.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,26 +59,26 @@ Représente une image.
 <tr class="odd">
 <td><strong>Id</strong><br/></td>
 <td>XS : positiveInteger Union XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>ID de ressource unique. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (Union de XS : positiveInteger et XS : String)<br/> </dt> <dd> Valeur entière comprise entre 2 et 59999, inclusive, ou 0X2 et 0xea5f en hexadécimal, inclus. <br/> La longueur maximale est de 10 caractères, y compris des zéros non significatifs facultatifs. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinDPI</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute séquence de chiffres avec une valeur minimale de 96. <br/> Si MinDPI est omis, la valeur par défaut est 96. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Source</strong><br/></td>
 <td>xs:anyURI<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : anyURI)<br/> </dt> <dd> Séquence de caractères qui représente un URI. La valeur de l’URI est un chemin d’accès absolu ou relatif (au fichier de balisage du ruban) à une ressource image de type BMP. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Symbole</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Symbole de ressource pour l’image.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée d’une lettre ou d’un trait de soulignement suivi d’une séquence de lettres, de chiffres ou de traits de soulignement, avec un maximum de 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -112,7 +112,7 @@ Représente une image.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Command. SmallImages**](windowsribbon-element-command-smallimages.md), [**Command. SmallHighContrastImages**](windowsribbon-element-command-smallhighcontrastimages.md), [**Command. LargeImages**](windowsribbon-element-command-largeimages.md)ou [**Command. LargeHighContrastImages**](windowsribbon-element-command-largehighcontrastimages.md) .
 

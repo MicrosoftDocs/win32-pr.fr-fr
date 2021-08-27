@@ -5,16 +5,16 @@ ms.assetid: 6651a500-a95a-45a1-b46a-27b2e9b36a1c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1310efd37b913ae0bf8394015f6df792711ac6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f8cfa177d6f09552238471ff29d81d0ac0b7351
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883214"
 ---
 # <a name="quota-management-for-remote-shells"></a>Gestion des quotas pour les shells distants
 
-La gestion des quotas permet aux utilisateurs de gérer plus efficacement les ressources système. Windows Remote Management (WinRM) a ajouté un ensemble spécifique de quotas qui offrent une meilleure qualité de service, permettent d’éviter des problèmes de déni de service et d’allouer des ressources serveur à des utilisateurs simultanés. L’ensemble de quotas WinRM est basé sur l’infrastructure de quota qui est implémentée pour le service Internet Information Services (IIS).
+La gestion des quotas permet aux utilisateurs de gérer plus efficacement les ressources système. Windows La gestion à distance (WinRM) a ajouté un ensemble spécifique de quotas qui offrent une meilleure qualité de service, vous aident à éviter les problèmes de déni de service et à allouer des ressources serveur à des utilisateurs simultanés. l’ensemble de quotas WinRM est basé sur l’infrastructure de quota qui est implémentée pour le service Internet Information Services (IIS).
 
 L’implémentation de quotas permet d’éviter une dégradation des performances et des problèmes de déni de service en procédant comme suit :
 
@@ -23,9 +23,9 @@ L’implémentation de quotas permet d’éviter une dégradation des performanc
 -   Gestion de la quantité de mémoire allouée à un interpréteur de commandes
 -   Définition d’un délai d’attente pour les shells inactifs
 
-## <a name="quota-settings"></a>Paramètres de quota
+## <a name="quota-settings"></a>Paramètres de Quota
 
-Les quotas suivants doivent être appliqués pour la gestion des shells distants. Ces quotas peuvent être configurés via l’utilitaire WinRM ou via les paramètres de stratégie de groupe. Les paramètres configurés par un stratégie de groupe remplacent les quotas définis par l’utilitaire WinRM. Pour plus d’informations sur la définition de stratégies de groupe pour WinRM, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+Les quotas suivants doivent être appliqués pour la gestion des shells distants. Ces quotas peuvent être configurés via l’utilitaire WinRM ou via les paramètres de stratégie de groupe. Paramètres configurée par un stratégie de groupe remplacent les quotas définis par l’utilitaire winrm. pour plus d’informations sur la définition de stratégies de groupe pour WinRM, consultez [Installation et Configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 <dl> <dt>
 
@@ -51,7 +51,7 @@ Quantité maximale de mémoire allouée par Shell, y compris les processus enfan
 > [!Note]  
 > Le comportement n’est pas pris en charge si MaxMemoryPerShellMB est défini sur une valeur inférieure à la valeur par défaut.
 
- 
+ 
 
 </dd> <dt>
 
@@ -101,25 +101,25 @@ Config
 
 ## <a name="configuring-shell-quotas"></a>Configuration des quotas de l’interpréteur de commandes
 
-Les quotas peuvent être définis à l’aide d’un paramètre stratégie de groupe ou manuellement. Pour plus d’informations sur les paramètres de configuration spécifiques, consultez [installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
+Les quotas peuvent être définis à l’aide d’un paramètre stratégie de groupe ou manuellement. pour plus d’informations sur les paramètres de configuration spécifiques, consultez [Installation et configuration de Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 
 **Pour définir un quota avec stratégie de groupe**
 
 1.  Ouvrez une fenêtre d’invite de commandes en tant qu’administrateur.
 2.  À l’invite de commandes, tapez **gpedit. msc**. La fenêtre de l' **éditeur d’objets stratégie de groupe** s’ouvre.
-3.  Recherchez les **Windows Remote Management** et **windows Remote Shell** stratégie de groupe objets (GPO) sous **Configuration ordinateur \\ modèles d’administration \\ composants Windows**.
+3.  recherchez les **Windows Remote Management** et Windows objets de l' **interpréteur de commandes à distance** stratégie de groupe, sous **Configuration ordinateur \\ Modèles d’administration \\ Windows composants**.
 4.  Sous l’onglet **étendue** , sélectionnez un paramètre pour afficher une description. Double-cliquez sur un paramètre pour le modifier.
 
 **Pour définir un quota manuellement**
 
 1.  Ouvrez une fenêtre d’invite de commandes en tant qu’administrateur.
-2.  À l’invite de commandes, tapez **winrm set winrm/config/Winrs' @ { ***<Quota>*** = " ***<Value>*** "} '**
+2.  À l’invite de commandes, tapez **winrm set winrm/config/Winrs' @ {**_&lt; &gt; quota_*_= "_*_&lt; value &gt;_*_"} '_*
 
 Par exemple, pour augmenter le nombre maximal de shells par utilisateur de 5 à 7, tapez **winrm set winrm/config/Winrs' @ {MaxShellsPerUser = "7"} '**.
 
- 
+ 
 
- 
+ 
 
 
 

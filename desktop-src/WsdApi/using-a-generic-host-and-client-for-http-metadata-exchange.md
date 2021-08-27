@@ -4,12 +4,12 @@ ms.assetid: 7e5c8444-b3ee-4e9c-984f-13d54f2bbfc0
 title: Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6623b39989b613e725fb2103165c825425f20b53a4375d6791aa92cd3b99187
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 10040f4834df1a77115a361d23d82ec3dfcc6c57
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120030079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883173"
 ---
 # <a name="using-a-generic-host-and-client-for-http-metadata-exchange"></a>Utilisation d’un hôte et d’un client génériques pour les métadonnées HTTP Exchange
 
@@ -21,7 +21,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
 
 **Pour utiliser un hôte et un client génériques pour résoudre les problèmes liés à l’échange de métadonnées HTTP**
 
-1.  Ouvrir une fenêtre d’invite de commandes.
+1.  Ouvrez une fenêtre d’invite de commandes.
 2.  Exécutez la commande suivante : **WSDDebug \_host.exe/mode Metadata/Start**
 
     > [!Note]  
@@ -38,7 +38,7 @@ Si l’hôte ou le client est une application en cours d’exécution sur un PC,
     Host metadata>
     ```
 
-3.  Exécutez la commande suivante : **WSDDebug \_client.exe les métadonnées/mode/Hello OFF/Resolve** *<id>* . Remplacez *<id>* par l’ID d’appareil identifié à l’étape 2.
+3.  Exécutez la commande suivante : **WSDDebug \_client.exe/mode Metadata/Hello not/Resolve** *&lt; ID &gt;*. Remplacez *&lt; ID &gt;* par l’ID d’appareil identifié à l’étape 2.
     > [!Note]  
     > une boîte de dialogue d' **alerte Sécurité Windows** peut s’afficher. Dans ce cas, cliquez sur **débloquer** pour permettre l’exécution du client de débogage WSD.
 
@@ -98,7 +98,7 @@ End of metadata
 Client metadata>
 ```
 
-Le client de débogage WSD peut générer un grand nombre de sorties sur un réseau avec de nombreux appareils DPWS. La sortie peut être redirigée vers un fichier pour faciliter l’analyse. Tapez **log tee** *<filename>* à l’invite du client de débogage WSD pour rediriger la sortie vers un fichier. La redirection de sortie peut être arrêtée en tapant **log tee Stop** à l’invite du client de débogage WSD.
+Le client de débogage WSD peut générer un grand nombre de sorties sur un réseau avec de nombreux appareils DPWS. La sortie peut être redirigée vers un fichier pour faciliter l’analyse. Tapez **log tee** *&lt; filename &gt;* à l’invite du client de débogage WSD pour rediriger la sortie vers un fichier. La redirection de sortie peut être arrêtée en tapant **log tee Stop** à l’invite du client de débogage WSD.
 
 Prenez note de l’adresse de référence du point de terminaison (EPR). Cette adresse EPR doit correspondre à l’ID d’appareil identifié à l’étape 2 ci-dessus. Vérifiez également que le client de débogage WSD a complètement imprimé les métadonnées de l’appareil. Les métadonnées de l’appareil commencent par `Metadata for host` et se terminent par `End of metadata` .
 

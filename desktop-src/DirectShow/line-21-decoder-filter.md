@@ -4,12 +4,12 @@ ms.assetid: 48fa5484-1f8c-4133-b2e1-888cb1834402
 title: Filtre de décodeur de ligne 21
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a265b2b547b2ef1a18b65b5588afb9ed7e5e0215446f5f9967244ca5dbd20332
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 9951cd8e6093131d45597d1a89c32c36222eb20a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119584459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986462"
 ---
 # <a name="line-21-decoder-filter"></a>Filtre de décodeur de ligne 21
 
@@ -40,67 +40,20 @@ Les informations du tableau suivant s’appliquent aux deux versions du filtre 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Interfaces de filtre</td>
-<td><a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"> <strong>IBaseFilter</strong></a></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche d’entrée</td>
-<td>Type majeur : MEDIATYPE_AUXLine21DataSubtype :<br/>
-<ul>
-<li>MEDIASUBTYPE_Line21_BytePair (ligne standard 21)</li>
-<li>MEDIASUBTYPE_Line21_GOPPacket (ligne DVD 21)</li>
-</ul>
-Type de format : FORMAT_VideoInfo ou GUID_NULL<br/></td>
-</tr>
-<tr class="odd">
-<td>Interfaces pin d’entrée</td>
-<td><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche de sortie</td>
-<td>Type majeur : MEDIATYPE_VideoSubtype :<br/>
-<ul>
-<li>MEDIASUBTYPE_RGB8</li>
-<li>MEDIASUBTYPE_RGB555</li>
-<li>MEDIASUBTYPE_RGB565</li>
-<li>MEDIASUBTYPE_RGB24</li>
-<li>MEDIASUBTYPE_RGB32</li>
-</ul>
-Type de format : FORMAT_VideoInfo<br/></td>
-</tr>
-<tr class="odd">
-<td>Interfaces de broche de sortie</td>
-<td><a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></td>
-</tr>
-<tr class="even">
-<td>CLSID du filtre</td>
-<td>Voir le tableau précédent</td>
-</tr>
-<tr class="odd">
-<td>CLSID de page de propriétés</td>
-<td>Aucun</td>
-</tr>
-<tr class="even">
-<td>Exécutable</td>
-<td>qdvd.dll</td>
-</tr>
-<tr class="odd">
-<td><a href="merit.md">Mérite</a></td>
-<td>Décodeur de ligne 21 : MERIT_NORMALLine 21 décodeur 2 : MERIT_NORMAL + 2<br/></td>
-</tr>
-<tr class="even">
-<td><a href="filter-categories.md">Catégorie de filtre</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| Interfaces de filtre | <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder"><strong>IAMLine21Decoder</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"> <strong>IBaseFilter</strong></a> | 
+| Types de média de broche d’entrée | Type majeur : MEDIATYPE_AUXLine21DataSubtype :<br /><ul><li>MEDIASUBTYPE_Line21_BytePair (ligne standard 21)</li><li>MEDIASUBTYPE_Line21_GOPPacket (ligne DVD 21)</li></ul>Type de format : FORMAT_VideoInfo ou GUID_NULL<br /> | 
+| Interfaces pin d’entrée | <a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| Types de média de broche de sortie | Type majeur : MEDIATYPE_VideoSubtype :<br /><ul><li>MEDIASUBTYPE_RGB8</li><li>MEDIASUBTYPE_RGB555</li><li>MEDIASUBTYPE_RGB565</li><li>MEDIASUBTYPE_RGB24</li><li>MEDIASUBTYPE_RGB32</li></ul>Type de format : FORMAT_VideoInfo<br /> | 
+| Interfaces de broche de sortie | <a href="/windows/desktop/api/Control/nn-control-imediaposition"><strong>IMediaPosition</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPIN</strong></a>, <a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a> | 
+| CLSID du filtre | Voir le tableau précédent | 
+| CLSID de page de propriétés | Aucun | 
+| Exécutable | qdvd.dll | 
+| <a href="merit.md">Mérite</a> | Décodeur de ligne 21 : MERIT_NORMALLine 21 décodeur 2 : MERIT_NORMAL + 2<br /> | 
+| <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 

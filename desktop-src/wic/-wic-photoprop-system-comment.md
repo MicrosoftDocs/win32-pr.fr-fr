@@ -4,12 +4,12 @@ ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
 title: Stratégie de métadonnées de la photo System. Comment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b3511e0a459a2b652b29828060be6f0a92a36639aef63d4fa087e54ec9d80b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2aa1a62fd5afa131a714c365ed2fda2c307bc955
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118205628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883908"
 ---
 # <a name="systemcomment-photo-metadata-policy"></a>Stratégie de métadonnées de la photo System. Comment
 
@@ -45,11 +45,11 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                | Format de disque    |
+| JSON | Chemin d’accès                                | Format de disque    |
 |-------|-------------------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40092}            | \_octets Unicode |
 | 2     | /App1/IFD/{UShort = 37510}            | unicode        |
-| 3     | /XMP/ <xmpalt> EXIF : UserComment | unicode        |
+| 3     | /XMP/ &lt; xmpalt &gt; EXIF : UserComment | unicode        |
 
 
 
@@ -59,7 +59,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                     | Format de disque    |
+| JSON | Chemin d’accès                     | Format de disque    |
 |-------|--------------------------|----------------|
 | 1     | /App1/IFD/{UShort = 40092} | \_octets Unicode |
 
@@ -71,7 +71,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                          |
+| JSON | Chemin d’accès                          |
 |-------|-------------------------------|
 | 1     | /App1/IFD/{UShort = 40092}      |
 | 2     | /App1/IFD/EXIF/{UShort = 37510} |
@@ -87,11 +87,11 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                    | Format de disque    |
+| JSON | Chemin d’accès                                    | Format de disque    |
 |-------|-----------------------------------------|----------------|
 | 1     | /IFD/{UShort = 40092}                     | \_octets Unicode |
 | 2     | /IFD/{UShort = 37510}                     | unicode        |
-| 3     | /IFD/XMP/ <xmpalt> EXIF : UserComment | unicode        |
+| 3     | /IFD/XMP/ &lt; xmpalt &gt; EXIF : UserComment | unicode        |
 
 
 
@@ -101,7 +101,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                | Format de disque    |
+| JSON | Chemin d’accès                | Format de disque    |
 |-------|---------------------|----------------|
 | 1     | /IFD/{UShort = 40092} | \_octets Unicode |
 
@@ -113,7 +113,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                      |
+| JSON | Chemin d’accès                      |
 |-------|---------------------------|
 | 1     | /IFD/{UShort = 40092}       |
 | 2     | /IFD/{UShort = 37510}       |

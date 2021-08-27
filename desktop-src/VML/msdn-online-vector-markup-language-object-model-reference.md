@@ -1,22 +1,22 @@
 ---
 title: Référence du modèle objet VML
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 ms.assetid: 68a84c68-3aac-4971-9611-45f52e057708
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c387935119babc73442e9b8f307672925bdf71d3
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 092190bc12a4c2cc8c15817529a16524f17bdef1
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444820"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624305"
 ---
 # <a name="vml-object-model-reference"></a>Référence du modèle objet VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -139,7 +139,7 @@ R.FillColor = "red"
 
 
 
-Notez que dans les versions bêta, une balise d’objet ActiveX et un style de comportement différent étaient requis.
+notez que dans les versions bêta, une balise d’objet ActiveX et un style de comportement différent était requis.
 
 ## <a name="vml-om-reference"></a>Informations de référence sur VML OM
 
@@ -191,7 +191,7 @@ VML fournit des formes prédéfinies :
 | Opacity      | [VgFraction](msdn-online-vml-vgfraction-data-type.md). Opacité de la forme entière. Nombre compris entre 0,0 et 1,0.                                                                                                                                                                                                                                                           |
 | Chemin d’accès         | IVgPath. Chaîne contenant les commandes qui définissent le chemin d’accès.                                                                                                                                                                                                                                                                                                                  |
 | Points       | [IVgPoints](msdn-online-vml-ivgpoints-data-type.md). Collection de points définissant une forme.                                                                                                                                                                                                                                                                                   |
-| Impression        | [VgTriState](msdn-online-vml-vgtristate.md). Si la valeur est true, cette forme est destinée à être imprimée.                                                                                                                                                                                                                                                                                        |
+| Imprimer        | [VgTriState](msdn-online-vml-vgtristate.md). Si la valeur est true, cette forme est destinée à être imprimée.                                                                                                                                                                                                                                                                                        |
 | Rotation     | [VgAngleInDegrees](msdn-online-vml-vgangleindegrees-data-type.md). Définit la rotation de la forme. La valeur est propagée au style de forme.                                                                                                                                                                                                                                              |
 | Scale        | [Vector2d](msdn-online-vml-ivgvector2d-data-type.md). Échelle de la forme.                                                                                                                                                                                                                                                                                                           |
 | Shadow       | IVgShadow. Spécifie l’ombre de cette forme. Pour plus d’informations, consultez l’élément [Shadow](msdn-online-vml-shadow-element.md) .                                                                                                                                                                                                                                                        |
@@ -251,8 +251,8 @@ Décrit une extrusion 3D de la forme.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -370,7 +370,7 @@ Décrit une extrusion 3D de la forme.
 <td>Vector3D. Centre de rotation.</td>
 </tr>
 <tr class="even">
-<td>Éclat</td>
+<td>Brillance</td>
 <td><a href="#data-types-used-in-the-vml-object-model">VgPositiveNumber</a>. Détermine la façon dont la réflexion spéculaire concentrée ou répartie est. Une valeur élevée est comprendra de 8 à 10 et se traduirait par un miroir, et une valeur basse serait de 2 à 3 et sequinedrait des vêtements de ré. Les valeurs 3 à 7 sont recommandées. Des valeurs élevées reflètent les sources de lumière de repérage.</td>
 </tr>
 <tr class="odd">
@@ -418,8 +418,8 @@ Décrit comment remplir un tracé pour obtenir des remplissages plus complexes q
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -436,7 +436,7 @@ Décrit comment remplir un tracé pour obtenir des remplissages plus complexes q
 <table>
 <thead>
 <tr class="header">
-<th>Value</th>
+<th>Valeur</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -486,7 +486,7 @@ Décrit comment remplir un tracé pour obtenir des remplissages plus complexes q
 <td>Méthode</td>
 <td>VgSigmaType. Ces valeurs comprennent :
 <ul>
-<li>Aucun</li>
+<li>Aucune</li>
 <li>Linéaire</li>
 <li>Sigma</li>
 <li>Quelconque</li>
@@ -593,8 +593,8 @@ Définit le chemin d’accès qui compose la forme, à l’aide d’une chaîne 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -610,7 +610,7 @@ Définit le chemin d’accès qui compose la forme, à l’aide d’une chaîne 
 <td><a href="#data-types-used-in-the-vml-object-model">Chaîne</a>. Correspond à l’attribut v de la balise Path. Notez que le chemin d’accès peut correspondre à un attribut ou à un élément de chemin d’accès.</td>
 </tr>
 <tr class="even">
-<td>Value</td>
+<td>Valeur</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Chaîne</a>. Représentation textuelle des commandes qui définissent le chemin d’accès. Les valeurs de coordonnée X ou y peuvent être une référence à une formule dans le formulaire &quot; @# &quot; où # est le nombre ordinal de la formule, par exemple, &quot; @2 &quot; . Cette chaîne d’attribut est constituée d’un ensemble complet de commandes, notamment les suivantes : <br/> 
 <table>
 <thead>
@@ -716,8 +716,8 @@ Décrit un effet d’ombrage sur une forme.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -800,8 +800,8 @@ Décrit comment dessiner le tracé si un point au-delà d’une ligne pleine ave
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -890,7 +890,7 @@ Décrit comment dessiner le tracé si un point au-delà d’une ligne pleine ave
 <table>
 <thead>
 <tr class="header">
-<th>Value</th>
+<th>Valeur</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -1077,7 +1077,7 @@ Les types de données suivants sont utilisés par le modèle objet VML.
 -   [IVgVector2D](/windows)
 -   [IVgVector3D](/windows)
 -   [Durée](/windows)
--   [Unité](/windows) :
+-   [Mesure](/windows)
 -   [Chaîne](/windows)
 -   [VgBlackWhiteMode](/windows)
 -   [VgFraction](/windows)
@@ -1106,7 +1106,7 @@ Collection d’ajustements d’une forme qui peut être utilisée pour modifier 
 | Exists     | [IVgTriState](msdn-online-vml-vgtristate.md). Détermine si un ajustement spécifié existe. Notez qu’un index doit être utilisé ; en d’autres cas, Exists (Item) doit être utilisé pour récupérer l’existence d’un élément.                                                                                                                                                                   |
 | Élément       | [Long](#data-types-used-in-the-vml-object-model). Tableau d’ajustements indexés de 0 à 7. Notez que les ajustements peuvent être spécifiés pour SPARC. autrement dit, les valeurs de tableau intermédiaire ne peuvent pas toujours être remplies. Par exemple, les éléments 1, 3 et 5 peuvent avoir des valeurs pour une longueur de 3, avec l’élément (0), l’élément (2) et l’élément (4) spécifiés. Pour voir si un élément existe, utilisez l’attribut exists. |
 | Longueur     | [Integer](#data-types-used-in-the-vml-object-model). Nombre d’ajustements. Ne peut pas être supérieur à 8.                                                                                                                                                                                                                                                                          |
-| Value      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle des valeurs numériques, avec des virgules entre chaque nombre.                                                                                                                                                                                                                                                    |
+| Valeur      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle des valeurs numériques, avec des virgules entre chaque nombre.                                                                                                                                                                                                                                                    |
 
 
 
@@ -1120,8 +1120,8 @@ Spécifie une couleur.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1193,8 +1193,8 @@ Spécifie une couleur.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1301,7 +1301,7 @@ Spécifie une couleur.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Value</td>
+<td>Valeur</td>
 <td>Le paramètre est une valeur simple.</td>
 </tr>
 <tr class="even">
@@ -1348,7 +1348,7 @@ Spécifie un rectangle fixe.
 
 | Attribut | Description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|
-| Value      | [Chaîne](#data-types-used-in-the-vml-object-model). Valeur de texte spécifiant le chemin d’accès.         |
+| Valeur      | [Chaîne](#data-types-used-in-the-vml-object-model). Valeur de texte spécifiant le chemin d’accès.         |
 | Gauche       | [Double](#data-types-used-in-the-vml-object-model). Coordonnée la plus à gauche du rectangle.   |
 | Haut        | [Double](#data-types-used-in-the-vml-object-model). Coordonnée la plus grande du rectangle.    |
 | Right      | [Double](#data-types-used-in-the-vml-object-model). Coordonnée la plus à droite du rectangle.  |
@@ -1366,7 +1366,7 @@ Tableau de rectangles fixes.
 
 | Attribut | Description                                                                                                 |
 |------------|-------------------------------------------------------------------------------------------------------------|
-| Value      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle d’un tableau.                           |
+| Valeur      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle d’un tableau.                           |
 | Longueur     | [Integer](#data-types-used-in-the-vml-object-model). Nombre de rectangles dans ce tableau.                    |
 | Élément       | [IVgFixedRectangle](#data-types-used-in-the-vml-object-model). Objet Rectangle à l’index spécifié. |
 
@@ -1411,7 +1411,7 @@ Tableau de couleurs qui définissent un dégradé (plage de couleurs fusionnée)
 
 | Attribut | Description                                                                                                                  |
 |------------|------------------------------------------------------------------------------------------------------------------------------|
-| Value      | [Chaîne](#data-types-used-in-the-vml-object-model). Spécifie le tableau de couleurs ; par exemple, «Red. 2 ; vert. 4 ; noir. 7» |
+| Valeur      | [Chaîne](#data-types-used-in-the-vml-object-model). Spécifie le tableau de couleurs ; par exemple, «Red. 2 ; vert. 4 ; noir. 7» |
 | Longueur     | [Integer](#data-types-used-in-the-vml-object-model). Nombre de couleurs dans le tableau.                                          |
 
 
@@ -1437,7 +1437,7 @@ Tableau de points qui définissent une forme.
 
 | Attribut | Description                                                                                 |
 |------------|---------------------------------------------------------------------------------------------|
-| Value      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle d’un tableau.           |
+| Valeur      | [Chaîne](#data-types-used-in-the-vml-object-model). Représentation textuelle d’un tableau.           |
 | Longueur     | [Integer](#data-types-used-in-the-vml-object-model). Nombre de points dans ce tableau.        |
 | Élément       | [IVgVector2D](msdn-online-vml-ivgvector2d-data-type.md). Point au niveau de l’index spécifié. |
 
@@ -1472,8 +1472,8 @@ Spécifie le décalage de l’inclinaison.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1483,7 +1483,7 @@ Spécifie le décalage de l’inclinaison.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Value</td>
+<td>Valeur</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Chaîne</a>. Représentation textuelle du décalage.</td>
 </tr>
 <tr class="even">
@@ -1491,7 +1491,7 @@ Spécifie le décalage de l’inclinaison.
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant X. Pourcentage ou mesure. Si aucune unité n’est présente, le type ShapeRelative est implicite ; Sinon, le type absolu est implicite.</td>
 </tr>
 <tr class="odd">
-<td>Y</td>
+<td>O</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant Y.</td>
 </tr>
 <tr class="even">
@@ -1533,8 +1533,8 @@ Spécifie un vecteur à deux dimensions constitué de deux nombres **doubles** .
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1544,7 +1544,7 @@ Spécifie un vecteur à deux dimensions constitué de deux nombres **doubles** .
 </thead>
 <tbody>
 <tr class="odd">
-<td>Value</td>
+<td>Valeur</td>
 <td><strong>Chaîne</strong>. Représentation textuelle des deux nombres vectorisés séparés par un espace.</td>
 </tr>
 <tr class="even">
@@ -1552,7 +1552,7 @@ Spécifie un vecteur à deux dimensions constitué de deux nombres **doubles** .
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant X de ce vecteur.</td>
 </tr>
 <tr class="odd">
-<td>Y</td>
+<td>O</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant Y de ce vecteur.</td>
 </tr>
 <tr class="even">
@@ -1581,12 +1581,12 @@ Spécifie un vecteur à trois dimensions composé de trois nombres **doubles** .
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>Value</td>
+<td>Valeur</td>
 <td><strong>Chaîne</strong>. Représentation textuelle de trois nombres vectorisés séparés par un espace.</td>
 </tr>
 <tr class="even">
@@ -1594,7 +1594,7 @@ Spécifie un vecteur à trois dimensions composé de trois nombres **doubles** .
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant X de ce vecteur.</td>
 </tr>
 <tr class="odd">
-<td>Y</td>
+<td>O</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Double</a>. Composant Y de ce vecteur.</td>
 </tr>
 <tr class="even">
@@ -1646,7 +1646,7 @@ Mode de rendu pour le noir et le blanc. Les valeurs possibles sont les suivantes
 -   **BlackTextAndLines**
 -   **HighContrast**
 -   **Noir**
--   **Blancs**
+-   **White**
 -   **Dédessiné**
 
 **Type de données VgFraction**

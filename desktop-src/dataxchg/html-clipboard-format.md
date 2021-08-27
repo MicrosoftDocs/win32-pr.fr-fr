@@ -3,7 +3,7 @@ title: Format de presse-papiers HTML
 description: Cette section décrit le format de presse-papiers HTML.
 ms.assetid: e891393f-234f-4c94-b581-c4e5f885d2ab
 keywords:
-- Interface utilisateur Windows, presse-papiers
+- Windows Interface utilisateur, presse-papiers
 - presse-papiers, découper des données
 - presse-papiers, copier des données
 - presse-papiers, coller des données
@@ -15,12 +15,12 @@ keywords:
 - presse-papiers, format CF_HTML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75cdcd9c2fc982a7cbde38bba4b7dec6738f1793
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18d73b5101d26fc55002d55e0c15144646b80445
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884985"
 ---
 # <a name="html-clipboard-format"></a>Format de presse-papiers HTML
 
@@ -111,15 +111,15 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 1.  Fragment de code HTML simple.
     -   -   Texte HTML :
 
-            <BODY>Ceci est normal. Ceci est <B>le gras </B> <I> <B>italique </B>il s’agit</I> de l’italique</BODY>
+            &lt;Le corps est normal. il s’agit de l' &gt; <B> </B> <I> <B>Italique gras </B>. il s’agit </I>de l’italique &lt; /Body&gt;
 
         -   Apparaît comme suit :
 
-            Ceci est normal. Ceci est **le gras**    * **italique** il   s’agit de l’italique *
+            Ceci est normal. Ceci est **le gras****_italique_* il s’agit* de l’italique  
 
         -   Le texte entre le \* \* est sélectionné et copié dans le presse-papiers :
 
-            Ceci **est normal.** ceci est le gras \* \*     * **italique**   ce * \* \* *est italique*
+            Ceci **est normal.** ceci est le gras \* \* **_italique_** il \* \* *s’agit* de l’italique   
 
         -   C’est ce qui se trouve dans le presse-papiers (Notez qu’il s’agit de l’interprétation de IE4/MSHTML) :
 
@@ -139,7 +139,7 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!DOCTYPE ...>
 
-            <BODY>
+            &lt;ORGANISMES&gt;
 
             <!-- StartFragment -->>
 
@@ -147,16 +147,16 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!-- EndFragment -->
 
-            </BODY>
+            &lt;/BODY&gt;
 
-            </HTML>
+            &lt;/HTML&gt;
 
         -   Dans ce scénario, seule la balise BODY et la balise HTML apparaissent dans le contexte, car elle précède le fragment sélectionné. Notez que les balises de début et de fin sont incluses dans le contexte. La sélection, délimitée par StartSelection et EndSelection, s’affiche en gras.
 
 2.  Fragment d’une table en HTML.
     -   -   Texte HTML :
 
-            <BODY><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Élément 2</TD><TD>Élément 3</TD><TD>Élément 4</TD></TR><TR><TD>Élément 5</TD><TD>Élément 6</TD><TD>Élément 7</TD><TD>Élément 8</TD></TR><TR><TH>Head2</TH><TD>Élément 9</TD><TD>Élément 10</TD><TD>Élément 11</TD><TD>Élément 12</TD></TR></TABLE></BODY>
+            &lt;ORGANISMES&gt;<TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Élément 2</TD><TD>Élément 3</TD><TD>Élément 4</TD></TR><TR><TD>Élément 5</TD><TD>Élément 6</TD><TD>Élément 7</TD><TD>Élément 8</TD></TR><TR><TH>Head2</TH><TD>Élément 9</TD><TD>Élément 10</TD><TD>Élément 11</TD><TD>Élément 12</TD></TR></TABLE>&lt;/BODY&gt;
 
         -   S’affiche sous la forme : ><TABLE BORDER><TR><TH ROWSPAN=2>Head1</TH><TD>Item 1</TD><TD>Élément 2</TD><TD>Élément 3</TD><TD>Élément 4</TD></TR><TR><TD>Élément 5</TD><TD>Élément 6</TD><TD>Élément 7</TD><TD>Élément 8</TD></TR><TR><TH>Head2</TH><TD>Élément 9</TD><TD>Élément 10</TD><TD>Élément 11</TD><TD>Élément 12</TD></TR></TABLE>< ! \[ CDATA\[\]\]>
         -   Les éléments élément 6, Item7, élément 10 et élément 11 de la table sont sélectionnés en tant que bloc et copiés dans le presse-papiers.
@@ -164,7 +164,7 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!DOCTYPE ...>
 
-            <HTML><BODY><TABLE BORDER>
+            &lt;&gt; &lt; corps HTML&gt;<TABLE BORDER>
 
             <!--StartFragment-->
 
@@ -174,12 +174,12 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             </TABLE>
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY &gt; &lt; /HTML &gt; la sélection, délimitée par StartSelection et EndSelection, s’affiche en gras.
 
 3.  Collage d’un fragment d’une liste triée dans du texte brut.
     -   -   Texte HTML :
 
-            <BODY><OL TYPE = a><LI>Item 1<LI>Élément 2<LI>Élément 3<LI>Élément 4<LI>Élément 5<LI>Élément 6</OL></BODY>
+            &lt;ORGANISMES&gt;<OL TYPE = a><LI>Item 1<LI>Élément 2<LI>Élément 3<LI>Élément 4<LI>Élément 5<LI>Élément 6</OL>&lt;/BODY&gt;
 
         -   Apparaît comme suit :
             1.  Item 1
@@ -190,7 +190,7 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
             6.  Élément 6
         -   L’utilisateur sélectionne et copie les éléments 3 à 5 dans le presse-papiers. Le code HTML suivant se trouve dans le presse-papiers :
 
-            <DOCTYPE... ><HTML><BODY><OL TYPE = a>
+            <DOCTYPE... >&lt; &gt; &lt; corps HTML&gt;<OL TYPE = a>
 
             <!-- StartFragment-->
 
@@ -198,13 +198,13 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!-- EndFragment-->
 
-            </OL></BODY></HTML>
+            </OL>&lt;/BODY&gt;&lt;/HTML&gt;
 
             La sélection, délimitée par StartSelection et EndSelection, est affichée en gras.
 
         -   Si ce fragment est collé dans un document vide, le code HTML suivant sera créé :
 
-            <BODY><OL TYPE = a><LI>Élément 3<LI>Élément 4<LI>Élément 5</OL></BODY>
+            &lt;ORGANISMES&gt;<OL TYPE = a><LI>Élément 3<LI>Élément 4<LI>Élément 5</OL>&lt;/BODY&gt;
 
         -   Apparaître comme suit :
             1.  Élément 3
@@ -223,7 +223,7 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
         -   L’utilisateur sélectionne « WYSIWYG » jusqu’à « COP ». Le code HTML suivant se trouve dans le presse-papiers :
 
-            <DOCTYPE... ><HTML><BODY>
+            <DOCTYPE... >&lt; &gt; &lt; corps HTML&gt;
 
             <!-- StartFragment-->
 
@@ -237,14 +237,14 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!-- EndFragment-->
 
-            </BODY></HTML>The selection, as delimited by StartSelection and EndSelection, is shown in bold.
+            &lt;/BODY &gt; &lt; /HTML &gt; la sélection, délimitée par StartSelection et EndSelection, s’affiche en gras.
 
-     
+     
     -   -   L’utilisateur sélectionne « opier » jusqu’à « belle ».
 
             Le code HTML suivant se trouve dans le presse-papiers :
 
-            <DOCTYPE... ><HTML><BODY>
+            <DOCTYPE... >&lt; &gt; &lt; corps HTML&gt;
 
             <!-- StartFragment-->
 
@@ -256,13 +256,13 @@ Les scénarios suivants décrivent comment l’éditeur HTML IE4/MSHTML gère le
 
             <!-- EndFragment-->
 
-            </BODY></HTML>
+            &lt;/BODY &gt; &lt; /HTML&gt;
 
             La sélection, délimitée par StartSelection et EndSelection, s’affiche en gras.
 
- 
+ 
 
- 
+ 
 
 
 

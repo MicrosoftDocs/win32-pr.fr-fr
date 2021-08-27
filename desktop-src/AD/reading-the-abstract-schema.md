@@ -7,12 +7,12 @@ keywords:
 - Active Directory de schéma, lecture du schéma abstrait
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02d7fadba33bcc5e93bf2b9e89934e8b440d559b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b7095dc4fb5ffe5f11f64781ecd423a60b3d434d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881305"
 ---
 # <a name="reading-the-abstract-schema"></a>Lecture du schéma abstrait
 
@@ -40,7 +40,7 @@ Set adschema = GetObject("LDAP://schema")
 
 
 
-Utilisez une chaîne de liaison similaire, « LDAP://schema/ <object> », pour effectuer une liaison directe à une entrée de classe ou d’attribut dans le schéma abstrait. Dans cette chaîne, « &lt; Object &gt; » est le **lDAPDisplayName** d’une classe ou d’un attribut. Pour les classes liées à l’interface [**IADsClass**](/windows/desktop/api/iads/nn-iads-iadsclass) ; pour les attributs, liez à l’interface [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) .
+Utilisez une chaîne de liaison similaire, « &lt; objet LDAP://Schema/ &gt; », pour effectuer une liaison directe à une entrée de classe ou d’attribut dans le schéma abstrait. Dans cette chaîne, « &lt; Object &gt; » est le **lDAPDisplayName** d’une classe ou d’un attribut. Pour les classes liées à l’interface [**IADsClass**](/windows/desktop/api/iads/nn-iads-iadsclass) ; pour les attributs, liez à l’interface [**IADsProperty**](/windows/desktop/api/iads/nn-iads-iadsproperty) .
 
 
 ```C++
@@ -82,10 +82,10 @@ Pour les classes, le tableau suivant répertorie les principales propriétés fo
 
 
 
- 
+ 
 
 Le schéma abstrait est stocké dans l’objet de sous- **schéma** dans le conteneur de schéma. Pour obtenir le nom unique de l’objet de sous- **schéma** , liez-le à RootDSE et lisez l’attribut **subSchemaSubEntry** , comme décrit dans [liaison sans serveur et RootDSE](serverless-binding-and-rootdse.md). N’oubliez pas qu’il est plus efficace de lire le schéma abstrait en liant « LDAP://schema » que par la liaison directe à l’objet de sous- **schéma** .
 
- 
+ 
 
- 
+ 

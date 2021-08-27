@@ -4,12 +4,12 @@ ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Fonctions de débogage d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8f1de3d19ce7408625a5ab42f230d23ce401728e9fa7cf060edae62e19fcfd
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3f2aabec60a14ff36d74298a21d31c91b4bc6d94
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120049199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884026"
 ---
 # <a name="wait-debugging-functions"></a>Fonctions de débogage d’attente
 
@@ -19,9 +19,9 @@ dans les versions commerciales, les fonctions [**DbgWaitForMultipleObjects**](db
 
 Dans les versions Debug, ces fonctions utilisent une valeur de délai d’attente globale. Si le délai d’attente expire, la fonction déclenche une assertion. La clé de Registre suivante spécifie la valeur du délai d’attente, en millisecondes :
 
-**% \_ \_ \\ <DebugRoot> \\ <Module Name> \\ d’expiration de l’ordinateur local**
+**\_ \_ \\ &lt; DebugRoot &gt; \\ <Module Name> \\ du délai d’expiration de la machine locale HKEY**
 
-où *<DebugRoot>* est le chemin d’accès au registre décrit dans la rubrique [fonctions de sortie de débogage](debug-output-functions.md).
+où *&lt; DebugRoot &gt;* est le chemin d’accès au registre décrit dans la rubrique [fonctions de sortie de débogage](debug-output-functions.md).
 
 Si la clé n’existe pas, la valeur du délai d’attente est définie par défaut sur Infinite. Vous pouvez utiliser la fonction [**DbgSetWaitTimeout**](dbgsetwaittimeout.md) pour remplacer l’entrée de registre.
 

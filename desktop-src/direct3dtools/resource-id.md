@@ -17,18 +17,18 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1e7d93111defb01000e32e4f5ade0c9eb09c827e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5012a6dc40f47a396139eb29f2f88151b4a10ffb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104521892"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623155"
 ---
 # <a name="span-idvspixengineresource_idspanresource_id-enumeration"></a><span id="vspixengine.resource_id"></span>Énumération de l’ID de ressource \_
 
-Définit des ID de ressource pour les ressources de type chaîne partagée. Celles-ci sont transmises au moteur de capture à partir de l’hôte. Ils sont utilisés pour afficher des chaînes à la superposition HUD de l’application capturée ou pour passer des valeurs de registre des options de Visual Studio à l’Engi de capture.
+Définit des ID de ressource pour les ressources de type chaîne partagée. Celles-ci sont transmises au moteur de capture à partir de l’hôte. ils sont utilisés pour afficher des chaînes à la superposition HUD de l’application capturée ou pour passer des valeurs de registre des options de Visual Studio au engi de capture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -170,7 +170,7 @@ Texte affiché dans le Fenêtre Propriétés vsglog-créé par la version
 Texte affiché dans l’heure de début de la session de Fenêtre Propriétés vsglog
 
 <span id="SUMMARYINFO_SYSTEMINFORMATION"></span><span id="summaryinfo_systeminformation"></span>**SUMMARYINFO \_ SYSTEMINFORMATION**  
-Texte affiché dans le Fenêtre Propriétés vsglog-informations système
+Texte affiché dans le Fenêtre Propriétés vsglog-System Information
 
 <span id="SUMMARYINFO_PROCESSOR"></span><span id="summaryinfo_processor"></span>**\_processeur SUMMARYINFO**  
 Texte affiché dans le processeur Fenêtre Propriétés vsglog
@@ -604,7 +604,7 @@ Non utilisé.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

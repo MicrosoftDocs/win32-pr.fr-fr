@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8feace72eeb51ed0904ad748892ca3c1b3adea9c8ca6c97ac7a76ea11890dd08
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 2f5772429fa0cd7f2f45009ff1867141a845088b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117922427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885490"
 ---
 # <a name="swbemobjectexgettext_-method"></a>SWbemObjectEx. GetText, \_ méthode
 
@@ -113,12 +113,12 @@ Lors de la construction de votre [**SWbemNamedValueSet**](swbemnamedvalueset.md)
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom</th>
+<th>Name</th>
 <th>Valeur</th>
 </tr>
 </thead>
@@ -135,7 +135,7 @@ Lors de la construction de votre [**SWbemNamedValueSet**](swbemnamedvalueset.md)
 <td>PathLevel</td>
 <td><strong>VT-I4</strong><br/> La valeur par défaut est 0 (zéro). Les valeurs possibles sont les suivantes :<br/>
 <ul>
-<li>0 : un <CLASS> <INSTANCE> élément ou est créé selon que l’objet est une classe ou une instance.</li>
+<li>0 : une &lt; classe &gt; ou un <INSTANCE> élément est créé selon que l’objet est une classe ou une instance.</li>
 <li>1 : un <VALUE.NAMEDOBJECT> élément est généré.</li>
 <li>2 : un <VALUE.OBJECTWITHLOCALPATH> élément est généré.</li>
 <li>3 : un <VALUE.OBJECTWITHPATH> élément est généré.</li>
@@ -177,7 +177,7 @@ wscript.echo Text
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

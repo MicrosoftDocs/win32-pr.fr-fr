@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ad8cad0cfc31c77b3cc8e960153bda14b4f431e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119719189"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475815"
 ---
 # <a name="jetexternalrestore2-function"></a>Fonction JetExternalRestore2
 
@@ -99,64 +99,21 @@ Rappel d’État qui indique la progression de la récupération.
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errDatabaseCorrupted</p></td>
-<td><p>Cela indique que la base de données a été endommagée ou un fichier non reconnu.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errEndingRestoreLogTooLow</p></td>
-<td><p>Cette erreur est retournée si l’une des fichiers journaux dans le <em>szBackupLogPath</em>a une génération de journal supérieure à celle spécifiée dans <em>genHigh</em> ou <em>pLogInfo. ulGenHigh</em>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFileNotFound</p></td>
-<td><p>L’opération a échoué, car elle n’a pas pu ouvrir le fichier demandé, car il est introuvable dans le chemin d’accès spécifié.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cela peut se produire pour <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>, et ainsi de suite lorsque le <em>SzTargetCheckpointPath</em> et le <em>szTargetInstanceLogPath</em> ne sont pas tous les deux spécifiés ou non spécifiés. Autrement dit, ils doivent correspondre et être spécifiés ou non spécifiés.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidPath</p></td>
-<td><p>L’opération a échoué, car le chemin d’accès spécifié est introuvable.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreOfNonBackupDatabase</p></td>
-<td><p>Cette erreur est retournée si le fichier de base de données spécifié lors de la restauration n’est pas une base de données qui a été sauvegardée avec une sauvegarde externe.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errStartingRestoreLogTooHigh</p></td>
-<td><p>Cette erreur est retournée si l’un des fichiers journaux dans <em>szBackupLogPath</em>a une génération de journal ci-dessous, spécifiée par <em>genLow</em> ou <em>pLogInfo. ulGenLow</em>.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBadRestoreTargetInstance</p> | <p>Le <em>szTargetInstanceLogPath</em> spécifié n’appartient pas à une instance initialisée. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p> | 
+| <p>JET_errDatabaseCorrupted</p> | <p>Cela indique que la base de données a été endommagée ou un fichier non reconnu.</p> | 
+| <p>JET_errEndingRestoreLogTooLow</p> | <p>Cette erreur est retournée si l’une des fichiers journaux dans le <em>szBackupLogPath</em>a une génération de journal supérieure à celle spécifiée dans <em>genHigh</em> ou <em>pLogInfo. ulGenHigh</em>.</p> | 
+| <p>JET_errFileNotFound</p> | <p>L’opération a échoué, car elle n’a pas pu ouvrir le fichier demandé, car il est introuvable dans le chemin d’accès spécifié.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cela peut se produire pour <a href="gg294088(v=exchg.10).md">JetExternalRestore</a>, et ainsi de suite lorsque le <em>SzTargetCheckpointPath</em> et le <em>szTargetInstanceLogPath</em> ne sont pas tous les deux spécifiés ou non spécifiés. Autrement dit, ils doivent correspondre et être spécifiés ou non spécifiés.</p> | 
+| <p>JET_errInvalidPath</p> | <p>L’opération a échoué, car le chemin d’accès spécifié est introuvable.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p> | 
+| <p>JET_errRestoreOfNonBackupDatabase</p> | <p>Cette erreur est retournée si le fichier de base de données spécifié lors de la restauration n’est pas une base de données qui a été sauvegardée avec une sauvegarde externe.</p> | 
+| <p>JET_errRunningInOneInstanceMode</p> | <p>Le moteur de base de données ne peut pas exécuter une restauration externe ou une récupération matérielle en mode instance unique. cette erreur est renvoyée uniquement dans Windows XP et versions ultérieures.</p> | 
+| <p>JET_errStartingRestoreLogTooHigh</p> | <p>Cette erreur est retournée si l’un des fichiers journaux dans <em>szBackupLogPath</em>a une génération de journal ci-dessous, spécifiée par <em>genLow</em> ou <em>pLogInfo. ulGenLow</em>.</p> | 
+
 
 
 En cas de réussite, toutes les bases de données du *rgrstmap* sont entièrement récupérées et dans un état propre ou cohérent. À ce stade, la base de données peut être remontée sur une instance existante.
@@ -169,38 +126,9 @@ Consultez [JetExternalRestore](./jetexternalrestore-function.md).
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetExternalRestore2W</strong> (Unicode) et <strong>JetExternalRestore2A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetExternalRestore2W</strong> (Unicode) et <strong>JetExternalRestore2A</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

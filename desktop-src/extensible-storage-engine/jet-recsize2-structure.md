@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b99f5aa60f90a753a9c5d095e7a63417485b1fd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: c187d57149b7f0589d56439bfacbf7129ab4fe4a
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122469836"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987832"
 ---
 # <a name="jet_recsize2-structure"></a>Structure JET_RECSIZE2
 
@@ -112,7 +112,11 @@ Les données logiques de l’enregistrement sont (cbData + cbLongValueData) et l
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows système d’exploitation Vista.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite le système d’exploitation Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows système d’exploitation Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite le système d’exploitation Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

@@ -46,12 +46,12 @@ api_type:
 api_location:
 - Ole2disp.dll
 - Oleaut32.dll
-ms.openlocfilehash: fd600de816889e1c644a0e6074d9b8a97e0ec80c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a341f5d8a0ec554f008232f44156486df83d0fd8
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540999"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625110"
 ---
 # <a name="iextender-interface"></a>Interface IExtender
 
@@ -86,22 +86,22 @@ L’interface **IExtender** possède les propriétés suivantes.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Propriété</th>
-<th style="text-align: left;">Type d’accès</th>
-<th style="text-align: left;">Description</th>
+<th >Propriété</th>
+<th >Type d’accès</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Aligner<br/></td>
-<td style="text-align: left;">Lecture/écriture<br/></td>
-<td style="text-align: left;">Retourne ou définit une valeur qui détermine si un objet est affiché dans n’importe quelle taille sur un formulaire ou s’il est affiché en haut, en bas, à gauche ou à droite du formulaire et s’il est automatiquement dimensionné pour s’ajuster à la largeur du formulaire.<br/> 
+<td >Aligner<br/></td>
+<td >Lecture/écriture<br/></td>
+<td >Retourne ou définit une valeur qui détermine si un objet est affiché dans n’importe quelle taille sur un formulaire ou s’il est affiché en haut, en bas, à gauche ou à droite du formulaire et s’il est automatiquement dimensionné pour s’ajuster à la largeur du formulaire.<br/> 
 <table>
 <thead>
 <tr class="header">
@@ -136,59 +136,59 @@ L’interface **IExtender** possède les propriétés suivantes.
 <p> </p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Conteneur</p></td>
-<td style="text-align: left;"><p>Lecture seule</p></td>
-<td style="text-align: left;"><p>Retourne le conteneur d’un contrôle sur un formulaire.</p></td>
+<td ><p>Conteneur</p></td>
+<td ><p>Lecture seule</p></td>
+<td ><p>Retourne le conteneur d’un contrôle sur un formulaire.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>activé</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit une valeur qui détermine si un formulaire ou un contrôle peut répondre à des événements générés par l’utilisateur.</p></td>
+<td ><p>Activé</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit une valeur qui détermine si un formulaire ou un contrôle peut répondre à des événements générés par l’utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Hauteur</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit la hauteur d’un objet.</p></td>
+<td ><p>Hauteur</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit la hauteur d’un objet.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>HWND</p></td>
-<td style="text-align: left;"><p>Lecture seule</p></td>
-<td style="text-align: left;"><p>Retourne un handle pour un formulaire ou un contrôle.</p></td>
+<td ><p>HWND</p></td>
+<td ><p>Lecture seule</p></td>
+<td ><p>Retourne un handle pour un formulaire ou un contrôle.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Gauche</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit la distance entre le bord interne gauche d’un objet et le bord gauche de son conteneur.</p></td>
+<td ><p>Gauche</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit la distance entre le bord interne gauche d’un objet et le bord gauche de son conteneur.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Nom</p></td>
-<td style="text-align: left;"><p>Lecture seule</p></td>
-<td style="text-align: left;"><p>Retourne le nom utilisé dans le code pour identifier un objet de formulaire, de contrôle ou d’accès aux données.</p></td>
+<td ><p>Name</p></td>
+<td ><p>Lecture seule</p></td>
+<td ><p>Retourne le nom utilisé dans le code pour identifier un objet de formulaire, de contrôle ou d’accès aux données.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Parent</p></td>
-<td style="text-align: left;"><p>Lecture seule</p></td>
-<td style="text-align: left;"><p>Retourne le formulaire, l’objet ou la collection qui contient un contrôle ou un autre objet ou une autre collection.</p></td>
+<td ><p>Parent</p></td>
+<td ><p>Lecture seule</p></td>
+<td ><p>Retourne le formulaire, l’objet ou la collection qui contient un contrôle ou un autre objet ou une autre collection.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Tabulation</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit une valeur qui indique si un utilisateur peut utiliser la touche <strong>Tab</strong> pour attribuer le focus à un objet.</p></td>
+<td ><p>Tabulation</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit une valeur qui indique si un utilisateur peut utiliser la touche <strong>Tab</strong> pour attribuer le focus à un objet.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Haut</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit la distance entre le bord interne supérieur d’un objet et le bord supérieur de son conteneur.</p></td>
+<td ><p>Haut</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit la distance entre le bord interne supérieur d’un objet et le bord supérieur de son conteneur.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><p>Visible</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit une valeur qui indique si un objet est visible ou masqué.</p></td>
+<td ><p>Visible</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit une valeur qui indique si un objet est visible ou masqué.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><p>Largeur</p></td>
-<td style="text-align: left;"><p>Lecture/écriture</p></td>
-<td style="text-align: left;"><p>Retourne ou définit la largeur d’un objet.</p></td>
+<td ><p>Largeur</p></td>
+<td ><p>Lecture/écriture</p></td>
+<td ><p>Retourne ou définit la largeur d’un objet.</p></td>
 </tr>
 </tbody>
 </table>

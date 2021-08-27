@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c1813658ed1fb569795bdfa65ccada3ef8ee629c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4dae676cfbbb0f2509a7d86fbb6507b8e2110f1
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987242"
 ---
 # <a name="jetstopbackupinstance-function"></a>JetStopBackupInstance fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetstopbackupinstance-function"></a>JetStopBackupInstance fonction)
 
 La fonction **JetStopBackupInstance** empêche la continuation de l’activité liée à la sauvegarde de se poursuivre sur une instance en cours d’exécution spécifique, ce qui met fin à la sauvegarde en continu de manière prévisible.
 
-**Windows XP :**  **JetStopBackupInstance** est introduit dans Windows XP.
+**Windows xp :****JetStopBackupInstance** est introduit dans Windows xp.  
 
 ```cpp
     JET_ERR JET_API JetStopBackupInstance(
@@ -50,71 +50,35 @@ Identifie l’instance en cours d’exécution à utiliser pour l’appel d’AP
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>Le paramètre d’instance spécifié a une valeur non valide (pas une instance en cours d’exécution).</p>
-<p><strong>Windows XP :</strong>  Cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>Le paramètre d’instance spécifié a une valeur non valide (pas une instance en cours d’exécution).</p><p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p> | 
+
 
 
 Si cette fonction réussit, l’instance qui a été spécifiée échouera avec les nouvelles API de sauvegarde en continu.
 
 Si cette fonction échoue, aucune étape de préparation de l’arrêt de la sauvegarde sur l’instance ne sera effectuée et aucune modification de l’état de l’instance ne se produira.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 La sauvegarde est généralement déclenchée par un événement à l’extérieur du mécanisme de processus et à l’aide de cette API, l’application ESENT elle-même effectue d’autres appels vers les API de sauvegarde en continu. La majorité des API de sauvegarde en continu échouent avec JET_errBackupAbortByServer. Ainsi, toute progression de la sauvegarde en continu (telle que [JetReadFileInstance](./jetreadfileinstance-function.md)) renverra une erreur. Les opérations de sauvegarde qui font partie de l’arrêt de la sauvegarde (comme [JetEndExternalBackupInstance](./jetendexternalbackupinstance-function.md)) sont toujours autorisées.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

@@ -4,12 +4,12 @@ description: Une boîte de dialogue est une fenêtre secondaire qui permet aux u
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6cb076b7e6d23c9ca03a71d6c32b1096cde59ac0
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: dbcf7887a90c7407224bbfbb0c9b316ccb426f76
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986602"
+ms.locfileid: "122880013"
 ---
 # <a name="dialog-boxes-design-basics"></a>Boîtes de dialogue (notions de base sur la conception)
 
@@ -458,14 +458,7 @@ Pour plus d’informations et d’exemples, consultez [icônes](vis-icons.md).
 -   **Choisissez les boutons valider en fonction du modèle de conception :**
 
     
-| Étiquette | Valeur |
-|--------|-------|
-| <strong>Modèle</strong><br /> | <strong>Boutons de validation</strong><br /> | 
-| <strong>Boîtes de dialogue de questions (à l’aide des boutons)</strong><br /> | L’un des ensembles suivants de commandes concises : oui/non, oui/non/annuler, [do it]/Cancel, [do it]/[do it], [do it]/[do it]/Cancel.<br /> | 
-| <strong>Boîtes de dialogue de questions (à l’aide de liens)</strong><br /> | Annuler.<br /> | 
-| <strong>Boîtes de dialogue de choix</strong><br /> | <ul><li>Boîtes de dialogue modales : OK/Annuler ou [do it]/Cancel</li><li>Boîtes de dialogue non modales : bouton Fermer dans la boîte de dialogue et la barre de titre</li><li>Volet des tâches : bouton Fermer dans la barre de titre</li></ul> | 
-| <strong>Boîtes de dialogue de progression</strong><br /> | Utilisez annuler si retourne l’environnement à son état précédent (sans effet secondaire); Sinon, utilisez arrêter.<br /> | 
-| <strong>Boîtes de dialogue d’information</strong><br /> | C’est presque ça.<br /> | 
+| | | <strong>Modèle</strong><br /> | <strong>Boutons de validation</strong><br /> | | <strong>Boîtes de dialogue de questions (à l’aide des boutons)</strong><br /> | L’un des ensembles suivants de commandes concises : oui/non, oui/non/annuler, [do it]/Cancel, [do it]/[do it], [do it]/[do it]/Cancel.<br /> | | <strong>Boîtes de dialogue de questions (à l’aide de liens)</strong><br /> | Annuler.<br /> | | <strong>Boîtes de dialogue de choix</strong><br /> | <ul><li>Boîtes de dialogue modales : OK/Annuler ou [do it]/Cancel</li><li>Boîtes de dialogue non modales : bouton Fermer dans la boîte de dialogue et la barre de titre</li><li>Volet des tâches : bouton Fermer dans la barre de titre</li></ul> | | <strong>Boîtes de dialogue de progression</strong><br /> | Utilisez annuler si retourne l’environnement à son état précédent (sans effet secondaire); Sinon, utilisez arrêter.<br /> | | <strong>Boîtes de dialogue d’information</strong><br /> | Plus.<br /> | 
 
 
     

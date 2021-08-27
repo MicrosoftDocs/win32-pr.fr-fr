@@ -4,12 +4,12 @@ ms.assetid: 258a76f2-2dd6-49cb-bf8c-f437792bba27
 title: Fonctions Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c1f3165c757641d83cba4bfdfc350eceac81b4a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf59e31adc5d9b4e14f038450ece6e48fcdd0b57
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950215"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475575"
 ---
 # <a name="direct3d-functions"></a>Fonctions Direct3D
 
@@ -25,19 +25,9 @@ Cette section contient des informations de référence sur les fonctions que vou
 - [**DebugSetMute**](debugsetmute.md)
 - [**Direct3DCreate9**](/windows/win32/api/d3d9/nf-d3d9-direct3dcreate9)
 
-    <table>
-    <colgroup>
-    <col style="width: 100%" />
-    </colgroup>
-    <tbody>
-    <tr class="odd">
-    <td>Différences entre Direct3D 9 et Direct3D 9Ex :<br/> Cette fonction est disponible uniquement dans Direct3D 9Ex.<br/>
-    <ul>
-    <li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li>
-    </ul></td>
-    </tr>
-    </tbody>
-    </table>
+    
+| | | Différences entre Direct3D 9 et Direct3D 9Ex :<br /> Cette fonction est disponible uniquement dans Direct3D 9Ex.<br /><ul><li><a href="/windows/desktop/api/D3D9/nf-d3d9-direct3dcreate9ex"><strong>Direct3DCreate9Ex</strong></a></li></ul> | 
+
 
 - [**Direct3DShaderValidatorCreate9**](direct3dshadervalidatorcreate9.md)
 

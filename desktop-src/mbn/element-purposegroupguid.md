@@ -7,12 +7,12 @@ MSHAttr:
 title: PurposeGroupGuid
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d20d6c9d1687ea0e3fca344fd3b534ccc0b3ee57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a704d035371d6d7febc2f2d86e4d67736ab02ad2
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122985411"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>PurposeGroupGuid
 
@@ -33,11 +33,11 @@ Quatre valeurs GUID sont définies, comme indiqué dans le tableau suivant.
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<PurposeGroups>](element-purposegroups.md)  
-**<PurposeGroupGuid>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;PurposeGroups&gt;](element-purposegroups.md)  
+**&lt;PurposeGroupGuid&gt;**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <PurposeGroupGuid>
@@ -51,51 +51,29 @@ Quatre valeurs GUID sont définies, comme indiqué dans le tableau suivant.
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément parent</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="element-purposegroups.md">PurposeGroups</a></td>
-<td><p>Liste facultative de groupes de profils, où chaque groupe comprend des profils utilisés dans un but commun.</p>
-<p>Cet élément est une nouveauté pour v4 du schéma.</p>
-<p>Un profil peut être listé dans plusieurs groupes.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Élément parent | Description | 
+|----------------|-------------|
+| <a href="element-purposegroups.md">PurposeGroups</a> | <p>Liste facultative de groupes de profils, où chaque groupe comprend des profils utilisés dans un but commun.</p><p>Cet élément est une nouveauté pour v4 du schéma.</p><p>Un profil peut être listé dans plusieurs groupes.</p> | 
+
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Espace de noms</p></td>
-<td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+
 
  
 

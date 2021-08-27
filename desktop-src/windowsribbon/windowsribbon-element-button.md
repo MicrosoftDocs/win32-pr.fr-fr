@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ccd6084fef3c06c62e5dc780f526965a24966e9d36b5c249f57984921d9276c4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 066327000d490ac1615fe1e1447e1579939670d5
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118964298"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630682"
 ---
 # <a name="button-element"></a>Button, élément
 
 Représente un contrôle [bouton](windowsribbon-controls-button.md) .
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <Button
@@ -39,10 +39,10 @@ Représente un contrôle [bouton](windowsribbon-controls-button.md) .
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,14 +63,14 @@ Représente un contrôle [bouton](windowsribbon-controls-button.md) .
 <tr class="even">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Valide uniquement si <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> est l’élément parent.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui contient une liste d’entiers séparés par des virgules, comprise entre 0 et 31.<br/> L’espace blanc est valide et ignoré.<br/> Longueur maximale : 250 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -103,7 +103,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque élément [**SplitButton. ButtonItem**](windowsribbon-element-splitbutton-buttonitem.md) .
 

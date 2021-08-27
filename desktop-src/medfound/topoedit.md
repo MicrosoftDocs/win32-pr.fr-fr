@@ -4,19 +4,19 @@ ms.assetid: 464bd562-e49f-4099-b66e-48b7caf230bb
 title: TopoEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b2edeefc151ca16a8a528411e98df5a0999e36
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11aab79d94f9b0f7a99ff8d2200271c4ff80f8805322cda951d71e82323251fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112899"
 ---
 # <a name="topoedit"></a>TopoEdit
 
 TopoEdit est un outil visuel pour la génération et le test des topologies. Avec TopoEdit, vous pouvez effectuer les tâches suivantes :
 
 -   Créez une topologie en ajoutant différents nœuds de topologie, comme les nœuds source, de transformation et de sortie.
--   Connectez et résolvez la structure de la topologie.
+-   Connecter et résoudre la structure topologique.
 -   Testez la fonctionnalité de la topologie via la lecture.
 
 TopoEdit est disponible dans le SDK Windows, à partir de la SDK Windows pour Windows Server 2008.
@@ -46,7 +46,7 @@ TopoEdit est disponible dans le SDK Windows, à partir de la SDK Windows pour Wi
 
 | Condition requise | Valeur |
 |--------------------------|--------------------------------------|
-| Version minimale du kit de développement logiciel      | SDK Windows pour Windows Server 2008. |
+| Version minimale du kit de développement logiciel      | Windows kit de développement logiciel (SDK) pour Windows Server 2008. |
 | Système d’exploitation minimal | Windows Vista                        |
 
 

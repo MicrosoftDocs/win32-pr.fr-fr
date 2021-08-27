@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 73d71dfac37d6b61ef5a5715f1766ba0967af8c99b2114a54efc439212ca06c0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1b47cd9de933efdc5a73aba32a212432a9e37a12
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120016179"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984672"
 ---
 # <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
 
@@ -57,28 +57,12 @@ Taille maximale, en octets, de la mémoire tampon de sortie.
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBufferTooSmall</p></td>
-<td><p>L’opération a échoué, car la mémoire tampon de sortie fournie était trop petite pour contenir les données demandées. La fonction <strong>JetGetThreadStats</strong> renvoie cette erreur lorsque la mémoire tampon de sortie est trop petite pour contenir la version la plus petite de la structure <a href="gg269227(v=exchg.10).md">JET_THREADSTATS</a> prise en charge par le moteur de base de données.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBufferTooSmall</p> | <p>L’opération a échoué, car la mémoire tampon de sortie fournie était trop petite pour contenir les données demandées. La fonction <strong>JetGetThreadStats</strong> renvoie cette erreur lorsque la mémoire tampon de sortie est trop petite pour contenir la version la plus petite de la structure <a href="gg269227(v=exchg.10).md">JET_THREADSTATS</a> prise en charge par le moteur de base de données.</p> | 
+
 
 
 En cas de réussite, la mémoire tampon de sortie contient une structure [JET_THREADSTATS](./jet-threadstats-structure.md) qui contient les statistiques du moteur de base de données pour le thread actuel.
@@ -97,34 +81,15 @@ La structure [JET_THREADSTATS](./jet-threadstats-structure.md) sera probablement
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>requiert Windows Server 2008.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
+| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

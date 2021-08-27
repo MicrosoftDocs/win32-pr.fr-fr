@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 95e4d60ba80317624004fa7c9335005aa16a9300
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b4d84a21fc9115823eaff0716b90ee37f1ae6655
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122476465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988102"
 ---
 # <a name="jet_tablecreate2-structure"></a>Structure JET_TABLECREATE2
 
@@ -159,7 +159,12 @@ Le nombre d’objets créés est égal à la somme des colonnes, des tables et d
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_TABLECREATE2_W</strong> (Unicode) et <strong>JET_TABLECREATE2_A</strong> (ANSI).</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_TABLECREATE2_W</strong> (Unicode) et <strong>JET_TABLECREATE2_A</strong> (ANSI).</p> | 
 
 
 

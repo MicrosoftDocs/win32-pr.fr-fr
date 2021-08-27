@@ -22,12 +22,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c367e9c00caff78bb3e64263c1622de45fa6e640e78d88239e1ed25a6f68558
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ec8224106fad6031a18bf061020a259813db639e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119989859"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983922"
 ---
 # <a name="itssbtargettargetload-property"></a>ITsSbTarget :: TargetLoad, propriété
 
@@ -60,34 +60,14 @@ cette propriété est disponible sur Windows Server 2012 R2 avec [KB3091411](htt
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Client minimal pris en charge<br/></td>
-<td>Aucun pris en charge<br/></td>
-</tr>
-<tr class="even">
-<td>Serveur minimal pris en charge<br/></td>
-<td>Windows Server 2016<br/></td>
-</tr>
-<tr class="odd">
-<td>MIDL<br/></td>
-<td><dl> <dt>Sbtsv. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget est défini comme suit :
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|--------|-------|
+| Client minimal pris en charge<br /> | Aucun pris en charge<br /> | 
+| Serveur minimal pris en charge<br /> | Windows Server 2016<br /> | 
+| MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
+
 
 
 

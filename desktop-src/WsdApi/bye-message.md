@@ -4,12 +4,12 @@ ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: Message Bye
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8276c05314b31782442bfdf6de998dd41241391de9dc94947409041c8f4aa420
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: eb512694833de013ab116561a2e01d0f7b0f9463
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117738651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887188"
 ---
 # <a name="bye-message"></a>Message Bye
 
@@ -62,9 +62,9 @@ Un message Bye a les points de focalisation suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -76,9 +76,9 @@ Un message Bye a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>Adieu</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Bye
-</wsa:Action></code></pre></td>
+&lt;/wsa:Action&gt;</code></pre></td>
 <td>L’action SOAP Bye identifie le message en tant que message bye.</td>
 </tr>
 <tr class="even">
@@ -86,14 +86,14 @@ Un message Bye a les points de focalisation suivants.
 <td><pre class="syntax" data-space="preserve"><code><wsd:AppSequence InstanceId=&quot;2&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
     MessageNumber=&quot;21&quot;>
-</wsd:AppSequence></code></pre></td>
+&lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>Contient des informations de séquencement d’application, qui permettent de maintenir la séquence de messages même si elles sont reçues dans le désordre. Le AppSequence est validé comme décrit dans <a href="appsequence-validation-rules.md">règles de validation AppSequence</a>.</td>
 </tr>
 <tr class="odd">
 <td>Adresse</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Address>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Address&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:Address></code></pre></td>
+&lt;/wsa:Address&gt;</code></pre></td>
 <td>Contient l’adresse du point de terminaison en cours de mise hors connexion.</td>
 </tr>
 </tbody>

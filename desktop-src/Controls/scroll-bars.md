@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: vs|controls|~\controls\scrollbars\scrollbars.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38cf549a37fd5d4a271f6e12642a9bfd45b65d79
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cc4f3a737d64f81079e1a73cf97cb6275e94fec5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730605"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474725"
 ---
 # <a name="scroll-bar"></a>Scroll Bar
 
@@ -32,93 +32,22 @@ Cette section contient des informations sur les éléments de programmation util
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rubrique</th>
-<th>Contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> active ou désactive une ou deux flèches de barre de défilement. <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a> récupère des informations sur la barre de défilement spécifiée.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> récupère les paramètres d’une barre de défilement, y compris les positions de défilement minimale et maximale, la taille de la page et la position de la case de défilement (curseur de défilement).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> récupère la position actuelle de la case de défilement (Thumb) dans la barre de défilement spécifiée. La position actuelle est une valeur relative qui dépend de la plage de défilement actuelle. Par exemple, si la plage de défilement est comprise entre 0 et 100 et que la case de défilement se trouve au milieu de la barre, la position actuelle est 50.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> récupère les positions de la zone de défilement minimale et maximale actuelle (Thumb) pour la barre de défilement spécifiée.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> est fournie à des fins de compatibilité uniquement. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a> fait défiler un rectangle de bits horizontalement et verticalement. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> fait défiler le contenu de la zone cliente de la fenêtre spécifiée.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> fait défiler le contenu de la zone cliente de la fenêtre spécifiée. <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> définit les paramètres d’une barre de défilement, y compris les positions de défilement minimale et maximale, la taille de la page et la position de la case de défilement (curseur de défilement). La fonction redessine également la barre de défilement, si elle est demandée.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> définit la position de la case de défilement (Thumb) dans la barre de défilement spécifiée et, si nécessaire, redessine la barre de défilement pour refléter la nouvelle position de la case de défilement.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> définit les positions minimale et maximale des cases de défilement pour la barre de défilement spécifiée.
-<blockquote>
-[!Note]<br />
-La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> .
-</blockquote>
-<br/> <br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a></td>
-<td>La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> affiche ou masque la barre de défilement spécifiée. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Rubrique | Contenu | 
+|-------|----------|
+| <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-enablescrollbar"><strong>EnableScrollBar</strong></a> active ou désactive une ou deux flèches de barre de défilement. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollbarinfo"><strong>GetScrollBarInfo</strong></a> récupère des informations sur la barre de défilement spécifiée.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> récupère les paramètres d’une barre de défilement, y compris les positions de défilement minimale et maximale, la taille de la page et la position de la case de défilement (curseur de défilement).<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> récupère la position actuelle de la case de défilement (Thumb) dans la barre de défilement spécifiée. La position actuelle est une valeur relative qui dépend de la plage de défilement actuelle. Par exemple, si la plage de défilement est comprise entre 0 et 100 et que la case de défilement se trouve au milieu de la barre, la position actuelle est 50.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollpos"><strong>GetScrollPos</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> récupère les positions de la zone de défilement minimale et maximale actuelle (Thumb) pour la barre de défilement spécifiée.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollrange"><strong>GetScrollRange</strong></a> est fournie à des fins de compatibilité uniquement. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-getscrollinfo"><strong>GetScrollInfo</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrolldc"><strong>ScrollDC</strong></a> fait défiler un rectangle de bits horizontalement et verticalement. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> fait défiler le contenu de la zone cliente de la fenêtre spécifiée.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindow"><strong>ScrollWindow</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-scrollwindowex"><strong>ScrollWindowEx</strong></a> fait défiler le contenu de la zone cliente de la fenêtre spécifiée. <br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> définit les paramètres d’une barre de défilement, y compris les positions de défilement minimale et maximale, la taille de la page et la position de la case de défilement (curseur de défilement). La fonction redessine également la barre de défilement, si elle est demandée.<br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> définit la position de la case de défilement (Thumb) dans la barre de défilement spécifiée et, si nécessaire, redessine la barre de défilement pour refléter la nouvelle position de la case de défilement.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollpos"><strong>SetScrollPos</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> définit les positions minimale et maximale des cases de défilement pour la barre de défilement spécifiée.<blockquote>[!Note]<br />La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollrange"><strong>SetScrollRange</strong></a> est fournie à des fins de compatibilité descendante. Les nouvelles applications doivent utiliser la fonction <a href="/windows/desktop/api/Winuser/nf-winuser-setscrollinfo"><strong>SetScrollInfo</strong></a> .</blockquote><br /><br /> | 
+| <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> | La fonction <a href="/windows/desktop/api/Winuser/nf-winuser-showscrollbar"><strong>ShowScrollBar</strong></a> affiche ou masque la barre de défilement spécifiée. <br /> | 
+
 
 
 

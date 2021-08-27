@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Messages d’informations générales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0997fad497299c7598fc1130edace49c20d7bb76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 680bcf7c2b9cbea5e60d13a7dd2aa6be93d9fad0
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318941"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882724"
 ---
 # <a name="general-information-messages"></a>Messages d’informations générales
 
@@ -65,7 +65,7 @@ Les modules correspondant à un ou plusieurs des symboles importés dans le modu
 <span id="smi2smir__Could_not_connect_to_the_SMIR"></span><span id="smi2smir__could_not_connect_to_the_smir"></span><span id="SMI2SMIR__COULD_NOT_CONNECT_TO_THE_SMIR"></span>**Smi2smir : impossible de se connecter au stockage SMIR**
 </dt> <dd>
 
-Assurez-vous que Smir.dll existe, qu’il a été enregistré à l’aide de la commande regsvr32 et que le serveur Windows Management Instrumentation (WMI) est en cours d’exécution.
+assurez-vous que Smir.dll existe, qu’il a été enregistré à l’aide de la commande regsvr32 et que le serveur Windows Management Instrumentation (WMI) est en cours d’exécution.
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ Cela indique l’échec du commutateur **/n** ou **/ni** , car le fichier spéci
 
 </dd> <dt>
 
-<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**Smi2smir : <number> fichiers traités avec succès**
+<span id="smi2smir__Processed__number__files_successfully"></span><span id="smi2smir__processed__number__files_successfully"></span><span id="SMI2SMIR__PROCESSED__NUMBER__FILES_SUCCESSFULLY"></span>**Smi2smir : &lt; nombre de &gt; fichiers traités avec succès**
 </dt> <dd>
 
 Spécifie le nombre de fichiers qui ont été analysés avec succès lorsque le commutateur **/r** ou **/auto** a été utilisé.

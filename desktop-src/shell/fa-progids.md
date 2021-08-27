@@ -4,12 +4,12 @@ ms.assetid: f2b666d6-bf22-47b5-87e1-8de5ff51c152
 title: Identificateurs programmatiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cdc29a3981461a178bdf528768bb12b1840ac5dbed46f310c10718fa9429153
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: bf982f865fa8b856bc29c00a9b2371b88b34615b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117860806"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467286"
 ---
 # <a name="programmatic-identifiers"></a>Identificateurs programmatiques
 
@@ -31,57 +31,18 @@ Une sous-clé ProgID doit inclure les éléments suivants. Notez que certaines d
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Valeurs</strong></td>
-<td>Définissez l’entrée par défaut de la sous-clé ProgID sur un nom convivial pour ce ProgID, pouvant être affiché à l’utilisateur. l’utilisation de cette entrée pour contenir le nom convivial est déconseillée par l’entrée FriendlyTypeName sur les systèmes exécutant Windows 2000 ou une version ultérieure. Toutefois, vous devez définir cette valeur pour la compatibilité descendante.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>AllowSilentDefaultTakeOver</strong> (introduit dans Windows 8)</td>
-<td>définissez cette entrée facultative pour signaler que Windows doit ignorer ce ProgID lors de la détermination d’un gestionnaire par défaut pour un type de fichier public. Que cette valeur soit définie ou non, l’identificateur de programme (ProgID) continue à s’afficher dans le menu contextuel et la boîte de dialogue OpenWith. Il s’agit d’une valeur REG_NONE.</td>
-</tr>
-<tr class="odd">
-<td><strong>AppUserModelID</strong> (introduite dans Windows 7)</td>
-<td>Définissez cette entrée facultative sur l’ID de modèle utilisateur d’application explicite de l’application (AppUserModelID) si l’application utilise une valeur AppUserModelID explicite et utilise les listes de raccourcis <strong>récentes</strong> ou <strong>fréquentes</strong> générées par le système, ou fournit une liste de raccourcis personnalisée. Si une application utilise un AppUserModelID explicite et ne définit pas cette valeur, les éléments ne s’affichent pas dans les listes de raccourcis de cette application. Il s’agit d’une chaîne de REG_SZ. Pour plus d’informations, consultez <a href="appids.md">ID de modèle d’utilisateur d’application (AppUserModelIDs)</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>EditFlags</strong></td>
-<td>Définissez cette entrée facultative à l’aide d’indicateurs à partir de l’énumération <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> . L’entrée indicateurs contrôle certains aspects de la gestion de l’interpréteur de commandes des types de fichiers liés à ce ProgID. Vous pouvez également utiliser l’entrée indicateurs pour limiter la capacité de l’utilisateur à modifier certains aspects de ces types de fichiers à l’aide de la feuille de propriétés d’un fichier. Les valeurs <strong>FILETYPEATTRIBUTEFLAGS</strong> utilisées pour indicateurs sont des valeurs binaires conçues pour vous permettre de combiner plusieurs attributs en une seule valeur dans une opération or au niveau du bit. Il s’agit d’une valeur REG_DWORD ou REG_BINARY.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>FriendlyTypeName</strong></td>
-<td>Définissez cette entrée sur un nom convivial pour le ProgID, pouvant être affiché à l’utilisateur. Pour des fins de cohérence, cette chaîne doit contenir les mêmes données que l’entrée par défaut pour cette clé ProgID. Cette entrée peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais elle doit être formatée comme une chaîne indirecte (nom de fichier complet et valeur de ressource précédée du symbole @), par exemple <em>@% systemroot% \shell32.dll,-154</em>.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>InfoTip</strong></td>
-<td>Définissez cette entrée sur un bref message d’aide que l’interpréteur de commandes affiche pour ce ProgID. L’entrée info-bulle s’affiche dans une boîte de dialogue de pointage avec la souris. Cette valeur peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais comme FriendlyTypeName, elle doit être mise en forme en tant que chaîne indirecte.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>CurVer</strong></td>
-<td>Définissez l’entrée (par défaut) de cette sous-clé sur la version la plus récente de ce ProgID.<br/>
-<blockquote>
-[!Note]<br />
-À moins que vous n’ayez des versions d’application côte à côte, autrement dit, si plusieurs versions sont installées sur le même système, vous devez éviter d’utiliser <strong>Curver</strong>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DefaultIcon</strong>.</td>
-<td>Définissez l’entrée (par défaut) de cette sous-clé sur l’icône par défaut que vous souhaitez afficher pour les types de fichiers associés à ce ProgID. Cette valeur peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais elle doit être fournie sous la forme d’un nom de fichier complet avec sa valeur de ressource de surveillance, par exemple <em>% systemroot% \shell32.dll,-154</em>.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Élément | Description | 
+|---------|-------------|
+| <strong>Valeurs</strong> | Définissez l’entrée par défaut de la sous-clé ProgID sur un nom convivial pour ce ProgID, pouvant être affiché à l’utilisateur. l’utilisation de cette entrée pour contenir le nom convivial est déconseillée par l’entrée FriendlyTypeName sur les systèmes exécutant Windows 2000 ou une version ultérieure. Toutefois, vous devez définir cette valeur pour la compatibilité descendante.<br /> | 
+| <strong>AllowSilentDefaultTakeOver</strong> (introduit dans Windows 8) | définissez cette entrée facultative pour signaler que Windows doit ignorer ce ProgID lors de la détermination d’un gestionnaire par défaut pour un type de fichier public. Que cette valeur soit définie ou non, l’identificateur de programme (ProgID) continue à s’afficher dans le menu contextuel et la boîte de dialogue OpenWith. Il s’agit d’une valeur REG_NONE. | 
+| <strong>AppUserModelID</strong> (introduite dans Windows 7) | Définissez cette entrée facultative sur l’ID de modèle utilisateur d’application explicite de l’application (AppUserModelID) si l’application utilise une valeur AppUserModelID explicite et utilise les listes de raccourcis <strong>récentes</strong> ou <strong>fréquentes</strong> générées par le système, ou fournit une liste de raccourcis personnalisée. Si une application utilise un AppUserModelID explicite et ne définit pas cette valeur, les éléments ne s’affichent pas dans les listes de raccourcis de cette application. Il s’agit d’une chaîne de REG_SZ. Pour plus d’informations, consultez <a href="appids.md">ID de modèle d’utilisateur d’application (AppUserModelIDs)</a>.<br /> | 
+| <strong>EditFlags</strong> | Définissez cette entrée facultative à l’aide d’indicateurs à partir de l’énumération <a href="/windows/desktop/api/Shlwapi/ne-shlwapi-filetypeattributeflags"><strong>FILETYPEATTRIBUTEFLAGS</strong></a> . L’entrée indicateurs contrôle certains aspects de la gestion de l’interpréteur de commandes des types de fichiers liés à ce ProgID. Vous pouvez également utiliser l’entrée indicateurs pour limiter la capacité de l’utilisateur à modifier certains aspects de ces types de fichiers à l’aide de la feuille de propriétés d’un fichier. Les valeurs <strong>FILETYPEATTRIBUTEFLAGS</strong> utilisées pour indicateurs sont des valeurs binaires conçues pour vous permettre de combiner plusieurs attributs en une seule valeur dans une opération or au niveau du bit. Il s’agit d’une valeur REG_DWORD ou REG_BINARY.<br /> | 
+| <strong>FriendlyTypeName</strong> | Définissez cette entrée sur un nom convivial pour le ProgID, pouvant être affiché à l’utilisateur. Pour des fins de cohérence, cette chaîne doit contenir les mêmes données que l’entrée par défaut pour cette clé ProgID. Cette entrée peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais elle doit être formatée comme une chaîne indirecte (nom de fichier complet et valeur de ressource précédée du symbole @), par exemple <em>@% systemroot% \shell32.dll,-154</em>.<br /> | 
+| <strong>InfoTip</strong> | Définissez cette entrée sur un bref message d’aide que l’interpréteur de commandes affiche pour ce ProgID. L’entrée info-bulle s’affiche dans une boîte de dialogue de pointage avec la souris. Cette valeur peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais comme FriendlyTypeName, elle doit être mise en forme en tant que chaîne indirecte.<br /> | 
+| <strong>CurVer</strong> | Définissez l’entrée (par défaut) de cette sous-clé sur la version la plus récente de ce ProgID.<br /><blockquote>[!Note]<br />À moins que vous n’ayez des versions d’application côte à côte, autrement dit, si plusieurs versions sont installées sur le même système, vous devez éviter d’utiliser <strong>Curver</strong>.</blockquote><br /> | 
+| <strong>DefaultIcon</strong>. | Définissez l’entrée (par défaut) de cette sous-clé sur l’icône par défaut que vous souhaitez afficher pour les types de fichiers associés à ce ProgID. Cette valeur peut être une REG_SZ ou REG_EXPAND_SZ chaîne, mais elle doit être fournie sous la forme d’un nom de fichier complet avec sa valeur de ressource de surveillance, par exemple <em>% systemroot% \shell32.dll,-154</em>.<br /> | 
+
 
 
 
