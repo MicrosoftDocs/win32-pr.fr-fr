@@ -4,12 +4,12 @@ ms.assetid: 8b3cb0e3-ccc0-4030-8f57-aa124c3b5588
 title: Table RemoveFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723e42582821d79842686678c5b310e95cd1e944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12cf63e9b7616eb033a696da2ad29cb4310e6dc0dc56279ef465c3c549cb5437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082599"
 ---
 # <a name="removefile-table"></a>Table RemoveFile
 
@@ -22,7 +22,7 @@ La table RemoveFile contient les colonnes suivantes.
 | Colonne      | Type                                     | Clé | Nullable |
 |-------------|------------------------------------------|-----|----------|
 | FileKey     | [Identificateur](identifier.md)             | O   | N        |
-| -\_ | [Identificateur](identifier.md)             | N   | N        |
+| Composant\_ | [Identificateur](identifier.md)             | N   | N        |
 | FileName    | [WildCardFilename](wildcardfilename.md) | N   | O        |
 | DirProperty | [Identificateur](identifier.md)             | N   | N        |
 | InstallMode | [Integer](integer.md)                   | N   | N        |
@@ -66,7 +66,7 @@ Nom d’une propriété dont la valeur est supposée correspondre au chemin d’
 <span id="InstallMode"></span><span id="installmode"></span><span id="INSTALLMODE"></span>InstallMode
 </dt> <dd>
 
-Doit avoir l’une des valeurs suivantes.
+Il doit s’agir de l’une des valeurs suivantes.
 
 
 
@@ -82,7 +82,7 @@ Doit avoir l’une des valeurs suivantes.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les références de fichier de cette table sont traitées par l' [action RemoveFiles](removefiles-action.md).
 

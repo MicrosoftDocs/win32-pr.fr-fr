@@ -3,7 +3,7 @@ title: Message TVM_SETAUTOSCROLLINFO (commctrl. h)
 description: Définit les informations utilisées pour déterminer les caractéristiques de défilement automatique. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetAutoScrollInfo TreeView.
 ms.assetid: de55933f-1caa-4193-84de-0486c41e8f1f
 keywords:
-- TVM_SETAUTOSCROLLINFO les contrôles de message Windows
+- TVM_SETAUTOSCROLLINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faa1f7920d2ec8c443b2ec5f1ff9189c22c5f21e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8840045900fdbd63930219d199889cde018406779426cd767b49ab41a399efc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060159"
 ---
 # <a name="tvm_setautoscrollinfo-message"></a>TVM \_ SETAUTOSCROLLINFO message
 
@@ -47,7 +47,7 @@ Spécifie l’intervalle de redessination. Redessinez à chaque intervalle de el
 
 Retourne la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations de défilement automatique sont utilisées pour faire défiler un élément non visible dans l’affichage. Le contrôle doit avoir le style étendu [**TV \_ ex \_ AUTOHSCROLL**](tree-view-control-window-extended-styles.md) . Pour plus d’informations sur les styles étendus, consultez Tree-View les styles étendus de contrôle.
 
@@ -57,8 +57,8 @@ Les informations de défilement automatique sont utilisées pour faire défiler 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

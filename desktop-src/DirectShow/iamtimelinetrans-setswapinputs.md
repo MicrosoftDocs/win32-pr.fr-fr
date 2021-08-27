@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4b2deecb393d6532015cf1490aacd1bd50501920
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3da350c6fe34f671d7af53ca67c404b4e327690918434b5e2fb1426e4a0953ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120052079"
 ---
 # <a name="iamtimelinetranssetswapinputs-method"></a>IAMTimelineTrans :: SetSwapInputs, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -58,7 +58,7 @@ Spécifie si les entrées sont échangées. Si la **valeur est false**, la trans
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne modifie pas la direction de l’effet visuel. Par exemple, une réinitialisation de gauche à droite sera toujours de gauche à droite. Pour modifier la direction, définissez la propriété **Progress** à l’aide de l’interface [**IPropertySetter**](ipropertysetter.md) .
 
@@ -68,7 +68,7 @@ Cette méthode ne modifie pas la direction de l’effet visuel. Par exemple, une
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

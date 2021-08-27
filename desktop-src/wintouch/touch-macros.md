@@ -1,21 +1,21 @@
 ---
-title: Macros (entrée tactile Windows)
-description: Les macros suivantes sont utilisées pour l’entrée tactile Windows.
+title: macros (Windows entrée tactile)
+description: les macros suivantes sont utilisées pour Windows entrée tactile.
 ms.assetid: 3f10887f-5679-43b6-8bd0-f30e3bf715a1
 keywords:
-- Tactile Windows, macros
+- Windows Toucher, macros
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00d7352f7f04a86556fb2769ce41d7fba2793cb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d201b432698b4c9aafe04fa69251d4b3fb2c35048be067dd1905fd600c300d6a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089869"
 ---
-# <a name="macros-windows-touch-input"></a>Macros (entrée tactile Windows)
+# <a name="macros-windows-touch-input"></a>macros (Windows entrée tactile)
 
-Les macros suivantes sont utilisées pour l’entrée tactile Windows.
+les macros suivantes sont utilisées pour Windows entrée tactile.
 
 
 
@@ -31,10 +31,10 @@ Les macros suivantes sont utilisées pour l’entrée tactile Windows.
 
 <dl> <dt>
 
-[Entrée tactile Windows](multi-touch-input.md)
+[Windows Entrée tactile](multi-touch-input.md)
 </dt> <dt>
 
-[Guide de programmation des entrées tactiles Windows](guide-multi-touch-input.md)
+[Windows Guide de programmation de l’entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
  

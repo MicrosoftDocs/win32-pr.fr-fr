@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4668b68d0b3f83e096284db35df799a63eb677b8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 547ebc8617d625df3dd0e8dba167bb60682185dfb13897c49524d1894789c933
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080259"
 ---
 # <a name="weeklytriggerweeksinterval-property"></a>WeeklyTrigger. WeeksInterval, propriété
 
@@ -40,7 +40,7 @@ WeeklyTrigger.WeeksInterval As short
 
 Intervalle entre les semaines de la planification.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un intervalle de 1 produit une planification hebdomadaire. Un intervalle de 2 produit une planification chaque semaine.
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de vos propres données XML pour une tâc
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2637cb5db663ea36b15eb382a16b02b166e98f88
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: c66a136acf65022ccc3ba8b05d070e4855a64f7abdf9b0519f7c1628d292aa0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120047599"
 ---
 # <a name="add-timeout"></a>add timeout
 
@@ -41,7 +41,7 @@ Spécifie le type de délai d’attente pour la définition de.
 
 </dd> <dt>
 
-<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[valeur = \] * * * u-Short*
+<span id="_value__u-short"></span><span id="_VALUE__U-SHORT"></span>**\[ valeur = \]**_u-Short_
 </dt> <dd>
 
 Spécifie la valeur du délai d’attente (en secondes). Si la valeur est hexadécimale, ajoutez le préfixe 0x.
@@ -54,9 +54,9 @@ Spécifie la valeur du délai d’attente (en secondes). Si la valeur est hexad�
 
 **add timeout timeouttype=headerwaittimeout value=0x40**
 
- 
+ 
 
- 
+ 
 
 
 

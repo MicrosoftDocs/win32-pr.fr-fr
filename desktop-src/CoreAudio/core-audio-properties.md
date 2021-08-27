@@ -4,12 +4,12 @@ ms.assetid: db7d68c3-5642-4238-a212-88d3479ce73d
 title: Propriétés audio principales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41528e66977f1f3b9282cf78ba76e4bae32c5bd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ad2d6513798a03cbcd9092e24b37900b5eb686d5fd0c434480a933af50c02fd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120058999"
 ---
 # <a name="core-audio-properties"></a>Propriétés audio principales
 
@@ -19,7 +19,7 @@ Cette référence de programmation pour le kit de développement logiciel (SDK) 
 
 Le kit de développement logiciel (SDK) audio principal comprend plusieurs propriétés des [appareils de point de terminaison audio](audio-endpoint-devices.md). Pour plus d’informations, consultez [Propriétés du point de terminaison audio](audio-endpoint-properties.md).
 
-Les propriétés suivantes sont définies dans MMDeviceAPI. h dans Windows Vista et versions ultérieures.
+les propriétés suivantes sont définies dans Mmdeviceapi. h dans Windows Vista et versions ultérieures.
 
 
 
@@ -45,7 +45,7 @@ Les propriétés suivantes sont définies dans MMDeviceAPI. h dans Windows Vista
 
 Le kit de développement logiciel (SDK) audio de base comprend plusieurs propriétés d' [appareils de point de terminaison audio](audio-endpoint-devices.md). Pour plus d’informations, consultez Propriétés de l' [appareil](device-properties.md).
 
-Les propriétés suivantes sont définies dans Functiondiscoverykeys \_ devpkey. h dans Windows Vista et versions ultérieures.
+les propriétés suivantes sont définies dans Functiondiscoverykeys \_ devpkey. h dans Windows Vista et versions ultérieures.
 
 
 
@@ -54,7 +54,7 @@ Les propriétés suivantes sont définies dans Functiondiscoverykeys \_ devpkey.
 | [**\_Deviceinterface \_ FriendlyName FriendlyName**](pkey-deviceinterface-friendlyname.md) | Nom convivial de la carte audio à laquelle l’appareil de point de terminaison est attaché (par exemple, « carte audio XYZ »).                                                                               |
 | [**Périphérique de l' \_ appareil \_**](pkey-device-devicedesc.md)                       | Description de l’appareil du point de terminaison (par exemple, « Speakers »).                                                                                                                          |
 | [**Périphérique de l' \_ appareil \_**](pkey-device-friendlyname.md)                   | Nom convivial de l’appareil de point de terminaison (par exemple, « Speakers (carte audio XYZ) »).                                                                                                           |
-| **\_ContainerId d’appareil \_**                                                    | Stocke l’identificateur de conteneur du périphérique PnP qui implémente le point de terminaison audio. Pour plus d’informations sur cette propriété, consultez « Référence des propriétés de l’appareil » dans la documentation de Windows WDK. |
+| **\_ContainerId d’appareil \_**                                                    | Stocke l’identificateur de conteneur du périphérique PnP qui implémente le point de terminaison audio. pour plus d’informations sur cette propriété, consultez « référence des propriétés de l’appareil » dans la documentation WDK de Windows. |
 
 
 

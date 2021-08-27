@@ -4,12 +4,12 @@ description: Avec l’avènement du modèle d’objet de composant distribué, i
 ms.assetid: 2ee4d950-dfd5-4965-bd77-a600e878be59
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3502604d62e6a5129ca3e3538761722909c0198f
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 52df6deb3f83f253fc46436ba992dc3fc10f74d84e43c6027fd4426b3171a838
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103841838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070999"
 ---
 # <a name="designing-remotable-interfaces"></a>Conception d’interfaces accessibles à distance
 
@@ -21,9 +21,9 @@ Même si votre interface ne sera jamais utilisée hors processus, elle peut êtr
 
 Enfin, en tant que concepteur d’interface, vous devez prendre en compte la façon dont les applications clientes utiliseront votre interface. Deux choses, ensemble, déterminent si une interface est efficace au-delà des limites de processus et de machine : la fréquence des appels de méthode à travers la limite de l’interface et la quantité de données à transférer dans un appel de méthode donné. Bien que COM rende les appels inter-processus et inter-réseaux transparents pour les programmes, il ne peut pas effectuer d’appels à fréquence élevée et à bande passante élevée efficacement dans les espaces d’adressage. Dans certains cas, il est plus approprié de concevoir des interfaces qui sont généralement implémentées uniquement comme serveurs in-process, tandis que les autres interfaces sont plus appropriées pour une utilisation à distance.
 
- 
+ 
 
- 
+ 
 
 
 

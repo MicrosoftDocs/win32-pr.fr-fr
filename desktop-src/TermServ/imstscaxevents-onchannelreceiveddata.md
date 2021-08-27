@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d1cae4f35435138e219c628dd504c595939adfe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72f411eae7e03f134f4adfd6fdc6108634e4e58c06bb8645e9f97f27e8489a3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125189"
 ---
 # <a name="imstscaxeventsonchannelreceiveddata-method"></a>IMsTscAxEvents :: OnChannelReceivedData, méthode
 
@@ -62,7 +62,7 @@ Données reçues sur le canal virtuel scriptable.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur cet événement, consultez [implémentation de canaux virtuels scriptables à l’aide de connexion Bureau à distance par le Web](implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md) .
 

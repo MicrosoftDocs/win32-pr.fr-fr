@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c0f4fa218c4def993025ff18bffd0cc54def9818
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f48d13e593898b7b4f91fc9246745b183b928ffaa0a799100990a327a3f670ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090339"
 ---
 # <a name="ishelldispatch2servicestart-method"></a>Méthode IShellDispatch2. ServiceStart
 
@@ -69,7 +69,7 @@ Affectez la valeur **true** pour que le service démarre automatiquement par le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 ### <a name="jscript"></a>JScript
 
@@ -83,7 +83,7 @@ Type : **variante \***
 
 Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ServiceStart**](./shell-servicestart.md) .
 
@@ -93,9 +93,9 @@ Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
 ## <a name="examples"></a>Exemples
 
-Les exemples suivants illustrent l’utilisation de **ServiceStart** pour démarrer le service Messenger. L’utilisation est indiquée pour JScript et VBScript.
+Les exemples suivants illustrent l’utilisation de **ServiceStart** pour démarrer le service Messenger. l’utilisation est indiquée pour JScript et VBScript.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -138,8 +138,8 @@ VBScript
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

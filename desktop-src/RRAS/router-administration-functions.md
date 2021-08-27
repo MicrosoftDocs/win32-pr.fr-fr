@@ -1,19 +1,19 @@
 ---
 title: Fonctions d’administration de routeur
-description: Utilisez les fonctions suivantes lorsque vous développez des logiciels pour administrer des routeurs dans Windows 2000 et versions ultérieures.
+description: utilisez les fonctions suivantes lorsque vous développez des logiciels afin d’administrer les routeurs dans Windows 2000 et versions ultérieures.
 ms.assetid: a61734a7-b171-4e38-8dec-46be9a9c08ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c07b1b875b3faebf830327291008b437f3d8564f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 31e498dbf55f1723e950003a848c9d8362aa5efc45b2fd709797cb60103c38e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081229"
 ---
 # <a name="router-administration-functions"></a>Fonctions d’administration de routeur
 
-Utilisez les fonctions suivantes lorsque vous développez des logiciels pour administrer des routeurs dans Windows 2000 et versions ultérieures.
+utilisez les fonctions suivantes lorsque vous développez des logiciels afin d’administrer les routeurs dans Windows 2000 et versions ultérieures.
 
 -   [**MprAdminBufferFree**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree)
 -   [**MprAdminDeregisterConnectionNotification**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminderegisterconnectionnotification)
@@ -59,6 +59,6 @@ Utilisez les fonctions suivantes lorsque vous développez des logiciels pour adm
 -   [**MprAdminTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportgetinfo)
 -   [**MprAdminTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmintransportsetinfo)
 
- 
+ 
 
- 
+ 

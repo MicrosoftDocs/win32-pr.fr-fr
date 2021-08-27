@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b04523d0ae22eac7bef68f37a6d22ac94b21e303
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c45fc01709c50fd309c285cb486474cab2f1d8ac0b20c56bb7e21578cb8138f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090619"
 ---
 # <a name="transferring-shell-objects-with-drag-and-drop-and-the-clipboard"></a>Transfert d’objets Shell avec glisser-déplacer et le presse-papiers
 
-De nombreuses applications permettent aux utilisateurs de transférer des données vers une autre application en les faisant glisser et en les déposant avec la souris, ou à l’aide du presse-papiers. Parmi les nombreux types de données qu’il est possible de transférer, citons les objets Shell tels que les fichiers ou les dossiers. Le transfert de données Shell peut avoir lieu entre deux applications, mais les utilisateurs peuvent également transférer des données de l’interpréteur de commandes vers ou à partir du bureau ou de l’Explorateur Windows.
+De nombreuses applications permettent aux utilisateurs de transférer des données vers une autre application en les faisant glisser et en les déposant avec la souris, ou à l’aide du presse-papiers. Parmi les nombreux types de données qu’il est possible de transférer, citons les objets Shell tels que les fichiers ou les dossiers. le transfert de données shell peut avoir lieu entre deux applications, mais les utilisateurs peuvent également transférer des données de l’interpréteur de commandes vers ou à partir du bureau ou de l’explorateur de Windows.
 
 Bien que les fichiers soient l’objet Shell le plus couramment transféré, le transfert de données Shell peut impliquer l’un des nombreux objets trouvés dans l' [espace de noms Shell](namespace-intro.md). Par exemple, votre application peut être amenée à transférer un fichier vers un dossier virtuel, tel que la corbeille, ou à accepter un objet à partir d’une extension d’espace de noms non-Microsoft. Si vous implémentez une extension d’espace de noms, elle doit pouvoir se comporter correctement comme source de déplacement et cible.
 
@@ -30,15 +30,15 @@ Ce document explique comment les applications peuvent implémenter les transfert
 
 ## <a name="how-drag-and-drop-works-with-shell-objects"></a>Fonctionnement du glisser-déplacer avec les objets Shell
 
-Les applications doivent souvent fournir aux utilisateurs un moyen de transférer des données de l’interpréteur de commandes. Voici quelques exemples :
+Les applications doivent souvent fournir aux utilisateurs un moyen de transférer des données de l’interpréteur de commandes. Quelques exemples :
 
--   En faisant glisser un fichier à partir de l’Explorateur Windows ou du bureau, puis en le déposant sur une application.
--   Copie d’un fichier dans le presse-papiers dans l’Explorateur Windows et collage dans une application.
+-   en faisant glisser un fichier à partir de l’explorateur de Windows ou du bureau, puis en le déposant sur une application.
+-   copie d’un fichier dans le presse-papiers dans Windows Explorer et collage dans une application.
 -   Glissement d’un fichier d’une application vers la corbeille.
 
 Pour obtenir une présentation détaillée de la façon de gérer ces scénarios et d’autres, consultez Gestion des scénarios de Transfert de données de l' [interpréteur](datascenarios.md)de commandes. Ce document se concentre sur les principes généraux sous-jacents au transfert de données Shell.
 
-Windows fournit deux méthodes standard pour les applications de transfert des données de l’interpréteur de commandes :
+Windows offre deux méthodes standard pour le transfert des données de l’interpréteur de commandes :
 
 -   Un utilisateur coupe ou copie des données de l’interpréteur de commandes, par exemple un ou plusieurs fichiers, dans le presse-papiers. L’autre application récupère les données du presse-papiers.
 -   Un utilisateur fait glisser une icône qui représente les données de l’application source et dépose l’icône sur une fenêtre appartenant à la cible.

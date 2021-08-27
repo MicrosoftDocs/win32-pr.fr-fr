@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cf968c7ae172bf4ce354c84b2071d62304327ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0ed8efc8585da717349705bc13db920a707e16a66def2b026a3237b778f78575
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082059"
 ---
 # <a name="glcleardepth-function"></a>glClearDepth fonction)
 
@@ -57,13 +57,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glClearDepth** spécifie la valeur de profondeur utilisée par [**glClear**](glclear.md) pour effacer la mémoire tampon de profondeur. Les valeurs spécifiées par **glClearDepth** sont ancrées à la plage \[ 0, 1 \] .
 

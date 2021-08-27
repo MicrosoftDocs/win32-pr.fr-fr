@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: faa755c2ec7a2b9eeb2f123d7fd3e169b2df1be1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62d769e9756f0d15e7377a79f9aa94802a469746807e3a32b5ba329f76484b82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120011699"
 ---
 # <a name="popupmenuitem-structure"></a>POPUPMENUITEM, structure
 
@@ -126,7 +126,7 @@ Chaîne Unicode terminée par le caractère null qui contient le texte de cet é
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il existe une structure **POPUPMENUITEM** pour chaque élément de menu qui ouvre un menu ou un sous-menu. Identifiez ce type d’élément de menu en définissant le paramètre membre de **type** sur la **\_ fenêtre contextuelle MF** et en définissant le bit **MFR \_ Popup** dans le membre **resInfo** sur 0x0001. Dans ce cas, les données finales écrites dans la ressource de [**\_ menu RT**](/windows/desktop/menurc/resource-types) du menu ou du sous-menu sont la structure [**MENUHELPID**](menuhelpid.md) . **MENUHELPID** contient une expression numérique qui identifie le menu lors du traitement de [**\_ l’aide WM**](../shell/wm-help.md) .
 

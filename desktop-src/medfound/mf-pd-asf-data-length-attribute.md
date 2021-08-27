@@ -4,12 +4,12 @@ ms.assetid: 93a0bf27-23db-4e8a-b471-a42122e8f9aa
 title: Attribut MF_PD_ASF_DATA_LENGTH (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8e62bccc594a12010cc477c241deac565d7ea62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef7e0af92a5cbc5647750f65005a195b7beefbc955e8906d8e8ca976783572d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060449"
 ---
 # <a name="mf_pd_asf_data_length-attribute"></a>\_Attribut de \_ \_ longueur de données ASF \_ pour MF PD
 
@@ -19,7 +19,7 @@ Spécifie la taille, en octets, de la section de données d’un fichier ASF (Ad
 
 **UINT64**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -31,8 +31,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

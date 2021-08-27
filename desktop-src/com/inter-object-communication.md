@@ -4,12 +4,12 @@ description: COM est conçu pour permettre aux clients de communiquer de manièr
 ms.assetid: dd4adafb-a7e4-44ba-ae4a-80585875ecb6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9356ba2bcb9dd3a6a56ac16c354f3abcb752d717
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d49d3d584ba6aa25a721276559a65ca2f9f9deded76616b93ff9953affce3553
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070829"
 ---
 # <a name="inter-object-communication"></a>Communication Inter-Object
 
@@ -57,6 +57,6 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Marshaling d’interface](interface-marshaling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

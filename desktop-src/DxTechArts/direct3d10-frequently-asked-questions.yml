@@ -5,12 +5,12 @@ metadata:
   ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: e4d83f20d5dac1c067144e715dee7331cabe2ce7
-  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.openlocfilehash: 28a2fd6bb4065c420048837dffd238999502c0a9fa88b75d80ca86a7c3e4c758
+  ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 06/09/2021
-  ms.locfileid: "111852701"
+  ms.lasthandoff: 08/11/2021
+  ms.locfileid: "120051129"
 title: 'Direct3D 10 : Forum Aux Questions'
 summary: >
   Cet article contient certaines des questions fréquemment posées concernant Direct3D 10, du point de vue d’un développeur qui Portage une application existante de Direct3D 9 (D3D9) vers Direct3D 10 (D3D10).

@@ -4,12 +4,12 @@ ms.assetid: 08357ff5-4606-4bfc-8dd6-907aca4b5f07
 title: Notions de base sur les DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94d0b2af8bc16fa0890c0103a063e750364cece0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2a61299c4c0d3e83235a741c262efae685aa74ffa525aa08f9cf9a2e58b957e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102939"
 ---
 # <a name="dvd-basics"></a>Notions de base sur les DVD
 
@@ -31,7 +31,7 @@ Notez que les légendes dans un flux de sous-image ne sont pas les mêmes que le
 
 **Titres et chapitres**
 
-Le contenu vidéo d’un DVD est divisé en *titres* et *menus*. Les titres sont divisés en unités que la spécification de DVD appelle *des parties de titres* (PTTs). Plus souvent, il s’agit de *scènes* ou de *chapitres*. (La documentation DirectShow utilise le terme « chapitre ».) La visionneuse peut accéder à des titres ou chapitres spécifiques dans des titres.
+Le contenu vidéo d’un DVD est divisé en *titres* et *menus*. Les titres sont divisés en unités que la spécification de DVD appelle *des parties de titres* (PTTs). Plus souvent, il s’agit de *scènes* ou de *chapitres*. (la documentation DirectShow utilise le terme « chapitre ».) La visionneuse peut accéder à des titres ou chapitres spécifiques dans des titres.
 
 L’auteur d’un DVD décide comment diviser le contenu en titres et chapitres. Lorsqu’un DVD contient un film de longueur de fonctionnalité, le film entier est souvent placé dans un titre, divisé en chapitres pour les scènes individuelles. Les fonctionnalités supplémentaires sur le DVD, telles que les codes de fin ou les scènes supprimées, sont placées dans des titres distincts. Toutefois, ces divisions sont arbitraires et de nombreux DVD sont organisés différemment.
 

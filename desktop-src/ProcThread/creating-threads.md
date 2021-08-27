@@ -4,12 +4,12 @@ ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Création de threads
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: befd6c00cadb6758d076ad6c4d0fe940cf855f89
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5dee74cb81c886fe05d07a0970f7d8946d123d92810e6f22dd094e1d8d00466a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120081429"
 ---
 # <a name="creating-threads"></a>Création de threads
 

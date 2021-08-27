@@ -3,19 +3,19 @@ title: Lecteur, objet
 description: Lecteur, objet
 ms.assetid: b5edbf8b-820f-4e09-a482-8efc2283360e
 keywords:
-- Windows Media Format SDK, objets Reader
+- Windows Media Format SDK, Reader, objets
 - ASF (Advanced Systems Format), objets Reader
 - ASF (format des systèmes avancés), objets lecteur
 - objets, lecteurs, objets
 - objets Reader, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7958689fa7744286c92c294219fb2c963e55c860
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: bc1c01b824bbe278991f1512e963a6dde1727c00e73b3c17f5ab4c5556534b98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104381736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089708"
 ---
 # <a name="reader-object"></a>Lecteur, objet
 
@@ -56,7 +56,7 @@ Les interfaces suivantes sont prises en charge par l’objet lecteur.
 
 
 
- 
+ 
 
 Les interfaces de rappel suivantes peuvent être implémentées dans l’application pour suivre la progression d’un objet lecteur.
 
@@ -72,7 +72,7 @@ Les interfaces de rappel suivantes peuvent être implémentées dans l’applica
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -87,9 +87,9 @@ Les interfaces de rappel suivantes peuvent être implémentées dans l’applica
 [**Lecteur synchrone, objet**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

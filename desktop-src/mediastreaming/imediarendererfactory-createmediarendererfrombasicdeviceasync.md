@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7e4ee614cca9a03ca203ecde9203e019fab38ab4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2b9ee80a4f681bb57d62f84d35cf3a254e38982a10f642a35e35187f6af9e48e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092289"
 ---
 # <a name="imediarendererfactorycreatemediarendererfrombasicdeviceasync-method"></a>IMediaRendererFactory :: CreateMediaRendererFromBasicDeviceAsync, méthode
 
@@ -58,7 +58,7 @@ Reçoit une référence à un objet [**CreateMediaRendererOperation**](createmed
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

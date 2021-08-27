@@ -3,7 +3,7 @@ title: Message EM_SETRECT (winuser. h)
 description: 'EM_SETRECT message : définit le rectangle de mise en forme d’un contrôle d’édition multiligne.'
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:
-- EM_SETRECT les contrôles de message Windows
+- EM_SETRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 042428a236b8e9a23f03cdcceaf5d76eb977efd8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ea68ba0fd599b39f0344a423e86a87d097dc2df389fd8370e30a573a05d3013
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120048199"
 ---
 # <a name="em_setrect-message"></a>\_Message SETRECT em
 
@@ -47,11 +47,11 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 L’affectation de la **valeur null** à *lParam* n’a aucun effet si un appareil tactile est installé, ou si **em \_ SETRECT** est envoyé à partir d’un thread sur lequel un raccordement est installé (voir [**SetWindowsHookEx**](/windows/desktop/api/winuser/nf-winuser-setwindowshookexa)). Dans ces cas, *lParam* doit contenir un pointeur valide vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) .
 
@@ -71,8 +71,8 @@ Si le contrôle d’édition contient une bordure, le rectangle de mise en forme
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

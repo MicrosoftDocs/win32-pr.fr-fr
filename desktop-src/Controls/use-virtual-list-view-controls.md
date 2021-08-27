@@ -4,18 +4,18 @@ description: Cette rubrique montre comment utiliser les contrôles de liste virt
 ms.assetid: DA32D7B3-5FDB-4D73-9A72-0D4EEB2A0C4F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3baf5e37d0d4f6da0cdf596dd8ba3c71e852a99
-ms.sourcegitcommit: e584514ced7396dde55e58501c8c8a872229acc4
+ms.openlocfilehash: f6ed847d7cb8a41e4cb1c255290ff660eb278bcd99126605a2874c52b279e694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "106527055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059698"
 ---
 # <a name="how-to-use-virtual-list-view-controls"></a>Utilisation des contrôles de List-View virtuels
 
 Cette rubrique montre comment utiliser les contrôles de liste virtuels. Les exemples de code C++ qui l’accompagnent montrent comment traiter des messages de notification de contrôle de liste virtuelle, comment optimiser le cache et comment récupérer un élément du cache.
 
--   [Ce que vous devez savoir](#what-you-need-to-know)
+-   [Bon à savoir](#what-you-need-to-know)
 -   [Traiter les codes de notification de contrôle de List-View virtuel](#process-virtual-list-view-control-notification-codes)
 -   [Optimiser le cache](#optimize-the-cache)
 -   [Récupérer un élément du cache](#retrieve-an-item-from-the-cache)
@@ -41,16 +41,16 @@ struct RndItem
 
 
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -330,7 +330,7 @@ void RetrieveItem( RndItem * prndItem, int index )
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir la liste des messages de fenêtre traités par un contrôle de liste, consultez [List-View le traitement des messages par défaut](listview-message-processing.md).
 

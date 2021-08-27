@@ -4,12 +4,12 @@ description: Utilisez les indicateurs d’affichage pour contrôler les vues de 
 ms.assetid: 836e3400-0dca-4a21-9a5c-7da357ed72ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5192bf3e1acaa91412d8ae7e06d035e54af1ece6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 73ae9763587cf7972aab3ca9880d5ad26350c3161955c17940484cc1cbd801bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120024949"
 ---
 # <a name="view-flags"></a>Indicateurs d’affichage
 
@@ -25,18 +25,18 @@ Utilisez les indicateurs d’affichage pour contrôler les vues de table de rout
 | \_ID de vue RTM \_ \_ mcast     | 1          | Spécifie une vue de multidiffusion.                                      |
 | \_taille du \_ masque de vue RTM \_    | 0x20       | Spécifie le nombre maximal de vues qui peuvent être configurées.    |
 | \_masque de vue RTM \_ \_ aucun    | 0x00000000 | Retourne les informations indépendamment de la vue.                      |
-| \_ \_ masque de vue RTM \_ any     | 0x00000000 | Retourne les destinations de toutes les vues. Il s’agit de la valeur par défaut.  |
+| \_ \_ masque de vue RTM \_ any     | 0x00000000 | Retourne les destinations de toutes les vues. Il s'agit de la valeur par défaut.  |
 | \_masque de vue RTM \_ \_ UCAST   | 0x00000001 | Retourne les destinations de la vue monodiffusion.                      |
 | \_masque de vue RTM \_ \_ mcast   | 0x00000002 | Retourne les destinations de la vue multidiffusion.                    |
-| affichage RTM- \_ \_ Masquer \_ tout     | Égale | Retourne des informations de toutes les vues.                              |
+| affichage RTM- \_ \_ Masquer \_ tout     | 0xFFFFFFFF | Retourne des informations de toutes les vues.                              |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

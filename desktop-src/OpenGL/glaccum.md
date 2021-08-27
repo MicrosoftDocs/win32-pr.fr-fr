@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d25e02971d07d54567c462708aa4efd87b2d32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0820d27bf6aff05916eb179e4dfd0b51a0746e2c6e5a6f4e5f3bdfe8f3e6d91a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082259"
 ---
 # <a name="glaccum-function"></a>glAccum fonction)
 
@@ -79,14 +79,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *op* n’est pas une valeur acceptée.<br/>                                                                                                                                            |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | Il n’y avait pas de mémoire tampon d’accumulation ou la fonction **glAccum** a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La mémoire tampon d’accumulation est une mémoire tampon de plage étendue. Les images ne sont pas rendues dans celui-ci. Au lieu de cela, les images rendues dans l’une des mémoires tampons de couleur sont ajoutées au contenu de la mémoire tampon d’accumulation après le rendu. Vous pouvez créer des effets tels que l’anticrénelage (des points, lignes et polygones), le flou directionnel et la profondeur de champ en cumulant les images générées avec des matrices de transformation différentes.
 

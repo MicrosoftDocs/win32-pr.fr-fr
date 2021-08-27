@@ -4,12 +4,12 @@ ms.assetid: 652f951f-4e9f-407c-844c-b250b6a9e6f5
 title: Message WM_IME_KEYUP (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e0eb6c6701510a373573ff6d85d5b50a8541b4b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f65d80876643cc27136223c112c1e045bc797adbd0bf160adda1c3cea894767e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102069"
 ---
 # <a name="wm_ime_keyup-message"></a>\_Message de retouche de l’IME WM \_
 
@@ -72,7 +72,7 @@ Nombre de répétitions, code d’analyse, indicateur de clé étendue, code de 
 
 Une application doit retourner 0 si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut traiter ce message ou la passer à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)  pour générer un message [**WM \_ KEYUP**](../inputdev/wm-keyup.md) correspondant.
 

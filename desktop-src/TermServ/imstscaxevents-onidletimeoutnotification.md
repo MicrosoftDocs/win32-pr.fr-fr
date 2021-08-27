@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e305b0ed22e733053e33451aa35d3b8f8d6c138
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 356414d03a6b102f37f93205e0dbb8c3261cffbbb5b71a58cdb3f80acda09212
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120125119"
 ---
 # <a name="imstscaxeventsonidletimeoutnotification-method"></a>IMsTscAxEvents :: OnIdleTimeoutNotification, méthode
 
@@ -45,7 +45,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, la valeur de la propriété [**MinutesToIdleTimeout**](imsrdpclientadvancedsettings-minutestoidletimeout.md) est définie sur zéro et le système ne surveille pas les délais d’inactivité. Cet événement se produit uniquement si la propriété est définie sur une valeur différente de zéro.
 

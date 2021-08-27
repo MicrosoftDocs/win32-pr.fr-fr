@@ -3,7 +3,7 @@ title: TVN_ASYNCDRAW le code de notification (commctrl. h)
 description: Envoyé par un contrôle Tree-View à son parent lorsque le dessin d’une icône ou d’une superposition a échoué. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 209bfffb-e57d-435d-98a1-8b117c4969b1
 keywords:
-- Contrôles Windows de code de notification TVN_ASYNCDRAW
+- TVN_ASYNCDRAW les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a8b04db2e4efbd78d6176214ecd9088f1bc30c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e4d929977e1a14a5ada96232fa054c2689d27f1eaa026b64c974d51f5a2c38c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106542868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120060099"
 ---
 # <a name="tvn_asyncdraw-notification-code"></a>\_Code de notification TVN ASYNCDRAW
 
@@ -49,7 +49,7 @@ Pointeur vers une structure [**NMTVASYNCDRAW**](/windows/win32/api/commctrl/ns-c
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle Tree-View doit avoir le style étendu [**TV \_ ex \_ DRAWIMAGEASYNC**](tree-view-control-window-extended-styles.md) . Notez que cela équivaut à l’indicateur LVN ASYNCDRAWN de l’affichage \_ des listes et à son style correspondant.
 
@@ -87,8 +87,8 @@ case TVN_ASYNCDRAW:
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

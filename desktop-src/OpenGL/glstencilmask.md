@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e63790fa30e88abbde6e1ba47e624c6caf2dcfc4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9eb2e0af89bf2c66e7fa73cf6e4ace8bc8272e8ea581e17bab17754164d3f068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120036519"
 ---
 # <a name="glstencilmask-function"></a>glStencilMask fonction)
 
@@ -63,7 +63,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glStencilMask** contrôle l’écriture de bits individuels dans les plans de gabarit. Les *n* bits les moins significatifs du *masque*, où *n* est le nombre de bits dans la mémoire tampon du stencil, spécifient un masque. Chaque fois qu’un seul apparaît dans le masque, le bit correspondant dans la mémoire tampon du stencil est rendu accessible en écriture. Lorsqu’un zéro s’affiche, le bit est protégé en écriture. Initialement, tous les bits sont activés pour l’écriture.
 

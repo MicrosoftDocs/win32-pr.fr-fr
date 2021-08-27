@@ -4,12 +4,12 @@ description: Les clients doivent souvent stocker des informations supplémentair
 ms.assetid: e96805b0-680f-411c-a02c-2c3fda7276ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9893b3a8b8e8a69ab78f33156efbe872b86d83ca
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16d24524f64fca7062ffb35ed6f4d5e6a2bc935ef7fee0c7fa141cb2e823e70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120025069"
 ---
 # <a name="using-opaque-pointers"></a>Utilisation de pointeurs opaques
 
@@ -19,9 +19,9 @@ Par exemple, le gestionnaire de groupe de multidiffusion conserve une liste des 
 
 Le nombre de pointeurs opaques est limité ; ces pointeurs sont alloués aux clients sur la base du premier arrivé, premier servi. L’administrateur de routeur doit allouer le nombre correct de pointeurs pendant la configuration du routeur. par conséquent, les protocoles de routage et les autres clients doivent documenter leur utilisation de pointeurs opaques.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: 61106781-d10c-41a8-993e-121e0a1e4c4d
 title: 'Étape 2 : déclarer CVideoRenderer et les classes dérivées'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11474c57e70d8632a53ac0b858d61d2bddf1e86b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fae4c9c391a13acd0ede06b9a74c3b09bd264a6b74c42d7f6c7ca5e9dbb17051
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050359"
 ---
 # <a name="step-2-declare-cvideorenderer-and-derived-classes"></a>Étape 2 : déclarer CVideoRenderer et les classes dérivées
 
-Cette rubrique est l’étape 2 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). Le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
+Cette rubrique est l’étape 2 de la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md). le code complet est présenté dans la rubrique [exemple de lecture DirectShow](directshow-playback-example.md).
 
 DirectShow fournit plusieurs filtres différents qui restituent la vidéo :
 
@@ -137,13 +137,13 @@ public:
 
 
 
-[Étape 3 : générer le graphique de filtre](step-3--build-the-filter-graph.md).
+[Étape 3 : générer le filtre Graph](step-3--build-the-filter-graph.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Lecture audio/vidéo dans DirectShow](audio-video-playback-in-directshow.md)
+[Lecture audio/vidéo en DirectShow](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
 [Utilisation du convertisseur de mixage vidéo](using-the-video-mixing-renderer.md)

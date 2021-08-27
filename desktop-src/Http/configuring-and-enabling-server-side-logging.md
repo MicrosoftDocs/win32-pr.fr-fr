@@ -4,12 +4,12 @@ description: Configuration et activation de la journalisation côté serveur
 ms.assetid: d67d8f9a-6d8a-43f2-a1ef-75f69c04b1ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61e56247ee306d5a8804663e00162224df1d3f3e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c95856cf72379de44211f05bb78fb4c6839f77b2fd6c42b91b26068bc9c5d0d7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050809"
 ---
 # <a name="configuring-and-enabling-server-side-logging"></a>Configuration et activation de la journalisation côté serveur
 
@@ -26,9 +26,9 @@ Pour activer la journalisation des réponses W3C pour chaque demande, l’applic
 2.  Le membre de **base. type** de la structure de [**\_ données de \_ champs \_ du journal http**](/windows/desktop/api/Http/ns-http-http_log_fields_data) doit être initialisé à **HttpLogDataTypeFields**. Le champ **base. type** garantit l’extensibilité future de la structure et de l’API.
 3.  L’application appelle [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) ou [**HttpSendResponseEntityBody**](/windows/desktop/api/Http/nf-http-httpsendresponseentitybody) avec un pointeur vers la structure de [**\_ données des \_ champs \_ du journal http**](/windows/desktop/api/Http/ns-http-http_log_fields_data) dans le paramètre *pLogData* . L’application doit effectuer un cast du pointeur vers les [**\_ \_ données du journal PHTTP**](/windows/desktop/api/Http/ns-http-http_log_data).
 
- 
+ 
 
- 
+ 
 
 
 

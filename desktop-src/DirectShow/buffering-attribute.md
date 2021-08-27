@@ -4,17 +4,17 @@ ms.assetid: c00fd24d-5c3c-44cf-93dd-9750f614d2af
 title: Attribut de mise en mémoire tampon (WMP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60cc5b9b7e8aad810e2cc7aa7e91e874f0b27436
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d314792f82ed1e5111d601e865baacdf18fb702549a7f1518e8026f82b89802
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103349"
 ---
 # <a name="buffering-attribute"></a>Attribut de mise en mémoire tampon
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

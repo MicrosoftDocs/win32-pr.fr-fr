@@ -4,12 +4,12 @@ ms.assetid: 6f8b3894-f08f-4ebf-a645-87869e7d1b20
 title: Message SFVM_GETANIMATION (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e4281689556e8315da7a9550fd69acc1a327a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 746d8bc9bc4a6d4e15d9cd5190d7cfcb7d1362daba8ec5478b333458f62787da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120008989"
 ---
 # <a name="sfvm_getanimation-message"></a>\_Message SFVM GETANIMATION
 
@@ -42,17 +42,17 @@ Handle d’instance du module à partir duquel la ressource doit être chargée.
 *pwszName* \[ à\]
 </dt> <dd>
 
-Pointeur vers une chaîne Unicode terminée par le caractère null qui contient le chemin d’accès du fichier. avi ou le nom d’une ressource AVI. Ce paramètre peut également être constitué de l’identificateur de ressource dans le mot de poids faible et de 0 dans le mot de poids fort. Pour créer cette valeur, utilisez la macro [**MAKEINTRESOURCE**](/windows/win32/api/winuser/nf-winuser-makeintresourcea) . Le contrôle charge la ressource à partir du module spécifié par hinst. Une ressource AVI doit avoir le type « AVI ».
+Pointeur vers une chaîne Unicode terminée par le caractère null qui contient le chemin d’accès du fichier .avi ou le nom d’une ressource AVI. Ce paramètre peut également être constitué de l’identificateur de ressource dans le mot de poids faible et de 0 dans le mot de poids fort. Pour créer cette valeur, utilisez la macro [**MAKEINTRESOURCE**](/windows/win32/api/winuser/nf-winuser-makeintresourcea) . Le contrôle charge la ressource à partir du module spécifié par hinst. Une ressource AVI doit avoir le type « AVI ».
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, l’objet de vue du dossier système affiche l’animation « torche » pendant une énumération en arrière-plan.
 
 *phinst* et *pwszName* sont passés au contrôle d' [animation](../controls/animation-control-overview.md) avec un message [**ACM \_ ouvert**](../controls/acm-open.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

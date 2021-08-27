@@ -3,7 +3,7 @@ title: MpScanControl, fonction (MpClient. h)
 description: Permet le contrôle d’une analyse qui a été initialisée de façon asynchrone par le biais de MpScanStart.
 ms.assetid: 00855686-8C46-4B58-829C-AEAB53888704
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpScanControl
+- fonctionnalités d’environnement Windows hérités de la fonction MpScanControl
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce74736c4ca8c589e2ffa5570f2b6666838d820f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 893fe1d01f9004c9dc2933a5bbb23c4b13fb8933a6121c41810c6e447e5eebac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120114549"
 ---
 # <a name="mpscancontrol-function"></a>MpScanControl fonction)
 
@@ -85,8 +85,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

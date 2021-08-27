@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0d356adc5d16ceb0ea10e3834d8dbb98abed2b3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67805ff50eb4566e8a2a186c10229f944f4003baaef1274e9d4f52dd3b9c2a02
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082119"
 ---
 # <a name="glcalllist-function"></a>glCallList fonction)
 
@@ -51,7 +51,7 @@ Nom entier de la liste d’affichage à exécuter.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de la fonction **glCallList** commence l’exécution de la liste d’affichage nommée. Les fonctions enregistrées dans la liste d’affichage sont exécutées dans l’ordre, de la même façon que si vous les avez appelées sans utiliser de liste d’affichage. Si la *liste* n’a pas été définie en tant que liste d’affichage, **glCallList** est ignoré.
 

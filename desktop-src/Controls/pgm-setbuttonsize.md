@@ -3,7 +3,7 @@ title: Message PGM_SETBUTTONSIZE (commctrl. h)
 description: Définit la taille actuelle du bouton pour le contrôle de pagineur. Vous pouvez envoyer ce message de manière explicite ou utiliser la macro de radiomessagerie \_ SetButtonSize.
 ms.assetid: b31960f8-87c2-4209-8213-df75ac883e11
 keywords:
-- PGM_SETBUTTONSIZE les contrôles de message Windows
+- PGM_SETBUTTONSIZE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf8c164ed960675c1a68be36acfe0eff40f972f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b120ed4bd6b7090621e09dd24b9e6a23b037fb5aed83e7ac6fc43254393330e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046789"
 ---
 # <a name="pgm_setbuttonsize-message"></a>\_Message SETBUTTONSIZE PGM
 
@@ -43,7 +43,7 @@ Valeur de type **int** qui contient la nouvelle taille de bouton, en pixels.
 
 Retourne une valeur **int** qui contient la taille de bouton précédente, en pixels.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le contrôle de pagineur a le style [**PG \_ horiment**](pager-control-styles.md) , la taille du bouton détermine la largeur des boutons du pagineur. Si le contrôle de pagineur a le style [**PG \_ vert**](pager-control-styles.md) , la taille du bouton détermine la hauteur des boutons du pagineur. Par défaut, le contrôle pager définit sa taille de bouton sur trois-quarts de la largeur de la barre de défilement.
 
@@ -55,8 +55,8 @@ La taille minimale du bouton du pagineur est actuellement de 12 pixels. Toutefoi
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

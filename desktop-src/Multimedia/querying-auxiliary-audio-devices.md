@@ -12,12 +12,12 @@ keywords:
 - audio auxiliaire, appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d7de949c304cdd6941be87277f2eef1711ada24
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 49a6d61634475c3b921428529df69113c921b8c5bff8d1a65d5b08931a670fff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120037569"
 ---
 # <a name="querying-auxiliary-audio-devices"></a>Interrogation des périphériques audio auxiliaires
 
@@ -25,6 +25,6 @@ Tous les systèmes multimédias n’ont pas de prise en charge audio auxiliaire.
 
 Pour obtenir des informations sur un périphérique audio auxiliaire particulier, utilisez la fonction [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps) . Cette fonction remplit une structure [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps) avec des informations sur les fonctionnalités d’un appareil spécifié. Ces informations incluent les identificateurs de fabricant et de produit, un nom de produit pour l’appareil et le numéro de version du pilote d’appareil.
 
- 
+ 
 
- 
+ 

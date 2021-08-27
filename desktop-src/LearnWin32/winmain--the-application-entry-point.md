@@ -4,7 +4,7 @@ title : WinMain le point d’entrée de l’application Description : WinMain�
 
 # <a name="winmain-the-application-entry-point"></a>WinMain : point d’entrée de l’application
 
-Chaque programme Windows comprend une fonction de point d’entrée nommée **WinMain** ou **wWinMain**. Voici la signature pour **wWinMain**.
+chaque Windows programme comprend une fonction de point d’entrée nommée **WinMain** ou **wWinMain**. Voici la signature pour **wWinMain**.
 
 
 ```C++
@@ -15,8 +15,8 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
 Les quatre paramètres sont :
 
--   *HINSTANCE* est un événement appelé « handle vers une instance » ou « handle vers un module ». Le système d’exploitation utilise cette valeur pour identifier l’exécutable (EXE) lorsqu’il est chargé en mémoire. Le descripteur d’instance est nécessaire pour certaines fonctions Windows, par exemple pour charger des icônes ou des bitmaps.
--   *hPrevInstance* n’a aucune signification. Elle a été utilisée dans Windows 16 bits, mais elle est désormais toujours égale à zéro.
+-   *HINSTANCE* est un événement appelé « handle vers une instance » ou « handle vers un module ». Le système d’exploitation utilise cette valeur pour identifier l’exécutable (EXE) lorsqu’il est chargé en mémoire. le descripteur d’instance est nécessaire pour certaines fonctions de Windows, par exemple pour charger des icônes ou des bitmaps.
+-   *hPrevInstance* n’a aucune signification. il a été utilisé en 16 bits Windows, mais il est maintenant toujours égal à zéro.
 -   *pCmdLine* contient les arguments de ligne de commande sous la forme d’une chaîne Unicode.
 -   *nCmdShow* est un indicateur qui indique si la fenêtre principale de l’application sera réduite, agrandie ou affichée normalement.
 
@@ -50,7 +50,7 @@ Maintenant que vous disposez du point d’entrée et que vous comprenez certaine
 
 ## <a name="next"></a>Suivant
 
-[Module 1. Votre premier programme Windows](your-first-windows-program.md).
+[Module 1. votre premier programme de Windows](your-first-windows-program.md).
 
  
 
