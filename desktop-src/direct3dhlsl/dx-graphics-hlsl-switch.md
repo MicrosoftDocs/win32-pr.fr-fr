@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4af131ca3a126cd6f1fd54160418bfbe70cc9cce
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8527853bf88b073f3505f4b4170ff6165f7f9aa7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119084"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477485"
 ---
 # <a name="switch-statement"></a>Instruction switch
 
@@ -43,51 +43,14 @@ Paramètre facultatif qui contrôle la façon dont l’instruction est compilée
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>aplatir</td>
-<td>Compilez l’instruction comme une série d’instructions <strong>If</strong> , chacune avec l’attribut <strong>Flatten</strong> .</td>
-</tr>
-<tr class="even">
-<td>branche</td>
-<td>Compilez l’instruction comme une série d’instructions <strong>If</strong> chacune avec l’attribut <strong>Branch</strong> .
-<blockquote>
-[!Note]<br />
-Lorsque vous utilisez le modèle de <a href="dx-graphics-hlsl-sm2.md">nuanceur 2. x</a> ou le <a href="dx-graphics-hlsl-sm3.md">modèle de nuanceur 3,0</a>, chaque fois que vous utilisez la création de branche dynamique, vous consommez des ressources. Ainsi, si vous utilisez la création de branche dynamique de façon excessive lorsque vous ciblez ces profils, vous pouvez recevoir des erreurs de compilation.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>forcecase</td>
-<td>Forcez une instruction switch dans le matériel.
-<blockquote>
-[!Note]<br />
-Requiert un matériel 10_0 ou ultérieur de <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">niveau de fonctionnalité</a> .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>appel</td>
-<td>Les corps des cas individuels dans le commutateur seront déplacés dans les sous-routines matérielles et le commutateur sera une série d’appels de sous-routine.
-<blockquote>
-[!Note]<br />
-Requiert un matériel 10_0 ou ultérieur de <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">niveau de fonctionnalité</a> .
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| aplatir | Compilez l’instruction comme une série d’instructions <strong>If</strong> , chacune avec l’attribut <strong>Flatten</strong> . | 
+| branche | Compilez l’instruction comme une série d’instructions <strong>If</strong> chacune avec l’attribut <strong>Branch</strong> .<blockquote>[!Note]<br />Lorsque vous utilisez le modèle de <a href="dx-graphics-hlsl-sm2.md">nuanceur 2. x</a> ou le <a href="dx-graphics-hlsl-sm3.md">modèle de nuanceur 3,0</a>, chaque fois que vous utilisez la création de branche dynamique, vous consommez des ressources. Ainsi, si vous utilisez la création de branche dynamique de façon excessive lorsque vous ciblez ces profils, vous pouvez recevoir des erreurs de compilation.</blockquote><br /> | 
+| forcecase | Forcez une instruction switch dans le matériel.<blockquote>[!Note]<br />Requiert un matériel 10_0 ou ultérieur de <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">niveau de fonctionnalité</a> .</blockquote><br /> | 
+| appel | Les corps des cas individuels dans le commutateur seront déplacés dans les sous-routines matérielles et le commutateur sera une série d’appels de sous-routine.<blockquote>[!Note]<br />Requiert un matériel 10_0 ou ultérieur de <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">niveau de fonctionnalité</a> .</blockquote><br /> | 
+
 
 
 
@@ -175,7 +138,7 @@ Voici des exemples d’utilisation de forcecase et des attributs de contrôle de
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -189,7 +152,7 @@ Voici des exemples d’utilisation de forcecase et des attributs de contrôle de
 
 <dl> <dt>
 
-[Contrôle de Flow](dx-graphics-hlsl-flow-control.md)
+[Flow Régulation](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
  

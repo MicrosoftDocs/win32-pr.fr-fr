@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fefcc5e33727d6b4ad0bcd60e48432c68422105
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3348b067698cfdcf3c7dbb95a97b6dd23f0f0cb7ca9225d70a9bb3d4ce2a93b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100259"
 ---
 # <a name="emailactionserver-property"></a>EmailAction. Server, propriété
 
@@ -44,9 +44,9 @@ EmailAction.Server As String
 
 Nom du serveur que vous utilisez pour envoyer des messages électroniques.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Assurez-vous que le serveur SMTP qui envoie l’e-mail est correctement configuré. Le courrier électronique est envoyé à l’aide de l’authentification NTLM pour les serveurs SMTP Windows, ce qui signifie que les informations d’identification de sécurité utilisées pour l’exécution de la tâche doivent également disposer de privilèges sur le serveur SMTP pour envoyer un message électronique. Si le serveur SMTP est un serveur non-Windows, le courrier électronique est envoyé si le serveur autorise l’accès anonyme. Pour plus d’informations sur la configuration du serveur SMTP, consultez [installation du serveur SMTP](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/e4cf06f5-9a36-474b-ba78-3f287a2b88f2.mspx?mfr=true)et pour plus d’informations sur la gestion des paramètres du serveur SMTP, consultez [administration SMTP](/previous-versions/windows/it-pro/windows-server-2003/cc758258(v=ws.10)).
+Assurez-vous que le serveur SMTP qui envoie l’e-mail est correctement configuré. le courrier électronique est envoyé à l’aide de l’authentification NTLM pour Windows serveurs smtp, ce qui signifie que les informations d’identification de sécurité utilisées pour l’exécution de la tâche doivent également avoir des privilèges sur le serveur smtp pour envoyer un message électronique. si le serveur SMTP est un serveur non Windows, le courrier électronique est envoyé si le serveur autorise l’accès anonyme. Pour plus d’informations sur la configuration du serveur SMTP, consultez [installation du serveur SMTP](https://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/e4cf06f5-9a36-474b-ba78-3f287a2b88f2.mspx?mfr=true)et pour plus d’informations sur la gestion des paramètres du serveur SMTP, consultez [administration SMTP](/previous-versions/windows/it-pro/windows-server-2003/cc758258(v=ws.10)).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -54,8 +54,8 @@ Assurez-vous que le serveur SMTP qui envoie l’e-mail est correctement configur
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                    |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2008 R2<br/>                                                       |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |

@@ -3,7 +3,7 @@ title: Message TVM_GETBKCOLOR (commctrl. h)
 description: Récupère la couleur d’arrière-plan actuelle du contrôle. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetBkColor TreeView.
 ms.assetid: 1b9eea90-54cd-47b9-befa-ec0128a0230f
 keywords:
-- TVM_GETBKCOLOR les contrôles de message Windows
+- TVM_GETBKCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8077bc9655c088aceefe239ed019cc45874d38ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8a5a6530b1aada1fab06c0b353d7ead666e61f0f796b890d1f5c56fe0be094b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088449"
 ---
 # <a name="tvm_getbkcolor-message"></a>TVM \_ GETBKCOLOR message
 
@@ -45,8 +45,8 @@ Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui représent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

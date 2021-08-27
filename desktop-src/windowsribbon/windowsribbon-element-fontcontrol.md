@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7c7b068246da9b26a4b3547e27abd1a9b60c8fd70de10e4edd2438463a156633
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 5b6be1fae596e70f15dbfcd27e4bf15e35e04a93
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202515"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625975"
 ---
 # <a name="fontcontrol-element"></a>Élément FontControl
 
 Représente un [contrôle de police](windowsribbon-controls-fontcontrol.md), qui est un conteneur spécialisé de contrôles individuels dédiés à la manipulation de polices.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <FontControl
@@ -46,10 +46,10 @@ Représente un [contrôle de police](windowsribbon-controls-fontcontrol.md), qui
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -63,14 +63,14 @@ Représente un [contrôle de police](windowsribbon-controls-fontcontrol.md), qui
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>FontType</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Limité à l’une des valeurs suivantes : <br/> <br/>
 <dt><span></span><span></span><strong></strong> (FontOnly)<br/> </dt> <dd> Par défaut. <br/> <img src="images/markup/screenshot-fonttype-fontonly.png" alt="Screen shot of the FontControl element with the FontOnly attribute set to true." /><br/> La définition de l’attribut <em>FontType</em> pour <code>FontOnly</code> active les fonctionnalités suivantes :<br/>
 <ul>
@@ -165,14 +165,14 @@ La mise en surbrillance des couleurs n’est disponible qu’à partir d’un <s
 <tr class="odd">
 <td><strong>MaximumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Taille maximale en points à afficher.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Valeur entière comprise entre 1 et 9999 inclus.<br/> La valeur par défaut est <strong>9999</strong>.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinimumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Taille minimale du point à afficher.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Valeur entière comprise entre 1 et 9999 inclus.<br/> La valeur par défaut est <strong>1</strong>.<br/> </dd> </dl></td>
 </tr>
@@ -223,7 +223,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Group**](windowsribbon-element-group.md)ou [**MenuGroup**](windowsribbon-element-menugroup.md) .
 

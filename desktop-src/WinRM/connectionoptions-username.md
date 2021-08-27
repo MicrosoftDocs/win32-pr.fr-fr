@@ -4,9 +4,9 @@ description: Définit et obtient le nom d’utilisateur d’un compte local ou d
 ms.assetid: e8f70143-f002-4b39-97a3-006b9713262d
 ms.tgt_platform: multiple
 keywords:
-- Propriété UserName Windows Remote Management
-- Propriété UserName Windows Remote Management, objet ConnectionOptions
-- Objet ConnectionOptions Windows Remote Management, propriété UserName
+- propriété UserName Windows Remote Management
+- propriété UserName Windows Remote Management, objet ConnectionOptions
+- objet ConnectionOptions Windows Remote Management, propriété UserName
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4d6c751dbe579372b863566412e740c2a646a5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 40fa4cd5e1d4fd733431adab80241744c0b197960506cfe2908bc99315ecfdea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121779"
 ---
 # <a name="connectionoptionsusername-property"></a>ConnectionOptions. UserName, propriété
 
@@ -47,7 +47,7 @@ Si aucune valeur n’est fournie et que l’indicateur **WSManFlagCredUsernamePa
 
 Si aucune valeur n’est fournie et que l’indicateur **WSManFlagCredUsernamePassword** est défini, le script invite l’utilisateur à entrer le nom d’utilisateur et le mot de passe. Si un nom d’utilisateur et un mot de passe valides ne sont pas entrés, une erreur d’accès refusé est retournée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe suivante est utilisée pour spécifier cette propriété.
 

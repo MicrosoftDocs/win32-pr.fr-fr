@@ -8,18 +8,18 @@ keywords:
 - méthodes de rappel
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d39201c101c9031a7157f79f6c12ec88f07decfc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 1b1ee2bcf6587e2e9e75e18404a60c3b85fb4bac5e9f14fd0164304bcc3f3338
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110059"
 ---
 # <a name="using-the-callback-methods"></a>Utilisation des méthodes de rappel
 
-Plusieurs interfaces du kit de développement logiciel (SDK) de format Windows Media contiennent des méthodes appelées de façon asynchrone. La plupart de ces méthodes utilisent des fonctions de rappel pour transmettre des informations à l’application de contrôle.
+plusieurs interfaces du kit de développement logiciel (SDK) Windows Media Format contiennent des méthodes qui sont appelées de façon asynchrone. La plupart de ces méthodes utilisent des fonctions de rappel pour transmettre des informations à l’application de contrôle.
 
-Les sections suivantes décrivent certains des problèmes généraux relatifs à l’utilisation des méthodes de rappel avec le kit de développement logiciel (SDK) de format Windows Media.
+les sections suivantes décrivent certains des problèmes généraux relatifs à l’utilisation des méthodes de rappel avec le kit de développement logiciel (SDK) de Format multimédia Windows.
 
 
 
@@ -31,7 +31,7 @@ Les sections suivantes décrivent certains des problèmes généraux relatifs à
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -40,9 +40,9 @@ Les sections suivantes décrivent certains des problèmes généraux relatifs à
 [**Guide de programmation**](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

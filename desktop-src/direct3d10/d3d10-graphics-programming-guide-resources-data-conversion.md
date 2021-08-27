@@ -4,12 +4,12 @@ ms.assetid: 454d3fd0-fc0f-46a9-925e-13f8e3c39f02
 title: Règles de conversion des données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61abdc58811af9155c67d7b32bcd47e9d4b71ea5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 52b5ba37305fb7cadc229a614b883519cf6c5f45
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748268"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626295"
 ---
 # <a name="data-conversion-rules"></a>Règles de conversion des données
 
@@ -68,9 +68,9 @@ Le tableau suivant décrit les conversions de différentes représentations déc
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -210,9 +210,9 @@ Les représentations d’entiers à virgule fixe sont utilisées de deux manièr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 17e719885cc61ff3f3193046b632e9969b8d660f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4235736d9933a510922e5fcc4ffc72c27cd0037
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530638"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477615"
 ---
 # <a name="jetendexternalbackupinstance2-function"></a>JetEndExternalBackupInstance2 fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetendexternalbackupinstance2-function"></a>JetEndExternalBackupInstance2 fonction)
 
 La fonction **JetEndExternalBackupInstance2** met fin à une session de sauvegarde externe. Cette API est la dernière API d’une série d’API qui doivent être appelées pour exécuter une sauvegarde en ligne réussie (non basée sur VSS).
 
-**Windows XP : JetEndExternalBackupInstance2** est introduit dans Windows XP.
+**Windows xp : JetEndExternalBackupInstance2** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetEndExternalBackupInstance2(
@@ -49,114 +49,48 @@ La fonction **JetEndExternalBackupInstance2** met fin à une session de sauvegar
 
 Instance à utiliser pour cet appel.
 
-**Windows 2000 :** Pour Windows 2000, la variante d’API qui accepte ce paramètre n’est pas disponible, car une seule instance est prise en charge. L’utilisation de cette instance globale est implicitement dans ce cas.
+**Windows 2000 :** pour Windows 2000, la variante d’API qui accepte ce paramètre n’est pas disponible, car une seule instance est prise en charge. L’utilisation de cette instance globale est implicitement dans ce cas.
 
-**Windows XP :** Pour Windows XP et versions ultérieures, la variante d’API qui n’accepte pas ce paramètre ne peut être appelée que lorsque le moteur est en mode hérité (mode de compatibilité Windows 2000) lorsqu’une seule instance est prise en charge. Dans le cas contraire, l’opération échouera avec JET_errRunningInMultiInstanceMode.
+**Windows XP :** pour Windows XP et versions ultérieures, la variante d’API qui n’accepte pas ce paramètre ne peut être appelée que lorsque le moteur est en mode hérité (Windows mode de compatibilité 2000), où une seule instance est prise en charge. Dans le cas contraire, l’opération échouera avec JET_errRunningInMultiInstanceMode.
 
 *grbit*
 
 Groupe de bits qui spécifie zéro, une ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBackupEndAbort<br />
-0x0002</p></td>
-<td><p>L’application cliente abandonne la sauvegarde.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitBackupEndNormal<br />
-0x0001</p></td>
-<td><p>L’application cliente a complètement terminé la sauvegarde et se termine normalement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitBackupTruncateDone<br />
-0x0100</p></td>
-<td><p><strong>Windows Vista :  </strong> JET_bitBackupTruncateDone est introduite dans Windows Vista.</p>
-<p>Le moteur peut marquer les en-têtes de base de données comme il convient (par exemple, une sauvegarde complète est terminée), même si l’appel à TRUNCATE n’a pas été effectué.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitBackupEndAbort<br />0x0002</p> | <p>L’application cliente abandonne la sauvegarde.</p> | 
+| <p>JET_bitBackupEndNormal<br />0x0001</p> | <p>L’application cliente a complètement terminé la sauvegarde et se termine normalement.</p> | 
+| <p>JET_bitBackupTruncateDone<br />0x0100</p> | <p><strong>Windows Vista :</strong> JET_bitBackupTruncateDone est introduite dans Windows Vista.</p><p>Le moteur peut marquer les en-têtes de base de données comme il convient (par exemple, une sauvegarde complète est terminée), même si l’appel à TRUNCATE n’a pas été effectué.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupAbortByCaller</p></td>
-<td><p><strong>Windows XP :  </strong> Cette valeur de retour est introduite dans Windows XP.</p>
-<p>L’appelant a interrompu une sauvegarde au milieu de la séquence de sauvegarde sans signaler l’intention avec <a href="gg294067(v=exchg.10).md">JetStopBackup</a>. Cette erreur est le résultat d’un bogue dans le client de sauvegarde de Windows Server 2003 et versions ultérieures. Dans Windows XP, cette erreur est retournée pour un arrêt intentionnel de la séquence de sauvegarde externe.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errBackupAbortByServer</p></td>
-<td><p><strong>Windows Server 2003 :  </strong> Cette valeur de retour est introduite dans Windows Server 2003.</p>
-<p>L’opération a échoué, car la sauvegarde externe actuelle a été abandonnée par un appel à <a href="gg294067(v=exchg.10).md">JetStopBackup</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p><strong>Windows XP :  </strong> Cette valeur de retour est introduite dans Windows XP.</p>
-<p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNoBackup</p></td>
-<td><p>L’opération a échoué, car aucune sauvegarde externe n’est en cours.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>L’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (mode de compatibilité de Windows 2000), où une seule instance est prise en charge, alors que en fait, plusieurs instances existent déjà.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>L’opération ne peut pas se terminer car l’instance qui est associée à la session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBackupAbortByCaller</p> | <p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p><p>L’appelant a interrompu une sauvegarde au milieu de la séquence de sauvegarde sans signaler l’intention avec <a href="gg294067(v=exchg.10).md">JetStopBackup</a>. cette erreur est le résultat d’un bogue dans le client de sauvegarde de Windows Server 2003 et versions ultérieures. dans Windows XP, cette erreur est retournée pour un arrêt intentionnel de la séquence de sauvegarde externe.</p> | 
+| <p>JET_errBackupAbortByServer</p> | <p><strong>Windows Server 2003 :</strong> cette valeur de retour est introduite dans Windows Server 2003.</p><p>L’opération a échoué, car la sauvegarde externe actuelle a été abandonnée par un appel à <a href="gg294067(v=exchg.10).md">JetStopBackup</a>.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p> | 
+| <p>JET_errNoBackup</p> | <p>L’opération a échoué, car aucune sauvegarde externe n’est en cours.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>l’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (Windows mode de compatibilité 2000) quand une seule instance est prise en charge, alors que plusieurs instances existent déjà.</p> | 
+| <p>JET_errTermInProgress</p> | <p>L’opération ne peut pas se terminer car l’instance qui est associée à la session est en cours d’arrêt.</p> | 
+
 
 
 Si la fonction réussit, la sauvegarde externe était un succès. Success indique que tous les fichiers (par exemple, les bases de données et les journaux) qui sont appropriés pour le type de sauvegarde (spécifié dans [JetBeginExternalBackup](./jetbeginexternalbackup-function.md)) ont été récupérés à partir du moteur de sauvegarde. Les fichiers sauvegardés peuvent être récupérés avec la récupération matérielle ([JetExternalRestore](./jetexternalrestore-function.md)).
 
 Si cette fonction échoue, la sauvegarde externe se termine généralement. L’échec signifie que la sauvegarde n’est pas valide en raison d’une erreur de client ou d’utilisation de l’application. Il est important de vérifier le code de retour de cette API pour vérifier que la séquence de sauvegarde a réussi.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Si le moteur est configuré pour consigner les événements, un événement est consigné pour indiquer la résolution de la sauvegarde externe.
 
@@ -164,44 +98,19 @@ Si la séquence de sauvegarde n’est pas exécutée dans l’ordre et avec un a
 
 Pour plus d’informations sur la séquence de l’API de sauvegarde externe, consultez [JetBeginExternalBackup](./jetbeginexternalbackup-function.md).
 
-Avant Windows Vista, si la troncation du journal n’a pas été effectuée, le moteur a considéré que la sauvegarde était une sauvegarde de copie. Toutefois, la sauvegarde peut être une sauvegarde normale pour laquelle la troncation n’a pas été effectuée (par exemple, s’il y a des bases de données détachées). L’option JET_bitBackupTruncateDone peut être utilisée pour informer le moteur du moteur et autoriser les modifications d’en-tête de base de données appropriées.
+avant Windows Vista, si la troncation du journal n’a pas été effectuée, le moteur a considéré que la sauvegarde était une sauvegarde de copie. Toutefois, la sauvegarde peut être une sauvegarde normale pour laquelle la troncation n’a pas été effectuée (par exemple, s’il y a des bases de données détachées). L’option JET_bitBackupTruncateDone peut être utilisée pour informer le moteur du moteur et autoriser les modifications d’en-tête de base de données appropriées.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi
 
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)  
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
 [JET_ERR](./jet-err.md)  
 [JET_GRBIT](./jet-grbit.md)  
 [JetAttachDatabase](./jetattachdatabase-function.md)  

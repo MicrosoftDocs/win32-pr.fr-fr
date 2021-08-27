@@ -6,12 +6,12 @@ keywords:
 - AriaDataTableWarningId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dcd77983092983649d8bcd41357afb4756120e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 16fb9e8e97336199b5b133dc59ef7c5f0900f7bdeb0c7a8d8098a51707b107f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122389"
 ---
 # <a name="aria-data-table-warning"></a>Avertissement de la table de données ARIA
 
@@ -32,7 +32,7 @@ Cet avertissement indique que la table est identifiée comme une table de donné
 > [!Note]  
 > Toutes les tables de données n’ont pas besoin d’une description accessible. Vous devez définir une description accessible si les utilisateurs ont besoin d’informations supplémentaires pour comprendre la structure et le contenu de la table de données.
 
- 
+ 
 
 Pour résoudre cet avertissement, définissez une description accessible à partir d’une table à l’aide de l’attribut Summary ou de l’attribut **Aria-DescribedBy** .
 
@@ -54,9 +54,9 @@ Pour résoudre cet avertissement, définissez une description accessible à part
 
 
 
- 
+ 
 
- 
+ 
 
 
 

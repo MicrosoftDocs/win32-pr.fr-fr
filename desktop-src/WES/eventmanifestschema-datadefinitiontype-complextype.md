@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa492acf00740b0df9b761c40797ec05feb5b2e38b84ec0682296dd845cbe613
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a637166d261c4148a81baee3597d4090542b8612
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118589604"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470925"
 ---
 # <a name="datadefinitiontype-complex-type"></a>Type complexe DataDefinitionType
 
@@ -69,61 +69,20 @@ Définit un élément de données que vous souhaitez inclure avec l’événemen
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>count</td>
-<td><a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a></td>
-<td>Nombre d’éléments dans le tableau si l’élément de données est un tableau. Vous pouvez spécifier le nombre réel ou le nom d’un autre élément de données qui contient le nombre. <br/></td>
-</tr>
-<tr class="even">
-<td>InType</td>
-<td><strong>QName</strong></td>
-<td>Type de données de cet élément de données. Pour obtenir la liste des types de données d’entrée prédéfinis, consultez le type complexe <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td>length</td>
-<td><a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a></td>
-<td>Longueur d’un élément de données de longueur variable, telle qu’un objet blob binaire. Pour les données binaires, spécifiez la longueur en octets et pour les données de type chaîne, spécifiez la longueur en caractères. Vous pouvez spécifier la longueur réelle ou le nom d’un autre élément de données qui contient la longueur.<br/> Si vous utilisez l’attribut length pour spécifier une chaîne de longueur fixe, vous devez remplir la chaîne à sa longueur fixe, ce qui permet d’utiliser le caractère de fin null à la fin (par exemple, si la longueur est de 5, la chaîne &quot; ABC &quot; doit être complétée comme &quot; ABC &quot; . La longueur de chaîne doit inclure le caractère de fin null.<br/></td>
-</tr>
-<tr class="even">
-<td>carte</td>
-<td>string</td>
-<td>Nom de la carte nom/valeur à utiliser pour mapper des valeurs entières à des chaînes. Le type de données de l’élément de données doit être de l’un des types suivants :<br/>
-<ul>
-<li>win:UInt8</li>
-<li>win:UInt16</li>
-<li>win:UInt32</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>name</td>
-<td>string</td>
-<td>Nom de l'élément de données. Vous pouvez utiliser le nom pour faire référence à cet élément de données dans votre fragment XML si vous spécifiez une section <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> dans votre modèle. Vous pouvez également faire référence à ce nom dans un attribut de longueur ou de nombre d’un autre élément de données si cet élément de données contient sa valeur de longueur ou de nombre.<br/> <strong>Windows Vista :</strong> Cet attribut est facultatif.<br/></td>
-</tr>
-<tr class="even">
-<td>Type de</td>
-<td><strong>QName</strong></td>
-<td>Type de données à utiliser lors du rendu de cet élément de données. Pour obtenir la liste des types de données de sortie prédéfinis, consultez le type complexe <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> .<br/> <strong>Windows Vista :</strong> Le type de sortie est ignoré et le service détermine le type en fonction du type d’entrée.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom | Type | Description | 
+|------|------|-------------|
+| count | <a href="eventmanifestschema-counttype-simpletype.md"><strong>CountType</strong></a> | Nombre d’éléments dans le tableau si l’élément de données est un tableau. Vous pouvez spécifier le nombre réel ou le nom d’un autre élément de données qui contient le nombre. <br /> | 
+| InType | <strong>QName</strong> | Type de données de cet élément de données. Pour obtenir la liste des types de données d’entrée prédéfinis, consultez le type complexe <a href="eventmanifestschema-inputtype-complextype.md"><strong>InputType</strong></a> .<br /> | 
+| length | <a href="eventmanifestschema-lengthtype-simpletype.md"><strong>LengthType</strong></a> | Longueur d’un élément de données de longueur variable, telle qu’un objet blob binaire. Pour les données binaires, spécifiez la longueur en octets et pour les données de type chaîne, spécifiez la longueur en caractères. Vous pouvez spécifier la longueur réelle ou le nom d’un autre élément de données qui contient la longueur.<br /> Si vous utilisez l’attribut length pour spécifier une chaîne de longueur fixe, vous devez remplir la chaîne à sa longueur fixe, ce qui permet d’utiliser le caractère de fin null à la fin (par exemple, si la longueur est égale à 5, la chaîne « ABC » doit être complétée comme « ABC ». La longueur de chaîne doit inclure le caractère de fin null.<br /> | 
+| carte | string | Nom de la carte nom/valeur à utiliser pour mapper des valeurs entières à des chaînes. Le type de données de l’élément de données doit être de l’un des types suivants :<br /><ul><li>win:UInt8</li><li>win:UInt16</li><li>win:UInt32</li></ul> | 
+| name | string | Nom de l'élément de données. Vous pouvez utiliser le nom pour faire référence à cet élément de données dans votre fragment XML si vous spécifiez une section <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> dans votre modèle. Vous pouvez également faire référence à ce nom dans un attribut de longueur ou de nombre d’un autre élément de données si cet élément de données contient sa valeur de longueur ou de nombre.<br /><strong>Windows Vista :</strong> Cet attribut est facultatif.<br /> | 
+| Type de | <strong>QName</strong> | Type de données à utiliser lors du rendu de cet élément de données. Pour obtenir la liste des types de données de sortie prédéfinis, consultez le type complexe <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> .<br /><strong>Windows Vista :</strong> Le type de sortie est ignoré et le service détermine le type en fonction du type d’entrée.<br /> | 
 
 
 
-## <a name="remarks"></a>Notes
+
+## <a name="remarks"></a>Remarques
 
 Pour les types d’entrée de longueur variable, tels que les objets BLOB binaires, vous devez utiliser l’attribut length pour spécifier explicitement la taille des données. Pour les chaînes, spécifiez l’attribut length uniquement si les chaînes ont une longueur fixe.
 
@@ -207,7 +166,7 @@ Voici quelques exemples de définitions d’éléments de données.
 
 
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
 | Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |

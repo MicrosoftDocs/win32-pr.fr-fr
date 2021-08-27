@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bfb87884438f1a39a5bd6f08eb9bb855311eb5d3
-ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
+ms.openlocfilehash: ec6f2724f4374ed94fff47e6577a2887ca953cae0af66de9c64971cd80aa2050
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "107734194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099999"
 ---
 # <a name="interval-repetitiontype-element"></a>Interval (élément repetitionType)
 
@@ -69,8 +69,8 @@ Pour obtenir un exemple complet du code XML d’une tâche qui utilise un interv
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

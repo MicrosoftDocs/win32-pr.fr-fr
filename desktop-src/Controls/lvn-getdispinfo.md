@@ -3,7 +3,7 @@ title: LVN_GETDISPINFO le code de notification (commctrl. h)
 description: Envoyé par un contrôle List-View à sa fenêtre parente. Il s’agit d’une demande de la fenêtre parente pour fournir les informations nécessaires à l’affichage ou au tri d’un élément de liste. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 04310e39-69bc-45d7-958c-00452279d7a9
 keywords:
-- Contrôles Windows de code de notification LVN_GETDISPINFO
+- LVN_GETDISPINFO les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1585524dd447c4a1324dc5c7a235490de776fb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1f4f4fc6917b0de699d1ca561f46bc7789aa15eea7c40aa3681fe74991e3a122
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103744004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088819"
 ---
 # <a name="lvn_getdispinfo-notification-code"></a>\_Code de notification LVN GETDISPINFO
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-co
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le récepteur de notification convertit *lParam* pour récupérer la structure [**NMLVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmlvdispinfoa) . Le paramètre *wParam* contient le code de notification.
 
@@ -124,8 +124,8 @@ Les éléments suivants proviennent du \_ Gestionnaire de notification WM dans l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVN \_ GETDISPINFOW** (Unicode) et **LVN \_ GETDISPINFOA** (ANSI)<br/>           |
 

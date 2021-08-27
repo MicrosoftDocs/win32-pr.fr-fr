@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37ef933ec1b10555aa4c88a24261313abb261163
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3e3089ac6d4b789d740f256a5c44c1911eb3501bc654c3b94d0006d405616572
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106510235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110259"
 ---
 # <a name="peakvalue"></a>PeakValue
 
@@ -31,11 +31,11 @@ L’attribut **PeakValue** contient une valeur d’amplitude de 16 bits désigna
 
 **\_valeur DWORD de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut est défini par l’objet writer en fonction des informations du codec. Seuls les flux compressés avec l’un des codecs Windows Media Audio ont une valeur définie automatiquement.
+Cet attribut est défini par l’objet writer en fonction des informations du codec. seuls les flux compressés avec l’un des codecs Windows Media Audio ont une valeur définie automatiquement.
 
-**PeakValue** n’est pas en lecture seule. Toutefois, si le fichier est lu par le lecteur Windows Media, vous ne devez pas modifier cette valeur. Le lecteur Windows Media l’utilise pour normaliser les niveaux de fichiers dans une sélection.
+**PeakValue** n’est pas en lecture seule. toutefois, si le fichier est lu par le Lecteur Windows Media, vous ne devez pas modifier cette valeur. le Lecteur Windows Media l’utilise pour normaliser les niveaux de fichiers dans une sélection.
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -44,9 +44,9 @@ Cet attribut est défini par l’objet writer en fonction des informations du co
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

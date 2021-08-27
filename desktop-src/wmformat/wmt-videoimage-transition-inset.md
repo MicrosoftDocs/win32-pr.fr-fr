@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f815e0bb1fc7e8e1cba277f68b7950af2b20395092b69b2c07ebb7ac51367da
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a47d53de99d3c6f6144755934989ca3958d28a23
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117843788"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476778"
 ---
 # <a name="wmt_videoimage_transition_inset"></a>inversion de \_ transition VIDEOIMAGE WMT \_ \_
 
@@ -31,52 +31,14 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Width</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Largeur de l’incrustation en pixels.</td>
-</tr>
-<tr class="even">
-<td>Height</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Hauteur de l’incrustation en pixels.</td>
-</tr>
-<tr class="odd">
-<td>Sens</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Angle d’origine de l’encart. Définissez l’une des valeurs suivantes :<br/>
-<ul>
-<li>0-en bas à gauche</li>
-<li>1-en bas à droite</li>
-<li>2-en haut à gauche</li>
-<li>3-en haut à droite</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Largeur | <strong>fEffectPara0</strong> | Largeur de l’incrustation en pixels. | 
+| Hauteur | <strong>fEffectPara1</strong> | Hauteur de l’incrustation en pixels. | 
+| Sens | <strong>fEffectPara2</strong> | Angle d’origine de l’encart. Définissez l’une des valeurs suivantes :<br /><ul><li>0-en bas à gauche</li><li>1-en bas à droite</li><li>2-en haut à gauche</li><li>3-en haut à droite</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li></ul> | 
+
 
 
 

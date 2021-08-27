@@ -4,12 +4,12 @@ ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: Présentation de DXGI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 324a5be26aade17385a6ab0b7d347015497a2a3f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 604787a1b3f747b9d33cc04e249128aede7b7a3e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481088"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626135"
 ---
 # <a name="dxgi-overview"></a>Présentation de DXGI
 
@@ -67,7 +67,7 @@ Si vous souhaitez sélectionner des fonctionnalités matérielles vidéo spécif
 
 ### <a name="new-info-about-enumerating-adapters-for-windows-8"></a>Nouvelles informations sur l’énumération des adaptateurs pour Windows 8
 
-À compter de Windows 8, un adaptateur appelé « pilote de rendu de base Microsoft » est toujours présent. Cet adaptateur a un ID de **0x1414** et un DeviceID de **0x8C**. La valeur [**\_ \_ \_ logicielle**](/windows/win32/api/dxgi/ne-dxgi-dxgi_adapter_flag) de l’indicateur de l’adaptateur DXGI est également définie dans le membre **Flags** de sa structure DESC2 de l' [**\_ adaptateur \_ dxgi**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_adapter_desc2) . Cet adaptateur est un appareil de rendu uniquement qui n’a pas de sortie d’affichage. DXGI ne retourne jamais l' [**\_ appareil d’erreur dxgi \_ \_ supprimé**](dxgi-error.md) pour cet adaptateur.
+à partir de Windows 8, un adaptateur appelé « pilote de rendu de base Microsoft » est toujours présent. Cet adaptateur a un ID de **0x1414** et un DeviceID de **0x8C**. La valeur [**\_ \_ \_ logicielle**](/windows/win32/api/dxgi/ne-dxgi-dxgi_adapter_flag) de l’indicateur de l’adaptateur DXGI est également définie dans le membre **Flags** de sa structure DESC2 de l' [**\_ adaptateur \_ dxgi**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_adapter_desc2) . Cet adaptateur est un appareil de rendu uniquement qui n’a pas de sortie d’affichage. DXGI ne retourne jamais l' [**\_ appareil d’erreur dxgi \_ \_ supprimé**](dxgi-error.md) pour cet adaptateur.
 
 Si le pilote d’affichage d’un ordinateur ne fonctionne pas ou est désactivé, l’adaptateur principal (**null**) de l’ordinateur peut également être appelé « pilote de rendu de base Microsoft ». Toutefois, cet adaptateur a des sorties et n’a pas de valeur de logiciel pour l’indicateur de l' [**\_ adaptateur \_ \_ dxgi**](/windows/win32/api/dxgi/ne-dxgi-dxgi_adapter_flag) . Le système d’exploitation et les applications utilisent cet adaptateur par défaut. Si un pilote d’affichage est installé ou activé, les applications peuvent recevoir l' [**\_ appareil d’erreur dxgi \_ \_ supprimé**](dxgi-error.md) pour cet adaptateur, puis recommencer l’énumération des adaptateurs.
 
@@ -104,7 +104,7 @@ Une chaîne de permutation est configurée pour dessiner en mode plein écran ou
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -112,7 +112,7 @@ Une chaîne de permutation est configurée pour dessiner en mode plein écran ou
 <ul>
 <li>Dans DXGI, une chaîne de permutation est liée à une fenêtre lorsque la chaîne de permutation est créée. Cette modification améliore les performances et économise de la mémoire. Les versions précédentes de Direct3D permettaient à la chaîne de permutation de modifier la fenêtre à laquelle la chaîne de permutation est liée.</li>
 <li>Dans DXGI, une chaîne de permutation est liée à un périphérique de rendu à la création. L’objet d’appareil que les fonctions de création de périphérique Direct3D retournent implémente l’interface <a href="/windows/win32/api/unknwn/nn-unknwn-iunknown"><strong>IUnknown</strong></a> . Vous pouvez appeler <a href="/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)"><strong>QueryInterface</strong></a> pour Rechercher l’interface <a href="/windows/win32/api/DXGI1_2/nn-dxgi1_2-idxgidevice2"><strong>IDXGIDevice2</strong></a> correspondante de l’appareil. Une modification apportée au périphérique de rendu requiert la recréation de la chaîne de permutation.</li>
-<li><p>Dans DXGI, les effets d’échange disponibles sont DXGI_SWAP_EFFECT_DISCARD et DXGI_SWAP_EFFECT_SEQUENTIAL. À compter de Windows 8, l’effet d’échange DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL est également disponible. Le tableau suivant montre un mappage de l’effet Direct3D 9 à DXGI swap. </p>
+<li><p>Dans DXGI, les effets d’échange disponibles sont DXGI_SWAP_EFFECT_DISCARD et DXGI_SWAP_EFFECT_SEQUENTIAL. à partir de Windows 8 l’effet d’échange DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL est également disponible. Le tableau suivant montre un mappage de l’effet Direct3D 9 à DXGI swap. </p>
 <table>
 <thead>
 <tr class="header">
@@ -182,7 +182,7 @@ L’échec de l’appel de [**IDXGISwapChain :: ResizeBuffers**](/windows/win32
 
 [**IDXGISwapChain1 ::P resent1**](/windows/win32/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) vous indique si votre fenêtre de sortie est entièrement bloqués via **dxgi \_ Status \_ bloqués**. Dans ce cas, nous vous recommandons de passer en mode veille (en appelant **IDXGISwapChain1 ::P resent1** avec le **\_ \_ test dxgi présent**), car les ressources utilisées pour le rendu du frame sont gaspillées. L’utilisation de **dxgi \_ présente un \_ test** empêchera la présentation de toutes les données pendant que le contrôle d’occlusion est toujours en cours d’exécution. Une fois **IDXGISwapChain1 ::P resent1** retourne S \_ OK, vous devez quitter le mode veille ; n’utilisez pas le code de retour pour basculer en mode veille, car cela peut permettre à la chaîne de permutation de quitter le mode plein écran.
 
-Le runtime Direct3D 11,1, qui est disponible à partir de Windows 8, fournit une chaîne de permutation de modèle (autrement dit, une chaîne de permutation qui a l' [**effet d’échange dxgi retourne une valeur \_ \_ \_ \_ séquentielle**](/windows/win32/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la chaîne d’échange [**dxgi \_ \_ \_ desc**](/windows/win32/api/DXGI/ns-dxgi-dxgi_swap_chain_desc) ou dxgi chaîne de permutation [**\_ \_ \_ DESC1**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)). Lorsque vous présentez des frames dans une sortie avec une chaîne de permutation-modèle, DXGI dissocie la mémoire tampon d’arrière-plan de tous les emplacements d’état de pipeline, comme une cible de rendu de fusion de sortie, qui écrivent dans la mémoire tampon d’arrière-plan 0. Par conséquent, nous vous recommandons d’appeler [**ID3D11DeviceContext :: OMSetRenderTargets**](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets) immédiatement avant d’effectuer le rendu dans la mémoire tampon d’arrière-plan. Par exemple, n’appelez pas **OMSetRenderTargets** , puis effectuez le calcul du nuanceur de calcul qui n’finit pas par le rendu de la ressource. Pour plus d’informations sur les chaînes de permutation-modèle et leurs avantages, consultez [dxgi Flip Model](dxgi-flip-model.md).
+le runtime Direct3D 11,1, qui est disponible à partir de Windows 8, fournit une chaîne de permutation-modèle (autrement dit, une chaîne de permutation dont l' [**effet d’échange DXGI retourne une valeur \_ \_ \_ \_ séquentielle**](/windows/win32/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la chaîne d' [**\_ échange DXGI \_ \_ DESC**](/windows/win32/api/DXGI/ns-dxgi-dxgi_swap_chain_desc) ou DXGI chaîne de permutation [**\_ \_ \_ DESC1**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)). Lorsque vous présentez des frames dans une sortie avec une chaîne de permutation-modèle, DXGI dissocie la mémoire tampon d’arrière-plan de tous les emplacements d’état de pipeline, comme une cible de rendu de fusion de sortie, qui écrivent dans la mémoire tampon d’arrière-plan 0. Par conséquent, nous vous recommandons d’appeler [**ID3D11DeviceContext :: OMSetRenderTargets**](/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets) immédiatement avant d’effectuer le rendu dans la mémoire tampon d’arrière-plan. Par exemple, n’appelez pas **OMSetRenderTargets** , puis effectuez le calcul du nuanceur de calcul qui n’finit pas par le rendu de la ressource. Pour plus d’informations sur les chaînes de permutation-modèle et leurs avantages, consultez [dxgi Flip Model](dxgi-flip-model.md).
 
 > [!NOTE]  
 > Dans Direct3D 10 et Direct3D 11, vous n’avez pas besoin d’appeler [**IDXGISwapChain :: GetBuffer**](/windows/win32/api/DXGI/nf-dxgi-idxgiswapchain-getbuffer) pour récupérer la mémoire tampon d’arrière-plan 0 après avoir appelé [**IDXGISwapChain1 ::P resent1**](/windows/win32/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1) , car pour des raisons pratiques, les identités des mémoires tampons d’arrière-plan changent. Cela ne se produit pas dans Direct3D 12, et votre application doit à la place suivre manuellement les index de mémoire tampon d’arrière-plan.
@@ -265,7 +265,7 @@ Une application n’a pas besoin de se soucier de l’orientation du moniteur, D
 
 En effectuant la rotation dans votre application, DXGI effectue simplement une copie au lieu d’une copie et d’une rotation.
 
-Le runtime Direct3D 11,1, qui est disponible à partir de Windows 8, fournit une chaîne de permutation de modèle (autrement dit, une chaîne de permutation qui a l' [**effet d’échange dxgi retourne une valeur \_ \_ \_ \_ séquentielle**](/windows/win32/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la [**chaîne de \_ permutation dxgi \_ \_ DESC1**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)). Pour optimiser les optimisations de présentation disponibles avec une chaîne de permutation-modèle, nous vous recommandons de faire en sorte que vos applications orientent le contenu pour correspondre à la sortie particulière sur laquelle le contenu réside lorsque ce contenu occupe entièrement la sortie. Pour plus d’informations sur les chaînes de permutation-modèle et leurs avantages, consultez [dxgi Flip Model](dxgi-flip-model.md).
+le runtime Direct3D 11,1, qui est disponible à partir de Windows 8, fournit une chaîne de permutation-modèle (autrement dit, une chaîne de permutation dont l' [**effet d’échange DXGI retourne une valeur \_ \_ \_ \_ séquentielle**](/windows/win32/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la [**chaîne de \_ permutation DXGI \_ \_ DESC1**](/windows/win32/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1)). Pour optimiser les optimisations de présentation disponibles avec une chaîne de permutation-modèle, nous vous recommandons de faire en sorte que vos applications orientent le contenu pour correspondre à la sortie particulière sur laquelle le contenu réside lorsque ce contenu occupe entièrement la sortie. Pour plus d’informations sur les chaînes de permutation-modèle et leurs avantages, consultez [dxgi Flip Model](dxgi-flip-model.md).
 
 ### <a name="switching-modes"></a>Modes de basculement
 

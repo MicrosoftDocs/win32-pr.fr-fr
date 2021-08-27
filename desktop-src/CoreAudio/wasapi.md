@@ -4,16 +4,16 @@ ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: À propos de WASAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f869319f3100b797e58c7b43597869c9767ac037
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3effb34ec0cde0a53d0eb6f6e9718aa13fc308417b33427f168364afc32086ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088179"
 ---
 # <a name="about-wasapi"></a>À propos de WASAPI
 
-L’API de session audio Windows (WASAPI) permet aux applications clientes de gérer le flux de données audio entre l’application et un [périphérique de point de terminaison audio](audio-endpoint-devices.md).
+l’API de Session audio Windows (WASAPI) permet aux applications clientes de gérer le flux de données audio entre l’application et un [périphérique de point de terminaison audio](audio-endpoint-devices.md).
 
 Les fichiers d’en-tête Audioclient. h et Audiopolicy. h définissent les interfaces WASAPI.
 

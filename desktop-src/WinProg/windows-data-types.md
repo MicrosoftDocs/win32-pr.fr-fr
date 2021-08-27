@@ -1,12 +1,12 @@
 ---
 title: Types de données Windows (BaseTsd.h)
-description: Les types de données pris en charge par Windows sont utilisés pour définir les valeurs de retour de fonction, les paramètres de fonction et de message, ainsi que les membres de structure.
+description: les types de données pris en charge par Windows sont utilisés pour définir les valeurs de retour de fonction, les paramètres de fonction et de message, ainsi que les membres de structure.
 ms.assetid: 4553cafc-450e-4493-a4d4-cb6e2f274d46
 keywords:
 - types de données
-- types de données, fenêtres
+- types de données, Windows
 - API Windows
-- API Windows, types de données
+- Windows API, types de données
 - APIENTRY
 - ATOM
 - BOOL
@@ -175,23 +175,23 @@ keywords:
 - UNICODE_STRING
 - USHORT
 - USN
-- NULLITÉ
+- VOID
 - WCHAR
 - WINAPI
 - WORD
 - WPARAM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf3a23e816a78f0dcae9c2fbd6e6979b936451c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3002912cafbdf2dd4fe62c19fe3faef302da8c9b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384524"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626335"
 ---
 # <a name="windows-data-types"></a>Types de données Windows
 
-Les types de données pris en charge par Windows sont utilisés pour définir les valeurs de retour de fonction, les paramètres de fonction et de message, ainsi que les membres de structure. Ils définissent la taille et la signification de ces éléments. Pour plus d’informations sur les types de données C/C++ sous-jacents, consultez [plages de types de données](/cpp/cpp/data-type-ranges?view=vs-2019).
+les types de données pris en charge par Windows sont utilisés pour définir les valeurs de retour de fonction, les paramètres de fonction et de message, ainsi que les membres de structure. Ils définissent la taille et la signification de ces éléments. Pour plus d’informations sur les types de données C/C++ sous-jacents, consultez [plages de types de données](/cpp/cpp/data-type-ranges?view=vs-2019).
 
 Le tableau suivant contient les types suivants : caractère, entier, booléen, pointeur et handle. Les types caractère, entier et booléen sont communs à la plupart des compilateurs C. La plupart des noms de type pointeur commencent par le préfixe P ou LP. Les handles font référence à une ressource qui a été chargée en mémoire.
 
@@ -201,8 +201,8 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -233,15 +233,15 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="even">
 <td><span id="CALLBACK"></span><span id="callback"></span><strong>RAPPEL</strong></td>
-<td>Convention d’appel pour les fonctions de rappel.<br/> Ce type est déclaré dans WinDef. h comme suit :<br/> <code>#define CALLBACK __stdcall</code><br/> Les fonctions <strong>callback</strong>, <strong>WinAPI</strong>et <strong>APIENTRY</strong> sont toutes utilisées pour définir des fonctions avec la Convention d’appel __stdcall. La plupart des fonctions de l’API Windows sont déclarées à l’aide de <strong>WinAPI</strong>. Vous pouvez utiliser le <strong>rappel</strong> pour les fonctions de rappel que vous implémentez pour aider à identifier la fonction en tant que fonction de rappel.<br/></td>
+<td>Convention d’appel pour les fonctions de rappel.<br/> Ce type est déclaré dans WinDef. h comme suit :<br/> <code>#define CALLBACK __stdcall</code><br/> Les fonctions <strong>callback</strong>, <strong>WinAPI</strong>et <strong>APIENTRY</strong> sont toutes utilisées pour définir des fonctions avec la Convention d’appel __stdcall. la plupart des fonctions de l’API Windows sont déclarées à l’aide de <strong>WINAPI</strong>. Vous pouvez utiliser le <strong>rappel</strong> pour les fonctions de rappel que vous implémentez pour aider à identifier la fonction en tant que fonction de rappel.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="CCHAR"></span><span id="cchar"></span><strong>CCHAR</strong></td>
-<td>Caractère Windows (ANSI) 8 bits.<br/> Ce type est déclaré dans Winnt. h comme suit :<br/> <code>typedef char CCHAR;</code><br/></td>
+<td>caractère Windows (ANSI) 8 bits.<br/> Ce type est déclaré dans Winnt. h comme suit :<br/> <code>typedef char CCHAR;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="CHAR"></span><span id="char"></span><strong>CHAR</strong></td>
-<td>Caractère Windows (ANSI) 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.<br/> Ce type est déclaré dans Winnt. h comme suit :<br/> <code>typedef char CHAR;</code><br/></td>
+<td>caractère Windows (ANSI) 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.<br/> Ce type est déclaré dans Winnt. h comme suit :<br/> <code>typedef char CHAR;</code><br/></td>
 </tr>
 <tr class="odd">
 <td><span id="COLORREF"></span><span id="colorref"></span><strong>COLORREF</strong></td>
@@ -261,7 +261,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="odd">
 <td><span id="DWORD_PTR"></span><span id="dword_ptr"></span><strong>DWORD_PTR</strong></td>
-<td>Type long non signé pour la précision du pointeur. Utilisez lorsque vous effectuez un cast d’un pointeur vers un type long pour effectuer une opération arithmétique de pointeur. (Également couramment utilisé pour les paramètres 32 bits généraux qui ont été étendus à 64 bits dans Windows 64 bits.)<br/> Ce type est déclaré dans BaseTsd. h comme suit :<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
+<td>Type long non signé pour la précision du pointeur. Utilisez lorsque vous effectuez un cast d’un pointeur vers un type long pour effectuer une opération arithmétique de pointeur. (Également couramment utilisé pour les paramètres 32 bits généraux qui ont été étendus à 64 bits dans les Windows 64 bits.)<br/> Ce type est déclaré dans BaseTsd. h comme suit :<br/> <code>typedef ULONG_PTR DWORD_PTR;</code><br/></td>
 </tr>
 <tr class="even">
 <td><span id="DWORD32"></span><span id="dword32"></span><strong>DWORD32</strong></td>
@@ -284,7 +284,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <td>La moitié de la taille d’un pointeur. Utilisez dans une structure qui contient un pointeur et deux petits champs.<br/> Ce type est déclaré dans BaseTsd. h comme suit :<br/> <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -420,7 +420,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <tr class="even">
 <td><span id="HINSTANCE"></span><span id="hinstance"></span><strong>HINSTANCE</strong></td>
 <td><p>Handle d’une instance. Il s’agit de l’adresse de base du module en mémoire.</p>
-<p><strong>HMODULE</strong> et <strong>HINSTANCE</strong> sont les mêmes aujourd’hui, mais représentaient des choses différentes dans Windows 16 bits.</p>
+<p><strong>HMODULE</strong> et <strong>HINSTANCE</strong> sont les mêmes aujourd’hui, mais représentaient des éléments différents en Windows 16 bits.</p>
 <p>Ce type est déclaré dans WinDef. h comme suit :</p>
 <p><code>typedef HANDLE HINSTANCE;</code></p></td>
 </tr>
@@ -457,7 +457,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <tr class="even">
 <td><span id="HMODULE"></span><span id="hmodule"></span><strong>HMODULE</strong></td>
 <td><p>Handle d’un module. Est l’adresse de base du module en mémoire.</p>
-<p><strong>HMODULE</strong> et <strong>HINSTANCE</strong> sont les mêmes dans les versions actuelles de Windows, mais représentaient des éléments différents dans Windows 16 bits.</p>
+<p><strong>HMODULE</strong> et <strong>HINSTANCE</strong> sont les mêmes dans les versions actuelles de Windows, mais représentaient des éléments différents en Windows 16 bits.</p>
 <p>Ce type est déclaré dans WinDef. h comme suit :</p>
 <p><code>typedef HINSTANCE HMODULE;</code></p></td>
 </tr>
@@ -529,7 +529,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -611,7 +611,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -639,7 +639,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -697,19 +697,19 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="odd">
 <td><span id="LPCSTR"></span><span id="lpcstr"></span><strong>LPCSTR</strong></td>
-<td><p>Pointeur vers une chaîne constante se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
+<td><p>pointeur vers une chaîne constante se terminant par un caractère null de 8 bits Windows (ANSI). Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <p><code>typedef __nullterminated CONST CHAR *LPCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPCTSTR"></span><span id="lpctstr"></span><strong>LPCTSTR</strong></td>
-<td><p>Un <a href="#lpcwstr"><strong>LPCWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#lpcstr"><strong>LPCSTR</strong></a> dans le cas contraire. Pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">types de données Windows pour les chaînes</a>.</p>
+<td><p>Un <a href="#lpcwstr"><strong>LPCWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#lpcstr"><strong>LPCSTR</strong></a> dans le cas contraire. pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows des Types de données pour les chaînes</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -767,19 +767,19 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="odd">
 <td><span id="LPSTR"></span><span id="lpstr"></span><strong>LPSTR</strong></td>
-<td><p>Pointeur vers une chaîne se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
+<td><p>pointeur vers une chaîne se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <p><code>typedef CHAR *LPSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LPTSTR"></span><span id="lptstr"></span><strong>LPTSTR</strong></td>
-<td><p>Un <a href="#lpwstr"><strong>LPWStr</strong></a> si <strong>Unicode</strong> est défini, sinon, <a href="#lpstr"><strong>LPSTR</strong></a> . Pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">types de données Windows pour les chaînes</a>.</p>
+<td><p>Un <a href="#lpwstr"><strong>LPWStr</strong></a> si <strong>Unicode</strong> est défini, sinon, <a href="#lpstr"><strong>LPSTR</strong></a> . pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows des Types de données pour les chaînes</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -849,19 +849,19 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="odd">
 <td><span id="PCSTR"></span><span id="pcstr"></span><strong>PCSTR</strong></td>
-<td><p>Pointeur vers une chaîne constante se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
+<td><p>pointeur vers une chaîne constante se terminant par un caractère null de 8 bits Windows (ANSI). Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <p><code>typedef CONST CHAR *PCSTR;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="PCTSTR"></span><span id="pctstr"></span><strong>PCTSTR</strong></td>
-<td><p>Un <a href="#pcwstr"><strong>PCWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#pcstr"><strong>PCSTR</strong></a> dans le cas contraire. Pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">types de données Windows pour les chaînes</a>.</p>
+<td><p>Un <a href="#pcwstr"><strong>PCWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#pcstr"><strong>PCSTR</strong></a> dans le cas contraire. pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows des Types de données pour les chaînes</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -931,7 +931,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1043,7 +1043,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1072,7 +1072,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1124,7 +1124,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="even">
 <td><span id="PSTR"></span><span id="pstr"></span><strong>PSTR</strong></td>
-<td><p>Pointeur vers une chaîne se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
+<td><p>pointeur vers une chaîne se terminant par un caractère null de caractères Windows (ANSI) de 8 bits. Pour plus d’informations, consultez <a href="/windows/desktop/gdi/character-sets-used-by-fonts">jeux de caractères utilisés par les polices</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <p><code>typedef CHAR *PSTR;</code></p></td>
 </tr>
@@ -1142,13 +1142,13 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 </tr>
 <tr class="odd">
 <td><span id="PTSTR"></span><span id="ptstr"></span><strong>PTSTR</strong></td>
-<td><p>Un <a href="#pwstr"><strong>PWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#pstr"><strong>PSTR</strong></a> dans le cas contraire. Pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">types de données Windows pour les chaînes</a>.</p>
+<td><p>Un <a href="#pwstr"><strong>PWSTR</strong></a> si <strong>Unicode</strong> est défini, un <a href="#pstr"><strong>PSTR</strong></a> dans le cas contraire. pour plus d’informations, consultez <a href="/windows/desktop/Intl/windows-data-types-for-strings">Windows des Types de données pour les chaînes</a>.</p>
 <p>Ce type est déclaré dans Winnt. h comme suit :</p>
 <div class="code">
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1181,7 +1181,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1347,7 +1347,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1375,7 +1375,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1409,7 +1409,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1443,7 +1443,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1501,7 +1501,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1529,7 +1529,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1569,7 +1569,7 @@ Pour plus d’informations sur la gestion des entiers 64 bits, consultez [entier
 <span data-codelanguage="ManagedCPlusPlus"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1620,7 +1620,7 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 <td><p>Convention d’appel pour les fonctions système.</p>
 <p>Ce type est déclaré dans WinDef. h comme suit :</p>
 <p><code>#define WINAPI __stdcall</code></p>
-<p>Les fonctions <strong>callback</strong>, <strong>WinAPI</strong>et <strong>APIENTRY</strong> sont toutes utilisées pour définir des fonctions avec la Convention d’appel __stdcall. La plupart des fonctions de l’API Windows sont déclarées à l’aide de <strong>WinAPI</strong>. Vous pouvez utiliser le <strong>rappel</strong> pour les fonctions de rappel que vous implémentez pour aider à identifier la fonction en tant que fonction de rappel.</p></td>
+<p>Les fonctions <strong>callback</strong>, <strong>WinAPI</strong>et <strong>APIENTRY</strong> sont toutes utilisées pour définir des fonctions avec la Convention d’appel __stdcall. la plupart des fonctions de l’API Windows sont déclarées à l’aide de <strong>WINAPI</strong>. Vous pouvez utiliser le <strong>rappel</strong> pour les fonctions de rappel que vous implémentez pour aider à identifier la fonction en tant que fonction de rappel.</p></td>
 </tr>
 <tr class="even">
 <td><span id="WORD"></span><span id="word"></span><strong>AUTOMATIQUE</strong></td>
@@ -1645,6 +1645,6 @@ typedef const UNICODE_STRING *PCUNICODE_STRING;</code></pre></td>
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                                                                                                                                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                                                                                                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                                                                                                                                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                                                                                                                                |
 | En-tête<br/>                   | <dl> <dt>BaseTsd. h ; </dt> <dt>WinDef. h ; </dt> <dt>Winnt. h</dt> </dl> |

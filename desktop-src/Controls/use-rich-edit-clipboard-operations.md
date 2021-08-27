@@ -4,27 +4,27 @@ description: Une application peut coller le contenu du presse-papiers dans un co
 ms.assetid: 1FEFFD95-839B-4A26-A26E-B8429D5FF4C0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a46432054956914b484c9faeeeda78f2a18e132
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: bdeac2e892716880e4e2971d597c13047dc79cebf2c57888e2fa248c6b0c4beb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120132089"
 ---
 # <a name="how-to-use-rich-edit-clipboard-operations"></a>Comment utiliser les opérations du presse-papiers RichEdit
 
 Une application peut coller le contenu du presse-papiers dans un contrôle RichEdit en utilisant le format de presse-papiers le mieux disponible ou un format de presse-papiers spécifique. Vous pouvez également déterminer si un contrôle RichEdit peut coller un format de presse-papiers.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -51,9 +51,9 @@ Une application peut inscrire ces formats à l’aide de la fonction [**Register
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

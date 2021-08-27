@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 259ff9613756940d5da8a37585dbf39fb2dc0a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f6c45c67bd8863b6cf1169670a4d087f29e4441c48592f850a683af5ef0bc1d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111789"
 ---
 # <a name="folderiteminvokeverb-method"></a>Méthode FolderItem. InvokeVerb
 
@@ -52,17 +52,17 @@ Chaîne qui spécifie le verbe à exécuter. Il doit s’agir de l’une des val
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un verbe est une chaîne utilisée pour spécifier une action particulière prise en charge par un élément. L’appel d’un verbe équivaut à sélectionner une commande dans le menu contextuel d’un élément. En règle générale, l’appel d’un verbe lance une application associée. Par exemple, l’appel du verbe « Open » sur un fichier. txt ouvre le fichier avec un éditeur de texte, généralement Microsoft Notepad. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md) .
+Un verbe est une chaîne utilisée pour spécifier une action particulière prise en charge par un élément. L’appel d’un verbe équivaut à sélectionner une commande dans le menu contextuel d’un élément. En règle générale, l’appel d’un verbe lance une application associée. par exemple, l’appel du verbe « open » sur un fichier .txt ouvre le fichier avec un éditeur de texte, généralement Microsoft Bloc-notes. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md) .
 
 L’objet [**FolderItemVerbs**](folderitemverbs.md) représente la collection de verbes associée à l’élément. Le verbe par défaut peut varier pour différents éléments, mais il est généralement « Open ».
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **InvokeVerb** pour appeler le verbe par défaut (« Open » dans ce cas) dans le dossier Windows. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+l’exemple suivant utilise **InvokeVerb** pour appeler le verbe par défaut (« open » dans ce cas) dans le dossier Windows. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -161,13 +161,13 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |
@@ -182,7 +182,7 @@ End Sub
 [**FolderItem**](folderitem.md)
 </dt> <dt>
 
-[**Verbes et adverbes**](folderitem-verbs.md)
+[**Verbes**](folderitem-verbs.md)
 </dt> <dt>
 
 [**DoIt**](folderitemverb-doit.md)

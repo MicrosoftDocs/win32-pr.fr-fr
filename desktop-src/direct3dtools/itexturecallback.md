@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 831de15656960cdc72ef2db50c1f3d13b8491e38
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4e0d058a9851c4c9c3df3f5757b4ae3f6eb4356e
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747372"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786085"
 ---
 # <a name="span-idvspixengineitexturecallbackspanitexturecallback-interface"></a><span id="vspixengine.itexturecallback"></span>Interface ITextureCallback
 
@@ -38,13 +38,13 @@ L’interface **ITextureCallback** hérite de l’interface [**IUnknown**](/wind
 
 L’interface **ITextureCallback** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/itexturecallback-resultcallback"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte que le. Le fichier DDS (surface DirectDraw) contenant les résultats de la demande associée est prêt.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/itexturecallback-resultcallback"><strong>ResultCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte que le. Le fichier DDS (surface DirectDraw) contenant les résultats de la demande associée est prêt.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 
