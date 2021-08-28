@@ -8,12 +8,12 @@ keywords:
 - Nom du principal du service AD, formats de noms pour
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce939d642180192500790253158eaa03dc41c8d173aed2d96d5175f07e39c101
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 8b041f88bc025c604ec5f0ad9a6bf5ba7f4cdabc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025717"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472334"
 ---
 # <a name="name-formats-for-unique-spns"></a>Formats de noms pour les SPN uniques
 
@@ -28,41 +28,14 @@ Un nom principal de service doit être unique dans la forêt dans laquelle il es
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Élément</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&quot;&lt;classe de service&gt;&quot;</td>
-<td>Chaîne qui identifie la classe générale du service ; par exemple, &quot; SqlServer &quot; . Il existe des noms de classe de service bien connus, tels que &quot; www &quot; pour un service Web ou &quot; LDAP &quot; pour un service d’annuaire. En général, il peut s’agir de n’importe quelle chaîne propre à la classe de service. Sachez que la syntaxe du SPN utilise une barre oblique (/) pour séparer les éléments, de sorte que ce caractère ne peut pas figurer dans un nom de classe de service.</td>
-</tr>
-<tr class="even">
-<td>&quot;&lt;HBA&gt;&quot;</td>
-<td>Nom de l’ordinateur sur lequel le service est en cours d’exécution. Il peut s’agir d’un nom DNS complet ou d’un nom NetBIOS. Sachez qu'il n'existe aucune garantie que les noms NetBIOS soient uniques dans une forêt ; par conséquent, un SPN qui contient un nom NetBIOS peut ne pas être unique.</td>
-</tr>
-<tr class="odd">
-<td>&quot;&lt;port&gt;&quot;</td>
-<td>Numéro de port facultatif permettant de faire la distinction entre plusieurs instances de la même classe de service sur un seul ordinateur hôte. Omettez ce composant si le service utilise le port par défaut pour sa classe de service.</td>
-</tr>
-<tr class="even">
-<td>&quot;&lt;nom du service&gt;&quot;</td>
-<td>Nom facultatif utilisé dans les noms de principal du service d’un service réplicable pour identifier les données ou services fournis par le service ou le domaine pris en charge par le service. Ce composant peut avoir l’un des formats suivants :
-<ul>
-<li>Nom unique ou objectGUID d’un objet dans Active Directory Domain Services, tel qu’un point de connexion de service (SCP).</li>
-<li>Nom DNS du domaine pour un service qui fournit un service spécifié pour un domaine dans son ensemble.</li>
-<li>Nom DNS d’un enregistrement SRV ou MX.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Élément | Description | 
+|---------|-------------|
+| "<service class>" | Chaîne qui identifie la classe générale du service ; par exemple, « SqlServer ». Il existe des noms de classe de service bien connus, tels que « www » pour un service Web ou « LDAP » pour un service d’annuaire. En général, il peut s’agir de n’importe quelle chaîne propre à la classe de service. Sachez que la syntaxe du SPN utilise une barre oblique (/) pour séparer les éléments, de sorte que ce caractère ne peut pas figurer dans un nom de classe de service. | 
+| "<host>" | Nom de l’ordinateur sur lequel le service est en cours d’exécution. Il peut s’agir d’un nom DNS complet ou d’un nom NetBIOS. Sachez qu'il n'existe aucune garantie que les noms NetBIOS soient uniques dans une forêt ; par conséquent, un SPN qui contient un nom NetBIOS peut ne pas être unique. | 
+| "<port>" | Numéro de port facultatif permettant de faire la distinction entre plusieurs instances de la même classe de service sur un seul ordinateur hôte. Omettez ce composant si le service utilise le port par défaut pour sa classe de service. | 
+| "<service name>" | Nom facultatif utilisé dans les noms de principal du service d’un service réplicable pour identifier les données ou services fournis par le service ou le domaine pris en charge par le service. Ce composant peut avoir l’un des formats suivants :<ul><li>Nom unique ou objectGUID d’un objet dans Active Directory Domain Services, tel qu’un point de connexion de service (SCP).</li><li>Nom DNS du domaine pour un service qui fournit un service spécifié pour un domaine dans son ensemble.</li><li>Nom DNS d’un enregistrement SRV ou MX.</li></ul> | 
+
 
 
 

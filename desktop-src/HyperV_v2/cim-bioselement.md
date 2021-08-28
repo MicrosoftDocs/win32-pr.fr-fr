@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f97cbb495fb8105be012c44942aeedb39377e3d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78f2433d2b75e2c348fdf6e7a8ff35db56c9a0c8
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879878"
 ---
 # <a name="cim_bioselement-class-hyper-v-management"></a>Classe CIM_BIOSElement (gestion Hyper-V)
 
@@ -217,12 +217,12 @@ Qualificateurs : [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("
 
 Version de l’opération. La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   *<major>*.*<minor>*.*<revision>*
--   *<major>*.*<minor><letter><revision>*
+-   *&lt; majeure &gt;**. &lt; mineure &gt;*. *&lt; révision &gt;*
+-   *&lt; majeure &gt;**. &lt; &gt; &lt; &gt; &lt; révision &gt; de la lettre secondaire*
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

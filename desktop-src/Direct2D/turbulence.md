@@ -6,12 +6,12 @@ keywords:
 - effet turbulence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f67f615ec5b68ca285a048b68bc7bc8eab6e24
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: a2f2aa58be48c759956fe3522812d7ad6c3e9989
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104565102"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468596"
 ---
 # <a name="turbulence-effect"></a>Effet turbulence
 
@@ -53,59 +53,17 @@ Cet effet génère des valeurs en pixels dans des valeurs alpha prémultipliées
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom complet et énumération d’index</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Offset<br/> D2D1_TURBULENCE_PROP_OFFSET<br/></td>
-<td>Coordonnées où la sortie de turbulence est générée.<br/> L’algorithme utilisé pour générer le bruit perl est dépendant de la position, donc un décalage différent produit une sortie différente. Cette propriété n’est pas limitée et les unités sont spécifiées dans des DIP <br/>
-<blockquote>
-[!Note]<br />
-Le décalage n’a pas le même effet qu’une translation, car la sortie de la fonction Noise est infinie et la fonction est encapsulée dans la vignette.
-</blockquote>
-<br/> Le type est D2D1_VECTOR_2F.<br/> La valeur par défaut est {0.0 f, 0.0 f}.<br/></td>
-</tr>
-<tr class="even">
-<td>Taille<br/> D2D1_TURBULENCE_PROP_SIZE<br/></td>
-<td>Taille de la sortie de turbulence.<br/> Cette propriété n’est pas limitée et les unités sont spécifiées dans des DIP <br/>
-<br/> Le type est D2D1_VECTOR_2F.<br/> La valeur par défaut est {0.0 f, 0.0 f}.<br/></td>
-</tr>
-<tr class="odd">
-<td>BaseFrequency<br/> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br/></td>
-<td>Les fréquences de base dans les directions X et Y. Cette propriété est de type float et doit être supérieure à 0. Les unités sont spécifiées en 1/DIP. <br/> Une valeur de 1 (1/DIP) pour la fréquence de base se traduit par un bruit Perl qui termine un cycle entier entre deux pixels. L’interpolation d’accélération pour ces pixels entraîne des pixels complètement aléatoires, car il n’y a aucune corrélation entre les pixels.<br/> Une valeur de 0.1 (1/DIP) pour la fréquence de base, la fonction de bruit perl se répète toutes les 10 dip. Cela aboutit à une corrélation entre les pixels et l’effet de turbulence typique est visible.<br/> Le type est D2D1_VECTOR_2F.<br/> La valeur par défaut est {0,01 f, 0,01 f}.<br/></td>
-</tr>
-<tr class="even">
-<td>NumOctaves<br/> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br/></td>
-<td>Nombre d’octaves pour la fonction de bruit. Cette propriété est un UINT32 et doit être supérieure à 0.<br/> Le type est UINT32.<br/> La valeur par défaut est 1.<br/></td>
-</tr>
-<tr class="odd">
-<td>Seed<br/> D2D1_TURBULENCE_PROP_SEED<br/></td>
-<td>Valeur initiale pour le générateur Pseudo-aléatoire. Cette propriété n’est pas liée.<br/> Le type est UINT32.<br/> La valeur par défaut est 0.<br/></td>
-</tr>
-<tr class="even">
-<td>Parasite<br/> D2D1_TURBULENCE_PROP_NOISE<br/></td>
-<td>Mode de bruit de turbulence. Cette propriété peut être une <em>somme fractale</em> ou une <em>turbulence</em>. Indique s’il faut générer une image bitmap basée sur le bruit fractal ou la fonction turbulence. Pour plus d’informations, consultez <a href="#noise-modes">modes de bruit</a> . <br/> Le type est D2D1_TURBULENCE_NOISE.<br/> La valeur par défaut est D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br/></td>
-</tr>
-<tr class="odd">
-<td>Agrafable<br/> D2D1_TURBULENCE_PROP_STITCHABLE<br/></td>
-<td>Active ou désactive l’assemblage. La fréquence de base est ajustée afin que la bitmap de sortie puisse être retouchée. Cela est utile si vous souhaitez afficher en mosaïque plusieurs copies de la sortie de l’effet de turbulence.
-<ul>
-<li>True la bitmap de sortie peut être en mosaïque (à l’aide de l’effet de vignette) sans l’apparence des jointures. La fréquence de base est ajustée afin que la bitmap de sortie puisse être retouchée.</li>
-<li>False la fréquence de base n’est pas ajustée. les coutures peuvent donc apparaître entre les vignettes si la bitmap est affichée en mosaïque.</li>
-</ul>
-<br/> Le type est BOOL.<br/> La valeur par défaut est FALSE.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Nom complet et énumération d’index | Description | 
+|------------------------------------|-------------|
+| Offset<br /> D2D1_TURBULENCE_PROP_OFFSET<br /> | Coordonnées où la sortie de turbulence est générée.<br /> L’algorithme utilisé pour générer le bruit perl est dépendant de la position, donc un décalage différent produit une sortie différente. Cette propriété n’est pas limitée et les unités sont spécifiées dans des DIP <br /><blockquote>[!Note]<br />Le décalage n’a pas le même effet qu’une translation, car la sortie de la fonction Noise est infinie et la fonction est encapsulée dans la vignette.</blockquote><br /> Le type est D2D1_VECTOR_2F.<br /> La valeur par défaut est {0.0 f, 0.0 f}.<br /> | 
+| Taille<br /> D2D1_TURBULENCE_PROP_SIZE<br /> | Taille de la sortie de turbulence.<br /> Cette propriété n’est pas limitée et les unités sont spécifiées dans des DIP <br /><br /> Le type est D2D1_VECTOR_2F.<br /> La valeur par défaut est {0.0 f, 0.0 f}.<br /> | 
+| BaseFrequency<br /> D2D1_TURBULENCE_PROP_BASE_FREQUENCY<br /> | Les fréquences de base dans les directions X et Y. Cette propriété est de type float et doit être supérieure à 0. Les unités sont spécifiées en 1/DIP. <br /> Une valeur de 1 (1/DIP) pour la fréquence de base se traduit par un bruit Perl qui termine un cycle entier entre deux pixels. L’interpolation d’accélération pour ces pixels entraîne des pixels complètement aléatoires, car il n’y a aucune corrélation entre les pixels.<br /> Une valeur de 0.1 (1/DIP) pour la fréquence de base, la fonction de bruit perl se répète toutes les 10 dip. Cela aboutit à une corrélation entre les pixels et l’effet de turbulence typique est visible.<br /> Le type est D2D1_VECTOR_2F.<br /> La valeur par défaut est {0,01 f, 0,01 f}.<br /> | 
+| NumOctaves<br /> D2D1_TURBULENCE_PROP_NUM_OCTAVES<br /> | Nombre d’octaves pour la fonction de bruit. Cette propriété est un UINT32 et doit être supérieure à 0.<br /> Le type est UINT32.<br /> La valeur par défaut est 1.<br /> | 
+| Seed<br /> D2D1_TURBULENCE_PROP_SEED<br /> | Valeur initiale pour le générateur Pseudo-aléatoire. Cette propriété n’est pas liée.<br /> Le type est UINT32.<br /> La valeur par défaut est 0.<br /> | 
+| Parasite<br /> D2D1_TURBULENCE_PROP_NOISE<br /> | Mode de bruit de turbulence. Cette propriété peut être une <em>somme fractale</em> ou une <em>turbulence</em>. Indique s’il faut générer une image bitmap basée sur le bruit fractal ou la fonction turbulence. Pour plus d’informations, consultez <a href="#noise-modes">modes de bruit</a> . <br /> Le type est D2D1_TURBULENCE_NOISE.<br /> La valeur par défaut est D2D1_TURBULENCE_NOISE_FRACTAL_SUM.<br /> | 
+| Agrafable<br /> D2D1_TURBULENCE_PROP_STITCHABLE<br /> | Active ou désactive l’assemblage. La fréquence de base est ajustée afin que la bitmap de sortie puisse être retouchée. Cela est utile si vous souhaitez afficher en mosaïque plusieurs copies de la sortie de l’effet de turbulence.<ul><li>True la bitmap de sortie peut être en mosaïque (à l’aide de l’effet de vignette) sans l’apparence des jointures. La fréquence de base est ajustée afin que la bitmap de sortie puisse être retouchée.</li><li>False la fréquence de base n’est pas ajustée. les coutures peuvent donc apparaître entre les vignettes si la bitmap est affichée en mosaïque.</li></ul><br /> Le type est BOOL.<br /> La valeur par défaut est FALSE.<br /> | 
+
 
 
 
@@ -139,8 +97,8 @@ Cet effet génère une image bitmap de taille infinie logiquement.
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

@@ -1,25 +1,25 @@
 ---
-description: Cette rubrique présente la prise en charge des métadonnées de création d’images fournie par le WIC (Windows Imaging Component).
+description: cette rubrique présente la prise en charge des métadonnées de création d’images fournie par le composant WIC (Windows imaging Component).
 ms.assetid: 35727810-3c4c-4c11-a4a2-3ae2cf3b8142
 title: Vue d’ensemble des métadonnées WIC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f00e3a77eb74a3fb4a00db05ef9e00028f02ecf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44f5031759dd73861a97aace623b35f229b75952
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556412"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472025"
 ---
 # <a name="wic-metadata-overview"></a>Vue d’ensemble des métadonnées WIC
 
-Cette rubrique présente la prise en charge des métadonnées de création d’images fournie par le WIC (Windows Imaging Component). Il fournit une présentation de la lecture et de l’écriture des métadonnées d’image, du langage de requête de métadonnées et de l’extensibilité du gestionnaire de métadonnées.
+cette rubrique présente la prise en charge des métadonnées de création d’images fournie par le composant WIC (Windows imaging Component). Il fournit une présentation de la lecture et de l’écriture des métadonnées d’image, du langage de requête de métadonnées et de l’extensibilité du gestionnaire de métadonnées.
 
 Les métadonnées d’image sont des données incorporées dans un fichier image qui fournit des informations supplémentaires sur l’image, telles que l’appareil utilisé pour capturer l’image ou les dimensions de l’image. Bien qu’elle soit contenue dans le fichier image lui-même, ces métadonnées ne font pas partie des données de rendu. WIC fournit des interfaces qui vous permettent de lire et d’écrire ces métadonnées pour plusieurs formats de métadonnées courants, notamment les formats de métadonnées XMP (Extensible Metadata Platform), EXIF (échanged image file) et png (texte).
 
 Cette rubrique contient les sections suivantes.
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Introduction](#introduction)
 -   [Lecture des métadonnées de l’image](#reading-image-metadata)
 -   [Écriture de métadonnées d’image](#writing-image-metadata)
@@ -30,11 +30,11 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="prerequisites"></a>Prérequis
 
-Pour comprendre cette rubrique, vous devez être familiarisé avec l’encodeur et les interfaces de décodeur WIC et leurs composants COM (Component Object Model) associés, comme décrit dans [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). Il permet également d’avoir une connaissance générale de certains des formats de métadonnées de création d’images actuellement utilisés.
+pour comprendre cette rubrique, vous devez être familiarisé avec l’encodeur et les interfaces de décodeur WIC et leurs composants COM (component Object Model) associés, comme décrit dans la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). Il permet également d’avoir une connaissance générale de certains des formats de métadonnées de création d’images actuellement utilisés.
 
 ## <a name="introduction"></a>Introduction
 
-Les métadonnées fournissent des informations étendues sur une image. Ces informations peuvent être utilisées de plusieurs façons. Une image peut contenir des métadonnées telles qu’une description, une évaluation, des balises de catégorie et des informations de copyright. L’accès aux métadonnées facilite l’exécution de tâches telles que la gestion des ressources, l’emplacement des fichiers ou la détermination des informations de copyright. Par exemple, la Galerie de photos Windows dans Windows Vista vous permet d’ajouter des descriptions et des balises de catégorie aux images. Cela permet une meilleure détectabilité des images et un moyen pratique de classer les images. À l’aide des API WIC et des formats de métadonnées courants, les applications peuvent facilement écrire ou lire ce type de métadonnées vers ou à partir d’images.
+Les métadonnées fournissent des informations étendues sur une image. Ces informations peuvent être utilisées de plusieurs façons. Une image peut contenir des métadonnées telles qu’une description, une évaluation, des balises de catégorie et des informations de copyright. L’accès aux métadonnées facilite l’exécution de tâches telles que la gestion des ressources, l’emplacement des fichiers ou la détermination des informations de copyright. par exemple, la galerie de photos Windows dans Windows Vista vous permet d’ajouter des descriptions et des balises de catégorie aux images. Cela permet une meilleure détectabilité des images et un moyen pratique de classer les images. À l’aide des API WIC et des formats de métadonnées courants, les applications peuvent facilement écrire ou lire ce type de métadonnées vers ou à partir d’images.
 
 Le diagramme suivant illustre le contenu d’un fichier JPEG qui comprend des blocs de métadonnées incorporés et des éléments de métadonnées.
 
@@ -165,16 +165,16 @@ WIC prend en charge plusieurs formats de métadonnées courants. Le tableau suiv
 
 | Formats de métadonnées pris en charge | Version de la spécification de métadonnées | Prise en charge du format d’image | Prend en charge l’encodage de métadonnées rapide |
 |----------------------------|--------------------------------|----------------------|---------------------------------|
-| App0                       | JFIF 1,02                      | JPEG                 | Non                              |
-| App1                       | JFIF 1,02                      | JPEG, TIFF           | Non                              |
-| App13                      | Unknown                        | JPEG, TIFF           | Non                              |
-| IFD                        | TIFF 6,0                       | JPEG, TIFF           | Oui                             |
-| IRB                        | Unknown                        | JPEG, TIFF           | Non                              |
-| Exif                       | EXIF 2,2                       | JPEG, TIFF           | Oui                             |
-| XMP                        | XMP 1,0 (septembre 2005)            | JPEG, TIFF           | Oui                             |
-| GPS                        | EXIF 2,2                       | JPEG, TIFF           | Oui                             |
-| IPTC                       | IPTC 4,0                       | JPEG, TIFF           | Oui                             |
-| Financière                       | PNG 1,2                        | PNG                  | Non                              |
+| App0                       | JFIF 1,02                      | JPEG                 | No                              |
+| App1                       | JFIF 1,02                      | JPEG, TIFF           | No                              |
+| App13                      | Unknown                        | JPEG, TIFF           | No                              |
+| IFD                        | TIFF 6,0                       | JPEG, TIFF           | Yes                             |
+| IRB                        | Unknown                        | JPEG, TIFF           | No                              |
+| Exif                       | EXIF 2,2                       | JPEG, TIFF           | Yes                             |
+| XMP                        | XMP 1,0 (septembre 2005)            | JPEG, TIFF           | Yes                             |
+| GPS                        | EXIF 2,2                       | JPEG, TIFF           | Yes                             |
+| IPTC                       | IPTC 4,0                       | JPEG, TIFF           | Yes                             |
+| Financière                       | PNG 1,2                        | PNG                  | No                              |
 
 
 
@@ -187,54 +187,16 @@ WIC prend en charge plusieurs formats de métadonnées courants. Le tableau suiv
 
 ## <a name="metadata-component-summary"></a>Résumé du composant de métadonnées
 
-Le tableau suivant décrit les interfaces WIC qui prennent en charge les métadonnées et leurs composants correspondants. Ces composants fournissent l’accès aux métadonnées d’une image. Pour plus d’informations sur ces composants, consultez [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). 
+Le tableau suivant décrit les interfaces WIC qui prennent en charge les métadonnées et leurs composants correspondants. Ces composants fournissent l’accès aux métadonnées d’une image. pour plus d’informations sur ces composants, consultez la [vue d’ensemble du composant de création d’images Windows](-wic-about-windows-imaging-codec.md). 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Composant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Décodeur bitmap (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder"><strong>IWICBitmapDecoder</strong></a>)</td>
-<td><ul>
-<li>Lit un flux d’image et produit une source bitmap utilisable. Associé à un format de conteneur tel que TIFF (Tagged Image File Format) ou JPEG (Joint Photographic Experts Group).</li>
-<li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> pour énumérer tous les blocs de métadonnées dans le flux de données du décodeur qui ne se trouvent pas à l’intérieur d’un frame.</li>
-<li>Expose un lecteur de requêtes pour lire les métadonnées associées à l’image qui ne se trouve pas à l’intérieur d’un frame.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Décodage de cadre bitmap (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode"><strong>IWICBitmapFrameDecode</strong></a>)</td>
-<td><ul>
-<li>Accède à des frames individuels à partir du flux d’images détenu par le décodeur.</li>
-<li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> pour énumérer tous les blocs de métadonnées dans le flux de données du frame.</li>
-<li>Expose un lecteur de requêtes pour lire les métadonnées associées au frame, à l’aide d’expressions de requête.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Encodeur bitmap (<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder"><strong>IWICBitmapEncoder</strong></a>)</td>
-<td><ul>
-<li>Écrit une source bitmap dans un flux d’image. Associé à un format de conteneur tel que TIFF ou JPEG.</li>
-<li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> pour générer une liste de blocs de métadonnées à écrire dans le flux de données de l’encodeur.</li>
-<li>Expose un générateur de requêtes pour écrire les métadonnées associées à l’image, à l’aide d’expressions de requête.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Encodage de trame Bitma (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode"><strong>IWICBitmapFrameEncode</strong></a>)</td>
-<td><ul>
-<li>Crée un frame qui sera encodé dans le flux détenu par l’encodeur.</li>
-<li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> pour générer une liste de blocs de métadonnées à écrire dans le flux de données du frame.</li>
-<li>Expose un générateur de requêtes pour écrire les métadonnées associées au frame, à l’aide d’expressions de requête.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Composant | Description | 
+|-----------|-------------|
+| Décodeur bitmap (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder"><strong>IWICBitmapDecoder</strong></a>) | <ul><li>Lit un flux d’image et produit une source bitmap utilisable. Associé à un format de conteneur tel que TIFF (Tagged Image File Format) ou JPEG (Joint Photographic Experts Group).</li><li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> pour énumérer tous les blocs de métadonnées dans le flux de données du décodeur qui ne se trouvent pas à l’intérieur d’un frame.</li><li>Expose un lecteur de requêtes pour lire les métadonnées associées à l’image qui ne se trouve pas à l’intérieur d’un frame.</li></ul> | 
+| Décodage de cadre bitmap (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode"><strong>IWICBitmapFrameDecode</strong></a>) | <ul><li>Accède à des frames individuels à partir du flux d’images détenu par le décodeur.</li><li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a> pour énumérer tous les blocs de métadonnées dans le flux de données du frame.</li><li>Expose un lecteur de requêtes pour lire les métadonnées associées au frame, à l’aide d’expressions de requête.</li></ul> | 
+| Encodeur bitmap (<a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder"><strong>IWICBitmapEncoder</strong></a>) | <ul><li>Écrit une source bitmap dans un flux d’image. Associé à un format de conteneur tel que TIFF ou JPEG.</li><li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> pour générer une liste de blocs de métadonnées à écrire dans le flux de données de l’encodeur.</li><li>Expose un générateur de requêtes pour écrire les métadonnées associées à l’image, à l’aide d’expressions de requête.</li></ul> | 
+| Encodage de trame Bitma (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode"><strong>IWICBitmapFrameEncode</strong></a>) | <ul><li>Crée un frame qui sera encodé dans le flux détenu par l’encodeur.</li><li>Implémente une interface <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a> pour générer une liste de blocs de métadonnées à écrire dans le flux de données du frame.</li><li>Expose un générateur de requêtes pour écrire les métadonnées associées au frame, à l’aide d’expressions de requête.</li></ul> | 
+
 
 
 
@@ -242,69 +204,17 @@ Le tableau suivant décrit les interfaces WIC qui prennent en charge les métado
 
 Le tableau suivant décrit les composants de métadonnées WIC. Ces composants vous permettent de lire et d’écrire les métadonnées dans une image exposée par les composants répertoriés dans le tableau précédent. 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Composant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Lecteur de requêtes de métadonnées (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader"><strong>IWICMetadataQueryReader</strong></a>)</td>
-<td><ul>
-<li>Prend une chaîne de requête et parcourt la hiérarchie de métadonnées sous-jacente pour obtenir les métadonnées.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Générateur de requêtes de métadonnées (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter"><strong>IWICMetadataQueryWriter</strong></a>)</td>
-<td><ul>
-<li>Prend une chaîne de requête et parcourt la hiérarchie de métadonnées sous-jacente pour obtenir, définir et supprimer des métadonnées.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Lecteur de bloc de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a>)</td>
-<td><ul>
-<li>Gère une collection en lecture seule d’objets <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a> en haut de la hiérarchie de métadonnées et permet l’énumération de tous les blocs de métadonnées.</li>
-<li>Implémenté par un décodeur bitmap et un frame bitmap décodé.</li>
-<li>Implémenté par les développeurs de composants tiers pour les codecs personnalisés.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Enregistreur de bloc de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a>)</td>
-<td><ul>
-<li>Gère une collection de lecture et d’écriture d’objets <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a> en haut de la hiérarchie de métadonnées.</li>
-<li>Implémenté par un encodeur bitmap et un encodage de frame bitmap.</li>
-<li>Implémenté par les développeurs de composants tiers pour les codecs personnalisés.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Lecteur de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a>)</td>
-<td><ul>
-<li>Analyse un flux de métadonnées et gère une collection en lecture seule des éléments de métadonnées. Associé à un format de métadonnées tel que EXIF, IFD et XMP.</li>
-<li>Agit comme un dictionnaire, en retournant une valeur lorsqu’une paire format-ID est spécifiée.</li>
-<li>Implémenté par les développeurs de composants tiers pour les types de métadonnées personnalisés.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Enregistreur de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a>)</td>
-<td><ul>
-<li>Analyse et sérialise un flux de métadonnées et gère une collection en lecture/écriture d’éléments de métadonnées.</li>
-<li>Implémenté par les développeurs de composants tiers pour les types de métadonnées personnalisés.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>IWICFastMetadataEncoder rapide de l’encodeur de métadonnées<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder"><strong></strong></a></td>
-<td><ul>
-<li>Expose la sémantique pour l’écriture dans une hiérarchie de métadonnées qui met à jour les métadonnées en place sans recoder l’image.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Composant | Description | 
+|-----------|-------------|
+| Lecteur de requêtes de métadonnées (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader"><strong>IWICMetadataQueryReader</strong></a>) | <ul><li>Prend une chaîne de requête et parcourt la hiérarchie de métadonnées sous-jacente pour obtenir les métadonnées.</li></ul> | 
+| Générateur de requêtes de métadonnées (<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataquerywriter"><strong>IWICMetadataQueryWriter</strong></a>) | <ul><li>Prend une chaîne de requête et parcourt la hiérarchie de métadonnées sous-jacente pour obtenir, définir et supprimer des métadonnées.</li></ul> | 
+| Lecteur de bloc de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockreader"><strong>IWICMetadataBlockReader</strong></a>) | <ul><li>Gère une collection en lecture seule d’objets <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a> en haut de la hiérarchie de métadonnées et permet l’énumération de tous les blocs de métadonnées.</li><li>Implémenté par un décodeur bitmap et un frame bitmap décodé.</li><li>Implémenté par les développeurs de composants tiers pour les codecs personnalisés.</li></ul> | 
+| Enregistreur de bloc de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatablockwriter"><strong>IWICMetadataBlockWriter</strong></a>) | <ul><li>Gère une collection de lecture et d’écriture d’objets <a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a> en haut de la hiérarchie de métadonnées.</li><li>Implémenté par un encodeur bitmap et un encodage de frame bitmap.</li><li>Implémenté par les développeurs de composants tiers pour les codecs personnalisés.</li></ul> | 
+| Lecteur de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatareader"><strong>IWICMetadataReader</strong></a>) | <ul><li>Analyse un flux de métadonnées et gère une collection en lecture seule des éléments de métadonnées. Associé à un format de métadonnées tel que EXIF, IFD et XMP.</li><li>Agit comme un dictionnaire, en retournant une valeur lorsqu’une paire format-ID est spécifiée.</li><li>Implémenté par les développeurs de composants tiers pour les types de métadonnées personnalisés.</li></ul> | 
+| Enregistreur de métadonnées (<a href="/windows/desktop/api/Wincodecsdk/nn-wincodecsdk-iwicmetadatawriter"><strong>IWICMetadataWriter</strong></a>) | <ul><li>Analyse et sérialise un flux de métadonnées et gère une collection en lecture/écriture d’éléments de métadonnées.</li><li>Implémenté par les développeurs de composants tiers pour les types de métadonnées personnalisés.</li></ul> | 
+| IWICFastMetadataEncoder rapide de l’encodeur de métadonnées<a href="/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder"><strong></strong></a> | <ul><li>Expose la sémantique pour l’écriture dans une hiérarchie de métadonnées qui met à jour les métadonnées en place sans recoder l’image.</li></ul> | 
+
 
 
 
@@ -317,7 +227,7 @@ Le tableau suivant décrit les composants de métadonnées WIC. Ces composants v
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Vue d’ensemble du langage de requête de métadonnées](-wic-codec-metadataquerylanguage.md)

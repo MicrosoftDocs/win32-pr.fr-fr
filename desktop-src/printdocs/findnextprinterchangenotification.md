@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Spoolss.dll
-ms.openlocfilehash: ef3ece0d4831409d79e2152cf7b6a37d6bbdc8b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37b05603a75f7bc8e68ead2d0dffdec2e99e7618e5461360760f2d9c89ae52da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112479"
 ---
 # <a name="findnextprinterchangenotification-function"></a>FindNextPrinterChangeNotification fonction)
 
@@ -112,7 +112,7 @@ Si la fonction est réussie, la valeur de retour est une valeur différente de z
 
 Si la fonction échoue, la valeur de retour est égale à zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Il s’agit d’une fonction de blocage ou synchrone qui peut ne pas être renvoyée immédiatement. La vitesse à laquelle cette fonction est retournée dépend des facteurs d’exécution tels que l’état du réseau, la configuration du serveur d’impression et les facteurs d’implémentation des pilotes d’imprimante qui sont difficiles à prédire lors de l’écriture d’une application. L’appel de cette fonction à partir d’un thread qui gère l’interaction avec l’interface utilisateur peut faire que l’application semble ne pas répondre.
@@ -130,7 +130,7 @@ Pour continuer à surveiller les modifications apportées à l’imprimante ou a
 Lorsque vous n’avez plus besoin de l’objet de notification de modification, fermez-le en appelant la fonction [**FindClosePrinterChangeNotification**](findcloseprinterchangenotification.md) .
 
 > [!Note]  
-> Dans Windows XP avec Service Pack 2 (SP2) et versions ultérieures, le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes peut être activée. Si un utilisateur établit une connexion d’imprimante avec un autre ordinateur et que l’exception n’est pas activée, l’utilisateur ne reçoit pas de notifications de modification d’imprimante à partir du serveur. Un administrateur d’ordinateur devra activer l’exception.
+> dans Windows XP avec Service Pack 2 (SP2) et versions ultérieures, le pare-feu de connexion Internet (ICF) bloque les ports d’imprimante par défaut, mais une exception pour le partage de fichiers et d’imprimantes peut être activée. Si un utilisateur établit une connexion d’imprimante avec un autre ordinateur et que l’exception n’est pas activée, l’utilisateur ne reçoit pas de notifications de modification d’imprimante à partir du serveur. Un administrateur d’ordinateur devra activer l’exception.
 
  
 

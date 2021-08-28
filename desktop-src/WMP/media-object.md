@@ -3,7 +3,7 @@ title: Objet Media
 description: L’objet Media offre un moyen de spécifier ou de récupérer les propriétés d’un élément multimédia, à l’aide des propriétés et méthodes suivantes.
 ms.assetid: 45c1c760-808b-4d11-8e6b-057a2ca685d0
 keywords:
-- Objet multimédia Windows Media Player
+- objet multimédia Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88eff6ee0a97e63df6a0c073ef18425cbb576e85
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3c1dbcb3dc662a431f279e03697620b80c242c99eb32e3bbcdc26d71796f7e50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106533550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123309"
 ---
 # <a name="media-object"></a>Objet Media
 
@@ -42,7 +42,7 @@ L’objet **multimédia** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **multimédia** prend en charge les méthodes suivantes.
 
@@ -64,7 +64,7 @@ L’objet **multimédia** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’accès à l’objet **multimédia** s’effectue par le biais des propriétés et méthodes suivantes.
 
@@ -74,11 +74,11 @@ L’accès à l’objet **multimédia** s’effectue par le biais des propriét�
 |---------------------------------|--------------------------------------------------------------------------|
 | [Contrôles](controls-object.md) | [currentItem](controls-currentitem.md)                                  |
 | [Lecteur](player-object.md)     | [currentMedia](player-currentmedia.md), [newMedia](player-newmedia.md) |
-| [Playlist](playlist-object.md) | [item](playlist-item.md)                                                |
+| [Sélection](playlist-object.md) | [item](playlist-item.md)                                                |
 
 
 
- 
+ 
 
 Parce qu’il s’agit de la méthode d’accès la plus courante, *Player*. **currentMedia** est utilisé à des fins d’illustration dans les sections de syntaxe de référence.
 
@@ -89,9 +89,9 @@ Parce qu’il s’agit de la méthode d’accès la plus courante, *Player*. **c
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

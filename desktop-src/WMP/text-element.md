@@ -1,21 +1,21 @@
 ---
-title: Élément texte (kit de développement logiciel (SDK) Windows Media Player)
+title: TEXT, élément (Lecteur Windows Media SDK)
 description: Élément de texte
 ms.assetid: 4523fe7a-a77a-4bf2-9195-3943bff0eb21
 keywords:
-- Apparences du lecteur Windows Media, élément de texte
+- habillages Lecteur Windows Media, élément de texte
 - habillages, élément de texte
 - Élément de texte
 - référence pour les apparences, élément de texte
 - éléments, texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acdad737fda44cc0e090eb13fb20c765b447ccbd
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 333c0d30393ef4fdeb62061ee58b0c7bd2f3f58bd685945e62c0e8062f22d881
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104313600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122849"
 ---
 # <a name="text-element"></a>Élément de texte
 
@@ -52,7 +52,7 @@ L’élément de **texte** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément de **texte** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -69,7 +69,7 @@ Les éléments de texte prédéfinis sont des éléments de **texte** normaux av
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -78,9 +78,9 @@ Les éléments de texte prédéfinis sont des éléments de **texte** normaux av
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

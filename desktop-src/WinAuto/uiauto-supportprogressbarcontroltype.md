@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ProgressBar
 ms.topic: article
 ms.date: 12/04/2019
-ms.openlocfilehash: 98be22a4a3d3b99e113d3c0d1402f2c45ee25550
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 5dc5dd22abcaca70ae9ce86717db6055642a21ce
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "104101149"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472296"
 ---
 # <a name="progressbar-control-type"></a>ProgressBar (type de contrôle)
 
@@ -48,28 +48,11 @@ Cette rubrique contient les sections suivantes.
 
 Le tableau suivant illustre un contrôle classique et une vue de contenu de l’arborescence UI Automation relative aux contrôles de barre de progression et décrit ce que peut contenir chaque vue. Pour plus d’informations sur l’arborescence UI Automation, consultez [UI Automation Tree Overview](uiauto-treeoverview.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-<td><ul>
-<li>ProgressBar</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>ProgressBar</li></ul> | <ul><li>ProgressBar</li></ul> | 
+
 
 Les contrôles de barre de progression n’ont pas d’enfants dans l’affichage de contrôle ou de contenu de l’arborescence UI Automation.
 
@@ -82,7 +65,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.      | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.      | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
 | [**UIA \_ ClickablePointPropertyId**](uiauto-automation-element-propids.md)             | Consultez les remarques.      | Pris en charge s’il existe un rectangle englobant. Si tous les points du rectangle englobant ne sont pas cliquables et que l’élément effectue un test de positionnement spécialisé, substituez et fournissez un point cliquable. |
-| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **Barre de progression** |                                                                                                                                                                                                      |
+| [**UIA \_ ControlTypePropertyId**](uiauto-automation-element-propids.md)                   | **ProgressBar** |                                                                                                                                                                                                      |
 | [**UIA \_ IsContentElementPropertyId**](uiauto-automation-element-propids.md)         | **TRUE**        | Le contrôle de barre de progression est toujours inclus dans l’affichage de contenu de l’arborescence UI Automation.                                                                                                           |
 | [**UIA \_ IsControlElementPropertyId**](uiauto-automation-element-propids.md)         | **TRUE**        | Le contrôle de barre de progression est toujours inclus dans l’affichage de contrôle de l’arborescence UI Automation.                                                                                                           |
 | [**UIA \_ IsKeyboardFocusablePropertyId**](uiauto-automation-element-propids.md)   | Consultez les remarques.      | Si le contrôle peut recevoir le focus clavier, il doit prendre en charge cette propriété.                                                                                                                            |
@@ -92,7 +75,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -113,7 +96,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -134,7 +117,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -149,9 +132,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

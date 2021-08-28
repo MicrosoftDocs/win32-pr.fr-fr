@@ -4,12 +4,12 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Schéma de description de la bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a6da99820e81c55e5d705c72d4d0509ea271a4a
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 2bfbaa8401468a6bab79cf4bccc5d7d4cd0ff7bb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879645"
 ---
 # <a name="library-description-schema"></a>Schéma de description de la bibliothèque
 
@@ -46,7 +46,7 @@ les fichiers de bibliothèque dans Windows 7 sont stockés dans le dossier connu
 
 Les versions du format de fichier de description de la bibliothèque ( \* . Library-ms) sont suivies en modifiant l’espace de noms. pour Windows 7, le format de fichier est l’espace de noms par défaut suivant : https://schemas.microsoft.com/windows/2009/library .
 
-Toutefois, les versions du contenu de la bibliothèque sont suivies à l’aide [<version>](schema-library-version.md) de l’élément dans un fichier de description de bibliothèque spécifique.
+Toutefois, les versions du contenu de la bibliothèque sont suivies à l’aide de l’élément [ &lt; version &gt; ](schema-library-version.md) dans un fichier de description de bibliothèque spécifique.
 
 ## <a name="example-of-a-library-description-file"></a>Exemple de fichier de description de bibliothèque
 

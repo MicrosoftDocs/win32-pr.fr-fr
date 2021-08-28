@@ -4,12 +4,12 @@ ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
 title: Gestion des racines de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758d3c10a4c69f336202274cd1fb40528848b0ddb431fd58646cf700d2b2d736
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9cbe5fe6184681e6c37cb0b6a7f9a35c677fec53
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119095286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880198"
 ---
 # <a name="managing-search-roots"></a>Gestion des racines de recherche
 
@@ -40,7 +40,7 @@ or
 
 
 
-Le <protocol> segment doit être suivi de deux (2) barres obliques (« / »), sauf s’il s’agit du fichier : Protocol, qui requiert trois barres obliques (file:///). Le <site or SID> segment représente soit un magasin de contenu, soit un identificateur de sécurité de l’utilisateur si la racine de recherche est destinée à être spécifique à l’utilisateur. Le <path> segment est un ensemble de conteneurs, comme des répertoires ou des dossiers, et peut inclure le caractère générique « \* ». Les <item> le segment est facultatif et peut également inclure le caractère générique « \* ». Si vous n’incluez pas d’élément, veillez à terminer le segment de chemin d’accès par une barre oblique ou l’indexeur supposera que le dernier sous-conteneur est un élément.
+Le &lt; segment de protocole &gt; doit être suivi de deux (2) barres obliques (« / »), sauf s’il s’agit du fichier : Protocol, qui requiert trois barres obliques (file:///). Le <site or SID> segment représente soit un magasin de contenu, soit un identificateur de sécurité de l’utilisateur si la racine de recherche est destinée à être spécifique à l’utilisateur. Le &lt; segment de chemin d’accès &gt; est un ensemble de conteneurs, comme des répertoires ou des dossiers, et peut inclure le caractère générique « \* ». Le &lt; segment d’élément &gt; est facultatif et peut également inclure le caractère générique « \* ». Si vous n’incluez pas d’élément, veillez à terminer le segment de chemin d’accès par une barre oblique ou l’indexeur supposera que le dernier sous-conteneur est un élément.
 
 Par exemple, supposons que vous avez implémenté un gestionnaire de protocole (myPH) pour gérer les fichiers de type \* . myext pour une application personnalisée. Tous ces fichiers se trouvent dans le dossier WorkteamA \\ ProjectFiles sur un ordinateur local. La racine de recherche de qui peut se présenter comme suit :
 

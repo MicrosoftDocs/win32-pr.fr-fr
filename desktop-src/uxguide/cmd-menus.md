@@ -4,12 +4,12 @@ description: Les menus sont des listes hiérarchiques de commandes ou d’option
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: e9b2c3559163ff77e8e3f08354b017c1b7cb53c95fd51802ae2565efdf71abcd
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ba8c67716e6b30fcc32651c8932363310926e6bf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119350172"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880375"
 ---
 # <a name="menus-design-basics"></a>Menus (concepts de base de la conception)
 
@@ -233,15 +233,18 @@ Dans cet exemple, un bouton déroulant de menu est utilisé pour afficher un men
 <dl> Commandes principales (les plus fréquemment utilisées)<dl> Ouvrir  
 Exécuter  
 Lire  
-Étendue <separator>  
-</dl> </dd> <dd>Commandes secondaires prises en charge par l’objet<dl> <separator>  
+Imprimer  
+&lt;separator&gt;  
+</dl> </dd> <dd>Commandes secondaires prises en charge par l’objet<dl> &lt;separator&gt;  
 </dl> </dd> Commandes de transfert<dl> Couper  
 Copier  
-Insérer <separator>  
-</dl> </dd> <dd>Paramètres d’objet<dl> <separator>  
+Coller  
+&lt;separator&gt;  
+</dl> </dd> <dd>Paramètres d’objet<dl> &lt;separator&gt;  
 </dl> </dd> Commandes de l’objet<dl> Supprimer  
-Renommer <separator>  
-Propriétés
+Renommer  
+&lt;separator&gt;  
+Propriétés  
 </dl> </dd> </dl>
 
 **Présentation**
@@ -332,35 +335,48 @@ La structure de la barre de menus standard est la suivante. Cette liste affiche 
 
 <dl> Fichier<dl> Nouveau Ctrl + N  
 Ouvrir... Ctrl + O  
-Fermez <separator>  
+Fermer  
+&lt;separator&gt;  
 Enregistrer Ctrl + S  
-Enregistrer sous... <separator>  
-Envoyer à <separator>  
+Enregistrer sous...  
+&lt;separator&gt;  
+Envoyer à  
+&lt;separator&gt;  
 Imprimer... Ctrl + P  
 Aperçu avant impression  
-Mise en page <separator>  
-1 <filename> 2 <filename> 3 <filename> ... <separator>  
+Mise en page  
+&lt;separator&gt;  
+1 <filename> 2 <filename> 3 <filename> ...  
+&lt;separator&gt;  
 Quitter ALT + F4 (raccourci généralement non fourni)
 </dl> </dd> Edit<dl> Annuler Ctrl + Z  
-Rétablir CTRL + Y <separator>  
+Rétablir CTRL + Y  
+&lt;separator&gt;  
 Couper Ctrl + X  
 Copier Ctrl + C  
-Coller Ctrl + V <separator>  
-Sélectionner tout CTRL + A <separator>  
-Delete del (raccourci généralement non fourni) <separator>  
+Coller Ctrl + V  
+&lt;separator&gt;  
+Sélectionner tout CTRL + A  
+&lt;separator&gt;  
+Delete del (raccourci généralement non fourni)  
+&lt;separator&gt;  
 Rechercher... Ctrl + F  
 Rechercher suivant F3 (commande généralement non indiquée)  
 Remplacer... Ctrl + H  
 Atteindre... CTRL + G
 </dl> </dd> View<dl> Barres d'outils  
-Barre d’État <separator>  
+Barre d'état  
+&lt;separator&gt;
 </dl> </dd> Zoom<dl> Zoom avant Ctrl + +  
-Zoom arrière CTRL +- <separator>  
+Zoom arrière CTRL +-  
+&lt;separator&gt;  
 Plein écran F11  
 Actualiser F5
-</dl> </dd> <dd>Outils<dl> ... <separator>  
+</dl> </dd> <dd>Outils<dl> ...  
+&lt;separator&gt;  
 Options
-</dl> </dd> Aide<dl> <program name> aide F1 <separator>  
+</dl> </dd> Aide<dl> <program name> aide F1  
+&lt;separator&gt;  
 Obtenir <program name>  
 </dl> </dd> </dl>
 
@@ -369,23 +385,31 @@ Obtenir <program name>
 Les boutons de menu de la barre d’outils standard sont les suivants. Cette liste affiche les étiquettes de catégorie de menu et d’élément, leur ordre avec les séparateurs, leurs touches de raccourci et leurs ellipses.
 
 <dl> Outils<dl> Full screenF11 (réassignez la clé d’accès si Find est également utilisé.)  
-Les barres d’outils (Notez que la commande de barre de menus est insérée ici). <separator>  
+Les barres d’outils (Notez que la commande de barre de menus est insérée ici).  
+&lt;separator&gt;  
 Imprimer...  
-Rechercher... <separator>  
+Rechercher...  
+&lt;separator&gt;  
 Zoom  
-Taille du texte <separator>  
-Options
-</dl> </dd> Organize<dl> Nouveau folderCtrl + N <separator>  
+Taille du texte  
+&lt;separator&gt;  
+Options  
+</dl> </dd> Organize<dl> Nouveau folderCtrl + N  
+&lt;separator&gt;  
 CutCtrl + X  
 CopyCtrl + C  
-PasteCtrl + V <separator>  
-Sélectionner allCtrl + A <separator>  
+PasteCtrl + V  
+&lt;separator&gt;  
+Sélectionner allCtrl + A  
+&lt;separator&gt;  
 DeleteDel (raccourci généralement non fourni)  
-Renommer <separator>  
-Options
-</dl> </dd> Page<dl> Nouveau windowCtrl + N <separator>  
+Renommer  
+&lt;separator&gt;  
+Options  
+</dl> </dd> Page<dl> Nouveau windowCtrl + N  
+&lt;separator&gt;  
 Zoom  
-Taille du texte
+Taille du texte  
 </dl> </dd> </dl>
 
 **Menus contextuels standard**
@@ -396,12 +420,15 @@ Le contenu du menu contextuel standard est le suivant. Cette liste affiche les �
 Exécuter  
 Lire  
 Modifier  
-Imprimer... <separator>  
+Imprimer...  
+&lt;separator&gt;  
 Couper  
 Copier  
-Insérer <separator>  
+Coller  
+&lt;separator&gt;  
 Supprimer  
-Renommer <separator>  
+Renommer  
+&lt;separator&gt;  
 Verrouiller <object name> (coche)  
 Propriétés
 </dl>

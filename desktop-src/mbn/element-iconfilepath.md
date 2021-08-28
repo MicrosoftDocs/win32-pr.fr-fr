@@ -7,12 +7,12 @@ MSHAttr:
 title: ICONFilePath
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bdb21e822f5f2418ad7d08f7d8f8edfff4f93b6a
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 4105dc7bf5f65eb3bc6dfe3e2abf2206caffc7a4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988822"
+ms.locfileid: "122879664"
 ---
 # <a name="span-idwwan_profile_v4element_iconfilepathspaniconfilepath"></a><span id="WWAN_profile_v4.element_ICONFilePath"></span>ICONFilePath
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur l’utilisation de cet élément, consultez la do
 [&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
 **&lt;ICONFilePath&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <ICONFilePath>
@@ -55,12 +55,10 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

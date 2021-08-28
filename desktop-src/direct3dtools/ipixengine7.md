@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8325f1c4e091a065433fe1790c19a985f7cb5d4c
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 74f18c0abeb17a09f30245da755df5f3d0d527c3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122787128"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623515"
 ---
 # <a name="span-idvspixengineipixengine7spanipixengine7-interface"></a><span id="vspixengine.ipixengine7"></span>Interface IPixEngine7
 
@@ -38,7 +38,7 @@ L’interface **IPixEngine7** hérite de l’interface [**IUnknown**](/windows/d
 
 L’interface **IPixEngine7** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine7-initengineasync-resourcepair-arr-uint-iversioncallback-ptr-dword-dword"><strong>InitEngineAsync</strong></a></td><td ><p>Transmet de manière asynchrone des ressources au moteur, telles que des chaînes pour les messages d’erreur.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/ipixengine7-setplaybackendpointasync-bool-bstr-bstr-remotingversion-iversioncallback-ptr-dword-dword"><strong>SetPlaybackEndpointAsync</strong></a></td><td ><p>Définit de manière asynchrone l’adresse de point de terminaison utilisée pour se connecter à un moteur distant.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine7-initengineasync-resourcepair-arr-uint-iversioncallback-ptr-dword-dword"><strong>InitEngineAsync</strong></a></td><td style="text-align: left;"><p>Transmet de manière asynchrone des ressources au moteur, telles que des chaînes pour les messages d’erreur.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine7-setplaybackendpointasync-bool-bstr-bstr-remotingversion-iversioncallback-ptr-dword-dword"><strong>SetPlaybackEndpointAsync</strong></a></td><td style="text-align: left;"><p>Définit de manière asynchrone l’adresse de point de terminaison utilisée pour se connecter à un moteur distant.</p></td></tr></tbody></table>
 
  
 

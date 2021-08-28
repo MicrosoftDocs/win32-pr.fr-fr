@@ -7,12 +7,12 @@ keywords:
 - Gestionnaires de notifications d’administration Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baa6f48f8b56ab8e4a1d64d0fe15543bfee6c09e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 08d89627cdb15cc7ea15f4b56e3a6ec90eafbe6a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879887"
 ---
 # <a name="administrative-notification-handlers"></a>Gestionnaires de notifications d’administration
 
@@ -34,9 +34,9 @@ Lorsque la méthode [**Begin**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmin
 
 Une fois que tous les gestionnaires ont été notifiés, le composant logiciel enfichable appelle la méthode [**IDsAdminNotifyHandler :: end**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-end) . La méthode **end** est toujours appelée, même si la méthode [**Notify**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify) n’est pas appelée.
 
-## <a name="registering-a-notification-handler-in-the-windows-registry"></a>Inscription d’un gestionnaire de notifications dans le Registre Windows
+## <a name="registering-a-notification-handler-in-the-windows-registry"></a>inscription d’un gestionnaire de notifications dans le registre Windows
 
-Comme tous les serveurs COM, un gestionnaire de notifications doit être inscrit dans le Registre Windows. Le gestionnaire est inscrit sous la clé suivante :
+comme tous les serveurs COM, un gestionnaire de notifications doit être inscrit dans le registre Windows. Le gestionnaire est inscrit sous la clé suivante :
 
 
 ```C++
@@ -45,13 +45,13 @@ HKEY_CLASSES_ROOT - CLSID - <CLSID>
 
 
 
-**<CLSID>** représentation sous forme de chaîne du CLSID telle qu’elle est produite par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . Sous la **<CLSID>** clé, il existe une clé **InprocServer32** qui identifie l’objet en tant que serveur in-proc 32 bits. Sous la clé **InprocServer32** , l’emplacement de la dll est spécifié dans la valeur par défaut et le modèle de thread est spécifié dans la valeur **ThreadingModel** . Tous les gestionnaires de notification doivent utiliser le modèle de thread **cloisonné** .
+**&lt; CLSID &gt;** est la représentation sous forme de chaîne du CLSID telle qu’elle est produite par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) . Sous la clé **&lt; &gt; CLSID** , il existe une clé **InprocServer32** qui identifie l’objet en tant que serveur in-proc 32 bits. Sous la clé **InprocServer32** , l’emplacement de la dll est spécifié dans la valeur par défaut et le modèle de thread est spécifié dans la valeur **ThreadingModel** . Tous les gestionnaires de notification doivent utiliser le modèle de thread **cloisonné** .
 
 ## <a name="registering-a-notification-handler-with-an-active-directory-server"></a>Inscription d’un gestionnaire de notifications auprès d’un serveur Active Directory
 
 Dans Active Directory Domain Services, l’inscription du gestionnaire de notifications est spécifique à un paramètre régional. Si le gestionnaire de notifications s’applique à tous les paramètres régionaux, il doit être enregistré dans l’objet **displaySpecifier** dans tous les sous-conteneurs de paramètres régionaux du conteneur DisplaySpecifiers. Si le gestionnaire de notifications est localisé pour un certain nombre de paramètres régionaux, il est enregistré dans l’objet **displaySpecifier** dans le sous-conteneur de ces paramètres régionaux. Pour plus d’informations sur le conteneur DisplaySpecifiers et les paramètres régionaux, consultez [spécificateurs d’affichage](display-specifiers.md) et [conteneur DisplaySpecifiers](displayspecifiers-container.md).
 
-Les gestionnaires de notification sont enregistrés sous l’attribut **dsUIAdminNotification** dans le conteneur **DS-UI-default-Settings** . Il s’agit d’une valeur de chaîne Unicode à valeurs multiples où chaque valeur requiert le format suivant :
+les gestionnaires de Notification sont enregistrés sous l’attribut **dsUIAdminNotification** dans le conteneur **DS-UI-Default-Paramètres** . Il s’agit d’une valeur de chaîne Unicode à valeurs multiples où chaque valeur requiert le format suivant :
 
 
 ```C++
@@ -64,6 +64,6 @@ Les gestionnaires de notification sont enregistrés sous l’attribut **dsUIAdmi
 
 Le &lt; CLSID &gt; est la représentation sous forme de chaîne du CLSID tel qu’il a été généré par la fonction [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) .
 
- 
+ 
 
- 
+ 

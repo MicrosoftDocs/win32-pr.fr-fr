@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dec2a2ccfc7fc6686a379b57d46a4d61173849424a01b0bb05024faf5304df80
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 826544f78df9769fd137cedfb432c5746863d496
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118087135"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468396"
 ---
 # <a name="operator--operators"></a>opérateur/opérateurs
 
@@ -26,38 +26,12 @@ Opérateur de division.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Opérateur</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)"><strong>XMVECTOR :: Operator/(XMVECTOR, float)</strong></a></td>
-<td style="text-align: left;">Divise une <code>XMVECTOR</code> instance par une valeur à virgule flottante, en retournant le résultat à une nouvelle instance de <code>XMVECTOR</code> . <br/> <code>operator /</code>Divise chaque composant d’une instance de type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par une valeur à virgule flottante, en retournant une nouvelle <code>XMVECTOR</code> instance contenant le résultat. <br/>
-<blockquote>
-[!Note]<br />
-Cet opérateur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)"><strong>XMVECTOR :: Operator/(XMVECTOR, XMVECTOR)</strong></a></td>
-<td style="text-align: left;">Divise une instance de <code>XMVECTOR</code> par une deuxième instance, en retournant le résultat dans une troisième instance. <br/> <code>operator /</code>Divise chaque composant d’une instance de type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par le composant correspondant dans une deuxième instance de <code>XMVECTOR</code> , en retournant une nouvelle <code>XMVECTOR</code> instance contenant le résultat. <br/>
-<blockquote>
-[!Note]<br />
-Cet opérateur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Opérateur | Description | 
+|----------|-------------|
+| <a href="/previous-versions/windows/desktop/legacy/ee421381(v=vs.85)"><strong>XMVECTOR :: Operator/(XMVECTOR, float)</strong></a> | Divise une <code>XMVECTOR</code> instance par une valeur à virgule flottante, en retournant le résultat à une nouvelle instance de <code>XMVECTOR</code> . <br /> <code>operator /</code>Divise chaque composant d’une instance de type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par une valeur à virgule flottante, en retournant une nouvelle <code>XMVECTOR</code> instance contenant le résultat. <br /><blockquote>[!Note]<br />Cet opérateur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/previous-versions/windows/desktop/legacy/ee421380(v=vs.85)"><strong>XMVECTOR :: Operator/(XMVECTOR, XMVECTOR)</strong></a> | Divise une instance de <code>XMVECTOR</code> par une deuxième instance, en retournant le résultat dans une troisième instance. <br /> <code>operator /</code>Divise chaque composant d’une instance de type de <a href="xmvector-data-type.md"><strong>données XMVECTOR</strong></a> par le composant correspondant dans une deuxième instance de <code>XMVECTOR</code> , en retournant une nouvelle <code>XMVECTOR</code> instance contenant le résultat. <br /><blockquote>[!Note]<br />Cet opérateur est uniquement disponible en C++.</blockquote><br /> | 
+
 
 
 

@@ -4,14 +4,14 @@ description: Cet article fournit des cas de test pour les jeux pour Windows.
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b13a4934c539579e49c9b00c60f3603bd64c711
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5aeda677a32d73ccb305eb350b9c4c1231bb0bf4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120274"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886429"
 ---
-# <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Jeux pour les cas de test Windows : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
+# <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>jeux pour Windows cas de Test : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
 Cet article fournit des cas de test pour les jeux pour Windows.
 
@@ -74,19 +74,19 @@ Cette section contient des remarques détaillées sur chacun des outils de test 
 
 ### <a name="1-game-requirements"></a>1. spécifications du jeu
 
-### <a name="11-windows-games-explorer"></a>Explorateur de jeux Windows 1,1
+### <a name="11-windows-games-explorer"></a>1,1 Windows l’explorateur de jeux
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
-<td>Le jeu doit être visible dans l’Explorateur de jeux sur Windows Vista et Windows 7. Lorsque cette option est sélectionnée, le jeu doit également afficher les métadonnées correctes. L’installation ne doit pas créer de raccourci pour lancer le jeu sur le bureau, dans le menu Démarrer ou dans un autre emplacement. Les tâches et les raccourcis de suppression ne doivent pas être créés.</td>
+<td>le jeu doit être visible dans l’explorateur de jeux sur Windows Vista et Windows 7. Lorsque cette option est sélectionnée, le jeu doit également afficher les métadonnées correctes. l’installation ne doit pas créer de raccourci pour lancer le jeu sur le bureau, dans le menu Démarrer ou dans un autre emplacement. Les tâches et les raccourcis de suppression ne doivent pas être créés.</td>
 </tr>
 <tr class="even">
 
@@ -95,14 +95,14 @@ Cette section contient des remarques détaillées sur chacun des outils de test 
 <li>Vérifiez que l’icône de jeu s’affiche dans l’Explorateur de jeux.</li>
 <li>Cliquez avec le bouton droit sur l’icône et testez chaque tâche de support de lecture & définie par l’application.</li>
 <li>Cliquez sur l’icône et vérifiez que les métadonnées (éditeur, développeur, genre, date de publication, version) s’affichent en bas et sont correctes.</li>
-<li>Vérifiez que l’icône du jeu affiche des informations sur l’indice de performance Windows (WEI) dans l’Explorateur de jeux.</li>
+<li>vérifiez que l’icône du jeu Windows affiche des informations sur l’WEI d’expérience utilisateur dans l’explorateur de jeux.</li>
 <li>Vérifiez que les liens hypertexte de jeu pour les métadonnées fonctionnent correctement dans l’Explorateur de jeux. (Si les liens hypertexte ne s’affichent pas, il s’agit d’un signe possible que l’exe n’est pas signé ; consultez la <a href="#23-sign-files">section 2,3</a>.)</li>
 <li>Vérifiez que le jeu affiche une évaluation précise du contrôle parental dans l’Explorateur de jeux. (S’il indique non évalué, vérifiez qu’il s’agit d’un jeu non classé ; sinon, il s’agit d’un indicateur que l’exe n’est pas signé ; consultez la <a href="#23-sign-files">section 2,3</a>.)</li>
 <li>Vérifiez que le jeu ne place pas de raccourcis de lancement sur le Bureau de l’utilisateur.</li>
 <li>Cliquez sur Démarrer-> tous les programmes.</li>
 <li>Vérifiez que le jeu ne place pas de raccourcis de lancement dans le menu Démarrer.</li>
 <li>Vérifiez que le jeu ne place pas les raccourcis de désinstallation dans le menu démarrer en dehors du panneau de configuration.</li>
-<li>Si le jeu est distribué numériquement, vérifiez que le fournisseur de services s’affiche dans l’Explorateur Windows Games.</li>
+<li>si le jeu est distribué numériquement, vérifiez que le fournisseur de services s’affiche dans Windows l’explorateur de jeux.</li>
 </ol>
 <br/></td>
 </tr>
@@ -113,14 +113,14 @@ Cette section contient des remarques détaillées sur chacun des outils de test 
 
  
 
-### <a name="12-windows-family-safety--parental-controls"></a>Contrôle parental/sécurité de la famille Windows 1,2
+### <a name="12-windows-family-safety--parental-controls"></a>contrôle parental/sécurité de la famille 1,2 Windows
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -130,14 +130,14 @@ Cette section contient des remarques détaillées sur chacun des outils de test 
 <tr class="even">
 
 <td><ol>
-<li>Créez un compte d’utilisateur standard dans Windows Vista ou Windows 7 appelé Toby. Démarrer-> le panneau de configuration-> ajouter ou supprimer des comptes d’utilisateur-> créer un nouveau compte</li>
+<li>créez un compte d’utilisateur Standard dans Windows Vista ou Windows 7 appelé Toby. Démarrer-> le panneau de configuration-> ajouter ou supprimer des comptes d’utilisateur-> créer un nouveau compte</li>
 <li>En tant que Jane, à partir du compte administrateur, configurez les contrôles parentaux pour le jeu. Démarrer-> panneau de configuration-> configurer des contrôles parentaux pour les Toby d’un utilisateur >
 <ol>
 <li>Vérifiez que le jeu est lancé à partir de l’icône Explorateur de jeux.</li>
 <li>Vérifiez que le jeu affiche une évaluation exacte du contrôle parental sous le titre du jeu dans le panneau de configuration du contrôle parental.</li>
 <li>Avant d’appliquer les contrôles parentaux, vérifiez que le jeu ne demande pas d’informations d’identification d’administrateur au lancement.</li>
 <li>Définissez contrôle parental &quot; sur activé &quot; .</li>
-<li>Dans la section Paramètres Windows, cliquez sur jeux.</li>
+<li>dans la section Paramètres Windows, cliquez sur jeux.</li>
 <li>Cliquez sur OK (le paramètre doit maintenant être &quot; AO/All Games &quot; ).</li>
 <li>Vérifiez que le jeu s’exécute avec ces paramètres en tant qu’utilisateur Jane.</li>
 <li>Déconnectez-vous en tant que Jane et connectez-vous en tant que Toby.</li>
@@ -178,28 +178,28 @@ Si le jeu n’est pas évalué, ignorez cette étape et passez à la partie suiv
 
 Cette exigence a été supprimée.
 
-### <a name="14-xbox-360-common-controller-for-windows-conditional-requirement"></a>1,4 Xbox 360 contrôleur commun pour Windows \[ condition conditionnelle\]
+### <a name="14-xbox-360-common-controller-for-windows-conditional-requirement"></a>1,4 Xbox 360 contrôleur commun pour Windows \[ exigence conditionnelle\]
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Les jeux qui prennent en charge les contrôleurs de manette doivent prendre en charge le contrôleur Xbox 360 pour Windows à l’aide de l’API XInput. Toutes les références aux déclencheurs et aux boutons du contrôleur commun doivent utiliser les noms Xbox 360.</td>
+<td>les jeux qui prennent en charge les contrôleurs de manette doivent prendre en charge le manette Xbox 360 pour Windows à l’aide de l’API XInput. Toutes les références aux déclencheurs et aux boutons du contrôleur commun doivent utiliser les noms Xbox 360.</td>
 </tr>
 <tr class="even">
 
 <td><ol>
 <li>Lancez le jeu.</li>
 <li>Accédez aux options du contrôleur. **</li>
-<li>Vérifiez que le jeu reconnaît le contrôleur Xbox 360 pour Windows comme périphérique d’entrée.</li>
-<li>Jouez au jeu et vérifiez que le jeu et le système de menus sont contrôlable avec le contrôleur Xbox 360 pour Windows.</li>
-<li>Vérifiez que le contrôleur Xbox 360 pour Windows se comporte conformément aux normes acceptées. (B pour précédent, A pour accepter, démarrer pour dans le menu jeu/suspendre ou accepter, etc.)</li>
+<li>vérifiez que le jeu reconnaît manette Xbox 360 pour Windows en tant qu’appareil d’entrée.</li>
+<li>jouez au jeu et vérifiez que le jeu et le système de menus sont contrôlable avec manette Xbox 360 pour Windows.</li>
+<li>vérifiez que le manette Xbox 360 pour Windows se comporte conformément aux normes acceptées. (B pour précédent, A pour accepter, démarrer pour dans le menu jeu/suspendre ou accepter, etc.)</li>
 <li>Vérifiez que le jeu fait référence aux boutons et aux déclencheurs de contrôleur à l’aide des noms Xbox 360.</li>
 </ol>
 <br/>
@@ -207,7 +207,7 @@ Cette exigence a été supprimée.
 [!Note]<br />
 Si le jeu ne prend pas en charge un contrôleur de jeu et/ou ne prend en charge que le clavier/la souris, ignorez ce cas de test.
 </blockquote>
-<br/> * * Les paramètres du contrôleur sont peut-être situés en dehors du jeu. <br/></td>
+<br/> * * Paramètres pour le contrôleur peut être situé en dehors du jeu. <br/></td>
 </tr>
 </tbody>
 </table>
@@ -222,8 +222,8 @@ Si le jeu ne prend pas en charge un contrôleur de jeu et/ou ne prend en charge 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -272,7 +272,7 @@ Cette exigence a été supprimée.
 
 
 
-| Système d’exploitation                                                                    | Condition requise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Système d''exploitation                                                                    | Condition requise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> Windows XP<br/> | Si le jeu utilise Direct3D, la version minimale prise en charge doit être Direct3D 9, et Direct3D doit être la valeur par défaut pour toutes les options de configuration de l’affichage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |     <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manuel</dt> <dd> Lancez le jeu. Dans les options vidéo, vérifiez s’il existe des options de rendu, D3D et/ou OpenGL. Si c’est le cas, vérifiez que les options de rendu du jeu sont par défaut Direct3D. Si vous ne parvenez pas à vérifier que D3D9 est la version de DirectX en cours d’utilisation, passez au test automatisé. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Utiliser l’outil : Depends.exe <br/> </dd> </dl> |
@@ -287,8 +287,8 @@ Cette exigence a été supprimée.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -302,7 +302,7 @@ Cette exigence a été supprimée.
 <li>Définissez le système sur PPP 150% : <br/> Windows Vista : panneau de configuration : personnalisation, ajuster la taille de police (DPI), résolution personnalisée. Définissez sur 150%.<br/> Windows 7 : panneau de configuration : affichage, défini sur plus de 150%.<br/></li>
 <li>Exécutez le processus et le jeu d’installation pour vérifier qu’il n’y a aucun problème avec les écrans détourés ou les boîtes de dialogue.</li>
 </ol>
-</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Vérifiez que l’élément <dpiAware>true</dpiAware> est contenu dans le manifeste incorporé.<br/> Utiliser l’outil : Mt.exe <br/> </dd> </dl></td>
+</dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Vérifiez que &lt; l’élément dpiAware &gt; true </dpiAware> est contenu dans le manifeste incorporé.<br/> Utiliser l’outil : Mt.exe <br/> </dd> </dl></td>
 </tr>
 </tbody>
 </table>
@@ -319,8 +319,8 @@ Cette exigence a été supprimée.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -356,8 +356,8 @@ Utiliser l’outil : Mt.exe <br/></td>
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -369,7 +369,7 @@ Utiliser l’outil : Mt.exe <br/></td>
 </ul>
 <blockquote>
 [!Note]<br />
-La prise en charge de l’édition 64 bits de Windows XP professionnel est facultative.
+la prise en charge de l’édition 64 bits de Windows XP Professional est facultative.
 </blockquote>
 <br/></td>
 </tr>
@@ -377,8 +377,8 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <td>Test manuel<br/>
 <ol>
-<li>Exécutez le jeu sur les éditions 64 bits de Windows. Vérifiez que le processus d’installation du jeu s’exécute normalement sur les éditions 64 bits de Windows Vista ou Windows 7.</li>
-<li>Vérifiez que le jeu ne rencontre pas d’erreur en raison d’exécutables 16 bits sur les éditions 64 bits de Windows Vista ou Windows 7. L’erreur indiquera l’application 16 bits dans la fenêtre d’erreur.</li>
+<li>Exécutez le jeu sur les éditions 64 bits de Windows. vérifiez que le processus d’installation du jeu s’exécute normalement sur les éditions 64 bits de Windows Vista ou Windows 7.</li>
+<li>vérifiez que le jeu ne rencontre pas d’erreur en raison d’exécutables 16 bits sur les éditions 64 bits de Windows Vista ou Windows 7. L’erreur indiquera l’application 16 bits dans la fenêtre d’erreur.</li>
 <li>Si le jeu est doté d’un exécutable 64 bits natif, utilisez-le également.</li>
 </ol></td>
 </tr>
@@ -395,13 +395,13 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Tous les fichiers de code exécutable (par exemple, les extensions .exe et .dll) doivent être signés avec un certificat Authenticode. <br/> Si vous utilisez Windows Installer, les fichiers de package du programme d’installation (fichiers .msi) doivent être signés. <br/></td>
+<td>Tous les fichiers de code exécutable (par exemple, les extensions .exe et .dll) doivent être signés avec un certificat Authenticode. <br/> si vous utilisez Windows Installer, les fichiers de package du programme d’installation (fichiers .msi) doivent être signés. <br/></td>
 </tr>
 <tr class="even">
 
@@ -426,13 +426,13 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Tout pilote en mode noyau installé par le jeu doit être signé avec un certificat Authenticode publiquement valide. <br/> Les pilotes de périphériques matériels en mode noyau installés par le jeu doivent avoir une signature Microsoft obtenue par le biais du programme WHQL (Windows Hardware Quality Labs) ou DRS (Driver FIABILITE signature). <br/></td>
+<td>Tout pilote en mode noyau installé par le jeu doit être signé avec un certificat Authenticode publiquement valide. <br/> tout pilote de périphérique en mode noyau installé par le jeu doit avoir une signature Microsoft obtenue par le biais du programme Windows WHQL (hardware Quality Labs) ou DRS (driver fiabilite signature). <br/></td>
 </tr>
 <tr class="even">
 
@@ -455,19 +455,19 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Les jeux ne peuvent pas s’exécuter sur les systèmes d’exploitation ultérieurs, comme indiqué par les modifications apportées au numéro de version de Windows, sauf si le contrat de licence utilisateur final interdit l’utilisation sur les systèmes d’exploitation ultérieurs. Si le jeu est supposé échouer, il doit le faire normalement en affichant un message à l’utilisateur.</td>
+<td>les jeux ne doivent pas être exécutés sur des systèmes d’exploitation ultérieurs, comme indiqué par les modifications apportées au numéro de version Windows, sauf si le contrat de licence utilisateur final interdit l’utilisation sur les systèmes d’exploitation ultérieurs. Si le jeu est supposé échouer, il doit le faire normalement en affichant un message à l’utilisateur.</td>
 </tr>
 <tr class="even">
 
 <td><dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manuelle</dt> <dd>
 <ol>
-<li>Installez le jeu sur Windows XP, sur les éditions 32 bits de Windows Vista et Windows 7, ainsi que sur les éditions 64 bits de Windows Vista et Windows 7.</li>
+<li>installez le jeu sur Windows XP, sur les éditions 32 bits de Windows vista et Windows 7, ainsi que sur les éditions 64 bits de Windows vista et Windows 7.</li>
 <li>Vérifiez que le processus d’installation du jeu ne rencontre pas d’erreur concernant la version du système d’exploitation.</li>
 </ol>
 </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Utiliser l’outil : Application Verifier<br/>
@@ -493,21 +493,21 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Les jeux doivent prendre en charge les scénarios multitâches Windows standard.</td>
+<td>les jeux doivent prendre en charge les scénarios de multitâches Windows standard.</td>
 </tr>
 <tr class="even">
 
-<td>Créez un compte d’utilisateur standard dans Windows Vista ou Windows 7 appelé Toby. Démarrer-> le panneau de configuration-> ajouter ou supprimer des comptes d’utilisateur-> créer un nouveau compte <br/>
+<td>créez un compte d’utilisateur Standard dans Windows Vista ou Windows 7 appelé Toby. Démarrer-> le panneau de configuration-> ajouter ou supprimer des comptes d’utilisateur-> créer un nouveau compte <br/>
 <ol>
 <li>Lancez le jeu en tant qu’utilisateur Jane.</li>
 <li>ALT + TAB de nouveau sur le bureau.</li>
-<li>Vérifiez que le jeu a correctement ALT + tabulations sur le bureau Windows.</li>
+<li>vérifiez que le jeu est correctement ALT + tabulations sur le bureau de Windows.</li>
 <li>Cliquez sur Start-> [flèche à droite de LOCK]-> changer d’utilisateur.</li>
 <li>Ouvrez une session en tant qu’utilisateur Toby.</li>
 <li>Vérifiez que le jeu démarre en tant qu’utilisateur Toby, tout en étant toujours en cours d’exécution en tant qu’utilisateur Jane.</li>
@@ -529,8 +529,8 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -564,8 +564,8 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -598,8 +598,8 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -630,8 +630,8 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -657,24 +657,24 @@ Si ce test échoue, vérifiez que le jeu est destiné à être installé pour to
 
  
 
-### <a name="34-install-windows-resources-properly"></a>3,4 Installation des ressources Windows correctement
+### <a name="34-install-windows-resources-properly"></a>3,4 installer correctement les ressources Windows
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Les applications ne doivent pas tenter d’installer des fichiers ou des clés de Registre protégés par Protection des ressources Windows (WRP).</td>
+<td>les Applications ne doivent pas tenter d’installer des fichiers ou des clés de registre protégés par Protection des ressources Windows (WRP).</td>
 </tr>
 <tr class="even">
 
 <td><ul>
-<li>Vérifiez qu’aucune boîte de dialogue Protection des ressources Windows WRP ne s’affiche pendant le processus d’installation.</li>
+<li>vérifiez qu’aucune boîte de dialogue Protection des ressources Windows WRP ne s’affiche pendant le processus d’installation.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -690,13 +690,13 @@ Si ce test échoue, vérifiez que le jeu est destiné à être installé pour to
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Le programme d’installation de jeu ne doit pas supposer que l’installation de composants Windows à partir de packages de redistribution nécessite un redémarrage, sauf si le redémarrage est indiqué par un résultat de retour ou par la documentation de Microsoft.</td>
+<td>le programme d’installation de jeu ne doit pas supposer que l’installation de Windows composants à partir de packages de redistribution nécessite un redémarrage, sauf si le redémarrage est indiqué par un résultat de retour ou par la documentation de Microsoft.</td>
 </tr>
 <tr class="even">
 
@@ -723,8 +723,8 @@ Si un redistribution de la mise à jour Microsoft System requiert un redémarrag
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -763,8 +763,8 @@ Si un redistribution de la mise à jour Microsoft System requiert un redémarrag
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -772,16 +772,16 @@ Si un redistribution de la mise à jour Microsoft System requiert un redémarrag
 <td>Pour les jeux distribués sur CD, DVD ou tout autre support amovible qui prennent en charge l’exécution automatique, lorsque le disque est inséré pour la première fois, l’application doit automatiquement s’exécuter ou inviter l’utilisateur à installer le jeu. <br/>
 <blockquote>
 [!Note]<br />
-Les programmes d’exécution automatique qui ont été écrits pour une utilisation sur des versions de Windows antérieures à Windows Vista ne doivent pas utiliser le Runtime .NET, car cette technologie n’est pas fournie avec Windows XP ou des versions antérieures de Windows.
+les programmes d’exécution automatique qui ont été écrits pour une utilisation sur des versions de Windows antérieures à Windows Vista ne doivent pas utiliser le runtime .net, car cette technologie n’est pas incluse dans Windows XP ni dans les versions antérieures de Windows.
 </blockquote>
-<br/> Pour plus d’informations, reportez-vous à <a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">jeux pour les exigences techniques Windows</a> 3,7, support autorun. <br/></td>
+<br/> pour plus d’informations, reportez-vous à <a href="/windows/win32/DxTechArts/games-for-windows-technical-requirements-1-1-0006">jeux pour Windows exigences techniques</a> 3,7, Support Autorun. <br/></td>
 </tr>
 <tr class="even">
 
 <td><ol>
 <li>Insérez le disque ou le média du jeu.</li>
 <li>Vérifiez que la boîte de dialogue installation/exécution s’affiche automatiquement.</li>
-<li>Windows Vista ou Windows 7 : Vérifiez que le programme d’exécution automatique de jeu lui-même ne demande pas à l’utilisateur Jane d’élever les informations d’identification d’administrateur.</li>
+<li>Windows Vista ou Windows 7 : vérifiez que le programme d’exécution automatique de jeu lui-même n’invite pas l’utilisateur Jane à élever ses droits d’administrateur.</li>
 <li>Vérifiez que l’exécutable d’exécution automatique n’a pas besoin de composants de redistribution out-of-Box, tels que les bibliothèques .NET 3,5, C Run-Time, etc.</li>
 <li>Vérifiez que la réinsertion du disque dans le lecteur après l’installation n’entraîne pas le redémarrage automatique de l’installation.</li>
 </ol></td>
@@ -799,7 +799,7 @@ Les programmes d’exécution automatique qui ont été écrits pour une utilisa
 
 
 
-| Système d’exploitation                                              | Condition requise                                                                                                                                                                   |
+| Système d''exploitation                                              | Condition requise                                                                                                                                                                   |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> | Tous les programmes d’installation de l’application doivent tirer parti des API du gestionnaire de redémarrage pour éviter les redémarrages du système (voir la [condition 3,5](#35-avoid-reboots-during-installation)). |
 
@@ -813,8 +813,8 @@ Les programmes d’exécution automatique qui ont été écrits pour une utilisa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -850,25 +850,25 @@ Certains tests requièrent l’exécution complète d’un débogueur. Cela peut
 
  
 
-### <a name="43-support-windows-error-reporting"></a>Rapport d’erreurs Windows de support 4,3
+### <a name="43-support-windows-error-reporting"></a>Rapport d’erreurs Windows de Support 4,3
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Les jeux doivent gérer uniquement les exceptions connues et attendues, et la Rapport d’erreurs Windows ne doit pas être désactivée. Si une erreur (telle qu’une violation d’accès) est injectée dans un jeu, elle doit autoriser Rapport d’erreurs Windows à signaler l’incident.</td>
+<td>les jeux doivent gérer uniquement les exceptions connues et attendues, et la Rapport d’erreurs Windows ne doit pas être désactivée. si une erreur (telle qu’une Violation d’accès) est injectée dans un jeu, elle doit autoriser Rapport d’erreurs Windows à signaler l’incident.</td>
 </tr>
 <tr class="even">
 
 <td>Utiliser l’outil : détourneur de thread <br/>
 <ul>
-<li>Si l’application se bloque pendant le test, vérifiez que le jeu affiche Rapport d’erreurs Windows correctement et collecte des données de panne.</li>
+<li>si l’application se bloque pendant le test, vérifiez que le jeu affiche Rapport d’erreurs Windows correctement et collecte des données de panne.</li>
 </ul></td>
 </tr>
 </tbody>
@@ -882,8 +882,8 @@ Certains tests requièrent l’exécution complète d’un débogueur. Cela peut
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -897,11 +897,11 @@ Certains tests requièrent l’exécution complète d’un débogueur. Cela peut
 <li>Cliquez avec le bouton droit sur le ou les fichiers exécutables du jeu sur le support d’installation de et sur ceux qui sont installés sur le disque dur de l’ordinateur.</li>
 <li>Sélectionnez Propriétés.</li>
 <li>Windows XP : cliquez sur l’onglet <strong>version</strong> . Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis.</li>
-<li>Windows Vista ou Windows 7 : cliquez sur l’onglet <strong>Détails</strong> . Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. Le nom de la société n’est pas visible dans la page Propriétés de Windows Vista ou Windows 7.</li>
+<li>Windows Vista ou Windows 7 : cliquez sur l’onglet <strong>détails</strong> . Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. le nom de la société n’est pas visible dans la page de propriétés Windows Vista ou Windows 7.</li>
 </ol>
 </dd> <dt><span id="Automated_test_"></span><span id="automated_test_"></span><span id="AUTOMATED_TEST_"></span>Test automatisé :</dt> <dd>
 <ul>
-<li>Utilisez l’outil de test Microsoft Games for Windows. consultez la <a href="#64-microsoft-games-for-windows-test-tool">section 6,4</a>.</li>
+<li>utilisez l’outil de Test jeux Microsoft pour Windows ; consultez la <a href="#64-microsoft-games-for-windows-test-tool">section 6,4</a>.</li>
 </ul>
 </dd> </dl></td>
 </tr>
@@ -916,8 +916,8 @@ Certains tests requièrent l’exécution complète d’un débogueur. Cela peut
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -947,14 +947,14 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 -   édition 32 bits de Windows Vista SP1 et/ou Windows 7 sur un processeur Intel
 -   édition 64 bits de Windows Vista SP1 et/ou Windows 7 sur un processeur AMD
 -   édition 64 bits de Windows Vista SP1 et/ou Windows 7 sur un processeur Intel
--   édition 32 bits de Windows XP SP2 sur un processeur AMD
--   édition 32 bits de Windows XP SP2 sur un processeur Intel
+-   édition 32 bits Windows XP SP2 sur un processeur AMD
+-   édition 32 bits Windows XP SP2 sur un processeur Intel
 -   Moniteur à écran étendu qui prend en charge 1680 1050
--   Contrôleur Xbox 360 pour Windows
+-   manette Xbox 360 pour Windows
 
 ### <a name="52-pre-install"></a>5,2 pré-installation
 
-1.  Windows Vista et Windows 7 : créez deux utilisateurs standard : Jane et Toby
+1.  Windows Vista et Windows 7 : créer deux utilisateurs Standard : Jane et Toby
 2.  Windows Vista et Windows 7 : vérifier que le contrôle de compte d’utilisateur est activé
 3.  Créer un instantané de préinstallation de system32
 
@@ -963,7 +963,7 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
     3.  Accédez à c : \\ Windows \\ system32
     4.  Tapez dir/o :-g/o :-d >> c : \\ G4Wtest \\pregame.txt
 
-4.  Windows Vista et Windows 7 : définir sur 150% ppp \[ 1,8\]
+4.  Windows Vista et Windows 7 : définissez sur 150% ppp \[ 1,8\]
 5.  Continuer l' [installation](#3-installation)
 
 ### <a name="53-install"></a>installation de 5,3
@@ -979,7 +979,7 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 9.  Vérifier que le processus d’installation du jeu ne demande pas d’interaction avec le pare-feu \[ 3,1\]
 10. Vérifiez que le processus d’installation du jeu ne rencontre pas d’erreur concernant la version \[ 2,5 \] \[ 4,2 du système d’exploitation\]
 11. Vérifiez que le processus d’installation du jeu n’affiche pas de boîte (s) de dialogue de pilote non signé \[ 2,4\]
-12. Vérifiez qu’aucune boîte de dialogue de Protection des ressources Windows (WRP) ne s’affiche pendant le processus d’installation \[ 3,4\]
+12. vérifiez qu’aucune boîte de dialogue de Protection des ressources Windows (WRP) ne s’affiche pendant le processus d’installation \[ 3,4\]
 13. Vérifiez que la réinsertion du disque dans le lecteur après l’installation n’entraîne pas le redémarrage automatique de l’installation
 14. Vérifiez que le jeu ne nécessite pas le redémarrage du système après l’installation \[ 3,5\]
 15. Vérifiez que vous pouvez installer le jeu en tant qu’utilisateur Jane \[ 3,2\]
@@ -991,11 +991,11 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 
 1.  Vérifier que le jeu ne place pas de raccourcis de lancement sur le Bureau de l’utilisateur \[ 1,1\]
 2.  Vérifiez que le jeu ne place pas de raccourcis de lancement dans le menu démarrer \[ 1,1\]
-3.  Vérifiez que l’icône de jeu s’affiche dans l’Explorateur Windows Jeux \[ 1,1\]
+3.  vérifier que l’icône du jeu s’affiche dans Windows l’explorateur de jeux \[ 1,1\]
 4.  Vérifiez que les métadonnées (éditeur, développeur, genre, date de publication, version) s’affichent en bas et qu’elles sont correctes. \[ 1,1\]
-5.  Vérifiez que l’icône du jeu affiche des informations sur l’indice de performance Windows (WEI) dans l’Explorateur de jeux Windows \[ 1,1\]
-6.  Vérifier que les liens hypertexte de jeu pour les métadonnées fonctionnent correctement dans l’Explorateur de jeux Windows \[ 1,1\]
-7.  Vérifier que le jeu affiche une évaluation précise du contrôle parental dans l’Explorateur de jeux Windows \[ 1,1\]
+5.  vérifiez que l’icône de jeu affiche les informations de l’Index de Windows WEI dans Windows Games Explorer \[ 1,1\]
+6.  vérifier que les liens hypertexte de jeu pour les métadonnées fonctionnent correctement dans Windows Games Explorer \[ 1,1\]
+7.  vérifier que le jeu affiche une évaluation précise du contrôle parental dans Windows Games Explorer \[ 1,1\]
 8.  Créer un instantané postérieur à l’installation de system32
 
     1.  Afficher une fenêtre de commande (Start-> Run-> cmd)
@@ -1026,12 +1026,12 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
     3.  Vérifiez que le jeu ne demande pas les informations d’identification de l’administrateur au lancement de \[ 1,2\]
     4.  Passer au RUNTIME 3
 
-3.  RUNTIME 3 : si le jeu prend en charge un boîtier de jeu, vérifiez que le jeu reconnaît le contrôleur Xbox 360 pour Windows comme périphérique d’entrée \[ 1,4\]
+3.  RUNTIME 3 : si le jeu prend en charge un boîtier de jeu, vérifiez que le jeu reconnaît manette Xbox 360 pour Windows en tant qu’appareil d’entrée \[ 1,4\]
 
     1.  Si nécessaire, activez le contrôleur via le menu options.
     2.  Vérifier que le jeu fait référence aux boutons et aux déclencheurs de contrôleur à l’aide des noms Xbox 360
-    3.  Vérifier que le jeu et le système de menus sont contrôlable avec le contrôleur Xbox 360 pour Windows
-    4.  Vérifier que le contrôleur Xbox 360 pour Windows se comporte conformément aux normes acceptées
+    3.  vérifiez que le jeu et le système de menus sont contrôlable avec la manette Xbox 360 pour Windows
+    4.  vérifier que le manette Xbox 360 pour Windows se comporte conformément aux normes acceptées
 
 4.  Définissez la vidéo sur \[ 1,5 \] :
 
@@ -1046,7 +1046,7 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 5.  S’il est disponible dans les paramètres vidéo, vérifiez que les options de rendu du jeu sont par défaut Direct3D \[ 1,7 \] ; sinon, passez à [tests automatisés](#58-automated-tests)
 6.  Si vous y êtes invité ou si l’option est disponible, créez un profil utilisateur. Vérifier que le jeu ne rencontre pas d’erreurs lors de l’utilisation de noms de fichiers longs \[ 2,7\]
 7.  Démarrez un nouveau jeu, créez un jeu et vérifiez que le jeu ne rencontre pas d’erreurs lors de la gestion des caractères de système de fichiers non pris en charge \[ 2,7\]
-8.  Vérifiez que le jeu est correctement ALT + tabulations sur le bureau Windows \[ 2,6\]
+8.  vérifiez que le jeu est correctement ALT + tabulations sur le Windows desktop \[ 2,6\]
 
     1.  Permuter les utilisateurs avec le jeu en cours d’exécution en cliquant sur Démarrer-> changer d’utilisateur
     2.  Ouvrir une session en tant que Toby
@@ -1112,9 +1112,9 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 ### <a name="59-other-tests"></a>5,9 autres tests
 
 1.  Vérifiez que les fichiers exécutables du jeu contiennent une signature numérique \[ 2,3\]
-2.  Vérifier que le processus d’installation du jeu s’exécute normalement sur les éditions 64 bits de Windows Vista et/ou Windows 7 \[ 2,3\]
-3.  Vérifiez que le jeu ne rencontre pas d’erreur en raison d’exécutables 16 bits sur les éditions 64 bits de Windows Vista et/ou Windows 7 \[ 2,3\]
-4.  Forcer l’application à se bloquer pendant le test et vérifier que le jeu affiche Rapport d’erreurs Windows correctement et collecte les données de panne \[ 4,3\]
+2.  vérifiez que le processus d’installation du jeu s’exécute normalement sur les éditions 64 bits de Windows Vista et/ou Windows 7 \[ 2,3\]
+3.  vérifiez que le jeu ne rencontre pas d’erreur en raison d’exécutables 16 bits sur les éditions 64 bits de Windows Vista et/ou Windows 7 \[ 2,3\]
+4.  forcer l’application à se bloquer pendant le test et vérifier que le jeu affiche Rapport d’erreurs Windows correctement et collecte les données de panne \[ 4,3\]
 5.  Garantir des résumés de fichiers appropriés \[ 4,3\]
 
     1.  Cliquez sur Démarrer-> un ordinateur
@@ -1122,8 +1122,8 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
     3.  Dans la fenêtre de recherche, tapez \*.dll
     4.  Pour chaque fichier : cliquez avec le bouton droit sur le fichier, puis cliquez sur Propriétés.
 
-        -   Dans Windows XP : cliquez sur l’onglet version. Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis. \[4.3\]
-        -   Dans Windows Vista et Windows 7 : cliquez sur l’onglet Détails. Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. Le nom de la société n’est pas visible dans la page de propriétés de Windows Vista ou Windows 7 \[ 4,3\]
+        -   dans Windows XP : cliquez sur l’onglet Version. Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis. \[4.3\]
+        -   dans Windows Vista et Windows 7 : cliquez sur l’onglet détails. Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. le nom de la société n’est pas visible dans la page de propriétés Windows Vista ou Windows 7 \[ 4,3\]
 
     5.  Répétez cette vérification pour les fichiers .exe
 
@@ -1140,7 +1140,7 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 
 -   Vérifiez que le processus de désinstallation du jeu supprime tous les fichiers de composants du système d’exploitation non redistribués installés et efface tous les paramètres \[ 3,1\]
 
-    -   Vérifiez dans Windows Vista ou Windows 7 que le panneau de configuration est le seul moyen de supprimer le programme \[ 1,1\]
+    -   vérifiez dans Windows Vista ou Windows 7 que le panneau de configuration est le seul moyen de supprimer le programme \[ 1,1\]
 
 ## <a name="test-tool-notes"></a>Notes de l’outil de test
 
@@ -1155,7 +1155,7 @@ Voici quelques remarques pour chacun des outils de test répertoriés dans les s
 
  
 
-1.  Installer AppVerifier 4,0 (ou version ultérieure) sur un ordinateur exécutant Windows XP
+1.  installer AppVerifier 4,0 (ou version ultérieure) sur un ordinateur exécutant Windows XP
 2.  Lancez AppVerifier et cliquez sur fichier-> ajouter une application
 3.  Recherchez l’exécutable du jeu, sélectionnez-le, puis cliquez sur Ouvrir.
 4.  Dans la section « applications », sélectionnez l’exécutable du jeu
@@ -1188,7 +1188,7 @@ Voici quelques remarques pour chacun des outils de test répertoriés dans les s
 
 Cet outil est exécuté à partir d’une invite de commandes à l’emplacement où se trouve MT.exe.
 
-Exemple :
+Exemple :
 
 ``` syntax
 mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
@@ -1223,7 +1223,7 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
 
 Cet outil est exécuté à partir d’une invite de commandes à l’emplacement où se trouve threadhijacker.exe.
 
-Exemple :
+Exemple :
 
 ``` syntax
 threadhijacker.exe /process:str
@@ -1236,11 +1236,11 @@ Où str est le nom \_ de \_program.exe
 3.  Accédez au répertoire où threadhijacker.exe est
 4.  Type : **threadhijacker.exe/process :** Str, où str est le nom de l’exécutable que vous souhaitez atteindre.
 
-### <a name="64-microsoft-games-for-windows-test-tool"></a>6,4 Microsoft Games for Windows Test Tool
+### <a name="64-microsoft-games-for-windows-test-tool"></a>6,4 jeux Microsoft pour l’outil de Test Windows
 
-Cet outil se trouve dans le kit de développement logiciel (SDK) DirectX. Une fois le kit de développement logiciel (SDK) installé sur un ordinateur, le programme d’installation de l’outil de test Games for Windows peut être placé sur l’ordinateur de test et installé.
+Cet outil se trouve dans le kit de développement logiciel (SDK) DirectX. une fois le kit de développement logiciel (SDK) installé sur un ordinateur, le programme d’installation de l’outil de test Games for Windows peut être placé sur l’ordinateur de test et installé.
 
-Recherchez le programme d’installation de Microsoft Games for Windows Test Tool sur l’ordinateur de développement sur lequel le kit de développement logiciel DirectX est installé. Par défaut, il est placé à l’emplacement suivant :
+localisez le programme d’installation de Microsoft Games for Windows Test Tool sur l’ordinateur de développement sur lequel le kit SDK DirectX est installé. Par défaut, il est placé à l’emplacement suivant :
 
 ``` syntax
 %SystemDrive%\Program Files (x86)\Microsoft DirectX SDK (Date)\Utilities\bin\x86\Microsoft Games for Windows Test Tools\
@@ -1248,8 +1248,8 @@ Recherchez le programme d’installation de Microsoft Games for Windows Test Too
 
 1.  Copiez le programme d’installation (MicrosoftGFWTestTool.msi/setup.exe) sur l’ordinateur de test.
 2.  Exécutez le programme d’installation.
-3.  Lancez l’outil de test Microsoft Games for Windows.
-4.  Dans le champ **liste de projets** , remplacez **créer un projet** par le nom de votre titre, puis cliquez sur **créer**.
+3.  lancez l’outil de Test jeux Microsoft pour Windows.
+4.  dans le champ de **liste Project** , remplacez **create new Project** par le nom de votre titre, puis cliquez sur **create new**.
 
     Attendez la fin de la ligne de base.
 
@@ -1285,28 +1285,28 @@ Ce processus revient à cliquer sur **échec**, à l’exception de la liste dé
 
 <dl> <dt>
 
-<span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>Jeux pour Windows : exigences techniques
+<span id="Games_for_Windows__Technical_Requirements"></span><span id="games_for_windows__technical_requirements"></span><span id="GAMES_FOR_WINDOWS__TECHNICAL_REQUIREMENTS"></span>jeux pour Windows : exigences techniques
 </dt> <dd>
 
-[Jeux pour les exigences techniques de Windows : meilleures pratiques pour les jeux sur Windows XP, Windows Vista et Windows 7](./games-for-windows-technical-requirements-1-1-0006.md)
+[jeux pour Windows exigences techniques : meilleures pratiques pour les jeux sur Windows XP, Windows Vista et Windows 7](./games-for-windows-technical-requirements-1-1-0006.md)
 
 </dd> <dt>
 
-<span id="Windows_SDK"></span><span id="windows_sdk"></span><span id="WINDOWS_SDK"></span>SDK Windows
+<span id="Windows_SDK"></span><span id="windows_sdk"></span><span id="WINDOWS_SDK"></span>Windows SDK
 </dt> <dd>
 
-[Kits de développement logiciel Windows](https://msdn.microsoft.com/bb980924.aspx)
+[Windows Kits](https://msdn.microsoft.com/bb980924.aspx)
 
 </dd> <dt>
 
 <span id="User_Account_Control_Guidelines"></span><span id="user_account_control_guidelines"></span><span id="USER_ACCOUNT_CONTROL_GUIDELINES"></span>Instructions relatives au contrôle de compte d’utilisateur
 </dt> <dd>
 
-[Exigences de développement d’applications Windows Vista pour la compatibilité du contrôle de compte d’utilisateur](/previous-versions/dotnet/articles/bb530410(v=msdn.10))
+[Windows Conditions requises pour le développement d’applications Vista pour la compatibilité du contrôle de compte d’utilisateur](/previous-versions/dotnet/articles/bb530410(v=msdn.10))
 
 </dd> <dt>
 
-<span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Informations Windows Installer
+<span id="Windows_Installer_Information"></span><span id="windows_installer_information"></span><span id="WINDOWS_INSTALLER_INFORMATION"></span>Windows Informations sur le programme d’installation
 </dt> <dd>
 
 [Windows Installer](../msi/windows-installer-portal.md)
@@ -1316,7 +1316,7 @@ Ce processus revient à cliquer sur **échec**, à l’exception de la liste dé
 <span id="WinQual_Developer_Portal__"></span><span id="winqual_developer_portal__"></span><span id="WINQUAL_DEVELOPER_PORTAL__"></span>Portail des développeurs WinQual 
 </dt> <dd>
 
-[Windows Quality Online Services (winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
+[Windows Services en ligne de qualité (winqual)](/windows-hardware/drivers/dashboard/winqual-submission-tool--winqualexe-)
 
 </dd> <dt>
 

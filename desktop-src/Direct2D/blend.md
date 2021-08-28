@@ -6,12 +6,12 @@ keywords:
 - effet de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e248d1f7f41721d173510b8d10feac9be2e08f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 853043123c6eea9a87656a7450b1295236ed5d6a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844242"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478195"
 ---
 # <a name="blend-effect"></a>Effet de fusion :
 
@@ -45,7 +45,7 @@ Voici un autre exemple utilisant le mode d’exclusion.
 | ![première image source avant l’effet.](images/default-before.jpg)    |
 | Avant image 2                                                             |
 | ![deuxième image avant l’effet.](images/4-arthimetic-composite2.jpg) |
-| After                                                                      |
+| Après                                                                      |
 | ![image après la transformation.](images/5-blend.png)                      |
 
 
@@ -102,129 +102,36 @@ Certains modes de fusion nécessitent une conversion vers et à partir de l’es
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Énumération</th>
-<th>Sommaire</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKEN</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_MULTIPLY</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_COLOR_BURN</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LINEAR_BURN</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_DARKER_COLOR</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTEN</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SCREEN</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR_DODGE</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_DODGE</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_LIGHTER_COLOR</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_OVERLAY</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_SOFT_LIGHT</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_LIGHT</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_VIVID_LIGHT</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LINEAR_LIGHT</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_PIN_LIGHT</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_HARD_MIX</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIFFERENCE</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = ABS (f<sub>RVB</sub> - b<sub>RGB</sub>)</td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_EXCLUSION</td>
-<td>Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = F<sub>RGB</sub> + b<sub>RVB</sub> 2 * f<sub>RVB</sub> * b<sub></sub> RVB</td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_HUE</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SATURATION</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_COLOR</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_LUMINOSITY</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DISSOLVE</td>
-<td>Soit :
-<ul>
-<li>Une scène en coordonnées XY pour le pixel actuel</li>
-<li>Un générateur de nombres pseudo-aléatoires déterministe (XY) basé sur la coordonnée de valeur de départ XY, avec une distribution sans biais de valeurs de [0, 1]</li>
-</ul>
-<br/> <img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br/></td>
-</tr>
-<tr class="odd">
-<td>D2D1_BLEND_MODE_SUBTRACT</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /></td>
-</tr>
-<tr class="even">
-<td>D2D1_BLEND_MODE_DIVISION</td>
-<td>Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /></td>
-</tr>
-</tbody>
-</table>
+
+| Énumération | Sommaire | 
+|-------------|----------|
+| D2D1_BLEND_MODE_DARKEN | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-darken-1.png" alt="mathematical formula for a darken effect." /> | 
+| D2D1_BLEND_MODE_MULTIPLY | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-multiply-1.png" alt="Mathematical formula for a mutiply effect." /> | 
+| D2D1_BLEND_MODE_COLOR_BURN | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colorburn-1.png" alt="Mathematical formula for a coor burn effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_BURN | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearburn-1.png" alt="Mathematical formula for a linear burn effect." /> | 
+| D2D1_BLEND_MODE_DARKER_COLOR | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-darkencolor-1.png" alt="Mathematical formla for a darken color effect." /> | 
+| D2D1_BLEND_MODE_LIGHTEN | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-lighten-1.png" alt="Mathematical formula for a lighten effect." /> | 
+| D2D1_BLEND_MODE_SCREEN | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-screen-1.png" alt="Mathematical formula for a screen effect." /> | 
+| D2D1_BLEND_MODE_COLOR_DODGE | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-colordodge-1.png" alt="Mathematical formula for a color dodge effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_DODGE | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-lineardodge-1.png" alt="Mathematical formula for a linear dodge effect." /> | 
+| D2D1_BLEND_MODE_LIGHTER_COLOR | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-lightercolor-1.png" alt="Mathematical formula for a lighter color effect." /> | 
+| D2D1_BLEND_MODE_OVERLAY | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-overlay-1.png" alt="Mathematical formula for an overlay effect." /> | 
+| D2D1_BLEND_MODE_SOFT_LIGHT | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-softlight-1.png" alt="Mathematical formula for a soft light effect." /> | 
+| D2D1_BLEND_MODE_HARD_LIGHT | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardlight-1.png" alt="Mathematical formula for a hard light effect." /> | 
+| D2D1_BLEND_MODE_VIVID_LIGHT | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-vividlight-1.png" alt="Mathematical formula for a vivid light effect." /> | 
+| D2D1_BLEND_MODE_LINEAR_LIGHT | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-linearlight-1.png" alt="Mathematical formula for a linear light effect." /> | 
+| D2D1_BLEND_MODE_PIN_LIGHT | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-pinlight-1.png" alt="Mathematical formula for a pin light effect." /> | 
+| D2D1_BLEND_MODE_HARD_MIX | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = <img src="images/blend-mode-hardmix-1.png" alt="Mathematical formula for a hard mix effect." /> | 
+| D2D1_BLEND_MODE_DIFFERENCE | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>) = ABS (f<sub>RGB</sub> -b<sub>RGB</sub>) | 
+| D2D1_BLEND_MODE_EXCLUSION | Formules de fusion de base avec <em>f</em>(f<sub>RGB</sub>, B<sub>RGB</sub>)<sub>= F</sub> <sub>RGB</sub> + b<sub>RGB 2 * f RVB *</sub> b<sub>RGB</sub> | 
+| D2D1_BLEND_MODE_HUE | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-hue-1.png" alt="Mathematical formula for a hue blend effect." /> | 
+| D2D1_BLEND_MODE_SATURATION | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-saturation-1.png" alt="Mathematical formula for a sturation blend effect." /> | 
+| D2D1_BLEND_MODE_COLOR | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-color-1.png" alt="Mathematical formula for a color blend effect." /> | 
+| D2D1_BLEND_MODE_LUMINOSITY | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-luminosity-1.png" alt="Mathematical formula for a luminosity blend effect." /> | 
+| D2D1_BLEND_MODE_DISSOLVE | Soit :<ul><li>Une scène en coordonnées XY pour le pixel actuel</li><li>Un générateur de nombres pseudo-aléatoires déterministe (XY) basé sur la coordonnée de valeur de départ XY, avec une distribution sans biais de valeurs de [0, 1]</li></ul><br /><img src="images/blend-mode-dissolve-1.png" alt="Mathematical formula for a dissolve blend effect." /><br /> | 
+| D2D1_BLEND_MODE_SUBTRACT | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-subtract-1.png" alt="Mathematical formula for a subtract blend effect." /> | 
+| D2D1_BLEND_MODE_DIVISION | Formule de fusion de base pour Alpha uniquement. <img src="images/blend-mode-division-1.png" alt="Mathematical formula for a division blend effect." /> | 
+
 
 
 
@@ -299,8 +206,8 @@ Pour obtenir un exemple de cet effet, téléchargez l' [exemple de modes d’eff
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

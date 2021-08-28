@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8ec231b5d7e2769d86262864e0b9a53621c36a99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa14cd19e5502c227d1f7f0814966959680dfe20
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539058"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624115"
 ---
 # <a name="span-idwwan_profile_v4element_contextspanmbnprofileextcontext-v4"></a><span id="WWAN_profile_v4.element_Context"></span>\/Contexte MBNProfileExt (v4)
 
@@ -35,7 +35,7 @@ Spécifie les paramètres requis pour établir une connexion de données.
 [\<ModemDMConfigProfile\>](element-modemdmconfigprofile.md)  
 &nbsp;&nbsp;**\<Context\>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <Context>
@@ -50,7 +50,7 @@ Spécifie les paramètres requis pour établir une connexion de données.
 </Context>
 ```
 
-### <a name="key"></a>Clé
+### <a name="key"></a>Clé :
 
 `?`   facultatif (zéro ou un)
 
@@ -58,14 +58,14 @@ Spécifie les paramètres requis pour établir une connexion de données.
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -103,7 +103,7 @@ Aucun
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Valeur par défaut</td>
 <td>Le type d’adresse IP doit être choisi par la ou les couches inférieures</td>
 </tr>
 <tr class="even">
@@ -139,8 +139,8 @@ Aucun
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -167,8 +167,8 @@ Aucun
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

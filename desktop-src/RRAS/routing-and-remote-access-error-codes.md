@@ -11,23 +11,23 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 15966d009f0690a1db24c21460da5b9e08a38347
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bd68c31ef2b92cce75059d5d86ee68dc65d1151
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032541"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624325"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>Codes d’erreur de routage et d’accès distant
 
-Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suivants sont définis dans raserror. h. Tous les codes d’erreur sont pris en charge dans Windows 2000 ou les versions ultérieures de Windows, sauf indication contraire.
+Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suivants sont définis dans raserror. h. tous les codes d’erreur sont pris en charge dans Windows 2000 ou les versions ultérieures de Windows, sauf indication contraire.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -61,7 +61,7 @@ Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suiv
 <td>Impossible de définir les informations de port spécifiées.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -74,7 +74,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Un événement qui n’est pas valide a été détecté.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -95,7 +95,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Un itinéraire spécifié n’est pas disponible.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -108,7 +108,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>La compression spécifiée n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -141,7 +141,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Aucun point de terminaison n’a pu être déterminé.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -170,7 +170,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une chaîne n’a pas pu être chargée.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -207,7 +207,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Votre ordinateur n’a pas pu être enregistré sur le réseau distant.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -224,7 +224,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une chaîne qui n’a pas pu être convertie a été détectée.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -237,7 +237,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Aucun réseau asynchrone n’est disponible.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -246,7 +246,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de l’appel de NetBIOS.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -255,7 +255,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>le serveur ne peut pas allouer les ressources NetBIOS nécessaires à la prise en charge du client.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -264,7 +264,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>L’un des noms NetBIOS de votre ordinateur est déjà inscrit sur le réseau distant.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -273,7 +273,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Échec d’une carte réseau sur le serveur.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -282,7 +282,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Vous ne recevrez pas de message sur le réseau.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -311,7 +311,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le serveur d’accès à distance ne répond pas.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -345,11 +345,11 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEVICENAME_TOO_LONG"></span><span id="error_devicename_too_long"></span><dl> <dt><strong>ERROR_DEVICENAME_TOO_LONG</strong></dt> <dt>658</dt> </dl></td>
-<td>Nom de l’appareil dans l’appareil. Fichier INF ou média. Le fichier INI est trop long. <br/></td>
+<td>Nom de l’appareil dans l’appareil. Le fichier INF ou .INI du média est trop long. <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_DEVICENAME_NOT_FOUND"></span><span id="error_devicename_not_found"></span><dl> <dt><strong>ERROR_DEVICENAME_NOT_FOUND</strong></dt> <dt>659</dt> </dl></td>
-<td>Média. Le fichier INI fait référence à un nom de périphérique inconnu.<br/></td>
+<td>Le fichier de .INI de média fait référence à un nom de périphérique inconnu.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NO_RESPONSES"></span><span id="error_no_responses"></span><dl> <dt><strong>ERROR_NO_RESPONSES</strong></dt> <dt>660</dt> </dl></td>
@@ -365,7 +365,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_UNKNOWN_DEVICE_TYPE"></span><span id="error_unknown_device_type"></span><dl> <dt><strong>ERROR_UNKNOWN_DEVICE_TYPE</strong></dt> <dt>663</dt> </dl></td>
-<td>Média. Le fichier INI fait référence à un type de périphérique inconnu.<br/></td>
+<td>Le fichier de .INI de média fait référence à un type d’appareil inconnu.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_ALLOCATING_MEMORY"></span><span id="error_allocating_memory"></span><dl> <dt><strong>ERROR_ALLOCATING_MEMORY</strong></dt> <dt>664</dt> </dl></td>
@@ -381,7 +381,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_INI_FILE"></span><span id="error_reading_ini_file"></span><dl> <dt><strong>ERROR_READING_INI_FILE</strong></dt> <dt>667</dt> </dl></td>
-<td>Impossible de lire le média. Fichier INI.<br/></td>
+<td>Impossible de lire le fichier de .INI de média.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NO_CONNECTION"></span><span id="error_no_connection"></span><dl> <dt><strong>ERROR_NO_CONNECTION</strong></dt> <dt>668</dt> </dl></td>
@@ -389,36 +389,36 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_BAD_USAGE_IN_INI_FILE"></span><span id="error_bad_usage_in_ini_file"></span><dl> <dt><strong>ERROR_BAD_USAGE_IN_INI_FILE</strong></dt> <dt>669</dt> </dl></td>
-<td>Le paramètre d’utilisation du fichier Media. ini n’est pas valide.<br/></td>
+<td>Le paramètre d’utilisation du fichier de .ini de média n’est pas valide.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_SECTIONNAME"></span><span id="error_reading_sectionname"></span><dl> <dt><strong>ERROR_READING_SECTIONNAME</strong></dt> <dt>670</dt> </dl></td>
-<td>Impossible de lire le nom de la section à partir du média. Fichier INI.<br/></td>
+<td>Impossible de lire le nom de la section à partir du fichier de .INI de média.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_DEVICETYPE"></span><span id="error_reading_devicetype"></span><dl> <dt><strong>ERROR_READING_DEVICETYPE</strong></dt> <dt>671</dt> </dl></td>
-<td>Impossible de lire le type d’appareil à partir du média. Fichier INI.<br/></td>
+<td>Impossible de lire le type d’appareil à partir du fichier de .INI de média.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_DEVICENAME"></span><span id="error_reading_devicename"></span><dl> <dt><strong>ERROR_READING_DEVICENAME</strong></dt> <dt>672</dt> </dl></td>
-<td>Impossible de lire le nom de l’appareil à partir du média. Fichier INI.<br/></td>
+<td>Impossible de lire le nom de l’appareil à partir du fichier de .INI de média.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_USAGE"></span><span id="error_reading_usage"></span><dl> <dt><strong>ERROR_READING_USAGE</strong></dt> <dt>673</dt> </dl></td>
-<td>Impossible de lire l’utilisation à partir du média. Fichier INI.<br/></td>
+<td>Impossible de lire l’utilisation à partir du fichier de .INI de média.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_MAXCONNECTBPS"></span><span id="error_reading_maxconnectbps"></span><dl> <dt><strong>ERROR_READING_MAXCONNECTBPS</strong></dt> <dt>674</dt> </dl></td>
-<td>Le système n’a pas pu lire la vitesse maximale de connexion du transporteur à partir du média. Fichier INI.<br/>
+<td>Le système n’a pas pu lire la vitesse maximale de connexion du transporteur à partir du fichier de .INI de média.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_READING_MAXCARRIERBPS"></span><span id="error_reading_maxcarrierbps"></span><dl> <dt><strong>ERROR_READING_MAXCARRIERBPS</strong></dt> <dt>675</dt> </dl></td>
-<td>Impossible de lire l’utilisation à partir du média. Fichier INI.<br/></td>
+<td>Impossible de lire l’utilisation à partir du fichier de .INI de média.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_LINE_BUSY"></span><span id="error_line_busy"></span><dl> <dt><strong>ERROR_LINE_BUSY</strong></dt> <dt>676</dt> </dl></td>
@@ -445,7 +445,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le modem (ou un autre périphérique de connexion) a signalé une erreur générale.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -483,7 +483,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="odd">
 <td><span id="ERROR_EMPTY_INI_FILE"></span><span id="error_empty_ini_file"></span><dl> <dt><strong>ERROR_EMPTY_INI_FILE</strong></dt> <dt>690</dt> </dl></td>
-<td>Média. Le fichier INI est vide.<br/></td>
+<td>Le fichier de .INI de média est vide.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_AUTHENTICATION_FAILURE"></span><span id="error_authentication_failure"></span><dl> <dt><strong>ERROR_AUTHENTICATION_FAILURE</strong></dt> <dt>691</dt> </dl></td>
@@ -550,7 +550,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de l’écriture de la vitesse de connexion initiale.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -579,7 +579,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le port bidirectionnel est en cours d’initialisation. Patientez quelques secondes et recomposez.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -592,7 +592,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Aucun canal RNIS n’est disponible pour effectuer l’appel.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -601,7 +601,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Trop d’erreurs se sont produites en raison d’une mauvaise qualité de ligne téléphonique.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -622,7 +622,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été arrêtée par l’ordinateur distant.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -647,7 +647,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le protocole IPX ne peut pas effectuer de numérotation sur le modem (ou sur un autre périphérique de connexion), car cet ordinateur n’est pas configuré pour la connexion sortante (il s’agit d’un routeur IPX).<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -656,7 +656,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le protocole IPX ne peut pas se connecter sur le modem (ou un autre périphérique de connexion) car cet ordinateur n’est pas configuré pour la numérotation dans (le routeur IPX n’est pas installé).<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -669,7 +669,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Impossible d’accéder à TCPCFG.DLL.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -686,7 +686,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>L’inscription de l’ordinateur n’est pas terminée.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -743,7 +743,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>L’ordinateur distant requiert le chiffrement des données.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -752,7 +752,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le système ne peut pas utiliser le numéro de réseau IPX attribué par l’ordinateur distant. Des informations supplémentaires sont fournies dans le journal des événements.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -761,7 +761,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le module de gestion de session (SMM) n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -770,7 +770,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le SMM n’est pas initialisé.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -779,7 +779,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Aucun MAC pour le port.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -788,7 +788,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le SMM a dépassé le délai d’attente.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -801,7 +801,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le mauvais SMM a été spécifié.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -810,7 +810,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le numéro de rappel contient un caractère qui n’est pas valide. Seuls les 18 caractères suivants sont autorisés : de 0 à 9, T, P, W, (,),-, @ et Space.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -843,7 +843,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le partage de connexion Internet (ICS) est déjà activé sur la connexion.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -852,7 +852,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de la modification des paramètres de partage de connexion Internet existants.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -861,7 +861,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de l’activation des fonctionnalités de routage.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -870,7 +870,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de l’activation du partage de connexion Internet pour la connexion.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -879,7 +879,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Une erreur s’est produite lors de la configuration du réseau local pour le partage.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -888,7 +888,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Impossible d’activer le partage de connexion Internet. Il y a plus d’une connexion LAN autre que la connexion à partager.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -957,7 +957,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Pour effectuer une numérotation à l’aide de cette connexion, vous devez utiliser une carte à puce.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -970,7 +970,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>La tentative de chiffrement a échoué, car aucun certificat valide n’a été trouvé.<br/>
 <blockquote>
 [!Note]<br />
-Déconseillé dans Windows Vista et les versions ultérieures de Windows.
+déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1028,7 +1028,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_WRONG_TUNNEL_TYPE"></span><span id="error_wrong_tunnel_type"></span><dl> <dt><strong>ERROR_WRONG_TUNNEL_TYPE</strong></dt> <dt>795</dt> </dl></td>
-<td>L’attribut RADIUS du type de tunnel pour cet utilisateur n’est pas correct. <br/></td>
+<td>l’attribut RADIUS de Type Tunnel pour cet utilisateur n’est pas correct. <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_UNKNOWN_SERVICE_TYPE"></span><span id="error_unknown_service_type"></span><dl> <dt><strong>ERROR_UNKNOWN_SERVICE_TYPE</strong></dt> <dt>796</dt> </dl></td>
@@ -1047,7 +1047,7 @@ Déconseillé dans Windows Vista et les versions ultérieures de Windows.
 <td>Le partage de connexion Internet (ICS) ne peut pas être activé en raison d’un conflit d’adresse IP sur le réseau. ICS nécessite que l’hôte soit configuré pour utiliser <strong>192.168.0.1</strong>. Assurez-vous qu’aucun autre client sur le réseau n’est configuré pour utiliser <strong>192.168.0.1</strong>.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/>
 <blockquote>
@@ -1061,16 +1061,16 @@ Windows 7 et versions ultérieures : l’ordinateur hôte doit être configuré
 <td>Impossible d’établir la connexion VPN. Le serveur VPN est peut-être inaccessible ou les paramètres de sécurité ne sont peut-être pas configurés correctement pour cette connexion. <br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_VALIDATING_SERVER_CERT"></span><span id="error_validating_server_cert"></span><dl> <dt><strong>ERROR_VALIDATING_SERVER_CERT</strong></dt> <dt>801</dt> </dl></td>
-<td>Cette connexion est configurée pour valider l’identité du serveur d’accès, mais Windows ne peut pas vérifier le certificat numérique envoyé par le serveur.<br/>
+<td>cette connexion est configurée pour valider l’identité du serveur d’accès, mais Windows ne peut pas vérifier le certificat numérique envoyé par le serveur.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1079,7 +1079,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>La carte fournie n’a pas été reconnue. Vérifiez que la carte est insérée correctement et qu’elle s’adapte en toute sécurité.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
+pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1088,7 +1088,7 @@ Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 <td>La configuration PEAP stockée dans le cookie de session ne correspond pas à la configuration de la session active.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
+pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1097,7 +1097,7 @@ Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 <td>L’identité PEAP stockée dans le cookie de session ne correspond pas à l’identité actuelle.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
+pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1106,7 +1106,7 @@ Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 <td>Vous ne pouvez pas établir une connexion à l’aide de cette connexion au moment de la connexion, car elle est configurée pour utiliser les informations d’identification de l’utilisateur actuellement connecté.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
+pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1115,7 +1115,7 @@ Pris en charge dans Windows XP avec SP1 et les versions ultérieures de Windows.
 <td>Une connexion entre votre ordinateur et le serveur VPN a été démarrée, mais la connexion VPN ne peut pas être effectuée. La cause la plus courante est qu’au moins un périphérique Internet (par exemple, un pare-feu ou un routeur) entre votre ordinateur et le serveur VPN n’est pas configuré pour autoriser les paquets de protocole GRE (Generic Routing Encapsulation).<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1124,7 +1124,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion réseau entre votre ordinateur et le serveur VPN a été interrompue. Cela peut être dû à un problème dans la transmission VPN et est généralement le résultat de la latence Internet ou simplement que votre serveur VPN a atteint sa capacité maximale. Essayez de vous reconnecter au serveur VPN.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1133,7 +1133,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion réseau entre votre ordinateur et le serveur VPN n’a pas pu être établie car le serveur distant a refusé la connexion. Cela est généralement dû à une incompatibilité entre la configuration du serveur et vos paramètres de connexion.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1142,7 +1142,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion réseau entre votre ordinateur et le serveur VPN n’a pas pu être établie car le serveur distant ne répond pas. Cela peut être dû au fait que l’un des périphériques réseau (par exemple, pare-feu, NAT, routeurs) entre votre ordinateur et le serveur distant n’est pas configuré pour autoriser les connexions VPN.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1151,7 +1151,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Une connexion réseau entre votre ordinateur et le serveur VPN a été démarrée, mais la connexion VPN n’est pas terminée. Cela est généralement dû à l’utilisation d’un certificat incorrect ou arrivé à expiration pour l’authentification entre le client et le serveur.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows
+pris en charge dans Windows Vista et les versions ultérieures de Windows
 </blockquote>
 <br/></td>
 </tr>
@@ -1160,7 +1160,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows
 <td>La connexion réseau entre votre ordinateur et le serveur VPN n’a pas pu être établie car le serveur distant ne répond pas. Cela est généralement dû à un problème de clé pré-partagée entre le client et le serveur. Une clé prépartagée est utilisée pour vous assurer que vous êtes bien celui que vous déclarez dans un cycle de communication de sécurité IP (IPSec).<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1169,7 +1169,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>la connexion a été empêchée en raison d’une stratégie configurée sur votre serveur RAS/VPN. Plus précisément, la méthode d’authentification utilisée par le serveur pour vérifier votre nom d’utilisateur et votre mot de passe peut ne pas correspondre à la méthode d’authentification configurée dans votre profil de connexion.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1178,7 +1178,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Vous avez tenté d’établir une deuxième connexion large bande alors qu’une connexion haut débit précédente est déjà établie à l’aide du même périphérique ou du même port.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1187,7 +1187,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connectivité Ethernet sous-jacente requise pour la connexion large bande est introuvable.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1196,7 +1196,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Impossible d’établir la connexion au réseau haut débit sur votre ordinateur, car le serveur distant ne répond pas. Cela peut être dû à une valeur qui n’est pas valide pour le champ « nom du service » pour cette connexion.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1205,7 +1205,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Une fonctionnalité ou un paramètre que vous avez essayé d’activer n’est plus pris en charge par le service d’accès à distance.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1214,7 +1214,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Impossible de supprimer une connexion pendant qu’elle est connectée.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1223,7 +1223,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le client de contrainte de mise en conformité NAP n’a pas pu créer de ressources système pour les connexions d’accès à distance. Certains services ou ressources réseau peuvent ne pas être disponibles.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1232,7 +1232,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le service agent de protection d’accès réseau (agent NAP) a été désactivé ou n’est pas installé sur cet ordinateur. Certains services ou ressources réseau peuvent ne pas être disponibles.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1241,7 +1241,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le client de contrainte de mise en conformité de la protection d’accès réseau (NAP) n’a pas pu s’inscrire auprès du service agent de protection d’accès réseau (agent NAP). Certains services ou ressources réseau peuvent ne pas être disponibles.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1250,7 +1250,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le client de contrainte de mise en conformité NAP n’a pas pu traiter la demande, car la connexion d’accès à distance n’existe pas.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1259,7 +1259,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le client de contrainte de mise en conformité NAP n’a pas répondu. Certains services ou ressources réseau peuvent ne pas être disponibles.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1268,7 +1268,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le Crypto-Binding type-length-value (TLV) reçu n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1277,7 +1277,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Crypto-Binding TLV n’a pas été reçu.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1286,7 +1286,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le protocole PPTP (point-to-Point Tunneling Protocol) n’est pas compatible avec IPv6. Modifiez le type de réseau privé virtuel en protocole L2TP (Layer Two Tunneling Protocol).<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1295,7 +1295,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Échec de la validation EAPTLS des informations d’identification mises en cache. Supprimer les informations d’identification mises en cache.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1304,7 +1304,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion L2TP/IPsec ne peut pas être effectuée car le service des modules de génération de clé IPSec IKE et AuthIP et/ou le service de moteur de filtrage de base ne sont pas en cours d’exécution. Ces services sont requis pour établir une connexion L2TP/IPSec.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1313,7 +1313,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été arrêtée en raison d’un délai d’inactivité.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1322,7 +1322,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>Le modem (ou un autre périphérique de connexion) a été déconnecté en raison d’une erreur de liaison.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1331,7 +1331,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été interrompue, car l’utilisateur s’est déconnecté.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1340,7 +1340,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été interrompue car le changement d’utilisateur s’est produit.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1349,7 +1349,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été interrompue en raison de la mise en veille prolongée.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1358,7 +1358,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été interrompue car le système a été suspendu.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1367,7 +1367,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La connexion a été interrompue car le gestionnaire de connexions d’accès à distance s’est arrêté.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1376,7 +1376,7 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La tentative de connexion L2TP a échoué car la couche de sécurité n’a pas pu authentifier l’ordinateur distant. Cela peut être dû au fait qu’un ou plusieurs champs du certificat présenté par le serveur distant n’ont pas pu être validés comme appartenant à la destination cible.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1385,16 +1385,16 @@ Pris en charge dans Windows Vista et les versions ultérieures de Windows.
 <td>La machine ne prend pas en charge la protection d’accès réseau.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows Vista et les versions ultérieures de Windows.
+pris en charge dans Windows Vista et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_TUNNELID"></span><span id="error_invalid_tunnelid"></span><dl> <dt><strong>ERROR_INVALID_TUNNELID</strong></dt> <dt>837</dt> </dl></td>
-<td>ID de tunnel non valide.<br/>
+<td>ID de Tunnel non valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1403,7 +1403,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Une autre demande de mise à jour de la connexion est en cours. RAS n’autorise qu’une seule demande de mise à jour de la connexion à la fois.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1412,7 +1412,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>La négociation à l’aide du protocole configuré est désactivée. Modifiez les propriétés de connexion et sélectionnez un protocole différent pour la négociation, puis réessayez.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1421,7 +1421,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Échec de la négociation d’adresse interne.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1430,7 +1430,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Le client doit demander une adresse IPv4 ou IPv6 interne.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1439,7 +1439,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Échec de la négociation des sélecteurs de trafic.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1448,7 +1448,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>La mobilité est désactivée pour cette connexion.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1457,7 +1457,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>La connexion VPN est toujours en cours de connexion ou de réauthentification en raison de la modification de l’état de mise en quarantaine. Lancer Mobile Update uniquement lorsque l’état de la connexion est « connecté ».<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1466,7 +1466,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>L’authentification du client a été rejetée par le serveur en raison d’un TLV inattendu ou d’une non-concordance de valeur pour un TLV.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1475,7 +1475,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Soit la préférence de destination VPN n’est pas sélectionnée par l’utilisateur, soit elle n’est plus valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1484,7 +1484,7 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 <td>Les informations d’identification de carte à puce mises en cache ne sont pas valides.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1587,14 +1587,14 @@ Pris en charge dans Windows 7 et les versions ultérieures de Windows.
 
  
 
-Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suivants sont définis dans mprerror. h. Tous les codes d’erreur sont pris en charge dans Windows 2000 ou les versions ultérieures de Windows, sauf indication contraire.
+Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suivants sont définis dans mprerror. h. tous les codes d’erreur sont pris en charge dans Windows 2000 ou les versions ultérieures de Windows, sauf indication contraire.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1800,7 +1800,7 @@ Les codes d’erreur de l’API de routage et d’accès à distance (RRAS) suiv
 <td>La longueur de signature reçue dans un paquet du serveur RADIUS n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1809,7 +1809,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>La signature reçue dans un paquet du serveur RADIUS n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1818,7 +1818,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>Impossible de recevoir la signature avec EAPMessage du serveur RADIUS.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1827,7 +1827,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>La longueur ou l’ID reçu dans un paquet du serveur RADIUS n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1836,7 +1836,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>La longueur reçue dans un paquet avec un attribut du serveur RADIUS n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1845,16 +1845,16 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>Le paquet reçu du serveur RADIUS n’est pas valide.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_AUTHENTICATOR_MISMATCH"></span><span id="error_authenticator_mismatch"></span><dl> <dt><strong>ERROR_AUTHENTICATOR_MISMATCH</strong></dt> <dt>955</dt> </dl></td>
-<td>L’authentificateur ne correspond pas au paquet du serveur RADIUS.<br/>
+<td>Authenticator ne correspond pas au paquet du serveur RADIUS.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows XP et les versions ultérieures de Windows.
+pris en charge dans Windows XP et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>
@@ -1863,7 +1863,7 @@ Pris en charge dans Windows XP et les versions ultérieures de Windows.
 <td>Le serveur de routage et d’accès à distance n’est pas configuré ou n’est pas en cours d’exécution.<br/>
 <blockquote>
 [!Note]<br />
-Pris en charge dans Windows 7 et les versions ultérieures de Windows.
+pris en charge dans Windows 7 et les versions ultérieures de Windows.
 </blockquote>
 <br/></td>
 </tr>

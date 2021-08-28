@@ -4,12 +4,12 @@ ms.assetid: 823f5fdf-a42c-47c0-aab4-3f43afd29c2b
 title: MFPKEY_COLORCONV_WIDTH, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bba6228b11f5a78493f0762d175b46024e9ae199
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8815acb072077989143615752108162dee40861b43eaf1bcbb5fd656f5021a63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113469"
 ---
 # <a name="mfpkey_colorconv_width-property"></a>MFPKEY \_ COLORCONV \_ Width, propriété
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

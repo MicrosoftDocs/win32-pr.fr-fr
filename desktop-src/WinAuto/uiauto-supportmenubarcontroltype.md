@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, BarreMenus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94bb60c13b5999bc8020eb70b84f6c932a2fb94
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 558a734d69a9197b3e0a8d6c5655405074878bca
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106531186"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468156"
 ---
 # <a name="menubar-control-type"></a>BarreMenus (type de contrôle)
 
@@ -50,40 +50,15 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>MenuBar
-<ul>
-<li>MenuItem (1 ou plus)</li>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Non applicable
-<ul>
-<li>MenuItem (1 ou plus)</li>
-<li>Autres contrôles (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>MenuBar<ul><li>MenuItem (1 ou plus)</li><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | <ul><li>Non applicable<ul><li>MenuItem (1 ou plus)</li><li>Autres contrôles (0 ou plusieurs)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Un contrôle de barre de menus apparaît toujours dans l’affichage de contrôle, mais pas dans l’affichage de contenu, car il ne transmet généralement pas d’informations significatives à l’utilisateur final (sauf si l’application contient plus d’une barre de menus).
 
@@ -114,7 +89,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -130,7 +105,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -149,7 +124,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -164,9 +139,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Comment indexer plusieurs flux de sortie
+title: Comment indexer plusieurs Flux de sortie
 description: Dans le nuancier Model 5, un nuanceur Geometry peut prendre en charge jusqu’à 4 flux distincts. Cela signifie qu’un seul nuanceur peut sortir d’un à quatre flux de sortie, selon le nombre de flux déclarés.
 ms.assetid: 2ddde992-6746-4033-9190-bde7d7b14add
 ms.topic: article
@@ -9,14 +9,14 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8564917be9565e862043e370840f8ac7280f174
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 37aefd8b7cdcab05515bda6f81fa6c679751dc95
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028683"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473395"
 ---
-# <a name="how-to-index-multiple-output-streams"></a>Comment : indexer plusieurs flux de sortie
+# <a name="how-to-index-multiple-output-streams"></a>Comment : indexer plusieurs Flux de sortie
 
 Dans le nuancier Model 5, un nuanceur Geometry peut prendre en charge jusqu’à 4 flux distincts. Cela signifie qu’un seul nuanceur peut sortir d’un à quatre flux de sortie, selon le nombre de flux déclarés.
 
@@ -65,27 +65,9 @@ La sortie totale du nuanceur Geometry est limitée à 1024 scalaires. Lorsque pl
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Différences entre le Shader Model 4 et le Shader Model 5 :<br/> Nuanceur modèle 4 :<br/>
-<ul>
-<li>Le nombre maximal de scalaires pour la sortie du flux est de 64.</li>
-<li>Le masque de Registre par composant doit correspondre dans la plage d’index.</li>
-</ul>
-Nuancier modèle 5 :<br/>
-<ul>
-<li>Le nombre maximal de scalaires pour la sortie du flux est de 128.</li>
-<li>Le masque de Registre par composant ne doit pas nécessairement correspondre à la plage d’index.</li>
-<li>L’indexation dynamique des sorties doit être légale sur tous les flux.</li>
-<li>Les modes d’interpolation n’ont pas besoin d’être identiques pour les flux.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| | | Différences entre le Shader Model 4 et le Shader Model 5 :<br /> Nuanceur modèle 4 :<br /><ul><li>Le nombre maximal de scalaires pour la sortie du flux est de 64.</li><li>Le masque de Registre par composant doit correspondre dans la plage d’index.</li></ul>Nuancier modèle 5 :<br /><ul><li>Le nombre maximal de scalaires pour la sortie du flux est de 128.</li><li>Le masque de Registre par composant ne doit pas nécessairement correspondre à la plage d’index.</li><li>L’indexation dynamique des sorties doit être légale sur tous les flux.</li><li>Les modes d’interpolation n’ont pas besoin d’être identiques pour les flux.</li></ul> | 
+
 
 
 

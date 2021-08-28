@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f7a661f2ba049c10934c262fdfd1d047fdcb1fc726c9f8fbfa1f7061c08c8ea7
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8a994c400c0ffd2295dec0afa2bfac62127f22d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985729"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786754"
 ---
 # <a name="span-idvspixengineirunactionrequestspanirunactionrequest-interface"></a><span id="vspixengine.irunactionrequest"></span>Interface IRunActionRequest
 
@@ -38,13 +38,13 @@ L’interface **IRunActionRequest** hérite de l’interface [**IUnknown**](/win
 
 L’interface **IRunActionRequest** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/irunactionrequest-requestasync-refguid-iunknown-ptr-irunactioncallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Demande asynchrone pour lancer une action (par exemple, capturer un frame) dans le moteur.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/irunactionrequest-requestasync-refguid-iunknown-ptr-irunactioncallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Demande asynchrone pour lancer une action (par exemple, capturer un frame) dans le moteur.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

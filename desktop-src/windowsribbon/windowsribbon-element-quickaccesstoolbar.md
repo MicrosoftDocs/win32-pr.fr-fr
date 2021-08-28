@@ -3,7 +3,7 @@ title: Élément QuickAccessToolbar
 description: Représente la barre d’outils accès rapide (QAT), une petite barre d’outils qui affiche des raccourcis vers les commandes du ruban.
 ms.assetid: 59aa35c3-a844-46b3-b066-c9a321fb0891
 keywords:
-- Ruban des fenêtres d’élément QuickAccessToolbar
+- élément QuickAccessToolbar Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6ae01f620d66298a5f7200d0be947dbfb3750af4
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: fa9d097823d049d145c25d1027bdb5a67d688692
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443300"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624165"
 ---
 # <a name="quickaccesstoolbar-element"></a>Élément QuickAccessToolbar
 
@@ -40,10 +40,10 @@ Représente la [barre d’outils accès rapide (qat)](windowsribbon-controls-qui
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -57,14 +57,14 @@ Représente la [barre d’outils accès rapide (qat)](windowsribbon-controls-qui
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CustomizeCommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Insère un élément de commande supplémentaire dans le menu QAT.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> <img src="images/markup/qat-customizecommandname.png" alt="Screen shot of a QAT menu with the More commands... Command item." /><br/> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -141,7 +141,7 @@ Cette section de code illustre la déclaration de contrôle **QuickAccessToolbar
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: non
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6f1657f9-063b-4d57-ad76-95e3dbe25786
 title: Syntaxe d’instruction conditionnelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dfea7ec31cecbe9c72dee9c660b0e6ee9d07cee2f1818941d036a781c104a93
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f131cf9513d4bf19bb84c5777d1fed1411a682ce
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120077959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886441"
 ---
 # <a name="conditional-statement-syntax"></a>Syntaxe d’instruction conditionnelle
 
@@ -23,7 +23,7 @@ Ce tableau et la liste suivante résument la syntaxe à utiliser dans les expres
 
 | Élément                | Syntaxe                                                                                                          |
 |---------------------|-----------------------------------------------------------------------------------------------------------------|
-| valeur               | \|entier littéral de symbole \|                                                                                    |
+| value               | \|entier littéral de symbole \|                                                                                    |
 | opérateur de comparaison | < \| > \| <= \| >= \| = \| <>                                                                 |
 | terme                | \|Comparaison de valeurs de valeur-valeur d’opérateur \| (expression)\|                                                    |
 | Facteur booléen      | terme \| **non** terme                                                                                            |
@@ -147,7 +147,7 @@ Le tableau suivant indique où il est possible d’utiliser les symboles d’op�
 
 
 
-| And <state> | Où cette syntaxe est valide                                                                                                                                         |
+| État de l’opérateur &lt;&gt; | Où cette syntaxe est valide                                                                                                                                         |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | action $component      | Dans la table de [conditions](condition-table.md) et dans les tables de [séquence](using-a-sequence-table.md) , après l’action [CostFinalize](costfinalize-action.md) . |
 | &fonctionnalité-action        | Dans la table de [conditions](condition-table.md) et dans les tables de [séquence](using-a-sequence-table.md) , après l’action [CostFinalize](costfinalize-action.md) . |

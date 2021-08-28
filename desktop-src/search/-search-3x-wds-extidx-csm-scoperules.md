@@ -4,12 +4,12 @@ ms.assetid: 132a55f9-680d-438e-b983-f5ce4cf66a41
 title: Gestion des règles d’étendue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6374ff3f29bebfcaeeddd02a4ec1c1d7746a19ab48c4ad8d3669aeb0cfaebdb0
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 134e4241e9dcd66e468935ae56a4029a51a96c37
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120058189"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880221"
 ---
 # <a name="managing-scope-rules"></a>Gestion des règles d’étendue
 
@@ -184,7 +184,7 @@ Le tableau suivant décrit les méthodes de [**ISearchCrawlScopeManager**](/wind
 
  
 
-Si vous pensez qu’un chemin d’accès de fichier doit être exclu, mais qu’il est répertorié comme étant inclus, assurez-vous que les règles d’exclusion se terminent par « <path> \\ \* ». Si vous pensez qu’un fichier ou un chemin d’accès de fichier doit être inclus, mais que ce n’est pas le cas, veillez à vérifier le paramètre de bit FANCI du fichier ou du chemin d’accès. Pour ce faire, cliquez avec le bouton droit sur le chemin d’accès du fichier ou du fichier et sélectionnez **Propriétés**, puis vérifiez que la case à cocher **pour la recherche rapide, autoriser le service d’indexation à indexer ce dossier** est activée. Si le chemin d’accès au fichier ou au fichier n’est pas marqué pour l’indexation ici, il ne sera pas indexé même s’il se trouve dans une règle d’inclusion.
+Si vous pensez qu’un chemin d’accès de fichier doit être exclu, mais qu’il est répertorié comme étant inclus, assurez-vous que les règles d’exclusion se terminent par « &lt; path &gt; \\ \* ». Si vous pensez qu’un fichier ou un chemin d’accès de fichier doit être inclus, mais que ce n’est pas le cas, veillez à vérifier le paramètre de bit FANCI du fichier ou du chemin d’accès. Pour ce faire, cliquez avec le bouton droit sur le chemin d’accès du fichier ou du fichier et sélectionnez **Propriétés**, puis vérifiez que la case à cocher **pour la recherche rapide, autoriser le service d’indexation à indexer ce dossier** est activée. Si le chemin d’accès au fichier ou au fichier n’est pas marqué pour l’indexation ici, il ne sera pas indexé même s’il se trouve dans une règle d’inclusion.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

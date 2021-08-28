@@ -28,46 +28,46 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: aec37ae84eed6b15bc10a4e979a5d95d21be3423
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 29db0a527146218e19b3fe583fd48936f71dac29
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097237"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623695"
 ---
 # <a name="device-information-property-constants"></a>Constantes de propriété d’informations sur l’appareil
 
-Les propriétés d’informations de périphérique sont des propriétés qui décrivent l’installation et l’installation de l’appareil. Ces propriétés sont disponibles par le biais des interfaces [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) ou [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) , ainsi que par le biais de l’élément racine. Les propriétés d’informations sur l’appareil sont précédées de « WIA \_ DIP \_ » (propriété d’informations de périphérique) et sont fournies par l’acquisition d’image Windows (WIA). À des fins de script, ces constantes utilisent le préfixe « DeviceInfo » et font partie du type énuméré [WiaDeviceInfoPropertyId](-wia-wiadeviceinfopropertyid.md) . Le nom de membre correspondant de cette énumération de script apparaît entre parenthèses à côté du nom de constante C/C++ dans la liste suivante.
+Les propriétés d’informations de périphérique sont des propriétés qui décrivent l’installation et l’installation de l’appareil. Ces propriétés sont disponibles par le biais des interfaces [**IWiaDevMgr**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadevmgr) ou [**IWiaDevMgr2**](-wia-iwiadevmgr2.md) , ainsi que par le biais de l’élément racine. les propriétés d’informations sur l’appareil sont précédées de « wia \_ DIP \_ » (propriété d’informations de périphérique) et sont fournies par Windows acquisition d’images (wia). À des fins de script, ces constantes utilisent le préfixe « DeviceInfo » et font partie du type énuméré [WiaDeviceInfoPropertyId](-wia-wiadeviceinfopropertyid.md) . Le nom de membre correspondant de cette énumération de script apparaît entre parenthèses à côté du nom de constante C/C++ dans la liste suivante.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Constante/valeur</th>
-<th style="text-align: left;">Description</th>
+<th >Constante/valeur</th>
+<th >Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_DEV_ID"></span><span id="wia_dip_dev_id"></span><dl> <dt><strong>WIA_DIP_DEV_ID</strong></dt> <dt>DeviceInfoDevId</dt> </dl></td>
-<td style="text-align: left;">Chaîne d’ID de l’appareil pour le minipilote WIA. Le service WIA crée et gère cette propriété.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DIP_DEV_ID"></span><span id="wia_dip_dev_id"></span><dl> <dt><strong>WIA_DIP_DEV_ID</strong></dt> <dt>DeviceInfoDevId</dt> </dl></td>
+<td >Chaîne d’ID de l’appareil pour le minipilote WIA. Le service WIA crée et gère cette propriété.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_VEND_DESC"></span><span id="wia_dip_vend_desc"></span><dl> <dt><strong>WIA_DIP_VEND_DESC</strong></dt> <dt>DeviceInfoVendDesc</dt> </dl></td>
-<td style="text-align: left;">Chaîne de description du fournisseur pour le minipilote WIA. La description du fournisseur est obtenue à partir du fichier INF. Une application lit cette propriété pour obtenir une description du fournisseur de l’appareil. Le service WIA crée et gère cette propriété.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DIP_VEND_DESC"></span><span id="wia_dip_vend_desc"></span><dl> <dt><strong>WIA_DIP_VEND_DESC</strong></dt> <dt>DeviceInfoVendDesc</dt> </dl></td>
+<td >Chaîne de description du fournisseur pour le minipilote WIA. La description du fournisseur est obtenue à partir du fichier INF. Une application lit cette propriété pour obtenir une description du fournisseur de l’appareil. Le service WIA crée et gère cette propriété.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_DEV_DESC"></span><span id="wia_dip_dev_desc"></span><dl> <dt><strong>WIA_DIP_DEV_DESC</strong></dt> <dt>DeviceInfoDevDesc</dt> </dl></td>
-<td style="text-align: left;">Chaîne de description de l’appareil pour le minipilote WIA. Le service WIA crée et gère cette propriété. La chaîne de description de l’appareil que cette propriété contient est obtenue à partir du fichier INF. Une application lit cette propriété pour obtenir une description de l’appareil.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
+<td ><span id="WIA_DIP_DEV_DESC"></span><span id="wia_dip_dev_desc"></span><dl> <dt><strong>WIA_DIP_DEV_DESC</strong></dt> <dt>DeviceInfoDevDesc</dt> </dl></td>
+<td >Chaîne de description de l’appareil pour le minipilote WIA. Le service WIA crée et gère cette propriété. La chaîne de description de l’appareil que cette propriété contient est obtenue à partir du fichier INF. Une application lit cette propriété pour obtenir une description de l’appareil.<br/> Type : VT_BSTR, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_DEV_TYPE"></span><span id="wia_dip_dev_type"></span><dl> <dt><strong>WIA_DIP_DEV_TYPE</strong></dt> <dt>DeviceInfoDevType</dt> </dl></td>
-<td style="text-align: left;">Type d’appareil et sous-type d’appareil. Le service WIA crée et gère cette propriété. Utilisez la macro GET_STIDEVICE_TYPE pour récupérer le type d’appareil. Le type et le sous-type d’appareil sont obtenus à partir du fichier INF. Une application lit cette propriété pour déterminer si elle utilise un scanneur, un appareil photo ou un périphérique vidéo.<br/> Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> Actuellement, les types d’appareils sont définis comme suit. L’astérisque * indique que le type d’appareil n’est pas pris en charge par Windows Vista et les versions ultérieures. Le double astérisque * * indique que le type d’appareil n’est pas pris en charge par Windows Server 2003, Windows Vista ou version ultérieure. <br/> 
+<td ><span id="WIA_DIP_DEV_TYPE"></span><span id="wia_dip_dev_type"></span><dl> <dt><strong>WIA_DIP_DEV_TYPE</strong></dt> <dt>DeviceInfoDevType</dt> </dl></td>
+<td >Type d’appareil et sous-type d’appareil. Le service WIA crée et gère cette propriété. Utilisez la macro GET_STIDEVICE_TYPE pour récupérer le type d’appareil. Le type et le sous-type d’appareil sont obtenus à partir du fichier INF. Une application lit cette propriété pour déterminer si elle utilise un scanneur, un appareil photo ou un périphérique vidéo.<br/> Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a><br/> Actuellement, les types d’appareils sont définis comme suit. l’astérisque * indique que le type d’appareil n’est pas pris en charge par Windows Vista et versions ultérieures. le double astérisque * * indique que le type d’appareil n’est pas pris en charge par Windows Server 2003, Windows Vista ou version ultérieure. <br/> 
 <table>
 <thead>
 <tr class="header">
@@ -103,33 +103,33 @@ Les propriétés d’informations de périphérique sont des propriétés qui d�
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_PORT_NAME"></span><span id="wia_dip_port_name"></span><dl> <dt><strong>WIA_DIP_PORT_NAME</strong></dt> <dt>DeviceInfoPortName</dt> </dl></td>
-<td style="text-align: left;"><p>Nom du port de l’appareil installé, affecté par le pilote en mode noyau qui exécute l’appareil. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer le nom du port.</p>
+<td ><span id="WIA_DIP_PORT_NAME"></span><span id="wia_dip_port_name"></span><dl> <dt><strong>WIA_DIP_PORT_NAME</strong></dt> <dt>DeviceInfoPortName</dt> </dl></td>
+<td ><p>Nom du port de l’appareil installé, affecté par le pilote en mode noyau qui exécute l’appareil. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer le nom du port.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_DEV_NAME"></span><span id="wia_dip_dev_name"></span><dl> <dt><strong>WIA_DIP_DEV_NAME</strong></dt> <dt>DeviceInfoDevName</dt> </dl></td>
-<td style="text-align: left;"><p>Nom de l’appareil Le service WIA crée et gère cette propriété. Le nom de l’appareil contenu dans cette propriété est obtenu à partir du fichier INF. Une application lit cette propriété pour obtenir le nom de l’appareil.</p>
+<td ><span id="WIA_DIP_DEV_NAME"></span><span id="wia_dip_dev_name"></span><dl> <dt><strong>WIA_DIP_DEV_NAME</strong></dt> <dt>DeviceInfoDevName</dt> </dl></td>
+<td ><p>Nom de l’appareil Le service WIA crée et gère cette propriété. Le nom de l’appareil contenu dans cette propriété est obtenu à partir du fichier INF. Une application lit cette propriété pour obtenir le nom de l’appareil.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_SERVER_NAME"></span><span id="wia_dip_server_name"></span><dl> <dt><strong>WIA_DIP_SERVER_NAME</strong></dt> <dt>DeviceInfoServerName</dt> </dl></td>
-<td style="text-align: left;"><p>Nom du serveur sur lequel s’exécute le minipilote WIA. Cette propriété est facultative pour Windows XP et versions ultérieures.</p>
+<td ><span id="WIA_DIP_SERVER_NAME"></span><span id="wia_dip_server_name"></span><dl> <dt><strong>WIA_DIP_SERVER_NAME</strong></dt> <dt>DeviceInfoServerName</dt> </dl></td>
+<td ><p>Nom du serveur sur lequel s’exécute le minipilote WIA. cette propriété est facultative pour Windows XP et versions ultérieures.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_REMOTE_DEV_ID"></span><span id="wia_dip_remote_dev_id"></span><dl> <dt><strong>WIA_DIP_REMOTE_DEV_ID</strong></dt> <dt>DeviceInfoRemoteDevId</dt> </dl></td>
-<td style="text-align: left;"><p>L’ID d’appareil de l’appareil WIA qui est installé sur un ordinateur distant. Le service WIA crée et gère cette propriété. Elle est utilisée uniquement en interne par le service WIA.</p>
+<td ><span id="WIA_DIP_REMOTE_DEV_ID"></span><span id="wia_dip_remote_dev_id"></span><dl> <dt><strong>WIA_DIP_REMOTE_DEV_ID</strong></dt> <dt>DeviceInfoRemoteDevId</dt> </dl></td>
+<td ><p>L’ID d’appareil de l’appareil WIA qui est installé sur un ordinateur distant. Le service WIA crée et gère cette propriété. Elle est utilisée uniquement en interne par le service WIA.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_UI_CLSID"></span><span id="wia_dip_ui_clsid"></span><dl> <dt><strong>WIA_DIP_UI_CLSID</strong></dt> <dt>DeviceInfoUIClsid</dt> </dl></td>
-<td style="text-align: left;"><p>CLSID fourni par le fournisseur pour tout objet COM d’extension d’interface utilisateur installé avec le minipilote WIA. Le service WIA crée et gère cette propriété. La valeur du CLSID de l’interface utilisateur contenue dans cette propriété est obtenue à partir du fichier INF. Si aucun CLSID d’interface utilisateur n’est spécifié, le service WIA fournit une valeur par défaut. Cette propriété est utilisée uniquement en interne par le service WIA lorsque l’interface utilisateur est affichée.</p>
+<td ><span id="WIA_DIP_UI_CLSID"></span><span id="wia_dip_ui_clsid"></span><dl> <dt><strong>WIA_DIP_UI_CLSID</strong></dt> <dt>DeviceInfoUIClsid</dt> </dl></td>
+<td ><p>CLSID fourni par le fournisseur pour tout objet COM d’extension d’interface utilisateur installé avec le minipilote WIA. Le service WIA crée et gère cette propriété. La valeur du CLSID de l’interface utilisateur contenue dans cette propriété est obtenue à partir du fichier INF. Si aucun CLSID d’interface utilisateur n’est spécifié, le service WIA fournit une valeur par défaut. Cette propriété est utilisée uniquement en interne par le service WIA lorsque l’interface utilisateur est affichée.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_HW_CONFIG"></span><span id="wia_dip_hw_config"></span><dl> <dt><strong>WIA_DIP_HW_CONFIG</strong></dt> <dt>DeviceInfoHwConfig</dt> </dl></td>
-<td style="text-align: left;"><p>Type de connexion utilisé par l’appareil. Le service WIA crée et gère cette propriété, et seul le service WIA peut la modifier.</p>
+<td ><span id="WIA_DIP_HW_CONFIG"></span><span id="wia_dip_hw_config"></span><dl> <dt><strong>WIA_DIP_HW_CONFIG</strong></dt> <dt>DeviceInfoHwConfig</dt> </dl></td>
+<td ><p>Type de connexion utilisé par l’appareil. Le service WIA crée et gère cette propriété, et seul le service WIA peut la modifier.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>La propriété peut avoir les valeurs possibles suivantes.</p>
 
@@ -167,33 +167,33 @@ Les propriétés d’informations de périphérique sont des propriétés qui d�
 <p> </p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_BAUDRATE"></span><span id="wia_dip_baudrate"></span><dl> <dt><strong>WIA_DIP_BAUDRATE</strong></dt> <dt>DeviceInfoBaudRate</dt> </dl></td>
-<td style="text-align: left;"><p>Paramètre de vitesse en bauds actuel de l’appareil. Le service WIA crée et gère cette propriété. La valeur doit être &quot; vide &quot; si l’appareil n’est pas connecté par un câble série.</p>
+<td ><span id="WIA_DIP_BAUDRATE"></span><span id="wia_dip_baudrate"></span><dl> <dt><strong>WIA_DIP_BAUDRATE</strong></dt> <dt>DeviceInfoBaudRate</dt> </dl></td>
+<td ><p>Paramètre de vitesse en bauds actuel de l’appareil. Le service WIA crée et gère cette propriété. La valeur doit être &quot; vide &quot; si l’appareil n’est pas connecté par un câble série.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_STI_GEN_CAPABILITIES"></span><span id="wia_dip_sti_gen_capabilities"></span><dl> <dt><strong>WIA_DIP_STI_GEN_CAPABILITIES</strong></dt> <dt>DeviceInfoStiGenCapabilities</dt> </dl></td>
-<td style="text-align: left;"><p>Les fonctionnalités STI génériques pour l’appareil obtenues à partir du fichier INF. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer les fonctionnalités de STI génériques de l’appareil.</p>
+<td ><span id="WIA_DIP_STI_GEN_CAPABILITIES"></span><span id="wia_dip_sti_gen_capabilities"></span><dl> <dt><strong>WIA_DIP_STI_GEN_CAPABILITIES</strong></dt> <dt>DeviceInfoStiGenCapabilities</dt> </dl></td>
+<td ><p>Les fonctionnalités STI génériques pour l’appareil obtenues à partir du fichier INF. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer les fonctionnalités de STI génériques de l’appareil.</p>
 <p>Type : <strong>VT_I4</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_WIA_VERSION"></span><span id="wia_dip_wia_version"></span><dl> <dt><strong>WIA_DIP_WIA_VERSION</strong></dt> <dt>DeviceInfoWiaVersion</dt> </dl></td>
-<td style="text-align: left;"><p>Nombre (sous forme de chaîne) de la version WIA actuelle qui est installée sur le système. Une application lit cette propriété pour déterminer la version de WIA qui est installée sur le système. Le service WIA crée et gère cette propriété. Cette propriété est disponible dans Windows XP et versions ultérieures.</p>
+<td ><span id="WIA_DIP_WIA_VERSION"></span><span id="wia_dip_wia_version"></span><dl> <dt><strong>WIA_DIP_WIA_VERSION</strong></dt> <dt>DeviceInfoWiaVersion</dt> </dl></td>
+<td ><p>Nombre (sous forme de chaîne) de la version WIA actuelle qui est installée sur le système. Une application lit cette propriété pour déterminer la version de WIA qui est installée sur le système. Le service WIA crée et gère cette propriété. cette propriété est disponible dans Windows XP et versions ultérieures.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_DRIVER_VERSION"></span><span id="wia_dip_driver_version"></span><dl> <dt><strong>WIA_DIP_DRIVER_VERSION</strong></dt> <dt>DeviceInfoDriverVersion</dt> </dl></td>
-<td style="text-align: left;"><p>Version actuelle de la DLL du minipilote WIA. Le service WIA crée et gère cette propriété. Cette propriété est disponible dans Windows XP et versions ultérieures.</p>
+<td ><span id="WIA_DIP_DRIVER_VERSION"></span><span id="wia_dip_driver_version"></span><dl> <dt><strong>WIA_DIP_DRIVER_VERSION</strong></dt> <dt>DeviceInfoDriverVersion</dt> </dl></td>
+<td ><p>Version actuelle de la DLL du minipilote WIA. Le service WIA crée et gère cette propriété. cette propriété est disponible dans Windows XP et versions ultérieures.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><span id="WIA_DIP_PNP_ID"></span><span id="wia_dip_pnp_id"></span><dl> <dt><strong>WIA_DIP_PNP_ID</strong></dt> <dt>DeviceInfoPNPID</dt> </dl></td>
-<td style="text-align: left;"><p>ID PnP actuel de l’appareil. Le service WIA crée et gère cette propriété. Cette propriété est disponible dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_DIP_PNP_ID"></span><span id="wia_dip_pnp_id"></span><dl> <dt><strong>WIA_DIP_PNP_ID</strong></dt> <dt>DeviceInfoPNPID</dt> </dl></td>
+<td ><p>ID PnP actuel de l’appareil. Le service WIA crée et gère cette propriété. cette propriété est disponible dans Windows Vista et versions ultérieures.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><span id="WIA_DIP_STI_DRIVER_VERSION"></span><span id="wia_dip_sti_driver_version"></span><dl> <dt><strong>WIA_DIP_STI_DRIVER_VERSION</strong></dt> <dt>DeviceInfoStiDriverVersion</dt> </dl></td>
-<td style="text-align: left;"><p>Version du pilote STI générique. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer la version du pilote STI générique. Cette propriété est disponible dans Windows Vista et versions ultérieures.</p>
+<td ><span id="WIA_DIP_STI_DRIVER_VERSION"></span><span id="wia_dip_sti_driver_version"></span><dl> <dt><strong>WIA_DIP_STI_DRIVER_VERSION</strong></dt> <dt>DeviceInfoStiDriverVersion</dt> </dl></td>
+<td ><p>Version du pilote STI générique. Le service WIA crée et gère cette propriété. Une application lit cette propriété pour déterminer la version du pilote STI générique. cette propriété est disponible dans Windows Vista et versions ultérieures.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 </tbody>
@@ -207,8 +207,8 @@ Les propriétés d’informations de périphérique sont des propriétés qui d�
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wiadef. h</dt> </dl> |
 
 

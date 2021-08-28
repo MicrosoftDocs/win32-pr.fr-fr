@@ -8,12 +8,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, raccourcis clavier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ed5f9560b78585145e6f9d8685ef202caa650de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19bad388372aaacf836b1be83b858ff9fddd1acc
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029621"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467826"
 ---
 # <a name="remote-desktop-services-shortcut-keys"></a>Touches de raccourci Services Bureau à distance
 
@@ -21,7 +21,7 @@ La liste suivante répertorie les touches de raccourci de Services Bureau à dis
 
 Remarque concernant les clés manquantes : de nombreux claviers compacts ne contiennent pas de clés. Par exemple, de nombreux ordinateurs portables n’ont pas de clé d’arrêt dédiée. Toutefois, ils ont généralement des raccourcis clavier qui remplacent les clés dédiées. Ces remplacements de clé sont spécifiés par le fabricant du clavier. vous devrez donc peut-être Rechercher les remplacements de clé dans la documentation fournie par le fabricant de votre clavier ou de votre ordinateur portable.
 
-Vous pouvez utiliser deux combinaisons de touches de raccourci sur une connexion Bureau à distance : les touches de raccourci Windows par défaut ou les touches de raccourci initialement conçues pour le Bureau à distance. Vous pouvez définir les touches de raccourci que vous utilisez sur l’ordinateur local et distant via le client Connexion Bureau à distance (c’est-à-dire, la boîte de dialogue qui s’affiche lorsque vous cliquez sur l’icône **Connexion Bureau à distance** ). À partir de là, cliquez sur **afficher les options** (si vous ne voyez pas les options), puis cliquez sur l’onglet **ressources locales** . Dans la liste déroulante **appliquer les combinaisons de touches Windows** , vous avez trois options :
+vous pouvez utiliser deux combinaisons de touches de raccourci sur une connexion bureau à distance : les touches de raccourci par défaut Windows, ou les touches de raccourci initialement conçues pour le bureau à distance. Vous pouvez définir les touches de raccourci que vous utilisez sur l’ordinateur local et distant via le client Connexion Bureau à distance (c’est-à-dire, la boîte de dialogue qui s’affiche lorsque vous cliquez sur l’icône **Connexion Bureau à distance** ). À partir de là, cliquez sur **afficher les options** (si vous ne voyez pas les options), puis cliquez sur l’onglet **ressources locales** . dans la liste déroulante **appliquer les combinaisons de touches Windows** , vous disposez de trois options :
 
 <dl> <dt>
 
@@ -50,46 +50,19 @@ Pour plus d’informations sur l’utilisateur Bureau à distance connexion, con
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Touche de raccourci</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>CTRL + ALT + début<br/></td>
-<td>Active la barre de <strong>connexion</strong> .<br/></td>
-</tr>
-<tr class="even">
-<td>Appuyez sur CTRL + ALT + Attn ou sur l’un des raccourcis suivants :<br/>
-<ul>
-<li>CTRL + ALT + PAUSE<br/></li>
-<li>CTRL + ALT + IMPR. écran<br/></li>
-<li>CTRL + ALT + FN + Arrêt défil<br/></li>
-</ul></td>
-<td>Bascule le client entre le mode plein écran et le mode fenêtre.<br/> Si ces raccourcis ne fonctionnent pas ou si les clés ne sont pas disponibles, vous pouvez essayer l’alternative suivante :<br/>
-<ul>
-<li>Appuyez sur CTRL + ALT + orig, TAB, tabulation, tabulation, tabulation, tabulation, entrée. Cela active la barre de <strong>connexion</strong> , puis appuie sur le bouton <strong>Restaurer vers le dessous</strong> .<br/></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>CTRL + ALT + fin<br/></td>
-<td>Affiche la boîte de dialogue <strong>sécurité Windows</strong> pour l’hôte de session Bureau à distance (hôte de session Bureau à distance) (fournit la même fonctionnalité que si vous appuyez sur CTRL + ALT + SUPPR sur l’ordinateur local).<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Touche de raccourci | Description | 
+|--------------|-------------|
+| CTRL + ALT + début<br /> | Active la barre de <strong>connexion</strong> .<br /> | 
+| Appuyez sur CTRL + ALT + Attn ou sur l’un des raccourcis suivants :<br /><ul><li>CTRL + ALT + PAUSE<br /></li><li>CTRL + ALT + IMPR. écran<br /></li><li>CTRL + ALT + FN + Arrêt défil<br /></li></ul> | Bascule le client entre le mode plein écran et le mode fenêtre.<br /> Si ces raccourcis ne fonctionnent pas ou si les clés ne sont pas disponibles, vous pouvez essayer l’alternative suivante :<br /><ul><li>Appuyez sur CTRL + ALT + orig, TAB, tabulation, tabulation, tabulation, tabulation, entrée. Cela active la barre de <strong>connexion</strong> , puis appuie sur le bouton <strong>Restaurer vers le dessous</strong> .<br /></li></ul> | 
+| CTRL + ALT + fin<br /> | affiche la boîte de dialogue <strong>Sécurité Windows</strong> pour l’hôte de session Bureau à distance (hôte de session bureau à distance) (fournit la même fonctionnalité que si vous appuyez sur CTRL + ALT + suppr sur l’ordinateur local).<br /> | 
+
 
 
 
  
 
-Le tableau suivant décrit les touches de raccourci Windows standard et leurs équivalents Bureau à distances qui sont différents. (Par exemple, Ctrl + Z est généralement le raccourci « annuler » sur les fenêtres standard et les Bureau à distance.)
+le tableau suivant décrit les touches de raccourci de Windows standard et leurs raccourcis Bureau à distance équivalents qui sont différents. (par exemple, Ctrl + Z est généralement le raccourci « annuler » sur les Windows standard et les Bureau à distance.)
 
 
 

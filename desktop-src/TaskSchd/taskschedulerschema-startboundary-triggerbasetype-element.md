@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 32b91557d812888d9bb6e970be37703537bb3d7645c8a0422df19d5d5fe37a5f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 46584659fbd14bc26981e220798a91c03e960e1f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119401963"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886415"
 ---
 # <a name="startboundary-triggerbasetype-element"></a>Élément StartBoundary (triggerBaseType)
 
@@ -50,7 +50,7 @@ L’élément **StartBoundary** est défini par le type complexe [**triggerBaseT
 
 ## <a name="remarks"></a>Remarques
 
-L' **<StartBoundary>** élément est un élément requis pour les déclencheurs de temps et de calendrier ( [**<TimeTrigger>**](taskschedulerschema-timetrigger-triggergroup-element.md) et [**<CalendarTrigger>**](taskschedulerschema-calendartrigger-triggergroup-element.md) ).
+L’élément **&lt; StartBoundary &gt;** est un élément requis pour les déclencheurs de temps et de calendrier ([**&lt; timetrigger &gt;**](taskschedulerschema-timetrigger-triggergroup-element.md) et [**&lt; CalendarTrigger &gt;**](taskschedulerschema-calendartrigger-triggergroup-element.md)).
 
 Pour le développement de script, la limite de fin est spécifiée à l’aide de la propriété [**Trigger. StartBoundary**](trigger-startboundary.md) qui est héritée par tous les objets déclencheurs.
 
@@ -74,7 +74,7 @@ Le code XML suivant définit un élément de déclencheur de démarrage qui déf
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

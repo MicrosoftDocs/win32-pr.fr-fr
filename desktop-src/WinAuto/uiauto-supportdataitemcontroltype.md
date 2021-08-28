@@ -24,12 +24,12 @@ keywords:
 - types de contrôles, DataItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ec4612b43855578256d52bf6647b105ea666882cfe2f72dcdbf355559a7e5e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 49840dbe2aeed9200ebf02b80e270cd8fa3e0747
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118826313"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468186"
 ---
 # <a name="dataitem-control-type"></a>DataItem (type de contrôle)
 
@@ -55,34 +55,11 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>DataItem
-<ul>
-<li>Selon le cas (0 ou plus. Peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>DataItem
-<ul>
-<li>Selon le cas (0 ou plus. Peut être structuré dans une hiérarchie)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>DataItem<ul><li>Selon le cas (0 ou plus. Peut être structuré dans une hiérarchie)</li></ul></li></ul> | <ul><li>DataItem<ul><li>Selon le cas (0 ou plus. Peut être structuré dans une hiérarchie)</li></ul></li></ul> | 
+
 
 
 
@@ -96,7 +73,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                                |
+| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
@@ -147,7 +124,7 @@ Le tableau suivant répertorie les événements UI Automation que les contrôles
 
 
 
-| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                            |
+| Événement UI Automation                                                                                                                                                | Notes                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                  |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                                  |
@@ -178,54 +155,11 @@ L’affichage de contrôle et l’affichage de contenu de l’arborescence UI Au
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Arborescence UI Automation-vue de contrôle</th>
-<th>Arborescence UI Automation-affichage du contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Groupe &quot; Contoso &quot; (table, grille)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>Comptes d’images &quot; Receivable.doc&quot;</li>
-<li>Modifier le &quot; nom &quot; (TableItem, GridItem, value &quot; Accounts Receivable.doc&quot; )</li>
-<li>Modifier la &quot; date &quot; de modification (TableItem, GridItem, valeur &quot; 8/25/2006 3:29 PM &quot; )</li>
-<li>Modifier la &quot; taille &quot; (GridItem, TableItem, valeur &quot; 11,0 Ko &quot; )</li>
-</ul></li>
-<li>&quot;Payable.docde comptes DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Groupe &quot; Contoso &quot; (table, grille)
-<ul>
-<li>&quot;Receivable.docde comptes DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>Comptes d’images &quot; Receivable.doc&quot;</li>
-<li>Modifier le &quot; nom &quot; (TableItem, GridItem, value &quot; Accounts Receivable.doc&quot; )</li>
-<li>Modifier la &quot; date &quot; de modification (TableItem, GridItem, valeur &quot; 8/25/2006 3:29 PM &quot; )</li>
-<li>Modifier la &quot; taille &quot; (GridItem, TableItem, valeur &quot; 11,0 Ko &quot; )</li>
-</ul></li>
-<li>&quot;Payable.docde comptes DataItem &quot; (TableItem, GridItem, SelectionItem, Invoke)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Arborescence UI Automation-vue de contrôle | Arborescence UI Automation-affichage du contenu | 
+|-----------------------------------|-----------------------------------|
+| <ul><li>Groupe "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "25/08/2006 15:29")</li><li>Modifiez « Size » (GridItem, TableItem, value « 11,0 Ko »)</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | <ul><li>Groupe "Contoso" (Table, Grid)<ul><li>DataItem "Accounts Receivable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>Image "Accounts Receivable.doc"</li><li>Edit "Name" (TableItem, GridItem, Value "Accounts Receivable.doc")</li><li>Edit "Date modified" (TableItem, GridItem, Value "25/08/2006 15:29")</li><li>Modifiez « Size » (GridItem, TableItem, value « 11,0 Ko »)</li></ul></li><li>DataItem "Accounts Payable.doc" (TableItem, GridItem, SelectionItem, Invoke)<ul><li>...</li></ul></li></ul></li></ul> | 
+
 
 
 

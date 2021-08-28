@@ -20,9 +20,9 @@ Le tableau suivant identifie les options de ligne de commande standard pour ce p
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -45,7 +45,7 @@ l' <a href="command-line-options.md">Option de ligne de commande</a> équivalent
 <tr class="even">
 <td><strong>/quiet</strong></td>
 <td> </td>
-<td>Option Display quiet. Le programme d’installation exécute une installation sans afficher d’interface utilisateur. Aucune invite, aucun message ou boîte de dialogue n’est affiché à l’utilisateur. L’utilisateur ne peut pas annuler l’installation. Utilisez les options de ligne de commande <strong>/norestart</strong> ou <strong>/forcerestart</strong> standard pour contrôler les redémarrages. Si aucune option de redémarrage n’est spécifiée, le programme d’installation redémarre l’ordinateur chaque fois que nécessaire sans afficher d’invite ou d’avertissement à l’utilisateur.<br/> Exemples : <br/> <strong>msiexec/package Application.msi/quiet</strong><br/> <strong>Msiexec/Uninstall Application.msi/quiet</strong><br/> <strong>Msiexec/Update msipatch. msp/quiet</strong><br/> <strong>Msiexec/Uninstall msipatch. msp/package Application.msi/quiet</strong><br/>
+<td>Option Display quiet. Le programme d’installation exécute une installation sans afficher d’interface utilisateur. Aucune invite, aucun message ou boîte de dialogue n’est affiché à l’utilisateur. L’utilisateur ne peut pas annuler l’installation. Utilisez les options de ligne de commande <strong>/norestart</strong> ou <strong>/forcerestart</strong> standard pour contrôler les redémarrages. Si aucune option de redémarrage n’est spécifiée, le programme d’installation redémarre l’ordinateur chaque fois que nécessaire sans afficher d’invite ou d’avertissement à l’utilisateur.<br/> Exemples : <br/> <strong>msiexec/package Application.msi/quiet</strong><br/> <strong>Msiexec/Uninstall Application.msi/quiet</strong><br/> <strong>Msiexec/Update msipatch. msp/quiet</strong><br/> <strong>Msiexec/Uninstall msipatch. msp/package Application.msi/quiet</strong><br/>
 <blockquote>
 [!Note]<br />
 l’équivalent <a href="command-line-options.md">de l’Option de ligne de commande</a> Windows Installer est <strong>/qn</strong>.

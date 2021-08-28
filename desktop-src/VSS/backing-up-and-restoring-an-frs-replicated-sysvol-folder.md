@@ -4,12 +4,12 @@ ms.assetid: 32d8a5bd-eeb4-4db6-8129-b5cd3508a7e5
 title: Sauvegarde et restauration d’un dossier SYSVOL FRS-Replicated
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea83ccbc156182a4a3b84c758cb22153f4f7110f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d841f64bab62114824847f91876ba8bbffbb0166db942c0f3cb9d010b72f106
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120124599"
 ---
 # <a name="backing-up-and-restoring-an-frs-replicated-sysvol-folder"></a>Sauvegarde et restauration d’un dossier SYSVOL FRS-Replicated
 
@@ -26,7 +26,7 @@ Cette rubrique aborde les sujets suivants :
 
 -   [Déterminer si le dossier SYSVOL d’un contrôleur de domaine est répliqué par DFSR ou FRS](#determining-whether-a-domain-controllers-sysvol-folder-is-replicated-by-dfsr-or-frs)
 -   [Sauvegarde d’un dossier SYSVOL DFSR-Replicated](#backing-up-a-dfsr-replicated-sysvol-folder)
--   [Sauvegarde d’un dossier SYSVOL FRS-Replicated sur un domaine Windows Server 2008 ou Windows Server 2003](#backing-up-an-frs-replicated-sysvol-folder-on-a-windows-server-2008-or-windows-server-2003-domain)
+-   [sauvegarde d’un dossier SYSVOL FRS-Replicated sur un domaine Windows server 2008 ou Windows server 2003](#backing-up-an-frs-replicated-sysvol-folder-on-a-windows-server-2008-or-windows-server-2003-domain)
 -   [Exemple de document de métadonnées de l’enregistreur FRS](#sample-frs-writer-metadata-document)
 -   [Définition des clés de Registre pour la restauration d’un dossier SYSVOL FRS-Replicated](#setting-registry-keys-for-a-restore-of-an-frs-replicated-sysvol-folder)
 -   [Exécution d’une restauration ne faisant pas autorité d’un dossier SYSVOL FRS-Replicated](#performing-a-nonauthoritative-restore-of-an-frs-replicated-sysvol-folder)
@@ -38,31 +38,31 @@ Le tableau suivant résume la façon de déterminer si le dossier SYSVOL d’un 
 
 | Si le contrôleur de domaine est en cours d’exécution                                                                                                                  | SYSVOL est répliqué par |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| Windows Server 2008 + niveau fonctionnel du domaine de Windows Server 2008 + [migration SYSVOL](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) terminée | DFSR                    |
-| Windows Server 2008 + niveau fonctionnel de domaine sous Windows Server 2008                                                                              | FILE                     |
+| Windows serveur 2008 + niveau fonctionnel du domaine de Windows server 2008 + [migration SYSVOL](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) terminée | DFSR                    |
+| Windows serveur 2008 + niveau fonctionnel de domaine sous Windows serveur 2008                                                                              | FILE                     |
 | Windows Server 2003                                                                                                                                  | FILE                     |
 
 
 
  
 
-Si le [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10)) du domaine est Windows Server 2008 et que le domaine a subi la [migration SYSVOL](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx), [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) sera utilisé pour répliquer le dossier Sysvol. Si le premier contrôleur de domaine dans le domaine a été promu directement au [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))de Windows Server 2008, DFSR est automatiquement utilisé pour la réplication SYSVOL. Dans ce cas, il n’est pas nécessaire de migrer la réplication SYSVOL de FRS vers DFSR. Si le domaine a été mis à niveau vers le [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))de Windows Server 2008, le service FRS est utilisé pour la réplication SYSVOL jusqu’à ce que le processus de [migration](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) de FRS vers DFSR soit terminé.
+si le [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10)) du domaine est Windows serveur 2008 et que le domaine a subi la [migration sysvol](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx), [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) sera utilisé pour répliquer le dossier sysvol. si le premier contrôleur de domaine dans le domaine a été promu directement au [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))du serveur Windows 2008, DFSR est automatiquement utilisé pour la réplication SYSVOL. Dans ce cas, il n’est pas nécessaire de migrer la réplication SYSVOL de FRS vers DFSR. si le domaine a été mis à niveau vers Windows [niveau fonctionnel](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc754918(v=ws.10))du serveur 2008, le service frs est utilisé pour la réplication SYSVOL jusqu’à ce que le processus de [migration](https://blogs.technet.com/filecab/archive/2008/02/08/sysvol-migration-series-part-1-introduction-to-the-sysvol-migration-process.aspx) de frs vers DFSR soit terminé.
 
-Pour déterminer si DFSR ou FRS est utilisé sur un contrôleur de domaine qui exécute Windows Server 2008, vérifiez la valeur de la sous-clé de Registre **HKEY \_ local \_ machine** \\ **System** \\ **CurrentControlSet** \\ **services** \\ **DFSR** \\ **Parameters** \\ **SYSVOL FRS** \\ **Migrating SYSVOL FRS** \\ **LocalState** . Si cette sous-clé de Registre existe et que sa valeur est définie sur 3 (éliminé), [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) est utilisé. Si la sous-clé n’existe pas, ou si elle a une valeur différente, le service FRS est utilisé.
+pour déterminer si DFSR ou FRS est utilisé sur un contrôleur de domaine qui exécute Windows Server 2008, vérifiez la valeur de la sous-clé de registre **HKEY \_ LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **DFSR** \\ **parameters** \\ **sysvol frs** \\ **Migrating sysvol frs** \\ **LocalState** . Si cette sous-clé de Registre existe et que sa valeur est définie sur 3 (éliminé), [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr) est utilisé. Si la sous-clé n’existe pas, ou si elle a une valeur différente, le service FRS est utilisé.
 
 ## <a name="backing-up-a-dfsr-replicated-sysvol-folder"></a>Sauvegarde d’un dossier SYSVOL DFSR-Replicated
 
 Si le dossier SYSVOL est répliqué par [DFSR](/windows-server/storage/dfs-replication/migrate-sysvol-to-dfsr), l’enregistreur VSS DFSR peut être utilisé pour le sauvegarder. Pour plus d’informations sur l’enregistreur VSS DFSR, consultez [dossiers répliqués DFSR](/previous-versions/windows/desktop/dfsr/dfsr-replicated-folders).
 
-## <a name="backing-up-an-frs-replicated-sysvol-folder-on-a-windows-server-2008-or-windows-server-2003-domain"></a>Sauvegarde d’un dossier SYSVOL FRS-Replicated sur un domaine Windows Server 2008 ou Windows Server 2003
+## <a name="backing-up-an-frs-replicated-sysvol-folder-on-a-windows-server-2008-or-windows-server-2003-domain"></a>sauvegarde d’un dossier SYSVOL FRS-Replicated sur un domaine Windows server 2008 ou Windows server 2003
 
-Sur un contrôleur de domaine qui exécute Windows Server 2008 ou Windows Server 2003, l’infrastructure VSS est présente et l’enregistreur VSS FRS peut donc être utilisé pour sauvegarder le dossier SYSVOL et les composants FRS.
+sur un contrôleur de domaine qui exécute Windows server 2008 ou Windows server 2003, l’infrastructure vss est présente. par conséquent, l’enregistreur vss FRS peut être utilisé pour sauvegarder le dossier SYSVOL et les composants FRS.
 
 Le document des métadonnées de l’enregistreur de l’enregistreur VSS de FRS fournit des informations sur l’emplacement du dossier SYSVOL et les listes d’exclusion pour le writer. Sur la base de ces informations, une application de sauvegarde VSS (demandeur) peut sauvegarder le dossier SYSVOL à l’aide des techniques de sauvegarde VSS standard.
 
 Le document de métadonnées de l’enregistreur contient des informations sur le writer, les données que le writer possède et la façon de restaurer ces données. Il s’agit d’un document en lecture seule qui peut être récupéré par l’application de sauvegarde avant d’effectuer une sauvegarde. L’outil [DiskShadow](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc772172(v=ws.11)) peut être utilisé pour afficher le document de métadonnées de l’enregistreur VSS Writer. La commande des [enregistreurs de liste DiskShadow](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc772172(v=ws.11)) fournit des informations sur les enregistreurs présents sur le système. Cette liste contient des informations sur l’enregistreur FRS sur les contrôleurs de domaine qui utilisent FRS pour la réplication SYSVOL ou sur des serveurs de fichiers qui utilisent le service FRS pour la réplication des [cibles de lien DFS](/previous-versions/windows/it-pro/windows-server-2003/cc782417(v=ws.10)).
 
-L’exemple de document de métadonnées de l’enregistreur FRS suivant montre un exemple de document de métadonnées de l’enregistreur FRS pour un contrôleur de domaine qui contient le dossier SYSVOL sur D : \\ Windows \\ SYSVOL. Le chemin d’accès indiqué dans la section « fichiers exclus » est le même que celui obtenu lors de l’interrogation de la clé de Registre **SYSVOL** du service Netlogon :
+l’exemple de document de métadonnées de l’enregistreur frs suivant montre un exemple de document de métadonnées de l’enregistreur frs pour un contrôleur de domaine qui contient le dossier sysvol sur D : \\ Windows \\ SYSVOL. Le chemin d’accès indiqué dans la section « fichiers exclus » est le même que celui obtenu lors de l’interrogation de la clé de Registre **SYSVOL** du service Netlogon :
 
 **HKEY \_ LOCAL \_ machine** \\ **System système** \\ **CurrentControlSet** \\ **services** \\ **Netlogon** \\ **paramètres** \\ **SYSVOL**
 
@@ -71,13 +71,13 @@ La seule exception à cette règle se produit lorsque le contrôleur de domaine 
 L’enregistreur VSS FRS requiert une méthode de restauration personnalisée. Cela signifie que certaines étapes personnalisées doivent être effectuées lors de la restauration de fichiers en cours de réplication par FRS. Pour plus d’informations, consultez exécution d’une restauration ne faisant pas autorité d’un dossier SYSVOL FRS-Replicated.
 
 > [!Note]  
-> Les sauvegardes de l’état du système pour les contrôleurs de domaine Windows n’incluent pas la base de données FRS qui gère les informations d’État du service FRS appartenant aux fichiers du dossier SYSVOL et à d’autres jeux de contenu. La base de données FRS, les journaux de débogage, les fichiers de zone de transit et les fichiers du [dossier de données préexistant](/previous-versions/windows/it-pro/windows-server-2003/cc758169(v=ws.10)) sont exclus d’une sauvegarde de l’état du système. L’exemple de spécification d’enregistreur FRS suivant contient la liste d’exclusions dans la section « fichiers exclus ».
+> les sauvegardes de l’état du système pour les contrôleurs de domaine Windows n’incluent pas la base de données frs qui gère les informations d’état du service frs concernant les fichiers dans le dossier SYSVOL et d’autres jeux de contenu. La base de données FRS, les journaux de débogage, les fichiers de zone de transit et les fichiers du [dossier de données préexistant](/previous-versions/windows/it-pro/windows-server-2003/cc758169(v=ws.10)) sont exclus d’une sauvegarde de l’état du système. L’exemple de spécification d’enregistreur FRS suivant contient la liste d’exclusions dans la section « fichiers exclus ».
 
  
 
 ## <a name="sample-frs-writer-metadata-document"></a>Exemple de document de métadonnées de l’enregistreur FRS
 
-Voici un exemple de document de métadonnées d’enregistreur FRS pour un contrôleur de domaine dont le chemin d’accès au dossier SYSVOL est D : \\ Windows \\ SYSVOL.
+voici un exemple de Document de métadonnées d’enregistreur FRS pour un contrôleur de domaine dont le chemin d’accès au dossier sysvol est D : \\ Windows \\ SYSVOL.
 
 ``` syntax
 * WRITER "FRS Writer"

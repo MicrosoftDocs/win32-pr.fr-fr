@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 9ea15891c33a0789e5b6746b55dfd0b0eb602afc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51e3d19348f0bff9cdbe0b4211d648a25025b2a3ab8feee9df6f804486265857
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100989"
 ---
 # <a name="icertificates2find-method"></a>ICertificates2 :: Find, méthode
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Certificate2Collection**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt la [**classe X509Certificate2Collection**](/dotnet/api/system.security.cryptography.x509certificates.x509certificate2collection?view=netcore-3.1) dans l’espace de noms [**System. Security. Cryptography. X509Certificates**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1) .\]
 
 La méthode **Find** retourne un objet [**Certificates**](certificates.md) qui contient tous les certificats qui correspondent aux critères de recherche spécifiés. Cette méthode a été introduite dans CAPICOM 2,0.
 
@@ -102,7 +102,7 @@ Objet de [**certificats**](certificates.md) qui contient les résultats de la re
 
 **Capicom 2,0, CAPICOM 2.0.0.1, CAPICOM 2.0.0.2 et ca-2.0.0.3** de la façon suivante : L’objet de [**certificats**](certificates.md) retourné contient des copies des certificats de la collection dans laquelle la recherche a été effectuée. Les modifications apportées aux certificats de l’objet **certificats** retournés ne sont pas reflétées dans cette collection.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les exemples suivants illustrent les critères de recherche possibles pour les différents types de critères de recherche.
 
@@ -136,7 +136,7 @@ Les exemples suivants illustrent les critères de recherche possibles pour les d
 |----------------------------------|----------------------------------------------------------------------------------------|
 | Fin de la prise en charge des clients<br/> | Windows Vista<br/>                                                               |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2008<br/>                                                         |
-| Composant redistribuable<br/>       | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/>       | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | DLL<br/>                   | <dl> <dt>Capicom.dll</dt> </dl> |
 
 

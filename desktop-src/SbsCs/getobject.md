@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Sxsoa.dll
-ms.openlocfilehash: a102fdae74232fa9a67c4b9455050bcdba32a219d8a66180ae8bc6ce6cb96c8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b6c47c00f50cdeaa97fd0fafcd8aefa3c4863bc1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119885279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886602"
 ---
 # <a name="actctxgetobject-method"></a>ActCtx. GetObject, méthode
 
@@ -42,7 +42,7 @@ ActCtx.GetObject(
 *bstrName,* 
 </dt> <dd>
 
-Chaîne obligatoire qui indique l’objet. le nom doit figurer dans le registre sous **HKEY \_ LOCAL \_ MACHINE** \\ **Microsoft** \\ **Visual Studio** \\ **6,0** \\ **<package>** \\ **Automation**.
+Chaîne obligatoire qui indique l’objet. le nom doit figurer dans le registre sous **HKEY \_ LOCAL \_ MACHINE** \\ **Microsoft** \\ **Visual Studio** \\ **6,0** \\ **&lt; &gt; package** \\ **Automation**.
 
 </dd> </dl>
 
@@ -50,7 +50,7 @@ Chaîne obligatoire qui indique l’objet. le nom doit figurer dans le registre 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

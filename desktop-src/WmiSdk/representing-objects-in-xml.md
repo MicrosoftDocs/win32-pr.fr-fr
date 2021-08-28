@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Représentation d’objets en XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9698c54eeff61517a1389ceea14bc2415727f085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68bcbc47a0e5466b69775b4ff9a6c09ce20bae6f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879661"
 ---
 # <a name="representing-objects-in-xml"></a>Représentation d’objets en XML
 
@@ -18,7 +18,7 @@ Le composant XML encoder dans WMI génère des représentations XML des objets.
 
 En C++, vous pouvez démarrer l’encodeur XML avec un appel à la méthode [**IWbemObjectTextSrc. GetText**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemobjecttextsrc-gettext) , en spécifiant l’objet à représenter en XML et le format texte à utiliser dans la représentation. Pour plus d’informations et pour obtenir un exemple de code, consultez pour encoder un objet en XML à l’aide de C/C++.
 
-Dans VBScript ou Visual Basic, pour encoder les données d’une instance XML, appelez [**SWbemObjectEx. GetText**](swbemobjectex-gettext-.md). Pour plus d’informations et pour obtenir un exemple de code, consultez pour encoder un objet en XML à l’aide de VBScript.
+dans VBScript ou Visual Basic, pour encoder les données d’une instance XML, appelez [**SWbemObjectEx. GetText**](swbemobjectex-gettext-.md). Pour plus d’informations et pour obtenir un exemple de code, consultez pour encoder un objet en XML à l’aide de VBScript.
 
 Les sections suivantes sont présentées dans cette rubrique :
 
@@ -68,7 +68,7 @@ La procédure suivante décrit comment encoder un objet en XML à l’aide de C 
     </tr>
     <tr class="even">
     <td>&quot;PathLevel &quot; <strong>VT_I4</strong></td>
-    <td><dl> 0 = un <CLASS> <INSTANCE> élément ou est généré.<br />
+    <td><dl> 0 = une &lt; classe &gt; ou un <INSTANCE> élément est généré.<br />
 1 = un <VALUE.NAMEDOBJECT> élément est généré.<br />
 2 = un <VALUE.OBJECTWITHLOCALPATH> élément est généré.<br />
 3 = une <VALUE.OBJECTWITHPATH> est générée.<br />

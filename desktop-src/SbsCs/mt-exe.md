@@ -1,27 +1,27 @@
 ---
-description: Le fichier Mt.exe est un outil qui génère des fichiers et des catalogues signés. Elle est disponible dans le kit de développement logiciel (SDK) Microsoft Windows. Mt.exe nécessite que le fichier référencé dans le manifeste soit présent dans le même répertoire que le manifeste.
+description: Le fichier Mt.exe est un outil qui génère des fichiers et des catalogues signés. elle est disponible dans le kit de développement logiciel (SDK) de Microsoft Windows. Mt.exe nécessite que le fichier référencé dans le manifeste soit présent dans le même répertoire que le manifeste.
 ms.assetid: 37f010ee-2658-4547-9871-c913201042de
 title: Mt.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df654a943bad272a091dc6ac20cc1dcdab1731a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb81f3e0b7bf6b67236f1bd6037d1eceb11e0b89
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514971"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623905"
 ---
 # <a name="mtexe"></a>Mt.exe
 
-Le fichier Mt.exe est un outil qui génère des fichiers et des catalogues signés. Elle est disponible dans le kit de développement logiciel (SDK) Microsoft Windows. Mt.exe nécessite que le fichier référencé dans le manifeste soit présent dans le même répertoire que le manifeste.
+Le fichier Mt.exe est un outil qui génère des fichiers et des catalogues signés. elle est disponible dans le kit de développement logiciel (SDK) de Microsoft Windows. Mt.exe nécessite que le fichier référencé dans le manifeste soit présent dans le même répertoire que le manifeste.
 
-Mt.exe génère des hachages à l’aide de l’implémentation CryptoAPI de l’algorithme de hachage sécurisé (SHA-1). Pour plus d’informations sur les algorithmes de hachage, consultez [algorithmes de hachage et de signature](/windows/desktop/SecCrypto/hash-and-signature-algorithms). Les hachages sont insérés sous la forme d’une chaîne hexadécimale dans les balises de **fichier** du manifeste. L’outil génère actuellement uniquement des hachages SHA-1, bien que les fichiers dans les manifestes puissent utiliser d’autres schémas de hachage.
+Mt.exe génère des hachages à l’aide de l’implémentation CryptoAPI de l’algorithme de hachage sécurisé (SHA-1). Pour plus d’informations sur les algorithmes de hachage, consultez [Algorithmes de hachage et de signature](/windows/desktop/SecCrypto/hash-and-signature-algorithms). Les hachages sont insérés sous la forme d’une chaîne hexadécimale dans les balises de **fichier** du manifeste. L’outil génère actuellement uniquement des hachages SHA-1, bien que les fichiers dans les manifestes puissent utiliser d’autres schémas de hachage.
 
 Mt.exe utilise Makecat.exe pour générer des fichiers catalogue (. cat) à partir de fichiers de définition de catalogue (. CDF). Cet outil remplit un fichier CDF de modèle standard avec le nom et l’emplacement de votre manifeste. Vous pouvez l’utiliser avec Makecat.exe pour générer le catalogue d’assembly.
 
-La version de Mt.exe fournie dans les versions récentes du SDK Windows peut également être utilisée pour générer des manifestes pour les assemblys managés et les assemblys côte à côte non managés.
+la version de Mt.exe fournie dans les versions récentes du SDK Windows peut également être utilisée pour générer des manifestes pour les assemblys managés et les assemblys côte à côte non managés.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 **mt.exe \[ -Manifest** _<Composant1. manifeste><COMPONENT2. manifest>_ *_\] \[ -Identity :_* *<identity string> * **\] \[ -RGS :** _<fichier1. RGS>_* _\] \[ -TLB :_ *_<fichier2. tlb>_* _\] \[ -dll :_ *_<file3.dll_*>_\] \[ -remplacements :_ *_<XML filename>_* _\] \[ -managedassemblyname :_ *_<managed assembly>_* _\] \[ -nodependency \] \[ -catégorie \] \[ -out :_ *_<output manifest name>_* _\] \[ -inputresource :_ *_<file4>_* _; \[ \# \]_ *_><0 ID de ressource \_><1_* _\] \[ -outputresource :_ *_<file5>_* _; \[ \# \]_ *_><2 ID de ressource \_><3_* _\] \[ -UpdateResource :_ *_<file6>_* _; \[ \# \]_ *_><4 ID de ressource \_><5_* _\] \[ -hashupdate \[ :_ *_<path to files>_* _\] \] \[ -makecdfs \] \[ -Validate \_ manifeste \] \[ -valider les \_ \_ hachages de_ *_<path to files>_* _\] \[ \] \[ \_ \_ \] \[ \] \[ fichier :-canonicaliser-Rechercher les doublons-nologo-verbose \]_*
 
@@ -33,8 +33,8 @@ Mt.exe utilise les options de ligne de commande suivantes qui ne respectent pas 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -54,7 +54,7 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="even">
 <td>-identité</td>
-<td>Fournit les valeurs des attributs de l’élément <strong>assemblyIdentity</strong> du manifeste. L’argument de l’option <strong>-Identity</strong> est une valeur de chaîne qui contient les valeurs d’attribut dans les champs séparés par des virgules. Indiquez la valeur de l’attribut <strong>Name</strong> dans le premier champ, sans inclure &quot; name = &quot; SUBSTRING. Tous les champs restants spécifient les attributs et leurs valeurs en utilisant le format : <em> <attribute name> </em> = <em> <attribute_value> </em> .<br/> Par exemple, pour mettre à jour l’élément <strong>assemblyIdentity</strong> du manifeste avec les informations suivantes :<br/> <assemblyIdentity type=&quot;win32&quot; name=&quot;Microsoft.Windows.SampleAssembly&quot; version=&quot;6.0.0.0&quot; processorArchitecture=&quot;x86&quot; publicKeyToken=&quot;a5aaf5ba15723d5&quot;/> <br/> incluez l’option <strong>-Identity</strong> suivante sur la ligne de commande :<br/> <strong>-identité :</strong> &quot; Microsoft. Windows. SampleAssembly, processorArchitecture = x86, version = 6.0.0.0, type = Win32, publicKeyToken = a5aaf5ba15723d5&quot;<br/></td>
+<td>Fournit les valeurs des attributs de l’élément <strong>assemblyIdentity</strong> du manifeste. L’argument de l’option <strong>-Identity</strong> est une valeur de chaîne qui contient les valeurs d’attribut dans les champs séparés par des virgules. Indiquez la valeur de l’attribut <strong>Name</strong> dans le premier champ, sans inclure &quot; name = &quot; SUBSTRING. Tous les champs restants spécifient les attributs et leurs valeurs en utilisant le format : <em> <attribute name> </em> = <em> <attribute_value> </em> .<br/> Par exemple, pour mettre à jour l’élément <strong>assemblyIdentity</strong> du manifeste avec les informations suivantes :<br/> <assemblyIdentity type=&quot;win32&quot; name=&quot;Microsoft.Windows.SampleAssembly&quot; version=&quot;6.0.0.0&quot; processorArchitecture=&quot;x86&quot; publicKeyToken=&quot;a5aaf5ba15723d5&quot;/> <br/> incluez l’option <strong>-Identity</strong> suivante sur la ligne de commande :<br/> <strong>-identité :</strong> &quot; Librairie. Windows. SampleAssembly, processorArchitecture = x86, version = 6.0.0.0, type = Win32, publicKeyToken = a5aaf5ba15723d5&quot;<br/></td>
 </tr>
 <tr class="odd">
 <td>-RGS</td>
@@ -66,7 +66,7 @@ Aucun signe deux-points ( :) est requis avec l’option <strong>-Manifest</stro
 </tr>
 <tr class="odd">
 <td>-dll</td>
-<td>Spécifie le nom du fichier de bibliothèque de liens dynamiques (DLL). L’option <strong>-dll</strong> est requise par <strong>mt.exe</strong> si les options <strong>-RGS</strong> ou <strong>-TLB</strong> sont utilisées. Spécifiez le nom de la DLL que vous envisagez de générer à partir des fichiers. RGS ou. tlb.<br/> Par exemple, la commande suivante demande une opération qui génère un manifeste à partir de fichiers. RGS et. tlb.<br/> <strong>mt.exe-RGS : testreg1. RGS-TLB : testlib1. tlb -dll:test.dll-remplacements : Rep. manifest-Identity : &quot; Microsoft. Windows. SampleAssembly, ProcessorArchitecture = x86, version = 6.0.0.0, type = Win32, PublicKeyToken = a5aaf5ba15723d5 &quot; -out : rgstlb. manifest</strong><br/></td>
+<td>Spécifie le nom du fichier de bibliothèque de liens dynamiques (DLL). L’option <strong>-dll</strong> est requise par <strong>mt.exe</strong> si les options <strong>-RGS</strong> ou <strong>-TLB</strong> sont utilisées. Spécifiez le nom de la DLL que vous envisagez de générer à partir des fichiers. RGS ou. tlb.<br/> Par exemple, la commande suivante demande une opération qui génère un manifeste à partir de fichiers. RGS et. tlb.<br/> <strong>mt.exe-RGS : testreg1. RGS-TLB : testlib1. tlb -dll:test.dll-remplacements : Rep. manifest-Identity : &quot; Microsoft. Windows. SampleAssembly, processorArchitecture = x86, version = 6.0.0.0, type = Win32, publicKeyToken = a5aaf5ba15723d5 &quot; : rgstlb. manifest</strong><br/></td>
 </tr>
 <tr class="even">
 <td>-remplacements</td>

@@ -21,18 +21,18 @@ keywords:
 - types de contrôles, arborescence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4679af32f974cd1611cbd31c71e66db62631391
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea7ac6330428c2e79fca1e9a51d4ca0f7c63e8a7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031678"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472845"
 ---
 # <a name="tree-control-type"></a>Tree (type de contrôle)
 
 Cette rubrique fournit des informations sur la prise en charge de Microsoft UI Automation pour le type de contrôle **Tree** .
 
-Le type de contrôle **Tree** est utilisé pour les conteneurs dont le contenu est pertinent en tant que hiérarchie de nœuds, comme c’est le cas pour l’affichage des fichiers et des dossiers dans le volet gauche de l’Explorateur Windows. Chaque nœud peut contenir d’autres nœuds, appelés nœuds enfants. Vous pouvez afficher les nœuds parents, ou nœuds qui contiennent des nœuds enfants, sous forme développée ou réduite. Le contrôle d’arborescence Windows (identifié par [**WC \_ TreeView**](/windows/desktop/Controls/common-control-window-classes)) est un exemple de contrôle qui appartient au type de contrôle **Tree** .
+le type de contrôle **Tree** est utilisé pour les conteneurs dont le contenu est pertinent en tant que hiérarchie de nœuds, comme c’est le cas pour l’affichage des fichiers et des dossiers dans le volet gauche de l’explorateur de Windows. Chaque nœud peut contenir d’autres nœuds, appelés nœuds enfants. Vous pouvez afficher les nœuds parents, ou nœuds qui contiennent des nœuds enfants, sous forme développée ou réduite. le contrôle d’arborescence Windows (identifié par [**WC \_ TREEVIEW**](/windows/desktop/Controls/common-control-window-classes)) est un exemple de contrôle qui appartient au type de contrôle **tree** .
 
 Les sections suivantes définissent l’arborescence, les propriétés, les modèles de contrôle et les événements UI Automation requis pour le type de contrôle **Tree** . Les spécifications d’UI Automation s’appliquent à tous les contrôles d’élément d’arborescence où l’infrastructure/plateforme d’interface utilisateur intègre la prise en charge d’UI Automation pour les types de contrôle et les modèles de contrôle.
 
@@ -50,53 +50,15 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Arborescence
-<ul>
-<li>DataItem (0 ou plus)</li>
-<li>TreeItem (0 ou plus)
-<ul>
-<li>TreeItem (0 ou plus)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-<li>ScrollBar (0, 1, 2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Arborescence
-<ul>
-<li>DataItem (0 ou plus)</li>
-<li>TreeItem (0 ou plus)
-<ul>
-<li>TreeItem (0 ou plus)
-<ul>
-<li>...</li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Arborescence<ul><li>DataItem (0 ou plus)</li><li>TreeItem (0 ou plus)<ul><li>TreeItem (0 ou plus)<ul><li>...</li></ul></li></ul></li><li>ScrollBar (0, 1, 2)</li></ul></li></ul> | <ul><li>Arborescence<ul><li>DataItem (0 ou plus)</li><li>TreeItem (0 ou plus)<ul><li>TreeItem (0 ou plus)<ul><li>...</li></ul></li></ul></li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 L’affichage de contrôle de l’arborescence UI Automation se compose des éléments suivants :
 
@@ -126,7 +88,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -143,7 +105,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -168,7 +130,7 @@ Le tableau suivant répertorie les événements UI Automation que tous les contr
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -183,6 +145,6 @@ Le tableau suivant répertorie les événements UI Automation que tous les contr
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

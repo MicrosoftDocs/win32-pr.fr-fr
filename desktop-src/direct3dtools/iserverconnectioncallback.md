@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 25aa867ea1c4451fd036b3f9a68f3571097b2d58
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: b09a1d5313430f253efdbb0e087c467dd3ca67c5
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626975"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786734"
 ---
 # <a name="span-idvspixengineiserverconnectioncallbackspaniserverconnectioncallback-interface"></a><span id="vspixengine.iserverconnectioncallback"></span>Interface IServerConnectionCallback
 
@@ -38,7 +38,7 @@ L’interface **IServerConnectionCallback** hérite de l’interface [**IUnknown
 
 L’interface **IServerConnectionCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>ConnectToEngine</strong></a></td><td style="text-align: left;"><p>Connecter à une autre instance d’un moteur distant sur l’ordinateur local.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>Attendre l’arrêt du moteur spécifié (appel bloquant).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>ConnectToEngine</strong></a></td><td ><p>Connecter à une autre instance d’un moteur distant sur l’ordinateur local.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td ><p>Attendre l’arrêt du moteur spécifié (appel bloquant).</p></td></tr></tbody></table>
 
  
 

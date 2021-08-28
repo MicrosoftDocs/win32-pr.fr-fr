@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff31d347e0ab6bedce29898c40451976e3a38990adebc7ae2396878bf726ce1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 43c399b4ce63f84c41bcb2d65140356ac20a6ddd
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119061821"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479445"
 ---
 # <a name="glcopypixels-function"></a>glCopyPixels fonction)
 
@@ -79,46 +79,13 @@ Spécifie si **glCopyPixels** doit copier les valeurs de couleur, les valeurs de
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="GL_COLOR"></span><span id="gl_color"></span><dl> <dt><strong>GL_COLOR</strong></dt> </dl></td>
-<td>La fonction <strong>glCopyPixels</strong> lit les index ou les couleurs RVBA à partir de la mémoire tampon actuellement spécifiée comme mémoire tampon de la source de lecture (voir <a href="glreadbuffer.md"><strong>glReadBuffer</strong></a>). <br/> Si OpenGL est en mode d’index des couleurs :<br/>
-<ol>
-<li>Chaque index lu à partir de cette mémoire tampon est converti en un format à virgule fixe avec un nombre non spécifié de bits à droite du point binaire.</li>
-<li>Chaque index est décalé vers la gauche de GL_INDEX_SHIFT bits et ajouté à GL_INDEX_OFFSET. Si GL_INDEX_SHIFT est négatif, le décalage est à droite. Dans les deux cas, zéro bits remplit les emplacements de bits non spécifiés dans le résultat.<br/></li>
-<li>Si GL_MAP_COLOR a la valeur true, l’index est remplacé par la valeur qu’il référence dans la GL_PIXEL_MAP_I_TO_I de la table de recherche.</li>
-<li>Que le remplacement de la recherche de l’index soit effectué ou non, la partie entière de l’index est ensuite <strong>et</strong>Ed avec 2<em><sup>b</sup></em> 1, où <em>b</em> est le nombre de bits dans une mémoire tampon d’index de couleurs.</li>
-</ol>
-Si OpenGL est en mode RVBA :<br/>
-<ol>
-<li>Les composants rouge, vert, bleu et alpha de chaque pixel lu sont convertis en un format à virgule flottante interne avec une précision non spécifiée.</li>
-<li>La conversion mappe la plus grande valeur de composant représentable à 1,0, et la valeur de composant zéro à 0,0.</li>
-<li>Les valeurs de couleur à virgule flottante résultantes sont ensuite multipliées par GL_c_SCALE et ajoutées à GL_c_BIAS, où <em>c</em> est rouge, vert, bleu et alpha pour les composants de couleur respectifs.</li>
-<li>Les résultats sont ancrés à la plage [0, 1].</li>
-<li>Si GL_MAP_COLOR a la valeur true, chaque composant de couleur est mis à l’échelle en fonction de la taille de la table de recherche GL_PIXEL_MAP_c_TO_c, puis remplacé par la valeur qu’il référence dans cette table. <em>c</em> est R, G, B ou a, respectivement. Les index résultants ou les couleurs RVBA sont ensuite convertis en fragments en attachant la coordonnée <em>z</em>et les coordonnées de texture de la position raster actuelle à chaque pixel, puis en affectant les coordonnées de la fenêtre (<em>x</em><sub>r</sub> + i, <em>y</em><sub>r</sub> + <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position <em>de la</em> trame actuelle, et le pixel était le pixel dans <em>la</em> ligne Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. Le mappage de texture, le brouillard et toutes les opérations de fragment sont appliqués avant que les fragments soient écrits dans le trame.<br/></li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><span id="GL_DEPTH"></span><span id="gl_depth"></span><dl> <dt><strong>GL_DEPTH</strong></dt> </dl></td>
-<td>Les valeurs de profondeur sont lues à partir de la mémoire tampon de profondeur et converties directement en un format à virgule flottante interne avec une précision non spécifiée. La valeur de profondeur à virgule flottante résultante est ensuite multipliée par GL_DEPTH_SCALE et ajoutée à GL_DEPTH_BIAS. Le résultat est ancré à la plage [0, 1]. <br/> Les composants de profondeur résultants sont ensuite convertis en fragments en joignant la couleur de la position raster actuelle ou l’index de couleur et les coordonnées de texture à chaque pixel, puis en affectant les coordonnées de la fenêtre (<em>x</em><sub>r</sub> + i, <em>y</em><sub>r</sub> + <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position de la <em></em> trame actuelle, et le pixel dans la ligne <em>j</em> . Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. Le mappage de texture, le brouillard et toutes les opérations de fragment sont appliqués avant que les fragments soient écrits dans le trame.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="GL_STENCIL"></span><span id="gl_stencil"></span><dl> <dt><strong>GL_STENCIL</strong></dt> </dl></td>
-<td>Les index de stencil sont lus à partir de la mémoire tampon de stencil et convertis en un format à virgule fixe interne avec un nombre non spécifié de bits à droite du point binaire. Chaque index à virgule fixe est ensuite déplacé vers la gauche par GL_INDEX_SHIFT bits et ajouté à GL_INDEX_OFFSET. Si GL_INDEX_SHIFT est négatif, le décalage est à droite. Dans les deux cas, zéro bits remplit les emplacements de bits non spécifiés dans le résultat. Si GL_MAP_STENCIL a la valeur true, l’index est remplacé par la valeur qu’il référence dans la GL_PIXEL_MAP_S_TO_S de la table de recherche. Que le remplacement de la recherche de l’index soit effectué ou non, la partie entière de l’index est ensuite <strong>et</strong>Ed avec 2<sup>b</sup> - 1, où <em>b</em> est le nombre de bits dans la mémoire tampon du stencil. Les index de stencil qui en résultent sont ensuite écrits dans la mémoire tampon de stencil de telle sorte que l’index lu à partir de l’emplacement <em>i</em> de la ligne <em>j</em> soit écrit dans l’emplacement (<em>x</em><sub>r</sub> + <em>i</em>, <em>y</em><sub>r</sub> + <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position raster actuelle. Seul le test de propriété en pixels, le test de ciseaux et le stencil writemask affectent ces écritures.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="GL_COLOR"></span><span id="gl_color"></span><dl><dt><strong>GL_COLOR</strong></dt></dl> | La fonction <strong>glCopyPixels</strong> lit les index ou les couleurs RVBA à partir de la mémoire tampon actuellement spécifiée comme mémoire tampon de la source de lecture (voir <a href="glreadbuffer.md"><strong>glReadBuffer</strong></a>). <br /> Si OpenGL est en mode d’index des couleurs :<br /><ol><li>Chaque index lu à partir de cette mémoire tampon est converti en un format à virgule fixe avec un nombre non spécifié de bits à droite du point binaire.</li><li>Chaque index est décalé vers la gauche de GL_INDEX_SHIFT bits et ajouté à GL_INDEX_OFFSET. Si GL_INDEX_SHIFT est négatif, le décalage est à droite. Dans les deux cas, zéro bits remplit les emplacements de bits non spécifiés dans le résultat.<br /></li><li>Si GL_MAP_COLOR a la valeur true, l’index est remplacé par la valeur qu’il référence dans la GL_PIXEL_MAP_I_TO_I de la table de recherche.</li><li>Que le remplacement de la recherche de l’index soit effectué ou non, la partie entière de l’index est ensuite <strong>et</strong>Ed avec 2<em><sup>b</sup></em> 1, où <em>b</em> est le nombre de bits dans une mémoire tampon d’index de couleurs.</li></ol>Si OpenGL est en mode RVBA :<br /><ol><li>Les composants rouge, vert, bleu et alpha de chaque pixel lu sont convertis en un format à virgule flottante interne avec une précision non spécifiée.</li><li>La conversion mappe la plus grande valeur de composant représentable à 1,0, et la valeur de composant zéro à 0,0.</li><li>Les valeurs de couleur à virgule flottante résultantes sont ensuite multipliées par GL_c_SCALE et ajoutées à GL_c_BIAS, où <em>c</em> est rouge, vert, bleu et alpha pour les composants de couleur respectifs.</li><li>Les résultats sont ancrés à la plage [0, 1].</li><li>Si GL_MAP_COLOR a la valeur true, chaque composant de couleur est mis à l’échelle en fonction de la taille de la table de recherche GL_PIXEL_MAP_c_TO_c, puis remplacé par la valeur qu’il référence dans cette table. <em>c</em> est R, G, B ou a, respectivement. Les index résultants ou les couleurs RVBA sont ensuite convertis en fragments en attachant la coordonnée <em>z</em>et les coordonnées de texture de la position de pixellisation actuelle à chaque pixel, puis en affectant les coordonnées de la fenêtre (<em>x</em><sub>r</sub> + i, <em>y</em><sub>r</sub>  +  <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position de la trame <em></em> actuelle et le pixel dans la ligne <em>j</em> Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. Le mappage de texture, le brouillard et toutes les opérations de fragment sont appliqués avant que les fragments soient écrits dans le trame.<br /></li></ol> | 
+| <span id="GL_DEPTH"></span><span id="gl_depth"></span><dl><dt><strong>GL_DEPTH</strong></dt></dl> | Les valeurs de profondeur sont lues à partir de la mémoire tampon de profondeur et converties directement en un format à virgule flottante interne avec une précision non spécifiée. La valeur de profondeur à virgule flottante résultante est ensuite multipliée par GL_DEPTH_SCALE et ajoutée à GL_DEPTH_BIAS. Le résultat est ancré à la plage [0, 1]. <br /> Les composants de profondeur résultants sont ensuite convertis en fragments en joignant la couleur de position raster actuelle ou l’index de couleur et les coordonnées de texture à chaque pixel, puis en affectant les coordonnées de la fenêtre (<em>x</em><sub>r</sub> + i, <em>y</em><sub>r</sub>  +  <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position de la trame actuelle, et le pixel dans <em>la</em> ligne <em>j</em> . Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. Le mappage de texture, le brouillard et toutes les opérations de fragment sont appliqués avant que les fragments soient écrits dans le trame.<br /> | 
+| <span id="GL_STENCIL"></span><span id="gl_stencil"></span><dl><dt><strong>GL_STENCIL</strong></dt></dl> | Les index de stencil sont lus à partir de la mémoire tampon de stencil et convertis en un format à virgule fixe interne avec un nombre non spécifié de bits à droite du point binaire. Chaque index à virgule fixe est ensuite déplacé vers la gauche par GL_INDEX_SHIFT bits et ajouté à GL_INDEX_OFFSET. Si GL_INDEX_SHIFT est négatif, le décalage est à droite. Dans les deux cas, zéro bits remplit les emplacements de bits non spécifiés dans le résultat. Si GL_MAP_STENCIL a la valeur true, l’index est remplacé par la valeur qu’il référence dans la GL_PIXEL_MAP_S_TO_S de la table de recherche. Que le remplacement de la recherche de l’index soit effectué ou non, la partie entière de l’index est ensuite <strong>et</strong>Ed avec 2<sup>b</sup> -1, où <em>b</em> est le nombre de bits dans la mémoire tampon du stencil. Les index de stencil qui en résultent sont ensuite écrits dans la mémoire tampon de stencil de telle sorte que l’index lu à partir de l’emplacement <em>i</em> de la ligne <em>j</em> soit écrit dans l’emplacement (<em>x</em><sub>r</sub>  +  <em>i</em>, <em>y</em><sub>r</sub>  +  <em>j</em>), où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position raster actuelle. Seul le test de propriété en pixels, le test de ciseaux et le stencil writemask affectent ces écritures.<br /> | 
+
 
 
 
@@ -136,7 +103,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *type* n’est pas une valeur acceptée.<br/>                                                                                          |
 | <dl> <dt>**\_valeur non valide du GL \_**</dt> </dl>     | La *largeur* ou la hauteur était négative.<br/>                                                                                     |

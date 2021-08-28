@@ -4,12 +4,12 @@ ms.assetid: 22e4a6e9-4d18-4fff-873c-27ba59a79222
 title: PageMediaSizeMediaSizeWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b3f84e36f689d4b3c5ca060020327d78b12f7d6
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: a6d66be9c63af19aa60ae88b14aaa209af25a8800fc4024cec50c70f21ebf050
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112299"
 ---
 # <a name="pagemediasizemediasizewidth"></a>PageMediaSizeMediaSizeWidth
 
@@ -28,7 +28,7 @@ Spécifie la direction MediaSizeWidth de la dimension pour l’option MediaSize 
 |----------------------------|-----------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                   |
 | Préfixe d’étendue <br/> | Page<br/>                                           |
-| Notes <br/>          | Lié à l’élément PageMediaSize, option personnalisée<br/> |
+| Remarques <br/>          | Lié à l’élément PageMediaSize, option personnalisée<br/> |
 
 
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

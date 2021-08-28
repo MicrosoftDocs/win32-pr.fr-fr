@@ -4,44 +4,44 @@ description: Comparaison du modèle d’objet détaillé
 ms.assetid: 8f08e2a6-1944-4814-b3b7-680a3722e1a0
 keywords:
 - Lecteur Windows Media, modèle objet
-- Modèle d’objet du lecteur Windows Media, différences entre les versions
+- Lecteur Windows Media modèle objet, différences de version
 - modèle objet, différences de version
-- Contrôle ActiveX du lecteur Windows Media, différences entre les versions
-- Contrôle ActiveX, différences de version
-- Windows Media Player Mobile contrôle ActiveX, différences de version
-- Windows Media Player Mobile, modèle objet
+- contrôle de ActiveX Lecteur Windows Media, différences de version
+- contrôle de ActiveX, différences de version
+- Lecteur Windows Media contrôle de ActiveX Mobile, différences de version
+- Lecteur Windows Media Mobile, modèle objet
 - Guide de migration, différences de version
-- versions du lecteur Windows Media, modèle objet
+- versions de Lecteur Windows Media, modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 086607a9d367f42479e155e3273c30d88425a457
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104030749"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122623535"
 ---
 # <a name="detailed-object-model-comparison"></a>Comparaison du modèle d’objet détaillé
 
-Le tableau suivant compare les propriétés du modèle d’objet du lecteur Windows Media 6,4 au modèle objet Windows Media Player 7 ou version ultérieure.
+le tableau suivant compare les propriétés du modèle d’objet Lecteur Windows Media 6,4 avec le modèle objet Lecteur Windows Media 7 ou version ultérieure.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Windows Media Player 6,4, propriété</th>
-<th>Windows Media Player 7 ou une version ultérieure équivalente</th>
+<th>Lecteur Windows Media propriété 6,4</th>
+<th>Lecteur Windows Media 7 ou version ultérieure équivalent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>AllowChangeDisplaySize</strong></td>
-<td>L’affichage du lecteur Windows Media 7 ou ultérieur est automatiquement redimensionné pour s’adapter au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la <OBJECT> balise ou dans le script.</td>
+<td>l’affichage de Lecteur Windows Media 7 ou ultérieur est automatiquement redimensionné pour s’ajuster au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la <OBJECT> balise ou dans le script.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>AllowScan</strong></td>
@@ -73,11 +73,11 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Démarrage automatique</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>démarrage automatique</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>démarrage automatique</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Solde</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>équilibrer</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>équilibrer</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Bande passante</strong></td>
@@ -85,7 +85,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>BaseURL</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>baseURL</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>baseURL</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>BufferingCount</strong></td>
@@ -125,7 +125,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>CCActive</strong></td>
-<td>Non disponible. Pour plus d’informations sur la façon dont les sous-titres ont été modifiés dans le lecteur Windows Media, consultez sous- <a href="closed-captioning.md">titrage</a> .</td>
+<td>Non disponible. pour plus d’informations sur la modification du sous-titrage dans Lecteur Windows Media, consultez sous- <a href="closed-captioning.md">titrage</a> .</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ChannelDescription</strong></td>
@@ -145,7 +145,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ClientID</strong></td>
-<td>Non disponible. Le lecteur Windows Media série 9 ou version ultérieure permet à l’utilisateur de choisir si un ID de lecteur unique est transmis aux fournisseurs de contenu.<br/> Si l’utilisateur sélectionne cette option, le lecteur envoie un ID unique au serveur Windows Media. L’ID est enregistré dans le fichier journal du serveur, situé dans le.. <em>system32\logfiles</em> par défaut. Le nom du champ de journal est &quot; c-playerid &quot; . La journalisation du serveur n’est pas activée par défaut dans Windows Media Services.<br/> Si l’utilisateur ne sélectionne pas cette option, le serveur génère un ID de session aléatoire, qui est unique pour chaque client pour une session donnée.<br/> Pour plus d’informations, consultez la documentation de Windows Media Services série 9.<br/></td>
+<td>Non disponible. Lecteur Windows Media série 9 ou version ultérieure permet à l’utilisateur de choisir si un ID de lecteur unique est transmis aux fournisseurs de contenu.<br/> si l’utilisateur sélectionne cette option, le lecteur envoie un ID unique au serveur multimédia Windows. L’ID est enregistré dans le fichier journal du serveur, situé dans le.. <em>system32\logfiles</em> par défaut. Le nom du champ de journal est &quot; c-playerid &quot; . la journalisation du serveur n’est pas activée par défaut dans Services Windows Media.<br/> Si l’utilisateur ne sélectionne pas cette option, le serveur génère un ID de session aléatoire, qui est unique pour chaque client pour une session donnée.<br/> pour plus d’informations, consultez la documentation de la série Services Windows Media 9.<br/></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>CodecCount</strong></td>
@@ -233,7 +233,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Defaultframe</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>defaultFrame</strong>, ou utilisez un <PARAM> attribut dans l' <OBJECT> élément : <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>utilisez <em>Paramètres</em>. <strong>defaultFrame</strong>, ou utilisez un <PARAM> attribut dans l' <OBJECT> élément : <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>DisplayBackColor</strong></td>
@@ -269,7 +269,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>EnableFullScreenControls</strong></td>
-<td>Lorsque vous utilisez le lecteur Windows Media série 9 ou une version ultérieure, les contrôles en plein écran sont automatiquement activés, sauf si vous utilisez <em>le lecteur.</em> <strong></strong>  =  UIMODE &quot; aucune &quot; .</td>
+<td>quand vous utilisez Lecteur Windows Media série 9 ou version ultérieure, les contrôles en plein écran sont automatiquement activés, sauf si vous utilisez <em>Player</em>. <strong></strong>  =  UIMODE &quot; aucune &quot; .</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>EnablePositionControls</strong></td>
@@ -321,7 +321,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>InvokeURLs</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>invokeURLs</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>invokeURLs</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>IsBroadcast</strong></td>
@@ -345,7 +345,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Muet</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>muet</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>muet</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>OpenState</strong></td>
@@ -353,7 +353,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>PlayCount</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>playCount</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>playCount</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Lecture</strong></td>
@@ -365,7 +365,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Taux</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>taux</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>taux</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ReadyState</strong></td>
@@ -517,7 +517,7 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Volume</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>Volume</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>Volume</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>VolumesAvailable</strong></td>
@@ -530,29 +530,29 @@ Le tableau suivant compare les propriétés du modèle d’objet du lecteur Wind
 
  
 
-Le tableau suivant compare les méthodes du modèle d’objet Windows Media Player version 6,4 avec le modèle objet Windows Media Player 7 ou version ultérieure.
+le tableau suivant compare les méthodes de modèle objet de la version 6,4 de Lecteur Windows Media à celles du modèle objet Lecteur Windows Media 7 ou version ultérieure.
 
 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lecteur Windows Media 6,4, méthode</th>
-<th>Windows Media Player 7 ou une version ultérieure équivalente</th>
+<th>Lecteur Windows Media méthode 6,4</th>
+<th>Lecteur Windows Media 7 ou version ultérieure équivalent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>AboutBox</strong></td>
-<td>Utilisez le <em>lecteur</em>. <strong>VERSIONINFO</strong> pour récupérer la version du lecteur Windows Media.</td>
+<td>Utilisez le <em>lecteur</em>. <strong>versionInfo</strong> pour récupérer la version de Lecteur Windows Media.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>BackwardScan</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>taux</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>taux</strong>.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ButtonActivate</strong></td>
@@ -592,7 +592,7 @@ Ensuite, spécifiez <em>Player</em>. <strong>currentMedia</strong> à l’aide d
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>ForwardScan</strong></td>
-<td>Utilisez les <em>paramètres</em>. <strong>taux</strong>.</td>
+<td>utilisez <em>Paramètres</em>. <strong>taux</strong>.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>GetAllGPRMs</strong></td>
@@ -775,11 +775,11 @@ Ensuite, spécifiez <em>Player</em>. <strong>currentMedia</strong> à l’aide d
 
  
 
-Le tableau suivant compare les événements du modèle d’objet Windows Media Player version 6,4 avec le modèle objet Windows Media Player 7 ou version ultérieure.
+le tableau suivant compare les événements du modèle d’objet Lecteur Windows Media version 6,4 avec le modèle objet Lecteur Windows Media 7 ou version ultérieure.
 
 
 
-| Événement du lecteur Windows Media 6,4  | Windows Media Player 7 ou une version ultérieure équivalente                                                                                                                                                                               |
+| événement Lecteur Windows Media 6,4  | Lecteur Windows Media 7 ou version ultérieure équivalent                                                                                                                                                                               |
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *Player6*. **Mise en mémoire tampon**         | Utilisez le *lecteur*. **Mise en mémoire tampon**.                                                                                                                                                                                              |
 | *Player6*. **Cliquez sur**             | Utilisez le *lecteur*. **Cliquez sur**                                                                                                                                                                                                   |

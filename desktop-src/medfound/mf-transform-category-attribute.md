@@ -4,12 +4,12 @@ ms.assetid: cebd64ea-b20f-4ccc-805f-0deab3096bc3
 title: Attribut MF_TRANSFORM_CATEGORY_Attribute (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3c64fd5e19bba10646957e7c247294b6d82a97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66adac9b1b9f07b3053ff871a12d17163ae2b5f1a2ef644885b54cb8ed281437
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113689"
 ---
 # <a name="mf_transform_category_attribute-attribute"></a>\_Attribut d' \_ attribut de catégorie de transformation MF \_
 
@@ -27,7 +27,7 @@ Pour récupérer cet attribut, appelez [**IMFAttributes :: GetGuid**](/windows/
 
 Pour définir cet attribut, appelez [**IMFAttributes :: SetGUID**](/windows/desktop/api/mfobjects/nf-mfobjects-imfattributes-setguid).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est défini sur les pointeurs [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) retournés par la fonction [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) .
 
@@ -37,8 +37,8 @@ Cet attribut est défini sur les pointeurs [**IMFActivate**](/windows/desktop/ap
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

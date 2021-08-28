@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f829e78ff54e77011346ae1bfd39f909411cbee12c18d19781f8fe5d62865097
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 77c452fb78916fdcdf935ec6ad890db055e63b9a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252254"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479315"
 ---
 # <a name="jet_spacehints-structure"></a>Structure JET_SPACEHINTS
 
@@ -64,50 +64,16 @@ Taille initiale (en octets) de l’objet en cours de création. Il doit s’agir
 
 Groupe de bits qui contient les options à utiliser pour cette structure, qui incluent zéro ou plusieurs des éléments suivants.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitSpaceHintsUtilizeParentSpace<br />
-0x00000001</p></td>
-<td><p>Modifie la stratégie d’allocation interne pour obtenir l’espace heirarchically à partir du parent immédiat d’une arborescence binaire (b-Tree).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCreateHintAppendSequential<br />
-0x00000002</p></td>
-<td><p>Active le comportement de fractionnement d’ajout pour augmenter en fonction de la dynamique de croissance de la table (définie par cbMinExtent, ulGrowth, cbMaxExtent).</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitCreateHintHotpointSequential<br />
-0x00000004</p></td>
-<td><p>Active le comportement de fractionnement Hotpoint pour augmenter en fonction de la dynamique de croissance de la table (définie par cbMinExtent, ulGrowth, cbMaxExtent).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitRetrieveHintTableScanForward<br />
-0x00000010</p></td>
-<td><p>Si cette valeur est définie, le client indique que l’analyse par progression séquentielle est le modèle d’utilisation prédominant de ce tableau.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitRetrieveHintTableScanBackward<br />
-0x00000020</p></td>
-<td><p>Si cette valeur est définie, le client indique que l’analyse de séquence arrière est le modèle d’utilisation prédominant de cette table.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitDeleteHintTableSequential<br />
-0x00000100</p></td>
-<td><p>Si cette valeur est définie, l’application s’attend à ce que cette table soit nettoyée dans l’ordre séquentiel, de la clé la plus basse à la clé la plus élevée.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitSpaceHintsUtilizeParentSpace<br />0x00000001</p> | <p>Modifie la stratégie d’allocation interne pour obtenir l’espace heirarchically à partir du parent immédiat d’une arborescence binaire (b-Tree).</p> | 
+| <p>JET_bitCreateHintAppendSequential<br />0x00000002</p> | <p>Active le comportement de fractionnement d’ajout pour augmenter en fonction de la dynamique de croissance de la table (définie par cbMinExtent, ulGrowth, cbMaxExtent).</p> | 
+| <p>JET_bitCreateHintHotpointSequential<br />0x00000004</p> | <p>Active le comportement de fractionnement Hotpoint pour augmenter en fonction de la dynamique de croissance de la table (définie par cbMinExtent, ulGrowth, cbMaxExtent).</p> | 
+| <p>JET_bitRetrieveHintTableScanForward<br />0x00000010</p> | <p>Si cette valeur est définie, le client indique que l’analyse par progression séquentielle est le modèle d’utilisation prédominant de ce tableau.</p> | 
+| <p>JET_bitRetrieveHintTableScanBackward<br />0x00000020</p> | <p>Si cette valeur est définie, le client indique que l’analyse de séquence arrière est le modèle d’utilisation prédominant de cette table.</p> | 
+| <p>JET_bitDeleteHintTableSequential<br />0x00000100</p> | <p>Si cette valeur est définie, l’application s’attend à ce que cette table soit nettoyée dans l’ordre séquentiel, de la clé la plus basse à la clé la plus élevée.</p> | 
+
 
 
 **ulMaintDensity**
@@ -140,26 +106,9 @@ Valeur maximale pour la croissance en octets. Ce cap ulGrowth.
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

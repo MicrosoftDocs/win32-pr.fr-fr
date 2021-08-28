@@ -4,12 +4,12 @@ ms.assetid: 24b400a4-f4c7-4b59-a9e3-8a20144cd52e
 title: Stratégie de métadonnées de photo System. photo. Flash
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba32a7b4dfcde564f6b0c0c9e175aa56786e1324080264c7c928398fe97e6a34
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1a7798e88c40193cac5c577f1960eee96fc2d868
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119811729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880081"
 ---
 # <a name="systemphotoflash-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. Flash
 
@@ -49,10 +49,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37385}    | ushort      |
-| 2     | /XMP/ <xmpstruct> EXIF : Flash |             |
+| 2     | /XMP/ &lt; xmpstruct &gt; EXIF : Flash |             |
 
 
 
@@ -62,10 +62,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             | Format de disque |
+| JSON | Chemin d’accès                             | Format de disque |
 |-------|----------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37385}    | ushort      |
-| 2     | /XMP/ <xmpstruct> EXIF : Flash |             |
+| 2     | /XMP/ &lt; xmpstruct &gt; EXIF : Flash |             |
 
 
 
@@ -75,10 +75,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                             |
+| JSON | Chemin d’accès                             |
 |-------|----------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 37385}    |
-| 2     | /XMP/ <xmpstruct> EXIF : Flash |
+| 2     | /XMP/ &lt; xmpstruct &gt; EXIF : Flash |
 
 
 
@@ -90,10 +90,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                 | Format de disque |
+| JSON | Chemin d’accès                                 | Format de disque |
 |-------|--------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37385}             | ushort      |
-| 2     | /IFD/XMP/ <xmpstruct> EXIF : Flash |             |
+| 2     | /IFD/XMP/ &lt; xmpstruct &gt; EXIF : Flash |             |
 
 
 
@@ -103,10 +103,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                 | Format de disque |
+| JSON | Chemin d’accès                                 | Format de disque |
 |-------|--------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 37385}             | ushort      |
-| 2     | /IFD/XMP/ <xmpstruct> EXIF : Flash |             |
+| 2     | /IFD/XMP/ &lt; xmpstruct &gt; EXIF : Flash |             |
 
 
 
@@ -116,10 +116,10 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin                                 |
+| JSON | Chemin d’accès                                 |
 |-------|--------------------------------------|
 | 1     | /IFD/EXIF/{UShort = 37385}             |
-| 2     | /IFD/XMP/ <xmpstruct> EXIF : Flash |
+| 2     | /IFD/XMP/ &lt; xmpstruct &gt; EXIF : Flash |
 
 
 

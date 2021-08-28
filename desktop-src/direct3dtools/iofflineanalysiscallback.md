@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 39260a6f8da30de6fdb625343e9b930e77d23776
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: e7d21b134230c86a91a49d1d323c96da74cfb150
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630444"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786575"
 ---
 # <a name="span-idvspixengineiofflineanalysiscallbackspaniofflineanalysiscallback-interface"></a><span id="vspixengine.iofflineanalysiscallback"></span>Interface IOfflineAnalysisCallback
 
@@ -38,7 +38,7 @@ L’interface **IOfflineAnalysisCallback** hérite de l’interface [**IUnknown*
 
 L’interface **IOfflineAnalysisCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iofflineanalysiscallback-offlineanalysiscomplete-dword-hresult-bstr"><strong>OfflineAnalysisComplete</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte que l’analyse hors connexion est terminée.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iofflineanalysiscallback-offlineanalysisprogress-dword-double"><strong>OfflineAnalysisProgress</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte de la progression de l’analyse hors connexion.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iofflineanalysiscallback-offlineanalysiscomplete-dword-hresult-bstr"><strong>OfflineAnalysisComplete</strong></a></td><td ><p>Fonction de rappel utilisée pour informer l’hôte que l’analyse hors connexion est terminée.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/iofflineanalysiscallback-offlineanalysisprogress-dword-double"><strong>OfflineAnalysisProgress</strong></a></td><td ><p>Fonction de rappel utilisée pour informer l’hôte de la progression de l’analyse hors connexion.</p></td></tr></tbody></table>
 
  
 

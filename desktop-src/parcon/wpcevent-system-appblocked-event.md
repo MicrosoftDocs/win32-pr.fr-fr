@@ -4,12 +4,12 @@ ms.assetid: 6772a2c9-35c1-4b75-94e4-baa84af7c0ed
 title: Événement WPCEVENT_SYSTEM_APPBLOCKED (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c3f6255911f59717c1fa594aee4bfc49f6c5a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0444cee0a2844ae868923b5cf51923e0024c9de9a2a12ad51e20d8db9fa3b60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112719"
 ---
 # <a name="wpcevent_system_appblocked-event"></a>\_ \_ Événement APPBLOCKED système WPCEVENT
 
@@ -60,7 +60,7 @@ ID de la règle dans le jeu de règles de sécurité de contrôle parental qui b
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 
