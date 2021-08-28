@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - N/A
-ms.openlocfilehash: 80cbe41e58cf36cd366015d83af380f5952630ce
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87915dc214b0ba306b4f38dbd833b27199277564fa8c2815b9147e0d82253589
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097849"
 ---
 # <a name="ip_dscp_traffic_type"></a>\_type de \_ trafic \_ DSCP IP
 
@@ -43,7 +43,7 @@ Le tableau suivant décrit les \_ options de socket de type de trafic IP DSCP \_
 
 | Condition requise | Valeur |
 |----------------------------------|--------------------------------------------------------------------------------|
-| Fin de la prise en charge des clients<br/> | Windows 10<br/>                                                          |
+| Fin de la prise en charge des clients<br/> | Windows 10<br/>                                                          |
 | Fin de la prise en charge des serveurs<br/> | Windows Server 2016<br/>                                                 |
 | En-tête<br/>                | <dl> <dt>N/A</dt> </dl> |
 

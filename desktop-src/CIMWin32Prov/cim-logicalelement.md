@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 281ba9f97dafb246917d602fcfe1061f4cb03f86
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02c61169d6bebd7134b60c8c0d6f6170375055160cd5218585056656239d76b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438242"
 ---
 # <a name="cim_logicalelement-class-cimwin32-wmi-providers"></a>CIM_LogicalElement, classe (fournisseurs WMI CIMWin32)
 
@@ -243,7 +243,7 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe. Pour les classes dérivées de **CIM \_ LogicalElement**, consultez [classes Win32](win32-provider.md).
 

@@ -4,12 +4,12 @@ description: Classes et serveurs
 ms.assetid: cc88be56-0d96-47d2-b23b-6a6ad376bdae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d319fd985b812692e6d0bfc421c4bb9da2a2605c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 30b87ce6b52e73f8ac4e465202b787a2c65dc563f3d7c0678ef82b91601351d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993799"
 ---
 # <a name="classes-and-servers"></a>Classes et serveurs
 
@@ -29,6 +29,6 @@ Vous devez exporter explicitement ces fonctions à l’aide d’un fichier de d�
 [Inscription des applications COM](registering-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

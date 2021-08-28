@@ -4,12 +4,12 @@ ms.assetid: 2eaffcf7-01b2-44ce-8bc4-fd9fa42c8a8c
 title: Récupération rapide à l’aide de volumes de clichés instantanés transportables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a588395de36b0e6773eacf7f46a45452a69c13c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb5ddd7604b1463def4ceaa6cd474487255682cf4489b13c5da520128c06811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120006399"
 ---
 # <a name="fast-recovery-using-transportable-shadow-copied-volumes"></a>Récupération rapide à l’aide de volumes de clichés instantanés transportables
 
@@ -29,7 +29,7 @@ La récupération rapide peut être utilisée pour revenir rapidement à un clic
     2.  Marquez les ressources qui étaient précédemment marquées comme étant en ligne ou désactivez le mode de maintenance pour ces ressources de disque.
 
 > [!Note]  
-> Les clichés instantanés transportables dans un cluster ne sont pas pris en charge avant Windows Server 2003 avec Service Pack 1 (SP1). Cela est uniquement pris en charge avec les numéros d’unités logiques conformes, qui ont au moins une page VPD (SCSI vital Product Data) 0x83 \_ l’identificateur de stockage de type 1, 2 ou 8, et l’Association 0, et les numéros d’unités logiques doivent gérer un disque de base avec le partitionnement MBR.
+> les clichés instantanés transportables dans un cluster ne sont pas pris en charge avant Windows Server 2003 avec Service Pack 1 (SP1). Cela est uniquement pris en charge avec les numéros d’unités logiques conformes, qui ont au moins une page VPD (SCSI vital Product Data) 0x83 \_ l’identificateur de stockage de type 1, 2 ou 8, et l’Association 0, et les numéros d’unités logiques doivent gérer un disque de base avec le partitionnement MBR.
 
  
 

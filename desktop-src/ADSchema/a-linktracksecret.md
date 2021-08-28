@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eb172ec0985acc7c93c62796881c369c7ad0b82
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c90fd71ed399c8a2881f16c13942f7210b152d20ebf5a284f071e8af85b40bf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106527582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301999"
 ---
 # <a name="link-track-secret-attribute"></a>Attribut lien-Track-secret
 
@@ -45,7 +45,7 @@ Cet attribut stocke un lien vers une clé secrète qui permet à un fichier chif
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: c14c1798-aeff-44d8-a2e4-2fe4c146dfb9
 title: Transmettre à partir du fichier de type 2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96e15cb0b3aae5b5119739f327a84204730c9d05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23d1d6dec7c68cba177923dea04205d8dbc26faa8ff98cf5d6e79659fced46fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315713"
 ---
 # <a name="transmit-from-type-2-file"></a>Transmettre à partir du fichier de type 2
 
@@ -52,7 +52,7 @@ hr = pBuilder->RenderStream(0, &MEDIATYPE_Interleaved, pTee, 0, 0);
 
 Ce code effectue plusieurs appels à **RenderStream**:
 
-Les deux premiers connectent le filtre source au séparateur AVI et le séparateur AVI au DV Mux. Dans le premier appel, le générateur de graphiques de capture ajoute automatiquement le séparateur AVI au graphique et connecte l’une des broches de sortie du séparateur AVI au DV Mux. Dans le deuxième appel, le générateur de graphiques de capture trouve la deuxième broche de sortie du séparateur AVI et le connecte au DV Mux.
+Les deux premiers connectent le filtre source au séparateur AVI et le séparateur AVI au DV Mux. dans le premier appel, le générateur de Graph de Capture ajoute automatiquement le séparateur avi au graphique et connecte l’une des broches de sortie du séparateur avi au DV Mux. dans le deuxième appel, le générateur de Graph de Capture recherche la deuxième broche de sortie du séparateur AVI et le connecte au DV Mux.
 
 Le troisième appel à **RenderStream** connecte la DV du multiplexeur au filtre tee du pin infini. L’appel suivant connecte un flux à partir du code confidentiel infini au filtre de capture MSDV. Ce flux est transmis à l’appareil. Le dernier appel à **RenderStream** génère la section d’aperçu du graphique.
 
@@ -69,7 +69,7 @@ hr = pBuilder->RenderStream(0, 0, pDVMux, 0, pDV);
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

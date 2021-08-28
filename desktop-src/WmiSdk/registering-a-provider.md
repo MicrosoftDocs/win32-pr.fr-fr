@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Inscription d’un fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53592ecb452de1b6071cbb8f59cfaaef42b57f1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 265d3a9f8617c68793fc30c0dc23fd3e9f0106ee98a9e3c757754e2fe589dda8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119995919"
 ---
 # <a name="registering-a-provider"></a>Inscription d’un fournisseur
 
@@ -163,7 +163,7 @@ La procédure suivante décrit comment inscrire un fournisseur.
 
 1.  Inscrivez le fournisseur en tant que serveur COM.
 
-    Si nécessaire, vous devrez peut-être créer des entrées de registre. Ce processus s’applique à tous les serveurs COM et n’est pas lié à WMI. Pour plus d’informations, consultez la section COM dans la documentation du kit de développement logiciel (SDK) Microsoft Windows.
+    Si nécessaire, vous devrez peut-être créer des entrées de registre. Ce processus s’applique à tous les serveurs COM et n’est pas lié à WMI. pour plus d’informations, consultez la section COM dans la documentation du kit de développement logiciel (SDK) de Microsoft Windows.
 
 2.  Créez un fichier MOF qui contient des instances de [**\_ \_ Win32Provider**](--win32provider.md) et une instance d’une classe dérivée directement ou indirectement de [**\_ \_ ProviderRegistration**](--providerregistration.md), telle que [**\_ \_ InstanceProviderRegistration**](--instanceproviderregistration.md). Seuls les administrateurs peuvent inscrire ou supprimer un fournisseur en créant des instances de classes dérivées de **\_ \_ Win32Provider** ou [**\_ \_ ProviderRegistration**](--providerregistration.md).
 3.  Définissez le [**HostingModel**](--win32provider.md) dans l’instance de **\_ \_ Win32Provider** en fonction des valeurs des [modèles d’hébergement](provider-hosting-and-security.md).

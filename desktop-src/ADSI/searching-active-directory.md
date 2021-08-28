@@ -9,12 +9,12 @@ keywords:
 - interroge ADSI, en recherchant Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1881872be6092312015f22eba477599ed9394df7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 02d3ec83268556ebcacd89efeca425db87e2c0cc06e69a1e6eea810bcd6a21de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005469"
 ---
 # <a name="searching-active-directory"></a>Recherche Active Directory
 
@@ -25,7 +25,7 @@ Une fonction importante de Active Directory consiste à résoudre les requêtes 
 -   Performances et gestion des jeux de résultats volumineux : comment le client doit-il gérer efficacement le potentiel d’un jeu de résultats volumineux ?
 -   Détermination des meilleures requêtes : Quels types de requêtes fournissent les résultats les plus efficaces ? Quels types de requêtes le développeur doit-il éviter ?
 -   Compréhension de la syntaxe de requête : ADSI prend en charge la syntaxe LDAP comme indiqué dans RFC 2254, ainsi qu’un sous-ensemble de SQL.
--   Choix des interfaces : ADSI offre une prise en charge OLE DB, ainsi qu’une interface C/C++ appelée [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch). Étant donné que l’interface ADSI fonctionne pour plusieurs espaces de noms, vous pouvez utiliser ces interfaces pour interroger d’autres espaces de noms tels qu’Exchange, ainsi que Active Directory. Étant donné que l’objet ADO (ActiveX Data Object) est un modèle objet d’accès aux données simple et scriptable par-dessus OLE DB, les interfaces OLE DB fonctionnent bien pour les programmeurs Visual Basic et les rédacteurs de script de page Web. Les nouvelles fonctionnalités d’accès aux données dans les applications Visual Studio et Office qui tirent parti d’ADO et de OLE DB peuvent désormais accéder aux données Active Directory de la même manière qu’elles accèdent aux données d’autres fournisseurs OLE DB, telles que les SQL Server. Toutefois, si un développeur C/C++ doit effectuer une recherche d’annuaire simple, l’interface **IDirectorySearch** peut être plus appropriée que les interfaces de OLE DB.
+-   Choix des interfaces : ADSI offre une prise en charge OLE DB, ainsi qu’une interface C/C++ appelée [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch). étant donné que l’interface ADSI fonctionne pour plusieurs espaces de noms, vous pouvez utiliser ces interfaces pour interroger d’autres espaces de noms tels que Exchange, ainsi que Active Directory. étant donné que l’objet de données ActiveX (ADO) est un modèle d’objet d’accès aux données simple et scriptable sur OLE DB, les interfaces OLE DB fonctionnent bien pour les programmeurs de Visual Basic et les rédacteurs de script de page web. les nouvelles fonctionnalités d’accès aux données dans les applications Visual Studio et Office qui tirent parti d’ADO et OLE DB peuvent désormais accéder aux données Active Directory de la même manière qu’elles accèdent aux données d’autres fournisseurs de OLE DB, telles que SQL Server. Toutefois, si un développeur C/C++ doit effectuer une recherche d’annuaire simple, l’interface **IDirectorySearch** peut être plus appropriée que les interfaces de OLE DB.
 
 Les rubriques suivantes expliquent comment effectuer des recherches Active Directory pour vous assurer que votre application émet la requête la plus efficace, en fonction des exigences du client :
 
@@ -36,9 +36,9 @@ Les rubriques suivantes expliquent comment effectuer des recherches Active Direc
 -   [Recherche de données binaires](searching-binary-data.md)
 -   [Requête distribuée](distributed-query.md)
 
- 
+ 
 
- 
+ 
 
 
 

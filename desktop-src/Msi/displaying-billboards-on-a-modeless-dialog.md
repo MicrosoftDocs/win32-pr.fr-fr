@@ -4,12 +4,12 @@ ms.assetid: 6432ee7d-0da2-48be-b14c-d36a83a3bb1d
 title: Affichage des panneaux dans une boîte de dialogue non modale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fd0ca40e47a8d52c16db7adde304177d4dc849
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: badf81e2b6d0131d1224f10b19e8de3c06f173ef91e3b08f3a45f31aef52be11
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086169"
 ---
 # <a name="displaying-billboards-on-a-modeless-dialog"></a>Affichage des panneaux dans une boîte de dialogue non modale
 
@@ -21,7 +21,7 @@ Les panneaux peuvent afficher une séquence d’images et de texte dans une boî
 
     [Table de boîtes de dialogue](dialog-table.md) (partielle)
 
-    | Dialogue\_     | HCentering | VCentering | Largeur | Hauteur | Attributs | Intitulé  | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
+    | Boîte de dialogue\_     | HCentering | VCentering | Largeur | Hauteur | Attributs | Titre  | \_Premier contrôle | \_Valeur par défaut du contrôle | Annuler le contrôle \_ |
     |--------------|------------|------------|-------|--------|------------|--------|----------------|------------------|-----------------|
     | ActionDialog | 50         | 50         | 480   | 240    | 5          | Action | Annuler         | Annuler           | Annuler          |
 
@@ -33,7 +33,7 @@ Les panneaux peuvent afficher une séquence d’images et de texte dans une boî
 
     [Table de contrôle](control-table.md) (partielle)
 
-    | Dialogue\_     | Contrôler   | Type      | X   | O   | Largeur | Hauteur | Attributs |
+    | Boîte de dialogue\_     | Contrôler   | Type      | X   | O   | Largeur | Hauteur | Attributs |
     |--------------|-----------|-----------|-----|-----|-------|--------|------------|
     | ActionDialog | Blanc | Blanc | 0   | 110 | 480   | 130    | 1          |
 
@@ -45,7 +45,7 @@ Les panneaux peuvent afficher une séquence d’images et de texte dans une boî
 
     [Table de tableau blanc](billboard-table.md) (partielle)
 
-    | Blanc | Fonctionnalité   | Action       | Classement |
+    | Blanc | Fonctionnalité   | Action       | Organisation |
     |-----------|-----------|--------------|----------|
     | BB1       | QuickTest | InstallFiles | 1        |
     | BB2       | QuickTest | InstallFiles | 2        |
@@ -77,9 +77,9 @@ Les panneaux peuvent afficher une séquence d’images et de texte dans une boî
 
     [Table EventMapping](eventmapping-table.md) (partielle)
 
-    | Dialogue\_     | contrôle\_ | Événement       | Attribut |
+    | Boîte de dialogue\_     | contrôle\_ | Événement       | Attribut |
     |--------------|-----------|-------------|-----------|
-    | ActionDialog | Blanc | SetProgress | Progress  |
+    | ActionDialog | Blanc | SetProgress | Avancement  |
 
     
 

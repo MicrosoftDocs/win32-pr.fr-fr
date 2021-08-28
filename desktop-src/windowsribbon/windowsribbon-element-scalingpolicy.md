@@ -3,7 +3,7 @@ title: Élément ScalingPolicy
 description: Représente un conteneur pour la mise à l’échelle des spécifications.
 ms.assetid: 133e7994-9901-43e8-82b0-3d910cf8758e
 keywords:
-- Ruban des fenêtres d’élément ScalingPolicy
+- élément ScalingPolicy Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 812256b0ff329073eb516c6ab2eb7501db8de40d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 202112a24a74c9b20d429910fd0ee9447002ce7f2cb95133165fb968eaaf4f69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120007469"
 ---
 # <a name="scalingpolicy-element"></a>Élément ScalingPolicy
 
 Représente un conteneur pour la mise à l’échelle des spécifications.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ScalingPolicy>
@@ -42,7 +42,7 @@ Il n’y a pas d’attributs.
 
 | Élément                                                                                       | Description                                        |
 |-----------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [**Mise à l’échelle**](windowsribbon-element-scale.md)<br/>                                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Scale**](windowsribbon-element-scale.md)<br/>                                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ScalingPolicy.IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md)<br/> | Peut se produire au plus une fois<br/> <br/>      |
 
 
@@ -144,7 +144,7 @@ Le manifeste **ScalingPolicy** dans cet exemple spécifie une préférence [**Sc
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

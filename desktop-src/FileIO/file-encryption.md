@@ -4,18 +4,18 @@ ms.assetid: 5f20109f-727d-44a9-90a1-0adc19b00d28
 title: Chiffrement de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55c05d8d746e597fe180feffe25f7f553819e822
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61dbbfa82024bea13eab9e672b482ea18bc1051cd6e86b97d2a405351e3b078b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120107569"
 ---
 # <a name="file-encryption"></a>Chiffrement de fichier
 
 Le système de fichiers EFS (Encrypted File System) fournit un niveau supplémentaire de sécurité pour les fichiers et les répertoires. Il fournit une protection par chiffrement des fichiers individuels sur les volumes de système de fichiers NTFS à l’aide d’un système à clé publique.
 
-En règle générale, le contrôle d’accès aux objets de fichiers et d’annuaire fournis par le modèle de sécurité Windows est suffisant pour protéger l’accès non autorisé aux informations sensibles. Toutefois, si un ordinateur portable qui contient des données sensibles est perdu ou volé, la protection de la sécurité de ces données risque d’être compromise. Le chiffrement des fichiers augmente la sécurité.
+en règle générale, le contrôle d’accès aux objets de fichiers et d’annuaire fournis par le modèle de sécurité Windows est suffisant pour protéger l’accès non autorisé aux informations sensibles. Toutefois, si un ordinateur portable qui contient des données sensibles est perdu ou volé, la protection de la sécurité de ces données risque d’être compromise. Le chiffrement des fichiers augmente la sécurité.
 
 Pour déterminer si un système de fichiers prend en charge le chiffrement de fichier pour les fichiers et les répertoires, appelez la fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) et examinez l’indicateur de bit de **\_ \_ chiffrement de fichier FS** . Notez que les éléments suivants ne peuvent pas être chiffrés :
 

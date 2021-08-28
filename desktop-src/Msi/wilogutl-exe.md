@@ -4,12 +4,12 @@ ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
 title: Wilogutl.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9958b91513dccc32f3bfc82ff781f65f166c208
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 6734b22afa6aa5d464f3d6b01555e54f240e006b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883854"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476025"
 ---
 # <a name="wilogutlexe"></a>Wilogutl.exe
 
@@ -19,9 +19,9 @@ Les erreurs non critiques ne sont pas affichées. Wilogutl.exe peut être exécu
 
 cet outil est disponible uniquement dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
- Options des *\[ &lt; &gt; \] \[ <source file> \] \[ &lt; options &gt; dewilogutl.exe\] \[ <report file directory> \]*
+**wilogutl.exe***\[<options>\]\[<source file>\]\[<options>\]\[<report file directory>\]*
 
 Vous pouvez utiliser les lignes de commande suivantes pour exécuter en mode silencieux.
 
@@ -37,7 +37,7 @@ Wilogutl.exe utilise les options de ligne de commande qui ne respectent pas la c
 
 | Option | Description                                                                                                                                                                                     |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Aucun   | S’exécute en mode interface utilisateur, sans options de ligne de commande.                                                                                                                                                   |
+| aucun   | S’exécute en mode interface utilisateur, sans options de ligne de commande.                                                                                                                                                   |
 | /q     | Spécifie le mode silencieux. Wilogutl.exe génère des fichiers de rapport et n’affiche pas d’interface utilisateur.                                                                                            |
 | /l     | Spécifie le nom du fichier journal à analyser. Cette option est requise lors de l’utilisation du mode silencieux.                                                                                           |
 | /o     | Spécifie le répertoire de sortie pour les fichiers de rapport. Ce chemin de sortie est utilisé uniquement lors de l’exécution en mode silencieux. Si l’option n’est pas présente, les rapports sont placés dans le répertoire C : \\ WiLogResults. |

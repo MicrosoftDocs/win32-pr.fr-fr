@@ -6,12 +6,12 @@ keywords:
 - IStorage Strctd STG, implémentation de fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bf37b24a7c68bbe357d99f94e666bfcb613c472
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ab243189d5a8cfb3e053c66bcd752d05bb65ab965657778a3bc3250c30ef8e75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992411"
 ---
 # <a name="istorage-compound-file-implementation"></a>Implémentation de fichiers IStorage-Compound
 
@@ -150,7 +150,7 @@ Récupère la structure [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statst
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’objet de stockage est ouvert en mode simple, l’utilisation des méthodes ci-dessus est limitée. Un stockage est en mode simple s’il est ouvert à l’aide de l' \_ élément simple STGM spécifié dans le paramètre *grfMode* de la fonction [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) ou [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) . Pour plus d’informations sur les stockages en mode simple, consultez [**constantes STGM**](stgm-constants.md). Si l’objet de stockage en mode simple a été obtenu à partir de la fonction **StgCreateStorageEx** , la méthode [**CreateStream,**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) peut être appelée, mais la méthode [**OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) ne peut pas. Si l’objet de stockage en mode simple a été obtenu à partir de la fonction **StgOpenStorageEx** , la méthode **OpenStream** peut être appelée, mais la méthode **CreateStream,** ne peut pas.
 
@@ -190,6 +190,6 @@ Lorsqu’un objet de stockage en mode simple est utilisé pour créer un flux, l
 [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - OpenGL sur Windows, implémentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86aa17d4aec358204962c1da834dd2ba12814ab5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 329d46e2ddba7818f4d9a61b68d7814ca129b25915eaac012276d11d63018c03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120082269"
 ---
 # <a name="generic-implementation-and-hardware-implementations"></a>Implémentations génériques et implémentations matérielles
 
@@ -19,9 +19,9 @@ Cette vue d’ensemble présente l’implémentation générique actuelle de Ope
 
 -   [Limitations](limitations.md)
 
- 
+ 
 
- 
+ 
 
 
 

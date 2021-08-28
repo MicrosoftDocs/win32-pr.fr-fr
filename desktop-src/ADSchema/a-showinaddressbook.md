@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f44632604c539278c67e9dd46537d8e797e2d70d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 610e310297d3401548cc65adb53c77760893ba3a0c5777a9d440432d12dff77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836269"
 ---
 # <a name="show-in-address-book-attribute"></a>Show-in-Address-attribute Book
 
-Cet attribut est utilisé pour indiquer dans quels carnets d’adresses MAPI un objet s’affiche. Il est généralement géré par le service de mise à jour de destinataire Exchange.
+Cet attribut est utilisé pour indiquer dans quels carnets d’adresses MAPI un objet s’affiche. elle est généralement gérée par le service de mise à jour de destinataire Exchange.
 
 
 
@@ -45,7 +45,7 @@ Cet attribut est utilisé pour indiquer dans quels carnets d’adresses MAPI un 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

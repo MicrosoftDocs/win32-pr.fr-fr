@@ -1,6 +1,6 @@
 ---
 title: Attribut LSA-modified-Count
-description: L’attribut LSA-modified-Count est utilisé pour prendre en charge la réplication vers des domaines Windows NT 4,0.
+description: L’attribut LSA-modified-Count est utilisé pour prendre en charge la réplication vers Windows domaines NT 4,0.
 ms.assetid: 6af5931c-5d4f-4061-81a1-e8947d760abc
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e042d4d52974457eb1853a3705adb87cc24a7dc3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ce292f49f779ddd8ecbf185bcb274a28c7267a44e85590dc1a481b65950a18f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301529"
 ---
 # <a name="lsa-modified-count-attribute"></a>Attribut LSA-modified-Count
 
-L’attribut **LSA-modified-Count** est utilisé pour prendre en charge la réplication vers des domaines Windows NT 4,0.
+L’attribut **LSA-modified-Count** est utilisé pour prendre en charge la réplication vers Windows domaines NT 4,0.
 
 
 
@@ -45,7 +45,7 @@ L’attribut **LSA-modified-Count** est utilisé pour prendre en charge la répl
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,30 +4,30 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Administrateur de compatibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 504378dd4998118e0189a40d978b5649a0bc0215e88ff660d7cdafa6edf7602c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098539"
 ---
 # <a name="compatibility-administrator"></a>Administrateur de compatibilité
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
  **Clients :** Windows 2000, Windows XP, Windows Vista, Windows 7  
-**Serveurs :** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
+**serveurs :** Windows server 2003, Windows server 2008, Windows server 2008 R2  
 
 
 ## <a name="description"></a>Description
 
-L’outil d’administration de la compatibilité, fourni par application Compatibility Toolkit (ACT), vous permet de résoudre un grand nombre de problèmes potentiels de compatibilité des applications, avant de déployer une nouvelle version de Windows dans votre organisation, en procédant comme suit :
+l’outil administrateur de compatibilité, fourni par le Shared Computer Toolkit de compatibilité des applications (ACT), vous permet de résoudre un grand nombre de problèmes potentiels de compatibilité des applications, avant de déployer une nouvelle version de Windows à votre organisation, en procédant comme suit :
 
 -   Fournir des correctifs de compatibilité individuels, des modes de compatibilité et des messages AppHelp que vous pouvez utiliser pour résoudre des problèmes de compatibilité spécifiques
 -   Vous permet de créer des correctifs de compatibilité personnalisés, des modes de compatibilité, des messages AppHelp et des bases de données de compatibilité
 -   Fournir un outil de requête qui vous permet de rechercher les correctifs installés sur vos ordinateurs locaux
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 L’organigramme suivant illustre les étapes nécessaires à l’utilisation de l’administrateur de compatibilité pour créer vos correctifs de compatibilité, modes de compatibilité et messages AppHelp.
 
@@ -43,7 +43,7 @@ L’organigramme suivant illustre les étapes nécessaires à l’utilisation de
 
 ## <a name="links-to-other-resources"></a>Liens vers d’autres ressources
 
--   [Téléchargement de l’outil Application Compatibility Toolkit](/windows-hardware/get-started/adk-install)
+-   [compatibilité des applications Shared Computer Toolkit téléchargement](/windows-hardware/get-started/adk-install)
 -   [Utilisation de l’administrateur de compatibilité](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))
 -   [Correctifs de compatibilité connus, modes de compatibilité et messages AppHelp](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
 -   [Test et atténuation des problèmes à l’aide des outils de développement](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))

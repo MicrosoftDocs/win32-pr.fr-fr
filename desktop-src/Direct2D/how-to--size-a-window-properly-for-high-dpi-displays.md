@@ -4,22 +4,22 @@ description: Décrit les étapes de création d’une fenêtre pour votre applic
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 45d8ebc6a7621623307d9b2cfd953a5fa3f3387fbacb3faeb345375d925044cf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259959"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>Affichage correct sur un affichage haute résolution
 
 Bien que Direct2D traite de nombreux problèmes de haute résolution pour vous, vous devez suivre deux étapes pour vous assurer que votre application fonctionne correctement sur les affichages haute résolution :
 
--   [Étape 1 : utiliser la résolution système en cas de création de fenêtres](#step-1-use-the-system-dpi-when-creating-windows)
+-   [Étape 1 : utiliser la résolution système en cas de création de Windows](#step-1-use-the-system-dpi-when-creating-windows)
 -   [Étape 2 : déclarer que l’application prend en charge DPI](#step-2-declare-that-the-application-is-dpi-aware)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="step-1-use-the-system-dpi-when-creating-windows"></a>Étape 1 : utiliser la résolution système en cas de création de fenêtres
+## <a name="step-1-use-the-system-dpi-when-creating-windows"></a>Étape 1 : utiliser la résolution système en cas de création de Windows
 
 L’interface [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) fournit la méthode [**GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) pour récupérer la résolution du système. Il fournit les dimensions horizontales et verticales de l’affichage en points par pouce (DPI). Pour utiliser ces valeurs pour définir la largeur d’une fenêtre, utilisez la formule suivante :
 
@@ -64,13 +64,13 @@ Le code suivant utilise la méthode [**GetDesktopDpi**](/windows/win32/api/d2d1/
 
 > [!Note]
 >
-> À compter de Windows 8, vous pouvez utiliser la classe [**Windows :: Graphics ::D affichage ::D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties) pour connaître la valeur PPP du système.
+> à partir de Windows 8, vous pouvez utiliser la classe [**Windows :: graphics ::Ds ::D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties) pour récupérer la valeur ppp du système.
 
  
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>Étape 2 : déclarer que l’application est DPI-Aware
 
-Quand une application se déclare être prise en charge DPI, il s’agit d’une instruction spécifiant que l’application se comporte correctement aux paramètres ppp jusqu’à 200 ppp. Dans Windows Vista et Windows 7, lorsque la virtualisation DPI est activée, les applications qui ne prennent pas en charge la résolution sont mises à l’échelle, et les applications reçoivent des données virtualisées à partir des API système, telles que la fonction [**GetSystemMetric**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) . Pour déclarer que votre application prend en charge DPI, procédez comme suit.
+Quand une application se déclare être prise en charge DPI, il s’agit d’une instruction spécifiant que l’application se comporte correctement aux paramètres ppp jusqu’à 200 ppp. dans Windows Vista et Windows 7, lorsque la virtualisation DPI est activée, les applications qui ne prennent pas en charge dpi sont mises à l’échelle, et les applications reçoivent des données virtualisées à partir des api système, telles que la fonction [**GetSystemMetric**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) . Pour déclarer que votre application prend en charge DPI, procédez comme suit.
 
 1.  Créez un fichier appelé DeclareDPIAware. manifest.
 2.  Copiez le code XML suivant dans le fichier et enregistrez-le :

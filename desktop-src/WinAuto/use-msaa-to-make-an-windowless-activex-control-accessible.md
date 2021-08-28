@@ -1,41 +1,41 @@
 ---
-title: Utiliser MSAA pour rendre un contrôle ActiveX sans fenêtre accessible
-description: Décrit comment utiliser le Active Accessibility Microsoft \ 32 ; API permettant de s’assurer que votre contrôle Microsoft ActiveX sans fenêtre est accessible aux applications clientes de la technologie d’assistance (AT).
+title: utiliser MSAA pour rendre un contrôle de ActiveX sans fenêtre accessible
+description: Décrit comment utiliser le Active Accessibility Microsoft \ 32 ; API permettant de s’assurer que le contrôle Microsoft ActiveX sans fenêtre est accessible aux applications clientes de la technologie d’assistance (AT).
 ms.assetid: 30F874F9-EA45-4365-8798-FEA011C62DA9
 keywords:
-- Contrôle ActiveX, accessibilité
+- ActiveX Contrôle, accessibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a3a76aa72fadef502a6a4319284ab34fdd5214d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6bac5c4d2a27e5f069f2242999438eebe85e2ea7df1a6bc94890aec142db246c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098109"
 ---
-# <a name="use-msaa-to-make-a-windowless-activex-control-accessible"></a>Utiliser MSAA pour rendre un contrôle ActiveX sans fenêtre accessible
+# <a name="use-msaa-to-make-a-windowless-activex-control-accessible"></a>utiliser MSAA pour rendre un contrôle de ActiveX sans fenêtre accessible
 
-Décrit comment utiliser l’API Microsoft Active Accessibility pour vous assurer que votre contrôle Microsoft ActiveX sans fenêtre est accessible aux applications clientes de la technologie d’assistance (AT).
+décrit comment utiliser l’API microsoft Active Accessibility pour garantir que le contrôle microsoft ActiveX sans fenêtre est accessible aux applications clientes de la technologie d’assistance (AT).
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles ActiveX](/windows/desktop/com/activex-controls)
+-   [ActiveX Commandes](/windows/desktop/com/activex-controls)
 -   [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
 -   Programmation Microsoft Win32 et COM (Component Object Model)
--   Contrôles ActiveX sans fenêtre
+-   contrôles ActiveX sans fenêtre
 -   Serveurs Microsoft Active Accessibility
 
 ## <a name="instructions"></a>Instructions
 
 ### <a name="step-1-implement-the-iaccessible-interface"></a>Étape 1 : implémenter l’interface IAccessible.
 
-Pour rendre votre contrôle ActiveX sans fenêtre accessible, vous devez implémenter l’interface Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) , comme vous le feriez pour un contrôle basé sur une fenêtre, sauf comme décrit dans les étapes suivantes. Pour plus d’informations sur l’implémentation de **IAccessible**, consultez [Guide du développeur pour les serveurs Active Accessibility](developer-s-guide-for-active-accessibility-servers.md).
+pour rendre votre contrôle de ActiveX sans fenêtre accessible, vous devez implémenter l’interface Microsoft Active Accessibility [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) , comme vous le feriez pour un contrôle basé sur une fenêtre, sauf comme décrit dans les étapes suivantes. Pour plus d’informations sur l’implémentation de **IAccessible**, consultez [Guide du développeur pour les serveurs Active Accessibility](developer-s-guide-for-active-accessibility-servers.md).
 
 ### <a name="step-2-implement-the-iserviceprovider-interface"></a>Étape 2 : implémenter l’interface IServiceProvider.
 
@@ -104,7 +104,7 @@ HRESULT CMyAccessibleMSAAControl::get_accParent(IDispatch **ppdispParent)
 
 ### <a name="step-4-acquire-a-range-of-object-ids-to-assign-to-the-event-sources-in-your-windowless-control"></a>Étape 4 : acquérir une plage d’ID d’objet à assigner aux sources d’événements dans votre contrôle sans fenêtre.
 
-Comme les contrôles basés sur des fenêtres, un contrôle ActiveX sans fenêtre appelle la fonction [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) pour informer les clients des événements importants. Les paramètres de fonction incluent l’ID d’objet de l’élément qui déclenche l’événement. Votre contrôle sans fenêtre doit affecter des ID d’objet à l’aide d’une valeur d’une plage acquise en appelant la méthode [**IAccessibleWindowlessSite :: AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) du site de contrôle.
+comme les contrôles basés sur une fenêtre, un contrôle de ActiveX sans fenêtre appelle la fonction [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) pour informer les clients des événements importants. Les paramètres de fonction incluent l’ID d’objet de l’élément qui déclenche l’événement. Votre contrôle sans fenêtre doit affecter des ID d’objet à l’aide d’une valeur d’une plage acquise en appelant la méthode [**IAccessibleWindowlessSite :: AcquireObjectIdRange**](/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange) du site de contrôle.
 
 Cet exemple montre comment obtenir une plage de valeurs d’ID d’objet à partir du conteneur de contrôle.
 
@@ -137,12 +137,12 @@ Si une application cliente répond à l’événement, le conteneur de contrôle
 
 <dl> <dt>
 
-[Utiliser UI Automation pour rendre un contrôle ActiveX sans fenêtre accessible](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
+[utiliser UI Automation pour rendre un contrôle de ActiveX sans fenêtre Accessible](use-ui-automation-to-make-an-windowless-activex-control-accessible.md)
 </dt> <dt>
 
-[Accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
+[accessibilité des contrôles ActiveX sans fenêtre](windowless-activex-control-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: Attribut Help-Data32
-description: Cet attribut a été utilisé pour le format de fichier d’aide Win32 pour Exchange 4,0. Elle n’est pas utilisée pour les autres versions d’Exchange.
+description: cet attribut a été utilisé pour le format de fichier d’aide Win32 pour Exchange 4,0. Elle n’est pas utilisée pour les autres versions de Exchange.
 ms.assetid: 33e64ff9-7cb4-43a6-8d7b-1c5e925b783c
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32debc8c72c95313b8da6288e0d31f5713a4205a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3a85833273c164538cebbe9a03b83eee2faa8ba7a7d0ae8815f10f19cf6bc1b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119305289"
 ---
 # <a name="help-data32-attribute"></a>Attribut Help-Data32
 
-Cet attribut a été utilisé pour le format de fichier d’aide Win32 pour Exchange 4,0. Elle n’est pas utilisée pour les autres versions d’Exchange.
+cet attribut a été utilisé pour le format de fichier d’aide Win32 pour Exchange 4,0. Elle n’est pas utilisée pour les autres versions de Exchange.
 
 
 
@@ -45,7 +45,7 @@ Cet attribut a été utilisé pour le format de fichier d’aide Win32 pour Exch
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

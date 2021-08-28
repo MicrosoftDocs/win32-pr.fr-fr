@@ -1,10 +1,10 @@
 ---
-title: ms-DS-promotion-attribut de paramètres
+title: attribut de Paramètres de la Promotion ms-DS
 description: Pour un ordinateur, contient une chaîne XML à utiliser pour la promotion DSA déléguée.
 ms.assetid: 5256da96-7713-4bc1-b2e7-a830ad508644
 ms.tgt_platform: multiple
 keywords:
-- Schéma Active Directory ms-DS-promotion-Settings
+- schéma active directory de la Promotion ms-DS-Promotion-attribut Paramètres
 - Schéma Active Directory de l’attribut msDS-PromotionSettings
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10026c2afca6c10785903f0f4e8cb5c52e9183ae
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8c68f4a4114af24009acefcba9df6115d8cff90561d29a3c06b09a9f6f8f9100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322139"
 ---
-# <a name="ms-ds-promotion-settings-attribute"></a>ms-DS-promotion-attribut de paramètres
+# <a name="ms-ds-promotion-settings-attribute"></a>attribut de Paramètres de la Promotion ms-DS
 
 Pour un ordinateur, contient une chaîne XML à utiliser pour la promotion DSA déléguée.
 
@@ -29,7 +29,7 @@ Pour un ordinateur, contient une chaîne XML à utiliser pour la promotion DSA d
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | ms-DS-promotion-paramètres                    |
+| CN                | ms-DS-Promotion-Paramètres                    |
 | LDAP-Display-Name | msDS-PromotionSettings                      |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | \-                                          |
@@ -42,7 +42,7 @@ Pour un ordinateur, contient une chaîne XML à utiliser pour la promotion DSA d
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

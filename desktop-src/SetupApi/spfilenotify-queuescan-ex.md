@@ -4,12 +4,12 @@ ms.assetid: 293e63f9-9567-4ea7-b7e5-e5046c8a704b
 title: Message d’SPFILENOTIFY_QUEUESCAN_EX (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0e18cf1cdb1cd007dcf46793d2d018dedd80037
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95d151a5172918e7a7dcb13e8c480aae82da0a3ec1ffb38d26db29d63143cbc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992589"
 ---
 # <a name="spfilenotify_queuescan_ex-message"></a>\_Message SPFILENOTIFY QUEUESCAN \_ ex
 
@@ -52,8 +52,8 @@ Si la routine de rappel ne retourne aucune \_ erreur, l’analyse de la file d�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Setupapi. h</dt> </dl> |
 
 
@@ -62,7 +62,7 @@ Si la routine de rappel ne retourne aucune \_ erreur, l’analyse de la file d�
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

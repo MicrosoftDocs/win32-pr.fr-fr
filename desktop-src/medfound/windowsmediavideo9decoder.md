@@ -4,12 +4,12 @@ ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Décodeur Media Video 9 (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b251b46c94ef88283577dbd8268c3275d8ed6aab9321c98e115a42501e2729ed
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: df973e78f69e1f1ff0e649b2c4f5637380be9f27
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118237261"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474305"
 ---
 # <a name="windows-media-video-9-decoder"></a>Windows Décodeur Media Video 9
 
@@ -96,86 +96,24 @@ le décodeur Windows Media Video prend en charge les propriétés suivantes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Propriété</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a></td>
-<td>Spécifie si le codec décode les images vidéo entrelacées du flux compressé en tant que trames progressives.<br/> <dl> Windows XP et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé.<br />
-En lecture/écriture.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a></td>
-<td>Spécifie si le décodeur utilise le matériel d’accélération vidéo DirectX, s’il est disponible.<br/> <dl> Windows XP et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé.<br />
-En écriture seule.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a></td>
-<td>Spécifie le niveau de puissance pour le décodeur.<br/> <dl> Windows 7<br />
-Profil simple, profil principal, profil avancé, image.<br />
-En lecture/écriture.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a></td>
-<td>Spécifie si le décodeur doit utiliser l’interpolation de frame.<br/> <dl> Windows XP et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé, image.<br />
-En écriture seule.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a></td>
-<td>Spécifie si le décodeur prend en charge l’interpolation de frame.<br/> <dl> Windows XP et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé, image<br />
-Lecture seule.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a></td>
-<td>Spécifie le nombre de threads que le décodeur utilisera.<br/> <dl> Windows Vista et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé, image.<br />
-En lecture/écriture.<br />
-</dl></td>
-</tr>
-<tr class="odd">
-<td><a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a></td>
-<td>Spécifie le mode de traitement de la publication pour le décodeur.<br/> <dl> Windows Vista et versions ultérieures.<br />
-Profil simple, profil principal, profil avancé, image.<br />
-En écriture seule.<br />
-</dl></td>
-</tr>
-<tr class="even">
-<td><strong>g_wszWMVCNeedsDrain</strong></td>
-<td>Spécifie si le décodeur doit être vidé.<br/> <dl> Windows 8<br />
-Lecture seule.<br />
-</dl> cette propriété est utilisée par le runtime de Format multimédia Windows. Le type de propriété est <strong>VARIANT_BOOL</strong>. Si la valeur est <strong>VARIANT_TRUE</strong>, le décodeur doit être vidé après une discontinuation. Pour plus d’informations sur la vidange d’une table MFT, consultez <a href="basic-mft-processing-model.md">modèle de traitement MFT de base</a>.<br/>
-<blockquote>
-[!Note]<br />
-Pour interroger cette propriété, utilisez l’interface <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> .
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Propriété | Description | 
+|----------|-------------|
+| <a href="mfpkey-decoder-deinterlacingproperty.md">MFPKEY_DECODER_DEINTERLACING</a> | Spécifie si le codec décode les images vidéo entrelacées du flux compressé en tant que trames progressives.<br /><dl> Windows XP et versions ultérieures.<br />Profil simple, profil principal, profil avancé.<br />En lecture/écriture.<br /></dl> | 
+| <a href="mfpkey-dxva-enabledproperty.md">MFPKEY_DXVA_ENABLED</a> | Spécifie si le décodeur utilise le matériel d’accélération vidéo DirectX, s’il est disponible.<br /><dl> Windows XP et versions ultérieures.<br />Profil simple, profil principal, profil avancé.<br />En écriture seule.<br /></dl> | 
+| <a href="mfpkey-avdecvideoswpowerlevelproperty.md">MFPKEY_AVDecVideoSWPowerLevel</a> | Spécifie le niveau de puissance pour le décodeur.<br /><dl> Windows 7<br />Profil simple, profil principal, profil avancé, image.<br />En lecture/écriture.<br /></dl> | 
+| <a href="mfpkey-fi-enabledproperty.md">MFPKEY_FI_ENABLED</a> | Spécifie si le décodeur doit utiliser l’interpolation de frame.<br /><dl> Windows XP et versions ultérieures.<br />Profil simple, profil principal, profil avancé, image.<br />En écriture seule.<br /></dl> | 
+| <a href="mfpkey-fi-supportedproperty.md">MFPKEY_FI_SUPPORTED</a> | Spécifie si le décodeur prend en charge l’interpolation de frame.<br /><dl> Windows XP et versions ultérieures.<br />Profil simple, profil principal, profil avancé, image<br />Lecture seule.<br /></dl> | 
+| <a href="mfpkey-numthreadsdecproperty.md">MFPKEY_NUMTHREADSDEC</a> | Spécifie le nombre de threads que le décodeur utilisera.<br /><dl> Windows Vista et versions ultérieures.<br />Profil simple, profil principal, profil avancé, image.<br />En lecture/écriture.<br /></dl> | 
+| <a href="mfpkey-postprocessmodeproperty.md">MFPKEY_POSTPROCESSMODE</a> | Spécifie le mode de traitement de la publication pour le décodeur.<br /><dl> Windows Vista et versions ultérieures.<br />Profil simple, profil principal, profil avancé, image.<br />En écriture seule.<br /></dl> | 
+| <strong>g_wszWMVCNeedsDrain</strong> | Spécifie si le décodeur doit être vidé.<br /><dl> Windows 8<br />Lecture seule.<br /></dl> cette propriété est utilisée par le runtime de Format multimédia Windows. Le type de propriété est <strong>VARIANT_BOOL</strong>. Si la valeur est <strong>VARIANT_TRUE</strong>, le décodeur doit être vidé après une discontinuation. Pour plus d’informations sur la vidange d’une table MFT, consultez <a href="basic-mft-processing-model.md">modèle de traitement MFT de base</a>.<br /><blockquote>[!Note]<br />Pour interroger cette propriété, utilisez l’interface <a href="/windows/desktop/com/ipropertybag-and-ipersistpropertybag"><strong>IPropertyBag</strong></a> .</blockquote><br /> | 
+
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 la résolution maximale autorisée par le décodeur Windows Media Video 9 est 4096x4096.
 

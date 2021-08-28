@@ -4,17 +4,17 @@ ms.assetid: 7903ecd7-88fb-4277-82ee-a7f71cae0412
 title: Transition de compositeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75488e9dbdea4926c515f52352b42f68a2bfa679
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 763194308ea01a31e132aebccdfca84f06dae56e9c01b47c689b03215cdb2698
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104566262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084292"
 ---
 # <a name="compositor-transition"></a>Transition de compositeur
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -36,14 +36,14 @@ Propriétés
 
 | Propriété   | Type | Default | Description                                                    |
 |------------|------|---------|----------------------------------------------------------------|
-| Hauteur     | long | 0       | Hauteur, en pixels, du rectangle cible.                     |
+| Height     | long | 0       | Hauteur, en pixels, du rectangle cible.                     |
 | OffsetX    | long | 0       | Décalage horizontal du rectangle cible, en pixels.          |
 | OffsetY    | long | 0       | Décalage vertical du rectangle cible, en pixels.            |
 | SrcHeight  | long | 0       | Hauteur du sous-rectangle sur la source, en pixels.       |
 | SrcOffsetX | long | 0       | Coordonnée x du sous-rectangle sur la source, en pixels. |
 | SrcOffsetY | long | 0       | Coordonnée y du sous-rectangle sur la source, en pixels. |
 | SrcWidth   | long | 0       | Largeur du sous-rectangle sur la source, en pixels.        |
-| Largeur      | long | 0       | Largeur du rectangle cible, en pixels.                      |
+| Width      | long | 0       | Largeur du rectangle cible, en pixels.                      |
 
 
 

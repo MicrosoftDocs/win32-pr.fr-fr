@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 63df6bbcc1b811b9617796bc6e7e51af2dfdca56
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e34c5b9fe69129cb60c604cbde1fc6bcb4df8e442b7ea29bc55cec44911505e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096124"
 ---
 # <a name="d3dxuvatlaspartition-function"></a>D3DXUVAtlasPartition fonction)
 
@@ -209,13 +209,13 @@ Pointeur vers le nombre de graphiques créés par l’algorithme Atlas. Si dwMax
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK ; sinon, la valeur est D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 D3DXUVAtlasPartition est similaire à [**D3DXUVAtlasCreate**](d3dxuvatlascreate.md), à ceci près que D3DXUVAtlasPartition n’effectue pas l’étape de compression finale.
 

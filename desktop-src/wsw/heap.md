@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e1651f90b8ad1afca8f85f9dd2e6f10fc7f5c3
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 7a581d4173ed16423ac55e82d3dde356bad1e310047dd44d8f92fded0c6f458e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005929"
 ---
 # <a name="heap"></a>Segment de mémoire (heap)
 
@@ -30,7 +30,7 @@ L’alignement des allocations d’un segment de mémoire sur au moins une limit
 
 Les allocations de zéro octet retournent un pointeur non NULL.
 
-Dans Windows 7, si PageHeap est activé, un segment de mémoire retourné par HeapCreate est utilisé pour gérer la mémoire. Dans ce cas, [**WsAlloc**](/windows/desktop/api/WebServices/nf-webservices-wsalloc) est directement mappé à HeapAlloc et [**WsResetHeap**](/windows/desktop/api/WebServices/nf-webservices-wsresetheap) est mappé à HeapDestroy.
+dans Windows 7, si PageHeap est activé, un segment de mémoire retourné par HeapCreate est utilisé pour gérer la mémoire. Dans ce cas, [**WsAlloc**](/windows/desktop/api/WebServices/nf-webservices-wsalloc) est directement mappé à HeapAlloc et [**WsResetHeap**](/windows/desktop/api/WebServices/nf-webservices-wsresetheap) est mappé à HeapDestroy.
 
 L’énumération suivante est utilisée avec le tas :
 

@@ -4,12 +4,12 @@ ms.assetid: 9e5e8833-cb54-41ca-8101-d518ece7e17f
 title: Fournisseur de services de chiffrement Microsoft DSS et Diffie-Hellman/Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdbe1aff9aa50a11b8855b596d20b93cd572f46f
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 936821ee0bae5656b5ac9760a24096f1f0273c6d1ac1781c133dc197c5444a51
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992809"
 ---
 # <a name="microsoft-dss-and-diffie-hellmanschannel-cryptographic-provider"></a>Fournisseur de services de chiffrement Microsoft DSS et Diffie-Hellman/Schannel
 

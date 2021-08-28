@@ -4,12 +4,12 @@ ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: Encodeur audio MPEG-2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 935b6438c79e9bf78a230f707f8930f859c3fa491dab0326208d5cf79b53f474
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9c75956f55dfa22034b27465082ced0888fbe03b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118240008"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475535"
 ---
 # <a name="mpeg-2-audio-encoder"></a>Encodeur audio MPEG-2
 
@@ -27,69 +27,16 @@ Le type de sortie doit être défini en premier, avant le type d’entrée. Le t
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Doit être <strong>MFAudioFormat_MPEG</strong>. Ce sous-type est utilisé pour MPEG-1 et MPEG-2 audio.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Échantillons par seconde.</td>
-<td>Obligatoire. Les valeurs suivantes sont prises en charge pour MPEG-1 et MPEG-2 :
-<ul>
-<li>32000</li>
-<li>44100</li>
-<li>48 000</li>
-</ul>
-En outre, les valeurs suivantes sont prises en charge pour MPEG-2 LSF : <br/>
-<ul>
-<li>16000</li>
-<li>22050</li>
-<li>24 000</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux.</td>
-<td>Obligatoire. Doit avoir la valeur 1 (mono) ou 2 (stéréo).</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Vitesse de transmission du flux MPEG encodé, en octets par seconde.</td>
-<td>Facultatif.<br/> Les spécifications ISO/IEC 11172-3 et ISO/IEC 13818-3 (LSF) définissent plusieurs vitesses de transmission, en fonction de la fréquence d’échantillonnage, du nombre de canaux et de la couche audio (1 ou 2). <br/> L’encodeur est défini par défaut sur audio de couche 2. Si l’attribut <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> n’est pas défini, l’encodeur utilise les vitesses de transmission par défaut suivantes :<br/>
-<ul>
-<li>Stéréo MPEG-1:224 000 bits par seconde (BPS) = 28 000 octets par seconde.</li>
-<li>MPEG-1 mono : 192 000 BPS = 24 000 octets par seconde.</li>
-<li>MPEG-2 LSF, mono ou stéréo : 160 000 BPS = 20 000 octets par seconde.</li>
-</ul>
-Cet attribut peut être défini sur d’autres valeurs. Si la valeur n’est pas valide conformément aux spécifications MPEG, la table MFT rejette le type de média.<br/> Vous pouvez également définir la vitesse de transmission à l’aide de l’interface <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> . Pour plus d'informations, consultez la section Notes.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Doit être <strong>MFAudioFormat_MPEG</strong>. Ce sous-type est utilisé pour MPEG-1 et MPEG-2 audio. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Échantillons par seconde. | Obligatoire. Les valeurs suivantes sont prises en charge pour MPEG-1 et MPEG-2 :<ul><li>32000</li><li>44100</li><li>48 000</li></ul>En outre, les valeurs suivantes sont prises en charge pour MPEG-2 LSF : <br /><ul><li>16000</li><li>22050</li><li>24 000</li></ul> | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux. | Obligatoire. Doit avoir la valeur 1 (mono) ou 2 (stéréo). | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre). | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Vitesse de transmission du flux MPEG encodé, en octets par seconde. | facultatif.<br /> Les spécifications ISO/IEC 11172-3 et ISO/IEC 13818-3 (LSF) définissent plusieurs vitesses de transmission, en fonction de la fréquence d’échantillonnage, du nombre de canaux et de la couche audio (1 ou 2). <br /> L’encodeur est défini par défaut sur audio de couche 2. Si l’attribut <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> n’est pas défini, l’encodeur utilise les vitesses de transmission par défaut suivantes :<br /><ul><li>Stéréo MPEG-1:224 000 bits par seconde (BPS) = 28 000 octets par seconde.</li><li>MPEG-1 mono : 192 000 BPS = 24 000 octets par seconde.</li><li>MPEG-2 LSF, mono ou stéréo : 160 000 BPS = 20 000 octets par seconde.</li></ul>Cet attribut peut être défini sur d’autres valeurs. Si la valeur n’est pas valide conformément aux spécifications MPEG, la table MFT rejette le type de média.<br /> Vous pouvez également définir la vitesse de transmission à l’aide de l’interface <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi"><strong>ICodecAPI</strong></a> . Pour plus d'informations, consultez la section Notes.<br /> | 
+
 
 
 
@@ -103,71 +50,19 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a></td>
-<td>Type principal.</td>
-<td>Obligatoire. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a></td>
-<td>Sous-type audio.</td>
-<td>Obligatoire. Doit être <strong>MFAudioFormat_PCM</strong> ou <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits par échantillon audio.</td>
-<td>Obligatoire. La valeur doit être 16 si le sous-type est <strong>MFAudioFormat_PCM</strong>, ou 32 si le sous-type est <strong>MFAudioFormat_Float</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a></td>
-<td>Échantillons par seconde.</td>
-<td>Obligatoire. Doit correspondre au type de sortie.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a></td>
-<td>Nombre de canaux.</td>
-<td>Obligatoire. Doit correspondre au type de sortie.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a></td>
-<td>Alignement de bloc, en octets.</td>
-<td>Obligatoire. Calculez la valeur comme suit :
-<ul>
-<li><strong>MFAudioFormat_PCM</strong>: nombre de canaux × 2.</li>
-<li><strong>MFAudioFormat_Float</strong>: nombre de canaux × 4.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
-<td>Vitesse de transmission du flux de données AC3 encodé, en octets par seconde.</td>
-<td>Obligatoire. Doit être égal à alignement de bloc × échantillons par seconde.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
-<td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
-<td>Nombre de bits de données audio valides dans chaque exemple audio.</td>
-<td>Facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | Notes | 
+|-----------|-------------|---------|
+| <a href="mf-mt-major-type-attribute.md">MF_MT_MAJOR_TYPE</a> | Type principal. | Obligatoire. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md">MF_MT_SUBTYPE</a> | Sous-type audio. | Obligatoire. Doit être <strong>MFAudioFormat_PCM</strong> ou <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a> | Nombre de bits par échantillon audio. | Obligatoire. La valeur doit être 16 si le sous-type est <strong>MFAudioFormat_PCM</strong>, ou 32 si le sous-type est <strong>MFAudioFormat_Float</strong>. | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md">MF_MT_AUDIO_SAMPLES_PER_SECOND</a> | Échantillons par seconde. | Obligatoire. Doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-num-channels-attribute.md">MF_MT_AUDIO_NUM_CHANNELS</a> | Nombre de canaux. | Obligatoire. Doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-block-alignment-attribute.md">MF_MT_AUDIO_BLOCK_ALIGNMENT</a> | Alignement de bloc, en octets. | Obligatoire. Calculez la valeur comme suit :<ul><li><strong>MFAudioFormat_PCM</strong>: nombre de canaux × 2.</li><li><strong>MFAudioFormat_Float</strong>: nombre de canaux × 4.</li></ul> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a> | Vitesse de transmission du flux de données AC3 encodé, en octets par seconde. | Obligatoire. Doit être égal à alignement de bloc × échantillons par seconde. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a> | Spécifie l’affectation des canaux audio aux positions des haut-parleurs. | facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie. | 
+| <a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a> | Nombre de bits de données audio valides dans chaque exemple audio. | facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>. | 
+
 
 
 
@@ -209,7 +104,7 @@ La table MFT implémente les méthodes [**ICodecAPI**](/windows/win32/api/strmif
 
 Toutes les autres méthodes [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) retournent **E \_ NOTIMPL**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque trame audio MPEG contient des échantillons audio 384 (couche 1) ou 1152 (couche 2) par canal. Toutefois, chaque mémoire tampon d’entrée de l’encodeur peut contenir un nombre quelconque d’échantillons PCM. La taille de chaque mémoire tampon d’entrée doit être un multiple de l’alignement de bloc. L’encodeur met en cache les exemples d’entrée jusqu’à ce qu’il soit suffisant pour une trame audio MPEG.
 

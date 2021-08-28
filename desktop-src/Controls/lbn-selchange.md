@@ -3,7 +3,7 @@ title: LBN_SELCHANGE le code de notification (winuser. h)
 description: Indique à l’application que la sélection dans une zone de liste a été modifiée suite à une entrée de l’utilisateur. La fenêtre parente de la zone de liste reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: 126d2c47-816e-4179-a870-f5c5a34c5513
 keywords:
-- Contrôles Windows de code de notification LBN_SELCHANGE
+- LBN_SELCHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e029d1753a0fa74f39a59a459d6ede45811a40fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ef87aebcf2ce804a10b4682bfaf2cba900bd227a06671959d11babce5f46774
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085179"
 ---
 # <a name="lbn_selchange-notification-code"></a>\_Code de notification LBN selChange
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification est envoyé uniquement par une zone de liste dont le style de [**\_ notification est lbs**](list-box-styles.md) .
 
@@ -67,8 +67,8 @@ Pour une zone de liste à sélection multiple, le \_ Code de notification LBN se
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

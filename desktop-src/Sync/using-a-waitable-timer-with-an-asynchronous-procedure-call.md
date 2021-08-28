@@ -4,12 +4,12 @@ ms.assetid: aea3c080-caf2-4c16-adc5-51357a0340b8
 title: Utilisation de minuteries Waitables avec un appel de procédure asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 628288b1c5e1ce7c83e104cf6daa9e6fdcc3eb9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62436011a3da0ac17525a0ce977e7bcd25382c5c267b62b9c972381e0f28562d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661149"
 ---
 # <a name="using-waitable-timers-with-an-asynchronous-procedure-call"></a>Utilisation de minuteries Waitables avec un appel de procédure asynchrone
 

@@ -3,7 +3,7 @@ title: Message MCM_SETRANGE (commctrl. h)
 description: Définit les dates minimale et maximale autorisées pour un contrôle Month Calendar. Vous pouvez envoyer ce message de manière explicite ou à l’aide de la \_ macro SetRange calendrier monthcal.
 ms.assetid: dab9ebb0-f397-4e71-b060-ef8d7d89a6bc
 keywords:
-- MCM_SETRANGE les contrôles de message Windows
+- MCM_SETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 380e599da8cd4a054c02135bc64f57f29d2c81d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c66e9cca17aabd93bfba896d361da6b90eab0c5c21fc4d50ec3c81a9eba5ccd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319249"
 ---
 # <a name="mcm_setrange-message"></a>\_Message de SEtrange MCM
 
@@ -64,8 +64,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

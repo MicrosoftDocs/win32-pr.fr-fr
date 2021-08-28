@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 32c39942ab3f97d45ecf71ba841d56b7afd4be62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c2e7bdbbc43195222b4054f71ec05ebe3c8a7e15ac8c634d57fba61e45bf319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084469"
 ---
 # <a name="cmediatypeispartiallyspecified-method"></a>Méthode CMediaType. IsPartiallySpecified
 
@@ -44,9 +44,9 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la **valeur true** si le type de média est partiellement spécifié. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La méthode [**IPIN :: Connect**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) peut accepter des types de média partiels.
+la méthode [**IPin :: Connecter**](/windows/desktop/api/Strmif/nf-strmif-ipin-connect) peut accepter des types de média partiels.
 
 L’implémentation de ne teste pas réellement le sous-type. S’il existe un type de format spécifié, le type de média n’est pas considéré comme partiel, même si le sous-type est un GUID \_ null.
 
@@ -56,7 +56,7 @@ L’implémentation de ne teste pas réellement le sous-type. S’il existe un t
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: e36bba94-1fa7-4514-9f8a-bcd690b04d73
 title: Fonctionnalités prises en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d10fd9ac787483b8dfa6e15046a733992adb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32f0a37664a578bd091ce9972c1979dc7d22f4db33ab2f8eb803bc2c83642f47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080509"
 ---
 # <a name="features-supported"></a>Fonctionnalités prises en charge
 
@@ -23,7 +23,7 @@ La liste suivante contient les fonctionnalités prises en charge par le MSP TAPI
 -   Prend en charge les appels qui utilisent un graphique de filtre par flux.
 -   Implémente la gestion des événements de graphique.
 -   Utilise les API de regroupement de threads, conjointement avec un thread de travail qui lui est propre, pour gérer les événements.
--   Utilise les API de suivi de Windows 2000 (développée à l’origine pour le projet de routage) ainsi que la logique supplémentaire pour fournir un mécanisme de journalisation générique et flexible qui peut simultanément se connecter à n’importe quelle combinaison des éléments suivants : un débogueur en mode utilisateur ou en mode noyau ; fenêtre de console distincte avec des messages de journal séparés par un composant ; un fichier journal.
+-   utilise les api de suivi de Windows 2000 (développée à l’origine pour le projet de routage) avec une logique supplémentaire pour fournir un mécanisme de journalisation générique et flexible qui peut simultanément se connecter à n’importe quelle combinaison des éléments suivants : un débogueur en mode utilisateur ou en mode noyau ; fenêtre de console distincte avec des messages de journal séparés par un composant ; un fichier journal.
 -   Exécute un thread libre.
 
  

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: bd1bca0a00cbe95c4d32b2dfad8afe6c5db8ad63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b37e6d72b87ac31bda7e6c9b0d6f9bf3d35af524eea201e446b50905447404b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119939849"
 ---
 # <a name="iinkanalyzer-interface"></a>Interface IInkAnalyzer
 
@@ -38,14 +38,14 @@ L’interface **IInkAnalyzer** possède ces méthodes.
 
 | Méthode                                                                                                  | Description                                                                                                                                                                                  |
 |:--------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Abandon**](iinkanalyzer-abort.md)                                                                     | Annule l’opération d’analyse en cours.<br/>                                                                                                                                           |
+| [**Arrêté**](iinkanalyzer-abort.md)                                                                     | Annule l’opération d’analyse en cours.<br/>                                                                                                                                           |
 | [**AddStroke**](iinkanalyzer-addstroke.md)                                                             | Ajoute des données de trait pour un seul trait à **IInkAnalyzer** et assigne l’identificateur de culture du thread d’entrée actif au trait.<br/>                                              |
 | [**AddStrokeForLanguage**](iinkanalyzer-addstrokeforlanguage.md)                                       | Ajoute des données de trait pour un seul trait à **IInkAnalyzer** et assigne un identificateur de culture spécifique au trait.<br/>                                                             |
 | [**AddStrokes**](iinkanalyzer-addstrokes.md)                                                           | Ajoute des données de trait pour plusieurs traits à **IInkAnalyzer** et assigne l’identificateur de culture du thread d’entrée actif aux traits.<br/>                                            |
 | [**AddStrokesForLanguage**](iinkanalyzer-addstrokesforlanguage.md)                                     | Ajoute des données de trait pour plusieurs traits à **IInkAnalyzer** et assigne l’identificateur de culture spécifié aux traits.<br/>                                                        |
 | [**AddStrokesToCustomRecognizer**](iinkanalyzer-addstrokestocustomrecognizer.md)                       | Ajoute des données de trait pour plusieurs traits à un nœud de reconnaissance personnalisé.<br/>                                                                                                                |
 | [**AddStrokeToCustomRecognizer**](iinkanalyzer-addstroketocustomrecognizer.md)                         | Ajoute des données de trait pour un seul trait à un nœud de reconnaissance personnalisé.<br/>                                                                                                                 |
-| [**Analyse**](iinkanalyzer-analyze.md)                                                                 | Effectue une analyse de l’encre synchrone.<br/>                                                                                                                                                |
+| [**Analyser**](iinkanalyzer-analyze.md)                                                                 | Effectue une analyse de l’encre synchrone.<br/>                                                                                                                                                |
 | [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md)                                             | Effectue une analyse d’encre asynchrone.<br/>                                                                                                                                               |
 | [**ClearStrokeData**](iinkanalyzer-clearstrokedata.md)                                                 | Efface les données de paquets de trait du **IInkAnalyzer**.<br/>                                                                                                                              |
 | [**CreateAnalysisHint**](iinkanalyzer-createanalysishint.md)                                           | Ajoute un nouveau nœud d’indicateur d’analyse avec une zone infinie à la **IInkAnalyzer**.<br/>                                                                                                      |
@@ -100,7 +100,7 @@ L’interface **IInkAnalyzer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **IInkAnalyzer** utilise les données de paquets de trait pour analyser l’encre et n’interagit pas directement avec la [**classe InkDisp**](inkdisp-class.md) ou les objets de [collection InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) .
 
@@ -166,7 +166,7 @@ Pour plus d’informations sur l’utilisation de **IInkAnalyzer** pour analyser
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

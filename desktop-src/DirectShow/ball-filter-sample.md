@@ -4,12 +4,12 @@ ms.assetid: 80a6db64-ef13-46a2-8f2a-e39095e874b2
 title: Exemple de filtre balle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93b80301b233f0c1e74933c93fe86a0e1878458e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: df215f6f4be5fa1bc94872ac4e5855d4e9c0f19a136708d0c9377b19c5d79dda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084539"
 ---
 # <a name="ball-filter-sample"></a>Exemple de filtre balle
 
@@ -23,15 +23,15 @@ Ce filtre a une seule broche de sortie, qui fournit un flux vidéo qui montre un
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+pour télécharger les exemples du kit de développement logiciel (SDK) DirectShow, installez la dernière version du [SDK Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
-Cet exemple est installé sous le chemin d’accès suivant : \[ exemples *racine SDK* \] \\ \\ \\ filtres DirectShow multimédias \\ \\ balle.
+cet exemple est installé sous le chemin d’accès suivant : \[ exemples *racine du kit de développement logiciel (SDK)* \] \\ exemples de filtres de \\ DirectShow multimédias \\ \\ \\ .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Exemples DirectShow](directshow-samples.md)
+[DirectShow Extraits](directshow-samples.md)
 </dt> </dl>
 
  

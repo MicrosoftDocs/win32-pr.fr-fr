@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Bibliothèques de performances et WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4dedc9b98f492b3ab57e22cd1507f9e3651980a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 877623bcf27dffe71146df4f9c117da83941bd1d8e2ed46436a04c1d7ace95df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996409"
 ---
 # <a name="performance-libraries-and-wmi"></a>Bibliothèques de performances et WMI
 
@@ -22,7 +22,7 @@ Le [fournisseur wmiperfclass](wmiperfclass-provider.md) crée des [classes de co
 
 Les compteurs de la version 1 se trouvent dans le Registre sous **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ services**. Les services qui fournissent des données de performances ont une sous-clé de **performance** . Les classes de performance WMI créées à partir des compteurs de la version 1 n’ont pas de « compteurs » dans leur nom.
 
-Le **GUID** identifiant un fournisseur de compteurs de performance version 2 se trouve dans le Registre sous **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Perflib \\ \_ V2Providers**.
+le **GUID** identifiant un fournisseur de compteurs de performance version 2 se trouve dans le registre sous **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersion \\ Perflib \\ \_ V2Providers**.
 
 WMIPerfClass est inscrit en tant que fournisseur de classe WMI normal. WMIPerfInst est un fournisseur d’instances WMI qui fournit des données de performance Data Helper (PDH) pour les compteurs version 1 et version 2. Pour plus d’informations, consultez [utilisation des fonctions PDH pour consommer des données de compteur](/windows/desktop/PerfCtrs/using-the-pdh-functions-to-consume-counter-data).
 

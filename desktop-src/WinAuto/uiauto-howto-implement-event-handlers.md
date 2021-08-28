@@ -4,12 +4,12 @@ description: Cette rubrique contient un exemple de code qui montre comment impl�
 ms.assetid: 6b6549b8-795b-45a8-8fef-59842cc990e4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 159e95e739ae73f1c37d99ae065032fd680f0720
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09448bd9088b8338e9de14079b2ee446bf43f4e2c41e15ce17114eda958ed210
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098379"
 ---
 # <a name="how-to-implement-event-handlers"></a>Comment implémenter des gestionnaires d’événements
 
@@ -23,7 +23,7 @@ Cette rubrique contient un exemple de code qui montre comment implémenter des i
 
 ## <a name="handling-general-ui-automation-events"></a>Gestion des événements d’Automation d’interface utilisateur généraux
 
-L’exemple de code suivant est une application console Microsoft Windows qui implémente un gestionnaire d’événements UI Automation pour les événements d’Automation d’interface utilisateur généraux. Cet exemple gère les événements de création et de destruction pour les info-bulles et les autres fenêtres.
+l’exemple de code suivant est une application console Microsoft Windows qui implémente un gestionnaire d’événements ui automation pour les événements d’automation d’interface utilisateur généraux. Cet exemple gère les événements de création et de destruction pour les info-bulles et les autres fenêtres.
 
 
 ```C++
@@ -192,7 +192,7 @@ cleanup:
 
 ## <a name="handling-focus-changed-events"></a>Gestion des événements de Focus-Changed
 
-L’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de focus.
+l’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de focus.
 
 
 ```C++
@@ -316,7 +316,7 @@ cleanup:
 
 ## <a name="handling-property-changed-events"></a>Gestion des événements de Property-Changed
 
-L’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de propriété.
+l’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de propriété.
 
 
 ```C++
@@ -471,7 +471,7 @@ cleanup:
 
 ## <a name="handling-structure-changed-events"></a>Gestion des événements de Structure-Changed
 
-L’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de structure.
+l’exemple de code suivant est une application console Windows qui implémente un gestionnaire pour les événements de modification de structure.
 
 
 ```C++
@@ -646,9 +646,9 @@ cleanup:
 [Rubriques de procédures pour les clients UI Automation](uiauto-howto-topics-for-uiautomation-clients.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

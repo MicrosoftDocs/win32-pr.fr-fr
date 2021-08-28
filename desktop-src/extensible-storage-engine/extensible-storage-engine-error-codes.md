@@ -1,6 +1,6 @@
 ---
-description: 'En savoir plus sur : codes d’erreur du moteur de stockage extensible'
-title: Codes d’erreur du moteur de stockage extensible
+description: en savoir plus sur les Codes d’erreur du moteur d’Stockage Extensible
+title: Codes d’erreur du moteur de Stockage Extensible
 TOCTitle: Extensible Storage Engine Error Codes
 ms:assetid: 7534370d-aed6-4980-b1ca-c3d063507e31
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269297(v=EXCHG.10)
@@ -15,21 +15,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9de4bd8157e0b7210315352ba0760293a892f087
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9a30b5e136cdc7e2b570b58e0228bb7fc874a57ec389c3406735e7a481fa898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093699"
 ---
-# <a name="extensible-storage-engine-error-codes"></a>Codes d’erreur du moteur de stockage extensible
+# <a name="extensible-storage-engine-error-codes"></a>Codes d’erreur du moteur de Stockage Extensible
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
-## <a name="extensible-storage-engine-error-codes"></a>Codes d’erreur du moteur de stockage extensible
+## <a name="extensible-storage-engine-error-codes"></a>Codes d’erreur du moteur de Stockage Extensible
 
-Les codes d’erreur (indicateurs) suivants sont utilisés par les fonctions de l’API du moteur de stockage extensible.
+les codes d’erreur (indicateurs) suivants sont utilisés par les fonctions de l’API du moteur d’Stockage Extensible.
 
 Une [JET_ERR](./jet-err.md) valeur de zéro doit être interprétée comme une réussite.
 
@@ -271,7 +271,7 @@ Une valeur [JET_ERR](./jet-err.md) inférieure à zéro doit être interprétée
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Erreurs</p></th>
+<th><p>Errors</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -1189,7 +1189,7 @@ JET_errDatabaseDirtyShutdown</p></td>
 <tr class="odd">
 <td><p>JET_errReadLostFlushVerifyFailure<br />
 -1119</p></td>
-<td><p>La page de base de données lue à partir du disque avait une écriture précédente non représentée sur la page. Disponible sur Windows 8 et versions ultérieures pour le client et Windows Server 2012 et versions ultérieures pour le serveur.</p></td>
+<td><p>La page de base de données lue à partir du disque avait une écriture précédente non représentée sur la page. disponible sur Windows 8 et versions ultérieures pour le client, et Windows Server 2012 et versions ultérieures pour le serveur.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errDatabaseDuplicate<br />
@@ -1239,17 +1239,17 @@ JET_errDatabaseDirtyShutdown</p></td>
 <tr class="odd">
 <td><p>JET_errDatabase200Format<br />
 -1210</p></td>
-<td><p>La base de données est dans un format plus ancien (200). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Client Windows NT uniquement.</p></td>
+<td><p>La base de données est dans un format plus ancien (200). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Windows Client NT uniquement.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errDatabase400Format<br />
 -1211</p></td>
-<td><p>La base de données est dans un format plus ancien (400). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Client Windows NT uniquement.</p></td>
+<td><p>La base de données est dans un format plus ancien (400). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Windows Client NT uniquement.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errDatabase500Format<br />
 -1212</p></td>
-<td><p>La base de données est dans un format plus ancien (500). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Client Windows NT uniquement.</p></td>
+<td><p>La base de données est dans un format plus ancien (500). Cette erreur est retournée par <a href="gg294068(v=exchg.10).md">JetInit</a> si <a href="gg269337(v=exchg.10).md">JET_paramCheckFormatWhenOpenFail</a> est défini. Windows Client NT uniquement.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errPageSizeMismatch<br />
@@ -1676,7 +1676,7 @@ JET_errNullInvalid</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errLanguageNotSupported-1619</p></td>
-<td><p>Cette installation de Windows ne prend pas en charge la langue sélectionnée.</p></td>
+<td><p>cette installation de Windows ne prend pas en charge la langue sélectionnée.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTooManySorts-1701</p></td>
@@ -1826,7 +1826,7 @@ JET_errNullInvalid</p></td>
 </table>
 
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 En général, une valeur supérieure à zéro doit être interprétée comme un avertissement, une valeur de zéro doit être interprétée comme une réussite et une valeur inférieure à zéro doit être interprétée comme une erreur. Aucun autre modèle dans ces valeurs, comme des plages de valeurs, ne doit être basé sur une application.
 
@@ -1840,11 +1840,11 @@ En général, une valeur supérieure à zéro doit être interprétée comme un 
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>
@@ -1857,5 +1857,5 @@ En général, une valeur supérieure à zéro doit être interprétée comme un 
 ### <a name="see-also"></a>Voir aussi
 
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)  
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
-[Fichiers ESE (Extensible Storage Engine)](./extensible-storage-engine-files.md)
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
+[fichiers de moteur d’Stockage Extensible](./extensible-storage-engine-files.md)

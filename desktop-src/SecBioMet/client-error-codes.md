@@ -66,12 +66,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 000723612a2f7f9f5575fc767924d4d6c697468a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bcb8450b85eaa6c49b66a3a86789c126cc04b9a661a7e4c5074784f8cba6bf72
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993839"
 ---
 # <a name="client-error-codes"></a>Codes d’erreur du client
 
@@ -128,7 +128,7 @@ Les codes d’erreur suivants sont définis dans le \_ fichier d’en-tête Err.
 | <span id="WINBIO_E_SENSOR_UNAVAILABLE"></span><span id="winbio_e_sensor_unavailable"></span><dl> <dt>**WINBIO \_ \_Capteur E \_ non disponible**</dt> <dt>0x80098034</dt> </dl>                              | Impossible de créer un pool privé, car une ou plusieurs unités biométriques ne sont pas disponibles.<br/>                |
 | <span id="WINBIO_E_SAS_ENABLED"></span><span id="winbio_e_sas_enabled"></span><dl> <dt>**WINBIO \_ 0x80098035 \_ \_ activée pour SAS**</dt> <dt></dt> </dl>                                                   | Une séquence de vigilance sécurisée (CTRL-ALT-SUPPR) est nécessaire pour l’ouverture de session.<br/>                                   |
 | <span id="WINBIO_E_DEVICE_FAILURE"></span><span id="winbio_e_device_failure"></span><dl> <dt>**WINBIO \_ 0x80098036 \_ d' \_ échec**</dt> de l’appareil <dt></dt> </dl>                                          | Un capteur biométrique a échoué.<br/>                                                                         |
-| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**WINBIO \_ E \_ \_ commutateur d’utilisateur rapide \_ \_ désactivé**</dt> <dt>0x80098037</dt> </dl>       | >le changement rapide d’utilisateur est désactivé.<br/>                                                                   |
+| <span id="WINBIO_E_FAST_USER_SWITCH_DISABLED"></span><span id="winbio_e_fast_user_switch_disabled"></span><dl> <dt>**WINBIO \_ E \_ FAST \_ \_ commutateur utilisateur \_ désactivé**</dt> <dt>0x80098037</dt> </dl>       | >le changement rapide d’utilisateur est désactivé.<br/>                                                                   |
 | <span id="WINBIO_E_NOT_ACTIVE_CONSOLE"></span><span id="winbio_e_not_active_console"></span><dl> <dt>**WINBIO \_ E \_ non \_ active \_**</dt> <dt>0x80098038</dt> de la console </dl>                             | Impossible d’ouvrir le pool de capteurs système à partir de sessions clientes Terminal Server.<br/>                          |
 | <span id="WINBIO_E_EVENT_MONITOR_ACTIVE"></span><span id="winbio_e_event_monitor_active"></span><dl> <dt>**WINBIO \_ 0x80098039 \_ \_ \_ actif du moniteur d’événements E**</dt> <dt></dt> </dl>                      | Un moniteur d’événements actif est déjà associé à la session spécifiée.<br/>                        |
 | <span id="WINBIO_E_INVALID_PROPERTY_TYPE"></span><span id="winbio_e_invalid_property_type"></span><dl> <dt>**WINBIO \_ 0x8009803A \_ de \_ \_ type de propriété non valide**</dt> <dt></dt> </dl>                    | La valeur spécifiée n’est pas un type de propriété valide.<br/>                                                      |
@@ -145,8 +145,8 @@ Les codes d’erreur suivants sont définis dans le \_ fichier d’en-tête Err.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ Err. h</dt> </dl> |
 
 

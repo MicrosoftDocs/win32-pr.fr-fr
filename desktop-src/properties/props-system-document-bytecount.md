@@ -4,12 +4,12 @@ ms.assetid: 9b21ae53-f095-4507-a5fe-947aa2035f40
 title: System.Document. ByteCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf2971b7b58f6b1448623fa406472238d4b8acef
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: be4f851921f30fddd8b36909db23415e7937ec0ea79562926dbee4da4ef79701
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120059279"
 ---
 # <a name="systemdocumentbytecount"></a>System.Document. ByteCount
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
