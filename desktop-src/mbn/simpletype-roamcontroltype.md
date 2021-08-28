@@ -7,12 +7,12 @@ MSHAttr:
 title: Type simple roamControlType
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 911e379773e7d8eabfb7a1524b1a21ba16718a53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19243625c07afae49011638a37734a5515e626d6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514199"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480235"
 ---
 # <a name="span-idwwan_profile_v4simpletype_roamcontroltypespanroamcontroltype-simple-type"></a><span id="WWAN_profile_v4.simpleType_roamControlType"></span>Type simple roamControlType
 
@@ -47,32 +47,13 @@ Notez que [**roamApplicabilityType**](simpletype-roamapplicabilitytype.md) est u
 
 Le type simple **roamControlType** définit les valeurs suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>AllRoamAllowed</td>
-<td><p>L’itinérance est autorisée sur les réseaux partenaires et non-partenaires.</p></td>
-</tr>
-<tr class="even">
-<td>PartnerRoamAllowed</td>
-<td><p>L’itinérance est autorisée uniquement sur les réseaux partenaires.</p></td>
-</tr>
-<tr class="odd">
-<td>NoRoamAllowed</td>
-<td><p>Aucune itinérance n’est autorisée.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Description | 
+|-------|-------------|
+| AllRoamAllowed | <p>L’itinérance est autorisée sur les réseaux partenaires et non-partenaires.</p> | 
+| PartnerRoamAllowed | <p>L’itinérance est autorisée uniquement sur les réseaux partenaires.</p> | 
+| NoRoamAllowed | <p>Aucune itinérance n’est autorisée.</p> | 
+
 
  
 

@@ -1,19 +1,19 @@
 ---
-description: La syntaxe de requête avancée (AQS) est la syntaxe de requête par défaut utilisée par Windows Search pour interroger l’index et affiner et limiter les paramètres de recherche.
+description: la syntaxe de requête avancée (AQS) est la syntaxe de requête par défaut utilisée par Windows recherche pour interroger l’index et affiner et limiter les paramètres de recherche.
 ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: Utilisation de la syntaxe de requête avancée par programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc8fa69a5a5ccaa37b84a10abd367e5a29656455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ebde3119199d84f67315c2db73343d5dffc58ad
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880699"
 ---
 # <a name="using-advanced-query-syntax-programmatically"></a>Utilisation de la syntaxe de requête avancée par programmation
 
-La syntaxe de requête avancée (AQS) est la syntaxe de requête par défaut utilisée par Windows Search pour interroger l’index et affiner et limiter les paramètres de recherche. AQS est utilisé par les développeurs pour créer des requêtes par programme (et par les utilisateurs pour affiner leurs paramètres de recherche). Le AQS canonique a été introduit dans Windows 7 et doit être utilisé dans Windows 7 et versions ultérieures pour générer par programmation des requêtes AQS.
+la syntaxe de requête avancée (AQS) est la syntaxe de requête par défaut utilisée par Windows recherche pour interroger l’index et affiner et limiter les paramètres de recherche. AQS est utilisé par les développeurs pour créer des requêtes par programme (et par les utilisateurs pour affiner leurs paramètres de recherche). le AQS canonique a été introduit dans Windows 7 et doit être utilisé dans Windows 7 et versions ultérieures pour générer par programmation des requêtes AQS.
 
 Cette rubrique est organisée comme suit :
 
@@ -21,7 +21,7 @@ Cette rubrique est organisée comme suit :
     -   [Exemples](#examples)
     -   [Propriétés](#properties)
 -   [Utilisation de mots clés dans les langues locales](#keyword-use-in-local-languages)
--   [Syntaxe de requête avancée canonique dans Windows 7](#canonical-advanced-query-syntax-in-windows-7)
+-   [syntaxe de requête avancée canonique dans Windows 7](#canonical-advanced-query-syntax-in-windows-7)
     -   [Exemples](#examples)
     -   [Opérateurs de requête](#query-operators)
     -   [Valeurs de requête](#query-values)
@@ -50,7 +50,7 @@ Une requête se compose de requêtes de base connectées avec et, ou, et non, co
 
 Si une requête a deux ou plusieurs utilisations de et ou ou, elles sont liées de gauche à droite, qu’il s’agisse de et ou ou. Autrement dit, la requête, « Apple et Poir ou prune », est interprétée comme si elle était écrite comme « (Apple et Poir) ou prune », et la requête, « Apple ou Poir et Plum », sera interprétée comme si elle était écrite comme « (Apple ou Poir) et prune ». Par conséquent, si un document contient le mot Plum, mais ni Apple, ni Poirier, la première requête le retourne, contrairement à la deuxième requête. Par conséquent, nous vous recommandons d’utiliser des parenthèses explicites pour toute requête qui mélange et et ou pour éviter les erreurs ou les interprétations erronées.
 
-Une requête de base recherche les éléments qui répondent à une restriction sur une propriété. La seule partie obligatoire d’une requête de base est la valeur de la restriction ou de la recherche. Si vous ne spécifiez pas de propriété, la recherche Windows recherche toutes les propriétés. <restr> représente la restriction de recherche.
+Une requête de base recherche les éléments qui répondent à une restriction sur une propriété. La seule partie obligatoire d’une requête de base est la valeur de la restriction ou de la recherche. si vous ne spécifiez pas de propriété, Windows recherche effectue une recherche dans toutes les propriétés. &lt;Rest &gt; représente la restriction de recherche.
 
 Les formulaires suivants pour une requête de base sont valides :
 
@@ -90,7 +90,7 @@ Une restriction est une valeur de recherche telle qu’une valeur numérique ou 
 | <restr> OR <restr>
 ```
 
-Si vous ne spécifiez pas d’opérateur, Windows Search choisit l’opérateur le plus approprié pour votre requête :
+si vous ne spécifiez pas d’opérateur, Windows recherche choisit l’opérateur le plus approprié pour votre requête :
 
 -   Pour une propriété de type chaîne, \_ l' \_ opérateur COP Word STARTSWITH $< est supposé.
 -   Pour toutes les autres propriétés, l' \_ opérateur COP EQUAL = est supposé.
@@ -138,36 +138,36 @@ System.Size:>1kb
 
 ### <a name="properties"></a>Propriétés
 
-Les propriétés sont référencées par un mot clé, qui peut être un nom de propriété canonique dans Windows 7 et versions ultérieures. AQS dans l’interface utilisateur de Windows peut utiliser l’étiquette au lieu du nom de propriété canonique, tel que auteur au lieu de [System. Author](../properties/props-system-author.md). Dans Windows Vista et les versions antérieures, il était possible d’utiliser des étiquettes en anglais, quelle que soit la langue de l’interface utilisateur. Dans Windows 7 et versions ultérieures, Windows Search reconnaît uniquement les mots clés dans la langue actuelle de l’interface utilisateur par défaut.
+les propriétés sont référencées par un mot clé, qui peut être un nom de propriété canonique dans Windows 7 et versions ultérieures. AQS dans l’interface utilisateur Windows pouvez utiliser l’étiquette au lieu du nom de propriété canonique, tel que auteur au lieu de [System. author](../properties/props-system-author.md). dans Windows Vista et versions antérieures, il était possible d’utiliser des étiquettes en anglais quelle que soit la langue de l’interface utilisateur. dans Windows 7 et versions ultérieures, Windows recherche reconnaît uniquement les mots clés dans la langue actuelle de l’interface utilisateur par défaut.
 
 ### <a name="support-for-custom-properties"></a>Prise en charge des propriétés personnalisées
 
-Dans Windows Vista et les versions antérieures, les propriétés personnalisées n’étaient pas disponibles dans AQS. Dans Windows 7 et versions ultérieures, AQS fonctionne avec des propriétés personnalisées qui sont inscrites auprès du système de propriétés. Pour plus d’informations sur la création de propriétés personnalisées, consultez [système de propriétés](../properties/building-property-handlers.md).
+dans Windows Vista et versions antérieures, les propriétés personnalisées n’étaient pas disponibles dans AQS. dans Windows 7 et versions ultérieures, AQS fonctionne avec des propriétés personnalisées qui sont inscrites auprès du système de propriétés. Pour plus d’informations sur la création de propriétés personnalisées, consultez [système de propriétés](../properties/building-property-handlers.md).
 
 ### <a name="datetime-properties-in-windows-8"></a>Propriétés DateTime dans Windows 8
 
-À compter de Windows 8, les propriétés DateTime (comme [System. DateModified](../properties/props-system-datemodified.md)) prennent en charge le format de date et d’heure canonique spécifié par [ISO-8601](https://www.w3.org/TR/NOTE-datetime), en incluant éventuellement le fuseau horaire UTC.
+à partir de Windows 8, les propriétés DateTime (comme [System. DateModified](../properties/props-system-datemodified.md)) prennent en charge le format de date et d’heure canonique spécifié par [ISO-8601](https://www.w3.org/TR/NOTE-datetime), en incluant éventuellement le fuseau horaire UTC.
 
--   **Windows 8 et versions antérieures, date-heure sans fuseau horaire UTC :** *yyyy* - *mm* - *jjThh*:*mm*:*SS*
+-   **Windows 8 et versions antérieures, date-heure sans fuseau horaire UTC :** *YYYY* - *MM* - *jjthh*:*MM*:*ss*
 
     Ce format spécifie une heure locale, quels que soient les paramètres régionaux utilisateur ou système.
 
--   **Windows 8, date-heure avec fuseau horaire UTC :** *yyyy* - *mm* - *jjThh*:*mm*:*ssTZD*
+-   **Windows 8, date-heure avec fuseau horaire UTC :** *YYYY* - *MM* - *jjthh*:*MM*:*ssTZD*
 
     Ce format spécifie une heure au fuseau horaire UTC spécifié.
 
 ## <a name="keyword-use-in-local-languages"></a>Utilisation de mots clés dans les langues locales
 
-Dans Windows 7 et versions ultérieures, les mots clés mnémoniques fonctionnent uniquement dans la langue du système, tels que les mots clés allemands uniquement sur un système d’exploitation allemand et les mots clés en anglais uniquement sur un système d’exploitation anglais. [System. Author](../properties/props-system-author.md) est un mot clé canonique et la valeur mnémonique pour la propriété System. Author est Author, par exemple. L’introduction des mots clés canoniques compense le fait que les mots clés mnémoniques anglais ne sont plus reconnus universellement sur tous les systèmes d’exploitation, quelle que soit la langue, comme c’était le cas dans Windows Vista et les versions antérieures.
+dans Windows 7 et versions ultérieures, les mots clés mnémoniques fonctionnent uniquement dans la langue du système, tels que les mots clés allemands uniquement sur un système d’exploitation allemand et les mots clés en anglais uniquement sur un système d’exploitation anglais. [System. Author](../properties/props-system-author.md) est un mot clé canonique et la valeur mnémonique pour la propriété System. Author est Author, par exemple. l’introduction des mots clés canoniques compense le fait que les mots clés mnémoniques anglais ne sont plus reconnus universellement sur tous les systèmes d’exploitation, quelle que soit la langue, comme c’était le cas dans Windows Vista et versions antérieures.
 
 > [!Note]  
-> Dans Windows 7 et versions ultérieures, Windows Search reconnaît les mots clés dans la langue par défaut actuelle uniquement, et non en anglais, sauf si l’anglais est la valeur par défaut actuelle. Nous recommandons que les développeurs utilisent toujours la syntaxe canonique afin que leur application n’ait pas de problèmes de langue avec les mots clés.
+> dans Windows 7 et versions ultérieures, Windows recherche reconnaît les mots clés dans la langue par défaut actuelle uniquement, et non en anglais, sauf si l’anglais est la valeur par défaut actuelle. Nous recommandons que les développeurs utilisent toujours la syntaxe canonique afin que leur application n’ait pas de problèmes de langue avec les mots clés.
 
  
 
-## <a name="canonical-advanced-query-syntax-in-windows-7"></a>Syntaxe de requête avancée canonique dans Windows 7
+## <a name="canonical-advanced-query-syntax-in-windows-7"></a>syntaxe de requête avancée canonique dans Windows 7
 
-La syntaxe canonique a été introduite pour les mots clés dans Windows 7. Un exemple de requête avec une propriété canonique est `System.Message.FromAddress:=me@microsoft.com` . Lors du codage de requêtes dans des applications qui s’exécutent sur Windows 7 et versions ultérieures, vous devez utiliser la syntaxe canonique pour générer par programmation des requêtes AQS. Si vous n’utilisez pas la syntaxe canonique et que votre application est déployée dans une langue locale ou d’interface utilisateur différente de celle du code de l’application, vos requêtes ne seront pas interprétées correctement.
+la syntaxe canonique a été introduite pour les mots clés dans Windows 7. Un exemple de requête avec une propriété canonique est `System.Message.FromAddress:=me@microsoft.com` . lors du codage de requêtes dans des applications qui s’exécutent sur Windows 7 et versions ultérieures, vous devez utiliser la syntaxe canonique pour générer par programmation des requêtes AQS. Si vous n’utilisez pas la syntaxe canonique et que votre application est déployée dans une langue locale ou d’interface utilisateur différente de celle du code de l’application, vos requêtes ne seront pas interprétées correctement.
 
 Les conventions pour la syntaxe de mot clé canonique sont les suivantes :
 
@@ -184,7 +184,7 @@ Les conventions pour la syntaxe de mot clé canonique sont les suivantes :
     -   `System.FileCount:>100`
 
 > [!Note]  
-> Il n’existe aucune syntaxe canonique pour les nombres dans Windows 7 et versions ultérieures. Étant donné que les formats à virgule flottante varient selon les paramètres régionaux, l’utilisation d’une requête canonique qui implique une constante à virgule flottante n’est pas prise en charge. Les constantes entières, en revanche, peuvent être écrites en utilisant uniquement des chiffres (pas de séparateurs pour les milliers) et peuvent être utilisées en toute sécurité dans des requêtes canoniques dans Windows 7 et versions ultérieures.
+> il n’existe aucune syntaxe canonique pour les nombres dans Windows 7 et versions ultérieures. Étant donné que les formats à virgule flottante varient selon les paramètres régionaux, l’utilisation d’une requête canonique qui implique une constante à virgule flottante n’est pas prise en charge. les constantes entières, en revanche, peuvent être écrites en utilisant uniquement des chiffres (pas de séparateurs pour les milliers) et peuvent être utilisées en toute sécurité dans des requêtes canoniques dans Windows 7 et versions ultérieures.
 
  
 
@@ -198,7 +198,7 @@ Le tableau suivant présente quelques exemples de propriétés canoniques et la 
 |----------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valeur de chaîne               | [System.Author](../properties/props-system-author.md)<br/>    | La valeur de chaîne est recherchée dans la propriété auteur : <br/>`System.Author:Jacobs`                                                                                                                                                              |
 | Plage d’énumération          | [System. Priority](../properties/props-system-priority.md)             | La propriété Priority peut avoir une plage de valeurs numériques :<br/>`System.Priority:System.Priority#High`                                                                                                                                                |
-| Boolean                    | [System. IsDeleted](../properties/props-system-isdeleted.md)<br/> | Les valeurs booléennes peuvent être utilisées avec n’importe quelle propriété booléenne :<br/>`System.IsDeleted:System.StructuredQueryType.Boolean#True`, et `System.IsDeleted:System.StructuredQueryType.Boolean#False`                                                             |
+| Booléen                    | [System. IsDeleted](../properties/props-system-isdeleted.md)<br/> | Les valeurs booléennes peuvent être utilisées avec n’importe quelle propriété booléenne :<br/>`System.IsDeleted:System.StructuredQueryType.Boolean#True`, et `System.IsDeleted:System.StructuredQueryType.Boolean#False`                                                             |
 | Numérique                  | [System. Size](../properties/props-system-size.md)<br/>      | Il n’est pas possible d’écrire en toute sécurité une requête canonique qui implique une constante à virgule flottante, car les formats à virgule flottante varient selon les paramètres régionaux. Les entiers doivent être écrits sans séparateurs pour les milliers. Par exemple :<br/>`System.Size:<12345` |
 
 
@@ -209,7 +209,7 @@ Pour plus d’informations sur les propriétés canoniques et le système de pro
 
 ### <a name="query-operators"></a>Opérateurs de requête
 
-Si une propriété, p, a plusieurs valeurs pour un élément, une requête AQS pour p : <restr> retourne l’élément si <restr> a la **valeur true** pour au moins l’une des valeurs. ( <restr> représente une restriction.)
+Si une propriété, p, a plusieurs valeurs pour un élément, une requête AQS pour p : &lt; Rest &gt; retourne l’élément si &lt; REST a la &gt; **valeur true** pour au moins l’une des valeurs. ( &lt; Rest &gt; représente une restriction.)
 
 La syntaxe indiquée dans le tableau ci-dessous se compose d’un opérateur, d’un symbole d’opérateur, d’un exemple et d’une description d’exemple. L’opérateur et le symbole peuvent être utilisés dans n’importe quel langage et inclus dans n’importe quelle requête. N’utilisez pas les \_ opérateurs spécifiques à l’application COP implicite ou COP \_ \_ . Certains des opérateurs ont des symboles interchangeables.
 
@@ -217,10 +217,10 @@ La syntaxe indiquée dans le tableau ci-dessous se compose d’un opérateur, d�
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -234,8 +234,8 @@ La syntaxe indiquée dans le tableau ci-dessous se compose d’un opérateur, d�
 <tr class="odd">
 <td>COP_EQUAL</td>
 <td>=<br/></td>
-<td>System. FileExtension : = &quot; . txt&quot;<br/></td>
-<td>La valeur est le String &quot; <em>. txt</em> &quot; .<br/></td>
+<td>System. FileExtension : = &quot;.txt&quot;<br/></td>
+<td>La valeur est la chaîne &quot; <em>.txt</em> &quot; .<br/></td>
 </tr>
 <tr class="even">
 <td>COP_NOTEQUAL</td>
@@ -305,13 +305,13 @@ La syntaxe indiquée dans le tableau ci-dessous se compose d’un opérateur, d�
 <td>COP_WORD_EQUAL</td>
 <td>$=<br/> $$<br/></td>
 <td>System. StructuredQuery. Virtual. from : $ = &quot; Sanjay Jacobs&quot;<br/></td>
-<td>Pour Windows 7 et versions ultérieures. Recherche l’expression &quot; <em>Sanjay Jacobs</em> &quot; dans toutes les propriétés. Le mot <em>Sanjay</em> doit être suivi du mot <em>Jacobs</em>.<br/></td>
+<td>pour Windows 7 et versions ultérieures. Recherche l’expression &quot; <em>Sanjay Jacobs</em> &quot; dans toutes les propriétés. Le mot <em>Sanjay</em> doit être suivi du mot <em>Jacobs</em>.<br/></td>
 </tr>
 <tr class="odd">
 <td>COP_WORD_STARTSWITH</td>
 <td>$<<br/></td>
 <td>System. Author : $<&quot;San&quot; System.Filename:$<&quot;Micro Exe&quot;<br/></td>
-<td>Pour Windows 7 et versions ultérieures. Recherche un élément où Author contient un mot commençant par les caractères &quot; <em>San</em> &quot; .<br/> Recherche tout fichier dans lequel le nom de fichier contient un mot commençant par <em>micro</em>, suivi d’un mot commençant par <em>exe</em>.<br/></td>
+<td>pour Windows 7 et versions ultérieures. Recherche un élément où Author contient un mot commençant par les caractères &quot; <em>San</em> &quot; .<br/> Recherche tout fichier dans lequel le nom de fichier contient un mot commençant par <em>micro</em>, suivi d’un mot commençant par <em>exe</em>.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -332,9 +332,9 @@ Le tableau suivant répertorie des exemples utiles de restriction des valeurs de
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -355,7 +355,7 @@ Le tableau suivant répertorie des exemples utiles de restriction des valeurs de
 <td>Toute séquence de caractères. La chaîne n’est pas interprétée dans le cadre de la syntaxe.<br/> Les guillemets peuvent être inclus dans une requête s’ils sont doublés. Cet exemple recherche <em>l' &quot; &quot; équipe bleue</em>.<br/></td>
 </tr>
 <tr class="odd">
-<td>Integer</td>
+<td>Entier</td>
 <td>5678<br/></td>
 <td>Utilisez uniquement des chiffres pour les entiers. N’utilisez pas de séparateurs pour les milliers.<br/></td>
 </tr>
@@ -408,7 +408,7 @@ En plus de la recherche de dates et de plages de dates spécifiques, AQS reconna
 
 ## <a name="scope-restrictions"></a>Restrictions d’étendue
 
-Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplacements de dossiers ou des magasins de données spécifiques. Par exemple, si vous utilisez plusieurs comptes de messagerie et que vous souhaitez limiter une requête à Microsoft Outlook ou Microsoft Outlook Express, vous pouvez utiliser `System.Search.Store:mapi` ou `System.Search.Store:oe` respectivement. Le tableau suivant présente quelques exemples de la manière de limiter une recherche par magasin de données.
+Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplacements de dossiers ou des magasins de données spécifiques. par exemple, si vous utilisez plusieurs comptes de messagerie et que vous souhaitez limiter une requête à microsoft Outlook ou microsoft Outlook Express, vous pouvez utiliser `System.Search.Store:mapi` ou `System.Search.Store:oe` respectivement. Le tableau suivant présente quelques exemples de la manière de limiter une recherche par magasin de données.
 
 
 
@@ -426,7 +426,7 @@ Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplace
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
--   Dans Windows 7 et versions ultérieures, une option de menu contextuel peut être disponible selon qu’une condition AQS est remplie ou non. Pour plus d’informations, consultez « obtention du comportement dynamique pour les verbes statiques à l’aide de la syntaxe de requête avancée » dans [création de gestionnaires de menus contextuels](../shell/context-menu-handlers.md).
+-   dans Windows 7 et versions ultérieures, une option de menu contextuel peut être disponible selon qu’une condition AQS est remplie ou non. Pour plus d’informations, consultez « obtention du comportement dynamique pour les verbes statiques à l’aide de la syntaxe de requête avancée » dans [création de gestionnaires de menus contextuels](../shell/context-menu-handlers.md).
 -   Les requêtes AQS peuvent être limitées à des types de fichiers spécifiques, connus sous le nom de types de fichiers. Pour plus d’informations, consultez [types de fichiers et associations](../shell/fa-intro.md). Pour obtenir une documentation de référence sur les propriétés, consultez [System. Kind](../properties/props-system-kind.md)et [System. KindText](../properties/props-system-kindtext.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -436,7 +436,7 @@ Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplace
 [Interrogation de l’index programmatiquement](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
-[Utilisation des approches SQL et AQS pour interroger l’index](-search-3x-wds-qryidx-overview.md)
+[utilisation d’approches SQL et AQS pour interroger l’Index](-search-3x-wds-qryidx-overview.md)
 </dt> <dt>
 
 [Interrogation de l’index avec ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md)
@@ -445,7 +445,7 @@ Les utilisateurs peuvent limiter l’étendue de leurs recherches à des emplace
 [Interrogation de l’index avec le protocole search-ms](-search-3x-wds-qryidx-searchms.md)
 </dt> <dt>
 
-[Interrogation de l’index avec la syntaxe SQL de Windows Search](-search-sql-windowssearch-entry.md)
+[interrogation de l’Index avec Windows syntaxe de SQL de recherche](-search-sql-windowssearch-entry.md)
 </dt> </dl>
 
  

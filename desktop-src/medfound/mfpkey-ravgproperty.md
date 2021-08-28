@@ -4,12 +4,12 @@ ms.assetid: 88a1888f-7bfb-4e24-9d48-92cfde02a14f
 title: MFPKEY_RAVG, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ad15d2445dc2acea1e91f4d01fad6e7bd83edb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90fd5435498a8a0c247d9363f02e2e767b46c5ab17ce36cc5a41feab54ed5277
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113289"
 ---
 # <a name="mfpkey_ravg-property"></a>MFPKEY \_ propriété RAVG
 
@@ -23,7 +23,7 @@ Spécifie la vitesse de transmission moyenne, en bits par seconde, utilisée pou
 
 VT \_
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans les deux cas, cette valeur correspond à la vitesse de transmission moyenne sur toute la durée du contenu.
 
@@ -37,8 +37,8 @@ Cette propriété peut également être lue à la fin d’une session d’encoda
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

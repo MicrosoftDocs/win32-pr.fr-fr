@@ -4,12 +4,12 @@ ms.assetid: a0ede1d9-2e13-4d5e-8ccd-9e0c0217cac7
 title: Message de sondage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f186de4f68faceca096ddaa231b57d1112bc1e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 55358cfb8414fafabba6024fb448fe334d2f7cc6
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122879846"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627885"
 ---
 # <a name="probe-message"></a>Message de sondage
 
@@ -76,21 +76,21 @@ Un message de sondage a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>Sonde</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
     https://schemas.xmlsoap.org/ws/2005/04/discovery/Probe
-&lt;/wsa:Action&gt;</code></pre></td>
+</wsa:Action></code></pre></td>
 <td>L’action SOAP de sondage identifie le message en tant que message de sondage.</td>
 </tr>
 <tr class="even">
 <td>MessageID</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:MessageID&gt;
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
     urn:uuid:29cf10da-5c41-4d55-b184-5ee15e38ce23
-&lt;/wsa:MessageID&gt;</code></pre></td>
+</wsa:MessageID></code></pre></td>
 <td>Contient l’identificateur de message, qui est référencé par l’élément latesto dans un message <a href="probematches-message.md">messages ProbeMatches</a> .</td>
 </tr>
 <tr class="odd">
 <td>Types</td>
-<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:Types&gt;wsdp:Device</wsd:Types></code></pre></td>
+<td><pre class="syntax" data-space="preserve"><code><wsd:Types>wsdp:Device</wsd:Types></code></pre></td>
 <td>Contient les types de WS-Discovery pour lesquels le client recherche. Cet élément ne doit pas être vide.</td>
 </tr>
 </tbody>

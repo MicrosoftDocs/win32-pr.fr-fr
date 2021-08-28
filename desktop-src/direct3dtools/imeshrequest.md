@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 3868226c70378a0d97ef72ad2f2349dc27aea9df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ce01340f7fca06f355a802d9c03d411dff51583c
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515331"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786974"
 ---
 # <a name="span-idvspixengineimeshrequestspanimeshrequest-interface"></a><span id="vspixengine.imeshrequest"></span>Interface IMeshRequest
 
@@ -38,13 +38,13 @@ L’interface **IMeshRequest** hérite de l’interface [**IUnknown**](/windows/
 
 L’interface **IMeshRequest** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/imeshrequest-requestasync-pipelinestages-imeshcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Non utilisé.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/imeshrequest-requestasync-pipelinestages-imeshcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Non utilisé.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

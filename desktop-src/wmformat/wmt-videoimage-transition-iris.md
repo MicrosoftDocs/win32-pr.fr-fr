@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd216c7387f850f317417717c50216dd63449843
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 919af0b15ef8a7437c9852df3ff12623553cdabf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522812"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472965"
 ---
 # <a name="wmt_videoimage_transition_iris"></a>\_VIDEOIMAGE de \_ transition de BASCULement WMT \_
 
@@ -31,51 +31,15 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Centrer X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Coordonnée X, relative à la trame vidéo, du centre de l’effet IRIS.</td>
-</tr>
-<tr class="even">
-<td>Centrer Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Coordonnée Y, relative à la trame vidéo, du centre de l’effet IRIS.</td>
-</tr>
-<tr class="odd">
-<td>Largeur</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Largeur de la ligne verticale qui révèle la nouvelle image, en pixels.</td>
-</tr>
-<tr class="even">
-<td>Hauteur</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Hauteur de la ligne horizontale qui révèle la nouvelle image, en pixels.</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Centrer X | <strong>fEffectPara0</strong> | Coordonnée X, relative à la trame vidéo, du centre de l’effet IRIS. | 
+| Centrer Y | <strong>fEffectPara1</strong> | Coordonnée Y, relative à la trame vidéo, du centre de l’effet IRIS. | 
+| Largeur | <strong>fEffectPara2</strong> | Largeur de la ligne verticale qui révèle la nouvelle image, en pixels. | 
+| Hauteur | <strong>fEffectPara3</strong> | Hauteur de la ligne horizontale qui révèle la nouvelle image, en pixels. | 
+| Composition | <strong>fEffectPara4</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li></ul> | 
+
 
 
 

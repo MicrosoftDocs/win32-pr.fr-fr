@@ -4,18 +4,18 @@ ms.assetid: 928c2d48-daa5-4c27-816b-766adedba7eb
 title: Affichage de la boîte de dialogue d’arrêt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eedfee9e96fa1e6183cbe1d9322a603b65ae4b86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfae7475d1a0d861c06bf83dfcab95e0c939b44f1837a543584642f15ac43bb3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100619"
 ---
 # <a name="displaying-the-shutdown-dialog-box"></a>Affichage de la boîte de dialogue d’arrêt
 
 L’exemple suivant redémarre le système local à l’aide de la fonction [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna) . Le système affiche une boîte de dialogue avec un message personnalisé et un message à l’utilisateur pour fermer les applications au cours de l’intervalle de délai d’attente spécifié (30 secondes). Lorsque l’intervalle de délai d’attente est écoulé, le système est redémarré.
 
-L’application doit activer le privilège de nom d’arrêt du SE \_ avant d' \_ appeler [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna). Pour plus d’informations, consultez [privilèges](../secauthz/privileges.md).
+l’application doit activer le \_ privilège SE SHUTDOWN \_ NAME avant d’appeler [**InitiateSystemShutdown**](/windows/desktop/api/Winreg/nf-winreg-initiatesystemshutdowna). Pour plus d’informations, consultez [privilèges](../secauthz/privileges.md).
 
 
 ```C++

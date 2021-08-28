@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3737dca869c539d1414c4399f35fb8f107697b70
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8740aca290bbe116f867915fd15f4f2683bfe3b2d4c4a2e8cc731516ba8a0a09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109629"
 ---
 # <a name="win32_associatedprocessormemory-class"></a>\_Classe AssociatedProcessorMemory Win32
 
@@ -104,7 +104,7 @@ Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplace
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ AssociatedProcessorMemory** est dérivée de [**CIM \_ AssociatedProcessorMemory**](cim-associatedprocessormemory.md).
 

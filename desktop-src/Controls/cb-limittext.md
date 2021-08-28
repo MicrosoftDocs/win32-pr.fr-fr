@@ -3,7 +3,7 @@ title: Message CB_LIMITTEXT (winuser. h)
 description: Limite la longueur du texte que l’utilisateur peut taper dans le contrôle d’édition d’une zone de liste déroulante.
 ms.assetid: 95b7d07a-594b-4096-afbb-4dab77bdc41d
 keywords:
-- CB_LIMITTEXT les contrôles de message Windows
+- CB_LIMITTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ea9ccd63bb1503e73aebdd584a53bc32bcb8fa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e94cdb1bedfb1c0aa3efb401649524782183ced7728304951596c9383efaa0e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089079"
 ---
 # <a name="cb_limittext-message"></a>\_Message LIMITTEXT CB
 
@@ -47,7 +47,7 @@ Ce paramètre n'est pas utilisé.
 
 La valeur de retour est toujours **true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la zone de liste déroulante n’a pas le style [**CBS \_ AUTOHSCROLL**](combo-box-styles.md) , la définition de la limite du texte sur une valeur supérieure à la taille du contrôle d’édition n’a aucun effet.
 
@@ -61,8 +61,8 @@ La limite par défaut du texte qu’un utilisateur peut entrer dans le contrôle
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

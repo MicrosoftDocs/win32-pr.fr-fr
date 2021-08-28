@@ -3,22 +3,22 @@ title: Fonctions de bouton
 description: Fonctions de bouton
 ms.assetid: 6383a9dc-31cc-409b-83b7-cb41050f18e8
 keywords:
-- Apparences mobiles du lecteur Windows Media, fonctions de bouton
-- Windows Media Player Mobile Skins, PlayPause Buttons
-- Apparences mobiles du lecteur Windows Media, boutons arrêter
-- Windows Media Player Mobile Skins, PlayPauseStop Buttons
-- Apparences mobiles du lecteur Windows Media, boutons suivant
-- Windows Media Player Mobile Skins, boutons précédents
+- Lecteur Windows Media Skins mobiles, fonctions de bouton
+- Lecteur Windows Media Skins mobiles, boutons PlayPause
+- Lecteur Windows Media Skins mobiles, boutons arrêter
+- Lecteur Windows Media Skins mobiles, boutons PlayPauseStop
+- Lecteur Windows Media Skins mobiles, boutons suivant
+- Lecteur Windows Media Skins mobiles, boutons précédents
 - apparences, fonctions de bouton
 - boutons dans les apparences, les fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de2af79cc0766c63203782b66e4b495951cc9d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1039dc80dff0d42ce6c239d656dcc9b319c579c426cd4414c8e27aa4ca0bbb34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123729"
 ---
 # <a name="button-functions"></a>Fonctions de bouton
 
@@ -44,7 +44,7 @@ Les fonctions de bouton suivantes sont disponibles :
 -   VolumeUp\*
 -   VolumeDown\*
 
-\*Disponible pour Windows Media Player 10 mobile ou version ultérieure.
+\*disponible pour Lecteur Windows Media 10 Mobile ou version ultérieure.
 
 Pour plus d’informations sur les fonctions de bouton, consultez la section [Buttons](buttons.md) de la référence d’apparence.
 
@@ -52,12 +52,12 @@ Pour plus d’informations sur les fonctions de bouton, consultez la section [Bu
 
 <dl> <dt>
 
-[**Fonctionnalités mobile du lecteur Windows Media**](windows-media-player-mobile-functionality.md)
+[**Lecteur Windows Media Fonctionnalités mobiles**](windows-media-player-mobile-functionality.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

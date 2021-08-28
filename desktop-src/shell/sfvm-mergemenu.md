@@ -1,5 +1,5 @@
 ---
-description: 'Permet à l’objet de rappel de fusionner les éléments de menu dans les menus de l’Explorateur Windows. Utilisé par IShellFolderViewCB :: MessageSFVCB.'
+description: 'permet à l’objet de rappel de fusionner les éléments de menu dans les menus de l’explorateur de Windows. Utilisé par IShellFolderViewCB :: MessageSFVCB.'
 title: Message SFVM_MERGEMENU (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5cf95a7576c15ab1c3e64ebe55e244feffa6d86d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f6838b3c2ee845794bfa506beada2b7092f1bb918438f820f0e77d6b6543dc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111169"
 ---
 # <a name="sfvm_mergemenu-message"></a>\_Message SFVM MERGEMENU
 
-Permet à l’objet de rappel de fusionner les éléments de menu dans les menus de l’Explorateur Windows. Utilisé par [**IShellFolderViewCB :: MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
+permet à l’objet de rappel de fusionner les éléments de menu dans les menus de l’explorateur de Windows. Utilisé par [**IShellFolderViewCB :: MessageSFVCB**](/windows/win32/api/shlobj_core/nf-shlobj_core-ishellfolderviewcb-messagesfvcb).
 
 
 ```C++
@@ -46,11 +46,11 @@ Structure [**QCMINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core-qcminfo)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ce message remplit essentiellement les mêmes fonctions que [**IShellBrowser :: InsertMenusSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb) et [**IShellBrowser :: SetMenuSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb) dans un affichage de dossier personnalisé. Pour plus d’informations, consultez la section *utilisation de IShellBrowser pour communiquer avec l’Explorateur Windows* de l’article [implémentation d’un affichage des dossiers](../lwef/nse-folderview.md) .
+Ce message remplit essentiellement les mêmes fonctions que [**IShellBrowser :: InsertMenusSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-insertmenussb) et [**IShellBrowser :: SetMenuSB**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellbrowser-setmenusb) dans un affichage de dossier personnalisé. pour plus d’informations, consultez la section *utilisation de IShellBrowser pour communiquer avec Windows Explorer* dans [implémentation d’un affichage des dossiers](../lwef/nse-folderview.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

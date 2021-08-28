@@ -4,12 +4,12 @@ ms.assetid: c49919a2-2a03-475d-9cfa-20a960184202
 title: Événement WPCEVENT_EMAIL_SENT (Wpcevent. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd222e946f0b7c78116ace9d8d01de2e2709a7ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe3d5fb08764aa83677fcca66af7f1e3b868f2b1bdf393741865bf64fd23049
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112729"
 ---
 # <a name="wpcevent_email_sent-event"></a>\_Événement WPCEVENT E-mail \_ envoyé
 
@@ -109,7 +109,7 @@ Nom du compte de messagerie de cet utilisateur.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | En-tête<br/>                   | <dl> <dt>Wpcevent. h</dt> </dl> |
 

@@ -3,7 +3,7 @@ title: EQUALIZERSETTINGS.wowLevel
 description: L’attribut wowLevel spécifie ou récupère le niveau de l’effet SRS WOW.
 ms.assetid: 8f99d7e1-39b9-42be-ab6d-8435ba7022fa
 keywords:
-- Lecteur Windows Media EQUALIZERSETTINGS. wowLevel
+- EQUALIZERSETTINGS. wowLevel Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d3994e8242ef6194ee0dbf3e395aa055727b81
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ceef9ed737018951478baac1c62571e6cf9b2ff8eb6cf8d1bedc78f068aef60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123639"
 ---
 # <a name="equalizersettingswowlevel"></a>EQUALIZERSETTINGS.wowLevel
 
@@ -31,7 +31,7 @@ L’attribut **wowLevel** spécifie ou récupère le niveau de l’effet SRS WOW
 
 Cet attribut est un **nombre** en lecture/écriture (**long**) compris entre 0 et 100 avec une valeur par défaut de 50.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’effet SRS WOW est un effet d’amélioration audio. Cet attribut est ignoré si **enhancedAudio** est défini sur false.
 

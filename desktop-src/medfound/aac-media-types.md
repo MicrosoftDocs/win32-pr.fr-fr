@@ -4,12 +4,12 @@ ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: Types de média AAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab95423b26a0e2a327b599011e88a05ab2ab58c5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ae70661478ad0d2267c951c80fc4a63d98c15267
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953345"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122479885"
 ---
 # <a name="aac-media-types"></a>Types de média AAC
 
@@ -52,64 +52,20 @@ Les attributs de type de média suivants s’appliquent à l’audio AAC.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a></td>
-<td>Type principal. Doit être <strong>MFMediaType_Audio</strong>.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a></td>
-<td>Sous-type audio. Pour plus d’informations, reportez-vous à la description précédente.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a></td>
-<td>Profil et niveau audio. <br/> La valeur de cet attribut est le champ <strong>audioProfileLevelIndication</strong> , tel que défini par la norme ISO/IEC 14496-3.<br/> S’il est inconnu, défini à zéro ou à 0xFE ( &quot; aucun profil audio n’est spécifié &quot; ).<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a></td>
-<td>Vitesse de transmission du flux AAC encodé, en octets par seconde.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a></td>
-<td>Type de charge utile.<br/> S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>.<br/> <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments raw_data_block.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a></td>
-<td>Profondeur de bit du fichier audio PCM décodé.</td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a></td>
-<td>Attribution de canaux audio aux positions des orateurs.</td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a></td>
-<td>Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.<br/> L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a></td>
-<td>Taux d’échantillonnage, en échantillons par seconde.<br/> L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a></td>
-<td>La valeur de cet attribut dépend du sous-type :<br/>
-<ul>
-<li><strong>MFAudioFormat_AAC</strong>: contient la partie de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> qui apparaît après la structure <strong>WAVEFORMATEX</strong> (autrement dit, après le membre <strong>wfx</strong> ). Cela est suivi des données AudioSpecificConfig (), telles que définies par la norme ISO/IEC 14496-3.</li>
-<li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: contient les données AudioSpecificConfig ().</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="mf-mt-major-type-attribute.md"><strong>MF_MT_MAJOR_TYPE</strong></a> | Type principal. Doit être <strong>MFMediaType_Audio</strong>. | 
+| <a href="mf-mt-subtype-attribute.md"><strong>MF_MT_SUBTYPE</strong></a> | Sous-type audio. Pour plus d’informations, reportez-vous à la description précédente. | 
+| <a href="mf-mt-aac-audio-profile-level-indication.md">MF_MT_AAC_AUDIO_PROFILE_LEVEL_INDICATION</a> | Profil et niveau audio. <br /> La valeur de cet attribut est le champ <strong>audioProfileLevelIndication</strong> , tel que défini par la norme ISO/IEC 14496-3.<br /> S’il est inconnu, défini à zéro ou à 0xFE (« aucun profil audio n’est spécifié »).<br /> | 
+| <a href="mf-mt-audio-avg-bytes-per-second-attribute.md"><strong>MF_MT_AUDIO_AVG_BYTES_PER_SECOND</strong></a> | Vitesse de transmission du flux AAC encodé, en octets par seconde. | 
+| <a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> | Type de charge utile.<br /> S’applique uniquement aux <strong>MFAudioFormat_AAC</strong>.<br /><a href="mf-mt-aac-payload-type.md">MF_MT_AAC_PAYLOAD_TYPE</a> est facultatif. Si cet attribut n’est pas spécifié, la valeur par défaut 0 est utilisée, qui spécifie que le flux contient uniquement des éléments raw_data_block.<br /> | 
+| <a href="mf-mt-audio-bits-per-sample-attribute.md"><strong>MF_MT_AUDIO_BITS_PER_SAMPLE</strong></a> | Profondeur de bit du fichier audio PCM décodé. | 
+| <a href="mf-mt-audio-channel-mask-attribute.md"><strong>MF_MT_AUDIO_CHANNEL_MASK</strong></a> | Attribution de canaux audio aux positions des orateurs. | 
+| <a href="mf-mt-audio-num-channels-attribute.md"><strong>MF_MT_AUDIO_NUM_CHANNELS</strong></a> | Nombre de canaux, y compris le canal à fréquence faible (LFE), le cas échéant.<br /> L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
+| <a href="mf-mt-audio-samples-per-second-attribute.md"><strong>MF_MT_AUDIO_SAMPLES_PER_SECOND</strong></a> | Taux d’échantillonnage, en échantillons par seconde.<br /> L’interprétation de cette valeur dépend du sous-type de média, comme décrit précédemment.<br /> | 
+| <a href="mf-mt-user-data-attribute.md"><strong>MF_MT_USER_DATA</strong></a> | La valeur de cet attribut dépend du sous-type :<br /><ul><li><strong>MFAudioFormat_AAC</strong>: contient la partie de la structure <a href="/windows/desktop/api/mmreg/ns-mmreg-heaacwaveinfo"><strong>HEAACWAVEINFO</strong></a> qui apparaît après la structure <strong>WAVEFORMATEX</strong> (autrement dit, après le membre <strong>wfx</strong> ). Cela est suivi des données AudioSpecificConfig (), telles que définies par la norme ISO/IEC 14496-3.</li><li><strong>MEDIASUBTYPE_RAW_AAC1</strong>: contient les données AudioSpecificConfig ().</li></ul> | 
+
 
 
 

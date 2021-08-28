@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 81158306285631748830d8aaaaf9cf329d7c0af1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b780d68d419fa29d5ee13995f1b66a412fc89323
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466259"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627965"
 ---
 # <a name="channeltype-complex-type"></a>Type complexe ChannelType
 
@@ -95,9 +95,9 @@ Définit un canal auquel les fournisseurs peuvent enregistrer des événements.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -134,7 +134,7 @@ Définit un canal auquel les fournisseurs peuvent enregistrer des événements.
 L’isolation par défaut est <strong>application</strong>. Les autorisations par défaut pour l' <strong>application</strong> sont (illustrées à l’aide de SDDL) : <br/> <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -161,7 +161,7 @@ L’isolation par défaut est <strong>application</strong>. Les autorisations pa
 <span data-codelanguage="Text"></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -231,9 +231,9 @@ L’isolation par défaut est <strong>application</strong>. Les autorisations pa
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si le nom du canal suit la Convention d’affectation de noms de canaux, le observateur d’événements Windows répertorie le canal à l’aide de la chaîne qui suit la barre oblique inverse. Par exemple, si le nom de canal est société-produit-composant/opérationnel, le observateur d’événements répertorie le canal comme opérationnel sous le fournisseur de composants de produit de la société. Dans le cas contraire, le nom de canal entier est affiché sous le fournisseur. Le nom complet localisé est utilisé, s’il est fourni.
+si le nom du canal suit la convention d’affectation de noms de canaux, le Windows observateur d’événements répertorie le canal à l’aide de la chaîne qui suit la barre oblique inverse. Par exemple, si le nom de canal est société-produit-composant/opérationnel, le observateur d’événements répertorie le canal comme opérationnel sous le fournisseur de composants de produit de la société. Dans le cas contraire, le nom de canal entier est affiché sous le fournisseur. Le nom complet localisé est utilisé, s’il est fourni.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -241,8 +241,8 @@ Si le nom du canal suit la Convention d’affectation de noms de canaux, le obse
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

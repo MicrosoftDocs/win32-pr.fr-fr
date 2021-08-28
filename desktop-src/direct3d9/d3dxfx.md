@@ -4,12 +4,12 @@ ms.assetid: df24a132-665e-4eb7-992b-d7a6144257f5
 title: D3DXFX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad9077c8c7e3da479dd8963484bc289b84093ac0
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6858f659b1561a526a284b3ea2dca0e1d9a11a31
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995076"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624085"
 ---
 # <a name="d3dxfx"></a>D3DXFX
 
@@ -21,8 +21,8 @@ Les constantes dans le tableau suivant sont définies dans d3dx9effect. h.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -54,7 +54,7 @@ Les constantes dans le tableau suivant sont définies dans d3dx9effect. h.
 <td>Active l’allocation d’une ressource Effect dans l’espace d’adressage uppder d’un ordinateur. Une limitation importante est que vous ne pouvez pas utiliser des chaînes et les gère de façon interchangeable. Par exemple, le code suivant ne fonctionnera plus. <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

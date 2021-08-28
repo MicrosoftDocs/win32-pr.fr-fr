@@ -4,12 +4,12 @@ ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: numberFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6750a9fb4dcf6a7a56c350fccf80241644b956da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6601e6647d8fa1ac8b8cb262d47192810583c93f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540845"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622685"
 ---
 # <a name="numberformat"></a>numberFormat
 
@@ -17,7 +17,7 @@ Spécifie comment [**IPropertyDescription :: FormatForDisplay**](/windows/win32
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [NumberFormat]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -61,7 +61,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
 
 
 
@@ -73,8 +73,8 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

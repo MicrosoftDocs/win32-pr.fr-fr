@@ -5,12 +5,12 @@ ms.assetid: 3e60e95a-3580-48aa-a9f9-8fd899aa7fca
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f3c53f2370f4123352489ac747546e3335c558
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 743eff150edf5e9d213759ccef8c786bab98754b8e4dc2b968929ba3ad2d6709
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120099589"
 ---
 # <a name="application-setup"></a>Configuration des applications
 
@@ -24,6 +24,6 @@ Pour éviter ces problèmes, les procédures de configuration doivent suivre les
 -   Installer des applications dans l’environnement utilisateur par défaut commun à tous les utilisateurs. Avant d’installer l’application, exécutez la commande **change user/install** console et, une fois l’installation terminée, exécutez la commande **change user/execute** console. Utilisez un script de compatibilité Services Bureau à distance pour l’installation.
 -   Prendre en charge la personnalisation propre à l’utilisateur via l’utilisation de profils utilisateur. Pour ce faire, créez un [format de fichier de modèle d’administration](/previous-versions/windows/desktop/Policy/administrative-template-file-format) afin qu’un administrateur puisse configurer le registre pour indiquer les fonctionnalités disponibles pour chaque utilisateur. Ensuite, au moment de l’exécution, l’application peut activer ou désactiver les fonctionnalités en fonction des paramètres des paramètres du registre de l’utilisateur actuel. L’application peut stocker la configuration par utilisateur dans la ruche de Registre **HKEY CURRENT USER** et laisser chaque utilisateur configurer l’application en fonction de ses préférences.
 
- 
+ 
 
- 
+ 

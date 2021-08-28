@@ -4,12 +4,12 @@ description: cet article explique comment les développeurs de jeux peuvent cré
 ms.assetid: 1b7cc3c9-b180-14b1-53c8-57f9e545d009
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 939d22b1d8bf381e98c5b6a7222be29b565c3d9e1f0758788aff94b0915b1807
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 8db15302eb856aaeb05c68fae4746110dd42cb4a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119340739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887391"
 ---
 # <a name="gaming-with-least-privileged-user-accounts"></a>Jeux avec Least-Privileged comptes d’utilisateur
 
@@ -38,12 +38,12 @@ Le tableau suivant répertorie l’emplacement par défaut de ces dossiers et le
 
 
 
-| Chemin                                               | Contenu du dossier              | Lire | Write | Créer/Supprimer |
+| Chemin d’accès                                               | Contenu du dossier              | Lire | Write | Créer/Supprimer |
 |----------------------------------------------------|------------------------------|------|-------|---------------|
-| <Drive>: \\ Windows                            | le système d’exploitation Windows | X    |       |               |
-| <Drive>: \\ Program Files                      | Fichiers d’application exécutables | X    |       |               |
-| <Drive>: \\ Documents et Paramètres \\ nom d’utilisateur\* | Fichiers de chaque utilisateur            | X    | X     | X             |
-| <Drive>: \\ Documents et Paramètres \\ tous les utilisateurs  | Tous les fichiers utilisateur               | X    | X     | X             |
+| &lt;lecteur &gt; : \\ Windows                            | le système d’exploitation Windows | X    |       |               |
+| &lt;Lecteur &gt; : \\ Program Files                      | Fichiers d’application exécutables | X    |       |               |
+| &lt;lecteur &gt; : \\ Documents et Paramètres \\ nom d’utilisateur\* | Fichiers de chaque utilisateur            | X    | X     | X             |
+| &lt;lecteur &gt; : \\ Documents et Paramètres \\ tous les utilisateurs  | Tous les fichiers utilisateur               | X    | X     | X             |
 
 
 

@@ -3,7 +3,7 @@ title: Événement MediaCollectionAttributeStringAdded de l’objet AxWindowsMed
 description: L’événement MediaCollectionAttributeStringAdded se produit lorsqu’une valeur d’attribut est ajoutée à la bibliothèque. | Événement MediaCollectionAttributeStringAdded de l’objet AxWindowsMediaPlayer
 ms.assetid: b14db0ce-bd78-4e28-a42c-1a231c29da2b
 keywords:
-- Événement MediaCollectionAttributeStringAdded de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement MediaCollectionAttributeStringAdded de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6712b6caa8f014ec75bf2b031e2d3f6db429dbd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95d0612e18256f81529a8ad703ecf887ba5976ea9913e46598bc5a0fd44a903e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123939"
 ---
 # <a name="mediacollectionattributestringadded-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaCollectionAttributeStringAdded de l’objet AxWindowsMediaPlayer
 
@@ -47,14 +47,14 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 | Propriété           | Description                                                                                                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **bstrAttribName** | System. StringSpecifies nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
+| **bstrAttribName** | System. StringSpecifies nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
 | bstrAttribVal      | System. StringSpecifies valeur de l’attribut.<br/>                                                                                                                                |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un élément multimédia est ajouté à la bibliothèque, ses métadonnées sont ajoutées à la collection de supports et cet événement est déclenché pour chaque attribut ajouté.
 
@@ -74,7 +74,7 @@ Lorsqu’un élément multimédia est ajouté à la bibliothèque, ses métadonn
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. mediaCollection (VB et C#)**](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)

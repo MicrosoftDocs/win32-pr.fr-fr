@@ -21,12 +21,12 @@ keywords:
 - types de contrôle, info-bulle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31a20e6d4b61851e57bd2609d58075477b8e62999f5e10e34f02d86e010797a2
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a627114afcdeeb9b6e156572476462fa7ecde75a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119899289"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472855"
 ---
 # <a name="tooltip-control-type"></a>ToolTip (type de contrôle)
 
@@ -48,32 +48,11 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Info-bulle
-<ul>
-<li>Text (0 ou plus)</li>
-<li>Image (0 ou plus)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Info-bulle</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Info-bulle<ul><li>Text (0 ou plus)</li><li>Image (0 ou plus)</li></ul></li></ul> | <ul><li>Info-bulle</li></ul> | 
+
 
 
 

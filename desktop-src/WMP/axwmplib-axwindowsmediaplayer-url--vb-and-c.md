@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. URL (propriété)
 description: La propriété URL obtient ou définit le nom de l’élément multimédia à lire.
 ms.assetid: 521a3b39-efd6-45a7-895b-a9ae69e0bf39
 keywords:
-- Propriété URL du lecteur Windows Media
-- Propriété URL lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété URL
+- Lecteur Windows Media de propriété URL
+- Lecteur Windows Media de propriété URL, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété URL
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ed9e601aa581e988bac1a233f06c4f5c552353
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d953f2d85fc1fd83edcd37a491cb2f7cbabc3e3dfaf61e48feb1cd30e6d01934
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123879"
 ---
 # <a name="axwindowsmediaplayerurl-property"></a>AxWindowsMediaPlayer. URL (propriété)
 
@@ -48,7 +48,7 @@ Public Property URL As System.String
 
 System. String qui est l’URL de l’élément multimédia.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété peut uniquement être définie sur une URL dans une zone de sécurité identique ou moins restrictive que la zone de sécurité du programme ou de la page Web appelante.
 
@@ -106,7 +106,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

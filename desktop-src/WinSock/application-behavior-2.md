@@ -4,16 +4,16 @@ ms.assetid: e6f48446-948c-458c-8ecf-04ffb249c8a4
 title: Comportement de l’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a9b871a2c0535d9ef4220824651657332a224a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abb09441eda4f0d909652ac38a9ca0596a1b4bce456f58c0e1eae1a7af7dc53b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121459"
 ---
 # <a name="application-behavior"></a>Comportement de l’application
 
-Un autre aspect du développement d’applications à prendre en compte est la différence de comportement entre les opérations locales, intracomputer et le comportement lorsque des opérations se produisent entre deux ordinateurs en réseau. Il existe des comportements d’application qui peuvent fonctionner correctement bien sur un ordinateur local, mais lorsqu’ils sont exécutés sur un réseau, entraînent une dégradation significative des performances et la consommation des ressources. Les comportements d’application suivants doivent être évités lors du développement d’applications Windows Sockets.
+Un autre aspect du développement d’applications à prendre en compte est la différence de comportement entre les opérations locales, intracomputer et le comportement lorsque des opérations se produisent entre deux ordinateurs en réseau. Il existe des comportements d’application qui peuvent fonctionner correctement bien sur un ordinateur local, mais lorsqu’ils sont exécutés sur un réseau, entraînent une dégradation significative des performances et la consommation des ressources. les comportements d’application suivants doivent être évités lors du développement d’applications Windows sockets.
 
 ## <a name="behaviors-to-avoid"></a>Comportements à éviter
 
@@ -44,7 +44,7 @@ Les sections suivantes traitent des aspects du développement d’applications �
 
 <dl> <dt>
 
-[Applications Windows Sockets hautes performances](high-performance-windows-sockets-applications-2.md)
+[Applications de sockets Windows hautes performances](high-performance-windows-sockets-applications-2.md)
 </dt> </dl>
 
  

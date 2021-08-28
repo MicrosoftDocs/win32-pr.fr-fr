@@ -4,12 +4,12 @@ ms.assetid: 91450559-ae47-457a-a709-b4e4e78bde22
 title: Exemple de récepteurs d’événements C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e950254293b676088d8b281624c089b098e5dca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b24cb718eb0d16830c285691ac5cfedf66d572f447870dc0219beb14c04548a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120111129"
 ---
 # <a name="c-event-sinks-sample"></a>Exemple de récepteurs d’événements C++
 
@@ -20,7 +20,7 @@ Ce programme montre comment vous pouvez générer une application qui capture le
 La `InkCollectorEvents` classe gère le passage des événements du collecteur d’encre du collecteur d’encre à l’utilisateur de cette classe. La `AdviseInkCollector` méthode Configure la connexion entre l’objet [**InkCollector**](inkcollector-class.md) et cette classe. La `Invoke` méthode convertit la notification d’événement [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) en un appel à une fonction virtuelle que l’utilisateur de cette classe peut substituer pour traiter un événement particulier.
 
 > [!Note]  
-> Vous devez faire plus que remplacer la fonction virtuelle d’un gestionnaire d’événements pour obtenir cet événement. Pour tous les événements sauf les événements par défaut, vous devez appeler la méthode [**SetEventInterest**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest) du collecteur d’encre pour garantir l’obtention d’un événement. Deuxièmement, cet objet marshale lui-même le thread libre, de sorte que tous les gestionnaires d’événements implémentés doivent également être libres de thread. Il est particulièrement important d’utiliser des API Windows, ce qui peut entraîner un basculement vers un autre thread, car le gestionnaire d’événements n’est pas garanti s’exécuter sur le même thread que la fenêtre connectée au collecteur d’encre.
+> Vous devez faire plus que remplacer la fonction virtuelle d’un gestionnaire d’événements pour obtenir cet événement. Pour tous les événements sauf les événements par défaut, vous devez appeler la méthode [**SetEventInterest**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-seteventinterest) du collecteur d’encre pour garantir l’obtention d’un événement. Deuxièmement, cet objet marshale lui-même le thread libre, de sorte que tous les gestionnaires d’événements implémentés doivent également être libres de thread. il est particulièrement important d’utiliser des api Windows, ce qui peut entraîner un basculement vers un autre thread, car le gestionnaire d’événements n’est pas garanti s’exécuter sur le même thread que la fenêtre connectée au collecteur d’encre.
 
  
 
@@ -210,7 +210,7 @@ HWND hWnd)
 
 ## <a name="accessing-the-tablet-pc-interfaces-and-the-wrapper-classes"></a>Accès aux interfaces Tablet PC et aux classes wrapper
 
-Tout d’abord, incluez les en-têtes pour les interfaces d’automatisation Tablet PC. Celles-ci sont installées avec le <entity type="reg"/> Kit de développement Microsoft Windows <entity type="reg"/> XP Tablet PC Edition 1,7.
+Tout d’abord, incluez les en-têtes pour les interfaces d’automatisation Tablet PC. celles-ci sont installées avec le <entity type="reg"/> Kit de développement Microsoft Windows <entity type="reg"/> XP Tablet PC Edition 1,7.
 
 
 ```C++

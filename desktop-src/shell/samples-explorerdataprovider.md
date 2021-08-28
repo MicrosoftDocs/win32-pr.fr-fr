@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 31e1d42e4660e0e73830876cfdeb0a5c8a5957cd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: b30a1c6cb31038d69c9feb85f0382fd5f4bb89bf
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122471885"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122786705"
 ---
 # <a name="explorer-data-provider-sample"></a>Fournisseur de données de l’Explorateur, exemple
 
@@ -62,7 +62,7 @@ pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut)�
 > [!Note]  
 > dans la version de cet exemple incluse dans le SDK Windows, la configuration de la version 64 bits n’inclut pas le fichier ExplorerDataProvider. def dans l’option de **fichier de définition de Module** de l’éditeur de liens. Vous devez spécifier ce fichier vous-même avant de générer dans un environnement 64 bits. Ajoutez la ligne `ModuleDefinitionFile="ExplorerDataProvider.def"` à la section VCLinkerTool (commence à la ligne 329) du fichier ExplorerDataProvider. vcproj comme indiqué ici :
 >
-> <span codelanguage=""></span>
+> 
 >
 > 
 | | | <pre><code>LinkIncremental="1"&gt; AdditionalLibraryDirectories=""c:\Program Files\Microsoft SDKs\Windows\v6.0\Lib\x64""&gt; ModuleDefinitionFile="ExplorerDataProvider.def"&gt; GenerateDebugInformation="true"</code></pre> | 

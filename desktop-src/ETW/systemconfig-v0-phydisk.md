@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1bfa7b994bfe0950ccc7a97b19fbd705838950d7461712b114a16f62e7ad0aec
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: c18a198934b7234121da02900896d67c39a3ab3c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119754759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880725"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>\_Classe SystemConfig v0 \_ PhyDisk
 
@@ -84,7 +84,7 @@ Type d'accès : Lecture seule
 Qualificateurs : **WmiDataId** (13), **Max** (3)
 </dt> </dl>
 
-Lettre de lecteur du lecteur de démarrage sous la forme « <letter> : ».
+Lettre de lecteur du lecteur de démarrage sous la forme « &lt; letter &gt; : ».
 
 </dd> <dt>
 
@@ -280,7 +280,7 @@ True si le cache d’écriture est activé.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

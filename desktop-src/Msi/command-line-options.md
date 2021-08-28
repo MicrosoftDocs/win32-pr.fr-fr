@@ -4,12 +4,12 @@ ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Options de ligne de commande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c72592046bdd30429d373f23f1d2cb39bc9497ee
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: d4a45d59922a6c2c1d6cd0b5f8cd61b393944e23
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630905"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880624"
 ---
 # <a name="command-line-options"></a>Options de ligne de commande
 
@@ -81,7 +81,7 @@ La longueur du <em>nom de fichier</em> ne doit pas dépasser huit caractères.
 <tr class="even">
 <td><strong>/p</strong></td>
 <td><em>PatchPackage [;P atchpackage2</em> ]</td>
-<td>Applique un correctif. Pour appliquer un correctif à une image administrative installée, vous devez combiner les options suivantes :<br/> /p <em> <PatchPackage> [;p atchpackage2] </em> /a<em><Package></em><br/></td>
+<td>Applique un correctif. Pour appliquer un correctif à une image administrative installée, vous devez combiner les options suivantes :<br/> /p <em> &lt; PatchPackage &gt; [;p atchpackage2]</em> /a<em><Package></em><br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/q</strong></td>
@@ -99,7 +99,7 @@ La longueur du <em>nom de fichier</em> ne doit pas dépasser huit caractères.
 <td>Appelle la fonction système <strong>DllRegisterServer</strong> pour inscrire automatiquement les modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser :<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être ajoutées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>
 <tr class="even">
-<td><strong>/z</strong></td>
+<td><strong>z</strong></td>
 <td><em>modules</em></td>
 <td>Appelle la fonction système <strong>DllUnregisterServer</strong> pour annuler l’inscription des modules passés sur la ligne de commande. Spécifiez le chemin d’accès complet à la DLL. Par exemple, pour MY_FILE.DLL dans le dossier actif, vous pouvez utiliser : <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> Cette option est utilisée uniquement pour les informations de Registre qui ne peuvent pas être supprimées à l’aide des tables de Registre du fichier .msi.<br/></td>
 </tr>

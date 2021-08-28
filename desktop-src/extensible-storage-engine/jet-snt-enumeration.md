@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7d405e33b7d84d3a5a58dc9a13d5c070c47a6536
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118252523"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467216"
 ---
 # <a name="jet_snt-enumeration"></a>Énumération JET_SNT
 
@@ -63,52 +63,19 @@ public enum JET_SNT
 
 ## <a name="members"></a>Membres
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Nom du membre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td>Début</td>
-<td>Rappel pour le début d’une opération.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Avancement</td>
-<td>Rappel de la progression de l’opération.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>Terminé</td>
-<td>Rappel pour l’achèvement d’une opération.</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Échec</td>
-<td>Rappel de l’échec au cours de l’opération.</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>RecoveryStep</td>
-<td>Rappel pour le contrôle de récupération.
-<p>utilisé pour le traitement interne dans les versions du système d’exploitation Windows antérieures à Windows 8. cette valeur ne s’applique pas aux versions de Windows commençant par Windows 8.</p></td>
-</tr>
-</tbody>
-</table>
+
+|  | Nom du membre | Description | 
+|--|-------------|-------------|
+|  | Début | Rappel pour le début d’une opération. | 
+|  | Avancement | Rappel de la progression de l’opération. | 
+|  | Terminé | Rappel pour l’achèvement d’une opération. | 
+|  | Échec | Rappel de l’échec au cours de l’opération. | 
+|  | RecoveryStep | Rappel pour le contrôle de récupération.<p>utilisé pour le traitement interne dans les versions du système d’exploitation Windows antérieures à Windows 8. cette valeur ne s’applique pas aux versions de Windows commençant par Windows 8.</p> | 
+
 
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)

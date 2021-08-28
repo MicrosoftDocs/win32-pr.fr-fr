@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: f5a614c2b89cd887aaf40fd7c8f7a34e1196c11b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddee1f2fe357b2a92892eca08f40983d4f2cfb2a7115a6a2f44f9c4503abc53d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110949"
 ---
 # <a name="drawingtype-complex-type"></a>Type complexe DrawingType
 
@@ -33,7 +33,7 @@ Définit le type qui contient l’encre qui a été classifiée par le moteur d�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                     |
 
 
