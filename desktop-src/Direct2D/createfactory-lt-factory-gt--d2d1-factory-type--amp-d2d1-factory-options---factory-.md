@@ -14,14 +14,14 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34cbe566b139ebd873e8e9895aa21307113be9632b2045d40c099f52f49fc574
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 08562269bc682b9138f2413c33b41ad3d2aebf7d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119824689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885086"
 ---
-# <a name="d2d1createfactoryfactoryd2d1_factory_typed2d1_factory_optionsfactory-function"></a>D2D1CreateFactory <Factory> ( \_ type de fabrique d2d1 \_ , \_ OPTIONS de fabrique d2d1 \_&, Factory \* \* ) (fonction)
+# <a name="d2d1createfactoryltfactorygtd2d1_factory_typed2d1_factory_optionsfactory-function"></a>&lt;Fabrique D2D1CreateFactory &gt; ( \_ type de fabrique d2d1 \_ , \_ options de fabrique d2d1 \_&, fabrique \* \* ) (fonction)
 
 Crée un objet de fabrique qui peut être utilisé pour créer des ressources Direct2D.
 
@@ -64,7 +64,7 @@ HRESULT D2D1CreateFactory(
 
 Si la méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

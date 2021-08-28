@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ebac7fe4f09a6c4456b5370af03ea24f2334cff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14e79ceda56658bf8b214fff923c2df17fe8f786
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523239"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480465"
 ---
 # <a name="jetcompact-function"></a>JetCompact fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcompact-function"></a>JetCompact fonction)
 
@@ -67,100 +67,46 @@ Fonction de rappel qui peut être appelée régulièrement via l’opération de
 
 *pconvert*
 
-Pointeur utilisé pour désigner une autre DLL ESE pouvant être utilisée pour lire la base de données source et pour fournir des paramètres facultatifs pour une opération **JetCompact** qui convertit une base de données d’un format antérieur à un format de version ultérieure. Cette fonctionnalité a été supprimée dans Windows Server 2003.
+Pointeur utilisé pour désigner une autre DLL ESE pouvant être utilisée pour lire la base de données source et pour fournir des paramètres facultatifs pour une opération **JetCompact** qui convertit une base de données d’un format antérieur à un format de version ultérieure. cette fonctionnalité a été supprimée dans Windows Server 2003.
 
 *grbit*
 
 Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitCompactRepair</p></td>
-<td><p>Utilisé lorsque la base de données source est endommagée. Il active un ensemble complet de nouveaux comportements destinés à récupérer autant de données que possible à partir de la base de données source. <strong>JetCompact</strong> avec ce groupe d’options peut retourner JET_errSuccess mais pas copier toutes les données créées dans la base de données source. Les données qui étaient dans des parties endommagées de la base de données source seront ignorées.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitCompactStats</p></td>
-<td><p>Fait en sorte que <strong>JetCompact</strong> vide les statistiques de la base de données source vers un fichier nommé DFRGINFO.TXT. Les statistiques incluent le nom de chaque table dans la base de données source, le nombre de lignes dans chaque table, la taille totale, en octets, de toutes les lignes de chaque table, la taille totale en octets de toutes les colonnes de type <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a> ou <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> qui étaient suffisamment volumineuses pour être stockées séparément de l’enregistrement, le nombre de pages de feuilles d’index cluster et le nombre de pages de En outre, les statistiques récapitulatives, y compris la taille de la base de données source, la base de données de destination, le temps requis pour le compactage de base de données, l’espace temporaire de la base de données sont également vidées.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitCompactRepair</p> | <p>Utilisé lorsque la base de données source est endommagée. Il active un ensemble complet de nouveaux comportements destinés à récupérer autant de données que possible à partir de la base de données source. <strong>JetCompact</strong> avec ce groupe d’options peut retourner JET_errSuccess mais pas copier toutes les données créées dans la base de données source. Les données qui étaient dans des parties endommagées de la base de données source seront ignorées.</p> | 
+| <p>JET_bitCompactStats</p> | <p>Fait en sorte que <strong>JetCompact</strong> vide les statistiques de la base de données source vers un fichier nommé DFRGINFO.TXT. Les statistiques incluent le nom de chaque table dans la base de données source, le nombre de lignes dans chaque table, la taille totale, en octets, de toutes les lignes de chaque table, la taille totale en octets de toutes les colonnes de type <a href="gg269213(v=exchg.10).md">JET_coltypLongText</a> ou <a href="gg269213(v=exchg.10).md">JET_coltypLongBinary</a> qui étaient suffisamment volumineuses pour être stockées séparément de l’enregistrement, le nombre de pages de feuilles d’index cluster et le nombre de pages de En outre, les statistiques récapitulatives, y compris la taille de la base de données source, la base de données de destination, le temps requis pour le compactage de base de données, l’espace temporaire de la base de données sont également vidées.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errFeatureNotAvailable</p></td>
-<td><p>Un pointeur <em>pconvert</em> non null a été fourni, mais la version de ESE utilisée ne prend pas en charge la fonctionnalité de conversion. Cette fonctionnalité a été supprimée dans la version Windows Server 2003 de ESE.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInTransaction</p></td>
-<td><p>La session appelante est dans une transaction. <strong>JetCompact</strong> doit être appelé par une session en dehors d’une transaction.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p>Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errFeatureNotAvailable</p> | <p>Un pointeur <em>pconvert</em> non null a été fourni, mais la version de ESE utilisée ne prend pas en charge la fonctionnalité de conversion. cette fonctionnalité a été supprimée de la version 2003 du serveur Windows de ESE.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données. cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errInTransaction</p> | <p>La session appelante est dans une transaction. <strong>JetCompact</strong> doit être appelé par une session en dehors d’une transaction.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p><p>cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p> | 
+
 
 
 En cas de réussite, la base de données source est copiée dans la base de données de destination. La base de données de destination est dans un état optimal, par exemple, tous les index de table se trouvent dans l’espace disque logique adjacent. Chaque page d’index est remplie à la quantité configurée lorsque les index ont été créés à l’origine dans la base de données source. Tous les paramètres de données et de métadonnées sont copiés avec une fidélité complète, sauf si l’option de réparation a été spécifiée. Si l’option de réparation a été spécifiée, certaines données de la base de données source n’ont peut-être pas été copiées.
 
 En cas d’échec, la base de données de destination peut exister, mais n’est pas une copie complète de la base de données source.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
-Le compactage d’une base de données est également utilisé pour mettre à niveau une base de données d’un format de version antérieure vers une version plus moderne. Un paramètre facultatif est *pconvert*, qui contient une structure qui peut contenir une description d’une dll de version antérieure à utiliser pour la lecture du format de base de données source. Cette fonctionnalité a été supprimée dans Windows Server 2003. À la suite de Windows Server 2003, les nouvelles versions de ESE sont toujours en mesure de lire les anciennes versions du format de base de données. par conséquent, cette fonctionnalité n’est pas nécessaire.
+Le compactage d’une base de données est également utilisé pour mettre à niveau une base de données d’un format de version antérieure vers une version plus moderne. Un paramètre facultatif est *pconvert*, qui contient une structure qui peut contenir une description d’une dll de version antérieure à utiliser pour la lecture du format de base de données source. cette fonctionnalité a été supprimée dans Windows Server 2003. à la suite de Windows Server 2003, les nouvelles versions de ESE sont toujours en mesure de lire les anciennes versions du format de base de données. par conséquent, cette fonctionnalité n’est pas nécessaire.
 
 La densité de données souhaitée après une opération compact est spécifiée lors de la création de tables et d’index. La densité doit être comprise entre 20% et 100%. Si une base de données est principalement lue et non mise à jour, les applications définissent la densité à 100% pour réduire le nombre d’opérations d’e/s lors du traitement des requêtes. Toutefois, si les données sont fréquemment mises à jour avec des opérations qui augmentent la taille des données stockées avec l’enregistrement, ou si de nouvelles données sont fréquemment insérées, l’application choisit une densité inférieure afin que les mises à jour trouvent les ressources nécessaires disponibles. Le fait de compacter la base de données rend la base de données idéalement imposée en fonction du remplissage choisi par l’application.
 
@@ -170,38 +116,9 @@ La compression de la base de données hors connexion touche chaque bit de donné
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetCompactW</strong> (Unicode) et <strong>JetCompactA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetCompactW</strong> (Unicode) et <strong>JetCompactA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

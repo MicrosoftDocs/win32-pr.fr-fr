@@ -4,12 +4,12 @@ ms.assetid: 55b421c8-e87c-4dd2-8649-93832c93f999
 title: MFTrace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4a216f225141ceccf3f1357025dd069afa494d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 542ac9325b33fc8f1a76394d203dbf1d27919bd6
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540945"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885223"
 ---
 # <a name="mftrace"></a>MFTrace
 
@@ -21,13 +21,13 @@ MFTrace est un outil permettant de générer des journaux de suivi pour les appl
 -   [Mots clés MFTrace](mftrace-keywords.md)
 -   [Fichier de configuration MFTrace](mftrace-configuration-file.md)
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------------------------------------------|
-| Version minimale du kit de développement logiciel      | Kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0 |
+| Version minimale du kit de développement logiciel      | kit de développement logiciel (SDK) Microsoft Windows pour Windows 7 et .NET Framework 4,0 |
 | Système d’exploitation minimal | Windows Vista                                                                         |
 
 
@@ -39,9 +39,9 @@ MFTrace requiert les dll suivantes, qui sont également fournies dans le kit de 
 -   detoured.dll
 -   mfdetours.dll
 
-Le kit de développement logiciel (SDK) fournit des versions 32 bits et 64 bits de MFTrace. MFTrace ne prend pas en charge WOW64 ; pour suivre un processus 32 bits s’exécutant sur Windows 64 bits, utilisez la version 32 bits de MFTrace.
+Le kit de développement logiciel (SDK) fournit des versions 32 bits et 64 bits de MFTrace. MFTrace ne prend pas en charge WOW64 ; pour suivre un processus 32 bits s’exécutant sur un Windows 64 bits, utilisez la version 32 bits de MFTrace.
 
-SDK-root sur les systèmes 32 bits : \Program Files\Windows Kits\10 SDK-root on 64 bit System : \Program Files (x86) \Windows Kits\10 vous trouverez mftrace <à la racine> \bin du kit de développement logiciel (SDK) \<sdk-version> \<architecture>\mftrace.exe
+sdk-root sur les systèmes 32 bits : \program files \ Windows Kits\10 sdk-root sur 64 bit system : \program files (x86) \ Windows Kits\10 vous trouverez mftrace à la &lt; racine du sdk-root &gt; \bin \<sdk-version> \<architecture>\mftrace.exe
 
 ## <a name="related-topics"></a>Rubriques connexes
 

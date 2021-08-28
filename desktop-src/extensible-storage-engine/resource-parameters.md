@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ac1a6aba2eda729c3e705cf5acdda837c2670564
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: a2575f6b6cbdd49380422cb955ad64e246bf6ccf
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472445"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122984212"
 ---
 # <a name="resource-parameters"></a>Paramètres de ressource
 
@@ -39,7 +39,19 @@ Ce paramètre contrôle le nombre de ressources de l’arborescence B + mises en
 Des valeurs élevées pour ce paramètre forcent le moteur de base de données à utiliser plus de mémoire, mais augmentent la vitesse avec laquelle un grand nombre de tables peut être ouvert de façon aléatoire par l’application. Cela est utile pour les applications qui ont un schéma avec un très grand nombre de tables.
 
 
-| | | <p>Valeur par défaut :</p> | <p>64</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>64</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
 
 
 
@@ -49,7 +61,19 @@ Des valeurs élevées pour ce paramètre forcent le moteur de base de données �
 Ce paramètre peut être utilisé pour empêcher le moteur de base de données de publier des données sur ses performances dans Windows. Cela peut être fait pour réduire l’activité de thread de service du moteur de base de données.
 
 
-| | | <p>Valeur par défaut :</p> | <p>Faux</p> | | <p>Tapez :</p> | <p>Boolean</p> | | <p>Plage valide :</p> | <p>False, True</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Faux</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Global</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
 
 
 
@@ -63,7 +87,19 @@ Ce paramètre permet aux applications qui fonctionnent en mode multi-instance de
 **Windows XP :**  à partir de Windows XP, cela est toujours vrai en mode d’instance unique. Toutefois, la mémoire de page de version est allouée dynamiquement en mode multi-instance.
 
 
-| | | <p>Valeur par défaut :</p> | <p>64</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1 – 2147483647</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>64</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Global</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
 
@@ -75,7 +111,19 @@ Ce paramètre réserve le nombre demandé de ressources de curseur pour une util
 **Windows 2000, Windows XP et Windows Server 2003 :**  Les valeurs élevées de ce paramètre consomment l’espace d’adressage et peuvent augmenter l’utilisation de la mémoire.
 
 
-| | | <p>Valeur par défaut :</p> | <p>1 024</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>1 024</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -85,7 +133,19 @@ Ce paramètre réserve le nombre demandé de ressources de curseur pour une util
 Ce paramètre contrôle le nombre maximal d’instances qui peuvent être créées dans un processus unique.
 
 
-| | | <p>Valeur par défaut :</p> | <p>16</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1-1024</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>16</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1-1024</p> | 
+| <p>Étendue :</p> | <p>Global</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
 
@@ -99,7 +159,19 @@ En général, vous avez besoin de deux ressources, plus une ressource par index 
 **Windows 2000, Windows XP et Windows Server 2003 :**  Les valeurs élevées de ce paramètre consomment l’espace d’adressage et peuvent augmenter l’utilisation de la mémoire.
 
 
-| | | <p>Valeur par défaut :</p> | <p>300</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>300</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -111,7 +183,19 @@ Ce paramètre réserve le nombre demandé de ressources de session pour une util
 **Windows 2000, Windows XP et Windows Server 2003 :**  Les valeurs élevées de ce paramètre consomment l’espace d’adressage et peuvent augmenter l’utilisation de la mémoire.
 
 
-| | | <p>Valeur par défaut :</p> | <p>16</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 30000</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>16</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 30000</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -127,7 +211,19 @@ Ce paramètre réserve le nombre demandé de ressources de table temporaire pour
 **Remarque**  L’utilisation d’une table temporaire requiert également une ressource curseur.
 
 
-| | | <p>Valeur par défaut :</p> | <p>20</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>Yes</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>20</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -145,7 +241,19 @@ Chaque page de la Banque des versions telle que configurée par ce paramètre a 
 **Remarque**  Il s’agit de la ressource la plus couramment épuisée par le moteur de base de données. Une attention particulière doit être accordée au paramètre du système et au chargement transactionnel de l’application afin d’éviter l’épuisement de cette ressource en fonctionnement normal. Lorsque cette ressource est épuisée, les mises à jour de la base de données seront rejetées avec JET_errVersionStoreOutOfMemory. Pour libérer certaines de ces ressources, la plus ancienne transaction en suspens doit être abandonnée.
 
 
-| | | <p>Valeur par défaut :</p> | <p>64</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>64</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -155,7 +263,19 @@ Chaque page de la Banque des versions telle que configurée par ce paramètre a 
 Ce paramètre contrôle la taille d’un cache spécial utilisé pour accélérer la recherche de pointeurs de page enfant B + d’arborescence dans le cache de la page de base de données. La taille du cache est en octets.
 
 
-| | | <p>Valeur par défaut :</p> | <p>262 144</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>262 144</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Global</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
 
@@ -169,7 +289,19 @@ Si ce paramètre a la valeur zéro, la valeur par défaut est 100% de **JET_para
 **Windows Vista et versions ultérieures :**  Ce paramètre est obsolète et n’affecte pas le fonctionnement du moteur de base de données. Les applications doivent utiliser JET_paramMaxCachedClosedTables à la place.
 
 
-| | | <p>Valeur par défaut :</p> | <p>0 (100% de <strong>JET_paramMaxOpenTables</strong>)</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>0 (100% de <strong>JET_paramMaxOpenTables</strong>)</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -189,7 +321,19 @@ Chaque page de la Banque des versions telle que configurée par ce paramètre a 
 **Remarque**  Si le moteur de base de données fonctionne trop souvent au-dessus de ce seuil, il est possible que la base de données se dégrade en performances. Cela se produit parce que les processus d’arrière-plan qui nettoient la base de données ne peuvent pas fonctionner sans les informations facultatives qui sont rejetées dans ce scénario. La défragmentation en ligne ou hors connexion contrecarre cet effet.
 
 
-| | | <p>Valeur par défaut :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 (90% de JET_paramMaxVerPages)</p><p><strong>Windows Vista :</strong> 58</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1 – 2147483647</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>Yes</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 (90% de JET_paramMaxVerPages)</p><p><strong>Windows Vista :</strong> 58</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>Yes</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
 
 
 
@@ -201,7 +345,19 @@ Ce paramètre contrôle la taille des pages de la Banque des versions utilisées
 Le moteur de base de données peut choisir d’utiliser une plus grande taille de page de la Banque des versions que celle demandée.
 
 
-| | | <p>Valeur par défaut :</p> | <p>16384</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>1024, 2048, 4096, 8192, 16384, 32768, 65536</p> | | <p>Étendue :</p> | <p>Global</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows Vista et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>16384</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>1024, 2048, 4096, 8192, 16384, 32768, 65536</p> | 
+| <p>Étendue :</p> | <p>Global</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>No</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows Vista et versions ultérieures</p> | 
 
 
 
@@ -211,14 +367,30 @@ Le moteur de base de données peut choisir d’utiliser une plus grande taille d
 Ce paramètre contrôle le nombre d’éléments de travail de nettoyage en arrière-plan qui peuvent être mis en file d’attente dans le pool de threads du moteur de base de données à un moment donné.
 
 
-| | | <p>Valeur par défaut :</p> | <p>32</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows XP et Windows Server 2003 :</strong> 1 – 63</p><p><strong>Windows Vista :</strong> 1 – 127</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows XP et Windows Server 2003 :</strong>  º</p><p><strong>Windows Vista :</strong>  Oui</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>Yes</p> | | <p>Affecte les ressources :</p> | <p>Yes</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>32</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p><strong>Windows XP et Windows Server 2003 :</strong> 1 – 63</p><p><strong>Windows Vista :</strong> 1 – 127</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p><strong>Windows XP et Windows Server 2003 :</strong>  º</p><p><strong>Windows Vista :</strong>  Oui</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
 
 
 
 ### <a name="requirements"></a>Configuration requise
 
 
-| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

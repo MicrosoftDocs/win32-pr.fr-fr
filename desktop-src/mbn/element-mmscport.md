@@ -7,12 +7,12 @@ MSHAttr:
 title: MmscPort
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab0f0aa319a9768e2ec96ededbf9d9aafc629bcd
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 56077222bbc738e9f735a9068cc81f0bfebc8463
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122480295"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885423"
 ---
 # <a name="span-idwwan_profile_v4element_mmscportspanmmscport"></a><span id="WWAN_profile_v4.element_MmscPort"></span>MmscPort
 
@@ -20,11 +20,11 @@ Spécifie le numéro de port du serveur MMSC pour l’appareil. Spécifiez 0 pou
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[<MBNProfileExt>](element-mbnprofileext.md)  
-[<MmsConfiguration>](element-mmsconfiguration.md)  
-**<MmscPort>**
+[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
+[&lt;MmsConfiguration&gt;](element-mmsconfiguration.md)  
+**&lt;MmscPort&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <MmscPort>
@@ -54,7 +54,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 | | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 

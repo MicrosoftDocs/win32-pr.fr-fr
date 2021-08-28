@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9f332ccc9a60473a9d814481b759221dc6468d5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4806a87674bf83964ad5b285934effd74b789ecebe7f92f642188b156bf1f48c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118000504"
 ---
 # <a name="freemediatype-function"></a>FreeMediaType fonction)
 
@@ -53,11 +53,11 @@ Référence à une structure [**de \_ \_ type de média am**](/windows/win32/api
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le bloc de format est alloué sur le tas. Le membre **pbFormat** du [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) pointe vers le bloc de format. Utilisez cette fonction pour libérer uniquement le bloc de format. Pour supprimer une structure **de \_ \_ type de média am** allouée, appelez [**DeleteMediaType**](deletemediatype.md).
 
-Cette fonction est définie dans la bibliothèque de [classes de base DirectShow](directshow-base-classes.md) . Si vous préférez ne pas établir de liaison avec la bibliothèque de classes de base, vous pouvez utiliser le code suivant :
+cette fonction est définie dans la bibliothèque de [Classes de Base DirectShow](directshow-base-classes.md) . Si vous préférez ne pas établir de liaison avec la bibliothèque de classes de base, vous pouvez utiliser le code suivant :
 
 
 ```C++
@@ -82,13 +82,13 @@ void _FreeMediaType(AM_MEDIA_TYPE& mt)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

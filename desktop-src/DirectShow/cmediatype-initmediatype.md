@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c3bbe170c6d896f3b28d9b85cf49f18269341d50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3402350a3b87f56bb03d3770983fdc024883b0695fa09ec7a03dc4c65c780882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118156359"
 ---
 # <a name="cmediatypeinitmediatype-method"></a>CMediaType.Iniméthode tMediaType
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode met à zéro la mémoire de l’objet, affecte la **valeur true** à la propriété Fixed-Sample-size et définit la taille de l’échantillon sur 1.
 
@@ -54,7 +54,7 @@ Cette méthode met à zéro la mémoire de l’objet, affecte la **valeur true**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Mtype. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Mtype. h (include Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

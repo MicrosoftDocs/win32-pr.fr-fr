@@ -7,12 +7,12 @@ MSHAttr:
 title: ProfileConditionedOn
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44257377400ec8877b07b6aa29766552b72e28e6
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 01a3ead4edb14cc7d9164ca834d154c2623c03b4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122882909"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122477075"
 ---
 # <a name="span-idwwan_profile_v4element_profileconditionedonspanprofileconditionedon"></a><span id="WWAN_profile_v4.element_ProfileConditionedOn"></span>ProfileConditionedOn
 
@@ -22,10 +22,10 @@ Cet élément est une nouveauté pour v4. Elle vous permet de spécifier plusieu
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-**&lt;ProfileConditionedOn&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+**<ProfileConditionedOn>**
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 ``` syntax
 <ProfileConditionedOn>
@@ -74,7 +74,7 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 | | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 

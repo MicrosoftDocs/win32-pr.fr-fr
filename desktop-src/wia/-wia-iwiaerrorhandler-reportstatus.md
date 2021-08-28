@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 30a082502d4c7bc5b789fd1ec19fdb76f63d8fab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6604dc8dbf0cad5f31449ff3cc30945c1e6059727d513fa98dbf436eb199f70f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119659749"
 ---
 # <a name="iwiaerrorhandlerreportstatus-method"></a>IWiaErrorHandler :: ReportStatus, méthode
 
@@ -56,9 +56,9 @@ Type : **HWND**
 *punkItem* \[ dans\]
 </dt> <dd>
 
-Tapez : **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+Type : **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-Pointeur vers l’interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) de l’élément en cours de transfert. Cet objet implémente au minimum [_ *IWiaItem2* *](-wia-iwiaitem2.md) et [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
+Pointeur vers l’interface [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) de l’élément en cours de transfert. Cet objet implémente au minimum [**IWiaItem2**](-wia-iwiaitem2.md) et [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer).
 
 </dd> <dt>
 
@@ -83,9 +83,9 @@ Type : **long**
 *pbData* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
-Pointeur vers la mémoire tampon de données telle qu’elle a été reçue par [_ *BandedDataCallback* *](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
+Pointeur vers la mémoire tampon de données telle qu’elle a été reçue par [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback).
 
 </dd> </dl>
 
@@ -107,9 +107,9 @@ Retourne *hrStatus* si l’erreur ne peut pas être récupérée à partir de. D
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’acquisition d’images Windows (WIA) 2,0 appelle **IWiaErrorHandler :: ReportStatus** lorsque le pilote envoie un message d’état de l' **\_ \_ appareil \_ MSG MSG** à [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback). Cette méthode gère le message et affiche des informations à l’utilisateur sur l’État ou l’erreur. Si le message concerne une erreur, la méthode permet à l’utilisateur de choisir, si possible, s’il faut essayer de récupérer à partir de l’erreur et continuer le transfert ou l’abandonner.
+Windows L’acquisition d’images (WIA) 2,0 appelle **IWiaErrorHandler :: ReportStatus** lorsque le pilote envoie un message d’état de l' **\_ \_ appareil \_ MSG MSG** à [**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback). Cette méthode gère le message et affiche des informations à l’utilisateur sur l’État ou l’erreur. Si le message concerne une erreur, la méthode permet à l’utilisateur de choisir, si possible, s’il faut essayer de récupérer à partir de l’erreur et continuer le transfert ou l’abandonner.
 
 *hrStatus* est défini sur WIA \_ Status \_ Transfer \_ Begin pour informer le gestionnaire qu’un transfert a démarré. Elle est définie sur \_ \_ la fin du transfert d’État WIA une \_ fois le transfert terminé.
 
@@ -121,8 +121,8 @@ Si le niveau de gravité de la valeur de *hrStatus* est \_ réussite, l’utilis
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>       |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl>     |
 | Bibliothèque<br/>                  | <dl> <dt>Wiaguid. lib</dt> </dl> |

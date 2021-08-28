@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af21d3f885a979ac81fef502a64281ea5445046983f652033566c689991a70ac
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d61c42897da6d55dc96f2e59847fcf727424d60e
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119720309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986122"
 ---
 # <a name="jet_objectinfo-structure"></a>Structure JET_OBJECTINFO
 
@@ -66,73 +66,28 @@ Obsolète. Ne pas utiliser.
 
 Groupe de bits qui contiennent les options disponibles pour cet appel, qui incluent zéro ou plusieurs des éléments suivants.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableInfoBookmark</p></td>
-<td><p>La table peut avoir des signets.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableInfoRollback</p></td>
-<td><p>La table peut être restaurée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableInfoUpdatable</p></td>
-<td><p>La table peut être mise à jour.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitTableInfoBookmark</p> | <p>La table peut avoir des signets.</p> | 
+| <p>JET_bitTableInfoRollback</p> | <p>La table peut être restaurée.</p> | 
+| <p>JET_bitTableInfoUpdatable</p> | <p>La table peut être mise à jour.</p> | 
+
 
 
 **flags**
 
 Champ de bits qui contient zéro, un ou plusieurs des indicateurs suivants.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitObjectSystem</p></td>
-<td><p>La table est une table système et est réservée à un usage interne.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableDerived</p></td>
-<td><p>Table héritée DDL d’une table de modèle.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableFixedDDL</p></td>
-<td><p>Le DDL pour la table ne peut pas être modifié.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Utilisé conjointement avec JET_bitObjectTableTemplate pour interdire les colonnes fixes ou variables dans les tables dérivées (afin que les colonnes fixes ou variables puissent être ajoutées ultérieurement au modèle).</p>
-<p><strong>Windows XP :</strong> cette valeur est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitObjectTableTemplate</p></td>
-<td><p>La table est une table de modèle.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitObjectSystem</p> | <p>La table est une table système et est réservée à un usage interne.</p> | 
+| <p>JET_bitObjectTableDerived</p> | <p>Table héritée DDL d’une table de modèle.</p> | 
+| <p>JET_bitObjectTableFixedDDL</p> | <p>Le DDL pour la table ne peut pas être modifié.</p> | 
+| <p>JET_bitObjectTableNoFixedVarColumnsInDerivedTables</p> | <p>Utilisé conjointement avec JET_bitObjectTableTemplate pour interdire les colonnes fixes ou variables dans les tables dérivées (afin que les colonnes fixes ou variables puissent être ajoutées ultérieurement au modèle).</p><p><strong>Windows XP :</strong> cette valeur est introduite dans Windows XP.</p> | 
+| <p>JET_bitObjectTableTemplate</p> | <p>La table est une table de modèle.</p> | 
+
 
 
 **cRecord**
@@ -155,26 +110,13 @@ Le cas échéant, les statistiques de table incluent le nombre d’enregistremen
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

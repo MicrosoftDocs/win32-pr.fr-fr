@@ -4,12 +4,12 @@ ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: Déploiement d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcb2d7605a2c6a39629749c00d175be4df8a3c66d8b0dc6c870926ec665d9ce6
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: a85f297767c2b22fb8a3096f0df8ed21468ab710
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120041609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883518"
 ---
 # <a name="application-deployment"></a>Déploiement d’application
 
@@ -27,21 +27,21 @@ cette section décrit l’emplacement des fichiers pour une application MUI cibl
 
 ### <a name="place-the-ln-file"></a>Placez le fichier LN
 
-Un fichier LN standard pour une application MUI est un fichier .exe ou un fichier .dll, par exemple BakerDelta.dll. Vous devez placer ce fichier dans le dossier racine dans lequel votre application est installée, par exemple X : \\ \\ <somepath> \\BakerDelta.dll.
+Un fichier LN standard pour une application MUI est un fichier .exe ou un fichier .dll, par exemple BakerDelta.dll. Vous devez placer ce fichier dans le dossier racine dans lequel votre application est installée, par exemple, X : \\ \\ &lt; somepath &gt; \\BakerDelta.dll.
 
 ### <a name="place-language-specific-resource-files"></a>Placer Language-Specific fichiers de ressources
 
 Vos fichiers de ressources spécifiques à une langue doivent avoir des noms prévisibles formés en ajoutant « . mui » au nom complet du fichier LN, par exemple, BakerDelta.dll. mui. Ces fichiers doivent être placés dans des sous-dossiers nommés d’après les [noms de langue](language-names.md)appropriés. L’exemple suivant montre le placement des ressources pour le fichier BakerDelta.dll LN, avec les fichiers de ressources spécifiques à la langue pour l’anglais (Royaume-Uni), l’anglais (États-Unis), l’anglais neutre, l’espagnol (Espagne), l’espagnol (Mexique) et l’espagnol neutre :
 
--   X : \\ \\ <somepath> \\BakerDelta.dll
--   X : \\ \\ <somepath> \\ en-Go \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ en-US \\BakerDelta.dll. mui
--   X : en \\ \\ <somepath> \\ \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ es-es \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ es-MX \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ es \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\BakerDelta.dll
+-   X : \\ \\ &lt; somepath &gt; \\ en Go \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ en-US \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath en &gt; \\ \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ es-es \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ es-MX \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ es \\BakerDelta.dll. mui
 
-Les fichiers de ressources doivent être placés dans leurs emplacements corrects lors de l’installation de l’application MUI ou d’un package de langue. Il est important de placer chaque fichier dans le dossier approprié, car le chargeur de ressources ne peut pas fonctionner correctement dans le cas contraire. À l’aide de l’exemple ci-dessus, le chargeur de ressources examine X : \\ <somepath> \\ en-US \\BakerDelta.dll. mui pour les ressources en anglais (États-Unis). Si le chargeur examine ce fichier et rencontre uniquement des ressources de langue espagnole, il échoue.
+Les fichiers de ressources doivent être placés dans leurs emplacements corrects lors de l’installation de l’application MUI ou d’un package de langue. Il est important de placer chaque fichier dans le dossier approprié, car le chargeur de ressources ne peut pas fonctionner correctement dans le cas contraire. À l’aide de l’exemple ci-dessus, le chargeur de ressources examine X : \\ &lt; somepath &gt; \\ en-US \\BakerDelta.dll. mui pour les ressources en anglais (États-Unis). Si le chargeur examine ce fichier et rencontre uniquement des ressources de langue espagnole, il échoue.
 
 ## <a name="file-placement-on-a-pre-windows-vista-operating-system"></a>emplacement des fichiers sur un système d’exploitation antérieur à Windows Vista
 
@@ -49,16 +49,16 @@ une application à exécuter sur un système d’exploitation pré-Windows vista
 
 Par exemple, considérez un fichier LN appelé BakerDelta.dll, avec des fichiers de ressources spécifiques à la langue pour l’anglais (Royaume-Uni), l’anglais (États-Unis), l’anglais neutre, l’espagnol (Espagne), l’espagnol (Mexique) et l’espagnol neutre. une installation sur un système d’exploitation pré-Windows Vista peut placer ces fichiers comme suit :
 
--   X : \\ \\ <somepath> \\BakerDelta.dll
--   X : \\ \\ <somepath> \\BakerDelta.dll. mui (fichier. mui facultatif contenant les ressources dans la langue du système d’exploitation en tant que solution de secours ultime)
--   X : \\ \\ <somepath> \\ MUI \\ 0809 \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ MUI \\ 0409 \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ MUI \\ 0209 \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ MUI \\ 040a \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ MUI \\ 080a \\BakerDelta.dll. mui
--   X : \\ \\ <somepath> \\ MUI \\ 0209 \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\BakerDelta.dll
+-   X : \\ \\ &lt; somepath &gt; \\BakerDelta.dll. mui (fichier. mui facultatif contenant les ressources dans la langue du système d’exploitation en tant que solution de secours ultime)
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 0809 \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 0409 \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 0209 \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 040a \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 080a \\BakerDelta.dll. mui
+-   X : \\ \\ &lt; somepath &gt; \\ MUI \\ 0209 \\BakerDelta.dll. mui
 
-En plus de ces fichiers, l’application peut configurer un fichier de ressources de langue de secours ultime, afin de résider dans le même dossier que l’application elle-même. Dans l’exemple ci-dessus, le fichier est X : \\ <somepath> \\BakerDelta.dll. mui.
+En plus de ces fichiers, l’application peut configurer un fichier de ressources de langue de secours ultime, afin de résider dans le même dossier que l’application elle-même. Dans l’exemple ci-dessus, le fichier est X : \\ &lt; somepath &gt; \\BakerDelta.dll. mui.
 
 ## <a name="installation"></a>Installation
 

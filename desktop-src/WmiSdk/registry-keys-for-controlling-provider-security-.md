@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Clés et valeurs de Registre pour le contrôle de la sécurité du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8695f8203a56a934aa7d0f579b6a43f36d2ce7342a15b0bb408ff8696a7e8d8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 916a5910a6ad21e9f9dfdcfc0992de10ae30da82
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118817087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884360"
 ---
 # <a name="registry-keys-and-values-for-controlling-provider-security"></a>Clés et valeurs de Registre pour le contrôle de la sécurité du fournisseur
 
@@ -111,12 +111,12 @@ La liste suivante répertorie les paramètres de Registre possibles et les modes
 |-----------------------------------|--------------------------------------|----------------------------|------------|
 | Non                                | Non                                   | 0                          | Compatible |
 | Non                                | Oui                                  | 0                          | Compatible |
-| Oui                               | Non                                   | 0                          | Sécurisé     |
-| Oui                               | Oui                                  | 0                          | Sécurisé     |
-| Non                                | Non                                   | 1                          | Sécurisé     |
+| Oui                               | Non                                   | 0                          | Sécuriser     |
+| Oui                               | Oui                                  | 0                          | Sécuriser     |
+| Non                                | Non                                   | 1                          | Sécuriser     |
 | Non                                | Oui                                  | 1                          | Compatible |
-| Oui                               | Non                                   | 1                          | Sécurisé     |
-| Oui                               | Oui                                  | 1                          | Sécurisé     |
+| Oui                               | Non                                   | 1                          | Sécuriser     |
+| Oui                               | Oui                                  | 1                          | Sécuriser     |
 
 
 
@@ -142,7 +142,7 @@ Les procédures suivantes montrent comment gérer les paramètres de mode sécur
 
     **Mode compatible : HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **WBEM** \\ **CIMOM** \\ **CompatibleHostProviders**
 
-8.  Dans le champ **nom** , entrez le nom du fournisseur que vous souhaitez ajouter à cette clé. Le nom du fournisseur doit être au format suivant : <namespace> : <\_ \_ RelPath>. Par exemple, \\ cimv2 racine : \_ \_ win32provider. Name = "MyProvider".
+8.  Dans le champ **nom** , entrez le nom du fournisseur que vous souhaitez ajouter à cette clé. Le nom du fournisseur doit être au format suivant : &lt; espace de noms &gt; : <\_ \_ RelPath>. Par exemple, \\ cimv2 racine : \_ \_ win32provider. Name = "MyProvider".
 9.  Dans le champ **données** , entrez 0.
 10. Cliquez sur OK.
 

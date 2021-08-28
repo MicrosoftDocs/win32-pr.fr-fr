@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba1bc25337bf49a48b54b6b2426673daf8a15bd9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07e6dc285e1a19fab8e0363391fbd81429e931cd
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942350"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122630838"
 ---
 # <a name="winbio_biometric_subtype-constants"></a>\_Constantes de sous-type biométrique WINBIO \_
 
-**WINBIO \_ Les constantes de \_ sous-type BIOmétriques** sont utilisées dans l’Windows Biometric Framework pour fournir des informations supplémentaires sur une mesure biométrique. Les constantes suivantes peuvent être utilisées quand aucun sous-type n’est requis ou lorsqu’un sous-type est requis.
+**WINBIO \_ les constantes de \_ sous-type biométriques** sont utilisées dans l’Windows Biometric Framework pour fournir des informations supplémentaires sur une mesure biométrique. Les constantes suivantes peuvent être utilisées quand aucun sous-type n’est requis ou lorsqu’un sous-type est requis.
 
 
 
@@ -33,7 +33,7 @@ ms.locfileid: "103942350"
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour rechercher les sous-types biométriques disponibles pour un type biométrique particulier, utilisez le tableau suivant :
 
@@ -41,8 +41,8 @@ Pour rechercher les sous-types biométriques disponibles pour un type biométriq
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ Pour rechercher les sous-types biométriques disponibles pour un type biométriq
 <td><a href="winbio-ansi-385-face-constants.md"><strong>Constantes WINBIO_ANSI_385_FACE</strong></a>
 <blockquote>
 [!Note]<br />
-Ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
+ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 </blockquote>
 <br/></td>
 </tr>
@@ -78,7 +78,7 @@ Ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 <td><a href="winbio-iris-constants.md"><strong>Constantes WINBIO_IRIS</strong></a>
 <blockquote>
 [!Note]<br />
-Ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
+ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 </blockquote>
 <br/></td>
 </tr>
@@ -87,7 +87,7 @@ Ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 <td><a href="https://www.bing.com/search?q=<strong>WINBIO_VOICE+Constants</strong>"><strong>Constantes WINBIO_VOICE</strong></a>
 <blockquote>
 [!Note]<br />
-Ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
+ces valeurs s’appliquent uniquement à Windows 10 et versions ultérieures.
 </blockquote>
 <br/></td>
 </tr>
@@ -106,8 +106,8 @@ Pour plus d’informations, consultez [constantes d’application cliente](clien
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

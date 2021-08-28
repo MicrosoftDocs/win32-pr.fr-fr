@@ -3,9 +3,9 @@ title: Méthode ISearchResult IconCount
 description: Réservé. | Méthode ISearchResult IconCount
 ms.assetid: b77d2cb7-426c-4570-a6eb-1c301c1632a9
 keywords:
-- Méthode IconCount fonctionnalités d’environnement Windows héritées
-- Méthode IconCount fonctionnalités d’environnement Windows héritées, interface ISearchResult
-- Fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode IconCount
+- fonctionnalités d’environnement Windows héritées de la méthode IconCount
+- méthode IconCount héritage Windows fonctionnalités d’environnement, interface ISearchResult
+- fonctionnalités d’environnement Windows héritées de l’interface ISearchResult, méthode IconCount
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: cb49bbdfeb2eea09790c7922ec4ca943270c5bad
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 19cbf5c6f134e88de162ac93e66251c3b4f1d8d6d6ad12c3ac6a8ce4fada9daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106537196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726509"
 ---
 # <a name="isearchresulticoncount-method"></a>ISearchResult :: IconCount, méthode
 

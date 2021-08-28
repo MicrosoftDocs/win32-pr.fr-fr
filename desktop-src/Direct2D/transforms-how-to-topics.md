@@ -4,12 +4,12 @@ description: Fournit des exemples qui montrent comment appliquer différentes tr
 ms.assetid: 0cb63411-42b2-44be-a2cf-dacf7bdcf39d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b61cca0be774c2d29bbf962e6b8f0fed3e0317b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c632d2c200d19f362e5392edb6106a3dcf53443d9ffdadfa5409376d6dc9d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160338"
 ---
 # <a name="transforms-how-to-topics"></a>Rubriques "Comment" relatives aux transformations
 

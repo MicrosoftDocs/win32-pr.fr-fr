@@ -4,12 +4,12 @@ ms.assetid: e7432b80-f3fa-4c2f-89db-87cd130d7447
 title: MFPKEY_RESIZE_SRC_LEFT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a743ee9a21e9ff5a227a363c0c8d15faf48d1fcd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ffe7381e3c9bf34eee7330300f0748e63ec2e040a5a583aad2cb0f4d29faeb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973378"
 ---
 # <a name="mfpkey_resize_src_left-property"></a>MFPKEY de \_ REdimensionnement \_ src \_ Left, propriété
 
@@ -33,8 +33,8 @@ VT \_
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

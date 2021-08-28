@@ -4,12 +4,12 @@ ms.assetid: e919be5c-ac2c-446c-a422-971805b1f672
 title: Hiérarchisation des suites de chiffrement Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f885c4d51006233be252a02c7cc3bebd26a4e6c3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4436d2f72ebaa1f8d551d935ea9f16d2c03cd7c75fc7d40a73f1a27c7406ad6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920768"
 ---
 # <a name="prioritizing-schannel-cipher-suites"></a>Hiérarchisation des suites de chiffrement Schannel
 
@@ -21,8 +21,8 @@ ms.locfileid: "104211319"
 > **Pour configurer le paramètre de stratégie de groupe ordre de la **suite de chiffrement SSL****
 > 
 > 1.  À l’invite de commandes, entrez **gpedit. msc**. L' **éditeur d’objets de stratégie de groupe** s’affiche.
-> 2.  Développez **Configuration ordinateur**, **modèles d’administration**, **réseau**, puis cliquez sur **paramètres de configuration SSL**.
-> 3.  Sous **paramètres de configuration SSL**, cliquez sur le paramètre ordre de la **suite de chiffrement SSL** .
+> 2.  développez **configuration ordinateur**, **Modèles d’administration**, **réseau**, puis cliquez sur **Paramètres de configuration SSL**.
+> 3.  sous **Configuration ssl Paramètres**, cliquez sur le paramètre ordre de la **Suite de chiffrement ssl** .
 > 4.  Dans le volet ordre de la **suite de chiffrement SSL** , faites défiler le volet vers le bas.
 > 5.  Suivez les instructions indiquées **dans la rubrique Comment modifier ce paramètre**.
 > 

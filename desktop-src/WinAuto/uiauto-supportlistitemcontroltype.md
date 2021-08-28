@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ListItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cf7275212d44b795f354cb895c2d64727e375ea
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825551"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122483195"
 ---
 # <a name="listitem-control-type"></a>ListItem (type de contrôle)
 
@@ -51,33 +51,11 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>ListItem
-<ul>
-<li>Image (0 ou plus)</li>
-<li>Text (0 ou plus)</li>
-<li>Edition (0 ou plus)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>ListItem</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>ListItem<ul><li>Image (0 ou plus)</li><li>Text (0 ou plus)</li><li>Edition (0 ou plus)</li></ul></li></ul> | <ul><li>ListItem</li></ul> | 
+
 
 
 
@@ -91,7 +69,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur        | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Propriété UI Automation                                                                                              | Valeur        | Notes                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.   | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation. Allouez la propriété **AutomationId** pour un élément de liste si l’élément est connu pour être cohérent entre les différentes instances de l’interface utilisateur. Si l’élément de liste est rempli dynamiquement et n’est pas prévisible, laissez la propriété **AutomationId** vide.                                                          |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.   | La valeur de cette propriété doit inclure la zone de contenu de l’image et du texte de l’élément de liste.                                                                                                                                                                                                                                                                                                                              |
@@ -138,7 +116,7 @@ Le tableau suivant répertorie les événements UI Automation qui répertorient 
 
 
 
-| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                            |
+| Événement UI Automation                                                                                                                                                | Notes                                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                                  |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                                  |

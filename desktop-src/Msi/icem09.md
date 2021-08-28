@@ -4,12 +4,12 @@ ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e4d2af38903d2e704d49b48f932818d8dfaeeb1e12588c007d4af05c297642c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 30542ead9a47ab5e92074227b1ae47fa6de0e643
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119894489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887398"
 ---
 # <a name="icem09"></a>ICEM09
 
@@ -17,7 +17,7 @@ ICEM09 vérifie que le module de fusion gère les répertoires prédéfinis en t
 
 L’échec de la résolution d’un avertissement ou d’une erreur signalée par ICEM09 peut provoquer des problèmes pour les clients de votre module de fusion. Les lignes de la table de répertoires avec des clés primaires telles que ProgramFilesFolder existent souvent dans une base de données ; par conséquent, si les composants de votre module s’installent directement dans des répertoires prédéfinis tels que ProgramFilesFolder, les entrées de répertoire dans le module peuvent entrer en conflit avec des lignes déjà existantes. Cette condition oblige l’utilisateur de votre module à fractionner les fichiers sources de votre module afin qu’il corresponde au répertoire source existant.
 
-## <a name="result"></a>Résultat
+## <a name="result"></a>Résultats
 
 ICEM09 signale une erreur ou un avertissement lorsqu’un composant de module installe un répertoire dans un répertoire système prédéfini, provoquant ainsi un conflit de noms avec la structure de répertoires existante.
 
@@ -59,7 +59,7 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 | Répertoire          | Répertoire \_ parent | DefaultDir |
 |--------------------|-------------------|------------|
-| ProgramFilesFolder | Répertoire1        | A          |
+| ProgramFilesFolder | Répertoire1        | Un          |
 | StartMenuFolder    | Directory2        | B:C        |
 | AppDataFolder      | Directory3        | D          |
 | MyPicturesFolder   | Directory4        | E          |
@@ -74,10 +74,10 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 | Composant               | Répertoire          |
 |-------------------------|--------------------|
-| Composant1.<GUID> | ProgramFilesFolder |
-| Component2.<GUID> | StartMenuFolder    |
-| Component3.<GUID> | AppDataFolder      |
-| Component4.<GUID> | MyPicturesFolder   |
+| Composant1. &lt; UNIQUES&gt; | ProgramFilesFolder |
+| COMPONENT2. &lt; UNIQUES&gt; | StartMenuFolder    |
+| Component3. &lt; UNIQUES&gt; | AppDataFolder      |
+| Component4. &lt; UNIQUES&gt; | MyPicturesFolder   |
 
 
 
@@ -89,8 +89,8 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 | CustomAction                 | Type | Source                       | Cible              |
 |------------------------------|------|------------------------------|---------------------|
-| StartMenuFolder.<GUID> | 51   | StartMenuFolder.<GUID> | \[StartMenuFolder\] |
-| MyAppDataFolderAction        | 51   | AppDataFolder.<GUID>   | \[AppDataFolder\]   |
+| StartMenuFolder. &lt; UNIQUES&gt; | 51   | StartMenuFolder. &lt; UNIQUES&gt; | \[StartMenuFolder\] |
+| MyAppDataFolderAction        | 51   | AppDataFolder. &lt; UNIQUES&gt;   | \[AppDataFolder\]   |
 
 
 
@@ -102,7 +102,7 @@ Pour résoudre cet avertissement, nommez l’action de la même façon que le r�
 
 | Action                       | Séquence | BaseAction | Après | Condition |
 |------------------------------|----------|------------|-------|-----------|
-| StartMenuFolder.<GUID> | 100      |            |       |           |
+| StartMenuFolder. &lt; UNIQUES&gt; | 100      |            |       |           |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Fonctions de sortie de débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252e1020ca99bd5b4f2f46d7f2169fa6835dea83a25d599dba142f370bb794f9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6ee1bdbc9cce98ce1704b62a8354b81951df33c4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119537739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884240"
 ---
 # <a name="debug-output-functions"></a>Fonctions de sortie de débogage
 
@@ -51,7 +51,7 @@ dans Windows Vista ou version ultérieure, ils se trouvent sous le chemin d’ac
 
 pour les filtres tiers, l’emplacement dépend de la version du [DirectShow Classes de Base](directshow-base-classes.md) qui a été utilisée pour générer le filtre. la version incluse dans le SDK Windows pour Windows Vista utilise le chemin d’accès le plus récent. Les versions précédentes utilisaient l’ancien chemin d’accès.
 
-Dans les notes qui suivent, l’étiquette *<DebugRoot>* est utilisée pour indiquer ces deux chemins d’accès. remplacez le chemin d’accès correct, selon la version de Windows ou la version des classes de base.
+Dans les notes qui suivent, l’étiquette *&lt; DebugRoot &gt;* est utilisée pour indiquer ces deux chemins d’accès. remplacez le chemin d’accès correct, selon la version de Windows ou la version des classes de base.
 
 **Journalisation du débogage**
 
@@ -82,7 +82,7 @@ DbgLog((LOG_TRACE, 3, TEXT("This is a debug message")));
 
 Chaque module peut définir son propre niveau de débogage pour chaque type de message. (Un *module* est une dll ou un fichier exécutable qui peut être chargé à l’aide de la fonction **LoadLibrary** .) Les niveaux de débogage d’un module s’affichent dans le Registre sous la clé suivante :
 
-**HKEY \_ local \_ machine**\\**<DebugRoot>**\\**<ModuleName>**\\**<MessageType>**
+**HKEY \_ \_** \\ **&lt; DebugRoot &gt;** \\ **&lt; modulename &gt;** de l’ordinateur \\ **&lt; local &gt;**
 
 où *<Message Type>* est le type de message moins le « journal \_ » initial, par exemple, le **verrouillage** des messages de verrouillage des journaux \_ . Quand un module est chargé, la bibliothèque de débogage recherche les niveaux de journalisation du module dans le registre. Si les clés de Registre n’existent pas, la bibliothèque de débogage les crée.
 
@@ -103,7 +103,7 @@ La bibliothèque de débogage utilise le niveau le plus élevé, le niveau globa
 
 L’emplacement de sortie de débogage est déterminé par une autre clé de Registre :
 
-**HKEY \_ \_** \\ **<DebugRoot>** \\ **<Modile Name>** \\ **LogToFile** de l’ordinateur local
+**HKEY \_ \_Ordinateur local** \\ **&lt; DebugRoot &gt;** \\ **<Modile Name>** \\ **LogToFile**
 
 Si la valeur de cette clé est `Console` , la sortie est envoyée à la fenêtre de console. Si la valeur est `Deb` , `Debug` , `Debugger` ou une chaîne vide, la sortie est envoyée à la fenêtre du débogueur. Dans le cas contraire, la sortie est écrite dans un fichier spécifié par la clé de registre.
 

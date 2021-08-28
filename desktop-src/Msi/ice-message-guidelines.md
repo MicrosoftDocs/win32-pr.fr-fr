@@ -4,12 +4,12 @@ ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: Instructions relatives aux messages ICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0951f8573fce1b9dbe81b107fba2f2beb674ed063fae53182a7d2694ded35abb
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d603175dbecc12b0b9524db1a02d9ca677f61c87
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119821669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887446"
 ---
 # <a name="ice-message-guidelines"></a>Instructions relatives aux messages ICE
 
@@ -17,7 +17,7 @@ Les actions personnalisées ICE communiquent en appelant [**MsiProcessMessage**]
 
 Lors de la création d’une chaîne de message pour une action personnalisée ICE, mettez en forme la chaîne comme suit.
 
-*Nom de la glace* <tab> *Type* <tab> de message *Description* <tab> *URL ou emplacement* <tab> d’aide Nom de la *table* <tab> Nom de la *colonne* <tab> *Clé primaire* <tab> *Clé primaire* <tab> *Clé primaire* . . . (répétez cette opération pour autant de clés primaires que nécessaire)
+*Nom de la glace* &lt; onglet &gt; *type de message* onglet &lt; &gt; *Description* onglet &lt; &gt; *URL ou emplacement* onglet nom de la table nom de la colonne onglet nom de la &lt; &gt;  &lt; &gt; *colonne* &lt; &gt;  &lt; &gt;  &lt; &gt;  clé primaire onglet clé primaire. . . (répétez cette opération pour autant de clés primaires que nécessaire)
 
 Les trois premiers champs de la chaîne sont requis dans chaque message.
 

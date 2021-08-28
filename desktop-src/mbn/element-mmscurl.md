@@ -7,12 +7,12 @@ MSHAttr:
 title: MmscUrl
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eab913845a12f8a54c9cbc4f65de5208f7661555
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 24bf6cee6ee20a9906238db851eb72f4dfe47d10
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122986272"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480265"
 ---
 # <a name="span-idwwan_profile_v4element_mmscurlspanmmscurl"></a><span id="WWAN_profile_v4.element_MmscUrl"></span>MmscUrl
 
@@ -20,9 +20,9 @@ Spécifie l’URL du serveur MMSC pour l’appareil. facultatif.
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;MmsConfiguration&gt;](element-mmsconfiguration.md)  
-**&lt;MmscUrl&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<MmsConfiguration>](element-mmsconfiguration.md)  
+**<MmscUrl>**
 
 ## <a name="syntax"></a>Syntax
 
@@ -57,9 +57,7 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

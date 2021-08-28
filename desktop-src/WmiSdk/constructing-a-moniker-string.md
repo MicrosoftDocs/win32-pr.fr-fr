@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Construction d’une chaîne de moniker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44e54e29b3c8f14890dc1cedd5907059308e8d22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d6ee7f6ad7d090589d7aeb6419246b11168079ecf6b65e7a3d2470234d18494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925674"
 ---
 # <a name="constructing-a-moniker-string"></a>Construction d’une chaîne de moniker
 
@@ -18,11 +18,11 @@ Le format de chaîne de moniker est semblable à celui d’un chemin d’accès 
 
 Un moniker comprend les parties suivantes :
 
--   Préfixe WinMgmts : (obligatoire). Le préfixe indique à Windows Script Host (WSH) que le code suivant utilisera les objets de l' [API de script](scripting-api-objects.md).
+-   Préfixe WinMgmts : (obligatoire). le préfixe indique à l’hôte de script Windows (WSH) que le code suivant utilisera les objets de l' [API de script](scripting-api-objects.md).
 -   Un composant paramètres de sécurité (facultatif)
 -   Composant de chemin d’accès d’objet WMI (facultatif)
 
-Vous ne pouvez pas spécifier un mot de passe dans une chaîne de moniker WMI. Si vous devez modifier le mot de passe (paramètre *strPassword* ) ou le type d’authentification (paramètre *strAuthority* ) lors de la connexion à WMI, appelez [**SWbemLocator. ConnectServer**](swbemlocator-connectserver.md). N’oubliez pas que vous pouvez uniquement spécifier le mot de passe et l’autorité dans connexions aux ordinateurs distants. Toute tentative de définition de ces paramètres dans un script en cours d’exécution sur l’ordinateur local génère une erreur. Pour plus d’informations sur l’utilisation des paramètres de sécurité et des composants de chemin d’accès de l’objet, consultez [paramètres de sécurité WMI](/previous-versions/tn-archive/ee156574(v=technet.10)).
+Vous ne pouvez pas spécifier un mot de passe dans une chaîne de moniker WMI. Si vous devez modifier le mot de passe (paramètre *strPassword* ) ou le type d’authentification (paramètre *strAuthority* ) lors de la connexion à WMI, appelez [**SWbemLocator. ConnectServer**](swbemlocator-connectserver.md). N’oubliez pas que vous pouvez uniquement spécifier le mot de passe et l’autorité dans connexions aux ordinateurs distants. Toute tentative de définition de ces paramètres dans un script en cours d’exécution sur l’ordinateur local génère une erreur. pour plus d’informations sur l’utilisation des paramètres de sécurité et des composants de chemin d’accès de l’objet, consultez [Paramètres de sécurité WMI](/previous-versions/tn-archive/ee156574(v=technet.10)).
 
 Le moniker suivant spécifie l’objet [**SWbemServices**](swbemservices.md) qui représente la valeur par défaut racine de l’espace de noms \\ , avec l’emprunt d’identité activé et le privilège wbemPrivilegeDebug (SeDebugPrivilege) activé, et le privilège wbemPrivilegeSecurity (SeSecurityPrivilege) désactivé.
 
@@ -163,7 +163,7 @@ Le moniker suivant identifie l’instance du [**\_ disque logique Win32**](/wind
 
 
 
-Le moniker suivant définit le niveau d’emprunt d’identité sur emprunter l’identité et définit le \_ privilège de débogage de la se.
+le moniker suivant définit le niveau d’emprunt d’identité sur emprunter l’identité et définit le SE \_ privilège de débogage.
 
 
 ```VB
@@ -172,7 +172,7 @@ Le moniker suivant définit le niveau d’emprunt d’identité sur emprunter l�
 
 
 
-Le moniker suivant définit le niveau d’emprunt d’identité sur emprunter l’identité et définit le \_ privilège de débogage de la se. Elle révoque également le privilège d’arrêt de la SE \_ .
+le moniker suivant définit le niveau d’emprunt d’identité sur emprunter l’identité et définit le SE \_ privilège de débogage. elle révoque également le privilège d' \_ arrêt SE.
 
 
 ```VB

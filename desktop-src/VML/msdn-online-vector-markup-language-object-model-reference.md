@@ -4,12 +4,12 @@ description: cette rubrique décrit VML, une fonctionnalité déconseillée à p
 ms.assetid: 68a84c68-3aac-4971-9611-45f52e057708
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 092190bc12a4c2cc8c15817529a16524f17bdef1
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 4aa8c608a60cbdb5af0fa5699fb1d458a5f18552
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624305"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884165"
 ---
 # <a name="vml-object-model-reference"></a>Référence du modèle objet VML
 
@@ -92,7 +92,7 @@ Dans l’exemple ci-dessus, une forme est créée à l’aide de la méthode Doc
 
 L’une des implémentations de VML est par le biais de Microsoft Internet Explorer 5,0 ou version ultérieure. Pour configurer correctement l’objet de rendu dans une page Web, les ajouts suivants doivent être effectués :
 
-1.  Le schéma doit être configuré dans le <HTML> comme suit :
+1.  Le schéma doit être configuré dans la &lt; &gt; balise HTML initiale comme suit :
     ```HTML
     <HTML xmlns:v="urn:schemas-microsoft-com:vml">
     ```
@@ -486,7 +486,7 @@ Décrit comment remplir un tracé pour obtenir des remplissages plus complexes q
 <td>Méthode</td>
 <td>VgSigmaType. Ces valeurs comprennent :
 <ul>
-<li>Aucune</li>
+<li>Aucun</li>
 <li>Linéaire</li>
 <li>Sigma</li>
 <li>Quelconque</li>
@@ -525,7 +525,7 @@ Décrit comment remplir un tracé pour obtenir des remplissages plus complexes q
 <td>Type</td>
 <td>VgFillType. qui peut être l’un des suivants :
 <ul>
-<li>Arrière-plan</li>
+<li>Contexte</li>
 <li>Frame</li>
 <li>Dégradé</li>
 <li>GradientCenter</li>
@@ -1048,7 +1048,7 @@ Décrit un tracé vectoriel basé sur les données de texte, la police et les st
 | FitPath  | [VgTriState](msdn-online-vml-vgtristate.md). Dimensionne le texte pour remplir le tracé sur lequel il se trouve.                                 |
 | FitShape | [VgTriState](msdn-online-vml-vgtristate.md). Étire le tracé du texte vers les bords de la zone de forme.                      |
 | Activé       | [VgTriState](msdn-online-vml-vgtristate.md). Détermine si les chemins d’accès aux caractères sont affichés ou non.                    |
-| String   | Chaîne. Texte à afficher sous la forme d’un tracé de texte.                                                                                    |
+| Chaîne   | Chaîne. Texte à afficher sous la forme d’un tracé de texte.                                                                                    |
 | SupprEspace     | [VgTriState](msdn-online-vml-vgtristate.md). Supprime tout espace supplémentaire réservé pour les jambages ascendants et descendants s’il n’est pas utilisé. |
 | Cadencé   | [VgTriState](msdn-online-vml-vgtristate.md). Utilisez une mesure x droite au lieu de mesurer le long du tracé.                 |
 
@@ -1147,7 +1147,7 @@ Spécifie une couleur.
 <td><a href="#data-types-used-in-the-vml-object-model">Integer</a>. Composant bleu de la couleur. Peut être compris entre 0 et 255.</td>
 </tr>
 <tr class="odd">
-<td>String</td>
+<td>Chaîne</td>
 <td><a href="#data-types-used-in-the-vml-object-model">Chaîne</a>. Représentation textuelle de la couleur. Les types de couleur nommés suivants sont pris en charge :
 <ul>
 <li>Noir (#000000)</li>
@@ -1611,7 +1611,7 @@ Spécifie un vecteur à trois dimensions composé de trois nombres **doubles** .
 <li>Fraction</li>
 <li>Nombre</li>
 <li>Pourcentage</li>
-<li>Integer</li>
+<li>Entier</li>
 </ul></td>
 </tr>
 </tbody>

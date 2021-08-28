@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, à propos de, schéma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfd8c06d10e05c11b2cc7c578814bb4ded2d897d3b7913b9b3d341a8a6c49086
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4893151c81eefa0a17420e18d5d87da232641571
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883872"
 ---
 # <a name="adsi-schema-model"></a>Modèle de schéma ADSI
 
@@ -39,7 +39,7 @@ Lorsque l’interface ADSI est liée pour la première fois au serveur LDAP, ell
 ADSI tente ensuite de traiter les données de schéma et lit l’attribut [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) . Si l’attribut **modifyTimeStamp** existe et que l’interface ADSI traite correctement le schéma, ADSI écrit le sous-schéma sur le disque et crée les deux valeurs de Registre suivantes sous la clé. Si les données de sous-schéma existent, mais ne peuvent pas être traitées, aucune de ces valeurs de Registre n’est créée :
 
 -   Valeur d' **heure** , qui contient l’attribut [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) . Cette valeur est utilisée pour garantir que les données de schéma sont actuelles et empêche le rechargement constant des données de schéma.
--   Valeur de **fichier** qui contient le chemin d’accès à l’emplacement où ADSI stocke les données de schéma dans le système de fichiers. Par défaut, ADSI met en cache le sous-schéma dans le <systemroot> \\ répertoire SchCache avec un nom de fichier correspondant au nom du serveur LDAP.
+-   Valeur de **fichier** qui contient le chemin d’accès à l’emplacement où ADSI stocke les données de schéma dans le système de fichiers. Par défaut, ADSI met en cache le sous-schéma dans le &lt; &gt; \\ répertoire SystemRoot SchCache avec un nom de fichier correspondant au nom du serveur LDAP.
 
 Si les données de sous-schéma peuvent être traitées, mais qu’aucun attribut [**modifyTimeStamp**](/windows/desktop/ADSchema/a-modifytimestamp) n’est exposé, les données de schéma sont mises en cache en mémoire, mais elles ne sont pas écrites sur le disque. Si un serveur LDAP v3 a été contacté par le biais d’ADSI sur l’ordinateur local et qu’un sous-schéma mis en cache n’est pas présent, il est très probable pour l’une des raisons suivantes :
 

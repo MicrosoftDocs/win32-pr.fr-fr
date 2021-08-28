@@ -1,21 +1,21 @@
 ---
 description: Cette section explique comment créer un dictionnaire personnalisé pour la reconnaissance de l’écriture manuscrite.
 ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
-title: Création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
+title: création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80b9b7b5a1d9dfadddd83825aea7d6f676439999
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fe391125b21bfe35a9e1a69be6258e1643b424e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883883"
 ---
-# <a name="creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2"></a>Création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
+# <a name="creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2"></a>création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
 
 Cette section explique comment créer un dictionnaire personnalisé pour la reconnaissance de l’écriture manuscrite.
 
-Dans le système d’exploitation Windows 7 et le système d’exploitation Windows Server 2008 R2, la précision de la reconnaissance de l’écriture manuscrite peut être considérablement améliorée grâce à l’utilisation de dictionnaires personnalisés. Ces dictionnaires complètent ou remplacent les dictionnaires système utilisés pour l’écriture manuscrite. La prise en charge de la reconnaissance de l’écriture manuscrite est fournie par la fonctionnalité Services de prise en charge de l’écriture manuscrite qui doit être activée via Gestionnaire de serveur.
+dans le système d’exploitation Windows 7 et le système d’exploitation Windows Server 2008 R2, la précision de la reconnaissance de l’écriture manuscrite peut être considérablement améliorée grâce à l’utilisation de dictionnaires personnalisés. Ces dictionnaires complètent ou remplacent les dictionnaires système utilisés pour l’écriture manuscrite. La prise en charge de la reconnaissance de l’écriture manuscrite est fournie par la fonctionnalité Services de prise en charge de l’écriture manuscrite qui doit être activée via Gestionnaire de serveur.
 
 > [!Note]  
 > Les dictionnaires personnalisés peuvent être installés pour une langue uniquement si le module de reconnaissance de l’écriture manuscrite pour cette langue est installé.
@@ -49,8 +49,8 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -60,12 +60,12 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 </thead>
 <tbody>
 <tr class="odd">
-<td>-lang <localename></td>
-<td>Nom des paramètres régionaux spécifiés attribués au fichier de dictionnaire personnalisé compilé. L’argument <localename> se présente sous la forme langue-région. Par exemple, est en-US, ce qui signifie la langue anglaise dans la région États-Unis. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. Les langues suivantes sont prises en charge pour Windows 7 et Windows Server 2008 R2 par cette fonctionnalité : en-US, en-GB, en-CA, en-au, de-DE, de-CH, fr-FR, es-ES, es-MX, es-AR, IT-IT, NL-NL, NL-is, PT-BR, PT-PT, da-DK, SV-SE, NB-NO, NN-NO, FI-FI, PL-PL, CS-CZ, ru-RU, RO-RO, SR-LATN-CS, SR-Cyrl-CS, ca-ES et HR-HR.<br/></td>
+<td>-lang &lt; localename&gt;</td>
+<td>Nom des paramètres régionaux spécifiés attribués au fichier de dictionnaire personnalisé compilé. L’argument &lt; localename &gt; se présente sous la forme langue-région. Par exemple, est en-US, ce qui signifie la langue anglaise dans la région États-Unis. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. les langues suivantes sont prises en charge pour Windows 7 et Windows Server 2008 R2 par cette fonctionnalité : en-US, en-GB, en-CA, en-au, de-de, de-CH, fr-fr, es-es, es-MX, es-AR, it-it, nl-nl, nl-is, pt-BR, pt-pt, da-DK, sv-SE, nb-no, nn-no, fi-fi, pl-pl, cs-CZ, ru-ru, ro-ro, sr-Latn-cs, sr-Cyrl-cs, CA-es et hr-hr.<br/></td>
 </tr>
 <tr class="even">
-<td>-type <type></td>
-<td>L’argument option <type> est une concaténation à chaîne unique de l’utilisation de la ressource en tant que liste de mots principale (principale) ou en complément de la liste de mots principale (secondaire), suivie du nom de la liste de mots réelle à laquelle la ressource est appliquée (par exemple, dictionary ou Surname). Les valeurs possibles sont les suivantes :
+<td>type-type &lt;&gt;</td>
+<td>Le type d’argument option &lt; &gt; est une concaténation à chaîne unique de l’utilisation de la ressource en tant que liste de mots principale (principale) ou en complément de la liste de mots principale (secondaire), suivie du nom de la liste de mots réelle à laquelle la ressource est appliquée (par exemple, dictionary ou Surname). Les valeurs possibles sont les suivantes :
 <ul>
 <li>PRIMARY-NOM_VILLE-LIST</li>
 <li>PRIMARY-COUNTRYNAME-LIST</li>
@@ -131,7 +131,7 @@ hwrcomp -lang en-US -type SECONDARY-DICTIONARY -o myrsrc1 mylist1.txt
 
 ## <a name="installing-a-compiled-custom-dictionary"></a>Installation d’un dictionnaire personnalisé compilé
 
-HwrComp.exe crée un fichier. hwrdict, qui est dans un format binaire utilisable par un module de reconnaissance de l’écriture manuscrite. Ce fichier peut être installé sur n’importe quel ordinateur exécutant Windows 7 ou Windows Server 2008 R2 qui prend en charge la reconnaissance de l’écriture manuscrite. Un dictionnaire est installé uniquement pour l’utilisateur actuel ou pour tous les utilisateurs sur un ordinateur.
+HwrComp.exe crée un fichier. hwrdict, qui est dans un format binaire utilisable par un module de reconnaissance de l’écriture manuscrite. ce fichier peut être installé sur n’importe quel ordinateur exécutant Windows 7 ou Windows Server 2008 R2 qui prend en charge la reconnaissance de l’écriture manuscrite. Un dictionnaire est installé uniquement pour l’utilisateur actuel ou pour tous les utilisateurs sur un ordinateur.
 
 Un fichier de dictionnaire personnalisé compilé peut être installé à partir de la ligne de commande à l’aide de l’outil HwrReg.exe. Cet outil est utile si vous souhaitez remplacer certaines des valeurs de configuration qui sont compilées dans le fichier ou qui sont les valeurs par défaut. Il existe deux façons d’exécuter HwrReg.exe : en mode vérification/installation et en mode liste/suppression.
 
@@ -154,7 +154,7 @@ Usage: hwrreg        [-check]
 | Paramètre                | Description                                                                                                                                                                                                                                                                                                                                                                        |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -vérifier                   | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé.<br/>  |
-|  lang <localename> | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé. <br/> |
+|  &lt;localename lang&gt; | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé. <br/> |
 |  étendue {All \| me}         | Le dictionnaire personnalisé est installé pour tous les utilisateurs (étendue tous) ou uniquement pour l’utilisateur actuel (étendue me). L’installation de avec l’étendue All requiert que la commande soit exécutée dans une invite de commandes avec élévation de privilèges ; dans le cas contraire, un code d’erreur est retourné. <br/> Si cette option est manquante, l’installation est limitée à l’utilisateur actuel.<br/>                          |
 |  commutateur noprompt                | HwrReg.exe ne demande pas de confirmation. Cela peut être utile lors de l’exécution de hwrReg.exe à partir d’un script. <br/>                                                                                                                                                                                                                                                                 |
 
@@ -185,9 +185,9 @@ Usage: hwrreg        [-lang <localename>]
 
 | Paramètre                | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  lang <localename> | Les dictionnaires inscrits pour uniquement ce nom de paramètres régionaux sont répertoriés ou supprimés. L’argument <localename> a la région de langue du formulaire. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. <br/> Si cette option est manquante, les dictionnaires pour toutes les langues sont répertoriés ou supprimés.<br/> |
+|  &lt;localename lang&gt; | Les dictionnaires inscrits pour uniquement ce nom de paramètres régionaux sont répertoriés ou supprimés. L’argument &lt; localename &gt; a la région de langue du formulaire. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. <br/> Si cette option est manquante, les dictionnaires pour toutes les langues sont répertoriés ou supprimés.<br/> |
 |  étendue {All \| me}         | Le dictionnaire personnalisé est installé pour tous les utilisateurs (étendue tous) ou uniquement pour l’utilisateur actuel (étendue me). L’installation de avec l’étendue All requiert que la commande soit exécutée dans une invite de commandes avec élévation de privilèges ; dans le cas contraire, un code d’erreur est retourné. <br/> Si cette option est manquante, l’installation est limitée à l’utilisateur actuel.<br/>                      |
-|  entrer <type>       | Répertorie ou supprime uniquement les dictionnaires inscrits avec le type spécifié.<br/> Si cette option est manquante, tous les types de dictionnaires sont répertoriés ou supprimés. L’installation ou la suppression d’un dictionnaire personnalisé d’un autre type (par exemple, PRIMARY-COUNTRYNAME-LIST) peut affecter la reconnaissance de l’écriture manuscrite dans d’autres contextes. <br/>                                              |
+|  type &lt; de type&gt;       | Répertorie ou supprime uniquement les dictionnaires inscrits avec le type spécifié.<br/> Si cette option est manquante, tous les types de dictionnaires sont répertoriés ou supprimés. L’installation ou la suppression d’un dictionnaire personnalisé d’un autre type (par exemple, PRIMARY-COUNTRYNAME-LIST) peut affecter la reconnaissance de l’écriture manuscrite dans d’autres contextes. <br/>                                              |
 |  list                    | Répertorie tous les dictionnaires installés qui correspondent aux autres options.<br/> Si cette option est manquante, l’option supprimer doit être spécifiée.<br/>                                                                                                                                                                                                                          |
 |  remove                  | Demande la suppression d’un dictionnaire qui correspond aux autres options.<br/> Si cette option est manquante, la liste d’options doit être spécifiée.<br/>                                                                                                                                                                                                                     |
 

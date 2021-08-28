@@ -1,19 +1,19 @@
 ---
-description: L' <templateInfo> élément est un conteneur pour l’élément FolderType, qui spécifie un type de dossier pour afficher les résultats d’une requête sur cette bibliothèque. Cet élément est facultatif et n’a pas d’attributs.
+description: L' &lt; &gt; élément templateInfo est un conteneur pour l’élément FolderType, qui spécifie un type de dossier pour afficher les résultats d’une requête sur cette bibliothèque. Cet élément est facultatif et n’a pas d’attributs.
 ms.assetid: C555097A-E7B8-45ef-8CFA-19CFBC5E9D5A
 title: Élément templateInfo (schéma de bibliothèque)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eda0c42e71db2e47335371b51d9dc819620e6b28dfac63ee9c0e2a640ccab0b9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f55fec64bf7418eef8e70c4cf8fa1ee47006c5f2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119942089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885525"
 ---
 # <a name="templateinfo-element-library-schema"></a>Élément templateInfo (schéma de bibliothèque)
 
-L' <templateInfo> élément est un conteneur pour l’élément [FolderType](schema-library-foldertype.md) , qui spécifie un type de dossier pour afficher les résultats d’une requête sur cette bibliothèque. Cet élément est facultatif et n’a pas d’attributs.
+L' &lt; &gt; élément templateInfo est un conteneur pour l’élément [FolderType](schema-library-foldertype.md) , qui spécifie un type de dossier pour afficher les résultats d’une requête sur cette bibliothèque. Cet élément est facultatif et n’a pas d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

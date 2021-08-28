@@ -4,12 +4,12 @@ description: Les barres d’outils sont un moyen de regrouper les commandes pour
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8015e1dec17ad524645b474b21d42af9269ffbc8d24279c56612620f0e4bb615
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 461b9045716ed6cc894a88079e4626107f954a99
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118450035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884427"
 ---
 # <a name="toolbars"></a>Barres d'outils
 
@@ -143,7 +143,7 @@ Les barres d’outils ont les styles suivants :
 
 
 
-|   Style                                                                                                                                     |  Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|   Style                                                                                                                                     | Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Icônes sans étiquette**<br/> une ou plusieurs lignes de petits boutons d’icône sans étiquette. <br/>                                           | Utilisez ce style si le nombre de boutons à étiqueter est trop important ou si le programme est fréquemment utilisé. avec ce style, les programmes avec des fonctionnalités complexes peuvent avoir plusieurs lignes et, par conséquent, il s’agit du seul style qui doit être personnalisable. avec ce style, certains boutons de commande peuvent être étiquetés s’ils sont fréquemment utilisés. <br/> ![capture d’écran de la barre d’outils avec petites icônes sans étiquette ](images/cmd-toolbars-image14.png)<br/> Barre d’outils d’icônes sans étiquette de WordPad.<br/> |
 | **Grandes icônes sans étiquette**<br/> une seule ligne de boutons de grande icône sans étiquette. <br/>                                         | Utilisez ce style pour les utilitaires simples qui ont des icônes facilement identifiables et qui sont généralement exécutés dans des fenêtres de petite taille. <br/> ![capture d’écran de la barre d’outils avec grandes icônes sans étiquette ](images/cmd-toolbars-image15.png)<br/> ![capture d’écran de la barre d’outils avec de grandes icônes ](images/cmd-toolbars-image16.png)<br/> les barres d’outils grandes icônes sans étiquette de Windows Live Messenger et Windows outil capture.<br/>                                                                       |
@@ -356,46 +356,60 @@ Ces commandes reflètent les commandes qui se trouvent dans les barres de menus 
 
 <dl> Fichier <dl> NewCtrl + N  
 Ouvrir... Ctrl + O  
-Fermez <separator>  
+Fermer  
+&lt;separator&gt;  
 SaveCtrl + S  
-Enregistrer sous... <separator>  
-Envoyer à <separator>  
+Enregistrer sous...  
+&lt;separator&gt;  
+Envoyer à  
+&lt;separator&gt;  
 Imprimer... Ctrl + P  
 Aperçu avant impression  
-Mise en page <separator>  
+Mise en page  
+&lt;separator&gt;  
 Exinitialisationt + F4 (raccourci généralement non fourni)
 </dl> </dd> Edit(menu button) <dl> UndoCtrl + Z  
-RedoCtrl + Y <separator>  
+RedoCtrl + Y  
+&lt;separator&gt;  
 CutCtrl + X  
 CopyCtrl + C  
-PasteCtrl + V <separator>  
-Sélectionner allCtrl + A <separator>  
+PasteCtrl + V  
+&lt;separator&gt;  
+Sélectionner allCtrl + A  
+&lt;separator&gt;  
 DeleteDel (raccourci généralement non fourni)  
-Renommer... <separator>  
+Renommer...  
+&lt;separator&gt;  
 Rechercher... Ctrl + F  
 Find nextF3 (commande généralement non fournie)  
 Remplacer... Ctrl + H  
 Atteindre... CTRL + G
 </dl> </dd> <dd>Imprimer (bouton partagé) <dl> Imprimer... Ctrl + P  
-Aperçu avant impression <separator>  
+Aperçu avant impression  
+&lt;separator&gt;  
 Mise en page
 </dl> </dd> Vue (bouton de menu) <dl> Barre de menus (vérifier si visible)  
 Volet d’informations (vérifier si visible)  
 Volet de visualisation (vérifier si visible)  
-Barre d’État (vérifier si visible) <separator>  
+Barre d’État (vérifier si visible)  
+&lt;separator&gt;  
 Zoom  
 Zoom inctrl + +  
-Zoom arrière CTRL +- <separator>  
+Zoom arrière CTRL +-  
+&lt;separator&gt;  
 Taille du texte (le paramètre sélectionné contient une puce) <dl> Élevée  
 Plus grand  
-Moyen  
+Moyenne  
 Plus petite  
 Plus petit
-</dl> </dd> <separator> ScreenF11 complet  
-RefreshF5
-</dl> </dd> Tools(menu button) <dl> ... <separator>  
+</dl> </dd> &lt;separator&gt;  
+Full screenF11  
+RefreshF5  
+</dl> </dd> Tools(menu button) <dl> ...  
+&lt;separator&gt;  
 Options
-</dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1 <separator>  
+</dl>> </dd> Help(split button, use the Help icon) <dl> <program name> helpF1  
+&lt;separator&gt;  
 Obtenir <program name>  
 </dl> </dd> </dl>
 
@@ -566,7 +580,7 @@ Lorsque vous faites référence à des barres d’outils :
 -   Reportez-vous aux éléments non disponibles comme indisponibles, non estompés, désactivés ou grisés. Utilisez Disabled dans la documentation de programmation.
 -   Dans la mesure du possible, mettez en forme les étiquettes à l’aide du texte gras. Dans le cas contraire, placez les étiquettes entre guillemets uniquement si nécessaire pour éviter toute confusion.
 
-Exemples :
+Exemples :
 
 -   Dans le menu **page** de la barre d’outils, cliquez sur **Envoyer la page par courrier électronique**.
 -   Dans la zone **polices** de la barre d’outils, entrez « Segoe UI ».

@@ -18,17 +18,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d410adb592c3d56d2f9880ec809749396318258a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d0e47a117c044899a8b078290be622cfecdae91
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520167"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122482905"
 ---
 # <a name="jetbeginexternalbackup-function"></a>JetBeginExternalBackup fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetbeginexternalbackup-function"></a>JetBeginExternalBackup fonction)
 
@@ -50,128 +50,47 @@ La sauvegarde sera approximative, car la sauvegarde sera cohérente à un point 
 
 Groupe de bits qui spécifient zéro, une ou plusieurs des options suivantes.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitBackupAtomic</p></td>
-<td><p>Cet indicateur est déconseillé. L’utilisation de ce bit entraîne le retour de JET_errInvalidgrbit.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitBackupIncremental</p></td>
-<td><p>Crée une sauvegarde incrémentielle par opposition à une sauvegarde complète. Cela signifie que seuls les fichiers journaux depuis la dernière sauvegarde complète ou incrémentielle sont sauvegardés.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitBackupSnapshot</p></td>
-<td><p>Réservé pour un usage futur. Défini pour Windows XP.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitBackupAtomic</p> | <p>Cet indicateur est déconseillé. L’utilisation de ce bit entraîne le retour de JET_errInvalidgrbit.</p> | 
+| <p>JET_bitBackupIncremental</p> | <p>Crée une sauvegarde incrémentielle par opposition à une sauvegarde complète. Cela signifie que seuls les fichiers journaux depuis la dernière sauvegarde complète ou incrémentielle sont sauvegardés.</p> | 
+| <p>JET_bitBackupSnapshot</p> | <p>Réservé pour un usage futur. défini pour Windows XP.</p> | 
+
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errBackupInProgress</p></td>
-<td><p>Si une sauvegarde externe ou de capture instantanée est déjà en cours, cette erreur est retournée, jusqu’à ce que <strong>JetBeginExternalBackup</strong> (ou l’une des variantes de celle-ci) soit appelé. ESE n’autorise qu’une seule sauvegarde en ligne à la fois.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errBackupNotAllowedYet</p></td>
-<td><p>L’instance ou le moteur de base de données est en mode de récupération ou d’arrêt ou d’arrêt.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errCheckpointCorrupt</p></td>
-<td><p>Sur une sauvegarde complète, le fichier de point de contrôle n’a pas pu être lu ou le fichier n’a pas pu être vérifié.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errCheckpointFileNotFound</p></td>
-<td><p>Dans le cas d’une sauvegarde complète, le fichier de point de contrôle est introuvable.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :  </strong> Cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidBackup</p></td>
-<td><p>L’enregistrement circulaire est activé et le type de sauvegarde spécifié est JET_bitBackupIncremental. Pour plus d’informations sur la façon de contrôler la journalisation circulaire ou non circulaire, consultez <a href="gg269235(v=exchg.10).md">JET_paramCircularLog</a> dans les <strong>Erreurs du journal des transactions</strong> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>Un ou plusieurs des membres <em>Grbit</em> ne sont pas valides.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errLoggingDisabled</p></td>
-<td><p>La récupération ou la journalisation est désactivée. Vous ne pouvez pas effectuer une sauvegarde en ligne si la journalisation est désactivée. Pour plus d’informations sur la journalisation et la récupération, consultez <a href="gg269235(v=exchg.10).md">JET_paramRecovery</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errLogWriteFail</p></td>
-<td><p>Le moteur a cessé d’écrire sur le lecteur de journal, en raison d’erreurs d’e/s disque complètes ou d’e/s disque.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errMissingFullBackup</p></td>
-<td><p>La sauvegarde incrémentielle a été spécifiée (avec JET_bitBackupIncremental) et jamais une sauvegarde complète de l’une des bases de données attachées pour le jeu de journalisation.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRunningInMultiInstanceMode</p></td>
-<td><p>L’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (mode de compatibilité de Windows 2000), où une seule instance est prise en charge lorsque plusieurs instances existent déjà.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>L’opération ne peut pas se terminer car l’instance qui est associée à la session est en cours d’arrêt.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errBackupInProgress</p> | <p>Si une sauvegarde externe ou de capture instantanée est déjà en cours, cette erreur est retournée, jusqu’à ce que <strong>JetBeginExternalBackup</strong> (ou l’une des variantes de celle-ci) soit appelé. ESE n’autorise qu’une seule sauvegarde en ligne à la fois.</p> | 
+| <p>JET_errBackupNotAllowedYet</p> | <p>L’instance ou le moteur de base de données est en mode de récupération ou d’arrêt ou d’arrêt.</p> | 
+| <p>JET_errCheckpointCorrupt</p> | <p>Sur une sauvegarde complète, le fichier de point de contrôle n’a pas pu être lu ou le fichier n’a pas pu être vérifié.</p> | 
+| <p>JET_errCheckpointFileNotFound</p> | <p>Dans le cas d’une sauvegarde complète, le fichier de point de contrôle est introuvable.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Impossible d’effectuer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Impossible d’effectuer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p><p><strong>Windows XP :</strong> cette valeur de retour est introduite dans Windows XP.</p> | 
+| <p>JET_errInvalidBackup</p> | <p>L’enregistrement circulaire est activé et le type de sauvegarde spécifié est JET_bitBackupIncremental. Pour plus d’informations sur la façon de contrôler la journalisation circulaire ou non circulaire, consultez <a href="gg269235(v=exchg.10).md">JET_paramCircularLog</a> dans les <strong>Erreurs du journal des transactions</strong> .</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>Un ou plusieurs des membres <em>Grbit</em> ne sont pas valides.</p> | 
+| <p>JET_errLoggingDisabled</p> | <p>La récupération ou la journalisation est désactivée. Vous ne pouvez pas effectuer une sauvegarde en ligne si la journalisation est désactivée. Pour plus d’informations sur la journalisation et la récupération, consultez <a href="gg269235(v=exchg.10).md">JET_paramRecovery</a>.</p> | 
+| <p>JET_errLogWriteFail</p> | <p>Le moteur a cessé d’écrire sur le lecteur de journal, en raison d’erreurs d’e/s disque complètes ou d’e/s disque.</p> | 
+| <p>JET_errMissingFullBackup</p> | <p>La sauvegarde incrémentielle a été spécifiée (avec JET_bitBackupIncremental) et jamais une sauvegarde complète de l’une des bases de données attachées pour le jeu de journalisation.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible d’effectuer l’opération, car l’instance associée à la session n’a pas encore été initialisée.</p> | 
+| <p>JET_errOutOfMemory</p> | <p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Impossible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errRunningInMultiInstanceMode</p> | <p>l’opération a échoué en raison d’une tentative d’utilisation du moteur en mode hérité (Windows mode de compatibilité 2000), où une seule instance est prise en charge lorsqu’il existe déjà plusieurs instances.</p> | 
+| <p>JET_errTermInProgress</p> | <p>L’opération ne peut pas se terminer car l’instance qui est associée à la session est en cours d’arrêt.</p> | 
+
 
 
 Si la fonction est réussie, une sauvegarde externe est lancée et le moteur d’état de sauvegarde est initialisé. Les API suivantes peuvent maintenant être appelées pour terminer la séquence de sauvegarde externe et diffuser ou lire le fichier de base de données, le fichier de correctif de base de données (si pris en charge) et le fichier journal. Un événement peut être enregistré au début d’une sauvegarde externe.
 
 Si la fonction échoue, la session de sauvegarde ne sera pas initiée. Si une autre session de sauvegarde est en cours, elle ne sera pas annulée.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 Le processus de sauvegarde externe (tel qu’il a été démarré par **JetBeginExternalBackup**) est conçu pour permettre une sauvegarde en ligne de transactions approximatives de la totalité de l’instance sur un appareil cible en tant que flux. La sauvegarde contient tous les fichiers de base de données qui sont attachés à l’instance à l’aide de [JetAttachDatabase](./jetattachdatabase-function.md) (pour une sauvegarde complète), suivis des fichiers correctifs de base de données associés (si pris en charge), et enfin des fichiers journaux des transactions qui ont été générés pendant le processus de sauvegarde. Le résultat final est un ensemble de fichiers qui peuvent être restaurés à partir du flux, éventuellement combinés avec des fichiers de base de données et des fichiers journaux existants, et enfin récupérés dans un état cohérent.
 
@@ -181,38 +100,13 @@ Il est également possible de modifier cet ensemble d’étapes pour effectuer u
 
 Il est également possible de modifier cet ensemble d’étapes pour permettre l’exécution de sauvegardes différentielles ultérieures de l’instance. Pour effectuer une sauvegarde différentielle, n’appelez pas [JetTruncateLog](./jettruncatelog-function.md) dans la sauvegarde complète ou incrémentielle précédente. Si vous n’appelez pas [JetTruncateLog](./jettruncatelog-function.md), vous autorisez les sauvegardes suivantes à être différentielles en ce qui concerne la dernière sauvegarde complète ou incrémentielle. Les sauvegardes différentielles ne sont possibles que si l’enregistrement circulaire n’est pas activé.
 
-Le fichier de correctif de base de données est un fichier auxiliaire spécial qui est utilisé pour stocker les images de page de base de données dans certaines circonstances pendant la sauvegarde. Ce fichier doit être présent dans le même emplacement que la base de données qui lui est associée au cours d’une opération de restauration. Ce fichier est utilisé uniquement dans Windows 2000. Par conséquent, toute application écrite pour fonctionner sur Windows 2000 et d’autres versions doit prendre en charge les fichiers correctifs de base de données, le cas échéant, mais elle ne doit pas non plus échouer si elles ne sont pas présentes.
+Le fichier de correctif de base de données est un fichier auxiliaire spécial qui est utilisé pour stocker les images de page de base de données dans certaines circonstances pendant la sauvegarde. Ce fichier doit être présent dans le même emplacement que la base de données qui lui est associée au cours d’une opération de restauration. ce fichier est utilisé uniquement dans Windows 2000. par conséquent, toute application écrite pour fonctionner sur Windows 2000 et d’autres versions doit prendre en charge les fichiers correctifs de base de données, le cas échéant, mais elle ne doit pas non plus échouer si elles ne sont pas présentes.
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

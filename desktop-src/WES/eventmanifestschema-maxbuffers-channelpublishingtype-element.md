@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 042d7d7dad91a141b69d8d728007208ef1c5eff5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 288c82b43eb348410185cfaa22203686bef7eeeafeca40d06d447aed20d255a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118120896"
 ---
 # <a name="maxbuffers-channelpublishingtype-element"></a>Élément maxBuffers (ChannelPublishingType)
 
@@ -38,8 +38,8 @@ L’élément **maxBuffers** est défini par le type complexe [**ChannelPublishi
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

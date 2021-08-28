@@ -4,12 +4,12 @@ ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
 title: Propriété (documents et impression)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dedeb635ec0f16fe4caee48d8e5db7fbcc8bfe6651e3bdc4de2166dbbc053286
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 911d89913daa9f828fddd4f9fb8dee8bd6a53e01
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119886319"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883453"
 ---
 # <a name="property-documents-and-printing"></a>Propriété (documents et impression)
 
@@ -21,7 +21,7 @@ Une propriété peut être complexe, contenant éventuellement plusieurs sous-pr
 
 ## <a name="element-tag"></a>Balise d’élément
 
-<Property>
+&lt;Propriété&gt;
 
 ## <a name="xml-attributes"></a>Attributs XML
 
@@ -63,7 +63,7 @@ Une propriété peut avoir des dépendances de configuration, sauf lorsqu’elle
 
 En plus d’apparaître dans les éléments de fonctionnalité et d’option, les éléments de propriété peuvent apparaître au niveau racine des technologies sous-jacentes respectives. Le schéma d’impression définit un ensemble d’éléments de propriété qui peuvent être utilisés pour décrire un appareil de manière portable. Toutefois, si ces propriétés sont insuffisantes pour vos besoins en tant que fournisseur PrintCapabilities (généralement parce que l’appareil pris en charge a de nouveaux aspects non anticipés par le schéma d’impression), vous pouvez introduire vos propres éléments de propriété privés. Vous pouvez améliorer ou développer les informations fournies par une propriété publique en ajoutant une ou plusieurs sous-propriétés privées en tant que contenu d’élément de la propriété publique.
 
-Les éléments de propriété sont définis à l’aide d’une balise d’élément XML, <Property> . Un nom est attribué à chaque propriété au moyen de son attribut Name. Le nom doit être un QName XML et doit être conforme à la Convention d’espace de noms. Pour plus d’informations, consultez [attributs XML](xml-attributes.md). L’attribut de nom de propriété et son emplacement dans la hiérarchie des éléments de propriété parents (s’il s’agit d’une sous-propriété) identifient de façon unique la propriété dans le document PrintCapabilities ou PrintTicket.
+Les éléments de propriété sont définis à l’aide d’une balise d’élément XML, &lt; Property &gt; . Un nom est attribué à chaque propriété au moyen de son attribut Name. Le nom doit être un QName XML et doit être conforme à la Convention d’espace de noms. Pour plus d’informations, consultez [attributs XML](xml-attributes.md). L’attribut de nom de propriété et son emplacement dans la hiérarchie des éléments de propriété parents (s’il s’agit d’une sous-propriété) identifient de façon unique la propriété dans le document PrintCapabilities ou PrintTicket.
 
 Une propriété peut contenir un ou plusieurs éléments de valeur, ou un ou plusieurs éléments de propriété enfants (appelés sous-propriétés), ou une combinaison des deux. Les sous-propriétés sont utiles lorsque la propriété elle-même est composée de plusieurs composants. Par exemple, une propriété « ConsumableColor » peut avoir des composants « C », « M » et « Y ».
 

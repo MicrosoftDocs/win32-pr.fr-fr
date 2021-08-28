@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8c8e9a279f536622cfdfccb8bc8882914aeee64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dfc8bec0e6cee6e127dc99135d82db3ee3001ab
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866825"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478345"
 ---
 # <a name="jetgetinstanceinfo-function"></a>JetGetInstanceInfo fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgetinstanceinfo-function"></a>JetGetInstanceInfo fonction)
 
 La fonction **JetGetInstanceInfo** récupère des informations sur les instances qui sont en cours d’exécution.
 
-**Windows XP : JetGetInstanceInfo** est introduit dans Windows XP.
+**Windows xp : JetGetInstanceInfo** est introduit dans Windows xp.
 
 ```cpp
     JET_ERR JET_API JetGetInstanceInfo(
@@ -57,40 +57,18 @@ Pointeur vers une mémoire tampon qui reçoit l’adresse du premier élément d
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cette erreur est retournée par <strong>JetGetInstanceInfo</strong> quand :</p>
-<ul>
-<li><p><em>pcInstanceInfo</em> ou <em>paInstanceInfo</em> ont la valeur null.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>La mémoire est insuffisante pour traiter la demande.</p></td>
-</tr>
-</tbody>
-</table>
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 
-#### <a name="remarks"></a>Notes
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>L’un des paramètres fournis contenait une valeur inattendue ou contenait une valeur qui n’a pas de sens lorsqu’elle était associée à la valeur d’un autre paramètre. Cette erreur est retournée par <strong>JetGetInstanceInfo</strong> quand :</p><ul><li><p><em>pcInstanceInfo</em> ou <em>paInstanceInfo</em> ont la valeur null.</p></li></ul> | 
+| <p>JET_errOutOfMemory</p> | <p>La mémoire est insuffisante pour traiter la demande.</p> | 
+
+
+
+#### <a name="remarks"></a>Remarques
 
 Le moteur de base de données alloue un tableau de structures de [JET_INSTANCE_INFO](./jet-instance-info-structure.md) . L’appelant est chargé de libérer cette mémoire avec [JetFreeBuffer](./jetfreebuffer-function.md).
 
@@ -98,38 +76,9 @@ S’il n’y a aucune instance active, **JetGetInstanceInfo** retourne JET_errSu
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté en tant que <strong>JetGetInstanceInfoW</strong> (Unicode) et <strong>JetGetInstanceInfoA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté en tant que <strong>JetGetInstanceInfoW</strong> (Unicode) et <strong>JetGetInstanceInfoA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

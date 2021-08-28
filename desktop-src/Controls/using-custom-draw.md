@@ -4,12 +4,12 @@ description: Cette section contient des exemples qui montrent comment implément
 ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f0b8a2585103aa27a27f0138a49885cc726d3b1
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: e90cff5fd4d692d31b69c85980f872f3aca4504cad81a3439d0c4d31a4c73d90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104030862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655869"
 ---
 # <a name="using-custom-draw"></a>Utilisation d’un dessin personnalisé
 
@@ -102,9 +102,9 @@ La notification finale est envoyée uniquement si le contrôle est en mode rappo
 [EXEMPLE : CustDTv illustre un dessin personnalisé dans un contrôle TreeView (Q248496)](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

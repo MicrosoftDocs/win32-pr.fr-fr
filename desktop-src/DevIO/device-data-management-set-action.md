@@ -4,12 +4,12 @@ ms.assetid: ff688c9a-8669-4699-aab9-1e2e3a5c7fca
 title: DEVICE_DATA_MANAGEMENT_SET_ACTION (WinIoCtl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 524d1dbd2ecf09dbcfa66fa766089dde7cf04a0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 602243e31645e1cc4706e3a3a2b954bb68fc2cbda58a0f0b6c9076ae6b0797f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119654919"
 ---
 # <a name="device_data_management_set_action"></a>ACTION de définition de la \_ gestion des données d’appareil \_ \_ \_
 
@@ -66,7 +66,7 @@ Une action de notification est effectuée. Les paramètres se trouvent dans une 
 
 Une action de lecture de déchargement est effectuée. Les paramètres se trouvent dans une structure de [**\_ paramètres de \_ \_ lecture \_ de déchargement de DSM d’appareil**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_read_parameters) . La sortie se trouve dans une structure de [**\_ sortie de \_ lecture \_ de déchargement de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_read_output) . Le **DeviceDsmActionFlag non \_ destructif** (0x80000000) est un indicateur binaire pour indiquer à la pile de pilotes que cette opération n’est pas destructrice.
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -81,7 +81,7 @@ Une action de lecture de déchargement est effectuée. Les paramètres se trouve
 
 Une action d’écriture de déchargement est effectuée. Les paramètres se trouvent dans une structure de [**\_ paramètres d' \_ \_ écriture \_ de déchargement de DSM d’appareil**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_dsm_offload_write_parameters) . La sortie se trouve dans une structure de [**\_ sortie d' \_ écriture \_ de déchargement de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_offload_write_output) .
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -96,7 +96,7 @@ Une action d’écriture de déchargement est effectuée. Les paramètres se tro
 
 Une bitmap d’allocation est retournée pour la première plage de jeux de données passée. La sortie est dans une structure d' [**\_ \_ \_ \_ \_ État de provisionnement du jeu de données d’appareil**](/windows/desktop/api/WinIoCtl/ns-winioctl-device_data_set_lb_provisioning_state) . Le **DeviceDsmActionFlag non \_ destructif** (0x80000000) est un indicateur binaire pour indiquer à la pile de pilotes que cette opération n’est pas destructrice.
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -111,7 +111,7 @@ Une bitmap d’allocation est retournée pour la première plage de jeux de donn
 
 Une action de réparation est effectuée. Le **DeviceDsmActionFlag non \_ destructif** (0x80000000) est un indicateur binaire pour indiquer à la pile de pilotes que cette opération n’est pas destructrice.
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -126,7 +126,7 @@ Une action de réparation est effectuée. Le **DeviceDsmActionFlag non \_ destru
 
 Une action de nettoyage est effectuée. Le **DeviceDsmActionFlag non \_ destructif** (0x80000000) est un indicateur binaire pour indiquer à la pile de pilotes que cette opération n’est pas destructrice.
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> <dt>
@@ -141,7 +141,7 @@ Une action de nettoyage est effectuée. Le **DeviceDsmActionFlag non \_ destruct
 
 Une action de résilience est effectuée. Le **DeviceDsmActionFlag non \_ destructif** (0x80000000) est un indicateur binaire pour indiquer à la pile de pilotes que cette opération n’est pas destructrice.
 
-**Windows 7 et Windows Server 2008 R2 :** Cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
+**Windows 7 et Windows Server 2008 R2 :** cette valeur n’est pas prise en charge avant Windows 8 et Windows Server 2012.
 
 
 </dt> </dl> </dd> </dl>

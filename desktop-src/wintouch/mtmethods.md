@@ -3,18 +3,18 @@ title: Méthodes (IManipulationProcessor)
 description: Cette section contient les méthodes de l’interface IManipulationProcessor.
 ms.assetid: 33736f79-cb61-449c-80b9-1358db2621e9
 keywords:
-- Tactile Windows, interface IManipulationProcessor
-- Tactile Windows, méthodes d’interface
+- Windows Interface tactile, IManipulationProcessor
+- Windows Tactile, méthodes d’interface
 - manipulations, interface IManipulationProcessor
 - Interface IManipulationProcessor, méthodes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 995a848e18b8308d46ceda717bf7eec291953505
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 161ac2fc0d30c70e0f305de55a3f65b2eb827a925615977ce726eaa200615806
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964198"
 ---
 # <a name="methods-imanipulationprocessor"></a>Méthodes (IManipulationProcessor)
 

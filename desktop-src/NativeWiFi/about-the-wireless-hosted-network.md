@@ -4,12 +4,12 @@ ms.assetid: a6990759-9b84-4644-8f82-75aa63e8197b
 title: À propos du réseau hébergé sans fil
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f207dceaf0c835acc7886b48d5e6b030179240afb2a7f50b6f3744c574a185
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e88af34a1e0df2029c230b7b7800130d3b550dbf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119801489"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882767"
 ---
 # <a name="about-the-wireless-hosted-network"></a>À propos du réseau hébergé sans fil
 
@@ -109,7 +109,7 @@ Voici quelques-unes des commandes **netsh** couramment utilisées avec pour le r
 | <span id="netsh_wlan_start_hostednetwork"></span><span id="NETSH_WLAN_START_HOSTEDNETWORK"></span>**netsh wlan Start hostednetwork**<br/>                                                                                                                                                                                                                                                                                                                                     | Démarrez le réseau hébergé sans fil.<br/>              |
 | <span id="netsh_wlan_stop_hostednetwork"></span><span id="NETSH_WLAN_STOP_HOSTEDNETWORK"></span>**netsh wlan Stop hostednetwork**<br/>                                                                                                                                                                                                                                                                                                                                        | Arrêtez le réseau hébergé sans fil.<br/>               |
 | <span id="netsh_wlan_set_hostednetwork__mode__allow_disallow"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__MODE__ALLOW_DISALLOW"></span>**netsh wlan set hostednetwork \[ mode = \] autoriser l' \| interdiction**<br/>                                                                                                                                                                                                                                                                      | Activez ou désactivez le réseau hébergé sans fil.<br/>  |
-| <span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyUsage__persistent_temporary_"></span><span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyusage__persistent_temporary_"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__SSID___SSID___KEY___PASSPHRASE___KEYUSAGE__PERSISTENT_TEMPORARY_"></span>**netsh wlan set hostednetwork \[ SSID = \] <ssid> \[ clé = \] <passphrase> \[ KeyUsage = \] persistante \| temporaire** <br/> | Configurez les paramètres de réseau hébergé sans fil.<br/> |
+| <span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyUsage__persistent_temporary_"></span><span id="netsh_wlan_set_hostednetwork__ssid___ssid___key___passphrase___keyusage__persistent_temporary_"></span><span id="NETSH_WLAN_SET_HOSTEDNETWORK__SSID___SSID___KEY___PASSPHRASE___KEYUSAGE__PERSISTENT_TEMPORARY_"></span>**netsh wlan set hostednetwork \[ SSID = \] &lt; SSID &gt; \[ clé = \] &lt; phrase secrète &gt; \[ utilisation = \] persistante \| temporaire** <br/> | Configurez les paramètres de réseau hébergé sans fil.<br/> |
 | <span id="netsh_wlan_refresh_hostednetwork___data___key"></span><span id="NETSH_WLAN_REFRESH_HOSTEDNETWORK___DATA___KEY"></span>**netsh wlan Refresh hostednetwork \[ Data = \] clé**<br/>                                                                                                                                                                                                                                                                                       | Actualisez la clé de réseau hébergé sans fil.<br/>        |
 | <span id="netsh_wlan_show_hostednetwork___setting__security_"></span><span id="NETSH_WLAN_SHOW_HOSTEDNETWORK___SETTING__SECURITY_"></span>**netsh wlan Show hostednetwork \[ \[ paramètre = \] sécurité\]**<br/>                                                                                                                                                                                                                                                                     | Affichez les informations sur le réseau hébergé sans fil.<br/>    |
 | <span id="netsh_wlan_show_settings"></span><span id="NETSH_WLAN_SHOW_SETTINGS"></span>**paramètres netsh wlan Show**<br/>                                                                                                                                                                                                                                                                                                                                                       | Affichez les paramètres globaux du réseau local sans fil.<br/>           |
