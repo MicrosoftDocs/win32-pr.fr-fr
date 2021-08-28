@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f0463a38623baa427a6ddaf3ea19b47704b90e3ef36cf91dea2469e0cd2baa00
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: cc6715a63c86913d5a525805e6178b3230505d0b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119884769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879535"
 ---
 # <a name="about-user-profiles"></a>À propos des profils utilisateur
 
@@ -50,7 +50,7 @@ dans Windows 7 ou version ultérieure, une image associée est présentée à ch
 -   % ProgramData% \\ d' \\ images de compte d’utilisateur Microsoft \\Guest.bmp
 -   % ProgramData% \\ d' \\ images de compte d’utilisateur Microsoft \\User.bmp
 
-L’image de vignette de l’utilisateur est stockée dans le \\ dossier Temp local% Systemdrive% Users \\ <username> \\ AppData \\ \\ comme <username>.bmp. Les caractères de barre oblique ( \\ ) sont convertis en caractères de signe plus (+). Par exemple, l' \\ utilisateur de domaine est converti en domaine + utilisateur.
+L’image de vignette de l’utilisateur est stockée dans le \\ dossier Temp% Systemdrive% Users \\ &lt; nom_utilisateur &gt; \\ AppData \\ local \\ en tant que &lt; nom d’utilisateur &gt;.bmp. Les caractères de barre oblique ( \\ ) sont convertis en caractères de signe plus (+). Par exemple, l' \\ utilisateur de domaine est converti en domaine + utilisateur.
 
 Le fichier image s’affiche dans le dossier **temp** de l’utilisateur :
 

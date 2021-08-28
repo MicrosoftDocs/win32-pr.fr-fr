@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 24e0bbce1b42dfb5e23e3fdbbf43cb72cf3a5e75
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 36a6c37eab6d6af45b1c22fc2a3f80f6313e301b
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786505"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624945"
 ---
 # <a name="span-idvspixengineibufferobjectdatacallbackspanibufferobjectdatacallback-interface"></a><span id="vspixengine.ibufferobjectdatacallback"></span>Interface IBufferObjectDataCallback
 
@@ -38,7 +38,7 @@ L’interface **IBufferObjectDataCallback** hérite de l’interface [**IUnknown
 
 L’interface **IBufferObjectDataCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ResultCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte d’informations de mémoire tampon écrites dans un fichier par la demande dans.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ibufferobjectdatacallback-resultcallback-bstr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte d’informations de mémoire tampon écrites dans un fichier par la demande dans.</p></td></tr></tbody></table>
 
  
 

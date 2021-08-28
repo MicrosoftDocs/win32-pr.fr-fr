@@ -7,23 +7,23 @@ keywords:
 - Modification du mot de passe sur l’AD du compte d’utilisateur d’un service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bf16b018796979d3710825472a5f9abab72cd24
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e66f0d7b4dc668697b7a0a8d5b120735f3a445cf
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462923"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881623"
 ---
 # <a name="changing-the-password-on-a-services-user-account"></a>Modification du mot de passe sur le compte d’utilisateur d’un service
 
 Pour une instance de service qui se connecte avec un compte d’utilisateur, plutôt que le compte LocalSystem, le gestionnaire de contrôle des services (SCM) sur l’ordinateur hôte stocke le mot de passe du compte, qu’il utilise pour se connecter au service au démarrage du service. Comme pour n’importe quel compte d’utilisateur, vous devez modifier régulièrement le mot de passe pour maintenir la sécurité. Lorsque vous modifiez le mot de passe d’un compte de service, mettez à jour le mot de passe stocké par le SCM. L’exemple de code suivant montre comment effectuer les deux.
 
-Les exemples de code utilisent [**IADsUser. SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) pour définir le mot de passe du compte. Cette méthode utilise le nom unique du compte. L’exemple ouvre ensuite un handle vers le service installé sur l’ordinateur hôte spécifié et utilise la fonction [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) pour mettre à jour le mot de passe mis en cache par le SCM. Cette fonction utilise le nom Sam (« <domain> \\ <username> ») du compte.
+Les exemples de code utilisent [**IADsUser. SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) pour définir le mot de passe du compte. Cette méthode utilise le nom unique du compte. L’exemple ouvre ensuite un handle vers le service installé sur l’ordinateur hôte spécifié et utilise la fonction [**ChangeServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-changeserviceconfiga) pour mettre à jour le mot de passe mis en cache par le SCM. Cette fonction utilise le nom Sam (« &lt; domaine &gt; \\ &lt; nom_utilisateur &gt; ») du compte.
 
 > [!Note]  
 > Ce code doit être exécuté par un administrateur de domaine.
 
- 
+ 
 
 Pour un service réplicable dans lequel chaque réplica utilise un compte d’ouverture de session différent, vous pouvez mettre à jour les mots de passe de tous les réplicas en énumérant les instances de service. Pour plus d’informations et pour obtenir un exemple de code, consultez [énumération des réplicas d’un service](enumerating-the-replicas-of-a-service.md).
 
@@ -153,6 +153,6 @@ return dwStatus;
 
 
 
- 
+ 
 
- 
+ 

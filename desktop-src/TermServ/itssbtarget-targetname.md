@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dce949abee4ca00184a2b784ab154dbd75b9de6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7da653b581c512e0397bb4c486d7c21d6844d41b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982592"
 ---
 # <a name="itssbtargettargetname-property"></a>ITsSbTarget :: TargetName, propriété
 
@@ -37,7 +37,7 @@ Spécifie ou récupère le nom de la cible.
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -56,7 +56,7 @@ HRESULT get_TargetName(
 
 Variable **BSTR** qui spécifie le nom de la cible.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété était en lecture seule avant Windows Server 2012.
 
@@ -64,34 +64,14 @@ Cette propriété était en lecture seule avant Windows Server 2012.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Client minimal pris en charge<br/></td>
-<td>Aucun pris en charge<br/></td>
-</tr>
-<tr class="even">
-<td>Serveur minimal pris en charge<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>MIDL<br/></td>
-<td><dl> <dt>Sbtsv. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget est défini comme suit :
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-DB0B-4752-B456-5fd5840901c0 sur Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|--------|-------|
+| Client minimal pris en charge<br /> | Aucun pris en charge<br /> | 
+| Serveur minimal pris en charge<br /> | Windows Server 2012<br /> | 
+| MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
+
 
 
 

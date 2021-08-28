@@ -4,12 +4,12 @@ ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: Extensions de chiffrement de signature numérique XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8747521913ca1d551f1a2d4fd5b1c79d80065832
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 41bf0f2d99b34d59e9817f8568b03be20e72dda1
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103869329"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474935"
 ---
 # <a name="xml-digital-signature-cryptographic-extensions"></a>Extensions de chiffrement de signature numérique XML
 
@@ -84,52 +84,15 @@ Chaque clé contient les paramètres suivants.
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Nom</th>
-<th>Type</th>
-<th>Données</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DLL<br/></td>
-<td>Chaîne extensible<br/></td>
-<td>Obligatoire.<br/>Chemin d’accès absolu à la DLL du fournisseur de services de chiffrement XML.
-<blockquote>
-<p><b>Remarque : </b> Nous vous recommandons de placer les dll d’extension de chiffrement dans les répertoires qui peuvent uniquement être écrits par les applications avec des privilèges d’administrateur.</p>
-<p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> est utilisé pour charger la dll d’extension de chiffrement.<br/></p>
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Nom<br/></td>
-<td><strong>Chaîne</strong></td>
-<td>Optionnel.<br/> Nom complet associé à cet URI.<br/></td>
-</tr>
-<tr class="odd">
-<td>GroupId<br/></td>
-<td><strong>GRANDE</strong></td>
-<td>Obligatoire.<br/> Identificateur de groupe associé à cet algorithme de chiffrement. Les valeurs possibles sont les suivantes :<strong>CRYPT_XML_GROUP_ID_HASH</strong> \ <strong></strong> = 1<br/><strong></strong> \ CRYPT_XML_GROUP_ID_SIGN <strong></strong> = 2<br/></td>
-</tr>
-<tr class="even">
-<td>CNGAlgid<br/></td>
-<td><strong>Chaîne</strong></td>
-<td>Obligatoire.<br/> Nom de l’algorithme CNG à transmettre aux fonctions BCrypt ou NCrypt.<br/></td>
-</tr>
-<tr class="odd">
-<td>CNGExtraAlgid<br/></td>
-<td><strong>Chaîne</strong></td>
-<td>Optionnel.<br/> Chaîne d’algorithme supplémentaire, autre que la chaîne du membre CNGAlgid, qui peut être passée aux fonctions CNG.<br/> Pour les algorithmes de signature (CRYPT_XML_GROUP_ID_SIGN), ce membre est la chaîne de l’algorithme de clé publique à passer aux fonctions CNG.<br/> Pour les autres valeurs de GroupId, définissez le membre <strong>pwszCNGExtraAlgid</strong> sur la chaîne vide, L &quot; &quot; . <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Name | Type | Données | 
+|------|------|------|
+| DLL<br /> | Chaîne extensible<br /> | Obligatoire.<br />Chemin d’accès absolu à la DLL du fournisseur de services de chiffrement XML.<blockquote><p><b>Remarque : </b> Nous vous recommandons de placer les dll d’extension de chiffrement dans les répertoires qui peuvent uniquement être écrits par les applications avec des privilèges d’administrateur.</p><p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> est utilisé pour charger la dll d’extension de chiffrement.<br /></p></blockquote><br /> | 
+| Nom<br /> | <strong>Chaîne</strong> | facultatif.<br /> Nom complet associé à cet URI.<br /> | 
+| GroupId<br /> | <strong>DWORD</strong> | Obligatoire.<br /> Identificateur de groupe associé à cet algorithme de chiffrement. Les valeurs possibles sont les suivantes :<strong>CRYPT_XML_GROUP_ID_HASH</strong> \<strong> </strong> = 1<br /><strong></strong> \<strong> CRYPT_XML_GROUP_ID_SIGN </strong> = 2<br /> | 
+| CNGAlgid<br /> | <strong>Chaîne</strong> | Obligatoire.<br /> Nom de l’algorithme CNG à transmettre aux fonctions BCrypt ou NCrypt.<br /> | 
+| CNGExtraAlgid<br /> | <strong>Chaîne</strong> | facultatif.<br /> Chaîne d’algorithme supplémentaire, autre que la chaîne du membre CNGAlgid, qui peut être passée aux fonctions CNG.<br /> Pour les algorithmes de signature (CRYPT_XML_GROUP_ID_SIGN), ce membre est la chaîne de l’algorithme de clé publique à passer aux fonctions CNG.<br /> Pour les autres valeurs de GroupId, définissez le membre <strong>pwszCNGExtraAlgid</strong> sur la chaîne vide, L "". <br /> | 
+
 
 
 

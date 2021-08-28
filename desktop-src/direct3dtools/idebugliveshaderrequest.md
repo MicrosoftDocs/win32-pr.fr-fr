@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 9f59648e7ec62796f4bf658dc6817801c9658afb8157266260f8d1b66bb9974c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 1f8a5054b47eeed45929995cd022fa626dba7725
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119562230"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626385"
 ---
 # <a name="span-idvspixengineidebugliveshaderrequestspanidebugliveshaderrequest-interface"></a><span id="vspixengine.idebugliveshaderrequest"></span>Interface IDebugLiveShaderRequest
 
@@ -38,13 +38,13 @@ L’interface **IDebugLiveShaderRequest** hérite de l’interface [**IUnknown**
 
 L’interface **IDebugLiveShaderRequest** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Demande à déboguer un nuanceur sur le GPU (débogage dynamique) vs CPU (débogage basé sur trace).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/idebugliveshaderrequest-begindebugliveshader-debugshaderrequestinfo-ptr"><strong>BeginDebugLiveShader</strong></a></td><td style="text-align: left;"><p>Demande à déboguer un nuanceur sur le GPU (débogage dynamique) vs CPU (débogage basé sur trace).</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Types de média du démultiplexeur MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: bef3c7006f13b07394da7d9dc92e9295beda816c
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122982602"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Types de média du démultiplexeur MPEG-2
 
@@ -42,32 +42,13 @@ Le démultiplexeur MPEG-2 ne valide pas les types de sortie ; le filtre en aval
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Type principal</td>
-<td><strong>MEDIATYPE_MPEG2_SECTIONS</strong></td>
-</tr>
-<tr class="even">
-<td>Subtype</td>
-<td>Un des éléments suivants :<br/>
-<ul>
-<li><strong>MEDIASUBTYPE_ATSC_SI</strong>: informations sur le service ATSC.</li>
-<li><strong>MEDIASUBTYPE_DVB_SI</strong>: informations sur le service DVB.</li>
-<li><strong>MEDIASUBTYPE_ISDB_SI</strong>: informations sur le service de diffusion numérique de services intégrés (ISDB).</li>
-<li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: données de la section MPEG-2.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Type de format</td>
-<td>Aucun</td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| Type principal | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
+| Subtype | Un des éléments suivants :<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: informations sur le service ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: informations sur le service DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: informations sur le service de diffusion numérique de services intégrés (ISDB).</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: données de la section MPEG-2.</li></ul> | 
+| Type de format | Aucun | 
+
 
 
 

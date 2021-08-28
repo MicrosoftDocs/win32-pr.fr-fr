@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 77a984f941cce8cac32eda50b691baf3a8234e819ca3b332dc5fd916eb33eb61
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b467a0046bb5f1320cf10f6f9594e69300d4a97
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118282286"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787325"
 ---
 # <a name="span-idvspixengineipixengine6spanipixengine6-interface"></a><span id="vspixengine.ipixengine6"></span>Interface IPixEngine6
 
@@ -38,13 +38,13 @@ L’interface **IPixEngine6** hérite de l’interface [**IUnknown**](/windows/d
 
 L’interface **IPixEngine6** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td style="text-align: left;"><p>Obtient la version de communication à distance du moteur.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/ipixengine6-getremotingversion-remotingversion-ptr"><strong>GetRemotingVersion</strong></a></td><td ><p>Obtient la version de communication à distance du moteur.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

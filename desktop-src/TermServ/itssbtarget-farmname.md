@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fecf452bd6f879773a3fe200f721afbda5d29f1c41ae816846c261608d38ddca
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d0b1c36a1a44f38dac11a7e474d7fefb80a09948
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119138292"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122988292"
 ---
 # <a name="itssbtargetfarmname-property"></a>ITsSbTarget :: FarmName, propriété
 
@@ -37,7 +37,7 @@ Récupère ou spécifie le nom de la batterie de serveurs à laquelle cette cibl
 
 Cette propriété est en lecture/écriture.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```C++
@@ -60,34 +60,14 @@ Variable **BSTR** qui contient le nom de la batterie de serveurs.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Client minimal pris en charge<br/></td>
-<td>Aucun pris en charge<br/></td>
-</tr>
-<tr class="even">
-<td>Serveur minimal pris en charge<br/></td>
-<td>Windows Server 2012<br/></td>
-</tr>
-<tr class="odd">
-<td>MIDL<br/></td>
-<td><dl> <dt>Sbtsv. idl</dt> </dl></td>
-</tr>
-<tr class="even">
-<td>IID<br/></td>
-<td>IID_ITsSbTarget est défini comme suit :
-<ul>
-<li>16616ECC-272D-411D-B324-126893033856</li>
-<li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|--------|-------|
+| Client minimal pris en charge<br /> | Aucun pris en charge<br /> | 
+| Serveur minimal pris en charge<br /> | Windows Server 2012<br /> | 
+| MIDL<br /> | <dl><dt>Sbtsv. idl</dt></dl> | 
+| IID<br /> | IID_ITsSbTarget est défini comme suit :<ul><li>16616ECC-272D-411D-B324-126893033856</li><li>e85e10ea-db0b-4752-b456-5fd5840901c0 sur Windows Server 2008 R2</li></ul> | 
+
 
 
 

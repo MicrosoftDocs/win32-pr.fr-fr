@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4167395dbe00242af42f30713438f33e88f2dda
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0bfa69988f5b5414eac3e27b3371bca0e0a28810
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520824"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474975"
 ---
 # <a name="wmt_videoimage_transition_page_roll"></a>\_rouleau de \_ page de transition VIDEOIMAGE \_ WMT \_
 
@@ -31,56 +31,14 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Radius</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Rayon de la pellicule dans l’effet de rouleau de page.</td>
-</tr>
-<tr class="even">
-<td>Distance</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Quantité de la nouvelle image qui est révélée par l’effet de rouleau de page, en pixels.</td>
-</tr>
-<tr class="odd">
-<td>Sens</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Angle ou côté de l’image vidéo, à partir duquel le déroulement de la page est à l’origine. Définissez l’une des valeurs suivantes :<br/>
-<ul>
-<li>0-côté gauche</li>
-<li>1-côté droit</li>
-<li>2-bas</li>
-<li>3-haut</li>
-<li>4-angle inférieur gauche</li>
-<li>5-coin inférieur droit</li>
-<li>6-coin supérieur gauche</li>
-<li>7-coin supérieur droit</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Radius | <strong>fEffectPara0</strong> | Rayon de la pellicule dans l’effet de rouleau de page. | 
+| Distance | <strong>fEffectPara1</strong> | Quantité de la nouvelle image qui est révélée par l’effet de rouleau de page, en pixels. | 
+| Sens | <strong>fEffectPara2</strong> | Angle ou côté de l’image vidéo, à partir duquel le déroulement de la page est à l’origine. Définissez l’une des valeurs suivantes :<br /><ul><li>0-côté gauche</li><li>1-côté droit</li><li>2-bas</li><li>3-haut</li><li>4-angle inférieur gauche</li><li>5-coin inférieur droit</li><li>6-coin supérieur gauche</li><li>7-coin supérieur droit</li></ul> | 
+| Composition | <strong>fEffectPara3</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li></ul> | 
+
 
 
 

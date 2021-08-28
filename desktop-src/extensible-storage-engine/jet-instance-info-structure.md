@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fd07d11a8b30e75f30bc5bfcaa3aca665baf1209
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dbeab994d012f031de7620487c754b69d00db3d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868381"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122472695"
 ---
 # <a name="jet_instance_info-structure"></a>Structure JET_INSTANCE_INFO
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_instance_info-structure"></a>Structure JET_INSTANCE_INFO
 
@@ -68,7 +68,7 @@ Tableau de chaînes, chacune contenant le nom complet d’une base de données. 
 
 Tableau de chaînes contenant le nom de fichier du fichier SLV attaché à l’instance de base de données. Le tableau contient des éléments **cDatabases** . Comme les fichiers SLV ne sont pas pris en charge, ce champ doit être ignoré.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Plusieurs bases de données peuvent être attachées à chaque instance de base de données.
 
@@ -76,30 +76,9 @@ Pour une structure de **JET_INSTANCE_INFO** donnée, le tableau de chaînes reto
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté comme <strong>JET_INSTANCE_INFO_W</strong> (Unicode) et <strong>JET_INSTANCE_INFO _a</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_INSTANCE_INFO_W</strong> (Unicode) et <strong>JET_INSTANCE_INFO _a</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

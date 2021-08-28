@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3d322334d5a14439461f903a583e11e78a7b829863c2b55dbf653dc13aa4d22d
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f53430a6b624b6b65a5d02727dc16d7f1fba669d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119604479"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470895"
 ---
 # <a name="index-parameters"></a>Paramètres d’index
 
@@ -36,58 +36,9 @@ Cette rubrique contient des paramètres qui sont utilisés pour l’index.
 
 Ce paramètre spécifie la valeur par défaut pour l’incrément de décalage utilisé pour parcourir la valeur de la colonne source lors de la génération de chaque tuple. Pour plus d’informations, consultez la structure [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>1</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows Versions Vista et ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>1</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 - 32767</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
+
 
 
 *JET_paramIndexTupleStart*  
@@ -95,58 +46,9 @@ Ce paramètre spécifie la valeur par défaut pour l’incrément de décalage u
 
 Ce paramètre spécifie la valeur par défaut pour le décalage dans la valeur de colonne source au niveau de laquelle la génération de tuple démarrera. Pour plus d’informations, consultez la structure [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) .
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 - 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows Versions Vista et ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>0</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p>0 - 32767</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows Versions Vista et ultérieures</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMax*  
@@ -156,59 +58,9 @@ Ce paramètre spécifie la valeur par défaut de la longueur maximale du tuple d
 
 **Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p>
-<p><strong>Windows Vista :</strong> 2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>10</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p><p><strong>Windows Vista :</strong> 2-255</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramIndexTuplesLengthMin*  
@@ -218,59 +70,9 @@ Ce paramètre spécifie la valeur par défaut pour la longueur minimale du tuple
 
 **Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p>
-<p><strong>Windows Vista :</strong> 2-255</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>3</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0, 2-255</p><p><strong>Windows Vista :</strong> 2-255</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramIndexTuplesToIndexMax*  
@@ -280,59 +82,9 @@ Ce paramètre spécifie la valeur par défaut pour la longueur maximale d’une 
 
 **Windows Vista :**  avant Windows Vista, l’affectation de la valeur zéro à ce paramètre permet de rétablir sa valeur par défaut. pour Windows Vista, ce n’est plus pris en charge.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Entier</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 32767</p>
-<p><strong>Windows Vista :</strong> 1 – 32767</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Windows XP et versions ultérieures</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>32767</p> | | <p>Tapez :</p> | <p>Integer</p> | | <p>Plage valide :</p> | <p><strong>Windows 2000, Windows XP et Windows Server 2003 :</strong> 0 – 32767</p><p><strong>Windows Vista :</strong> 1 – 32767</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Windows XP et versions ultérieures</p> | 
+
 
 
 *JET_paramUnicodeIndexDefault*  
@@ -348,82 +100,16 @@ La valeur par défaut de ce paramètre contient un LCID pour les paramètres ré
 
 **Remarque**  Si votre application souhaite stocker des données Unicode, il est vivement recommandé de ne pas compter sur les paramètres Unicode par défaut de vos index. L’utilisation de l’anglais des États-Unis est équivaut à l’utilisation des paramètres régionaux invariants et les indicateurs [LCMapStringW](/windows/win32/api/winnls/nf-winnls-lcmapstringa)par défaut sont connus pour interférer sérieusement avec certaines langues. Vous devez toujours spécifier vos propres paramètres pour les paramètres Unicode à JetCreateIndex2 à l’aide de [JET_INDEXCREATE](./jet-indexcreate-structure.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>Spécial</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>JET_UNICODEINDEX * (JET_UNICODEINDEX)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>Spécial</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Valeur par défaut :</p> | <p>Spécial</p> | | <p>Tapez :</p> | <p>JET_UNICODEINDEX * (JET_UNICODEINDEX)</p> | | <p>Plage valide :</p> | <p>Spécial</p> | | <p>Étendue :</p> | <p>Instance</p> | | <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | | <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | | <p>Affecte la disposition physique :</p> | <p>No</p> | | <p>Affecte la fiabilité :</p> | <p>No</p> | | <p>Affecte les performances :</p> | <p>No</p> | | <p>Affecte les ressources :</p> | <p>No</p> | | <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

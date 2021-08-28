@@ -13,12 +13,12 @@ keywords:
 - exemples, type 2 magasins en ligne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdb57327904d81ac85114af0df9037d6c2c054938f16048f6ca72e711063cc4
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f0e83d6384529ea9b67c5132ec9cc1846da5e438
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119902079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881804"
 ---
 # <a name="customizing-the-sample-project"></a>Personnalisation de l’exemple de Project
 
@@ -39,7 +39,7 @@ La méthode **allowPlay** fournit un pointeur vers l’interface **IWMPMedia** e
 
 Les méthodes **allowCDBurn** et **allowPDATransfer** fournissent un pointeur vers l’interface **IWMPPlaylist** en tant que paramètre. cette interface est l’interface Lecteur Windows Media qui représente les objets de sélection. En appelant les méthodes sur cette interface, vous pouvez utiliser les attributs et les propriétés d’une sélection, ajouter des éléments à une sélection ou supprimer des éléments d’une sélection.
 
-Pour savoir comment supprimer un élément d’une sélection par programme, consultez l’implémentation de **CAllowBaseDialog <T> :: OnRemoveMediaFromPlaylist**. Pour en savoir plus sur l’utilisation des objets multimédias et playlist, consultez [modèle objet Player pour les langages de script](player-object-model-for-scripting-languages.md).
+Pour savoir comment supprimer un élément d’une sélection par programme, consultez l’implémentation de **CAllowBaseDialog &lt; T &gt; :: OnRemoveMediaFromPlaylist**. Pour en savoir plus sur l’utilisation des objets multimédias et playlist, consultez [modèle objet Player pour les langages de script](player-object-model-for-scripting-languages.md).
 
 ## <a name="code-that-can-be-removed"></a>Code pouvant être supprimé
 
@@ -51,8 +51,8 @@ Vous souhaiterez probablement supprimer le code qui ouvre les boîtes de dialogu
 
 À partir de YourProject. cpp, supprimez le code suivant :
 
--   Implémentation de **CAllowBaseDialog <T> :: OnInitDialog**.
--   Implémentation de **CAllowBaseDialog <T> :: OnRemoveMediaFromPlaylist**.
+-   Implémentation de **CAllowBaseDialog &lt; T &gt; :: OnInitDialog**.
+-   Implémentation de **CAllowBaseDialog &lt; T &gt; :: OnRemoveMediaFromPlaylist**.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

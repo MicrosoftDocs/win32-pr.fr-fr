@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, HeaderItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6bbcd6d86e7401c3fa98d162e3aa273613dfd3a32705da891fc89d1f4ea003f
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: b26dcbc293beee3afec8ba0aa9da1359cbbe4c6b
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120098209"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469126"
 ---
 # <a name="headeritem-control-type"></a>Type de contrôle HeaderItem
 
@@ -50,26 +50,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>HeaderItem</li>
-</ul></td>
-<td>(Non applicable)</td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>HeaderItem</li></ul> | (Non applicable) | 
+
 
 
 
@@ -81,7 +66,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur          | Remarques                                                                                                                                                                                                |
+| Propriété UI Automation                                                                                              | Valeur          | Notes                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.     | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.     | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
@@ -120,7 +105,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
-| Événement UI Automation                                                                                                                   | Remarques                                                                                                                      |
+| Événement UI Automation                                                                                                                   | Notes                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                      |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId. |                                                                                                                            |

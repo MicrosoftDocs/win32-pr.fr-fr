@@ -6,12 +6,12 @@ keywords:
 - SSL en mode noyau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9dcfeb87b1a98539d7bd6a3b8b82dcfd5ee41fc9ad4c4c306f4c399aebd18a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: fdfbc66e72f4e3e79c53207cbe9f4b77d3887b36
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118393917"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475495"
 ---
 # <a name="kernel-mode-ssl"></a>SSL en mode noyau
 
@@ -80,37 +80,13 @@ Le tableau suivant répertorie les valeurs de configuration du Registre.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur de Registre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EnableKernelSSL</td>
-<td><strong>Windows Server 2008 et Windows Vista :</strong> Cette valeur de Registre est obsolète.<br/></td>
-</tr>
-<tr class="even">
-<td>EnableSslCloseNotify</td>
-<td>Valeur <strong>DWORD</strong> qui a la valeur <strong>true</strong> pour activer Close-Notify ou <strong>false</strong> pour désactiver la spécification de fermeture-notification. Fermer-Notify est désactivé par défaut.<br/> Lorsque l’option fermer-notifier est activée, l’application cliente est requise pour envoyer un message de fermeture et de notification avant de fermer les connexions TCP. L’API du serveur HTTP envoie également une notification de fermeture avant de fermer la connexion.<br/> Lorsque l’option fermer-notifier est activée et que le client envoie un message de fermeture-notification, l’API du serveur HTTP réutilise la session SSL sur les connexions futures au client. Si le client n’envoie pas de fermeture-notification, l’API du serveur HTTP ne réutilisera pas la même session SSL sur les connexions futures. Par conséquent, une liaison SSL complète est déclenchée sur la nouvelle connexion, ce qui réduit les performances. <br/>
-<blockquote>
-[!Note]<br />
-L’activation de la fonction de fermeture-notification permet d’atténuer les attaques par troncation contre les requêtes et les réponses HTTPs.
-</blockquote>
-<br/> <br/> Lorsque la fermeture-notification est désactivée, l’API du serveur HTTP réutilise la session SSL pour les connexions ultérieures.<br/></td>
-</tr>
-<tr class="odd">
-<td>DisableSslCertChainCacheOnlyUrlRetrieval</td>
-<td>Valeur <strong>DWORD</strong> définie sur <strong>true</strong> pour permettre à l’API du serveur http de récupérer des certificats intermédiaires à partir d’Internet ou du magasin local, ou <strong>false</strong> pour récupérer des certificats intermédiaires du magasin local uniquement. La valeur de Registre par défaut est <strong>false</strong>.<br/> Par défaut, l’API du serveur HTTP crée une chaîne de certificats client en récupérant les certificats intermédiaires dans le magasin de l’autorité de certification intermédiaire sous le compte de l’ordinateur local. Si cette valeur est définie sur <strong>true</strong> , l’API du serveur http récupère les certificats intermédiaires non seulement dans le magasin local, mais également à partir de l’autorité de certification intermédiaire sur Internet.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur de Registre | Description | 
+|----------------|-------------|
+| EnableKernelSSL | <strong>Windows Server 2008 et Windows Vista :</strong> Cette valeur de Registre est obsolète.<br /> | 
+| EnableSslCloseNotify | Valeur <strong>DWORD</strong> qui a la valeur <strong>true</strong> pour activer Close-Notify ou <strong>false</strong> pour désactiver la spécification de fermeture-notification. Fermer-Notify est désactivé par défaut.<br /> Lorsque l’option fermer-notifier est activée, l’application cliente est requise pour envoyer un message de fermeture et de notification avant de fermer les connexions TCP. L’API du serveur HTTP envoie également une notification de fermeture avant de fermer la connexion.<br /> Lorsque l’option fermer-notifier est activée et que le client envoie un message de fermeture-notification, l’API du serveur HTTP réutilise la session SSL sur les connexions futures au client. Si le client n’envoie pas de fermeture-notification, l’API du serveur HTTP ne réutilisera pas la même session SSL sur les connexions futures. Par conséquent, une liaison SSL complète est déclenchée sur la nouvelle connexion, ce qui réduit les performances. <br /><blockquote>[!Note]<br />L’activation de la fonction de fermeture-notification permet d’atténuer les attaques par troncation contre les requêtes et les réponses HTTPs.</blockquote><br /><br /> Lorsque la fermeture-notification est désactivée, l’API du serveur HTTP réutilise la session SSL pour les connexions ultérieures.<br /> | 
+| DisableSslCertChainCacheOnlyUrlRetrieval | Valeur <strong>DWORD</strong> définie sur <strong>true</strong> pour permettre à l’API du serveur http de récupérer des certificats intermédiaires à partir d’Internet ou du magasin local, ou <strong>false</strong> pour récupérer des certificats intermédiaires du magasin local uniquement. La valeur de Registre par défaut est <strong>false</strong>.<br /> Par défaut, l’API du serveur HTTP crée une chaîne de certificats client en récupérant les certificats intermédiaires dans le magasin de l’autorité de certification intermédiaire sous le compte de l’ordinateur local. Si cette valeur est définie sur <strong>true</strong> , l’API du serveur http récupère les certificats intermédiaires non seulement dans le magasin local, mais également à partir de l’autorité de certification intermédiaire sur Internet.<br /> | 
+
 
 
 

@@ -10,12 +10,12 @@ keywords:
 - Active Directory, utilisation de, liaison, liaison sans serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3c88386ae95efdebd031199e135ff4c5d610e402b9cba522256df5eef097e1
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 96a2b567ebfae52a316dce59c3bc6ab442780e61
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119024927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881227"
 ---
 # <a name="serverless-binding-and-rootdse"></a>Liaison sans serveur et RootDSE
 
@@ -30,7 +30,7 @@ LDAP://<servername>/rootDSE
 
 
 
-<servername>Est le nom DNS d’un serveur. <servername>Est facultatif, comme indiqué dans le format suivant.
+&lt;ServerName &gt; est le nom DNS d’un serveur. Le &lt; nom de serveur &gt; est facultatif, comme indiqué dans le format suivant.
 
 
 ```C++

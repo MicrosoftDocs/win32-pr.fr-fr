@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5ffecd81a1bb164e50a9139552c78c1dd520e671
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 62c3d926bb6020931c90ce2abc6ed36c0015c31d
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109590"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787275"
 ---
 # <a name="span-idvspixengineisummarycallbackspanisummarycallback-interface"></a><span id="vspixengine.isummarycallback"></span>Interface ISummaryCallback
 
@@ -38,13 +38,13 @@ L’interface **ISummaryCallback** hérite de l’interface [**IUnknown**](/wind
 
 L’interface **ISummaryCallback** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/isummarycallback-resultcallback-dword-summaryitem-arr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte des informations de résumé du journal de graphisme.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/isummarycallback-resultcallback-dword-summaryitem-arr"><strong>ResultCallback</strong></a></td><td ><p>Fonction de rappel utilisée pour informer l’hôte des informations de résumé du journal de graphisme.</p></td></tr></tbody></table>
 
  
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 578d41119980719e69b9eb0e502c025414018f73
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 3ebf3a8ad3a22f5104e4d4a78d3a01a29d07d757
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343094"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624555"
 ---
 # <a name="d3dpresentflag"></a>D3DPRESENTFLAG
 
@@ -19,9 +19,9 @@ Constantes utilisées par [**les \_ paramètres D3DPRESENT**](d3dpresent-paramet
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -133,7 +133,7 @@ Constantes utilisées par [**les \_ paramètres D3DPRESENT**](d3dpresent-paramet
 <tr class="odd">
 <td>D3DPRESENTFLAG_RESTRICTED_CONTENT</td>
 <td>0x00000400</td>
-<td>La définition de cet indicateur indique que le utilise permutation contient du contenu protégé et contraint automatiquement le runtime à limiter l’accès au utilise permutation afin que seul le gestionnaire Windows Desktop (DWM) puisse utiliser le utilise permutation.
+<td>la définition de cet indicateur indique que le utilise permutation contient du contenu protégé et contraint automatiquement le runtime à limiter l’accès au utilise permutation afin que seul Desktop Windows Manager (DWM) puisse utiliser le utilise permutation.
 <table>
 <tbody>
 <tr class="odd">

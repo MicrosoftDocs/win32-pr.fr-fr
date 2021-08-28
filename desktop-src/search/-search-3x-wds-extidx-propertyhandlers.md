@@ -1,21 +1,21 @@
 ---
 description: Microsoft Windows Search utilise des gestionnaires de propriétés pour extraire les valeurs des propriétés des éléments et utilise le schéma de système de propriétés pour déterminer comment une propriété spécifique doit être indexée.
 ms.assetid: b475329a-1ed7-43a4-8e11-3700889a4ce9
-title: Développement de gestionnaires de propriétés pour Windows Search
+title: développement de gestionnaires de propriétés pour la recherche de Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ac96e47738040321025b7f600e2c91109b08d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3933353d8bf00c3a68a2259daf94a1ce4f13d295
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201303"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627324"
 ---
-# <a name="developing-property-handlers-for-windows-search"></a>Développement de gestionnaires de propriétés pour Windows Search
+# <a name="developing-property-handlers-for-windows-search"></a>développement de gestionnaires de propriétés pour la recherche de Windows
 
-Microsoft Windows Search utilise des gestionnaires de propriétés pour extraire les valeurs des propriétés des éléments et utilise le schéma de système de propriétés pour déterminer comment une propriété spécifique doit être indexée. Pour lire et indexer des valeurs de propriété, les gestionnaires de propriétés sont appelés out-of-process par Windows Search pour améliorer la sécurité et la robustesse. En revanche, les gestionnaires de propriétés sont appelés dans le processus par l’Explorateur Windows pour lire et écrire des valeurs de propriété.
+Microsoft Windows Search utilise des gestionnaires de propriétés pour extraire les valeurs des propriétés des éléments et utilise le schéma de système de propriétés pour déterminer comment une propriété spécifique doit être indexée. pour lire et indexer des valeurs de propriété, les gestionnaires de propriétés sont appelés en mode out-of-process en Windows la recherche pour améliorer la sécurité et la robustesse. en revanche, les gestionnaires de propriétés sont appelés dans le processus par Windows Explorer pour lire et écrire des valeurs de propriété.
 
-Cette rubrique complète la rubrique du [système de propriétés](../properties/building-property-handlers.md) avec des informations spécifiques à Windows Search et contient les sections suivantes :
+cette rubrique complète la rubrique du [système de propriétés](../properties/building-property-handlers.md) avec des informations spécifiques à Windows Search et contient les sections suivantes :
 
 -   [Décisions de conception pour les gestionnaires de propriétés](#design-decisions-for-property-handlers)
     -   [Décisions de propriété](#property-decisions)
@@ -61,11 +61,11 @@ Avant de commencer, vous devez prendre en compte les questions de conception sui
 
  
 
-Une fois ces décisions prises, vous pouvez écrire des descriptions formelles de vos propriétés personnalisées afin que le moteur de recherche Windows puisse commencer à indexer vos fichiers et propriétés. Ces descriptions formelles sont des fichiers XML, décrits dans schéma de la [propriété Description](/previous-versions//cc144127(v=vs.85)).
+une fois ces décisions prises, vous pouvez écrire des descriptions formelles de vos propriétés personnalisées afin que le moteur de recherche Windows puisse commencer à indexer vos fichiers et propriétés. Ces descriptions formelles sont des fichiers XML, décrits dans schéma de la [propriété Description](/previous-versions//cc144127(v=vs.85)).
 
 ### <a name="property-decisions"></a>Décisions de propriété
 
-Lorsque vous envisagez les propriétés à prendre en charge, vous devez identifier les besoins en matière d’indexation et de recherche des utilisateurs. Par exemple, vous pouvez identifier les propriétés potentiellement utiles 100 pour votre type de fichier, mais les utilisateurs peuvent être intéressés par la recherche sur une seule poignée. En outre, vous souhaiterez peut-être afficher un groupe différent, plus grand ou plus petit de ces propriétés pour les utilisateurs dans l’Explorateur Windows, et autoriser les utilisateurs à modifier uniquement un sous-ensemble de ces propriétés affichées.
+Lorsque vous envisagez les propriétés à prendre en charge, vous devez identifier les besoins en matière d’indexation et de recherche des utilisateurs. Par exemple, vous pouvez identifier les propriétés potentiellement utiles 100 pour votre type de fichier, mais les utilisateurs peuvent être intéressés par la recherche sur une seule poignée. en outre, vous souhaiterez peut-être afficher un groupe différent, plus grand ou plus petit de ces propriétés pour les utilisateurs dans Windows Explorer et autoriser les utilisateurs à modifier uniquement un sous-ensemble de ces propriétés affichées.
 
 Votre type de fichier peut prendre en charge toutes les propriétés personnalisées que vous définissez, ainsi qu’un ensemble de propriétés définies par le système. Avant de créer une propriété personnalisée, consultez les [Propriétés système](https://msdn.microsoft.com/library/bb763010(VS.85).aspx) pour voir si la propriété que vous souhaitez prendre en charge est déjà définie par une propriété système. Veillez à toujours prendre en charge les propriétés définies par le système les plus importantes.
 
@@ -89,8 +89,8 @@ Pour chacune de ces propriétés, vous devez déterminer les attributs à utilis
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -105,7 +105,7 @@ Pour chacune de ces propriétés, vous devez déterminer les attributs à utilis
 </tr>
 <tr class="even">
 <td>isColumn</td>
-<td>Optionnel. Indique si la propriété doit être stockée dans la base de données de recherche Windows en tant que colonne. Le stockage de la propriété en tant que colonne permet la récupération, le tri, le regroupement et le filtrage (autrement dit, à l’aide d’un prédicat à l’exception de CONTAINs ou FREETEXT) sur l’ensemble de la valeur de colonne. Les propriétés affichées pour l’utilisateur doivent avoir la valeur <strong>true</strong> , sauf s’il s’agit d’une propriété textuelle très volumineuse (telle que le corps d’un document) qui serait recherchée dans l’index inversé. La valeur par défaut est <strong>false</strong>.</td>
+<td>Optionnel. indique si la propriété doit être stockée dans le Windows base de données de recherche en tant que colonne. Le stockage de la propriété en tant que colonne permet la récupération, le tri, le regroupement et le filtrage (autrement dit, à l’aide d’un prédicat à l’exception de CONTAINs ou FREETEXT) sur l’ensemble de la valeur de colonne. Les propriétés affichées pour l’utilisateur doivent avoir la valeur <strong>true</strong> , sauf s’il s’agit d’une propriété textuelle très volumineuse (telle que le corps d’un document) qui serait recherchée dans l’index inversé. La valeur par défaut est <strong>false</strong>.</td>
 </tr>
 <tr class="odd">
 <td>isColumnSparse</td>
@@ -113,7 +113,7 @@ Pour chacune de ces propriétés, vous devez déterminer les attributs à utilis
 </tr>
 <tr class="even">
 <td>columnIndexType</td>
-<td>Optionnel. Pour optimiser les requêtes, le moteur de recherche Windows peut créer des index secondaires pour les propriétés qui ont isColumn =<strong>true</strong>. Cela nécessite plus d’espace disque et de traitement pendant l’indexation, mais améliore les performances lors de l’interrogation. Si la propriété tend à être triée, regroupée ou filtrée (c’est-à-dire en utilisant =, ! =, <, >, comme, MATCHES) fréquemment par les utilisateurs, cet attribut doit être défini sur &quot; OnDisk &quot; . La valeur par défaut est &quot; NotIndexed &quot; . Les valeurs suivantes sont valides :
+<td>Optionnel. pour optimiser l’interrogation, le moteur de recherche Windows peut créer des index secondaires pour les propriétés qui ont isColumn =<strong>TRUE</strong>. Cela nécessite plus d’espace disque et de traitement pendant l’indexation, mais améliore les performances lors de l’interrogation. Si la propriété tend à être triée, regroupée ou filtrée (c’est-à-dire en utilisant =, ! =, <, >, comme, MATCHES) fréquemment par les utilisateurs, cet attribut doit être défini sur &quot; OnDisk &quot; . La valeur par défaut est &quot; NotIndexed &quot; . Les valeurs suivantes sont valides :
 <ul>
 <li>NotIndexed : aucun index secondaire n’est créé.</li>
 <li>OnDisk : créez et stockez un index secondaire sur le disque.</li>
@@ -121,7 +121,7 @@ Pour chacune de ces propriétés, vous devez déterminer les attributs à utilis
 </tr>
 <tr class="odd">
 <td>maxSize</td>
-<td>Optionnel. Indique la taille maximale autorisée pour la valeur de propriété stockée dans la base de données de recherche Windows. Cette limite s’applique aux éléments indvidual d’un vecteur, et non au vecteur dans son ensemble. Les valeurs au-delà de cette taille sont tronquées. La valeur par défaut est &quot; 128 &quot; (octets).<br/> Actuellement, Windows Search n’utilise pas le maxSize lors du calcul de la quantité de données qu’il accepte à partir d’un fichier. Au lieu de cela, la limite d’utilisation de la recherche Windows est le produit de la taille du fichier et le MaxGrowFactor (taille de fichier N * MaxGrowFactor) lu à partir du Registre dans HKEY_LOCAL_MACHINE->Software->Microsoft->Windows Search->Gathering Manager->MaxGrowFactor. La valeur par défaut de MaxGrowFactor est quatre (4). Par conséquent, si la taille totale de votre type de fichier est faible, mais que les propriétés sont plus volumineuses, la recherche Windows peut ne pas accepter toutes les données de propriété que vous souhaitez émettre. Toutefois, vous pouvez augmenter le MaxGrowFactor en fonction de vos besoins. <br/></td>
+<td>Optionnel. indique la taille maximale autorisée pour la valeur de propriété stockée dans le Windows base de données de recherche. Cette limite s’applique aux éléments indvidual d’un vecteur, et non au vecteur dans son ensemble. Les valeurs au-delà de cette taille sont tronquées. La valeur par défaut est &quot; 128 &quot; (octets).<br/> actuellement, Windows Search n’utilise pas le maxSize lors du calcul de la quantité de données qu’il accepte à partir d’un fichier. au lieu de cela, la limite Windows utilisée par la recherche est le produit de la taille du fichier et le MaxGrowFactor (taille de fichier N * MaxGrowFactor) lu à partir du registre sur HKEY_LOCAL_MACHINE->Software->Microsoft->Windows Search->gathering Manager->MaxGrowFactor. La valeur par défaut de MaxGrowFactor est quatre (4). par conséquent, si la taille totale de votre type de fichier est faible, mais que les propriétés sont plus volumineuses, Windows recherche peut ne pas accepter toutes les données de propriété que vous souhaitez émettre. Toutefois, vous pouvez augmenter le MaxGrowFactor en fonction de vos besoins. <br/></td>
 </tr>
 </tbody>
 </table>
@@ -146,25 +146,25 @@ En règle générale, la recherche en texte intégral est prise en charge par le
 
 ### <a name="operating-system-implementatation-considerations"></a>Considérations sur le Implementatation du système d’exploitation
 
-### <a name="implementation-information-for-windows-7"></a>Informations d’implémentation pour Windows 7
+### <a name="implementation-information-for-windows-7"></a>informations d’implémentation pour Windows 7
 
-Dans Windows 7 et versions ultérieures, il existe un nouveau comportement lors de l’inscription d’un gestionnaire de propriétés, d’un [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)ou d’une nouvelle extension. Lorsqu’un nouveau gestionnaire de propriétés et/ou **IFilter** est installé, les fichiers avec les extensions correspondantes sont automatiquement réindexés.
+dans Windows 7 et versions ultérieures, il existe un nouveau comportement lors de l’inscription d’un gestionnaire de propriétés, d’un [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)ou d’une nouvelle extension. Lorsqu’un nouveau gestionnaire de propriétés et/ou **IFilter** est installé, les fichiers avec les extensions correspondantes sont automatiquement réindexés.
 
-Dans Windows 7, il est recommandé d’installer un [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) conjointement avec les gestionnaires de propriétés correspondants, et d’inscrire le **IFilter** avant le gestionnaire de propriétés. L’inscription du gestionnaire de propriétés lance la réindexation immédiate des fichiers précédemment indexés sans nécessiter un redémarrage, et tire parti des IFilter précédemment inscrits à des fins d’indexation du contenu.
+dans Windows 7, il est recommandé d’installer un [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) conjointement avec les gestionnaires de propriétés correspondants, et d’inscrire le **ifilter** avant le gestionnaire de propriétés. L’inscription du gestionnaire de propriétés lance la réindexation immédiate des fichiers précédemment indexés sans nécessiter un redémarrage, et tire parti des IFilter précédemment inscrits à des fins d’indexation du contenu.
 
 Si seul un [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) est installé, sans gestionnaire de propriétés correspondant, la réindexation automatique se produit soit après un redémarrage du service d’indexation, soit par un redémarrage du système.
 
-Pour plus d’informations sur les indicateurs de description de propriété spécifiques à Windows 7, consultez les rubriques de référence suivantes :
+pour plus d’informations sur les indicateurs de description de propriété spécifiques à Windows 7, consultez les rubriques de référence suivantes :
 
 -   [GETPROPERTYSTOREFLAGS](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags)
 -   [TYPE de PROPDESC \_ COLUMNINDEX \_](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type)
 -   [PROPDESC \_ SEARCHINFO, \_ indicateurs](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags)
 
-### <a name="implementation-information-for-windows-vista-and-earlier"></a>Informations d’implémentation pour Windows Vista et versions antérieures
+### <a name="implementation-information-for-windows-vista-and-earlier"></a>informations d’implémentation pour Windows Vista et versions antérieures
 
-Avant Windows Vista, les filtres fournissaient la prise en charge de l’analyse et de l’énumération du contenu et des propriétés des fichiers. Avec l’introduction du système de propriétés, les gestionnaires de propriétés gèrent les propriétés de fichier, tandis que les filtres gèrent le contenu du fichier. Pour Windows Vista, vous devez développer uniquement une implémentation partielle de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)en coordination avec un gestionnaire de propriétés, comme décrit dans [meilleures pratiques pour la création de gestionnaires de filtres dans la recherche Windows](-search-3x-wds-extidx-filters.md).
+avant Windows Vista, les filtres fournissaient la prise en charge de l’analyse et de l’énumération du contenu et des propriétés du fichier. Avec l’introduction du système de propriétés, les gestionnaires de propriétés gèrent les propriétés de fichier, tandis que les filtres gèrent le contenu du fichier. pour Windows Vista, vous devez développer uniquement une implémentation partielle de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)en coordination avec un gestionnaire de propriétés, comme décrit dans [meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md).
 
-Alors que le système de propriétés est également inclus dans l’installation de Windows Search pour Windows XP, les applications tierces et héritées peuvent exiger que les filtres gèrent le contenu et les propriétés. Par conséquent, si vous développez sur la plateforme Windows XP, vous devez fournir une implémentation de filtre complète, ainsi qu’un gestionnaire de propriétés pour votre type de fichier ou propriété personnalisée.
+alors que le système de propriétés est également inclus dans le Windows l’installation de recherche pour Windows XP, des applications tierces et héritées peuvent nécessiter que les filtres gèrent le contenu et les propriétés. par conséquent, si vous développez sur la plateforme Windows XP, vous devez fournir une implémentation de filtre complète, ainsi qu’un gestionnaire de propriétés pour votre type de fichier ou propriété personnalisée.
 
  
 
@@ -227,7 +227,7 @@ Les gestionnaires de propriétés peuvent éventuellement implémenter cette int
 
 ## <a name="ensuring-your-items-get-indexed"></a>Vérifier que vos éléments sont indexés
 
-Maintenant que vous avez implémenté votre gestionnaire de propriétés, vous devez vous assurer que les éléments que votre gestionnaire est inscrit pour être indexés. Vous pouvez utiliser le [Gestionnaire de catalogue](-search-3x-wds-mngidx-catalog-manager.md) pour lancer la réindexation, et vous pouvez également utiliser le [Gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md) pour configurer des règles par défaut indiquant les URL que l’indexeur doit analyser. Une autre option consiste à suivre l’exemple de code de réindexation dans les [exemples du kit de développement logiciel (SDK) Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+Maintenant que vous avez implémenté votre gestionnaire de propriétés, vous devez vous assurer que les éléments que votre gestionnaire est inscrit pour être indexés. Vous pouvez utiliser le [Gestionnaire de catalogue](-search-3x-wds-mngidx-catalog-manager.md) pour lancer la réindexation, et vous pouvez également utiliser le [Gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md) pour configurer des règles par défaut indiquant les URL que l’indexeur doit analyser. une autre option consiste à suivre l’exemple de code de réindexation dans les [exemples du kit de développement logiciel (SDK) Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
 
 Pour plus d’informations, reportez-vous à [utilisation du gestionnaire de catalogues](-search-3x-wds-mngidx-catalog-manager.md) et [à l’utilisation du gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md).
 
@@ -268,7 +268,7 @@ La liste suivante fournit des conseils sur les types de tests que vous devez eff
 -   Testez l’obtention de la sortie de chaque propriété unique prise en charge par le type de fichier.
 -   Utilisez des valeurs de propriété volumineuses, par exemple, utilisez une large balise Meta dans des documents HTML.
 -   Vérifiez que le gestionnaire de propriétés ne perd pas les handles de fichiers en les modifiant après avoir obtenu la sortie du gestionnaire de propriétés, ou à l’aide d’un outil comme oh.exe avant et après l’énumération des propriétés de fichier.
--   Testez tous les types de fichiers associés au gestionnaire de propriétés. Par exemple, vérifiez que le filtre HTML fonctionne avec les types de fichiers. htm et. html.
+-   Testez tous les types de fichiers associés au gestionnaire de propriétés. Par exemple, vérifiez que le filtre HTML fonctionne avec les types de fichiers .htm et .html.
 -   Testez les fichiers endommagés. Le gestionnaire de propriétés doit échouer correctement.
 -   Si une application prend en charge le chiffrement, vérifiez que le gestionnaire de propriétés ne génère pas de texte chiffré.
 -   Si votre gestionnaire de propriétés prend en charge la recherche en texte intégral :
@@ -304,7 +304,7 @@ Si vous avez des difficultés à faire fonctionner votre gestionnaire de propri�
 -   Vérifiez que vos dll se trouvent dans un emplacement global (et non sous votre profil utilisateur).
 -   Vérifiez que vos dll sont inscrites sous HKEY \_ local \_ machine \\ Software \\ classes.
 -   Vérifiez que vos dll sont inscrites à l’aide de chemins d’accès complets (ou de chaînes SZ de l’extension REG \_ \_ qui se développent en chemins absolus à l’aide de variables d’environnement connues par le compte système).
--   Vérifiez que votre gestionnaire de propriétés fonctionne sous l’Explorateur Windows.
+-   vérifiez que votre gestionnaire de propriétés fonctionne sous l’explorateur de Windows.
 -   Bien que nous vous recommandons d’utiliser IInitializeWithStream, si vous devez utiliser IInitializeWithFile ou IInitializeWithItem, vérifiez que vous spécifiez DisableProcessIsolation.
 -   Vérifiez que le panneau de configuration options d’indexation répertorie votre type de fichier en tant que type de fichier indexé.
 -   Vérifiez que le fichier de test se trouve dans un emplacement indexé.
@@ -397,7 +397,7 @@ System.FileOwner;System.ComputerName
 **Méthodologique**
 </dt> <dt>
 
-[Meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
+[meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
 </dt> <dt>
 
 [Processus d’indexation](-search-indexing-process-overview.md)
@@ -418,7 +418,7 @@ System.FileOwner;System.ComputerName
 [Propriétés système](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 </dt> <dt>
 
-[Exemples du kit de développement logiciel Windows Search](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
+[Windows Rechercher des exemples de SDK](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8)
 </dt> </dl>
 
  

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 7c61816fa140a6126d020285d80a71fb59cc1808ae6888f12dc0e4340447060e
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c8defc6cc3b35ca88038ca3818b56024dfb18699
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118192247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881459"
 ---
 # <a name="using-a-domain-user-account-as-a-service-logon-account"></a>Utilisation d’un compte d’utilisateur de domaine en tant que compte d’ouverture de session de service
 
@@ -26,7 +26,7 @@ Le compte d’utilisateur d’un service ne doit pas être membre d’un groupe 
 
 Une instance de service qui utilise un compte d’utilisateur de domaine nécessite une action administrative périodique pour gérer le mot de passe du compte. Le gestionnaire de contrôle des services (SCM) sur l’ordinateur hôte d’une instance de service met en cache le mot de passe du compte pour une utilisation dans la journalisation du service. Lorsque vous modifiez le mot de passe du compte, vous devez également mettre à jour le mot de passe mis en cache sur l’ordinateur hôte sur lequel le service est installé. Pour plus d’informations et pour obtenir un exemple de code, consultez [modification du mot de passe sur le compte d’utilisateur d’un service](changing-the-password-on-a-serviceampaposs-user-account.md). Vous pouvez éviter la maintenance régulière en laissant le mot de passe inchangé, mais cela augmenterait la probabilité d’une attaque de mot de passe sur le compte de service. Sachez que même si le SCM stocke le mot de passe dans une partie sécurisée du Registre, il est néanmoins soumis à des attaques.
 
-Un compte d’utilisateur de domaine a deux formats de nom : le nom unique de l’objet utilisateur dans le répertoire et le <domain> \\ <username> format «» utilisé par le gestionnaire de contrôle des services locaux. Pour plus d’informations et pour obtenir un exemple de code qui convertit d’un format à l’autre, consultez [conversion de formats de nom de compte de domaine](converting-domain-account-name-formats.md).
+Un compte d’utilisateur de domaine a deux formats de nom : le nom unique de l’objet utilisateur dans le répertoire et le &lt; format « domaine &gt; \\ &lt; nom_utilisateur &gt; » utilisé par le gestionnaire de contrôle des services local. Pour plus d’informations et pour obtenir un exemple de code qui convertit d’un format à l’autre, consultez [conversion de formats de nom de compte de domaine](converting-domain-account-name-formats.md).
 
  
 

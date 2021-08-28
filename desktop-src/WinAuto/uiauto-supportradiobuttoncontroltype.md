@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, RadioButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 358a71f74b40d8465c910f8afe258183c8ea4d5c322fb70e6b6ea946ef7d44ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: a854eec792943a6fc094796de1e3ea6849c6a5e2
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118825480"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480635"
 ---
 # <a name="radiobutton-control-type"></a>RadioButton (type de contrôle)
 
@@ -56,28 +56,11 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>RadioButton</li>
-</ul></td>
-<td><ul>
-<li>RadioButton</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>RadioButton</li></ul> | <ul><li>RadioButton</li></ul> | 
+
 
 
 

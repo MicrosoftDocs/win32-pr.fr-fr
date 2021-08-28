@@ -20,21 +20,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c0208a5f0adac4ff5128b506123f3b68589cd0d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 698f9a050415568c06c8e10819cfed12a4a17181
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534564"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478395"
 ---
 # <a name="jetcreateindex-function"></a>Fonction JetCreateIndex
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetcreateindex-function"></a>Fonction JetCreateIndex
 
-La fonction **JetCreateIndex** vous permet de créer un index de données dans une base de données ESE (Extensible Storage Engine), que vous pouvez utiliser pour rechercher rapidement des données spécifiques.
+la fonction **JetCreateIndex** vous permet de créer un index de données dans une base de données ESE (Extensible Stockage Engine), que vous pouvez utiliser pour rechercher rapidement des données spécifiques.
 
 ```cpp
     JET_ERR JET_API JetCreateIndex(
@@ -94,31 +94,18 @@ Pour plus d’informations sur ce paramètre, consultez la structure [JET_INDEXC
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Signification</p> | 
+|--------------------|----------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+
 
 
 Pour obtenir la liste des erreurs supplémentaires qui peuvent être retournées par la fonction **JetCreateIndex** , consultez [JetCreateIndex2](./jetcreateindex2-function.md).
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 L’appel de la fonction **JetCreateIndex** est identique à l’appel de la fonction [JetCreateIndex2](./jetcreateindex2-function.md) avec une structure [JET_INDEXCREATE](./jet-indexcreate-structure.md) contenant les mêmes paramètres que les paramètres de **JetCreateIndex** et un paramètre *cIndexCreate* égal à 1. Pour les champs de la structure [JET_INDEXCREATE](./jet-indexcreate-structure.md) qui n’ont pas de paramètres correspondants dans **JetCreateIndex**, la valeur 0 est utilisée par défaut.
 
@@ -126,38 +113,9 @@ Notez que **JetCreateIndex** a été remplacé par [JetCreateIndex2](./jetcreate
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Client</p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p>Serveur</p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p>En-tête</p></td>
-<td><p>Est déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p>Bibliothèque</p></td>
-<td><p>Utilise ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p>DLL</p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-<tr class="even">
-<td><p>Unicode</p></td>
-<td><p>Est implémenté en tant que <strong>JetCreateIndexW</strong> (Unicode) et <strong>JetCreateIndexA</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p>Client</p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p>Serveur</p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p>En-tête</p> | <p>Est déclaré dans esent. h.</p> | | <p>Bibliothèque</p> | <p>Utilise ESENT. lib.</p> | | <p>DLL</p> | <p>Requiert ESENT.dll.</p> | | <p>Unicode</p> | <p>Est implémenté en tant que <strong>JetCreateIndexW</strong> (Unicode) et <strong>JetCreateIndexA</strong> (ANSI).</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

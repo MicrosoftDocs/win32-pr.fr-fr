@@ -8,12 +8,12 @@ keywords:
 - Active Directory, utilisation de, authentification mutuelle, service de sockets Windows avec SCP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be8f3e65b044198c5ebf703b1c62ac03eb07a4d57b6bc5dcf7c5463247815f1b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3ede3f05744e402cb483e46d6eb116f653e20d9e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119025767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881376"
 ---
 # <a name="mutual-authentication-in-a-windows-sockets-service-with-scp"></a>authentification mutuelle dans un Service de sockets Windows avec SCP
 
@@ -22,7 +22,7 @@ Les rubriques de cette section incluent des exemples de code qui montrent commen
 **Pour inscrire des noms de principal du service dans un répertoire lors de l’installation d’un service**
 
 1.  Appelez la fonction [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) pour composer des noms de principal du service (SPN) pour le service.
-2.  Appelez la fonction [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) pour enregistrer les noms de principal du service sur le compte de service ou le compte d’ordinateur dans le contexte duquel le service s’exécutera. Cette étape doit être effectuée par un administrateur de domaine. une exception est qu’un service s’exécutant sous le compte LocalSystem peut inscrire son SPN sous la forme « <service class> / <host> » sur le compte d’ordinateur de l’hôte de service.
+2.  Appelez la fonction [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) pour enregistrer les noms de principal du service sur le compte de service ou le compte d’ordinateur dans le contexte duquel le service s’exécutera. Cette étape doit être effectuée par un administrateur de domaine. une exception est qu’un service s’exécutant sous le compte LocalSystem peut inscrire son SPN au format « <service class> / &lt; host &gt; » sur le compte d’ordinateur de l’hôte de service.
 
 **Pour vérifier la configuration au démarrage du service**
 
@@ -56,7 +56,7 @@ Pour plus d’informations et pour obtenir un exemple de code pour ce scénario 
 -   [composition et inscription de spn pour un Service de sockets Windows basé sur SCP](composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md)
 -   [comment un Service de sockets Windows authentifie un Client](how-a-windows-sockets-service-authenticates-a-client.md)
 
-Pour plus d'informations, consultez les pages suivantes :
+Pour plus d’informations, consultez :
 
 -   [Publication avec des points de connexion de service](publishing-with-service-connection-points.md)
 -   [Documentation SSPI](/windows/desktop/SecAuthN/sspi)

@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, Spinner
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9681160bf82c9a541412bb6dde8958c603fcfe22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1472fe400c189b6e5a1e894e1097395e8521e757
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674666"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122478535"
 ---
 # <a name="spinner-control-type"></a>Spinner (type de contrôle)
 
@@ -52,75 +52,29 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Spinner
-<ul>
-<li>Edit (0 ou 1)</li>
-<li>Button (2)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Spinner</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Spinner<ul><li>Edit (0 ou 1)</li><li>Button (2)</li></ul></li></ul> | <ul><li>Spinner</li></ul> | 
 
 
 
- 
+
+ 
 
 **Selection (modèle de contrôle)**
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Spinner
-<ul>
-<li>Edit (0 ou 1)</li>
-<li>Button (2)</li>
-<li>Élément de liste (0 ou plusieurs)</li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>Spinner
-<ul>
-<li>ListItem (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Spinner<ul><li>Edit (0 ou 1)</li><li>Button (2)</li><li>Élément de liste (0 ou plusieurs)</li></ul></li></ul> | <ul><li>Spinner<ul><li>ListItem (0 ou plus)</li></ul></li></ul> | 
 
 
 
- 
+
+ 
 
 Pour vous assurer que les deux boutons de la sous-arborescence de la vue de contrôle peuvent être distingués par des outils de test automatisés, affectez la valeur **ScrollAmount \_ SmallIncrement** ou [**ScrollAmount \_ SmallDecrement**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-scrollamount) à la propriété **AutomationId** , le cas échéant. Pour certaines implémentations, le contrôle d’édition associé peut être un homologue du contrôle Spinner.
 
@@ -145,7 +99,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -162,7 +116,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -183,7 +137,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -198,9 +152,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

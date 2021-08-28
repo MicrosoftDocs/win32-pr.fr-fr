@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 86abba7eeda4dc16e371dedd0ab01b4d94a9aabd
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: ff3910750608fdb1f9ee40eb00d8d9e938de48a9
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122631927"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787355"
 ---
 # <a name="span-idvspixengineicallstackrequestspanicallstackrequest-interface"></a><span id="vspixengine.icallstackrequest"></span>Interface ICallStackRequest
 
@@ -38,7 +38,7 @@ L’interface **ICallStackRequest** hérite de l’interface [**IUnknown**](/win
 
 L’interface **ICallStackRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/icallstackrequest-requestasync-eventid-icallstackcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Requête asynchrone pour obtenir les adresses RVA de la pile des appels (adresses virtuelles relatives) de l’événement spécifié.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/icallstackrequest-requestasync-eventid-icallstackcallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Requête asynchrone pour obtenir les adresses RVA de la pile des appels (adresses virtuelles relatives) de l’événement spécifié.</p></td></tr></tbody></table>
 
  
 

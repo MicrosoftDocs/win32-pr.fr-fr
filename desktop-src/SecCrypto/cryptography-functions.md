@@ -4,12 +4,12 @@ ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: Fonctions de chiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b65c04d3cb1ff619d03d7f0340fc4f94826722f8ed6c0457987b8ec432a66128
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7b0140e81e28eeb5c3c326a30856f733bec8b3cf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117768341"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474575"
 ---
 # <a name="cryptography-functions"></a>Fonctions de chiffrement
 
@@ -145,112 +145,22 @@ Les fonctions de chiffrement de base se trouvent dans les grands groupes suivant
 
 Les applications utilisent les fonctions de service suivantes pour se connecter et déconnecter un [*fournisseur de services de chiffrement*](../secgloss/c-gly.md) (CSP).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Acquiert un handle vers le <a href="/windows/desktop/SecGloss/k-gly"><em>conteneur de clé</em></a> de l’utilisateur actuel dans un CSP particulier.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptContextAddRef</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Incrémente le <a href="/windows/desktop/SecGloss/r-gly"><em>décompte de références</em></a> sur un handle <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Énumère les fournisseurs sur un ordinateur.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypes</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Énumère les types de fournisseurs pris en charge sur l’ordinateur.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera"><strong>CryptGetDefaultProvider</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Détermine le fournisseur de services de chiffrement par défaut pour l’utilisateur actuel ou pour l’ordinateur pour un type de fournisseur spécifié.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam"><strong>CryptGetProvParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Récupère les paramètres qui régissent les opérations d’un fournisseur de services de chiffrement.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Installe un contexte <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> précédemment acquis à utiliser comme contexte par défaut.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Libère le handle acquis par la fonction <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProvider</strong></a> et <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa"> <strong>CryptSetProviderEx</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Spécifie le CSP par défaut de l’utilisateur pour un type de CSP particulier.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam"><strong>CryptSetProvParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Spécifie les attributs d’un CSP.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext"><strong>CryptUninstallDefaultContext</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Supprime un contexte par défaut précédemment installé par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a></td>
-<td>Libère le descripteur d’un <a href="/windows/desktop/SecGloss/c-gly"><em>fournisseur de services de chiffrement</em></a> (CSP) ou d’une clé Cryptography API : Next Generation (CNG).</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Acquiert un handle vers le <a href="/windows/desktop/SecGloss/k-gly"><em>conteneur de clé</em></a> de l’utilisateur actuel dans un CSP particulier. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcontextaddref"><strong>CryptContextAddRef</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Incrémente le <a href="/windows/desktop/SecGloss/r-gly"><em>décompte de références</em></a> sur un handle <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> . | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidersa"><strong>CryptEnumProviders</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Énumère les fournisseurs sur un ordinateur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumprovidertypesa"><strong>CryptEnumProviderTypes</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Énumère les types de fournisseurs pris en charge sur l’ordinateur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetdefaultprovidera"><strong>CryptGetDefaultProvider</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Détermine le fournisseur de services de chiffrement par défaut pour l’utilisateur actuel ou pour l’ordinateur pour un type de fournisseur spécifié. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam"><strong>CryptGetProvParam</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Récupère les paramètres qui régissent les opérations d’un fournisseur de services de chiffrement. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Installe un contexte <a href="hcryptprov.md"><strong>HCRYPTPROV</strong></a> précédemment acquis à utiliser comme contexte par défaut. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptreleasecontext"><strong>CryptReleaseContext</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Libère le handle acquis par la fonction <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta"><strong>CryptAcquireContext</strong></a> . | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovidera"><strong>CryptSetProvider</strong></a> et <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetproviderexa"> <strong>CryptSetProviderEx</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Spécifie le CSP par défaut de l’utilisateur pour un type de CSP particulier. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetprovparam"><strong>CryptSetProvParam</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Spécifie les attributs d’un CSP. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptuninstalldefaultcontext"><strong>CryptUninstallDefaultContext</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Supprime un contexte par défaut précédemment installé par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptinstalldefaultcontext"><strong>CryptInstallDefaultContext</strong></a>. | 
+| <a href="freecryptprovfromcertex.md"><strong>FreeCryptProvFromCertEx</strong></a> | Libère le descripteur d’un <a href="/windows/desktop/SecGloss/c-gly"><em>fournisseur de services de chiffrement</em></a> (CSP) ou d’une clé Cryptography API : Next Generation (CNG). | 
+
 
 
 
@@ -260,100 +170,20 @@ Cette API est déconseillée. Les logiciels nouveaux et existants doivent commen
 
 La génération et l’échange de clés [*échangent des clés*](../secgloss/e-gly.md) avec d’autres utilisateurs et créent, configurent et détruisent des [*clés de chiffrement*](../secgloss/c-gly.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey"><strong>CryptDeriveKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Crée une clé dérivée d’un mot de passe.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey"><strong>CryptDestroyKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Détruit une clé.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey"><strong>CryptDuplicateKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Effectue une copie exacte d’une clé, y compris l' <a href="/windows/desktop/SecGloss/s-gly"><em>État</em></a> de la clé.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Transfère une clé du CSP dans un <a href="/windows/desktop/SecGloss/k-gly"><em>objet blob de clé</em></a> dans l’espace mémoire de l’application.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Crée une clé aléatoire.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom"><strong>CryptGenRandom</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Génère des données aléatoires.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam"><strong>CryptGetKeyParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Récupère les paramètres d’une clé.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey"><strong>CryptGetUserKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Obtient un handle vers l’échange de clés ou la clé de signature.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey"><strong>CryptImportKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Transfère une clé d’un <a href="/windows/desktop/SecGloss/k-gly"><em>objet blob de clé</em></a> à un CSP.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Spécifie les paramètres d’une clé.</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey"><strong>CryptDeriveKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Crée une clé dérivée d’un mot de passe. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey"><strong>CryptDestroyKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Détruit une clé. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatekey"><strong>CryptDuplicateKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Effectue une copie exacte d’une clé, y compris l' <a href="/windows/desktop/SecGloss/s-gly"><em>État</em></a> de la clé. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey"><strong>CryptExportKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Transfère une clé du CSP dans un <a href="/windows/desktop/SecGloss/k-gly"><em>objet blob de clé</em></a> dans l’espace mémoire de l’application. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey"><strong>CryptGenKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Crée une clé aléatoire. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenrandom"><strong>CryptGenRandom</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Génère des données aléatoires. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam"><strong>CryptGetKeyParam</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Récupère les paramètres d’une clé. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey"><strong>CryptGetUserKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Obtient un handle vers l’échange de clés ou la clé de signature. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey"><strong>CryptImportKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Transfère une clé d’un <a href="/windows/desktop/SecGloss/k-gly"><em>objet blob de clé</em></a> à un CSP. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam"><strong>CryptSetKeyParam</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Spécifie les paramètres d’une clé. | 
+
 
 
 
@@ -378,52 +208,16 @@ Il s’agit de fonctions d’encodage et de décodage généralisées. Ils sont 
 
 Les fonctions suivantes prennent en charge les opérations de chiffrement et de déchiffrement. [**CryptEncrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt) et [**CryptDecrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt) requièrent une [*clé de chiffrement*](../secgloss/c-gly.md) avant d’être appelées. Cette opération s’effectue à l’aide de la fonction [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey), [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey)ou [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey) . L’algorithme de chiffrement est spécifié lors de la création de la clé. [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) peut définir des paramètres de chiffrement supplémentaires.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt"><strong>CryptDecrypt</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Déchiffre une section de <a href="/windows/desktop/SecGloss/c-gly"><em>texte chiffré</em></a> à l’aide de la clé de chiffrement spécifiée.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Chiffre une section de <a href="/windows/desktop/SecGloss/p-gly"><em>texte en clair</em></a> à l’aide de la clé de chiffrement spécifiée.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></td>
-<td>Effectue le chiffrement des données dans une structure <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> .</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a></td>
-<td>Chiffre la mémoire pour protéger les informations sensibles.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></td>
-<td>Effectue un contrôle de déchiffrement et d’intégrité des données dans un <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a></td>
-<td>Déchiffre la mémoire qui a été chiffrée à l’aide de <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a>.</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt"><strong>CryptDecrypt</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Déchiffre une section de <a href="/windows/desktop/SecGloss/c-gly"><em>texte chiffré</em></a> à l’aide de la clé de chiffrement spécifiée. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt"><strong>CryptEncrypt</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Chiffre une section de <a href="/windows/desktop/SecGloss/p-gly"><em>texte en clair</em></a> à l’aide de la clé de chiffrement spécifiée. | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a> | Effectue le chiffrement des données dans une structure <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a> . | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a> | Chiffre la mémoire pour protéger les informations sensibles. | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a> | Effectue un contrôle de déchiffrement et d’intégrité des données dans un <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)"><strong>DATA_BLOB</strong></a>. | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectmemory"><strong>CryptUnprotectMemory</strong></a> | Déchiffre la mémoire qui a été chiffrée à l’aide de <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectmemory"><strong>CryptProtectMemory</strong></a>. | 
+
 
 
 
@@ -433,96 +227,22 @@ Cette API est déconseillée. Les logiciels nouveaux et existants doivent commen
 
 Ces fonctions calculent des [*hachages*](../secgloss/h-gly.md) de données et créent et vérifient également des [*signatures numériques*](../secgloss/d-gly.md). Les hachages sont également appelés résumés de message.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash"><strong>CryptCreateHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Crée un objet de hachage vide.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash"><strong>CryptDestroyHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Détruit un objet de hachage.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash"><strong>CryptDuplicateHash</strong></a></td>
-<td>Duplique un objet de hachage.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam"><strong>CryptGetHashParam</strong></a></td>
-<td>Récupère un paramètre d’objet de hachage.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata"><strong>CryptHashData</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Hache un bloc de données, en l’ajoutant à l’objet de hachage spécifié.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey"><strong>CryptHashSessionKey</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Hache une clé de session, en l’ajoutant à l’objet de hachage spécifié.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam"><strong>CryptSetHashParam</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Définit un paramètre d’objet de hachage.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha"><strong>CryptSignHash</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Signe l’objet de hachage spécifié.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a></td>
-<td>Affiche un assistant qui signe numériquement un document ou un <a href="/windows/desktop/SecGloss/b-gly"><em>objet BLOB</em></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a></td>
-<td>Libère un pointeur vers une structure <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Vérifie une signature numérique, en fonction d’un handle de l’objet de hachage.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc"><strong>PFNCFILTERPROC</strong></a></td>
-<td>Filtre les certificats qui s’affichent dans l’Assistant signature numérique affiché par la fonction <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> .</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash"><strong>CryptCreateHash</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Crée un objet de hachage vide. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroyhash"><strong>CryptDestroyHash</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Détruit un objet de hachage. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptduplicatehash"><strong>CryptDuplicateHash</strong></a> | Duplique un objet de hachage. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgethashparam"><strong>CryptGetHashParam</strong></a> | Récupère un paramètre d’objet de hachage. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashdata"><strong>CryptHashData</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Hache un bloc de données, en l’ajoutant à l’objet de hachage spécifié. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashsessionkey"><strong>CryptHashSessionKey</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Hache une clé de session, en l’ajoutant à l’objet de hachage spécifié. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsethashparam"><strong>CryptSetHashParam</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Définit un paramètre d’objet de hachage. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignhasha"><strong>CryptSignHash</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Signe l’objet de hachage spécifié. | 
+| <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> | Affiche un assistant qui signe numériquement un document ou un <a href="/windows/desktop/SecGloss/b-gly"><em>objet BLOB</em></a>. | 
+| <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizfreedigitalsigncontext"><strong>CryptUIWizFreeDigitalSignContext</strong></a> | Libère un pointeur vers une structure <a href="/windows/desktop/api/Cryptuiapi/ns-cryptuiapi-cryptui_wiz_digital_sign_context"><strong>CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT</strong></a> . | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifysignaturea"><strong>CryptVerifySignature</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Vérifie une signature numérique, en fonction d’un handle de l’objet de hachage. | 
+| <a href="/windows/desktop/api/Cryptuiapi/nc-cryptuiapi-pfncfilterproc"><strong>PFNCFILTERPROC</strong></a> | Filtre les certificats qui s’affichent dans l’Assistant signature numérique affiché par la fonction <a href="/windows/desktop/api/Cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign"><strong>CryptUIWizDigitalSign</strong></a> . | 
+
 
 
 
@@ -839,260 +559,63 @@ Les fonctions auxiliaires sont regroupées comme suit :
 
 Les fonctions CryptoAPI suivantes gèrent les données et les certificats.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a></td>
-<td>Compare deux certificats pour déterminer s’ils sont identiques.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a></td>
-<td>Compare deux noms de certificats pour déterminer s’ils sont identiques.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a></td>
-<td>Compare deux <a href="/windows/desktop/SecGloss/b-gly"><em>objets BLOB</em></a>entiers.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a></td>
-<td>Compare deux <a href="/windows/desktop/SecGloss/p-gly"><em>clés publiques</em></a> pour déterminer si elles sont identiques.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a></td>
-<td>Recherche le premier attribut identifié par son <a href="/windows/desktop/SecGloss/o-gly"><em>identificateur d’objet</em></a> (OID).</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a></td>
-<td>Recherche la première extension identifiée par son OID.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a></td>
-<td>Recherche le premier attribut <a href="/windows/desktop/SecGloss/r-gly"><em>RDN</em></a> identifié par son OID dans la liste nom des <em>noms uniques relatifs</em>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a></td>
-<td>Acquiert les octets d’utilisation de clé prévus du certificat.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a></td>
-<td>Acquiert la longueur en bits de la clé publique/privée à partir de l' <a href="/windows/desktop/SecGloss/p-gly"><em>objet blob de clé publique</em></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a></td>
-<td>Compare les attributs du <a href="/windows/desktop/SecGloss/c-gly"><em>nom du certificat</em></a> avec le <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> spécifié pour déterminer si tous les attributs y sont inclus.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a></td>
-<td>Détermine si l’algorithme de hachage spécifié et la clé publique dans le certificat de signature peuvent être utilisés pour effectuer une signature forte.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a></td>
-<td>Vérifie que le certificat du sujet ne figure pas dans la <a href="/windows/desktop/SecGloss/c-gly"><em>liste de révocation de certificats</em></a> (CRL).</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a></td>
-<td>Vérifie la validité d’une liste de révocation de certificats.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a></td>
-<td>Vérifie que le certificat du sujet n’est pas sur la liste de révocation de certificats.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a></td>
-<td>Vérifie la validité de l’heure d’un certificat.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting"><strong>CertVerifyValidityNesting</strong></a></td>
-<td>Vérifie que la validité de l’heure du sujet est comprise dans la durée de validité de l’émetteur.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a></td>
-<td>Cette fonction est remplacée par la fonction <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a> .</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a></td>
-<td>Exporte la clé privée au format de #8 PKCS.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a></td>
-<td>Exporte les informations de clé publique associées à la clé privée correspondante du fournisseur.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex"><strong>CryptExportPublicKeyInfoEx</strong></a></td>
-<td>Exporte les informations de clé publique associées à la clé privée correspondante du fournisseur. Cette fonction diffère de <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> dans le fait que l’utilisateur peut spécifier l’algorithme de clé publique, remplaçant ainsi la valeur par défaut fournie par le fournisseur de services de chiffrement.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a></td>
-<td>Exporte les informations de clé publique associées à la clé privée correspondante d’un fournisseur.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a></td>
-<td>Énumère les fournisseurs de chiffrement et leurs <a href="/windows/desktop/SecGloss/k-gly"><em>conteneurs de clé</em></a> pour rechercher la clé privée qui correspond à la clé publique d’un certificat.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a></td>
-<td>Recherche le nom localisé pour un nom spécifié, par exemple, recherche le nom localisé pour le nom de magasin du système racine.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate"><strong>CryptHashCertificate</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Hache le contenu encodé.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a></td>
-<td>Hache un bloc de données à l’aide d’un fournisseur de hachage Cryptography API : Next Generation (CNG).</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Calcule le hachage des informations de clé publique encodées.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned"><strong>CryptHashToBeSigned</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Calcule le hachage du &quot; à des informations signées &quot; dans le contenu signé encodé (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>).</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Importe la <a href="/windows/desktop/SecGloss/p-gly"><em>clé privée</em></a> au format de #8 PKCS vers un <a href="/windows/desktop/SecGloss/c-gly"><em>fournisseur de services de chiffrement</em></a> (CSP).</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Convertit et importe des informations de clé publique dans le fournisseur et retourne un handle de la clé publique.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex"><strong>CryptImportPublicKeyInfoEx</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Convertit et importe les informations de clé publique dans le fournisseur et retourne un handle de la clé publique. Des paramètres supplémentaires (par rapport à ceux spécifiés par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a>) qui peuvent être utilisés pour remplacer les valeurs par défaut sont fournis pour compléter <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_public_key_info"><strong>CERT_PUBLIC_KEY_INFO</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a></td>
-<td>Importe une clé publique dans un fournisseur asymétrique CNG.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a></td>
-<td>Alloue de la mémoire pour une mémoire tampon. Cette mémoire est utilisée par toutes les fonctions fichier crypt32. lib qui retournent des mémoires tampons allouées.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a></td>
-<td>Libère de la mémoire allouée par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> ou <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a></td>
-<td>Libère la mémoire actuellement allouée pour une mémoire tampon et alloue de la mémoire pour une nouvelle mémoire tampon.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Récupère des informations sur le contenu d’un objet BLOB ou d’un fichier.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate"><strong>CryptSignAndEncodeCertificate</strong></a></td>
-<td>Encode les pour qu' &quot; elles soient signées &quot; , signe ces informations encodées et encode les informations encodées et signées obtenues.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate"><strong>CryptSignCertificate</strong></a></td>
-<td>Signe le &quot; à des informations signées &quot; dans le contenu encodé et signé.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a></td>
-<td>Ajoute un package d’interface de sujet (SIP).</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a></td>
-<td>Retourne une structure <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> qui contient un <a href="/windows/desktop/SecGloss/h-gly"><em>hachage</em></a> de la structure <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> fournie, de l’algorithme Digest et d’un attribut d’encodage. Le hachage peut être utilisé comme référence indirecte aux données.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a></td>
-<td>Récupère les fonctionnalités d’un SIP.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a></td>
-<td>Récupère une signature Authenticode à partir du fichier.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a></td>
-<td>Charge la bibliothèque de liens dynamiques qui implémente un package d’interface de sujet et assigne les fonctions d’exportation de bibliothèque appropriées à une structure <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a></td>
-<td>Stocke une signature Authenticode dans le fichier cible.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a></td>
-<td>Supprime un SIP ajouté par un appel précédent à la fonction <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> .</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a></td>
-<td>Supprime une signature Authenticode spécifiée.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a></td>
-<td>Récupère un GUID basé sur les informations d’en-tête dans un fichier spécifié.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a></td>
-<td>Récupère le GUID d’objet associé au fichier spécifié.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a></td>
-<td>Valide les données hachées indirectes par rapport à l’objet fourni.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a></td>
-<td>Migre les clés principales de l’utilisateur actuel après la modification de l' <a href="/windows/desktop/SecGloss/s-gly"><em>identificateur de sécurité</em></a> (SID) de l’utilisateur.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a></td>
-<td>Vérifie la signature d’un certificat de sujet ou d’une <a href="/windows/desktop/SecGloss/c-gly"><em>liste de révocation</em></a> de certificats à l’aide des informations de clé publique.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a></td>
-<td>Version étendue de <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a>.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel"><strong>GetEncSChannel</strong></a></td>
-<td>Stocke le contenu chiffré de la DLL Schannel en mémoire.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps"><strong>pCryptSIPGetCaps</strong></a></td>
-<td>Implémenté par un SIP pour signaler des fonctionnalités.</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificate"><strong>CertCompareCertificate</strong></a> | Compare deux certificats pour déterminer s’ils sont identiques. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparecertificatename"><strong>CertCompareCertificateName</strong></a> | Compare deux noms de certificats pour déterminer s’ils sont identiques. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcompareintegerblob"><strong>CertCompareIntegerBlob</strong></a> | Compare deux <a href="/windows/desktop/SecGloss/b-gly"><em>objets BLOB</em></a>entiers. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certcomparepublickeyinfo"><strong>CertComparePublicKeyInfo</strong></a> | Compare deux <a href="/windows/desktop/SecGloss/p-gly"><em>clés publiques</em></a> pour déterminer si elles sont identiques. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindattribute"><strong>CertFindAttribute</strong></a> | Recherche le premier attribut identifié par son <a href="/windows/desktop/SecGloss/o-gly"><em>identificateur d’objet</em></a> (OID). | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindextension"><strong>CertFindExtension</strong></a> | Recherche la première extension identifiée par son OID. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certfindrdnattr"><strong>CertFindRDNAttr</strong></a> | Recherche le premier attribut <a href="/windows/desktop/SecGloss/r-gly"><em>RDN</em></a> identifié par son OID dans la liste nom des <em>noms uniques relatifs</em>. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetintendedkeyusage"><strong>CertGetIntendedKeyUsage</strong></a> | Acquiert les octets d’utilisation de clé prévus du certificat. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certgetpublickeylength"><strong>CertGetPublicKeyLength</strong></a> | Acquiert la longueur en bits de la clé publique/privée à partir de l' <a href="/windows/desktop/SecGloss/p-gly"><em>objet blob de clé publique</em></a>. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisrdnattrsincertificatename"><strong>CertIsRDNAttrsInCertificateName</strong></a> | Compare les attributs du <a href="/windows/desktop/SecGloss/c-gly"><em>nom du certificat</em></a> avec le <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_rdn"><strong>CERT_RDN</strong></a> spécifié pour déterminer si tous les attributs y sont inclus. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certisstronghashtosign"><strong>CertIsStrongHashToSign</strong></a> | Détermine si l’algorithme de hachage spécifié et la clé publique dans le certificat de signature peuvent être utilisés pour effectuer une signature forte. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrlrevocation"><strong>CertVerifyCRLRevocation</strong></a> | Vérifie que le certificat du sujet ne figure pas dans la <a href="/windows/desktop/SecGloss/c-gly"><em>liste de révocation de certificats</em></a> (CRL). | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifycrltimevalidity"><strong>CertVerifyCRLTimeValidity</strong></a> | Vérifie la validité d’une liste de révocation de certificats. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyrevocation"><strong>CertVerifyRevocation</strong></a> | Vérifie que le certificat du sujet n’est pas sur la liste de révocation de certificats. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifytimevalidity"><strong>CertVerifyTimeValidity</strong></a> | Vérifie la validité de l’heure d’un certificat. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-certverifyvaliditynesting"><strong>CertVerifyValidityNesting</strong></a> | Vérifie que la validité de l’heure du sujet est comprise dans la durée de validité de l’émetteur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8"><strong>CryptExportPKCS8</strong></a> | Cette fonction est remplacée par la fonction <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a> . | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpkcs8ex"><strong>CryptExportPKCS8Ex</strong></a> | Exporte la clé privée au format de #8 PKCS. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> | Exporte les informations de clé publique associées à la clé privée correspondante du fournisseur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfoex"><strong>CryptExportPublicKeyInfoEx</strong></a> | Exporte les informations de clé publique associées à la clé privée correspondante du fournisseur. Cette fonction diffère de <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfo"><strong>CryptExportPublicKeyInfo</strong></a> dans le fait que l’utilisateur peut spécifier l’algorithme de clé publique, remplaçant ainsi la valeur par défaut fournie par le fournisseur de services de chiffrement. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportpublickeyinfofrombcryptkeyhandle"><strong>CryptExportPublicKeyInfoFromBCryptKeyHandle</strong></a> | Exporte les informations de clé publique associées à la clé privée correspondante d’un fournisseur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindcertificatekeyprovinfo"><strong>CryptFindCertificateKeyProvInfo</strong></a> | Énumère les fournisseurs de chiffrement et leurs <a href="/windows/desktop/SecGloss/k-gly"><em>conteneurs de clé</em></a> pour rechercher la clé privée qui correspond à la clé publique d’un certificat. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptfindlocalizedname"><strong>CryptFindLocalizedName</strong></a> | Recherche le nom localisé pour un nom spécifié, par exemple, recherche le nom localisé pour le nom de magasin du système racine. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate"><strong>CryptHashCertificate</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Hache le contenu encodé. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashcertificate2"><strong>CryptHashCertificate2</strong></a> | Hache un bloc de données à l’aide d’un fournisseur de hachage Cryptography API : Next Generation (CNG). | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashpublickeyinfo"><strong>CryptHashPublicKeyInfo</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Calcule le hachage des informations de clé publique encodées. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-crypthashtobesigned"><strong>CryptHashToBeSigned</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Calcule le hachage des informations de « à signer » dans le contenu signé encodé (<a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_signed_content_info"><strong>CERT_SIGNED_CONTENT_INFO</strong></a>). | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpkcs8"><strong>CryptImportPKCS8</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Importe la <a href="/windows/desktop/SecGloss/p-gly"><em>clé privée</em></a> au format de #8 PKCS vers un <a href="/windows/desktop/SecGloss/c-gly"><em>fournisseur de services de chiffrement</em></a> (CSP). | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Convertit et importe des informations de clé publique dans le fournisseur et retourne un handle de la clé publique. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex"><strong>CryptImportPublicKeyInfoEx</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Convertit et importe les informations de clé publique dans le fournisseur et retourne un handle de la clé publique. Des paramètres supplémentaires (par rapport à ceux spécifiés par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfo"><strong>CryptImportPublicKeyInfo</strong></a>) qui peuvent être utilisés pour remplacer les valeurs par défaut sont fournis pour compléter <a href="/windows/desktop/api/Wincrypt/ns-wincrypt-cert_public_key_info"><strong>CERT_PUBLIC_KEY_INFO</strong></a>. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportpublickeyinfoex2"><strong>CryptImportPublicKeyInfoEx2</strong></a> | Importe une clé publique dans un fournisseur asymétrique CNG. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> | Alloue de la mémoire pour une mémoire tampon. Cette mémoire est utilisée par toutes les fonctions fichier crypt32. lib qui retournent des mémoires tampons allouées. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemfree"><strong>CryptMemFree</strong></a> | Libère de la mémoire allouée par <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemalloc"><strong>CryptMemAlloc</strong></a> ou <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a>. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmemrealloc"><strong>CryptMemRealloc</strong></a> | Libère la mémoire actuellement allouée pour une mémoire tampon et alloue de la mémoire pour une nouvelle mémoire tampon. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptqueryobject"><strong>CryptQueryObject</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Récupère des informations sur le contenu d’un objet BLOB ou d’un fichier. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsignandencodecertificate"><strong>CryptSignAndEncodeCertificate</strong></a> | Encode les informations de « à signer », signe ces informations encodées et encode les informations encodées et signées obtenues. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsigncertificate"><strong>CryptSignCertificate</strong></a> | Signe les informations « à signer » dans le contenu encodé et signé. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> | Ajoute un package d’interface de sujet (SIP). | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipcreateindirectdata"><strong>CryptSIPCreateIndirectData</strong></a> | Retourne une structure <a href="/windows/win32/api/mssip/ns-mssip-sip_indirect_data"><strong>SIP_INDIRECT_DATA</strong></a> qui contient un <a href="/windows/desktop/SecGloss/h-gly"><em>hachage</em></a> de la structure <a href="/windows/win32/api/mssip/ns-mssip-sip_subjectinfo"><strong>SIP_SUBJECTINFO</strong></a> fournie, de l’algorithme Digest et d’un attribut d’encodage. Le hachage peut être utilisé comme référence indirecte aux données. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetcaps"><strong>CryptSIPGetCaps</strong></a> | Récupère les fonctionnalités d’un SIP. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipgetsigneddatamsg"><strong>CryptSIPGetSignedDataMsg</strong></a> | Récupère une signature Authenticode à partir du fichier. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipload"><strong>CryptSIPLoad</strong></a> | Charge la bibliothèque de liens dynamiques qui implémente un package d’interface de sujet et assigne les fonctions d’exportation de bibliothèque appropriées à une structure <a href="/windows/win32/api/mssip/ns-mssip-sip_dispatch_info"><strong>SIP_DISPATCH_INFO</strong></a> . | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipputsigneddatamsg"><strong>CryptSIPPutSignedDataMsg</strong></a> | Stocke une signature Authenticode dans le fichier cible. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremoveprovider"><strong>CryptSIPRemoveProvider</strong></a> | Supprime un SIP ajouté par un appel précédent à la fonction <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipaddprovider"><strong>CryptSIPAddProvider</strong></a> . | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipremovesigneddatamsg"><strong>CryptSIPRemoveSignedDataMsg</strong></a> | Supprime une signature Authenticode spécifiée. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguid"><strong>CryptSIPRetrieveSubjectGuid</strong></a> | Récupère un GUID basé sur les informations d’en-tête dans un fichier spécifié. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipretrievesubjectguidforcatalogfile"><strong>CryptSIPRetrieveSubjectGuidForCatalogFile</strong></a> | Récupère le GUID d’objet associé au fichier spécifié. | 
+| <a href="/windows/desktop/api/Mssip/nf-mssip-cryptsipverifyindirectdata"><strong>CryptSIPVerifyIndirectData</strong></a> | Valide les données hachées indirectes par rapport à l’objet fourni. | 
+| <a href="/windows/desktop/api/Dpapi/nf-dpapi-cryptupdateprotectedstate"><strong>CryptUpdateProtectedState</strong></a> | Migre les clés principales de l’utilisateur actuel après la modification de l' <a href="/windows/desktop/SecGloss/s-gly"><em>identificateur de sécurité</em></a> (SID) de l’utilisateur. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a> | Vérifie la signature d’un certificat de sujet ou d’une <a href="/windows/desktop/SecGloss/c-gly"><em>liste de révocation</em></a> de certificats à l’aide des informations de clé publique. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignatureex"><strong>CryptVerifyCertificateSignatureEx</strong></a> | Version étendue de <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptverifycertificatesignature"><strong>CryptVerifyCertificateSignature</strong></a>. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-getencschannel"><strong>GetEncSChannel</strong></a> | Stocke le contenu chiffré de la DLL Schannel en mémoire. | 
+| <a href="/windows/desktop/api/Mssip/nc-mssip-pcryptsipgetcaps"><strong>pCryptSIPGetCaps</strong></a> | Implémenté par un SIP pour signaler des fonctionnalités. | 
+
 
 
 
@@ -1143,48 +666,14 @@ Les identificateurs de clé ne sont pas associés à des [*listes de révocation
 
 Un identificateur de clé peut avoir les mêmes propriétés qu’un contexte de certificat. Pour plus d’informations, consultez [**CertCreateContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecontext).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonction</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp"><strong>CryptCreateKeyIdentifierFromCSP</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Crée un identificateur de clé à partir de l' <a href="/windows/desktop/SecGloss/p-gly"><em>objet blob de clé publique</em></a>d’un CSP.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a></td>
-<td>Énumère les identificateurs de clé et leurs propriétés.</td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty"><strong>CryptGetKeyIdentifierProperty</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Acquiert une propriété spécifique à partir d’un identificateur de clé spécifié.</td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty"><strong>CryptSetKeyIdentifierProperty</strong></a></td>
-<td><blockquote>
-[!Important]<br />
-Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.
-</blockquote>
-<br/> Définit une propriété d’un identificateur de clé spécifié.</td>
-</tr>
-</tbody>
-</table>
+
+| Fonction | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatekeyidentifierfromcsp"><strong>CryptCreateKeyIdentifierFromCSP</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Crée un identificateur de clé à partir de l' <a href="/windows/desktop/SecGloss/p-gly"><em>objet blob de clé publique</em></a>d’un CSP. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptenumkeyidentifierproperties"><strong>CryptEnumKeyIdentifierProperties</strong></a> | Énumère les identificateurs de clé et leurs propriétés. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyidentifierproperty"><strong>CryptGetKeyIdentifierProperty</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Acquiert une propriété spécifique à partir d’un identificateur de clé spécifié. | 
+| <a href="/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyidentifierproperty"><strong>CryptSetKeyIdentifierProperty</strong></a> | <blockquote>[!Important]<br />Cette API est déconseillée. Les logiciels nouveaux et existants doivent commencer à utiliser les <a href="/windows/desktop/SecCNG/cng-portal">API de cryptographie nouvelle génération.</a> Microsoft peut supprimer cette API dans les versions ultérieures.</blockquote><br /> Définit une propriété d’un identificateur de clé spécifié. | 
+
 
 
 

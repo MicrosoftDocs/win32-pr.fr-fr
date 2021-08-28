@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9b5d2a62aa448a84d539d8d2d557d06befacfbba
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 7874c475dc18beb5d7f6849b9f628ea06cbc32a3
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988952"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470454"
 ---
 # <a name="jetinit2-function"></a>Fonction JetInit2
 
@@ -90,13 +90,7 @@ Pour plus d’informations, consultez la section Notes dans [JetInit](./jetinit-
 #### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
 
 
 

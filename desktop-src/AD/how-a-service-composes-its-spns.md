@@ -7,12 +7,12 @@ keywords:
 - nom de principal du service AD, comment un service est composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd4c0ac9c871c76e9e8771a688d203898674e477426ebd788ee34fe894011a0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 35fb659eec3bb2d0f50fd109b39f356df1429535
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118188643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881394"
 ---
 # <a name="how-a-service-composes-its-spns"></a>Comment un service compose ses SPN
 
@@ -20,7 +20,7 @@ Un service peut utiliser deux fonctions pour composer ses SPN : [**DsGetSpn**](
 
 Un programme d’installation de service utilise généralement la fonction [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna) pour composer des SPN, qu’il enregistre ensuite sur le compte d’ouverture de session du service à l’aide de la fonction [**DsWriteAccountSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna) . Le **DsGetSpn** peut exécuter les fonctions suivantes.
 
--   Créez un SPN simple avec le <service class> / <host> format «» pour un service basé sur l’hôte.
+-   Créez un SPN simple avec le <service class> / &lt; format « hôte &gt; » pour un service basé sur l’hôte.
 -   Créez un nom de principal du service (SPN) complexe qui comprend le &lt; composant « nom du service &gt; » utilisé par les services réplicables ou le &lt; composant « port &gt; » qui distingue plusieurs instances d’un service sur un seul hôte.
 -   Créez un SPN unique avec le &lt; composant « hôte &gt; » défini sur le nom d’un ordinateur hôte spécifié ou sur le nom de l’ordinateur local par défaut.
 -   Créez un tableau de noms de principal du service pour plusieurs instances de service qui s’exécuteront sur plusieurs hôtes dans l’ensemble de la forêt. Chaque SPN spécifie le nom de l’hôte pour une instance de service.

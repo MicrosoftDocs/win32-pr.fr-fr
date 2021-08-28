@@ -4,12 +4,12 @@ description: Une confirmation est une boîte de dialogue modale qui demande si l
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 22fc59cee7ebd02ae5e97b5a4db9549848267120
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: cbfe45319051e79bcbcf57486c99f12e38ab6658
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122987462"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474445"
 ---
 # <a name="confirmations"></a>Confirmations
 
@@ -444,11 +444,7 @@ Dans cet exemple, « définitivement » indique que l’action ne peut pas êt
 -   **L’instruction supplémentaire pour une confirmation est basée sur son modèle de conception :**
 
     
-| Étiquette | Valeur |
-|--------|-------|
-| <strong>Modèle</strong><br /> | <strong>Instruction supplémentaire</strong><br /> | 
-| Confirmations de conséquence imprévues <br /> | Posez une question unique pour déterminer si l’utilisateur souhaite continuer. <br /> | 
-| Tous les autres <br /> | Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer. Ces raisons sont les suivantes : <br /><ul><li>Perte potentielle d’un ou plusieurs des éléments suivants :    <ul><li>Une ressource précieuse, telle qu’une perte de données ou une perte financière.</li><li>Accès ou intégrité du système.</li><li>Confidentialité ou contrôle des informations confidentielles.</li></ul></li><li>Actions irréversibles.</li></ul> | 
+| | | <strong>Modèle</strong><br /> | <strong>Instruction supplémentaire</strong><br /> | | Confirmations de conséquence imprévues <br /> | Posez une question unique pour déterminer si l’utilisateur souhaite continuer. <br /> | | Tous les autres <br /> | Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer. Ces raisons sont les suivantes : <br /><ul><li>Perte potentielle d’un ou plusieurs des éléments suivants :    <ul><li>Une ressource précieuse, telle qu’une perte de données ou une perte financière.</li><li>Accès ou intégrité du système.</li><li>Confidentialité ou contrôle des informations confidentielles.</li></ul></li><li>Actions irréversibles.</li></ul> | 
 
 
     

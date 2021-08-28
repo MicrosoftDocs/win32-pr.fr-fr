@@ -4,12 +4,12 @@ description: Ce document décrit le format des fichiers de thème (. Theme). un 
 ms.assetid: 0b7b0ff7-f55a-4215-a2fd-6c3ea117d6e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c67fc2d73e54e4f9c319108c2b29ed62fb58266f
-ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.openlocfilehash: 584e6d9785cf7660e017cadfb2a39d6bce6c2a87
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "122472304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886638"
 ---
 # <a name="theme-file-format"></a>Format du fichier de thème
 
@@ -669,7 +669,7 @@ Transparency=1
 
 ## <a name="installing-theme-files"></a>Installation des fichiers de thème
 
-lorsque Windows est initialisé, le système d’exploitation énumère les sous-répertoires de premier niveau des ressources% WinDir \\ % \\ pour identifier les thèmes disponibles. Les fichiers de thèmes du système par défaut se trouvent dans les thèmes% WinDir% \\ Resources \\ . les fichiers de thème utilisateur sont stockés dans% WinDir% \\ users \\ <username> \\ AppData \\ Local \\ Microsoft \\ Windows \\ themes.
+lorsque Windows est initialisé, le système d’exploitation énumère les sous-répertoires de premier niveau des ressources% WinDir \\ % \\ pour identifier les thèmes disponibles. Les fichiers de thèmes du système par défaut se trouvent dans les thèmes% WinDir% \\ Resources \\ . les fichiers de thème utilisateur sont stockés dans% WinDir% \\ users \\ &lt; nom_utilisateur &gt; \\ AppData \\ Local \\ Microsoft \\ Windows \\ themes.
 
 Un fichier. Theme a des associations de fichiers ; par conséquent, les applications de programme d’installation de thème peuvent appeler [**ShellExecute**](/windows/desktop/api/shellapi/nf-shellapi-shellexecutea) sur un fichier. Theme pour ouvrir la fenêtre de **personnalisation** du panneau de configuration au thème spécifié.
 

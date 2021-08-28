@@ -4,12 +4,12 @@ ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: Utilisation du moniker de la file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e83d720478064f1427966de69d98ef06ac82f1da98cc50aa1ec3d3b3ac4c4d0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 938b4c0c8afc19e953d7f62f17f95bbd63f387e6
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118305156"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473685"
 ---
 # <a name="using-the-queue-moniker"></a>Utilisation du moniker de la file d’attente
 
@@ -71,41 +71,14 @@ Le tableau suivant répertorie les paramètres du moniker de la file d’attente
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>ComputerName</em><br/></td>
-<td>Spécifie la partie nom d’ordinateur d’un nom de chemin d’accès de file d’attente Message Queuing. Le nom du chemin d’accès de la file d’attente Message Queuing est au format <em>ComputerName</em> \ <em>QueueName</em>. S’il n’est pas spécifié, le nom de l’ordinateur associé à l’application configurée est utilisé.<br/></td>
-</tr>
-<tr class="even">
-<td><em>QueueName</em><br/></td>
-<td>Spécifie le nom de la file d’attente Message Queuing. Le nom du chemin d’accès de la file d’attente Message Queuing est au format <em>ComputerName</em> \ <em>QueueName</em>. S’il n’est pas spécifié, le nom de la file d’attente associé à l’application configurée est utilisé.<br/> Pour obtenir une file d’attente non transactionnelle, vous pouvez d’abord spécifier le nom de la file d’attente, puis créer une application COM+ portant le même nom.<br/></td>
-</tr>
-<tr class="odd">
-<td><em>PathName</em><br/></td>
-<td>Spécifie le nom complet du chemin d’accès de la file d’attente Message Queuing. S’il n’est pas spécifié, le nom du chemin d’accès de la file d’attente Message Queuing associé à l’application configurée est utilisé. Pour remplacer le nom de destination, le chemin d’accès peut être spécifié sous la forme suivante pour une installation de Message Queuing groupe de travail :<br/> Queue :<em>pathname</em> = <em>nomordinateur</em>\private $ \ AppName/New : MyProject. CMyClass<br/>
-<blockquote>
-[!Note]<br />
-les langages de programmation C et Microsoft Visual C++ requièrent deux barres obliques inverses pour représenter une barre oblique inverse dans les littéraux de chaîne, par exemple, chicago \\ payroll.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><em>FormatName</em><br/></td>
-<td>Lorsque vous marquez une application COM+ comme en file d’attente, COM+ crée une file d’attente Message Queuing dont le nom est identique à celui de l’application. Le nom de format Message Queuing de cette file d’attente se trouve dans le catalogue COM+, associé à l’application COM+. Pour remplacer le nom de destination, le nom de format peut être spécifié sous la forme suivante pour une installation Message Queuing groupe de travail :<br/> Queue :<em>FormatName</em>= direct = OS :<em>nom_ordinateur</em>\private $ \ AppName/New : ProgID<br/> Dans une configuration Active Directory, &quot; Private $ &quot; n’est pas spécifié dans le nom de la file d’attente. <br/></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Description | 
+|-----------|-------------|
+| <em>ComputerName</em><br /> | Spécifie la partie nom d’ordinateur d’un nom de chemin d’accès de file d’attente Message Queuing. Le nom du chemin d’accès de la file d’attente Message Queuing est au format <em>ComputerName</em> \<em> QueueName </em> . S’il n’est pas spécifié, le nom de l’ordinateur associé à l’application configurée est utilisé.<br /> | 
+| <em>QueueName</em><br /> | Spécifie le nom de la file d’attente Message Queuing. Le nom du chemin d’accès de la file d’attente Message Queuing est au format <em>ComputerName</em> \<em> QueueName </em> . S’il n’est pas spécifié, le nom de la file d’attente associé à l’application configurée est utilisé.<br /> Pour obtenir une file d’attente non transactionnelle, vous pouvez d’abord spécifier le nom de la file d’attente, puis créer une application COM+ portant le même nom.<br /> | 
+| <em>PathName</em><br /> | Spécifie le nom complet du chemin d’accès de la file d’attente Message Queuing. S’il n’est pas spécifié, le nom du chemin d’accès de la file d’attente Message Queuing associé à l’application configurée est utilisé. Pour remplacer le nom de destination, le chemin d’accès peut être spécifié sous la forme suivante pour une installation de Message Queuing groupe de travail :<br /> Queue :<em>pathname</em> = <em>nomordinateur</em>\private $ \ AppName/New : MyProject. CMyClass<br /><blockquote>[!Note]<br />les langages de programmation C et Microsoft Visual C++ requièrent deux barres obliques inverses pour représenter une barre oblique inverse dans les littéraux de chaîne, par exemple, chicago \\ payroll.</blockquote><br /> | 
+| <em>FormatName</em><br /> | Lorsque vous marquez une application COM+ comme en file d’attente, COM+ crée une file d’attente Message Queuing dont le nom est identique à celui de l’application. Le nom de format Message Queuing de cette file d’attente se trouve dans le catalogue COM+, associé à l’application COM+. Pour remplacer le nom de destination, le nom de format peut être spécifié sous la forme suivante pour une installation Message Queuing groupe de travail :<br /> Queue :<em>FormatName</em>= direct = OS :<em>nom_ordinateur</em>\private $ \ AppName/New : ProgID<br /> Dans une configuration Active Directory, « PRIVATE $ » n’est pas spécifié dans le nom de la file d’attente. <br /> | 
+
 
 
 
@@ -122,115 +95,22 @@ L’écouteur de composants en file d’attente COM+ reçoit uniquement des file
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><em>AppSpecific</em><br/></td>
-<td>Spécifie un entier non signé, par exemple, AppSpecific = 12345.<br/></td>
-</tr>
-<tr class="even">
-<td><em>AuthLevel</em><br/></td>
-<td>Spécifie le niveau d’authentification du message. Un message authentifié est signé numériquement et requiert un certificat pour l’utilisateur qui envoie le message. Valeurs acceptables :<br/>
-<ul>
-<li>MQMSG_AUTH_LEVEL_NONE, 0</li>
-<li>MQMSG_AUTH_LEVEL_ALWAYS, 1</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>Distribution</em><br/></td>
-<td>Spécifie l’option de remise de message. Cette valeur est ignorée pour les files d’attente transactionnelles. Valeurs acceptables :<br/>
-<ul>
-<li>MQMSG_DELIVERY_EXPRESS, 0</li>
-<li>MQMSG_DELIVERY_RECOVERABLE, 1</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>EncryptAlgorithm</em><br/></td>
-<td>Spécifie l’algorithme de chiffrement à utiliser par Message Queuing pour chiffrer et déchiffrer le message. Valeurs acceptables :<br/>
-<ul>
-<li>CALG_RC2, CALG_RC4</li>
-<li>Toute valeur entière acceptable pour Message Queuing pour un <em>EncryptAlgorithm</em>.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>HashAlgorithm</em><br/></td>
-<td>Spécifie une fonction de hachage de chiffrement. Valeurs acceptables :<br/>
-<ul>
-<li>CALG_MD2, CALG_MD4, CALG_MD5, CALG_SHA, CALG_SHA1, CALG_MAC, CALG_SSL3_SHAMD5, CALG_HMAC, CALG_TLS1PRF</li>
-<li>Toute valeur entière acceptable pour Message Queuing pour un <em>HashAlgorithm</em>.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Journal<br/></td>
-<td>Spécifie l’option Message Queuing le journal des messages. Valeurs acceptables :<br/>
-<ul>
-<li>MQMSG_JOURNAL_NONE, 0</li>
-<li>MQMSG_DEADLETTER, 1</li>
-<li>MQMSG_JOURNAL, 2</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>Étiquette</em><br/></td>
-<td>Spécifie une chaîne d’étiquette de message jusqu’à MQ_MAX_MSG_LABEL_LEN caractères. <br/></td>
-</tr>
-<tr class="even">
-<td><em>MaxTimeToReachQueue</em><br/></td>
-<td>Spécifie la durée maximale, en secondes, pendant laquelle le message atteint la file d’attente. <br/> Valeurs acceptables :<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>Nombre de secondes</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>MaxTimeToReceive</em><br/></td>
-<td>Spécifie la durée maximale, en secondes, pendant laquelle le message est reçu par l’application cible. Valeurs acceptables :<br/>
-<ul>
-<li>INFINITE</li>
-<li>LONG_LIVED</li>
-<li>Nombre de secondes</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>Priorité</em><br/></td>
-<td>Spécifie un niveau de priorité de message dans les valeurs Message Queuing autorisées.<br/> Valeurs acceptables :<br/>
-<ul>
-<li>MQ_MIN_PRIORITY, 0</li>
-<li>MQ_MAX_PRIORITY, 7</li>
-<li>MQ_DEFAULT_PRIORITY, 3</li>
-<li>Nombre compris entre 0 et 7</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><em>PrivLevel</em><br/></td>
-<td>Spécifie un niveau de confidentialité, utilisé pour chiffrer les messages.<br/> Valeurs acceptables :<br/>
-<ul>
-<li>MQMSG_PRIV_LEVEL_NONE, AUCUN, 0</li>
-<li>MQMSG_PRIV_LEVEL_BODY, CORPS,</li>
-<li>MQMSG_PRIV_LEVEL_BODY_BASE, BODY_BASE, 1</li>
-<li>MQMSG_PRIV_LEVEL_BODY_ENHANCED, BODY_ENHANCED, 3</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><em>Trace</em><br/></td>
-<td>Spécifie les options de trace utilisées dans le suivi Message Queuing routage.<br/> Valeurs acceptables :<br/>
-<ul>
-<li>MQMSG_TRACE_NONE, 0</li>
-<li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE, 1</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Description | 
+|-----------|-------------|
+| <em>AppSpecific</em><br /> | Spécifie un entier non signé, par exemple, AppSpecific = 12345.<br /> | 
+| <em>AuthLevel</em><br /> | Spécifie le niveau d’authentification du message. Un message authentifié est signé numériquement et requiert un certificat pour l’utilisateur qui envoie le message. Valeurs acceptables :<br /><ul><li>MQMSG_AUTH_LEVEL_NONE, 0</li><li>MQMSG_AUTH_LEVEL_ALWAYS, 1</li></ul> | 
+| <em>Distribution</em><br /> | Spécifie l’option de remise de message. Cette valeur est ignorée pour les files d’attente transactionnelles. Valeurs acceptables :<br /><ul><li>MQMSG_DELIVERY_EXPRESS, 0</li><li>MQMSG_DELIVERY_RECOVERABLE, 1</li></ul> | 
+| <em>EncryptAlgorithm</em><br /> | Spécifie l’algorithme de chiffrement à utiliser par Message Queuing pour chiffrer et déchiffrer le message. Valeurs acceptables :<br /><ul><li>CALG_RC2, CALG_RC4</li><li>Toute valeur entière acceptable pour Message Queuing pour un <em>EncryptAlgorithm</em>.</li></ul> | 
+| <em>HashAlgorithm</em><br /> | Spécifie une fonction de hachage de chiffrement. Valeurs acceptables :<br /><ul><li>CALG_MD2, CALG_MD4, CALG_MD5, CALG_SHA, CALG_SHA1, CALG_MAC, CALG_SSL3_SHAMD5, CALG_HMAC, CALG_TLS1PRF</li><li>Toute valeur entière acceptable pour Message Queuing pour un <em>HashAlgorithm</em>.</li></ul> | 
+| Journal<br /> | Spécifie l’option Message Queuing le journal des messages. Valeurs acceptables :<br /><ul><li>MQMSG_JOURNAL_NONE, 0</li><li>MQMSG_DEADLETTER, 1</li><li>MQMSG_JOURNAL, 2</li></ul> | 
+| <em>Étiquette</em><br /> | Spécifie une chaîne d’étiquette de message jusqu’à MQ_MAX_MSG_LABEL_LEN caractères. <br /> | 
+| <em>MaxTimeToReachQueue</em><br /> | Spécifie la durée maximale, en secondes, pendant laquelle le message atteint la file d’attente. <br /> Valeurs acceptables :<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>Nombre de secondes</li></ul> | 
+| <em>MaxTimeToReceive</em><br /> | Spécifie la durée maximale, en secondes, pendant laquelle le message est reçu par l’application cible. Valeurs acceptables :<br /><ul><li>INFINITE</li><li>LONG_LIVED</li><li>Nombre de secondes</li></ul> | 
+| <em>Priorité</em><br /> | Spécifie un niveau de priorité de message dans les valeurs Message Queuing autorisées.<br /> Valeurs acceptables :<br /><ul><li>MQ_MIN_PRIORITY, 0</li><li>MQ_MAX_PRIORITY, 7</li><li>MQ_DEFAULT_PRIORITY, 3</li><li>Nombre compris entre 0 et 7</li></ul> | 
+| <em>PrivLevel</em><br /> | Spécifie un niveau de confidentialité, utilisé pour chiffrer les messages.<br /> Valeurs acceptables :<br /><ul><li>MQMSG_PRIV_LEVEL_NONE, AUCUN, 0</li><li>MQMSG_PRIV_LEVEL_BODY, CORPS,</li><li>MQMSG_PRIV_LEVEL_BODY_BASE, BODY_BASE, 1</li><li>MQMSG_PRIV_LEVEL_BODY_ENHANCED, BODY_ENHANCED, 3</li></ul> | 
+| <em>Trace</em><br /> | Spécifie les options de trace utilisées dans le suivi Message Queuing routage.<br /> Valeurs acceptables :<br /><ul><li>MQMSG_TRACE_NONE, 0</li><li>MQMSG_SEND_ROUTE_TO_REPORT_QUEUE, 1</li></ul> | 
+
 
 
 

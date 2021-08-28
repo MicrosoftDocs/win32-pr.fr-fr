@@ -7,24 +7,24 @@ keywords:
 - Active Directory exemples Active Directory, création d’un utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eea10d0142af650d58b61967b008b207abca2c11
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a3422d269351ae29fd15d12585ca02b91a4b9c23
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103842817"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469226"
 ---
 # <a name="creating-a-user"></a>Création d’un utilisateur
 
 Pour créer un utilisateur dans Active Directory Domain Services, créez un objet utilisateur dans le conteneur de domaine du domaine dans lequel vous souhaitez placer l’utilisateur. Les utilisateurs peuvent être créés à la racine du domaine, au sein d’une unité d’organisation ou au sein d’un conteneur.
 
-Lorsque vous créez un objet utilisateur, vous devez également définir les attributs, indiqués dans le tableau suivant, pour définir l’objet en tant qu’utilisateur légal reconnu par Active Directory Domain Services et le système de sécurité Windows.
+lorsque vous créez un objet utilisateur, vous devez également définir les attributs, indiqués dans le tableau suivant, pour définir l’objet en tant qu’utilisateur légal reconnu par Active Directory Domain Services et le système Sécurité Windows.
 
 
 
 | Attribut                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**cn**](/windows/desktop/ADSchema/a-cn)                         | Spécifie le nom de l’objet utilisateur dans le répertoire. Il s’agit du RDN (relative Distinguished Name) de l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [**8525**](/windows/desktop/ADSchema/a-cn)                         | Spécifie le nom de l’objet utilisateur dans le répertoire. Il s’agit du RDN (relative Distinguished Name) de l’objet.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [**sAMAccountName**](/windows/desktop/ADSchema/a-samaccountname) | Spécifie une chaîne qui est le nom utilisé pour prendre en charge les clients et les serveurs d’une version précédente de Windows. Le [**sAMAccountName**](/windows/desktop/ADSchema/a-samaccountname) doit comporter moins de 20 caractères pour prendre en charge les clients d’une version précédente de Windows.<br/> [**SAMAccountName**](/windows/desktop/ADSchema/a-samaccountname) doit être unique parmi tous les objets principaux de sécurité au sein du domaine. Vous devez exécuter une requête sur le domaine pour vérifier que le **sAMAccountName** est unique au sein du domaine.<br/> [**sAMAccountName**](/windows/desktop/ADSchema/a-samaccountname) est un attribut facultatif. Le serveur crée une valeur **sAMAccountName** aléatoire si aucune valeur n’est spécifiée.<br/> |
 
 
@@ -35,53 +35,17 @@ Vous pouvez également définir d’autres attributs. Les attributs utilisateur 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Attribut</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-accountexpires"><strong>AccountExpires dans</strong></a></td>
-<td>Spécifie la date d’expiration du compte. La valeur par défaut est <strong>TIMEQ_FOREVER</strong>, ce qui indique que le compte n’expirera jamais.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a></td>
-<td>Un descripteur de sécurité est créé en fonction de règles spécifiques. Pour plus d’informations, voir <a href="how-security-descriptors-are-set-on-new-directory-objects.md">Comment les descripteurs de sécurité sont définis sur les nouveaux objets d’annuaire</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a></td>
-<td>Spécifie la catégorie d’utilisateur. La valeur par défaut est &quot; Person &quot; .<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-name"><strong>nomme</strong></a></td>
-<td>Spécifie le nom d'utilisateur. La valeur par défaut est la valeur définie pour <a href="/windows/desktop/ADSchema/a-cn"><strong>CN</strong></a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a></td>
-<td>Spécifie quand l’utilisateur a défini le mot de passe pour la dernière fois. La valeur par défaut est zéro, ce qui indique que l’utilisateur doit modifier le mot de passe à la prochaine ouverture de session.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a></td>
-<td>Contient des valeurs qui déterminent plusieurs fonctionnalités d’ouverture de session et de compte pour l’utilisateur.<br/> Par défaut, les indicateurs suivants sont définis :<br/>
-<ul>
-<li><strong>UF_ACCOUNTDISABLE</strong> - Le compte est désactivé.</li>
-<li><strong>UF_PASSWD_NOTREQD</strong> - Aucun mot de passe n’est requis.</li>
-<li><strong>UF_NORMAL_ACCOUNT</strong> - Type de compte par défaut qui représente un utilisateur standard.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a></td>
-<td>Spécifie le ou les groupes dont l’utilisateur est membre direct. La valeur par défaut est &quot; utilisateurs du domaine &quot; .<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Attribut | Description | 
+|-----------|-------------|
+| <a href="/windows/desktop/ADSchema/a-accountexpires"><strong>AccountExpires dans</strong></a> | Spécifie la date d’expiration du compte. La valeur par défaut est <strong>TIMEQ_FOREVER</strong>, ce qui indique que le compte n’expirera jamais.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-ntsecuritydescriptor"><strong>nTSecurityDescriptor</strong></a> | Un descripteur de sécurité est créé en fonction de règles spécifiques. Pour plus d’informations, voir <a href="how-security-descriptors-are-set-on-new-directory-objects.md">Comment les descripteurs de sécurité sont définis sur les nouveaux objets d’annuaire</a>.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-objectcategory"><strong>objectCategory</strong></a> | Spécifie la catégorie d’utilisateur. La valeur par défaut est « Person ».<br /> | 
+| <a href="/windows/desktop/ADSchema/a-name"><strong>nomme</strong></a> | Spécifie le nom d'utilisateur. La valeur par défaut est la valeur définie pour <a href="/windows/desktop/ADSchema/a-cn"><strong>CN</strong></a>.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-pwdlastset"><strong>pwdLastSet</strong></a> | Spécifie quand l’utilisateur a défini le mot de passe pour la dernière fois. La valeur par défaut est zéro, ce qui indique que l’utilisateur doit modifier le mot de passe à la prochaine ouverture de session.<br /> | 
+| <a href="/windows/desktop/ADSchema/a-useraccountcontrol"><strong>userAccountControl</strong></a> | Contient des valeurs qui déterminent plusieurs fonctionnalités d’ouverture de session et de compte pour l’utilisateur.<br /> Par défaut, les indicateurs suivants sont définis :<br /><ul><li><strong>UF_ACCOUNTDISABLE</strong> -le compte est désactivé.</li><li><strong>UF_PASSWD_NOTREQD</strong> -aucun mot de passe n’est requis.</li><li><strong>UF_NORMAL_ACCOUNT</strong> : type de compte par défaut qui représente un utilisateur standard.</li></ul> | 
+| <a href="/windows/desktop/ADSchema/a-memberof"><strong>memberOf</strong></a> | Spécifie le ou les groupes dont l’utilisateur est membre direct. La valeur par défaut est « utilisateurs du domaine ».<br /> | 
+
 
 
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6cf338ae4d32af409cc8036c126e5c121310dba8
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 68d9d83d15ad8f05a7c842a881efd87e127e9509
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786355"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122622895"
 ---
 # <a name="span-idvspixengineitexturerequestspanitexturerequest-interface"></a><span id="vspixengine.itexturerequest"></span>Interface ITextureRequest
 
@@ -38,7 +38,7 @@ L’interface **ITextureRequest** hérite de l’interface [**IUnknown**](/windo
 
 L’interface **ITextureRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Demande d’obtenir le contenu d’une texture sous la forme d’un. Fichier DDS (surface DirectDraw).</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/itexturerequest-requestasync-eventid-dword-bstr-itexturecallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Demande d’obtenir le contenu d’une texture sous la forme d’un. Fichier DDS (surface DirectDraw).</p></td></tr></tbody></table>
 
  
 

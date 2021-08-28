@@ -4,104 +4,35 @@ ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
 title: Filtre de convertisseur vidéo amélioré
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ba6e7c14386ea37424364274263859844182ed7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7ed63ba80864f98012a178ed775e5812ee5abe88
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104033466"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475525"
 ---
 # <a name="enhanced-video-renderer-filter"></a>Filtre de convertisseur vidéo amélioré
 
 > [!Note]  
-> Cette rubrique s’applique à Windows Vista et versions ultérieures.
+> cette rubrique s’applique à Windows Vista et versions ultérieures.
 
  
 
 Le filtre EVR (Enhanced Video Renderer) est un mélangeur vidéo à 16 canaux et un convertisseur. Il a les mêmes fonctionnalités de base et le même modèle de plug-in que le récepteur multimédia Media Foundation EVR.
 
-Le filtre DirectShow EVR est documenté dans la documentation du kit de développement logiciel (SDK) Media Foundation ; Pour plus d’informations, consultez [rendu vidéo amélioré](../medfound/enhanced-video-renderer.md).
+le DirectShow filtre EVR est documenté dans la documentation du kit de développement logiciel (SDK) Media Foundation. Pour plus d’informations, consultez [rendu vidéo amélioré](../medfound/enhanced-video-renderer.md).
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Interfaces de filtre (via <strong>QueryInterface</strong>)</td>
-<td>Interfaces DirectShow :
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li>
-<li><a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
-<li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></li>
-</ul>
-Interfaces de Media Foundation :<br/>
-<ul>
-<li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a></li>
-<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
-<li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a></li>
-<li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche d’entrée</td>
-<td>Variable, en fonction du pilote Graphics.</td>
-</tr>
-<tr class="odd">
-<td>Interfaces pin d’entrée (via <strong>QueryInterface</strong>)</td>
-<td>Interfaces DirectShow :
-<ul>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li>
-<li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li>
-</ul>
-Interfaces de Media Foundation :<br/>
-<ul>
-<li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>IDirectXVideoMemoryConfiguration</strong></a></li>
-<li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>IEVRVideoStreamControl</strong></a></li>
-<li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td>Types de média de broche de sortie</td>
-<td>Non applicable.</td>
-</tr>
-<tr class="odd">
-<td>Interfaces de broche de sortie</td>
-<td>Non applicable.</td>
-</tr>
-<tr class="even">
-<td>CLSID du filtre</td>
-<td>CLSID_EnhancedVideoRenderer</td>
-</tr>
-<tr class="odd">
-<td>Exécutable</td>
-<td>evr.dll</td>
-</tr>
-<tr class="even">
-<td><a href="merit.md">Mérite</a></td>
-<td>MERIT_DO_NOT_USE</td>
-</tr>
-<tr class="odd">
-<td><a href="filter-categories.md">Catégorie de filtre</a></td>
-<td>CLSID_LegacyAmFilterCategory</td>
-</tr>
-</tbody>
-</table>
+
+| | | Interfaces de filtre (via <strong>QueryInterface</strong>) | interfaces de DirectShow :<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamcertifiedoutputprotection"><strong>IAMCertifiedOutputProtection</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags"><strong>IAMFilterMiscFlags</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ibasefilter"><strong>IBaseFilter</strong></a></li><li><a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-imediaseeking"><strong>IMediaSeeking</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li><li><a href="/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop"><strong>IQualProp</strong></a></li></ul>Interfaces de Media Foundation :<br /><ul><li><a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig"><strong>IEVRFilterConfig</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideopositionmapper"><strong>IMFVideoPositionMapper</strong></a></li><li><a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer"><strong>IMFVideoRenderer</strong></a></li></ul> | | Types de média de broche d’entrée | Variable, en fonction du pilote Graphics. | | Interfaces pin d’entrée (via <strong>QueryInterface</strong>) | interfaces de DirectShow :<ul><li><a href="/windows/desktop/api/Strmif/nn-strmif-imeminputpin"><strong>IMemInputPin</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-ipin"><strong>IPin</strong></a></li><li><a href="/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol"><strong>IQualityControl</strong></a></li></ul>Interfaces de Media Foundation :<br /><ul><li><a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideomemoryconfiguration"><strong>IDirectXVideoMemoryConfiguration</strong></a></li><li><a href="/windows/desktop/api/evr9/nn-evr9-ievrvideostreamcontrol"><strong>IEVRVideoStreamControl</strong></a></li><li><a href="/windows/desktop/api/mfidl/nn-mfidl-imfgetservice"><strong>IMFGetService</strong></a></li></ul> | | Types de média de broche de sortie | Non applicable. | | Interfaces de broche de sortie | Non applicable. | | CLSID du filtre | CLSID_EnhancedVideoRenderer | | Fichier exécutable | evr.dll | | <a href="merit.md">Mérite</a> | MERIT_DO_NOT_USE | | <a href="filter-categories.md">Catégorie de filtre</a> | CLSID_LegacyAmFilterCategory | 
+
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus des interfaces exposées via **QueryInterface**, EVR expose d’autres interfaces par le biais de la méthode [**IMFGetService :: GetService**](/windows/desktop/api/mfidl/nf-mfidl-imfgetservice-getservice) . Certaines de ces interfaces sont implémentées par le présentateur EVR ou le mélangeur EVR, plutôt que par le EVR lui-même. Si l’application définit un présentateur ou un mélangeur personnalisé sur le EVR, les versions personnalisées peuvent exposer un autre ensemble d’interfaces.
 
@@ -135,8 +66,8 @@ EVR transfère les commandes de recherche en amont via la broche 0. Les broches 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -144,6 +75,6 @@ EVR transfère les commandes de recherche en amont via la broche 0. Les broches 
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 

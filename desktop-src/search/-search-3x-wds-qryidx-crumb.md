@@ -4,12 +4,12 @@ ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: Argument de navigation (Windows recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ec64fdcf9b15e0b7c87ea2ff0b122e22a8f8917bbacb9d9c3c3da274123f607
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b2a1ae426881473a631a11b40ec8e567f600daa4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118463241"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886828"
 ---
 # <a name="crumb-argument-windows-search"></a>Argument de navigation (Windows recherche)
 
@@ -39,7 +39,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-La <column> partie est toute propriété dans le système de propriétés, et le <value> la partie est une valeur valide pour cette propriété. La <label> partie est un alias facultatif pour la propriété qui s’affiche comme un indicateur d’interface utilisateur.
+La &lt; &gt; partie colonne est toute propriété dans le système de propriétés, et &lt; la &gt; partie valeur est une valeur valide pour cette propriété. La <label> partie est un alias facultatif pour la propriété qui s’affiche comme un indicateur d’interface utilisateur.
 
 ### <a name="general-examples"></a>Exemples généraux
 
@@ -67,7 +67,7 @@ Lorsque vous spécifiez une `location` propriété, deux paramètres supplément
 | Paramètre | Valeurs                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | inclure, exclure        | Spécifie si la requête doit inclure ou exclure des éléments de ce chemin d’accès. « Include » est la valeur par défaut. Windows Vista ne prend pas en charge les exclusions sans inclusions. (Voir l’exemple) |
-| récursivité | récursif, récursif | Spécifie si la recherche doit recurseiser tous les sous-dossiers à partir de la valeur définie dans l’emplacement :<value>. « Recursive » est la valeur par défaut.                             |
+| récursivité | récursif, récursif | Spécifie si la recherche doit recurseiser tous les sous-dossiers à partir de la valeur définie dans la valeur Location : &lt; &gt; . « Recursive » est la valeur par défaut.                             |
 
 
 

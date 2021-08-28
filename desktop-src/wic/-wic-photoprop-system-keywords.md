@@ -4,12 +4,12 @@ ms.assetid: bc9de56f-444c-45a2-9822-fba2fe618d38
 title: Stratégie de métadonnées de photo System. Keywords
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5d25e7f1919527d474395397d6df62863f7b78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aa5387bfb8cca7fffe83f7615a979d8e23ae890
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210078"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886643"
 ---
 # <a name="systemkeywords-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. Keywords
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. Keywords](.
 
 \_Mots clés de mot clé
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,9 +45,9 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque    |
+| JSON | Chemin d’accès                              | Format de disque    |
 |-------|-----------------------------------|----------------|
-| 1     | /XMP/ <xmpbag> contrôleur de domaine : objet     | unicode        |
+| 1     | /XMP/ &lt; xmpbag &gt; DC : subject     | unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords |                |
 | 3     | /App1/IFD/{UShort = 18247}          | \_octets Unicode |
 | 4     | /App1/IFD/{UShort = 40094}          | \_octets Unicode |
@@ -60,14 +60,14 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                                              | Format de disque    |
+| JSON | Chemin d’accès                                              | Format de disque    |
 |-------|---------------------------------------------------|----------------|
-| 1     | /XMP/ <xmpbag> contrôleur de domaine : objet                     | unicode        |
+| 1     | /XMP/ &lt; xmpbag &gt; DC : subject                     | unicode        |
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |                |
 | 3     | /App1/IFD/{UShort = 18247}                          | \_octets Unicode |
 | 4     | /App1/IFD/{UShort = 40094}                          | \_octets Unicode |
-| 5     | /XMP/ <xmpbag> MicrosoftPhoto : LastKeywordXMP  | unicode        |
-| 6     | /XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC | unicode        |
+| 5     | /XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordXMP  | unicode        |
+| 6     | /XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC | unicode        |
 
 
 
@@ -77,14 +77,14 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                                              |
+| JSON | Chemin d’accès                                              |
 |-------|---------------------------------------------------|
 | 1     | /XMP/DC : objet                                   |
 | 2     | /app13/irb/8bimiptc/iptc/keywords                 |
 | 3     | /App1/IFD/{UShort = 18247}                          |
 | 4     | /App1/IFD/{UShort = 40094}                          |
-| 5     | /XMP/ <xmpbag> MicrosoftPhoto : LastKeywordXMP  |
-| 6     | /XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC |
+| 5     | /XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordXMP  |
+| 6     | /XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC |
 
 
 
@@ -96,9 +96,9 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                              | Format de disque    |
+| JSON | Chemin d’accès                              | Format de disque    |
 |-------|-----------------------------------|----------------|
-| 1     | /IFD/XMP/ <xmpbag> contrôleur de domaine : objet | unicode        |
+| 1     | /IFD/XMP/ &lt; xmpbag &gt; DC : subject | unicode        |
 | 2     | /ifd/iptc/keywords                |                |
 | 3     | /IFD/{UShort = 18247}               | \_octets Unicode |
 | 4     | /IFD/{UShort = 40094}               | \_octets Unicode |
@@ -112,16 +112,16 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                                                             | Format de disque    |
+| JSON | Chemin d’accès                                                             | Format de disque    |
 |-------|------------------------------------------------------------------|----------------|
-| 1     | /IFD/XMP/ <xmpbag> contrôleur de domaine : objet                                | unicode        |
+| 1     | /IFD/XMP/ &lt; xmpbag &gt; DC : subject                                | unicode        |
 | 2     | /ifd/iptc/keywords                                               |                |
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |                |
 | 4     | /IFD/{UShort = 18247}                                              | \_octets Unicode |
 | 5     | /IFD/{UShort = 40094}                                              | \_octets Unicode |
-| 6     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordXMP             | unicode        |
-| 7     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC            | unicode        |
-| 8     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC \_ TIFF \_ IRB | unicode        |
+| 6     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordXMP             | unicode        |
+| 7     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC            | unicode        |
+| 8     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC \_ TIFF \_ IRB | unicode        |
 
 
 
@@ -131,22 +131,22 @@ Les valeurs de différents schémas sont fusionnées.
 
 
 
-| Commande | Chemin d’accès                                                             |
+| JSON | Chemin d’accès                                                             |
 |-------|------------------------------------------------------------------|
 | 1     | /IFD/XMP/DC : objet                                              |
 | 2     | /ifd/iptc/keywords                                               |
 | 3     | /ifd/irb/8bimiptc/iptc/keywords                                  |
 | 4     | /IFD/{UShort = 18247}                                              |
 | 5     | /IFD/{UShort = 40094}                                              |
-| 6     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordXMP             |
-| 7     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC            |
-| 8     | /IFD/XMP/ <xmpbag> MicrosoftPhoto : LastKeywordIPTC \_ TIFF \_ IRB |
+| 6     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordXMP             |
+| 7     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC            |
+| 8     | /IFD/XMP/ &lt; xmpbag &gt; MicrosoftPhoto : LastKeywordIPTC \_ TIFF \_ IRB |
 
 
 
  
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

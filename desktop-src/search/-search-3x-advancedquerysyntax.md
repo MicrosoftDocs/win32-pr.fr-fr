@@ -4,12 +4,12 @@ ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
 title: Utilisation de la syntaxe de requête avancée par programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ebde3119199d84f67315c2db73343d5dffc58ad
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 24e480866120289605a7465af96d8aaa8dc2beda
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122880699"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122627225"
 ---
 # <a name="using-advanced-query-syntax-programmatically"></a>Utilisation de la syntaxe de requête avancée par programmation
 
@@ -50,7 +50,7 @@ Une requête se compose de requêtes de base connectées avec et, ou, et non, co
 
 Si une requête a deux ou plusieurs utilisations de et ou ou, elles sont liées de gauche à droite, qu’il s’agisse de et ou ou. Autrement dit, la requête, « Apple et Poir ou prune », est interprétée comme si elle était écrite comme « (Apple et Poir) ou prune », et la requête, « Apple ou Poir et Plum », sera interprétée comme si elle était écrite comme « (Apple ou Poir) et prune ». Par conséquent, si un document contient le mot Plum, mais ni Apple, ni Poirier, la première requête le retourne, contrairement à la deuxième requête. Par conséquent, nous vous recommandons d’utiliser des parenthèses explicites pour toute requête qui mélange et et ou pour éviter les erreurs ou les interprétations erronées.
 
-Une requête de base recherche les éléments qui répondent à une restriction sur une propriété. La seule partie obligatoire d’une requête de base est la valeur de la restriction ou de la recherche. si vous ne spécifiez pas de propriété, Windows recherche effectue une recherche dans toutes les propriétés. &lt;Rest &gt; représente la restriction de recherche.
+Une requête de base recherche les éléments qui répondent à une restriction sur une propriété. La seule partie obligatoire d’une requête de base est la valeur de la restriction ou de la recherche. si vous ne spécifiez pas de propriété, Windows recherche effectue une recherche dans toutes les propriétés. <restr> représente la restriction de recherche.
 
 Les formulaires suivants pour une requête de base sont valides :
 
@@ -194,7 +194,7 @@ Le tableau suivant présente quelques exemples de propriétés canoniques et la 
 
 
 
-| Type de propriété canonique | Exemple                                                                                     | Syntaxe                                                                                                                                                                                                                                                  |
+| Type de propriété canonique | Exemple                                                                                     | Syntax                                                                                                                                                                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Valeur de chaîne               | [System.Author](../properties/props-system-author.md)<br/>    | La valeur de chaîne est recherchée dans la propriété auteur : <br/>`System.Author:Jacobs`                                                                                                                                                              |
 | Plage d’énumération          | [System. Priority](../properties/props-system-priority.md)             | La propriété Priority peut avoir une plage de valeurs numériques :<br/>`System.Priority:System.Priority#High`                                                                                                                                                |
@@ -209,7 +209,7 @@ Pour plus d’informations sur les propriétés canoniques et le système de pro
 
 ### <a name="query-operators"></a>Opérateurs de requête
 
-Si une propriété, p, a plusieurs valeurs pour un élément, une requête AQS pour p : &lt; Rest &gt; retourne l’élément si &lt; REST a la &gt; **valeur true** pour au moins l’une des valeurs. ( &lt; Rest &gt; représente une restriction.)
+Si une propriété, p, a plusieurs valeurs pour un élément, une requête AQS pour p : <restr> retourne l’élément si <restr> a la **valeur true** pour au moins l’une des valeurs. ( <restr> représente une restriction.)
 
 La syntaxe indiquée dans le tableau ci-dessous se compose d’un opérateur, d’un symbole d’opérateur, d’un exemple et d’une description d’exemple. L’opérateur et le symbole peuvent être utilisés dans n’importe quel langage et inclus dans n’importe quelle requête. N’utilisez pas les \_ opérateurs spécifiques à l’application COP implicite ou COP \_ \_ . Certains des opérateurs ont des symboles interchangeables.
 
@@ -355,7 +355,7 @@ Le tableau suivant répertorie des exemples utiles de restriction des valeurs de
 <td>Toute séquence de caractères. La chaîne n’est pas interprétée dans le cadre de la syntaxe.<br/> Les guillemets peuvent être inclus dans une requête s’ils sont doublés. Cet exemple recherche <em>l' &quot; &quot; équipe bleue</em>.<br/></td>
 </tr>
 <tr class="odd">
-<td>Entier</td>
+<td>Integer</td>
 <td>5678<br/></td>
 <td>Utilisez uniquement des chiffres pour les entiers. N’utilisez pas de séparateurs pour les milliers.<br/></td>
 </tr>

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42f39d3355cfce3397c379bf7edafaae77ccfafe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f8b77e8640f21bd06194b2fe6b1e7048d85b323e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541791"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469266"
 ---
 # <a name="wmt_videoimage_transition_wheel"></a>\_volant de \_ transition \_ VIDEOIMAGE WMT
 
@@ -31,46 +31,14 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Centrer X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Coordonnée X, relative à la trame vidéo, du centre de l’effet de roulette.</td>
-</tr>
-<tr class="even">
-<td>Centrer Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Coordonnée Y, relative à la trame vidéo, du centre de l’effet de roulette.</td>
-</tr>
-<tr class="odd">
-<td>Angle</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Angle de rotation, en degrés, des rayons de l’effet de roulette. La valeur 0,0 indique l’ancienne image sans que la nouvelle image soit révélée. Une valeur de 90,0 indique que la nouvelle image est entièrement dévoilée. Le mouvement de 0,0 à 90,0 apparaît sous forme de rotation des rayons dans le sens des aiguilles d’une montre.<br/></td>
-</tr>
-<tr class="even">
-<td>Composition</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Centrer X | <strong>fEffectPara0</strong> | Coordonnée X, relative à la trame vidéo, du centre de l’effet de roulette. | 
+| Centrer Y | <strong>fEffectPara1</strong> | Coordonnée Y, relative à la trame vidéo, du centre de l’effet de roulette. | 
+| Angle | <strong>fEffectPara2</strong> | Angle de rotation, en degrés, des rayons de l’effet de roulette. La valeur 0,0 indique l’ancienne image sans que la nouvelle image soit révélée. Une valeur de 90,0 indique que la nouvelle image est entièrement dévoilée. Le mouvement de 0,0 à 90,0 apparaît sous forme de rotation des rayons dans le sens des aiguilles d’une montre.<br /> | 
+| Composition | <strong>fEffectPara3</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li></ul> | 
+
 
 
 

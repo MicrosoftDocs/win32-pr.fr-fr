@@ -4,12 +4,12 @@ description: Notez que les structures décrites dans cette section sont utilisé
 ms.assetid: fedf7940-2052-4cd8-81fa-4dad6f6a76e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0ab34c565970297e4314f7005d3e1cef78ed672ac4c330244ee16c35c3a2fa3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 701aa7ade460afacabc56fea45625a851bfb6b8e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119859669"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480645"
 ---
 # <a name="deprecated-structures"></a>Structures déconseillées
 
@@ -29,108 +29,21 @@ ms.locfileid: "119859669"
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaandorcondition"><strong>UiaAndOrCondition</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur une condition complexe.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaasynccontentloadedeventargs"><strong>UiaAsyncContentLoadedEventArgs</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur un événement déclenché lorsque le contenu est chargé de manière asynchrone par un élément d’interface utilisateur.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacacherequest"><strong>UiaCacheRequest</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur une demande de mise en cache des données relatives aux éléments UI Automation.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacondition"><strong>UiaCondition</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur une condition.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaeventargs"><strong>UiaEventArgs</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur un événement d’automatisation d’interface utilisateur Microsoft.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiafindparams"><strong>UiaFindParams</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient les paramètres utilisés dans la fonction <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind"><strong>UiaFind</strong></a> .<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uianotcondition"><strong>UiaNotCondition</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur une condition négative.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertychangedeventargs"><strong>UiaPropertyChangedEventArgs</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur un événement qui est déclenché lorsqu’une modification de propriété d’élément UI Automation se produit.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertycondition"><strong>UiaPropertyCondition</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur une condition utilisée pour rechercher les éléments UI Automation qui ont une propriété correspondante.<br/></td>
-</tr>
-<tr class="even">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiastructurechangedeventargs"><strong>UiaStructureChangedEventArgs</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur un événement qui est déclenché lorsque la structure de l’arborescence UI Automation change.<br/></td>
-</tr>
-<tr class="odd">
-<td><a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiawindowclosedeventargs"><strong>UiaWindowClosedEventArgs</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
-Cette structure est déconseillée.
-</blockquote>
-<br/> Contient des informations sur un événement qui est déclenché lorsqu’une ou plusieurs fenêtres se ferment.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Structure | Description | 
+|-----------|-------------|
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaandorcondition"><strong>UiaAndOrCondition</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur une condition complexe.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaasynccontentloadedeventargs"><strong>UiaAsyncContentLoadedEventArgs</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur un événement déclenché lorsque le contenu est chargé de manière asynchrone par un élément d’interface utilisateur.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacacherequest"><strong>UiaCacheRequest</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur une demande de mise en cache des données relatives aux éléments UI Automation.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiacondition"><strong>UiaCondition</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur une condition.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiaeventargs"><strong>UiaEventArgs</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur un événement d’automatisation d’interface utilisateur Microsoft.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiafindparams"><strong>UiaFindParams</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient les paramètres utilisés dans la fonction <a href="/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiafind"><strong>UiaFind</strong></a> .<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uianotcondition"><strong>UiaNotCondition</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur une condition négative.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertychangedeventargs"><strong>UiaPropertyChangedEventArgs</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur un événement qui est déclenché lorsqu’une modification de propriété d’élément UI Automation se produit.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiapropertycondition"><strong>UiaPropertyCondition</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur une condition utilisée pour rechercher les éléments UI Automation qui ont une propriété correspondante.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiastructurechangedeventargs"><strong>UiaStructureChangedEventArgs</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur un événement qui est déclenché lorsque la structure de l’arborescence UI Automation change.<br /> | 
+| <a href="/windows/desktop/api/UIAutomationCoreApi/ns-uiautomationcoreapi-uiawindowclosedeventargs"><strong>UiaWindowClosedEventArgs</strong></a><br /> | <blockquote>[!Note]<br />Cette structure est déconseillée.</blockquote><br /> Contient des informations sur un événement qui est déclenché lorsqu’une ou plusieurs fenêtres se ferment.<br /> | 
+
 
 
 

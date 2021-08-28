@@ -4,12 +4,12 @@ ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: Format de requête de recherche d’enregistrements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23457cfde6955927b3efdcce5ae2dff94480c7cf56849b418547fe2503a36830
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: f26a130d937177d4f903bfe52b121b2d67f8720d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119517959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122887008"
 ---
 # <a name="record-search-query-format"></a>Format de requête de recherche d’enregistrements
 
@@ -193,9 +193,9 @@ Certains caractères peuvent être utilisés pour exprimer des modèles correspo
 
 | Modèle de caractère | Description                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \*                | Caractère générique. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à 0-n caractères de n’importe quelle valeur, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> «<clause attrib="peercreatorid" type="string" compare="equal">James P \* </clause>»<br/> Cette clause met en correspondance toutes les valeurs **peercreatorid** avec le prénom « James » et le nom de famille commençant par « P ».<br/> |
+| \*                | Caractère générique. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à 0-n caractères de n’importe quelle valeur, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> « <clause attrib="peercreatorid" type="string" compare="equal"> James P \* &lt; /clause &gt; »<br/> Cette clause met en correspondance toutes les valeurs **peercreatorid** avec le prénom « James » et le nom de famille commençant par « P ».<br/> |
 | \\\*              | Astérisque placé dans une séquence d’échappement. Cette séquence correspond à un astérisque.                                                                                                                                                                                                                                                                                                                                                                       |
-| ?                 | Caractère générique à un seul caractère. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à n’importe quel caractère unique, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> «<clause attrib="filename" type="string" compare="equal">Data-0 ? .xml</clause>»<br/> Cette clause correspond aux valeurs de **nom de fichier** telles que « data-01.xml » et « data-0B.xml ».<br/>                              |
+| ?                 | Caractère générique à un seul caractère. Lorsque ce caractère est rencontré dans une valeur de clause, il correspond à n’importe quel caractère unique, y compris les espaces blancs et les caractères non alphanumériques. Par exemple :<br/> « <clause attrib="filename" type="string" compare="equal"> Data-0 ? .xml&lt; /clause &gt; »<br/> Cette clause correspond aux valeurs de **nom de fichier** telles que « data-01.xml » et « data-0B.xml ».<br/>                              |
 | \\?               | Point d’interrogation placé dans une séquence d’échappement. Cette séquence correspond à un caractère point d’interrogation.                                                                                                                                                                                                                                                                                                                                                              |
 | \\\\              | Barre oblique inverse placée dans une séquence d’échappement. Cette séquence correspond à une barre oblique inverse unique.                                                                                                                                                                                                                                                                                                                                                               |
 

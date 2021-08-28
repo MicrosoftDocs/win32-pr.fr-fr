@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: wmic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0248ea4ac6a584816da20e8feb8d278d7feab0a018739fa4328c3023179d4b0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0bee63220bec5cae1c41480187c78211f46ed020
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117920999"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881073"
 ---
 # <a name="wmic"></a>wmic
 
@@ -18,7 +18,7 @@ l’utilitaire de ligne de commande wmi (WMIC) fournit une interface de ligne de
 
 ## <a name="alias"></a>Alias
 
-Un alias est un changement de nom convivial d’une classe, d’une propriété ou d’une méthode qui facilite l’utilisation et la lecture de WMI. Vous pouvez déterminer les alias disponibles pour WMIC via le **/ ?** . Vous pouvez également déterminer les alias pour une classe spécifique à l’aide du **<className> / ?** . Pour plus d’informations, consultez [alias WMIC](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
+Un alias est un changement de nom convivial d’une classe, d’une propriété ou d’une méthode qui facilite l’utilisation et la lecture de WMI. Vous pouvez déterminer les alias disponibles pour WMIC via le **/ ?** . Vous pouvez également déterminer les alias pour une classe spécifique à l’aide de la classe **&lt; className &gt; / ?** . Pour plus d’informations, consultez [alias WMIC](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
 
 ## <a name="switch"></a>Commutateur
 
@@ -43,9 +43,9 @@ Le verbe ASSOC contient les commutateurs suivants.
 
 | Commutateur                         | Description                                                                                                       |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| /RESULTCLASS:<classname> | Les points de terminaison retournés associés à l’objet source doivent appartenir à la classe spécifiée ou en être dérivés.      |
-| /RESULTROLE:<rolename>   | Les points de terminaison retournés doivent jouer un rôle spécifique dans les associations avec l’objet source.                              |
-| /ASSOCCLASS:<assocclass> | Les points de terminaison retournés doivent être associés à la source par le biais de la classe spécifiée ou de l’une de ses classes dérivées. |
+| /RESULTCLASS : &lt; className&gt; | Les points de terminaison retournés associés à l’objet source doivent appartenir à la classe spécifiée ou en être dérivés.      |
+| /RESULTROLE : &lt; roleName&gt;   | Les points de terminaison retournés doivent jouer un rôle spécifique dans les associations avec l’objet source.                              |
+| /ASSOCCLASS : &lt; ASSOCCLASS&gt; | Les points de terminaison retournés doivent être associés à la source par le biais de la classe spécifiée ou de l’une de ses classes dérivées. |
 
 
 
@@ -101,7 +101,7 @@ La commande dispose des commutateurs suivants.
 | /VALUE                               | La sortie est mise en forme avec chaque valeur figurant sur une ligne distincte et avec le nom de la propriété.                                           |
 | /ALL                                 | La sortie est mise en forme en tant que table.                                                                                                            |
 | Traduire<translation table> | Traduisez la sortie à l’aide de la table de traduction nommée par la commande. Les tables de traduction BasicXml et novirgule sont incluses avec WMIC. |
-| Chaque<interval>              | Répétez la commande toutes les <interval> secondes.                                                                                         |
+| /EVERY : &lt; intervalle&gt;              | Répétez la commande toutes les secondes de l' &lt; intervalle &gt; .                                                                                         |
 | FORMAT<format specifier>     | Spécifie un mot clé ou un nom de fichier XSL pour mettre en forme les données.                                                                                  |
 
 
@@ -140,7 +140,7 @@ La liste comporte les commutateurs suivants.
 | Commutateur                               | Description                                                                                                                                |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Traduire<translation table> | Traduisez la sortie à l’aide de la table de traduction nommée par la commande. Les tables de traduction BasicXml et novirgule sont incluses avec WMIC. |
-| Chaque<interval>              | Répétez la commande toutes les <interval> secondes.                                                                                         |
+| /EVERY : &lt; intervalle&gt;              | Répétez la commande toutes les secondes de l' &lt; intervalle &gt; .                                                                                         |
 | FORMAT<format specifier>     | Spécifie un mot clé ou un nom de fichier XSL pour mettre en forme les données.                                                                                  |
 
 
@@ -363,7 +363,7 @@ Exemple : **sortie WMIC**
 
 Le [script de définition des paramètres IP/sous-réseau/passerelle/DNS à l’aide de l’exemple WMIC](https://Gallery.TechNet.Microsoft.Com/Batch-per-settare-487c1b3f) sur la Galerie TechNet décrit comment modifier et mettre à jour les paramètres IP, de sous-réseau, de passerelle et DNS.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

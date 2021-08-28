@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 538b92160ddbbb9ca9515a65575fdea67990de5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb5c19292b451b1a3d0265da4bb178eafcc6f00
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111974"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468556"
 ---
 # <a name="signertimestampex3-function"></a>SignerTimeStampEx3 fonction)
 
@@ -60,33 +60,12 @@ Indicateur qui spécifie le type d’horodatage à générer. Ce paramètre peut
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl> <dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt> </dl></td>
-<td>Spécifie un horodatage Authenticode.<br/>
-<blockquote>
-[!Note]<br />
-Authenticode n’est plus le type d’horodatage préféré. La prise en charge des horodatages Authenticode peut être supprimée à l’avenir. Nous vous recommandons d’utiliser à la place la RFC 3161.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl> <dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt> </dl></td>
-<td>Spécifie un horodatage conforme à la norme RFC 3161.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl><dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt></dl> | Spécifie un horodatage Authenticode.<br /><blockquote>[!Note]<br />Authenticode n’est plus le type d’horodatage préféré. La prise en charge des horodatages Authenticode peut être supprimée à l’avenir. Nous vous recommandons d’utiliser à la place la RFC 3161.</blockquote><br /> | 
+| <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl><dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt></dl> | Spécifie un horodatage conforme à la norme RFC 3161.<br /> | 
+
 
 
 
@@ -125,7 +104,7 @@ Algorithme de hachage à utiliser pour exécuter des horodatages conformes à la
 *psRequest* \[ dans, facultatif\]
 </dt> <dd>
 
-Optionnel. Adresse d’une structure [**d' \_ attributs**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) de chiffre qui contient des attributs supplémentaires ajoutés à la demande d’horodatage.
+facultatif. Adresse d’une structure [**d' \_ attributs**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_attributes) de chiffre qui contient des attributs supplémentaires ajoutés à la demande d’horodatage.
 
 Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas inclus.
 
@@ -134,7 +113,7 @@ Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas
 *pSipData* \[ dans, facultatif\]
 </dt> <dd>
 
-Optionnel. Valeur 32 bits qui est passée en tant que données supplémentaires aux fonctions du [*package d’interface de sujet*](../secgloss/s-gly.md) (SIP). Le format et le contenu de ce paramètre sont définis par le fournisseur SIP.
+facultatif. Valeur 32 bits qui est passée en tant que données supplémentaires aux fonctions du [*package d’interface de sujet*](../secgloss/s-gly.md) (SIP). Le format et le contenu de ce paramètre sont définis par le fournisseur SIP.
 
 Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas inclus.
 
@@ -143,7 +122,7 @@ Ce paramètre est facultatif et peut avoir la **valeur null** s’il n’est pas
 *ppSignerContext* \[ à\]
 </dt> <dd>
 
-Optionnel. Adresse d’un pointeur vers la structure de [**\_ contexte du signataire**](signer-context.md) qui contient l’objet BLOB signé. Lorsque vous avez terminé d’utiliser la structure du **\_ contexte du signataire** , libérez-la en appelant la fonction [**SignerFreeSignerContext**](signerfreesignercontext.md) .
+facultatif. Adresse d’un pointeur vers la structure de [**\_ contexte du signataire**](signer-context.md) qui contient l’objet BLOB signé. Lorsque vous avez terminé d’utiliser la structure du **\_ contexte du signataire** , libérez-la en appelant la fonction [**SignerFreeSignerContext**](signerfreesignercontext.md) .
 
 </dd> <dt>
 
@@ -161,7 +140,7 @@ Réservé. Cette valeur doit être **null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne la valeur \_ OK.
 
@@ -169,29 +148,11 @@ Si la fonction échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Code de retour</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><dl> <dt><strong>E_INVALIDARG</strong></dt> </dl></td>
-<td>Cette erreur peut être retournée pour les conditions suivantes :<br/>
-<ul>
-<li>Vous devez définir <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> ou <strong>SIGNER_TIMESTAMP_RFC3161</strong> pour le paramètre <em>dwFlags</em> .</li>
-<li>Le paramètre <em>conserved</em> doit avoir la <strong>valeur null</strong>.</li>
-<li>Si vous définissez l’indicateur <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> dans le paramètre <em>dwFlags</em> , vous devez définir le paramètre <em>dwIndex</em> sur zéro.</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Code de retour | Description | 
+|-------------|-------------|
+| <dl><dt><strong>E_INVALIDARG</strong></dt></dl> | Cette erreur peut être retournée pour les conditions suivantes :<br /><ul><li>Vous devez définir <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> ou <strong>SIGNER_TIMESTAMP_RFC3161</strong> pour le paramètre <em>dwFlags</em> .</li><li>Le paramètre <em>conserved</em> doit avoir la <strong>valeur null</strong>.</li><li>Si vous définissez l’indicateur <strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong> dans le paramètre <em>dwFlags</em> , vous devez définir le paramètre <em>dwIndex</em> sur zéro.</li></ul> | 
+
 
 
 
@@ -203,8 +164,8 @@ Si la fonction échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

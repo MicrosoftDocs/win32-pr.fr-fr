@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2def999c89994965f705f53edee684a3f1882fa2b47d43e512942715a8fc51f8
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 0c29539c9c76342b8b88603ea3dd2926554228ac
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119931549"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626945"
 ---
 # <a name="command-element"></a>élément Command
 
 Représente une définition de commande.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <Command
@@ -47,10 +47,10 @@ Représente une définition de commande.
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,61 +64,61 @@ Représente une définition de commande.
 <tr class="odd">
 <td><strong>Commentaire</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Utilisé pour annoter l’élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée de toute séquence de caractères, y compris les espaces blancs et les sauts de ligne.<br/> Longueur maximale : 250 caractères.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Id</strong><br/></td>
 <td>XS : positiveInteger Union XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>ID de ressource unique. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (Union de XS : positiveInteger et XS : String)<br/> </dt> <dd> Valeur entière comprise entre 2 et 59999, inclusive, ou 0X2 et 0xea5f en hexadécimal, inclus. <br/> La longueur maximale est de 10 caractères, y compris des zéros non significatifs facultatifs. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>KeyTip</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Chaîne qui représente le raccourci clavier d’un élément de commande.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée d’une séquence de caractères, y compris un espace blanc.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>LabelDescription</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Chaîne qui représente le texte affiché sur un élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée de toute séquence de caractères, y compris les espaces blancs et les sauts de ligne.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>LabelTitle</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Chaîne qui représente le texte affiché sur un élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée de toute séquence de caractères, y compris les espaces blancs et les sauts de ligne.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Nom</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui se compose d’une lettre ou d’un trait de soulignement suivi d’une séquence de chiffres, de lettres ou de traits de soulignement.<br/> Longueur maximale : 100 caractères.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Symbole</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne qui se compose d’une lettre ou d’un trait de soulignement suivi d’une séquence de chiffres, de lettres ou de traits de soulignement.<br/> Longueur maximale : 100 caractères.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TooltipDescription</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Chaîne qui représente le texte affiché sur un élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée de toute séquence de caractères, y compris les espaces blancs et les sauts de ligne.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>TooltipTitle</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Chaîne qui représente le texte affiché sur un élément Command.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : String)<br/> </dt> <dd> Chaîne composée de toute séquence de caractères, y compris les espaces blancs et les sauts de ligne.<br/> </dd> </dl></td>
 </tr>

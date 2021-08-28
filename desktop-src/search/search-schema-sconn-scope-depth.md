@@ -1,19 +1,19 @@
 ---
-description: L' <depth> élément spécifie si la portée du connecteur de recherche doit inclure des URL enfants. Les valeurs autorisées sont Deep et Shallow. Cet élément n’a pas d’éléments enfants ni d’attributs.
+description: L' &lt; &gt; élément Depth spécifie si la portée du connecteur de recherche doit inclure des URL enfants. Les valeurs autorisées sont Deep et Shallow. Cet élément n’a pas d’éléments enfants ni d’attributs.
 ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
 title: Élément Depth (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 245156088cd68fcf67103c18b987a9b459b0b760b3a04a1ced817badd25aada8
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 430ad3d047331a4bb3ffc58bd134d2364aaa0838
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117862524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886762"
 ---
 # <a name="depth-element-search-connector-schema"></a>Élément Depth (schéma du connecteur de recherche)
 
-L' <depth> élément spécifie si la portée du connecteur de recherche doit inclure des URL enfants. Les valeurs autorisées sont `Deep` et `Shallow`. Cet élément n’a pas d’éléments enfants ni d’attributs.
+L' &lt; &gt; élément Depth spécifie si la portée du connecteur de recherche doit inclure des URL enfants. Les valeurs autorisées sont `Deep` et `Shallow`. Cet élément n’a pas d’éléments enfants ni d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 

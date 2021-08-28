@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5c30b0d8641ff28b12d3f10b62957b5cf7be8f8b
-ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
+ms.openlocfilehash: 52f60bd5ad14e68a0ed1935ade404d99a378e9a0
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "122786337"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629073"
 ---
 # <a name="span-idvspixengineiframeeventsrequestspaniframeeventsrequest-interface"></a><span id="vspixengine.iframeeventsrequest"></span>Interface IFrameEventsRequest
 
@@ -38,7 +38,7 @@ L’interface **IFrameEventsRequest** hérite de l’interface [**IUnknown**](/w
 
 L’interface **IFrameEventsRequest** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/iframeeventsrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td ><p>Demande asynchrone pour obtenir des informations spécifiées sur un frame spécifié unique.</p></td></tr><tr class="even"><td ><a href="/windows/desktop/direct3dtools/iframeeventsrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td ><p>Demande asynchrone pour obtenir des informations sur les colonnes (champs) prises en charge par ce type de demande d’événements de frame.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventsrequest-requestasync-dword-dword-dword-arr-iframeeventscallback-ptr-dword-dword"><strong>RequestAsync</strong></a></td><td style="text-align: left;"><p>Demande asynchrone pour obtenir des informations spécifiées sur un frame spécifié unique.</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iframeeventsrequest-requestsupportedcolumnsasync-iframeeventscallback-ptr-dword"><strong>RequestSupportedColumnsAsync</strong></a></td><td style="text-align: left;"><p>Demande asynchrone pour obtenir des informations sur les colonnes (champs) prises en charge par ce type de demande d’événements de frame.</p></td></tr></tbody></table>
 
  
 
