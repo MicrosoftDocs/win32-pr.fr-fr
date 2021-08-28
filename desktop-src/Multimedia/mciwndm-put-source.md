@@ -3,7 +3,7 @@ title: Message MCIWNDM_PUT_SOURCE (VFW. h)
 description: Le \_ \_ message source MCIWNDM place redéfinit les coordonnées du rectangle source utilisé pour le rognage des images d’un fichier AVI lors de la lecture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndPutSource.
 ms.assetid: cff95139-0302-4db3-bf2e-559e75257e85
 keywords:
-- Message MCIWNDM_PUT_SOURCE Windows Multimedia
+- message MCIWNDM_PUT_SOURCE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5407f420b8def6dda9795e87eb68943c9373b143
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e2c21e11142a1b47a8984712de664151b686cfa3c3cb9bf153dcbc2a23fa459c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807779"
 ---
 # <a name="mciwndm_put_source-message"></a>MCIWNDM \_ Placer le \_ message source
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9a6a4fcffab1699a53fbebada0eaf2439e561020
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ca2d91f1f0580ac74ee77697ac34d210c6cd4970bee602ea38c4bef69cb2f967
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106524874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847049"
 ---
 # <a name="id3dxtextureshadersetdefaults-method"></a>ID3DXTextureShader :: SetDefaults, méthode
 

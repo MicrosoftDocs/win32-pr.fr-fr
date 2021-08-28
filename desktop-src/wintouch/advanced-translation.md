@@ -3,20 +3,20 @@ title: Traduction avancée
 description: Traduction avancée
 ms.assetid: 48a1bdd5-8b7b-4460-9b7b-1ab8969a28f8
 keywords:
-- Tactile Windows, traduction
-- Tactile Windows, traduction avancée
-- Tactile Windows, manipulations
+- Windows Toucher, traduction
+- Windows Saisie tactile, traduction avancée
+- Windows Toucher, manipulations
 - manipulations, traduction
 - manipulations, traduction avancée
 - translation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc383c71e1f1417d30b64db18aa627039602b942
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4712375c12420e076bb93c1240d18dc8e3c1d58006eb24ced7a62a7485e01c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810343"
 ---
 # <a name="advanced-translation"></a>Traduction avancée
 
@@ -60,7 +60,7 @@ Le code suivant illustre une méthode permettant d’effectuer cette opération 
 > [!Note]  
 > Les transformations d’objet se produisent avant le calcul des points pivot et du rayon. De cette façon, l’objet se déplace correctement si l’utilisateur effectue une expansion sur l’objet pendant son déplacement.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -69,9 +69,9 @@ Le code suivant illustre une méthode permettant d’effectuer cette opération 
 [Manipulations](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

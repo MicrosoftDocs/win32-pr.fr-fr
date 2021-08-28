@@ -3,7 +3,7 @@ title: Fonctions d’e/s de fichier multimédia
 description: Fonctions d’e/s de fichier multimédia
 ms.assetid: a5d51906-881f-4fe0-a988-c10776a3b40d
 keywords:
-- Windows Multimedia, fonctions d’e/s de fichier
+- Windows multimédia, fonctions d’e/s de fichier
 - multimédia, fonctions d’e/s de fichier
 - entrée multimédia, fonctions d’e/s de fichier
 - e/s de fichier multimédia, fonctions
@@ -15,12 +15,12 @@ keywords:
 - Référence des e/s de fichier, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62b8daf8e84953acebcca9106165f27b350ef2f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0bbbdf3df443eb21a74c74413c6274217fd9b6752bc012f1e2706deaeeaeaa6f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119806969"
 ---
 # <a name="multimedia-file-io-functions"></a>Fonctions d’e/s de fichier multimédia
 
@@ -52,6 +52,6 @@ Les fonctions suivantes sont utilisées avec les e/s de fichier multimédia.
 [Référence d’e/s de fichier multimédia](multimedia-file-i-o-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

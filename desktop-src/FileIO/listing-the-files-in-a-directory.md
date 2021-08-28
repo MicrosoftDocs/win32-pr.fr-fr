@@ -4,12 +4,12 @@ ms.assetid: ab0d977d-f71c-4a18-9b1d-2221169324f0
 title: Affichage des fichiers dans un répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ef872917656957253498c54560971ca87ddaa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18ca78c2ed6ee0a8adf2e80574ed029eea9e9e5dc2d5bbe6f69a6f0cecc12892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765889"
 ---
 # <a name="listing-the-files-in-a-directory"></a>Affichage des fichiers dans un répertoire
 

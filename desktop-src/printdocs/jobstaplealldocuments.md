@@ -4,12 +4,12 @@ ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f9598f09181a225bf10d097b8c2aedaf19373a1
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 17a6d87e814665d9e9ff8433cae7734da24b6f5a8bce674fee1bd5fe7e2a7f2b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845899"
 ---
 # <a name="jobstaplealldocuments"></a>JobStapleAllDocuments
 
@@ -29,7 +29,7 @@ Décrit les caractéristiques de l’agrafage de la sortie. Tous les documents d
 |----------------------------|--------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                             |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                 |
-| Notes <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize <br/> |
+| Remarques <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize <br/> |
 
 
 

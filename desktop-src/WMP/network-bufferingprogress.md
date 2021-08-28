@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e3a4f37f8f6b8ffe8ff93ca72b0c9551d7e314
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65de3f7b1b58dfb90f76436f324dcc3d4fc3fe9a24b7c60ca3db888771f9192d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119901749"
 ---
 # <a name="networkbufferingprogress"></a>Network. bufferingProgress
 
@@ -33,7 +33,7 @@ La propriété **bufferingProgress** récupère le pourcentage d’achèvement d
 
 Cette propriété est un **nombre** en lecture seule (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque fois que la lecture est arrêtée et redémarrée, cette propriété est définie sur zéro. Elle n’est pas réinitialisée si la lecture est suspendue.
 
@@ -43,7 +43,7 @@ Utilisez l’événement *Player*. * * * * Buffering * * * * pour déterminer à
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **bufferingProgress** pour afficher le pourcentage de la mise en mémoire tampon terminée. Les informations s’affichent dans une balise DIV HTML créée avec ID = « BP ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **bufferingProgress** pour afficher le pourcentage de la mise en mémoire tampon terminée. Les informations s’affichent dans une balise DIV HTML créée avec ID = « BP ». L’exemple utilise un minuteur avec un intervalle de 1 seconde pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

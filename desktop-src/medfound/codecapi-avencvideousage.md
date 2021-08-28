@@ -4,12 +4,12 @@ ms.assetid: 2A6941A3-CCA0-467C-AC8A-DADC2CD1D405
 title: CODECAPI_AVEncVideoUsage, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27568412613702846e99d0ca556cc59cdc4fc77e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5b6d3ee174fbc22ca7b1ab4e309d87112463740a075b497cc35033f8c96bbe8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119777709"
 ---
 # <a name="codecapi_avencvideousage-property"></a>CODECAPI \_ propriété AVEncVideoUsage
 
@@ -23,7 +23,7 @@ Définit l’utilisation de la vidéo pour un encodeur vidéo.
 
 **CODECAPI \_ AVEncVideoUsage**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est également utilisée avec les [encodeurs de caméra H. 264 UVC 1,5](camera-encoder-h264-uvc-1-5.md).
 
@@ -35,8 +35,8 @@ Cette propriété est également utilisée avec les [encodeurs de caméra H. 264
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau \| UWP apps\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau \| UWP apps\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

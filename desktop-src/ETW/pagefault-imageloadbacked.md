@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1644db74c5c7c361acda796219ae1415ecc262bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75104fcf923ed59bfcc99e214e66a235549b7059ca0e36c41b6f90d308a3efff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811769"
 ---
 # <a name="pagefault_imageloadbacked-class"></a>PageFault \_ ImageLoadBacked, classe
 
@@ -118,18 +118,18 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’événement est enregistré lors de la création d’une section d’image (par exemple, un chargement de DLL) lorsque le gestionnaire de mémoire détermine que l’image doit être copiée et exécutée à partir du fichier d’échange. En règle générale, les images sont exécutées à partir du fichier source, mais la sauvegarde du fichier d’échange peut se produire lorsque le gestionnaire de mémoire détermine que le fichier source peut être modifié de façon asynchrone par des Writers existants ou lorsque le fichier source se trouve sur un support amovible ou un périphérique distant.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -4,17 +4,17 @@ description: La tonalité en écriture est l’attitude que le rédacteur transm
 ms.assetid: b9a03709-301f-46de-b4b4-0dd1214c0ed7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6009491b54de9035b253a10b9fd48f2233947104
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 20bd9fff1093607bfc554eb458f0e1904fda0a496772ce244922d03e9890d982
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104557500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119841682"
 ---
 # <a name="style-and-tone"></a>Style et ton
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 La tonalité en écriture est l’attitude que le rédacteur transmet au lecteur. Ce n’est pas nécessairement ce que vous dites, mais comment vous le dites. Le ton est conçu pour créer une réponse ou une émotion spécifique dans le lecteur. Il crée une personnalité qui peut impliquer ou repousser les utilisateurs.
 
@@ -22,9 +22,9 @@ La tonalité en écriture est l’attitude que le rédacteur transmet au lecteur
 
 ## <a name="design-concepts"></a>Principes de conception
 
-### <a name="the-windows-tone"></a>Le ton Windows
+### <a name="the-windows-tone"></a>le ton Windows
 
-Utilisez le ton Windows pour inspirer la confiance en communiquant avec les utilisateurs à un niveau personnel en étant précis, encourageant, Insights, objectives et centrés sur l’utilisateur. Le ton Windows s’efforce également d’être clair, inspirer, simple et digne de confiance.
+utilisez le Windows tonalité pour inspirer la confiance en communiquant avec les utilisateurs à un niveau personnel en étant précis, encourageant, insights, objectives et centrés sur l’utilisateur. le ton Windows s’efforce également d’être clair, inspirer, simple et digne de confiance.
 
 N’utilisez pas de tonalité gênante, condescendant ou arrogant. Évitez les extrêmes de la voix « machine » (où le haut-parleur est retiré de la langue) et la voix « Sales Rep » (où l’écriture tente de nous en faire part, pour nous cajoler, pour nous faire part de tout en « simple ».)
 
@@ -44,12 +44,12 @@ Assurez-vous que votre texte est exact, encourageant, Insights, objective et cen
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="use-the-windows-tone"></a>Utiliser le ton Windows
+### <a name="use-the-windows-tone"></a>utiliser le ton Windows
 
 Le ton dans votre programme doit être :
 
 -   **Précis.** Les utilisateurs doivent s’assurer que les informations sont techniquement précises. Si les informations ne sont pas exactes, l’expérience de l’utilisateur avec cette tâche spécifique est abîmée et il perd la foi dans toute autre assistance qu’il lit à partir de cette source.
--   **Invitant.** Utilisez la langue qui indique que le logiciel permet aux utilisateurs d’effectuer des opérations, au lieu de les autoriser à effectuer des opérations. Par exemple, utilisez « vous pouvez » plutôt que « Windows vous permet » ou « cette fonctionnalité vous permet ». (Exception : il est possible d’utiliser « allow » (autoriser) quand vous faites référence à des fonctionnalités, telles que des fonctionnalités de sécurité, qui autorisent ou refusent une action.)
+-   **Invitant.** Utilisez la langue qui indique que le logiciel permet aux utilisateurs d’effectuer des opérations, au lieu de les autoriser à effectuer des opérations. par exemple, utilisez « vous pouvez « » plutôt que « Windows vous permet » ou « cette fonctionnalité vous permet ». (Exception : il est possible d’utiliser « allow » (autoriser) quand vous faites référence à des fonctionnalités, telles que des fonctionnalités de sécurité, qui autorisent ou refusent une action.)
 -   **Pertinents.** Les utilisateurs doivent savoir que vous (et l’extension de votre application) savez quand une certaine tâche est compliquée et que vous allez les guider. En même temps, traitez les utilisateurs comme des personnes intelligentes qui ont besoin d’aide pour un problème particulier.
 -   **Consistant.** Parfois, les utilisateurs veulent une explication plus riche ; bien souvent, ils veulent simplement savoir ce dont ils ont besoin pour se déplacer. Cela nécessite une objective pour reconnaître que l’objectif (productivité, curiosité, jouissance) est l’objectif de l’utilisateur, et non pas le scripteur. Vous devez également vous tenir informé de toute notion présupprimée concernant l’utilisateur.
 -   **Axée sur l’utilisateur.** Écrivez le point de vue de l’utilisateur et, de préférence, du point de vue de ce que vous pouvez faire pour l’utilisateur. Les utilisateurs doivent se sentir qu’ils trouveront des informations pertinentes et accessibles.
@@ -74,7 +74,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
 ### <a name="use-real-world-language"></a>Utiliser le langage réel
 
--   **Utilisez les mots quotidiens lorsque vous pouvez et évitez les mots que vous ne souhaitez pas que quelqu’un d’autre en personne.** Cela est particulièrement efficace si vous décrivez un concept ou une action technique complexe. Imaginez que vous examinez l’épaule de l’utilisateur et que vous expliquiez comment accomplir cette tâche.
+-   **Utilisez les mots quotidiens lorsque vous pouvez et évitez les mots que vous ne souhaitez pas que quelqu’un d’autre en personne.** Cela est particulièrement efficace si vous décrivez un concept ou une action technique complexe. Imagine vous intéressent à l’épaule de l’utilisateur et expliquent comment accomplir cette tâche.
 
     **Acceptable:**
 
@@ -194,7 +194,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
 -   Une terminologie cohérente favorise l’apprentissage et une meilleure compréhension des concepts techniques. L’incohérence oblige les utilisateurs à déterminer si les différents mots et actions ont la même signification.
 
-    Exemples :
+    Exemples :
 
     basculer, basculer
 
@@ -278,14 +278,14 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
     Ce fichier est protégé et ne peut pas être supprimé sans autorisation spécifique.
 
--   **Bon équilibre : soyez chaud à l’utilisateur sans être trop intime ou trop professionnel.** Imaginez que vous aidez un ami à utiliser le produit pour la première fois. Cette personne n’est pas votre meilleur ami ou autre, mais plutôt un voisin ou un ami de la famille. Les utilisateurs doivent se sentir à l’aise et à la résidence lors de l’utilisation de votre programme, mais la langue ne doit pas sembler presumptuous ou trop familière.
+-   **Bon équilibre : soyez chaud à l’utilisateur sans être trop intime ou trop professionnel.** Imagine que vous aidez un ami à utiliser le produit pour la première fois. Cette personne n’est pas votre meilleur ami ou autre, mais plutôt un voisin ou un ami de la famille. Les utilisateurs doivent se sentir à l’aise et à la résidence lors de l’utilisation de votre programme, mais la langue ne doit pas sembler presumptuous ou trop familière.
 -   **Limiter aux situations qui inconfortent l’utilisateur d’une certaine manière,** par exemple :
 
     -   L’utilisateur est invité à faire un peu de confort, comme en attente, en répétant une tâche ou en mettant à jour un programme.
 
         **Correct :**
 
-        Veuillez patienter pendant que Windows copie les fichiers sur votre ordinateur.
+        veuillez patienter pendant que Windows copie les fichiers sur votre ordinateur.
 
     -   L’utilisateur ne peut pas effectuer une tâche en raison d’une fonctionnalité manquante, d’un défaut de conception ou d’un bogue de programme.
 
@@ -319,7 +319,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
     **Correct :**
 
-    Enregistrer les modifications apportées à « mes photos » ?
+    Enregistrer les modifications apportées à « mes Photos » ?
 
     Vous avez déjà enregistré un fichier, puis vous ne vous êtes pas mémorisé de l’emplacement où vous l’avez enregistré ?
 
@@ -331,7 +331,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
     Écouter
 
-    Espion
+    Regardez
 
     Partager
 
@@ -349,7 +349,7 @@ En revanche, veillez à éviter les tonalités suivantes, qui sont bien plus sus
 
     Écouter
 
-    Ces éléments ne sont pas parallèles, car la musique et la vidéo sont des noms, mais le partage et l’écoute sont des verbes.
+    ces éléments ne sont pas parallèles, car les Musique et la vidéo sont des noms, mais le partage et l’écoute sont des verbes.
 
  
 

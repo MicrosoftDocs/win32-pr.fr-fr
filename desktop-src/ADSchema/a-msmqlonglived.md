@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d175a6ed59114eaa591f8e45a9c1291652d9e037
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3227e71cd83706792670f032d268ea587514f785a814e30b8d0591192f73a640
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119762509"
 ---
 # <a name="msmq-long-lived-attribute"></a>MSMQ-attribut de durée de vie longue
 
@@ -36,7 +36,7 @@ Durée de vie par défaut des messages MSMQ.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.941               |
 | System-ID-GUID    | 9a0dc335-c100-11d1-bbc5-0080c76670c0 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Durée de vie par défaut des messages MSMQ.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -66,7 +66,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ Durée de vie par défaut des messages MSMQ.
 | Range-Upper            | \-                                                                      |
 | Search-Flags           | 0x00000000                                                              |
 | System-Flags           | 0x00000010                                                              |
-| Classes utilisées dans        | [**MSMQ-Enterprise-paramètres**](c-msmqenterprisesettings.md)<br/> |
+| Classes utilisées dans        | [**MSMQ-Enterprise-Paramètres**](c-msmqenterprisesettings.md)<br/> |
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - transformation 3D, effet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fabe0c2c220038802b5218b54187a1ff89268bfa
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: d32a9c8fedca3be0d96a44047ac1b226d83309cf657f2cdc223a342e9d38880b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104555569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119758220"
 ---
 # <a name="3d-transform-effect"></a>Effet de transformation 3D
 
@@ -28,7 +28,7 @@ Le CLSID de cet effet est CLSID \_ D2D13DTransform.
     -   [Modes d’interpolation](#interpolation-modes)
     -   [Modes de bordure](#border-modes)
 -   [Classe de matrice de transformation 4x4](#4x4-transform-matrix-class)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="example-image"></a>Exemple d’image
@@ -38,7 +38,7 @@ Le CLSID de cet effet est CLSID \_ D2D13DTransform.
 | Avant                                                        |
 |---------------------------------------------------------------|
 | ![image avant la transformation.](images/default-before.jpg) |
-| After                                                         |
+| Après                                                         |
 | ![image après la transformation.](images/24-3dtransform.png)  |
 
 
@@ -131,7 +131,7 @@ X, Y, Z = coordonnées du plan de projection de sortie<br />
 
 
 
-| Nom                     | Description                                                                                                      |
+| Name                     | Description                                                                                                      |
 |--------------------------|------------------------------------------------------------------------------------------------------------------|
 | \_Mode de bordure d2d1 \_ \_ | L’effet remplit l’image avec des pixels noirs transparents au fur et à mesure de l’interpolation, ce qui génère une bordure douce.<br/> |
 | D2D1 \_ mode de bordure \_ \_ difficile | L’effet attache la sortie à la taille de l’image d’entrée. <br/>                                         |
@@ -146,7 +146,7 @@ Direct2D fournit une classe de matrice 4x4 pour fournir des fonctions d’assist
 
 
 
-| Fonction                                | Description                                                                                    | Matrix                                                 |
+| Fonction                                | Description                                                                                    | Matrice                                                 |
 |-----------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | Matrix4x4F :: Scale (X, Y, Z)              | Génère une matrice de transformation qui met à l’échelle le plan de projection dans la direction X, Y et/ou Z. | ![matrice scale3d](images/3d-transform-matrix2.png)     |
 | SkewX (X)                                | Génère une matrice de transformation qui incline le plan de projection dans l’axe X.               | ![Affiche une matrice inclinée sur l’axe X.](images/matrix4x4-skewx.png)             |
@@ -168,8 +168,8 @@ Direct2D fournit une classe de matrice 4x4 pour fournir des fonctions d’assist
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

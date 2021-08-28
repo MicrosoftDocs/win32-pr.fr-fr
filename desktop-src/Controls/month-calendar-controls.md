@@ -4,12 +4,12 @@ description: Un contrôle Month Calendar implémente une interface utilisateur d
 ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f21fba66f9fb71ad45f8853578821ad5f83da00e
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 72000e0cecbfe627068260c5d9263821437246c15bebdfb876ecaa84e61f9cda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119834518"
 ---
 # <a name="about-month-calendar-controls"></a>À propos des contrôles Month Calendar
 
@@ -29,7 +29,7 @@ La capture d’écran suivante montre un contrôle Month Calendar qui a été di
 ![capture d’écran d’une boîte de dialogue avec un contrôle Month Calendar montrant deux mois, côte à côte](images/mc-simple.png)
 
 > [!Note]  
-> L’apparence et le comportement du contrôle Month Calendar diffère légèrement sous les différentes versions de la bibliothèque Runtime. Cette rubrique se concentre sur le contrôle tel qu’il apparaît dans Windows Vista avec la version 6 de Comctl32.dll.
+> L’apparence et le comportement du contrôle Month Calendar diffère légèrement sous les différentes versions de la bibliothèque Runtime. cette rubrique se concentre sur le contrôle tel qu’il apparaît dans Windows Vista avec la version 6 de Comctl32.dll.
 
  
 

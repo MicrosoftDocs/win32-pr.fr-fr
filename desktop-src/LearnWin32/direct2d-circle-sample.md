@@ -4,12 +4,12 @@ description: Cet exemple d’application montre comment dessiner un cercle à l�
 ms.assetid: C4413C3D-FE7E-4DA1-83CF-EDD23E2DB3F8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142ed6f52fda382ea73f5c1494569f2e69f8e37e
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: ec0c2b275f97a2204a7dc2b55c79c880579e257ba0eec15869dbc4659ee151c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104029910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119870049"
 ---
 # <a name="direct2d-circle-sample"></a>Exemple de cercle Direct2D
 
@@ -17,7 +17,7 @@ Cet exemple d’application montre comment dessiner un cercle à l’aide de Dir
 
 ## <a name="description"></a>Description
 
-L’exemple d’application Direct2D Circle dessine un cercle, comme indiqué dans la capture d’écran suivante. Cet exemple est abordé dans le [module 3 : graphiques Windows](module-3---windows-graphics.md).
+L’exemple d’application Direct2D Circle dessine un cercle, comme indiqué dans la capture d’écran suivante. cet exemple est abordé dans le [Module 3 : Windows graphics](module-3---windows-graphics.md).
 
 ![capture d’écran du programme Circle.](images/graphics08.png)
 
@@ -27,7 +27,7 @@ Cet exemple est disponible [ici](https://github.com/microsoft/Windows-classic-sa
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Apprendre à programmer pour Windows : exemple de code](learn-to-program-for-windows--sample-code.md)
+* [apprendre à programmer pour Windows : exemple de Code](learn-to-program-for-windows--sample-code.md)
 * [Premier programme Direct2D](your-first-direct2d-program.md)
-* [Module 3 : graphiques Windows](module-3---windows-graphics.md)
+* [Module 3 : Windows graphics](module-3---windows-graphics.md)
 

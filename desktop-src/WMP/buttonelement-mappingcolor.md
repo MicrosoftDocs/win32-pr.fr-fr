@@ -3,7 +3,7 @@ title: BUTTONELEMENT. mappingColor
 description: L’attribut mappingColor spécifie ou récupère la clé de couleur qui identifie ce BUTTONELEMENT dans le BUTTONGROUP.
 ms.assetid: e7b1663c-3263-41d5-9a69-4cf1dcf0fc1f
 keywords:
-- Lecteur Windows Media BUTTONELEMENT. mappingColor
+- BUTTONELEMENT. mappingColor Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7318f01246578fe8ff34118427c95afb7b3bb098
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29badef71eda70782203effb7098c7ee5bc7a62b67d28ccbc9428c74e9473012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764339"
 ---
 # <a name="buttonelementmappingcolor"></a>BUTTONELEMENT. mappingColor
 
@@ -31,7 +31,7 @@ L’attribut **mappingColor** spécifie ou récupère la clé de couleur qui ide
 
 Cet attribut est une **chaîne** en lecture/écriture contenant toute valeur de couleur Microsoft Internet Explorer. Il n'a aucune valeur par défaut.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut spécifie la couleur de la région dans le groupe de boutons **mappingImage** qui correspond à cet élément de bouton. Tous les clics sur cette région sont gérés par cet élément bouton.
 

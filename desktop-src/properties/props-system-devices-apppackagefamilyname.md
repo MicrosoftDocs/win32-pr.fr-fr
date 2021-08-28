@@ -4,12 +4,12 @@ ms.assetid: 7fac1acb-2e9d-4d74-b5ed-7ea98e209637
 title: System. Devices. AppPackageFamilyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fae92e0e89e6989fba41b0eea712171613e0dd97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec554daafd9aea39fc21cf2f8c82858314e3388da47b04bb5774d549fddd380d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119775649"
 ---
 # <a name="systemdevicesapppackagefamilyname"></a>System. Devices. AppPackageFamilyName
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

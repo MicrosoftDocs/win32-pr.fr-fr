@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f61da53fd060bd4fb06dbbb7586d923ac17fc0f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a868eab52d354672802ef1f736bbc2754af605371708247415cbe78a42442e1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809419"
 ---
 # <a name="drm_actionallowed_copytosdmidevice"></a>\_ACTIONALLOWED DRM \_ CopyToSDMIDevice
 
@@ -31,9 +31,9 @@ g \_ wszWMDRM \_ ActionAllowed \_ CopyToSDMIDevice
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les licences Windows Media DRM 10 utilisent l’action de copie pour limiter la copie sur les appareils. Vous devez vérifier la propriété de [**\_ \_ copie DRM ActionAllowed**](drm-actionallowed-copy.md) pour déterminer si la copie est autorisée.
+Windows Les licences Media DRM 10 utilisent l’action de copie pour limiter la copie sur les appareils. Vous devez vérifier la propriété de [**\_ \_ copie DRM ActionAllowed**](drm-actionallowed-copy.md) pour déterminer si la copie est autorisée.
 
 Il s’agit d’une propriété en lecture seule qui est récupérée à l’aide de [**IWMDRMReader :: GetDRMProperty**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmreader-getdrmproperty).
 
@@ -44,9 +44,9 @@ Il s’agit d’une propriété en lecture seule qui est récupérée à l’aid
 [**Propriétés DRM**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

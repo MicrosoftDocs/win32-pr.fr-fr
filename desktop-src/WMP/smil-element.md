@@ -1,9 +1,9 @@
 ---
 title: Élément smil
-description: L’élément smil est toujours l’élément de niveau supérieur dans un fichier de sélection Windows Media (WPL). Il spécifie que le fichier utilise la syntaxe et la grammaire du langage SMIL (Synchronized Multimedia Integration Language).
+description: l’élément smil est toujours l’élément de niveau supérieur dans un fichier de sélection de média Windows (WPL). Il spécifie que le fichier utilise la syntaxe et la grammaire du langage SMIL (Synchronized Multimedia Integration Language).
 ms.assetid: bb14f1b8-53d0-47ff-9fd3-4620a1467985
 keywords:
-- Élément smil lecteur Windows Media
+- Lecteur Windows Media de l’élément smil
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 78ec8900139cfbd5982228c59010674bbc14765e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15ed9c3d70b0af65019cd384bc68ab9c26f8d01673481b9ced3595730379bf1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763459"
 ---
 # <a name="smil-element"></a>Élément smil
 
-L’élément **SMIL** est toujours l’élément de niveau supérieur dans un fichier de sélection Windows Media (WPL). Il spécifie que le fichier utilise la syntaxe et la grammaire du langage SMIL (Synchronized Multimedia Integration Language).
+l’élément **smil** est toujours l’élément de niveau supérieur dans un fichier de sélection de média Windows (WPL). Il spécifie que le fichier utilise la syntaxe et la grammaire du langage SMIL (Synchronized Multimedia Integration Language).
 
 ``` syntax
 <smil>
@@ -46,9 +46,9 @@ Cet élément n’a pas d’attributs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Chaque playlist Windows Media doit avoir l’élément **SMIL** à sa racine.
+chaque sélection de média Windows doit avoir l’élément **smil** à sa racine.
 
 ## <a name="examples"></a>Exemples
 
@@ -88,7 +88,7 @@ Chaque playlist Windows Media doit avoir l’élément **SMIL** à sa racine.
 [**Head, élément**](head-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

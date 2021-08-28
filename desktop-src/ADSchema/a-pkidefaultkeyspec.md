@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82419858c46c108892b538e03ac22dd3ada2241b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: de91b3f04c13d6f3b0b0eb20b872767cfed58eb876be11c53644e805230a36e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802599"
 ---
 # <a name="pki-default-key-spec-attribute"></a>Infrastructure à clé publique-clé-valeur par défaut
 
@@ -36,7 +36,7 @@ Spécification de clé privée pour le modèle de certificat.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1327              |
 | System-ID-GUID    | 426cae6e-3b9d-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Spécification de clé privée pour le modèle de certificat.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

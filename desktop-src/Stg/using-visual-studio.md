@@ -1,34 +1,34 @@
 ---
 title: Utilisation de Visual Studio
-description: Pour plus de commodité, Microsoft Visual Studio 6,0 fournit un fichier projet pour chaque exemple.
+description: pour plus de commodité, Microsoft Visual Studio 6,0 fournit un fichier projet pour chaque exemple.
 ms.assetid: 8da6affd-a881-4dc4-a2e6-d35f655c69fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b32359a29d14a6cd5a4d08d015a6598ade376d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ee6edc1b19cb0e56495c8af6f96d28e4d255e40d53161671f52a1a7d27939f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796849"
 ---
 # <a name="using-visual-studio"></a>Utilisation de Visual Studio
 
-Pour plus de commodité, Microsoft Visual Studio 6,0 fournit un fichier projet pour chaque exemple. Ce fichier possède l’extension DSP. Un fichier d’espace de travail Allsamp. dsw est également fourni dans le répertoire principal afin que vous puissiez Compiler tous les exemples à la fois à partir de Visual Studio.
+pour plus de commodité, Microsoft Visual Studio 6,0 fournit un fichier projet pour chaque exemple. Ce fichier possède l’extension DSP. Un fichier d’espace de travail Allsamp. dsw est également fourni dans le répertoire principal afin que vous puissiez Compiler tous les échantillons à la fois à partir de Visual Studio.
 
 > [!Note]  
-> Les instructions suivantes sont écrites pour Microsoft Visual Studio 6,0. Les commandes peuvent différer dans les versions antérieures et ultérieures de Visual Studio.
+> les instructions suivantes sont écrites pour Microsoft Visual Studio 6,0. Les commandes peuvent différer dans les versions antérieures et ultérieures de Visual Studio.
 
- 
+ 
 
-Pour charger le projet approprié pour un exemple, vous pouvez exécuter Visual Studio à partir de l’invite de commandes dans le répertoire de l’exemple, comme indiqué dans l’exemple suivant. Vous devez substituer l’exemple de nom de projet à **<project name>** .
+pour charger le projet approprié pour un exemple, vous pouvez exécuter Visual Studio à l’invite de commandes dans le répertoire de l’exemple, comme indiqué dans l’exemple suivant. Vous devez substituer l’exemple de nom de projet à **<project name>** .
 
 **msdev <project name> . DSP**
 
-Vous pouvez également simplement double-cliquer sur le fichier. DSP dans l’Explorateur Windows pour charger l’espace de travail d’un exemple dans Visual Studio. Dans Visual Studio, vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage.
+vous pouvez également simplement double-cliquer sur le fichier. dsp dans l’explorateur de Windows pour charger l’espace de travail d’un exemple dans Visual Studio. à partir de Visual Studio vous pouvez parcourir les classes C++ de l’exemple de source et effectuer généralement les autres opérations de modification-compilation-débogage.
 
-Dans le cadre du kit de développement logiciel (SDK) de la plateforme, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour définir les chemins d’accès aux répertoires, procédez comme suit :
+dans le cadre du kit de développement logiciel (SDK) de la plateforme, la compilation de ces exemples à partir de Visual Studio requiert le paramètre approprié des chemins d’accès aux répertoires dans Visual Studio. Pour définir les chemins d’accès aux répertoires, procédez comme suit :
 
--   Exécutez Microsoft Visual Studio (Visual C++).
+-   exécutez Microsoft Visual Studio (Visual C++).
 -   Dans le menu **Outils** , choisissez **options..** ..
 -   Choisissez l’onglet **répertoires** dans la boîte de dialogue **options** .
 -   Dans la liste déroulante **afficher les répertoires pour** , sélectionnez **fichiers exécutables** , puis entrez le chemin d’accès au répertoire bin de votre plateforme SDK installée (par exemple, C : \\ Program Files \\ Microsoft SDK \\ bin). Cliquez sur le bouton fléché vers le haut pour déplacer le chemin d’accès que vous venez d’entrer afin qu’il corresponde à la première entrée de la liste des **répertoires** .
@@ -69,9 +69,9 @@ Outre la dépendance vis-à-vis du code commun dans les répertoires APPUTIL, IN
 -   DCDSERVE : la génération ou l’exécution a besoin d’une version antérieure de REGISTER et DCDMARSH.
 -   DCOMDRAW : la génération ou l’exécution a besoin d’une version antérieure de REGISTER et DCDMARSH sur l’ordinateur local (client). L’exécution a besoin d’une version antérieure de REGISTER, DCDMARSH et DCOMDRAW sur l’ordinateur distant (serveur).
 
- 
+ 
 
- 
+ 
 
 
 

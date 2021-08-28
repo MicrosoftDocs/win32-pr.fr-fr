@@ -3,8 +3,8 @@ title: Structure MPRESOURCE_STATS (MpClient. h)
 description: Statistiques relatives aux ressources.
 ms.assetid: D1DC4BC9-911D-448C-A421-11D2F51F0A61
 keywords:
-- Fonctionnalités d’environnement Windows héritées de la structure MPRESOURCE_STATS
-- PMPRESOURCE_STATS des fonctionnalités d’environnement Windows héritées du pointeur de structure
+- fonctionnalités d’environnement Windows héritées de la structure MPRESOURCE_STATS
+- PMPRESOURCE_STATS des fonctionnalités d’environnement du pointeur de structure Windows hérité
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afbe1ce6734aabd1093f7acd886af757c51ed83e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b72a21bf0ec020c1fc2cf5ba1394b4cd5ed04dc32721a4aac9f8349034907b49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119848469"
 ---
 # <a name="mpresource_stats-structure"></a>MPRESOURCE, \_ structure des statistiques
 
@@ -118,8 +118,8 @@ Champs réservés pour une utilisation ultérieure.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: d467769308707032b8e92b4ac7877488991356dd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a06ac5428743c31bae22c6d106ee927791739295754b15ac9764045c3aeeffab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119813869"
 ---
 # <a name="iwiauiextensiondevicedialog-method"></a>IWiaUIExtension ::D méthode eviceDialog
 
@@ -48,13 +48,13 @@ Pointe vers une structure [**DEVICEDIALOGDATA**](-wia-devicedialogdata.md) qui c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. Si l’utilisateur annule la boîte de dialogue, la méthode retourne S \_ false. Si la méthode n’est pas implémentée, elle retourne E \_ NOTIMPL. Si la méthode échoue, elle retourne un code d’erreur COM standard.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Si vous implémentez l’interface [**IWiaUIExtension**](-wia-iwiauiextension.md) et que vous ne souhaitez pas remplacer l’interface utilisateur système, cette méthode doit encore être implémentée, mais elle ne doit rien faire d’autre que retourner E \_ NOTIMPL.
 
@@ -64,8 +64,8 @@ Si vous implémentez l’interface [**IWiaUIExtension**](-wia-iwiauiextension.md
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Wiadevd. h</dt> </dl> |
 
 

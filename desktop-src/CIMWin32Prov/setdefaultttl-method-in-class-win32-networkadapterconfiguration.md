@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 253048b44a836f92646124fb972fe32c135e3b9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a8433da88d2055f996b895d6234eb73369cbd431277b8cfd67b640bb3cc6c279
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846969"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759959"
 ---
 # <a name="setdefaultttl-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDefaultTTL de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La durée de vie spécifie le nombre de routeurs qu’un paquet IP peut traverser pour atteindre sa destination avant d’être ignoré. Chaque routeur décrémente le nombre de TTL d’un paquet d’un et rejette les paquets dont la durée de vie est égale à 0 (zéro).
 

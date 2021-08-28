@@ -3,7 +3,7 @@ title: Message TB_GETSTRING (commctrl. h)
 description: Récupère une chaîne à partir du pool de chaînes d’une barre d’outils.
 ms.assetid: a5f80c16-bc6d-466d-8ec6-77451432148e
 keywords:
-- TB_GETSTRING les contrôles de message Windows
+- TB_GETSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 465ad2546397fa31c33d6a52b4989902c979d91d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d25cbf20fd084c2ce60b29d131b7f488ca2b8cee178a2218fcfac191b3c1af33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918480"
 ---
 # <a name="tb_getstring-message"></a>TO \_ GETSTRING (message)
 
@@ -49,7 +49,7 @@ Pointeur vers une mémoire tampon utilisée pour retourner la chaîne.
 
 Retourne la longueur de chaîne en cas de réussite, ou-1 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message retourne la chaîne spécifiée à partir du pool de chaînes de la barre d’outils. Elle ne correspond pas nécessairement à la chaîne de texte actuellement affichée par un bouton. Pour récupérer la chaîne de texte actuelle d’un bouton, envoyez la barre d’outils à un message [**\_ GETBUTTONTEXT to**](tb-getbuttontext.md) .
 
@@ -59,8 +59,8 @@ Ce message retourne la chaîne spécifiée à partir du pool de chaînes de la b
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **To \_ GETSTRINGW** (Unicode) et **to \_ GETSTRINGA** (ANSI)<br/>                 |
 

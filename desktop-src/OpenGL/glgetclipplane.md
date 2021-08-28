@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b3e29d730c09bcc7c2b12082116e174cb39eb74
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf551356088db2b99b79a28a396be785ab60f2196cc3e27353cb867d4b151dd8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106516299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119742038"
 ---
 # <a name="glgetclipplane-function"></a>glGetClipPlane fonction)
 
@@ -41,7 +41,7 @@ void WINAPI glGetClipPlane(
 
 <dl> <dt>
 
-*verticale* 
+*plane (avion)* 
 </dt> <dd>
 
 Plan de découpage. Le nombre de plans de découpage dépend de l’implémentation, mais au moins six plans de découpage sont pris en charge. Ils sont identifiés par des noms symboliques de la forme \_ plan de clip GL \_ *i* où 0 = *i* < des plans de \_ clip GL Max \_ \_ .
@@ -65,14 +65,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | le *plan* n’est pas une valeur acceptée.<br/>                                                                                         |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetClipPlane** retourne dans l' *équation* les quatre coefficients de l’équation plane pour le *plan*.
 

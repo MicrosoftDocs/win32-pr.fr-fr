@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: a94845faf4c34657f486cfa371c5d41a12dc4336
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a73323dc9d6596f848fa50fe6dc21e236a5b9f2d4362b3c2a27cf773d3939fac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849749"
 ---
 # <a name="d3dxshgpusimopt-enumeration"></a>Énumération D3DXSHGPUSIMOPT
 
@@ -54,7 +54,7 @@ Simulation de faible résolution. Une texture de 256 x 256 pixels est utilisée 
 <span id="D3DXSHGPUSIMOPT_SHADOWRES512"></span><span id="d3dxshgpusimopt_shadowres512"></span>**D3DXSHGPUSIMOPT \_ SHADOWRES512**
 </dt> <dd>
 
-Simulation de résolution moyenne. Une texture de 512 x 512 pixels est utilisée dans la simulation pour encoder la mémoire tampon z de l’ombre. Il s’agit de la valeur par défaut.
+Simulation de résolution moyenne. Une texture de 512 x 512 pixels est utilisée dans la simulation pour encoder la mémoire tampon z de l’ombre. Il s'agit de la valeur par défaut.
 
 </dd> <dt>
 
@@ -86,7 +86,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une seule des valeurs de résolution peut être spécifiée et peut être combinée avec la valeur de haute qualité.
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a6992658214d7ea5acbadbea396992edf0e3e9d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33cefd39dc0e860906bc99b1f591a87dae845d6a9317410ce4850fb1a54ea708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119857099"
 ---
 # <a name="swbemobjectset-object"></a>Objet SWbemObjectSet
 
@@ -77,14 +77,14 @@ L’objet **SWbemObjectSet** possède ces propriétés.
 
 | Propriété                                                  | Type d’accès          | Description                                              |
 |:----------------------------------------------------------|:---------------------|:---------------------------------------------------------|
-| [**Saut**](swbemobjectset-count.md)<br/>          | Lecture seule<br/> | Nombre d’éléments dans la collection<br/>        |
+| [**Count**](swbemobjectset-count.md)<br/>          | Lecture seule<br/> | Nombre d’éléments dans la collection<br/>        |
 | [**Sécurité\_**](swbemobjectset-security-.md)<br/> | Lecture seule<br/> | Utilisé pour lire ou modifier les paramètres de sécurité.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une collection **SWbemObjectSet** est une collection de zéro ou plusieurs objets [**SWbemObject**](swbemobject.md) . Chaque **SWbemObject** dans une **SWbemObjectSet** peut représenter l’un des deux éléments suivants :
 

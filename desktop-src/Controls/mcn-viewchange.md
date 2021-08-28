@@ -3,7 +3,7 @@ title: MCN_VIEWCHANGE le code de notification (commctrl. h)
 description: Envoyé par un contrôle Month Calendar lorsque l’affichage actuel change. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: ee35ac1d-9aeb-4d75-9cef-016487f23602
 keywords:
-- Contrôles Windows de code de notification MCN_VIEWCHANGE
+- MCN_VIEWCHANGE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abbcad3fdda355ac2795dbe49a89fa4e7c2c5cad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef04fc370d67f6e6c7a4ef854d542584e170ddd05bf7c12a5135c84e97f33875
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799129"
 ---
 # <a name="mcn_viewchange-notification-code"></a>\_Code de notification MCN VIEWCHANGE
 
@@ -55,8 +55,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

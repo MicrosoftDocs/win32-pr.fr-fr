@@ -4,12 +4,12 @@ ms.assetid: 2384b522-208a-48db-ae0d-f82fa0214d09
 title: Dessiner des graphiques dans un modèle d’objet XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fabbf8cfb821c80dfff43e2e7844331c8920f726
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ee2f9eacb19ba39263cff3898451479d8bed28e1d83ac6fe251fb9b4da62f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719309"
 ---
 # <a name="draw-graphics-in-an-xps-om"></a>Dessiner des graphiques dans un modèle d’objet XPS
 
@@ -194,7 +194,7 @@ La dernière section de cet exemple de code crée et configure l’objet Path, p
 
 
 
-## <a name="best-practices"></a>Bonnes pratiques
+## <a name="best-practices"></a>Meilleures pratiques
 
 Ajoutez une description textuelle de la forme spécifiée par l’interface [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath) . Pour les utilisateurs malvoyants, utilisez les méthodes [**SetAccessibilityShortDescription**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilityshortdescription) et [**SetAccessibilityLongDescription**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setaccessibilitylongdescription) pour fournir du contenu textuel aux fonctionnalités de prise en charge de l’accessibilité, telles que les lecteurs d’écran.
 

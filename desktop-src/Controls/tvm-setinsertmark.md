@@ -3,7 +3,7 @@ title: Message TVM_SETINSERTMARK (commctrl. h)
 description: Définit la marque d’insertion dans un contrôle TreeView. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetInsertMark TreeView.
 ms.assetid: 35441807-406a-408c-ad89-6dd40c907e3c
 keywords:
-- TVM_SETINSERTMARK les contrôles de message Windows
+- TVM_SETINSERTMARK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5a9cc9b05e9cd7dc3281d778734bee1048ffd2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c3004395dcc7ea0b83af2fc2b7dae370c303228f79599215d5b6d264379b793
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875629"
 ---
 # <a name="tvm_setinsertmark-message"></a>TVM \_ SETINSERTMARK message
 
@@ -47,7 +47,7 @@ Valeur **booléenne** qui spécifie si la marque d’insertion est placée avant
 
 Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans certains cas, la marque d’insertion peut apparaître à deux emplacements après le développement d’un nœud. Si vous utilisez des marques d’insertion, il est recommandé de forcer une actualisation du contrôle après le développement d’un nœud.
 
@@ -57,8 +57,8 @@ Dans certains cas, la marque d’insertion peut apparaître à deux emplacements
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

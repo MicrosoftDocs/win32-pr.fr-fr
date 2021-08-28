@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ed40fd2466f8962f839f39e7addd3b7e1bc33eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b655b47fc3135006f8629246d63350d36a4b32e92398a00f40ae86fe3f70d1e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119796499"
 ---
 # <a name="months-monthlyscheduletype-element"></a>Élément months (monthlyScheduleType)
 
@@ -63,7 +63,7 @@ L’élément **months** est défini par le type complexe [**monthlyScheduleType
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de scripts, les mois de la planification sont spécifiés à l’aide de la propriété [**MonthlyTrigger. MonthsOfYear**](monthlytrigger-monthsofyear.md) .
 
@@ -105,8 +105,8 @@ Le code XML suivant définit un calendrier mensuel qui démarre la tâche le 1er
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

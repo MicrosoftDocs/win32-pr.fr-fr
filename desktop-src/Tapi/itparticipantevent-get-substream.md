@@ -4,16 +4,16 @@ ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
 title: 'ITParticipantEvent :: get_SubStream, méthode (Confpriv. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b8c2944004af31adfb7256376992506eef59b40
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f258f68815a5bc7cd201d94ab55199d59ebe6759eb2e279a1c80add91ea6c3d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774659"
 ---
 # <a name="itparticipanteventget_substream-method"></a>ITParticipantEvent :: obtient la méthode de sous- \_ flux
 
-\[en **savoir \_ plus** Le sous-flux ne peut pas être utilisé dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[en **savoir \_ plus** le sous-flux ne peut pas être utilisé dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 Le sous- **\_ flux d’extraction** obtient un pointeur vers un tableau d’interfaces [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) représentant les sous-flux impliqués dans l’événement.
 

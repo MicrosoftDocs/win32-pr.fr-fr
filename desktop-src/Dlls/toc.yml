@@ -39,7 +39,7 @@
           href: using-run-time-dynamic-linking.md
         - name: Utilisation de la mémoire partagée dans une bibliothèque de Dynamic-Link
           href: using-shared-memory-in-a-dynamic-link-library.md
-        - name: Utilisation du stockage local des threads dans une bibliothèque de Dynamic-Link
+        - name: utilisation des Stockage locaux de Thread dans une bibliothèque de Dynamic-Link
           href: using-thread-local-storage-in-a-dynamic-link-library.md
     - name: Référence de la bibliothèque de Dynamic-Link
       href: dynamic-link-library-reference.md

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dadbe9620367efc75f821a711de89eb3498d247f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 11c7abceb9b484c4cd104e136c47edeb55b93b5273f953cb6d98052e247513d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743579"
 ---
 # <a name="if_comp---vs"></a>Si \_ COMP-vs
 
@@ -29,7 +29,7 @@ Démarrer une [si bool-vs](if-bool---vs.md)... [else-vs](else---vs.md)... [endif
 
 
 
- 
+ 
 
 Où :
 
@@ -46,12 +46,12 @@ Où :
 
     
 
-     
+     
 
 -   src0 est un registre source. La réplication de Swizzle est requise pour sélectionner un composant.
 -   src1 est un registre source. La réplication de Swizzle est requise pour sélectionner un composant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -61,7 +61,7 @@ Où :
 
 
 
- 
+ 
 
 Cette instruction est utilisée pour ignorer un bloc de code, en fonction d’une condition.
 
@@ -82,7 +82,7 @@ Les restrictions sont les suivantes :
 -   Si \_ les blocs COMP doivent se terminer par une instruction [else-vs](else---vs.md) ou [endif-vs](endif---vs.md) .
 -   Si \_ COMP... [else-vs](else---vs.md)... [endif-les blocs vs](endif---vs.md) ne peuvent pas chevaucher un bloc de boucle. Le \_ bloc If COMP doit être complètement à l’intérieur ou à l’extérieur du bloc [Loop-vs](loop---vs.md) .
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 Cette instruction fournit un contrôle de workflow dynamique conditionnel.
 
@@ -106,9 +106,9 @@ endif
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 3c3c882020db8b25c587a8d95824b3c90232bdd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2471f3acbb483af7e1882102527d392a69e2c7494a929f37718b51a17405c92b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536422"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119867889"
 ---
 # <a name="iscrdenr-interface"></a>Interface ISCrdEnr
 
-L’interface **ISCrdEnr** représente le contrôle d’inscription de carte à puce. Il intéresse principalement les développeurs qui n’utilisent pas Automation. Pour la programmation dans Visual Basic ou un autre langage d’automatisation, consultez l’objet [**CEnroll**](/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)) .
+L’interface **ISCrdEnr** représente le contrôle d’inscription de carte à puce. Il intéresse principalement les développeurs qui n’utilisent pas Automation. pour la programmation dans Visual Basic ou un autre langage d’automatisation, consultez l’objet [**CEnroll**](/previous-versions/windows/desktop/legacy/aa376007(v=vs.85)) .
 
 ## <a name="members"></a>Membres
 
@@ -39,7 +39,7 @@ L’interface **ISCrdEnr** possède ces méthodes.
 
 | Méthode                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                         |
 |:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**enroll**](/previous-versions/windows/desktop/legacy/aa386564(v=vs.85))                                         | Demande un certificat pour le compte de l’utilisateur et stocke le [*certificat*](../secgloss/c-gly.md) résultant sur la [*carte à puce*](../secgloss/s-gly.md)de l’utilisateur.<br/>                                                                                                                                                |
+| [**inscriptions**](/previous-versions/windows/desktop/legacy/aa386564(v=vs.85))                                         | Demande un certificat pour le compte de l’utilisateur et stocke le [*certificat*](../secgloss/c-gly.md) résultant sur la [*carte à puce*](../secgloss/s-gly.md)de l’utilisateur.<br/>                                                                                                                                                |
 | [**enumCAName**](iscrdenr-enumcaname.md)                                 | Énumère les noms des autorités de [*certification*](../secgloss/c-gly.md) (ca) pour un nom de modèle de certificat donné.<br/>                                                                                                                                                                                                       |
 | [**enumCertTemplateName**](iscrdenr-enumcerttemplatename.md)             | Énumère les noms de modèles de certificats.<br/>                                                                                                                                                                                                                                                                                                                                                               |
 | [**enumCSPName**](iscrdenr-enumcspname.md)                               | Énumère le nom des [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) disponibles.<br/>                                                                                                                                                                                                               |
@@ -85,7 +85,7 @@ L’interface **ISCrdEnr** possède les propriétés suivantes.
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

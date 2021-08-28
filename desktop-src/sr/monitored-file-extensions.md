@@ -1,21 +1,21 @@
 ---
 title: Extensions de nom de fichier surveillées
-description: Les extensions sont surveillées par la restauration du système dans Windows Vista et versions ultérieures.
+description: les Extensions sont surveillées par la restauration du système dans Windows Vista et versions ultérieures.
 ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
 keywords:
 - Restauration du système, référence, extensions de nom de fichier surveillées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6999d421f7c08b4369ddbf81a4d370ebf507021
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c12530fb48dba4c3f0cd3c26631682e065f14fb85dc302269a6337f5eff2ede7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774149"
 ---
 # <a name="monitored-file-name-extensions"></a>Extensions de nom de fichier surveillées
 
-La liste suivante répertorie les extensions de nom de fichier surveillées. Les fichiers avec ces extensions sont surveillés par la restauration du système dans Windows Vista et les versions ultérieures. Les fichiers qui sont surveillés ou exclus de la surveillance dans Windows XP sont spécifiés dans le fichier% windir% \\ system32 \\ restore \\Filelist.xml. Le Filelist.xml de fichiers n’existe pas dans Windows Vista et les versions ultérieures.
+La liste suivante répertorie les extensions de nom de fichier surveillées. les fichiers avec ces extensions sont surveillés par la restauration du système dans Windows Vista et versions ultérieures. les fichiers qui sont surveillés ou exclus de l’analyse dans Windows XP sont spécifiés dans le fichier% windir% \\ system32 \\ restore \\Filelist.xml. le Filelist.xml de fichiers n’existe pas dans Windows Vista et versions ultérieures.
 
 
 
@@ -173,7 +173,7 @@ DYNCMD<br />
 ECF<br />
 EFF<br />
 EFM<br />
-Numéro<br />
+EID<br />
 EL<br />
 ELM<br />
 FIN<br />
@@ -243,7 +243,7 @@ ICM<br />
 ICO<br />
 ICR<br />
 CONNEXION<br />
-id<br />
+ID<br />
 IDENTITÉ<br />
 IFA<br />
 ILF<br />
@@ -493,7 +493,7 @@ STF<br />
 Protocole<br />
 SWB<br />
 SYM<br />
-ATTAQUE<br />
+SYN<br />
 TABLE<br />
 T32<br />
 ÉTIQUETTE<br />
@@ -607,11 +607,11 @@ ZRW<br />
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

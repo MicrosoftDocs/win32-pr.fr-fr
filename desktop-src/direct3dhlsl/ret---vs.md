@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3b91a9f2fb30dbd243e29043a1655d441215bc75
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 6bec0356f2f1542da421a807598707e4857033c13cda2077d9281ac24e4fc3e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853769"
 ---
 # <a name="ret---vs"></a>RET-vs
 
@@ -29,9 +29,9 @@ Retour à partir d’une sous-routine ou d’une fonction main.
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -41,7 +41,7 @@ Retour à partir d’une sous-routine ou d’une fonction main.
 
 
 
- 
+ 
 
 Cette instruction prend l’adresse d’une instruction de la pile d’adresses de retour et poursuit son exécution. Dans le cas de la fonction main, cette instruction arrête l’exécution du nuanceur.
 
@@ -58,9 +58,9 @@ Plusieurs instructions return ne sont pas autorisées dans le programme principa
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b9437c7d6347da4bafae566386e09e4bc782bd16
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ad823cd9932e98f919764e57666549189623986eb173ba6b4ef74cdade21f33
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855358"
 ---
 # <a name="defb---ps"></a>defb-PS
 
@@ -29,14 +29,14 @@ Définit une valeur constante booléenne, qui doit être chargée à chaque fois
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   booleanValue est une valeur booléenne unique, true ou false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 L’instruction defb définit une constante de nuanceur booléenne dont la valeur est chargée chaque fois qu’un nuanceur est défini sur un appareil. Celles-ci sont appelées constantes immédiates. Les constantes immédiates sont prioritaires sur les constantes définies par la méthode d’API SetPixelShaderConstantB.
 
@@ -69,6 +69,6 @@ Il existe deux façons de définir un BooleanConstant dans un nuanceur.
 [DEFAUT-PS](defi---ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

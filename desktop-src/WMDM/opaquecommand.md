@@ -1,6 +1,6 @@
 ---
 title: OPAQUECOMMAND, structure
-description: La structure OPAQUECOMMAND contient des données pour les commandes qui sont transmises par le biais de Windows Media Gestionnaire de périphériques à un appareil, mais qui ne sont pas destinées à être traitées par Windows Media Gestionnaire de périphériques.
+description: la structure OPAQUECOMMAND contient des données pour les commandes qui sont transmises via Windows media Gestionnaire de périphériques à un appareil, mais qui ne sont pas censées être exploitées par Windows Gestionnaire de périphériques multimédia.
 ms.assetid: 5b39cf07-2816-4615-a754-e3f0c57bf4ce
 keywords:
 - Structure OPAQUECOMMAND Windows Media Gestionnaire de périphériques
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 672147cb99336f95a1ced88a3cc6b8df977aec74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76d3f0b94146262c480e7e510497111bf82f0c020001717cb0000ee4a88df440
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904009"
 ---
 # <a name="opaquecommand-structure"></a>OPAQUECOMMAND, structure
 
-La structure **OPAQUECOMMAND** contient des données pour les commandes qui sont transmises par le biais de windows media gestionnaire de périphériques à un appareil, mais qui ne sont pas destinées à être traitées par windows media gestionnaire de périphériques.
+la structure **OPAQUECOMMAND** contient des données pour les commandes qui sont transmises via Windows media Gestionnaire de périphériques à un appareil, mais qui ne sont pas censées être exploitées par Windows Gestionnaire de périphériques multimédia.
 
 ## <a name="syntax"></a>Syntaxe
 
