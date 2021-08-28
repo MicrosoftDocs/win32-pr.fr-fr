@@ -4,12 +4,12 @@ description: Le noyau d’automatisation de l’interface utilisateur de Microso
 ms.assetid: d047127c-1be2-4f34-bb97-330b5509ca0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82403a51e4848142a26194a98dce3922619b06f4
-ms.sourcegitcommit: 85688bbfbe5b121bc05ddf112d54c23a469dfbc0
+ms.openlocfilehash: 87f2671f3a39a16c99a0d28eeb8a3579f1684b04372c53e1199601bd02f2bcb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "103679530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117929549"
 ---
 # <a name="iaccessibleex-implementation-guidelines"></a>Instructions d’implémentation de IAccessibleEx
 
@@ -60,14 +60,14 @@ Bien que les propriétés AcceleratorKey et AccessKey UI Automation se chevauche
 | IsKeyboardFocusable    | accState, système d’État pouvant être [ **\_ \_ actif**](object-state-constants.md)                                                                                   |
 | IsPassword             | accState, [ **système d’état \_ \_ protégé**](object-state-constants.md)                                                                                   |
 | HelpText               | accHelp                                                                                                                                                                       |
-| Nom                   | accName                                                                                                                                                                       |
+| Name                   | accName                                                                                                                                                                       |
 | NativeWindowHandle     | [**WindowFromAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-windowfromaccessibleobject)                                                                                                              |
 | IsOffscreen            | accState, [**état \_ système état \_ invisible**](object-state-constants.md) / [**\_ système \_ hors écran**](object-state-constants.md) |
 | ProcessId              | Fourni par UI Automation Core                                                                                                                                                |
 
 
 
- 
+ 
 
 Pour toute propriété UI Automation non prise en charge, votre implémentation de la méthode [**IRawElementProviderSimple :: GetPropertyValue**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-getpropertyvalue) doit définir le paramètre *pRetVal* sur VT \_ vide et retourner S \_ OK. Le retour de [**UIA \_ E \_ NOTSUPPORTED**](uiauto-error-codes.md) peut entraîner la suppression du mappage par défaut de la propriété correspondante par le proxy MSAA-to-UIA.
 
@@ -84,7 +84,7 @@ Les modèles de contrôle UI Automation suivants ne se chevauchent pas avec les 
 -   Scroll
 -   ScrollItem
 -   SynchronizedInput
--   Table de charge de travail
+-   Table
 -   TableItem
 -   Transformer
 
@@ -105,7 +105,7 @@ Les modèles de contrôle UI Automation suivants ne sont pas requis lorsque le c
 
 
 
- 
+ 
 
 ## <a name="winevents-for-ui-automation-property-changed-events"></a>WinEvents pour les événements de modification de propriété UI Automation
 
@@ -138,7 +138,7 @@ En plus des événements définis pour [**IAccessible**](/windows/desktop/api/ol
 
 
 
- 
+ 
 
 Pour les événements ci-dessus qui ont une valeur d’objet d’événement \_ \_ figurant après eux, et l’implémentation de [**IAccessibleEx**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iaccessibleex) doit déclencher cet événement en plus de l’événement de modification indiqué. Cela permet au code client **IAccessibleEx** existant de continuer à fonctionner, tout en transqui transmet des informations d’événement plus granulaires aux clients intéressés.
 
@@ -152,9 +152,9 @@ Pour les événements ci-dessus qui ont une valeur d’objet d’événement \_ 
 [Interface IAccessibleEx](iaccessibleex.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 27bd0d8aa7580884a1b4bff6b38bf032cf39b5bd4d21f5330ff088560542c851
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 880a7454c46781b933647760316d8a881936f761
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119484709"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629191"
 ---
 # <a name="span-idvspixengineipixengine4_updateobject_uint_dword_byte_arrspanipixengine4updateobject-method"></a><span id="vspixengine.ipixengine4_updateobject_uint_dword_byte_arr"></span>IPixEngine4 :: UpdateObject, méthode
 
@@ -50,13 +50,13 @@ Taille de la charge utile de mise à jour en octets.
 *\_mémoire tampon count1*   
 Charge utile de mise à jour.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
 ## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span>Voir aussi
 

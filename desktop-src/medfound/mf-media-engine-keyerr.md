@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 22dd22a7771f5d1e9466709f0b0da9ee936ef2b9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5a3573f721f31ffbe3858c7d6fb3c713468bc347f04a1b5d85c5839a1e18511b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120113929"
 ---
 # <a name="mf_media_engine_keyerr-enumeration"></a>\_ \_ Énumération KEYERR du moteur multimédia MF \_
 
@@ -86,7 +86,7 @@ Une erreur s’est produite avec le domaine.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **MF \_ Le \_ \_ KEYERR du moteur multimédia** est utilisé avec le paramètre de *code* de [**IMFMediaKeySessionNotify :: keyerror**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediakeysessionnotify-keyerror) et la valeur de *code* retournée par [**IMFMediaKeySession :: GetError**](imfmediakeysession-geterror.md).
 
@@ -97,7 +97,7 @@ Une erreur s’est produite avec le domaine.
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                      |
 | MIDL<br/>                      | <dl> <dt>Mfmediaengine. idl</dt> </dl> |
 
 

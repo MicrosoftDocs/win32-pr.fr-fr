@@ -1,25 +1,25 @@
 ---
-title: Description (Windows Media Player SDK)
+title: Description (Lecteur Windows Media SDK)
 description: Description
 ms.assetid: 940ef0bf-d651-411a-b36d-99dcc01d8508
 keywords:
-- Windows Media Player Mobile Skins, section Description
+- Lecteur Windows Media Apparences mobiles, section Description
 - apparences, section Description
 - référence pour les apparences, section Description
 - Section Description dans les apparences
 - fichiers de définition d’apparence, section Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4a1b714fb917f9d13ee710509cfc5bf696e3eef
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 486ca5235939352ffabb924aaf38a706b436d4c1358a92b9aef4996614c53623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749956"
 ---
-# <a name="description-windows-media-player-sdk"></a>Description (Windows Media Player SDK)
+# <a name="description-windows-media-player-sdk"></a>Description (Lecteur Windows Media SDK)
 
-Quand vous créez une apparence pour Windows Media Player 9 Series pour Windows Mobile 2003 ou version ultérieure, vous devez inclure une section Description. La section Description vous permet de spécifier la largeur et la hauteur de l’affichage, la résolution d’affichage et l’orientation d’affichage pour laquelle l’apparence a été conçue. La section Description doit apparaître dans le fichier de définition d’apparence avant toute autre section, et juste après la déclaration de version initiale.
+quand vous créez une apparence pour Lecteur Windows Media série 9 pour Windows Mobile 2003 ou version ultérieure, vous devez inclure une section Description. La section Description vous permet de spécifier la largeur et la hauteur de l’affichage, la résolution d’affichage et l’orientation d’affichage pour laquelle l’apparence a été conçue. La section Description doit apparaître dans le fichier de définition d’apparence avant toute autre section, et juste après la déclaration de version initiale.
 
 La section Description du fichier de définition d’apparence doit commencer par la ligne suivante :
 
@@ -76,7 +76,7 @@ Le tableau suivant répertorie les valeurs que vous pouvez utiliser pour l’ori
  
 
 > [!Note]  
-> Le lecteur Windows Media 9 Series pour Windows Mobile 2003 affiche uniquement une apparence particulière lorsque la section Description spécifiée dans le fichier de définition d’apparence correspond à l’état actuel de l’appareil.
+> Lecteur Windows Media 9 Series pour Windows Mobile 2003 affiche uniquement une apparence particulière lorsque la section description spécifiée dans le fichier de définition d’apparence correspond à l’état actuel de l’appareil.
 
  
 

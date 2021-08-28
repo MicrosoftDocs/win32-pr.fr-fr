@@ -24,12 +24,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a31f076ddc6f9361be12a57dc60ada24ed75e4bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b8b7d55f973dc19c03182a4199b64f91f9de5a0774cc8c8f9d77d67eeb715c24
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103761851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422489"
 ---
 # <a name="win32_sessionbrokerfarmaccount-class"></a>\_Classe SessionBrokerFarmAccount Win32
 

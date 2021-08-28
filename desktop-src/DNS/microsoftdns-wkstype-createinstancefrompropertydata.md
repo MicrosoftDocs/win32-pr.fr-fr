@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e27b62bd2008c58d283d0e7564fa7821c452cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 892e0fbd6d39d794c074c5070ac6065d4be8a1b3ed5cd8e9d7610021589aa2b0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120109069"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_wkstype-class"></a>Méthode CreateInstanceFromPropertyData de la \_ classe MicrosoftDNS WKSType
 

@@ -4,12 +4,12 @@ ms.assetid: 9192ceb1-90c4-480e-9247-68d457976f42
 title: JobInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 929df4cb4871e5a8d2ebacfe533b5da3ad9babf3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: cf0226979ed714380a85bb803cfcfba6703e2ba74770dc4ac725aae4408ed208
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112459"
 ---
 # <a name="jobinputbin"></a>JobInputBin
 

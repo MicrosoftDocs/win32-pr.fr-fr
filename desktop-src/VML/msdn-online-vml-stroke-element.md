@@ -4,21 +4,21 @@ description: VML Stroke, élément
 ms.assetid: 300ecde5-f19d-4ff7-89a4-af9b8e82ae9d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62048227fca074276b825ceedb793eaa9a5d84dc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 34fa3b8293c8d540af47578ac522ff1cde179d8858c4f1e16aa95a0cd6e635e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513209"
 ---
 # <a name="vml-stroke-element"></a>VML Stroke, élément
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit un trait pour une forme.
 
@@ -29,7 +29,7 @@ Les attributs suivants modifient un trait.
 | Attribut                                                          | Description                                                   |
 |--------------------------------------------------------------------|---------------------------------------------------------------|
 | [AltHRef](althref-attribute--stroke--vml.md)                      | Spécifie une autre référence pour un trait.                |
-| [Color](color-attribute--stroke--vml.md)                          | Définit la couleur d’un trait.                                |
+| [Couleur](color-attribute--stroke--vml.md)                          | Définit la couleur d’un trait.                                |
 | [Couleur2](color2-attribute--stroke--vml.md)                        | Définit une deuxième couleur pour un trait.                          |
 | [DashStyle](msdn-online-vml-dashstyle-attribute.md)               | Spécifie le motif de point et de tiret pour un trait.              |
 | [EndArrow](msdn-online-vml-endarrow-attribute.md)                 | Définit un style de flèche pour la fin d’un trait.           |
@@ -56,7 +56,7 @@ Les attributs suivants modifient un trait.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -79,6 +79,6 @@ Le code suivant montre comment l’élément **Stroke** peut être utilisé pour
 -   [Exemple de trait simple](/previous-versions/bb229466(v=vs.85))
 -   [Exemple d’image de trait](/previous-versions/bb229468(v=vs.85))
 
- 
+ 
 
- 
+ 

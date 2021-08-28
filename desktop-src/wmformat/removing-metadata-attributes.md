@@ -9,12 +9,12 @@ keywords:
 - métadonnées, supprimer des attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25b10176452dcc78cc3eca898b61c350a157e568
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0e09e00fbba8ca5464ccec570a03bbd4e30935238bc531d36ce220a60150839e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104381687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110209"
 ---
 # <a name="removing-metadata-attributes"></a>Supprimer des attributs de métadonnées
 
@@ -25,7 +25,7 @@ Pour faciliter la suppression des valeurs, la méthode [**IWMHeaderInfo3 :: Get
 > [!Note]  
 > Les valeurs d’index obtenues à l’aide des méthodes de [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) ne sont pas compatibles avec les valeurs d’index obtenues à l’aide des méthodes de [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo). Si vous utilisez les méthodes d’une interface pour modifier les attributs d’un fichier, vous devez supposer que toutes les valeurs d’index précédemment récupérées à partir de l’autre interface ne sont plus valides et doivent être retirées. Vous devez éviter d’utiliser les méthodes de **IWMHeaderInfo** si possible.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -34,9 +34,9 @@ Pour faciliter la suppression des valeurs, la méthode [**IWMHeaderInfo3 :: Get
 [**Utilisation des métadonnées**](working-with-metadata.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

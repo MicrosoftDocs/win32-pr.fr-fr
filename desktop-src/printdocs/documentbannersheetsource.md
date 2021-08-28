@@ -4,12 +4,12 @@ ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: DocumentBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d33aa949982e98781c42cbf6aa770dbd4e3d1707
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 13d818e657ceaa2298dccc9c557aa56ec94026146b4bc3db95cb731cacb2d947
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112529"
 ---
 # <a name="documentbannersheetsource"></a>DocumentBannerSheetSource
 
@@ -28,7 +28,7 @@ Spécifie la source d’une feuille de bannière personnalisée.
 |----------------------------|--------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                          |
 | Préfixe d’étendue <br/> | Document<br/>                              |
-| Notes <br/>          | Lié à l’élément DocumentBannerSheet<br/> |
+| Remarques <br/>          | Lié à l’élément DocumentBannerSheet<br/> |
 
 
 

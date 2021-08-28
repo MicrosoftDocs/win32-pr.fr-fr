@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre LegacySecureReferences COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2776bf3661013f1e622bbc2e1c553f2551c62808
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef3a4ab964d73fa4b194c734f28c23ff068239370088c090051464129b6caf14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736546"
 ---
 # <a name="legacysecurereferences"></a>LegacySecureReferences
 
@@ -21,10 +21,10 @@ Détermine si les / appels de **version** de AddRef sont sécurisés pour les ap
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   LegacySecureReferences = value
+   LegacySecureReferences = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** . La valeur « Y » ou « y » indiquent que **AddRef** et **Release** sont sécurisés. Si cette valeur de Registre est absente ou est définie sur une valeur autre que « Y » ou « y », **AddRef** et **Release** ne sont pas sécurisés. L’activation de références sécurisées ralentit les appels distants.
 
@@ -38,9 +38,9 @@ Il s’agit d’une valeur de **reg \_ SZ** . La valeur « Y » ou « y » i
 [Définition de la sécurité au niveau du processus](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

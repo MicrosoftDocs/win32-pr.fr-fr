@@ -3,7 +3,7 @@ title: ContextPopup. MiniToolbars, propriété
 description: Représente un conteneur pour les éléments MiniToolbar.
 ms.assetid: 5c17e070-0520-44e6-a066-476107691205
 keywords:
-- Ruban Windows de la propriété ContextPopup. MiniToolbars
+- ContextPopup. MiniToolbars, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee1e85e6b170b4b7408a17687bd26725e9183161
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18f4a083d894f798d83bd153fe74b9fb0560e2fbdb8132ec7874db0a2e533824
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772129"
 ---
 # <a name="contextpopupminitoolbars-property"></a>ContextPopup. MiniToolbars, propriété
 
 Représente un conteneur pour les éléments [**MiniToolbar**](windowsribbon-element-minitoolbar.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ContextPopup.MiniToolbars>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ContextPopup**](windowsribbon-element-contextpopup.md).
 
@@ -160,8 +160,8 @@ Cette section de code illustre la déclaration de contrôle **ContextPopup. Mini
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

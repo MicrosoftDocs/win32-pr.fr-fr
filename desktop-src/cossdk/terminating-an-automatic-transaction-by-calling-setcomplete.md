@@ -4,12 +4,12 @@ ms.assetid: 5bd06cfd-1ee0-48ac-84ab-3737d76bccc0
 title: Fin d’une transaction automatique en appelant SetComplete
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba4bf09e631acf69a9b663d68d7eb82cfaa4490f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d1d84d18b45309d750864d514728b8e23a3326e5edeba0bf144105bcbaa4797
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119499659"
 ---
 # <a name="terminating-an-automatic-transaction-by-calling-setcomplete"></a>Fin d’une transaction automatique en appelant SetComplete
 
@@ -17,7 +17,7 @@ Pour utiliser efficacement les transactions automatiques, chaque composant trans
 
 La méthode la plus efficace pour effectuer une transaction automatique consiste à désactiver explicitement l’objet racine à l’aide de la méthode [**SetComplete**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete) . En indiquant explicitement qu’un objet racine a terminé son travail, vous pouvez réduire la longueur de la transaction.
 
-L’exemple de Visual Basic suivant montre comment indiquer qu’un objet transactionnel a terminé son travail :
+l’exemple de Visual Basic suivant montre comment indiquer qu’un objet transactionnel a terminé son travail :
 
 
 ```VB

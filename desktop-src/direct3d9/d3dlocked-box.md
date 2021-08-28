@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 41fc5b0fd81405f9f12f65fca4fae53239110bfa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: deb83c71eb9fe9fa5c69667e6dc48187144fa5c18e1daf084e4a04c1fd213744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750989"
 ---
 # <a name="d3dlocked_box-structure"></a>\_Structure de la boîte de D3DLOCKED
 
@@ -74,7 +74,7 @@ Pointeur vers le début de la zone de volume. Si un [**D3DBOX**](d3dbox.md) a é
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les volumes peuvent être visualisés comme étant organisés en secteurs de surfaces 2D de largeur x hauteur empilées pour créer un volume de profondeur x hauteur x profondeur. Pour plus d’informations, consultez [ressources de texture de volume (Direct3D 9)](volume-texture-resources.md).
 

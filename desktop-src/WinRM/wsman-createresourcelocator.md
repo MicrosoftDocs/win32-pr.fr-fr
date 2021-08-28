@@ -5,8 +5,8 @@ ms.assetid: 1b04fe11-ec90-4374-9838-a0df313b722e
 ms.tgt_platform: multiple
 keywords:
 - Windows Remote Management de la méthode CreateResourceLocator
-- Méthode CreateResourceLocator Windows Remote Management, objet WSMan
-- Objet WSMan Windows Remote Management, méthode CreateResourceLocator
+- méthode CreateResourceLocator Windows Remote Management, objet WSMan
+- objet WSMan Windows Remote Management, méthode CreateResourceLocator
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6982d1ea0b257ca9276918931ce233e675fd3eb3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2d78276f40ee6e2e1aff10f17bc9f41bb1d1e4aa32cde68a41842c5cee8b95bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117742611"
 ---
 # <a name="wsmancreateresourcelocator-method"></a>Méthode WSMan. CreateResourceLocator
 
@@ -54,7 +54,7 @@ URI de ressource pour la ressource. Pour plus d’informations sur les chaînes 
 
 Objet [**ResourceLocator**](resourcelocator.md) qui peut ensuite être utilisé pour effectuer des opérations WinRM locales ou distantes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété **FragmentDialect** n’est pas spécifiée dans l’objet [**ResourceLocator**](resourcelocator.md) , la valeur par défaut est la spécification XPath 1,0. Pour plus d’informations, consultez [https://www.w3.org/TR/xpath](https://www.w3.org/TR/xpath).
 

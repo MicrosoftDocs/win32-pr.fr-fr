@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: bbe610c27d83061bda0996ce9acc082efa95e3a7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c65e906529e8afa11f2a16a1171c1d4a7c31ae29bac70d8200997b7a7b88a131
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108939"
 ---
 # <a name="ntgdiddupdateoverlay-function"></a>NtGdiDdUpdateOverlay fonction)
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 538aa9f6d5a7cde15abf9a6720e0aa919120da56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 607a39cb09ce13719bb2949a7dacbe6c7368bb575285549f89e74431881c2e11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071421"
 ---
 # <a name="snapshotabortgrbit-enumeration"></a>Énumération SnapshotAbortGrbit
 
@@ -70,7 +70,7 @@ public enum SnapshotAbortGrbit
 <tbody>
 <tr class="odd">
 <td></td>
-<td>Aucune</td>
+<td>None</td>
 <td>Options par défaut.</td>
 </tr>
 </tbody>

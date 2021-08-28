@@ -3,19 +3,19 @@ title: BUTTON, élément (WMP)
 description: BUTTON, élément
 ms.assetid: 2818ff6a-4fc5-4150-9ff9-ff143feb9204
 keywords:
-- Apparences du lecteur Windows Media, élément BUTTON
+- apparences de Lecteur Windows Media, élément BUTTON
 - apparences, élément BUTTON
 - BUTTON, élément
 - informations de référence sur les apparences, élément BUTTON
 - éléments, BUTTON
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c069207e15be62e06b4d2b18f13c052026932dc
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: 13ca4e57dafdc01fc194c4cf4bc534e067297a58fcc2527939e3672f2d705628
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "103679270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119736729"
 ---
 # <a name="button-element"></a>BUTTON, élément
 
@@ -42,7 +42,7 @@ L’élément **Button** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **Button** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -62,14 +62,14 @@ Les boutons prédéfinis sont des éléments de **bouton** normal avec différen
 | [PLAYBUTTON](playbutton.md)         | **Bouton** avec un appel intégré à **Player. Controls. Play** quand l’utilisateur clique dessus.        |
 | [PREVBUTTON](prevbutton.md)         | **Bouton** avec un appel intégré à **Player. Controls. Previous** lorsque vous cliquez dessus.    |
 | [REPEATBUTTON](repeatbutton.md)     | **Bouton** qui active l’option de répétition.                                       |
-| [RETURNBUTTON](returnbutton.md)     | **Bouton** qui retourne le lecteur Windows Media au Media Center.                |
+| [RETURNBUTTON](returnbutton.md)     | **bouton** qui retourne Lecteur Windows Media au Media center.                |
 | [REWBUTTON](rewbutton.md)           | **Bouton** avec un appel intégré à **Player. Controls. fastReverse** lorsque vous cliquez dessus. |
 | [SHUFFLEBUTTON](shufflebutton.md)   | **Bouton** qui active l’option de lecture aléatoire.                                      |
 | [STOPBUTTON](stopbutton.md)         | **Bouton** avec un appel intégré à **Player. Controls. Stop** lorsque vous cliquez dessus.        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -78,9 +78,9 @@ Les boutons prédéfinis sont des éléments de **bouton** normal avec différen
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

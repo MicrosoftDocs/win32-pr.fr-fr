@@ -4,12 +4,12 @@ ms.assetid: 8b0d86ad-2f8b-4f5e-a8a6-839cb8dba4d8
 title: Provider-Specific mécanisme d’extension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e58a8bba3c83e7dbf973ff8fe5b7d91c1065cfc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed627aefdfefda2bf4b395098f6680086fd37dd7a302d977d9bf238f77d89d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733569"
 ---
 # <a name="provider-specific-extension-mechanism"></a>Provider-Specific mécanisme d’extension
 
@@ -19,7 +19,7 @@ Pour appeler une fonction d’extension, l’application doit d’abord demander
 
 Les identificateurs assignés aux fonctions d’extension sont des identificateurs globaux uniques (GUID) qui sont alloués par les fournisseurs de fournisseurs de services. Les fournisseurs qui créent des fonctions d’extension sont invités à publier des détails complets sur la fonction, y compris la syntaxe du prototype de fonction. Cela permet à plusieurs fournisseurs de fournisseurs de services d’offrir des fonctions d’extension communes et populaires. Une application peut obtenir le pointeur de fonction et utiliser la fonction sans avoir à connaître le fournisseur de services qui implémente la fonction.
 
-Sur Windows Vista et versions ultérieures, les nouvelles extensions système Winsock sont exportées directement à partir de la DLL WinSock. la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) n’est donc pas nécessaire pour charger ces extensions. Les nouvelles fonctions d’extension disponibles sur Windows Vista et les versions ultérieures incluent les fonctions [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) et [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) exportées à partir de *Ws2 \_32.dll*.
+sur Windows Vista et versions ultérieures, les nouvelles extensions système winsock sont exportées directement à partir de la DLL winsock. la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) n’est donc pas nécessaire pour charger ces extensions. les nouvelles fonctions d’extension disponibles sur Windows Vista et versions ultérieures incluent les fonctions [**WSAPoll**](/windows/win32/api/winsock2/nf-winsock2-wsapoll) et [**WSASendMsg**](/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg) exportées à partir de *Ws2 \_32.dll*.
 
  
 

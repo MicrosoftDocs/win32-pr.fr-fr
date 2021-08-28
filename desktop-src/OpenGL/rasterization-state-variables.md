@@ -1,6 +1,6 @@
 ---
-title: Variables d’état de pixellisation
-description: Variables d’état de pixellisation
+title: Rastérisation, variables d’état
+description: Rastérisation, variables d’état
 ms.assetid: 57ce3dc0-3983-449a-bbe1-153232727ff8
 keywords:
 - Variables d’état de pixellisation OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6210f93c23dc52f19f3e01ea01ebe8fc9d631c8c
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1586861eee26f93bca85b8c0f03e9f746e983046bbda755b67a792d65d660b53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776889"
 ---
-# <a name="rasterization-state-variables"></a>Variables d’état de pixellisation
+# <a name="rasterization-state-variables"></a>Rastérisation, variables d’état
 
 <dl> <dt><span id="GL_POINT_SIZE"></span><span id="gl_point_size"></span>\_taille du point GL \_</dt> <dd> 
 

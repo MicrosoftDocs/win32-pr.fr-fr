@@ -17,12 +17,12 @@ keywords:
 - disques OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab766c661f89cbdec30b3295dfef8dc85b59f7fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4010a9cc1c0cfac58f1a99572ebae43233dce552237c17f42d66cc1c50013986
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776829"
 ---
 # <a name="rendering-simple-surfaces"></a>Rendu de surfaces simples
 
@@ -45,9 +45,9 @@ La bibliothèque GLU comprend un ensemble de fonctions permettant de dessiner di
 
 Utilisez les arguments *\* RADIUS*, *Height* et similaires plutôt que la fonction [**glScale**](glscale.md) pour mettre à l’échelle les Quadrics, afin de ne pas avoir à renormaliser les normales de longueur d’unité générées. Pour forcer les calculs d’éclairage à une granularité plus fine, en particulier si le matériau specularity est élevé, affectez aux *boucles* et aux arguments des *piles* des valeurs autres que 1.
 
- 
+ 
 
- 
+ 
 
 
 

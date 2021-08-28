@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ab92f375f082d3af1f04b3fe52db5cb7964e3d4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48fa52d97e58e421442c77f1503e72bb6a3d793e35a4d1dbd12624bffdbcd9d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119746199"
 ---
 # <a name="revokeinteractivesessionaccess-method-of-the-msvm_terminalservice-class"></a>Méthode RevokeInteractiveSessionAccess de la \_ classe TerminalService MSVM
 
@@ -51,7 +51,7 @@ Référence à une instance de la classe [**CIM \_ CIM**](cim-computersystem.md)
 *Des approbations* \[ dans\]
 </dt> <dd>
 
-Tableau de chaînes, chacune identifiant un tiers de confiance dont les droits d’accès seront révoqués. Les identificateurs de tiers de confiance doivent être spécifiés au format compatible SAM Windows ou au format de chaîne SID Windows.
+Tableau de chaînes, chacune identifiant un tiers de confiance dont les droits d’accès seront révoqués. les identificateurs de tiers de confiance doivent être spécifiés dans Windows format compatible SAM ou Windows format de chaîne SID.
 
 </dd> <dt>
 
@@ -107,8 +107,8 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

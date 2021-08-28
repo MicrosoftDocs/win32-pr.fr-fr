@@ -4,16 +4,16 @@ description: Les constantes ci-dessous représentent des valeurs de retour que l
 ms.assetid: 68AC4581-C748-49AB-A588-15816E534756
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e58d66587061cc44fc441249407b73653153322
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e16dc435fa22268d92c4403709a5444b1b87e325d66429da853844fd7f836b40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101850"
 ---
 # <a name="do-return-values"></a>Valeurs retournées
 
-Les constantes ci-dessous représentent des valeurs de retour que l’optimisation de remise (DO) génère et des valeurs de retour HTTP qui EFFECTUEnt des captures. Toutes les autres valeurs de retour que vous pouvez recevoir sont COM, RPC ou les valeurs de retour Windows converties (utilisez la macro [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir les valeurs de retour Windows en valeurs HRESULT).
+Les constantes ci-dessous représentent des valeurs de retour que l’optimisation de remise (DO) génère et des valeurs de retour HTTP qui EFFECTUEnt des captures. toutes les autres valeurs de retour que vous pouvez recevoir sont COM, RPC, ou converties Windows les valeurs de retour (utilisez la macro [HRESULT_FROM_WIN32](/windows/win32/api/winerror/nf-winerror-hresult_from_win32) pour convertir les valeurs de retour Windows en valeurs HRESULT).
 
 <dl> <dt>
 
@@ -171,6 +171,6 @@ Erreur irrécupérable rencontrée dans le noyau.
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

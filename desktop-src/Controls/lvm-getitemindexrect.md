@@ -3,7 +3,7 @@ title: Message LVM_GETITEMINDEXRECT (commctrl. h)
 description: Récupère le rectangle englobant pour l’intégralité ou une partie d’un sous-élément dans l’affichage actuel d’un contrôle List View. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetItemIndexRect.
 ms.assetid: 17704d24-c029-4d41-b198-04d1e78698e0
 keywords:
-- LVM_GETITEMINDEXRECT les contrôles de message Windows
+- LVM_GETITEMINDEXRECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ccd114713326c4796ca69f56fc2c38daf145db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91aa3e6d0420bfddb974d13f210c84241cefc5d79f0ee5a82920bdc2961879dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770369"
 ---
 # <a name="lvm_getitemindexrect-message"></a>\_Message GETITEMINDEXRECT LVM
 
@@ -65,8 +65,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bc79ffd0717ac0949103a05d1bcdaa96da48d7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c31b3b91cf75687d82e02e3b97c78dd0e40f724756b609a3e2b60c73812ee5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119512309"
 ---
 # <a name="ivmguestosproducttype-property"></a>IVMGuestOS ::P propriété roductType
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère le type de produit du système d’exploitation invité en cours d’exécution sur l’ordinateur virtuel.
 
@@ -51,9 +51,9 @@ Type de produit. Les valeurs de chaîne suivantes sont prises en charge.
 
 | Valeur                                                                                  | Signification                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>"0x0000002"</dt> </dl> | Le système est un contrôleur de domaine et le système d’exploitation est Windows Server 2008 R2, Windows Server 2008, Windows Server 2003 R2, Windows Server 2003 ou Windows 2000 Server.<br/>                                                                                                   |
-| <dl> <dt>"0x0000003"</dt> </dl> | Le système d’exploitation est Windows Server 2008 R2, Windows Server 2008, Windows Server 2003 R2, Windows Server 2003 ou Windows 2000 Server.<br/> Notez qu’un serveur qui est également un contrôleur de domaine est signalé en tant que **\_ \_ \_ contrôleur de domaine NT**, pas **ver \_ NT \_ Server**.<br/> |
-| <dl> <dt>"0x0000001"</dt> </dl> | Le système d’exploitation est Windows 7, Windows Vista, Windows XP ou Windows 2000 professionnel.<br/>                                                                                                                                                                                       |
+| <dl> <dt>"0x0000002"</dt> </dl> | le système est un contrôleur de domaine et le système d’exploitation est Windows server 2008 r2, Windows server 2008, Windows server 2003 r2, Windows server 2003 ou Windows 2000 server.<br/>                                                                                                   |
+| <dl> <dt>"0x0000003"</dt> </dl> | le système d’exploitation est Windows server 2008 r2, Windows server 2008, Windows server 2003 r2, Windows server 2003 ou Windows 2000 server.<br/> Notez qu’un serveur qui est également un contrôleur de domaine est signalé en tant que **\_ \_ \_ contrôleur de domaine NT**, pas **ver \_ NT \_ Server**.<br/> |
+| <dl> <dt>"0x0000001"</dt> </dl> | le système d’exploitation est Windows 7, Windows Vista, Windows XP ou Windows 2000 Professional.<br/>                                                                                                                                                                                       |
 
 
 
@@ -65,7 +65,7 @@ Type de produit. Les valeurs de chaîne suivantes sont prises en charge.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

@@ -3,7 +3,7 @@ title: Implémentation de IMediaObject AllocateStreamingResources
 description: Implémentation de IMediaObject AllocateStreamingResources
 ms.assetid: 630550fe-2cca-4bfa-a824-a355f7fc5e02
 keywords:
-- Plug-ins du lecteur Windows Media, exemples de ressources de streaming d’écho
+- plug-ins Lecteur Windows Media, ressources de streaming d’exemples Echo
 - plug-ins, exemples de ressources de streaming
 - plug-ins de traitement de signal numérique, exemples de ressources de streaming d’écho
 - Plug-ins DSP, exemples de ressources de streaming
@@ -11,12 +11,12 @@ keywords:
 - Echo DSP, exemple de plug-in, tampon de délai
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f1e347e35eaabbcbcc00a586e4cba0d8ad31cc6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 291b1f9627d9dfb78ae2aff9d34b6fadd47cbf28a5c2f0830f5833d9e83cde21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119508959"
 ---
 # <a name="implementing-imediaobjectallocatestreamingresources"></a>Implémentation de IMediaObject :: AllocateStreamingResources
 
@@ -30,7 +30,7 @@ La valeur de silence est différente selon la profondeur de bit. Pour le son 8 b
 
 ## <a name="calculating-the-delay-buffer-size"></a>Calcul de la taille de la mémoire tampon de délai
 
-Pour calculer la taille requise pour la mémoire tampon de délai, vous devez d’abord récupérer une structure **WAVEFORMATEX** qui contient des informations sur les données audio. L’exemple suivant récupère un pointeur vers cette structure à partir de la structure de **\_ \_ type de média DMO** d’entrée :
+Pour calculer la taille requise pour la mémoire tampon de délai, vous devez d’abord récupérer une structure **WAVEFORMATEX** qui contient des informations sur les données audio. l’exemple suivant récupère un pointeur vers cette structure à partir de l’entrée DMO structure du **\_ \_ TYPE de média** :
 
 
 ```
@@ -147,9 +147,9 @@ AllocateStreamingResources();
 [**Utilisation des ressources de streaming**](working-with-streaming-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,9 +3,9 @@ title: Méthode IWMPMediaCollection2 getStringCollectionByQuery
 description: La méthode getStringCollectionByQuery retourne une interface IWMPStringCollection qui fournit l’accès à l’ensemble de toutes les valeurs de chaîne pour un attribut spécifié qui correspondent aux conditions de la requête.
 ms.assetid: 2d3b29af-0b6c-4405-8334-9a47a30ff6de
 keywords:
-- méthode getStringCollectionByQuery lecteur Windows Media
-- méthode getStringCollectionByQuery lecteur Windows Media, interface IWMPMediaCollection2
-- Interface IWMPMediaCollection2 lecteur Windows Media, méthode getStringCollectionByQuery
+- Lecteur Windows Media de la méthode getStringCollectionByQuery
+- méthode getStringCollectionByQuery Lecteur Windows Media, interface IWMPMediaCollection2
+- Lecteur Windows Media de l’interface IWMPMediaCollection2, méthode getStringCollectionByQuery
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 322781bc9ddec3e6f8d74d7229f16ce38e519f05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 054dd5b76cb6dcf3e6cb29ba624cd1f5c0f281d69c4b2b5e5125f5de9b4e7b04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745967"
 ---
 # <a name="iwmpmediacollection2getstringcollectionbyquery-method"></a>IWMPMediaCollection2 :: getStringCollectionByQuery, méthode
 
@@ -100,7 +100,7 @@ Valeur **System. Boolean** qui indique si l’ensemble de valeurs de chaîne doi
 
 Interface **wmplib. IWMPStringCollection** pour le jeu récupéré de valeurs de chaîne.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les requêtes composées utilisant **IWMPQuery** ne respectent pas la casse.
 

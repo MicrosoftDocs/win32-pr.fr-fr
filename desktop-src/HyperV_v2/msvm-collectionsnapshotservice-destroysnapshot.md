@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 399737a95db7725718b2e0ec620d2b6b7a7ae93e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bacdb760580057516b6663bf53f5cd02a83f76148fa782ab875ca7385c053cb4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431492"
 ---
 # <a name="destroysnapshot-method-of-the-msvm_collectionsnapshotservice-class"></a>Méthode DestroySnapshot de la \_ classe CollectionSnapshotService MSVM
 
@@ -99,7 +99,7 @@ En cas de réussite, retourne 0 (terminé) ou 4096 (travail démarré); Sinon, r
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

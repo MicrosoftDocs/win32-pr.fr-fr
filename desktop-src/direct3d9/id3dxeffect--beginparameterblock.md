@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 60a43304c8e0e3d64ac6469c1c075c57b5411e3a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b7345a045d152d5637b656bf4e9090b9645baf33645905e5e956737a1e6ede30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119494279"
 ---
 # <a name="id3dxeffectbeginparameterblock-method"></a>ID3DXEffect :: BeginParameterBlock, méthode
 
@@ -44,7 +44,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’état du paramètre d’effet de capture change jusqu’à ce que EndParameterBlock soit appelé. Les paramètres Effects incluent toutes les modifications d’État en dehors d’une passe. Supprimez les blocs de paramètres s’ils ne sont plus nécessaires en appelant DeleteParameterBlock.
 

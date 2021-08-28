@@ -19,12 +19,12 @@ keywords:
 - implémenter des fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7fafbb9d03a25eb2e4713330c0622c25d17f9ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 583b9a5f91bb8be53a3e8b0e356ce558978b8ea28d5b726b56f52420cd7bff37
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413439"
 ---
 # <a name="implement-a-server-side-ui-automation-provider"></a>Implémenter un fournisseur UI Automation Server-Side
 
@@ -56,12 +56,12 @@ Les interfaces COM (Component Object Model) suivantes fournissent des fonctionna
 
 
 
- 
+ 
 
 > [!Note]  
 > Dans l’API UI Automation pour le code managé, ces interfaces forment une hiérarchie d’héritage. Ce n’est pas le cas en C++, où les interfaces sont complètement séparées.
 
- 
+ 
 
 Les interfaces suivantes fournissent des fonctionnalités supplémentaires, mais l’implémentation est facultative.
 
@@ -74,7 +74,7 @@ Les interfaces suivantes fournissent des fonctionnalités supplémentaires, mais
 
 
 
- 
+ 
 
 ## <a name="required-functionality-for-ui-automation-providers"></a>Fonctionnalités requises pour les fournisseurs UI Automation
 
@@ -93,7 +93,7 @@ Pour communiquer avec UI Automation, votre contrôle doit implémenter les princ
 
 
 
- 
+ 
 
 ## <a name="property-values"></a>Valeurs de la propriété
 
@@ -114,7 +114,7 @@ En règle générale, les fournisseurs pour les contrôles basés sur des fenêt
 
 La propriété RuntimeId d’un élément simple ou d’une racine de fragment hébergée dans une fenêtre est obtenue à partir de la fenêtre. Toutefois, les éléments fragments situés sous la racine, tels que les éléments de liste dans une zone de liste, doivent fournir leurs propres identificateurs. Pour plus d’informations, consultez [**IRawElementProviderFragment :: GetRuntimeId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-getruntimeid).
 
-La propriété IsKeyboardFocusable doit être retournée pour les fournisseurs hébergés dans un contrôle Windows Forms. Dans ce cas, le fournisseur de fenêtre par défaut ne pourra peut-être pas récupérer la bonne valeur.
+la propriété IsKeyboardFocusable doit être retournée pour les fournisseurs hébergés dans un contrôle Windows Forms. Dans ce cas, le fournisseur de fenêtre par défaut ne pourra peut-être pas récupérer la bonne valeur.
 
 La propriété Name est généralement fournie par le fournisseur hôte.
 
@@ -132,7 +132,7 @@ Les fournisseurs UI Automation doivent déclencher des événements pour informe
 
 
 
- 
+ 
 
 L’objectif d’un événement est d’informer le client d’un événement qui se produit dans l’interface utilisateur. Les fournisseurs doivent déclencher un événement que la modification ait été déclenchée par l’utilisateur ou par une application cliente à l’aide d’UI Automation. Par exemple, l’événement identifié par [**UIA \_ Invoke \_ InvokedEventId**](uiauto-event-ids.md) doit être déclenché chaque fois que le contrôle est appelé, via une entrée d’utilisateur directe ou par l’application cliente appelant [**IUIAutomationInvokePattern :: Invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke).
 
@@ -147,12 +147,12 @@ Pour optimiser les performances, un fournisseur peut déclencher des événement
 
 
 
- 
+ 
 
 > [!Note]  
 > À l’instar de l’implémentation du décompte de références dans la programmation COM, il est important que les fournisseurs UI Automation traitent les méthodes [**IRawElementProviderAdviseEvents :: AdviseEventAdded**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventadded) et [**AdviseEventRemoved**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovideradviseevents-adviseeventremoved) comme les méthodes [**IUnknown :: AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) et [**Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) de l’interface [**IUnknown**](/windows/desktop/api/unknwn/nn-unknwn-iunknown) . Tant que **AdviseEventAdded** a été appelé plus de fois que **AdviseEventRemoved** pour un événement ou une propriété spécifique, le fournisseur doit continuer à déclencher des événements correspondants, car certains clients continuent d’écouter. Les fournisseurs UI Automation peuvent également utiliser la fonction [**UiaClientsAreListening**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiaclientsarelistening) pour déterminer si au moins un client écoute et, le cas échéant, déclencher tous les événements appropriés.
 
- 
+ 
 
 ## <a name="provider-navigation"></a>Navigation du fournisseur
 
@@ -161,7 +161,7 @@ Les fournisseurs pour les contrôles simples, tels qu’un bouton personnalisé 
 > [!Note]  
 > Les éléments d’un fragment autre que la racine doivent retourner la **valeur null** à partir de [**HostRawElementProvider**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementprovidersimple-get_hostrawelementprovider), car ils ne sont pas hébergés directement dans une fenêtre et aucun fournisseur par défaut ne peut prendre en charge la navigation vers et à partir de ceux-ci.
 
- 
+ 
 
 La structure du fragment est déterminée par votre implémentation de [**IRawElementProviderFragment :: Navigate**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-irawelementproviderfragment-navigate). Pour chaque direction possible à partir de chaque fragment, cette méthode retourne l'objet fournisseur de l'élément dans cette direction. S’il n’y a aucun élément dans cette direction, la méthode retourne la **valeur null**.
 
@@ -205,6 +205,6 @@ De même, une application doit utiliser la fonction [**UiaDisconnectAllProviders
 [Guide du programmeur du fournisseur UI Automation](uiauto-providerportal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

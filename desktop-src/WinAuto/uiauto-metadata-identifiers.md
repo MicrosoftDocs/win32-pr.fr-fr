@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e55f919635303d28819d79e1491478904733f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa3942fa4001390fec952744279f687234b70244cf9b6226a6595f6d5d41784a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745039"
 ---
 # <a name="metadata-identifiers"></a>Identificateurs de métadonnées
 
@@ -44,8 +44,8 @@ Identifie les métadonnées qui indiquent comment une chaîne doit être interpr
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1703 \[ uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1703 \[ uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                            |
 | En-tête<br/>                   | <dl> <dt>UIAutomationClient. h</dt> </dl> |
 
 

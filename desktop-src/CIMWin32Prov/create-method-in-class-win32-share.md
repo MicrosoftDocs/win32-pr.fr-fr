@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d7a74838d9f6c532d3433240a5b8a70846b63776
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 582e255223b6eb971fd447c7884ff730662a1b344c107791b1a57a074c2c1354
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504769"
 ---
 # <a name="create-method-of-the-win32_share-class"></a>Créer une méthode de la \_ classe de partage Win32
 
@@ -51,7 +51,7 @@ uint32 Create(
 *Chemin d’accès* \[ dans\]
 </dt> <dd>
 
-Chemin d’accès local du partage Windows.
+chemin d’accès Local du partage de Windows.
 
 Par exemple, « C : \\ Program Files ».
 
@@ -60,7 +60,7 @@ Par exemple, « C : \\ Program Files ».
 *Nom* \[ dans\]
 </dt> <dd>
 
-Transmet l’alias à un chemin d’accès configuré en tant que partage sur un système informatique exécutant Windows.
+Transmet l’alias à un chemin d’accès configuré en tant que partage sur un système d’ordinateur exécutant Windows.
 
 Exemple : « public ».
 
@@ -198,7 +198,7 @@ Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute aut
 **Autre** (26 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Create** est une méthode statique.
 

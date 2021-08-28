@@ -3,7 +3,7 @@ title: Message DRV_REMOVE (mmsystem. h)
 description: Indique au pilote qu’il va être supprimé du système. Lorsqu’un pilote reçoit ce message, il doit supprimer toutes les sections qu’il a créées dans le registre.
 ms.assetid: e4f6ce7c-29e5-4256-b08a-13571256207c
 keywords:
-- Message DRV_REMOVE Windows Multimedia
+- message DRV_REMOVE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccfc94d648f83e618a20323ed7bbe3694616bc06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c08302d69e934ec77908b247f3c8f6368de8de4eab36809b6102b74858adde5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496419"
 ---
 # <a name="drv_remove-message"></a>DRV \_ supprimer le message
 
@@ -47,7 +47,7 @@ Handle de l’instance du pilote installable.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 
@@ -59,7 +59,7 @@ Les paramètres *lParam1* et *lParam2* ne sont pas utilisés.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

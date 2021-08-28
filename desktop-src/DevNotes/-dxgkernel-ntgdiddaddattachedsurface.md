@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: dacaa07a586a88c808d8da07b8233002e8ae5055
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7c3e8e0d2c1b567f85a6c1ef22623938dbe825ce74f9897437d4d6f44ef2c8f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118004239"
 ---
 # <a name="ntgdiddaddattachedsurface-function"></a>NtGdiDdAddAttachedSurface fonction)
 
@@ -67,7 +67,7 @@ Pointeur vers une [**structure \_ ADDATTACHEDSURFACEDATA DD**](/windows/win32/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 **NtGdiDdAddAttachedSurface** retourne l’un des codes de rappel suivants.
 
@@ -82,7 +82,7 @@ Pointeur vers une [**structure \_ ADDATTACHEDSURFACEDATA DD**](/windows/win32/ap
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

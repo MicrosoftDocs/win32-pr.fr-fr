@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3452f2b8e61fb72b1fd5f99a073b48afb26dafb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc780ec299c3249006085d348d983f8dab5b76a462c991a2d3665fed7d18f123
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119733799"
 ---
 # <a name="winrm-best-practices"></a>Bonnes pratiques WinRM
 
@@ -27,10 +27,10 @@ Lorsqu’un quota est atteint, le service WinRM retourne une erreur au client. P
 
 ## <a name="event-subscriptions"></a>Abonnements à des événements
 
-Lorsque vous utilisez des abonnements déclenchés par le collecteur, limitez le nombre d’ordinateurs distants à 500 et isolez le service [collecteur d’événements Windows](/windows/desktop/WEC/windows-event-collector) (wecsvc) dans un processus hôte distinct.
+lorsque vous utilisez des abonnements déclenchés par le collecteur, limitez le nombre d’ordinateurs distants à 500 et isolez Windows le service wecsvc [Event Collector](/windows/desktop/WEC/windows-event-collector) () dans un processus hôte distinct.
 
 Une erreur de connexion contiendra un thread jusqu’à ce qu’il expire. Un grand nombre d’erreurs de connexion simultanées peuvent entraîner l’épuisement du pool de threads et rendre le serveur sans réponse.
 
- 
+ 
 
- 
+ 

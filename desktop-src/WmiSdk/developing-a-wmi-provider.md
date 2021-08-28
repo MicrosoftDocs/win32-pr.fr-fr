@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Développement d’un fournisseur WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9249c251f75f08f9e5142e70a507b0dced8f91df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed313af816d48929ae120867f11b7973ff6adf0616f2635e424f890500d67011
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117924813"
 ---
 # <a name="developing-a-wmi-provider"></a>Développement d’un fournisseur WMI
 

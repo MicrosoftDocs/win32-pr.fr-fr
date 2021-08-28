@@ -1,30 +1,30 @@
 ---
 title: Nouveaux types de données
-description: Trois classes de types de données ont été introduites pour les types de données de précision fixe Windows de 64 bits, les types de précision de pointeurs et les types spécifiques-pointeurs de précision.
+description: trois classes de types de données ont été introduites pour les types de données 64 bits Windows de précision fixe, les types de précision de pointeurs et les types spécifiques-pointeurs de précision.
 ms.assetid: 016977d4-e7bf-463e-9755-7ef13f16e9e5
 keywords:
-- Guide de programmation Windows 64 bits-programmation Windows 64 bits, types de données
-- types de données programmation Windows 64 bits
+- guide de programmation Windows 64 bits 64-bits Windows programmation, types de données
+- types de données 64-bit Windows programmation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff6cf5960b5344da1d459d12dee96a2f67f2cfbc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ddc3cc6615de7c93c805eac868536b53084a694fb79d4e63d908716eb026eb71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504839"
 ---
 # <a name="the-new-data-types"></a>Nouveaux types de données
 
-Trois classes de types de données ont été introduites pour Windows 64 bits : types de données à précision fixe, types de précision de pointeurs et types spécifiques-pointeurs-précision. Ces types ont été ajoutés à l’environnement de développement pour permettre aux développeurs de se préparer pour Windows 64 bits. Ces types sont dérivés de l’entier de base du langage C et des types longs. Par conséquent, vous pouvez utiliser ces types de données dans le code que vous compilez et testez sur Windows 32 bits, puis recompilez avec le compilateur 64 bits lors du ciblage de Windows 64 bits.
+trois classes de types de données ont été introduites pour les Windowss 64 bits : types de données à précision fixe, types de précision de pointeurs et types spécifiques-pointeurs-précision. Ces types ont été ajoutés à l’environnement de développement pour permettre aux développeurs de se préparer à la Windows de 64 bits. Ces types sont dérivés de l’entier de base du langage C et des types longs. par conséquent, vous pouvez utiliser ces types de données dans le code que vous compilez et testez sur le Windows bits 32, puis recompilez avec le compilateur 64 bits lors du ciblage de Windows 64 bits.
 
-Même pour les applications qui ciblent uniquement Windows 32 bits, l’adoption de ces nouveaux types de données rend votre code plus robuste. Pour utiliser ces types de données, vous devez analyser votre code pour déterminer si l’utilisation du pointeur, le polymorphisme et les définitions de données peuvent être potentiellement dangereuses. Par exemple, lorsqu’une variable est de type **ULong \_ ptr**, il est clair qu’elle sera utilisée pour le cast des pointeurs pour les opérations arithmétiques ou le polymorphisme. Il n’est pas possible d’indiquer une telle utilisation directement à l’aide des types de données plus anciens. (Vous pouvez effectuer cette opération indirectement en utilisant le nommage de type dérivé ou la notation hongroise, mais les deux techniques sont sujettes aux erreurs.)
+même pour les applications qui ciblent uniquement les Windows 32 bits, l’adoption de ces nouveaux types de données rend votre code plus robuste. Pour utiliser ces types de données, vous devez analyser votre code pour déterminer si l’utilisation du pointeur, le polymorphisme et les définitions de données peuvent être potentiellement dangereuses. Par exemple, lorsqu’une variable est de type **ULong \_ ptr**, il est clair qu’elle sera utilisée pour le cast des pointeurs pour les opérations arithmétiques ou le polymorphisme. Il n’est pas possible d’indiquer une telle utilisation directement à l’aide des types de données plus anciens. (Vous pouvez effectuer cette opération indirectement en utilisant le nommage de type dérivé ou la notation hongroise, mais les deux techniques sont sujettes aux erreurs.)
 
-Tous ces types de données sont déclarés dans BaseTsd. h. Pour plus d’informations, notamment sur les définitions de ces types de données, consultez [types de données Windows](/windows/desktop/WinProg/windows-data-types).
+Tous ces types de données sont déclarés dans BaseTsd. h. pour plus d’informations, notamment sur les définitions de ces types de données, consultez [Windows types de données](/windows/desktop/WinProg/windows-data-types).
 
 ## <a name="fixed-precision"></a>Précision fixe
 
-Les types de données à précision fixe sont de la même longueur dans les fenêtres 32 et 64 bits. Pour vous aider à vous souvenir de cela, leur précision fait partie du nom du type de données. Voici les types de données à précision fixe.
+Les types de données à précision fixe sont de la même longueur dans les Windows 32 et 64 bits. Pour vous aider à vous souvenir de cela, leur précision fait partie du nom du type de données. Voici les types de données à précision fixe.
 
 
 
@@ -47,7 +47,7 @@ Les types de données à précision fixe sont de la même longueur dans les fen�
 
 ## <a name="pointer-precision"></a>Précision du pointeur
 
-Comme la précision du pointeur change (c’est-à-dire qu’elle devient 32 bits sur Windows 32 bits et 64 bits avec Windows 64 bits), les types de données de précision du pointeur reflètent la précision en conséquence. Par conséquent, il est possible d’effectuer un cast d’un pointeur vers l’un de ces types en toute sécurité lors de l’exécution de l’arithmétique de pointeur. Si la précision du pointeur est de 64 bits, le type est 64 bits. Les types de nombre reflètent également la taille maximale à laquelle un pointeur peut faire référence. Voici les types de pointeurs de précision et de nombre.
+comme la précision du pointeur change (c’est-à-dire 32 bits sur les Windows 32 bits et 64 bits avec 64 bits Windows), les types de données de précision du pointeur reflètent la précision en conséquence. Par conséquent, il est possible d’effectuer un cast d’un pointeur vers l’un de ces types en toute sécurité lors de l’exécution de l’arithmétique de pointeur. Si la précision du pointeur est de 64 bits, le type est 64 bits. Les types de nombre reflètent également la taille maximale à laquelle un pointeur peut faire référence. Voici les types de pointeurs de précision et de nombre.
 
 
 
@@ -69,14 +69,14 @@ Comme la précision du pointeur change (c’est-à-dire qu’elle devient 32 bit
 
 ## <a name="specific-pointer-precision-types"></a>Types de Pointer-Precision spécifiques
 
-Les nouveaux types de pointeurs suivants redimensionnent explicitement le pointeur. Soyez prudent lorsque vous utilisez des pointeurs dans du code 64 bits : Si vous déclarez le pointeur à l’aide d’un type 32 bits, le système d’exploitation crée le pointeur en tronquant un pointeur 64 bits. (Tous les pointeurs sont 64 bits sur Windows 64 bits.)
+Les nouveaux types de pointeurs suivants redimensionnent explicitement le pointeur. Soyez prudent lorsque vous utilisez des pointeurs dans du code 64 bits : Si vous déclarez le pointeur à l’aide d’un type 32 bits, le système d’exploitation crée le pointeur en tronquant un pointeur 64 bits. (Tous les pointeurs sont 64 bits sur les Windows 64 bits.)
 
 
 
 | Terme                                                                                 | Description                                                                                                                                                                                                            |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="POINTER_32"></span><span id="pointer_32"></span>**POINTEUR \_ 32**<br/> | Pointeur 32 bits. Sur Windows 32 bits, il s’agit d’un pointeur natif. Sur Windows 64 bits, il s’agit d’un pointeur 64 bits tronqué.<br/>                                                                                       |
-| <span id="POINTER_64"></span><span id="pointer_64"></span>**POINTEUR \_ 64**<br/> | Pointeur 64 bits. Sur Windows 64 bits, il s’agit d’un pointeur natif. Sur Windows 32 bits, il s’agit d’un pointeur 32 bits étendu au niveau du signe. <br/> Notez qu’il n’est pas possible de supposer l’état du bit de pointeur le plus élevé.<br/> |
+| <span id="POINTER_32"></span><span id="pointer_32"></span>**POINTEUR \_ 32**<br/> | Pointeur 32 bits. sur la Windows 32 bits, il s’agit d’un pointeur natif. sur les Windowss 64 bits, il s’agit d’un pointeur 64 bits tronqué.<br/>                                                                                       |
+| <span id="POINTER_64"></span><span id="pointer_64"></span>**POINTEUR \_ 64**<br/> | Pointeur 64 bits. sur la Windows 64 bits, il s’agit d’un pointeur natif. sur la Windows 32 bits, il s’agit d’un pointeur 32 bits étendu au niveau du signe. <br/> Notez qu’il n’est pas possible de supposer l’état du bit de pointeur le plus élevé.<br/> |
 
 
 

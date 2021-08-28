@@ -3,7 +3,7 @@ title: Section Trackbars
 description: Section Trackbars
 ms.assetid: cc6d1286-413b-4c4b-bcbd-6dd12811d24e
 keywords:
-- Windows Media Player Mobile Skins, trackbars
+- Lecteur Windows Media Skins mobiles, trackbars
 - habillages, trackbars
 - création d’apparences, section Trackbars
 - écriture de code pour les habillages, section Trackbars
@@ -11,12 +11,12 @@ keywords:
 - fichiers de définition d’apparence, section Trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ed10e576e38c3fdc694fd6bef67c513b2983f05
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ac92278a2c565e3f98e039ca06192ef3f64eb6edddae9bd3b1795330ce5fc1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119507219"
 ---
 # <a name="trackbars-section"></a>Section Trackbars
 
@@ -43,9 +43,9 @@ Seul le TrackBar du volume est défini ici. Pour plus d’informations sur la se
 [**Écriture du code**](writing-the-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

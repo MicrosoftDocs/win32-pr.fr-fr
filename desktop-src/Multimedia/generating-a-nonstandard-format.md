@@ -9,20 +9,20 @@ keywords:
 - acmFormatSuggest fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6e775fb09f926e0380b8141101b816b0dcbb221
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 968dafae93cac419a0078989ab8786e02732cbaa942fd185969c5571c2e8237e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119496339"
 ---
 # <a name="generating-a-nonstandard-format"></a>Génération d’un format non standard
 
 Parfois, une application a besoin d’un format non standard. Par exemple, une application peut nécessiter un fichier au format ADPCM 16 kHz. Étant donné que 16 kHz n’est pas standard, les fonctions d’énumération ne génèrent pas ce format. En fait, peu de codage personnalisé des algorithmes de format dans l’application, il n’existe pas de méthode fiable pour générer un format non standard. Toutefois, il est parfois possible de générer un format analogue en configurant un format PCM valide avec toutes les informations requises, puis en utilisant la fonction [**acmFormatSuggest**](/windows/desktop/api/Msacm/nf-msacm-acmformatsuggest) . Étant donné que les compresseurs et les décompresseurs essaient de suggérer un format le plus proche du format souhaité, le nombre de canaux et la fréquence sont généralement préservés.
 
- 
+ 
 
- 
+ 
 
 
 

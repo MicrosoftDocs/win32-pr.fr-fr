@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3116e85eec8fbf3a00bf434a1f88c8cac662ed0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc86d50c5692f48c7fb00b45228b13c88c96137473cee3609013f782a0a2d7ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502839"
 ---
 # <a name="cbasepropertypagetranslateaccelerator-method"></a>CBasePropertyPage. TranslateAccelerator, méthode
 
@@ -53,7 +53,7 @@ Pointeur vers une structure **MSG** décrivant la séquence de touches à traite
 
 Retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Substituez cette méthode si vous souhaitez fournir des accélérateurs de clavier pour la page de propriétés.
 
@@ -63,7 +63,7 @@ Substituez cette méthode si vous souhaitez fournir des accélérateurs de clavi
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

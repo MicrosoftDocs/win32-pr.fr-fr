@@ -1,19 +1,19 @@
 ---
-description: Cette propriété retourne la meilleure représentation de l’artiste de l’album pour un fichier musical spécifique basé sur les informations System. Music. AlbumArtist, System. Music. Artist et System. Music. IsCompilation.
+description: Cette propriété retourne la meilleure représentation de l’artiste de l’album pour un fichier musical spécifique basé sur le système. Musique. AlbumArtist, système. Musique. Artiste et système. Musique. Informations IsCompilation.
 ms.assetid: E31B5734-1A15-42f3-BD4A-80B58E94BAD3
-title: System. Music. DisplayArtist
+title: Requise. Musique. DisplayArtist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eac3637e6846800f272712ba6658e197816b9b48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12a6900815a9fecf231c9af98542b08771080b34552ba35a99cd9a6ad2036d9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774619"
 ---
-# <a name="systemmusicdisplayartist"></a>System. Music. DisplayArtist
+# <a name="systemmusicdisplayartist"></a>Requise. Musique. DisplayArtist
 
-Cette propriété retourne la meilleure représentation de l’artiste de l’album pour un fichier musical spécifique basé sur les informations System. [Music. AlbumArtist](./props-system-music-albumartist.md), [System. Music. Artist](./props-system-music-artist.md)et [System. Music. IsCompilation](./props-system-music-iscompilation.md) .
+cette propriété retourne la meilleure représentation de l’artiste de l’album pour un fichier musical spécifique basé sur [System. Musique. AlbumArtist](./props-system-music-albumartist.md), [System. Musique. Artist](./props-system-music-artist.md)et [System. Musique. Informations IsCompilation](./props-system-music-iscompilation.md) .
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -4,12 +4,12 @@ ms.assetid: 487b6a00-77eb-4c51-8e32-46bcd4493df8
 title: Que se passe-t-il si les règles des composants sont rompues ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78f61a0a819856c5014aa70acfaeb46be5043e58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3f830fa402da44be992d74adc957d88a19442dcbb51173a87e79fa2266552a1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498765"
 ---
 # <a name="what-happens-if-the-component-rules-are-broken"></a>Que se passe-t-il si les règles des composants sont rompues ?
 

@@ -4,19 +4,19 @@ ms.assetid: bca00825-32a7-40b2-9ca9-23475e3218a8
 title: Capture d’une image continue à partir de streaming video
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf43acdb1bd472a9d5a5dca2344b2f4ad37f474a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7af209ec0261418ab18d01414d040c9015a2436e055675a94608b1089f66fa58
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119772868"
 ---
 # <a name="capturing-a-still-image-from-streaming-video"></a>Capture d’une image continue à partir de streaming video
 
 L’exemple suivant utilise l’interface [**IWiaVideo**](/windows/desktop/api/Wiavideo/nn-wiavideo-iwiavideo) pour créer une préversion vidéo en continu et obtenir une image continue de cette vidéo de diffusion en continu. L’exemple suppose que vous avez un handle valide pour une fenêtre (HWND).
 
 > [!Note]  
-> L’acquisition d’images Windows (WIA) ne prend pas en charge les périphériques vidéo dans Windows Server 2003, Windows Vista ou version ultérieure. Pour ces versions de Windows, utilisez [DirectShow](/previous-versions//ms783323(v=vs.85)) pour acquérir des images à partir d’une vidéo.
+> Windows l’Acquisition d’images (WIA) ne prend pas en charge les périphériques vidéo dans Windows Server 2003, Windows Vista ou version ultérieure. pour ces versions du Windows, utilisez [DirectShow](/previous-versions//ms783323(v=vs.85)) pour acquérir des images à partir d’une vidéo.
 
  
 

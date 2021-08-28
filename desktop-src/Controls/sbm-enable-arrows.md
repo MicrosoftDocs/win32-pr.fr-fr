@@ -3,7 +3,7 @@ title: Message SBM_ENABLE_ARROWS (winuser. h)
 description: Une application envoie un \_ message de flèches d’activation SBM \_ pour activer ou désactiver une ou deux flèches d’un contrôle de barre de défilement.
 ms.assetid: 9646826a-3a7c-490b-822d-7511e4ef2262
 keywords:
-- SBM_ENABLE_ARROWS les contrôles de message Windows
+- SBM_ENABLE_ARROWS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78895b43ec7908172a6164917b33ac8549088db4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85e7f3ef8728befe72ec4f2c4afe39caeb10bc0b58984612a5db2445963dc549
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770019"
 ---
 # <a name="sbm_enable_arrows-message"></a>\_Message d’activation des \_ flèches SBM
 
@@ -69,8 +69,8 @@ Si le message est correctement exécuté, la valeur de retour est **true**; Sino
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

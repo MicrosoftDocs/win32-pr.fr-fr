@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1cf8b571ee5d017acd056e00a06af54cd90b943a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 304ec081ce7087d822ce3382bf4784c05cbc8782fadb3cdfee887f6bd8f0acfd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119502639"
 ---
 # <a name="cbasestreamcontrolsetfiltergraph-method"></a>Méthode CBaseStreamControl. SetFilterGraph
 
@@ -45,7 +45,7 @@ void SetFilterGraph(
 *pSink* 
 </dt> <dd>
 
-Pointeur vers l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) du gestionnaire de graphique de filtre, ou **null** lorsque le filtre quitte le graphique de filtre.
+pointeur vers l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn-strmif-imediaeventsink) du gestionnaire de Graph, ou **NULL** lorsque le filtre quitte le graphique de filtre.
 
 </dd> </dl>
 
@@ -53,7 +53,7 @@ Pointeur vers l’interface [**IMediaEventSink**](/windows/desktop/api/Strmif/nn
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez cette méthode à l’intérieur de la méthode [**IBaseFilter :: JoinFilterGraph**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-joinfiltergraph) du filtre. La classe **CBaseStreamControl** utilise l’interface **IMediaEventSink** pour envoyer le contrôle de flux de [**ce qui \_ \_ \_ a démarré**](ec-stream-control-started.md) et les événements de [**contrôle de flux EC \_ \_ \_ arrêtés**](ec-stream-control-stopped.md) .
 
@@ -84,7 +84,7 @@ STDMETHODIMP CMyFilter::JoinFilterGraph(IFilterGraph * pGraph, LPCWSTR pName)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Strmctl. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Strmctl. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

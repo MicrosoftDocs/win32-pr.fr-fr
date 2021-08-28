@@ -3,7 +3,7 @@ title: Message SBM_GETRANGE (winuser. h)
 description: Le \_ message SBM GETRANGE est envoyé pour récupérer les valeurs de position minimale et maximale pour le contrôle de barre de défilement.
 ms.assetid: 661a9491-3bf6-4685-aea0-c5e4126313af
 keywords:
-- SBM_GETRANGE les contrôles de message Windows
+- SBM_GETRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ca47e0474152a9771d2787c4a039fb2c868b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e66c6e7bf79c270d66fdeac0ece1a1ce82ed813d1638be3587be7237ecd30e1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119770039"
 ---
 # <a name="sbm_getrange-message"></a>\_Message SBM GETRANGE
 
@@ -55,8 +55,8 @@ Ce message ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

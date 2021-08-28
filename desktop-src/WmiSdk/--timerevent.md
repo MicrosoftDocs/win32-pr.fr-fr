@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 2de8967110568e968bb241ebbf4942bf1504b332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5615d5ec4beabed3eada6db1f78c3a5b7e0ea2a0e18ca074d0a95cd7173f7bcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118109673"
 ---
 # <a name="__timerevent-class"></a>\_\_TimerEvent, classe
 
@@ -109,15 +109,15 @@ Instance de la sous-classe [**\_ \_ TimerInstruction**](--timerinstruction.md) q
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ TimerEvent** est dérivée de [**\_ \_ Event**](--event.md).
 
 Les consommateurs d’événements s’inscrivent pour un événement de minuteur absolu en créant une instance de la classe système [**\_ \_ AbsoluteTimerInstruction**](--absolutetimerinstruction.md) . Ils s’inscrivent pour un événement de minuteur d’intervalle en créant une instance de la classe système [**\_ \_ IntervalTimerInstruction**](--intervaltimerinstruction.md) .
 
-Pendant un fonctionnement normal, la propriété **NumFirings** a la valeur 1. Lorsqu’il n’est pas possible d’atteindre le consommateur ou que l’intervalle de déclenchement est bien plus rapide que la capacité à remettre l’événement, **NumFirings** est défini sur un nombre supérieur à 1. Lorsque **NumFirings** est supérieur à 1, WMI fusionne automatiquement un grand nombre d’événements de minuterie dans le même événement. Cette fusion est similaire à ce qui se produit avec les messages [**\_ du minuteur WM**](/windows/desktop/winmsg/wm-timer) dans la programmation Windows.
+Pendant un fonctionnement normal, la propriété **NumFirings** a la valeur 1. Lorsqu’il n’est pas possible d’atteindre le consommateur ou que l’intervalle de déclenchement est bien plus rapide que la capacité à remettre l’événement, **NumFirings** est défini sur un nombre supérieur à 1. Lorsque **NumFirings** est supérieur à 1, WMI fusionne automatiquement un grand nombre d’événements de minuterie dans le même événement. cette fusion est similaire à ce qui se produit avec les messages [**\_ du minuteur WM**](/windows/desktop/winmsg/wm-timer) dans Windows programmation.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

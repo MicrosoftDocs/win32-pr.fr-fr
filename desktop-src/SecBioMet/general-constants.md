@@ -19,16 +19,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5e35aa4c2cc676935cfb80fdec8729daf64d5f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 686e94c936855d3b5466071fba7d8b629a492579de11a53a62d8b23345707c53
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119740448"
 ---
 # <a name="general-constants-winbio_typesh"></a>General, constantes (WinBio \_ types. h)
 
-Les constantes suivantes sont utilisées dans l’ensemble du Windows Biometric Framework.
+les constantes suivantes sont utilisées dans l’ensemble du Windows Biometric Framework.
 
 
 
@@ -51,8 +51,8 @@ Les constantes suivantes sont utilisées dans l’ensemble du Windows Biometric 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

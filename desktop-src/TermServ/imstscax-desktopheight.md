@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb75467b35703420ce49fd99ea032b139d721505
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4e55d5a1f529435f0cdf6db3dcf801e7f24dda1a69e0bc1cad393942b672d4a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513099"
 ---
 # <a name="imstscaxdesktopheight-property"></a>IMsTscAx ::D propriété esktopHeight
 
@@ -100,9 +100,9 @@ Nouvelle hauteur, en pixels.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La définition de la propriété **DesktopHeight** est facultative, mais elle doit être définie avant d’appeler la méthode [**Connect**](imstscax-connect.md) . Si la hauteur du Bureau n’est pas spécifiée ou si a la valeur zéro, la hauteur du Bureau est définie sur la hauteur du contrôle. Les valeurs minimales et maximales dépendent de la version du système d’exploitation du client Bureau à distance.
+la définition de la propriété **DesktopHeight** est facultative, mais elle doit être définie avant d’appeler la méthode [**Connecter**](imstscax-connect.md) . Si la hauteur du Bureau n’est pas spécifiée ou si a la valeur zéro, la hauteur du Bureau est définie sur la hauteur du contrôle. Les valeurs minimales et maximales dépendent de la version du système d’exploitation du client Bureau à distance.
 
 <dl> <dt>
 

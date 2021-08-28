@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bc3a074641ce5b15a3d837e8bd91dfdae09fe627
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 4249d094f142af8a9015f4e8a3b32d4e39cd42fb
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826683"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122629552"
 ---
 # <a name="samplelevel-directx-hlsl-texture-object"></a>SampleLevel (objet texture HLSL DirectX)
 
@@ -34,8 +34,8 @@ Cette fonction est similaire à l' [exemple](dx-graphics-hlsl-to-sample.md) , sa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

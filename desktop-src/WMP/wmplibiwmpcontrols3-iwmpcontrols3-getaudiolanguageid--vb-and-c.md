@@ -3,9 +3,9 @@ title: Méthode IWMPControls3 getAudioLanguageID
 description: La méthode getAudioLanguageID retourne l’identificateur de paramètres régionaux (LCID) pour un index de langue audio spécifié.
 ms.assetid: 880bbfca-6f69-41ce-a078-467c1939fae5
 keywords:
-- méthode getAudioLanguageID lecteur Windows Media
-- méthode getAudioLanguageID lecteur Windows Media, interface IWMPControls3
-- Interface IWMPControls3 lecteur Windows Media, méthode getAudioLanguageID
+- Lecteur Windows Media de la méthode getAudioLanguageID
+- méthode getAudioLanguageID Lecteur Windows Media, interface IWMPControls3
+- Lecteur Windows Media de l’interface IWMPControls3, méthode getAudioLanguageID
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb8112eafec018b12012d20b37bfe30f7b464377
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e853d5a13c40316341c0759899e06e7292c006c00068a1b527e5035ff10422b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506209"
 ---
 # <a name="iwmpcontrols3getaudiolanguageid-method"></a>IWMPControls3 :: getAudioLanguageID, méthode
 
@@ -64,11 +64,11 @@ Implements IWMPControls3.getAudioLanguageID
 
 **System. Int32** qui est le LCID.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un LCID identifie de façon unique un dialecte de langage particulier, appelé paramètres régionaux.
 
-Pour le contenu Windows Media, les propriétés et les méthodes liées à la sélection de la langue ne prennent en charge qu’une seule sortie.
+pour le contenu multimédia Windows, les propriétés et les méthodes associées à la sélection de la langue ne prennent en charge qu’une seule sortie.
 
 Utilisez la propriété **audioLanguageCount** pour obtenir le nombre de langues audio prises en charge, puis accédez à une langue audio individuellement à l’aide d’un index de base un.
 

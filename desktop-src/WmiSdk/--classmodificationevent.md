@@ -18,12 +18,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 3634b632fa9ab66f0da3e48bf77fab5875daf12c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5561f7cdb0bcb434ae43fb393e39b3edba47987f47b15583702d96bdb3ded7b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732949"
 ---
 # <a name="__classmodificationevent-class"></a>\_\_ClassModificationEvent, classe
 
@@ -109,7 +109,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ ClassModificationEvent** est dérivée de [**\_ \_ ClassOperationEvent**](--classoperationevent.md).
 

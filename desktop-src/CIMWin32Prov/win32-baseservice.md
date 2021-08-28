@@ -36,18 +36,18 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b46f3b4bd37770a5f3a7c1a2d2faa93d49bc079a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b2ce4673b6739639475264f79a60a7fd1b1c7bc5a0f16153d22305a77812759a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119504369"
 ---
 # <a name="win32_baseservice-class"></a>\_Classe BaseService Win32
 
 La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ BaseService** abstraite Win32 représente des objets exécutables qui sont installés dans une base de données de Registre gérée par le gestionnaire de contrôle des services. Le fichier exécutable associé à un service peut être démarré au démarrage par un programme de démarrage ou par le système. Il peut également être démarré à la demande par le gestionnaire de contrôle des services. Tout service ou processus qui n’appartient pas à un utilisateur spécifique, et qui fournit une interface à certaines fonctionnalités prises en charge par le système informatique, est un descendant (ou membre) de cette classe.
 
-Exemple : service client DHCP (Dynamic Host Configuration Protocol) sur un système d’ordinateur exécutant Windows Server.
+exemple : service client DHCP (dynamic host configuration protocol) sur un système d’ordinateur exécutant Windows Server.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -97,10 +97,10 @@ La classe **Win32 \_ BaseService** possède ces méthodes.
 
 | Méthode                                                                             | Description                                                                   |
 |:-----------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| [**Modifiés**](change-method-in-class-win32-baseservice.md)                         | Modifie un service.<br/>                                                |
+| [**Modifier**](change-method-in-class-win32-baseservice.md)                         | Modifie un service.<br/>                                                |
 | [**ChangeStartMode**](changestartmode-method-in-class-win32-baseservice.md)       | Modifie le mode de démarrage d’un service.<br/>                              |
-| [**Créés**](create-method-in-class-win32-baseservice.md)                         | Crée un nouveau service.<br/>                                             |
-| [**Supprimer**](delete-method-in-class-win32-baseservice.md)                         | Supprime un service existant.<br/>                                       |
+| [**Créer**](create-method-in-class-win32-baseservice.md)                         | Crée un nouveau service.<br/>                                             |
+| [**DELETE**](delete-method-in-class-win32-baseservice.md)                         | Supprime un service existant.<br/>                                       |
 | [**InterrogateService**](interrogateservice-method-in-class-win32-baseservice.md) | Demande que le service met à jour son état dans Service Manager.<br/> |
 | [**PauseService**](pauseservice-method-in-class-win32-baseservice.md)             | Tente de placer le service dans l'état de pause.<br/>                 |
 | [**ResumeService**](resumeservice-method-in-class-win32-baseservice.md)           | Tente de placer le service dans l'état de reprise.<br/>                |
@@ -466,7 +466,7 @@ Service fourni aux processus appelant.
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -809,7 +809,7 @@ Valeur de balise unique pour ce service dans le groupe. La valeur 0 (zéro) indi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ BaseService** est dérivée [**du \_ service CIM**](cim-service.md).
 

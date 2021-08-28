@@ -3,9 +3,9 @@ title: IWMPNetwork propriété lostPackets
 description: La propriété lostPackets obtient le nombre de paquets perdus.
 ms.assetid: 611218d3-c4d3-4d4e-835c-1e7a956b2718
 keywords:
-- propriété lostPackets lecteur Windows Media
-- propriété lostPackets lecteur Windows Media, interface IWMPNetwork
-- Interface IWMPNetwork lecteur Windows Media, propriété lostPackets
+- Lecteur Windows Media de la propriété lostPackets
+- Lecteur Windows Media de la propriété lostPackets, interface IWMPNetwork
+- Lecteur Windows Media de l’interface IWMPNetwork, propriété lostPackets
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd1adac5f4aa8b1f58c023a556af04b8eae4bd8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a60c85920d647f99ed8ba8478da51183c3ba63efa733c0bc627c16b040b70965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745910"
 ---
 # <a name="iwmpnetworklostpackets-property"></a>IWMPNetwork :: lostPackets, propriété
 
@@ -48,7 +48,7 @@ Public ReadOnly Property lostPackets As System.Int32
 
 **System. Int32** qui correspond au nombre de paquets perdus.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété comprend uniquement les paquets de diffusion multimédia en continu et retourne zéro lors de l’utilisation du protocole HTTP, qui est sans perte.
 

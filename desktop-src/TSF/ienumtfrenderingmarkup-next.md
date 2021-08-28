@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0989d35a2fa7c521d5ea103fbe40a73d012a3997
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: deee2a2a65889739fd583e8752e37c3bdfeb66fb865494532374174b615335b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117953205"
 ---
 # <a name="ienumtfrenderingmarkupnext-method"></a>IEnumTfRenderingMarkup :: Next, méthode
 
@@ -80,7 +80,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Cette méthode n’est pas actuellement dans les fichiers d’en-tête publics. Pour utiliser cette API, vous devez effectuer une compilation MIDL du [prototype](prototypes.md).

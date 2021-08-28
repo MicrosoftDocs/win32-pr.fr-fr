@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 56b610025d3012446daa7938e2f37c2efcf6c2ddb7edd2ee545db0a179953fad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1f4f20e248ae714e4ebd948e9b600be2152c3197
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119067451"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122626605"
 ---
 # <a name="compiler-errors"></a>Erreurs du compilateur
 
@@ -28,8 +28,8 @@ Les messages d’erreur suivants sont générés au cours de la compilation MIDL
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">

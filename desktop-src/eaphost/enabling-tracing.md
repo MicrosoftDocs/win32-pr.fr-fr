@@ -4,12 +4,12 @@ description: Peut aider les utilisateurs à trouver les causes racines des probl
 ms.assetid: 5f401101-59aa-4ee8-825a-0b998489eed9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fdee8a5516b218e51f0151e1964885789560d82
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: c638fa7f546028cd9cf66227cfe3c302d6599492d1cbbfcfdac6c2b428273db8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104032132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086291"
 ---
 # <a name="enabling-eaphost-tracing"></a>Activation du suivi EAPHost
 
@@ -40,7 +40,7 @@ Pour activer le suivi côté client :
 
      
 
-## <a name="tracing-on-the-authenticator"></a>Suivi sur l’authentificateur
+## <a name="tracing-on-the-authenticator"></a>Suivi sur le Authenticator
 
 Pour activer le suivi côté authentificateur :
 
@@ -56,11 +56,11 @@ Pour activer le suivi côté authentificateur :
 
 ## <a name="event-tracing"></a>Suivi d’événements
 
-Dans Windows 7 et les versions ultérieures de Windows, EapHost fournit un suivi basé sur les événements sur l’authentificateur et l’homologue. L’avantage du suivi basé sur les événements est qu’aucun fichier de symboles n’est nécessaire pour afficher les messages de trace. Pour activer le suivi d’événements :
+dans Windows 7 et les versions ultérieures de Windows, EapHost fournit un suivi basé sur les événements sur l’authentificateur et l’homologue. L’avantage du suivi basé sur les événements est qu’aucun fichier de symboles n’est nécessaire pour afficher les messages de trace. Pour activer le suivi d’événements :
 
 1.  Ouvrez **Observateur**.
 2.  Les messages EapHost critiques sont journalisés sous : « vues personnalisées \\ événements d’administration »
-3.  Les messages non critiques sont journalisés sous : «applications et services \\ Microsoft \\ Windows \\ EAPHost
+3.  les messages Non critiques sont journalisés sous : «Applications et Services \\ Microsoft \\ Windows \\ EapHost
 4.  Les messages d’événements de type « analyse » et « débogage » peuvent être affichés sous le même chemin d’accès en sélectionnant **afficher les journaux d’analyse et de débogage** dans le menu **affichage** de la barre de titre.
 
 ## <a name="tracing-on-the-routing-and-remote-access-service"></a>Suivi sur le service Routage et accès distant

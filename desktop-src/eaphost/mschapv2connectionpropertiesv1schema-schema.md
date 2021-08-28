@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27a049038f3405b5fafb59a14ccadb54032cca50
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 9d32c4c8c20f9f7efa281d5ff5c9323b4db385262af3ee1e219d86bd11c678a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104313828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118086234"
 ---
 # <a name="mschapv2connectionpropertiesv1-schema"></a>Schéma mschapv2connectionpropertiesv1
 
@@ -29,9 +29,9 @@ Le schéma mschapv2connectionpropertiesv1 définit les données de configuration
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

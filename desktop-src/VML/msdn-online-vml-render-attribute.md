@@ -4,21 +4,21 @@ description: Attribut de rendu VML
 ms.assetid: a05e7f6e-4784-4ff8-9deb-0501d3a5658e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70872e823a2d43d6a605fbf07a817473b19a125a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a17063d1e742a5b014e18d61d2d4290eb2511843ef24f1513bd3564ee83c5e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119513339"
 ---
 # <a name="vml-render-attribute"></a>Attribut de rendu VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit le mode de rendu de l’extrusion. En lecture/écriture. **Chaîne**.
 
@@ -50,10 +50,10 @@ Ces valeurs comprennent :
 
 
 
- 
+ 
 
-*Attribut extensions Microsoft Office*
+*Microsoft Office Attribut extensions*
 
- 
+ 
 
- 
+ 

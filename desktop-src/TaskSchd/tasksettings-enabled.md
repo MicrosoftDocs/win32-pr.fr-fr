@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6805d7b754ac2c3553d5fde91826ffa192b91d97
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0e7853177aecae963e4899a67d2ba5b39d1eaebdc75e25ce6e14523963a70c45
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119738160"
 ---
 # <a name="tasksettingsenabled-property"></a>TaskSettings. Enabled, propriété
 
@@ -42,7 +42,7 @@ TaskSettings.Enabled As Boolean
 
 Si la valeur est true, la tâche est activée. Si la valeur est false, la tâche n’est pas activée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [**Enabled (settingsType)**](taskschedulerschema-enabled-settingstype-element.md) du schéma planificateur de tâches.
 
@@ -52,8 +52,8 @@ Lors de la lecture ou de l’écriture de données XML pour une tâche, ce param
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ae32e91e62a5341ceb0fc3fc4b16b0e7cfbae0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0985df04d77a606535d5791e52ea90784a34ed3ef38ac2810840353a68b67539
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493089"
 ---
 # <a name="gllightmodeli-function"></a>glLightModeli fonction)
 
@@ -76,14 +76,14 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *pname* n’est pas une valeur acceptée.<br/>                                                                                         |
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLightModeli** définit le paramètre de modèle d’éclairage. Le paramètre *pname* nomme un paramètre et *param* donne la nouvelle valeur. la ou les valeurs des paramètres de la source lumineuse individuelle.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3f80c32953dbc591d5d8bc7a95fc707e93fe384c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 883ddb49684d4e5f5ca7cfb3585a26653a7f0ef4960b59e3c74aafecdd7e2f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119498029"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterrh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveOffCenterRH, fonction (D3DX10Math. h)
 
@@ -109,13 +109,13 @@ Valeur z maximale du volume de la vue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est une matrice de projection de perspective personnalisée et droitier.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Tous les paramètres de la fonction D3DXMatrixPerspectiveOffCenterRH sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 

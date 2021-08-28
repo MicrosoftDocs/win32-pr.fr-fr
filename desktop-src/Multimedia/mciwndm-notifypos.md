@@ -3,7 +3,7 @@ title: Message MCIWNDM_NOTIFYPOS (VFW. h)
 description: Le \_ message MCIWNDM NOTIFYPOS notifie la fenêtre parente d’une application que la position de la fenêtre a changé.
 ms.assetid: ccc8903b-ad79-495a-8003-20e120ad28ff
 keywords:
-- Message MCIWNDM_NOTIFYPOS Windows Multimedia
+- message MCIWNDM_NOTIFYPOS Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bebb3a8facd6478c21888cf0cf5ca81e3735ff8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d55d3b14ffb6a42e0c41cb820e066eee5c419b069e0d92ad614ffb51d577b963
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428998"
 ---
 # <a name="mciwndm_notifypos-message"></a>\_Message MCIWNDM NOTIFYPOS
 
@@ -52,7 +52,7 @@ Décrit la nouvelle position.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez activer la notification des modifications apportées à la position d’une fenêtre MCIWnd en spécifiant le \_ style de fenêtre NOTIFYPOS MCIWNDF.
 

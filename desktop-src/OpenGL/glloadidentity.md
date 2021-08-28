@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a2afde8ae06602933d6790c4fce33e9130a78cb
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: 38c0917dae2ae21acd61b6931bcb683a4f3f85f88af45c20fe6137e464254f8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104559053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119493002"
 ---
 # <a name="glloadidentity-function"></a>glLoadIdentity fonction)
 
@@ -48,13 +48,13 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-| Nom                                                                                                  | Signification                                                                                                                               |
+| Name                                                                                                  | Signification                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glLoadIdentity** remplace la matrice actuelle par la matrice d’identité. Il est sémantiquement équivalent à l’appel de [**glLoadMatrix**](glloadmatrix.md) avec la matrice d’identité suivante.
 

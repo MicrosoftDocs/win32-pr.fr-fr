@@ -3,9 +3,9 @@ title: Propriété Duration de IWMPMedia
 description: La propriété Duration obtient la durée en secondes de l’élément multimédia actuel.
 ms.assetid: f8a0bf3e-eeaf-46f5-90c8-d3b11ce4eb39
 keywords:
-- propriété Duration du lecteur Windows Media
-- propriété Duration lecteur Windows Media, interface IWMPMedia
-- Interface IWMPMedia lecteur Windows Media, propriété Duration
+- propriété duration Lecteur Windows Media
+- propriété duration Lecteur Windows Media, interface IWMPMedia
+- Lecteur Windows Media de l’interface IWMPMedia, propriété duration
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f796cab042713082ce2066659f62736855e62787
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 38703c37e73ba6312970b8e5b929441c3c5c9ccd1f034ab244dc97c36c2d2162
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119506019"
 ---
 # <a name="iwmpmediaduration-property"></a>IWMPMedia ::d propriété figuration
 
@@ -51,11 +51,11 @@ Public ReadOnly Property duration As System.Double
 
 **System. double** qui correspond à la durée en secondes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cette propriété est utilisée avec un élément multimédia autre que celui spécifié dans AxWindowsMediaPlayer. currentMedia, elle ne peut pas contenir de valeur valide.
 
-Pour récupérer la durée des fichiers qui ne sont pas dans la bibliothèque de l’utilisateur, vous devez attendre que le lecteur Windows Media ouvre le fichier. autrement dit, le **OpenState** actuel doit être égal à **MediaOpen**. Vous pouvez le vérifier en gérant **AxWindowsMediaPlayer. \_ Événement WMPOCXEvents \_ OpenStateChange** ou en vérifiant régulièrement la valeur de **AxWindowsMediaPlayer. openState**.
+pour récupérer la durée des fichiers qui ne sont pas dans la bibliothèque de l’utilisateur, vous devez attendre que Lecteur Windows Media ouvre le fichier ; autrement dit, le **OpenState** actuel doit être égal à **MediaOpen**. Vous pouvez le vérifier en gérant **AxWindowsMediaPlayer. \_ Événement WMPOCXEvents \_ OpenStateChange** ou en vérifiant régulièrement la valeur de **AxWindowsMediaPlayer. openState**.
 
 Pour les sélections, la durée de chaque élément multimédia peut être récupérée lors de l’ouverture de l’élément multimédia individuel, plutôt que lors de l’ouverture de la sélection.
 
@@ -135,7 +135,7 @@ End Sub
 [**AxWindowsMediaPlayer. openState (VB et C#)**](axwmplib-axwindowsmediaplayer-openstate--vb-and-c.md)
 </dt> <dt>
 
-[**Événement AxWindowsMediaPlayer. OpenStateChange (VB et C#)**](axwmplib-axwindowsmediaplayer-openstatechange.md)
+[**événement AxWindowsMediaPlayer. OpenStateChange (VB et C#)**](axwmplib-axwindowsmediaplayer-openstatechange.md)
 </dt> <dt>
 
 [**Interface IWMPMedia (VB et C#)**](iwmpmedia--vb-and-c.md)

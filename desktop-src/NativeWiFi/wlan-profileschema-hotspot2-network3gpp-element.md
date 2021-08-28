@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 7e19a7ccbc1579eb02ed47da82afe1eeaf8fed53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc3cf7663f0e293db5900453141f5869b6ff8e7c8f047f504311423b08e2a6eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117984159"
 ---
 # <a name="network3gpp-hotspot2-element"></a>Élément Network3GPP (Hotspot2)
 

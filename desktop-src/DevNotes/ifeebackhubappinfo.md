@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 4ebe6a1402a3d524b7f94b5febfdde7bbaf18dc0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b1c8fe16de287523836f1cb7688c1c319567482c0336222944fd7fca40f03989
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119750049"
 ---
 # <a name="ifeedbackhubappinfo-interface"></a>Interface IFeedbackHubAppInfo
 
@@ -33,8 +33,8 @@ L’interface **IFeedbackHubAppInfo** hérite de l’interface [**IUnknown**](/w
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/> |
 
 
 
