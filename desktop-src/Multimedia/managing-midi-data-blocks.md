@@ -16,12 +16,12 @@ keywords:
 - Services MIDI, blocs de données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af348d6c53d2944bf22c026674704baa1fe74e07
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 846c7391fedbcdc4f14934ed73ae9a47de675f435b9b2bd1fb63e97c340d5182
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118139148"
 ---
 # <a name="managing-midi-data-blocks"></a>Gestion des blocs de données MIDI
 
@@ -71,6 +71,6 @@ Les messages envoyés à une fenêtre ou un rappel de thread sont spécifiques a
 [Services MIDI](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

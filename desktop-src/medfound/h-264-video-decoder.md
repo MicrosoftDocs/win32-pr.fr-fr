@@ -4,12 +4,12 @@ ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
 title: Décodeur vidéo H. 264
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c4713b1a4e36d1ba085b2239c24ca0f6e4fae0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70b7e0f01dcf283729aebd58e2f361513edaba2ea12fde217968a7935cda9f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449169"
 ---
 # <a name="h264-video-decoder"></a>Décodeur vidéo H. 264
 
@@ -122,7 +122,7 @@ Le décodeur H. 264 implémente la méthode [**IMFTransform :: GetAttributes**]
 
  
 
-Dans Windows 8, le décodeur H. 264 prend également en charge les attributs suivants.
+dans Windows 8, le décodeur H. 264 prend également en charge les attributs suivants.
 
 
 
@@ -139,7 +139,7 @@ Dans Windows 8, le décodeur H. 264 prend également en charge les attributs sui
 
  
 
-Dans Windows 8, le décodeur H. 264 prend en charge l’interface [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) . Cette interface fournit une API alternativate pour définir les propriétés de codec suivantes.
+dans Windows 8, le décodeur H. 264 prend en charge l’interface [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) . Cette interface fournit une API alternativate pour définir les propriétés de codec suivantes.
 
 -   [CODECAPI \_ AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
 -   [CODECAPI \_ AVDecVideoAcceleration \_ H264 –](../directshow/avdecvideoacceleration-h264-property.md)
@@ -176,7 +176,7 @@ Le décodeur prend en charge les formats suivants :
 <td>4096 × 2304 pixels<br/> La résolution maximale garantie pour l’accélération DXVA est de 1920 × 1088 pixels ; à des résolutions supérieures, le décodage s’effectue avec DXVA, s’il est pris en charge par le matériel sous-jacent ; sinon, le décodage est effectué avec le logiciel.<br/>
 <blockquote>
 [!Note]<br />
-Dans Windows 7, la résolution maximale prise en charge est de 1920 × 1088 pixels pour le décodage logiciel et DXVA.
+dans Windows 7, la résolution maximale prise en charge est de 1920 × 1088 pixels pour le décodage logiciel et DXVA.
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -196,11 +196,11 @@ Les données d’entrée doivent être conformes à l’annexe B de la norme ISO
 Le décodeur ne prend pas en charge la technologie de grain de film.
 
 > [!Note]  
-> Une version précédente de la documentation indiquait incorrectement que le décodeur est pris en charge sur Windows Server 2008 R2.
+> une version précédente de la documentation indiquait incorrectement que le décodeur est pris en charge sur Windows Server 2008 R2.
 
  
 
-Si la mise à jour du supplément Platform pour Windows Vista est installée, le décodeur vidéo H. 264 est disponible sur Windows Vista, mais n’est accessible sur Windows Vista qu’à l’aide du [lecteur source](source-reader.md).
+si la mise à jour du supplément Platform pour Windows vista est installée, le décodeur vidéo H. 264 est disponible sur Windows vista, mais n’est accessible sur Windows vista qu’à l’aide du [lecteur Source](source-reader.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -208,7 +208,7 @@ Si la mise à jour du supplément Platform pour Windows Vista est installée, le
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                  |
 | DLL<br/>                      | <dl> <dt>Msmpeg2vdec.dll</dt> </dl> |
 

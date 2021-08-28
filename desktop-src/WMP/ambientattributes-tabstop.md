@@ -3,7 +3,7 @@ title: AmbientAttributes. tabStop
 description: L’attribut tabStop spécifie ou récupère une valeur indiquant si le contrôle est dans l’ordre de tabulation. Vous définissez l’ordre de tabulation en plaçant le contrôle dans le script global avant ou après d’autres balises de contrôle.
 ms.assetid: 3d4b7fe4-1032-44e1-bae5-f253d00881bf
 keywords:
-- AmbientAttributes. tabStop lecteur Windows Media
+- AmbientAttributes. tabStop Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4005fc26a2bc5f928cde0f5ed67ec2098cf3e6bb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 772e4a35d94f49cdbaa2be3053beb28f899654ed69961101e63bb1d6ab531641
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469889"
 ---
 # <a name="ambientattributestabstop"></a>AmbientAttributes. tabStop
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **tabStop** n’est pas applicable à l’élément **Effects** .
 

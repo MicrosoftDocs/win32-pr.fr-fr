@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 600b0aadfb5691f2e5cbea5ef410bf94cfc044bf
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6c67636aef3d6a972ad2bda98c92cd22da4cc154bd9710711f865a3f2d7660f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322889"
 ---
 # <a name="ipnetworknumber-attribute"></a>attribut ipNetworkNumber
 
@@ -42,7 +42,7 @@ Contient un numéro de réseau IP en notation décimale séparée par des points
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

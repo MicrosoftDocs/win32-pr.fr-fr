@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations sur un document une fois l’opération d’ouverture terminée.
-title: DlpNotifyPostOpenDocument, fonction (endpointdlp. h)
+title: DlpNotifyPostOpenDocument, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 10121e69ddbdc41516e56ec07e87a2f6dd8148cd
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: cc131f6e5778c3c333266eb748cbc50de8381effa731dadfc7f5576fbf056037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725809"
 ---
 # <a name="dlpnotifypostopendocument-function"></a>DlpNotifyPostOpenDocument fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md)
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 

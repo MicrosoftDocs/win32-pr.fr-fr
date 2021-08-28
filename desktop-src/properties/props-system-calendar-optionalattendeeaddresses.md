@@ -4,12 +4,12 @@ ms.assetid: 799fdbb5-30c8-448a-840b-2a6b1541fbfe
 title: System. Calendar. OptionalAttendeeAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ec1e8c4921bf3818dd245454145c9c25bf3af6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 380ef649891b2fdb8bb28a8e159c297fad6d1c2d8dd2b35da0f43ce81fed46ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731009"
 ---
 # <a name="systemcalendaroptionalattendeeaddresses"></a>System. Calendar. OptionalAttendeeAddresses
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

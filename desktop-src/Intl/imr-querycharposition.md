@@ -4,12 +4,12 @@ ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
 title: IMR_QUERYCHARPOSITION le code de notification (IMM. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 947eec9b3dd1f678d9266bb795214cf392629193
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6a37679dce6a17d5687aeed1c8fbd1d5c8bf6651b3cfc597cfdfc2e419ecba3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948766"
 ---
 # <a name="imr_querycharposition-notification-code"></a>\_Code de notification IMR QUERYCHARPOSITION
 
@@ -44,7 +44,7 @@ Pointeur vers une structure [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-
 
 Retourne une valeur différente de zéro si l’application remplit la structure [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) . Dans le cas contraire, la commande retourne 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application qui dessine la chaîne de composition elle-même, au lieu de s’appuyer sur l’IME, est responsable du remplissage de tous les membres de la structure [**IMECHARPOSITION**](/windows/win32/api/imm/ns-imm-imecharposition) . Dans le cas contraire, l’application doit passer la commande à [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) ou [**ImmIsUIMessage**](/windows/desktop/api/Imm/nf-imm-immisuimessagea) si elle possède sa propre fenêtre d’interface utilisateur IME.
 
@@ -56,7 +56,7 @@ Une application qui dessine la chaîne de composition elle-même, au lieu de s�
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
-| En-tête<br/>                   | <dl> <dt>IMM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Imm. h (inclure Windows. h)</dt> </dl> |
 
 
 

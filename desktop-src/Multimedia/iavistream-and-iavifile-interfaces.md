@@ -7,12 +7,12 @@ keywords:
 - Interface IAVIFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f65cdd72a034f2c380638979e656c84a173331fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29f419de6864986bf72914dd5551ab6ad5b7093379b40180183171a7a498cea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140937"
 ---
 # <a name="iavistream-and-iavifile-interfaces"></a>Interfaces IAVIStream et IAVIFile
 
@@ -20,9 +20,9 @@ Les interfaces [**IAVIStream**](/windows/desktop/api/Vfw/nn-vfw-iavistream) et [
 
 Pour créer un pointeur d’objet en C, commencez par allouer de l’espace pour une structure suffisamment grande pour contenir le pointeur vers la table de fonctions virtuelles et les autres membres de données. Créez une table de fonctions virtuelles pour les méthodes de votre type de flux, puis définissez le pointeur vers la table de fonctions virtuelles sur l’adresse de la table de fonctions virtuelles.
 
- 
+ 
 
- 
+ 
 
 
 

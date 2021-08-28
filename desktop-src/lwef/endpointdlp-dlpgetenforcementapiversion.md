@@ -1,6 +1,6 @@
 ---
 description: Récupère la version de l’API de protection contre la perte de données (DLP) du point de terminaison sur l’appareil actuel.
-title: DlpGetEnforcementApiVersion, fonction (endpointdlp. h)
+title: DlpGetEnforcementApiVersion, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: d2b38b6bdcfd761b8ae3c90ee5d3b430767ad29c
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: d126b720f1b6a0912598671c75240fb7f2a351098fc1fb00a748d873d1481905
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119725799"
 ---
 # <a name="dlpgetenforcementapiversion-function"></a>DlpGetEnforcementApiVersion fonction)
 
@@ -53,7 +53,7 @@ HRESULT WINAPI DlpGetEnforcementApiVersion(_Out_ DWORD* MajorVersion, _Out_ DWOR
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne un HRESULT incluant, sans s’y limiter, les valeurs suivantes.
 

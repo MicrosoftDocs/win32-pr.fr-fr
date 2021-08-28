@@ -11,12 +11,12 @@ api_name:
 - ProviderName
 api_type:
 - Schema
-ms.openlocfilehash: 47929d508ad6d3a6567c1b52e720360f4e7cfbda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d5e6bd95c5bea00cec90f27658c41e7f1a3a99f8ddce6870c60f54e9eaf1717
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975148"
 ---
 # <a name="providername-providertype-element"></a>Élément ProviderName (providerType)
 
@@ -40,7 +40,7 @@ L’élément **providerName** est défini par le type complexe [**ProviderType*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

@@ -11,12 +11,12 @@ api_name:
 - IgnorePassword
 api_type:
 - Schema
-ms.openlocfilehash: 40211a8f848d8d0551ed39297178bc985d9efba4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 683fafb763e3f8613afa1b8dca99020856d67a03fdb44e993adf032ce166ceab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975168"
 ---
 # <a name="ignorepassword-userlogoncred-element"></a>Élément IgnorePassword (UserLogonCred)
 
@@ -40,7 +40,7 @@ L’élément **IgnorePassword** est défini par l’élément [**UserLogonCred*
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

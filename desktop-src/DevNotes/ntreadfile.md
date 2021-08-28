@@ -13,18 +13,18 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: be1a73c6451012dfd97d7d4c55c23f0842cf1551
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57eacec05ec56fe3b174ee58569adca4c0f644e698aae3b603c7db5ab8f25f57
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984169"
 ---
 # <a name="ntreadfile-function"></a>NtReadFile fonction)
 
 Lit les données d’un fichier ouvert.
 
-Cette fonction est l’équivalent du mode utilisateur à la fonction [**ZwReadFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) documentée dans le kit WDK (Windows Driver Kit).
+cette fonction est l’équivalent du mode utilisateur à la fonction [**ZwReadFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile) documentée dans le Kit WDK (Windows Driver Kit).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -126,7 +126,7 @@ Les pilotes de périphériques et intermédiaires doivent définir ce pointeur s
 
 **NtReadFile** retourne l’état \_ Success ou le code d’erreur NTSTATUS approprié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les appelants de **NtReadFile** doivent avoir déjà appelé [**NTCREATEFILE**](/windows/desktop/api/Winternl/nf-winternl-ntcreatefile) avec le fichier \_ Read \_ Data ou generic \_ value défini dans le paramètre *desiredAccess* .
 

@@ -3,7 +3,7 @@ title: Message MCM_SETSELRANGE (commctrl. h)
 description: Définit la sélection d’un contrôle Month Calendar sur une plage de dates donnée. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro calendrier monthcal SetSelRange.
 ms.assetid: 750b0c83-6baa-4caa-a738-feae8751a70e
 keywords:
-- MCM_SETSELRANGE les contrôles de message Windows
+- MCM_SETSELRANGE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad28966ab67a5e7c0d27dd8fc9c367ec30e4cd7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1cdf6708aa382abfa92562aa55943c06180d0231cff568b74de380416e48731a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018977"
 ---
 # <a name="mcm_setselrange-message"></a>\_Message SETSELRANGE MCM
 
@@ -49,8 +49,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

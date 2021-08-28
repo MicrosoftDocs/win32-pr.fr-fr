@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété Height de l’objet CommandsWindo
 ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 324100bf8cb1e7ead5c9ae87fa5d17b7623804a3
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 002d521b583e9e7022ba2b7571488d38bb65aadaade01ee189ddce46d7a4c1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976499"
 ---
 # <a name="height-property-commandswindow-object"></a>Height, propriété (objet CommandsWindow)
 

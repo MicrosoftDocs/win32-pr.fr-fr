@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c0303f4696d1baa5129d93cd2e6a7703be611ed9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75de4ab4d173b68f02eff73962fb198270770806
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515936"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882036"
 ---
 # <a name="cim_copyfileaction-class"></a>\_Classe CIM CopyFileAction
 
@@ -467,7 +467,7 @@ Machine virtuelle Microsoft pour Java
 
 </dt> <dd>
 
-Windows 3. x
+Windows 3
 
 </dd> <dt>
 
@@ -549,7 +549,7 @@ NCR 3000
 
 <span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>
 
-<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**Dépendant d’UNIX** (24)
+<span id="Reliant_UNIX"></span><span id="reliant_unix"></span><span id="RELIANT_UNIX"></span>**UNIX dépendant** (24)
 
 
 </dt> <dd></dd> <dt>
@@ -863,14 +863,14 @@ Version de l’opération.
 
 La version de l’opération doit se présenter sous l’une des formes suivantes :
 
--   <major>.<minor>.<revision>
--   <major>.<minor><letter><revision>
+-   &lt;majeure &gt; . &lt; mineure &gt; . &lt; faisant&gt;
+-   &lt;majeure &gt; . &lt; révision de la &gt; &lt; lettre secondaire &gt; &lt;&gt;
 
 Cette propriété est héritée de l' [**\_ action CIM**](cim-action.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ CopyFileAction** est dérivée de [**CIM \_ FileAction**](cim-fileaction.md).
 
@@ -878,7 +878,7 @@ WMI n’implémente pas cette classe. Pour plus d’informations sur les classes
 
 Cette documentation est dérivée des descriptions de classe CIM publiées par le DMTF. Microsoft peut avoir apporté des modifications pour corriger les erreurs mineures, se conformer aux normes de documentation du kit de développement logiciel (SDK) Microsoft ou fournir plus d’informations.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

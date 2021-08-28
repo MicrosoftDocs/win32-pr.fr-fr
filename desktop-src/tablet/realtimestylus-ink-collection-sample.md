@@ -4,18 +4,18 @@ ms.assetid: f8bce153-cc5d-4087-896f-3f60afc80bc8
 title: Exemple de collection d’encres RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24fe67ed59ea1a69f5d0d9a2656169f2df88a450
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11065a40118c83be2451f9b2ac2431e5d7edb6cf31808030861d9f059774bf78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119708386"
 ---
 # <a name="realtimestylus-ink-collection-sample"></a>Exemple de collection d’encres RealTimeStylus
 
 Cette application montre la collecte et le rendu d’entrée manuscrite lors de l’utilisation de la classe [**RealTimeStylus**](realtimestylus-class.md) .
 
-## <a name="the-inkcollection-project"></a>Projet InkCollection
+## <a name="the-inkcollection-project"></a>InkCollection Project
 
 Cet exemple se compose d’une solution unique qui contient un projet, InkCollection. L’application définit l' `InkCollection` espace de noms qui contient une seule classe, également appelée `InkCollection` . La classe hérite de la classe [Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1) et implémente l’interface [**IStylusAsyncPlugin**](/windows/win32/api/rtscom/nn-rtscom-istylusasyncplugin) .
 
@@ -113,7 +113,7 @@ Le formulaire est ensuite ajouté à la file d’attente de notification du plug
 
 
 
-Hormis le raccordement des gestionnaires de menus pour modifier la couleur et la taille de l’encre, un bloc de code plus bref est requis avant d’implémenter l’interface. L’exemple doit gérer l’événement [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du formulaire. Dans le gestionnaire d’événements, l’application doit `myDynamicRenderer` être actualisée, car il est possible qu’un objet [Stroke](/previous-versions/ms552692(v=vs.100)) soit collecté au moment où l’événement Paint se produit. Dans ce cas, la partie de l’objet Stroke qui a déjà été collectée doit être redessinée. Le [convertisseur](/previous-versions/ms828481(v=msdn.10)) statique est utilisé pour redessiner les objets Stroke qui ont déjà été collectés. Ces traits se trouvent dans l’objet [Ink](/previous-versions/aa515768(v=msdn.10)) , car ils sont placés là où ils sont dessinés, comme indiqué dans la section suivante.
+Hormis le raccordement des gestionnaires de menus pour modifier la couleur et la taille de l’encre, un bloc de code plus bref est requis avant d’implémenter l’interface. l’exemple doit gérer l’événement [Paint](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) du formulaire. dans le gestionnaire d’événements, l’application doit `myDynamicRenderer` être actualisée, car il est possible qu’un objet [Stroke](/previous-versions/ms552692(v=vs.100)) soit collecté au moment où se produit l’événement Paint. Dans ce cas, la partie de l’objet Stroke qui a déjà été collectée doit être redessinée. Le [convertisseur](/previous-versions/ms828481(v=msdn.10)) statique est utilisé pour redessiner les objets Stroke qui ont déjà été collectés. Ces traits se trouvent dans l’objet [Ink](/previous-versions/aa515768(v=msdn.10)) , car ils sont placés là où ils sont dessinés, comme indiqué dans la section suivante.
 
 
 ```C++

@@ -11,12 +11,12 @@ api_name:
 - iconFileType
 api_type:
 - Schema
-ms.openlocfilehash: 168c2709f8b3049270711e286a35fbbd11e1ffef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4ad0c27c40c1b647a15a2c53ed67ffc1deee590006e7e9a514c11f6285c6bf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975248"
 ---
 # <a name="iconfiletype-simple-type"></a>Type simple iconFileType
 
@@ -43,7 +43,7 @@ Le type simple **iconFileType** définit un type de chaîne pour l’élément [
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

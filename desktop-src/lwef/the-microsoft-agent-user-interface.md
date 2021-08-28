@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb20bf18c6031bf72e1faadae5b74979eaa13f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b37c1aa9f96ce663395a6488f6ac82fad2fa815405618d5eeb55c3f1c26e5460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106538987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975569"
 ---
 # <a name="the-microsoft-agent-user-interface"></a>Interface utilisateur de l’agent Microsoft
 
@@ -29,9 +29,9 @@ Les sections suivantes décrivent ces éléments de base de l’interface utilis
 -   [La fenêtre Options de caractères avancés](the-advanced-character-options-window.md)
 -   [La fenêtre Propriétés des caractères par défaut](the-default-character-properties-window.md)
 
- 
+ 
 
- 
+ 
 
 
 

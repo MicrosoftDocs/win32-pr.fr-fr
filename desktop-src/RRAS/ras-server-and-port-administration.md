@@ -6,12 +6,12 @@ keywords:
 - Administration RAS RRAS, administration du serveur et du port
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb9d3cc520efa6bbb492e8d9e967d423548f96a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 4842048c52460ef4f116d5f62458cd72293e6bef83820e969275667cb2ab2a90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104462619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120028769"
 ---
 # <a name="about-ras-server-and-port-administration"></a>À propos de l’administration du serveur et du port RAS
 
@@ -23,7 +23,7 @@ La fonction [**MprAdminPortEnum**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmi
 
 -   Nom du port
 -   Informations sur l’appareil attaché au port
--   Si le serveur RAS associé au port est un serveur Windows NT/Windows 2000
+-   si le serveur RAS associé au port est un serveur Windows NT/Windows 2000
 -   Si le port est en cours d’utilisation et, si c’est le cas, des informations sur la connexion ;
 
 Pour obtenir les ports utilisés par une connexion spécifique, transmettez [**MprAdminPortEnum**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportenum) un handle à cette connexion dans le paramètre *hConnection* . Pour obtenir un descripteur d’une connexion, utilisez la fonction [**MprAdminConnectionEnum**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminconnectionenum) . Sinon, si vous avez implémenté une [dll d’administration RAS](ras-administration-dll.md), les fonctions [**MprAdminAcceptNewConnection**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminacceptnewconnection) et [**MprAdminAcceptNewConnection2**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminacceptnewconnection2) reçoivent un handle pour chaque nouvelle connexion au moment où la connexion est établie.
@@ -34,9 +34,9 @@ La fonction [**MprAdminPortGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpra
 
 Utilisez la fonction [**MprAdminBufferFree**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminbufferfree) pour libérer de la mémoire allouée par les fonctions [**MprAdminPortEnum**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportenum) et [**MprAdminPortGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminportgetinfo) . Utilisez la fonction [**MprAdminGetErrorString**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingeterrorstring) pour obtenir une chaîne qui décrit un code d’erreur RAS renvoyé par l’une des fonctions d’administration de serveur RAS (RasAdmin).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 37f010ee-2658-4547-9871-c913201042de
 title: Mt.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb81f3e0b7bf6b67236f1bd6037d1eceb11e0b89
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 2a7f963c5131606da3f7be80185fef84a750e4de
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623905"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882068"
 ---
 # <a name="mtexe"></a>Mt.exe
 
@@ -21,9 +21,9 @@ Mt.exe utilise Makecat.exe pour générer des fichiers catalogue (. cat) à part
 
 la version de Mt.exe fournie dans les versions récentes du SDK Windows peut également être utilisée pour générer des manifestes pour les assemblys managés et les assemblys côte à côte non managés.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
-**mt.exe \[ -Manifest** _<Composant1. manifeste><COMPONENT2. manifest>_ *_\] \[ -Identity :_* *<identity string> * **\] \[ -RGS :** _<fichier1. RGS>_* _\] \[ -TLB :_ *_<fichier2. tlb>_* _\] \[ -dll :_ *_<file3.dll_*>_\] \[ -remplacements :_ *_<XML filename>_* _\] \[ -managedassemblyname :_ *_<managed assembly>_* _\] \[ -nodependency \] \[ -catégorie \] \[ -out :_ *_<output manifest name>_* _\] \[ -inputresource :_ *_<file4>_* _; \[ \# \]_ *_><0 ID de ressource \_><1_* _\] \[ -outputresource :_ *_<file5>_* _; \[ \# \]_ *_><2 ID de ressource \_><3_* _\] \[ -UpdateResource :_ *_<file6>_* _; \[ \# \]_ *_><4 ID de ressource \_><5_* _\] \[ -hashupdate \[ :_ *_<path to files>_* _\] \] \[ -makecdfs \] \[ -Validate \_ manifeste \] \[ -valider les \_ \_ hachages de_ *_<path to files>_* _\] \[ \] \[ \_ \_ \] \[ \] \[ fichier :-canonicaliser-Rechercher les doublons-nologo-verbose \]_*
+**mt.exe \[ -Manifest** _<Composant1. manifeste><COMPONENT2. manifest>_ *_\] \[ -Identity :_* *<identity string> * **\] \[ -RGS :** _<fichier1. RGS>_* _\] \[ -TLB :_ *_<fichier2. tlb>_* _\] \[ -dll :_ *_<file3.dll_*>_\] \[ -remplacements :_ *_<XML filename>_* _\] \[ -_ *_<managed assembly>_* _\] \[ nodependency \] \[ -Category \] \[ -out :_ *_<output manifest name>_* _\] \[ -inputresource :_*_&lt; Fichier4 &gt;_*_; \[ \# \]_ *_ID de ressource><0 \_><1_* _\] \[ -outputresource :_*_&lt; fichier5 &gt;_*_\[ \# ; \]_ *_ID de ressource><2 \_><3_* _\] \[ -UpdateResource :_*_&lt; file6 &gt;_*_\[ \# ; \]_ *_><4 ID de ressource \_><5_* _\] \[ -hashupdate \[ :_ *_<path to files>_* _\] \] \[ -makecdfs \] \[ -Validate \_ manifeste \] \[ -valider les \_ \_ hachages de_ *_<path to files>_* _\] \[ \] \[ \_ \_ \] \[ \] \[ fichier :-canonicaliser-Rechercher les doublons-nologo-verbose \]_*
 
 ## <a name="command-line-options"></a>Options de la ligne de commande
 

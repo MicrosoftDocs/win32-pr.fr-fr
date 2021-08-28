@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad432095f9d264e124df1d84070056fc827c625e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 655dfe09285e72b0b961f81c26d6afcc4aae53101a3b12b1bf0a9f1823a45d2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021367"
 ---
 # <a name="siscreatebackupstructure-function"></a>SisCreateBackupStructure fonction)
 
@@ -83,7 +83,7 @@ Pointeur vers un tableau de noms de fichiers qui spécifie une liste de fichiers
 
 Cette fonction retourne la **valeur true** si elle se termine avec succès et la **valeur false** dans le cas contraire. Appelez [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) pour obtenir plus d’informations sur la raison de l’échec de l’appel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction crée une structure de sauvegarde SIS, qui est utilisée par l’API de sauvegarde SIS pour créer et tenir à jour une liste des liens de fichiers sur le volume et les fichiers d’origine vers lesquels pointent les liens. Cette fonction ne doit être appelée qu’une seule fois pour chaque volume compatible SIS en cours de sauvegarde. Tous les fichiers du volume spécifié doivent être traités comme des fichiers de stockage commun et sauvegardés uniquement si SIS indique qu’ils le doivent.
 
@@ -99,8 +99,8 @@ Une fois l’opération de sauvegarde terminée, Désallouez la mémoire utilis�
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Sisbkup. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Sisbkup. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

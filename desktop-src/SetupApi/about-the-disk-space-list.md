@@ -4,12 +4,12 @@ ms.assetid: 6514cbdd-2f23-4ab8-9e34-86d3837503dc
 title: À propos de la liste Disk-Space
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b092d73c00f426fe5c0ab298e4b6a53c19131c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6595d3087ac8ac7913d4ce79acdc7607355eaa232342c5a7e2ef597e4fa5f013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887925"
 ---
 # <a name="about-the-disk-space-list"></a>À propos de la liste Disk-Space
 

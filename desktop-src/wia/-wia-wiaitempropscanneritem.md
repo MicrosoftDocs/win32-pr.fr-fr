@@ -57,12 +57,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: 3202a4ae6bec7808d2d71fe890f248e6b4d3c397
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 008a806ccaebd595fe7a67ff8f98e6a9385b0bf2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624765"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882706"
 ---
 # <a name="scanner-wia-item-property-constants"></a>Constantes de propriété d’élément WIA du scanneur
 
@@ -308,7 +308,7 @@ cette propriété est prise en charge uniquement par Windows Vista et versions u
 <p>Permet la spécification d’une pièce jointe d’analyse de film particulière lorsqu’il en existe plusieurs.</p>
 <p>Cette propriété est requise pour les éléments de WIA_CATEGORY_FILM lorsqu’il y a plusieurs éléments de numérisation de film. Si l’appareil ne prend en charge qu’un seul élément de film de scanneur racine, cette propriété est facultative.</p>
 <p>Type : <strong>VT_BSTR</strong>, Access : lecture seule, valeurs valides : <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>Valeurs autorisées : le BSTR doit se présenter sous la forme de @ResourceBinary ,- <ResourceID> pour permettre la localisation, car cette chaîne sera exposée à l’utilisateur par le biais de l’interface utilisateur d’analyse des films.</p></td>
+<p>Valeurs autorisées : le BSTR doit se présenter sous la forme de @ResourceBinary ,- &lt; ResourceId &gt; pour permettre la localisation, car cette chaîne est exposée à l’utilisateur via l’interface utilisateur de numérisation de film.</p></td>
 </tr>
 <tr class="odd">
 <td ><span id="WIA_IPS_FILM_SCAN_MODE"></span><span id="wia_ips_film_scan_mode"></span><dl> <dt><strong>WIA_IPS_FILM_SCAN_MODE</strong></dt> <dt>ScannerPictureFilmScanMode</dt> </dl></td>
@@ -1193,7 +1193,7 @@ cette propriété est prise en charge uniquement par Windows Vista et versions u
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

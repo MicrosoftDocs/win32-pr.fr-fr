@@ -1,26 +1,26 @@
 ---
-description: Les rubriques suivantes fournissent des conseils sur la façon d’implémenter des formats d’image Camera RAW qui fonctionnent dans l’infrastructure WIC (Windows Imaging Component).
+description: les rubriques suivantes fournissent des conseils sur la façon d’implémenter des formats d’image camera RAW qui fonctionnent dans l’infrastructure WIC (Windows Imaging Component).
 ms.assetid: 145459fe-8ef4-41ba-b062-00f435c982e5
 title: Recommandations de WIC pour les formats d’image RAW Camera
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09405f0f57aaa075678127d5d08bafcd28ecc6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f3607b82b8844f48ebd9cbbcfe3e43e10fdddffcb47729f9225fdf84de3c289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118964638"
 ---
 # <a name="wic-guidelines-for-camera-raw-image-formats"></a>Recommandations de WIC pour les formats d’image RAW Camera
 
-Les rubriques suivantes fournissent des conseils sur la façon d’implémenter des formats d’image Camera RAW qui fonctionnent dans l’infrastructure WIC (Windows Imaging Component).
+les rubriques suivantes fournissent des conseils sur la façon d’implémenter des formats d’image camera RAW qui fonctionnent dans l’infrastructure WIC (Windows Imaging Component).
 
 <dl>
 
 [Introduction](-wic-rawguidelines-intro.md)  
 <dl>
 
-[Formats d’images BRUTes dans Windows Vista](-wic-rawguidelines-intro-vista.md)  
+[Formats d’images brutes dans Windows Vista](-wic-rawguidelines-intro-vista.md)  
 [Instructions générales pour l’implémentation de codecs BRUTs](-wic-rawguidelines-intro-implement.md)  
 </dl> </dd> <a href="-wic-rawguidelines-feature-complete.md">Exhaustivité des fonctionnalités : interfaces recommandées</a> [Configuration requise pour la méthode d’interface](-wic-rawguidelines-iface-reqs.md)  
 [Prise en charge des métadonnées](-wic-rawguidelines-metadata.md)  
@@ -28,7 +28,7 @@ Les rubriques suivantes fournissent des conseils sur la façon d’implémenter 
 
 [Décodage](-wic-rawguidelines-metadata-decoding.md)  
 [Encodage](-wic-rawguidelines-metadata-encoding.md)  
-</dl> </dd> <a href="/windows/desktop/wic/-wic-rawguidelines-iwicdevelopraw">Prise en charge des</a> [instructions de mise en œuvre de IWICDevelopRaw pour sérialiser les paramètres IWICDevelopRaw](-wic-rawguidelines-iwicdevelopraw-serializing.md)  
+</dl> </dd> <a href="/windows/desktop/wic/-wic-rawguidelines-iwicdevelopraw">prise en charge des recommandations d’implémentation de IWICDevelopRaw</a> [pour la sérialisation des IWICDevelopRaw Paramètres](-wic-rawguidelines-iwicdevelopraw-serializing.md)  
 [Performances](-wic-rawguidelines-performance.md)  
 [Formats de pixel à plage dynamique élevée](-wic-rawguidelines-hdr-formats.md)  
 [Miniatures et aperçus](-wic-rawguidelines-thumbnail-previews.md)  
@@ -37,8 +37,8 @@ Les rubriques suivantes fournissent des conseils sur la façon d’implémenter 
 <dl>
 
 [Détection de codec](-wic-rawguidelines-availability.md)  
-[Prise en charge des plateformes Windows XP](-wic-rawguidelines-availability.md)  
-</dl> </dd> <a href="-wic-rawguidelines-win7.md">Configuration requise des codecs bruts pour Windows 7</a> [pour plus d’informations](-wic-rawguidelines-moreinfo.md)  
+[Windows Prise en charge de la plateforme XP](-wic-rawguidelines-availability.md)  
+</dl> </dd> <a href="-wic-rawguidelines-win7.md">configuration requise pour les codecs bruts pour Windows 7</a> [pour plus d’informations](-wic-rawguidelines-moreinfo.md)  
 </dl>
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -48,7 +48,7 @@ Les rubriques suivantes fournissent des conseils sur la façon d’implémenter 
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

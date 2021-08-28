@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c0b4fcff8cadae32d59fe45c61c506e768782d5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f55b4e35edd6a3101c6e9ea8cd66707dd1eb274abb02b11f7d2a4f47824d9296
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118126991"
 ---
 # <a name="win32_tscpubplugin-class"></a>\_Classe TSCPubPlugin Win32
 

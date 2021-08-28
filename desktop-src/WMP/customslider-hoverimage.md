@@ -3,7 +3,7 @@ title: CUSTOMSLIDER.hoverImage
 description: L’attribut hoverImage spécifie ou récupère l’image qui apparaît lorsque la souris se trouve sur le curseur personnalisé.
 ms.assetid: b5d10289-280c-4578-83e8-6259249ff448
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. hoverImage
+- CUSTOMSLIDER. hoverImage Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 361f7d903b6231e92f331ab38a3a9f51bc3ec679
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d12f337c8d4889e0d2e94bac0c0a4dce74f3a80fda9261d245b91ce5612754d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119651399"
 ---
 # <a name="customsliderhoverimage"></a>CUSTOMSLIDER.hoverImage
 
@@ -31,7 +31,7 @@ L’attribut **hoverImage** spécifie ou récupère l’image qui apparaît lors
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom d’un fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est facultatif. S’il n’est pas spécifié, le fichier spécifié dans l’attribut **image** sera utilisé.
 

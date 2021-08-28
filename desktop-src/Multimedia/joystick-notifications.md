@@ -9,12 +9,12 @@ keywords:
 - joysticks débranchés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2791f8da14107d50afe90d8efbdbfe79acba3093
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 86666645a4589d1ecd638b81541aab2954839ca08889ef567b69f4abda17d211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118140326"
 ---
 # <a name="joystick-notifications"></a>Notifications de manette de jeu
 
@@ -23,7 +23,7 @@ Vous pouvez capturer des messages de manette de jeu directs à envoyer à une fo
 > [!Note]  
 > Un message de manette de jeu peut ne pas parvenir à atteindre l’application qui a capturé la manette de jeu si une deuxième application utilise **joyGetPos** ou **joyGetPosEx** pour interroger la manette à peu près au même moment que le message est envoyé. Dans ce cas, la deuxième application peut intercepter le message.
 
- 
+ 
 
 Si vous souhaitez capturer des messages à partir de deux manettes associées au système, utilisez [**joySetCapture**](/windows/win32/api/joystickapi/nf-joystickapi-joysetcapture) à deux reprises, une fois pour chaque manette de jeu. Votre fenêtre reçoit des messages distincts et distincts pour chaque appareil.
 
@@ -31,6 +31,6 @@ Vous pouvez libérer une manette capturée à l’aide de la fonction [**joyRele
 
 Vous ne pouvez pas capturer une manette débranchée. La fonction **joySetCapture** retourne JOYERR \_ débranché si l’appareil spécifié est débranché.
 
- 
+ 
 
- 
+ 

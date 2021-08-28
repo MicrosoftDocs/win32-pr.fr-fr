@@ -4,12 +4,12 @@ description: Génération d’informations linguistiques
 ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a068153863236b7096b67a976bbcf0654af9c75df87d2f527027830a4df33eb4
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 38f6f0409280e96ac288992efa560e83abd7c553
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118479283"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122879761"
 ---
 # <a name="generating-linguistic-information"></a>Génération d’informations linguistiques
 
@@ -43,7 +43,7 @@ L’ajustement de la limite d’une étiquette de phonème modifie le minutage d
 
 Vous pouvez également remplacer une assignation de phonème en sélectionnant l’étiquette de phonème et en sélectionnant **remplacer phonème** dans le menu **Edition** , ou en cliquant avec le bouton droit sur l’étiquette de phonème et en choisissant **remplacer phonème** dans le menu contextuel. L’éditeur affiche la boîte de dialogue **remplacer phonème** et met en surbrillance l’attribution de phonème actuelle de l’étiquette. Vous pouvez choisir un phonème de remplacement en le sélectionnant **dans la liste de la liste** de tarifs ou en choisissant une autre entrée dans la liste **nom** . Si plusieurs traductions de la Loi d’informations sont disponibles pour ce nom, choisissez un élément dans la **liste de disponibilité** . Pour entrer une désignation de la Loi d’un phonème qui ne peut pas être directement incluse dans la langue, tapez sa valeur hexadécimale ou plusieurs valeurs hexadécimales, concaténées avec un caractère plus (+). Une fois que vous avez sélectionné les informations de phonème de remplacement, choisissez **OK**, et l’éditeur remplace l’étiquette de phonème que vous avez sélectionnée.
 
-![Capture d’écran montrant la boîte de dialogue « Replace phonème », avec « <SIL> » sélectionné comme étiquette descriptive.](images/f5listphone.gif)
+![Capture d’écran montrant la boîte de dialogue’replace phonème', avec' &lt; sil &gt; 'sélectionné comme étiquette descriptive.](images/f5listphone.gif)
 
 De même, vous pouvez remplacer une étiquette de mot en cliquant sur la zone de l’étiquette et en choisissant **remplacer le mot**, ou en cliquant avec le bouton droit sur la zone de l’étiquette et en choisissant **remplacer Word** dans le menu contextuel. L’éditeur affiche la boîte de dialogue **remplacer le mot** . Entrez le mot de remplacement, puis choisissez **OK**.
 

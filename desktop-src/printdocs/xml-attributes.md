@@ -4,12 +4,12 @@ ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: Attributs XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf76889fdf38c6636b4beb5ba566b18af69e34c
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 20fa19a64dd5d3c59f7c5d26b86186912065a5f1
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883472"
 ---
 # <a name="xml-attributes"></a>Attributs XML
 
@@ -58,7 +58,7 @@ L’exemple suivant montre comment identifier une instance d’option à l’aid
     <psf:ScoredProperty name=&quot;psk:SheetCapacity&quot; >
       <psf:Value xsi:type=&quot;xs:integer&quot;>_Undefined_</psf:Value>
     </psf:ScoredProperty>
-  </psf:Option></code></pre></td>
+  &lt;/psf:Option&gt;</code></pre></td>
 </tr>
 <tr class="even">
 <td>propager <br/></td>
@@ -70,13 +70,13 @@ L’exemple suivant montre comment identifier une instance d’option à l’aid
 <td>la <br/></td>
 <td>Énumération<br/> Valeurs autorisées :<br/>
 <ul>
-<li>Aucune <br/></li>
+<li>Aucun <br/></li>
 <li>PrintTicketSettings <br/></li>
 <li>AdminSettings <br/></li>
 <li>DeviceSettings <br/></li>
 </ul></td>
 <td>Indique si l’option est disponible pour la sélection ou pour l’utilisation. <br/></td>
-<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> Aucune <br/>
+<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> Aucun <br/>
 <ul>
 <li>L’option n’est pas restreinte. <br/></li>
 </ul>

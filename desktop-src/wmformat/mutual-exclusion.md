@@ -6,10 +6,10 @@ keywords:
 - Windows Media Format SDK, exclusion mutuelle
 - ASF (Advanced Systems Format), exclusion mutuelle
 - ASF (format des systèmes avancés), exclusion mutuelle
-- Kit de développement logiciel (SDK) Windows Media format, exclusion mutuelle MBR
+- Windows Kit de développement logiciel (SDK) Media format, exclusion mutuelle MBR
 - ASF (Advanced Systems Format), exclusion mutuelle MBR
 - ASF (format des systèmes avancés), exclusion mutuelle MBR
-- Windows Media Format SDK, débit binaire multiple (MBR)
+- Windows Kit de développement logiciel (SDK) Media format, à débit binaire multiple (MBR)
 - ASF (Advanced Systems Format), à débit binaire multiple (MBR)
 - ASF (format de systèmes avancés), débit binaire multiple (MBR)
 - exclusion mutuelle, à propos de
@@ -23,25 +23,25 @@ keywords:
 - exclusion mutuelle, fonctionnalités avancées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd00bf5bcb544d2541a6bc5465171fe9bacc1b9c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be220873965b10a0da8d22529fa735175bb8366ebe3088c7b1b385af6012b88a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084666"
 ---
 # <a name="mutual-exclusion"></a>Exclusion mutuelle
 
 Chaque fichier ASF contient un ou plusieurs flux, chacun contenant des données multimédias numériques. Dans des circonstances normales, chaque flux est associé à une seule sortie. Lors de la lecture, l’objet lecteur fournit des exemples pour chaque sortie. Ainsi, par défaut, chaque flux d’un fichier ASF est remis par le lecteur lors de la lecture.
 
-Dans certains cas, vous ne souhaitez pas que tous les flux soient remis au client. Par exemple, si vous créez un fichier vidéo avec cinq flux audio, un pour chacune des cinq langues, vous n’avez besoin que d’un seul d’entre eux à la fois. L’exclusion mutuelle est une fonctionnalité du kit de développement logiciel (SDK) Windows Media format qui vous permet de spécifier un nombre de flux mutuellement exclusifs qui correspondent tous à la même sortie.
+Dans certains cas, vous ne souhaitez pas que tous les flux soient remis au client. Par exemple, si vous créez un fichier vidéo avec cinq flux audio, un pour chacune des cinq langues, vous n’avez besoin que d’un seul d’entre eux à la fois. l’exclusion mutuelle est une fonctionnalité du kit de développement logiciel (SDK) de Format multimédia Windows qui vous permet de spécifier un nombre de flux mutuellement exclusifs qui correspondent tous à la même sortie.
 
 L’exclusion mutuelle est définie dans le profil utilisé pour créer un fichier. Vous configurez l’exclusion mutuelle dans un profil à l’aide d’objets d’exclusion mutuelle. Vous ajoutez des flux un à la fois à l’objet exclusion mutuelle, définissez le type et incluez l’objet dans le profil.
 
-Le kit de développement logiciel (SDK) Windows Media format reconnaît quatre types d’exclusion mutuelle :
+le kit de développement logiciel (SDK) Windows Media Format reconnaît quatre types d’exclusion mutuelle :
 
 -   Vitesse de transmission
--   Language
+-   Langage
 -   Présentation
 -   Unknown
 
@@ -49,7 +49,7 @@ Le kit de développement logiciel (SDK) Windows Media format reconnaît quatre t
 
 L’exclusion mutuelle de la vitesse de transmission est un type spécial d’exclusion mutuelle qui est plus communément appelée exclusion mutuelle de la vitesse de transmission multiple (MBR). Une exclusion mutuelle MBR contient un certain nombre de flux qui proviennent de la même entrée, mais qui sont encodés à des vitesses de transmission différentes. Lors de la lecture d’un fichier avec MBR, le lecteur détermine le meilleur flux à utiliser en fonction de la bande passante disponible.
 
-Le kit de développement logiciel (SDK) Windows Media format prend en charge MBR pour les flux audio et vidéo. Le kit de développement logiciel (SDK) prend également en charge un type spécial de vidéo MBR appelée plusieurs MBR de taille vidéo. C’est comme une vidéo MBR normale, à la différence que les flux individuels peuvent avoir des tailles de frame différentes. Par exemple, vous pouvez avoir des flux à la taille vidéo 320 x 240 par défaut et d’autres avec des taux de bits plus élevés et une taille vidéo de 640 x 480.
+le kit de développement logiciel (SDK) Windows Media Format prend en charge MBR pour les flux audio et vidéo. Le kit de développement logiciel (SDK) prend également en charge un type spécial de vidéo MBR appelée plusieurs MBR de taille vidéo. C’est comme une vidéo MBR normale, à la différence que les flux individuels peuvent avoir des tailles de frame différentes. Par exemple, vous pouvez avoir des flux à la taille vidéo 320 x 240 par défaut et d’autres avec des taux de bits plus élevés et une taille vidéo de 640 x 480.
 
 ## <a name="mutual-exclusion-by-language"></a>Exclusion mutuelle par langue
 
@@ -85,9 +85,9 @@ La sélection manuelle de flux s’applique à l’ensemble du fichier. Des prob
 [**Utilisation de l’exclusion mutuelle**](using-mutual-exclusion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

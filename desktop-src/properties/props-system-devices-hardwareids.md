@@ -4,12 +4,12 @@ ms.assetid: b2e2656d-a5f9-4ba6-8ad6-065867bfdf99
 title: System.Devices.HardwareIds
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8a09daf33fa55f2bc7dacd444c1fcda0c1aa240
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49daa5ad5d25f3f24f7c73853c6e205878f2984ed6d369b14c30f2015c3baf5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118054005"
 ---
 # <a name="systemdeviceshardwareids"></a>System.Devices.HardwareIds
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

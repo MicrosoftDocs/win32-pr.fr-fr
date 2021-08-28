@@ -1,9 +1,9 @@
 ---
 title: Message ICM_DECOMPRESS_SET_PALETTE (VFW. h)
-description: Le \_ message de palette DÉcompresser les DÉcompresses \_ \_ spécifie une palette pour un pilote de décompression vidéo à utiliser s’il est décompressé dans un format qui utilise une palette. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressSetPalette.
+description: le \_ message ICM décompresser le \_ jeu de \_ palette spécifie une palette pour un pilote de décompression vidéo à utiliser s’il est décompressé dans un format qui utilise une palette. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro ICDecompressSetPalette.
 ms.assetid: 269d01f9-b7c8-40e4-abdb-24dd0c9cc18d
 keywords:
-- Message ICM_DECOMPRESS_SET_PALETTE Windows Multimedia
+- message ICM_DECOMPRESS_SET_PALETTE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2bbbf1b09b8c5954a2149edd16cb213a08fb3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42213685b43d73ca0b71698b201f4c54358254d8be5b8f1e2063da1a60ada4f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117987919"
 ---
-# <a name="icm_decompress_set_palette-message"></a>\_ \_ Message de palette de DÉcompression ICM \_
+# <a name="icm_decompress_set_palette-message"></a>ICM \_ Décompresser le \_ \_ message de palette
 
-Le message de **\_ \_ \_ palette décompresser les décompresses** spécifie une palette pour un pilote de décompression vidéo à utiliser s’il est décompressé dans un format qui utilise une palette. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressSetPalette**](/windows/desktop/api/Vfw/nf-vfw-icdecompresssetpalette) .
+le message **ICM \_ décompresser le \_ jeu de \_ palette** spécifie une palette pour un pilote de décompression vidéo à utiliser s’il est décompressé dans un format qui utilise une palette. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**ICDecompressSetPalette**](/windows/desktop/api/Vfw/nf-vfw-icdecompresssetpalette) .
 
 
 ```C++
@@ -49,13 +49,13 @@ Pointeur vers une structure [**BITMAPINFOHEADER**](/previous-versions//dd183376(
 
 Retourne ICERR \_ OK si le pilote de décompression peut décompresser des images de manière précise dans la palette suggérée à l’aide de l’ensemble de couleurs à mesure qu’elles sont organisées dans la palette. Retourne ICERR \_ non pris en charge dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ce message ne doit pas affecter la décompression déjà en cours ; au lieu de cela, les couleurs transmises à l’aide de ce message doivent être retournées en réponse à l’avenir de la [**\_ décompression \_ \_ ICM**](icm-decompress-get-format.md) , de l’extraction des messages de la [**\_ \_ \_ palette**](icm-decompress-get-palette.md) . Les couleurs sont renvoyées au pilote de décompression dans un prochain message de [**\_ \_ début**](icm-decompress-begin.md) de décompression ICM.
+Ce message ne doit pas affecter la décompression déjà en cours ; au lieu de cela, les couleurs transmises à l’aide de ce message doivent être retournées en réponse à la prochaine [**ICM \_ décompresser le \_ \_ FORMAT d’extraction**](icm-decompress-get-format.md) et [**ICM \_ décompresser les messages de \_ \_ PALETTE**](icm-decompress-get-palette.md) . les couleurs sont renvoyées au pilote de décompression dans un futur message de [**\_ \_ début**](icm-decompress-begin.md) de décompression ICM.
 
 Ce message est principalement utilisé lorsqu’un pilote décompresse des images à l’écran et qu’une autre application qui utilise une palette est au premier plan, forçant le pilote de décompression à s’adapter à un ensemble de couleurs étranger.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

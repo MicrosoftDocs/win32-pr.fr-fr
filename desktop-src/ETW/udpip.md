@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d76aeb00ece18b026d9e5515a74ce830eb14af32
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a240b1cda5e9b25aeea15241b066bfe7cb9a583778043a5aee79faab69b2f75c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119069349"
 ---
 # <a name="udpip-class"></a>UdpIp, classe
 
@@ -38,7 +38,7 @@ class UdpIp : MSNT_SystemTrace
 
 La classe **UdpIp** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Pour activer les événements UDP/IP dans une session de journalisation du noyau NT, spécifiez l’indicateur de **trace d’événements indicateur \_ \_ \_ réseau \_ tcpip** dans le membre **EnableFlags** d’une structure de propriétés de [**\_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -66,8 +66,8 @@ Vous pouvez suivre les événements réseau dans un processus source et de desti
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

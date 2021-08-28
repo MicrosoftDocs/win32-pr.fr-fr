@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Méthodes CIM_NumericSensor
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9390830d945bf4e3731578f01fa4d4e9c8a1d8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: da6beeb958a8e8d3895ac0eb8a83620b97f927180de4976744b563327d892504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020997"
 ---
 # <a name="cim_numericsensor-methods"></a>\_Méthodes NUMERICSENSOR CIM
 

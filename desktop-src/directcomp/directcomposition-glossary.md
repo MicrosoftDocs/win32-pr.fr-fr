@@ -5,17 +5,17 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3B9932EA-3182-41D0-B64A-7699EC98A714
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c72186f65f64e1187069963f0aae36de2835fd9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 40d6a6f39de62339bf5de0ea7b4976fa19f60c4bd2ff549a732acee43d546256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985429"
 ---
 # <a name="directcomposition-glossary"></a>Glossaire DirectComposition
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique définit les termes de Microsoft DirectComposition.
 
@@ -224,6 +224,6 @@ Chaîne de permutation associée à un objet visuel DirectComposition à la plac
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

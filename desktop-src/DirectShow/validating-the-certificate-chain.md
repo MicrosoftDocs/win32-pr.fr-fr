@@ -4,12 +4,12 @@ ms.assetid: e0c36f04-1694-40d8-94a1-06ee7de08777
 title: Validation de la chaîne de certificats
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c63aab8cca71453aff456f145e8f04affd85b4b1f80aa770cbf589970874f33
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 70a1dd3a09e46199cb537c1ac4b17cb96ed0edc2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119072133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884033"
 ---
 # <a name="validating-the-certificate-chain"></a>Validation de la chaîne de certificats
 
@@ -65,7 +65,7 @@ Pour valider un certificat dans la chaîne, procédez comme suit :
 5.  Si ce certificat n’est pas le certificat feuille, vérifiez les éléments suivants :
     -   Le modulo et l’exposant de l’élément Data/PublicKey correspondent exactement au modulo et à l’exposant de l’élément signature/KeyInfo du certificat précédent.
     -   L’élément KeyUsage contient un élément SignCertificate, avec la valeur 1.
-6.  Utilisez l’algorithme de hachage SHA-1 pour hacher chaque octet dans l’élément de données du certificat. Chaque octet du premier caractère de la <Data> balise jusqu’au dernier caractère de la </Data> balise de fermeture doit être haché. La valeur de hachage est utilisée pour vérifier le certificat par rapport à la liste de révocation de certificats, comme décrit dans [listes de révocation de certificats](certificate-revocation-lists.md) .
+6.  Utilisez l’algorithme de hachage SHA-1 pour hacher chaque octet dans l’élément de données du certificat. Chaque octet du premier caractère de la &lt; &gt; balise de données jusqu’au dernier caractère de la &lt; balise de fermeture/Data &gt; doit être haché. La valeur de hachage est utilisée pour vérifier le certificat par rapport à la liste de révocation de certificats, comme décrit dans [listes de révocation de certificats](certificate-revocation-lists.md) .
 7.  Comparez la valeur de hachage de l’étape 6 à la valeur décodée en base64 de l’élément signature/SignedInfo/Reference/DigestValue. Ces valeurs doivent correspondre.
 8.  Effectuez la procédure de vérification de la signature, décrite ci-dessous.
 9.  Si ce certificat n’est pas le certificat final dans la chaîne, enregistrez la valeur de signature/KeyInfo/KeyValue/RSAKeyValue pour la prochaine itération de la boucle.
@@ -87,7 +87,7 @@ La valeur de l’élément SignatureValue est calculée sur l’élément de don
 Pour l’opération RSASSA-PSS-Verify, utilisez les entrées suivantes :
 
 -   (*n*,*e*) est la clé publique de l’étape 1.
--   *M* correspond à tous les octets de l’élément de données, y compris les balises <Data> et</Data> qui encadrent l’élément.
+-   *M* correspond à tous les octets de l’élément de données, y compris les &lt; &gt; balises de données et de &lt; /Data &gt; qui encadrent l’élément.
 -   *S* est la valeur de signature décodée de l’étape 2.
 
 L’opération RSASSA-PSS-Verify utilise l’opération EMSA-PSS-ENCODE, définie dans la section 9.1.1. de PKCS. Pour cette opération, COPP utilise les options suivantes :

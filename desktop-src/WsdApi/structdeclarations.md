@@ -4,12 +4,12 @@ ms.assetid: bfef9302-eea6-4957-b67d-d497f5db99a5
 title: élément structDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e80f5a30ffb5de0d30a4b66a1b3b9204fce43c4e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d0f6c556feaabd1581e7520f59930218b661dba1efbf2fade7c84a28665cde36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991579"
 ---
 # <a name="structdeclarations-element"></a>élément structDeclarations
 
@@ -47,7 +47,7 @@ Les structures des types connus sont référencées par une grande partie du cod
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

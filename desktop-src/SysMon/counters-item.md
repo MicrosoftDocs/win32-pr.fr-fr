@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 251a645f0a4ceacdbfb4e2ab7e650f41e44dd508
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 451a6e43714a9ca5ee8e64bf48fdf80aa9e5a9d7b99db8f78f997eba9404e284
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883407"
 ---
 # <a name="countersitem-property"></a>Compteurs. Item, propriété
 
@@ -56,7 +56,7 @@ Instance [**CounterItem**](counteritem.md) qui correspond à la valeur d’index
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit de la propriété par défaut de l’objet [**Counters**](counters.md) .
 

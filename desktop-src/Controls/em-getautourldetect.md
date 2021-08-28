@@ -3,7 +3,7 @@ title: Message EM_GETAUTOURLDETECT (RichEdit. h)
 description: Indique si la détection d’URL automatique est activée dans le contrôle Rich Edit.
 ms.assetid: f723f15c-bf8f-41ab-aef0-bd8f2c0b9e5d
 keywords:
-- EM_GETAUTOURLDETECT les contrôles de message Windows
+- EM_GETAUTOURLDETECT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e68e4f2991c5f8780cb587594289674e07ec992
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d60fc8efdc6e554e379a9381239920cf70ef07ffca22240e62cfc6892ca2e636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019946"
 ---
 # <a name="em_getautourldetect-message"></a>\_Message GETAUTOURLDETECT em
 
@@ -49,7 +49,7 @@ Si la détection d’URL automatique est active, la valeur de retour est 1.
 
 Si la détection d’URL automatique est inactive, la valeur de retour est 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque la détection d’URL automatique est activée, la modification riche de Microsoft vérifie constamment le texte tapé pour une URL valide. La modification complète reconnaît les URL qui commencent par ces préfixes :
 
@@ -74,8 +74,8 @@ La modification complète reconnaît également les noms de chemins standard qui
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

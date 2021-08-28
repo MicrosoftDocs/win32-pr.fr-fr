@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cbbd05f95a46ec4e42c139ddda157a4057bde60
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6d299b14d85fa1c5c4be03c18462106d43f4bb8209378e2a77f78aeee39c7f90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322219"
 ---
 # <a name="is-member-of-partial-attribute-set-attribute"></a>Attribut is-Member-of-partial-attribute-set
 
@@ -46,7 +46,7 @@ Si la **valeur est true**, cet attribut est répliqué dans le catalogue global.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

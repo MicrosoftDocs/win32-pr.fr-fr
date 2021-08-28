@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7ec48b31170b2233f211e7e72de81d8792ae9160
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2cfeb61d075804d61ba515d86641e56bf3cd9e1ab6aa6de826a8bb7206be4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119908243"
 ---
 # <a name="crendererinputpin-class"></a>CRendererInputPin, classe
 
@@ -39,8 +39,8 @@ La classe **CBaseRendererInputPin** implémente une broche d’entrée pour la c
 | [**BreakConnect**](crendererinputpin-breakconnect.md)           | Ajoute du code personnalisé lors de la rupture d’une connexion.                                       |
 | [**CompleteConnect**](crendererinputpin-completeconnect.md)     | Termine la connexion.                                                              |
 | [**CheckMediaType**](crendererinputpin-checkmediatype.md)       | Détermine si le code confidentiel peut prendre en charge un type de média spécifique.                               |
-| [**Proactive**](crendererinputpin-active.md)                       | Bascule le code PIN sur le mode actif (en pause ou en cours d’exécution).                               |
-| [**Inactif**](crendererinputpin-inactive.md)                   | Bascule le code confidentiel vers un état inactif et libère la mémoire de l’allocateur.        |
+| [**Actif**](crendererinputpin-active.md)                       | Bascule le code PIN sur le mode actif (en pause ou en cours d’exécution).                               |
+| [**Inactive**](crendererinputpin-inactive.md)                   | Bascule le code confidentiel vers un état inactif et libère la mémoire de l’allocateur.        |
 | [**SetMediaType**](crendererinputpin-setmediatype.md)           | Définit le type de média du code confidentiel.                                                        |
 | [**Allocateur**](crendererinputpin-allocator.md)                 | Récupère un pointeur vers l’allocateur de mémoire par défaut.                                   |
 | Méthodes IPin                                                     | Description                                                                            |
@@ -61,7 +61,7 @@ La classe **CBaseRendererInputPin** implémente une broche d’entrée pour la c
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Renbase. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Renbase. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

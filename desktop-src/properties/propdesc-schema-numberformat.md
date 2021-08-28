@@ -4,12 +4,12 @@ ms.assetid: 9e8cfe5c-e17a-40d6-958f-a1bd1130c699
 title: numberFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6601e6647d8fa1ac8b8cb262d47192810583c93f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 2e9db77cc68dab7038a1b5b9c50d49f5381ee948
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122622685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883660"
 ---
 # <a name="numberformat"></a>numberFormat
 
@@ -17,7 +17,7 @@ Spécifie comment [**IPropertyDescription :: FormatForDisplay**](/windows/win32
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [NumberFormat]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -61,7 +61,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
 
 
 
@@ -85,7 +85,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 <tbody>
 <tr class="odd">
 <td>formatas</td>
-<td>Public. Optionnel. La valeur par défaut est &quot; général &quot; . Spécifie le format d’affichage. Les valeurs valides sont les suivantes. 
+<td>Public. Facultatif. La valeur par défaut est &quot; général &quot; . Spécifie le format d’affichage. Les valeurs valides sont les suivantes. 
 <table>
 <thead>
 <tr class="header">
@@ -136,7 +136,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 </tr>
 <tr class="odd">
 <td>Duration</td>
-<td>Met en forme la valeur en tant que durée. Utilisez <formatDurationAs> pour spécifier le format de durée. Requiert que la propriété soit UInt64.</td>
+<td>Met en forme la valeur en tant que durée. Utilisez &lt; formatDurationAs &gt; pour spécifier le format de durée. Requiert que la propriété soit UInt64.</td>
 </tr>
 </tbody>
 </table>
@@ -145,7 +145,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Nu
 </tr>
 <tr class="even">
 <td>formatDurationAs</td>
-<td>Public. Optionnel. La valeur par défaut est &quot; hh : mm : SS &quot; . S’applique uniquement si <em>formatas &quot; = &quot; Duration</em>. Requiert que la propriété soit UInt64. Les valeurs valides sont les suivantes. 
+<td>Public. Facultatif. La valeur par défaut est &quot; hh : mm : SS &quot; . S’applique uniquement si <em>formatas &quot; = &quot; Duration</em>. Requiert que la propriété soit UInt64. Les valeurs valides sont les suivantes. 
 <table>
 <thead>
 <tr class="header">

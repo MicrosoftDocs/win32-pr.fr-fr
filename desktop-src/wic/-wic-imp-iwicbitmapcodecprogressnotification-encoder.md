@@ -4,12 +4,12 @@ ms.assetid: d470ec93-d329-48c0-9556-0c15daece491
 title: Implémentation de IWICBitmapCodecProgressNotification (encodeur)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 260fac41068de0695813d569881e4a71938eb83d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79c4f7df833fece592fa6c536e32cff4d4e0505c11a7acdf153c80fa343ccacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965028"
 ---
 # <a name="implementing-iwicbitmapcodecprogressnotification-encoder"></a>Implémentation de IWICBitmapCodecProgressNotification (encodeur)
 
@@ -33,7 +33,7 @@ Bien que l’interface [**IWICBitmapCodecProgressNotification**](/windows/deskto
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Implémentation de IWICBitmapCodecProgressNotification (décodeur)](-wic-imp-iwicbitmapcodecprogressnotification-decoder.md)

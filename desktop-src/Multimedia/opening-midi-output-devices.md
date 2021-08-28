@@ -13,12 +13,12 @@ keywords:
 - ouverture de périphériques de sortie MIDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ca7a7e1db461b29700ec7c7c61ee140073bc345
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b0976e265fe253d02bc9662e6ea9b376d5acc4b5fd9f62e56642b56df53ce135
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118136708"
 ---
 # <a name="opening-midi-output-devices"></a>Ouverture de périphériques de sortie MIDI
 
@@ -26,6 +26,6 @@ Pour ouvrir un appareil de sortie MIDI pour la lecture, utilisez la fonction [**
 
 L’un des paramètres de **midiOutOpen** est une valeur de mot double. Cette valeur spécifie une fenêtre ou un handle de thread, un handle d’événement ou l’adresse d’une fonction de rappel utilisée pour surveiller la progression de la lecture des données et des mémoires tampons de flux exclusives du système MIDI. La surveillance permet à l’application de déterminer quand envoyer des blocs de données supplémentaires et quand libérer des blocs de données qui ont été envoyés. Pour plus d’informations sur ces méthodes, consultez [gestion des blocs de données MIDI](managing-midi-data-blocks.md).
 
- 
+ 
 
- 
+ 

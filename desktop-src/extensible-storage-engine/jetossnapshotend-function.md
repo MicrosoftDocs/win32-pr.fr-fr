@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b57528899b8d78ecee31f6dd54c2ac8decece383
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 0e72d91e299f5b862854caf9985abeb679df9d7da9597bae200e950a331cd564
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122984432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118978839"
 ---
 # <a name="jetossnapshotend-function"></a>JetOSSnapshotEnd fonction)
 
@@ -53,27 +53,68 @@ Identificateur de la session d’instantané.
 
 Options pour cet appel. Ce paramètre peut avoir une combinaison des valeurs suivantes.
 
-
-| <p>Valeur</p> | <p>Signification</p> | 
-|--------------|----------------|
-| <p>0</p> | <p>Fin de la session d’instantané.</p> | 
-| <p>JET_bitAbortSnapshot</p> | <p>La session d’instantané a été abandonnée.</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Valeur</p></th>
+<th><p>Signification</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>0</p></td>
+<td><p>Fin de la session d’instantané.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_bitAbortSnapshot</p></td>
+<td><p>La session d’instantané a été abandonnée.</p></td>
+</tr>
+</tbody>
+</table>
 
 
 ### <a name="return-value"></a>Valeur renvoyée
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-
-| <p>Code de retour</p> | <p>Description</p> | 
-|--------------------|--------------------|
-| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
-| <p>JET_errInvalidGrbit</p> | <p>L’une des options demandées n’est pas valide, est utilisée de manière incorrecte ou n’est pas implémentée.</p> | 
-| <p>JET_errOSSnapshotInvalidSequence</p> | <p>Une session d’instantané est déjà en cours. Cette opération n’est pas autorisée.</p> | 
-| <p>JET_errOSSnapshotInvalidSnapId</p> | <p>L’identificateur de la session d’instantané n’est pas valide.</p> | 
-| <p>JET_errOSSnapshotTimeOut</p> | <p>La session d’instantané avait un délai d’expiration interne avant l’appel de cet appel. Par conséquent, les opérations d’e/s retournées à normal avant cet appel ont été effectuées.</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Code de retour</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>JET_errSuccess</p></td>
+<td><p>L’opération s’est terminée avec succès.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errInvalidGrbit</p></td>
+<td><p>L’une des options demandées n’est pas valide, est utilisée de manière incorrecte ou n’est pas implémentée.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errOSSnapshotInvalidSequence</p></td>
+<td><p>Une session d’instantané est déjà en cours. Cette opération n’est pas autorisée.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errOSSnapshotInvalidSnapId</p></td>
+<td><p>L’identificateur de la session d’instantané n’est pas valide.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_errOSSnapshotTimeOut</p></td>
+<td><p>La session d’instantané avait un délai d’expiration interne avant l’appel de cet appel. Par conséquent, les opérations d’e/s retournées à normal avant cet appel ont été effectuées.</p></td>
+</tr>
+</tbody>
+</table>
 
 
 Si cette fonction réussit, une session d’instantané se termine et le comportement normal du moteur reprendra. Une nouvelle session d’instantané peut être démarrée ultérieurement.
@@ -88,15 +129,34 @@ La session d’instantané doit se terminer pour que la vérification de l’ins
 
 #### <a name="requirements"></a>Configuration requise
 
-
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
-| <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
-
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>requiert Windows Vista.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Serveur</strong></p></td>
+<td><p>requiert Windows Server 2008.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>En-tête</strong></p></td>
+<td><p>Déclaré dans esent. h.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Bibliothèque</strong></p></td>
+<td><p>Utilisez ESENT. lib.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>DLL</strong></p></td>
+<td><p>Requiert ESENT.dll.</p></td>
+</tr>
+</tbody>
+</table>
 
 
 #### <a name="see-also"></a>Voir aussi

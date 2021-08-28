@@ -44,18 +44,18 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccf986957d73dd93837b0ab7a1e10b50aec5e8f9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1c4f0c108c397668dce915f5d5993881e66c3524025ef0545c40e00ed2563d78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986389"
 ---
 # <a name="win32_desktopmonitor-class"></a>\_Classe desktopmonitor Win32
 
 La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ desktopmonitor** WMI représente le type de moniteur ou d’écran d’affichage attaché au système informatique.
 
-Le matériel qui n’est pas compatible avec le modèle WDDM (Windows Display Driver Model) retourne des valeurs de propriété inexactes pour les instances de cette classe.
+le matériel qui n’est pas compatible avec le modèle WDDM (Windows Display Driver Model) retourne des valeurs de propriété inexactes pour les instances de cette classe.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -434,12 +434,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -518,12 +518,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -646,7 +646,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -657,7 +657,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -712,7 +712,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -786,7 +786,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**override**](/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceID"), [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) ("win32api \| Windows GDI \| HMONITOR")
+qualificateurs : [**clé**](/windows/desktop/WmiSdk/key-qualifier), [**remplacement**](/windows/desktop/WmiSdk/standard-qualifiers) ("DeviceId"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows GDI \| HMONITOR")
 </dt> </dl>
 
 Identificateur unique d’un moniteur d’ordinateur de bureau.
@@ -1030,7 +1030,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1377,13 +1377,13 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ desktopmonitor** est dérivée de [**CIM \_ desktopmonitor**](cim-desktopmonitor.md), qui dérive de l' [**\_ affichage CIM**](cim-display.md). **CIM \_ L’affichage** est dérivé de [**CIM \_ UserDevice**](cim-userdevice.md), qui dérive de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple [PS créer un dessin de configuration d’ordinateur à l’aide de Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sur la Galerie TechNet utilise **Win32 \_ desktopmonitor** pour interagir avec le modèle Automation Visio afin de créer un dessin Visio.
+l’exemple de [création d’un dessin de Configuration d’ordinateur à l’aide de Visio](https://Gallery.TechNet.Microsoft.Com/84e2c31a-e644-4f79-83cd-e2b1a0ef8557) PowerShell sur la galerie TechNet utilise **Win32 \_ DesktopMonitor** pour interagir avec le modèle automation de Visio afin de créer un dessin Visio.
 
 ## <a name="requirements"></a>Configuration requise
 

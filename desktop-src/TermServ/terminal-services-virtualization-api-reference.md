@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, informations de référence sur l’API de virtualisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5814d634ae84a5f1eb6b427635f95f166fa735f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d7f4bfc6fbbb77ebb5fa4bb906694f390f668156f2437d8b91a7823581756690
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987059"
 ---
 # <a name="remote-desktop-virtualization-api-reference"></a>Informations de référence sur l’API de virtualisation Bureau à distance
 
@@ -31,9 +31,9 @@ L’API de virtualisation Bureau à distance prend en charge les interfaces et l
 [Extension de session Broker des services Terminal Server](extending-ts-session-broker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

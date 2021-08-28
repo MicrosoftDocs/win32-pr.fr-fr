@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 929440504238e3e2e9f65f03992b897335058cb6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08e3f6e735b204522e72c971ffade6cc363243ee46941da2f29d5709ca720cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022317"
 ---
 # <a name="schema-flags-ex-attribute"></a>Schema-Flags-attribut ex
 
@@ -36,7 +36,7 @@ L’attribut **Schema-Flags-ex** n’est pas utilisé actuellement.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.120               |
 | System-ID-GUID    | bf967a2b-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ L’attribut **Schema-Flags-ex** n’est pas utilisé actuellement.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

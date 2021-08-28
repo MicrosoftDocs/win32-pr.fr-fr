@@ -1,6 +1,6 @@
 ---
 description: Fournit au système des informations sur un document lors de la sortie d’une cible de déplacement.
-title: DlpNotifyLeaveDropTarget, fonction (endpointdlp. h)
+title: DlpNotifyLeaveDropTarget, fonction (endpointdlp.h)
 ms.topic: reference
 ms.date: 03/18/2021
 topic_type:
@@ -12,12 +12,12 @@ api_type:
 - DllExport
 api_location:
 - EndpointDlp.dll
-ms.openlocfilehash: 2f96ea9a825ca930631fe94dd1a3d632019dd9c1
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: aac567843a88abb3355ab0b239c9ac0eca66bdfd240f2e6d82b3f8f91586c9a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976589"
 ---
 # <a name="dlpnotifyleavedroptarget-function"></a>DlpNotifyLeaveDropTarget fonction)
 
@@ -53,7 +53,7 @@ Pointeur vers une structure [DLP_POSTOP_STATUS](enpointdlp-dlp_postop_status.md)
 </dd> </dl>
 
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne void.
 

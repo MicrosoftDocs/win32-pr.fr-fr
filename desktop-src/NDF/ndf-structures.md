@@ -4,12 +4,12 @@ description: Les structures de données suivantes prennent en charge l’API Net
 ms.assetid: 0e679a20-2caf-4782-97ed-234fc7a02ab9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1058f7fea0424fb65e0e1970a5616da3aa2f6d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10240a28c34924db352df76a3b577bca14fda62b8044122b2daa7c0fe20f9379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133427"
 ---
 # <a name="ndf-structures"></a>Structures NDF
 
@@ -29,9 +29,9 @@ Les structures de données suivantes prennent en charge l’API Network Diagnost
 -   [**ShellCommandInfo**](/windows/win32/api/ndattrib/ns-ndattrib-shellcommandinfo)
 -   [**UiInfo**](/windows/win32/api/ndattrib/ns-ndattrib-uiinfo)
 
- 
+ 
 
- 
+ 
 
 
 

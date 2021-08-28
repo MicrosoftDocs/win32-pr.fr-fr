@@ -1,5 +1,5 @@
 ---
-title: Limitations du contrôle de Flow
+title: Flow Limitations des contrôles
 description: Les instructions de contrôle de workflow de nuanceur de pixels ont des limites affectant le nombre de niveaux d’imbrication pouvant être inclus dans les instructions. En outre, il existe certaines limitations relatives à l’implémentation du contrôle de Flow par pixel avec des instructions de dégradé.
 ms.assetid: 17a902cd-16a4-4065-9249-01f9b1f40506
 ms.topic: article
@@ -9,21 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 34891e29a1bb27aead629db2cc7473c7d4329af5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b261cff11a95236e9bc6653c59c16ca0ac221ca719ade7497dbfffa2198da207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982939"
 ---
-# <a name="flow-control-limitations"></a>Limitations du contrôle de Flow
+# <a name="flow-control-limitations"></a>Flow Limitations des contrôles
 
 Les instructions de contrôle de workflow de nuanceur de pixels ont des limites affectant le nombre de niveaux d’imbrication pouvant être inclus dans les instructions. En outre, il existe certaines limitations relatives à l’implémentation du contrôle de Flow par pixel avec des instructions de dégradé.
 
 > [!Note]  
 > Lorsque vous utilisez les \* \_ \_ \_ \_ \_ profils de nuanceur HLSL de 4 niveaux 9 x, vous utilisez implicitement les profils [Shader Model 2. x](dx-graphics-hlsl-sm2.md) pour prendre en charge le matériel compatible Direct3D 9. Les profils Shader Model 2. x prennent en charge un comportement de contrôle de Flow plus limité que le [modèle de nuanceur 4. x](dx-graphics-hlsl-sm4.md) et versions ultérieures.
 
- 
+ 
 
 -   [Nombre de niveaux de profondeur des instructions de nuanceur de pixels](#pixel-shader-instruction-depth-counts)
 -   [Interaction d' Per-Pixel contrôle de Flow avec des dégradés d’écran](#interaction-of-per-pixel-flow-control-with-screen-gradients)
@@ -58,7 +58,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -66,7 +66,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximale                                                                                   |
+| Type d’instruction | Maximum                                                                                   |
 |------------------|-------------------------------------------------------------------------------------------|
 | Imbrication statique   | 24 si (D3DCAPS9. D3DPSHADERCAPS2 \_ 0. StaticFlowControlDepth > 0); 0 sinon            |
 | Imbrication dynamique  | de 0 à 24, consultez D3DCAPS9. D3DPSHADERCAPS2 \_ 0. DynamicFlowControlDepth                          |
@@ -75,7 +75,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_2_sw"></a>Nombre de profondeur d’instruction pour les \_ logiciels PS 2 \_
 
@@ -105,7 +105,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -113,7 +113,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximale |
+| Type d’instruction | Maximum |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |
@@ -122,7 +122,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_3_0"></a>Nombre de profondeur d’instruction pour PS \_ 3 \_ 0
 
@@ -152,7 +152,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -160,7 +160,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximale |
+| Type d’instruction | Maximum |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |
@@ -169,7 +169,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
- 
+ 
 
 ### <a name="instruction-depth-count-for-ps_3_sw"></a>Nombre de profondeur d’instruction pour les \_ logiciels PS 3 \_
 
@@ -199,7 +199,7 @@ Chaque instruction compte sur une ou plusieurs limites de profondeur d’imbrica
 
 
 
- 
+ 
 
 ### <a name="nesting-depth"></a>Profondeur d’imbrication
 
@@ -207,7 +207,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
-| Type d’instruction | Maximale |
+| Type d’instruction | Maximum |
 |------------------|---------|
 | Imbrication statique   | 24      |
 | Imbrication dynamique  | 24      |
@@ -216,7 +216,7 @@ Profondeur d’imbrication définit le nombre d’instructions qui peuvent être
 
 
 
- 
+ 
 
 ## <a name="interaction-of-per-pixel-flow-control-with-screen-gradients"></a>Interaction d' Per-Pixel contrôle de Flow avec des dégradés d’écran
 
@@ -228,14 +228,14 @@ Toutes les instructions de nuanceur de pixels sont partitionnées dans les opér
 
 -   Scénario A : opérations qui ne sont pas autorisées dans un contrôle de Flow qui peut varier entre les pixels d’une primitive. Celles-ci incluent les opérations indiquées dans le tableau suivant. 
 
-    | Instruction                                                                                                      | Est autorisé dans le contrôle de Flow lorsque :                       |
+    | Instruction                                                                                                      | est autorisé dans Flow contrôle lorsque :                       |
     |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
     | [texld-PS \_ 2 \_ 0 et up](texld---ps-2-0.md), [texldb-PS](texldb---ps.md) et [texldp-PS](texldp---ps.md) | Un registre temporaire est utilisé pour la coordonnée de texture. |
     | [DSX-PS](dsx---ps.md) et [DSY-PS](dsy---ps.md)                                                            | Un registre temporaire est utilisé pour l’opérande.            |
 
     
 
-     
+     
 
 -   Scénario B : opérations autorisées n’importe où. Celles-ci incluent les opérations indiquées dans le tableau suivant. 
 
@@ -248,7 +248,7 @@ Toutes les instructions de nuanceur de pixels sont partitionnées dans les opér
 
     
 
-     
+     
 
 Ces restrictions sont strictement appliquées dans la validation du nuanceur. Les scénarios avec une condition de branche qui ressemble à une branche est cohérente dans une primitive, bien qu’un opérande dans l’expression de condition soit une quantité calculée par nuanceur de pixels, mais toujours dans le scénario A et ne sont pas autorisés. De même, les scénarios dans lesquels des dégradés sont demandés sur certaines quantités calculées par le nuanceur x à partir de l’intérieur du contrôle de transit dynamique, mais qui semblent que x n’est pas modifié dans l’une des branches, continuent de tomber dans le scénario A et ne sont pas autorisés.
 
@@ -265,9 +265,9 @@ Indépendamment de ces règles, la charge est toujours sur l’utilisateur pour 
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

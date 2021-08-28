@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fa57553b993d5746b54e9a03c6b4e52f71937f0d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 05335acc0b00a09c167dd1330b849d335506c1d4b4aa5cde70a201b7f939cf8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120026559"
 ---
 # <a name="id3dxbaseeffectgetvectorarray-method"></a>ID3DXBaseEffect :: GetVectorArray, méthode
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si les vecteurs de destination sont plus grands que les vecteurs sources, seuls les composants initiaux de chaque vecteur de destination seront remplis, et les autres composants de vecteurs de destination seront définis sur zéro.
 

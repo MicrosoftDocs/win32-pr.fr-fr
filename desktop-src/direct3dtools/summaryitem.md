@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b0ad0c468d2a9ec2c1f4f0c5ec8c7844e80ab2b1d2655781ae0dc6fa11d0ae05
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7cf9d299c40c6afae5539e98758193bbbbb0cd9f
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118985439"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625985"
 ---
 # <a name="span-idvspixenginesummaryitemspansummaryitem-structure"></a><span id="vspixengine.summaryitem"></span>SummaryItem, structure
 
@@ -51,7 +51,7 @@ ID de l’événement parent, le cas échéant.
 
 ## <a name="requirements"></a>Configuration requise
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
 
  
 

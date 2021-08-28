@@ -4,12 +4,12 @@ description: Multiplication de l’entier signé.
 ms.assetid: DB95A38F-54E4-4BB6-81DF-CFFEBB4D425B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 997f62fc389ad1e0fb6b23dd6c419ff8b3933b41
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 87eabcc07dc5c6a662494c71a26c5f60e5fa1053265e3740ad3605ed685771a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986489"
 ---
 # <a name="imul-sm4---asm"></a>imul (SM4-ASM)
 
@@ -37,7 +37,7 @@ Multiplication de l’entier signé.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Multiplication au niveau du composant des opérandes 32 bits *src0* et *src1* (les deux sont signés), ce qui génère le résultat complet 64 bits (par composant) complet. Les 32 bits de poids faible (par composant) sont placés dans *destLO*. Les 32 bits de poids fort (par composant) sont placés dans *destHI*.
 
@@ -63,11 +63,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

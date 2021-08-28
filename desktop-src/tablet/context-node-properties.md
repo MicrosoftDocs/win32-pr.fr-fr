@@ -24,12 +24,12 @@ api_type:
 - HeaderDef
 api_location:
 - iaguid.h
-ms.openlocfilehash: 8eb1034516c62e2121f835951d1f04db5710d275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8e151103c17a7f19a648b39ba4d6dfdae387886e52af287a80530b5c3cf1b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967728"
 ---
 # <a name="context-node-properties"></a>Propriétés du nœud de contexte
 
@@ -56,7 +56,7 @@ Le tableau suivant décrit les informations référencées par chaque constante.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces GUID sont utilisés pour identifier les propriétés que [**IInkAnalyzer**](iinkanalyzer.md) peut définir sur un [**IContextNode**](icontextnode.md). L’analyseur d’encre définit des données de propriété basées sur le type du nœud de contexte (consultez [**IContextNode :: GetType**](icontextnode-gettype.md)).
 
@@ -68,7 +68,7 @@ Pour obtenir ou définir des propriétés spécifiques aux nœuds d’indicateur
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                       |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Iaguid. h</dt> </dl> |
 

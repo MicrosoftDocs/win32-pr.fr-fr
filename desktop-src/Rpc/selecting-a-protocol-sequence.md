@@ -4,12 +4,12 @@ description: Une séquence de protocole est la langue utilisée par un système 
 ms.assetid: 9c788b9b-82c5-4a4b-86c6-e9a9df699da3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac6b79f5f7a0829eea88eba77f2d022e8de2ca8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f3470c303737f44e7e2d0aa52393fa893efa4634b4a2a4aa5c1bba47a832ae6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127749"
 ---
 # <a name="selecting-a-protocol-sequence"></a>Sélection d’une séquence de protocole
 
@@ -33,9 +33,9 @@ Les clients peuvent également spécifier les informations de séquence de proto
 
 Une fois que votre programme client dispose d’une chaîne de séquence de protocole valide, il peut transmettre ces informations aux fonctions [**RpcStringBindingCompose**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingcompose) et [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding) pour créer le handle de liaison.
 
- 
+ 
 
- 
+ 
 
 
 

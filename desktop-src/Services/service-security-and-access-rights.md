@@ -1,19 +1,19 @@
 ---
-description: Le modèle de sécurité Windows vous permet de contrôler l’accès au gestionnaire de contrôle des services (SCM) et aux objets de service.
+description: le modèle de sécurité Windows vous permet de contrôler l’accès au gestionnaire de contrôle des services (SCM) et aux objets de service.
 ms.assetid: 23d1c382-6ba4-49e2-8039-c2a91471076c
 title: Sécurité des services et droits d’accès
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7677b8a9f7a5e1fadf8231999d266a9474fb731
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1674ae1170066daca7f4998fb6fd777ffc2dbec856ff1177fefd860daadb5e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888708"
 ---
 # <a name="service-security-and-access-rights"></a>Sécurité des services et droits d’accès
 
-Le modèle de sécurité Windows vous permet de contrôler l’accès au gestionnaire de contrôle des services (SCM) et aux objets de service. Les sections suivantes fournissent des informations détaillées :
+le modèle de sécurité Windows vous permet de contrôler l’accès au gestionnaire de contrôle des services (SCM) et aux objets de service. Les sections suivantes fournissent des informations détaillées :
 
 -   [Droits d’accès pour le gestionnaire de contrôle des services](#access-rights-for-the-service-control-manager)
 -   [Droits d’accès pour un service](#access-rights-for-a-service)
@@ -87,7 +87,7 @@ Un processus avec les droits d’accès corrects peut ouvrir un handle vers le S
 
 Le système crée le descripteur de sécurité pour le SCM. Pour obtenir ou définir le descripteur de sécurité pour le SCM, utilisez les fonctions [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) et [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) avec un handle vers l’objet SCManager.
 
-**Windows Server 2003 et Windows XP :** Contrairement à la plupart des autres objets sécurisables, le descripteur de sécurité du SCM ne peut pas être modifié. Ce comportement a été modifié à partir de Windows Server 2003 avec Service Pack 1 (SP1).
+**Windows Server 2003 et Windows XP :** Contrairement à la plupart des autres objets sécurisables, le descripteur de sécurité du SCM ne peut pas être modifié. ce comportement a été modifié à partir de Windows Server 2003 avec Service Pack 1 (SP1).
 
 Les droits d’accès suivants sont accordés.
 
@@ -137,7 +137,7 @@ Les droits d’accès suivants sont accordés.
 
 Notez que les utilisateurs distants authentifiés sur le réseau mais non connectés de manière interactive peuvent se connecter au SCM mais pas effectuer des opérations qui nécessitent d’autres droits d’accès. Pour effectuer ces opérations, l’utilisateur doit être connecté de manière interactive ou le service doit utiliser l’un des comptes de service.
 
-**Windows Server 2003 et Windows XP :** Les utilisateurs authentifiés distants reçoivent les droits de **\_ \_ connexion du gestionnaire** SC, du **\_ \_ \_ service d’énumération SC** Manager, de l' **\_ État du verrou de \_ requête \_ \_ SC Manager** et des droits d’accès **\_ \_ en lecture des droits standard** . Ces droits d’accès sont limités, comme décrit dans le tableau précédent à compter de Windows Server 2003 avec SP1.
+**Windows Server 2003 et Windows XP :** Les utilisateurs authentifiés distants reçoivent les droits de **\_ \_ connexion du gestionnaire** SC, du **\_ \_ \_ service d’énumération SC** Manager, de l' **\_ État du verrou de \_ requête \_ \_ SC Manager** et des droits d’accès **\_ \_ en lecture des droits standard** . ces droits d’accès sont restreints comme décrit dans le tableau précédent à partir de Windows Server 2003 avec SP1
 
 Lorsqu’un processus utilise la fonction [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) pour ouvrir un handle vers une base de données de services installés, il peut demander des droits d’accès. Le système effectue une vérification de sécurité par rapport au descripteur de sécurité du SCM avant d’accorder les droits d’accès demandés.
 
@@ -170,7 +170,7 @@ Les [droits d’accès standard](/windows/desktop/SecAuthZ/standard-access-right
 
 | Droit d’accès                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ACCÉDER à la \_ sécurité du système \_** | Requis pour appeler la fonction [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) ou [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) pour accéder à la liste SACL. La méthode appropriée pour obtenir cet accès consiste à activer le [**privilège**](/windows/desktop/SecAuthZ/privileges) **\_ \_ nom de sécurité se** dans le jeton d’accès actuel de l’appelant, à ouvrir le handle pour accès à la **\_ \_ sécurité du système** , puis à désactiver le privilège. |
+| **ACCÉDER à la \_ sécurité du système \_** | Requis pour appeler la fonction [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) ou [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) pour accéder à la liste SACL. la méthode appropriée pour obtenir cet accès consiste à activer le [**privilège**](/windows/desktop/SecAuthZ/privileges) **SE \_ \_ nom de sécurité** dans le jeton d’accès actuel de l’appelant, à ouvrir le handle pour accès à la **\_ \_ sécurité du système** , puis à désactiver le privilège. |
 | **Supprimer**   (0x10000)       | Requis pour appeler la fonction [**DeleteService**](/windows/desktop/api/Winsvc/nf-winsvc-deleteservice) pour supprimer le service.                                                                                                                                                                                                                                                                                                                                                  |
 | **Lecture \_ CONTRÔLE**  (0x20000)    | Requis pour appeler la fonction [**QueryServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceobjectsecurity) pour interroger le descripteur de sécurité de l’objet de service.                                                                                                                                                                                                                                                                                  |
 | **Écriture \_ DAC**  (0x40000)    | Requis pour appeler la fonction [**SetServiceObjectSecurity**](/windows/desktop/api/winsvc/nf-winsvc-setserviceobjectsecurity) pour modifier le membre **DACL** du descripteur de sécurité de l’objet de service.                                                                                                                                                                                                                                                                   |

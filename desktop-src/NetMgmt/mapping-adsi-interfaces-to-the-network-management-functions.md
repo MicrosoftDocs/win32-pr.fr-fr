@@ -4,12 +4,12 @@ description: Les interfaces ADSI (Active Directory Service Interfaces) sont un e
 ms.assetid: dfa81c58-3ce4-40ee-8bfc-a19a13781992
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ec1a1055d3d016bf8b7b1bd3f357810b7ddd86
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5ed9411989d5db754326a7a89130deada129fa6a58322ddef7e118772960d71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912048"
 ---
 # <a name="mapping-adsi-interfaces-to-the-network-management-functions"></a>Mappage des interfaces ADSI avec les fonctions de gestion de réseau
 
@@ -34,10 +34,10 @@ Le tableau suivant répertorie les fonctions de gestion de réseau et les groupe
 
 
 
- 
+ 
 
 Pour plus d’informations sur les services d’annuaire et la programmation avec ADSI, consultez [Active Directory interfaces de service](/windows/desktop/ADSI/active-directory-service-interfaces-adsi). Pour plus d’informations sur les propriétés personnalisées que le fournisseur Winnt met à la disposition de la classe User et sur les méthodes de propriété de l’interface [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) que le fournisseur Winnt ne prend pas en charge, consultez [fournisseur Winnt ADSI](/windows/desktop/ADSI/adsi-winnt-provider).
 
- 
+ 
 
- 
+ 

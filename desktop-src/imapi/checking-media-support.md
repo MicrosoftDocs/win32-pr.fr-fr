@@ -4,12 +4,12 @@ description: Le script suivant examine les caractéristiques du support chargé 
 ms.assetid: 05d88612-ff4c-4894-b838-a1d76923430c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f73fca4b11a5e0c1fbe5b001576126a3685149bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 06d0b9058136dcb73c34eb1acf3f0ad56d77de141be987847f35a8b1c385f820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884806"
 ---
 # <a name="checking-media-support"></a>Vérification de la prise en charge des supports
 
@@ -200,9 +200,9 @@ End Sub
 [**IDiscFormat2Data**](/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

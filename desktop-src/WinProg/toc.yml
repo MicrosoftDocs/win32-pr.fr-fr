@@ -1,4 +1,4 @@
-- name: Utilisation des en-têtes Windows
+- name: utilisation des en-têtes de Windows
   href: using-the-windows-headers.md
   items:
     - name: Annotations d’en-tête

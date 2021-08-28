@@ -4,12 +4,12 @@ description: Les fonctions de service d’annuaire de gestion de réseau permett
 ms.assetid: 9eeb8f40-85c0-49db-a307-193703e4f463
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e9e843e06762b4a7ef55b3f979b12a62ee6adf3
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 3e3f650ab3101cb26c90ae4d6f3854ed2b84ef4ab8c83ed37172eaf7f0c51fa6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104032076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119912289"
 ---
 # <a name="directory-service-functions"></a>Fonctions du service d’annuaire
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9b32841f060a29fce2918daca8f8fd008529bef1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9161d99dc4d11c5886b6d6905bd8b612654f46e5726215edfe32353062df4d04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982779"
 ---
 # <a name="constant-boolean-register-hlsl-vs-reference"></a>Registre booléen constant (référence HLSL VS)
 
@@ -32,6 +32,6 @@ Le comportement des constantes de nuanceur a changé entre Direct3D 8 et Direct3
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
