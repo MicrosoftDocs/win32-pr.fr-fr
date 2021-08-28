@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: f6cdc32c74d1e659001227e33863bf0445c06c78
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c633ccef617e5f6d83beba09f3c45b50f23c145ab48ed927e835a0858681227
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119906079"
 ---
 # <a name="ec_dvd_no_fp_pgc"></a>\_DVD EC \_ non \_ FP PF \_
 
 Signale que le disque DVD ne dispose pas d’un FP \_ PGC (première chaîne de programme de lecture) et que le navigateur DVD ne chargera pas automatiquement un PGC et démarre la lecture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est déclenché à partir du premier domaine de lecture.
 
@@ -48,7 +48,7 @@ Cet événement est déclenché à partir du premier domaine de lecture.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

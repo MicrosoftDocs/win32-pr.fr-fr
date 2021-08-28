@@ -4,17 +4,17 @@ ms.assetid: 27fe3fee-4ae3-43f1-a1f2-91c935e9851b
 title: Codes d’erreur système (9000-11999) (WinError. h)
 ms.topic: reference
 ms.date: 07/18/2019
-ms.openlocfilehash: 01eb071962d8d0f5beb801067ce1d72adc796bad
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aea735601b2c19bfc54a0841bb0150426b5c292e61dddb53473dfe41575e4337
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984479"
 ---
 # <a name="system-error-codes-9000-11999"></a>Codes d’erreur système (9000-11999)
 
 > [!NOTE]
-> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. Pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
+> Ces informations sont destinées aux développeurs qui déboguent les erreurs système. pour les autres erreurs, telles que les problèmes de Windows Update, il existe une liste de ressources dans la page [codes d’erreur](system-error-codes.md) .
 
 La liste suivante décrit les [codes d’erreur système](system-error-codes.md) (erreurs 9000 à 11999). Elles sont retournées par la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) lorsque de nombreuses fonctions échouent. Pour récupérer le texte de description de l’erreur dans votre application, utilisez la fonction [**FormatMessage**](/windows/desktop/api/WinBase/nf-winbase-formatmessage) avec le **format \_ message \_ de \_** l’indicateur système.
 
@@ -1733,7 +1733,7 @@ La partition d’annuaire n’est pas disponible pour l’instant. Patientez que
 
 
 
-L’opération a échoué car le rôle FSMO du maître d’opérations des noms de domaine est inaccessible. Le contrôleur de domaine détenant le rôle FSMO du maître d’attribution de noms de domaine est inactif ou ne peut pas traiter la demande ou n’exécute pas Windows Server 2003 ou une version ultérieure.
+L’opération a échoué car le rôle FSMO du maître d’opérations des noms de domaine est inaccessible. le contrôleur de domaine détenant le rôle FSMO du maître d’attribution de noms de domaine est inactif ou n’est pas en mesure de traiter la demande ou n’est pas en cours d’exécution Windows serveur 2003 ou version ultérieure.
 
 
 </dt> </dl> </dd> <dt>
@@ -2240,7 +2240,7 @@ Impossible de supprimer un répertoire qui n’est pas vide.
 
 
 
-Une implémentation de Windows Sockets peut avoir une limite du nombre d’applications qui peuvent l’utiliser simultanément.
+une implémentation de sockets Windows peut avoir une limite du nombre d’applications qui peuvent l’utiliser simultanément.
 
 
 </dt> </dl> </dd> <dt>
@@ -2318,7 +2318,7 @@ WSAStartup ne peut pas fonctionner pour l’instant, car le système sous-jacent
 
 
 
-La version de Windows Sockets demandée n’est pas prise en charge.
+la version de sockets Windows demandée n’est pas prise en charge.
 
 
 </dt> </dl> </dd> <dt>
@@ -2928,8 +2928,8 @@ Impossible d’ajouter la stratégie IPSEC basée sur le nom.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

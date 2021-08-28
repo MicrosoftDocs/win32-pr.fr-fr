@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ca22f02d327cdfbea527fba3a87f3f149774c091
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 650e0609f0498e103c3712f692bfedbff733b3076330feee78460ac9b571bc96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119481189"
 ---
 # <a name="iscardfileaccessgetfilecapabilities-method"></a>ISCardFileAccess :: GetFileCapabilities, méthode
 
-\[La méthode **GetFileCapabilities** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode **GetFileCapabilities** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section relative à la configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode **GetFileCapabilities** récupère une liste de fonctionnalités de fichier à partir du fichier actif.
 
@@ -73,7 +73,7 @@ Pointeur vers le nombre d’entrées TLV dans *ppProperties*.
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Spécifie si la messagerie sécurisée doit être utilisée et les données préallouées.
@@ -103,7 +103,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour obtenir la liste de toutes les méthodes définies par cette interface, consultez [**ISCardFileAccess**](iscardfileaccess.md).
 
@@ -115,8 +115,8 @@ Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                       |
 

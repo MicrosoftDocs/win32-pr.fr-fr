@@ -19,12 +19,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 652743178b71b2f9fed296ecfa4427f85b5cf1c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6100534c1f0640b3810c33d89e18fe004beb09cab5ce4169ce6b8f4b6c0ffe28
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642199"
 ---
 # <a name="microsoftdns_mxtype-class"></a>MicrosoftDNS \_ MXType, classe
 
@@ -58,7 +58,7 @@ La classe **MicrosoftDNS \_ MXType** possède ces méthodes.
 | Méthode                             | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |:-----------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | Instancie un type MX de RR en fonction des données contenues dans les paramètres d’entrée de la méthode : le nom du serveur DNS, le nom du conteneur, le nom du propriétaire, la classe (valeur par défaut = IN), la valeur de la durée de vie, la préférence d’enregistrement et le nom d’hôte qui sont prêts pour l’échange de courrier. Elle retourne une référence au nouvel objet sous la forme d’un paramètre de sortie. <br/> Qualificateurs : implémentés, statiques<br/> |
-| **Modify**                         | Met à jour la durée de vie, la préférence et l’échange de messages avec les valeurs spécifiées comme paramètres d’entrée de cette méthode. Si une nouvelle valeur n’est pas spécifiée pour un paramètre, la valeur actuelle du paramètre n’est pas modifiée. La méthode retourne une référence à l’objet modifié sous la forme d’un paramètre de sortie. <br/> Qualificateurs : implémentés<br/>                         |
+| **Modify**                         | met à jour la durée de vie, la préférence et le Exchange de messagerie en fonction des valeurs spécifiées comme paramètres d’entrée de cette méthode. Si une nouvelle valeur n’est pas spécifiée pour un paramètre, la valeur actuelle du paramètre n’est pas modifiée. La méthode retourne une référence à l’objet modifié sous la forme d’un paramètre de sortie. <br/> Qualificateurs : implémentés<br/>                         |
 
 
 
@@ -83,7 +83,7 @@ Nom de domaine complet spécifiant un ordinateur hôte prêt à agir comme écha
 
 </dd> <dt>
 
-**Relatives**
+**Préférence**
 </dt> <dd> <dl> <dt>
 
 Type de données : **UInt16**

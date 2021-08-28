@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 08197a6a72da7e38a349014e08d2d2c2c946f6e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a0abcd2d9d09b65e8b4d5dd27e01532859a8060eda7847f0c1b7888a3c9714f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950759"
 ---
 # <a name="addjob_info_1-structure"></a>ADDJOB \_ information \_ 1 (structure)
 

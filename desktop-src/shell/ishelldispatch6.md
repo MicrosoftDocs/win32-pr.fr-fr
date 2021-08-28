@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 540A5CFD-1520-4B61-B461-E893EFA27115
-ms.openlocfilehash: de27322324dc8a25bdc679374e625f94a1d1a2ae
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 9e1711b9a2d95e29904db5508b958a32249d38563f996cae68f761123b58948c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109843030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968998"
 ---
 # <a name="ishelldispatch6-object"></a>Objet IShellDispatch6
 
@@ -49,14 +49,14 @@ L’objet **IShellDispatch6** a ces méthodes.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                   |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |

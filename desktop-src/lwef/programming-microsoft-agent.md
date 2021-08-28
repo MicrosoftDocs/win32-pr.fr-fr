@@ -6,12 +6,12 @@ keywords:
 - Microsoft Agent, Guide de programmation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e56a1b30b0991dec280b0e12350d2a021bf49c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 087849d48b0593a847dbb794d2298469a974dbe285ce7854b44aa796abec9fda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475361"
 ---
 # <a name="programming-microsoft-agent"></a>Programmation de Microsoft Agent
 
@@ -25,13 +25,13 @@ Les sections suivantes décrivent comment programmer le logiciel Microsoft Agent
 -   [Programmation de l’interface du serveur Microsoft Agent](programming-the-microsoft-agent-server-interface.md)
 -   [Codes d’erreur de Microsoft Agent](microsoft-agent-error-codes.md)
 
-Recherchez les modifications apportées aux fonctionnalités Microsoft Agent Speech et reconnaissance vocale pour Windows Vista en suivant le lien ci-dessous.
+recherchez les modifications apportées aux fonctionnalités Microsoft Agent speech et reconnaissance vocale pour Windows Vista en suivant le lien ci-dessous.
 
--   [Modifications de Microsoft Agent dans Windows Vista](microsoft-agent-changes-in-windows-vista.md)
+-   [modifications de l’Agent Microsoft dans Windows Vista](microsoft-agent-changes-in-windows-vista.md)
 
- 
+ 
 
- 
+ 
 
 
 

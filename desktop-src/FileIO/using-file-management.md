@@ -4,12 +4,12 @@ ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: Utilisation de la gestion des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88838ee99dde16c5c2288c00e2e2f3b35747dae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4546142fe36064921dedb04f1ce30cd5fdc8454a0c9ffb73c91728faba0a1c30
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130699"
 ---
 # <a name="using-file-management"></a>Utilisation de la gestion des fichiers
 
@@ -28,7 +28,7 @@ Les exemples suivants utilisent les fonctions de gestion de fichiers.
 | [Ouverture d’un fichier pour la lecture ou l’écriture](opening-a-file-for-reading-or-writing.md)<br/>           | Exemple de code qui montre comment utiliser la fonction CreateFile pour créer un nouveau fichier ou ouvrir un fichier existant.<br/>                                                                             |
 | [Récupération et modification des attributs de fichier](retrieving-and-changing-file-attributes.md)<br/>       | Exemple de code qui montre comment utiliser la fonction GetFileAttributesEx pour récupérer des attributs de fichier.<br/>                                                                                      |
 | [Test de la fin d’un fichier](testing-for-the-end-of-a-file.md)<br/>                           | Exemple de code qui montre comment tester la fin du fichier pendant une opération de lecture synchrone et pendant une opération de lecture asynchrone.<br/>                                                |
-| [Utilisation des flux](using-streams.md)<br/>                                                           | Exemple de code qui montre comment utiliser les flux de base du système de fichiers NTFS.<br/>                                                                                                                    |
+| [Utilisation de Flux](using-streams.md)<br/>                                                           | Exemple de code qui montre comment utiliser les flux de base du système de fichiers NTFS.<br/>                                                                                                                    |
 
 
 

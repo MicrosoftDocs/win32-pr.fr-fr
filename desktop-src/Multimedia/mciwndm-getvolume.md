@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETVOLUME (VFW. h)
 description: Le \_ message MCIWNDM GETVOLUME récupère le paramètre de volume actuel d’un périphérique MCI. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetVolume.
 ms.assetid: 3f1de023-4da8-4899-accc-409701d6e921
 keywords:
-- Message MCIWNDM_GETVOLUME Windows Multimedia
+- message MCIWNDM_GETVOLUME Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4aa11fb13a56dda7cb83e3d6c98b4b66083e91b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cd514edbf0e49f49bc807f69a2bd5322d6f281475e3ed3c94fa483772580f131
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119783299"
 ---
 # <a name="mciwndm_getvolume-message"></a>\_Message MCIWNDM GETVOLUME
 

@@ -9,12 +9,12 @@ keywords:
 - SetWindowPos fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ee8ef0bd4d549e6fbe29ced52304cded4ce6979
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a38cc3072be387f549e77186886854c8cf6a40a466ca5014c4eb85469faf762b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119781859"
 ---
 # <a name="stretching-an-image-and-window"></a>Étirement d’une image et d’une fenêtre
 
@@ -61,6 +61,6 @@ case WM_COMMAND:
 
 
 
- 
+ 
 
- 
+ 

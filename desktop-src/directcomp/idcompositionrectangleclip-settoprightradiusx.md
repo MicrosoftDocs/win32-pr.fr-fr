@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 97ad61a407a8edbbd92570f5b3dcca8f4eaa9705
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5ec389606a560e1b8db64cf9361acb7f92e2cc97112ca327ff436e2d2baba05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119118883"
 ---
 # <a name="idcompositionrectangleclipsettoprightradiusx-methods"></a>IDCompositionRectangleClip :: SetTopRightRadiusX, méthodes
 
@@ -40,8 +40,8 @@ Modifie ou anime la valeur de la propriété TopRightRadiusX de ce clip. La prop
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 8 uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Dcomp. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Dcomp. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

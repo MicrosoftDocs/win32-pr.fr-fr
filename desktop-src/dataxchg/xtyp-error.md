@@ -1,9 +1,9 @@
 ---
 title: XTYP_ERROR transaction (Ddeml. h)
-description: Une fonction de rappel échange dynamique de données (DDE), DdeCallback, reçoit la \_ transaction d’erreur XTYP lorsqu’une erreur critique se produit.
+description: une fonction de rappel échange dynamique de données (DDE), DdeCallback, reçoit la \_ transaction d’erreur XTYP lorsqu’une erreur critique se produit.
 ms.assetid: 710daa04-ed83-42e3-a55e-6ccf891a3d52
 keywords:
-- Échange de données de transaction XTYP_ERROR
+- XTYP_ERROR Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebbad80cb23a37881e8954dee4a80a87f253e499
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce59800723758201b4857b5a3ae0844675347b2d4fd403c77650b36d9275bfb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106530805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755979"
 ---
 # <a name="xtyp_error-transaction"></a>\_Transaction d’erreur XTYP
 
-Une fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction d' **\_ erreur XTYP** lorsqu’une erreur critique se produit.
+une fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit la transaction d' **\_ erreur XTYP** lorsqu’une erreur critique se produit.
 
 
 ```C++
@@ -104,9 +104,9 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une application ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré. La DDEML (échange dynamique de données Management Library) tente de libérer de la mémoire en supprimant les ressources non critiques. Une application qui a bloqué les conversations doit les débloquer.
+Une application ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré. la DDEML (échange dynamique de données Management Library) tente de libérer de la mémoire en supprimant les ressources non critiques. Une application qui a bloqué les conversations doit les débloquer.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -124,7 +124,7 @@ Une application ne peut pas bloquer ce type de transaction ; le code de retour 
 
 <dl> <dt>
 
-[Vue d’ensemble de la bibliothèque de gestion échange dynamique de données](dynamic-data-exchange-management-library.md)
+[vue d’ensemble de la bibliothèque de gestion échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

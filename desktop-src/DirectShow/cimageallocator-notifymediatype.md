@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9261884b8940b571876502741fcc52e1c40a33
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de8630d4189ccbbf0d90b402ebeda6b785192c098aaa1e6d29c8c2a2dac2a3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688319"
 ---
 # <a name="cimageallocatornotifymediatype-method"></a>Méthode CImageAllocator. NotifyMediaType
 
@@ -53,7 +53,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) , ou **null** pour efface
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre propriétaire doit appeler cette méthode chaque fois que le type de média change. En général, cela se produit lorsque le code confidentiel se connecte pour la première fois et après une modification de format dynamique. L’allocateur utilise le type de média pour valider les propriétés d’allocateur proposées, ainsi que lors de la création d’exemples de supports.
 
@@ -65,7 +65,7 @@ L’objet **CImageAllocator** stocke le pointeur *pMediaType* dans la variable m
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

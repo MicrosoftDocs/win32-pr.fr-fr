@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3860cc80c669eaad30262cce63aff6dca3a2a8f3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 15c64746abd1114ebb3e4a97cf912a35ac730d6062721e8a11d67103d1fe82b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119544729"
 ---
 # <a name="ms-ds-security-group-extra-classes-attribute"></a>ms-DS-Security-Group-attribut extra-classes
 
@@ -44,7 +44,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -65,7 +65,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -86,7 +86,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -107,7 +107,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -128,7 +128,7 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
@@ -149,11 +149,11 @@ Noms communs des classes non standard qui peuvent être ajoutées à un groupe d
 | Range-Upper            | \-                                                  |
 | Search-Flags           | 0x00000000                                          |
 | System-Flags           | 0x00000010                                          |
-| Classes utilisées dans        | [**DS-UI-paramètres**](c-dsuisettings.md)<br/> |
+| Classes utilisées dans        | [**DS-UI-Paramètres**](c-dsuisettings.md)<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La liste suivante identifie les classes standard qui peuvent être ajoutées à un groupe via le composant logiciel enfichable utilisateurs et ordinateurs Active Directory.
 

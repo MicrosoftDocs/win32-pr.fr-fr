@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: db3f4a26803242f4ac9d3cb1de09805f9dd57012
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a1dabc2e1e0bbe0d65da2000e2cb70c4e4bb421fdaf5196c1682f856e54e826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482769"
 ---
 # <a name="apijetunregistercallback-method"></a>API. JetUnregisterCallback, méthode
 

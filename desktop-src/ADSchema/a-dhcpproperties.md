@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bab19720d628b0297dec183636f611923ce8c25e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dfcff103184a84a156a3bf2479b52d13fdcda264bf4a3f4b757f852310748de9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120050039"
 ---
 # <a name="dhcp-properties-attribute"></a>attribut DHCP-Properties
 
@@ -45,7 +45,7 @@ L’attribut **DHCP-Properties** n’est pas utilisé actuellement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

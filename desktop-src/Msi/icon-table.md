@@ -1,19 +1,19 @@
 ---
-description: Ce tableau contient les fichiers d’icône. Chaque icône de la table est copiée dans un fichier dans le cadre de la publication du produit à utiliser pour les raccourcis publiés et les serveurs OLE. Consultez Limitations OLE sur les flux.
+description: Ce tableau contient les fichiers d’icône. Chaque icône de la table est copiée dans un fichier dans le cadre de la publication du produit à utiliser pour les raccourcis publiés et les serveurs OLE. Consultez restrictions OLE sur Flux.
 ms.assetid: a59c552a-21c0-4dd4-9146-88a5f9a22962
 title: Table d’icônes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e8e8e38575dc6f6e6bda10b2c1047f3940f7559
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c00205ede9accf4ae6394a6f00bc6ae6ad54a19c5540159f57498ac5066984ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119894189"
 ---
 # <a name="icon-table"></a>Table d’icônes
 
-Ce tableau contient les fichiers d’icône. Chaque icône de la table est copiée dans un fichier dans le cadre de la publication du produit à utiliser pour les raccourcis publiés et les serveurs OLE. Consultez [limitations OLE sur les flux](ole-limitations-on-streams.md).
+Ce tableau contient les fichiers d’icône. Chaque icône de la table est copiée dans un fichier dans le cadre de la publication du produit à utiliser pour les raccourcis publiés et les serveurs OLE. Consultez [restrictions OLE sur flux](ole-limitations-on-streams.md).
 
 La table d’icônes contient les colonnes suivantes.
 
@@ -42,11 +42,11 @@ Nom du fichier d’icône.
 <span id="Data"></span><span id="data"></span><span id="DATA"></span>Métadonnée
 </dt> <dd>
 
-Les données de l’icône binaire dans le format PE (. dll ou. exe) ou icône (. ico).
+Les données d’icône binaires au format PE (.dll ou .exe) ou icône (. ico).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est référencée lorsque l' [action PublishProduct](publishproduct-action.md) est exécutée.
 

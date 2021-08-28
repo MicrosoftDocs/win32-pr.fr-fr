@@ -4,12 +4,12 @@ description: Animations Microsoft Agent pour le caractère Peedy
 ms.assetid: 335d915c-9cae-4850-a6bf-66ad78d533ff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8e064063b322bc6549d91b5fce35bdbc491a5a3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 46682d8836fc02a8d19d5b40e8fddef4068a1d14190c2919042ff1087a745acb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103727036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888109"
 ---
 # <a name="microsoft-agent-animations-for-peedy-character"></a>Animations Microsoft Agent pour le caractère Peedy
 
@@ -95,13 +95,13 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Heureux**                | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Sourires                                                 |
 | **Processus**                | Aucun                     | Non                | **Oui**       | Aucun                                         | Utilise la calculatrice                                        |
 | **Traitement**             | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Utilise Calculator ( \* animation de bouclage)                  |
-| **Lire**                   | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Ouvre le magazine, lit et recherche                     |
+| **Lecture**                   | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Ouvre le magazine, lit et recherche                     |
 | **ReadContinued**          | **ReadReturn**           | Oui               | **Oui**       | Aucun                                         | Lectures et recherches                                     |
 | **ReadReturn**             | Aucun                     | Non                | **Oui**       | Aucun                                         | Retourne à la position neutre                            |
 | **Lecture**                | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Lectures ( \* animation de bouclage)                            |
 | **RestPose**               | Aucun                     | Oui               | **Non**        | **Parlez**                                 | Position neutre                                       |
 | **Fer**                    | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Expression Sad                                         |
-| **Recherche**                 | Aucun                     | Non                | **Oui**       | Aucun                                         | Révèle la télégénération et les rotations                          |
+| **action**                 | Aucun                     | Non                | **Oui**       | Aucun                                         | Révèle la télégénération et les rotations                          |
 | **Dans**              | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Révèle la télégénération et les rotations ( \* animation de bouclage)    |
 | **Afficher**                   | Aucun                     | Non                | **Oui**       | **Affichage**                                  | Rentrez dans                                               |
 | **StartListening**         | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Place à l’oreille                                       |
@@ -112,7 +112,7 @@ Le fichier de caractères comprend des effets sonores pour certaines animations,
 | **Opération en cours**               | Aucun                     | Non                | **Non**        | Aucun                                         | Recherche avec aile on face ( \* animation en boucle)       |
 | **Connaître**              | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Se penche sur Right et Shrugs                              |
 | **Wave**                   | Oui, utilisation des branches de sortie | Oui               | **Non**        | Aucun                                         | Fréquences                                                  |
-| **Écrire**                  | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Extrait le crayon et le bloc, écrit et recherche          |
+| **Écriture**                  | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Extrait le crayon et le bloc, écrit et recherche          |
 | **WriteContinued**         | **WriteReturn**          | Oui               | **Oui**       | Aucun                                         | Écritures et recherches                                    |
 | **WriteReturn**            | Aucun                     | Non                | **Non**        | Aucun                                         | Retourne à la position neutre                            |
 | **Écriture**                | Oui, utilisation des branches de sortie | Non                | **Oui**       | Aucun                                         | Tire un crayon et un bloc, écritures ( \* animation de bouclage) |

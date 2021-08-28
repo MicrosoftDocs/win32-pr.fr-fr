@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 757b1c469a528de3ea02cdccd07f8c6b99304b90
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 310e75063c00876e38fe5d5dce35bebd4778874f5395daa77c2b8e8b29c1cd11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104033294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119925759"
 ---
 # <a name="frs-computer-reference-attribute"></a>Attribut FRS-Computer-Reference
 
@@ -45,7 +45,7 @@ Référence à l’objet ordinateur d’un membre du jeu de réplicas.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

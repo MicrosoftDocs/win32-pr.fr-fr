@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 895bdfecf994f6673c2ed7e7367bc3a7b5bd70c9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e327d929b77108c1b675e6f42a311e4cad6dd9a056e5ac38b6d7e7f4558788c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927540"
 ---
 # <a name="extended-protection"></a>protection étendue
 
@@ -25,7 +25,7 @@ La protection étendue, le cas échéant, est configurée automatiquement sur le
 
 ## <a name="supported-configurations"></a>Configurations prises en charge
 
-La protection étendue est prise en charge lors de l’utilisation de la [**\_ \_ \_ liaison de canal http WS**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) avec des liaisons de sécurité à l’aide de protocoles d’authentification intégrée de Windows, tels que [**\_ \_ \_ \_ \_ liaison de sécurité d’en-tête WS http**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) et [**\_ \_ \_ \_ \_ liaison de sécurité de message WS Kerberos APREQ**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding). Il est configuré via les [**Propriétés de sécurité**](/windows/desktop/api/WebServices/ns-webservices-ws_security_property)suivantes :
+la protection étendue est prise en charge lors de l’utilisation de la [**\_ \_ \_ liaison de canal HTTP ws**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding) avec des liaisons de sécurité à l’aide de Windows protocoles d’authentification intégrés tels que la liaison de [**\_ \_ \_ \_ sécurité \_ d’en-tête ws http**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) et la [**liaison de sécurité de \_ MESSAGE ws KERBEROS \_ APREQ \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding). Il est configuré via les [**Propriétés de sécurité**](/windows/desktop/api/WebServices/ns-webservices-ws_security_property)suivantes :
 
 -   [**\_stratégie de \_ \_ protection étendue \_ \_ de la propriété WS Security**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id)
 -   [**\_scénario de \_ \_ protection étendue \_ des propriétés WS Security \_**](/windows/desktop/api/WebServices/ne-webservices-ws_security_property_id)
@@ -55,7 +55,7 @@ Remarque : la protection étendue non disponible n’empêche pas l’utilisati
 
 ## <a name="interoperability"></a>Interopérabilité
 
-Un serveur configuré par défaut peut communiquer avec les clients SOAP, qu’ils utilisent ou non la protection étendue. La seule exception étant Windows XP et Windows Server 2003, les clients WWSAPI mis à jour pour prendre en charge la protection étendue et utilisent la liaison de [**\_ sécurité de message WS Kerberos \_ APREQ \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) et la liaison de [**\_ sécurité de \_ transport \_ \_ WS SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Pour prendre en charge ces clients, la [**\_ stratégie de protection étendue WS ne doit \_ \_ \_ jamais**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) être spécifiée par le serveur. Les serveurs configurés avec la **stratégie de protection étendue de WS rejettent \_ \_ \_ \_ toujours** les communications des clients qui n’utilisent pas la protection étendue. Sur le client, **la \_ \_ liaison de \_ \_ sécurité de \_ message WS Kerberos APREQ** combinée à la **\_ \_ \_ \_ liaison de sécurité de transport WS SSL** entraîne l’envoi du message à l’aide de l’encodage de transfert en bloc http sur Vista et versions ultérieures. Cela peut entraîner des problèmes d’interopérabilité avec les serveurs qui ne prennent pas en charge le transfert mémorisé en bloc.
+Un serveur configuré par défaut peut communiquer avec les clients SOAP, qu’ils utilisent ou non la protection étendue. la seule exception Windows les clients XP et Windows Server 2003 WWSAPI qui ont été mis à jour pour prendre en charge la protection étendue et utilisent la liaison de [**\_ sécurité de MESSAGE ws KERBEROS \_ APREQ \_ \_ \_**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) et la liaison de [**\_ sécurité de \_ TRANSPORT \_ \_ ws SSL**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding). Pour prendre en charge ces clients, la [**\_ stratégie de protection étendue WS ne doit \_ \_ \_ jamais**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy) être spécifiée par le serveur. Les serveurs configurés avec la **stratégie de protection étendue de WS rejettent \_ \_ \_ \_ toujours** les communications des clients qui n’utilisent pas la protection étendue. Sur le client, **la \_ \_ liaison de \_ \_ sécurité de \_ message WS Kerberos APREQ** combinée à la **\_ \_ \_ \_ liaison de sécurité de transport WS SSL** entraîne l’envoi du message à l’aide de l’encodage de transfert en bloc http sur Vista et versions ultérieures. Cela peut entraîner des problèmes d’interopérabilité avec les serveurs qui ne prennent pas en charge le transfert mémorisé en bloc.
 
 Les enums/constantes suivants font partie de la protection étendue :
 
@@ -66,9 +66,9 @@ Les structures répertoires suivants font partie de la protection étendue :
 
 -   [**\_ \_ identités de sécurité WS service \_**](/windows/desktop/api/WebServices/ns-webservices-ws_service_security_identities)
 
- 
+ 
 
- 
+ 
 
 
 

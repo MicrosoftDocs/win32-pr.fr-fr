@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 360a4b88c8c03d2f04ad55bc65eebf6be3797c92
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e5126fde495c9553975daaf2db9e82de4ab4530a4629d217eba51818e20d1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119689079"
 ---
 # <a name="camschedulegetevent-method"></a>Méthode CAMSchedule. GetEvent
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne un handle pour un événement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si l’heure suivante de l’avis change en d’autres termes, si une nouvelle demande de notification est ajoutée au début de la liste, le planificateur signale cet événement. L’horloge doit appeler la méthode [**CAMSchedule :: Advise**](camschedule-advise.md) pour déterminer l’heure de l’avis suivante.
 
@@ -54,7 +54,7 @@ Si l’heure suivante de l’avis change en d’autres termes, si une nouvelle d
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Dsschedule. h (include streams. h)</dt> </dl>                                                                                |
+| En-tête<br/>  | <dl> <dt>Dsschedule. h (inclure Flux. h)</dt> </dl>                                                                                |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

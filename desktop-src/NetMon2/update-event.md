@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 3da45020a68114182a71b25ff9bba380d3f89eee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51fda96f988a6420acd772182c3259a3de09a10b8a9c2ac8678025e26f5fa15a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962809"
 ---
 # <a name="update_event-structure"></a>METTRE à jour la \_ structure d’événement
 
@@ -144,7 +144,7 @@ Cela n’est fourni que pour les arrêts non liés à la sécurité (par exemple
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les utilisateurs C++ doivent noter que la déclaration pour ce rappel doit se trouver dans la partie publique du fichier d’en-tête :
 

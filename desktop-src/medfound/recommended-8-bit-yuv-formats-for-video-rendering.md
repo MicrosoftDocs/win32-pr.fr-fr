@@ -4,12 +4,12 @@ ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
 title: Formats YUV 8 bits recommandés pour le rendu vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4505eb17f833040e0148ac98912f16af860b55b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc6e30f33c59bedf9a2e842d2d33328bd97d8078d21bda90ae84af9af00ec113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119722078"
 ---
 # <a name="recommended-8-bit-yuv-formats-for-video-rendering"></a>Formats YUV 8 bits recommandés pour le rendu vidéo
 
@@ -19,7 +19,7 @@ Microsoft Corporation
 
 2002 avril, mis à jour le 2008 novembre
 
-Cette rubrique décrit les formats de couleurs YUV 8 bits recommandés pour le rendu vidéo dans le système d’exploitation Windows. Cet article présente les techniques de conversion entre les formats YUV et RVB, et fournit également des techniques pour l’échantillonnage des formats YUV. Cet article est destiné aux personnes qui travaillent avec le décodage vidéo YUV ou le rendu dans Windows.
+cette rubrique décrit les formats de couleurs YUV 8 bits recommandés pour le rendu vidéo dans le système d’exploitation Windows. Cet article présente les techniques de conversion entre les formats YUV et RVB, et fournit également des techniques pour l’échantillonnage des formats YUV. Cet article est destiné aux personnes qui travaillent avec le décodage vidéo YUV ou le rendu dans Windows.
 
 ## <a name="introduction"></a>Introduction
 
@@ -52,9 +52,9 @@ Les diagrammes suivants montrent comment Chroma est échantillonné pour chaque 
 
 ![Figure 1. échantillonnage Chroma](images/yuv-sampling-grids.png)
 
-La forme dominante de l’échantillonnage 4:2:2 est définie dans la recommandation ITU-R BT. 601. Il existe deux variantes courantes de l’échantillonnage 4:2:0. L’une d’elles est utilisée dans MPEG-2 Video, tandis que l’autre est utilisée dans MPEG-1 et dans les recommandations de l’ITU-T et de l’h. 261.
+La forme dominante de l’échantillonnage 4:2:2 est définie dans la recommandation ITU-R BT. 601. Il existe deux variantes courantes de l’échantillonnage 4:2:0. l’une d’elles est utilisée dans mpeg-2 video, tandis que l’autre est utilisée dans mpeg-1 et dans ITU-T Recommandations H. 261 et H. 263.
 
-Comparé au schéma MPEG-1, il est plus simple de procéder à une conversion entre le schéma MPEG-2 et les grilles d’échantillonnage définies pour les formats 4:2:2 et 4:4:4. Pour cette raison, le schéma MPEG-2 est préféré dans Windows et doit être considéré comme l’interprétation par défaut des formats 4:2:0.
+Comparé au schéma MPEG-1, il est plus simple de procéder à une conversion entre le schéma MPEG-2 et les grilles d’échantillonnage définies pour les formats 4:2:2 et 4:4:4. pour cette raison, le schéma MPEG-2 est préféré dans Windows et doit être considéré comme l’interprétation par défaut des formats 4:2:0.
 
 ## <a name="surface-definitions"></a>Définitions de surface
 
@@ -193,7 +193,7 @@ Cette section fournit des instructions pour la conversion entre YUV et RVB, et p
 -   L’ordinateur RGB utilise 8 bits pour chaque échantillon de rouge, vert et bleu. Le noir est représenté par R = G = B = 0 et le blanc est représenté par R = G = B = 255.
 -   Studio Video RGB utilise un nombre de bits N pour chaque échantillon de rouge, vert et bleu, où N est supérieur ou supérieur à 8. Studio Video RGB utilise un facteur d’échelle différent de celui de l’ordinateur RGB et un décalage. Le noir est représenté par R = G = B = 16 \* 2 ^ (N-8) et le blanc est représenté par R = G = B = 235 \* 2 ^ (n-8). Toutefois, les valeurs réelles peuvent ne pas être comprises dans cette plage.
 
-Studio Video RGB est la définition RVB préférée pour la vidéo dans Windows, tandis que l’ordinateur RGB est la définition RVB préférée pour les applications non vidéo. Quelle que soit la forme RVB, les coordonnées chromatiques sont spécifiées dans ITU-R BT. 709 pour la définition des couleurs primaires RVB. Les coordonnées (x, y) de R, G et B sont (0,64, 0,33), (0,30, 0,60) et (0,15, 0,06), respectivement. Le blanc de référence est D65 avec les coordonnées (0,3127, 0,3290). La gamma nominal est de 1/0.45 (environ 2,2), avec un gamma précis défini en détail dans ITU-R BT. 709.
+Studio video rgb est la définition rvb préférée pour la vidéo dans Windows, tandis que l’ordinateur rgb est la définition rvb préférée pour les applications non vidéo. Quelle que soit la forme RVB, les coordonnées chromatiques sont spécifiées dans ITU-R BT. 709 pour la définition des couleurs primaires RVB. Les coordonnées (x, y) de R, G et B sont (0,64, 0,33), (0,30, 0,60) et (0,15, 0,06), respectivement. Le blanc de référence est D65 avec les coordonnées (0,3127, 0,3290). La gamma nominal est de 1/0.45 (environ 2,2), avec un gamma précis défini en détail dans ITU-R BT. 709.
 
 **Conversion entre RGB et 4:4:4 YUV**
 
@@ -384,7 +384,7 @@ Vous pouvez également déclarer directement un code FOURCC en tant que littéra
 DWORD fccYUY2 = '2YUY';  // Declares the FOURCC 'YUY2'
 ```
 
-L’inversion de l’ordre est nécessaire, car le système d’exploitation Windows utilise une architecture Little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.
+l’inversion de l’ordre est nécessaire, car le système d’exploitation Windows utilise une architecture little endian. 'Y' = 0x59, 'U' = 0x55, et' 2 ' = 0x32, donc' 2YUY’est 0x32595559.
 
 Dans Media Foundation, les formats sont identifiés par un GUID de type principal et un GUID de sous-type. Le type majeur pour les formats vidéo d’ordinateur est toujours MFMediaType \_ . Le sous-type peut être construit en mappant le code FOURCC à un GUID, comme suit :
 

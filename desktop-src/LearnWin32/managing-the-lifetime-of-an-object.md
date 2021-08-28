@@ -4,12 +4,12 @@ description: Découvrez comment gérer les méthodes AddRef et Release pour cont
 ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 495e657863150612e5b8efa21fff0b00c7a936b9
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 776a10ec4e7a873c5e8b86c3d2bfe91fd1531051d599831151d3dbec5ed3d70b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104559970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119897427"
 ---
 # <a name="managing-the-lifetime-of-an-object"></a>Gestion de la durée de vie d’un objet
 

@@ -1,42 +1,42 @@
 ---
-title: Bluetooth et options de socket
+title: Options de Bluetooth et de Socket
 description: Bluetooth pour Windows prend en charge les options de socket suivantes.
 ms.assetid: e2e305c2-e749-4566-8e24-c07a7a29c612
 keywords:
-- Bluetooth et options de Socket Bluetooth
+- Options de Bluetooth et de Socket Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84040a98c3dae1fec292e4f0a7086f11d1ee546c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 631eb2b041fcc320723155d4a5df1742e6c0dc79cb579815de141334906708e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119588429"
 ---
-# <a name="bluetooth-and-socket-options"></a>Bluetooth et options de socket
+# <a name="bluetooth-and-socket-options"></a>Options de Bluetooth et de Socket
 
 Bluetooth pour Windows prend en charge les options de socket suivantes. Les options de socket sont définies et interrogées à l’aide des fonctions [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) et [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) , respectivement. Toutes les options suivantes peuvent être utilisées avec la fonction **setsockopt** , mais seule l’option **SO de l' \_ \_ unité MTU de BTH** est disponible pour une utilisation avec la fonction **getsockopt** .
 
-Les paramètres suivants sont requis pour l’utilisation des options de Socket Bluetooth :
+les paramètres suivants sont requis pour l’utilisation des options de socket Bluetooth :
 
--   Le paramètre *s* doit être un Socket Bluetooth.
+-   le paramètre *s* doit être un socket Bluetooth.
 -   Le paramètre de *niveau* doit être **sol \_ RFCOMM**.
 
 ## <a name="so_bth_authenticate"></a>par conséquent, \_ BTH \_ Authenticate
 
-Pour les sockets déconnectés, l’authentification **\_ BTH de BTH \_** spécifie que l’authentification est requise pour que l’opération de [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) ou d' [**acceptation**](/windows/desktop/api/winsock2/nf-winsock2-accept) se termine correctement. La définition de cette option de socket lance activement l’authentification lors de l’établissement de la connexion, si les deux périphériques Bluetooth n’ont pas été authentifiés précédemment. L’interface utilisateur pour l’échange de clé d’aide, si nécessaire, est fournie par le système d’exploitation en dehors du contexte de l’application.
+Pour les sockets déconnectés, l’authentification **\_ BTH de BTH \_** spécifie que l’authentification est requise pour que l’opération de [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) ou d' [**acceptation**](/windows/desktop/api/winsock2/nf-winsock2-accept) se termine correctement. la définition de cette option de socket lance activement l’authentification lors de l’établissement de la connexion, si les deux appareils Bluetooth n’ont pas été authentifiés précédemment. L’interface utilisateur pour l’échange de clé d’aide, si nécessaire, est fournie par le système d’exploitation en dehors du contexte de l’application.
 
-Pour les connexions sortantes qui requièrent une authentification, l’opération de [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) échoue avec **WSAEACCES** si l’authentification échoue. En réponse, l’application peut inviter l’utilisateur à authentifier les deux périphériques Bluetooth avant la connexion.
+Pour les connexions sortantes qui requièrent une authentification, l’opération de [**connexion**](/windows/desktop/api/winsock2/nf-winsock2-connect) échoue avec **WSAEACCES** si l’authentification échoue. en réponse, l’application peut inviter l’utilisateur à authentifier les deux Bluetooth appareils avant la connexion.
 
-Pour les connexions entrantes, la connexion est rejetée si l’authentification ne peut pas être établie et renvoie une erreur **WSAEHOSTDOWN** . Pour plus d’informations sur l’authentification des appareils Bluetooth, consultez [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice).
+Pour les connexions entrantes, la connexion est rejetée si l’authentification ne peut pas être établie et renvoie une erreur **WSAEHOSTDOWN** . pour plus d’informations sur l’authentification des appareils Bluetooth, consultez [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice).
 
 Pour l’option de socket **\_ \_ authentification BTH so** , *OPTVAL* est un pointeur vers ulong BAuthenticate et doit avoir la **valeur true**; *optlen* est équivalent à « sizeof (ULONG) ».
 
-**Windows XP avec SP2 : so \_ BTH \_ Authenticate** démarre l’authentification pour les sockets connectés et force l’authentification lors de la connexion pour les sockets non connectés. Pour les connexions entrantes, la connexion est rejetée si l’authentification ne peut pas être effectuée.
+**Windows XP avec SP2 : \_ BTH \_ Authenticate** démarre l’authentification pour les sockets connectés et force l’authentification lors de la connexion pour les sockets non connectés. Pour les connexions entrantes, la connexion est rejetée si l’authentification ne peut pas être effectuée.
 
 ## <a name="so_bth_encrypt"></a>par conséquent, \_ BTH \_ Encrypt
 
-Sur les sockets non connectés, l’option de socket de **\_ \_ chiffrement BTH** permet d’appliquer le chiffrement pour établir une connexion. Le chiffrement est disponible uniquement pour les connexions authentifiées. Pour les connexions entrantes, une connexion pour laquelle le chiffrement ne peut pas être établi est automatiquement rejetée et retourne **WSAEHOSTDOWN** comme erreur. Pour les connexions sortantes, la fonction [**Connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) échoue avec **WSAEACCES** si le chiffrement ne peut pas être établi. En réponse, l’application peut inviter l’utilisateur à authentifier les deux périphériques Bluetooth avant la connexion. Pour plus d’informations sur l’authentification des appareils Bluetooth, consultez [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice).
+Sur les sockets non connectés, l’option de socket de **\_ \_ chiffrement BTH** permet d’appliquer le chiffrement pour établir une connexion. Le chiffrement est disponible uniquement pour les connexions authentifiées. Pour les connexions entrantes, une connexion pour laquelle le chiffrement ne peut pas être établi est automatiquement rejetée et retourne **WSAEHOSTDOWN** comme erreur. Pour les connexions sortantes, la fonction [**Connect**](/windows/desktop/api/winsock2/nf-winsock2-connect) échoue avec **WSAEACCES** si le chiffrement ne peut pas être établi. en réponse, l’application peut inviter l’utilisateur à authentifier les deux Bluetooth appareils avant la connexion. pour plus d’informations sur l’authentification des appareils Bluetooth, consultez [**BluetoothAuthenticateDevice**](/windows/desktop/api/BluetoothAPIs/nf-bluetoothapis-bluetoothauthenticatedevice).
 
 Pour l' \_ option de \_ Socket de chiffrement BTH so, *optval* est un pointeur vers ulong **BEncrypt** et doit avoir la **valeur true**. *optlen* est équivalent à sizeof (ULONG).
 
@@ -46,11 +46,11 @@ Pour l' \_ option de \_ Socket de chiffrement BTH so, *optval* est un pointeur v
 
 L’option de socket **\_ \_ MTU BTH** est une option avancée qui est principalement utilisée pour la validation. L’option SO de l’unité **\_ \_ MTU de BTH** obtient ou définit la valeur par défaut de RFCOMM MTU (unité de transmission maximale) pour la négociation de la connexion à une valeur différente de la valeur par défaut du protocole RFCOMM.
 
-Étant donné que l’unité MTU RFCOMM est affectée par l’unité MTU L2CAP sous-jacente, et les valeurs minimales et maximales du protocole et de l’application, la valeur par défaut de cette option est uniquement un point de départ pour la négociation avec l’homologue distant, et l’unité MTU négociée finale est susceptible de varier par rapport à la valeur par défaut. **\_ \_** La définition de la valeur de la **\_ \_ MTU de la vue BTH** peut avoir un impact négatif sur le débit, et en tant que telle, toute modification doit être effectuée avec la connaissance du protocole Bluetooth sous-jacent.
+Étant donné que l’unité MTU RFCOMM est affectée par l’unité MTU L2CAP sous-jacente, et les valeurs minimales et maximales du protocole et de l’application, la valeur par défaut de cette option est uniquement un point de départ pour la négociation avec l’homologue distant, et l’unité MTU négociée finale est susceptible de varier par rapport à la valeur par défaut. **\_ \_** la définition de la valeur de la **\_ \_ MTU de la vue BTH** peut avoir un impact négatif sur le débit, et en tant que telle, toute modification doit être effectuée avec la connaissance du protocole de Bluetooth sous-jacent.
 
 L’option de socket **\_ \_ MTU BTH** peut être exécutée sur des sockets connectés, mais elle n’a aucun effet si la négociation est déjà terminée. Sa définition sur le socket d’écoute (serveur) n’a aucun effet.
 
-La quantité de données qu’une application peut envoyer ou recevoir dans un seul appel de socket n’est pas affectée par l’unité de transmission (MTU). La MTU affecte uniquement la manière dont le fournisseur de services Windows Sockets sous-jacent segmente les paquets pour le transport. L’unité MTU proposée et la MTU en fin de négociation doivent être comprises entre **RFCOMM \_ Min \_ MTU** et **RFCOMM \_ \_ MTU Max**, comme défini dans le fichier d’en-tête Ws2bth. h.
+La quantité de données qu’une application peut envoyer ou recevoir dans un seul appel de socket n’est pas affectée par l’unité de transmission (MTU). la MTU affecte uniquement la manière dont le fournisseur de services de sockets Windows sous-jacent segmente les paquets pour le transport. L’unité MTU proposée et la MTU en fin de négociation doivent être comprises entre **RFCOMM \_ Min \_ MTU** et **RFCOMM \_ \_ MTU Max**, comme défini dans le fichier d’en-tête Ws2bth. h.
 
 Pour l’option de socket **\_ \_ MTU BTH** , *optval* est un pointeur vers l’unité MTU ulong ; *optlen* est équivalent à « sizeof (ULONG) ».
 
@@ -87,9 +87,9 @@ Pour l’option de socket de l' \_ \_ unité de transmission maximale BTH \_ , *
 [**entre**](/windows/desktop/api/winsock2/nf-winsock2-connect)
 </dt> <dt>
 
-[**accepter**](/windows/desktop/api/winsock2/nf-winsock2-accept)
+[**valide**](/windows/desktop/api/winsock2/nf-winsock2-accept)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

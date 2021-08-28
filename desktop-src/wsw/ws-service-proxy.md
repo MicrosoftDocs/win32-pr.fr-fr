@@ -6,12 +6,12 @@ keywords:
 - WS_SERVICE_PROXY
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cfe81f45141b2ac6eb64e17895261c3e6fea8db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1ba5c17b36d0ca36ce43192fe29a3ef9113cc47530f0fe8e00d67717f42f71bc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119880759"
 ---
 # <a name="ws_service_proxy"></a>\_proxy WS service \_
 
@@ -24,7 +24,7 @@ typedef struct _WS_SERVICE_PROXY WS_SERVICE_PROXY;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet est thread-safe. Pour plus d’informations, consultez [sécurité des threads](thread-safety.md).
 
@@ -34,8 +34,8 @@ Cet objet est thread-safe. Pour plus d’informations, consultez [sécurité des
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Applications du serveur 2008 R2 \[ Desktop Apps \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>WebServices. h</dt> </dl> |
 
 

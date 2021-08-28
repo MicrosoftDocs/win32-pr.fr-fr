@@ -4,12 +4,12 @@ ms.assetid: b9a5e7de-a603-4bd9-b854-1e58572c3b2b
 title: État de l’alimentation du système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e221142b5d39a4cb5bc49dbe85271c99837d0a20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bc73f022d54536272b51c58f8fa601e65a2c1b042968d2db8324bfb63449f40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143292"
 ---
 # <a name="system-power-status"></a>État de l’alimentation du système
 

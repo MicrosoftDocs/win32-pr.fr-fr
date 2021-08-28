@@ -4,12 +4,12 @@ ms.assetid: 509cd529-ff79-4b07-9e09-3c5ae65f6cba
 title: Allocation de mémoire virtuelle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89f42b4f7eb9d5de3c8c5e9339c9e5931a89e371
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c77039db22d4a9d2897e1269e3ee82902c81fae2274bea12d5a7f7abbaa9e7d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963469"
 ---
 # <a name="allocating-virtual-memory"></a>Allocation de mémoire virtuelle
 

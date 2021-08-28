@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a5d4a7938b96d3d8693fd2091fcbd4f664f465c5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 64ef83ba237524d3443fdaeada3b27ec07ef0a4261f8ee360de7f6b48b6586a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120027329"
 ---
 # <a name="d3dxquaternionnormalize-function-d3dx9mathh"></a>D3DXQuaternionNormalize, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXQUATERNION**](d3dxquaternion.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est la normale du Quaternion.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXQuaternionNormalize** peut être utilisée comme paramètre pour une autre fonction.
 

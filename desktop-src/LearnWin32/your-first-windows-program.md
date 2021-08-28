@@ -1,21 +1,21 @@
 ---
-title: Module 1. Votre premier programme Windows
-description: Module 1. Votre premier programme Windows
+title: Module 1. votre premier programme de Windows
+description: Module 1. votre premier programme de Windows
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6515b012f968707379ebf24023c3d282c50d6fd6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f1e09b4caf81f3498a5c36eaaf0dbc3a95f52f7dd2ba8c64d0f0f9b53d19fe2d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086439"
 ---
-# <a name="module-1-your-first-windows-program"></a>Module 1. Votre premier programme Windows
+# <a name="module-1-your-first-windows-program"></a>Module 1. votre premier programme de Windows
 
-Dans ce module, nous allons écrire un programme de bureau Windows minimal. Il s’agit de créer et d’afficher une fenêtre vide. Ce premier programme contient environ 50 lignes de code, sans compter les lignes vides et les commentaires. C’est notre point de départ. plus tard, nous ajouterons des graphiques, du texte, des entrées utilisateur et d’autres fonctionnalités.
+dans ce module, nous allons écrire un programme de bureau Windows minimal. Il s’agit de créer et d’afficher une fenêtre vide. Ce premier programme contient environ 50 lignes de code, sans compter les lignes vides et les commentaires. C’est notre point de départ. plus tard, nous ajouterons des graphiques, du texte, des entrées utilisateur et d’autres fonctionnalités.
 
-Si vous souhaitez plus d’informations sur la création d’une application de bureau Windows traditionnelle dans Visual Studio, consultez  [procédure pas à pas : créer une application de bureau Windows traditionnelle (C++)](/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019).
+si vous souhaitez plus d’informations sur la création d’une application de bureau Windows traditionnelle dans Visual Studio, consultez [procédure pas à pas : créer une application de bureau Windows traditionnelle (C++)](/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019).
 
 ![capture d’écran de l’exemple de programme](images/window01.png)
 
@@ -110,7 +110,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 
 
-Vous pouvez télécharger le projet Visual Studio complet à partir de l' [exemple Windows Hello World](windows-hello-world-sample.md).
+vous pouvez télécharger le projet complet Visual Studio à partir de [Windows Hello exemple World](windows-hello-world-sample.md).
 
 Il peut être utile de fournir une brève description de ce que fait ce code. Les rubriques ultérieures examinent le code en détail.
 
@@ -118,9 +118,9 @@ Il peut être utile de fournir une brève description de ce que fait ce code. Le
 2.  Ensuite, le programme crée la fenêtre et reçoit un handle qui identifie de façon unique la fenêtre.
 3.  Si la fenêtre est créée avec succès, le programme entre une boucle **while** . Le programme reste dans cette boucle jusqu’à ce que l’utilisateur ferme la fenêtre et quitte l’application.
 
-Notez que le programme n’appelle pas explicitement la `WindowProc` fonction, même si nous l’avons dit, c’est là que la plus grande partie de la logique d’application est définie. Windows communique avec votre programme en lui transmettant une série de *messages*. Le code à l’intérieur de la boucle **while** pilote ce processus. Chaque fois que le programme appelle la fonction [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) , il force indirectement Windows à appeler la fonction WindowProc, une fois pour chaque message.
+Notez que le programme n’appelle pas explicitement la `WindowProc` fonction, même si nous l’avons dit, c’est là que la plus grande partie de la logique d’application est définie. Windows communique avec votre programme en lui transmettant une série de *messages*. Le code à l’intérieur de la boucle **while** pilote ce processus. chaque fois que le programme appelle la fonction [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) , il force indirectement Windows à appeler la fonction WindowProc, une fois pour chaque message.
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 -   [Création d’une fenêtre](creating-a-window.md)
 -   [Messages de fenêtre](window-messages.md)
@@ -136,7 +136,7 @@ Notez que le programme n’appelle pas explicitement la `WindowProc` fonction, m
 [Apprendre à programmer pour Windows en C++](learn-to-program-for-windows.md)
 </dt> <dt>
 
-[Exemple de Hello World Windows](windows-hello-world-sample.md)
+[Windows Hello Exemple universel](windows-hello-world-sample.md)
 </dt> </dl>
 
  

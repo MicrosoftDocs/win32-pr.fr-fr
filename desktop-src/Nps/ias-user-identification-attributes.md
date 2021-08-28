@@ -7,19 +7,19 @@ keywords:
 - Attributs, identification de l’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527bdffad376ce92fa2fd7c5d5330fb752fea6aa
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ff099b46844f2259ad127346bb1ee2bfafccf4b116f3dba86dff3e175d11c28c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128759"
 ---
 # <a name="user-identification-attributes"></a>Attributs d’identification utilisateur
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 L’identité de l’utilisateur demandant l’authentification est fournie aux DLL d’extension NPS dans plusieurs attributs différents.
 
@@ -32,7 +32,7 @@ Chaque attribut fournit l’identité de l’utilisateur dans un format différe
 > [!Note]  
 > L’attribut User-Password, **ratUserPassword**, a déjà été déchiffré lorsqu’il est envoyé à la dll d’extension et est utilisable sous cette forme.
 
- 
+ 
 
 ## <a name="ratusername"></a>ratUserName
 
@@ -48,7 +48,7 @@ Le **ratStrippedUserName** est l’identité de l’utilisateur après « suppr
 
 Cet attribut peut être présent au point de plug-in de DLL d’extension d’authentification, au point de plug-in DLL d’extension d’autorisation ou aux deux. Le format de cet attribut est garanti :
 
-****\\*** Nom d’utilisateur du domaine*
+* Domaine * **\\** _nom d’utilisateur_
 
 Où *domaine* est le nom de domaine NetBIOS.
 
@@ -58,13 +58,13 @@ L’attribut **ratFQUserName** est le nom d’utilisateur « complet ».
 
 Cet attribut peut être présent dans le point de plug-in de DLL d’extension d’authentification, le point de plug-in DLL d’extension d’autorisation, ou les deux. Toutefois, le format de l’attribut peut varier entre les deux points de plug-in. Au point de plug-in de DLL d’extension d’authentification, cet attribut aura toujours la forme suivante :
 
-****\\*** Nom d’utilisateur du domaine*
+* Domaine * **\\** _nom d’utilisateur_
 
 Le format de l’attribut **ratFQUserName** au point de plug-in de DLL d’extension d’autorisation varie selon que l’utilisateur est un utilisateur Active Directory.
 
 -   Si l’utilisateur est un utilisateur local, **ratFQUserName** a le même format que pour le point de plug-in de DLL d’extension d’authentification :
 
-    ****\\*** Nom d’utilisateur du domaine*
+    * Domaine * **\\** _nom d’utilisateur_
 
     .
 
@@ -80,6 +80,6 @@ Le format de l’attribut **ratFQUserName** au point de plug-in de DLL d’exten
 [Appel des dll d’extension](/windows/desktop/Nps/ias-authentication-and-authorization-process)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

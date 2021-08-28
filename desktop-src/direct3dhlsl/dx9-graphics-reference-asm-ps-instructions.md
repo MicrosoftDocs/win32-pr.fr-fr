@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 782cea8fbd59b0f7bb629a602a5f9d207c837c18
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a0d41f9d02f72b98a5abf16e96771ffe0164c6b648f70fd188767aedf91b1c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119950089"
 ---
 # <a name="pixel-shader-instructions"></a>Instructions sur le nuanceur de pixels
 
@@ -26,7 +26,7 @@ ms.locfileid: "104971462"
 <!-- -->
 
 -   [Modificateurs pour PS \_ 1 \_ X](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-1-x.md)
--   [Limitations du contrôle de Flow](dx9-graphics-reference-asm-ps-instructions-flow-control.md)
+-   [Flow Limitations des contrôles](dx9-graphics-reference-asm-ps-instructions-flow-control.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -35,9 +35,9 @@ ms.locfileid: "104971462"
 [Nuanceurs de pixels](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

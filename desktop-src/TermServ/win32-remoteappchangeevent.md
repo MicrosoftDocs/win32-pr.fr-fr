@@ -1,6 +1,6 @@
 ---
 title: Classe Win32_RemoteAppChangeEvent
-description: Représente une modification apportée aux paramètres RemoteApp de Windows Server 2008 R2 sur le serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
+description: représente une modification apportée aux paramètres RemoteApp de Windows server 2008 R2 sur le serveur hôte de session Bureau à distance (hôte de session bureau à distance).
 ms.assetid: 3434ee4e-283e-4147-a73b-c131e8af6c57
 ms.tgt_platform: multiple
 keywords:
@@ -18,16 +18,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5355d057038e97e9f381646134ff6487541f67f6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f4adbb8fd609022256435e9145098fe7adcf82d0ef2e8ebb9e98c5146a263605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118848804"
 ---
 # <a name="win32_remoteappchangeevent-class"></a>\_Classe RemoteAppChangeEvent Win32
 
-Représente une modification apportée aux paramètres RemoteApp de Windows Server 2008 R2 sur le serveur hôte de session Bureau à distance (hôte de session Bureau à distance).
+représente une modification apportée aux paramètres RemoteApp de Windows server 2008 R2 sur le serveur hôte de session Bureau à distance (hôte de session bureau à distance).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -79,9 +79,9 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour se connecter à l’espace de noms « root \\ cimv2 \\ licences TS », le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**, qui peut être défini à l’aide de la fonction com [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) . Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de 6. L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+Pour se connecter à l’espace de noms « root \\ cimv2 \\ licences TS », le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**, qui peut être défini à l’aide de la fonction com [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) . pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de 6. l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -92,7 +92,7 @@ Set objServices = GetObject( _
 
 
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

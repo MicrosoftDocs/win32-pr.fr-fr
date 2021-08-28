@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b117706603316606acc6cf694288cb4ecbd66cb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 21fba9fe0585dc2647f4322cee35318f570556ac82141dad7af09f9a0e070b2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705909"
 ---
 # <a name="is-recycled-attribute"></a>Attribut Is-Recycled
 

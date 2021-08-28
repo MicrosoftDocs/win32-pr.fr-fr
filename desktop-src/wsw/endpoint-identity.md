@@ -3,17 +3,17 @@ title: Identité du point de terminaison
 description: Les types définis dans cette section sont utilisés pour définir l’identité de sécurité d’une adresse de point de terminaison.
 ms.assetid: 39639b9a-32e2-44d2-9bda-a2ad23850de8
 keywords:
-- Services Web de l’identité du point de terminaison pour Windows
+- Services Web d’identité de point de terminaison pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a7a3f7b95d5fc1b926d8bafb49b06f96c7d68fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 819fd2b33f1c74f88ef9032a49bd9aa4f04e34f1dcd4e599120951afabb6e167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927589"
 ---
 # <a name="endpoint-identity"></a>Identité du point de terminaison
 
@@ -29,7 +29,7 @@ Les éléments d’API suivants font partie de la mise en retrait du point de te
 
 
 
- 
+ 
 
 
 
@@ -45,11 +45,11 @@ Les éléments d’API suivants font partie de la mise en retrait du point de te
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

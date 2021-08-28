@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: e1d2f4f435fa31df00b87e20254aad57b690b047
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 365721c1378c4c0231b00dcf34ab32490d5006ed3bfd8e6dc585a90b9ac8b916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879359"
 ---
 # <a name="capicom_eku-enumeration"></a>CAPICOM \_ , énumération EKU
 
@@ -40,7 +40,7 @@ Le type d’énumération **\_ EKU** d’un CAPICOM définit les noms de l’uti
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le type d’énumération **\_ EKU CAPICOM** est utilisé par l' [**utilisation améliorée de la EKU. Propriété Name**](eku-name.md) .
 
@@ -50,7 +50,7 @@ Le type d’énumération **\_ EKU CAPICOM** est utilisé par l' [**utilisation 
 
 | Condition requise | Valeur |
 |----------------------------|--------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                |
 | En-tête<br/>          | <dl> <dt>CAPICOM. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 43970c99-53f1-43c1-9d9f-65573572f731
 title: SSP Kerberos/AP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d14565c8c6526d9cab34d7b9ddec9a0a04ff8de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83bf0830481640fb4c51dc0760ff91f8816bf66a105a1c51305ad94c06fc284a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140972"
 ---
 # <a name="kerberos-sspap"></a>SSP Kerberos/AP
 
@@ -17,7 +17,7 @@ Le package d’authentification [*Kerberos*](../secgloss/k-gly.md) est utilisé 
 
 Lorsqu’un utilisateur se connecte à l’aide d’un compte réseau, par défaut, Kerberos tente de se connecter au [*Centre de distribution de clés*](../secgloss/k-gly.md) Kerberos sur le contrôleur de domaine et d’obtenir un ticket TGT (Ticket Granting Ticket) à l’aide des données de connexion fournies par l’utilisateur.
 
-Si aucun KDC Kerberos n’est disponible, Windows utilise MSV1 \_ 0 et l’authentification directe comme décrit dans [ \_ package d’authentification MSV1 0](msv1-0-authentication-package.md).
+si aucun KDC Kerberos n’est disponible, Windows utilise MSV1 \_ 0 et l’authentification directe comme décrit dans [ \_ Package d’authentification MSV1 0](msv1-0-authentication-package.md).
 
 Le package d’authentification Kerberos prend en charge la version 5, révision 6 du protocole Kerberos. Ce protocole est basé sur Internet [RFC 4120](https://www.ietf.org/rfc/rfc4120.txt). Pour plus d’informations, consultez le site Web IETF :
 

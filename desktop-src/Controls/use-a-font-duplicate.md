@@ -4,27 +4,27 @@ description: Cette section explique comment utiliser un doublon de police pour a
 ms.assetid: CF0123E5-313F-4583-872F-6FE954F1C9E8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52dce0481b59fe9955b93a00b2c0d703c5c695ef
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 4c5558d4866c888e33ba31ad1a65f6b32a1c675ebe759bc5f24d2904c1ebce0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103940782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119695999"
 ---
 # <a name="how-to-use-a-font-duplicate"></a>Utilisation d’un doublon de police
 
 Cette section explique comment utiliser un doublon de police pour appliquer simultanément un certain nombre de modifications à une plage de texte.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -84,12 +84,12 @@ void ChangeFontNameSizeBold(ITextSelection *pSel)
 [Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
 </dt> <dt>
 
-[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
+[Windows démonstration des contrôles communs (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

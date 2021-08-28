@@ -7,12 +7,12 @@ keywords:
 - Ruban, événements
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9519553a40cd613085949d4650c2689e817f387e47e9ab4380b629464e90d2b
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dcf28052aa741437a7f96f90ddb1b4a773ae4c4a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118202969"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473035"
 ---
 # <a name="listening-for-ribbon-events"></a>Écoute des événements de ruban
 
@@ -31,98 +31,21 @@ L’utilisation des événements de l’infrastructure du ruban implique les op�
 
 Les événements exposés aux applications du ruban sont décrits dans le tableau suivant. 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Événement</th>
-<th>Rapport d’événements</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Onglet activé</td>
-<td>ID de commande<br/> Nom de commande<br/> Verbe d’événement<br/></td>
-</tr>
-<tr class="even">
-<td>Onglet contextuel activé</td>
-<td>ID de commande<br/> Nom de commande<br/> Verbe d’événement<br/></td>
-</tr>
-<tr class="odd">
-<td>Menu de l’application ouvert</td>
-<td>Verbe d’événement<br/></td>
-</tr>
-<tr class="even">
-<td>Menu de l’application fermé</td>
-<td>Verbe d’événement<br/></td>
-</tr>
-<tr class="odd">
-<td>Menu (normal ou Galerie ouvert)</td>
-<td>ID de commande<br/> Nom de commande<br/> Verbe d’événement<br/>
-<blockquote>
-[!Note]<br />
-Les événements de menu QAT ne sont pas exposés.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Menu (normal ou Galerie fermé)</td>
-<td>ID de commande<br/> Nom de commande<br/> Verbe d’événement<br/>
-<blockquote>
-[!Note]<br />
-Les événements de menu QAT ne sont pas exposés.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Commande</td>
-<td>ID de commande<br/> Nom de commande<br/> Verbe d’événement<br/> L’un des emplacements d’événements suivants :
-<ul>
-<li>DERNIER</li>
-<li>QUICKACCESSTOOLBAR</li>
-<li>APPLICATIONMENU</li>
-<li>CONTEXTPOPUP</li>
-</ul>
-<br/> ID de commande parent<br/> Nom de la commande parente<br/> L’une des méthodes d’appel suivantes :
-<ul>
-<li>Cliquez sur</li>
-<li>KEYTIP</li>
-<li>CLAVIER</li>
-<li>INTERFACE</li>
-</ul>
-<br/>
-<blockquote>
-[!Note]<br />
-Les galeries d’éléments et les zones de liste déroulante incluent l’index d’élément sélectionné, mais n’incluent pas les valeurs de chaîne et d’entier. Les jointures n’incluent pas la valeur entière.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td>Ruban réduit</td>
-<td>Verbe d’événement<br/></td>
-</tr>
-<tr class="odd">
-<td>Ruban développé (bouton de développement cliqué ou appui sur épinglé)</td>
-<td>Verbe d’événement<br/></td>
-</tr>
-<tr class="even">
-<td>Mode d’application basculé</td>
-<td>Verbe d’événement<br/> ID de mode (valeur définie par <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes"><strong>SetModes</strong></a>)<br/>
-<blockquote>
-[!Note]<br />
-L’application est chargée de décompresser cet entier pour déterminer les modes qui ont été définis.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Info-bulle affichée</td>
-<td>Verbe d’événement<br/> ID de commande parent<br/> Nom de la commande parente<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Événement | Rapport d’événements | 
+|-------|--------------|
+| Onglet activé | ID de commande<br /> Nom de commande<br /> Verbe d’événement<br /> | 
+| Onglet contextuel activé | ID de commande<br /> Nom de commande<br /> Verbe d’événement<br /> | 
+| Menu de l’application ouvert | Verbe d’événement<br /> | 
+| Menu de l’application fermé | Verbe d’événement<br /> | 
+| Menu (normal ou Galerie ouvert) | ID de commande<br /> Nom de commande<br /> Verbe d’événement<br /><blockquote>[!Note]<br />Les événements de menu QAT ne sont pas exposés.</blockquote><br /> | 
+| Menu (normal ou Galerie fermé) | ID de commande<br /> Nom de commande<br /> Verbe d’événement<br /><blockquote>[!Note]<br />Les événements de menu QAT ne sont pas exposés.</blockquote><br /> | 
+| Commande | ID de commande<br /> Nom de commande<br /> Verbe d’événement<br /> L’un des emplacements d’événements suivants :<ul><li>DERNIER</li><li>QUICKACCESSTOOLBAR</li><li>APPLICATIONMENU</li><li>CONTEXTPOPUP</li></ul><br /> ID de commande parent<br /> Nom de la commande parente<br /> L’une des méthodes d’appel suivantes :<ul><li>Cliquez sur</li><li>KEYTIP</li><li>CLAVIER</li><li>INTERFACE</li></ul><br /><blockquote>[!Note]<br />Les galeries d’éléments et les zones de liste déroulante incluent l’index d’élément sélectionné, mais n’incluent pas les valeurs de chaîne et d’entier. Les jointures n’incluent pas la valeur entière.</blockquote><br /> | 
+| Ruban réduit | Verbe d’événement<br /> | 
+| Ruban développé (bouton de développement cliqué ou appui sur épinglé) | Verbe d’événement<br /> | 
+| Mode d’application basculé | Verbe d’événement<br /> ID de mode (valeur définie par <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setmodes"><strong>SetModes</strong></a>)<br /><blockquote>[!Note]<br />L’application est chargée de décompresser cet entier pour déterminer les modes qui ont été définis.</blockquote><br /> | 
+| Info-bulle affichée | Verbe d’événement<br /> ID de commande parent<br /> Nom de la commande parente<br /> | 
+
 
 
 
