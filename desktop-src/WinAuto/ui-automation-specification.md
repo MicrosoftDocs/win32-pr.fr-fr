@@ -4,12 +4,12 @@ description: cette rubrique fournit une vue d’ensemble de la spécification d�
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fc07b70128a401d48813ded68c31dfcfca5bb5a49d2ca46683e9a902af003ad
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d78298299241545033b25dccc8d79376ec55e1b
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118325094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987642"
 ---
 # <a name="ui-automation-specification"></a>Spécification UI Automation
 
@@ -100,7 +100,7 @@ Un type de contrôle est une propriété d’élément Automation qui spécifie 
 
 Avant de pouvoir assigner un type de contrôle à un élément, l’élément doit respecter certaines conditions, y compris une structure d’arborescence Automation, des valeurs de propriété, des modèles de contrôle et des événements particuliers. Toutefois, vous n’en êtes pas limité. Vous pouvez étendre un contrôle avec des modèles et des propriétés personnalisés, ainsi que les éléments prédéfinis.
 
-Le nombre total de types de contrôle prédéfinis est nettement inférieur à celui des [rôles d’objet](object-roles.md)de Microsoft Active Accessibility, car les types de contrôle UI Automation peuvent être combinés pour exprimer un plus grand ensemble de fonctionnalités, contrairement aux rôles Microsoft Active Accessibility.
+Le nombre total de types de contrôle prédéfinis est nettement inférieur à celui des [rôles d’objet](object-roles.md)de Microsoft Active Accessibility, car les modèles de contrôle UI Automation peuvent être combinés pour exprimer un plus grand ensemble de fonctionnalités, contrairement aux rôles Microsoft Active Accessibility.
 
 Pour plus d'informations, consultez [UI Automation Control Types Overview](uiauto-controltypesoverview.md).
 

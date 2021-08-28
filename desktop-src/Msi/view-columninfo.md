@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 38c016b15108446cc04114adc06ad12686d9932c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08996c3e77212032eac8f65621c7f8ca9ee8489683295c63fb30092995ad41d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012699"
 ---
 # <a name="viewcolumninfo-property"></a>View. ColumnInfo, propriété
 
@@ -50,7 +50,7 @@ Informations requises pour chaque colonne.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les descriptions de colonne retournées par la propriété **COLUMNINFO** sont au format décrit dans [format de définition de colonne](column-definition-format.md). Chaque colonne est décrite par une chaîne dans le champ d’enregistrement correspondant. La chaîne de définition se compose d’une seule lettre représentant le type de données suivi de la largeur de la colonne (en caractères, le cas échéant, ou d’octets). Une largeur de zéro désigne une largeur illimitée (champs de texte long et flux). Une lettre majuscule indique que les valeurs NULL sont autorisées dans la colonne.
 

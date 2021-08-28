@@ -10,12 +10,12 @@ keywords:
 - Zone FileList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ebe106bdada4da55eef8891a3c93ee82aba3cc4da9194e1fcd4c7e71bcd4e3
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ac85478bd42737f0a240b356bb6b3b73e838a8ee
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118745682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884522"
 ---
 # <a name="customizing-a-folders-web-view"></a>Personnalisation de l’affichage Web d’un dossier
 
@@ -365,7 +365,7 @@ Lorsqu’une vue Web est redimensionnée, la largeur de la région d’informati
 
 ### <a name="loading-and-initializing-the-web-view"></a>Chargement et initialisation de l’affichage Web
 
-Lorsqu’un affichage Web est chargé, la disposition doit être ajustée pour correspondre à la zone d’affichage disponible. Comme aucun élément n’a encore été sélectionné, les affichages Web affichent normalement des informations par défaut qui s’appliquent à l’ensemble du dossier. Pour gérer l’initialisation, le <BODY> tag pour Generic. htt détecte l’événement [OnLoad](/previous-versions//ms531409(v=vs.85)) et appelle la fonction **init** .
+Lorsqu’un affichage Web est chargé, la disposition doit être ajustée pour correspondre à la zone d’affichage disponible. Comme aucun élément n’a encore été sélectionné, les affichages Web affichent normalement des informations par défaut qui s’appliquent à l’ensemble du dossier. Pour gérer l’initialisation, la &lt; &gt; balise body pour Generic. htt détecte l’événement [OnLoad](/previous-versions//ms531409(v=vs.85)) et appelle la fonction **init** .
 
 
 ```
@@ -513,7 +513,7 @@ Le script utilise deux propriétés FileList, [**filelist. FocusedItem**](/windo
 
 Toutes les informations sont concaténées dans une chaîne de texte unique, séparées par <BR> balises pour la lisibilité. Le texte est ensuite affiché en l’affectant à [TextBlock. innerHTML](https://msdn.microsoft.com/library/ms533897(VS.85).aspx).
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 ce chapitre décrit certaines des techniques que vous pouvez utiliser pour personnaliser la façon dont l’explorateur de Windows affiche des informations sur les dossiers Shell. La création d’un fichier Desktop.ini vous permet d’effectuer une simple personnalisation, comme l’affichage d’une icône personnalisée à la place de l’icône de dossier standard. Lorsqu’un dossier s’affiche dans une vue Web, sa disposition et son affichage sont contrôlés par un modèle HTML qui détermine quelles informations sont affichées et comment. Vous pouvez exercer un haut degré de contrôle sur l’affichage Web d’un dossier à l’aide de techniques de script, HTML et DHTML standard pour créer un modèle personnalisé.
 

@@ -17,27 +17,27 @@ keywords:
 - fichiers d'en-tête
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20ea29b0abd4c6ed791ae3195f36a0f8184c8596
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 3664866280d570f9fa5f07acc6245ca2b4c1bff7
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381450"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470056"
 ---
 # <a name="ui-automation-overview"></a>Vue d'ensemble d'UI Automation
 
 Microsoft UI Automation est une infrastructure d’accessibilité pour Windows. Il fournit un accès par programme à la plupart des éléments d’interface utilisateur sur le bureau. Il permet aux produits de technologie d’assistance, tels que les lecteurs d’écran, de fournir des informations sur l’interface utilisateur aux utilisateurs finaux et de manipuler l’interface utilisateur par d’autres moyens que l’entrée standard. UI Automation permet également aux scripts de test automatisés d’interagir avec l’interface utilisateur.
 
-UI Automation était d’abord disponible dans Windows XP dans le cadre de l’infrastructure Microsoft .NET. Bien qu’une API C++ non managée ait également été publiée à ce moment-là, l’utilité des fonctions clientes était limitée en raison de problèmes d’interopérabilité. Pour Windows 7, l’API a été réécrite dans le modèle COM (Component Object Model).
+UI Automation était d’abord disponible dans Windows XP dans le cadre de la .NET Framework Microsoft. Bien qu’une API C++ non managée ait également été publiée à ce moment-là, l’utilité des fonctions clientes était limitée en raison de problèmes d’interopérabilité. pour Windows 7, l’API a été réécrite dans le modèle COM (component Object Model).
 
 > [!Note]  
 > Bien que les fonctions de bibliothèque introduites dans la version antérieure d’UI Automation soient toujours documentées, elles ne doivent pas être utilisées dans les nouvelles applications.
 
  
 
-Les applications clientes UI Automation peuvent être écrites avec l’assurance qu’elles fonctionneront sur plusieurs infrastructures de contrôle Microsoft Windows. Le noyau UI Automation masque les différences dans les infrastructures qui sous-tendent les différents éléments de l’interface utilisateur. Par exemple, la propriété de **contenu** d’un bouton Windows Presentation Foundation (WPF), la propriété **Caption** d’un bouton Microsoft Win32 et la propriété **ALT** d’une image HTML sont toutes mappées à une seule propriété, **Name**, dans la vue UI Automation.
+les applications clientes UI Automation peuvent être écrites avec l’assurance qu’elles fonctionneront sur plusieurs infrastructures de contrôle Microsoft Windows. Le noyau UI Automation masque les différences dans les infrastructures qui sous-tendent les différents éléments de l’interface utilisateur. par exemple, la propriété de **contenu** d’un bouton Windows Presentation Foundation (WPF), la propriété **Caption** d’un bouton Microsoft Win32 et la propriété **ALT** d’une image HTML sont toutes mappées à une seule propriété, **Name**, dans la vue UI Automation.
 
-UI Automation fournit toutes les fonctionnalités de Windows XP, Windows Server 2003 et les systèmes d’exploitation ultérieurs.
+UI Automation offre des fonctionnalités complètes dans Windows XP, Windows Server 2003 et les systèmes d’exploitation ultérieurs.
 
 Les fournisseurs UI Automation sont des composants qui implémentent la prise en charge d’UI Automation sur les contrôles et offrent une certaine prise en charge pour les applications clientes Microsoft Active Accessibility, par le biais d’un service de pontage intégré.
 
@@ -59,41 +59,14 @@ UI Automation comporte quatre composants principaux, comme indiqué dans le tabl
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Composant</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>API du fournisseur</td>
-<td>Ensemble d’interfaces COM qui sont implémentées par les fournisseurs UI Automation. Les fournisseurs UI Automation sont des objets qui fournissent des informations sur les éléments d’interface utilisateur et répondent aux entrées par programmation.</td>
-</tr>
-<tr class="even">
-<td>API client</td>
-<td>Ensemble d’interfaces COM qui permettent aux applications clientes d’obtenir des informations sur l’interface utilisateur et d’envoyer des entrées à des contrôles.
-<blockquote>
-[!Note]<br />
-Les fonctions décrites dans <a href="uiauto-entry-cpfunctions.md">fonctions de modèle de contrôle déconseillées</a> et <a href="uiauto-entry-uianodefunctions.md">fonctions de nœud déconseillées</a> sont déconseillées. Au lieu de cela, les applications clientes doivent utiliser les interfaces COM UI Automation décrites dans <a href="uiauto-entry-uiautoclientinterfaces.md">interfaces d’élément UI Automation pour les clients</a>.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>UIAutomationCore.dll</td>
-<td>La bibliothèque Runtime, parfois appelée noyau UI Automation, gère la communication entre les fournisseurs et les clients.</td>
-</tr>
-<tr class="even">
-<td>Oleacc.dll</td>
-<td>La bibliothèque Runtime pour Microsoft Active Accessibility et les objets proxy. La bibliothèque fournit également des objets proxy utilisés par Microsoft Microsoft Active Accessibility au proxy UI Automation pour prendre en charge les contrôles Win32.</td>
-</tr>
-</tbody>
-</table>
+
+| Composant | Description | 
+|-----------|-------------|
+| API du fournisseur | Ensemble d’interfaces COM qui sont implémentées par les fournisseurs UI Automation. Les fournisseurs UI Automation sont des objets qui fournissent des informations sur les éléments d’interface utilisateur et répondent aux entrées par programmation. | 
+| API client | Ensemble d’interfaces COM qui permettent aux applications clientes d’obtenir des informations sur l’interface utilisateur et d’envoyer des entrées à des contrôles.<blockquote>[!Note]<br />Les fonctions décrites dans <a href="uiauto-entry-cpfunctions.md">fonctions de modèle de contrôle déconseillées</a> et <a href="uiauto-entry-uianodefunctions.md">fonctions de nœud déconseillées</a> sont déconseillées. Au lieu de cela, les applications clientes doivent utiliser les interfaces COM UI Automation décrites dans <a href="uiauto-entry-uiautoclientinterfaces.md">interfaces d’élément UI Automation pour les clients</a>.</blockquote><br /> | 
+| UIAutomationCore.dll | La bibliothèque Runtime, parfois appelée noyau UI Automation, gère la communication entre les fournisseurs et les clients. | 
+| Oleacc.dll | La bibliothèque Runtime pour Microsoft Active Accessibility et les objets proxy. La bibliothèque fournit également des objets proxy utilisés par Microsoft Microsoft Active Accessibility au proxy UI Automation pour prendre en charge les contrôles Win32. | 
+
 
 
 
@@ -103,7 +76,7 @@ Il existe deux façons d’utiliser UI Automation : pour créer la prise en cha
 
 ## <a name="ui-automation-header-files"></a>Fichiers d’en-tête UI Automation
 
-L’API UI Automation est définie dans plusieurs fichiers d’en-tête C/C++ différents inclus dans le kit de développement logiciel (SDK) Windows. Les fichiers d’en-tête UI Automation sont décrits dans le tableau suivant :
+l’API UI Automation est définie dans plusieurs fichiers d’en-tête C/C++ qui sont inclus avec le kit de développement logiciel (SDK) Windows. Les fichiers d’en-tête UI Automation sont décrits dans le tableau suivant :
 
 
 
@@ -122,7 +95,7 @@ Si vous développez une application qui utilise l’API UI Automation, vous deve
 
 ## <a name="ui-automation-model"></a>Modèle UI Automation
 
-UI Automation expose chaque élément de l’interface utilisateur aux applications clientes sous la forme d’un objet représenté par l’interface [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) . Les éléments sont contenus dans une arborescence, avec le bureau comme élément racine. Les clients peuvent filtrer l’affichage brut de l’arborescence sous la forme d’une vue de contrôle ou d’une vue de contenu. Ces vues standard de la structure peuvent être consultées facilement à l’aide de l’application [Inspect](inspect-objects.md) qui est incluse dans le SDK Windows. Les applications peuvent également créer des vues personnalisées.
+UI Automation expose chaque élément de l’interface utilisateur aux applications clientes sous la forme d’un objet représenté par l’interface [**IUIAutomationElement**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelement) . Les éléments sont contenus dans une arborescence, avec le bureau comme élément racine. Les clients peuvent filtrer l’affichage brut de l’arborescence sous la forme d’une vue de contrôle ou d’une vue de contenu. ces vues standard de la structure peuvent être consultées facilement à l’aide de l’application [Inspect](inspect-objects.md) qui est incluse dans le SDK Windows. Les applications peuvent également créer des vues personnalisées.
 
 Un élément UI Automation expose les propriétés du contrôle ou de l’élément d’interface qu’il représente. L’une de ces propriétés est le type de contrôle, qui définit l’apparence et les fonctionnalités de base du contrôle ou de l’élément d’interface utilisateur sous la forme d’une entité reconnaissable unique, par exemple, un bouton ou une case à cocher. Pour plus d’informations sur les types de contrôle, consultez [UI Automation Control types Overview](uiauto-controltypesoverview.md).
 

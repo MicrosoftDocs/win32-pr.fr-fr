@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6f6fe16d6a134af51247ceebcb6b0c50785a81151055e6e0f0afaf29f5b70d45
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: 427ed51c2757075ccb28fd70e5554c49dc8db4e8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119453079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122986822"
 ---
 # <a name="temporary-database-parameters"></a>Paramètres de base de données temporaires
 
@@ -36,58 +36,21 @@ Cette rubrique contient les paramètres utilisés pour la base de données tempo
 
 Ce paramètre contrôle l’utilisation des transactions dans les tables temporaires. Lorsque ce paramètre a la valeur false, les tables temporaires sont plus rapides, mais il n’est pas possible de restaurer les mises à jour effectuées dans une transaction.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>True</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Boolean</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>False, True</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>Vrai</p> | 
+| <p>Tapez :</p> | <p>Booléen</p> | 
+| <p>Plage valide :</p> | <p>False, True</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>No</p> | 
+| <p>Affecte la fiabilité :</p> | <p>Yes</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramPageTempDBMin*  
@@ -97,58 +60,21 @@ Ce paramètre contrôle la taille initiale de la base de données temporaire. La
 
 Il est souvent souhaitable que les petites applications configurent la base de données temporaire aussi petite que possible. L’affectation de la valeur 14 à ce paramètre permet d’obtenir la plus petite base de données temporaire possible. Notez qu’il est également possible d’éliminer entièrement la base de données temporaire en affectant à **JET_paramMaxTemporaryTables** la valeur zéro.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>0</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Integer</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 2147483647</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>0</p> | 
+| <p>Tapez :</p> | <p>Entier</p> | 
+| <p>Plage valide :</p> | <p>0 – 2147483647</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>Yes</p> | 
+| <p>Affecte les ressources :</p> | <p>Yes</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 *JET_paramTempPath*  
@@ -158,82 +84,32 @@ Ce paramètre indique le chemin d’accès relatif ou absolu du système de fich
 
 **Remarque**  Si un chemin d’accès relatif est spécifié, il est relatif au répertoire de travail actuel du processus qui héberge l’application qui utilise le moteur de base de données.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Valeur par défaut :</p></td>
-<td><p>&quot;tmp. edb&quot;</p></td>
-</tr>
-<tr class="even">
-<td><p>Tapez :</p></td>
-<td><p>Path (chaîne)</p></td>
-</tr>
-<tr class="odd">
-<td><p>Plage valide :</p></td>
-<td><p>0 – 247 caractères</p></td>
-</tr>
-<tr class="even">
-<td><p>Étendue :</p></td>
-<td><p>Instance</p></td>
-</tr>
-<tr class="odd">
-<td><p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte la disposition physique :</p></td>
-<td><p>Oui</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte la fiabilité :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Affecte les performances :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="even">
-<td><p>Affecte les ressources :</p></td>
-<td><p>Non</p></td>
-</tr>
-<tr class="odd">
-<td><p>Disponibilité :</p></td>
-<td><p>Tous</p></td>
-</tr>
-</tbody>
-</table>
+
+| Étiquette | Valeur |
+|--------|-------|
+| <p>Valeur par défaut :</p> | <p>« tmp. edb »</p> | 
+| <p>Tapez :</p> | <p>Path (chaîne)</p> | 
+| <p>Plage valide :</p> | <p>0 – 247 caractères</p> | 
+| <p>Étendue :</p> | <p>Instance</p> | 
+| <p>Définir après <a href="gg269354(v=exchg.10).md">JetCreateInstance</a>:</p> | <p>Yes</p> | 
+| <p>Définir après <a href="gg294068(v=exchg.10).md">JetInit</a>:</p> | <p>No</p> | 
+| <p>Affecte la disposition physique :</p> | <p>Yes</p> | 
+| <p>Affecte la fiabilité :</p> | <p>No</p> | 
+| <p>Affecte les performances :</p> | <p>No</p> | 
+| <p>Affecte les ressources :</p> | <p>No</p> | 
+| <p>Disponibilité :</p> | <p>Tous</p> | 
+
 
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

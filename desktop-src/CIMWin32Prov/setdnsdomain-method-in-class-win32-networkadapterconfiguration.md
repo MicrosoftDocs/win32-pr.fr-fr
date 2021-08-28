@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c440d8cb5c720bf6922707f04bc75e2383755c1e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a5fd02168c19a5424ef455380bd9e1251f2e8f6c48a9dd8ea5ec4e9e1a1b1e4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759909"
 ---
 # <a name="setdnsdomain-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetDNSDomain de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -406,7 +406,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un appel de méthode dépendant de l’instance qui s’applique sur la base de chaque adaptateur. Le paramètre s’applique à l’adaptateur ciblé.
 
@@ -416,7 +416,7 @@ L’exemple de code [attribuer le domaine DNS pour une carte réseau](https://Ga
 
 L’exemple de code [modifier la configuration TCP/IP pour un ordinateur](https://Gallery.TechNet.Microsoft.Com/3d5ae334-1d75-4cea-8079-78c6bd836faf) VBScript dans la Galerie TechNet utilise **SetDNSDomain** pour modifier les paramètres TCP/IP d’une carte réseau.
 
-L’exemple d' [activation de paramètres DHCP sur un ordinateur](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) en VBScript sur la Galerie TechNet utilise **SetDNSDomain** pour configurer tous les paramètres généralement requis pour activer DHCP sur un ordinateur.
+l’exemple d’activation de la [Paramètres DHCP sur un ordinateur](https://Gallery.TechNet.Microsoft.Com/41e6ab51-78c0-4413-b086-03fde33ea125) en VBScript sur la galerie TechNet utilise **SetDNSDomain** pour configurer tous les paramètres généralement requis pour activer DHCP sur un ordinateur.
 
 ## <a name="requirements"></a>Configuration requise
 

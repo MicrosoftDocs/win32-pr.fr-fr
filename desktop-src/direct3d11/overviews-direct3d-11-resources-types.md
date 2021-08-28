@@ -4,12 +4,12 @@ description: Cette rubrique décrit les types de ressources de Direct3D 10, ains
 ms.assetid: 9329f260-e806-4d6d-b6d1-3d001fad411a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3df57c5a4f6010df0494b6533a200d70be892e4
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
-ms.translationtype: HT
+ms.openlocfilehash: 3d429c42313a4a6db11c136a9f3566746ef7d53a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381442"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469826"
 ---
 # <a name="types-of-resources"></a>Types de ressources
 
@@ -17,24 +17,9 @@ Les ressources sont des zones de mémoire accessibles par le pipeline Direct3D. 
 
 
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Différences entre Direct3D 11 et Direct3D 10 :<br/> Direct3D 11 prend en charge plusieurs nouveaux types de ressources, notamment :<br/>
-<ul>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons et textures en lecture-écriture</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons structurées</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons à adresse octet</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">Ajouter et consommer des tampons</a></li>
-<li><a href="direct3d-11-advanced-stages-cs-resources.md">tampon ou texture d’accès non ordonné</a></li>
-</ul>
-Direct3D 11,2 prend en charge les <a href="tiled-resources.md">ressources en mosaïque</a>.<br/> Direct3D 10 et Direct3D 11 prennent tous deux en charge les types de <a href="overviews-direct3d-11-resources-buffers-intro.md">mémoire tampon</a> et de <a href="overviews-direct3d-11-resources-textures-intro.md">texture</a> introduits dans Direct3D 10.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | Différences entre Direct3D 11 et Direct3D 10 :<br /> Direct3D 11 prend en charge plusieurs nouveaux types de ressources, notamment :<br /><ul><li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons et textures en lecture-écriture</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons structurées</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">mémoires tampons à adresse octet</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">Ajouter et consommer des tampons</a></li><li><a href="direct3d-11-advanced-stages-cs-resources.md">tampon ou texture d’accès non ordonné</a></li></ul>Direct3D 11,2 prend en charge les <a href="tiled-resources.md">ressources en mosaïque</a>.<br /> Direct3D 10 et Direct3D 11 prennent tous deux en charge les types de <a href="overviews-direct3d-11-resources-buffers-intro.md">mémoire tampon</a> et de <a href="overviews-direct3d-11-resources-textures-intro.md">texture</a> introduits dans Direct3D 10.<br /> | 
+
 
 
 

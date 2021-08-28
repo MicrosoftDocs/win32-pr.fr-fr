@@ -4,12 +4,12 @@ ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
 title: EncryptMessage (général), fonction (SSPI. h)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 3c661f5f529700db19683966783c1aa0793e376b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6645d58b753503853dae7998982a32221d1f0d14
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514784"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476285"
 ---
 # <a name="encryptmessage-general-function"></a>EncryptMessage (général) (fonction)
 
@@ -56,8 +56,12 @@ Lorsque vous utilisez le SSP Digest, ce paramètre doit avoir la valeur zéro.
 
 Ce paramètre peut être l’un des indicateurs suivants.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br/></td></tr><tr class="even"><td><span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl> <dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt> </dl></td><td>Envoyer un message d’alerte Schannel. Dans ce cas, le paramètre <em>pMessage</em> doit contenir un code d’événement SSL/TLS à deux octets standard. Cette valeur est prise en charge uniquement par le SSP Schannel.<br/></td></tr></tbody></table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br /> | 
+| <span id="SECQOP_WRAP_OOB_DATA"></span><span id="secqop_wrap_oob_data"></span><dl><dt><strong>SECQOP_WRAP_OOB_DATA</strong></dt></dl> | Envoyer un message d’alerte Schannel. Dans ce cas, le paramètre <em>pMessage</em> doit contenir un code d’événement SSL/TLS à deux octets standard. Cette valeur est prise en charge uniquement par le SSP Schannel.<br /> | 
+
 
 *pMessage* \[ in, out\]
 
@@ -81,7 +85,7 @@ Lorsque vous utilisez le SSP Schannel, ce paramètre doit avoir la valeur zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 
@@ -97,7 +101,7 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **s \_ E \_ jeton non valide \_**          | Aucune \_ mémoire tampon de type de données SECBUFFER n’a été trouvée.                                                                                                                                   |
 | **SEC \_ E \_ QoP \_ non \_ pris en charge**     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md). |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **EncryptMessage (général)** chiffre un message basé sur le message et la [*clé de session*](../secgloss/s-gly.md) à partir d’un contexte de [*sécurité*](../secgloss/s-gly.md).
 
@@ -127,8 +131,8 @@ Pour des performances optimales, les structures *pMessage* doivent être alloué
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]                                                            |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\]                                                   |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]                                                            |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\]                                                   |
 | En-tête                   | <dl> <dt>SSPI. h (include Security. h)</dt> </dl> |
 | Bibliothèque                  | <dl> <dt>Secur32. lib</dt> </dl>                 |
 | DLL                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

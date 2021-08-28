@@ -3,7 +3,7 @@ title: Message TB_GETCOLORSCHEME (commctrl. h)
 description: Récupère les informations de modèle de couleur à partir du contrôle ToolBar.
 ms.assetid: af172631-309e-4181-a690-05946cd6e143
 keywords:
-- TB_GETCOLORSCHEME les contrôles de message Windows
+- TB_GETCOLORSCHEME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61344439ae8bc2b3a9ecd47472174577d652aa96
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 22fca3a7a88fd108454c3838d646db311c9be19bf04163b4c8987db67f6c09c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918869"
 ---
 # <a name="tb_getcolorscheme-message"></a>TO \_ GETCOLORSCHEME message
 
@@ -49,8 +49,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

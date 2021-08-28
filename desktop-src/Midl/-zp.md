@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 553d99dee7dd08218680fc0b43e6e12237c4f8fa
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1795068aae1a5a8c3e793b828d5a80dbab369e16f9c5383af367b66d0febc738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067439"
 ---
 # <a name="zp-switch"></a>/ZP (commutateur)
 
@@ -38,7 +38,7 @@ Spécifie le niveau de compression des structures dans le système cible. La val
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le commutateur **/ZP** désigne le niveau de compression des structures dans le système cible. La valeur de niveau d’empaquetage correspond à la valeur de l’option **/ZP** utilisée par le compilateur Microsoft C/C++. Pour plus d’informations, consultez la documentation de programmation de Microsoft C/C++.
 
@@ -49,7 +49,7 @@ Le niveau de compression par défaut utilisé lorsque le commutateur **/ZP** ou 
 > [!Note]  
 > N’utilisez pas **/Zp1** ou **/ZP2** sur des plateformes MIPS ou alpha et n’utilisez pas **/zp4** ou **/Zp8** sur les plateformes 16 bits. En fonction du type de données et de l’emplacement de mémoire attribués par le compilateur C au moment de l’exécution, cela peut entraîner une exception de non-alignement des données sur les plateformes MIPS et alpha. Sur les plateformes MS-DOS, le compilateur C ne garantit pas l’alignement à 4 ou 8, et l’application peut donc se terminer.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -65,9 +65,9 @@ Le niveau de compression par défaut utilisé lorsque le commutateur **/ZP** ou 
 [**/Pack**](-pack.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

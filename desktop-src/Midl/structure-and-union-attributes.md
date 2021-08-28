@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL, attributs, structure et Union
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b2a7764d56c8557bd71923021a9f324a118ac81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc179632bb7e0d64b777f3c8a08b9de2af7bbf818978d6bb0a7ee2ea8b515542
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066669"
 ---
 # <a name="structure-and-union-attributes"></a>Attributs de structure et d’Union
 
@@ -19,7 +19,7 @@ Utilisez les attributs de **commutateur \_** \* pour spécifier la caractéristi
 
 
 
-| Attribut                           | Utilisation                                                                                                                         |
+| Attribut                           | Usage                                                                                                                         |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [**Utilisez**](switch.md)            | Sélectionne le discriminante pour une Union encapsulée.                                                                           |
 | [**le commutateur \_ est**](switch-is.md)     | Identifie le discriminante pour une Union qui n’est pas encapsulée.                                                                      |
@@ -28,13 +28,13 @@ Utilisez les attributs de **commutateur \_** \* pour spécifier la caractéristi
 
 
 
- 
+ 
 
 Vous pouvez également utiliser les [attributs de pointeur de tableau et de dimensionnement](array-and-sized-pointer-attributes.md) pour spécifier les caractéristiques des membres de structure ou d’Union.
 
- 
+ 
 
- 
+ 
 
 
 

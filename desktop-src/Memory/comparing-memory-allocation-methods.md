@@ -5,12 +5,12 @@ title: Comparaison des méthodes d’allocation de mémoire
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 541b314c4ff0553ff8812e591c47c87962866bbe
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 418ebbf96b1d6f714e1ae7f23f1c15e918ea0c6fa7eabdf7bb9157bb14808bb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103953783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067899"
 ---
 # <a name="comparing-memory-allocation-methods"></a>Comparaison des méthodes d’allocation de mémoire
 
@@ -26,7 +26,7 @@ Voici une brève comparaison des différentes méthodes d’allocation de mémoi
 
 Bien que les fonctions [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc), [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc)et [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) allouent finalement de la mémoire à partir du même tas, chacune d’elles fournit un ensemble de fonctionnalités légèrement différent. Par exemple, **HeapAlloc** peut être invité à lever une exception si la mémoire n’a pas pu être allouée, fonctionnalité non disponible avec **LocalAlloc**. **LocalAlloc** prend en charge l’allocation de handles qui permettent de déplacer la mémoire sous-jacente par une réallocation sans modifier la valeur de handle, fonctionnalité non disponible avec **HeapAlloc**.
 
-À partir de Windows 32 bits, [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) et [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) sont implémentés en tant que fonctions wrapper qui appellent [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) à l’aide d’un handle vers le tas par défaut du processus. Par conséquent, **GlobalAlloc** et **LocalAlloc** ont une surcharge supérieure à **HeapAlloc**.
+à partir de 32 bits Windows, [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) et [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) sont implémentés en tant que fonctions wrapper qui appellent [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) à l’aide d’un handle vers le tas par défaut du processus. Par conséquent, **GlobalAlloc** et **LocalAlloc** ont une surcharge supérieure à **HeapAlloc**.
 
 Étant donné que les différents allocateurs de tas fournissent des fonctionnalités distinctives à l’aide de différents mécanismes, vous devez libérer de la mémoire avec la fonction correcte. Par exemple, la mémoire allouée avec [**HeapAlloc**](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) doit être libérée avec [**HeapFree**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree) et non [**LocalFree**](/windows/desktop/api/WinBase/nf-winbase-localfree) ou [**GlobalFree**](/windows/desktop/api/WinBase/nf-winbase-globalfree). La mémoire allouée avec [**GlobalAlloc**](/windows/desktop/api/WinBase/nf-winbase-globalalloc) ou [**LocalAlloc**](/windows/desktop/api/WinBase/nf-winbase-localalloc) doit être interrogée, validée et libérée avec la fonction globale ou locale correspondante.
 

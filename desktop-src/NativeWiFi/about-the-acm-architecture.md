@@ -4,16 +4,16 @@ ms.assetid: 4a5c0085-0e7b-424d-9205-5ec39518a088
 title: À propos de l’architecture ACM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f037a1823f7045ccaf1dc573c6d213beeebe0a63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d75b6b365970c34174facd035ddf38c625e3e4fac72f011e612998c46e9bee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065174"
 ---
 # <a name="about-the-acm-architecture"></a>À propos de l’architecture ACM
 
-Le module d’auto-configuration (ACM) est le nouveau composant de configuration sans fil pour Windows Vista. Windows XP avec Service Pack 3 (SP3) et l’API de réseau local sans fil pour Windows XP avec Service Pack 2 (SP2) utilisent à la place le service de configuration automatique sans fil (WZC).
+le Module d’Auto-configuration (ACM) est le nouveau composant de configuration sans fil pour Windows Vista. Windows xp avec service pack 3 (SP3) et l’API de réseau local sans fil pour Windows XP avec service pack 2 (SP2) utilisent le service de Configuration automatique sans fil à la place.
 
 L’ACM balaie régulièrement les réseaux et utilise un processus itératif pour sélectionner le réseau le plus favori de la plage et s’y connecter, si une interface est activée pour la connexion automatique sur ce réseau. L’ACM enregistre et récupère également les profils réseau, qui contiennent des paramètres d’ACM, de module spécifique aux médias (MSM), de sécurité et de fabricants de matériel indépendant. Ces profils réseau sont destinés à la configuration automatique.
 

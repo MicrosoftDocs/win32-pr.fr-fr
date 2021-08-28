@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27bff2103e22952e456976c6e0a88e7d232e42c3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6dc3483706369837d96d14cf30b2f0c6ee307e376f8c422e11d56e06451a22e8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811209"
 ---
 # <a name="proxy-switch"></a>commutateur/proxy
 
@@ -38,7 +38,7 @@ Spécifie un nom de fichier qui remplace le nom du fichier de proxy d’interfac
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nom de fichier spécifié remplace le nom de fichier par défaut obtenu en ajoutant \_ P. C au nom du fichier IDL. Le commutateur/ [**proxy**](proxy.md) n’affecte pas les interfaces RPC.
 
@@ -66,9 +66,9 @@ Pour obtenir une description plus détaillée du fichier proxy d’interface et 
 [**/out**](-out.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

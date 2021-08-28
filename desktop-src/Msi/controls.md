@@ -1,17 +1,17 @@
 ---
 description: Les développeurs de packages d’installation peuvent créer une interface utilisateur contenant les contrôles abordés dans cette rubrique.
 ms.assetid: ed9fa158-9dad-4d2d-8153-78122b19a34e
-title: Contrôles (Windows Installer)
+title: contrôles (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ec286adf25c0642ae044bfd0b89e66182ef6839
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47755cafc3d4d3d04ed443410571a9c4fc2cf215a3efb3584265dcbeb2f9d520
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118143363"
 ---
-# <a name="controls-windows-installer"></a>Contrôles (Windows Installer)
+# <a name="controls-windows-installer"></a>contrôles (Windows Installer)
 
 Les développeurs de packages d’installation peuvent créer une interface utilisateur contenant les contrôles abordés dans cette rubrique. Pour plus d’informations sur l’ajout d’un contrôle particulier à une boîte de dialogue, consultez la rubrique relative à ce contrôle et lisez la section [Ajout de contrôles et de texte](adding-controls-and-text.md).
 

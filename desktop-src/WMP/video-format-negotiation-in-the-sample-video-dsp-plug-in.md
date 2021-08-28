@@ -3,31 +3,31 @@ title: Négociation du format vidéo dans l’exemple de plug-in de la vidéo DS
 description: Négociation du format vidéo dans l’exemple de plug-in de la vidéo DSP
 ms.assetid: 3e92ce10-2b9b-4689-a181-f56c33472fea
 keywords:
-- Plug-ins du lecteur Windows Media, DSP vidéo
+- plug-ins Lecteur Windows Media, DSP de vidéo
 - plug-ins, DSP vidéo
 - plug-ins de traitement de signal numérique, négociation de format vidéo
 - Plug-ins DSP, négociation de format vidéo
 - plug-ins vidéo DSP, négociation de format
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c287a38fbfcf11f1b9d74087a91c5825b22f1243
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 90154f3fe7824fb9af563cb662fdcb2847339bc6061d79b3e92cab9c6e36e44d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761819"
 ---
 # <a name="video-format-negotiation-in-the-sample-video-dsp-plug-in"></a>Négociation du format vidéo dans l’exemple de plug-in de la vidéo DSP
 
-Avant que le lecteur Windows Media insère un plug-in de DSP vidéo dans la chaîne de signal, le joueur doit déterminer si le plug-in peut traiter la vidéo en cours de lecture. Le processus par lequel le plug-in et le lecteur communiquent à propos des formats vidéo pris en charge est appelé négociation de format.
+avant que Lecteur Windows Media insère un plug-in de DSP vidéo dans la chaîne de signal, le joueur doit déterminer si le plug-in peut traiter la vidéo en cours de lecture. Le processus par lequel le plug-in et le lecteur communiquent à propos des formats vidéo pris en charge est appelé négociation de format.
 
 ## <a name="providing-the-supported-input-and-output-types"></a>Fournir les types d’entrée et de sortie pris en charge
 
-Si le plug-in DSP agit comme un objet multimédia DirectX (DMO), le lecteur interroge le plug-in sur ses formats pris en charge en effectuant une séquence d’appels à **IMediaObject :: GetInputType** et **IMediaObject :: GetOutputType**.
+si le plug-in DSP agit comme un objet média DirectX (DMO), le lecteur interroge le plug-in sur ses formats pris en charge en effectuant une séquence d’appels à **IMediaObject :: GetInputType** et **IMediaObject :: GetOutputType**.
 
 Si le plug-in DSP agit en tant que Media Foundation Transform (MFT), le lecteur interroge le plug-in sur ses formats pris en charge en effectuant une séquence d’appels à **IMFTransform :: GetInputAvailableType** et **IMFTransform :: GetOutputAvailableType**.
 
-L’exemple de plug-in vidéo généré par l’Assistant de plug-in du lecteur Windows Media stocke la liste des formats vidéo pris en charge sous la forme d’un tableau de GUID. Le code suivant provient du fichier main. cpp :
+l’exemple de plug-in vidéo généré par l’assistant de plug-in Lecteur Windows Media stocke la liste des formats vidéo pris en charge sous la forme d’un tableau de guid. Le code suivant provient du fichier main. cpp :
 
 
 ```C++
@@ -68,9 +68,9 @@ else // Otherwise use default for this plug-in.
 
 ## <a name="setting-the-input-and-output-types"></a>Définition des types d’entrée et de sortie
 
-Si le plug-in DSP agit comme DMO, le lecteur Windows Media définit le type de média en appelant **IMediaObject :: SetInputType** et **IMediaObject :: SetOutputType**, en transmettant à chaque fonction un pointeur vers une structure de **\_ \_ type de média DMO** qui représente le type de média demandé.
+si le plug-in DSP agit comme un DMO, Lecteur Windows Media définit le type de média en appelant **IMediaObject :: SetInputType** et **IMediaObject :: SetOutputType**, en passant à chaque fonction un pointeur vers une structure de **\_ \_ type de média DMO** qui représente le type de média demandé.
 
-Si le plug-in DSP agit en tant que MFT, le lecteur Windows Media définit le type de média en appelant **IMFTransform :: SetInputType** et **IMFTransform :: SetOutputType**, en passant à chaque fonction un pointeur vers une interface **IMFMediaType** qui représente le type de média demandé.
+si le plug-in DSP agit en tant que MFT, Lecteur Windows Media définit le type de média en appelant **IMFTransform :: SetInputType** et **IMFTransform :: SetOutputType**, en passant à chaque fonction un pointeur vers une interface **IMFMediaType** qui représente le type de média demandé.
 
 Il n’y a aucune garantie que le lecteur appellera les méthodes de négociation de format dans un ordre particulier, de sorte que le code de plug-in doit gérer tous les cas. Par exemple, si le lecteur appelle **SetOutputType** avant d’appeler **SetInputType**, il s’agit d’un cours d’action valide pour que le plug-in rejette le type de média de sortie proposé. Le code suivant de l’exemple d’implémentation de **IMediaObject :: SetOutputType** illustre ce qui suit :
 
@@ -107,9 +107,9 @@ Si le type de média proposé passe les tests de validation, il est stocké dans
 [**Implémentation d’un plug-in de DSP vidéo**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

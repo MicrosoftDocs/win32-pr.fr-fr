@@ -4,16 +4,16 @@ description: La spécification OSF-DCE pour le marshaling des types de pointeurs
 ms.assetid: 077cdd1a-9630-459e-8749-ab0c70b16ecb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1edb384450e024d8e1d096d46e55916e9804735408a8ae680a30cc731eef8315
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e97f073a5745570aae5c52d4a61d2454b960d77a
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120020031"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122883822"
 ---
 # <a name="marshaling-rules-for-user_marshal-and-wire_marshal"></a>Règles de marshaling pour le marshaling d’utilisateur \_ et le \_ marshaling de câble
 
-La spécification OSF-DCE pour le marshaling des types de pointeurs incorporés exige que vous observiez les restrictions suivantes lors de l’implémentation des <type> \_ fonctions utilisateur, <type> \_ UserMarshal et <type> \_ UserUnMarshal. (Les règles et les exemples fournis ici sont pour le marshaling. Toutefois, vos routines de dimensionnement et de démarshaling doivent respecter les mêmes restrictions) :
+La spécification OSF-DCE pour le marshaling des types de pointeurs incorporés exige que vous observiez les restrictions suivantes lors de l’implémentation des &lt; fonctions type d' &gt; \_ utilisateur, &lt; type &gt; \_ UserMarshal et &lt; type &gt; \_ UserUnMarshal. (Les règles et les exemples fournis ici sont pour le marshaling. Toutefois, vos routines de dimensionnement et de démarshaling doivent respecter les mêmes restrictions) :
 
 -   Si le type de câble est un type plat sans pointeurs, votre routine de marshaling pour le type utilisateur correspondant doit simplement marshaler les données en fonction de la disposition du type de câble. Par exemple :
 

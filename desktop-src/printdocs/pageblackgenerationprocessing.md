@@ -4,12 +4,12 @@ ms.assetid: 4edd1fdf-9601-440d-b967-82ffa6dceeb1
 title: PageBlackGenerationProcessing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d21861595917b67390857b380a416e441d454081
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0496bf65da5ef6c2cfb36ebd443e05ef0aad95c8f58b6a16ba7b9efaebdee76d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098943"
 ---
 # <a name="pageblackgenerationprocessing"></a>PageBlackGenerationProcessing
 

@@ -3,7 +3,7 @@ title: WMPEFFECTS
 description: Il s’agit d’effets prédéfinis avec les valeurs par défaut suivantes.
 ms.assetid: ebee17e3-96b0-4748-b69f-4ff41d0bc386
 keywords:
-- Lecteur Windows Media WMPEFFECTS
+- WMPEFFECTS Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: db3e35143242c5ca7888ffc50feb006f586e68d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e84f33833e9d69c39cb50ff81bd6c97ff8f79d1e2f881f82d6e4d293e78d87bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761269"
 ---
 # <a name="wmpeffects"></a>WMPEFFECTS
 
@@ -33,7 +33,7 @@ tabStop="false"
 onclick="next();"
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cela crée un élément **Effects** qui parcourt les présélections de visualisation lorsque l’utilisateur clique sur le contrôle. Elle étend également les visualisations lorsque le joueur est redimensionné.
 

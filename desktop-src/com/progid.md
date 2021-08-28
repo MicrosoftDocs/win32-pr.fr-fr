@@ -6,12 +6,12 @@ keywords:
 - ProgID de la clé de registre COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 486f7e30bb0caff72eca3ad68191aaf50ab70280
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: f2d56295db12bbf8a4d629112636814fa60df481
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884836"
 ---
 # <a name="progid"></a>ProgID
 
@@ -27,13 +27,13 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 ## <a name="remarks"></a>Remarques
 
-Chaque classe d’objet qui peut être insérée a un ProgID. Pour plus d’informations sur la création d’un ProgID, consultez la [ <ProgID> clé](-progid--key.md).
+Chaque classe d’objet qui peut être insérée a un ProgID. Pour plus d’informations sur la création d’un ProgID, consultez la [ &lt; &gt; clé ProgID](-progid--key.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[<ProgID> essentiel](-progid--key.md)
+[&lt;&gt;Clé ProgID](-progid--key.md)
 </dt> <dt>
 
 [**VersionIndependentProgID**](versionindependentprogid.md)

@@ -4,12 +4,12 @@ ms.assetid: 7f5f925a-b3ce-4829-b9a4-cfc68ec6b50e
 title: Valeurs de retour de table de routage distribuée (DRT. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef656454f833a6795167c1ea6689afda460119cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82a80c6529a6488fb12ee36abedb9f460549d72eaa4956e198ffd2d118d11cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011567"
 ---
 # <a name="distributed-routing-table-return-values"></a>Valeurs de retour de table de routage distribué
 
@@ -76,8 +76,8 @@ Les codes d’erreur suivants sont généralement retournés par la technologie 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 7 professionnel \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows 7 Professionnel \[ applications de bureau uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                          |
 | En-tête<br/>                   | <dl> <dt>DRT. h</dt> </dl> |
 
 

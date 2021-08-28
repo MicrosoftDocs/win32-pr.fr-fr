@@ -1,17 +1,17 @@
 ---
-title: Groupe (infrastructure de ruban Windows)
+title: groupe (Windows Framework du ruban)
 description: Le groupe organise les commandes et les contrôles associés au sein d’un onglet.
 ms.assetid: 5d098d3f-a4ee-4f76-8c81-832d0c49cb80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903bd422d11fea81ed03a48bf8e9437f9caab699
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c153f8cd9d1fc0d2d2bdbaabab0b2e15e099e50d
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383756"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467416"
 ---
-# <a name="group-windows-ribbon-framework"></a>Groupe (infrastructure de ruban Windows)
+# <a name="group-windows-ribbon-framework"></a>groupe (Windows Framework du ruban)
 
 Le groupe organise les commandes et les contrôles associés au sein d’un [onglet](windowsribbon-controls-tab.md).
 
@@ -42,57 +42,18 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Clé de propriété</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.
-<blockquote>
-[!Note]<br />
-L’infrastructure requiert que la valeur de <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> pour un contrôle de groupe commence par la lettre Z majuscule. Si la valeur fournie par l’application dans la méthode de rappel <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty"><strong>IUICommandHandler :: UpdateProperty</strong></a> ne commence pas par la lettre Z, cette valeur est ignorée et une valeur est générée par l’infrastructure à la place. La valeur du Framework est la lettre Z suivie d’une valeur numérique commençant à 1 et qui s’incrémente séquentiellement, selon les besoins, pour les contrôles de groupe suivants (Z1, Z2,..., ZX).
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="odd">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-<tr class="even">
-<td><a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a></td>
-<td>Peut uniquement être mis à jour par le biais d’une invalidation.</td>
-</tr>
-</tbody>
-</table>
+
+| Clé de propriété | Notes | 
+|--------------|-------|
+| <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | Peut uniquement être mis à jour par le biais d’une invalidation.<blockquote>[!Note]<br />L’infrastructure requiert que la valeur de <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> pour un contrôle de groupe commence par la lettre Z majuscule. Si la valeur fournie par l’application dans la méthode de rappel <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty"><strong>IUICommandHandler :: UpdateProperty</strong></a> ne commence pas par la lettre Z, cette valeur est ignorée et une valeur est générée par l’infrastructure à la place. La valeur du Framework est la lettre Z suivie d’une valeur numérique commençant à 1 et qui s’incrémente séquentiellement, selon les besoins, pour les contrôles de groupe suivants (Z1, Z2,..., ZX).</blockquote><br /> | 
+| <a href="windowsribbon-reference-properties-uipkey-label.md">UI_PKEY_Label</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-largehighcontrastimage.md">UI_PKEY_LargeHighContrastImage</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-largeimage.md">UI_PKEY_LargeImage</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-smallhighcontrastimage.md">UI_PKEY_SmallHighContrastImage</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-smallimage.md">UI_PKEY_SmallImage</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+| <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | Peut uniquement être mis à jour par le biais d’une invalidation. | 
+
 
 
 
@@ -102,7 +63,7 @@ L’infrastructure requiert que la valeur de <a href="windowsribbon-reference-pr
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**élément Group**](windowsribbon-element-group.md)

@@ -4,18 +4,18 @@ ms.assetid: 162bda20-0c62-4eac-8c1f-fd107e42c528
 title: Détermination du contexte d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24367e2367f845dfef2e4947a32d9dec84d644cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89c3ea847a410c5d253061e93153da4462e3cdd8ae8da12b4b6b701812d37d89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764259"
 ---
 # <a name="determining-installation-context"></a>Détermination du contexte d’installation
 
 Une application peut appeler les fonctions [**MsiEnumProducts**](/windows/desktop/api/Msi/nf-msi-msienumproductsa) ou [**MsiEnumProductsEx**](/windows/desktop/api/Msi/nf-msi-msienumproductsexa) pour énumérer les produits installés ou publiés sur le système. Cette fonction peut énumérer tous les produits installés dans le [contexte d’installation](installation-context.md)par ordinateur. Il peut énumérer les produits installés dans le contexte par utilisateur pour l’utilisateur actuel. L’application peut récupérer des informations sur le contexte de ces produits en appelant les fonctions [**MsiGetProductInfoEx**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoexa) ou [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa) .
 
-La Windows Installer peut installer des produits à exécuter avec des privilèges élevés (système) pour les utilisateurs non-administrateurs. Cela requiert l’autorisation d’un utilisateur administrateur. Un produit installé avec des privilèges élevés est appelé « géré ». Tous les produits installés par ordinateur sont gérés. Les produits installés par utilisateur sont gérés uniquement si un agent du système local effectue une publication en empruntant l’identité d’un utilisateur. Il s’agit de la méthode utilisée par le déploiement de logiciel via [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page). Les applications par utilisateur installées alors que les stratégies [AlwaysInstallElevated a](alwaysinstallelevated.md) sont définies ne sont pas considérées comme gérées. En appelant [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda), une application peut vérifier si un produit particulier est géré.
+la Windows Installer peut installer des produits à exécuter avec des privilèges élevés (système) pour les utilisateurs non-administrateurs. Cela requiert l’autorisation d’un utilisateur administrateur. Un produit installé avec des privilèges élevés est appelé « géré ». Tous les produits installés par ordinateur sont gérés. Les produits installés par utilisateur sont gérés uniquement si un agent du système local effectue une publication en empruntant l’identité d’un utilisateur. Il s’agit de la méthode utilisée par le déploiement de logiciel via [stratégie de groupe](/previous-versions/windows/desktop/Policy/group-policy-start-page). Les applications par utilisateur installées alors que les stratégies [AlwaysInstallElevated a](alwaysinstallelevated.md) sont définies ne sont pas considérées comme gérées. En appelant [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda), une application peut vérifier si un produit particulier est géré.
 
 L’exemple suivant montre comment une application détermine le contexte à l’aide de [**MsiEnumProducts**](/windows/desktop/api/Msi/nf-msi-msienumproductsa), [**MsiGetProductInfo**](/windows/desktop/api/Msi/nf-msi-msigetproductinfoa)et [**MsiIsProductElevated**](/windows/desktop/api/Msi/nf-msi-msiisproductelevateda).
 

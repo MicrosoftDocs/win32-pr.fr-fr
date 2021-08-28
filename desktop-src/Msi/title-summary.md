@@ -4,12 +4,12 @@ ms.assetid: be8f4c81-fb34-44ab-b026-97435243ac93
 title: Propriété Résumé du titre
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 950a4c8af9e892381d507c2eb627d85ca8cd3ace
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6216dfa0b85197f8d89d9596ad21397a4c23619230fbd19f62e77ebfb6e9d59
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810699"
 ---
 # <a name="title-summary-property"></a>Propriété Résumé du titre
 

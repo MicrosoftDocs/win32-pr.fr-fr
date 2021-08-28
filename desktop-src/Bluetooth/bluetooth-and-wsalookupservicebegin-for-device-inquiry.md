@@ -6,12 +6,12 @@ keywords:
 - Bluetooth et WSALookupServiceBegin pour la consultation des appareils Bluetooth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af56e1d75a66d21ea4eb94c827f6d37f77ae4336b8aeac5331665288bfeef49
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c4423b7c1c27124771c518409d9d1393a5f83afb
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118959288"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469186"
 ---
 # <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>Bluetooth et WSALookupServiceBegin pour la consultation des appareils
 
@@ -23,40 +23,14 @@ Le tableau suivant répertorie les restrictions qui s’appliquent à la structu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Membre WSAQUERYSET</th>
-<th>Restriction</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>dwSize nul</strong></td>
-<td>Affectez la valeur <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>).</td>
-</tr>
-<tr class="even">
-<td><strong>lpBlob</strong></td>
-<td>Ce membre contient un pointeur facultatif vers une structure d' <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>objet BLOB</strong></a> . Si ce membre est spécifié, les paramètres de recherche de l’appareil valides pour <strong>LUP_FLUSHCACHE</strong> sont les suivants :
-<ul>
-<li>Le membre <strong>cbSize</strong> de la structure <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> doit être <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li>
-<li>le membre <strong>pBlobData</strong> est un pointeur vers une structure <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> , pour laquelle le membre <strong>LAP</strong> est le code d’accès à la recherche Bluetooth et le membre de <strong>longueur</strong> est la longueur, en secondes, de la recherche.</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><strong>dwNameSpace</strong></td>
-<td>Définissez sur <strong>NS_BTH</strong>.</td>
-</tr>
-<tr class="even">
-<td>Autres membres</td>
-<td>Les autres membres de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> sont ignorés.</td>
-</tr>
-</tbody>
-</table>
+
+| Membre WSAQUERYSET | Restriction | 
+|--------------------|-------------|
+| <strong>dwSize nul</strong> | Affectez la valeur <strong>sizeof</strong>(<a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a>). | 
+| <strong>lpBlob</strong> | Ce membre contient un pointeur facultatif vers une structure d' <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>objet BLOB</strong></a> . Si ce membre est spécifié, les paramètres de recherche de l’appareil valides pour <strong>LUP_FLUSHCACHE</strong> sont les suivants :<ul><li>Le membre <strong>cbSize</strong> de la structure <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> doit être <strong>sizeof</strong>(<strong>BTH_QUERY_DEVICE</strong>).</li><li>le membre <strong>pBlobData</strong> est un pointeur vers une structure <a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a> , pour laquelle le membre <strong>LAP</strong> est le code d’accès à la recherche Bluetooth et le membre de <strong>longueur</strong> est la longueur, en secondes, de la recherche.</li></ul> | 
+| <strong>dwNameSpace</strong> | Définissez sur <strong>NS_BTH</strong>. | 
+| Autres membres | Les autres membres de la structure <a href="/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw"><strong>WSAQUERYSET</strong></a> sont ignorés. | 
+
 
 
 

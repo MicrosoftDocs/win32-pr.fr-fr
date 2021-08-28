@@ -4,12 +4,12 @@ description: La clé de Registre BypassNegotiation détermine si la négociation
 ms.assetid: 51e21e9c-d6cb-454b-9584-3f48d76a649a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9fdf883249fc5af7a37be83bb153a670295ba1d
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 00ba914b9c1ec1d5e3caef6b86ddbda49d021268e456c877ff4f67db86efd2cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104381289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119978249"
 ---
 # <a name="bypassnegotiation"></a>BypassNegotiation
 
@@ -19,10 +19,10 @@ La clé de Registre BypassNegotiation détermine si la négociation des fonction
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   BypassNegotiation = value
+   BypassNegotiation = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -35,7 +35,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 Si cette valeur de Registre n’est pas présente, le serveur et le client négocient les fonctionnalités EAP.
 
@@ -43,12 +43,12 @@ Si cette valeur de Registre n’est pas présente, le serveur et le client négo
 
 <dl> <dt>
 
-[Paramètres du Registre EAPHost](eaphost-registry-settings.md)
+[Paramètres du registre EAPHost](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: 3f2ac1bd546403dca781b3a132b44f96d80bb5c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f2b35215c930517d5352073c679a116388eb49aaa3bd6a3c567467e50be1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064509"
 ---
 # <a name="wzcrefreshinterface-function"></a>WZCRefreshInterface fonction)
 
-\[**WZCRefreshInterface** n’est pas pris en charge à compter de Windows Vista et de windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
+\[**WZCRefreshInterface** n’est pas pris en charge à partir de Windows Vista et Windows Server 2008. Utilisez plutôt l' [API WiFi Native](native-wifi-reference.md), qui offre des fonctionnalités similaires. Pour plus d’informations, consultez [à propos de l’API WiFi Native](about-the-native-wifi-api.md).\]
 
 La fonction **WZCRefreshInterface** actualise les informations d’interface pour une interface de réseau local sans fil spécifique.
 
@@ -105,12 +105,12 @@ Si la fonction échoue, la valeur de retour peut être l’un des codes de retou
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **wszGuid** de la structure d' [**\_ entrée INTF**](intf-entry.md) vers laquelle pointe le paramètre *pIntf* doit contenir un GUID d’interface pour une interface de réseau local sans fil. Une liste d’interfaces de réseau local sans fil peut être récupérée en appelant la fonction [**WZCEnumInterfaces**](wzcenuminterfaces.md) .
 
 > [!Note]  
-> Le fichier d’en-tête *wzcsapi. h* et le fichier de bibliothèque d’importation *wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
+> le fichier d’en-tête *Wzcsapi. h* et le fichier de bibliothèque d’importation *Wzcsapi. lib* ne sont pas disponibles dans le SDK Windows.
 
  
 
@@ -121,7 +121,7 @@ Le membre **wszGuid** de la structure d' [**\_ entrée INTF**](intf-entry.md) ve
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                   |
 | Fin de la prise en charge des clients<br/>    | Windows XP avec SP3<br/>                                                         |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                         |
 | En-tête<br/>                   | <dl> <dt>Wzcsapi. h</dt> </dl>   |

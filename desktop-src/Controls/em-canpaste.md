@@ -3,7 +3,7 @@ title: Message EM_CANPASTE (RichEdit. h)
 description: Détermine si un contrôle RichEdit peut coller un format de presse-papiers spécifié.
 ms.assetid: 1b858ad8-1312-407b-b12a-c63668ba9f72
 keywords:
-- EM_CANPASTE les contrôles de message Windows
+- EM_CANPASTE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aad400b610a033b6f67177da99876a892d294ec8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24f2d831cd3b3d04fcb7859d2b5936b7354fbb6b638558d605c9f8c5a6ee6333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916059"
 ---
 # <a name="em_canpaste-message"></a>\_Message de CANPASTE em
 
@@ -55,8 +55,8 @@ Si le format du presse-papiers ne peut pas être collé, la valeur de retour est
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

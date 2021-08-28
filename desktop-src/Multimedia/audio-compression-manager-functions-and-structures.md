@@ -15,12 +15,12 @@ keywords:
 - Fonctions ACM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2c261e0a3de7409fc79ec43eb5046f084ee11d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cabd9a66bee13c02c87df95565744eb973283baedb7e955449feb2ddad3005a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106533555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119808379"
 ---
 # <a name="audio-compression-manager-functions-and-structures"></a>Fonctions et structures du gestionnaire de compression audio
 
@@ -34,6 +34,6 @@ Dans le groupe filtre, certaines fonctions utilisent des balises de filtre Wavef
 
 Les fonctions du groupe de flux représentent les nombreuses étapes impliquées dans une conversion : ouverture d’une instance de conversion, préparation de la conversion, exécution de la conversion, nettoyage après la conversion terminée et fermeture de l’instance de conversion.
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message LVM_SETIMAGELIST (commctrl. h)
 description: Affecte une liste d’images à un contrôle List-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetImageList.
 ms.assetid: 5241065b-85e4-412e-9868-fd5b15ff7c17
 keywords:
-- LVM_SETIMAGELIST les contrôles de message Windows
+- LVM_SETIMAGELIST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 779d31fd781a72dbdfbc4738e091482ca4a08528
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4151f7d6e3736e6fe28faa28bc258fb4f85bfb57622b1ec77c02ed83ea187941
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919959"
 ---
 # <a name="lvm_setimagelist-message"></a>\_Message SETIMAGELIST LVM
 
@@ -60,7 +60,7 @@ Handle de la liste d’images à assigner.
 
 Retourne le handle de la liste d’images précédemment associée au contrôle en cas de réussite, ou **null** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La liste d’images actuelle sera détruite quand le contrôle de liste est détruit, sauf si le style [**LVS \_ SHAREIMAGELISTS**](list-view-window-styles.md) est défini. Si vous utilisez ce message pour remplacer une liste d’images par une autre, votre application doit détruire explicitement toutes les listes d’images autres que la liste actuelle.
 
@@ -70,8 +70,8 @@ La liste d’images actuelle sera détruite quand le contrôle de liste est dét
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

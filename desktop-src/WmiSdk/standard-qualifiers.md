@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 67877cfc07a247d6b5e3309270d145bc64fbb814416fa4288c6e85ff2ad2e986
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 9ba975b9b35cd000844b3956e141c86b1be52531
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118315135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884996"
 ---
 # <a name="standard-qualifiers"></a>Qualificateurs standard
 
@@ -378,7 +378,7 @@ Type de données : **chaîne**
 
 S’applique à : références
 
-Type d’emplacement d’une instance. Sa valeur est <namespacetype> . La valeur par défaut est **null**.
+Type d’emplacement d’une instance. Sa valeur est &lt; NamespaceType &gt; . La valeur par défaut est **null**.
 
 Utilisation : ce qualificateur ne peut pas être utilisé avec le qualificateur non **local** .
 
@@ -679,7 +679,7 @@ Indique si la propriété est accessible en écriture à la mise à jour de l’
 
 Pour plus d’informations sur la récupération des qualificateurs, consultez l’exemple de code PowerShell [WmiClassMethodsAndWritableWmiProperties](https://Gallery.TechNet.Microsoft.Com/10670e14-4cf1-4ce5-99d0-fc4ca80dac2c) dans la Galerie technet.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

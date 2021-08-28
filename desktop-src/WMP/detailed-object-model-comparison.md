@@ -14,12 +14,12 @@ keywords:
 - versions de Lecteur Windows Media, modèle objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5fb048042fcbaa064fd3a322b90b3ce90a676e
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: a6f2e092f7e32b889056841b5802dffa141c0be4
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122623535"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884764"
 ---
 # <a name="detailed-object-model-comparison"></a>Comparaison du modèle d’objet détaillé
 
@@ -41,7 +41,7 @@ le tableau suivant compare les propriétés du modèle d’objet Lecteur Windows
 <tbody>
 <tr class="odd">
 <td><em>Player6</em>. <strong>AllowChangeDisplaySize</strong></td>
-<td>l’affichage de Lecteur Windows Media 7 ou ultérieur est automatiquement redimensionné pour s’ajuster au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la <OBJECT> balise ou dans le script.</td>
+<td>l’affichage de Lecteur Windows Media 7 ou ultérieur est automatiquement redimensionné pour s’ajuster au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la &lt; &gt; balise Object ou dans le script.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>AllowScan</strong></td>
@@ -69,7 +69,7 @@ le tableau suivant compare les propriétés du modèle d’objet Lecteur Windows
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Redimensionnement automatique</strong></td>
-<td>Le dimensionnement automatique est le comportement par défaut. Pour remplacer le dimensionnement automatique, définissez les propriétés de hauteur et de largeur dans la <OBJECT> balise ou dans le script.</td>
+<td>Le dimensionnement automatique est le comportement par défaut. Pour remplacer le dimensionnement automatique, définissez les propriétés de hauteur et de largeur dans la &lt; &gt; balise Object ou dans le script.</td>
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Démarrage automatique</strong></td>
@@ -233,7 +233,8 @@ le tableau suivant compare les propriétés du modèle d’objet Lecteur Windows
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Defaultframe</strong></td>
-<td>utilisez <em>Paramètres</em>. <strong>defaultFrame</strong>, ou utilisez un <PARAM> attribut dans l' <OBJECT> élément : <pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
+<td>utilisez <em>Paramètres</em>. <strong>defaultFrame</strong>, ou utilisez un <PARAM> attribut dans l' &lt; &gt; élément Object :
+<pre data-space="preserve"><code><PARAM NAME=&quot;defaultFrame&quot; VALUE=&quot;right&quot;></code></pre></td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>DisplayBackColor</strong></td>
@@ -249,7 +250,7 @@ le tableau suivant compare les propriétés du modèle d’objet Lecteur Windows
 </tr>
 <tr class="odd">
 <td><em>Player6</em>. <strong>Diffuser</strong></td>
-<td>L’affichage par défaut se redimensionne automatiquement pour s’adapter au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la <OBJECT> balise ou dans le script. Utilisez le <em>lecteur</em>. <strong>plein</strong> écran pour basculer en mode plein écran.</td>
+<td>L’affichage par défaut se redimensionne automatiquement pour s’adapter au média. Vous pouvez définir les propriétés de hauteur et de largeur dans la &lt; &gt; balise Object ou dans le script. Utilisez le <em>lecteur</em>. <strong>plein</strong> écran pour basculer en mode plein écran.</td>
 </tr>
 <tr class="even">
 <td><em>Player6</em>. <strong>Durée</strong></td>

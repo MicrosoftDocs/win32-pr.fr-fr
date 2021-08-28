@@ -4,12 +4,12 @@ description: Le tableau suivant fournit la liste des codes d’erreur pour les f
 ms.assetid: 8ef49677-b81d-42f2-8de1-40193a3afcde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282857a4fbfa95a1a86160e406c2dacac612f19a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 32eedb06dd3cdd0295b4b87b054ddb4c86186dc39d1c0ba592843e454804d1a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119064399"
 ---
 # <a name="network-management-error-codes"></a>Codes d’erreur de gestion de réseau
 
@@ -322,7 +322,7 @@ Le tableau suivant fournit la liste des codes d’erreur pour les fonctions de g
 | 2695 | Le nom de groupe de travail spécifié n’est pas valide.                                                                                                                                                                       | NERR \_ InvalidWorkgroupName         |
 | 2696 | Le nom d’ordinateur spécifié est incompatible avec la langue par défaut utilisée sur le contrôleur de domaine.                                                                                                           | NERR \_ NameUsesIncompatibleCodePage |
 | 2697 | Le compte d’ordinateur spécifié est introuvable.                                                                                                                                                             | NERR \_ ComputerAccountNotFound      |
-| 2698 | Cette version de Windows ne peut pas être jointe à un domaine.                                                                                                                                                          | NERR \_ PersonalSku                  |
+| 2698 | cette version de Windows ne peut pas être jointe à un domaine.                                                                                                                                                          | NERR \_ PersonalSku                  |
 | 2701 | Le mot de passe doit changer à la prochaine ouverture de session.                                                                                                                                                                    | NERR \_ PasswordMustChange           |
 | 2702 | Le compte est verrouillé.                                                                                                                                                                                     | NERR \_ AccountLockedOut             |
 | 2703 | Le mot de passe est trop long.                                                                                                                                                                                      | NERR \_ PasswordTooLong              |
@@ -342,11 +342,11 @@ Le tableau suivant fournit la liste des codes d’erreur pour les fonctions de g
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

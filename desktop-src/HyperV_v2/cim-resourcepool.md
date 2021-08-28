@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 11a073f817da27dbbd45be26a008486a776470cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d87a78d5a8ea43cc8a1a59bbabf5b8091948d153420dbdf91ba7e14fc1616b7e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119980959"
 ---
 # <a name="cim_resourcepool-class"></a>\_Classe CIM ResourcePool
 
@@ -392,7 +392,7 @@ Type de ressource alloué par le pool de ressources.
 
 <span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>
 
-**Extension de stockage** (19)
+**étendue du Stockage** (19)
 
 
 </dt> <dd></dd> <dt>
@@ -483,7 +483,7 @@ Type de ressource alloué par le pool de ressources.
 
 <span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>
 
-**Volume de stockage** (32)
+**Volume de Stockage** (32)
 
 
 </dt> <dd></dd> <dt>

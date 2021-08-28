@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a4eb931a0155518ad9644ebb1cce0b604be80602
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1054ffe0c016c5e06159a13cbdf68d5cfa7521e96727867a74d25a635888165
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077459"
 ---
 # <a name="rename-method-of-the-win32_codecfile-class"></a>Renommer la méthode de la \_ classe CodecFile Win32
 

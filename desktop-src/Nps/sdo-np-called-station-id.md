@@ -1,20 +1,20 @@
 ---
 title: NP-Called-Station-ID
-description: Numéro de téléphone composé par l’utilisateur.
+description: numéro de Téléphone composé par l’utilisateur.
 ms.assetid: 30b2b2e0-4317-42eb-8d18-fdf4a3854a6c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbcf0f6a26d2ac225eb34665c90f5e48acc3c801
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 984f14ff27ccb191d7cd1acc5b59a692110af0809688ed0677e7033e5128c5c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119063319"
 ---
 # <a name="np-called-station-id"></a>NP-Called-Station-ID
 
-Numéro de téléphone composé par l’utilisateur.
+numéro de Téléphone composé par l’utilisateur.
 
 **Nom LDAP :** msNPCalledStationID
 
@@ -22,6 +22,6 @@ Numéro de téléphone composé par l’utilisateur.
 
 **Syntaxe :** Chaîne
 
- 
+ 
 
- 
+ 

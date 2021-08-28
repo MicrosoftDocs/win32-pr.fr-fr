@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Types de média du démultiplexeur MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef3c7006f13b07394da7d9dc92e9295beda816c
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 99dfba52378813b8b96920a44c593e9c7d4b45a0
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122982602"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476275"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Types de média du démultiplexeur MPEG-2
 
@@ -43,11 +43,7 @@ Le démultiplexeur MPEG-2 ne valide pas les types de sortie ; le filtre en aval
 
 
 
-| Étiquette | Valeur |
-|--------|-------|
-| Type principal | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | 
-| Subtype | Un des éléments suivants :<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: informations sur le service ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: informations sur le service DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: informations sur le service de diffusion numérique de services intégrés (ISDB).</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: données de la section MPEG-2.</li></ul> | 
-| Type de format | Aucun | 
+| | | Type principal | <strong>MEDIATYPE_MPEG2_SECTIONS</strong> | | Sous-type | L’un des éléments suivants :<br /><ul><li><strong>MEDIASUBTYPE_ATSC_SI</strong>: informations sur le service ATSC.</li><li><strong>MEDIASUBTYPE_DVB_SI</strong>: informations sur le service DVB.</li><li><strong>MEDIASUBTYPE_ISDB_SI</strong>: informations sur le service de diffusion numérique de services intégrés (ISDB).</li><li><strong>MEDIASUBTYPE_MPEG2DATA</strong>: données de la section MPEG-2.</li></ul> | | Type de format | Aucun | 
 
 
 

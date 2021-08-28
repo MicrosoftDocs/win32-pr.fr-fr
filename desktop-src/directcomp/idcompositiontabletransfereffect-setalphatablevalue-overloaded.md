@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 907491dcfcacbf87f53bf58eb8d0027575a216b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c841817e2d84ff19a0be33570351e2f80962c3b38704fa585e8b912325c18f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043177"
 ---
 # <a name="idcompositiontabletransfereffectsetalphatablevalue-methods"></a>IDCompositionTableTransferEffect :: SetAlphaTableValue, méthodes
 

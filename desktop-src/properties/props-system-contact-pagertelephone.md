@@ -4,12 +4,12 @@ ms.assetid: c3d62f1b-8455-414c-b4a6-261cf7db787e
 title: System. contact. PagerTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c033d2f17b250a5887fd894da9ba3434c541082
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 561c959cd51c30bb889c1d0670e91a10c9f3537ed6e1540752f959330c1c7963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098248"
 ---
 # <a name="systemcontactpagertelephone"></a>System. contact. PagerTelephone
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

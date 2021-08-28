@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f4f20e248ae714e4ebd948e9b600be2152c3197
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 04bfb8f3465849215711ff70b9d9d67e40817f4e
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122626605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884608"
 ---
 # <a name="compiler-errors"></a>Erreurs du compilateur
 
@@ -668,7 +668,7 @@ Les messages d’erreur suivants sont générés au cours de la compilation MIDL
 </tr>
 <tr class="even">
 <td><span id="MIDL2155"></span><span id="midl2155"></span><dl> <dt><strong>MIDL2155</strong></dt> </dl></td>
-<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>la déclaration doit se présenter sous la forme : const <type><declarator> = <initializing expression></dt> <dd> La déclaration n’est pas compatible avec la syntaxe RPC DCE. Utilisez le commutateur <a href="-ms-ext.md"><strong>/ms_ext</strong></a> ou <a href="-c-ext.md"><strong>/c_ext</strong></a> mode du compilateur MIDL.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>la déclaration doit être de la forme : const &lt; type&gt;<declarator> = <initializing expression></dt> <dd> La déclaration n’est pas compatible avec la syntaxe RPC DCE. Utilisez le commutateur <a href="-ms-ext.md"><strong>/ms_ext</strong></a> ou <a href="-c-ext.md"><strong>/c_ext</strong></a> mode du compilateur MIDL.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2156"></span><span id="midl2156"></span><dl> <dt><strong>MIDL2156</strong></dt> </dl></td>
@@ -1499,7 +1499,7 @@ L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 </tr>
 <tr class="odd">
 <td><span id="MIDL2360"></span><span id="midl2360"></span><dl> <dt><strong>MIDL2360</strong></dt> </dl></td>
-<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>redéfinition de type non valide</dt> <dd> Un nouveau type a été défini de manière récursive sur un type inexistant.<br/> Exemple :<br/>
+<td><dl> <dt><span id="invalid_type_redefinition"></span><span id="INVALID_TYPE_REDEFINITION"></span>redéfinition de type non valide</dt> <dd> Un nouveau type a été défini de manière récursive sur un type inexistant.<br/> Exemple :<br/>
 <pre class="syntax" data-space="preserve"><code>typedef roo roo[10];    //MIDL 2360</code></pre>
 </dd> </dl></td>
 </tr>
@@ -1533,7 +1533,7 @@ L’outil Mktyplib.exe est obsolète. Utilisez plutôt le compilateur MIDL.
 </tr>
 <tr class="odd">
 <td><span id="MIDL2369"></span><span id="midl2369"></span><dl> <dt><strong>MIDL2369</strong></dt> </dl></td>
-<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>taille de pile dépassée pour/OI, à l’aide de/OS</dt> <dd> Le mode d’optimisation-OI est limité à 128 octets d’espace de pile pour les paramètres. Le compilateur a automatiquement basculé vers le mode d’optimisation du système d’exploitation pour contourner cette limitation.<br/> Pour éviter cet avertissement, utilisez les modes d’optimisation-Oicf ou-OS. Le mode d’optimisation peut être modifié sur la ligne de commande en spécifiant-Oicf ou-OS au lieu de-OI, ou en ajoutant un attribut [optimize9 &quot; ICF &quot; )] ou optimiser [( &quot; s &quot; )] à la fonction dans le fichier ACF.<br/> Cet avertissement se produit généralement lors du passage de structures volumineuses en tant que paramètres par valeur. La taille de pile requise peut être abaissée en passant un pointeur vers la structure à la place.<br/> Exemple :<br/>
+<td><dl> <dt><span id="exceeded_stack_size_for__Oi__using__Os"></span><span id="exceeded_stack_size_for__oi__using__os"></span><span id="EXCEEDED_STACK_SIZE_FOR__OI__USING__OS"></span>taille de pile dépassée pour/OI, à l’aide de/OS</dt> <dd> Le mode d’optimisation-OI est limité à 128 octets d’espace de pile pour les paramètres. Le compilateur a automatiquement basculé vers le mode d’optimisation du système d’exploitation pour contourner cette limitation.<br/> Pour éviter cet avertissement, utilisez les modes d’optimisation-Oicf ou-OS. Le mode d’optimisation peut être modifié sur la ligne de commande en spécifiant-Oicf ou-OS au lieu de-OI, ou en ajoutant un attribut [optimize9 &quot; ICF &quot; )] ou optimiser [( &quot; s &quot; )] à la fonction dans le fichier ACF.<br/> Cet avertissement se produit généralement lors du passage de structures volumineuses en tant que paramètres par valeur. La taille de pile requise peut être abaissée en passant un pointeur vers la structure à la place.<br/> Exemple :<br/>
 <pre class="syntax" data-space="preserve"><code>typedef struct
 {
 char a[127];
@@ -1551,7 +1551,7 @@ void bar (large *s, int a);</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2371"></span><span id="midl2371"></span><dl> <dt><strong>MIDL2371</strong></dt> </dl></td>
-<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>plage incorrecte spécifiée</dt> <dd> La valeur la plus élevée spécifiée dans un attribut [<a href="range.md"><strong>Range</strong></a>] est inférieure à la valeur la plus faible.<br/> Exemple :<br/>
+<td><dl> <dt><span id="incorrect_range_specified"></span><span id="INCORRECT_RANGE_SPECIFIED"></span>plage incorrecte spécifiée</dt> <dd> La valeur la plus élevée spécifiée dans un attribut [<a href="range.md"><strong>Range</strong></a>] est inférieure à la valeur la plus faible.<br/> Exemple :<br/>
 <pre class="syntax" data-space="preserve"><code>void roo([range(3,2)] int a);    //MIDL 2371</code></pre>
 </dd> </dl></td>
 </tr>

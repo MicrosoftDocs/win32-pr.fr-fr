@@ -1,5 +1,5 @@
 ---
-description: La \_ classe WMI canal DMA WMI représente un canal d’accès direct à la mémoire (DMA) sur un système informatique exécutant Windows.
+description: La \_ classe WMI de canal DMA Win32 représente un canal d’accès direct à la mémoire (DMA) sur un système d’ordinateur exécutant Windows.
 ms.assetid: cc517aac-7bd4-4937-8b07-2597076fca2c
 ms.tgt_platform: multiple
 title: Classe Win32_DMAChannel
@@ -33,16 +33,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0c2b36ff17931133d0dc4529e34f31ac24e00653
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1edce18d0dc8283a134972e8f0e2f79ce0ff98148bf6333d4048adbc14f2d88
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077339"
 ---
 # <a name="win32_dmachannel-class"></a>\_Classe canal DMA Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ canal DMA** WMI représente un canal d’accès direct à la mémoire (DMA) sur un système informatique exécutant Windows. DMA est une méthode permettant de déplacer des données d’un appareil vers la mémoire (ou vice versa) sans l’aide du microprocesseur. La carte système utilise un contrôleur DMA pour gérer un nombre fixe de canaux, chacun pouvant être utilisé par un (et un seul) appareil à la fois.
+La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) de **\_ canal DMA Win32** représente un canal d’accès direct à la mémoire (DMA) sur un système d’ordinateur exécutant Windows. DMA est une méthode permettant de déplacer des données d’un appareil vers la mémoire (ou vice versa) sans l’aide du microprocesseur. La carte système utilise un contrôleur DMA pour gérer un nombre fixe de canaux, chacun pouvant être utilisé par un (et un seul) appareil à la fois.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -797,7 +797,7 @@ Exécuter en mode « nombre par mot »
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ canal DMA** est dérivée [**de \_ DMA CIM**](cim-dma.md).
 

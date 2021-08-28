@@ -4,12 +4,12 @@ ms.assetid: eff36db1-3920-4dd6-b786-c8db5c43e5ea
 title: Chine
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1640c71cff5d91dd34bf13ba05e0bbcb2c3f5d57
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b66fdd425dabd2f7fdbad09091cd2fccc4113cbba91ee15857af8f0d15b98069
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055539"
 ---
 # <a name="china"></a>Chine
 

@@ -81,12 +81,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 60a08a2b73149285ddf3b0edf0003e5490b1c5c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c21c9ac8a5e002da0cd790536ab186c6b62f7e39496636ddbcf9f25f81b2f9d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118148828"
 ---
 # <a name="msvm_diskdrive-class"></a>MSVM \_ DiskDrive, classe
 
@@ -185,7 +185,7 @@ La classe **MSVM \_ DiskDrive** possède ces méthodes.
 | **OnlineDevice**                                                | Cette méthode n'est pas prise en charge.<br/> |
 | **QuiesceDevice**                                               | Cette méthode n'est pas prise en charge.<br/> |
 | [**RequestStateChange**](msvm-diskdrive-requeststatechange.md) | Demande un changement d’État.<br/>      |
-| [**Réinitialiser**](msvm-diskdrive-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
+| [**Initialisation**](msvm-diskdrive-reset.md)                           | Réinitialise l’appareil virtuel.<br/>    |
 | **RestoreProperties**                                           | Cette méthode n'est pas prise en charge.<br/> |
 | **SaveProperties**                                              | Cette méthode n'est pas prise en charge.<br/> |
 | **SetPowerState**                                               | Cette méthode n'est pas prise en charge.<br/> |
@@ -1168,7 +1168,7 @@ Durée, en millisecondes, de la possibilité de lire ou d’écrire un support �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ DiskDrive** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -1178,8 +1178,8 @@ L’accès à la classe **MSVM \_ DiskDrive** peut être limité par le filtrage
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1196,7 +1196,7 @@ L’accès à la classe **MSVM \_ DiskDrive** peut être limité par le filtrage
 [**\_DISKDRIVE CIM**](/windows/desktop/CIMWin32Prov/cim-diskdrive)
 </dt> <dt>
 
-[Classes de stockage](storage-classes.md)
+[Stockage Catégories](storage-classes.md)
 </dt> </dl>
 
  

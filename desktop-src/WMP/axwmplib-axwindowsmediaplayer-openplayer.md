@@ -1,11 +1,11 @@
 ---
 title: Méthode AxWindowsMediaPlayer. openPlayer
-description: La méthode openPlayer ouvre le lecteur Windows Media à l’aide de l’URL spécifiée. | Méthode AxWindowsMediaPlayer. openPlayer
+description: la méthode openPlayer ouvre Lecteur Windows Media à l’aide de l’URL spécifiée. | Méthode AxWindowsMediaPlayer. openPlayer
 ms.assetid: 9a9d8200-f427-42ff-b49f-d973cf86014f
 keywords:
-- méthode openPlayer lecteur Windows Media
-- méthode openPlayer lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, méthode openPlayer
+- Lecteur Windows Media de la méthode openPlayer
+- méthode openPlayer Lecteur Windows Media, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, méthode openPlayer
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58416a1f20969b0bd223f653f44b5633f19cb096
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9a2ae5660969e78aeb165c5f9fd9420ea04c79a6aeec9a57c4627cd61d32ef8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119764709"
 ---
 # <a name="axwindowsmediaplayeropenplayer-method"></a>Méthode AxWindowsMediaPlayer. openPlayer
 
-La méthode **openPlayer** ouvre le lecteur Windows Media à l’aide de l’URL spécifiée.
+la méthode **openPlayer** ouvre Lecteur Windows Media à l’aide de l’URL spécifiée.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -63,9 +63,9 @@ Public Sub openPlayer( _
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode lance le lecteur Windows Media avec l’URL spécifiée définie en tant qu’élément multimédia actuel. Si le joueur a été précédemment fermé en mode apparence, il s’ouvre en utilisant la dernière apparence choisie par l’utilisateur. Dans le cas contraire, le joueur s’ouvre en mode complet.
+cette méthode lance Lecteur Windows Media avec l’URL spécifiée définie en tant qu’élément multimédia actuel. Si le joueur a été précédemment fermé en mode apparence, il s’ouvre en utilisant la dernière apparence choisie par l’utilisateur. Dans le cas contraire, le joueur s’ouvre en mode complet.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -83,7 +83,7 @@ Cette méthode lance le lecteur Windows Media avec l’URL spécifiée définie 
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

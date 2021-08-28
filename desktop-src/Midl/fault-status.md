@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 134d9772e167fe63e133d569b9985a7735668d3c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7f5126c5ee089729089179fa99f881f1e236859e3111ed3937323eb8b122d2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013907"
 ---
 # <a name="fault_status-attribute"></a>\_attribut état d’erreur
 
@@ -44,7 +44,7 @@ Spécifie zéro, un ou plusieurs attributs de fonction ACF tels que l' **\[ \_ �
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Spécifie le nom de la fonction tel qu’il est défini dans le fichier IDL.
@@ -65,7 +65,7 @@ Spécifie le paramètre pour la fonction tel qu’il est défini dans le fichier
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ \_ état \] d’erreur** peut être utilisé en tant qu’attribut de fonction ou en tant qu’attribut de paramètre, mais il ne peut apparaître qu’une seule fois par fonction. Elle peut être appliquée à la fonction elle-même ou à un paramètre dans chaque fonction.
 
@@ -96,9 +96,9 @@ Il est possible que les attributs **\[ \_ état \]** de l’erreur et **\[** [**
 [**à**](out-idl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

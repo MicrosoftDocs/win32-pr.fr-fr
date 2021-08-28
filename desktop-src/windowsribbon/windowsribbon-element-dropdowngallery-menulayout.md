@@ -3,7 +3,7 @@ title: DropDownGallery. MenuLayout, propriété
 description: Représente un conteneur pour les dispositions de menus déroulants DropDownGallery.
 ms.assetid: 7251e889-377d-4d7f-b049-bd81a202774d
 keywords:
-- Ruban Windows de la propriété DropDownGallery. MenuLayout
+- DropDownGallery. MenuLayout, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d1b6ad3f07f369dfef90b1e6c52c34793e60520
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b3fa4c0e2cca92aa2f95f73e0c817314bb71a8260db21a89cb40ec78fff7765
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810679"
 ---
 # <a name="dropdowngallerymenulayout-property"></a>DropDownGallery. MenuLayout, propriété
 
 Représente un conteneur pour les dispositions de menus déroulants [**DropDownGallery**](windowsribbon-element-dropdowngallery.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <DropDownGallery.MenuLayout>
@@ -56,9 +56,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**DropDownGallery**](windowsribbon-element-dropdowngallery.md) .
 
@@ -108,8 +108,8 @@ Cette section de code illustre la déclaration de contrôle **DropDownGallery. M
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

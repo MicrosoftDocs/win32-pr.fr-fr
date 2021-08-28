@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 857dbdeee9a2add9ab77cae0ff97d69699d2dd2e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6355876c2237ec62813366c0a4fa32ffaff3d3c745a11ffde83fca81356edb00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120055175"
 ---
 # <a name="cmediacontrolgettypeinfo-method"></a>Méthode CMediaControl. GetTypeInfo
 
@@ -65,7 +65,7 @@ Adresse d’un pointeur vers l’objet d’informations de type demandé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne un \_ pointeur E si *ppTInfo* n’est pas valide. Retourne le TYPE \_ E \_ ELEMENTNOTFOUND si *iTInfo* n’est pas égal à zéro. Retourne S \_ OK si réussit. Sinon, retourne un **HRESULT** de l’un des appels pour récupérer le type.
 
@@ -75,7 +75,7 @@ Retourne un \_ pointeur E si *ppTInfo* n’est pas valide. Retourne le TYPE \_ E
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

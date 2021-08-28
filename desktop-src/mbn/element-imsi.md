@@ -7,12 +7,12 @@ MSHAttr:
 title: IMSI
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5322ba1059a3c7ba4ae60f921cf4a33a3720b8fc
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: b2eadeb93f0bdddc6043d22469d5f7431a752a5b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988782"
+ms.locfileid: "122883683"
 ---
 # <a name="span-idwwan_profile_v4element_imsispanimsi"></a><span id="WWAN_profile_v4.element_IMSI"></span>IMSI
 
@@ -24,7 +24,7 @@ Spécifie que ce profil est actif uniquement lorsque la IMSI actuelle utilisée 
 [&lt;ProfileConditionedOn&gt;](element-profileconditionedon.md)  
 **&lt;IMSI&gt;**
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 <IMSI>
@@ -54,12 +54,10 @@ Aucun.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

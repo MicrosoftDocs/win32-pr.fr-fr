@@ -3,7 +3,7 @@ title: Code de notification NM_DBLCLK (barre d’outils) (commctrl. h)
 description: Avertit la fenêtre parente d’un contrôle ToolBar que l’utilisateur a double-cliqué sur le bouton gauche de la souris dans le contrôle. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: c6198245-cfd4-4e1f-877d-94c1d47e09d2
 keywords:
-- Contrôles Windows de code de notification NM_DBLCLK (barre d’outils)
+- NM_DBLCLK (barre d’outils) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5441f86fa47f25a98dad82f9bfde05a84b5f498
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75abaf61938fbf377dbe8b6c5eaca99ff5ab027abe08c670de72a218dd51f1b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919659"
 ---
 # <a name="nm_dblclk-toolbar-notification-code"></a>\_Code de notification DBLCLK nm (barre d’outils)
 
@@ -55,8 +55,8 @@ Retourne **false** pour permettre au contrôle de barre d’outils d’effectuer
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

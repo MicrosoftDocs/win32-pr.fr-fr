@@ -7,31 +7,31 @@ keywords:
 - variables d’État, OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36dee51ba7726277832d94eaf336d03d3c579189
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8164cebd065a69f923e908a26bf2ce80357312c73c35f12bc2066c63db91eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106536059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936768"
 ---
 # <a name="opengl-state-variables"></a>Variables d’État OpenGL
 
 Les rubriques suivantes répertorient les noms des variables d’État qui peuvent être interrogées :
 
--   [**Variables d’État pour les valeurs actuelles et les données associées**](state-variables-for-current-values-and-associated-data.md)
--   [**Variables d’état de transformation**](transformation-state-variables.md)
--   [**Variables d’état de coloration**](coloring-state-variables.md)
--   [**Variables d’état d’éclairage**](lighting-state-variables.md)
--   [**Variables d’état de pixellisation**](rasterization-state-variables.md)
--   [**Variables d’état de texturation**](texturing-state-variables.md)
--   [**Opérations de pixel**](pixel-operations.md)
--   [**Variables d’état de contrôle trame**](framebuffer-control-state-variables.md)
--   [**Variables d’état de pixel**](pixel-state-variables.md)
--   [**Variables d’état de l’évaluateur**](evaluator-state-variables.md)
--   [**Variables d’état d’indicateur**](hint-state-variables.md)
--   [**Variables d’État dépendantes de l’implémentation**](implementation-dependent-state-variables.md)
--   [**Variables d’état de Pixel-Depth dépendant de l’implémentation**](implementation-dependent-pixel-depth-state-variables.md)
--   [**Variables d’État diverses**](miscellaneous-state-variables.md)
+-   [**Variables d’état pour les valeurs actuelles et les données associées**](state-variables-for-current-values-and-associated-data.md)
+-   [**Transformation, variables d’état**](transformation-state-variables.md)
+-   [**Coloration, variables d’état**](coloring-state-variables.md)
+-   [**Éclairage, variables d’état**](lighting-state-variables.md)
+-   [**Rastérisation, variables d’état**](rasterization-state-variables.md)
+-   [**Texture, variables d’état**](texturing-state-variables.md)
+-   [**Pixel, opérations**](pixel-operations.md)
+-   [**Contrôle Framebuffer, variables d’état**](framebuffer-control-state-variables.md)
+-   [**Pixel, variables d’état**](pixel-state-variables.md)
+-   [**Évaluateur, variables d’état**](evaluator-state-variables.md)
+-   [**Hint, variables d’état**](hint-state-variables.md)
+-   [**Variables d’état dépendantes de l’implémentation**](implementation-dependent-state-variables.md)
+-   [**Densité de pixels, variables d’état dépendantes de l’implémentation**](implementation-dependent-pixel-depth-state-variables.md)
+-   [**Variables d’état diverses**](miscellaneous-state-variables.md)
 
 Pour chaque variable, la rubrique répertorie une description, un groupe d’attributs, une valeur initiale ou minimale et la fonction [**glGet \***](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) suggérée à utiliser pour l’obtenir.
 
@@ -39,9 +39,9 @@ Les variables d’État que vous pouvez obtenir à l’aide de [**glGetBooleanv*
 
 *Manuel de référence OpenGL*.
 
- 
+ 
 
- 
+ 
 
 
 

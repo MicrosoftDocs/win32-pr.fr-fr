@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété d’objet info-bulle FontName. Mi
 ms.assetid: a84a19a4-9e0e-4736-b401-286e6618bc19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c47e14935f913ce81b5faed5a49c3d731a73532f
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 17ac59e1e11575ddf4144c90d122096c24542ee28130552eff0ba53ed4af17ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119349229"
 ---
 # <a name="fontname-property-balloon-object"></a>Propriété FontName (objet Balloon)
 

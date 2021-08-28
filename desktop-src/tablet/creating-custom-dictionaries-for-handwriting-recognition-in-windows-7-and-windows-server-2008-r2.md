@@ -4,12 +4,12 @@ ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
 title: création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fe391125b21bfe35a9e1a69be6258e1643b424e
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: 46c7b27fbb03897b406609590420bd8b69b7ceee
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883883"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631194"
 ---
 # <a name="creating-custom-dictionaries-for-handwriting-recognition-in-windows-7-and-windows-server-2008-r2"></a>création de dictionnaires personnalisés pour la reconnaissance de l’écriture manuscrite dans Windows 7 et Windows Server 2008 R2
 
@@ -60,12 +60,12 @@ Usage: hwrcomp       [-lang <localename>] [-type <type>]
 </thead>
 <tbody>
 <tr class="odd">
-<td>-lang &lt; localename&gt;</td>
-<td>Nom des paramètres régionaux spécifiés attribués au fichier de dictionnaire personnalisé compilé. L’argument &lt; localename &gt; se présente sous la forme langue-région. Par exemple, est en-US, ce qui signifie la langue anglaise dans la région États-Unis. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. les langues suivantes sont prises en charge pour Windows 7 et Windows Server 2008 R2 par cette fonctionnalité : en-US, en-GB, en-CA, en-au, de-de, de-CH, fr-fr, es-es, es-MX, es-AR, it-it, nl-nl, nl-is, pt-BR, pt-pt, da-DK, sv-SE, nb-no, nn-no, fi-fi, pl-pl, cs-CZ, ru-ru, ro-ro, sr-Latn-cs, sr-Cyrl-cs, CA-es et hr-hr.<br/></td>
+<td>-lang <localename></td>
+<td>Nom des paramètres régionaux spécifiés attribués au fichier de dictionnaire personnalisé compilé. L’argument <localename> se présente sous la forme langue-région. Par exemple, est en-US, ce qui signifie la langue anglaise dans la région États-Unis. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. les langues suivantes sont prises en charge pour Windows 7 et Windows Server 2008 R2 par cette fonctionnalité : en-US, en-GB, en-CA, en-au, de-de, de-CH, fr-fr, es-es, es-MX, es-AR, it-it, nl-nl, nl-is, pt-BR, pt-pt, da-DK, sv-SE, nb-no, nn-no, fi-fi, pl-pl, cs-CZ, ru-ru, ro-ro, sr-Latn-cs, sr-Cyrl-cs, CA-es et hr-hr.<br/></td>
 </tr>
 <tr class="even">
-<td>type-type &lt;&gt;</td>
-<td>Le type d’argument option &lt; &gt; est une concaténation à chaîne unique de l’utilisation de la ressource en tant que liste de mots principale (principale) ou en complément de la liste de mots principale (secondaire), suivie du nom de la liste de mots réelle à laquelle la ressource est appliquée (par exemple, dictionary ou Surname). Les valeurs possibles sont les suivantes :
+<td>-type <type></td>
+<td>L’argument option <type> est une concaténation à chaîne unique de l’utilisation de la ressource en tant que liste de mots principale (principale) ou en complément de la liste de mots principale (secondaire), suivie du nom de la liste de mots réelle à laquelle la ressource est appliquée (par exemple, dictionary ou Surname). Les valeurs possibles sont les suivantes :
 <ul>
 <li>PRIMARY-NOM_VILLE-LIST</li>
 <li>PRIMARY-COUNTRYNAME-LIST</li>
@@ -154,7 +154,7 @@ Usage: hwrreg        [-check]
 | Paramètre                | Description                                                                                                                                                                                                                                                                                                                                                                        |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | -vérifier                   | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé.<br/>  |
-|  &lt;localename lang&gt; | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé. <br/> |
+|  lang <localename> | Le fichier du dictionnaire est vérifié sans être installé. L’option vérifier affiche le commentaire du fichier, ainsi que les informations d’enregistrement qui seraient utilisées pour installer le fichier. Cette option est utile pour vérifier les informations d’inscription avant l’exécution de l’installation. <br/> Si cette option est manquante, HwrReg.exe installe le dictionnaire personnalisé. <br/> |
 |  étendue {All \| me}         | Le dictionnaire personnalisé est installé pour tous les utilisateurs (étendue tous) ou uniquement pour l’utilisateur actuel (étendue me). L’installation de avec l’étendue All requiert que la commande soit exécutée dans une invite de commandes avec élévation de privilèges ; dans le cas contraire, un code d’erreur est retourné. <br/> Si cette option est manquante, l’installation est limitée à l’utilisateur actuel.<br/>                          |
 |  commutateur noprompt                | HwrReg.exe ne demande pas de confirmation. Cela peut être utile lors de l’exécution de hwrReg.exe à partir d’un script. <br/>                                                                                                                                                                                                                                                                 |
 
@@ -185,9 +185,9 @@ Usage: hwrreg        [-lang <localename>]
 
 | Paramètre                | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  &lt;localename lang&gt; | Les dictionnaires inscrits pour uniquement ce nom de paramètres régionaux sont répertoriés ou supprimés. L’argument &lt; localename &gt; a la région de langue du formulaire. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. <br/> Si cette option est manquante, les dictionnaires pour toutes les langues sont répertoriés ou supprimés.<br/> |
+|  lang <localename> | Les dictionnaires inscrits pour uniquement ce nom de paramètres régionaux sont répertoriés ou supprimés. L’argument <localename> a la région de langue du formulaire. Pour obtenir des exemples de ce formulaire, consultez [constantes et chaînes](/windows/desktop/Intl/language-identifier-constants-and-strings)de l’identificateur de langage. <br/> Si cette option est manquante, les dictionnaires pour toutes les langues sont répertoriés ou supprimés.<br/> |
 |  étendue {All \| me}         | Le dictionnaire personnalisé est installé pour tous les utilisateurs (étendue tous) ou uniquement pour l’utilisateur actuel (étendue me). L’installation de avec l’étendue All requiert que la commande soit exécutée dans une invite de commandes avec élévation de privilèges ; dans le cas contraire, un code d’erreur est retourné. <br/> Si cette option est manquante, l’installation est limitée à l’utilisateur actuel.<br/>                      |
-|  type &lt; de type&gt;       | Répertorie ou supprime uniquement les dictionnaires inscrits avec le type spécifié.<br/> Si cette option est manquante, tous les types de dictionnaires sont répertoriés ou supprimés. L’installation ou la suppression d’un dictionnaire personnalisé d’un autre type (par exemple, PRIMARY-COUNTRYNAME-LIST) peut affecter la reconnaissance de l’écriture manuscrite dans d’autres contextes. <br/>                                              |
+|  entrer <type>       | Répertorie ou supprime uniquement les dictionnaires inscrits avec le type spécifié.<br/> Si cette option est manquante, tous les types de dictionnaires sont répertoriés ou supprimés. L’installation ou la suppression d’un dictionnaire personnalisé d’un autre type (par exemple, PRIMARY-COUNTRYNAME-LIST) peut affecter la reconnaissance de l’écriture manuscrite dans d’autres contextes. <br/>                                              |
 |  list                    | Répertorie tous les dictionnaires installés qui correspondent aux autres options.<br/> Si cette option est manquante, l’option supprimer doit être spécifiée.<br/>                                                                                                                                                                                                                          |
 |  remove                  | Demande la suppression d’un dictionnaire qui correspond aux autres options.<br/> Si cette option est manquante, la liste d’options doit être spécifiée.<br/>                                                                                                                                                                                                                     |
 

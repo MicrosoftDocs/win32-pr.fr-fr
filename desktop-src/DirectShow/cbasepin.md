@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3ba7b3a85b512b2ad8d6e85aa38627a2abc68c21
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55f697d6ff1a2bd3ebac77a77d8ba98321f29d09a75181b52e8ef08b03eed682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120056193"
 ---
 # <a name="cbasepin-class"></a>CBasePin, classe
 
@@ -68,9 +68,9 @@ Les rubriques suivantes décrivent comment utiliser cette classe :
 | [**IsStopped**](cbasepin-isstopped.md)                                  | Détermine si le filtre contenant ce code confidentiel est arrêté.                                              |
 | [**GetMediaTypeVersion**](cbasepin-getmediatypeversion.md)              | Récupère un numéro de version pour l’ensemble de types de médias préférés. Virtuels.                                  |
 | [**IncrementTypeVersion**](cbasepin-incrementtypeversion.md)            | Incrémente le numéro de version sur le jeu de types de médias préférés.                                         |
-| [**Proactive**](cbasepin-active.md)                                        | Notifie le code confidentiel que le filtre est maintenant actif. Virtuels.                                                   |
-| [**Inactif**](cbasepin-inactive.md)                                    | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                             |
-| [**Utilisez**](cbasepin-run.md)                                              | Notifie le code confidentiel que le filtre est en cours d’exécution. Virtuels.                                                  |
+| [**Actif**](cbasepin-active.md)                                        | Notifie le code confidentiel que le filtre est maintenant actif. Virtuels.                                                   |
+| [**Inactive**](cbasepin-inactive.md)                                    | Notifie le code confidentiel que le filtre n’est plus actif. Virtuels.                                             |
+| [**Exécuter**](cbasepin-run.md)                                              | Notifie le code confidentiel que le filtre est en cours d’exécution. Virtuels.                                                  |
 | [**SetMediaType**](cbasepin-setmediatype.md)                            | Définit le type de média pour la connexion. Virtuels.                                                           |
 | [**CheckConnect**](cbasepin-checkconnect.md)                            | Détermine si une connexion de code confidentiel est appropriée. Virtuels.                                                  |
 | [**BreakConnect**](cbasepin-breakconnect.md)                            | Libère le code confidentiel d’une connexion. Virtuels.                                                               |
@@ -112,7 +112,7 @@ Les rubriques suivantes décrivent comment utiliser cette classe :
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

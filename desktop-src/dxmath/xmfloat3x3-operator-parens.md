@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e46ffcd2b434b4b7864f14615615c306ffaa5976
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9edbc18a03d485a8710411ecde37ac18848c8918
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201911"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468776"
 ---
 # <a name="xmfloat3x3-operator--operators"></a>Opérateurs XMFLOAT3X3 Operator ()
 
@@ -28,38 +28,12 @@ Accède à des éléments de matrice spécifiques référencés par ligne et col
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Opérateur</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3 :: Operator () (size_t, size_t)</strong></a></td>
-<td style="text-align: left;">Retourne un <code>reference</code> à un élément de matrice d’une instance <code>XMFLOAT3X3</code> , comme spécifié par les arguments de ligne et de colonne. <br/> Cet opérateur retourne un <code>reference</code> à un élément de matrice d’une instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> comme spécifié par les arguments de ligne et de colonne. <br/>
-<blockquote>
-[!Note]<br />
-Cet opérateur est uniquement disponible en C++.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3 :: Operator () (size_t, size_t)</strong></a></td>
-<td style="text-align: left;">Retourne la valeur d’un élément de matrice dans une instance <code>XMFLOAT3X3</code> , comme spécifié par les arguments de ligne et de colonne. <br/> Cet opérateur retourne la valeur d’un élément de matrice d’une instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> comme spécifié par les arguments de ligne et de colonne. <br/>
-<blockquote>
-[!Note]<br />
-Cet opérateur est disponible uniquement lors du développement avec C++.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Opérateur | Description | 
+|----------|-------------|
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3 :: Operator () (size_t, size_t)</strong></a> | Retourne un <code>reference</code> à un élément de matrice d’une instance <code>XMFLOAT3X3</code> , comme spécifié par les arguments de ligne et de colonne. <br /> Cet opérateur retourne un <code>reference</code> à un élément de matrice d’une instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> comme spécifié par les arguments de ligne et de colonne. <br /><blockquote>[!Note]<br />Cet opérateur est uniquement disponible en C++.</blockquote><br /> | 
+| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat3x3-operator-function-call(size_t_size_t)"><strong>XMFLOAT3X3 :: Operator () (size_t, size_t)</strong></a> | Retourne la valeur d’un élément de matrice dans une instance <code>XMFLOAT3X3</code> , comme spécifié par les arguments de ligne et de colonne. <br /> Cet opérateur retourne la valeur d’un élément de matrice d’une instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat3x3"><strong>XMFLOAT3X3</strong></a> comme spécifié par les arguments de ligne et de colonne. <br /><blockquote>[!Note]<br />Cet opérateur est disponible uniquement lors du développement avec C++.</blockquote><br /> | 
+
 
 
 

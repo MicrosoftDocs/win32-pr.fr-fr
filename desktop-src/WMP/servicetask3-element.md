@@ -3,7 +3,7 @@ title: Élément ServiceTask3
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. L’élément ServiceTask3 représente le troisième volet de tâches de stockage en ligne.
 ms.assetid: 3d08f9ff-d75b-4967-90f8-23ab71d38883
 keywords:
-- Élément ServiceTask3 lecteur Windows Media
+- élément ServiceTask3 Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d78b9e70c7e6933693f4d29750e9e3c0b4e897a7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c53ef9eb4a758e47d639446750465934fb4a6c031d8abd387276add2f0df519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763629"
 ---
 # <a name="servicetask3-element"></a>Élément ServiceTask3
 
@@ -41,7 +41,7 @@ L’élément **ServiceTask3** représente le troisième volet de tâches de sto
 
 | Terme                                                                                                                             | Description                                                        |
 |----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| <span id="URL__required_"></span><span id="url__required_"></span><span id="URL__REQUIRED_"></span>**URL** (obligatoire)<br/> | URL de la page Web affichée par le lecteur Windows Media.<br/> |
+| <span id="URL__required_"></span><span id="url__required_"></span><span id="URL__REQUIRED_"></span>**URL** (obligatoire)<br/> | URL de la page web que Lecteur Windows Media affiche.<br/> |
 
 
 
@@ -60,29 +60,29 @@ L’élément **ServiceTask3** représente le troisième volet de tâches de sto
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ServiceTask1** est considéré comme le volet principal des tâches pour engager des activités commerciales. Il s’agit du volet des tâches qui s’affiche lorsque l’utilisateur choisit d’acheter de la musique. Utilisez **ServiceTask3** pour les autres activités du magasin en ligne.
 
 > [!Note]  
-> Le lecteur Windows Media 10 comporte trois volets de tâches où un magasin en ligne peut afficher ses pages Web. Le magasin en ligne peut choisir d’utiliser un, deux ou les trois volets de tâches. Le lecteur Windows Media 11 n’a qu’un seul volet de tâches, que l’utilisateur peut afficher en cliquant sur l’onglet **magasins en ligne** . le lecteur Windows Media 11 ignore les éléments **ServiceTask2** et **ServiceTask3** .
+> Lecteur Windows Media 10 comporte trois volets de tâches où un magasin en ligne peut afficher ses pages web. Le magasin en ligne peut choisir d’utiliser un, deux ou les trois volets de tâches. Lecteur Windows Media 11 n’a qu’un seul volet de tâches, que l’utilisateur peut afficher en cliquant sur l’onglet **magasins en ligne** . Lecteur Windows Media 11 ignore les éléments **ServiceTask2** et **ServiceTask3** .
 
  
 
 Les volets des tâches magasins en ligne partagent une seule instance de navigateur. Cela signifie que vous ne devez pas écrire de code de script dans votre page Web que vous prévoyez de continuer à exécuter quand l’utilisateur quitte la tâche de service actuelle.
 
-Lorsque l’utilisateur bascule les volets de tâches, le lecteur Windows Media stocke les cookies d’URL et de session. Lorsque l’utilisateur revient au volet de tâches, le lecteur restaure l’URL et les cookies. Si l’utilisateur choisit d’utiliser un autre magasin en ligne, l’URL et les données de session sont effacées.
+lorsque l’utilisateur bascule les volets de tâches, Lecteur Windows Media stocke les cookies d’URL et de session. Lorsque l’utilisateur revient au volet de tâches, le lecteur restaure l’URL et les cookies. Si l’utilisateur choisit d’utiliser un autre magasin en ligne, l’URL et les données de session sont effacées.
 
 Le tableau suivant détaille les paramètres envoyés avec la demande d’URL.
 
 
 
-| Nom         | Valeur                                                                                                                                                               |
+| Name         | Valeur                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *GeoId*      | ID d’emplacement géographique Windows. L’ID d’emplacement est spécifié par l’utilisateur dans la zone **emplacement** des paramètres Options régionales et linguistiques du panneau de configuration. |
-| *locale*     | ID de paramètres régionaux du lecteur Windows Media.                                                                                                                                     |
+| *GeoId*      | Windows l’ID d’emplacement géographique. L’ID d’emplacement est spécifié par l’utilisateur dans la zone **emplacement** des paramètres Options régionales et linguistiques du panneau de configuration. |
+| *locale*     | ID de paramètres régionaux Lecteur Windows Media.                                                                                                                                     |
 | *UserLocale* | ID de paramètres régionaux Windows. Les paramètres régionaux sont spécifiés par l’utilisateur dans la zone **standards et formats** des paramètres Options régionales et linguistiques du panneau de configuration.        |
-| *version*    | Numéro de version du lecteur Windows Media en utilisant le format suivant : 10.0. x. xxxx ou 11.0. x. xxxx.                                                                         |
+| *version*    | Lecteur Windows Media numéro de version en utilisant le format suivant : 10.0. x. xxxx ou 11.0. x. xxxx.                                                                         |
 
 
 

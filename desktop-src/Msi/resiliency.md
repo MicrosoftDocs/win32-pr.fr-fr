@@ -4,16 +4,16 @@ ms.assetid: c0504a84-6d51-4734-a55d-f1d1ebcb3e73
 title: Résilience
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc6d57e5c5a342a8e1c295afd97a69fe2828362a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73565a129c25b19e0fb362e5363626f1acfee0387b2d4e4826f79222e7425b96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810779"
 ---
 # <a name="resiliency"></a>Résilience
 
-La résilience est la capacité d’une application à effectuer une récupération normale à partir de situations dans lesquelles un composant vital est manquant ou a été remplacée par une version incompatible. En créant un package d’installation et en utilisant les [fonctions du programme](installer-functions.md)d’installation, les développeurs peuvent utiliser le Windows Installer pour produire des applications résilientes capables de récupérer à partir de ces situations.
+La résilience est la capacité d’une application à effectuer une récupération normale à partir de situations dans lesquelles un composant vital est manquant ou a été remplacée par une version incompatible. en créant un package d’installation et en utilisant les [fonctions du programme](installer-functions.md)d’installation, les développeurs peuvent utiliser le Windows Installer pour produire des applications résilientes capables de récupérer à partir de ces situations.
 
 -   Utilisez la liste source du programme d’installation pour augmenter la résilience des applications qui reposent sur les ressources réseau. Pour plus d’informations, consultez [résilience source](source-resiliency.md).
 -   Utilisez l’API du programme d’installation pour vérifier si une fonctionnalité, un composant, un fichier ou une version de fichier critique est installé.
