@@ -6,12 +6,12 @@ keywords:
 - Clé de Registre FileType COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a2e331588b627ee5ce9a9c1b69631f1e8a1dbe4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2899b69c2f433fbd3587bdd7baa6c17c4f8cc4c9cd32100dcd672f9d213d4d3b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462498"
 ---
 # <a name="filetype-key"></a>Clé FileType
 
@@ -21,8 +21,8 @@ Utilisé par [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclass
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\FileType
-   {CLSID}
-      n = offset, cb, mask, value
+   {CLSID}
+      n = offset, cb, mask, value
 ```
 
 <dl> <dt>
@@ -55,7 +55,7 @@ Représente le modèle qui doit correspondre pour qu’un fichier soit de ce typ
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les entrées sont utilisées par la fonction [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile) pour faire correspondre des modèles à différents octets de fichier dans un fichier non composé. **Filetype** contient des sous-clés CLSID, chacune ayant une série de sous-clés **0**, **1**, **2**, **3**. Ces valeurs contiennent des modèles qui, si une correspondance est trouvée, génèrent le CLSID indiqué. Par exemple, la valeur « 0, 4, FFFFFFFF, ABCD1234 » indique que les 4 premiers octets doivent être ABCD1234, dans cet ordre. La valeur « -4, 4, FEFEFEFE » indique que les quatre derniers octets du fichier doivent être FEFEFEFE. Si l’un des modèles correspond, le CLSID est retourné.
 
@@ -71,9 +71,9 @@ La clé de classes de logiciels de l' **\_ \_ ordinateur \\ \\ local HKEY** corr
 [**GetClassFile**](/windows/desktop/api/Objbase/nf-objbase-getclassfile)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

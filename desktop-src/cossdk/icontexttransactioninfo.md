@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 499ab2371eda6dda6512b5fddb097d3adc2a6f05
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be470d2a06d5dc284963e76ded188cb6a11fabd963b4f1186a3cee697bdfb6df
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119793449"
 ---
 # <a name="icontexttransactioninfo-interface"></a>Interface IContextTransactionInfo
 
@@ -60,7 +60,7 @@ L’interface **IContextTransactionInfo** possède ces méthodes.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/> |
 
 
 

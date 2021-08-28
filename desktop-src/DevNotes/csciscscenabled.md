@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cscmig.dll
-ms.openlocfilehash: 13db7ebbb11f678c00a5a755ffe8114f8684b315
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8678e48aedf6bda6cdb8beb5b78bb310a16d2829ebf6f3e5b0b8525c135aaf03
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815459"
 ---
 # <a name="csciscscenabled-function"></a>CSCIsCSCEnabled fonction)
 
@@ -43,7 +43,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction retourne la **valeur true** si fichiers hors connexion est activé et **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

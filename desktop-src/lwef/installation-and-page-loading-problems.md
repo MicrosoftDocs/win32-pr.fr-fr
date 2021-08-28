@@ -4,12 +4,12 @@ description: Problèmes d’installation et de chargement de page
 ms.assetid: 1611c3f1-0411-4631-a64c-e7637fc7edd9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3139a9224f88f49a31b1f71a981d1b49b3e42127
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: c77fb7a41578463364837281dffcdfb22177e9785673049a65f05e9d0e33240e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358859"
 ---
 # <a name="installation-and-page-loading-problems"></a>Problèmes d’installation et de chargement de page
 

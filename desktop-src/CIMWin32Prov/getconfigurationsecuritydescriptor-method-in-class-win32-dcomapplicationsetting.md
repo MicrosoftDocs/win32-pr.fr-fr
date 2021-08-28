@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 320af05b352641c812c51353c2e7bda0da046bb8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b4f7a64c597fabfd06c72aba9419dfa01550a4415d195102a84d9b1b2208907
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119879059"
 ---
 # <a name="getconfigurationsecuritydescriptor-method-of-the-win32_dcomapplicationsetting-class"></a>Méthode GetConfigurationSecurityDescriptor de la \_ classe Win32 DCOMApplicationSetting
 
@@ -97,7 +97,7 @@ Un paramètre spécifié dans l’appel de méthode n’est pas valide
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' [**instance \_ Win32 SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) représente un type de données de [**\_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) et contient une liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) et une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). Pour plus d’informations, consultez [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 

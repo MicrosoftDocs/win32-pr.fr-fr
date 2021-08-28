@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 554cf451396101de2238258de0a0706956f24a02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d5855928e0827632240c8230bdcc57dff836c5287eec61f2911cc62367a8915f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719049"
 ---
 # <a name="imatchescriteriacallbackevaluatecontextnode-method"></a>IMatchesCriteriaCallBack :: EvaluateContextNode, méthode
 
@@ -58,7 +58,7 @@ Objet [**IContextNode**](icontextnode.md) à évaluer.
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour utiliser la méthode [**IInkAnalyzer :: FindNodesWithCallBack**](iinkanalyzer-findnodeswithcallback.md) ou [**IInkAnalyzer :: FindNodesWithCallBackInSubTree**](iinkanalyzer-findnodeswithcallbackinsubtree.md), créez une classe qui implémente [**IMatchesCriteriaCallBack**](imatchescriteriacallback.md). Implémentez **IMatchesCriteriaCallBack :: EvaluateContextNode** pour retourner la **\_ valeur variant true** si l’objet [**IContextNode**](icontextnode.md) correspond à vos critères, et **Variant \_ false** dans le cas contraire. Pour certains critères, vous devrez peut-être fournir un moyen d’initialiser ou de maintenir l’état de votre objet **IMatchesCriteriaCallBack** .
 
@@ -68,7 +68,7 @@ Pour utiliser la méthode [**IInkAnalyzer :: FindNodesWithCallBack**](iinkanaly
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

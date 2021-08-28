@@ -4,12 +4,12 @@ ms.assetid: 8f172e2c-4cd1-4108-9c8d-01a731aca83b
 title: Utilisation de WsdCodeGen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e09bd2b0c8f96d51751aa90bc3206a0824f19b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6395d39a84415cc56e66949ea82ef7a1acd9fc009b7e1b2c93fa2712e8a81a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463169"
 ---
 # <a name="using-wsdcodegen"></a>Utilisation de WsdCodeGen
 
@@ -21,7 +21,7 @@ ms.locfileid: "106545822"
 4.  Générez le code à l’aide de WsdCodeGen, en fournissant le fichier de configuration en tant qu’entrée. Pour plus d’informations, consultez Syntaxe de la [ligne de commande WsdCodeGen](wsdcodegen-command-line-syntax.md).
 5.  Utilisez le code généré pour générer un client, un hôte, ou les deux.
 
-Le SDK Windows comprend des exemples de fichiers WSDL, des fichiers de configuration WsdCodeGen et du code généré. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
+le SDK Windows comprend des exemples de fichiers WSDL, des fichiers de configuration WsdCodeGen et du code généré. Pour plus d’informations, consultez [exemples wsdapi](wsdapi-samples.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

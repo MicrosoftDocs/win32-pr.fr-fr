@@ -14,7 +14,7 @@
           href: declaring-the-device-capability.md
         - name: Inscrire l’interface de l’appareil comme restreint aux applications privilégiées
           href: register-the-device-interface-class-as-privileged.md
-        - name: Créer une extension de Windows Runtime
+        - name: créer une Extension de Windows Runtime
           href: create-a-windows-runtime-extension.md
     - name: Informations de référence sur la programmation C++ de l’API d’accès aux appareils
       href: device-access-api-c---programming-reference.md

@@ -4,12 +4,12 @@ description: Services d’entrée
 ms.assetid: 6a0fb005-2acc-4d7c-babb-bb814faf746d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad26d5fef84e5011e6418e87e6e0d0ca7b53cb37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dda8221c82f9d2c4d47a07e06b8b9f28149dea2e6b62644b5476d5c0c070e474
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943939"
 ---
 # <a name="input-services"></a>Services d’entrée
 
@@ -23,9 +23,9 @@ Une application cliente fournit l’interface utilisateur principale pour l’in
 -   [Sélection du moteur de reconnaissance vocale](speech-engine-selection.md)
 -   [Événements d’entrée vocale](speech-input-events.md)
 
- 
+ 
 
- 
+ 
 
 
 

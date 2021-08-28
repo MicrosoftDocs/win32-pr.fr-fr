@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, création d’un objet conteneur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107e26a973cc05e14e5e7c0f9fec04bdd4d1fe06
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6a0b411c4d0fa2dd688f325105cd09d46255dc287a202e1300a5451a4d33ca9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103940827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694255"
 ---
 # <a name="example-code-for-creating-a-container-object"></a>Exemple de code pour la création d’un objet conteneur
 
@@ -302,6 +302,6 @@ HRESULT AddValueToOtherWKOProperty(IADs *pads,
 
 
 
- 
+ 
 
- 
+ 

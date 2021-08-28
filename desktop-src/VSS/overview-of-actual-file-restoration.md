@@ -4,12 +4,12 @@ ms.assetid: 15df39fa-1eb1-4e96-9e26-14470f391de4
 title: Vue d’ensemble de la restauration réelle des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6527a10d0880b1e599377abb797449816019ab89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2cc1b74f7beae7f5686dc36ce741428cad97ae62c62c8895122ec8a639e46f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998239"
 ---
 # <a name="overview-of-actual-file-restoration"></a>Vue d’ensemble de la restauration réelle des fichiers
 
@@ -21,11 +21,11 @@ Le tableau suivant présente la séquence des actions et des événements qui so
 
 | Action du demandeur                                                                                                                                                                                                                                                                                                          | Événement | Action d’écriture |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------------|
-| Générer une liste de jeux de restauration pour les fichiers sur le support de sauvegarde.                                                                                                                                                                                                                                                                 | Aucune  | Aucune          |
-| Gérez les [*cibles dirigées*](vssgloss-d.md) ou la restauration de [*fichiers partielle*](vssgloss-p.md) (consultez [**IVssComponent :: GetDirectedTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget), [**IVssComponent :: GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)). | Aucune  | Aucune          |
-| Si nécessaire, ignorez tous les emplacements de restauration spécifiés et restaurez un nouvel emplacement spécifié dans un appel antérieur à [**IVssBackupComponents :: AddNewTarget**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget).                                                                                                                       | Aucune  | Aucune          |
-| Si la restauration est incrémentielle et que d’autres restaurations sont nécessaires, indiquez (consultez [**IVssBackupComponents :: SetAdditionalRestores**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores) et [sauvegardes incrémentielles et différentielles](incremental-and-differential-backups.md)).                                                     | Aucune  | Aucune          |
-| Pour savoir si un enregistreur a modifié le contenu du document des composants de sauvegarde, appelez [**IVssBackupComponents :: GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). Par exemple, l’enregistreur a peut-être modifié la cible de restauration.                                                                 | Aucune  | Aucune          |
+| Générer une liste de jeux de restauration pour les fichiers sur le support de sauvegarde.                                                                                                                                                                                                                                                                 | None  | None          |
+| Gérez les [*cibles dirigées*](vssgloss-d.md) ou la restauration de [*fichiers partielle*](vssgloss-p.md) (consultez [**IVssComponent :: GetDirectedTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget), [**IVssComponent :: GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)). | None  | None          |
+| Si nécessaire, ignorez tous les emplacements de restauration spécifiés et restaurez un nouvel emplacement spécifié dans un appel antérieur à [**IVssBackupComponents :: AddNewTarget**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addnewtarget).                                                                                                                       | None  | None          |
+| Si la restauration est incrémentielle et que d’autres restaurations sont nécessaires, indiquez (consultez [**IVssBackupComponents :: SetAdditionalRestores**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-setadditionalrestores) et [sauvegardes incrémentielles et différentielles](incremental-and-differential-backups.md)).                                                     | None  | None          |
+| Pour savoir si un enregistreur a modifié le contenu du document des composants de sauvegarde, appelez [**IVssBackupComponents :: GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents). Par exemple, l’enregistreur a peut-être modifié la cible de restauration.                                                                 | None  | None          |
 
 
 
@@ -41,7 +41,7 @@ La réussite ou l’échec d’une restauration est indiqué composant par compo
 
 En général, VSS ne spécifie pas de mécanisme pour récupérer des données à partir d’un support de stockage, choisir un support de stockage ou déterminer les fichiers à restaurer.
 
-Toutefois, pour certains Writers, la restauration de fichiers peut impliquer l’utilisation d’une interface et d’une procédure personnalisées documentées. Les enregistreurs système Windows, qui requièrent actuellement une telle prise en charge, sont documentés dans des [cas d’utilisation VSS spéciaux](special-vss-usage-cases.md).
+Toutefois, pour certains Writers, la restauration de fichiers peut impliquer l’utilisation d’une interface et d’une procédure personnalisées documentées. Windows les writers de système, qui requièrent actuellement une telle prise en charge, sont documentés dans des [cas d’utilisation VSS spéciaux](special-vss-usage-cases.md).
 
 En général, il est recommandé de traiter les fichiers de chaque composant de chaque [*instance du writer*](vssgloss-w.md) comme une unité. Ce tutoriel requiert les éléments suivants :
 

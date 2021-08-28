@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 4266e6116e43b7b792c3040d7c86a60037ca4c44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6011bf839e2f91b3eb835cfe295e0c1845a6c6697a262c0f9bf7525d6c157565
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119884059"
 ---
 # <a name="iuseridentitymanagerlogoff-method"></a>IUserIdentityManager :: Logoff, méthode
 
@@ -56,7 +56,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

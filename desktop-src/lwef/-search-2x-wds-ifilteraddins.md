@@ -1,24 +1,24 @@
 ---
 title: Développement de compléments IFilter
-description: Vous pouvez étendre Microsoft Windows Desktop Search (WDS) avec des compléments de filtre, des composants qui implémentent IFilterinterface, pour inclure de nouveaux types de fichiers.
+description: vous pouvez étendre Microsoft Windows Desktop Search (WDS) avec des compléments de filtre, des composants qui implémentent IFilterinterface, pour inclure de nouveaux types de fichiers.
 ms.assetid: 71dd515d-a73e-4e0a-b0da-c8a6209d09fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f846cf2101eefc17b1e92fbd7992529a06fb43
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 497d4bffdb9564e0737bee3cd0b63fa8026633a2cc81aad37cb989423e460487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480893"
 ---
 # <a name="developing-ifilter-add-ins"></a>Développement de compléments IFilter
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez [Windows Search](../search/-search-3x-wds-overview.md) à la place.
 
-Vous pouvez étendre Microsoft Windows Desktop Search (WDS) avec des compléments de filtre, des composants qui implémentent l’interface [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter), pour inclure de nouveaux types de fichiers. Les filtres sont chargés d’accéder aux données et de les analyser dans des fichiers, et de retourner des paires de propriétés et de valeurs ainsi que des blocs de texte pour l’indexation. Pendant le processus d’indexation, WDS appelle le filtre approprié avec l’URL de chaque fichier ou élément. Le filtre extrait d’abord les métadonnées qui correspondent aux propriétés marquées comme étant récupérables dans le schéma WDS, telles que le titre, la taille de fichier et la date de dernière modification. Ensuite, il divise le contenu de l’élément en segments de texte. WDS ajoute les propriétés et le texte retournés par le filtre au catalogue. WDS peut indexer n’importe quel type de fichier pour lequel il possède un filtre inscrit.
+vous pouvez étendre Microsoft Windows Desktop Search (WDS) avec des compléments de filtre, des composants qui implémentent l’interface [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter), pour inclure de nouveaux types de fichiers. Les filtres sont chargés d’accéder aux données et de les analyser dans des fichiers, et de retourner des paires de propriétés et de valeurs ainsi que des blocs de texte pour l’indexation. Pendant le processus d’indexation, WDS appelle le filtre approprié avec l’URL de chaque fichier ou élément. Le filtre extrait d’abord les métadonnées qui correspondent aux propriétés marquées comme étant récupérables dans le schéma WDS, telles que le titre, la taille de fichier et la date de dernière modification. Ensuite, il divise le contenu de l’élément en segments de texte. WDS ajoute les propriétés et le texte retournés par le filtre au catalogue. WDS peut indexer n’importe quel type de fichier pour lequel il possède un filtre inscrit.
 
-Dans certains cas, vous n’avez pas besoin d’écrire un nouveau filtre. WDS 2. x contient des filtres pour plus de 200 types d’éléments (y compris des éléments en texte clair tels que HTML, XML et des fichiers de code source) et utilise la même technologie [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)que SharePoint Services. Si vous avez déjà installé des filtres pour vos types de fichiers, WDS peut utiliser ces filtres existants pour indexer ces données. En outre, WDS comprend un filtre général pour les types de fichiers qui sont en texte clair. Si vous avez un type de fichier qui peut être traité par un filtre SharePoint Services existant ou le filtre de texte en clair, vous pouvez ajouter l’extension de nom de fichier et le GUID de filtre au registre pour que WDS puisse les localiser et les utiliser (pour plus d’informations, consultez [pour inscrire un complément de filtre](#to-register-a-filter-add-in) ).
+Dans certains cas, vous n’avez pas besoin d’écrire un nouveau filtre. WDS 2. x contient des filtres pour plus de 200 types d’éléments (y compris des éléments en texte brut tels que HTML, XML et des fichiers de code source) et utilise la même technologie [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)que SharePoint Services. Si vous avez déjà installé des filtres pour vos types de fichiers, WDS peut utiliser ces filtres existants pour indexer ces données. En outre, WDS comprend un filtre général pour les types de fichiers qui sont en texte clair. si vous avez un type de fichier qui peut être traité par un filtre de SharePoint Services existant ou le filtre de texte en clair, vous pouvez ajouter l’extension de nom de fichier et le GUID de filtre au registre pour que WDS puisse les localiser et les utiliser (pour plus d’informations, consultez [pour inscrire un complément de filtre](#to-register-a-filter-add-in) ).
 
 Toutefois, si vous disposez d’un format de fichier ou de données propriétaire non en texte brut, l’écriture d’une implémentation de filtre personnalisée est la seule façon de s’assurer que WDS peut indexer le format de fichier dans le catalogue. Vous ne pouvez avoir qu’un seul complément de filtre pour un type de fichier. il est donc possible de remplacer un filtre existant ou de faire en sorte qu’un autre filtre remplace le vôtre pour un type de fichier spécifique.
 
@@ -41,9 +41,9 @@ Cette section contient les rubriques suivantes :
 
 Un complément de filtre doit implémenter l’interface [**IFilter**](/windows/desktop/api/filter/nn-filter-ifilter)et l’une des interfaces suivantes :
 
--   [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) -pour charger des données à partir d’un flux. Cette opération est plus sécurisée que l’utilisation de fichiers, car rien n’est écrit sur le disque. L’interface IPersistStream est la méthode préférée pour la compatibilité ascendante avec Windows Vista.
--   [IPersistFile, interface](/windows/win32/api/objidl/nn-objidl-ipersistfile) -pour charger des données à partir d’un fichier. Cette interface n’est pas prise en charge dans Windows Vista.
--   [IPersistStorage, interface](/windows/win32/api/objidl/nn-objidl-ipersiststorage) -pour charger des données à partir d’un stockage structuré com OLE.
+-   [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) -pour charger des données à partir d’un flux. Cette opération est plus sécurisée que l’utilisation de fichiers, car rien n’est écrit sur le disque. l’interface IPersistStream est la méthode préférée pour la compatibilité ascendante avec Windows Vista.
+-   [IPersistFile, interface](/windows/win32/api/objidl/nn-objidl-ipersistfile) -pour charger des données à partir d’un fichier. cette interface n’est pas prise en charge dans Windows Vista.
+-   [IPersistStorage, Interface](/windows/win32/api/objidl/nn-objidl-ipersiststorage) -pour charger des données à partir d’un Stockage structuré OLE COM.
 
 Un complément de filtre utilise ces interfaces pour obtenir le contenu de l’élément et les retourner de manière itérative à l’index jusqu’à ce que la fin du fichier soit atteinte. Un complément de filtre doit être aussi robuste que possible pour gérer les fichiers endommagés et ceux qui ne satisfont pas aux formats d’entrée attendus.
 
@@ -63,7 +63,7 @@ Il s’agit d’une interface requise pour l’implémentation d’un filtre. Po
 
 
 
- 
+ 
 
 ### <a name="ipersiststream"></a>IPersistStream
 
@@ -81,11 +81,11 @@ Cette interface charge un fichier à partir d’un flux pour un traitement plus 
 
 
 
- 
+ 
 
 ### <a name="ipersistfile"></a>IPersistFile
 
-Cette interface charge un fichier par chemin d’accès absolu et n’est pas pris en charge dans Windows Vista.
+cette interface charge un fichier par chemin d’accès absolu et n’est pas pris en charge dans Windows Vista.
 
 
 
@@ -100,11 +100,11 @@ Cette interface charge un fichier par chemin d’accès absolu et n’est pas pr
 
 
 
- 
+ 
 
 ### <a name="ipersiststorage"></a>IPersistStorage
 
-Cette interface prend en charge le modèle de stockage structuré, dans lequel chaque objet contenu a son propre stockage qui est imbriqué dans le stockage du conteneur. À l’instar de l' [interface IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile), cette interface est chargée par le chemin d’accès absolu et n’est pas prise en charge dans Windows Vista.
+Cette interface prend en charge le modèle de stockage structuré, dans lequel chaque objet contenu a son propre stockage qui est imbriqué dans le stockage du conteneur. à l’instar de l' [interface IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile), cette interface est chargée par le chemin d’accès absolu et n’est pas prise en charge dans Windows Vista.
 
 
 
@@ -119,7 +119,7 @@ Cette interface prend en charge le modèle de stockage structuré, dans lequel c
 
 
 
- 
+ 
 
 ## <a name="outputting-properties-with-filters"></a>Sortir des propriétés avec des filtres
 
@@ -144,11 +144,11 @@ Les filtres doivent sortir au minimum des propriétés suivantes, qui sont les c
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9 | 2             | PrimaryTitle   | Titre qui s’affiche pour cet élément.                                                                                                              |
 | F29F85E0-4FF9-1068-AB91-08002B27B3D9 | 4             | PrimaryAuthors | Personne la plus associée à cet élément.                                                                                                          |
 | D5CDD505-2E9C-101B-9397-08002B2CF9AE | PrimaryDate   | PrimaryDate    | Date la plus importante pour l’élément, par exemple la date de réception de l’e-mail ou la modification des fichiers.                                                               |
-| D5CDD505-2E9C-101B-9397-08002B2CF9AE | PerceivedType | PerceivedType  | Type de fichier en cours d’analyse. Doit correspondre à l’un des types de recherche Windows Desktop listés dans le type de WDS [perçu](-search-2x-wds-perceivedtype.md). |
+| D5CDD505-2E9C-101B-9397-08002B2CF9AE | PerceivedType | PerceivedType  | Type de fichier en cours d’analyse. doit correspondre à l’un des types de recherche Windows Desktop listés dans le Type de WDS [perçu](-search-2x-wds-perceivedtype.md). |
 
 
 
- 
+ 
 
 Pour les éléments en texte clair, WDS extrait toutes les propriétés définies par le système, telles que la taille ou l’extension du fichier, en incluant de nouveaux types de fichiers en texte brut à l’index. Les autres types de propriétés qui peuvent être retournées à l’index sont les suivants :
 
@@ -182,7 +182,7 @@ Il existe trois identificateurs de classe, ou CLSID, associés à chaque filtre.
 >
 > Dans les versions ultérieures des systèmes d’exploitation Microsoft, l’installation de fichiers dans le répertoire system32 peut devenir plus difficile. nous vous recommandons donc de les installer sous Program Files et d’inclure un chemin d’accès complet au filtre dans le registre. Pour des raisons de sécurité, il est également prudent de spécifier un chemin d’accès complet à votre DLL dans le registre. Dans le cas contraire, une version « cheval de Troie » de votre DLL pourrait être chargée si elle se trouve dans le chemin d’accès du processus avant votre version.
 
- 
+ 
 
 ### <a name="registration-model"></a>Modèle d’inscription
 
@@ -222,47 +222,47 @@ Vous devez faire un total de huit entrées dans le registre pour inscrire votre 
 
     ```
     HKEY_CLASSES_ROOT\<.ext>\PersistentHandler
-       (Default) = {GUID_1}
+       (Default) = {GUID_1}
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}
-       (Default) = <Persistent Handler Description>
+       (Default) = <Persistent Handler Description>
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentAddinsRegistered
-       (Default) = (Value Not Set)
+       (Default) = (Value Not Set)
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentAddinsRegistered\{89BCB740-6119-101A-BCB7-00DD010655AF}
-       (Default) = {CLSID of IFilter implementation}
+       (Default) = {CLSID of IFilter implementation}
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{GUID_1}\PersistentHandler
-       (Default) = {GUID_1}
+       (Default) = {GUID_1}
     ```
 
 2.  Inscrivez l’implémentation IFilter avec les clés et valeurs suivantes :
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{CLSID of IFilter implementation}
-       (Default) = Extension IFilter Description">
+       (Default) = Extension IFilter Description">
     ```
 
     ```
     HKEY_CLASSES_ROOT\CLSID\{CLSID of IFilter implementation}\InprocServer32
-       (Default) = <DLL Install Path>
-       ThreadingModel = Both
+       (Default) = <DLL Install Path>
+       ThreadingModel = Both
     ```
 
-3.  Inscrivez l’implémentation IFilter avec Windows Desktop Search avec la clé et la valeur suivantes :
+3.  inscrivez l’implémentation IFilter avec Windows Desktop Search avec la clé et la valeur suivantes :
 
     ```
     HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\RSSearch\ContentIndexCommon\Filters\Extension\<.ext>
-       (Default) = {CLSID of IFilter implementation}"
+       (Default) = {CLSID of IFilter implementation}"
     ```
 
 ## <a name="related-topics"></a>Rubriques connexes
@@ -287,6 +287,6 @@ Vous devez faire un total de huit entrées dans le registre pour inscrire votre 
 [**Filtres**](/windows/desktop/api/filter/nn-filter-ifilter)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - search.h
-ms.openlocfilehash: 43539bbf67e23bc37ca92f6a961b945ae581e746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 874428ed435d2336398f6e72c58b70de275565cce2e606f1fdddea54f0684742
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119944409"
 ---
 # <a name="iwordformsinkputaltword-method"></a>IWordFormSink ::P méthode utAltWord
 
@@ -69,7 +69,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée à partir de la méthode [**GenerateWordForms**](/windows/win32/api/indexsrv/nf-indexsrv-istemmer-generatewordforms) de l’implémentation [**IStemmer**](/windows/win32/api/indexsrv/nn-indexsrv-istemmer) . Toutes les autres formes d’un mot, à l’exception de la dernière, sont placées dans l’objet [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) en appelant **IWordFormSink ::P utaltword**. La forme alternative finale d’un mot, qui est toujours la forme d’origine du mot, est gérée en appelant [**IWordFormSink ::P utword**](iwordformsink-putword.md).
 

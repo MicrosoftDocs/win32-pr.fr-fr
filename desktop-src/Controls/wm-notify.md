@@ -3,7 +3,7 @@ title: Message WM_NOTIFY (winuser. h)
 description: Envoyé par un contrôle commun à sa fenêtre parente lorsqu’un événement s’est produit ou que le contrôle requiert des informations.
 ms.assetid: vs|controls|~\controls\common\messages\wm_notify.htm
 keywords:
-- WM_NOTIFY les contrôles de message Windows
+- WM_NOTIFY les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f1905954e7fb164f8436216fa918cc6f243f4b17
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9139f2dab6410eeb2bacbde93b5e163c0591f350626046861426ddc53beab389
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539709"
 ---
 # <a name="wm_notify-message"></a>\_Message de notification WM
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [**NMHDR**](/windows/desktop/api/richedit/ns-richedi
 
 La valeur de retour est ignorée, à l’exception des messages de notification qui le définissent autrement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La destination du message doit être le **HWND** du parent du contrôle. Cette valeur peut être obtenue à l’aide de [**GetParent**](/windows/desktop/api/winuser/nf-winuser-getparent), comme illustré dans l’exemple suivant, où *m \_ controlHwnd* est le **HWND** du contrôle lui-même.
 
@@ -98,7 +98,7 @@ Certaines notifications, essentiellement celles qui se trouvent dans l’API pen
 
 Si le gestionnaire de messages est dans une procédure de boîte de dialogue, vous devez utiliser la fonction [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga) avec DWL \_ MSGRESULT pour définir une valeur de retour.
 
-Pour les systèmes Windows Vista et versions ultérieures, le message **WM \_ Notify** ne peut pas être envoyé entre les processus.
+pour les systèmes Windows Vista et versions ultérieures, le message **WM \_ NOTIFY** ne peut pas être envoyé entre les processus.
 
 De nombreuses notifications sont disponibles à la fois dans les formats ANSI et Unicode. La fenêtre qui envoie le message **WM \_ Notify** utilise le message [**WM \_ NOTIFYFORMAT**](wm-notifyformat.md) pour déterminer le format à utiliser. Pour plus d’informations, consultez **WM \_ NOTIFYFORMAT** .
 
@@ -108,8 +108,8 @@ De nombreuses notifications sont disponibles à la fois dans les formats ANSI et
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Winuser. h</dt> </dl> |
 
 

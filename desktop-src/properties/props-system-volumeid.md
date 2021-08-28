@@ -4,12 +4,12 @@ ms.assetid: 0dbfd772-b9c7-48f9-bc41-d4af94c738b2
 title: System. Idvolume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c16d7f55b602c8390f906e5e5e3e5a12770c853
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 198789372695676a4fadd8fcffd223b4e106e3bd9b25a5fc3f6c123cdb3e95c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118722850"
 ---
 # <a name="systemvolumeid"></a>System. Idvolume
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = false
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

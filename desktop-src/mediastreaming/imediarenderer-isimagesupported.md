@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dd68f4d758c67b81c1eefcbc83a0f0a505ec27b6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1fae20b6b5486586e305723a1d6a29a885bf0db8b8741ab9e6881fb292f35d6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461639"
 ---
 # <a name="imediarendererisimagesupported-method"></a>IMediaRenderer :: IsImageSupported, méthode
 
@@ -50,7 +50,7 @@ Valeur booléenne qui est **true** si DMR est capable d’afficher des images et
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

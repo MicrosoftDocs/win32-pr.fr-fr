@@ -4,12 +4,12 @@ ms.assetid: 85f78f45-5e76-4d52-88a2-ac3c9e2b6a1e
 title: Stratégie de métadonnées de photo System. photo. CameraSerialNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c329cd4c56b49e39de5da97ac9d9f8b14bffb64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a730df8041534a377262d9bb55a19c9b109b35ab03e47d1b7e8cb88014987b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710136"
 ---
 # <a name="systemphotocameraserialnumber-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. CameraSerialNumber
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Came
 
 \_Photo \_ CameraSerialNumber
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Si le fichier est au format JPEG, le gestionnaire lit, écrit et supprime les do
 
 
 
-| Commande | Chemin d’accès                                   | Format de disque | Obligatoire |
+| Commande | Chemin                                   | Format de disque | Obligatoire |
 |-------|----------------------------------------|-------------|----------|
 | 1     | /xmp/MicrosoftPhoto:CameraSerialNumber | Unicode     | Oui      |
 
@@ -59,7 +59,7 @@ Si le fichier est au format TIFF, le gestionnaire lira, écrira et supprime les 
 
 
 
-| Commande | Chemin d’accès                                       | Format de disque | Obligatoire |
+| Commande | Chemin                                       | Format de disque | Obligatoire |
 |-------|--------------------------------------------|-------------|----------|
 | 1     | /ifd/xmp/MicrosoftPhoto:CameraSerialNumber | Unicode     | Oui      |
 
@@ -67,7 +67,7 @@ Si le fichier est au format TIFF, le gestionnaire lira, écrira et supprime les 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

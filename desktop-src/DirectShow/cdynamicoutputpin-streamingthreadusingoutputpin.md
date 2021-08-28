@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 797dcb94e227861642de2a05e6edf24f675bb4e7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4687db225a616adef6d1c756ae9295e2c273c0315f37d119c7bacd0c226233e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119539719"
 ---
 # <a name="cdynamicoutputpinstreamingthreadusingoutputpin-method"></a>Méthode CDynamicOutputPin. StreamingThreadUsingOutputPin
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la **valeur true** si un thread effectue une opération de diffusion en continu sur le code confidentiel. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si des threads ont été retournés avec succès à partir de la méthode [**CDynamicOutputPin :: StartUsingOutputPin**](cdynamicoutputpin-startusingoutputpin.md) et n’ont pas effectué d’appel correspondant à la méthode [**CDynamicOutputPin :: StopUsingOutputPin**](cdynamicoutputpin-stopusingoutputpin.md) , cette méthode retourne **true**.
 
@@ -54,7 +54,7 @@ Si des threads ont été retournés avec succès à partir de la méthode [**CDy
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

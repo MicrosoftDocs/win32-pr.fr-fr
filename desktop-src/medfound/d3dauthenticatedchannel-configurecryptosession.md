@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3d9types.h
-ms.openlocfilehash: 2b1cca13bcd37e488cd0ed455098afa62492579f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfb65687eaae82b11e670653d625e0f6ffa36c1d091a3c049829e5a221507556
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119942914"
 ---
 # <a name="d3dauthenticatedchannel_configurecryptosession-structure"></a>D3DAUTHENTICATEDCHANNEL \_ CONFIGURECRYPTOSESSION, structure
 
@@ -78,8 +78,8 @@ Handle du périphérique Direct3D.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>D3d9types. h</dt> </dl> |
 
 

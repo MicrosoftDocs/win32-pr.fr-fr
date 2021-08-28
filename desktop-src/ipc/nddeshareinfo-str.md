@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Nddeapi.h
-ms.openlocfilehash: 975382272a4e2c7cc56b0ddf593905b4d745a48b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84d29bcf5e1e4d086ca60da619edf26640c583f238d4fa956b3edd696eceee1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481709"
 ---
 # <a name="nddeshareinfo-structure"></a>NDDESHAREINFO, structure
 
@@ -162,7 +162,7 @@ Pointeur vers une mémoire tampon qui contient des chaînes se terminant par un 
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Structures DDE réseau](network-dde-structures.md)

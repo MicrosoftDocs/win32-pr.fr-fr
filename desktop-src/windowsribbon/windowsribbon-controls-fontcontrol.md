@@ -4,12 +4,12 @@ description: pour simplifier l’intégration et la configuration de la prise en
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c80ce84e17573925b8bf64637df1330c7447b6bebe501de1f20ebc4b1ac79d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 106163c03c506e438ffcffa261ebd7e3a2115e2a
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119710659"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122470725"
 ---
 # <a name="font-control"></a>Contrôle de police
 
@@ -144,7 +144,7 @@ Modèles
 
 **FontOnly**
 
-Default
+Par défaut
 
 Facultatif
 
@@ -421,77 +421,23 @@ Si une valeur d’attribut *KeyTip* est assignée à l’élément [**FontContro
 
 Le tableau suivant répertorie les touches accélératrices définies par l’infrastructure. 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Sous-contrôle</th>
-<th>KeyTip</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Famille de polices</td>
-<td>F</td>
-</tr>
-<tr class="even">
-<td>Style de police</td>
-<td>T</td>
-</tr>
-<tr class="odd">
-<td>Taille de police</td>
-<td>S</td>
-</tr>
-<tr class="even">
-<td>Agrandir la police</td>
-<td>G</td>
-</tr>
-<tr class="odd">
-<td>Réduire la police</td>
-<td>K</td>
-</tr>
-<tr class="even">
-<td>Gras</td>
-<td>B</td>
-</tr>
-<tr class="odd">
-<td>Italique</td>
-<td>I</td>
-</tr>
-<tr class="even">
-<td>Souligner</td>
-<td>U</td>
-</tr>
-<tr class="odd">
-<td>Barré</td>
-<td>X</td>
-</tr>
-<tr class="even">
-<td>Exposant</td>
-<td>Y ou Z
-<blockquote>
-[!Note]<br />
-Si l’attribut <em>KeyTip</em> n’est pas déclaré dans le balisage, la touche d’option par défaut est Y ; dans le cas contraire, la touche d’option par défaut est <em>KeyTip</em> + Z.
-</blockquote>
-<br/></td>
-</tr>
-<tr class="odd">
-<td>Indice</td>
-<td>A</td>
-</tr>
-<tr class="even">
-<td>Couleur de police</td>
-<td>C</td>
-</tr>
-<tr class="odd">
-<td>Mise en surbrillance de police</td>
-<td>H</td>
-</tr>
-</tbody>
-</table>
+
+| Sous-contrôle | KeyTip | 
+|-------------|--------|
+| Famille de polices | F | 
+| Style de police | T | 
+| Taille de police | S | 
+| Agrandir la police | G | 
+| Réduire la police | K | 
+| Gras | B | 
+| Italique | I | 
+| Souligner | U | 
+| Barré | X | 
+| Exposant | Y ou Z<blockquote>[!Note]<br />Si l’attribut <em>KeyTip</em> n’est pas déclaré dans le balisage, la touche d’option par défaut est Y ; dans le cas contraire, la touche d’option par défaut est <em>KeyTip</em> + Z.</blockquote><br /> | 
+| Indice | A | 
+| Couleur de police | C | 
+| Mise en surbrillance de police | H | 
+
 
 
 
@@ -562,7 +508,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 
 
 
-| Clé de propriété                                                                                                                  | Remarques                                                                                                                                                                                                                                                                                                                                                                                          |
+| Clé de propriété                                                                                                                  | Notes                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [IU \_ \_ FontProperties](windowsribbon-reference-properties-uipkey-fontproperties.md)                                      | Expose, dans l’agrégat comme un objet [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) , toutes les propriétés de sous-contrôle de contrôle de police.<br/> L’infrastructure interroge cette propriété lorsque `UI_INVALIDATIONS_VALUE` est passé comme valeur des *indicateurs* dans l’appel à [**IUIFramework :: InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand).<br/> |
 | [IU \_ \_ FontProperties \_ ChangedProperties](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md) | Expose, dans l’agrégat comme un objet [**IUISimplePropertySet**](/windows/desktop/api/uiribbon/nn-uiribbon-iuisimplepropertyset) , uniquement les propriétés de sous-contrôle de police qui ont changé.<br/>                                                                                                                                                                                                        |
@@ -581,7 +527,7 @@ Le tableau suivant répertorie les contrôles individuels et leurs clés de prop
 
 
 
-| Contrôles                 | Clé de propriété                                                                                                                                                                                                                                                           | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Contrôles                 | Clé de propriété                                                                                                                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Taille de la police**            | [\_Taille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-size.md)                                                                                                                                                                    | Lorsqu’une exécution de texte de taille hétérogène est mise en surbrillance, l’infrastructure du ruban définit le contrôle de la **taille** de la police sur vide et la valeur de l' [interface utilisateur \_ \_ FontProperties \_ taille](windowsribbon-reference-properties-uipkey-fontproperties-size.md) sur 0. Lorsque l’utilisateur clique sur le bouton **agrandir la police** ou **réduire la police** , tout le texte mis en surbrillance est redimensionné, mais la différence relative dans les tailles de texte est conservée.                                                                                                                                                    |
 | **Famille de polices**          | [\_Famille de \_ FontProperties de l’interface utilisateur \_](windowsribbon-reference-properties-uipkey-fontproperties-family.md)                                                                                                                                                                | Les noms des familles de polices GDI varient selon les paramètres régionaux système. Par conséquent, si la valeur de [la \_ \_ \_ famille FontProperties de l’interface utilisateur](windowsribbon-reference-properties-uipkey-fontproperties-family.md) est conservée entre les sessions d’application, cette valeur doit être récupérée sur chaque nouvelle session.                                                                                                                                                                                                                                                                            |

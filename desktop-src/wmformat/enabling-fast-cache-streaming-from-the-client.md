@@ -13,12 +13,12 @@ keywords:
 - Streaming de cache rapide, activation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3f8423a6f71b86ea91a05ed74b931eaa28a64be
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5b0f02a571d5fac456d4dbc743e5fb936f98342a0ed8e8739d653b659ab7c6f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104381500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447619"
 ---
 # <a name="enabling-fast-cache-streaming-from-the-client"></a>Activation de la diffusion en continu du cache rapide à partir du client
 
@@ -42,7 +42,7 @@ Avec ces paramètres, le lecteur active le cache rapide par défaut si la bande 
 
 
 
- 
+ 
 
 Le modificateur WMCache = 1 force le lecteur à utiliser la diffusion en continu de cache rapide, quelle que soit la bande passante réseau ou la vitesse de transmission du contenu et quels que soient les appels précédents à **SetEnableFastCache**. Toutefois, elle ne remplace pas le paramètre **SetEnableContentCaching** sur le lecteur ; il ne remplace pas non plus la configuration du serveur.
 
@@ -58,9 +58,9 @@ Plusieurs modificateurs peuvent être spécifiés ; Utilisez une esperluette (&
 
 mms://MyServer/MyVideo.wmv ? WMCache = 1&WMContentBitrate = 56000
 
- 
+ 
 
- 
+ 
 
 
 

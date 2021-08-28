@@ -4,12 +4,12 @@ ms.assetid: 427f0dca-f945-4c89-a87a-a7c86291b1c5
 title: Attribut MF_PD_ASF_FILEPROPERTIES_FLAGS (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ee294642188a0f2e22143feeca6791fea591cbb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ebc42bac8ae6efd8c28fe93a4114b7e0b2e85f4daaba708a35e06231e62de9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449049"
 ---
 # <a name="mf_pd_asf_fileproperties_flags-attribute"></a>MF \_ PD \_ ASF \_ - \_ attribut flags
 
@@ -19,7 +19,7 @@ Spécifie si un fichier ASF (Advanced Systems Format) est diffusé ou recherché
 
 **UINT32**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF. La valeur de l’attribut est une opération or au niveau du bit des indicateurs suivants :
 
@@ -52,8 +52,8 @@ En outre, les valeurs d’attribut taille de paquet [**\_ maximale MF PD \_ ASF 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

@@ -1,25 +1,25 @@
 ---
 description: Cette section décrit comment configurer votre environnement pour utiliser les bibliothèques COM de plateforme Tablet PC en C++.
 ms.assetid: c0d7f703-d4aa-4c26-ae81-a4c888383c1e
-title: Bibliothèque COM et contrôles ActiveX
+title: bibliothèque COM et contrôles de ActiveX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9304880380ea95bc698c52d200931b77f64480
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78bc76f9caa2bcb72fe26ed2e01e251c977f87ce01c12794aad78608d2f5887f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120009089"
 ---
-# <a name="com-library-and-activex-controls"></a>Bibliothèque COM et contrôles ActiveX
+# <a name="com-library-and-activex-controls"></a>bibliothèque COM et contrôles de ActiveX
 
 Cette section décrit comment configurer votre environnement pour utiliser les bibliothèques COM de plateforme Tablet PC en C++.
 
 ## <a name="microsoft-visual-c"></a>Microsoft Visual C++
 
-Pour créer des applications Tablet PC dans Visual C++, vous devez mettre à jour les variables d’environnement système, configurer les options d’annuaire pour Visual Studio et accéder aux interfaces Tablet PC dans votre projet.
+pour créer des applications Tablet pc dans Visual C++, vous devez mettre à jour les variables d’environnement système, configurer les options de répertoire pour les Visual Studio et accéder aux interfaces Tablet pc dans votre projet.
 
-Pour mettre à jour les variables d’environnement, suivez les instructions fournies par le SDK Windows pour l’ajout de variables d’environnement à Visual Studio.
+pour mettre à jour les variables d’environnement, suivez les instructions fournies par le SDK Windows pour l’ajout de variables d’environnement à Visual Studio.
 
 ### <a name="accessing-the-tablet-pc-interfaces"></a>Accès aux interfaces Tablet PC
 
@@ -105,7 +105,7 @@ Vous pouvez également utiliser la directive d’importation suivante à la plac
 
 
 > [!Note]  
-> Les API PenInputPanel ont été remplacées dans Windows Vista par les nouvelles interfaces du panneau de saisie de texte.
+> les api PenInputPanel ont été remplacées dans Windows Vista par les nouvelles interfaces du panneau de saisie de texte.
 
  
 

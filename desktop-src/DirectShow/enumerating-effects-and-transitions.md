@@ -4,12 +4,12 @@ ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: Énumération des effets et des transitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e533f36501ac8da6015cc31eea6c2c111bf6a208
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bd94dee9ff6774e9608d6b599986c0b943b60d335df2ab9b27e8c2eb64d7fe42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119685809"
 ---
 # <a name="enumerating-effects-and-transitions"></a>Énumération des effets et des transitions
 
@@ -17,7 +17,7 @@ ms.locfileid: "106516151"
 
 DirectShow fournit un objet [énumérateur de périphérique système](system-device-enumerator.md) pour l’énumération des appareils. Vous pouvez l’utiliser pour récupérer les monikers des effets ou des transitions installés sur le système de l’utilisateur.
 
-L’énumérateur de périphérique système expose l’interface [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) . Elle retourne les énumérateurs de catégorie pour les catégories d’appareils spécifiées. Un énumérateur de catégorie, à son tour, expose l’interface [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) et retourne des monikers pour chaque appareil de la catégorie. Pour une présentation détaillée de l’utilisation de **ICreateDevEnum**, consultez [énumération d’appareils et de filtres](enumerating-devices-and-filters.md). Voici un bref résumé, spécifique aux services de modification DirectShow.
+L’énumérateur de périphérique système expose l’interface [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) . Elle retourne les énumérateurs de catégorie pour les catégories d’appareils spécifiées. Un énumérateur de catégorie, à son tour, expose l’interface [**IEnumMoniker**](/windows/desktop/api/objidl/nn-objidl-ienummoniker) et retourne des monikers pour chaque appareil de la catégorie. Pour une présentation détaillée de l’utilisation de **ICreateDevEnum**, consultez [énumération d’appareils et de filtres](enumerating-devices-and-filters.md). voici un bref résumé, propre à DirectShow Services d’édition.
 
 Pour énumérer des effets ou des transitions, procédez comme suit.
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8dc532977c34f897f248cb3011584ffd936e4fb8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 67ece8674f2dd80e35fd51373e563dab408850426ef3f9fa5d625aa8ecccadde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687109"
 ---
 # <a name="ctransforminputpinm_ptransformfilter-member"></a>CTransformInputPin :: m \_ pTransformFilter, membre
 
@@ -42,7 +42,7 @@ CTransformFilter *m_pTransformFilter;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transfrm. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Transfrm. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

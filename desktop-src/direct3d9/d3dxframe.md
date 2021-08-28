@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 152e620f6bf845f1f2528a321e39d8d746e8b893
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33a851f3580045f5483541be155d3e8e85fddb22b530cb3f889253809f0b13aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119123235"
 ---
 # <a name="d3dxframe-structure"></a>D3DXFRAME, structure
 
@@ -98,7 +98,7 @@ Pointeur vers un Frame enfant.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut dériver de cette structure pour ajouter d’autres données.
 

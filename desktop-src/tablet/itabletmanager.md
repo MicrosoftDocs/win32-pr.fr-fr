@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 3400d98a832819d1edd640cd78586f1cfb06bdee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae4a12964ff900d8a30c0f59d2210c82007995337a2661a6fbd29a6acdfccdf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119820519"
 ---
 # <a name="itabletmanager-interface"></a>Interface ITabletManager
 
@@ -46,7 +46,7 @@ L’interface **ITabletManager** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les développeurs ne doivent pas utiliser cette interface.
 
@@ -92,9 +92,9 @@ Appelez [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-coc
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

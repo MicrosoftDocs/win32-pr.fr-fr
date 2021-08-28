@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6113a14f321ff7319f8be15767621db3a7e833de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a54970529f51b3d616cd3c44676c0ffa91d31489f5b07f72a279a2ed8db008d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119522779"
 ---
 # <a name="convertvirtualharddisktovhdset-method-of-the-msvm_imagemanagementservice-class"></a>Méthode ConvertVirtualHardDiskToVHDSet de la \_ classe ImageManagementService MSVM
 
@@ -108,7 +108,7 @@ Le **système n’est pas disponible** (32777)
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

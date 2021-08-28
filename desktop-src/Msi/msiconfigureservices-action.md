@@ -4,22 +4,22 @@ ms.assetid: 63bd4690-0649-4e23-a8cd-527b3c517dae
 title: Action MsiConfigureServices
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f2321bcdfaeede8e80d7f4c341f5a099690952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f77bcb37514cc0e90cd9b3e4f65f184104a60a575f159e45391582cfed01c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945064"
 ---
 # <a name="msiconfigureservices-action"></a>Action MsiConfigureServices
 
 L’action MsiConfigureServices configure un service pour le système. Cette action interroge les tables [MsiServiceConfig](msiserviceconfig-table.md) et [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) .
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette action est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette action est disponible à partir de Windows Installer 5,0.
 
 > [!IMPORTANT]
 >
-> Les services Windows permettent d’effectuer automatiquement des actions prédéfinies en réponse à une défaillance dans un service. Pour prendre en charge la configuration par programmation de ces **actions de récupération** en cas d’échec d’un service, [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) a été ajouté à MSI dans la version MSI 5,0. Toutefois, cette fonctionnalité ne fonctionne pas comme prévu.
+> Windows Les services permettent d’effectuer automatiquement des actions prédéfinies en réponse à une défaillance dans un service. Pour prendre en charge la configuration par programmation de ces **actions de récupération** en cas d’échec d’un service, [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) a été ajouté à MSI dans la version MSI 5,0. Toutefois, cette fonctionnalité ne fonctionne pas comme prévu.
 >
 > Pour contourner ce problème, un développeur d’applications doit utiliser la fonctionnalité d' **action personnalisée** dans MSI pour exécuter **sc.exe** et définir les **options de récupération** de manière appropriée.
 
@@ -45,7 +45,7 @@ MsiConfigureServices
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action nécessite que l’utilisateur soit un administrateur ou qu’il dispose de privilèges élevés avec l’autorisation d’installer des services ou que l’application fasse partie d’une installation gérée.
 

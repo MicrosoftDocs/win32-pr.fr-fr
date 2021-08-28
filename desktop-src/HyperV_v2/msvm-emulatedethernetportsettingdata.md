@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: f80a1f14f7a5bd388aec747f19ef84ecf0a32b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d55d27003834b0caeccb0297a0693f978bc5ca857cb3fbc0a8cb5fadb61cea
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119525029"
 ---
 # <a name="msvm_emulatedethernetportsettingdata-class"></a>MSVM \_ EmulatedEthernetPortSettingData, classe
 
@@ -194,7 +194,7 @@ Indique si cette carte Ethernet est surveillée par un cluster. La valeur par d�
 
 Il s’agit d’une propriété en lecture seule, mais elle peut être modifiée à l’aide de la méthode [**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualsystemmanagementservice.md) de la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) .
 
-**Windows 8.1 :** Cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
+**Windows 8.1 :** cette valeur n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.
 
 </dd> <dt>
 
@@ -235,7 +235,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Description de l'objet . Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « paramètres du port Ethernet émulé Microsoft ».
+Description de l'objet . cette propriété est héritée de la [**\_ propriété managedelement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)et est toujours définie sur « Paramètres pour le Port Ethernet émulé Microsoft ».
 
 </dd> <dt>
 
@@ -464,7 +464,7 @@ Priorité relative pour cette allocation par rapport à d’autres allocations �
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’accès à la classe **MSVM \_ EmulatedEthernetPortSettingData** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 
@@ -478,8 +478,8 @@ Consultez [interrogation d’objets de mise en réseau](querying-networking-obje
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                    |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

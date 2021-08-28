@@ -5,16 +5,16 @@ ms.assetid: eee9b8b0-8566-442a-9a46-b6469e5bb1fc
 ms.tgt_platform: multiple
 keywords:
 - Exemple de code pour la suppression du point de connexion RnR AD
-- Inscription et résolution Windows Sockets Active Directory, exemple de code, suppression du point de connexion RnR
+- Windows Inscription et résolution des sockets Active Directory, exemple de code, suppression du point de connexion RnR
 - Suppression du point de connexion RnR AD, exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1db126af451d8ecd3648ce04a93043df34b6a47
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b1dbeaecff3ced72ecce1ae4a789878c3cc5f00d333c4c19b5d5c8ef3b4abf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693082"
 ---
 # <a name="example-code-for-removing-the-rnr-connection-point"></a>Exemple de code pour la suppression du point de connexion RnR
 
@@ -84,9 +84,9 @@ INT serverUnregister(SOCKADDR *sa,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

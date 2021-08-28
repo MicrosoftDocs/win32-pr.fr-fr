@@ -1,10 +1,10 @@
 ---
-title: Entrées, flux et sorties
-description: Entrées, flux et sorties
+title: entrées, Flux et sorties
+description: entrées, Flux et sorties
 ms.assetid: f9f979c4-a15c-4f2a-b63c-7fe776394fdd
 keywords:
 - Windows Media Format SDK, entrées
-- Windows Media Format SDK, flux
+- Windows Media Format SDK, Streams
 - Windows Media Format SDK, sorties
 - ASF (Advanced Systems Format), entrées
 - ASF (format des systèmes avancés), entrées
@@ -14,14 +14,14 @@ keywords:
 - ASF (format des systèmes avancés), sorties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84e6b6941a990b108c16b49648ec0d8d028a44d7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c4518ed60495aa2318ad27cdade2885aa2660698b5dbf2659290dabf985246da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701826"
 ---
-# <a name="inputs-streams-and-outputs"></a>Entrées, flux et sorties
+# <a name="inputs-streams-and-outputs"></a>entrées, Flux et sorties
 
 Dans cette documentation, une « entrée » est un flux de données multimédias numériques (audio ou vidéo) que votre application remet à l’objet enregistreur à partir d’une source à l’aide des API appropriées. Les entrées doivent être fournies dans un format pris en charge. Plusieurs formats RVB et YUV standard sont pris en charge comme entrée, et les codecs audio prennent en charge PCM. Si un format d’entrée spécifié n’est pas pris en charge en mode natif par le codec, l’objet Writer instancie un objet d’assistance audio ou Video qui est capable de convertir un grand nombre de formats en formats acceptés par le codec. Pour les entrées audio, l’objet d’assistance ajuste la profondeur de bit, le taux d’échantillonnage et le nombre de canaux si nécessaire. Pour les entrées vidéo, l’objet d’assistance vidéo effectue des conversions d’espace colorimétrique et des ajustements de taille de rectangle. Dans certains cas, des données audio et vidéo compressées peuvent être transmises dans un flux d’entrée. Une entrée peut être d’un autre type de média, en plus des données audio et vidéo, telles que du texte, des commandes de script, des images fixes ou des données de fichiers arbitraires.
 
@@ -46,9 +46,9 @@ Le troisième type de relation peut se produire lorsqu’une exclusion mutuelle 
 Il existe une différence dans les relations décrites précédemment. Par exemple, un fichier peut contenir les trois relations, ou une ou deux d’entre elles. Il est également possible de compresser certaines entrées, auquel cas l’enregistreur n’effectue aucune compression supplémentaire. Le lecteur peut également fournir des exemples compressés. Mais quand c’est le cas, vous devez y accéder par numéro de diffusion, et non par numéro de sortie.
 
 > [!Note]  
-> Les entrées, les vapeurs et les sorties sont des nombres affectés par les objets du kit de développement logiciel (SDK) du format Windows Media. Les flux ont un numéro de flux, qui est de base 1, que vous définissez dans le profil. Chaque flux est également affecté à un index de flux pour une utilisation dans l’énumération de flux dans un profil. Aucun de ces nombres n’est assuré d’être cohérent entre eux. Autrement dit, le numéro d’entrée 1 peut ne pas correspondre au flux numéro 1, le numéro de flux 1 peut ne pas correspondre à l’index de flux 1, et ainsi de suite.
+> les entrées, les vapeurs et les sorties sont des nombres attribués par les objets du kit de développement logiciel (SDK) du Format de média Windows. Flux avoir un numéro de flux, qui est de base 1, que vous définissez dans le profil. Chaque flux est également affecté à un index de flux pour une utilisation dans l’énumération de flux dans un profil. Aucun de ces nombres n’est assuré d’être cohérent entre eux. Autrement dit, le numéro d’entrée 1 peut ne pas correspondre au flux numéro 1, le numéro de flux 1 peut ne pas correspondre à l’index de flux 1, et ainsi de suite.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,9 +60,9 @@ Il existe une différence dans les relations décrites précédemment. Par exemp
 [**Exclusion mutuelle**](mutual-exclusion.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

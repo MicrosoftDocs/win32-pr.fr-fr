@@ -4,12 +4,12 @@ ms.assetid: 2e238d31-98b2-4c79-96b0-9e6949010a73
 title: MFPKEY_DECODERCOMPLEXITYPROFILE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f39544830a0a05e21779a637da61d3bcb310fcd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca206357a3f3a396ac6d07ea16a1b72bc245c641095a5523e46139dfd6af7f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119604219"
 ---
 # <a name="mfpkey_decodercomplexityprofile-property"></a>MFPKEY \_ propriété DECODERCOMPLEXITYPROFILE
 
@@ -23,7 +23,7 @@ Spécifie le profil de complexité du contenu encodé.
 
 **VT \_ BSTR**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous ne pouvez lire cette valeur qu’une fois l’encodage terminé.
 
@@ -36,11 +36,11 @@ Pour l’audio, cette propriété a l’une des valeurs suivantes.
 | Ko  | Encodage standard avec un taux d’échantillonnage de 44,1 KHz et un taux binaire maximal de 161 Kbits/s.         |
 | NIV  | Encodage standard avec des taux d’échantillonnage allant jusqu’à 48 KHz et une vitesse de transmission maximale de 161 Kbits/s.         |
 | Mémoire  | Encodage standard avec des taux d’échantillonnage allant jusqu’à 48 KHz et une vitesse de transmission maximale de 385 Kbits/s.         |
-| "M0a" | Encodage professionnel avec des taux d’échantillonnage allant jusqu’à 48 KHz et des vitesses de bit comprises entre 48 et 192 kbit/s.  |
-| "M0b" | Codage professionnel avec des taux d’échantillonnage allant jusqu’à 48 KHz et un débit maximal de 192 Kbits/s.      |
-| M1  | Codage professionnel avec des taux d’échantillonnage allant jusqu’à 48 KHz et un débit maximal de 384 Kbits/s.      |
-| Carré  | Codage professionnel avec des taux d’échantillonnage allant jusqu’à 96 KHz et un débit maximal de 768 Kbits/s.      |
-| M3  | Encodage professionnel avec des taux d’échantillonnage allant jusqu’à 96 KHz et un débit maximal de 1,5 Mbits/s.      |
+| "M0a" | Professional l’encodage avec des taux d’échantillonnage allant jusqu’à 48 KHz et des vitesses de bits comprises entre 48 et 192 kbit/s.  |
+| "M0b" | Professional l’encodage avec des taux d’échantillonnage allant jusqu’à 48 KHz et un débit maximal de 192 kbits/s.      |
+| M1  | Professional l’encodage avec des taux d’échantillonnage allant jusqu’à 48 KHz et un débit maximal de 384 kbits/s.      |
+| Carré  | Professional l’encodage avec des taux d’échantillonnage allant jusqu’à 96 KHz et un débit maximal de 768 kbits/s.      |
+| M3  | Professional l’encodage avec des taux d’échantillonnage allant jusqu’à 96 KHz et un débit maximal de 1,5 mbits/s.      |
 | N1  | Encodage sans perte avec des taux d’échantillonnage allant jusqu’à 48 KHz et un maximum de 2 canaux.                |
 | N2  | Encodage sans perte avec des taux d’échantillonnage allant jusqu’à 96 KHz et un maximum de 6 canaux (5,1 Surround). |
 | N3  | Encodage sans perte avec des taux d’échantillonnage allant jusqu’à 96 KHz et un maximum de 8 canaux (7,1 Surround). |
@@ -55,7 +55,7 @@ Pour la vidéo, cette propriété a l’une des valeurs suivantes :
 
 | Valeur | Description                                                                       |
 |-------|-----------------------------------------------------------------------------------|
-| FOURNISSEURS  | Profil avancé (disponible uniquement sur le codec du profil avancé Windows Media Video 9) |
+| FOURNISSEURS  | profil avancé (disponible uniquement sur le codec du profil avancé Windows Media Video 9) |
 | CP  | n’est plus pris en charge                                                               |
 | CANAL  | Profil principal                                                                      |
 | SR  | Profil simple                                                                    |
@@ -72,8 +72,8 @@ Pour le contenu vidéo, vous pouvez demander un niveau de profil en définissant
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

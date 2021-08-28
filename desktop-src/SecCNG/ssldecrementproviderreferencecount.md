@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 4d3fe072c02f22b713115dd5191b0b5e0cedbb37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2a2f921fd9fa613a5f655449353d42c24897a65f5dc81d6b9321bea961937a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906728"
 ---
 # <a name="ssldecrementproviderreferencecount-function"></a>SslDecrementProviderReferenceCount fonction)
 
@@ -70,8 +70,8 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

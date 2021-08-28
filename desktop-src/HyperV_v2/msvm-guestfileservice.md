@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0ee0f235d7549428ecf02e9c758c83bcea33efe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa307a55963f6773682e81a08bf7d45e064c9a5bd7213f5d2d426a8d44be70b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119789889"
 ---
 # <a name="msvm_guestfileservice-class"></a>MSVM \_ GuestFileService, classe
 
@@ -72,7 +72,7 @@ La classe **MSVM \_ GuestFileService** possède ces méthodes.
 
 | Méthode                                                             | Description                                                                                                                                                                  |
 |:-------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CopyFilesToGuest**](copyfilestoguest-msvm-guestfileservice.md) | Copie les fichiers de l’hôte Hyper-V vers l’ordinateur virtuel.<br/> **Windows 8.1 :** Cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
+| [**CopyFilesToGuest**](copyfilestoguest-msvm-guestfileservice.md) | Copie les fichiers de l’hôte Hyper-V vers l’ordinateur virtuel.<br/> **Windows 8.1 :** cette méthode n’est pas prise en charge tant que Windows 8.1 et Windows Server 2012 R2.<br/> |
 | **StartService**                                                   | Cette méthode n'est pas prise en charge.<br/>                                                                                                                                     |
 | **StopService**                                                    | Cette méthode n'est pas prise en charge.<br/>                                                                                                                                     |
 
@@ -151,7 +151,7 @@ Identificateur unique du service qui fournit également une indication de la fon
 
 </dd> <dt>
 
-**Cours**
+**Démarré**
 </dt> <dd> <dl> <dt>
 
 Type de données : **booléen**
@@ -273,7 +273,7 @@ Nom du système qui héberge le service.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                                 |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

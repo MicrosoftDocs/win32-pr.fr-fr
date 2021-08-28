@@ -4,12 +4,12 @@ ms.assetid: 1b3f2baf-6191-452e-955d-8ac903edc1b7
 title: Action FileCost
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b9d87cb73353ef80f956ce13ec1940f1a4adee2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b49cbb4357b33ebe735eaff501f1c155c411bc969c7fea96a1cab7417c803a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104042883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947054"
 ---
 # <a name="filecost-action"></a>Action FileCost
 

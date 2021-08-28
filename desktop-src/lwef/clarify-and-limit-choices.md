@@ -4,12 +4,12 @@ description: Clarifier et limiter les choix
 ms.assetid: 4ec3ca01-231b-4a45-aae1-fba5b2ba0033
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 953001d706089244d6366c8dab0cdb580a2d72ca
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: cb9c7c6371009865baa685e3644c2c1e62e1713bd40a0c64a7a8530b849e813d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480303"
 ---
 # <a name="clarify-and-limit-choices"></a>Clarifier et limiter les choix
 
@@ -59,7 +59,7 @@ La formulation influence la réussite d’une invite. Par exemple, l’invite «
 
 Cela est plus susceptible de provoquer le nom complet de l’une des parties avec le préfixe possible « je signifie » ou « je veux ».
 
-Étant donné que les caractères Microsoft Agent fonctionnent dans l’interface visuelle de Microsoft Windows, vous pouvez utiliser des éléments visuels pour fournir des invites de directives pour les entrées vocales. Par exemple, vous pouvez avoir le geste de caractère dans une liste de choix et demander que l’utilisateur en sélectionne un, ou afficher les choix dans une boîte de dialogue ou une fenêtre de message. Cela présente deux avantages : il suggère explicitement les mots que vous souhaitez que l’utilisateur parle et il fournit une autre façon pour l’utilisateur de répondre.
+étant donné que les caractères microsoft Agent fonctionnent dans l’interface visuelle de microsoft Windows, vous pouvez utiliser des éléments visuels pour fournir des invites de directives pour les entrées vocales. Par exemple, vous pouvez avoir le geste de caractère dans une liste de choix et demander que l’utilisateur en sélectionne un, ou afficher les choix dans une boîte de dialogue ou une fenêtre de message. Cela présente deux avantages : il suggère explicitement les mots que vous souhaitez que l’utilisateur parle et il fournit une autre façon pour l’utilisateur de répondre.
 
 Vous pouvez également utiliser d’autres modes d’interaction pour suggérer discrètement aux utilisateurs la grammaire vocale appropriée, comme illustré dans l’exemple suivant :
 

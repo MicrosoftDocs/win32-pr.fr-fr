@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102443
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e2d3ca777a1732d5d67213d5c0dcaf2c5878c759
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09fce2c68421df45819ca24a61128f7dc58d332bdddd2b791b5c23558665e525
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119947749"
 ---
 # <a name="esentoutofautoincrementvaluesexception-members"></a>Membres EsentOutOfAutoincrementValuesException
 
@@ -73,7 +73,7 @@ Haut
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

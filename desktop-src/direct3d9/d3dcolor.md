@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e5ced89463eea8906fd46f83a0677b8703acf200
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ebb410234be4784efa6e2eb53932977c55ca23c0c33e35506804752fce1ce099
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989096"
 ---
 # <a name="d3dcolor"></a>D3DCOLOR
 
@@ -27,7 +27,7 @@ typedef DWORD D3DCOLOR;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Valeur de quatre octets qui représente généralement les composants alpha, rouge, vert et bleu d’une couleur. Il peut également représenter la luminance et la luminosité.
 

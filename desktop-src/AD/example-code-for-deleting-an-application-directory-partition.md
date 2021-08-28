@@ -8,12 +8,12 @@ keywords:
 - partitions de l’annuaire d’applications Active Directory, exemple de code pour la suppression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b04be132d9a9ea58b72f732efd5e5fcc9f370b4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: fa41e98fcc90e9f4af1c9f46ed7c414b723daedc1d600d5899c941f88a393871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694078"
 ---
 # <a name="example-code-for-deleting-an-application-directory-partition"></a>Exemple de code pour la suppression d’une partition d’annuaire d’applications
 
@@ -218,7 +218,7 @@ HRESULT DeleteAppPartition( LPCWSTR pwszPartitionDN,
 
 
 
-L’exemple de code Visual Basic Scripting Edition suivant peut être utilisé pour supprimer une partition d’annuaire d’applications à l’aide d’ADSI. Cet exemple utilise l’un des exemples de fonctions **\* GetPartitionsDN** décrits dans l' [exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
+l’exemple de code Visual Basic scripting Edition suivant peut être utilisé pour supprimer une partition d’annuaire d’applications à l’aide d’ADSI. Cet exemple utilise l’un des exemples de fonctions **\* GetPartitionsDN** décrits dans l' [exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
 
 
 ```VB
@@ -414,7 +414,7 @@ static void DeleteAppPartition(
 
 
 
-L’exemple de code Visual Basic .NET suivant peut être utilisé pour supprimer une partition d’annuaire d’applications à l’aide de [System. DirectoryServices](/dotnet/api/system.directoryservices). Cet exemple utilise l’un des exemples de fonctions **\* GetPartitionsDN** décrits dans l' [exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
+l’exemple de code Visual Basic .net suivant peut être utilisé pour supprimer une partition d’annuaire d’applications à l’aide de [System. DirectoryServices](/dotnet/api/system.directoryservices). Cet exemple utilise l’un des exemples de fonctions **\* GetPartitionsDN** décrits dans l' [exemple de code pour localiser le conteneur partitions](example-code-for-locating-the-partitions-container.md).
 
 
 ```VB
@@ -511,6 +511,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

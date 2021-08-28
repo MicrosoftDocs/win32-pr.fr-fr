@@ -4,12 +4,12 @@ ms.assetid: 0f47abc1-4e06-4ddc-9ea1-9afb9f27d499
 title: Table CustomAction
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75c8cbfa6500743e2a2ad89627447da1907f6f48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 725ac6ad72b1f84da2c43c94a91cd4a466bd02a5af19261b4b07dfd1c496ae76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947863"
 ---
 # <a name="customaction-table"></a>Table CustomAction
 
@@ -92,7 +92,7 @@ Paramètre d’exécution qui dépend du type de base de l’action personnalis�
 
 Entrez la valeur **msidbCustomActionTypePatchUninstall** dans ce champ pour spécifier une action personnalisée avec l' [option action personnalisée désinstaller le correctif](custom-action-patch-uninstall-option.md).
 
-**[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge. Cette option est disponible à partir de Windows Installer 4,5.
+**[Windows Installer 4,0 et versions antérieures](not-supported-in-windows-installer-4-0.md):** Non pris en charge. cette option est disponible à partir de Windows Installer 4,5.
 
 </dd> </dl>
 

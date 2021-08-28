@@ -4,12 +4,12 @@ ms.assetid: 13174c5d-c810-4b5d-9d1e-60ed30b8c44d
 title: Obtention d’informations de contexte pour les actions personnalisées d’exécution différée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13cd956509a5b8a4c92e0a53bfa455154a59bcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76f9016a37eb97c99dc94840617a91ba17da68a0409d6130c15cb17078c60d11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943272"
 ---
 # <a name="obtaining-context-information-for-deferred-execution-custom-actions"></a>Obtention d’informations de contexte pour les actions personnalisées d’exécution différée
 
@@ -31,7 +31,7 @@ Les actions personnalisées d’exécution différée sont limitées à l’appe
 
  
 
-Une action personnalisée écrite en JScript ou VBScript requiert l’objet de [**session**](session-object.md) d’installation. Il s’agit de l' **objet de session** de type et le programme d’installation l’attache au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés suivantes de l’objet **session** pour récupérer son contexte.
+une action personnalisée écrite en JScript ou VBScript requiert l’objet de [**Session**](session-object.md) d’installation. Il s’agit de l' **objet de session** de type et le programme d’installation l’attache au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés suivantes de l’objet **session** pour récupérer son contexte.
 
 
 

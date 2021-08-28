@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: 950358ae28d1cb68af803ed6b7f520f1bbad8c03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2afc5fc264df4d38e85dfa3374714b06908eee8ec1c5517b49dc32cbcbd44f99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716449"
 ---
 # <a name="itipautocompleteprovidershow-method"></a>ITipAutocompleteProvider :: Show, méthode
 
@@ -54,14 +54,14 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée par le client pour afficher ou masquer la liste de saisie semi-automatique. Si la liste de saisie semi-automatique n’est pas affichée et que *fShow* a la **valeur false**, cette méthode n’a aucun effet. Si la liste de saisie semi-automatique est affichée et que *fShow* a la **valeur true**, cette méthode n’a aucun effet.
 
@@ -71,7 +71,7 @@ Cette méthode est appelée par le client pour afficher ou masquer la liste de s
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                       |
 | En-tête<br/>                   | <dl> <dt>TipAutoComplete. h (nécessite également PenInputPanel \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |

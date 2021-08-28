@@ -4,12 +4,12 @@ ms.assetid: 247a1f7d-8205-4e4d-9cfc-daad9bd2191f
 title: Constantes Factoid (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa748c84f8bd39f18f83e1ec72474bcfbe3017f2
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: c84b2d24135d8461c8b70db043ed8b2c7940cb61
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122883680"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471115"
 ---
 # <a name="factoid-constants"></a>Constantes Factoid
 
@@ -18,7 +18,7 @@ Définit des valeurs de chaîne constantes qui sont utilisées pour augmenter la
 
 
 
-| Nom | Description | 
+| Name | Description | 
 |------|-------------|
 | <span id="FACTOID_NONE"></span><span id="factoid_none"></span><dl><dt><strong>FACTOID_NONE</strong></dt></dl> | Désactive tous les autres Factoids et dictionnaires.<br /> | 
 | <span id="___________FACTOID_DEFAULT_________"></span><span id="___________factoid_default_________"></span><dl><dt><strong>FACTOID_DEFAULT</strong></dt></dl> | Le paramètre par défaut pour Factoids pour les langues occidentales comprend le dictionnaire système, le dictionnaire de l’utilisateur, les différents signes de ponctuation et le Web et le numéro Factoid. Le paramètre par défaut pour Factoids pour les langues d’Extrême-Orient comprend tous les caractères pris en charge par le module de reconnaissance. <br /> | 
@@ -58,7 +58,7 @@ Définit des valeurs de chaîne constantes qui sont utilisées pour augmenter la
 
 ## <a name="remarks"></a>Remarques
 
-En C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, situé dans le &lt; &gt; répertoire lecteur_système : \\ Program Files de \\ Microsoft Tablet PC Platform SDK \\ include si vous avez installé le kit de développement logiciel (SDK) à l’emplacement par défaut.
+En C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, situé dans le <systemdrive> \\ répertoire : Program Files \\ Microsoft Tablet PC Platform SDK \\ include si vous avez installé le kit de développement logiciel (SDK) à l’emplacement par défaut.
 
 > [!Note]  
 > Ces constantes sont WCHARs, et non BSTR. Elles doivent être converties en BSTR avant d’être utilisées comme paramètres pour les méthodes d’objet. Pour plus d’informations sur le type de données BSTR, consultez [utilisation de la bibliothèque com](using-the-com-library.md).
@@ -97,7 +97,7 @@ Vous pouvez également définir cette propriété avec la constante de chaîne F
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4a754d88d048abccd199c6ab20a6a00fcfdc036
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7d2c25e3d44b9e4952a62bab98d16ea3e1987d616a05f18c2e0627e7a50bf0ec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301179"
 ---
 # <a name="mapi-id-attribute"></a>Attribut d’ID MAPI
 
@@ -36,7 +36,7 @@ Entier par lequel les clients MAPI identifient cet attribut.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.2.49                |
 | System-ID-GUID    | bf9679b7-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Entier par lequel les clients MAPI identifient cet attribut.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 976a5f3d7282853b5267b0b1640a7a95120efbef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c4a53ed8c6cfd285927ad3a0be83ce219ece8a203e0e062995c2abb1725042f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716979"
 ---
 # <a name="wm_xbuttondown-message"></a>\_Message WM XBUTTONDOWN
 
@@ -87,7 +87,7 @@ Le mot de poids fort spécifie la coordonnée y du curseur. La coordonnée est r
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez le code suivant pour récupérer les informations dans le paramètre *wParam* :
 
@@ -116,7 +116,7 @@ Comme indiqué ci-dessus, la coordonnée x est dans le sens le **plus** bas de l
 
  
 
-Contrairement aux [**messages \_ WM LBUTTONDOWN**](wm-lbuttondown.md), [**WM \_ MBUTTONDOWN**](wm-mbuttondown.md)et [**WM \_ RBUTTONDOWN**](wm-rbuttondown.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. Cela permet aux logiciels qui simulent ce message sur les systèmes Windows antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
+Contrairement aux [**messages \_ WM LBUTTONDOWN**](wm-lbuttondown.md), [**WM \_ MBUTTONDOWN**](wm-mbuttondown.md)et [**WM \_ RBUTTONDOWN**](wm-rbuttondown.md) , une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permet aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
 ## <a name="requirements"></a>Configuration requise
 

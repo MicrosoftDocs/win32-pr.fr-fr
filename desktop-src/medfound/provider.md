@@ -4,12 +4,12 @@ ms.assetid: 692cce3b-ebf5-4a49-8c37-48c8ef6caee7
 title: provider (élément)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d96b3015dddbcff74c09f77a1b6245d052fe034
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4213e4d56f8dc2ed73802650e3c7558736cedea8f69fe2148b638fbb92433474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034967"
 ---
 # <a name="provider-element"></a>provider (élément)
 
@@ -58,7 +58,7 @@ keyword+
 
 | Élément                                   |
 |-------------------------------------------|
-| [**éditeurs**](providers.md)<br/> |
+| [**fournisseurs**](providers.md)<br/> |
 
 
 

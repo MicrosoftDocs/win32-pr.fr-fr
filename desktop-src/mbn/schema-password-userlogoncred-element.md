@@ -11,12 +11,12 @@ api_name:
 - Password
 api_type:
 - Schema
-ms.openlocfilehash: b05e34bcbaa91aba5cbfbd14f2bc8534aa91dd37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 63ee5386c4bd9eb168e4b4ac663e857590509ebf5ab0183165fdb5e7ab59a7e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035787"
 ---
 # <a name="password-userlogoncred-element"></a>Élément Password (UserLogonCred)
 
@@ -40,7 +40,7 @@ L’élément **Password** est défini par l’élément [**UserLogonCred**](sch
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications Windows 7 \[ Desktop Apps \| UWP\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 \| applications UWP\]<br/> |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                         |
 
 

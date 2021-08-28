@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 19d69f8747196d7b25c85cb04fb173adef193098
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2cdc3086e828134b8addbc657e69b08f02544b2e2fa162087009322e615666c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118990339"
 ---
 # <a name="id3dx10meshsetattributedata-method"></a>ID3DX10Mesh :: SetAttributeData, méthode
 
