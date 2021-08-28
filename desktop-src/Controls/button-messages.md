@@ -4,12 +4,12 @@ description: Un bouton peut envoyer des messages à sa fenêtre parente et une f
 ms.assetid: 2d2358fb-b17d-48a9-8def-15ae8bad9162
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1601f269ec1242a10579d2ace812723d3ead7f84
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 136310a3718f17900f604287bf78186f7c927259
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103734044"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625715"
 ---
 # <a name="button-messages"></a>Messages de bouton
 
@@ -66,7 +66,7 @@ Le message et la réponse de la fenêtre parente dépendent du type, du style et
 
 
 
- 
+ 
 
 Un bouton envoie les codes de notification de la part de [ \_ désactivation](bn-disable.md), de la cale, de l' [ \_ KILLFOCUS](bn-killfocus.md) [, \_ du](bn-pushed.md)type de ligne et de la ligne de commande [**de la part de la ligne \_**](button-styles.md) de [ \_ commande](bn-unpushed.md) . [ \_](bn-paint.md) [ \_](bn-setfocus.md) De la [ \_](bn-dblclk.md)Les codes de notification DBLCLK sont automatiquement envoyés pour les boutons [**BS \_ UserButton**](button-styles.md), [**BS \_ RadioButton**](button-styles.md)et [**BS \_ OwnerDraw**](button-styles.md) . Les autres types de bouton envoient \_ l’DBLCLK de l’adresse de l’utilisateur uniquement s’ils ont le style **BS \_ Notify** . Tous les boutons envoient le code de notification [ \_ sur lequel vous avez cliqué](bn-clicked.md) , quels que soient les styles de bouton.
 
@@ -93,7 +93,7 @@ Le système fournit des valeurs de couleur par défaut pour les boutons. Une app
 
 
 
- 
+ 
 
 Toutefois, l’appel de [**SetSysColors**](/windows/desktop/api/winuser/nf-winuser-setsyscolors) affecte toutes les applications. par conséquent, vous ne devez pas appeler cette fonction pour personnaliser des boutons pour votre application.
 
@@ -107,8 +107,8 @@ La procédure de fenêtre pour la classe de fenêtre de contrôle de bouton pré
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -203,7 +203,7 @@ La procédure de fenêtre pour la classe de fenêtre de contrôle de bouton pré
 </tbody>
 </table>
 
-<p> </p></td>
+<p> </p></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/winmsg/wm-getfont"><strong>WM_GETFONT</strong></a></td>
@@ -270,7 +270,7 @@ La procédure de fenêtre pour la classe de fenêtre de contrôle de bouton pré
 
 
 
- 
+ 
 
 La procédure de fenêtre prédéfinie transmet tous les autres messages à la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traitement par défaut.
 
@@ -281,6 +281,6 @@ La procédure de fenêtre prédéfinie transmet tous les autres messages à la f
 [Messages de contrôle](control-messages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cede8964636073c393cb34bfa1be22855467f4cb243834bd1e11a4ffc492665
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: e147b48ffb80e1114133b59018cef514eefd2ae7
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120031419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885865"
 ---
 # <a name="iwmpclosedcaptionsamistyle-property"></a>IWMPClosedCaption :: SAMIStyle, propriété
 
@@ -50,7 +50,7 @@ Public Property SAMIStyle As System.String
 
 ## <a name="remarks"></a>Remarques
 
-Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre les balises <STYLE> et </STYLE> dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
+Un fichier SAMI peut contenir plusieurs définitions de style de format. Les styles SAMI sont définis entre le &lt; style &gt; et les </STYLE> balises dans le fichier sami. Un style est défini avec une chaîne de texte précédée d’un \# caractère. Par exemple :
 
 
 ```
@@ -65,7 +65,7 @@ Cela spécifie un style qui produit une police particulière.
 
 Si aucun style SAMI n’est spécifié, le premier style défini dans le fichier SAMI est utilisé par défaut.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

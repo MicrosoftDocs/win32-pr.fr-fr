@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4a382225f526f18731b8b9f0541e617cb31dfb4b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9121179b744857d5e7d0bec5a2ae814c603c6b1c
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885851"
 ---
 # <a name="logontype-principaltype-element"></a>Élément LogonType (principalType)
 
@@ -42,7 +42,7 @@ L’élément **LogonType** est défini par le type complexe [**principalType**]
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **LogonType** et l’élément [**userid**](taskschedulerschema-userid-principaltype-element.md) sont utilisés ensemble pour définir l’utilisateur requis pour exécuter les tâches qui utilisent ce principal.
 
@@ -56,16 +56,16 @@ Cet élément (défini par le type simple [**LogonType**](taskschedulerschema-lo
 -   Mot de passe : l’utilisateur doit se connecter à l’aide d’un mot de passe.
 -   InteractiveToken : l’utilisateur doit déjà avoir ouvert une session. La tâche est exécutée uniquement dans une session interactive existante.
 
-Pour une tâche, qui contient une action de MessageBox, la boîte de message s’affiche si la tâche est activée et que la tâche a un type de connexion interactive. Pour définir le type d’ouverture de session de la tâche sur Interactive, spécifiez **InteractiveToken** dans l' **<LogonType>** élément du principal de tâche.
+Pour une tâche, qui contient une action de MessageBox, la boîte de message s’affiche si la tâche est activée et que la tâche a un type de connexion interactive. Pour définir le type d’ouverture de session de la tâche sur Interactive, spécifiez **InteractiveToken** dans l’élément **&lt; LogonType &gt;** du principal de tâche.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

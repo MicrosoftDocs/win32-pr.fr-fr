@@ -7,12 +7,12 @@ MSHAttr:
 title: PurposeGroupGuid
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a704d035371d6d7febc2f2d86e4d67736ab02ad2
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 73d772a79d1802c99cde571abc1c665c73ddd06c
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122985411"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476075"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>PurposeGroupGuid
 
@@ -33,9 +33,9 @@ Quatre valeurs GUID sont définies, comme indiqué dans le tableau suivant.
 
 ## <a name="element-hierarchy"></a>Hiérarchie d’éléments
 
-[&lt;MBNProfileExt&gt;](element-mbnprofileext.md)  
-[&lt;PurposeGroups&gt;](element-purposegroups.md)  
-**&lt;PurposeGroupGuid&gt;**
+[<MBNProfileExt>](element-mbnprofileext.md)  
+[<PurposeGroups>](element-purposegroups.md)  
+**<PurposeGroupGuid>**
 
 ## <a name="syntax"></a>Syntax
 
@@ -70,9 +70,7 @@ Aucun.
 ## <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
+| | | <p>Espace de noms</p> | <p>https://www.microsoft.com/networking/WWAN/profile/v4</p> | 
 
 
  

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1f5a689b74bd18138361d9377358ddee5cf5979f
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 29b0c234d2410d512e2f034f92cbc4a2d6ad7449
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122630190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880262"
 ---
 # <a name="argument-element"></a>argument, élément
 
@@ -78,9 +78,9 @@ Lorsque l’attribut **Name** d’un élément **fragment** est une caractérist
 <td>Valeur</td>
 <td>Le contenu de l’élément <strong>argument</strong> est la partie valeur d’une chaîne de condition. Par exemple, dans la condition chaîne &quot; Artist est égal à Jean &quot; , la partie valeur est &quot; Joe &quot; . Tels<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Artist&quot;>
-  <argument name = &quot;Condition&quot;>Equals</argument>
-  <argument name = &quot;Value&quot;>Joe</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Condition&quot;>Equals&lt;/argument&gt;
+  <argument name = &quot;Value&quot;>Joe&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -110,17 +110,17 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « limiter la t
 <td>Lorsque l’attribut <strong>Name</strong> de l' <strong>élément fragment</strong> est &quot; limiter la taille totale à &quot; , le contenu de l’élément <strong>argument</strong> doit être l’un des suivants : kilo-octets, mégaoctets ou gigaoctets. lorsque l’attribut <strong>Name</strong> de l’élément <strong>fragment</strong> est limiter la &quot; durée totale à &quot; , le contenu de l’élément <strong>argument</strong> doit être l’un des suivants : secondes, minutes, heures ou jours.<br/></td>
 </tr>
 <tr class="even">
-<td>Number</td>
+<td>Nombre</td>
 <td>Le contenu de l’élément <strong>argument</strong> est un nombre qui limite la taille ou la durée de la sélection. Illustre<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Total Size To&quot;>
-  <argument name = &quot;Format&quot;>Megabytes</argument>
-  <argument name = &quot;Number&quot;>5</argument>
-</fragment>
+  <argument name = &quot;Format&quot;>Megabytes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>5&lt;/argument&gt;
+&lt;/fragment&gt;
 
 <fragment name = &quot;Limit Total Duration To&quot;>
-  <argument name = &quot;Format&quot;>Minutes</argument>
-  <argument name = &quot;Number&quot;>20</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Format&quot;>Minutes&lt;/argument&gt;
+  <argument name = &quot;Number&quot;>20&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -146,11 +146,11 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « Limit Number
 </thead>
 <tbody>
 <tr class="odd">
-<td>Number</td>
+<td>Nombre</td>
 <td>Le contenu de l’élément <strong>argument</strong> est un nombre qui limite le nombre d’éléments dans une sélection. Tels<br/>
 <pre data-space="preserve"><code><fragment name = &quot;Limit Number of Items&quot;>
-  <argument name = &quot;Number&quot;>15</argument>
-</fragment></code></pre></td>
+  <argument name = &quot;Number&quot;>15&lt;/argument&gt;
+&lt;/fragment&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ Lorsque l’attribut **Name** d’un élément **fragment** est « Limit Number
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 44fde17ee8e7d4d7bacd5c63743af045f89e16f840c193df8d883a5c80111659
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 66fcbcfc4c5f228fde786a6b9d8913cc69c0d341
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118891871"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122471505"
 ---
 # <a name="getprotectionstatus-method-of-the-win32_encryptablevolume-class"></a>Méthode GetProtectionStatus de la \_ classe Win32 EncryptableVolume
 
@@ -50,44 +50,13 @@ Spécifie si le volume et la clé de chiffrement (le cas échéant) sont sécuri
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl> <dt><strong>Non protégé</strong></dt> <dt>0</dt> </dl></td>
-<td>PROTECTION DÉSACTIVÉE<br/> Pour un disque dur standard :<br/> Le volume n’est pas chiffré, partiellement chiffré ou la clé de chiffrement du volume est disponible en clair sur le disque dur. La clé de chiffrement est disponible en clair sur le disque dur si les protecteurs de clé ont été désactivés à l’aide de la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> ou si aucun protecteur de clé n’a été spécifié à l’aide des méthodes suivantes :
-<ul>
-<li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li>
-<li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li>
-<li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li>
-<li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li>
-<li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li>
-<li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li>
-<li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li>
-<li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
-<li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
-</ul>
-<br/> Pour un EHDD :<br/> La bande du volume est déverrouillée de façon permanente, n’a pas de gestionnaire de clés ou est gérée par un gestionnaire de clés tiers.<br/> Cela peut également signifier que la bande est gérée par BitLocker mais que la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> a été appelée et que le lecteur est suspendu.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl> <dt><strong>Protégé</strong></dt> <dt>1</dt> </dl></td>
-<td>PROTECTION ACTIVÉE<br/> Pour un disque dur standard :<br/> Le volume est entièrement chiffré et la clé de chiffrement du volume n’est pas disponible en clair sur le disque dur.<br/> Pour un EHDD :<br/> BitLocker est le gestionnaire de clés de la bande. Le lecteur peut être verrouillé ou déverrouillé, mais ne peut pas être déverrouillé de façon permanente.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt><strong>Inconnu</strong></dt> <dt>2</dt> </dl></td>
-<td>Impossible de déterminer l’état de la protection du volume. Cela peut être dû au fait que le volume est dans un état verrouillé.<br/> <strong>Windows vista Ultimate, Windows vista Enterprise et Windows Server 2008 :</strong> Cette valeur n’est pas prise en charge. cette valeur est prise en charge à partir de Windows 7 et Windows Server 2008 R2.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="Unprotected"></span><span id="unprotected"></span><span id="UNPROTECTED"></span><dl><dt><strong>Non protégé</strong></dt><dt>0</dt></dl> | PROTECTION DÉSACTIVÉE<br /> Pour un disque dur standard :<br /> Le volume n’est pas chiffré, partiellement chiffré ou la clé de chiffrement du volume est disponible en clair sur le disque dur. La clé de chiffrement est disponible en clair sur le disque dur si les protecteurs de clé ont été désactivés à l’aide de la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> ou si aucun protecteur de clé n’a été spécifié à l’aide des méthodes suivantes :<ul><li><a href="protectkeywithcertificatefile-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateFile</strong></a></li><li><a href="protectkeywithcertificatethumbprint-win32-encryptablevolume.md"><strong>ProtectKeyWithCertificateThumbprint</strong></a></li><li><a href="protectkeywithexternalkey-win32-encryptablevolume.md"><strong>ProtectKeyWithExternalKey</strong></a></li><li><a href="protectkeywithnumericalpassword-win32-encryptablevolume.md"><strong>ProtectKeyWithNumericalPassword</strong></a></li><li><a href="protectkeywithpassphrase-win32-encryptablevolume.md"><strong>ProtectKeyWithPassphrase</strong></a></li><li><a href="protectkeywithtpm-win32-encryptablevolume.md"><strong>ProtectKeyWithTPM</strong></a></li><li><a href="protectkeywithtpmandpin-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPIN</strong></a></li><li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li><li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li></ul><br /> Pour un EHDD :<br /> La bande du volume est déverrouillée de façon permanente, n’a pas de gestionnaire de clés ou est gérée par un gestionnaire de clés tiers.<br /> Cela peut également signifier que la bande est gérée par BitLocker mais que la méthode <a href="disablekeyprotectors-win32-encryptablevolume.md"><strong>DisableKeyProtectors</strong></a> a été appelée et que le lecteur est suspendu.<br /> | 
+| <span id="Protected"></span><span id="protected"></span><span id="PROTECTED"></span><dl><dt><strong>Protégé</strong></dt><dt>1</dt></dl> | PROTECTION ACTIVÉE<br /> Pour un disque dur standard :<br /> Le volume est entièrement chiffré et la clé de chiffrement du volume n’est pas disponible en clair sur le disque dur.<br /> Pour un EHDD :<br /> BitLocker est le gestionnaire de clés de la bande. Le lecteur peut être verrouillé ou déverrouillé, mais ne peut pas être déverrouillé de façon permanente.<br /> | 
+| <span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl><dt><strong>Inconnu</strong></dt><dt>2</dt></dl> | Impossible de déterminer l’état de la protection du volume. Cela peut être dû au fait que le volume est dans un état verrouillé.<br /><strong>Windows vista Ultimate, Windows vista Enterprise et Windows Server 2008 :</strong> Cette valeur n’est pas prise en charge. cette valeur est prise en charge à partir de Windows 7 et Windows Server 2008 R2.<br /> | 
+
 
 
 
@@ -95,7 +64,7 @@ Spécifie si le volume et la clé de chiffrement (le cas échéant) sont sécuri
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **UInt32**
 

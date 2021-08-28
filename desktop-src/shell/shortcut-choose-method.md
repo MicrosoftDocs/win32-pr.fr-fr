@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c910407dbd9de9f12853973f9891fe092a0603ca50a03e59183697b0f92b07e0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 22f6a0edd0820127e65915fbc3c67645cf759354
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118968318"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475545"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>Choix d’une méthode de menu contextuel statique ou dynamique
 
@@ -38,43 +38,14 @@ Les verbes statiques sont les verbes les plus simples à implémenter, mais ils 
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Verbe statique</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> avec paramètres de ligne de commande</td>
-<td>Il s’agit des méthodes les plus simples et les plus familières pour implémenter un verbe statique. Un processus est appelé via un appel à la fonction <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> avec les fichiers sélectionnés et tous les paramètres facultatifs passés comme ligne de commande. Cela ouvre le fichier ou le dossier.<br/> Cette méthode présente les limitations suivantes :
-<ul>
-<li>La longueur de la ligne de commande est limitée à 2000 caractères, ce qui limite le nombre d’éléments que le verbe peut gérer.</li>
-<li>Peut uniquement être utilisé avec les éléments du système de fichiers.</li>
-<li>N’active pas la réutilisation d’un processus déjà en cours d’exécution.</li>
-<li>Requiert l’installation d’un exécutable pour gérer le verbe.</li>
-</ul>
-<br/></td>
-</tr>
-<tr class="even">
-<td><strong>DropTarget</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>IDropTarget</strong></a></td>
-<td>Une activation de verbe basée sur COM signifie que prend en charge l’activation en mode in-proc ou hors processus. <strong>DropTarget</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> prend également en charge la réutilisation d’un gestionnaire déjà en cours d’exécution lorsque l’interface <strong>IDropTarget</strong> est implémentée par un serveur local. Il exprime également parfaitement les éléments via l’objet de données marshalés et fournit une référence à l’appel de la chaîne de site afin que vous puissiez interagir avec le demandeur via le service <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>.</td>
-</tr>
-<tr class="odd">
-<td>Windows 7 et versions ultérieures : <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>IExecuteCommand</strong></a></td>
-<td>La méthode d’implémentation la plus directe. Étant donné qu’il s’agit d’une méthode d’appel COM (par exemple, DropTarget), cette interface prend en charge l’activation in-proc et out-of-process. Le verbe implémente <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> et <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a>, et éventuellement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a>. Les éléments sont passés directement en tant que tableau d’éléments d’interpréteur de commandes et davantage de paramètres du demandeur sont disponibles pour l’implémentation du verbe, y compris le point d’appel, l’état du clavier, etc.</td>
-</tr>
-<tr class="even">
-<td>Windows 7 et versions ultérieures :<strong>ExplorerCommand</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a></td>
-<td>Active les sources de données qui fournissent leurs commandes de module de commande via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a> pour utiliser ces commandes comme verbes dans un menu contextuel. Étant donné que cette interface prend en charge uniquement l’activation in-process, il est recommandé d’utiliser des sources de données Shell qui doivent partager l’implémentation entre les commandes et les menus contextuels.</td>
-</tr>
-</tbody>
-</table>
+
+| Verbe statique | Description | 
+|-------------|-------------|
+| <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> avec paramètres de ligne de commande | Il s’agit des méthodes les plus simples et les plus familières pour implémenter un verbe statique. Un processus est appelé via un appel à la fonction <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa"><strong>CreateProcess</strong></a> avec les fichiers sélectionnés et tous les paramètres facultatifs passés comme ligne de commande. Cela ouvre le fichier ou le dossier.<br /> Cette méthode présente les limitations suivantes :<ul><li>La longueur de la ligne de commande est limitée à 2000 caractères, ce qui limite le nombre d’éléments que le verbe peut gérer.</li><li>Peut uniquement être utilisé avec les éléments du système de fichiers.</li><li>N’active pas la réutilisation d’un processus déjà en cours d’exécution.</li><li>Requiert l’installation d’un exécutable pour gérer le verbe.</li></ul><br /> | 
+| <strong>DropTarget</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"> <strong>IDropTarget</strong></a> | Une activation de verbe basée sur COM signifie que prend en charge l’activation en mode in-proc ou hors processus. <strong>DropTarget</strong> / <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget"><strong>IDropTarget</strong></a> prend également en charge la réutilisation d’un gestionnaire déjà en cours d’exécution lorsque l’interface <strong>IDropTarget</strong> est implémentée par un serveur local. Il exprime également parfaitement les éléments via l’objet de données marshalés et fournit une référence à l’appel de la chaîne de site afin que vous puissiez interagir avec le demandeur via le service <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/cc678966(v=vs.85)"><strong>QueryService</strong></a>. | 
+| Windows 7 et versions ultérieures : <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"> <strong>IExecuteCommand</strong></a> | La méthode d’implémentation la plus directe. Étant donné qu’il s’agit d’une méthode d’appel COM (par exemple, DropTarget), cette interface prend en charge l’activation in-proc et out-of-process. Le verbe implémente <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexecutecommand"><strong>IExecuteCommand</strong></a> et <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iobjectwithselection"><strong>IObjectWithSelection</strong></a>, et éventuellement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iinitializecommand"><strong>IInitializeCommand</strong></a>. Les éléments sont passés directement en tant que tableau d’éléments d’interpréteur de commandes et davantage de paramètres du demandeur sont disponibles pour l’implémentation du verbe, y compris le point d’appel, l’état du clavier, etc. | 
+| Windows 7 et versions ultérieures :<strong>ExplorerCommand</strong> /  <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand"><strong>IExplorerCommand</strong></a> | Active les sources de données qui fournissent leurs commandes de module de commande via <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandprovider"><strong>IExplorerCommandProvider</strong></a> pour utiliser ces commandes comme verbes dans un menu contextuel. Étant donné que cette interface prend en charge uniquement l’activation in-process, il est recommandé d’utiliser des sources de données Shell qui doivent partager l’implémentation entre les commandes et les menus contextuels. | 
+
 
 
 

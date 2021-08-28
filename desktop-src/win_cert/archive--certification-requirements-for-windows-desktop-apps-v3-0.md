@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a810f8600ff80f683aca2143582feb0f06b21ceae73d3bda6f3ad778a70dbb85
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 13af9f9cb0464ff7f0f9c57f057685b360d09928
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117666816"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886277"
 ---
 # <a name="archive-certification-requirements-for-windows-desktop-apps-v30"></a>Archive : conditions de Certification pour les applications de bureau Windows v 3.0
 
@@ -93,7 +93,7 @@ Une installation propre et réversible permet aux utilisateurs de gérer avec su
 
 -   DisplayName
 -   Emplacement de l’installation
--   Éditeur
+-   Publisher
 -   UninstallString
 -   VersionMajor ou MajorVersion
 -   VersionMinor ou MinorVersion
@@ -155,8 +155,8 @@ Les utilisateurs doivent disposer d’une expérience cohérente et sécurisée 
 -   Menu Démarrer AllPrograms > démarrage
 
 </dd> 10.3 Your app data, which must be shared among users on the computer, should be stored within ProgramData  
-10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\<username>\\AppData  
-10,5 votre application ne doit jamais écrire directement dans le répertoire "Windows" ni dans les sous-répertoires <dl> Utilisez les méthodes appropriées pour installer des fichiers, tels que des polices ou des pilotes.  
+10.4 Your app s data that is exclusive to a specific user and that is not to be shared with other users of the computer, must be stored in Users\\&lt;username&gt;\\AppData  
+10.5 Your app must never write directly to the "Windows" directory and or subdirectories <dl> Utilisez les méthodes appropriées pour installer des fichiers, tels que des polices ou des pilotes.  
 </dl> </dd> 10.6 Your app must write user data at first run and not during the installation in  per-machine  installations <dl> Lorsque l’application est installée, il n’existe pas d’emplacement utilisateur correct dans lequel stocker les données. Les tentatives effectuées par une application pour modifier les comportements d’association par défaut au niveau de l’ordinateur après l’installation échouent. Au lieu de cela, les valeurs par défaut doivent être revendiquées sur un niveau par utilisateur, ce qui empêche plusieurs utilisateurs de remplacer les valeurs par défaut des autres.  
 </dl> </dd> 10.7 Exceptions and Waivers <dl> Une dérogation est requise pour les applications qui écrivent dans les applications .NET du Global Assembly Cache (GAC) doivent conserver les dépendances d’assembly privées et les stocker dans le répertoire de l’application, sauf si le partage d’un assembly est explicitement requis.  
 </dl> </dd> </dl>

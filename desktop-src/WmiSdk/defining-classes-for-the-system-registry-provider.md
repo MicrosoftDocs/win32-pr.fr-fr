@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Définition des classes pour le fournisseur de Registre système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ebce4867559398722182b7b77ae02bc31c070b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: deecdbc419c5a245e609380732474a39089f28cb8c2fd76c2ac57546f2d00110
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097289"
 ---
 # <a name="defining-classes-for-the-system-registry-provider"></a>Définition des classes pour le fournisseur de Registre système
 

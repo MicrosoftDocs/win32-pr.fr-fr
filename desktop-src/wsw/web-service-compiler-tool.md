@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e92e1195cd9d3a8e8d9fa1b7be94421d68f3cbdf2242be6fa0d05be5cc3c743f
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 6789b9e2b6e38d89e422adc363326656b8f693e2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118962838"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880982"
 ---
 # <a name="web-service-compiler-tool"></a>Outil du compilateur de service Web
 
@@ -24,7 +24,7 @@ Pour prendre en charge la [sérialisation](serialization.md), le compilateur gé
 
 Usage
 
-**Commutateur de commutateurs de \[ ligne de commandeWsUtil.exe \[ -options \] :\]<filename>**
+**Commutateur de commutateurs de \[ ligne de commandeWsUtil.exe \[ switch-options \] : \] &lt; filename&gt;**
 
 commutateurs de ligne de commande
 
@@ -33,14 +33,14 @@ Spécifie WsUtil.exe options du compilateur. Les commutateurs peuvent apparaîtr
 Liste des options de ligne de commande
 
 -   @filename Spécifie que le fichier d’entrée doit être traité comme un fichier réponse. Cette option peut être utilisée plusieurs fois, à n’importe quel endroit de la liste d’arguments.
--   /wsdl : <filename> : <\_ url facultative> spécifie que le fichier d’entrée doit être traité en tant que fichier WSDL. Plusieurs entrées WSDL sont autorisées et tous les fichiers WSDL spécifiés sont traités. L' \_ URL facultative spécifie l’emplacement à partir duquel les métadonnées ont été récupérées. Si aucune \_ URL facultative n’est spécifiée, Wsutil génère une URL unique en interne. Voir aussi [prise en charge des stratégies](policy-support.md).
--   /xsd : <filename> spécifie que le nom de fichier d’entrée doit être traité comme un fichier de schéma. Plusieurs entrées XSD sont autorisées et tous les fichiers de schéma spécifiés sont traités.
--   /wsp : <filename> : <\_ url facultative> spécifie que le nom de fichier d’entrée doit être traité en tant que métadonnées de stratégie. Plusieurs entrées wsp sont autorisées et tous les fichiers de stratégie spécifiés sont traités. L' \_ URL facultative spécifie l’emplacement à partir duquel les métadonnées ont été récupérées. Si aucune \_ URL facultative n’est spécifiée, Wsutil génère une URL unique en interne. Les fichiers de stratégie sont ignorés si l’indicateur/nopolicy est spécifié. Voir aussi [prise en charge des stratégies](policy-support.md).
+-   /wsdl : &lt; filename &gt; : <\_ URL facultative> spécifie que le fichier d’entrée doit être traité en tant que fichier WSDL. Plusieurs entrées WSDL sont autorisées et tous les fichiers WSDL spécifiés sont traités. L' \_ URL facultative spécifie l’emplacement à partir duquel les métadonnées ont été récupérées. Si aucune \_ URL facultative n’est spécifiée, Wsutil génère une URL unique en interne. Voir aussi [prise en charge des stratégies](policy-support.md).
+-   /xsd : &lt; filename &gt; spécifie que le nom de fichier d’entrée doit être traité comme un fichier de schéma. Plusieurs entrées XSD sont autorisées et tous les fichiers de schéma spécifiés sont traités.
+-   /wsp : &lt; filename &gt; : <\_ URL facultative> spécifie que le nom de fichier d’entrée doit être traité en tant que métadonnées de stratégie. Plusieurs entrées wsp sont autorisées et tous les fichiers de stratégie spécifiés sont traités. L' \_ URL facultative spécifie l’emplacement à partir duquel les métadonnées ont été récupérées. Si aucune \_ URL facultative n’est spécifiée, Wsutil génère une URL unique en interne. Les fichiers de stratégie sont ignorés si l’indicateur/nopolicy est spécifié. Voir aussi [prise en charge des stratégies](policy-support.md).
 -   /nopolicy désactive le traitement de la stratégie.
--   /out : <dirname> spécifie le nom du répertoire pour les fichiers de sortie
+-   /out : &lt; dirname &gt; spécifie le nom du répertoire pour les fichiers de sortie
 -   /NoClient ne pas générer le stub côté client.
 -   /noservice ne pas générer le stub côté service.
--   /Prefix : <string> ajoute la chaîne spécifiée à tous les identificateurs générés.
+-   /Prefix : la chaîne &lt; &gt; ajoute la chaîne spécifiée à tous les identificateurs générés.
 -   /FullName ajoute un nom de fichier normalisé aux identificateurs générés. Par défaut, seul le nom spécifié dans l’attribut « Name » est utilisé pour générer des identificateurs pour les descriptions associées.
 -   /String : <WS \_ string>\|<WCHAR \*> par défaut, Wsutil génère WCHAR \* pour le type xsd : String. L’application peut utiliser cet indicateur pour remplacer ce comportement et génère à la \_ place WS String pour xsd : type.
 -   /help afficher le message d’aide

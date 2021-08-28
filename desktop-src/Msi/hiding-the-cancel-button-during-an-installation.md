@@ -1,19 +1,19 @@
 ---
-description: Vous pouvez masquer le bouton Annuler qui est utilisé pour annuler une installation à l’aide d’une option de ligne de commande, de l’API Windows Installer ou d’une action personnalisée. Le bouton Annuler peut être masqué pour tout ou partie de l’installation, en fonction de la méthode que vous utilisez.
+description: vous pouvez masquer le bouton annuler qui est utilisé pour annuler une installation à l’aide d’une option de ligne de commande, de l’API Windows Installer ou d’une action personnalisée. Le bouton Annuler peut être masqué pour tout ou partie de l’installation, en fonction de la méthode que vous utilisez.
 ms.assetid: de2bb788-0d19-4818-8038-cae6000b38c4
 title: Masquage du bouton Annuler pendant une installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e55658bc69fe81b83b13d6c6ee7da84db77ad466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9b838803b65b8923dc45f36e17579e30114c1bc6d86c8fba2e533252e524568
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129529"
 ---
 # <a name="hiding-the-cancel-button-during-an-installation"></a>Masquage du bouton Annuler pendant une installation
 
-Vous pouvez masquer le bouton **Annuler** qui est utilisé pour annuler une installation à l’aide d’une option de ligne de commande, de l’API Windows Installer ou d’une action personnalisée. Le bouton **Annuler** peut être masqué pour tout ou partie de l’installation, en fonction de la méthode que vous utilisez.
+vous pouvez masquer le bouton **annuler** qui est utilisé pour annuler une installation à l’aide d’une option de ligne de commande, de l’API Windows Installer ou d’une action personnalisée. Le bouton **Annuler** peut être masqué pour tout ou partie de l’installation, en fonction de la méthode que vous utilisez.
 
 ## <a name="hiding-the-cancel-button-from-the-command-line"></a>Masquage du bouton Annuler à partir de la ligne de commande
 
@@ -63,7 +63,7 @@ Installer.InstallProduct "example.msi"
 
 ## <a name="hiding-the-cancel-button-for-parts-of-an-installation-using-a-custom-action"></a>Masquage du bouton Annuler pour les parties d’une installation à l’aide d’une action personnalisée
 
-Votre installation peut masquer et afficher le bouton **Annuler** pendant les parties d’une installation en envoyant un \_ message INSTALLMESSAGE COMMONDATA à l’aide d’un script ou d’une action personnalisée dll. Pour plus d’informations, consultez [bibliothèques de liens dynamiques](dynamic-link-libraries.md), [scripts](scripts.md), [actions personnalisées](custom-actions.md)et [envoi de messages à Windows Installer à l’aide de MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
+Votre installation peut masquer et afficher le bouton **Annuler** pendant les parties d’une installation en envoyant un \_ message INSTALLMESSAGE COMMONDATA à l’aide d’un script ou d’une action personnalisée dll. pour plus d’informations, consultez [bibliothèques de liens dynamiques](dynamic-link-libraries.md), [Scripts](scripts.md), [Actions personnalisées](custom-actions.md)et [envoi de Messages à Windows Installer à l’aide de MsiProcessMessage](sending-messages-to-windows-installer-using-msiprocessmessage.md).
 
 Un appel à une action personnalisée doit fournir un enregistrement. Le champ 1 de cet enregistrement doit contenir la valeur 2 (deux) pour spécifier le bouton **Annuler** . Le champ 2 doit contenir la valeur 0 ou 1. La valeur 0 dans le champ 2 masque le bouton et la valeur 1 dans le champ 2 affiche le bouton. Notez que l’allocation d’un enregistrement de taille 2 avec [**MsiCreateRecord**](/windows/desktop/api/Msiquery/nf-msiquery-msicreaterecord) fournit les champs 0, 1 et 2.
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cdcc5e5b074a07cee13a9af7f7a0f8c0f629de0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8721455c09a263d9c856358d2ca55bb818ac48e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521670"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467396"
 ---
 # <a name="wmt_videoimage_transition_rectangle"></a>\_rectangle de \_ transition \_ VIDEOIMAGE WMT
 
@@ -31,51 +31,15 @@ Le tableau suivant décrit les paramètres utilisés par cette transition et ré
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Paramètre</th>
-<th>Membre de structure</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Centrer X</td>
-<td><strong>fEffectPara0</strong></td>
-<td>Coordonnée X, relative à la trame vidéo, au centre du rectangle.</td>
-</tr>
-<tr class="even">
-<td>Centrer Y</td>
-<td><strong>fEffectPara1</strong></td>
-<td>Coordonnée Y, relative à la trame vidéo, au centre du rectangle.</td>
-</tr>
-<tr class="odd">
-<td>Largeur</td>
-<td><strong>fEffectPara2</strong></td>
-<td>Largeur du rectangle en pixels.</td>
-</tr>
-<tr class="even">
-<td>Hauteur</td>
-<td><strong>fEffectPara3</strong></td>
-<td>Hauteur du rectangle en pixels.</td>
-</tr>
-<tr class="odd">
-<td>Composition</td>
-<td><strong>fEffectPara4</strong></td>
-<td>Définissez l’une des valeurs suivantes :
-<ul>
-<li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li>
-<li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Paramètre | Membre de structure | Description | 
+|-----------|------------------|-------------|
+| Centrer X | <strong>fEffectPara0</strong> | Coordonnée X, relative à la trame vidéo, au centre du rectangle. | 
+| Centrer Y | <strong>fEffectPara1</strong> | Coordonnée Y, relative à la trame vidéo, au centre du rectangle. | 
+| Largeur | <strong>fEffectPara2</strong> | Largeur du rectangle en pixels. | 
+| Hauteur | <strong>fEffectPara3</strong> | Hauteur du rectangle en pixels. | 
+| Composition | <strong>fEffectPara4</strong> | Définissez l’une des valeurs suivantes :<ul><li>0-spécifie une composition normale dans laquelle l’image précédente est l’arrière-plan et l’image actuelle est le premier plan.</li><li>1-spécifie la composition inversée, dans laquelle l’image actuelle est l’image d’arrière-plan, et l’image précédente est le premier plan</li></ul> | 
+
 
 
 

@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, modifier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de7dffb572497df47d65def91dda22f3b8e59299
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5eea05d463f191483cb53f7cbfceef83058093f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839966"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476133"
 ---
 # <a name="edit-control-type"></a>Modifier le type de contrôle
 
@@ -51,32 +51,15 @@ Le tableau suivant illustre un contrôle classique et une vue de contenu de l’
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>Modifier</li>
-</ul></td>
-<td><ul>
-<li>Modifier</li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>Modifier</li></ul> | <ul><li>Modifier</li></ul> | 
 
 
 
- 
+
+ 
 
 Les contrôles qui implémentent le type de contrôle **Edit** auront toujours des barres de défilement zéro dans l’affichage de contrôle de l’arborescence UI Automation, car il s’agit d’un contrôle à ligne unique. Dans certains scénarios de disposition, la ligne de texte unique peut faire l’objet d’un retour automatique à la ligne. Le type de contrôle **Edit** est conçu uniquement pour les petites quantités de texte.
 
@@ -102,7 +85,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -125,7 +108,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -154,13 +137,13 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle d’édition peut être utilisé en tant que champ de texte en lecture seule qui ne prend pas en charge la sélection ou la modification de texte. Un tel contrôle d’édition se comporte comme un objet de champ qui a un nom et une valeur spécifiques.
 
-Si un contrôle d’édition contient du texte d’espace réservé (par exemple, une bannière de signalement), le texte doit être utilisé comme propriété **HelpText** , sauf si le texte peut être modifié par l’utilisateur, puis réutilisé comme texte d’espace réservé. Par exemple, la barre d’adresses Windows Internet Explorer contient le texte « about : Tabs » lorsqu’un nouvel onglet est ouvert. Il ne s’agit pas de **HelpText** , car il s’agit d’une adresse de programmation qui peut être utilisée ou modifiée par l’utilisateur.
+Si un contrôle d’édition contient du texte d’espace réservé (par exemple, une bannière de signalement), le texte doit être utilisé comme propriété **HelpText** , sauf si le texte peut être modifié par l’utilisateur, puis réutilisé comme texte d’espace réservé. par exemple, le Windows barre d’adresses d’Internet Explorer contient le texte « about : Tabs » lorsqu’un nouvel onglet est ouvert. Il ne s’agit pas de **HelpText** , car il s’agit d’une adresse de programmation qui peut être utilisée ou modifiée par l’utilisateur.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -175,9 +158,9 @@ Si un contrôle d’édition contient du texte d’espace réservé (par exemple
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

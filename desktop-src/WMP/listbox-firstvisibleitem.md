@@ -3,7 +3,7 @@ title: LISTBOX. firstVisibleItem
 description: L’attribut firstVisibleItem spécifie ou récupère l’index de la première ligne visible dans le contrôle de zone de liste.
 ms.assetid: 20209f55-2895-4c71-9169-0441e7c5c026
 keywords:
-- LISTBOX. firstVisibleItem Windows Media Player
+- LISTBOX. firstVisibleItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76f7ee51848b6bd60e306f70a2f5a90006d1bf6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 768eb489224dfb2cf15e9107a1b6e6b98459f21b4fd4c497e2a85e79be304a8e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123459"
 ---
 # <a name="listboxfirstvisibleitem"></a>LISTBOX. firstVisibleItem
 
@@ -31,7 +31,7 @@ L’attribut **firstVisibleItem** spécifie ou récupère l’index de la premi�
 
 Cet attribut est un **nombre** en lecture/écriture (**long**).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utile pour déterminer la première ligne visible lors du défilement de la zone de liste.
 

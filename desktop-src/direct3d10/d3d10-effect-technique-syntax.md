@@ -4,12 +4,12 @@ ms.assetid: 84f9b74d-8397-4cd5-91a0-7f910ba7b19e
 title: Syntaxe d’effet technique (Direct3D 10)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3c0ff0c0f1b5e9c1fac4cdb12aac21e42d89771c0eae89d1cd9538d0281acee
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 106abd47e1148ce30127733f113a1b43a0058f60
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117914484"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625125"
 ---
 # <a name="effect-technique-syntax-direct3d-10"></a>Syntaxe d’effet technique (Direct3D 10)
 
@@ -43,7 +43,7 @@ Mot clé requis.
 <span id="TechniqueName"></span><span id="techniquename"></span><span id="TECHNIQUENAME"></span>*TechniqueName*
 </dt> <dd>
 
-Facultatif. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet.
+Optionnel. Chaîne ASCII qui identifie de façon unique le nom de la technique d’effet.
 
 </dd> <dt>
 
@@ -77,13 +77,13 @@ Mot clé requis.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
 <th>StateGroup</th>
-<th>Syntaxe</th>
+<th>Syntax</th>
 </tr>
 </thead>
 <tbody>
@@ -92,7 +92,7 @@ Mot clé requis.
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -109,7 +109,7 @@ Mot clé requis.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -127,7 +127,7 @@ Mot clé requis.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -145,7 +145,7 @@ Mot clé requis.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -160,7 +160,7 @@ Mot clé requis.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -175,7 +175,7 @@ Mot clé requis.
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">

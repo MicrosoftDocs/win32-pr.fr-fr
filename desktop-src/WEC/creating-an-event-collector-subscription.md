@@ -5,12 +5,12 @@ ms.assetid: 76f14e01-7a84-4c94-aea6-91189573eb89
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b5fdcff469ad8f6dfef4f775e0c79da814e9f4c6e05a71a95b6ddf70446d4ba
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0f05b2a0e6628256ca5efd86c142bac09f5fcc2b
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120006129"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886232"
 ---
 # <a name="creating-a-collector-initiated-subscription"></a>Création d’un abonnement initié par le collecteur
 
@@ -517,12 +517,12 @@ DWORD GetProperty(EC_HANDLE hSubscription,
 
     1.  Exécutez la commande suivante à partir d’une invite de commandes avec élévation de privilèges pour connaître l’état d’exécution de l’abonnement :
 
-        **wecutil gr***<subscriptionID>*
+        **wecutil gr** *&lt; subscriptionID &gt;*
 
     2.  Vérifiez que la source de l’événement est connectée. Vous devrez peut-être attendre que l’intervalle d’actualisation spécifié dans la stratégie soit dépassé après avoir créé l’abonnement pour la source d’événements à connecter.
     3.  Exécutez la commande suivante pour récupérer les informations d’abonnement :
 
-        **wecutil GS***<subscriptionID>*
+        **wecutil GS** *&lt; subscriptionID &gt;*
 
     4.  Obtient la valeur DeliveryMaxItems à partir des informations d’abonnement.
 

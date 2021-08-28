@@ -4,18 +4,18 @@ description: La bibliothèque DirectXMath implémente une interface optimale et 
 ms.assetid: 9972e382-7a0f-88a7-ad44-18521af3520d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e599acfc498e28b33acfc5bbbba2bea5669d2a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5ad7de99a462dc533d8010c45dfadcb1bcfa1b6f33317a941e91c16f30c3d2c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120117499"
 ---
 # <a name="getting-started-directxmath"></a>Mise en route (DirectXMath)
 
 La bibliothèque DirectXMath implémente une interface optimale et portable pour les opérations algébriques arithmétiques et linéaires sur des vecteurs à virgule flottante simple précision (2D, 3D et 4D) ou des matrices (3 × 3 et 4 × 4). La bibliothèque dispose d’une prise en charge limitée pour les opérations de vecteur entier. Ces opérations sont largement utilisées pour le rendu et l’animation par les programmes graphiques. Il n’existe aucune prise en charge des vecteurs à double précision (y compris les longs, les shorts ou les octets) et les opérations de vecteur d’entiers limitées.
 
-La bibliothèque est disponible sur diverses plateformes Windows. Étant donné que la bibliothèque fournit des fonctionnalités qui ne sont pas disponibles précédemment, cette version remplace les bibliothèques suivantes :
+la bibliothèque est disponible sur une variété de plateformes de Windows. Étant donné que la bibliothèque fournit des fonctionnalités qui ne sont pas disponibles précédemment, cette version remplace les bibliothèques suivantes :
 
 -   Bibliothèque mathématique Xbox fournie par l’en-tête Xboxmath. h
 -   Bibliothèque D3DX 9 fournie par les dll D3DX 9
@@ -40,7 +40,7 @@ Ces sections décrivent les principes fondamentaux de la mise en route.
 
 ## <a name="download"></a>Télécharger
 
-La bibliothèque DirectXMath est incluse dans le SDK Windows. Vous pouvez également le télécharger à partir de [GitHub/Microsoft/DirectXMath](https://github.com/Microsoft/DirectXMath). Ce site contient également des exemples de projets associés.
+la bibliothèque DirectXMath est incluse dans le SDK Windows. vous pouvez également le télécharger à partir de [GitHub/Microsoft/DirectXMath](https://github.com/Microsoft/DirectXMath). Ce site contient également des exemples de projets associés.
 
 ## <a name="run-time-system-requirements"></a>Configuration système requise pour Run-Time
 
@@ -48,8 +48,8 @@ La bibliothèque DirectXMath utilise des instructions de processeur spécialisé
 
 Voici les spécifications de base de la prise en charge de l’exécution de la bibliothèque DirectXMath :
 
--   La compilation par défaut sur une plateforme Windows (x86/x64) requiert la prise en charge des instructions SSE/SSE2.
--   La prise en charge par défaut sur une plateforme Windows RT nécessite une prise en charge des instructions ARM-néon.
+-   la compilation par défaut sur une plateforme Windows (x86/x64) requiert la prise en charge des instructions SSE/SSE2.
+-   la prise en charge par défaut sur une plateforme Windows RT nécessite une prise en charge des instructions ARM-néon.
 -   La compilation avec [**\_ XM \_ aucune \_ intrinsèque \_**](ovw-xnamath-reference-directives.md) définie requiert uniquement la prise en charge de l’opération de calcul en virgule flottante standard.
 
 > [!Note]  
@@ -77,7 +77,7 @@ Pour référence, Direct3D a utilisé historiquement le système de coordonnées
 
 ## <a name="basic-usage"></a>Utilisation de base
 
-Pour utiliser les fonctions de la bibliothèque DirectXMath, incluez les en-têtes DirectXMath. h, DirectXPackedVector. h, DirectXColors. h et/ou DirectXCollision. h. Les en-têtes se trouvent dans le kit de développement logiciel Windows pour les applications du Windows Store.
+Pour utiliser les fonctions de la bibliothèque DirectXMath, incluez les en-têtes DirectXMath. h, DirectXPackedVector. h, DirectXColors. h et/ou DirectXCollision. h. les en-têtes se trouvent dans le Kit de développement logiciel (sdk) Windows pour les applications Windows store.
 
 ## <a name="type-usage-guidelines"></a>Instructions d’utilisation de type
 
@@ -85,14 +85,14 @@ Les types [**XMVECTOR**](xmvector-data-type.md) et [**XMMATRIX**](/windows/win32
 
 Vous devez considérer [**XMVECTOR**](xmvector-data-type.md) comme un proxy pour un registre matériel SIMD et [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) en tant que proxy pour un regroupement logique de quatre registres matériels SIMD. Ces types sont annotés pour indiquer qu’ils nécessitent un alignement sur 16 octets pour fonctionner correctement. Le compilateur les place automatiquement correctement sur la pile lorsqu’ils sont utilisés en tant que variable locale, ou les place dans le segment de données lorsqu’ils sont utilisés en tant que variable globale. Avec les conventions appropriées, elles peuvent également être transmises en toute sécurité en tant que paramètres d’une fonction (consultez [conventions d’appel](pg-xnamath-internals.md) pour plus d’informations).
 
-Toutefois, les allocations à partir du tas sont plus compliquées. Par conséquent, vous devez faire attention lorsque vous utilisez [**XMVECTOR**](xmvector-data-type.md) ou [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) en tant que membre d’une classe ou d’une structure à allouer à partir du tas. Sur Windows x64, toutes les allocations de tas sont alignées sur 16 octets, mais pour Windows x86, elles sont uniquement alignées sur 8 octets. Il existe des options pour allouer des structures à partir du tas avec alignement sur 16 octets (consultez [aligner correctement les allocations](pg-xnamath-optimizing.md)). Pour les programmes C++, vous pouvez utiliser les surcharges opérateur New/Delete/New \[ \] /Delete \[ \] (globalement ou propre à la classe) pour appliquer l’alignement optimal si vous le souhaitez.
+Toutefois, les allocations à partir du tas sont plus compliquées. Par conséquent, vous devez faire attention lorsque vous utilisez [**XMVECTOR**](xmvector-data-type.md) ou [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) en tant que membre d’une classe ou d’une structure à allouer à partir du tas. sur Windows x64, toutes les allocations de tas sont alignées sur 16 octets, mais pour Windows x86, elles sont uniquement alignées sur 8 octets. Il existe des options pour allouer des structures à partir du tas avec alignement sur 16 octets (consultez [aligner correctement les allocations](pg-xnamath-optimizing.md)). Pour les programmes C++, vous pouvez utiliser les surcharges opérateur New/Delete/New \[ \] /Delete \[ \] (globalement ou propre à la classe) pour appliquer l’alignement optimal si vous le souhaitez.
 
 > [!Note]  
-> Comme alternative à l’application de l’alignement dans votre classe C++ directement par la surcharge de New/Delete, vous pouvez utiliser l' [idiome pImpl](https://en.wikipedia.org/wiki/Opaque_pointer). Si vous vous assurez que votre classe **IMPL** est alignée par le biais de [**\_ \_ malloc**](/cpp/c-runtime-library/reference/aligned-malloc) en interne aligné, vous pouvez utiliser librement les types alignés dans l’implémentation interne. Il s’agit d’une bonne option lorsque la classe « public » est une classe ref Windows Runtime ou prévue pour une utilisation avec le [**ptr std :: shared \_<>**](/cpp/standard-library/shared-ptr-class), ce qui peut autrement perturber l’alignement.
+> Comme alternative à l’application de l’alignement dans votre classe C++ directement par la surcharge de New/Delete, vous pouvez utiliser l' [idiome pImpl](https://en.wikipedia.org/wiki/Opaque_pointer). Si vous vous assurez que votre classe **IMPL** est alignée par le biais de [**\_ \_ malloc**](/cpp/c-runtime-library/reference/aligned-malloc) en interne aligné, vous pouvez utiliser librement les types alignés dans l’implémentation interne. il s’agit d’une bonne option lorsque la classe « public » est une classe ref Windows Runtime ou prévue pour une utilisation avec le [**ptr std :: shared \_<>**](/cpp/standard-library/shared-ptr-class), ce qui peut autrement perturber l’alignement.
 
  
 
-Toutefois, il est souvent plus facile et plus compact d’éviter d’utiliser [**XMVECTOR**](xmvector-data-type.md) ou [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) directement dans une classe ou une structure. Utilisez plutôt les [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3), [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4), [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3), [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4), etc., en tant que membres de votre structure. En outre, vous pouvez utiliser les fonctions de [chargement de vecteur](ovw-xnamath-reference-functions-load.md) et de [stockage vectoriel](ovw-xnamath-reference-functions-storage.md) pour déplacer efficacement les données dans des variables locales **XMVECTOR** ou **XMMATRIX** , effectuer des calculs et stocker les résultats. Il existe également des fonctions de diffusion en continu ([**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream), [**XMVector4TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector4transformstream), etc.) qui fonctionnent efficacement directement sur les tableaux de ces types de données.
+Toutefois, il est souvent plus facile et plus compact d’éviter d’utiliser [**XMVECTOR**](xmvector-data-type.md) ou [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) directement dans une classe ou une structure. Utilisez plutôt les [**XMFLOAT3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat3), [**XMFLOAT4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4), [**XMFLOAT4X3**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x3), [**XMFLOAT4X4**](/windows/win32/api/directxmath/ns-directxmath-xmfloat4x4), etc., en tant que membres de votre structure. en outre, vous pouvez utiliser les fonctions de [chargement de vecteur](ovw-xnamath-reference-functions-load.md) et de [Stockage vectorielles](ovw-xnamath-reference-functions-storage.md) pour déplacer efficacement les données dans des variables locales **XMVECTOR** ou **XMMATRIX** , effectuer des calculs et stocker les résultats. Il existe également des fonctions de diffusion en continu ([**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream), [**XMVector4TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector4transformstream), etc.) qui fonctionnent efficacement directement sur les tableaux de ces types de données.
 
 ## <a name="creating-vectors"></a>Création de vecteurs
 

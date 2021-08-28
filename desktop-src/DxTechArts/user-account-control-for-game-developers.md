@@ -4,12 +4,12 @@ description: cet article décrit les recommandations et les meilleures pratiques
 ms.assetid: dbac1c07-73dd-f2bc-3c5c-d6160368a88f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14013a99926301d93a9b7b710af30f33f85b4fa1a48a60a6979c8a6868474e09
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 0cb8b6ac31ef13e3ace4d439c82f4708673aeffb
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118396527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886066"
 ---
 # <a name="user-account-control-for-game-developers"></a>Contrôle de compte d’utilisateur pour les développeurs de jeux
 
@@ -26,7 +26,7 @@ cet article décrit les recommandations et les meilleures pratiques permettant a
 -   [Compatibilité UAC avec les anciens jeux](#uac-compatibility-with-older-games)
 -   [Scénarios et manifestes hérités](#legacy-scenarios-and-manifests)
 -   [Conclusion](#conclusion)
--   [Autres lectures](#further-reading)
+-   [En savoir plus](#further-reading)
 
 ## <a name="overview-of-user-account-control"></a>Vue d’ensemble du contrôle de compte d’utilisateur
 
@@ -197,16 +197,16 @@ L’attribut uiAccess, présenté dans les exemples précédents, doit toujours 
 
 la prise en charge du manifeste a été ajoutée pour la première fois à Visual Studio à partir d’VS2005. par défaut, un fichier exécutable intégré à Visual Studio 2005 (ou plus récent) aura un manifeste généré automatiquement incorporé dans le cadre du processus de génération. Le contenu du manifeste généré automatiquement dépend de certaines configurations de projet que vous spécifiez dans la boîte de dialogue Propriétés du projet.
 
-le manifeste généré automatiquement par Visual Studio 2005 ne contient pas de <trustInfo> bloc, car il n’existe aucun moyen de configurer le niveau d’exécution du contrôle de compte d’utilisateur dans les propriétés du projet. La meilleure façon d’ajouter ces informations est de laisser VS2005 fusionner un manifeste défini par l’utilisateur contenant le <trustInfo> bloc avec le manifeste généré automatiquement. C’est aussi simple que d’ajouter un \* fichier. manifest à votre solution qui contient le code XML mentionné dans la section précédente. quand Visual Studio rencontre un fichier. manifest dans votre solution, il appelle automatiquement l’outil manifeste (mt.exe) pour fusionner les fichiers. manifest avec l’objet généré automatiquement.
+le manifeste généré automatiquement par Visual Studio 2005 ne contient pas de &lt; &gt; bloc trustInfo, car il n’existe aucun moyen de configurer le niveau d’exécution du contrôle de compte d’utilisateur dans les propriétés du projet. La meilleure façon d’ajouter ces informations est de laisser VS2005 fusionner un manifeste défini par l’utilisateur contenant le &lt; &gt; bloc TrustInfo avec le manifeste généré automatiquement. C’est aussi simple que d’ajouter un \* fichier. manifest à votre solution qui contient le code XML mentionné dans la section précédente. quand Visual Studio rencontre un fichier. manifest dans votre solution, il appelle automatiquement l’outil manifeste (mt.exe) pour fusionner les fichiers. manifest avec l’objet généré automatiquement.
 
 > [!Note]  
-> il existe un bogue dans l’outil manifest (mt.exe) fourni par Visual Studio 2005 qui produit un manifeste fusionné et incorporé qui peut provoquer des problèmes lorsque l’exécutable est exécuté sur Windows XP avant SP3. Le bogue est dû à la manière dont l’outil redéfinit l’espace de noms par défaut lors de la déclaration du <trustInfo> bloc. Heureusement, il est facile de contourner le problème en déclarant explicitement un espace de noms différent dans le <trustInfo> bloc et en établissant une portée des nœuds enfants pour le nouvel espace de noms. Le code XML fourni dans la section précédente illustre ce correctif.
+> il existe un bogue dans l’outil manifest (mt.exe) fourni par Visual Studio 2005 qui produit un manifeste fusionné et incorporé qui peut provoquer des problèmes lorsque l’exécutable est exécuté sur Windows XP avant SP3. Le bogue est dû à la manière dont l’outil redéfinit l’espace de noms par défaut lors de la déclaration du &lt; &gt; bloc TrustInfo. Heureusement, il est facile de contourner le problème en déclarant explicitement un espace de noms différent dans &lt; le &gt; bloc TrustInfo et en établissant une portée des nœuds enfants sur le nouvel espace de noms. Le code XML fourni dans la section précédente illustre ce correctif.
 
  
 
-l’un des inconvénients de l’utilisation de l’outil mt.exe inclus dans Visual Studio 2005 est qu’il génère un avertissement lors du traitement du <trustInfo> bloc, car l’outil ne contient pas de schéma mis à jour pour valider le code XML. pour remédier à cet avertissement, il est recommandé de remplacer tous les fichiers mt.exe dans le répertoire d’installation Visual Studio 2005 (il existe plusieurs instances) avec le mt.exe fourni dans le SDK Windows le plus récent.
+l’un des inconvénients de l’utilisation de l’outil mt.exe inclus dans Visual Studio 2005 est qu’il génère un avertissement lors du traitement du &lt; &gt; bloc trustInfo, car l’outil ne contient pas de schéma mis à jour pour valider le code XML. pour remédier à cet avertissement, il est recommandé de remplacer tous les fichiers mt.exe dans le répertoire d’installation Visual Studio 2005 (il existe plusieurs instances) avec le mt.exe fourni dans le SDK Windows le plus récent.
 
-à compter de Visual Studio 2008, vous pouvez maintenant spécifier le niveau d’exécution d’une application à partir de la boîte de dialogue des propriétés du projet (Figure 3) ou à l’aide de l’indicateur de l’éditeur de liens/manifestuac. la définition de ces options permet à Visual Studio 2008 de générer automatiquement et d’incorporer un manifeste avec le <trustInfo> bloc approprié dans l’exécutable.
+à compter de Visual Studio 2008, vous pouvez maintenant spécifier le niveau d’exécution d’une application à partir de la boîte de dialogue des propriétés du projet (Figure 3) ou à l’aide de l’indicateur de l’éditeur de liens/manifestuac. la définition de ces options permet à Visual Studio 2008 de générer automatiquement et d’incorporer un manifeste avec le &lt; bloc trustInfo approprié &gt; dans l’exécutable.
 
 **Figure 3. définition du niveau d’exécution dans Visual Studio 2008**
 

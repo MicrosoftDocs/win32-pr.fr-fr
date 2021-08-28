@@ -1,27 +1,27 @@
 ---
-description: Microsoft fournit plusieurs filtres standard avec Windows Search. Les clients appellent ces gestionnaires de filtres (qui sont des implémentations de l’interface IFilter) pour extraire du texte et des propriétés d’un document.
+description: Microsoft fournit plusieurs filtres standard avec la recherche de Windows. Les clients appellent ces gestionnaires de filtres (qui sont des implémentations de l’interface IFilter) pour extraire du texte et des propriétés d’un document.
 ms.assetid: e19ae220-5c59-482e-8b02-00889600c4d6
 title: Gestionnaires de filtres fournis avec Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dd5603ab913117e2c968a7508b2fa061dfb4034
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1a245978482e0334d91e35031aa80186fd2cb32
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112451"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122624365"
 ---
 # <a name="filter-handlers-that-ship-with-windows"></a>Gestionnaires de filtres fournis avec Windows
 
-Microsoft fournit plusieurs filtres standard avec Windows Search. Les clients appellent ces gestionnaires de filtres (qui sont des implémentations de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ) pour extraire du texte et des propriétés d’un document.
+Microsoft fournit plusieurs filtres standard avec la recherche de Windows. Les clients appellent ces gestionnaires de filtres (qui sont des implémentations de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ) pour extraire du texte et des propriétés d’un document.
 
 Cette rubrique est organisée comme suit :
 
-- [Remarques sur l’implémentation de Windows Search](#windows-search-implementation-notes)
-  - [Implémentation de Windows 7 et 10](#windows-7-and-10-implementation)
-  - [Implémentation de Windows Vista](#windows-vista-implementation)
+- [Windows Remarques sur l’implémentation de la recherche](#windows-search-implementation-notes)
+  - [implémentation de Windows 7 et 10](#windows-7-and-10-implementation)
+  - [Windows Implémentation Vista](#windows-vista-implementation)
   - [Implémentation héritée](#legacy-implementation)
-- [Filtres de recherche Windows](#filter-handlers-that-ship-with-windows)
+- [Windows Filtres de recherche](#filter-handlers-that-ship-with-windows)
   - [Gestionnaire de filtre MIME](#mime-filter-handler)
   - [Gestionnaire de filtre HTML](#html-filter-handler)
   - [Gestionnaire de filtre de document](#document-filter-handler)
@@ -30,37 +30,37 @@ Cette rubrique est organisée comme suit :
 - [Ressources supplémentaires](#additional-resources)
 - [Rubriques connexes](#related-topics)
 
-## <a name="windows-search-implementation-notes"></a>Remarques sur l’implémentation de Windows Search
+## <a name="windows-search-implementation-notes"></a>Windows Remarques sur l’implémentation de la recherche
 
-Dans Windows 7 et versions ultérieures, les filtres écrits en code managé sont bloqués explicitement. Les filtres doivent être écrits en code natif en raison des éventuels problèmes de versioning du CLR avec le processus dans lequel plusieurs compléments s’exécutent.
+dans Windows 7 et versions ultérieures, les filtres écrits en code managé sont bloqués explicitement. Les filtres doivent être écrits en code natif en raison des éventuels problèmes de versioning du CLR avec le processus dans lequel plusieurs compléments s’exécutent.
 
-### <a name="windows-7-and-10-implementation"></a>Implémentation de Windows 7 et 10
+### <a name="windows-7-and-10-implementation"></a>implémentation de Windows 7 et 10
 
-Dans Windows 7 et versions ultérieures, un nouveau comportement se produit lors de l’inscription d’un gestionnaire de filtres, d’un gestionnaire de propriétés ou d’une nouvelle extension. Lorsqu’un nouveau gestionnaire de propriétés et/ou gestionnaire de filtres est installé, les fichiers avec les extensions correspondantes sont automatiquement réindexés.
+dans Windows 7 et versions ultérieures, un nouveau comportement se produit lors de l’inscription d’un gestionnaire de filtres, d’un gestionnaire de propriétés ou d’une nouvelle extension. Lorsqu’un nouveau gestionnaire de propriétés et/ou gestionnaire de filtres est installé, les fichiers avec les extensions correspondantes sont automatiquement réindexés.
 
-Dans Windows 7 et versions ultérieures, nous vous recommandons d’installer un gestionnaire de filtres conjointement avec les gestionnaires de propriétés correspondants, et d’inscrire le gestionnaire de filtres avant le gestionnaire de propriétés. L’inscription du gestionnaire de propriétés lance la réindexation immédiate des fichiers précédemment indexés sans nécessiter un redémarrage, et tire parti des gestionnaires de filtres précédemment enregistrés pour l’indexation du contenu.
+dans Windows 7 et versions ultérieures, nous vous recommandons d’installer un gestionnaire de filtres conjointement avec les gestionnaires de propriétés correspondants, et d’inscrire le gestionnaire de filtres avant le gestionnaire de propriétés. L’inscription du gestionnaire de propriétés lance la réindexation immédiate des fichiers précédemment indexés sans nécessiter un redémarrage, et tire parti des gestionnaires de filtres précédemment enregistrés pour l’indexation du contenu.
 
 Si seul un gestionnaire de filtres est installé sans gestionnaire de propriétés correspondant, la réindexation automatique se produit soit après un redémarrage du service d’indexation, soit par un redémarrage du système.
 
-Pour les indicateurs de description de propriété spécifiques à Windows 7, consultez les rubriques de référence suivantes : [GETPROPERTYSTOREFLAGS](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags), [PROPDESC \_ COLUMNINDEX \_ type](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type) et [PROPDESC \_ SEARCHINFO \_ Flags](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags).
+pour plus d’informations sur les indicateurs de description de propriété spécifiques à Windows 7, consultez les rubriques de référence suivantes : [GETPROPERTYSTOREFLAGS](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags), [PROPDESC \_ COLUMNINDEX \_ TYPE](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type) et [PROPDESC \_ SEARCHINFO \_ flags](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags).
 
-### <a name="windows-vista-implementation"></a>Implémentation de Windows Vista
+### <a name="windows-vista-implementation"></a>Windows Implémentation Vista
 
-Dans Windows Vista et les versions antérieures, l’installation d’un gestionnaire [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ou d’un gestionnaire de propriétés n’initie pas la réindexation des éléments existants, à moins qu’un éditeur de logiciels indépendant (ISV) appelle explicitement une régénération ou une réindexation des URL correspondantes.
+dans Windows Vista et les versions antérieures, l’installation d’un gestionnaire [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ou d’un gestionnaire de propriétés n’initie pas la réindexation des éléments existants, à moins qu’un éditeur de logiciels indépendant (ISV) appelle explicitement une régénération ou une réindexation des url correspondantes.
 
-Il existe deux différences majeures entre les applications héritées telles que le service d’indexation et les applications plus récentes telles que Windows Search dont vous devez être conscient lors de l’implémentation de filtres :
+il existe deux différences majeures entre les applications héritées telles que le Service d’indexation et les applications plus récentes telles que Windows la recherche dont vous devez être conscient lors de l’implémentation de filtres :
 
 - Utilisation de l’interface [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) .
 - Utilisation de gestionnaires de propriétés.
 
-Tout d’abord, Windows Vista et Windows Search 3,0 et versions ultérieures requièrent que vous utilisiez [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) pour les raisons suivantes :
+tout d’abord, Windows Vista et Windows Search 3,0 et versions ultérieures requièrent que vous utilisiez [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) pour les raisons suivantes :
 
 - Pour garantir les performances et la compatibilité future.
 - Pour renforcer la sécurité. Les filtres implémentés avec [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) sont plus sécurisés, car le contexte dans lequel le filtre s’exécute n’a pas besoin des droits pour ouvrir des fichiers sur le disque ou sur le réseau.
 
-Alors que Windows Search utilise uniquement [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), vous pouvez également inclure l' [interface IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) et/ou les implémentations d' [interface IPersistStorage](/windows/win32/api/objidl/nn-objidl-ipersiststorage) dans vos filtres à des fins de compatibilité descendante.
+bien que la recherche Windows utilise uniquement [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), vous pouvez également inclure l' [interface IPersistFile](/windows/win32/api/objidl/nn-objidl-ipersistfile) et/ou les implémentations d' [interface IPersistStorage](/windows/win32/api/objidl/nn-objidl-ipersiststorage) dans vos filtres à des fins de compatibilité descendante.
 
-La deuxième différence majeure réside dans le fait que Windows Vista et Windows Search 3,0 et versions ultérieures ont un nouveau [système de propriétés](../properties/building-property-handlers.md) qui utilise des gestionnaires de propriétés pour énumérer les propriétés des éléments.
+la deuxième différence majeure réside dans le fait que Windows Vista et Windows Search 3,0 et versions ultérieures ont un nouveau [système de propriétés](../properties/building-property-handlers.md) qui utilise des gestionnaires de propriétés pour énumérer les propriétés des éléments.
 
 Toutefois, il peut arriver que vous deviez implémenter un filtre qui gère à la fois le contenu et les propriétés afin d’effectuer les opérations suivantes :
 
@@ -73,13 +73,13 @@ Dans ce cas, vous avez besoin d’une implémentation de filtre complète, y com
 
 ### <a name="legacy-implementation"></a>Implémentation héritée
 
-Comme indiqué précédemment, Windows Vista et Windows Search incluent un nouveau système de propriétés qui encapsule les propriétés d’un élément qui sont séparées du contenu d’un élément. Ce système de propriétés n’existe pas dans les versions antérieures de Microsoft Windows Desktop Search (WDS) 2. x. Si votre filtre doit prendre en charge d’autres applications comme décrit ci-dessus, il peut être nécessaire de gérer le contenu et les propriétés.
+comme indiqué précédemment, Windows Vista et Windows Search incluent un nouveau système de propriétés qui encapsule les propriétés d’un élément qui sont séparées du contenu d’un élément. ce système de propriétés n’existe pas dans les versions antérieures de Microsoft Windows Desktop Search (WDS) 2. x. Si votre filtre doit prendre en charge d’autres applications comme décrit ci-dessus, il peut être nécessaire de gérer le contenu et les propriétés.
 
 Pour plus d’informations sur le développement d’un filtre compatible, consultez les rubriques suivantes, [IFilter (pour les applications héritées)](/windows/win32/api/filter/nn-filter-ifilter)et [développement de compléments de filtre (pour les applications héritées)](../lwef/-search-2x-wds-ifilteraddins.md).
 
-## <a name="windows-search-filters"></a>Filtres de recherche Windows
+## <a name="windows-search-filters"></a>Windows Filtres de recherche
 
-Microsoft fournit plusieurs filtres standard avec Windows Search. Le contenu de la dll [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)  est résumé dans le tableau suivant. Le fait de cliquer sur le nom d’un gestionnaire de filtres vous amène à la description de cette implémentation **IFilter** .
+Microsoft fournit plusieurs filtres standard avec la recherche de Windows. Le contenu de la dll [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)  est résumé dans le tableau suivant. Le fait de cliquer sur le nom d’un gestionnaire de filtres vous amène à la description de cette implémentation **IFilter** .
 
 | Gestionnaire de filtres                                                  | Fichiers filtrés                              | DLL IFilter  |
 |-----------------------------------------------------------------|---------------------------------------------|--------------|
@@ -95,7 +95,7 @@ Le gestionnaire de filtre MIME (en mimefilt.dll) extrait les informations de tex
 
 ### <a name="html-filter-handler"></a>Gestionnaire de filtre HTML
 
-Le gestionnaire de filtre HTML (en nlhtml.dll) extrait les informations de texte et de propriété de la classe « HtmlFiles » afin qu’elles puissent être indexées par la recherche Windows. Pour obtenir une description de l’association entre [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) et le type de fichier, consultez « recherche de la DLL IFilter pour un fichier » dans [inscription des gestionnaires de filtres](-search-ifilter-registering-filters.md).
+le gestionnaire de filtre HTML (en nlhtml.dll) extrait les informations de texte et de propriété de la classe « htmlfiles » afin qu’elles puissent être indexées par Windows recherche. Pour obtenir une description de l’association entre [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) et le type de fichier, consultez « recherche de la DLL IFilter pour un fichier » dans [inscription des gestionnaires de filtres](-search-ifilter-registering-filters.md).
 
 Vous pouvez utiliser la `META` fonctionnalité tag des documents html pour transmettre des demandes de traitement spéciales au [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)html. `META` les balises se produisent vers le début d’un fichier HTML au sein des `HEAD ... /HEAD` balises, comme illustré dans l’exemple suivant.
 
@@ -122,9 +122,9 @@ Certaines fonctionnalités du [**IFilter**](/windows/win32/api/filter/nn-filter-
 <!-- markdownlint-disable MD033 -->
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -145,7 +145,7 @@ Le processus de filtrage peut générer des abstractions pour chaque fichier fil
 <td><span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -166,7 +166,7 @@ Le processus de filtrage peut générer des abstractions pour chaque fichier fil
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -186,7 +186,7 @@ Le processus de filtrage peut générer des abstractions pour chaque fichier fil
 <span data-codelanguage=""></span>
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col  />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -206,11 +206,11 @@ Le processus de filtrage peut générer des abstractions pour chaque fichier fil
 
 ### <a name="document-filter-handler"></a>Gestionnaire de filtre de document
 
-Le gestionnaire de filtre de document (dans offilt.dll) filtre les fichiers pour certaines extensions de documents dans Microsoft Office. Il s’agit notamment des fichiers avec les extensions. doc,. mdb,. ppt et. xlt, par exemple.
+Le gestionnaire de filtre de document (dans offilt.dll) filtre les fichiers pour certaines extensions de documents dans Microsoft Office. Celles-ci incluent les fichiers avec les extensions .doc,. mdb, .ppt et. xlt, par exemple.
 
 ### <a name="plain-text-filter-handler"></a>Gestionnaire de filtre de texte brut
 
-Pour les fichiers en texte brut, Windows Search utilise le gestionnaire de filtre de texte, qui filtre les propriétés système (telles que les noms de fichiers) et le contenu d’un fichier. Lorsqu’un type de fichier n’a pas d’association [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) dans le registre, Windows Search indexe uniquement les propriétés de l’interpréteur de commandes pour le fichier. Toutefois, l’utilisateur peut utiliser les **Options avancées** dans les **options d’indexation** du panneau de configuration pour **indexer les propriétés** ou les propriétés d' **index et le contenu des fichiers**.
+pour les fichiers en texte brut, Windows recherche utilise le gestionnaire de filtre de texte, qui filtre les propriétés système (telles que les noms de fichiers) et le contenu d’un fichier. lorsqu’un type de fichier n’a pas d’association [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) dans le registre, Windows Search indexe uniquement les propriétés de l’interpréteur de commandes pour le fichier. Toutefois, l’utilisateur peut utiliser les **Options avancées** dans les **options d’indexation** du panneau de configuration pour **indexer les propriétés** ou les propriétés d' **index et le contenu des fichiers**.
 
 ![capture d’écran montrant la boîte de dialogue Options avancées](images/ifilteradvancedoptions.png)
 
@@ -222,7 +222,7 @@ Lorsqu’un fichier binaire enregistré est rencontré, le gestionnaire de filtr
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- L’exemple de code [IFilterSample](-search-sample-ifiltersample.md) , disponible sur [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), montre comment créer une classe de base IFilter pour l’implémentation de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) .
+- l’exemple de code [IFilterSample](-search-sample-ifiltersample.md) , disponible sur [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), illustre la création d’une classe de base ifilter pour l’implémentation de l’interface [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) .
 - Pour obtenir une vue d’ensemble du processus d’indexation, consultez [processus d’indexation](-search-indexing-process-overview.md).
 - Pour obtenir une vue d’ensemble des types de fichiers, consultez [types de fichiers](../shell/fa-file-types.md).
 - Pour interroger des attributs d’association de fichiers pour un type de fichier, consultez [PerceivedTypes, SystemFileAssociations et inscription d’application](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85)).
@@ -231,13 +231,13 @@ Lorsqu’un fichier binaire enregistré est rencontré, le gestionnaire de filtr
 
 [Développement de gestionnaires de filtres](-search-ifilter-conceptual.md)
 
-[À propos des gestionnaires de filtres dans Windows Search](-search-ifilter-about.md)
+[à propos des gestionnaires de filtres dans Windows Search](-search-ifilter-about.md)
 
-[Meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
+[meilleures pratiques pour la création de gestionnaires de filtres dans Windows Search](-search-3x-wds-extidx-filters.md)
 
 [Retour des propriétés d’un gestionnaire de filtres](-search-ifilter-property-filtering.md)
 
-[Implémentation de gestionnaires de filtres dans Windows Search](-search-ifilter-constructing-filters.md)
+[implémentation de gestionnaires de filtres dans Windows Search](-search-ifilter-constructing-filters.md)
 
 [Inscription des gestionnaires de filtres](-search-ifilter-registering-filters.md)
 

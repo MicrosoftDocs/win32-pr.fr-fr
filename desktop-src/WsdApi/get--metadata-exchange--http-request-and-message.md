@@ -1,17 +1,17 @@
 ---
 description: Message WS-Transfer utilisé pour demander des métadonnées.
 ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
-title: Obtenir (échange de métadonnées) une requête et un message HTTP
+title: obtenir (métadonnées Exchange) la requête et le Message HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ad240a51fdbabf4184b8769f4e3cca6daa4244
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 994e02b990dc87cf8551e215bc7eae94dbcf7852
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518412"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632067"
 ---
-# <a name="get-metadata-exchange-http-request-and-message"></a>Obtenir (échange de métadonnées) une requête et un message HTTP
+# <a name="get-metadata-exchange-http-request-and-message"></a>obtenir (métadonnées Exchange) la requête et le Message HTTP
 
 Un message d’extraction est un message WS-Transfer utilisé pour demander des métadonnées. Pour plus d’informations sur la récupération des messages, consultez la section 3,1 de la [spécification WS-Transfer](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf). Étant donné que l’échange de métadonnées s’effectue via HTTP, un message d’extraction est la charge utile d’une requête HTTP.
 
@@ -42,9 +42,9 @@ Une requête HTTP obtenir a les points de focus suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -109,9 +109,9 @@ Un message d’extraction a les points de focalisation suivants.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -153,7 +153,7 @@ Un message d’extraction a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Message GetResponse](getresponse--metadata-exchange--message.md)

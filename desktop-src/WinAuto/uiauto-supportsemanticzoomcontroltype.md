@@ -21,20 +21,20 @@ keywords:
 - types de contrôles, SemanticZoom
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b17d4712aa4f10489081b1b5d0f69fed849080bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9673c5e9beb0c78ecc7dfccc10b6716d6d3afa3f
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101681"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122467756"
 ---
 # <a name="semanticzoom-control-type"></a>Type de contrôle SemanticZoom
 
 Cette rubrique fournit des informations sur la prise en charge d’UI Automation pour le type de contrôle **SemanticZoom** .
 
-Le zoom sémantique est une technique introduite dans Windows 8 pour la présentation et la navigation dans de grands ensembles de données ou de contenu connexes dans une seule vue, par exemple un album photo, une liste d’applications ou un carnet d’adresses. Le zoom sémantique utilise deux modes distincts de classification, ou *niveaux de zoom*, pour l’organisation et la présentation du contenu. Le mode de bas niveau (ou *Zoom avant*) affiche les éléments dans une structure « tout-en-un » plat. et le mode de haut niveau (ou *Zoom arrière*) affiche des éléments dans des groupes, ce qui permet à l’utilisateur de parcourir rapidement le contenu. Par exemple, le zoom d’une liste de villes peut passer à une liste d’États contenant ces villes. Le zoom d’une liste de programmes peut être modifié en une liste de groupes de programmes logiques.
+le Zoom sémantique est une technique introduite dans Windows 8 pour la présentation et la navigation dans de grands ensembles de données ou de contenu connexes dans une seule vue, par exemple un album photo, une liste d’applications ou un carnet d’adresses. Le zoom sémantique utilise deux modes distincts de classification, ou *niveaux de zoom*, pour l’organisation et la présentation du contenu. Le mode de bas niveau (ou *Zoom avant*) affiche les éléments dans une structure « tout-en-un » plat. et le mode de haut niveau (ou *Zoom arrière*) affiche des éléments dans des groupes, ce qui permet à l’utilisateur de parcourir rapidement le contenu. Par exemple, le zoom d’une liste de villes peut passer à une liste d’États contenant ces villes. Le zoom d’une liste de programmes peut être modifié en une liste de groupes de programmes logiques.
 
-Pour plus d’informations sur le zoom sémantique spécifiquement utilisé pour les applications du Windows Store, consultez [instructions pour le zoom sémantique](/windows/uwp/controls-and-patterns/semantic-zoom).
+pour plus d’informations sur le zoom sémantique spécifiquement utilisé pour les applications Windows store, consultez [instructions pour le zoom sémantique](/windows/uwp/controls-and-patterns/semantic-zoom).
 
 Le modèle d’utilisation pour le type de contrôle **SemanticZoom** est inhabituel, car il existe principalement pour l’accès par programme. Les clients UI Automation de Microsoft peuvent surveiller et manipuler le contrôle de zoom sémantique pour contrôler l’état de zoom de la liste. Les utilisateurs qui n’utilisent pas la technologie d’assistance manipulent généralement le contrôle de zoom sémantique directement par le biais de gestes tactiles ou de raccourcis clavier.
 
@@ -55,37 +55,11 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>List
-<ul>
-<li>SemanticZoom
-<ul>
-<li>ListItem (0 ou plus)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>ListItem (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>List<ul><li>SemanticZoom<ul><li>ListItem (0 ou plus)</li></ul></li></ul></li></ul> | <ul><li>List<ul><li>ListItem (0 ou plus)</li></ul></li></ul> | 
+
 
 
 
@@ -95,37 +69,11 @@ Ou :
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Affichage de contrôle</th>
-<th>Affichage de contenu</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ul>
-<li>SemanticZoom
-<ul>
-<li>List
-<ul>
-<li>ListItem (0 ou plus)</li>
-</ul></li>
-</ul></li>
-</ul></td>
-<td><ul>
-<li>List
-<ul>
-<li>ListItem (0 ou plus)</li>
-</ul></li>
-</ul></td>
-</tr>
-</tbody>
-</table>
+
+| Affichage de contrôle | Affichage de contenu | 
+|--------------|--------------|
+| <ul><li>SemanticZoom<ul><li>List<ul><li>ListItem (0 ou plus)</li></ul></li></ul></li></ul> | <ul><li>List<ul><li>ListItem (0 ou plus)</li></ul></li></ul> | 
+
 
 
 
@@ -137,77 +85,20 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Propriété UI Automation</th>
-<th>Valeur</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>Rectangle externe qui contient l’ensemble du contrôle.</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>Si le contrôle de liste a un point interactif (point sur lequel vous pouvez cliquer pour que la liste prenne le focus), ce point doit être exposé via cette propriété. Si la valeur de la propriété <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> a la valeur <strong>true</strong>, la tentative d’extraction de cette propriété entraîne l’erreur <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> .</td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a></td>
-<td><strong>SemanticZoom</strong></td>
 
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a></td>
-<td>TRUE</td>
+| Propriété UI Automation | Valeur | Notes | 
+|------------------------|-------|-------|
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_AutomationIdPropertyId</strong></a> | Consultez les remarques. | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_BoundingRectanglePropertyId</strong></a> | Consultez les remarques. | Rectangle externe qui contient l’ensemble du contrôle. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ClickablePointPropertyId</strong></a> | Consultez les remarques. | Si le contrôle de liste a un point interactif (point sur lequel vous pouvez cliquer pour que la liste prenne le focus), ce point doit être exposé via cette propriété. Si la valeur de la propriété <a href="uiauto-automation-element-propids.md"><strong>UIA_IsOffscreenPropertyId</strong></a> a la valeur <strong>true</strong>, la tentative d’extraction de cette propriété entraîne l’erreur <a href="uiauto-error-codes.md"><strong>UIA_E_NOCLICKABLEPOINT</strong></a> . | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_ControlTypePropertyId</strong></a> | <strong>SemanticZoom</strong> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsContentElementPropertyId</strong></a> | TRUE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a> | TRUE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a> | FALSE | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a> | Consultez les remarques. | S’il existe une étiquette de texte statique, cette propriété doit exposer une référence à ce contrôle. | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a> | Consultez les remarques. | Chaîne localisée correspondant au type de contrôle <strong>SemanticZoom</strong> . La valeur par défaut est « zoom sémantique » pour « fr-fr » ou « anglais » (États-Unis).<blockquote>[!Note]<br />Certaines infrastructures ont concaténées comme « semanticzoom ».</blockquote><br /> | 
+| <a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a> | Consultez les remarques. | Une chaîne vide est acceptable, ou un nom plus utile peut être fourni, à condition qu’elle ne contienne pas le terme zoom sémantique, ce qui rendrait la combinaison du type de contrôle et du nom déroutante. | 
 
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsControlElementPropertyId</strong></a></td>
-<td>TRUE</td>
-
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_IsKeyboardFocusablePropertyId</strong></a></td>
-<td>FALSE</td>
-
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LabeledByPropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>S’il existe une étiquette de texte statique, cette propriété doit exposer une référence à ce contrôle.</td>
-</tr>
-<tr class="odd">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_LocalizedControlTypePropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>Chaîne localisée correspondant au type de contrôle <strong>SemanticZoom</strong> . La valeur par défaut est &quot; Zoom sémantique &quot; pour en-US ou anglais (États-Unis).
-<blockquote>
-[!Note]<br />
-Certaines infrastructures ont été concaténées comme &quot; semanticzoom &quot; .
-</blockquote>
-<br/></td>
-</tr>
-<tr class="even">
-<td><a href="uiauto-automation-element-propids.md"><strong>UIA_NamePropertyId</strong></a></td>
-<td>Consultez les remarques.</td>
-<td>Une chaîne vide est acceptable, ou un nom plus utile peut être fourni, à condition qu’elle ne contienne pas le terme zoom sémantique, ce qui rendrait la combinaison du type de contrôle et du nom déroutante.</td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -244,7 +135,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si une interface utilisateur a un bouton visible pour activer/désactiver le comportement du contrôle de zoom sémantique, ce bouton ne doit pas avoir de type de contrôle **SemanticZoom** . Il s’agit d’un compteur intuitif, mais le type de contrôle **SemanticZoom** caractérise le conteneur du contenu de zoom, pas un bouton qui contrôle le zoom. (Un bouton peut être représenté simplement sous la forme d’un type de contrôle [Button](uiauto-supportbuttoncontroltype.md) avec le modèle de contrôle [Toggle](uiauto-implementingtoggle.md) .)
 

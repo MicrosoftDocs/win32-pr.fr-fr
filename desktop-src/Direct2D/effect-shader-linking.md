@@ -4,12 +4,12 @@ description: Direct2D utilise une optimisation appelée liaison de nuanceur d’
 ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 608ae0b751840fc32b31e10012eb343c73ec3e0d941a26477a192b576204c247
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: e22d9ae245b5bbaa0c13dd7d5296dc419f740404
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119431459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122881827"
 ---
 # <a name="effect-shader-linking"></a>Liaison de nuanceurs d’effet
 
@@ -189,11 +189,11 @@ Pour compiler la version de la fonction d’exportation de votre nuanceur, vous 
 
 |    Indicateur                            |    Description                       |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commutateur <ShaderModel>         | Définissez <ShaderModel> sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir de l’un des profils listés sous « liaison de nuanceur HLSL ». |
-| <MyShaderFile>.hlsl      | Définissez <MyShaderFile> sur le nom du fichier HLSL.                                                                                                                                                                                                    |
+| /T &lt; ShaderModel&gt;         | Définissez &lt; ShaderModel &gt; sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir de l’un des profils listés sous « liaison de nuanceur HLSL ». |
+| &lt;MyShaderFile &gt; . HLSL      | Définissez &lt; MyShaderFile &gt; sur le nom du fichier HLSL.                                                                                                                                                                                                    |
 | /D, \_ fonction D2D               | Cette définition indique à FXC de compiler la version de la fonction d’exportation du nuanceur.                                                                                                                                                                       |
-| /D ( \_ entrée D2D) =<entry>    | Définissez <entry> sur le nom du point d’entrée HLSL que vous avez défini dans la macro d' [ \_ \_ entrée](d2d-ps-entry.md) de l’extension de bloc D2D.                                                                                                                                    |
-| /FL <MyShaderFile> . fxlib | Affectez <MyShaderfile> la valeur à l’emplacement où vous souhaitez stocker la version de la fonction d’exportation du nuanceur. Notez que l’extension. fxlib est uniquement destinée à faciliter l’identification.                                                                                              |
+| /D \_ entrée D2D = &lt; entrée&gt;    | Définissez &lt; entrée &gt; sur le nom du point d’entrée HLSL que vous avez défini à l’intérieur de la macro d' [ \_ \_ entrée D2D D2D](d2d-ps-entry.md) .                                                                                                                                    |
+| /FL &lt; MyShaderFile &gt; . fxlib | Définissez &lt; MyShaderfile &gt; à l’emplacement où vous souhaitez stocker la version de la fonction d’exportation du nuanceur. Notez que l’extension. fxlib est uniquement destinée à faciliter l’identification.                                                                                              |
 
 ### <a name="step-2-compile-the-full-shader-and-embed-the-export-function"></a>Étape 2 : compiler le nuanceur complet et incorporer la fonction d’exportation
 
@@ -207,14 +207,14 @@ Pour compiler la version complète de votre nuanceur avec une version d’export
 
 |    Indicateur                                    |    Description                     |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Commutateur <ShaderModel>                 | Définissez <ShaderModel> sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir du profil de nuanceur de pixels correspondant au profil de liaison spécifié à l’étape 1. |
-| <MyShaderFile>.hlsl              | Définissez <MyShaderFile> sur le nom du fichier HLSL.                                                                                                                                                                                                                               |
+| /T &lt; ShaderModel&gt;                 | Définissez &lt; ShaderModel &gt; sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir du profil de nuanceur de pixels correspondant au profil de liaison spécifié à l’étape 1. |
+| &lt;MyShaderFile &gt; . HLSL              | Définissez &lt; MyShaderFile &gt; sur le nom du fichier HLSL.                                                                                                                                                                                                                               |
 | /D D2D \_ - \_ nuanceur complet                   | Cette définition indique à FXC de compiler la version complète du nuanceur.                                                                                                                                                                                                             |
-| /D ( \_ entrée D2D) =<entry>            | Définissez <entry> sur le nom du point d’entrée HLSL que vous avez défini à l’intérieur de la \_ \_ macro entrée () D2D.                                                                                                                                                                                 |
-| /E <entry>                       | Définissez <entry> sur le nom du point d’entrée HLSL que vous avez défini à l’intérieur de la \_ \_ macro entrée () D2D.                                                                                                                                                                                 |
-| /SetPrivate <MyShaderFile> . fxlib | Cet argument indique à FXC d’incorporer le nuanceur de fonction d’exportation généré à l’étape 1 dans la \_ zone de données privées de l’objet BLOB D3D \_ \_ .                                                                                                                                                          |
-| /FO <MyShader> . CSO               | Affectez <MyShader> la valeur à l’emplacement où vous souhaitez stocker le nuanceur compilé final et combiné.                                                                                                                                                                                                 |
-| /FH <MyShader> . h                 | Définissez <MyShader> sur l’emplacement où vous souhaitez stocker l’en-tête combiné final.                                                                                                                                                                                                          |
+| /D \_ entrée D2D = &lt; entrée&gt;            | Définissez &lt; entrée &gt; sur le nom du point d’entrée HLSL que vous avez défini à l’intérieur de la \_ \_ macro entrée () D2D.                                                                                                                                                                                 |
+| &lt;Entrée/e&gt;                       | Définissez &lt; entrée &gt; sur le nom du point d’entrée HLSL que vous avez défini à l’intérieur de la \_ \_ macro entrée () D2D.                                                                                                                                                                                 |
+| /SetPrivate &lt; MyShaderFile &gt; . fxlib | Cet argument indique à FXC d’incorporer le nuanceur de fonction d’exportation généré à l’étape 1 dans la \_ zone de données privées de l’objet BLOB D3D \_ \_ .                                                                                                                                                          |
+| /FO &lt; MyShader &gt; . CSO               | Définissez &lt; MyShader &gt; à l’emplacement où vous souhaitez stocker le nuanceur compilé final et combiné.                                                                                                                                                                                                 |
+| /FH &lt; MyShader &gt; . h                 | Définissez &lt; MyShader &gt; à l’emplacement où vous souhaitez stocker l’en-tête combiné final.                                                                                                                                                                                                          |
 
 ## <a name="export-function-specifications"></a>Exporter les spécifications de fonction
 

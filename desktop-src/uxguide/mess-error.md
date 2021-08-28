@@ -4,17 +4,17 @@ description: Un message d’erreur avertit les utilisateurs d’un problème qui
 ms.assetid: b02110e9-985d-4448-9c95-eb958b0059b1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 0a8ee17093618dc8a192cfad8ce962f7ed04fc76
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 0ceffd3d1fecccd8342cb1e634735653bdba9722
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104556688"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122469016"
 ---
 # <a name="error-messages-design-basics"></a>Messages d’erreur (concepts de base de la conception)
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Un message d’erreur avertit les utilisateurs d’un problème qui s’est déjà produit. En revanche, un message d’avertissement avertit les utilisateurs d’une condition susceptible de provoquer un problème à l’avenir. Des messages d’erreur peuvent être présentés à l’aide de boîtes de dialogue modales, de messages sur place, de notifications ou de bulles.
 
@@ -55,7 +55,7 @@ Une partie du problème est qu’il existe de nombreuses façons de le faire. Pr
 
 ![capture d’écran du message d’erreur : échec de l’application ](images/mess-error-image2.png)
 
-Cet exemple de Windows XP peut être le pire message d’erreur. Elle indique qu’un programme n’a pas pu démarrer car Windows lui-même est en cours d’arrêt. Il n’y a rien à faire que l’utilisateur peut faire à ce sujet (l’utilisateur a choisi d’arrêter Windows, après tout). En affichant ce message d’erreur, Windows empêche son arrêt !
+cet exemple de Windows XP peut être le pire message d’erreur. elle indique qu’un programme n’a pas pu être lancé, car Windows lui-même est en cours d’arrêt. il n’y a rien à faire que l’utilisateur peut faire à ce sujet (l’utilisateur a choisi d’arrêter Windows, après tout). en affichant ce message d’erreur, Windows empêche son arrêt !
 
 **Le problème :** Le message d’erreur lui-même est le problème. Hormis le fait de rejeter le message d’erreur, il n’y a rien à faire pour les utilisateurs.
 
@@ -69,7 +69,7 @@ Cet exemple de Windows XP peut être le pire message d’erreur. Elle indique qu
 
 ![capture d’écran du message d’erreur : échec de la suppression ](images/mess-error-image3.png)
 
-Ce message d’erreur est dû au fait que l’utilisateur choisit de ne pas redémarrer Windows immédiatement après la suppression du programme. La suppression du programme a été effectuée à partir du point de vue de l’utilisateur.
+ce message d’erreur est dû au fait que l’utilisateur a choisi de ne pas redémarrer Windows immédiatement après la suppression du programme. La suppression du programme a été effectuée à partir du point de vue de l’utilisateur.
 
 **Le problème :** Il n’y a aucune erreur du point de vue de l’utilisateur. Hormis le fait de rejeter le message d’erreur, il n’y a rien à faire pour les utilisateurs.
 
@@ -332,23 +332,23 @@ Si vous ne pouvez pas supprimer une erreur inconnue, il est préférable d’êt
 
 En revanche, vous pouvez fournir des informations spécifiques et exploitables si elles sont susceptibles d’être utiles la plupart du temps.
 
-![Capture d’écran montrant un message « serveur non disponible » d’Office Communicator. ](images/mess-error-image21.png)
+![capture d’écran montrant un message Office Communicator’serveur non disponible'. ](images/mess-error-image21.png)
 
 Ce message d’erreur est approprié pour une erreur inconnue si la connectivité réseau est généralement le problème.
 
 **Déterminer le type de message approprié**
 
-Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. Par exemple, supposons qu’une page Web ne peut pas charger un contrôle ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
+Certains problèmes peuvent être présentés sous la forme d’une erreur, d’un avertissement ou d’informations, en fonction de l’importance et de la formulation. par exemple, supposons qu’une page Web ne peut pas charger un contrôle de ActiveX non signé basé sur la configuration actuelle de Windows Internet Explorer :
 
-- **Erreurs.** « Cette page ne peut pas charger un contrôle ActiveX non signé ». (Formulées en tant que problème existant.)
-- **Tres.** « Cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger des contrôles ActiveX non signés ». ou «autoriser cette page à installer un contrôle ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
-- **Informations.** « Vous avez configuré Windows Internet Explorer pour bloquer les contrôles ActiveX non signés ». (Formulées en tant que déclaration de faits.)
+- **Erreurs.** « cette page ne peut pas charger un contrôle de ActiveX non signé ». (Formulées en tant que problème existant.)
+- **Tres.** « cette page peut ne pas se comporter comme prévu, car Windows Internet Explorer n’est pas configuré pour charger les contrôles de ActiveX non signés ». ou «autoriser cette page à installer un contrôle de ActiveX non signé ? Cette opération à partir de sources non approuvées peut endommager votre ordinateur.» (Les deux formulées comme des conditions qui peuvent entraîner des problèmes futurs.)
+- **Informations.** « vous avez configuré Windows Internet Explorer pour bloquer les contrôles de ActiveX non signés ». (Formulées en tant que déclaration de faits.)
 
 **Pour déterminer le type de message approprié, concentrez-vous sur l’aspect le plus important du problème que les utilisateurs doivent connaître ou agir.** En règle générale, si un problème empêche l’utilisateur de continuer, vous devez le présenter comme une erreur. Si l’utilisateur peut continuer, présentez-le en tant qu’avertissement. Élaborez l' [instruction principale](text-ui.md) ou un autre texte correspondant en fonction de ce Focus, puis choisissez une icône ([standard](vis-std-icons.md) ou autre) qui correspond au texte. Le texte d’instruction principal et les icônes doivent toujours correspondre.
 
 **Présentation des messages d’erreur**
 
-La plupart des messages d’erreur dans les programmes Windows sont présentés à l’aide de boîtes de dialogue modales (comme dans la plupart des exemples de cet article), mais il existe d’autres options :
+la plupart des messages d’erreur dans Windows programmes sont présentés à l’aide de boîtes de dialogue modales (comme dans la plupart des exemples de cet article), mais il existe d’autres options :
 
 - Sur place
 - Bulles
@@ -404,46 +404,15 @@ Pour obtenir plus d’instructions et des exemples sur la surcommunication, cons
 
 Les messages d’erreur ont plusieurs modèles d’utilisation :
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><strong>Problèmes système</strong><br/> Le système d’exploitation, le périphérique matériel, le réseau ou le programme a échoué ou n’est pas dans l’État requis pour effectuer une tâche. <br/></td>
-<td>De nombreux problèmes système peuvent être résolus par l’utilisateur : <br/>
-<ul>
-<li>Les problèmes de périphérique peuvent être résolus en mettant l’appareil sous tension, en reconnectant l’appareil et en insérant des médias.</li>
-<li>Les problèmes réseau peuvent être résolus en vérifiant la connexion au réseau physique et en exécutant le <strong>diagnostic et la réparation du réseau</strong>.</li>
-<li>Vous pouvez résoudre les problèmes liés aux programmes en modifiant les options du programme ou en redémarrant le programme.</li>
-</ul>
-<img src="images/mess-error-image25.png" alt="Screen shot of message: Can&#39;t find a camera " /><br/> Dans cet exemple, le programme ne peut pas trouver d’appareil photo pour effectuer une tâche utilisateur.<br/> <img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br/> Dans cet exemple, une fonctionnalité requise pour effectuer une tâche doit être activée.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Problèmes liés aux fichiers</strong><br/> Un fichier ou un dossier requis pour une tâche initiée par l’utilisateur est introuvable, est déjà utilisé ou n’a pas le format attendu. <br/></td>
-<td><img src="images/mess-error-image27.png" alt="Screen shot of message: Can&#39;t delete file " /><br/> Dans cet exemple, le fichier ou le dossier ne peut pas être supprimé car il n’a pas été trouvé.<br/> <img src="images/mess-error-image28.png" alt="Screen shot of message: Can&#39;t play this file " /><br/> Dans cet exemple, le programme ne prend pas en charge le format de fichier donné.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Problèmes de sécurité</strong><br/> L’utilisateur n’a pas l’autorisation d’accéder à une ressource, ou un privilège suffisant pour effectuer une tâche initiée par l’utilisateur. <br/></td>
-<td><img src="images/mess-error-image29.png" alt="Screen shot of message: You don&#39;t have permission " /><br/> Dans cet exemple, l’utilisateur n’a pas l’autorisation d’accéder à une ressource.<br/> <img src="images/mess-error-image30.png" alt="Screen shot of message: You don&#39;t have privilege " /><br/> Dans cet exemple, l’utilisateur n’a pas le privilège d’effectuer une tâche.<br/></td>
-</tr>
-<tr class="even">
-<td><strong>Problèmes de tâche</strong><br/> Un problème spécifique est survenu lors de l’exécution d’une tâche initiée par l’utilisateur (autre qu’un système, fichier introuvable, format de fichier ou problème de sécurité). <br/></td>
-<td><img src="images/mess-error-image31.png" alt="Screen shot of message: Data can&#39;t be pasted " /><br/> Dans cet exemple, les données du presse-papiers ne peuvent pas être collées dans Paint.<br/> <img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can&#39;t be installed " /><br/> Dans cet exemple, l’utilisateur ne peut pas installer une mise à niveau logicielle.<br/></td>
-</tr>
-<tr class="odd">
-<td><strong>Problèmes d’entrée d’utilisateur</strong><br/> L’utilisateur a entré une valeur incorrecte ou incohérente avec d’autres entrées utilisateur. <br/></td>
-<td><img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br/> Dans cet exemple, l’utilisateur a entré une valeur d’heure incorrecte.<br/> <img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br/> Dans cet exemple, l’entrée utilisateur n’est pas au bon format.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| | | <strong>Problèmes système</strong><br /> Le système d’exploitation, le périphérique matériel, le réseau ou le programme a échoué ou n’est pas dans l’État requis pour effectuer une tâche. <br /> | De nombreux problèmes système peuvent être résolus par l’utilisateur : <br /><ul><li>Les problèmes de périphérique peuvent être résolus en mettant l’appareil sous tension, en reconnectant l’appareil et en insérant des médias.</li><li>Les problèmes réseau peuvent être résolus en vérifiant la connexion au réseau physique et en exécutant le <strong>diagnostic et la réparation du réseau</strong>.</li><li>Vous pouvez résoudre les problèmes liés aux programmes en modifiant les options du programme ou en redémarrant le programme.</li></ul><img src="images/mess-error-image25.png" alt="Screen shot of message: Can't find a camera " /><br /> Dans cet exemple, le programme ne peut pas trouver d’appareil photo pour effectuer une tâche utilisateur.<br /><img src="images/mess-error-image26.png" alt="Screen shot of message Network discovery off " /><br /> Dans cet exemple, une fonctionnalité requise pour effectuer une tâche doit être activée.<br /> | | <strong>Problèmes liés aux fichiers</strong><br /> Un fichier ou un dossier requis pour une tâche initiée par l’utilisateur est introuvable, est déjà utilisé ou n’a pas le format attendu. <br /> | <img src="images/mess-error-image27.png" alt="Screen shot of message: Can't delete file " /><br /> Dans cet exemple, le fichier ou le dossier ne peut pas être supprimé car il n’a pas été trouvé.<br /><img src="images/mess-error-image28.png" alt="Screen shot of message: Can't play this file " /><br /> Dans cet exemple, le programme ne prend pas en charge le format de fichier donné.<br /> | | <strong>Problèmes de sécurité</strong><br /> L’utilisateur n’a pas l’autorisation d’accéder à une ressource, ou un privilège suffisant pour effectuer une tâche initiée par l’utilisateur. <br /> | <img src="images/mess-error-image29.png" alt="Screen shot of message: You don't have permission " /><br /> Dans cet exemple, l’utilisateur n’a pas l’autorisation d’accéder à une ressource.<br /><img src="images/mess-error-image30.png" alt="Screen shot of message: You don't have privilege " /><br /> Dans cet exemple, l’utilisateur n’a pas le privilège d’effectuer une tâche.<br /> | | <strong>Problèmes de tâche</strong><br /> Un problème spécifique est survenu lors de l’exécution d’une tâche initiée par l’utilisateur (autre qu’un système, fichier introuvable, format de fichier ou problème de sécurité). <br /> | <img src="images/mess-error-image31.png" alt="Screen shot of message: Data can't be pasted " /><br /> Dans cet exemple, les données du presse-papiers ne peuvent pas être collées dans Paint.<br /><img src="images/mess-error-image32.png" alt="Screen shot of message: Upgrade can't be installed " /><br /> Dans cet exemple, l’utilisateur ne peut pas installer une mise à niveau logicielle.<br /> | | <strong>Problèmes d’entrée d’utilisateur</strong><br /> L’utilisateur a entré une valeur incorrecte ou incohérente avec d’autres entrées utilisateur. <br /> | <img src="images/mess-error-image33.png" alt="Screen shot of message: Incorrect time value " /><br /> Dans cet exemple, l’utilisateur a entré une valeur d’heure incorrecte.<br /><img src="images/mess-error-image34.png" alt="Screen shot of message: Incorrect input format " /><br /> Dans cet exemple, l’entrée utilisateur n’est pas au bon format.<br /> | 
+
 
 ## <a name="guidelines"></a>Consignes
 
 ### <a name="presentation"></a>Présentation
 
-- **Utilisez les boîtes de dialogue de tâches chaque fois que nécessaire** pour obtenir une apparence et une disposition cohérentes. Les boîtes de dialogue de tâches requièrent Windows Vista ou une version ultérieure, donc elles ne conviennent pas aux versions antérieures de Windows. Si vous devez utiliser une boîte de message, séparez l’instruction principale de l’instruction supplémentaire par deux sauts de ligne.
+- **Utilisez les boîtes de dialogue de tâches chaque fois que nécessaire** pour obtenir une apparence et une disposition cohérentes. les boîtes de dialogue de tâches requièrent Windows Vista ou version ultérieure. elles ne conviennent donc pas aux versions antérieures de Windows. Si vous devez utiliser une boîte de message, séparez l’instruction principale de l’instruction supplémentaire par deux sauts de ligne.
 
 ### <a name="user-input-errors"></a>Erreurs d’entrée utilisateur
 
@@ -476,7 +445,7 @@ Dans cet exemple, une erreur sur place est utilisée pour une erreur trouvée en
 - **Ne désactivez pas l’entrée incorrecte.** Au lieu de cela, laissez-le à l’utilisateur pour qu’il puisse voir et corriger le problème sans recommencer.
   - **Exception :** Effacez les zones de texte mot de passe et code confidentiel incorrectes, car les utilisateurs ne peuvent pas corriger efficacement l’entrée masquée.
 
-### <a name="troubleshooting"></a>Résolution des problèmes
+### <a name="troubleshooting"></a>Dépannage
 
 - **Évitez de créer des problèmes de dépannage.** Ne vous fiez pas à un seul message d’erreur pour signaler un problème avec plusieurs causes détectables différentes.
 - **Utilisez un autre message d’erreur (généralement une autre instruction supplémentaire) pour chaque cause détectable.** Par exemple, si un fichier ne peut pas être ouvert pour plusieurs raisons, fournissez une instruction supplémentaire distincte pour chaque raison.
@@ -585,7 +554,7 @@ Dans cet exemple, un code d’erreur est utilisé pour compléter un message d�
 
 ## <a name="text"></a>Texte
 
-**Généralités**
+**Général**
 
 - **Supprimez le texte redondant.** Recherchez-en les titres, les instructions principales, les instructions supplémentaires, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 - **Utilisez les explications centrées sur l’utilisateur.** Décrivez le problème en termes d’actions ou d’objectifs de l’utilisateur, et non en termes d’insatisfaction des logiciels. Utilisez la langue que les utilisateurs cibles comprennent et utilisent. Évitez le jargon technique.
@@ -652,7 +621,7 @@ Ces problèmes seraient beaucoup plus faciles à résoudre avec des noms, des em
 
 **Correct :**
 
-Veuillez patienter pendant que Windows copie les fichiers sur votre ordinateur.
+veuillez patienter pendant que Windows copie les fichiers sur votre ordinateur.
 
 - **Utilisez le mot « désolée » uniquement dans les messages d’erreur qui entraînent des problèmes graves pour l’utilisateur** (par exemple, une perte de données ou une incapacité à utiliser l’ordinateur). Ne vous inquiétez pas si le problème s’est produit au cours du fonctionnement normal du programme (par exemple, si l’utilisateur doit attendre la détection d’une connexion réseau).
 
@@ -664,7 +633,7 @@ Nous sommes désolés, mais Fabrikam Backup a détecté un problème irrécupér
 
 **Incorrect :**
 
-![Capture d’écran montrant une Microsoft Office Outlook « impossible d’ouvrir cet élément ». ](images/mess-error-image52.png)
+![capture d’écran montrant un message d’Microsoft Office Outlook « impossible d’ouvrir cet élément ». ](images/mess-error-image52.png)
 
 **Correct :**
 
@@ -723,7 +692,7 @@ Dans cet exemple, seul le nom de fichier se trouve dans l’instruction principa
 
 ![capture d’écran du message : impossible de renommer le nouveau dossier ](images/mess-error-image58.png)
 
-Dans cet exemple, l’utilisateur renomme un fichier à partir de l’Explorateur Windows. Dans ce cas, le chemin d’accès complet du fichier n’est pas nécessaire, car il est évident du contexte.
+dans cet exemple, l’utilisateur renomme un fichier à partir de Windows Explorer. Dans ce cas, le chemin d’accès complet du fichier n’est pas nécessaire, car il est évident du contexte.
 
 - Utilisez-les à chaque fois que cela est possible.
 - Utilisez les majuscules comme pour les phrases.
@@ -777,7 +746,7 @@ Dans cet exemple, aucune instruction supplémentaire n’est nécessaire ; la s
 
 **Correct :**
 
-Pour redémarrer Windows, cliquez sur OK.
+pour redémarrer Windows, cliquez sur OK.
 
 **Incorrect :**
 

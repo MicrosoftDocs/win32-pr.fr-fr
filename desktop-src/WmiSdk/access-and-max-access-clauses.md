@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Clauses Access et MAX-ACCESS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37084a25a48c874866774b990a70e1332e730103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 985b4bfe968841436cedd352a01a609aac6ba2d725887b6a638ffcd95656935d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120939"
 ---
 # <a name="access-and-max-access-clauses"></a>Clauses Access et MAX-ACCESS
 
@@ -27,9 +27,9 @@ Le tableau suivant répertorie le mappage de la clause d’accès SNMPv1.
 
 | Clause d’accès MIB | Qualificateur CIM       |
 |-------------------|---------------------|
-| en lecture seule         | **Lire**            |
+| en lecture seule         | **Lecture**            |
 | lecture-écriture        | **Lire**, **écrire** |
-| en écriture seule        | **Écrire**           |
+| en écriture seule        | **Écriture**           |
 | non accessible    | **Non \_ accessible** |
 
 
@@ -42,9 +42,9 @@ Le tableau suivant répertorie le mappage de la clause MAX-ACCESS SNMPv2C.
 
 | MIB-clause d’accès     | Qualificateur CIM       |
 |-----------------------|---------------------|
-| en lecture seule             | **Lire**            |
+| en lecture seule             | **Lecture**            |
 | lecture-écriture            | **Lire**, **écrire** |
-| lecture-créer           | **Lire**            |
+| lecture-créer           | **Lecture**            |
 | accessible-pour notification | **Non \_ accessible** |
 | non accessible        | **Non \_ accessible** |
 

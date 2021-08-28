@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d99b8dcef2ef21b4d75eb5262d2e3ecffa3804fa8e7a4889ae5dcbf8d68f018
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: ff6f4b88a355c25df40a847912d4e3352bd87962
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "120081679"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475395"
 ---
 # <a name="glcolorsubtableext-function"></a>glColorSubTableEXT fonction)
 
@@ -73,59 +73,18 @@ Format des données de pixels. Les constantes symboliques suivantes sont accept�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Valeur</th>
-<th>Signification</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span id="GL_RGBA"></span><span id="gl_rgba"></span><dl> <dt><strong>GL_RGBA</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : rouge, vert, bleu, alpha. Le format RVBA est déterminé de la façon suivante : <br/>
-<ol>
-<li>La fonction <strong>glColorSubTableEXT</strong> convertit les valeurs à virgule flottante directement en un format interne avec une précision non spécifiée. Les valeurs entières signées sont mappées de façon linéaire au format interne, de sorte que la valeur entière représentable la plus positive correspond à 1,0, et la valeur représentable la plus négative correspond à-1,0. Les données entières non signées sont mappées de la même façon : la plus grande valeur entière correspond à 1,0, et zéro est mappé à 0,0.</li>
-<li>La fonction <strong>glColorSubTableEXT</strong> multiplie les valeurs de couleur résultantes par GL_c_SCALE et les ajoute à GL_c_BIAS, où <em>c</em> est rouge, vert, bleu et alpha pour les composants de couleur respectifs. Les résultats sont ancrés à la plage [0, 1].</li>
-<li>Si GL_MAP_COLOR a la <strong>valeur true</strong>, <strong>glColorSubTableEXT</strong> met à l’échelle chaque composant de couleur en fonction de la taille de la table de recherche GL_PIXEL_MAP_c_TO_c, puis remplace le composant par la valeur qu’il référence dans cette table. <em>c</em> est R, G, B ou a, respectivement.</li>
-<li>La fonction <strong>glColorSubTableEXT</strong> convertit les couleurs RVBA obtenues en fragments en attachant la coordonnée <em>z</em>et la coordonnée de texture de la position raster actuelle à chaque pixel, puis en affectant les coordonnées de la fenêtre <em>x</em> et <em>y</em> au <em>n</em>ième fragment, de telle sorte que<em>x</em>? = <em>x</em><sub>r</sub> + <em>n</em> mod <em>largeur</em><br/> <em>y</em>? = <em></em><sub>r</sub> +<em>n/largeur</em> o<br/> où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position de la trame actuelle.<br/></li>
-<li>Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. La fonction <strong>glColorSubTableEXT</strong> applique le mappage de texture, le brouillard et toutes les opérations de fragment avant d’écrire les fragments dans le trame.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><span id="GL_RED"></span><span id="gl_red"></span><dl> <dt><strong>GL_RED</strong></dt> </dl></td>
-<td>Chaque pixel est un composant rouge unique.<br/> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant rouge d’un pixel RVBA est, puis le convertit en pixel RVBA avec le vert et le bleu réglés sur 0,0 et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="GL_GREEN"></span><span id="gl_green"></span><dl> <dt><strong>GL_GREEN</strong></dt> </dl></td>
-<td>Chaque pixel est un composant vert unique.<br/> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant vert d’un pixel RVBA est, puis le convertit en pixel RVBA avec rouge et bleu défini sur 0,0, et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="GL_BLUE"></span><span id="gl_blue"></span><dl> <dt><strong>GL_BLUE</strong></dt> </dl></td>
-<td>Chaque pixel est un composant bleu unique.<br/> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant bleu d’un pixel RVBA est, puis le convertit en pixel RVBA avec Red et Green défini sur 0,0, et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="GL_ALPHA"></span><span id="gl_alpha"></span><dl> <dt><strong>GL_ALPHA</strong></dt> </dl></td>
-<td>Chaque pixel est un composant alpha unique.<br/> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant alpha d’un pixel RVBA est, puis le convertit en un pixel RVBA avec rouge, vert et bleu défini sur 0,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="GL_RGB"></span><span id="gl_rgb"></span><dl> <dt><strong>GL_RGB</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de trois composants dans cet ordre : rouge, vert, bleu.<br/> La fonction <strong>glColorSubTableEXT</strong> convertit chaque composant au format interne de la même façon que les composants rouge, vert et bleu d’un pixel RVBA. La triple couleur est convertie en un pixel RVBA avec alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br/></td>
-</tr>
-<tr class="odd">
-<td><span id="GL_BGR_EXT"></span><span id="gl_bgr_ext"></span><dl> <dt><strong>GL_BGR_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br/> GL_BGR_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
-</tr>
-<tr class="even">
-<td><span id="GL_BGRA_EXT"></span><span id="gl_bgra_ext"></span><dl> <dt><strong>GL_BGRA_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br/> GL_BGRA_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="GL_RGBA"></span><span id="gl_rgba"></span><dl><dt><strong>GL_RGBA</strong></dt></dl> | Chaque pixel est un groupe de quatre composants dans l’ordre suivant : rouge, vert, bleu, alpha. Le format RVBA est déterminé de la façon suivante : <br /><ol><li>La fonction <strong>glColorSubTableEXT</strong> convertit les valeurs à virgule flottante directement en un format interne avec une précision non spécifiée. Les valeurs entières signées sont mappées de façon linéaire au format interne, de sorte que la valeur entière représentable la plus positive correspond à 1,0, et la valeur représentable la plus négative correspond à-1,0. Les données entières non signées sont mappées de la même façon : la plus grande valeur entière correspond à 1,0, et zéro est mappé à 0,0.</li><li>La fonction <strong>glColorSubTableEXT</strong> multiplie les valeurs de couleur résultantes par GL_c_SCALE et les ajoute à GL_c_BIAS, où <em>c</em> est rouge, vert, bleu et alpha pour les composants de couleur respectifs. Les résultats sont ancrés à la plage [0, 1].</li><li>Si GL_MAP_COLOR a la <strong>valeur true</strong>, <strong>glColorSubTableEXT</strong> met à l’échelle chaque composant de couleur en fonction de la taille de la table de recherche GL_PIXEL_MAP_c_TO_c, puis remplace le composant par la valeur qu’il référence dans cette table. <em>c</em> est R, G, B ou a, respectivement.</li><li>La fonction <strong>glColorSubTableEXT</strong> convertit les couleurs RVBA obtenues en fragments en attachant la coordonnée <em>z</em>et la coordonnée de texture de la position raster actuelle à chaque pixel, puis en affectant les coordonnées de la fenêtre <em>x</em> et <em>y</em> au <em>n</em>ième fragment, de telle sorte que<em>x</em>? = <em>x</em><sub>r</sub>  +  <em>n</em> mod <em>largeur</em><br /><em>y</em>? = <em></em><sub>r</sub>  + <em>n/largeur</em> o<br /> où (<em>x</em><sub>r</sub> , <em>y</em><sub>r</sub> ) est la position de la trame actuelle.<br /></li><li>Ces fragments de pixels sont ensuite traités comme les fragments générés par la pixellisation des points, des lignes ou des polygones. La fonction <strong>glColorSubTableEXT</strong> applique le mappage de texture, le brouillard et toutes les opérations de fragment avant d’écrire les fragments dans le trame.</li></ol> | 
+| <span id="GL_RED"></span><span id="gl_red"></span><dl><dt><strong>GL_RED</strong></dt></dl> | Chaque pixel est un composant rouge unique.<br /> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant rouge d’un pixel RVBA est, puis le convertit en pixel RVBA avec le vert et le bleu réglés sur 0,0 et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br /> | 
+| <span id="GL_GREEN"></span><span id="gl_green"></span><dl><dt><strong>GL_GREEN</strong></dt></dl> | Chaque pixel est un composant vert unique.<br /> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant vert d’un pixel RVBA est, puis le convertit en pixel RVBA avec rouge et bleu défini sur 0,0, et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br /> | 
+| <span id="GL_BLUE"></span><span id="gl_blue"></span><dl><dt><strong>GL_BLUE</strong></dt></dl> | Chaque pixel est un composant bleu unique.<br /> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant bleu d’un pixel RVBA est, puis le convertit en pixel RVBA avec Red et Green défini sur 0,0, et alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br /> | 
+| <span id="GL_ALPHA"></span><span id="gl_alpha"></span><dl><dt><strong>GL_ALPHA</strong></dt></dl> | Chaque pixel est un composant alpha unique.<br /> La fonction <strong>glColorSubTableEXT</strong> convertit ce composant au format interne de la même façon que le composant alpha d’un pixel RVBA est, puis le convertit en un pixel RVBA avec rouge, vert et bleu défini sur 0,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br /> | 
+| <span id="GL_RGB"></span><span id="gl_rgb"></span><dl><dt><strong>GL_RGB</strong></dt></dl> | Chaque pixel est un groupe de trois composants dans cet ordre : rouge, vert, bleu.<br /> La fonction <strong>glColorSubTableEXT</strong> convertit chaque composant au format interne de la même façon que les composants rouge, vert et bleu d’un pixel RVBA. La triple couleur est convertie en un pixel RVBA avec alpha défini sur 1,0. Après cette conversion, le pixel est traité comme s’il avait été lu en tant que pixel RVBA.<br /> | 
+| <span id="GL_BGR_EXT"></span><span id="gl_bgr_ext"></span><dl><dt><strong>GL_BGR_EXT</strong></dt></dl> | Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br /> GL_BGR_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br /> | 
+| <span id="GL_BGRA_EXT"></span><span id="gl_bgra_ext"></span><dl><dt><strong>GL_BGRA_EXT</strong></dt></dl> | Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br /> GL_BGRA_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). par conséquent, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br /> | 
+
 
 
 

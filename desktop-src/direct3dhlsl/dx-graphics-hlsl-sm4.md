@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d90444aff674ce876f19f02f21104dd7e42143de5926ba068bbe2c49f427fdde
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: c863d952990cd05394244fe662650df59568eeaf
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117725886"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122466966"
 ---
 # <a name="shader-model-4"></a>Nuanceur modèle 4
 
@@ -22,49 +22,16 @@ Le nuancier modèle 4 est un sur-ensemble des fonctionnalités du [nuanceur mod�
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Fonctionnalité</th>
-<th>Utilité</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Jeu d'instructions</td>
-<td><a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>Fonctions HLSL</strong></a></td>
-</tr>
-<tr class="even">
-<td>Ensemble de registres</td>
-<td>Le jeu de registres est accessible via des membres dans des mémoires tampons de constante et de texture à l’aide de la sémantique HLSL pour des éléments tels que la compression de composants.
-<ul>
-<li>Registres de nuanceur de pixels (voir <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">Registers-ps_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">registers-ps_4_1</a>)</li>
-<li>Registres de nuanceur vertex (voir <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">Registers-vs_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">registers-vs_4_1</a>)</li>
-<li>Registres de nuanceur Geometry (voir <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">registres-gs_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">registres-gs_4_1</a>)</li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td>Vertex shader Max</td>
-<td>Pas de restriction</td>
-</tr>
-<tr class="even">
-<td>Nuanceur de pixels max.</td>
-<td>Pas de restriction</td>
-</tr>
-<tr class="odd">
-<td>Nouveaux profils de nuanceur ajoutés</td>
-<td>gs_4_0, ps_4_0, vs_4_0, gs_4_1 *, ps_4_1*, gs_4_1 *</td>
-</tr>
-<tr class="even">
-<td>Nouveau profil de Effect-Framework ajouté</td>
-<td>fx_4_0, fx_4_1 *</td>
-</tr>
-</tbody>
-</table>
+
+| Fonctionnalité | Utilité | 
+|---------|------------|
+| Jeu d'instructions | <a href="dx-graphics-hlsl-intrinsic-functions.md"><strong>Fonctions HLSL</strong></a> | 
+| Ensemble de registres | Le jeu de registres est accessible via des membres dans des mémoires tampons de constante et de texture à l’aide de la sémantique HLSL pour des éléments tels que la compression de composants.<ul><li>Registres de nuanceur de pixels (voir <a href="dx-graphics-hlsl-sm4-registers-ps-4-0.md">Registers-ps_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-ps-4-1.md">registers-ps_4_1</a>)</li><li>Registres de nuanceur vertex (voir <a href="dx-graphics-hlsl-sm4-registers-vs-4-0.md">Registers-vs_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-vs-4-1.md">registers-vs_4_1</a>)</li><li>Registres de nuanceur Geometry (voir <a href="dx-graphics-hlsl-sm4-registers-gs-4-0.md">registres-gs_4_0</a> et <a href="dx-graphics-hlsl-sm4-registers-gs-4-1.md">registres-gs_4_1</a>)</li></ul> | 
+| Vertex shader Max | Pas de restriction | 
+| Nuanceur de pixels max. | Pas de restriction | 
+| Nouveaux profils de nuanceur ajoutés | gs_4_0, ps_4_0, vs_4_0, gs_4_1 *, ps_4_1*, gs_4_1 * | 
+| Nouveau profil de Effect-Framework ajouté | fx_4_0, fx_4_1 * | 
+
 
 
 

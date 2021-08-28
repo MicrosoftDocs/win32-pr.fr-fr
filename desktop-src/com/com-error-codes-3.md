@@ -148,12 +148,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1641c652ed37c021e790fe44969f347c733dbfb265606982857f7c895364814a
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3cdfb542aaf0312d506dbdb7710819d82c2ebdc9
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119501609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886217"
 ---
 # <a name="com-error-codes-stg-rpc"></a>Codes d’erreur COM (STG, RPC)
 
@@ -281,7 +281,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 | <span id="CO_E_FAILEDTOSETDACL"></span><span id="co_e_failedtosetdacl"></span><dl> <dt>**Co \_ \_FAILEDTOSETDACL**</dt> <dt>0x80010129</dt> </dl>                                                    | Impossible de définir une liste de contrôle d’accès discrétionnaire dans un descripteur de sécurité<br/>                                                                                                |
 | <span id="CO_E_ACCESSCHECKFAILED"></span><span id="co_e_accesscheckfailed"></span><dl> <dt>**Co \_ \_ACCESSCHECKFAILED**</dt> <dt>0x8001012A</dt> </dl>                                              | La fonction système, AccessCheck, a retourné la valeur false<br/>                                                                                                            |
 | <span id="CO_E_NETACCESSAPIFAILED"></span><span id="co_e_netaccessapifailed"></span><dl> <dt>**Co \_ \_NETACCESSAPIFAILED**</dt> <dt>0x8001012B</dt> </dl>                                           | NetAccessDel ou NetAccessAdd a retourné un code d’erreur.<br/>                                                                                                 |
-| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**Co \_ \_WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | L’une des chaînes de l’approbation fournie par l’utilisateur n’est pas conforme à la <Domain> \\ <Name> syntaxe et n’est pas la \* chaîne «»<br/>                   |
+| <span id="CO_E_WRONGTRUSTEENAMESYNTAX"></span><span id="co_e_wrongtrusteenamesyntax"></span><dl> <dt>**Co \_ \_WRONGTRUSTEENAMESYNTAX**</dt> <dt>0x8001012C</dt> </dl>                               | L’une des chaînes de l’approbation fournie par l’utilisateur n’est pas conforme à la &lt; syntaxe du nom de domaine &gt; \\ &lt; &gt; et il ne s’agissait pas de la \* chaîne «»<br/>                   |
 | <span id="CO_E_INVALIDSID"></span><span id="co_e_invalidsid"></span><dl> <dt>**Co \_ \_INVALIDSID**</dt> <dt>0x8001012D</dt> </dl>                                                                   | L’un des identificateurs de sécurité fourni par l’utilisateur n’est pas valide<br/>                                                                                            |
 | <span id="CO_E_CONVERSIONFAILED"></span><span id="co_e_conversionfailed"></span><dl> <dt>**Co \_ \_CONVERSIONFAILED**</dt> <dt>0x8001012E</dt> </dl>                                                 | Impossible de convertir une chaîne d’approbation de caractères larges en une chaîne d’approbation multioctet<br/>                                                                             |
 | <span id="CO_E_NOMATCHINGSIDFOUND"></span><span id="co_e_nomatchingsidfound"></span><dl> <dt>**Co \_ \_NOMATCHINGSIDFOUND**</dt> <dt>0x8001012F</dt> </dl>                                           | Impossible de trouver un identificateur de sécurité qui correspond à une chaîne d’approbation fournie par l’utilisateur<br/>                                                              |
@@ -305,7 +305,7 @@ Si vous rencontrez des difficultés avec une application que vous installez ou e
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

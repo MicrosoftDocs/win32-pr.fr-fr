@@ -4,12 +4,12 @@ ms.assetid: 0fb8afc4-d16b-4c2e-80b3-da9935b11bb5
 title: drawControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5318fdebc995ff45932f75b4000ceda6e74068e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58a330854f19005f7f2863c337451b1dcc56cea3
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034284"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632047"
 ---
 # <a name="drawcontrol"></a>drawControl
 
@@ -19,7 +19,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [dr
 
 Cette forme du contrôle n’autorise pas la modification de propriété.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -53,7 +53,7 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 
 | Élément parent                                   | Éléments enfants |
 |--------------------------------------------------|----------------|
-| [displayInfo](./propdesc-schema-displayinfo.md) | Aucun           |
+| [displayInfo](./propdesc-schema-displayinfo.md) | Aucune           |
 
 
 
@@ -65,8 +65,8 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -87,7 +87,7 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Valeur par défaut</td>
 <td>Par défaut. Utilise le contrôle par défaut basé sur l' <typeInfo type=&quot;&quot;> attribut. Le type par défaut est &quot; String &quot; (valeur multiple) et le contrôle par défaut est &quot; MultiValueText &quot; . Tout autre type entraîne l’utilisation du &quot; &quot; contrôle StaticText.</td>
 </tr>
 <tr class="even">
@@ -103,7 +103,7 @@ Cette forme du contrôle n’autorise pas la modification de propriété.
 <td>Utilise le contrôle de barre de pourcentage.</td>
 </tr>
 <tr class="odd">
-<td>Barre de progression</td>
+<td>ProgressBar</td>
 <td>Utilise le contrôle de barre de progression.</td>
 </tr>
 <tr class="even">

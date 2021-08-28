@@ -4,12 +4,12 @@ description: Licences et IClassFactory2
 ms.assetid: 2bead555-8c62-4f48-a4c6-6f0942ec75f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9376d5187588ba14da434161309409bf1d189a8f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b8248b24d6b629d42e9ca631b1574c5a6719f0f4f626b2ea22792c3196c591e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096929"
 ---
 # <a name="licensing-and-iclassfactory2"></a>Licences et IClassFactory2
 
@@ -30,7 +30,7 @@ Pour incorporer un composant sous licence dans votre application cliente, utilis
 > [!Note]  
 > Dans ses informations de type, un composant utilise l’attribut sous licence pour marquer la coclasse qui prend en charge la gestion des licences par le biais de [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2).
 
- 
+ 
 
 Tout d’abord, vous avez besoin d’un outil de développement distinct qui est également un client du composant sous licence. L’objectif de cet outil est d’obtenir la clé de licence d’exécution et de l’enregistrer dans votre application cliente. Cet outil s’exécute uniquement sur un ordinateur qui possède une licence d’ordinateur pour le composant. L’outil appelle les méthodes [**GetLicInfo**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo) et [**RequestLicKey**](/windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey) pour obtenir la clé de licence d’exécution, puis enregistre la clé de licence dans votre application cliente. Par exemple, l’outil de développement peut créer un fichier d’en-tête (. h) contenant la clé de licence BSTR, puis inclure ce fichier. h dans votre application cliente.
 
@@ -47,6 +47,6 @@ L’interface [**IClassFactory2**](/windows/desktop/api/OCIdl/nn-ocidl-iclassfac
 [Responsabilités du serveur COM](com-server-responsibilities.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

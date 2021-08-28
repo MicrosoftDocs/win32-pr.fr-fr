@@ -13,19 +13,19 @@ api_type:
 - DllExport
 api_location:
 - Kernel32.dll
-ms.openlocfilehash: 3433daaf48e81f662945f1d223e9cf7188ddb706
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 993d819324987fccdfb66c26343bccfb9a815606655a18ff1a1e43f9a2af0eac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120130279"
 ---
 # <a name="rtlisvalidlocalename-function"></a>RtlIsValidLocaleName fonction)
 
 Détermine si les paramètres régionaux spécifiés par le nom sont installés ou pris en charge sur le système d’exploitation.
 
 > [!Note]  
-> Cette fonction peut être utilisée uniquement dans Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures. Les applications doivent utiliser [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename).
+> cette fonction peut être utilisée uniquement dans Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures. Les applications doivent utiliser [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename).
 
  
 
@@ -52,7 +52,7 @@ BOOL RtlIsValidLocaleName(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Indicateurs indiquant si les paramètres régionaux neutres sont considérés comme valides. Actuellement, la seule option définie pour les [paramètres régionaux \_ autorise le \_ neutre](locale-allow-neutral.md). La valeur par défaut est qu’ils ne le sont pas.
@@ -63,9 +63,9 @@ Indicateurs indiquant si les paramètres régionaux neutres sont considérés co
 
 Retourne une valeur différente de zéro en cas de réussite, ou 0 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction est similaire à [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename). La seule différence réside dans le fait que si les paramètres régionaux \_ autorisent la \_ neutralité est défini, **RtlIsValidLocaleName** retourne la **valeur true** pour un nom qui correspond à des paramètres régionaux neutres (par exemple, « en »), tandis que [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename) retourne **true** uniquement pour des paramètres régionaux spécifiques (tels que « en-US »). Les paramètres régionaux neutres sont utilisés dans le cadre de la stratégie de chargement des ressources dans Windows Vista et versions ultérieures. Seule une petite classe d’applications hautement spécialisées utilise **RtlIsValidLocaleName** et Set locale \_ autorisent la \_ neutralité, car les paramètres régionaux neutres sont très peu utilisés. Aucune des fonctions décrites dans [appel des fonctions « nom des paramètres régionaux »](calling-the--locale-name--functions.md) n’accepte les paramètres régionaux neutres en tant qu’entrées.
+Cette fonction est similaire à [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename). La seule différence réside dans le fait que si les paramètres régionaux \_ autorisent la \_ neutralité est défini, **RtlIsValidLocaleName** retourne la **valeur true** pour un nom qui correspond à des paramètres régionaux neutres (par exemple, « en »), tandis que [**IsValidLocaleName**](/windows/desktop/api/Winnls/nf-winnls-isvalidlocalename) retourne **true** uniquement pour des paramètres régionaux spécifiques (tels que « en-US »). les paramètres régionaux neutres sont utilisés dans le cadre de la stratégie de chargement des ressources dans Windows Vista et versions ultérieures. Seule une petite classe d’applications hautement spécialisées utilise **RtlIsValidLocaleName** et Set locale \_ autorisent la \_ neutralité, car les paramètres régionaux neutres sont très peu utilisés. Aucune des fonctions décrites dans [appel des fonctions « nom des paramètres régionaux »](calling-the--locale-name--functions.md) n’accepte les paramètres régionaux neutres en tant qu’entrées.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -73,8 +73,8 @@ Cette fonction est similaire à [**IsValidLocaleName**](/windows/desktop/api/Win
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Ntrtl. h</dt> </dl>      |
 | Bibliothèque<br/>                  | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Kernel32.dll</dt> </dl> |

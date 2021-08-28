@@ -8,12 +8,12 @@ keywords:
 - interface ADSI de l’analyseur de chemin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 544ab295318ac80ed19df39a7e5837b566615903a8d8bb963b6fdd5435efde8c
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 518db6857f9b7018a0dbf3e1e97ac60ed654447d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119023287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880287"
 ---
 # <a name="parsecpp"></a>Analys. COTISATIONS
 
@@ -27,11 +27,11 @@ Le tableau suivant répertorie les fonctions et les méthodes implémentées dan
 
 | Élément                      | Description                                                                                                                                                            |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ADsObject**             | Analyse l’ADspath qui lui est passé. Cette fonction suit les règles grammaticales suivantes : <ADsObject>  ->  <ProviderName><SampleDSObject><br/>     |
-| **SampleDSObject**        | Analyse les règles grammaticales suivantes : <SampleDSObject> -> " \\ \\ " <identifier> " \\ "<Pathname><br/>                                            |
+| **ADsObject**             | Analyse l’ADspath qui lui est passé. Cette fonction suit les règles grammaticales suivantes : &lt; ADsObject &gt;  ->  &lt; providerName &gt; &lt; SampleDSObject&gt;<br/>     |
+| **SampleDSObject**        | Analyse les règles grammaticales suivantes : &lt; SampleDSObject &gt; -> " \\ \\ " &lt; identificateur &gt; \\ &lt; "" pathname&gt;<br/>                                            |
 | **ProviderName**          | Ajoute dans le nom du fournisseur, si ce n’est pas le cas.                                                                                                          |
-| **PathName**              | Analyse les règles grammaticales suivantes : <Pathname>  ->  <Component> " \\ \\ " <Pathname> ou<br/> <Pathname> -> <Component><br/> |
-| **Composant**             | Analyse les règles grammaticales suivantes : <Identifier> ou<br/> <Identifier> "=" <Identifier><br/>                                              |
+| **PathName**              | Analyse les règles grammaticales suivantes : nom de chemin d’accès du &lt; &gt;  ->  &lt; composant &gt; « \\ \\ » &lt; &gt; ou<br/> &lt;Nom du &gt;  ->  &lt; composant&gt;<br/> |
+| **Composant**             | Analyse les règles grammaticales suivantes : &lt; identifier &gt; ou<br/> &lt;Identificateur &gt; « = », &lt; identificateur&gt;<br/>                                              |
 | **CLexer::CLexer**        | Constructeur standard.                                                                                                                                                  |
 | **CLexer :: ~ CLexer**       | Destructeur standard.                                                                                                                                                   |
 | **CLexer::GetNextToken**  | Jetons.                                                                                                                                                             |

@@ -18,12 +18,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 23d9d7bcd7d41251883313517db34f0cbca0ec8e6d2aaa5946348057cc29d844
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d9cb24ab9457cbad421d91764323b1db0e56a1ab
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118978869"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122468906"
 ---
 # <a name="jetintersectindexes-function"></a>Fonction JetIntersectIndexes
 
@@ -72,97 +72,25 @@ Réservé pour un usage futur.
 
 Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Code de retour</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_errSuccess</p></td>
-<td><p>L’opération s’est terminée avec succès.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errClientRequestToStopJetService</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInstanceUnavailable</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidgrbit</p></td>
-<td><p>L’une des options demandées n’est pas valide, a été utilisée de manière incorrecte ou n’a pas été implémentée.</p>
-<p>Cette erreur est retournée par <strong>JetIntersectIndexes</strong> quand :</p>
-<p>Le <em>Grbit</em> contenu dans la structure <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> pointée par n’importe quel élément dans le tableau <em>rgindexrange</em> n’est pas égal à JET_bitRecordInIndex.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errInvalidParameter</p></td>
-<td><p>L’un des paramètres fournis contient une valeur inattendue ou une valeur qui n’est pas cohérente lorsqu’elle est associée à la valeur d’un autre paramètre.</p>
-<p>Cette erreur est retournée par <strong>JetIntersectIndexes</strong> pour les raisons suivantes :</p>
-<ul>
-<li><p>Le paramètre <em>precordlist</em> a la valeur null.</p></li>
-<li><p>Le membre <strong>cbStruct</strong> de la structure <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> spécifiée dans le paramètre <em>precordlist</em> n’est pas égal à la taille de la structure <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> .</p></li>
-<li><p>Le paramètre <em>cindexrange</em> est égal à zéro.</p></li>
-<li><p>Le paramètre <em>cindexrange</em> est supérieur à 64.</p></li>
-<li><p>Le membre <strong>cbStruct</strong> pour tout élément du tableau spécifié par le paramètre <em>rgindexrange</em> n’est pas égal à la taille de la structure <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> .</p></li>
-<li><p>Les éléments du tableau <em>rgindexrange</em> contiennent <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s de tables différentes.</p></li>
-<li><p>Un élément du tableau <em>rgindexrange</em> contient un <a href="gg269182(v=exchg.10).md">JET_TABLEID</a> qui n’est pas positionné sur un index secondaire.</p></li>
-<li><p>Un ou plusieurs des éléments du tableau <em>rgindexrange</em> contiennent <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s placés sur le même index secondaire.</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>JET_errInvalidSesid</p></td>
-<td><p>Le descripteur de session n’est pas valide ou fait référence à une session fermée.</p>
-<p>Cette erreur n’est pas retournée dans toutes les circonstances. Les handles ne sont validés qu’à titre d’effort optimal.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errNotInitialized</p></td>
-<td><p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas été initialisée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errOutOfCursors</p></td>
-<td><p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires à l’ouverture d’un nouveau curseur. Les ressources de curseur sont configurées en appelant <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxCursors</em> spécifié dans le paramètre <em>paramid</em> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errOutOfMemory</p></td>
-<td><p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p>
-<p><strong>JetIntersectIndexes</strong> peut retourner JET_errOutOfMemory si l’espace d’adressage du processus hôte est trop fragmenté. Le gestionnaire de tables temporaire allouera toujours un segment d’espace d’adressage de 1 Mo pour chaque table temporaire créée, quelle que soit la quantité de données à stocker. <strong>JetIntersectIndexes</strong> crée une table temporaire pour chaque <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> spécifiée dans le paramètre <em>rgindexrange</em> , et une table temporaire pour la sortie dans <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a>.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errRestoreInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errSessionSharingViolation</p></td>
-<td><p>Il n’est pas conforme d’utiliser la même session à partir de plusieurs threads en même temps.</p>
-<p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTermInProgress</p></td>
-<td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManyOpenIndexes</p></td>
-<td><p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires pour mettre en cache les index de la table. Le nombre d’index dont le schéma peut être mis en cache est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxOpenTables</em> spécifié dans le paramètre <em>paramid</em> .</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_errTooManyOpenTables</p></td>
-<td><p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires pour mettre en cache le schéma de la table. Le nombre de tables dont le schéma peut être mis en cache est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxOpenTables</em> spécifié dans le paramètre <em>paramid</em> .</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_errTooManySorts</p></td>
-<td><p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources requises pour créer une table temporaire. Les ressources de table temporaire sont configurées à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec JET_paramMaxTemporaryTables spécifié dans le paramètre <em>paramid</em> .</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Code de retour</p> | <p>Description</p> | 
+|--------------------|--------------------|
+| <p>JET_errSuccess</p> | <p>L’opération s’est terminée avec succès.</p> | 
+| <p>JET_errClientRequestToStopJetService</p> | <p>Il n’est pas possible de terminer l’opération, car toute activité sur l’instance associée à la session a été interrompue suite à un appel à <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
+| <p>JET_errInstanceUnavailable</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p><p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p> | 
+| <p>JET_errInvalidgrbit</p> | <p>L’une des options demandées n’est pas valide, a été utilisée de manière incorrecte ou n’a pas été implémentée.</p><p>Cette erreur est retournée par <strong>JetIntersectIndexes</strong> quand :</p><p>Le <em>Grbit</em> contenu dans la structure <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> pointée par n’importe quel élément dans le tableau <em>rgindexrange</em> n’est pas égal à JET_bitRecordInIndex.</p> | 
+| <p>JET_errInvalidParameter</p> | <p>L’un des paramètres fournis contient une valeur inattendue ou une valeur qui n’est pas cohérente lorsqu’elle est associée à la valeur d’un autre paramètre.</p><p>Cette erreur est retournée par <strong>JetIntersectIndexes</strong> pour les raisons suivantes :</p><ul><li><p>Le paramètre <em>precordlist</em> a la valeur null.</p></li><li><p>Le membre <strong>cbStruct</strong> de la structure <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> spécifiée dans le paramètre <em>precordlist</em> n’est pas égal à la taille de la structure <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a> .</p></li><li><p>Le paramètre <em>cindexrange</em> est égal à zéro.</p></li><li><p>Le paramètre <em>cindexrange</em> est supérieur à 64.</p></li><li><p>Le membre <strong>cbStruct</strong> pour tout élément du tableau spécifié par le paramètre <em>rgindexrange</em> n’est pas égal à la taille de la structure <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> .</p></li><li><p>Les éléments du tableau <em>rgindexrange</em> contiennent <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s de tables différentes.</p></li><li><p>Un élément du tableau <em>rgindexrange</em> contient un <a href="gg269182(v=exchg.10).md">JET_TABLEID</a> qui n’est pas positionné sur un index secondaire.</p></li><li><p>Un ou plusieurs des éléments du tableau <em>rgindexrange</em> contiennent <a href="gg269182(v=exchg.10).md">JET_TABLEID</a>s placés sur le même index secondaire.</p></li></ul> | 
+| <p>JET_errInvalidSesid</p> | <p>Le descripteur de session n’est pas valide ou fait référence à une session fermée.</p><p>Cette erreur n’est pas retournée dans toutes les circonstances. Les handles ne sont validés qu’à titre d’effort optimal.</p> | 
+| <p>JET_errNotInitialized</p> | <p>Impossible de terminer l’opération, car l’instance associée à la session n’a pas été initialisée.</p> | 
+| <p>JET_errOutOfCursors</p> | <p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires à l’ouverture d’un nouveau curseur. Les ressources de curseur sont configurées en appelant <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxCursors</em> spécifié dans le paramètre <em>paramid</em> .</p> | 
+| <p>JET_errOutOfMemory</p> | <p>L’opération a échoué, car la mémoire peut être allouée pour être terminée.</p><p><strong>JetIntersectIndexes</strong> peut retourner JET_errOutOfMemory si l’espace d’adressage du processus hôte est trop fragmenté. Le gestionnaire de tables temporaire allouera toujours un segment d’espace d’adressage de 1 Mo pour chaque table temporaire créée, quelle que soit la quantité de données à stocker. <strong>JetIntersectIndexes</strong> crée une table temporaire pour chaque <a href="gg269335(v=exchg.10).md">JET_IndexRange</a> spécifiée dans le paramètre <em>rgindexrange</em> , et une table temporaire pour la sortie dans <a href="gg269287(v=exchg.10).md">JET_RECORDLIST</a>.</p> | 
+| <p>JET_errRestoreInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car une opération de restauration est en cours sur l’instance associée à la session.</p> | 
+| <p>JET_errSessionSharingViolation</p> | <p>Il n’est pas conforme d’utiliser la même session à partir de plusieurs threads en même temps.</p><p><strong>Windows XP :</strong>  cette valeur de retour est introduite dans Windows XP.</p> | 
+| <p>JET_errTermInProgress</p> | <p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session est en cours d’arrêt.</p> | 
+| <p>JET_errTooManyOpenIndexes</p> | <p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires pour mettre en cache les index de la table. Le nombre d’index dont le schéma peut être mis en cache est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxOpenTables</em> spécifié dans le paramètre <em>paramid</em> .</p> | 
+| <p>JET_errTooManyOpenTables</p> | <p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources nécessaires pour mettre en cache le schéma de la table. Le nombre de tables dont le schéma peut être mis en cache est configuré à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec <em>JET_paramMaxOpenTables</em> spécifié dans le paramètre <em>paramid</em> .</p> | 
+| <p>JET_errTooManySorts</p> | <p>L’opération a échoué, car le moteur n’a pas pu allouer les ressources requises pour créer une table temporaire. Les ressources de table temporaire sont configurées à l’aide de <a href="gg294044(v=exchg.10).md">JetSetSystemParameter</a> avec JET_paramMaxTemporaryTables spécifié dans le paramètre <em>paramid</em> .</p> | 
+
 
 
 En cas de réussite, une nouvelle table temporaire est retournée, qui contient les signets des enregistrements qui correspondent aux critères représentés par chacune des descriptions de la plage d’index d’entrée.
@@ -189,34 +117,9 @@ La table temporaire retournée par **JetIntersectIndexes** peut uniquement être
 
 #### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Bibliothèque</strong></p></td>
-<td><p>Utilisez ESENT. lib.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>DLL</strong></p></td>
-<td><p>Requiert ESENT.dll.</p></td>
-</tr>
-</tbody>
-</table>
+
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | | <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | | <p><strong>Bibliothèque</strong></p> | <p>Utilisez ESENT. lib.</p> | | <p><strong>DLL</strong></p> | <p>Requiert ESENT.dll.</p> | 
+
 
 
 #### <a name="see-also"></a>Voir aussi

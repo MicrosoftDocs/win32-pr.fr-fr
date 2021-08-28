@@ -11,12 +11,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bd68c31ef2b92cce75059d5d86ee68dc65d1151
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 5664bc6a4b6b820d7ce72b0605cea8339aa96b16
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122624325"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886029"
 ---
 # <a name="routing-and-remote-access-error-codes"></a>Codes d’erreur de routage et d’accès distant
 
@@ -333,7 +333,7 @@ déconseillé dans Windows Vista et les versions ultérieures de Windows.
 </tr>
 <tr class="even">
 <td><span id="ERROR_MESSAGE_MACRO_NOT_FOUND"></span><span id="error_message_macro_not_found"></span><dl> <dt><strong>ERROR_MESSAGE_MACRO_NOT_FOUND</strong></dt> <dt>655</dt> </dl></td>
-<td>La <message> macro est introuvable dans l’appareil. Section du fichier INF.<br/></td>
+<td>La &lt; &gt; macro de message est introuvable dans l’appareil. Section du fichier INF.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
@@ -1874,7 +1874,7 @@ pris en charge dans Windows 7 et les versions ultérieures de Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

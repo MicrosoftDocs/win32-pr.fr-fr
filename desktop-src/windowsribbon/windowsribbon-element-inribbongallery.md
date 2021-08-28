@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1156c7a3b625496b0a4d50b750a3db5cda51a6b77745aaf26d4282de1be3443d
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: b1a1d992a9a9ad000a3a6e658b513bf8246657dd
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117850829"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625135"
 ---
 # <a name="inribbongallery-element"></a>Élément InRibbonGallery
 
 Représente la [Galerie dans le ruban](windowsribbon-controls-inribbongallery.md), un contrôle basé sur la galerie qui expose un sous-ensemble par défaut d’éléments directement dans le ruban. Tous les éléments restants sont affichés lorsque l’utilisateur clique sur un bouton de menu déroulant.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <InRibbonGallery
@@ -49,10 +49,10 @@ Représente la [Galerie dans le ruban](windowsribbon-controls-inribbongallery.md
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -66,7 +66,7 @@ Représente la [Galerie dans le ruban](windowsribbon-controls-inribbongallery.md
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>XS : positiveInteger ou XS : String<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Associe l’élément à une <a href="windowsribbon-element-command.md"><strong>commande</strong></a>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger ou XS : String)<br/> </dt> <dd> Chaîne, valeur entière comprise entre 2 et 59999, inclusive, ou valeur hexadécimale comprise entre 0X2 et 0xea5f inclus. <br/> La valeur doit être unique dans le document XML du ruban. <br/> Longueur maximale : 100 caractères. <br/> </dd> </dl></td>
 </tr>
@@ -85,7 +85,7 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 <tr class="odd">
 <td><strong>ItemHeight</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Avec <em>ItemWidth</em>, détermine la taille de l’image d’élément affichée dans le contrôle Gallery. <br/>
 <blockquote>
 [!Note]<br />
@@ -97,7 +97,7 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 <tr class="even">
 <td><strong>ItemWidth</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Avec <em>ItemHeight</em>, détermine la taille de l’image d’élément affichée dans le contrôle Gallery. <br/>
 <blockquote>
 [!Note]<br />
@@ -109,49 +109,49 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 <tr class="odd">
 <td><strong>MaxColumns</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre maximal de colonnes que le <strong>InRibbonGallery</strong> affiche, par exemple, dans la liste déroulante <em>grande</em> disposition de groupe.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MaxColumnsMedium</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre maximal de colonnes que le <strong>InRibbonGallery</strong> affiche dans la disposition de groupe de <em>taille moyenne</em> , avant de passer à une <em>grande</em> disposition. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MaxRows</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre maximal de lignes pour la disposition des éléments <strong>InRibbonGallery</strong> . <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> La valeur par défaut est 1. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinColumnsLarge</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre minimal de colonnes que le <strong>InRibbonGallery</strong> affiche dans la <em>grande</em> disposition de groupe, avant de passer au mode <em>moyen</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MinColumnsMedium</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre minimal de colonnes que le <strong>InRibbonGallery</strong> affiche dans la disposition de groupe de <em>taille moyenne</em> , avant de basculer vers <em>Small</em>.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TextPosition</strong><br/></td>
 <td>TextPositionType<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie l’emplacement d’affichage de l’étiquette de l’élément par rapport à l’image. <br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Ballon<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Cuir<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Gauche<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Éviter<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Approprié<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Coin<br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Type</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> Contenus<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Commandes<br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -181,8 +181,8 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -214,7 +214,7 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire au plus une fois pour chaque [**ControlGroup**](windowsribbon-element-controlgroup.md) ou élément de [**groupe**](windowsribbon-element-group.md) .
 

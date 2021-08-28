@@ -4,12 +4,12 @@ description: Le service du gestionnaire de connexions d’accès à distance sur
 ms.assetid: b27bf520-d871-4314-8ed9-3a6a9583ab52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0cb95d0e941c47deb398c03277013e0e0a35f9d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f347cd9f42106619f2558bdcbc677c961b4fae749912c92dd32ac2c8096f6fd7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127809"
 ---
 # <a name="user-authentication-information"></a>Informations d’authentification utilisateur
 
@@ -17,6 +17,6 @@ Le service du gestionnaire de connexions d’accès à distance sur l’ordinate
 
 Si le serveur distant ne parvient pas à authentifier l’utilisateur avec les informations spécifiées, il peut autoriser l’opération de connexion à passer à l' [état suspendu](paused-states.md) pour permettre au client RAS de collecter différentes données d’authentification de l’utilisateur.
 
- 
+ 
 
- 
+ 

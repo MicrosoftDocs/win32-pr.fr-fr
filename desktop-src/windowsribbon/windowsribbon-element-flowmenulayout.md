@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 03497e7249937be48b2156d674ac42b88eae68e64982b84344cfe9a935a92e02
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 4d3c5ea50ae50edc3d6be16ad771229ea82801f4
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119329079"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122625735"
 ---
 # <a name="flowmenulayout-element"></a>Élément FlowMenuLayout
 
 Représente une disposition horizontale avec des sauts de ligne pour les éléments d’une galerie.
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <FlowMenuLayout
@@ -39,10 +39,10 @@ Représente une disposition horizontale avec des sauts de ligne pour les éléme
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,21 +56,21 @@ Représente une disposition horizontale avec des sauts de ligne pour les éléme
 <tr class="odd">
 <td><strong>Colonnes</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre d’éléments à afficher sur une seule ligne.<br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> Entier positif ou négatif. <br/> La valeur par défaut est <strong>2</strong>. <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>Manipulation</strong><br/></td>
 <td>xs:string<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Une poignée de redimensionnement attachée à la liste déroulante de la Galerie. <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> Limité à l’une des valeurs suivantes :<br/> <br/>
 <dt><span></span><span></span><strong></strong> None<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Barr<br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> Virage<br/> </dt> <dd> Par défaut. <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>Lignes</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Spécifie le nombre de lignes d’élément à afficher sans défilement. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : Integer)<br/> </dt> <dd> Entier positif ou négatif. <br/> La valeur par défaut est <strong>-1</strong> qui spécifie d’afficher autant de lignes d’éléments que possible.<br/> </dd> </dl></td>
 </tr>

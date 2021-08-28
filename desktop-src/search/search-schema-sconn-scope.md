@@ -1,19 +1,19 @@
 ---
-description: L' <scope> élément facultatif spécifie une collection d' <scopeItem> éléments qui définissent les inclusions et les exclusions de portée pour ce connecteur de recherche particulier.
+description: L' &lt; élément Scope facultatif &gt; spécifie une collection &lt; d' &gt; éléments scopeItem qui définissent les inclusions et les exclusions de portée pour ce connecteur de recherche particulier.
 ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: Élément Scope (schéma du connecteur de recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d5fcdb3908f495d07199c61a2005a4f97ba5a01c641fb4e854961489e7abe0
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 80c011eee8def80a7f1d395a7a52a72d30fb4935
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119944299"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886697"
 ---
 # <a name="scope-element-search-connector-schema"></a>Élément Scope (schéma du connecteur de recherche)
 
-L' <scope> élément facultatif spécifie une collection d' <scopeItem> éléments qui définissent les inclusions et les exclusions de portée pour ce connecteur de recherche particulier. Si <scope> est présent, il doit contenir au moins un <scopeItem> élément. Cet élément n’a pas d’attributs.
+L' &lt; élément Scope facultatif &gt; spécifie une collection &lt; d' &gt; éléments scopeItem qui définissent les inclusions et les exclusions de portée pour ce connecteur de recherche particulier. Si &lt; Scope &gt; est présent, il doit contenir au moins un &lt; &gt; élément scopeItem. Cet élément n’a pas d’attributs.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -55,7 +55,7 @@ L' <scope> élément facultatif spécifie une collection d' <scopeItem> élémen
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez les <scope> <scopeItem> éléments et pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
+Utilisez les &lt; &gt; éléments Scope et &lt; scopeItem &gt; pour identifier les emplacements à rechercher et les emplacements qui doivent être exclus de la recherche.
 
 ## <a name="example"></a>Exemple
 

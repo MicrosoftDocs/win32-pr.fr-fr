@@ -59,12 +59,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a8a81d5e1503c868865f1f1fae7238be74f024c1bd1c992f5610ce75b5702ab6
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 7e35ebd6000dfae5e99c4b589f4c0a62e84f1e1d
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119531782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122880918"
 ---
 # <a name="msvm_computersystem-class"></a>\_Classe MSVM ComputerSystem
 
@@ -558,7 +558,7 @@ dans Windows 8, il existe une seule instance de [**ReplicationSettingData**](msv
 
 | Nom de la propriété  | valeur Windows 8               | valeur Windows 8.1                          |
 |----------------|-------------------------------|--------------------------------------------|
-| **InstanceID** | Microsoft : <vmguid> \\ HVR | Microsoft : <vmguid> \\ HVR \\<0/1> |
+| **InstanceID** | Microsoft : &lt; VMGUID &gt; \\ HVR | Microsoft : &lt; VMGUID &gt; \\ HVR \\<0/1> |
 
 
 
@@ -1258,7 +1258,7 @@ L’accès à la classe **MSVM \_ ComputerSystem** peut être limité par le fil
 
 Consultez [interrogation d’objets de mise en réseau](querying-networking-objects.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

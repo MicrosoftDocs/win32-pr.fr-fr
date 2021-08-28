@@ -4,20 +4,20 @@ ms.assetid: ae1f8835-ef6c-42bb-b44f-ad374337a012
 title: typeInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa783a606066163fd8b17f53ef8a0fe2da44e539
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a70c6eeaee63bcb99ee19217ccff5d3ff7086a2
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533819"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122632167"
 ---
 # <a name="typeinfo"></a>typeInfo
 
-Spécifie les informations de type d’une propriété. Il ne doit y avoir qu’un seul élément [TypeInfo]() pour chaque [PropertyDescription](./propdesc-schema-propertydescription.md). Cet élément a été modifié pour Windows 7.
+Spécifie les informations de type d’une propriété. Il ne doit y avoir qu’un seul élément [TypeInfo]() pour chaque [PropertyDescription](./propdesc-schema-propertydescription.md). cet élément a été modifié pour Windows 7.
 
 S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [TypeInfo]() n’est fourni, les paramètres d’attribut par défaut sont appliqués à la description de la propriété.
 
-## <a name="syntax-for-windows-7"></a>Syntaxe pour Windows 7
+## <a name="syntax-for-windows-7"></a>syntaxe pour Windows 7
 
 
 ```
@@ -120,7 +120,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Ty
 
 | Élément parent                                                   | Éléments enfants |
 |------------------------------------------------------------------|----------------|
-| [propertyDescription](./propdesc-schema-propertydescription.md) | Aucun           |
+| [propertyDescription](./propdesc-schema-propertydescription.md) | Aucune           |
 
 
 
@@ -132,8 +132,8 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Ty
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -166,7 +166,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Ty
 <td>La valeur doit être un VT_LPWSTR, qui est une chaîne Unicode terminée par une référence null.</td>
 </tr>
 <tr class="even">
-<td>Boolean</td>
+<td>Booléen</td>
 <td>La valeur doit être un VT_BOOL, qui est une valeur booléenne.</td>
 </tr>
 <tr class="odd">
@@ -218,7 +218,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [Ty
 <td>La valeur doit être un VT_BLOB, qui sont des octets à préfixe de longueur.</td>
 </tr>
 <tr class="odd">
-<td>Stream</td>
+<td>STREAM</td>
 <td>La valeur doit être un VT_STREAM, qui est un objet qui implémente <a href="/windows/desktop/api/objidl/nn-objidl-istream"><strong>IStream</strong></a>.</td>
 </tr>
 <tr class="even">
@@ -316,7 +316,7 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 <div>
  
 </div>
-<p>Bien que cet attribut ait été introduit dans Windows Vista avec Service Pack 1 (SP1), un fichier. propDesc qui comprend cet attribut est compatible avec Windows Vista avant Windows Vista avec SP1. L’attribut <em>canBePurged</em> est simplement ignoré dans cette situation.</p></td>
+<p>bien que cet attribut ait été introduit dans Windows Vista avec Service Pack 1 (SP1), un fichier. propdesc qui comprend cet attribut est compatible avec Windows vista antérieur à Windows vista avec SP1. L’attribut <em>canBePurged</em> est simplement ignoré dans cette situation.</p></td>
 </tr>
 <tr class="odd">
 <td>multipleValues</td>
@@ -324,7 +324,7 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 </tr>
 <tr class="even">
 <td>isGroup</td>
-<td>Public. Optionnel. La valeur par défaut est &quot;false&quot;. Spécifie si la propriété est un en-tête de groupe. Un en-tête de groupe est strictement utilisé dans les fichiers. il n’a pas de valeur, n’est jamais stocké dans un fichier et doit également avoir <typeInfo type=&quot;Null&quot;> . Certaines interfaces utilisateur du système utilisent des plist pour indiquer la séquence des propriétés à afficher. Ces exemples peuvent inclure des références à des en-têtes de groupe (par exemple, System. PropGroup. Camera), qui indiquent à l’interface utilisateur de démarrer une nouvelle section de groupe (par exemple, les paramètres de l' &quot; appareil photo &quot; ). Une description de propriété avec isGroup = &quot; true &quot; doit spécifier un <labelInfo label=&quot;Some localized label&quot;> , sinon il ne s’agit pas d’une propriété utile. Cette valeur correspond à l’indicateur de PDTF_ISGROUP défini dans <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> et utilisé dans <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription :: GetTypeFlags</strong></a>.</td>
+<td>Public. Optionnel. La valeur par défaut est &quot;false&quot;. Spécifie si la propriété est un en-tête de groupe. Un en-tête de groupe est strictement utilisé dans les fichiers. il n’a pas de valeur, n’est jamais stocké dans un fichier et doit également avoir <typeInfo type=&quot;Null&quot;> . Certaines interfaces utilisateur du système utilisent des plist pour indiquer la séquence des propriétés à afficher. ces exemples peuvent inclure des références à des en-têtes de groupe (par exemple, System. PropGroup. camera), qui indiquent à l’interface utilisateur de démarrer une nouvelle section de groupe (par exemple, &quot; camera Paramètres &quot; ). Une description de propriété avec isGroup = &quot; true &quot; doit spécifier un <labelInfo label=&quot;Some localized label&quot;> , sinon il ne s’agit pas d’une propriété utile. Cette valeur correspond à l’indicateur de PDTF_ISGROUP défini dans <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> et utilisé dans <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription :: GetTypeFlags</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>aggregationType</td>
@@ -339,15 +339,15 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 </thead>
 <tbody>
 <tr class="odd">
-<td>Default</td>
+<td>Valeur par défaut</td>
 <td>Par défaut. Affiche un espace réservé à <strong>plusieurs valeurs</strong> dans l’interface utilisateur. Il s’agit de la valeur par défaut si le <em>type</em> est incompatible avec le <em>aggregationType</em>spécifié.</td>
 </tr>
 <tr class="even">
-<td>Premier</td>
+<td>First</td>
 <td>Affiche la valeur de la propriété du premier élément de la sélection ou de la collection.</td>
 </tr>
 <tr class="odd">
-<td>SUM</td>
+<td>Sum</td>
 <td>Affiche la somme des valeurs numériques. Utile pour les propriétés telles que System. Media. Duration ou System. Size. Cette valeur n’est pas compatible avec les types non numériques.</td>
 </tr>
 <tr class="even">
@@ -385,7 +385,7 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 </tr>
 <tr class="even">
 <td>isQueryable</td>
-<td>Windows Vista uniquement. Non pris en charge dans Windows 7 et versions ultérieures. Public. Optionnel. La valeur par défaut est &quot;false&quot;. Spécifie si cette propriété doit être disponible dans l’interface utilisateur de recherche Générateur de requêtes. Une propriété doit avoir isViewable = &quot; true &quot; avant que isQueryable = &quot; true &quot; soit respecté. Cette valeur correspond à l’indicateur de PDTF_ISQUERYABLE défini dans <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> et utilisé dans <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription :: GetTypeFlags</strong></a>.</td>
+<td>Windows Vista uniquement. non pris en charge dans Windows 7 et versions ultérieures. Public. Optionnel. La valeur par défaut est &quot;false&quot;. Spécifie si cette propriété doit être disponible dans l’interface utilisateur de recherche Générateur de requêtes. Une propriété doit avoir isViewable = &quot; true &quot; avant que isQueryable = &quot; true &quot; soit respecté. Cette valeur correspond à l’indicateur de PDTF_ISQUERYABLE défini dans <a href="/windows/win32/api/propsys/ne-propsys-propdesc_type_flags"><strong>PROPDESC_TYPE_FLAGS</strong></a> et utilisé dans <a href="/windows/win32/api/propsys/nf-propsys-ipropertydescription-gettypeflags"><strong>IPropertyDescription :: GetTypeFlags</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>searchRawValue</td>
@@ -393,7 +393,7 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 </tr>
 <tr class="even">
 <td>includeInFullTextQuery</td>
-<td>Windows Vista uniquement. Non pris en charge dans Windows 7 et versions ultérieures. Public. Optionnel. La valeur par défaut est &quot;false&quot;.</td>
+<td>Windows Vista uniquement. non pris en charge dans Windows 7 et versions ultérieures. Public. Optionnel. La valeur par défaut est &quot;false&quot;.</td>
 </tr>
 <tr class="odd">
 <td>conditionType</td>
@@ -419,7 +419,7 @@ Une propriété dont la valeur <em>isInnate</em> est &quot; false &quot; (ce qui
 <td>Valeur par défaut pour les propriétés de type = &quot; DateTime &quot; . Les opérateurs suivants seront utilisés : &quot; est, n’est &quot; &quot; pas &quot; , est &quot; avant &quot; , est &quot; après &quot; , &quot; est avant, mais comprend &quot; , &quot; est après, mais contient &quot; .</td>
 </tr>
 <tr class="even">
-<td>Boolean</td>
+<td>Booléen</td>
 <td>Valeur par défaut pour les propriétés de type = &quot; Boolean &quot; . Identique au nombre.</td>
 </tr>
 <tr class="odd">

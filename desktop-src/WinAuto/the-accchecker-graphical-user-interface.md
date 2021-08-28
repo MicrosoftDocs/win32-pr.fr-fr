@@ -4,12 +4,12 @@ description: Cette rubrique décrit les éléments qui composent l’interface g
 ms.assetid: C8C156F6-AB29-4011-9DCD-74261AC17404
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e26d847d1bc198958ca28dd77d67b0e99b9d7745
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: ebf645a3afd35bdd906d1ab26453d16672311cb4
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104556648"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122473385"
 ---
 # <a name="the-accchecker-graphical-user-interface"></a>Interface utilisateur graphique AccChecker
 
@@ -41,7 +41,7 @@ L’onglet **vérifications** contient les composants suivants.
 
     ![accchecker onglet résultats avec l’élément de contexte de suppression mis en surbrillance](images/accchecker-results-tab-with-suppress.png)
 
-    L’exemple suivant montre le contenu d’un fichier de suppression généré en exécutant les vérifications des **Propriétés** sur l’application du panneau de configuration du pare-feu Windows. L’erreur avec l’ID « ElementHasNoName » a été choisie pour la suppression dans cet exemple.
+    l’exemple suivant montre le contenu d’un fichier de suppression généré en exécutant les vérifications des **propriétés** sur le Windows application du panneau de configuration du pare-feu. L’erreur avec l’ID « ElementHasNoName » a été choisie pour la suppression dans cet exemple.
 
     ```XML
     <?xml version="1.0" encoding="utf-8"?><ArrayOfLogEvent xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="https://www.w3.org/2001/XMLSchema">
@@ -87,13 +87,13 @@ Les éléments sont consultés et journalisés comme un lecteur d’écran. Les 
 
 La routine de vérification **Screenreader** sous **consistance** doit être sélectionnée dans l’onglet **vérifications** de l' **onglet lecteur d’écran MSAA** à afficher. De même, la routine de vérification **UiaScreenReader** doit être sélectionnée pour que l’onglet **lecteur d’écran UIA** s’affiche.
 
-La capture d’écran suivante montre l’onglet lecteur de l’écran UIA avec un exemple de vérification du bloc-notes.
+la capture d’écran suivante montre l’onglet lecteur de l’écran UIA avec un exemple de vérification de Bloc-notes.
 
 ![accchecker onglet lecteur d’écran affichant les exemples de résultats de la vérification](images/accchecker-screen-reader-tab.png)
 
 ## <a name="msaa-and-uia-tree-tabs"></a>Onglets d’arborescence MSAA et UIA
 
-Si vous exécutez une routine de vérification, AccChecker compile tous les éléments visibles dans la cible de vérification et les affiche hiérarchiquement sous l’onglet de l' **arborescence MSAA** et l’onglet d' **arborescence UIA** . La capture d’écran suivante montre l’onglet d’arborescence MSAA avec la hiérarchie d’éléments pour le bloc-notes.
+Si vous exécutez une routine de vérification, AccChecker compile tous les éléments visibles dans la cible de vérification et les affiche hiérarchiquement sous l’onglet de l' **arborescence MSAA** et l’onglet d' **arborescence UIA** . la capture d’écran suivante montre l’onglet d’arborescence MSAA avec la hiérarchie d’éléments pour Bloc-notes.
 
 ![onglet d’arborescence accchecker MSAA](images/accchecker-tree-tab.png)
 
@@ -101,84 +101,21 @@ Si vous exécutez une routine de vérification, AccChecker compile tous les él�
 
 
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Menu</th>
-<th>Commande</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td rowspan="5"><strong>Fichier</strong>$ {Remove} $<br />
-</td>
-<td><strong>Ouvrir</strong></td>
-<td>Fournit les options suivantes.<br/>
-<ul>
-<li><strong>Dll de vérification</strong> Ouvre une DLL de vérification. Les vérifications AccChecker natives sont encapsulées dans une DLL autonome (VerificationRoutines.dll). Cette conception permet aux équipes de test de créer leur propre ensemble de vérifications en fonction de la plateforme d’interface utilisateur en cours de test.</li>
-<li><strong>Fichier journal</strong> Vous permet de choisir un fichier journal de vérification à ouvrir.</li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><strong>Charger automatiquement les vérifications disponibles</strong></td>
-<td>Charge automatiquement toutes les vérifications AccChecker disponibles.</td>
 
-</tr>
-<tr class="odd">
-<td><strong>Enregistrer le journal</strong></td>
-<td>Enregistrez le journal de vérification au format XML ou sous forme de texte brut. Le texte brut est plus lisible.</td>
+| Menu | Commande | Description | 
+|------|---------|-------------|
+| <strong>Fichier</strong>$ {Remove} $<br /> | <strong>Ouvrir</strong> | Fournit les options suivantes.<br /><ul><li><strong>Dll de vérification</strong> Ouvre une DLL de vérification. Les vérifications AccChecker natives sont encapsulées dans une DLL autonome (VerificationRoutines.dll). Cette conception permet aux équipes de test de créer leur propre ensemble de vérifications en fonction de la plateforme d’interface utilisateur en cours de test.</li><li><strong>Fichier journal</strong> Vous permet de choisir un fichier journal de vérification à ouvrir.</li></ul> | 
+| <strong>Charger automatiquement les vérifications disponibles</strong> | Charge automatiquement toutes les vérifications AccChecker disponibles. | 
+| <strong>Enregistrer le journal</strong> | Enregistrez le journal de vérification au format XML ou sous forme de texte brut. Le texte brut est plus lisible. | 
+| <strong>Enregistrement de la suppression</strong> | Enregistrez le journal des suppressions au format XML. Ce fichier spécifie les messages de vérification à ignorer dans les tests de régression. | 
+| <strong>Quitter</strong> | Ferme l’outil AccChecker. | 
+| <strong>Vérifications</strong>$ {Remove} $<br /> | <strong>Exécuter maintenant</strong> | Exécutez les routines de vérification comme spécifié pour la cible de vérification choisie. | 
+| <strong>Activer tout</strong> | Activez toutes les cases à cocher de la routine de vérification. | 
+| <strong>Désactiver tout</strong> | Désactivez toutes les cases à cocher de la routine de vérification. | 
+| <strong>Options</strong> | <strong>Always On haut</strong> | Faites de AccChecker la fenêtre de niveau supérieur dans l’ordre de plan. | 
+| <strong>Aide</strong>$ {Remove} $<br /> | <strong>Aide</strong> | Affichez les informations d’aide. | 
+| <strong>À propos de</strong> | Affichez la version de AccChecker et une adresse de messagerie pour contacter Microsoft sur AccChecker. | 
 
-</tr>
-<tr class="even">
-<td><strong>Enregistrement de la suppression</strong></td>
-<td>Enregistrez le journal des suppressions au format XML. Ce fichier spécifie les messages de vérification à ignorer dans les tests de régression.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Quitter</strong></td>
-<td>Ferme l’outil AccChecker.</td>
-
-</tr>
-<tr class="even">
-<td rowspan="3"><strong>Vérifications</strong>$ {Remove} $<br />
-</td>
-<td><strong>Exécuter maintenant</strong></td>
-<td>Exécutez les routines de vérification comme spécifié pour la cible de vérification choisie.</td>
-</tr>
-<tr class="odd">
-<td><strong>Activer tout</strong></td>
-<td>Activez toutes les cases à cocher de la routine de vérification.</td>
-
-</tr>
-<tr class="even">
-<td><strong>Désactiver tout</strong></td>
-<td>Désactivez toutes les cases à cocher de la routine de vérification.</td>
-
-</tr>
-<tr class="odd">
-<td><strong>Options</strong></td>
-<td><strong>Always On haut</strong></td>
-<td>Faites de AccChecker la fenêtre de niveau supérieur dans l’ordre de plan.</td>
-</tr>
-<tr class="even">
-<td rowspan="2"><strong>Aide</strong>$ {Remove} $<br />
-</td>
-<td><strong>Aide</strong></td>
-<td>Affichez les informations d’aide.</td>
-</tr>
-<tr class="odd">
-<td><strong>À propos de</strong></td>
-<td>Affichez la version de AccChecker et une adresse de messagerie pour contacter Microsoft sur AccChecker.</td>
-
-</tr>
-</tbody>
-</table>
 
 
 

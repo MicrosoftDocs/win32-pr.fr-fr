@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ee77cc9c21185bc296fe370f3c353e1540c66db1
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 7c10f709ba62c92f3c8bd2191fe3205737f20d93
+ms.sourcegitcommit: 4e94fc75fad7b2a0f3c92a26f97e89924e59b7a9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122621955"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "122787105"
 ---
 # <a name="span-idvspixengineigenericbufferdatacallbackspanigenericbufferdatacallback-interface"></a><span id="vspixengine.igenericbufferdatacallback"></span>Interface IGenericBufferDataCallback
 
@@ -38,7 +38,7 @@ L’interface **IGenericBufferDataCallback** hérite de l’interface [**IUnknow
 
 L’interface **IGenericBufferDataCallback** possède ces méthodes.
 
-<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/igenericbufferdatacallback-resultcallback-dword-byte-arr-bstr"><strong>ResultCallback</strong></a></td><td style="text-align: left;"><p>Rappel qui avertit l’hôte des informations de mémoire tampon génériques retournées par la requête dans.</p></td></tr></tbody></table>
+<table><colgroup><col  /><col  /></colgroup><thead><tr class="header"><th >Méthode</th><th >Description</th></tr></thead><tbody><tr class="odd"><td ><a href="/windows/desktop/direct3dtools/igenericbufferdatacallback-resultcallback-dword-byte-arr-bstr"><strong>ResultCallback</strong></a></td><td ><p>Rappel qui avertit l’hôte des informations de mémoire tampon génériques retournées par la requête dans.</p></td></tr></tbody></table>
 
  
 

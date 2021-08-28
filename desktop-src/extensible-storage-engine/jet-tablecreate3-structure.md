@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 64f820b9e9a42099cdb99d8ab8f0756e8fdbb23256917821d05573afd9068017
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 1b3e1f3a21b5e5f901ef039b9cff0cdd52d415d5
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118979239"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122983022"
 ---
 # <a name="jet_tablecreate3-structure"></a>Structure JET_TABLECREATE3
 
@@ -119,92 +119,33 @@ Décrit le type de fonction de rappel désigné par **szCallback**. Pour plus d�
 
 Ce champ de bits est composé d’une ou plusieurs des valeurs de bit listées dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_cbtypFinalize</p></td>
-<td><p>La fonction de rappel est appelée lorsqu’une colonne qui peut être finalisée est passée à zéro.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeInsert</p></td>
-<td><p>La fonction de rappel sera appelée avant l’insertion de l’enregistrement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterInsert</p></td>
-<td><p>La fonction de rappel est appelée une fois que le moteur de base de données a terminé l’insertion d’un enregistrement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeReplace</p></td>
-<td><p>La fonction de rappel sera appelée avant la modification d’un enregistrement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterReplace</p></td>
-<td><p>La fonction de rappel est appelée après la fin de la modification d’un enregistrement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypBeforeDelete</p></td>
-<td><p>La fonction de rappel sera appelée avant la suppression d’un enregistrement.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypAfterDelete</p></td>
-<td><p>La fonction de rappel est appelée après la suppression d’un enregistrement.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypUserDefinedDefaultValue</p></td>
-<td><p>La fonction de rappel sera appelée pour calculer une valeur par défaut définie par l’utilisateur.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_cbtypFreeCursorLS</p></td>
-<td><p>La fonction de rappel sera appelée lorsque le stockage local qui est associé à un curseur doit être libéré.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_cbtypFreeTableLS</p></td>
-<td><p>La fonction de rappel sera appelée lorsque le stockage local qui est associé à une table doit être libéré.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_cbtypFinalize</p> | <p>La fonction de rappel est appelée lorsqu’une colonne qui peut être finalisée est passée à zéro.</p> | 
+| <p>JET_cbtypBeforeInsert</p> | <p>La fonction de rappel sera appelée avant l’insertion de l’enregistrement.</p> | 
+| <p>JET_cbtypAfterInsert</p> | <p>La fonction de rappel est appelée une fois que le moteur de base de données a terminé l’insertion d’un enregistrement.</p> | 
+| <p>JET_cbtypBeforeReplace</p> | <p>La fonction de rappel sera appelée avant la modification d’un enregistrement.</p> | 
+| <p>JET_cbtypAfterReplace</p> | <p>La fonction de rappel est appelée après la fin de la modification d’un enregistrement.</p> | 
+| <p>JET_cbtypBeforeDelete</p> | <p>La fonction de rappel sera appelée avant la suppression d’un enregistrement.</p> | 
+| <p>JET_cbtypAfterDelete</p> | <p>La fonction de rappel est appelée après la suppression d’un enregistrement.</p> | 
+| <p>JET_cbtypUserDefinedDefaultValue</p> | <p>La fonction de rappel sera appelée pour calculer une valeur par défaut définie par l’utilisateur.</p> | 
+| <p>JET_cbtypFreeCursorLS</p> | <p>La fonction de rappel sera appelée lorsque le stockage local qui est associé à un curseur doit être libéré.</p> | 
+| <p>JET_cbtypFreeTableLS</p> | <p>La fonction de rappel sera appelée lorsque le stockage local qui est associé à une table doit être libéré.</p> | 
+
 
 
 **grbit**
 
 Groupe de bits qui contient zéro, une ou plusieurs des valeurs d’option d’appel énumérées dans le tableau suivant.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_bitTableCreateFixedDDL</p></td>
-<td><p>Empêche les opérations DDL sur la table (telles que l’ajout ou la suppression de colonnes).</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_bitTableCreateTemplateTable</p></td>
-<td><p>Indique que la table est une table de modèles. Les nouvelles tables peuvent ensuite spécifier le nom de cette table comme table de modèle. La définition de JET_bitTableCreateTemplateTable implique JET_bitTableCreateFixedDDL.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p></td>
-<td><p>Doit être utilisé conjointement avec JET_bitTableCreateTemplateTable. Obsolète. Ne pas utiliser.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_bitTableCreateFixedDDL</p> | <p>Empêche les opérations DDL sur la table (telles que l’ajout ou la suppression de colonnes).</p> | 
+| <p>JET_bitTableCreateTemplateTable</p> | <p>Indique que la table est une table de modèles. Les nouvelles tables peuvent ensuite spécifier le nom de cette table comme table de modèle. La définition de JET_bitTableCreateTemplateTable implique JET_bitTableCreateFixedDDL.</p> | 
+| <p>JET_bitTableCreateNoFixedVarColumnsInDerivedTables</p> | <p>Doit être utilisé conjointement avec JET_bitTableCreateTemplateTable. Obsolète. Ne pas utiliser.</p> | 
+
 
 
 **pSeqSpacehints**
@@ -237,30 +178,14 @@ Le nombre d’objets créés est égal à la somme des colonnes, des tables et d
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>requiert Windows Vista ou Windows XP.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Unicode</strong></p></td>
-<td><p>Implémenté comme <strong>JET_TABLECREATE3_W</strong> (Unicode) et <strong>JET_TABLECREATE3_A</strong> (ANSI).</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista ou Windows XP.</p> | 
+| <p><strong>Serveur</strong></p> | <p>requiert Windows server 2008 ou Windows server 2003.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| <p><strong>Unicode</strong></p> | <p>Implémenté comme <strong>JET_TABLECREATE3_W</strong> (Unicode) et <strong>JET_TABLECREATE3_A</strong> (ANSI).</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

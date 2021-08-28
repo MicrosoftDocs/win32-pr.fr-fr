@@ -4,12 +4,12 @@ ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 52ca8fd4d0806db717ae29bdd959e472d72f74ca812e93bcaf3929a488dd4fab
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 89c6504fe8518e1c43d155ebce638dec1acfeb80
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119008337"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122476215"
 ---
 # <a name="encryptmessage-kerberos-function"></a>EncryptMessage (Kerberos) (fonction)
 
@@ -47,8 +47,11 @@ Indicateurs spécifiques au package qui indiquent la qualité de la protection. 
 
 Ce paramètre peut être l’indicateur suivant.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br/></td></tr></tbody></table>
+
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Générez un en-tête ou un code de fin, mais ne chiffrez pas le message.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br /> | 
+
 
 </dd> <dt>
 
@@ -72,7 +75,7 @@ Numéro de séquence que l’application de transport a affecté au message. Si 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction s’exécute correctement, la fonction retourne SEC \_ E \_ OK.
 

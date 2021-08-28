@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da2bcd5c07c2c5ebf3a28620e39efe3034d3c2bc024ac487caaec38e3c69fca9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ace571c2639ddd1eb55ed1e4afd70bcef7318b44
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119707259"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882309"
 ---
 # <a name="tracing"></a>Traçage
 
@@ -100,9 +100,9 @@ Les colonnes du fichier sont les suivantes :
 
 Activation du suivi ETW pour WWSAPI
 
-**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-webservices \[ indicateurs \[ niveau \] \] \[ -o <EtlLogFileName> \] -ets**
+**logman start wstrace-bs 64-ft 1-rt-p Microsoft-Windows-webservices \[ indicateurs \[ niveau \] \] \[ -o &lt; EtlLogFileName &gt; \] -ets**
 
-pour créer et démarrer la session de suivi ETW. Logman.exe est un outil ETW intégré disponible sur toutes les plateformes prises en charge. notez que vous devez utiliser Microsoft \_ Windows \_ webservices comme nom de fournisseur sur XPSP2 et dans le sp2. Vous pouvez exécuter logman query providers pour afficher la liste des fournisseurs inscrits. le fournisseur microsoft-Windows-webservices (ou microsoft \_ Windows \_ webservices) doit être répertorié, sauf s’il n’est pas inscrit. Le fournisseur est normalement inscrit au cours de l’installation. toutefois, il peut également être inscrit manuellement en exécutant wevtutil.exe im <ManifestFileName> (sur Windows Vista et versions ultérieures) ou mofcomp.exe <MofFileName> (sur XPSP2 et dans le sp2).
+pour créer et démarrer la session de suivi ETW. Logman.exe est un outil ETW intégré disponible sur toutes les plateformes prises en charge. notez que vous devez utiliser Microsoft \_ Windows \_ webservices comme nom de fournisseur sur XPSP2 et dans le sp2. Vous pouvez exécuter logman query providers pour afficher la liste des fournisseurs inscrits. le fournisseur microsoft-Windows-webservices (ou microsoft \_ Windows \_ webservices) doit être répertorié, sauf s’il n’est pas inscrit. Le fournisseur est normalement inscrit au cours de l’installation. toutefois, il peut également être enregistré manuellement en exécutant wevtutil.exe &lt; ManifestFileName im &gt; (sur Windows Vista et versions ultérieures) ou mofcomp.exe &lt; MofFileName &gt; (sur XPSP2 et de la version ultérieure).
 
 Les indicateurs peuvent être utilisés pour filtrer les traces par leur genre. Il peut s’agir d’une valeur ou d’un des genres de trace suivants. S’il n’est pas fourni, tous les types de suivi sont activés.
 
@@ -154,7 +154,7 @@ Tracerpt.exe est l’outil qui permet d’afficher le contenu d’un fichier jou
 
 -   Exécuter
 
-    **tracerpt <EtlLogFileName> -o <OutputXMLFileName>**
+    **tracerpt &lt; EtlLogFileName &gt; -o &lt; OutputXMLFileName&gt;**
 
     pour créer un vidage XML à partir du fichier ETL binaire (tracerpt.exe crée le fichier de sortie au format XML par défaut. Exécuter tracerpt- ? Pour voir d’autres formats disponibles).
 

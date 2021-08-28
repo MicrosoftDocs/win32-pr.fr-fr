@@ -4,12 +4,12 @@ description: L’exemple de code suivant utilise la fonction EnumProcesses pour 
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89798ed3d2d7e44f014d95833302edb5d5be078daf557eed32d3496c863539e9
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: ea7f0091ee42da39990eae00b135283d288acc4f
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117681006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885675"
 ---
 # <a name="enumerating-all-processes"></a>Énumération de tous les processus
 
@@ -94,7 +94,7 @@ int main( void )
 
 
 
-La fonction principale obtient une liste de processus à l’aide de la fonction [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Pour chaque processus, main appelle la fonction **PrintProcessNameAndID** , en lui transmettant l’identificateur de processus. **PrintProcessNameAndID** appelle à son tour la fonction [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) pour obtenir le handle de processus. Si **OpenProcess** échoue, la sortie affiche le nom du processus sous la forme <unknown> . Par exemple, **OpenProcess** échoue pour les processus inactifs et CSRSS, car leurs restrictions d’accès empêchent le code au niveau de l’utilisateur de les ouvrir. Ensuite, **PrintProcessNameAndID** appelle la fonction [**EnumProcessModules**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) pour obtenir les descripteurs de module. Enfin, **PrintProcessNameAndID** appelle la fonction [**GetModuleBaseName**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) pour obtenir le nom du fichier exécutable et affiche le nom avec l’identificateur de processus.
+La fonction principale obtient une liste de processus à l’aide de la fonction [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Pour chaque processus, main appelle la fonction **PrintProcessNameAndID** , en lui transmettant l’identificateur de processus. **PrintProcessNameAndID** appelle à son tour la fonction [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) pour obtenir le handle de processus. Si **OpenProcess** échoue, la sortie indique le nom de processus &lt; inconnu &gt; . Par exemple, **OpenProcess** échoue pour les processus inactifs et CSRSS, car leurs restrictions d’accès empêchent le code au niveau de l’utilisateur de les ouvrir. Ensuite, **PrintProcessNameAndID** appelle la fonction [**EnumProcessModules**](/windows/desktop/api/Psapi/nf-psapi-enumprocessmodules) pour obtenir les descripteurs de module. Enfin, **PrintProcessNameAndID** appelle la fonction [**GetModuleBaseName**](/windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea) pour obtenir le nom du fichier exécutable et affiche le nom avec l’identificateur de processus.
 
  
 

@@ -4,18 +4,18 @@ ms.assetid: 06678b10-0915-4649-b917-ec90c40d5160
 title: Contrôle HyperLink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d074efa00fcf51fec979d9df07f1854631279d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce515b64a518012ea187eb2c3a933e653b1ea5cf99b316028f9cfe3b397c5f96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129459"
 ---
 # <a name="hyperlink-control"></a>Contrôle HyperLink
 
 Le contrôle de lien hypertexte affiche un lien HTML vers une adresse, qui s’ouvre dans le navigateur par défaut de l’ordinateur. Les liens ne sont pas pris en charge pour les protocoles autres que HTML.
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Ce contrôle est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. ce contrôle est disponible à partir de Windows Installer 5,0.
 
 La valeur texte du contrôle HyperLink utilise la <a> balise d’ancrage et la valeur de l’attribut href pour spécifier l’URL et le texte affiché du lien.
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser les attributs suivants avec le contrôle HyperLink. Pour mo
 | [Position](position-control-attribute.md)       |                                  | Position du contrôle dans la boîte de dialogue. Entrez la largeur, la hauteur et les coordonnées du contrôle dans la largeur, la hauteur, le X et les colonnes Y de la table de [contrôle](control-table.md) ou de la [table BBControl](bbcontrol-table.md). Utilisez les [unités d’installation](installer-units.md) pour la longueur et la distance.<br/>                                                                                                                                                                       |
 | [Text](text-control-attribute.md)               |                                  | Texte affiché par le contrôle. Pour définir la police et le style de police d’une chaîne de texte, ajoutez le préfixe { \\ style} ou {&style} à la chaîne de caractères affichés. Où style est un identificateur figurant dans la colonne TextStyle de la [table TextStyle](textstyle-table.md). Si aucun de ces deux n’est présent, mais que la propriété [**DefaultUIFont**](defaultuifont.md) est définie comme un style de texte valide, cette police sera utilisée. La valeur Text résout également \[ \] la propriété en la propriété référencée. <br/> |
 | [Visible](visible-control-attribute.md)         | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la table de [contrôle](control-table.md) ou la [table BBControl](bbcontrol-table.md). pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                           |
-| [Enabled](enabled-control-attribute.md)         | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits de la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                        |
+| [Activé](enabled-control-attribute.md)         | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits de la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                                                                                        |
 | [Sunken](sunken-control-attribute.md)           | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence enfoncée, 3D et un look.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                                                                                                                                            |
 | [Transparent](transparent-control-attribute.md) | 0x00000000 0x00010000<br/> | Contrôle opaque. Arrière-plan montre le contrôle. Le contrôle a le \_ \_ style transparent WS.<br/> Incluez ce bit dans la colonne attributs des tables [Control](control-table.md) ou [BBControl](bbcontrol-table.md).<br/>                                                                                                                                                                                                                                                          |
 
@@ -42,7 +42,7 @@ Vous pouvez utiliser les attributs suivants avec le contrôle HyperLink. Pour mo
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce contrôle peut être créé à partir de la classe de lien WC à \_ l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les \_ styles WS Child, WS \_ TABSTOP et WS \_ Group.
 

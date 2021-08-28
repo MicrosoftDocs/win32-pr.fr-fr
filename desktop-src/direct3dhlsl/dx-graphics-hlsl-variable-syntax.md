@@ -18,12 +18,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 446444e09b0b6aff3e0ba8ca8b12cfbf6dc94128
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 0ce89287d969683b72eb6db6d352300ce5295852
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826067"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481165"
 ---
 # <a name="variable-syntax"></a>Syntaxe des variables
 
@@ -39,82 +39,25 @@ Utilisez les règles de syntaxe suivantes pour déclarer des variables HLSL.
 
 <dl> <dt>
 
-<span id="Storage_Class_"></span><span id="storage_class_"></span><span id="STORAGE_CLASS_"></span>*Classe de stockage \_* 
+<span id="Storage_Class_"></span><span id="storage_class_"></span><span id="STORAGE_CLASS_"></span>*Stockage \_ Type* 
 </dt> <dd>
 
 Modificateurs de classe de stockage facultatifs qui fournissent les indications du compilateur sur la portée de la variable et la durée de vie ; les modificateurs peuvent être spécifiés dans n’importe quel ordre.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Value</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>extern</strong></td>
-<td>Marquez une variable globale comme entrée externe pour le nuanceur. Il s’agit du marquage par défaut pour toutes les variables globales. Ne peut pas être combiné avec <strong>static</strong>.</td>
-</tr>
-<tr class="even">
-<td><strong>nointerpolation</strong></td>
-<td>N’interpolez pas les sorties d’un nuanceur de sommets avant de les passer à un nuanceur de pixels.</td>
-</tr>
-<tr class="odd">
-<td><strong>établir</strong></td>
-<td>Le mot clé <strong>precise</strong> lorsqu’il est appliqué à une variable limite les calculs utilisés pour produire la valeur assignée à cette variable selon les méthodes suivantes :
 
-*   Les opérations distinctes sont conservées séparément. Par exemple, lorsqu’une opération mul et Add peut avoir été fusionnée dans une opération Mad, <strong>precise</strong> force les opérations à rester séparées. Au lieu de cela, vous devez utiliser explicitement la fonction intrinsèque Mad.
-*   L’ordre des opérations est conservé. Lorsque l’ordre des instructions peut être aléatoire pour améliorer les performances, la <strong>précision</strong> garantit que le compilateur conserve l’ordre écrit.
-*   Les opérations non sécurisées IEEE sont restreintes. Là où le compilateur peut avoir utilisé des opérations mathématiques rapides qui ne concernent pas les valeurs NaN (not a Number) et INF (infini), force <strong>précisément</strong> les exigences IEEE relatives aux valeurs NaN et INF à respecter. Sans <strong>précision</strong>, ces optimisations et opérations mathématiques ne sont pas compatibles IEEE.
-*   La qualification d’une variable <strong>précise</strong> ne rend pas les opérations qui utilisent la variable avec <strong>précision</strong>. Étant donné que <strong>precise</strong> se propage uniquement aux opérations qui contribuent aux valeurs affectées à la variable qualifiée <strong>précise</strong>, <strong>il peut être</strong> difficile de déterminer correctement les calculs souhaités. nous vous recommandons donc de marquer les sorties du nuanceur avec <strong>précision</strong> directement là où vous les déclarez, si celles-ci se trouvent sur un champ de structure, ou sur un paramètre de sortie ou le type de retour de
+| Valeur | Description | 
+|-------|-------------|
+| <strong>extern</strong> | Marquez une variable globale comme entrée externe pour le nuanceur. Il s’agit du marquage par défaut pour toutes les variables globales. Ne peut pas être combiné avec <strong>static</strong>. | 
+| <strong>nointerpolation</strong> | N’interpolez pas les sorties d’un nuanceur de sommets avant de les passer à un nuanceur de pixels. | 
+| <strong>établir</strong> | Le mot clé <strong>precis</strong> lorsqu’il est appliqué à une variable limite les calculs utilisés pour produire la valeur assignée à cette variable des manières suivantes : * les opérations distinctes sont conservées séparément. Par exemple, lorsqu’une opération mul et Add peut avoir été fusionnée dans une opération Mad, <strong>precise</strong> force les opérations à rester séparées. Au lieu de cela, vous devez utiliser explicitement la fonction intrinsèque Mad. * l’ordre des opérations est conservé. Lorsque l’ordre des instructions peut avoir été aléatoire pour améliorer les performances, la <strong>précision</strong> garantit que le compilateur conserve la commande comme écrit. * les opérations non sécurisées IEEE sont restreintes. Là où le compilateur peut avoir utilisé des opérations mathématiques rapides qui ne concernent pas les valeurs NaN (not a Number) et INF (infini), force <strong>précisément</strong> les exigences IEEE relatives aux valeurs NaN et INF à respecter. Sans <strong>précision</strong>, ces optimisations et opérations mathématiques ne sont pas compatibles IEEE. * la qualification d’une variable <strong>précise</strong> ne rend pas les opérations qui utilisent la variable avec <strong>précision</strong>. Étant donné que <strong>precise</strong> se propage uniquement aux opérations qui contribuent aux valeurs affectées à la variable qualifiée <strong>précise</strong>, <strong>il peut être</strong> difficile de déterminer correctement les calculs souhaités. nous vous recommandons donc de marquer les sorties du nuanceur avec <strong>précision</strong> directement là où vous les déclarez, si celles-ci se trouvent sur un champ de structure, ou sur un paramètre de sortie ou le type de retour de La possibilité de contrôler les optimisations de cette façon maintient l’invariance de résultat pour la variable de sortie modifiée en désactivant les optimisations qui peuvent affecter les résultats finaux en raison de différences de différences de précision accumulée. Il est utile lorsque vous souhaitez que les nuanceurs de facettes maintiennent des jointures de patch hermétiques ou des valeurs de profondeur de correspondance sur plusieurs passes. [Exemple de code](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl): ```HLSLmatrix g_mWorldViewProjection;void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position){  // operation is precise because it contributes to the precise parameter OutPos  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );}``` | 
+| <strong>partagé</strong> | Marquer une variable pour le partage entre les effets ; Il s’agit d’un indicateur pour le compilateur. | 
+| <strong>groupshared</strong> | Marquez une variable pour la mémoire partagée de groupe de threads pour les nuanceurs de calcul. Dans D3D10, la taille totale maximale de toutes les variables avec la classe de stockage groupshared est de 16 Ko, dans D3D11 la taille maximale est de 32 Ko. Consultez les exemples. | 
+| <strong>static</strong> | Marquez une variable locale pour qu’elle soit initialisée une fois et persiste entre les appels de fonction. Si la déclaration n’inclut pas d’initialiseur, la valeur est égale à zéro. Une variable globale marquée comme <strong>static</strong> n’est pas visible pour une application. | 
+| <strong>uniforme</strong> | Marquer une variable dont les données sont constantes tout au long de l’exécution d’un nuanceur (par exemple, une couleur de matériau dans un nuanceur de sommets); les variables globales sont considérées comme <strong>uniformes</strong> par défaut. | 
+| <strong>volatile</strong> | Marquer une variable qui change fréquemment ; Il s’agit d’un indicateur pour le compilateur. Ce modificateur de classe de stockage s’applique uniquement à une variable locale.<br /><blockquote>[!Note]<br />Le compilateur HLSL ignore actuellement ce modificateur de classe de stockage.</blockquote><br /> | 
 
-La possibilité de contrôler les optimisations de cette façon maintient l’invariance de résultat pour la variable de sortie modifiée en désactivant les optimisations qui peuvent affecter les résultats finaux en raison de différences de différences de précision accumulée. Il est utile lorsque vous souhaitez que les nuanceurs de facettes maintiennent des jointures de patch hermétiques ou des valeurs de profondeur de correspondance sur plusieurs passes.
-
-[Exemple de code](https://github.com/microsoft/DirectXShaderCompiler/blob/master/tools/clang/test/HLSLFileCheck/hlsl/types/modifiers/precise/precise4.hlsl): 
-```HLSL
-matrix g_mWorldViewProjection;
-void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position)
-{
-  // operation is precise because it contributes to the precise parameter OutPos
-  OutPos = mul( float4( InPos, 1.0 ), g_mWorldViewProjection );
-}
-```
-</td>
-</tr>
-<tr class="even">
-<td><strong>partagé</strong></td>
-<td>Marquer une variable pour le partage entre les effets ; Il s’agit d’un indicateur pour le compilateur.</td>
-</tr>
-<tr class="odd">
-<td><strong>groupshared</strong></td>
-<td>Marquez une variable pour la mémoire partagée de groupe de threads pour les nuanceurs de calcul. Dans D3D10, la taille totale maximale de toutes les variables avec la classe de stockage groupshared est de 16 Ko, dans D3D11 la taille maximale est de 32 Ko. Consultez les exemples.</td>
-</tr>
-<tr class="even">
-<td><strong>static</strong></td>
-<td>Marquez une variable locale pour qu’elle soit initialisée une fois et persiste entre les appels de fonction. Si la déclaration n’inclut pas d’initialiseur, la valeur est égale à zéro. Une variable globale marquée comme <strong>static</strong> n’est pas visible pour une application.</td>
-</tr>
-<tr class="odd">
-<td><strong>uniforme</strong></td>
-<td>Marquer une variable dont les données sont constantes tout au long de l’exécution d’un nuanceur (par exemple, une couleur de matériau dans un nuanceur de sommets); les variables globales sont considérées comme <strong>uniformes</strong> par défaut.</td>
-</tr>
-<tr class="even">
-<td><strong>volatile</strong></td>
-<td>Marquer une variable qui change fréquemment ; Il s’agit d’un indicateur pour le compilateur. Ce modificateur de classe de stockage s’applique uniquement à une variable locale.<br/>
-<blockquote>
-[!Note]<br />
-Le compilateur HLSL ignore actuellement ce modificateur de classe de stockage.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
 
 
 
@@ -129,7 +72,7 @@ Modificateur de type variable facultatif.
 
 
 
-| Value             | Description                                                                                                                                                                                                                                  |
+| Valeur             | Description                                                                                                                                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **const**         | Marquer une variable qui ne peut pas être modifiée par un nuanceur, par conséquent, elle doit être initialisée dans la déclaration de la variable. Les variables globales sont considérées comme **const** par défaut (supprimez ce comportement en fournissant l’indicateur/GEC au compilateur). |
 | **ligne \_ principale**    | Marquer une variable qui stocke quatre composants sur une seule ligne afin qu’ils puissent être stockés dans un seul registre de constantes.                                                                                                                             |

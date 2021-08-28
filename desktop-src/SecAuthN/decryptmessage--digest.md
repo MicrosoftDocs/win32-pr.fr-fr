@@ -4,12 +4,12 @@ ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) (fonction)
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 5363a5efc79d78c9c88e4a817c1c341e0e0f9c02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f87828263766643a10cf5400e38cabe9d3096403
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485256"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122480865"
 ---
 # <a name="decryptmessage-digest-function"></a>DecryptMessage (Digest) (fonction)
 
@@ -55,10 +55,14 @@ Pointeur vers une variable de type **ULong** qui reçoit des indicateurs spécif
 
 Ce paramètre peut être l’un des indicateurs suivants.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th>Valeur</th><th>Signification</th></tr></thead><tbody><tr class="odd"><td><span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl> <dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt> </dl></td><td>Le message n’a pas été chiffré, mais un en-tête ou un code de fin a été créé.<br/><blockquote>[!Note]<br />
-KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br/></td></tr><tr class="even"><td><span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl> <dt><strong>SIGN_ONLY</strong></dt> </dl></td><td>Lorsque vous utilisez le SSP Digest, utilisez cet indicateur lorsque le [*contexte de sécurité*](../secgloss/s-gly.md) est défini pour vérifier la [*signature*](../secgloss/s-gly.md) uniquement. Pour plus d’informations, consultez [Quality of protection](quality-of-protection.md).<br/></td></tr></tbody></table>
 
-## <a name="return-value"></a>Valeur retournée
+| Valeur | Signification | 
+|-------|---------|
+| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | Le message n’a pas été chiffré, mais un en-tête ou un code de fin a été créé.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT a la même valeur et la même signification.</blockquote><br /> | 
+| <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | Lorsque vous utilisez le SSP Digest, utilisez cet indicateur lorsque le [*contexte de sécurité*](../secgloss/s-gly.md) est défini pour vérifier la [*signature*](../secgloss/s-gly.md) uniquement. Pour plus d’informations, consultez [Quality of protection](quality-of-protection.md).<br /> | 
+
+
+## <a name="return-value"></a>Valeur de retour
 
 Si la fonction vérifie que le message a été reçu dans l’ordre correct, la fonction retourne SEC \_ E \_ OK.
 
@@ -74,7 +78,7 @@ Si la fonction ne parvient pas à déchiffrer le message, elle retourne l’un d
 | **SEC \_ E \_ hors \_ \_ séquence**       | Le message n’a pas été reçu dans l’ordre correct.                                                                                                                        |
 | **SEC \_ E \_ QoP \_ non \_ pris en charge**     | La confidentialité et l' [*intégrité*](../secgloss/i-gly.md) ne sont pas prises en charge par le [*contexte de sécurité*](../secgloss/s-gly.md). Utilisé avec le SSP Digest.                           |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Parfois, une application lit les données du tiers distant, tente de les déchiffrer à l’aide de **DecryptMessage (Digest)** et découvre que **DecryptMessage (Digest)** a réussi, mais les tampons de sortie sont vides. Il s’agit d’un comportement normal, et les applications doivent être en mesure de les gérer.
 
@@ -84,8 +88,8 @@ Parfois, une application lit les données du tiers distant, tente de les déchif
 
 | Condition requise | Valeur |
 |--------------------------|-------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows XP uniquement\]          |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2003 \[ uniquement\] |
+| Client minimal pris en charge | Windows \[Applications de bureau XP uniquement\]          |
+| Serveur minimal pris en charge | Windows Serveur 2003 \[ applications de bureau uniquement\] |
 | En-tête                   | SSPI. h (include Security. h)               |
 | Bibliothèque                  | Secur32. lib                               |
 | DLL                      | Secur32.dll                               |

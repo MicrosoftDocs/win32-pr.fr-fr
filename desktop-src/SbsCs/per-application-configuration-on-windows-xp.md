@@ -1,22 +1,22 @@
 ---
-description: Sur Windows XP, la configuration par application remplace la configuration par défaut et la configuration du serveur de publication par application.
+description: sur Windows XP, la configuration par application remplace la configuration par défaut et la configuration du serveur de publication par application.
 ms.assetid: 5b55d12d-8805-4820-91af-5ef583de3463
 title: Configuration par application sur Windows XP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea6fa2e14e24e48be84247a23feecddf2784fbc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f07860a42951e073403e8145037074c35e6ec6a267736381f6beab385f3bb2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120127459"
 ---
 # <a name="per-application-configuration-on-windows-xp"></a>Configuration par application sur Windows XP
 
-Sur Windows XP, la configuration par application remplace la configuration [par défaut](default-configuration.md) et la [configuration](publisher-configuration.md) du serveur de publication par application. Cela redirige la dépendance d’une application spécifique d’une version d’un assembly côte à côte vers une autre version spécifiée de l’assembly.
+sur Windows XP, la configuration par application remplace la configuration [par défaut](default-configuration.md) et la [configuration](publisher-configuration.md) du serveur de publication par application. Cela redirige la dépendance d’une application spécifique d’une version d’un assembly côte à côte vers une autre version spécifiée de l’assembly.
 
 > [!Note]  
-> À compter de Windows Server 2003, la configuration par application remplace la [configuration](publisher-configuration.md) de l’éditeur pour chaque application uniquement si le [fichier de configuration](application-configuration-files.md) de l’application spécifie *apply = "no"* dans **publisherPolicy** et qu’une entrée correspondante est présente dans la base de données de compatibilité des applications. La configuration par application remplace toujours la [configuration par défaut](default-configuration.md). Pour plus d’informations, consultez [configuration par application](per-application-configuration.md).
+> à compter de Windows Server 2003, la configuration par application remplace la [configuration](publisher-configuration.md) de l’éditeur pour chaque application uniquement si le [fichier de configuration](application-configuration-files.md) de l’application spécifie *apply = "no"* dans **publisherPolicy** et qu’une entrée correspondante est présente dans la base de données de compatibilité des applications. La configuration par application remplace toujours la [configuration par défaut](default-configuration.md). Pour plus d’informations, consultez [configuration par application](per-application-configuration.md).
 
  
 

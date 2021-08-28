@@ -34,12 +34,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b59a162d36ee677ad00c8cc574282f970bc1d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8eb8f63ec9d2cdd881a2ba0946f83a40fb8be866
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952524"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122474585"
 ---
 # <a name="cim_job-class-hyper-v-management"></a>Classe CIM_Job (gestion Hyper-V)
 
@@ -88,29 +88,11 @@ La classe de **\_ tâche CIM** possède ces méthodes.
 
 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Méthode</th>
-<th style="text-align: left;">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="cim-job-killjob.md"><strong>KillJob</strong></a></td>
-<td style="text-align: left;">Cette méthode est déconseillée. Utilisez à la place la méthode <strong>RequestStateChange</strong> .<br/>
-<blockquote>
-[!Note]<br />
-Description déconseillée : ferme un travail.
-</blockquote>
-<br/></td>
-</tr>
-</tbody>
-</table>
+
+| Méthode | Description | 
+|--------|-------------|
+| <a href="cim-job-killjob.md"><strong>KillJob</strong></a> | Cette méthode est déconseillée. Utilisez à la place la méthode <strong>RequestStateChange</strong> .<br /><blockquote>[!Note]<br />Description déconseillée : ferme un travail.</blockquote><br /> | 
+
 
 
 

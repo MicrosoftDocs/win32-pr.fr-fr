@@ -4,12 +4,12 @@ ms.assetid: 7a9e304c-57ef-41a3-83be-2b2d31435da8
 title: Exemple de contrôle Web Ink
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a2f305f1dcbb412325970510c6eaa5f09732bf10d870c961820ab8d8749eda
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: dfe2035028ab622f896489b304ca850db4e25462
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119032197"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122882048"
 ---
 # <a name="ink-web-control-sample"></a>Exemple de contrôle Web Ink
 
@@ -33,7 +33,7 @@ Cet exemple se compose d’une solution qui inclut deux projets et un fichier HT
 
 ## <a name="referencing-the-control-in-html"></a>Référencement du contrôle en HTML
 
-La solution comprend un fichier HTML, default.htm. Ce fichier est la page vers laquelle le navigateur accède pour charger le contrôle. Le fichier contient une <object> balise qui fait référence au contrôle. Il comprend également un script qui est appelé lorsque la page est déchargée, comme indiqué par la présence de l’attribut OnLoad = " `OnUnload()` " dans le <body> balise. Cette fonction appelle la `DisposeResources` méthode sur le contrôle pour s’assurer que toutes les ressources sont libérées correctement à l’arrêt.
+La solution comprend un fichier HTML, default.htm. Ce fichier est la page vers laquelle le navigateur accède pour charger le contrôle. Le fichier contient une &lt; &gt; balise d’objet qui fait référence au contrôle. Il comprend également un script qui est appelé lorsque la page est déchargée, comme indiqué par la présence de l’attribut OnLoad = " `OnUnload()` " dans &lt; la &gt; balise body. Cette fonction appelle la `DisposeResources` méthode sur le contrôle pour s’assurer que toutes les ressources sont libérées correctement à l’arrêt.
 
 
 ```C++
@@ -59,7 +59,7 @@ La solution comprend un fichier HTML, default.htm. Ce fichier est la page vers l
 
 
 
-Notez le format de la valeur de l’attribut ClassID pour la <object> balise. Il nomme l’assembly, suivi d’un \# séparateur de signe, puis de l’espace de noms qui contient le contrôle, puis du nom de classe du contrôle.
+Notez le format de la valeur de l’attribut ClassID pour la &lt; &gt; balise Object. Il nomme l’assembly, suivi d’un \# séparateur de signe, puis de l’espace de noms qui contient le contrôle, puis du nom de classe du contrôle.
 
 Un contrôle utilisateur réel inclut probablement des méthodes supplémentaires utilisées pour conserver ou envoyer les données collectées dans l’application.
 

@@ -6,12 +6,12 @@ keywords:
 - AriaGridStructureErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd692c5fb82675b8fdcc6bf88fe35695113c9ef0
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 5b91010417ed01f211859839ceab124b299b10679b3d460f860c03e5b2473f77
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122379"
 ---
 # <a name="aria-grid-structure-error"></a>Erreur de structure de grille ARIA
 
@@ -21,7 +21,7 @@ L’élément avec le rôle de **grille** n’est pas associé à une structure 
 
 ## <a name="type"></a>Type
 
-Error
+Erreur
 
 ## <a name="description"></a>Description
 
@@ -41,9 +41,9 @@ Un nom accessible doit être défini pour les éléments **Grid**, **ColumnHeade
 -   attribut [**Aria-label**](https://developer.mozilla.org/docs/Web/Accessibility/ARIA) pour définir directement le nom accessible.
 -   [**titre**](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/title) pour la création d’une info-bulle qui est utilisée en même temps que le nom.
 
- 
+ 
 
- 
+ 
 
 
 

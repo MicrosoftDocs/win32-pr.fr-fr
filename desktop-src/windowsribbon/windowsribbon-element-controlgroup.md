@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 33640f8e451f7124efda8c0e5377a3145d221668
+ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "117851025"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "122631987"
 ---
 # <a name="controlgroup-element"></a>Élément ControlGroup
 
 Représente un groupe de contrôles dans un modèle de disposition [**SizeDefinition**](windowsribbon-element-sizedefinition.md) .
 
-## <a name="usage"></a>Usage
+## <a name="usage"></a>Utilisation
 
 ``` syntax
 <ControlGroup
@@ -39,10 +39,10 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col  />
+<col  />
+<col  />
+<col  />
 </colgroup>
 <thead>
 <tr class="header">
@@ -56,7 +56,7 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 <tr class="odd">
 <td><strong>SequenceNumber</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>Non<br/></td>
+<td>No<br/></td>
 <td>Valide uniquement lorsque <a href="windowsribbon-element-group.md"><strong>Group</strong></a> est l’élément parent.<br/> Chaque <em>élément</em> de la variable doit être unique au sein d’un élément de <a href="windowsribbon-element-group.md"><strong>groupe</strong></a> . Les valeurs de l’élément de <em>tâche doivent augmenter</em> pour chaque élément de <strong>groupe</strong> , mais n’ont pas besoin d’être séquentielles. <br/> <br/>
 <dt><span></span><span></span><strong></strong> (XS : positiveInteger)<br/> </dt> <dd> Toute valeur entière positive comprise entre 1000 et 59999 inclus.<br/> </dd> </dl></td>
 </tr>
@@ -72,7 +72,7 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 | Élément                                                                                 | Description                                        |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                               | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**Activé**](windowsribbon-element-checkbox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlSizeDefinition**](windowsribbon-element-controlsizedefinition.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>               | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -96,13 +96,13 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 | **ControlGroup**<br/>                                                         |
 | [**Groupe**](windowsribbon-element-group.md)<br/>                             |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**Ligne**](windowsribbon-element-row.md)<br/>                                 |
+| [**Haut**](windowsribbon-element-row.md)<br/>                                 |
 
 
 
 ## <a name="remarks"></a>Remarques
 
-Facultatif.
+Optionnel.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Group**](windowsribbon-element-group.md) ou **ControlGroup** .
 

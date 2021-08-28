@@ -4,18 +4,18 @@ ms.assetid: 3e8495f6-0860-4ea8-a258-784eaade85c7
 title: Constantes PacketPropertyGuids (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9eb946b170b1004deea7eb1f2faafeee5bc5dba
-ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
+ms.openlocfilehash: b8b88a59d63bc8b45ea04e133f0d002fa86e35e5
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122884508"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122481075"
 ---
 # <a name="packetpropertyguids-constants"></a>Constantes PacketPropertyGuids
 
 Définit des valeurs qui spécifient les propriétés du paquet. La tablette PCAPI utilise des identificateurs globaux uniques (GUID) pour identifier les propriétés des paquets, qui sont des chaînes constantes dans COM.
 
-en C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, qui se trouve dans le &lt; &gt; répertoire lecteur_système : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (sdk) à l’emplacement par défaut. En C++, ces constantes sont WCHARs, et non BSTR. Convertissez-les en BSTR avant d’utiliser. Pour plus d’informations sur le type de données BSTR, consultez [utilisation de la bibliothèque com](using-the-com-library.md).
+en C++, vous pouvez accéder à ces constantes dans le fichier d’en-tête Msinkaut. h, situé dans le <systemdrive> \\ répertoire : Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ include si vous avez installé le kit de développement logiciel (sdk) à l’emplacement par défaut. En C++, ces constantes sont WCHARs, et non BSTR. Convertissez-les en BSTR avant d’utiliser. Pour plus d’informations sur le type de données BSTR, consultez [utilisation de la bibliothèque com](using-the-com-library.md).
 
 Le tableau suivant répertorie les champs de propriété de paquet GUID (globally unique identifier) disponibles. Utilisez ces GUID pour spécifier les propriétés que le paquet contient lorsque vous créez le contexte de tablette. Pour déterminer la plage et la résolution d’une propriété, appelez la méthode [**GetPropertyMetrics**](/windows/desktop/api/msinkaut/nf-msinkaut-iinktablet-getpropertymetrics) . Les constantes dans le tableau ci-dessous, commençant par « STR \_ », sont des représentations sous forme de chaîne des constantes binaires correspondantes indiquées dans la même cellule de table.
 
@@ -59,7 +59,7 @@ Le tableau suivant répertorie les champs de propriété de paquet GUID (globall
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

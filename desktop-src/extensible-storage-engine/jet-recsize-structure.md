@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a7ea4520a75e83c77a6403a583e9131a15df337b
-ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
+ms.openlocfilehash: 4fd0f59c821fa80d8de46f97e05aa1944354018e
+ms.sourcegitcommit: 9b5faa61c38b2d0c432b7f2dbee8c127b0e28a7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "122988226"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "122475945"
 ---
 # <a name="jet_recsize-structure"></a>Structure JET_RECSIZE
 
@@ -95,11 +95,7 @@ Le nombre total de valeurs dans l’enregistrement serait **cMultiValues**  +  *
 ### <a name="requirements"></a>Configuration requise
 
 
-| Condition requise | Valeur |
-|------------|----------|
-| <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | 
-| <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | 
-| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+| | | <p><strong>Client</strong></p> | <p>requiert Windows Vista.</p> | | <p><strong>Serveur</strong></p> | <p>requiert Windows Server 2008.</p> | | <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
 
 
 

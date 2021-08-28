@@ -4,12 +4,12 @@ ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: Utilisation de SymSrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 197a627e50c6be3a3e8636378890025a6dde091948954e2709935c7dc84fa30c
-ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.openlocfilehash: d1f0abcbd76b710e6a9429baa1ceff6d3a53a0df
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119655029"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122886498"
 ---
 # <a name="using-symsrv"></a>Utilisation de SymSrv
 
@@ -54,7 +54,7 @@ Le tableau suivant présente des exemples des types de magasins de symboles pris
 | c : \\ localCache             | Chemin d’accès à un répertoire sur l’ordinateur client.                                                                                                                                                                                                                                                                                                             |
 | https://InternetSite        | URL d’un site Web hébergeant les symboles. Doit être le magasin le plus à droite dans la liste et ne doit pas être le seul magasin de la liste.                                                                                                                                                                                                                          |
 | https://SecureInternetSite | URL d’un site Web sécurisé hébergeant les symboles. cela peut prendre en charge les mots de passe, les Windows les informations d’identification de connexion, les certificats et les cartes à puce. Doit être le magasin le plus à droite dans la liste et ne doit pas être le seul magasin de la liste.                                                                                                                              |
-| <blank>              | S’il n’y a pas de texte entre deux astérisques, cela indique le *magasin en aval par défaut*. L’emplacement est défini en appelant [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory). La valeur par défaut est un répertoire nommé « sym » situé juste en dessous du répertoire du programme de l’application appelante. C’est ce que l’on appelle parfois le *cache local par défaut*. |
+| &lt;blank&gt;              | S’il n’y a pas de texte entre deux astérisques, cela indique le *magasin en aval par défaut*. L’emplacement est défini en appelant [**SymSetHomeDirectory**](/windows/desktop/api/Dbghelp/nf-dbghelp-symsethomedirectory). La valeur par défaut est un répertoire nommé « sym » situé juste en dessous du répertoire du programme de l’application appelante. C’est ce que l’on appelle parfois le *cache local par défaut*. |
 
 
 

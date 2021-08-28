@@ -1,9 +1,9 @@
 ---
 title: Élément AUTHOR
-description: L’élément AUTHOR contient le nom de l’auteur d’un métafichier Windows Media ou d’un clip multimédia.
+description: l’élément author contient le nom de l’auteur d’un métafichier Windows ou d’un clip multimédia.
 ms.assetid: d80aad3d-4471-4310-8d43-2733ed83103c
 keywords:
-- Élément auteur Windows Media Player
+- élément AUTHOR Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d20498ebd7c8a56edc2e32bc2e76422c9b22242
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 058753d73049debe01e442f49bf12476642111549ad890e931100026badaeb3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098889"
 ---
 # <a name="author-element"></a>Élément AUTHOR
 
-L’élément **Author** contient le nom de l’auteur d’un métafichier Windows Media ou d’un clip multimédia.
+l’élément **author** contient le nom de l’auteur d’un métafichier Windows ou d’un clip multimédia.
 
 ``` syntax
 <AUTHOR>   
@@ -41,15 +41,15 @@ Cet élément n’a pas d’attributs.
 | Hierarchy       | Élément            |
 |-----------------|--------------------|
 | Éléments parents | **ASX**, **entrée** |
-| Éléments enfants  | Aucune               |
+| Éléments enfants  | None               |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet élément contient une chaîne de texte représentant le nom de l’auteur d’un métafichier Windows Media ou d’un clip multimédia. Vous pouvez utiliser l’élément **Author** au sein de l’élément **ASX** et dans les éléments d' **entrée** .
+cet élément contient une chaîne de texte représentant le nom de l’auteur d’un métafichier Windows ou d’un clip multimédia. Vous pouvez utiliser l’élément **Author** au sein de l’élément **ASX** et dans les éléments d' **entrée** .
 
 Si cet élément apparaît dans l’élément **ASX** , le texte est affiché sous la forme **Afficher** les informations.
 
@@ -87,10 +87,10 @@ Chaque **ASX** parent et élément d' **entrée** doit contenir au plus un élé
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  
