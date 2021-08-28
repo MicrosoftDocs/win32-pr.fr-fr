@@ -4,12 +4,12 @@ description: En savoir plus sur la documentation de référence de l’API du de
 ms.assetid: 127d8f2e-ede5-4667-8272-6a6a38dcd5a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0961a43bca48dc82f5aaeb35df83d5791d98edca
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4948b0c89bf08f2bcef7fd1243fffbe1263ebc142ec320b1360c7e24a6ae72bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119786762"
 ---
 # <a name="eaphost-supplicant-api-reference"></a>Informations de référence sur l’API Supplier EAPHost
 
@@ -21,9 +21,9 @@ La documentation sur l’API du demandeur EAPHost se compose des sections suivan
 -   [Énumérations du demandeur EAPHost](eap-host-supplicant-enumerations.md)
 -   [Structures du demandeur EAPHost](eap-host-supplicant-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

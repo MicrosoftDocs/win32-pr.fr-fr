@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - IACom.h
-ms.openlocfilehash: e0358aacf789c391d99c10fc0fea64670dc4710e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5943b303c01a681b1df9d6d919df1822a5f2345c85fb5c52e3ab865ee58dd0f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596629"
 ---
 # <a name="recognitionconfidence-enumeration"></a>Énumération RecognitionConfidence
 
@@ -70,7 +70,7 @@ Le [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) qui a généré le te
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**IInkAnalyzer**](iinkanalyzer.md) utilise un ou plusieurs objets [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) pour convertir l’écriture manuscrite en texte.
 
@@ -80,7 +80,7 @@ Le [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) qui a généré le te
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 

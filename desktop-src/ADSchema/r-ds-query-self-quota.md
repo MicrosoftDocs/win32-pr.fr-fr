@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d1bd8e0bcfe5de174b0725d7081df641841068f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 56a45460631ed42729de12870ff2843a885a9afd0a9338ba09c0536965873bd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702799"
 ---
 # <a name="ds-query-self-quota-extended-right"></a>Droits étendus DS-Query-Self-quota
 
@@ -39,7 +39,7 @@ Droit de contrôle d’accès qui permet à un utilisateur d’interroger les pr
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

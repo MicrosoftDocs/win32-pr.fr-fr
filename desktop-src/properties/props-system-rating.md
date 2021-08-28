@@ -1,19 +1,19 @@
 ---
-description: Système d’évaluation qui utilise des valeurs entières comprises entre 1 et 99. Il s’agit du système d’évaluation utilisé par l’interpréteur de commandes Windows Vista.
+description: Système d’évaluation qui utilise des valeurs entières comprises entre 1 et 99. il s’agit du système d’évaluation utilisé par le Shell Windows Vista.
 ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
 title: System. Rating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e411e313f0fa6042a8cbe3a076a7166928020af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9adc62e69ced0f82426f19badb1aebef0453084a9b951b749aed256aa64820a7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119598129"
 ---
 # <a name="systemrating"></a>System. Rating
 
-Système d’évaluation qui utilise des valeurs entières comprises entre 1 et 99. Il s’agit du système d’évaluation utilisé par l’interpréteur de commandes Windows Vista.
+Système d’évaluation qui utilise des valeurs entières comprises entre 1 et 99. il s’agit du système d’évaluation utilisé par le Shell Windows Vista.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -137,11 +137,11 @@ propertyDescription
             minValue = 100
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-Pour obtenir une compatibilité avec les systèmes de contrôle d’accès qui utilisent des valeurs comprises entre 1 et 5, consultez la propriété [System. SimpleRating](./props-system-simplerating.md). Notez, toutefois, que System. SimpleRating n’est pas utilisé dans l’interpréteur de commandes de Windows Vista.
+Pour obtenir une compatibilité avec les systèmes de contrôle d’accès qui utilisent des valeurs comprises entre 1 et 5, consultez la propriété [System. SimpleRating](./props-system-simplerating.md). notez, toutefois, que System. SimpleRating n’est pas utilisé dans le Shell Windows Vista.
 
 Le tableau suivant décrit ce que le système d’évaluation par étoile utilisé dans l’interface utilisateur du shell signifie en termes de valeur [System. Rating]() .
 

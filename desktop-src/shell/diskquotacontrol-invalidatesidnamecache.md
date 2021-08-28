@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4e7202c1293d32d55e12e88671ed9960d376f63e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a171aaaf8f3faa45f967f29bf0f9d742aa0fe0221b46ae4ba4f8527d9cf9715
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455889"
 ---
 # <a name="diskquotacontrolinvalidatesidnamecache-method"></a>Méthode DiskQuotaControl. InvalidateSidNameCache
 
@@ -41,11 +41,11 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms d’utilisateur et les ID de sécurité associés sont stockés dans un cache. Vous pouvez effacer ce cache en appelant **InvalidateSidNameCache**. Si, par la suite, vous créez un nouvel objet utilisateur, les informations doivent être obtenues à partir du contrôleur de domaine, et le cache doit être rétabli.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b0535a4fcd66a1872b5eaa9ec97c292de710b48c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b77d2bb63655a83716d74621a5ece097259b0a90461f902801c375a079f118f6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853779"
 ---
 # <a name="ret---ps"></a>RET-PS
 
@@ -29,9 +29,9 @@ Prend l’adresse d’une instruction de la pile d’adresses de retour et pours
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -41,7 +41,7 @@ Prend l’adresse d’une instruction de la pile d’adresses de retour et pours
 
 
 
- 
+ 
 
 Cette instruction prend l’adresse d’une instruction de la pile d’adresses de retour et poursuit son exécution. Dans le cas de la fonction main, cette instruction arrête l’exécution du nuanceur.
 
@@ -58,9 +58,9 @@ Plusieurs instructions return ne sont pas autorisées dans le programme principa
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

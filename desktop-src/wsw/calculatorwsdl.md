@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f60dc25615134bf3f28428d310c58855781993d
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: b43de4acbd6568a3ecd35d9a8075218fbda3779845cb3743bfb85a514f0cc891
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "103679510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119703629"
 ---
 # <a name="calculatorwsdl"></a>CalculatorWsdl
 
@@ -122,9 +122,9 @@ Il s’agit d’un exemple de WSDL/schéma pour les exemples de service de calcu
 </wsdl:definitions>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

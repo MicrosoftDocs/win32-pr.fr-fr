@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre InvalidSecurityDescriptorLoggingLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25ac333a7cb8b54f383f93a71131cbb0a9314466
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c2362b38c19acd8d895e5fa9640475fa401a7d5bd88c8016056df2d22c3a579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854339"
 ---
 # <a name="invalidsecuritydescriptorlogginglevel"></a>InvalidSecurityDescriptorLoggingLevel
 
@@ -21,10 +21,10 @@ Définit le niveau de détail des entrées du journal des événements sur les d
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Ole
-   InvalidSecurityDescriptorLoggingLevel = value
+   InvalidSecurityDescriptorLoggingLevel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **Registre \_ DWORD** .
 
@@ -37,7 +37,7 @@ Il s’agit d’une valeur de **Registre \_ DWORD** .
 
 
 
- 
+ 
 
 Si vous définissez directement les descripteurs de sécurité des autorisations d’exécution et d’accès (généralement appelées ACL), il est possible de construire un descripteur de sécurité dont la signification ne peut pas être interprétée sans ambiguïté. COM crée une entrée dans le journal des événements lorsqu’il rencontre un descripteur de sécurité non valide.
 
@@ -50,9 +50,9 @@ Notez que [**ActivationFailureLoggingLevel**](activationfailurelogginglevel.md) 
 [Définition de la sécurité pour les applications COM](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e372ae07a9ab523daf0b33a09e4d988a59497f2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 71a08cbc8ba542c5f7c5377156ec52baadb89a9082afa8a7e09687826c4887f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702279"
 ---
 # <a name="acs-subnet-class"></a>Classe ACS-Subnet
 
@@ -42,7 +42,7 @@ Contient les paramètres de configuration d’un serveur ACS (Bandwidth Allocati
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -69,9 +69,9 @@ Contient les paramètres de configuration d’un serveur ACS (Bandwidth Allocati
 
 
 
-## <a name="windows-2000-server-attributes"></a>Attributs du serveur Windows 2000
+## <a name="windows-2000-server-attributes"></a>attributs de serveur Windows 2000
 
-Cette classe contient les attributs suivants pour le serveur Windows 2000 :
+cette classe contient les attributs suivants pour Windows serveur 2000 :
 
 
 
@@ -86,14 +86,14 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)    | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                           | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                     | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)          | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)         | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md) | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)              | Faux     | **ACS-sous-réseau**                  |
@@ -119,7 +119,7 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -202,9 +202,9 @@ Cette classe contient les attributs suivants pour le serveur Windows 2000 :
 
 
 
-## <a name="windows-server-2003-attributes"></a>Attributs Windows Server 2003
+## <a name="windows-server-2003-attributes"></a>Windows Attributs du serveur 2003
 
-Cette classe contient les attributs suivants pour Windows Server 2003 :
+cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
@@ -219,14 +219,14 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)    | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                           | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                     | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)          | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)         | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md) | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)              | Faux     | **ACS-sous-réseau**                  |
@@ -252,7 +252,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -353,9 +353,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 :
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Attributs Windows Server 2003 R2
+## <a name="windows-server-2003-r2-attributes"></a>Windows Attributs du serveur 2003 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
+cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
@@ -370,14 +370,14 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)    | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                           | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                     | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)          | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)             | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)         | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md) | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)              | Faux     | **ACS-sous-réseau**                  |
@@ -403,7 +403,7 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                 | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                   | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                           | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)               | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                   | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -507,9 +507,9 @@ Cette classe contient les attributs suivants pour Windows Server 2003 R2 :
 
 
 
-## <a name="windows-server-2008-attributes"></a>Attributs Windows Server 2008
+## <a name="windows-server-2008-attributes"></a>Windows Attributs du serveur 2008
 
-Cette classe contient les attributs suivants pour Windows Server 2008 :
+cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
@@ -524,14 +524,14 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)       | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                              | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                   | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                   | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                        | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                        | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)        | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)        | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)             | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)                | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)                | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)            | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md)    | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)                 | Faux     | **ACS-sous-réseau**                  |
@@ -557,7 +557,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 | [**DSA-signature**](a-dsasignature.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                       | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                              | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -672,9 +672,9 @@ Cette classe contient les attributs suivants pour Windows Server 2008 :
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Attributs Windows Server 2008 R2
+## <a name="windows-server-2008-r2-attributes"></a>Windows Attributs du serveur 2008 R2
 
-Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
+cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
@@ -689,14 +689,14 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)                  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)         | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                                | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                     | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)                  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                          | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                          | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)          | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)          | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)       | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)               | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)                  | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)                  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)              | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md)      | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)                   | Faux     | **ACS-sous-réseau**                  |
@@ -722,7 +722,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 | [**DSA-signature**](a-dsasignature.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                        | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                    | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                        | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -844,7 +844,7 @@ Cette classe contient les attributs suivants pour Windows Server 2008 R2 :
 
 
 
-## <a name="windows-server-2012-attributes"></a>Attributs Windows Server 2012
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012 Attributs
 
 Cette classe contient les attributs suivants pour Windows Server 2012 :
 
@@ -861,14 +861,14 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ACS-Enable-RSVP-Accounting**](a-acsenablersvpaccounting.md)                              | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Enable-RSVP-journalisation des messages**](a-acsenablersvpmessagelogging.md)                     | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-événement-au niveau du journal**](a-acseventloglevel.md)                                            | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Duration par Flow**](a-acsmaxdurationperflow.md)                                 | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Duration-per-Flow**](a-acsmaxdurationperflow.md)                                 | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-Account-Files**](a-acsmaxnoofaccountfiles.md)                              | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-no-of-log-files**](a-acsmaxnooflogfiles.md)                                      | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-pic-bande passante**](a-acsmaxpeakbandwidth.md)                                      | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-pic-bande passante par Flow**](a-acsmaxpeakbandwidthperflow.md)                      | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-pic-Bandwidth-per-Flow**](a-acsmaxpeakbandwidthperflow.md)                      | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-Account-file**](a-acsmaxsizeofrsvpaccountfile.md)                   | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-Max-size-of-RSVP-log-file**](a-acsmaxsizeofrsvplogfile.md)                           | Faux     | **ACS-sous-réseau**                  |
-| [**ACS-Max-Token-DEBIT-per-Flow**](a-acsmaxtokenrateperflow.md)                              | Faux     | **ACS-sous-réseau**                  |
+| [**ACS-Max-Token-rate-per-Flow**](a-acsmaxtokenrateperflow.md)                              | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-Max-SDU-Size**](a-acsnonreservedmaxsdusize.md)                          | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-min-Policièred-Size**](a-acsnonreservedminpolicedsize.md)                  | Faux     | **ACS-sous-réseau**                  |
 | [**ACS-non réservé-taux de pointe**](a-acsnonreservedpeakrate.md)                               | Faux     | **ACS-sous-réseau**                  |
@@ -894,7 +894,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**DSA-signature**](a-dsasignature.md)                                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**DS-Core-propagation-données**](a-dscorepropagationdata.md)                                  | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Nom de l’extension**](a-extensionname.md)                                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**Père**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**Indicateurs**](a-flags.md)                                                                     | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**Entrée de**](a-fromentry.md)                                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Computer-Reference-BL**](a-frscomputerreferencebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**FRS-Member-Reference-BL**](a-frsmemberreferencebl.md)                                    | Faux     | [**Retour au début**](c-top.md)<br/> |
@@ -949,7 +949,7 @@ Cette classe contient les attributs suivants pour Windows Server 2012 :
 | [**ms-DS-dévoilé-List-BL**](a-msds-revealedlistbl.md)                                      | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-for-AZ-Role-BL**](a-msds-tasksforazrolebl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-tâches-pour-AZ-Task-BL**](a-msds-tasksforaztaskbl.md)                                | Faux     | [**Retour au début**](c-top.md)<br/> |
-| [**ms-DS-TDO-sortie-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
+| [**ms-DS-TDO-Egress-BL**](a-msds-tdoegressbl.md)                                            | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-TDO-entrée-BL**](a-msds-tdoingressbl.md)                                          | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-DS-value-type-référence-BL**](a-msds-valuetypereferencebl.md)                         | Faux     | [**Retour au début**](c-top.md)<br/> |
 | [**ms-Exch-owner-BL**](a-ownerbl.md)                                                        | Faux     | [**Retour au début**](c-top.md)<br/> |

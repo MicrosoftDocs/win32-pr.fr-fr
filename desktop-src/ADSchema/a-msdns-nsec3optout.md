@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af7726302675d66ee3f4da75b89cfe4c369108ec
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fbd8339edf4bbefe3b5c81e070e8bf2c980046f5dcfc8833aebf635907d1e9c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553039"
 ---
 # <a name="ms-dns-nsec3-optout-attribute"></a>attribut ms-DNS-NSEC3-désabonnement
 

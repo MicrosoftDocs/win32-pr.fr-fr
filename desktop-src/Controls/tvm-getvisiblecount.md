@@ -3,7 +3,7 @@ title: Message TVM_GETVISIBLECOUNT (commctrl. h)
 description: Obtient le nombre d’éléments qui peuvent être complètement visibles dans la fenêtre cliente d’un contrôle Tree-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetVisibleCount TreeView.
 ms.assetid: c3519543-3fb2-4ecf-ac01-905d0946cb1b
 keywords:
-- TVM_GETVISIBLECOUNT les contrôles de message Windows
+- TVM_GETVISIBLECOUNT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1927d21741b109c5f00aa964b058dc0c34732529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07604eed3d3ece140d33bb9c612a2f898f6de02785f2c9916332de60358693fe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698658"
 ---
 # <a name="tvm_getvisiblecount-message"></a>TVM \_ GETVISIBLECOUNT message
 
@@ -39,7 +39,7 @@ Obtient le nombre d’éléments qui peuvent être complètement visibles dans l
 
 Retourne le nombre d’éléments qui peuvent être complètement visibles dans la fenêtre cliente du contrôle Tree-View.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nombre d’éléments pouvant être entièrement visibles peut être supérieur au nombre d’éléments dans le contrôle. Le contrôle calcule cette valeur en divisant la hauteur de la fenêtre client par la hauteur d’un élément.
 
@@ -51,8 +51,8 @@ Notez que la valeur de retour est le nombre d’éléments qui peuvent être *en
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

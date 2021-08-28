@@ -4,19 +4,19 @@ ms.assetid: 9c536c4e-fbf8-4c16-932f-e5863b7652fe
 title: Création de topologies de lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f6d34e9237278766ccb1ee174ba6c09bf953933
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 563fcef0c9ba8b1a4a33aefc17c5cea744f051470bb04df0ab4699ed4af6fa8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119600819"
 ---
 # <a name="creating-playback-topologies"></a>Création de topologies de lecture
 
 Cette rubrique explique comment créer une topologie pour la lecture audio ou vidéo. Pour la lecture de base, vous pouvez créer une topologie partielle, dans laquelle les nœuds sources sont connectés directement aux nœuds de sortie. Vous n’avez pas besoin d’insérer de nœuds pour les transformations intermédiaires, telles que les décodeurs ou les convertisseurs de couleurs. La session multimédia utilise le chargeur de topologie pour résoudre la topologie, et le chargeur de topologie insère les transformations qui sont requises.
 
 -   [Création de la topologie](#creating-the-topology)
--   [Connexion de flux à des récepteurs multimédias](#connecting-streams-to-media-sinks)
+-   [connexion de Flux à des récepteurs multimédias](#connecting-streams-to-media-sinks)
 -   [Création du récepteur multimédia](#creating-the-media-sink)
 -   [Next Steps](#next-steps)
 -   [Rubriques connexes](#related-topics)
@@ -33,7 +33,7 @@ Voici les étapes générales pour créer une topologie de lecture partielle à 
     2.  Vérifiez si le flux est actuellement sélectionné. (Si vous le souhaitez, vous pouvez sélectionner ou désélectionner un flux, en fonction du type de média.)
     3.  Si le flux est sélectionné, créez un objet d’activation pour le récepteur multimédia, en fonction du type de média du flux.
     4.  Ajoutez un nœud source pour le flux et un nœud de sortie pour le récepteur multimédia.
-    5.  Connectez le nœud source au nœud de sortie.
+    5.  Connecter le nœud source vers le nœud de sortie.
 
 Pour faciliter ce processus, l’exemple de code de cette rubrique est organisé en plusieurs fonctions. La fonction de niveau supérieur est nommée `CreatePlaybackTopology` . Il accepte trois paramètres :
 
@@ -100,7 +100,7 @@ Cette fonction effectue les étapes suivantes :
 2.  Appelez [**IMFPresentationDescriptor :: GetStreamDescriptorCount**](/windows/desktop/api/mfidl/nf-mfidl-imfpresentationdescriptor-getstreamdescriptorcount) pour connaître le nombre de flux dans la présentation.
 3.  Pour chaque flux, appelez la fonction définie par l’application `AddBranchToPartialTopology` dans une branche de la topologie. Cette fonction est présentée dans la section suivante.
 
-## <a name="connecting-streams-to-media-sinks"></a>Connexion de flux à des récepteurs multimédias
+## <a name="connecting-streams-to-media-sinks"></a>connexion de Flux à des récepteurs multimédias
 
 Pour chaque flux sélectionné, ajoutez un nœud source et un nœud de sortie, puis connectez les deux nœuds. Le nœud source représente le flux. Le nœud de sortie représente soit le [convertisseur de vidéo amélioré](enhanced-video-renderer.md) (EVR), soit le [convertisseur audio de streaming](streaming-audio-renderer.md) (SAR).
 

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fda1f1305904fa919bb2080fe5de02f0e5850a8a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 359478d7cf6069e17ae02358f4ea48ffc44169f6822f4f8b3e33dad332fab020
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119546369"
 ---
 # <a name="win32_clientapplicationsetting-class"></a>\_Classe ClientApplicationSetting Win32
 
@@ -84,7 +84,7 @@ Référence à l’instance qui représente le fichier exécutable qui utilise l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Win32 \_ ClientApplicationSetting** ne prend pas en charge l’énumération.
 

@@ -3,7 +3,7 @@ title: Message CBEM_GETEXTENDEDSTYLE (commctrl. h)
 description: Obtient les styles étendus en cours d’utilisation pour un contrôle ComboBoxEx.
 ms.assetid: 7c661d9c-fa9a-4284-9bb0-d54708cb6468
 keywords:
-- CBEM_GETEXTENDEDSTYLE les contrôles de message Windows
+- CBEM_GETEXTENDEDSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d13320813634f393ba3543e028f2d79bca2b537
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8dde66404db390c467004c1ea100fa04761820d73faa226e47f76790631f0c5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699289"
 ---
 # <a name="cbem_getextendedstyle-message"></a>\_Message CBEM GETEXTENDEDSTYLE
 
@@ -45,8 +45,8 @@ Retourne une valeur DWORD qui contient les [styles étendus de contrôle ComboBo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

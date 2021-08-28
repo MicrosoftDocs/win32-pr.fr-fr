@@ -4,12 +4,12 @@ ms.assetid: 9aa7dd65-6bf9-4731-8085-a9eab4224cdd
 title: DXGI_ERROR (winerror. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 369ab027f41b8b46938bda5d5eba42182a9cbf4b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 89df7e09ed11232d7d8e720df7cb2be57e865f4803253bf89aee717922481fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117910038"
 ---
 # <a name="dxgi_error"></a>\_erreur dxgi
 
@@ -47,7 +47,7 @@ Codes d’erreur qui peuvent être retournés par une fonction DXGI.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez être intéressé uniquement par le fait que la méthode a réussi ou échoué. La meilleure façon de tester si une valeur **HRESULT** indique la réussite ou l’échec consiste à passer la valeur à l’une des macros suivantes, définie dans Winerror. h :
 
@@ -73,7 +73,7 @@ Par exemple, **l' \_ erreur dxgi un \_ \_ appel non valide** est défini en tant
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 
 

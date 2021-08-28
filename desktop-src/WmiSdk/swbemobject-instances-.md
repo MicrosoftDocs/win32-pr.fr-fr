@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c573c1e94cd473d22483c7b6a2c801c3e6bcb9dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2b0be2915bf8a128b096f9c1903a2c30c90e45adb77c390a396875d2f66fb3f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119732479"
 ---
 # <a name="swbemobjectinstances_-method"></a>SWbemObject. instances, \_ méthode
 
@@ -181,7 +181,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **méthode \_ instances** fonctionne uniquement pour les objets de classe. Il n’y a pas d’erreur pour que la collection retournée n’ait aucun élément. Le comportement par défaut de cette méthode est [*semi-synchrone*](gloss-s.md) en raison de la valeur *IFlags* par défaut **wbemFlagReturnImmediately**.
 

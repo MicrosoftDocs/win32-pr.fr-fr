@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-attribut d’emplacement
+title: attribut MS-SQL-Location
 description: Chaîne définie par l’utilisateur. La valeur par défaut est l’emplacement.
 ms.assetid: e0d8a83f-a979-49a8-a92d-842c18c8f9fd
 ms.tgt_platform: multiple
 keywords:
-- Schéma Active Directory de l’attribut d’emplacement MS-SQL
-- Schéma Active Directory de l’attribut d’emplacement mS-SQL
+- schéma active directory de l’attribut MS-SQL-Location
+- schéma active directory de l’attribut mS-SQL-Location
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ffa71a40e7deff12385e0e45eb16d8dcc998269
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 003da9f90c77d3ee79a77c8132ab8afa4a6e1431018405cc07f67bbf607f41ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509146"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705269"
 ---
-# <a name="ms-sql-location-attribute"></a>MS-SQL-attribut d’emplacement
+# <a name="ms-sql-location-attribute"></a>attribut MS-SQL-Location
 
 Chaîne définie par l’utilisateur. La valeur par défaut est l’emplacement.
 
@@ -29,8 +29,8 @@ Chaîne définie par l’utilisateur. La valeur par défaut est l’emplacement.
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | Emplacement MS-SQL-                             |
-| LDAP-Display-Name | Emplacement mS-SQL-                             |
+| CN                | emplacement MS-SQL                             |
+| LDAP-Display-Name | emplacement mS-SQL                             |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | Administrateur de domaine                        |
 | Fréquence des mises à jour  | Dans le programme d’installation du système.                            |
@@ -45,7 +45,7 @@ Chaîne définie par l’utilisateur. La valeur par défaut est l’emplacement.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

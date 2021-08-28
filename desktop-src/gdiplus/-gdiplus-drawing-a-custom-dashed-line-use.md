@@ -4,12 +4,12 @@ ms.assetid: 0e75de3b-1006-4c8f-875c-eeb0782f24b0
 title: Dessin d’une ligne en pointillés personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e108dcd6b32a47befcdd99d1f23e90c33d08446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aad7bb415ff4f7b1cbde4637ab184c9ab05e4a707e0bce8328500d39ee2b840d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104988025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120115079"
 ---
 # <a name="drawing-a-custom-dashed-line"></a>Dessin d’une ligne en pointillés personnalisée
 

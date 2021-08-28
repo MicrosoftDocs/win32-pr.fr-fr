@@ -4,12 +4,12 @@ description: L’étape de pixellisation convertit les informations vectorielles
 ms.assetid: efd3f819-7c63-4e1a-9923-8e7198354ec6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e746c5ace3512f36f9b9ad34d34a3ea578e1de36
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 3a9a7892b9bd6937e90e8b006f112d2ec1564fb099e4d54daad16824cd3cfac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913913"
 ---
 # <a name="rasterizer-stage"></a>Étape du rastériseur
 

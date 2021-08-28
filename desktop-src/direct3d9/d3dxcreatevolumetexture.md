@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 50baf125d2e5375bddb63a41a0d10ae063a57b78
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fa3e7b701649b07a9a6da9c0faeed6e0594d1c0e145126c533f87e06249fb8c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119278"
 ---
 # <a name="d3dxcreatevolumetexture-function"></a>D3DXCreateVolumeTexture fonction)
 
@@ -135,7 +135,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En interne, D3DXCreateVolumeTexture utilise [**D3DXCheckVolumeTextureRequirements**](d3dxcheckvolumetexturerequirements.md) pour ajuster les paramètres d’appel. Par conséquent, les appels à D3DXCreateVolumeTexture aboutissent souvent lorsque les appels à [**CreateVolumeTexture**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createvolumetexture) échouent.
 

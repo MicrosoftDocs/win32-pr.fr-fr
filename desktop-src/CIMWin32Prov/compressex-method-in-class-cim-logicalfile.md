@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7570cbe3ebc00708023a18da42ef35ff3306d3b0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3bd055f6cfbb2294c6a761a0019eab7e9102e77361a1267b2d9b7255ea7d00a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547709"
 ---
 # <a name="compressex-method-of-the-cim_logicalfile-class"></a>Méthode CompressEx de la \_ classe CIM LogicalFile
 
@@ -130,7 +130,7 @@ Le système de fichiers n’est pas NTFS.
 
 </dd> <dt>
 
-**Plateforme non NT/Windows 2000**
+**plateforme non NT/Windows 2000**
 </dt> <dd>
 
 12
@@ -193,7 +193,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

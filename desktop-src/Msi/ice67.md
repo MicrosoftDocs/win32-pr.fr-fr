@@ -4,12 +4,12 @@ ms.assetid: 3fc462e7-4c11-4167-a157-6c1e0791901d
 title: ICE67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ca140a2d7eace9b693e82763f6bf5824346b51e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b25f3bba6bd6efaf20b55982524840348f39e8717dc53b7699a6f5f2886df01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119787389"
 ---
 # <a name="ice67"></a>ICE67
 
@@ -19,11 +19,11 @@ Si vous ne corrigez pas un avertissement ou une erreur signalée par ICE67, le r
 
 Notez que dans certains cas, l’utilisation d’un autre composant pour le raccourci est inévitable. Par exemple, si le raccourci est créé dans le profil utilisateur et que le fichier est installé dans un répertoire qui n’est pas du profil, vous risquez de ne pas pouvoir utiliser le même composant pour les deux éléments de données. (Cela entraîne des défaillances dans les scénarios multi-utilisateur, tels que ceux décrits dans [ICE57](ice57.md)). Dans ce cas, vous serez peut-être en mesure d’utiliser des raccourcis publiés pour obtenir le comportement souhaité, ou vous pouvez simplement vous assurer que le composant cible ne peut pas passer d’une exécution à une source à une source locale.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE67 retourne une erreur ou un avertissement si la cible d’un raccourci non publié n’appartient pas au même composant que le raccourci lui-même, ou si les attributs du composant cible ne garantissent pas que les emplacements d’installation ne changeront pas.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE67 signale les erreurs et avertissements suivants pour l’exemple indiqué.
 
@@ -39,7 +39,7 @@ Pour résoudre cet avertissement, installez le raccourci dans le cadre de Compos
 
 
 
-| Fichier  | -\_ |
+| Fichier  | Composant\_ |
 |-------|-------------|
 | Fichier1 | Composant1  |
 
@@ -51,7 +51,7 @@ Pour résoudre cet avertissement, installez le raccourci dans le cadre de Compos
 
 
 
-| Raccourci  | -\_ | Cible      |
+| Raccourci  | Composant\_ | Cible      |
 |-----------|-------------|-------------|
 | Shortcut1 | Component2  | \[\#File1\] |
 

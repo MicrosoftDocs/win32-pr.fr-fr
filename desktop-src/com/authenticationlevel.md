@@ -6,12 +6,12 @@ keywords:
 - Valeur de Registre AuthenticationLevel COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 697b04bcf4992c8a6943bcb515fa0a4eae616fec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7968382ea97243c1116dd6785be34a0d1c3e6eafc6cb9ee13f16b939029a6611
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120529"
 ---
 # <a name="authenticationlevel"></a>AuthenticationLevel
 
@@ -21,11 +21,11 @@ Définit le niveau d’authentification pour les applications qui n’appellent 
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      AuthenticationLevel = value
+   {AppID_GUID}
+      AuthenticationLevel = value
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur **reg \_ DWORD** qui est équivalente \_ aux \_ constantes de niveau d’authentification RPC C \_ .
 
@@ -42,7 +42,7 @@ Il s’agit d’une valeur **reg \_ DWORD** qui est équivalente \_ aux \_ const
 
 
 
- 
+ 
 
 La valeur **AuthenticationLevel** est similaire à la valeur [**LegacyAuthenticationLevel**](legacyauthenticationlevel.md) . Si la valeur **AuthenticationLevel** est présente, elle est utilisée à la place de la valeur **LegacyAuthenticationLevel** pour cet AppID.
 
@@ -69,9 +69,9 @@ Les valeurs **AuthenticationLevel** et [**AccessPermission**](accesspermission.m
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

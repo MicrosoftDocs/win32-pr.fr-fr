@@ -6,12 +6,12 @@ keywords:
 - IPropertySetStorage Strctd STG, implémentations, système de fichiers NTFS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0d647b9cb804376a9efeb687b1524585ee938d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0794e2905cd9e8bd06804decb756b3f1f639c75e837b2d5f3181bb73939717f4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683039"
 ---
 # <a name="ipropertysetstorage-ntfs-file-system-implementation"></a>IPropertySetStorage-implémentation du système de fichiers NTFS
 
@@ -32,19 +32,19 @@ Appelez les méthodes [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-
 
 ## <a name="compatibility"></a>Compatibilité
 
-Les implémentations NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) et [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) sont disponibles à partir de Windows 2000. Les versions antérieures ne peuvent pas accéder à ces jeux de propriétés.
+les implémentations NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) et [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) sont disponibles à partir de Windows 2000. Les versions antérieures ne peuvent pas accéder à ces jeux de propriétés.
 
 L’implémentation NTFS stocke les jeux de propriétés dans les autres flux d’un fichier NTFS. Les flux de remplacement doivent être copiés lorsque le fichier principal est copié.
 
 > [!Caution]  
 > Tous les systèmes de fichiers ne prennent pas en charge ces flux. Si un fichier NTFS avec des jeux de propriétés est copié sur un volume FAT, seules les données du fichier sont copiées ; le jeu de propriétés est perdu. Dans ce cas, la fonction [**CopyFile**](/windows/desktop/api/winbase/nf-winbase-copyfile) ne retourne pas d’erreur.
 
- 
+ 
 
 > [!Caution]  
-> Si l’ordinateur qui effectue la copie de fichiers n’est pas un ordinateur exécutant Windows 2000 ou une version ultérieure, les jeux de propriétés peuvent être perdus. Par exemple, si un ordinateur exécutant le système d’exploitation Windows 95 copie un fichier NTFS, le jeu de propriétés est perdu même si le fichier de destination se trouve également sur un volume NTFS.
+> si l’ordinateur qui effectue la copie de fichiers n’est pas un ordinateur qui s’exécute sur Windows 2000 ou une version ultérieure, les jeux de propriétés peuvent être perdus. par exemple, si un ordinateur exécutant le système d’exploitation Windows 95 copie un fichier ntfs, le jeu de propriétés est perdu même si le fichier de destination se trouve également sur un volume ntfs.
 
- 
+ 
 
 ## <a name="methods"></a>Méthodes
 
@@ -80,7 +80,7 @@ Crée un objet utilisé pour énumérer les structures [**STATPROPSETSTG**](/win
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les implémentations NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) et [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) stockent des jeux de propriétés dans un fichier sans affecter le contenu de ce fichier. Par exemple, si vous créez un jeu de propriétés dans un fichier HTML nommé Default.htm, ce fichier s’affiche toujours correctement dans un navigateur Web. Autrement dit, les modifications apportées à un fichier à l’aide de ces deux interfaces ne sont pas détectables lors de l’accès à un fichier avec la fonction [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) .
 
@@ -88,7 +88,7 @@ L’implémentation NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propi
 
 L’implémentation NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) diffère de l’implémentation de fichier composé des manières suivantes :
 
--   Une structure [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) obtenue à partir de l’interface [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) contient un membre **CLSID** dont la valeur est toujours égale à zéro (**CLSID \_ null**). Avec l’implémentation de fichier composé, le membre **CLSID** correct est retourné pour les jeux de propriétés non simples (voir [objets de stockage et de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md)).
+-   Une structure [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) obtenue à partir de l’interface [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) contient un membre **CLSID** dont la valeur est toujours égale à zéro (**CLSID \_ null**). avec l’implémentation de fichier composé, le membre **clsid** correct est retourné pour les jeux de propriétés non simples (voir les [objets Stockage et de flux pour un jeu de propriétés](storage-vs--stream-for-a-property-set.md)).
 -   Lors de l’obtention d’une implémentation NTFS du pointeur d’interface [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) à l’aide de la fonction [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) ou [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) , le paramètre *grfMode* doit suivre les mêmes règles que pour l’implémentation de fichier composé.
 
     En outre, les indicateurs suivants ne peuvent pas être utilisés :
@@ -125,6 +125,6 @@ L’implémentation NTFS de [**IPropertySetStorage**](/windows/desktop/api/Propi
 [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

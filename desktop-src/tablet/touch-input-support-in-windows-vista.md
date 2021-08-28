@@ -1,19 +1,19 @@
 ---
-description: À compter de Windows Vista, la technologie Tablet PC prend en charge l’entrée tactile sur les Tablet PC avec des digitaliseurs compatibles avec les fonctions tactiles. Cette prise en charge comprend une interface utilisateur améliorée qui vous aide à cibler et à utiliser les fenêtres de commande lors de l’utilisation d’un doigt pour l’entrée.
+description: depuis Windows Vista, la technologie tablet pc prend en charge l’entrée tactile sur les tablet pc avec des digitaliseurs compatibles avec les fonctions tactiles. cette prise en charge comprend une interface utilisateur améliorée qui facilite le ciblage et l’utilisation des commandes Windows lors de l’utilisation d’un doigt pour l’entrée.
 ms.assetid: 63f1d71f-03d8-4d83-a174-e3dc7c57bad0
-title: Prise en charge des entrées tactiles dans Windows Vista
+title: prise en charge des entrées tactiles dans Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b623630c93c33b846ab1bb491fc56fe46dfe825
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e81b22130a7c731d49556db263d5c1d5565ef51aa103925969b35c98548a32d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335069"
 ---
-# <a name="touch-input-support-in-windows-vista"></a>Prise en charge des entrées tactiles dans Windows Vista
+# <a name="touch-input-support-in-windows-vista"></a>prise en charge des entrées tactiles dans Windows Vista
 
-À compter de Windows Vista, la technologie Tablet PC prend en charge l’entrée tactile sur les Tablet PC avec des digitaliseurs compatibles avec les fonctions tactiles. Cette prise en charge comprend une interface utilisateur améliorée qui vous aide à cibler et à utiliser les fenêtres de commande lors de l’utilisation d’un doigt pour l’entrée.
+depuis Windows Vista, la technologie tablet pc prend en charge l’entrée tactile sur les tablet pc avec des digitaliseurs compatibles avec les fonctions tactiles. cette prise en charge comprend une interface utilisateur améliorée qui facilite le ciblage et l’utilisation des commandes Windows lors de l’utilisation d’un doigt pour l’entrée.
 
 ## <a name="touch-digitizer-support"></a>Prise en charge du digitaliseur tactile
 
@@ -21,7 +21,7 @@ ms.locfileid: "106534332"
 
 Ne supposez pas que les entrées de stylet et de toucher s’excluent mutuellement dans les applications [**InkCollector**](inkcollector-class.md), [**InkOverlay**](inkoverlay-class.md)et [**RealTimeStylus**](realtimestylus-class.md) .
 
-Dans Windows Vista, lorsque le système reconnaît un stylet, il ignore l’entrée tactile. Autrement dit, le trait tactile se termine et le trait du stylet commence. Étant donné que cela peut changer à l’avenir, votre code ne doit pas supposer que les entrées de stylet et de toucher s’excluent mutuellement.
+dans Windows Vista, lorsque le système reconnaît un stylet, il ignore l’entrée tactile. Autrement dit, le trait tactile se termine et le trait du stylet commence. Étant donné que cela peut changer à l’avenir, votre code ne doit pas supposer que les entrées de stylet et de toucher s’excluent mutuellement.
 
 ### <a name="other-mouse-message-sources"></a>Autres sources de message de souris
 
@@ -29,7 +29,7 @@ Il y a d’autres sources de messages de souris, même lorsque l’utilisateur i
 
 ### <a name="enabling-and-disabling-the-touch-input-user-interface"></a>Activation et désactivation de l’interface utilisateur d’entrée tactile
 
-Vous pouvez activer ou désactiver l’interface utilisateur d’entrée tactile en fonction des exigences de votre application. Pour ce faire, interceptez les messages de fenêtre du système d’exploitation dans une procédure de fenêtre et modifiez le message Windows. Remplacez [WndProc](/dotnet/api/system.windows.forms.control.wndproc?view=netcore-3.1) dans votre application pour intercepter ces messages. Le \# Pseudo-code C suivant illustre l’activation et la désactivation de l’interface utilisateur d’entrée tactile. Le code illustre également l’utilisation de la même technique pour désactiver le mouvement de pression et de blocage. Cette méthode fonctionne également pour désactiver le stylet.
+Vous pouvez activer ou désactiver l’interface utilisateur d’entrée tactile en fonction des exigences de votre application. pour ce faire, interceptez les messages de fenêtre du système d’exploitation dans une procédure de fenêtre et modifiez le message de Windows. Remplacez [WndProc](/dotnet/api/system.windows.forms.control.wndproc?view=netcore-3.1) dans votre application pour intercepter ces messages. Le \# Pseudo-code C suivant illustre l’activation et la désactivation de l’interface utilisateur d’entrée tactile. Le code illustre également l’utilisation de la même technique pour désactiver le mouvement de pression et de blocage. Cette méthode fonctionne également pour désactiver le stylet.
 
 
 ```C++
@@ -78,7 +78,7 @@ protected override void WndProc(ref Message msg)
 
 <dl> <dt>
 
-[Tactile Windows](../wintouch/windows-touch-portal.md)
+[Windows Interface](../wintouch/windows-touch-portal.md)
 </dt> </dl>
 
  

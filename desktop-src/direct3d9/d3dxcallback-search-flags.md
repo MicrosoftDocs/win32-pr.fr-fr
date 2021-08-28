@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: d3302b79734557a5c1f2082ec2a4e95c03790f4a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a050263934684f766bb9b7d58b83665a31a5edbd099a43ad1947eba74ca25bb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119676379"
 ---
 # <a name="d3dxcallback_search_flags-enumeration"></a>\_Énumération d’indicateurs de recherche D3DXCALLBACK \_
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c9ead0a7f8e03b545d28c5f4c3bf266c3acba54
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 51c70b5315e9e2400e2320532e03fedcee5fb8aff79eeec222f27593bacfbc14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656929"
 ---
 # <a name="allowed-child-classes-effective-attribute"></a>Allowed-classes enfants-effectives
 
@@ -46,7 +46,7 @@ Liste des classes qui peuvent être modifiées.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

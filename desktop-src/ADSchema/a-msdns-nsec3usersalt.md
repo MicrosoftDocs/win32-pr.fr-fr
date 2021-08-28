@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d28acb28dec95ef13afc37f9d7f26d713d5cf9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1dbd1725675487ae5a6812dd77c400745b6671de0ef7db360e1c1980dd25b1b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119553019"
 ---
 # <a name="ms-dns-nsec3-user-salt-attribute"></a>MS-DNS-NSEC3-attribut sel utilisateur
 

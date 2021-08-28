@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a4bf15522798e1da5ec0bde5b729f241ff9dabde
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f52098bd48d8530d0214cf104bde027908fea9b0d21f895a382cc118133f5b3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119853159"
 ---
 # <a name="sub---vs"></a>sous-vs
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source.
 -   src1 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

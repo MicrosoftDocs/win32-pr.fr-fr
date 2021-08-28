@@ -1,5 +1,5 @@
 ---
-description: 'Fonction proxy WIC (Windows Imaging Component) pour IEnumString :: Reset.'
+description: 'Windows Fonction proxy WIC (Imaging Component) pour IEnumString :: Reset.'
 ms.assetid: 084a3de0-c6de-4ce2-ba78-5d1bacb56cb0
 title: IEnumString_Reset_WIC_Proxy fonction)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 64057e0f49b105232f980ac3d73014156e2da732
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fc06a00b5e80befe1e6a69f7c2b402597699c97bf866129ca10175e18fe34a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549619"
 ---
 # <a name="ienumstring_reset_wic_proxy-function"></a>IEnumString \_ réinitialisation de la \_ \_ fonction proxy WIC
 
-Fonction proxy WIC (Windows Imaging Component) pour IEnumString :: Reset.
+Windows Fonction proxy WIC (Imaging Component) pour IEnumString :: Reset.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -46,13 +46,13 @@ HRESULT IEnumString_Reset_WIC_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **IEnumString \** _
+Type : **IEnumString \***
 
 PARAMDESC
 
 </dd> <dt>
 
-_celt * \[ dans\]
+*celt* \[ dans\]
 </dt> <dd>
 
 Type : **ULong**
@@ -62,20 +62,20 @@ Type : **ULong**
 *rgelt* \[ à\]
 </dt> <dd>
 
-Tapez : **LPOLESTR \** _
+Type : **LPOLESTR \***
 
 </dd> <dt>
 
-_pceltFetched * \[ out\]
+*pceltFetched* \[ à\]
 </dt> <dd>
 
-Type : **ULong \** _
+Type : **ULong \***
 
 </dd> </dl>
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -87,8 +87,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

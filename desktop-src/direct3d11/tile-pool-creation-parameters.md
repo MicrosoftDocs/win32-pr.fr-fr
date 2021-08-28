@@ -4,12 +4,12 @@ description: Utilisez les paramètres de cette section pour définir des pools d
 ms.assetid: 04290AAF-8517-4557-954E-1CAA3A0CA7F6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c22ef3acf1c7b926890d1c5867df55bea4821b90
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7350dc01c845542b97674189a120c0d55db95c282dc80b11fda66230618f99b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120119469"
 ---
 # <a name="tile-pool-creation-parameters"></a>Paramètres de création d’un pool de vignettes
 
@@ -45,9 +45,9 @@ Utilisation de D3D11 \_ \_ par défaut uniquement.
 [Création de ressources en mosaïque](creating-tiled-resources.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Cette propriété différencie les albums ayant le même titre de différents artistes. Il s’agit de la concaténation de System. Music. AlbumArtist et de System. Music. AlbumTitle.
+description: Cette propriété différencie les albums ayant le même titre de différents artistes. Il s’agit de la concaténation du système. Musique. AlbumArtist et System. Musique. AlbumTitle.
 ms.assetid: e5723174-1a5e-4bc2-b067-f60e1a747c60
-title: System. Music. AlbumID
+title: Requise. Musique. AlbumID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8486f44c97622c68cc60f168876efd9d99540a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9422625510b4d9560e6a114c97a62b66059909fc161fcdbc632d3a9d9f54232
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119597259"
 ---
-# <a name="systemmusicalbumid"></a>System. Music. AlbumID
+# <a name="systemmusicalbumid"></a>Requise. Musique. AlbumID
 
-Cette propriété différencie les albums ayant le même titre de différents artistes. Il s’agit de la concaténation de System. Music. AlbumArtist et de System. Music. AlbumTitle.
+Cette propriété différencie les albums ayant le même titre de différents artistes. Il s’agit de la concaténation du système. Musique. AlbumArtist et System. Musique. AlbumTitle.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

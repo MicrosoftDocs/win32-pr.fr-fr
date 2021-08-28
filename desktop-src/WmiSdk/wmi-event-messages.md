@@ -1,20 +1,20 @@
 ---
-description: La liste suivante répertorie les événements pris en charge par les journaux WMI dans Windows Vista et les systèmes d’exploitation ultérieurs.
+description: la liste suivante répertorie les événements pris en charge par les journaux WMI dans Windows Vista et les systèmes d’exploitation ultérieurs.
 ms.assetid: ad8891cc-0b76-404d-81fc-961bcdbfae32
 ms.tgt_platform: multiple
 title: Messages d’événement WMI
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 543e7131ac0c73a9f1e0f111dafe90197989a33d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7bb2b0a732d79c8b8c11e8bd14a217ef1ee81eb29bead4a885003ea98f82898
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120709"
 ---
 # <a name="wmi-event-messages"></a>Messages d’événement WMI
 
-La liste suivante répertorie les événements pris en charge par les journaux WMI dans Windows Vista et les systèmes d’exploitation ultérieurs.
+la liste suivante répertorie les événements pris en charge par les journaux WMI dans Windows Vista et les systèmes d’exploitation ultérieurs.
 
 > [!Note]  
 > La documentation suivante est conçue pour les développeurs et les administrateurs informatiques. Si vous tentez de résoudre un message d’erreur WMI sur votre système d’hébergement, consultez le site Web [support Microsoft](https://support.microsoft.com/) .
@@ -31,7 +31,7 @@ La liste suivante répertorie les événements pris en charge par les journaux W
 
 
 
-Le service de Windows Management Instrumentation a détecté une incohérence avec l’espace de stockage WMI dans le répertoire *% windir% \\ system32 \\ WBEM \\* et n’a pas pu le récupérer. L’espace de stockage WMI sera à présent supprimé. un nouveau référentiel sera créé en fonction du mécanisme de récupération automatique.
+le Service de Windows Management Instrumentation a détecté une incohérence avec l’espace de stockage WMI dans le répertoire *% windir% \\ system32 \\ wbem \\* et n’a pas pu le récupérer. L’espace de stockage WMI sera à présent supprimé. un nouveau référentiel sera créé en fonction du mécanisme de récupération automatique.
 
 
 </dt> </dl> </dd> <dt>
@@ -44,7 +44,7 @@ Le service de Windows Management Instrumentation a détecté une incohérence av
 
 
 
-Un fournisseur, %1, a été inscrit dans le Windows Management Instrumentation l’espace de noms %2 pour utiliser le compte LocalSystem. Ce compte est privilégié et le fournisseur peut entraîner une violation de la sécurité s’il n’emprunte pas correctement les demandes des utilisateurs.
+un fournisseur, %1, a été inscrit dans le Windows Management Instrumentation l’espace de noms %2 pour utiliser le compte LocalSystem. Ce compte est privilégié et le fournisseur peut entraîner une violation de la sécurité s’il n’emprunte pas correctement les demandes des utilisateurs.
 
 
 </dt> </dl> </dd> <dt>
@@ -161,7 +161,7 @@ Le fournisseur d’événements %1 a tenté d’inscrire la requête &quot; %2 &
 
 
 
-Windows Management Instrumentation ADAP n’a pas pu se connecter à l’espace de noms %1 avec l’erreur suivante : %2.
+Windows L’instrumentation de gestion ADAP n’a pas pu se connecter à l’espace de noms %1 avec l’erreur %2 suivante.
 
 
 </dt> </dl> </dd> <dt>
@@ -213,7 +213,7 @@ Windows Management Instrumentation ADAP n’a pas pu créer la \_ classe de base
 
 
 
-Le service Windows Management Instrumentation n’a pas pu charger les fichiers du référentiel sous le répertoire *% windir% \\ system32 \\ WBEM \\*. Cela peut être dû à un endommagement dans les fichiers de référentiel, aux paramètres de sécurité de ce répertoire, à un manque d’espace disque ou à d’autres problèmes de ressources système tels que l’insuffisance de mémoire. Si cette erreur se produit à chaque redémarrage de l’ordinateur, l’administrateur de cet ordinateur devra peut-être arrêter le service WMI, passer en revue le paramètre de sécurité sur ce dossier et les fichiers de ce dossier, puis exécuter WMIDiag pour valider l’intégrité de Windows Management Instrumentation.
+le Service Windows Management Instrumentation n’a pas pu charger les fichiers du référentiel sous le répertoire *% windir% \\ system32 \\ wbem \\*. Cela peut être dû à un endommagement dans les fichiers de référentiel, aux paramètres de sécurité de ce répertoire, à un manque d’espace disque ou à d’autres problèmes de ressources système tels que l’insuffisance de mémoire. si cette erreur se produit à chaque redémarrage de l’ordinateur, l’administrateur de cet ordinateur devra peut-être arrêter le Service WMI, passer en revue le paramètre de sécurité sur ce dossier et les fichiers de ce dossier, puis exécuter WMIDiag pour valider l’intégrité de Windows Management Instrumentation.
 
 
 </dt> </dl> </dd> <dt>
@@ -239,7 +239,7 @@ L’accès à l’espace de noms %1 a été refusé parce que l’espace de noms
 
 
 
-Windows Management Instrumentation service n’a pas pu fournir de résultats de manière asynchrone pour l’espace de noms %1. L’espace de noms est marqué avec RequiresEncryption, mais WinMgmt n’a pas pu établir une connexion sécurisée à l’ordinateur client. Assurez-vous qu’il existe une relation d’approbation entre les ordinateurs client et serveur afin que le client reconnaisse le compte de l’ordinateur serveur.
+Windows Le service d’instrumentation de gestion n’a pas pu remettre les résultats de manière asynchrone pour l’espace de noms %1. L’espace de noms est marqué avec RequiresEncryption, mais WinMgmt n’a pas pu établir une connexion sécurisée à l’ordinateur client. Assurez-vous qu’il existe une relation d’approbation entre les ordinateurs client et serveur afin que le client reconnaisse le compte de l’ordinateur serveur.
 
 
 </dt> </dl> </dd> <dt>
@@ -252,7 +252,7 @@ Windows Management Instrumentation service n’a pas pu fournir de résultats de
 
 
 
-Windows Management Instrumentation s’est arrêté WMIPRVSE.EXE, car un quota a atteint une valeur d’avertissement. Quota : %1 valeur : %2 valeur maximale : %3 WMIPRVSE PID : %4.
+Windows L’instrumentation de gestion s’est arrêtée WMIPRVSE.EXE, car un quota a atteint une valeur d’avertissement. Quota : %1 valeur : %2 valeur maximale : %3 WMIPRVSE PID : %4.
 
 
 </dt> </dl> </dd> <dt>
@@ -265,7 +265,7 @@ Windows Management Instrumentation s’est arrêté WMIPRVSE.EXE, car un quota a
 
 
 
-Au démarrage du service, le service Windows Management Instrumentation n’a pas pu trouver les fichiers du référentiel. Un nouveau référentiel est créé en fonction du mécanisme de récupération automatique.
+au démarrage du service, le service Windows Management Instrumentation n’a pas pu trouver les fichiers du référentiel. Un nouveau référentiel est créé en fonction du mécanisme de récupération automatique.
 
 
 </dt> </dl> </dd> <dt>
@@ -278,7 +278,7 @@ Au démarrage du service, le service Windows Management Instrumentation n’a pa
 
 
 
-Le service de Windows Management Instrumentation a démarré.
+Windows Le service d’instrumentation de gestion a démarré avec succès.
 
 
 </dt> </dl> </dd> <dt>
@@ -291,7 +291,7 @@ Le service de Windows Management Instrumentation a démarré.
 
 
 
-Les sous-systèmes du service Windows Management Instrumentation correctement initialisés.
+Windows Sous-systèmes du service d’instrumentation de gestion correctement initialisés.
 
 
 </dt> </dl> </dd> <dt>
@@ -304,7 +304,7 @@ Les sous-systèmes du service Windows Management Instrumentation correctement in
 
 
 
-Le numéro d’erreur %1 a été retourné lors de la tentative d’initialisation du service Windows Management Instrumentation. Cela peut être dû à une version incorrecte de WMI, à une erreur de mise à niveau du référentiel WMI, à un espace disque insuffisant ou à une mémoire insuffisante.
+le numéro d’erreur %1 a été retourné lors de la tentative d’initialisation du Service Windows Management Instrumentation. Cela peut être dû à une version incorrecte de WMI, à une erreur de mise à niveau du référentiel WMI, à un espace disque insuffisant ou à une mémoire insuffisante.
 
 
 </dt> </dl> </dd> <dt>
@@ -317,7 +317,7 @@ Le numéro d’erreur %1 a été retourné lors de la tentative d’initialisati
 
 
 
-Windows Management Instrumentation référentiel recréé avec succès à l’aide du mécanisme de récupération automatique.
+Windows Le référentiel de l’instrumentation de gestion a été recréé avec succès à l’aide du mécanisme de récupération automatique.
 
 
 </dt> </dl> </dd> </dl>
