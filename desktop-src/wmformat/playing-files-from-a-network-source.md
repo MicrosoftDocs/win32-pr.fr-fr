@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), exécuter des fichiers à partir de sources réseau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f1e4e41ddf94498ddeddf90e64439c1b11b7ba8
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 8473a2feb4edd567c15d640dfd20e65c2893fe12de6c25a957cc5f730fde0baf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "106509643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027377"
 ---
 # <a name="playing-files-from-a-network-source"></a>Exécution de fichiers à partir d’une source réseau
 
@@ -24,7 +24,7 @@ La lecture à partir d’un réseau n’est pas fondamentalement différente de 
 
 Le contenu d’une source réseau se trouve dans l’une des deux catégories suivantes :
 
--   Contenu. Les données sont transmises juste à temps pour être lues sur l’ordinateur local. Les serveurs exécutant Windows Media Services peuvent fournir des données de streaming. Si le contenu de la vitesse de transmission multiple (MBR) est diffusé en continu, le client peut demander une vitesse de transmission différente du serveur en fonction de la progression de la diffusion en continu.
+-   Contenu. Les données sont transmises juste à temps pour être lues sur l’ordinateur local. les serveurs qui exécutent Services Windows Media peuvent fournir des données de streaming. Si le contenu de la vitesse de transmission multiple (MBR) est diffusé en continu, le client peut demander une vitesse de transmission différente du serveur en fonction de la progression de la diffusion en continu.
 -   Avez. Toutes les données sont transmises aussi rapidement que possible afin qu’elles puissent être enregistrées sous la forme d’un fichier sur l’ordinateur local. Les serveurs Web fournissent des données téléchargées. Il n’y a aucune communication entre le client et le serveur une fois le téléchargement démarré.
 
 Lorsque l’objet lecteur télécharge un fichier à partir d’un serveur Web, il utilise une technique appelée diffusion en continu progressive, qui permet à un joueur de commencer à afficher le contenu avant que le téléchargement soit terminé. Les données sont mises en mémoire tampon pour fournir un flot de données ininterrompues au joueur. Des informations telles que le taux de transfert et la durée du contenu sont utilisées pour déterminer la durée pendant laquelle les données doivent être mises en mémoire tampon avant de les donner au joueur.
@@ -42,9 +42,9 @@ Lorsque l’objet lecteur commence à lire le contenu, il envoie une notificatio
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

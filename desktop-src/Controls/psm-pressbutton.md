@@ -3,7 +3,7 @@ title: Message PSM_PRESSBUTTON (Prsht. h)
 description: Simule la sélection d’un bouton de feuille de propriétés. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet PressButton.
 ms.assetid: 82a55a29-d916-47ee-b0a0-f685a3a386d9
 keywords:
-- PSM_PRESSBUTTON les contrôles de message Windows
+- PSM_PRESSBUTTON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b54b04dcc7b1263019f49ff8c1de0d2c21a12a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 182a51e6017a6ffcfbba74229e95a9848bede371e7e7e0faa04abed0a60c210e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088669"
 ---
 # <a name="psm_pressbutton-message"></a>\_Message PSM PRESSBUTTON
 
@@ -69,8 +69,8 @@ Pas de valeur de retour.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

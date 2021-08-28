@@ -3,7 +3,7 @@ title: Message RB_SETBANDINFO (commctrl. h)
 description: Définit les caractéristiques d’une bande existante dans un contrôle rebar.
 ms.assetid: 00021c35-612d-4278-b10c-6e9f1f45a543
 keywords:
-- RB_SETBANDINFO les contrôles de message Windows
+- RB_SETBANDINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92e81377a40f8b6054f5d8cfae16837621b77b61
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aee89d91bc65556179d14c7e86a69a9e6399223f38bb1bcc44f746d7cd8f8a80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119798469"
 ---
 # <a name="rb_setbandinfo-message"></a>\_Message SETBANDINFO RB
 
@@ -55,8 +55,8 @@ Retourne une valeur différente de zéro en cas de réussite, ou zéro dans le c
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **RB \_ SETBANDINFOW** (Unicode) et **RB \_ SETBANDINFOA** (ANSI)<br/>             |
 

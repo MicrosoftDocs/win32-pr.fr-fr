@@ -1,19 +1,19 @@
 ---
-description: Mappe des extensions à différents. Dossiers de recherche.
+description: Cartes des extensions à différentes. Dossiers de recherche.
 ms.assetid: 6db93108-7d08-4493-b99a-cd4e5d4cbfbd
 title: System. Kind
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a229fd3c2b14b6d8d39c5135853552e349ed2a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d33d32d825de5e5fafd59311902e26c65409b47321d2aaf129165aeacbefc25a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091049"
 ---
 # <a name="systemkind"></a>System. Kind
 
-Mappe des extensions à différents. Dossiers de recherche.
+Cartes des extensions à différentes. Dossiers de recherche.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
 
@@ -588,7 +588,7 @@ propertyDescription
             mnemonics = history|webpage|webpages
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

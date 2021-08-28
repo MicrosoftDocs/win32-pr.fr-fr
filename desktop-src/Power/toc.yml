@@ -6,7 +6,7 @@
     - name: À propos de la gestion de l’alimentation
       href: about-power-management.md
       items:
-        - name: Gestion de l’alimentation Windows
+        - name: Windows Gestion de l’alimentation
           href: windows-power-management.md
         - name: État de l’alimentation du système
           href: system-power-status.md
@@ -30,7 +30,7 @@
         - name: Modes de gestion de l’alimentation
           href: power-schemes.md
           items:
-            - name: Paramètres de stratégie d’alimentation
+            - name: Paramètres de la stratégie d’alimentation
               href: power-policy-settings.md
             - name: Gestion du mode de gestion de l’alimentation
               href: managing-power-schemes.md

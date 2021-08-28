@@ -5,12 +5,12 @@ metadata:
   title: Forum aux questions (Tablet PC)
   ms.topic: article
   ms.date: 05/31/2018
-  ms.openlocfilehash: 4d91b7ab4da91e5ab97199c787ae2ab599024360a0075068f27458889c2d1b56
-  ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+  ms.openlocfilehash: 8241efbe2207dbeb6d225001f0b8fdf55f03e20f
+  ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 08/11/2021
-  ms.locfileid: "119940809"
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "122884709"
 title: Forum aux questions sur le développement pour la plateforme Tablet PC
 summary: les questions fréquemment posées (FAQ) sur le développement des composants de plateforme Tablet PC installés par le kit de développement logiciel (SDK) Windows Vista sont les suivantes.
 sections:
@@ -76,7 +76,7 @@ sections:
 
       - [exemples d’encre numérique, Windows Presentation Foundation (WPF)](/previous-versions/dotnet/netframework-3.0/aa972145(v=vs.85))
 
-      - <systemdrive>: \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ exemples \\ TabletPC
+      - &lt;lecteur_système &gt; : \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 \\ exemples \\ TabletPC
   - question: >
       Quel est le niveau de base du matériel de tablette que je dois développer pour ?
     answer: >

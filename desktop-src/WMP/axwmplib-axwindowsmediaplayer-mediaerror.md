@@ -3,7 +3,7 @@ title: Événement MediaError de l’objet AxWindowsMediaPlayer
 description: L’événement MediaError se produit lorsqu’un objet multimédia a une condition d’erreur.
 ms.assetid: a1fb3422-85c4-4856-951a-332517599984
 keywords:
-- Événement MediaError de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement MediaError de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874b9297846a8f25f25c68545df234aa1be70594
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 83dc6bceb188ff443bfdcab904242e91b30fba80c4bae4f03cfa388cf15642b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902609"
 ---
 # <a name="mediaerror-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaError de l’objet AxWindowsMediaPlayer
 
@@ -69,7 +69,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPMedia (VB et C#)**](iwmpmedia--vb-and-c.md)

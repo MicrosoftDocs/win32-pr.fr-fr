@@ -3,7 +3,7 @@ title: Message PSM_SHOWWIZBUTTONS (Prsht. h)
 description: Affiche ou masque les boutons dans un Assistant. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro PropSheet ShowWizButtons.
 ms.assetid: 669c4e51-cac1-40e1-8f23-afae0e41fc9b
 keywords:
-- PSM_SHOWWIZBUTTONS les contrôles de message Windows
+- PSM_SHOWWIZBUTTONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22e8d1fc54d556240ef3fa6d6b6185a669978b84
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 86bbad4d6f0ce8a084709c04110d093e4d79b806226bdc1fa651278b4054fa8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106538807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088479"
 ---
 # <a name="psm_showwizbuttons-message"></a>\_Message PSM SHOWWIZBUTTONS
 
@@ -63,7 +63,7 @@ Une ou plusieurs des valeurs utilisées dans *wParam*, en spécifiant les bouton
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les assistants affichent trois ou quatre boutons sous chaque page. Ce message est utilisé pour spécifier les boutons à afficher. Les assistants s' **affichent** normalement, **annulent** et un bouton **suivant** ou **Terminer** . Le bouton **Annuler** est toujours visible.
 
@@ -79,8 +79,8 @@ Si votre gestionnaire de notifications utilise [**PostMessage**](/windows/deskto
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Prsht. h</dt> </dl> |
 
 

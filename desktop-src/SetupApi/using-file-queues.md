@@ -4,12 +4,12 @@ ms.assetid: e0687907-99c0-4d08-8df5-ad572539008a
 title: Utilisation des files d’attente de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d5e043200b891bd4c068b7eabd9432a3022ae3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b3405dd6f65b0261e5ca97883c8d259795c7afe45cd76344582787c4248552f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117964012"
 ---
 # <a name="using-file-queues"></a>Utilisation des files d’attente de fichiers
 

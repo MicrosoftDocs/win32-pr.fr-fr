@@ -3,7 +3,7 @@ title: Message EM_FILELINEFROMCHAR (CommCtrl. h)
 description: Obtient l’index de la ligne qui contient l’index de caractère spécifié dans un contrôle d’édition multiligne, indépendamment de la façon dont les lignes sont affichées à l’écran.
 ms.assetid: e8e9217b-3f0c-478d-b44d-2a51868dbc5a
 keywords:
-- EM_FILELINEFROMCHAR les contrôles de message Windows
+- EM_FILELINEFROMCHAR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a083d7e12822eacfb1e29a7d4bfd2ea705f2d32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c9d238117a9f2ba18ae838eec32d7dc2fa12ba0833f9cdee54ce2d1a2c998944
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915629"
 ---
 # <a name="em_filelinefromchar-message"></a>\_Message FILELINEFROMCHAR em
 
@@ -53,8 +53,8 @@ La valeur de retour est le numéro de ligne de base zéro de la ligne contenant 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, 1809 \[ uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2019 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows 10, 1809 \[ applications de bureau uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2019 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>CommCtrl. h</dt> </dl> |
 
 

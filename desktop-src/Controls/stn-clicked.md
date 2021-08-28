@@ -3,7 +3,7 @@ title: STN_CLICKED le code de notification (winuser. h)
 description: Le \_ Code de notification cliqué sur le STN est envoyé lorsque l’utilisateur clique sur un contrôle statique avec le style de notification SS \_ . La fenêtre parente du contrôle reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: deeac9e9-c23e-4ffb-a1d7-18782efb7a5c
 keywords:
-- Contrôles Windows de code de notification STN_CLICKED
+- STN_CLICKED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f63bc496469f6edc26b4f9176f3f9157464bdd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 984bbe63444593707de7e410ebd9cb47fb60bac4766ea6ee57660f034e45924d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797869"
 ---
 # <a name="stn_clicked-notification-code"></a>STN \_ a cliqué sur le code de notification
 
@@ -59,8 +59,8 @@ Handle vers le contrôle statique.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

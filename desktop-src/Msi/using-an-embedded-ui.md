@@ -1,19 +1,19 @@
 ---
-description: Une interface utilisateur personnalisée peut être incorporée dans le package Windows Installer.
+description: une interface utilisateur personnalisée peut être incorporée dans le package Windows Installer.
 ms.assetid: d037cd8d-9c88-4851-a9da-b2179f53cee6
 title: Utilisation d’une interface utilisateur incorporée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f187e50461cfe88adc9c2cabbf8dd8b88ca97a5a
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 3153e0cb3ba79bd9c5cb6f1ee9b801c12ae828bb7d4dd332d04832bcd5200ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104042991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119527299"
 ---
 # <a name="using-an-embedded-ui"></a>Utilisation d’une interface utilisateur incorporée
 
-Une interface utilisateur personnalisée peut être incorporée dans le package Windows Installer.
+une interface utilisateur personnalisée peut être incorporée dans le package Windows Installer.
 
 Le fichier DLL contenant l’interface utilisateur personnalisée et les fichiers de ressources utilisés par l’interface utilisateur personnalisée doivent être listés dans le tableau [MsiEmbeddedUI](msiembeddedui-table.md) . Par exemple, cette table MsiEmbeddedUI contient une ligne pour le fichier DLL contenant l’interface utilisateur incorporée et une ligne pour un fichier bitmap utilisé par l’interface utilisateur.
 

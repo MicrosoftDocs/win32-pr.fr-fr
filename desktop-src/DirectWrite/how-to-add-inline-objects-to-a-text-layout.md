@@ -1,19 +1,19 @@
 ---
 title: Comment ajouter des objets intralignes à une disposition de texte
-description: Fournit un bref didacticiel sur l’ajout d’objets en ligne à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout.
+description: fournit un bref didacticiel sur l’ajout d’objets en ligne à une application DirectWrite qui affiche du texte à l’aide de l’interface IDWriteTextLayout.
 ms.assetid: 6aa9d17c-ee30-497f-9c73-ec2fa079222b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1d9ef34e38ec9b84afd887e565e76efb9618b88
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ca4969ded311bbaa4e87e5b70f1df1379c4ca549d2db06c8d1186ba548c77a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104569352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902892"
 ---
 # <a name="how-to-add-inline-objects-to-a-text-layout"></a>Comment ajouter des objets intralignes à une disposition de texte
 
-Fournit un bref didacticiel sur l’ajout d’objets en ligne à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
+fournit un bref didacticiel sur l’ajout d’objets en ligne à une application [DirectWrite](direct-write-portal.md) qui affiche du texte à l’aide de l’interface [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) .
 
 Le produit final de ce didacticiel est une application qui affiche du texte avec une image incluse incorporée, comme illustré dans la capture d’écran suivante.
 
@@ -83,7 +83,7 @@ Pour ajouter une disposition de texte, vous devez effectuer les opérations suiv
 
 ## <a name="step-2-define-a-class-derived-from-the-idwriteinlineobject-interface"></a>Étape 2 : définissez une classe dérivée de l’interface IDWriteInlineObject.
 
-La prise en charge des objets inline dans [DirectWrite](direct-write-portal.md) est assurée par l’interface [**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) . Pour utiliser des objets Inline, vous devez implémenter cette interface. Il gère le dessin de l’objet Inline, ainsi que la fourniture de métriques et d’autres informations au convertisseur.
+la prise en charge des objets inline dans [DirectWrite](direct-write-portal.md) est fournie par l’interface [**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject) . Pour utiliser des objets Inline, vous devez implémenter cette interface. Il gère le dessin de l’objet Inline, ainsi que la fourniture de métriques et d’autres informations au convertisseur.
 
 Créez un nouveau fichier d’en-tête et déclarez une interface appelée InlineImage, dérivée de [**IDWriteInlineObject**](/windows/win32/api/dwrite/nn-dwrite-idwriteinlineobject).
 
@@ -255,6 +255,6 @@ SafeRelease(&pInlineImage_);
 
 
 
- 
+ 
 
- 
+ 

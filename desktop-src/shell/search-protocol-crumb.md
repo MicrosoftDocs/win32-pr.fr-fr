@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b93764f8014a5d9446811ef622f7c5afc20acbc6193d938c98642afaae5392fa
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: 3309f18cbd5a7e2769b264e516b019d9f3ed3b06
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "118452875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885435"
 ---
 # <a name="crumb-argument-the-windows-shell"></a>Argument de navigation (Shell Windows)
 
@@ -40,7 +40,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 
 
-La <column> partie est toute propriété dans le système de propriétés, et le <value> la partie est une valeur valide pour cette propriété. La <label> partie est un alias facultatif pour la propriété qui s’affiche comme un indicateur d’interface utilisateur.
+La &lt; &gt; partie colonne est toute propriété dans le système de propriétés, et &lt; la &gt; partie valeur est une valeur valide pour cette propriété. La <label> partie est un alias facultatif pour la propriété qui s’affiche comme un indicateur d’interface utilisateur.
 
 ### <a name="general-examples"></a>Exemples généraux
 
@@ -66,7 +66,7 @@ Lorsque vous spécifiez une `location` propriété, deux paramètres supplément
 | Paramètre | Valeurs                  | Description                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | inclusion | inclure, exclure        | Spécifie si la requête doit inclure ou exclure des éléments de ce chemin d’accès. « Include » est la valeur par défaut. Windows Vista ne prend pas en charge les exclusions sans inclusions. (Voir l’exemple) |
-| récursivité | récursif, récursif | Spécifie si la recherche doit recurseiser tous les sous-dossiers à partir de la valeur définie dans l’emplacement :<value>. « Recursive » est la valeur par défaut.                             |
+| récursivité | récursif, récursif | Spécifie si la recherche doit recurseiser tous les sous-dossiers à partir de la valeur définie dans la valeur Location : &lt; &gt; . « Recursive » est la valeur par défaut.                             |
 
 
 

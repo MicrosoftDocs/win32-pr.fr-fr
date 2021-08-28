@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d44e6930d0d7e179162939c13a54f2953c5ab965
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 782f540959b134f7ca00c2bc674a64ce60ccb4f6ddf166c79f2597e582ca9fc4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120087569"
 ---
 # <a name="cbasecontrolvideogetcurrentimage-method"></a>Méthode CBaseControlVideo. GetCurrentImage
 
@@ -68,14 +68,14 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s
 | <dl> <dt>**E \_ échec**</dt> </dl>             | Échec.<br/>                                                               |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>       | Argument non valide.<br/>                                                      |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>      | Mémoire insuffisante. Retourné lorsque le paramètre *pVideoInfo* a la **valeur null**.<br/>   |
-| <dl> <dt>**NOERROR**</dt> </dl>             | Opération réussie.<br/>                                                               |
+| <dl> <dt>**NOERROR**</dt> </dl>             | Réussite.<br/>                                                               |
 | <dl> <dt>**VFW \_ E \_ non \_ suspendu**</dt> </dl> | L’opération n’a pas pu être effectuée car le filtre n’est pas suspendu.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre récupère l’image à partir de l’exemple et la copie dans la mémoire tampon de sortie. La section de la vidéo copiée dans la mémoire tampon de sortie reflète le rectangle source défini par le biais de l’interface [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo) . Elle ne reflète pas le rectangle de destination.
 
@@ -85,7 +85,7 @@ Cette fonction membre récupère l’image à partir de l’exemple et la copie 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

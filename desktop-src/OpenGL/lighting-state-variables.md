@@ -1,6 +1,6 @@
 ---
-title: Variables d’état d’éclairage
-description: Variables d’état d’éclairage
+title: Éclairage, variables d’état
+description: Éclairage, variables d’état
 ms.assetid: a9fb1e22-5e33-4b46-9c3b-2f64de5dd646
 keywords:
 - Variables d’état d’éclairage OpenGL
@@ -12,14 +12,14 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5a2d029727f4ff4a9eee353230e0843a39f082
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: dfeb867f979a0f5f2da838cdd225c91da2b67913c18cdda89c5d40a3f8ed6b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034909"
 ---
-# <a name="lighting-state-variables"></a>Variables d’état d’éclairage
+# <a name="lighting-state-variables"></a>Éclairage, variables d’état
 
 <dl> <dt><span id="GL_LIGHTING"></span><span id="gl_lighting"></span>\_éclairage GL</dt> <dd> 
 

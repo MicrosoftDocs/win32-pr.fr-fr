@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 0600cc0c1ebe086f0d6679182125350b1ee8ca98
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4bfbf00c7d8654ad851ca8c691c9f028c09648219dbe76bb4ef07fe3b830e4d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849719"
 ---
 # <a name="d3dxshmaterial-structure"></a>D3DXSHMATERIAL, structure
 
@@ -110,7 +110,7 @@ Le coefficient de diffusion réduit est un paramètre de l’équation de rendu 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les scènes non spectrales utilisent le canal rouge à partir des matériaux au lieu de la valeur de luminance.
 

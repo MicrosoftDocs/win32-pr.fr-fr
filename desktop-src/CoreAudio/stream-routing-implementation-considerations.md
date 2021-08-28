@@ -4,16 +4,16 @@ ms.assetid: ecda0b5b-6583-43b4-a9b4-f12a95f09452
 title: Considérations relatives à l’implémentation du routage de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62bd753fe027c92ffac9f5a41cea589b600d7f26
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: e440fed0035838eff18c3a93bca7271fcc484a8ce37a11ad4afd3931f357f76a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088243"
 ---
 # <a name="stream-routing-implementation-considerations"></a>Considérations relatives à l’implémentation du routage de flux
 
-Dans Windows 7, les API de plateforme de haut niveau qui utilisent des API audio de base, telles que Media Foundation, DirectSound et les API Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison audio par défaut. Les applications multimédias qui utilisent ces API utilisent le comportement de routage de flux sans aucune modification de la source. Les clients WASAPI directs peuvent utiliser les notifications envoyées par les composants audio principaux et implémenter la fonctionnalité de routage de flux.
+dans Windows 7, les api de plateforme de haut niveau qui utilisent des api Audio de base, telles que les api Media Foundation, DirectSound et Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison Audio par défaut. Les applications multimédias qui utilisent ces API utilisent le comportement de routage de flux sans aucune modification de la source. Les clients WASAPI directs peuvent utiliser les notifications envoyées par les composants audio principaux et implémenter la fonctionnalité de routage de flux.
 
 Les clients WASAPI directs (applications multimédias qui utilisent WASAPI directement) reçoivent de nouvelles notifications de session audio et de périphérique envoyées par les principaux composants audio. Le comportement de la fonctionnalité de routage de flux est défini par la manière dont l’application gère ces notifications.
 

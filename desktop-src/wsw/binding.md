@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723a729b87dc26849dbd1f84038805c5e47a0ea4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ae6e1b666f6b83915595f9fb138cc6ba2d81a434bbedd9871f27ba8fd6c6bbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119026727"
 ---
 # <a name="channel-binding"></a>liaison de canal
 
@@ -23,9 +23,9 @@ Les liaisons spécifient le protocole câble et le comportement local pour un ca
 -   Une [**\_ \_ Description de la sécurité WS**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description), qui spécifie comment sécuriser le canal.
 -   Un ensemble [**de \_ \_ Propriétés WS Channel**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_property), qui spécifient des paramètres facultatifs supplémentaires (voir aussi [**\_ \_ \_ ID de propriété de canal WS**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id)).
 
- 
+ 
 
- 
+ 
 
 
 

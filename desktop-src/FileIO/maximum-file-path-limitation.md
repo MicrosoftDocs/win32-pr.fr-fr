@@ -1,42 +1,42 @@
 ---
 description: Limite de longueur maximale du chemin d’accès.
-title: Limite de longueur maximale du chemin d’accès
+title: Limitation de longueur maximale du chemin
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 4bf5050f24827a2033c1e56fd9413c04f4e59500
-ms.sourcegitcommit: ece80b9b7082415b2f894b0696b6b3f0c8544d72
+ms.openlocfilehash: f57aba8d022e3b193289c8abf884e661797a0cf8585b7537fae19c171250eb12
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107899738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914759"
 ---
-# <a name="maximum-path-length-limitation"></a>Limite de longueur maximale du chemin d’accès
+# <a name="maximum-path-length-limitation"></a>Limitation de longueur maximale du chemin
 
-Dans l’API Windows (avec quelques exceptions décrites dans les paragraphes suivants), la longueur maximale d’un chemin d’accès est le **\_ chemin d’accès** maximal, qui est défini sous la forme de 260 caractères. Un chemin d’accès local est structuré dans l’ordre suivant : lettre de lecteur, signe deux-points, barre oblique inverse, composants de nom séparés par des barres obliques inverses et caractère null de fin. Par exemple, le chemin d’accès maximal sur le lecteur D est « D : \\ *une chaîne de chemin d’accès de 256 caractères* &lt; &gt; nulle », où « &lt; nul &gt; » représente le caractère null de fin invisible pour la page de codes actuelle du système. (Les caractères < > sont utilisés ici pour une clarté visuelle et ne peuvent pas faire partie d’une chaîne de chemin d’accès valide.)
+dans l’API Windows (avec quelques exceptions décrites dans les paragraphes suivants), la longueur maximale d’un chemin d’accès est le **\_ chemin d’accès** maximal, qui est défini sous la forme de 260 caractères. Un chemin d’accès local est structuré dans l’ordre suivant : lettre de lecteur, signe deux-points, barre oblique inverse, composants de nom séparés par des barres obliques inverses et caractère null de fin. Par exemple, le chemin d’accès maximal sur le lecteur D est « D : \\ *une chaîne de chemin d’accès de 256 caractères* &lt; &gt; nulle », où « &lt; nul &gt; » représente le caractère null de fin invisible pour la page de codes actuelle du système. (Les caractères < > sont utilisés ici pour une clarté visuelle et ne peuvent pas faire partie d’une chaîne de chemin d’accès valide.)
 
 Par exemple, vous pouvez atteindre cette limitation si vous clonez un référentiel git qui contient des noms de fichiers longs dans un dossier qui a lui-même un nom long.
 
 
 > [!Note]  
-> Les fonctions d’e/s de fichier de l’API Windows convertissent « / » en « » dans le cadre \\ de la conversion du nom en nom de style NT, sauf en cas d’utilisation du \\ \\ \\ préfixe « ? », comme indiqué dans les sections suivantes.
+> les fonctions d’e/s de fichier de l’API Windows convertissent « / » en « » dans le cadre \\ de la conversion du nom en un nom de style NT, sauf en cas d’utilisation du \\ \\ \\ préfixe « ? », comme indiqué dans les sections suivantes.
 
-L’API Windows possède de nombreuses fonctions qui ont également des versions Unicode pour autoriser un chemin d’accès de longueur étendue pour une longueur maximale du chemin d’accès de 32 767 caractères. Ce type de chemin d’accès est composé de composants séparés par des barres obliques inverses, jusqu’à la valeur retournée dans le paramètre *lpMaximumComponentLength* de la fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) (cette valeur est généralement de 255 caractères). Pour spécifier un chemin d’accès de longueur étendue, utilisez le \\ \\ \\ préfixe «  ? ». Par exemple, « \\ \\ ? \\ D : \\ *chemin d’accès très long*».
+l’API Windows possède de nombreuses fonctions qui ont également des versions Unicode pour autoriser un chemin d’accès de longueur étendue pour une longueur maximale du chemin d’accès de 32 767 caractères. Ce type de chemin d’accès est composé de composants séparés par des barres obliques inverses, jusqu’à la valeur retournée dans le paramètre *lpMaximumComponentLength* de la fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) (cette valeur est généralement de 255 caractères). Pour spécifier un chemin d’accès de longueur étendue, utilisez le \\ \\ \\ préfixe «  ? ». Par exemple, « \\ \\ ? \\ D : \\ *chemin d’accès très long*».
 
 > [!Note]  
 > Le chemin d’accès maximal de 32 767 caractères est approximatif, car le \\ \\ \\ préfixe «  ? » peut être étendu à une chaîne plus longue par le système au moment de l’exécution, et cette expansion s’applique à la longueur totale.
 
 Le \\ \\ \\ préfixe «  ? » peut également être utilisé avec les chemins d’accès construits selon la Convention d’affectation des noms (UNC). Pour spécifier un tel chemin d’accès à l’aide de l’UNC, utilisez le signe « \\ \\ ? \\ Préfixe UNC \\ . Par exemple, « \\ \\ ? \\ \\ \\ Partage de serveur UNC», où « serveur » est le nom de l’ordinateur et « partage » est le nom du dossier partagé. Ces préfixes ne sont pas utilisés dans le chemin d’accès lui-même. Elles indiquent que le chemin d’accès doit être passé au système avec une modification minimale, ce qui signifie que vous ne pouvez pas utiliser des barres obliques pour représenter des séparateurs de chemin d’accès, ou un point pour représenter le répertoire actif, ou des points doubles pour représenter le répertoire parent. Étant donné que vous ne pouvez pas utiliser le \\ \\ \\ préfixe «  ? » avec un chemin d’accès relatif, les chemins d’accès relatifs sont toujours limités à un nombre maximal de caractères de **chemin d' \_ accès** .
 
-Il n’est pas nécessaire d’effectuer une normalisation Unicode sur les chaînes de chemin d’accès et de nom de fichier pour une utilisation par les fonctions d’API d’e/s de fichier Windows, car le système de fichiers traite les noms de chemin et de fichier comme une séquence opaque de **WCHAR** s. Toute normalisation nécessaire à votre application doit être effectuée avec cela à l’esprit, à l’extérieur des appels aux fonctions d’API d’e/s de fichier Windows associées.
+il n’est pas nécessaire d’effectuer une normalisation Unicode sur les chaînes de chemin d’accès et de nom de fichier pour une utilisation par les fonctions d’API d’e/s de fichier Windows, car le système de fichiers traite les noms de chemin et de fichier comme une séquence opaque de **WCHAR** s. toute normalisation nécessaire à votre application doit être effectuée avec cela à l’esprit, à l’extérieur des appels aux fonctions d’API d’e/s de fichier Windows associées.
 
 Lors de l’utilisation d’une API pour créer un répertoire, le chemin d’accès spécifié ne peut pas être tellement long que vous ne pouvez pas ajouter un nom de fichier 8,3 (autrement dit, le nom du répertoire ne peut pas dépasser le **\_ chemin d’accès maximal** moins 12).
 
-L’interpréteur de commandes et le système de fichiers ont des exigences différentes. Il est possible de créer un chemin d’accès avec l’API Windows que l’interface utilisateur de l’interpréteur de commandes ne peut pas interpréter correctement.
+L’interpréteur de commandes et le système de fichiers ont des exigences différentes. il est possible de créer un chemin d’accès avec l’API Windows que l’interface utilisateur de l’interpréteur de commandes ne peut pas interpréter correctement.
 
-## <a name="enable-long-paths-in-windows-10-version-1607-and-later"></a>Activer les chemins d’accès longs dans Windows 10, version 1607 et versions ultérieures
+## <a name="enable-long-paths-in-windows-10-version-1607-and-later"></a>activer les chemins d’accès longs dans Windows 10, Version 1607 et versions ultérieures
 
-À partir de Windows 10, version 1607, les limitations de **\_ chemin d’accès maximales** ont été supprimées des fonctions de répertoire et de fichier Win32 courantes. Toutefois, vous devez vous abonner au nouveau comportement.
+à partir de Windows 10, la version 1607, les limitations de **\_ chemin d’accès maximales** ont été supprimées des fonctions de répertoire et de fichier Win32 courantes. Toutefois, vous devez vous abonner au nouveau comportement.
 
 Pour activer le nouveau comportement de chemin d’accès long, les deux conditions suivantes doivent être remplies :
 

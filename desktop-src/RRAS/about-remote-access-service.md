@@ -6,12 +6,12 @@ keywords:
 - RAS du service d’accès à distance, décrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a86b173f4ff9f23fffa2ff532e4f67a0ff5a7402
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0263e5168bf1aac990f94850f26b7be7abd71c4730bea691d18b11c00373f48e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120030839"
 ---
 # <a name="about-remote-access-service"></a>À propos du service d’accès à distance
 
@@ -31,15 +31,15 @@ Cette section décrit les rubriques suivantes :
 
 -   [Boîtes de dialogue courantes RAS](ras-common-dialog-boxes.md)
 -   [Opérations de connexion RAS](ras-connection-operations.md)
--   [Annuaires RAS](ras-phone-books.md)
+-   [documentation Téléphone RAS](ras-phone-books.md)
 -   [Connexion automatique RAS](ras-autodial.md)
 -   [Configuration RAS et informations de connexion](ras-configuration-and-connection-information.md)
 -   [Administration du serveur RAS](ras-server-administration.md)
 -   [Prise en charge de l’hôte de sécurité RAS](ras-security-host-support.md)
 
- 
+ 
 
- 
+ 
 
 
 

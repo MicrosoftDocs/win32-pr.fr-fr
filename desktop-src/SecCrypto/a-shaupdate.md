@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: a0f8ac49d8221538a168ade536e55766e209d3d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 103438e3ef0747aa6170848398621b0246bd15366be4d1171ce5735942011007
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101069"
 ---
 # <a name="a_shaupdate-function"></a>Une \_ fonction SHAUpdate
 
@@ -66,11 +66,11 @@ Taille de la mémoire tampon.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction peut être appelée plusieurs fois pour calculer le hachage sur des flux de données longs ou des flux de données discontinus. La [**fonction \_ SHAFinal**](a-shafinal.md) doit être appelée avant la récupération de la valeur de hachage.
 
-Cette fonction est très similaire à SHAUpdate, mais elle est appelée directement à partir de la bibliothèque, plutôt que d’être routée via l’infrastructure de chiffrement. Pour plus d’informations, consultez [fournisseurs NTCryptographic Windows](/previous-versions/tn-archive/cc723484(v=technet.10)).
+Cette fonction est très similaire à SHAUpdate, mais elle est appelée directement à partir de la bibliothèque, plutôt que d’être routée via l’infrastructure de chiffrement. pour plus d’informations, consultez [Windows les fournisseurs NTCryptographic](/previous-versions/tn-archive/cc723484(v=technet.10)).
 
 ## <a name="requirements"></a>Configuration requise
 

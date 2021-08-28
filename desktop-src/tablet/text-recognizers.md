@@ -4,12 +4,12 @@ ms.assetid: 9fbdde0e-5312-48ec-9273-ded6703b99a9
 title: Reconnaissance de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8372af61d45bb1cc8bcd8377202149073c3decc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f2a579681fbd06c6b5dd27e5388f2c797e6be50433e11490fb5fe204d1c65d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842819"
 ---
 # <a name="text-recognizers"></a>Reconnaissance de texte
 
@@ -17,11 +17,11 @@ Les reconnaissance de texte divisent un échantillon d’encre en segments et tr
 
 Un module de reconnaissance de texte retourne une chaîne Unicode pour chaque segment de reconnaissance d’encre. L’accompagnement de la chaîne est le niveau de confiance que le module de reconnaissance affecte au résultat et un mappage du résultat à l’encre d’origine. Ce mappage montre le segment de l’encre d’origine qui correspond à la chaîne de code Unicode. La chaîne qui représente la sortie du module de reconnaissance de texte est toujours représentée dans l’ordre linéaire, plutôt que dans l’ordre spatial ou l’ordre chronologique dans lequel les segments étaient entrés.
 
-Le tableau suivant répertorie les langues prises en charge par les reconnaissance de l’écriture manuscrite Microsoft et les versions de Windows dans lesquelles ces langues ont été introduites pour la première fois. Notez que certains identificateurs de langage peuvent ne pas être disponibles sur certaines versions de Windows et devront être téléchargés séparément. Des détecteurs tiers peuvent également être disponibles pour des langues supplémentaires, mais ils ne sont pas nécessairement recommandés par Microsoft.
+le tableau suivant répertorie les langues prises en charge par les reconnaissance de l’écriture manuscrite Microsoft et les versions Windows dans lesquelles ces langues ont été introduites pour la première fois. notez que certains identificateurs de langage peuvent ne pas être disponibles sur certaines versions de Windows et devront être téléchargés séparément. Des détecteurs tiers peuvent également être disponibles pour des langues supplémentaires, mais ils ne sont pas nécessairement recommandés par Microsoft.
 
 
 
-| Language                                   | Windows XP Édition Tablet PC | Windows XP Édition Tablet PC 2005 | Windows Vista | Windows 7 |
+| Langage                                   | Windows XP Édition Tablet PC | Windows XP Édition Tablet PC 2005 | Windows Vista | Windows 7 |
 |--------------------------------------------|------------------------------|-----------------------------------|---------------|-----------|
 | Chinois (simplifié et traditionnel)       | X                            |                                   |               |           |
 | Anglais (États-Unis, Royaume-Uni, Canada et Australie)    | X                            |                                   |               |           |

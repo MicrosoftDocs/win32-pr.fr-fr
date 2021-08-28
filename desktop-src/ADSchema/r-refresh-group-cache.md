@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb576b5ef2310bceedb632a3b1ab8453b4d435e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2b3a65ef0b8b9dde4735d8b2eacffb3aa381e55c2330b9b5776a3dc22c3a7570
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531379"
 ---
 # <a name="refresh-group-cache-extended-right"></a>Actualiser-groupe-à droite étendu
 
@@ -38,7 +38,7 @@ Il ne s’agit pas d’une ouverture de session GC. Aucune ouverture de session 
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -7,20 +7,20 @@ keywords:
 - assemblage des vertex OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 882db69bfeb09ee88308ef11db1e9764c12407aa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 795e5bbbd485db89315b23fc73831b4e3c2a8f386e0508df13bb5213abd4f938
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580189"
 ---
 # <a name="assembling-primitives"></a>Assemblage de primitives
 
 Une fois tous les calculs nécessaires effectués, les sommets sont assemblés dans des points de [primitives](primitives.md) , des segments de ligne ou des polygones avec l’indicateur de périphérie, la couleur et les informations de texture appropriés pour chaque vertex.
 
- 
+ 
 
- 
+ 
 
 
 

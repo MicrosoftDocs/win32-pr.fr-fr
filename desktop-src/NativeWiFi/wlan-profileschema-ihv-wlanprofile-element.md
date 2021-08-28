@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: d2d2902522c84ebe2939d42301a491521ac8a70f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cfcd9ee463ef91d04d0bebbeac800d48da32fdd777edc2a08ccf0051410160d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119799919"
 ---
 # <a name="ihv-wlanprofile-element"></a>Élément IHV (WLANProfile)
 
 L’élément IHV (WLANProfile) contient différents paramètres pour les fournisseurs de matériel indépendants. Si un profil comprend des paramètres de sécurité IHV, ceux-ci remplacent toute sécurité définie par Microsoft.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.
 
 ``` syntax
 <xs:element name="IHV"
@@ -127,8 +127,8 @@ L’élément est défini par l’élément [**WLANProfile**](wlan-profileschema
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

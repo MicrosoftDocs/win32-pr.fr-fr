@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 853ed3f3f864a3f2d857ce0e0b96557df3ab682f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7a5b0c07b45de50270df67a61e85199e8a2736fde89741c4854bf9cf4951a2fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119531079"
 ---
 # <a name="user-force-change-password-extended-right"></a>Utilisateur-force-change-droit étendu de mot de passe
 
@@ -40,7 +40,7 @@ Autorise la réinitialisation d’un mot de passe sur un compte d’utilisateur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

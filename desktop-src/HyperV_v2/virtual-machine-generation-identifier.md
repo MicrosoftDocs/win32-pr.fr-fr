@@ -4,12 +4,12 @@ ms.assetid: 0793E46B-8464-425E-8C5B-77C14DA90004
 title: Identificateur de génération de l’ordinateur virtuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df6ecbb600dbc7ae2efe14d36cb17cc75816444
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d810a1a65e95f4dde0ccf9779b1e955f2630623e362ffbf94ab8ca36d51d116e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899009"
 ---
 # <a name="virtual-machine-generation-identifier"></a>Identificateur de génération de l’ordinateur virtuel
 
@@ -31,7 +31,7 @@ Pour utiliser l’identificateur de génération d’ordinateur virtuel à parti
     -   Windows Server 2012
     -   
 
-    Le fonctionnement suivant peut être utilisé comme système d’exploitation invité si les services d’intégration Hyper-V de Windows 8 ou Windows Server 2012 sont installés.
+    le fonctionnement suivant peut être utilisé comme système d’exploitation invité si les services d’intégration Hyper-V de Windows 8 ou Windows Server 2012 sont installés.
 
     -   Windows Server 2008 R2 avec Service Pack 1 (SP1)
     -   Windows 7 Service Pack 1 (SP1)
@@ -93,7 +93,7 @@ Pour obtenir par programme l’identificateur de génération d’ordinateur vir
 
     Dans les deux modes, le format et la longueur de la mémoire tampon de sortie sont dictés par la structure [**\_ GENCOUNTER de la machine virtuelle**](/windows/desktop/api/Vmgenerationcounter/ns-vmgenerationcounter-vm_gencounter) .
 
-    Le mode d’interrogation est pris en charge sur tous les systèmes d’exploitation invités listés ci-dessus. Le mode piloté par les événements est pris en charge uniquement sur Windows Vista avec SP2, Windows Server 2008 avec SP2 et les systèmes d’exploitation ultérieurs. Sur les systèmes d’exploitation antérieurs, l’IOCTL échoue avec l’erreur de code d’erreur **\_ non \_ prise en charge** lorsqu’elle est émise en mode piloté par les événements.
+    Le mode d’interrogation est pris en charge sur tous les systèmes d’exploitation invités listés ci-dessus. le mode piloté par les événements est pris en charge uniquement sur Windows Vista avec sp2, Windows Server 2008 avec sp2 et les systèmes d’exploitation ultérieurs. Sur les systèmes d’exploitation antérieurs, l’IOCTL échoue avec l’erreur de code d’erreur **\_ non \_ prise en charge** lorsqu’elle est émise en mode piloté par les événements.
 
     Il est possible que l’identificateur de génération change entre le moment où il est récupéré par le pilote et le moment où l’IOCTL est terminée. Cela peut entraîner la réception par l’application cliente de données obsolètes. Pour éviter cela, l’application cliente peut utiliser le mode piloté par les événements pour s’assurer qu’elle finira par se familiariser avec les mises à jour de l’identificateur de génération. En prenant l’identificateur actuel de l’application cliente comme entrée, le mode piloté par les événements évite les conditions de concurrence potentielles qui pourraient provoquer l’absence de notifications de l’appelant.
 

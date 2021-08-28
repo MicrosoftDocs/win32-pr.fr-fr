@@ -3,7 +3,7 @@ title: NM_HOVER le code de notification (commctrl. h)
 description: Envoyé par un contrôle lorsque la souris pointe sur un élément. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 0eef3e88-c1f0-4f9c-9ccf-580d8e464157
 keywords:
-- Contrôles Windows de code de notification NM_HOVER
+- NM_HOVER les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69344b1aae78ebee99b86c78f4442df20f66187a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1f5d1332c54328fba1b09ecf4efd48011edbe9a81139f05ad375fb6c8b070de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088699"
 ---
 # <a name="nm_hover-notification-code"></a>\_Code de notification de pointage nm
 
@@ -55,8 +55,8 @@ Sauf spécification contraire, retourne zéro pour permettre au contrôle de tra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

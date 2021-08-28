@@ -27,12 +27,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 104710f1686f13227fbe65782c2baf9c13149650
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a354f3119fcef6da3ff204f833616eeb2ac9570cdad0712a87686904ad528958
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120035089"
 ---
 # <a name="winbio_bir_field-constants"></a>\_ \_ Constantes de champ WINBIO Bir
 
@@ -42,7 +42,7 @@ Les constantes suivantes sont utilisées pour créer un masque de masque pour le
 
 | Constante/valeur                                                                                                                                                                                                                                                                                           | Description                                                                                                                                   |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="WINBIO_BIR_FIELD_SUBHEAD_COUNT"></span><span id="winbio_bir_field_subhead_count"></span><dl> <dt>**WINBIO \_ BIR \_ \_ \_ nombre**</dt> de sous-valeur de champ <dt>0x0001</dt> </dl>                          | Fourni pour la conformité avec le NISTIR 6529-A, le format d’un patron CBEFF (Common Exchange formats) est un format, mais non utilisé.<br/> |
+| <span id="WINBIO_BIR_FIELD_SUBHEAD_COUNT"></span><span id="winbio_bir_field_subhead_count"></span><dl> <dt>**WINBIO \_ BIR \_ \_ \_ nombre**</dt> de sous-valeur de champ <dt>0x0001</dt> </dl>                          | fourni pour la conformité avec NISTIR 6529-A, le CBEFF (Common biometrics formates Exchange Framework formate), mais n’est pas utilisé.<br/> |
 | <span id="WINBIO_BIR_FIELD_PRODUCT_ID"></span><span id="winbio_bir_field_product_id"></span><dl> <dt>**WINBIO \_ BIR \_ champ \_ \_ ID produit**</dt> <dt>0x0002</dt> </dl>                                   | Le membre **ProductID** est valide.<br/>                                                                                                 |
 | <span id="WINBIO_BIR_FIELD_PATRON_ID"></span><span id="winbio_bir_field_patron_id"></span><dl> <dt>**WINBIO \_ \_ID d' \_ \_ acheteur du champ Bir**</dt> <dt>0x0004</dt> </dl>                                      | Fourni pour la conformité avec NISTIR 6529-A, CBEFF patron format A, mais n’est pas utilisé.<br/>                                                   |
 | <span id="WINBIO_BIR_FIELD_INDEX"></span><span id="winbio_bir_field_index"></span><dl> <dt>**WINBIO \_ BIR \_ \_ index de champ**</dt> <dt>0x0008</dt> </dl>                                                   | Fourni pour la conformité avec NISTIR 6529-A, CBEFF patron format A, mais n’est pas utilisé.<br/>                                                   |
@@ -67,8 +67,8 @@ Les constantes suivantes sont utilisées pour créer un masque de masque pour le
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

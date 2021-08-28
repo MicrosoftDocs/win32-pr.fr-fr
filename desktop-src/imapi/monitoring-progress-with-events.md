@@ -4,12 +4,12 @@ description: Plusieurs interfaces vous permettent d’implémenter un gestionnai
 ms.assetid: 1f15a5fe-f5d7-4e09-805f-2d0380bf2bb2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ae3b425fc096234abf59d3a082fbe8a06f3f554
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a871120ca872a3258d32290273dda11360f1d5abb356d1ec48f6130d87e45648
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119849009"
 ---
 # <a name="monitoring-progress-with-events"></a>Surveillance de la progression avec des événements
 
@@ -205,6 +205,6 @@ END SUB
 [**IFileSystemImage**](/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

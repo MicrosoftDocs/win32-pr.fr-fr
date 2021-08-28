@@ -4,27 +4,27 @@ description: Cette rubrique montre comment traiter les messages de notification 
 ms.assetid: 375634BC-CDD6-4D72-A41E-FCBFCBFE7F03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a9787e22aa01d51478ca55f0dde5d7ac944decb
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: a4ec73c31020283afe5876567a57fc1fbd8a23cee123e9dc417c14c57a86709a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119575489"
 ---
 # <a name="how-to-process-comboboxex-notifications"></a>Traitement des notifications ComboBoxEx
 
 Cette rubrique montre comment traiter les messages de notification ComboBoxEx.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

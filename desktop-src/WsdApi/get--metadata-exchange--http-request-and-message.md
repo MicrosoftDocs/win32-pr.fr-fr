@@ -4,12 +4,12 @@ ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
 title: obtenir (métadonnées Exchange) la requête et le Message HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994e02b990dc87cf8551e215bc7eae94dbcf7852
-ms.sourcegitcommit: c276a8912787b2cda74dcf54eb96df961bb1188b
+ms.openlocfilehash: 1c9cf6241b38f7fa81cc5d9a7c21a0f5e1a406aa
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "122632067"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885256"
 ---
 # <a name="get-metadata-exchange-http-request-and-message"></a>obtenir (métadonnées Exchange) la requête et le Message HTTP
 
@@ -123,14 +123,14 @@ Un message d’extraction a les points de focalisation suivants.
 <tbody>
 <tr class="odd">
 <td>À</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:To>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:To&gt;
     urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
-</wsa:To></code></pre></td>
+&lt;/wsa:To&gt;</code></pre></td>
 <td>Identificateur de l’appareil demandé pour les métadonnées.</td>
 </tr>
 <tr class="even">
 <td>Obtenir</td>
-<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsa:Action&gt;
     https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
 </wsa:Action</code></pre></td>
 <td>L’action obtenir un SOAP identifie le message en tant que message d’extraction.</td>

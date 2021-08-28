@@ -3,7 +3,7 @@ title: LVN_COLUMNOVERFLOWCLICK le code de notification (commctrl. h)
 description: Envoyé par un contrôle List-View lorsque l’utilisateur clique sur le bouton de dépassement de capacité. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 3d3bb7be-b598-450a-b829-a5aa5b1a0c5d
 keywords:
-- Contrôles Windows de code de notification LVN_COLUMNOVERFLOWCLICK
+- LVN_COLUMNOVERFLOWCLICK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7938d28be337f7255a9b84422fa090da5a494cc2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: edb28deb3dd98542791b4c8daf350e618e43db57d5090a93d49af5e55e8b39ad
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104479445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120077119"
 ---
 # <a name="lvn_columnoverflowclick-notification-code"></a>\_Code de notification LVN COLUMNOVERFLOWCLICK
 
@@ -51,7 +51,7 @@ Affectez la valeur-1 au membre **iItem** de la structure [**NMLISTVIEW**](/windo
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le récepteur de notification convertit *lParam* pour récupérer la structure [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) . Le paramètre *wParam* contient l’ID du contrôle qui envoie le code de notification.
 
@@ -63,8 +63,8 @@ Si un contrôle header est un enfant de ListView, le contrôle header doit envoy
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

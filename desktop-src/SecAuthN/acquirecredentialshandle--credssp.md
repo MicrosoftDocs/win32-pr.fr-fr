@@ -4,12 +4,12 @@ ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: AcquireCredentialsHandle (CredSSP), fonction
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 0dbece18bc7a7de8ec35764c9879380e29292e92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ab5b4f9696e266e6d07b3085cafe10384e8b6b266c9e20672021fa04e97998
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101479"
 ---
 # <a name="acquirecredentialshandle-credssp-function"></a>AcquireCredentialsHandle (CredSSP), fonction
 
@@ -95,11 +95,11 @@ Si la fonction échoue, elle retourne l’un des codes d’erreur suivants.
 | **SEC \_ E \_ SECPKG \_ \_ introuvable**   | Le package de sécurité demandé n’existe pas.                           |
 | **SEC \_ E \_ \_ informations d’identification inconnues** | Les informations d’identification fournies au package n’ont pas été reconnues.             |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **AcquireCredentialsHandle (CredSSP)** retourne un handle vers les informations d’identification d’un principal, tel qu’un utilisateur ou un client, tel qu’il est utilisé par un package de sécurité spécifique. La fonction peut retourner le handle à des informations d’identification préexistantes ou à des informations d’identification nouvellement créées et la retourner. Ce handle peut être utilisé dans les appels ultérieurs aux fonctions [**AcceptSecurityContext (CredSSP)**](acceptsecuritycontext--credssp.md) et [**InitializeSecurityContext (CredSSP)**](initializesecuritycontext--credssp.md) .
 
-En général, **AcquireCredentialsHandle (CredSSP)** ne fournit pas les informations d’identification d’autres utilisateurs ayant ouvert une session sur le même ordinateur. Toutefois, un appelant avec le \_ \_ [*privilège*](../secgloss/p-gly.md#_security_privilege_gly) se TCB nom peut obtenir les informations d’identification d’une session de connexion existante en spécifiant l’identificateur de [*connexion*](../secgloss/l-gly.md#_security_logon_identifier_gly) (LUID) de cette session. En général, il est utilisé par les modules en mode noyau qui doivent agir pour le compte d’un utilisateur connecté.
+En général, **AcquireCredentialsHandle (CredSSP)** ne fournit pas les informations d’identification d’autres utilisateurs ayant ouvert une session sur le même ordinateur. toutefois, un appelant avec SE \_ \_ [*privilège*](../secgloss/p-gly.md#_security_privilege_gly) nom TCB peut obtenir les informations d’identification d’une session de connexion existante en spécifiant l' [*identificateur de connexion*](../secgloss/l-gly.md#_security_logon_identifier_gly) (LUID) de cette session. En général, il est utilisé par les modules en mode noyau qui doivent agir pour le compte d’un utilisateur connecté.
 
 Un package peut appeler la fonction dans *pGetKeyFn* fournie par le transport d’exécution RPC. Si le transport ne prend pas en charge la notion de rappel pour récupérer les informations d’identification, ce paramètre doit avoir la **valeur null**.
 
@@ -114,8 +114,8 @@ Lorsque vous avez terminé d’utiliser les informations d’identification reto
 
 | Condition requise | Valeur |
 |--------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge | Applications de \[ Bureau Windows Vista uniquement\]                                              |
-| Serveur minimal pris en charge | Applications de bureau Windows Server 2008 \[ uniquement\]                                        |
+| Client minimal pris en charge | Windows \[Applications de bureau Vista uniquement\]                                              |
+| Serveur minimal pris en charge | Windows Serveur 2008 \[ applications de bureau uniquement\]                                        |
 | En-tête                   | SSPI. h (include Security. h)                                                      |
 | Bibliothèque                  | Secur32. lib                                                                      |
 | DLL                      | Secur32.dll                                                                      |

@@ -4,12 +4,12 @@ ms.assetid: ba4b812f-11f2-4039-958b-1a9e54432748
 title: System. contact. PrimaryTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55d2655ab57a1f416a094e0fa18b3bcab8ae03ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65dd9015c33a82dd6527bdea23859816297b52e1603c7ceaeb61282cb477f3bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091529"
 ---
 # <a name="systemcontactprimarytelephone"></a>System. contact. PrimaryTelephone
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

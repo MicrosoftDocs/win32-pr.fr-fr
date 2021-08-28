@@ -1,19 +1,19 @@
 ---
-title: Énumérations des journaux des événements Windows
-description: Le journal des événements Windows définit les énumérations suivantes.
+title: Windows Énumérations des journaux des événements
+description: Windows Le journal des événements définit les énumérations suivantes.
 ms.assetid: 2dd0e9ef-057b-4d0a-8b21-e7f14e5ae6e3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c019a090d1a12e30948e5ed1f5672853caed848c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd4fa05f1d9115c7888b3b796a90dd6a07019ad5158764bd91c80f20d96c71e3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106529060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119904029"
 ---
-# <a name="windows-event-log-enumerations"></a>Énumérations des journaux des événements Windows
+# <a name="windows-event-log-enumerations"></a>Windows Énumérations des journaux des événements
 
-Le journal des événements Windows définit les énumérations suivantes.
+Windows Le journal des événements définit les énumérations suivantes.
 
 
 
@@ -46,11 +46,11 @@ Le journal des événements Windows définit les énumérations suivantes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

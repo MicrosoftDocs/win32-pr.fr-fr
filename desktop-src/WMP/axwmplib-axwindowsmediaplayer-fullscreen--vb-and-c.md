@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. fullScreen, propriété
 description: La propriété fullScreen obtient ou définit une valeur indiquant si le contenu vidéo est lu en mode plein écran.
 ms.assetid: 6c48a54a-e0f1-4bf5-8a53-7ccc78fc76ad
 keywords:
-- propriété fullScreen lecteur Windows Media
-- propriété fullScreen lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété fullScreen
+- Lecteur Windows Media de propriété fullScreen
+- propriété fullScreen Lecteur Windows Media, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété fullScreen
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23bfb1a2c67ecfa3ba7cced6f0ccb564bb387b52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e128d8c7e0cf49d3feaae723a7fb5a51740cda47e5016df6290b4852c20ec27b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902619"
 ---
 # <a name="axwindowsmediaplayerfullscreen-property"></a>AxWindowsMediaPlayer. fullScreen, propriété
 
@@ -48,22 +48,22 @@ Public Property fullScreen As System.Boolean
 
 Valeur System. Boolean qui indique si le contenu est lu en mode plein écran. La valeur par défaut est false.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour que le mode plein écran fonctionne correctement quand vous incorporez le contrôle du lecteur Windows Media, la zone d’affichage de la vidéo doit avoir une hauteur et une largeur d’au moins un pixel. Si **UIMODE** a la valeur « mini » ou « Full », la hauteur du contrôle lui-même doit être supérieure ou égale à 65 pour s’adapter à la zone d’affichage vidéo en plus de l’interface utilisateur.
+pour que le mode plein écran fonctionne correctement lors de l’incorporation du contrôle Lecteur Windows Media, la zone d’affichage vidéo doit avoir une hauteur et une largeur d’au moins un pixel. Si **UIMODE** a la valeur « mini » ou « Full », la hauteur du contrôle lui-même doit être supérieure ou égale à 65 pour s’adapter à la zone d’affichage vidéo en plus de l’interface utilisateur.
 
 Si **UIMODE** a la valeur « invisible », l’affectation de la valeur true à cette propriété génère une erreur et n’affecte pas le comportement du contrôle.
 
-Pendant la lecture en plein écran, le lecteur Windows Media masque le curseur de la souris quand [enableContextMenu](axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md) est égal à false et **UIMODE** est égal à « None ».
+pendant la lecture en plein écran, Lecteur Windows Media masque le curseur de la souris quand [enableContextMenu](axwmplib-axwindowsmediaplayer-enablecontextmenu--vb-and-c.md) est égal à false et **uiMode** est égal à « none ».
 
-Si **UIMODE** a la valeur « Full » ou « mini », le lecteur Windows Media affiche les contrôles de transport en mode plein écran lorsque le curseur de la souris se déplace. Après un bref intervalle d’absence de mouvement de la souris, les contrôles de transport sont masqués. Si **UIMODE** a la valeur « None », aucun contrôle n’est affiché en mode plein écran.
+si **uiMode** a la valeur « full » ou « mini », Lecteur Windows Media affiche les contrôles de transport en mode plein écran lorsque le curseur de la souris se déplace. Après un bref intervalle d’absence de mouvement de la souris, les contrôles de transport sont masqués. Si **UIMODE** a la valeur « None », aucun contrôle n’est affiché en mode plein écran.
 
 > [!Note]  
-> L’affichage des contrôles de transport en mode plein écran nécessite le système d’exploitation Windows XP.
+> l’affichage des contrôles de transport en mode plein écran nécessite le système d’exploitation Windows XP.
 
  
 
-Si les contrôles de transport ne s’affichent pas en mode plein écran, le lecteur Windows Media quitte automatiquement le mode plein écran lorsque la lecture s’arrête.
+si les contrôles de transport ne s’affichent pas en mode plein écran, Lecteur Windows Media quitte automatiquement le mode plein écran lorsque la lecture s’arrête.
 
 ## <a name="examples"></a>Exemples
 
@@ -116,7 +116,7 @@ End Sub
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. uiMode (VB et C#)**](axwmplib-axwindowsmediaplayer-uimode--vb-and-c.md)

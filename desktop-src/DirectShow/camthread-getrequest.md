@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 506707bc78583fd9729ad28fb5507b82bee5e670
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2527d43dfa59ab01bc57109bd2845e5da8286524612746067b1ff2f4cb2a3c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103199"
 ---
 # <a name="camthreadgetrequest-method"></a>Méthode CAMThread. GetRequest
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne une valeur définie par la classe dérivée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode bloque jusqu’à ce qu’un autre thread appelle la méthode [**CAMThread :: CallWorker**](camthread-callworker.md) . Elle retourne ensuite le paramètre qui a été passé à CallWorker. Appelez la méthode [**CAMThread :: reply**](camthread-reply.md) pour libérer le thread demandeur.
 
@@ -54,7 +54,7 @@ Cette méthode bloque jusqu’à ce qu’un autre thread appelle la méthode [**
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

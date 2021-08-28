@@ -4,12 +4,12 @@ ms.assetid: 800aa01b-6064-45df-a40e-6537819df4d7
 title: Stratégie de métadonnées de photo System. photo. DateTaken
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc1d3fb50a9a94e4bb13b35a0a5726572d78429f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 691476c704d3fdbc4ff5e01467031f2b41884ccb16be537904484a9d01c8fa18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087075"
 ---
 # <a name="systemphotodatetaken-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. DateTaken
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. photo. Date
 
 \_Photo \_ DateTaken
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -45,7 +45,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  | Format de disque |
+| Commande | Chemin                                  | Format de disque |
 |-------|---------------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36867}         | ascii       |
 | 2     | /APP13/IRB/8bimiptc/IPTC/Date créé | unicode     |
@@ -62,7 +62,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  | Format de disque |
+| Commande | Chemin                                  | Format de disque |
 |-------|---------------------------------------|-------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36867}         | ascii       |
 | 2     | /APP13/IRB/8bimiptc/IPTC/Date créé | unicode     |
@@ -78,7 +78,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                  |
+| Commande | Chemin                                  |
 |-------|---------------------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 36867}         |
 | 2     | /App1/IFD/EXIF/{UShort = 37521}         |
@@ -99,7 +99,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque |
+| Commande | Chemin                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 36867}            | ascii       |
 | 2     | /IFD/IPTC/Date créé              | unicode     |
@@ -117,7 +117,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                | Format de disque |
+| Commande | Chemin                                | Format de disque |
 |-------|-------------------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 36867}            | ascii       |
 | 2     | /IFD/IPTC/Date créé              | unicode     |
@@ -134,7 +134,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                                |
+| Commande | Chemin                                |
 |-------|-------------------------------------|
 | 1     | /IFD/EXIF/{UShort = 36867}            |
 | 2     | /IFD/EXIF/{UShort = 37521}            |
@@ -157,7 +157,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /\[\*\]Texte/heure de création | ascii       |
 
@@ -169,7 +169,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 2     | /\[\*\]Texte/heure de création | ascii       |
 
@@ -181,7 +181,7 @@ Les valeurs de différents schémas sont conciliées.
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 3     | /\[\*\]Texte/heure de création |
 
@@ -189,7 +189,7 @@ Les valeurs de différents schémas sont conciliées.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

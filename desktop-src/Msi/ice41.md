@@ -4,22 +4,22 @@ ms.assetid: 43572322-ba23-4f99-be34-e572d4c6e3eb
 title: ICE41
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4bc6c0a8bb634706750810484963e56b6d6e0ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c220e43cf8a275e520f5babe1ca609a1cee2194b4c08f8dcdafabe6d73bdca4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119581109"
 ---
 # <a name="ice41"></a>ICE41
 
 ICE41 vérifie que les entrées dans les tables de [classes](class-table.md) et d' [Extensions](extension-table.md) font référence aux entrées de la [table de composants](component-table.md) qui implémentent l’objet de classe ou l’extension du composant.
 
-## <a name="result"></a>Résultats
+## <a name="result"></a>Résultat
 
 ICE41 publie une erreur s’il existe une fonctionnalité qui ne contient pas le composant qui implémente l’extension ou l’objet de classe.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a>Exemples
 
 ICE41 signale les erreurs suivantes pour l’exemple indiqué.
 
@@ -38,7 +38,7 @@ ICE41 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| Fonctionnalité\_ |
+| Caractéristique\_ |
 |-----------|
 | Feature1  |
 | Feature2  |
@@ -51,7 +51,7 @@ ICE41 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| CLSID                                  | -\_ | Fonctionnalité\_ |
+| CLSID                                  | Composant\_ | Caractéristique\_ |
 |----------------------------------------|-------------|-----------|
 | {00000000-0000-0000-0000-000000000000} | Composant1  | Feature2  |
 
@@ -63,7 +63,7 @@ ICE41 signale les erreurs suivantes pour l’exemple indiqué.
 
 
 
-| Extension | -\_ | Fonctionnalité\_ |
+| Extension | Composant\_ | Caractéristique\_ |
 |-----------|-------------|-----------|
 | .yip      | Component2  | Feature1  |
 

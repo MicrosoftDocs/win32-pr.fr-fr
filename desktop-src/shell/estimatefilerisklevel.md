@@ -13,16 +13,16 @@ api_type:
 api_location:
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-ms.openlocfilehash: 2def6cb5bc2ed59a98e9e513aba1b5b578cd8681
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 8cf7514be0d784085acd74536036c159c9f8e9217287e86bea2f75defbb94801
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090609"
 ---
 # <a name="estimatefilerisklevel-function"></a>EstimateFileRiskLevel fonction)
 
-\[Cette fonction est disponible sur Windows XP avec Service Pack 2 (SP2) par le biais de Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. À la place, les applications clientes doivent utiliser [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) pour présenter un environnement utilisateur qui permet de télécharger et d’échanger des fichiers en toute sécurité via des pièces jointes de messagerie électronique et de messagerie.\]
+\[cette fonction est disponible sur Windows XP avec Service Pack 2 (SP2) via Windows Vista. Il peut être modifié ou non disponible dans les versions ultérieures de Windows. À la place, les applications clientes doivent utiliser [**IAttachmentExecute**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iattachmentexecute) pour présenter un environnement utilisateur qui permet de télécharger et d’échanger des fichiers en toute sécurité via des pièces jointes de messagerie électronique et de messagerie.\]
 
 Estime le risque d’exécution de code inconnu lorsqu’un gestionnaire est appelé sur un fichier donné. Ce risque est basé sur une compréhension du gestionnaire et le contenu du code du fichier.
 
@@ -58,7 +58,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient le ch
 
 Type : **LPCWSTR**
 
-Pointeur vers une chaîne terminée par le caractère null qui contient l’extension du fichier qui est vérifié, avec ou sans son point de début. Par exemple, « . txt » ou « txt ».
+Pointeur vers une chaîne terminée par le caractère null qui contient l’extension du fichier qui est vérifié, avec ou sans son point de début. Par exemple, « .txt » ou « txt ».
 
 </dd> <dt>
 
@@ -135,24 +135,24 @@ Le format de fichier est spécifiquement bloqué pour ce gestionnaire.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’est pas déclarée dans un en-tête public ou incluse dans un fichier de bibliothèque. Pour l’utiliser, vous devez la charger directement à partir de Winshfhc.dll par l’ordinal 101.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                           |
 | DLL<br/>                      | <dl> <dt>Winshfhc.dll (version 5,1 ou ultérieure)</dt> </dl> |
 
 

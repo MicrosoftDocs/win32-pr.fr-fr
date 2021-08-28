@@ -1,19 +1,19 @@
 ---
 title: Rendre en utilisant le convertisseur de texte personnalisé
-description: Une disposition de texte DirectWrite \ 160 ; peut être dessinée par un convertisseur de texte personnalisé dérivé de IDWriteTextRenderer.
+description: une disposition de texte DirectWrite \ 160 ; peut être dessinée par un convertisseur de texte personnalisé dérivé de IDWriteTextRenderer.
 ms.assetid: a5b09733-24b2-408e-a1f9-cf7ad20c5c63
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17cda56fc5cc38a62e48a2f62066edfec2327e9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c6f8e08bb8af3ce7fa0ae4d423103feb597e17cf46ab53b42903fad143c675db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902872"
 ---
 # <a name="render-using-a-custom-text-renderer"></a>Rendre en utilisant le convertisseur de texte personnalisé
 
-Une [](direct-write-portal.md) [**disposition de texte**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) DirectWrite peut être dessinée par un convertisseur de texte personnalisé dérivé de [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer). Un convertisseur personnalisé est nécessaire pour tirer parti de certaines fonctionnalités avancées de DirectWrite, telles que le rendu sur une surface bitmap ou GDI, les objets inline et les effets de dessin client. Ce didacticiel décrit les méthodes de **IDWriteTextRenderer** et fournit un exemple d’implémentation qui utilise [Direct2D](../direct2d/direct2d-portal.md) pour restituer le texte avec un remplissage bitmap.
+une [](direct-write-portal.md) [**disposition de texte**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) DirectWrite peut être dessinée par un convertisseur de texte personnalisé dérivé de [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer). un convertisseur personnalisé est nécessaire pour tirer parti de certaines fonctionnalités avancées de DirectWrite, telles que le rendu sur une surface bitmap ou GDI, les objets inline et les effets de dessin client. Ce didacticiel décrit les méthodes de **IDWriteTextRenderer** et fournit un exemple d’implémentation qui utilise [Direct2D](../direct2d/direct2d-portal.md) pour restituer le texte avec un remplissage bitmap.
 
 Ce didacticiel contient les éléments suivants :
 
@@ -30,7 +30,7 @@ Ce didacticiel contient les éléments suivants :
 
 Votre convertisseur de texte personnalisé doit implémenter les méthodes héritées de IUnknown en plus des méthodes listées dans la page de référence [**IDWriteTextRenderer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextrenderer) et ci-dessous.
 
-Pour obtenir le code source complet du convertisseur de texte personnalisé, consultez les fichiers CustomTextRenderer. cpp et CustomTextRenderer. h de l' [exemple DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples).
+pour obtenir le code source complet du convertisseur de texte personnalisé, consultez les fichiers CustomTextRenderer. cpp et CustomTextRenderer. h de l' [exemple DirectWrite Hello World](/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## <a name="the-constructor"></a>Le constructeur
 
@@ -49,7 +49,7 @@ Pour cette raison, le constructeur prend les paramètres figurant dans le tablea
 
 
 
- 
+ 
 
 Celles-ci seront stockées par le constructeur comme indiqué dans le code suivant.
 
@@ -361,6 +361,6 @@ hr = pTextLayout_->Draw(
 
 La méthode [**IDWriteTextLayout ::D RAW**](/windows/win32/api/dwrite/nf-dwrite-idwritetextlayout-draw) appelle les méthodes du rappel de convertisseur personnalisé que vous fournissez. Les méthodes [**DrawGlyphRun**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawglyphrun), [**DrawUnderline**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawunderline), [**DrawInlineObject**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawinlineobject)et [**DrawStrikethrough**](/windows/win32/api/dwrite/nf-dwrite-idwritetextrenderer-drawstrikethrough) décrites ci-dessus effectuent les fonctions de dessin.
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 1fc1901e-8c4d-4ef1-8c38-52d46ce10a48
 title: Handle HRECOGNIZER (Récapitulatifis. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e78086ff86453ef8b0157bb3b274f3c47be0dc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 192890991dcb7e8b0a0086bbca68a6ccbc2af790d9c7d78e76fe963d268c8240
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318474"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092449"
 ---
 # <a name="hrecognizer-handle"></a>Handle HRECOGNIZER
 
@@ -22,7 +22,7 @@ typedef HANDLE HRECOGNIZER;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions suivantes utilisent un **HRECOGNIZER**.
 
@@ -51,7 +51,7 @@ Les fonctions suivantes utilisent un **HRECOGNIZER**.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                        |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                            |
 | En-tête<br/>                   | <dl> <dt>Récapitulatif</dt> </dl> |
 

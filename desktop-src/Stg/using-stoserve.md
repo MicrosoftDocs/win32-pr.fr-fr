@@ -4,12 +4,12 @@ description: StoServe est une DLL destinée principalement à un serveur COM.
 ms.assetid: 32cb284a-de78-4953-9d8e-5bb87d6d5a97
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d46dfd4070e9951223e0a498184b8db814c7a43
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7e3a220f03e17892b02a94c1e76bafc4a869c0922973c7277589627d233175a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120034749"
 ---
 # <a name="using-stoserve"></a>Utilisation de StoServe
 
@@ -31,6 +31,6 @@ Dans cette série, les Makefiles utilisent l’utilitaire REGISTER.EXE à partir
 
 **StoServe** utilise de nombreux services et classes utilitaires fournis par apputil. Pour plus d’informations sur APPUTIL, examinez le code source de la bibliothèque APPUTIL dans le répertoire APPUTIL frère et APPUTIL.HTM dans le répertoire principal du didacticiel.
 
- 
+ 
 
- 
+ 

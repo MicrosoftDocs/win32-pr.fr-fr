@@ -4,16 +4,16 @@ ms.assetid: 8d27a921-5638-43ac-807d-e3bd7b9b2de8
 title: Mélange non carré
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79d23f423f0dbe19f1ff0ba35c44f8fd2f8732bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4674891b7b9d44cb35522b6040723bc71436d677b10a4326d9f00a269ce3aff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102407"
 ---
 # <a name="non-square-mixing"></a>Mélange non carré
 
-Cette rubrique s’applique à Windows XP Service Pack 2 ou version ultérieure.
+cette rubrique s’applique à Windows XP Service Pack 2 ou version ultérieure.
 
 Lorsque VMR-9 mélange deux flux ou plus, il y a deux points où la mise à l’échelle peut se produire : lorsque le mélange composite les flux d’entrée, et lorsque l’Allocator-Presenter effectue le rendu de l’image composite.
 
@@ -21,7 +21,7 @@ Lorsque VMR-9 mélange deux flux ou plus, il y a deux points où la mise à l’
 
 Les versions précédentes de VMR-9 ont toujours composé les flux d’entrée à l’aide d’un ratio de pixels carré (1:1), même s’il n’y avait qu’un seul flux vidéo. Si le flux d’entrée comportait des pixels non carrés, cela provoquait une opération de mise à l’échelle inutile. La mise à l’échelle doit être évitée, bien sûr, car elle dégrade la qualité finale de l’image.
 
-À compter de Windows XP Service Pack 2, VMR-9 prend en charge deux méthodes différentes pour éviter le problème de la double mise à l’échelle :
+à compter de Windows XP Service Pack 2, VMR-9 prend en charge deux méthodes différentes pour éviter le problème de double mise à l’échelle :
 
 -   Implémentez un Allocator-Presenter personnalisé et prenez en charge l’interface [**IVMRSurfaceAllocatorEx9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrsurfaceallocatorex9) .
 -   Utilisez le mode de mélange non carré.
@@ -30,7 +30,7 @@ Cette section décrit le mode de mélange non carré. Les applications peuvent c
 
 **Fonctionnement du mixage non carré**
 
-En mode de mélange non carré, VMR-9 sélectionne un flux d’entrée comme taille cible et PAR défaut. Le mélangeur VMR ne met pas à l’échelle la vidéo à partir de ce flux ou de tout autre flux avec la même taille et la même image. Les flux avec une taille ou un proportions différentes sont mis à l’échelle pour correspondre au PAR-dessus cible et à letterboxed pour correspondre à la taille finale de l’image de sortie.
+En mode de mélange non carré, VMR-9 sélectionne un flux d’entrée comme taille cible et PAR défaut. Le mélangeur VMR ne met pas à l’échelle la vidéo à partir de ce flux ou de tout autre flux avec la même taille et la même image. les Flux avec une taille ou un proportions différentes sont mis à l’échelle pour correspondre au PAR-letterboxed cible et à la taille finale de l’image de sortie.
 
 Le choix des flux dépend du mode de mixage actuel :
 

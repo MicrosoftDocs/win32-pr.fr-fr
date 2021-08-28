@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 761afe13638d7905b5d4a639b7100108ce6ec977
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b3f0d56702da29b4ddd0557c7d8f1f18e8addd8
+ms.sourcegitcommit: 4665ebce0c106bdb52eef36e544280b496b6f50b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122987287"
 ---
 # <a name="jet_dbinfomisc3-structure"></a>Structure JET_DBINFOMISC3
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_dbinfomisc3-structure"></a>Structure JET_DBINFOMISC3
 
@@ -83,100 +83,30 @@ Version native du moteur de base de données qui a créé la base de données. C
 
 Effectue le suivi des mises à jour incrémentielles du format de base de données qui sont à compatibilité descendante.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>ulVersion, ulUpdate =</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0x620, 0</p></td>
-<td><p>Format bêta du système d’exploitation d’origine (4/22/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 1</p></td>
-<td><p>Ajoutez des colonnes dans le catalogue pour l’indexation conditionnelle et l’ancienne (5/29/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 2</p></td>
-<td><p>Ajoutez l’indicateur fLocalizedText dans IDB (6/5/97).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 3</p></td>
-<td><p>Ajoutez des SPLIT_BUFFER à des pages racine de l’arborescence d’espace (10/30/97).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 2</p></td>
-<td><p>Rétablissez la révision pour que ESE97 reste compatible avec les versions ultérieures (1/28/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 3</p></td>
-<td><p>Ajoutez de nouvelles colonnes avec balises au catalogue ( &quot; CallbackData &quot; et &quot; CallbackDependencies &quot; ).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 4</p></td>
-<td><p>Prise en charge de SLV : signSLV, fSLVExists dans l’en-tête de base de connaissances (5/5/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 5</p></td>
-<td><p>Nouvelle arborescence d’espace SLV (5/29/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 6</p></td>
-<td><p>Table d’espace SLV (10/12/98).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 7</p></td>
-<td><p>IDXSEG de 4 octets (12/10/98).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 8</p></td>
-<td><p>Nouveau format de colonne de modèle (1/25/99).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 9</p></td>
-<td><p>Colonnes de modèle triées (6/24/99).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, A</p></td>
-<td><p>Base de code fusionné (3/26/2003).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, B</p></td>
-<td><p>Nouveau format de somme de contrôle (1/08/2004).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, C</p></td>
-<td><p>Augmentation de la longueur maximale de la clé à 1000/2000 octets pour les pages de 4/8 Ko (1/15/2004).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, D</p></td>
-<td><p>Indicateurs d’espace de catalogue, space_header. v2 (7/15/2007).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, E</p></td>
-<td><p>Ajoutez un nouveau format de nœud/extension au gestionnaire d’espace, utilisez-le pour les pools d’espace réservés (8/9/2007).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, F</p></td>
-<td><p>Compression pour les valeurs longues intrinsèques (10/30/2007).</p></td>
-</tr>
-<tr class="odd">
-<td><p>0x620, 10</p></td>
-<td><p>Compression pour les valeurs Long séparées (12/05/2007).</p></td>
-</tr>
-<tr class="even">
-<td><p>0x620, 11</p></td>
-<td><p>Nouvelle taille de segment VL pour les pages de grande taille (12/29/2007).</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>ulVersion, ulUpdate =</p> | <p>Signification</p> | 
+|------------------------------|----------------|
+| <p>0x620, 0</p> | <p>Format bêta du système d’exploitation d’origine (4/22/97).</p> | 
+| <p>0x620, 1</p> | <p>Ajoutez des colonnes dans le catalogue pour l’indexation conditionnelle et l’ancienne (5/29/97).</p> | 
+| <p>0x620, 2</p> | <p>Ajoutez l’indicateur fLocalizedText dans IDB (6/5/97).</p> | 
+| <p>0x620, 3</p> | <p>Ajoutez des SPLIT_BUFFER à des pages racine de l’arborescence d’espace (10/30/97).</p> | 
+| <p>0x620, 2</p> | <p>Rétablissez la révision pour que ESE97 reste compatible avec les versions ultérieures (1/28/98).</p> | 
+| <p>0x620, 3</p> | <p>Ajoutez de nouvelles colonnes avec balises au catalogue (« CallbackData » et « CallbackDependencies »).</p> | 
+| <p>0x620, 4</p> | <p>Prise en charge de SLV : signSLV, fSLVExists dans l’en-tête de base de connaissances (5/5/98).</p> | 
+| <p>0x620, 5</p> | <p>Nouvelle arborescence d’espace SLV (5/29/98).</p> | 
+| <p>0x620, 6</p> | <p>Table d’espace SLV (10/12/98).</p> | 
+| <p>0x620, 7</p> | <p>IDXSEG de 4 octets (12/10/98).</p> | 
+| <p>0x620, 8</p> | <p>Nouveau format de colonne de modèle (1/25/99).</p> | 
+| <p>0x620, 9</p> | <p>Colonnes de modèle triées (6/24/99).</p> | 
+| <p>0x620, A</p> | <p>Base de code fusionné (3/26/2003).</p> | 
+| <p>0x620, B</p> | <p>Nouveau format de somme de contrôle (1/08/2004).</p> | 
+| <p>0x620, C</p> | <p>Augmentation de la longueur maximale de la clé à 1000/2000 octets pour les pages de 4/8 Ko (1/15/2004).</p> | 
+| <p>0x620, D</p> | <p>Indicateurs d’espace de catalogue, space_header. v2 (7/15/2007).</p> | 
+| <p>0x620, E</p> | <p>Ajoutez un nouveau format de nœud/extension au gestionnaire d’espace, utilisez-le pour les pools d’espace réservés (8/9/2007).</p> | 
+| <p>0x620, F</p> | <p>Compression pour les valeurs longues intrinsèques (10/30/2007).</p> | 
+| <p>0x620, 10</p> | <p>Compression pour les valeurs Long séparées (12/05/2007).</p> | 
+| <p>0x620, 11</p> | <p>Nouvelle taille de segment VL pour les pages de grande taille (12/29/2007).</p> | 
+
 
 
 **signDb**
@@ -189,45 +119,15 @@ Il s’agit de l’état de la base de données.
 
 Les options suivantes sont disponibles pour ce membre.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Valeur</p></th>
-<th><p>Signification</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>JET_dbstateJustCreated<br />
-1</p></td>
-<td><p>La base de données vient d’être créée.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateDirtyShutdown<br />
-2</p></td>
-<td><p>La base de données nécessite une récupération matérielle ou logicielle pour être utilisable ou déplaçable. L’un ne doit pas essayer de déplacer des bases de données dans cet État.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateCleanShutdown<br />
-3</p></td>
-<td><p>La base de données est dans un état propre. La base de données peut être jointe sans aucun fichier journal.</p></td>
-</tr>
-<tr class="even">
-<td><p>JET_dbstateBeingConverted<br />
-4</p></td>
-<td><p>La base de données est en cours de mise à niveau.</p></td>
-</tr>
-<tr class="odd">
-<td><p>JET_dbstateForceDetach<br />
-5</p></td>
-<td><p>Internes.</p></td>
-</tr>
-</tbody>
-</table>
+
+| <p>Valeur</p> | <p>Signification</p> | 
+|--------------|----------------|
+| <p>JET_dbstateJustCreated<br />1</p> | <p>La base de données vient d’être créée.</p> | 
+| <p>JET_dbstateDirtyShutdown<br />2</p> | <p>La base de données nécessite une récupération matérielle ou logicielle pour être utilisable ou déplaçable. L’un ne doit pas essayer de déplacer des bases de données dans cet État.</p> | 
+| <p>JET_dbstateCleanShutdown<br />3</p> | <p>La base de données est dans un état propre. La base de données peut être jointe sans aucun fichier journal.</p> | 
+| <p>JET_dbstateBeingConverted<br />4</p> | <p>La base de données est en cours de mise à niveau.</p> | 
+| <p>JET_dbstateForceDetach<br />5</p> | <p>Internes.</p> | 
+
 
 
 **lgposConsistent**
@@ -366,26 +266,13 @@ Génération de journal actuelle. Cette valeur peut être inférieure à genMaxR
 
 ### <a name="requirements"></a>Configuration requise
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
-</tr>
-<tr class="odd">
-<td><p><strong>En-tête</strong></p></td>
-<td><p>Déclaré dans esent. h.</p></td>
-</tr>
-</tbody>
-</table>
+
+| Condition requise | Valeur |
+|------------|----------|
+| <p><strong>Client</strong></p> | <p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p> | 
+| <p><strong>Serveur</strong></p> | <p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p> | 
+| <p><strong>En-tête</strong></p> | <p>Déclaré dans esent. h.</p> | 
+
 
 
 ### <a name="see-also"></a>Voir aussi

@@ -4,12 +4,12 @@ ms.assetid: 976e170d-2941-473b-b48d-3c53ff5251b2
 title: AVEncDDLtRtCenterMixLvl_x10, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbeb950e77ada2111c395412b43f687bf8ac1c30
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c18f166ed22942acf5211712ca25708c20e61e88474e565aac3e47021f457a71
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103479"
 ---
 # <a name="avencddltrtcentermixlvl_x10-property"></a>AVEncDDLtRtCenterMixLvl \_ x10, propriété
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture/écriture.
 
 La valeur est spécifiée comme décibels (dB) x 10.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est en lecture/écriture.
 
@@ -39,8 +39,8 @@ Cette propriété est en lecture/écriture.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

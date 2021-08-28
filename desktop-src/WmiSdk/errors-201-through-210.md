@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Erreurs 201 à 210
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cba508de9d88ea01a7e173d687331560f5e26e6addaca50d1745df9cab869e10
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: f941a9d27044973fed7cfc5cda018af527737ab2
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119050897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122885020"
 ---
 # <a name="errors-201-through-210"></a>Erreurs 201 à 210
 
@@ -40,7 +40,7 @@ Décrit les erreurs du fournisseur SNMP WMI 201 à 210.
 
 <dl> <dt>
 
-<span id="_201__Fatal_____fileName___line____Syntax_Error_in_the_SYNTAX_clause__Last_token_read_is__token__"></span><span id="_201__fatal_____filename___line____syntax_error_in_the_syntax_clause__last_token_read_is__token__"></span><span id="_201__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_SYNTAX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<201,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause de syntaxe, la dernière lecture de jeton est <token> "**
+<span id="_201__Fatal_____fileName___line____Syntax_Error_in_the_SYNTAX_clause__Last_token_read_is__token__"></span><span id="_201__fatal_____filename___line____syntax_error_in_the_syntax_clause__last_token_read_is__token__"></span><span id="_201__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_SYNTAX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<201,> irrécupérable : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause de syntaxe, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreur dans la clause syntaxique de la définition de TYPE objet MIB.
@@ -51,7 +51,7 @@ Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreu
 
 <dl> <dt>
 
-<span id="_202__Fatal_____fileName___line____Syntax_Error_in_the_ACCESS_clause__Last_token_read_is__token__"></span><span id="_202__fatal_____filename___line____syntax_error_in_the_access_clause__last_token_read_is__token__"></span><span id="_202__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ACCESS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<202,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause d’accès, la dernière lecture de jeton est <token> "**
+<span id="_202__Fatal_____fileName___line____Syntax_Error_in_the_ACCESS_clause__Last_token_read_is__token__"></span><span id="_202__fatal_____filename___line____syntax_error_in_the_access_clause__last_token_read_is__token__"></span><span id="_202__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ACCESS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<202,> irrécupérable : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause d’accès, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreur dans la clause ACCESS de la définition de TYPE objet MIB.
@@ -62,7 +62,7 @@ Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreu
 
 <dl> <dt>
 
-<span id="_203__Fatal_____fileName___line____Syntax_Error_in_the_STATUS_clause__Last_token_read_is__token__"></span><span id="_203__fatal_____filename___line____syntax_error_in_the_status_clause__last_token_read_is__token__"></span><span id="_203__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_STATUS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<203,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause Status, la dernière lecture de jeton est <token> "**
+<span id="_203__Fatal_____fileName___line____Syntax_Error_in_the_STATUS_clause__Last_token_read_is__token__"></span><span id="_203__fatal_____filename___line____syntax_error_in_the_status_clause__last_token_read_is__token__"></span><span id="_203__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_STATUS_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<203,> fatale : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause Status, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreur dans la clause STATUs de la définition de TYPE objet MIB.
@@ -73,7 +73,7 @@ Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreu
 
 <dl> <dt>
 
-<span id="_204__Fatal_____fileName___line____Syntax_Error_in_the_DESCRIPTION_clause__Last_token_read_is__token__"></span><span id="_204__fatal_____filename___line____syntax_error_in_the_description_clause__last_token_read_is__token__"></span><span id="_204__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DESCRIPTION_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<204,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause de description, la dernière lecture de jeton est <token> "**
+<span id="_204__Fatal_____fileName___line____Syntax_Error_in_the_DESCRIPTION_clause__Last_token_read_is__token__"></span><span id="_204__fatal_____filename___line____syntax_error_in_the_description_clause__last_token_read_is__token__"></span><span id="_204__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DESCRIPTION_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<204,> irrécupérable : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause de description, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, **type d’objet** ou appel de macro de **type d’interruption** . Il y a une erreur dans la clause DESCRIPTION de la définition de type d’objet ou d’interruption MIB.
@@ -84,7 +84,7 @@ Erreur de syntaxe de module, **type d’objet** ou appel de macro de **type d’
 
 <dl> <dt>
 
-<span id="_205__Fatal_____fileName___line____Syntax_Error_in_the_REFERENCE_clause__Last_token_read_is__token__"></span><span id="_205__fatal_____filename___line____syntax_error_in_the_reference_clause__last_token_read_is__token__"></span><span id="_205__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_REFERENCE_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<205,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause de référence, la dernière <token> lecture de jeton est**"
+<span id="_205__Fatal_____fileName___line____Syntax_Error_in_the_REFERENCE_clause__Last_token_read_is__token__"></span><span id="_205__fatal_____filename___line____syntax_error_in_the_reference_clause__last_token_read_is__token__"></span><span id="_205__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_REFERENCE_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<205,> fatale : " &lt; fileName &gt; : <Line \#> : erreur de syntaxe dans la clause Reference, la dernière lecture de jeton est &lt; Token &gt;**"
 </dt> <dd>
 
 Erreur de syntaxe de module, **type d’objet** ou appel de macro de **type d’interruption** . Il y a une erreur dans la clause de référence de la définition de type d’objet ou d’interruption MIB.
@@ -95,7 +95,7 @@ Erreur de syntaxe de module, **type d’objet** ou appel de macro de **type d’
 
 <dl> <dt>
 
-<span id="_206__Fatal_____fileName___line____Syntax_Error_in_the_INDEX_clause__Last_token_read_is__token__"></span><span id="_206__fatal_____filename___line____syntax_error_in_the_index_clause__last_token_read_is__token__"></span><span id="_206__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_INDEX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<206,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause d’index, la dernière lecture de jeton est <token> "**
+<span id="_206__Fatal_____fileName___line____Syntax_Error_in_the_INDEX_clause__Last_token_read_is__token__"></span><span id="_206__fatal_____filename___line____syntax_error_in_the_index_clause__last_token_read_is__token__"></span><span id="_206__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_INDEX_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<206,> irrécupérable : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause d’index, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreur dans la clause d’INDEX de la définition de TYPE d’objet MIB.
@@ -106,7 +106,7 @@ Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreu
 
 <dl> <dt>
 
-<span id="_207__Fatal_____fileName___line____Syntax_Error_in_the_DEFVAL_clause__Last_token_read_is__token__"></span><span id="_207__fatal_____filename___line____syntax_error_in_the_defval_clause__last_token_read_is__token__"></span><span id="_207__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DEFVAL_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<207,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause DEFVAL, la dernière lecture de jeton est <token> "**
+<span id="_207__Fatal_____fileName___line____Syntax_Error_in_the_DEFVAL_clause__Last_token_read_is__token__"></span><span id="_207__fatal_____filename___line____syntax_error_in_the_defval_clause__last_token_read_is__token__"></span><span id="_207__FATAL_____FILENAME___LINE____SYNTAX_ERROR_IN_THE_DEFVAL_CLAUSE__LAST_TOKEN_READ_IS__TOKEN__"></span>**<207,> fatale : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause DEFVAL, la dernière lecture de jeton est &lt; Token &gt; "**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreur dans la clause DEFVAL de la définition de TYPE d’objet MIB.
@@ -117,7 +117,7 @@ Erreur de syntaxe de module, appel **de macro de type objet** . Il y a une erreu
 
 <dl> <dt>
 
-<span id="_208__Information____Skipping_OBJECT-TYPE__identifier__"></span><span id="_208__information____skipping_object-type__identifier__"></span><span id="_208__INFORMATION____SKIPPING_OBJECT-TYPE__IDENTIFIER__"></span>**<208,> d’informations : « TYPE d’objet ignoré <identifier> »**
+<span id="_208__Information____Skipping_OBJECT-TYPE__identifier__"></span><span id="_208__information____skipping_object-type__identifier__"></span><span id="_208__INFORMATION____SKIPPING_OBJECT-TYPE__IDENTIFIER__"></span>**<208,> d’informations : "ignorance de l’identificateur de TYPE objet &lt; &gt; "**
 </dt> <dd>
 
 Chaque fois que des erreurs 201-207 se produisent, ce message vous informe que l’appel **de type objet** est ignoré.
@@ -128,7 +128,7 @@ Chaque fois que des erreurs 201-207 se produisent, ce message vous informe que l
 
 <dl> <dt>
 
-<span id="_209__Fatal____fileName___line____Syntax_Error_in_the_ENTERPRISE_clause._Last_token_read_is__token__"></span><span id="_209__fatal____filename___line____syntax_error_in_the_enterprise_clause._last_token_read_is__token__"></span><span id="_209__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ENTERPRISE_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<209,> irrécupérable : " <fileName> : <ligne \#> : erreur de syntaxe dans la clause Enterprise. La dernière lecture de jeton est <token> «**
+<span id="_209__Fatal____fileName___line____Syntax_Error_in_the_ENTERPRISE_clause._Last_token_read_is__token__"></span><span id="_209__fatal____filename___line____syntax_error_in_the_enterprise_clause._last_token_read_is__token__"></span><span id="_209__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_ENTERPRISE_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<209,> fatale : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause Enterprise. La dernière lecture de jeton est &lt; Token &gt; »**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type Trap** . Il y a une erreur de syntaxe dans la clause ENTERPRISE de la définition de TYPE TRAP MIB.
@@ -139,7 +139,7 @@ Erreur de syntaxe de module, appel **de macro de type Trap** . Il y a une erreur
 
 <dl> <dt>
 
-<span id="_210__Fatal____fileName___line____Syntax_Error_in_the_VARIABLES_clause._Last_token_read_is__token__"></span><span id="_210__fatal____filename___line____syntax_error_in_the_variables_clause._last_token_read_is__token__"></span><span id="_210__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_VARIABLES_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<210,> fatale : " <fileName> : <\#> de ligne : erreur de syntaxe dans la clause variables. La dernière lecture de jeton est <token> «**
+<span id="_210__Fatal____fileName___line____Syntax_Error_in_the_VARIABLES_clause._Last_token_read_is__token__"></span><span id="_210__fatal____filename___line____syntax_error_in_the_variables_clause._last_token_read_is__token__"></span><span id="_210__FATAL____FILENAME___LINE____SYNTAX_ERROR_IN_THE_VARIABLES_CLAUSE._LAST_TOKEN_READ_IS__TOKEN__"></span>**<210,> fatale : " &lt; filename &gt; : <Line \#> : erreur de syntaxe dans la clause variables. La dernière lecture de jeton est &lt; Token &gt; »**
 </dt> <dd>
 
 Erreur de syntaxe de module, appel **de macro de type Trap** . Il existe une erreur de syntaxe dans la clause VARIABLES de la définition de TYPE TRAP MIB.

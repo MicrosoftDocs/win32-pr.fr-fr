@@ -4,12 +4,12 @@ ms.assetid: d8390bd4-0339-4955-992c-92b8c9f6bf88
 title: Sous-types vidéo DV (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cbacb15f5801d959fbc5150546cff04dea687753
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87ee08bad5970d016ada2bf129132bf34261be9ba856071d9f90f1e73de91978
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120102949"
 ---
 # <a name="dv-video-subtypes"></a>Sous-types vidéo DV
 
@@ -31,7 +31,7 @@ Un certain nombre de sous-types sont définis pour la vidéo DV. Chaque possède
 
 Reportez-vous à IEC-61834 pour plus d’informations sur ces formats.
 
-## <a name="professional-formats"></a>Formats professionnels
+## <a name="professional-formats"></a>Professional Formats
 
 
 
@@ -39,7 +39,7 @@ Reportez-vous à IEC-61834 pour plus d’informations sur ces formats.
 |--------|--------------------|-----------|---------------------------------------------|
 | 'dv25' | MEDIASUBTYPE \_ DV25 | 25 Mbits/s   | DVCPRO 25 (525-60 ou 625-50).               |
 | 'dv50' | MEDIASUBTYPE \_ DV50 | 50 Mbits/s   | DVCPRO 50 (525-60 ou 625-50)                |
-| 'dvh1' | MEDIASUBTYPE \_ dvh1 | 100 Mbits/s  | DVCPRO 100 (1080/60i, 1080/50i, ou 720/60P) |
+| 'dvh1' | MEDIASUBTYPE \_ dvh1 | 100 Mbits/s  | DVCPRO 100 (1080/60i, 1080/50i, ou 720/60P) |
 
 
 
@@ -62,24 +62,24 @@ Deux sous-types DV supplémentaires sont définis dans le fichier d’en-tête U
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant indique les débits de données pris en charge, en mégabits par seconde (Mbits/s), pour les pilotes MSDV et UVC.
 
 
 
-| Système d’exploitation                                                                 | Pilote MSDV (IEEE 1394) | Pilote UVC    |
+| Système d'exploitation                                                                 | Pilote MSDV (IEEE 1394) | Pilote UVC    |
 |----------------------------------------------------------------------------------|-------------------------|---------------|
 | Windows XP Service Pack 1 ou version antérieure                                             | 12,5, 25                | Non disponible |
-| Windows XP Service Pack 2 ou version ultérieure, Windows Server 2003 Service Pack 1 ou version ultérieure. | 12,5, 25, 50, 100       | 12,5, 25      |
+| Windows XP service pack 2 ou version ultérieure, Windows Server 2003 service pack 1 ou version ultérieure. | 12,5, 25, 50, 100       | 12,5, 25      |
 
 
 
  
 
-Pour les flux de 25 Mbits/s, le comportement du pilote MSDV a changé dans Windows Vista avant Windows Vista, le pilote MSDV a toujours défini le type de média sur MEDIASUBTYPE \_ DVSD pour les flux de 25 Mbits/s, que la source soit SDL-magnétoscope ou DVCPRO 25. Le type de média « DV25 » n’a pas été utilisé. À compter de Windows Vista, le pilote MSDV distingue maintenant ces deux formats. Pour SDL-magnétoscope, il continue d’utiliser le sous-type « DVSD ». Pour DVCPRO 25, elle utilise désormais le sous-type « DV25 ».
+pour les flux de 25 mbits/s, le comportement du pilote MSDV a changé dans Windows vista avant Windows vista, le pilote MSDV a toujours défini le type de média sur MEDIASUBTYPE \_ dvsd pour les flux de 25 mbits/s, que la source soit SDL-magnétoscope ou DVCPRO 25. Le type de média « DV25 » n’a pas été utilisé. à partir de Windows Vista, le pilote MSDV distingue maintenant ces deux formats. Pour SDL-magnétoscope, il continue d’utiliser le sous-type « DVSD ». Pour DVCPRO 25, elle utilise désormais le sous-type « DV25 ».
 
-Les filtres de décodage [DV](dv-splitter-filter.md) DirectShow et [DV Video](dv-video-decoder-filter.md) ne prennent en charge que les formats de magnétoscope numérique SDL. Les données peuvent être PAL ou NTSC. Des filtres ou codecs tiers peuvent être disponibles pour analyser d’autres formats DV, à condition que le débit de données soit pris en charge par le pilote MSDV ou UVC.
+les filtres [](dv-splitter-filter.md) de [décodage dv Video et dv](dv-video-decoder-filter.md) DirectShow prennent uniquement en charge les formats de magnétoscope numérique SDL. Les données peuvent être PAL ou NTSC. Des filtres ou codecs tiers peuvent être disponibles pour analyser d’autres formats DV, à condition que le débit de données soit pris en charge par le pilote MSDV ou UVC.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -95,7 +95,7 @@ Les filtres de décodage [DV](dv-splitter-filter.md) DirectShow et [DV Video](dv
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> <dt>
 
 [Pilote MSDV](msdv-driver.md)

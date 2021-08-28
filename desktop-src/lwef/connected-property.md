@@ -4,12 +4,12 @@ description: Propriété Connected
 ms.assetid: 61b7f550-d8d6-4719-a0d4-0bf3a8cf096c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6af3a44e97236060733adc55ec6e44eddd0b1d8879250b2a28b54c0bca384cac
-ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.openlocfilehash: d19326f7770bbd4a42f6ff66a4517cd6151f3c54
+ms.sourcegitcommit: 61a4c522182aa1cacbf5669683d9570a3bf043b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "119726090"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "122884930"
 ---
 # <a name="connected-property"></a>Propriété Connected
 
@@ -43,7 +43,7 @@ Retourne ou définit une valeur indiquant si le contrôle en cours est connecté
 
 ## <a name="remarks"></a>Remarques
 
-Dans de nombreux cas, la spécification du contrôle crée automatiquement une connexion avec le serveur Microsoft Agent. Par exemple, la spécification du CLSID du contrôle Microsoft Agent dans la <OBJECT> balise d’une page Web ouvre automatiquement une connexion au serveur et la fermeture de la page ferme la connexion. de même, pour les Visual Basic ou d’autres langages qui vous permettent de supprimer un contrôle dans un formulaire, l’exécution automatique du programme ouvre une connexion et la fermeture du programme ferme la connexion. Si le serveur n’est pas en cours d’exécution, il démarre automatiquement.
+Dans de nombreux cas, la spécification du contrôle crée automatiquement une connexion avec le serveur Microsoft Agent. Par exemple, la spécification du CLSID du contrôle Microsoft Agent dans &lt; la &gt; balise Object dans une page Web ouvre automatiquement une connexion au serveur et la fermeture de la page ferme la connexion. de même, pour les Visual Basic ou d’autres langages qui vous permettent de supprimer un contrôle dans un formulaire, l’exécution automatique du programme ouvre une connexion et la fermeture du programme ferme la connexion. Si le serveur n’est pas en cours d’exécution, il démarre automatiquement.
 
 Toutefois, si vous souhaitez créer un contrôle d’agent au moment de l’exécution, vous devrez peut-être également ouvrir explicitement une nouvelle connexion au serveur à l’aide de la propriété **Connected** . par exemple, dans Visual Basic vous pouvez créer un objet ActiveX au moment de l’exécution à l’aide de l’instruction Set avec le mot clé **New** (ou la fonction CreateObject). Bien que cette opération crée l’objet, elle risque de ne pas créer la connexion au serveur. Vous pouvez utiliser la propriété **Connected** avant tout code qui appelle l’interface de programmation de Microsoft Agent, comme indiqué dans l’exemple suivant :
 
@@ -120,7 +120,7 @@ Vous pouvez fermer votre connexion au serveur en libérant toutes les référenc
 
 
 > [!Note]  
-> Vous ne pouvez pas fermer votre connexion au serveur en libérant les références où le composant a été ajouté. par exemple, vous ne pouvez pas fermer votre connexion au serveur sur des pages web où vous utilisez la <OBJECT> balise pour déclarer le contrôle ou dans une application de Visual Basic où vous déposez le contrôle sur un formulaire. Si la libération de toutes les références d’agent réduit la plage de travail de l’agent, la connexion est conservée jusqu’à ce que vous atteigniez la page suivante ou que vous quittiez l’application.
+> Vous ne pouvez pas fermer votre connexion au serveur en libérant les références où le composant a été ajouté. par exemple, vous ne pouvez pas fermer votre connexion au serveur sur des pages web où vous utilisez &lt; la &gt; balise OBJECT pour déclarer le contrôle ou dans une application de Visual Basic où vous déposez le contrôle sur un formulaire. Si la libération de toutes les références d’agent réduit la plage de travail de l’agent, la connexion est conservée jusqu’à ce que vous atteigniez la page suivante ou que vous quittiez l’application.
 
  
 

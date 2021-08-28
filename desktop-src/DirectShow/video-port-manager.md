@@ -4,12 +4,12 @@ ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Gestionnaire de port vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db4f030e6be9035432207dc608a775a0e1d30b09
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 0fb7a31d21592bd94579ad608fb453e2a2ec0a264d674f807b404a43f2a0bc1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903512"
 ---
 # <a name="video-port-manager"></a>Gestionnaire de port vidéo
 
@@ -39,19 +39,19 @@ Le filtre VPM (Video Port Manager Filter) permet au filtre de mélangeur vidéo 
 
 ## <a name="remarks"></a>Remarques
 
-Le gestionnaire de port vidéo combine les fonctionnalités de port vidéo du [filtre de mixage de superposition](overlay-mixer-filter.md) et les fonctionnalités de l' [allocateur de surface VBI](vbi-surface-allocator.md). Le VPM alloue des ports vidéo et des surfaces, et synchronise la capture de données à partir du port vidéo. Il autorise la capture basée sur le port vidéo qui est indépendante du rendu. Si l’aperçu est souhaité, VPM coordonne avec VMR-7 pour afficher les données de port vidéo capturées. Lorsqu’un port vidéo est présent sur le système, le filtre de capture requiert des mémoires tampons supplémentaires pour extraire les données VBI du flux vidéo. Ces mémoires tampons sont fournies par VPM. Une fois que le filtre de capture a extrait les données VBI, il les remet sur un code confidentiel distinct aux filtres tels que le décodeur CC. L’illustration suivante montre le VPM et ses connexions dans un graphique de filtre.
+le gestionnaire de port vidéo combine la fonctionnalité de port vidéo de la [superposition Mixer le filtre](overlay-mixer-filter.md) et les fonctionnalités de l' [allocateur de Surface VBI](vbi-surface-allocator.md). Le VPM alloue des ports vidéo et des surfaces, et synchronise la capture de données à partir du port vidéo. Il autorise la capture basée sur le port vidéo qui est indépendante du rendu. Si l’aperçu est souhaité, VPM coordonne avec VMR-7 pour afficher les données de port vidéo capturées. Lorsqu’un port vidéo est présent sur le système, le filtre de capture requiert des mémoires tampons supplémentaires pour extraire les données VBI du flux vidéo. Ces mémoires tampons sont fournies par VPM. Une fois que le filtre de capture a extrait les données VBI, il les remet sur un code confidentiel distinct aux filtres tels que le décodeur CC. L’illustration suivante montre le VPM et ses connexions dans un graphique de filtre.
 
 ![segment de graphique de filtre du gestionnaire de port vidéo](images/vpm.png)
 
-Le générateur de graphiques de DVD ajoute automatiquement le VPM au graphique de filtre lorsqu’un port vidéo est détecté sur le système. Une fois ajouté au graphique, VPM utilise un objet DirectDraw fourni par le convertisseur de mixage vidéo pour allouer deux ou trois surfaces. Ces surfaces reçoivent les images numérisées du filtre de capture en amont. En réponse aux notifications d’événements en mode utilisateur envoyées lorsque des données sont présentes dans la surface, VPM effectue un blit automatique sur une surface hors écran fournie par VMR.
+le générateur de Graph DVD ajoute automatiquement le VPM au graphique de filtre lorsqu’un port vidéo est détecté sur le système. Une fois ajouté au graphique, VPM utilise un objet DirectDraw fourni par le convertisseur de mixage vidéo pour allouer deux ou trois surfaces. Ces surfaces reçoivent les images numérisées du filtre de capture en amont. En réponse aux notifications d’événements en mode utilisateur envoyées lorsque des données sont présentes dans la surface, VPM effectue un blit automatique sur une surface hors écran fournie par VMR.
 
-Le fait que le VPM utilise plusieurs surfaces pour ses mémoires tampons d’entrée signifie qu’il nécessite plus de VRAM que l’implémentation précédente du port vidéo DirectShow. Le blit supplémentaire du VPM au VMR-7 nécessite une bande passante de mémoire vidéo supplémentaire. Et étant donné que le basculement automatique du matériel n’est plus utilisé, il existe un potentiel théorique pour les images supprimées, mais la preuve empirique suggère que cela ne se produit pas.
+le fait que le VPM utilise plusieurs surfaces pour ses mémoires tampons d’entrée signifie qu’il nécessite plus de VRAM que l’implémentation précédente du port vidéo DirectShow. Le blit supplémentaire du VPM au VMR-7 nécessite une bande passante de mémoire vidéo supplémentaire. Et étant donné que le basculement automatique du matériel n’est plus utilisé, il existe un potentiel théorique pour les images supprimées, mais la preuve empirique suggère que cela ne se produit pas.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> <dt>
 
 [**Interface IVPManager**](/windows/desktop/api/Strmif/nn-strmif-ivpmanager)

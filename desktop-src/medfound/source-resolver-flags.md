@@ -4,12 +4,12 @@ ms.assetid: fe0b9090-5d2a-41a4-a806-57c874d3b3a2
 title: Indicateurs de résolveur source (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31efe47f75151f78958903cb514653edb6c5aa08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c779a54467390abf6cfb186f6b76043fd19617f5d129b88e6697a45c01708510
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119847819"
 ---
 # <a name="source-resolver-flags"></a>Indicateurs de résolveur source
 
@@ -29,7 +29,7 @@ Définit le comportement du programme de résolution source. Ces indicateurs son
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’application définit ces indicateurs quand elle utilise l’interface [**IMFSourceResolver**](/windows/desktop/api/mfidl/nn-mfidl-imfsourceresolver) . Le programme de résolution source transmet les mêmes indicateurs aux méthodes [**IMFByteStreamHandler :: BeginCreateObject**](/windows/desktop/api/mfidl/nf-mfidl-imfbytestreamhandler-begincreateobject) et [**IMFSchemeHandler :: BeginCreateObject**](/windows/desktop/api/mfidl/nf-mfidl-imfschemehandler-begincreateobject) .
 
@@ -51,8 +51,8 @@ L' \_ indicateur de \_ maintien \_ du \_ flux d’octets actif de la résolution
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 
